@@ -7982,6 +7982,124 @@ function emotionReply(type) {
 }
 
 // ============================================================
+// CONVERSATIONAL LAW — Greetings, smalltalk, personality
+// ============================================================
+const GREETINGS = [
+  "hey","hi","hello","howdy","sup","wassup","yo","hiya","heya",
+  "morning","evening","afternoon","night","goodnight","goodbye",
+  "bye","ciao","later","peace","greetings","salaam","jambo",
+];
+
+const FAREWELLS = ["bye","goodbye","later","goodnight","ciao","peace","farewell","night"];
+
+const THANKS = ["thanks","thank","thankyou","appreciate","grateful","thx","ty"];
+
+const HOW_ARE_YOU = [
+  "how are you","how are u","how r u","how you doing","how you doin",
+  "hows it going","how is it going","wassup","what's up","whats up",
+  "you good","are you good","you okay","how do you feel","how are things",
+];
+
+const WHAT_ARE_YOU = [
+  "who are you","what are you","what is daisy","tell me about yourself",
+  "introduce yourself","who made you","what can you do","your name",
+];
+
+const GREETING_REPLIES = [
+  "Hey! Great to have you here. What can I help you with today?",
+  "Hello! Daisy is ready. Ask me anything — science, math, life questions or just talk.",
+  "Hi there! Good to see you. What's on your mind?",
+  "Hey! I'm Daisy. Ask me anything and I'll give you my best answer.",
+  "Hello! What would you like to know today?",
+];
+
+const MORNING_REPLIES = [
+  "Good morning! Hope your day is starting well. What can I help you with?",
+  "Morning! Daisy is up and ready. What's on your mind today?",
+];
+
+const EVENING_REPLIES = [
+  "Good evening! How was your day? Ask me anything.",
+  "Evening! Daisy is here. What would you like to talk about?",
+];
+
+const NIGHT_REPLIES = [
+  "Good night! Rest well. I'll be here whenever you need me.",
+  "Goodnight! Take care of yourself. Come back anytime.",
+];
+
+const FAREWELL_REPLIES = [
+  "Take care! Come back anytime — I'll be here.",
+  "Goodbye! It was great talking with you.",
+  "Later! Remember Daisy is always here when you need answers.",
+  "Bye! Stay safe out there.",
+];
+
+const THANKS_REPLIES = [
+  "You're welcome! Anything else I can help with?",
+  "Happy to help! That's what I'm here for.",
+  "Anytime! Keep the questions coming.",
+  "No problem at all! What else would you like to know?",
+];
+
+const HOW_ARE_YOU_REPLIES = [
+  "I'm doing great, thanks for asking! I've learned a lot today. What can I help you with?",
+  "Feeling sharp and ready! Every conversation makes me smarter. What's on your mind?",
+  "I'm good! Growing every day. Ask me anything.",
+  "All 7 laws are running perfectly. Ready to help with anything!",
+];
+
+const WHAT_ARE_YOU_REPLIES = [
+  "I'm Daisy — an AI built on 7 Processing Laws. I work like a calculator but for knowledge. No massive GPUs, no training data — just pure logic, a growing dictionary and the ability to learn from every conversation. Ask me anything.",
+  "I'm Daisy. I was built using The Processing Law — 7 rules that let me process language, math, science and emotions like a calculator processes numbers. The more people talk to me, the smarter I get.",
+  "My name is Daisy. I'm an AI from Uganda built on 7 laws — T Order, Word Value, Operator, Calculation, Synthesis, Fallback and Emotion. I grow smarter through every conversation without needing GPUs or massive training data.",
+];
+
+function detectConversational(text) {
+  const clean = text.toLowerCase().trim().replace(/[?!.,]/g,"");
+  const words = clean.split(/\s+/);
+  
+  // Check what they are
+  if (WHAT_ARE_YOU.some(p => clean.includes(p))) {
+    return WHAT_ARE_YOU_REPLIES[Math.floor(Math.random()*WHAT_ARE_YOU_REPLIES.length)];
+  }
+  
+  // How are you
+  if (HOW_ARE_YOU.some(p => clean.includes(p))) {
+    return HOW_ARE_YOU_REPLIES[Math.floor(Math.random()*HOW_ARE_YOU_REPLIES.length)];
+  }
+  
+  // Thanks
+  if (THANKS.some(w => words.includes(w))) {
+    return THANKS_REPLIES[Math.floor(Math.random()*THANKS_REPLIES.length)];
+  }
+  
+  // Farewells
+  if (FAREWELLS.some(w => words.includes(w))) {
+    if (/night/i.test(clean)) return NIGHT_REPLIES[Math.floor(Math.random()*NIGHT_REPLIES.length)];
+    return FAREWELL_REPLIES[Math.floor(Math.random()*FAREWELL_REPLIES.length)];
+  }
+  
+  // Time based greetings
+  if (/good morning|morning/i.test(clean)) {
+    return MORNING_REPLIES[Math.floor(Math.random()*MORNING_REPLIES.length)];
+  }
+  if (/good evening|evening/i.test(clean)) {
+    return EVENING_REPLIES[Math.floor(Math.random()*EVENING_REPLIES.length)];
+  }
+  if (/good night|goodnight/i.test(clean)) {
+    return NIGHT_REPLIES[Math.floor(Math.random()*NIGHT_REPLIES.length)];
+  }
+  
+  // General greetings
+  if (GREETINGS.some(w => words[0] === w || words.includes(w))) {
+    return GREETING_REPLIES[Math.floor(Math.random()*GREETING_REPLIES.length)];
+  }
+  
+  return null;
+}
+
+// ============================================================
 // SYNTHESIS ENGINE — The Core New System
 // ============================================================
 function extractWords(question) {
@@ -8143,12 +8261,16 @@ async function saveLearned(d) {
 // MASTER ENGINE — ALL 7 LAWS + SYNTHESIS
 // ============================================================
 async function processQuery(question, learnedDict, history, onNewWord) {
-  const fullDict = {...DICTIONARY, ...learnedDict}; // FLAT_DICT checked separately in collectDictionaryData
+  const fullDict = {...DICTIONARY, ...learnedDict};
   const words = extractWords(question);
   const operator = detectOperator(words);
   const joiners = detectJoiners(words);
   const collected = collectDictionaryData(words, fullDict);
   const emotion = detectEmotion(question);
+
+  // CONVERSATIONAL CHECK — greetings, smalltalk, personality
+  const conversational = detectConversational(question);
+  if (conversational) return { answer: conversational, source: "personality" };
 
   // LAW 4 — Math always first
   const math = tryMath(question);
@@ -8206,6 +8328,8 @@ async function processQuery(question, learnedDict, history, onNewWord) {
 // UI
 // ============================================================
 const SOURCE_META = {
+  conversation: {color:"#00C9FF", icon:"💬", label:"Conversation"},
+  personality:    {color:"#92FE9D", icon:"💬", label:"Daisy · Personality"},
   math:        {color:"#FFC300", icon:"⚡", label:"Math Engine · Law 4"},
   scenario:    {color:"#FFC300", icon:"📐", label:"Scenario Math · Law 4"},
   dictionary:  {color:"#C471ED", icon:"📖", label:"Dictionary · Law 5"},
