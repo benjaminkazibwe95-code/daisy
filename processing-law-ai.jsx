@@ -127,6 +127,124 @@ const DICTIONARY = {
   inference_rule: "A rule used to derive conclusions from premises",
   proof_system: "A structured method for proving statements",
   mathematical_proof: "A logical demonstration that a statement is true",
+  electric_current: "Flow of electric charge through a conductor",
+voltage: "Electrical force that pushes current through a circuit",
+resistance: "Opposition to flow of electric current",
+ohms_law: "Relationship between voltage, current, and resistance",
+
+circuit: "Closed path through which electricity flows",
+series_circuit: "Circuit where components are connected in one path",
+parallel_circuit: "Circuit where components are connected in multiple paths",
+
+power: "Rate at which energy is used or transferred",
+work_done: "Energy transferred when a force moves an object",
+
+kinetic_energy: "Energy possessed by a moving object",
+potential_energy: "Stored energy due to position or condition",
+
+wave: "Disturbance that transfers energy without moving matter",
+amplitude: "Maximum height of a wave",
+wavelength: "Distance between two wave peaks",
+frequency: "Number of wave cycles per second",
+
+reflection: "Bouncing back of light or sound from a surface",
+refraction: "Bending of light when it passes through materials",
+diffraction: "Spreading of waves around obstacles",
+
+magnetic_field: "Area around a magnet where magnetic force acts",
+electromagnet: "Magnet created using electric current",
+
+newtons_first_law: "Object stays at rest or motion unless acted on by force",
+newtons_second_law: "Force equals mass times acceleration",
+newtons_third_law: "Every action has an equal and opposite reaction",
+
+momentum: "Mass in motion",
+impulse: "Change in momentum caused by a force",
+
+pressure: "Force applied per unit area",
+atmospheric_pressure: "Pressure exerted by air in the atmosphere",
+
+buoyancy: "Upward force exerted by a fluid on an object",
+density_difference: "Variation in mass per volume affecting floating behavior"
+  cell: "Basic structural and functional unit of the human body",
+tissue: "Group of similar cells working together to perform a function",
+organ: "Body structure made of tissues that performs a specific job",
+organ_system: "Group of organs working together to perform major body functions",
+organism: "A complete living human being",
+
+skin: "Outer protective layer of the body that prevents infection and water loss",
+hair: "Protein filament that protects skin and regulates temperature",
+nails: "Hard protective coverings at fingertips and toes",
+
+skeletal_system: "Body system that provides structure, support, and protection",
+bone: "Hard connective tissue forming the skeleton",
+skull: "Bone structure protecting the brain",
+spine: "Column of bones supporting the body and protecting the spinal cord",
+rib_cage: "Bones protecting the heart and lungs",
+
+muscular_system: "System responsible for movement of the body",
+muscle: "Tissue that contracts to produce movement",
+tendon: "Tissue connecting muscle to bone",
+ligament: "Tissue connecting bone to bone",
+
+circulatory_system: "System that transports blood, oxygen, and nutrients around the body",
+heart: "Muscular organ that pumps blood",
+blood: "Fluid that carries oxygen, nutrients, and waste",
+artery: "Blood vessel carrying blood away from the heart",
+vein: "Blood vessel carrying blood back to the heart",
+capillary: "Tiny blood vessel where exchange of substances happens",
+
+respiratory_system: "System responsible for breathing and gas exchange",
+lungs: "Organs that take in oxygen and remove carbon dioxide",
+trachea: "Air passage connecting throat to lungs",
+bronchi: "Airways branching into the lungs",
+alveoli: "Tiny air sacs where oxygen enters blood",
+
+digestive_system: "System that breaks down food and absorbs nutrients",
+mouth: "Entry point for food digestion",
+teeth: "Structures that break food into smaller pieces",
+esophagus: "Tube that carries food to the stomach",
+stomach: "Organ that breaks down food using acid and enzymes",
+small_intestine: "Organ where most nutrient absorption occurs",
+large_intestine: "Organ that absorbs water and forms waste",
+liver: "Organ that processes nutrients and detoxifies chemicals",
+pancreas: "Organ that produces enzymes and regulates blood sugar",
+
+nervous_system: "System that controls body activities and responses",
+brain: "Control center of the body",
+spinal_cord: "Pathway for signals between brain and body",
+neurons: "Nerve cells that transmit electrical signals",
+synapse: "Connection point between neurons",
+
+endocrine_system: "System that controls hormones in the body",
+hormone: "Chemical messenger that regulates body functions",
+thyroid: "Gland that controls metabolism",
+pituitary_gland: "Master gland controlling other endocrine glands",
+adrenal_gland: "Gland producing stress hormones",
+
+immune_system: "Body defense system against disease",
+white_blood_cells: "Cells that fight infection",
+antibodies: "Proteins that identify and neutralize harmful substances",
+pathogen: "Disease-causing organism",
+
+urinary_system: "System that removes waste and balances body fluids",
+kidney: "Organ that filters blood and produces urine",
+ureter: "Tube carrying urine from kidney to bladder",
+bladder: "Organ that stores urine",
+urethra: "Tube that releases urine from the body",
+
+reproductive_system: "System responsible for producing offspring",
+ovary: "Female organ producing eggs",
+testes: "Male organs producing sperm",
+uterus: "Organ where fetus develops",
+sperm: "Male reproductive cell",
+egg_cell: "Female reproductive cell",
+
+homeostasis: "Process of maintaining stable internal body conditions",
+metabolism: "All chemical reactions that occur in the body to sustain life",
+temperature_regulation: "Process of maintaining stable body temperature",
+oxygen_transport: "Movement of oxygen through blood to body cells",
+nutrient_absorption: "Process of taking nutrients from food into the blood"
   axiomatic_system: "A system built on fundamental assumptions",
   set_theory: "Study of collections of objects",
   function_mapping: "Relationship between inputs and outputs",
@@ -134,6 +252,68 @@ const DICTIONARY = {
   graph_theory: "Study of networks of nodes and edges",
   node: "A point in a graph or network",
   edge: "A connection between nodes in a graph",
+  photosynthesis: "Process where plants convert sunlight into food using carbon dioxide and water",
+respiration: "Process where living organisms release energy from food",
+cell_division: "Process where a cell splits into two new cells",
+mitosis: "Type of cell division producing identical cells",
+meiosis: "Type of cell division producing reproductive cells",
+
+enzyme: "Protein that speeds up chemical reactions in the body",
+protein: "Large molecules needed for body growth and repair",
+carbohydrate: "Nutrient that provides energy to the body",
+lipid: "Fat-based nutrient used for energy storage",
+vitamin: "Organic compound needed in small amounts for health",
+
+oxygen: "Gas needed by most living organisms for respiration",
+carbon_dioxide: "Gas produced during respiration and used in photosynthesis",
+nitrogen: "Gas that makes up most of Earth's atmosphere",
+hydrogen: "Lightest element and part of water molecules",
+
+acid: "Substance that releases hydrogen ions in water",
+base: "Substance that neutralizes acids",
+salt: "Compound formed from acid-base reaction",
+
+solution: "Mixture where one substance is dissolved in another",
+mixture: "Combination of substances not chemically joined",
+filtration: "Process of separating solids from liquids",
+evaporation: "Process where liquid turns into gas",
+
+boiling_point: "Temperature at which a liquid becomes a gas",
+melting_point: "Temperature at which a solid becomes a liquid",
+freezing_point: "Temperature at which a liquid becomes a solid",
+
+force: "Push or pull that changes motion of an object",
+friction: "Force that resists motion between surfaces",
+inertia: "Tendency of an object to resist change in motion",
+acceleration: "Rate of change of velocity",
+
+velocity: "Speed in a given direction",
+speed: "How fast something moves",
+distance: "Total length traveled by an object",
+displacement: "Shortest path between starting and ending point",
+
+energy_transfer: "Movement of energy from one object or system to another",
+heat_transfer: "Movement of thermal energy between objects",
+conduction: "Heat transfer through direct contact",
+convection: "Heat transfer through fluid movement",
+radiation: "Heat transfer through waves",
+
+solar_system: "Sun and all objects orbiting it",
+planet: "Large object orbiting a star",
+moon: "Natural satellite orbiting a planet",
+asteroid: "Small rocky object in space",
+comet: "Icy object that releases gas and dust when near the sun",
+
+earth_rotation: "Spin of Earth on its axis causing day and night",
+earth_revolution: "Movement of Earth around the sun causing seasons",
+
+weathering: "Breakdown of rocks into smaller pieces",
+erosion: "Movement of soil and rock by wind or water",
+deposition: "Process where sediments are dropped and settle",
+
+volcano: "Opening in Earth's crust where lava erupts",
+earthquake: "Sudden shaking of Earth's surface",
+tectonic_plate: "Large moving section of Earth's crust"
   directed_graph: "A graph where connections have direction",
   undirected_graph: "A graph where connections have no direction",
   weighted_graph: "A graph with values assigned to edges",
