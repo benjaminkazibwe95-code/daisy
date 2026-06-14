@@ -1,24 +1,194 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 // ============================================================
-// LAW 1 — T ORDER LAW: Every letter = a number
+// LAW 1 — T ORDER
 // ============================================================
 const T_ORDER = {};
-for (let i = 0; i < 26; i++) {
-  T_ORDER[String.fromCharCode(65 + i)] = i + 1;
-}
-
-function encodeWord(word) {
-  return word.toUpperCase().split("").filter(c => T_ORDER[c]).map(c => T_ORDER[c]);
-}
+for (let i = 0; i < 26; i++) T_ORDER[String.fromCharCode(65 + i)] = i + 1;
+function wordValue(w) { return w.toUpperCase().split("").filter(c => T_ORDER[c]).reduce((a, b) => a + T_ORDER[b], 0); }
 
 // ============================================================
-// LAW 2 — WORD VALUE LAW: Every word has a fixed defined value
+// LAW 2 — RICH DICTIONARY (multi-field entries)
 // ============================================================
 const DICTIONARY = {
-  water: "A clear liquid, chemical formula H2O, essential for life",
+  water: {
+    definition: "a clear liquid compound of hydrogen and oxygen",
+    what_it_does: "sustains all known life on Earth",
+    without_it: "no life can survive",
+    examples: "oceans, rivers, rain, drinking water",
+    related: ["liquid","hydrogen","oxygen","life"],
+  },
+  gravity: {
+    definition: "the force that attracts all objects with mass toward each other",
+    what_it_does: "keeps everything grounded on Earth and holds planets in orbit",
+    without_it: "all objects, air, water and living things would drift into space",
+    examples: "an apple falling, the moon orbiting Earth, tides",
+    related: ["force","mass","orbit","weight","acceleration"],
+  },
+  fire: {
+    definition: "rapid chemical oxidation that releases heat and light",
+    what_it_does: "produces energy, heat and light through burning",
+    without_it: "combustion and many chemical reactions would not exist",
+    examples: "candle flame, forest fire, burning wood",
+    related: ["heat","oxygen","combustion","energy"],
+  },
+  sun: {
+    definition: "the star at the center of our solar system",
+    what_it_does: "provides light and heat that sustains life on Earth",
+    without_it: "Earth would freeze and all life would end",
+    examples: "sunrise, solar energy, sunlight",
+    related: ["star","light","heat","solar","energy"],
+  },
+  electricity: {
+    definition: "the flow of electric charge through a conductor",
+    what_it_does: "powers machines, lights, communication and modern life",
+    without_it: "all modern technology would stop functioning",
+    examples: "lightning, power grids, batteries, circuits",
+    related: ["current","voltage","power","conductor","energy"],
+  },
+  photosynthesis: {
+    definition: "the process by which plants convert sunlight, water and CO2 into food",
+    what_it_does: "produces oxygen and glucose that sustain life on Earth",
+    without_it: "plants would die and oxygen levels would collapse",
+    examples: "leaves absorbing sunlight, crops growing, algae in oceans",
+    related: ["sunlight","water","oxygen","plants","glucose"],
+  },
+  energy: {
+    definition: "the capacity to do work or cause change in a system",
+    what_it_does: "powers all movement, heat, light and chemical reactions",
+    without_it: "nothing in the universe could move or change",
+    examples: "electricity, heat, light, motion, food",
+    related: ["power","force","heat","light","motion"],
+  },
+  atom: {
+    definition: "the smallest unit of a chemical element that retains its properties",
+    what_it_does: "forms all matter in the universe by combining into molecules",
+    without_it: "no matter or physical substances would exist",
+    examples: "hydrogen atom, carbon atom, oxygen atom",
+    related: ["proton","neutron","electron","molecule","element"],
+  },
+  evolution: {
+    definition: "the process by which species change over generations through natural selection",
+    what_it_does: "explains the diversity of all life on Earth",
+    without_it: "all species would remain unchanged and many would go extinct",
+    examples: "humans evolving from primates, birds from dinosaurs, antibiotic resistance",
+    related: ["species","natural selection","genes","adaptation","biology"],
+  },
+  dna: {
+    definition: "the molecule that carries genetic instructions for all living organisms",
+    what_it_does: "determines traits, guides development and enables inheritance",
+    without_it: "life could not reproduce or pass on characteristics",
+    examples: "eye color genes, inherited diseases, forensic DNA testing",
+    related: ["genes","chromosome","protein","cell","heredity"],
+  },
+  oxygen: {
+    definition: "a chemical element essential for respiration and combustion",
+    what_it_does: "enables breathing in animals and burning in fire",
+    without_it: "animals cannot breathe and fire cannot burn",
+    examples: "air we breathe, medical oxygen, combustion",
+    related: ["air","breathing","fire","water","atmosphere"],
+  },
+  brain: {
+    definition: "the organ that controls all body functions and processes thought",
+    what_it_does: "processes information, controls movement and generates consciousness",
+    without_it: "no thought, movement or bodily function could occur",
+    examples: "thinking, memory, dreaming, controlling heartbeat",
+    related: ["neuron","memory","thought","nervous system","intelligence"],
+  },
+  internet: {
+    definition: "a global network of interconnected computers sharing information",
+    what_it_does: "connects billions of people and enables communication worldwide",
+    without_it: "global communication, commerce and information sharing would collapse",
+    examples: "websites, email, social media, online shopping",
+    related: ["network","computer","data","communication","technology"],
+  },
+  virus: {
+    definition: "a microscopic infectious agent that replicates inside living cells",
+    what_it_does: "hijacks host cells to reproduce, often causing disease",
+    without_it: "many diseases like flu, HIV and COVID would not exist",
+    examples: "influenza, HIV, COVID-19, common cold",
+    related: ["bacteria","disease","immune system","cell","infection"],
+  },
+  democracy: {
+    definition: "a system of government where citizens elect their leaders",
+    what_it_does: "gives people power over their government through voting",
+    without_it: "citizens have no say in how they are governed",
+    examples: "elections, parliament, voting, Uganda's government",
+    related: ["government","election","freedom","constitution","rights"],
+  },
+  ai: {
+    definition: "the simulation of human intelligence by machines and computer systems",
+    what_it_does: "processes information, learns patterns and solves complex problems",
+    without_it: "machines could only follow fixed instructions with no adaptability",
+    examples: "ChatGPT, facial recognition, self-driving cars, recommendation systems",
+    related: ["machine learning","computer","data","algorithm","technology"],
+  },
+  mathematics: {
+    definition: "the science of numbers, quantities, shapes and their relationships",
+    what_it_does: "provides tools for solving problems in science, engineering and life",
+    without_it: "science, engineering, finance and technology would not function",
+    examples: "algebra, geometry, calculus, statistics",
+    related: ["numbers","equations","geometry","algebra","calculation"],
+  },
+  climate: {
+    definition: "the long-term pattern of weather in a region over many years",
+    what_it_does: "determines what plants grow, how people live and weather patterns",
+    without_it: "ecosystems would have no stable patterns to adapt to",
+    examples: "tropical climate in Uganda, Arctic cold, desert heat",
+    related: ["weather","temperature","rainfall","environment","seasons"],
+  },
+  education: {
+    definition: "the process of acquiring knowledge and skills through learning and teaching",
+    what_it_does: "develops individuals and enables societies to progress",
+    without_it: "knowledge cannot be passed between generations",
+    examples: "schools, universities, reading, training",
+    related: ["knowledge","school","learning","skills","teacher"],
+  },
+  money: {
+    definition: "a medium of exchange used in transactions for goods and services",
+    what_it_does: "enables trade, saving and economic activity between people",
+    without_it: "people would have to barter goods directly",
+    examples: "Uganda shilling, US dollar, digital payments",
+    related: ["economy","trade","bank","wealth","finance"],
+  },
+};
+
+// ============================================================
+// JOINER DICTIONARY — How words connect sentences
+// ============================================================
+const JOINERS = {
+  // Conditional
+  if: { type: "conditional", frame: "if [X], then [result]" },
+  when: { type: "time_condition", frame: "when [X] happens, [result]" },
+  unless: { type: "exception", frame: "[result] unless [X]" },
+  // Cause
+  because: { type: "cause", frame: "[result] because [X]" },
+  since: { type: "cause", frame: "since [X], [result]" },
+  due: { type: "cause", frame: "due to [X], [result]" },
+  // Result
+  therefore: { type: "result", frame: "[X], therefore [result]" },
+  thus: { type: "result", frame: "[X], thus [result]" },
+  would: { type: "outcome", frame: "if [X], [outcome] would occur" },
+  // Contrast
+  but: { type: "contrast", frame: "[X], but [contrast]" },
+  however: { type: "contrast", frame: "[X]. However, [contrast]" },
+  although: { type: "contrast", frame: "although [X], [contrast]" },
+  // Addition
+  also: { type: "addition", frame: "[X]. It also [addition]" },
+  and: { type: "addition", frame: "[X] and [addition]" },
+  additionally: { type: "addition", frame: "[X]. Additionally, [addition]" },
+  // Comparison
+  than: { type: "comparison", frame: "[X] more than [comparison]" },
+  like: { type: "similarity", frame: "[X] works like [comparison]" },
+  // Purpose
+  to: { type: "purpose", frame: "[X] in order to [purpose]" },
+  for: { type: "purpose", frame: "[X] for the purpose of [purpose]" },
+};
+
+const FLAT_DICT = {
+  water: "Clear liquid essential for life",
   fire: "Rapid oxidation releasing heat and light",
-  sun: "The star at the center of our solar system",
+  sun: "Star that provides light and heat",
   earth: "The third planet from the sun, our home world",
   air: "The mixture of gases surrounding the Earth, mainly nitrogen and oxygen",
   human: "A member of the species Homo sapiens, an intelligent being",
@@ -26,16 +196,16 @@ const DICTIONARY = {
   mathematics: "The science of numbers, quantities, and shapes",
   science: "The systematic study of the natural world through observation",
   love: "A deep feeling of affection and care for someone or something",
-  time: "The indefinite continued progress of existence and events",
+  time: "Measurement of events and duration",
   space: "The boundless three-dimensional extent of the universe",
   energy: "The capacity to do work or cause change",
   life: "The condition that distinguishes organisms from inorganic matter",
   death: "The permanent cessation of all biological functions",
-  money: "A medium of exchange used in transactions",
-  food: "Any nutritious substance eaten to maintain life and growth",
+  money: "System used to buy and sell goods",
+  food: "Anything eaten for nourishment",
   health: "The state of being free from illness or injury",
-  education: "The process of receiving or giving systematic instruction",
-  language: "A system of communication used by a community",
+  education: "The process of learning and gaining knowledge",
+  language: "A system of communication using words and symbols",
   africa: "The world's second largest continent",
   nigeria: "A country in West Africa, most populous African nation",
   python: "A high-level programming language known for simplicity",
@@ -43,39 +213,38 @@ const DICTIONARY = {
   god: "The supreme being, creator of the universe in many religions",
   government: "The system by which a state or community is governed",
   technology: "The application of scientific knowledge for practical purposes",
-  internet: "A global network connecting millions of computers worldwide",
+  internet: "Global system connecting digital devices",
   book: "A written or printed work consisting of pages bound together",
   music: "Vocal or instrumental sounds combined to produce beauty",
-  football: "A sport played between two teams of eleven players with a ball",
+  football: "A sport played by two teams trying to score goals with a ball",
   medicine: "The science and practice of diagnosing and treating disease",
   law: "A system of rules recognized by a community or country",
   war: "Armed conflict between nations or groups",
-  atom: "The smallest unit of an element that retains its chemical properties",
+  atom: "The smallest unit of an element that retains its properties",
   molecule: "A group of atoms chemically bonded together",
   element: "A pure substance made of only one type of atom",
   proton: "A positively charged particle found in an atom's nucleus",
   neutron: "A neutral particle found in an atom's nucleus",
   electron: "A negatively charged particle that moves around an atom's nucleus",
-  nucleus: "The central part of an atom containing protons and neutrons",
-  energy: "The capacity to do work or cause change",
-  force: "An influence that changes the motion of an object",
+  nucleus: "The control center of a cell containing genetic material",
+  force: "Push or pull that changes motion of an object",
   motion: "The act of changing position over time",
-  speed: "The rate at which an object moves",
-  velocity: "The speed of an object in a particular direction",
-  acceleration: "The rate at which velocity changes with time",
+  speed: "How fast something operates or moves",
+  velocity: "Speed in a given direction",
+  acceleration: "Rate of change of velocity",
   mass: "The amount of matter contained in an object",
   weight: "The force exerted on an object due to gravity",
   density: "The amount of mass in a given volume of a substance",
   volume: "The amount of space occupied by an object",
-  pressure: "The force applied per unit area",
-  temperature: "The measure of how hot or cold something is",
+  pressure: "The amount of force applied over an area",
+  temperature: "The measure of heat in a substance or environment",
   heat: "The transfer of thermal energy between objects",
   light: "Electromagnetic radiation visible to the human eye",
   sound: "Vibrations that travel through a medium and can be heard",
-  electricity: "The flow of electric charge through a conductor",
+  electricity: "A form of energy caused by moving charged particles",
   magnet: "An object that produces a magnetic field",
-  magnetism: "The force produced by magnets and moving electric charges",
-  circuit: "A complete path through which electric current flows",
+  magnetism: "A force produced by magnetic fields that attracts or repels materials",
+  circuit: "A closed path through which electricity flows",
   battery: "A device that stores and provides electrical energy",
   engine: "A machine that converts energy into mechanical motion",
   fuel: "A substance burned or used to produce energy",
@@ -85,13 +254,13 @@ const DICTIONARY = {
   plasma: "A highly energized state of matter containing charged particles",
   academic_research: "Systematic investigation aimed at discovering new knowledge",
   peer_review: "Evaluation of work by experts in the same field",
-  hypothesis: "A testable explanation for a phenomenon",
-  theory: "A well-supported explanation based on evidence and reasoning",
-  experiment: "A controlled procedure used to test a hypothesis",
+  hypothesis: "A proposed explanation that can be tested",
+  theory: "An explanation supported by evidence and observations",
+  experiment: "A test performed to discover or verify facts",
   variable_control: "Keeping certain factors constant in an experiment",
   data_collection: "The process of gathering information for analysis",
-  observation: "Careful watching and recording of events",
-  measurement: "Assigning numbers or values to objects or events",
+  observation: "The act of carefully watching and recording information",
+  measurement: "The process of determining size, quantity, or degree",
   quantification: "Expressing something in numerical form",
   qualitative_data: "Non-numerical descriptive information",
   quantitative_data: "Numerical information used for analysis",
@@ -128,123 +297,99 @@ const DICTIONARY = {
   proof_system: "A structured method for proving statements",
   mathematical_proof: "A logical demonstration that a statement is true",
   electric_current: "Flow of electric charge through a conductor",
-voltage: "Electrical force that pushes current through a circuit",
-resistance: "Opposition to flow of electric current",
-ohms_law: "Relationship between voltage, current, and resistance",
-
-circuit: "Closed path through which electricity flows",
-series_circuit: "Circuit where components are connected in one path",
-parallel_circuit: "Circuit where components are connected in multiple paths",
-
-power: "Rate at which energy is used or transferred",
-work_done: "Energy transferred when a force moves an object",
-
-kinetic_energy: "Energy possessed by a moving object",
-potential_energy: "Stored energy due to position or condition",
-
-wave: "Disturbance that transfers energy without moving matter",
-amplitude: "Maximum height of a wave",
-wavelength: "Distance between two wave peaks",
-frequency: "Number of wave cycles per second",
-
-reflection: "Bouncing back of light or sound from a surface",
-refraction: "Bending of light when it passes through materials",
-diffraction: "Spreading of waves around obstacles",
-
-magnetic_field: "Area around a magnet where magnetic force acts",
-electromagnet: "Magnet created using electric current",
-
-newtons_first_law: "Object stays at rest or motion unless acted on by force",
-newtons_second_law: "Force equals mass times acceleration",
-newtons_third_law: "Every action has an equal and opposite reaction",
-
-momentum: "Mass in motion",
-impulse: "Change in momentum caused by a force",
-
-pressure: "Force applied per unit area",
-atmospheric_pressure: "Pressure exerted by air in the atmosphere",
-
-buoyancy: "Upward force exerted by a fluid on an object",
-density_difference: "Variation in mass per volume affecting floating behavior"
-  cell: "Basic structural and functional unit of the human body",
-tissue: "Group of similar cells working together to perform a function",
-organ: "Body structure made of tissues that performs a specific job",
-organ_system: "Group of organs working together to perform major body functions",
-organism: "A complete living human being",
-
-skin: "Outer protective layer of the body that prevents infection and water loss",
-hair: "Protein filament that protects skin and regulates temperature",
-nails: "Hard protective coverings at fingertips and toes",
-
-skeletal_system: "Body system that provides structure, support, and protection",
-bone: "Hard connective tissue forming the skeleton",
-skull: "Bone structure protecting the brain",
-spine: "Column of bones supporting the body and protecting the spinal cord",
-rib_cage: "Bones protecting the heart and lungs",
-
-muscular_system: "System responsible for movement of the body",
-muscle: "Tissue that contracts to produce movement",
-tendon: "Tissue connecting muscle to bone",
-ligament: "Tissue connecting bone to bone",
-
-circulatory_system: "System that transports blood, oxygen, and nutrients around the body",
-heart: "Muscular organ that pumps blood",
-blood: "Fluid that carries oxygen, nutrients, and waste",
-artery: "Blood vessel carrying blood away from the heart",
-vein: "Blood vessel carrying blood back to the heart",
-capillary: "Tiny blood vessel where exchange of substances happens",
-
-respiratory_system: "System responsible for breathing and gas exchange",
-lungs: "Organs that take in oxygen and remove carbon dioxide",
-trachea: "Air passage connecting throat to lungs",
-bronchi: "Airways branching into the lungs",
-alveoli: "Tiny air sacs where oxygen enters blood",
-
-digestive_system: "System that breaks down food and absorbs nutrients",
-mouth: "Entry point for food digestion",
-teeth: "Structures that break food into smaller pieces",
-esophagus: "Tube that carries food to the stomach",
-stomach: "Organ that breaks down food using acid and enzymes",
-small_intestine: "Organ where most nutrient absorption occurs",
-large_intestine: "Organ that absorbs water and forms waste",
-liver: "Organ that processes nutrients and detoxifies chemicals",
-pancreas: "Organ that produces enzymes and regulates blood sugar",
-
-nervous_system: "System that controls body activities and responses",
-brain: "Control center of the body",
-spinal_cord: "Pathway for signals between brain and body",
-neurons: "Nerve cells that transmit electrical signals",
-synapse: "Connection point between neurons",
-
-endocrine_system: "System that controls hormones in the body",
-hormone: "Chemical messenger that regulates body functions",
-thyroid: "Gland that controls metabolism",
-pituitary_gland: "Master gland controlling other endocrine glands",
-adrenal_gland: "Gland producing stress hormones",
-
-immune_system: "Body defense system against disease",
-white_blood_cells: "Cells that fight infection",
-antibodies: "Proteins that identify and neutralize harmful substances",
-pathogen: "Disease-causing organism",
-
-urinary_system: "System that removes waste and balances body fluids",
-kidney: "Organ that filters blood and produces urine",
-ureter: "Tube carrying urine from kidney to bladder",
-bladder: "Organ that stores urine",
-urethra: "Tube that releases urine from the body",
-
-reproductive_system: "System responsible for producing offspring",
-ovary: "Female organ producing eggs",
-testes: "Male organs producing sperm",
-uterus: "Organ where fetus develops",
-sperm: "Male reproductive cell",
-egg_cell: "Female reproductive cell",
-
-homeostasis: "Process of maintaining stable internal body conditions",
-metabolism: "All chemical reactions that occur in the body to sustain life",
-temperature_regulation: "Process of maintaining stable body temperature",
-oxygen_transport: "Movement of oxygen through blood to body cells",
-nutrient_absorption: "Process of taking nutrients from food into the blood"
+  voltage: "Electrical force that pushes current through a circuit",
+  resistance: "Opposition to flow of electric current",
+  ohms_law: "Relationship between voltage, current, and resistance",
+  series_circuit: "Circuit where components are connected in one path",
+  parallel_circuit: "Circuit where components are connected in multiple paths",
+  power: "The ability or capacity to do something or act in a particular way",
+  work_done: "Energy transferred when a force moves an object",
+  kinetic_energy: "Energy possessed by a moving object",
+  potential_energy: "Stored energy due to position or condition",
+  wave: "Disturbance that transfers energy without moving matter",
+  amplitude: "Maximum height of a wave",
+  wavelength: "Distance between two wave peaks",
+  frequency: "Number of wave cycles per second",
+  reflection: "Bouncing back of light or sound from a surface",
+  refraction: "Bending of light when it passes through materials",
+  diffraction: "Spreading of waves around obstacles",
+  magnetic_field: "Area around a magnet where magnetic force acts",
+  electromagnet: "Magnet created using electric current",
+  newtons_first_law: "Object stays at rest or motion unless acted on by force",
+  newtons_second_law: "Force equals mass times acceleration",
+  newtons_third_law: "Every action has an equal and opposite reaction",
+  momentum: "The quantity of motion possessed by an object",
+  impulse: "Change in momentum caused by a force",
+  atmospheric_pressure: "Force exerted by the weight of air",
+  buoyancy: "Upward force exerted by a fluid on an object",
+  density_difference: "Variation in mass per volume affecting floating behavior",
+  cell: "The basic structural and functional unit of life",
+  tissue: "A group of similar cells working together",
+  organ: "A structure made of tissues that performs a specific function",
+  organ_system: "A group of organs working together in the body",
+  organism: "An individual living thing",
+  skin: "The outer covering of the body",
+  hair: "Thin strands growing from the skin",
+  nails: "Hard protective coverings at fingertips and toes",
+  skeletal_system: "Structure of bones supporting the body",
+  bone: "Hard connective tissue forming the skeleton",
+  skull: "The bony structure that protects the brain",
+  spine: "The column of bones that supports the body and protects the spinal cord",
+  rib_cage: "Bones protecting the heart and lungs",
+  muscular_system: "System enabling movement of the body",
+  muscle: "A tissue that contracts to produce movement",
+  tendon: "A strong tissue connecting muscle to bone",
+  ligament: "A band of tissue connecting bones together",
+  circulatory_system: "System that moves blood through the body",
+  heart: "Muscular organ that pumps blood",
+  blood: "Fluid that carries oxygen, nutrients, and waste",
+  artery: "Blood vessel carrying blood away from the heart",
+  vein: "Blood vessel carrying blood back to the heart",
+  capillary: "Tiny blood vessel where exchange of substances happens",
+  respiratory_system: "System responsible for breathing",
+  lungs: "Organs that take in oxygen and remove carbon dioxide",
+  trachea: "Air passage connecting throat to lungs",
+  bronchi: "Airways branching into the lungs",
+  alveoli: "Tiny air sacs where oxygen enters blood",
+  digestive_system: "System that breaks down food and absorbs nutrients",
+  mouth: "Entry point for food digestion",
+  teeth: "Structures that break food into smaller pieces",
+  esophagus: "Tube that carries food to the stomach",
+  stomach: "An organ that breaks down food during digestion",
+  small_intestine: "Organ where most nutrient absorption occurs",
+  large_intestine: "Organ that absorbs water and forms waste",
+  liver: "An organ that processes nutrients and removes toxins",
+  pancreas: "An organ that produces digestive enzymes and hormones",
+  nervous_system: "System controlling body functions and signals",
+  brain: "Control center of the body",
+  spinal_cord: "Pathway for signals between brain and body",
+  neurons: "Nerve cells that transmit electrical signals",
+  synapse: "Connection point between neurons",
+  endocrine_system: "System of hormone regulation in the body",
+  hormone: "Chemical messenger that regulates body functions",
+  thyroid: "Gland that controls metabolism",
+  pituitary_gland: "Master gland controlling other endocrine glands",
+  adrenal_gland: "Gland producing stress hormones",
+  immune_system: "Body system defending against disease",
+  white_blood_cells: "Cells that fight infection",
+  antibodies: "Proteins that identify and neutralize harmful substances",
+  pathogen: "Disease-causing organism",
+  urinary_system: "System that removes waste and balances body fluids",
+  kidney: "An organ that filters waste from the blood",
+  ureter: "Tube carrying urine from kidney to bladder",
+  bladder: "An organ that stores urine",
+  urethra: "Tube that releases urine from the body",
+  reproductive_system: "System responsible for producing offspring",
+  ovary: "Female organ producing eggs",
+  testes: "Male organs producing sperm",
+  uterus: "Organ where fetus develops",
+  sperm: "Male reproductive cell",
+  egg_cell: "Female reproductive cell",
+  homeostasis: "Maintenance of stable internal body conditions",
+  metabolism: "The chemical processes that sustain life in an organism",
+  temperature_regulation: "Process of maintaining stable body temperature",
+  oxygen_transport: "Movement of oxygen through blood to body cells",
+  nutrient_absorption: "Process of taking nutrients from food into the blood",
   axiomatic_system: "A system built on fundamental assumptions",
   set_theory: "Study of collections of objects",
   function_mapping: "Relationship between inputs and outputs",
@@ -252,68 +397,52 @@ nutrient_absorption: "Process of taking nutrients from food into the blood"
   graph_theory: "Study of networks of nodes and edges",
   node: "A point in a graph or network",
   edge: "A connection between nodes in a graph",
-  photosynthesis: "Process where plants convert sunlight into food using carbon dioxide and water",
-respiration: "Process where living organisms release energy from food",
-cell_division: "Process where a cell splits into two new cells",
-mitosis: "Type of cell division producing identical cells",
-meiosis: "Type of cell division producing reproductive cells",
-
-enzyme: "Protein that speeds up chemical reactions in the body",
-protein: "Large molecules needed for body growth and repair",
-carbohydrate: "Nutrient that provides energy to the body",
-lipid: "Fat-based nutrient used for energy storage",
-vitamin: "Organic compound needed in small amounts for health",
-
-oxygen: "Gas needed by most living organisms for respiration",
-carbon_dioxide: "Gas produced during respiration and used in photosynthesis",
-nitrogen: "Gas that makes up most of Earth's atmosphere",
-hydrogen: "Lightest element and part of water molecules",
-
-acid: "Substance that releases hydrogen ions in water",
-base: "Substance that neutralizes acids",
-salt: "Compound formed from acid-base reaction",
-
-solution: "Mixture where one substance is dissolved in another",
-mixture: "Combination of substances not chemically joined",
-filtration: "Process of separating solids from liquids",
-evaporation: "Process where liquid turns into gas",
-
-boiling_point: "Temperature at which a liquid becomes a gas",
-melting_point: "Temperature at which a solid becomes a liquid",
-freezing_point: "Temperature at which a liquid becomes a solid",
-
-force: "Push or pull that changes motion of an object",
-friction: "Force that resists motion between surfaces",
-inertia: "Tendency of an object to resist change in motion",
-acceleration: "Rate of change of velocity",
-
-velocity: "Speed in a given direction",
-speed: "How fast something moves",
-distance: "Total length traveled by an object",
-displacement: "Shortest path between starting and ending point",
-
-energy_transfer: "Movement of energy from one object or system to another",
-heat_transfer: "Movement of thermal energy between objects",
-conduction: "Heat transfer through direct contact",
-convection: "Heat transfer through fluid movement",
-radiation: "Heat transfer through waves",
-
-solar_system: "Sun and all objects orbiting it",
-planet: "Large object orbiting a star",
-moon: "Natural satellite orbiting a planet",
-asteroid: "Small rocky object in space",
-comet: "Icy object that releases gas and dust when near the sun",
-
-earth_rotation: "Spin of Earth on its axis causing day and night",
-earth_revolution: "Movement of Earth around the sun causing seasons",
-
-weathering: "Breakdown of rocks into smaller pieces",
-erosion: "Movement of soil and rock by wind or water",
-deposition: "Process where sediments are dropped and settle",
-
-volcano: "Opening in Earth's crust where lava erupts",
-earthquake: "Sudden shaking of Earth's surface",
-tectonic_plate: "Large moving section of Earth's crust"
+  photosynthesis: "The process by which plants make food using sunlight",
+  respiration: "The process of releasing energy from food",
+  cell_division: "Process by which cells reproduce",
+  mitosis: "Cell division producing identical cells",
+  meiosis: "Cell division producing reproductive cells",
+  enzyme: "A biological catalyst that speeds up reactions in living organisms",
+  protein: "A nutrient essential for growth and tissue repair",
+  carbohydrate: "A nutrient that provides energy to the body",
+  lipid: "Fat-based nutrient used for energy storage",
+  vitamin: "A substance needed in small amounts for normal growth and health",
+  oxygen: "A gas essential for respiration and combustion",
+  carbon_dioxide: "Gas produced during respiration and used in photosynthesis",
+  nitrogen: "A colorless gas that makes up most of Earth's atmosphere",
+  hydrogen: "The lightest and most abundant element in the universe",
+  acid: "A substance that releases hydrogen ions in water",
+  base: "A substance that can accept hydrogen ions",
+  salt: "A compound formed from the reaction of an acid and a base",
+  solution: "A homogeneous mixture of substances",
+  mixture: "A combination of substances not chemically joined",
+  filtration: "Process of separating solids from liquids",
+  evaporation: "The process of liquid changing into vapor",
+  boiling_point: "Temperature at which a liquid becomes a gas",
+  melting_point: "Temperature at which a solid becomes a liquid",
+  freezing_point: "Temperature at which a liquid becomes a solid",
+  friction: "The force that opposes motion between surfaces",
+  inertia: "The tendency of an object to resist changes in motion",
+  distance: "The amount of space between two points",
+  displacement: "Shortest path between starting and ending point",
+  energy_transfer: "Movement of energy from one object or system to another",
+  heat_transfer: "Movement of thermal energy between objects",
+  conduction: "Heat transfer through direct contact",
+  convection: "Heat transfer through fluid movement",
+  radiation: "Energy emitted as waves or particles",
+  solar_system: "Sun and all objects orbiting it",
+  planet: "Large object orbiting a star",
+  moon: "Natural satellite orbiting a planet",
+  asteroid: "A small rocky body orbiting the Sun",
+  comet: "A celestial object made of ice and dust that orbits the Sun",
+  earth_rotation: "Spin of Earth on its axis causing day and night",
+  earth_revolution: "Movement of Earth around the sun causing seasons",
+  weathering: "Breakdown of rocks into smaller pieces",
+  erosion: "Movement of soil and rock by wind or water",
+  deposition: "Process where sediments are dropped and settle",
+  volcano: "A mountain that erupts molten rock and gases",
+  earthquake: "A sudden shaking of the Earth's surface",
+  tectonic_plate: "Large moving section of Earth's crust",
   directed_graph: "A graph where connections have direction",
   undirected_graph: "A graph where connections have no direction",
   weighted_graph: "A graph with values assigned to edges",
@@ -550,7 +679,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   globalization: "Increasing global interconnectedness",
   cultural_exchange: "Sharing ideas and traditions between cultures",
   multiculturalism: "Coexistence of multiple cultures in a society",
-  tradition: "Long-established customs or beliefs",
+  tradition: "A custom or belief passed from one generation to another",
   heritage: "Cultural legacy passed through generations",
   language_family: "Group of related languages",
   dialect: "Regional variation of a language",
@@ -565,7 +694,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   folklore: "Traditional beliefs and stories of a culture",
   literature: "Written artistic works",
   poetry: "Artistic writing using rhythm and expression",
-  novel: "Long fictional narrative",
+  novel: "A long fictional written narrative",
   drama_theatre: "Art form performed on stage",
   film_studies: "Study of cinema and filmmaking",
   cinematography: "Art of capturing visual images in film",
@@ -574,12 +703,12 @@ tectonic_plate: "Large moving section of Earth's crust"
   acting: "Performing a character in a story",
   stage_performance: "Live artistic performance in theater",
   music_theory: "Study of structure and principles of music",
-  rhythm: "Pattern of beats in music",
-  melody: "Sequence of musical notes forming a tune",
+  rhythm: "A pattern of beats in music or movement",
+  melody: "A sequence of musical notes that forms a tune",
   harmony: "Combination of musical notes played together",
   composition_music: "Process of creating music",
-  orchestration: "Arranging music for an orchestra",
-  instrument: "Device used to produce musical sound",
+  orchestration: "Automated management of complex systems and services",
+  instrument: "A device used to produce musical sounds",
   genre_music: "Category of music style",
   classical_music: "Formal music tradition with complex structures",
   jazz_music: "Music style characterized by improvisation",
@@ -588,12 +717,11 @@ tectonic_plate: "Large moving section of Earth's crust"
   hip_hop_music: "Music style combining rap and rhythmic beats",
   electronic_music: "Music produced using electronic instruments",
   visual_arts: "Art forms such as painting, sculpture, and design",
-  painting: "Creating images using pigments on surfaces",
-  sculpture: "Three-dimensional artistic creation",
-  drawing: "Creating images using lines and shading",
+  painting: "The art of applying color to a surface to create images",
+  sculpture: "The art of creating three-dimensional forms",
+  drawing: "The art of making pictures with lines and marks",
   photography: "Capturing images using light and cameras",
   graphic_design: "Visual communication using typography and imagery",
-  animation: "Creating motion from static images",
   digital_art: "Art created using digital tools",
   architecture_design: "Planning and designing buildings",
   interior_design: "Designing indoor spaces for functionality and aesthetics",
@@ -604,7 +732,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   industrial_design: "Designing mass-produced goods",
   ergonomics: "Study of designing systems for human comfort",
   aesthetics: "Study of beauty and visual appeal",
-  creativity: "Ability to generate new ideas",
+  creativity: "The ability to produce original ideas",
   innovation_culture: "Environment encouraging new ideas and experimentation",
   brainstorming: "Group technique for generating ideas",
   ideation_process: "Process of forming and developing ideas",
@@ -696,16 +824,15 @@ tectonic_plate: "Large moving section of Earth's crust"
   climatology: "Study of long-term climate patterns",
   oceanography: "Study of oceans and marine environments",
   hydrology: "Study of water movement on Earth",
-  atmospheric_pressure: "Force exerted by the weight of air",
   humidity_level: "Amount of water vapor in the air",
   precipitation_cycle: "Process of rain, snow, and other water falling from atmosphere",
   weather_front: "Boundary between two air masses",
-  climate_change: "Long-term alteration of global climate patterns",
-  greenhouse_effect: "Warming of Earth due to trapped atmospheric gases",
+  climate_change: "Long-term changes in global temperatures and weather patterns",
+  greenhouse_effect: "The warming of Earth caused by gases trapping heat",
   carbon_cycle: "Movement of carbon through Earth's systems",
   nitrogen_cycle: "Movement of nitrogen through ecosystems",
   ecosystem_balance: "Stable interaction between organisms and environment",
-  biodiversity: "Variety of life in a given area",
+  biodiversity: "The variety of plant and animal life in an ecosystem",
   species_extinction: "Permanent disappearance of a species",
   evolution_process: "Gradual change in species over time",
   natural_selection: "Process where organisms better adapted survive more",
@@ -713,11 +840,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   dna_replication: "Process of copying genetic material",
   rna_transcription: "Process of converting DNA into RNA",
   protein_synthesis: "Creation of proteins based on genetic code",
-  cell_division: "Process by which cells reproduce",
-  mitosis: "Cell division producing identical cells",
-  meiosis: "Cell division producing reproductive cells",
   stem_cell: "Undifferentiated cell capable of developing into different types",
-  immune_system: "Body system defending against disease",
   antibody_response: "Immune reaction to foreign substances",
   pathogen_defense: "Protection against disease-causing organisms",
   vaccination_process: "Training immune system to fight diseases",
@@ -726,12 +849,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   nutrition_science: "Study of food and its effects on the body",
   metabolic_process: "Chemical reactions in living organisms",
   digestion_system: "Process of breaking down food in the body",
-  respiratory_system: "System responsible for breathing",
-  circulatory_system: "System that moves blood through the body",
-  nervous_system: "System controlling body functions and signals",
-  endocrine_system: "System of hormone regulation in the body",
-  muscular_system: "System enabling movement of the body",
-  skeletal_system: "Structure of bones supporting the body",
   organ_function: "Specific role performed by a body organ",
   cellular_structure: "Organization of components within a cell",
   brain_cortex: "Outer layer of brain responsible for complex thinking",
@@ -747,7 +864,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   tactile_perception: "Sense of touch and pressure",
   motor_control: "Regulation of muscle movement",
   reflex_action: "Automatic response to stimuli",
-  homeostasis: "Maintenance of stable internal body conditions",
   stress_response: "Body reaction to pressure or threat",
   sleep_cycle: "Stages of sleep including deep and REM sleep",
   circadian_rhythm: "Internal biological clock regulating daily cycles",
@@ -788,7 +904,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   water_supply_system: "System delivering clean water",
   waste_management_system: "System handling garbage and recycling",
   public_transport_system: "Shared transportation services",
-  communication_network: "System enabling information exchange",
+  communication_network: "A system that enables the exchange of information",
   internet_protocol: "Rules governing data transfer on the internet",
   wireless_communication: "Data transmission without physical cables",
   mobile_network_system: "Infrastructure enabling mobile communication",
@@ -799,8 +915,8 @@ tectonic_plate: "Large moving section of Earth's crust"
   encryption_system: "Method for securing data using cryptography",
   authentication_system: "Process of verifying identity",
   authorization_process: "Granting permission to access resources",
-  digital_identity: "Online representation of a person or entity",
-  smart_device: "Electronic device connected to networks",
+  digital_identity: "An online representation of a person or entity",
+  smart_device: "An electronic device with computing capabilities",
   internet_of_things: "Network of connected smart devices",
   automation_systems: "Technology performing tasks with minimal human input",
   artificial_general_intelligence: "Hypothetical AI with human-level intelligence",
@@ -809,7 +925,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   software_engineering: "Systematic development of software systems",
   systems_engineering: "Designing and managing complex systems",
   computational_modeling: "Using computers to simulate real-world systems",
-  algorithm_design: "Creating step-by-step computational procedures",
+  algorithm_design: "The process of creating efficient computational procedures",
   computational_complexity: "Measure of resource use in algorithms",
   big_o_notation: "Notation describing algorithm efficiency",
   recursive_function: "Function that calls itself in computation",
@@ -820,13 +936,13 @@ tectonic_plate: "Large moving section of Earth's crust"
   syntax_error: "Mistake in code structure preventing execution",
   debugging_process: "Finding and fixing errors in software",
   software_testing: "Checking software for correctness and bugs",
-  unit_testing: "Testing individual components of software",
-  integration_testing: "Testing combined software components",
+  unit_testing: "Testing individual parts of software",
+  integration_testing: "Testing combined parts of a system",
   system_testing: "Testing complete software system",
   user_acceptance_testing: "Final testing by end users",
   deployment_process: "Releasing software into production",
-  continuous_integration: "Automating software integration and testing",
-  continuous_deployment: "Automatically releasing software updates",
+  continuous_integration: "Automatically merging and testing code changes",
+  continuous_deployment: "Automatically releasing code to production",
   version_control_system: "System tracking changes in code",
   repository_management: "Organizing and storing code projects",
   open_source_community: "Group contributing to publicly available software",
@@ -837,19 +953,19 @@ tectonic_plate: "Large moving section of Earth's crust"
   trademark_protection: "Protection of brand names and symbols",
   trade_secret: "Confidential business information",
   economic_policy: "Government strategy for managing economy",
-  fiscal_policy: "Government spending and taxation strategy",
+  fiscal_policy: "Government strategy for taxation and spending",
   monetary_policy: "Control of money supply and interest rates",
   central_bank_system: "Institution managing national currency",
-  inflation_rate: "Speed at which prices increase",
+  inflation_rate: "The speed at which prices increase over time",
   deflation_period: "Decrease in general price levels",
   recession_phase: "Period of economic decline",
   economic_recovery: "Phase of economic improvement after downturn",
   stock_market_index: "Measurement of stock market performance",
   investment_strategy: "Plan for allocating financial resources",
-  capital_investment: "Money used to create future value",
+  capital_investment: "Money used to start or expand a business",
   entrepreneurship_activity: "Process of starting and running businesses",
-  venture_capital: "Funding provided to high-growth startups",
-  angel_investor: "Individual who invests in startups",
+  venture_capital: "Investment provided to startup companies with high growth potential",
+  angel_investor: "A person who invests in startups in early stages",
   crowdfunding_campaign: "Raising money from large groups of people",
   business_expansion: "Growth of company operations",
   global_trade_system: "Exchange of goods across countries",
@@ -874,7 +990,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   waste_recycling_system: "Process of converting waste into reusable materials",
   pollution_control_system: "Measures to reduce environmental pollution",
   climate_policy: "Government strategy addressing climate change",
-  carbon_footprint: "Total greenhouse gas emissions caused by activity",
+  carbon_footprint: "Total greenhouse gases produced by activities",
   ecological_conservation: "Protection of natural environments",
   wildlife_protection: "Safeguarding animal species and habitats",
   endangered_species_protection: "Efforts to save species at risk of extinction",
@@ -956,7 +1072,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   organizational_structure: "Arrangement of roles within an organization",
   eat: "To take food into the body for energy and survival",
   drink: "To take liquids into the body to stay hydrated",
-  sleep: "To rest the body and mind to recover energy",
+  sleep: "A natural state of rest for the body and mind",
   wake_up: "To stop sleeping and become active",
   wash: "To clean the body, hands, or objects using water",
   cook: "To prepare food using heat or ingredients",
@@ -969,73 +1085,54 @@ tectonic_plate: "Large moving section of Earth's crust"
   pay: "To give money for goods or services",
   save: "To keep money or resources for future use",
   spend: "To use money to get something",
-
   come: "To move toward a place or person",
   go: "To move away to another place",
   leave: "To go away from a place",
   arrive: "To reach a destination",
   return: "To go back to a place",
-
   open: "To make something accessible or not closed",
   close: "To shut something or make it not open",
   start: "To begin something",
   finish: "To complete something",
   wait: "To stay in place until something happens",
-
   speak: "To use words to communicate",
   talk: "To have a conversation with someone",
   listen: "To pay attention to sounds or speech",
   read: "To understand written words",
   write: "To put words or symbols on a surface",
-
   see: "To perceive with the eyes",
   look: "To direct eyes toward something",
-  watch: "To observe something carefully",
+  watch: "A small device worn to tell time",
   hear: "To perceive sound",
-
   walk: "To move using feet at a normal pace",
   run: "To move quickly on foot",
   jump: "To push yourself off the ground into the air",
   sit: "To rest in a seated position",
   stand: "To be upright on your feet",
-
   happy: "Feeling pleasure or joy",
   sad: "Feeling emotional pain or unhappiness",
   angry: "Feeling strong annoyance or rage",
   scared: "Feeling fear or danger",
   tired: "Feeling low energy and needing rest",
-
-  food: "Anything eaten for nourishment",
-  water: "Clear liquid essential for life",
-  money: "System used to buy and sell goods",
-  time: "Measurement of events and duration",
-
-  house: "Building where people live",
-  room: "Separate space inside a building",
-  door: "Entrance or exit to a place",
-  window: "Opening in a wall for light and air",
-
-  car: "Vehicle used for transportation",
-  road: "Path for vehicles and travel",
-  city: "Large area where many people live and work",
-  village: "Small settlement with fewer people",
-
+  house: "A building designed for people to live in",
+  room: "A separate part of a building enclosed by walls",
+  door: "A movable barrier used to open and close an entrance",
+  window: "An opening in a wall fitted with glass",
+  car: "A road vehicle used to transport people",
+  road: "A route used by vehicles and pedestrians",
+  city: "A large and permanent human settlement",
+  village: "A small community in a rural area",
   phone: "Device used to communicate over distance",
-  message: "Information sent to someone",
+  message: "Information sent from one person to another",
   call: "Voice communication using a phone",
-  internet: "Global system connecting digital devices",
-
   friend: "Person you trust and spend time with",
   family: "Group of related people",
   child: "Young human being",
   adult: "Fully grown human being",
-
   hot: "High temperature condition",
   cold: "Low temperature condition",
-  rain: "Water falling from clouds",
-  sun: "Star that provides light and heat",
-  wind: "Moving air in the atmosphere",
-
+  rain: "Water droplets falling from clouds",
+  wind: "The movement of air across Earth's surface",
   good: "Something positive or beneficial",
   bad: "Something negative or harmful",
   big: "Large in size",
@@ -1059,7 +1156,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   environmental_social_governance: "Standards for ethical investing",
   green_economy: "Economic system focused on environmental sustainability",
   circular_business_model: "Business model focused on reuse and recycling",
-  digital_transformation_strategy: "Plan for adopting digital technologies in business"
+  digital_transformation_strategy: "Plan for adopting digital technologies in business",
   startup_ecosystem: "Network supporting startup businesses",
   entrepreneurial_mindset: "Thinking style focused on opportunity and innovation",
   strategic_planning: "Long-term planning to achieve goals",
@@ -1071,30 +1168,19 @@ tectonic_plate: "Large moving section of Earth's crust"
   digital_infrastructure: "Technology foundation of digital systems",
   smart_automation: "Using AI to automate complex tasks",
   cognitive_computing_system: "AI system that mimics human thinking",
-  human_ai_collaboration: "Working together between humans and AI systems"
+  human_ai_collaboration: "Working together between humans and AI systems",
   hatetal: "A material that is usually hard, shiny, and conducts heat and electricity",
-  iron: "A stcommonlyallic element commonly used in construction",
+  iron: "A mineral needed to produce healthy blood cells",
   gold: "A valuable yellow metal resistant to corrosion",
   silver: "A shiny precious metal that conducts electricity very well",
   copper: "A reddish metal widely used in electrical wiring",
   aluminum: "A lightweight metal resistant to corrosion",
   carbon: "A chemical element that forms the basis of organic life",
-  hydrogen: "The lightest and most abundant element in the universe",
-  nitrogen: "A colorless gas that makes up most of Earth's atmosphere",
-  oxygen: "A gas essential for respiration and combustion",
   helium: "A lightweight gas commonly used in balloons",
-  sodium: "A soft metallic element found in common salt",
+  sodium: "A mineral involved in fluid balance and nerve function",
   chlorine: "A greenish gas used in cleaning and water treatment",
-  acid: "A substance that donates hydrogen ions in a solution",
-  base: "A substance that accepts hydrogen ions or releases hydroxide ions",
-  salt: "A compound formed from the reaction of an acid and a base",
   reaction: "A process in which substances change into different substances",
   catalyst: "A substance that speeds up a chemical reaction without being consumed",
-  enzyme: "A biological catalyst that speeds up reactions in living organisms",
-  cell: "The basic structural and functional unit of life",
-  tissue: "A group of similar cells working together for a specific function",
-  organ: "A body structure made of tissues that performs a specific task",
-  organism: "An individual living thing",
   species: "A group of organisms capable of reproducing with one another",
   ecosystem: "A community of organisms interacting with their environment",
   habitat: "The natural environment where an organism lives",
@@ -1105,13 +1191,8 @@ tectonic_plate: "Large moving section of Earth's crust"
   chromosome: "A thread-like structure carrying genetic information",
   reproduction: "The process by which living things produce offspring",
   growth: "An increase in size or development over time",
-  metabolism: "The chemical processes that sustain life in an organism",
-  respiration: "The process of releasing energy from food",
-  photosynthesis: "The process by which plants make food using sunlight",
-  digestion: "The breakdown of food into nutrients the body can use",
-  nutrition: "The process of obtaining and using food for health and growth",
-  vitamin: "An organic compound needed in small amounts for health",
-  protein: "A nutrient made of amino acids used for growth and repair",
+  digestion: "The process of breaking down food into nutrients",
+  nutrition: "The process of obtaining and using food for health",
   spring: "The season between winter and summer when plants begin to grow",
   summer: "The warmest season of the year between spring and autumn",
   autumn: "The season between summer and winter when many leaves fall",
@@ -1122,18 +1203,17 @@ tectonic_plate: "Large moving section of Earth's crust"
   dusk: "The darker stage of twilight after sunset",
   noon: "The middle of the day when the Sun is highest in the sky",
   midnight: "Twelve o'clock at night",
-  second: "A basic unit of time equal to one sixtieth of a minute",
+  second: "The basic unit of time in the international system",
   minute: "A unit of time equal to sixty seconds",
   hour: "A unit of time equal to sixty minutes",
   day: "A period of twenty-four hours",
   week: "A period of seven days",
-  month: "One of the twelve divisions of a year",
-  year: "The time taken by Earth to orbit the Sun once",
+  month: "One of the twelve periods of a calendar year",
+  year: "The period Earth takes to orbit the Sun once",
   century: "A period of one hundred years",
   millennium: "A period of one thousand years",
   calendar: "A system for organizing days and dates",
   clock: "A device used to measure and display time",
-  watch: "A small timekeeping device worn on the body",
   schedule: "A plan that shows when events or tasks will happen",
   future: "The time that is yet to come",
   past: "The time that has already happened",
@@ -1151,7 +1231,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   capital: "The city where a country's government is located",
   citizen: "A legally recognized member of a country",
   passport: "An official document used for international travel",
-  border: "A line separating two regions or countries",
   flag: "A piece of cloth representing a country or organization",
   currency: "A system of money used in a country",
   coin: "A small piece of metal used as money",
@@ -1169,7 +1248,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   loan: "Money borrowed and expected to be repaid",
   credit: "The ability to borrow money with a promise to repay",
   insurance: "Protection against financial loss in exchange for payment",
-  account: "A record of financial transactions or stored funds",
+  account: "A registered identity used to access a service",
   transaction: "An exchange of money or goods",
   commerce: "The activity of buying and selling goods and services",
   trade: "The exchange of products or services between parties",
@@ -1183,16 +1262,16 @@ tectonic_plate: "Large moving section of Earth's crust"
   harvest: "The gathering of mature crops",
   soil: "The upper layer of Earth where plants grow",
   fertilizer: "A substance added to soil to improve plant growth",
-  farmer: "A person who grows crops or raises animals",
+  farmer: "A person who cultivates land and raises animals",
   market: "A place where goods and services are bought and sold",
   store: "A place where goods are sold to customers",
   shop: "A business that sells goods or services",
   supermarket: "A large self-service store selling food and household items",
   customer: "A person who buys goods or services",
   seller: "A person who offers goods or services for sale",
-  entrepreneur: "A person who starts and manages a business",
+  entrepreneur: "A person who starts and runs a business while taking financial risks",
   manager: "A person responsible for controlling an organization or team",
-  director: "A person who oversees an organization or department",
+  director: "A person who supervises a film, play, or organization",
   leader: "A person who guides or influences others",
   employee: "A person who works for an employer",
   employer: "A person or company that hires workers",
@@ -1213,17 +1292,16 @@ tectonic_plate: "Large moving section of Earth's crust"
   server: "A computer that provides services or data to other computers",
   hosting: "A service that stores websites and makes them available online",
   browser: "Software used to access and view websites",
-  search_engine: "A system that finds information on the internet",
+  search_engine: "System that finds information from large datasets",
   email: "A system for sending digital messages over the internet",
-  password: "A secret string of characters used for authentication",
-  username: "A unique name used to identify a user account",
-  account: "A registered identity used to access a service",
-  profile: "Information that describes a user in a system",
+  password: "A secret code used for account access",
+  username: "A unique identifier for a user account",
+  profile: "A user's personal information in a system",
   login: "The process of accessing a system using credentials",
-  logout: "The process of ending access to a system",
+  logout: "The process of exiting a system session",
   database: "An organized collection of electronic information",
-  file: "A collection of data stored under a specific name",
-  folder: "A container used to organize files",
+  file: "A digital document or data container",
+  folder: "A digital container used to organize files",
   document: "A written or digital piece of information",
   image: "A visual representation of something",
   video: "A recording of moving visual images",
@@ -1235,47 +1313,40 @@ tectonic_plate: "Large moving section of Earth's crust"
   scanner: "A device that converts physical documents into digital form",
   keyboard: "A device with keys used to enter information into a computer",
   mouse: "A handheld device used to control a computer pointer",
-  processor: "The main component that performs calculations in a computer",
-  memory: "The part of a computer that stores data temporarily or permanently",
+  processor: "The component that executes instructions in a computer",
+  memory: "The ability to store and recall information",
   storage: "The place where digital information is kept",
   network: "A group of connected devices that share information",
   cable: "A wire used to transmit power or data",
-  satellite: "An object that orbits a planet and may transmit communications",
+  satellite: "An object that orbits a planet",
   signal: "A transmitted electrical or radio message",
   application: "A software program designed for a specific task",
   operating_system: "Software that manages computer hardware and applications",
-  algorithm: "A set of instructions used to solve a problem",
+  algorithm: "A set of rules used to solve problems or perform tasks",
   code: "Instructions written for a computer program",
   developer: "A person who creates software applications",
-  engineer: "A person who designs and builds systems or machines",
+  engineer: "A person who designs and builds machines or structures",
   scientist: "A person who studies the natural world using scientific methods",
   inventor: "A person who creates a new device or process",
   researcher: "A person who investigates topics to discover new information",
-  laboratory: "A place equipped for scientific experiments and research",
-  experiment: "A test performed to discover or verify facts",
-  theory: "An explanation supported by evidence and observations",
-  hypothesis: "A proposed explanation that can be tested",
-  observation: "The act of carefully watching and recording information",
-  measurement: "The process of determining size, quantity, or degree",
+  laboratory: "A place equipped for scientific research and experiments",
   data: "Facts and statistics collected for analysis",
   information: "Data that has been organized and given meaning",
-  knowledge: "Understanding gained through learning or experience",
+  knowledge: "Facts, information, and skills acquired through experience",
   wisdom: "The ability to make good judgments using knowledge and experience",
-  truth: "The quality of being in accordance with fact or reality",
+  truth: "The quality or state of being in accordance with fact or reality",
   fact: "A statement that can be proven to be true",
   opinion: "A personal belief or judgment",
   idea: "A thought or suggestion about a possible action or concept",
   concept: "An abstract idea or general notion",
   imagination: "The ability to form new ideas or images in the mind",
-  creativity: "The ability to produce original and valuable ideas",
-  innovation: "The introduction of new methods, ideas, or products",
-  invention: "A newly created device, process, or method",
+  innovation: "The introduction of new ideas or methods",
+  invention: "A newly created device, process, or idea",
   discovery: "The act of finding something previously unknown",
   problem: "A situation that requires a solution",
-  solution: "An answer to a problem or difficulty",
   challenge: "A difficult task that tests abilities",
-  opportunity: "A favorable set of circumstances for progress",
-  success: "The accomplishment of a goal or purpose",
+  opportunity: "A favorable situation for achieving something",
+  success: "The achievement of a desired goal",
   failure: "The lack of success in achieving a goal",
   risk: "The possibility of loss, harm, or danger",
   decision: "A conclusion reached after consideration",
@@ -1287,7 +1358,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   experience: "Knowledge gained through direct involvement in events",
   skill: "The ability to do something well through training or practice",
   talent: "A natural ability to do something well",
-  education: "The process of learning and gaining knowledge",
   learning: "The acquisition of knowledge or skills through study or experience",
   teaching: "The act of helping others gain knowledge or skills",
   lesson: "A period of instruction or a learned principle",
@@ -1308,11 +1378,11 @@ tectonic_plate: "Large moving section of Earth's crust"
   pen: "A writing instrument that uses ink",
   ruler: "A tool used to measure length or draw straight lines",
   calculator: "A device used for mathematical calculations",
-  microscope: "An instrument used to view very small objects",
-  telescope: "An instrument used to observe distant objects in space",
-  compass: "An instrument used to determine direction",
+  microscope: "An instrument used to view tiny objects",
+  telescope: "An instrument used to observe distant objects",
+  compass: "An instrument that shows direction using a magnetic needle",
   globe: "A spherical model of Earth",
-  map: "A visual representation of an area or region",
+  map: "A visual representation of an area",
   equation: "A mathematical statement showing that two expressions are equal",
   number: "A mathematical object used to count or measure",
   digit: "A single symbol used to represent numbers",
@@ -1338,10 +1408,8 @@ tectonic_plate: "Large moving section of Earth's crust"
   angle: "The space between two intersecting lines",
   line: "A straight one-dimensional figure extending in both directions",
   point: "An exact position in space with no size",
-  distance: "The amount of space between two points",
   area: "The amount of surface covered by a shape",
   perimeter: "The total length around a shape",
-  volume: "The amount of space occupied by an object",
   kilogram: "A unit of mass equal to one thousand grams",
   gram: "A metric unit of mass",
   meter: "The basic metric unit of length",
@@ -1349,16 +1417,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   kilometer: "A metric unit equal to one thousand meters",
   liter: "A metric unit of volume",
   milliliter: "A metric unit equal to one thousandth of a liter",
-  second: "The basic unit of time in the international system",
-  minute: "A unit of time equal to sixty seconds",
-  hour: "A unit of time equal to sixty minutes",
-  day: "A period of twenty-four hours",
-  week: "A period of seven days",
-  month: "One of the twelve periods of a calendar year",
-  year: "The period Earth takes to orbit the Sun once",
   decade: "A period of ten years",
-  century: "A period of one hundred years",
-  millennium: "A period of one thousand years",
   morning: "The early part of the day before noon",
   afternoon: "The part of the day between noon and evening",
   evening: "The period of the day before night",
@@ -1377,7 +1436,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   gift: "Something given voluntarily to another person",
   party: "A social gathering for enjoyment or celebration",
   guest: "A person invited to visit or attend an event",
-  host: "A person who receives or entertains guests",
+  host: "An organism that supports another organism such as a parasite",
   invitation: "A request to attend an event or activity",
   decoration: "An object used to make something look more attractive",
   candle: "A stick of wax with a wick that produces light when burned",
@@ -1385,17 +1444,13 @@ tectonic_plate: "Large moving section of Earth's crust"
   torch: "A portable source of light",
   shadow: "A dark area produced when light is blocked",
   mirror: "A reflective surface that forms an image",
-  window: "An opening in a wall fitted with glass",
-  door: "A movable barrier used to open and close an entrance",
   wall: "A vertical structure enclosing or dividing an area",
   roof: "The upper covering of a building",
   floor: "The lower surface of a room",
   ceiling: "The upper interior surface of a room",
-  house: "A building designed for people to live in",
   home: "The place where a person lives and feels belonging",
   apartment: "A set of rooms for living within a larger building",
   building: "A structure with walls and a roof",
-  room: "A separate part of a building enclosed by walls",
   bedroom: "A room used for sleeping",
   kitchen: "A room where food is prepared and cooked",
   bathroom: "A room containing facilities for washing and sanitation",
@@ -1454,11 +1509,9 @@ tectonic_plate: "Large moving section of Earth's crust"
   belt: "A strip worn around the waist",
   necklace: "An ornament worn around the neck",
   ring: "A circular band worn on a finger",
-  watch: "A small device worn to tell time",
   umbrella: "A portable device used for protection from rain or sun",
   bicycle: "A vehicle with two wheels powered by pedals",
   motorcycle: "A two-wheeled motor vehicle",
-  car: "A road vehicle used to transport people",
   bus: "A large vehicle used to carry many passengers",
   truck: "A large vehicle used for transporting goods",
   train: "A series of connected vehicles running on rails",
@@ -1539,7 +1592,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   curiosity: "A strong desire to know or learn something",
   motivation: "The reason or desire for acting in a certain way",
   ambition: "A strong desire to achieve success or power",
-  dream: "A cherished aspiration or a sequence of images during sleep",
+  dream: "A sequence of thoughts and images experienced during sleep",
   purpose: "The reason for which something exists or is done",
   destiny: "The events that are believed to happen in the future",
   fate: "The development of events beyond a person's control",
@@ -1553,12 +1606,10 @@ tectonic_plate: "Large moving section of Earth's crust"
   toy: "An object designed for children to play with",
   hobby: "An activity done regularly for enjoyment",
   collection: "A group of similar items gathered together",
-  photograph: "An image produced by recording light",
-  painting: "A picture created using paint",
+  photograph: "An image created by recording light",
   sketch: "A rough drawing representing the main features of something",
   design: "A plan or arrangement of elements to create something",
   architecture: "The art and science of designing buildings",
-  engineer: "A person who designs and builds machines or structures",
   mechanic: "A person who repairs machines and vehicles",
   carpenter: "A person who works with wood to build structures",
   electrician: "A person who installs and repairs electrical systems",
@@ -1567,7 +1618,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   chef: "A professional cook",
   baker: "A person who makes bread and pastries",
   waiter: "A person who serves food and drinks in a restaurant",
-  farmer: "A person who cultivates land and raises animals",
   fisherman: "A person who catches fish",
   hunter: "A person who hunts wild animals",
   soldier: "A person who serves in an army",
@@ -1582,10 +1632,9 @@ tectonic_plate: "Large moving section of Earth's crust"
   artist: "A person who creates works of art",
   writer: "A person who creates written works",
   poet: "A person who writes poems",
-  actor: "A person who performs in plays or films",
-  director: "A person who supervises a film, play, or organization",
+  actor: "A person who performs roles in plays or films",
   producer: "A person responsible for managing the production of a project",
-  singer: "A person who performs songs with their voice",
+  singer: "A person who performs songs using their voice",
   dancer: "A person who performs dance movements",
   athlete: "A person trained in sports and physical activities",
   coach: "A person who trains and guides athletes or teams",
@@ -1598,13 +1647,12 @@ tectonic_plate: "Large moving section of Earth's crust"
   victory: "Success in a competition or struggle",
   defeat: "The loss of a contest or battle",
   competition: "An event in which people try to win or achieve superiority",
-  exercise: "Physical activity performed to improve health",
+  exercise: "Physical activity performed to improve health and fitness",
   running: "The action of moving quickly on foot",
   walking: "The act of moving at a regular pace by lifting and setting down each foot",
   swimming: "The activity of moving through water using the body",
   climbing: "The activity of moving upward using hands and feet",
   jumping: "The act of pushing oneself into the air",
-  football: "A sport played by two teams trying to score goals with a ball",
   basketball: "A sport in which players score by throwing a ball through a hoop",
   volleyball: "A sport in which two teams hit a ball over a net",
   tennis: "A sport played by hitting a ball with rackets over a net",
@@ -1617,7 +1665,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   park: "A public area of land used for recreation",
   zoo: "A place where animals are kept for public display and study",
   aquarium: "A place where aquatic animals are displayed",
-  beach: "A sandy or rocky shore beside a body of water",
+  beach: "A sandy or rocky area beside a body of water",
   waterfall: "A place where water flows over a vertical drop",
   cave: "A natural underground chamber in rock",
   valley: "A low area of land between hills or mountains",
@@ -1631,9 +1679,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   tundra: "A cold, treeless region with frozen subsoil",
   glacier: "A large mass of slowly moving ice",
   iceberg: "A large floating mass of ice that has broken off a glacier",
-  volcano: "A mountain that erupts molten rock and gases",
   eruption: "The release of lava, ash, or gas from a volcano",
-  earthquake: "A sudden shaking of the Earth's surface",
   tsunami: "A series of large ocean waves caused by underwater disturbances",
   hurricane: "A powerful tropical storm with strong winds",
   tornado: "A rapidly rotating column of air extending from a storm",
@@ -1647,16 +1693,13 @@ tectonic_plate: "Large moving section of Earth's crust"
   ship: "A large vessel used for transporting people or goods by sea",
   airport: "A place where aircraft take off and land",
   station: "A place where passengers board trains or buses",
-  road: "A route used by vehicles and pedestrians",
   bridge: "A structure built to cross obstacles like rivers",
   tunnel: "An underground or underwater passage",
   traffic: "The movement of vehicles and people along roads",
   environment: "The natural world and conditions in which living things exist",
-  biodiversity: "The variety of plant and animal life in an ecosystem",
   extinction: "The complete disappearance of a species",
   endangered: "At risk of becoming extinct",
   conservationist: "A person who works to protect nature and wildlife",
-  ecosystem: "A community of organisms interacting with their environment",
   food_chain: "A sequence showing how energy passes from one organism to another",
   predator: "An animal that hunts other animals for food",
   prey: "An animal hunted and eaten by another animal",
@@ -1665,22 +1708,15 @@ tectonic_plate: "Large moving section of Earth's crust"
   omnivore: "An animal that eats both plants and animals",
   scavenger: "An animal that feeds on dead organisms",
   parasite: "An organism that lives on or in another organism and benefits from it",
-  host: "An organism that supports another organism such as a parasite",
   microorganism: "A living thing too small to be seen without a microscope",
   fungus: "An organism such as a mushroom, mold, or yeast",
   algae: "Simple plant-like organisms that grow in water",
   bacteria: "Single-celled microorganisms found in many environments",
   virus: "A microscopic infectious agent that reproduces inside living cells",
   cell_membrane: "The outer layer that surrounds and protects a cell",
-  nucleus: "The control center of a cell containing genetic material",
   cytoplasm: "The jelly-like material inside a cell",
   organelle: "A specialized structure within a cell that performs a function",
-  tissue: "A group of similar cells working together",
-  organ: "A structure made of tissues that performs a specific function",
-  organ_system: "A group of organs working together in the body",
   skeleton: "The framework of bones in a body",
-  skull: "The bony structure that protects the brain",
-  spine: "The column of bones that supports the body and protects the spinal cord",
   emotional_intelligence: "The ability to understand and manage your own emotions and those of others",
   cognition: "The mental process of acquiring knowledge and understanding through thought",
   perception: "The way the brain interprets sensory information",
@@ -1882,7 +1918,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   content_based_filtering: "Recommendation based on item features",
   hybrid_model: "System combining multiple AI approaches",
   ranking_algorithm: "Method for ordering results by relevance",
-  search_engine: "System that finds information from large datasets",
   query_understanding: "Interpreting user search intent",
   intent_detection: "Identifying what a user wants from input",
   entity_recognition: "Detecting important objects or names in text",
@@ -2148,7 +2183,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   tool_use_ai: "AI that can use external tools to complete tasks",
   action_selection_policy: "Rule determining which action an AI should take",
   environment_interaction: "Process of AI engaging with external world or system",
-  feedback_learning_loop: "Continuous improvement based on feedback signals"
+  feedback_learning_loop: "Continuous improvement based on feedback signals",
   high_availability: "System designed to remain operational continuously",
   scalability_engineering: "Designing systems that grow efficiently",
   performance_tuning: "Optimizing system speed and efficiency",
@@ -2156,7 +2191,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   infrastructure_as_code: "Managing infrastructure through code",
   configuration_management: "Maintaining system settings consistently",
   devsecops: "Integrating security into DevOps processes",
-  site_reliability_engineering: "Practice of maintaining scalable and reliable systems"
+  site_reliability_engineering: "Practice of maintaining scalable and reliable systems",
   centralized_system: "A system controlled from a single point",
   peer_to_peer_network: "A network where devices communicate directly",
   client_server_model: "Architecture where clients request services from servers",
@@ -2170,33 +2205,22 @@ tectonic_plate: "Large moving section of Earth's crust"
   model_deployment_pipeline: "Steps to move AI models into production systems",
   ai_ecosystem: "The network of tools, models, and systems in artificial intelligence",
   foundation_model: "A large AI model trained on vast datasets for general tasks",
-  generative_ai: "AI that creates new content such as text, images, or code"
+  generative_ai: "AI that creates new content such as text, images, or code",
   rib: "A curved bone that forms the chest cage",
   joint: "A place where two bones meet",
-  tendon: "A strong tissue connecting muscle to bone",
-  ligament: "A band of tissue connecting bones together",
-  muscle: "A tissue that contracts to produce movement",
   nerve: "A bundle of fibers that carries signals in the body",
   brainstem: "The part of the brain that controls basic life functions",
   cerebrum: "The largest part of the brain responsible for thought and memory",
   cerebellum: "The part of the brain that coordinates movement and balance",
   lung: "An organ used for breathing",
-  liver: "An organ that processes nutrients and removes toxins",
-  kidney: "An organ that filters waste from the blood",
-  stomach: "An organ that breaks down food during digestion",
   intestine: "A long tube where digestion and nutrient absorption occur",
-  pancreas: "An organ that produces digestive enzymes and hormones",
-  bladder: "An organ that stores urine",
-  skin: "The outer covering of the body",
-  hair: "Thin strands growing from the skin",
   nail: "A hard covering at the end of fingers and toes",
   heartbeat: "The rhythmic contraction of the heart",
   pulse: "The regular beating felt in arteries as blood moves through them",
   breathing: "The process of taking in oxygen and releasing carbon dioxide",
-  digestion: "The process of breaking down food into nutrients",
   circulation: "The movement of blood throughout the body",
   immunity: "The body's ability to resist disease",
-  infection: "The invasion of the body by harmful organisms",
+  infection: "The invasion of the body by harmful microorganisms",
   symptom: "A physical or mental sign of illness",
   diagnosis: "The identification of a disease or condition",
   treatment: "Medical care given to cure or relieve a condition",
@@ -2211,7 +2235,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   tablet: "A small compressed form of medicine",
   capsule: "A small container holding medicine for swallowing",
   syrup: "A liquid medicine with a sweet taste",
-  vaccine: "A preparation that stimulates immunity against disease",
+  vaccine: "A substance that stimulates protection against disease",
   epidemic: "A widespread occurrence of a disease in a community",
   pandemic: "An epidemic that spreads across multiple countries or continents",
   hygiene: "Practices that maintain health and cleanliness",
@@ -2221,18 +2245,11 @@ tectonic_plate: "Large moving section of Earth's crust"
   toothbrush: "A brush used to clean teeth",
   perfume: "A fragrant liquid used to provide a pleasant smell",
   deodorant: "A product used to prevent body odor",
-  nutrition: "The process of obtaining and using food for health",
-  vitamin: "A substance needed in small amounts for normal growth and health",
-  protein: "A nutrient essential for growth and tissue repair",
-  carbohydrate: "A nutrient that provides energy to the body",
   fat: "A nutrient that stores energy and supports body functions",
   mineral: "An inorganic nutrient essential for health",
   calcium: "A mineral important for strong bones and teeth",
-  iron: "A mineral needed to produce healthy blood cells",
   potassium: "A mineral that helps regulate muscle and nerve function",
-  sodium: "A mineral involved in fluid balance and nerve function",
   water_cycle: "The continuous movement of water on, above, and below Earth's surface",
-  evaporation: "The process of liquid changing into vapor",
   condensation: "The process of vapor changing into liquid",
   precipitation: "Water released from clouds as rain, snow, or hail",
   inventory: "The complete list of goods and materials held by a business",
@@ -2240,7 +2257,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   logistics: "The management of transporting and storing goods efficiently",
   shipment: "A quantity of goods sent from one place to another",
   delivery: "The act of transporting goods to a destination",
-  package: "An object wrapped or packed for transport",
+  package: "A bundled collection of software code",
   parcel: "A small package sent by mail or courier",
   courier: "A person or company that delivers messages or packages",
   transportation: "The movement of people or goods from one place to another",
@@ -2318,45 +2335,41 @@ tectonic_plate: "Large moving section of Earth's crust"
   water_supply: "A system that provides water to people and businesses",
   sewage: "Wastewater and refuse carried through drains",
   sanitation_system: "Facilities and services for maintaining public hygiene",
-  communication_network: "A system that enables the exchange of information",
   telephone: "A device used for voice communication over distances",
   mobile_phone: "A portable telephone that works through wireless networks",
   smartphone_app: "A software application designed for smartphones",
   social_media: "Websites and applications used for sharing content and communication",
-  message: "Information sent from one person to another",
   text_message: "A short written message sent electronically",
   notification: "An alert informing a user about an event or update",
   profile_picture: "An image representing a user account",
   password_manager: "Software used to store and organize passwords securely",
   cybersecurity: "The practice of protecting systems and data from digital attacks",
-  encryption: "The process of converting information into a secure form",
+  encryption: "Securing data by converting it into coded form",
   hacker: "A person who gains unauthorized access to computer systems",
   malware: "Software designed to damage or disrupt computer systems",
   virus_software: "A malicious program that spreads between computers",
   phishing: "A fraudulent attempt to obtain sensitive information online",
-  firewall: "A security system that monitors and controls network traffic",
+  firewall: "A system that blocks unauthorized access to networks",
   backup: "A copy of data kept to restore information if lost",
   cloud_computing: "The delivery of computing services over the internet",
   artificial_intelligence: "The simulation of human intelligence by machines",
   machine_learning: "A branch of AI that allows systems to learn from data",
   neural_network: "A computing system inspired by the human brain's structure",
   data_science: "The field of extracting knowledge from data",
-  analytics: "The systematic analysis of information and data",
-  automation: "The use of technology to perform tasks with minimal human input",
+  analytics: "The process of analyzing data for insights",
+  automation: "Using systems to perform tasks without human effort",
   robotics: "The science and technology of designing and using robots",
-  algorithm_design: "The process of creating efficient computational procedures",
   programming_language: "A formal language used to write computer programs",
   source_code: "Human-readable instructions written for software",
-  compiler: "Software that translates source code into machine code",
-  interpreter: "Software that executes code directly without prior compilation",
-  debugging: "The process of finding and fixing errors in software",
+  compiler: "Software that converts code into executable programs",
+  interpreter: "Software that runs code line by line",
+  debugging: "Finding and fixing errors in code",
   software_update: "A newer version of software that improves functionality or security",
   microservice: "A small independent service that performs a specific function in a system",
   monolith: "A single unified software application where all components are tightly connected",
   containerization: "Packaging software with everything needed to run it in isolated environments",
   docker: "A platform used to build, ship, and run applications in containers",
   kubernetes: "A system for automating deployment and scaling of containerized applications",
-  orchestration: "Automated management of complex systems and services",
   virtualization: "Creating virtual versions of hardware or software resources",
   hypervisor: "Software that allows multiple virtual machines to run on one system",
   virtual_machine: "A simulated computer running inside another computer",
@@ -2425,13 +2438,9 @@ tectonic_plate: "Large moving section of Earth's crust"
   throughput_limit: "The maximum processing capacity of a system",
   load_testing: "Testing system performance under heavy usage",
   stress_testing: "Testing system limits under extreme conditions",
-  unit_testing: "Testing individual parts of software",
-  integration_testing: "Testing combined parts of a system",
   end_to_end_testing: "Testing the entire system workflow",
   regression_testing: "Testing to ensure new changes do not break existing features",
-  continuous_integration: "Automatically merging and testing code changes",
   continuous_delivery: "Automatically preparing code for release",
-  continuous_deployment: "Automatically releasing code to production",
   versioning: "Assigning unique identifiers to different software versions",
   semantic_versioning: "A versioning system using major, minor, and patch numbers",
   api_versioning: "Managing different versions of an API",
@@ -2454,7 +2463,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   serverless: "A computing model where servers are managed automatically",
   edge_computing: "Processing data closer to where it is generated",
   iot_device: "A physical object connected to the internet",
-  smart_device: "An electronic device with computing capabilities",
   wearable_technology: "Electronic devices worn on the body",
   augmented_reality: "Digital overlay on the real world",
   virtual_reality: "A fully immersive digital environment",
@@ -2466,7 +2474,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   smart_contract: "Self-executing contract with coded rules",
   nft: "A unique digital asset representing ownership",
   metaverse: "A shared virtual digital universe",
-  digital_identity: "An online representation of a person or entity",
   identity_verification: "Confirming a person's identity digitally",
   biometric_authentication: "Using physical traits for identity verification",
   facial_recognition: "Technology that identifies individuals by facial features",
@@ -2499,17 +2506,13 @@ tectonic_plate: "Large moving section of Earth's crust"
   innovation_hub: "A place where new ideas and technologies are developed",
   incubator_program: "Support system for early-stage startups",
   accelerator_program: "Program that helps startups grow quickly",
-  angel_investor: "A person who invests in startups in early stages",
   venture_funding: "Capital provided to high-growth companies",
   ipo: "Initial public offering where a company sells shares publicly",
   stock_market: "A market where company shares are bought and sold",
   financial_market: "A system for trading financial assets",
   currency_exchange: "The conversion of one currency into another",
-  inflation_rate: "The speed at which prices increase over time",
   interest_rate: "The cost of borrowing money or return on savings",
   central_bank: "A national institution managing monetary policy",
-  fiscal_policy: "Government strategy for taxation and spending",
-  monetary_policy: "Control of money supply and interest rates",
   taxation_system: "Structure for collecting taxes from citizens",
   public_sector: "Government-controlled services and organizations",
   private_sector: "Businesses owned by private individuals or companies",
@@ -2520,7 +2523,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   renewable_resources: "Natural resources that can be replenished",
   environmental_protection: "Actions taken to preserve nature",
   climate_action: "Efforts to reduce climate change impact",
-  carbon_footprint: "Total greenhouse gases produced by activities",
   greenhouse_gas: "Gases that trap heat in the atmosphere",
   deforestation: "Large-scale removal of trees from forests",
   reforestation: "Planting trees to restore forests",
@@ -2530,7 +2532,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   recycling_system: "Process of converting waste into reusable materials",
   waste_management: "Collection and disposal of waste materials",
   circular_economy: "System where resources are reused continuously",
-  clean_energy_transition: "Shift from fossil fuels to renewable energy"
   user_interface: "The part of a system through which users interact with it",
   user_experience: "The overall experience of a person using a product or service",
   database_server: "A computer system dedicated to storing and managing databases",
@@ -2538,16 +2539,16 @@ tectonic_plate: "Large moving section of Earth's crust"
   operating_memory: "Temporary storage used by a computer while running programs",
   processor_core: "An individual processing unit within a CPU",
   graphics_card: "Hardware responsible for rendering images and video",
-  motherboard: "The main circuit board connecting computer components",
+  motherboard: "The main circuit board in a computer system",
   file_system: "The method used by an operating system to organize files",
   command_line: "A text-based interface for interacting with a computer",
   terminal: "A program that provides access to a command-line interface",
   script: "A small program written to automate tasks",
-  framework: "A reusable platform for developing software applications",
+  framework: "A structure that helps build software applications",
   library_software: "A collection of prewritten code that developers can use",
   version_control: "A system that tracks changes to files over time",
-  repository: "A storage location for software code and related files",
-  deployment: "The process of making software available for use",
+  repository: "A storage location for code and files",
+  deployment: "Releasing software to users",
   server_room: "A space dedicated to housing computer servers and networking equipment",
   data_center: "A facility that contains computer systems and storage infrastructure",
   internet_service_provider: "A company that provides internet access to customers",
@@ -2555,18 +2556,12 @@ tectonic_plate: "Large moving section of Earth's crust"
   download: "The process of receiving data from another computer system",
   upload: "The process of sending data to another computer system",
   streaming: "The continuous transmission of audio or video over the internet",
-  electricity: "A form of energy caused by moving charged particles",
-  magnetism: "A force produced by magnetic fields that attracts or repels materials",
-  magnet: "An object that produces a magnetic field",
-  circuit: "A closed path through which electricity flows",
   resistor: "A component that reduces electrical current",
   capacitor: "A device that stores electrical energy temporarily",
   diode: "A component that allows current to flow in one direction only",
   transistor: "A semiconductor device used to amplify or switch signals",
   chip: "A small piece of silicon containing electronic circuits",
   microchip: "An integrated circuit used in electronic devices",
-  motherboard: "The main circuit board in a computer system",
-  processor: "The component that executes instructions in a computer",
   ram: "Temporary memory used by computers while running programs",
   rom: "Permanent memory that stores essential system instructions",
   hard_drive: "A storage device used to save digital data",
@@ -2576,32 +2571,20 @@ tectonic_plate: "Large moving section of Earth's crust"
   bluetooth: "A short-range wireless communication technology",
   modem: "A device that connects a network to the internet",
   router: "A device that directs internet traffic between networks",
-  firewall: "A system that blocks unauthorized access to networks",
   antivirus: "Software that detects and removes harmful programs",
   update: "An improvement or fix released for software",
   bug: "An error or flaw in software or a system",
   feature: "A functional capability of a product or system",
   interface: "The point where users interact with a system",
   icon: "A small image representing a function or file",
-  folder: "A digital container used to organize files",
-  file: "A digital document or data container",
   extension: "A suffix that identifies file type",
   compression: "Reducing file size to save space or transfer faster",
-  encryption: "Securing data by converting it into coded form",
   decryption: "Converting encrypted data back into readable form",
-  password: "A secret code used for account access",
   authentication: "The process of verifying identity",
   authorization: "Permission granted to access a system or resource",
-  login: "The process of accessing a system using credentials",
-  logout: "The process of exiting a system session",
-  username: "A unique identifier for a user account",
-  profile: "A user's personal information in a system",
   avatar: "A visual representation of a user online",
   dashboard: "A control panel showing key information and tools",
-  analytics: "The process of analyzing data for insights",
   metric: "A standard of measurement used for comparison",
-  algorithm: "A set of rules used to solve problems or perform tasks",
-  automation: "Using systems to perform tasks without human effort",
   bot: "A software program that performs automated tasks",
   chatbot: "A program that simulates conversation with users",
   ai_model: "A system trained to perform intelligent tasks",
@@ -2620,22 +2603,15 @@ tectonic_plate: "Large moving section of Earth's crust"
   backend: "The server side of an application",
   frontend: "The user-facing part of an application",
   fullstack: "Development involving both frontend and backend",
-  framework: "A structure that helps build software applications",
-  library: "Reusable code used to simplify development",
+  library: "A place where books and information resources are kept",
   dependency: "A software component required by another program",
-  package: "A bundled collection of software code",
-  repository: "A storage location for code and files",
   git: "A system for tracking changes in code",
   commit: "A saved change in a version control system",
   branch: "A separate line of development in code",
   merge: "Combining changes from different branches",
-  deployment: "Releasing software to users",
   production: "The live environment where software runs",
   staging: "A testing environment before production",
   testing: "The process of checking software for errors",
-  debugging: "Finding and fixing errors in code",
-  compiler: "Software that converts code into executable programs",
-  interpreter: "Software that runs code line by line",
   syntax: "The rules that define correct structure in code",
   variable: "A storage location for data in programming",
   function: "A reusable block of code that performs a task",
@@ -2653,14 +2629,13 @@ tectonic_plate: "Large moving section of Earth's crust"
   stack_trace: "A report showing where an error occurred",
   memory_leak: "A failure to release unused memory",
   performance: "How efficiently a system operates",
-  speed: "How fast something operates or moves",
   efficiency: "Using resources in the best possible way",
   reliability: "The ability of a system to function consistently",
   uptime: "The amount of time a system is operational",
   downtime: "The time when a system is not working",
   backup_system: "A secondary system used in case of failure",
   restore: "Recovering data from a backup",
-  migration: "Moving data or systems to a new environment",
+  migration: "The movement of people from one place to another",
   upgrade: "Improving a system to a newer version",
   downgrade: "Reverting to an older version of a system",
   compatibility: "The ability of systems to work together",
@@ -2675,7 +2650,7 @@ tectonic_plate: "Large moving section of Earth's crust"
   paas: "A platform for building and deploying applications",
   iaas: "Infrastructure provided over the internet",
   devops: "Practices combining development and IT operations",
-  ci_cd: "Automated software building and deployment process"
+  ci_cd: "Automated software building and deployment process",
   podcast: "A digital audio program distributed over the internet",
   webinar: "An educational presentation delivered online",
   virtual_meeting: "A meeting conducted using internet communication tools",
@@ -2683,7 +2658,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   freelancer: "A person who works independently for different clients",
   entrepreneurship_program: "An organized initiative that teaches business creation and management",
   startup_incubator: "An organization that supports early-stage businesses",
-  venture_capital: "Investment provided to startup companies with high growth potential",
   crowdfunding: "Raising money from many people through small contributions",
   e_commerce: "The buying and selling of goods and services online",
   digital_payment: "A payment made using electronic methods rather than cash",
@@ -2693,8 +2667,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   humidity: "The amount of water vapor in the air",
   atmosphere: "The layer of gases surrounding a planet",
   ozone: "A gas in the atmosphere that absorbs harmful ultraviolet radiation",
-  climate_change: "Long-term changes in global temperatures and weather patterns",
-  greenhouse_effect: "The warming of Earth caused by gases trapping heat",
   renewable_energy: "Energy from sources that are naturally replenished",
   fossil_fuel: "Fuel formed from ancient organic matter",
   coal: "A black rock used as a source of energy",
@@ -2705,34 +2677,21 @@ tectonic_plate: "Large moving section of Earth's crust"
   hydroelectricity: "Electricity produced from moving water",
   geothermal_energy: "Energy obtained from heat inside Earth",
   nuclear_energy: "Energy released from atomic reactions",
-  radiation: "Energy emitted as waves or particles",
-  atom: "The smallest unit of an element that retains its properties",
   isotope: "A form of an element with a different number of neutrons",
-  molecule: "A group of atoms chemically bonded together",
   compound: "A substance formed by two or more elements chemically combined",
-  mixture: "A combination of substances not chemically joined",
-  solution: "A homogeneous mixture of substances",
   solvent: "A substance that dissolves another substance",
   solute: "A substance dissolved in a solvent",
   crystal: "A solid with a highly ordered arrangement of atoms",
-  acid: "A substance that releases hydrogen ions in water",
-  base: "A substance that can accept hydrogen ions",
   neutral: "Having neither acidic nor basic properties",
   oxidation: "A chemical reaction involving the loss of electrons",
   combustion: "A reaction in which a substance burns in oxygen",
   corrosion: "The gradual destruction of materials by chemical reactions",
   rust: "A reddish coating formed on iron by oxidation",
-  laboratory: "A place equipped for scientific research and experiments",
-  microscope: "An instrument used to view tiny objects",
-  telescope: "An instrument used to observe distant objects",
   observatory: "A facility used to observe celestial events",
   astronaut: "A person trained to travel in space",
   rocket: "A vehicle propelled by the expulsion of gases",
   spacecraft: "A vehicle designed for travel in outer space",
-  satellite: "An object that orbits a planet",
   orbit: "The curved path of one object around another",
-  comet: "A celestial object made of ice and dust that orbits the Sun",
-  asteroid: "A small rocky body orbiting the Sun",
   meteor: "A streak of light caused by a space object entering the atmosphere",
   meteorite: "A piece of rock from space that reaches Earth's surface",
   constellation: "A group of stars forming a recognizable pattern",
@@ -2744,12 +2703,10 @@ tectonic_plate: "Large moving section of Earth's crust"
   universe: "All existing matter, energy, and space",
   big_bang: "The theory that the universe began from an extremely hot and dense state",
   gravity: "The force that attracts objects toward one another",
-  inertia: "The tendency of an object to resist changes in motion",
   prime_meridian: "The imaginary line at zero degrees longitude used as a reference for measuring east and west positions",
   timezone: "A region of Earth that observes the same standard time",
   gps: "A satellite-based system used to determine precise locations on Earth",
   navigation: "The process of planning and controlling movement from one place to another",
-  compass: "An instrument that shows direction using a magnetic needle",
   direction: "The course along which something moves or faces",
   location: "A particular place or position",
   address: "A description of where a person or place can be found",
@@ -2770,7 +2727,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   census: "An official count of a population",
   demography: "The statistical study of human populations",
   urbanization: "The process by which more people move to cities",
-  migration: "The movement of people from one place to another",
   settlement: "A place where people establish a community",
   colony: "A territory controlled by another country",
   independence: "The state of being free from outside control",
@@ -2872,7 +2828,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   demand: "The desire and ability to purchase goods or services",
   scarcity: "The condition of limited resources",
   resource: "A material or asset that can be used",
-  capital_investment: "Money used to start or expand a business",
   entrepreneurship: "The activity of creating and managing a business",
   startup: "A newly established business",
   corporation: "A large company recognized as a legal entity",
@@ -2892,7 +2847,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   wage: "Payment for labor, usually calculated by time worked",
   pension: "Regular payments made after retirement",
   retirement: "The period of life after leaving employment",
-  entrepreneur: "A person who starts and runs a business while taking financial risks",
   negotiation: "Discussion intended to reach an agreement",
   partnership_agreement: "A contract between business partners defining responsibilities",
   franchise: "A business authorized to use another company's brand and methods",
@@ -2903,10 +2857,6 @@ tectonic_plate: "Large moving section of Earth's crust"
   distributor: "A business that supplies products to retailers",
   retailer: "A business that sells goods directly to consumers",
   wholesaler: "A business that sells products in large quantities to retailers",
-  momentum: "The quantity of motion possessed by an object",
-  friction: "The force that opposes motion between surfaces",
-  pressure: "The amount of force applied over an area",
-  temperature: "The measure of heat in a substance or environment",
   thermometer: "An instrument used to measure temperature",
   barometer: "An instrument used to measure atmospheric pressure",
   compass_rose: "A figure showing the directions on a map or compass",
@@ -2924,30 +2874,20 @@ tectonic_plate: "Large moving section of Earth's crust"
   ticket: "A document giving the right to travel or enter an event",
   luggage: "Bags and suitcases used during travel",
   journey: "The act of traveling from one place to another",
-  destination: "The place to which someone is traveling",
-  adventure: "An unusual and exciting experience",
+  destination: "The place to which someone is going",
+  adventure: "An exciting or unusual experience",
   degree: "An academic qualification awarded by a university",
   scholarship: "Financial aid awarded to support education",
-  carbohydrate: "A nutrient that provides energy to the body",
-  fat: "A nutrient that stores energy and supports body functions",
-  mineral: "An inorganic nutrient essential for health",
   fiber: "Plant material that aids digestion",
   calorie: "A unit used to measure the energy in food",
-  exercise: "Physical activity performed to improve health and fitness",
   fitness: "The condition of being physically healthy and strong",
   disease: "A disorder that impairs normal body function",
-  infection: "The invasion of the body by harmful microorganisms",
-  immunity: "The body's ability to resist disease",
-  vaccine: "A substance that stimulates protection against disease",
   antibiotic: "A medicine used to kill or stop the growth of bacteria",
   surgery: "A medical procedure involving an operation on the body",
   injury: "Physical harm caused to the body",
   wound: "A break or damage to body tissue",
   fever: "An abnormally high body temperature",
   pain: "An unpleasant physical or emotional sensation",
-  sleep: "A natural state of rest for the body and mind",
-  dream: "A sequence of thoughts and images experienced during sleep",
-  memory: "The ability to store and recall information",
   intelligence: "The ability to learn, understand, and solve problems",
   emotion: "A mental state such as happiness, anger, or fear",
   personality: "The combination of characteristics that make a person unique",
@@ -2957,35 +2897,22 @@ tectonic_plate: "Large moving section of Earth's crust"
   writing: "The act of recording language using symbols",
   reading: "The process of understanding written language",
   art: "Creative expression through visual, auditory, or performance works",
-  painting: "The art of applying color to a surface to create images",
-  drawing: "The art of making pictures with lines and marks",
-  sculpture: "The art of creating three-dimensional forms",
   dance: "Rhythmic movement of the body for expression or entertainment",
   theater: "The art of performing stories before an audience",
   poem: "A piece of writing that expresses ideas and emotions artistically",
   story: "A narrative describing events and characters",
-  novel: "A long fictional written narrative",
-  library: "A place where books and information resources are kept",
   newspaper: "A publication containing news and information",
   magazine: "A periodical publication with articles and images",
   radio: "A system of transmitting sound through electromagnetic waves",
   television: "A device for receiving visual and audio broadcasts",
   camera: "A device used to capture photographs or videos",
-  photograph: "An image created by recording light",
   movie: "A series of moving images that tell a story",
-  actor: "A person who performs roles in plays or films",
-  singer: "A person who performs songs using their voice",
   musician: "A person who plays or composes music",
-  instrument: "A device used to produce musical sounds",
   guitar: "A stringed musical instrument played by plucking strings",
   piano: "A keyboard instrument that produces sound when keys are pressed",
   drum: "A percussion instrument played by striking its surface",
   song: "A musical composition intended to be sung",
-  melody: "A sequence of musical notes that forms a tune",
-  rhythm: "A pattern of beats in music or movement",
   culture: "The customs, beliefs, and arts of a group of people",
-  tradition: "A custom or belief passed from one generation to another",
-  language: "A system of communication using words and symbols",
   religion: "A system of beliefs concerning the sacred or divine",
   philosophy: "The study of fundamental questions about existence and knowledge",
   ethics: "Principles that govern right and wrong behavior",
@@ -2996,429 +2923,551 @@ tectonic_plate: "Large moving section of Earth's crust"
   kindness: "The quality of being friendly and generous",
   courage: "The ability to face fear or difficulty bravely",
   hope: "A feeling of expectation for a positive outcome",
-  success: "The achievement of a desired goal",
-  failure: "The lack of success in achieving a goal",
-  opportunity: "A favorable situation for achieving something",
-  responsibility: "A duty or obligation to deal with something",
   leadership: "The ability to guide or influence others",
   teamwork: "The cooperative effort of a group to achieve a goal",
-  creativity: "The ability to produce original ideas",
-  innovation: "The introduction of new ideas or methods",
-  invention: "A newly created device, process, or idea",
-  discovery: "The act of finding something previously unknown",
-  adventure: "An exciting or unusual experience",
   travel: "The act of moving from one place to another",
-  journey: "The act of traveling from one place to another",
-  destination: "The place to which someone is going",
-  map: "A visual representation of an area",
   country: "A nation with its own government and territory",
-  city: "A large and permanent human settlement",
-  village: "A small community in a rural area",
   continent: "One of Earth's large continuous land masses",
   island: "A piece of land completely surrounded by water",
-  beach: "A sandy or rocky area beside a body of water",
   weather: "The condition of the atmosphere at a particular time",
   climate: "The long-term pattern of weather in a region",
-  rain: "Water droplets falling from clouds",
   cloud: "A visible mass of tiny water droplets in the sky",
-  wind: "The movement of air across Earth's surface",
   storm: "A violent atmospheric disturbance involving wind and rain",
   thunder: "The sound produced by lightning",
   lightning: "A sudden electrical discharge in the atmosphere",
   snow: "Frozen water crystals that fall from clouds",
   ice: "Frozen water in solid form",
   peace: "Freedom from disturbance, quiet and tranquility",
-  truth: "The quality or state of being in accordance with fact or reality",
-  power: "The ability or capacity to do something or act in a particular way",
-  knowledge: "Facts, information, and skills acquired through experience",
   freedom: "The power or right to act, speak, or think as one wants",
   justice: "Fairness in the way people are dealt with",
+  label: "Calculate",
+  model: "claude-sonnet-4-6",
+  title: "Answer Retrieved & Framed",
+  source: "dictionary",
+  reason: "Word not in dictionary — searching externally...",
 };
+
 // ============================================================
-// LAW 3 — OPERATOR LAW: Question words are operators
+// LAW 3 — OPERATOR LAW
 // ============================================================
 const OPERATORS = {
-  what: { action: "DEFINE", label: "Define/Identify" },
-  who: { action: "PERSON", label: "Find Person" },
-  where: { action: "LOCATION", label: "Find Location" },
-  when: { action: "TIME", label: "Find Time" },
-  how: { action: "PROCESS", label: "Find Process" },
-  why: { action: "REASON", label: "Find Reason" },
-  which: { action: "SELECT", label: "Select/Choose" },
-  is: { action: "VERIFY", label: "Verify/Confirm" },
-  calculate: { action: "MATH", label: "Calculate" },
-  solve: { action: "MATH", label: "Solve" },
+  what: "DEFINE", who: "PERSON", where: "LOCATION",
+  when: "TIME", how: "PROCESS", why: "REASON",
+  explain: "EXPLAIN", describe: "DESCRIBE",
+  compare: "COMPARE", define: "DEFINE",
+  calculate: "MATH", solve: "MATH", compute: "MATH",
+  would: "HYPOTHETICAL", could: "HYPOTHETICAL",
+  should: "ADVICE", tell: "EXPLAIN",
 };
 
 function detectOperator(words) {
-  for (const word of words) {
-    if (OPERATORS[word.toLowerCase()]) {
-      return { word: word.toLowerCase(), ...OPERATORS[word.toLowerCase()] };
+  for (const w of words) {
+    const op = OPERATORS[w.toLowerCase()];
+    if (op) return { word: w.toLowerCase(), action: op };
+  }
+  return { word: "unknown", action: "GENERAL" };
+}
+
+// ============================================================
+// LAW 4 — MATH ENGINE
+// ============================================================
+function tryMath(q) {
+  const clean = q.toLowerCase()
+    .replace(/what is|calculate|solve|compute|find|equals/gi, "")
+    .replace(/×/g,"*").replace(/÷/g,"/")
+    .replace(/squared/g,"**2").replace(/cubed/g,"**3")
+    .replace(/square root of\s*/g,"Math.sqrt(")
+    .replace(/\bpi\b/g,"Math.PI")
+    .replace(/(\d+\.?\d*)\s*%\s*of\s*(\d+\.?\d*)/g,"($1/100)*$2")
+    .trim();
+  if (!/[\d]/.test(clean)) return null;
+  if (!/[\+\-\*\/\^%]/.test(clean) && !/Math\./.test(clean)) return null;
+  try {
+    // eslint-disable-next-line no-new-func
+    const r = Function('"use strict"; return (' + clean + ')')();
+    if (typeof r === "number" && isFinite(r))
+      return Number.isInteger(r) ? r.toString() : r.toFixed(6).replace(/\.?0+$/,"");
+  } catch {}
+  return null;
+}
+
+function tryScenarioMath(q) {
+  const text = q.toLowerCase();
+  const wordNums = {one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,fifteen:15,twenty:20,thirty:30,fifty:50,hundred:100};
+  let processed = text;
+  for (const [w, v] of Object.entries(wordNums)) processed = processed.replace(new RegExp(`\\b${w}\\b`,'g'),` ${v} `);
+  const nums = processed.match(/\d+(\.\d+)?/g);
+  if (!nums || nums.length < 2) return null;
+  const n = nums.map(Number);
+  if (/left|remain|after giving|after spending|fewer|less/i.test(text)) return (n[0]-n[1]).toString();
+  if (/total|altogether|combined|together|more|added/i.test(text)) return (n[0]+n[1]).toString();
+  if (/each|per|every|split|shared|divided/i.test(text)) return (n[0]/n[1]).toFixed(2).replace(/\.?0+$/,"");
+  if (/times|multiplied|product/i.test(text)) return (n[0]*n[1]).toString();
+  if (/distance|speed.*time|how far/i.test(text) && n.length>=2) return (n[0]*n[1]).toString();
+  return null;
+}
+
+// ============================================================
+// LAW 7 — EMOTION ENGINE
+// ============================================================
+const EMOTIONS = {
+  sad:{r:"comfort",c:"#6C8EBF"},hurt:{r:"comfort",c:"#6C8EBF"},lonely:{r:"connect",c:"#6C8EBF"},
+  depressed:{r:"comfort",c:"#6C8EBF"},broken:{r:"comfort",c:"#6C8EBF"},
+  happy:{r:"celebrate",c:"#92FE9D"},excited:{r:"celebrate",c:"#92FE9D"},proud:{r:"celebrate",c:"#92FE9D"},
+  angry:{r:"calm",c:"#FF6B6B"},frustrated:{r:"calm",c:"#FF6B6B"},mad:{r:"calm",c:"#FF6B6B"},
+  scared:{r:"reassure",c:"#F0A500"},worried:{r:"reassure",c:"#F0A500"},anxious:{r:"reassure",c:"#F0A500"},
+  confused:{r:"clarify",c:"#C471ED"},lost:{r:"guide",c:"#C471ED"},
+  motivated:{r:"build",c:"#FFC300"},inspired:{r:"build",c:"#FFC300"},
+};
+const EMOTION_REPLIES = {
+  comfort:["I hear you. That weight is real — you don't have to carry it alone.","What you feel is valid. Take it one breath at a time."],
+  celebrate:["That energy is real — hold it and build on it.","Yes! Channel that into something great."],
+  calm:["That frustration makes sense. Let's work through it clearly.","Take a breath. The anger is valid. Now let's think."],
+  reassure:["That fear means you care. You've got this.","Most of what we worry about never happens. Focus on what you can control."],
+  connect:["You're not alone. I'm right here.","That loneliness won't last — it never does."],
+  guide:["Let's find direction together. What matters most right now?","Feeling lost means you're between chapters. The next one is coming."],
+  clarify:["Let's break it down step by step until it clicks.","Good question. Let me make this clear."],
+  build:["That fire is real. Now let's turn it into a plan.","Dreams need structure. Let's build the roadmap."],
+};
+function detectEmotion(text) {
+  const words = text.toLowerCase().split(/\s+/);
+  for (const w of words) {
+    const clean = w.replace(/[^a-z]/g,"");
+    if (EMOTIONS[clean]) return EMOTIONS[clean];
+  }
+  if (/i (feel|am|m) (sad|down|bad|terrible)/i.test(text)) return EMOTIONS["sad"];
+  if (/i (feel|am|m) (happy|great|amazing)/i.test(text)) return EMOTIONS["happy"];
+  if (/i (don.t|dont) understand/i.test(text)) return EMOTIONS["confused"];
+  return null;
+}
+function emotionReply(type) {
+  const list = EMOTION_REPLIES[type]||EMOTION_REPLIES["clarify"];
+  return list[Math.floor(Math.random()*list.length)];
+}
+
+// ============================================================
+// SYNTHESIS ENGINE — The Core New System
+// ============================================================
+function extractWords(question) {
+  return question.toLowerCase().replace(/[?!.,]/g,"").split(/\s+/).filter(w => w.length > 1);
+}
+
+function detectJoiners(words) {
+  return words.filter(w => JOINERS[w]).map(w => ({ word: w, ...JOINERS[w] }));
+}
+
+function collectDictionaryData(words, fullDict) {
+  const found = [];
+  for (const w of words) {
+    // Check rich dictionary first
+    if (fullDict[w]) {
+      found.push({ word: w, data: fullDict[w] });
+    }
+    // Check flat dictionary
+    else if (FLAT_DICT[w]) {
+      found.push({ 
+        word: w, 
+        data: {
+          definition: FLAT_DICT[w],
+          what_it_does: "",
+          without_it: "",
+          examples: "",
+          related: [],
+        }
+      });
     }
   }
-  return { word: "unknown", action: "GENERAL", label: "General Query" };
+  return found;
 }
 
-function findSubject(words) {
-  return words.filter(w => !OPERATORS[w.toLowerCase()] && w.length > 2);
-}
+function synthesizeAnswer(question, operator, collected, joiners) {
+  if (collected.length === 0) return null;
 
-// ============================================================
-// LAW 4 — CALCULATION LAW: Process using T Order ratios
-// ============================================================
-function calculateRatio(word1, word2) {
-  const v1 = encodeWord(word1).reduce((a, b) => a + b, 0);
-  const v2 = encodeWord(word2).reduce((a, b) => a + b, 0);
-  return v2 > 0 ? (v1 / v2).toFixed(3) : 0;
-}
+  const primary = collected[0];
+  const secondary = collected[1];
+  const action = operator.action;
 
-// ============================================================
-// LAW 5 — OUTPUT LAW: Return human readable answer
-// ============================================================
-function formatOutput(operator, subject, dictAnswer) {
-  if (!dictAnswer) return null;
-  switch (operator?.action) {
-    case "DEFINE": return `${subject} is: ${dictAnswer}`;
-    case "PERSON": return `Regarding ${subject}: ${dictAnswer}`;
-    case "LOCATION": return `Location of ${subject}: ${dictAnswer}`;
-    case "PROCESS": return `How ${subject} works: ${dictAnswer}`;
-    case "REASON": return `Why ${subject}: ${dictAnswer}`;
-    default: return dictAnswer;
+  // Frame based on operator
+  let response = "";
+
+  if (action === "DEFINE" || action === "EXPLAIN" || action === "DESCRIBE") {
+    response = `${capitalize(primary.word)} is ${primary.data.definition}.`;
+    if (primary.data.what_it_does) response += ` It ${primary.data.what_it_does}.`;
+    if (primary.data.examples) response += ` Examples include ${primary.data.examples}.`;
+    if (secondary && secondary.data.definition) {
+      response += ` It is closely related to ${secondary.word}, which is ${secondary.data.definition}.`;
+    }
   }
+
+  else if (action === "PROCESS") {
+    response = `${capitalize(primary.word)} works through ${primary.data.definition}.`;
+    if (primary.data.what_it_does) response += ` Specifically, it ${primary.data.what_it_does}.`;
+    if (primary.data.examples) response += ` This can be seen in ${primary.data.examples}.`;
+  }
+
+  else if (action === "REASON") {
+    response = `${capitalize(primary.word)} is important because it ${primary.data.what_it_does || primary.data.definition}.`;
+    if (primary.data.without_it) response += ` Without it, ${primary.data.without_it}.`;
+  }
+
+  else if (action === "HYPOTHETICAL") {
+    // "If gravity disappeared what would happen"
+    const subject = collected.find(c => c.data.without_it);
+    if (subject) {
+      response = `If ${subject.word} — ${subject.data.definition} — were to disappear, ${subject.data.without_it}.`;
+      if (subject.data.what_it_does) response += ` This is because ${subject.word} currently ${subject.data.what_it_does}.`;
+    } else {
+      response = `Without ${primary.word}, ${primary.data.without_it || "significant consequences would follow"}.`;
+    }
+  }
+
+  else if (action === "COMPARE") {
+    if (secondary) {
+      response = `${capitalize(primary.word)} is ${primary.data.definition}, while ${secondary.word} is ${secondary.data.definition}.`;
+      response += ` ${capitalize(primary.word)} ${primary.data.what_it_does || ""}, whereas ${secondary.word} ${secondary.data.what_it_does || ""}.`;
+    } else {
+      response = `${capitalize(primary.word)} is ${primary.data.definition}.`;
+    }
+  }
+
+  else if (action === "GENERAL") {
+    // Multi-concept scenario — join all collected
+    if (collected.length === 1) {
+      response = `${capitalize(primary.word)} is ${primary.data.definition}. It ${primary.data.what_it_does || ""}.`;
+    } else {
+      response = collected.map(c => `${capitalize(c.word)} is ${c.data.definition}`).join(". ") + ".";
+    }
+  }
+
+  // Apply joiner logic if detected
+  if (joiners.length > 0) {
+    const joiner = joiners[0];
+    if (joiner.type === "cause" && secondary) {
+      response = `${capitalize(primary.word)} ${primary.data.what_it_does} because ${secondary.word} ${secondary.data.definition}.`;
+    }
+    if (joiner.type === "contrast" && secondary) {
+      response += ` However, ${secondary.word} ${secondary.data.what_it_does || "works differently"}.`;
+    }
+  }
+
+  return response || null;
+}
+
+function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+// ============================================================
+// LAW 6 — AI FALLBACK (for what pure laws can't handle)
+// ============================================================
+async function fallbackAI(question, history) {
+  try {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({
+        model:"claude-sonnet-4-6", max_tokens:1000,
+        system:"You are a precise AI. Answer in 2-3 clear sentences. Direct and factual. Then: KEY: <keyword> | DEFINITION: <one sentence>",
+        messages:[
+          ...history.slice(-6).map(m=>({role:m.role,content:m.content})),
+          {role:"user",content:question}
+        ]
+      })
+    });
+    const data = await res.json();
+    const text = data.content?.[0]?.text||"";
+    const lines = text.split("\n").filter(Boolean);
+    const keyLine = lines.find(l=>l.startsWith("KEY:"));
+    const answer = lines.filter(l=>!l.startsWith("KEY:")).join(" ").trim();
+    let newEntry = null;
+    if (keyLine) {
+      const m = keyLine.match(/KEY:\s*(\w+)\s*\|\s*DEFINITION:\s*(.+)/);
+      if (m) newEntry = {key:m[1].toLowerCase(), definition:m[2].trim()};
+    }
+    return {answer, newEntry, offline:false};
+  } catch { return {answer:null, newEntry:null, offline:true}; }
 }
 
 // ============================================================
-// LAW 6 — FALLBACK LAW: Search externally using Claude API
+// STORAGE
 // ============================================================
-async function fallbackSearch(question) {
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-6",
-      max_tokens: 1000,
-      system: `You are a precise answer engine. Answer questions in 1-2 clear sentences only. 
-               Be direct and factual. No preamble. Start directly with the answer.`,
-      messages: [{ role: "user", content: question }],
-    }),
-  });
-  const data = await response.json();
-  return data.content?.[0]?.text || "Could not retrieve answer.";
+async function loadLearned() {
+  try { const r = await window.storage.get("dict-v5"); return r?JSON.parse(r.value):{}; } catch { return {}; }
 }
-// ============================================================
-// MAIN PROCESSING ENGINE — All 6 Laws Together
-// ============================================================
-async function processQuery(question, setSteps) {
-  const words = question.trim().split(/\s+/);
-  const steps = [];
+async function saveLearned(d) {
+  try { await window.storage.set("dict-v5", JSON.stringify(d)); } catch {}
+}
 
-  // LAW 1 — Encode
-  const encoded = words.map(w => ({ word: w, values: encodeWord(w) }));
-  steps.push({ law: 1, title: "T Order Encoding", data: encoded });
-  setSteps([...steps]);
-
-  // LAW 3 — Detect operator
+// ============================================================
+// MASTER ENGINE — ALL 7 LAWS + SYNTHESIS
+// ============================================================
+async function processQuery(question, learnedDict, history, onNewWord) {
+  const fullDict = {...DICTIONARY, ...learnedDict}; // FLAT_DICT checked separately in collectDictionaryData
+  const words = extractWords(question);
   const operator = detectOperator(words);
-  const subjects = findSubject(words);
-  steps.push({ law: 3, title: "Operator Detected", data: { operator, subjects } });
-  setSteps([...steps]);
+  const joiners = detectJoiners(words);
+  const collected = collectDictionaryData(words, fullDict);
+  const emotion = detectEmotion(question);
 
-  // LAW 4 — Calculate ratios
-  const subjectWord = subjects[0] || words[0];
-  const operatorWord = operator.word;
-  const ratio = calculateRatio(subjectWord, operatorWord);
-  const subjectValue = encodeWord(subjectWord).reduce((a, b) => a + b, 0);
-  steps.push({ law: 4, title: "Calculation", data: { subjectWord, subjectValue, ratio } });
-  setSteps([...steps]);
+  // LAW 4 — Math always first
+  const math = tryMath(question);
+  if (math) return {answer: math, source:"math"};
 
-  // LAW 2 — Look up dictionary
-  const dictKey = subjects.find(s => DICTIONARY[s.toLowerCase()]);
-  const dictAnswer = dictKey ? DICTIONARY[dictKey.toLowerCase()] : null;
+  const scenario = tryScenarioMath(question);
+  if (scenario) return {answer: scenario, source:"scenario"};
 
-  if (dictAnswer) {
-    // LAW 5 — Format output
-    const output = formatOutput(operator, dictKey, dictAnswer);
-    steps.push({ law: 5, title: "Output (Dictionary)", data: { output, source: "dictionary" } });
-    setSteps([...steps]);
-    return { answer: output, source: "dictionary", steps };
-  } else {
-    // LAW 6 — Fallback
-    steps.push({ law: 6, title: "Fallback Search Activated", data: { reason: "Word not in dictionary — searching externally..." } });
-    setSteps([...steps]);
-    const fallback = await fallbackSearch(question);
-    steps.push({ law: 6, title: "Answer Retrieved & Framed", data: { output: fallback, source: "external" } });
-    setSteps([...steps]);
-    return { answer: fallback, source: "external", steps };
+  // SYNTHESIS ENGINE — Always tries before anything else
+  // Even one word in dictionary = try to build an answer
+  if (collected.length > 0) {
+    const synthesized = synthesizeAnswer(question, operator, collected, joiners);
+    if (synthesized) {
+      const prefix = emotion ? emotionReply(emotion.r) + " — " : "";
+      return {
+        answer: prefix + synthesized,
+        source: collected.length > 1 ? "synthesis" : "dictionary",
+        emotionColor: emotion?.c || null
+      };
+    }
   }
+
+  // LAW 7 — Pure emotion, no facts needed
+  if (emotion && collected.length === 0) {
+    return {answer: emotionReply(emotion.r), source:"emotion", emotionColor: emotion.c};
+  }
+
+  // LAW 6 — ONLY fires when truly zero dictionary match
+  // This is for words that don't exist in dictionary yet
+  const {answer, newEntry, offline} = await fallbackAI(question, history);
+  if (offline||!answer) {
+    return {
+      answer: "I don't have that in my dictionary yet. I'm growing every day — ask me something I know or add it to my dictionary.",
+      source:"offline"
+    };
+  }
+  if (newEntry) {
+    const updated = {
+      ...learnedDict,
+      [newEntry.key]: {
+        definition: newEntry.definition,
+        what_it_does: "",
+        without_it: "",
+        examples: "",
+        related: [],
+      }
+    };
+    await saveLearned(updated);
+    onNewWord(updated, newEntry.key);
+  }
+  return {answer, source:"external", learned:newEntry};
 }
-/ ============================================================
+
+// ============================================================
 // UI
 // ============================================================
-export default function ProcessingLawAI() {
-  const [query, setQuery] = useState("");
-  const [answer, setAnswer] = useState(null);
-  const [steps, setSteps] = useState([]);
+const SOURCE_META = {
+  math:        {color:"#FFC300", icon:"⚡", label:"Math Engine · Law 4"},
+  scenario:    {color:"#FFC300", icon:"📐", label:"Scenario Math · Law 4"},
+  dictionary:  {color:"#C471ED", icon:"📖", label:"Dictionary · Law 5"},
+  synthesis:   {color:"#00C9FF", icon:"🧬", label:"Synthesis Engine · Laws 1-5"},
+  learned:     {color:"#92FE9D", icon:"🧠", label:"Learned Memory · Law 6"},
+  external:    {color:"#F64F59", icon:"🔍", label:"AI Fallback · Law 6"},
+  emotion:     {color:"#FF6B9D", icon:"❤️", label:"Emotion Engine · Law 7"},
+  offline:     {color:"#666",    icon:"📴", label:"Offline"},
+};
+
+export default function App() {
+  const [messages, setMessages] = useState([{
+    role:"assistant",
+    content:"All 7 laws active with Synthesis Engine. Ask me facts, math, scenarios or talk to me.",
+    source:"system"
+  }]);
+  const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const [source, setSource] = useState(null);
+  const [learnedDict, setLearnedDict] = useState({});
+  const [tab, setTab] = useState("chat");
+  const [learned, setLearned] = useState(0);
+  const bottomRef = useRef();
   const inputRef = useRef();
 
-  async function handleAsk() {
-    if (!query.trim()) return;
+  useEffect(() => { loadLearned().then(d => { setLearnedDict(d); setLearned(Object.keys(d).length); }); }, []);
+  useEffect(() => { bottomRef.current?.scrollIntoView({behavior:"smooth"}); }, [messages]);
+
+  async function send() {
+    if (!input.trim()||loading) return;
+    const msg = input.trim();
+    setInput("");
+    const updated = [...messages, {role:"user",content:msg}];
+    setMessages(updated);
     setLoading(true);
-    setAnswer(null);
-    setSteps([]);
-    setSource(null);
-    try {
-      const result = await processQuery(query, setSteps);
-      setAnswer(result.answer);
-      setSource(result.source);
-    } catch (e) {
-      setAnswer("Error processing query. Please try again.");
-    }
+    const history = updated.filter(m=>m.role!=="system"&&m.source!=="system");
+    const result = await processQuery(msg, learnedDict, history, (d, key) => {
+      setLearnedDict(d);
+      setLearned(Object.keys(d).length);
+    });
+    setMessages(prev => [...prev, {role:"assistant", ...result}]);
     setLoading(false);
   }
 
-  const LAW_COLORS = {
-    1: "#00C9FF",
-    2: "#92FE9D",
-    3: "#FF6B6B",
-    4: "#FFC300",
-    5: "#C471ED",
-    6: "#F64F59",
-  };
+  const totalWords = Object.keys(DICTIONARY).length + learned;
+  const tests = [
+    "What is gravity?",
+    "If gravity disappeared what would happen?",
+    "How does photosynthesis work?",
+    "Why is water important?",
+    "Compare water and fire",
+    "Calculate 25 * 48",
+    "John has 20 mangoes gives 7 to Sarah how many left?",
+    "What is electricity and why does it matter?",
+    "I feel confused about science",
+    "Explain DNA",
+  ];
 
   return (
-    <div style={{
-      minHeight: "100vh",
-      background: "#0A0A0F",
-      color: "#E8E8F0",
-      fontFamily: "'Courier New', monospace",
-      padding: "24px 16px",
-    }}>
+    <div style={{height:"100vh",display:"flex",flexDirection:"column",background:"#080810",color:"#E8E8F0",fontFamily:"'Courier New', monospace"}}>
       {/* Header */}
-      <div style={{ textAlign: "center", marginBottom: 32 }}>
-        <div style={{
-          fontSize: 11,
-          letterSpacing: 6,
-          color: "#00C9FF",
-          marginBottom: 8,
-          textTransform: "uppercase",
-        }}>
-          The Processing Law
+      <div style={{padding:"10px 16px",borderBottom:"1px solid #111",flexShrink:0}}>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",maxWidth:720,margin:"0 auto"}}>
+          <div>
+            <div style={{fontSize:8,color:"#00C9FF",letterSpacing:5}}>THE PROCESSING LAW</div>
+            <div style={{fontSize:16,fontWeight:900,background:"linear-gradient(90deg,#00C9FF,#92FE9D,#FFC300,#FF6B9D)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>
+              AI ENGINE v4.0 — SYNTHESIS
+            </div>
+          </div>
+          <div style={{display:"flex",gap:12}}>
+            {[{v:totalWords,l:"WORDS",c:"#92FE9D"},{v:learned,l:"LEARNED",c:"#F64F59"},{v:7,l:"LAWS",c:"#FF6B9D"}].map(({v,l,c})=>(
+              <div key={l} style={{textAlign:"center"}}>
+                <div style={{fontSize:16,fontWeight:900,color:c}}>{v}</div>
+                <div style={{fontSize:7,color:"#333",letterSpacing:1}}>{l}</div>
+              </div>
+            ))}
+          </div>
         </div>
-        <h1 style={{
-          fontSize: 28,
-          fontWeight: 900,
-          margin: 0,
-          background: "linear-gradient(90deg, #00C9FF, #92FE9D)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          letterSpacing: 2,
-        }}>
-          AI ENGINE v1.0
-        </h1>
-        <div style={{ fontSize: 12, color: "#555", marginTop: 6 }}>
-          No GPUs. No Training Data. Pure Logic.
+        <div style={{display:"flex",gap:4,maxWidth:720,margin:"8px auto 0"}}>
+          {["chat","test","laws","memory"].map(t=>(
+            <button key={t} onClick={()=>setTab(t)} style={{flex:1,background:tab===t?"#10101A":"transparent",border:`1px solid ${tab===t?"#00C9FF33":"#1A1A1A"}`,borderRadius:6,padding:"5px",color:tab===t?"#00C9FF":"#333",fontSize:9,cursor:"pointer",fontFamily:"'Courier New', monospace",letterSpacing:2,textTransform:"uppercase"}}>
+              {t}
+            </button>
+          ))}
         </div>
       </div>
 
-      {/* 6 Laws Badge Row */}
-      <div style={{
-        display: "flex",
-        justifyContent: "center",
-        gap: 6,
-        flexWrap: "wrap",
-        marginBottom: 28,
-      }}>
-        {[
-          { n: 1, label: "T-Order" },
-          { n: 2, label: "Word Value" },
-          { n: 3, label: "Operator" },
-          { n: 4, label: "Calculate" },
-          { n: 5, label: "Output" },
-          { n: 6, label: "Fallback" },
-        ].map(({ n, label }) => (
-          <div key={n} style={{
-            background: "#12121A",
-            border: `1px solid ${LAW_COLORS[n]}33`,
-            borderRadius: 6,
-            padding: "4px 10px",
-            fontSize: 10,
-            color: LAW_COLORS[n],
-            letterSpacing: 1,
-          }}>
-            L{n} · {label}
+      {/* CHAT */}
+      {tab==="chat" && <>
+        <div style={{flex:1,overflowY:"auto",padding:16,maxWidth:720,width:"100%",margin:"0 auto",boxSizing:"border-box"}}>
+          {messages.map((msg,i)=>{
+            const meta = SOURCE_META[msg.source]||{};
+            const isUser = msg.role==="user";
+            return (
+              <div key={i} style={{marginBottom:14,display:"flex",flexDirection:isUser?"row-reverse":"row",gap:10,animation:"fadeIn 0.3s ease"}}>
+                <div style={{width:32,height:32,borderRadius:"50%",background:isUser?"#1A1A2E":"#10101A",border:`1px solid ${isUser?"#333":(meta.color||"#333")}44`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,flexShrink:0,marginTop:2}}>
+                  {isUser?"👤":"🤖"}
+                </div>
+                <div style={{maxWidth:"82%"}}>
+                  {!isUser&&msg.source&&msg.source!=="system"&&(
+                    <div style={{fontSize:8,color:msg.emotionColor||meta.color||"#555",letterSpacing:2,marginBottom:4}}>
+                      {meta.icon} {meta.label}
+                      {msg.learned&&<span style={{color:"#FFC300",marginLeft:8}}>+ SAVED "{msg.learned.key}"</span>}
+                    </div>
+                  )}
+                  <div style={{
+                    background:isUser?"#1A1A2E":"#10101A",
+                    border:`1px solid ${isUser?"#2A2A3E":(msg.emotionColor||meta.color||"#1A1A2E")}33`,
+                    borderRadius:isUser?"12px 12px 4px 12px":"12px 12px 12px 4px",
+                    padding:"12px 16px",
+                    fontSize:["math","scenario"].includes(msg.source)?22:13,
+                    fontWeight:["math","scenario"].includes(msg.source)?900:400,
+                    color:["math","scenario"].includes(msg.source)?"#FFC300":"#D0D0E0",
+                    lineHeight:1.8,whiteSpace:"pre-wrap"
+                  }}>
+                    {msg.content}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+          {loading&&(
+            <div style={{display:"flex",gap:10,marginBottom:14}}>
+              <div style={{width:32,height:32,borderRadius:"50%",background:"#10101A",border:"1px solid #333",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13}}>🤖</div>
+              <div style={{background:"#10101A",border:"1px solid #1A1A2E",borderRadius:"12px 12px 12px 4px",padding:"12px 20px",fontSize:13,color:"#444"}}>
+                Processing<span style={{color:"#00C9FF",animation:"blink 1s infinite"}}> ···</span>
+              </div>
+            </div>
+          )}
+          <div ref={bottomRef}/>
+        </div>
+        <div style={{padding:"10px 16px",borderTop:"1px solid #111",background:"#080810",flexShrink:0}}>
+          <div style={{maxWidth:720,margin:"0 auto",display:"flex",gap:8}}>
+            <input ref={inputRef} value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&send()}
+              placeholder="Ask anything — facts, math, scenarios, emotions..."
+              style={{flex:1,background:"#10101A",border:"1px solid #1A1A2E",borderRadius:24,padding:"10px 18px",color:"#E8E8F0",fontSize:13,fontFamily:"'Courier New', monospace",outline:"none"}}/>
+            <button onClick={send} disabled={loading} style={{background:loading?"#10101A":"linear-gradient(135deg,#00C9FF,#92FE9D)",border:"none",borderRadius:"50%",width:42,height:42,color:"#080810",fontWeight:900,fontSize:16,cursor:loading?"not-allowed":"pointer"}}>➤</button>
           </div>
-        ))}
-      </div>
-      {/* Input */}
-      <div style={{
-        maxWidth: 640,
-        margin: "0 auto 28px",
-        display: "flex",
-        gap: 8,
-      }}>
-        <input
-          ref={inputRef}
-          value={query}
-          onChange={e => setQuery(e.target.value)}
-          onKeyDown={e => e.key === "Enter" && handleAsk()}
-          placeholder="Ask anything... e.g. What is water?"
-          style={{
-            flex: 1,
-            background: "#12121A",
-            border: "1px solid #00C9FF44",
-            borderRadius: 8,
-            padding: "12px 16px",
-            color: "#E8E8F0",
-            fontSize: 14,
-            fontFamily: "'Courier New', monospace",
-            outline: "none",
-          }}
-        />
-        <button
-          onClick={handleAsk}
-          disabled={loading}
-          style={{
-            background: loading ? "#222" : "linear-gradient(135deg, #00C9FF, #92FE9D)",
-            border: "none",
-            borderRadius: 8,
-            padding: "12px 20px",
-            color: "#0A0A0F",
-            fontWeight: 900,
-            fontSize: 13,
-            cursor: loading ? "not-allowed" : "pointer",
-            letterSpacing: 1,
-            fontFamily: "'Courier New', monospace",
-          }}
-        >
-          {loading ? "..." : "PROCESS"}
-        </button>
-      </div>
+        </div>
+      </>}
 
-      {/* Sample Questions */}
-      <div style={{ maxWidth: 640, margin: "0 auto 28px", display: "flex", gap: 6, flexWrap: "wrap" }}>
-        {["What is water?", "What is fire?", "How does science work?", "What is quantum computing?"].map(q => (
-          <button key={q} onClick={() => { setQuery(q); }} style={{
-            background: "#12121A",
-            border: "1px solid #333",
-            borderRadius: 20,
-            padding: "4px 12px",
-            color: "#888",
-            fontSize: 11,
-            cursor: "pointer",
-            fontFamily: "'Courier New', monospace",
-          }}>
-            {q}
-          </button>
-        ))}
-      </div>
-      {/* Processing Steps */}
-      {steps.length > 0 && (
-        <div style={{ maxWidth: 640, margin: "0 auto 24px" }}>
-          <div style={{ fontSize: 10, color: "#555", letterSpacing: 3, marginBottom: 12 }}>
-            PROCESSING LAWS
-          </div>
-          {steps.map((step, i) => (
-            <div key={i} style={{
-              background: "#12121A",
-              border: `1px solid ${LAW_COLORS[step.law]}22`,
-              borderLeft: `3px solid ${LAW_COLORS[step.law]}`,
-              borderRadius: 6,
-              padding: "10px 14px",
-              marginBottom: 8,
-              animation: "fadeIn 0.3s ease",
-            }}>
-              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
-                <span style={{ color: LAW_COLORS[step.law], fontSize: 11, fontWeight: 700, letterSpacing: 1 }}>
-                  LAW {step.law} — {step.title}
-                </span>
-              </div>
-              <div style={{ fontSize: 11, color: "#888" }}>
-                {step.law === 1 && step.data.map((w, j) => (
-                  <span key={j} style={{ marginRight: 12 }}>
-                    <span style={{ color: "#00C9FF" }}>{w.word}</span>
-                    <span style={{ color: "#555" }}> → [{w.values.join(",")}]</span>
-                  </span>
-                ))}
-                {step.law === 3 && (
-                  <span>
-                    Operator: <span style={{ color: "#FF6B6B" }}>{step.data.operator.word.toUpperCase()}</span>
-                    {" "}({step.data.operator.label}) · Subject: <span style={{ color: "#92FE9D" }}>{step.data.subjects.join(", ")}</span>
-                  </span>
-                )}
-                {step.law === 4 && (
-                  <span>
-                    <span style={{ color: "#FFC300" }}>{step.data.subjectWord}</span> value = {step.data.subjectValue} · Ratio = {step.data.ratio}
-                  </span>
-                )}
-                {(step.law === 5 || step.law === 6) && (
-                  <span style={{ color: step.data.source === "dictionary" ? "#92FE9D" : "#F64F59" }}>
-                    {step.data.output || step.data.reason}
-                  </span>
-                )}
-              </div>
+      {/* TEST TAB */}
+      {tab==="test"&&(
+        <div style={{flex:1,overflowY:"auto",padding:16,maxWidth:720,margin:"0 auto",width:"100%",boxSizing:"border-box"}}>
+          <div style={{fontSize:9,color:"#555",letterSpacing:3,marginBottom:14}}>TEST SUITE — Click to test each scenario</div>
+          {tests.map((t,i)=>(
+            <button key={i} onClick={()=>{setTab("chat");setInput(t);setTimeout(()=>inputRef.current?.focus(),100);}}
+              style={{display:"block",width:"100%",background:"#10101A",border:"1px solid #1A1A2E",borderRadius:8,padding:"12px 16px",color:"#888",fontSize:12,cursor:"pointer",fontFamily:"'Courier New', monospace",textAlign:"left",marginBottom:8}}>
+              <span style={{color:"#333",marginRight:8}}>{i+1}.</span> {t}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* LAWS TAB */}
+      {tab==="laws"&&(
+        <div style={{flex:1,overflowY:"auto",padding:16,maxWidth:720,margin:"0 auto",width:"100%",boxSizing:"border-box"}}>
+          {[
+            {n:1,name:"T ORDER",desc:"Every letter = a fixed number. A=1...Z=26. The encoding base."},
+            {n:2,name:"RICH DICTIONARY",desc:"Every word has multi-field entries: definition, what it does, without it, examples, related words. Grows forever."},
+            {n:3,name:"OPERATOR LAW",desc:"Question words are operators. WHAT, HOW, WHY, IF, COMPARE each shape the answer differently."},
+            {n:4,name:"MATH ENGINE",desc:"Direct equations and word problem scenarios. Extracts numbers and operations from context. Unbeatable on math."},
+            {n:5,name:"SYNTHESIS ENGINE",desc:"Breaks the question word by word. Collects all dictionary data. Detects joiners (if, because, would, however). Frames a full natural answer."},
+            {n:6,name:"FALLBACK + SAVE",desc:"For what pure laws can't handle yet — researches, frames, saves permanently. Dictionary grows with every use."},
+            {n:7,name:"EMOTION LAW",desc:"Detects emotional tone. Maps to response mode. Can combine emotion with knowledge in one answer."},
+          ].map(({n,name,desc})=>(
+            <div key={n} style={{background:"#10101A",borderLeft:`4px solid ${["#00C9FF","#92FE9D","#FF6B6B","#FFC300","#00C9FF","#F64F59","#FF6B9D"][n-1]}`,borderRadius:8,padding:"14px 16px",marginBottom:10}}>
+              <div style={{color:["#00C9FF","#92FE9D","#FF6B6B","#FFC300","#00C9FF","#F64F59","#FF6B9D"][n-1],fontSize:11,fontWeight:700,letterSpacing:2,marginBottom:6}}>LAW {n} — {name}</div>
+              <div style={{color:"#888",fontSize:12,lineHeight:1.7}}>{desc}</div>
             </div>
           ))}
         </div>
       )}
 
-      {/* Final Answer */}
-      {answer && (
-        <div style={{
-          maxWidth: 640,
-          margin: "0 auto 24px",
-          background: "linear-gradient(135deg, #12121A, #1A1A2E)",
-          border: "1px solid #00C9FF44",
-          borderRadius: 10,
-          padding: 20,
-        }}>
-          <div style={{
-            fontSize: 10,
-            letterSpacing: 3,
-            color: source === "dictionary" ? "#92FE9D" : "#F64F59",
-            marginBottom: 10,
-          }}>
-            {source === "dictionary" ? "✓ DICTIONARY ANSWER (Law 5)" : "⚡ FALLBACK ANSWER (Law 6)"}
-          </div>
-          <div style={{ fontSize: 15, lineHeight: 1.6, color: "#E8E8F0" }}>
-            {answer}
+      {/* MEMORY TAB */}
+      {tab==="memory"&&(
+        <div style={{flex:1,overflowY:"auto",padding:16,maxWidth:720,margin:"0 auto",width:"100%",boxSizing:"border-box"}}>
+          <div style={{fontSize:9,color:"#555",letterSpacing:3,marginBottom:14}}>LEARNED MEMORY — {learned} words</div>
+          {Object.keys(learnedDict).length===0?(
+            <div style={{background:"#10101A",borderRadius:8,padding:24,textAlign:"center",color:"#333",fontSize:12}}>
+              Empty. Ask something not in the base dictionary and it saves here.
+            </div>
+          ):Object.entries(learnedDict).map(([word,data])=>(
+            <div key={word} style={{background:"#10101A",borderLeft:"3px solid #F64F59",borderRadius:6,padding:"10px 14px",marginBottom:8}}>
+              <div style={{color:"#F64F59",fontSize:11,fontWeight:700,marginBottom:3}}>{word}</div>
+              <div style={{color:"#666",fontSize:11}}>{typeof data==="object"?data.definition:data}</div>
+            </div>
+          ))}
+          <div style={{marginTop:16,background:"#10101A",border:"1px solid #92FE9D22",borderRadius:8,padding:14}}>
+            <div style={{color:"#92FE9D",fontSize:9,letterSpacing:3,marginBottom:10}}>BASE DICTIONARY — {Object.keys(DICTIONARY).length} rich entries</div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:5}}>
+              {Object.keys(DICTIONARY).map(w=>(
+                <span key={w} style={{background:"#080810",borderRadius:4,padding:"2px 8px",fontSize:9,color:"#444"}}>{w}</span>
+              ))}
+            </div>
           </div>
         </div>
       )}
-
-      {/* T Order Table */}
-      <div style={{ maxWidth: 640, margin: "0 auto" }}>
-        <div style={{ fontSize: 10, color: "#555", letterSpacing: 3, marginBottom: 10 }}>
-          LAW 1 — T ORDER REFERENCE
-        </div>
-        <div style={{
-          background: "#12121A",
-          border: "1px solid #1A1A2E",
-          borderRadius: 8,
-          padding: 14,
-          display: "flex",
-          flexWrap: "wrap",
-          gap: 6,
-        }}>
-          {Object.entries(T_ORDER).map(([letter, val]) => (
-            <div key={letter} style={{
-              background: "#0A0A0F",
-              borderRadius: 4,
-              padding: "3px 7px",
-              fontSize: 10,
-              color: "#555",
-            }}>
-              <span style={{ color: "#00C9FF" }}>{letter}</span>={val}
-            </div>
-          ))}
-        </div>
-      </div>
 
       <style>{`
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
-        input::placeholder { color: #444; }
+        @keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+        @keyframes blink{0%,100%{opacity:1}50%{opacity:0.2}}
+        input::placeholder{color:#2A2A3A}
+        ::-webkit-scrollbar{width:3px}
+        ::-webkit-scrollbar-track{background:#080810}
+        ::-webkit-scrollbar-thumb{background:#1A1A2E;border-radius:2px}
       `}</style>
     </div>
   );
-                     }
+}
