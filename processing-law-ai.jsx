@@ -11124,88 +11124,173 @@ function collectDictionaryData(words, fullDict) {
   return found;
 }
 
+
 function lc(s){ return s ? s.charAt(0).toLowerCase() + s.slice(1) : ""; }
+function capitalize(s){ return s ? s.charAt(0).toUpperCase() + s.slice(1) : ""; }
 
 function synthesizeAnswer(question, operator, collected, joiners) {
   if (collected.length === 0) return null;
 
-  const primary = collected[0];
-  const secondary = collected[1];
+  const primary   = collected[0];
+  const secondary = collected[1] || null;
+  const tertiary  = collected[2] || null;
+  const rest      = collected.slice(3);
+
   const action = operator.action;
-  const def = primary.data.definition || "";
-  const does = primary.data.what_it_does || "";
-  const without = primary.data.without_it || "";
-  const examples = primary.data.examples || "";
+
+  function def(c)     { return c?.data?.definition    || ""; }
+  function does(c)    { return c?.data?.what_it_does  || ""; }
+  function without(c) { return c?.data?.without_it    || ""; }
+  function examples(c){ return c?.data?.examples      || ""; }
+
+  function chainRest(nodes) {
+    if (!nodes || nodes.length === 0) return "";
+    return nodes.map(c => {
+      const d = def(c) || does(c);
+      return d ? `${c.word} (${lc(d)})` : c.word;
+    }).join(", ");
+  }
+
+  const joinerTypes = new Set(joiners.map(j => j.type));
 
   let response = "";
 
   if (action === "DEFINE" || action === "EXPLAIN" || action === "DESCRIBE") {
-    response = `${capitalize(primary.word)} is ${lc(def)}.`;
-    if (does) response += ` It ${lc(does)}.`;
-    if (examples) response += ` Common examples include ${lc(examples)}.`;
-    if (secondary && secondary.data.definition) {
-      response += ` This is closely related to ${secondary.word}, which means ${lc(secondary.data.definition)}.`;
+    response = `${capitalize(primary.word)} is ${lc(def(primary))}.`;
+    if (does(primary)) response += ` It ${lc(does(primary))}.`;
+    if (examples(primary)) response += ` Examples include ${lc(examples(primary))}.`;
+    if (secondary) {
+      response += ` This connects to ${secondary.word}`;
+      if (def(secondary)) response += `, which is ${lc(def(secondary))}`;
+      response += ".";
     }
+    if (tertiary) {
+      response += ` Together with ${tertiary.word}`;
+      if (def(tertiary)) response += ` — ${lc(def(tertiary))} —`;
+      response += ` these concepts form a connected system.`;
+    }
+    if (rest.length > 0) response += ` Related to this: ${chainRest(rest)}.`;
   }
 
   else if (action === "PROCESS") {
-    response = `${capitalize(primary.word)} works by ${lc(def)}.`;
-    if (does) response += ` In practice, it ${lc(does)}.`;
-    if (examples) response += ` You can see this in ${lc(examples)}.`;
+    response = `${capitalize(primary.word)} works through ${lc(def(primary))}.`;
+    if (does(primary)) response += ` In action, it ${lc(does(primary))}.`;
+    if (secondary) {
+      const link = joinerTypes.has("cause")
+        ? `This is possible because ${secondary.word} ${lc(does(secondary) || def(secondary))}.`
+        : `This involves ${secondary.word}, which ${lc(does(secondary) || def(secondary))}.`;
+      response += ` ${link}`;
+    }
+    if (tertiary) response += ` Meanwhile, ${tertiary.word} ${lc(does(tertiary) || def(tertiary))}.`;
+    if (examples(primary)) response += ` Seen in: ${lc(examples(primary))}.`;
   }
 
   else if (action === "REASON") {
-    const reason = does || def;
-    response = `${capitalize(primary.word)} is important because it ${lc(reason)}.`;
-    if (without) response += ` Without it, ${lc(without)}.`;
+    const reason = does(primary) || def(primary);
+    response = `${capitalize(primary.word)} matters because it ${lc(reason)}.`;
+    if (without(primary)) response += ` Without it, ${lc(without(primary))}.`;
+    if (secondary) {
+      response += ` This is amplified by ${secondary.word}`;
+      const r2 = does(secondary) || def(secondary);
+      if (r2) response += `, which ${lc(r2)}`;
+      response += ".";
+    }
+    if (tertiary) {
+      response += ` Add to that ${tertiary.word}`;
+      const r3 = does(tertiary) || def(tertiary);
+      if (r3) response += ` — ${lc(r3)} —`;
+      response += ` and you see why this system is critical.`;
+    }
   }
 
   else if (action === "HYPOTHETICAL") {
-    const subject = collected.find(c => c.data.without_it) || primary;
-    const subDef = subject.data.definition || "";
-    const subWithout = subject.data.without_it || "";
-    const subDoes = subject.data.what_it_does || "";
-    if (subWithout) {
-      response = `If ${subject.word} — ${lc(subDef)} — were to disappear, ${lc(subWithout)}.`;
-      if (subDoes) response += ` This is because ${subject.word} currently ${lc(subDoes)}.`;
-    } else {
-      response = `Without ${primary.word}, significant consequences would follow since it ${lc(def)}.`;
+    const subject = collected.find(c => without(c)) || primary;
+    response = `If ${subject.word} — ${lc(def(subject))} — were removed, ${lc(without(subject))}.`;
+    if (does(subject)) response += ` This is because it currently ${lc(does(subject))}.`;
+    const others = collected.filter(c => c !== subject);
+    if (others.length >= 1) {
+      const o1 = others[0];
+      response += ` This would also affect ${o1.word}`;
+      const o1w = without(o1) || does(o1);
+      if (o1w) response += `, since ${o1.word} ${lc(o1w)}`;
+      response += ".";
+    }
+    if (others.length >= 2) {
+      const o2 = others[1];
+      response += ` Even ${o2.word}`;
+      const o2d = def(o2);
+      if (o2d) response += ` — ${lc(o2d)} —`;
+      response += ` would be disrupted as a result.`;
+    }
+    if (others.length >= 3) {
+      response += ` The chain effect would reach ${chainRest(others.slice(2))}, collapsing the entire system.`;
     }
   }
 
   else if (action === "COMPARE") {
     if (secondary) {
-      response = `${capitalize(primary.word)} is ${primary.data.definition}, while ${secondary.word} is ${secondary.data.definition}.`;
-      response += ` ${capitalize(primary.word)} ${primary.data.what_it_does || ""}, whereas ${secondary.word} ${secondary.data.what_it_does || ""}.`;
+      response = `${capitalize(primary.word)} is ${lc(def(primary))}, while ${secondary.word} is ${lc(def(secondary))}.`;
+      const d1 = does(primary), d2 = does(secondary);
+      if (d1 && d2) response += ` ${capitalize(primary.word)} ${lc(d1)}, whereas ${secondary.word} ${lc(d2)}.`;
+      if (tertiary) {
+        response += ` A third angle: ${tertiary.word} is ${lc(def(tertiary))}`;
+        if (does(tertiary)) response += ` and ${lc(does(tertiary))}`;
+        response += ".";
+      }
     } else {
-      response = `${capitalize(primary.word)} is ${primary.data.definition}.`;
+      response = `${capitalize(primary.word)} is ${lc(def(primary))}.`;
+      if (does(primary)) response += ` It ${lc(does(primary))}.`;
     }
   }
 
-  else if (action === "GENERAL") {
-    // Multi-concept scenario — join all collected
+  else {
     if (collected.length === 1) {
-      response = `${capitalize(primary.word)} is ${primary.data.definition}. It ${primary.data.what_it_does || ""}.`;
+      response = `${capitalize(primary.word)} is ${lc(def(primary))}.`;
+      if (does(primary)) response += ` It ${lc(does(primary))}.`;
+      if (examples(primary)) response += ` For example: ${lc(examples(primary))}.`;
+    } else if (collected.length === 2) {
+      response = `${capitalize(primary.word)} — ${lc(def(primary))} — and ${secondary.word} — ${lc(def(secondary))} — are connected.`;
+      if (does(primary)) response += ` ${capitalize(primary.word)} ${lc(does(primary))}.`;
+      if (does(secondary)) response += ` At the same time, ${secondary.word} ${lc(does(secondary))}.`;
     } else {
-      response = collected.map(c => `${capitalize(c.word)} is ${c.data.definition}`).join(". ") + ".";
+      const core = collected.slice(0, 3);
+      const extra = collected.slice(3);
+      response = core.map((c, i) => {
+        const d = def(c), wh = does(c);
+        if (i === 0) return `${capitalize(c.word)} is ${lc(d)}${wh ? `, which means it ${lc(wh)}` : ""}`;
+        if (i === 1) return `${c.word} is ${lc(d)}${wh ? ` and ${lc(wh)}` : ""}`;
+        if (i === 2) return `${c.word} is ${lc(d)}`;
+        return "";
+      }).filter(Boolean).join("; ") + ".";
+      if (extra.length > 0) response += ` Also relevant: ${chainRest(extra)}.`;
     }
   }
 
-  // Apply joiner logic if detected
-  if (joiners.length > 0) {
-    const joiner = joiners[0];
-    if (joiner.type === "cause" && secondary) {
-      response = `${capitalize(primary.word)} ${primary.data.what_it_does} because ${secondary.word} ${secondary.data.definition}.`;
-    }
-    if (joiner.type === "contrast" && secondary) {
-      response += ` However, ${secondary.word} ${secondary.data.what_it_does || "works differently"}.`;
-    }
+  // JOINER OVERLAY
+  if (joinerTypes.has("cause") && secondary && action !== "PROCESS" && action !== "REASON") {
+    const causeText = does(secondary) || def(secondary);
+    if (causeText) response += ` This happens because ${secondary.word} ${lc(causeText)}.`;
+  }
+  if (joinerTypes.has("condition") && secondary) {
+    const condText = def(secondary) || does(secondary);
+    if (condText) response += ` Under the condition that ${secondary.word} is involved — ${lc(condText)} — the outcome changes.`;
+  }
+  if (joinerTypes.has("contrast") && secondary && action !== "COMPARE") {
+    const contrastText = does(secondary) || def(secondary);
+    if (contrastText) response += ` However, ${secondary.word} ${lc(contrastText)}.`;
+  }
+  if (joinerTypes.has("addition") && tertiary) {
+    const addText = def(tertiary) || does(tertiary);
+    if (addText) response += ` Additionally, ${tertiary.word} — ${lc(addText)}.`;
+  }
+  if (joinerTypes.has("result") && secondary) {
+    const resultText = without(primary) || does(secondary);
+    if (resultText) response += ` As a result, ${lc(resultText)}.`;
   }
 
-  return response || null;
+  return response.trim() || null;
 }
 
-function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
 // ============================================================
 // LAW 6 — AI FALLBACK (for what pure laws can't handle)
