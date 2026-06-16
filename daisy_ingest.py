@@ -307,3 +307,115 @@ if __name__ == "__main__":
     else:
         # Default: run once through the seed list
         ingest_one()
+
+
+# ============================================================
+# FLASK INTEGRATION — Phase 3
+# Add this to your existing Flask app:
+#
+#   from daisy_ingest import init_daisy, daisy_bp
+#   app.register_blueprint(daisy_bp)
+#   init_daisy(app)
+#
+# Routes added:
+#   GET  /daisy/status   — word count, last ingest time, log tail
+#   POST /daisy/ingest   — trigger one manual ingest cycle
+#   POST /daisy/ingest?url=https://... — ingest a specific URL
+# ============================================================
+
+import threading
+from flask import Blueprint, jsonify, request
+
+daisy_bp = Blueprint("daisy", __name__)
+
+# Shared state
+_ingest_thread = None
+_last_ingest = None
+_ingest_count = 0
+_running = False
+
+
+def _background_scheduler(interval_minutes):
+    """Runs in a daemon thread. Ingests on a loop forever."""
+    global _last_ingest, _ingest_count, _running
+    _running = True
+    log(f"=== DAISY BACKGROUND SCHEDULER STARTED (every {interval_minutes}m) ===")
+    while _running:
+        try:
+            ingest_one()
+            _last_ingest = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            _ingest_count += 1
+        except Exception as e:
+            log(f"SCHEDULER ERROR: {e}")
+        # Sleep in small chunks so it can be stopped cleanly
+        for _ in range(interval_minutes * 60):
+            if not _running:
+                break
+            time.sleep(1)
+
+
+def init_daisy(app, interval_minutes=2):
+    """
+    Call this once in your Flask app after creating app.
+    Starts the background ingestion thread automatically.
+
+    Example:
+        app = Flask(__name__)
+        init_daisy(app)
+    """
+    global _ingest_thread
+
+    if not os.path.exists(JSX_FILE_PATH):
+        print(f"[DAISY] WARNING: JSX file not found at '{JSX_FILE_PATH}'. Ingestion paused.")
+        return
+
+    _ingest_thread = threading.Thread(
+        target=_background_scheduler,
+        args=(interval_minutes,),
+        daemon=True  # Dies automatically when Flask stops
+    )
+    _ingest_thread.start()
+    print(f"[DAISY] Ingestion engine running — every {interval_minutes} minute(s)")
+
+
+@daisy_bp.route("/daisy/status", methods=["GET"])
+def daisy_status():
+    """Returns Daisy's current knowledge stats."""
+    existing = get_existing_keys(JSX_FILE_PATH)
+
+    # Read last 10 lines of log
+    log_tail = []
+    try:
+        if os.path.exists(LOG_FILE_PATH):
+            with open(LOG_FILE_PATH, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+                log_tail = [l.strip() for l in lines[-10:]]
+    except:
+        pass
+
+    return jsonify({
+        "status": "running" if _running else "stopped",
+        "words_in_daisy": len(existing),
+        "ingest_cycles_completed": _ingest_count,
+        "last_ingest": _last_ingest or "not yet",
+        "jsx_file": JSX_FILE_PATH,
+        "seed_urls": len(SEED_URLS),
+        "log_tail": log_tail
+    })
+
+
+@daisy_bp.route("/daisy/ingest", methods=["POST"])
+def daisy_ingest_now():
+    """Manually trigger one ingest cycle. Optional ?url= param."""
+    url = request.args.get("url", None)
+    try:
+        ingest_one(url=url)
+        existing = get_existing_keys(JSX_FILE_PATH)
+        return jsonify({
+            "success": True,
+            "url_ingested": url or "next seed url",
+            "words_in_daisy": len(existing),
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        })
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
