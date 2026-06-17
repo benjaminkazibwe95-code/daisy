@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daisy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* ── DARK MODE (default) — Claude's warm dark grey, not pure black ── */
+    :root {
+      --black:   #1c1c1e;   /* Claude dark — warm dark grey, easy on eyes */
+      --surface: #242426;
+      --card:    #2c2c2e;
+      --border:  #3a3a3c;
+      --text:    #f2f2f5;
+      --muted:   #8e8e93;
+      --daisy:   #7eb8f7;
+      --daisy2:  #a78bfa;
+      --live:    #f87171;
+      --radius:  18px;
+    }
+
+    /* ── LIGHT MODE — follows phone system preference ── */
+    @media (prefers-color-scheme: light) {
+      :root {
+        --black:   #f5f5f0;   /* warm off-white — gentler than pure white */
+        --surface: #ebebeb;
+        --card:    #e0e0da;
+        --border:  #d0d0ca;
+        --text:    #1c1c1e;
+        --muted:   #6e6e73;
+        --daisy:   #2a7dd4;   /* deeper blue reads well on light */
+        --daisy2:  #7c3aed;
+        --live:    #dc2626;
+      }
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--black);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      overflow: hidden;
+      /* Smooth transition when system theme changes */
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* ── LAYOUT ── */
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100dvh;
+      max-width: 480px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* ── TOP BAR ── */
+    #topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px 10px;
+      flex-shrink: 0;
+    }
+
+    .icon-btn {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      border: none;
+      background: var(--surface);
+      color: var(--text);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .icon-btn:hover { background: var(--card); }
+    .icon-btn svg { width: 18px; height: 18px; }
+
+    #user-btn {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--daisy), var(--daisy2));
+      border: none;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── MAIN SCROLL AREA ── */
+    #main {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0 20px;
+      scrollbar-width: none;
+    }
+    #main::-webkit-scrollbar { display: none; }
+
+    /* ── GREETING ── */
+    #greeting-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 0 36px;
+      text-align: center;
+    }
+
+    .daisy-orb {
+      width: 52px; height: 52px;
+      margin-bottom: 22px;
+      position: relative;
+    }
+    .daisy-orb svg {
+      width: 100%; height: 100%;
+      animation: spin-slow 12s linear infinite;
+    }
+    @keyframes spin-slow {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    #greeting {
+      font-family: 'Instrument Serif', serif;
+      font-size: 32px;
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    /* ── CHAT MESSAGES ── */
+    #chat-area {
+      display: none;
+      flex-direction: column;
+      gap: 16px;
+      padding-bottom: 12px;
+    }
+    #chat-area.active { display: flex; }
+
+    .msg {
+      max-width: 88%;
+      padding: 12px 16px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .msg.user {
+      align-self: flex-end;
+      background: var(--surface);
+      color: var(--text);
+      border-bottom-right-radius: 4px;
+    }
+    .msg.daisy {
+      align-self: flex-start;
+      background: transparent;
+      color: var(--text);
+      border-bottom-left-radius: 4px;
+      padding-left: 0;
+    }
+    .msg.daisy .daisy-label {
+      font-size: 11px;
+      color: var(--daisy);
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .thinking {
+      display: flex; gap: 5px; align-items: center;
+      padding: 12px 0;
+    }
+    .thinking span {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--daisy);
+      opacity: 0.4;
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+    .thinking span:nth-child(2) { animation-delay: 0.2s; }
+    .thinking span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50%       { opacity: 1;   transform: scale(1.1); }
+    }
+
+    /* ── QUICK STARTS ── */
+    #quick-starts {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 22px 20px;
+      margin-bottom: 24px;
+    }
+    #quick-starts p {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .quick-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 11px 0;
+      border: none;
+      background: none;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+      border-radius: 10px;
+      transition: color 0.15s;
+    }
+    .quick-item:hover { color: var(--daisy); }
+    .quick-item + .quick-item { border-top: 1px solid var(--border); }
+    .quick-icon {
+      width: 32px; height: 32px;
+      border-radius: 10px;
+      background: var(--surface);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      font-size: 15px;
+    }
+
+    /* ── INPUT BAR ── */
+    #input-area {
+      padding: 12px 16px 20px;
+      flex-shrink: 0;
+      background: var(--black);
+    }
+
+    #input-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 10px 10px 10px 18px;
+      transition: border-color 0.2s;
+    }
+    #input-row:focus-within {
+      border-color: var(--daisy);
+    }
+
+    #question-input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      resize: none;
+      max-height: 120px;
+      overflow-y: auto;
+      scrollbar-width: none;
+    }
+    #question-input::placeholder { color: var(--muted); }
+    #question-input::-webkit-scrollbar { display: none; }
+
+    #speaker-btn, #action-btn {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      transition: background 0.15s, transform 0.1s;
+    }
+    #speaker-btn {
+      background: var(--card);
+      color: var(--muted);
+    }
+    #speaker-btn:hover { background: var(--border); color: var(--text); }
+
+    /* Action btn — mic by default (dark), send when typing (daisy blue) */
+    #action-btn {
+      background: var(--card);
+      color: var(--muted);
+    }
+    #action-btn.send-mode {
+      background: var(--daisy);
+      color: #000;
+    }
+    #action-btn:hover { transform: scale(1.05); }
+    #action-btn:active { transform: scale(0.95); }
+    #action-btn svg { width: 16px; height: 16px; }
+
+    /* ── LIVE ROOM — Full screen Gemini style ── */
+    #live-room {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #live-room.active { display: flex; }
+
+    #live-bg {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: radial-gradient(ellipse 100% 70% at 50% 100%, #1a3a6e 0%, #0d1f40 40%, #080808 75%);
+    }
+
+    /* Top bar */
+    #live-topbar {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 52px 24px 0;
+    }
+    #live-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: 0.03em;
+    }
+    #live-captions-btn {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      border-radius: 10px;
+      padding: 8px 10px;
+      color: #fff;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    /* Center */
+    #live-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+      flex: 1;
+      justify-content: center;
+      padding: 0 24px;
+    }
+
+    /* Wave bars — taller, more bars, Gemini feel */
+    #wave-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      height: 80px;
+    }
+    .wave-bar {
+      width: 4px;
+      border-radius: 4px;
+      background: #7eb8f7;
+      height: 8px;
+    }
+    .wave-bar:nth-child(even) { background: #a78bfa; }
+    .wave-bar.idle { animation: wave-idle 1.8s ease-in-out infinite; }
+    .wave-bar:nth-child(1)  { animation-delay: 0.00s; }
+    .wave-bar:nth-child(2)  { animation-delay: 0.10s; }
+    .wave-bar:nth-child(3)  { animation-delay: 0.20s; }
+    .wave-bar:nth-child(4)  { animation-delay: 0.30s; }
+    .wave-bar:nth-child(5)  { animation-delay: 0.05s; }
+    .wave-bar:nth-child(6)  { animation-delay: 0.15s; }
+    .wave-bar:nth-child(7)  { animation-delay: 0.25s; }
+    .wave-bar:nth-child(8)  { animation-delay: 0.35s; }
+    .wave-bar:nth-child(9)  { animation-delay: 0.00s; }
+    .wave-bar:nth-child(10) { animation-delay: 0.12s; }
+    .wave-bar:nth-child(11) { animation-delay: 0.22s; }
+    .wave-bar:nth-child(12) { animation-delay: 0.32s; }
+    .wave-bar:nth-child(13) { animation-delay: 0.08s; }
+    .wave-bar:nth-child(14) { animation-delay: 0.18s; }
+    .wave-bar:nth-child(15) { animation-delay: 0.28s; }
+    .wave-bar:nth-child(16) { animation-delay: 0.38s; }
+
+    @keyframes wave-idle {
+      0%, 100% { height: 6px;  opacity: 0.3; }
+      50%       { height: 32px; opacity: 1; }
+    }
+
+    #live-transcript {
+      font-family: 'Instrument Serif', serif;
+      font-size: 22px;
+      color: rgba(255,255,255,0.9);
+      text-align: center;
+      line-height: 1.5;
+      font-style: italic;
+      max-width: 320px;
+    }
+
+    /* Bottom controls */
+    #live-controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      padding: 0 24px 52px;
+      width: 100%;
+    }
+
+    .live-ctrl {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      background: rgba(255,255,255,0.12);
+      backdrop-filter: blur(10px);
+      transition: transform 0.15s, background 0.15s;
+    }
+    .live-ctrl:hover { transform: scale(1.08); background: rgba(255,255,255,0.2); }
+    .live-ctrl:active { transform: scale(0.92); }
+    #mic-btn.muted { background: rgba(248,113,113,0.3); }
+    #end-live {
+      background: #ef4444;
+      width: 64px; height: 64px;
+    }
+    #end-live:hover { background: #dc2626; }
+
+    /* ── DRAWER MENU ── */
+    #drawer-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 90;
+      background: rgba(0,0,0,0.6);
+    }
+    #drawer-overlay.active { display: block; }
+    #drawer {
+      position: fixed;
+      top: 0; left: -280px; bottom: 0;
+      width: 270px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      z-index: 95;
+      padding: 56px 0 32px;
+      transition: left 0.25s cubic-bezier(0.4,0,0.2,1);
+      display: flex;
+      flex-direction: column;
+    }
+    #drawer.open { left: 0; }
+
+    #drawer-title {
+      font-family: 'Instrument Serif', serif;
+      font-size: 26px;
+      color: var(--text);
+      padding: 0 24px 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .drawer-section {
+      padding: 20px 24px 0;
+    }
+    .drawer-section-label {
+      font-size: 10px;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .drawer-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 11px 0;
+      border: none;
+      background: none;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+      border-radius: 8px;
+      transition: color 0.15s;
+    }
+    .drawer-item:hover { color: var(--daisy); }
+    .drawer-item .d-icon { font-size: 16px; width: 24px; text-align: center; }
+
+    .drawer-footer {
+      margin-top: auto;
+      padding: 20px 24px;
+      border-top: 1px solid var(--border);
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .drawer-footer strong { color: var(--daisy); font-weight: 500; }
+
+    /* ── DISCLAIMER ── */
+    #disclaimer {
+      text-align: center;
+      font-size: 11px;
+      color: var(--muted);
+      padding: 8px 0 4px;
+    }
+    /* ── PROFILE PANEL ── */
+    #profile-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 90;
+      background: rgba(0,0,0,0.5);
+    }
+    #profile-overlay.active { display: block; }
+
+    #profile-panel {
+      position: fixed;
+      top: 0; right: -320px; bottom: 0;
+      width: 300px;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      z-index: 95;
+      padding: 56px 24px 32px;
+      transition: right 0.25s cubic-bezier(0.4,0,0.2,1);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    #profile-panel.open { right: 0; }
+
+    #close-profile {
+      position: absolute;
+      top: 16px; right: 20px;
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      background: var(--card);
+      border: none; color: var(--muted);
+      cursor: pointer; font-size: 14px;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    #profile-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    #profile-avatar {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--daisy), var(--daisy2));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; font-weight: 500; color: #fff;
+      flex-shrink: 0;
+    }
+    #profile-name-display {
+      font-size: 16px; font-weight: 500; color: var(--text);
+    }
+    #profile-email-display {
+      font-size: 12px; color: var(--muted); margin-top: 2px;
+    }
+
+    #profile-form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    #profile-form label {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    #profile-form input {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    #profile-form input:focus { border-color: var(--daisy); }
+    #save-profile {
+      margin-top: 4px;
+      background: var(--daisy);
+      color: #000;
+      border: none;
+      border-radius: 12px;
+      padding: 11px;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    #save-profile:hover { opacity: 0.85; }
+
+  
+</head>
+<body>
+
+<div id="app">
+
+  <!-- TOP BAR -->
+  <div id="topbar">
+    <button class="icon-btn" id="menu-btn" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6"  x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="16" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <button id="user-btn" aria-label="Account">?</button>
+  </div>
+
+  <!-- SCROLL AREA -->
+  <div id="main">
+
+    <!-- GREETING -->
+    <div id="greeting-wrap">
+      <div class="daisy-orb">
+        <svg viewBox="0 0 52 52" fill="none">
+          <circle cx="26" cy="26" r="5" fill="#7eb8f7"/>
+          <g stroke="#7eb8f7" stroke-width="1.5" stroke-linecap="round" opacity="0.7">
+            <line x1="26" y1="4"  x2="26" y2="12"/>
+            <line x1="26" y1="40" x2="26" y2="48"/>
+            <line x1="4"  y1="26" x2="12" y2="26"/>
+            <line x1="40" y1="26" x2="48" y2="26"/>
+            <line x1="10.1" y1="10.1" x2="15.8" y2="15.8"/>
+            <line x1="36.2" y1="36.2" x2="41.9" y2="41.9"/>
+            <line x1="41.9" y1="10.1" x2="36.2" y2="15.8"/>
+            <line x1="15.8" y1="36.2" x2="10.1" y2="41.9"/>
+          </g>
+        </svg>
+      </div>
+      <div id="greeting">Good evening</div>
+    </div>
+
+    <!-- CHAT AREA -->
+    <div id="chat-area"></div>
+
+    <!-- QUICK STARTS -->
+    <div id="quick-starts">
+      <p>Ask Daisy</p>
+      <button class="quick-item" onclick="quickAsk('Research anything for me')">
+        <span class="quick-icon">🔍</span> Research Anything
+      </button>
+      <button class="quick-item" onclick="quickAsk('Help me build something')">
+        <span class="quick-icon">🛠️</span> Build Anything
+      </button>
+      <button class="quick-item" onclick="quickAsk('Explain a science topic')">
+        <span class="quick-icon">🔬</span> Science Research
+      </button>
+    </div>
+
+    <div id="disclaimer">Daisy can make mistakes — always verify important information.</div>
+
+  </div><!-- /main -->
+
+  <!-- INPUT BAR -->
+  <div id="input-area">
+    <div id="input-row">
+      <textarea id="question-input" rows="1" placeholder="Talk to Daisy..."></textarea>
+      <button id="speaker-btn" title="Read aloud">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+        </svg>
+      </button>
+      <!-- Single button — live mic when empty, send arrow when typing -->
+      <button id="action-btn" title="Live voice">
+        <span id="action-live-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <rect x="9" y="2" width="6" height="12" rx="3"/>
+            <path d="M5 10a7 7 0 0 0 14 0"/>
+            <line x1="12" y1="19" x2="12" y2="22"/>
+            <line x1="8"  y1="22" x2="16" y2="22"/>
+          </svg>
+        </span>
+        <span id="action-send-icon" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<!-- DRAWER -->
+<div id="drawer-overlay"></div>
+<div id="drawer">
+  <div id="drawer-title">Daisy</div>
+  <div class="drawer-section">
+    <div class="drawer-section-label">Navigation</div>
+    <button class="drawer-item"><span class="d-icon">💬</span> New Chat</button>
+    <button class="drawer-item"><span class="d-icon">🕐</span> History</button>
+    <button class="drawer-item"><span class="d-icon">📌</span> Saved</button>
+  </div>
+  <div class="drawer-section">
+    <div class="drawer-section-label">Daisy</div>
+    <button class="drawer-item" onclick="checkStatus()"><span class="d-icon">📊</span> Knowledge Stats</button>
+    <button class="drawer-item"><span class="d-icon">⚙️</span> Settings</button>
+  </div>
+  <div class="drawer-footer">
+    Powered by <a href="https://trustedbiz.co.ug" target="_blank" rel="noopener" style="color:var(--daisy);text-decoration:none;font-weight:500;">TrustedBiz</a>
+  </div>
+</div>
+
+<!-- PROFILE PANEL -->
+<div id="profile-overlay"></div>
+<div id="profile-panel">
+  <div id="profile-header">
+    <div id="profile-avatar"></div>
+    <div>
+      <div id="profile-name-display"></div>
+      <div id="profile-email-display"></div>
+    </div>
+  </div>
+  <div id="profile-form">
+    <label>Name
+      <input id="pname" type="text" placeholder="Your name" autocomplete="name" />
+    </label>
+    <label>Email
+      <input id="pemail" type="email" placeholder="your@email.com" autocomplete="email" />
+    </label>
+    <button id="save-profile">Save</button>
+  </div>
+  <button id="close-profile">✕</button>
+</div>
+<!-- LIVE ROOM — Full screen Gemini style -->
+<div id="live-room">
+  <!-- Full screen gradient bg — dark top, blue glow bottom -->
+  <div id="live-bg"></div>
+
+  <!-- Top bar -->
+  <div id="live-topbar">
+    <div id="live-label">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="2" y1="10" x2="2" y2="14"/><line x1="6" y1="6" x2="6" y2="18"/>
+        <line x1="10" y1="3" x2="10" y2="21"/><line x1="14" y1="6" x2="14" y2="18"/>
+        <line x1="18" y1="10" x2="18" y2="14"/><line x1="22" y1="8" x2="22" y2="16"/>
+      </svg>
+      Live
+    </div>
+    <button id="live-captions-btn" title="Captions">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="2" y="6" width="20" height="14" rx="2"/>
+        <line x1="6" y1="12" x2="12" y2="12"/>
+        <line x1="6" y1="16" x2="18" y2="16"/>
+        <line x1="14" y1="12" x2="18" y2="12"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Center wave + transcript -->
+  <div id="live-center">
+    <div id="wave-wrap">
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+      <div class="wave-bar idle"></div>
+    </div>
+    <div id="live-transcript">Listening...</div>
+  </div>
+
+  <!-- Bottom controls -->
+  <div id="live-controls">
+    <button class="live-ctrl" id="cam-btn" title="Camera">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="2" y="7" width="15" height="13" rx="2"/>
+        <path d="M17 9l5-2v10l-5-2V9z"/>
+      </svg>
+    </button>
+    <button class="live-ctrl" id="share-btn" title="Share screen">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="2" y="4" width="20" height="14" rx="2"/>
+        <path d="M8 20h8M12 18v2"/>
+        <path d="M9 10l3-3 3 3M12 7v6"/>
+      </svg>
+    </button>
+    <button class="live-ctrl" id="mic-btn" title="Mute mic">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="9" y="2" width="6" height="12" rx="3"/>
+        <path d="M5 10a7 7 0 0 0 14 0"/>
+        <line x1="12" y1="19" x2="12" y2="22"/>
+        <line x1="8"  y1="22" x2="16" y2="22"/>
+      </svg>
+    </button>
+    <button class="live-ctrl" id="end-live" title="End">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+  // ── USER & GREETING ──────────────────────────────────
+  const greetingEl = document.getElementById('greeting');
+  const userBtn    = document.getElementById('user-btn');
+
+  function getUser() {
+    try { return JSON.parse(localStorage.getItem('daisy_user') || '{}'); } catch(e) { return {}; }
+  }
+  function saveUser(data) {
+    localStorage.setItem('daisy_user', JSON.stringify(data));
+  }
+
+  function applyUser() {
+    const user = getUser();
+    const name = user.name || '';
+    const initial = name ? name.trim()[0].toUpperCase() : '?';
+    userBtn.textContent = initial;
+    document.getElementById('profile-avatar').textContent = initial;
+    document.getElementById('profile-name-display').textContent = name || 'Your account';
+    document.getElementById('profile-email-display').textContent = user.email || '';
+    document.getElementById('pname').value  = name;
+    document.getElementById('pemail').value = user.email || '';
+    const h = new Date().getHours();
+    const tod = h < 12 ? 'morning' : h < 17 ? 'afternoon' : 'evening';
+    greetingEl.textContent = name ? `Good ${tod}, ${name}` : `Good ${tod}`;
+  }
+
+  applyUser();
+
+  // Profile panel
+  const profilePanel   = document.getElementById('profile-panel');
+  const profileOverlay = document.getElementById('profile-overlay');
+  userBtn.onclick = () => {
+    profilePanel.classList.add('open');
+    profileOverlay.classList.add('active');
+  };
+  document.getElementById('close-profile').onclick = closeProfile;
+  profileOverlay.onclick = closeProfile;
+  function closeProfile() {
+    profilePanel.classList.remove('open');
+    profileOverlay.classList.remove('active');
+  }
+  document.getElementById('save-profile').onclick = () => {
+    const name  = document.getElementById('pname').value.trim();
+    const email = document.getElementById('pemail').value.trim();
+    saveUser({ name, email });
+    applyUser();
+    closeProfile();
+  };
+
+  // ── AUTO-RESIZE TEXTAREA ──────────────────────────────
+  const inp = document.getElementById('question-input');
+  inp.addEventListener('input', () => {
+    inp.style.height = 'auto';
+    inp.style.height = Math.min(inp.scrollHeight, 120) + 'px';
+  });
+  inp.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+  });
+
+  // ── CHAT ─────────────────────────────────────────────
+  const chatArea   = document.getElementById('chat-area');
+  const quickStarts = document.getElementById('quick-starts');
+  const greetWrap  = document.getElementById('greeting-wrap');
+  let chatActive   = false;
+
+  function activateChat() {
+    if (!chatActive) {
+      chatActive = true;
+      chatArea.classList.add('active');
+      quickStarts.style.display = 'none';
+      greetWrap.style.paddingTop = '20px';
+      greetWrap.querySelector('#greeting').style.fontSize = '20px';
+    }
+  }
+
+  function addMsg(text, role) {
+    const div = document.createElement('div');
+    div.className = `msg ${role}`;
+    if (role === 'daisy') {
+      div.innerHTML = `<div class="daisy-label">Daisy</div>${escHtml(text)}`;
+    } else {
+      div.textContent = text;
+    }
+    chatArea.appendChild(div);
+    div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    return div;
+  }
+
+  function addThinking() {
+    const div = document.createElement('div');
+    div.className = 'thinking';
+    div.innerHTML = '<span></span><span></span><span></span>';
+    chatArea.appendChild(div);
+    div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    return div;
+  }
+
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  async function sendMessage(overrideText) {
+    const text = overrideText || inp.value.trim();
+    if (!text) return;
+    inp.value = '';
+    inp.style.height = 'auto';
+    activateChat();
+    addMsg(text, 'user');
+    const thinking = addThinking();
+
+    try {
+      const res  = await fetch('/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: text })
+      });
+      const data = await res.json();
+      thinking.remove();
+      const answer = data.answer || "I'm still learning about that. Ask me something else.";
+      addMsg(answer, 'daisy');
+      if (ttsOn) speak(answer);
+    } catch(e) {
+      thinking.remove();
+      addMsg("I couldn't reach my brain right now. Try again.", 'daisy');
+    }
+  }
+
+  function quickAsk(text) {
+    activateChat();
+    addMsg(text, 'user');
+    inp.value = text;
+    sendMessage(text);
+    inp.value = '';
+  }
+
+  // ── ACTION BUTTON (live mic ↔ send swap) ─────────────
+  const actionBtn       = document.getElementById('action-btn');
+  const actionLiveIcon  = document.getElementById('action-live-icon');
+  const actionSendIcon  = document.getElementById('action-send-icon');
+  let actionMode = 'live'; // 'live' or 'send'
+
+  function setActionMode(mode) {
+    actionMode = mode;
+    if (mode === 'send') {
+      actionBtn.classList.add('send-mode');
+      actionBtn.title = 'Send';
+      actionLiveIcon.style.display = 'none';
+      actionSendIcon.style.display = 'flex';
+    } else {
+      actionBtn.classList.remove('send-mode');
+      actionBtn.title = 'Live voice';
+      actionLiveIcon.style.display = 'flex';
+      actionSendIcon.style.display = 'none';
+    }
+  }
+
+  inp.addEventListener('input', () => {
+    setActionMode(inp.value.trim() ? 'send' : 'live');
+  });
+
+  actionBtn.onclick = () => {
+    if (actionMode === 'send') sendMessage();
+    else openLive();
+  };
+
+  // ── TTS ───────────────────────────────────────────────
+  let ttsOn = false;
+  const speakerBtn = document.getElementById('speaker-btn');
+  speakerBtn.onclick = () => {
+    ttsOn = !ttsOn;
+    speakerBtn.style.color = ttsOn ? 'var(--daisy)' : 'var(--muted)';
+    speakerBtn.style.background = ttsOn ? 'rgba(126,184,247,0.12)' : 'var(--card)';
+  };
+
+  function speak(text) {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance(text);
+    utt.rate = 1.0; utt.pitch = 1.05;
+    window.speechSynthesis.speak(utt);
+  }
+
+  // ── LIVE ROOM ─────────────────────────────────────────
+  const liveRoom   = document.getElementById('live-room');
+  const endLive    = document.getElementById('end-live');
+  const micBtn     = document.getElementById('mic-btn');
+  const transcript = document.getElementById('live-transcript');
+  const waveBars   = document.querySelectorAll('.wave-bar');
+
+  let mediaStream = null, audioCtx = null, analyser = null, waveRAF = null;
+  let recognition = null, micMuted = false;
+
+  endLive.onclick = endLiveSession;
+
+  async function openLive() {
+    liveRoom.classList.add('active');
+    transcript.textContent = 'Listening...';
+    await startMic();
+    startSpeechRecognition();
+  }
+
+  function endLiveSession() {
+    liveRoom.classList.remove('active');
+    stopMic();
+    stopSpeechRecognition();
+    transcript.textContent = 'Listening...';
+    // Restore idle animation
+    waveBars.forEach(b => { b.classList.add('idle'); b.style.height = ''; });
+  }
+
+  async function startMic() {
+    try {
+      mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      analyser = audioCtx.createAnalyser();
+      analyser.fftSize = 64;
+      audioCtx.createMediaStreamSource(mediaStream).connect(analyser);
+      animateWave();
+    } catch(e) {
+      transcript.textContent = 'Microphone access needed.';
+    }
+  }
+
+  function stopMic() {
+    if (mediaStream) { mediaStream.getTracks().forEach(t => t.stop()); mediaStream = null; }
+    if (audioCtx)    { audioCtx.close(); audioCtx = null; }
+    if (waveRAF)     { cancelAnimationFrame(waveRAF); waveRAF = null; }
+  }
+
+  function animateWave() {
+    if (!analyser) return;
+    const data = new Uint8Array(analyser.frequencyBinCount);
+    function frame() {
+      analyser.getByteFrequencyData(data);
+      waveBars.forEach((bar, i) => {
+        const val = data[i % data.length] || 0;
+        const h = 6 + (val / 255) * 68;
+        bar.style.height = h + 'px';
+        bar.classList.remove('idle');
+      });
+      waveRAF = requestAnimationFrame(frame);
+    }
+    frame();
+  }
+
+  function startSpeechRecognition() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) { transcript.textContent = 'Speech not supported in this browser.'; return; }
+    recognition = new SR();
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = 'en-US';
+
+    recognition.onresult = async (e) => {
+      let interim = '', final = '';
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        if (e.results[i].isFinal) final += e.results[i][0].transcript;
+        else interim += e.results[i][0].transcript;
+      }
+      transcript.textContent = final || interim || '...';
+
+      if (final.trim()) {
+        const question = final.trim();
+
+        activateChat();
+        addMsg(question, 'user');
+        const thinking = addThinking();
+        try {
+          const res  = await fetch('/ask', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question })
+          });
+          const data = await res.json();
+          thinking.remove();
+          const answer = data.answer || "Still learning that one.";
+          addMsg(answer, 'daisy');
+          transcript.textContent = answer;
+          speak(answer);
+        } catch(e) {
+          thinking.remove();
+          transcript.textContent = "Couldn't reach Daisy.";
+        }
+      }
+    };
+
+    recognition.onerror = () => { transcript.textContent = 'Listening...'; };
+    recognition.onend   = () => { if (liveRoom.classList.contains('active')) recognition.start(); };
+    recognition.start();
+  }
+
+  function stopSpeechRecognition() {
+    if (recognition) { recognition.stop(); recognition = null; }
+  }
+
+  micBtn.onclick = () => {
+    micMuted = !micMuted;
+    micBtn.classList.toggle('muted', micMuted);
+    micBtn.style.opacity = micMuted ? '0.5' : '1';
+    if (mediaStream) mediaStream.getTracks().forEach(t => { t.enabled = !micMuted; });
+    if (micMuted && recognition) recognition.stop();
+    else if (!micMuted && liveRoom.classList.contains('active')) startSpeechRecognition();
+  };
+
+  // ── DRAWER ────────────────────────────────────────────
+  const drawer        = document.getElementById('drawer');
+  const drawerOverlay = document.getElementById('drawer-overlay');
+  document.getElementById('menu-btn').onclick = () => {
+    drawer.classList.add('open');
+    drawerOverlay.classList.add('active');
+  };
+  drawerOverlay.onclick = closeDrawer;
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    drawerOverlay.classList.remove('active');
+  }
+
+  // ── DAISY STATUS ──────────────────────────────────────
+  async function checkStatus() {
+    closeDrawer();
+    try {
+      const res  = await fetch('/daisy/status');
+      const data = await res.json();
+      activateChat();
+      addMsg(`Daisy knows ${data.words.toLocaleString()} words. Last ingestion: ${data.last_ingest}. Cycles completed: ${data.ingest_cycles}.`, 'daisy');
+    } catch(e) {
+      activateChat();
+      addMsg("Couldn't fetch Daisy's stats right now.", 'daisy');
+    }
+  }
+</script>
+</body>
+</html>
