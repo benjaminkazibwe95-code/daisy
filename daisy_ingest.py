@@ -21,6 +21,7 @@ import time
 import argparse
 import requests
 import schedule
+import subprocess
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -29,6 +30,20 @@ from datetime import datetime
 # ============================================================
 JSX_FILE_PATH = "processing-law-ai.jsx"   # Path to your Daisy JSX file
 LOG_FILE_PATH = "daisy_ingest.log"        # Log of everything ingested
+
+# ============================================================
+# GIT AUTO-PUSH CONFIG
+# Daisy pushes her own learning back to GitHub so words
+# survive Render restarts. Set GITHUB_TOKEN in Render env vars.
+# ============================================================
+GITHUB_TOKEN    = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO_URL = os.environ.get("GITHUB_REPO_URL", "")
+# e.g. "https://github.com/yourusername/daisy-repo.git"
+# Render will use: https://TOKEN@github.com/yourusername/daisy-repo.git
+
+GIT_USER_NAME  = "Daisy"
+GIT_USER_EMAIL = "daisy@trustedbiz.co.ug"
+
 
 # Seed URLs — Daisy will rotate through these automatically
 SEED_URLS = [
@@ -210,6 +225,78 @@ def filter_new_only(pairs, existing_keys):
 
 
 # ============================================================
+# GIT AUTO-PUSH — Daisy commits her own learning to GitHub
+# Words survive Render restarts because they live in the repo
+# ============================================================
+def git_push(word_count):
+    """Push updated JSX file back to GitHub after each ingest cycle."""
+    if not GITHUB_TOKEN or not GITHUB_REPO_URL:
+        log("GIT PUSH SKIPPED: GITHUB_TOKEN or GITHUB_REPO_URL not set.")
+        return
+
+    try:
+        repo_dir = os.path.dirname(os.path.abspath(JSX_FILE_PATH)) or "."
+
+        # Build authenticated remote URL
+        # e.g. https://TOKEN@github.com/user/repo.git
+        if "https://" in GITHUB_REPO_URL:
+            auth_url = GITHUB_REPO_URL.replace(
+                "https://", f"https://{GITHUB_TOKEN}@"
+            )
+        else:
+            auth_url = GITHUB_REPO_URL
+
+        env = {
+            **os.environ,
+            "GIT_AUTHOR_NAME":     GIT_USER_NAME,
+            "GIT_AUTHOR_EMAIL":    GIT_USER_EMAIL,
+            "GIT_COMMITTER_NAME":  GIT_USER_NAME,
+            "GIT_COMMITTER_EMAIL": GIT_USER_EMAIL,
+        }
+
+        def run(cmd):
+            result = subprocess.run(
+                cmd, cwd=repo_dir, env=env,
+                capture_output=True, text=True
+            )
+            return result.returncode, result.stdout.strip(), result.stderr.strip()
+
+        # Stage the JSX file
+        code, out, err = run(["git", "add", JSX_FILE_PATH])
+        if code != 0:
+            log(f"GIT ADD failed: {err}")
+            return
+
+        # Check if there's actually anything to commit
+        code, out, err = run(["git", "diff", "--cached", "--quiet"])
+        if code == 0:
+            log("GIT: Nothing new to commit.")
+            return
+
+        # Commit
+        msg = f"Daisy learned {word_count} new words [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
+        code, out, err = run(["git", "commit", "-m", msg])
+        if code != 0:
+            log(f"GIT COMMIT failed: {err}")
+            return
+
+        # Push
+        code, out, err = run(["git", "push", auth_url, "main"])
+        if code == 0:
+            log(f"GIT PUSH SUCCESS — Daisy's words saved to GitHub.")
+        else:
+            # Try 'master' branch as fallback
+            code, out, err = run(["git", "push", auth_url, "master"])
+            if code == 0:
+                log(f"GIT PUSH SUCCESS (master) — Daisy's words saved.")
+            else:
+                log(f"GIT PUSH failed: {err}")
+
+    except Exception as e:
+        log(f"GIT PUSH ERROR: {e}")
+
+
+# ============================================================
 # MAIN INGEST CYCLE
 # ============================================================
 def ingest_one(url=None):
@@ -246,6 +333,9 @@ def ingest_one(url=None):
     written = write_to_jsx(JSX_FILE_PATH, new_pairs)
     log(f"SUCCESS: {written} words added to Daisy.")
     log(f"Daisy total keys approx: {len(existing) + written}")
+
+    # Push to GitHub so words survive Render restarts
+    git_push(written)
 
 
 # ============================================================
