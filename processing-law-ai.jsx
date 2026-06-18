@@ -11457,6 +11457,37 @@ const FLAT_DICT = {
   catalysts: "Especially helpful for reducing the energy required for the reaction and increasing its reaction rate",
   important_tools_of_realtime_analysis: "The measurement of pH and analysis of optical absorption (color) and emission spectra",
 
+  // === INGESTED 2026-06-18 14:23 ===
+  the_table: "Divided into four roughly rectangular areas called blocks",
+  the_periodic_law: "Recognized as a fundamental discovery in the late 19th century",
+  a_recognisably_modern_form_of_the_table: "Reached in 1945 with Glenn T",
+  isotopes: "Never separated in the periodic table; they are always grouped together under a single element",
+  the_fblock_groups: "Ignored in this numbering",
+  their_energies: "Quantised , which is to say that they can only take discrete values",
+  the_others: "Called core electrons",
+  this_rule: "First observed empirically by Madelung, and Klechkovsky and later authors gave it theoretical justification",
+  hence_the_periodic_table: "Usually drawn to begin each row (often called a period) with the filling of a new s orbital, which corresponds to the beginning of a new shell",
+  this_electron_configuration: "Written 1s 1 , where the superscript indicates the number of electrons in the subshell",
+  this_configuration: "Abbreviated [Ne] 3s 1 , where [Ne] represents neon's configuration",
+  although_the_modern_periodic_table: "Standard today, the placement of the period 1 elements hydrogen and helium remains an open issue under discussion, and some variation can be found",
+  thus_the_dblock: "Split into two very uneven portions",
+  these_periodic_recurrences: "Noticed well before the underlying theory that explains them was developed",
+  hence_for_example_gallium_atoms: "Slightly smaller than aluminium atoms",
+  the_exception: "The last column, the noble gases, which have a full shell and have no room for another electron",
+  the_alkali_and_alkaline_earth_metals: "Among the most electropositive elements, while the chalcogens, halogens, and noble gases are among the most electronegative ones",
+  elements_forming_such_bonds: "Often called metals ; those which do not are often called nonmetals",
+  net_bonding_character_occurs_when_there: "More electrons in the bonding orbitals than there are in the antibonding orbitals",
+  metallic_bonding: "Thus possible when the number of electrons delocalized by each atom is less than twice the number of orbitals contributing to the overlap",
+  the_exceptions: "Hydrogen and boron, which have too high an ionisation energy",
+  the_noble_gases: "Coloured in violet: their molecules are single atoms and no covalent bonding occurs",
+  greyedout_cells: "For elements which have not been prepared in sufficient quantities for their most stable allotropes to have been characterized in this way",
+  on_this_basis_some_authors_have_argued_that_it: "Better classified as a metal than as a metalloid",
+  although_lecoq_de_boisbaudran: "Initially sceptical, and suspected that Mendeleev was trying to take credit for his discovery, he later admitted that Mendeleev was correct",
+  ekasilicon: "Found in 1886 by German chemist Clemens Winkler , who named it germanium",
+  these_elements: "Made by bombardment of actinides with light ions",
+  but_as_it: "Also the height of the Cold War , it became clear that this would not happen",
+  after_priority: "Assigned, the elements were officially added to the periodic table, and the discoverers were invited to propose their names",
+
 };
 
 // ============================================================
