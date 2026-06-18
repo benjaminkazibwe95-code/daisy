@@ -11238,6 +11238,36 @@ const FLAT_DICT = {
   electrically_powered_vehicles: "Used in public transportation, such as electric buses and trains, [ 87 ] and electric cars",
   the_effect: "Reciprocal: when a piezoelectric material is subjected to an electric field it changes size slightly",
 
+  // === INGESTED 2026-06-18 09:13 ===
+  central_to_this: "The concepts of the thermodynamic system and its surroundings",
+  nonequilibrium_thermodynamics: "A branch of thermodynamics that deals with systems that are not in thermodynamic equilibrium",
+  guericke: "Driven to make a vacuum in order to disprove Aristotle 's long-held supposition that 'nature abhors a vacuum'",
+  although_these_early_engines: "Crude and inefficient, they attracted the attention of the leading scientists of the time",
+  the_foundations_of_statistical_thermodynamics: "Set out by physicists such as James Clerk Maxwell , Ludwig Boltzmann , Max Planck , Rudolf Clausius and J",
+  classical_thermodynamics: "The description of the states of thermodynamic systems at near-equilibrium, that uses macroscopic, measurable properties",
+  a_microscopic_interpretation_of_these_concepts: "Later provided by the development of statistical mechanics",
+  chemical_thermodynamics: "The study of the interrelation of energy with chemical reactions or with a physical change of state within the confines of the laws of thermodynamics",
+  in_an_equilibrium_state_there: "No unbalanced potentials, or driving forces, between macroscopically distinct parts of the system",
+  systems: "Said to be in equilibrium if the small, random exchanges between them (e.g",
+  this_law: "Tacitly assumed in every measurement of temperature",
+  the_zeroth_law: "Not initially recognized as a separate law of thermodynamics, as its basis in thermodynamical equilibrium was implied in the other laws",
+  this_law_of_thermodynamics: "A statistical law of nature regarding entropy and the impossibility of reaching absolute zero of temperature",
+  the_entropy_determined_relative_to_this_point: "The absolute entropy",
+  an_important_concept_in_thermodynamics: "The thermodynamic system , which is a precisely defined region of the universe under study",
+  everything_in_the_universe_except_the_system: "Called the surroundings",
+  a_system: "Separated from the remainder of the universe by a boundary which may be a physical or notional, but serve to confine the system to a finite volume",
+  segments_of_the_boundary: "Often described as walls ; they have respective defined 'permeabilities'",
+  if_the_piston_is_allowed_to_move_that_boundary: "Movable while the cylinder and cylinder head boundaries are fixed",
+  systems_in_equilibrium: "Much simpler and easier to understand than are systems which are not in equilibrium",
+  when_a_system: "At equilibrium under a given set of conditions, it is said to be in a definite thermodynamic state",
+  a_thermodynamic_meter: "Any device which measures any parameter of a thermodynamic system",
+  an_idealized_thermometer: "A sample of an ideal gas at constant pressure",
+  a_calorimeter_is_a_device_which: "Used to measure and define the internal energy of a system",
+  a_thermodynamic_reservoir_is_a_system_which: "So large that its state parameters are not appreciably altered when it is brought into contact with the system of interest",
+  when_the_reservoir: "Brought into contact with the system, the system is brought into equilibrium with the reservoir",
+  the_central_concept_of_thermodynamics: "That of energy , the ability to do work",
+  potentials: "Used to measure the energy changes in systems as they evolve from an initial state to a final state",
+
 };
 
 // ============================================================
