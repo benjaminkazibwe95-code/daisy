@@ -343,9 +343,17 @@ def git_push(word_count):
             log(f"GIT COMMIT failed: {err}")
             return
 
-        code, _, err = run(["git", "push", auth_url, "main"])
+        # Detect current branch — Render often has detached HEAD
+        code, branch, _ = run(["git", "rev-parse", "--abbrev-ref", "HEAD"])
+        if branch == "HEAD" or not branch:
+            # Detached HEAD — create/checkout main branch from current commit
+            run(["git", "checkout", "-b", "main"])
+            branch = "main"
+
+        code, _, err = run(["git", "push", auth_url, f"HEAD:{branch}"])
         if code != 0:
-            code, _, err = run(["git", "push", auth_url, "master"])
+            # Last resort — force push to main
+            code, _, err = run(["git", "push", auth_url, "HEAD:main", "--force"])
         if code == 0:
             log(f"GIT PUSH SUCCESS — {word_count} words saved to GitHub.")
         else:
