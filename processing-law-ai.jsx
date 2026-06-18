@@ -11054,6 +11054,31 @@ const FLAT_DICT = {
   recombinant_dna: "A man-made DNA sequence that has been assembled from other DNA sequences",
   evidence_can_now_be_uncovered_that: "Scientifically impossible at the time of the original examination",
 
+  // === INGESTED 2026-06-18 06:06 ===
+  the_theory: "First set out in detail in Darwin's book On the Origin of Species",
+  the_phenotype: "The ability of the skin to tan when exposed to sunlight",
+  horizontal_gene_transfer: "The transfer of genetic material from one organism to another organism that is not its offspring; this is most common among bacteria",
+  these_phenomena: "Classed as epigenetic inheritance systems",
+  evolution_by_natural_selection: "The process by which traits that enhance survival and reproduction become more common in successive generations of a population",
+  the_central_concept_of_natural_selection: "The evolutionary fitness of an organism",
+  these_traits: "Said to be selected for",
+  examples_of_traits_that_can_increase_fitness: "Enhanced survival and increased fecundity",
+  the_first: "Directional selection , which is a shift in the average value of a trait over time—for example, organisms slowly getting taller",
+  a_set_of_alleles_that: "Usually inherited in a group is called a haplotype",
+  most_prominent: "The specific behavioural and physical adaptations that are the outcome of natural selection",
+  these_outcomes_of_evolution: "Distinguished based on time scale as macroevolution versus microevolution",
+  adaptations: "Produced by natural selection",
+  when_the_interaction: "Between pairs of species, such as a pathogen and a host , or a predator and its prey, these species can develop matched sets of adaptations",
+  the_choice_of_definition: "Dependent on the particularities of the species concerned",
+  the_most_common_in_animals: "Allopatric speciation , which occurs in populations initially isolated geographically, such as by habitat fragmentation or migration",
+  one_example: "The grass Anthoxanthum odoratum , which can undergo parapatric speciation in response to localised metal pollution from mines",
+  this_form: "Rare since even a small amount of gene flow may remove genetic differences between parts of a population",
+  presentday_extinction_rates: "100–1000 times greater than the background rate and up to 30% of current species may be extinct by the mid 21st century",
+  many_human_diseases: "Not static phenomena, but capable of evolution",
+  their_separate_papers: "Presented together at an 1858 meeting of the Linnean Society of London",
+  some: "Disturbed by this since it implied that humans did not have a special place in the universe",
+  the_significance_of_this_speech: "Immediately recognised by the scientific community, and it was printed in its entirety in several scientific journals",
+
 };
 
 // ============================================================
