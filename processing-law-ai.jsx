@@ -10971,6 +10971,12 @@ const FLAT_DICT = {
   oop: "Supported by most popular imperative languages and some functional languages",
   there_are_specialpurpose_languages_that: "Not easily compared to other programming languages",
 
+  // === INGESTED 2026-06-18 05:22 ===
+  the_genetic_code: "Cracked by Har Gobind Khorana , Robert W",
+  holley_and_marshall_warren_nirenberg_after_dna: "Understood to contain codons",
+  the_human_genome_project: "Launched in 1990 to map the human genome",
+  relationships: "Visualized as evolutionary trees , studied using phylogenetics , and creating a unified taxonomy of life",
+
 };
 
 // ============================================================
