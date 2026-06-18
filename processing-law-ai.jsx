@@ -10941,6 +10941,36 @@ const FLAT_DICT = {
   data_structures: "Closely related to abstract data types (ADTs)",
   examples: "The C++ Standard Template Library , the Java Collections Framework , and the Microsoft .NET Framework",
 
+  // === INGESTED 2026-06-18 05:04 ===
+  a_programming_language: "An engineered language for expressing computer programs , [ 1 ] typically allowing software to be written in a human readable manner",
+  these_languages: "Known as high-level languages",
+  some_contend_that_programming_languages: "A subset of computer languages",
+  this_code_was_very_difficult_to_debug_and: "Not portable between different computer systems",
+  the_data_and_instructions: "Input by punch cards , meaning that no input could be added while the program was running",
+  the_languages_developed_at_this_time_therefore: "Designed for minimal interaction",
+  although_its_commercial_success: "Limited, most popular imperative languages—including C , Pascal , Ada , C++ , Java , and C# —are directly or indirectly descended from ALGOL 60",
+  most_programming_languages: "Purely textual; they use sequences of text including words, numbers, and punctuation, much like written natural languages",
+  the_syntax_of_a_language: "The possible combinations of symbols that form a syntactically correct program",
+  the_meaning_given_to_a_combination_of_symbols: "Handled by semantics (either formal or hard-coded in a reference implementation )",
+  since_most_languages: "Textual, this article discusses textual syntax",
+  the_programming_language_syntax: "Usually defined using a combination of regular expressions (for lexical structure) and Backus–Naur form (for grammatical structure)",
+  not_all_syntactically_correct_programs: "Semantically correct",
+  even_when_a_program: "Well-defined within a language, it may still have a meaning that is not intended by the person who wrote it",
+  natural_language: "Often used to specify the execution semantics of languages commonly used in practice",
+  a_data_type: "A set of allowable values and operations that can be performed on these values",
+  the_more_cases_in_which_this_type_coercion: "Allowed, the fewer type errors can be detected",
+  storing_an_integer_in_a_type_that: "Too small to represent it leads to integer overflow",
+  the_downside_of_implicit_typing: "The potential for errors to go undetected",
+  the_central_elements_in_these_languages: "Variables, assignment , and iteration , which is more efficient than recursion on these machines",
+  once_the_program: "Compiled, it will run more quickly than with other implementation methods",
+  these_concepts: "Represented as a collection of the simplest elements available (called primitives )",
+  some_languages: "Very popular for particular kinds of applications",
+  other_languages: "Regularly used to write many different kinds of applications",
+  as_it: "Common for one language to have several dialects, it can become quite difficult for an inexperienced programmer to find the right documentation",
+  most_popularly_used_languages: "Classified as imperative",
+  oop: "Supported by most popular imperative languages and some functional languages",
+  there_are_specialpurpose_languages_that: "Not easily compared to other programming languages",
+
 };
 
 // ============================================================
