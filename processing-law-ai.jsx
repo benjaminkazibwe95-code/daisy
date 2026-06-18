@@ -11529,6 +11529,25 @@ const FLAT_DICT = {
   fatty_acids_and_fatty_acid_derivatives: "Another group of carboxylic acids that play a significant role in biology",
   the_cell_membrane_of_nearly_all_organisms: "Primarily made up of a phospholipid bilayer , a micelle of hydrophobic fatty acid esters with polar, hydrophilic phosphate 'head' groups",
 
+  // === INGESTED 2026-06-18 16:10 ===
+  although_mathematics: "Widely used to model empirical phenomena, its results are established by deductive proof rather than by experiment",
+  other_areas: "Developed independently from any application but often find practical applications later",
+  other_areas_that: "Previously studied by mathematicians, such as celestial mechanics and solid mechanics , are now considered as belonging to physics",
+  two_prominent_early_number_theorists: "Euclid and Diophantus of Alexandria",
+  a_prominent_example: "Fermat's Last Theorem",
+  the_basic_statements: "Not subject to proof because they are self-evident ( postulates ), or are part of the definition of the subject of study ( axioms )",
+  such_curves: "The graph of functions , the study of which led to differential geometry",
+  this_aspect_of_the_crisis: "Solved by systematizing the axiomatic method, and adopting that the truth of the chosen axioms is not a mathematical problem",
+  the_pythagoreans: "Likely the first to constrain the use of the word to just the study of arithmetic and geometry",
+  an_axiom_or_postulate: "A mathematical statement that is taken to be true without need of proof",
+  a_specialized_theorem_that: "Mainly used to prove another theorem is called a lemma",
+  the_unreasonable_effectiveness_of_mathematics: "A phenomenon that was named and first made explicit by physicist Eugene Wigner",
+  discrete_mathematics: "Useful in many areas of computer science, such as complexity theory , information theory , and graph theory",
+  nodes_of_this_network: "Closely bound to procedures useful in human activities and to questions arising in science",
+  the_method_of_demonstrating_rigorous_proof: "Enhanced in the sixteenth century through the use of symbolic notation",
+  this_does_not_mean_that_there: "No place for creativity in a mathematical work",
+  a_rorschach_test: "A figure invariant by this symmetry, [ 212 ] as are butterfly and animal bodies more generally (at least on the surface)",
+
 };
 
 // ============================================================
