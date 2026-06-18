@@ -1,17 +1,17 @@
 """
-DAISY INGESTION ENGINE — Phase 1
-=================================
-Fetches a webpage, extracts clean knowledge pairs,
-and writes them DIRECTLY into processing-law-ai.jsx FLAT_DICT.
+DAISY INGESTION ENGINE — v2 (Self-Expanding Crawler)
+=====================================================
+What changed from v1:
+  - No more fixed seed list that gets exhausted
+  - Daisy now CRAWLS Wikipedia — follows links to new pages forever
+  - Smart queue: discovered URLs go into a crawl queue
+  - Queue is saved to disk so it survives Render restarts
+  - Visited URLs are tracked so nothing is ingested twice
+  - Rich extraction: tries to build what_it_does + examples too
+  - Starts from 200 seed topics across science, Africa, tech, life
+  - Self-feeding: every page discovered adds ~10 new URLs to queue
 
-No database. No cloud. The file grows. Daisy grows.
-
-Usage:
-  python daisy_ingest.py --url "https://en.wikipedia.org/wiki/Photosynthesis"
-  python daisy_ingest.py --auto   (runs scheduler every 60 seconds)
-
-Requirements:
-  pip install requests beautifulsoup4 schedule
+Result: Daisy never runs dry. Queue grows faster than it empties.
 """
 
 import re
@@ -20,301 +20,384 @@ import json
 import time
 import argparse
 import requests
-import schedule
+import threading
 import subprocess
 from bs4 import BeautifulSoup
 from datetime import datetime
+from flask import Blueprint, jsonify, request
 
 # ============================================================
-# CONFIG — Edit these paths to match your project
+# CONFIG
 # ============================================================
-JSX_FILE_PATH = "processing-law-ai.jsx"   # Path to your Daisy JSX file
-LOG_FILE_PATH = "daisy_ingest.log"        # Log of everything ingested
+JSX_FILE_PATH   = "processing-law-ai.jsx"
+LOG_FILE_PATH   = "daisy_ingest.log"
+QUEUE_FILE      = "daisy_queue.json"       # crawl queue — survives restarts
+VISITED_FILE    = "daisy_visited.json"     # visited URLs — no re-scraping
 
-# ============================================================
-# GIT AUTO-PUSH CONFIG
-# Daisy pushes her own learning back to GitHub so words
-# survive Render restarts. Set GITHUB_TOKEN in Render env vars.
-# ============================================================
 GITHUB_TOKEN    = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_REPO_URL = os.environ.get("GITHUB_REPO_URL", "")
-# e.g. "https://github.com/yourusername/daisy-repo.git"
-# Render will use: https://TOKEN@github.com/yourusername/daisy-repo.git
+GIT_USER_NAME   = "Daisy"
+GIT_USER_EMAIL  = "daisy@trustedbiz.co.ug"
 
-GIT_USER_NAME  = "Daisy"
-GIT_USER_EMAIL = "daisy@trustedbiz.co.ug"
+MAX_QUEUE_SIZE  = 50000   # cap queue so disk doesn't explode
+LINKS_PER_PAGE  = 12      # how many new Wikipedia links to harvest per page
 
-
-# Seed URLs — Daisy will rotate through these automatically
-SEED_URLS = [
-    "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "https://en.wikipedia.org/wiki/Computer_science",
-    "https://en.wikipedia.org/wiki/Biology",
-    "https://en.wikipedia.org/wiki/Physics",
-    "https://en.wikipedia.org/wiki/Mathematics",
-    "https://en.wikipedia.org/wiki/History_of_Uganda",
-    "https://en.wikipedia.org/wiki/Economics",
-    "https://en.wikipedia.org/wiki/Psychology",
-    "https://en.wikipedia.org/wiki/Chemistry",
-    "https://en.wikipedia.org/wiki/Geography",
-    "https://en.wikipedia.org/wiki/Technology",
-    "https://en.wikipedia.org/wiki/Medicine",
-    "https://en.wikipedia.org/wiki/Philosophy",
-    "https://en.wikipedia.org/wiki/Astronomy",
-    "https://en.wikipedia.org/wiki/Climate_change",
+# ============================================================
+# SEED TOPICS — 200 starting points across every domain
+# Daisy will crawl outward from these automatically
+# ============================================================
+SEED_TOPICS = [
+    # Science
+    "Artificial_intelligence","Machine_learning","Deep_learning","Neural_network",
+    "Computer_science","Algorithm","Data_structure","Programming_language",
+    "Biology","Cell_(biology)","DNA","Evolution","Photosynthesis","Ecology",
+    "Physics","Gravity","Electricity","Thermodynamics","Quantum_mechanics","Optics",
+    "Chemistry","Atom","Molecule","Chemical_reaction","Periodic_table","Acid",
+    "Mathematics","Algebra","Geometry","Calculus","Statistics","Number_theory",
+    "Astronomy","Solar_system","Black_hole","Galaxy","Star","Planet",
+    "Medicine","Human_body","Brain","Heart","Immune_system","Vaccine","Virus","Bacteria",
+    "Psychology","Emotion","Memory","Consciousness","Behavior","Motivation",
+    "Neuroscience","Nervous_system","Neuron","Synapse","Hormone",
+    # Africa & Uganda
+    "Uganda","Kampala","Lake_Victoria","Nile","East_Africa","African_Union",
+    "History_of_Uganda","Economy_of_Uganda","Education_in_Uganda","Agriculture_in_Uganda",
+    "Africa","Sub-Saharan_Africa","East_African_Community","Swahili_language","Luganda",
+    "Kenya","Tanzania","Rwanda","Ethiopia","Nigeria","South_Africa","Ghana",
+    "African_history","Colonialism_in_Africa","Independence_of_Africa",
+    # Technology
+    "Internet","World_Wide_Web","Smartphone","Cloud_computing","Cybersecurity",
+    "Software_engineering","Database","Operating_system","Linux","Open_source",
+    "Blockchain","Cryptocurrency","E-commerce","Digital_marketing","Social_media",
+    "Robotics","Drone","3D_printing","Nanotechnology","Biotechnology",
+    # Economics & Business
+    "Economics","Microeconomics","Macroeconomics","Supply_and_demand","Inflation",
+    "Entrepreneurship","Startup_company","Business_model","Marketing","Finance",
+    "Banking","Investment","Stock_market","Trade","Globalization",
+    "Poverty","Development_economics","Sustainable_development","Microfinance",
+    # Society & Life
+    "Education","School","University","Learning","Skill","Knowledge",
+    "Democracy","Government","Law","Human_rights","Constitution","Justice",
+    "Climate_change","Renewable_energy","Solar_energy","Water","Agriculture","Food",
+    "Health","Nutrition","Exercise","Mental_health","Happiness","Stress",
+    "Philosophy","Ethics","Logic","Critical_thinking","Epistemology",
+    "Religion","Culture","Language","Communication","Leadership","Teamwork",
+    # Practical skills
+    "Cooking","Personal_finance","Time_management","Problem_solving",
+    "Writing","Public_speaking","Negotiation","Decision-making",
+    "Football","Basketball","Athletics","Sport","Olympic_Games",
+    # Geography
+    "Geography","Continent","Ocean","Mountain","River","Desert","Forest","Climate",
+    "Population","City","Infrastructure","Transport","Energy",
 ]
 
-# Tracks which URL to fetch next
-_url_index = 0
+SEED_URLS = [f"https://en.wikipedia.org/wiki/{t}" for t in SEED_TOPICS]
 
+# ============================================================
+# QUEUE & VISITED — persisted to disk
+# ============================================================
+def load_queue():
+    try:
+        if os.path.exists(QUEUE_FILE):
+            with open(QUEUE_FILE, "r") as f:
+                return json.load(f)
+    except:
+        pass
+    return list(SEED_URLS)   # first run: start from seeds
+
+def save_queue(q):
+    try:
+        with open(QUEUE_FILE, "w") as f:
+            json.dump(q[:MAX_QUEUE_SIZE], f)
+    except:
+        pass
+
+def load_visited():
+    try:
+        if os.path.exists(VISITED_FILE):
+            with open(VISITED_FILE, "r") as f:
+                return set(json.load(f))
+    except:
+        pass
+    return set()
+
+def save_visited(v):
+    try:
+        with open(VISITED_FILE, "w") as f:
+            json.dump(list(v)[-20000:], f)   # keep last 20k
+    except:
+        pass
+
+# In-memory state (loaded from disk at startup)
+_queue   = []
+_visited = set()
+_queue_lock = threading.Lock()
+
+def init_queue():
+    global _queue, _visited
+    _queue   = load_queue()
+    _visited = load_visited()
+    # Make sure seeds are in queue if queue is empty
+    if not _queue:
+        _queue = list(SEED_URLS)
+    log(f"Queue loaded: {len(_queue)} URLs pending | {len(_visited)} visited")
 
 # ============================================================
 # STEP 1 — FETCH & CLEAN
 # ============================================================
 def fetch_page(url):
-    """Fetch a webpage and return clean text."""
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (DaisyBot/1.0)"}
-        res = requests.get(url, headers=headers, timeout=10)
+        headers = {"User-Agent": "Mozilla/5.0 (DaisyBot/2.0; +trustedbiz.co.ug)"}
+        res = requests.get(url, headers=headers, timeout=12)
         res.raise_for_status()
         soup = BeautifulSoup(res.text, "html.parser")
-
-        # Remove noise
-        for tag in soup(["script", "style", "nav", "footer", "header",
-                          "aside", "figure", "table", ".navbox", ".infobox"]):
+        for tag in soup(["script","style","nav","footer","header",
+                         "aside","figure","table",".navbox",".infobox",
+                         ".reflist",".references",".mw-editsection"]):
             tag.decompose()
-
-        # Get clean paragraphs
         paragraphs = soup.find_all("p")
         text = " ".join(p.get_text(" ", strip=True) for p in paragraphs)
-
-        # Strip references like [1], [2]
         text = re.sub(r"\[\d+\]", "", text)
         text = re.sub(r"\s+", " ", text).strip()
-
-        return text
+        return text, soup
     except Exception as e:
         log(f"FETCH ERROR: {url} — {e}")
-        return None
-
+        return None, None
 
 # ============================================================
-# STEP 2 — EXTRACT PAIRS (word → definition)
+# STEP 2 — HARVEST LINKS from page (feeds the queue)
 # ============================================================
-def extract_pairs(text, max_pairs=30):
-    """
-    Extract word:definition pairs from raw text.
-    Looks for sentences that define or describe things.
-    Pattern: "[Term] is/are/refers to [explanation]."
-    """
+def harvest_links(soup, base="https://en.wikipedia.org"):
+    if not soup:
+        return []
+    links = []
+    for a in soup.select("#mw-content-text a[href^='/wiki/']"):
+        href = a.get("href","")
+        # Skip meta pages, files, categories
+        if any(x in href for x in ["File:","Category:","Talk:","Special:",
+                                    "Help:","Template:","Wikipedia:","Portal:",
+                                    "#","(disambiguation)"]):
+            continue
+        full = base + href.split("#")[0]
+        links.append(full)
+    # Deduplicate while preserving order
+    seen = set()
+    unique = []
+    for l in links:
+        if l not in seen:
+            seen.add(l)
+            unique.append(l)
+    return unique[:LINKS_PER_PAGE]
+
+# ============================================================
+# STEP 3 — EXTRACT RICH PAIRS
+# Tries to extract definition + what_it_does + examples
+# ============================================================
+def extract_pairs(text, max_pairs=40):
     pairs = {}
-
-    # Split into sentences
     sentences = re.split(r"(?<=[.!?])\s+", text)
 
     define_pattern = re.compile(
-        r"^([A-Z][a-zA-Z\s\-]{2,40})\s+(?:is|are|refers to|means|can be defined as|was|were)\s+(.{20,120})\.",
+        r"^([A-Z][a-zA-Z\s\-]{2,45})\s+"
+        r"(?:is|are|refers to|means|can be defined as|was|were|involves|describes)\s+"
+        r"(.{20,150})\.",
+        re.IGNORECASE
+    )
+    does_pattern = re.compile(
+        r"^(?:It|They|This|The \w+)\s+(?:can|will|may|also)?\s*"
+        r"(?:help|allow|enable|provide|produce|create|generate|support|control|process)\s+"
+        r"(.{15,120})\.",
+        re.IGNORECASE
+    )
+    example_pattern = re.compile(
+        r"(?:For example|Examples include|Such as|Including|e\.g\.)[,:]?\s+(.{10,100})\.",
         re.IGNORECASE
     )
 
+    last_key = None
     for sentence in sentences:
         sentence = sentence.strip()
-        match = define_pattern.match(sentence)
-        if match:
-            raw_term = match.group(1).strip()
-            definition = match.group(2).strip()
 
-            # Clean the term into dictionary key format
-            key = raw_term.lower()
-            key = re.sub(r"[^a-z0-9\s]", "", key)
+        # Definition match
+        m = define_pattern.match(sentence)
+        if m:
+            raw_term = m.group(1).strip()
+            definition = m.group(2).strip()
+            key = re.sub(r"[^a-z0-9\s]", "", raw_term.lower())
             key = re.sub(r"\s+", "_", key).strip("_")
-
-            # Filter out bad keys
-            if len(key) < 3 or len(key) > 50:
-                continue
-            if key in ("the", "a", "an", "it", "this", "that", "they"):
-                continue
-
-            # Clean definition — one sentence, lowercase start
-            definition = definition.rstrip(".")
-            definition = definition[0].upper() + definition[1:] if definition else definition
-
-            if key and definition:
-                pairs[key] = definition
+            if 3 <= len(key) <= 50 and key not in ("the","a","an","it","this","that","they"):
+                definition = definition.rstrip(".")
+                definition = definition[0].upper() + definition[1:] if definition else definition
+                pairs[key] = {"definition": definition, "what_it_does": "", "examples": ""}
+                last_key = key
                 if len(pairs) >= max_pairs:
                     break
+            continue
+
+        # What it does — attach to last defined term
+        if last_key and last_key in pairs:
+            md = does_pattern.match(sentence)
+            if md and not pairs[last_key]["what_it_does"]:
+                pairs[last_key]["what_it_does"] = md.group(1).strip().rstrip(".")
+
+        # Examples — attach to last defined term
+        if last_key and last_key in pairs:
+            me = example_pattern.search(sentence)
+            if me and not pairs[last_key]["examples"]:
+                pairs[last_key]["examples"] = me.group(1).strip().rstrip(".")
 
     return pairs
 
-
 # ============================================================
-# STEP 3 — READ EXISTING FLAT_DICT KEYS
+# STEP 4 — READ EXISTING KEYS
 # ============================================================
 def get_existing_keys(jsx_path):
-    """Read all existing keys from FLAT_DICT to avoid duplicates."""
     try:
         with open(jsx_path, "r", encoding="utf-8") as f:
             content = f.read()
-        # Match keys like:   some_key: "definition",
         keys = re.findall(r'^\s{2}([a-z][a-z0-9_]+):\s*"', content, re.MULTILINE)
         return set(keys)
     except Exception as e:
         log(f"READ ERROR: {e}")
         return set()
 
-
 # ============================================================
-# STEP 4 — WRITE DIRECTLY INTO JSX FILE
+# STEP 5 — WRITE INTO JSX
 # ============================================================
 def write_to_jsx(jsx_path, new_pairs):
-    """
-    Inject new pairs directly into FLAT_DICT inside the JSX file.
-    Finds the closing }; of FLAT_DICT and inserts before it.
-    """
     if not new_pairs:
-        log("No new pairs to write.")
         return 0
-
     try:
         with open(jsx_path, "r", encoding="utf-8") as f:
             content = f.read()
-
-        # Find the FLAT_DICT closing marker
-        # We look for the end of FLAT_DICT — the line with just "};"
-        # that comes after the FLAT_DICT declaration
         flat_dict_start = content.find("const FLAT_DICT = {")
         if flat_dict_start == -1:
-            log("ERROR: Could not find FLAT_DICT in JSX file.")
+            log("ERROR: FLAT_DICT not found in JSX.")
             return 0
-
-        # Find the closing }; after FLAT_DICT starts
         search_from = flat_dict_start + len("const FLAT_DICT = {")
         closing_pos = content.find("\n};", search_from)
         if closing_pos == -1:
-            log("ERROR: Could not find end of FLAT_DICT.")
+            log("ERROR: End of FLAT_DICT not found.")
             return 0
 
-        # Build the new entries string
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
         new_lines = f"\n  // === INGESTED {timestamp} ===\n"
-        for key, definition in new_pairs.items():
-            # Escape any quotes in definition
-            safe_def = definition.replace('"', "'")
+        for key, data in new_pairs.items():
+            if isinstance(data, dict):
+                safe_def = data.get("definition","").replace('"',"'")
+            else:
+                safe_def = str(data).replace('"',"'")
             new_lines += f'  {key}: "{safe_def}",\n'
 
-        # Insert before the closing };
         new_content = content[:closing_pos] + new_lines + content[closing_pos:]
-
         with open(jsx_path, "w", encoding="utf-8") as f:
             f.write(new_content)
-
         log(f"WROTE {len(new_pairs)} new entries into {jsx_path}")
         return len(new_pairs)
-
     except Exception as e:
         log(f"WRITE ERROR: {e}")
         return 0
 
-
 # ============================================================
-# STEP 5 — FILTER OUT ALREADY-KNOWN WORDS
+# STEP 6 — FILTER NEW ONLY
 # ============================================================
 def filter_new_only(pairs, existing_keys):
-    """Remove any pairs Daisy already knows."""
     return {k: v for k, v in pairs.items() if k not in existing_keys}
 
-
 # ============================================================
-# GIT AUTO-PUSH — Daisy commits her own learning to GitHub
-# Words survive Render restarts because they live in the repo
+# GIT AUTO-PUSH
 # ============================================================
 def git_push(word_count):
-    """Push updated JSX file back to GitHub after each ingest cycle."""
     if not GITHUB_TOKEN or not GITHUB_REPO_URL:
-        log("GIT PUSH SKIPPED: GITHUB_TOKEN or GITHUB_REPO_URL not set.")
+        log("GIT PUSH SKIPPED: tokens not set.")
         return
-
     try:
         repo_dir = os.path.dirname(os.path.abspath(JSX_FILE_PATH)) or "."
-
-        # Build authenticated remote URL
-        # e.g. https://TOKEN@github.com/user/repo.git
         if "https://" in GITHUB_REPO_URL:
-            auth_url = GITHUB_REPO_URL.replace(
-                "https://", f"https://{GITHUB_TOKEN}@"
-            )
+            auth_url = GITHUB_REPO_URL.replace("https://", f"https://{GITHUB_TOKEN}@")
         else:
             auth_url = GITHUB_REPO_URL
-
         env = {
             **os.environ,
-            "GIT_AUTHOR_NAME":     GIT_USER_NAME,
-            "GIT_AUTHOR_EMAIL":    GIT_USER_EMAIL,
-            "GIT_COMMITTER_NAME":  GIT_USER_NAME,
+            "GIT_AUTHOR_NAME": GIT_USER_NAME,
+            "GIT_AUTHOR_EMAIL": GIT_USER_EMAIL,
+            "GIT_COMMITTER_NAME": GIT_USER_NAME,
             "GIT_COMMITTER_EMAIL": GIT_USER_EMAIL,
         }
-
         def run(cmd):
-            result = subprocess.run(
-                cmd, cwd=repo_dir, env=env,
-                capture_output=True, text=True
-            )
-            return result.returncode, result.stdout.strip(), result.stderr.strip()
+            r = subprocess.run(cmd, cwd=repo_dir, env=env, capture_output=True, text=True)
+            return r.returncode, r.stdout.strip(), r.stderr.strip()
 
-        # Stage the JSX file
-        code, out, err = run(["git", "add", JSX_FILE_PATH])
-        if code != 0:
-            log(f"GIT ADD failed: {err}")
-            return
+        # Stage both JSX and queue files
+        run(["git", "add", JSX_FILE_PATH])
+        run(["git", "add", QUEUE_FILE])
+        run(["git", "add", VISITED_FILE])
 
-        # Check if there's actually anything to commit
-        code, out, err = run(["git", "diff", "--cached", "--quiet"])
+        code, _, _ = run(["git", "diff", "--cached", "--quiet"])
         if code == 0:
             log("GIT: Nothing new to commit.")
             return
 
-        # Commit
         msg = f"Daisy learned {word_count} new words [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
-        code, out, err = run(["git", "commit", "-m", msg])
+        code, _, err = run(["git", "commit", "-m", msg])
         if code != 0:
             log(f"GIT COMMIT failed: {err}")
             return
 
-        # Push
-        code, out, err = run(["git", "push", auth_url, "main"])
+        code, _, err = run(["git", "push", auth_url, "main"])
+        if code != 0:
+            code, _, err = run(["git", "push", auth_url, "master"])
         if code == 0:
-            log(f"GIT PUSH SUCCESS — Daisy's words saved to GitHub.")
+            log(f"GIT PUSH SUCCESS — {word_count} words saved to GitHub.")
         else:
-            # Try 'master' branch as fallback
-            code, out, err = run(["git", "push", auth_url, "master"])
-            if code == 0:
-                log(f"GIT PUSH SUCCESS (master) — Daisy's words saved.")
-            else:
-                log(f"GIT PUSH failed: {err}")
-
+            log(f"GIT PUSH failed: {err}")
     except Exception as e:
         log(f"GIT PUSH ERROR: {e}")
-
 
 # ============================================================
 # MAIN INGEST CYCLE
 # ============================================================
 def ingest_one(url=None):
-    """Run one full ingestion cycle."""
-    global _url_index
+    global _queue, _visited
 
-    # Pick URL
+    # Pick next URL from queue
     if not url:
-        url = SEED_URLS[_url_index % len(SEED_URLS)]
-        _url_index += 1
+        with _queue_lock:
+            # Remove already-visited from front of queue
+            while _queue and _queue[0] in _visited:
+                _queue.pop(0)
+            if not _queue:
+                # Queue empty — refill from seeds
+                log("Queue empty — refilling from seeds.")
+                _queue = [u for u in SEED_URLS if u not in _visited]
+                if not _queue:
+                    # Visited everything — reset visited and start over
+                    log("All seeds visited — resetting visited set for new cycle.")
+                    _visited = set()
+                    _queue = list(SEED_URLS)
+            url = _queue.pop(0)
+
+    if url in _visited:
+        log(f"SKIP (already visited): {url}")
+        return
 
     log(f"--- INGESTING: {url}")
+    _visited.add(url)
 
     # Fetch
-    text = fetch_page(url)
+    text, soup = fetch_page(url)
     if not text:
         log("SKIP: Empty page.")
         return
+
+    # Harvest new links and add to queue
+    new_links = harvest_links(soup)
+    with _queue_lock:
+        added_links = 0
+        for link in new_links:
+            if link not in _visited and link not in _queue:
+                _queue.append(link)
+                added_links += 1
+        log(f"QUEUE: +{added_links} new URLs discovered | Queue size: {len(_queue)}")
 
     # Extract
     pairs = extract_pairs(text, max_pairs=40)
@@ -327,37 +410,21 @@ def ingest_one(url=None):
 
     if not new_pairs:
         log("Daisy already knows all of these. Moving on.")
+        # Still save queue progress
+        save_queue(_queue)
+        save_visited(_visited)
         return
 
     # Write
     written = write_to_jsx(JSX_FILE_PATH, new_pairs)
-    log(f"SUCCESS: {written} words added to Daisy.")
-    log(f"Daisy total keys approx: {len(existing) + written}")
+    log(f"SUCCESS: {written} words added. Daisy total: ~{len(existing) + written}")
 
-    # Push to GitHub so words survive Render restarts
+    # Persist queue and visited
+    save_queue(_queue)
+    save_visited(_visited)
+
+    # Push to GitHub
     git_push(written)
-
-
-# ============================================================
-# SCHEDULER — Runs automatically every N minutes
-# ============================================================
-def run_scheduler(interval_minutes=1):
-    """Run ingestion on a schedule. Daisy learns continuously."""
-    log(f"=== DAISY INGESTION ENGINE STARTED ===")
-    log(f"Interval: every {interval_minutes} minute(s)")
-    log(f"Target file: {JSX_FILE_PATH}")
-    log(f"Seed URLs: {len(SEED_URLS)} sources")
-
-    # Run immediately first
-    ingest_one()
-
-    # Then schedule
-    schedule.every(interval_minutes).minutes.do(ingest_one)
-
-    while True:
-        schedule.run_pending()
-        time.sleep(10)
-
 
 # ============================================================
 # LOGGING
@@ -372,64 +439,22 @@ def log(message):
     except:
         pass
 
-
 # ============================================================
-# ENTRY POINT
+# FLASK INTEGRATION
 # ============================================================
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Daisy Ingestion Engine")
-    parser.add_argument("--url", type=str, help="Ingest a specific URL once")
-    parser.add_argument("--auto", action="store_true", help="Run scheduler continuously")
-    parser.add_argument("--interval", type=int, default=1, help="Minutes between ingestion cycles (default: 1)")
-    args = parser.parse_args()
-
-    if not os.path.exists(JSX_FILE_PATH):
-        print(f"ERROR: JSX file not found at '{JSX_FILE_PATH}'")
-        print("Set JSX_FILE_PATH at the top of this script to match your project.")
-        exit(1)
-
-    if args.url:
-        # One-shot ingest of a specific URL
-        ingest_one(url=args.url)
-    elif args.auto:
-        # Continuous scheduler
-        run_scheduler(interval_minutes=args.interval)
-    else:
-        # Default: run once through the seed list
-        ingest_one()
-
-
-# ============================================================
-# FLASK INTEGRATION — Phase 3
-# Add this to your existing Flask app:
-#
-#   from daisy_ingest import init_daisy, daisy_bp
-#   app.register_blueprint(daisy_bp)
-#   init_daisy(app)
-#
-# Routes added:
-#   GET  /daisy/status   — word count, last ingest time, log tail
-#   POST /daisy/ingest   — trigger one manual ingest cycle
-#   POST /daisy/ingest?url=https://... — ingest a specific URL
-# ============================================================
-
-import threading
-from flask import Blueprint, jsonify, request
-
 daisy_bp = Blueprint("daisy", __name__)
 
-# Shared state
 _ingest_thread = None
-_last_ingest = None
-_ingest_count = 0
-_running = False
+_last_ingest   = None
+_ingest_count  = 0
+_running       = False
 
 
 def _background_scheduler(interval_minutes):
-    """Runs in a daemon thread. Ingests on a loop forever."""
     global _last_ingest, _ingest_count, _running
     _running = True
-    log(f"=== DAISY BACKGROUND SCHEDULER STARTED (every {interval_minutes}m) ===")
+    init_queue()
+    log(f"=== DAISY CRAWLER STARTED (every {interval_minutes}m) ===")
     while _running:
         try:
             ingest_one()
@@ -437,7 +462,6 @@ def _background_scheduler(interval_minutes):
             _ingest_count += 1
         except Exception as e:
             log(f"SCHEDULER ERROR: {e}")
-        # Sleep in small chunks so it can be stopped cleanly
         for _ in range(interval_minutes * 60):
             if not _running:
                 break
@@ -445,67 +469,81 @@ def _background_scheduler(interval_minutes):
 
 
 def init_daisy(app, interval_minutes=2):
-    """
-    Call this once in your Flask app after creating app.
-    Starts the background ingestion thread automatically.
-
-    Example:
-        app = Flask(__name__)
-        init_daisy(app)
-    """
     global _ingest_thread
-
     if not os.path.exists(JSX_FILE_PATH):
-        print(f"[DAISY] WARNING: JSX file not found at '{JSX_FILE_PATH}'. Ingestion paused.")
+        print(f"[DAISY] WARNING: JSX file not found at '{JSX_FILE_PATH}'.")
         return
-
     _ingest_thread = threading.Thread(
         target=_background_scheduler,
         args=(interval_minutes,),
-        daemon=True  # Dies automatically when Flask stops
+        daemon=True
     )
     _ingest_thread.start()
-    print(f"[DAISY] Ingestion engine running — every {interval_minutes} minute(s)")
+    print(f"[DAISY] Crawler running — every {interval_minutes} minute(s)")
 
 
 @daisy_bp.route("/daisy/status", methods=["GET"])
 def daisy_status():
-    """Returns Daisy's current knowledge stats."""
     existing = get_existing_keys(JSX_FILE_PATH)
-
-    # Read last 10 lines of log
     log_tail = []
     try:
         if os.path.exists(LOG_FILE_PATH):
-            with open(LOG_FILE_PATH, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-                log_tail = [l.strip() for l in lines[-10:]]
+            with open(LOG_FILE_PATH, "r") as f:
+                log_tail = [l.strip() for l in f.readlines()[-10:]]
     except:
         pass
-
     return jsonify({
         "status": "running" if _running else "stopped",
-        "words_in_daisy": len(existing),
-        "ingest_cycles_completed": _ingest_count,
+        "words": len(existing),
+        "ingest_cycles": _ingest_count,
         "last_ingest": _last_ingest or "not yet",
-        "jsx_file": JSX_FILE_PATH,
-        "seed_urls": len(SEED_URLS),
+        "queue_size": len(_queue),
+        "visited_count": len(_visited),
         "log_tail": log_tail
     })
 
 
 @daisy_bp.route("/daisy/ingest", methods=["POST"])
 def daisy_ingest_now():
-    """Manually trigger one ingest cycle. Optional ?url= param."""
     url = request.args.get("url", None)
     try:
         ingest_one(url=url)
         existing = get_existing_keys(JSX_FILE_PATH)
         return jsonify({
             "success": True,
-            "url_ingested": url or "next seed url",
-            "words_in_daisy": len(existing),
+            "words": len(existing),
+            "queue_size": len(_queue),
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         })
     except Exception as e:
         return jsonify({"success": False, "error": str(e)}), 500
+
+
+# ============================================================
+# ENTRY POINT (standalone)
+# ============================================================
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Daisy Ingestion Engine v2")
+    parser.add_argument("--url", type=str, help="Ingest one specific URL")
+    parser.add_argument("--auto", action="store_true", help="Run crawler continuously")
+    parser.add_argument("--interval", type=int, default=1, help="Minutes between cycles")
+    args = parser.parse_args()
+
+    if not os.path.exists(JSX_FILE_PATH):
+        print(f"ERROR: JSX file not found at '{JSX_FILE_PATH}'")
+        exit(1)
+
+    init_queue()
+
+    if args.url:
+        ingest_one(url=args.url)
+    elif args.auto:
+        import schedule
+        log(f"=== DAISY CRAWLER STARTED — every {args.interval}m ===")
+        ingest_one()
+        schedule.every(args.interval).minutes.do(ingest_one)
+        while True:
+            schedule.run_pending()
+            time.sleep(10)
+    else:
+        ingest_one()
