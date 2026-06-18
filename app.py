@@ -97,8 +97,56 @@ var EMOTION_REPLIES = {
 """
         raw = emotions_fix + raw
 
-        # Wrap in daisyProcess function
+        # Wrap in daisyProcess function with follow-up handling
         wrapper = raw + """
+// Context for conversational flow
+var _daisyContext = { lastTopic: null, lastAnswer: null };
+
+function _handleFollowUp(questionText, lastAnswer) {
+  var q = questionText.toLowerCase().trim();
+  
+  // Single words: what, really, why, etc.
+  if (q.match(/^(what|really|why|how|ok|okay|yeah|yes|no|huh|hmm|wow)\\??$/)) {
+    if (lastAnswer) {
+      var replies = [
+        "Did that make sense? Want me to explain more?",
+        "Any other questions about that?",
+        "Want me to go deeper or move on?",
+        "Anything else you'd like to know?"
+      ];
+      return replies[Math.floor(Math.random() * replies.length)];
+    }
+  }
+  
+  // "say something", "talk", "tell me" type requests
+  if (q.match(/say something|talk to me|tell me something|speak|continue|more/i)) {
+    var suggestions = [
+      "I know 10,000+ things! Ask me about science, math, emotions, or anything you're curious about.",
+      "What would you like to know? I can help with questions about almost anything.",
+      "I'm here to help. What's on your mind?",
+      "Ask me something! I'm ready."
+    ];
+    return suggestions[Math.floor(Math.random() * suggestions.length)];
+  }
+  
+  // "are you...", "why are you..." type confusion
+  if (q.match(/^(are you|why are you|why do you|why not|are we|is it)/)) {
+    return "Can you ask me about something more specific? I'm best when you ask me direct questions about facts or topics.";
+  }
+  
+  // Agreement / acknowledgement
+  if (q.match(/^(i see|i agree|got it|i understand|interesting|cool|nice)$/i)) {
+    var acks = [
+      "Great! What else would you like to know?",
+      "Glad that was helpful. Anything else?",
+      "Thanks! Got more questions?"
+    ];
+    return acks[Math.floor(Math.random() * acks.length)];
+  }
+  
+  return null;
+}
+
 function daisyProcess(questionText, learnedDictJSON) {
   try {
     var learnedDict = learnedDictJSON ? JSON.parse(learnedDictJSON) : {};
@@ -109,24 +157,43 @@ function daisyProcess(questionText, learnedDictJSON) {
     var collected = collectDictionaryData(words, fullDict);
     var emotion = detectEmotion(questionText);
 
+    // Follow-up patterns FIRST
+    var followUp = _handleFollowUp(questionText, _daisyContext.lastAnswer);
+    if (followUp) {
+      _daisyContext.lastAnswer = followUp;
+      return JSON.stringify({ answer: followUp, source: "personality" });
+    }
+
     // Conversational check
     var convo = detectConversational(questionText);
-    if (convo) return JSON.stringify({ answer: convo, source: "personality" });
+    if (convo) {
+      _daisyContext.lastAnswer = convo;
+      return JSON.stringify({ answer: convo, source: "personality" });
+    }
 
     // Math
     var math = tryMath(questionText);
-    if (math) return JSON.stringify({ answer: math, source: "math" });
+    if (math) {
+      _daisyContext.lastAnswer = math;
+      return JSON.stringify({ answer: math, source: "math" });
+    }
 
     var scenario = tryScenarioMath(questionText);
-    if (scenario) return JSON.stringify({ answer: scenario, source: "scenario" });
+    if (scenario) {
+      _daisyContext.lastAnswer = scenario;
+      return JSON.stringify({ answer: scenario, source: "scenario" });
+    }
 
     // Synthesis
     if (collected.length > 0) {
       var synthesized = synthesizeAnswer(questionText, operator, collected, joiners);
       if (synthesized) {
         var prefix = emotion ? emotionReply(emotion.r) + " — " : "";
+        var answer = prefix + synthesized;
+        _daisyContext.lastTopic = collected[0].word;
+        _daisyContext.lastAnswer = answer;
         return JSON.stringify({
-          answer: prefix + synthesized,
+          answer: answer,
           source: collected.length > 1 ? "synthesis" : "dictionary",
           emotionColor: emotion ? emotion.c : null
         });
@@ -135,7 +202,9 @@ function daisyProcess(questionText, learnedDictJSON) {
 
     // Emotion only
     if (emotion && collected.length === 0) {
-      return JSON.stringify({ answer: emotionReply(emotion.r), source: "emotion" });
+      var emotionalReply = emotionReply(emotion.r);
+      _daisyContext.lastAnswer = emotionalReply;
+      return JSON.stringify({ answer: emotionalReply, source: "emotion" });
     }
 
     // Unknown — return null so frontend knows to show fallback
