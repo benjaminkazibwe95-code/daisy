@@ -10907,6 +10907,24 @@ const FLAT_DICT = {
   the_signal_each_neuron_outputs: "Calculated from this number, according to its activation function",
   artificial_neural_networks: "Originally used to model biological neural networks starting in the 1930s under the approach of connectionism",
 
+  // === INGESTED 2026-06-18 04:24 ===
+  computer_science: "The study of computation , information , and automation",
+  algorithms_and_data_structures: "Central to computer science",
+  computer_architecture: "The construction of computer components and computer-operated equipment",
+  the_fundamental_concern_of_computer_science: "Determining what can and cannot be automated",
+  when_the_machine: "Finished, some hailed it as 'Babbage's dream come true'",
+  the_lab: "The forerunner of IBM's Research Division, which today operates research facilities around the world",
+  the_term: "Used mainly in the Scandinavian countries",
+  each_new_machine_that: "Built is an experiment",
+  peter_wegner_argued_that_those_paradigms: "Science, technology, and mathematics",
+  codes: "Studied for the purpose of designing efficient and reliable data transmission methods",
+  formal_methods: "A useful adjunct to software testing since they help avoid errors and can also give a framework for testing",
+  computer_graphics: "The study of digital visual contents and involves the synthesis and manipulation of image data",
+  historical_cryptography: "The art of writing and deciphering secret messages",
+  modern_cryptography: "The scientific study of problems relating to distributed computations that can be attacked",
+  a_database: "Intended to organize, store, and retrieve large amounts of data easily",
+  digital_databases: "Managed using database management systems to store, create, maintain, and search data, through database models and query languages",
+
 };
 
 // ============================================================
