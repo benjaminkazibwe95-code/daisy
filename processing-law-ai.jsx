@@ -11593,6 +11593,27 @@ const FLAT_DICT = {
   discrete_geometry: "A subject that has close connections with convex geometry",
   mathematics_and_art: "Related in a variety of ways",
 
+  // === INGESTED 2026-06-18 19:52 ===
+  these_two_branches: "Related to each other by the fundamental theorem of calculus",
+  limits: "Thought to provide a more rigorous foundation for calculus, and for this reason, they became the standard approach during the 20th century",
+  the_process_of_finding_the_derivative: "Called differentiation",
+  if_h: "A number close to zero, then a + h is a number close to a",
+  the_slope_between_these_two_points: "This expression is called a difference quotient",
+  a_line_through_two_points_on_a_curve: "Called a secant line , so m is the slope of the secant line between ( a , f ( a )) and ( a + h , f ( a + h ))",
+  the_secant_line: "Only an approximation to the behavior of the function at the point a because it does not account for what happens between a and a + h",
+  the_tangent_line: "A limit of secant lines just as the derivative is a limit of difference quotients",
+  the_basic_idea: "That if only a short time elapses, then the speed will stay more or less the same",
+  when_velocity: "Constant, the total distance traveled over the given time interval can be computed by multiplying velocity and time",
+  associated_with_each_segment: "The average value of the function above it, f ( x ) = h",
+  a_differential_equation: "An equation that relates one or more unknown functions and their derivatives",
+  a_functional: "A mapping from a set of functions to the real numbers",
+  a_simple_example_of_such_a_problem: "To find the curve of shortest length connecting two points",
+  another_way: "To use Abraham Robinson 's non-standard analysis",
+  the_resulting_numbers: "Called hyperreal numbers , and they can be used to give a Leibniz-like development of the usual rules of calculus",
+  one_aspect_of_this_formulation: "That the law of excluded middle does not hold",
+  an_example_of_the_use_of_calculus_in_mechanics: "Newton's second law of motion , which states that the derivative of an object's momentum concerning time equals the net force upon it",
+  starting_from_knowing_how_an_object: "Accelerating, we use calculus to derive its path",
+
 };
 
 // ============================================================
