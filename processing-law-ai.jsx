@@ -10874,6 +10874,31 @@ const FLAT_DICT = {
   neuromorphic_computing: "A class of computing systems designed to emulate the structure and functionality of biological neural networks",
   it_broadly: "Artificial neural networks that use materials with adjustable resistance to replicate neural synapses",
 
+  // === INGESTED 2026-06-18 04:07 ===
+  the_cap: "The chain of transformations from input to output",
+  the_probabilistic_interpretation: "Introduced by researchers including Hopfield , Widrow and Narendra and popularized in surveys such as the one by Bishop",
+  the_first_working_deep_learning_algorithm: "The Group method of data handling , a method to train arbitrarily deep neural networks, published by Alexey Ivakhnenko and Lapa in 1965",
+  superfluous_hidden_units: "Pruned using a separate validation set",
+  since_the_activation_functions_of_the_nodes: "Kolmogorov-Gabor polynomials, these were also the first deep networks with multiplicative units or 'gates'",
+  recurrence: "Used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforward layer",
+  that_lstm: "Not yet the modern architecture, which required a 'forget gate', introduced in 1999, [ 73 ] which became the standard RNN architecture",
+  an_exception: "At SRI International in the late 1990s",
+  excellent_image_quality: "Achieved by Nvidia 's StyleGAN (2018) [ 129 ] based on the Progressive GAN by Tero Karras et al",
+  each_mathematical_manipulation_as_such: "Considered a layer, [ 143 ] and complex DNN have many layers, hence the name 'deep' networks",
+  the_weights_and_inputs: "Multiplied and return an output between 0 and 1",
+  two_common_issues: "Overfitting and computation time",
+  dnns: "Prone to overfitting because of the added layers of abstraction, which allow them to model rare dependencies in the training data",
+  mnist: "Composed of handwritten digits and includes 60,000 training examples and 10,000 test examples",
+  these_failures: "Caused by insufficient efficacy (on-target effect), undesired interactions (off-target effects), or unanticipated toxic effects",
+  an_autoencoder_ann: "Used in bioinformatics , to predict gene ontology annotations and gene-function relationships",
+  many_data_points: "Collected during the request/serve/click internet advertising cycle",
+  this_method: "Particularly useful for solving high-dimensional problems in financial mathematics",
+  image_reconstruction: "The reconstruction of the underlying images from the image-related measurements",
+  graphcast: "A deep learning based model, trained on a long history of weather data to predict how weather patterns change over time",
+  the_aging_clock: "Planned to be released for public use in 2021 by an Insilico Medicine spinoff company Deep Longevity",
+  such_manipulation: "Termed an ' adversarial attack '",
+  a_refinement: "To search using only parts of the image, to identify images from which that piece may have been taken",
+
 };
 
 // ============================================================
