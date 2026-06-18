@@ -47,18 +47,57 @@ def load_daisy_brain():
         with open(JSX_FILE_PATH, "r", encoding="utf-8") as f:
             raw = f.read()
 
-        # Strip React-specific parts so the laws run in pure JS
-        # Remove import statements
-        raw = re.sub(r'^import.*$', '', raw, flags=re.MULTILINE)
+        # Strip ONLY lines that start with 'import ' (React imports)
+        # Be careful NOT to strip const/let/var lines
+        lines = raw.split('\n')
+        cleaned = []
+        for line in lines:
+            stripped = line.strip()
+            # Skip React import lines only
+            if stripped.startswith('import ') and ('from ' in stripped or stripped.endswith("';") or stripped.endswith('"')):
+                continue
+            cleaned.append(line)
+        raw = '\n'.join(cleaned)
+
         # Remove export default function App() and everything after (UI only)
         app_start = raw.find("export default function App()")
         if app_start != -1:
             raw = raw[:app_start]
+
         # Remove remaining export keywords
         raw = re.sub(r'\bexport\s+default\s+', '', raw)
         raw = re.sub(r'\bexport\s+', '', raw)
 
-        # Wrap in a function that processes a question and returns JSON
+        # Define EMOTIONS and EMOTION_REPLIES if missing
+        emotions_fix = """
+var EMOTIONS = {
+  sad:      { r: "sad",      c: "#93c5fd" },
+  happy:    { r: "happy",    c: "#86efac" },
+  confused: { r: "confused", c: "#fcd34d" },
+  angry:    { r: "angry",    c: "#fca5a5" },
+  scared:   { r: "scared",   c: "#c4b5fd" },
+  excited:  { r: "excited",  c: "#6ee7b7" }
+};
+var EMOTION_REPLIES = {
+  sad:      ["I'm sorry you're feeling sad. I'm here for you. What's on your mind?",
+             "That sounds tough. Want to talk about it?"],
+  happy:    ["That's great to hear! What's making you happy?",
+             "Love the energy! What can I help you with today?"],
+  confused: ["No worries — let's figure it out together. What are you confused about?",
+             "I'll do my best to make it clear. Ask away."],
+  angry:    ["I hear you. Take a breath — what's going on?",
+             "Let's work through this together."],
+  scared:   ["It's okay to feel that way. What's worrying you?",
+             "I'm here. Tell me what's on your mind."],
+  excited:  ["That energy is contagious! What's got you excited?",
+             "Let's go! What are we working on?"],
+  clarify:  ["Could you tell me more about what you mean?",
+             "I want to understand — can you say that differently?"]
+};
+"""
+        raw = emotions_fix + raw
+
+        # Wrap in daisyProcess function
         wrapper = raw + """
 function daisyProcess(questionText, learnedDictJSON) {
   try {
@@ -99,7 +138,7 @@ function daisyProcess(questionText, learnedDictJSON) {
       return JSON.stringify({ answer: emotionReply(emotion.r), source: "emotion" });
     }
 
-    // Unknown
+    // Unknown — return null so frontend knows to show fallback
     return JSON.stringify({ answer: null, source: "unknown" });
 
   } catch(e) {
@@ -126,9 +165,16 @@ def ask_daisy(question, learned_dict=None):
     if not ctx:
         return {"answer": None, "source": "error", "error": "Brain not loaded"}
     try:
+        # Translate word math operators so tryMath can handle them
+        q = question
+        q = re.sub(r'\bplus\b', '+', q, flags=re.IGNORECASE)
+        q = re.sub(r'\bminus\b', '-', q, flags=re.IGNORECASE)
+        q = re.sub(r'\btimes\b', '*', q, flags=re.IGNORECASE)
+        q = re.sub(r'\bmultiplied by\b', '*', q, flags=re.IGNORECASE)
+        q = re.sub(r'\bdivided by\b', '/', q, flags=re.IGNORECASE)
+
         learned_json = json.dumps(learned_dict or {})
-        # Escape question for JS string
-        safe_q = question.replace("\\", "\\\\").replace('"', '\\"')
+        safe_q = q.replace("\\", "\\\\").replace('"', '\\"')
         result = ctx.eval(f'daisyProcess("{safe_q}", {json.dumps(learned_json)})')
         return json.loads(result)
     except Exception as e:
