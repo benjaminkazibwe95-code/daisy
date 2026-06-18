@@ -10937,6 +10937,10 @@ const FLAT_DICT = {
   the_patenting_of_software: "Controversial, [ 51 ] and there are criticized patents involving algorithms, especially data compression algorithms, such as Unisys 's LZW patent",
   another_way_of_classifying_algorithms: "By their design methodology or paradigm",
 
+  // === INGESTED 2026-06-18 04:49 ===
+  data_structures: "Closely related to abstract data types (ADTs)",
+  examples: "The C++ Standard Template Library , the Java Collections Framework , and the Microsoft .NET Framework",
+
 };
 
 // ============================================================
