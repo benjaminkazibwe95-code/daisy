@@ -11583,6 +11583,16 @@ const FLAT_DICT = {
   an_example_in_algebraic_combinatorics: "The application of group theory to analyze graphs and symmetries",
   the_mass_of_some_objects_on_the_scale: "Unknown and represents variables",
 
+  // === INGESTED 2026-06-18 18:35 ===
+  the_geometry_that_underlies_general_relativity: "A famous application of non-Euclidean geometry",
+  the_earliest_known_texts_on_geometry: "The Egyptian Rhind Papyrus (2000–1800 BC) and Moscow Papyrus ( c",
+  although_most_of_the_contents_of_the_elements: "Already known, Euclid arranged them into a single, coherent logical framework",
+  planes: "Used in many areas of geometry",
+  a_manifold: "A generalization of the concepts of curve and surface",
+  congruence_and_similarity: "Generalized in transformation geometry , which studies the properties of geometric objects that are preserved by different kinds of transformations",
+  discrete_geometry: "A subject that has close connections with convex geometry",
+  mathematics_and_art: "Related in a variety of ways",
+
 };
 
 // ============================================================
