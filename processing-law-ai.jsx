@@ -11671,6 +11671,17 @@ const FLAT_DICT = {
   if_the_gestation_period: "9 months, determine the sex of the unborn child",
   if_the_remainder: "Odd, [the sex] is male and if the remainder is even, [the sex] is female",
 
+  // === INGESTED 2026-06-18 23:07 ===
+  astronomical_observatories: "Established there by the early 9th century",
+  this_relation: "Expected if the universe is expanding",
+  the_infrared_spectrum: "Useful for studying objects that are too cold to radiate visible light, such as planets, circumstellar disks or nebulae whose light is blocked by dust",
+  visible_light_from_these_galaxies: "Emitted billions of years ago and the expansion of the universe shifted the light in to the infrared range",
+  modern_images: "Made using digital detectors, particularly using charge-coupled devices (CCDs) and recorded on modern medium",
+  since_xrays: "Absorbed by the Earth's atmosphere , observations must be performed at high altitude, such as from balloons , rockets , or specialized satellites",
+  fundamental_to_modern_cosmology: "The well-accepted theory of the Big Bang , the concept that the universe begin extremely dense and hot, then expanded over the course of 13",
+  as_the_earth: "Within the dusty outer arms, large portions of the Milky Way are obscured from view",
+  archaeoastronomy: "The study of ancient or traditional astronomies in their cultural context, using archaeological and anthropological evidence",
+
 };
 
 // ============================================================
