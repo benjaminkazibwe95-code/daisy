@@ -11148,6 +11148,36 @@ const FLAT_DICT = {
   fire: "A significant ecological parameter that raises many issues pertaining to its control and suppression",
   soil_microorganisms_are_influenced_by_and: "Fed back into the trophic dynamics of the ecosystem",
 
+  // === INGESTED 2026-06-18 07:30 ===
+  aristotelian_physics: "Influential for about two millennia",
+  his_approach: "Entirely superseded today",
+  each_of_these_theories: "Experimentally tested numerous times and found to be an adequate approximation of nature",
+  these_central_theories: "Important tools for research into more specialized topics, and any physicist, regardless of their specialization, is expected to be literate in them",
+  the_changes: "So fundamental that these new concepts became the foundation of 'modern physics', with other topics becoming 'classical physics'",
+  the_majority_of_applications_of_physics: "Essentially classical",
+  acoustics_is_the_study_of_how_sound: "Produced, controlled, transmitted and received",
+  although_theory_and_experiment: "Developed separately, they strongly affect and depend upon each other",
+  included_in_these_phenomena: "The most basic objects composing all other things",
+  this_effect: "Later called magnetism, which was first rigorously studied in the 17th century",
+  foremost_among_these: "Indications that neutrinos have non-zero mass",
+  nuclear_physics: "The field of physics that studies the constituents and interactions of atomic nuclei",
+  the_three_areas: "Grouped together because of their interrelationships, the similarity of methods used, and the commonality of their relevant energy scales",
+  atomic_physics: "Influenced by the nucleus (see hyperfine splitting ), but intra-nuclear phenomena such as fission and fusion are considered part of nuclear physics",
+  condensed_matter_physics: "The field of physics that deals with the macroscopic physical properties of matter",
+  physical_cosmology: "The study of the formation and evolution of the universe on its largest scales",
+  the_big_bang: "Confirmed by the success of Big Bang nucleosynthesis and the discovery of the cosmic microwave background in 1964",
+  physics_education_or_physics_teaching: "The education methods currently used to teach physics",
+  the_occupation: "Called physics educator or physics teacher",
+  physics_education_research: "An area of pedagogical research that seeks to improve those methods",
+  physics_education: "Part of the broader area of science education",
+  the_results_from_physics_experiments: "Numerical data, with their units of measure and estimates of the errors in the measurements",
+  it_means_physics: "Ultimately concerned with descriptions of the real world, while mathematics is concerned with abstract patterns, even beyond the real world",
+  thus_physics_statements: "Synthetic, while mathematical statements are analytic",
+  the_distinction: "Clear-cut, but not always obvious",
+  its_methods: "Mathematical, but its subject is physical",
+  applied_physics: "A general term for physics research and development that is intended for a particular use",
+  the_approach: "Similar to that of applied mathematics",
+
 };
 
 // ============================================================
