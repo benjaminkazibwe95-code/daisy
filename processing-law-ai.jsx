@@ -11864,6 +11864,31 @@ const FLAT_DICT = {
   the_first_antibiotic: "Arsphenamine (Salvarsan) discovered by Paul Ehrlich in 1908 after he observed that bacteria took up toxic dyes that human cells did not",
   the_first_major_class_of_antibiotics: "The sulfa drugs , derived by German chemists originally from azo dyes",
 
+  // === INGESTED 2026-06-19 09:18 ===
+  the_human_body: "Composed of elements including hydrogen , oxygen , carbon , calcium and phosphorus",
+  the_adult_male_body: "About 60% total body water content of some 42 litres (9.2 imp gal; 11 US gal)",
+  the_skin_of_the_body: "Also host to billions of commensal organisms as well as immune cells",
+  endothelial_cells: "Cells that line internal cavities including blood vessels and glands",
+  the_heart: "Composed of two atria and two ventricles",
+  the_primary_purpose_of_the_atria: "To allow uninterrupted venous blood flow to the heart during ventricular systole",
+  it_stores_bile_before_it: "Released into the small intestine via the common bile duct to help with digestion of fats",
+  typical_treatment: "Removal of the gallbladder through a procedure called a cholecystectomy",
+  then_it: "Swallowed , and moves through the esophagus to the stomach",
+  what_is_left: "Called chyme ; this then moves into the small intestine , which absorbs the nutrients and water from the chyme",
+  the_lymphatic_system: "Similar to the circulatory system in terms of both its structure and its most basic function, to carry a body fluid",
+  the_brain: "The organ of thought , emotion, memory , and sensory processing ; it serves many aspects of communication and controls various systems and functions",
+  the_cns: "Mostly responsible for organizing motion , processing sensory information , thought, memory, cognition and other such functions",
+  the_sns: "Involved in voluntary functions like speaking and sensory processes",
+  the_ans: "Involved in involuntary processes, such as digestion and regulating blood pressure",
+  at_birth_there: "About 70,000 immature egg cells that degenerate until at puberty there are around 40,000",
+  the_testicles: "Gonads that produce the sperm cells which are ejaculated in semen through the penis",
+  other_internal_sex_organs: "The epididymides , vasa deferentia , and some accessory glands",
+  each_alveolus: "Surrounded by capillaries carrying deoxygenated blood, which absorbs oxygen out of the air and into the bloodstream",
+  inflammation_of_the_lungs_and_excess_mucus: "Common sources of breathing difficulties",
+  the_bladder: "A hollow balloon shaped organ located in the pelvis",
+  body_shape: "Influenced by the distribution of bones, muscle and fat tissue",
+  some_combined_systems: "Referred to by joint names",
+
 };
 
 // ============================================================
