@@ -419,12 +419,9 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
 def ask_daisy(question, learned_dict=None, conversation_history=None):
     """
     Run question through daisyProcess.
-    Enhance with better follow-up questions.
     Log conversations for training.
-    Safe version that doesn't break existing logic.
+    No external imports — everything embedded.
     """
-    from harmony_layer_safe import enhance_response, log_conversation
-    
     with _js_lock:
         ctx = _js_context
     if not ctx:
@@ -442,29 +439,27 @@ def ask_daisy(question, learned_dict=None, conversation_history=None):
         history_json = json.dumps(conversation_history or [])
         safe_q = q.replace("\\", "\\\\").replace('"', '\\"')
         
-        # Get response from JS engine (keep existing format)
+        # Get response from JS engine
         result = ctx.eval(f'daisyProcess("{safe_q}", {json.dumps(learned_json)}, {json.dumps(history_json)})')
         result_data = json.loads(result)
         
         if "error" in result_data:
             return result_data
         
-        # Enhance the response with better follow-ups
-        answer = result_data.get("answer")
-        source = result_data.get("source", "unknown")
-        enhanced = enhance_response(answer, source, conversation_history)
+        # Log conversation (lightweight JSONL)
+        try:
+            exchange = {
+                "timestamp": datetime.now().isoformat(),
+                "user": question,
+                "daisy": result_data.get("answer"),
+                "source": result_data.get("source", "unknown"),
+                "topics": [result_data.get("topic")] if result_data.get("topic") else []
+            }
+            with open("daisy_conversations.jsonl", "a", encoding="utf-8") as f:
+                f.write(json.dumps(exchange) + "\n")
+        except:
+            pass  # Non-critical
         
-        # Log for ML training
-        log_conversation(
-            user_msg=question,
-            daisy_response=enhanced,
-            source=source,
-            emotion=None,
-            topics=[result_data.get("topic")] if result_data.get("topic") else []
-        )
-        
-        # Return with enhancement
-        result_data["answer"] = enhanced
         return result_data
         
     except Exception as e:
