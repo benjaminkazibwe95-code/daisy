@@ -11813,6 +11813,36 @@ const FLAT_DICT = {
   this_lost_mass: "Converted to electromagnetic energy, according to the mass–energy equivalence relationship E = m c 2 {\displaystyle E=mc^{2}}",
   the_hydrogen_fusion_process: "Temperature-sensitive, so a moderate increase in the core temperature will result in a significant increase in the fusion rate",
 
+  // === INGESTED 2026-06-19 06:37 ===
+  a_planet: "A large, rounded astronomical body that is generally required to be in orbit around a star , stellar remnant , or brown dwarf , and is not one itself",
+  earth_itself: "Recognized as a planet when heliocentrism supplanted geocentrism during the 16th and 17th centuries",
+  the_prevailing_theory: "That they coalesce during the collapse of a nebula into a thin disk of gas and dust",
+  jupiter: "The largest, at 318 Earth masses , whereas Mercury is the smallest, at 0.055 Earth masses",
+  terrestrials: "Similar to Earth, with bodies largely composed of rock and metal: Mercury, Venus, Earth, and Mars",
+  saturn: "One third as massive as Jupiter, at 95 Earth masses",
+  all_nine: "Similar to terrestrial planets in having a solid surface, but they are made of ice and rock rather than rock and metal",
+  europa: "Often considered an icy planet, though, because its surface ice layer makes it difficult to study its interior",
+  there_are_also_exoplanets_that: "Much farther from their star",
+  the_closest_approach_to_its_star: "Called its periastron , or perihelion in the Solar System, whereas its farthest separation from the star is called its apastron ( aphelion )",
+  this_effectively_means_that_all_planets: "Spherical or spheroidal",
+  the_lower_stellar_mass_limit: "Estimated to be around 75 to 80 times that of Jupiter ( M J )",
+  its_mass: "Roughly half that of the planet Mercury",
+  jupiter_and_saturn: "Believed to have cores of rock and metal surrounded by mantles of metallic hydrogen",
+  the_magnetic_fields_of_uranus_and_neptune: "Strongly tilted relative to the planets' rotational axes and displaced from the planets' centres",
+  the_rings: "Composed primarily of dust or particulate matter, but can host tiny ' moonlets ' whose gravity shapes and maintains their structure",
+  thus_the_earth: "Added to the roster of planets, [ 182 ] and the Sun was removed",
+  he_recognized_that_asteroids: "Typically not spherical, as had previously been thought, and that the asteroid families were remnants of collisions",
+  pluto: "Found to be just one 'small' body in a population of thousands",
+  many_known_exoplanets: "Many times the mass of Jupiter, approaching that of stellar objects known as brown dwarfs",
+  brown_dwarfs: "Generally considered stars due to their theoretical ability to fuse deuterium , a heavier isotope of hydrogen",
+  deuterium: "Quite rare, constituting less than 0",
+  because_each_day: "Named by the god that started it, this became the order of the days of the week in the Roman calendar",
+  because_it: "Only generally accepted as a planet in the 17th century, [ 182 ] there is no tradition of naming it after a god",
+  most_of_the_transneptunian_objects: "Named after gods and goddesses from other cultures (e.g",
+  quaoar: "Named after a Tongva god)",
+  the_symbols_for_the_sun_and_earth: "Nonetheless common, as solar mass , Earth mass , and similar units are common in astronomy",
+  many_astrological_symbols: "Included in Unicode , and a few of these new inventions (the symbols of Haumea, Makemake, and Eris) have since been used by NASA in astronomy",
+
 };
 
 // ============================================================
