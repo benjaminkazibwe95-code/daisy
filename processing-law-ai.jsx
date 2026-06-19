@@ -12190,6 +12190,33 @@ const FLAT_DICT = {
   gene_transcription_profiles: "Determined for the human frontal cortex of individuals from age 26 to 106 years",
   numerous_genes: "Identified with reduced expression after age 40, and especially after age 70",
 
+  // === INGESTED 2026-06-19 23:13 ===
+  in_some_explanations_it: "Synonymous with mind , while in others it is considered an aspect of it",
+  if_awareness_of_awareness: "Required, then it is doubtful whether the great apes and human infants are conscious",
+  one_criticism_of_this_goal: "That it begins with a theoretical commitment to the neurological origin of all 'experienced phenomena' whether inner or outer",
+  you: "Of a flock, one bird among kin",
+  the_topic_of_free_will: "The philosophical and scientific examination of this conundrum",
+  a_more_straightforward_way_of_saying_this: "That we attribute experiences to people because of what they can do , including the fact that they can tell us about their experiences",
+  when_qualia: "Experienced, activity is simulated in the brain, and these processes are called neural correlates of consciousness (NCCs)",
+  if_that: "The case, another question is what exactly the 'identity carrier' is that makes a conscious being 'the same' being from one moment to the next",
+  this_notion_of_identity: "Similar to the form of dualism advocated by René Descartes",
+  the_test_examines_whether_animals: "Able to differentiate between seeing themselves in a mirror versus seeing other animals",
+  the_rationale_for_such_a_comparative_study: "That the avian brain deviates structurally from the mammalian brain",
+  if_this: "True, then the twins may offer a proof of concept for how experiences in general could be shared between brains",
+  this_definition: "Notable for its similarity to the global workspace theory (GWT) theatre analogy A wide range of empirical theories of consciousness have been proposed",
+  the_same_cortical_machinery: "Also used to attribute awareness to oneself",
+  to_be_aware_of_x: "Explained by constructing a model of one's attentional focus on X",
+  the_duo_reckoned_that_the_claustrum: "Well suited for the task",
+  the_survival_value_of_consciousness: "Still a matter of exploration and understanding",
+  some_argue_that_consciousness: "A by-product of evolution",
+  nor: "It explained what specific causal role conscious integration plays, nor why the same functionality cannot be achieved without consciousness",
+  not_all_kinds_of_information: "Capable of being disseminated consciously (e.g",
+  patients_with_hemispatial_neglect: "Often paralyzed on the left side of the body, but sometimes deny being unable to move",
+  lovelace: "Essentially dismissive of the idea that a machine such as the Analytical Engine could think in a humanlike way",
+  its_province: "To assist us in making available what we are already acquainted with",
+  turingscale_robotics: "An empirical branch of research on embodied cognition and situated cognition",
+  a_positive_result_proves_that_a_machine: "Conscious but a negative result proves nothing",
+
 };
 
 // ============================================================
