@@ -12127,6 +12127,31 @@ const FLAT_DICT = {
   four_major_theoretical_perspectives: "Psychodynamic, cognitive-behavioral, existential–humanistic, and systems (or family) therapy",
   educational_psychology: "Often included in teacher education programs in North America, Australia, and New Zealand",
 
+  // === INGESTED 2026-06-19 19:48 ===
+  the_different_components_of_emotion: "Categorized somewhat differently depending on the academic discipline",
+  the_term_emotion: "Introduced into academic discussion as a catch-all term to passions , sentiments and affections",
+  he_proposed_that_actions: "Motivated by 'fears, desires, and passions'",
+  the_lexico_definition_of_emotion: "'A strong feeling deriving from one's circumstances, mood, or relationships with others'",
+  graham: "All emotions as existing on a continuum of intensity",
+  emotional_dispositions: "Also comparable to character traits, where someone may be said to be generally disposed to experience certain emotions",
+  he_proposed_what: "Known as 'core-SELF' to be generating these affects",
+  important_neurological_advances: "Derived from these perspectives in the 1990s by Joseph E",
+  he_argued_that_physiological_responses: "Too slow and often imperceptible and this could not account for the relatively rapid and intense subjective awareness of emotion",
+  emotions: "Thus a result of two-stage process: general physiological arousal, and experience of emotion",
+  subjects: "Observed to express either anger or amusement depending on whether another person in the situation (a confederate) displayed that emotion",
+  these_theories_acknowledge_that_emotions: "Not automatic reactions but result from the interplay of cognitive interpretations, physiological responses, and the social context",
+  this_is_important_because_emotions: "Related to the anti-stress complex, with an oxytocin-attachment system, which plays a major role in bonding",
+  information_that: "Encoded in the DNA sequences provides the blueprint for assembling proteins that make up our cells",
+  these_biological_functions_of_the_amygdala: "Not only limited to the 'fear-conditioning' and 'processing of aversive stimuli', but also are present on other components of the amygdala",
+  the_list: "Established in January 1997 and has over 700 members from across the globe",
+  these_more_elaborate_emotions: "Called first-order elaborations in Turner's theory, and they include sentiments such as pride, triumph, and awe",
+  some_social_institutions: "Seen as based on certain emotion, such as love in the case of contemporary institution of marriage",
+  the_formation_or_disruption_of_social_bonds: "Dependent on the emotions that people experience during interactions",
+  the_data_gathered: "Analogous to the cues humans use to perceive emotions in others",
+  another_area_within_affective_computing: "The design of computational devices proposed to exhibit either innate emotional capabilities or that are capable of convincingly simulating emotions",
+  emotional_memories: "Reactivated more, they are remembered better and have more attention devoted to them",
+  lange: "A Danish physician and psychologist",
+
 };
 
 // ============================================================
