@@ -418,11 +418,12 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
 
 def ask_daisy(question, learned_dict=None, conversation_history=None):
     """
-    Run question through daisyProcess to get ALL possible responses.
-    Then harmonize them into ONE unified answer that feels human.
-    Log each exchange for ML training (lightweight JSONL).
+    Run question through daisyProcess.
+    Enhance with better follow-up questions.
+    Log conversations for training.
+    Safe version that doesn't break existing logic.
     """
-    from harmony_layer import harmonize_response, log_conversation
+    from harmony_layer_safe import enhance_response, log_conversation
     
     with _js_lock:
         ctx = _js_context
@@ -441,45 +442,30 @@ def ask_daisy(question, learned_dict=None, conversation_history=None):
         history_json = json.dumps(conversation_history or [])
         safe_q = q.replace("\\", "\\\\").replace('"', '\\"')
         
-        # Get all possible responses from JS engine
-        raw_result = ctx.eval(f'daisyProcess("{safe_q}", {json.dumps(learned_json)}, {json.dumps(history_json)})')
-        result_data = json.loads(raw_result)
+        # Get response from JS engine (keep existing format)
+        result = ctx.eval(f'daisyProcess("{safe_q}", {json.dumps(learned_json)}, {json.dumps(history_json)})')
+        result_data = json.loads(result)
         
         if "error" in result_data:
-            return {"answer": None, "source": "error", "error": result_data.get("error")}
+            return result_data
         
-        # Extract all possible responses
-        responses = result_data.get("responses", {})
-        emotion = result_data.get("emotion")
+        # Enhance the response with better follow-ups
+        answer = result_data.get("answer")
         source = result_data.get("source", "unknown")
-        topic = result_data.get("topic")
+        enhanced = enhance_response(answer, source, conversation_history)
         
-        # Harmonize into ONE unified response (the magic)
-        final_answer = harmonize_response(
-            user_question=question,
-            dictionary_answer=responses.get("synthesized") or responses.get("dictionary"),
-            emotion_response=responses.get("emotion"),
-            personality_response=responses.get("followUp") or responses.get("conversation"),
-            conversation_history=conversation_history,
-            emotion_detected=emotion,
-            source=source
-        )
-        
-        # Log for ML training (lightweight, append-only JSONL)
+        # Log for ML training
         log_conversation(
             user_msg=question,
-            daisy_response=final_answer,
+            daisy_response=enhanced,
             source=source,
-            emotion=emotion.get("r") if emotion else None,
-            topics=[topic] if topic else []
+            emotion=None,
+            topics=[result_data.get("topic")] if result_data.get("topic") else []
         )
         
-        return {
-            "answer": final_answer,
-            "source": source,
-            "topic": topic,
-            "emotion": emotion.get("r") if emotion else None
-        }
+        # Return with enhancement
+        result_data["answer"] = enhanced
+        return result_data
         
     except Exception as e:
         print(f"[DAISY] ask_daisy error: {e}")
