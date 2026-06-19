@@ -11843,6 +11843,27 @@ const FLAT_DICT = {
   the_symbols_for_the_sun_and_earth: "Nonetheless common, as solar mass , Earth mass , and similar units are common in astronomy",
   many_astrological_symbols: "Included in Unicode , and a few of these new inventions (the symbols of Haumea, Makemake, and Eris) have since been used by NASA in astronomy",
 
+  // === INGESTED 2026-06-19 07:57 ===
+  the_medical_encounter: "Then documented in the medical record, which is a legal document in many jurisdictions",
+  transparency_of_information: "Another factor defining a delivery system",
+  primary_care: "Directed to the health of entire populations and thus providers care for patients of all ages and sexes",
+  in_the_western_world_there: "Centuries of tradition and practice differentiating pharmacists from physicians, and two quite separate professions developed",
+  a_patient_admitted_to_the_hospital: "Usually under the care of a specific team based on their main presenting problem, e.g",
+  because_their_patients: "Often seriously ill or require complex investigations, internists do much of their work in hospitals",
+  it_typically: "Entry level education at a university medical school , followed by a period of supervised practice or internship , or residency",
+  a_profession: "Said to be regulated when access and exercise is subject to the possession of a specific professional qualification",
+  this_list: "Covered by the Directive 2005/36/EC",
+  medical_ethics: "A system of moral principles that apply values and judgments to the practice of medicine",
+  when_moral_values: "In conflict, the result may be an ethical dilemma or crisis",
+  in_many_cases_these_materials: "Used ritually as magical substances by priests, shamans , or medicine men",
+  the_earliest_known_medical_texts_in_the_world: "Found in the ancient Syrian city of Ebla and date back to 2500 BCE",
+  the_oldest_egyptian_medical_text: "The Kahun Gynaecological Papyrus from around 2000 BCE, which describes gynaecological diseases",
+  andreas_vesalius: "The author of De humani corporis fabrica , an important book on human anatomy",
+  later_this: "Described by Renaldus Columbus and Andrea Cesalpino",
+  herman_boerhaave: "Sometimes referred to as a 'father of physiology' due to his exemplary teaching in Leiden and textbook 'Institutiones medicae' (1708)",
+  the_first_antibiotic: "Arsphenamine (Salvarsan) discovered by Paul Ehrlich in 1908 after he observed that bacteria took up toxic dyes that human cells did not",
+  the_first_major_class_of_antibiotics: "The sulfa drugs , derived by German chemists originally from azo dyes",
+
 };
 
 // ============================================================
