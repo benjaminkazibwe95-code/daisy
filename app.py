@@ -417,7 +417,13 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
 
 
 def ask_daisy(question, learned_dict=None, conversation_history=None):
-    """Run a question through Daisy's laws engine with conversation context."""
+    """
+    Run question through daisyProcess to get ALL possible responses.
+    Then harmonize them into ONE unified answer that feels human.
+    Log each exchange for ML training (lightweight JSONL).
+    """
+    from harmony_layer import harmonize_response, log_conversation
+    
     with _js_lock:
         ctx = _js_context
     if not ctx:
@@ -434,9 +440,49 @@ def ask_daisy(question, learned_dict=None, conversation_history=None):
         learned_json = json.dumps(learned_dict or {})
         history_json = json.dumps(conversation_history or [])
         safe_q = q.replace("\\", "\\\\").replace('"', '\\"')
-        result = ctx.eval(f'daisyProcess("{safe_q}", {json.dumps(learned_json)}, {json.dumps(history_json)})')
-        return json.loads(result)
+        
+        # Get all possible responses from JS engine
+        raw_result = ctx.eval(f'daisyProcess("{safe_q}", {json.dumps(learned_json)}, {json.dumps(history_json)})')
+        result_data = json.loads(raw_result)
+        
+        if "error" in result_data:
+            return {"answer": None, "source": "error", "error": result_data.get("error")}
+        
+        # Extract all possible responses
+        responses = result_data.get("responses", {})
+        emotion = result_data.get("emotion")
+        source = result_data.get("source", "unknown")
+        topic = result_data.get("topic")
+        
+        # Harmonize into ONE unified response (the magic)
+        final_answer = harmonize_response(
+            user_question=question,
+            dictionary_answer=responses.get("synthesized") or responses.get("dictionary"),
+            emotion_response=responses.get("emotion"),
+            personality_response=responses.get("followUp") or responses.get("conversation"),
+            conversation_history=conversation_history,
+            emotion_detected=emotion,
+            source=source
+        )
+        
+        # Log for ML training (lightweight, append-only JSONL)
+        log_conversation(
+            user_msg=question,
+            daisy_response=final_answer,
+            source=source,
+            emotion=emotion.get("r") if emotion else None,
+            topics=[topic] if topic else []
+        )
+        
+        return {
+            "answer": final_answer,
+            "source": source,
+            "topic": topic,
+            "emotion": emotion.get("r") if emotion else None
+        }
+        
     except Exception as e:
+        print(f"[DAISY] ask_daisy error: {e}")
         return {"answer": None, "source": "error", "error": str(e)}
 
 
