@@ -11995,6 +11995,31 @@ const FLAT_DICT = {
   the_simplest_approach: "To rapidly change non-essential epitopes ( amino acids and/or sugars) on the surface of the pathogen, while keeping essential epitopes concealed",
   the_earliest_known_reference_to_immunity: "During the plague of Athens in 430 BC",
 
+  // === INGESTED 2026-06-19 15:05 ===
+  a_vaccine: "A biological preparation that provides active acquired immunity to a particular infectious or malignant disease",
+  as_long_as_the_vast_majority_of_people: "Vaccinated, it is much more difficult for an outbreak of disease to occur, let alone spread",
+  although_most_attenuated_vaccines: "Viral, some are bacterial in nature",
+  a_subunit_vaccine: "Being used for plague immunization",
+  the_best_known_omv_vaccines: "Those developed for serotype B meningococcal disease",
+  the_classic_example: "Jenner's use of cowpox to protect against smallpox",
+  a_current_example: "The use of BCG vaccine made from Mycobacterium bovis to protect against tuberculosis",
+  this_protein: "Usually the immunodominant antigen of the pathogen or a surface protein that enables the formation of neutralizing antibodies",
+  pdna: "Inexpensive, stable, and relatively safe, making it an excellent option for vaccine delivery",
+  a_monovalent_vaccine: "Designed to immunize against a single antigen or single microorganism",
+  other_ingredients: "Added to boost the immune response, to ensure safety or help with storage, and a tiny amount of material is left-over from the manufacturing process",
+  thiomersal: "More effective against bacteria, has a better shelf-life, and improves vaccine stability, potency, and safety; however, in the U.S",
+  pregnant_women: "Often screened for continued resistance to rubella",
+  the_human_papillomavirus_vaccine: "Recommended in the U.S",
+  one_challenge_in_vaccine_development: "Economic: Many of the diseases most demanding a vaccine, including HIV , malaria and tuberculosis, exist principally in poor countries",
+  vaccines: "Complex mixtures of biological compounds, and unlike the case for prescription drugs , there are no true generic vaccines",
+  viruses: "Grown either on primary cells such as chicken eggs (e.g., for influenza) or on continuous cell lines such as cultured human cells (e.g",
+  although_this: "A conceptually simple part of the vaccine manufacture process, it is often a bottleneck in the process of distributing and administering vaccines",
+  a_common_issue_with_animal_vaccination: "That it interferes with immunological tests as both infection and vaccination can result in antibodies against an antigen being made",
+  monoclonal_antibodies: "Produced against that deletion and selected to develop an ELISA that demonstrated antibodies against gE",
+  swine_populations: "Intensively vaccinated and monitored by the companion diagnostic test and, subsequently, the infected pigs were removed from the population",
+  national_vaccination_policies: "Adopted and compulsory vaccination laws were passed",
+  maurice_hilleman: "The most prolific of the developers of the vaccines in the twentieth century",
+
 };
 
 // ============================================================
