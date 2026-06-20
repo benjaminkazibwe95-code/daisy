@@ -470,28 +470,6 @@ def ask_daisy(question, learned_dict=None, conversation_history=None):
 # ============================================================
 # ROUTES
 # ============================================================
-@app.route("/daisy/data", methods=["GET"])
-def view_data():
-    """View collected conversations for training."""
-    try:
-        if not os.path.exists("daisy_conversations.jsonl"):
-            return jsonify({"status": "no_data_yet", "count": 0, "conversations": []})
-        
-        with open("daisy_conversations.jsonl", "r", encoding="utf-8") as f:
-            lines = f.readlines()
-        
-        conversations = []
-        for line in lines[-50:]:  # Last 50 conversations
-            if line.strip():
-                conversations.append(json.loads(line))
-        
-        return jsonify({
-            "status": "collecting",
-            "total_count": len(lines),
-            "last_50": conversations
-        })
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
 
 @app.route("/")
 def index():

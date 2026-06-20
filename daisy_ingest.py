@@ -18,6 +18,7 @@ import re
 import os
 import json
 import time
+import random
 import argparse
 import requests
 import threading
@@ -186,6 +187,11 @@ def harvest_links(soup, base="https://en.wikipedia.org"):
         if l not in seen:
             seen.add(l)
             unique.append(l)
+    # Shuffle before capping — otherwise we always grab the same
+    # heavily-linked hub pages (Science, Mathematics, etc.) that
+    # appear first in every article and whose words Daisy already
+    # knows. Random sampling pushes the crawl into new territory.
+    random.shuffle(unique)
     return unique[:LINKS_PER_PAGE]
 
 # ============================================================
@@ -254,7 +260,10 @@ def get_existing_keys(jsx_path):
     try:
         with open(jsx_path, "r", encoding="utf-8") as f:
             content = f.read()
-        keys = re.findall(r'^\s{2}([a-z][a-z0-9_]+):\s*"', content, re.MULTILINE)
+        # Match both formats:
+        #   key: "string definition",
+        #   key: { definition: "...", ... },
+        keys = re.findall(r'^\s{2}([a-z][a-z0-9_]+):\s*(?:"|\{)', content, re.MULTILINE)
         return set(keys)
     except Exception as e:
         log(f"READ ERROR: {e}")
@@ -283,10 +292,21 @@ def write_to_jsx(jsx_path, new_pairs):
         new_lines = f"\n  // === INGESTED {timestamp} ===\n"
         for key, data in new_pairs.items():
             if isinstance(data, dict):
-                safe_def = data.get("definition","").replace('"',"'")
+                definition = data.get("definition", "").replace('"', "'")
+                does       = data.get("what_it_does", "").replace('"', "'")
+                examples   = data.get("examples", "").replace('"', "'")
+                if does or examples:
+                    # Rich entry — object with all 3 fields so the
+                    # synthesis engine's does()/examples() helpers work
+                    new_lines += (
+                        f'  {key}: {{ definition: "{definition}", '
+                        f'what_it_does: "{does}", examples: "{examples}" }},\n'
+                    )
+                else:
+                    new_lines += f'  {key}: "{definition}",\n'
             else:
-                safe_def = str(data).replace('"',"'")
-            new_lines += f'  {key}: "{safe_def}",\n'
+                safe_def = str(data).replace('"', "'")
+                new_lines += f'  {key}: "{safe_def}",\n'
 
         new_content = content[:closing_pos] + new_lines + content[closing_pos:]
         with open(jsx_path, "w", encoding="utf-8") as f:
