@@ -10873,6 +10873,31 @@ const FLAT_DICT = {
   neuromorphic_computing: { definition: "A class of computing systems designed to emulate the structure and functionality of biological neural networks", what_it_does: "", examples: "memristors, to emulate the function of neural synapses" },
   it_broadly: { definition: "Artificial neural networks that use materials with adjustable resistance to replicate neural synapses", what_it_does: "", examples: "wearable computers , edge devices and microcontrollers" },
 
+  // === INGESTED 2026-06-20 03:17 ===
+  the_cap: { definition: "The chain of transformations from input to output", what_it_does: "", examples: "Kunihiko Fukushima 's rectified linear unit" },
+  the_probabilistic_interpretation: "Introduced by researchers including Hopfield , Widrow and Narendra and popularized in surveys such as the one by Bishop",
+  the_first_working_deep_learning_algorithm: "The Group method of data handling , a method to train arbitrarily deep neural networks, published by Alexey Ivakhnenko and Lapa in 1965",
+  superfluous_hidden_units: "Pruned using a separate validation set",
+  since_the_activation_functions_of_the_nodes: "Kolmogorov-Gabor polynomials, these were also the first deep networks with multiplicative units or 'gates'",
+  recurrence: "Used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforward layer",
+  that_lstm: { definition: "Not yet the modern architecture, which required a 'forget gate', introduced in 1999, [ 73 ] which became the standard RNN architecture", what_it_does: "", examples: "recurrent nets) of ANNs for speech recognition have been explored for many years" },
+  an_exception: { definition: "At SRI International in the late 1990s", what_it_does: "", examples: "the distribution of MNIST images , but convergence was slow" },
+  excellent_image_quality: { definition: "Achieved by Nvidia 's StyleGAN (2018) [ 129 ] based on the Progressive GAN by Tero Karras et al", what_it_does: "", examples: "DALL·E 2 (2022) and Stable Diffusion (2022)" },
+  each_mathematical_manipulation_as_such: "Considered a layer, [ 143 ] and complex DNN have many layers, hence the name 'deep' networks",
+  the_weights_and_inputs: { definition: "Multiplied and return an output between 0 and 1", what_it_does: "", examples: "language modeling" },
+  two_common_issues: "Overfitting and computation time",
+  dnns: { definition: "Prone to overfitting because of the added layers of abstraction, which allow them to model rare dependencies in the training data", what_it_does: "", examples: "traffic prediction" },
+  mnist: { definition: "Composed of handwritten digits and includes 60,000 training examples and 10,000 test examples", what_it_does: "", examples: "of Neural networks have been used for implementing language models since the early 2000s" },
+  these_failures: { definition: "Caused by insufficient efficacy (on-target effect), undesired interactions (off-target effects), or unanticipated toxic effects", what_it_does: "", examples: "the Ebola virus [ 215 ] and multiple sclerosis" },
+  an_autoencoder_ann: { definition: "Used in bioinformatics , to predict gene ontology annotations and gene-function relationships", what_it_does: "", examples: "cancer cell classification, lesion detection, organ segmentation and image enhancement" },
+  many_data_points: { definition: "Collected during the request/serve/click internet advertising cycle", what_it_does: "", examples: "denoising , super-resolution , inpainting , and film colorization" },
+  this_method: "Particularly useful for solving high-dimensional problems in financial mathematics",
+  image_reconstruction: { definition: "The reconstruction of the underlying images from the image-related measurements", what_it_does: "", examples: "spectral imaging [ 247 ] and ultrasound imaging" },
+  graphcast: "A deep learning based model, trained on a long history of weather data to predict how weather patterns change over time",
+  the_aging_clock: { definition: "Planned to be released for public use in 2021 by an Insilico Medicine spinoff company Deep Longevity", what_it_does: "yields a self-organizing stack of transducers , well-tuned to their operating environment", examples: "automatically tagging uploaded pictures with the names of the people in them" },
+  such_manipulation: { definition: "Termed an ' adversarial attack '", what_it_does: "", examples: "TinEye that can then find other instances of it" },
+  a_refinement: { definition: "To search using only parts of the image, to identify images from which that piece may have been taken", what_it_does: "", examples: "opening a web page hosting drive-by malware)'" },
+
 };
 
 // ============================================================
