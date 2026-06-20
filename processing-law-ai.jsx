@@ -10898,6 +10898,14 @@ const FLAT_DICT = {
   such_manipulation: { definition: "Termed an ' adversarial attack '", what_it_does: "", examples: "TinEye that can then find other instances of it" },
   a_refinement: { definition: "To search using only parts of the image, to identify images from which that piece may have been taken", what_it_does: "", examples: "opening a web page hosting drive-by malware)'" },
 
+  // === INGESTED 2026-06-20 03:25 ===
+  a_neural_network: "A group of interconnected units called neurons that send signals to one another",
+  while_individual_neurons: "Simple, many of them together in a network can perform complex tasks",
+  very_large_interconnected_networks: "Called large scale brain networks , and many of these together form brains and nervous systems",
+  while_early_artificial_neural_networks: "Physical machines, [ 3 ] today they are almost always implemented in software",
+  the_signal_each_neuron_outputs: "Calculated from this number, according to its activation function",
+  artificial_neural_networks: "Originally used to model biological neural networks starting in the 1930s under the approach of connectionism",
+
 };
 
 // ============================================================
