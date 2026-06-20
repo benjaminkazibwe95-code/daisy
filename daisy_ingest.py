@@ -357,7 +357,10 @@ def git_push(word_count):
             log("GIT: Nothing new to commit.")
             return
 
-        msg = f"Daisy learned {word_count} new words [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
+        if word_count > 0:
+            msg = f"Daisy learned {word_count} new words [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
+        else:
+            msg = f"Daisy crawl progress (no new words this cycle) [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
         code, _, err = run(["git", "commit", "-m", msg])
         if code != 0:
             log(f"GIT COMMIT failed: {err}")
@@ -438,9 +441,12 @@ def ingest_one(url=None):
 
     if not new_pairs:
         log("Daisy already knows all of these. Moving on.")
-        # Still save queue progress
+        # Still save queue progress locally AND push to GitHub —
+        # otherwise crawl progress (queue/visited) is lost on every
+        # redeploy even though no new words were learned this cycle
         save_queue(_queue)
         save_visited(_visited)
+        git_push(0)
         return
 
     # Write
