@@ -11669,6 +11669,17 @@ const FLAT_DICT = {
   if_the_gestation_period: "9 months, determine the sex of the unborn child",
   if_the_remainder: "Odd, [the sex] is male and if the remainder is even, [the sex] is female",
 
+  // === INGESTED 2026-06-21 14:34 ===
+  astronomical_observatories: { definition: "Established there by the early 9th century", what_it_does: "", examples: "lunar , solar and planetary longitudes" },
+  this_relation: { definition: "Expected if the universe is expanding", what_it_does: "", examples: "black holes [ 72 ] and neutron stars" },
+  the_infrared_spectrum: "Useful for studying objects that are too cold to radiate visible light, such as planets, circumstellar disks or nebulae whose light is blocked by dust",
+  visible_light_from_these_galaxies: "Emitted billions of years ago and the expansion of the universe shifted the light in to the infrared range",
+  modern_images: "Made using digital detectors, particularly using charge-coupled devices (CCDs) and recorded on modern medium",
+  since_xrays: { definition: "Absorbed by the Earth's atmosphere , observations must be performed at high altitude, such as from balloons , rockets , or specialized satellites", what_it_does: "", examples: "SAGE , GALLEX , and Kamioka II/III for the detection of neutrinos" },
+  fundamental_to_modern_cosmology: "The well-accepted theory of the Big Bang , the concept that the universe begin extremely dense and hot, then expanded over the course of 13",
+  as_the_earth: { definition: "Within the dusty outer arms, large portions of the Milky Way are obscured from view", what_it_does: "", examples: "by collisions, radioactive decay, and tidal heating" },
+  archaeoastronomy: { definition: "The study of ancient or traditional astronomies in their cultural context, using archaeological and anthropological evidence", what_it_does: "", examples: "star clusters, galaxies, and nebulae" },
+
 };
 
 // ============================================================
