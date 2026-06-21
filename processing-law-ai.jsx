@@ -12647,6 +12647,37 @@ const FLAT_DICT = {
   examples_of_the_latter: "Kitoto 'infant', from mtoto 'child'; kitawi 'frond', from tawi 'branch'; and chumba ( ki-umba ) 'room', from nyumba 'house'",
   in_such_cases_the_interpreted_prefix: { definition: "Changed with the usual rules", what_it_does: "", examples: "in Nairobi" },
 
+  // === INGESTED 2026-06-21 20:15 ===
+  it_is_one_of_the_major_languages_in_uganda_and: "Spoken by more than 5.56 million Ugandans Baganda [ 7 ] and other people principally in central Uganda, including the country's capital, Kampala",
+  the_two_languages: { definition: "Almost mutually intelligible , [ 10 ] and have an estimated lexical similarity of between 82% and 86%", what_it_does: "", examples: "ssaati (shirt) or emotoka (car)" },
+  a_notable_feature_of_luganda_phonology: "Its geminate consonants and distinctions between long and short vowels",
+  if_the_first_syllable: "High then the meaning changes to 'the little one catches' (third person singular present tense Class VI ka - of - baka 'to catch')",
+  the_quality_of_a_vowel: "Not affected by its length",
+  long_vowels_in_luganda: { definition: "Very long, more than twice the length of a short vowel", what_it_does: "", examples: "- dduka from *- jiduka 'run'" },
+  when_the_word: { definition: "Used as the subject of a sentence, it remains high: Kámpálá kibúga 'Kampala is a city'", what_it_does: "", examples: "mu mas é réngétá g á Úg áń da 'in the south of Uganda' or k í rí mú Úg áń da 'it is in Uganda'" },
+  vowel_length: "Then only distinctive before simple consonants ( i.e",
+  stress_and_tones: "Not represented in the spelling",
+  the_only_words_where_this_is_not_possible: { definition: "Those that include one of the affricate–vowel combinations discussed above", what_it_does: "", examples: "Uganda is pronounced as though written Yuganda and Teso is pronounced Tteeso" },
+  long_vowels: { definition: "Written as double (when length cannot be inferred from the context) and short vowels are written single", what_it_does: "", examples: "But Vowels at the start or end of the word are not written double, even if they are long" },
+  the_ny_combination: { definition: "Treated as a single letter and therefore does not have any effect on vowel length (see the previous subsection)", what_it_does: "", examples: "the apostrophe)" },
+  agreement_is_by_gender_and_number_and: "Indicated with prefixes attached to the start of word stems",
+  the_latter_method: { definition: "Consistent with the study of non-Bantu languages", what_it_does: "", examples: "Other stems use the full prefix: There are also some nouns that have no prefix" },
+  nouns: "Inflected for number and state",
+  the_base_state_is_unmarked_and_the_topic_state: "Indicated by the presence of the initial vowel",
+  the_topic_state: "Used for nouns in the following conditions: The base state is used for the following conditions: Luganda has a closed set of pronouns",
+  true_adverbs_in_the_grammatical_sense: "Far rarer in Luganda than in, say, English , being mostly translated by other parts of speech—for example adjectives or particles",
+  when_the_adverb: "Qualifying a verb , it is usually translated by an adjective, which then agrees with the subject of the verb",
+  for_example_the_intensifying_particle_nnyo: { definition: "Attached to an adjective or verb to mean 'very', 'a lot'", what_it_does: "", examples: "Lukwago anywa nnyo 'Lukwago drinks a lot'" },
+  the_possessive_in_luganda: { definition: "Indicated with a different particle for each singular and plural noun class (according to the possessed noun)", what_it_does: "", examples: "Here, the verb nywa changes its prefix according to the gender and number of its subject" },
+  the_present_tense: "Formed by simply adding the subject prefixes to the stem",
+  the_negative: "Formed in the usual way",
+  the_present_perfect: "Also used to show physical attitude",
+  the_near_past: "Formed by inserting the prefix -a- before the modified form of the stem",
+  this_is_the_tense_that: "Used in novels and storytelling",
+  the_near_future: { definition: "Used when describing things that are going to happen within the next 18 hours", what_it_does: "", examples: "nkyatudde means 'I'm still seated'" },
+  and_since_the_reflexive: "Formed with a prefix rather than a suffix, it is impossible to distinguish between, for example, reflexive causative and causative reflexive",
+  all_human_beings: "Born free and equal in dignity and rights",
+
 };
 
 // ============================================================
