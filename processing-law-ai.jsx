@@ -13546,6 +13546,30 @@ const FLAT_DICT = {
   the_babylonians: "Accustomed to charging interest at the rate of 20 percent per year",
   the_use_of_coins_as_a: { definition: "Of representing money began in the years between 700 and 500 BCE", what_it_does: "", examples: "Aegina , Athens , and Corinth , started minting their own coins between 595 and 570 BCE" },
 
+  // === INGESTED 2026-06-21 21:40 ===
+  a_bank: "A financial institution that accepts deposits from the public and creates a demand deposit while making loans",
+  the_oldest_existing_retail_bank: "Banca Monte dei Paschi di Siena (founded in 1472), while the oldest existing merchant bank is Berenberg Bank (founded in 1590)",
+  a_banker: { definition: "A person who engages in the business of banking", what_it_does: "", examples: "banknotes and bonds" },
+  this_difference: { definition: "Referred to as the spread between the cost of funds and the loan interest rate", what_it_does: "", examples: "some of the world's largest banks, and provoked debate about bank regulation" },
+  the_word_bank: { definition: "Taken into Middle English from Middle French banque , from Old Italian banco , meaning 'table', from Old High German banc, bank 'bench, counter'", what_it_does: "", examples: "checks does not depend on how the bank is structured or regulated" },
+  the_business_of_banking: "In many common law countries not defined by statute but by common law, the definition above",
+  when_looking_at_these_definitions_it: "Important to keep in mind that they are defining the business of banking for the purposes of the legislation, and not necessarily in general",
+  the_categorization_of_assets_and_capital: "Highly standardized so that it can be risk weighted",
+  then_debt: { definition: "Reduced and bank capitalization gets a boost", what_it_does: "", examples: "the bank run that occurred during the Great Depression , the U.S" },
+  growth_in_assets_in_adverse_market_conditions: "Largely a result of recapitalization",
+  the_united_states_banking_industry: "One of the most heavily regulated and guarded in the world, [ 45 ] with multiple specialized and focused regulators",
+  state_nonmember_banks: "Examined by the state agencies as well as the FDIC",
+  loans: "A bank's primary asset category and when loan quality becomes suspect, the foundation of a bank is shaken to the core",
+  problems: { definition: "More likely to go undetected, resulting in a significant impact on the bank when they are discovered", what_it_does: "", examples: "adequate employee training programs" },
+  another_major_challenge: "The aging infrastructure, also called legacy IT",
+  backend_systems_were_built_decades_ago_and: "Incompatible with new applications",
+  under_gaap_there: "Two kinds of accounts: debit and credit",
+  credit_accounts: "Revenue, Equity and Liabilities",
+  if_the_customer: "Overdrawn, he will have a negative balance, reflected as a debit balance on the bank statement",
+  one_source_of_deposits_for_banks: "Deposit brokers who deposit large sums of money on behalf of investors through trust corporations",
+  regulation_of_brokered_deposits: "Opposed by banks on the grounds that the practice can be a source of external funding to growing communities with insufficient local deposits",
+  custodial_accounts: "Accounts in which assets are held for a third party",
+
 };
 
 // ============================================================
