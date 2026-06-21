@@ -14847,6 +14847,25 @@ const FLAT_DICT = {
   this_deep_ocean_water_circulation: { definition: "Relatively slow and water at the bottom of the ocean can be isolated from the ocean surface and atmosphere for hundreds or even a few thousand years", what_it_does: "", examples: "carbon dioxide , for example by moving contaminants from the surface into the deep ocean" },
   salinity: { definition: "Higher in Earth's oceans where there is more evaporation and lower where there is more precipitation", what_it_does: "", examples: "the Arctic Ocean" },
 
+  // === INGESTED 2026-06-21 23:45 ===
+  a_mountain: "An elevated portion of the surface of a planet, generally with steep sides that show significant exposed bedrock",
+  a_few_mountains: { definition: "Isolated summits , but most occur in mountain ranges", what_it_does: "", examples: "mining and logging , along with recreation, such as mountain climbing and skiing" },
+  the_highest_mountain_on_earth: { definition: "Mount Everest in the Himalayas of Asia , whose summit is 8,850 m (29,035 ft) above mean sea level", what_it_does: "", examples: "the Sivalik Hills in the Himalayas [ 9 ] and the Black Hills in the United States" },
+  volcanoes_are_formed_when_a_plate: { definition: "Pushed below another plate , or at a mid-ocean ridge or hotspot", what_it_does: "", examples: "a shield volcano or a stratovolcano" },
+  thus_the_continental_crust: "Normally much thicker under mountains, compared to lower lying areas",
+  the_upfolds_are_anticlines_and_the_downfolds: "Synclines : in asymmetric folding there may also be recumbent and overturned folds",
+  block_mountains: "Caused by faults in the crust: a plane where rocks have moved past each other",
+  the_intervening_dropped_blocks: { definition: "Termed graben : these can be small or form extensive rift valley systems", what_it_does: "", examples: "pyramidal peaks , knife-edge arêtes , and bowl-shaped cirques that can contain lakes" },
+  when_the_temperature: "Below 0 °C, plants are dormant, so the exact temperature is unimportant",
+  mountain_environments: "Particularly sensitive to anthropogenic climate change and are currently undergoing alterations unprecedented in last 10,000 years",
+  observational_studies_show_that_highlands: { definition: "Warming faster than nearby lowlands, but when compared globally, the effect disappears", what_it_does: "", examples: "in central Asia" },
+  these_isolated_ecological_systems: "Known as sky islands",
+  mountains: "Generally less preferable for human habitation than lowlands, because of harsh weather and little level ground suitable for agriculture",
+  mount_ararat: "A sacred mountain, as it is believed to be the biblical landing place of Noah's Ark",
+  the_highest_mountains_above_sea_level: "Also not those with peaks farthest from the centre of the Earth, because the figure of the Earth is not spherical",
+  mount_logan: "The largest non-volcanic mountain in base area (120 sq mi or 311 km 2 )",
+  sea_level_closer_to_the_equator: "Several miles farther from the centre of the Earth",
+
 };
 
 // ============================================================
