@@ -14049,6 +14049,30 @@ const FLAT_DICT = {
   one_way_this_can_be_addressed_in_practice: "To have wealthy nations pay poorer countries to adapt",
   percapita_emissions: { definition: "Also still relatively low in developing countries and developing countries would need to emit more to meet their development needs", what_it_does: "", examples: "the 2015 Paris Climate Accord" },
 
+  // === INGESTED 2026-06-21 22:26 ===
+  the_most_widely_used_renewable_energy_types: "Solar energy , wind power , and hydropower",
+  bioenergy_and_geothermal_power: "Also significant in some countries",
+  china_and_the_united_states: { definition: "The main recipients, collectively making up about half of all solar investments since 2013", what_it_does: "", examples: "the biggest, Talatan Solar Park" },
+  the_advantage_of_solar_thermal: "That the heated water can be stored until it is needed, eliminating the need for a separate energy storage system",
+  some_positive_points: "Increased efficiency and price decrease of water space compared to land space",
+  a_negative_point: "That making floating solar panels could be more expensive",
+  agrivoltaics_is_where_there: "Simultaneous use of land for energy production and agriculture",
+  a_positive_viewpoint_is_there: "A better use of land, which leads to lower land costs",
+  a_negative_viewpoint: "It the plants grown underneath would have to be plants that can grow well under shade, such as Polka Dot Plant , Pineapple Sage , and Begonia",
+  the_power_available_from_the_wind: { definition: "A function of the cube of the wind speed, so as wind speed increases, power output increases up to the maximum output for the particular turbine", what_it_does: "", examples: "offshore and high-altitude sites, are preferred locations for wind farms" },
+  excess_heat_energy_from_renewable_energy: "Piped into the tank and then energy is discharged as boiling water, steam, or heated air",
+  finland: "Using this technology in Pornainen as Polar Night Energy built a 1MW sand battery that can store up to 100 MWh that went online in 2025",
+  tidal_energy: { definition: "Generally considered the most mature, but has not seen wide deployment", what_it_does: "", examples: "some systems that can be set up in brownfield and desert lands" },
+  most_of_these_systems: "Installed on multi-family apartment buildings [ 216 ] and meet a portion of the hot water needs of an estimated 50–60 million households in China",
+  renewables: "Set to account for over 90% of global electricity capacity expansion over the forecast period",
+  renewable_energy_in_developing_countries: "An increasingly used alternative to fossil fuel energy, as these countries scale up their energy supplies and address energy poverty",
+  renewable_energy_technology: "Once seen as unaffordable for developing countries",
+  irena: "Formed in 2009, with 75 countries signing the charter of IRENA",
+  a_green_bank: { definition: "A quasi-public financial institution that uses public capital to leverage private investment in clean energy technologies", what_it_does: "", examples: "feed-in tariffs in China and Vietnam have significantly increased renewable adoption" },
+  solar_power: "Less resource-intensive, but still requires significant amounts of aluminum",
+  demand_for_lithium: "Expected to grow 42-fold from 2020 to 2040",
+  the_key: "Ensuring that renewable energy facilities are built in places where they do not damage biodiversity",
+
 };
 
 // ============================================================
