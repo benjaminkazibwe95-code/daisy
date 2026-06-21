@@ -13570,6 +13570,18 @@ const FLAT_DICT = {
   regulation_of_brokered_deposits: "Opposed by banks on the grounds that the practice can be a source of external funding to growing communities with insufficient local deposits",
   custodial_accounts: "Accounts in which assets are held for a third party",
 
+  // === INGESTED 2026-06-21 21:42 ===
+  when_a_lowrisk_investment: "Made, the return is also generally low",
+  industry_to_industry_volatility: { definition: "More or less of a risk depending", what_it_does: "", examples: "earnings per share and sales growth , to identify securities trading at prices below their worth" },
+  warren_buffett_and_benjamin_graham: { definition: "Notable examples of value investors", what_it_does: "the value representing the sum investors are prepared to expend for each dollar of company earnings", examples: "" },
+  this_ratio: { definition: "An important aspect, due to its capacity as measurement for the comparison of valuations of various companies", what_it_does: "", examples: "goodwill, are not taken into account" },
+  growth_investors_seek_investments_they_believe: "Likely to have higher earnings or greater value in the future",
+  graham_asserted_that_investors_that_use_dca: { definition: "'likely to end up with a satisfactory overall price for all [their] holdings", what_it_does: "", examples: "investment trusts , unit trusts , and SICAVs to make large-scale investments" },
+  debttoequity_ratio_measures_how_much_debt: "Used to finance a company, compared to equity",
+  a_high_debttoequity_ratio: "That a company relies more on debt to finance operations, and is much riskier to investors",
+  earnings_per_share: "Measured by dividing the net income of a company by the total number of outstanding shares",
+  a_higher_earnings_per_share: "Attractive to investors because it typically means the company is more profitable",
+
 };
 
 // ============================================================
