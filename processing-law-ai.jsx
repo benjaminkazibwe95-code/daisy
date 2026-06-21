@@ -14073,6 +14073,26 @@ const FLAT_DICT = {
   demand_for_lithium: "Expected to grow 42-fold from 2020 to 2040",
   the_key: "Ensuring that renewable energy facilities are built in places where they do not damage biodiversity",
 
+  // === INGESTED 2026-06-21 22:28 ===
+  thermal_mass: { definition: "Any material that can be used to store heat—heat from the Sun in the case of solar energy", what_it_does: "", examples: "climate, daylighting, and shading conditions" },
+  the_first_recorded_instance_of_this: "By 16th-century Arab alchemists",
+  doubleslope_stills: "The most economical for decentralized domestic purposes, while active multiple effect units are more suitable for large-scale applications",
+  a_further_environmental_advantage: "That algae grow in such ponds and consume carbon dioxide in photosynthesis, although algae may produce toxic chemicals that make the water unusable",
+  the_liquid_salt: "Pumped through panels in a solar collector where the focused irradiance heats it to 566 °C (1,051 °F)",
+  another_project: "The María Elena plant [ 62 ] is a 400 MW thermo-solar complex in the northern Chilean region of Antofagasta employing molten salt technology",
+  commercial_concentrated_solar_power_plants: "First developed in the 1980s",
+  threequarters_of_new_generation_capacity: "Solar, [ 64 ] with both millions of rooftop installations and gigawatt-scale photovoltaic power stations continuing to be built",
+  the_concentrated_heat: "Then used as a heat source for a conventional power plant",
+  various_techniques: { definition: "Used to track the Sun and focus light", what_it_does: "", examples: "pumps, fans, and switchable windows can complement passive design and improve system performance" },
+  early_fruit_walls: "Built perpendicular to the ground and facing south, but over time, sloping walls were developed to make better use of sunlight",
+  primitive_greenhouses: { definition: "First used during Roman times to produce cucumbers year-round for the Roman emperor Tiberius", what_it_does: "", examples: "for air conditioning, to keep the interior cool, thus reducing fuel consumption" },
+  some_solar_balloons: { definition: "Large enough for human flight, but usage is generally limited to the toy market as the surface-area to payload-weight ratio is relatively high", what_it_does: "", examples: "water, earth and stone" },
+  these_materials: "Inexpensive, readily available, and can deliver domestically useful temperatures (approximately 64 °C or 147 °F)",
+  if_the_net_electricity_use: "Below zero, the utility then rolls over the kilowatt-hour credit to the next month",
+  the_energy_is_recovered_when_demand: { definition: "High by releasing the water, with the pump becoming a hydroelectric power generator", what_it_does: "", examples: "the Federal Photovoltaic Utilization Program in the US and the Sunshine Program in Japan" },
+  that_after_our_stores_of_oil_and_coal: "Exhausted the human race can receive unlimited power from the rays of the Sun",
+  typically_these_two_technologies: "Used separately (or only placing them in parallel) to produce hot water",
+
 };
 
 // ============================================================
