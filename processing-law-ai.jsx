@@ -14660,6 +14660,37 @@ const FLAT_DICT = {
   both_styles: "Utilized in the game of chess",
   the_pyrrhic_victory: "The best example of one's inability to think positionally",
 
+  // === INGESTED 2026-06-21 23:28 ===
+  the_chinese_competitive_game_cuju: { definition: "An early type of ball game where feet were used, in some aspects resembling modern association football", what_it_does: "", examples: "their opponents' church, with play taking place in the open space between neighbouring parishes" },
+  the_first_detailed_description_of_what: "Almost certainly football in England was given by William FitzStephen in about 1174–1183",
+  an_early_reference_to_a_ball_game_that: "Probably football comes from 1280 at Ulgham , Northumberland, England: 'Henry",
+  it_is_not_certain_that_the_ball: { definition: "Being struck between members of the same team", what_it_does: "", examples: "calcio players could punch, shoulder charge, and kick opponents" },
+  the_game: "Not played after January 1739 (until it was revived in May 1930)",
+  the_first_such_law: "Passed in England in 1314; it was followed by more than 30 in England alone between 1314 and 1667",
+  wedderburn: "What has been translated into modern English as 'keeping goal' and makes an allusion to passing the ball ('strike it here')",
+  the_gates: "Called Goals.' His book includes a diagram illustrating a football field",
+  players: "Not allowed to pass the ball forward, either by foot or by hand",
+  the_division_into_these_two_camps: "Partly the result of circumstances in which the games were played",
+  the_modern_rules_of_many_football_codes: { definition: "Formulated during the mid- or late- 19th century", what_it_does: "", examples: "lawn bowls, lawn tennis, etc" },
+  the_major_impetus_for_this: "The patenting of the world's first lawnmower in 1830",
+  the_first_football_trophy_tournament: "The Caledonian Challenge Cup, donated by the Royal Caledonian Society of Melbourne, played in 1861 under the Melbourne Rules",
+  the_oldest_surviving_soccer_trophy: "The Youdan Cup (1867) and the oldest national football competition is the English FA Cup (1871)",
+  later_leather_coverings: "Introduced to allow the balls to keep their shape",
+  the_ball: "To prove popular in early forms of football in the U.S",
+  the_first_official_rfu_rules: "Adopted in June 1871",
+  through_publicity_and_personal_contacts_wills: "Able to co-ordinate football matches in Melbourne that experimented with various rules, [ 122 ] the first of which was played on 31 July 1858",
+  the_melbourne_football_rules: "Widely distributed and gradually adopted by the other Victorian clubs",
+  the_rules: "Updated several times during the 1860s to accommodate the rules of other influential Victorian football clubs",
+  the_aim_of_the_association: "To establish a single unifying code and regulate the playing of the game among its members",
+  rules: "Simple, violence and injury were common",
+  though_it: "Underused for years, this proved to be one of the most important rule changes in the establishment of the modern game",
+  trinity_college_dublin: "An early stronghold of rugby (see the Developments in the 1850s section above)",
+  the_rules_of_the_english_fa: "Being distributed widely",
+  the_first_gaelic_football_rules: { definition: "Drawn up by Maurice Davin and published in the United Ireland magazine on 7 February 1887", what_it_does: "", examples: "hurling and a desire to formalise a distinctly Irish code of football" },
+  the_prime_example_of_this_differentiation: "The lack of an offside rule (an attribute which, for many years, was shared only by other Irish games like hurling, and by Australian rules football)",
+  mauls_were_stopped_once_the_ball_carrier: "Held, being replaced by a play-the ball-ruck",
+  the_maximum_number_of_tackles: { definition: "Later increased to six (in 1971), and in rugby league this became known as the six tackle rule", what_it_does: "", examples: "Several of the football codes are the most popular team sports in the world" },
+
 };
 
 // ============================================================
