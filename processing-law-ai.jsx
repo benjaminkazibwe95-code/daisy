@@ -13100,6 +13100,29 @@ const FLAT_DICT = {
   plain_text_output: { definition: "Often preferred by programmers, and is easy to support", what_it_does: "", examples: "a simple single-board computer powered by a 6502 microprocessor" },
   another_approach: { definition: "For operating system vendors to adopt standards", what_it_does: "", examples: "POSIX and OS abstraction layers provide commonalities that reduce porting costs" },
 
+  // === INGESTED 2026-06-21 20:54 ===
+  linux_distributions: "Frequently used in server platforms",
+  the_linux_kernel: { definition: "Considered by many to be the largest open source project", what_it_does: "", examples: "personal computers, workstations , mainframes , and embedded systems" },
+  a_working_unix_system_called_minix: { definition: "Later released but its license was not entirely free at the time [ 26 ] and it was made for education purposes", what_it_does: "", examples: "X11 or Wayland and a desktop environment such as KDE Plasma , GNOME , or Xfce" },
+  the_license_means_creating_novel_distributions: { definition: "Permitted by anyone [ 30 ] and is easier than it would be for an operating system such as macOS or Microsoft Windows", what_it_does: "", examples: "device drivers , daemons , and the kernel , called GNU Hurd , were stalled and incomplete" },
+  although_the_complete_source_code_of_minix: { definition: "Freely available , the licensing terms prevented it from being free software until the licensing changed in April 2000", what_it_does: "", examples: "C++ , Lisp , assembly language, Perl, Python, Fortran , and various shell scripting languages" },
+  slightly_over_half_of_all_lines_of_code: "Licensed under the GPL",
+  the_linux_kernel_itself: { definition: "2.4 million lines of code, or 8% of the total", what_it_does: "", examples: "SUSE Linux and Red Hat Enterprise Linux )" },
+  device_drivers: "Either integrated directly with the kernel or added as modules that are loaded while the system is running",
+  cli_shells: "Text-based user interfaces, which use text for both input and output",
+  the_dominant_shell_used_in_linux: { definition: "The Bourne-Again Shell (bash), originally developed for the GNU Project; other shells such as Zsh are also used", what_it_does: "", examples: "various parts of the userland , use the CLI exclusively" },
+  the_cli: "Particularly suited for automation of repetitive or delayed tasks and provides very simple inter-process communication",
+  most_popular_user_interfaces: { definition: "Based on the X Window System, often simply called 'X' or 'X11'", what_it_does: "", examples: "tiling , dynamic , stacking , and compositing" },
+  window_managers_provide: { definition: "To control the placement and appearance of individual application windows, and interact with the X Window System", what_it_does: "", examples: "a built-in taskbar and themes , but are still lightweight when compared to desktop environments" },
+  wayland: "A display server protocol intended as a replacement for the X11 protocol; as of 2022 [update] , it has received relatively wide adoption",
+  weston: { definition: "The reference implementation of Wayland, while GNOME's Mutter and KDE's KWin are being ported to Wayland as standalone display servers", what_it_does: "", examples: "Sway or Hyprland, as well as other graphical utilities such as Waybar or Rofi" },
+  distributions: "Maintained by individuals, loose-knit teams, volunteer organizations, and commercial entities",
+  online_forums_are_another: { definition: "Of support, with notable examples being Unix & Linux Stack Exchange , [ 162 ] [ 163 ] LinuxQuestions", what_it_does: "", examples: "usage or development for a given list" },
+  pascal: "Implemented through GNU Pascal , Free Pascal , Virtual Pascal , and graphically via Lazarus , PascalABC",
+  gnome_and_kde: "Popular desktop environments and provide a framework for developing applications",
+  these_projects: "Based on the GTK and Qt widget toolkits, respectively, which can also be used independently of the larger framework",
+  typical_common_graphics_and_image_tools: { definition: "Programs such as: GNU Image Manipulation Program (GIMP), Inkscape , Krita , DaVinci Resolve , and Scribus", what_it_does: "", examples: "ARM -based Android smartphones and the IBM Z mainframes" },
+
 };
 
 // ============================================================
