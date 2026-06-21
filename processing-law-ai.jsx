@@ -11266,6 +11266,27 @@ const FLAT_DICT = {
   the_central_concept_of_thermodynamics: { definition: "That of energy , the ability to do work", what_it_does: "", examples: "energy transfer equals the product of the force applied to a body and the resulting displacement" },
   potentials: { definition: "Used to measure the energy changes in systems as they evolve from an initial state to a final state", what_it_does: "", examples: "constant temperature or pressure" },
 
+  // === INGESTED 2026-06-21 14:04 ===
+  the_modern_theory: { definition: "Formulated in various specially developed mathematical formalisms", what_it_does: "", examples: "Wigner's friend , and its application to the universe as a whole remains speculative" },
+  this_behavior: { definition: "Known as wave–particle duality", what_it_does: "", examples: "scanning tunnelling microscopy , tunnel diode and tunnel field-effect transistor" },
+  the_time_evolution_of_a_quantum_state: "Described by the Schrödinger equation: i ℏ ∂ ∂ t ψ ( t ) = H ψ ( t )",
+  the_solution_of_this_differential_equation: { definition: "Given by ψ ( t ) = e − i H t / ℏ ψ ( 0 )", what_it_does: "", examples: "eigenstates of the Hamiltonian" },
+  the_hilbert_space_of_the_composite_system: "Then H A B = H A ⊗ H B",
+  states_that: "Not separable are called entangled",
+  povms: "Extensively used in quantum information theory",
+  a_free_particle_is_one_which: "Not subject to external influences, so that its Hamiltonian consists only of its kinetic energy: H = 1 2 m P 2 = − ℏ 2 2 m d 2 d x 2",
+  the_box: "Defined as having zero potential energy everywhere inside a certain region, and therefore infinite potential energy everywhere outside that region",
+  the_finite_potential_well_problem: { definition: "Mathematically more complicated than the infinite particle-in-a-box problem as the wave function is not pinned to zero at the walls of the well", what_it_does: "", examples: "flash memory and scanning tunneling microscopy" },
+  solidstate_physics_and_materials_science: { definition: "Dependent upon quantum mechanics", what_it_does: "", examples: "magnetic resonance imaging and electron microscopy" },
+  string_theory: "How these strings propagate through space and interact with each other",
+  lqg: "An attempt to merge and adapt standard quantum mechanics and standard general relativity",
+  this_theory: "Space as an extremely fine fabric 'woven' of finite loops called spin networks",
+  the_characteristic_length_scale_of_a_spin_foam: { definition: "The Planck length , approximately 1.616×10 −35 m, and so lengths shorter than the Planck length are not physically meaningful in LQG", what_it_does: "", examples: "determinism and locality" },
+  the_evolution_of_a_physical_system: "Given at all times by the Schrödinger equation together with the guiding equation; there is never a collapse of the wave function",
+  exactly_how_this: "Supposed to work has been the subject of much debate",
+  one_important_discovery_in_that_regard: "Michael Faraday 's 1838 observation of a glow caused by an electrical discharge inside a glass tube containing gas at low pressure",
+  planck_cautiously_insisted_that_this: { definition: "Only an aspect of the processes of absorption and emission of radiation and was not the physical reality of the radiation", what_it_does: "", examples: "quantum chemistry, quantum electronics , quantum optics , and quantum information science" },
+
 };
 
 // ============================================================
