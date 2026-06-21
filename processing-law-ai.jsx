@@ -13483,6 +13483,34 @@ const FLAT_DICT = {
   the_reason: "That college gives people additional skills that can be used within their business and to operate on a higher level than someone who only 'runs' it",
   their_economic_value: { definition: "Generating activities or services through mobilization by entrepreneurs", what_it_does: "", examples: "both copyrights , trademarks and patents" },
 
+  // === INGESTED 2026-06-21 21:32 ===
+  a_startup_or_startup: "A company or project typically undertaken by an entrepreneur to seek, develop, and validate a scalable business model",
+  startups: { definition: "Typically characterized by an innovative stance, a potential for rapid growth, external funding, and vulnerability", what_it_does: "", examples: "one of the initial design principles is affordable loss" },
+  below: { definition: "Some of the most critical decision biases of entrepreneurs to start up a new business", what_it_does: "", examples: "an escalation of commitment, overconfidence, and the illusion of control" },
+  these_biases_can_subtly_shape_what: { definition: "Observed and how it is understood, potentially leading to solutions that reflect the designers' perspectives more than the users’", what_it_does: "", examples: "overconfidence, the hindsight bias , and anchoring" },
+  this_profile: "Set out to be more successful (in finding a business partner) in a market that does not have a dominant design (established standard)",
+  the_commercialization_process: "Often a bumpy road with iterations and new insights during the process",
+  when_a_relationship: "Failing for a startup it needs to make changes",
+  the_most_important_task_at_first: "To build something people want",
+  three_people: "Mainly required as co-founders to create a powerful team: the product person (e.g",
+  the_founder_that: "Responsible for the overall strategy of the startup plays the role of founder-CEOs, much like CEOs in established firms",
+  selfefficacy: "The confidence an individual has to create a new business or startup",
+  externally_they: "Expected to meet milestones of investors and other stakeholders to ensure continued resources from them on the startups",
+  sustaining_effort: { definition: "Required as the startup process can take a long period of time, by one estimate, three years or longer", what_it_does: "", examples: "startup founders in the 2010s wore hoodies , sneakers and other casual clothes to business meetings" },
+  startup_courses: "Found both in traditional economic or business disciplines as well as the side of information technology disciplines",
+  as_startups: "Often focused on software, they are also occasionally taught while focusing on software development alongside the business aspects of a startup",
+  the_size_and_maturity_of_the_startup_ecosystem: { definition: "Where a startup is launched and where it grows to have an effect on the volume and success of the startups", what_it_does: "", examples: "Stanford University , have created a startup ecosystem in California's Silicon Valley" },
+  not_all_startups_trying_to_raise_investments: "Successful in their fundraising",
+  venture_capital_is_the_money_of_invention_that: { definition: "Invested into young businesses which hold no historic background", what_it_does: "", examples: "more than 70 unicorns, and has created more than two million jobs" },
+  factoring: { definition: "Another option, though it is not unique to startups", what_it_does: "", examples: "startup studios" },
+  the_seed_round_generally_is_when_the_startup: "Still in the very early phase of execution when their product is still in the prototype phase",
+  these_three_rounds: { definition: "The ones leading towards the Initial Public Offering ( IPO )", what_it_does: "", examples: "shares offered by startup companies" },
+  the_idea_of_these_platforms: "To streamline the process and resolve the two main points that were taking place in the market",
+  the_first_problem: "For startups to be able to access capital and to decrease the amount of time that it takes to close a round of financing",
+  the_second_problem: "Intended to increase the amount of deal flow for the investor and to also centralize the process",
+  when_the_value_of_a_company: "Over US$10 billion, the company will be called as a decacorn",
+  when_the_company: { definition: "Valued over US$100 billion, hectocorn will be used", what_it_does: "", examples: "those created by start-ups, simple and technical solutions can be found to all kinds of problems" },
+
 };
 
 // ============================================================
