@@ -14866,6 +14866,21 @@ const FLAT_DICT = {
   mount_logan: "The largest non-volcanic mountain in base area (120 sq mi or 311 km 2 )",
   sea_level_closer_to_the_equator: "Several miles farther from the centre of the Earth",
 
+  // === INGESTED 2026-06-21 23:47 ===
+  rivers: { definition: "Regulated by the water cycle , the processes by which water moves around the Earth", what_it_does: "", examples: "the first human civilizations" },
+  rivers_and_river_ecosystems: "Threatened by water pollution , climate change , and human activity",
+  a_river: "A natural flow of freshwater that flows on or through land towards another body of water downhill",
+  a_river_that_feeds_into_another: { definition: "A tributary , and the place they meet is a confluence", what_it_does: "", examples: "rocks will erode the slopes on the sides of the river" },
+  the_flow: { definition: "Then directed against the opposite bank of the river, which will erode into a more concave shape to accommodate the flow", what_it_does: "", examples: "the size of the drainage basin (drainage area), and the length of the channel" },
+  the_land_that_interfaces_with_a_water_body: { definition: "That body's riparian zone", what_it_does: "", examples: "processing the nitrogen and other nutrients it contains" },
+  salmons: { definition: "Anadromous fish that may die in the river after spawning, contributing nutrients back to the river ecosystem", what_it_does: "nearby cities with a predictable supply of drinking water", examples: "the Mississippi River produced 400 million tons of sediment per year" },
+  new_dam_projects: "Primarily focused in China , India , and other areas in Asia",
+  rivers_also: { definition: "An important source of drinking water", what_it_does: "", examples: "those in the Pacific Northwest" },
+  since_the_flow_of_a_river: "Rarely static, the exact location of a river border may be called into question by countries",
+  the_tears_of_the_goddess_isis: { definition: "Said to be the cause of the river's yearly flooding, itself personified by the goddess Hapi", what_it_does: "", examples: "not being allowed to drink from them or ride in a boat along certain stretches" },
+  all_water_on_mars: "Part of permafrost ice caps, or trace amounts of water vapor in the atmosphere",
+  it_has_sedimentary_rock_that: "Formed 3.7 billion years ago, and lava fields that are 3.3 billion years old",
+
 };
 
 // ============================================================
