@@ -13407,6 +13407,28 @@ const FLAT_DICT = {
   when_nominal_interest_rates: { definition: "Near zero, central banks cannot loosen monetary policy through conventional means", what_it_does: "", examples: "quantitative easing to help stabilize output" },
   independent_central_banks: "Less likely to be subject to political pressure to pursue overly expansionary policies",
 
+  // === INGESTED 2026-06-21 21:25 ===
+  thus_the_firm: "Not 'faced with' any given price, and a more complicated model, e.g., a monopoly or oligopoly or differentiated-product model, should be used",
+  long_run: "A time period during which new firms enter or existing firms exit and all inputs can be adjusted fully to any price change",
+  longrun_supply_curves: { definition: "Flatter than short-run counterparts (with quantity more sensitive to price, more elastic supply)", what_it_does: "", examples: "income, tastes and preferences, and the prices of substitute and complementary goods" },
+  the_two_most_common_specifications: "Linear demand, e.g., the slanted line and the constant- elasticity demand function (also called isoelastic or log-log or loglinear demand function), e",
+  the_demand_schedule: "Defined as the willingness and ability of a consumer to purchase a given product at a certain time",
+  the_demand_curve: "Generally downward-sloping, but for some goods it is upward-sloping",
+  the_market_demand_curve: "Obtained by adding the quantities from the individual demand curves at each price",
+  demand_curves: "First drawn by Augustin Cournot in his Recherches sur les Principes Mathématiques de la Théorie des Richesses (1838) – see Cournot competition",
+  supply_curves: "Added by Fleeming Jenkin in The Graphical Representation of the Laws of Supply and Demand",
+  the_analysis_of_various_equilibria: "A fundamental aspect of microeconomics",
+  a_situation_in_a_market_when_the_price: "Such that the quantity demanded by consumers is correctly balanced by the quantity that firms wish to supply",
+  the_quantity_demanded_at_each_price: "The same as before the supply shift, reflecting the fact that the demand curve has not shifted",
+  here_the_dynamic_process: "That prices adjust until supply equals demand",
+  hence_this_analysis: "Considered to be useful in constricted markets",
+  the_suppliers: "Individuals, who try to sell their labor for the highest price",
+  the_demanders_of_labor: "Businesses, which try to buy the type of labor they need at the lowest price",
+  the_parameter_identification_problem: { definition: "A common issue in 'structural estimation", what_it_does: "", examples: "the quantity of total output and the aggregate price level" },
+  the_use_of_the_phrase: "Still rare and only a few examples of more than 20 uses in a single work have been identified by the end of the second decade of the 19th century",
+  the_main_innovators_of_this_approach: "Stanley Jevons , Carl Menger , and Léon Walras",
+  the_key_idea_was_that_the_price: { definition: "Set by the subjective value of a good at the margin", what_it_does: "", examples: "comparative statics from a shift of supply or demand and application to the labor market" },
+
 };
 
 // ============================================================
