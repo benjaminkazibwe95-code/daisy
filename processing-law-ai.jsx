@@ -11612,6 +11612,35 @@ const FLAT_DICT = {
   an_example_of_the_use_of_calculus_in_mechanics: "Newton's second law of motion , which states that the derivative of an object's momentum concerning time equals the net force upon it",
   starting_from_knowing_how_an_object: { definition: "Accelerating, we use calculus to derive its path", what_it_does: "", examples: "in determining reaction rates [ 71 ] : 599 and in studying radioactive decay" },
 
+  // === INGESTED 2026-06-21 14:30 ===
+  rejecting_or_disproving_the_null_hypothesis: "Done using statistical tests that quantify the sense in which the null can be proven false, given the data that are used in the test",
+  many_of_these_errors: "Classified as random (noise) or systematic ( bias ), but other types of errors (e.g",
+  although_probability_and_statistics: "Once paired together as a single subject, they are conceptually distinct from one another",
+  sampling_theory: "Part of the mathematical discipline of probability theory",
+  the_use_of_any_statistical_method: "Valid only when the system or population under consideration satisfies the assumptions of the method",
+  the_researchers: "Interested in determining whether increased illumination would increase the productivity of the assembly line workers",
+  the_hawthorne_effect: "Finding that an outcome (in this case, worker productivity) changed due to observation itself",
+  whether_a_transformation: { definition: "Sensible to contemplate depends on the question one is trying to answer", what_it_does: "", examples: "by testing hypotheses and deriving estimates" },
+  it_is_assumed_that_the_observed_data_set: "Sampled from a larger population",
+  descriptive_statistics: "Solely concerned with properties of the observed data, and it does not rest on the assumption that the data come from a larger population",
+  a_statistic_is_a_random_variable_that: "A function of the random sample, but not a function of unknown parameters",
+  the_best_illustration_for_a_novice: "The predicament encountered by a criminal trial",
+  a_statistical_error: "The amount by which an observation differs from its expected value",
+  a_residual: "The amount an observation differs from the value the estimator of the expected value assumes on a given sample (also called prediction)",
+  mean_squared_error: "Used for obtaining efficient estimators , a widely used class of estimators",
+  root_mean_square_error: "Simply the square root of mean squared error",
+  residual_sum_of_squares: "Also differentiable , which provides a handy property for doing regression",
+  least_squares_applied_to_linear_regression: "Called ordinary least squares method and least squares applied to nonlinear regression is called non-linear least squares",
+  often_they: "Expressed as 95% confidence intervals",
+  either_the_true_value_is_or: "Not within the given interval",
+  sometimes_the_bounds_of_a_confidence_interval: "Reached asymptotically, and these are used to approximate the true bounds",
+  a_critical_region: "The set of values of the estimator that leads to refuting the null hypothesis",
+  the_statistical_power_of_a_test: "The probability that it correctly rejects the null hypothesis when the null hypothesis is false",
+  mathematical_statistics: { definition: "The application of mathematics to statistics", what_it_does: "", examples: "Gerolamo Cardano , Blaise Pascal , Pierre de Fermat , and Christiaan Huygens" },
+  machine_learning_models: "Statistical and probabilistic models that capture patterns in the data through use of computational algorithms",
+  even_when_statistical_techniques: "Correctly applied, the results can be difficult to interpret for those lacking expertise",
+  the_two_variables: "Said to be correlated; however, they may or may not be the cause of one another",
+
 };
 
 // ============================================================
