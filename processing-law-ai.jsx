@@ -14743,6 +14743,37 @@ const FLAT_DICT = {
   do_not_imagine_that_there: { definition: "Any bird more easily caught by decoy, nor any fish sooner fixed on the hook by wormy bait, than are all these poor fools neatly tricked into servitude", what_it_does: "", examples: "many football players, fans and referees'" },
   the_ancient_olympic_games: "Held in honour of the head deity, Zeus , and featured various forms of religious dedication to him and other gods",
 
+  // === INGESTED 2026-06-21 23:37 ===
+  the_ioc: "Only concerned with issues of citizenship and nationality after individual nations have granted citizenship to athletes",
+  this_cessation_of_hostilities: "Known as the Olympic peace or truce",
+  the_games: "Attended by 25,000 spectators at most",
+  the_first_such_event: "The Cotswold Games or 'Cotswold Olimpick Games', an annual meeting near Chipping Campden , England, involving various sports",
+  this_meeting: "Held from 16 to 23 June 1894, at the University of Paris",
+  this_trust: "Used to help finance the 1896 Games",
+  the_youth_olympic_games: { definition: "Conceived by IOC president Jacques Rogge in 2001 and approved during the 119th Congress of the IOC", what_it_does: "", examples: "mixed NOC and mixed gender teams as well as a reduced number of disciplines and events" },
+  most_of_the_athletes_and_officials: "Housed in the Olympic Village for the duration of the Games",
+  the_most_expensive_summer_games: "Beijing 2008 at US$40‍–‍44 billion, [ 72 ] and the most expensive Winter Games were Sochi 2014 at US$51 billion",
+  both_of_the_bids: "Praised for their high-tech plans and innovative ways of using a record-breaking number of existing and temporary facilities",
+  the_other_language_used_at_each_olympic_games: "The language of the host country (or languages, if a country has more than one official language apart from French or English)",
+  the_precise_figures: { definition: "Unknown since Nagano destroyed the financial records after the IOC requested that the entertainment expenditures should not be made public", what_it_does: "", examples: "the 2032 Games" },
+  the_argument: "That the Games have become indistinguishable from any other commercialised sporting spectacle",
+  the_motto: "Coined by Coubertin's friend, the Dominican priest Henri Didon OP, for a Paris youth gathering of 1891",
+  the_essential_thing: "Not to have conquered but to have fought well",
+  the_mascot_of_the_summer_olympics_in_london: "Named Wenlock after the town of Much Wenlock in Shropshire",
+  this_ceremony_takes_place_on_a_friday_and: "Held prior to the commencement of the sporting events (apart from some group-stage football matches, softball games, and rowing heats)",
+  greece: { definition: "Traditionally the first nation to enter and leads the parade in order to honour the origins of the Olympics", what_it_does: "", examples: "wrestling is a Summer Olympic sport, comprising two disciplines: Greco-Roman and Freestyle" },
+  some_sports_that: "Featured in earlier Games were later dropped from the programme",
+  his_medals: "Posthumously restored by the IOC in 1983 after a ruling found that the decision to strip him of his medals fell outside of the required 30-day period",
+  the_soviet_union_entered_teams_of_athletes_who: "All nominally students, soldiers, or working in a profession, but in reality they were all paid by the state to train on a full-time basis",
+  the_action: "Čáslavská's silent protest against the recent Soviet invasion of Czechoslovakia",
+  portugalov: "Also one of the main figures involved in the implementation of the Russian doping programme prior to the 2016 Summer Olympics",
+  both_urine_and_blood_tests: { definition: "Used to detect banned substances", what_it_does: "", examples: "summer, winter, and Paralympic sports, benefited from a cover-up" },
+  both_athletes: "From Dubai's ruling family",
+  bush_and_russian_prime_minister_vladimir_putin: { definition: "Attending the Olympics at that time and spoke together about the conflict at a luncheon hosted by the Chinese president Hu Jintao", what_it_does: "", examples: "the 1991 bombing in the Catalonian city of Vic that killed ten people" },
+  the_bomb: { definition: "Set by Eric Rudolph , who is serving a life sentence for the bombing", what_it_does: "", examples: "the flag that flew at Ground Zero and honour guards of NYPD and FDNY members" },
+  the_current_threemedal_format: "Introduced at the 1904 Olympics",
+  each_city: "Thoroughly analysed by an evaluation commission",
+
 };
 
 // ============================================================
