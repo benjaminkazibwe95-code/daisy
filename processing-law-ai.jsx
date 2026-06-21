@@ -11119,6 +11119,33 @@ const FLAT_DICT = {
   when_blue_and_red: "Combined, the output was much more substantial",
   the_former: "Known as PSII, the latter is PSI",
 
+  // === INGESTED 2026-06-21 13:54 ===
+  the_science_of_ecology_as_it: "Known today began with a group of American botanists in the 1890s",
+  ecosystems: "Dynamically interacting systems of organisms, the communities they make up, and the non-living ( abiotic ) components of their environment",
+  a_single_tree: "Of little consequence to the classification of a forest ecosystem, but is critically relevant to organisms living in and on it",
+  natural_capital_that_supports_populations: "Critical for maintaining ecosystem services [ 18 ] [ 19 ] and species migration (e.g",
+  the_fundamental_niche: "The set of environmental conditions under which a species is able to persist",
+  the_realized_niche: { definition: "The set of environmental plus ecological conditions under which a species persists", what_it_does: "", examples: "decaying logs or silica skeleton deposits from marine organisms" },
+  an_example_of_an_introductory_population_model: "A closed population, such as on an island, where immigration and emigration does not take place",
+  hypotheses: { definition: "Evaluated with reference to a null hypothesis which states that random processes create the observed data", what_it_does: "", examples: "matrix algebra" },
+  the_information: "Used for managing wildlife stocks and setting harvest quotas",
+  animal_migration: "Set apart from other kinds of movement because it involves the seasonal departure and return of individuals from a habitat",
+  community_ecology: "The study of the interactions among a collection of species that inhabit the same geographic area",
+  ecosystem_ecology: { definition: "The science of determining the fluxes of materials (e.g", what_it_does: "", examples: "tree biomass, soil organic material)" },
+  food_webs: "A type of concept map used to illustrate and study pathways of energy and material flows",
+  autotrophs: "Organisms that produce their own food (production is greater than respiration) by photosynthesis or chemosynthesis",
+  heterotrophs: { definition: "Organisms that must feed on others for nourishment and energy (respiration exceeds production)", what_it_does: "", examples: "transitional areas or ecotones spanning landscapes" },
+  ethology: "The study of observable movement or behaviour in animals",
+  behaviours_can_evolve_by: "Of natural selection as adaptive traits conferring functional utilities that increases reproductive fitness",
+  a_host: { definition: "Any entity that harbours another that is called the associate", what_it_does: "", examples: "migration and dispersal" },
+  the_splitting_of_lineages_in_a_species: "Called vicariance biogeography and it is a sub-discipline of biogeography",
+  its_premise: { definition: "That natural selection varies with population density", what_it_does: "", examples: "when an island is first colonized, density of individuals is low" },
+  the_initial_increase_in_population_size: { definition: "Not limited by competition, leaving an abundance of available resources for rapid population growth", what_it_does: "", examples: "the polymerase chain reaction (PCR)" },
+  the_earth: "Formed approximately 4.5 billion years ago",
+  the_history: { definition: "Characterized by periods of significant transformation followed by millions of years of stability", what_it_does: "", examples: "2H 2 S + CO 2 + h v → CH 2 O + H 2 O + 2S)" },
+  diffusion_of_carbon_dioxide_and_oxygen: { definition: "Approximately 10,000 times slower in water than in air", what_it_does: "", examples: "height, size, shape), their behaviour (e.g., diving, running, flying), and the habitat occupied (e.g" },
+  soil_microorganisms_are_influenced_by_and: { definition: "Fed back into the trophic dynamics of the ecosystem", what_it_does: "", examples: "minerals, soil, pH, ions, water, and atmospheric gases" },
+
 };
 
 // ============================================================
