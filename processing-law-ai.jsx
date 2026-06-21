@@ -11402,6 +11402,21 @@ const FLAT_DICT = {
   the_total_baryonic_mass: "About 10% of the mass of the galaxy; [ 115 ] the remainder of the mass is an unknown dark matter",
   electrons: "Thought to exist in the Universe since early stages of the Big Bang",
 
+  // === INGESTED 2026-06-21 14:13 ===
+  the_word: "Derived from French molécule (1678), from Neo-Latin molecula , diminutive of Latin moles 'mass, barrier'",
+  earlier_definitions: { definition: "Less precise, defining molecules as the smallest particles of pure chemical substances that still retain their composition and chemical properties", what_it_does: "", examples: "Leucippus and Democritus who argued that all the universe is composed of atoms and voids" },
+  the_term_unstable_molecule: "Used for very reactive species, i.e",
+  the_nutrient_minerals: "Generally ionic compounds, thus they are not molecules, e.g",
+  thus_solid_metals: "Not made of molecules",
+  molecules: "Generally held together by covalent bonding",
+  most_molecules: "Far too small to be seen with the naked eye, although molecules of many polymers can reach macroscopic sizes, including biopolymers such as DNA",
+  some_of_the_largest_molecules: "Macromolecules or supermolecules",
+  the_smallest_molecule: { definition: "The diatomic hydrogen (H 2 ), with a bond length of 0.74 Å", what_it_does: "", examples: "parentheses, dashes, brackets, and plus (+) and minus (−) signs" },
+  the_empirical_formula: "Often the same as the molecular formula but not always",
+  a_pure_substance: { definition: "Composed of molecules with the same average geometrical structure", what_it_does: "", examples: "stretching, bending or twisting motions" },
+  the_simplest_of_molecules: "The hydrogen molecule-ion , H 2 + , and the simplest of all the chemical bonds is the one-electron bond",
+  whether_or_not_an_arrangement_of_atoms: "Sufficiently stable to be considered a molecule is inherently an operational definition",
+
 };
 
 // ============================================================
