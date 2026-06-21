@@ -12258,6 +12258,19 @@ const FLAT_DICT = {
   hygiene_factors: { definition: "Associated with the work environment and conditions", what_it_does: "", examples: "company policies, supervision, salary, and job security" },
   motivators: "More directly related to work itself",
 
+  // === INGESTED 2026-06-21 15:18 ===
+  neuroscience: "The scientific study of the nervous system (the brain , spinal cord , and peripheral nervous system ), its functions, and its disorders",
+  it_was_believed_at_the_time_that_the_heart: "The seat of intelligence",
+  the_view_that_the_heart: "The source of consciousness was not challenged until the time of the Greek physician Hippocrates",
+  he_believed_that_the_brain: "Not only involved with sensation—since most specialized organs (e.g",
+  his_technique: "Used by Santiago Ramón y Cajal and led to the formation of the neuron doctrine , the hypothesis that the functional unit of the brain is the neuron",
+  analysis_of_the_nervous_system: { definition: "Therefore performed at multiple levels, ranging from the molecular and cellular levels to the systems and cognitive levels", what_it_does: "", examples: "that the human and mouse brain have different versions of fundamentally the same cell types" },
+  these_questions_include_how_signals: "Processed by neurites and somas and how neurotransmitters and electrical signals are used to process information in a neuron",
+  somas: { definition: "The cell bodies of the neurons and contain the nucleus", what_it_does: "", examples: "neuroimaging (e.g" },
+  computational_neuroscience: { definition: "Often referred to as theoretical neuroscience", what_it_does: "", examples: "amyotrophic lateral sclerosis (ALS) and stroke , and their medical treatment" },
+  such_platforms: { definition: "Developed by academic groups as well as industry partners, including systems produced by g.tec medical engineering GmbH", what_it_does: "", examples: "policy or nonprofit work" },
+  neuromorphic_engineering: "A branch of neuroscience that deals with creating functional physical models of neurons for the purposes of useful computation",
+
 };
 
 // ============================================================
