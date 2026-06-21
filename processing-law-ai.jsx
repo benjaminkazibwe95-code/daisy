@@ -12271,6 +12271,38 @@ const FLAT_DICT = {
   such_platforms: { definition: "Developed by academic groups as well as industry partners, including systems produced by g.tec medical engineering GmbH", what_it_does: "", examples: "policy or nonprofit work" },
   neuromorphic_engineering: "A branch of neuroscience that deals with creating functional physical models of neurons for the purposes of useful computation",
 
+  // === INGESTED 2026-06-21 15:20 ===
+  nerves_that_transmit_signals_from_the_brain: "Called motor nerves (efferent), while those nerves that transmit information from the body to the CNS are called sensory nerves (afferent)",
+  the_pns: { definition: "Divided into somatic and visceral parts", what_it_does: "", examples: "hearing) as part of the PNS; others, however, omit them" },
+  the_autonomic_nervous_system: "Further subdivided into the sympathetic , parasympathetic and enteric nervous systems",
+  the_sympathetic_nervous_system: "Activated in cases of emergencies to mobilize energy, while the parasympathetic nervous system is activated when organisms are in a relaxed state",
+  nerves_that_exit_from_the_brain: { definition: "Called cranial nerves while those exiting from the spinal cord are called spinal nerves", what_it_does: "", examples: "multiple sclerosis and amyotrophic lateral sclerosis" },
+  equally_surprising: { definition: "The fact that the concept of chemical transmission in the brain was not known until around 1930 ( Henry Hallett Dale and Otto Loewi )", what_it_does: "", examples: "slime molds have cell-to-cell signalling mechanisms that are precursors to those of neurons" },
+  the_nervous_system: { definition: "Defined by the presence of a special type of cell—the neuron (sometimes called 'neurone' or 'nerve cell')", what_it_does: "", examples: "microglia and astrocytes, serve as important resident immune cells within the central nervous system" },
+  white_matter: "Composed mainly of myelinated axons, and takes its color from the myelin",
+  gray_matter: { definition: "Found in clusters of neurons in the brain and spinal cord, and in cortical layers that line their surfaces", what_it_does: "", examples: "the part of the forebrain called the basal ganglia" },
+  in_most_jellyfish_the_nerve_net: "Spread more or less evenly across the body; in comb jellies it is concentrated near the mouth",
+  in_some_cases_groups_of_intermediate_neurons: "Clustered into discrete ganglia",
+  all_bilateria: { definition: "Thought to have descended from a common wormlike ancestor that appear as fossils beginning in the Ediacaran period, 550–600 million years ago", what_it_does: "", examples: "humans, show the segmented bilaterian body plan at the level of the nervous system" },
+  these_nerve_cords: { definition: "Connected by transverse nerves like the rungs of a ladder", what_it_does: "", examples: "its synapses" },
+  immediately_behind_the_brain: { definition: "The subesophageal ganglion , which is composed of three pairs of fused ganglia", what_it_does: "", examples: "compound eyes for vision and antennae for olfaction and pheromone sensation" },
+  the_sensory_information_from_these_organs: "Processed by the brain",
+  the_ganglia_above_the_gut: "The cerebral, the pleural, and the visceral, which are located above the esophagus (gullet)",
+  one_notable_consequence_of_this_fact: "That the form of the C",
+  elegans_nervous_system: "Completely specified by the genome , with no experience-dependent plasticity",
+  functionally_this: "A fast escape response, triggered most easily by a strong sound wave or pressure wave impinging on the lateral line organ of the fish",
+  mauthner_cells: "Not the only identified neurons in fish—there are about 20 more types, including pairs of 'Mauthner cell analogs' in each spinal segmental nucleus",
+  a_command_neuron: "A special type of identified neuron, defined as a neuron that is capable of driving a specific behavior individually",
+  both_the_presynaptic_and_postsynaptic_areas: "Full of molecular machinery that carries out the signalling process",
+  when_a_chemically_gated_ion_channel: "Activated, it forms a passage that allows specific types of ions to flow across the membrane",
+  one_very_important_subset_of_synapses: { definition: "Capable of forming memory traces by means of long-lasting activity-dependent changes in synaptic strength", what_it_does: "", examples: "language were not capable of being explained mechanistically" },
+  one_target: { definition: "A set of spinal interneurons that project to motor neurons controlling the arm muscles", what_it_does: "", examples: "the retina" },
+  the_circadian_clock: "Influenced by light but continues to operate even when light levels are held constant and no other external time-of-day cues are available",
+  a_mirror_neuron: "A neuron that fires both when an animal acts and when the animal observes the same action performed by another",
+  it_appears_that_a_similar_molecular_mechanism: "Involved for widely disparate types of animals, including arthropods as well as vertebrates",
+  the_central_nervous_system: "Protected by major physical and chemical barriers",
+  if_a_nerve: { definition: "Completely transected, it will often regenerate , but for long nerves this process may take months to complete", what_it_does: "", examples: "leprosy or shingles , or poisoning by toxins such as heavy metals" },
+
 };
 
 // ============================================================
