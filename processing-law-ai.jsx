@@ -13901,6 +13901,36 @@ const FLAT_DICT = {
   the_main_focus_in_anthropology: { definition: "On empirical observations of how people ascribe truth values to meaning contents, like when affirming an assertion, even if these contents are false", what_it_does: "", examples: "feelings, embodied skills, information, and concepts" },
   they_are_interested_in_how_this_reproduction: { definition: "Affected by external influences", what_it_does: "", examples: "the expectations they have toward the person" },
 
+  // === INGESTED 2026-06-21 22:11 ===
+  cleisthenes: "Referred to as 'the father of Athenian democracy '",
+  owning_land: "Not a requirement for citizenship",
+  the_spartan_ecclesia: { definition: "An assembly of the people, held once a month, in which every male citizen of at least 20 years of age could participate", what_it_does: "", examples: "members of the Senate , came from a few wealthy and noble families" },
+  these_deliberative_bodies: { definition: "Responsible for settling political questions, and variants included the Althing in Iceland and the Løgting in the Faeroe Islands", what_it_does: "", examples: "artisans, [ 84 ] as well as the presence of nobility and religious elites" },
+  thomas_hobbes: "The first philosopher to articulate a detailed social contract theory",
+  particularly_important_for_locke: "Property rights, whose protection Locke deemed to be a government's primary purpose",
+  universal_male_suffrage: { definition: "Established in France in March 1848 in the wake of the French Revolution of 1848", what_it_does: "", examples: "the Soviet sector of Germany fell into the non-democratic Soviet-dominated bloc" },
+  the_war: "Followed by decolonisation , and again most of the new independent states had nominally democratic constitutions",
+  the_most_successful_of_the_new_democracies: { definition: "Those geographically and culturally closest to western Europe, and they are now either part of the European Union or candidate states", what_it_does: "", examples: "Brazil, Austria, Cuba, and Nicaragua" },
+  he_also_thought_that_there: { definition: "A good and a bad variant of each system (he considered democracy to be the degenerate counterpart to timocracy)", what_it_does: "", examples: "poverty prevents political participation" },
+  the_swiss_confederation: { definition: "A semi-direct democracy", what_it_does: "", examples: "referendums" },
+  presidential_democracy: { definition: "A system where the public elects the president through an election", what_it_does: "", examples: "the United Kingdom, have been referred to as crowned republics by writers such as H" },
+  the_technique: "In widespread use in Athenian Democracy and Renaissance Florence [ 232 ] and is still used in modern jury selection and citizens' assemblies",
+  the_guiding_philosophy: "That people should have decision-making power in proportion to how much they are affected by the decision",
+  delegates: "Recallable at any time",
+  referendums: "Possible at any time via votes of lower-level councils, however, not everything is a referendum as this is most likely a waste of time",
+  a_parpolity: { definition: "Meant to work in tandem with a participatory economy", what_it_does: "", examples: "regular elections based on universal suffrage , that produce an electorally-legitimated government" },
+  creative_democracy: "Advocated by American philosopher John Dewey",
+  the_main_idea_about_creative_democracy: { definition: "That democracy encourages individual capacity building and the interaction among the society", what_it_does: "", examples: "human rights , deliberation , economic outcomes or state capacity" },
+  most_trade_unions_and_cooperatives: "Governed by democratic elections",
+  corporations: { definition: "Ultimately governed by their shareholders through shareholder democracy", what_it_does: "", examples: "workplace democracy to handle internal governance" },
+  domestic_military_coups_or_rebellions: "The most common means by which democratic governments have been overthrown",
+  some_military_coups: "Supported by foreign governments, such as the 1954 Guatemalan coup d'état and the 1953 Iranian coup d'état",
+  a_famous_example: "The Enabling Act of 1933 , which lawfully ended democracy in Weimar Germany and marked the transition to Nazi Germany",
+  election_campaigns: "Covered more as horse races and less as debates about ideologies and issues",
+  the_political_communication: "Characterized by short time horizons, short slogans, simple explanations, and simple solutions",
+  too_much_controversy_and_diverse_opinions: "Not always profitable for the commercial news media",
+  public_service_broadcasters: "Characterized by more policy-relevant information and more respect for journalistic norms and impartiality than the commercial media",
+
 };
 
 // ============================================================
