@@ -13695,6 +13695,17 @@ const FLAT_DICT = {
   firms_that_experienced_a_civil_war: { definition: "More sensitive to the quality of the legal system than similar firms that had never been exposed to conflict", what_it_does: "", examples: "private and institutional fraud, in some countries)" },
   one_measure_used: "The Genuine Progress Indicator , which relates strongly to theories of distributive justice",
 
+  // === INGESTED 2026-06-21 21:54 ===
+  equitable_health_access: "A pillar of social sustainability",
+  some_scholars_say_it: "An oxymoron because according to them, development is inherently unsustainable",
+  other_commentators: "Disappointed in the lack of progress that has been achieved so far",
+  scholars_note_that_sustainable_development: { definition: "Understood in many different ways", what_it_does: "", examples: "in the areas of poverty reduction , environmental protection , human prosperity and peace" },
+  the_idea: "That a good balance between the three dimensions should be achieved",
+  several_terms: "In use for this concept",
+  the_concept_of_sustainable_development: { definition: "Intertwined with the concept of carrying capacity", what_it_does: "", examples: "sustainable agriculture , organic farming and more sustainable business practices" },
+  this_means_it: "Possible to overcome them",
+  policies_to_achieve_the_sdgs: "Meant to cohere around this concept",
+
 };
 
 // ============================================================
