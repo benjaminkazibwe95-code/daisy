@@ -13931,6 +13931,18 @@ const FLAT_DICT = {
   too_much_controversy_and_diverse_opinions: "Not always profitable for the commercial news media",
   public_service_broadcasters: "Characterized by more policy-relevant information and more respect for journalistic norms and impartiality than the commercial media",
 
+  // === INGESTED 2026-06-21 22:13 ===
+  government_is_a: "By which organizational policies are enforced, as well as a mechanism for determining policy",
+  these_forms: "Not always mutually exclusive, and mixed governments are common",
+  a_government: { definition: "The system to govern a state or community", what_it_does: "", examples: "state and provincial governments as well as local governments" },
+  the_soviet_union: "The first large country to have a Communist government",
+  the_united_states: { definition: "A federal constitutional republic, while the former Soviet Union was a federal socialist republic", what_it_does: "", examples: "Voltaire argued that 'the Holy Roman Empire is neither Holy, nor Roman, nor an Empire'" },
+  most_absolute_monarchies: { definition: "Hereditary , however some, notably the Holy See , are elected by an electoral college (such as the college of cardinals , or prince-electors )", what_it_does: "", examples: "a hereditary nobility or privileged caste" },
+  many_monarchies: { definition: "Aristocracies, although in modern constitutional monarchies, the monarch may have little effective power", what_it_does: "", examples: "a legislature or jury" },
+  federalism: { definition: "A political concept in which a group of members are bound together by covenant with a governing representative head", what_it_does: "", examples: "an independent electoral commission or auditory branch" },
+  a_coalition_government: "One in which multiple parties cooperate to form a government as part of a coalition agreement",
+  more_than_half_of_the_nations_in_the_world: { definition: "Democracies—97 of 167, as of 2021", what_it_does: "", examples: "water services might only be available to the wealthy middle class" },
+
 };
 
 // ============================================================
