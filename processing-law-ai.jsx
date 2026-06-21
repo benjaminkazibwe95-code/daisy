@@ -14581,6 +14581,23 @@ const FLAT_DICT = {
   the_urgent: "Not important, and the important are never urgent",
   tasks_in_the_quadrants: "Then handled as follows",
 
+  // === INGESTED 2026-06-21 23:18 ===
+  the_next_step: "To generate possible solutions and evaluate them",
+  finally_a_solution: { definition: "Selected to be implemented and verified", what_it_does: "", examples: "introspection , behaviorism , simulation , computer modeling , and experiment" },
+  one_such_component: { definition: "The emotional valence of 'real-world' problems, which can either impede or aid problem-solving performance", what_it_does: "", examples: "fatigue, depression, and inertia" },
+  effectiveness_in_this_context: "An evaluation of results: to what extent the end states were accomplished",
+  once_a_solution: "Achieved, another problem usually arises, and the cycle starts again",
+  solutions_found_through_insight: "Often more incisive than those from step-by-step analysis",
+  rigidly_clinging_to_a_mental_set: "Called fixation , which can deepen to an obsession or preoccupation with attempted strategies that are repeatedly unsuccessful",
+  functional_fixedness: "A specific form of mental set, and is one of the most common forms of cognitive bias in daily life",
+  unnecessary_constraints: { definition: "Arbitrary boundaries imposed unconsciously on the task at hand, which foreclose a productive avenue of solution", what_it_does: "", examples: "'Fifteen percent of the people in Topeka have unlisted telephone numbers" },
+  the_sequence_ottff: "The first letters of the numbers: one, two, three, four, five",
+  the_next_five_elements_of_the_series: "SSENT (six, seven, eight, nine, ten)",
+  he_believed_this: { definition: "His process in formulating the theory of relativity: 'The creator of the problem possesses the solution", what_it_does: "", examples: "physics, writing, or chess playing—rather than attempt to extract a global theory of problem solving" },
+  in_sps_there: { definition: "A singular and simple obstacle", what_it_does: "", examples: "a surgeon at work has far more complex problems than an individual deciding what shoes to wear" },
+  collective_problem_solving: "Problem solving performed collectively",
+  the_knowledge_shared_during_these_interactions: { definition: "Acquired during communication, negotiation, and production of materials", what_it_does: "", examples: "planetary-scale) problem solving" },
+
 };
 
 // ============================================================
