@@ -12055,6 +12055,38 @@ const FLAT_DICT = {
   a_particular_quality_of_viruses: { definition: "That they can be tailored by directed evolution", what_it_does: "", examples: "the work at the Naval Research Laboratory in Washington, D.C" },
   this_technology: "Now being used to investigate novel vaccine strategies",
 
+  // === INGESTED 2026-06-21 15:02 ===
+  the_study_of_bacteria: "Known as bacteriology , a branch of microbiology",
+  most_of_the_bacteria_in_and_on_the_body: { definition: "Harmless or rendered so by the protective effects of the immune system , and many are beneficial , [ 9 ] particularly the ones in the gut", what_it_does: "", examples: "cholera , syphilis , anthrax , leprosy , tuberculosis , tetanus and bubonic plague" },
+  the_most_common_fatal_bacterial_diseases: "Respiratory infections",
+  antibiotics: "Used to treat bacterial infections and are also used in farming, making antibiotic resistance a growing problem",
+  these_evolutionary_domains: { definition: "Called Bacteria and Archaea", what_it_does: "", examples: "a different 16S rRNA" },
+  coli: { definition: "Probably the best-studied bacterium, a quarter of its 4000 genes are poorly studied or remain uncharacterized", what_it_does: "", examples: "hydrogen sulphide and methane , to energy" },
+  bacterial_cells: { definition: "About one-tenth the size of eukaryotic cells and are typically 0.5–5.0 micrometres in length", what_it_does: "", examples: "Thiomargarita namibiensis is up to half a millimetre long, [ 51 ] Epulopiscium fishelsoni reaches 0" },
+  bacterial_cell_walls: { definition: "Made of peptidoglycan (also called murein), which is made from polysaccharide chains cross-linked by peptides containing D- amino acids", what_it_does: "", examples: "Haemophilus influenzae or Pseudomonas aeruginosa" },
+  slayers_have_diverse_functions_and: "Known to act as virulence factors in Campylobacter species and contain surface enzymes in Bacillus stearothermophilus",
+  flagella: { definition: "Driven by the energy released by the transfer of ions down an electrochemical gradient across the cell membrane", what_it_does: "", examples: "macrophages (part of the human immune system )" },
+  many_types_of_secretion_systems: "Known and these structures are often essential for the virulence of pathogens, so are intensively studied",
+  chemotrophs: { definition: "Further divided by the types of compounds they use to transfer electrons", what_it_does: "", examples: "nitrate , sulfate , or carbon dioxide" },
+  budding: { definition: "A cell forming a protrusion that breaks away and produces a daughter cell", what_it_does: "", examples: "agar plates , are used to isolate pure cultures of a bacterial strain" },
+  the_first_phase_of_growth: "The lag phase , a period of slow growth when the cells are adapting to the high-nutrient environment and preparing for fast growth",
+  the_log_phase: "Marked by rapid exponential growth",
+  the_rate_at_which_cells_grow_during_this_phase: "Known as the growth rate ( k ), and the time it takes the cells to double is known as the generation time ( g )",
+  the_third_phase_of_growth: { definition: "The stationary phase and is caused by depleted nutrients", what_it_does: "", examples: "species of Vibrio contain more than one chromosome" },
+  the_genes_in_bacterial_genomes: { definition: "Usually a single continuous stretch of DNA", what_it_does: "", examples: "the transfer of antibiotic resistance" },
+  the_best_studied_of_these: { definition: "Flagella , long filaments that are turned by a motor at the base to generate propeller-like movement", what_it_does: "", examples: "excreting digestive enzymes or emitting light" },
+  this_uncertainty: { definition: "Due to the lack of distinctive structures in most bacteria, as well as lateral gene transfer between unrelated species", what_it_does: "", examples: "the rRNA gene" },
+  specimens_that: "Normally sterile, such as blood , urine or spinal fluid , are cultured under conditions designed to grow all possible organisms",
+  escherichia_coli: { definition: "A commensal in the human gut but can cause urinary tract infections", what_it_does: "", examples: "Myxococcus xanthus , which forms swarms of cells that kill and digest any bacteria they encounter" },
+  many_other_bacteria: "Found as symbionts in humans and other organisms",
+  surgical_and_dental_instruments: "Also sterilised to prevent contamination by bacteria",
+  disinfectants_such_as_bleach: { definition: "Used to kill bacteria or other pathogens on surfaces to prevent contamination and further reduce the risk of infection", what_it_does: "", examples: "cheese , pickles , soy sauce , sauerkraut , vinegar , wine , and yogurt" },
+  these_efforts_were_effective_on_beaches_that: "Not too thickly covered in oil",
+  this_commonly: "Bacillus thuringiensis (also called BT), a Gram-positive, soil-dwelling bacterium",
+  subspecies_of_this_bacteria: { definition: "Used as Lepidopteran -specific insecticides under trade names such as Dipel and Thuricide", what_it_does: "", examples: "insulin , growth factors , or antibodies" },
+  his_ideas: "Rejected and his book on the topic condemned by the medical community",
+  cohn: "The first to classify bacteria based on their morphology",
+
 };
 
 // ============================================================
