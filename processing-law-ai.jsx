@@ -12526,6 +12526,9 @@ const FLAT_DICT = {
   the_leaders: { definition: "Expected to focus on preserving and promoting cultural values to support their communities", what_it_does: "", examples: "the Movement for the Liberation of Congo and some factions of the Rally for Congolese Democracy" },
   polling_day: "Declared a national holiday",
 
+  // === INGESTED 2026-06-21 20:00 ===
+  the_cost_of_the_development: { definition: "Budgeted at about US$4 billion", what_it_does: "", examples: "coffee or tea" },
+
 };
 
 // ============================================================
