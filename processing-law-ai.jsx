@@ -11641,6 +11641,34 @@ const FLAT_DICT = {
   even_when_statistical_techniques: "Correctly applied, the results can be difficult to interpret for those lacking expertise",
   the_two_variables: "Said to be correlated; however, they may or may not be the cause of one another",
 
+  // === INGESTED 2026-06-21 14:32 ===
+  number_theory: { definition: "The branch of mathematics that studies integers and their properties and relations", what_it_does: "", examples: "rational numbers ), or defined as generalizations of the integers (for example, algebraic integers )" },
+  one_quirk_of_number_theory: { definition: "That it deals with statements that are simple to understand but are very difficult to solve", what_it_does: "", examples: "the RSA cryptosystem" },
+  the_triples: "Too numerous and too large to have been obtained by brute force",
+  a_keen_interest_in_divisibility: { definition: "Found in early Greek arithmetic", what_it_does: "", examples: "prime numbers and divisibility" },
+  the_most_important_late_antique_author: "Arguably Diophantus of Alexandria , who probably lived in the 3rd century AD",
+  a_catalyst: { definition: "The textual emendation and translation into Latin of Diophantus' Arithmetica", what_it_does: "", examples: "primality tests" },
+  an_equivalent_formulation: "That b {\displaystyle b} divides a {\displaystyle a} and is denoted by a vertical bar, which in this case is b | a {\displaystyle b|a}",
+  two_integers: { definition: "Said to be coprime or relatively prime to one another if their greatest common divisor, and simultaneously their only divisor, is 1 {\displaystyle 1}", what_it_does: "", examples: "parity (even and odd numbers), prime numbers , and perfect numbers" },
+  a_prime_number: "An integer greater than 1 {\displaystyle 1} whose only positive divisors are 1 {\displaystyle 1} and the prime itself",
+  the_sieve_of_eratosthenes: "Devised as an efficient algorithm for identifying all primes up to a given natural number by eliminating all composite numbers",
+  a_fundamental_property_of_primes: "Shown in Euclid's lemma",
+  the_unique_factorization_theorem: "The fundamental theorem of arithmetic that relates to prime factorization",
+  modular_arithmetic_also_provides_formulas_that: { definition: "Used to solve congruences with unknowns in a similar vein to equation solving in algebra, such as the Chinese remainder theorem", what_it_does: "", examples: "the limit of the sequence 0.9 , 0.99 , 0.999 ," },
+  another_distribution: "An offset logarithmic integral which converges to π ( x ) {\displaystyle \pi (x)} more quickly",
+  in_what: { definition: "Now recognised as the unsolved Riemann hypothesis , a solution to it would imply direct consequences for understanding the distribution of primes", what_it_does: "", examples: "sieve theory ) are better covered by the second rather than the first definition" },
+  fields_of_algebraic_numbers: "Also called algebraic number fields , or shortly number fields",
+  number_fields: "Often studied as extensions of smaller number fields: a field L is said to be an extension of a field K if L contains K",
+  the_central_problem_of_diophantine_geometry: "To determine when a Diophantine equation has integer or rational solutions, and if it does, how many",
+  the_approach_taken: { definition: "To think of the solutions of an equation as a geometric object", what_it_does: "", examples: "an equation in two variables defines a curve in the plane" },
+  a_basic_question_in_this_direction: "Whether there are finitely or infinitely many rational points on a given curve or surface",
+  this_question: { definition: "Of special interest if x {\displaystyle x} is an algebraic number", what_it_does: "", examples: "in Faltings' theorem ) rather than to techniques in Diophantine approximations" },
+  fast_algorithms_for_testing_primality: { definition: "Now known, but, in spite of much work (both theoretical and practical), no truly fast algorithm for factoring", what_it_does: "", examples: "British mathematician G" },
+  such_a_view: { definition: "No longer applicable to number theory", what_it_does: "", examples: "RSA are based on the difficulty of factoring large composite numbers into their prime factors" },
+  prime_numbers: "Also used in computing for checksums , hash tables , and pseudorandom number generators",
+  if_the_gestation_period: "9 months, determine the sex of the unborn child",
+  if_the_remainder: "Odd, [the sex] is male and if the remainder is even, [the sex] is female",
+
 };
 
 // ============================================================
