@@ -10936,6 +10936,10 @@ const FLAT_DICT = {
   the_patenting_of_software: "Controversial, [ 51 ] and there are criticized patents involving algorithms, especially data compression algorithms, such as Unisys 's LZW patent",
   another_way_of_classifying_algorithms: "By their design methodology or paradigm",
 
+  // === INGESTED 2026-06-21 13:39 ===
+  data_structures: { definition: "Closely related to abstract data types (ADTs)", what_it_does: "", examples: "insertion, deletion, traversal, or lookup—that create and manipulate instances of that structure" },
+  examples: { definition: "The C++ Standard Template Library , the Java Collections Framework , and the Microsoft .NET Framework", what_it_does: "", examples: "C++ , Java , and Smalltalk , typically use classes for this purpose" },
+
 };
 
 // ============================================================
