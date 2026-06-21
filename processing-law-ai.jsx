@@ -12717,6 +12717,30 @@ const FLAT_DICT = {
   the_kenyan_banking_system: { definition: "Supervised by the Central Bank of Kenya (CBK)", what_it_does: "", examples: "mortgage companies, four savings and loan associations and several core foreign-exchange bureaus" },
   the_principal_cash_crops: "Tea, horticultural produce, and coffee",
 
+  // === INGESTED 2026-06-21 20:19 ===
+  christianity: "The largest religion in Tanzania , with substantial Muslim and Animist minorities",
+  three_of_the_african_great_lakes: "Partly within Tanzania",
+  the_eastern_shore: "Hot and humid, with the Zanzibar Archipelago just offshore",
+  the_menai_bay_conservation_area: "Zanzibar's largest marine protected area",
+  azania: "Described as ruled by the Mapharitis - an ethnic group residing (at the time) in what is today southwest Yemen",
+  the_pare_people: "The main producers of sought-after iron for peoples who occupied the mountain regions of north-eastern Tanzania",
+  a_campaign_to_register_new_members: "Launched, and within a year, TANU had become the leading political organisation in the country",
+  president_suluhu: "Declared the winner with 98% of the vote",
+  central_tanzania: "A large plateau, with plains and arable land",
+  the_climate: "Cool in high mountainous regions",
+  the_mayor_of_the_city_council: { definition: "Elected by that council", what_it_does: "", examples: "security and emergency services" },
+  foreign_policies_of_tanzania: "In process of review to replace the current New Foreign Policy of 2001, which was the first official foreign policy of Tanzania",
+  its_primary_focus: "Economic diplomacy and development",
+  the_most_wellknown_example: { definition: "The International Criminal Tribunal for Rwanda genocide", what_it_does: "", examples: "rules of origin , for all trade within, into, and passing through member states" },
+  oversight_of_the_force: "Shared by the Principal Secretary of the Ministry of Police and the Inspector-General of Police",
+  in_some_areas_where_food_shortages: { definition: "Common, such as in the Tabora and Singida regions, stunting instances remain comparatively less than those seen in Iringa, Mbeya and Rukwa", what_it_does: "", examples: "maize and sorghum , crops crucial to the nutrition of the majority of Tanzania's population" },
+  the_average_for_subsaharan_africa: "20 publications per million inhabitants, and the global average was 176 publications per million inhabitants",
+  none_of_these_things: "Likely if growth is storming ahead",
+  the_discrepancies_are_so_large_that_it: "Hard to avoid the conclusion that the government is lying",
+  among_them: "Members of the Gadabursi clan, who are part of the wider Somali ethnic group originating from the Horn of Africa",
+  television_and_radio_programmes_in_an_ecl: "Prohibited, and it is nearly impossible to get permission to publish a newspaper in an ECL",
+  the_government: "Implementing measures to contain the virus's spread and is collaborating with international health organizations to manage the situation",
+
 };
 
 // ============================================================
