@@ -14774,6 +14774,22 @@ const FLAT_DICT = {
   the_current_threemedal_format: "Introduced at the 1904 Olympics",
   each_city: "Thoroughly analysed by an evaluation commission",
 
+  // === INGESTED 2026-06-21 23:39 ===
+  while_geography: { definition: "Specific to Earth, many concepts can be applied more broadly to other celestial bodies in the field of planetary science", what_it_does: "", examples: "Muhammad al-Idrisi , producing detailed maps of the world" },
+  the_age_of_discovery: "Influential in the development of geography, as European explorers mapped the New World",
+  the_core_concepts_of_geography_that: "Consistent across all approaches are space, place, time, and scale",
+  the_main_branches_of_geography: { definition: "Physical geography , human geography , and technical geography", what_it_does: "", examples: "coordinates , place names, or addresses" },
+  although_many_geographers: { definition: "Trained in toponymy and cartology , this is not their main preoccupation", what_it_does: "", examples: "economics, health, climate , plants, and animals, geography is highly interdisciplinary" },
+  absolute_space: { definition: "The exact site, or spatial coordinates, of objects, persons, places, or phenomena under investigation", what_it_does: "", examples: "the lithosphere , atmosphere , hydrosphere , and biosphere" },
+  physical_geography: { definition: "The study of earth's seasons, climate , atmosphere , soil , streams, landforms, and oceans", what_it_does: "", examples: "cartographic techniques and globes" },
+  geographers: "Making notable contributions to quantitative methods",
+  qualitative_methods_in_geography: { definition: "Descriptive rather than numerical or statistical in nature", what_it_does: "", examples: "land cover or dominant language group in an area" },
+  geopoetics: { definition: "An interdisciplinary approach that combines geography and poetry to explore the interconnectedness between humans, space, place, and the environment", what_it_does: "", examples: "the anthropocene" },
+  anaxagoras: "Able to demonstrate that the profile of the Earth was circular by explaining eclipses",
+  he_employed_a_sexagesimal_system_that: "Derived from Babylonian mathematics",
+  the_meridians: { definition: "Subdivided into 360°, with each degree further subdivided into 60 ( minutes )", what_it_does: "", examples: "Muhammad al-Idrisi produced detailed world maps (such as Tabula Rogeriana )" },
+  while_the_problem_of_latitude: { definition: "Solved long ago, the problem of longitude remained; agreeing on which meridian should be zero was only part of the problem", what_it_does: "", examples: "participant observation and geostatistics, into geography's portfolio of tools" },
+
 };
 
 // ============================================================
