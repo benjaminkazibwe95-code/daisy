@@ -12343,6 +12343,17 @@ const FLAT_DICT = {
   myasthenia_gravis: "A neuromuscular disease leading to fluctuating muscle weakness and fatigability during simple activities",
   myasthenia: "Treated with immunosuppressants , cholinesterase inhibitors and, in selected cases, thymectomy",
 
+  // === INGESTED 2026-06-21 15:24 ===
+  an_autapse: "A chemical or electrical synapse that forms when the axon of one neuron synapses onto dendrites of the same neuron",
+  neurotransmitters: "Tiny signal molecules stored in membrane-enclosed synaptic vesicles and released via exocytosis",
+  this_led_to_the_conclusion_that_impase: "Required for the correct localization of synaptic protein components",
+  their_biogenesis: "Segregating synaptic vesicle membrane proteins from other cellular proteins and packaging those distinct proteins into vesicles of appropriate size",
+  this_terminology: "Associated with the Bredesen Protocol for treating Alzheimer's disease , which conceptualizes Alzheimer's as an imbalance between these processes",
+  the_strength_of_two_connected_neural_pathways: "Thought to result in the storage of information, resulting in memory",
+  this_process_of_synaptic_strengthening: "Known as long-term potentiation (LTP)",
+  camkii: { definition: "Still active and phosphorylates itself even after Ca2+ is cleaved; as a result, the brain stores long-term memories using this mechanism", what_it_does: "", examples: "autism spectrum disorders (ASD), schizophrenia (SCZ), and bipolar disorder (BP)" },
+  these_diseases: { definition: "Identified by a gradual loss in cognitive and behavioral function and a steady loss of brain tissue", what_it_does: "", examples: "ASD and SCZ, characterized by abnormal behavioral or cognitive phenotypes" },
+
 };
 
 // ============================================================
