@@ -12602,6 +12602,31 @@ const FLAT_DICT = {
   among_nilosaharan_speakers: "The belief in Divinity; evil is caused by divine judgement and retribution; prophets as middlemen between Divinity and man",
   among_afroasiatic_speakers: "Henotheism , the belief in one's own gods but accepting the existence of other gods; evil here is caused by malevolent spirits",
 
+  // === INGESTED 2026-06-21 20:11 ===
+  the_organisation: { definition: "Founded in 1967, collapsed in 1977, and was revived on 7 July 2000", what_it_does: "", examples: "the member states of all three organisations" },
+  the_eac: "Revived on 30 November 1999, when the treaty for its re-establishment was signed",
+  a_customs_union: "Signed in March 2004, which commenced on 1 January 2005",
+  the_council_main_function: { definition: "To implement decisions made by the Summit", what_it_does: "", examples: "EAC's stand on issues such as the World Trade Organization and transport on Lake Victoria" },
+  the_highest_office_of_the_secretariat: "The Secretary General",
+  the_secretary_general: "Appointed by the summit upon nomination by the current rotational head of state and serves one five-year fixed term",
+  vivienne_yeda_apopo_of_zambia: "The current acting Director-General of East African Economic Development and has had this position since 2009",
+  novat_twungubumwe_of_burundi: "The current acting Attorney General and Executive Secretary East African Health Research Commission",
+  sylvance_okeyo_okoth: "The Executive Secretary of the East African Science and Technology Commission (EASTECO)",
+  caroline_asiimwe_of_uganda: "The serving Executive Secretary of the East African Kiswahili Commission",
+  gaspard_banyankimbona_of_uganda: "The serving Executive Secretary of the Inter-University Council for East Africa",
+  richard_gatete_of_rwanda: "The serving executive director of the Civil Aviation Safety and Security Oversight Agency",
+  mukoronia_of_kenya: "The acting Registrar of the East African Community Competition Authority",
+  bwire: "The serving Executive Secretary Lake Victoria Basin Commission",
+  ruto: { definition: "Seen as reversing the positions that allowed the DRC to join in the first place", what_it_does: "", examples: "waiving visa requirements for citizens of all EAC partner States" },
+  the_main_insurgent_group: { definition: "The Al-Qaeda -linked, Sunni Islamist military Al-Shabaab", what_it_does: "", examples: "an 100% duty on sugar" },
+  the_roo: { definition: "Expected to be updated every five years however has not been updated since 2015", what_it_does: "", examples: "around 76,500 Burundians" },
+  the_copper: "Currently majority exported via road with the exception of the Lobito Atlantic Railway , which stretches from the Lobito, Angola to Kolwezi",
+  the_top_importer_of_eac_goods: "The UAE and the top source of imported goods was China",
+  the_proposal: "The subject of National Consultative discussions, and a final decision was to be taken by the EAC Heads of State in mid-2007",
+  kiswahili: "Designated for development as the lingua franca of the community in 2000 with French added as a lingua franca in 2021",
+  kinyarwanda: "Spoken in Rwanda and Uganda",
+  lingala: "Widely spoken in the western Democratic Republic of Congo, with about 15 million speakers and Kiswahili with 23 million speakers across the country",
+
 };
 
 // ============================================================
