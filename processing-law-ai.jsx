@@ -13123,6 +13123,30 @@ const FLAT_DICT = {
   these_projects: "Based on the GTK and Qt widget toolkits, respectively, which can also be used independently of the larger framework",
   typical_common_graphics_and_image_tools: { definition: "Programs such as: GNU Image Manipulation Program (GIMP), Inkscape , Krita , DaVinci Resolve , and Scribus", what_it_does: "", examples: "ARM -based Android smartphones and the IBM Z mainframes" },
 
+  // === INGESTED 2026-06-21 20:56 ===
+  open_source_typically: { definition: "Software whose source code is made available, enabling use, modification, and redistribution", what_it_does: "", examples: "Open Source Educational Resources , Open-source hardware or open-source film" },
+  the_model: { definition: "Used for projects such as in open-source appropriate technology , [ 18 ] and open-source drug discovery", what_it_does: "", examples: "in Internet forums , [ 21 ] mailing lists [ 46 ] and online communities" },
+  the_term_open_source: { definition: "Introduced in 1998 [ 15 ] and gained hold with the rise of the Internet", what_it_does: "", examples: "the open-source framework and the open-source HTTP server Apache HTTP" },
+  the_cost_of_reproducing_the_work: { definition: "Low enough that additional users may be added at zero or near zero cost – this is referred to as the marginal cost of a product", what_it_does: "", examples: "source code, blueprints , and documentation freely available to the public" },
+  opensource_licensed_software: "Mostly available free of charge, though this does not necessarily have to be the case",
+  these_communities: { definition: "Composed of individual hardware/software developers, hobbyists, as well as very large companies", what_it_does: "", examples: "'being free to speak' is not the same as 'free beer'" },
+  gsoc: "A large scale project with 202 participating organizations in 2021",
+  opensource_code: "Meant to be a collaborative effort, where programmers improve upon the source code and share the changes within the community",
+  the_resulting_cultural_product: { definition: "Then available to download free (generally accessible) to anyone with an Internet connection", what_it_does: "", examples: "the telephone or television have limitations on the kind of interaction users can have" },
+  messageboards: { definition: "Another platform for open-source culture", what_it_does: "", examples: "banning spammers" },
+  other_common_board_features: { definition: "Private messages (where users can send messages to one another) as well as chat (a way to have a real time conversation online) and image uploading", what_it_does: "", examples: "text documents (including memos, reports, and books), spreadsheets , charts, and presentations" },
+  open_source_cinema: "A website to create Basement Tapes, a feature documentary about copyright in the digital age, co-produced by the National Film Board of Canada",
+  openiptv_is_iptv_that: "Not limited to one recording studio, production studio, or cast",
+  openiptv_uses_the_internet_or_other: "To pool efforts and resources together to create an online community that all contributes to a show",
+  opensource_curricula: "Instructional resources whose digital source can be freely used, distributed and modified",
+  another_strand_to_the_academic_community: "In the area of research",
+  the_budapest_open_access_initiative: "An international effort with the goal of making all research articles available free on the Internet",
+  benjamin_franklin: "An early contributor eventually donating all his inventions including the Franklin stove , bifocals , and the lightning rod to the public domain",
+  new_ngo_communities: "Starting to use open-source technology as a tool",
+  the_eclipse_platform: "Openly presenting itself as an open innovation network",
+  this_opera: "Originally composed and published in 2007 by Russian label MC Entertainment as a commercial product, but then the author changed its status to free",
+  the_open_education_consortium: { definition: "An organization composed of various colleges that support open source and share some of their material online", what_it_does: "", examples: "Wikiversity —a community dedicated to the creation and exchange of learning materials" },
+
 };
 
 // ============================================================
