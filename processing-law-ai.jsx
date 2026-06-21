@@ -12354,6 +12354,16 @@ const FLAT_DICT = {
   camkii: { definition: "Still active and phosphorylates itself even after Ca2+ is cleaved; as a result, the brain stores long-term memories using this mechanism", what_it_does: "", examples: "autism spectrum disorders (ASD), schizophrenia (SCZ), and bipolar disorder (BP)" },
   these_diseases: { definition: "Identified by a gradual loss in cognitive and behavioral function and a steady loss of brain tissue", what_it_does: "", examples: "ASD and SCZ, characterized by abnormal behavioral or cognitive phenotypes" },
 
+  // === INGESTED 2026-06-21 19:44 ===
+  the_hierarchical_model: "An oversimplification of the hormonal signaling process",
+  he_realized_that_this_organ: "Essential for these behaviors, but he did not know how",
+  he_then_wanted_to_see_if_it: "A genetic factor that was involved in the testes that provided these functions",
+  it_was_later_identified_that_this_factor: "The hormone testosterone",
+  they_were_able_to_show_that_light: { definition: "Perceived at the tip of a young stem (the coleoptile ), whereas the bending occurs lower down the stem", what_it_does: "", examples: "the juvenile hormone , a sesquiterpenoid" },
+  the_rate_of_hormone_biosynthesis_and_secretion: "Often regulated by a homeostatic negative feedback control mechanism",
+  when_a_competing_ligand: "Bound to the receptor site, the hormone is unable to bind to that site and is unable to elicit a response from the target cell",
+  these_competing_ligands: "Called antagonists of the hormone",
+
 };
 
 // ============================================================
