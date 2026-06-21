@@ -14970,6 +14970,20 @@ const FLAT_DICT = {
   rapid_transit: { definition: "Widely used in Europe and has increased in Latin America and Asia", what_it_does: "", examples: "road space rationing and road use charges have been introduced to limit urban car traffic" },
   early_examples_of_this_phenomenon: { definition: "The sister city relationship and the promotion of multi-level governance within the European Union as a technique for European integration", what_it_does: "", examples: "membership in global networks which transmit norms and regulations" },
 
+  // === INGESTED 2026-06-21 23:59 ===
+  public_infrastructure: "That owned or available for use by the public (represented by the government )",
+  sustainable_infrastructure: { definition: "The processes of design and construction that take into consideration their environmental, economic, and social impact", what_it_does: "", examples: "materials, water, energy, transportation, and waste management infrastructure" },
+  the_second_characteristic: "The non-availability of infrastructure goods and services",
+  the_most_prevalent_ones: { definition: "Asphalt, concrete, steel, masonry, wood, polymers and composites", what_it_does: "", examples: "roads, highways, railways, public transportation , water, and gas supply" },
+  basic_infrastructure: "Main railways, roads, canals, harbors and docks, the electromagnetic telegraph, drainage, dikes, and land reclamation",
+  complementary_infrastructure: { definition: "Things like light railways, tramways, and gas/electricity/water supply", what_it_does: "", examples: "police and fire fighting, and basic services in the economic sector" },
+  public_works_generally: { definition: "Physical assets needed to deliver public services", what_it_does: "", examples: "sole public utility or railway companies" },
+  some_sectors: { definition: "Dominated by government spending , others by overseas development aid (ODA) , and yet others by private investors", what_it_does: "", examples: "fusion energy" },
+  sustainable_water_infrastructure: { definition: "Focused on a community's sufficient access to clean, safe drinking water", what_it_does: "", examples: "agriculture, industry, sanitation, and drinking water" },
+  a_material: "Sustainable if the needed amount can be produced without depleting non-renewable resources",
+  green_infrastructure: { definition: "A type of sustainable infrastructure", what_it_does: "", examples: "flooding, [ 46 ] and create healthier urban environments" },
+  masdar_city: { definition: "A proposed zero emission smart city that will be contracted in the United Arab Emirates", what_it_does: "", examples: "energy, water, waste management, and transportation" },
+
 };
 
 // ============================================================
