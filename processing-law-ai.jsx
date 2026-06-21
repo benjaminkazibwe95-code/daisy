@@ -13036,6 +13036,16 @@ const FLAT_DICT = {
   cert_in: { definition: "The nodal agency which monitors the cyber threats in the country", what_it_does: "", examples: "the June 2015 intrusion into the U.S" },
   these_services: "Commonly referred to as Highly Adaptive Cybersecurity Services (HACS)",
 
+  // === INGESTED 2026-06-21 20:48 ===
+  software_engineering_and_systems_engineering: "Not merely related disciplines; they are intimately intertwined",
+  good_systems_engineering: "A key factor in enabling good software engineering",
+  knowledge_of_how_the_system_or_software_works: "Needed when it comes to specifying non-functional requirements",
+  it_is_performed_at_the_system_level_and: { definition: "Considered an aspect of software quality", what_it_does: "", examples: "performance , robustness , and security" },
+  software_maintenance: "Supporting the software after release",
+  it_may_include_but: { definition: "Not limited to: error correction , optimization, deletion of unused and discarded features, and enhancement of existing features", what_it_does: "", examples: "carpal tunnel syndrome" },
+  many_it_certification_programs: "Oriented toward specific technologies, and managed by the vendors of these technologies",
+  when_asians: { definition: "Leaving work, Europeans arrive to work", what_it_does: "", examples: "in software engineering textbooks, papers, and among the communities of programmers and crafters" },
+
 };
 
 // ============================================================
