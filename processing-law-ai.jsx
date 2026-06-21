@@ -11176,6 +11176,30 @@ const FLAT_DICT = {
   applied_physics: "A general term for physics research and development that is intended for a particular use",
   the_approach: "Similar to that of applied mathematics",
 
+  // === INGESTED 2026-06-21 13:58 ===
+  the_electromagnetic_force_law: "Similar to the force law for gravity: both depend upon the square of the inverse distance between objects in typical interactions",
+  this_equivalence_principle: { definition: "A scientific hypothesis that has been tested experimentally to more than one part in a trillion", what_it_does: "", examples: "Plutarch who correctly predicted that the attraction of gravity was not unique to the Earth" },
+  his_method: "A form of graphical numerical integration since concepts of algebra and calculus were unknown at the time",
+  these_laws: "Central to the development of a theory of gravity a hundred years later",
+  that_this_attraction: "So much the greater as the bodies are nearer",
+  however_the_orbits: "Known to be ellipses",
+  first: "Equating inertial mass and gravitational mass",
+  this_aspect: "Not new: the astronomer Ismaël Bullialdus proposed it around 1640",
+  the_value_of_g: "Eventually measured by Henry Cavendish in 1797",
+  since_light_speed: "Fixed, it was assumed to travel in a fixed, absolute medium",
+  these_geometries: "Locally flat but have global curvature",
+  the_black_hole_was_detected_because_it: "Emitting bursts of x-rays as it consumed a smaller star, and it came to be known as Cygnus X-1",
+  the_strength_of_the_gravitational_field: { definition: "Numerically equal to the acceleration of objects under its influence", what_it_does: "", examples: "mountains and ridges, and perhaps unusually high or low sub-surface densities" },
+  conceptually_two_objects_in_orbit: "Both falling off of the curve they would travel in if the force of gravity were not pulling them together",
+  since_the_force_of_gravity: "Universal, all planets attract each other with the most massive and closest pair have the most mutual affect",
+  this_means_orbits: "More complex than simple ellipses",
+  if_the_mass_of_gas_in_the_region: "Low, the process continues until a brown dwarf or gas-giant planet is produced",
+  if_more_mass: "Available, the additional gravitational energy allows the central region to reach pressures sufficient for nuclear fusion , forming a star",
+  this_research: { definition: "Awarded the Nobel Prize in Physics in 1993", what_it_does: "", examples: "the Big Bang" },
+  this_phenomenon: "First confirmed by observation in 1979 using the 2",
+  the_force: { definition: "'nonlocal': it depends on the mass of an object at a distance", what_it_does: "", examples: "cannon ball trajectories, tidal motion and planetary orbits" },
+  several_solutions: "The basis for understanding black holes and for our modern model of the evolution of the universe since the Big Bang",
+
 };
 
 // ============================================================
