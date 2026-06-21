@@ -14131,6 +14131,34 @@ const FLAT_DICT = {
   if_these: { definition: "Soaked through, they may ignite as their contents react with water", what_it_does: "", examples: "sewage treatment ) to households and industry" },
   drinking_water: "Often collected at springs , extracted from artificial borings (wells) in the ground, or pumped from lakes and rivers",
 
+  // === INGESTED 2026-06-21 22:32 ===
+  plants: { definition: "Independently cultivated in at least 11 regions of the world", what_it_does: "", examples: "rubber and timber )" },
+  genetically_modified_organisms: "Widely used, although some countries ban them",
+  the_word_agriculture: { definition: "A late Middle English adaptation of Latin agricultūra , from ager 'field' and cultūra ' cultivation ' or 'growing'", what_it_does: "", examples: "food, fiber, forest products, horticultural crops, and their related services'" },
+  sugarcane_and_some_root_vegetables: "Domesticated in New Guinea around 9,000 years ago",
+  sorghum: "Domesticated in the Sahel region of Africa by 7,000 years ago",
+  staple_food_crops: { definition: "Grains such as wheat and barley, alongside industrial crops such as flax and papyrus", what_it_does: "", examples: "peas, beans, and olives" },
+  sheep_and_goats: { definition: "Kept mainly for dairy products", what_it_does: "", examples: "llamas , alpacas , and guinea pigs were domesticated there" },
+  the_three_crops: { definition: "Winter squash , maize, and climbing beans", what_it_does: "", examples: "the introduction of sugar, rice, cotton and fruit trees (such as the orange)" },
+  this_type_of_farming: "Practiced mainly in areas with abundant rainfall where the forest regenerates quickly",
+  the_cleared_land: "Used for growing crops for a few years until the soil becomes too infertile, and the area is abandoned",
+  another_patch_of_land: "Selected and the process is repeated",
+  this_practice: { definition: "Used in Northeast India, Southeast Asia, and the Amazon Basin", what_it_does: "", examples: "the organic movement" },
+  the_share_of_agriculture_in_global_gdp: { definition: "Stable at around 4% since 2000–2023", what_it_does: "", examples: "income status and natural resource endowments as well as its political economy" },
+  this_fallow_period: "Shortened if population density grows, requiring the input of nutrients (fertilizer or manure ) and some manual pest control",
+  annual_cultivation: "The next phase of intensity in which there is no fallow period",
+  in_all_of_these_environments_perennial_crops: "Grown (coffee, chocolate) and systems are practiced such as agroforestry",
+  this_system: "Particularly important in areas where crop production is not feasible because of climate or soil, representing 30–40 million pastoralists",
+  manure: "Typically recycled in mixed systems as a fertilizer for crops",
+  synthetic_fertilizers: "More heavily relied upon for crop production and manure use becomes a challenge as well as a source for pollution",
+  much_of_this_growth: { definition: "Happening in developing countries in Asia, with much smaller amounts of growth in Africa", what_it_does: "", examples: "the usage of growth hormones , are controversial" },
+  one_view_is_that_agricultural_automation: { definition: "Autonomous navigation by robots without human intervention", what_it_does: "", examples: "sensors) that automate only diagnosis" },
+  south_american_average_wheat_yields: { definition: "Around 2 t/ha, African under 1 t/ha, and Egypt and Arabia up to 3.5 to 4 t/ha with irrigation", what_it_does: "", examples: "France is over 8 t/ha" },
+  herbicidetolerant_crops: "Used by farmers worldwide",
+  a_well_documented_phenomenon: "Woody plant encroachment , caused by overgrazing in rangelands",
+  onethird_of_the_total_agricultural_land: { definition: "Cropland (1.58 billion ha in 2021), which increased by 6 percent (0.09 billion ha)", what_it_does: "", examples: "grazing, animal agriculture constitutes around 80% of agricultural land" },
+  commodities: { definition: "Generally reported by production quantities, such as volume, number or weight", what_it_does: "", examples: "soil degradation, waste management , and bioremediation" },
+
 };
 
 // ============================================================
