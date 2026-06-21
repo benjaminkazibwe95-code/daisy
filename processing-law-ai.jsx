@@ -13325,6 +13325,18 @@ const FLAT_DICT = {
   samples_made_by_mbe: { definition: "Key to the discovery of the fractional quantum Hall effect for which the 1998 Nobel Prize in Physics was awarded", what_it_does: "", examples: "energy density, charge rate, service life, and cost" },
   bandages: { definition: "Infused with silver nanoparticles to heal cuts faster", what_it_does: "", examples: "on chip optical quantum information processing, and picosecond transmission of information" },
 
+  // === INGESTED 2026-06-21 21:17 ===
+  the_term_biotechnology: "First used by Károly Ereky in 1919 [ 2 ] to refer to the production of products from raw materials with the aid of living organisms",
+  the_core_principle_of_biotechnology: { definition: "Harnessing biological systems and organisms, such as bacteria , yeast , and plants, to perform specific tasks or produce valuable substances", what_it_does: "", examples: "beer, wine, and cheese" },
+  the_applications_of_biotechnology: { definition: "Diverse and have led to the development of products like drugs, biofuels , genetically modified crops, and innovative materials", what_it_does: "", examples: "developing biodegradable plastics and using microorganisms to clean up contaminated sites" },
+  bioengineering: { definition: "The application of the principles of engineering and natural sciences to tissues, cells, and molecules", what_it_does: "", examples: "tissue engineering , biopharmaceutical engineering , and genetic engineering" },
+  although_the_process_of_fermentation: { definition: "Not fully understood until Louis Pasteur 's work in 1857, it is still the first use of biotechnology to convert a food source into another form", what_it_does: "", examples: "this technique was used with corn to produce the largest and sweetest crops" },
+  another_example: "Using naturally present bacteria by the mining industry in bioleaching",
+  the_first_genetically_engineered_products: "Medicines designed to treat human diseases",
+  the_genetically_engineered_bacteria: { definition: "Able to produce large quantities of synthetic human insulin at relatively low cost", what_it_does: "", examples: "selective breeding and mutation breeding" },
+  crops_like_golden_rice: { definition: "Engineered to have higher nutritional content, and there is potential for food products with longer shelf lives", what_it_does: "", examples: "industrial fermentation" },
+  each_successful_application: { definition: "Generally funded for five years then must be competitively renewed", what_it_does: "", examples: "GMO embargo, share common flaws in the statistical evaluation of the data" },
+
 };
 
 // ============================================================
