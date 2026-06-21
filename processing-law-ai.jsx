@@ -14937,6 +14937,21 @@ const FLAT_DICT = {
   the_canadian_forest_service: "The government department which looks after Forests in Canada",
   birch: "The most common tree at 28.2%, followed by pine (26.9%), spruce (18.3%), grey alder (9.7%), aspen (8.0%), black alder (5.7%), oak/ash (1",
 
+  // === INGESTED 2026-06-21 23:53 ===
+  some_of_the_meteorological_variables_that: "Commonly measured are temperature , humidity , atmospheric pressure , wind , and precipitation",
+  the_most_widely_used_classification_scheme: "The Köppen climate classification",
+  paleoclimatology: { definition: "The study of past climate over a great period of the Earth 's history", what_it_does: "", examples: "regular cycles" },
+  climate_models: "Available on different resolutions ranging from >100 km to 1 km",
+  recent_warming: { definition: "Discussed in terms of global warming , which results in redistributions of biota", what_it_does: "", examples: "the magnitudes of day-to-day or year-to-year variations" },
+  the_classical_period: "30 years, as defined by the World Meteorological Organization (WMO)",
+  these_quantities: "Most often surface variables such as temperature, precipitation, and wind",
+  climate_in_a_wider_sense: "The state, including a statistical description, of the climate system",
+  a_climate_normal: { definition: "Defined as the arithmetic average of a climate element (e.g", what_it_does: "", examples: "El Niño–Southern Oscillation , but also short enough to be able to show longer climatic trends" },
+  other_climate_determinants: "More dynamic: the thermohaline circulation of the ocean leads to a 5 °C (9 °F) warming of the northern Atlantic Ocean compared to other ocean basins",
+  one_of_the_most_used: "The Köppen climate classification scheme first developed in 1899",
+  climate_variability: "The term to describe variations in the mean state and other characteristics of climate (such as chances or possibility of extreme weather , etc",
+  such_variability: { definition: "Called random variability or noise", what_it_does: "", examples: "greenhouse gases" },
+
 };
 
 // ============================================================
