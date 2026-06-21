@@ -14624,6 +14624,22 @@ const FLAT_DICT = {
   arrangement: "The process of structuring ideas together",
   telecommunication_and_videoconferencing: "Also forms of public speaking",
 
+  // === INGESTED 2026-06-21 23:24 ===
+  adherence_to_objective_and_principled_criteria: "The basis for productive negotiation and agreement",
+  integrated_negotiation: "First identified and labeled by the international negotiator and author Peter Johnston in his book Negotiating with Giants",
+  one_view_of_negotiation: "Three basic elements: process , behavior, and substance",
+  the_consistency_principle_states_that_people: "Motivated toward cognitive consistency and will change their attitudes, beliefs, perceptions and actions to achieve it",
+  these_types_of_negotiators: "Soft bargainers, hard bargainers, and principled bargainers",
+  more_often_than_not_they: "Subtle, difficult to identify, and used for multiple purposes",
+  half_of_the_angry_negotiators: "Sure that their counterparts had attempted to provoke their anger, while the other half were unsure",
+  the_outcome_was_that_the_uncertain_negotiators: "More successful in reaching agreements beneficial to both parties",
+  when_both_ability_and_motivation: { definition: "Low, the effect is identified, and when both are high the effect is identified but discounted as irrelevant to judgment", what_it_does: "", examples: "disappointment or sadness might lead to compassion and more cooperation" },
+  specific_emotions: "Found to have different effects on the opponent's feelings and are strategies chosen: Negotiation is a complex interaction",
+  capturing_all_its_complexity: "A very difficult task, let alone isolating and controlling only certain aspects of it",
+  one_such_result_is_that_in_negotiations_it: "Common to see language similarity arise between the two negotiating parties",
+  mannix: "'strength in numbers' when forming a negotiating team, but warns about the danger of failing to prepare which reliance on others can also generate",
+  the_integrative_potential: { definition: "Often missed due to the lack of awareness of each member's interests and preferences", what_it_does: "", examples: "one which evaluated candidates participating in a negotiation regarding compensation" },
+
 };
 
 // ============================================================
