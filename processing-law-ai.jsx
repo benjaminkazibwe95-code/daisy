@@ -11053,6 +11053,31 @@ const FLAT_DICT = {
   recombinant_dna: { definition: "A man-made DNA sequence that has been assembled from other DNA sequences", what_it_does: "", examples: "recombinant proteins , used in medical research , [ 153 ] or be grown in agriculture" },
   evidence_can_now_be_uncovered_that: "Scientifically impossible at the time of the original examination",
 
+  // === INGESTED 2026-06-21 13:49 ===
+  the_theory: { definition: "First set out in detail in Darwin's book On the Origin of Species", what_it_does: "", examples: "agriculture, medicine, and computer science" },
+  the_phenotype: "The ability of the skin to tan when exposed to sunlight",
+  horizontal_gene_transfer: { definition: "The transfer of genetic material from one organism to another organism that is not its offspring; this is most common among bacteria", what_it_does: "", examples: "the yeast Saccharomyces cerevisiae and the adzuki bean weevil Callosobruchus chinensis has occurred" },
+  these_phenomena: { definition: "Classed as epigenetic inheritance systems", what_it_does: "", examples: "prions ) are areas where epigenetic inheritance systems have been discovered at the organismic level" },
+  evolution_by_natural_selection: "The process by which traits that enhance survival and reproduction become more common in successive generations of a population",
+  the_central_concept_of_natural_selection: "The evolutionary fitness of an organism",
+  these_traits: "Said to be selected for",
+  examples_of_traits_that_can_increase_fitness: { definition: "Enhanced survival and increased fecundity", what_it_does: "", examples: "these are known as atavisms" },
+  the_first: { definition: "Directional selection , which is a shift in the average value of a trait over time—for example, organisms slowly getting taller", what_it_does: "", examples: "cause organisms to eventually have a similar height" },
+  a_set_of_alleles_that: "Usually inherited in a group is called a haplotype",
+  most_prominent: { definition: "The specific behavioural and physical adaptations that are the outcome of natural selection", what_it_does: "", examples: "finding food, avoiding predators or attracting mates" },
+  these_outcomes_of_evolution: { definition: "Distinguished based on time scale as macroevolution versus microevolution", what_it_does: "", examples: "species selection acting on entire species and affecting their rates of speciation and extinction" },
+  adaptations: { definition: "Produced by natural selection", what_it_does: "", examples: "goose bumps [ 177 ] [ 178 ] and primitive reflexes" },
+  when_the_interaction: "Between pairs of species, such as a pathogen and a host , or a predator and its prey, these species can develop matched sets of adaptations",
+  the_choice_of_definition: "Dependent on the particularities of the species concerned",
+  the_most_common_in_animals: "Allopatric speciation , which occurs in populations initially isolated geographically, such as by habitat fragmentation or migration",
+  one_example: "The grass Anthoxanthum odoratum , which can undergo parapatric speciation in response to localised metal pollution from mines",
+  this_form: "Rare since even a small amount of gene flow may remove genetic differences between parts of a population",
+  presentday_extinction_rates: { definition: "100–1000 times greater than the background rate and up to 30% of current species may be extinct by the mid 21st century", what_it_does: "", examples: "natural selection, have many applications" },
+  many_human_diseases: { definition: "Not static phenomena, but capable of evolution", what_it_does: "", examples: "RNA [ 273 ] and the assembly of simple cells" },
+  their_separate_papers: "Presented together at an 1858 meeting of the Linnean Society of London",
+  some: "Disturbed by this since it implied that humans did not have a special place in the universe",
+  the_significance_of_this_speech: { definition: "Immediately recognised by the scientific community, and it was printed in its entirety in several scientific journals", what_it_does: "", examples: "Ronald Fisher , Sewall Wright and J" },
+
 };
 
 // ============================================================
