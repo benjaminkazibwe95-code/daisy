@@ -11591,6 +11591,27 @@ const FLAT_DICT = {
   discrete_geometry: { definition: "A subject that has close connections with convex geometry", what_it_does: "", examples: "points, lines and circles" },
   mathematics_and_art: { definition: "Related in a variety of ways", what_it_does: "", examples: "plane curves could now be represented analytically in the form of functions and equations" },
 
+  // === INGESTED 2026-06-21 14:28 ===
+  these_two_branches: { definition: "Related to each other by the fundamental theorem of calculus", what_it_does: "", examples: "the formalization of the concept of limits , put calculus on a more solid conceptual footing" },
+  limits: "Thought to provide a more rigorous foundation for calculus, and for this reason, they became the standard approach during the 20th century",
+  the_process_of_finding_the_derivative: "Called differentiation",
+  if_h: "A number close to zero, then a + h is a number close to a",
+  the_slope_between_these_two_points: "This expression is called a difference quotient",
+  a_line_through_two_points_on_a_curve: "Called a secant line , so m is the slope of the secant line between ( a , f ( a )) and ( a + h , f ( a + h ))",
+  the_secant_line: "Only an approximation to the behavior of the function at the point a because it does not account for what happens between a and a + h",
+  the_tangent_line: { definition: "A limit of secant lines just as the derivative is a limit of difference quotients", what_it_does: "", examples: "In this usage, the dx in the denominator is read as 'with respect to x '" },
+  the_basic_idea: "That if only a short time elapses, then the speed will stay more or less the same",
+  when_velocity: { definition: "Constant, the total distance traveled over the given time interval can be computed by multiplying velocity and time", what_it_does: "", examples: "traveling a steady 50 mph for 3 hours results in a total distance of 150 miles" },
+  associated_with_each_segment: "The average value of the function above it, f ( x ) = h",
+  a_differential_equation: { definition: "An equation that relates one or more unknown functions and their derivatives", what_it_does: "", examples: "engineering , physics , economics , and biology" },
+  a_functional: "A mapping from a set of functions to the real numbers",
+  a_simple_example_of_such_a_problem: "To find the curve of shortest length connecting two points",
+  another_way: "To use Abraham Robinson 's non-standard analysis",
+  the_resulting_numbers: "Called hyperreal numbers , and they can be used to give a Leibniz-like development of the usual rules of calculus",
+  one_aspect_of_this_formulation: "That the law of excluded middle does not hold",
+  an_example_of_the_use_of_calculus_in_mechanics: "Newton's second law of motion , which states that the derivative of an object's momentum concerning time equals the net force upon it",
+  starting_from_knowing_how_an_object: { definition: "Accelerating, we use calculus to derive its path", what_it_does: "", examples: "in determining reaction rates [ 71 ] : 599 and in studying radioactive decay" },
+
 };
 
 // ============================================================
