@@ -11993,6 +11993,31 @@ const FLAT_DICT = {
   the_simplest_approach: "To rapidly change non-essential epitopes ( amino acids and/or sugars) on the surface of the pathogen, while keeping essential epitopes concealed",
   the_earliest_known_reference_to_immunity: { definition: "During the plague of Athens in 430 BC", what_it_does: "", examples: "the miasma theory" },
 
+  // === INGESTED 2026-06-21 14:58 ===
+  a_vaccine: { definition: "A biological preparation that provides active acquired immunity to a particular infectious or malignant disease", what_it_does: "", examples: "polio , measles , and tetanus from much of the world" },
+  as_long_as_the_vast_majority_of_people: "Vaccinated, it is much more difficult for an outbreak of disease to occur, let alone spread",
+  although_most_attenuated_vaccines: { definition: "Viral, some are bacterial in nature", what_it_does: "", examples: "the viral diseases yellow fever , measles , mumps , and rubella , and the bacterial disease typhoid" },
+  a_subunit_vaccine: "Being used for plague immunization",
+  the_best_known_omv_vaccines: "Those developed for serotype B meningococcal disease",
+  the_classic_example: "Jenner's use of cowpox to protect against smallpox",
+  a_current_example: "The use of BCG vaccine made from Mycobacterium bovis to protect against tuberculosis",
+  this_protein: { definition: "Usually the immunodominant antigen of the pathogen or a surface protein that enables the formation of neutralizing antibodies", what_it_does: "", examples: "surface proteins , to stimulate an immune response" },
+  pdna: "Inexpensive, stable, and relatively safe, making it an excellent option for vaccine delivery",
+  a_monovalent_vaccine: { definition: "Designed to immunize against a single antigen or single microorganism", what_it_does: "", examples: "bivalent , trivalent , or tetravalent/quadrivalent )" },
+  other_ingredients: { definition: "Added to boost the immune response, to ensure safety or help with storage, and a tiny amount of material is left-over from the manufacturing process", what_it_does: "", examples: "thiomersal, phenoxyethanol , and formaldehyde" },
+  thiomersal: { definition: "More effective against bacteria, has a better shelf-life, and improves vaccine stability, potency, and safety; however, in the U.S", what_it_does: "", examples: "the European Medicines Agency (EMA) or the US Food and Drug Administration (FDA)" },
+  pregnant_women: "Often screened for continued resistance to rubella",
+  the_human_papillomavirus_vaccine: "Recommended in the U.S",
+  one_challenge_in_vaccine_development: "Economic: Many of the diseases most demanding a vaccine, including HIV , malaria and tuberculosis, exist principally in poor countries",
+  vaccines: { definition: "Complex mixtures of biological compounds, and unlike the case for prescription drugs , there are no true generic vaccines", what_it_does: "", examples: "the human papillomavirus vaccine, the patents may impose an additional barrier" },
+  viruses: { definition: "Grown either on primary cells such as chicken eggs (e.g., for influenza) or on continuous cell lines such as cultured human cells (e.g", what_it_does: "", examples: "Haemophilus influenzae type b)" },
+  although_this: { definition: "A conceptually simple part of the vaccine manufacture process, it is often a bottleneck in the process of distributing and administering vaccines", what_it_does: "", examples: "chicken eggs, due to greater productivity and low incidence of problems with contamination" },
+  a_common_issue_with_animal_vaccination: "That it interferes with immunological tests as both infection and vaccination can result in antibodies against an antigen being made",
+  monoclonal_antibodies: "Produced against that deletion and selected to develop an ELISA that demonstrated antibodies against gE",
+  swine_populations: "Intensively vaccinated and monitored by the companion diagnostic test and, subsequently, the infected pigs were removed from the population",
+  national_vaccination_policies: "Adopted and compulsory vaccination laws were passed",
+  maurice_hilleman: { definition: "The most prolific of the developers of the vaccines in the twentieth century", what_it_does: "T H and antibody responses, but not killer T cell responses", examples: "herpes simplex , malaria , gonorrhea , and HIV" },
+
 };
 
 // ============================================================
