@@ -13857,6 +13857,14 @@ const FLAT_DICT = {
   circadian_rhythms_in_plants: "Modulated by endogenous bioactive substances that encourage leaf-opening and leaf-closing and are the basis of nyctinastic behaviors",
   their_direction_of_growth: "Subsequently recorded",
 
+  // === INGESTED 2026-06-21 22:07 ===
+  a_skill: { definition: "The learned or innate [ 1 ] ability to act with determined results and good execution often within a given amount of time, energy, or both", what_it_does: "", examples: "critical thinking , problem-solving skills, positive values, and attitudes (e.g" },
+  skilled_workers: "Often politically active through their craft guilds",
+  social_skills: "Any skills facilitating interaction and communication with others",
+  social_rules_and_relations: "Created, communicated, and changed in verbal and nonverbal ways",
+  the_process_of_learning_such_skills: "Called socialization",
+  this_principle: "Disputed by other commentators, pointing out feedback is necessary for improvement, and that practice is no guarantee of success",
+
 };
 
 // ============================================================
