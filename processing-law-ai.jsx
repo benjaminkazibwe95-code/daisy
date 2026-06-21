@@ -14359,6 +14359,14 @@ const FLAT_DICT = {
   the_initial_position_of_each_player: "Characterized by the propositions to which they are committed and the conclusion they intend to prove",
   dialogues: "Games of persuasion: each player has the goal of convincing the opponent of their own conclusion",
 
+  // === INGESTED 2026-06-21 22:55 ===
+  but_so: { definition: "The ability to be flexible and consider non-traditional alternatives and perspectives", what_it_does: "", examples: "clarity, credibility , accuracy , precision, relevance , depth, breadth , significance, and fairness" },
+  principles_of_critical_thinking: { definition: "Broadly applicable and their usage can be seen across disciplines that each rely on its own standards such as evidence and methods", what_it_does: "", examples: "egocentrism" },
+  some_success: { definition: "Noted and the researchers emphasized the value of the humanities in providing the skills to evaluate current events and qualitative data in context", what_it_does: "", examples: "formal and informal logic" },
+  scott_lilienfeld_notes_that_there: "Some evidence to suggest that basic critical-thinking skills might be successfully taught to children at a younger age than previously thought",
+  the_full_advanced_gce: { definition: "Now available: in addition to the two Advanced Subsidiary units, candidates sit the two papers 'Resolution of Dilemmas' and 'Critical Reasoning'", what_it_does: "", examples: "credibility and ethical decision-making" },
+  the_idea_behind_this: "To offer high school students the opportunity to connect with the research environment in the Center for Advanced Materials (CAM) at Qatar University",
+
 };
 
 // ============================================================
