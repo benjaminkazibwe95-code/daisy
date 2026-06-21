@@ -12896,6 +12896,20 @@ const FLAT_DICT = {
   the_process_was_usually_peaceful_but_there: "Several long bitter bloody civil wars, as in Algeria, [ 193 ] Kenya, [ 194 ] and elsewhere",
   it_led_to_organizations_that: { definition: "Not controlled by or endorsed by either the colonial powers nor the traditional local power structures who were viewed as collaborators", what_it_does: "", examples: "a large part of French West Africa" },
 
+  // === INGESTED 2026-06-21 20:34 ===
+  external_colonies: "First founded in Africa during antiquity",
+  some_of_these: { definition: "Founded relatively early", what_it_does: "", examples: "Utica was founded c" },
+  it_was_established_in_what: { definition: "Now Tunisia and became a major power in the Mediterranean by the 4th century BC", what_it_does: "", examples: "the Cape Verde Islands and São Tomé Island" },
+  only_the_spanish_enclaves_of_ceuta_and_melilla: "Still governed by a European country",
+  the_main_point_of_his_argument: "That the colonial state in Africa took the form of a bifurcated state, 'two forms of power under a single hegemonic authority'",
+  the_colonial_power: "Mainly in urban towns and cities and were served by elected governments",
+  the_indigenous_power: "Found in rural villages and were ruled by tribal authority, which seemed to be more in keeping with their history and tradition",
+  achille_mbembe: "A Cameroonian historian, political theorist, and philosopher who has written and theorised extensively on life in the colony and postcolony",
+  stephanie_terreni_brown: "An academic in the field of colonialism",
+  those_who_are_deemed_abject: "Often avoided by others and seen as inferior",
+  abjectivication: "Continually used as a mechanism to dominate a group of people and control them",
+  this_rhetoric_of_sanitation: { definition: "Important because it is seen as a key part of modernity and being civilised", what_it_does: "", examples: "Meredith Terreta for focusing too much on specific African nations such as Cameroon" },
+
 };
 
 // ============================================================
