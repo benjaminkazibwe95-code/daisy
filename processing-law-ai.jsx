@@ -14183,6 +14183,29 @@ const FLAT_DICT = {
   among_the_most_common_occupational_diseases: "Various forms of pneumoconiosis , including silicosis and coal worker's pneumoconiosis (black lung disease)",
   asthma: { definition: "Another respiratory illness that many workers are vulnerable to", what_it_does: "", examples: "eczema , dermatitis , urticaria , sunburn , and skin cancer" },
 
+  // === INGESTED 2026-06-21 22:38 ===
+  the_first_vitamin_to_be_chemically_identified: "Thiamine in 1926, and vitamin C was identified as a protection against scurvy in 1932",
+  organic_micronutrients: "Classified as vitamins , and inorganic micronutrients are classified as minerals",
+  mixotrophs: { definition: "Organisms that can be heterotrophs and autotrophs, including some plankton and carnivorous plants", what_it_does: "", examples: "water , hydrogen sulfide , dihydrogen , iron(II) , sulfur , or ammonium" },
+  not_only: "Malnutrition the result of a lack of necessary nutrients, [ 21 ] but it can also be a result of other illnesses and health conditions",
+  herbivores: "Animals that eat plants, carnivores are animals that eat other animals, and omnivores are animals that eat both plants and other animals",
+  the_energy_provided_by_macronutrients_in_food: "Measured in kilocalories, usually called Calories, where 1 Calorie is the amount of energy required to raise 1 kilogram of water by 1 degree Celsius",
+  glucose: "The simplest form of carbohydrate",
+  most_dietary_lipids: "Triglycerides , composed of glycerol and fatty acids",
+  phospholipids_and_sterols: "Found in smaller amounts",
+  protein_consumed_by_animals: "Broken down to amino acids, which would be later used to synthesize new proteins",
+  enzymes: "Essential to most metabolic processes, as well as DNA replication , repair , and transcription",
+  much_of_animal_behavior: { definition: "Governed by nutrition", what_it_does: "", examples: "rats, do not seek out new types of foods unless they have a nutrient deficiency" },
+  nutrition_in_humans: "Balanced with eating for pleasure, and optimal diet may vary depending on the demographics and health concerns of each person",
+  other_additives: { definition: "Also used to improve the safety, quality, flavor, and nutritional content of food", what_it_does: "", examples: "obesity [ 45 ] and metabolic syndrome" },
+  fodder_and_forage: "Provided to livestock",
+  dog_food_and_cat_food_in_particular: "Heavily studied and typically include all essential nutrients for these animals",
+  largebreed_puppies: { definition: "Susceptible to overnutrition, as small-breed dog food is more energy dense than they can absorb", what_it_does: "", examples: "carbon dioxide, water, oxygen gas, and sulfur dioxide" },
+  other_nutrients_used_by_plants: "Potassium, sodium, calcium, magnesium, manganese, chlorine, iron, copper, zinc, and molybdenum",
+  nutrient_uptake_in_the_soil: { definition: "Achieved by cation exchange , wherein root hairs pump hydrogen ions (H + ) into the soil through proton pumps", what_it_does: "", examples: "animals, plants, or other fungi" },
+  protozoa: { definition: "Heterotrophic protists, and different protozoa seek nutrients in different ways", what_it_does: "", examples: "bacteria and archaea , vary greatly in how they obtain nutrients across nutritional groups" },
+  some_lithotrophic_prokaryotes: { definition: "Extremophiles that can survive in nutrient-deprived environments by breaking down inorganic matter", what_it_does: "", examples: "cyanobacteria and Chloroflexia , can engage in photosynthesis to obtain energy from sunlight" },
+
 };
 
 // ============================================================
