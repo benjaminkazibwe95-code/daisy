@@ -14429,6 +14429,18 @@ const FLAT_DICT = {
   the_true_opposite_of_religious: "The word irreligious",
   irreligion: "An absence of any religion; antireligion describes an active opposition or aversion toward religions in general",
 
+  // === INGESTED 2026-06-21 23:01 ===
+  cultures: { definition: "Externally affected via contact between societies", what_it_does: "", examples: "UNESCO attempt to preserve culture and cultural heritage" },
+  cultural_universals: { definition: "Found in all human societies", what_it_does: "", examples: "body modification , clothing or adornment" },
+  culture_repositioning: "The reconstruction of the cultural concept of a society",
+  another_facet_of_the_romantic_movement: "An interest in folklore , which led to identifying a 'culture' among non-elites",
+  a_further_and_recent_approach: { definition: "Comparative cultural studies , based on the disciplines of comparative literature and cultural studies", what_it_does: "", examples: "American cultural-studies advocates wrote about the liberatory aspects of fandom" },
+  the_writer_julia_kristeva: { definition: "Among influential voices at the turn of the century, contributing to cultural studies from the field of art and psychoanalytical French feminism", what_it_does: "", examples: "the Japanese, suppress their positive emotions more than their American counterparts" },
+  lgbt_culture: { definition: "Displayed with significantly different levels of tolerance within different cultures and nations", what_it_does: "", examples: "people who are raised in a culture with an abacus are trained with distinctive reasoning style" },
+  westerners: { definition: "More motivated by their successes than their failures, while East Asians are better motivated by the avoidance of failure", what_it_does: "", examples: "Robert Epstein , who state that an undeveloped brain is not the main cause of teenagers' turmoils" },
+  the_aim: "Not to protect a person's property, but rather to preserve the cultural heritage of humanity, especially in the event of war and armed conflict",
+  the_target_of_the_attack: { definition: "The identity of the opponent, which is why symbolic cultural assets become a main target", what_it_does: "", examples: "tourism) of a state, region or municipality" },
+
 };
 
 // ============================================================
