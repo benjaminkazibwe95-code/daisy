@@ -12885,6 +12885,17 @@ const FLAT_DICT = {
   the_cloth_known_as_african_print_fabric: { definition: "Created out of Dutch wax textiles", what_it_does: "", examples: "Solange Knowles and her sister Beyoncé have been seen wearing African print attire" },
   ghana_has_museums_that: "Situated inside castles, and two are situated inside a fort",
 
+  // === INGESTED 2026-06-21 20:32 ===
+  the_oral_word: { definition: "Revered in most African cultures, and history has predominantly been passed down through oral tradition", what_it_does: "", examples: "Australopithecus afarensis radiometrically dated to approximately 3.9–3" },
+  some_societies: { definition: "Heterarchical and egalitarian , while others organised into chiefdoms", what_it_does: "", examples: "internal conflict, neocolonialism , and climate change" },
+  the_deadliest_disease: "Malaria , endemic throughout Tropical Africa",
+  raw_materials: "Needed for European factories",
+  the_europeans: "Captivated by the philosophies of eugenics and Social Darwinism , and some attempted to justify all this by branding it civilising missions",
+  traditional_leaders: "Incorporated into the colonial regimes as a form of indirect rule to extract human and natural resources and curb organized resistance",
+  the_threat_to_trade_routes: "Mitigated by poor policing and African entrepreneurs (viewed as smugglers) who exploited the differing tax and legal schemes",
+  the_process_was_usually_peaceful_but_there: "Several long bitter bloody civil wars, as in Algeria, [ 193 ] Kenya, [ 194 ] and elsewhere",
+  it_led_to_organizations_that: { definition: "Not controlled by or endorsed by either the colonial powers nor the traditional local power structures who were viewed as collaborators", what_it_does: "", examples: "a large part of French West Africa" },
+
 };
 
 // ============================================================
