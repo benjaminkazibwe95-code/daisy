@@ -13688,6 +13688,13 @@ const FLAT_DICT = {
   the_existence_of_inequality: { definition: "In part due to a set of self-reinforcing behaviors that all together constitute one aspect of the cycle of poverty", what_it_does: "", examples: "Raghuram G" },
   green_colonialism: { definition: "Grabbing of land in the name of environmentalism", what_it_does: "", examples: "the concept of dunya in Islam )" },
 
+  // === INGESTED 2026-06-21 21:52 ===
+  development_economics: { definition: "A branch of economics that deals with economic aspects of the development process in low- and middle- income countries", what_it_does: "", examples: "through health, education and workplace conditions, whether through public or private channels" },
+  a_significant_difference_from_mercantilism: { definition: "The de-emphasis on colonies, in favor of a focus on domestic production", what_it_does: "", examples: "Simon Kuznets and W" },
+  while_conflicts_in_rwanda: "Largely along tribal lines, Nigeria's string of conflicts is thought to be – at least to some degree – religiously based",
+  firms_that_experienced_a_civil_war: { definition: "More sensitive to the quality of the legal system than similar firms that had never been exposed to conflict", what_it_does: "", examples: "private and institutional fraud, in some countries)" },
+  one_measure_used: "The Genuine Progress Indicator , which relates strongly to theories of distributive justice",
+
 };
 
 // ============================================================
