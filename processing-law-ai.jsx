@@ -12969,6 +12969,25 @@ const FLAT_DICT = {
   the_world_wide_web_consortium_claims_that_it: "Essential that the Web be accessible, so it can provide equal access and equal opportunity to people with disabilities",
   access_by_everyone_regardless_of_disability: "An essential aspect.' [ 129 ] Many countries regulate web accessibility as a requirement for websites",
 
+  // === INGESTED 2026-06-21 20:42 ===
+  a_smartphone: { definition: "A mobile device that combines the functionality of a traditional mobile phone ( feature phone ) with advanced computing capabilities", what_it_does: "", examples: "web browsing , email , and social media , as well as multimedia playback and streaming" },
+  smartphones: "Equipped with a multitude of sensors to enable system features and third-party applications",
+  screen_sizes: "Measured in diagonal inches",
+  some_displays: { definition: "Integrated with pressure-sensitive digitizers, such as those developed by Wacom and Samsung , [ 23 ] and Apple's Force Touch system", what_it_does: "", examples: "the Samsung Galaxy Note series and LG G Stylus series have an integrated tray to store the stylus in" },
+  many_mobile_phones: "Also equipped with a barometer sensor to measure air pressure, such as Samsung since 2012 with the Galaxy S3 , and Apple since 2014 with the iPhone 6",
+  some_dualsim_mobile_phones: { definition: "Equipped with a hybrid slot, where one of the two slots can be occupied by either a SIM card or a memory card", what_it_does: "", examples: "one dedicated memory card slot, for simultaneous dual-SIM and memory card usage" },
+  any_file: { definition: "Wholly downloaded from the device before opened", what_it_does: "", examples: "Voice over LTE and HD Voice have appeared and are often available on newer smartphones" },
+  images: "Usually saved in the JPEG file format; some high-end phones since the mid-2010s also have RAW imaging capability",
+  back_covers_of_smartphones: { definition: "Typically made of polycarbonate , aluminium, or glass", what_it_does: "", examples: "chargers with smartphones in order to 'reduce carbon footprint ', etc" },
+  other_wellknown_mobile_operating_systems: { definition: "Flyme OS and Harmony OS", what_it_does: "", examples: "a smartphone" },
+  the_situation: "Caused by the maturing China market",
+  streaming_video_services: "Easily accessed via smartphone apps and can be used in place of watching television",
+  a_pilot_project_in_bali: { definition: "Launched in 2011 by the International Finance Corporation and an Indonesian bank, Bank Mandiri", what_it_does: "", examples: "when using the phone's incorporated controls for car stereo, GPS or satnav" },
+  the_conflict: { definition: "Part of the wider 'patent wars' between multinational technology and software corporations", what_it_does: "", examples: "Android and iOS, has increased significantly" },
+  smartphone_malware: { definition: "Easily distributed through an insecure app store", what_it_does: "", examples: "the ability to compromise the operating systems of most smartphones (including iOS and Android)" },
+  these_concerns: { definition: "Transformed into regulation initiatives worldwide with the aim of safeguarding users from untrusted medical advice", what_it_does: "", examples: "smartphones among students" },
+  locking_of_the_serial_number: "First documented in 2015 on the iPhone 6 , which would become inoperable from a detected replacement of the 'home' button",
+
 };
 
 // ============================================================
