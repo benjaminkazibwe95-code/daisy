@@ -13970,6 +13970,30 @@ const FLAT_DICT = {
   a_right_in_rem: "A right to a specific piece of property, in contrast to a right in personam , which allows compensation for a loss but not for a particular thing",
   a_representative_example_of_property_law: { definition: "The 1722 case of Armory v Delamirie , which applied English law", what_it_does: "", examples: "those arising from contracts and torts, are conceptualised as rights owed by individuals" },
 
+  // === INGESTED 2026-06-21 22:17 ===
+  one_of_the_most_influential: "Mahatma Gandhi 's leadership of the Indian independence movement",
+  the_league_of_nations: "Established in 1919 at the negotiations over the Treaty of Versailles following the end of World War I",
+  enshrined_in_its_charter: { definition: "A mandate to promote many of the rights which were later included in the Universal Declaration of Human Rights", what_it_does: "", examples: "Mahatma Gandhi" },
+  assistance: "Providing support to societies that lack the resources or capabilities to meet human rights commitments",
+  domestic_contestation_and_engagement: "The notion that external actors can impact a state's behavior by participating in its internal political and social processes",
+  compulsion: "The most extreme method of enforcing human rights through external action involves the use of coercive measures",
+  if_national_law: "Able to safeguard human rights and punish those who breach human rights legislation, it has primary jurisdiction by complementarity",
+  the_court_of_justice_of_the_african_union: "Intended to be the 'principal judicial organ of the Union' (Protocol of the Court of Justice of the African Union, Article 2.2)",
+  its_members: "The thirty-five independent states of the Americas",
+  its_two_main_functions: { definition: "Thus adjudicatory and advisory", what_it_does: "", examples: "the Declaration of the Basic Duties of ASEAN Peoples and Governments , the first of its kind in 1983" },
+  unique_to_the_declaration: "Its invocation of governmental liabilities rather than basic human rights provisions found in the UDHR",
+  the_seat_of_the_council_of_europe: "In Strasbourg in France",
+  the_council_of_europe: "Responsible for both the European Convention on Human Rights and the European Court of Human Rights",
+  the_natural_law: "How a rational human being, seeking to survive and prosper, would act",
+  the_belgian_philosopher_of_law_frank_van_dun: "One among those who are elaborating a secular conception of natural law in the liberal tradition",
+  civil_and_political_rights: { definition: "Enshrined in articles 3 to 21 of the Universal Declaration of Human Rights and in the ICCPR", what_it_does: "", examples: "the right to work , right to education , right to health and right to housing" },
+  this_categorization: "At odds with the indivisibility of rights, as it implicitly states that some rights can exist without others",
+  prioritization_of_rights_for_pragmatic_reasons: "However a widely accepted necessity",
+  the_call_for_prioritizing: { definition: "Not to suggest that any obvious violations of rights can be ignored", what_it_does: "", examples: "non-discrimination, equality and participation" },
+  such_companies: "Often larger than the economies of the states in which they operate, and can wield significant economic and political power",
+  such_international_law_obligations: "Binding on all states and cannot be modified by treaty",
+  she_emphasized_that_while_rights: "Conditional, obligations are absolute and universal",
+
 };
 
 // ============================================================
