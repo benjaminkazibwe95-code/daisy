@@ -14918,6 +14918,25 @@ const FLAT_DICT = {
   cacti: "Present in both North and South America with a post-Gondwana origin",
   the_surface_of_the_trunk: "Folded like a concertina , allowing it to expand, and a large specimen can hold eight tons of water after a good downpour",
 
+  // === INGESTED 2026-06-21 23:51 ===
+  a_forest: { definition: "An ecosystem characterized by a dense community of trees", what_it_does: "", examples: "tree density, tree height, land use, legal standing, and ecological function" },
+  it_does_not_include_land_that: "Predominantly under agricultural or urban use.' [ 6 ] Using this definition, Global Forest Resources Assessment 2025 found that forests covered 4",
+  the_next_largest_share_of_forests: "Found in subarctic climates , followed by temperate , and subtropical zones",
+  net_primary_production: "Estimated at 21.9 gigatonnes of biomass per year for tropical forests , 8.1 for temperate forests , and 2.6 for boreal forests",
+  the_vast_majority_of_this_deforestation: { definition: "Because of the production of four commodities: wood , beef , soy , and palm oil", what_it_does: "", examples: "unsustainable use of forest resources, can negatively affect forest ecosystems" },
+  archaeopteris: { definition: "Deciduous , dropping its fronds onto the forest floor, the shade, soil, and forest duff from the dropped fronds creating the early forest", what_it_does: "", examples: "cellulose or carbohydrate" },
+  forests: "Classified differently and to different degrees of specificity",
+  one_such_classification: "In terms of the biomes in which they exist, combined with leaf longevity of the dominant species (whether they are evergreen or deciduous )",
+  another_distinction_is_whether_the_forests: "Composed predominantly of broadleaf trees, coniferous (needle-leaved) trees, or mixed",
+  these_forests: "Composed entirely, or nearly so, of coniferous species ( Coniferophyta )",
+  the_seasonality_of_rainfall: "Usually reflected in the deciduousness of the forest canopy, with most trees being leafless for several months of the year",
+  this_vegetation: "Variously called open taiga , open lichen woodland, and forest-tundra",
+  a_savanna: { definition: "A mixed woodland – grassland ecosystem characterized by the trees being sufficiently widely spaced so that the canopy does not close", what_it_does: "", examples: "nutrient capital maintenance, watershed and soil structure protection and carbon storage" },
+  this_gain: "Due especially to reforestation in China and Russia",
+  these_allocated_areas: { definition: "Managed using the principles of sustainable forest management, which include extensive consultation with local stakeholders", what_it_does: "", examples: "integrated land use planning or defined management areas, such as certified forests" },
+  the_canadian_forest_service: "The government department which looks after Forests in Canada",
+  birch: "The most common tree at 28.2%, followed by pine (26.9%), spruce (18.3%), grey alder (9.7%), aspen (8.0%), black alder (5.7%), oak/ash (1",
+
 };
 
 // ============================================================
