@@ -13083,6 +13083,23 @@ const FLAT_DICT = {
   another_popular_approach: { definition: "The Unified Modeling Language", what_it_does: "", examples: "if people can have more than one phone number, it will allow this information to be captured" },
   producing_the_conceptual_data_model_sometimes: "Input from business processes , or the analysis of workflow in the organization",
 
+  // === INGESTED 2026-06-21 20:52 ===
+  operating_systems: { definition: "Found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers", what_it_does: "", examples: "smartphones, while Windows, macOS, and Linux are for desktop computers" },
+  an_operating_system: "Difficult to define, [ 7 ] but has been called 'the layer of software that manages a computer's resources for its users and their applications '",
+  the_distinguishing_factor: { definition: "That they do not load user-installed software", what_it_does: "", examples: "Embedded Linux , QNX , VxWorks , and the extra-small systems RIOT and TinyOS" },
+  the_operating_system_multics: "Intended to allow hundreds of users to access a large computer",
+  minix: "A stripped-down version of UNIX, developed in 1987 for educational uses, that inspired the commercially available, free software Linux",
+  the_kernel: "The part of the operating system that provides protection between different applications and users",
+  the_operating_system: { definition: "Also a set of services which simplify development and execution of application programs", what_it_does: "", examples: "the LINK and ATTACH facilities of OS/360 and successors" },
+  signum: "The signal number (in mnemonic format) [ b ] to be sent",
+  this_system_of_memory_management: { definition: "Almost never seen anymore, since programs often contain bugs which can cause them to exceed their allocated memory", what_it_does: "", examples: "memory segmentation and paging" },
+  if_a_program_tries_to_access_memory_that: "Not accessible [ e ] memory, but nonetheless has been allocated to it, the kernel is interrupted (see § Memory management )",
+  this_kind_of_interrupt: "Typically a page fault",
+  all_these_operations: "Carried out by the operating system on behalf of the application",
+  background_processes: { definition: "Often used to detect and recover from data corruption", what_it_does: "", examples: "the TCP/IP protocol stack" },
+  plain_text_output: { definition: "Often preferred by programmers, and is easy to support", what_it_does: "", examples: "a simple single-board computer powered by a 6502 microprocessor" },
+  another_approach: { definition: "For operating system vendors to adopt standards", what_it_does: "", examples: "POSIX and OS abstraction layers provide commonalities that reduce porting costs" },
+
 };
 
 // ============================================================
