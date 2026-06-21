@@ -14555,6 +14555,18 @@ const FLAT_DICT = {
   to_measure_if_the_teamwork: { definition: "Effective, the organization must examine the quality of the output, the process, and the members' experience", what_it_does: "", examples: "Goal Setting and Task Coordination" },
   leaders: "Responsible for inspiring and motivating teams to facilitate the alignment of their objectives with those of the organization",
 
+  // === INGESTED 2026-06-21 23:12 ===
+  preparing_food_with_heat_or_fire: { definition: "An activity unique to humans", what_it_does: "", examples: "the invention of pottery for holding and boiling of water , expanded cooking techniques" },
+  most_ingredients_in_cooking: "Derived from living organisms",
+  dietary_fats: { definition: "Also the carriers of some flavor and aroma ingredients and vitamins that are not water-soluble", what_it_does: "", examples: "muscle , offal , milk, eggs and egg whites , contains substantial amounts of protein" },
+  cooking_often: "Water and water-based liquids",
+  a_favorite_method_of_adding_flavor_to_dishes: "To save the liquid for use in other recipes",
+  vitamins_and_minerals: "Required for normal metabolism ; and what the body cannot manufacture itself must come from external sources",
+  vitamin_c: "Especially prone to oxidation during cooking and may be destroyed by protracted cooking",
+  women_and_young_children: { definition: "Disproportionately affected, since they spend the most time near the hearth", what_it_does: "", examples: "bacteria and viruses, as well as various parasites such as tapeworms and Toxoplasma gondii" },
+  ages_are_a_group_of_compounds_that: { definition: "Formed between reducing sugars and amino acids via the Maillard reaction", what_it_does: "", examples: "lemon juice and vinegar beforehand" },
+  thermal_diffusivity: { definition: "The combination of specific heat, conductivity, and density that determines how long it will take for the food to reach a certain temperature", what_it_does: "", examples: "at restaurants, or schools" },
+
 };
 
 // ============================================================
