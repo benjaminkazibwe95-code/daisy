@@ -12529,6 +12529,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-21 20:00 ===
   the_cost_of_the_development: { definition: "Budgeted at about US$4 billion", what_it_does: "", examples: "coffee or tea" },
 
+  // === INGESTED 2026-06-21 20:02 ===
+  the_remainder: "Distributed among the more than 30 private universities and a smaller number of non-university institutions",
+
 };
 
 // ============================================================
