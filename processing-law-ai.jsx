@@ -10924,6 +10924,18 @@ const FLAT_DICT = {
   a_database: "Intended to organize, store, and retrieve large amounts of data easily",
   digital_databases: "Managed using database management systems to store, create, maintain, and search data, through database models and query languages",
 
+  // === INGESTED 2026-06-21 13:37 ===
+  two_examples: "The Sieve of Eratosthenes , which was described in the Introduction to Arithmetic by Nicomachus , [ 30 ] [ 25 ] : Ch 9",
+  later_formalizations: "Framed as attempts to define ' effective calculability ' [ 38 ] or 'effective method'",
+  algorithms: "Often studied abstractly, without referencing a specific programming language or implementation",
+  programming_languages: "Primarily for expressing algorithms in a computer-executable form but are also used to define or document algorithms",
+  pseudocode_is_typical_for_analysis_as_it: "A simple and general representation",
+  most_algorithms: "Implemented on particular hardware/software platforms and their algorithmic efficiency is tested using real code",
+  empirical_testing: { definition: "Useful for uncovering unexpected interactions that affect performance", what_it_does: "", examples: "divide-and-conquer or dynamic programming" },
+  an_important_aspect_of_algorithm_design: { definition: "Efficient use of resources such as memory or time; the big O notation is used to describe how resource use changes as the size of inputs increase", what_it_does: "", examples: "in Diamond v" },
+  the_patenting_of_software: "Controversial, [ 51 ] and there are criticized patents involving algorithms, especially data compression algorithms, such as Unisys 's LZW patent",
+  another_way_of_classifying_algorithms: "By their design methodology or paradigm",
+
 };
 
 // ============================================================
