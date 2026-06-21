@@ -14206,6 +14206,17 @@ const FLAT_DICT = {
   protozoa: { definition: "Heterotrophic protists, and different protozoa seek nutrients in different ways", what_it_does: "", examples: "bacteria and archaea , vary greatly in how they obtain nutrients across nutritional groups" },
   some_lithotrophic_prokaryotes: { definition: "Extremophiles that can survive in nutrient-deprived environments by breaking down inorganic matter", what_it_does: "", examples: "cyanobacteria and Chloroflexia , can engage in photosynthesis to obtain energy from sunlight" },
 
+  // === INGESTED 2026-06-21 22:40 ===
+  exercise_or_working_out: "Physical activity that enhances or maintains fitness and overall health",
+  the_greatest_potential_for_reduced_mortality: "Seen in sedentary individuals who become moderately active",
+  studies_have_shown_that_since_heart_disease: "The leading cause of death in women, regular exercise in aging women leads to healthier cardiovascular profiles",
+  sedentary_people: { definition: "Most at risk for mortality from cardiovascular and all other causes", what_it_does: "", examples: "heart attack and stroke" },
+  immune_cell_functions: "Impaired following acute sessions of prolonged, high-intensity exercise, and some studies have found that athletes are at a higher risk for infections",
+  resistance_training: { definition: "Identified as particularly effective for younger individuals, while yoga appeared to be more beneficial for older adults", what_it_does: "", examples: "BDNF , IGF-1 , and VEGF" },
+  such_pedestrian_zones: { definition: "Part of an effort to combat chronic diseases and to maintain a healthy BMI", what_it_does: "", examples: "at home or health clubs ), while in others, people primarily exercise outdoors" },
+  these_gyms_are_free_to_the_public_and: "Often placed in beautiful, picturesque environments",
+  overtraining: "Also known as chronic fatigue, burnout, and overstress in athletes",
+
 };
 
 // ============================================================
