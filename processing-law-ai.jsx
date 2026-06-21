@@ -12125,6 +12125,31 @@ const FLAT_DICT = {
   four_major_theoretical_perspectives: "Psychodynamic, cognitive-behavioral, existential–humanistic, and systems (or family) therapy",
   educational_psychology: "Often included in teacher education programs in North America, Australia, and New Zealand",
 
+  // === INGESTED 2026-06-21 15:07 ===
+  the_different_components_of_emotion: "Categorized somewhat differently depending on the academic discipline",
+  the_term_emotion: "Introduced into academic discussion as a catch-all term to passions , sentiments and affections",
+  he_proposed_that_actions: "Motivated by 'fears, desires, and passions'",
+  the_lexico_definition_of_emotion: { definition: "'A strong feeling deriving from one's circumstances, mood, or relationships with others'", what_it_does: "", examples: "panic ) or dispositions (e.g., hostility), and short-lived (e.g., anger) or long-lived (e.g" },
+  graham: "All emotions as existing on a continuum of intensity",
+  emotional_dispositions: { definition: "Also comparable to character traits, where someone may be said to be generally disposed to experience certain emotions", what_it_does: "", examples: "an irritable person is generally disposed to feel irritation more easily or quickly than others do" },
+  he_proposed_what: { definition: "Known as 'core-SELF' to be generating these affects", what_it_does: "", examples: "factor analysis to attempt to map emotion-related responses onto a more limited number of dimensions" },
+  important_neurological_advances: { definition: "Derived from these perspectives in the 1990s by Joseph E", what_it_does: "", examples: "body language of animals and humans (see affect display )" },
+  he_argued_that_physiological_responses: "Too slow and often imperceptible and this could not account for the relatively rapid and intense subjective awareness of emotion",
+  emotions: "Thus a result of two-stage process: general physiological arousal, and experience of emotion",
+  subjects: "Observed to express either anger or amusement depending on whether another person in the situation (a confederate) displayed that emotion",
+  these_theories_acknowledge_that_emotions: { definition: "Not automatic reactions but result from the interplay of cognitive interpretations, physiological responses, and the social context", what_it_does: "", examples: "The Passions, Emotions and the Meaning of Life , 1993 [ 83 ] )" },
+  this_is_important_because_emotions: "Related to the anti-stress complex, with an oxytocin-attachment system, which plays a major role in bonding",
+  information_that: { definition: "Encoded in the DNA sequences provides the blueprint for assembling proteins that make up our cells", what_it_does: "", examples: "our behaviors [ dubious – discuss ] [ citation needed ]" },
+  these_biological_functions_of_the_amygdala: { definition: "Not only limited to the 'fear-conditioning' and 'processing of aversive stimuli', but also are present on other components of the amygdala", what_it_does: "", examples: "fear and anxiety" },
+  the_list: { definition: "Established in January 1997 and has over 700 members from across the globe", what_it_does: "", examples: "anomie theory and studies of 'toughness', aggressive behavior, and hooliganism" },
+  these_more_elaborate_emotions: "Called first-order elaborations in Turner's theory, and they include sentiments such as pride, triumph, and awe",
+  some_social_institutions: { definition: "Seen as based on certain emotion, such as love in the case of contemporary institution of marriage", what_it_does: "", examples: "health campaigns and political messages, emotional appeals are commonly found" },
+  the_formation_or_disruption_of_social_bonds: { definition: "Dependent on the emotions that people experience during interactions", what_it_does: "", examples: "Milne & Otieno, 2007; [ 138 ] Olitsky, 2007; [ 139 ] Tobin, et al" },
+  the_data_gathered: "Analogous to the cues humans use to perceive emotions in others",
+  another_area_within_affective_computing: "The design of computational devices proposed to exhibit either innate emotional capabilities or that are capable of convincingly simulating emotions",
+  emotional_memories: "Reactivated more, they are remembered better and have more attention devoted to them",
+  lange: { definition: "A Danish physician and psychologist", what_it_does: "", examples: "muscular tension, a rise in heart rate, perspiration, and dryness of the mouth" },
+
 };
 
 // ============================================================
