@@ -11527,6 +11527,25 @@ const FLAT_DICT = {
   fatty_acids_and_fatty_acid_derivatives: "Another group of carboxylic acids that play a significant role in biology",
   the_cell_membrane_of_nearly_all_organisms: "Primarily made up of a phospholipid bilayer , a micelle of hydrophobic fatty acid esters with polar, hydrophilic phosphate 'head' groups",
 
+  // === INGESTED 2026-06-21 14:21 ===
+  although_mathematics: "Widely used to model empirical phenomena, its results are established by deductive proof rather than by experiment",
+  other_areas: { definition: "Developed independently from any application but often find practical applications later", what_it_does: "", examples: "numerology and astrology , were not then clearly distinguished from mathematics" },
+  other_areas_that: { definition: "Previously studied by mathematicians, such as celestial mechanics and solid mechanics , are now considered as belonging to physics", what_it_does: "", examples: "mathematical logic and foundations" },
+  two_prominent_early_number_theorists: "Euclid and Diophantus of Alexandria",
+  a_prominent_example: { definition: "Fermat's Last Theorem", what_it_does: "", examples: "scheme theory from algebraic geometry , category theory , and homological algebra" },
+  the_basic_statements: "Not subject to proof because they are self-evident ( postulates ), or are part of the definition of the subject of study ( axioms )",
+  such_curves: "The graph of functions , the study of which led to differential geometry",
+  this_aspect_of_the_crisis: { definition: "Solved by systematizing the axiomatic method, and adopting that the truth of the chosen axioms is not a mathematical problem", what_it_does: "", examples: "moving a term from one side of an equation into the other side" },
+  the_pythagoreans: { definition: "Likely the first to constrain the use of the word to just the study of arithmetic and geometry", what_it_does: "", examples: "the Pythagoreans appeared to have considered it a subject in its own right" },
+  an_axiom_or_postulate: "A mathematical statement that is taken to be true without need of proof",
+  a_specialized_theorem_that: { definition: "Mainly used to prove another theorem is called a lemma", what_it_does: "", examples: "polynomial and homeomorphism" },
+  the_unreasonable_effectiveness_of_mathematics: { definition: "A phenomenon that was named and first made explicit by physicist Eugene Wigner", what_it_does: "", examples: "arithmetic), especially with respect to transmission security, in cryptography and coding theory" },
+  discrete_mathematics: { definition: "Useful in many areas of computer science, such as complexity theory , information theory , and graph theory", what_it_does: "", examples: "and especially, probability theory" },
+  nodes_of_this_network: { definition: "Closely bound to procedures useful in human activities and to questions arising in science", what_it_does: "", examples: "the 255-page Feit–Thompson theorem" },
+  the_method_of_demonstrating_rigorous_proof: { definition: "Enhanced in the sixteenth century through the use of symbolic notation", what_it_does: "", examples: "parental and teacher attitudes, social stereotypes, and personal traits" },
+  this_does_not_mean_that_there: { definition: "No place for creativity in a mathematical work", what_it_does: "", examples: "significance, unexpectedness, and inevitability, which contribute to mathematical aesthetics" },
+  a_rorschach_test: "A figure invariant by this symmetry, [ 212 ] as are butterfly and animal bodies more generally (at least on the surface)",
+
 };
 
 // ============================================================
