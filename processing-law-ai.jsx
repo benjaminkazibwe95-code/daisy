@@ -14640,6 +14640,26 @@ const FLAT_DICT = {
   mannix: "'strength in numbers' when forming a negotiating team, but warns about the danger of failing to prepare which reliance on others can also generate",
   the_integrative_potential: { definition: "Often missed due to the lack of awareness of each member's interests and preferences", what_it_does: "", examples: "one which evaluated candidates participating in a negotiation regarding compensation" },
 
+  // === INGESTED 2026-06-21 23:26 ===
+  the_decisionmaking_process: "A reasoning process based on assumptions of values , preferences and beliefs of the decision-maker",
+  solving_such_problems: "The focus of multiple-criteria decision analysis (MCDA)",
+  logical_decisionmaking: { definition: "An important part of all science-based professions, where specialists apply their knowledge in a given area to make informed decisions", what_it_does: "", examples: "medical decision-making often involves a diagnosis and the selection of appropriate treatment" },
+  cognitive_function: "Greatly affected by the higher measure of environmental complexity, making it easier to think about the situation and make a better decision",
+  extinction_by_instinct: "The state that a person is in when they make careless decisions without detailed planning or thorough systematic processes",
+  impulse_decisions: "Made more often when a person is tired of analysis situations or solutions; the solution they make is to act and not think",
+  the_somatic_marker_hypothesis: "A neurobiological theory of how decisions are made in the face of uncertain outcomes",
+  functional_conflicts: "Considered better for achieving higher-quality decision-making because they increase team knowledge and shared understanding",
+  rational_decisionmaking: "A multi-step process for making choices between alternatives",
+  the_irrational_decision: "More counter to logic",
+  the_decisions: "Made in haste and outcomes are not considered",
+  rational_decision: "Generally seen as the best or most likely decision to achieve the set goals or outcome",
+  adaptive_decisionmaking_behavior: "Somewhat present for children, ages 11–12 and older, but decreases in the presence the younger they are",
+  some_possibilities_that_explain_this_inability: "Knowledge deficits and lack of utilization skills",
+  the_main_difference_found: { definition: "That more complex principles of fairness in decision making such as contextual and intentional information do not come until children get older", what_it_does: "", examples: "'sins of commission', 'sins of omission', and 'sins of imprecision'" },
+  styles_and_methods_of_decisionmaking: "Elaborated by Aron Katsenelinboigen , the founder of predispositioning theory",
+  both_styles: "Utilized in the game of chess",
+  the_pyrrhic_victory: "The best example of one's inability to think positionally",
+
 };
 
 // ============================================================
