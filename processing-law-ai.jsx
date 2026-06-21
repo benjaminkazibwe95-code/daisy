@@ -12518,6 +12518,14 @@ const FLAT_DICT = {
   the_flag: "Now part of the paraphernalia of the African Union and replaces the old one",
   these_colours: "Visible in one way or another in the flags of many African nations",
 
+  // === INGESTED 2026-06-21 19:58 ===
+  the_forests_of_uganda: { definition: "Gradually cleared for agriculture by people who probably spoke Central Sudanic languages", what_it_does: "", examples: "Bunyoro alongside Buganda" },
+  although_most_of_these_developments: "Taking place southwest of modern Ugandan boundaries, iron was mined and smelted in many parts of the country not long afterward",
+  milton_obote: { definition: "Elected Prime Minister in April 1962 and Uganda became a republic in October 1962, maintaining its Commonwealth membership", what_it_does: "", examples: "the Federal Democratic Movement led by Andrew Kayiira and another led by John Nkwaanga" },
+  many_films: "Censored, and bars had to close early",
+  the_leaders: { definition: "Expected to focus on preserving and promoting cultural values to support their communities", what_it_does: "", examples: "the Movement for the Liberation of Congo and some factions of the Rally for Congolese Democracy" },
+  polling_day: "Declared a national holiday",
+
 };
 
 // ============================================================
