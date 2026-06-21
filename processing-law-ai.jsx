@@ -12188,6 +12188,33 @@ const FLAT_DICT = {
   gene_transcription_profiles: "Determined for the human frontal cortex of individuals from age 26 to 106 years",
   numerous_genes: "Identified with reduced expression after age 40, and especially after age 70",
 
+  // === INGESTED 2026-06-21 15:11 ===
+  in_some_explanations_it: { definition: "Synonymous with mind , while in others it is considered an aspect of it", what_it_does: "", examples: "to discern ' coma ' from other states" },
+  if_awareness_of_awareness: "Required, then it is doubtful whether the great apes and human infants are conscious",
+  one_criticism_of_this_goal: { definition: "That it begins with a theoretical commitment to the neurological origin of all 'experienced phenomena' whether inner or outer", what_it_does: "", examples: "in sharing the control of attention" },
+  you: "Of a flock, one bird among kin",
+  the_topic_of_free_will: { definition: "The philosophical and scientific examination of this conundrum", what_it_does: "", examples: "having experiences of the sort that we do" },
+  a_more_straightforward_way_of_saying_this: "That we attribute experiences to people because of what they can do , including the fact that they can tell us about their experiences",
+  when_qualia: "Experienced, activity is simulated in the brain, and these processes are called neural correlates of consciousness (NCCs)",
+  if_that: { definition: "The case, another question is what exactly the 'identity carrier' is that makes a conscious being 'the same' being from one moment to the next", what_it_does: "", examples: "Benj Hellie's vertiginous question , which can be summarized as 'Why am I me and not someone else?'" },
+  this_notion_of_identity: { definition: "Similar to the form of dualism advocated by René Descartes", what_it_does: "", examples: "standard versions of dualism" },
+  the_test_examines_whether_animals: { definition: "Able to differentiate between seeing themselves in a mirror versus seeing other animals", what_it_does: "", examples: "EEG and fMRI , have been used for physical measures of brain activity in these studies" },
+  the_rationale_for_such_a_comparative_study: "That the avian brain deviates structurally from the mammalian brain",
+  if_this: "True, then the twins may offer a proof of concept for how experiences in general could be shared between brains",
+  this_definition: { definition: "Notable for its similarity to the global workspace theory (GWT) theatre analogy A wide range of empirical theories of consciousness have been proposed", what_it_does: "", examples: "cognitive neuroscientist Stanislas Dehaene and Lionel Naccache" },
+  the_same_cortical_machinery: { definition: "Also used to attribute awareness to oneself", what_it_does: "", examples: "hemispatial neglect" },
+  to_be_aware_of_x: { definition: "Explained by constructing a model of one's attentional focus on X", what_it_does: "", examples: "internal self-administered reality testing and self-awareness" },
+  the_duo_reckoned_that_the_claustrum: "Well suited for the task",
+  the_survival_value_of_consciousness: "Still a matter of exploration and understanding",
+  some_argue_that_consciousness: "A by-product of evolution",
+  nor: "It explained what specific causal role conscious integration plays, nor why the same functionality cannot be achieved without consciousness",
+  not_all_kinds_of_information: { definition: "Capable of being disseminated consciously (e.g", what_it_does: "", examples: "increases in brain size or cortical rearrangement" },
+  patients_with_hemispatial_neglect: { definition: "Often paralyzed on the left side of the body, but sometimes deny being unable to move", what_it_does: "", examples: "Douglas Hofstadter , dismiss this argument as incoherent" },
+  lovelace: "Essentially dismissive of the idea that a machine such as the Analytical Engine could think in a humanlike way",
+  its_province: "To assist us in making available what we are already acquainted with",
+  turingscale_robotics: "An empirical branch of research on embodied cognition and situated cognition",
+  a_positive_result_proves_that_a_machine: { definition: "Conscious but a negative result proves nothing", what_it_does: "", examples: "the various levels of spiritual consciousness presented by Prem Saran Satsangi and Stuart Hameroff" },
+
 };
 
 // ============================================================
