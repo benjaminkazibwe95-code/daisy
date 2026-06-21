@@ -13147,6 +13147,33 @@ const FLAT_DICT = {
   this_opera: "Originally composed and published in 2007 by Russian label MC Entertainment as a commercial product, but then the author changed its status to free",
   the_open_education_consortium: { definition: "An organization composed of various colleges that support open source and share some of their material online", what_it_does: "", examples: "Wikiversity —a community dedicated to the creation and exchange of learning materials" },
 
+  // === INGESTED 2026-06-21 20:58 ===
+  a_blockchain: "A continuously growing list of records , called blocks, which are linked and secured using cryptography",
+  it_confirms_that_each_unit_of_value: "Transferred only once, solving the long-standing problem of double-spending",
+  blocks_not_selected_for_inclusion_in_the_chain: "Called orphan blocks",
+  blockchains: "Typically built to add the score of new blocks onto old blocks and are given incentives to extend with new blocks rather than overwrite old blocks",
+  within_a_blockchain_the_computation: "Carried out redundantly rather than in the traditional segregated and parallel manner",
+  the_hard_fork_proposal: "Rejected, and some of the funds were recovered after negotiations and ransom payment",
+  a_more_recent_hardfork_example: "Of Bitcoin in 2017, which resulted in a split creating Bitcoin Cash",
+  value_tokens_sent_across_the_network: "Recorded as belonging to that address",
+  data_stored_on_the_blockchain: "Generally considered incorruptible",
+  data_quality: "Maintained by massive database replication [ 40 ] and computational trust",
+  messages: { definition: "Delivered on a best-effort basis", what_it_does: "", examples: "proof-of-work , to serialize changes" },
+  because_all_early_blockchains: "Permissionless, controversy has arisen over the blockchain definition",
+  an_issue_in_this_ongoing_debate: "Whether a private system with verifiers tasked and authorized (permissioned) by a central authority should be considered a blockchain",
+  although_most_of_blockchain_implementation: "Decentralized and distributed, Oracle launched a centralized blockchain table feature in Oracle 21c database",
+  a_sidechain: { definition: "A designation for a blockchain ledger that runs in parallel to a primary blockchain", what_it_does: "", examples: "by using an alternate means of record keeping, alternate consensus algorithm , etc.)" },
+  consortium_blockchains: "Commonly used in industries where multiple organizations need to collaborate on a common goal, such as supply chain management or financial services",
+  one_advantage_of_consortium_blockchains: "That they can be more efficient and scalable than public blockchains, as the number of nodes required to validate transactions is typically smaller",
+  most_cryptocurrencies: "Designed to gradually decrease the production of that currency, placing a cap on the total amount of that currency that will ever be in circulation",
+  blockchains_are_secure_by_design_and: { definition: "An example of a distributed computing system with high Byzantine fault tolerance", what_it_does: "", examples: "company shares, intellectual property, real estate, and others" },
+  namecoin: { definition: "Forked from bitcoin in 2011", what_it_does: "", examples: "wireless users [ 118 ] or musicians" },
+  the_objective: "To support transferring assets from one blockchain system to another blockchain system",
+  the_objective_of_blockchain_interoperability: "Therefore to support such cooperation among blockchain systems, despite those kinds of differences",
+  new_methods: "Required to develop audit plans that identify threats and risks",
+  the_inaugural_issue: "Published in December 2016",
+  authors: "Also asked to include a personal bitcoin address on the first page of their papers for non-repudiation purposes",
+
 };
 
 // ============================================================
