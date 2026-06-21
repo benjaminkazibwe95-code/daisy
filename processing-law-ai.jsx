@@ -14169,6 +14169,20 @@ const FLAT_DICT = {
   sour: { definition: "Evolutionarily significant as it can signal a food that may have gone rancid due to bacteria", what_it_does: "", examples: "sodium and potassium" },
   bitter_taste: "A sensation considered unpleasant, caused by foods such as unsweetened dark chocolate, caffeine , lemon rind, and some types of fruit",
 
+  // === INGESTED 2026-06-21 22:36 ===
+  it_commonly: "Physical and emotional well-being",
+  good_health: { definition: "Associated with normal functioning of the human body in day to day life, absent of disease , pain (including mental pain ), or injury", what_it_does: "", examples: "smoking or excessive stress" },
+  the_latter_is_to_say_that_society: { definition: "Arranged in a way that makes it easier for some, and harder for others, to receive healthcare or engage in health-promoting behavior", what_it_does: "", examples: "in the sense of healthy communities , healthy cities or healthy environments" },
+  a_number_of_health_issues: "Common around the globe",
+  mental_disorders: { definition: "The leading cause of disability in the United States and Canada", what_it_does: "", examples: "blood pressure )" },
+  macronutrients: { definition: "Consumed in relatively large quantities and include proteins, carbohydrates, and fats and fatty acids", what_it_does: "", examples: "protein, fat, carbohydrates and sugars)" },
+  provision_of_medical_care: "Classified into primary, secondary, and tertiary care categories",
+  tertiary_care_medical_services: "Provided by specialist hospitals or regional centers equipped with diagnostic and treatment facilities not generally available at local hospitals",
+  one_issue: "The access of individuals and communities to health care in terms of financial, geographical or socio-cultural constraints",
+  relaxation_techniques: "Physical methods used to relieve stress",
+  among_the_most_common_occupational_diseases: "Various forms of pneumoconiosis , including silicosis and coal worker's pneumoconiosis (black lung disease)",
+  asthma: { definition: "Another respiratory illness that many workers are vulnerable to", what_it_does: "", examples: "eczema , dermatitis , urticaria , sunburn , and skin cancer" },
+
 };
 
 // ============================================================
