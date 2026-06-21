@@ -12469,6 +12469,25 @@ const FLAT_DICT = {
   this_cyclic_lifeview: "Rooted in the natural world that surrounded the Egyptians, the daily passage of the sun, and the annual floods of the Nile",
   nilus: { definition: "Father of the naiad Memphis , mythical founder of the city of Memphis", what_it_does: "", examples: "a story in the Book of Exodus about the infant Moses being placed in a basket in the river" },
 
+  // === INGESTED 2026-06-21 19:54 ===
+  the_climate_generally: "Rather atypical of equatorial regions, being mostly arid or semi-arid, with more moisture as you go further south",
+  though_the_straits: "Never completely closed, there may have been islands in between which could be reached using simple rafts",
+  the_kingdom_of_aksum: "A trading empire centered Eritrea and northern Ethiopia",
+  the_kingdom: "Mentioned in the Periplus of the Erythraean Sea as an important marketplace for ivory , which was exported throughout the ancient world",
+  aksum: { definition: "At the time ruled by Zoskales , who also governed the port of Adulis", what_it_does: "", examples: "the Buganda [ 48 ] and Karagwe [ 48 ] kingdoms of Uganda and Tanzania" },
+  the_portuguese: "The first Europeans to explore the region of current-day Kenya , Tanzania , and Mozambique by sea",
+  a_much_more_vigorous_resistance: "Offered by the Moors of Mombasa",
+  the_three_main_colors_of_the_african_country: { definition: "Beige, red, and blue", what_it_does: "", examples: "parts from the present northern Mozambique country, up to Mombasa in present-day Kenya" },
+  zanzibar: "A semi-autonomous state in the United Republic of Tanzania",
+  this_somaliland_protectorate: { definition: "Just opposite the British colony of Aden on the Arabian Peninsula", what_it_does: "", examples: "the attempted coup d'état in 1982 and the 2007 election riots" },
+  the_geography_of_east_africa: "Often stunning and scenic",
+  one_factor: "Presence of the Somali Jet (a fast wind system) in boreal summer, which brings cool southern hemisphere air into East Africa",
+  rainfall_variability: { definition: "Influenced by both El Niño events and a positive Indian Ocean Dipole", what_it_does: "", examples: "Amharic , Arabic and Tigrinya ), and Omotic (such as Wolaytta ) branches" },
+  among_these_languages: "Kikuyu , Luhya , Kinyarwanda , Kirundi , Kisukuma , Luganda and many others",
+  christianity_and_islam: "The predominant religions of the region, with traditional African religions and religious syncretism being practiced too",
+  among_the_countries_where_christianity: "The largest religion, there are sizeable Muslim communities in Ethiopia , and on the Swahili coast in Kenya, Tanzania and Mozambique",
+  nairobi_and_addis_ababa: { definition: "The main financial hubs in East Africa", what_it_does: "", examples: "the economy of South Sudan which stagnated due to the South Sudanese Civil War" },
+
 };
 
 // ============================================================
