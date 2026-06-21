@@ -12401,6 +12401,25 @@ const FLAT_DICT = {
   kcca: { definition: "Second in national league wins with 13", what_it_does: "", examples: "those in Nigeria and South Africa in addition to the big budget films from Hollywood" },
   the_second: "The filmmaker who has the film aesthetic, but with limited funds has to depend on the competitive scramble for donor cash",
 
+  // === INGESTED 2026-06-21 19:48 ===
+  it_has_a_rapidly_growing_population_that: "Estimated at 6,709,900 people in 2019, in an area of 8,451.9 km 2 (3,263.3 square miles)",
+  kasozi: "'hill', ke 'of', and empala the plural of 'impala'",
+  the_religious_missions: { definition: "Also formally allocated land they were previously occupying", what_it_does: "", examples: "Old Kampala Hill, Nakasero Hill, etc" },
+  the_temple: { definition: "Inaugurated in January 1961", what_it_does: "", examples: "may engage in agriculture in addition to working in the formal sector" },
+  the_produce_grown_in_the_wetlands: "Sold in markets in the urban areas",
+  bodabodas: "Useful for passing through rush-hour traffic, although many are poorly maintained and dangerous",
+  the_bus_service: "Expected to cover the greater Kampala metropolitan area including Mukono , Mpigi , Bombo , Entebbe , Wakiso and Gayaza",
+  those_services: { definition: "Temporarily discontinued after RVR lost its concession in Uganda in October 2017", what_it_does: "", examples: "Mulago National Referral Hospital, Uganda's largest and most advanced public hospital" },
+  while_public_hospitals: "Often affordable or free, they face challenges like overcrowding, long waiting times, limited medical supplies, and under-staffing",
+  one_of_the_most_notable_sites: "The Kasubi Tombs , a UNESCO World Heritage Site and the burial grounds of the Buganda kings",
+  the_city: "Alive with music and dance, with numerous bars, clubs, and lounges offering entertainment late into the night",
+  kabalagala_and_kololo: "Popular areas for nightlife",
+  the_name_ndere: { definition: "Derived from the noun ' endere ', which means flute", what_it_does: "", examples: "football matches, athletics, and concerts" },
+  the_stadium: "Home to the Uganda national football team, the Cranes, and hosts various local and international competitions",
+  lugogo_sports_complex: "A sports hub in Kampala, offering facilities for a range of sports including tennis , cricket , and boxing",
+  the_mtn_arena_within_the_complex: "A modern indoor arena with a capacity of around 3,000, used for basketball , netball , volleyball , and other indoor sports",
+  the_lugogo_cricket_oval: "Another highlight, hosting national and international cricket matches, making it the centre of cricket in Uganda",
+
 };
 
 // ============================================================
