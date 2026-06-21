@@ -14573,6 +14573,14 @@ const FLAT_DICT = {
   many_of_these_medical_expenses: "Not covered through insurance policies that might either be private/individual insurance coverage or through federal or national insurance coverage",
   financially_educated_high_school_students: "More likely to have a savings account with regular savings, fewer overdrafts, and more likely to pay off their credit card balances",
 
+  // === INGESTED 2026-06-21 23:16 ===
+  this_linear_perception_of_time: "Predominant in America and most Northern European countries, such as Germany, Switzerland and England",
+  this_multiactive_time_view: { definition: "Prominent in most Southern European countries such as Spain, Portugal and Italy", what_it_does: "", examples: "placing a high importance on finishing social conversations" },
+  its_distinctive_feature: "The ABC priority system combined with numerical rankings (A1, A2, B1, etc",
+  the_eisenhower_method_or_eisenhower_principle: "A method that utilizes the principles of importance and urgency to organize priorities and workload",
+  the_urgent: "Not important, and the important are never urgent",
+  tasks_in_the_quadrants: "Then handled as follows",
+
 };
 
 // ============================================================
