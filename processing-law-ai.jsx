@@ -14217,6 +14217,30 @@ const FLAT_DICT = {
   these_gyms_are_free_to_the_public_and: "Often placed in beautiful, picturesque environments",
   overtraining: "Also known as chronic fatigue, burnout, and overstress in athletes",
 
+  // === INGESTED 2026-06-21 22:42 ===
+  dix: "A school teacher who endeavored to help people with mental disorders and to expose the sub-standard conditions into which they were put",
+  some_discussions: "Formulated in terms of contentment or happiness",
+  these_disorders: "Most destructive to low and middle-income countries due to their inability to provide their citizens with proper aid",
+  an_example_is_when_an_area_of_farmland: { definition: "Less able to produce food", what_it_does: "", examples: "depression and anxiety" },
+  research_has_shown_that_there: { definition: "Stigma attached to mental illness", what_it_does: "", examples: "with the creation of the Religious Liberty Task Force in July of that year" },
+  it_is_obvious_that_more_accurate_depictions: "Needed, when these often reinforce self-stigma , and make mentally ill individuals feel like they can become horrific killers too",
+  promotion: "Defined as intervening to optimize positive mental health by addressing determinants of positive mental health (i.e",
+  mental_health_prevention: "Defined as intervening to minimize mental health problems (i.e",
+  this_californiabased_project: "Working to combat the negative perception with mental health and reduce the stigma associated with it",
+  other_common_experiences: { definition: "That shared mental health notes enhance patient empowerment and augment patient autonomy", what_it_does: "", examples: "Facebook and Instagram" },
+  though_many_care_navigators: "Also trained therapists and doctors",
+  care_navigation: "The link between the patient and the below therapies",
+  pharmacotherapy: { definition: "Used in the treatment of mental illness through the use of antidepressants , benzodiazepines , and the use of elements such as lithium", what_it_does: "", examples: "endorphins, which can elevate a person's mood" },
+  it_has_been_proven_that_music_therapy: "An effective way of helping people with a mental health disorder",
+  group_therapy: { definition: "Any type of therapy that takes place in a setting involving multiple people", what_it_does: "", examples: "the Twelve-step program ), problem-solving and psychoeducation groups" },
+  even_people_who: { definition: "Mentally healthy can benefit from the health promotion and additional prevention strategies to reduce the impact of difficult situations", what_it_does: "", examples: "bringing about reductions in depression , anxiety and stress" },
+  fewer_than_half_of_the_planned_centers: "Created, and new methods did not fully replace the old approaches to carry out its full capacity of treating power",
+  the_movement_of_deinstitutionalization: "Facing great challenges",
+  a_new_medicaid_service: "Also established to serve people who were diagnosed with a 'chronic mental illness'",
+  people_who_were_temporally_hospitalized: "Also provided aid and care and a pre-release program was created to enable people to apply for reinstatement prior to discharge",
+  the_seriously_mentally_ill: "Either homeless, or in prison; in either case (especially the latter), they are getting little or no mental health care",
+  east_asian_countries: { definition: "Heavily influenced by cultural beliefs, associating mental health issues with weakness", what_it_does: "", examples: "AIDS, malaria, and Ebola attract health services attention due to the population impact" },
+
 };
 
 // ============================================================
