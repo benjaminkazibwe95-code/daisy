@@ -14567,6 +14567,12 @@ const FLAT_DICT = {
   ages_are_a_group_of_compounds_that: { definition: "Formed between reducing sugars and amino acids via the Maillard reaction", what_it_does: "", examples: "lemon juice and vinegar beforehand" },
   thermal_diffusivity: { definition: "The combination of specific heat, conductivity, and density that determines how long it will take for the food to reach a certain temperature", what_it_does: "", examples: "at restaurants, or schools" },
 
+  // === INGESTED 2026-06-21 23:14 ===
+  the_educational_programs: "Frequently known as ' financial literacy '",
+  the_key_component_of_personal_finance: "Financial planning which is a dynamic process requiring regular monitoring and re-evaluation",
+  many_of_these_medical_expenses: "Not covered through insurance policies that might either be private/individual insurance coverage or through federal or national insurance coverage",
+  financially_educated_high_school_students: "More likely to have a savings account with regular savings, fewer overdrafts, and more likely to pay off their credit card balances",
+
 };
 
 // ============================================================
