@@ -13466,6 +13466,23 @@ const FLAT_DICT = {
   this_essentially: { definition: "That the inflation rate in the fixed exchange rate country is determined by the inflation rate of the country the currency is pegged to", what_it_does: "", examples: "the amount of specie per currency unit" },
   the_currency_itself_has_no_innate_value_but: { definition: "Accepted by traders because it can be redeemed for the equivalent value of the commodity (specie)", what_it_does: "", examples: "could be redeemed for an actual piece of silver" },
 
+  // === INGESTED 2026-06-21 21:30 ===
+  this_institution: { definition: "Introduced in 1908 after a period of so-called freedom of trade ( Gewerbefreiheit , introduced in 1871) in the German Reich", what_it_does: "", examples: "Carl Menger (1840–1921), Ludwig von Mises (1881–1973) and Friedrich von Hayek (1899–1992)" },
+  schumpeter: "Of the opinion that entrepreneurs shift the production-possibility curve to a higher level using innovations",
+  participating_in_a_new_business_creation: { definition: "A common activity among U.S", what_it_does: "", examples: "not-for-profits, charities, foundations and business advocacy groups (e.g" },
+  census_data_shows_that_whites: "More likely than Asians, African-Americans and Latinos to be self-employed in high prestige, lucrative industries",
+  while_religion: "A central topic in society, it is largely overlooked in entrepreneurship research",
+  feminist_entrepreneurs: "Motivated to enter commercial markets by desire to create wealth and social change, based on the ethics of cooperation, equality and mutual respect",
+  millennial_business_owners: { definition: "Well-equipped with knowledge of new technology and new business models and have a strong grasp of its business applications", what_it_does: "", examples: "Mark Zuckerberg , who created Facebook" },
+  industries_where_projectbased_enterprises: "Widespread include: sound recording , film production, software development , television production, new media and construction",
+  project_entrepreneurs: "Exposed repeatedly to problems and tasks typical of the entrepreneurial process",
+  another_type_of_project_entrepreneurship: { definition: "Entrepreneurs working with business students to get analytical work done on their ideas", what_it_does: "", examples: "poverty alleviation, health care [ 126 ] and community development" },
+  biosphere_entrepreneurship: "'entrepreneurial activity that generates value for the biosphere and ecosystem services",
+  a_supporting_but_invisible_family: "One of the success factors when being portrayed as a male entrepreneur in media",
+  entrepreneurial_personality: "Associated with high self-efficacy, autonomy, innovativeness, internal locus of control, achievement motivation, optimism, and stress tolerance",
+  the_reason: "That college gives people additional skills that can be used within their business and to operate on a higher level than someone who only 'runs' it",
+  their_economic_value: { definition: "Generating activities or services through mobilization by entrepreneurs", what_it_does: "", examples: "both copyrights , trademarks and patents" },
+
 };
 
 // ============================================================
