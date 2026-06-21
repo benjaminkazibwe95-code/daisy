@@ -13511,6 +13511,13 @@ const FLAT_DICT = {
   when_the_value_of_a_company: "Over US$10 billion, the company will be called as a decacorn",
   when_the_company: { definition: "Valued over US$100 billion, hectocorn will be used", what_it_does: "", examples: "those created by start-ups, simple and technical solutions can be found to all kinds of problems" },
 
+  // === INGESTED 2026-06-21 21:34 ===
+  a_business_model: "How a business organization creates, delivers, and captures value , [ 2 ] in economic, social, cultural or other contexts",
+  a_variant_of_this_model: "Employed by Adobe , a software developer that gave away its document reader free of charge but charged several hundred dollars for its document writer",
+  the_business_model_concept: "Not without its critics (e.g., redundancy) and suggestions for further extensions (e.g., to nonmonetary exchange)",
+  she_notes_that_the_model: { definition: "Ill-suited for those 'accustomed to free content and services', leading to a variant, the freemium model", what_it_does: "", examples: "when the tooling company Hilti shifted from selling its tools to a leasing model" },
+  managing_this: "A task of integrated marketing",
+
 };
 
 // ============================================================
