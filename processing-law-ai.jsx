@@ -12741,6 +12741,26 @@ const FLAT_DICT = {
   television_and_radio_programmes_in_an_ecl: "Prohibited, and it is nearly impossible to get permission to publish a newspaper in an ECL",
   the_government: "Implementing measures to contain the virus's spread and is collaborating with international health organizations to manage the situation",
 
+  // === INGESTED 2026-06-21 20:21 ===
+  its_capital_and_largest_city: "Kigali , located at the centre of the country, at 1,567 metres above sea level",
+  habyarimana: "Assassinated in April 1994 by unknown parties",
+  the_population: "Young and predominantly rural; Rwanda has one of the youngest populations in the world",
+  rwandans: "Drawn from just one cultural and linguistic group, the Banyarwanda",
+  the_twa: "Forest-dwelling Central African foragers and are often considered descendants of Rwanda's earliest inhabitants",
+  coffee_and_tea: "The major cash crops that it exports, although it is surpassed in banana production",
+  tourism_is_a_fastgrowing_sector_and: { definition: "Now the country's leading foreign exchange earner", what_it_does: "", examples: "new crops and improved agricultural techniques to try to reduce the incidence of famine" },
+  it_makes_legislation_and: "Empowered by the constitution to oversee the activities of the president and the Cabinet",
+  enlistment_in_the_rdf: "Entirely voluntary, and the minimum age for recruitment is 18 years",
+  naturally_occurring_vegetation: "Now mostly restricted to the three national parks , with terraced agriculture dominating the rest of the country",
+  the_phone: "Introduced as part of the ConnectRwanda 2.0 initiative",
+  aviation: "Centered at Kigali International Airport , which serves several international destinations; the busiest routes are those to Nairobi and Entebbe",
+  the_currency_used: { definition: "The Rwandan franc , created in 1964", what_it_does: "", examples: "the use of electronic warehouse receipts in commodity trading" },
+  music_and_dance: "An integral part of Rwandan ceremonies, festivals, social gatherings and storytelling",
+  drums: "Of great importance; the royal drummers enjoyed high status within the court of the King ( Mwami )",
+  the_most_popular_genre: "Hip hop , with a blend of dancehall , rap , ragga , R&B and dance-pop",
+  woven_baskets_and_bowls: "Especially common, notably the basket style of the agaseke",
+  the_dung: { definition: "Mixed with natural soils of various colours and painted into patterned ridges to form geometric shapes", what_it_does: "", examples: "corrugated iron" },
+
 };
 
 // ============================================================
