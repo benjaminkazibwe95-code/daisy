@@ -14598,6 +14598,19 @@ const FLAT_DICT = {
   collective_problem_solving: "Problem solving performed collectively",
   the_knowledge_shared_during_these_interactions: { definition: "Acquired during communication, negotiation, and production of materials", what_it_does: "", examples: "planetary-scale) problem solving" },
 
+  // === INGESTED 2026-06-21 23:20 ===
+  while_the_use_of_language: "Universal across human societies, most spoken languages are not written",
+  the_history_of_writing: { definition: "Co-extensive with uses of writing and the elaboration of activity systems that give rise to and circulate writing", what_it_does: "", examples: "contracts, reports to government agencies, tax records, and accounting reports" },
+  some_of_this: "Explicitly directed toward the learning of writing, but much is focused more on subject learning",
+  utterances: { definition: "Typically less premeditated, and are more likely to feature informal vocabulary and shorter sentences", what_it_does: "", examples: "trailing off and fillers that indicate the sender has not yet finished their turn" },
+  while_speech_and_signing: "Transient, writing is permanent",
+  noun_phrases: "Generally predominantly third person , but they are even more so in written language",
+  verb_phrases_in_spoken_english: { definition: "More likely to be in simple aspect than in perfect or progressive aspect, and almost all of the past perfect verbs appear in written fiction", what_it_does: "", examples: "Korean and Vietnamese" },
+  phonetically_similar_syllables: "Not written similarly",
+  the_earliest_alphabets: "Abjads, influenced by symbols representing specific consonants that originated in Egyptian hieroglyphs",
+  the_oldest_deciphered_sentence: "Attested on a seal impression from the tomb of Seth-Peribsen at Abydos, dating to the Second Dynasty (28th or 27th century BC)",
+  protosinaitic_and_phoenician: { definition: "Abjads which only had letters representing consonantal sounds; Phoenician was ultimately adapted into the Greek alphabet ( c", what_it_does: "", examples: "the Latin alphabet" },
+
 };
 
 // ============================================================
