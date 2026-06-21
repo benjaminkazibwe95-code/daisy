@@ -12868,6 +12868,23 @@ const FLAT_DICT = {
   although_few_south_african_film_productions: { definition: "Known outside South Africa, many foreign films have been produced about South Africa", what_it_does: "", examples: "milk tart and koeksisters reflect the country's layered culinary traditions" },
   gary_player: "Regarded as one of the greatest golfers of all time, having won the Career Grand Slam , one of five to have done so",
 
+  // === INGESTED 2026-06-21 20:29 ===
+  most_ghanaians: "Christians (71.3%); almost a fifth are Muslims ; a tenth practise traditional faiths or report no religion",
+  danquah_proposed_that_the_term_ghana: { definition: "A corruption of Akane or Akana and associated it with the ancient region of Akkad", what_it_does: "", examples: "farming and fisheries" },
+  their_dispersal_from_nortsie: "Necessitated by the high-handed rule of King Agorkorli (Agɔ Akɔli), who was the reigning monarch of the tribe at that time",
+  nkrumah: "Arrested and sentenced to one year imprisonment during this time",
+  this_occurred_while_nkrumah: "Abroad with Zhou Enlai in the People's Republic of China, on a mission to Hanoi , Vietnam, to help end the Vietnam War",
+  the_national_liberation_council: "Formed, chaired by Lieutenant General Joseph A",
+  these_ships: "Carrying thousands of kilograms of cocaine, with a street value running into billions of Ghana cedis",
+  the_nation: { definition: "A producer and exporter of petroleum and natural gas", what_it_does: "", examples: "sweet crude oil and natural gas" },
+  the_assertion: "Based on a survey in 2010 of a cross-section of travellers",
+  of_all_the_african_countries_that: "Included in the survey, Ghana ranked highest",
+  hausa: { definition: "Most widely spoken in the northern part of Ghana especially among the Muslim communities", what_it_does: "", examples: "universities" },
+  senior_high_schools: "Provided with all their textbook requirements by the government",
+  the_main_weaving_centres: "Agortime area and Agbozume",
+  the_cloth_known_as_african_print_fabric: { definition: "Created out of Dutch wax textiles", what_it_does: "", examples: "Solange Knowles and her sister Beyoncé have been seen wearing African print attire" },
+  ghana_has_museums_that: "Situated inside castles, and two are situated inside a fort",
+
 };
 
 // ============================================================
