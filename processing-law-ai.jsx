@@ -14611,6 +14611,19 @@ const FLAT_DICT = {
   the_oldest_deciphered_sentence: "Attested on a seal impression from the tomb of Seth-Peribsen at Abydos, dating to the Second Dynasty (28th or 27th century BC)",
   protosinaitic_and_phoenician: { definition: "Abjads which only had letters representing consonantal sounds; Phoenician was ultimately adapted into the Greek alphabet ( c", what_it_does: "", examples: "the Latin alphabet" },
 
+  // === INGESTED 2026-06-21 23:22 ===
+  the_main_objective_of_public_speaking: "To inform or change the audience's thoughts and actions",
+  ted_talks: { definition: "An example of educational public speaking", what_it_does: "", examples: "science, technology, religion, economics, human society , and psychology" },
+  ted: "Originally built by Richard Saul Furman in February 1984 as a conference and has been held annually since 1990",
+  talks_delivered_in_these_conferences: { definition: "Usually posted online", what_it_does: "", examples: "increased self-confidence, and improved access to information" },
+  rhetorical_tools: "First taught by a group of teachers called Sophists , who taught paying students how to speak effectively using their methods",
+  after_his_father_died_when_he: "7, he had three legal guardians: Aphobus, Demophon, and Theryppides",
+  famous_orators: "Celebrities in ancient Rome, becoming wealthy and prominent in society",
+  the_ornate_latin_style: "The primary form of oration through the mid-20th century",
+  the_five_canons: "Invention, arrangement, style, memory, and delivery",
+  arrangement: "The process of structuring ideas together",
+  telecommunication_and_videoconferencing: "Also forms of public speaking",
+
 };
 
 // ============================================================
