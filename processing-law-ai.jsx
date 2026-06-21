@@ -13392,6 +13392,21 @@ const FLAT_DICT = {
   an_oligopsony: "A market with a few buyers and many sellers",
   information_economics: { definition: "A branch of microeconomic theory that studies how information and information systems affect an economy and economic decisions", what_it_does: "", examples: "if one relaxes this assumption, one can scrutinize agents' actions in situations of uncertainty" },
 
+  // === INGESTED 2026-06-21 21:23 ===
+  macroeconomics: { definition: "A branch of economics that deals with the performance, structure, behavior, and decision-making of an economy as a whole", what_it_does: "", examples: "firms or consumers" },
+  this_divide: { definition: "Institutionalized in the field of economics, given the differences in both methods and outcomes of interest", what_it_does: "", examples: "unemployment, that are unaffected by short-term shocks, and long-term economic growth" },
+  everything_that: "Produced and sold generates an equal amount of income",
+  the_total_net_output_of_the_economy: { definition: "Usually measured as GDP", what_it_does: "", examples: "those with very large net foreign assets (or debt), the difference may be considerable" },
+  the_amount_of_unemployment_in_an_economy: { definition: "Measured by the unemployment rate, i.e., the percentage of persons in the labor force who do not have a job, but who are actively looking for one", what_it_does: "", examples: "the oil crises of the 1970s and the 2021–2023 global energy crisis" },
+  that_proportion_of_money: "Based on the deposits made at the bank",
+  these_new_spendable_bank_deposits: { definition: "Counted in the money supply even though the amount of physical currency did not change", what_it_does: "", examples: "labor migration and the international relocation of firms (physical capital)" },
+  friedman_also_argued_that_monetary_policy: "More effective than fiscal policy; however, Friedman doubted the government's ability to 'fine-tune' the economy with monetary policy",
+  rbc_models: "Created by combining fundamental equations from neo-classical microeconomics to make quantitative models",
+  the_solow_model_assumes_that_labor_and_capital: { definition: "Used at constant rates without the fluctuations in unemployment and capital utilization commonly seen in business cycles", what_it_does: "", examples: "land, water, or energy as inputs" },
+  both_forms_of_policy: { definition: "Used to stabilize the economy , i.e", what_it_does: "", examples: "a liquidity trap" },
+  when_nominal_interest_rates: { definition: "Near zero, central banks cannot loosen monetary policy through conventional means", what_it_does: "", examples: "quantitative easing to help stabilize output" },
+  independent_central_banks: "Less likely to be subject to political pressure to pursue overly expansionary policies",
+
 };
 
 // ============================================================
