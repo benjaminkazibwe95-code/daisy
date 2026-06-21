@@ -13198,6 +13198,23 @@ const FLAT_DICT = {
   nfts: "Bought and traded using cryptocurrency",
   the_ethereum_blockchain: { definition: "The first place where NFTs were implemented, but now many other blockchains have created their own versions of NFTs", what_it_does: "", examples: "Coinbase were gradually entering the traditional financial markets" },
 
+  // === INGESTED 2026-06-21 21:03 ===
+  the_second_category: "Based on the nature of the participant ( B2B , B2C , C2B and C2C )",
+  data_integrity_and_security: { definition: "Pressing issues for electronic commerce", what_it_does: "", examples: "online advertising, and states that advertising must be truthful and non-deceptive" },
+  apec: { definition: "Established in 1989 with the vision of achieving stability, security and prosperity for the region through free and open trade and investment", what_it_does: "", examples: "electronic commerce" },
+  yuldashev_writes_that_consumers: { definition: "Scaling up to more modern technology that allows for mobile marketing", what_it_does: "", examples: "UAE has the greatest smartphone penetration of 73.8 per cent and has 91" },
+  the_online_market: "Expected to grow by 56% in 2015–2020",
+  brick_and_mortar_retailers: "Struggling because of online retailer's ability to offer lower prices and higher efficiency",
+  many_larger_retailers: "Able to maintain a presence offline and online by linking physical and online offerings",
+  dropshipping_is_a: { definition: "Of shipping goods from a manufacturer or wholesaler directly to a customer instead of to a retailer", what_it_does: "", examples: "Alibaba.com, Chinabrands.com, Doba, Printful, Salehoo, Shopify, and Spocket" },
+  another_issue_regarding_the_online_market: "Concerns about the security of online transactions",
+  ecommerce_security: "Protecting businesses' websites and customers from unauthorized access, use, alteration, or destruction",
+  yet_these_new_capabilities: { definition: "Still not fully exploited", what_it_does: "", examples: "political barriers or cross-country changes" },
+  the_areas_with_the_greatest_predicted_jobloss: "Retail, postal, and travel agencies",
+  customers: "Also concerned with the security of online transactions and tend to remain loyal to well-known retailers",
+  if_the_products: "Expensive, large or fragile, it refers to safety issues",
+  the_recycling_rate_in_europe: "80 percent and Asia was 93 percent",
+
 };
 
 // ============================================================
