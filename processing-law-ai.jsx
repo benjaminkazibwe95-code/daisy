@@ -13706,6 +13706,29 @@ const FLAT_DICT = {
   this_means_it: "Possible to overcome them",
   policies_to_achieve_the_sdgs: "Meant to cohere around this concept",
 
+  // === INGESTED 2026-06-21 21:57 ===
+  the_small_loans: "Made to 'poor industrious tradesmen' for reproductive purposes: the seed money would multiply",
+  the_approach_of_microfinance: "Institutionalized by Yunus in 1976, with the foundation of Grameen Bank in Bangladesh",
+  this_forces_them_to_revert_to_other: "Of acquiring the funds",
+  because_all_the_value_is_accumulated_before_it: "Needed, this money management strategy is referred to as 'saving up'",
+  one_of_the_issues: "That while saving, clients are actually losing part of their savings",
+  this_specific_microfinance_project: "An example of the benefits and limitations of the 'saving up' project",
+  the_global_average_interest_and_fee_rate: { definition: "Estimated at 37%, with rates reaching as high as 70% in some markets", what_it_does: "", examples: "offices and staff salaries" },
+  brac: "Ranked the number one NGO in the world in 2015 and 2016 by the Geneva-based NGO Advisor",
+  evidence_shows_that_they: "Less likely to default on their loans than men",
+  the_delinquency_rate_for_solidarity_lending: "0.9% after 30 days (individual lending—3.1%), while 0.3% of loans were written off (individual lending—0.9%)",
+  microfinancing: { definition: "Based on the philosophy that even small amounts of credit can help end the cycle of poverty", what_it_does: "", examples: "extending education and jobs" },
+  families_receiving_microfinancing: { definition: "Less likely to pull their children out of school for economic reasons", what_it_does: "", examples: "more articulate and better-off community members may cheat poorer or less-educated neighbours" },
+  ensuring_financial_services_to_poor_people: "Best done by expanding the number of financial institutions available to them, as well as by strengthening the capacity of those institutions",
+  families_who: "Destitute, or so poor they are unlikely to be able to generate the cash flow required to repay a loan, should be recipients of charity",
+  a_benchmark: { definition: "Established by an analysis of 'alternative financial institutions' in the developing world in 2004", what_it_does: "", examples: "donors, investors, banks, government, etc" },
+  their_banking_policy: "Based on cooperative values and expert financial advising",
+  microfinance: { definition: "Also limited by the rules and limitations surrounding money-lending", what_it_does: "", examples: "Canada Revenue Agency limits the loans made in these sorts of transactions to a maximum of $25,000" },
+  the_microfinance_network: { definition: "A network of 20 to 25 of the world's largest microfinance institutions, spread across Asia, Africa, the Middle East, Europe and Latin America", what_it_does: "", examples: "direct microfinance practitioners, and microfinance funders" },
+  its_main_activity: "The organisation of its annual conference, which has taken place each year since 2004",
+  the_quality_and_range_of_financial_services: { definition: "Important for achieving broader financial inclusion", what_it_does: "", examples: "MYC4 , Kiva, Zidisha, myELEN, Opportunity International and the Microloan Foundation" },
+  these_banks: "Closed shortly after clients had deposited money and their deposits were lost",
+
 };
 
 // ============================================================
