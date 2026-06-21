@@ -14790,6 +14790,24 @@ const FLAT_DICT = {
   the_meridians: { definition: "Subdivided into 360°, with each degree further subdivided into 60 ( minutes )", what_it_does: "", examples: "Muhammad al-Idrisi produced detailed world maps (such as Tabula Rogeriana )" },
   while_the_problem_of_latitude: { definition: "Solved long ago, the problem of longitude remained; agreeing on which meridian should be zero was only part of the problem", what_it_does: "", examples: "participant observation and geostatistics, into geography's portfolio of tools" },
 
+  // === INGESTED 2026-06-21 23:41 ===
+  a_continent: "Any of several large terrestrial geographical regions",
+  continents: "Generally identified by convention rather than any strict criteria",
+  oceanic_islands: { definition: "Occasionally grouped with a nearby continent to divide all the world's land into geographical regions", what_it_does: "", examples: "both dry land and continental shelves '" },
+  continental_crust: "Less dense and much thicker than oceanic crust, which causes it to 'float' higher than oceanic crust on the dense underlying mantle",
+  several_continents: "Defined not as absolutely distinct bodies but as ' more or less discrete masses of land'",
+  both_of_these_isthmuses: "Very narrow compared to the bulk of the landmasses they unite",
+  north_america_and_south_america: "Treated as separate continents in the seven-continent model",
+  this_viewpoint: { definition: "Common in the United States until World War II , and remains prevalent in some Asian and most Latin American six-continent models", what_it_does: "", examples: "Great Britain , were joined to the mainlands of their continents" },
+  certain_parts_of_continents: "Recognized as subcontinents, especially the large peninsulas separated from the main continental landmass by geographical features",
+  the_most_widely_recognized_example: "The Indian subcontinent",
+  later_it: { definition: "Viewed as running from the Black Sea through Kerch Strait , the Sea of Azov and along the Don River (known then as the Tanais ) in Russia", what_it_does: "", examples: "the Oliveriana (Pesaro) map of around 1504–1505" },
+  it_seems_clear_that_the_himalayas: "The approximate location of Mt",
+  meru_and_the_text: { definition: "Clear that the earth has seven continents", what_it_does: "", examples: "Republican China and Vietnam" },
+  the_shield: "A region where ancient crystalline basement rock (typically 1.5 to 3.8 billion years old) is widely exposed at the surface",
+  the_platform_surrounding_the_shield: "Also composed of ancient basement rock, but with a cover of younger sedimentary rock",
+  an_active_margin: { definition: "Characterised by mountain building, either through a continent-on continent collision or a subduction zone", what_it_does: "", examples: "the historical geographer Martin W" },
+
 };
 
 // ============================================================
