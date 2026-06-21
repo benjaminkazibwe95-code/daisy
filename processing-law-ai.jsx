@@ -13337,6 +13337,33 @@ const FLAT_DICT = {
   crops_like_golden_rice: { definition: "Engineered to have higher nutritional content, and there is potential for food products with longer shelf lives", what_it_does: "", examples: "industrial fermentation" },
   each_successful_application: { definition: "Generally funded for five years then must be competitively renewed", what_it_does: "", examples: "GMO embargo, share common flaws in the statistical evaluation of the data" },
 
+  // === INGESTED 2026-06-21 21:19 ===
+  microeconomics_analyses_what: { definition: "Viewed as the basic elements of economies, including individual agents and markets , their interactions, and the outcomes of those interactions", what_it_does: "", examples: "'economy' can therefore often mean 'frugal' or 'thrifty'" },
+  but_they: "All called biology because they all study living organisms",
+  both_groups: "Associated with the rise of economic nationalism and modern capitalism in Europe",
+  mercantilism: { definition: "An economic doctrine that flourished from the 16th to the 18th century in a prolific pamphlet literature, whether of merchants or politicians", what_it_does: "", examples: "import tariffs" },
+  marx_wrote_that_they: "Mechanisms used by capital to exploit labour",
+  these_three_items: "Considered only in relation to the increase or diminution of wealth, and not in reference to their processes of execution",
+  an_immediate_example_of_this: { definition: "The consumer theory of individual demand, which isolates the effects of prices (as costs) and income on the quantity demanded", what_it_does: "", examples: "a steady rate of money growth" },
+  sometimes_an_economic_hypothesis: { definition: "Only qualitative , not quantitative", what_it_does: "", examples: "regression analysis are common" },
+  efficiency_improves_when_more_output: "Generated without changing inputs",
+  a_widely_accepted_general_standard: { definition: "Pareto efficiency , which is reached when no further change can make someone better off without making someone else worse off", what_it_does: "", examples: "at X ) and by the negative slope of the curve" },
+  much_applied_economics_in_public_policy: { definition: "Concerned with determining how the efficiency of an economy can be improved", what_it_does: "", examples: "due to differences in stocks of human capital per worker or capital -to- labour ratios" },
+  a_measure_of_gains_from_trade: "The increased income levels that trade may facilitate",
+  demand_theory: "Individual consumers as rationally choosing the most preferred quantity of each good, given income, prices, tastes, etc",
+  a_term_for_this: { definition: "'constrained utility maximisation' (with income and wealth as the constraints on demand)", what_it_does: "", examples: "an increase in income will shift the demand curve for a normal good outward, as shown in the figure" },
+  all_determinants: "Treated as constant factors in demand and supply",
+  the_most_obvious_kinds_of_firms: { definition: "Corporations , partnerships and trusts", what_it_does: "", examples: "regression analysis , in the absence of certainty and perfect knowledge" },
+  financial_economics_or_simply_finance: "The allocation of financial resources",
+  customers_who_do_not_know_whether_a_car: { definition: "A 'lemon' depress its price below that of a quality second-hand car", what_it_does: "", examples: "insurance, contract law , mechanism design , monetary economics , and health care" },
+  public_goods_are_goods_that: "Under-supplied in a typical market",
+  the_defining_features: "That people can consume public goods without paying for them and that more than one person can consume the good at the same time",
+  externalities_occur_where_there: { definition: "High social costs or benefits from production or consumption that are not reflected in market prices", what_it_does: "", examples: "lower crime)" },
+  people_who: { definition: "Retired, pursuing education, or discouraged from seeking work by a lack of job prospects are excluded from the labour force", what_it_does: "", examples: "a mismatch between workers' skills and the skills required for available jobs" },
+  when_there: "No output gap, the economy is producing at full capacity, with no excess productive resources",
+  some_economists_think_that_crowding_out: { definition: "Always an issue, while others do not think it is a major issue when output is depressed", what_it_does: "", examples: "consumption, land ownership, and human capital" },
+  international_finance: { definition: "A macroeconomic field that examines the flow of capital across international borders and the effects of these movements on exchange rates", what_it_does: "", examples: "how monopoly, rent-seeking behaviour, and externalities should impact government policy" },
+
 };
 
 // ============================================================
