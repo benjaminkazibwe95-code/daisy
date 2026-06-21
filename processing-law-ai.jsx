@@ -11581,6 +11581,16 @@ const FLAT_DICT = {
   an_example_in_algebraic_combinatorics: { definition: "The application of group theory to analyze graphs and symmetries", what_it_does: "", examples: "they are used to express scientific laws and solve equations in physics , chemistry , and biology" },
   the_mass_of_some_objects_on_the_scale: { definition: "Unknown and represents variables", what_it_does: "", examples: "the systems of rational numbers, the real numbers, and the polynomials" },
 
+  // === INGESTED 2026-06-21 14:26 ===
+  the_geometry_that_underlies_general_relativity: "A famous application of non-Euclidean geometry",
+  the_earliest_known_texts_on_geometry: { definition: "The Egyptian Rhind Papyrus (2000–1800 BC) and Moscow Papyrus ( c", what_it_does: "", examples: "Plimpton 322 (1900 BC)" },
+  although_most_of_the_contents_of_the_elements: { definition: "Already known, Euclid arranged them into a single, coherent logical framework", what_it_does: "", examples: "problems about volumes of irregular solids)" },
+  planes: { definition: "Used in many areas of geometry", what_it_does: "", examples: "a sphere or paraboloid" },
+  a_manifold: { definition: "A generalization of the concepts of curve and surface", what_it_does: "", examples: "in general relativity and string theory" },
+  congruence_and_similarity: { definition: "Generalized in transformation geometry , which studies the properties of geometric objects that are preserved by different kinds of transformations", what_it_does: "", examples: "the graphics of Leonardo da Vinci , M" },
+  discrete_geometry: { definition: "A subject that has close connections with convex geometry", what_it_does: "", examples: "points, lines and circles" },
+  mathematics_and_art: { definition: "Related in a variety of ways", what_it_does: "", examples: "plane curves could now be represented analytically in the form of functions and equations" },
+
 };
 
 // ============================================================
