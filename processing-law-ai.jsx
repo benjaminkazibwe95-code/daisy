@@ -12488,6 +12488,36 @@ const FLAT_DICT = {
   among_the_countries_where_christianity: "The largest religion, there are sizeable Muslim communities in Ethiopia , and on the Swahili coast in Kenya, Tanzania and Mozambique",
   nairobi_and_addis_ababa: { definition: "The main financial hubs in East Africa", what_it_does: "", examples: "the economy of South Sudan which stagnated due to the South Sudanese Civil War" },
 
+  // === INGESTED 2026-06-21 19:56 ===
+  the_bloc: "Launched on 9 July 2002 in Durban , South Africa",
+  the_african_economy: "Regionally integrated through this union",
+  the_largest_city_in_the_au: { definition: "Lagos , Nigeria, while the largest urban agglomeration is Cairo , in Egypt", what_it_does: "", examples: "the Sahara and the Nile" },
+  the_au: "A member of the G20",
+  the_highest_decisionmaking_organ: "The Assembly of the African Union , made up of all the heads of state or government of member states of the AU",
+  the_assembly: { definition: "Chaired by Évariste Ndayishimiye , President of Burundi", what_it_does: "", examples: "LGBT people, religious groups and ethnicities) and corruption" },
+  all_un_member_states_in_the_african_continent: "Members of the African Union",
+  a_study_on_the_union_government: { definition: "Adopted in late 2006, [ 61 ] and proposes various options for 'completing' the African Union project", what_it_does: "", examples: "Africans in the Diaspora , in the processes leading to the formation of the Union Government'" },
+  the_review: "Presented to the Assembly of Heads of State and Government at the January 2008 summit in Addis Ababa",
+  the_tower: "99.9 meters high to signify the date 9 September 1999, when the Organisation of African Unity voted to become the African Union",
+  peace_and_security: "Important elements for sustainable development, prosperity and resilience of societies",
+  iafs: { definition: "Held once in every three years", what_it_does: "", examples: "43 heads-of-state or government, attended the summit" },
+  the_first_summit: "The Turkey–Africa Cooperation summit, Istanbul in August 2008",
+  three_of_these: "African countries, and members of the AU",
+  there_have_been_several_rebel_groups_that: "Vying for control of parts of Mali",
+  eritrean_troops: "Said to be supporting the Ethiopian government, and there have been border conflicts with Sudan",
+  the_relationship_between_sudan_and_ethiopia: "Further complicated by the Grand Ethiopian Renaissance Dam project, which also directly affects Egypt",
+  one_of_the_objectives_of_the_au: "To 'promote peace, security, and stability on the continent'",
+  the_psc: { definition: "A decision-making body in its own right, and its decisions are binding on member states", what_it_does: "", examples: "travel bans and asset freezes against the leaders of the rebellion in Comoros)" },
+  the_council: { definition: "In the process of overseeing the establishment of a 'standby force' to serve as a permanent African peacekeeping force", what_it_does: "", examples: "the African Standby Force (ASF), which is to be deployed in emergencies" },
+  the_purpose_of_amisom: { definition: "To create a foundation that would hopefully provide aid to some of Somalia's most vulnerable and keep the peace in the region", what_it_does: "", examples: "the Somali capital of Mogadishu" },
+  although_the_african_union: "There to keep peace, it is not a long-term solution",
+  the_geography_of_the_african_union: "Wildly diverse, including the world's largest hot desert (the Sahara ), huge jungles and savannas , and the world's longest river (the Nile )",
+  a_protocol_amending_the_constitutive_act: "Adopted in 2003 and as of April 2020 has been ratified by 30 of the 37 member states needed for a two-thirds majority",
+  though_this_region: "Home to only 6.2% of the world's population, it is also home to half of the world's population infected with HIV",
+  the_roadmap: "Organised into three pillars: diversified financing, access to medicines, and enhanced health governance",
+  the_flag: "Now part of the paraphernalia of the African Union and replaces the old one",
+  these_colours: "Visible in one way or another in the flags of many African nations",
+
 };
 
 // ============================================================
