@@ -12538,6 +12538,33 @@ const FLAT_DICT = {
   the_cost_of_transport: { definition: "High which makes it difficult for farmers especially during wet weather conditions", what_it_does: "", examples: "textile mills , cotton oil and soap factories , and animal feed factories" },
   imported_powdered_milk_and_butter: { definition: "Expensive and required transportation and marketing, often in areas where local dairy development was possible", what_it_does: "", examples: "cement and steel , which could be used to build cattle-dips and eliminate tick-borne diseases" },
 
+  // === INGESTED 2026-06-21 20:06 ===
+  these_entrenched_environmental_concerns: { definition: "Expected to worsen as climate change impacts Africa", what_it_does: "", examples: "the Khoisan and Pygmies" },
+  the_most_powerful_of_these_states: "Ghana , Gao , and the Kanem-Bornu Empire",
+  the_nri_kingdom: "Famous for its elaborate bronzes , found at the town of Igbo-Ukwu",
+  ife: { definition: "Noted as a major religious and cultural centre in West Africa and for its unique naturalistic tradition of bronze sculpture", what_it_does: "", examples: "the Fon Kingdom of Dahomey" },
+  the_almoravids: { definition: "A Berber dynasty from the Sahara that spread over northwestern Africa and the Iberian peninsula during the eleventh century", what_it_does: "", examples: "al-Maghili (d.1504), the founder of an important tradition of Sudanic African Muslim scholarship" },
+  antislavery_treaties: "Signed with over 50 African rulers",
+  the_vast_majority_of_african_states: { definition: "Republics that operate under some form of the presidential system of rule", what_it_does: "", examples: "Kenya still experienced only very slow economic development" },
+  the_most_devastating_of_these: "The Nigerian Civil War , fought between government forces and an Igbo separatist republic , which resulted in a famine that killed 1–2 million people",
+  its_northern_half: { definition: "Primarily desert , or arid , while its central and southern areas contain both savanna plains and dense jungle (rainforest) regions", what_it_does: "", examples: "sahel and steppe dominate" },
+  african_environmental_problems: "Problems caused by the direct and indirect human impacts on the natural environment and affect humans and nearly all forms of life in Africa",
+  the_union: { definition: "Officially established on 9 July 2002 [ 176 ] as a successor to the Organisation of African Unity (OAU)", what_it_does: "", examples: "those subordinating the Secretary General of the OAU Secretariat (AU Commission) to the PAP" },
+  this_list_contains_nine_territories_that: { definition: "Administered as incorporated areas of a primarily non-African country but that belong geographically to the African continent", what_it_does: "", examples: "the United States, China, Japan, Germany, the United Kingdom, India and France" },
+  the_average_poor_person_in_subsaharan_africa: { definition: "Estimated to live on only 70 cents per day, and was poorer in 2003 than in 1973, [ 188 ] indicating increasing poverty in some areas", what_it_does: "", examples: "cell phones" },
+  water_development_and_management: "Complex in Africa due to the multiplicity of trans-boundary water resources ( rivers , lakes and aquifers )",
+  the_san: "Physically distinct from other Africans and are the indigenous people of southern Africa",
+  large_indian_communities: "Found in South Africa, and smaller ones are present in Kenya, Tanzania, and some other southern and southeast African countries",
+  the_large_indian_community_in_uganda: "Expelled by the dictator Idi Amin in 1972, though many have since returned",
+  the_islands_in_the_indian_ocean: "Also populated primarily by people of Asian origin, often mixed with Africans and Europeans",
+  the_malagasy_people_of_madagascar: "An Austronesian people , but those along the coast are generally mixed with Bantu, Arab, Indian and European origins",
+  malay_and_indian_ancestries: "Also important components in the group of people known in South Africa as Cape Coloureds (people with origins in two or more races and continents)",
+  italian: "Spoken by some in former Italian colonies in Africa",
+  cinema_of_africa: "The film industries and films produced in the continent of Africa",
+  cinema_of_egypt_in_particular: { definition: "The most established and flourishing industry in Africa", what_it_does: "", examples: "calypso (see kaiso ), and soca" },
+  these_dances: "Closely connected with the traditional rhythms and music traditions of the region",
+  music_and_dancing: { definition: "An integral part of many traditional African societies", what_it_does: "", examples: "Cairo , Dakar , Johannesburg , Kigali , Luanda , and Rades" },
+
 };
 
 // ============================================================
