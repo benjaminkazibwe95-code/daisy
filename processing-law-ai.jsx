@@ -13259,6 +13259,21 @@ const FLAT_DICT = {
   both_x_and_youtube: "Temporarily suspended in the country by a court's decision",
   the_tib: { definition: "Also given the authority to block access to specific websites without a court order", what_it_does: "", examples: "ActivityPub have been adopted by platforms such as Mastodon , GNU social , Diaspora , and Friendica" },
 
+  // === INGESTED 2026-06-21 21:09 ===
+  the_advantages_of_these_motors: { definition: "Nanometer resolution, speed, and force for their size", what_it_does: "", examples: "greater efficiency, reduced parts, and navigation through confined areas" },
+  tracked_wheels: { definition: "Common for outdoor off-road robots, but are difficult to use indoors", what_it_does: "the plane through takeoff, normal flight, and landing", examples: "vertical glass, [ 66 ] [ 67 ] one example being named Speedy Freelander" },
+  a_third_approach: { definition: "To mimic the motion of a snake climbing a pole", what_it_does: "", examples: "Vaimos , have been developed in order to make measurements at the surface of the ocean" },
+  thus_a_robotic_arm: { definition: "Referred to as a manipulator [ 82 ] and its functional end (e.g", what_it_does: "", examples: "highly versatile manipulators like a humanoid hand" },
+  electrodes: "Mounted on the surface of the rigid core and connected to an impedance-measuring device within the core",
+  other_hurdles_exist_when_a_voice: { definition: "Used to interact with humans", what_it_does: "", examples: "those stemming from repetitive or monotonous tasks better suited to machines" },
+  robots: "Likely to gradually replace such jobs in other sectors like agriculture, cleaning, construction, firefighting, healthcare, and transportation",
+  undergraduate_degrees: "Usually obtained in one of these subjects prior to the pursuance of a graduate degree in robotics",
+  direct_dynamics: "The calculation of accelerations once the applied forces are known, used in computer simulations",
+  inverse_dynamics: "The calculation of the actuator forces that result in certain end-effector accelerations",
+  evolutionary_robotics: "A methodology that uses evolutionary computation to help design robots, especially the body form, or motion and behavior controllers",
+  those_that_perform_worst: { definition: "Removed from the population and replaced by a new set with behaviors based on those of the winners", what_it_does: "", examples: "the design of BionicKangaroo was based on the way kangaroos jump" },
+  swarm_robotics: "An approach to the coordination of multiple robots as a system which consist of large numbers of mostly simple physical robots",
+
 };
 
 // ============================================================
