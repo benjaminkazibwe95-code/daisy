@@ -13309,6 +13309,22 @@ const FLAT_DICT = {
   aforetime_in_germany_there: { definition: "A draft of DIN norm issued, DIN SPEC 17071:2019", what_it_does: "", examples: "in energy production and transportation" },
   this_revolution: { definition: "Spreading to the production of goods, where robots and 3D printing are displacing labor", what_it_does: "", examples: "CNC milling create products by cutting away material from a larger block" },
 
+  // === INGESTED 2026-06-21 21:15 ===
+  nanotechnology: { definition: "The manipulation of matter with at least one dimension sized from 1 to 100 nanometers (nm)", what_it_does: "", examples: "nanolithography and nanobiosensing ) are the concrete output of applied nanosciences (e.g" },
+  the_discovery_of_carbon_nanotubes: "Attributed to Sumio Iijima of NEC in 1991, [ 16 ] for which Iijima won the inaugural 2008 Kavli Prize in Nanoscience",
+  these_products: "Limited to bulk applications of nanomaterials and did not involve atomic control of matter",
+  the_lower_limit: "Set by the size of atoms (hydrogen has the smallest atoms, which have an approximately ,25 nm kinetic diameter )",
+  the_upper_limit: "More or less arbitrary, but is around the size below which phenomena not observed in larger structures start to become apparent and can be made use of",
+  systems_with_fast_ion_transport: "Referred to as nanoionics",
+  the_mechanical_properties_of_nanosystems: "Of interest in research",
+  these_methods: "Used to manufacture a wide variety of useful chemicals such as pharmaceuticals or commercial polymers",
+  the_concept_of_molecular_recognition: { definition: "Important: molecules can be designed so that a specific configuration or arrangement is favored due to non-covalent intermolecular forces", what_it_does: "", examples: "carbon nanotubes and nanoparticles" },
+  scanning_probe_microscopy: { definition: "An important technique both for characterization and synthesis", what_it_does: "", examples: "molecular self-assembly techniques such as those employing di-block copolymers" },
+  dualpolarization_interferometry: "One tool suitable for characterization of self-assembled thin films",
+  another_variation_of_the_bottomup_approach: "Molecular-beam epitaxy or MBE",
+  samples_made_by_mbe: { definition: "Key to the discovery of the fractional quantum Hall effect for which the 1998 Nobel Prize in Physics was awarded", what_it_does: "", examples: "energy density, charge rate, service life, and cost" },
+  bandages: { definition: "Infused with silver nanoparticles to heal cuts faster", what_it_does: "", examples: "on chip optical quantum information processing, and picosecond transmission of information" },
+
 };
 
 // ============================================================
