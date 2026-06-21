@@ -13670,6 +13670,24 @@ const FLAT_DICT = {
   the_result_of_this: "That no one has a likely solution to these problems and that there are furious ideological battles on related issues",
   one_variation_on_this_topic: "Activism by postconsumers , with the strategic emphasis on moving beyond addictive consumerism",
 
+  // === INGESTED 2026-06-21 21:50 ===
+  they_argue_that_these_levels: { definition: "A minimum for basic needs and to achieve normal life expectancy", what_it_does: "", examples: "in a nomadic tribe )" },
+  relational_poverty: { definition: "Also understood 'by the social institutions that organize those relationships", what_it_does: "", examples: "alcoholic beverages , thus placing them below it in practice" },
+  the_cycle_of_poverty_and_poor_health: "Linked to insurance access; research identifies socioeconomic status and illiteracy as primary predictors for regional health insurance gaps",
+  the_great_smoky_mountains_study: "A ten-year study that was able to demonstrate this",
+  ptpd: "The persistent fear experienced by individuals who have escaped poverty that they may return to impoverished conditions",
+  exceptions_in_the_opposite_direction: { definition: "Observed in countries with pastoralist economies that rely on boys' labour, such as the Kingdom of Eswatini , Lesotho and Namibia", what_it_does: "", examples: "broadband internet service [ 174 ] help in reducing poverty in general" },
+  the_vast_majority_of_the_latrines_built: "Then not from charities but by villagers themselves",
+  the_term_energy_poverty: "Also sometimes used in the context of developed countries to mean an inability to afford energy in the home",
+  raising_farm_incomes: "Described as the core of the antipoverty effort as three-quarters of the poor today are farmers",
+  one_altervative_option: "The postal savings system",
+  another_option: "Mobile banking which uses the wide availability of mobile phones",
+  he_argues_that_even_though_the_aid: { definition: "Well-meaning, it failed to bring results because 'Planners', and not 'Searchers', are supplying it", what_it_does: "", examples: "the World Bank , which is the largest development bank" },
+  the_obstacles_include_accountability_where_it: "Easier to delegate responsibility for spending on one international NGO than having to track tax payer money going to numerous smaller domestic NGOs",
+  such_hospitals: "Found to imprison patients and retain corpses for non-payment of fees",
+  the_existence_of_inequality: { definition: "In part due to a set of self-reinforcing behaviors that all together constitute one aspect of the cycle of poverty", what_it_does: "", examples: "Raghuram G" },
+  green_colonialism: { definition: "Grabbing of land in the name of environmentalism", what_it_does: "", examples: "the concept of dunya in Islam )" },
+
 };
 
 // ============================================================
