@@ -11709,6 +11709,35 @@ const FLAT_DICT = {
   the_closest_wellmeasured_approach: "Scholz's Star , which approached to ~ 50,000 AU of the Sun some ~70 thousand years ago, likely passing through the outer Oort cloud",
   nicolaus_copernicus: "The first person known to have developed a mathematically predictive heliocentric system",
 
+  // === INGESTED 2026-06-21 14:39 ===
+  a_black_hole: "An astronomical body so compact that its gravity prevents anything, including light, from escaping",
+  objects_whose_gravitational_fields: "Too strong for light to escape were first considered in the 18th century",
+  black_holes: "Long considered a mathematical curiosity; it was not until the 1960s that theoretical work showed they were a generic prediction of general relativity",
+  the_first_widely_accepted_black_hole: "Cygnus X-1 , identified by several researchers independently in 1971",
+  if_stars: "Orbiting a black hole, their motions can be used to determine the black hole's mass and location",
+  price_found_that_the_asymmetry: "Converted into gravitational waves",
+  the_two_candidates_for_this_mass: "A black hole and a dense cluster of stars",
+  nonrotating_charged_black_holes: "Described by the Reissner–Nordström metric , while the Kerr metric describes a non-charged rotating black hole",
+  the_kerr_metric: "The solution of Einstein's field equations for a rotating black hole",
+  stellar_black_holes: { definition: "Formed by stellar collapse", what_it_does: "", examples: "a star [ 81 ] [ 82 ] or by merger with another black hole" },
+  this_orbit: { definition: "Called the innermost stable circular orbit , or ISCO", what_it_does: "", examples: "the ISCO for a particle orbiting retrograde can be as far out as about 4.5 r s {\displaystyle 4" },
+  the_region_of_spacetime_in_which_it: "Impossible to stay still is called the ergosphere",
+  the_extra_energy: "Taken from the rotational energy of the black hole, slowing down the rotation of the black hole",
+  in_this_area_it: "No longer possible for free falling matter to follow circular orbits or stop a final descent into the black hole",
+  this_buildup_of_tidal_forces: "Called the shock singularity",
+  if_the_iron_core_of_the_star: "Too massive, the star will no longer be able to support itself and will undergo gravitational collapse",
+  if_the_star: "Even more massive, neutron degeneracy pressure will not be able to resist the force of gravity and the star will collapse into a black hole",
+  these_avenues_for_the_formation_of_black_holes: { definition: "Considered relatively rare", what_it_does: "", examples: "stars , do not necessarily apply in the same way to rapidly expanding space such as the Big Bang" },
+  active_galactic_nuclei_and_quasars: "Powered by accretion onto supermassive black holes",
+  this_limit: "Called the Eddington limit",
+  accretion_beyond_the_limit: "Called super-Eddington accretion and may have been commonplace in the early universe",
+  a_possible_exception: "The microsecond -long burst of gamma rays emitted in the last stage of the evaporation of primordial black holes",
+  when_quantum_mechanics: "Accounted for, the laws of black hole mechanics become equivalent to the classical laws of thermodynamics",
+  since_each_laser_beam: { definition: "Now travelling a slightly different distance, they do not cancel out and produce a recognisable signal", what_it_does: "", examples: "merging supermassive black holes and compact binary systems" },
+  when_black_holes: "Thought to persist forever, this information loss was not problematic, as the information can be thought of as existing inside the black hole",
+  while_there: "No consensus on the resolution of the paradox, work on the problem is expected to be important for a theory of quantum gravity",
+  direct_observational_tests: "Not available: objects observed to have mass higher than the predictions for neutron stars are assumed to be black holes",
+
 };
 
 // ============================================================
