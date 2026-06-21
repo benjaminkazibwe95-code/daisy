@@ -12988,6 +12988,16 @@ const FLAT_DICT = {
   these_concerns: { definition: "Transformed into regulation initiatives worldwide with the aim of safeguarding users from untrusted medical advice", what_it_does: "", examples: "smartphones among students" },
   locking_of_the_serial_number: "First documented in 2015 on the iPhone 6 , which would become inoperable from a detected replacement of the 'home' button",
 
+  // === INGESTED 2026-06-21 20:44 ===
+  the_metaphor: { definition: "Credited to David Hoffman, a General Magic communications specialist, based on its long-standing use in networking and telecom", what_it_does: "", examples: "managed storage and managed databases, though redundancy configurations often vary by service tier" },
+  the_report_also_reveals_that_cost_savings: "The top cloud initiative for 60% of respondents",
+  many_terms_of_service_agreements: "Silent on the question of ownership",
+  this_is_important_now_that_cloud_computing: "Common and required for some services to work, for example for an intelligent personal assistant (Apple's Siri or Google Assistant )",
+  one_of_the_largest_threats: "Considered to be malware attacks, such as Trojan horses",
+  linux_cgroups_and_namespaces: { definition: "The underlying Linux kernel technologies used to isolate, secure and manage the containers", what_it_does: "", examples: "host firewalls)" },
+  the_applications: "Accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface",
+  the_pricing_model_for_saas_applications: "Typically a monthly or yearly flat fee per user, [ 54 ] so prices become scalable and adjustable if users are added or removed at any point",
+
 };
 
 // ============================================================
