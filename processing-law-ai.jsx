@@ -14952,6 +14952,24 @@ const FLAT_DICT = {
   climate_variability: "The term to describe variations in the mean state and other characteristics of climate (such as chances or possibility of extreme weather , etc",
   such_variability: { definition: "Called random variability or noise", what_it_does: "", examples: "greenhouse gases" },
 
+  // === INGESTED 2026-06-21 23:57 ===
+  a_city: "A human settlement of a substantial size",
+  even_where_the_term: { definition: "Limited to larger settlements, there is no universally agreed definition of the lower boundary for their size", what_it_does: "", examples: "improving the efficiency of goods and service distribution" },
+  this_increased_influence: "That cities also have significant influences on global issues , such as sustainable development , climate change , and global health",
+  societies_that_live_in_cities: { definition: "Often called civilizations", what_it_does: "", examples: "metropolis" },
+  dutch_cities_such_as_amsterdam_and_haarlem: { definition: "Structured as a central square surrounded by concentric canals marking every expansion", what_it_does: "", examples: "Moscow , this pattern is still clearly visible" },
+  their_power: "Later challenged and eclipsed by the Dutch commercial cities of Ghent , Ypres , and Amsterdam",
+  cities: { definition: "Founded in the middle of the newly conquered territories and were bound to several laws regarding administration, finances, and urbanism", what_it_does: "", examples: "typhoid and cholera" },
+  asia: "Home to by far the greatest absolute number of city-dwellers: over two billion and counting",
+  the_chief_official_of_the_city: "Very often called the ' mayor '",
+  the_traditional_basis_for_municipal_finance: { definition: "Local property tax levied on real estate within the city", what_it_does: "", examples: "non-governmental organizations" },
+  the_legal_principle_of_eminent_domain: "Used by the government to divest citizens of their property in cases where its use is required for a project",
+  urban_society: "Typically stratified",
+  many_cities_throughout_history: { definition: "Founded under military auspices, a great many have incorporated fortifications , and military principles continue to influence urban design", what_it_does: "", examples: "defensible space" },
+  urban_infrastructure: { definition: "Various physical networks and spaces necessary for transportation, water use, energy, recreation, and public functions", what_it_does: "", examples: "gasoline and natural gas for transportation, heating , and cooking" },
+  rapid_transit: { definition: "Widely used in Europe and has increased in Latin America and Asia", what_it_does: "", examples: "road space rationing and road use charges have been introduced to limit urban car traffic" },
+  early_examples_of_this_phenomenon: { definition: "The sister city relationship and the promotion of multi-level governance within the European Union as a technique for European integration", what_it_does: "", examples: "membership in global networks which transmit norms and regulations" },
+
 };
 
 // ============================================================
