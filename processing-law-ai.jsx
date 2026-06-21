@@ -12910,6 +12910,29 @@ const FLAT_DICT = {
   abjectivication: "Continually used as a mechanism to dominate a group of people and control them",
   this_rhetoric_of_sanitation: { definition: "Important because it is seen as a key part of modernity and being civilised", what_it_does: "", examples: "Meredith Terreta for focusing too much on specific African nations such as Cameroon" },
 
+  // === INGESTED 2026-06-21 20:38 ===
+  the_word_internetted: { definition: "Used as early as 1849, meaning interconnected or interwoven", what_it_does: "", examples: "the AP Stylebook since 2016, recommend the lowercase form in every case" },
+  access_to_the_arpanet: "Expanded in 1981 when the National Science Foundation (NSF) funded the Computer Science Network (CSNET)",
+  stanford_federal_credit_union: "The first financial institution to offer online Internet banking services to all of its members in October 1994",
+  when_the_nsfnet: { definition: "Decommissioned, removing the last restrictions on use of the Internet to carry commercial traffic", what_it_does: "", examples: "Unicode , allow for development and communication in the world's widely used languages" },
+  video_sharing_websites: "Also a major factor in the entertainment ecosystem",
+  a_popular_twist_on_internetbased_philanthropy: "The use of peer-to-peer lending for charitable purposes",
+  an_example_of_collaborative_software: { definition: "The free software movement , which has produced, among other things, Linux , Mozilla Firefox , and OpenOffice.org (later forked into LibreOffice )", what_it_does: "", examples: "cyberbullying and approaches by sexual predators , who sometimes pose as children themselves" },
+  online_advertising: { definition: "A form of marketing and advertising which uses the Internet to deliver promotional marketing messages to consumers", what_it_does: "", examples: "web banner advertising), and mobile advertising" },
+  the_resulting_contributions_and_standards: "Published as Request for Comments (RFC) documents on the IETF web site",
+  other_less_rigorous_documents: "Simply informative, experimental, or historical, or document the best current practices when implementing Internet technologies",
+  icann: "Governed by an international board of directors drawn from across the Internet technical, business, academic, and other non-commercial communities",
+  globally_unified_name_spaces: { definition: "Essential for maintaining the global reach of the Internet", what_it_does: "", examples: "cabling and radio links), repeaters, and modems" },
+  internet_exchange_points: { definition: "Major traffic exchanges with physical connections to multiple ISPs", what_it_does: "", examples: "GEANT , GLORIAD , Internet2 , and the UK's national research and education network , JANET" },
+  ip_addresses: "Generally assigned to equipment either automatically via Dynamic Host Configuration Protocol , or are configured",
+  the_rest_field: { definition: "An identifier for a specific host or network interface", what_it_does: "", examples: "198.51.100" },
+  subnet_masks: { definition: "Also expressed in dot-decimal notation like an address", what_it_does: "", examples: "255.255.255.0 is the subnet mask for the prefix 198.51.100.0 / 24" },
+  routing_tables: { definition: "Maintained by manual configuration or automatically by routing protocols", what_it_does: "", examples: "the electricity distribution network" },
+  the_required_hardware_and_software: "Allegedly installed by German Siemens and Finnish Nokia",
+  while_this_list_of_forbidden_resources: { definition: "Supposed to contain only known child pornography sites, the content of the list is secret", what_it_does: "", examples: "child pornography , via the Internet but do not mandate filter software" },
+  lessdeveloped_countries: "More vulnerable due to the small number of high-capacity links",
+  land_cables: { definition: "Also vulnerable, as in 2011 when a woman digging for scrap metal severed most connectivity for the nation of Armenia", what_it_does: "", examples: "personal computers and servers are included' in the analysis" },
+
 };
 
 // ============================================================
