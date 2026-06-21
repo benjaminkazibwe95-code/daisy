@@ -13943,6 +13943,33 @@ const FLAT_DICT = {
   a_coalition_government: "One in which multiple parties cooperate to form a government as part of a coalition agreement",
   more_than_half_of_the_nations_in_the_world: { definition: "Democracies—97 of 167, as of 2021", what_it_does: "", examples: "water services might only be available to the wealthy middle class" },
 
+  // === INGESTED 2026-06-21 22:15 ===
+  law_is_a_set_of_rules_that: { definition: "Created and enforced by governmental or societal institutions to regulate behavior, [ 1 ] with its precise definition a matter of longstanding debate", what_it_does: "", examples: "contracts , property , torts , delicts and commercial law" },
+  the_philosophy_of_law: { definition: "Commonly known as jurisprudence", what_it_does: "", examples: "Jean-Jacques Rousseau , argue that law reflects essentially moral and unchangeable laws of nature" },
+  while_laws: { definition: "Positive 'is' statements (e.g., the fine for reversing on a highway is €500), laws tell us what we 'should' do", what_it_does: "", examples: "English, Italian, German, and French" },
+  a_europewide_law_merchant: "Established so that merchants could trade under common standards of practice rather than the many splintered facets of local laws",
+  the_specific_system_by_which_a_country: "Ruled is often determined by its history, its connections with other countries, or its adherence to international standards",
+  decisions: { definition: "Not published systematically, so any case law that developed was obscured and almost unrecognised", what_it_does: "", examples: "canon law , continued to spread throughout Europe until the Enlightenment" },
+  the_halakha: "A code of Jewish law that summarizes some of the Talmud's interpretations",
+  many_countries: "Sharia jurisdictions",
+  canon_law: { definition: "Only in use by members of the Catholic Church , the Eastern Orthodox Church , and the Anglican Communion", what_it_does: "", examples: "the presumption of innocence" },
+  prominent_examples_of_legislatures: "The Houses of Parliament in London, the Congress in Washington, D.C",
+  the_traditional_justification_of_bicameralism: "That an upper chamber acts as a house of review",
+  a_government_usually_leads_the_process_and: { definition: "Formed from Members of Parliament (e.g., in the UK or Germany)", what_it_does: "", examples: "the United States or Brazil)" },
+  the_executive: "Led by the head of government , whose office holds power under the confidence of the legislature",
+  the_other_important_model: "The presidential system , found in the United States and in Brazil",
+  most_executives_in_both_systems: { definition: "Responsible for foreign relations , the law enforcement , and the bureaucracy", what_it_does: "", examples: "a foreign ministry or defence ministry" },
+  the_election_of_a_different_executive: "Therefore capable of revolutionising an entire country's approach to government",
+  max_weber_famously_argued_that_the_state: "That which controls the monopoly on the legitimate use of force",
+  one_of_the_earliest_references_to_the_concept: { definition: "Made by Baron de Grimm , a German author who lived in France", what_it_does: "", examples: "a bar association , bar council , or law society" },
+  law_practice_also: { definition: "Drafting documents such as court pleadings , persuasive briefs , contracts, or wills and trusts", what_it_does: "", examples: "ADR techniques) are also important to legal practice, depending on the field" },
+  the_first_specialist_administrative_court: { definition: "The Conseil d'État set up in 1799, as Napoleon assumed power in France", what_it_does: "", examples: "electoral fraud and electoral silence" },
+  when_contracts: "Invalidated for some reason (e.g",
+  the_principles_of_negligence: { definition: "Illustrated by Donoghue v Stevenson", what_it_does: "", examples: "assault , battery or trespass" },
+  a_betterknown_tort: { definition: "Defamation , which occurs, for example, when a newspaper makes unsupportable allegations that damage a politician's reputation", what_it_does: "", examples: "computers, cars, jewelry or intangible rights, such as stocks and shares" },
+  a_right_in_rem: "A right to a specific piece of property, in contrast to a right in personam , which allows compensation for a loss but not for a particular thing",
+  a_representative_example_of_property_law: { definition: "The 1722 case of Armory v Delamirie , which applied English law", what_it_does: "", examples: "those arising from contracts and torts, are conceptualised as rights owed by individuals" },
+
 };
 
 // ============================================================
