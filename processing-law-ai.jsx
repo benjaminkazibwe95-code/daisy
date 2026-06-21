@@ -14548,6 +14548,13 @@ const FLAT_DICT = {
   the_difference_leaders_make: { definition: "Not always positive in nature", what_it_does: "", examples: "their own followers" },
   groups_that: "Primarily composed of women, [ 184 ] are limited in size, are free from stressful decision-making, [ 185 ] or only exist for a short period of time (e",
 
+  // === INGESTED 2026-06-21 23:10 ===
+  among_the_requirements_for_effective_teamwork: "An adequate team size",
+  the_context: "Important, and team sizes can vary depending upon the objective",
+  among_these: "Strong group cohesion",
+  to_measure_if_the_teamwork: { definition: "Effective, the organization must examine the quality of the output, the process, and the members' experience", what_it_does: "", examples: "Goal Setting and Task Coordination" },
+  leaders: "Responsible for inspiring and motivating teams to facilitate the alignment of their objectives with those of the organization",
+
 };
 
 // ============================================================
