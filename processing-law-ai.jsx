@@ -13215,6 +13215,22 @@ const FLAT_DICT = {
   if_the_products: "Expensive, large or fragile, it refers to safety issues",
   the_recycling_rate_in_europe: "80 percent and Asia was 93 percent",
 
+  // === INGESTED 2026-06-21 21:05 ===
+  marketing_automation: "The process by which software is used to automate conventional marketing processes",
+  enhancing_brand_awareness: "Important in digital marketing, and marketing in general, because of its impact on brand perception and consumer decision-making",
+  legal: "May offer some protection against this, yet there are limitations in recovering any losses or investment",
+  email_marketing: { definition: "Considered cheap compared to other forms of digital marketing", what_it_does: "", examples: "their value proposition to existing or potential customers" },
+  it_is_a_procedure_wherein_strategies: "Made and executed to draw in traffic for a website or to gain the attention of buyers over the web using different social media platforms",
+  ingame_advertising: { definition: "Defined as the 'inclusion of products or brands within a digital game", what_it_does: "", examples: "YouTube videos" },
+  push_notifications: { definition: "Responsible for bringing new and abandoned customers through smart segmentation", what_it_does: "", examples: "Google , which has been determined to hold monopolies in search marketing and digital advertising" },
+  the_marketing_mix: { definition: "A framework which can be used to facilitate this", what_it_does: "", examples: "the audience reached across all digital platforms" },
+  the_first_step: "Through asking questions that the consumer would be thinking in their demographic",
+  the_second_step: "To describe the feelings that the consumer may be having",
+  the_third_step: "To think about what the consumer would say in their situation",
+  the_final_step: "To imagine what the consumer will try to do based on the other three steps",
+  this_map: { definition: "So marketing teams can put themselves in their target demographics shoes", what_it_does: "", examples: "labor, industry, and distribution system" },
+  this_engagement: "Typically facilitated through entertainment, information, or market transaction",
+
 };
 
 // ============================================================
