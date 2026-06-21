@@ -12420,6 +12420,21 @@ const FLAT_DICT = {
   the_mtn_arena_within_the_complex: "A modern indoor arena with a capacity of around 3,000, used for basketball , netball , volleyball , and other indoor sports",
   the_lugogo_cricket_oval: "Another highlight, hosting national and international cricket matches, making it the centre of cricket in Uganda",
 
+  // === INGESTED 2026-06-21 19:50 ===
+  lake_victoria: "Drained solely by the Nile River near Jinja , Uganda on the lake's northern shore",
+  the_kagera_river: "The largest river flowing into this lake, with its mouth on the lake's western shore",
+  the_only_outflow_from_lake_victoria: "The Nile River , which exits the lake near Jinja, Uganda",
+  the_uppermost_section_of_the_nile: "Generally known as the Victoria Nile until it reaches Lake Albert",
+  the_changes_in_oxygenation: { definition: "Considered consistent with measurements of higher algal biomass and productivity", what_it_does: "", examples: "many endemics, but a high percentage of these became extinct since the 1940s" },
+  entebbe: "Only known from near Entebbe (the only known specimen was collected in 1955 and it is unknown if it was in or near the lake) and P",
+  the_latter_likely: { definition: "The smallest African freshwater crab with a carapace width up to about 1.6 cm (0.6 in), although P", what_it_does: "", examples: "12 endemic species/subspecies" },
+  human_infections_by_this_parasite: { definition: "Common at Lake Victoria", what_it_does: "", examples: "the Nile perch to improve the fisheries in the lake" },
+  these_cities_and_towns: "Also home to many factories that discharge some chemicals directly into the lake or its influent rivers",
+  many_towns_and_cities: "Reliant on Lake Victoria for their water supplies, for farming and other uses",
+  sediment_and_suspended_solids: "Filtered out using sand, which acts like a sieve",
+  the_water: "Then ready to be chlorinated or treated in another way",
+  the_main_ports_on_the_lake: "Kisumu, Mwanza, Bukoba, Entebbe , Port Bell , and Jinja",
+
 };
 
 // ============================================================
