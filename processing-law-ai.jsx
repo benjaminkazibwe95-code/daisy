@@ -13174,6 +13174,30 @@ const FLAT_DICT = {
   the_inaugural_issue: "Published in December 2016",
   authors: "Also asked to include a personal bitcoin address on the first page of their papers for non-repudiation purposes",
 
+  // === INGESTED 2026-06-21 21:01 ===
+  cryptocurrencies: "Generally viewed as a distinct asset class in practice",
+  the_paper: { definition: "First published in an MIT mailing list (October 1996) and later (April 1997) in The American Law Review", what_it_does: "", examples: "several bubbles and market crashes, such as in 2011, 2013–2014/15, 2017–2018, and 2021–2023" },
+  the_study: { definition: "Also to report on whether regulation should be considered", what_it_does: "", examples: "not only alternative versions of bitcoin but every cryptocurrency other than bitcoin" },
+  node_owners: "Either volunteers, those hosted by the organization or body developing the technology, or those incentivised by rewards from the node network",
+  the_first_timestamping_scheme_invented: "The proof-of-work scheme",
+  the_most_widely_used_proofofwork_schemes: "Based on SHA-256 and scrypt",
+  another_method: "Called the proof-of-stake scheme",
+  the_scheme: { definition: "Largely dependent on the coin, and there is currently no standard form of it", what_it_does: "", examples: "FPGAs and ASICs running complex hashing algorithms like SHA-256 and scrypt" },
+  by_making_sure_that_verifying_transactions: "A costly business, the integrity of the network can be preserved as long as benevolent nodes control a majority of computing power",
+  the_main_source_for_this_inefficiency: "The large mining cost, which is estimated to be US$360 million per year",
+  another_potential_improvement: { definition: "To eliminate inefficient mining activities by changing the consensus protocol altogether", what_it_does: "", examples: "Coinbase Wallet, however, might support adjusting the fee" },
+  the_falls: { definition: "Attributed to warnings about inflation", what_it_does: "", examples: "inflation forecasts" },
+  the_fatf_and_financial_regulators: "Informed as the data model was developed",
+  this_is_a_more_extreme_standard_than_banks: "Usually held to when it comes to other assets",
+  stablecoins: "Excluded from both CFTC and SEC regulation in this bill, 'except for fraud and certain activities by registered firms",
+  the_liquidity_changes_by_banning_icos_in_china: { definition: "Temporarily negative while the liquidity effect became positive after news", what_it_does: "", examples: "coal to create bitcoin and Ethereum" },
+  this_release_from_the_irs: "A part of efforts to promote better compliance and consider more severe penalties for tax evaders",
+  money_laundering_issues: { definition: "Also present in regular bank transfers , however with bank-to-bank wire transfers for instance, the account holder must provide a proven identity", what_it_does: "", examples: "theft, directly implicating the cryptocurrency marketplace itself" },
+  bitzlato_founder_and_owner_anatoly_legkodymov: { definition: "Arrested following money-laundering charges by the United States Department of Justice", what_it_does: "", examples: "Silk Road" },
+  cryptocurrency_used_in_dark_markets: { definition: "Not clearly or legally classified in almost all parts of the world", what_it_does: "", examples: "housing market bubbles" },
+  nfts: "Bought and traded using cryptocurrency",
+  the_ethereum_blockchain: { definition: "The first place where NFTs were implemented, but now many other blockchains have created their own versions of NFTs", what_it_does: "", examples: "Coinbase were gradually entering the traditional financial markets" },
+
 };
 
 // ============================================================
