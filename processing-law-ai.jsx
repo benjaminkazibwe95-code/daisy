@@ -12627,6 +12627,26 @@ const FLAT_DICT = {
   kinyarwanda: "Spoken in Rwanda and Uganda",
   lingala: "Widely spoken in the western Democratic Republic of Congo, with about 15 million speakers and Kiswahili with 23 million speakers across the country",
 
+  // === INGESTED 2026-06-21 20:13 ===
+  the_original_letters: "Preserved in the Historical Archives of Goa, India",
+  the_language: "Formalised in an institutional level when the Germans took over after the Berlin Conference",
+  after_seeing_there: "Already a widespread language, the Germans formalised it as the official language to be used in schools",
+  thus_schools_in_swahili: "Called Shule (from German Schule ) in government, trade and the court system",
+  the_zanzibar_dialect: "Chosen as standard Swahili for those areas, [ 40 ] and the standard orthography for Swahili was adopted",
+  swahili_and_closely_related_languages: "Spoken by relatively small numbers of people in Burundi , Comoros , Malawi , Mozambique , Zambia and Rwanda",
+  arvi_hurskainen: "One of the early developers",
+  bakita: "An organisation dedicated to the development and advocacy of Swahili as a means of national integration in Tanzania",
+  tanzanians: "Highly credited for shaping the language to appear the way it is now",
+  the_local_dialects_of_swahili_in_congo: "Known as Congo Swahili and differ considerably from Standard Swahili",
+  kiswahili_is_now_used_widely_in_burundi_but: "Not recognised as an official language; only French, Kirundi, and English have this distinction",
+  much_literature: "Produced in this script",
+  the_first_of_such_attempts: "Done by Mwalimu Sikujua , a scholar and poet from Mombasa",
+  the_usage_of_arabic_script: { definition: "Suppressed in German East Africa and to a lesser extent in British East Africa", what_it_does: "", examples: "that of Mwalimu Sikujua) was relatively high" },
+  swahili_nouns: "Separable into classes , which are roughly analogous to genders in other languages",
+  examples_of_the_former: "Kisu 'knife', kiti 'chair' (from mti 'tree, wood'), chombo 'vessel' (a contraction of ki-ombo )",
+  examples_of_the_latter: "Kitoto 'infant', from mtoto 'child'; kitawi 'frond', from tawi 'branch'; and chumba ( ki-umba ) 'room', from nyumba 'house'",
+  in_such_cases_the_interpreted_prefix: { definition: "Changed with the usual rules", what_it_does: "", examples: "in Nairobi" },
+
 };
 
 // ============================================================
