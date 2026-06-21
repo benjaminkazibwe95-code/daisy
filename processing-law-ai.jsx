@@ -13768,6 +13768,32 @@ const FLAT_DICT = {
   influential_theories: "Behaviorism , cognitivism, and constructivism",
   constructivism_holds_that_learning: "Based on the personal experience of each individual and puts more emphasis on social interactions and how they are interpreted by the learner",
 
+  // === INGESTED 2026-06-21 22:01 ===
+  an_institution_where_higher_education: { definition: "Taught is commonly called a university college or university", what_it_does: "", examples: "a school of economics or dance" },
+  islam: "Another culture that developed a school system in the modern sense of the word",
+  gurukuls: "Traditional Hindu residential learning schools, typically the teacher's house or a monastery",
+  schools_today: "Commonly known by the Sanskrit terms Vidyashram , Vidyalayam , Vidya Mandir , Vidya Bhavan in India",
+  british_records_show_that_indigenous_education: { definition: "Widespread in the 18th century, with a school for every temple, mosque, or village in most regions", what_it_does: "", examples: "Gesamtschule , Hauptschule , Realschule or Gymnasium" },
+  the_term_school: "Rarely used for tertiary education , except for some upper or high schools (German: Hochschule), which describe colleges and universities",
+  the_schools: "Classified as middle schools of general education",
+  the_terms_grammar_school_and_grade_school: "Sometimes used to refer to a primary school due to British colonial legacies",
+  bush_schools: "Semi-similar to traditional western schools because they are separated from the larger community",
+  these_schools: "Located in forests outside of the towns and villages, and the space used is solely for these schools",
+  visitors: { definition: "Prohibited from these areas", what_it_does: "", examples: "cooking, childcare, and being a good wife" },
+  their_training: "Focused on how to be a proper woman by societal standards",
+  tariqa_schools: "Controlled at the local level",
+  primary_and_secondary_schools: "Either privately funded by religious institutions and corporate organisations or government-funded",
+  governmentfunded_schools: "Commonly referred to as public schools",
+  the_first_nine_years_of_formal_schooling: "Compulsory under the Universal Basic Education Program (UBEC)",
+  many_schools: { definition: "Owned or funded by states", what_it_does: "", examples: "through School vouchers )" },
+  many_private_schools: { definition: "Affiliated with a particular religion; these are known as parochial schools", what_it_does: "", examples: "laboratory classrooms for science education and workshops for industrial arts education" },
+  access_to_water_and_sanitation: { definition: "Universal in high-income countries", what_it_does: "", examples: "installing metal detectors or video surveillance" },
+  internetbased_distance_learning_programs: "Offered widely through many universities",
+  online_classes: "Taught the same as in-person, with the same curriculum",
+  online_school_classes: { definition: "Designed to fit a student's needs while allowing students to continue working and tending to their other obligations", what_it_does: "", examples: "the United Kingdom and the United States" },
+  this_stress: { definition: "Claimed to be related to standardized testing, and the pressure on students to score above average", what_it_does: "", examples: "an anxiety disorder or depression, and 9 percent had seriously considered suicide" },
+  proponents_of_schools_see_them_as_effective: "Of providing an education for young people",
+
 };
 
 // ============================================================
