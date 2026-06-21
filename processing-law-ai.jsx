@@ -14038,6 +14038,17 @@ const FLAT_DICT = {
   proportionality_in_justice: { definition: "The principle that rewards and punishments should correspond directly and appropriately to the merit or gravity of actions", what_it_does: "", examples: "sociologist George C" },
   the_right_to_speedy_trial: { definition: "In some jurisdictions enshrined", what_it_does: "", examples: "injunctions )" },
 
+  // === INGESTED 2026-06-21 22:24 ===
+  the_modernday_rise_in_global_temperatures: "Driven by human activities , especially fossil fuel ( coal , oil and natural gas ) burning since the Industrial Revolution",
+  heat_waves_and_wildfires: { definition: "Becoming more common", what_it_does: "", examples: "melting all of the Greenland ice sheet" },
+  one_of_the_hotter_periods: "The Last Interglacial , around 125,000 years ago, where temperatures were between 0.5 °C and 1.5 °C warmer than before the start of global warming",
+  this_period_has_sea_levels_that: { definition: "Over 125 metres (410 ft) lower than today", what_it_does: "", examples: "trees and ice cores" },
+  the_pattern: { definition: "Independent of where greenhouse gases are emitted, because the gases persist long enough to diffuse across the planet", what_it_does: "", examples: "changes in albedo, are less impactful" },
+  if_the_warming: { definition: "Later reduced to 1.5 °C or less, it will still lose a lot more ice than if the warming was never allowed to reach the threshold in the first place", what_it_does: "", examples: "the expansion of deserts in the subtropics" },
+  the_connection: { definition: "Recognized in Sustainable Development Goal 13 which is to 'take urgent action to combat climate change and its impacts'", what_it_does: "", examples: "air pollution are priced in" },
+  one_way_this_can_be_addressed_in_practice: "To have wealthy nations pay poorer countries to adapt",
+  percapita_emissions: { definition: "Also still relatively low in developing countries and developing countries would need to emit more to meet their development needs", what_it_does: "", examples: "the 2015 Paris Climate Accord" },
+
 };
 
 // ============================================================
