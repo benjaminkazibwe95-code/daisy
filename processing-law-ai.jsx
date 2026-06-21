@@ -14402,6 +14402,33 @@ const FLAT_DICT = {
   he_said_that_knowledge_of_facts: { definition: "Never certain, adding that knowledge of relations between ideas, like mathematical truths, can be certain but contains no information about the world", what_it_does: "", examples: "spatial and temporal relations and fundamental categories of understanding" },
   by_not_judging_whether_an_experience: "Accurate, he tried to describe its internal structure instead",
 
+  // === INGESTED 2026-06-21 22:59 ===
+  threskeia: { definition: "Sometimes translated as 'religion' in today's translations, but the term was understood as generic 'worship' well into the medieval period", what_it_does: "", examples: "penance through piety and ceremonial as well as practical traditions" },
+  the_attempt: "A natural consequence of the Western speculative, intellectualistic, and scientific disposition",
+  we_just_know_that_it: "Done, annually, weekly, daily, for some people almost hourly; and we have an enormous ethnographic literature to demonstrate it",
+  cognitive_science_of_religion: "The study of religious thought and behavior from the perspective of the cognitive and evolutionary sciences",
+  a_number_of_prophetic_experiences: { definition: "Consistent with psychotic symptoms, although retrospective diagnoses are practically impossible", what_it_does: "", examples: "ethics , metaphysics , and the nature and form of salvation" },
+  studying_such_material: "Meant to give one a richer and more sophisticated understanding of human beliefs and practices regarding the sacred , numinous , spiritual and divine",
+  judaism: { definition: "The oldest Abrahamic religion, originating in the people of ancient Israel and Judah", what_it_does: "", examples: "the Midrash and the Talmud" },
+  the_jewish_people: "Scattered after the destruction of the Temple in Jerusalem in 70 CE",
+  today_there: "About 13 million Jews, about 40 per cent living in Israel and 40 per cent in the United States",
+  wahhabism: { definition: "The dominant Muslim schools of thought in the Kingdom of Saudi Arabia", what_it_does: "", examples: "its founder Bahá'u'lláh" },
+  indian_religions_are_practiced_or: "Founded in the Indian subcontinent",
+  vaidika_dharma: "A synecdoche describing the similar philosophies of Vaishnavism , Shaivism , and related groups practiced or founded in the Indian subcontinent",
+  jains: "Found mostly in India",
+  sikhism: "A panentheistic religion founded on the teachings of Guru Nanak and ten successive Sikh gurus in 15th-century Punjab",
+  bantu_mythology: "Found throughout central, southeast, and southern Africa",
+  iranian_religions: "Ancient religions whose roots predate the Islamization of Greater Iran",
+  nowadays_these_religions: "Practiced only by minorities",
+  zoroastrianism: { definition: "Based on the teachings of prophet Zoroaster in the 6th century BCE", what_it_does: "", examples: "political science, religion, and history since 1980" },
+  all_scientific_knowledge: "Subject to later refinement, or even rejection, in the face of additional evidence",
+  several_european_leaders: { definition: "Atheists (e.g., France 's former president Francois Hollande or Greece's prime minister Alexis Tsipras )", what_it_does: "", examples: "China or Japan are largely secular and thus religion has a much smaller impact on politics" },
+  the_purpose_of_this: "Frequently modernization or protection of the population's religious diversity",
+  one_study_has_found_there: "A negative correlation between self-defined religiosity and the wealth of nations",
+  according_to_the_same_study_it: "Found that adherents under the classification Irreligion or other religions hold about 34",
+  the_true_opposite_of_religious: "The word irreligious",
+  irreligion: "An absence of any religion; antireligion describes an active opposition or aversion toward religions in general",
+
 };
 
 // ============================================================
