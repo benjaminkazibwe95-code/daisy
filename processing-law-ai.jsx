@@ -14729,6 +14729,20 @@ const FLAT_DICT = {
   the_two_plays: "Combined in the pick and roll , in which a player sets a pick and then 'rolls' away from the pick towards the basket",
   screens_and_cuts: "Very important in offensive plays; these allow the quick passes and teamwork, which can lead to a successful basket",
 
+  // === INGESTED 2026-06-21 23:34 ===
+  a_sport: { definition: "A physical activity or game , [ 1 ] often competitive and organized , that maintains or improves physical ability and skills", what_it_does: "", examples: "scoring goals or crossing a line first" },
+  it_can_also_be_determined_by_judges_who: "Scoring elements of the sporting performance, including objective or subjective measures such as technical performance or artistic impression",
+  records_of_performance: "Often kept, and for popular sports, this information may be widely announced or reported in sport news",
+  sport_betting: { definition: "In some cases severely regulated, and in others integral to the sport", what_it_does: "", examples: "ones that require exercise" },
+  in_gymnastics_or_diving_the_result: { definition: "Decided by judges, and therefore subjective", what_it_does: "", examples: "clean punching, effective aggression, ring generalship and defence" },
+  the_kabaddi: { definition: "Played potentially as a preparation for hunting", what_it_does: "", examples: "increasing the volume of blood in their bodies through artificial means" },
+  rioting_or_hooliganism_by_fans_in_particular: "A problem at some national and international sporting contests",
+  one_example_of_this: { definition: "Baseball5 , which is the first mixed-gender sport to be admitted to the Olympics", what_it_does: "", examples: "concussion" },
+  amateur_participation_in_sport_at_lower_levels: { definition: "Often called 'grassroots sport'", what_it_does: "", examples: "motorsport), and it is used in others to improve performance" },
+  some_feel_this: "An effective contribution to the eventual end of apartheid, others feel it may have prolonged and reinforced its worst effects",
+  do_not_imagine_that_there: { definition: "Any bird more easily caught by decoy, nor any fish sooner fixed on the hook by wormy bait, than are all these poor fools neatly tricked into servitude", what_it_does: "", examples: "many football players, fans and referees'" },
+  the_ancient_olympic_games: "Held in honour of the head deity, Zeus , and featured various forms of religious dedication to him and other gods",
+
 };
 
 // ============================================================
