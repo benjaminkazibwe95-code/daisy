@@ -11680,6 +11680,35 @@ const FLAT_DICT = {
   as_the_earth: { definition: "Within the dusty outer arms, large portions of the Milky Way are obscured from view", what_it_does: "", examples: "by collisions, radioactive decay, and tidal heating" },
   archaeoastronomy: { definition: "The study of ancient or traditional astronomies in their cultural context, using archaeological and anthropological evidence", what_it_does: "", examples: "star clusters, galaxies, and nebulae" },
 
+  // === INGESTED 2026-06-21 14:36 ===
+  the_solar_system: "An ordered system, as are 37% of observed systems",
+  the_next_most_massive_objects_of_the_system: "The eight planets, which by definition dominate the orbits they occupy",
+  these_four_planets: "Part of the inner Solar System",
+  earth_and_mars: { definition: "The only planets that orbit within the Sun's habitable zone , in which sunlight can keep surface water liquid under atmospheric pressure", what_it_does: "", examples: "asteroids , comets , centaurs , meteoroids , and interplanetary dust clouds" },
+  both: { definition: "Within the Local Bubble , a relatively small 1,000 light-years (ly) wide region of the Milky Way", what_it_does: "", examples: "the Sun and all objects that orbit it" },
+  here_planets_formed_that: { definition: "Mainly rocky, which are Mercury, Venus, Earth, and Mars", what_it_does: "", examples: "the asteroid belt, Kuiper belt, and Oort cloud" },
+  the_sun: "Not massive enough to commence the fusion of heavier elements, and nuclear reactions in the core will dwindle",
+  objects_farther_from_the_sun: { definition: "Composed largely of materials with lower melting points", what_it_does: "", examples: "comets frequently orbit at significantly greater angles to this plane" },
+  all_of_the_largest_natural_satellites: { definition: "In synchronous rotation , with one face permanently turned toward their parent", what_it_does: "", examples: "Halley's Comet" },
+  similar_systems_however: "The majority, comprising 59% of observed systems, while mixed systems comprise just 4%",
+  hotter_mainsequence_stars: "More luminous but shorter lived",
+  stars_brighter_and_hotter_than_the_sun: "Rare, whereas substantially dimmer and cooler stars, known as red dwarfs , make up about 75% of the fusor stars in the Milky Way",
+  this_higher_metallicity: "Thought to have been crucial to the Sun's development of a planetary system because the planets formed from the accretion of 'metals'",
+  the_result: "A thin , dusty atmosphere, called the interplanetary medium , which extends to at least 100 AU",
+  this_region: { definition: "Sometimes described as the 'third zone of the Solar System', enclosing the inner and the outer Solar System", what_it_does: "", examples: "going around the Sun twice for every three times that Neptune does, or once for every two" },
+  many_asteroids: "Divided into asteroid groups and families based on their orbital characteristics",
+  trojans: { definition: "Bodies located within another body's gravitationally stable Lagrange points : L 4 , 60° ahead in its orbit, or L 5 , 60° behind in its orbit", what_it_does: "", examples: "hydrogen, helium, and neon , [ 183 ] hence their designation as gas giants" },
+  the_entire_region: "Still largely unexplored",
+  scattereddisc_objects: "Believed to have been perturbed into erratic orbits by the gravitational influence of Neptune's early outward migration",
+  these_bodies: { definition: "Called extreme trans-Neptunian objects, or ETNOs for short", what_it_does: "", examples: "Comet West , have aphelia around 70,000 AU from the Sun" },
+  most_meteoroids: "Made of silicates and heavier metals like nickel and iron",
+  shortperiod_comets: { definition: "Thought to originate in the Kuiper belt, whereas long-period comets, such as Hale–Bopp , are thought to originate in the Oort cloud", what_it_does: "", examples: "the Kreutz sungrazers , formed from the breakup of a single parent" },
+  the_bubble: "Suffused with high-temperature plasma, suggesting that it may be the product of several recent supernovae",
+  a_prominent_grouping_that: "Visible to the naked eye is the Ursa Major moving group , which is around 80 light-years away within the Local Bubble",
+  the_nearest_star_cluster: "Hyades , which lies at the edge of the Local Bubble",
+  the_closest_wellmeasured_approach: "Scholz's Star , which approached to ~ 50,000 AU of the Sun some ~70 thousand years ago, likely passing through the outer Oort cloud",
+  nicolaus_copernicus: "The first person known to have developed a mathematically predictive heliocentric system",
+
 };
 
 // ============================================================
