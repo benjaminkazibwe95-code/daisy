@@ -13616,6 +13616,22 @@ const FLAT_DICT = {
   socially_responsible_investing: "Another investment preference",
   most_profit_from_stock_investing: "Taxed via a capital gains tax",
 
+  // === INGESTED 2026-06-21 21:46 ===
+  trade_between_two_traders: { definition: "Called bilateral trade , while trade involving more than two traders is called multilateral trade", what_it_does: "", examples: "the production of scarce or limited natural resources elsewhere" },
+  trade_in_obsidian: "Believed to have taken place in New Guinea from 17,000 BCE",
+  ebla: { definition: "A prominent trading-center during the third millennium BCE, with a network reaching into Anatolia and north Mesopotamia", what_it_does: "", examples: "India and China" },
+  the_maritime_road: "One of the most extensive sea-based trade networks of a single geological material in the prehistoric world",
+  the_entire_period_of_the_network: "A golden age for the diverse societies of the region",
+  the_spice_trade: "Of major economic importance and helped spur the Age of Discovery in Europe",
+  trade_in_the_east_indies: "Dominated by Portugal in the 16th century, the Dutch Republic in the 17th century, and the British in the 18th century",
+  the_lack_of_free_trade: "Considered by many as a principal cause of the depression causing stagnation and inflation",
+  free_trade: "A policy by which a government does not discriminate against imports or exports by applying tariffs or subsidies",
+  this_policy: "Also known as laissez-faire policy",
+  protectionist_policies: "Particularly prevalent in the 1930s, between the Great Depression and the onset of World War II",
+  the_first_instances_of_money: { definition: "Objects with intrinsic value", what_it_does: "", examples: "pigs, rare seashells, whale's teeth, and (often) cattle" },
+  agricultural_subsidies: "The most significant issue upon which agreement has been the hardest to negotiate",
+  one_feature: { definition: "The establishment of four (later five) Special Economic Zones located along the South-east coast", what_it_does: "", examples: "the United States has had an embargo against Cuba for over 60 years" },
+
 };
 
 // ============================================================
