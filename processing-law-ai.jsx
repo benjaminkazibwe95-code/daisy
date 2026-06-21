@@ -13231,6 +13231,34 @@ const FLAT_DICT = {
   this_map: { definition: "So marketing teams can put themselves in their target demographics shoes", what_it_does: "", examples: "labor, industry, and distribution system" },
   this_engagement: "Typically facilitated through entertainment, information, or market transaction",
 
+  // === INGESTED 2026-06-21 21:07 ===
+  wikis_and_roblox: { definition: "Examples of collaborative content creation", what_it_does: "", examples: "quality, [ 9 ] reach , frequency , usability, relevancy, and permanence" },
+  a_multitude_of_united_states_patents: { definition: "Related to social media, and their numbers are growing, albeit unevenly", what_it_does: "", examples: "there were 897 patents in Q3 2024 and 1,674 in Q2" },
+  share_of_all_social_media_patent_applications: "50% of all patent applications, with second-placed China at 18%",
+  the_median_age: "14, although 28% said they started to use it before reaching 13",
+  while_adults: "Using social media before the COVID-19 pandemic , more started using it to stay socially connected and to get pandemic updates",
+  the_program: "Designed to revamp Egypt 's image and to counter the bad press Egypt had received because of the country's human rights record",
+  the_content_of_these_foreign_influencers: "Controlled to make sure that nothing portrays Dubai in a negative light",
+  owned_social_media: { definition: "The platform markets itself by creating/promoting content to its users", what_it_does: "", examples: "customers provide feedback on the firm) and providing access to customer service" },
+  reported_that_twitter_use_by_candidates: "Unprecedented during the US 2016 election",
+  propaganda: { definition: "Used internally to control populations, and externally to influence other societies", what_it_does: "", examples: "ResearchGate , LinkedIn , Facebook , X , and Academia.edu" },
+  they_urge_students_who: { definition: "Pressured to give up their account information to resist", what_it_does: "", examples: "social media profiles as part of their admissions process" },
+  the_defendants_have_said_they: "Launching new safety tools and features to protect younger users",
+  females: "More likely to experience high levels of sleep disturbance",
+  ambivalence: "Confusion about the benefits from using social media",
+  depersonalization: "Emotional detachment from social media",
+  media_critic_siva_vaidhyanathan: "Social media as 'anti-social media' in reference to its negative impacts including on loneliness and political polarization",
+  another_divide: "Between producers and consumers of Internet content, [ 216 ] [ 217 ] which could be a result of educational disparities",
+  political_polarization: { definition: "The divergence of political attitudes towards ideological extremes", what_it_does: "", examples: "during the COVID-19 pandemic, youth were accused of responsibility for spreading the disease" },
+  the_hashtag: { definition: "Created to simplify searching for information and to allow users to highlight topics of interest in the hope of attracting the attention of others", what_it_does: "", examples: "YouTube and Google Classroom" },
+  they_set_rules_for_what: "Allowable, decided which content to promote and which to ignore",
+  both_proposals: "Enacted in July 2022",
+  another_proposal: { definition: "To invoke competition law", what_it_does: "", examples: "X add paid user subscriptions in part to reduce their dependence on advertising revenues" },
+  young_people: "Prone to sharing personal information that can attract predators",
+  definitions: { definition: "Not standardized or agreed upon, complicating the development of evidence-based recommendations", what_it_does: "", examples: "the Multi-District Litigation alleging harms caused by social media addiction on young users" },
+  both_x_and_youtube: "Temporarily suspended in the country by a court's decision",
+  the_tib: { definition: "Also given the authority to block access to specific websites without a court order", what_it_does: "", examples: "ActivityPub have been adopted by platforms such as Mastodon , GNU social , Diaspora , and Friendica" },
+
 };
 
 // ============================================================
