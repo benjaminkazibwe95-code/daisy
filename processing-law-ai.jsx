@@ -14027,6 +14027,17 @@ const FLAT_DICT = {
   a_communist_state_constitution: { definition: "The supreme and fundamental law of a communist state", what_it_does: "", examples: "Ireland , the ordinary courts may perform this function in addition to their other responsibilities" },
   a_constitutional_violation: "An action or legislative act that is judged by a constitutional court to be contrary to the constitution, that is, unconstitutional",
 
+  // === INGESTED 2026-06-21 22:22 ===
+  the_psalmist: "God as having 'Righteousness and justice [as] the foundation of [His] throne;....' (Psalms 89:14, NRSV)",
+  john_locke: { definition: "A proponent of natural law, stressing its role in the justification of property rights and the right to revolution", what_it_does: "", examples: "equality and absence of bias" },
+  this_account: "Considered further below, under ' Justice as Fairness '",
+  the_absence_of_bias: { definition: "An equal ground for all people involved in a disagreement (or trial in some cases)", what_it_does: "", examples: "John Stuart Mill , justice is not as fundamental as we often think" },
+  if_this_process: "The source of our feelings about justice, that ought to undermine our confidence in them",
+  the_result_is_that_the_world: "Better off in an absolute sense and no one is worse off",
+  the_belief_in_equality_before_the_law: "Called legal egalitarianism",
+  proportionality_in_justice: { definition: "The principle that rewards and punishments should correspond directly and appropriately to the merit or gravity of actions", what_it_does: "", examples: "sociologist George C" },
+  the_right_to_speedy_trial: { definition: "In some jurisdictions enshrined", what_it_does: "", examples: "injunctions )" },
+
 };
 
 // ============================================================
