@@ -13518,6 +13518,14 @@ const FLAT_DICT = {
   she_notes_that_the_model: { definition: "Ill-suited for those 'accustomed to free content and services', leading to a variant, the freemium model", what_it_does: "", examples: "when the tooling company Hilti shifted from selling its tools to a leasing model" },
   managing_this: "A task of integrated marketing",
 
+  // === INGESTED 2026-06-21 21:36 ===
+  market_orientations: { definition: "Philosophies concerning the factors that should go into market planning", what_it_does: "", examples: "use of coupons and other price inducements" },
+  marketing_objectives: "Typically broad-based in nature, and pertain to the general vision of the firm in the short, medium or long-term",
+  a_marketing_mix: { definition: "A foundational tool used to guide decision making in marketing", what_it_does: "", examples: "advertising and direct selling)" },
+  cost_also: "Anything else the consumer must sacrifice to attain the product, such as time or money spent on transportation to acquire the product",
+  the_damp_acronym: "Used as criteria to gauge the viability of a target market",
+  the_plc: { definition: "Based on a few key assumptions, including: In the introduction stage, a product is launched onto the market", what_it_does: "", examples: "advertising, promotion, pricing, product development, and distribution" },
+
 };
 
 // ============================================================
