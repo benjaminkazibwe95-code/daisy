@@ -13364,6 +13364,34 @@ const FLAT_DICT = {
   some_economists_think_that_crowding_out: { definition: "Always an issue, while others do not think it is a major issue when output is depressed", what_it_does: "", examples: "consumption, land ownership, and human capital" },
   international_finance: { definition: "A macroeconomic field that examines the flow of capital across international borders and the effects of these movements on exchange rates", what_it_does: "", examples: "how monopoly, rent-seeking behaviour, and externalities should impact government policy" },
 
+  // === INGESTED 2026-06-21 21:21 ===
+  one_goal_of_microeconomics: "To analyze the market mechanisms that establish relative prices among goods and services and allocate limited resources among alternative uses",
+  the_utility_maximization_problem: "A constrained optimization problem in which an individual seeks to maximize utility subject to a budget constraint",
+  this_model_of_microeconomic_theory: "Referred to as revealed preference theory",
+  this_implies_that_there: "Many buyers and sellers in the market, and none of them has the capacity to influence the prices of goods and services significantly",
+  production_theory: { definition: "The study of production, or the economic process of converting inputs into outputs", what_it_does: "", examples: "labor , capital , or land ) and taxation" },
+  the_fixed_cost: "The cost incurred regardless of how much the firm produces",
+  the_variable_cost: { definition: "A function of the quantity of an object being produced", what_it_does: "", examples: "in the pharmaceutical industry" },
+  the_opportunity_cost_of_any_activity: { definition: "The value of the next-best alternative one could have pursued instead", what_it_does: "", examples: "one may like waffles, but like chocolate even more" },
+  the_opportunity_cost_of_eating_waffles: "Sacrificing the chance to eat chocolate",
+  because_the_cost_of_not_eating_the_chocolate: "Higher than the benefits of eating the waffles, it makes no sense to choose waffles",
+  but_one: "Willing to do that because the waffle's opportunity cost is lower than the chocolate's benefits",
+  opportunity_costs: "Unavoidable constraints on behavior because one has to decide what's best and give up the next-best alternative",
+  microeconomics: "Also known as price theory to highlight the significance of prices for buyers and sellers, who determine them through their individual actions",
+  price_theory: { definition: "Not the same as microeconomics", what_it_does: "", examples: "the development of public choice theory and law and economics" },
+  supply_and_demand: "An economic model of price determination in a perfectly competitive market",
+  the_equilibrium_price: { definition: "Determined by supply and demand", what_it_does: "", examples: "for electrical power, raw material inputs, overtime, and temp work" },
+  other_inputs: { definition: "Relatively fixed , such as plant and equipment and key personnel", what_it_does: "", examples: "demand for the goods they produce, technology, and input prices" },
+  perfect_competition: "A situation in which numerous small firms producing identical products compete against each other in a given industry",
+  firms_in_perfect_competition: "'price takers' (they do not have enough market power to increase the price of their goods or services profitably)",
+  a_good_example: "Digital marketplaces, such as eBay , where many sellers offer similar products to many buyers",
+  imperfect_competition: { definition: "A type of market structure that exhibits some, but not all, features of competitive markets", what_it_does: "", examples: "Pepsi, Coke, Sony, Nintendo, and Microsoft dominate the cola and video game industries, respectively" },
+  these_firms: "In imperfect competition [ 29 ] Monopolistic competition is a situation in which many firms with slightly different products compete",
+  production_costs: "Higher than those of perfectly competitive firms, but society benefits from product differentiation",
+  a_monopoly: "A market structure in which a single supplier dominates a market or industry for a particular good or service",
+  an_oligopsony: "A market with a few buyers and many sellers",
+  information_economics: { definition: "A branch of microeconomic theory that studies how information and information systems affect an economy and economic decisions", what_it_does: "", examples: "if one relaxes this assumption, one can scrutinize agents' actions in situations of uncertainty" },
+
 };
 
 // ============================================================
