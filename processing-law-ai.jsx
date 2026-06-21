@@ -14159,6 +14159,16 @@ const FLAT_DICT = {
   onethird_of_the_total_agricultural_land: { definition: "Cropland (1.58 billion ha in 2021), which increased by 6 percent (0.09 billion ha)", what_it_does: "", examples: "grazing, animal agriculture constitutes around 80% of agricultural land" },
   commodities: { definition: "Generally reported by production quantities, such as volume, number or weight", what_it_does: "", examples: "soil degradation, waste management , and bioremediation" },
 
+  // === INGESTED 2026-06-21 22:34 ===
+  the_substance: "Ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, encourage physical requirements, and support growth",
+  omnivorous_humans: "Highly adaptable and have adapted to obtaining food in many different ecosystems",
+  the_oxygen: { definition: "Then released, and the glucose stored as an energy reserve", what_it_does: "", examples: "calcium, sulfur, magnesium, iron boron, chlorine, manganese, zinc, copper molybdenum and nickel" },
+  ammonia: { definition: "The precursor to proteins, nucleic acids, and most vitamins", what_it_does: "", examples: "the tomato, squash, pepper and eggplant or seeds like peas commonly considered vegetables" },
+  eggs_laid_by_birds_and_other_animals: { definition: "Eaten and bees produce honey , a reduced nectar from flowers that is used as a popular sweetener in many cultures", what_it_does: "", examples: "jugged hare" },
+  the_differing_tastes: { definition: "Important for distinguishing between foods that are nutritionally beneficial and those which may contain toxins", what_it_does: "", examples: "glucose or fructose , or disaccharides , such as sucrose , a molecule combining glucose and fructose" },
+  sour: { definition: "Evolutionarily significant as it can signal a food that may have gone rancid due to bacteria", what_it_does: "", examples: "sodium and potassium" },
+  bitter_taste: "A sensation considered unpleasant, caused by foods such as unsweetened dark chocolate, caffeine , lemon rind, and some types of fruit",
+
 };
 
 // ============================================================
