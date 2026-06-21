@@ -11862,6 +11862,31 @@ const FLAT_DICT = {
   the_first_antibiotic: "Arsphenamine (Salvarsan) discovered by Paul Ehrlich in 1908 after he observed that bacteria took up toxic dyes that human cells did not",
   the_first_major_class_of_antibiotics: { definition: "The sulfa drugs , derived by German chemists originally from azo dyes", what_it_does: "", examples: "the United States where restrictions on health insurance coverage may limit affordability" },
 
+  // === INGESTED 2026-06-21 14:49 ===
+  the_human_body: "Composed of elements including hydrogen , oxygen , carbon , calcium and phosphorus",
+  the_adult_male_body: "About 60% total body water content of some 42 litres (9.2 imp gal; 11 US gal)",
+  the_skin_of_the_body: { definition: "Also host to billions of commensal organisms as well as immune cells", what_it_does: "", examples: "collagen , surrounded by extracellular fluids" },
+  endothelial_cells: { definition: "Cells that line internal cavities including blood vessels and glands", what_it_does: "", examples: "the heart , lungs and liver" },
+  the_heart: "Composed of two atria and two ventricles",
+  the_primary_purpose_of_the_atria: { definition: "To allow uninterrupted venous blood flow to the heart during ventricular systole", what_it_does: "", examples: "the lungs or breasts" },
+  it_stores_bile_before_it: "Released into the small intestine via the common bile duct to help with digestion of fats",
+  typical_treatment: { definition: "Removal of the gallbladder through a procedure called a cholecystectomy", what_it_does: "", examples: "some that move from tissue to blood vessels and back, as well as the spleen and bone marrow" },
+  then_it: "Swallowed , and moves through the esophagus to the stomach",
+  what_is_left: { definition: "Called chyme ; this then moves into the small intestine , which absorbs the nutrients and water from the chyme", what_it_does: "", examples: "antibodies , cytokines , and toll-like receptors , among many others" },
+  the_lymphatic_system: "Similar to the circulatory system in terms of both its structure and its most basic function, to carry a body fluid",
+  the_brain: "The organ of thought , emotion, memory , and sensory processing ; it serves many aspects of communication and controls various systems and functions",
+  the_cns: "Mostly responsible for organizing motion , processing sensory information , thought, memory, cognition and other such functions",
+  the_sns: "Involved in voluntary functions like speaking and sensory processes",
+  the_ans: "Involved in involuntary processes, such as digestion and regulating blood pressure",
+  at_birth_there: "About 70,000 immature egg cells that degenerate until at puberty there are around 40,000",
+  the_testicles: "Gonads that produce the sperm cells which are ejaculated in semen through the penis",
+  other_internal_sex_organs: { definition: "The epididymides , vasa deferentia , and some accessory glands", what_it_does: "", examples: "syphilis , HIV , chlamydia , HPV and genital warts" },
+  each_alveolus: "Surrounded by capillaries carrying deoxygenated blood, which absorbs oxygen out of the air and into the bloodstream",
+  inflammation_of_the_lungs_and_excess_mucus: "Common sources of breathing difficulties",
+  the_bladder: { definition: "A hollow balloon shaped organ located in the pelvis", what_it_does: "", examples: "sesamoid bones and accessory muscles" },
+  body_shape: { definition: "Influenced by the distribution of bones, muscle and fat tissue", what_it_does: "", examples: "sugar and oxygen in the blood" },
+  some_combined_systems: { definition: "Referred to by joint names", what_it_does: "", examples: "the nervous system and the endocrine system operate together as the neuroendocrine system" },
+
 };
 
 // ============================================================
