@@ -13794,6 +13794,31 @@ const FLAT_DICT = {
   this_stress: { definition: "Claimed to be related to standardized testing, and the pressure on students to score above average", what_it_does: "", examples: "an anxiety disorder or depression, and 9 percent had seriously considered suicide" },
   proponents_of_schools_see_them_as_effective: "Of providing an education for young people",
 
+  // === INGESTED 2026-06-21 22:03 ===
+  the_first_universities: "Developed in Europe from schools that had been maintained by the Church for the purpose of educating priests",
+  the_first_figures_of_the_church_in_egypt: "Scholars rather than bishops, directors of the Catechetical School of Alexandria: Clement (160–215) and Origen (185–251)",
+  they_argue_that_while_it: "Undoubtedly a major center of learning, comparing it directly to a modern university is historically imprecise",
+  speyer: "Renowned for supplying the Holy Roman Empire with diplomats",
+  the_earliest_universities: { definition: "Developed under the aegis of the Latin Church by papal bull as studia generalia and perhaps from cathedral schools", what_it_does: "", examples: "kings, emperors, or religious organizations" },
+  latin: { definition: "The language of the university, used for all texts, lectures, disputations and examinations", what_it_does: "", examples: "student brawling and absentee professors, acted to destabilize these institutions as well" },
+  aristotle: "No longer a force providing the epistemological and methodological focus for universities and a more mechanistic orientation was emerging",
+  the_critical_mindset_imparted_by_humanism: "Imperative for changes in universities and scholarship",
+  when_johns_hopkins: "Founded in 1876, 'nearly the entire faculty had studied in Germany",
+  universities: "Generally divided into a number of academic departments, schools or faculties",
+  private_universities: "Privately funded and generally have broader independence from state policies",
+  in_some_countries_universities: "Predominantly funded by the state, while in others funding may come from donors or from fees which students attending the university must pay",
+  where_there: "Clarification, it is usually set by a government agency",
+  students_rights_within_university: "Also protected by the Education Services for Overseas Students Act (ESOS)",
+  institutions_that: { definition: "'deemed-to-be-university' enjoy the academic status and the privileges of a university", what_it_does: "", examples: "Waterloo ); and smaller, primarily undergraduate universities (such as St" },
+  most_of_them: "Public institutions, though a few private universities exist",
+  such_universities: "Always research universities",
+  public_universities_in_nordic_countries: { definition: "Entirely without tuition fees until around 2005", what_it_does: "", examples: "literary and philosophical ones, were ancillary subjects only" },
+  a_madrasa: "A college of Islamic law",
+  the_madrasa: "An educational institution in which Islamic law (fiqh) was taught according to one or more Sunni rites: Maliki, Shafi'i, Hanafi, or Hanbali",
+  subjects_other_than_law: "Frequently taught in madrasas, and even Sufi seances were held in them, but there could be no madrasa without law as technically the major subject",
+  the_most_unwarranted_of_these_statements: "The one which makes of the 'madrasa' a 'university'",
+  alqarawiyin: "The oldest university in Morocco",
+
 };
 
 // ============================================================
