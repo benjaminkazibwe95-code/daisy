@@ -14241,6 +14241,18 @@ const FLAT_DICT = {
   the_seriously_mentally_ill: "Either homeless, or in prison; in either case (especially the latter), they are getting little or no mental health care",
   east_asian_countries: { definition: "Heavily influenced by cultural beliefs, associating mental health issues with weakness", what_it_does: "", examples: "AIDS, malaria, and Ebola attract health services attention due to the population impact" },
 
+  // === INGESTED 2026-06-21 22:45 ===
+  a_further_issue_is_when_measurement: "Made; appraisal of a level of happiness at the time of the experience may be different from appraisal via memory at a later date",
+  selfreporting: { definition: "Prone to cognitive biases and other sources of errors, such as peak–end rule", what_it_does: "", examples: "how happy they will be" },
+  waldinger_found_that_those_who: { definition: "Happiest and healthier reported strong interpersonal relationships", what_it_does: "", examples: "psychological distress" },
+  when_basic_needs: { definition: "Satisfied, the degree of happiness depends on economic and cultural factors that enable free choice in how people live their lives", what_it_does: "", examples: "positive social interactions with family and friends" },
+  ultimate_happiness: "Only achieved by overcoming craving in all forms",
+  when_a_person_is_happy_they: { definition: "Much more capable of serving God and going about their daily activities than when depressed or upset", what_it_does: "", examples: "habits according to virtue" },
+  this_principle_states_that_actions: "Proportionately right or wrong by how much happiness or unhappiness they bring",
+  eudaimonia: "Often translated to mean happiness, but some scholars contend that 'human flourishing' may be a more accurate translation",
+  for_aristotle_human_function: "To reason, since it is that alone which humans uniquely do",
+  it_may_seem_like_all_goods_are_a: { definition: "To obtain happiness, but Aristotle said that happiness is always an end in itself", what_it_does: "", examples: "all the highest achievements of human culture, not least of all philosophy" },
+
 };
 
 // ============================================================
