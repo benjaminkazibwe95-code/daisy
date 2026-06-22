@@ -16115,6 +16115,23 @@ const FLAT_DICT = {
   these_polymers: "Encapsulated in vesicles after condensation",
   while_rna_folding_in_psychrophilic_organisms: { definition: "Slower, so is hydrolysis, so folding is more successful", what_it_does: "", examples: "those in which molecules are exposed to circularly polarized light of a given handedness" },
 
+  // === INGESTED 2026-06-22 03:20 ===
+  one_function_of_a_taxonomy: { definition: "To help users more easily find what they are searching for", what_it_does: "", examples: "network structures" },
+  at_the_top_of_this_structure: "A single classification, the root node, that applies to all objects",
+  nodes_below_this_root: "More specific classifications that apply to subsets of the total set of classified objects",
+  the_tool_and_its_source_code: "Available for public use",
+  whenever_we_use_nominative_phrases_we: { definition: "Classifying the designated subject as being importantly similar to other entities bearing the same designation; that is, we classify them together", what_it_does: "", examples: "the biological classification of animals and plants by genus and species" },
+  this_kind_of_taxonomy: { definition: "Called an is-a model because the specific objects are considered as instances of a concept", what_it_does: "", examples: "Fido is-an instance of the concept dog and Fluffy is-a cat" },
+  whether_units: { definition: "Called concepts or universals, the problem is to decide when a thing (say a 'blackbird') should be considered a natural class", what_it_does: "", examples: "'essentialism'; (2) empiricist approaches including cluster analysis" },
+  the_root_of_the_tree: "The original class, and the leaves of the tree are the final classes",
+  numerical_taxonomy: "An approach based solely on observable, measurable similarities and differences of the things to be classified",
+  some_people_will_argue_that_this: "Not classification/taxonomy at all, but such an argument must consider the definitions of classification (see above)",
+  genealogical_classification: "Classification of items according to their common heritage",
+  all_true_classification: { definition: "Genealogical ...' but that he provided operational guidance for classification", what_it_does: "", examples: "classification of languages, and may be considered a general approach to classification" },
+  the_historical_and_hermeneutical_approaches: { definition: "Not restricted to the development of the object of classification (e.g", what_it_does: "", examples: "classifying animals into wild animals, pests, domesticated animals and pets" },
+  natural_classification: { definition: "A concept closely related to the concept natural kind", what_it_does: "", examples: "all musical instruments are organized according to this classification" },
+  the_first_edition: "Influenced by psychodynamic theory",
+
 };
 
 // ============================================================
