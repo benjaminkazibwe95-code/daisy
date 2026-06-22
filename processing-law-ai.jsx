@@ -20867,6 +20867,35 @@ const FLAT_DICT = {
   a_relatively_small_number_of_toxins: { definition: "Known to have the potential to cause widespread sickness or casualties", what_it_does: "", examples: "rapid investigation, response, and treatment" },
   toxmap: "A Geographic Information System (GIS) that is part of TOXNET",
 
+  // === INGESTED 2026-06-22 16:28 ===
+  the_tract: { definition: "One of the largest of the body's systems", what_it_does: "", examples: "the esophagus , stomach , and intestines" },
+  food_taken_in_through_the_mouth: "Digested to extract nutrients and absorb energy , and the waste expelled at the anus as feces",
+  gastrointestinal: "An adjective meaning of or pertaining to the stomach and intestines",
+  the_complete_human_digestive_system: "Made up of the gastrointestinal tract plus the accessory organs of digestion (the tongue , salivary glands , pancreas , liver and gallbladder )",
+  the_whole_human_gi_tract: "About nine meters (30 feet) long at autopsy",
+  the_tract_itself: "Divided into upper and lower tracts, and the intestines into small and large intestines",
+  the_four_segments_of_the_duodenum: "As follows (starting at the stomach, and moving toward the jejunum): bulb , descending, horizontal, and ascending",
+  the_large_intestine: { definition: "Subdivided into the cecum , and ascending , transverse , descending , and sigmoid colons , rectum , and anal canal", what_it_does: "", examples: "carbohydrates, proteins, lipids, and vitamins) into the bloodstream" },
+  its_length: "About 1.5 m, and the area of the mucosa in an adult human is about 2 m 2 (22 sq ft)",
+  it_reaches_the_sigmoid_colon_which: "A loop of the colon closest to the rectum and continues to the rectum and anal canal",
+  the_gut: "An endoderm -derived structure",
+  although_these_terms: { definition: "Often used in reference to segments of the primitive gut, they are also used regularly to describe regions of the definitive gut as well", what_it_does: "", examples: "the stomach and colon , develop as swellings or dilatations in the cells of the primitive gut" },
+  the_mucosa: "Made up of: [ citation needed ] The mucosae are highly specialized in each organ of the gastrointestinal tract to deal with the different conditions",
+  the_most_variation: "Seen in the epithelium",
+  the_layers: "Not truly longitudinal or circular, rather the layers of muscle are helical with different pitches",
+  the_inner_circular: "Helical with a steep pitch and the outer longitudinal is helical with a much shallower pitch",
+  the_muscularis_externa_of_the_stomach: "Composed of the inner oblique layer, middle circular layer, and the outer longitudinal layer",
+  activity: "Initiated by the pacemaker cells, (myenteric interstitial cells of Cajal )",
+  food_in_the_gi_tract: { definition: "Called a bolus (ball of food) from the mouth down to the stomach", what_it_does: "", examples: "the retroperitoneal section of the duodenum usually passes through the transpyloric plane" },
+  these_microbes: { definition: "Responsible for gas production at host–pathogen interface , which is released as flatulence", what_it_does: "", examples: "humans) possess separate anal and uro-genital openings" },
+  in_birds_this: "Found as a pouch alongside the esophagus",
+  a_stretched_gut_without_the_middle_part_closed: { definition: "Present in another branch of bilaterians, the extinct proarticulates", what_it_does: "", examples: "infections , inflammation and cancer" },
+  diverticular_disease_is_a_condition_that: "Very common in older people in industrialized countries",
+  once_the_pouches_become_inflamed_it: "Known as diverticulitis",
+  although_ulcerative_colitis: { definition: "Often treated as though it were an autoimmune disease, there is no consensus that it actually is such", what_it_does: "", examples: "[ citation needed ] Gastrointestinal surgery can often be performed in the outpatient setting" },
+  from_each_species_of_livestock_that: "A source of milk , a corresponding rennet is obtained from the intestines of milk-fed calves",
+  pig_and_calf_intestines: "Eaten, and pig intestines are used as sausage casings",
+
 };
 
 // ============================================================
