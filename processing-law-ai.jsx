@@ -19954,6 +19954,31 @@ const FLAT_DICT = {
   maryland_football: "Also popular at the university",
   the_attendance_record_at_ludwig_field: { definition: "Set in 2015 when 8,449 fans saw Maryland win over top-ranked UCLA in extra time", what_it_does: "", examples: "Brazilian jiu-jitsu" },
 
+  // === INGESTED 2026-06-22 13:59 ===
+  the_surface_of_mercury: "Similar to Earth's Moon , being cratered , with an expansive rupes system generated from thrust faults , and bright ray systems , formed by ejecta",
+  its_mantle: "Highly homogeneous, which suggests that Mercury had a magma ocean early in its history, like the Moon",
+  the_first_successful_flyby_of_mercury: "Conducted by Mariner 10 in 1974, and it has since been visited and explored by the MESSENGER and BepiColombo orbiters",
+  it_is_thought_that_these: { definition: "Formed as Mercury's core and mantle cooled and contracted at a time when the crust had already solidified", what_it_does: "", examples: "maria and plateaus" },
+  the_crust: "Low in iron but high in sulfur, resulting from the stronger early chemically reducing conditions than is found on other terrestrial planets",
+  the_less_reflective_regions_of_the_crust: "High in carbon, most likely in the form of graphite",
+  names_coming_from_people: "Limited to the deceased",
+  craters: "Named for artists, musicians, painters, and authors who have made outstanding or fundamental contributions to their field",
+  depressions_or_fossae: "Named for works of architecture",
+  montes: "Named for the word 'hot' in a variety of languages",
+  plains_or_planitiae: "Named for Mercury in various languages",
+  valleys_or_valles: "Named for abandoned cities, towns, or settlements of antiquity",
+  the_floor_of_the_caloris_basin: "Filled by a geologically distinct flat plain, broken up by ridges and fractures in a roughly polygonal pattern",
+  it_is_not_clear_whether_they: "Volcanic lava flows induced by the impact or a large sheet of impact melt",
+  one_hypothesis_for_its_origin: { definition: "That shock waves generated during the Caloris impact traveled around Mercury, converging at the basin's antipode (180 degrees away)", what_it_does: "", examples: "solar wind and micrometeorite impacts" },
+  the_floors_of_deep_craters_at_the_poles: { definition: "Never exposed to direct sunlight, and temperatures there remain below 102 K, far lower than the global average", what_it_does: "", examples: "presently from Comet Encke" },
+  maximum_temperature_occurs_when_the_sun: "At an angle of about 25 degrees past noon due to diurnal temperature lag , at 0.4 Mercury days and 0.8 Mercury years past sunrise",
+  the_planet: "Higher in the sky and fewer atmospheric effects affect the view of the planet",
+  the_effort_to_map_the_surface_of_mercury: "Continued by Eugenios Antoniadi , who published a book in 1934 that included both maps and his own observations",
+  if_mercury: { definition: "Tidally locked, its dark face would be extremely cold, but measurements of radio emission revealed that it was much hotter than expected", what_it_does: "", examples: "powerful heat-distributing winds to explain the observations" },
+  aerobraking: "Ruled out because Mercury has a negligible atmosphere",
+  the_second_close_approach: "Primarily used for imaging, but at the third approach, extensive magnetic data were obtained",
+  the_first_orbital_image_of_mercury: { definition: "Obtained on March 29, 2011", what_it_does: "", examples: "infrared , ultraviolet , X-ray and gamma ray" },
+
 };
 
 // ============================================================
