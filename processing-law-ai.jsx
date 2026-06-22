@@ -16668,6 +16668,13 @@ const FLAT_DICT = {
   sunshine_exposure: { definition: "Needed biologically for the production of Vitamin D in the skin, a vital compound needed to make strong bone and muscle in the body", what_it_does: "", examples: "Hinduism , the Sun is considered to be a god , as it is the source of life and energy on Earth" },
   sunbathing: { definition: "A popular leisure activity in which a person sits or lies in direct sunshine", what_it_does: "", examples: "cataracts and macular degeneration" },
 
+  // === INGESTED 2026-06-22 04:55 ===
+  stramenopiles: { definition: "Eukaryotes ; most are single-celled, but some are multicellular including some large seaweeds, the brown algae", what_it_does: "", examples: "in most diatoms" },
+  many_stramenopiles: "Unicellular flagellates , and most others produce flagellated cells at some point in their lifecycles, for instance as gametes or zoospores",
+  this_contextual_clarification: { definition: "Rare, such that when the taxon name is used, it is unclear how it should be understood", what_it_does: "", examples: "diatoms) that no longer have such hairs" },
+  those_plastids: "Coloured off-green, orange, golden or brown because of the presence of chlorophyll a , chlorophyll c , and fucoxanthin",
+  this_form_of_plastid: "Called a stramenochrome or chromoplast",
+
 };
 
 // ============================================================
