@@ -17612,6 +17612,21 @@ const FLAT_DICT = {
   infinitesimal_changes_in_a_process_function_x: "Often indicated by δX to distinguish them from infinitesimal changes in a state function Y which is written dY",
   the_quantity_dy: "An exact differential , while δX is not, it is an inexact differential",
 
+  // === INGESTED 2026-06-22 07:02 ===
+  a_person_who_conducted_scientific_research: { definition: "Called a 'natural philosopher' or 'man of science'", what_it_does: "", examples: "prayers, incantations , and rituals" },
+  societies_and_academies: "The backbones of the maturation of the scientific profession",
+  another_important_development: "The popularisation of science among an increasingly literate population",
+  their_theory: { definition: "Set out in detail in Darwin's book On the Origin of Species , published in 1859", what_it_does: "", examples: "the Space Race and nuclear arms race" },
+  modern_natural_science: { definition: "The successor to the natural philosophy that began in Ancient Greece", what_it_does: "", examples: "the functionalists , conflict theorists , and interactionists in sociology" },
+  basic_research: "The search for knowledge and applied research is the search for solutions to practical problems using this knowledge",
+  this_leads_to_technological_advances_that: "Not previously imaginable",
+  disproof_of_a_prediction: { definition: "Evidence of progress", what_it_does: "", examples: "astronomy or geology, a predicted observation might be more appropriate" },
+  the_most_popular_position: "Empiricism , which holds that knowledge is created by a process involving observation; scientific theories generalise observations",
+  popper_rejected_the_way_that_empiricism: { definition: "The connection between theory and observation", what_it_does: "", examples: "science, mathematics, philosophy, and art" },
+  the_choice_between_paradigms: { definition: "Setting two or more 'portraits' against the world and deciding which likeness is most promising", what_it_does: "", examples: "academia, industry , government , and nonprofit organisations" },
+  science_policy_sometimes: { definition: "The act of applying scientific knowledge and consensus to the development of public policies", what_it_does: "", examples: "YouTube and Khan Academy), museums, and science magazines and blogs" },
+  scientists_in_some_countries: "Found to have a bias in political party preferences compared to the general population",
+
 };
 
 // ============================================================
