@@ -16889,6 +16889,19 @@ const FLAT_DICT = {
   the_process_of_cancer_development_in_the_body: "A combination of events",
   restriction_enzymes: "Commonly used enzymes that cut DNA at specific sequences, producing predictable fragments of DNA",
 
+  // === INGESTED 2026-06-22 05:28 ===
+  a_prime_example_of_disorganized_complexity: "A gas in a container, with the gas molecules as the parts",
+  an_example_of_organized_complexity: "A city neighborhood as a living mechanism, with the neighborhood people among the system's parts",
+  the_source_of_disorganized_complexity: "The large number of parts in the system of interest, and the lack of correlation between elements in the system",
+  the_use_of_the_term_complex: "Often confused with the term complicated",
+  the_behavior_of_a_complex_system: "Often said to be due to emergence and self-organization",
+  the_topic: "Commonly recognized as social complexity that is often related to the use of computer simulation in social science, i.e",
+  these_systems: "Present in the research of a variety of disciplines, including biology , economics , social studies and technology",
+  information_entropy: "Also sometimes used in information theory as indicative of complexity, but entropy is also high for randomness",
+  computational_complexity_theory: "The study of the complexity of problems – that is, the difficulty of solving them",
+  some_problems: "Difficult to solve, while others are easy",
+  time_and_space: "Two of the most important and popular considerations when problems of complexity are analyzed",
+
 };
 
 // ============================================================
