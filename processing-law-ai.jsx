@@ -16347,6 +16347,24 @@ const FLAT_DICT = {
   i_myself_feel_that_it: { definition: "Likely that the general nature of the Watson-Crick structure is correct, but that there is doubt about details", what_it_does: "", examples: "Franklin's friends Vittorio Luzzati, Caspar, Anne Piper, and Sue Richley" },
   the_last_two: "Published posthumously",
 
+  // === INGESTED 2026-06-22 03:59 ===
+  colloidal_gold: { definition: "A sol or colloidal suspension of nanoparticles of gold in a fluid, usually water", what_it_does: "", examples: "atomic force microscopy and electron microscopy , have contributed the most to nanoparticle research" },
+  different_types_of_gold_nanoparticle: { definition: "Already used in many industries", what_it_does: "", examples: "silica , biomolecules , or aluminium oxide" },
+  particles_of_different_sizes: { definition: "Easily distinguishable in electron micrographs, allowing simultaneous multiple-labelling experiments", what_it_does: "", examples: "Paclitaxel" },
+  these_gold_nanoparticles: "Surrounded with Raman reporters, which provide light emission that is over 200 times brighter than quantum dots",
+  it_was_found_that_the_raman_reporters: { definition: "Stabilized when the nanoparticles were encapsulated with a thiol-modified polyethylene glycol coat", what_it_does: "", examples: "scFv), against, e.g" },
+  gold_nanorods: "Rod-shaped gold nanoparticles whose aspect ratios tune the surface plasmon resonance (SPR) band from the visible to near-infrared wavelength",
+  the_total_extinction_of_light_at_the_spr: "Made up of both absorption and scattering",
+  gnpglucose_oxidase_monolayer_electrode: { definition: "Constructed use these two methods", what_it_does: "", examples: "alkanethiol molecules, can self-assemble into large monolayers (>cm 2 )" },
+  the_removal_of_ligands: "Partially achievable by simply washing away all excess capping ligands, though this method is ineffective in removing all capping ligand",
+  these_aunps: "Found to be toxic in mouse liver by injection, causing cell death and minor inflammation",
+  these_gold_nanowires: "Responsible for the dark appearance of the reaction solution before it turns ruby-red",
+  thiols_are_better_binding_agents_because_there: { definition: "A strong affinity for the gold-sulfur bonds that form when the two substances react with each other", what_it_does: "", examples: "solubility" },
+  whereas_the_frens_method: "Ideal for particles of 12–20 nm, the hydroquinone method can produce particles of at least 30–300 nm",
+  the_aqueous_particles: { definition: "Colloidally stable due to their high charge from the excess ions in solution", what_it_does: "them in much milder conditions", examples: "" },
+  the_first_method_of_this_type: "Invented by Baigent and Müller",
+  these_ribbons: "Very flexible and can bend with angles larger than 90°",
+
 };
 
 // ============================================================
