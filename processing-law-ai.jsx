@@ -16785,6 +16785,23 @@ const FLAT_DICT = {
   these_two_classes: "Divided further into five orders , each containing a single family",
   the_number_and_names_of_genera: "A current matter of investigation, and several competing classification schemes have been published since 1988",
 
+  // === INGESTED 2026-06-22 05:12 ===
+  the_russian_term: "Believed to derive from Turkic or Mongolic roots, where related words refer to wooded or uninhabited forest lands",
+  in_sweden_taiga: { definition: "Associated with the Norrland terrain", what_it_does: "", examples: "large trees" },
+  the_southern_part: { definition: "The closed canopy forest , consisting of many closely-spaced trees and mossy groundcover", what_it_does: "", examples: "the fireweed and lupine" },
+  the_boreal_forest: { definition: "Home to many types of berries", what_it_does: "", examples: "cranberry and cloudberry )" },
+  the_forests_of_the_taiga: "Largely coniferous , dominated by larch , spruce , fir and pine",
+  although_the_taiga: { definition: "Dominated by coniferous forests, some broadleaf trees also occur, including birch , aspen , willow , and rowan", what_it_does: "", examples: "ferns and occasionally ramps grow closer to the ground" },
+  coniferous_trees: { definition: "The dominant plants of the taiga biome", what_it_does: "", examples: "sea-run brook trout in the Hudson Bay area), chum salmon , Siberian taimen , lenok and lake chub" },
+  the_only_other_viable_adaptation: { definition: "Seed-eating birds, which include several species of grouse , capercaillie and crossbills", what_it_does: "", examples: "taiga) at 126 years" },
+  the_fact_is_that_most_boreal_forest_stands: "Less than 100 years old, and only in the rather few areas that have escaped burning are there stands of white spruce older than 250 years",
+  trees: "Easy to harvest and sell well, so loggers have begun harvesting Russian taiga evergreen trees for sale to nations previously forbidden by Soviet law",
+  some_nations: "Discussing protecting areas of the taiga by prohibiting logging , mining , oil and gas production , and other forms of development",
+  the_reappearance_of_lichens: "Reasoned to occur because of varying conditions and light/nutrient availability in each different microstate",
+  speciesdominance_relay: "A sequential attempt of tree species to establish dominance in the canopy",
+  species_replacement: "When fires occur in sufficient frequency to interrupt species dominance relay",
+  gapphase_selfreplacement: "The least common and so far has only been documented in Western Canada",
+
 };
 
 // ============================================================
