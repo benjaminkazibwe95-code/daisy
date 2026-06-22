@@ -18077,6 +18077,27 @@ const FLAT_DICT = {
   the_first_antihydrogen: "Produced in 1995 by a team led by Walter Oelert at CERN [ 11 ] using a method first proposed by Charles Munger Jr",
   antihydrogen: { definition: "First produced by ATHENA in 2002, [ 20 ] and then by ATRAP [ 21 ] and by 2004, millions of antihydrogen atoms were made", what_it_does: "", examples: "antideuterium ( D ), antitritium ( T ), and antihelium ( He ) are much more difficult to produce" },
 
+  // === INGESTED 2026-06-22 08:20 ===
+  hyperpolarized_noble_gases: { definition: "Typically used in magnetic resonance imaging (MRI) of the lungs", what_it_does: "", examples: "3 He, 129 Xe, and quadrupolar 131 Xe, 83 Kr, and 21 Ne" },
+  the_angular_momentum: "Transferred from the alkali metal electrons to the noble gas nuclei through collisions",
+  if_fluorescence: "Not quenched, the light emitted during relaxation would be randomly polarized, working against the circularly polarized laser light",
+  those_lasers: "Said to be tuned to the D 1 wavelength (794.7 nm) of rubidium",
+  the_signal_integrals: { definition: "Then plotted over time and can be fit to obtain the buildup time constant", what_it_does: "", examples: "lung imaging, the gas must be transferred from the experimental setup to a patient" },
+  as_soon_as_the_gas: "No longer actively being optically pumped, the degree of hyperpolarization begins to decrease until thermal equilibrium is reached",
+  the_application_desired: "What governs the design of the optical pumping cell and is dependent on laser diameter, optimization needs, and clinical use considerations",
+  when_the_laser: "Illuminating the cell, but the cell is at room temperature, the IR iris is used to measure the percent transmittance of laser light through the cell",
+  as_the_cell: { definition: "Heated, the rubidium enters the vapor phase and starts to absorb laser light, causing the percent transmittance to decrease", what_it_does: "", examples: "cesium lasers" },
+  which: "Allowing the reaches of SEOP to increase",
+  this_infectious_cell: "Called collectively biomarker",
+  as_molecules_of_biomarker: "Less abundant in vivo system",
+  researchers_in_seop: "Interested to use the 129 Xe",
+  all_peaks: "Positioned through such a big range of chemical shift values for 129 Xe is viable",
+  steps: "Also being taken in academia and industry to use this hyperpolarized gas for lung imaging",
+  meop_only: "3 He nuclei at room temperature and at low pressure (≈a few mbars)",
+  the_process_of_meop: { definition: "Very efficient (high polarization rate), however, compression of the gas up to atmospheric pressure is needed", what_it_does: "", examples: "1 H, 13 C or 15 N , can be hyperpolarized using Dynamic nuclear polarization (DNP)" },
+  dnp: "Typically performed at low temperature (≈1 K) and high magnetic field (≈3 T)",
+  the_compound: "Subsequently thawed and dissolved to yield a room temperature solution containing hyperpolarized nuclei",
+
 };
 
 // ============================================================
