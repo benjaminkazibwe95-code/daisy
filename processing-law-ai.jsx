@@ -19809,6 +19809,16 @@ const FLAT_DICT = {
   the_chongqing_university_detector: "Planned to detect relic high-frequency gravitational waves with the predicted typical parameters ~ 10 10 Hz (10 GHz) and h ~ 10 −30 to 10 −31",
   levitated_sensor_detector: { definition: "A proposed detector for gravitational waves with a frequency between 10 kHz and 300 kHz, potentially coming from primordial black holes", what_it_does: "", examples: "cryogenic mirrors and the injection of squeezed vacuum" },
 
+  // === INGESTED 2026-06-22 13:19 ===
+  the_twin_paradox: "An example of this effect",
+  coordinate_time: "The time between two events as measured by an observer using that observer's own method of assigning a time to an event",
+  the_concept_of_proper_time: "Introduced by Hermann Minkowski in 1908, [ 3 ] and is an important feature of Minkowski diagrams",
+  the_formal_definition_of_proper_time: "Describing the path through spacetime that represents a clock, observer, or test particle, and the metric structure of that spacetime",
+  proper_time: "The pseudo-Riemannian arc length of world lines in four-dimensional spacetime",
+  since_the_interval: "Assumed timelike (ie",
+  the_first_expression: "Manifestly Lorentz invariant",
+  the_new_coordinates: "R = x 2 + y 2 {\displaystyle r={\sqrt {x^{2}+y^{2}}}} and θ = arctan ⁡ ( y x ) − ω t",
+
 };
 
 // ============================================================
