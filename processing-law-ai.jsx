@@ -18466,6 +18466,20 @@ const FLAT_DICT = {
   unlike_the_alkenes_these_compounds: "Not planar but adopt twisted and/or trans bent structures",
   some_double_bonds_plumbenes_and_stannenes: "Similar in strength to hydrogen bonds",
 
+  // === INGESTED 2026-06-22 09:18 ===
+  the_oldest_organic_reactions: "Combustion of organic fuels and saponification of fats to make soap",
+  a_very_old_named_reaction: "The Claisen rearrangement (1912) and a recent named reaction is the Bingel reaction (1993)",
+  when_the_named_reaction: { definition: "Difficult to pronounce or very long as in the Corey–House–Posner–Whitesides reaction it helps to use the abbreviation as in the CBS reduction", what_it_does: "", examples: "the ene reaction or aldol reaction" },
+  another_approach_to_organic_reactions: { definition: "By type of organic reagent , many of them inorganic , required in a specific transformation", what_it_does: "", examples: "lithium aluminium hydride , bases such as lithium diisopropylamide and acids such as sulfuric acid" },
+  commonly_these_classes: "(1) polar, (2) radical, and (3) pericyclic",
+  radical_reactions: "Further divided into chain and nonchain processes",
+  although_electron_pairs: "Formally involved, they move around in a cycle without a true source or sink",
+  factors_governing_organic_reactions: { definition: "Essentially the same as that of any chemical reaction", what_it_does: "", examples: "free radicals , carbocations and carbanions" },
+  the_stereochemistry_of_pericyclic_reactions: "Governed by the Woodward–Hoffmann rules and that of many elimination reactions by Zaitsev's rule",
+  many_polymerization_reactions: { definition: "Derived from organic reactions", what_it_does: "", examples: "in the Fries rearrangement the reactant is an ester and the reaction product an alcohol" },
+  reactions: "Also categorized by the change in the carbon framework",
+  more_reactions: "Found in organosilicon chemistry , organosulfur chemistry , organophosphorus chemistry and organofluorine chemistry",
+
 };
 
 // ============================================================
