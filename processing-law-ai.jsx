@@ -15188,6 +15188,11 @@ const FLAT_DICT = {
   the_robot: "Able to negotiate cluttered obstacle courses",
   another_achievement_in_robotics: "The discovery of new approaches for robot spatial representation such as 3D occupancy grids",
 
+  // === INGESTED 2026-06-22 00:30 ===
+  tay_was_a_chatbot_that: "Originally released by Microsoft Corporation as a Twitter bot on March 23, 2016",
+  the_bot: { definition: "Created by Microsoft's Technology and Research and Bing divisions, [ 3 ] and named 'Tay' as an acronym for 'thinking about you'", what_it_does: "", examples: "Eric Garner (killed by New York police in 2014) generate safe, canned answers'" },
+  all_genders: "Equal and should be treated fairly.' [ 12 ] From the same evidence, Gizmodo concurred that Tay 'seems hard-wired to reject Gamer Gate'",
+
 };
 
 // ============================================================
