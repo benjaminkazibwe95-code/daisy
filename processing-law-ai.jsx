@@ -16746,6 +16746,16 @@ const FLAT_DICT = {
   the_electrical_potential_gradient: { definition: "About -170 mV [ 6 ] , negative inside (N)", what_it_does: "", examples: "in case of the mammalian mitochondrion: [ 9 ] H + / ATP = ΔG p / (Δp / 10.4 kJ·mol −1 /mV) = 40" },
   the_photons_in_sunlight: "Received by the antenna complex of Photosystem II , which excites electrons to a higher energy level",
 
+  // === INGESTED 2026-06-22 05:06 ===
+  an_electrochemical_gradient: "Analogous to the water pressure across a hydroelectric dam",
+  electrochemical_energy: { definition: "One of the many interchangeable forms of potential energy through which energy may be conserved", what_it_does: "", examples: "batteries and fuel cells" },
+  the_final_step_of_cellular_respiration: "The electron transport chain , composed of four complexes embedded in the inner mitochondrial membrane",
+  the_gradient: "Usually used to drive ATP synthase, flagellar rotation, or metabolite transport",
+  the_sb: "Reprotonated by Asp96 which forms the N state",
+  these_higher_energy_electrons: "Transferred to protein-bound plastoquinone (PQ A ) and then to unbound plastoquinone (PQ B )",
+  the_process_that_occurs: "Similar to the Q-cycle in Complex III of the electron transport chain",
+  the_second_electron: "Transferred to heme b L which then transfers it to heme b H which then transfers it to PQ",
+
 };
 
 // ============================================================
