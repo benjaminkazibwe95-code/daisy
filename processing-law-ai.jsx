@@ -16616,6 +16616,9 @@ const FLAT_DICT = {
   one_of_the_foals: { definition: "A female, sired by a jack", what_it_does: "", examples: "mules are used to defend herds of animals against predators like wolves and feral dogs" },
   their_diet: "Also herbivorous, mainly consisting of grains, hay and greens, though they can also enjoy fruits and vegetables",
 
+  // === INGESTED 2026-06-22 04:41 ===
+  savolainen: "Elected as a fellow and the 2006 recipient of the Bicentenary Medal awarded by the Linnean Society",
+
 };
 
 // ============================================================
