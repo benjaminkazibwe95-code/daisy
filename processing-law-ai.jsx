@@ -18330,6 +18330,11 @@ const FLAT_DICT = {
   one_demonstration_of_this_principle: "Found in the two bicyclic compounds depicted below",
   one_way_that_enzymatic_catalysis_proceeds: "By stabilizing the transition state through electrostatics",
 
+  // === INGESTED 2026-06-22 08:52 ===
+  funding: "Provided by Edmond James de Rothschild",
+  perrin: { definition: "An atheist and a socialist", what_it_does: "", examples: "the poet Georges Lapicque" },
+  francis_perrin: "A physicist, a specialist in nuclear fission, and High Commissioner of the French Atomic Energy Commission (CEA) from 1951 to 1970",
+
 };
 
 // ============================================================
