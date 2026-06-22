@@ -17810,6 +17810,22 @@ const FLAT_DICT = {
   these_specialized_tools: "Called 'ESD-safe' (Electrostatic Discharge-safe) or 'toner vacuums'",
   a_potential_health_hazard: { definition: "Theoretically possible in extreme cases", what_it_does: "", examples: "cardiovascular problems or cancer" },
 
+  // === INGESTED 2026-06-22 07:37 ===
+  these_structures: { definition: "Called stops , [ 2 ] and the aperture stop is the stop that primarily determines the cone of rays that an optical system accepts (see entrance pupil )", what_it_does: "", examples: "a 100-centimetre (39 in) aperture" },
+  a_usual_expectation_is_that_the_term_aperture: "The opening of the aperture stop, but in reality, the term aperture and the aperture stop are mixed in use",
+  sometimes_even_stops_that: "Not the aperture stop of an optical system are also called apertures",
+  the_word_aperture: "Also used in other contexts to indicate a system which blocks off light outside a certain region",
+  its_most_obvious_feature: "That it limits the amount of light that can reach the image/ film plane",
+  apertures: "Also used in laser energy control, close aperture z-scan technique , diffractions/patterns, and beam cleaning",
+  the_lens_aperture: "Usually specified as an f-number , the ratio of focal length to effective aperture diameter (the diameter of the entrance pupil )",
+  aperture_priority: "A semi-automatic shooting mode used in cameras",
+  depth_of_field: { definition: "A significant concern in macro photography , however, and there one sees smaller apertures", what_it_does: "", examples: "the Canon MP-E 65mm can have effective aperture (due to magnification) as small as f /96" },
+  but_this_may_not_be_true_if_the_final_image: "Viewed under more demanding conditions, e.g",
+  the_iris: "Analogous to the diaphragm, and the pupil (which is the adjustable opening in the iris) the aperture",
+  the_entrance_pupil: "Typically about 4 mm in diameter, although it can range from as narrow as 2 mm ( f /8.3 ) in diameter in a brightly lit place to 8 mm ( f /2",
+  equivalent_aperture: "The f-number adjusted to correspond to the f-number of the same size absolute aperture diameter on a lens with a 35mm equivalent focal length",
+  smaller_equivalent_fnumbers: { definition: "Expected to lead to higher image quality based on more total light from the subject, as well as lead to reduced depth of field", what_it_does: "", examples: "in a Drum scanner , an image sensor , or a television pickup apparatus" },
+
 };
 
 // ============================================================
