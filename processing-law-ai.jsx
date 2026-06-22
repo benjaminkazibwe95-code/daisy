@@ -15440,6 +15440,9 @@ const FLAT_DICT = {
   the_odds: "Similar from other languages to English",
   certain_content: { definition: "Copyrighted by Oxford University Press , United States", what_it_does: "", examples: "'もーるるるるるるるる', 'バチバチで草' and '絵にfう'" },
 
+  // === INGESTED 2026-06-22 01:10 ===
+  the_youngest_recipient: "Donald Knuth , who won in 1974 at the age of 36, [ 11 ] while the oldest recipient was Alfred Aho , who won in 2020 at the age of 79",
+
 };
 
 // ============================================================
