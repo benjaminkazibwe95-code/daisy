@@ -19057,6 +19057,18 @@ const FLAT_DICT = {
   the_limit_ratio_between_consecutive_terms: "The supergolden ratio",
   narayana: "Also thought to be the author of an elaborate commentary of Bhaskara II 's Lilavati , titled G anita Kaumudia (or Karma-Paddhati )",
 
+  // === INGESTED 2026-06-22 11:02 ===
+  computational_geometry: "A branch of computer science devoted to the study of algorithms that can be stated in terms of geometry",
+  while_modern_computational_geometry: "A recent development, it is one of the oldest fields of computing with a history stretching back to antiquity",
+  its_execution_time: "Proportional to the square of the number of points",
+  a_classic_result_in_computational_geometry: "The formulation of an algorithm that takes O ( n log n )",
+  the_dynamic_convex_hull_problem: { definition: "To keep track of the convex hull, e.g., for the dynamically changing set of points, i.e., while the input points are inserted or deleted", what_it_does: "", examples: "consider the following problem" },
+  in_many_applications_this_problem: "Treated as a single-shot one, i.e., belonging to the first class",
+  this_branch: "Also known as geometric modelling and computer-aided geometric design (CAGD)",
+  core_problems: "Curve and surface modelling and representation",
+  the_most_important_instruments_here: "Parametric curves and parametric surfaces , such as Bézier curves , spline curves and surfaces",
+  an_important_nonparametric_approach: "The level-set method",
+
 };
 
 // ============================================================
