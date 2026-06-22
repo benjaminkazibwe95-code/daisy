@@ -18723,6 +18723,10 @@ const FLAT_DICT = {
   these_acids: "Very strong, reflecting their tendency to ionize in aqueous solution , yielding hydronium ions (H 3 O + )",
   hydrofluoric_acid: { definition: "Complicated because its strength depends on the concentration, owing to the effects of homoconjugation", what_it_does: "", examples: "acetonitrile , the hydrogen halides are only moderately acidic" },
 
+  // === INGESTED 2026-06-22 10:02 ===
+  perchloric_acid: "Dangerously corrosive and readily forms potentially explosive mixtures",
+  this_form_of_the_acid: { definition: "Stable indefinitely and is commercially available", what_it_does: "", examples: "wood, plastics, and oils" },
+
 };
 
 // ============================================================
