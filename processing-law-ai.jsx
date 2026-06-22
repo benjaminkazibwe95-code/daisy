@@ -21346,6 +21346,11 @@ const FLAT_DICT = {
   the_states_and_the_nation_series: "Published in celebration of the United States Bicentennial",
   the_series: "Administered by the American Association for State and Local History via a grant from the National Endowment for the Humanities",
 
+  // === INGESTED 2026-06-22 17:58 ===
+  at_the_other_end_of_the_rubber_tube: "A pen that recorded the pressure fluctuations on paper wrapped around a rotating drum",
+  these_waveform_patterns: "Called evoked potentials or EPs",
+  both_eps_and_erps: "Tools that can help doctors determine any abnormalities",
+
 };
 
 // ============================================================
