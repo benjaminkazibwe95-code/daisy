@@ -20233,6 +20233,16 @@ const FLAT_DICT = {
   her_ceremonies: "Conducted by 'Greek rite' ( ritus graecus ), distinguishing her from the Roman Tellus whose temple was within the pomerium",
   male_counterparts_named_tellumo_or_tellurus: "Mentioned, although rarely",
 
+  // === INGESTED 2026-06-22 14:40 ===
+  poee_legionnaire_disciples: "Authorized to initiate others as Discordian Society Legionnaires",
+  another_recurrent_organizational_name: "The Legion of Dynamic Discord , inclusive of legionnaires, disciples, and evangelists",
+  the_crossbar: "Later dropped, but the vertical orientation retained",
+  zeus_believes_that_eris: "A troublemaker, so he does not invite her to Peleus and Thetis 's wedding",
+  and_every_golden_apple_corps: "The beloved home of a Golden Worm",
+  the_sacred_chao: "Not the Yin-Yang of the Taoists",
+  on_one_side_of_the_sacred_chao: { definition: "A pentagon and on the other depicts the golden Apple of Discord", what_it_does: "", examples: "writings by both original and contemporary Discordians" },
+  the_theology_of_the_principia: "Perhaps best summarized in the symbol ",
+
 };
 
 // ============================================================
