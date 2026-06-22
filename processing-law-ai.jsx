@@ -22039,6 +22039,19 @@ const FLAT_DICT = {
   these_findings: { definition: "Significant for future consumer targeting and marketing", what_it_does: "", examples: "motivation, self confidence, self regulation, and approaches to problem solving" },
   perceived_selfefficacy: "Belief in one's agentive capabilities, that one can produce given levels of attainment",
 
+  // === INGESTED 2026-06-22 19:52 ===
+  positive_education: "An approach to education that draws on positive psychology 's emphasis of individual strengths and personal motivation to promote learning",
+  when_behavior: "Being considered, school or local norms for behavior rates are used when screening",
+  the_second_level: { definition: "Providing targeted support for individuals and groups that are at risk", what_it_does: "", examples: "families and community agencies" },
+  one_recognizable_outcome: "That RAP training facilitated the connection between teachers and challenging students",
+  within_three_months_after_the_program: "Introduced, 54% of schools met the standards of successful PBS implementation and 88% of schools had done so two years after implementation",
+  opponents_also_argue_that_standardized_tests: "Exceedingly biased and that higher standards for teacher qualification simply contribute to teacher shortage",
+  tracking: "An approach which places children in classes according to expectation levels",
+  the_goal_of_the_plan: "To have a negatively skewed distribution that shifts most soldiers to the right side of this distribution",
+  if_the_plan: "Successful within the military, it could possibly revolutionize current U.S",
+  it_creates_a_school_culture_that: "Caring, trusting, and it prevents problem behavior",
+  medical_students_at_karolinska_institutet: "Evaluated in their final year of school and again in their first year as a physician",
+
 };
 
 // ============================================================
