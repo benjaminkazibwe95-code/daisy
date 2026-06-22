@@ -18313,6 +18313,18 @@ const FLAT_DICT = {
   this_rovibrational_separation: "First achieved by Eckart [ 5 ] in 1935 by imposing by what is now known as Eckart conditions",
   the_nuclear_motion_hamiltonian: "Obtained by Wilson and Howard in 1936, [ 7 ] who followed this procedure, and further refined by Darling and Dennison in 1940",
 
+  // === INGESTED 2026-06-22 08:47 ===
+  leucippus: "The first Western philosopher to develop the concept of atoms, but his ideas only bear a superficial resemblance to modern atomic theory",
+  two_works: "Attributed to Leucippus ( The Great World System and On Mind ), but all of his writing has been lost with the exception of one sentence",
+  almost_nothing: "Known about the life of Leucippus",
+  he_proposed_that_all_things: "Made up of microscopic, indivisible particles that interact and combine to produce all the things of the world",
+  his_reasoning_was_that_if_an_object: "Made entirely of divisible points, then it would not have any structure and it would be intangible",
+  they_concluded_that_if_there: "No void, then there is no motion and all things must be one",
+  he_argued_that_the_void: "A divider that does not have being and therefore cannot be divided",
+  his_description_of_vision: { definition: "Inspired by Empedocles , who formed a similar concept of objects emitting films of themselves", what_it_does: "", examples: "justice and wisdom are produced through the arrangement of soul atoms" },
+  he_also_said_that_there: { definition: "An infinite number of atoms, spread across the void", what_it_does: "", examples: "the Sun, the Moon, the stars, and anything else visible in the night sky—exist together in the void" },
+  they_shifted_around_each_other_until_they: { definition: "Sorted 'like to like'", what_it_does: "", examples: "Pierre Gassendi (1592–1655) and Robert Boyle (1627–1691)" },
+
 };
 
 // ============================================================
