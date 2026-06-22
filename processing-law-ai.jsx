@@ -20002,6 +20002,12 @@ const FLAT_DICT = {
   the_purpose_of_these_schools: "To teach young authors how to express their scientific results through adequate and efficient science writing",
   this_journal: "Abstracted and indexed in: According to the Journal Citation Reports , the journal has a 2022 impact factor of 6.5",
 
+  // === INGESTED 2026-06-22 14:05 ===
+  open_library: "An online project intended to create 'one web page for every book ever published'",
+  its_book_information: "Collected from the Library of Congress , other libraries, and Amazon.com , as well as from user contributions through a wiki -like interface",
+  the_source_code_to_the_site: "Published under the GNU Affero General Public License",
+  a_first_hearing: "Held on March 20, 2023",
+
 };
 
 // ============================================================
