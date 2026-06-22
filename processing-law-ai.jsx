@@ -20093,6 +20093,9 @@ const FLAT_DICT = {
   the_minor_axis: "The longest line segment perpendicular to the major axis that connects two points on the ellipse's edge",
   either_half_of_the_minor_axis: "Called the semi-minor axis, of length b",
 
+  // === INGESTED 2026-06-22 14:19 ===
+  harrington: "Born near Newport News , Virginia",
+
 };
 
 // ============================================================
