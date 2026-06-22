@@ -17607,6 +17607,11 @@ const FLAT_DICT = {
   if_the_units: "Changed from per mass to, for example, per mole, the property would remain as it was (i.e., intensive or extensive )",
   work_and_heat: "Not thermodynamic properties, but rather process quantities : flows of energy across a system boundary",
 
+  // === INGESTED 2026-06-22 07:00 ===
+  thermodynamic_state_variables: "Point functions, differing from path functions",
+  infinitesimal_changes_in_a_process_function_x: "Often indicated by δX to distinguish them from infinitesimal changes in a state function Y which is written dY",
+  the_quantity_dy: "An exact differential , while δX is not, it is an inexact differential",
+
 };
 
 // ============================================================
