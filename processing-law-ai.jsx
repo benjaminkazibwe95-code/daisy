@@ -19884,6 +19884,9 @@ const FLAT_DICT = {
   since_the_name: "Derived from a person's name, its symbol is the uppercase letter 'G'",
   when_the_unit: { definition: "Spelled out, it is written in lowercase ('gauss'), unless it begins a sentence", what_it_does: "", examples: "in milligauss, mG (or mGs), or kilogauss, kG (or kGs)" },
 
+  // === INGESTED 2026-06-22 13:38 ===
+  their_official_website: "Known as Science Focus",
+
 };
 
 // ============================================================
