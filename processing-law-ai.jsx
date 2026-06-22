@@ -15228,6 +15228,27 @@ const FLAT_DICT = {
   another_objective_of_learning_from_data: "For predicting future or unseen observations, also called Statistical Prediction",
   the_second_direction: "To choose a model as machinery to offer excellent predictive performance",
 
+  // === INGESTED 2026-06-22 00:43 ===
+  the_environment: "Typically stated in the form of a Markov decision process , as many reinforcement learning algorithms use dynamic programming techniques",
+  this_suggests_that_animals: "Capable of reinforcement learning",
+  one_such_method: "Ε {\displaystyle \varepsilon } -greedy, where 0 < ε < 1 {\displaystyle 0<\varepsilon <1} is a parameter controlling the amount of exploration vs",
+  a_policy: "Stationary if the action-distribution returned by it depends only on the last state visited (from the observation agent's history)",
+  another: "That the variance of the returns may be large, which requires many samples to accurately estimate the discounted return of each policy",
+  the_two_main_approaches_for_achieving_this: "Value function estimation and direct policy search",
+  computing_these_functions: "Computing expectations over the whole state-space, which is impractical for all but the smallest (finite) Markov decision processes",
+  the_key_difference: "That actions taken in one state affect the returns of subsequent states within the same episode, making the problem non-stationary",
+  an_alternative_method: "To search directly in (some subset of) the policy space, in which case the problem becomes a case of stochastic optimization",
+  the_two_approaches_available: "Gradient-based and gradient-free methods",
+  since_an_analytic_expression_for_the_gradient: { definition: "Not available, only a noisy estimate is available", what_it_does: "", examples: "when the transitions are simply stored and 'replayed' to the learning algorithm" },
+  recently_it_has_been_shown_that_maxent_irl: { definition: "A particular case of a more general framework named random utility inverse reinforcement learning (RU-IRL)", what_it_does: "", examples: "the conditional value at risk (CVaR)" },
+  the_internal_selfreinforcement: "Provided by mechanism of feelings and emotions",
+  in_the_learning_process_emotions: "Backpropagated by a mechanism of secondary reinforcement",
+  since_the_performance: "Sensitive to implementation details, all algorithms should be implemented as closely as possible to each other",
+  since_episodes: "Typically assumed to be i.i.d , standard statistical tools can be used for hypothesis testing, such as T-test and permutation test",
+  this_instability: "Further enhanced in the case of the continuous or high-dimensional action space, where the learning step becomes more complex and less predictable",
+  the_challenge: "To develop such algorithms that can transfer knowledge across tasks and environments without extensive retraining",
+  designing_appropriate_reward_functions: "Critical in RL because poorly designed reward functions can lead to unintended behaviors",
+
 };
 
 // ============================================================
