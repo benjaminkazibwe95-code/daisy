@@ -22052,6 +22052,21 @@ const FLAT_DICT = {
   it_creates_a_school_culture_that: "Caring, trusting, and it prevents problem behavior",
   medical_students_at_karolinska_institutet: "Evaluated in their final year of school and again in their first year as a physician",
 
+  // === INGESTED 2026-06-22 19:54 ===
+  humanistic_psychology: { definition: "A psychological perspective that arose in the early- to mid-20th century in response to Sigmund Freud's psychoanalytic theory and B", what_it_does: "", examples: "Kierkegaard , Nietzsche , Heidegger , Merleau-Ponty and Sartre" },
+  even_though_transactional_analysis: { definition: "Considered a unique methodology, it was challenged after Berne's death", what_it_does: "", examples: "Gordon Allport , George Kelly , Clark Moustakas , Gardner Murphy , Henry Murray , Robert W" },
+  he_theorized_that_selfactualizing_people: "Continuously striving, thinking broadly and focusing on broader problems",
+  the_aim_of_humanistic_therapy: "Usually to help the client develop a stronger and healthier sense of self, also called self-actualization",
+  this_type_of_therapy: "Insight-based, meaning that the therapist attempts to provide the client with insights about their inner conflicts",
+  existential_therapy: "Trying to resolve this conflict",
+  unconditional_positive_regard: "The care that the therapist needs to have for the client",
+  selfhelp: "Also part of humanistic psychology: Sheila Ernst and Lucy Goodison have described using some of the main humanistic approaches in self-help groups",
+  the_ideal_self: "What a person believes should be done, as well as what their core values are",
+  the_real_self_is_what: "Actually played out in life",
+  rogers_believed_that_only_when_a_therapist: "Able to be congruent can a real relationship occur in therapy",
+  it_is_much_easier_to_trust_someone_who: "Willing to share feelings openly, even if it may not be what the client always wants; this allows the therapist to foster a strong relationship",
+  the_role_of_the_therapist: { definition: "To provide empathy and to listen attentively to the client", what_it_does: "", examples: "Relevant work was not confined to these pioneer thinkers" },
+
 };
 
 // ============================================================
