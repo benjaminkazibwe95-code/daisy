@@ -16215,6 +16215,19 @@ const FLAT_DICT = {
   after_the_voltage: "Released, the cell membranes go back to their resting potentials until they are triggered again",
   the_cost_to_males: "Reduced by a circadian rhythm , with more activity coinciding with night-time courtship and spawning, and less at other times",
 
+  // === INGESTED 2026-06-22 03:37 ===
+  the_circular_bacteria_chromosome_replication: "Best understood in the well-studied bacteria Escherichia coli and Bacillus subtilis",
+  these_assembly_stages: "Regulated to ensure that chromosome replication occurs only once in each cell cycle",
+  at_the_forefront_of_the_replisome: "A DNA helicase that unwinds the two strands of DNA, creating a moving replication fork",
+  the_nucleoside_base: "Incorporated uniformly into the bacterial chromosome",
+  coli_chromosome: "Also shown to replicate bidirectionally",
+  coli_dna_polymerase_iii_holoenzyme: "A 900 kD complex, possessing an essentially a dimeric structure",
+  deoxynucleotides: "Then added to this primer by a single DNA polymerase III dimer, in an integrated complex with DnaB helicase",
+  this_arrangement: "Called the 'replication fork trap.' [ 16 ] The Ter sites specifically interact with the replication terminator protein called Tus in E",
+  the_circles: "Not covalently but mechanically linked, because they are interwound [ check spelling ] and each is covalently closed",
+  the_topo_i_of_both_prokaryotes_and_eukaryotes: "The type I topoisomerase",
+  this_suggests_that_topoisomerase_iv: { definition: "The primary protein for decatenation of interlinked chromosomes in vivo , with DNA gyrase playing a minor role", what_it_does: "", examples: "Brucella , Paracoccus denitrificans , and Vibrio have multiple circular chromosomes" },
+
 };
 
 // ============================================================
