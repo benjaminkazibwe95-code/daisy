@@ -15887,6 +15887,33 @@ const FLAT_DICT = {
   newly_created_objects: "Tagged Generation 0",
   objects_that_survive_one_garbage_collection: { definition: "Tagged Generation 1", what_it_does: "", examples: "ARM and MIPS also have SIMD extensions" },
 
+  // === INGESTED 2026-06-22 02:39 ===
+  the_first_assembly_code_in_which_a_language: "Used to represent machine code instructions is found in Kathleen and Andrew Donald Booth 's 1947 work, Coding for A.R.C",
+  the_computational_step_when_an_assembler: { definition: "Processing a program is called assembly time", what_it_does: "", examples: "x86 or ARM" },
+  the_advantage_of_the_multipass_assembler: { definition: "That the absence of errata makes the linking process (or the program load if the assembler directly produces executable code) faster", what_it_does: "", examples: "See Language design below for more details" },
+  the_resulting_statement: "Translated by an assembler into machine language instructions that can be loaded into memory and executed",
+  the_binary_code_for_this_instruction: "10110 followed by a 3-bit identifier for which register to use",
+  the_identifier_for_the_al_register: "000, so the following machine code loads the AL register with the data 01100001",
+  if_the_same_mnemonic: "Used for different instructions, that means that the mnemonic corresponds to several different binary instruction codes, excluding data (e.g",
+  assembly_languages: { definition: "Always designed so that this sort of lack of ambiguity is universally enforced by their syntax", what_it_does: "", examples: "the word 'BEACH'" },
+  while_most_generalpurpose_computers: "Able to carry out essentially the same functionality, the ways they do so differ; the corresponding assembly languages reflect these differences",
+  a_similar_case: "The NEC V20 and V30 CPUs, enhanced copies of the Intel 8086 and 8088, respectively",
+  extended_mnemonics: "Often used to support specialized uses of instructions, often for purposes not obvious from the instruction name",
+  mnemonics: "Arbitrary symbols; in 1985 the IEEE published Standard 694 for a uniform set of mnemonics to be used by all assemblers",
+  sometimes_the_term_pseudoopcode: "Reserved for directives that generate object code, such as those that generate data",
+  another_common_use_of_pseudoops: "To reserve storage areas for run-time data and optionally initialize their contents to known values",
+  some_assemblers_support_local_symbols_which: "Often lexically distinct from normal symbols (e.g., the use of '10$' as a GOTO destination)",
+  judicious_commenting: "Essential in assembly language programs, as the meaning and purpose of a sequence of binary machine instructions can be difficult to determine",
+  the_macro_definition: { definition: "Most commonly [ nb 5 ] a mixture of assembler statements, e.g., directives, symbolic machine instructions, and templates for assembler statements", what_it_does: "", examples: "in some assemblers, expansion of any macros existing in the replacement text)" },
+  macro_parameter_substitution: "Strictly by name: at macro processing time, the value of a parameter is textually substituted for its name",
+  the_most_famous_class_of_bugs_resulting: "The use of a parameter that itself was an expression and not a simple name when the macro writer expected a name",
+  if_foo: "Called with the parameter a-c , the macro expansion of load a-c*b occurs",
+  another_design: "A-Natural, [ 37 ] a 'stream-oriented' assembler for 8080/ Z80 processors from Whitesmiths Ltd",
+  anatural: { definition: "Built as the object language of a C compiler, rather than for hand-coding, but its logical syntax won some fans", what_it_does: "", examples: "remembering numeric codes and calculating addresses" },
+  numerous_programs: "Written entirely in assembly language",
+  many_commercial_applications: "Written in assembly language as well, including a large amount of the IBM mainframe software developed by large corporations",
+  assembly_language: { definition: "The default choice for programming 8-bit consoles such as the Atari 2600 and Nintendo Entertainment System", what_it_does: "", examples: "MS-DOS , Turbo Pascal , and the Lotus 1-2-3 spreadsheet was written in assembly language" },
+
 };
 
 // ============================================================
