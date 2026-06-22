@@ -22256,6 +22256,24 @@ const FLAT_DICT = {
   the_eggs: "Surrounded by amniotic membranes which prevents them from drying out and are laid on land, or develop internally in some species",
   the_bladder_is_small_as_nitrogenous_waste: "Excreted as uric acid",
 
+  // === INGESTED 2026-06-22 20:22 ===
+  the_growth_of_the_social_sciences: "Also reflected in other specialized encyclopedias",
+  large_statistical_surveys: "Undertaken in various parts of the United States and Europe",
+  another_route_undertaken: { definition: "Initiated by Émile Durkheim , studying ' social facts ', and Vilfredo Pareto , opening metatheoretical ideas and individual theories", what_it_does: "", examples: "Max Weber" },
+  the_last_path: "The correlation of knowledge and social values ; the antipositivism and verstehen sociology of Max Weber firmly demanded this distinction",
+  it_is_an_area_that: { definition: "Offered at most undergraduate institutions", what_it_does: "", examples: "television broadcasting" },
+  an_economist: "A person using economic concepts and data in the course of employment, or someone who has earned a degree in the subject",
+  briefer_yet: { definition: "'the study of how people seek to satisfy needs and wants' and 'the study of the financial aspects of human behavior'", what_it_does: "", examples: "a household or firm, and macroeconomics , where the unit of analysis is an economy as a whole" },
+  to_educate: { definition: "'to draw out', from the Latin educare , or to facilitate the realization of an individual's potential and talents", what_it_does: "", examples: "psychology, philosophy , computer science , linguistics, neuroscience , sociology and anthropology" },
+  historical_geography: "Often taught in a college in a unified Department of Geography",
+  law: "Philosophy, because moral and ethical persuasions shape their ideas",
+  laws: "Politics, because politicians create them",
+  ferdinand_saussure: { definition: "One of the founders of 20th century linguistics", what_it_does: "", examples: "scholarly articles , are used in building and testing theories" },
+  one_useful_way_to_describe_the_discipline: { definition: "As a cluster of sub-fields that examine different dimensions of society", what_it_does: "", examples: "evaluation research , methodological assessment, and public sociology" },
+  the_process_of_developing_a_mathematical_model: "Termed 'mathematical modelling' (also modeling)",
+  the_evolution_rule_of_the_dynamical_system: "A fixed rule that describes what future states follow from the current state",
+  the_rule: { definition: "Deterministic : for a given time interval only one future state follows from the current state", what_it_does: "", examples: "Master of Public Administration ) or a doctoral degree (e.g" },
+
 };
 
 // ============================================================
