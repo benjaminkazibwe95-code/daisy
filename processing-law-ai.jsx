@@ -19166,6 +19166,13 @@ const FLAT_DICT = {
   his_earliest_work: "A complete edition of the Elements of Euclid , which he issued in Latin in 1655, and in English in 1660; in 1657 he published an edition of the Data",
   barrow: "The first to find the integral of the secant function in closed form , thereby proving a conjecture that was well-known at the time",
 
+  // === INGESTED 2026-06-22 11:29 ===
+  his_surname: { definition: "Sometimes spelt as Gregorie , the original Scottish spelling", what_it_does: "", examples: "Gabriele Manfredi , exerted on him" },
+  the_gregorian_telescope_design: "Rarely used today, as other types of reflecting telescopes are known to be more efficient for standard applications",
+  gregorian_optics: "Also used in radio telescopes such as Arecibo , which features a 'Gregorian dome'",
+  james_gregory: "A man of a very acute and penetrating genius",
+  a_round_wheel: "Unsuitable for irregular surfaces, and Gregory devised an appropriate 'adaptable wheel' using a Gregory transformation",
+
 };
 
 // ============================================================
