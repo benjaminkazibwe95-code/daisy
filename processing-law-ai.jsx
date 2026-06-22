@@ -20470,6 +20470,32 @@ const FLAT_DICT = {
   the_lawsuit: "Dropped by McGraw Hill in 1990, citing a desire not to cause distress to Baldwin's family",
   additionally_there: "One instance of them overcharging by $279,000 for a single book in Osceola County School districts",
 
+  // === INGESTED 2026-06-22 15:26 ===
+  a_detailed_hierarchical_illustration: "Provided in a subsequent figure",
+  the_function_of_the_heart: "To drive blood through the circulatory system in a cycle that delivers oxygen, nutrients and chemicals to the body's cells and removes cellular waste",
+  relative_comparison: "Limited by the absence of a widely accepted 'gold standard' measurement",
+  an_alternative_that: "Not necessarily more reproducible is the measurement of the pulmonary valve to calculate right-sided CO",
+  uscom: { definition: "The only method of cardiac output measurement to have achieved equivalent accuracy to the implantable flow probe", what_it_does: "", examples: "sepsis , heart failure and hypertension" },
+  because_the_transducer: { definition: "Close to the blood flow, the signal is clear", what_it_does: "", examples: "compliance and impedance" },
+  the_principle_of_the_volume_clamp_method: { definition: "To dynamically provide equal pressures, on either side of an artery wall", what_it_does: "", examples: "in sepsis or in patients on vasopressors" },
+  recalibration: "Recommended after changes in patient position, therapy or condition",
+  the_pulseco_algorithm_used_by_lidco: { definition: "Based on pulse power derivation and is not dependent on waveform morphology", what_it_does: "", examples: "those with sepsis" },
+  as_the_waveform: "Sampled at 1000 Hz, the detected pressure curve can be measured to calculate the actual beat-to-beat stroke volume",
+  when_the_saline_indicator: "Injected into the AV loop, it is detected by the venous clamp-on sensor on the loop before it enters the patient's heart's right atrium",
+  four_standard_ecg_electrodes: "Required for measurement of cardiac output",
+  electrical_cardiometry: "A method trademarked by Cardiotronic, Inc., and shows promising results in a wide range of patients",
+  one_is_an_anatomical_image_and_the_other: "An image in which the signal intensity in each pixel is directly proportional to the through-plane velocity",
+  the_length_of_the_cardiac_cycle: "Known and determines heart rate; Q can be calculated using equation ( 1 )",
+  mri: "Typically used to quantify the flow over one cardiac cycle as the average of several heart beats",
+  a_probe: "Inserted into the aorta to measure the concentration of the dye leaving the heart at equal time intervals [0, T ] until the dye has cleared",
+  a_more_detailed_hierarchical_illustration: "Provided in a subsequent figure",
+  a_detailed_representation_of_these_factors: "Illustrated in the figure to the right",
+  the_primary_factors_that_influence_hr: { definition: "Autonomic innervation plus endocrine control", what_it_does: "", examples: "electrolytes, metabolic products, and temperature are not shown" },
+  the_ability_to_accurately_measure_q: "Important in clinical medicine because it provides for improved diagnosis of abnormalities and can be used to guide appropriate management",
+  application_of_the_fick_principle: "Calculating the oxygen consumed over time by measuring the oxygen concentration of venous blood and arterial blood",
+  almost_all_oxygen_in_the_blood: "Bound to hæmoglobin molecules in the red blood cells",
+  the_degree_of_temperature_change: "Directly proportional to the cardiac output",
+
 };
 
 // ============================================================
