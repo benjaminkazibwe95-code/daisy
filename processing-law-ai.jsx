@@ -21708,6 +21708,23 @@ const FLAT_DICT = {
   synaptogenesis: { definition: "Dependent upon the assembly of new synapses and the disassembly of old synapses by β-adducin", what_it_does: "", examples: "depression , [ 75 ] schizophrenia , [ 76 ] and Alzheimer's disease" },
   the_ultimate_goal_of_these: "To improve accessibility and enable longitudinal monitoring of BDNF levels",
 
+  // === INGESTED 2026-06-22 18:50 ===
+  although_visual_imagery: "More likely to be recalled, mental imagery may involve representations in any of the sensory modalities, such as hearing, smell, or taste",
+  stephen_kosslyn_proposes_that_images: { definition: "Used to help solve certain types of problems", what_it_does: "", examples: "'8' and '9', but not by 'CAT' and '§'" },
+  moods: "Thought to lack directedness, unlike emotions, which are typically thought to be directed at particular things",
+  people_conclude_that_because_moods: "Undirected they are also nonintentional i.e",
+  though_emotions: "Typically considered as having directedness and intentionality this idea has also been called into question",
+  emotions_elicited_by_listening_to_music: { definition: "Another potential example of undirected, nonintentional emotions", what_it_does: "", examples: "the music that arouses them" },
+  then_there: "Nonnatural representations: P does not entail P",
+  reductivists_think_subjective_representations: "Reducible to objective",
+  other_mental_representations: "More abstract, like goals, conceptual representations, or verbal labels (“car”)",
+  these_reconstructed_images: "Remarkably similar to the original, preserving important elements like texture, shape, and color",
+  a_new_group_of_participants: "Able to correctly identify the original image based on the reconstructed image 95 percent of the time",
+  this_analysis: "Also commonly used in cognitive psychology, to examine brain imaging data when paired with fMRI",
+  one_way_they_do_this: "Through something called neural decoding, where they try to figure out what's going on in the brain by analyzing patterns of brain activity",
+  the_brain_activity: "Tied to one thing, like a specific object or task",
+  since_the_brain: { definition: "In a more free-flowing state, the patterns are a lot less predictable, and scientists often use tools like machine learning to help interpret the data", what_it_does: "", examples: "identifying what kinds of emotions, memories, or random thoughts are popping up" },
+
 };
 
 // ============================================================
