@@ -15536,6 +15536,16 @@ const FLAT_DICT = {
   his_solutions: { definition: "Known as the Gödel metric (an exact solution of the Einstein field equation )", what_it_does: "", examples: "telepathy, reincarnation, and ghosts" },
   my_belief: "Theistic , not pantheistic, following Leibniz rather than Spinoza",
 
+  // === INGESTED 2026-06-22 01:41 ===
+  data_processing: { definition: "The collection and manipulation of digital data to produce meaningful information", what_it_does: "", examples: "posting transactions and producing reports like the balance sheet and the cash flow statement" },
+  completely_manual_methods: "Augmented by the application of mechanical or electronic calculators",
+  a_person_whose_job: { definition: "To perform calculations manually or using a calculator was called a ' computer", what_it_does: "", examples: "Herman Hollerith 's application of punched card equipment for the 1890 United States census" },
+  commercial_data_processing: { definition: "A large volume of input data, relatively few computational operations, and a large volume of output", what_it_does: "", examples: "DAP , gretl , or PSPP are often used" },
+  these_tools: "Usually helpful for processing various huge data sets, as they are able to handle enormous amount of statistical analysis",
+  the_inputs_and_outputs: "Interpreted as data , facts , information etc",
+  monthly_the_data_recorded_in_the_register: { definition: "Reconciled with a hopefully identical list of transactions processed by the bank", what_it_does: "", examples: "deposits by source or checks by type, such as charitable contributions" },
+  the_important_thing_about_this_example: "That it is a system , in which, all transactions are recorded consistently, and the same method of bank reconciliation is used each time",
+
 };
 
 // ============================================================
