@@ -17826,6 +17826,24 @@ const FLAT_DICT = {
   equivalent_aperture: "The f-number adjusted to correspond to the f-number of the same size absolute aperture diameter on a lens with a 35mm equivalent focal length",
   smaller_equivalent_fnumbers: { definition: "Expected to lead to higher image quality based on more total light from the subject, as well as lead to reduced depth of field", what_it_does: "", examples: "in a Drum scanner , an image sensor , or a television pickup apparatus" },
 
+  // === INGESTED 2026-06-22 07:39 ===
+  his_work_on_light: "Collected in his book Opticks , published in 1704",
+  over_his_career_he: "Only assigned three students to tutor and none were noteworthy",
+  one_of_his_arguments: "A bit tricky and had a flaw",
+  his_quadrant: { definition: "Built but appears to have not survived to the present", what_it_does: "", examples: "Otto von Guericke to construct their globes" },
+  he_proposed_that_electricity: "Involved in the sensations experienced by the human body, affecting everything from muscle movement to brain function",
+  this_inference: { definition: "Proved by Dollond to be wrong.' [ 144 ] Newton had been developing his theory of gravitation as far back as 1665", what_it_does: "", examples: "the Swiss-born mathematician Nicolas Fatio de Duillier" },
+  in_this_philosophy_particular_propositions: { definition: "Inferred from the phenomena, and afterwards rendered general by induction'", what_it_does: "", examples: "figures such as Denis Diderot , Jean le Rond d'Alembert , and Immanuel Kant" },
+  counterfeiting: { definition: "High treason , punishable by the felon being hanged, drawn and quartered", what_it_does: "", examples: "the serial counterfeiter William Chaloner , who was hanged" },
+  since_he: { definition: "Already rich before the bubble, Newton still died rich, at estate value around £30,000", what_it_does: "", examples: "in the South Sea Bubble" },
+  he_hid_his_faith_so_well_that_scholars: { definition: "Still unraveling his personal beliefs", what_it_does: "", examples: "figures connected to the Royal Society and the universities" },
+  the_epitaph_added: "As follows: [ 264 ] H",
+  such_a_man: "Shakespeare , such a man was Beethoven , such a man was Newton, and, of the three, his kingdom is the most widespread",
+  davis_also_noting_that_newton: { definition: "Generally ranked with the other two as the greatest mathematicians ever", what_it_does: "", examples: "Werner Heisenberg and Paul Dirac" },
+  the_cambridge_and_royal_society_collections: "Added to this inscription in 2017",
+  above_him: { definition: "A pyramid and a celestial globe showing the signs of the Zodiac and the path of the comet of 1680", what_it_does: "", examples: "a telescope and prism" },
+  a_bronze_statue_of_newton: "Erected in 1858 in the centre of Grantham where he went to school, prominently standing in front of Grantham Guildhall",
+
 };
 
 // ============================================================
