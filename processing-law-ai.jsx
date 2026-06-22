@@ -21594,6 +21594,22 @@ const FLAT_DICT = {
   demethylation: "The processes of base excision repair and possibly other DNA-repair–based mechanisms",
   the_other_product_of_meiosis: { definition: "The second polar body with only chromosomes but no ability to replicate or survive", what_it_does: "", examples: "relevance to the use of embryonic stem cells" },
 
+  // === INGESTED 2026-06-22 18:38 ===
+  dna_activation_or_inactivation: "Largely dependent on the specific tail residue methylated and its degree of methylation",
+  lysine: "Able to be mono-, di-, or trimethylated with a methyl group replacing each hydrogen of its NH3+ group",
+  histone_methyltransferases: "Enzymes which transfer methyl groups from S-Adenosyl methionine (SAM) onto the lysine or arginine residues of the H3 and H4 histones",
+  the_histone_methyltransferases: "Specific to either lysine or arginine",
+  the_lysinespecific_transferases: "Further broken down into whether or not they have a SET domain or a non-SET domain",
+  these_methyls_that: "Added to the histones act to regulate transcription by blocking or encouraging DNA access to transcription factors",
+  histone_methylation: "Key in distinguishing the integrity of the genome and the genes that are expressed by cells, thus giving the cells their identities",
+  epigenetic_alterations: "Reversible meaning that they can be targets for therapy",
+  the_activities_of_histone_methyltransferases: "Offset by the activity of histone demethylases",
+  the_paternal_x_chromosome: "Quickly inactivated during the first few divisions",
+  in_humans_x_inactivation: "A random process, that is mediated by the non-coding RNA XIST",
+  opposite_of_this: "The methylation of tumor suppressor genes",
+  in_cases_where_the_areas_around_these_genes: "Highly methylated, the tumor suppressor gene was not active and therefore cancer was more likely to occur",
+  these_changes_in_methylation_pattern: { definition: "Often due to mutations in methyltransferase and demethyltransferase", what_it_does: "", examples: "glucose , serine, glycine, and threonine" },
+
 };
 
 // ============================================================
