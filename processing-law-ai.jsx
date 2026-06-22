@@ -18669,6 +18669,16 @@ const FLAT_DICT = {
   this_colorless_solid: "A useful building block in organic synthesis",
   chloroacetic_acid: "Converted to chloroacetyl chloride , a precursor to adrenaline (epinephrine)",
 
+  // === INGESTED 2026-06-22 09:54 ===
+  when_the_reaction: "The coupling of two molecules into a single molecule it is referred to as a condensation reaction",
+  dehydration_reactions: "Common processes in the manufacture of chemical compounds as well as naturally occurring within living organisms",
+  the_reverse_of_a_dehydration_reaction: "Called a hydration reaction",
+  the_formation_of_the_pyrophosphate_bond: "An important dehydration reaction relevant to bioenergetics",
+  phosphorylation: "A type of condensation dehydration reaction that is widely used to catalyze condensation reactions in living organisms",
+  this_phosphorylation_usually: "The simultaneous dephosphorylation of ATP and therefore does not result in the release of H 2 O",
+  nitriles: "Often prepared by dehydration of primary amides",
+  ketene: { definition: "Produced by heating acetic acid and trapping the product: [ 1 ] Alkenes can be made from alcohols by dehydration", what_it_does: "", examples: "sulfuric acid and certain zeolites" },
+
 };
 
 // ============================================================
