@@ -20850,6 +20850,16 @@ const FLAT_DICT = {
   ten_different_chiropractic_programs: { definition: "Ranked among the 47 US graduate programs with the highest debt-to-earnings ratios", what_it_does: "", examples: "Cornwall , where the treatment is only available for neck or back pain" },
   palmer: { definition: "Jailed in 1907 for practicing medicine without a license", what_it_does: "", examples: "'perform spinal analysis', 'detect subluxation', 'correct with adjustment'" },
 
+  // === INGESTED 2026-06-22 16:22 ===
+  dendrites_often_taper_off_in_shape_and: "Shorter, while axons tend to maintain a constant radius and can be very long",
+  the_general_structure_of_the_dendrite: "Used to classify neurons into multipolar , bipolar , and unipolar types",
+  multipolar_neurons: "Composed of one axon and many dendritic trees",
+  pyramidal_cells: "Multipolar cortical neurons with pyramid-shaped cell bodies and large dendrites that extend towards the surface of the cortex ( apical dendrite )",
+  hodgkin_and_huxley: "Jointly awarded the Nobel Prize for this work in 1963",
+  the_formulas_detailing_axonal_conductance: { definition: "Extended to vertebrates in the Frankenhaeuser–Huxley equations", what_it_does: "", examples: "branch density and grouping patterns are highly correlated to the function of the neuron" },
+  malformation_of_dendrites: "Also tightly correlated to impaired nervous system function",
+  these_functional_units: { definition: "Involved in processing input and are composed of the subdomains of dendrites such as spines, branches, or groupings of branches", what_it_does: "", examples: "signals from other cells" },
+
 };
 
 // ============================================================
