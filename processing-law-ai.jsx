@@ -16802,6 +16802,25 @@ const FLAT_DICT = {
   species_replacement: "When fires occur in sufficient frequency to interrupt species dominance relay",
   gapphase_selfreplacement: "The least common and so far has only been documented in Western Canada",
 
+  // === INGESTED 2026-06-22 05:14 ===
+  naturally_occurring_oxidative_dna_damage: "Estimated to occur 10,000 times per cell per day in humans and 100,000 times per cell per day in rats",
+  nhej: { definition: "Removal of a few nucleotides to allow somewhat inaccurate alignment of the two ends for rejoining followed by addition of nucleotides to fill in gaps", what_it_does: "", examples: "duplications" },
+  though_relatively_few_mutations: { definition: "Advantageous, those that are play an important role in evolutionary changes", what_it_does: "", examples: "humans) contain two copies of each gene—a paternal and a maternal allele" },
+  a_wild_type_or_homozygous_nonmutated_organism: "One in which neither allele is mutated",
+  a_change_in_the_genetic_structure_that: { definition: "Not inherited from a parent, and also not passed to offspring, is called a somatic mutation", what_it_does: "", examples: "by grafting and stem cuttings" },
+  once_the_consensus_sequence: "Known, the mutations in a genome can be pinpointed, described, and classified",
+  they_demonstrated_that_mutation: "'non-random in a way that benefits the plant'",
+  the_rest_of_the_mutations: "Either neutral or slightly beneficial",
+  an_example_of_one: "Albinism , a mutation that occurs in the OCA1 or OCA2 gene",
+  individuals_with_this_disorder: "More prone to many types of cancers, other disorders and have impaired vision",
+  dna_damage_can_cause_an_error_when_the_dna: "Replicated, and this error of replication can cause a gene mutation that, in turn, could cause a genetic disorder",
+  dna_damages: "Repaired by the DNA repair system of the cell",
+  measuring_this_rate: "Important in predicting the rate at which people may develop cancer",
+  mutagens_associated_with_cancers: "Often studied to learn about cancer and its prevention",
+  people_with_this_mutation: "More likely to survive infection; thus its frequency in the population increased",
+  while_epistasis: "Originally conceived in the context of interaction between different genes, intragenic epistasis has also been studied recently",
+  compensatory_mutations: "New mutations that arise and have a positive or neutral impact on a populations fitness",
+
 };
 
 // ============================================================
