@@ -15322,6 +15322,15 @@ const FLAT_DICT = {
   elements_of_baire_space: "Referred to as 'reals'",
   in_mathematics_real: { definition: "Used as an adjective, meaning that the underlying field is the field of the real numbers (or the real field )", what_it_does: "", examples: "real matrix , real polynomial and real Lie algebra" },
 
+  // === INGESTED 2026-06-22 00:57 ===
+  their_purpose: "Either to efficiently execute already trained AI models (inference) or to train AI models",
+  vision_processing_units: "Accelerators specialized for machine vision algorithms such as CNN ( convolutional neural networks ) and SIFT ( scale-invariant feature transform )",
+  to_do_this_they: "Designed to support low-bitwidth operations using data types such as INT4, INT8, FP8 , and FP16",
+  a_common_metric: "Trillions of operations per second (TOPS)",
+  these_gpus: { definition: "Commonly used as AI accelerators, both for training and inference", what_it_does: "", examples: "TensorFlow with LiteRT Next (Android), CoreML (iOS, macOS) or DirectML (Windows)" },
+  formats_such_as_onnx: "Used to represent trained neural networks",
+  consumer_cpuintegrated_npus: { definition: "Accessible through vendor-specific APIs", what_it_does: "", examples: "CUDA and OpenCL adapted for lower precisions and specialized matrix-multiplication operations" },
+
 };
 
 // ============================================================
