@@ -21127,6 +21127,10 @@ const FLAT_DICT = {
   numerous_other_molecular_targeted_drugs: { definition: "Being tested as alternative first- and second-line treatments for advanced HCC, such as lenvatinib and regorafenib", what_it_does: "", examples: "those in sub-Saharan Africa , Central and Southeast Asia , and the Amazon basin" },
   the_common_risk_factor_for_hcc: { definition: "Hepatitis C, along with other health issues", what_it_does: "", examples: "TUC338 ) [ 102 ] and other predictive biomarkers" },
 
+  // === INGESTED 2026-06-22 17:16 ===
+  if_soil_or_water_bodies: "Polluted with fecal material, humans can be infected with waterborne diseases or soil-transmitted diseases",
+  fecal_contamination_of_food: { definition: "Another form of fecal-oral transmission", what_it_does: "", examples: "through anal sex" },
+
 };
 
 // ============================================================
