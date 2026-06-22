@@ -15183,6 +15183,11 @@ const FLAT_DICT = {
   nous: "Certainly not itself the sort of form that it makes",
   the_hand: "Not a made tool (it would have to be made by yet another hand)",
 
+  // === INGESTED 2026-06-22 00:28 ===
+  moravec_also: "A futurist with many of his publications and predictions focusing on transhumanism",
+  the_robot: "Able to negotiate cluttered obstacle courses",
+  another_achievement_in_robotics: "The discovery of new approaches for robot spatial representation such as 3D occupancy grids",
+
 };
 
 // ============================================================
