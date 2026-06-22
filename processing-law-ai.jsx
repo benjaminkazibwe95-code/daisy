@@ -16642,6 +16642,14 @@ const FLAT_DICT = {
   research_suggests_this: { definition: "Because the light response of stomata to blue light is independent of other leaf components like chlorophyll", what_it_does: "", examples: "atmospheric CO 2 concentration, light intensity, air temperature and photoperiod (daytime duration)" },
   hydroactive_closure: "Contrasted as the whole leaf affected by drought stress, believed to be most likely triggered by abscisic acid",
 
+  // === INGESTED 2026-06-22 04:51 ===
+  a_ton: { definition: "Any of several units of measure of mass, volume or force", what_it_does: "", examples: "the freight ton and a number of other units, ranging from 35 to 100 cubic feet (0.99 to 2" },
+  a_short_assay_ton: "Approximately 29.17 g (1.029 oz) and a long assay ton is approximately 32.67 g (1.152 oz)",
+  if_the_material: "In its natural, wet state, it is called a wet ton or wet tonne",
+  each: "Equivalent to 20 hundredweight; however, they are long 112 pounds (51 kg) and short 100 pounds (45 kg) hundredweight, respectively",
+  one_measurement_ton_or_freight_ton: "Equal to 40 cubic feet (1.133 m 3 ), but historically it has had several different definitions",
+  in_general_if_a_cargo: "Heavier than salt water, the actual weight is used",
+
 };
 
 // ============================================================
