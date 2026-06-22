@@ -19567,6 +19567,24 @@ const FLAT_DICT = {
   the_empress: "Alarmed that Diderot's arguments for atheism were influencing members of her court, and so Euler was asked to confront him",
   diderot: "Informed that a learned mathematician had produced a proof of the existence of God : he agreed to view the proof as it was presented in court",
 
+  // === INGESTED 2026-06-22 12:42 ===
+  it_is_unclear_whether_he: { definition: "Ever ordained a priest", what_it_does: "", examples: "a lunar eclipse on the night of 5–6 November 1500" },
+  there_also_seems_to_be_evidence_that_it: "During his Padua stay that the idea finally crystallized, of basing a new system of the world on the movement of the Earth",
+  no_doubt_it: "Soon after (at latest, in fall 1503) that he left Italy for good to return to Warmia",
+  four_observations: { definition: "Made of Jupiter, with errors of 32, 51, −11 and 25 minutes", what_it_does: "", examples: "it seems, several Kraków astronomers with whom he collaborated in 1515–1530 in observing eclipses" },
+  when_olsztyn: "Besieged by the Teutonic Knights during the Polish–Teutonic War , Copernicus directed the defense of Olsztyn and Warmia by Royal Polish forces",
+  the_pope: { definition: "So pleased that he gave Widmanstetter a valuable gift", what_it_does: "", examples: "the physician to Duke Albert and, by letter, the Polish Royal Physician" },
+  the_pythagorean_system: { definition: "Mentioned by Aristotle", what_it_does: "", examples: "Abu Sa'id al-Sijzi (d" },
+  at_that_time_there: "No reason to accept the Copernican theory, except for its mathematical simplicity [by avoiding using the equant in determining planetary positions]",
+  his_denunciation_of_copernicanism: "Written a year later, in 1545, in an appendix to his unpublished work, On the Truth of Sacred Scripture",
+  copernicanism: "Absurd, according to Tolosani, because it was scientifically unproven and unfounded",
+  it_was_argued_that_mathematical_numbers: "A mere product of the intellect without any physical reality, and as such could not provide physical causes in the investigation of nature",
+  by_what: "Could it maintain itself unmoved, while the heavens above are in constant rapid motion, did not its Divine Maker fix and establish it",
+  luther: "Said to have remarked 'So it goes now",
+  even_in_these_things_that: "Thrown into disorder I believe the Holy Scriptures, for Joshua commanded the sun to stand still and not the earth",
+  those_prohibitions: "Finally dropped from the 1835 Index",
+  named_for_copernicus: "Nicolaus Copernicus University in Toruń ; Warsaw 's Copernicus Science Centre , the Centrum Astronomiczne im",
+
 };
 
 // ============================================================
