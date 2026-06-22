@@ -20315,6 +20315,17 @@ const FLAT_DICT = {
   blood_tests: "Also used in drug tests to detect drug abuse",
   a_venipuncture_is_useful_as_it: { definition: "A minimally invasive way to obtain cells and extracellular fluid ( plasma ) from the body for analysis", what_it_does: "the exact size and spacing of the droplets", examples: "the arterial blood gas test, require blood extracted from an artery" },
 
+  // === INGESTED 2026-06-22 15:01 ===
+  vesalius: "28 years old when the first editions of Fabrica was published",
+  on_the_day_of_his_graduation_he: "Immediately offered the chair of surgery and anatomy ( explicator chirurgiae ) at the University of Padua",
+  when_he_found_that_some_of_them: "Being widely copied, he published them all in 1538 under the title Tabulae anatomicae sex",
+  however_the_muslim_and_medieval_practice: "To draw a smaller amount of blood from a distant location",
+  even_though_galen: { definition: "A qualified examiner, his research produced many errors owing to the limited anatomical material available to him", what_it_does: "", examples: "the stomach from the right ventricle" },
+  so_paramount: "Galen's authority that for 1400 years a succession of anatomists had claimed to find these holes, until Vesalius admitted he could not find them",
+  pirated_editions: "Available almost immediately, an event Vesalius acknowledged in a printer's note would happen",
+  the_decision_to_undertake_the_pilgrimage: { definition: "Likely just a pretext to leave the Spanish court", what_it_does: "", examples: "medical students, to easily understand his findings" },
+  the_actual_text_of_the_epitome: "An abridged form of his work in the Fabrica , and the organization of the two books was quite varied",
+
 };
 
 // ============================================================
