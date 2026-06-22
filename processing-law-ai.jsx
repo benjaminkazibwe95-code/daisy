@@ -20445,6 +20445,10 @@ const FLAT_DICT = {
   case_hardening_of_steel: { definition: "Achieved by heating finished steel components in carbon powder", what_it_does: "", examples: "gold or platinum, gem diamonds do not trade as a commodity" },
   microparticles_of_carbon: { definition: "Produced in diesel engine exhaust fumes, and may accumulate in the lungs", what_it_does: "", examples: "organic chemicals, heavy metals) rather than from the carbon itself" },
 
+  // === INGESTED 2026-06-22 15:15 ===
+  an_extensive_listing_of_human_cell_types: { definition: "Published by Vickaryous and Hall in 2006, collecting 411 different types of human cells, including 145 types of neurons", what_it_does: "", examples: "immune cells or brain cells ) and sub-types in the human body'" },
+  usually_specific_surface_proteins: "Used to identify cells, and based on this they are put into different categories",
+
 };
 
 // ============================================================
