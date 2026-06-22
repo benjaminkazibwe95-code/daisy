@@ -22498,6 +22498,17 @@ const FLAT_DICT = {
   the_c_fibers: "Not myelinated and therefore slower",
   nonpeptidergic_c_fibers: "Linked to the skin, where they innervate the epidermis while peptidergic C fibers innervate other tissues and deeper parts of the skin",
 
+  // === INGESTED 2026-06-22 20:57 ===
+  its_principal_role: "Reducing neuronal excitability throughout the nervous system",
+  two_general_classes_of_gaba_receptor: { definition: "Known: [ 6 ] Neurons that produce GABA as their output are called GABAergic neurons", what_it_does: "", examples: "chandelier cells , are also able to excite their glutamatergic counterparts" },
+  when_the_net_flow_of_chloride: "Close to zero, the action of GABA is shunting",
+  the_stabilization: "About 50 kcal/mol, according to quantum chemistry calculations",
+  the_conformational_flexibility_of_gaba: "Important for its biological function, as it has been found to bind to different receptors with different conformations",
+  they_discovered_that_gaba: { definition: "Metabolized from glutamic acid and accumulates in the mammalian central nervous system", what_it_does: "converts glutamate (the principal excitatory neurotransmitter) into GABA (the principal inhibitory neurotransmitter)", examples: "" },
+  succinic_semialdehyde: { definition: "Then oxidized into succinic acid by succinic semialdehyde dehydrogenase and as such enters the citric acid cycle as a usable source of energy", what_it_does: "", examples: "the periventricular nucleus , can be reached by drugs such as systemically injected GABA" },
+  it_is_thus_suspected_that_gaba: "Involved in the synthesis of melatonin and thus might exert regulatory effects on sleep and reproductive functions",
+  nor_is_it_incorporated_into_proteins_as: { definition: "Many alpha-amino acids", what_it_does: "", examples: "kavain , dihydrokavain , methysticin , dihydromethysticin and yangonin" },
+
 };
 
 // ============================================================
