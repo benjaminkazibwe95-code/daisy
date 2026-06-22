@@ -22358,6 +22358,11 @@ const FLAT_DICT = {
   this_functionality: { definition: "Likely, at some later point, cross-purposed to provide a communication mechanism", what_it_does: "", examples: "open, closed and inactivated" },
   the_ion_channels_of_insects: { definition: "Sufficiently different from their human counterparts that there are few side effects in humans", what_it_does: "", examples: "electric eels ) and the physiological responses to applied direct-current voltages" },
 
+  // === INGESTED 2026-06-22 20:36 ===
+  xenoturbella: "A genus of very simple bilaterians whose relation to other animal groups is unclear",
+  the_epidermis_and_gastrodermis: "Separated by a thick and multilayered basement membrane , the 'subepidermal membrane complex', a major part of the extracellular matrix",
+  adults_producing_sperm: "Very rarely observed, but eggs and embryos are known to occur in follicles",
+
 };
 
 // ============================================================
