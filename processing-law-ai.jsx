@@ -19350,6 +19350,15 @@ const FLAT_DICT = {
   the_interval: "So natural to humans that when men and women are asked to sing in unison, they typically sing in octave",
   octave_equivalence: "A part of most musical cultures, but is far from universal in 'primitive' and early music",
 
+  // === INGESTED 2026-06-22 12:10 ===
+  the_exact_length_of_a_cubit: "Not clear; with an 18-inch cubit his estimate would be 3,600 miles, whereas with a 22-inch cubit his estimate would be 4,200 miles",
+  his_underlying_concept_was_that_all_cultures: { definition: "At least distant relatives of all other cultures because they are all human constructs", what_it_does: "", examples: "the Jabriyah ) have adopted anthropomorphic concepts of God" },
+  my_book: { definition: "Nothing but a simple historic record of facts", what_it_does: "", examples: "finding them deficient in curiosity about history and religion" },
+  these_descriptions: "Useful to today's modern historians because they are able to use Biruni's scholarship to locate certain destinations in modern-day India",
+  historians: "Able to make some matches while also concluding that certain areas seem to have disappeared and been replaced with different cities",
+  different_forts_and_landmarks: "Able to be located, legitimizing Biruni's contributions with their usefulness to even modern history and archeology",
+  biruni_island_in_antarctica: "Named after al-Biruni",
+
 };
 
 // ============================================================
