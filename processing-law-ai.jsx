@@ -19282,6 +19282,22 @@ const FLAT_DICT = {
   unblinding: "Common in blind experiments, and must be measured and reported",
   positive_data: "Rarely rationalized the same way",
 
+  // === INGESTED 2026-06-22 11:50 ===
+  pattern_recognition_systems: "Commonly trained from labeled 'training' data",
+  when_no_labeled_data: "Available, other algorithms can be used to discover previously unknown patterns",
+  an_example_of_pattern_recognition: "Classification , which attempts to assign each input value to one of a given set of classes (for example, determine whether a given email is 'spam')",
+  sometimes_different_terms: "Used to describe the corresponding supervised and unsupervised learning procedures for the same type of output",
+  the_instance: { definition: "Formally described by a vector of features, which together constitute a description of all known characteristics of the instance", what_it_does: "", examples: "computing the dot product or the angle between two vectors" },
+  features_typically: { definition: "Either categorical (also known as nominal , i.e", what_it_does: "", examples: "less than 5, between 5 and 10, or greater than 10)" },
+  many_common_pattern_recognition_algorithms: "Probabilistic in nature, in that they use statistical inference to find the best label for a given instance",
+  when_the_number_of_possible_labels: { definition: "Fairly small (e.g., in the case of classification ), N may be set so that the probability of all possible labels is output", what_it_does: "", examples: "principal components analysis (PCA)" },
+  the_goal_then: { definition: "To minimize the expected loss, with the expectation taken over the probability distribution of X {\displaystyle {\mathcal {X}}}", what_it_does: "", examples: "in the case of classification , the simple zero-one loss function is often sufficient" },
+  the_goal_of_the_learning_procedure: "Then to minimize the error rate (maximize the correctness ) on a 'typical' test set",
+  cad: "A procedure that supports the doctor's interpretations and findings",
+  banks: "First offered this technology, but were content to collect from the FDIC for any bank fraud and did not want to inconvenience customers",
+  a_template: "A pattern used to produce items of the same proportions",
+  one_observation: "A capital E having three horizontal lines and one vertical line",
+
 };
 
 // ============================================================
