@@ -21751,6 +21751,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 18:56 ===
   cristina_maria_alberini: { definition: "An Italian neuroscientist who studies the biological mechanisms of long-term memory", what_it_does: "", examples: "the ones occurring in aging, Alzheimer's disease , or post-traumatic stress disorder (PTSD)" },
 
+  // === INGESTED 2026-06-22 18:58 ===
+  their_findings: "Published in a two-volume set",
+  they_said_the_legislation: "The 'bare minimum for effective regulation of this technology",
+  another_greatgreatgrandfather_of_his: "The surgeon and author James Hinton , [ 127 ] who was the father of the mathematician Charles Howard Hinton",
+
 };
 
 // ============================================================
