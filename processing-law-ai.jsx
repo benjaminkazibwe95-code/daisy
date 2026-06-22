@@ -16443,6 +16443,29 @@ const FLAT_DICT = {
   all_ismns: "Now thirteen digits commencing 979-0, while 979-1 to 979-9 are used for ISBN, 979-8- used for USA",
   publisher_identification_code_numbers: { definition: "Unlikely to be the same in the 978 and 979 ISBNs, likewise, there is no guarantee that language area code numbers will be the same", what_it_does: "", examples: "Barnes & Noble ) migrated to EAN barcodes as early as March 2005" },
 
+  // === INGESTED 2026-06-22 04:16 ===
+  the_blood_cells: "Mainly red blood cells (erythrocytes), white blood cells (leukocytes), and (in mammals) platelets (thrombocytes)",
+  blood_is_bright_red_when_its_hemoglobin: { definition: "Oxygenated and dark red when it is deoxygenated", what_it_does: "", examples: "carbon dioxide , urea , and lactic acid" },
+  most_of_the_proteins_remaining: "Albumin and immunoglobulins",
+  blood_ph: "Regulated to stay within the narrow range of 7.35 to 7.45, making it slightly basic (compensation)",
+  human_blood: "Typical of that of mammals, although the precise details concerning cell numbers, size, protein structure , and so on, vary somewhat between species",
+  it_then_enters_the_right_ventricle_and: "Pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins",
+  the_blood_circulation: "Described by William Harvey in 1628",
+  the_hemoglobin_molecule: { definition: "The primary transporter of oxygen in mammals and many other species", what_it_does: "", examples: "during warm weather or strenuous exercise) causes warmer skin, resulting in faster heat loss" },
+  kidney_and_brain: "The second and the third most supplied organs, with 1100 ml/min and ~700 ml/min, respectively",
+  arterial_blood_and_capillary_blood: "Bright red, as oxygen imparts a strong red color to the heme group",
+  deoxygenated_blood: "A darker shade of red; this is present in veins, and can be seen during blood donation and when venous blood samples are taken",
+  if_the_heme: "Oxidized, methemoglobin , which is more brownish and cannot transport oxygen, is formed",
+  when_blood: "Drawn in a glass container and left undisturbed for about an hour, four different layers can be seen",
+  above_the_clot: "A layer of red blood cells (the 'blood')",
+  the_top_layer: "Clear yellow serum (the 'yellow bile')",
+  plato_and_aristotle: { definition: "Two important sources of evidence for this view, but it dates back to Homer's Iliad", what_it_does: "", examples: "' blood is thicker than water ' and ' bad blood ', as well as ' Blood brother '" },
+  red_ochre: "Used in similar ways in less-secret ceremonies",
+  bird_feathers_contain_a_protein_that: "Highly magnetically sensitive",
+  this_act_of_sprinkling_blood: "Called blóedsian in Old English , and the terminology was borrowed by the Roman Catholic Church becoming to bless and blessing",
+  blood_residue_analysis: "Also a technique used in archeology",
+  other_terms_where_blood: "Used in a family history sense are blue-blood , royal blood , mixed-blood and blood relative",
+
 };
 
 // ============================================================
