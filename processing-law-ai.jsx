@@ -17364,6 +17364,28 @@ const FLAT_DICT = {
   he_stated_that_using_cocaine: "Pervasive in the music industry during the 1970s as recording sessions typically were long and cocaine provided the energy to keep on recording",
   cocaine: "In the executive suites of all the major record companies",
 
+  // === INGESTED 2026-06-22 06:35 ===
+  test_methods_and_limits: "Based on CISPR publications, although similar limits were already enforced in parts of Europe",
+  one_of_these: "The EMC Directive (89/336/EC) [ 7 ] and it applies to all equipment placed on the market or taken into service",
+  this_type: "Naturally divided into sub-categories according to frequency range, and as a whole is sometimes referred to as 'DC to daylight'",
+  one_common_classification: "Into narrowband and broadband, according to the spread of the frequency range",
+  the_energy: "Usually broadband by nature, although it often excites a relatively narrow-band damped sine wave response in the victim",
+  these_terms: "Used here in a widely accepted way, which is consistent with other articles in the encyclopedia",
+  for_example_the_lower_path_in_the_diagram: { definition: "Inductive, conductive and capacitive modes", what_it_does: "", examples: "a transmission line, wire, cable, PCB trace or metal enclosure" },
+  emi_through_the_ground_wire: { definition: "Also very common in an electrical facility", what_it_does: "", examples: "Wi-Fi , error-correction techniques can be used" },
+  the_usual_method_used_for_suppressing_emi: { definition: "By connecting a snubber network, a resistor in series with a capacitor , across a pair of contacts", what_it_does: "", examples: "integrated power factor correction" },
+  shielding: { definition: "Usually a last resort after other techniques have failed, because of the added expense of shielding components such as conductive gaskets", what_it_does: "", examples: "overshoot, undershoot or ringing)" },
+  the_rf: "Then coupled to the cable through the line driver as common-mode noise",
+  since_the_noise: "Common-mode, shielding has very little effect, even with differential pairs",
+  the_rf_energy: "Capacitively coupled from the signal pair to the shield and the shield itself does the radiating",
+  one_cure_for_this: "To use a braid-breaker or choke to reduce the common-mode signal",
+  two_techniques: { definition: "Used at these frequencies: wave shaping with series resistors and embedding the traces between the two planes", what_it_does: "", examples: "RF gaskets and copper or conductive tape can be used" },
+  most_digital_equipment: { definition: "Designed with metal or conductive-coated plastic cases", what_it_does: "", examples: "GSM850 and GSM1900, GSM900 and GSM1800) and produce low-frequency (e.g., 217 Hz) demodulated signals" },
+  one_way_to_deal_with_strong_transmitters: "To filter out the frequency of the source completely",
+  these_samples: "Subsequently ignored in further analysis of the observed data",
+  rqz: { definition: "A well-defined area surrounding receivers that has special regulations to reduce RFI in favor of radio astronomy observations within the zone", what_it_does: "", examples: "industrial, scientific and medical devices, vehicles, and power lines" },
+  the_first_rqz_for_radio_astronomy: { definition: "United States National Radio Quiet Zone (NRQZ), established in 1958", what_it_does: "", examples: "weather satellites , have caused interference, sometimes significant" },
+
 };
 
 // ============================================================
