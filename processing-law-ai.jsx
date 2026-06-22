@@ -23096,6 +23096,17 @@ const FLAT_DICT = {
   when_wastewater: "Discharged into a water body (river, lakes, sea) or land, its relative impact will depend on the assimilative capacity of the water body or ecosystem",
   sewage_management_regulations: "Often part of a country's broader sanitation policies",
 
+  // === INGESTED 2026-06-22 22:56 ===
+  jinja: "A city in the Eastern Region of Uganda , located on the north shore of Lake Victoria",
+  estates: "Built for the ruling elite in many parts outside the centre city",
+  the_operation: { definition: "Accompanied by some looting in the city", what_it_does: "", examples: "cars, tons of coffee, large amounts of gasoline, and war materiel" },
+  the_rebels: "Repulsed by the local National Resistance Army garrison",
+  lusoga: "The main local language",
+  the_average_annual_household_income: "Estimated at US $ 100",
+  ksw: "One of the largest sugar factories in East Africa, employing over 7,500",
+  the_extension: "Completed in 2003, named the Kiira Power Station , and is capable of producing 200 megawatts of hydroelectric power at maximum utilization",
+  the_hydroelectric_facility: "Providing 250 megawatts of electric power",
+
 };
 
 // ============================================================
