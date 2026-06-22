@@ -18539,6 +18539,22 @@ const FLAT_DICT = {
   if_the_compression: "Adiabatic , the gas temperature goes up",
   since_the_system: "In the steady state the first law gives 0 = − Q ˙ + m ˙ h 1 − m ˙ h 2 + P",
 
+  // === INGESTED 2026-06-22 09:29 ===
+  a_periodic_function: "The special case k = 0 {\displaystyle k=0} , and an antiperiodic function is the special case k = π / P {\displaystyle k=\pi /P}",
+  any_function_that: { definition: "A combination of periodic functions with the same period is also periodic (though its fundamental period may be smaller)", what_it_does: "", examples: "a periodic tessellation of the plane" },
+  a_function: "Defined as periodic if its values repeat at regular intervals",
+  this_repeating_interval: "Known as the period",
+  its_graph: "Invariant under translation in the x {\displaystyle x} -direction by a distance of P {\displaystyle P}",
+  the_trigonometric_functions: "Common examples of periodic functions",
+  the_sine_function_and_cosine_function: "Periodic with a fundamental period of 2 π {\displaystyle 2\pi } , as illustrated in the figure to the right",
+  some_functions: { definition: "Periodic but possess properties that make them less intuitive", what_it_does: "", examples: "is periodic, with any nonzero rational number serving as a period" },
+  the_elliptic_functions: { definition: "A primary example of such functions", what_it_does: "", examples: "Fourier series , where the coefficients are determined by integrals over one period" },
+  a_key_property_of_many_periodic_functions: "That they can be described by a Fourier series",
+  this_decomposition: "A powerful tool in fields like physics and signal processing",
+  one_subset_of_periodic_functions: "That of antiperiodic functions",
+  functions_of_this_form: "Sometimes called Bloch-periodic in this context",
+  a_possible_way_out: "To define a periodic function on a bounded but periodic domain",
+
 };
 
 // ============================================================
