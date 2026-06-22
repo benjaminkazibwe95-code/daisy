@@ -18510,6 +18510,35 @@ const FLAT_DICT = {
   these_dates: "Used to determine if a Web page is available as prior art for instance in examining a patent application",
   the_attorneys: { definition: "Able to demonstrate that the claims made by the plaintiff were invalid, based on the content of their website from several years prior", what_it_does: "", examples: "materials in the Wayback Machine of persons who do not wish to have their Web content archived" },
 
+  // === INGESTED 2026-06-22 09:27 ===
+  enthalpies_of_chemical_substances: "Usually listed for 1 bar (100 kPa) pressure as a standard state",
+  the_enthalpy_of_an_ideal_gas: "Independent of its pressure or volume, and depends only on its temperature, which correlates to its thermal energy",
+  in_this_case_the_work: "Given by p d V (where p is the pressure at the surface, d V is the increase of the volume of the system)",
+  the_specific_enthalpy_of_a_uniform_system: "Defined as h = H / m , where m is the mass of the system",
+  an_enthalpy_change: "The change in enthalpy observed in the constituents of a thermodynamic system when undergoing a transformation or chemical reaction",
+  these_processes: "Specified solely by their initial and final states, so that the enthalpy change for the reverse is the negative of that for the forward process",
+  a_common_standard_enthalpy_change: "The enthalpy of formation , which has been determined for a large number of substances",
+  enthalpy_changes: "Routinely measured and compiled in chemical and physical reference works, such as the CRC Handbook of Chemistry and Physics",
+  enthalpy_of_reaction: "Defined as the enthalpy change observed in a constituent of a thermodynamic system when one mole of substance reacts completely",
+  enthalpy_of_combustion: "Defined as the enthalpy change observed in a constituent of a thermodynamic system when one mole of a substance burns completely with oxygen",
+  enthalpy_of_atomization: "Defined as the enthalpy change required to separate one mole of a substance into its constituent atoms completely",
+  enthalpy_of_neutralization: "Defined as the enthalpy change observed in a constituent of a thermodynamic system when one mole of water is formed when an acid and a base react",
+  standard_enthalpy_of_denaturation: "Defined as the enthalpy change required to denature one mole of compound",
+  enthalpy_of_hydration: "Defined as the enthalpy change observed when one mole of gaseous ions is completely dissolved in water forming one mole of aqueous ions",
+  enthalpy_of_fusion: "Defined as the enthalpy change required to completely change the state of one mole of substance from solid to liquid",
+  enthalpy_of_vaporization: "Defined as the enthalpy change required to completely change the state of one mole of substance from liquid to gas",
+  enthalpy_of_sublimation: "Defined as the enthalpy change required to completely change the state of one mole of substance from solid to gas",
+  enthalpy_of_mixing: { definition: "Defined as the enthalpy change upon mixing of two (non-reacting) chemical substances", what_it_does: "", examples: "a turbine or pump" },
+  these_two_types_of_work: { definition: "Expressed in the equation δ W = d ( p out V out ) − d ( p in V in ) + δ W shaft", what_it_does: "", examples: "shaft power, but it can also be, say, electric power produced by an electrical power plant" },
+  the_technical_importance_of_the_enthalpy: "Directly related to its presence in the first law for open systems, as formulated above",
+  one_of_the_most_common_diagrams: "The temperature–specific entropy diagram ( T − s diagram)",
+  these_diagrams: "Powerful tools in the hands of the thermal engineer",
+  points_e_and_g: "Saturated liquids, and point h is a saturated gas",
+  point_c: "At 200 bar and room temperature (300 K)",
+  point_e_is_chosen_so_that_it: "On the saturated liquid line with h = 100 ⁠ kJ / kg ⁠",
+  if_the_compression: "Adiabatic , the gas temperature goes up",
+  since_the_system: "In the steady state the first law gives 0 = − Q ˙ + m ˙ h 1 − m ˙ h 2 + P",
+
 };
 
 // ============================================================
