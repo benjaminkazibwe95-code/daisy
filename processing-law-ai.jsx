@@ -20833,6 +20833,16 @@ const FLAT_DICT = {
   tertiary_endocrine_disease: { definition: "Associated with dysfunction of the hypothalamus and its releasing hormones", what_it_does: "", examples: "the estrogen receptor has been shown to be involved in certain breast cancers" },
   adrenal_insufficiency: "Significant because it is correlated with decreased ability to maintain blood pressure and blood sugar, a defect that can prove to be fatal",
 
+  // === INGESTED 2026-06-22 16:18 ===
+  immunomodulators: "The active agents of immunotherapy",
+  a_variety_of_strategies_are_in_use_or: "Undergoing research and testing",
+  lymphocyte_proliferation: "The multiplication of lymphocyte cells used to fight and remember foreign invaders",
+  another_example_of_an_immunosuppressive_drug: { definition: "Glucocorticoids which are more specific inhibitors of lymphocyte activation", what_it_does: "", examples: "vitamin D, dexamethasone, and curcumin could be helpful in preventing or treating chronic inflation" },
+  given_that_the_molecules: "Administered under a low-dose regimen and subcutaneously",
+  a_process: "Developed to create an extract by drawing out timothy pollen in distilled water and then boiling it",
+  if_a_specific_ige_antibody: "Negative, there is no evidence that allergen immunotherapy will be effective for that patient",
+  patients: { definition: "At increased risk of fatal anaphylaxis , local reaction at the site of injection, or life-threatening systemic allergic reactions", what_it_does: "", examples: "IL-10 , IL-4 , IL-5 and IL-13" },
+
 };
 
 // ============================================================
