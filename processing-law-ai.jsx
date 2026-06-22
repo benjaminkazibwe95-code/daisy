@@ -16540,6 +16540,16 @@ const FLAT_DICT = {
   the_only_large_insectivorous_mammals: { definition: "Those that feed on huge colonies of insects ( ants or termites )", what_it_does: "", examples: "giraffes, camels, and cattle, will gnaw on bones to consume particular minerals and nutrients" },
   intelligence_itself: "Not easy to define, but indications of intelligence include the ability to learn, matched with behavioral flexibility",
 
+  // === INGESTED 2026-06-22 04:28 ===
+  spontaneous_generation: "Taken as scientific fact for two millennia",
+  experiments_conducted_by_pasteur_and_others: "Thought to have refuted the conventional notion of spontaneous generation by the mid-1800s",
+  crucial_to_this_doctrine: { definition: "The ideas that life comes from non-life and that no causal agent, such as a parent, is needed", what_it_does: "", examples: "dust, or the appearance of maggots in dead flesh" },
+  but_this: "Not fire or some such power, but instead the pneuma that is enclosed in the seed and in foamy matter, this being analogous to the element of the stars",
+  when_they: "So enclosed, the corporeal liquids being heated, there arises as it were a frothy bubble",
+  the_practice: "Eventually prohibited by decree of Pope Innocent III in 1215",
+  his_studies: { definition: "Rigorously scrutinized by his peers, and many of them agreed", what_it_does: "", examples: "Blumenbach , Cuvier , Bory de St" },
+  when_the_flask: "Turned so that particles could fall down the bends, the broth quickly became clouded",
+
 };
 
 // ============================================================
