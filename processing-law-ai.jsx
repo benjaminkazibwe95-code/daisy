@@ -19208,6 +19208,38 @@ const FLAT_DICT = {
   random_errors: "Caused by unintended mistakes by respondents, interviewers and/or coders",
   systematic_error_can_occur_if_there: "A systematic reaction of the respondents to the method used to formulate the survey question",
 
+  // === INGESTED 2026-06-22 11:41 ===
+  numbers_of_this_form: { definition: "Called floating-point numbers", what_it_does: "", examples: "the number 2469/200 is a floating-point number in base ten with five digits: 2469 / 200 = 12" },
+  the_term_floating_point: "The fact that the number's radix point can 'float' anywhere to the left, right, or between the significant digits of the number",
+  when_fpus: "Not available, software implementations can be used instead",
+  floatingpoint_representation: { definition: "Similar in concept to scientific notation", what_it_does: "", examples: "1.45 × 10 3 is (145/100)×1000 or 145,000 /100" },
+  the_significand: "Assumed to have a binary point to the right of the leftmost bit",
+  the_floatingpoint_representation: { definition: "By far the most common way of representing in computers an approximation to real numbers", what_it_does: "", examples: "one implicit bit), and a sign bit" },
+  thirtythree: { definition: "Later sold commercially as the English Electric DEUCE", what_it_does: "", examples: "1 implied bit), an exponent of 11 bits, and 1 sign bit" },
+  this_first_standard: "Followed by almost all modern machines",
+  five_of_these_formats: "Called basic formats , and others are termed extended precision formats and extendable precision format",
+  all_finite_floatingpoint_numbers: "Strictly smaller than +∞ and strictly greater than −∞ , and they are ordered in the same way as their values (in the set of real numbers)",
+  floatingpoint_numbers: "Typically packed into a computer datum as the sign bit, the exponent field, and a field for the significand, from left to right",
+  the_exponent_range_for_normal_numbers: { definition: "[−126, 127] for single precision, [−1022, 1023] for double, or [−16382, 16383] for quad", what_it_does: "", examples: "a terminating decimal expansion in base-10, or a terminating binary expansion in base-2)" },
+  the_difference_is_the_discretization_error_and: { definition: "Limited by the machine epsilon", what_it_does: "", examples: "if there is no representable number lying between the representable numbers 1.45A70C22 16 and 1" },
+  applications_that_require_a_bounded_error: "Multi-precision floating-point, and interval arithmetic",
+  the_fundamental_principles: "The same in any radix or precision, except that normalization is optional (it does not affect the numerical value of the result)",
+  a_simple_method_to_add_floatingpoint_numbers: "To first represent them with the same exponent",
+  the_final_result: "The lowest three digits of the second operand (654) are essentially lost",
+  the_floatingpoint_difference: "Computed exactly because the numbers are close—the Sterbenz lemma guarantees this, even in case of underflow when gradual underflow is supported",
+  dealing_with_the_consequences_of_these_errors: "A topic in numerical analysis ; see also Accuracy problems",
+  how_this_worked: { definition: "System-dependent, meaning that floating-point programs were not portable", what_it_does: "", examples: "ArithmeticException may still be thrown" },
+  arithmetic_exceptions: "(by default) required to be recorded in 'sticky' status flag bits",
+  that_they: "'sticky' means that they are not reset by the next (arithmetic) operation, but stay set until explicitly reset",
+  so_while_these: { definition: "Implemented in hardware, initially programming language implementations typically did not provide a means to access them (apart from assembler)", what_it_does: "", examples: "C99 /C11 and Fortran) have been updated to specify methods to access and change status flag bits" },
+  the_programming_model: { definition: "Based on a single thread of execution and use of them by multiple threads has to be handled by a means outside of the standard (e.g", what_it_does: "", examples: "the effective resistance of n resistors in parallel (see fig" },
+  if_the_perturbation_required: "Small, on the order of the uncertainty in the input data, then the results are in some sense as accurate as the data 'deserves'",
+  the_algorithm: { definition: "Then defined as backward stable", what_it_does: "", examples: "reordering operations) can work against the goals of well-behaved software" },
+  a_few_examples: { definition: "Matrix inversion , eigenvector computation, and differential equation solving", what_it_does: "", examples: "iterative refinement , if they are to work well" },
+  as_the_recurrence: "Applied repeatedly, the accuracy improves at first, but then it deteriorates",
+  when_the_second_form_of_the_recurrence: { definition: "Used, the value converges to 15 digits of precision", what_it_does: "", examples: "common subexpression elimination and auto- vectorization" },
+  one_interpretation_of_the_issue: "That 'fast' math as implemented currently has a poorly defined semantics",
+
 };
 
 // ============================================================
