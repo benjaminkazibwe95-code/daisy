@@ -18792,6 +18792,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 10:16 ===
   his_undergraduate_work: "At the University of Sydney (1971–74), where he attended St John's College and he was influenced by philosophers David Stove and David Armstrong",
 
+  // === INGESTED 2026-06-22 10:19 ===
+  any_line_in_this_family_of_parallel_lines: "Called an element of the cylindrical surface",
+  any_particular_position_of_the_generatrix: "An element of the cylindrical surface",
+  if_the_elements_of_the_cylinder: "Perpendicular to the planes containing the bases, the cylinder is a right cylinder , otherwise it is called an oblique cylinder",
+  if_the_bases: "Disks (regions whose boundary is a circle ) the cylinder is called a circular cylinder",
+  a_cylinder_of_revolution: "A right circular cylinder",
+  the_height_of_a_cylinder_of_revolution: "The length of the generating line segment",
+  the_line_that_the_segment_is_revolved_about: "Called the axis of the cylinder and it passes through the centers of the two bases",
+  the_bare_term_cylinder_often: "A solid cylinder with circular ends perpendicular to the axis, that is, a right circular cylinder, as shown in the figure",
+  the_cylindrical_surface_without_the_ends: "Called an open cylinder",
+  these_cylinders: "Used in an integration technique (the 'disk method') for obtaining volumes of solids of revolution",
+  a_cylindric_section: "The intersection of a cylinder's surface with a plane",
+  the_right_sections: "Circles and all other planes intersect the cylindrical surface in an ellipse",
+  the_area_of_the_side: "Known as the lateral area , L",
+  the_volume: { definition: "Given by subtracting the volume of the inner imaginary cylinder (i.e", what_it_does: "", examples: "the top and bottom, is given by A = 2 π ( R + r ) h + 2 π ( R 2 − r 2 )" },
+  since_the_values_for_the_cylinder: "Already known, he obtained, for the first time, the corresponding values for the sphere",
+  the_volume_of_a_sphere_of_radius_r: "⁠ 4 / 3 ⁠ π r 3 = ⁠ 2 / 3 ⁠ (2 π r 3 )",
+  the_surface_area_of_this_sphere: "4 π r 2 = ⁠ 2 / 3 ⁠ (6 π r 2 )",
+  a_sculpted_sphere_and_cylinder: "Placed on the tomb of Archimedes at his request",
+  a_cylinder_having_a_right_section_that: "An ellipse , parabola , or hyperbola is called an elliptic cylinder , parabolic cylinder and hyperbolic cylinder , respectively",
+  elliptic_cylinders: "Also known as cylindroids , but that name is ambiguous, as it can also refer to the Plücker conoid",
+
 };
 
 // ============================================================
