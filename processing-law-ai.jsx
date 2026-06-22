@@ -23353,6 +23353,14 @@ const FLAT_DICT = {
   though_he: "Credited with the founding, he had arrived at an already inhabited area",
   tradition_also_relates_that_it: "The child of this union who founded the Kilwa Sultanate",
 
+  // === INGESTED 2026-06-22 23:50 ===
+  the_cushitic_languages: { definition: "A branch of the Afroasiatic language family", what_it_does: "", examples: "Oromia , [ 8 ] Harari and Dire Dawa regional states and of the Oromia Zone in the Amhara Region" },
+  all_nouns: "Further grouped into two gender categories, masculine gender and feminine gender",
+  plural_formation: { definition: "Very diverse, and employs ablaut (i.e", what_it_does: "", examples: "most or all of the Omotic languages" },
+  the_aroid_languages: "Not considered Cushitic by either scholar (thought by Cerulli to be instead Nilotic ); they were added to West Cushitic by Joseph Greenberg in 1963",
+  omotic: { definition: "Most often seen as an independent branch of Afroasiatic, primarily due to the work of Harold C", what_it_does: "", examples: "Yaaku , Dahalo , Aasax , Kw'adza , Boon , Ongota and the Cushitic component of Mbugu (Ma'a)" },
+  some_of_the_ancient_peoples_of_nubia: "Hypothesized to have spoken languages belonging to the Cushitic group, especially the people of the C-Group culture",
+
 };
 
 // ============================================================
