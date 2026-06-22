@@ -20278,6 +20278,18 @@ const FLAT_DICT = {
   when_pieces_of_tissue: "Moved, they require their own blood supply to survive in their new location",
   after_the_surgery: "Completed, the blood vessels that feed the tissue transplant are reconnected to new blood vessels in the neck",
 
+  // === INGESTED 2026-06-22 14:48 ===
+  the_protozoa_in_this_scheme: { definition: "Paraphyletic , because it excluded some descendants of Protozoa", what_it_does: "", examples: "those that contain multicellular algae, green plants, animals, and fungi" },
+  if_photosynthetic_and_fungal_protists: { definition: "Distinguished from protozoa, they appear as shown in the phylogenetic tree of eukaryotic groups", what_it_does: "", examples: "soils and mosses" },
+  the_algae: { definition: "Not digested, but reproduce and are distributed between division products", what_it_does: "", examples: "the agents of amoebic meningitis, use both pseudopodia and flagella" },
+  most_sessile_protozoa: "Able to move around at some stage in the life cycle, such as after cell division",
+  familiar_examples_of_protists_with_a_pellicle: "The euglenoids and the ciliate Paramecium",
+  loricas: "Also common among some green euglenids, various ciliates (such as the folliculinids , various testate amoebae and foraminifera",
+  the_surfaces_of_a_variety_of_protozoa: { definition: "Covered with a layer of scales and or spicules", what_it_does: "", examples: "the amoeba Cochliopodium , many centrohelid heliozoa , synurophytes" },
+  the_layer: { definition: "Often assumed to have a protective role", what_it_does: "", examples: "the actinophryid heliozoa, the scales only form when the organism encysts" },
+  the_functional_basis_for_clonal_aging: "Clarified by transplantation experiments of Aufderheide in 1986",
+  freeliving_protozoa: { definition: "Found in almost all ecosystems that contain free water, permanently or temporarily", what_it_does: "", examples: "malaria , giardiasis , toxoplasmosis , and sleeping sickness" },
+
 };
 
 // ============================================================
