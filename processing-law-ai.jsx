@@ -18059,6 +18059,17 @@ const FLAT_DICT = {
   the_adiabatic_ionization: "The diagonal transition to the vibrational ground state of the ion",
   the_ionization_energy: "The lowest binding energy for a particular atom (although these are not all shown in the graph)",
 
+  // === INGESTED 2026-06-22 08:14 ===
+  the_unit_of_amount_of_substance_in_the_si: "The mole (symbol: mol ), a base unit",
+  the_elementary_entities: { definition: "Usually molecules , atoms , ions , or ion pairs of a specified kind", what_it_does: "", examples: "the amount of sodium chloride (NaCl) could be denoted as n NaCl or n (NaCl)" },
+  the_latter_term: { definition: "Deprecated by the IUPAC because, for a substance X , the correct meaning of 'number of moles' is n (X) /mol", what_it_does: "", examples: "a single molecule of water has a mass of about 18" },
+  the_molar_mass_of_an_isotope_in_grams_per_mole: "Approximately equal to the mass number",
+  before_the_mole: "Redefined in 2019, this equality was exact by definition for carbon-12",
+  the_amount_of_substance: { definition: "Also a convenient concept in thermodynamics", what_it_does: "", examples: "mass or volume, [ 2 ] rather than the number of particles" },
+  the_standard_si_unit_of_this_quantity: { definition: "Mol/ m 3 , although more practical units are commonly used, such as mole per liter (mol/L, equivalent to mol/dm 3 )", what_it_does: "", examples: "the amount concentration of sodium chloride in ocean water is typically about 0.599 mol/L" },
+  the_denominator: { definition: "The volume of the solution, not of the solvent", what_it_does: "", examples: "one liter of standard vodka contains about 0.40 L of ethanol (315 g, 6.85 mol) and 0.60 L of water" },
+  the_amount_concentration_of_ethanol: { definition: "Therefore (6.85 mol of ethanol)/(1 L of vodka) = 6.85 mol/L, not (6.85 mol of ethanol)/(0.60 L of water), which would be 11.4 mol/L", what_it_does: "", examples: "each liter of a '0.5 molar' or '0.5 M' solution of urea ( CH 4 N 2 O ) in water contains 0" },
+
 };
 
 // ============================================================
