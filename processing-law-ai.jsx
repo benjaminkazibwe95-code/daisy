@@ -18777,6 +18777,13 @@ const FLAT_DICT = {
   a_monoprotic_acid: "An acid that donates one proton",
   a_monoprotic_base: "A base that accepts one proton",
 
+  // === INGESTED 2026-06-22 10:12 ===
+  classical_proof_theoretical_treatments: "Often given in terms of rules such as disjunction introduction and disjunction elimination",
+  the_english_word_or: "Sometimes used as well, often in capital letters",
+  disjunction: { definition: "Often used for bitwise operations", what_it_does: "", examples: "x = x | 0b00000001 will force the final bit to 1, while leaving other bits unchanged" },
+  logical_disjunction: "Usually short-circuited ; that is, if the first (left) operand evaluates to true , then the second (right) operand is not evaluated",
+  this_operator: { definition: "Thus called the parallel or", what_it_does: "", examples: "Hungarian vagy" },
+
 };
 
 // ============================================================
