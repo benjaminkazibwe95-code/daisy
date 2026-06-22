@@ -16204,6 +16204,17 @@ const FLAT_DICT = {
   these_vesicles: { definition: "Coated with COPII , a protein complex essential for budding from the ER", what_it_does: "", examples: "glycosylation and proteolytic processing" },
   the_lysosomal_enzymes: "Then delivered to the lysosomes for their final role in cellular degradation",
 
+  // === INGESTED 2026-06-22 03:35 ===
+  an_electric_fish: "Any fish that can generate electric fields , whether to sense things around them, for defence, or to stun prey",
+  most_fish_able_to_produce_shocks: "Also electroreceptive, meaning that they can sense electric fields",
+  the_only_exception: { definition: "The stargazer family (Uranoscopidae)", what_it_does: "", examples: "in courtship" },
+  electric_organ_discharges: "Two types, pulse and wave, and vary both by species and by function",
+  ampullae_of_lorenzini: "Lost early in the evolution of bony fishes and tetrapods",
+  fish_able_to_deliver_electric_shocks: "Marked with a red lightning flash",
+  these_are_too_weak_to_stun_prey_and_instead: { definition: "Used for navigation , electrolocation in conjunction with electroreceptors in their skin, and electrocommunication with other electric fish", what_it_does: "", examples: "different conductances of salt and freshwater" },
+  after_the_voltage: "Released, the cell membranes go back to their resting potentials until they are triggered again",
+  the_cost_to_males: "Reduced by a circadian rhythm , with more activity coinciding with night-time courtship and spawning, and less at other times",
+
 };
 
 // ============================================================
