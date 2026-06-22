@@ -20243,6 +20243,19 @@ const FLAT_DICT = {
   on_one_side_of_the_sacred_chao: { definition: "A pentagon and on the other depicts the golden Apple of Discord", what_it_does: "", examples: "writings by both original and contemporary Discordians" },
   the_theology_of_the_principia: "Perhaps best summarized in the symbol ",
 
+  // === INGESTED 2026-06-22 14:42 ===
+  blood_pressure_that_is_too_low: "Called hypotension , pressure that is consistently too high is called hypertension , and normal pressure is called normotension",
+  longterm_hypertension: "A risk factor for many diseases, including stroke , heart disease , and kidney failure",
+  there_is_an_ongoing_medical_debate_over_what: { definition: "The optimal level of blood pressure to target when using drugs to lower blood pressure with hypertension, particularly in older adults", what_it_does: "", examples: "standing-up ), drugs , and disease" },
+  the_blood_pressure_in_the_fetal_aorta: "Approximately 30 mmHg at 20 weeks of gestation, and increases to approximately 45 mmHg at 40 weeks of gestation",
+  the_rise_in_pulse_pressure_with_age: "Attributed to increased stiffness of the arteries",
+  venous_pressure: { definition: "The vascular pressure in a vein or in the atria of the heart", what_it_does: "", examples: "measured through the brachial artery )" },
+  persistent_hypertension: "One of the risk factors for strokes , heart attacks , heart failure , and arterial aneurysms , and is the leading cause of chronic kidney failure",
+  if_systolic_blood_pressure: { definition: "Elevated (>140 mmHg) with a normal diastolic blood pressure (<90 mmHg), it is called isolated systolic hypertension and may present a health concern", what_it_does: "", examples: "Addison's disease , and eating disorders – particularly anorexia nervosa and bulimia" },
+  cardiac_output: { definition: "The product of stroke volume and heart rate", what_it_does: "", examples: "nitroglycerin ) increase the caliber of blood vessels, thereby decreasing arterial pressure" },
+  the_ras: "Targeted pharmacologically by ACE inhibitors and angiotensin II receptor antagonists (also known as angiotensin receptor blockers; ARB)",
+  the_aldosterone_system: { definition: "Directly targeted by aldosterone antagonists", what_it_does: "", examples: "cuffless measurements that uses only optical sensors" },
+
 };
 
 // ============================================================
