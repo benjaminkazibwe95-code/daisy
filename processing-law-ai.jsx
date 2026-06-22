@@ -17777,6 +17777,14 @@ const FLAT_DICT = {
   vortices: "Points in 2D fields and lines in 3D fields (as they have codimension two)",
   this_integer: "Known as the topological charge, or strength, of the vortex",
 
+  // === INGESTED 2026-06-22 07:33 ===
+  the_physical_phenomena_that_electromagnetism: "Have been studied as separate fields since antiquity",
+  detailed_historical_accounts: "Given by Wolfgang Pauli , [ 3 ] E",
+  the_other_vector: "In the same direction as the electric field",
+  both_of_the_above_equations: "Cumbersome, especially if one wants to determine E as a function of position",
+  whenever_the_charges: "Quasistatic, however, this condition will be essentially met",
+  the_vector_potential: "Similar: These can then be differentiated accordingly to obtain the complete field equations for a moving point particle",
+
 };
 
 // ============================================================
