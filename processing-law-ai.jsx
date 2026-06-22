@@ -22709,6 +22709,21 @@ const FLAT_DICT = {
   the_critical_signal_substance: { definition: "The lipo- oligosaccharide Nod factor , decorated with side groups to allow specificity of interaction", what_it_does: "", examples: "Lotus japonicus , Medicago truncatula and soybean ( Glycine max )" },
   these_cork_cells: "Impermeable to water and gases because of a substance called suberin that coats them",
 
+  // === INGESTED 2026-06-22 21:45 ===
+  exocytosis: "The process by which a large amount of molecules are released; thus it is a form of bulk transport",
+  this_secretion: "Possible because the vesicle transiently fuses with the plasma membrane",
+  exocytosis_is_also_a_mechanism_by_which_cells: "Able to insert membrane proteins (such as ion channels and cell surface receptors ), lipids , and other components into the cell membrane",
+  other_potential_calcium_sensors_for_exocytosis: "EF-hand proteins (e.g., Calmodulin ) and C2 domain (e.g., Ferlins, E-synaptotagmin, Doc2b ) containing proteins",
+  the_fusion: "Membrane tethering (recognition) and membrane fusion",
+  two_tethering_complexes: "Associated with constitutive exocytosis in mammals, ELKS and Exocyst",
+  elks: "A large coiled-coil protein, also involved in synaptic exocytosis, marking the 'hotspots' fusion points of the secretory carriers fusion",
+  exocyst: { definition: "An octameric protein complex", what_it_does: "", examples: "invasion of host, endotoxemia , competing with other microbes for nutrition, etc" },
+  both_the_actin_and_the_microtubulebase: "Implicated in these processes, along with several motor proteins",
+  tethering: "Links over distances of more than about half the diameter of a vesicle from a given membrane surface (>25 nm)",
+  tethering_interactions: "Likely to be involved in concentrating synaptic vesicles at the synapse",
+  transient_vesicle_fusion: "Driven by SNARE proteins, resulting in release of vesicle contents into the extracellular space (or in case of neurons in the synaptic cleft)",
+  most_synaptic_vesicles: "Recycled without a full fusion into the membrane ( kiss-and-run fusion ) via porosome",
+
 };
 
 // ============================================================
