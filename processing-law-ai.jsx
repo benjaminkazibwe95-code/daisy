@@ -22829,6 +22829,9 @@ const FLAT_DICT = {
   the_stated_purpose_of_the_law: "To provide additional government revenue, and to control 'gossip' being spread over these platforms",
   the_east_african_procurement_news: "A weekly business newspaper",
 
+  // === INGESTED 2026-06-22 22:04 ===
+  kasese: "Also the largest town in the Rwenzururu region",
+
 };
 
 // ============================================================
