@@ -21789,6 +21789,11 @@ const FLAT_DICT = {
   jaynes_says_that_there: { definition: "No evidence of insanity existing prior to the breakdown of the bicameral mind and that this is indirect evidence for his theory", what_it_does: "", examples: "Andy Clark , Daniel Dennett , William H" },
   mcveigh_argues_that_this_distinction: { definition: "Frequently not recognized by those offering critiques of Jaynes's theory", what_it_does: "", examples: "three books by Brian J" },
 
+  // === INGESTED 2026-06-22 19:09 ===
+  in_response_to_the_position_that_spandrels: "Just small, unimportant byproducts, Gould and Lewontin argue that 'we must not recognize that small means unimportant",
+  just_because_something: "A secondary trait or byproduct of an adaptation does not mean it has no use",
+  spandrels: "Characteristics that did not originate by the direct action of natural selection and that were later co-opted for a current use",
+
 };
 
 // ============================================================
