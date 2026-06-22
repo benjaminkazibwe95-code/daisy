@@ -19069,6 +19069,14 @@ const FLAT_DICT = {
   the_most_important_instruments_here: "Parametric curves and parametric surfaces , such as Bézier curves , spline curves and surfaces",
   an_important_nonparametric_approach: "The level-set method",
 
+  // === INGESTED 2026-06-22 11:06 ===
+  an_isolated_point: "An element of some subset of points which has some neighborhood containing no other points of the subset",
+  further_generalizations: { definition: "Represented by an ordered tuplet of n terms, ( a 1 , a 2 , … , a n ) where n is the dimension of the space in which the point is located", what_it_does: "", examples: "the ordering of points on the line or the existence of specific points" },
+  a_point: "Zero-dimensional with respect to the covering dimension because every open cover of the space has a refinement consisting of a single open set",
+  although_the_notion_of_a_point: "Generally considered fundamental in mainstream geometry and topology, there are some systems that forgot it, e.g",
+  whitehead_in_which_the_notion_of_region: "Assumed as a primitive together with the one of inclusion or connection",
+  in_the_context_of_signal_processing_it: "Often referred to as the unit impulse symbol (or function)",
+
 };
 
 // ============================================================
