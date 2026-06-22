@@ -18335,6 +18335,10 @@ const FLAT_DICT = {
   perrin: { definition: "An atheist and a socialist", what_it_does: "", examples: "the poet Georges Lapicque" },
   francis_perrin: "A physicist, a specialist in nuclear fission, and High Commissioner of the French Atomic Energy Commission (CEA) from 1951 to 1970",
 
+  // === INGESTED 2026-06-22 08:54 ===
+  the_tree_most_commonly_used: "The gamboge tree (genus Garcinia ), including G",
+  the_resulting_latex: "Collected in hollow bamboo canes",
+
 };
 
 // ============================================================
