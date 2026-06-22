@@ -15770,6 +15770,17 @@ const FLAT_DICT = {
   a_twodimensional_control_table: "Similar to intermediate executable code (i.e",
   the_advantage_of_interpretive_techniques: "The compactness of representation, the machine independence, and the increased diagnostic capability",
 
+  // === INGESTED 2026-06-22 02:16 ===
+  alkindi: "The first theoretician of music in the Arab-Islamic world whose works have come down to us",
+  this_dichotomy: { definition: "Duplicated in his writings on optics", what_it_does: "", examples: "Ibn al-Haytham , Robert Grosseteste and Roger Bacon" },
+  when_these_criteria: { definition: "Met, the 'sensible form' of the object is transmitted through the medium to the eye", what_it_does: "", examples: "why a circle viewed from the side will appear as a line" },
+  therefore_most_of_the_summer_winds: "Merits and most of the winter winds are not",
+  this_trend: "Most obvious in areas such as metaphysics and the nature of God as a causal entity",
+  by_this_he: { definition: "That while we may think of any existent thing as being 'one', it is in fact both 'one' and many'", what_it_does: "", examples: "he says that while a body is one, it is also composed of many different parts" },
+  this_potential: { definition: "Actualized by the First Intellect, which is perpetually thinking about all of the universals", what_it_does: "", examples: "fire) to actualize this" },
+  the_implicit_warning: "That those passengers who linger too long on the island may be left behind when the ship sets sail again",
+  and_his_criticism: { definition: "That they arrived at theologically erroneous conclusions", what_it_does: "", examples: "logic, philosophy, geometry, arithmetic, astronomy, etc" },
+
 };
 
 // ============================================================
