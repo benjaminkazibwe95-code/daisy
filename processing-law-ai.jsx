@@ -21866,6 +21866,22 @@ const FLAT_DICT = {
   if_the_wave_function: "Physically real, in some sense and to some extent, then the collapse of the wave function is also seen as a real process, to the same extent",
   he_proposed_that_the_discontinuous_change: "Instead a splitting of a wave function representing the universe",
 
+  // === INGESTED 2026-06-22 19:23 ===
+  feelings: { definition: "Sometimes held to be characteristic of embodied consciousness", what_it_does: "", examples: "the physical sensation of touch" },
+  feeling_in_this_context: "Interwoven with attentional processes, ethical evaluation, and the potential for insight",
+  some_argue_affect_and_cognition: "Under the control of separate and partially independent systems that can influence each other in a variety of ways",
+  the_way_an_individual_responds_to_a_situation: "Based on feeling rules",
+  if_an_individual: { definition: "Uninformed about a situation the way they respond would be in a completely different demeanor than if they were informed about a situation", what_it_does: "", examples: "a feeling of uneasiness, or positive, such as a feeling of trust" },
+  gut_feelings: "Generally regarded as not modulated by conscious thought, but sometimes as a feature of intuition rather than rationality",
+  the_heart_has_a_collection_of_ganglia_that: "Called the ' intrinsic cardiac nervous system '",
+  a_need: "Something required to sustain a healthy life (e.g",
+  events_and_experiences: "Done and relived to satisfy one's feelings",
+  the_organismic_emotion: "The outburst of emotions and feelings",
+  the_individual: "Constantly considering how to react or what to suppress",
+  when_an_individual: "Dealing with an overwhelming amount of stress and problems in their lives, there is the possibility that they might consider self-harm",
+  when_one: "In a good state of feeling, they never want it to end; conversely, when someone is in a bad state of mind, they want that feeling to disappear",
+  inflicting_harm_or_pain_to_oneself: "Sometimes the answer for many individuals because they want something to keep their mind off the real problem",
+
 };
 
 // ============================================================
