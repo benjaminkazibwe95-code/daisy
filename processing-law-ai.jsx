@@ -21228,6 +21228,12 @@ const FLAT_DICT = {
   while_this_role: { definition: "Also played by fungi , actinomycetota are much smaller and likely do not occupy the same ecological niche", what_it_does: "", examples: "many members of the genus Mycobacterium , are important pathogens" },
   classification_of_gardnerella: { definition: "Controversial, and MeSH catalogues it as both a Gram-positive and Gram-negative organism", what_it_does: "", examples: "insecticides , herbicides , fungicides , and growth-promoting substances for plants and animals" },
 
+  // === INGESTED 2026-06-22 17:31 ===
+  common_reasons: { definition: "Latin errors, duplicate names, and non-Latin names", what_it_does: "", examples: "Candidatus ones, published under ICNP before 2023" },
+  a_genome_sequence: { definition: "More stable than a cell culture, which can be (and has been) lost and are subject to genetic drift under the different selective pressure of the lab", what_it_does: "", examples: "new combinations, i.e" },
+  one_of_these_reasons: "The environment the species are recovered from, which can be difficult to simulate in laboratory conditions",
+  the_whole_name: "Wrapped in double quotation marks",
+
 };
 
 // ============================================================
