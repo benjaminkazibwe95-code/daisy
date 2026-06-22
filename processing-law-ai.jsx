@@ -16072,6 +16072,14 @@ const FLAT_DICT = {
   election_to_aaas: "An honor bestowed by their peers and elected fellows are presented with a certificate and rosette pin",
   meetings: "Not held 1861–1865 during the American Civil War, and also 1942–1943 during World War II",
 
+  // === INGESTED 2026-06-22 03:14 ===
+  interdisciplinary_research: { definition: "Also key to the study of health sciences, for example in studying optimal solutions to diseases", what_it_does: "", examples: "women's studies ) and a traditional discipline (such as history )" },
+  these_new_fields: "Occasionally referred to as 'interdisciplines'",
+  interdisciplinarity: "Best seen as bringing together distinctive components of two or more disciplines",
+  interdisciplinary_knowledge: "Familiarity with components of two or more disciplines",
+  the_olympic_games: "Designed to test the arete of the whole man, not a merely specialized skill [...]",
+  the_great_event: "The pentathlon , if you won this, you were a man",
+
 };
 
 // ============================================================
