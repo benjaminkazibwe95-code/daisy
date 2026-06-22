@@ -23191,6 +23191,13 @@ const FLAT_DICT = {
   booking_holdings: "The second largest OTA",
   that_number: "Projected to increase by 3% over the next 10 years",
 
+  // === INGESTED 2026-06-22 23:21 ===
+  arable_land: "Vulnerable to land degradation and some types of un-arable land can be enriched to create useful land",
+  climate_change_and_biodiversity_loss: "Driving pressure on arable land",
+  agricultural_land_that: "Not arable according to the FAO definition above includes: Other non-arable land includes land that is not suitable for any agricultural use",
+  such_modifications: "Often prohibitively expensive",
+  the_use_of_artifice: "An open-air non-recycled water hydroponics relationship",
+
 };
 
 // ============================================================
