@@ -16380,6 +16380,21 @@ const FLAT_DICT = {
   geometric_models: "Used to examine tertiary structure of the nanostructures and to ensure that the complexes are not overly strained",
   extended_threedimensional_lattices: "Analyzed by X-ray crystallography",
 
+  // === INGESTED 2026-06-22 04:03 ===
+  solid_state_media_data: "Saved to a pool of NAND flash",
+  nand_itself_is_made_up_of_what: "Called floating gate transistors",
+  the_maximum_areal_density: "Defined by the size of the magnetic particles in the surface, as well as the size of the 'head' used to read and write the data",
+  dvd_disks: "Essentially a higher-density CD, using more of the disk surface, smaller pits (0.64 micrometers), and tighter tracks (0",
+  higher_density: "More data moves under the head for any given mechanical movement",
+  along_that_track_the_bits: "Stored at a density of 686 bit/mm, which means that the head sees 686 bit/mm × 330 mm/s = 226,380 bit/s (or 28.3 KB /s)",
+  early_floppy_disk_interfaces: "Designed for 250 kbit/s transfer speeds, but were rapidly outperformed with the introduction of the 'high density' 1",
+  although_the_effect_on_performance: "Most obvious on rotating media, similar effects come into play even for solid-state media like Flash RAM or DRAM",
+  one_defining_electrical_property: "The resistance of the wires inside the chips",
+  hard_drives: { definition: "Often measured in terms of cost per bit", what_it_does: "", examples: "the first commercial hard drive, IBM's RAMAC in 1957, supplied 3" },
+  in_this_case_the_cost: "Determined by the yield , the number of viable chips produced in a unit time",
+  chips: "Produced in batches printed on the surface of a single large silicon wafer, which is cut up and non-working samples are discarded",
+  the_lower_limit_on_this_process: "About $1 per completed chip due to packaging and other costs",
+
 };
 
 // ============================================================
