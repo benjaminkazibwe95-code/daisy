@@ -16018,6 +16018,15 @@ const FLAT_DICT = {
   dereferencing_a_null_pointer: "Undefined behavior in C, [ 8 ] and a conforming implementation is allowed to assume that any pointer that is dereferenced is not null",
   my_goal: "To ensure that all use of references should be absolutely safe, with checking performed automatically by the compiler",
 
+  // === INGESTED 2026-06-22 03:01 ===
+  explicit_type_conversions: { definition: "Either indicated by writing additional code (e.g", what_it_does: "", examples: "Pascal , Modula-2 , Ada and Delphi , conversion and casting are distinctly different concepts" },
+  because_the_stored_bits: "Never changed, the programmer must know low level details such as representation format, byte order, and alignment needs, to meaningfully cast",
+  this_odd_behavior: "Caused by an implicit conversion of i_value to float when it is compared with f_value",
+  in_eiffel_the_notion_of_type_conversion: "Integrated into the rules of the type system",
+  conformance_of_types: "Defined by the rules for polymorphism in object-oriented programming",
+  such_a_function: "Called type guard , and is declared with a return type of x is Type , where x is a parameter or this , in place of boolean",
+  untagged_unions: "Provided in some languages with loose type-checking, such as C and PL/I , but also in the original Pascal",
+
 };
 
 // ============================================================
