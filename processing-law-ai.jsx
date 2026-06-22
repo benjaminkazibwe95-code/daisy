@@ -22945,6 +22945,30 @@ const FLAT_DICT = {
   nsenene: "The Luganda name for Ruspolia differens : [ 1 ] [ 2 ] a bush cricket (a.k.a",
   this_species: { definition: "A delicacy in central and south-western Uganda", what_it_does: "", examples: "Buganda and parts of Masaka" },
 
+  // === INGESTED 2026-06-22 22:33 ===
+  the_emperor_ashoka: "A significant early Buddhist missioner",
+  his_proselytizing: "Said to have converted many to Buddhism in China, and made Chang'an , present-day Xi'an , a major center of Buddhism",
+  a_subsequent_mission: "Sent in 549, only to find the Liang capital in the hands of the rebel Hou Jing , who threw them in prison for lamenting the fall of the capital",
+  an_account_of_this: { definition: "Given in Gangōji Garan Engi", what_it_does: "", examples: "the Theosophical Society of H.P" },
+  his_early_life: { definition: "Depicted in Hollywood films such as Kundun and Seven Years in Tibet", what_it_does: "", examples: "Richard Gere and Adam Yauch" },
+  a_christian_missionary: "'one who is to witness across cultures'",
+  this_verse: { definition: "Referred to by Christian missionaries as the Great Commission and inspires missionary work", what_it_does: "", examples: "Saint Patrick (5th century) and Adalbert of Prague (c" },
+  emblematic_in_many_respects: { definition: "Matteo Ricci 's Jesuit mission to China from 1582, which is often characterized as peaceful and non-violent", what_it_does: "", examples: "through Belarus , Latvia , Moldova , Finland , Estonia , Ukraine , and China" },
+  the_fastestgrowing_area_of_the_work: "In Tanzania in Eastern Africa",
+  but_there_are_other_factors_that_determine_or: "Associated with ethnicity",
+  yet_they_when_properly_implemented_they: "Entangled to support one another in the upholding of a civilizations morality and the prosecution and punishment of criminals",
+  the_results_of_spiritual_conflict: "Then present in different ways as prayer can be strategically used, for or against a military",
+  he_founded_the_shaivite_priesthood_that: { definition: "Now ubiquitous in Bali, and is now regarded as the ancestor of all Shaivite pandits", what_it_does: "", examples: "the United Kingdom, New Zealand, and Canada" },
+  much_of_this: { definition: "Performed by the African Muslim Agency based in Angola", what_it_does: "", examples: "Kibwezi , Makindu , and Nairobi" },
+  outstanding_among_them: "Maalim Mtondo Islam in Kenya , a Tanganyikan credited with being the first Muslim missionary to Nairobi",
+  a_small_mosque: { definition: "Built to serve as a starting point and he began preaching Islam in earnest", what_it_does: "", examples: "the Jain temples at Viramgam and Palitana (Gujarat), Agar Malwa ( Ujjain )" },
+  samprati: "Said to have erected Jain temples throughout his empire",
+  gandhi: "Most likely the first Jain and the first Gujarati to travel to the United States, and his statue still stands at the Jain temple in Chicago",
+  in_his_time_he: "A world-famous personality",
+  outreach: "Done worldwide, by organizations such as Chabad Lubavitch , Aish HaTorah , Ohr Somayach , and Partners In Torah",
+  their_rationale_is_that_so_many_jews: "Lost during the Holocaust that newcomers must be sought out and welcomed",
+  the_aim_of_the_sikh_missionary_society: { definition: "The Advancement of the Sikh faith in the U.K", what_it_does: "", examples: "flu, to which many tribes have no immunity" },
+
 };
 
 // ============================================================
