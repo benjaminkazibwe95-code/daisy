@@ -17346,6 +17346,14 @@ const FLAT_DICT = {
   this_was_the_first_evidence_that_electricity: "Not a property of the glass tube but some kind of fluid",
   the_fact_is_that_electricity: "Not considered that important at the time, and the Society's magazine was not published for a couple of years due to financial constraints",
 
+  // === INGESTED 2026-06-22 06:31 ===
+  an_electronic_component: "Any basic discrete electronic device or physical entity part of an electronic system used to affect electrons or their associated fields",
+  a_datasheet_for_an_electronic_component: { definition: "A technical document that provides detailed information about the component's specifications, characteristics, and performance", what_it_does: "", examples: "individual transistors" },
+  transistors: "Considered the invention of the twentieth century that changed electronic circuits forever",
+  a_transistor: "A semiconductor device used to amplify and switch electronic signals and electrical power",
+  integrated_passive_devices: "Passive devices integrated within one distinct package",
+  reference_designators: "Applied to the symbols to identify the components",
+
 };
 
 // ============================================================
