@@ -15295,6 +15295,33 @@ const FLAT_DICT = {
   examplebased_machine_translation: "Best suited for sub-language phenomena like phrasal verbs",
   examplebased_machine_translation_systems: "Trained from bilingual parallel corpora containing sentence pairs like the example shown in the table above",
 
+  // === INGESTED 2026-06-22 00:55 ===
+  real_numbers_that: { definition: "Not rational are irrational", what_it_does: "", examples: "√2 = 1.414" },
+  one_modern_axiomatic_definition: "That real numbers form the unique ( up to an isomorphism ) Dedekind-complete ordered field",
+  real_numbers: "Called 'proportions', being the ratios of two lengths, or equivalently being measures of a length in terms of another length, called unit length",
+  the_total_order_that_is_considered_above: "Denoted a < b {\displaystyle a<b} and read as ' a is less than b '",
+  three_other_order_relations: { definition: "Also commonly used: The real numbers 0 and 1 are commonly identified with the natural numbers 0 and 1", what_it_does: "", examples: "2 , {\displaystyle {\sqrt {2}},} are not rational numbers; they are called irrational numbers" },
+  the_last_two_properties: { definition: "Summarized by saying that the real numbers form a real closed field", what_it_does: "", examples: "for the circle constant π = 3.14159 ⋯ , {\displaystyle \pi =3" },
+  these_two_representations: "Identical, unless x is a decimal fraction of the form m 10 h",
+  every_convergent_sequence: { definition: "A Cauchy sequence, and the converse is true for real numbers, and this means that the topological space of the real numbers is complete", what_it_does: "", examples: "the sequence (1; 1.4; 1.41; 1.414; 1.4142; 1.41421; " },
+  the_completeness_property_of_the_reals: "The basis on which calculus , and more generally mathematical analysis , are built",
+  this_proves_that_the_sequence: "Cauchy, and thus converges, showing that e x {\displaystyle e^{x}} is well defined for every x {\displaystyle x}",
+  the_real_numbers: { definition: "Uniquely specified by the above properties", what_it_does: "", examples: "position, mass, speed, and electric charge, are modeled using real numbers" },
+  the_set_of_all_real_numbers: "Notated as R {\displaystyle \mathbb {R} } ( blackboard bold ) or R (upright bold)",
+  the_cardinality_of_the_set_of_all_real_numbers: "Called the cardinality of the continuum and commonly denoted by c",
+  the_irrational_numbers: "Also dense in the real numbers, however they are uncountable and have the same cardinality as the reals",
+  proving_this: "The first half of one proof of the fundamental theorem of algebra",
+  there_exist_sets_of_real_numbers_that: "Not Lebesgue measurable, e.g",
+  the_supremum_axiom_of_the_reals: "Subsets of the reals and is therefore a second-order logical statement",
+  if_the_axiom_of_constructibility: "Assumed in addition to the axioms of ZF, a well ordering of the real numbers can be shown to be explicitly definable by a formula",
+  simple_fractions: "Used by the Egyptians around 1000 BC; the Vedic ' Shulba Sutras ' ('The rules of chords') in c",
+  the_concept_of_irrationality: { definition: "Implicitly accepted by early Indian mathematicians such as Manava ( c", what_it_does: "", examples: "2 and 61, could not be exactly determined" },
+  two_lengths: { definition: "'commensurable', if there is a unit in which they are both measured by integers, that is, in modern terminology, if their ratio is a rational number", what_it_does: "", examples: "the square root of 2, was well known to the ancient Greeks" },
+  the_existence_of_a_continuous_number_line: { definition: "Considered self-evident, but the nature of this continuity, presently called completeness , was not understood", what_it_does: "", examples: "{ x ∈ Q : x 2 < 2 } {\displaystyle \{x\in \mathbb {Q} :x^{2}<2\}} has a rational upper bound (e.g" },
+  the_set_of_definable_numbers: "Broader, but still only countable",
+  elements_of_baire_space: "Referred to as 'reals'",
+  in_mathematics_real: { definition: "Used as an adjective, meaning that the underlying field is the field of the real numbers (or the real field )", what_it_does: "", examples: "real matrix , real polynomial and real Lie algebra" },
+
 };
 
 // ============================================================
