@@ -15430,6 +15430,16 @@ const FLAT_DICT = {
   federal_agents: { definition: "Then instructed to 'recreate' the investigative trail via parallel construction", what_it_does: "", examples: "their use of pornography" },
   are_ordinary_americans_and: { definition: "Not the intended targets", what_it_does: "", examples: "emails, text messages, and online accounts that support the claim" },
 
+  // === INGESTED 2026-06-22 01:08 ===
+  google_translate: { definition: "A multilingual neural machine translation service developed by Google to translate text, documents and websites from one language into another", what_it_does: "", examples: "Catalan–Spanish" },
+  the_languages: { definition: "Added through the help of the PaLM 2 Generative AI model", what_it_does: "", examples: "text, speech, websites, or text on display in still or live video images" },
+  the_same_option: "Not available on the paid API version",
+  camera_input: "Not available for all languages",
+  upon_highlighting_text_in_an_app_that: { definition: "In a foreign language, Translate will pop up inside of the app and offer translations", what_it_does: "", examples: "Google Nest and Pixel Buds" },
+  och: { definition: "The head of Google's machine translation group until leaving to join Human Longevity, Inc", what_it_does: "", examples: "translating vous from French to Russian gives vous → you → ты OR Bы/вы" },
+  the_odds: "Similar from other languages to English",
+  certain_content: { definition: "Copyrighted by Oxford University Press , United States", what_it_does: "", examples: "'もーるるるるるるるる', 'バチバチで草' and '絵にfう'" },
+
 };
 
 // ============================================================
