@@ -17241,6 +17241,32 @@ const FLAT_DICT = {
   these_normalizations: "Neither the only ones possible nor necessarily the best",
   when_this: "Applied to electromagnetic constants, ε 0 , this unit system is called ' rationalized '",
 
+  // === INGESTED 2026-06-22 06:12 ===
+  the_development_of_the_standard_model: { definition: "Driven by theoretical and experimental particle physicists alike", what_it_does: "", examples: "spontaneous symmetry breaking , anomalies , and non-perturbative behavior" },
+  the_gauge_bosons: "Defined as force carriers , as they are responsible for mediating the fundamental interactions",
+  as_the_higgs_boson: "Massive, it must interact with itself",
+  because_the_higgs_boson: "A very massive particle and also decays almost immediately when created, only a very high-energy particle accelerator can observe and record it",
+  each_kind_of_particle: "Described in terms of a dynamical field that pervades space-time",
+  the_parameters: "Summarized in the table (made visible by clicking 'show') above",
+  neither: "It possible to add explicit mass terms for the U(1) and SU(2) gauge fields",
+  the_higgs_mechanism: "Responsible for the generation of the gauge boson masses, and the fermion masses result from Yukawa-type interactions with the Higgs field",
+  the_quartic_term: "Self-interactions of the scalar field φ {\displaystyle \varphi }",
+  the_mass_of_the_higgs_boson: "M H = 2 μ 2 = 2 λ v {\displaystyle m_{\text{H}}={\sqrt {2\mu ^{2}}}={\sqrt {2\lambda }}v}",
+  the_yukawa_terms: "Invariant under the SU(2) L × U(1) Y gauge symmetry of the Standard Model and generate masses for all fermions after spontaneous symmetry breaking",
+  the_standard_model: { definition: "Three of the four fundamental interactions in nature; only gravity remains unexplained", what_it_does: "", examples: "a photon for the electromagnetic force and a gluon for the strong interaction" },
+  those_particles: "Called force carriers or messenger particles",
+  the_graviton: { definition: "Postulated to be the mediating particle, but has not yet been proved to exist", what_it_does: "", examples: "atomic electron shell structure , chemical bonds , electric circuits and electronics" },
+  interactions_mediated_by_w_bosons: "Charged current interactions",
+  z_bosons: "Neutral and mediate neutral current interactions, which do not change particle flavor",
+  thus_z_bosons: "Similar to the photon, aside from them being massive and interacting with the neutrino",
+  parity_violation: "Maximal for charged current interactions, since the W boson interacts exclusively with left-handed fermions and right-handed antifermions",
+  the_strong_interaction: "Responsible for hadronic and nuclear binding",
+  confinement: "That only color-neutral particles can exist in isolation, therefore quarks can only exist in hadrons and never in isolation, at low energies",
+  asymptotic_freedom: "That the strong force becomes weaker, as the energy scale increases",
+  this_interaction: "Mediated by mesons, such as the pion",
+  the_predictions: "Experimentally confirmed with good precision",
+  a_key_question_related_to_the_consistency: "The Yang–Mills existence and mass gap problem",
+
 };
 
 // ============================================================
