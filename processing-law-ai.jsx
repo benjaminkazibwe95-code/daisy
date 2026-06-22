@@ -16608,6 +16608,14 @@ const FLAT_DICT = {
   pennock_makes_the_comparison_that_evolution: "No more atheistic than plumbing",
   very_similar_results: "Reported from a 1997 Gallup Poll of the American public and scientists",
 
+  // === INGESTED 2026-06-22 04:39 ===
+  the_mule: "A domestic equine hybrid between a donkey and a horse",
+  a_male_mule: "Called a john , John mule , or more formally horse mule",
+  a_young_male_mule: "Called a mule colt , and a young female is called a mule filly",
+  the_donkey_used_to_produce_mules: { definition: "Called a mule jack , [ 5 ] and a group of mules is often called a pack , though the words barren and span also apply", what_it_does: "", examples: "in Afghanistan during the Second Anglo-Afghan War" },
+  one_of_the_foals: { definition: "A female, sired by a jack", what_it_does: "", examples: "mules are used to defend herds of animals against predators like wolves and feral dogs" },
+  their_diet: "Also herbivorous, mainly consisting of grains, hay and greens, though they can also enjoy fruits and vegetables",
+
 };
 
 // ============================================================
