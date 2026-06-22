@@ -22904,6 +22904,23 @@ const FLAT_DICT = {
   liberal_scholars_counter_that_it: "An effective organization because it has proved capable of solving many problems by working around the restrictions imposed by powerful member states",
   the_un: { definition: "Generally considered by scholars to be more effective in realms such as public health, and humanitarian assistance", what_it_does: "", examples: "billions of dollars of kickbacks" },
 
+  // === INGESTED 2026-06-22 22:18 ===
+  his_mother_elizabeth_parry: "18 years old at the time of his birth",
+  the_entry_states_that_he: "The bastard son of John Rowland of Llys Llanrhaidr and Elizabeth Parry of Castle",
+  after_his_message: "Sent, the cable broke; British government officials were greatly irritated to learn of the battle from an American newspaper",
+  these_boats: "Transported around the rapids before being reassembled to travel on the next section of river",
+  in_passing_the_rapids_many_of_his_men: "Drowned, including his last white colleague, Frank Pocock",
+  it_is_about_establishing_a_new_state_that: "As large as possible and about its governance",
+  leopold: "Furious, writing angrily to Strauch: 'The terms of the treaties Stanley has made with native chiefs do not satisfy me",
+  the_key_question: { definition: "How the Free State could become profitable", what_it_does: "", examples: "two dismantled steamboats and a barge" },
+  villages_throughout_the_region: "Burned and depopulated",
+  army_major_edmund_musgrave_barttelot: { definition: "Killed by an African porter after behaving with extreme cruelty", what_it_does: "", examples: "he writes the following while explaining the final route decision" },
+  the_advantages_of_the_congo_route: "About five hundred miles shorter land journey, and less opportunities for deserting",
+  amongst_these: "A number that have long been identified as possible frauds",
+  thomas_parke_also_came_because_stanley: "Seriously ill at the time",
+  if_a_ship: "Not sent, they would die on their overland journey home",
+  memorials_to_stanley: "Erected in St Asaph and in Denbigh (a statue of Stanley with an outstretched hand, by Nick Elphick [ 109 ] ) in 2011",
+
 };
 
 // ============================================================
