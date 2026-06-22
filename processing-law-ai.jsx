@@ -19825,6 +19825,9 @@ const FLAT_DICT = {
   once_the_disc_drives: "Loaded with information, they are carried to the Pete V",
   these_three_additional_sites: "Brought online for as much as 100 hours per four-month trimester",
 
+  // === INGESTED 2026-06-22 13:23 ===
+  another_unusual_thing_noted_by_hassler: { definition: "The intended audience, which he identified as principally being students rather than scholars", what_it_does: "", examples: "delineation of how various subgenres differ" },
+
 };
 
 // ============================================================
