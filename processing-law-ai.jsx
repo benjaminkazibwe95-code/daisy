@@ -19136,6 +19136,23 @@ const FLAT_DICT = {
   his_early_work: "On the Radon transform and he is remembered for John's equation",
   his_textbook_on_partial_differential_equations: { definition: "Highly influential and was re-edited many times", what_it_does: "", examples: "the Birkhoff Prize in Applied Mathematics in 1973 and the Steele Prize in 1982" },
 
+  // === INGESTED 2026-06-22 11:21 ===
+  bentham: "Widely regarded as one of the earliest proponents of animal rights",
+  although_the_prison: { definition: "Never built, the concept had an important influence on later generations of thinkers", what_it_does: "", examples: "one at Hanging Wood, near Woolwich , but all proved unsatisfactory" },
+  his_initial_claim: "For the enormous sum of nearly £700,000, but he eventually settled for the more modest (but still considerable) sum of £23,000",
+  more_successful: "His cooperation with Patrick Colquhoun in tackling the corruption in the Pool of London",
+  the_real_head: "Displayed in the same case as the auto-icon for many years, but became the target of repeated student pranks",
+  if_reason_alone: { definition: "The criterion by which we judge who ought to have rights, human infants and adults with certain forms of disability might fall short, too", what_it_does: "", examples: "the inferior races of animals are still" },
+  he_focused_on_monetary_expansion_as_a: "Of helping to create full employment",
+  his_monetary_view: "Close to the fundamental concepts employed in his model of utilitarian decision making",
+  he_argued_that_empire: { definition: "Bad for the greatest number in the metropole and the colonies", what_it_does: "", examples: "journalism puts power-holders under moral scrutiny" },
+  bentham_today: "Considered as the 'Father of Utilitarianism'",
+  this_concept_of_pleasure_and_pain: "Defined by Bentham as physical as well as spiritual",
+  whatever: "Useful to this queer variety of normal man, and to his world, is useful in and for itself",
+  his_direct_involvement: "Limited to his buying a single £100 share in the new university, making him just one of over a thousand shareholders",
+  as_the_university_of_london: { definition: "The first in England to admit all, regardless of race , creed or political belief, it was largely consistent with Bentham's vision", what_it_does: "", examples: "Theory of Legislation , Volume 2 ( Principles of the Penal Code ) 1840, Weeks, Jordan, & Company" },
+  the_collected_works: "Providing many unpublished works, as well as much-improved texts of works already published",
+
 };
 
 // ============================================================
