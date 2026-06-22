@@ -23147,6 +23147,9 @@ const FLAT_DICT = {
   its_formal_definition: "The ' propensity or predisposition to be adversely affected' by climate change",
   when_drr: "Successful, it makes communities less the vulnerable because it mitigates the effects of disasters",
 
+  // === INGESTED 2026-06-22 23:04 ===
+  each_set_of_cards: "Given a serial number to help identify it",
+
 };
 
 // ============================================================
