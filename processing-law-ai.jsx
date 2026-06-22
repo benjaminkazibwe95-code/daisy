@@ -23155,6 +23155,11 @@ const FLAT_DICT = {
   when_water_levels_in_the_reservoir: "Low, three pumps move water into the canal",
   the_main_portion_of_the_dam: "An earthen embankment; the spillway and irrigation headworks sections are concrete gravity",
 
+  // === INGESTED 2026-06-22 23:12 ===
+  the_waters_of_the_kagera: "Thus provided by two major tributaries, the Nyabarongo of Rwanda, which feeds Lake Rweru, and the Ruvubu of Burundi",
+  it_is_unknown_which_of_these_two_feeder_rivers: "The longer and hence the ultimate source of the Nile",
+  on_the_river: "The Rusumo Falls , an important crossing point between Rwanda and Tanzania",
+
 };
 
 // ============================================================
