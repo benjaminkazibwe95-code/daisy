@@ -17852,6 +17852,25 @@ const FLAT_DICT = {
   the_effects: "Even more pronounced when a city is surrounded by hills or mountains since they form an additional barrier to air circulation",
   if_the_layer_of_cold_air_near_the_surface: "Thick enough, it will lead to the development of ice pellets as the raindrops re-freeze",
 
+  // === INGESTED 2026-06-22 07:45 ===
+  examples_of_waves: "Sound waves , light , water waves , and periodic electrical signals in a conductor",
+  a_sound_wave: "A variation in air pressure , while in light and other electromagnetic radiation the strength of the electric and the magnetic field vary",
+  water_waves: { definition: "Variations in the height of a body of water", what_it_does: "", examples: "light—in free space , the phase speed is the speed of light , about 3 × 10 8 m/s" },
+  somewhat_higher_frequencies: "Used by bats so they can resolve targets smaller than 17 mm",
+  wavelengths_in_audible_sound: "Much longer than those in visible light",
+  the_walls_of_the_box: "Considered to require the wave to have nodes at the walls of the box (an example of boundary conditions ), thus determining the allowed wavelengths",
+  the_mathematical_relationship_that: { definition: "How the speed of light within a medium varies with wavelength is known as a dispersion relation", what_it_does: "", examples: "for conservation of energy in the wave" },
+  waves_in_crystalline_solids: { definition: "Not continuous, because they are composed of vibrations of discrete particles arranged in a regular lattice", what_it_does: "", examples: "energy bands and lattice vibrations" },
+  sinusoids: "The simplest traveling wave solutions, and more complex solutions can be built up by superposition",
+  a_wave_packet_has_an_envelope_that: "The overall amplitude of the wave; within the envelope, the distance between adjacent peaks or troughs is sometimes called a local wavelength",
+  a_simple_example: "An experiment due to Young where light is passed through two slits",
+  the_effect_of_interference: "To redistribute the light, so the energy contained in the light is not altered, just where it shows up",
+  the_main_result_of_this_interference: "To spread out the light from the narrow slit into a broader image on the screen",
+  the_function_s_has_zeros_where_u: "A non-zero integer, where are at x values at a separation proportion to wavelength",
+  the_term_subwavelength: "Used to describe an object having one or more dimensions smaller than the length of the wave with which the object interacts",
+  a_subwavelength_particle: "A particle smaller than the wavelength of light with which it interacts (see Rayleigh scattering )",
+  subwavelength_apertures: { definition: "Holes smaller than the wavelength of light propagating through them", what_it_does: "", examples: "subwavelength imaging" },
+
 };
 
 // ============================================================
