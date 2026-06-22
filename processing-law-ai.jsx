@@ -18636,6 +18636,22 @@ const FLAT_DICT = {
   the_freezing_point_of_a_solvent: "Depressed when another compound is added, meaning that a solution has a lower freezing point than a pure solvent",
   the_lindemann_criterion_states_that_melting: "Expected when the vibration root mean square amplitude exceeds a threshold value",
 
+  // === INGESTED 2026-06-22 09:45 ===
+  americium: "Relatively soft and easily deformable and has a significantly lower bulk modulus than the actinides before it: Th, Pa, U, Np and Pu",
+  several_other_oxidation_states: "Known, ranging from +2 to +7, and can be identified by their characteristic optical absorption spectra",
+  the_residue: "Dissolved in perchloric acid",
+  further_separation: "Carried out by ion exchange , yielding a certain isotope of curium",
+  the_halflife_of_this_decay: { definition: "Initially determined at 17 hours, which was close to the presently accepted value of 16.02 h", what_it_does: "", examples: "the Chernobyl disaster" },
+  elevated_levels_of_americium: "Also detected at the crash site of a US Boeing B-52 bomber aircraft, which carried four hydrogen bombs, in 1968 in Greenland",
+  atmospheric_americium_compounds: "Poorly soluble in common solvents and mostly adhere to soil particles",
+  this_procedure: "Well known as nuclear transmutation , but it is still being developed for americium",
+  americium_compounds: "Then selectively extracted using multi-step chromatographic and centrifugation techniques [ 34 ] with an appropriate reagent",
+  this_fcc_structure: "Equivalent to the closest packing with the sequence ABC",
+  the_room_temperature_value_for_americium: "Lower than that of neptunium, plutonium and curium, but higher than for uranium, thorium and protactinium",
+  the_bromide: "An exception with the orthorhombic PuBr 3 -type structure and space group Cmcm",
+  those_crystals: "Hygroscopic and have yellow-reddish color and a monoclinic crystal structure",
+  amsi: { definition: "A black solid isomorphic with LaSi, it has an orthorhombic crystal symmetry", what_it_does: "", examples: "in spacecraft" },
+
 };
 
 // ============================================================
