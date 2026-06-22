@@ -22863,6 +22863,11 @@ const FLAT_DICT = {
   if_multiple_children_in_a_community: { definition: "Trafficked, it can result in the entire community being corrupted, and thus devastated, by trafficking", what_it_does: "", examples: "some while she was allegedly a minor" },
   the_end_trafficking_project: "The initiative to raise awareness about child trafficking and help people take action to protect children",
 
+  // === INGESTED 2026-06-22 22:10 ===
+  the_previous_presidential_elections: "In February 2011, and in the election of February 2016, Museveni was elected with 68 percent of the vote",
+  the_cabinet: "Appointed by the president from among the elected legislators",
+  judges_for_the_high_court: "Appointed by the president; Judges for the Court of Appeal are appointed by the president and approved by the legislature",
+
 };
 
 // ============================================================
