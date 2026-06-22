@@ -18765,6 +18765,13 @@ const FLAT_DICT = {
   lung_function_testing: "Carried out by evaluating a person's capacity to inhale and exhale in different circumstances",
   not_all_air: "Expelled from the lungs even after a forced breath out; the remainder of the air is called the residual volume",
 
+  // === INGESTED 2026-06-22 10:08 ===
+  the_property_related_to_the_proton_affinity: "The gas-phase basicity, which is the negative of the Gibbs energy for above reactions, [ 2 ] i.e",
+  the_weakest_known_base: "The helium atom ( E pa = 177.8 kJ/mol), [ 6 ] making the hydrohelium(1+) ion the strongest known proton acid",
+  the_contrast: { definition: "Even more marked for the hydroxide ion ( E pa = 1635 kJ/mol), [ 4 ] one of the strongest known proton acceptors in the gas phase", what_it_does: "", examples: "sodium hydride ) when used in organic synthesis" },
+  both_proton_affinity_and_pk_a: "Measures of the acidity of a molecule, and so both reflect the thermodynamic gradient between a molecule and the deprotonated form of that molecule",
+  proton_affinities: "Quoted in kJ/mol , in increasing order of gas-phase basicity of the base",
+
 };
 
 // ============================================================
