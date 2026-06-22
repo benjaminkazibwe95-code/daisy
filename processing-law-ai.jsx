@@ -23198,6 +23198,9 @@ const FLAT_DICT = {
   such_modifications: "Often prohibitively expensive",
   the_use_of_artifice: "An open-air non-recycled water hydroponics relationship",
 
+  // === INGESTED 2026-06-22 23:25 ===
+  plans_for_the_merger: "First announced on 15 January 2015",
+
 };
 
 // ============================================================
