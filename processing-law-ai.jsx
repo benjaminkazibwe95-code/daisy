@@ -19359,6 +19359,10 @@ const FLAT_DICT = {
   different_forts_and_landmarks: "Able to be located, legitimizing Biruni's contributions with their usefulness to even modern history and archeology",
   biruni_island_in_antarctica: "Named after al-Biruni",
 
+  // === INGESTED 2026-06-22 12:12 ===
+  the_large_sieve: { definition: "A method (or family of methods and related ideas) in analytic number theory", what_it_does: "", examples: "the Selberg sieve wherein only a few residue classes are removed" },
+  large_here: "'a relatively large constant times | S | {\displaystyle |S|} '",
+
 };
 
 // ============================================================
