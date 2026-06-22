@@ -19450,6 +19450,13 @@ const FLAT_DICT = {
   an_identity_operation: "A characteristic of every molecule even if it has no symmetry",
   when_the_plane: { definition: "Perpendicular to the principal axis of rotation, it is called σ h (horizontal)", what_it_does: "", examples: "methane and other tetrahedral molecules lack inversion symmetry" },
 
+  // === INGESTED 2026-06-22 12:25 ===
+  sections_i_to_iii: "Essentially a review of previous results, including Fermat's little theorem , Wilson's theorem and the existence of primitive roots",
+  although_few_of_the_results_in_these_sections: "Original, Gauss was the first mathematician to bring this material together in a systematic way",
+  ideas_unique_to_that_treatise: "Clear recognition of the importance of the Frobenius morphism , and a version of Hensel's lemma",
+  the_disquisitiones: "The starting point for other 19th-century European mathematicians, including Ernst Kummer , Peter Gustav Lejeune Dirichlet and Richard Dedekind",
+  an_english_translation: "Not published until 1965, by Jesuit scholar Arthur A",
+
 };
 
 // ============================================================
