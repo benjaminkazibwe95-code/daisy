@@ -18285,6 +18285,34 @@ const FLAT_DICT = {
   these_nuclei: "Generally objects of NQR nuclear quadrupole resonance and NMR nuclear magnetic resonance studies",
   when_the_difference_in_electronegativity: "Decreased, the bonding may then lead to a semiconductor , a semimetal or eventually a metallic conductor with metallic bonding",
 
+  // === INGESTED 2026-06-22 08:45 ===
+  the_elementary_parts_of_a_molecule: "The nuclei, characterized by their atomic numbers , Z , and the electrons, which have negative elementary charge , − e",
+  from_it: "Missing a number of small terms, most of which are due to electronic and nuclear spin",
+  the_main_reason: "That its Schrödinger equation is very difficult to solve",
+  applications: "Restricted to small systems like the hydrogen molecule",
+  the_nuclear_kinetic_energy_terms: "Omitted from the Coulomb Hamiltonian and one considers the remaining Hamiltonian as a Hamiltonian of electrons only",
+  in_practical_calculations_the_surface: "Usually fitted in terms of some analytic functions",
+  the_onedimensional_harmonic_oscillator: "One of the few systems that allows an exact solution of the Schrödinger equation",
+  they_are_here_m_i: "The mass of nucleus i , Z i is the atomic number of nucleus i , and m e is the mass of the electron",
+  since_the_kinetic_energy_operator: "An inner product, it is invariant under rotation of the Cartesian frame with respect to which x i , y i , and z i are expressed",
+  in_classical_mechanics_it: "Easy to separate off the COM motion of a system of point masses",
+  classically_the_motion_of_the_com: "Uncoupled from the other motions",
+  the_position_of_the_com: "Uniformly probable everywhere, in agreement with the Heisenberg uncertainty principle",
+  these_coordinates: "Linear combinations of the old coordinates of all particles (nuclei and electrons)",
+  the_second_term: "Vanishing because of the equilibrium condition",
+  the_form_of_the_electronic_hamiltonian: "H ^ e l = T ^ e + U ^ e n + U ^ e e + U ^ n n",
+  it_is_an_inertial_frame_because_the_nuclei: "Assumed not to be accelerated by external forces or torques",
+  the_origin_of_the_frame: "Arbitrary, it is usually positioned on a central nucleus or in the nuclear center of mass",
+  sometimes_it_is_stated_that_the_nuclei: "'at rest in a space-fixed frame'",
+  this_statement_implies_that_the_nuclei: "Viewed as classical particles, because a quantum mechanical particle cannot be at rest",
+  since_the_nuclear_positions: "Constants, the electronic kinetic energy operator is invariant under translation over any nuclear vector",
+  this_invariance_condition_on_the_pes: "Automatically fulfilled when the PES is expressed in terms of differences of, and angles between, the R i , which is usually the case",
+  the_zerofrequency_eigenvectors: "Orthogonal to the eigenvectors of non-zero frequency",
+  it_can_be_shown_that_these_orthogonalities: "In fact the Eckart conditions",
+  classically_it: "Easy to separate the translational—center of mass—motion from the other motions",
+  this_rovibrational_separation: "First achieved by Eckart [ 5 ] in 1935 by imposing by what is now known as Eckart conditions",
+  the_nuclear_motion_hamiltonian: "Obtained by Wilson and Howard in 1936, [ 7 ] who followed this procedure, and further refined by Darling and Dennison in 1940",
+
 };
 
 // ============================================================
