@@ -21779,6 +21779,9 @@ const FLAT_DICT = {
   the_modern_evolutionary_synthesis: { definition: "Devised at a time when the molecular basis of genes was unknown", what_it_does: "", examples: "adaptation and speciation" },
   overlap_with_ecology: "Also prominent in the review journals Trends in Ecology and Evolution and Annual Review of Ecology, Evolution, and Systematics",
 
+  // === INGESTED 2026-06-22 19:05 ===
+  the_name_lstm: "Introduced in a tech report in 1995, leading to the most cited LSTM publication, published in 1997 and co-authored by Hochreiter and Schmidhuber",
+
 };
 
 // ============================================================
