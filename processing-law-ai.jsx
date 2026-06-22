@@ -21030,6 +21030,16 @@ const FLAT_DICT = {
   exemptions: "Determined at a state level",
   certain_laws: "Being looked at for immunization requirements, and are trying to be changed, but cannot succeed due to legal challenges",
 
+  // === INGESTED 2026-06-22 17:00 ===
+  immature_dendritic_cells: "Also called veiled cells , as they possess large cytoplasmic 'veils' rather than dendrites",
+  the_term_dendritic_cells: "Coined in 1973 by Ralph M",
+  the_most_common_division_of_dendritic_cells: "Conventional dendritic cells (a.k.a",
+  the_blood_dcs: "Typically identified and enumerated in flow cytometry",
+  dendritic_cells: "Derived from hematopoietic bone marrow progenitor cells (HSC)",
+  the_monocytes_in_turn: "Formed from stem cells in the bone marrow",
+  the_ultimate_consequence: { definition: "Priming and activation of the immune system for attack against the antigens which the dendritic cell presents on its surface", what_it_does: "", examples: "the SARS virus, seem to use DC-SIGN to 'hitchhike' to its target cells" },
+  the_physiological_role_of_dcsign_in_vivo: { definition: "More difficult to ascertain", what_it_does: "", examples: "dendritic cell based vaccinations, have been emerging as a treatment with varying success" },
+
 };
 
 // ============================================================
