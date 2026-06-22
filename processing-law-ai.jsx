@@ -20506,6 +20506,9 @@ const FLAT_DICT = {
   if_the_thalamus: { definition: "Damaged even a little bit, this wave stops, conscious awarenesses do not form, and the patient slips into profound coma", what_it_does: "", examples: "perception" },
   this_has_led_to_theories_that_gamma_waves: { definition: "Associated with solving the binding problem", what_it_does: "", examples: "visual oddball and Gestalt perception" },
 
+  // === INGESTED 2026-06-22 15:32 ===
+  bliss: "On the board of the Feldberg Foundation [ 10 ] and was trustee of Sir John Soane's Museum from 2004 to 2009",
+
 };
 
 // ============================================================
