@@ -16259,6 +16259,20 @@ const FLAT_DICT = {
   sharks: "The most electrically sensitive animals known, responding to direct current fields as low as 5 nV/cm",
   the_electric_sense_of_the_echidna: "Hypothesised to be an evolutionary remnant from a platypus-like ancestor",
 
+  // === INGESTED 2026-06-22 03:45 ===
+  the_cell_membranes: { definition: "Different from the isolating tissues formed by layers of cells, such as mucous membranes , basement membranes , and serous membranes", what_it_does: "", examples: "cell signaling" },
+  using_selective_flippases: { definition: "Not the only way to produce asymmetry in lipid bilayers, however", what_it_does: "", examples: "signal transduction" },
+  the_bilayer_of_red_blood_cells: "Composed of cholesterol and phospholipids in equal proportions by weight",
+  peripheral_proteins: "Unlike integral proteins in that they hold weak interactions with the surface of the bilayer and can easily become dissociated from the membrane",
+  oligosaccharides: { definition: "Sugar containing polymers", what_it_does: "", examples: "cell recognition and cell-cell adhesion" },
+  biological_molecules: "Amphiphilic or amphipathic, i.e",
+  the_hydrophobic_tails: "Usually fatty acids that differ in lengths",
+  peroxisomes: "One form of vacuole found in the cell that contain by-products of chemical reactions within the cell",
+  selective_permeability: { definition: "Essential for effective separation of a cell or organelle from its surroundings", what_it_does: "", examples: "synaptosome , acrosomes , melanosomes, and chromaffin granules)" },
+  this_molecule: "Present in especially large amounts in the plasma membrane, where it constitutes approximately 20% of the lipids in the membrane by weight",
+  because_cholesterol_molecules: { definition: "Short and rigid, they fill the spaces between neighboring phospholipid molecules left by the kinks in their unsaturated hydrocarbon tails", what_it_does: "", examples: "in cell signaling" },
+  if_biological_membranes: "Not fluid, it is hard to imagine how cells could live, grow, and reproduce",
+
 };
 
 // ============================================================
