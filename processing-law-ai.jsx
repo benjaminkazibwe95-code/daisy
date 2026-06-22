@@ -20952,6 +20952,28 @@ const FLAT_DICT = {
   the_dictionaries: "Historically published by Saunders",
   saunders: "Acquired first by CBS and then by Harcourt",
 
+  // === INGESTED 2026-06-22 16:49 ===
+  much_of_this_regulatoryenforcement_work: "Not directly related to food or drugs but involves other regulated products like lasers , cellular phones , and condoms",
+  the_fda: "Led by the commissioner of food and drugs , who is appointed by the president with the advice and consent of the Senate",
+  marty_makary: { definition: "The current commissioner", what_it_does: "", examples: "China, India, Costa Rica, Chile, Belgium, and the United Kingdom" },
+  the_office_of_regulatory_affairs: "Divided into five regions, which are further divided into 20 districts",
+  the_districts: "Based roughly on the geographic divisions of the federal court system",
+  though_samples: "Usually food-related, some laboratories are equipped to analyze drugs, cosmetics, and radiation-emitting devices",
+  the_office_of_criminal_investigations: { definition: "Established in 1991 to investigate criminal cases", what_it_does: "", examples: "fraudulent claims or knowingly and willfully shipping known adulterated goods in interstate commerce" },
+  inspection_observations: "Documented on Form 483",
+  these_manufacturers_and_distributors: "Not allowed to advertise their products in an adulterated way, and they are responsible for evaluating the safety and labeling of their product",
+  a_drug_that_is_approved: "Said to be 'safe and effective when used as directed'",
+  dozens_of_drugs: "Eventually suspended or recalled by manufacturers",
+  new_biologics: { definition: "Required to go through a premarket approval process called a Biologics License Application (BLA), similar to that for drugs", what_it_does: "", examples: "implantable neurostimulators" },
+  clearance_requests: { definition: "Required for medical devices that prove they are 'substantially equivalent' to the predicate devices already on the market", what_it_does: "", examples: "they may be inspected for safety in case of new toxic hazards" },
+  the_implementation_date: "Uncertain, due to ongoing proceedings in the case of R.J",
+  federal_court_claiming_that_the_graphic_labels: "An unconstitutional way of forcing tobacco companies to engage in anti-smoking advocacy on the government's behalf",
+  the_openfda_project: "Created to enable easy access of the data for the public and was officially launched in June 2014",
+  the_serum: "Originally collected from a horse named Jim who had contracted tetanus",
+  the_first_wave: "The legalization by 27 states of laetrile in the late 1970s",
+  this_drug: "Used as a treatment for cancer, but scientific studies both before and after this legislative trend found it ineffective",
+  the_risk_minimization_action_plans: { definition: "Set in place depending on the overall level of risk a prescription drug is likely to pose to the public", what_it_does: "", examples: "size, weight, etc" },
+
 };
 
 // ============================================================
