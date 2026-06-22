@@ -23107,6 +23107,20 @@ const FLAT_DICT = {
   the_extension: "Completed in 2003, named the Kiira Power Station , and is capable of producing 200 megawatts of hydroelectric power at maximum utilization",
   the_hydroelectric_facility: "Providing 250 megawatts of electric power",
 
+  // === INGESTED 2026-06-22 22:58 ===
+  the_concept_of_a_hybrid: { definition: "Interpreted differently in animal and plant breeding, where there is interest in the individual parentage", what_it_does: "", examples: "important crop plants such as wheat , where the number of chromosomes has been doubled" },
+  hybridization: "Currently an area of great discussion within wildlife management and habitat management",
+  the_term_hybrid: { definition: "Derived from Latin hybrida , used for crosses such as of a tame sow and a wild boar", what_it_does: "", examples: "between different breeds" },
+  these_hybrid_zones: { definition: "Useful as biological model systems for studying the mechanisms of speciation", what_it_does: "", examples: "line breeding and the formation of complex hybrids" },
+  an_economically_important_example: { definition: "Hybrid maize (corn), which provides a considerable seed yield advantage over open pollinated varieties", what_it_does: "", examples: "habitat fragmentation and species introductions" },
+  global_climate_change: { definition: "Creating other changes such as difference in population distributions which are indirect causes for an increase in anthropogenic hybridization", what_it_does: "", examples: "the liger" },
+  the_oldestknown_animal_hybrid_bred_by_humans: "The kunga equid hybrid produced as a draft animal and status symbol 4,500 years ago in Umm el-Marra , present-day Syria",
+  hybrid_birds: { definition: "Purposefully bred by humans, but hybridization is also common in the wild", what_it_does: "", examples: "goldfinch × canary" },
+  this_hybrid: "Called a sturddlefish",
+  many_plant_species: { definition: "The result of hybridization, combined with polyploidy , which duplicates the chromosomes", what_it_does: "", examples: "Platanus × hispanica for the London plane, a natural hybrid of P" },
+  hybrids: { definition: "Sometimes created by humans to produce improved plants that have some of the characteristics of each of the parent species", what_it_does: "", examples: "Triticale , × Triticosecale , a wheat– rye hybrid" },
+  triploid_bananas_and_watermelons: { definition: "Intentionally bred because they produce no seeds and are also parthenocarpic", what_it_does: "", examples: "brewing [ 104 ] and winemaking" },
+
 };
 
 // ============================================================
