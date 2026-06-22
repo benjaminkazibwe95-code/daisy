@@ -20998,6 +20998,16 @@ const FLAT_DICT = {
   tachypnea: { definition: "Characterized by rapid, shallow breathing and can affect a person's ability to sleep, cause chest pain, and decrease appetite", what_it_does: "", examples: "the United Kingdom, [ 37 ] the United States, [ 38 ] Greece, [ 39 ] and South Africa" },
   influenzae: { definition: "More aggressive in attacking S", what_it_does: "", examples: "clindamycin ), and tetracyclines , as reported in a study of Chinese isolates" },
 
+  // === INGESTED 2026-06-22 16:55 ===
+  at_that_time_cambridge_school_of_biochemistry: "Recognised for imaginative exploratory science and had outstanding scientists Hopkins, Dorothy M",
+  everywhere_he_went_he_purchased_and: { definition: "Given old historical and scientific books which he shipped back to Britain through diplomatic channels", what_it_does: "", examples: "2,000 volumes of the Gujin Tushu Jicheng encyclopaedia, a comprehensive record of China's past" },
+  in_fact_it: "Needham who insisted that science should be included in the organisation's mandate at an earlier planning meeting",
+  his_initial_collaborator: "The historian Wang Ling , whom he had met in Lizhuang and obtained a position for at Trinity",
+  the_first_years: "Devoted to compiling a list of every mechanical invention and abstract idea that had been made and conceived in China",
+  successive_volumes_are_published_as_they: "Completed, which means that they do not appear in the order originally contemplated in the project's prospectus",
+  innovations_in_science_and_technology: "Often appropriated by the government and their applications were governed by the immediate needs of the feudal royal family",
+  foreign_trade: "A great source of foreign knowledge as well as the capability of acquisition of new products",
+
 };
 
 // ============================================================
