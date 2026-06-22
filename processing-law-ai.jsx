@@ -16993,6 +16993,17 @@ const FLAT_DICT = {
   for_they_believe_that_heat: "A real phenomenon, or property ",
   hence_if_the_living_creature: "Removed, all these qualities would be ",
 
+  // === INGESTED 2026-06-22 05:43 ===
+  the_quark_model: "Independently proposed by physicists Murray Gell-Mann [ 24 ] and George Zweig [ 25 ] [ 26 ] in 1964",
+  studies_of_heavier_quarks: "Conducted in artificially created conditions, such as in particle accelerators",
+  gellmann_and_zweig_posited_that_they: { definition: "Not elementary particles, but were instead composed of combinations of quarks and antiquarks", what_it_does: "", examples: "spin and electric charge" },
+  the_charm_quarks: "Observed bound with charm antiquarks in mesons",
+  words_in_the_text: "Typically drawn from several sources at once, like the ' portmanteau ' words in Through the Looking-Glass",
+  the_up_and_down_quarks: { definition: "Named after the up and down components of isospin , which they carry", what_it_does: "", examples: "an up quark with a spin of + ⁠ 1 / 2 ⁠ along the z axis is denoted by u↑" },
+  while_the_process_of_flavor_transformation: "The same for all quarks, each quark has a preference to transform into the quark of its own generation",
+  the_theory_that_describes_strong_interactions: "Called quantum chromodynamics (QCD)",
+  this_theoretical_phase_of_matter: "Called quark–gluon plasma",
+
 };
 
 // ============================================================
