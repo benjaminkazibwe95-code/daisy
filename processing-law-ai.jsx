@@ -18502,6 +18502,14 @@ const FLAT_DICT = {
   even_though_the_overall_length_of_the_work: { definition: "About the same as that of its predecessor, the number of articles had increased from 17,000 to 40,000", what_it_does: "", examples: "World War I" },
   the_project_gutenberg_encyclopedia: "The eleventh edition of the Encyclopædia Britannica , renamed to address Britannica's trademark concerns",
 
+  // === INGESTED 2026-06-22 09:25 ===
+  the_wayback_machine: "A digital archive of the World Wide Web founded by the Internet Archive , an American nonprofit organization based in San Francisco , California",
+  one_of_the_earliest_known_pages: { definition: "Archived [ clarification needed ] on March 1, 1995", what_it_does: "", examples: "20260620091905" },
+  cdx_api: "For complex querying, filtering, and analysis of captured data",
+  telewizja_polska: "The provider of TVP Polonia and EchoStar operates the Dish Network",
+  these_dates: "Used to determine if a Web page is available as prior art for instance in examining a patent application",
+  the_attorneys: { definition: "Able to demonstrate that the claims made by the plaintiff were invalid, based on the content of their website from several years prior", what_it_does: "", examples: "materials in the Wayback Machine of persons who do not wish to have their Web content archived" },
+
 };
 
 // ============================================================
