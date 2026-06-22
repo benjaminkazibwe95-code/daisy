@@ -20269,6 +20269,15 @@ const FLAT_DICT = {
   healing_in_the_bible: { definition: "Often associated with the ministry of specific individuals including Elijah , Jesus and Paul", what_it_does: "", examples: "Catholics and Orthodox are on very similar positions" },
   critics_of_this_philosophy_argue_that_it: { definition: "Not possible to assign universal morality to social values", what_it_does: "", examples: "Philosophy, Medicine, Law, Social Sciences" },
 
+  // === INGESTED 2026-06-22 14:46 ===
+  doctors_who_specialize_in_this_area: "Called otorhinolaryngologists, otolaryngologists, head and neck surgeons, or ENT surgeons or physicians",
+  otorhinolaryngologists: "Physicians ( MD , DO , MBBS , MBChB , etc.) who complete both medical school and an average of 5-7 years of post-graduate surgical training in ORL-H&N",
+  otolaryngology: { definition: "Among the more highly compensated surgical specialties in the United States", what_it_does: "", examples: "the facial nerve and lateral skull base) Rhinology includes nasal dysfunction and sinus diseases" },
+  microvascular_reconstruction_repairs: "Commonly performed on patients consulting an otorhinolaryngologist",
+  it_is_a_surgical_procedure_that: "Moving a composite piece of tissue from the patient's body to the head and/or neck",
+  when_pieces_of_tissue: "Moved, they require their own blood supply to survive in their new location",
+  after_the_surgery: "Completed, the blood vessels that feed the tissue transplant are reconnected to new blood vessels in the neck",
+
 };
 
 // ============================================================
