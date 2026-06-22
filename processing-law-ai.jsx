@@ -15008,6 +15008,29 @@ const FLAT_DICT = {
   meeting_sustainable_transport_targets: { definition: "Said to be particularly important to achieving the Paris Agreement", what_it_does: "", examples: "the wheel and the sled (U.K" },
   the_first_watercraft: "Canoes either cut out from tree trunks or made of animal hides",
 
+  // === INGESTED 2026-06-22 00:04 ===
+  the_notion_of_quantized_energy_levels: "Proposed in 1913 by Danish physicist Niels Bohr in the Bohr theory of the atom",
+  it_is_a_derived_unit_that: { definition: "Equal to the energy expended, or work done, in applying a force of one newton through a distance of one meter", what_it_does: "", examples: "consider a ball being hit by a bat" },
+  this_formalism: "As fundamental as the Hamiltonian, and both can be used to derive the equations of motion or be derived from them",
+  the_lagrangian: { definition: "Defined as the kinetic energy minus the potential energy", what_it_does: "", examples: "systems with friction)" },
+  energy_provided_through_cellular_respiration: { definition: "Stored in nutrients such as carbohydrates (including sugars), lipids , and proteins by cells", what_it_does: "", examples: "if our bodies run (on average) at 80 watts, then a light bulb running at 100 watts is running at 1" },
+  ninety_percent_of_the_oxygen_intake_by_humans: "Utilized by the mitochondria , especially for nutrient processing",
+  over_time_the_internal_heat: { definition: "Brought to the surface then radiated away into space, cooling the body", what_it_does: "", examples: "solar activity) are driven by various kinds of energy transformations" },
+  energy_in_such_transformations: "Either from gravitational collapse of matter (usually molecular hydrogen) into various classes of astronomical objects (stars, black holes , etc",
+  these_energy_states: "Called quanta of light or photons",
+  in_special_relativity_energy: { definition: "Also a scalar (although not a Lorentz scalar but a time component of the energy–momentum 4-vector )", what_it_does: "", examples: "kinetic or radiant energy) when a triggering mechanism is available" },
+  at_its_highest_points_the_kinetic_energy: "Zero and the gravitational potential energy is at its maximum",
+  at_its_lowest_point_the_kinetic_energy: { definition: "At its maximum and is equal to the decrease in potential energy", what_it_does: "", examples: "1 kg of rest mass equals 9 × 10 16 joules , equivalent to 21.5 megatonnes of TNT" },
+  a_reversible_process: "One in which this sort of dissipation does not happen",
+  when_heat: "Generated, radiation excites lower energy states of these atoms and their surrounding fields",
+  it_states_that_there: "A certain quantity, which we call energy, that does not change in manifold changes which nature undergoes",
+  this_is_because_energy_is_the_quantity_which: { definition: "Canonical conjugate to time", what_it_does: "", examples: "a compressed spring will be slightly more massive than before it was compressed" },
+  the_portion_of_the_energy_which: "Transferred by conservative forces over a distance is measured as the work the source system does on the receiving system",
+  at_two_points_in_the_oscillation_cycle_it: "Entirely kinetic, and at two points it is entirely potential",
+  when_an_isolated_system: "Given more degrees of freedom (i.e",
+  this_mathematical_result: "Part of the second law of thermodynamics",
+  the_second_law_of_thermodynamics: "Simple only for systems which are near or in a physical equilibrium state",
+
 };
 
 // ============================================================
