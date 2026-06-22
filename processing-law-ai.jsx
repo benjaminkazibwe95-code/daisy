@@ -22882,6 +22882,28 @@ const FLAT_DICT = {
   lake_tanganyika: "The second largest and second deepest freshwater lake in the world",
   the_western_branch: "Bordered by some of the highest mountains in Africa, including the Virunga Mountains , Mitumba Mountains , and Ruwenzori Range",
 
+  // === INGESTED 2026-06-22 22:16 ===
+  the_united_nations_headquarters: "Located in New York City , with several other offices located in Geneva , Nairobi , Vienna and The Hague",
+  roosevelt: "Considered a founder of the UN, [ 13 ] [ 14 ] and coined the term United Nations to describe the Allied countries",
+  one_major_change_from_the_atlantic_charter: { definition: "The addition of a provision for religious freedom , which Stalin approved after Roosevelt insisted", what_it_does: "", examples: "the Four Power Declaration on General Security" },
+  months_later_he: "Posthumously awarded the Nobel Peace Prize",
+  the_vote: "Widely seen as a sign of waning American influence in the organization",
+  the_resolution: "Repealed on 16 December 1991, shortly after the end of the Cold War",
+  the_un_mission_in_the_sierra_leone_civil_war: "Supplemented by a British military intervention",
+  the_millennium_summit: { definition: "Held in 2000 to discuss the UN's role in the 21st century", what_it_does: "", examples: "poverty reduction , gender equality and public health" },
+  the_ten_temporary_seats: "Held for two-year terms, with five members elected each year by the General Assembly on a regional basis",
+  the_position: "Defined in the UN Charter as the organization's chief administrative officer",
+  these_soldiers: "Sometimes nicknamed 'Blue Helmets' because they wear distinctive blue helmets",
+  regulation_of_armaments: { definition: "Included in the writing of the UN Charter in 1945 and was envisioned as a way of limiting the use of human and economic resources for their creation", what_it_does: "", examples: "the French lawyer René Cassin" },
+  the_un_high_commissioner_for_refugees: "Awarded the prize in 1954 and 1981, becoming one of only two recipients to win the prize twice",
+  the_un_as_a_whole: "Awarded the prize in 2001, sharing it with Annan",
+  its_member_states_lacked_either_the: { definition: "Or the collective will to reconstruct failing states like Somalia , or prevent an ethnic slaughter in places like Sri Lanka", what_it_does: "", examples: "the John Birch Society stating that the organization was an instrument for communism" },
+  wants: "An independent UN throwing its weight around,' Luck said",
+  the_task: "Given to me, and I carried it forward with not inconsiderable success",
+  sahnoun_warned_that_if_radical_reform: "Not undertaken, then the UN would continue to respond to such crises with inept improvisation",
+  liberal_scholars_counter_that_it: "An effective organization because it has proved capable of solving many problems by working around the restrictions imposed by powerful member states",
+  the_un: { definition: "Generally considered by scholars to be more effective in realms such as public health, and humanitarian assistance", what_it_does: "", examples: "billions of dollars of kickbacks" },
+
 };
 
 // ============================================================
