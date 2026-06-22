@@ -19372,6 +19372,9 @@ const FLAT_DICT = {
   another_reason: "To find a possible solution to Hermite's problem",
   notable_efforts_in_this_direction: "Made by Felix Klein (the Klein polyhedron ), Georges Poitou and George Szekeres",
 
+  // === INGESTED 2026-06-22 12:17 ===
+  he_also_showed_that_there: "Infinitely many numbers of the form n 2 + 1 {\displaystyle n^{2}+1} with at most two prime factors",
+
 };
 
 // ============================================================
