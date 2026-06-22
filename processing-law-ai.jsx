@@ -18784,6 +18784,11 @@ const FLAT_DICT = {
   logical_disjunction: "Usually short-circuited ; that is, if the first (left) operand evaluates to true , then the second (right) operand is not evaluated",
   this_operator: { definition: "Thus called the parallel or", what_it_does: "", examples: "Hungarian vagy" },
 
+  // === INGESTED 2026-06-22 10:14 ===
+  many_geometric_transformations: "Expressed with linear algebra",
+  the_bijective_linear_transformations: "Elements of a general linear group",
+  the_transpose_of_a_row_vector_v: "A column vector v T , and the transpose of the above equality is w T = ( v A ) T = A T v T",
+
 };
 
 // ============================================================
