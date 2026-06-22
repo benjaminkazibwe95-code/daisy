@@ -22310,6 +22310,13 @@ const FLAT_DICT = {
   the_position_on_the_cable: "Denoted by x and the voltage across the cell membrane by V",
   linear_cable_theory: "The dendritic arbor of a neuron as a cylindrical structure undergoing a regular pattern of bifurcation , like branches in a tree",
 
+  // === INGESTED 2026-06-22 20:28 ===
+  he_gives_an_example_in_which_a_dutch_merchant: "Trying to decide whether to insure a cargo being sent from Amsterdam to St",
+  intertemporal_choice: { definition: "Concerned with the kind of choice where different actions lead to outcomes that are realized at different stages over time", what_it_does: "", examples: "objective interest rates are replaced by subjective discount rates" },
+  the_analysis_of_such_social_decisions: "Often treated under decision theory, though it involves mathematical methods",
+  individuals_making_decisions: "Limited in resources (i.e",
+  decisions_are_also_affected_by_whether_options: { definition: "Framed together or separately; this is known as the distinction bias", what_it_does: "", examples: "if flips of a fair coin give repeated tails, the coin still has the same probability (i.e., 0" },
+
 };
 
 // ============================================================
