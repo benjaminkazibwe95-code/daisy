@@ -21262,6 +21262,22 @@ const FLAT_DICT = {
   all_of_these_peptides: "Synthesized by cells as longer ' propeptides ' or 'proproteins' and truncated prior to exiting the cell",
   peptides_of_specific_shorter_lengths: "Named using IUPAC numerical multiplier prefixes: The same words are also used to describe a group of residues in a larger polypeptide ( e.g",
 
+  // === INGESTED 2026-06-22 17:43 ===
+  an_antibiotic: { definition: "A type of antimicrobial substance active against bacteria", what_it_does: "", examples: "the ones which cause the common cold or influenza" },
+  drugs_which_inhibit_growth_of_fungi: { definition: "Called antifungal drugs", what_it_does: "", examples: "sulfonamides and antiseptics ) are fully synthetic" },
+  the_earliest_use_of_antibiotics: "Found in northern Sudan , where ancient Sudanese societies as early as 350–550 CE were systematically consuming antibiotics as part of their diet",
+  researchers_believe_they: { definition: "Brewing beverages from grain fermented with Streptomyces , a bacterium that naturally produces tetracycline", what_it_does: "", examples: "gastric juices and hydrogen peroxide )" },
+  when_an_infection: "Suspected of being responsible for an illness but the responsible pathogen has not been identified, an empiric therapy is adopted",
+  topical_use: { definition: "Also one of the treatment options for some skin conditions including acne and cellulitis", what_it_does: "", examples: "photodermatitis and anaphylaxis" },
+  horizontal_transfer: { definition: "More likely to happen in locations of frequent antibiotic use", what_it_does: "", examples: "in the absence of antibacterial compounds" },
+  the_beer_brewed_at_that_time: "Conjectured to have been the source",
+  the_chemical_structure_of_penicillin: { definition: "First proposed by Abraham in 1942 [ 156 ] and then later confirmed by Dorothy Crowfoot Hodgkin in 1945", what_it_does: "", examples: "pus, unlike the synthetic sulfonamides" },
+  research_results_obtained_during_that_period: { definition: "Not shared between the Axis and the Allied powers during World War II and limited access during the Cold War", what_it_does: "", examples: "combinations), are in phase 1–3 clinical trials as of May 2017" },
+  virulence_factors: "Molecules, cellular structures and regulatory systems that enable bacteria to evade the body's immune defenses (e.g",
+  phage_therapy: "Infecting bacterial pathogens with viruses",
+  bacteriophages_and_their_host_ranges: "Extremely specific for certain bacteria, thus, unlike antibiotics, they do not disturb the host organism's intestinal microbiota",
+  cure_rates: { definition: "Around 90%, and work is underway to develop stool banks , standardized products, and methods of oral delivery", what_it_does: "", examples: "antisense RNA has been developed that silences the S" },
+
 };
 
 // ============================================================
