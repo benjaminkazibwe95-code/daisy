@@ -18612,6 +18612,13 @@ const FLAT_DICT = {
   two_nuclei_can_only_fuse_into_one_if_they: "Close enough to each other; normally, nuclei (all positively charged) repel each other due to electrostatic repulsion",
   even_if_they: { definition: "Confirmed to have caused the radiation damage long ago, they might now have decayed to mere traces, or even be completely gone", what_it_does: "", examples: "unbihexium may be formed" },
 
+  // === INGESTED 2026-06-22 09:41 ===
+  the_reactive_oxygen_ion_superoxide: "Particularly important as the product of the one-electron reduction of dioxygen O 2 , which occurs widely in nature",
+  both_dioxygen_and_the_superoxide_anion: "Free radicals that exhibit paramagnetism",
+  superoxide: { definition: "Implicated in a number of biological processes, some with negative connotations, and some with beneficial effects", what_it_does: "", examples: "hemoglobin ) have weak SOD-like activity" },
+  hydrogen_peroxide: { definition: "Then assayed by a fluorimetric method", what_it_does: "", examples: "high pH (which slows the spontaneous dismutation) with the enzyme xanthine oxidase" },
+  superoxide_spintrapping: "Initially carried out with DMPO , but phosphorus derivatives with improved half-lives, such as DEPPMPO and DIPPMPO , have become more widely used",
+
 };
 
 // ============================================================
