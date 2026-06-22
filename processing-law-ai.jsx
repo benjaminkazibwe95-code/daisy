@@ -21310,6 +21310,36 @@ const FLAT_DICT = {
   if_the_test_indicated_aptitudes_they: "Known to possess then it could be assumed that the test was valid and an accurate gauge",
   his_committee_devised: "Of keeping wartime industries adequately staffed, and made possible successful selection of men for unusual tasks peculiar to a wartime army",
 
+  // === INGESTED 2026-06-22 17:54 ===
+  psychoanalysis: { definition: "A talk therapy method for treating mental disorders", what_it_does: "", examples: "findings of his mentor Josef Breuer" },
+  sexual_needs_belong_to_the_unconscious_and: "Forced to remain there if the contents of the conscious mind ward them off",
+  such_wishes_and_conflicts: "Therefore repressed into the unconscious, where they may persist in disguised form",
+  the_wish_for_a_penis: { definition: "Then said to be displaced, in later development, into the wish for a child", what_it_does: "", examples: "cognition and speech" },
+  attachment_theory: { definition: "Developed theoretically by John Bowlby and formalized empirically by Mary Ainsworth", what_it_does: "", examples: "archetypal literary criticism" },
+  the_id: "Present at birth as the repository of basic instincts, which Freud called ' Triebe ' ('drives')",
+  the_superego: "Held to be the part of the ego in which self-observation, self-criticism and other reflective and judgmental faculties develop",
+  the_ego_and_the_superego: "Both partly conscious and partly unconscious",
+  the_aim_of_this_new_field: "To bridge the gap between psychoanalytic concepts and neuroscientific findings",
+  neuroimaging: "One of the methods used to empirically validate psychoanalytic concepts",
+  freud_noted_that_inhibition: "One method that the mind may utilize to interfere with any of these functions in order to avoid painful emotions",
+  defenses: "Synthetic functions that protect the conscious mind from awareness of forbidden impulses and thoughts",
+  lacanian_psychoanalysis: "A departure from the traditional British and American psychoanalysis",
+  there_still: "No complete agreement, although nowadays professionals recognize the negative effects of child sexual abuse on mental health",
+  the_analyst_decides_whether_the_patient: "Suitable for psychoanalysis",
+  someone_who: { definition: "Not suitable for analysis expresses no desire to know more about the root causes of their illness", what_it_does: "", examples: "phobias, anxiety, depression, and compulsions" },
+  the_analyst: "Interested in how the patient reacts to and avoids such fantasies",
+  psychoanalytic_group_therapy: "Pioneered by Trigant Burrow , Joseph Pratt, Paul F",
+  childcentered_counseling_for_parents: "Instituted early in analytic history by Freud, and was later further developed by Irwin Marcus , Edith Schulhofer, and Gilbert Kliman",
+  this_meant_that_the_analytic_situation: { definition: "Modified so that it would be more suitable and more likely to be helpful for these patients", what_it_does: "", examples: "play therapy , art therapy , and storytelling" },
+  the_use_of_certain_defense_mechanisms: { definition: "Related to cultural values", what_it_does: "", examples: "when he used free association, where clients would say whatever came to mind without self-censorship" },
+  analysands: { definition: "Asked to talk about their lives, including their early life, current life, and hopes and aspirations for the future", what_it_does: "", examples: "parents, their boss, their significant other, etc" },
+  their_mission: "To ensure the continued vigor and development of psychoanalysis for the benefit of psychoanalytic patients",
+  a_study_group: "The first level of integration of a psychoanalytical body within the IPA, followed by a provisional society and finally a member society",
+  this_organization: "Affiliated with the IPA",
+  the_institute_of_psychoanalysis: "The foremost publisher of psychoanalytic literature",
+  the_international_journal_of_psychoanalysis: { definition: "Published by the Institute of Psychoanalysis", what_it_does: "", examples: "Wolpe ) into the 1940s and '50s, and have persisted (e.g., Miller )" },
+  he_concluded_that_there: { definition: "Little evidence to support the existence of the Oedipus complex", what_it_does: "", examples: "implicit attitude measures, fMRI , PET scans , and other indirect tests)" },
+
 };
 
 // ============================================================
