@@ -23333,6 +23333,26 @@ const FLAT_DICT = {
   a_wage_labourer_is_a_person_whose_primary: { definition: "Of income is from the selling of their labour in this way", what_it_does: "", examples: "those of the OECD countries, it is the most common form of work arrangement" },
   the_most_common_form_of_wage_labour_currently: "Ordinary direct, or 'full-time'",
 
+  // === INGESTED 2026-06-22 23:48 ===
+  kilwa_kisiwani: "A former Swahili City State site located along the Swahili Coast on the Kilwa Archipelago",
+  the_island: "Served by small boats to and from Kilwa Masoko",
+  on_the_western_part_of_the_island: "The Mavuji River estuary",
+  the_main_economic_activities_on_the_island: "Cultural tourism , fishing and subsistence agriculture",
+  much_of_the_trade_network: { definition: "With the Arabian Peninsula", what_it_does: "", examples: "luxury clothes are not preserved in the archaeological record" },
+  the_topsoil_that_covers_the_limestone_at_kilwa: "Of poor quality, and so food sources on land came from the areas of higher ground",
+  ceramic_artifacts: "Plentiful at the site and can be divided into two groups: regional and coastal",
+  all_of_the_ceramics_with_regional_distribution: "Locally produced, but the area of distribution is limited",
+  these_unglazed_ceramics: "Referred to as Kitchen Wares, though their uses were not necessarily just as cooking vessels",
+  other_ceramic_types_that: "Seemingly restricted to town were the imported ceramic vessels from the Arabian peninsula and China",
+  imported_ceramic_materials: "Not found in rural areas",
+  the_loadbearing_walls: "Built with square coral limestone blocks, and three symmetrical entrances with vaulted ceilings provided access",
+  some_parts_of_the_causeway: "Made from the bedrock, but usually the bedrock was used as a base",
+  coral_stone: { definition: "Used to build up the causeways with sand and lime being used to cement the cobbles together", what_it_does: "", examples: "over one hundred individual rooms; and a wide stairway leading down to a mosque on the beach" },
+  the_coral_rag: "Set in limestone mortar and cut stone was used for decorative pieces, door jams, and vaults",
+  the_roof: "Made from cut limestone blocks laid across cut timbers and the floors were white plaster",
+  though_he: "Credited with the founding, he had arrived at an already inhabited area",
+  tradition_also_relates_that_it: "The child of this union who founded the Kilwa Sultanate",
+
 };
 
 // ============================================================
