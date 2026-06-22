@@ -21247,6 +21247,10 @@ const FLAT_DICT = {
   the_cyanobacterial_origin_of_plastids: { definition: "Now supported by various pieces of phylogenetic , [ 204 ] [ 196 ] [ 199 ] genomic , [ 205 ] biochemical [ 206 ] [ 207 ] and structural evidence", what_it_does: "", examples: "photosynthetic reaction centers" },
   the_corr_hypothesis_proposes_this_colocation: { definition: "Required for redox regulation", what_it_does: "", examples: "habitat preference) may have contributed to changes in biogeochemical cycles through Earth history" },
 
+  // === INGESTED 2026-06-22 17:37 ===
+  due_to_this_there: { definition: "Large stockpiles of waste unable to be recycled safely", what_it_does: "", examples: "Beijing have received the worst air quality rankings (Li et al ., 2017)" },
+  energy_star: { definition: "A program with a primary goal of increasing energy efficiency and indirectly decreasing greenhouse gas emissions", what_it_does: "", examples: "the United States, [ 35 ] the European Union [ 36 ] and Australia" },
+
 };
 
 // ============================================================
