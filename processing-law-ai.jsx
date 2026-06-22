@@ -19340,6 +19340,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 12:04 ===
   an_introduction_to_the_theory_of_numbers: "A classic textbook in the field of number theory , by G",
 
+  // === INGESTED 2026-06-22 12:08 ===
+  the_octave_relationship: "A natural phenomenon that has been referred to as the 'basic miracle of music', the use of which is 'common in most musical systems'",
+  to_emphasize_that_it: "One of the perfect intervals (including unison , perfect fourth , and perfect fifth ), the octave is designated P8",
+  other_interval_qualities: "Also possible, though rare",
+  an_octave: { definition: "The interval between one musical pitch and another with double or half its frequency", what_it_does: "", examples: "2, 4, 8, 16, etc" },
+  octaves: "Identified with various naming systems",
+  among_the_most_common: "The scientific , Helmholtz , organ pipe, and MIDI note systems",
+  the_interval: "So natural to humans that when men and women are asked to sing in unison, they typically sing in octave",
+  octave_equivalence: "A part of most musical cultures, but is far from universal in 'primitive' and early music",
+
 };
 
 // ============================================================
