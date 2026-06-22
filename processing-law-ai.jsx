@@ -21356,6 +21356,14 @@ const FLAT_DICT = {
   it_is_the: "By which a therapist and a client hope to engage with each other and effect beneficial change in the client",
   goals: { definition: "What the client hopes to gain from therapy, based on their presenting concerns", what_it_does: "", examples: "you meet a new client who reminds you of a former lover" },
 
+  // === INGESTED 2026-06-22 18:02 ===
+  bowlby: "Raised primarily by nursemaid Minnie who acted as a mother figure to him and his siblings",
+  melanie_klein: "His supervisor; however, they had different views about the role of the mother in the treatment of a three-year-old boy",
+  the_start_of_their_marriage: "Said to be difficult due to conflict with Anthony's sister and physical separation between Mary and Anthony",
+  bowlby_was_fortunate_in_that_the_family_nanny: { definition: "Present throughout his childhood", what_it_does: "", examples: "Sir Richard Bowlby, who succeeded his uncle as third Baronet" },
+  and_when_i: "There, I learned everything that I have known; it was the most valuable six months of my life, really",
+  he_focused_on_how_attachment_difficulties: { definition: "Transmitted from one generation to the next", what_it_does: "", examples: "Tinbergen, Hinde, and Harry Harlow" },
+
 };
 
 // ============================================================
