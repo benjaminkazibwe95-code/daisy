@@ -21067,6 +21067,13 @@ const FLAT_DICT = {
   billions_of_viruses: "Produced every day during the course of an infection, with each replication giving another chance for mutations that encode for resistance to occur",
   the_new_potential_approach: { definition: "The combination of DAA and HTA which create a genetic barrier against mutations", what_it_does: "", examples: "pandemic influenza" },
 
+  // === INGESTED 2026-06-22 17:06 ===
+  a_cell_is_the_basic_unit_of_life_that: "Responsible for the living and functioning of an organism",
+  the_study_of_cells: "Performed using microscopy techniques, cell culture , and cell fractionation",
+  research_in_cell_biology: "Interconnected to other fields such as genetics , molecular genetics , molecular biology , medical microbiology , immunology , and cytochemistry",
+  the_techniques_by_which_cells: "Studied have evolved",
+  cytopathology: "Generally used on samples of free cells or tissue fragments, in contrast to the pathology branch of histopathology , which studies whole tissues",
+
 };
 
 // ============================================================
