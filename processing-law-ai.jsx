@@ -22724,6 +22724,10 @@ const FLAT_DICT = {
   transient_vesicle_fusion: "Driven by SNARE proteins, resulting in release of vesicle contents into the extracellular space (or in case of neurons in the synaptic cleft)",
   most_synaptic_vesicles: "Recycled without a full fusion into the membrane ( kiss-and-run fusion ) via porosome",
 
+  // === INGESTED 2026-06-22 21:47 ===
+  problemfocused_coping: "Directed at managing the problem, whereas emotion-focused coping processes are directed at managing the negative emotions",
+  secondary_appraisal: "The evaluation of the resources available to cope with the problem, and may alter the primary appraisal",
+
 };
 
 // ============================================================
