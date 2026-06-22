@@ -18880,6 +18880,12 @@ const FLAT_DICT = {
   the_special_orthogonal_group: "The normal subgroup of the orthogonal group that preserves handedness",
   its_elements: "Called rigid motions or displacements",
 
+  // === INGESTED 2026-06-22 10:29 ===
+  a_decimal_separator: { definition: "A symbol that separates the integer part from the fractional part of a number written in decimal form", what_it_does: "", examples: "in International Civil Aviation Organization -regulated air traffic control communications)" },
+  it_is_important_to_know_which_notation: "Being used when working in different software programs",
+  fractional_numbers: { definition: "Rarely displayed in other number bases , but, when they are, a radix character may be used for the same purpose", what_it_does: "", examples: "the United States's National Institute of Standards and Technology" },
+  this_symbol: "From ISO/IEC 9995 and is intended for use on a keyboard to indicate a key that performs decimal separation",
+
 };
 
 // ============================================================
