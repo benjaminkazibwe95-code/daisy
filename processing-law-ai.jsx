@@ -18555,6 +18555,15 @@ const FLAT_DICT = {
   functions_of_this_form: "Sometimes called Bloch-periodic in this context",
   a_possible_way_out: "To define a periodic function on a bounded but periodic domain",
 
+  // === INGESTED 2026-06-22 09:31 ===
+  a_natural_nuclear_fission_reactor: "A uranium deposit where self-sustaining nuclear chain reactions occur",
+  oklo: { definition: "The only location where this phenomenon is known to have occurred, consisting of sixteen sites with patches of centimeter-sized ore layers", what_it_does: "", examples: "neodymium and ruthenium also showed anomalies, as described in more detail below" },
+  a_possible_explanation: "That the uranium ore had operated as a natural fission reactor in the distant geological past",
+  on_the_timescale_of_when_the_reactors: "In operation, very little (about 0.17 ppb ) decay to 100 Ru will have occurred",
+  a_key_factor_that_made_the_reaction_possible: "That, at the time the reactor went critical 1.7 billion years ago, the fissile isotope 235 U made up about 3",
+  a_natural_nuclear_reactor: "Therefore no longer possible on Earth without heavy water or graphite",
+  uranium: { definition: "Soluble in water only in the presence of oxygen", what_it_does: "", examples: "neutrinos" },
+
 };
 
 // ============================================================
