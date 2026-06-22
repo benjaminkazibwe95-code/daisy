@@ -18491,6 +18491,17 @@ const FLAT_DICT = {
   the_upper_temperature_limit: { definition: "Due to the susceptibility of copper to thermal sintering", what_it_does: "", examples: "platinum, supported on ceria, have also been used for LTS" },
   the_redox_mechanism: { definition: "Generally regarded as kinetically relevant during the high-temperature WGSR (> 350 °C) over the industrial iron-chromia catalyst", what_it_does: "", examples: "sustainable aviation fuel via RWGS in tandem with the Fischer Tropsch reaction" },
 
+  // === INGESTED 2026-06-22 09:23 ===
+  some_of_its_articles: { definition: "Written by the best-known scholars of the time", what_it_does: "", examples: "that on China, and a key is given in each volume to these initials" },
+  some_articles: "Written by the best-known scholars of the time, such as Edmund Gosse , J",
+  among_the_then_lesserknown_contributors: "Some who would later become distinguished, such as Ernest Rutherford and Bertrand Russell",
+  many_articles: "Carried over from the 9th edition , some with minimal updating",
+  some_of_the_booklength_articles: "Divided into smaller parts for easier reference, yet others were much abridged",
+  most_of_the_work: "Done by journalists, British Museum scholars and other scholars",
+  the_print_type: "Kept in galley proofs and subject to continual updating until publication",
+  even_though_the_overall_length_of_the_work: { definition: "About the same as that of its predecessor, the number of articles had increased from 17,000 to 40,000", what_it_does: "", examples: "World War I" },
+  the_project_gutenberg_encyclopedia: "The eleventh edition of the Encyclopædia Britannica , renamed to address Britannica's trademark concerns",
+
 };
 
 // ============================================================
