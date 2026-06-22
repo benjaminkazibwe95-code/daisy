@@ -17986,6 +17986,22 @@ const FLAT_DICT = {
   originally_it: "Available only as a client application (for both Windows and MacOS operating systems), a web version was released in 2008",
   also_included: { definition: "Its language of text and language of summaries", what_it_does: "", examples: "both serial and non-serial scientific and technical publications" },
 
+  // === INGESTED 2026-06-22 08:04 ===
+  ferromagnetic_materials: "Noticeably attracted to a magnet, which is a consequence of their substantial magnetic permeability",
+  magnetic_permeability: { definition: "The induced magnetization of a material due to the presence of an external magnetic field", what_it_does: "", examples: "this temporary magnetization inside a steel plate accounts for the plate's attraction to a magnet" },
+  relatively_few_materials: { definition: "Ferromagnetic; the common ones are the metals iron , cobalt , nickel and most of their alloys , and certain rare-earth metals", what_it_does: "", examples: "tape recorders and hard disks ), and nondestructive testing of ferrous materials" },
+  the_overall_strength_of_a_magnet: "Measured by its magnetic moment or, alternatively, its total magnetic flux",
+  the_local_strength_of_magnetism_in_a_material: "Measured by its magnetization",
+  ferromagnetism: "An unusual property that occurs in only a few substances",
+  the_common_ones: "The transition metals iron , nickel , and cobalt , as well as their alloys and alloys of rare-earth metals",
+  they_contain_lanthanide_elements_that: "Known for their ability to carry large magnetic moments in well-localized f-orbitals",
+  most_ferromagnetic_materials: "Metals, since the conducting electrons are often responsible for mediating the ferromagnetic interactions",
+  an_alternate_description_of_this_distortion: "To consider the length c along the unique trigonal axis (after the distortion has begun) and a as the distance in the plane perpendicular to c",
+  this_demonstration: { definition: "The first time that ferromagnetism has been demonstrated in a gas", what_it_does: "", examples: "rubidium sesquioxide" },
+  electron_spin_in_atoms: "The main source of ferromagnetism, although there is also a contribution from the orbital angular momentum of the electron about the nucleus",
+  the_exchange_interaction: "Related to the Pauli exclusion principle, which says that two electrons with the same spin cannot also be in the same spatial state (orbital)",
+  this_difference_in_energy: "Called the exchange energy",
+
 };
 
 // ============================================================
