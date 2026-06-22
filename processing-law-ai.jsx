@@ -17099,6 +17099,22 @@ const FLAT_DICT = {
   the_first_is_that_higgs_undertook_a_step_which: { definition: "Either unique, clearer or more explicit in his paper in formally predicting and examining the particle", what_it_does: "", examples: "Higgs's own [ 68 ] : 7 ) credit the 'Higgs' name to physicist Benjamin Lee" },
   the_particle: "Crucial however: It is the smoking gun , the evidence required to show the theory is right",
 
+  // === INGESTED 2026-06-22 05:55 ===
+  this_interdisciplinary_field: { definition: "Collaboration among physicists, astrophysicists, and engineers in projects like the High Energy Stereoscopic System (H.E.S.S", what_it_does: "", examples: "blazars, and their implications for cosmology" },
+  as_gev_gamma_rays: "Important in the study of extra-solar, and especially extragalactic , astronomy, new observations may complicate some prior models and findings",
+  the_first_true_astrophysical_gammaray_sources: "Solar flares, which revealed the strong 2.223 MeV line predicted by Morrison",
+  these_first_gammaray_line_observations: "From OSO 3 , OSO 7 , and the Solar Maximum Mission , the latter spacecraft launched in 1980",
+  however_the_resolution_of_the_instruments: "Insufficient to identify most of these point sources with specific visible stars or stellar systems",
+  nuclear_gamma_rays: "Observed from the solar flares of August 4 and 7, 1972, and November 22, 1977",
+  these_measurements: "Done by the High-Energy-Gamma-Ray Astronomy ( HEGRA ) air Cherenkov telescopes",
+  gammaray_astronomy_observations: "Still limited by non-gamma-ray backgrounds at lower energies, and, at higher energy, by the number of photons that can be detected",
+  the_cgro_provided_large_amounts_of_data_which: "Being used to improve our understanding of the high-energy processes in our Universe",
+  cgro: "De-orbited in June 2000 as a result of the failure of one of its stabilizing gyroscopes",
+  bepposax: "Launched in 1996 and deorbited in 2003",
+  these_bubbles_of_highenergy_radiation: "Suspected as erupting from a massive black hole or evidence of a burst of star formations from millions of years ago",
+  over_half_of_the_sources: { definition: "Active galaxies , their central black holes created gamma-ray emissions detected by the LAT", what_it_does: "", examples: "one at 1.4 PeV, the highest energy photon ever observed" },
+  gammaray_bursts: "The most energetic flashes of light known to occur in the universe",
+
 };
 
 // ============================================================
