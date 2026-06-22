@@ -20414,6 +20414,37 @@ const FLAT_DICT = {
   most_of_those_offices: "Still in service under Wolters Kluwer",
   lippincott_company: "Sold to Harper & Row , after which it shifted its publishing focus exclusively to health care",
 
+  // === INGESTED 2026-06-22 15:13 ===
+  graphite: "Combined with clays to form the 'lead' used in pencils used for writing and drawing",
+  all_carbon_allotropes: "Solids under normal conditions, with graphite being the most thermodynamically stable form at standard temperature and pressure",
+  the_largest_sources_of_inorganic_carbon: "Limestones , dolomites and carbon dioxide , but significant quantities occur in organic deposits of coal , peat , oil , and methane clathrates",
+  the_electronegativity_of_carbon: { definition: "2.5, significantly higher than the heavier group-14 elements (1.8–1", what_it_does: "", examples: "charcoal, lampblack (soot), and activated carbon" },
+  the_sheets: "Thus warped into spheres, ellipses, or cylinders",
+  the_names_fullerene_and_buckyball: "Given after Richard Buckminster Fuller , popularizer of geodesic domes , which resemble the structure of fullerenes",
+  carbon_in_this_modification: "Linear with sp orbital hybridization , and is a polymer with alternating single and triple bonds",
+  this_carbyne: "Of considerable interest to nanotechnology as its Young's modulus is 40 times that of the hardest known material – diamond",
+  qcarbon: "Reported to exhibit ferromagnetism, fluorescence , and a hardness superior to diamonds",
+  most_diamond_deposits: "In Africa, notably in South Africa, Namibia, Botswana, the Republic of the Congo, and Angola",
+  organic_compounds_containing_bonds_to_metal: { definition: "Known as organometallic compounds ( see below )", what_it_does: "", examples: "heteroatoms, recur in large numbers of organic compounds" },
+  the_most_prominent_oxide: "Carbon dioxide (CO 2 )",
+  some_important_minerals: "Carbonates, notably calcite",
+  the_molecules_each_contain_a_triple_bond_and: { definition: "Fairly polar , resulting in a tendency to bind permanently to hemoglobin molecules, displacing oxygen, which has a lower binding affinity", what_it_does: "", examples: "it can form the nitride cyanogen molecule ((CN) 2 ), similar to diatomic halides" },
+  these_anions: "Also associated with methane and acetylene , both very weak acids",
+  a_few_carbides: { definition: "Covalent lattices, like carborundum (SiC), which resembles diamond", what_it_does: "", examples: "ferrocene ); and transition metal carbene complexes" },
+  carboranes: "Highly stable dodecahedral derivatives of the [B 12 H 12 ] 2- unit, with one BH replaced with a CH +",
+  vandermonde_confirmed_that_graphite: { definition: "Mostly carbon by oxidizing it in oxygen in much the same way Lavoisier had done with diamond", what_it_does: "", examples: "buckyballs and nanotubes" },
+  amorphous_graphite: "The lowest quality and most abundant",
+  amorphous: "Used for lower value graphite products and is the lowest priced graphite",
+  large_amorphous_graphite_deposits: "Found in China, Europe, Mexico and the United States",
+  flake_graphite: { definition: "Less common and of higher quality than amorphous; it occurs as separate plates that crystallized in metamorphic rock", what_it_does: "", examples: "flame retardants" },
+  the_foremost_deposits: "Found in Austria, Brazil, Canada, China, Germany and Madagascar",
+  vein_or_lump_graphite: "The rarest, most valuable, and highest quality type of natural graphite",
+  no_natural_graphite: "Reported mined in the United States, but 118,000 t of synthetic graphite with an estimated value of $998 million was produced in 2009",
+  crude_oil: "Distilled in refineries by the petrochemical industry to produce gasoline, kerosene, and other products",
+  carbon_black: "Also used as a filler in rubber products such as tyres and in plastic compounds",
+  case_hardening_of_steel: { definition: "Achieved by heating finished steel components in carbon powder", what_it_does: "", examples: "gold or platinum, gem diamonds do not trade as a commodity" },
+  microparticles_of_carbon: { definition: "Produced in diesel engine exhaust fumes, and may accumulate in the lungs", what_it_does: "", examples: "organic chemicals, heavy metals) rather than from the carbon itself" },
+
 };
 
 // ============================================================
