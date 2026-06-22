@@ -15343,6 +15343,30 @@ const FLAT_DICT = {
   the_neocortex_ratio_of_a_species: "The ratio of the size of the neocortex to the rest of the brain",
   a_high_neocortex_ratio: "Thought to correlate with a number of social variables such as group size and the complexity of social mating behaviors",
 
+  // === INGESTED 2026-06-22 01:01 ===
+  an_example_of_a_standardized_language: { definition: "The French language which is supported by the Académie Française institution", what_it_does: "", examples: "social class , a sociolect , or ethnicity , a ethnolect" },
+  this_creole: "Spoken in the Caribbean coast of Costa Rica (Central America) by descendants of Jamaican people",
+  dutch_and_german: "Siblings in the West-Germanic language group",
+  some_language_siblings: "Closer to each other in terms of linguistic distance than to other linguistic siblings",
+  if_the_threshold_level: "High, usually between 70% and 85%, the cluster is designated as a language",
+  thus_these_varieties: "Said to be dependent on, or heteronomous with respect to, Standard German , which is said to be autonomous",
+  an_opposite_example: "Chinese , whose variations such as Mandarin and Cantonese are often called dialects and not languages in China, despite their mutual unintelligibility",
+  perhaps_the_most_common: "' variety '; [ 40 ] ' lect ' is another",
+  a_more_general_term: "' languoid ', which does not distinguish between dialects, languages, and groups of languages, whether genealogically related or not",
+  a_supradialect: "A dialectological category between the levels of language and dialect",
+  subdialects: "Basic subdivisions of a dialect",
+  subdialects_of_one_dialect: "Generally quite close to each other, differing mainly in pronunciation and certain local words",
+  zone_ii: "Categorized as the areas to which Arabic speaking peoples moved as a result of the conquests of Islam",
+  included_in_zone_ii: { definition: "The Levant , Egypt , North Africa , Iraq , and some parts of Iran", what_it_does: "", examples: "the Syrian dialect) are well documented, and widely spoken and studied" },
+  zone_iii_comprises_the_areas_in_which_arabic: "Spoken outside of the continuous Arabic Language area",
+  some_of_them: "Not mutually intelligible",
+  the_situation_in_switzerland_and_liechtenstein: "Different from the rest of the German-speaking countries",
+  this_reflects_the_modern_situation_where_they: "Roofed by standard German",
+  all_lebanese_laws: "Written in the standard literary form of Arabic, though parliamentary debate may be conducted in Lebanese Arabic",
+  that_concepted: "Enrooted soon after the partitions of Poland",
+  other_chinese_languages_and_dialects: "Referred to as fangyan (regional speech)",
+  a_number_of_dialects_and_languages: "Classified as Hindi dialects , which is a social rather than linguistic concept",
+
 };
 
 // ============================================================
