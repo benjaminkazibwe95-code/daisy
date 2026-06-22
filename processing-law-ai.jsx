@@ -15557,6 +15557,22 @@ const FLAT_DICT = {
   selection: "Based on GPA in all major courses and election by department faculty",
   this_lecture_series: "Made possible by a generous grant from Schlumberger to honor the memory of Dijkstra",
 
+  // === INGESTED 2026-06-22 01:45 ===
+  computer_programming_or_coding: { definition: "The composition of sequences of instructions, called programs , that computers can follow to perform tasks", what_it_does: "", examples: "programs' machine code" },
+  sometimes_software_development: { definition: "Known as software engineering , especially when it employs formal methods or follows an engineering design process", what_it_does: "", examples: "ADD X, TOTAL), using abbreviations for operation codes and meaningful names for memory addresses" },
+  programs: "Mostly entered using punched cards or paper tape",
+  text_editors: "Also developed that allowed changes and corrections to be made much more easily than with punched cards",
+  the_following_properties: { definition: "Among the most important: [ 18 ] [ 19 ] Using automated tests and fitness functions can help to maintain some of the aforementioned attributes", what_it_does: "", examples: "portability, usability and most importantly maintainability" },
+  a_similar_technique_used_for_database_design: "Entity-Relationship Modeling ( ER Modeling )",
+  it_is_very_difficult_to_determine_what: "The most popular modern programming languages",
+  normally_the_first_step_in_debugging: { definition: "To attempt to reproduce the problem", what_it_does: "", examples: "as with parallel processes or some unusual software bugs" },
+  after_the_bug: "Reproduced, the input of the program may need to be simplified to make it easier to debug",
+  scripting_and_breakpointing: "Also part of this process",
+  standalone_debuggers_like_gdb: { definition: "Also used, and these often provide less of a visual environment, usually using a command line", what_it_does: "", examples: "Emacs allow GDB to be invoked through them, to provide a visual environment" },
+  the_choice_of_language_used: "Subject to many considerations, such as company policy, suitability to task, availability of third-party packages, or individual preference",
+  an_early_example: "IBM's Programmers' Reference Manual: the FORTRAN Automatic Coding System for the IBM 704 EDPM (1956)",
+  computer_programmers: "Those who write computer software",
+
 };
 
 // ============================================================
