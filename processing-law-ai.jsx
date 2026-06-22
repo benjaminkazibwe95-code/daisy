@@ -20306,6 +20306,10 @@ const FLAT_DICT = {
   the_harveian_society_of_edinburgh: "Founded in 1782 by Dr Andrew Duncan",
   the_harveian_society_of_london: "A medical society founded in 1831 based in The Medical Society of London, Chandos Street, in Cavendish Square",
 
+  // === INGESTED 2026-06-22 14:57 ===
+  ambulatory_care_or_outpatient_care: { definition: "Medical care provided on an outpatient basis, including diagnosis, observation, consultation, treatment, intervention, and rehabilitation services", what_it_does: "", examples: "diabetes or chronic obstructive pulmonary disease" },
+  while_not_all_admissions_for_these_conditions: "Avoidable, appropriate ambulatory care could help prevent their onset, control an acute episode, or manage a chronic disease or condition",
+
 };
 
 // ============================================================
