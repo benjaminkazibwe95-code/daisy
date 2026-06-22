@@ -15814,6 +15814,21 @@ const FLAT_DICT = {
   such_stub_implementations: { definition: "Replaced by real code later in the development process", what_it_does: "", examples: "BufferedReader , FileReader , InputStreamReader , PipedReader , and StringReader" },
   the_idea_behind_this_approach: { definition: "To base programming logic on the interfaces of the objects used, rather than on internal implementation details", what_it_does: "", examples: "graphics, sound, position, movement, etc" },
 
+  // === INGESTED 2026-06-22 02:28 ===
+  abstract_algebra_is_the_name_that: "Commonly given to the study of algebraic structures",
+  category_theory: "Another tool for studying algebraic structures (see, for example, Mac Lane 1998)",
+  addition_and_multiplication: "Prototypical examples of operations that combine two elements of a set to produce a third element of the same set",
+  the_examples_listed_below_are_by_no: "A complete list, but include the most common structures taught in undergraduate courses",
+  if_the_variables_in_the_identity: "Replaced by arbitrary elements of the algebraic structure, the equality must remain true",
+  here: "Some of the most common existential axioms",
+  such_a_typical_axiom: { definition: "Inversion in fields", what_it_does: "", examples: "operations called meet and join , connected by the absorption law" },
+  algebraic_structures: "Defined through different configurations of axioms",
+  one_major_dichotomy_is_between_structures_that: "Axiomatized entirely by identities and structures that are not",
+  if_all_axioms_defining_a_class_of_algebras: "Identities, then this class is a variety (not to be confused with algebraic varieties of algebraic geometry )",
+  identities: "Equations formulated using only the operations the structure allows, and variables that are tacitly universally quantified over the relevant universe",
+  the_study_of_varieties: { definition: "An important part of universal algebra", what_it_does: "", examples: "m ( i ( x ), m ( x , m ( y , e ))) would be an element of the term algebra" },
+  one_of_the_axioms_defining_a_group: { definition: "The identity m ( x , i ( x )) = e ; another is m ( x , e ) = x", what_it_does: "", examples: "fields and division rings" },
+
 };
 
 // ============================================================
