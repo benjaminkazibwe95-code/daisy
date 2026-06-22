@@ -19721,6 +19721,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 13:07 ===
   the_reason_for_the_changes: "Given by the society as the increasing financial demands of the University of Chicago Press",
 
+  // === INGESTED 2026-06-22 13:09 ===
+  most_cubewanos: { definition: "Found between the 2:3 orbital resonance with Neptune (populated by plutinos ) and the 1:2 resonance", what_it_does: "", examples: "has a near-circular orbit close to the ecliptic" },
+  when_orbital_inclinations: { definition: "Compared, 'hot' cubewanos can be easily distinguished by their higher inclinations, as the plutinos typically keep orbits <20°", what_it_does: "", examples: "486958 Arrokoth , and more heterogeneous hot population was observed as early as in 2002" },
+  binaries: { definition: "Less common on high-inclination orbits and their components typically differ in brightness", what_it_does: "", examples: "dwarf planet Makemake , are classified as ScatNear (possibly scattered by Neptune) by the DES" },
+  classical_objects: "Defined as not resonant and not being currently scattered by Neptune",
+
 };
 
 // ============================================================
