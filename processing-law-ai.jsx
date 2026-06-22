@@ -21398,6 +21398,32 @@ const FLAT_DICT = {
   some_adhere_to_a_diet_that: { definition: "Devoid of meat, eggs, and seafood", what_it_does: "", examples: "Bali and Nepal [ 481 ] [ 482 ] practise animal sacrifice" },
   the_first_period: { definition: "The pre-Vedic period, which includes the Indus Valley Civilization and local pre-historic religions, ending at about 1750 BCE", what_it_does: "", examples: "Unitarianism and Theosophy" },
 
+  // === INGESTED 2026-06-22 18:08 ===
+  gender_identity: { definition: "An individual's internal sense of their own gender, influenced by social contexts and personal experiences", what_it_does: "", examples: "race and class , affecting how individuals navigate societal expectations" },
+  the_accountability_for_gender_performance: "Omnirelevant, meaning it is constantly judged in social interactions",
+  social_constructionism: "A theory of knowledge which describes the relationship between the objectivity of reality and the capacity of human senses and cognition",
+  gender_is_used_as_a: { definition: "Of describing the distinction between the biological sex and socialized aspects of femininity and masculinity", what_it_does: "", examples: "'man' and 'woman' respectively" },
+  the_authors_found_that_the_majority_of_effects: "Very small to small, indicating far more similarities than differences between genders",
+  it_begins_in_early_childhood_and: { definition: "Shaped by a complex interaction of influences", what_it_does: "", examples: "farm work, while the traditional female chores were able to be maintained" },
+  heterosexuality: "Assumed for those individuals who appear to act appropriately masculine or appropriately feminine",
+  these_gender_roles: "Instilled in us from 'the moment we are born' and 'repeatedly reinforced through socialization'",
+  gender: "Created in different ways among uneducated and educated African Americans",
+  women_especially: "Constrained in the way they view their adulthood even at a young age because of motherhood",
+  adolescents_view_on_adulthood: "Also determined by their employment in high school",
+  body_image: { definition: "Closely linked to psychological well-being during adolescence and can cause harmful effects when a child has body dissatisfaction", what_it_does: "", examples: "gender socialization'" },
+  men: "Typically portrayed as assertive, powerful, and strong",
+  women_in_media: "Often given weak, dependent, and passive personalities",
+  media_presence_often_perpetuates_that_men: "Not allowed to be caring and that women are not allowed to be strong and demanding",
+  the_enactment_of_gender_roles: "Context dependent – roles are 'situated identities' instead of 'master identities'",
+  the_idea_that_men_and_women: { definition: "Essentially different is what makes men and women behave in ways that appear essentially different", what_it_does: "", examples: "one could identify a transgender person as female even though she was assigned male at birth)" },
+  social_constructionism_asserts_that_gender: "A category that people evaluate as omnirelevant to social life",
+  men_cited_the_idea_that_such_dirty_work: "Unsuitable for women and women were unable to train because of family duties",
+  to_say_that_gender_is_performative: "A little different, because for something to be performative means that it produces a series of effects",
+  the_performance: "What produces the individual",
+  children_learn_at_a_very_young_age_what_it: "To be a boy or girl in our society",
+  what_eckert_is_instead_stating_is_that_this: "A common misconception that a majority of the population unknowingly reinforces, which sees its emergence during infancy",
+  this_idea_that_gender: { definition: "Constantly shaped by expectations is relevant in the online community", what_it_does: "", examples: "gender performance" },
+
 };
 
 // ============================================================
