@@ -21966,6 +21966,18 @@ const FLAT_DICT = {
   the_prairie_vole: "An animal example for its monogamous social behaviour, since the male is usually socially faithful to the female, and shares in the raising of pups",
   the_woodland_vole: "Also usually monogamous",
 
+  // === INGESTED 2026-06-22 19:42 ===
+  phenotypic_plasticity: { definition: "Some of the changes in an organism 's behavior, morphology and physiology in response to a unique environment", what_it_does: "", examples: "acclimation ( acclimatization ), as well as learning" },
+  the_trait_becomes_fixed_within_the_genome_and: "No longer sensitive to the environment",
+  the_genetic_regulatory_network: { definition: "Responsible for creating this phenotypic plasticity and involves a variety of genes and proteins regulating leaf morphology", what_it_does: "", examples: "adapting from being underwater to above water)" },
+  the_development_of_the_fourth_dot: "Dependent on environmental conditions – more specifically, location and the time of year",
+  a_physical_change_of_the_male_fish: "Described as a 'courter' male",
+  these_courters_are_bigger_and: "Preferred by the females",
+  these_fish: "Significantly smaller than the courter males",
+  because_sneaker_males: { definition: "Smaller than courters, they reach sexual maturity faster to increase the probability of reproduction", what_it_does: "", examples: "changes in the lipid composition of cell membranes" },
+  when_a_clutch: { definition: "Attacked at six days of age, the entire clutch hatched at the same time, almost instantaneously", what_it_does: "", examples: "precipitation, are better predictors of phenotypic plasticity than latitude alone" },
+  temporal_plasticity: { definition: "Considered adaptive if the phenotypic response results in increased fitness", what_it_does: "", examples: "plants that depend on the environmental condition(s) each metamer was developed under" },
+
 };
 
 // ============================================================
