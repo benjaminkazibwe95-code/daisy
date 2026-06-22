@@ -19265,6 +19265,15 @@ const FLAT_DICT = {
   it_can_also_be_used_when_confounding_factors: { definition: "Either limited or known well enough to analyze the data in light of them (though this may be rare when social phenomena are under examination)", what_it_does: "", examples: "in biological or social systems) often involve variables that are difficult to quantify or control" },
   observational_studies: { definition: "Limited because they lack the statistical properties of randomized experiments", what_it_does: "", examples: "balancing benefit and harm, fairly distributing interventions (e.g" },
 
+  // === INGESTED 2026-06-22 11:45 ===
+  the_multivariate_normal_distribution: "A commonly encountered multivariate distribution",
+  statistical_inference: "The process of drawing conclusions from data that are subject to random variation, for example, observational errors or sampling variation",
+  inferential_statistics: "Used to test hypotheses and make estimations using sample data",
+  nonparametric_regression: "Techniques that allow the regression function to lie in a specified set of functions , which may be infinite-dimensional",
+  nonparametric_statistics: "Values calculated from data in a way that is not based on parameterized families of probability distributions",
+  the_typical_parameters: { definition: "The expectations, variance, etc", what_it_does: "", examples: "movie reviews receiving one to four stars)" },
+  one_drawback_of_nonparametric_methods: { definition: "That since they do not rely on assumptions, they are generally less powerful than their parametric counterparts", what_it_does: "", examples: "the Neyman–Pearson lemma and the Likelihood-ratio test" },
+
 };
 
 // ============================================================
