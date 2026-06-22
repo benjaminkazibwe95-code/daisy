@@ -17216,6 +17216,16 @@ const FLAT_DICT = {
   this_measure_of_energy_absorbed: "Called the absorbed dose : [ 185 ] The equivalent dose is the measure of the biological effect of radiation on human tissue",
   for_xrays_it: "Equal to the absorbed dose",
 
+  // === INGESTED 2026-06-22 06:06 ===
+  the_evolving_density: { definition: "Composed of different kinds of energy and matter, each with its own role in affecting the scale factor", what_it_does: "", examples: "a model might include baryons , photons , neutrinos , and dark matter" },
+  the_perturbations: "Characterized by additional parameters also determined by matching observations",
+  both_effects: { definition: "Attributed to a Doppler shift in electromagnetic radiation as it travels across expanding space", what_it_does: "", examples: "supernovae and baryon acoustic oscillations" },
+  note_that_this_value: "Much lower than the prediction of standard cosmic nucleosynthesis Ω b ≃ 0.0486 {\displaystyle \Omega _{\rm {b}}\simeq 0",
+  the_missing_baryon_problem: "Claimed to be resolved",
+  thus_dark_matter: "Added after the observations of anomalous galaxy rotation rates",
+  their_amplitude: "Parameterized by the tensor-to-scalar ratio (denoted r {\displaystyle r} ), which is determined by the unknown energy scale of inflation",
+  some_researchers_have_suggested_that_there: "A running spectral index, but no statistically significant study has revealed one",
+
 };
 
 // ============================================================
