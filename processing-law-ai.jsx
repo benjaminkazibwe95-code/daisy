@@ -15751,6 +15751,9 @@ const FLAT_DICT = {
   the_glossary_appended: "Also mainly compiled by Thomas",
   his: "The first edition of Chaucer in nearly a hundred and fifty years to consult any manuscripts",
 
+  // === INGESTED 2026-06-22 02:10 ===
+  the_book: "Written completely in verse and does not contain any kind of mathematical notation",
+
 };
 
 // ============================================================
