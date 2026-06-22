@@ -15285,6 +15285,10 @@ const FLAT_DICT = {
   a_confidence_analysis_made_this_way: { definition: "Statistically valid as long as the output probability distribution stays the same and the network is not modified", what_it_does: "", examples: "image classification, object and facial recognition, and image segmentation" },
   one_corrective: "To add synthetic data to offset the bias",
 
+  // === INGESTED 2026-06-22 00:51 ===
+  one_way_to_present_such_structure: "Via strings of symbols from a formal language",
+  a_second_way_to_represent_relations: { definition: "Graphs , where nodes are linked if corresponding subpatterns are related", what_it_does: "", examples: "syntactic pattern recognition can be used to determine what objects are present in an image" },
+
 };
 
 // ============================================================
