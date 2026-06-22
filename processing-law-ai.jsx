@@ -23185,6 +23185,12 @@ const FLAT_DICT = {
   the_central_basin: "Almost completely devoid of water and the rest of the lakes had mostly dried up due to low flow in the river",
   the_egyptian_government: "Developing the surrounding region, also known as the ' Toshka Project ' or ' New Valley Project ' [ 20 ]",
 
+  // === INGESTED 2026-06-22 23:19 ===
+  if_more_than_one_travel_agency: { definition: "Booking under the same accreditation number, the agency of record is called a host agency", what_it_does: "", examples: "online travel agents, may or may not be confirmed instantly" },
+  the_expedia_group: "The largest OTA globally",
+  booking_holdings: "The second largest OTA",
+  that_number: "Projected to increase by 3% over the next 10 years",
+
 };
 
 // ============================================================
