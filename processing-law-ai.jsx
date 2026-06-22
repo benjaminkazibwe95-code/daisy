@@ -19868,6 +19868,16 @@ const FLAT_DICT = {
   the_gravitational_field_on_mass_m_j: "The sum of all gravitational fields due to all other masses m i , except the mass m j itself",
   r_i: "The position vector of the gravitating particle i , and R is that of the test particle",
 
+  // === INGESTED 2026-06-22 13:34 ===
+  initially_this: { definition: "Thought to be a star, but the spectrum proved puzzling", what_it_does: "", examples: "the Andromeda Galaxy in 1984 and the Sombrero Galaxy in 1988" },
+  the_broadening: { definition: "Due to the gravitational redshift of the light as it escaped from just 3 to 10 Schwarzschild radii from the black hole", what_it_does: "", examples: "J0313–1806 , [ 42 ] and ULAS J1342+0928 , [ 43 ] are hard to explain so soon after the Big Bang" },
+  gas_accretion: "Both the most efficient and the most conspicuous way in which black holes grow",
+  observations_reveal_that_quasars: { definition: "Much more frequent when the Universe was younger, indicating that supermassive black holes formed and grew early", what_it_does: "", examples: "particularly mergers with other black holes, which can statistically decrease the spin" },
+  an_agn: "Now considered to be a galactic core hosting a massive black hole that is accreting matter and displays a sufficiently strong luminosity",
+  a_third_smbh: "Introduced in a second merger and sinks into the center of the galaxy",
+  this_emission: "Consistent with a circularized orbit of a polarized 'hot spot' on an accretion disk in a strong magnetic field",
+  the_radiating_matter: { definition: "Orbiting at 30% of the speed of light just outside the innermost stable circular orbit", what_it_does: "", examples: "the galaxy 4C +37" },
+
 };
 
 // ============================================================
