@@ -19706,6 +19706,9 @@ const FLAT_DICT = {
   currently_discussed_plan: "'to complete the solar cycle at the 9.86 Rs perihelion distance'",
   communication_with_the_probe: { definition: "Largely cut off in that phase", what_it_does: "", examples: "three non-group comets" },
 
+  // === INGESTED 2026-06-22 13:02 ===
+  ktype_mainsequence_stars: "About three to four times as abundant as G-type main-sequence stars, making planet searches easier",
+
 };
 
 // ============================================================
