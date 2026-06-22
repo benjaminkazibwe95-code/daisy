@@ -16627,6 +16627,13 @@ const FLAT_DICT = {
   the_editorinchief: "Richard Dixon ( UNT )",
   each_issue: { definition: "Edited by one or more expert guest editors", what_it_does: "", examples: "Antonie van Leeuwenhoek , Hans Sloane and Alan Turing" },
 
+  // === INGESTED 2026-06-22 04:47 ===
+  since_these_fractions: "Quantity-per-quantity measures, they are pure numbers with no associated units of measurement",
+  commonly_used_are_this_notation: "Not part of the International System of Units (the SI system) and its meaning is ambiguous",
+  partsper_notation: { definition: "Also employed to denote the change, stability, or uncertainty in measurements", what_it_does: "", examples: "125 μ L / L , 125 μ gal / gal , 125 cm 3 / m 3 , etc" },
+  typical_chemical_shifts: "Rarely more than a few hundred Hz from the reference frequency, so chemical shifts are conveniently expressed in ppm ( Hz /MHz)",
+  since_it_is_usually_not_stated_which_quantity: { definition: "Used, it is better to write the units out, such as kg/kg, mol/mol or m 3 /m 3 , even though they are all dimensionless", what_it_does: "", examples: "the conversion factor between a mass fraction of 1 ppb and a mole fraction of 1 ppb is about 4" },
+
 };
 
 // ============================================================
