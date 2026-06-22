@@ -19463,6 +19463,19 @@ const FLAT_DICT = {
   recent_evidence_suggests_that_this_scenario: "Unlikely but has not been ruled out, as measurements have been available only over a relatively short period of time and could reverse in the future",
   each_possibility_described_so_far: "Based on a simple form of the dark energy equation of state",
 
+  // === INGESTED 2026-06-22 12:31 ===
+  the_issue: "Resolved in the following decade with Hubble's improved observations",
+  the_velocities: "Inferred from the redshift z = ∆ λ / λ of radiation and distance is inferred from brightness",
+  its_meaning: "That all measured proper distances D ( t ) between co-moving points increase proportionally to R",
+  it_was_long_thought_that_q: { definition: "Positive, indicating that the expansion is slowing down due to gravitational attraction", what_it_does: "", examples: "for H 0 = 70 , a Planck unit version of 1.2 × 10 −61 is obtained" },
+  the_hubble_time: "Sometimes said to set the scale for the age of universe",
+  the_hubble_volume: "Sometimes defined as a volume of the universe with a comoving size of cH −1",
+  this_previously_wide_variance_in_estimates: "Partially resolved with the introduction of the ΛCDM model of the universe in the late 1990s",
+  this_discrepancy: "Called the Hubble tension",
+  these_objects: { definition: "Later named quasars , and to date (April 2025) the majority of time-delay cosmography measurements have been done with strongly lensed quasars", what_it_does: "", examples: "LSST expected to discover ~10 lensed SNe in the first three years of observation" },
+  their_measurement_of_the_hubble_constant: "69.8 +1.9 −1.9 (km/s)/Mpc",
+  the_most_conservative_is_that_there: "An unknown systematic error affecting either early-universe or late-universe observations",
+
 };
 
 // ============================================================
