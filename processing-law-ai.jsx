@@ -21480,6 +21480,10 @@ const FLAT_DICT = {
   research_shows_that_these: "Different modes of practice, more than different historical periods",
   the_tricky_part_is_discerning_what: { definition: "Close enough to 'final truth'", what_it_does: "", examples: "social action against smoking probably came too long after science was 'pretty consensual'" },
 
+  // === INGESTED 2026-06-22 18:19 ===
+  wegner: { definition: "Born in Calgary , Alberta , Canada", what_it_does: "", examples: "by attempting not to think of a white bear" },
+  a_transactive_memory_system: "A system through which groups collectively encode, store, and retrieve knowledge",
+
 };
 
 // ============================================================
