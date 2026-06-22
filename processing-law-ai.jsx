@@ -15031,6 +15031,13 @@ const FLAT_DICT = {
   this_mathematical_result: "Part of the second law of thermodynamics",
   the_second_law_of_thermodynamics: "Simple only for systems which are near or in a physical equilibrium state",
 
+  // === INGESTED 2026-06-22 00:06 ===
+  jumper: { definition: "Jointly awarded the Nobel Prize in Chemistry for their AI research contributions to protein structure prediction", what_it_does: "", examples: "the Breakthrough Prize , the Canada Gairdner International Award and the Lasker Award" },
+  hassabis: "Born to Costas and Angela Hassapis",
+  the_final_game: "Reduced from its original vision and greeted with lukewarm reviews, receiving a Metacritic score of 62/100",
+  hassabis_met_legg_when_both: { definition: "Postdocs at the Gatsby Computational Neuroscience Unit, and he and Suleyman had been friends through family", what_it_does: "", examples: "pandemics and nuclear war'" },
+  he_said_that_there: "An urgent need for research on evaluation tests that measure how capable and controllable new AI models are",
+
 };
 
 // ============================================================
