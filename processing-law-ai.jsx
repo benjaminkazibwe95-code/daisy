@@ -22391,6 +22391,19 @@ const FLAT_DICT = {
   the_greatest_diversity: "In the tropics, although there are many species adapted to relatively cold waters",
   the_whole_animal: "Marinated in vinegar, then coated in a batter similar to that used to make calamari , and deep-fried in olive oil",
 
+  // === INGESTED 2026-06-22 20:44 ===
+  such_cells: { definition: "Called meristematic cells in higher plants and embryonic stem cells in animals, though some groups report the presence of adult pluripotent cells", what_it_does: "", examples: "red blood cells , that lack nuclei in their fully differentiated state" },
+  each_cell_type: "Defined by its particular pattern of regulated gene expression",
+  cell_differentiation: "Thus a transition of a cell from one cell type to another and it involves a switch from one pattern of gene expression to another",
+  rna_molecules: "An important type of intracellular differentiation control signal",
+  two_conclusions: { definition: "Readily apparent from this study", what_it_does: "", examples: "histone modification and DNA methylation, to restrict or permit the transcription of target genes" },
+  methylation: "Not as straightforward, as neither methylation nor demethylation consistently correlate with either gene activation or repression",
+  the_first_major_candidate: "Wnt signaling pathway",
+  these_morphogens: "Crucial for development, and include bone morphogenetic proteins , transforming growth factors (TGFs), and fibroblast growth factors (FGFs)",
+  cytokine_leukemia_inhibitory_factors: "Associated with the maintenance of mouse ESCs in an undifferentiated state",
+  while_epigenetic_regulation: { definition: "Necessary for driving cellular differentiation, they are certainly not sufficient for this process", what_it_does: "", examples: "Wnt are part) to result in differential gene expression" },
+  the_ductility_of_these_microenvironments: "Unique to different tissue types",
+
 };
 
 // ============================================================
