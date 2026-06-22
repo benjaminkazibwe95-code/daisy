@@ -19534,6 +19534,21 @@ const FLAT_DICT = {
   the_tide_under_the_moon: "Explained by the Moon's gravity being stronger on the water close to it",
   at_the_north_and_south_poles_the_moon: "24 hours above the horizon for two weeks every tropical month (about 27.3 days), comparable to the polar day of the tropical year",
 
+  // === INGESTED 2026-06-22 12:37 ===
+  a_spectrometer: "Used in spectroscopy for producing spectral lines and measuring their wavelengths and intensities",
+  if_the_instrument: "Designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer",
+  the_majority_of_spectrophotometers: "Used in spectral regions near the visible spectrum",
+  a_spectrometer_that: "Calibrated for measurement of the incident optical power is called a spectroradiometer",
+  these_lines: "Named for the elements which cause them, such as the hydrogen alpha , beta, and gamma lines",
+  dark_lines: "Made by absorption, for example by light passing through a gas cloud, and these absorption lines can also identify chemical compounds",
+  early_spectroscopes: { definition: "Simply prisms with graduations marking wavelengths of light", what_it_does: "", examples: "Fraunhofer lines" },
+  this_image: "Then viewed through a tube with a scale that was transposed upon the spectral image, enabling its direct measurement",
+  arrays_of_photosensors: { definition: "Also used in place of film in spectrographic systems", what_it_does: "", examples: "'digital counts' per spectral channel)" },
+  this_earliest_version_of_the_spectrograph: "Cumbersome to use and difficult to manage",
+  the_plant_pigment_phytochrome: { definition: "Discovered using a spectrograph that used living plants as the detector", what_it_does: "", examples: "CCDs which can be used for both visible and UV light" },
+  if_the_field: "Not sufficiently sparse, then spectra from different sources in the image field will overlap",
+  the_trade: "That slitless spectrographs can produce spectral images much more quickly than scanning a conventional spectrograph",
+
 };
 
 // ============================================================
