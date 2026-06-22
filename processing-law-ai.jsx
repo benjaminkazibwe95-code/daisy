@@ -17602,6 +17602,11 @@ const FLAT_DICT = {
   that_work: { definition: "Based largely on the thermodynamics of Kirchhoff, Boltzmann, and Gibbs", what_it_does: "", examples: "ideas that, according to Barry Simon , 'lay dormant for about seventy-five years'" },
   the_development_of_vector_calculus: { definition: "Gibbs's other great contribution to mathematics", what_it_does: "", examples: "physician John W" },
 
+  // === INGESTED 2026-06-22 06:58 ===
+  thermodynamic_properties: { definition: "Defined as characteristic features of a system, capable of specifying the system's state", what_it_does: "", examples: "the ideal gas constant , R , do not describe the state of a system, and so are not properties" },
+  if_the_units: "Changed from per mass to, for example, per mole, the property would remain as it was (i.e., intensive or extensive )",
+  work_and_heat: "Not thermodynamic properties, but rather process quantities : flows of energy across a system boundary",
+
 };
 
 // ============================================================
