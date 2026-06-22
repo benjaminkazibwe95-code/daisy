@@ -23329,6 +23329,10 @@ const FLAT_DICT = {
   the_highest_concentration_of_muslims: "Found in the capital Port Louis , predominantly in the Plaine Verte, Ward IV, Valle Pitot and Camp Yoloff neighborhood",
   punjabis: "A subgroup of Indo-Mauritians who mainly practice Sikhism",
 
+  // === INGESTED 2026-06-22 23:46 ===
+  a_wage_labourer_is_a_person_whose_primary: { definition: "Of income is from the selling of their labour in this way", what_it_does: "", examples: "those of the OECD countries, it is the most common form of work arrangement" },
+  the_most_common_form_of_wage_labour_currently: "Ordinary direct, or 'full-time'",
+
 };
 
 // ============================================================
