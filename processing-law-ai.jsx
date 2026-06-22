@@ -22832,6 +22832,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 22:04 ===
   kasese: "Also the largest town in the Rwenzururu region",
 
+  // === INGESTED 2026-06-22 22:06 ===
+  lake_mburo_national_park: "A national park located in Nyabushozi County , Kiruhura District in Uganda",
+  as_the_evicted_pastoralists: "Not compensated for lost grazing land or assisted with resettling, many remained hostile to the upgrade",
+  the_rangeland_outside_the_park: "Subsequently subdivided into small ranges and subsistence farming plots",
+  the_acacia_in_turn: "Protecting other bush and tree species, which are growing faster and thicker",
+  this_afforestation: "Forcing animals into the surrounding ranches and private land, causing them to be resented as pests",
+  hyenas_and_cape_bushbuck_in_particular: "Considered problem animals",
+
 };
 
 // ============================================================
