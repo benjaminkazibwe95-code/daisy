@@ -16056,6 +16056,11 @@ const FLAT_DICT = {
   internal_revenue_service: "Alleging that the company owed the U.S",
   this_inquiry: "Part of broader efforts by the U.S",
 
+  // === INGESTED 2026-06-22 03:10 ===
+  a_person_who_studies_natural_history: { definition: "Called a naturalist or natural historian", what_it_does: "", examples: "geobiology has a strong multidisciplinary nature" },
+  leonhart_fuchs: "One of the three founding fathers of botany, along with Otto Brunfels and Hieronymus Bock",
+  other_important_contributors_to_the_field: { definition: "Valerius Cordus , Konrad Gesner ( Historiae animalium ), Frederik Ruysch , and Gaspard Bauhin", what_it_does: "", examples: "botany, geology, mycology , palaeontology , physiology , and zoology were formed" },
+
 };
 
 // ============================================================
