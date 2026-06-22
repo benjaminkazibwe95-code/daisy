@@ -15955,6 +15955,23 @@ const FLAT_DICT = {
   it_is_decidable_whether_a_given_grammar: { definition: "A regular grammar , [ f ] as well as whether it is an LL( k ) grammar for a given k ≥ 0", what_it_does: "", examples: "the correct use and definition of identifiers, to be expressed in a natural way" },
   although_glr_parsing: "Developed in the 1980s, many new language definitions and parser generators continue to be based on LL, LALR or LR parsing up to the present day",
 
+  // === INGESTED 2026-06-22 02:53 ===
+  the_most_common_application_of_recursion: { definition: "In mathematics and computer science , where a function being defined is applied within its own definition", what_it_does: "", examples: "the following is a recursive definition of a person's ancestor" },
+  a_procedure_that_goes_through_recursion: "Said to be 'recursive'",
+  a_procedure: "A set of steps based on a set of rules, while the running of a procedure involves actually following the rules and performing the steps",
+  the_generally_accepted_idea_that_recursion: { definition: "An essential property of human language has been challenged by Daniel Everett on the basis of his claims about the Pirahã language", what_it_does: "can be iterated", examples: "" },
+  a_familiar_example: "The Fibonacci number sequence: F ( n ) = F ( n − 1) + F ( n − 2)",
+  dynamic_programming: { definition: "An approach to optimization that restates a multiperiod or multistep optimization problem in recursive form", what_it_does: "", examples: "zero) such that for any natural number n" },
+  a_common_method_of_simplification: "To divide a problem into subproblems of the same type",
+  a_contrary_approach: "Dynamic programming",
+  recursion_in_computer_programming: "Exemplified when a function is defined in terms of simpler, often smaller versions of itself",
+  the_solution_to_the_problem: "Then devised by combining the solutions obtained from the simpler versions of the problem",
+  one_example_application_of_recursion: "In parsers for programming languages",
+  the_great_advantage_of_recursion: "That an infinite set of possible sentences, designs or other data can be defined, parsed or produced by a finite computer program",
+  recurrence_relations: { definition: "Equations which define one or more sequences recursively", what_it_does: "", examples: "a closed-form expression )" },
+  the_main_advantage: "Usually the simplicity of instructions",
+  the_main_disadvantage: { definition: "That the memory usage of recursive algorithms may grow very quickly, rendering them impractical for larger instances", what_it_does: "", examples: "in branching structures in which one large part branches out into two or more similar smaller parts" },
+
 };
 
 // ============================================================
