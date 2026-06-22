@@ -20688,6 +20688,15 @@ const FLAT_DICT = {
   in_argentina_and_uruguay_cow_tongue: "Cooked and served in vinegar ( lengua a la vinagreta )",
   both_cow_and_moose_tongues: "Popular toppings on open-top-sandwiches in Norway, the latter usually amongst hunters",
 
+  // === INGESTED 2026-06-22 16:01 ===
+  the_intervertebral_foramen: "Small, and circular, with two at each intervertebral level, one for the right and one for the left exiting nerve roots",
+  the_vertebral_foramen: "The large opening posterior to the vertebral body also known as the spinal canal",
+  the_spinous_process: "Short, and nearly horizontal in direction",
+  the_superior_articular_surfaces: "Directed upward and backward; the spinous process is thick, long, and almost horizontal",
+  the_transverse_processes: "Very short, tuberculated at their extremities, and do not have articular facets",
+  the_second_thoracic_vertebra: "Larger than the first thoracic vertebra",
+  traces_of_similar_elevations: { definition: "Found on the transverse processes of the tenth and eleventh thoracic vertebrae", what_it_does: "", examples: "most marsupials have 13, but koalas have only 11" },
+
 };
 
 // ============================================================
