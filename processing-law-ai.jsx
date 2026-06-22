@@ -15658,6 +15658,11 @@ const FLAT_DICT = {
   conformant_planning_is_when_the_agent: "Uncertain about the state of the system, and it cannot make any observations",
   a_solution_for_a_conformant_planning_problem: "A sequence of actions",
 
+  // === INGESTED 2026-06-22 01:57 ===
+  a_complex_system: "Usually composed of many components and their interactions",
+  engineering_systems: { definition: "Often designed using modular components", what_it_does: "", examples: "Le Corbusier's 'Radiant City' and Ebenezer Howard's 'Garden City'" },
+  chaos: { definition: "Sometimes viewed as extremely complicated information, rather than as an absence of order", what_it_does: "", examples: "is not an issue as important as it is within chaos theory, in which it prevails" },
+
 };
 
 // ============================================================
