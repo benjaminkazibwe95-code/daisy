@@ -19316,6 +19316,9 @@ const FLAT_DICT = {
   the_validity_of_a_study: "Dependent on the degree of systematic error",
   information_bias: "Bias arising from systematic error in the assessment of a variable",
 
+  // === INGESTED 2026-06-22 11:54 ===
+  gosset: "A modest man who once cut short an admirer with this comment: 'Fisher would have discovered it all anyway",
+
 };
 
 // ============================================================
