@@ -19403,6 +19403,24 @@ const FLAT_DICT = {
   lopez_has_contended_that_it: { definition: "A period of deep economic recession", what_it_does: "", examples: "made a case for a Renaissance of the 12th century" },
   the_san_francisco_renaissance: "A vibrant period of exploratory poetry and fiction writing in San Francisco in the mid-20th century",
 
+  // === INGESTED 2026-06-22 12:21 ===
+  particularly_fast_methods: "Available for numbers of special forms, such as Mersenne numbers , and these have been used to find large prime numbers",
+  those_two: "1 and the number itself",
+  the_numbers_that_end_with_other_digits: "All composite: decimal numbers that end in 0, 2, 4, 6, or 8 are even, and decimal numbers that end in 0 or 5 are divisible by 5",
+  methods_that: { definition: "Restricted to specific number forms include Pépin's test for Fermat numbers (1877), [ 25 ] Proth's theorem (c", what_it_does: "", examples: "The terms in the product are called prime factors" },
+  another_way_of_saying_this: "That the sequence of prime numbers never ends",
+  one_possible_formula: "Based on Wilson's theorem and generates the number 2 many times and all other primes exactly once",
+  this_function: "An analytic function on the complex numbers",
+  the_growth_rate_of_this_sum: { definition: "Described more precisely by Mertens' second theorem", what_it_does: "", examples: "⁠ π ( 11 ) = 5 {\displaystyle \pi (11)=5} ⁠ , since there are five primes less than or equal to 11" },
+  the_integers: "A ring, and the prime numbers in the integers have been generalized to rings in two different ways, prime elements and irreducible elements",
+  an_element_is_irreducible_if_it: "Neither a unit nor the product of two other non-unit elements",
+  its_prime_elements: { definition: "Known as Gaussian primes", what_it_does: "", examples: "British mathematician G" },
+  one_group_of_modern_primality_tests: "Applicable to arbitrary numbers, while more efficient tests are available for numbers of special types",
+  another_optimization: { definition: "To check only primes as factors in this range", what_it_does: "", examples: "some variations of elliptic curve primality proving" },
+  the_aks_primality_test: { definition: "Proven to run in polynomial time , but with a higher polynomial exponent, making it slower in practice than the elliptic curve test", what_it_does: "", examples: "the special number field sieve" },
+  fermat_primes: { definition: "Primes of the form with ⁠ k {\displaystyle k} ⁠ a nonnegative integer", what_it_does: "", examples: "mutually unbiased bases and symmetric informationally complete positive-operator-valued measures" },
+  according_to_messiaen_this_way_of_composing: "'inspired by the movements of nature, movements of free and unequal durations'",
+
 };
 
 // ============================================================
