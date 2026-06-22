@@ -20913,6 +20913,12 @@ const FLAT_DICT = {
   the_highest_rate: "In Africa, and the lowest in Asia",
   thyroid_peroxidase_antibodies: { definition: "Speculated to indicate other autoimmune processes against the placental-fetal unit", what_it_does: "", examples: "preeclampsia and eclampsia , gestational diabetes , placental abruption , and postpartum hemorrhage" },
 
+  // === INGESTED 2026-06-22 16:37 ===
+  some_care: { definition: "Needed in the definition of such objects and how they relate to non-digital entities; there are established models that can aid in such definitions e", what_it_does: "", examples: "when used in the DSpace application, and the DOI application)" },
+  handles: { definition: "Being used in digital watermarking applications, GRID applications, repositories, and more", what_it_does: "", examples: "a mix of objects required for a distance-learning course" },
+  handle_system_infrastructure: "Supported by prefix registration and service fees, with the majority coming from single prefix holders",
+  the_largest_current_single_contributor: { definition: "The International DOI Foundation", what_it_does: "", examples: "protocol specification, source code and ready-to-use system, clients and utilities, is available" },
+
 };
 
 // ============================================================
