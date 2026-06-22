@@ -15451,6 +15451,20 @@ const FLAT_DICT = {
   among_syntactic_constructions_that_arose: { definition: "Outside of, headed for, meet up with, back of, etc", what_it_does: "", examples: "peppy or wacky" },
   the_beststudied_latino_englishes: "Chicano English , spoken in the West and Midwest, and New York Latino English , spoken in the New York metropolitan area",
 
+  // === INGESTED 2026-06-22 01:16 ===
+  tasks: "Often categorized as discriminative (recognition) or generative (imagination)",
+  sometimes_the_error: "Expressed as a low probability that the erroneous output occurs, or it might be expressed as an unstable high energy state in the network",
+  an_energy_function: "A macroscopic measure of a network's activation state",
+  circles: "Neurons and edges between them are connection weights",
+  the_details_of_each: { definition: "Given in the comparison table below", what_it_does: "", examples: "pattern recognition and experiential learning" },
+  the_som: "A topographic organization in which nearby locations in the map represent inputs with similar properties",
+  art_networks: "Used for many pattern recognition tasks, such as automatic target recognition and seismic signal processing",
+  cluster_analysis: "Used in unsupervised learning to group, or segment, datasets with shared attributes in order to extrapolate algorithmic relationships",
+  the_moments: "Usually estimated from samples empirically",
+  the_basic_moments: "First and second order moments",
+  higher_order_moments: "Usually represented using tensors which are the generalization of matrices to higher orders as multi-dimensional arrays",
+  latent_variable_models: "Statistical models where in addition to the observed variables, a set of latent variables also exists which is not observed",
+
 };
 
 // ============================================================
