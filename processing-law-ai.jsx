@@ -16323,6 +16323,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 03:53 ===
   cgcs: { definition: "Alkaline - insoluble", what_it_does: "", examples: "the immunostimulant properties of A" },
 
+  // === INGESTED 2026-06-22 03:55 ===
+  cell_death: { definition: "The event of a biological cell ceasing to carry out its functions", what_it_does: "", examples: "diseases , localized injury , or the death of the organism of which the cells are part" },
+  apoptosis_and_autophagy: { definition: "Both forms of programmed cell death", what_it_does: "", examples: "trauma or infection and occurs in several different forms" },
+  apoptosis: { definition: "The processor of programmed cell death (PCD) that may occur in multicellular organisms", what_it_does: "", examples: "development, differentiation, neurodegenerative diseases , stress , infection and cancer" },
+  phagoptosis_can_occur_to_cells_that: { definition: "Pathogenic, cancerous, aged, damaged or excess to requirements", what_it_does: "", examples: "trauma or infection and occurs in several different forms" },
+  necroptotic_pathways: "Associated with death receptors such as the tumor necrosis factor receptor 1",
+
 };
 
 // ============================================================
