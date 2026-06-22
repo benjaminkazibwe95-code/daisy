@@ -16430,6 +16430,19 @@ const FLAT_DICT = {
   the_crucial_role_of_hydrophobic_interactions: "Hypothesized by Dorothy Wrinch and Irving Langmuir , as a mechanism that might stabilize her cyclol structures",
   the_hydrophobic_interaction: { definition: "Restored to its correct prominence by a famous article in 1959 by Walter Kauzmann on denaturation, based partly on work by Kaj Linderstrøm-Lang", what_it_does: "", examples: "analytical ultracentrifugation and flow birefringence" },
 
+  // === INGESTED 2026-06-22 04:14 ===
+  a_different_isbn: "Assigned to each separate edition and variation of a publication, but not to a simple reprinting of an existing item",
+  the_isbn: "Thirteen digits long if assigned on or after 1 January 2007, and ten digits long if assigned before 2007",
+  lifetime_isbns_registered_in_the_united_states: "Over 39 million as of 2020",
+  whether_a_publication: "Electronic or print cannot be inferred from the ISBN only",
+  some_isbn_registration_agencies: { definition: "Based in national libraries or within ministries of culture and thus may receive direct funding from the government to support their services", what_it_does: "", examples: "bibliographic data providers that are not government funded" },
+  once_that_block_of_isbns: "Used, the publisher may receive another block of ISBNs, with a different registrant element",
+  englishlanguage_registration_group_elements: "0 and 1 (2 of more than 220 registration group elements)",
+  the_check_digit: "Base eleven, and can be an integer between 0 and 9, or an 'X'",
+  the_value_of_the_check_digit: { definition: "Simply the one number between 0 and 10 which, when added to this sum, means the total is a multiple of 11", what_it_does: "can also be performed, but not for numbers commencing with a prefix other than 978, which have no 10-digit equivalent", examples: "" },
+  all_ismns: "Now thirteen digits commencing 979-0, while 979-1 to 979-9 are used for ISBN, 979-8- used for USA",
+  publisher_identification_code_numbers: { definition: "Unlikely to be the same in the 978 and 979 ISBNs, likewise, there is no guarantee that language area code numbers will be the same", what_it_does: "", examples: "Barnes & Noble ) migrated to EAN barcodes as early as March 2005" },
+
 };
 
 // ============================================================
