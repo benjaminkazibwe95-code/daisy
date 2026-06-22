@@ -22575,6 +22575,20 @@ const FLAT_DICT = {
   this_sulfation: "Crucial to the elongation of the keratan sulfate chain",
   a_study: "Done using N-acetylglucosamine 6-O-sulfotransferase-1 deficient mice",
 
+  // === INGESTED 2026-06-22 21:12 ===
+  granule_cells_in_different_brain_regions: "Both functionally and anatomically diverse: the only thing they have in common is smallness",
+  these_two_populations_of_granule_cells: "Also the only major neuronal populations that undergo adult neurogenesis , while cerebellar and cortical granule cells do not",
+  each_of_the_dendrites: "Only about 15 μm in length",
+  the_dendrites: "Short with claw-like endings that form glomeruli to receive mossy fibers , similar to cerebellar granule cells",
+  this_connection: "Excitatory as glutamate is released",
+  in_the_cerebellar_cortex_there: "A variety of inhibitory neurons ( interneurons )",
+  the_input: "Thus coming from two different places as opposed to the granule cell receiving multiple inputs from the same source",
+  the_differences_in_mossy_fibers_that: "Sending signals to the granule cells directly effects the type of information that granule cells translate to Purkinje cells",
+  adultborn_granule_cells: "Thought to be involved in pattern separation whereas old granule cells contribute to rapid pattern completion",
+  this_enzyme: "Dependent on the presence of calcium and is responsible for the production of nitric oxide (NO)",
+  this_neurotransmitter: "A negative regulator of granule cell precursor proliferation which promotes the differentiation of different granule cells",
+  dentate_granule_cells: "Situated to regulate the flow of information into the hippocampus , a structure required for normal learning and memory",
+
 };
 
 // ============================================================
