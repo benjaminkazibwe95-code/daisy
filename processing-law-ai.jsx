@@ -22557,6 +22557,24 @@ const FLAT_DICT = {
   lichtman_and_colleagues: { definition: "Able to mark individual neurons with one of over 100 distinct colors", what_it_does: "", examples: "long processes within a block of tissue" },
   elegans: { definition: "Published in book form with accompanying floppy disks by Achacoso and Yamamoto in 1992", what_it_does: "", examples: "digital image processing began to be applied to detailed neural reconstruction" },
 
+  // === INGESTED 2026-06-22 21:05 ===
+  neuroregeneration: "Important clinically, as it is part of the pathogenesis of many diseases, including multiple sclerosis",
+  when_an_axon: "Damaged, the distal segment undergoes Wallerian degeneration , losing its myelin sheath",
+  the_growth_of_these_axons: { definition: "Also governed by chemotactic factors secreted from Schwann cells", what_it_does: "", examples: "damaged tissue which is inhibitory to regeneration" },
+  when_a_nerve_axon: "Severed, the end still attached to the cell body is labeled the proximal segment, while the other end is called the distal segment",
+  growth_factors: "Not expressed or re-expressed; for instance, the extracellular matrix is lacking laminins",
+  if_a_large_segment_of_nerve: "Harmed, as can happen in a crush or stretch injury, the nerve will need to be exposed over a larger area",
+  the_cut_nerve_endings: "Then carefully reapproximated using very small sutures",
+  it_is_important_that_nerves: "Not repaired under tension, [ 13 ] which could otherwise happen if cut ends are reapproximated across a gap",
+  nerve_segments: "Taken from another part of the body (the donor site) and inserted into the lesion to provide endoneurial tubes for axonal regeneration across the gap",
+  regenerating_axons: "Redirected into the stump",
+  often_immunosuppression: "Required with these grafts",
+  the_creation_of_artificial_nerve_conduits: { definition: "Also known as entubulation because the nerve ends and intervening gap are enclosed within a tube composed of biological or synthetic materials", what_it_does: "", examples: "NI-35 and NOGO" },
+  several_families_of_molecules: "Released that promote and drive glial scar formation",
+  this_scar_formation: { definition: "Several cell types and families of molecules", what_it_does: "", examples: "damage mitigation, repair, and glial scar formation" },
+  this_sulfation: "Crucial to the elongation of the keratan sulfate chain",
+  a_study: "Done using N-acetylglucosamine 6-O-sulfotransferase-1 deficient mice",
+
 };
 
 // ============================================================
