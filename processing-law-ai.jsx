@@ -18011,6 +18011,27 @@ const FLAT_DICT = {
   understanding_this: "Perhaps a ' thought experiment ' in chemical kinetics , but actual examples exist",
   the_halfcell_reactions_at_the_electrodes: "Constrained if no current is allowed to flow",
 
+  // === INGESTED 2026-06-22 08:08 ===
+  it_was_there_that_avicenna: { definition: "Educated, which early on was seemingly administered by his father", what_it_does: "", examples: "the physicians Qumri and Abu Sahl 'Isa ibn Yahya al-Masihi" },
+  by_the_time_avicenna: "At least 21 years old, his father died",
+  the_date_he_went_to_the_place: "Uncertain, as he reports that he served the Khwarazmshah , the ruler of Khwarazm, the Ma'munid ruler Abu al-Hasan Ali",
+  the_purpose_of_the_debate: "To examine one's reputation against a prominent resident",
+  avicenna: { definition: "Played by Ben Kingsley", what_it_does: "", examples: "theology, philology, mathematics, astronomy, physics and music" },
+  it_was_during_this_period_that_avicenna: { definition: "Secretly in contact with Ala al-Dawla Muhammad ( r", what_it_does: "", examples: "treatises named Logic and Metaphysics" },
+  most_of_his_works: "Written in Arabic, then the language of science in the Muslim world, and some in Early New Persian",
+  of_linguistic_significance_even_to_this_day: "A few books that he wrote in Persian, particularly the Danishnama",
+  whereas_existence: "The domain of the contingent and the accidental, essence endures within a being beyond the accidental",
+  the_necessary: { definition: "The source of its own being without borrowed existence", what_it_does: "", examples: "Avicenna and al-Farabi and their likes" },
+  it_is_unclear_if_buridan: "Influenced by Avicenna, or by Philoponus directly",
+  this_sensory_information: { definition: "Supplied to the internal senses, which merge all the pieces into a whole, unified conscious experience", what_it_does: "requires a concrete particular (material) to be abstracted into the universal intelligible (immaterial)", examples: "" },
+  ibn_sina: "Persuaded to the case and sent a message to the patient, asking him to be happy as the butcher was coming to slaughter him, and the sick man rejoiced",
+  one_important_feature_of_his_writing: { definition: "That he considers mathematical astronomy a separate discipline from astrology", what_it_does: "", examples: "ibn Sina considers the motion of the solar apsis , which Ptolemy had taken to be fixed" },
+  similarly_the_declaratio: { definition: "Believed not to be actually by Avicenna", what_it_does: "", examples: "Virgil , Averroes , Homer , Horace , Ovid , Lucan , Socrates , Plato and Saladin" },
+  the_film: "Set in Bukhara at the turn of the millennium",
+  the_novel: "Adapted into a feature film, The Physician , in 2013",
+  a_shorter_form_of_the_work: "Known as the An-najat ( Liberatio )",
+  persian_poetry_from_avicenna: "Recorded in various manuscripts and later anthologies such as Nozhat al-Majales",
+
 };
 
 // ============================================================
