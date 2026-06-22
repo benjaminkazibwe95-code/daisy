@@ -18251,6 +18251,17 @@ const FLAT_DICT = {
   these_events: { definition: "Open to the general public, but attendees must sign up in advance to procure a visitors pass for access to the center's main grounds", what_it_does: "", examples: "NASA DEVELOP at Goddard Space Flight Center" },
   the_tour_of_goddard: "Near the end of the Queen's visit to commemorate the 400th anniversary of the founding of Jamestown in Virginia",
 
+  // === INGESTED 2026-06-22 08:39 ===
+  exchange_interaction_effects: "Discovered independently by physicists Werner Heisenberg and Paul Dirac in 1926",
+  wolfgang_pauli_demonstrated_that_this: "A type of symmetry: states of two particles must be either symmetric or antisymmetric when coordinate labels are exchanged",
+  particles_that_give_symmetric_combinations: "Called bosons; those with antisymmetric combinations are called fermions",
+  these_integrals: "Given by: Although in the hydrogen molecule the exchange integral, Eq",
+  when_the_orbital_wave_function: "Symmetrical, the spin wave function must be anti-symmetrical and vice versa",
+  the_characteristic_values_of_a_matrix: "Its diagonal elements after it is converted to a diagonal matrix (that is, eigenvalues)",
+  exchange_energy_splittings: "Very elusive to calculate for molecular systems at large internuclear distances",
+  the_relationship: "Dependent on the crystal structure",
+  the_ising_model: { definition: "Invented by Wilhelm Lenz in 1920 and solved for the one-dimensional case by his doctoral student Ernst Ising in 1925", what_it_does: "", examples: "a net magnetic moment of 0" },
+
 };
 
 // ============================================================
