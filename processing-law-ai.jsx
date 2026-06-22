@@ -19841,6 +19841,21 @@ const FLAT_DICT = {
   alternatively_this_split: "A radio luminosity cutoff at a fixed frequency, e.g",
   agns: { definition: "The subject of numerous on-going studies seeking to clarify the nature of AGNs", what_it_does: "", examples: "M87 or spiral galaxies such as the Milky Way galaxy" },
 
+  // === INGESTED 2026-06-22 13:27 ===
+  some_likely_candidates_for_binary_black_holes: { definition: "Galaxies with double cores still far apart", what_it_does: "", examples: "SDSS J104807.74+005543.5 [ 13 ] and EGSD2 J142033.66 525917.5" },
+  the_most_important_mechanism: { definition: "Dynamical friction , which transfers kinetic energy from the black holes to nearby matter", what_it_does: "", examples: "other stars" },
+  when_the_black_holes: "Close the gravitational waves cause the orbit to shrink rapidly",
+  these_oscillations: "Similar to the fading tone of a struck bell and are described as damped oscillations, or quasinormal modes",
+  this_part_of_the_signal: "Essential to confirm that the final object is a Kerr black hole, as predicted by general relativity",
+  this_is_especially_useful_where_mass_ratios: "Large, such as a stellar-mass black hole merging with a galactic-core black hole , but can also be used for equal-mass systems",
+  the_final_kerr_black_hole: { definition: "Distorted, and the spectrum of frequencies it produces can be calculated", what_it_does: "", examples: "merger, requires solving the full equations of general relativity" },
+  in_a_stable_orbit_the_binding_energy: "A local minimum relative to parameter perturbation",
+  the_gravitational_waveform_produced: "Important for observation prediction and confirmation",
+  angular_momentum: "Also lost in the gravitational radiation",
+  the_protrusions: { definition: "Drawn out into a thin thread", what_it_does: "", examples: "several black holes in the same nearly circular orbit coalesce" },
+  when_spins: "Aligned in the orbital plane, a recoil of 5000 km/s is possible with two identical black holes",
+  in_a_headon_collision_this_fraction: "Calculated at 0.002, or 0.2%",
+
 };
 
 // ============================================================
