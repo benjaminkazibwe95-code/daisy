@@ -19298,6 +19298,24 @@ const FLAT_DICT = {
   a_template: "A pattern used to produce items of the same proportions",
   one_observation: "A capital E having three horizontal lines and one vertical line",
 
+  // === INGESTED 2026-06-22 11:52 ===
+  the_cure_to_the_sickness: "To remove or add the humor in question to balance the body",
+  his_findings: "Published in 1850, but his work was ill-received by his colleagues, who discontinued the procedure",
+  genetic_variation: { definition: "Typically determined using DNA from peripheral blood leukocytes", what_it_does: "", examples: "alcohol or smoking, biological agents , stress , or chemicals to mortality or morbidity" },
+  a_group_of_individuals_that: "Disease positive (the 'case' group) is compared with a group of disease negative individuals (the 'control' group)",
+  the_statistic_generated_to_measure_association: "The odds ratio (OR), [ 56 ] which is the ratio of the odds of exposure in the cases (A/C) to the odds of exposure in the controls (B/D), i.e",
+  if_the_or: "Far less than one, then this suggests that the exposure is a protective factor in the causation of the disease",
+  casecontrol_studies: "Usually faster and more cost-effective than cohort studies but are sensitive to bias (such as recall bias and selection bias )",
+  the_cohort: "Followed through time to assess their later outcome status",
+  vital_registries: "Usually the most effective ways to collect data, but in humanitarian contexts these registries can be non-existent, unreliable, or inaccessible",
+  retrospective_mortality_surveys: "Prone to selection and reporting biases",
+  one_way_to_assess_the_validity_of_findings: "The ratio of false-positives (claimed effects that are not correct) to false-negatives (studies which fail to support a true effect)",
+  confidence_intervals: "Computed to demonstrate the precision of relative risk estimates",
+  a_systematic_error_or_bias_occurs_when_there: "A difference between the true value (in the population) and the observed value (in the study) from any cause other than sampling variability",
+  an_example_of_systematic_error: { definition: "If, unknown to you, the pulse oximeter you are using is set incorrectly and adds two points to the true value each time a measurement is taken", what_it_does: "", examples: "by using the same mis-set instrument)" },
+  the_validity_of_a_study: "Dependent on the degree of systematic error",
+  information_bias: "Bias arising from systematic error in the assessment of a variable",
+
 };
 
 // ============================================================
