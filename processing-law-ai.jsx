@@ -15644,6 +15644,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 01:53 ===
   the_seed_for_the_book: "Planted by IBM's then-CEO Thomas J",
 
+  // === INGESTED 2026-06-22 01:55 ===
+  planning: "Also related to decision theory",
+  the_difficulty_of_planning: "Dependent on the simplifying assumptions employed",
+  such_planners: "Called 'domain independent' to emphasize the fact that they can solve planning problems from a wide range of domains",
+  typical_examples_of_domains: { definition: "Block-stacking, logistics, workflow management, and robot task planning", what_it_does: "", examples: "STRIPS and PDDL for Classical Planning, are based on state variables" },
+  each_possible_state_of_the_world: "An assignment of values to the state variables, and actions determine how the values of the state variables change when that action is taken",
+  this_knowledge: "Usually represented in a logic-based action description language and used as input for automated planners",
+  learning_action_models: "Important when goals change",
+  temporal_planning: { definition: "Closely related to scheduling problems when uncertainty is involved and can also be understood in terms of timed automata", what_it_does: "", examples: "value iteration and policy iteration , when the state space is sufficiently small" },
+  deterministic_planning: "Introduced with the STRIPS planning system, which is a hierarchical planner",
+  action_names: "Ordered in a sequence and this is a plan for the robot",
+  conformant_planning_is_when_the_agent: "Uncertain about the state of the system, and it cannot make any observations",
+  a_solution_for_a_conformant_planning_problem: "A sequence of actions",
+
 };
 
 // ============================================================
