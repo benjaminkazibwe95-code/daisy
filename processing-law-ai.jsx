@@ -20642,6 +20642,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 15:53 ===
   gerontology: "A growing topic of interest, and in the 1960s Bernhard Springer published six titles on aging",
 
+  // === INGESTED 2026-06-22 15:55 ===
+  the_interventricular_septum: "The stout wall separating the ventricles , the lower chambers of the heart , from one another",
+  the_greater_portion_of_it: "Thick and muscular and constitutes the muscular interventricular septum",
+  this_type_of_shunt: "An acyanotic disorder that can result in ventricular hypertrophy",
+
 };
 
 // ============================================================
