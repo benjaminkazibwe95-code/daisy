@@ -17952,6 +17952,33 @@ const FLAT_DICT = {
   similar_recognition: { definition: "Made on 7 August 2000, at Bowood House in Wiltshire, England", what_it_does: "", examples: "the noted American surgeon James Taggart Priestley II of the Mayo Clinic" },
   the_most_exhaustive_biography_of_priestley: "Robert Schofield's two-volume work; several older one-volume treatments exist: those of Gibbs, Holt and Thorpe",
 
+  // === INGESTED 2026-06-22 08:00 ===
+  typical_units_of_wavenumber_used_in_ir_spectra: "Reciprocal centimeters , with the symbol cm −1",
+  units_of_ir_wavelength: "Commonly given in micrometers (formerly called 'microns'), symbol μm, which are related to the wavenumber in a reciprocal way",
+  twodimensional_ir: "Also possible as discussed below",
+  infrared_spectroscopy: "Not the only method of studying molecular vibrational spectra",
+  in_catalysis_research_it: { definition: "A very useful tool to characterize the catalyst, [ 13 ] [ 14 ] [ 15 ] as well as to detect intermediates", what_it_does: "", examples: "machine learning and deep-neural networks" },
+  the_energies: "Affected by the shape of the molecular potential energy surfaces , the masses of the atoms, and the associated vibronic coupling",
+  if_a_bond_between_atoms: "Stretched, for instance, there comes a point at which the bond breaks and the molecule dissociates into atoms",
+  a_permanent_dipole: "Not necessary, as the rule requires only a change in dipole moment",
+  one_common_method: "To crush the sample with an oily mulling agent (usually mineral oil Nujol )",
+  a_thin_film_of_the_mull: "Applied onto salt plates and measured",
+  this_powder_mixture: "Then pressed in a mechanical press to form a translucent pellet through which the beam of the spectrometer can pass",
+  the_sample: "First dissolved in a suitable, non- hygroscopic solvent",
+  a_drop_of_this_solution: "Deposited on the surface of a KBr or NaCl cell",
+  the_solution: "Then evaporated to dryness and the film formed on the cell is analysed directly",
+  care_is_important_to_ensure_that_the_film: "Not too thick otherwise light cannot pass through",
+  the_final_method: { definition: "To use microtomy to cut a thin (20–100 μm) film from a solid sample", what_it_does: "", examples: "a piece of rock can be inserted into the sample cup and the spectrum measured from it" },
+  the_simplest_reference_measurement: "To simply remove the sample (replacing it by air)",
+  infrared_light: "Guided through an interferometer and then through the sample (or vice versa)",
+  the_dispersive_method: "More common in UV-Vis spectroscopy , but is less practical in the infrared than the FTIR method",
+  the_positions_of_these_bands: "Summarized in correlation tables as shown below",
+  a_spectrograph: { definition: "Often interpreted as having two regions", what_it_does: "", examples: "it was shown that for a natural silicon sample, the lifetime of the anti-symmetric vibration is 11" },
+  when_the_isotope_of_one_of_the_silicon_atoms: "Increased to 29 Si, the lifetime increases to 19 ps",
+  a_probe_pulse: "Then applied, resulting in the emission of a signal from the sample",
+  it_is_still_a_largely_unexplored_technique_and: "Becoming increasingly popular for fundamental research",
+  the_cross_peaks_in_the_first: "Related to the scalar coupling, while in the latter they are related to the spin transfer between different nuclei",
+
 };
 
 // ============================================================
