@@ -21008,6 +21008,28 @@ const FLAT_DICT = {
   innovations_in_science_and_technology: "Often appropriated by the government and their applications were governed by the immediate needs of the feudal royal family",
   foreign_trade: "A great source of foreign knowledge as well as the capability of acquisition of new products",
 
+  // === INGESTED 2026-06-22 16:57 ===
+  a_vaccination_policy: "A health policy adopted in order to prevent the spread of infectious disease",
+  these_policies: { definition: "Generally put into place by state or local governments, but may also be set by private facilities, such as workplaces or schools", what_it_does: "", examples: "the CDC or ECDC ) rely on vaccination policies to create a herd immunity within their populations" },
+  trust_in_vaccination_and_health_care: "An important indicator of government work and the effectiveness of the social policy",
+  the_state: { definition: "Responsible for providing smart communication, and to inform a population about diseases, vaccines, and the risks of both", what_it_does: "", examples: "scare tactics" },
+  estimated_costs_and_benefits: { definition: "Adjusted to 2009 dollars and projected over time at three percent interest", what_it_does: "", examples: "vaccination'" },
+  proof_of_vaccination: "Required to attend any level of school, file for a marriage license, and request any kind of government ID, including a passport or driver's license",
+  the_intent: "To encourage the most at-risk populations to get vaccinated",
+  the_legality_of_this: "Upheld in the Fair Work Commission case Kimber v Sapphire Coast Community Aged Care Ltd in 2021",
+  the_vaccine: "Mandatory for children between the ages of 5 and 18",
+  influenza: { definition: "The only nationally necessary vaccine for adults, and is administered by general practitioners", what_it_does: "", examples: "the United States" },
+  the_outbreak: "Followed by the 2001 amendment of Immunization Act to add flu vaccination for the elderly",
+  vaccines_that_are_not_mandatory: "Not publicly funded, so the cost for those must be borne by parents or employers, she adds",
+  all_the_children_in_a_given_school_year: "Vaccinated as a cohort",
+  its_program: { definition: "Mandatory for nine designated diseases", what_it_does: "", examples: "the one for human papillomavirus, coverage is below 50%" },
+  mandatory_vaccination_against_measles: { definition: "Introduced in 1968 and since 1978, all children receive two doses of vaccine with a compliance rate of more than 95%", what_it_does: "", examples: "health planning and programing, fiscal duties, and direct management of health services" },
+  immunizations: "Compulsory for military enlistment in the U.S",
+  government_for_its_citizens: "Required for green card applicants",
+  the_first_school_vaccination_requirement: { definition: "Enacted in the 1850s in Massachusetts to prevent the spread of smallpox", what_it_does: "", examples: "counties, cities, and boards of education" },
+  exemptions: "Determined at a state level",
+  certain_laws: "Being looked at for immunization requirements, and are trying to be changed, but cannot succeed due to legal challenges",
+
 };
 
 // ============================================================
