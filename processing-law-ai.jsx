@@ -21493,6 +21493,33 @@ const FLAT_DICT = {
   the_drawback_of_levodopa_treatment: "That it treats the symptoms of Parkinson's (low dopamine levels), rather than the cause (the death of dopaminergic neurons in the substantia nigra)",
   mptp: { definition: "Brought to the spotlight in 1982 when heroin users in California displayed Parkinson's-like symptoms after using MPPP contaminated with MPTP", what_it_does: "", examples: "disruption of metabolism and creation of free radicals" },
 
+  // === INGESTED 2026-06-22 18:23 ===
+  the_abstract_noun_anthropology: "First attested in reference to history",
+  his_interest: "Mainly in biological anthropology",
+  the_last_two_volumes: "Published posthumously",
+  ethnography: { definition: "One of its primary research designs as well as the text that is generated from anthropological fieldwork", what_it_does: "", examples: "the organization of human social and cultural relations, institutions, social conflicts, etc" },
+  cultural_anthropology: { definition: "The comparative study of the manifold ways in which people make sense of the world around them", what_it_does: "", examples: "minorities, subgroups, dissidents, etc.)" },
+  inquiry_in_sociocultural_anthropology: "Guided in part by cultural relativism , the attempt to understand other societies in terms of their own cultural symbols and values",
+  participant_observation: "One of the foundational methods of social and cultural anthropology",
+  the_study_of_kinship_and_social_organization: "A central focus of sociocultural anthropology, as kinship is a human universal",
+  comparison_across_cultures: { definition: "A key methodological element in sociocultural anthropology, including the industrialized (and de-industrialized) West", what_it_does: "", examples: "the early development of bioarchaeology" },
+  recognizing_this_history: "Crucial, as its effects persist today in the form of damaged evidence, ethical challenges, and harmful professional assumptions",
+  it_often: { definition: "Participant observation , though an ethnographer may also draw from texts written by participants in social interactions", what_it_does: "", examples: "development work, social movements , or health education" },
+  the_third_area: "On colonialism, imperialism, and the creation of the capitalist world-system",
+  applied_anthropology: "The application of the method and theory of anthropology to the analysis and solution of practical problems",
+  feminist_anthropologists: "Often concerned with the construction of gender across societies",
+  gender_constructs: "Of particular interest in the study of sexism",
+  medical_anthropology: { definition: "An interdisciplinary field that studies 'human health and disease, health care systems, and biocultural adaptation'", what_it_does: "", examples: "cultural psychiatry , transcultural psychiatry , and ethnopsychiatry" },
+  psychological_anthropology: "An interdisciplinary subfield of anthropology that studies the interaction of cultural and mental processes",
+  cognitive_anthropology: { definition: "Concerned with what people from different groups know and how that implicit knowledge shapes how they perceive and relate to the world around them", what_it_does: "", examples: "human rights , legal pluralism , [ 66 ] and political uprisings" },
+  the_subgroup: "Very closely related to STS and the Society for the Social Studies of Science",
+  such: { definition: "The case with environmental justice advocate Melissa Checker and her relationship with the people of Hyde Park", what_it_does: "", examples: "anthropology, can offer interdisciplinary approaches to environmental issues" },
+  a_major_focus_of_anthrozoologic_research: { definition: "The quantification of the positive effects of human-animal relationships on either party and the study of their interactions", what_it_does: "", examples: "anthropology, sociology, biology, and philosophy" },
+  evolutionary_anthropology: { definition: "Concerned with both the biological and cultural evolution of humans, past and present", what_it_does: "", examples: "archaeology , behavioral ecology , psychology , primatology , and genetics" },
+  the_genetics_and_morphology_of_specimens: "Crucial to this field",
+  the_largest_organization_of_anthropologists: { definition: "The American Anthropological Association (AAA), founded in 1903", what_it_does: "", examples: "circumcision and subincision ), and torture" },
+  one_of_the_central_characteristics: { definition: "That anthropology tends to provide a more holistic account of phenomena and is highly empirical", what_it_does: "", examples: "the Paleolithic and the Neolithic , which are of particular use in archaeology" },
+
 };
 
 // ============================================================
