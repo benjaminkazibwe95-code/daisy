@@ -15203,6 +15203,9 @@ const FLAT_DICT = {
   this_action: "Verified by a security function and then given the authority of the user",
   if_the_user_confirms_that_the_event: "Important by acting quickly on the notification, the agent may also employ its learning machinery to increase its weighting for this kind of event",
 
+  // === INGESTED 2026-06-22 00:35 ===
+  moa: "Free software released under the GNU GPL",
+
 };
 
 // ============================================================
