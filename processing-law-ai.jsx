@@ -22929,6 +22929,12 @@ const FLAT_DICT = {
   rwenzori_mineral_water_bottling_company: "Located in neighboring Seeta, Uganda 6",
   namanve_railway_station: "On the Uganda Railways System, administered by Rift Valley Railways",
 
+  // === INGESTED 2026-06-22 22:22 ===
+  harpercollins: { definition: "Headquartered in London and New York City and is a subsidiary of News Corp", what_it_does: "", examples: "Harper's Magazine , Harper's Weekly , Harper's Bazaar , and Harper's Young People" },
+  these_imprints: "Now published under the rubric of HarperCollins",
+  harperacademic: "The academic marketing department of HarperCollins",
+  the_approach_harperstudio_is_now_taking: { definition: "To offer little or no advance, but instead to split the profit 50% (rather than the industry standard 15%), with the author", what_it_does: "", examples: "columns, news articles and think tank reports" },
+
 };
 
 // ============================================================
