@@ -16365,6 +16365,21 @@ const FLAT_DICT = {
   the_first_method_of_this_type: "Invented by Baigent and Müller",
   these_ribbons: "Very flexible and can bend with angles larger than 90°",
 
+  // === INGESTED 2026-06-22 04:01 ===
+  dna_nanotechnology: { definition: "The design and manufacture of artificial nucleic acid structures for technological uses", what_it_does: "", examples: "molecular machines and DNA computers" },
+  the_overall_effect: { definition: "That one of the strands in the complex is replaced with another one", what_it_does: "", examples: "two- and three-dimensional structures, and periodic, aperiodic, and discrete structures" },
+  dna_origami: { definition: "First demonstrated for two-dimensional shapes, such as a smiley face , a coarse map of the Western Hemisphere, and the Mona Lisa painting", what_it_does: "", examples: "proteins, metallic nanoparticles, quantum dots , amines , [ 45 ] and fullerenes" },
+  an_individual_strand_displacement_reaction: "Revealing a new sequence in response to the presence of some initiator strand",
+  these_cascades: { definition: "Made energetically favorable through the formation of new base pairs, and the entropy gain from disassembly reactions", what_it_does: "", examples: "AND, OR, and NOT gates" },
+  the_proposed_nanoparticle: "Characterized by atomic force microscopy (AFM), transmission electron microscopy (TEM) and Förster resonance energy transfer (FRET)",
+  the_constructed_box: { definition: "Shown to have a unique reclosing mechanism, which enabled it to repeatedly open and close in response to a unique set of DNA or RNA keys", what_it_does: "", examples: "controlling the function of single molecules, controlled drug delivery, and molecular computing" },
+  the_fluorescently_labeled_dna_tetrahedra: "Found to remain intact in the laboratory cultured human kidney cells despite the attack by cellular enzymes after two days",
+  the_results_of_the_experiment_showed_the_dox: "Not being pumped out and apoptosis of the cancer cells was achieved",
+  the_tetrahedron_without_dox: { definition: "Loaded into cells to test its biocompatibility, and the structure showed no cytotoxicity itself", what_it_does: "usually begins with specification of a desired target structure or function", examples: "" },
+  the_last_step: "The primary structure design, which is the specification of the actual base sequences of each nucleic acid strand",
+  geometric_models: "Used to examine tertiary structure of the nanostructures and to ensure that the complexes are not overly strained",
+  extended_threedimensional_lattices: "Analyzed by X-ray crystallography",
+
 };
 
 // ============================================================
