@@ -20086,6 +20086,13 @@ const FLAT_DICT = {
   another_eclipsing_binary: "Beta Lyrae , which is a semidetached binary star system in the constellation of Lyra",
   the_name_algol: "'demon star' (from Arabic : الغول al-ghūl ), which was probably given due to its peculiar behavior",
 
+  // === INGESTED 2026-06-22 14:17 ===
+  thus_it: "The distance from the center to either vertex of the hyperbola",
+  the_equation_of_an_ellipse: "Where ( h , k ) is the center of the ellipse in Cartesian coordinates , in which an arbitrary point is given by ( x , y )",
+  the_semiminor_axis: "Half of the minor axis",
+  the_minor_axis: "The longest line segment perpendicular to the major axis that connects two points on the ellipse's edge",
+  either_half_of_the_minor_axis: "Called the semi-minor axis, of length b",
+
 };
 
 // ============================================================
