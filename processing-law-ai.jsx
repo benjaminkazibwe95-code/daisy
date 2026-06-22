@@ -17763,6 +17763,11 @@ const FLAT_DICT = {
   the_converted_form: { definition: "Moved into a relational database, along with associated files for graphics, multimedia, or other associated data", what_it_does: "", examples: "generic vs" },
   when_an_actual_item_such_as_an_article: "Reached, PubMed Central converts the NLM markup to HTML for delivery, and provides links to related data objects",
 
+  // === INGESTED 2026-06-22 07:29 ===
+  a_polarization_rotator: "An optical device that rotates the polarization axis of a linearly polarized light beam by an angle of choice",
+  their_performance: "Wavelength-specific; a fact that may be a limitation",
+  because_they: "Based on total internal reflection, they are broadband —they work over a broad range of wavelengths",
+
 };
 
 // ============================================================
