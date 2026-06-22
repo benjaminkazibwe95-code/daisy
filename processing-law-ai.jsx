@@ -21520,6 +21520,21 @@ const FLAT_DICT = {
   the_largest_organization_of_anthropologists: { definition: "The American Anthropological Association (AAA), founded in 1903", what_it_does: "", examples: "circumcision and subincision ), and torture" },
   one_of_the_central_characteristics: { definition: "That anthropology tends to provide a more holistic account of phenomena and is highly empirical", what_it_does: "", examples: "the Paleolithic and the Neolithic , which are of particular use in archaeology" },
 
+  // === INGESTED 2026-06-22 18:25 ===
+  the_primary_mode_of_transmission: "The shared family environment of the infant, causing psychological , behavioral and social changes in the individual",
+  the_grandchildren_of_holocaust_survivors: { definition: "Overrepresented by 300% among the referrals to a psychiatry clinic in comparison with their representation in the general population", what_it_does: "", examples: "ethnicity , nationality , or religious identity )" },
+  oftentimes_trauma_in_the_second_generation: "Deemed as a traumatic response to parental trauma",
+  black_children_and_youth: "More susceptible to racial trauma because they have not yet acquired the knowledge to have a full understanding of racism and its effects",
+  signs_of_trauma_exhibited_in_black_children: { definition: "Often labeled as behavioral or educational disabilities, allowing the trauma to go untreated", what_it_does: "", examples: "depression and anxiety, the larger diagnosis often goes untreated" },
+  shin_argues_that_the_central_aspect_of_han: "Loss of identity, and defines han as 'the complex of emotions that result from the traumatic loss of collective identity'",
+  han: "Most commonly associated with divided families : families who were separated during the Korean War",
+  exposure_to_these_stressors: "Correlated with higher trauma symptoms in first-generation Vietnamese-American refugees",
+  these_unique_forms_of_mental_health_and_stress: "Often not addressed due to socio-cultural standards of silence and refusal to seek treatment",
+  this_type_of_genogram: { definition: "Inclusive to military personnel in that it takes into consideration the servicemembers' experiences", what_it_does: "", examples: "aggression, hyperactivity, and delinquency" },
+  another_cultural_consideration: "The family component",
+  it_can_also_inform_the_family_as_to_what: { definition: "Now beginning to be transmitted and can help to change the trajectory in the future and change the family dynamic principles", what_it_does: "", examples: "health, behavioral, and social issues that may persist across an individual's lifespan" },
+  given_that_transgenerational_trauma: { definition: "A unique form of traumatic exposure, such therapy modalities can be effective in reducing its negative long-term effects", what_it_does: "", examples: "trauma exposure, cognitive processing and reframing, stress management , and parent education" },
+
 };
 
 // ============================================================
