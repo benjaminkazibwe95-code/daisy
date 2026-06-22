@@ -21799,6 +21799,34 @@ const FLAT_DICT = {
   friston: { definition: "Principally known for models of functional integration in the human brain and the principles that underlie neuronal interactions", what_it_does: "", examples: "in the analysis of EEG and MEG data" },
   these_technical_contributions: "Motivated by schizophrenia research and theoretical studies of value-learning (with Gerry Edelman )",
 
+  // === INGESTED 2026-06-22 19:13 ===
+  substance_dualism: { definition: "Important historically for having given rise to much thought regarding the famous mind–body problem", what_it_does: "", examples: "the brain reach a sufficient level of complexity" },
+  it_asserts_that_when_matter: "Organized in the appropriate way (i.e., in the way that living human bodies are organized), mental properties emerge",
+  his_view_is_that_although_mental_states: "Ontologically irreducible to physical states, they are causally reducible",
+  mental_predicates: "Irreducibly different in character (rational, holistic, and necessary) from physical predicates (contingent, atomic, and causal)",
+  here_a_state: "The set of all properties of what's being studied",
+  thus_each_state: "Only one point in time",
+  interactionism: "The view that mental states, such as beliefs and desires, causally interact with physical states",
+  the_physical_causes: "In principle reducible to fundamental physics, and therefore mental causes are eliminated using this reductionist explanation",
+  some_actions: { definition: "Purely animal in nature, while others are the result of mind's free action on matter", what_it_does: "", examples: "Aristotle argues that changeless, eternal substantial form is necessarily immaterial" },
+  as_thoughts_of_earth: "Not heavy, any more than thoughts of fire are causally efficient, they provide an immaterial complement for the formless mind",
+  intellectual_operations: "Immaterial, the intellect itself and the intellectual soul, must likewise be immaterial and so incorruptible",
+  even_though_the_intellectual_soul_of_man: "Able to subsist upon the death of the human being, Aquinas does not hold that the human person is able to remain integrated at death",
+  the_separated_intellectual_soul: "Neither a man nor a human person",
+  the_intellectual_soul_by_itself: { definition: "Not a human person (i.e., an individual supposit of a rational nature)", what_it_does: "", examples: "memories, ended with his corporeal life" },
+  this_doctrine: { definition: "Not universally accepted by Christians today", what_it_does: "", examples: "heart and liver)" },
+  and_the_claim: "That qualia cannot be reduced to anything physical",
+  the_zombie_argument: "Based on a thought experiment proposed by David Chalmers over the issue of qualia or the hard problem of consciousness",
+  the_point: "That, in instances of some sort of brain damage (e.g",
+  a_counterargument_is_the_idea_that_matter: { definition: "Not infinitely divisible, and thus that the mind could be identified with material things that cannot be divided, or potentially Leibnizian monads", what_it_does: "", examples: "burning one's finger causes pain" },
+  but_pain: { definition: "Not supposed to be spatially locatable", what_it_does: "", examples: "compare such a mechanism to a physical mechanism that is well understood" },
+  the_problem_is_that_if_there: "Something totally non-physical causing a bunch of neurons to fire, then there is no physical event which causes the firing",
+  the_first_reply: "That the mind may influence the distribution of energy, without altering its quantity",
+  the_second_possibility: "To deny that the human body is causally closed, as the conservation of energy applies only to closed systems",
+  another_reply: "Akin to parallelism—Mills holds that behavioral events are causally overdetermined , and can be explained by either physical or mental causes alone",
+  this_conclusion: "Further supported by data from the effects of neuro-active chemicals (e.g",
+  this_argument: { definition: "Criticized by Peter Glassen in a debate with J", what_it_does: "", examples: "the belief that dualism is false" },
+
 };
 
 // ============================================================
