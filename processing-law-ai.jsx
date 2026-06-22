@@ -19103,6 +19103,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 11:10 ===
   blackwell: "A prosecution witness in the 1966 private prosecution attempt to bar the book Last Exit to Brooklyn from UK publication",
 
+  // === INGESTED 2026-06-22 11:12 ===
+  the_corresponding_topological_property: "Used to define compactness: a topological space is compact if every open cover has a finite subcover",
+  in_metric_spaces_this: { definition: "Equivalent to several other formulations, including sequential compactness , though these equivalences can fail in more general topological spaces", what_it_does: "", examples: "the open interval (0,1) and the real line" },
+  compactness: { definition: "Formally introduced by Maurice Fréchet in 1906 in work generalizing the Bolzano–Weierstrass theorem from sets of points to spaces of functions", what_it_does: "", examples: "the Arzelà–Ascoli theorem and the Peano existence theorem depend on compactness" },
+  the_significance_of_this_lemma: { definition: "Recognized by Émile Borel ( 1895 ), and it was generalized to arbitrary collections of intervals by Pierre Cousin (1895) and Henri Lebesgue ( 1904 )", what_it_does: "", examples: "the uniform continuity of a function)" },
+  this_sentiment: "Expressed by Lebesgue (1904) , who also exploited it in the development of the integral now bearing his name",
+  any_finite_space: "Compact; a finite subcover can be obtained by selecting, for each point, an open set containing it",
+  a_nontrivial_example_of_a_compact_space: "The (closed) unit interval [0,1] of real numbers",
+  lines_and_planes: "Not compact, since one can take a set of equally-spaced points in any given direction without approaching any point",
+  a_subset_of_euclidean_space_in_particular: { definition: "Compact if and only if it is closed and bounded", what_it_does: "", examples: "sequential compactness and limit point compactness , can be developed in general metric spaces" },
+  a_compact_set: "Sometimes referred to as a compactum , plural compacta",
+  if_x_is_a_topological_space_then_the_following: "Equivalent: Bourbaki defines a compact space (quasi-compact space) as a topological space where each filter has a cluster point (i.e., 8",
+  as_a_euclidean_space: { definition: "A metric space, the conditions in the next subsection also apply to all of its subsets", what_it_does: "", examples: "for a closed interval or closed n -ball" },
+  every_topological_space_x: "An open dense subspace of a compact space having at most one point more than X , by the Alexandroff one-point compactification",
+  then_x_is_compact_if_and_only_if_x: "A complete lattice (i.e., all subsets have suprema and infima)",
+
 };
 
 // ============================================================
