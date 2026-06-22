@@ -21466,6 +21466,15 @@ const FLAT_DICT = {
   thomas_accordingly_believes_punishment: "Directly related to earthly, living preparation and activity as well",
   while_modern_theologians_argue_it: "Being misconstrued, and is entirely life affirming, being about God's divine justice and salvation",
 
+  // === INGESTED 2026-06-22 18:15 ===
+  the_researchers_suggested_that_the_gene: { definition: "More active in 'the more communicative sex'", what_it_does: "", examples: "differentiation of neurons, communication between neurons, and synaptic plasticity" },
+  these_areas: { definition: "Commonly known as areas of language function", what_it_does: "", examples: "slurred speech, stuttering, and poor pronunciation, as well as dyspraxia" },
+  general_mild_motor_and_cognitive_deficits: { definition: "Noted across the board", what_it_does: "", examples: "alligators" },
+  loss_of_one_copy: { definition: "Associated with impairment of ultrasonic vocalisations and a modest developmental delay", what_it_does: "", examples: "the learning motor skills and the plasticity of synapses" },
+  when_the_birds: "Singing undirected song, there was a decrease of FOXP2 expression in Area X",
+  this_downregulation: "Not observed and FOXP2 levels remained stable in birds singing directed song",
+  their_case: "Studied at the Institute of Child Health of University College London",
+
 };
 
 // ============================================================
