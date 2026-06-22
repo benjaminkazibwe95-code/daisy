@@ -15209,6 +15209,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 00:37 ===
   additional_functionalities: "Available as add-ons (text-mining, image analytics, bioinformatics, etc.)",
 
+  // === INGESTED 2026-06-22 00:39 ===
+  discussion_about_fairness_in_machine_learning: { definition: "A relatively recent topic", what_it_does: "", examples: "LinkedIn and Facebook" },
+  if_the_model: "Derived by heuristic or iterative search methods, the measure of model performance is usually divergence",
+  a_third_option: { definition: "The coefficient of separation", what_it_does: "", examples: "will be positive when S {\textstyle S} is above a certain threshold" },
+  these_definitions: "Based in the actual outcome Y {\textstyle Y} and the predicted probability score S {\textstyle S}",
+  another_approach_to_individual_fairness: "That of counterfactual fairness [ 4 ]",
+  note_that_this: "Also categorized as a measure of individual fairness",
+  as_the_intermediate_representation: "Constructed giving the same probability to individuals inside or outside the protected group, this attribute is hidden to the classifier",
+  the_main_measures_used_in_this_approach: "False positive rate, false negative rate, and overall misclassification rate",
+
 };
 
 // ============================================================
