@@ -19549,6 +19549,24 @@ const FLAT_DICT = {
   if_the_field: "Not sufficiently sparse, then spectra from different sources in the image field will overlap",
   the_trade: "That slitless spectrographs can produce spectral images much more quickly than scanning a conventional spectrograph",
 
+  // === INGESTED 2026-06-22 12:40 ===
+  the_problem_posed_that_year: "To find the best way to place the masts on a ship",
+  euler: { definition: "18 such genres, with the general definition 2 m A, where A is the 'exponent' of the genre (i.e", what_it_does: "", examples: "the prime number 7" },
+  my_mill: "Carried out geometrically and could not raise a mouthful of water closer than fifty paces to the reservoir",
+  his_conditions: "Quite exorbitant—a 3000 ruble annual salary, a pension for his wife, and the promise of high-ranking appointments for his sons",
+  at_the_university_he: "Assisted by his student Anders Johan Lexell",
+  the_problem_is_to_decide_whether_it: "Possible to follow a path that crosses each bridge exactly once",
+  euler_showed_that_it: "Not possible: there is no Eulerian path",
+  the_constant_in_this_formula: "Now known as the Euler characteristic for the graph (or other mathematical object), and is related to the genus of the object",
+  the_most_notable_of_these_approximations: "Euler's method [ 94 ] and the Euler–Maclaurin formula",
+  his_work_in_astronomy: "Recognized by multiple Paris Academy Prizes over the course of his career",
+  the_sizes_or_shapes_of_the_curves: "Not important; the significance of the diagram is in how they overlap",
+  a_curve_that: "Contained completely within the interior zone of another represents a subset of it",
+  these_show_that_euler: "A devout Christian who believed the Bible to be inspired; the Rettung was primarily an argument for the divine inspiration of scripture",
+  the_french_philosopher_denis_diderot: "Visiting Russia on Catherine the Great's invitation",
+  the_empress: "Alarmed that Diderot's arguments for atheism were influencing members of her court, and so Euler was asked to confront him",
+  diderot: "Informed that a learned mathematician had produced a proof of the existence of God : he agreed to view the proof as it was presented in court",
+
 };
 
 // ============================================================
