@@ -20256,6 +20256,19 @@ const FLAT_DICT = {
   the_ras: "Targeted pharmacologically by ACE inhibitors and angiotensin II receptor antagonists (also known as angiotensin receptor blockers; ARB)",
   the_aldosterone_system: { definition: "Directly targeted by aldosterone antagonists", what_it_does: "", examples: "cuffless measurements that uses only optical sensors" },
 
+  // === INGESTED 2026-06-22 14:44 ===
+  the_four_main_moral_commitments: { definition: "Respect for autonomy, beneficence, nonmaleficence, and justice", what_it_does: "", examples: "nursing ethics" },
+  it_discusses_the_difference_between_what: "Proper and wrong at a certain moment and a particular society",
+  the_hospital_administrator: "Required to have a thorough awareness of their moral and legal obligations",
+  decisions_about_overarching_goals_of_treatment: "Reframed as technical matters excluding patients and their families",
+  palliative_care_experts: { definition: "Used as intermediaries to guide patients towards less invasive end-of-live treatment", what_it_does: "", examples: "connections between doctors and patients, coping mechanisms, and social support" },
+  western_bioethics: { definition: "Focused on rights, especially individual rights", what_it_does: "", examples: "seeking treatment and preserving life" },
+  a_high_value_and_worth: "Placed on human life in Islam, and in turn, human life is deeply valued in the practice of Islamic bioethics as well",
+  islamic_bioethics: "Strongly against abortion and strictly prohibits it",
+  despite_the_fact_that_islamic_law_and_morality: "Completely in agreement with one another, they may have distinct prescriptions because of their diverse ends and objectives",
+  healing_in_the_bible: { definition: "Often associated with the ministry of specific individuals including Elijah , Jesus and Paul", what_it_does: "", examples: "Catholics and Orthodox are on very similar positions" },
+  critics_of_this_philosophy_argue_that_it: { definition: "Not possible to assign universal morality to social values", what_it_does: "", examples: "Philosophy, Medicine, Law, Social Sciences" },
+
 };
 
 // ============================================================
