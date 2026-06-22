@@ -22103,6 +22103,25 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 20:03 ===
   when_businesses: { definition: "Experiencing growth, job confidence and security typically increase", what_it_does: "", examples: "an increasing number of men in the United States are not returning to work" },
 
+  // === INGESTED 2026-06-22 20:05 ===
+  how_quickly_this_effect_occurs: { definition: "Contested; [ 4 ] [ 5 ] some researchers claim that priming effects are almost instantaneous", what_it_does: "", examples: "visual priming works best with visual cues and verbal priming works best with verbal cues" },
+  the_representation: "Already partially activated when the second stimulus is encountered, so less additional activation is needed for one to become consciously aware of it",
+  negative_priming: "More difficult to explain",
+  perceptual_priming: "Sensitive to the modality and exact format of the stimulus",
+  an_example_of_perceptual_priming: { definition: "The identification of an incomplete word in a word-stem completion test", what_it_does: "", examples: "the absolute size of the stimuli can vary and still provide significant evidence of priming" },
+  when_a_stimulus: "Experienced, it is also primed",
+  semantic_priming: "Theorized to work because of spreading activation within associative networks",
+  three_experiments_were_conducted_and_it: "Found that semantic relationships within words differs when words occur in sentences rather than lists",
+  the_word_dog: "An associative prime for cat , since the words are closely associated and frequently appear together (in phrases like 'raining cats and dogs')",
+  a_useful_application_of_this_effect: "Reading written text",
+  these_later_words: { definition: "Processed more quickly than if they had been read alone, and the effect is greater for more difficult or uncommon words", what_it_does: "", examples: "in response times and error rates" },
+  the_prime: "Usually presented less than 80 ms (but typically between 40-60 ms) in this paradigm",
+  a_unique_feature_of_kindness_priming: { definition: "That it causes a temporarily increased resistance to negative stimuli in addition to the increased activation of positive associative networks", what_it_does: "", examples: "Hong and colleagues showed participants a different set of culture related images, like the U.S" },
+  a_priming_effect: "Observed when participants complete stems with words on the study list more often than with novel words",
+  the_word_fragment_completion_task: "Similar, but instead of being given the stem of a word, participants are given a word with some letters missing",
+  priming_is_demonstrated_when_participants: { definition: "Quicker to respond to words that have been primed with semantically-related words, e.g", what_it_does: "", examples: "safety language into report" },
+  this_dissociation: "Extended to other linguistic categories such phonology and syntactic processing by Blumstein, Milberg and their colleagues",
+
 };
 
 // ============================================================
