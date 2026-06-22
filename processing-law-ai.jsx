@@ -15663,6 +15663,12 @@ const FLAT_DICT = {
   engineering_systems: { definition: "Often designed using modular components", what_it_does: "", examples: "Le Corbusier's 'Radiant City' and Ebenezer Howard's 'Garden City'" },
   chaos: { definition: "Sometimes viewed as extremely complicated information, rather than as an absence of order", what_it_does: "", examples: "is not an issue as important as it is within chaos theory, in which it prevails" },
 
+  // === INGESTED 2026-06-22 01:59 ===
+  mathworld: "An online mathematics reference work, created and largely written by Eric W",
+  the_site: "Taken down by a court injunction",
+  among_these_stipulations: "The inclusion of a copyright notice at the bottom of the website and broad rights for the CRC Press to produce MathWorld in printed book form",
+  the_planetmath_project: "A result of MathWorld's being unavailable",
+
 };
 
 // ============================================================
