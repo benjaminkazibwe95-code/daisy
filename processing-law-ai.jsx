@@ -19363,6 +19363,15 @@ const FLAT_DICT = {
   the_large_sieve: { definition: "A method (or family of methods and related ideas) in analytic number theory", what_it_does: "", examples: "the Selberg sieve wherein only a few residue classes are removed" },
   large_here: "'a relatively large constant times | S | {\displaystyle |S|} '",
 
+  // === INGESTED 2026-06-22 12:15 ===
+  such_an_object: "Of little interest from the point of view adopted in mathematical analysis, so it is usually assumed that all a i ≠ 0",
+  the_equivalence_transformation: "Perfectly general, but two particular cases deserve special mention",
+  this_notion_of_convergence: "Very natural, but it is sometimes too restrictive",
+  the_convergents_thus_obtained: "Called modified convergents",
+  four_of_these: "Of primary importance in developing the analytic theory of continued fractions",
+  another_reason: "To find a possible solution to Hermite's problem",
+  notable_efforts_in_this_direction: "Made by Felix Klein (the Klein polyhedron ), Georges Poitou and George Szekeres",
+
 };
 
 // ============================================================
