@@ -16302,6 +16302,24 @@ const FLAT_DICT = {
   this_study_concludes_that_there: { definition: "No clear relationship between fiber-type composition and in vivo muscle tension, nor was there evidence of myofilament packing in the trained muscles", what_it_does: "", examples: "desmin and dystrophin" },
   while_the_research_on_muscle_fiber_remodeling: "On-going, there are generally accepted facts about the myofilament from the American College of Sports Medicine",
 
+  // === INGESTED 2026-06-22 03:51 ===
+  most_slime_molds: "Terrestrial and free-living, typically in damp shady habitats",
+  some_myxogastrians_and_protostelians: "Aquatic or semi-aquatic",
+  the_phytomyxea: { definition: "Parasitic, living inside their plant hosts", what_it_does: "", examples: "Physarum polycephalum have been used to simulate traffic networks" },
+  the_first_account_of_a_slime_mold: "Thomas Panckow [ de ] 's 1654 discussion of Lycogala epidendrum",
+  whittaker_observed_that_slime_molds: { definition: "Highly conspicuous and distinct within the Fungi, the group to which they were then classified", what_it_does: "", examples: "on rotting wood, or may be on a thin stalk which elevates the spores for release above the surface" },
+  when_food_is_depleted_and_they: { definition: "Ready to form sporangia, they form swarms", what_it_does: "", examples: "shaded forests, rotting wood, fallen or living leaves, and on bryophytes" },
+  these_unicellular_amoebae: "Commonly haploid and feed on small prey such as bacteria , yeast cells, and fungal spores by phagocytosis , engulfing them with its cell membrane",
+  the_species_fuligo_septica: "Often seen as a slimy yellow network in and on rotting logs",
+  each_reproductively_mature_slime_mold: "Diploid , meaning that it contains two copies of each of the three reproductive genes",
+  polycephalum: "Ready to make its reproductive cells, it grows a bulbous extension of its body to contain them",
+  when_food: "In short supply, many of the single-celled amoebae congregate and start moving as a single body, called a 'slug'",
+  in_this_state_they: "Sensitive to airborne chemicals and can detect food sources",
+  the_first_acrasin_to_be_discovered: { definition: "Cyclic adenosine monophosphate (cyclic AMP), a common cell signaling molecule, in Dictyostelium discoideum", what_it_does: "", examples: "in myxogastria (eukaryotes) and in myxobacteria ( prokaryotes )" },
+  polycephalum_forming_a_network_to_food_sources: "Similar to the large scale galaxy filament structure of the universe",
+  one_of_its_local_names: "'cheese mushroom', so called for its texture and flavor when cooked",
+  fuligo_septica: "Similarly collected in Mexico, cooked with onions and peppers and eaten in a tortilla",
+
 };
 
 // ============================================================
