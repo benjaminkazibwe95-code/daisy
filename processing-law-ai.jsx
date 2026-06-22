@@ -22969,6 +22969,11 @@ const FLAT_DICT = {
   their_rationale_is_that_so_many_jews: "Lost during the Holocaust that newcomers must be sought out and welcomed",
   the_aim_of_the_sikh_missionary_society: { definition: "The Advancement of the Sikh faith in the U.K", what_it_does: "", examples: "flu, to which many tribes have no immunity" },
 
+  // === INGESTED 2026-06-22 22:35 ===
+  jennifer_semakula_musisi: "A Ugandan lawyer and public administrator",
+  musisi: { definition: "A lawyer, advocate of the High Court of Uganda and seasoned administrator with a strong legal, administrative and leadership background", what_it_does: "", examples: "the George Washington University, Harvard Business School and Harvard Law School" },
+  one_of_her_key_achievements: { definition: "The recovery of the 8-acre piece of land on which the URA headquarters stands today", what_it_does: "", examples: "taxes accruing from oil exploration activities" },
+
 };
 
 // ============================================================
