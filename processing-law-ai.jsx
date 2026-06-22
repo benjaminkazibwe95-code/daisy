@@ -16579,6 +16579,14 @@ const FLAT_DICT = {
   this_nucleus: "Then injected into an ovum of the same species which has had its own genetic material removed",
   an_effect_of_these_reductions: "To allow increased accumulation of DNA damage likely contributing to cellular aging",
 
+  // === INGESTED 2026-06-22 04:35 ===
+  mayr: "An outspoken defender of the scientific method and was known to critique sharply science on the edge",
+  stresemann: { definition: "Very impressed and suggested that, between semesters, Mayr could work as a volunteer in the ornithological section of the museum", what_it_does: "", examples: "those of the Bronx County Bird Club" },
+  he_noted_that_the_german_society: "'far more scientific, far more interested in life histories and breeding bird species, as well as in reports on recent literature",
+  the_heckling_of_this_german_foreigner: "Tremendous, but he gave tit for tat, and any modern picture of Dr E",
+  mayr_said_he: { definition: "An atheist in regards to 'the idea of a personal God' because 'there is nothing that supports [it]'", what_it_does: "", examples: "those of J.B.S" },
+  the_precise_mechanisms_of_sympatric_speciation: "Usually a form of microallopatry enabled by variations in niche occupancy among individuals within a population",
+
 };
 
 // ============================================================
