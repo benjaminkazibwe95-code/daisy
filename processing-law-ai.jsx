@@ -20178,6 +20178,15 @@ const FLAT_DICT = {
   nabu: "Worshiped by the Babylonians and the Assyrians",
   his_wife: "The Akkadian goddess Tashmet",
 
+  // === INGESTED 2026-06-22 14:32 ===
+  its_climate: "That of dampness, which causes the body-mind to be clouded through a deficiency of yang qi",
+  its_primal_spirit: "The Yi, and emotion of happiness and is represented by the Yellow Dragon or Qilin , color yellow and golden",
+  the_wu_xing_earth: "Associated with the qualities of patience, thoughtfulness, practicality, hard work, and stability",
+  the_earth_element: "Also nurturing and seeks to draw all things together with itself, in order to bring balance and stability",
+  when_earth_is_in_balance_there: "A feeling of peace, happiness and contentment",
+  the_element_earth: "Associated with the planet Saturn on account of its yellow color",
+  these_four_types_of_earth: "Earth-of-Water (Wet/Cold Earth), Earth-of-Fire (Arid/Hot Earth), Earth-of-Metal (Dry/Hard Earth) and Earth-of-Wood (Loose-Fertile/Warm Earth)",
+
 };
 
 // ============================================================
