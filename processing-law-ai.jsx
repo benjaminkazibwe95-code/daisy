@@ -18993,6 +18993,13 @@ const FLAT_DICT = {
   the_answer: "5 + √ −15 and 5 − √ −15",
   cardano_then_says_that_this_answer: "'as subtle as it is useless'",
 
+  // === INGESTED 2026-06-22 10:50 ===
+  lcc: { definition: "Enumerative, meaning that it lists all the classes in officially published schedules, which are updated as needed by the Library of Congress", what_it_does: "", examples: "'Glaciers' and 'Glaciers—Fiction' that describe contents systematically" },
+  the_last_class_to_be_developed: "K (Law): the first K schedule was published in 1969 and not completed until the 2004 publication of KB",
+  all_updates: "Now distributed by the Library's Cataloging Distribution Service entirely online",
+  most_of_these_classes: "Divided further into two and three level sub-classes",
+  the_main_difference_between_ddc_and_lcc: "Their approach to classifying",
+
 };
 
 // ============================================================
