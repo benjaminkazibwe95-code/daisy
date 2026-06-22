@@ -21629,6 +21629,33 @@ const FLAT_DICT = {
   an_example_of_this_happening: "Looking at an infant",
   all_of_these_actions: "Culminating to the formation of spatial maps in the brain and the realization that 'Hey, that thing that's moving this object is actually a part of me",
 
+  // === INGESTED 2026-06-22 18:42 ===
+  translation: "The process in biological cells in which proteins are produced using RNA molecules as templates",
+  the_generated_protein: "A sequence of amino acids determined by the sequence of nucleotides in the RNA",
+  the_nucleotides: "Considered three at a time",
+  the_translation: "Performed by a large complex of functional RNA and proteins called ribosomes",
+  the_entire_process: "Called gene expression",
+  the_trnas_carry_specific_amino_acids_that: "Chained together into a polypeptide as the mRNA passes through and is 'read' by the ribosome",
+  the_three_stages_of_translation: "Initiation, elongation, and termination",
+  the_basic_process_of_protein_production: "The addition of one amino acid at a time to the end of a forming polypeptide chain",
+  this_operation: "Performed by a ribosome",
+  each_amino_acid_added: "Matched to a three-nucleotide subsequence of the mRNA",
+  the_successive_amino_acids_added_to_the_chain: "Matched to successive nucleotide triplets in the mRNA",
+  the_ribonucleotides: "'read' by translational machinery in a sequence of nucleotide triplets called codons",
+  the_ribosome: "A multisubunit structure containing ribosomal RNA (rRNA) and proteins",
+  the_anticodon: "An RNA triplet complementary to the mRNA triplet that codes for their cargo amino acid",
+  the_amino_acid: "Joined by its carboxyl group to the 3' OH of the tRNA by an ester bond",
+  the_growing_polypeptide_chain: "Transferred to the tRNA in the A site",
+  the_first_trna: "Attached at the start codon",
+  regulation_of_protein_synthesis: "Partly influenced by phosphorylation of eIF2 (via the α subunit), which is a part of the eIF2-GTP-Met-tRNA i Met ternary complex (eIF2-TC)",
+  another_regulator: { definition: "4EBP , which binds to the initiation factor eIF4E and inhibits its interactions with eIF4G , thus preventing cap-dependent initiation", what_it_does: "", examples: "yeast meiosis and ethylene response in plants" },
+  this_method_of_translation: { definition: "Important in conditions that require the translation of specific mRNAs during cellular stress, when overall translation is reduced", what_it_does: "", examples: "factors responding to apoptosis and stress-induced responses" },
+  when_a_stop_codon: { definition: "Reached, termination of the polypeptide occurs the ribosome is disassembled and the completed polypeptide is released", what_it_does: "has been termed 'functional translational readthrough'", examples: "" },
+  the_resulting_peptides: "Called W>F 'substitutants'",
+  these_solutions: "Used to extract 'kinetic signatures' of different specific mechanisms of synthesis regulation",
+  note_that_the_template_strand_of_the_dna: "The one the RNA is polymerized against; the other DNA strand would be the same as the RNA, but with thymine instead of uracil",
+  note_that_there: "3 translation 'windows', or reading frames , depending on where you start reading the code",
+
 };
 
 // ============================================================
