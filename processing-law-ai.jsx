@@ -21074,6 +21074,14 @@ const FLAT_DICT = {
   the_techniques_by_which_cells: "Studied have evolved",
   cytopathology: "Generally used on samples of free cells or tissue fragments, in contrast to the pathology branch of histopathology , which studies whole tissues",
 
+  // === INGESTED 2026-06-22 17:08 ===
+  if_the_ends: "Not labeled, convention is to assume that both sequences are written in the 5′-to-3′ direction",
+  whether_the_strand: "Sense (positive) or antisense (negative), the default query sequence in NCBI BLAST alignment is 'Plus' strand",
+  a_singlestranded_genome_that: "Used in both positive-sense and negative-sense capacities is said to be ambisense",
+  an_rna_sequence_that: "Complementary to an endogenous mRNA transcript is sometimes called ' antisense RNA '",
+  whether_a_viral_genome: { definition: "Positive-sense or negative-sense can be used as a basis for classifying viruses", what_it_does: "", examples: "those needed for viral replication)" },
+  other_antisense_mechanisms: { definition: "Not enzyme-dependent, but involve steric blocking of their target RNA (e.g", what_it_does: "", examples: "2′-O-alkyl, peptide nucleic acid (PNA), locked nucleic acid (LNA), and Morpholino oligomers" },
+
 };
 
 // ============================================================
