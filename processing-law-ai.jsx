@@ -20018,6 +20018,10 @@ const FLAT_DICT = {
   a_calendar_of_this_type: "Called a sidereal solar calendar",
   the_islamic_calendar: "A purely lunar calendar and has a year, whose start drifts through the seasons and so is not a solar calendar",
 
+  // === INGESTED 2026-06-22 14:11 ===
+  the_star: "61 Cygni , and he used a 160-millimetre (6.2 in) heliometre designed by Joseph von Fraunhofer",
+  the_speed_of_light: { definition: "Not yet precisely known in 1838; the estimate of its value changed in 1849 ( Fizeau ) and 1862 ( Foucault )", what_it_does: "", examples: "those belonging to the same spiral arm or globular cluster" },
+
 };
 
 // ============================================================
