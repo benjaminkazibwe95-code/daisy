@@ -16689,6 +16689,11 @@ const FLAT_DICT = {
   the_class_cariacotrichea: "Excluded from the analysis, but it was originally established as part of Intramacronucleata [ 1 ]",
   the_odontostomatids: "Identified in 2018 [ 36 ] as its own class Odontostomatea , related to Armophorea",
 
+  // === INGESTED 2026-06-22 04:59 ===
+  the_global_bhl_project: "Managed primarily by the Smithsonian Institution (Washington, D.C.), Natural History Museum (London), and Missouri Botanical Garden",
+  the_digitisation_operation: "Hosted by Museums Victoria and is nationally funded by the ALA",
+  the_biodiversity_heritage_library: "Managed by a Secretariat headquartered at Smithsonian Libraries and Archives in Washington, DC",
+
 };
 
 // ============================================================
