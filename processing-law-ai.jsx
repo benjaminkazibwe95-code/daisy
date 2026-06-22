@@ -16191,6 +16191,19 @@ const FLAT_DICT = {
   disaccharides_like_lactose_or_sucrose: { definition: "Cleaved into their two component monosaccharides", what_it_does: "", examples: "fat and proteins" },
   the_pathway: "A crucial reversal of glycolysis from pyruvate to glucose and can use many sources like amino acids, glycerol and Krebs Cycle",
 
+  // === INGESTED 2026-06-22 03:32 ===
+  these_different_variations_of_golgi_cisternae: "Categorized into three groups; cis Golgi network, medial, and trans Golgi network",
+  the_cisternae: { definition: "Shaped by the cytoskeleton of the cell through a lipid bilayer", what_it_does: "", examples: "some forms of muscular dystrophy, cystic fibrosis, cancer, and diabetes" },
+  this_also_works_to_make_sure_that_reactions: "Happening in the correct places within the Golgi and that proteins do not undergo the wrong modification if they are in the wrong location",
+  the_medial_cisternae: "Where the mannose residue and extra N-acetylglucosamine is removed",
+  these_glycosylated_structures: { definition: "Integral for proper protein function, influencing cellular interactions, protein trafficking, and immune recognition", what_it_does: "", examples: "GlcNAc , galactose (Gal), and sialic acid (NANA)" },
+  the_cisgolgi_network: "Involved in the phosphorylation of oligosaccharides on lysosomal proteins, a modification that helps target proteins to the lysosomes",
+  the_transgolgi_network: "Responsible for adding sialic acid (NANA) and sorting proteins into vesicles destined for lysosomes or secretion",
+  the_secretory_pathway: { definition: "Essential for the sorting, packing, and delivery of proteins to their correct cellular destinations", what_it_does: "", examples: "the plasma membrane, endosomes, or lysosomes" },
+  the_first_step_in_the_secretory_pathway: "The formation of transport vesicles at the ER",
+  these_vesicles: { definition: "Coated with COPII , a protein complex essential for budding from the ER", what_it_does: "", examples: "glycosylation and proteolytic processing" },
+  the_lysosomal_enzymes: "Then delivered to the lysosomes for their final role in cellular degradation",
+
 };
 
 // ============================================================
