@@ -16466,6 +16466,23 @@ const FLAT_DICT = {
   blood_residue_analysis: "Also a technique used in archeology",
   other_terms_where_blood: "Used in a family history sense are blue-blood , royal blood , mixed-blood and blood relative",
 
+  // === INGESTED 2026-06-22 04:18 ===
+  alkylation: { definition: "Accomplished with the class of drugs called alkylating antineoplastic agents", what_it_does: "", examples: "lithium, can be removed and washed away in the work-up" },
+  alkylating_agents: "Often classified according to their nucleophilic or electrophilic character",
+  the_reaction: "Catalysed by aluminium trichloride",
+  hydroamination: "Another green method for N-alkylation",
+  thiols: "Readily alkylated to give thioethers via the thiol-ene reaction",
+  alcohols: { definition: "Also good alkylating agents in the presence of suitable acid catalysts", what_it_does: "", examples: "most methyl amines are prepared by alkylation of ammonia with methanol" },
+  the_alkylation_of_phenols: "Particularly straightforward since it is subject to fewer competing reactions",
+  ethylene_oxide: "The alkylating group in this reaction",
+  alkyl_halides: "Typical alkylating agents",
+  dimethyl_sulfate: "Intermediate in electrophilicity",
+  this_mechanism_of_toxicity: { definition: "Relevant to the function of anti-cancer drugs in the form of alkylating antineoplastic agents", what_it_does: "", examples: "mustard gas (sulfide of dichloroethyl) function as alkylating agents" },
+  silicotungstic_acid: { definition: "Used to manufacture ethyl acetate by the alkylation of acetic acid by ethylene : [ 10 ] Alkylation in biology causes DNA damage", what_it_does: "", examples: "EMS (Ethyl methanesulfonate)" },
+  alkylation_damaged_ring_nitrogen_bases: "Repaired via the base excision repair (BER) pathway",
+  alkylate: "Also a key component of avgas",
+  prevalent: "Demethylations , which are prevalent in biology, organic synthesis, and other areas, especially for methyl ethers and methyl amines",
+
 };
 
 // ============================================================
