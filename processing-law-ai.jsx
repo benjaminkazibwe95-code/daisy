@@ -19038,6 +19038,9 @@ const FLAT_DICT = {
   in_the_special_case_that_r: "Also a field , the polynomial ring R [ x ] is a principal ideal domain and, more importantly to our discussion here, a Euclidean domain",
   this_ring: "Not a field (and is not even an integral domain ) because 2 × 2 = 4 ≡ 0 (mod 4)",
 
+  // === INGESTED 2026-06-22 10:58 ===
+  ahlfors: { definition: "A visiting scholar at the Institute for Advanced Study in 1962 and again in 1966", what_it_does: "", examples: "Riemann surfaces (1960) [ 6 ] and Conformal invariants (1973)" },
+
 };
 
 // ============================================================
