@@ -16650,6 +16650,24 @@ const FLAT_DICT = {
   one_measurement_ton_or_freight_ton: "Equal to 40 cubic feet (1.133 m 3 ), but historically it has had several different definitions",
   in_general_if_a_cargo: "Heavier than salt water, the actual weight is used",
 
+  // === INGESTED 2026-06-22 04:53 ===
+  when_direct_solar_radiation: "Not blocked by clouds , it is experienced as sunshine , a combination of bright light and radiant heat (atmospheric)",
+  daylighting: "The natural lighting of interior spaces by admitting sunlight",
+  solar_irradiance: "The rate of solar energy received by a unit area from sunlight",
+  some_gamma_rays: { definition: "Caused by cosmic rays interacting with the solar atmosphere, but this does not explain these findings", what_it_does: "", examples: "Venus's thick atmosphere reflects more than 60% of the solar light it receives" },
+  the_actual_illumination_of_the_surface: "About 14,000 lux, comparable to that on Earth 'in the daytime with overcast clouds'",
+  the_spectrum_on_the_surface: "Slightly redder than that on Earth, due to scattering by reddish dust in the Martian atmosphere",
+  when_the_direct_radiation: { definition: "Not blocked by clouds, it is experienced as sunshine", what_it_does: "", examples: "at latitudes of 65 degrees, this can vary by more than 25% as a result of Earth's orbital variation" },
+  while_the_color_of_the_sky: { definition: "Usually determined by Rayleigh scattering , an exception occurs at sunset and twilight", what_it_does: "", examples: "is approximately 450–650 nm" },
+  when_illumination: "Indirect, Rayleigh scattering in the upper atmosphere will lead blue wavelengths to dominate",
+  these_sugars: "Then used as building-blocks and in other synthetic pathways that allow the organism to grow",
+  fields_devoted_to_crops: "Enriched by inedible plant matter, providing sugars and nutrients for future harvests",
+  fossil_fuels: "The remnants of ancient plant and animal matter, formed using energy from sunlight and then trapped within Earth for millions of years",
+  the_effect_of_sunlight: "Relevant to painting , evidenced for instance in works of Édouard Manet and Claude Monet on outdoor scenes and landscapes",
+  sunshine: "Often blocked from entering buildings through the use of walls , window blinds , awnings , shutters , curtains , or nearby shade trees",
+  sunshine_exposure: { definition: "Needed biologically for the production of Vitamin D in the skin, a vital compound needed to make strong bone and muscle in the body", what_it_does: "", examples: "Hinduism , the Sun is considered to be a god , as it is the source of life and energy on Earth" },
+  sunbathing: { definition: "A popular leisure activity in which a person sits or lies in direct sunshine", what_it_does: "", examples: "cataracts and macular degeneration" },
+
 };
 
 // ============================================================
