@@ -21981,6 +21981,39 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 19:44 ===
   fundamental_to_the_study_of_management: "Organizational change",
 
+  // === INGESTED 2026-06-22 19:46 ===
+  some_behaviors: "Common while others are unusual",
+  it_is_concerned_with_how_information: { definition: "Learned and passed on, as well as creative application of knowledge and personal beliefs such as religion", what_it_does: "", examples: "crime , sexuality , and social inequality" },
+  social_norms: "Unwritten expectations that members of society have for one another",
+  these_norms: { definition: "Ingrained in the particular culture that they emerge from, and humans often follow them unconsciously or without deliberation", what_it_does: "", examples: "decorum , social responsibility , property rights , contractual agreement , morality , and justice" },
+  humans: "Also loss averse , fearing loss rather than seeking gain",
+  ethical_behavior: "Human behavior that takes into consideration how actions will affect others and whether behaviors will be optimal for others",
+  what_constitutes_ethical_behavior: "Determined by the individual value judgments of the person and the collective social norms regarding right and wrong",
+  value_judgments: "Intrinsic to people of all cultures, though the specific systems used to evaluate them may vary",
+  altruism: "An associated behavior in which humans consider the welfare of others equally or preferentially to their own",
+  deviance: "Punished by other individuals through social stigma , censure , or violence",
+  human_social_behavior: "Affected not only by individual relationships, but also by how behaviors in one relationship may affect others",
+  it_takes_different_forms_and: "Associated with many individual emotions",
+  conflicts_purely_of_disagreement: "Often resolved through communication or negotiation , but incorporation of emotional or obstructive aspects can escalate conflict",
+  interpersonal_conflict: { definition: "That between specific individuals or groups of individuals", what_it_does: "", examples: "cultural distance, social support, language proficiency , and individual characteristics" },
+  young_adulthood: { definition: "Establishing intimate relationships and career development, while middle adulthood focuses on generativity and family responsibilities", what_it_does: "", examples: "guilt , shame , and moral outrage" },
+  deceptive_behavior: { definition: "The intentional misrepresentation of information to gain advantage or avoid consequences", what_it_does: "", examples: "authority bias and social proof" },
+  economic_exploitation: { definition: "The systematic extraction of surplus value from workers' labor, manifesting through wage theft , unpaid overtime, and exploitation of migrant workers", what_it_does: "", examples: "drug cartels , human trafficking organizations, and traditional crime families" },
+  the_radicalization_process_typically: { definition: "A quest for personal significance, exposure to extremist narratives, and integration into radical networks", what_it_does: "", examples: "childhood trauma, substance abuse, and social disadvantage contributing significantly" },
+  human_cognition: "Distinct from that of other animals",
+  most_human_reasoning: "Done automatically without conscious effort on the part of the individual",
+  learned_knowledge: "Acquired to make more accurate inferences about the subject",
+  deductive_reasoning_infers_conclusions_that: { definition: "True based on logical premises, while inductive reasoning infers what conclusions are likely to be true based on context", what_it_does: "", examples: "guilt , shame , embarrassment , pride , envy , and jealousy" },
+  these_behaviors_exist_on_a_continuum_and: { definition: "Influenced by both biological and environmental factors", what_it_does: "", examples: "anxiety disorders , substance use disorders , and major depressive disorder" },
+  some_of_these_behaviors: "Adaptive while others are learned",
+  how_humans_engage_in_mating_behavior: "Heavily influenced by cultural norms and customs",
+  human_economic_decision_making: "Often reference dependent , in which options are weighed in reference to the status quo rather than absolute gains and losses",
+  the_simplest_societies: "Tribes that work primarily for sustenance as hunter-gatherers",
+  work_motivation: "Complex, both contributing to and subtracting from various human needs",
+  the_primary_motivation_for_work: "For material gain, which takes the form of money in modern societies",
+  passive_entertainment: "Typically derived from mass media , which may include written works or digital media",
+  active_entertainment: "Games in which individuals participate",
+
 };
 
 // ============================================================
