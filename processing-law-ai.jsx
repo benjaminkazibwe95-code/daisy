@@ -21917,6 +21917,12 @@ const FLAT_DICT = {
   this_important_requirement: "What distinguishes a contravariant vector from any other triple of physically meaningful quantities",
   ordinary_vectors: "Sometimes called true vectors or polar vectors to distinguish them from pseudovectors",
 
+  // === INGESTED 2026-06-22 19:27 ===
+  an_individual: { definition: "One that exists as a distinct entity", what_it_does: "", examples: "biology , law , and philosophy" },
+  society_is_a_multifaceted_concept_that: "Shaped and influenced by a wide range of different things, including human behaviors, attitudes, and ideas",
+  such_a_colony: "Called a genet , and an individual in such a population is referred to as a ramet",
+  the_principle_of_individual_rights: "The only moral base of all groups or associations",
+
 };
 
 // ============================================================
