@@ -15504,6 +15504,19 @@ const FLAT_DICT = {
   its_data: "Being supported from the Internet Archive and AWS",
   all_of_these: "Built on the open source tool SeerSuite , which uses the open source indexer Lucene",
 
+  // === INGESTED 2026-06-22 01:35 ===
+  closely_related: "Artificial neural networks , which are defined as machine learning models inspired by biological neural networks",
+  a_biological_neural_network: "Composed of a group of chemically connected or functionally associated neurons",
+  dendrites: "Branch-like extensions that come off of the cell body on one end, and their main purpose is to receive signals from other neurons",
+  all_of_these_neural_networks: "Specialized to work towards a specific function, such as basic survival, intense thought processing, or memory formation",
+  when_activities: "Repeated, the connections between those neurons strengthened",
+  the_general_scientific_community_at_the_time: "Skeptical of Bain's [ 9 ] theory because it required what appeared to be an inordinate number of neural connections within the brain",
+  it_is_now_apparent_that_the_brain: "Exceedingly complex and that the same brain 'wiring' can handle multiple problems and inputs",
+  theoretical_and_computational_neuroscience: "The field concerned with the analysis and computational modeling of biological neural systems",
+  since_neural_systems: "Closely related to cognitive processes and behavior, the field is closely related to cognitive and behavioral modeling",
+  the_aim_of_the_field: "To create models of biological neural systems in order to understand how biological systems work",
+  many_models: { definition: "Used; defined at different levels of abstraction, and modeling different aspects of neural systems", what_it_does: "", examples: "Alzheimer's and post-traumatic stress disorder" },
+
 };
 
 // ============================================================
