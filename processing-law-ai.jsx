@@ -19337,6 +19337,9 @@ const FLAT_DICT = {
   clark: { definition: "Convicted in 1999, resulting in a press release by the Royal Statistical Society which pointed out the mistakes", what_it_does: "", examples: "Bayes' theorem" },
   the_required_inference: { definition: "To estimate the (posterior) probability that a (randomly picked) driver is drunk, given that the breathalyzer test is positive", what_it_does: "", examples: "icon arrays, hypothetical outcome plots) help people to make better inferences" },
 
+  // === INGESTED 2026-06-22 12:04 ===
+  an_introduction_to_the_theory_of_numbers: "A classic textbook in the field of number theory , by G",
+
 };
 
 // ============================================================
