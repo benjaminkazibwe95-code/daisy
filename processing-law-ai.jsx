@@ -19375,6 +19375,34 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 12:17 ===
   he_also_showed_that_there: "Infinitely many numbers of the form n 2 + 1 {\displaystyle n^{2}+1} with at most two prime factors",
 
+  // === INGESTED 2026-06-22 12:19 ===
+  venice: "Europe's gateway to trade with the East, and a producer of fine glass , while Florence was a capital of textiles",
+  the_black_death: "A pandemic that affected all of Europe in the ways described, not only Italy",
+  the_spread_of_disease: "Significantly more rampant in areas of poverty",
+  plagues: "Easily spread by lice, unsanitary drinking water, armies, or by poor sanitation",
+  children_in_city_dwellings: "More affected by the spread of disease than the children of the wealthy",
+  some_historians_have_postulated_that_florence: { definition: "The birthplace of the Renaissance as a result of luck, i.e", what_it_does: "", examples: "Leonardo da Vinci , Sandro Botticelli , and Michelangelo Buonarroti" },
+  humanist_education: "Based on the programme of Studia Humanitatis , the study of five humanities: poetry , grammar , history , moral philosophy , and rhetoric",
+  these_libraries_were_places_where_ideas: "Exchanged and where scholarship and reading were considered both pleasurable and beneficial to the mind and soul",
+  as_freethinking: "A hallmark of the age, many libraries contained a wide range of writers",
+  an_essential_tool_of_renaissance_librarianship: "The catalog that listed, described, and classified a library's books",
+  his_major_feat_of_engineering: "Building the dome of Florence Cathedral",
+  the_roman_orders_types_of_columns: "Used: Tuscan and Composite",
+  alberti: "One of the first to use the arch on a monumental",
+  renaissance_artists: { definition: "Not pagans, although they admired antiquity and kept some ideas and symbols of the medieval past", what_it_does: "", examples: "the first crossing of the Pacific by a European expedition, revealing the vast scale of that ocean" },
+  the_discovery_of_continents_that: { definition: "Completely unknown to the ancients had a profound impact on European intellectual life in the 16th century", what_it_does: "", examples: "Erasmus , Huldrych Zwingli , Thomas More , Martin Luther , and John Calvin" },
+  the_disease: { definition: "Syphilis, and as reported by the humanist Ulrich von Hutten , Guaiac could be used as a cure for the pains of the disease", what_it_does: "", examples: "Giovanni Pierluigi da Palestrina , Orlande de Lassus , Tomás Luis de Victoria , and William Byrd" },
+  acceptance_of_renaissance_art: "Furthered by the continuous arrival of humanist thought in the country",
+  new_thoughts: "Carried by the humanist prelates, among them Vitéz János , archbishop of Esztergom , one of the founders of Hungarian humanism",
+  his_library: "Second only in size to the Vatican Library",
+  while_renaissance_ideas: "Moving north from Italy, there was a simultaneous southward spread of some areas of innovation, particularly in music",
+  italian_renaissance_artists: { definition: "Among the first to paint secular scenes, breaking away from the purely religious art of medieval painters", what_it_does: "", examples: "the contemporary religious upheaval portrayed by Albrecht Dürer" },
+  three_more_academies: { definition: "Founded at Königsberg (1544), Vilnius (1579), and Zamość (1594)", what_it_does: "", examples: "Pedro Nunes , João de Castro , Abraham Zacuto , and Martin Behaim" },
+  both_michelet_and_burckhardt: "Keen to describe the progress made in the Renaissance toward the modern age",
+  the_veil: "Woven of faith, illusion, and childish prepossession, through which the world and history were seen clad in strange hues",
+  lopez_has_contended_that_it: { definition: "A period of deep economic recession", what_it_does: "", examples: "made a case for a Renaissance of the 12th century" },
+  the_san_francisco_renaissance: "A vibrant period of exploratory poetry and fiction writing in San Francisco in the mid-20th century",
+
 };
 
 // ============================================================
