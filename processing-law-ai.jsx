@@ -16483,6 +16483,22 @@ const FLAT_DICT = {
   alkylate: "Also a key component of avgas",
   prevalent: "Demethylations , which are prevalent in biology, organic synthesis, and other areas, especially for methyl ethers and methyl amines",
 
+  // === INGESTED 2026-06-22 04:20 ===
+  pneumoniae_and_using_just_this_dna: { definition: "Able to make a harmless strain virulent", what_it_does: "", examples: "electroporation and micro-injection" },
+  subtilis_the_length_of_the_transferred_dna: "Greater than 1271 kb (more than 1 million bases)",
+  subtilis: { definition: "Induced toward the end of logarithmic growth, especially under conditions of amino acid limitation", what_it_does: "depends on a second homologous chromosome in addition to the damaged chromosome", examples: "double-strand breaks" },
+  cells_that_are_able_to_take_up_the_dna: "Called competent cells",
+  coli_cells: "Through channels known as zones of adhesion or Bayer's junction, with a typical cell carrying as many as 400 such zones",
+  their_role: "Established when cobalamine (which also uses these channels) was found to competitively inhibit DNA uptake",
+  electroporation: "Another method of promoting competence",
+  in_this_method_the_cells: { definition: "Briefly shocked with an electric field of 10-20 kV /cm, which is thought to create holes in the cell membrane through which the plasmid DNA may enter", what_it_does: "", examples: "Saccharomyces cerevisiae , may be transformed by exogenous DNA in the environment" },
+  cerevisiae_strains: "Transformed with 10 ug of plasmid YEp13, the strain DKD-5D-H yielded between 550 and 3115 colonies while strain OS1 yielded fewer than five colonies",
+  typically_plasmids: "Used for transformation in E",
+  the_cells: "Incubated on ice with the DNA, and then briefly heat-shocked (e.g., at 42 °C for 30–120 seconds)",
+  antibiotic_resistance: "The most commonly used marker for prokaryotes",
+  the_mixture_of_treated_cells: "Cultured on media that contain the antibiotic so that only transformed cells are able to grow",
+  another_method_of_selection: { definition: "The use of certain auxotrophic markers that can compensate for an inability to metabolise certain amino acids, nucleotides, or sugars", what_it_does: "", examples: "the lacZ gene which codes for β-galactosidase used in blue-white screening" },
+
 };
 
 // ============================================================
