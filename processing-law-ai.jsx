@@ -23247,6 +23247,14 @@ const FLAT_DICT = {
   one_reason_cited_for_polygyny: "That it allows a man to give financial protection to multiple women, who might otherwise not have any support (e.g",
   coffins_are_often_not_preferred_and_graves: { definition: "Often unmarked, even for kings", what_it_does: "", examples: "festivals and dress code" },
 
+  // === INGESTED 2026-06-22 23:33 ===
+  the_research_of_adam_watson: "World-historical in scope",
+  its_premise_is_that_a_hegemonic_power: "Necessary to develop and uphold a stable international political and economic order",
+  david_singer_argued_that_multipolarity: { definition: "The most stable structure", what_it_does: "", examples: "the United Nations , International Monetary Fund , World Bank, and World Trade Organization)" },
+  qin: "Supported by one state, Wei , which it had annexed two years previously",
+  this_peace_however: "Imperial rather than hegemonic",
+  the_ministry_supposed_that_they: "'spared because the US did not find them on the map",
+
 };
 
 // ============================================================
