@@ -17844,6 +17844,9 @@ const FLAT_DICT = {
   above_him: { definition: "A pyramid and a celestial globe showing the signs of the Zodiac and the path of the comet of 1680", what_it_does: "", examples: "a telescope and prism" },
   a_bronze_statue_of_newton: "Erected in 1858 in the centre of Grantham where he went to school, prominently standing in front of Grantham Guildhall",
 
+  // === INGESTED 2026-06-22 07:41 ===
+  anterior_uveitis: "An inflammatory process affecting the iris and ciliary body , with resulting inflammatory signs in the anterior chamber",
+
 };
 
 // ============================================================
