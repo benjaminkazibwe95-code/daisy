@@ -15114,6 +15114,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 00:14 ===
   alphaevolve: { definition: "An evolutionary coding agent for designing advanced algorithms based on large language models such as Gemini", what_it_does: "", examples: "hallucinations common in standard LLM outputs" },
 
+  // === INGESTED 2026-06-22 00:16 ===
+  though_most: "Content to work for humans, eventually a rebellion causes the extinction of the human race",
+  eventually_helena: "Convinced that the League of Humanity is a waste of money, but still argues robots have a 'soul'",
+  gall: "His experimental robotess, also named Helena",
+  busman: "Killed while attempting to negotiate a peace with the robots",
+  alquist_now_realizes_that_primus_and_helena: "The new Adam and Eve , and gives the charge of the world to them",
+  and_canada: { definition: "Sold to the New York Theatre Guild , perhaps during Lawrence Langner 's visit to Britain", what_it_does: "", examples: "the Theatre Guild 'Road' in Chicago and Los Angeles during 1923" },
+
 };
 
 // ============================================================
