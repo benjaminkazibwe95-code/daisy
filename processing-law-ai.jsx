@@ -18983,6 +18983,10 @@ const FLAT_DICT = {
   another_example_in_this_chapter: { definition: "The growth of a population of rabbits, where the solution requires generating a numerical sequence", what_it_does: "", examples: "square roots" },
   the_first_complete_english_translation: "Sigler's text of 2002",
 
+  // === INGESTED 2026-06-22 10:45 ===
+  the_next_simplest_example: "The ring of Gaussian integers Z [ i ] {\displaystyle \mathbb {Z} [i]} , consisting of complex numbers whose real and imaginary parts are integers",
+  a_set_of_torsionfree_generators: "Called a set of fundamental units",
+
 };
 
 // ============================================================
