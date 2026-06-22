@@ -16330,6 +16330,23 @@ const FLAT_DICT = {
   phagoptosis_can_occur_to_cells_that: { definition: "Pathogenic, cancerous, aged, damaged or excess to requirements", what_it_does: "", examples: "trauma or infection and occurs in several different forms" },
   necroptotic_pathways: "Associated with death receptors such as the tumor necrosis factor receptor 1",
 
+  // === INGESTED 2026-06-22 03:57 ===
+  her_work: "Central to the understanding of the molecular structures of DNA (deoxyribonucleic acid), RNA (ribonucleic acid), viruses , coal , and graphite",
+  franklin: "Played by Natalie Portman",
+  rosalind: "The eldest daughter and the second of five children",
+  at_that_time_norrish: { definition: "Succumbing due to heavy drinking", what_it_does: "", examples: "gas masks" },
+  the_coal_work: "Covered in a 1993 monograph, [ 48 ] and in the regularly published textbook Chemistry and Physics of Carbon",
+  since_wilkins: "Not in his office, Watson went to Franklin's lab with his urgent message that they should all collaborate before Pauling discovered his error",
+  she_took_the_view_that_building_a_model: "To be undertaken only after enough of the structure was known",
+  she_had_observed_that_the_particles: { definition: "Similar in length and had the same number of protein subunits", what_it_does: "", examples: "potato, turnip, tomato and pea" },
+  the_remainder_of_the_estate: "To be used for charities",
+  exposure_to_xray_radiation: "Sometimes considered to be a possible factor in Franklin's illness",
+  student_gosling_because_she: "Leaving King's to work at Birkbeck",
+  this_attitude: "Epitomized in the confrontation between Watson and Franklin over a preprint of Pauling's mistaken DNA manuscript",
+  this_dna_replication: "Firmly established by 1961 after further demonstration in other species, [ 230 ] and of the stepwise chemical reaction",
+  i_myself_feel_that_it: { definition: "Likely that the general nature of the Watson-Crick structure is correct, but that there is doubt about details", what_it_does: "", examples: "Franklin's friends Vittorio Luzzati, Caspar, Anne Piper, and Sue Richley" },
+  the_last_two: "Published posthumously",
+
 };
 
 // ============================================================
