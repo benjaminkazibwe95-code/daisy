@@ -15754,6 +15754,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 02:10 ===
   the_book: "Written completely in verse and does not contain any kind of mathematical notation",
 
+  // === INGESTED 2026-06-22 02:12 ===
+  diehr: { definition: "The third member of a trilogy of Supreme Court decisions on the patent-eligibility of computer software related inventions", what_it_does: "", examples: "time, temperature and thickness of the mold" },
+  the_citations_in_this_article: "Written in Bluebook style",
+
 };
 
 // ============================================================
