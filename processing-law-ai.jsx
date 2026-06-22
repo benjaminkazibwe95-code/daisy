@@ -22689,6 +22689,26 @@ const FLAT_DICT = {
   many_of_the_prostanoids: { definition: "Known to mediate local symptoms of inflammation : vasoconstriction or vasodilation , coagulation , pain , and fever", what_it_does: "", examples: "inflammation, allergic reactions, cancer cell growth, blood flow to tissues, and/or blood pressure" },
   the_eicosanoids: "Involved with each of these signs",
 
+  // === INGESTED 2026-06-22 21:43 ===
+  meristematic_cells: "Small cells, with thin primary cell walls , and small or no vacuoles",
+  their_protoplasm: "Dense, filling the entire cell, and they lack intercellular spaces",
+  apical_meristems: "Generally found at the tips of roots and stems, but in some arctic plants , they are located in the lower or middle parts of the plant",
+  the_sam: "Located at the tips of shoots and produces leaves, stems, and flowers, while the RAM is found at the tips of roots and generates new root tissues",
+  this_adaptation: { definition: "Believed to provide advantages in extreme environmental conditions", what_it_does: "", examples: "leaves and flowers" },
+  the_qc_cells: "Characterized by their low mitotic activity",
+  intercalary_meristems: "Capable of cell division, and they allow for rapid growth and regrowth of many monocots",
+  their_growth: "Limited to the flower with a particular size and form",
+  if_the_dominant_meristem: "Cut off, one or more branch tips will assume dominance",
+  if_apical_dominance: "Complete, they prevent any branches from forming as long as the apical meristem is active",
+  if_the_dominance: "Incomplete, side branches will develop",
+  knoxlike_genes: "Also present in some algae , mosses, ferns and gymnosperms",
+  a_spur: { definition: "Considered an evolutionary innovation because it defines pollinator specificity and attraction [ citation needed ]", what_it_does: "", examples: "soybean and pea is either determinate or indeterminate" },
+  the_plant_vascular_system: "Branched and peripheral",
+  root_apical_meristems: "Not readily cloned, however",
+  this_cloning: "Called asexual reproduction or vegetative reproduction and is widely practiced in horticulture to mass-produce plants of a desirable genotype",
+  the_critical_signal_substance: { definition: "The lipo- oligosaccharide Nod factor , decorated with side groups to allow specificity of interaction", what_it_does: "", examples: "Lotus japonicus , Medicago truncatula and soybean ( Glycine max )" },
+  these_cork_cells: "Impermeable to water and gases because of a substance called suberin that coats them",
+
 };
 
 // ============================================================
