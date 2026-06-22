@@ -15829,6 +15829,25 @@ const FLAT_DICT = {
   the_study_of_varieties: { definition: "An important part of universal algebra", what_it_does: "", examples: "m ( i ( x ), m ( x , m ( y , e ))) would be an element of the term algebra" },
   one_of_the_axioms_defining_a_group: { definition: "The identity m ( x , i ( x )) = e ; another is m ( x , e ) = x", what_it_does: "", examples: "fields and division rings" },
 
+  // === INGESTED 2026-06-22 02:30 ===
+  a_record_type_is_a_data_type_that: { definition: "Such values and variables", what_it_does: "", examples: "System F-sub" },
+  records: { definition: "Well-established in the first half of the 20th century, when most data processing was done using punched cards", what_it_does: "", examples: "card reader, tape, or disk)" },
+  the_contents_of_punchcardstyle_records: "Originally called 'unit records' because punchcards had pre-determined document lengths",
+  a_variablelength_record: "A record in which the size of the record in bytes is approximately equal to the sum of the sizes of its fields",
+  the_concept_of_records_and_fields: "Central in some early file sorting and tabulating utilities, such as IBM's Report Program Generator (RPG)",
+  cobol: { definition: "The first widespread programming language to support record types, [ 10 ] and its record definition facilities were quite sophisticated at the time", what_it_does: "", examples: "insertion of currency signs, decimal points, and digit group separators)" },
+  each_file: { definition: "Associated with a record variable where data is read into or written from", what_it_does: "", examples: "FORTRAN 77 and ALGOL 68 did add them" },
+  the_original_lisp_programming_language_too: "Lacking records (except for the built-in cons cell ), but its S-expressions provided an adequate surrogate",
+  the_pascal_programming_language: { definition: "One of the first languages to fully integrate record types with other basic types into a logically consistent type system", what_it_does: "", examples: "Ada , Modula , and Java ), also supported records" },
+  although_records: { definition: "Not often used in their original context anymore (i.e", what_it_does: "", examples: "C++ , Python , JavaScript , and Objective-C which address the same modularity needs of programming" },
+  the_tables_themselves: "Also records which may have a foreign key : a key that references data in another table",
+  this_facility: { definition: "Needed to implement certain services such as debugging , garbage collection , and serialization", what_it_does: "", examples: "same field types and names, in the same order)" },
+  objects_in_objectoriented_languages: "Often implemented in rather complicated ways, especially in languages that allow multiple class inheritance",
+  a_selfdefining_record: { definition: "A type of record which contains information to identify the record type and to locate information within the record", what_it_does: "", examples: "the record's creation time and the size of the record in bytes" },
+  a_primary_key: { definition: "Unique throughout all stored records; only one of this key exists", what_it_does: "", examples: "an employee file might contain employee number, name, department, and salary" },
+  the_department_code: "Not necessarily unique; it may also be indexed, in which case it would be considered a secondary key , or alternate key",
+  keys: "Usually chosen in a way that minimizes the chances of multiple values being feasibly mapped to by one key",
+
 };
 
 // ============================================================
