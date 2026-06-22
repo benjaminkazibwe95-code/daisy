@@ -18325,6 +18325,11 @@ const FLAT_DICT = {
   he_also_said_that_there: { definition: "An infinite number of atoms, spread across the void", what_it_does: "", examples: "the Sun, the Moon, the stars, and anything else visible in the night sky—exist together in the void" },
   they_shifted_around_each_other_until_they: { definition: "Sorted 'like to like'", what_it_does: "", examples: "Pierre Gassendi (1592–1655) and Robert Boyle (1627–1691)" },
 
+  // === INGESTED 2026-06-22 08:50 ===
+  femtochemical_ir_spectroscopy: "Developed for that reason, and it is possible to probe molecular structure extremely close to the transition point",
+  one_demonstration_of_this_principle: "Found in the two bicyclic compounds depicted below",
+  one_way_that_enzymatic_catalysis_proceeds: "By stabilizing the transition state through electrostatics",
+
 };
 
 // ============================================================
