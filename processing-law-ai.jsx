@@ -21575,6 +21575,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 18:29 ===
   contact: { definition: "No longer sufficient", what_it_does: "", examples: "the band, clan or tribe" },
 
+  // === INGESTED 2026-06-22 18:31 ===
+  survival_depended_on_behavioral_patterns_that: "Repeated or reinforced through life and death situations",
+  it_has_been_claimed_that_this: { definition: "An essential step towards a more complete understanding of emotion effects on memory", what_it_does: "", examples: "the perpetrator's clothing or vehicle" },
+  retrieval: "A process of reconstructing past experiences; this phenomenon of reconstruction is influenced by a number of different variables described below",
+  the_mood_congruence_effect: "The tendency of individuals to retrieve information more easily when it has the same emotional content as their current emotional state",
+  the_retrieval_of_information: "More effective when the emotional state at the time of retrieval is similar to the emotional state at the time of encoding",
+  detail_recount: "Also something that changed based on the emotion state a person is in when they are remembering an event",
+  if_an_event: "Being collaboratively recalled the specific detail count is higher than if an individual is doing it",
+  those_who_were_experiencing_negative_emotions: "More precise than those in the positive and neutral conditions",
+  the_longterm_recall_of_emotions: { definition: "More in line with the primed opinions, showing that long-term recall of emotions was heavily influenced by current opinions", what_it_does: "", examples: "forming memories, and found that the emotion regulation efforts do have cognitive consequences" },
+  both_negative_and_positive_stimuli: { definition: "Remembered higher than neutral stimuli", what_it_does: "", examples: "pictures, film clips, and words" },
+  memories_that: "Emotionally significant and relevant for the future are therefore preferentially consolidated during sleep",
+  this_can_translate_to_mean_that_memories_that: "More meaningful or valuable to a person are consolidated more",
+
 };
 
 // ============================================================
