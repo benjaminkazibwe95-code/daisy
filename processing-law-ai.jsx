@@ -19878,6 +19878,12 @@ const FLAT_DICT = {
   this_emission: "Consistent with a circularized orbit of a polarized 'hot spot' on an accretion disk in a strong magnetic field",
   the_radiating_matter: { definition: "Orbiting at 30% of the speed of light just outside the innermost stable circular orbit", what_it_does: "", examples: "the galaxy 4C +37" },
 
+  // === INGESTED 2026-06-22 13:36 ===
+  the_unit: "Part of the Gaussian system of units, which inherited it from the older centimetre–gram–second electromagnetic units (CGS-EMU) system",
+  one_gauss: "Defined as one maxwell per square centimetre",
+  since_the_name: "Derived from a person's name, its symbol is the uppercase letter 'G'",
+  when_the_unit: { definition: "Spelled out, it is written in lowercase ('gauss'), unless it begins a sentence", what_it_does: "", examples: "in milligauss, mG (or mGs), or kilogauss, kG (or kGs)" },
+
 };
 
 // ============================================================
