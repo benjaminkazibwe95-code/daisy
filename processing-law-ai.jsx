@@ -19319,6 +19319,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 11:54 ===
   gosset: "A modest man who once cut short an admirer with this comment: 'Fisher would have discovered it all anyway",
 
+  // === INGESTED 2026-06-22 11:56 ===
+  statistics_education: "The practice of teaching and learning of statistics , along with the associated scholarly research",
+  the_asa_and_ap_guidelines: "Followed by contemporary textbooks in the US, such as those by Freedman , Purvis & Pisani ( Statistics ) [ 51 ] and by David S",
+  these_dissertations: { definition: "Archived on the IASE web site", what_it_does: "", examples: "probability theory and the t -test" },
+  driving_both_of_these_changes: { definition: "The increased role of computing in teaching and learning statistics", what_it_does: "", examples: "MOSAIC have been creating courses that blend computer science, modeling, and statistics" },
+
 };
 
 // ============================================================
