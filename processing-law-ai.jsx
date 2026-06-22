@@ -17752,6 +17752,17 @@ const FLAT_DICT = {
   the_most_glaring_example: "The set of functions e 2 πi p · x ⁄ h",
   the_delta_functions_themselves: "Not square integrable either",
 
+  // === INGESTED 2026-06-22 07:27 ===
+  submissions_to_pmc: "Indexed and formatted for enhanced metadata , medical ontology , and unique identifiers which enrich the XML structured data for each article",
+  the_goal_of_ebiomed: "To provide free access to all biomedical research",
+  publications: "Allowed time-embargoed paywalls up to one year",
+  these_articles: "Required to be included within 12 months of publication",
+  received_articles: "Converted via XSLT to the very similar NLM Archiving and Interchange DTD",
+  this_process_may_reveal_errors_that: "Reported back to the publisher for correction",
+  graphics: "Also converted to standard formats and sizes",
+  the_converted_form: { definition: "Moved into a relational database, along with associated files for graphics, multimedia, or other associated data", what_it_does: "", examples: "generic vs" },
+  when_an_actual_item_such_as_an_article: "Reached, PubMed Central converts the NLM markup to HTML for delivery, and provides links to related data objects",
+
 };
 
 // ============================================================
