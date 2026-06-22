@@ -16756,6 +16756,25 @@ const FLAT_DICT = {
   the_process_that_occurs: "Similar to the Q-cycle in Complex III of the electron transport chain",
   the_second_electron: "Transferred to heme b L which then transfers it to heme b H which then transfers it to PQ",
 
+  // === INGESTED 2026-06-22 05:08 ===
+  brown_algae: "Unique among Stramenopiles in developing into multicellular forms with differentiated tissues",
+  they_still_reproduce_by: "Of flagellated spores and gametes that closely resemble cells of other Stramenopiles",
+  the_rockweeds_and_leathery_kelps: "Often the most conspicuous algae in their habitats",
+  a_holdfast: "A rootlike structure present at the base of the algae",
+  a_stipe: { definition: "A stalk or stemlike structure present in an alga", what_it_does: "", examples: "Fucus ), the tissues within the stipe are divided into three distinct layers or regions" },
+  the_name_lamina: { definition: "That portion of a structurally differentiated alga that is flattened", what_it_does: "", examples: "the lamina is a broad wing of tissue that runs continuously along both sides of a branched midrib" },
+  blades: "Also often the parts of the alga that bear the reproductive structures",
+  pneumatocysts: { definition: "Most often spherical or ellipsoidal , but can vary in shape among different species", what_it_does: "", examples: "the diatoms ) as well as non-photosynthetic groups (such as the slime nets and water molds )" },
+  the_occurrence_of_phaeophyceae_as_fossils: { definition: "Rare due to their generally soft-bodied nature, [ 30 ] and scientists continue to debate the identification of some finds", what_it_does: "", examples: "the red algae and green algae , have a number of calcareous members" },
+  this_combination_of_characteristics: { definition: "Similar to certain modern genera in the order Laminariales (kelps)", what_it_does: "", examples: "Julescraneia , have been found" },
+  the_sporophyte_stage: "Often the more visible of the two, though some species of brown algae have similar diploid and haploid phases",
+  the_spores: "Then released from the sporangia and grow to form male and female gametophytes",
+  gametes: "Formed in specialized conceptacles that occur scattered on both surfaces of the receptacle, the outer portion of the blades of the parent plant",
+  egg_cells_and_motile_sperm: { definition: "Released from separate sacs within the conceptacles of the parent algae, combining in the water to complete fertilization", what_it_does: "", examples: "the tidal splash zone, rock pools, the whole intertidal zone and relatively deep near shore waters" },
+  brown_algae_growing_in_brackish_waters: "Almost solely asexual",
+  this_polysaccharide: { definition: "A major component of brown algae, and is not found in land plants", what_it_does: "", examples: "alginic acid enhances the immune system of rainbow trout" },
+  younger_fish: { definition: "More likely to survive when given a diet with alginic acid", what_it_does: "", examples: "kelp beds also fix a significant portion of the earth's carbon dioxide yearly through photosynthesis" },
+
 };
 
 // ============================================================
