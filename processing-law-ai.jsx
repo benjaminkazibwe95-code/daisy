@@ -17533,6 +17533,24 @@ const FLAT_DICT = {
   two_major_physical_theories: "Developed during the 20th century starting from these issues: for the former, the theory of relativity ; for the second, quantum mechanics",
   all_that_remains: { definition: "More and more precise measurement", what_it_does: "", examples: "Philipp von Jolly" },
 
+  // === INGESTED 2026-06-22 06:51 ===
+  the_minimum_test_of_insitu_soil_resistivity: { definition: "Measured using the Wenner four pin method if often performed to judge a site's corrosivity", what_it_does: "", examples: "cathodic protection to stop or reduce the rate of corrosion" },
+  atmospheric_corrosion_generally: "General corrosion in a non-specific environment",
+  prevention_of_atmospheric_corrosion: "Typically handled by use of materials selection and coatings specifications",
+  as_long_as_the_scratches: "Fine, condensation moisture should not corrode the underlying steel as long as both the zinc and steel are in contact",
+  as_long_as_there: "Moisture, the zinc corrodes and eventually disappears",
+  hazardous_materials: "Often carried in pipelines and thus their structural integrity is of paramount importance",
+  corrosion_control_and_solutions: "Thus necessary for the world economy",
+  water_is_one_and_air: "Usually present too and the water can become stagnant",
+  structural_integrity: "Important for safety and to avoid marine pollution",
+  galvanic_corrosion: "Also exploited when a sacrificial metal is used in cathodic protection",
+  galvanic_corrosion_happens_when_there: "An active metal and a more noble metal in contact in the presence of electrolyte",
+  with_general_corrosion_it: "Easier to predict the amount of material that will be lost over time and this can be designed into the engineered structure",
+  scc: { definition: "Highly chemically specific in that certain alloys are likely to undergo SCC only when exposed to a small number of chemical environments", what_it_does: "", examples: "the nature or form of the stress cycle" },
+  removal_of_zinc_from_brass: { definition: "A more common example", what_it_does: "", examples: "mussels, worms and even sponges have been known to degrade engineering materials" },
+  sometimes_stainless_steel: "Not the correct choice and carbon steel would be better",
+  these_storage_places: "Usually called aircraft boneyards",
+
 };
 
 // ============================================================
