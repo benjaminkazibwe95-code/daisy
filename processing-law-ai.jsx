@@ -19718,6 +19718,9 @@ const FLAT_DICT = {
   this_atmospheric_motion: "Known as zonal overturning circulation",
   latitudinal_circulation: "A result of the highest solar radiation per unit area (solar intensity) falling on the tropics",
 
+  // === INGESTED 2026-06-22 13:07 ===
+  the_reason_for_the_changes: "Given by the society as the increasing financial demands of the University of Chicago Press",
+
 };
 
 // ============================================================
