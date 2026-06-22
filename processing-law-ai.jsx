@@ -21040,6 +21040,16 @@ const FLAT_DICT = {
   the_ultimate_consequence: { definition: "Priming and activation of the immune system for attack against the antigens which the dendritic cell presents on its surface", what_it_does: "", examples: "the SARS virus, seem to use DC-SIGN to 'hitchhike' to its target cells" },
   the_physiological_role_of_dcsign_in_vivo: { definition: "More difficult to ascertain", what_it_does: "", examples: "dendritic cell based vaccinations, have been emerging as a treatment with varying success" },
 
+  // === INGESTED 2026-06-22 17:02 ===
+  these_enzymes: { definition: "Found in bacteria and archaea and provide a defense mechanism against invading viruses", what_it_does: "", examples: "allowing the large scale production of proteins such as human insulin used by diabetic patients" },
+  the_mirrorlike_palindrome: "Similar to those found in ordinary text, in which a sequence reads the same forward and backward on a single strand of DNA, as in GTAATG",
+  the_inverted_repeat_palindrome: "Also a sequence that reads the same forward and backward, but the forward and backward sequences are found in complementary DNA strands (i.e",
+  these_enzymes_are_multifunctional_and: { definition: "Capable of both restriction digestion and modification activities, depending upon the methylation status of the target DNA", what_it_does: "", examples: "BcgI and BplI) are multimers , containing more than one subunit" },
+  type_iii_enzymes: "Hetero-oligomeric, multifunctional proteins composed of two subunits, Res ( P08764 ) and Mod ( P08763 )",
+  res: { definition: "Required for restriction digestion, although it has no enzymatic activity on its own", what_it_does: "", examples: "motif I, the AdoMet binding pocket (FXGXG), and motif IV, the catalytic region (S/D/N (PP) Y/F)" },
+  isolated_restriction_enzymes: "Used to manipulate DNA for different scientific applications",
+  the_latter_example: "Called restriction fragment length polymorphism (RFLP)",
+
 };
 
 // ============================================================
