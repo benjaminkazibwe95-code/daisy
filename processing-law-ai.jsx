@@ -20310,6 +20310,11 @@ const FLAT_DICT = {
   ambulatory_care_or_outpatient_care: { definition: "Medical care provided on an outpatient basis, including diagnosis, observation, consultation, treatment, intervention, and rehabilitation services", what_it_does: "", examples: "diabetes or chronic obstructive pulmonary disease" },
   while_not_all_admissions_for_these_conditions: "Avoidable, appropriate ambulatory care could help prevent their onset, control an acute episode, or manage a chronic disease or condition",
 
+  // === INGESTED 2026-06-22 14:59 ===
+  a_blood_test: { definition: "A laboratory analysis performed on a blood sample that is usually extracted from a vein in the arm using a hypodermic needle , or via fingerprick", what_it_does: "", examples: "disease , mineral content, pharmaceutical drug effectiveness, and organ function" },
+  blood_tests: "Also used in drug tests to detect drug abuse",
+  a_venipuncture_is_useful_as_it: { definition: "A minimally invasive way to obtain cells and extracellular fluid ( plasma ) from the body for analysis", what_it_does: "the exact size and spacing of the droplets", examples: "the arterial blood gas test, require blood extracted from an artery" },
+
 };
 
 // ============================================================
