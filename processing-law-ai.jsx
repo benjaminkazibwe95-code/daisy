@@ -21937,6 +21937,10 @@ const FLAT_DICT = {
   the_term_most_commonly: { definition: "A person who purchases goods and services for personal use", what_it_does: "", examples: "inequalities of bargaining power between a consumer and a business" },
   only_consumers: "Protected per this act and any person, entity or organization purchasing a commodity for commercial reasons are exempted from any benefits of this act",
 
+  // === INGESTED 2026-06-22 19:36 ===
+  it_is_defined_as_purposive_striving_and: "One of the primary human psychological functions",
+  subordinate_volitions: { definition: "Particular acts of choice which carry into effect the object sought for by the governing or predominant volition", what_it_does: "", examples: "Kuhl and Heckhausen) and education (e.g., Corno), also make the motivation-volition distinction" },
+
 };
 
 // ============================================================
