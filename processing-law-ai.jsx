@@ -21291,6 +21291,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 17:48 ===
   addressing_these_projected_views: { definition: "Hoped to help the patient reexperience, address, and analyze the effects and resolve the current distress they may be causing", what_it_does: "", examples: "cognitive behavioral therapy" },
 
+  // === INGESTED 2026-06-22 17:50 ===
+  crisis_intervention: "A time-limited intervention with a specific psychotherapeutic approach to immediately stabilize those in crisis",
+  prompt_intervention_is_essential_as_victims: "Initially at high risk for maladaptive coping or immobilization, such as displaying distress behaviours that carry varying levels of risk",
+  stabilization: "Mobilizing resources to help victims regain a sense of order and normalcy, promoting independent functioning",
+  comprehension_of_the_traumatic_event: "Facilitated to aid the individual in understanding and expressing their feelings about the experience",
+  problemsolving: "A crucial aspect where counselors assist victims in resolving issues within their unique circumstances, promoting self-efficacy and self-reliance",
+  act: "A 7-stage crisis intervention model",
+  for_safety_purposes_it: { definition: "Important that two people go out together to assess the individual who experiencing a crisis", what_it_does: "", examples: "using the phrase ‘sort (x) out’ [ 42 ] can aid in minimising resistance to the help being offered" },
+
 };
 
 // ============================================================
