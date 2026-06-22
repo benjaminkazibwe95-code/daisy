@@ -20174,6 +20174,10 @@ const FLAT_DICT = {
   on_the_east: "The main harbor, called the Great Harbor; it faced the city's chief buildings, including the royal palace and the famous Library and Museum",
   a_similar_scholarly_complex: { definition: "The Museum (Mouseion, 'hall of the Muses')", what_it_does: "", examples: "a sizable minority of Jews, who had their own city quarter" },
 
+  // === INGESTED 2026-06-22 14:30 ===
+  nabu: "Worshiped by the Babylonians and the Assyrians",
+  his_wife: "The Akkadian goddess Tashmet",
+
 };
 
 // ============================================================
