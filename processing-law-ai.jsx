@@ -20496,6 +20496,11 @@ const FLAT_DICT = {
   almost_all_oxygen_in_the_blood: "Bound to hæmoglobin molecules in the red blood cells",
   the_degree_of_temperature_change: "Directly proportional to the cardiac output",
 
+  // === INGESTED 2026-06-22 15:28 ===
+  physical_activity: { definition: "A cornerstone of public health and prevention of non-communicable disease", what_it_does: "", examples: "coronary heart disease, stroke, diabetes mellitus and depression" },
+  intensities: "Broadly categorized according to energy expenditure using a standard measure of intensity, metabolic equivalents (METs)",
+  the_broad_categories: "Sedentary behavior, light activity, moderate activity, and vigorous activity",
+
 };
 
 // ============================================================
