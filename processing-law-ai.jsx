@@ -16320,6 +16320,9 @@ const FLAT_DICT = {
   one_of_its_local_names: "'cheese mushroom', so called for its texture and flavor when cooked",
   fuligo_septica: "Similarly collected in Mexico, cooked with onions and peppers and eaten in a tortilla",
 
+  // === INGESTED 2026-06-22 03:53 ===
+  cgcs: { definition: "Alkaline - insoluble", what_it_does: "", examples: "the immunostimulant properties of A" },
+
 };
 
 // ============================================================
