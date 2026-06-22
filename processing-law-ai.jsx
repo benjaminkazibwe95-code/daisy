@@ -19637,6 +19637,28 @@ const FLAT_DICT = {
   during_the_apollo_program_the_solar_wind: "Measured on the Moon via the Solar Wind Composition Experiment",
   the_termination_shock: { definition: "Traversed by Voyager 1 in 2004, [ 30 ] and Voyager 2 in 2007", what_it_does: "", examples: "data on the solar wind out to about 67 AU" },
 
+  // === INGESTED 2026-06-22 12:52 ===
+  living_things: { definition: "Composed of biochemical molecules , formed mainly from a few core chemical elements", what_it_does: "", examples: "the instructions to make each type of protein" },
+  artificial_life: "Being simulated and explored by scientists and engineers",
+  one_systemic_definition_of_life: "That living things are self-organizing and autopoietic (self-producing)",
+  this_is_problematic_because_there: "Little consensus over how to define life",
+  all_change: "Explained by the arrangement and rearrangement of these four elements",
+  the_various_forms_of_life: "Caused by an appropriate mixture of elements",
+  the_application_of_hylomorphism_to_biology: { definition: "Important to Aristotle, and biology is extensively covered in his extant writings", what_it_does: "", examples: "dust or the supposed seasonal generation of mice and insects from mud or garbage" },
+  a_preserved_specimen_is_called_a_fossil_if_it: "Older than the arbitrary date of 10,000 years ago",
+  species_become_extinct_when_they: { definition: "No longer able to survive in changing habitat or against superior competition", what_it_does: "", examples: "spores of Aspergillus niger have been detected in the mesosphere at an altitude of 48 to 77 km" },
+  beyond_these_zones: "The 'zones of intolerance', where survival and reproduction of that organism is unlikely or impossible",
+  organisms_that_have_a_wide_range_of_tolerance: { definition: "More widely distributed than organisms with a narrow range of tolerance", what_it_does: "", examples: "most molluscs and echinoderms ), and zoophytes (animals that resembled plants)" },
+  evolutionary_history_shows_that_the_fungi: { definition: "More closely related to animals than to plants", what_it_does: "", examples: "cell membranes, metabolism and the ability to grow or respond to their environments" },
+  during_cell_division_these_chromosomes: "Duplicated in the process of DNA replication , providing each cell its own complete set of chromosomes",
+  cells_contain_hereditary_information_that: "Carried forward as a genetic code during cell division",
+  bacteria_and_archaea: { definition: "Two domains of prokaryotes", what_it_does: "", examples: "mitochondria , chloroplasts , lysosomes , rough and smooth endoplasmic reticulum , and vacuoles" },
+  all_species_of_large_complex_organisms: "Eukaryotes, including animals, plants and fungi, though with a wide diversity of protist microorganisms",
+  most_of_these: "Synthesised by the ribosomes through an enzyme-catalysed process called protein biosynthesis",
+  a_sequence_of_amino_acids: "Assembled and joined based upon gene expression of the cell's nucleic acid",
+  such_organisms: { definition: "Formed clonally or from a single germ cell that is capable of forming the various specialised cells that form the adult organism", what_it_does: "", examples: "SETI are trying to detect radio transmissions from possible alien civilisations" },
+  the_common_goal: "The design and construction of new biological functions and systems not found in nature",
+
 };
 
 // ============================================================
