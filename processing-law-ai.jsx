@@ -15136,6 +15136,17 @@ const FLAT_DICT = {
   their_objectives: "To write programs and build machines that could carry on conversations, translate languages, interpret pictures, and reason like human beings",
   ai_research: { definition: "Well-funded by the SCI", what_it_does: "", examples: "AlphaZero (chess champion) and AlphaGo (go champion), and Watson ( Jeopardy champion)" },
 
+  // === INGESTED 2026-06-22 00:22 ===
+  chatgpt: { definition: "A chatbot assistant based on large language model (LLM) technology", what_it_does: "", examples: "tic-tac-toe" },
+  one_of_the_most_significant_improvements: "In the generation of text within images, which is especially useful for branded content",
+  these_images: { definition: "Generated with C2PA metadata, which can be used to verify that they are AI-generated", what_it_does: "", examples: "filling forms, placing online orders, scheduling appointments, and other browser-based tasks" },
+  openai_ceo_sam_altman_said_that_users: "Unable to see the contents of the conversations",
+  shortly_after_the_bug: "Fixed, users could not see their conversation history",
+  the_watermarking: { definition: "Claimed to be 99.9% effective on sufficiently long passages and was found not to degrade performance", what_it_does: "", examples: "the blocking of graphic sexual content and the prevention of flirtatious talk" },
+  these_labels: "Used to train a model to detect such content in the future",
+  the_laborers: { definition: "Exposed to toxic and traumatic content, including child sexual abuse , zoophilia , murder , suicide , torture , self-harm , and incest", what_it_does: "", examples: "bulletin board systems , multiple programming languages, and the text of Wikipedia" },
+  state_of_the_art_large_language_models: { definition: "Trained on all the data which can be scraped from the Internet, often utilizing copyrighted material", what_it_does: "", examples: "Midjourney" },
+
 };
 
 // ============================================================
