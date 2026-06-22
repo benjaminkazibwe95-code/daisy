@@ -15869,6 +15869,24 @@ const FLAT_DICT = {
   the_dimension_of_an_array: "The number of indices needed to select an element",
   thus_a_onedimensional_array: { definition: "A list of data, a two-dimensional array is a rectangle of data, [ 12 ] a three-dimensional array a block of data, etc", what_it_does: "", examples: "an array with 5 rows and 4 columns is two-dimensional, but such matrices form a 20-dimensional space" },
 
+  // === INGESTED 2026-06-22 02:37 ===
+  the_clr: "An application virtual machine that provides services such as security, memory management , and exception handling",
+  the_framework: { definition: "Intended to be used by most new applications created for the Windows platform", what_it_does: "", examples: "issuing an update to its patent promising to address the concerns" },
+  the_current_version_of_iso_standards: { definition: "ISO/IEC 23271:2012 and ISO/IEC 23270:2006", what_it_does: "", examples: "Windows Mobile , Windows CE and other resource-constrained embedded devices" },
+  compiled_cli_code: "Stored in CLI assemblies",
+  assemblies: "Considered equivalent if they share the same complete name",
+  strong_naming: { definition: "Required to add assemblies to Global Assembly Cache", what_it_does: "", examples: "file reading and writing, graphic rendering, database interaction, and XML document manipulation" },
+  the_class_libraries: "Available for all CLI compliant languages",
+  bcl_classes: "Available in .NET Framework as well as in CLI's alternative implementations, including .NET Compact Framework , Microsoft Silverlight ,",
+  fcl: { definition: "Much larger in scope than standard libraries for languages like C++ , and comparable in scope to standard libraries of Java", what_it_does: "", examples: "by a build server or a file system directory" },
+  access_to_other_functions: "Via Platform Invocation Services (P/Invoke)",
+  cas_is_based_on_evidence_that: "Associated with a specific assembly",
+  managed_cil_bytecode: { definition: "Easier to reverse-engineer than native code, unless obfuscated", what_it_does: "", examples: "VMware , V.i" },
+  since_it: "Not guaranteed when the conditions to reclaim memory are reached, GC runs are non-deterministic",
+  the_objects: "Then compacted together to make free space on the managed heap contiguous again",
+  newly_created_objects: "Tagged Generation 0",
+  objects_that_survive_one_garbage_collection: { definition: "Tagged Generation 1", what_it_does: "", examples: "ARM and MIPS also have SIMD extensions" },
+
 };
 
 // ============================================================
