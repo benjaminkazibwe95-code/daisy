@@ -19173,6 +19173,21 @@ const FLAT_DICT = {
   james_gregory: "A man of a very acute and penetrating genius",
   a_round_wheel: "Unsuitable for irregular surfaces, and Gregory devised an appropriate 'adaptable wheel' using a Gregory transformation",
 
+  // === INGESTED 2026-06-22 11:31 ===
+  the_euler_method: { definition: "Named after Leonhard Euler , who first proposed it in his book Institutionum calculi integralis (published 1768–1770)", what_it_does: "", examples: "predictor–corrector method" },
+  the_idea_is_that_while_the_curve: "Initially unknown, its starting point, which we denote by A 0 , {\displaystyle A_{0},} is known (see Figure 1)",
+  recall_that_the_slope: "Defined as the change in y {\displaystyle y} divided by the change in t {\displaystyle t} , or Δ y Δ t {\textstyle {\frac {\Delta y}{\Delta t}}}",
+  the_conclusion_of_this_computation: "That y 4 = 16 {\displaystyle y_{4}=16}",
+  this_suggests_that_the_error: { definition: "Roughly proportional to the step size, at least for fairly small values of the step size", what_it_does: "", examples: "Runge–Kutta methods or linear multistep methods , especially if a high accuracy is desired" },
+  the_local_truncation_error_of_the_euler_method: "The error made in a single step",
+  the_numerical_solution: "Given by y 1 = y 0 + h f ( t 0 , y 0 )",
+  the_global_truncation_error: "The cumulative effect of the local truncation errors committed in each step",
+  the_precise_form_of_this_bound: "Of little practical importance, as in most cases the bound vastly overestimates the actual error committed by the Euler method",
+  if_a_smaller_step_size: "Used, for instance h = 0.7 {\displaystyle h=0.7} , then the numerical solution does decay to zero",
+  assuming_that_the_rounding_errors: "Independent random variables, the expected total rounding error is proportional to ε h {\textstyle {\frac {\varepsilon }{\sqrt {h}}}}",
+  one_possibility: "To use more function evaluations",
+  the_other_possibility: "To use more past values, as illustrated by the two-step Adams–Bashforth method: y n + 1 = y n + 3 2 h f ( t n , y n ) − 1 2 h f ( t n − 1 , y n − 1 )",
+
 };
 
 // ============================================================
