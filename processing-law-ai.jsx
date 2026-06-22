@@ -21794,6 +21794,11 @@ const FLAT_DICT = {
   just_because_something: "A secondary trait or byproduct of an adaptation does not mean it has no use",
   spandrels: "Characteristics that did not originate by the direct action of natural selection and that were later co-opted for a current use",
 
+  // === INGESTED 2026-06-22 19:11 ===
+  in_imaging_neuroscience_he: "Best known for statistical parametric mapping and dynamic causal modelling",
+  friston: { definition: "Principally known for models of functional integration in the human brain and the principles that underlie neuronal interactions", what_it_does: "", examples: "in the analysis of EEG and MEG data" },
+  these_technical_contributions: "Motivated by schizophrenia research and theoretical studies of value-learning (with Gerry Edelman )",
+
 };
 
 // ============================================================
