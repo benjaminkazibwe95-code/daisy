@@ -16293,6 +16293,15 @@ const FLAT_DICT = {
   wound_closure: "Performed with sutures (stitches), staples, or adhesive tape or glue",
   foreign_materials: "Walled off by macrophages that may metamorphose into epithelioid cells, which are encircled by mononuclear leukocytes, forming granulomas",
 
+  // === INGESTED 2026-06-22 03:49 ===
+  myofilaments: "The three protein filaments of myofibrils in muscle cells",
+  the_main_proteins_involved: "Myosin , actin , and titin",
+  myosin_and_actin: "The contractile proteins and titin is an elastic protein",
+  calcium_ions: "Then released from the sarcoplasmic reticulum into the sarcoplasm and subsequently bind to troponin",
+  the_muscle_fiber: "Now prepared for the next contraction",
+  this_study_concludes_that_there: { definition: "No clear relationship between fiber-type composition and in vivo muscle tension, nor was there evidence of myofilament packing in the trained muscles", what_it_does: "", examples: "desmin and dystrophin" },
+  while_the_research_on_muscle_fiber_remodeling: "On-going, there are generally accepted facts about the myofilament from the American College of Sports Medicine",
+
 };
 
 // ============================================================
