@@ -18368,6 +18368,34 @@ const FLAT_DICT = {
   in_this_method_the_chemical_equation: "Used to calculate the amount of one product which can be formed from each reactant in the amount present",
   the_limiting_reactant: "The one which can form the smallest amount of the product considered",
 
+  // === INGESTED 2026-06-22 09:06 ===
+  organometallic_chemistry: { definition: "The study of compounds containing carbon– metal bonds", what_it_does: "", examples: "lubricants , solvents ; plastics ; fuels and explosives" },
+  the_names_of_organic_compounds: "Either systematic, following logically from a set of rules, or nonsystematic, following various traditions",
+  systematic_nomenclature: "Stipulated by specifications from IUPAC (International Union of Pure and Applied Chemistry)",
+  this_parent_name: "Then modified by prefixes, suffixes, and numbers to unambiguously convey the structure",
+  given_that_millions_of_organic_compounds: "Known, rigorous use of systematic names can be cumbersome",
+  nonsystematic_nomenclature: "Simpler and unambiguous, at least to organic chemists",
+  organic_molecules: "Described more commonly by drawings or structural formulas , combinations of drawings and chemical symbols",
+  the_lineangle_formula: "Simple and unambiguous",
+  a_functional_group: "A molecular module, and the reactivity of that functional group is assumed, within limits, to be the same in a variety of molecules",
+  the_smallest_cycloalkane_family: "The three-membered cyclopropane ((CH 2 ) 3 )",
+  this_means_that_every_carbon_atom_in_the_ring: "Sp 2 hybridized, allowing for added stability",
+  the_most_important_example: "Benzene , the structure of which was formulated by Kekulé who first proposed the delocalization or resonance principle for explaining its structure",
+  pyridine_and_furan: "Examples of aromatic heterocycles while piperidine and tetrahydrofuran are the corresponding alicyclic heterocycles",
+  the_heteroatom_of_heterocyclic_molecules: "Generally oxygen, sulfur, or nitrogen, with the latter being particularly common in biochemical systems",
+  heterocycles: { definition: "Commonly found in a wide range of products including aniline dyes and medicines", what_it_does: "", examples: "alkaloids , vitamins, steroids, and nucleic acids (e.g" },
+  the_purine_nucleoside_bases: "Notable polycyclic aromatic heterocycles",
+  such_compounds_are_termed_spiro_and: "Important in several natural products",
+  one_important_property_of_carbon: "That it readily forms chains, or networks, that are linked by carbon-carbon (carbon-to-carbon) bonds",
+  the_linking_process: "Called polymerization , while the chains, or networks, are called polymers",
+  synthetic_polymers: "Artificially manufactured, and are commonly referred to as industrial polymers",
+  biomolecular_chemistry: "A major category within organic chemistry which is frequently studied by biochemists",
+  many_complex_multifunctional_group_molecules: "Important in living organisms",
+  petroleum_and_its_derivatives: "Considered organic molecules, which is consistent with the fact that this oil comes from the fossilization of living beings, i.e., biomolecules",
+  the_first_fullerene: "Discovered in 1985 by Sir Harold W",
+  organic_reactions: "Chemical reactions involving organic compounds",
+  the_general_theory_of_these_reactions: "Careful analysis of such properties as the electron affinity of key atoms, bond strengths and steric hindrance",
+
 };
 
 // ============================================================
