@@ -16619,6 +16619,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 04:41 ===
   savolainen: "Elected as a fellow and the 2006 recipient of the Bicentenary Medal awarded by the Linnean Society",
 
+  // === INGESTED 2026-06-22 04:43 ===
+  semantic_scholar: "Free to use and unlike similar search engines (e.g., Google Scholar ) does not search for material that is behind a paywall",
+  the_following_entry: "An example: Liu, Ying; Gayle, Albert A; Wilder-Smith, Annelies; Rocklöv, Joacim (March 2020)",
+
 };
 
 // ============================================================
