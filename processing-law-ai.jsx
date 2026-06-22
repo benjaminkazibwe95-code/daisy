@@ -17979,6 +17979,13 @@ const FLAT_DICT = {
   it_is_still_a_largely_unexplored_technique_and: "Becoming increasingly popular for fundamental research",
   the_cross_peaks_in_the_first: "Related to the scalar coupling, while in the latter they are related to the spin transfer between different nuclei",
 
+  // === INGESTED 2026-06-22 08:02 ===
+  it_is_a_source_of_chemical_information_and: "Located in Columbus, Ohio , United States",
+  cas_databases: "Available via two principal database systems, STN, and SciFinder",
+  scifinder: "A database of chemical and bibliographic information",
+  originally_it: "Available only as a client application (for both Windows and MacOS operating systems), a web version was released in 2008",
+  also_included: { definition: "Its language of text and language of summaries", what_it_does: "", examples: "both serial and non-serial scientific and technical publications" },
+
 };
 
 // ============================================================
