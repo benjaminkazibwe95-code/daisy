@@ -16775,6 +16775,16 @@ const FLAT_DICT = {
   this_polysaccharide: { definition: "A major component of brown algae, and is not found in land plants", what_it_does: "", examples: "alginic acid enhances the immune system of rainbow trout" },
   younger_fish: { definition: "More likely to survive when given a diet with alginic acid", what_it_does: "", examples: "kelp beds also fix a significant portion of the earth's carbon dioxide yearly through photosynthesis" },
 
+  // === INGESTED 2026-06-22 05:10 ===
+  the_common_name: "The elongated horn-like structure, which is the sporophyte",
+  the_sporophyte_in_hornworts: "Unique among bryophytes in being long-lived with a persistent photosynthetic capacity",
+  the_pseudoelaters: "Multi-cellular, unlike the elaters of liverworts",
+  hornwort_spores: "Relatively large for bryophytes, measuring between 30 and 80 μm in diameter or more",
+  the_female_organs: "Known as archegonia (singular archegonium) and the male organs are known as antheridia (singular antheridium)",
+  lcib: "One component of this CO 2 -concentrating mechanism",
+  these_two_classes: "Divided further into five orders , each containing a single family",
+  the_number_and_names_of_genera: "A current matter of investigation, and several competing classification schemes have been published since 1988",
+
 };
 
 // ============================================================
