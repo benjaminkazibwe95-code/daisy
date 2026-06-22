@@ -18825,6 +18825,22 @@ const FLAT_DICT = {
   the_motion_of_these_objects: "Usually calculated from laws of motion and of universal gravitation derived by Isaac Newton",
   astrodynamics: { definition: "A core discipline within space-mission design and control", what_it_does: "", examples: "both spacecraft and natural astronomical bodies such as star systems , planets , moons , and comets" },
 
+  // === INGESTED 2026-06-22 10:25 ===
+  hamilton: "Recognized with the Shaw Prize in 2011 and the Leroy P",
+  both_are_topological_manifolds_which: "Closed (meaning that they have no boundary and take up a finite region of space) and connected (meaning that they consist of a single piece)",
+  two_closed_manifolds: "Said to be homeomorphic when it is possible for the points of one to be reallocated to the other in a continuous way",
+  this_example_made_it_clear_that_homology: { definition: "Not powerful enough to characterize the topology of a manifold", what_it_does: "", examples: "Georges de Rham , R" },
+  experts_in_the_field: "Often reluctant to announce proofs and tended to view any such announcement with scepticism",
+  the_geometrization_conjecture_there: "No consensus among the experts as to whether the Poincaré conjecture was true or false",
+  the_actual_solution: "Not found until Grigori Perelman published his papers",
+  while_the_complete_work: "An accumulated efforts of many geometric analysts, the major contributors are unquestionably Hamilton and Perelman",
+  the_ricci_flow: "Only defined for smooth differentiable manifolds",
+  the_formula_for_the_ricci_flow: "An imitation of the heat equation , which describes the way heat flows in a solid",
+  a_singularity_in_a_manifold: "A place where it is not differentiable: like a corner or a cusp or a pinching",
+  such_numbers: "Called eigenvalues of that operation",
+  one_immediate_question_posed: "How one could be sure that infinitely many cuts are not necessary",
+  a_minimal_surface: "One on which any local deformation increases area; a familiar example is a soap film spanning a bent loop of wire",
+
 };
 
 // ============================================================
