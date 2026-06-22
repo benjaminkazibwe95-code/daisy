@@ -21424,6 +21424,9 @@ const FLAT_DICT = {
   what_eckert_is_instead_stating_is_that_this: "A common misconception that a majority of the population unknowingly reinforces, which sees its emergence during infancy",
   this_idea_that_gender: { definition: "Constantly shaped by expectations is relevant in the online community", what_it_does: "", examples: "gender performance" },
 
+  // === INGESTED 2026-06-22 18:11 ===
+  qualitative_psychological_research_findings: "Not arrived at by statistical or other quantitative procedures",
+
 };
 
 // ============================================================
