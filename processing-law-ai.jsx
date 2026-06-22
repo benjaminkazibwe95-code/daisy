@@ -17048,6 +17048,28 @@ const FLAT_DICT = {
   the_fourth_electroweak_gauge_boson: { definition: "The photon ( γ ) of electromagnetism, which does not couple to any of the Higgs fields and so remains massless", what_it_does: "", examples: "a prediction of the masses of the Z and W bosons before their discovery and detection in 1983" },
   this_socalled_law_of_parity_conservation: "Known to be respected by classical gravitation , electromagnetism and the strong interaction ; it was assumed to be a universal law",
 
+  // === INGESTED 2026-06-22 05:51 ===
+  life_science: "Alternatively known as biology",
+  physical_science: "Subdivided into physics , astronomy , Earth science , and chemistry",
+  observational_astronomy: "Focused on acquiring and analyzing data, mainly using basic principles of physics",
+  this_discipline: "The science of celestial objects and phenomena that originate outside the Earth's atmosphere",
+  most_of_the_information_used_by_astronomers: { definition: "Gathered by remote observation", what_it_does: "", examples: "the molecular chemistry of the interstellar medium )" },
+  a_key_factor: { definition: "Galileo 's introduction of the telescope to examine the night sky in more detail", what_it_does: "", examples: "gases , molecules, crystals , and metals" },
+  chemistry_also: "Understanding the properties and interactions of individual atoms and molecules for use in larger-scale applications",
+  modern_biology: "Divided into subdisciplines by the type of organism and by the scale being studied",
+  molecular_biology: "The study of the fundamental chemistry of life, while cellular biology is the examination of the cell; the basic building block of all life",
+  earth_sciences_today: { definition: "Closely linked to petroleum and mineral resources , climate research, and to environmental assessment and remediation", what_it_does: "", examples: "gas giants and ice giants" },
+  the_theoretical_aspect: "Extensive mathematical modelling and computer simulation",
+  major_conferences: "Held annually, and numerous peer-reviewed journals cater to the diverse research interests in planetary science",
+  some_planetary_scientists: "Employed by private research centers and frequently engage in collaborative research initiatives",
+  the_field_of_physics: { definition: "Vast and can include such diverse studies as quantum mechanics and theoretical physics , applied physics and optics", what_it_does: "", examples: "economics, law, and social sciences" },
+  a_comparable_discipline: "Oceanography , as it draws upon a similar breadth of scientific disciplines",
+  as_the_marine_ecosystem: "Vast and diverse, marine biology is further divided into many subfields, including specializations in particular species",
+  materials_science: { definition: "At the forefront of research in science and engineering", what_it_does: "", examples: "the cause of various aviation accidents" },
+  the_basis_of_materials_science: { definition: "Studying the structure of materials and relating them to their properties", what_it_does: "", examples: "the stingray , catfish and bee" },
+  this_growth_in_natural_history: "Led by Carl Linnaeus , whose 1735 taxonomy of the natural world is still in use",
+  the_term_scientist: "Coined by William Whewell in an 1834 review of Mary Somerville 's On the Connexion of the Sciences",
+
 };
 
 // ============================================================
