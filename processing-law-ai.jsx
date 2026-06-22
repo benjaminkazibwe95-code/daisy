@@ -15465,6 +15465,10 @@ const FLAT_DICT = {
   higher_order_moments: "Usually represented using tensors which are the generalization of matrices to higher orders as multi-dimensional arrays",
   latent_variable_models: "Statistical models where in addition to the observed variables, a set of latent variables also exists which is not observed",
 
+  // === INGESTED 2026-06-22 01:20 ===
+  his_mother: "Fannie (Reiser), a Zionist activist, and his father was Henry, an eye surgeon",
+  his_doctoral_dissertation: "Titled 'Theory of neural-analog reinforcement systems and its application to the brain-model problem'",
+
 };
 
 // ============================================================
