@@ -16132,6 +16132,17 @@ const FLAT_DICT = {
   natural_classification: { definition: "A concept closely related to the concept natural kind", what_it_does: "", examples: "all musical instruments are organized according to this classification" },
   the_first_edition: "Influenced by psychodynamic theory",
 
+  // === INGESTED 2026-06-22 03:22 ===
+  zoology: "The branch of science dealing with animals",
+  the_invention_of_writing: { definition: "Reflected in zoology by the presence of animals in Egyptian hieroglyphics", what_it_does: "", examples: "genetics, biochemistry , medical microbiology , immunology , and cytochemistry" },
+  the_study_of_systematics: { definition: "Transformed as DNA sequencing elucidated the degrees of affinity between different organisms", what_it_does: "", examples: "climate change, habitat destruction , and species extinction" },
+  a_species: "The largest group of organisms in which any two individuals of the appropriate sex can produce fertile offspring; about 1",
+  biological_classification: "A form of scientific taxonomy",
+  the_scientific_name_of_an_organism: { definition: "Generated from its genus and species", what_it_does: "", examples: "humans are listed as Homo sapiens" },
+  homo: { definition: "The genus, and sapiens the specific epithet, both of them combined make up the species name", what_it_does: "", examples: "fish , amphibians , reptiles , birds and mammals" },
+  anatomy_and_cell_biology_are_two_studies_that: "Closely related, and can be categorized under 'structural' studies",
+  comparative_anatomy: { definition: "The study of similarities and differences in the anatomy of different groups", what_it_does: "", examples: "what is learned about the physiology of yeast cells can also apply to human cells" },
+
 };
 
 // ============================================================
