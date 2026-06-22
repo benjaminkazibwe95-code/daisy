@@ -20550,6 +20550,33 @@ const FLAT_DICT = {
   harmful_species_include_fish_but: "Not limited to them; [ 128 ] the arrival of a comb jelly in the Black Sea damaged the anchovy fishery there",
   recreational_fishing: { definition: "Particularly popular in North America and Europe; government agencies often actively manage target fish species", what_it_does: "", examples: "Finding Nemo [ 148 ] and books such as The Old Man and the Sea" },
 
+  // === INGESTED 2026-06-22 15:38 ===
+  glucose_for_metabolism: "Stored as a polymer , in plants mainly as amylose and amylopectin , and in animals as glycogen",
+  glucose_is_naturally_occurring_and: "Found in its free state in fruits and other parts of plants",
+  their_enantiomers: "Given the same name with the introduction of systematic nomenclatures, taking into account absolute stereochemistry (e.g",
+  d_glucose: { definition: "One of the sixteen aldohexose stereoisomers", what_it_does: "", examples: "milk sugar ( lactose ), cane sugar (sucrose), maltose , cellulose , glycogen , etc" },
+  dextrose_monohydrate: { definition: "Primarily consumed in North America as a corn syrup or high-fructose corn syrup", what_it_does: "", examples: "heating or drying up (desiccation)" },
+  the_openchain_form: "Thermodynamically unstable , and it spontaneously isomerizes to the cyclic forms",
+  the_strength_of_the_effect: "Different for each of the five tautomers",
+  the_fact_that_d_glucose_is_dextrorotatory: "A combined effect of its four chiral centres, not just of C-5; some of the other d -aldohexoses are levorotatory",
+  polysaccharides_that: "Composed solely of glucose are termed glucans",
+  all_animals: "Also able to produce glucose themselves from certain precursors as the need arises",
+  the_cleavage_of_glycogen: "Termed glycogenolysis, the cleavage of starch is called starch degradation",
+  the_smaller_starting_materials: { definition: "The result of other metabolic pathways", what_it_does: "", examples: "lactate or certain amino acids , while consuming energy" },
+  glucose_concentrations_in_the_atmosphere: { definition: "Detected via collection of samples by aircraft and are known to vary from location to location", what_it_does: "", examples: "glucose concentrations in atmospheric air ranges from 0.8 to 20.1 pg /L in inland China, to 10" },
+  the_metabolic_pathway_of_glycolysis: "Used by almost all living beings",
+  when_glucose: "Low , psychological processes requiring mental effort (e.g., self-control , effortful decision-making) are impaired",
+  blood_sugar_levels: "Regulated by glucose-binding nerve cells in the hypothalamus",
+  the_glucose_content_of_the_blood: "Regulated by the hormones insulin , incretin , and glucagon",
+  glycogen: "The body's 'glucose energy storage' mechanism, because it is much more 'space efficient' and less reactive than glucose itself",
+  the_glycemic_load: "An indicator for the amount of glucose added to blood glucose levels after consumption, based on the glycemic index and the amount of consumed food",
+  one_such_protein: "IRF6, which alters its conformation upon glucose binding, thereby influencing the expression of genes associated with stem cell differentiation",
+  this_regulatory_role: { definition: "Independent of glucose's catabolic function and has been observed across multiple tissue types, including skin, bone, fat, and white blood cells", what_it_does: "", examples: "diabetes and certain cancers" },
+  the_pancreas: { definition: "The organ responsible for the secretion of the hormones insulin and glucagon", what_it_does: "", examples: "the fasting glucose test which measures the level of glucose in the blood after 8 hours of fasting" },
+  the_reagents: "Immobilised on a polymer matrix, the so-called test strip, which assumes a more or less intense color",
+  precious_metals_such_as_platinum_or_gold: "Used in electrodes, as well as carbon nanotube electrodes, which e.g",
+  glucose_uptake_in_cells_of_organisms: "Measured with 2-deoxy-D-glucose or fluorodeoxyglucose",
+
 };
 
 // ============================================================
