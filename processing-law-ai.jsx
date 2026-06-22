@@ -16161,6 +16161,36 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 03:28 ===
   sapp: "Born in Halifax, Nova Scotia",
 
+  // === INGESTED 2026-06-22 03:30 ===
+  almost_all_areas_of_the_life_sciences: { definition: "Being uncovered and developed through biochemical methodology and research", what_it_does: "the structure of cells and perform many of the functions associated with life", examples: "proteins , nucleic acids , carbohydrates , and lipids" },
+  the_findings_of_biochemistry: "Applied primarily in medicine , nutrition , and agriculture",
+  most_rare_elements_on_earth: { definition: "Not needed by life (exceptions being selenium and iodine ), [ 33 ] while a few common ones ( aluminium and titanium ) are not used", what_it_does: "", examples: "ocean algae use bromine , but land plants and animals do not seem to need any" },
+  when_monomers: "Linked together to synthesize a biological polymer , they undergo a process called dehydration synthesis",
+  two_of_the_main_functions_of_carbohydrates: "Energy storage and providing structure",
+  one_of_the_common_sugars_known_as_glucose: "A carbohydrate, but not all carbohydrates are sugars",
+  the_bestknown_disaccharide: "Sucrose or ordinary sugar , which consists of a glucose molecule and a fructose molecule joined",
+  another_important_disaccharide: "Lactose found in milk, consisting of a glucose molecule and a galactose molecule",
+  two_of_the_most_common_polysaccharides: "Cellulose and glycogen , both consisting of repeating glucose monomers",
+  cellulose: "An important structural component of plant's cell walls and glycogen is used as a form of energy storage in animals",
+  a_reducing_end_of_a_carbohydrate: { definition: "A carbon atom that can be in equilibrium with the open-chain aldehyde ( aldose ) or keto form ( ketose )", what_it_does: "", examples: "retinoids and steroids )" },
+  some_lipids: "Linear, open-chain aliphatic molecules, while others have ring structures",
+  another_part_of_their_structure: "Polar or hydrophilic ('water-loving') and will tend to associate with polar solvents like water",
+  lipids: "An integral part of our daily diet",
+  vegetable_oils: "Rich in various polyunsaturated fatty acids (PUFA)",
+  the_resulting_molecule: "Called a dipeptide , and short stretches of amino acids (usually, fewer than thirty) are called peptides or polypeptides",
+  one_property_many_proteins_have: "That they specifically bind to a certain molecule or class of molecules—they may be extremely selective in what they bind",
+  the_enzyme_itself: "Not used up in the process and is free to catalyze the same reaction with a new set of substrates",
+  the_structure_of_proteins: "Traditionally described in a hierarchy of four levels",
+  secondary_structure: "Concerned with local morphology (morphology being the study of structure)",
+  tertiary_structure: "The entire three-dimensional shape of the protein",
+  this_shape: "Determined by the sequence of amino acids",
+  if_the_amino_group: "Removed from an amino acid, it leaves behind a carbon skeleton called an α- keto acid",
+  a_similar_process: "Used to break down proteins",
+  in_order_to_determine_whether_two_proteins: "Related, or in other words to decide whether they are homologous or not, scientists use sequence-comparison methods",
+  the_most_common_nitrogenous_bases: "Adenine , cytosine , guanine , thymine , and uracil",
+  disaccharides_like_lactose_or_sucrose: { definition: "Cleaved into their two component monosaccharides", what_it_does: "", examples: "fat and proteins" },
+  the_pathway: "A crucial reversal of glycolysis from pyruvate to glucose and can use many sources like amino acids, glycerol and Krebs Cycle",
+
 };
 
 // ============================================================
