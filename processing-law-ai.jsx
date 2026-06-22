@@ -23077,6 +23077,25 @@ const FLAT_DICT = {
   this_fish: { definition: "Found widely in fresh and brackish waters in the northern half of Africa and the Middle East", what_it_does: "", examples: "Lake Tiberias (Kinneret), in Israel , Jordan and Syria , as well as coastal systems in Israel" },
   breeding_adults: "More greenish overall, have iridescent blue-green spots on the head and bright pinkish-red underparts",
 
+  // === INGESTED 2026-06-22 22:54 ===
+  in_regions_where_toilet_paper: "Used rather than bidets , that paper is also added to the sewage",
+  the_following_four_types_of_pathogens: "Found in sewage: pathogenic bacteria , viruses , protozoa (in the form of cysts or oocysts) and helminths (in the form of eggs)",
+  blackwater: { definition: "Distinguished from greywater (which comes from sinks, baths, washing machines , and other household appliances apart from toilets)", what_it_does: "", examples: "autonomous buildings" },
+  the_color_of_fresh_sewage: "Slightly grey, whereas older sewage (also called 'septic sewage') is dark grey or black",
+  the_odor_of_fresh_sewage: "'oily' and relatively unpleasant, whereas older sewage has an unpleasant foul odor due to hydrogen sulfide gas and other decomposition by-products",
+  the_ph_value_of_sewage: "Usually near neutral, and can be in the range of 6.7–8.0",
+  the_mass_load_of_organic_content: "Calculated as the sewage flowrate multiplied with the concentration of the organic matter in the sewage",
+  the_major_nutrients_of_interest: "Nitrogen and phosphorus",
+  if_sewage: "Discharged untreated, its nitrogen and phosphorus content can lead to pollution of lakes and reservoirs via a process called eutrophication",
+  the_other_form: "Organic phosphorus, where the source is organic compounds to which the organic phosphorus is bound",
+  the_concentration_values_given_here: { definition: "Based on a flowrate of 190 L per person per day", what_it_does: "", examples: "in the design of sewage treatment plants" },
+  wastewater_quality_indicators: "Laboratory test methodologies to assess suitability of wastewater for disposal, treatment or reuse",
+  biological_characteristics: "Determined with bioassays and aquatic toxicology tests",
+  a_combined_sewer: "A type of gravity sewer with a system of pipes, tunnels, pump stations etc",
+  infiltration: "Groundwater entering sewer pipes through defective pipes, connections, joints or manholes",
+  when_wastewater: "Discharged into a water body (river, lakes, sea) or land, its relative impact will depend on the assimilative capacity of the water body or ecosystem",
+  sewage_management_regulations: "Often part of a country's broader sanitation policies",
+
 };
 
 // ============================================================
