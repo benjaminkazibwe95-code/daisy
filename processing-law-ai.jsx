@@ -19457,6 +19457,12 @@ const FLAT_DICT = {
   the_disquisitiones: "The starting point for other 19th-century European mathematicians, including Ernst Kummer , Peter Gustav Lejeune Dirichlet and Richard Dedekind",
   an_english_translation: "Not published until 1965, by Jesuit scholar Arthur A",
 
+  // === INGESTED 2026-06-22 12:29 ===
+  if_the_primary_content_of_the_universe: "Inert matter, as in the dust models popular for much of the 20th century, there is a particular fate corresponding to each geometry",
+  the_big_crunch_hypothesis: "A symmetric view of the ultimate fate of the universe",
+  recent_evidence_suggests_that_this_scenario: "Unlikely but has not been ruled out, as measurements have been available only over a relatively short period of time and could reverse in the future",
+  each_possibility_described_so_far: "Based on a simple form of the dark energy equation of state",
+
 };
 
 // ============================================================
