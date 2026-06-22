@@ -15758,6 +15758,18 @@ const FLAT_DICT = {
   diehr: { definition: "The third member of a trilogy of Supreme Court decisions on the patent-eligibility of computer software related inventions", what_it_does: "", examples: "time, temperature and thickness of the mold" },
   the_citations_in_this_article: "Written in Bluebook style",
 
+  // === INGESTED 2026-06-22 02:14 ===
+  a_control_table: { definition: "Often used as part of a higher-level algorithm", what_it_does: "the main loop of an event-driven program", examples: "" },
+  software_that_uses_a_control_table: "Said to be table-driven",
+  a_common_data_structure: "The lookup , which provides relatively high performance but at a relatively high memory footprint",
+  the_lookup: "Achieved in constant time , without searching",
+  all_other_values: { definition: "Uninteresting and set to 0", what_it_does: "", examples: "the location, size and format of input or output data, whether data conversion is required" },
+  handler_functions_often: "Coded in the same language as the interpreter, but could be in another language provided a suitable inter-language call-linkage mechanism exists",
+  if_pointer_arrays: { definition: "Not supported, a SWITCH statement or equivalent can be used to alter the control flow to one of a sequence of program labels (e.g", what_it_does: "", examples: "an 'alter flow' ( jump ) function) can create a loop" },
+  the_ops_array: "A simple linear search , one-dimensional array – for obtaining the index of the item that matches the input, op",
+  a_twodimensional_control_table: "Similar to intermediate executable code (i.e",
+  the_advantage_of_interpretive_techniques: "The compactness of representation, the machine independence, and the increased diagnostic capability",
+
 };
 
 // ============================================================
