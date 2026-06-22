@@ -15497,6 +15497,13 @@ const FLAT_DICT = {
   another_way_to_approach_the_problem: "To linearize any nonlinearity (the sine function term in this case) at the various points of interest through Taylor expansions",
   one_more_interesting_linearization: "Possible around θ = π / 2 {\displaystyle \theta =\pi /2} , around which sin ⁡ ( θ ) ≈ 1 {\displaystyle \sin(\theta )\approx 1} : d 2 θ d t 2 + 1 = 0",
 
+  // === INGESTED 2026-06-22 01:28 ===
+  the_patent: { definition: "Filed on May 20, 1998, and has priority to January 5, 1998", what_it_does: "", examples: "Google Scholar , that have publisher metadata" },
+  annual_downloads_of_document_pdfs: "Nearly 200 million for 2015",
+  citeseerx: "Now closed down due to the lack of funding and support from Penn State",
+  its_data: "Being supported from the Internet Archive and AWS",
+  all_of_these: "Built on the open source tool SeerSuite , which uses the open source indexer Lucene",
+
 };
 
 // ============================================================
