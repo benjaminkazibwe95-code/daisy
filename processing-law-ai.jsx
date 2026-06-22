@@ -22596,6 +22596,13 @@ const FLAT_DICT = {
   the_part_of_the_soma_without_the_nucleus: "Called the perikaryon ( pl",
   the_survival_factors: "Neurotrophic factors , including molecules such as nerve growth factor (NGF)",
 
+  // === INGESTED 2026-06-22 21:18 ===
+  as_presynaptic_calcium_entry: { definition: "A requirement for vesicle release, this function will decrease the transmitter that enters the synapse upon release", what_it_does: "", examples: "acetylcholine, glutamate, GABA, noradrenaline, 5-HT, dopamine, D-aspartate, and cholecystokinin" },
+  these_receptors: "Highly expressed by GABAergic interneurons as well as glutamatergic principal neurons",
+  decreased_locomotor_activity: "Seen at both higher and lower concentrations of applied cannabinoids , whereas an enhancement of movement may occur upon moderate dosages",
+  signals_on_this_track: { definition: "Also transmitted to the periaqueductal gray (PAG) of the midbrain", what_it_does: "", examples: "GABAergic , glutamatergic , and serotonergic neurons" },
+  improvements_from_use_of_cb_agonist_in_ms: { definition: "Associated with the activation of CB1 and CB2 receptors, leading to dual anti-inflammatory and neuroprotective effects throughout the CNS", what_it_does: "", examples: "rimonabant are used for weight reduction and smoking cessation" },
+
 };
 
 // ============================================================
