@@ -20222,6 +20222,17 @@ const FLAT_DICT = {
   these_critiques: { definition: "Then given to the original author, who makes revisions based on feedback", what_it_does: "", examples: "Science and Physical Review , also retracted papers by Schön" },
   the_nature_podcast: "Founded – and the first 100 episodes were produced and presented – by clinician and virologist Chris Smith of Cambridge and The Naked Scientists",
 
+  // === INGESTED 2026-06-22 14:38 ===
+  the_attributes_of_tellus: "The cornucopia , bunches of flowers, or fruit",
+  her_greek_counterpart: "Gaia , [ 7 ] and among the Etruscans , her name was Cel",
+  tellus: { definition: "The goddess, whose name can be substituted ( ponimus ", what_it_does: "", examples: "Vesta, who was represented as a virgin" },
+  tellus_and_terra: "Both regarded as mothers in both the literal and honorific sense; Vesta in the honorific only",
+  the_temple_of_tellus: "The most prominent landmark of the Carinae , [ 19 ] [ 10 ] : 8.361 a fashionable neighborhood on the Oppian Hill",
+  a_mysterious_object_called_the_magmentarium: "Stored in the temple, [ 35 ] [ 36 ] [ 20 ] : 379 which was also known for a representation of Italy on the wall, either a map or an allegory",
+  during_a_time_when_rome: "Struggling with harsh agricultural conditions, Numa was instructed by the rustic god Faunus in a dream that a sacrifice to Tellus was needed",
+  her_ceremonies: "Conducted by 'Greek rite' ( ritus graecus ), distinguishing her from the Roman Tellus whose temple was within the pomerium",
+  male_counterparts_named_tellumo_or_tellurus: "Mentioned, although rarely",
+
 };
 
 // ============================================================
