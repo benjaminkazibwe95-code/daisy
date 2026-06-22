@@ -15607,6 +15607,27 @@ const FLAT_DICT = {
   similar_restrictions: "Called for by treaties signed by World Intellectual Property Organization member-states",
   failure_to_comply: { definition: "An offense in its own right, punishable on conviction by a two-year jail sentence or up to five years in cases involving national security", what_it_does: "", examples: "such as that of a drive which has been securely wiped )" },
 
+  // === INGESTED 2026-06-22 01:49 ===
+  a_turing_machine: "A mathematical model of computation describing an abstract machine [ 1 ] that manipulates symbols on a strip of tape according to a table of rules",
+  the_turing_machine: "Invented in 1936 by Alan Turing , [ 7 ] [ 11 ] who called it an 'a-machine' (automatic machine)",
+  turing_completeness: "The ability for a model of computation or a system of instructions to simulate a Turing machine",
+  a_turing_machine_that: "Able to simulate any other Turing machine is called a universal Turing machine (UTM, or simply a universal machine)",
+  at_any_moment_there: "One symbol in the machine; it is called the scanned symbol",
+  on_this_tape: "Symbols, which the machine can read and write, one at a time, using a tape head",
+  this_expression: "Called the 'state formula'",
+  usually_large_tables: "Better left as tables (Booth, p",
+  on_the_far_right: "The Turing 'complete configuration' (Kleene 'situation', Hopcroft–Ullman 'instantaneous description') at each step",
+  a_relevant_question: "Whether or not the computation model represented by concrete programming languages is Turing equivalent",
+  while_the_computation_of_a_real_computer: "Based on finite states and thus not capable to simulate a Turing machine, programming languages themselves do not necessarily have this limitation",
+  whose_motion: "Only partially determined by the configuration ",
+  this_would_be_the_case_if_we: "Using machines to deal with axiomatic systems",
+  this_result: { definition: "Obtained in 1966 by F", what_it_does: "", examples: "finite-state machines and pushdown automata" },
+  such_an_algorithm: "Said to run in strongly polynomial time",
+  the_general_problem: "Equivalent to the problem of deciding which mathematical propositions are true",
+  if_one: "Able to solve the Entscheidungsproblem then one would have a 'procedure for solving many (or even all) mathematical problems'",
+  but_what_church_had_done: "Something rather different, and in a certain sense weaker",
+  the_turing_construction: "More direct, and provided an argument from first principles, closing the gap in Church's demonstration",
+
 };
 
 // ============================================================
