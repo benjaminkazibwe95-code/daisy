@@ -20187,6 +20187,35 @@ const FLAT_DICT = {
   the_element_earth: "Associated with the planet Saturn on account of its yellow color",
   these_four_types_of_earth: "Earth-of-Water (Wet/Cold Earth), Earth-of-Fire (Arid/Hot Earth), Earth-of-Metal (Dry/Hard Earth) and Earth-of-Wood (Loose-Fertile/Warm Earth)",
 
+  // === INGESTED 2026-06-22 14:34 ===
+  the_science_of_extraterrestrial_life: "Known as astrobiology",
+  many_of_those_materials: "The raw components of life on Earth",
+  the_universe: "Composed of all similar structures in existence",
+  this_area: "Neither too close to the star, where water would be heated to steam, nor too far away, where water would be frozen to ice",
+  being_in_the_habitable_zone: "Not enough to guarantee a planet is habitable, or that it even contains liquid water",
+  venus: "Located in the solar system's habitable zone, but does not have liquid water because of the conditions of its atmosphere",
+  jovian_planets_or_gas_giants: "Not considered habitable even if they orbit close enough to their stars as hot Jupiters , due to crushing atmospheric pressures",
+  the_third_is_that_the_physical_laws: "Universal, which means that the forces that would facilitate or prevent the existence of life would be the same ones as on Earth",
+  even_if_it: { definition: "Assumed that only one out of a billion of these stars has planets supporting life, there would be some 6", what_it_does: "", examples: "for life on Earth, which depends on the energy of the sun" },
+  it_is_also_conceivable_that_there: "Forms of life whose solvent is a liquid hydrocarbon , such as methane , ethane or propane",
+  life_on_earth: "Largely composed of carbon, but there could be other hypothetical types of biochemistry",
+  the_molecules_formed_with_silicon_atoms: "Less stable, and more vulnerable to acids, oxygen, and light",
+  even_if_extraterrestrial_life: "Based on carbon and uses water as a solvent, like Earth life, it may still have a radically different biochemistry",
+  it_is_unclear_if_our_biochemistry: { definition: "The most efficient one that could be generated, or which elements would follow a similar pattern", what_it_does: "", examples: "bilateral symmetry , limbs , digestive systems and heads with sensory organs" },
+  the_early_earth_environment: "Reducing [ 68 ] and therefore, these carbon fixing compounds were necessary for the survival and possible origin of life on Earth",
+  if_earth: "Studied from afar with this system, it would reveal a shade of green, as a result of the abundance of plants with photosynthesis",
+  adenine_and_guanine: "Components of DNA, and the others are used in other biological processes",
+  the_molecule: { definition: "Found around the protostellar binary IRAS 16293-2422 , which is located 400 light years from Earth", what_it_does: "", examples: "Dyson spheres" },
+  the_infrared_radiation: { definition: "Typical of young stars, surrounded by dusty protoplanetary disks that will eventually form planets", what_it_does: "", examples: "the Sun would have no natural reason to have excess infrared radiation" },
+  almost_all_of_the_planets_detected_so_far: { definition: "Within the Milky Way, but there have also been a few possible detections of extragalactic planets", what_it_does: "", examples: "the myth of the Sun being pulled across the sky in the chariot of Apollo" },
+  the_cosmos: "First structured in a geocentric model that considered that the sun and all other celestial bodies revolve around Earth",
+  anaximander_thought_that_the_cosmos: "Made from apeiron , a substance that created the world, and that the world would eventually return to the cosmos",
+  galileo: { definition: "Tried for the heliocentric model, which was considered heretical, and forced to recant it", what_it_does: "", examples: "planetary orbits" },
+  although_abiogenesis: { definition: "The more accepted theory, a number of authors reclaimed the term 'panspermia' and proposed that life was brought to Earth from elsewhere", what_it_does: "", examples: "more powerful telescopes) revealed that all such discoveries were natural features" },
+  ward_and_brownlee: "Open to the idea of evolution on other planets that is not based on essential Earth-like characteristics such as DNA and carbon",
+  a_part_of_its_mission: "To 'rigorously preclude backward contamination of Earth by extraterrestrial life",
+  a_usual_way_to_do_that: "To add body features from other animals, such as insects or octopuses",
+
 };
 
 // ============================================================
