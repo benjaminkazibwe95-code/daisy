@@ -22649,6 +22649,11 @@ const FLAT_DICT = {
   if_the_signals: "Missing, cells are then 'stuck' in juvenile states",
   an_abundant_amount_of_work: "Completed in the early 1990s to demonstrate the existence of a retrograde messenger and to determine its identity",
 
+  // === INGESTED 2026-06-22 21:30 ===
+  arthur_woollgar_verrall: "The son of a solicitor",
+  she_was_a_member_of_a_cambridge_group_who: "Early explorers of Spiritualism and automatic writing",
+  a_portrait_of_verrall_by_frederic_yates: "In the collection of Trinity College, Cambridge",
+
 };
 
 // ============================================================
