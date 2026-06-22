@@ -18117,6 +18117,27 @@ const FLAT_DICT = {
   these_fluctuations_in_oxygenation: { definition: "Likely driven by the Lomagundi-Jatuli Carbon Isotope Excursion", what_it_does: "", examples: "the earliest cnidarians , placozoans and bilaterians ) first proliferated" },
   periods_with_more_oxygen_in_the_atmosphere: { definition: "Often associated with more rapid development of animals", what_it_does: "", examples: "smogs , acid rains and pollution-related diseases" },
 
+  // === INGESTED 2026-06-22 08:25 ===
+  the_electromagnetic_spectrum: "The full range of electromagnetic radiation , organized by frequency or wavelength",
+  the_spectrum: { definition: "Divided into separate bands, with different names for the electromagnetic waves within each band", what_it_does: "", examples: "how they are produced, how they interact with matter, and their practical applications" },
+  he_theorized_that_this_temperature_change: "Due to 'calorific rays', a type of light ray that could not be seen",
+  hertz_found_the_waves_and: { definition: "Able to infer (by measuring their wavelength and multiplying it by their frequency) that they traveled at the speed of light", what_it_does: "", examples: "Hertz was able to focus the waves using a lens made of tree resin" },
+  the_modern_position_of_science: "That electromagnetic radiation has both a wave and a particle nature, the wave-particle duality",
+  the_contradictions_arising_from_this_position: "Still being debated by scientists and philosophers",
+  these_relations: "Illustrated by the following equations: where: Whenever electromagnetic waves travel in a medium with matter , their wavelength is decreased",
+  spectroscopes: { definition: "Widely used in astrophysics", what_it_does: "", examples: "many hydrogen atoms emit a radio wave photon that has a wavelength of 21.12 cm" },
+  these_types_of_interaction: "So different that historically different names have been applied to different parts of the spectrum, as though these were different types of radiation",
+  radio_waves: "Emitted and received by antennas , which consist of conductors such as metal rod resonators",
+  microwaves: { definition: "The main wavelengths used in radar , and are used for satellite communication , and wireless networking technologies such as Wi-Fi", what_it_does: "", examples: "imaging and communications are now appearing" },
+  microwave_energy: "Produced with klystron and magnetron tubes, and with solid state devices such as Gunn and IMPATT diodes",
+  the_light_that_excites_the_human_visual_system: "A very small portion of the electromagnetic spectrum",
+  white_light: "A combination of lights of different wavelengths in the visible spectrum",
+  the_modulation: { definition: "Similar to that used with radio waves", what_it_does: "", examples: "forensic science , conservation , medical imaging , and killing insects" },
+  one_notable_use: "Diagnostic X-ray imaging in medicine (a process known as radiography )",
+  xrays_are_also_emitted_by_stellar_corona_and: "Strongly emitted by some types of nebulae",
+  in_astronomy_they: "Valuable for studying high-energy objects or regions, however as with X-rays this can only be done with telescopes outside the Earth's atmosphere",
+  gamma_rays: "Used experimentally by physicists for their penetrating ability and are produced by a number of radioisotopes",
+
 };
 
 // ============================================================
