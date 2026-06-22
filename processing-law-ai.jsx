@@ -22603,6 +22603,10 @@ const FLAT_DICT = {
   signals_on_this_track: { definition: "Also transmitted to the periaqueductal gray (PAG) of the midbrain", what_it_does: "", examples: "GABAergic , glutamatergic , and serotonergic neurons" },
   improvements_from_use_of_cb_agonist_in_ms: { definition: "Associated with the activation of CB1 and CB2 receptors, leading to dual anti-inflammatory and neuroprotective effects throughout the CNS", what_it_does: "", examples: "rimonabant are used for weight reduction and smoking cessation" },
 
+  // === INGESTED 2026-06-22 21:20 ===
+  a_synaptopathy: { definition: "A disease of the brain , spinal cord or peripheral nervous system relating to the dysfunction of synapses", what_it_does: "", examples: "an ion channel , neurotransmitter receptor , or a protein involved in neurotransmitter release" },
+  synaptopathies_caused_by_ion_channel_mutations: "Also known as synaptic channelopathies",
+
 };
 
 // ============================================================
