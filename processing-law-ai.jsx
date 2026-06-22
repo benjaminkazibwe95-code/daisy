@@ -15517,6 +15517,16 @@ const FLAT_DICT = {
   the_aim_of_the_field: "To create models of biological neural systems in order to understand how biological systems work",
   many_models: { definition: "Used; defined at different levels of abstraction, and modeling different aspects of neural systems", what_it_does: "", examples: "Alzheimer's and post-traumatic stress disorder" },
 
+  // === INGESTED 2026-06-22 01:37 ===
+  the_dft: "Defined by the formula where e i 2 π / n {\displaystyle e^{i2\pi /n}} is a primitive n th root of 1",
+  since_the_inverse_dft: "The same as the DFT, but with the opposite sign in the exponent and a 1/ n factor, any FFT algorithm can easily be adapted for it",
+  fast_fourier_transforms: "Widely used for applications in engineering, music, science, and mathematics",
+  the_basic_ideas: "Popularized in 1965, but some algorithms had been derived as early as 1805",
+  an_fft: { definition: "Any method to compute the same results in O ( n log ⁡ n ) {\textstyle O(n\log n)} operations", what_it_does: "", examples: "multiplications by 1, leaving about 30 million operations" },
+  by_far_the_most_commonly_used_fft: "The Cooley–Tukey algorithm",
+  although_the_basic_idea: { definition: "Recursive, most traditional implementations rearrange the algorithm to avoid explicit recursion", what_it_does: "", examples: "those described below" },
+  the_fft: { definition: "Used in digital recording, sampling, additive synthesis and pitch correction software", what_it_does: "", examples: "4G LTE and 5G NR" },
+
 };
 
 // ============================================================
