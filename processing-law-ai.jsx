@@ -21589,6 +21589,11 @@ const FLAT_DICT = {
   memories_that: "Emotionally significant and relevant for the future are therefore preferentially consolidated during sleep",
   this_can_translate_to_mean_that_memories_that: "More meaningful or valuable to a person are consolidated more",
 
+  // === INGESTED 2026-06-22 18:33 ===
+  the_sexual_fusion_of_haploid_cells: "Called karyogamy , the result of which is the formation of a diploid cell called the zygote (or zygospore in specific cases)",
+  demethylation: "The processes of base excision repair and possibly other DNA-repair–based mechanisms",
+  the_other_product_of_meiosis: { definition: "The second polar body with only chromosomes but no ability to replicate or survive", what_it_does: "", examples: "relevance to the use of embryonic stem cells" },
+
 };
 
 // ============================================================
