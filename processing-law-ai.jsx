@@ -16405,6 +16405,10 @@ const FLAT_DICT = {
   he_observed_that_when_sexual_behaviours: "Restricted, sexual incontinence follows with resultant guilt",
   the_ancient_sumerians_believed_that_semen: "'a divine substance, endowed on humanity by Enki ', the god of water",
 
+  // === INGESTED 2026-06-22 04:08 ===
+  deletions: "Representative of eukaryotic organisms, including humans and not in prokaryotic organisms, such as bacteria",
+  microdeletions: { definition: "Associated with many different conditions, including Angelman syndrome, Prader-Willi syndrome, and DiGeorge syndrome", what_it_does: "", examples: "end-sequence profiling" },
+
 };
 
 // ============================================================
