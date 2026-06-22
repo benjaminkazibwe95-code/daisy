@@ -18963,6 +18963,21 @@ const FLAT_DICT = {
   if_one_of_these_values: "0, we have a linear factor",
   if_the_values: "Nonzero, we can list the possible factorizations for each",
 
+  // === INGESTED 2026-06-22 10:41 ===
+  to_evaluate_an_expression: "To find a numerical value equivalent to the expression",
+  to_evaluate_an_expression_with_a_variable: "To find the value of the expression when the variable is substituted with given number",
+  terms_that: "Either constants or have the same variables raised to the same powers are called like terms",
+  determining_which_value: "Assumed to be free depends on context and semantics",
+  expressions_that: "Syntactically correct are called well-formed",
+  expressions_that_are_semantically_correct: { definition: "Called well-defined", what_it_does: "", examples: "in arithmetic , the expression 1 + 2 × 3 is well-formed, but is not" },
+  formal_semantics: { definition: "About attaching meaning to expressions", what_it_does: "", examples: "rules of precedence , associativity of the operator)" },
+  expressions: "Often contrasted with statements —syntactic entities that have no value (an instruction)",
+  a_calculation: { definition: "A deliberate mathematical process that transforms one or more inputs into one or more outputs or results", what_it_does: "", examples: "multiplying 7 by 6 is a simple algorithmic calculation" },
+  expressions_can_be_computed_by: { definition: "Of an evaluation strategy", what_it_does: "", examples: "PureScript , have variants with different evaluation strategies" },
+  for_example_the_above_polynomial_expression: "Equivalent (denote the same polynomial as 3 x 2 − x y + 6 x + 3",
+  the_equivalence_of_two_lambda_expressions: "Undecidable (but see unification (computer science) )",
+  an_example_of_early_counting: { definition: "The Ishango bone , found near the Nile and dating back over 20,000 years ago , which is thought to show a six-month lunar calendar", what_it_does: "", examples: "equality or inequality ) or exponents" },
+
 };
 
 // ============================================================
