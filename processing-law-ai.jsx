@@ -16587,6 +16587,27 @@ const FLAT_DICT = {
   mayr_said_he: { definition: "An atheist in regards to 'the idea of a personal God' because 'there is nothing that supports [it]'", what_it_does: "", examples: "those of J.B.S" },
   the_precise_mechanisms_of_sympatric_speciation: "Usually a form of microallopatry enabled by variations in niche occupancy among individuals within a population",
 
+  // === INGESTED 2026-06-22 04:37 ===
+  each_of_us: { definition: "Willed, each of us is loved, each of us is necessary", what_it_does: "", examples: "humans) as more highly evolved or advanced than another" },
+  this_also: "That advocates of creationism and evolutionary biologists often simply speak past each other",
+  evolutionary_theory: "An explanation for the diversity of species and their ancestry which has met extremely high standards of scientific evidence",
+  an_example_of_evolution_as_theory: { definition: "The modern synthesis of Darwinian natural selection and Mendelian inheritance", what_it_does: "", examples: "'validated' or 'corroborated' are more appropriate)" },
+  examples_of_claims_made_in_such_arguments: "Statements that evolution is based on faith , [ 35 ] and that supporters of evolution dogmatically reject alternative suggestions out-of-hand",
+  a_related_claim_is_that_evolution: "Atheistic (see the Atheism section below); creationists sometimes merge the two claims and describe evolution as an 'atheistic religion' (cf",
+  statements_that: "Not falsifiable cannot be examined by scientific investigation since they permit no tests that evaluate their accuracy",
+  the_fusion_hypothesis: "Confirmed in 2005 by discovery that human chromosome 2 is homologous with a fusion of two chromosomes that remain separate in other primates",
+  this_phrase: "First used by Herbert Spencer in 1864 but is rarely used by biologists",
+  a_common_claim_of_creationists: { definition: "That evolution has never been observed", what_it_does: "", examples: "that observed even in dog breeding" },
+  the_basic_idea_of_this_argument_for_a_designer: "The teleological argument , an argument for the existence of God based on the perceived order or purposefulness of the universe",
+  although_the_process: "Some random elements, it is the non-random selection of survival-enhancing genes that drives the evolution of complex and ordered patterns",
+  the_fact_that_the_results: { definition: "Ordered and seem 'designed' is no more evidence for a supernatural intelligence than the appearance of complex non-living phenomena (e.g", what_it_does: "", examples: "abiogenesis, the Big Bang, or the meaning of life" },
+  the_only_prudent_conclusion_is_that_they: { definition: "The products of intelligent design, not evolution", what_it_does: "", examples: "'What use is half an eye?' and 'What use is half a wing?'" },
+  gitt_asserted_that_information: "An intrinsic characteristic of life and that an analysis demonstrates the mind and will of their Creator",
+  the_antidefamation_league: "Such claims as outrageous misuse of the Holocaust and its imagery, and as trivializing the '",
+  young_argues_that_creation_science_itself: "Harmful to Christianity because its bad science will turn more away than it recruits",
+  pennock_makes_the_comparison_that_evolution: "No more atheistic than plumbing",
+  very_similar_results: "Reported from a 1997 Gallup Poll of the American public and scientists",
+
 };
 
 // ============================================================
