@@ -19860,6 +19860,14 @@ const FLAT_DICT = {
   bardeen: "Born in Minneapolis , Minnesota , on May 9, 1939",
   they_met_the_year_before_in_paris_while_he: "Attending a conference, and remained married until his death",
 
+  // === INGESTED 2026-06-22 13:32 ===
+  the_magnitude_of_the_field_at_every_point: "Calculated by applying the universal law, and represents the force per unit mass on any object at that point in space",
+  the_negative_signs: "Inserted since the force acts antiparallel to the displacement",
+  these_classical_equations: "Differential equations of motion for a test particle in the presence of a gravitational field, i.e",
+  the_field_around_multiple_particles: "Simply the vector sum of the fields around each individual particle",
+  the_gravitational_field_on_mass_m_j: "The sum of all gravitational fields due to all other masses m i , except the mass m j itself",
+  r_i: "The position vector of the gravitating particle i , and R is that of the test particle",
+
 };
 
 // ============================================================
