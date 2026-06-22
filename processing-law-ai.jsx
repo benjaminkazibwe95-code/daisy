@@ -16902,6 +16902,16 @@ const FLAT_DICT = {
   some_problems: "Difficult to solve, while others are easy",
   time_and_space: "Two of the most important and popular considerations when problems of complexity are analyzed",
 
+  // === INGESTED 2026-06-22 05:30 ===
+  most_legal_unicode_characters: { definition: "Allowed in these strings, which are interpreted in a case-insensitive manner", what_it_does: "", examples: "in the DOI name 10.1000/182 , the prefix is 10.1000 and the suffix is 182" },
+  such_urls: "PURLs , providing the location of a name resolver which will redirect HTTP requests to the correct online location of the linked item",
+  included_as_part_of_this_metadata: "Network actions that allow DOI names to be resolved to web locations where the objects they describe can be found",
+  because_doi_names: "Short character strings, they are human-readable, may be copied and pasted as text, and fit into the URI specification",
+  a_small_kernel_of_common_metadata: { definition: "Shared by all DOI names and can be optionally extended with other relevant data, which may be public or restricted", what_it_does: "", examples: "when publication information changes or when an object moves to a different URL" },
+  urls: { definition: "Often used as substitute identifiers for documents on the Internet although the same document at two different locations has two URLs", what_it_does: "", examples: "one at the official website https://doi.org/" },
+  membership: "Open to all organizations with an interest in electronic publishing and related enabling technologies",
+  a_list_of_current_ras: "Maintained by the International DOI Foundation",
+
 };
 
 // ============================================================
