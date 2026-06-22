@@ -21854,6 +21854,10 @@ const FLAT_DICT = {
   the_classical_view_of_information_processing: "That when a peripheral stimulus provided information to the central nervous system , it was processed in the brain, and a response was elicited",
   acupuncture: "An alternative treatment type for many people with anxiety and depression",
 
+  // === INGESTED 2026-06-22 19:19 ===
+  anosognosia: { definition: "A condition in which a person with a disability is cognitively unaware of having it due to an underlying physical condition", what_it_does: "", examples: "their limbs" },
+  another_commonly_used_method: "The use of feedback—comparing clients' self-predicted performance with their actual performance on a task in an attempt to improve insight",
+
 };
 
 // ============================================================
