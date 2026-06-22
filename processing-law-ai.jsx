@@ -22821,6 +22821,14 @@ const FLAT_DICT = {
   pakwach: "In Pakwach District , West Nile sub-region",
   thousands_of_locals: "Joined by solar eclipse tourists and professional observers",
 
+  // === INGESTED 2026-06-22 22:02 ===
+  this_service: "Switched online on the morning of 5 August 1995",
+  the_initial_link_speed: "64 kbit/s, almost immediately upgraded to 1.5 Mbit/s in January 2006 when the RF amplifiers in Kampala were upgraded from 5 Watts to 20 Watts",
+  infomail_uganda_ltd: "Founded and managed by Dr",
+  nsn: "Sold in 1997 to JACOR/Clear Channel Communications and its remaining network operations in Denver were acquired by LinkUp Communications in 2021",
+  the_stated_purpose_of_the_law: "To provide additional government revenue, and to control 'gossip' being spread over these platforms",
+  the_east_african_procurement_news: "A weekly business newspaper",
+
 };
 
 // ============================================================
