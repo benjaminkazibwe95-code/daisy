@@ -20462,6 +20462,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 15:20 ===
   fernel_suggested_that_taste_buds: "Sensitive to fat , an idea which research in the early 21st century proved to be correct",
 
+  // === INGESTED 2026-06-22 15:22 ===
+  the_remaining_parts_of_each_business: { definition: "Merged into The McGraw-Hill Publishing Company, Inc in 1917", what_it_does: "", examples: "its publishing unit" },
+  the_merged_company: "Expected to retain McGraw Hill as the corporate name",
+  mcgraw_hill: "Sold in 2021 to Platinum Equity for $4.5 billion",
+  the_capability: { definition: "Described as “further enhanced” as a beige flag for a better interpretation for the students, and support for the decision making and synergy", what_it_does: "", examples: "financial services and broadcasting" },
+  the_lawsuit: "Dropped by McGraw Hill in 1990, citing a desire not to cause distress to Baldwin's family",
+  additionally_there: "One instance of them overcharging by $279,000 for a single book in Osceola County School districts",
+
 };
 
 // ============================================================
