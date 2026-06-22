@@ -20919,6 +20919,24 @@ const FLAT_DICT = {
   handle_system_infrastructure: "Supported by prefix registration and service fees, with the majority coming from single prefix holders",
   the_largest_current_single_contributor: { definition: "The International DOI Foundation", what_it_does: "", examples: "protocol specification, source code and ready-to-use system, clients and utilities, is available" },
 
+  // === INGESTED 2026-06-22 16:39 ===
+  the_new_york_times: { definition: "Involved in the landmark 1964 U.S", what_it_does: "", examples: "The Daily —and games through The New York Times Games" },
+  the_times: "Headquartered at The New York Times Building in Midtown Manhattan",
+  the_article: "Cited by then-president George W",
+  bush_to_claim_that_iraq: "Constructing weapons of mass destruction ; the theoretical use of aluminum tubes to produce nuclear material was speculation",
+  sulzberger: { definition: "Publisher until 1961 [ 108 ] and was succeeded by Orvil Dryfoos , his son-in-law, who served in the position until his death in 1963", what_it_does: "", examples: "1,700 journalists according to deputy managing editor Sam Dolnick" },
+  staff_writers: { definition: "Expected to ensure the veracity of all written claims, but may delegate researching obscure facts to the research desk", what_it_does: "", examples: "Nina Compton , Chintan Pandya, and Naoko Takei Moore" },
+  the_new_york_times_wine_club: "Established in August 2009, during a dramatic decrease in advertising revenue",
+  the_image_tiles: { definition: "Generated using GDAL and displayed using Leaflet , using data from a content delivery network", what_it_does: "", examples: "multimedia integration, notifications, content tagging, and drafts" },
+  the_new_york_times_manual_of_style_and_usage: { definition: "Published on the Times ' s intranet in 1999", what_it_does: "", examples: "Adolf Hitler , Napoleon , and Vladimir Lenin" },
+  the_headline: "Intentionally changed in the print version to use 'wiretapped' in order to fit within the print guidelines",
+  the_hyphen: "Dropped on December 1, 1896, after Adolph Ochs purchased the paper",
+  the_largest_change_to_the_nameplate: { definition: "Introduced on February 21, 1967, when type designer Ed Benguiat redesigned the logo, most prominently turning the arrow ornament into a diamond", what_it_does: "", examples: "one put on display at the Museum at The Times" },
+  the_misreporting: "Noticed by news editor Aaron Donovan, who was calculating the number of issues in a spreadsheet and noticed the discrepancy",
+  on_the_day_joe_biden: "Declared the winner, The New York Times utilized a 'hammer headline' reading, 'Biden Beats Trump', in all caps and bolded",
+  the_final_newspapers: { definition: "Wrapped in plastic and shipped out", what_it_does: "", examples: "The Wall Street Journal and USA Today" },
+  condensed_versions_of_the_interviews: { definition: "Published simultaneously in The New York Times Magazine", what_it_does: "", examples: "from other publications through Audm, and archives from This American Life" },
+
 };
 
 // ============================================================
