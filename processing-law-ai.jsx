@@ -22980,6 +22980,15 @@ const FLAT_DICT = {
   these_african_nations: "Not as dominant in the short races, but they have won every women's junior race since its introduction in 1989",
   tirunesh_dibaba: "Also once the junior women's champion",
 
+  // === INGESTED 2026-06-22 22:39 ===
+  nakawa_division: "One of the five administrative divisions of the city of Kampala , the capital and largest city of Uganda",
+  the_town_of_nakawa: "The site of the division headquarters",
+  the_streams: "Characterized by low gradient and comparatively broad valley floors",
+  the_meteorological_data_for_kampala_city: "Typical of Nakawa Division",
+  the_division: "Characterized by comparatively small seasonal variations in temperature",
+  children_below_five_years_of_age: "20 percent of the division population",
+  the_average_family_size: "4 and the maternal mortality rate was 265 per 100,000 live births",
+
 };
 
 // ============================================================
