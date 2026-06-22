@@ -20843,6 +20843,13 @@ const FLAT_DICT = {
   if_a_specific_ige_antibody: "Negative, there is no evidence that allergen immunotherapy will be effective for that patient",
   patients: { definition: "At increased risk of fatal anaphylaxis , local reaction at the site of injection, or life-threatening systemic allergic reactions", what_it_does: "", examples: "IL-10 , IL-4 , IL-5 and IL-13" },
 
+  // === INGESTED 2026-06-22 16:20 ===
+  when_chiropractic: "Effective, what is effective is not 'chiropractic': it is SMT",
+  smt: "Also offered by physical therapists, DOs, and others",
+  chiropractors: { definition: "Expected to increase 14% between 2006 and 2016, faster than the average for all occupations", what_it_does: "", examples: "New Jersey , specify a severely narrowed scope" },
+  ten_different_chiropractic_programs: { definition: "Ranked among the 47 US graduate programs with the highest debt-to-earnings ratios", what_it_does: "", examples: "Cornwall , where the treatment is only available for neck or back pain" },
+  palmer: { definition: "Jailed in 1907 for practicing medicine without a license", what_it_does: "", examples: "'perform spinal analysis', 'detect subluxation', 'correct with adjustment'" },
+
 };
 
 // ============================================================
