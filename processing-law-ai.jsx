@@ -17020,6 +17020,19 @@ const FLAT_DICT = {
   the_semiclassical_approach: "Ubiquitous in computational work within AMO, largely due to the large decrease in computational cost and complexity associated with it",
   electrons_that_populate_a_shell: "Said to be in a bound state",
 
+  // === INGESTED 2026-06-22 05:47 ===
+  pubmed: { definition: "An openly accessible, free database which primarily includes the MEDLINE database of references and abstracts on life sciences and biomedical topics", what_it_does: "", examples: "university libraries" },
+  the_pubmed_system: { definition: "Offered free to the public starting in June 1997", what_it_does: "", examples: "Europe PubMed Central" },
+  it_is_also_useful_when_there: "No suitable heading or the descriptor represents a partial aspect",
+  the_search_using_the_thesaurus_mesh: { definition: "More accurate and will give fewer irrelevant results", what_it_does: "", examples: "reports of various kinds of clinical research" },
+  the_secondary_identifier_field: "To store accession numbers to various databases of molecular sequence data, gene expression or chemical compounds and clinical trial IDs",
+  the_related_articles: "Then listed in order of 'relatedness'",
+  this_feature_is_called_auto_term_mapping_and: { definition: "Enacted, by default, in free text searching but not exact phrase searching (i.e", what_it_does: "", examples: "'kidney allograft'), when truncated on the asterisk (e.g" },
+  link_out: "Being consolidated with Outside Tool as of the major platform update coming in the Summer of 2019",
+  a_pmid: "Not the same as a PMCID (PubMed Central identifier) which is the identifier for all works published in the free-to-access PubMed Central",
+  the_existence_of_the_identification_number: { definition: "Also not proof that the papers have not been retracted for fraud, incompetence, or misconduct", what_it_does: "", examples: "Matlab , Python or R" },
+  the_annual_baseline: "Released in December, followed by daily update files",
+
 };
 
 // ============================================================
