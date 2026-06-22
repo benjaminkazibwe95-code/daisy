@@ -20896,6 +20896,12 @@ const FLAT_DICT = {
   from_each_species_of_livestock_that: "A source of milk , a corresponding rennet is obtained from the intestines of milk-fed calves",
   pig_and_calf_intestines: "Eaten, and pig intestines are used as sausage casings",
 
+  // === INGESTED 2026-06-22 16:30 ===
+  extant_species: { definition: "Roughly equally divided between fishes of all kinds, and tetrapods", what_it_does: "", examples: "the intestines, liver, pancreas, and stomach" },
+  the_gills: { definition: "Finely-branched structures which bring the blood close to the water", what_it_does: "", examples: "Brachycephalus pulex , with a minimum adult snout–vent length of 6.45 millimetres (0" },
+  the_cyclostomes: { definition: "Seen as either degenerate cartilaginous fishes or primitive vertebrates", what_it_does: "", examples: "radial muscles in the fins, true lymphocytes, neuromasts in the inner ear, and a cerebellum" },
+  it_was_once_thought_that_the_cephalochordata: { definition: "The sister taxon to Vertebrata", what_it_does: "", examples: "the Myllokunmingiida" },
+
 };
 
 // ============================================================
