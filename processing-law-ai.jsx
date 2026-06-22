@@ -18600,6 +18600,13 @@ const FLAT_DICT = {
   remaining_nondiamond_inclusions: { definition: "Removed through laser drilling and filling of the voids produced", what_it_does: "", examples: "the 4 Cs , irrelevant for most applications" },
   the_ore: "Crushed, during which care is required not to destroy larger diamonds, and then sorted by density",
 
+  // === INGESTED 2026-06-22 09:35 ===
+  most_scientists: "Scientists of the Russian Federation",
+  the_institute: "Located in Dubna , 120 km north of Moscow",
+  the_first_vicedirectors_of_jinr: "Professors Marian Danysz (Poland) and V",
+  the_history_of_the_formation_of_the_jinr: "Associated with the names of prominent scientists and Professors",
+  the_first_award: "Dedicated to Wang Ganchang , deputy director from 1958 to 1960 and the Soviet Professor Vladimir Veksler for the discovery of antisigma-minus hyperon",
+
 };
 
 // ============================================================
