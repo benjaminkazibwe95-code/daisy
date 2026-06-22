@@ -23041,6 +23041,38 @@ const FLAT_DICT = {
   rainfall_rates_downwind_of_cities: { definition: "Increased between 48% and 116%", what_it_does: "", examples: "0000, 0600, 1200, and 1800 GMT" },
   the_terrain: "Considered in QPFs using topography or based upon climatological precipitation patterns from observations with fine detail",
 
+  // === INGESTED 2026-06-22 22:49 ===
+  the_nile_river_system: "The defining physical feature of the country, running south to north across its center, which is dominated by a large swamp known as the Sudd",
+  juba: { definition: "The capital and largest city", what_it_does: "", examples: "forced displacement, ethnic massacres, and killings of journalists by various parties" },
+  the_economy: "Predominantly rural and relies chiefly on subsistence farming",
+  other_names_considered: { definition: "Azania , Nile Republic, Kush Republic and even Juwama, a portmanteau for Juba , Wau and Malakal , three major cities", what_it_does: "", examples: "the division of oil revenues, as 75% of all the former Sudan's oil reserves are in South Sudan" },
+  a_separate_referendum: "To be held in Abyei on whether they want to join Sudan or South Sudan; [ 43 ] however an official referendum was never held",
+  ugandan_troops: "Deployed to fight alongside South Sudanese government forces against the rebels",
+  a_peace_agreement: { definition: "Signed in Ethiopia under threat of United Nations sanctions for both sides in August 2015", what_it_does: "", examples: "notable atrocities such as the 2014 Bentiu massacre" },
+  the_arrest: "Met by a response from the SPLM-IO stating such an act violates the ceasefire that ended the South Sudanese civil war in 2020",
+  most_of_the_species_recorded: "Associated with diseases of crops",
+  the_largest_protected_area: "The Sudd Wetland , which is an important bird life area covering 57,000 km 2 (22,000 sq mi)",
+  many_of_the_protected_areas: "Exploited for illegal hunting and rearing of livestock",
+  the_loan_deposit: "Directed to an Emirati bank account, of which 70% were allocated to infrastructure facilities",
+  additional_oil_shipments: "Agreed in case of decrease in oil prices",
+  a_new_mass_killing_or_genocide: { definition: "Most likely to occur in southern Sudan", what_it_does: "", examples: "poverty and gender inequality" },
+  during_part_of_the_year_the_rivers: "Navigable up to Gambela, Ethiopia , and Wau, South Sudan",
+  juba_airport: "Also the home base of Feeder Airlines Company and Southern Star Airlines",
+  the_few_existing_piped_water_supply_systems: "Often not well maintained and the water they provide is often not safe to drink",
+  six_indigenous_languages: "Threatened with extinction , with another 11 declining",
+  the_supreme_deity: "Worshipped through rituals that use music and dance",
+  islamic_private_schools: "Maintained with little government involvement, while many secondary institutions include Islamic theology in their curricula",
+  the_primary_language_at_all_levels: "English, as compared to the Republic of Sudan, where the language of instruction is Arabic",
+  food_insecurity: { definition: "Acute: the IPC projected that over 7", what_it_does: "", examples: "900,000 South Sudanese returnees" },
+  although_the_common_languages_spoken: { definition: "Juba Arabic and English, Swahili might be introduced to the population to improve the country's relations with its East African neighbours", what_it_does: "", examples: "documentarian Ochan Hannington" },
+  christopher_allen: { definition: "A freelance journalist who had worked for several US news outlets", what_it_does: "", examples: "Sudan Tribune and Radio Tamazuj [ 295 ] had been blocked by the government without formal notice" },
+  the_traditional_sports: "Mainly played after the harvest seasons to celebrate the harvests and finish the farming seasons",
+  though_these: "Perceived as competition, they were primarily for entertainment",
+  one_of_these_initiatives: "South Sudan Youth Sports Association (SSYSA)",
+  ssysa: "Already holding football clinics in Konyokonyo and Muniki areas of Juba in which young boys are coached",
+  luol_deng: "A National Basketball Association star in the United States; at the international level, he represented Great Britain",
+  no_medals: "Won during this Olympics",
+
 };
 
 // ============================================================
