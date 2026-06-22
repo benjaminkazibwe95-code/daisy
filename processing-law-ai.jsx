@@ -18718,6 +18718,11 @@ const FLAT_DICT = {
   xnview: "Available free of charge for personal use but must be licensed for commercial use",
   in_the_latter_case_it: "Colloquially known as nagware",
 
+  // === INGESTED 2026-06-22 10:00 ===
+  the_formula_is_h_x_where_x: "One of the halogens : fluorine , chlorine , bromine , iodine , astatine , or tennessine",
+  these_acids: "Very strong, reflecting their tendency to ionize in aqueous solution , yielding hydronium ions (H 3 O + )",
+  hydrofluoric_acid: { definition: "Complicated because its strength depends on the concentration, owing to the effects of homoconjugation", what_it_does: "", examples: "acetonitrile , the hydrogen halides are only moderately acidic" },
+
 };
 
 // ============================================================
