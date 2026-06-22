@@ -18619,6 +18619,23 @@ const FLAT_DICT = {
   hydrogen_peroxide: { definition: "Then assayed by a fluorimetric method", what_it_does: "", examples: "high pH (which slows the spontaneous dismutation) with the enzyme xanthine oxidase" },
   superoxide_spintrapping: "Initially carried out with DMPO , but phosphorus derivatives with improved half-lives, such as DEPPMPO and DIPPMPO , have become more widely used",
 
+  // === INGESTED 2026-06-22 09:43 ===
+  a_kofler_bench: "A metal strip with a temperature gradient (range from room temperature to 300 °C)",
+  several_grains_of_a_solid: "Placed in a thin glass tube and partially immersed in the oil bath",
+  this_extrapolation: "Accomplished by using Planck's law of radiation",
+  the_constants_in_this_equation: "Not known with sufficient accuracy, causing errors in the extrapolation to become larger at higher temperatures",
+  an_absorbing_medium_of_known_transmission: "Inserted between the pyrometer and this black-body",
+  the_temperature_of_the_blackbody: "Then adjusted until a match exists between its intensity and that of the pyrometer filament",
+  the_true_higher_temperature_of_the_blackbody: "Then determined from Planck's Law",
+  the_absorbing_medium: "Then removed and the current through the filament is adjusted to match the filament intensity to that of the black-body",
+  this_step: "Repeated to carry the calibration to higher temperatures",
+  these_rods: "Then heated by passing a very large current through them, and the radiation emitted from the hole is observed with an optical pyrometer",
+  the_point_of_melting: { definition: "Indicated by the darkening of the hole when the liquid phase appears, destroying the black body conditions", what_it_does: "", examples: "sample vaporization and reaction with the container" },
+  the_melting_point_of_a_pure_substance: "Always higher and has a smaller range than the melting point of an impure substance or, more generally, of mixtures",
+  eutectics: "Special types of mixtures that behave like single phases",
+  the_freezing_point_of_a_solvent: "Depressed when another compound is added, meaning that a solution has a lower freezing point than a pure solvent",
+  the_lindemann_criterion_states_that_melting: "Expected when the vibration root mean square amplitude exceeds a threshold value",
+
 };
 
 // ============================================================
