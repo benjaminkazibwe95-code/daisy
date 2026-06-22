@@ -21773,6 +21773,12 @@ const FLAT_DICT = {
   the_performance_of_stroop_and_simon_tasks: "Monitored on 10 healthy young adults using magnetic resonance image (MRI) scanning",
   when_competitive_advertising: "Presented, it was shown that repetition provided no improvement in brand name recall over a single exposure",
 
+  // === INGESTED 2026-06-22 19:03 ===
+  evolutionary_biology: { definition: "A subfield of biology that analyzes the four mechanisms of evolution : natural selection , mutation , genetic drift , and gene flow", what_it_does: "", examples: "sexual selection , genetic drift , and biogeography" },
+  one_way: "By the level of biological organization , from molecular to cell , organism to population",
+  the_modern_evolutionary_synthesis: { definition: "Devised at a time when the molecular basis of genes was unknown", what_it_does: "", examples: "adaptation and speciation" },
+  overlap_with_ecology: "Also prominent in the review journals Trends in Ecology and Evolution and Annual Review of Ecology, Evolution, and Systematics",
+
 };
 
 // ============================================================
