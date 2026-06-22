@@ -15972,6 +15972,34 @@ const FLAT_DICT = {
   the_main_advantage: "Usually the simplicity of instructions",
   the_main_disadvantage: { definition: "That the memory usage of recursive algorithms may grow very quickly, rendering them impractical for larger instances", what_it_does: "", examples: "in branching structures in which one large part branches out into two or more similar smaller parts" },
 
+  // === INGESTED 2026-06-22 02:55 ===
+  a_single_subroutine: "Implemented in 1945 in Konrad Zuse 's Z4 in the form of a tape",
+  a_similar_approach: "Used in computers that loaded program instructions from punched cards",
+  another_advance: { definition: "The jump to subroutine instruction, which combined the saving of the return address with the calling jump, thereby minimizing overhead significantly", what_it_does: "", examples: "to call a subroutine called MYSUB from the main program" },
+  the_call_stack: "Usually implemented as a contiguous area of memory",
+  when_stackbased_procedure_calls: "First introduced, an important motivation was to save precious memory",
+  one_disadvantage_of_the_call_stack_mechanism: "The increased cost of a procedure call and its matching return",
+  this_overhead: { definition: "Most obvious and objectionable in leaf procedures or leaf functions , which return without making any procedure calls themselves", what_it_does: "", examples: "the return address) that will be needed after Q returns" },
+  this_section: { definition: "Features of the various common implementations", what_it_does: "", examples: "C , C++ , C# and Lisp , use only one name for a callable unit, function" },
+  a_callable_unit_that_does_not_return_a_value: { definition: "Called as a stand-alone statement like print('hello')", what_it_does: "", examples: "BASIC, a callable has different syntax (i.e" },
+  in_some_of_these_languages_an_extra_keyword: "Used to declare no return value, such as void in C, C++ and C#",
+  side_effects: "Considered undesirable by Robert C",
+  these_variables: "Typically stored in the call's activation record on the call stack along with other information such as the return address",
+  recursion_is_a_useful: { definition: "To simplify some complex algorithms and break down complex problems", what_it_does: "", examples: "Ada , Pascal , PL/I , Python , support declaring and defining a function inside, e.g" },
+  a_reentrant_callable: "Also useful in multi-threaded situations since multiple threads can call the same callable without fear of interfering with each other",
+  the_algorithm_for_each_type_of_input: "Different, and the return value may have a different type",
+  overloading: "Supported in many languages that support strong typing",
+  a_closure: "A callable plus values of some of its variables captured from the environment in which it was created",
+  closures: "A notable feature of the Lisp programming language, introduced by John McCarthy",
+  they_argue_that_callables: "Key components in software maintenance , and their roles in the program must remain distinct",
+  if_such_coupling: "Not necessary, they advise to refactor callables to accept passed parameters instead",
+  it_provides_the_command_gosub_where_sub: "Short for sub procedure , subprocedure or subroutine",
+  subsequent_lines: { definition: "The body which ends with the EndSub keyword", what_it_does: "", examples: "the latest product line and VB6 , the term procedure is used for the callable unit concept" },
+  the_keyword_sub: "Used to return no value and Function to return a value",
+  unless_byref: "Specified, an argument is passed ByVal",
+  giving_v: { definition: "5 before the call, it will be 7 after", what_it_does: "", examples: "string lengths and array bounds" },
+  the_second_function_calls_the_first_and: { definition: "Called like greet_martin() to write 'Welcome Martin' to the console", what_it_does: "", examples: "the procedure call ?- parent_child ( X , charles ) produces the output X = elizabeth" },
+
 };
 
 // ============================================================
