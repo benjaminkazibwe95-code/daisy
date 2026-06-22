@@ -20780,6 +20780,25 @@ const FLAT_DICT = {
   immunity_is_acquired_actively_when_a_person: "Exposed to foreign substances and the immune system responds",
   passive_immunity_is_when_antibodies: "Transferred from one host to another",
 
+  // === INGESTED 2026-06-22 16:14 ===
+  lymphocytes: { definition: "Blood cells of lymphoid (rather than the myeloid or erythroid ) lineage", what_it_does: "", examples: "humans ( Homo sapiens ), lymphopoiesis begins with limited passive provision from the mother" },
+  examples_of_such_cells: { definition: "CFUs (Colony-forming units – referred to as such because of their ability to form colonies in vitro in artificial media) such as CFU-T", what_it_does: "", examples: "all types of lymphocytes via CLPs" },
+  the_function_of_lymphopoiesis: "The production of various lymphocytes from common lymphoid progenitor (CLP) cells, which are in turn derived from hematopoietic stem cells",
+  t_and_b_lymphocytes: "Indistinguishable under the microscope",
+  t_and_b_cells: { definition: "Biochemically distinct and this is reflected in the differing markers and receptors they possess on their cell surfaces", what_it_does: "", examples: "[ 14 ] When T cells become activated they undergo a further series of developments" },
+  recent_reports_indicate_that_the_human_thymus: { definition: "Active throughout adult life", what_it_does: "", examples: "one kind is found in the peripheral blood while another predominates in the intestinal tract" },
+  human_nkt_cells_are_a_unique_population_and: "Thought to play an important role in tumor immunity [ 17 ] and immunoregulation",
+  t_reg_cells: "Considered as naturally occurring regulatory T cells",
+  the_opportunity_they_seek: "To encounter and recognize and then kill abnormal cells such as cancer or virally infected cells",
+  yet_they: { definition: "Much more closely related to T cells (part of the adaptive immune system ) than to other cells of the innate immune system", what_it_does: "", examples: "skin, to monitor invaders and nibble their antigens" },
+  killers: "Known to attack virus-infected cells and cells that have become cancerous",
+  this_kills_cells_that: "Infected and display antigen",
+  nk_cells_mainly: "In the circulation (5-15% of the circulating lymphocytes) yet are also distributed in tissues everywhere",
+  human_nk_t_cells: "A unique population (which express NK cell markers such as CD56 and KIR)",
+  nkt_cells: "Thought to play an important role in tumor immunity and immunoregulation (Medical Immunology, p",
+  a_set_of_markers: { definition: "Colloquially described as the barcode for that cell or that cell line", what_it_does: "", examples: "cell flow cytometry" },
+  however_clp: "Committed to the lymphoid lineage",
+
 };
 
 // ============================================================
