@@ -19619,6 +19619,11 @@ const FLAT_DICT = {
   the_globe: "Virtually reconstructed by a historian of science",
   hipparchus_concluded_that_the_equinoxes: "Moving ('precessing') through the zodiac, and that the rate of precession was not less than 1° in a century",
 
+  // === INGESTED 2026-06-22 12:48 ===
+  the_cloud: "Located at about 18% below the galactic plane and covers an angular area of 16.0° × 6.5° on the celestial sphere",
+  over_half_of_the_mass_of_the_complex: "Concentrated around a small area, and this is the most active star-forming region",
+  in_the_north_of_the_constellation: "The Corona Australis Molecular Cloud, a dark molecular cloud with many embedded reflection nebulae , including NGC 6729 , NGC 6726 –7, and IC 4812",
+
 };
 
 // ============================================================
