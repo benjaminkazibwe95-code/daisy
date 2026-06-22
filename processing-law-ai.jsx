@@ -20747,6 +20747,11 @@ const FLAT_DICT = {
   the_valvular_endothelium: "A prominent site of lymphocyte-induced damage",
   the_dominant_contributors: { definition: "A component of MHC class II molecules, found on lymphocytes and antigen-presenting cells, specifically the DR and DQ alleles on human chromosome 6", what_it_does: "", examples: "tissue scarring and stenosis" },
 
+  // === INGESTED 2026-06-22 16:09 ===
+  the_concept_of_cardiac_remodeling: "Initially developed to describe changes that occur in the days and months following myocardial infarction",
+  although_the_disease: { definition: "More common in African-Americans than in Caucasians, [ 41 ] it may occur in any patient population", what_it_does: "", examples: "the Boxer , Dobermann , Great Dane , Irish Wolfhound , and St Bernard" },
+  the_incidence: "High enough that several strains of Golden Hamster have been developed to serve as animal models in clinical testing for human forms of the disease",
+
 };
 
 // ============================================================
