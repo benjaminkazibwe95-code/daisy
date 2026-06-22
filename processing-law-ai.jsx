@@ -15162,6 +15162,27 @@ const FLAT_DICT = {
   an_updated_version_of_the_article: "Published in 1979 in Analog Science Fiction and Fact",
   the_rhetorical_effect_of_the_analogy: { definition: "That if humans are fine to pass the world to their biological children, they should be equally fine to pass it to robots, their 'mind children'", what_it_does: "", examples: "possible technological singularity" },
 
+  // === INGESTED 2026-06-22 00:26 ===
+  if_minds_and_bodies: "Radically different kinds of substance, however, it is not easy to see how they 'could' causally interact",
+  abstract_information_processing_models: { definition: "No longer accepted as satisfactory accounts of the human mind", what_it_does: "", examples: "pressing a button for making a choice response)" },
+  one_might_say_that_they: { definition: "Loaded with mental content, which cannot be appreciated other than by studying their material features", what_it_does: "", examples: "the body, the brain, and other observable entities" },
+  neurophilosophy: { definition: "The interdisciplinary study of neuroscience and philosophy of mind", what_it_does: "", examples: "the sound level that causes a subject to turn and look toward the source)" },
+  most: "Either dualist or monist",
+  monism_maintains_that_there: "Only one unifying reality as in neutral or substance or essence, in terms of which everything can be explained",
+  psychophysical_parallelism: { definition: "A third possible alternative regarding the relation between mind and body, between interaction (dualism) and one-sided action (monism)", what_it_does: "", examples: "the body anatomy, the nervous system as well as the organ brain" },
+  descartes_believed_that_the_mind: "Non-physical and permeated the entire body, but that the mind and body interacted via the pineal gland",
+  one_argument_elitzur_makes_in_favor_of_dualism: { definition: "An argument from bafflement", what_it_does: "", examples: "consider saying 'ouch' after stubbing one's toe" },
+  although_leibniz_says_that_each_monad: "'windowless', he also claims that it functions as a 'mirror' of the entire created universe",
+  occasionalism_suggests_that_the_mind_and_body: { definition: "Separate and distinct, but that they interact through divine intervention", what_it_does: "", examples: "the body, the brain, and other observable entities)" },
+  the_body: "For Plato empty in that it cannot access the abstract reality of the world; it can only experience shadows",
+  for_even_if_one_and_being: "Spoken of in several ways, what is properly so spoken of is the actuality",
+  the_soul: "A property exhibited by the body, one among many",
+  since_his_view: "Primarily theological rather than philosophical, it is impossible to fit it neatly within either the category of physicalism or dualism",
+  gnosticism: "A modern name for a variety of ancient dualistic ideas inspired by Judaism popular in the first and second century AD",
+  he_held_that_mind: { definition: "Distinct from matter , but could influence matter", what_it_does: "", examples: "mathematics" },
+  nous: "Certainly not itself the sort of form that it makes",
+  the_hand: "Not a made tool (it would have to be made by yet another hand)",
+
 };
 
 // ============================================================
