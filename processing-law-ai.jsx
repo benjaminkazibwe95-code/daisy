@@ -22665,6 +22665,22 @@ const FLAT_DICT = {
   aba: "Perceived by the PYRABACTIN RESISTANCE 1 ( PYR1 ) and PYR1-like membrane proteins",
   the_quantitative_methods_used: "Based on HPLC and ELISA",
 
+  // === INGESTED 2026-06-22 21:36 ===
+  animals: "The sister group to the choanoflagellates , with which they form the Choanozoa",
+  it_has_been_estimated_there: "As many as 7.77 million animal species on Earth",
+  the_scientific_study_of_animals: "Known as zoology , and the study of animal behaviour is known as ethology",
+  the_animal_kingdom: { definition: "Divided into five major clades, namely Porifera , Ctenophora , Placozoa , Cnidaria and Bilateria", what_it_does: "", examples: "leather , fur , and wool ), as pets and as working animals for transportation , and services" },
+  its_likely_origin: { definition: "From sponges based on molecular clock estimates for the origin of 24-ipc production in both groups", what_it_does: "", examples: "Charnia and Spriggina" },
+  these_fossils: "Interpreted as most probably being early sponges",
+  uncertainty_of_relationships: { definition: "Indicated with dashed lines", what_it_does: "", examples: "by fragmentation , where a piece of the sponge splits off and reestablishes somewhere else" },
+  they_have: "Unique in having colloblasts , structures on their tentacles that help them catch prey",
+  instead_their_nerves: "Arranged into a nerve net",
+  their_nerves: { definition: "Very different from those of other animals, and evidence suggests that their nerves developed independently of the nerves of other animals", what_it_does: "", examples: "sea anemones , coral , and sea pens only are sessile polyps" },
+  cnidaria: "Diploblastic, having only two main germ layers, ectoderm and endoderm",
+  the_bilateria: { definition: "Triploblastic , with three well-developed germ layers, and their tissues form distinct organs", what_it_does: "", examples: "food, favouring cephalisation , the development of a head with sense organs and a mouth" },
+  a_smaller_number_of_species: { definition: "Farmed commercially", what_it_does: "", examples: "coats and hats" },
+  the_scarab_beetle: "Sacred in ancient Egypt , [ 214 ] and the cow is sacred in Hinduism",
+
 };
 
 // ============================================================
