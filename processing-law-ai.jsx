@@ -22084,6 +22084,22 @@ const FLAT_DICT = {
   it_follows_that_punishment: "A dangerous tool, since it often has effects which are entirely the opposite of those desired'",
   having_a_low_frustration_tolerance: "Related to trait anger and a higher level of frustration tolerance is related to lower levels of anger and longer persistence on difficult tasks",
 
+  // === INGESTED 2026-06-22 20:01 ===
+  measurements_of_productivity: "Often expressed as a ratio of an aggregate output to a single input or an aggregate input used in a production process, i.e",
+  today_data_collection: "Largely computerized and almost any variable can be viewed graphically in real time or retrieved for selected time periods",
+  increases_in_it: "Widely used as a measure of the economic growth of nations and industries",
+  gdp: "The income available for paying capital costs, labor compensation, taxes and profits",
+  labour_input: { definition: "Measured either by the total number of hours worked of all persons employed or total employment (head count)", what_it_does: "", examples: "a part-time contract , paid leave , overtime , or shifts in normal hours" },
+  gdp_per_capita: "A very rough measure of average living standards or economic well-being and is one of the core indicators of economic performance",
+  the_use_of_capital_in_the_gdpmeasure: "Considered to be as valuable as the production's ability to pay taxes, profits and labor compensation",
+  the_bias_of_the_gdp: { definition: "Actually the difference between the GDP and the producer income", what_it_does: "", examples: "technical and organisational innovation" },
+  productivity_growth: "A crucial source of growth in living standards",
+  productivity_growth_means_more_value: "Added in production and this means more income is available to be distributed",
+  additional_resources: "Also attracted into production and can be profitably employed",
+  a_similar_pattern: "Observed with electrification , which saw the highest productivity gains in the early decades after introduction",
+  certain_factors: { definition: "Critical for determining productivity growth", what_it_does: "", examples: "sleep and leisure play a significant role in work productivity and received wage" },
+  national_accounting: "A system based on the recommendations of the UN (SNA 93) to measure the total production and total income of a nation and how they are used",
+
 };
 
 // ============================================================
