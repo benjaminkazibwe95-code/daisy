@@ -15934,6 +15934,27 @@ const FLAT_DICT = {
   drracket: "Available for Windows , macOS , Unix , and Linux with the X Window System and programs behave similarly on all these platforms",
   a_notable_example: "The Hacker News website, which runs on Arc , which is developed in Racket",
 
+  // === INGESTED 2026-06-22 02:47 ===
+  a_formal_grammar: "Essentially a set of production rules that describe all possible strings in a given formal language",
+  nonterminal_symbols: "Used during the derivation process, but do not appear in its final result string",
+  languages_generated_by_contextfree_grammars: "Known as context-free languages (CFL)",
+  contextfree_grammars: "A special form of semi-Thue systems that in their general form date back to the work of Axel Thue",
+  formal_constraints_not_captured_by_the_grammar: "Then considered to be part of the 'semantics' of the language",
+  an_earley_parser: "An example of such an algorithm, while the widely used LR and LL parsers are simpler algorithms [ disputed (for: This claim is WRONG",
+  a_language_l: "Said to be a context-free language (CFL), if there exists a CFG G , such that L = L ( G ) {\displaystyle L=L(G)}",
+  a_typical_derivation_in_this_grammar: "This makes it clear that L ( G ) = { w w R : w ∈ { a , b } ∗ } {\displaystyle L(G)=\{ww^{R}:w\in \{a,b\}^{*}\}}",
+  if_the_productions: "Added, a context-free grammar for the set of all palindromes over the alphabet {a, b} is obtained",
+  another_example_of_a_nonregular_language: { definition: "{ b n a m b 2 n : n ≥ 0 , m ≥ 0 } {\displaystyle \{{\text{b}}^{n}{\text{a}}^{m}{\text{b}}^{2n}:n\geq 0,m\geq 0\}}", what_it_does: "", examples: "the language of all words of the form a n b n c n" },
+  every_regular_grammar: { definition: "Context-free, but not all context-free grammars are regular", what_it_does: "", examples: "is also regular" },
+  the_terminals_here: "A and b , while the only nonterminal is S",
+  the_language_described: "All nonempty strings of a s and b s that end in a",
+  this_grammar: "Regular : no rule has more than one nonterminal in its right-hand side, and each of these nonterminals is at the same end of the right-hand side",
+  a_derivation: "Fully determined by giving, for each step: For clarity, the intermediate string is usually given as well",
+  such_grammars: "Usually hard to parse because the parser cannot always decide which grammar rule it has to apply",
+  a_contextfree_grammar: "Said to be proper if it has neither useless symbols nor ε -productions nor cycles",
+  it_is_decidable_whether_a_given_grammar: { definition: "A regular grammar , [ f ] as well as whether it is an LL( k ) grammar for a given k ≥ 0", what_it_does: "", examples: "the correct use and definition of identifiers, to be expressed in a natural way" },
+  although_glr_parsing: "Developed in the 1980s, many new language definitions and parser generators continue to be based on LL, LALR or LR parsing up to the present day",
+
 };
 
 // ============================================================
