@@ -20459,6 +20459,9 @@ const FLAT_DICT = {
   the_neck_has_a_great_deal_of_functionality_but: { definition: "Also subject to a lot of stress", what_it_does: "", examples: "type 2 diabetes mellitus or ischemic cardiopathy" },
   its_absence_in_fish_and_aquatic_arthropods: "Notable, as many have life stations similar to a terrestrial or tetrapod counterpart or could otherwise make use of the added flexibility",
 
+  // === INGESTED 2026-06-22 15:20 ===
+  fernel_suggested_that_taste_buds: "Sensitive to fat , an idea which research in the early 21st century proved to be correct",
+
 };
 
 // ============================================================
