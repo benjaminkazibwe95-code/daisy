@@ -16634,6 +16634,14 @@ const FLAT_DICT = {
   typical_chemical_shifts: "Rarely more than a few hundred Hz from the reference frequency, so chemical shifts are conveniently expressed in ppm ( Hz /MHz)",
   since_it_is_usually_not_stated_which_quantity: { definition: "Used, it is better to write the units out, such as kg/kg, mol/mol or m 3 /m 3 , even though they are all dimensionless", what_it_does: "", examples: "the conversion factor between a mass fraction of 1 ppb and a mole fraction of 1 ppb is about 4" },
 
+  // === INGESTED 2026-06-22 04:49 ===
+  the_pore: "Bordered by a pair of specialized parenchyma cells known as guard cells that regulate the size of the stomatal opening",
+  the_air_spaces_in_the_leaf: { definition: "Saturated with water vapour , which exits the leaf through the stomata in a process known as transpiration", what_it_does: "", examples: "light intensity, humidity, and carbon dioxide concentration" },
+  when_conditions: { definition: "Conducive to stomatal opening (e.g., high light intensity and high humidity), a proton pump drives protons (H + ) from the guard cells", what_it_does: "", examples: "the endoplasmic reticulum and vacuoles" },
+  these_scientific_instruments: { definition: "Commonly used by plant physiologists to measure CO 2 uptake and thus measure photosynthetic rate", what_it_does: "", examples: "EPF (Epidermal Patterning Factor), ERL (ERecta Like) and YODA (a putative MAP kinase kinase kinase )" },
+  research_suggests_this: { definition: "Because the light response of stomata to blue light is independent of other leaf components like chlorophyll", what_it_does: "", examples: "atmospheric CO 2 concentration, light intensity, air temperature and photoperiod (daytime duration)" },
+  hydroactive_closure: "Contrasted as the whole leaf affected by drought stress, believed to be most likely triggered by abscisic acid",
+
 };
 
 // ============================================================
