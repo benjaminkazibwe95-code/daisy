@@ -20944,6 +20944,9 @@ const FLAT_DICT = {
   studies: { definition: "Underway to gauge efficacy and safety in children aged 0–11 (KidCOVE) and 12–17 (TeenCOVE)", what_it_does: "Catalent to manufacture up to 400 vials per minute and fill an additional 80 million vials per year", examples: "" },
   the_increase_in_production: { definition: "In part attributed to improvements made by the company in manufacturing methods", what_it_does: "", examples: "fatigue, chills, headache, muscle pain, and pain at the site of injection" },
 
+  // === INGESTED 2026-06-22 16:45 ===
+  military_on_the_project: "General Dynamics IT , which received $493 million for its role",
+
 };
 
 // ============================================================
