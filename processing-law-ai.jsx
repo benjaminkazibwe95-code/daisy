@@ -18607,6 +18607,11 @@ const FLAT_DICT = {
   the_history_of_the_formation_of_the_jinr: "Associated with the names of prominent scientists and Professors",
   the_first_award: "Dedicated to Wang Ganchang , deputy director from 1958 to 1960 and the Soviet Professor Vladimir Veksler for the discovery of antisigma-minus hyperon",
 
+  // === INGESTED 2026-06-22 09:37 ===
+  unbihexium_and_ubh: "The temporary IUPAC name and symbol , respectively, until the element is discovered, confirmed, and a permanent name is decided upon",
+  two_nuclei_can_only_fuse_into_one_if_they: "Close enough to each other; normally, nuclei (all positively charged) repel each other due to electrostatic repulsion",
+  even_if_they: { definition: "Confirmed to have caused the radiation damage long ago, they might now have decayed to mere traces, or even be completely gone", what_it_does: "", examples: "unbihexium may be formed" },
+
 };
 
 // ============================================================
