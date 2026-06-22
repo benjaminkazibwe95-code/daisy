@@ -19792,6 +19792,23 @@ const FLAT_DICT = {
   assuming_that_the_total_pressure: "Fixed, this means that particle density of the non-hydrogenic ion is smaller than that of the hydrogenic ion by a factor 2/( Z + 1)",
   the_nexttolast_column: "Labeled 'power density' and weights the practical reactivity by E fus",
 
+  // === INGESTED 2026-06-22 13:17 ===
+  this_type_of_instrument: "The first type of gravitational-wave detector",
+  the_earliest_type: "The room-temperature bar-shaped antenna called a Weber bar ; these were dominant in 1960s and 1970s and many were built around the world",
+  four_spherical_antennas: "Proposed around year 2000 and two of them were built as downsized versions, the others were cancelled",
+  the_proposed_antennas: "GRAIL (Netherlands, downsized to MiniGRAIL ), TIGA (US, small prototypes made), SFERA (Italy), and Graviton (Brasil, downsized to Mario Schenberg )",
+  minigrail: "Highly sensitive in the 2–4 kHz range, suitable for detecting gravitational waves from rotating neutron star instabilities or small black hole mergers",
+  events: "Detected by measuring deformation of the detector sphere",
+  ligo: "Famous as the site of the first confirmed detections of gravitational waves in 2015",
+  interferometric_detectors: { definition: "Limited at high frequencies by shot noise , which occurs because the lasers produce photons randomly", what_it_does: "", examples: "Brownian motion ) is another limit to sensitivity" },
+  lisa: "Planned to occupy a solar orbit trailing the Earth, with each arm of the triangle being five million kilometers",
+  such_signals: "Expected to be emitted by pairs of merging supermassive black holes",
+  a_third: "Under development at Chongqing University , China",
+  the_infn_genoa_detector: "A resonant antenna consisting of two coupled spherical superconducting harmonic oscillators a few centimeters in diameter",
+  the_oscillators: "Designed to have (when uncoupled) almost equal resonant frequencies",
+  the_chongqing_university_detector: "Planned to detect relic high-frequency gravitational waves with the predicted typical parameters ~ 10 10 Hz (10 GHz) and h ~ 10 −30 to 10 −31",
+  levitated_sensor_detector: { definition: "A proposed detector for gravitational waves with a frequency between 10 kHz and 300 kHz, potentially coming from primordial black holes", what_it_does: "", examples: "cryogenic mirrors and the injection of squeezed vacuum" },
+
 };
 
 // ============================================================
