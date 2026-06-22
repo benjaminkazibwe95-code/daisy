@@ -19585,6 +19585,20 @@ const FLAT_DICT = {
   those_prohibitions: "Finally dropped from the 1835 Index",
   named_for_copernicus: "Nicolaus Copernicus University in Toruń ; Warsaw 's Copernicus Science Centre , the Centrum Astronomiczne im",
 
+  // === INGESTED 2026-06-22 12:44 ===
+  titan: { definition: "One of seven gravitationally rounded moons of Saturn and the second-most distant among them", what_it_does: "", examples: "a crust of ice I h and a subsurface layer of ammonia-rich liquid water" },
+  the_geologically_young_surface: "Generally smooth, with few impact craters , although mountains and several possible cryovolcanoes have been found",
+  the_atmosphere_of_titan: { definition: "Mainly nitrogen and methane ; minor components lead to the formation of hydrocarbon clouds and heavy organonitrogen haze", what_it_does: "", examples: "Iapetus and Rhea , were formed from the debris of these collisions" },
+  this_explanation: "Complicated by the fact that cloud formation has been observed not only after the southern summer solstice but also during mid-spring",
+  the_convoluted_region: "Filled with hills and cut by valleys and chasms",
+  as_titan: "Synchronously locked with Saturn, there exists a permanent tidal bulge of roughly 100 meters (330 ft) at the sub- and anti-Saturnian points",
+  titanian_dunes: { definition: "Typically 1–2 km (0.62–1.24 mi) wide and spaced 1–4 km (0.62–2.49 mi) apart, with some individual dunes over 100 km (62 mi) in length", what_it_does: "", examples: "mountains, indicate that sand is generally transported in a west-to-east direction" },
+  the_sand_that_constructs_the_dunes: { definition: "Dominated by organic material, probably from Titan's atmosphere; possible sources of sand include river channels or the Undifferentiated Plains", what_it_does: "", examples: "Titan and Saturn together in mid to late 1979" },
+  current_understanding: "That the hills (also referred to as highlands) are composed mainly of water ice",
+  the_ground_surface: "Darker than originally expected, consisting of a mixture of water and hydrocarbon ice",
+  the_concept_probe: { definition: "Called Titan Lake In-situ Sampling Propelled Explorer (TALISE)", what_it_does: "", examples: "methane or ethane, [ 157 ] although water is a stronger solvent than methane" },
+  this_hypothetical_cell_membrane: "Termed an ' azotosome ', a combination of 'azote', French for nitrogen, and ' liposome '",
+
 };
 
 // ============================================================
