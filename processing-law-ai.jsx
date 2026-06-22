@@ -16080,6 +16080,17 @@ const FLAT_DICT = {
   the_olympic_games: "Designed to test the arete of the whole man, not a merely specialized skill [...]",
   the_great_event: "The pentathlon , if you won this, you were a man",
 
+  // === INGESTED 2026-06-22 03:16 ===
+  biodiversity_loss_means_that_there: { definition: "A reduction in biological diversity in a given area", what_it_does: "", examples: "through ecological restoration" },
+  more_important: { definition: "Wealth disparities between and within countries", what_it_does: "", examples: "forest fires" },
+  knowledge_of_earthworm_species_diversity: { definition: "Quite limited as not even 50% of them have been described", what_it_does: "", examples: "reduced tillage" },
+  this_type_of_biodiversity_loss: { definition: "Known as one of the most critical threats to global biodiversity", what_it_does: "", examples: "the Repopulation of wolves in Midwestern United States ) have been implemented" },
+  they_are_important_because_they: "Home to approximately one third of vertebrate species",
+  the_main_drivers_of_marine_species_extinction: { definition: "Habitat loss, pollution, invasive species , and overexploitation", what_it_does: "", examples: "bats, amphibians, and sea turtles" },
+  a_significant_proportion_of_medicines: "Derived from natural products , either directly or indirectly",
+  the_pledge: "Not signed by leaders from some of the world's biggest polluters, namely China, India, Russia, Brazil and the United States",
+  that_the_targets: "Not legally binding has also been subject to criticism",
+
 };
 
 // ============================================================
