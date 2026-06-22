@@ -23023,6 +23023,24 @@ const FLAT_DICT = {
   clarias: "A genus of catfishes ( order Siluriformes ) of the family Clariidae, the airbreathing catfishes",
   clarias_species: "Recognized by their long-based dorsal and anal fins , which give them a rather eel -like appearance",
 
+  // === INGESTED 2026-06-22 22:45 ===
+  a_stationary_front: "Often present near the area of freezing rain and serves as the focus for forcing moist air to rise",
+  thundersnow: "Possible within a cyclone's comma head and within lake effect precipitation bands",
+  stratus: { definition: "A stable cloud deck which tends to form when a cool, stable air mass is trapped underneath a warm air mass", what_it_does: "", examples: "a mountain ( orographic lift )" },
+  the_fall_rate_of_very_small_droplets: "Negligible, hence clouds do not fall out of the sky; precipitation will only occur when these coalesce into larger drops",
+  smaller_drops: "Called cloud droplets, and their shape is spherical",
+  ice_pellets: { definition: "Usually (but not always) smaller than hailstones", what_it_does: "", examples: "dust or dirt" },
+  because_water_droplets: "More numerous than the ice crystals the crystals are able to grow to hundreds of micrometers in size at the expense of the water droplets",
+  these_aggregates: { definition: "Snowflakes, and are usually the type of ice particle that falls to the ground", what_it_does: "", examples: "over surface cold fronts , and over and ahead of warm fronts" },
+  similar_ascent: { definition: "Seen around tropical cyclones outside of the eyewall , and in comma-head precipitation patterns around mid-latitude cyclones", what_it_does: "", examples: "cold fronts , squall lines , and warm fronts" },
+  the_wet_season: "A time when air quality improves, [ 72 ] freshwater quality improves, [ 73 ] [ 74 ] and vegetation grows significantly",
+  these_gauges: { definition: "Used in the winter by removing the funnel and inner cylinder and allowing snow and freezing rain to collect inside the outer cylinder", what_it_does: "", examples: "CoCoRAHS or GLOBE" },
+  all_precipitation_types: { definition: "Made up of hydrometeors by definition, including virga , which is precipitation which evaporates before reaching the ground", what_it_does: "", examples: "blowing snow and blowing sea spray, are also hydrometeors , as are hail and snow" },
+  while_a_regular_rain_pattern: { definition: "Usually vital to healthy plants, too much or too little rainfall can be harmful, even devastating to crops", what_it_does: "", examples: "cacti require only small amounts of water" },
+  hawaii: "The only region to show a decrease (−9.25%)",
+  rainfall_rates_downwind_of_cities: { definition: "Increased between 48% and 116%", what_it_does: "", examples: "0000, 0600, 1200, and 1800 GMT" },
+  the_terrain: "Considered in QPFs using topography or based upon climatological precipitation patterns from observations with fine detail",
+
 };
 
 // ============================================================
