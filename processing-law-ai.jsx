@@ -18987,6 +18987,12 @@ const FLAT_DICT = {
   the_next_simplest_example: "The ring of Gaussian integers Z [ i ] {\displaystyle \mathbb {Z} [i]} , consisting of complex numbers whose real and imaginary parts are integers",
   a_set_of_torsionfree_generators: "Called a set of fundamental units",
 
+  // === INGESTED 2026-06-22 10:48 ===
+  the_first_editions_of_these_three_books: "Published within a two-year span (1543–1545)",
+  he_also_acknowledges_that_it: "Ferrari who found a way of solving quartic equations",
+  the_answer: "5 + √ −15 and 5 − √ −15",
+  cardano_then_says_that_this_answer: "'as subtle as it is useless'",
+
 };
 
 // ============================================================
