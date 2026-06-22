@@ -18362,6 +18362,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 09:02 ===
   the_ifao: { definition: "Under the authority of the French Ministry for National Education", what_it_does: "", examples: "a copy of the Description de l'Égypte" },
 
+  // === INGESTED 2026-06-22 09:04 ===
+  if_the_amount_of_b_present: { definition: "Less than required, then B is the limiting reagent", what_it_does: "", examples: "if 1.5 mol C 6 H 6 is present, 11" },
+  benzene: "Then the limiting reagent",
+  in_this_method_the_chemical_equation: "Used to calculate the amount of one product which can be formed from each reactant in the amount present",
+  the_limiting_reactant: "The one which can form the smallest amount of the product considered",
+
 };
 
 // ============================================================
