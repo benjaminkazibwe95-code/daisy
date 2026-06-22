@@ -18272,6 +18272,19 @@ const FLAT_DICT = {
   but_this_or_some_other_such_rule: "Absolutely necessary to any incipient theory, since one needed an assumed molecular formula in order to calculate relative atomic weights",
   dalton: "Accorded a civic funeral with full honours",
 
+  // === INGESTED 2026-06-22 08:43 ===
+  ions: "Atoms (or groups of atoms) with an electrostatic charge",
+  this_transfer_of_electrons: { definition: "Known as electrovalence in contrast to covalence", what_it_does: "", examples: "common table salt is sodium chloride" },
+  these_ions: "Then attracted to each other in a 1:1 ratio to form sodium chloride (NaCl)",
+  for_compounds_that: { definition: "Transitional to the alloys and possess mixed ionic and metallic bonding, this may not be the case anymore", what_it_does: "", examples: "do form non-stoichiometric compounds" },
+  the_removal_of_electrons_to_form_the_cation: { definition: "Endothermic, raising the system's overall energy", what_it_does: "", examples: "the formation of mercuric oxide (HgO) is endothermic" },
+  the_charge_of_the_resulting_ions: { definition: "A major factor in the strength of ionic bonding, e.g", what_it_does: "", examples: "magnesium oxide" },
+  ionic_bond_strengths: "Typically (cited ranges vary) between 170 and 1500 kJ/mol",
+  larger_negative_ions: { definition: "More easily polarized, but the effect is usually important only when positive ions with charges of 3+ (e.g., Al 3+ ) are involved", what_it_does: "", examples: "LiI is ionic but has some covalent bonding present)" },
+  one_could_say_that_covalent_bonding: "More directional in the sense that the energy penalty for not adhering to the optimum bond angles is large, whereas ionic bonding has no such penalty",
+  these_nuclei: "Generally objects of NQR nuclear quadrupole resonance and NMR nuclear magnetic resonance studies",
+  when_the_difference_in_electronegativity: "Decreased, the bonding may then lead to a semiconductor , a semimetal or eventually a metallic conductor with metallic bonding",
+
 };
 
 // ============================================================
