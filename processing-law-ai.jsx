@@ -15712,6 +15712,25 @@ const FLAT_DICT = {
   the_contact: "Closed by the application of power to the relay coil, but only after the coil has been continuously powered for the specified amount of time",
   relays_are_used_wherever_it: "Necessary to control a high power or high voltage circuit with a low power circuit, especially when galvanic isolation is desirable",
 
+  // === INGESTED 2026-06-22 02:06 ===
+  cantor: "Able to support a family despite his modest academic pay, thanks to his inheritance from his father",
+  friedrich_wangerin: "Eventually appointed, but he was never close to Cantor",
+  a_passage_from_one_of_these_letters: { definition: "Revealing of the damage to Cantor's self-confidence: ", what_it_does: "", examples: "his diagonal argument and theorem" },
+  georg_cantor: "Also instrumental in the establishment of the first International Congress of Mathematicians , which took place in Zürich, Switzerland, in 1897",
+  by_proving_that_there: "(infinitely) many possible sizes for infinite sets, Cantor established that set theory was not trivial, and it needed to be studied",
+  the_basic_concepts_of_set_theory: { definition: "Now used throughout mathematics", what_it_does: "", examples: "the power set of a set A , which is the set of all possible subsets of A" },
+  because_the_sets_s_k: "Closed, they contained their limit points, and the intersection of the infinite decreasing sequence of sets S , S 1 , S 2 , S 3 ,",
+  transcendental_numbers: "First constructed by Joseph Liouville in 1844",
+  ordinal_numbers: "Then introduced as the order types of well-ordered sets",
+  his_argument: "Fundamental in the solution of the Halting problem and the proof of Gödel's first incompleteness theorem",
+  cantor_attempts_to_prove_that_if_a_and_b: { definition: "Sets with A equivalent to a subset of B and B equivalent to a subset of A , then A and B are equivalent", what_it_does: "", examples: "an ordinal α is transfinite because it can be increased to α+1" },
+  von_neumann_wrote_that_a_class: "Too big to be a set if it can be put into one-to-one correspondence with the class of all sets",
+  this_axiom_implies_that_these_big_classes: "Not sets, which eliminates the paradoxes since they cannot be members of any class",
+  some_held_that_infinity: "An abstraction that was not mathematically legitimate, and denied its existence",
+  intuitionism_also_rejects_that_actual_infinity: "An expression of any sort of reality, but arrives at that view differently than constructivism",
+  trendelenburg: "Also the examiner of Cantor's Habilitationsschrift",
+  this_belief: "Summarized in his assertion that 'the essence of mathematics is its freedom",
+
 };
 
 // ============================================================
