@@ -22791,6 +22791,32 @@ const FLAT_DICT = {
   although_water: "Cheapest at standpipes, UN-Water reports that in this case users usually have to pay the costs of operating a stand tap and thus in the end pay more",
   these_physical_efforts: "Accompanied by environmental assessments, mitigation, and monitoring, as well as community development and capacity building",
 
+  // === INGESTED 2026-06-22 21:57 ===
+  permanent_french_settlements: { definition: "Founded much later along the Great Lakes ( Fort Detroit , 1701), the Mississippi River ( St", what_it_does: "", examples: "conversion to Christianity" },
+  one_of_the_primary_grievances_of_the_colonists: "The denial of their rights as Englishmen , particularly the right to representation in the British government that taxed them",
+  virgin_islands: { definition: "Purchased from Denmark in 1917 after Danish voters approved the sale in a 1916 referendum", what_it_does: "", examples: "the liberalization of attitudes toward recreational drug use and sexuality" },
+  congressional_district: "Of equivalent population and sends one representative to Congress",
+  representatives: "All up for election at the same time every two years",
+  committee_membership: "By tradition and statute bipartisan , but all committees are chaired by a member of the majority party , who sets the committee agenda",
+  both_candidates: { definition: "Elected together, or defeated together, in a presidential election", what_it_does: "", examples: "federal statutes, constitutional law, or international treaties" },
+  the_next_and_highest_court_in_the_system: "The Supreme Court of the United States",
+  the_district_of_columbia: "A federal district containing the U.S",
+  federal_government_in_washington_and: { definition: "Legally defined as domestic dependent nations with inherent tribal sovereignty rights", what_it_does: "", examples: "France , Italy , Germany , Spain , and Poland" },
+  the_united_states_military: "Widely regarded as the most powerful and advanced in the world",
+  sdfs: { definition: "Authorized by state and federal law but are under the command of the state's governor", what_it_does: "", examples: "the Federal Bureau of Investigation (FBI) and the U.S" },
+  the_american_prison_system: "Largely heterogenous, with thousands of relatively independent systems operating across federal, state, local, and tribal levels",
+  real_compounded_annual_gdp_growth: { definition: "3.3%, compared to a 2.3% weighted average for the rest of the G7", what_it_does: "", examples: "the USMCA" },
+  manufacturing_sector: "The world's second-largest by value output after China's",
+  has_a_heavily_consumerdriven_economy_and: "The world's largest consumer market",
+  adult_population: "Obese , and another third is overweight",
+  school_systems: { definition: "Operated by state, territorial, and sometimes municipal governments and regulated by the U.S", what_it_does: "", examples: "19 of the top 25" },
+  the_four_major_broadcast_television_networks: { definition: "All commercial entities", what_it_does: "", examples: "The Village Voice in New York City and LA Weekly in Los Angeles" },
+  the_five_mostvisited_websites_in_the_world: "Google , YouTube , Facebook , Instagram , and ChatGPT —all of them American-owned",
+  the_awards: "Given for Broadway productions and performances",
+  of_the_most_enduring_and_pervasive_examples: { definition: "Variations of the native dish called succotash", what_it_does: "", examples: "wheat flour , [ 636 ] beef, and milk, to create a distinctive American cuisine" },
+  american_football: { definition: "By several measures the most popular spectator sport in the United States", what_it_does: "", examples: "Minor League Baseball" },
+  its_final_match: "Attended by 90,185, setting the world record for largest women's sporting event crowd at the time",
+
 };
 
 // ============================================================
