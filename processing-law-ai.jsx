@@ -21941,6 +21941,31 @@ const FLAT_DICT = {
   it_is_defined_as_purposive_striving_and: "One of the primary human psychological functions",
   subordinate_volitions: { definition: "Particular acts of choice which carry into effect the object sought for by the governing or predominant volition", what_it_does: "", examples: "Kuhl and Heckhausen) and education (e.g., Corno), also make the motivation-volition distinction" },
 
+  // === INGESTED 2026-06-22 19:38 ===
+  while_only_a_minority_of_societies: "Strictly monogamous, many practice serial monogamy or tolerate extramarital sex",
+  genetic_monogamy: "DNA analyses confirming that a female-male pair reproduce exclusively with each other",
+  the_standard_crosscultural_sample: "The amount of extramarital sex by men and women in over 50 pre-industrial cultures",
+  the_amount_of_extramarital_sex_by_women: { definition: "Described as 'universal' in 6 cultures, 'moderate' in 23 cultures, 'occasional' in 9 cultures, and 'uncommon' in 15 cultures", what_it_does: "", examples: "volunteer college students or volunteer magazine readers)" },
+  extrapair_paternity: "When offspring raised by a monogamous pair come from the female mating with another male",
+  many_reports_of_extrapair_paternity: "Little more than quotes based on hearsay, anecdotes, and unpublished findings",
+  when_attempts: "Made to try to study medical afflictions and their genetic components, it becomes very important to understand non-paternity rates and pedigree errors",
+  afarensis: "More sexually dimorphic than modern humans and chimpanzees with levels closer to those of orangutans and gorillas",
+  in_plough_agriculture_farming: "Largely men's work and is associated with private property; marriage tends to be monogamous to keep the property within the nuclear family",
+  the_position_of_the_second_wife: "That of a 'slave girl' in respect to the first wife, as many marriage contracts explicitly state",
+  examples_of_these_documents: "Found in Elephantine",
+  polygamy: "Viewed as inconsistent with the Article as it gives men the right of multiple wives, but not to women",
+  the_monogamous_family: "Distinguished from the pairing family by the far greater durability of wedlock, which can no longer be dissolved at the pleasure of either party",
+  the_new_democratic_marriage_system: { definition: "Based on the free choice of couples, monogamy, equal rights for both sexes, and the protection of the lawful interests of women", what_it_does: "", examples: "in polygamous marital relationships are promoted and protected" },
+  the_distinction_between_these_three: "Important to the modern understanding of monogamy",
+  monogamous_pairs_of_animals: "Not always sexually exclusive",
+  sexual_monogamy: "Defined as an exclusive sexual relationship between a female and a male based on observations of sexual interactions",
+  a_married_couple: "Almost always a socially monogamous couple",
+  this_pattern_of_serial_monogamy: "Common among people in Western cultures",
+  it_is_becoming_clear_that_even_animals_that: "Overtly socially monogamous engage in extra-pair copulations",
+  socially_monogamous_species: "Scattered throughout the animal kingdom: A few insects, a few fish, about nine-tenths of birds, and a few mammals are socially monogamous",
+  the_prairie_vole: "An animal example for its monogamous social behaviour, since the male is usually socially faithful to the female, and shares in the raising of pups",
+  the_woodland_vole: "Also usually monogamous",
+
 };
 
 // ============================================================
