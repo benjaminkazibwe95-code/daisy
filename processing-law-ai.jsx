@@ -22100,6 +22100,9 @@ const FLAT_DICT = {
   certain_factors: { definition: "Critical for determining productivity growth", what_it_does: "", examples: "sleep and leisure play a significant role in work productivity and received wage" },
   national_accounting: "A system based on the recommendations of the UN (SNA 93) to measure the total production and total income of a nation and how they are used",
 
+  // === INGESTED 2026-06-22 20:03 ===
+  when_businesses: { definition: "Experiencing growth, job confidence and security typically increase", what_it_does: "", examples: "an increasing number of men in the United States are not returning to work" },
+
 };
 
 // ============================================================
