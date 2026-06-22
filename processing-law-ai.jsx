@@ -19325,6 +19325,9 @@ const FLAT_DICT = {
   these_dissertations: { definition: "Archived on the IASE web site", what_it_does: "", examples: "probability theory and the t -test" },
   driving_both_of_these_changes: { definition: "The increased role of computing in teaching and learning statistics", what_it_does: "", examples: "MOSAIC have been creating courses that blend computer science, modeling, and statistics" },
 
+  // === INGESTED 2026-06-22 11:58 ===
+  pearson: { definition: "Elected a Fellow of the Royal Society in March 1966", what_it_does: "", examples: "in industry, and also during and since the war, in the assessment and testing of weapons" },
+
 };
 
 // ============================================================
