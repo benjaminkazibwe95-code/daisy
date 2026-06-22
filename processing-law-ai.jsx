@@ -18230,6 +18230,13 @@ const FLAT_DICT = {
   the_fact_that_the_maximum_binding_energy: { definition: "Found in medium-sized nuclei is a consequence of the trade-off in the effects of two opposing forces that have different range characteristics", what_it_does: "", examples: "uranium and plutonium ) into more tightly bound elements (such as barium and krypton )" },
   the_atomic_binding_energy: "Simply the amount of energy (and mass) released, when a collection of free nucleons are joined to form a nucleus",
 
+  // === INGESTED 2026-06-22 08:35 ===
+  a_monoisotopic_element: "An element which has one and only one stable isotope (nuclide)",
+  monoisotopic_elements: "Characterized, except in one case, by an odd number of protons (odd Z ), and even number of neutrons",
+  the_exception_of_now: "Tantalum-180m , observationally stable though not beta-stable",
+  that_one_exceptional_case: "Beryllium , with even atomic number 4; its single stable, primordial isotope, beryllium-9, has 4 protons and 5 neutrons",
+  non_mononuclidic_elements: "Marked with an asterisk, and the long-lived primordial radioisotope given",
+
 };
 
 // ============================================================
