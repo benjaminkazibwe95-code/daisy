@@ -20632,6 +20632,10 @@ const FLAT_DICT = {
   but_scientists: "Sceptical until Golgi intervened",
   their_microscopes: "Not powerful enough to identify the organelles",
 
+  // === INGESTED 2026-06-22 15:49 ===
+  the_gap_below_it: "Known as the ostium primum (from Latin ' first opening ' ), and becomes increasingly small",
+  this_reversal: "Called Eisenmenger's syndrome",
+
 };
 
 // ============================================================
