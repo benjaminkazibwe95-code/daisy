@@ -21610,6 +21610,25 @@ const FLAT_DICT = {
   in_cases_where_the_areas_around_these_genes: "Highly methylated, the tumor suppressor gene was not active and therefore cancer was more likely to occur",
   these_changes_in_methylation_pattern: { definition: "Often due to mutations in methyltransferase and demethyltransferase", what_it_does: "", examples: "glucose , serine, glycine, and threonine" },
 
+  // === INGESTED 2026-06-22 18:40 ===
+  the_sensory_inputs_themselves: "In different electrical signals, and in different contexts",
+  the_different_senses: "Always thought to be controlled by separate lobes of the brain, [ 7 ] called projection areas",
+  the_lobes_of_the_brain: "The classifications that divide the brain both anatomically and functionally",
+  this_disorder: { definition: "Known as sensory processing disorder (SPD)", what_it_does: "led to the publication of his book, The Cerebral Cortex of Man", examples: "" },
+  cantlie: "The artist Penfield hired to illustrate his findings",
+  the_homonculus: { definition: "A visual representation of the intensity of sensations derived from different parts of the body", what_it_does: "", examples: "how language is processed mainly in the left hemisphere of the brain" },
+  the_primary_task_of_multisensory_integration: "To figure out and sort out the vast quantities of sensory information in the body through multiple sensory modalities",
+  these_modalities_not_only: "Not independent, but they are also quite complementary",
+  it_may_seem_redundant_that_we: "Being provided with multiple sensory inputs about the same object, but that is not necessarily the case",
+  perceptions_of_the_world: "Based on models that we build of the world",
+  one_of_the_earliest_sensations: "The olfactory sensation",
+  the_integration_between_vision_and_audition: { definition: "Necessary for spatial mapping", what_it_does: "", examples: "better hand-eye coordination" },
+  this_is_because_visual_spatial_information: { definition: "One of the most reliable sensory modalities", what_it_does: "", examples: "consider auditory spatial input" },
+  if_these_two_senses: "Not combined within the brain, then one would have less ability to manipulate an object",
+  the_visual_system: "Very static, in that it does not move around much, but the hands and other parts used in tactile sensory collection can freely move around",
+  an_example_of_this_happening: "Looking at an infant",
+  all_of_these_actions: "Culminating to the formation of spatial maps in the brain and the realization that 'Hey, that thing that's moving this object is actually a part of me",
+
 };
 
 // ============================================================
