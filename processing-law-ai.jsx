@@ -21351,6 +21351,11 @@ const FLAT_DICT = {
   these_waveform_patterns: "Called evoked potentials or EPs",
   both_eps_and_erps: "Tools that can help doctors determine any abnormalities",
 
+  // === INGESTED 2026-06-22 18:00 ===
+  the_therapeutic_relationship: "The relationship between a healthcare professional and a client or patient",
+  it_is_the: "By which a therapist and a client hope to engage with each other and effect beneficial change in the client",
+  goals: { definition: "What the client hopes to gain from therapy, based on their presenting concerns", what_it_does: "", examples: "you meet a new client who reminds you of a former lover" },
+
 };
 
 // ============================================================
