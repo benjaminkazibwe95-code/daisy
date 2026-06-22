@@ -16027,6 +16027,23 @@ const FLAT_DICT = {
   such_a_function: "Called type guard , and is declared with a return type of x is Type , where x is a parameter or this , in place of boolean",
   untagged_unions: "Provided in some languages with loose type-checking, such as C and PL/I , but also in the original Pascal",
 
+  // === INGESTED 2026-06-22 03:03 ===
+  the_representative_languages: "Listed in chronological order, starting with the language(s) that introduced the strategy and followed by prominent languages that use the strategy",
+  the_evaluation_order: "Mainly visible in code with side effects , but it also affects the performance of the code because a rigid order inhibits instruction scheduling",
+  a_nonstrict_evaluation_order: { definition: "An evaluation order that is not strict, that is, a function may return a result before all of its arguments are fully evaluated", what_it_does: "", examples: "thunks for unevaluated expressions, compared to the call stack used in applicative order evaluation" },
+  mutations_to_this_reference_handle: "Visible in the caller",
+  this_typically: "That the function can modify (i.e., assign to ) the variable used as argument—something that will be seen by its caller",
+  a_simple_litmus_test: "If it's possible to write a traditional swap(a, b) function in the language",
+  if_an_argument: "Not used in the function body, the argument is never evaluated; if it is used several times, it is re-evaluated each time it appears",
+  if_the_argument: "Pure (i.e., free of side effects), this produces the same results as call by name, saving the cost of recomputing the argument",
+  call_by_need: "A memoized variant of call by name, where, if the function argument is evaluated, that value is stored for subsequent use",
+  haskell: { definition: "A well-known language that uses call-by-need evaluation", what_it_does: "", examples: "mutation ) via the use of monads" },
+  lazy_evaluation: "The most common implementation of call-by-need semantics, but variations like optimistic evaluation exist",
+  graph_reduction: "An efficient implementation of lazy evaluation",
+  call_by_macro_expansion: "Similar to call by name, but uses textual substitution rather than capture-avoiding substitution",
+  these_futures: "Computed concurrently with the flow of the rest of the program",
+  conditionals_block_until_their_condition: "Evaluated, and lambdas do not create futures until they are fully applied",
+
 };
 
 // ============================================================
