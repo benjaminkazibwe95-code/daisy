@@ -17141,6 +17141,38 @@ const FLAT_DICT = {
   the_main_aim_of_these_studies: "To reduce levels of environmental noise and vibration",
   speech_recognition_and_speech_synthesis: "Two important areas of speech processing using computers",
 
+  // === INGESTED 2026-06-22 05:59 ===
+  late_latin: "The literary form of the language from the 3rd century AD onward",
+  latin_grammar: "Highly fusional , with classes of inflections for case , number , person , gender , tense , mood , voice , and aspect",
+  the_latin_alphabet: "Devised from the Etruscan alphabet",
+  the_writing_later_changed_from_what: { definition: "Initially either a right-to-left or a boustrophedon [ 5 ] [ 6 ] script to what ultimately became a strictly left-to-right script", what_it_does: "", examples: "Curse tablets and those found as graffiti" },
+  schooling: "Conducted largely in Latin until approximately 1700",
+  vatican_city: "Also home to the world's only automatic teller machine that gives instructions in Latin",
+  the_canadian_victoria_cross: "Modelled after the British Victoria Cross which has the inscription 'For Valour'",
+  because_canada: "Officially bilingual, the Canadian medal has replaced the English inscription with the Latin Pro Valore",
+  veritas: "The goddess of truth, a daughter of Saturn, and the mother of Virtue",
+  subtitles: "Usually shown for the benefit of those who do not understand Latin",
+  the_continued_instruction_of_latin: "Seen by some as a highly valuable component of a liberal arts education",
+  many_of_these_words: { definition: "Used once by the author and then forgotten, but some useful ones survived, such as imbibe and extrapolate", what_it_does: "", examples: "science, technology, medicine, and law" },
+  the_british_cambridge_university_press: { definition: "A major supplier of Latin textbooks for all levels, such as the Cambridge Latin Course series", what_it_does: "", examples: "publications and grants" },
+  most_of_the_letter_forms: { definition: "Similar to modern uppercase, as can be seen in the inscription from the Colosseum shown at the top of the article", what_it_does: "", examples: "sylva and ὕλη hū́lē" },
+  the_difference: "Described in the table below: This difference in quality is posited by W",
+  during_the_classical_period_this_sound_change: "Present in some rural dialects, but deliberately avoided by well-educated speakers",
+  the_number_of_syllables: "The same as the number of vowel sounds",
+  most_notable: "The fact that while most of the Vindolanda tablets show spaces between words, spaces were avoided in monumental inscriptions from that era",
+  some_words: "Uninflected and undergo neither process, such as adverbs, prepositions, and interjections",
+  latin_word_order: "Relatively free because inflections disambiguate semantic connections, but different word orders can indicate different nuances of meaning",
+  the_declensions: "Identified by final letter of the stem (the word without the ending declension) and the genitive singular ending of the word",
+  the_cases: "As follows: Latin lacks both definite and indefinite articles , so puer currit can mean either 'the boy is running' or 'a boy is running'",
+  they_are_socalled_because_their_forms: "Similar or identical to first- and second-declension and third-declension nouns, respectively",
+  latin_numbers: "Sometimes declined as adjectives; see § Numbers",
+  first_and_seconddeclension_adjectives: { definition: "Declined like first-declension nouns for the feminine forms and like second-declension nouns for the masculine and neuter forms", what_it_does: "", examples: "auxilium 'help'" },
+  thirddeclension_adjectives: "Mostly declined like normal third-declension nouns, with a few exceptions",
+  a_conjugation: "'a class of verbs with similar inflected forms'",
+  irregular_verbs: "Verbs that do not follow the regular conjugations in the formation of the inflected form",
+  as_latin: { definition: "An Italic language, most of its vocabulary is likewise Italic, ultimately from the ancestral Proto-Indo-European language", what_it_does: "", examples: "persona 'mask' and histrio 'actor'" },
+  an_example_of_late_latin: "The Latin Vulgate by Saint Jerome",
+
 };
 
 // ============================================================
