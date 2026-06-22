@@ -17279,6 +17279,21 @@ const FLAT_DICT = {
   the_remaining_four_digits: "Used in the page field",
   modern_bibcodes: "Likely to be deprecated in the future, and users should not depend on semantic meaning represented in the bibcode",
 
+  // === INGESTED 2026-06-22 06:18 ===
+  photons: { definition: "Massless particles that can only move at one speed, the speed of light measured in a vacuum", what_it_does: "", examples: "charge , mass , and spin , are determined by gauge symmetry" },
+  photons_are_emitted_when_a_charge: { definition: "Accelerated and emits synchrotron radiation", what_it_does: "", examples: "electron–positron annihilation )" },
+  this_provides_a: "For precision tests of Coulomb's law",
+  although_the_galactic_vector_potential: "Large because the galactic magnetic field exists on great length scales, only the magnetic field would be observable if the photon is massless",
+  the_fact_that_no_such_effects: { definition: "Seen implies an upper bound on the photon mass of m < 3 × 10 −27 eV/ c 2", what_it_does: "", examples: "electricity" },
+  when_a_photon: "Detected by a measuring instrument, it is registered as a single, particulate unit",
+  this_combination_of_aspects: { definition: "Known as wave–particle duality", what_it_does: "", examples: "diffraction and interference" },
+  such_unphysical_results: { definition: "Corrected for using the technique of renormalization", what_it_does: "", examples: "two photons may interact indirectly through virtual electron – positron pairs" },
+  that_flux: { definition: "Described by the photon structure function", what_it_does: "", examples: "the recoil energy of nuclei)" },
+  the_factor_by_which_the_speed_is_decreased: "Called the refractive index of the material",
+  these_examples: "Chosen to illustrate applications of photons per se , rather than general optical devices such as lenses, etc",
+  the_laser_is_an_important_application_and: "Discussed above under stimulated emission",
+  the_actual_outcome: { definition: "Used to determine whether the next bit in the sequence is 0 or 1", what_it_does: "of spontaneous parametric down conversion is often used to produce single-photon states", examples: "" },
+
 };
 
 // ============================================================
