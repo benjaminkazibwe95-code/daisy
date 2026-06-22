@@ -18002,6 +18002,15 @@ const FLAT_DICT = {
   the_exchange_interaction: "Related to the Pauli exclusion principle, which says that two electrons with the same spin cannot also be in the same spatial state (orbital)",
   this_difference_in_energy: "Called the exchange energy",
 
+  // === INGESTED 2026-06-22 08:06 ===
+  the_structure_of_chemical_thermodynamics: { definition: "Based on the first two laws of thermodynamics", what_it_does: "", examples: "Clausius and Sadi Carnot" },
+  breaking_and_making_chemical_bonds: "Energy release or uptake, often as heat that may be either absorbed by or evolved from the chemical system",
+  this_change_in_energy: { definition: "Called the change in internal energy of a chemical system", what_it_does: "", examples: "a bomb calorimeter" },
+  the_expressions_above: "Equal to zero at thermodynamic equilibrium , while they are negative when chemical reactions proceed at a finite rate, producing entropy",
+  an_independent_process: "One that could proceed even if all others were unaccountably stopped in their tracks",
+  understanding_this: "Perhaps a ' thought experiment ' in chemical kinetics , but actual examples exist",
+  the_halfcell_reactions_at_the_electrodes: "Constrained if no current is allowed to flow",
+
 };
 
 // ============================================================
