@@ -22122,6 +22122,27 @@ const FLAT_DICT = {
   priming_is_demonstrated_when_participants: { definition: "Quicker to respond to words that have been primed with semantically-related words, e.g", what_it_does: "", examples: "safety language into report" },
   this_dissociation: "Extended to other linguistic categories such phonology and syntactic processing by Blumstein, Milberg and their colleagues",
 
+  // === INGESTED 2026-06-22 20:09 ===
+  friendships: { definition: "Non-sexual, non-romantic interpersonal relationships", what_it_does: "", examples: "female bonding and male bonding or heterosocial such as cross-sex friendship" },
+  in_some_countries_a_reduction_of_friendships: "Observed, also called friendship recession or loneliness epidemic",
+  other_components_commonly_associated_with_love: { definition: "Physical attraction, similarity, [ 15 ] reciprocity, [ 11 ] and self-disclosure", what_it_does: "", examples: "love, bonding, security, and support for partners" },
+  secure_attachments: "Also linked to less delinquency for children, and have been found to predict later relationship success",
+  sibling_bonds: "One of few enduring relationships humans may experience",
+  the_determinants_of_unfaithfulness: { definition: "Debated by dating service providers, feminists, academics, and science communicators", what_it_does: "", examples: "physical abuse, physical neglect, sexual abuse, and emotional maltreatment" },
+  dominance: "Only one aspect of organizational structure",
+  a_power_structure: "Power and dominance relationships in a larger society",
+  the_breadwinner_model: "Associated with gender role assignments where the male in a heterosexual marriage would be dominant as they are responsible for economic provision",
+  these_questions: "Typically asked on a Likert scale and the average of those scores represents an individual's feelings of closeness toward their partner",
+  some_scales: "Considered unidimensional and attempt to directly measure the construct of relationship quality",
+  the_comparison_level: "Influenced by past relationships, and general relationship expectations they are taught by family and friends",
+  individuals_in_ldrs: "More satisfied with their relationships compared to individuals in PRs",
+  juniors: "Considered in Confucianism to owe their seniors reverence and seniors have duties of benevolence and concern toward juniors",
+  a_focus_on_mutuality: "Prevalent in East Asian cultures to this day",
+  minding: "The 'reciprocal knowing process involving the nonstop, interrelated thoughts, feelings, and behaviors of persons in a relationship",
+  common_messages_are_that_love: { definition: "Predestined, love at first sight is possible, and that love with the right person always succeeds", what_it_does: "", examples: "in the United States, Facebook has become an integral part of the dating process for emerging adults" },
+  lurking: { definition: "Often seen negatively, tied to 'freeloading' (Preece, Nonnecke, & Andrews, 2004), but others see it as valid participation", what_it_does: "", examples: "introverts tend to lurk more, and people with higher tech confidence participate more (Ross et al" },
+  some_say_it: "Never posting, while others say even small posts count (Neelen & Fetter, 2010; Golder & Donath, 2004)",
+
 };
 
 // ============================================================
