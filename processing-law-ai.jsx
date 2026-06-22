@@ -21288,6 +21288,9 @@ const FLAT_DICT = {
   the_methylmercuriccysteinyl_complex: { definition: "Recognized by amino acids transporting proteins in the body as methionine , another essential amino acid", what_it_does: "", examples: "heart attack" },
   smaller_amounts: "Biotransformed in the liver or eliminated unchanged through feces",
 
+  // === INGESTED 2026-06-22 17:48 ===
+  addressing_these_projected_views: { definition: "Hoped to help the patient reexperience, address, and analyze the effects and resolve the current distress they may be causing", what_it_does: "", examples: "cognitive behavioral therapy" },
+
 };
 
 // ============================================================
