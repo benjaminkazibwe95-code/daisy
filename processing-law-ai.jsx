@@ -22654,6 +22654,10 @@ const FLAT_DICT = {
   she_was_a_member_of_a_cambridge_group_who: "Early explorers of Spiritualism and automatic writing",
   a_portrait_of_verrall_by_frederic_yates: "In the collection of Trinity College, Cambridge",
 
+  // === INGESTED 2026-06-22 21:32 ===
+  cell_press_was_founded_and: "Currently based in Cambridge , MA , and has offices across the United States , Europe , and Asia under its parent company Elsevier",
+  winning_essays: "Published in Cell , and winners receive a $10,000 award",
+
 };
 
 // ============================================================
