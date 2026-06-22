@@ -16675,6 +16675,20 @@ const FLAT_DICT = {
   those_plastids: "Coloured off-green, orange, golden or brown because of the presence of chlorophyll a , chlorophyll c , and fucoxanthin",
   this_form_of_plastid: "Called a stramenochrome or chromoplast",
 
+  // === INGESTED 2026-06-22 04:57 ===
+  in_some_forms_there: "Also body polykinetids, for instance, among the spirotrichs where they generally form bristles called cirri",
+  the_infraciliature: "One of the main components of the cell cortex",
+  numerous_mitochondria_and_extrusomes: "Also generally present",
+  most_ciliates: "Heterotrophs , feeding on smaller organisms, such as bacteria and algae , and detritus swept into the oral groove (mouth) by modified oral cilia",
+  the_food: "Moved by the cilia through the mouth pore into the gullet, which forms food vacuoles",
+  many_species: "Also mixotrophic , combining phagotrophy and phototrophy through kleptoplasty or symbiosis with photosynthetic microbes",
+  some_ciliates: { definition: "Mouthless and feed by absorption ( osmotrophy ), while others are predatory and feed on other protozoa and in particular on other ciliates", what_it_does: "", examples: "Paramecium , conjugating partners (gamonts) are similar or indistinguishable in size and shape" },
+  only_the_dna_in_the_micronucleus: "Passed on during sexual reproduction (conjugation)",
+  macronuclear_dna: "Derived from micronuclear DNA by extensive DNA rearrangement and amplification",
+  the_micronuclear_chromosomes: "Fragmented into many smaller pieces and amplified to give many copies",
+  the_class_cariacotrichea: "Excluded from the analysis, but it was originally established as part of Intramacronucleata [ 1 ]",
+  the_odontostomatids: "Identified in 2018 [ 36 ] as its own class Odontostomatea , related to Armophorea",
+
 };
 
 // ============================================================
