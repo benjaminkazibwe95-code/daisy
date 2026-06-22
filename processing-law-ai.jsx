@@ -18359,6 +18359,9 @@ const FLAT_DICT = {
   the_plane_itself: "Homeomorphic (and diffeomorphic) to an open disk",
   for_the_hyperbolic_plane_such_diffeomorphism: "Conformal, but for the Euclidean plane it is not",
 
+  // === INGESTED 2026-06-22 09:02 ===
+  the_ifao: { definition: "Under the authority of the French Ministry for National Education", what_it_does: "", examples: "a copy of the Description de l'Égypte" },
+
 };
 
 // ============================================================
