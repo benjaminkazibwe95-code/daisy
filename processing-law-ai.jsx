@@ -19926,6 +19926,16 @@ const FLAT_DICT = {
   available_mean_data_for_each_object: "Given: [ 3 ] The Lyon-Meudon Extragalactic Database was eventually expanded into HyperLEDA , a database of a few million galaxies",
   galaxies_in_the_original_pgc_catalogue: "Numbered with their original PGC number in HyperLEDA",
 
+  // === INGESTED 2026-06-22 13:54 ===
+  the_conference: { definition: "Founded by media entrepreneur Ronen Lefler and Linde, and is currently managed by the CEO of the Jerusalem Post Group, Inbar Ashkenazi", what_it_does: "", examples: "a screening of a documentary produced by the ministry that sought to discredit the BDS movement" },
+  its_target_audience: "People learning the Hebrew language and it is described as 'an easy-Hebrew' publication, meant for improving basic Hebrew reading skills",
+  its_staff: "Based in Tel Aviv, while the newspaper offices are located in Jerusalem",
+  the_weekly_readership_numbers: "In the tens of thousands",
+  on_each_page_there: "A dictionary that translates specific words by context, and not literally, into Hebrew and into phonetic pronunciation",
+  on_the_last_pages_there: "English exercises and crosswords",
+  content: "Initially taken from the Jerusalem Post daily newspaper",
+  one_of_his_early_reporters: "His nephew Martin Agronsky , who later became a famous American political journalist",
+
 };
 
 // ============================================================
