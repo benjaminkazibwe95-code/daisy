@@ -17655,6 +17655,9 @@ const FLAT_DICT = {
   the_law_of_total_probability: "A consequence of coherence within the operational context of performing the two measurements as described",
   those_qbists_who_find_this_approach_promising: "Pursuing a complete reconstruction of quantum theory featuring the urgleichung as the key postulate",
 
+  // === INGESTED 2026-06-22 07:10 ===
+  this_adaptation_of_a_physical_unit: "One of several ploys that Mermin uses to draw students into spacetime geometry",
+
 };
 
 // ============================================================
