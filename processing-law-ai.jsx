@@ -20449,6 +20449,16 @@ const FLAT_DICT = {
   an_extensive_listing_of_human_cell_types: { definition: "Published by Vickaryous and Hall in 2006, collecting 411 different types of human cells, including 145 types of neurons", what_it_does: "", examples: "immune cells or brain cells ) and sub-types in the human body'" },
   usually_specific_surface_proteins: "Used to identify cells, and based on this they are put into different categories",
 
+  // === INGESTED 2026-06-22 15:18 ===
+  the_neck: "The part of the body in many vertebrates that connects the head to the torso",
+  these_muscles: "Grouped as the suprahyoid and infrahyoid muscles depending on if they are located superiorly or inferiorly to the hyoid bone",
+  arteries_which_supply_the_neck: "Common carotid arteries , which bifurcate into the internal and external carotid arteries",
+  the_trachea: { definition: "Traceable at the midline, extending between the cricoid cartilage and suprasternal notch", what_it_does: "", examples: "or of ageing where skin loses its elasticity and can wrinkle" },
+  the_anterior_jugular_vein: "Smaller and runs down about half an inch from the middle line of the neck",
+  disorders_of_the_neck: "A common source of pain",
+  the_neck_has_a_great_deal_of_functionality_but: { definition: "Also subject to a lot of stress", what_it_does: "", examples: "type 2 diabetes mellitus or ischemic cardiopathy" },
+  its_absence_in_fish_and_aquatic_arthropods: "Notable, as many have life stations similar to a terrestrial or tetrapod counterpart or could otherwise make use of the added flexibility",
+
 };
 
 // ============================================================
