@@ -15331,6 +15331,18 @@ const FLAT_DICT = {
   formats_such_as_onnx: "Used to represent trained neural networks",
   consumer_cpuintegrated_npus: { definition: "Accessible through vendor-specific APIs", what_it_does: "", examples: "CUDA and OpenCL adapted for lower precisions and specialized matrix-multiplication operations" },
 
+  // === INGESTED 2026-06-22 00:59 ===
+  neopallium: "A similar hybrid, from Latin pallium , 'cloak'",
+  isocortex_and_allocortex: "Hybrids with Greek isos , 'same', and allos , 'other'",
+  the_proisocortex: { definition: "A transitional area between the true isocortex and the periallocortex (part of the allocortex )", what_it_does: "", examples: "layer IV is small or missing in the primary motor cortex" },
+  the_neocortex: "Often described as being arranged in vertical structures called cortical columns , patches of neocortex with a diameter of roughly 0",
+  further_subdivisions_or_areas_of_neocortex: { definition: "Responsible for more specific cognitive processes", what_it_does: "", examples: "complex language processing localized to the ventrolateral prefrontal cortex ( Broca's area )" },
+  when_the_neurons_are_at_rest_and: { definition: "Hyperpolarizing , a period of inhibition occurs during a slow oscillation , called the down state", what_it_does: "", examples: "changes in personality, decline in cognitive abilities, and dementia" },
+  if_damage: "Sustained to this area, patients do not develop anterograde amnesia and are able to recall episodic information",
+  the_cellular_organization_of_the_allocortex: { definition: "Different from the six-layered neocortex", what_it_does: "", examples: "turtles , have primary sensory cortices" },
+  the_neocortex_ratio_of_a_species: "The ratio of the size of the neocortex to the rest of the brain",
+  a_high_neocortex_ratio: "Thought to correlate with a number of social variables such as group size and the complexity of social mating behaviors",
+
 };
 
 // ============================================================
