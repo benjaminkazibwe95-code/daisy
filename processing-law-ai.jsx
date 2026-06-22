@@ -22286,6 +22286,30 @@ const FLAT_DICT = {
   he_also_said_it: "'certainly not an Austrian Nobel, it was a Jewish-American Nobel'",
   the_street: "Renamed in 2012 into Universitätsring",
 
+  // === INGESTED 2026-06-22 20:26 ===
+  models: "Also important in the context of restoring lost brain functionality through neuroprosthetic devices",
+  the_firing_frequency: "The inverse of the total inter-spike interval (including dead time)",
+  this_characteristic: "Not in line with observed neuronal behavior",
+  if_the_membrane: "A perfect insulator)",
+  the_model_equation: "Valid for arbitrary time-dependent input until a threshold V th is reached; thereafter the membrane potential is reset",
+  the_reset_value: { definition: "One of the important parameters of the model", what_it_does: "", examples: "adaptation, bursting, and initial bursting" },
+  the_voltage_reset_value_v_r: { definition: "One of the important parameters of the model", what_it_does: "", examples: "adaptation, bursting, and initial bursting" },
+  the_dexat_neuron_model: "A flavor of adaptive neuron model in which the threshold voltage decays with a double exponential having two time constants",
+  double_exponential_decay: "Governed by a fast initial decay and then a slower decay over a longer period of time",
+  since_the_spike_arrival_times: "Not controlled by an experimentalist they can be considered as stochastic",
+  the_voltage: "Reset when it hits the firing threshold V th",
+  the_escape_rate_process_via_a_soft_threshold: "Reviewed in Chapter 9 of the textbook Neuronal Dynamics",
+  another_difference: "That the threshold is constant",
+  it_is_called_a_canonical_model_because_it: { definition: "One of the generic models for constant input close to the bifurcation point, which means close to the transition from silent to repetitive firing", what_it_does: "", examples: "reviewed in Chapter 4.1.2.2 of spiking neuron models" },
+  when_an_input: "Switched on at a time t and kept constant thereafter, biological neurons emit a spike train",
+  timedependent_input: { definition: "Transformed by complex linear and nonlinear filters into a spike train in the output", what_it_does: "", examples: "'weight' and 'transfer function'" },
+  a_neuron: "Filled and surrounded with water-containing ions, which carry electric charge",
+  the_neuron: "Bound by an insulating cell membrane and can maintain a concentration of charged ions on either side that determines a capacitance C m",
+  the_firing_of_a_neuron: "The movement of ions into the cell, that occurs when neurotransmitters cause ion channels on the cell membrane to open",
+  all_of_the_above_deterministic_models: { definition: "Point-neuron models because they do not consider the spatial structure of a neuron", what_it_does: "", examples: "the spike response model" },
+  the_position_on_the_cable: "Denoted by x and the voltage across the cell membrane by V",
+  linear_cable_theory: "The dendritic arbor of a neuron as a cylindrical structure undergoing a regular pattern of bifurcation , like branches in a tree",
+
 };
 
 // ============================================================
