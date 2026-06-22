@@ -22209,6 +22209,15 @@ const FLAT_DICT = {
   the_word_antipsychiatrie: "Already used in Germany in 1904",
   prescription_of_psychiatric_drugs: { definition: "Partly due to lobbying by drug companies that distorts research", what_it_does: "", examples: "psychosurgery , an example of this being the frontal lobectomy (commonly called a lobotomy )" },
 
+  // === INGESTED 2026-06-22 20:15 ===
+  his_father_was_the_mayor_of_tiefenbronn_and_he: "One of 12 children, only 7 of whom lived to adulthood",
+  cranioscopy: "A method to determine the personality and development of mental and moral faculties on the basis of the external shape of the skull",
+  gall_believed_there: "27 fundamental faculties, among them were: recollection of people, mechanical ability, talent for poetry, love of property, and even a murder instinct",
+  he_believed_every_living_thing: "Born with the ability to understand gestures on some level",
+  revolutionary_france: "Most likely the most hospitable place for Gall's theories",
+  he_became_a_celebrity_of_sorts_as_he: "Accepted into Parisian intellectual salons",
+  even_though_phrenology: { definition: "Now known to be incorrect, Gall did set the groundwork for modern neuroscience by spreading the idea of functional localization within the brain", what_it_does: "", examples: "Johann Spurzheim" },
+
 };
 
 // ============================================================
