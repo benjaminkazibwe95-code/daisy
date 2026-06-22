@@ -16912,6 +16912,32 @@ const FLAT_DICT = {
   membership: "Open to all organizations with an interest in electronic publishing and related enabling technologies",
   a_list_of_current_ras: "Maintained by the International DOI Foundation",
 
+  // === INGESTED 2026-06-22 05:32 ===
+  a_food_web: { definition: "The natural interconnection of food chains and a graphical representation of what-eats-what in an ecological community", what_it_does: "", examples: "where heterotrophs obtain organic matter by feeding on autotrophs and other heterotrophs" },
+  the_food_web: "A simplified illustration of the various methods of feeding that link an ecosystem into a unified system of exchange",
+  published_examples_that: "Used in meta analysis are of variable quality with omissions",
+  food_cycle_is_an_obsolete_term_that: "Synonymous with food web",
+  feeding_connections_in_the_web: "Called trophic links",
+  the_number_of_trophic_links_per_consumer: "A measure of food web connectance",
+  food_chains: "Nested within the trophic links of food webs",
+  trophic_species: { definition: "Functional groups that have the same predators and prey in a food web", what_it_does: "", examples: "the sulfur bacterium Thiobacillus , which lives in hot sulfur springs" },
+  the_intermediate_levels: "Filled with omnivores that feed on more than one trophic level and cause energy to flow through several food pathways starting from a basal species",
+  ecological_trophic_pyramids: "Typically one of three kinds: 1) pyramid of numbers, 2) pyramid of biomass, or 3) pyramid of energy",
+  the_basis_of_trophic_dynamics: { definition: "The transfer of energy from one part of the ecosystem to another", what_it_does: "", examples: "the precision by which an organism can be allocated to a specific trophic level" },
+  different_consumers: "Going to have different metabolic assimilation efficiencies in their diets",
+  this_is_because_energy: "Lost to the environment with each transfer as entropy increases",
+  about_eighty_to_ninety_percent_of_the_energy: "Expended for the organism's life processes or is lost as heat or waste",
+  food_chain_length: "Another way of describing food webs as a measure of the number of species encountered as energy or nutrients move from the plants to top predators",
+  the_mean_chain_length_of_an_entire_web: { definition: "The arithmetic average of the lengths of all chains in a food web", what_it_does: "", examples: "a polar bear or a human ), will be supported by a much larger number of separate producers" },
+  this_pattern: "Often identified in aquatic and coral reef ecosystems",
+  the_pattern_of_biomass_inversion: "Attributed to different sizes of producers",
+  aquatic_communities: { definition: "Often dominated by producers that are smaller than the consumers that have high growth rates", what_it_does: "", examples: "the edge of a forest, an island, a shoreline, or some other pronounced physical characteristic" },
+  earthworms_eaten_by_robins: { definition: "Detritivores consuming decaying leaves", what_it_does: "", examples: "different types of plant tissue (e.g" },
+  complexity: { definition: "A term that conveys the mental intractability of understanding all possible higher-order effects in a food web", what_it_does: "", examples: "increasing the number of trophic levels in more species rich ecosystems" },
+  this_hypothesis: { definition: "Challenged through mathematical models suggesting otherwise, but subsequent studies have shown that the premise holds in real systems", what_it_does: "", examples: "ecosystem) sways from equilibrium, the greater its complexity" },
+  the_small_world_attribute: "The many loosely connected nodes, non-random dense clustering of a few nodes (i.e",
+  these_regions_of_high_link_density: { definition: "Often referred to as cliques, hubs, compartments, cohesive sub-groups, or modules", what_it_does: "", examples: "organisms and mineral nutrients, cross the thresholds of ecosystem boundaries" },
+
 };
 
 // ============================================================
