@@ -19100,6 +19100,9 @@ const FLAT_DICT = {
   two_topological_circles: "Equivalent if one can be transformed into the other via a deformation of R 3 upon itself (known as an ambient isotopy )",
   a_circle_orientation: "Assumed in the measure of signed angles",
 
+  // === INGESTED 2026-06-22 11:10 ===
+  blackwell: "A prosecution witness in the 1966 private prosecution attempt to bar the book Last Exit to Brooklyn from UK publication",
+
 };
 
 // ============================================================
