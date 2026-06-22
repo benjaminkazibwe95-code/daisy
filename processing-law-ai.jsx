@@ -19624,6 +19624,19 @@ const FLAT_DICT = {
   over_half_of_the_mass_of_the_complex: "Concentrated around a small area, and this is the most active star-forming region",
   in_the_north_of_the_constellation: "The Corona Australis Molecular Cloud, a dark molecular cloud with many embedded reflection nebulae , including NGC 6729 , NGC 6726 –7, and IC 4812",
 
+  // === INGESTED 2026-06-22 12:50 ===
+  the_heliosphere: { definition: "The magnetosphere , astrosphere , and outermost atmospheric layer of the Sun", what_it_does: "", examples: "the two Voyagers) are in interstellar space" },
+  because_the_solar_wind_and_the_ism: "Both fluid, the heliosphere's shape and size are also fluid",
+  the_heliospheric_current_sheet: "A ripple in the heliosphere created by the rotating magnetic field of the Sun",
+  here_the_wind: "Slowed, compressed, and made turbulent by its interaction with the interstellar medium",
+  the_probably_sausageshaped_bubbles: "Formed by magnetic reconnection between oppositely oriented sectors of the solar magnetic field as the solar wind slows down",
+  the_tail: "A region where the Sun's solar wind slows down and ultimately escapes the heliosphere, slowly evaporating because of charge exchange",
+  it_would_occur_if_the_interstellar_medium: "Moving supersonically 'toward' the Sun, since its solar wind moves 'away' from the Sun supersonically",
+  a_bow_shock: "Thought to possibly occur at about 230 AU, [ 17 ] but in 2012 it was determined it probably does not exist",
+  what_we: "Seeing in these maps does not match with any of the previous theoretical models of this region",
+  during_the_apollo_program_the_solar_wind: "Measured on the Moon via the Solar Wind Composition Experiment",
+  the_termination_shock: { definition: "Traversed by Voyager 1 in 2004, [ 30 ] and Voyager 2 in 2007", what_it_does: "", examples: "data on the solar wind out to about 67 AU" },
+
 };
 
 // ============================================================
