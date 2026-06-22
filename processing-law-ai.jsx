@@ -22607,6 +22607,15 @@ const FLAT_DICT = {
   a_synaptopathy: { definition: "A disease of the brain , spinal cord or peripheral nervous system relating to the dysfunction of synapses", what_it_does: "", examples: "an ion channel , neurotransmitter receptor , or a protein involved in neurotransmitter release" },
   synaptopathies_caused_by_ion_channel_mutations: "Also known as synaptic channelopathies",
 
+  // === INGESTED 2026-06-22 21:24 ===
+  ephaptic_coupling: "A form of communication within the nervous system that is distinct from direct communication systems like electrical synapses and chemical synapses",
+  such_phenomenon: "Proposed and predicted to be possible between two HR neurons, since 2010 in simulations and modeling work by Hrg",
+  hence_the_phenomenon: "Of not only fundamental interest but also applied one from treating epilepsy to novel learning systems",
+  the_role_of_ephaptic_coupling_in_cardiac_cells: "Becoming more apparent",
+  cable_theory: "One of the most important mathematical theories in neuroscience",
+  slow_wave_propagation: "Also recorded by inserting two electrodes into two ends of a piece of mouse brain taken from a freshly killed mouse",
+  the_tissue: "Then cut between the two electrode positions, severing any possible link by neurons or gap junctions between the two electrodes",
+
 };
 
 // ============================================================
