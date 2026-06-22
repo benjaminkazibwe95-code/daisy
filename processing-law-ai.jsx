@@ -17173,6 +17173,17 @@ const FLAT_DICT = {
   as_latin: { definition: "An Italic language, most of its vocabulary is likewise Italic, ultimately from the ancestral Proto-Indo-European language", what_it_does: "", examples: "persona 'mask' and histrio 'actor'" },
   an_example_of_late_latin: "The Latin Vulgate by Saint Jerome",
 
+  // === INGESTED 2026-06-22 06:02 ===
+  ginsparg: "Quoted in the Chronicle of Higher Education as joking that it 'was supposed to be a three-hour tour , not a life sentence'",
+  the_split: { definition: "Motivated by a desire to diversify and increase arXiv's funding", what_it_does: "", examples: "1709.08980v1" },
+  if_no_version_number: "Specified, the default is the latest version",
+  each_paper: { definition: "Tagged with one or more categories", what_it_does: "", examples: "q-fin.TR is the 'Trading and Market Microstructure' category within 'quantitative finance'" },
+  endorsers: { definition: "Not asked to review the paper for errors but to check whether the paper is appropriate for the intended subject area", what_it_does: "", examples: "the Poincaré conjecture as a particular case, uploaded by Grigori Perelman in November 2002" },
+  the_report_itself: { definition: "Posted at arXiv December, 2024", what_it_does: "", examples: "LaTeX , and PDF printed from a word processor other than TeX or LaTeX" },
+  the_time_stamp_on_the_article: "Set when the submission is finalized",
+  the_standard_access_route: "Through the arxiv.org website, which is publicly accessible and does not require an account",
+  metadata_for_arxiv: { definition: "Made available through OAI-PMH , the standard for open access repositories", what_it_does: "", examples: "BASE , CORE and Unpaywall" },
+
 };
 
 // ============================================================
