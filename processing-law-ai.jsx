@@ -22935,6 +22935,9 @@ const FLAT_DICT = {
   harperacademic: "The academic marketing department of HarperCollins",
   the_approach_harperstudio_is_now_taking: { definition: "To offer little or no advance, but instead to split the profit 50% (rather than the industry standard 15%), with the author", what_it_does: "", examples: "columns, news articles and think tank reports" },
 
+  // === INGESTED 2026-06-22 22:24 ===
+  kyengera: "Approximately 9 kilometres (5.6 mi), by road, south-west of Kampala, Uganda's capital and largest city",
+
 };
 
 // ============================================================
