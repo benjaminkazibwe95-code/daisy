@@ -19328,6 +19328,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 11:58 ===
   pearson: { definition: "Elected a Fellow of the Royal Society in March 1966", what_it_does: "", examples: "in industry, and also during and since the war, in the assessment and testing of weapons" },
 
+  // === INGESTED 2026-06-22 12:02 ===
+  this_paradox_describes_situations_where_there: "More false positive test results than true positives (this means the classifier has a low precision )",
+  the_probability_of_a_positive_test_result: "Determined not only by the accuracy of the test but also by the characteristics of the sampled population",
+  an_explanation_for_this: "As follows: on average, for every 1,000 drivers tested, Therefore, the probability that any given driver among the 1 + 49.95 = 50",
+  a_suspect: "Arrested, and found to have that same blood type",
+  simpson: "Tried and acquitted in 1995 for the murders of his ex-wife Nicole Brown Simpson and her friend Ronald Goldman",
+  clark: { definition: "Convicted in 1999, resulting in a press release by the Royal Statistical Society which pointed out the mistakes", what_it_does: "", examples: "Bayes' theorem" },
+  the_required_inference: { definition: "To estimate the (posterior) probability that a (randomly picked) driver is drunk, given that the breathalyzer test is positive", what_it_does: "", examples: "icon arrays, hypothetical outcome plots) help people to make better inferences" },
+
 };
 
 // ============================================================
