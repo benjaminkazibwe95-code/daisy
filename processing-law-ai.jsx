@@ -20639,6 +20639,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 15:51 ===
   peripheral_edema: "Edema (accumulation of fluid causing swelling) in tissues perfused by the peripheral vascular system , usually in the lower limbs",
 
+  // === INGESTED 2026-06-22 15:53 ===
+  gerontology: "A growing topic of interest, and in the 1960s Bernhard Springer published six titles on aging",
+
 };
 
 // ============================================================
