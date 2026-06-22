@@ -18924,6 +18924,23 @@ const FLAT_DICT = {
   four: { definition: "'assistants for provident care' and serve as general advisors and a sort of inner council", what_it_does: "", examples: "higher education" },
   each_jesuit_community_within_a_province: "Normally headed by a rector",
 
+  // === INGESTED 2026-06-22 10:35 ===
+  an_algebra: "Called a zero algebra if uv = 0 for all u , v in the algebra, [ 2 ] not to be confused with the algebra with one element",
+  an_algebra_over_k: "Sometimes also called a K -algebra , and K is called the base field of A",
+  the_binary_operation: "Often referred to as multiplication in A",
+  when_a_binary_operation_on_a_vector_space: "Commutative , left distributivity and right distributivity are equivalent, and, in this case, only one distributivity requires a proof",
+  if_a_and_b: "Unital, then a homomorphism satisfying f (1 A ) = 1 B is said to be a unital homomorphism",
+  a_subalgebra_of_an_algebra_over_a_field_k: "A linear subspace that has the property that the product of any two of its elements is again in the subspace",
+  a_twosided_ideal_is_a_subset_that: "Both a left and a right ideal",
+  the_term_ideal_on_its_own: "Usually taken to mean a two-sided ideal",
+  of_course_when_the_algebra: "Commutative, then all of these notions of ideal are equivalent",
+  of_course_if_the_algebra: "Unital, then condition (3) implies condition (2)",
+  so_if_a: "An algebra over K , then A F is an algebra over F",
+  the_only_part_of_the_definition_that_changes: "That A is assumed to be an R -module (instead of a K -vector space)",
+  a_ring_a: "Always an associative algebra over its center , and over the integers",
+  the_center_of_that_ring: "R × R , and hence it has the structure of an algebra over its center, which is not a field",
+  note_that_the_splitbiquaternion_algebra: { definition: "Also naturally an 8-dimensional R -algebra", what_it_does: "", examples: "the integers)" },
+
 };
 
 // ============================================================
