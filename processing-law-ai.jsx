@@ -21933,6 +21933,10 @@ const FLAT_DICT = {
   a_variety_of_abusive_behaviors: { definition: "Being demonstrated against victims to hinder their ability to come to work, get their work done, and stay in their current employment", what_it_does: "", examples: "sabotaging the victim, so they can not get to work" },
   a_way_to_counteract_this_unproductive_behavior: "To address the principle that work behavior is a function of contingent consequences",
 
+  // === INGESTED 2026-06-22 19:34 ===
+  the_term_most_commonly: { definition: "A person who purchases goods and services for personal use", what_it_does: "", examples: "inequalities of bargaining power between a consumer and a business" },
+  only_consumers: "Protected per this act and any person, entity or organization purchasing a commodity for commercial reasons are exempted from any benefits of this act",
+
 };
 
 // ============================================================
