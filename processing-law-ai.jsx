@@ -20905,6 +20905,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 16:32 ===
   palmitoylation: "Crucial for targeting proteins to specialized membrane regions, including lipid rafts and immunological synapses",
 
+  // === INGESTED 2026-06-22 16:34 ===
+  neither_result: { definition: "Seen to a similar degree in dizygotic twins , offering strong favour for high genetic etiology", what_it_does: "", examples: "Turner , Down , and Klinefelter syndromes" },
+  mutation_in_this_gene: "A risk factor for many autoimmune diseases",
+  supplements_it: { definition: "Not established that reducing antithyroid antibodies in Hashimoto's has benefits", what_it_does: "", examples: "not ruling out comorbid coeliac disease" },
+  populations_that: { definition: "Spread out or defined poorly may skew data in unexpected ways", what_it_does: "", examples: "children, [ 122 ] but more commonly appears in middle age , particularly for men" },
+  the_highest_rate: "In Africa, and the lowest in Asia",
+  thyroid_peroxidase_antibodies: { definition: "Speculated to indicate other autoimmune processes against the placental-fetal unit", what_it_does: "", examples: "preeclampsia and eclampsia , gestational diabetes , placental abruption , and postpartum hemorrhage" },
+
 };
 
 // ============================================================
