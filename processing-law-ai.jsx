@@ -19828,6 +19828,19 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 13:23 ===
   another_unusual_thing_noted_by_hassler: { definition: "The intended audience, which he identified as principally being students rather than scholars", what_it_does: "", examples: "delineation of how various subgenres differ" },
 
+  // === INGESTED 2026-06-22 13:25 ===
+  a_galaxy_hosting_an_agn: "Called an active galaxy",
+  the_nonstellar_radiation_from_an_agn: "Theorized to result from the accretion of matter by a supermassive black hole at the center of its host galaxy",
+  a_blazar: "An AGN with a jet pointed toward the Earth, in which radiation from the jet is enhanced by relativistic beaming",
+  active_galaxies_such_as_these: "Known as Seyfert galaxies in honor of Seyfert's pioneering work",
+  the_development_of_radio_astronomy: "A major catalyst to understanding AGN",
+  some_of_the_earliest_detected_radio_sources: { definition: "Nearby active elliptical galaxies such as Messier 87 and Centaurus A", what_it_does: "", examples: "3C 48 , even more distant at redshift 0.37" },
+  agn: "A candidate source of high and ultra-high energy cosmic rays (see also Centrifugal mechanism of acceleration )",
+  the_direction_of_the_jet_ejection: "Determined either by the angular momentum axis of the accretion disc or the spin axis of the black hole",
+  this_issues: "Believed to reflect the current early stages of understanding AGN",
+  alternatively_this_split: "A radio luminosity cutoff at a fixed frequency, e.g",
+  agns: { definition: "The subject of numerous on-going studies seeking to clarify the nature of AGNs", what_it_does: "", examples: "M87 or spiral galaxies such as the Milky Way galaxy" },
+
 };
 
 // ============================================================
