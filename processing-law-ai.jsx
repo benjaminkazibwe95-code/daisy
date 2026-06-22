@@ -22543,6 +22543,13 @@ const FLAT_DICT = {
   the_voltage_of_each_ionic_pathway: { definition: "Determined by the concentrations of the ion on each side of the membrane; see the Reversal potential section above", what_it_does: "", examples: "leakage channels, ligand-gated channels, and voltage-gated ion channels" },
   this_apparent_paradox: "Resolved by examination of the origin of that resting potential",
 
+  // === INGESTED 2026-06-22 21:01 ===
+  grey_matter_in_the_spinal_cord: "Known as the grey column which travels down the spinal cord distributed in three grey columns that are presented in an 'H' shape",
+  the_forwardfacing_column: "The anterior grey column , the rear-facing one is the posterior grey column and the interlinking one is the lateral grey column",
+  the_grey_matter_on_the_left_and_right_side: { definition: "Connected by the grey commissure", what_it_does: "", examples: "seeing and hearing, memory, emotions, speech, decision-making, and self-control" },
+  the_grey_matter_in_the_spinal_cord: "Split into three grey columns: The grey matter of the spinal cord can be divided into different layers, called Rexed laminae",
+  the_adjective_grisea_for_grey: "However not attested in classical Latin",
+
 };
 
 // ============================================================
