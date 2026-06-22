@@ -21827,6 +21827,13 @@ const FLAT_DICT = {
   this_conclusion: "Further supported by data from the effects of neuro-active chemicals (e.g",
   this_argument: { definition: "Criticized by Peter Glassen in a debate with J", what_it_does: "", examples: "the belief that dualism is false" },
 
+  // === INGESTED 2026-06-22 19:15 ===
+  jargon: "Synonymous with pidgin in naming specific language usages",
+  argot: { definition: "Slang or jargon purposely used to obscure meaning to outsiders", what_it_does: "", examples: "Chinook Jargon was a pidgin" },
+  industry_words_and_phrases: "Often used in a specific area, and those in that field know and use the terminology",
+  other_terms: { definition: "More colloquial, coined and used by practitioners in the field, and are similar to slang", what_it_does: "", examples: "emails, reports, and other forms of documentation" },
+  it_can_indicate_to_the_audience_that_a_speaker: { definition: "An insider with using specialized terms in the field to make an argument based on authority and credibility", what_it_does: "", examples: "a football coach talking to their team or a doctor working with nurses" },
+
 };
 
 // ============================================================
