@@ -15111,6 +15111,9 @@ const FLAT_DICT = {
   the_term_itself: "Derived from Very-Large-Scale Integration (VLSI), which represented the state of the art at the time WSI was under development",
   ever_since_ics: "Created, some chip designers have used the silicon surface area for surreptitious, non-functional images or words",
 
+  // === INGESTED 2026-06-22 00:14 ===
+  alphaevolve: { definition: "An evolutionary coding agent for designing advanced algorithms based on large language models such as Gemini", what_it_does: "", examples: "hallucinations common in standard LLM outputs" },
+
 };
 
 // ============================================================
