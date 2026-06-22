@@ -22738,6 +22738,33 @@ const FLAT_DICT = {
   the_vagus_nerve: "Adding something to the saline solution",
   the_first_example_of_such_work_being_done: "In 1962 by Earl Sutherland",
 
+  // === INGESTED 2026-06-22 21:51 ===
+  cell_signaling: { definition: "A fundamental property of all forms of life", what_it_does: "", examples: "pressure , voltage , temperature , or light" },
+  chemical_signals: { definition: "Molecules with the ability to bind and activate a specific receptor", what_it_does: "", examples: "ions (such as Na + , K + , and Ca 2+ ), lipids (e.g" },
+  peptide_and_lipid_ligands: "Particularly important, as most hormones belong to these classes of chemicals",
+  as_such_they: { definition: "Unable to diffuse freely across the bi-lipid layer of the plasma membrane, so their action is mediated by a cell membrane bound receptor", what_it_does: "", examples: "in the cytoplasm , organelles , and nucleus" },
+  each_cell: { definition: "Programmed to respond to specific extracellular signal molecules, and is the basis of development , tissue repair , immunity , and homeostasis", what_it_does: "", examples: "cancer , autoimmunity , and diabetes" },
+  this_signaling_between_cells: { definition: "First observed in the marine bacterium Aliivibrio fischeri , which produces light when the population is dense enough", what_it_does: "", examples: "Polysphondylium violaceum use a dipeptide known as glorin" },
+  many_cell_signals: "Carried by molecules that are released by one cell and move to make contact with another cell",
+  signaling_molecules_binding_surface_receptors: "Generally large and hydrophilic (e.g",
+  only_two_other_such_gases: { definition: "Currently known to act as signaling molecules in the human body: nitric oxide and carbon monoxide", what_it_does: "", examples: "neurotransmitters and proteins out of the cell" },
+  endocrine_signaling: "The release of hormones by internal glands of an organism directly into the circulatory system , regulating distant target organs",
+  if_these_receptors: "Ligand-gated ion channels (LICs), a resulting conformational change opens the ion channels, which leads to a flow of ions across the cell membrane",
+  many_lics: "Additionally modulated by allosteric ligands , by channel blockers , ions , or the membrane potential",
+  lics: { definition: "Classified into three superfamilies which lack evolutionary relationship: cys-loop receptors , ionotropic glutamate receptors and ATP-gated channels", what_it_does: "", examples: "yeast , choanoflagellates , [ 31 ] and animals" },
+  the_global_sales_volume_for_these_drugs: { definition: "Estimated to be 180 billion US dollars as of 2018 [update]", what_it_does: "", examples: "viral infections, cardiovascular, inflammatory, senses disorders, and cancer" },
+  the_best_studied_steroid_hormone_receptors: "Members of the nuclear receptor subfamily 3 (NR3) that include receptors for estrogen (group NR3A) [ 44 ] and 3-ketosteroids (group NR3C)",
+  receptor_mediated_endocytosis: "A common way of turning receptors 'off'",
+  endocytic_down_regulation_is_regarded_as_a: "For reducing receptor signaling",
+  receptor_phosphorylation: "Another type of receptor down-regulation",
+  the_molecules_that_compose_these_pathways: "Known as relay molecules",
+  the_amplification_of_a_signal: { definition: "One of the benefits to this multiple step sequence", what_it_does: "", examples: "the neurotransmitter GABA can activate a cell surface receptor that is part of an ion channel" },
+  several_of_these_receptors: "Kinases that start to phosphorylate themselves and other proteins when binding to a ligand",
+  many_cellular_proteins: "Activated downstream of the growth factor receptors (such as EGFR) that initiate this signal transduction pathway",
+  while_some_receptors: { definition: "Cell-surface proteins, others are found inside cells", what_it_does: "", examples: "estrogen is a hydrophobic molecule that can pass through the lipid bilayer of the membranes" },
+  part_of_the_notch_protein: "Released from the cell surface membrane and takes part in gene regulation",
+  the_choice_of_which_cell_continues_to_divide: "Controlled by competition of cell surface signals",
+
 };
 
 // ============================================================
