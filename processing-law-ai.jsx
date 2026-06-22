@@ -19727,6 +19727,11 @@ const FLAT_DICT = {
   binaries: { definition: "Less common on high-inclination orbits and their components typically differ in brightness", what_it_does: "", examples: "dwarf planet Makemake , are classified as ScatNear (possibly scattered by Neptune) by the DES" },
   classical_objects: "Defined as not resonant and not being currently scattered by Neptune",
 
+  // === INGESTED 2026-06-22 13:11 ===
+  a_black_star: "Created when matter compresses at a rate significantly less than the free fall velocity of a hypothetical particle falling to the center of its star",
+  the_theoretical_construct: "Created through the use of semiclassical gravity theory",
+  this_vacuum_energy: "Theoretically unlimited and, if built up quickly enough, will stop gravitational collapse from creating a singularity",
+
 };
 
 // ============================================================
