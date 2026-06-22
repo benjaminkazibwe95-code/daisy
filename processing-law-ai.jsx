@@ -21278,6 +21278,16 @@ const FLAT_DICT = {
   bacteriophages_and_their_host_ranges: "Extremely specific for certain bacteria, thus, unlike antibiotics, they do not disturb the host organism's intestinal microbiota",
   cure_rates: { definition: "Around 90%, and work is underway to develop stool banks , standardized products, and methods of oral delivery", what_it_does: "", examples: "antisense RNA has been developed that silences the S" },
 
+  // === INGESTED 2026-06-22 17:45 ===
+  methylmercury: "Designated as a 'priority hazardous substance' according to the Directive on Environmental Quality Standards (Directive 2013/39/EU)",
+  the_process_which_creates_methylmercury: "Called mercury methylation",
+  this_functional_group: "Composed of a methyl group bonded to an atom of mercury",
+  its_chemical_formula: { definition: "CH 3 Hg + (sometimes written as MeHg + )", what_it_does: "", examples: "chloride ( Cl − ), hydroxide ( OH − ) and nitrate ( NO − 3 )" },
+  different_stable_isotopes_of_mercury: { definition: "Added to lakes, wetlands , and uplands , simulating rain, and then mercury concentrations in fish were analyzed to find their source", what_it_does: "", examples: "humans, [ 25 ] fish-eating birds, and fish-eating mammals such as otters and cetaceans (i.e" },
+  fish_that_develop_in_water_bodies_that: "More acidic also tend to have higher levels of methylmercury",
+  the_methylmercuriccysteinyl_complex: { definition: "Recognized by amino acids transporting proteins in the body as methionine , another essential amino acid", what_it_does: "", examples: "heart attack" },
+  smaller_amounts: "Biotransformed in the liver or eliminated unchanged through feces",
+
 };
 
 // ============================================================
