@@ -21234,6 +21234,19 @@ const FLAT_DICT = {
   one_of_these_reasons: "The environment the species are recovered from, which can be difficult to simulate in laboratory conditions",
   the_whole_name: "Wrapped in double quotation marks",
 
+  // === INGESTED 2026-06-22 17:33 ===
+  planktonic_cyanobacteria: { definition: "A fundamental component of marine food webs and are major contributors to global carbon and nitrogen fluxes", what_it_does: "", examples: "microcystins , saxitoxin , and cylindrospermopsin" },
+  worldwide_there: { definition: "Estimated to be several octillion (10 27 , a billion billion billion) individuals", what_it_does: "", examples: "Anabaena (a symbiont of the aquatic fern Azolla ) can provide rice plantations with biofertilizer" },
+  the_wateroxidizing_photosynthesis: "Accomplished by coupling the activity of photosystem (PS) II and I ( Z-scheme )",
+  marine_bacteriophages: { definition: "Significant parasites of unicellular marine cyanobacteria", what_it_does: "", examples: "Linda Lawton at Robert Gordon University , have developed techniques to study these" },
+  the_tiny_marine_cyanobacterium_prochlorococcus: { definition: "Discovered in 1986 and accounts for more than half of the photosynthesis of the open ocean", what_it_does: "", examples: "hot springs, salt works, and hypersaline bays" },
+  cyanobacteria: { definition: "Able to produce sulphated polysaccharides (yellow haze surrounding clumps of cells) that enable them to form floating aggregates", what_it_does: "", examples: "the pili may help to export the polysaccharide outside the cell" },
+  infection_by_these_viruses: "Highly prevalent in cells belonging to Synechococcus spp",
+  uv_radiation: { definition: "Especially deadly for cyanobacteria, with normal solar levels being significantly detrimental for these microorganisms in some cases", what_it_does: "", examples: "the filamentous cyanobacteria Oscillatoria sp" },
+  oncolites: "Indicators of warm waters in the photic zone , but are also known in contemporary freshwater environments",
+  the_cyanobacterial_origin_of_plastids: { definition: "Now supported by various pieces of phylogenetic , [ 204 ] [ 196 ] [ 199 ] genomic , [ 205 ] biochemical [ 206 ] [ 207 ] and structural evidence", what_it_does: "", examples: "photosynthetic reaction centers" },
+  the_corr_hypothesis_proposes_this_colocation: { definition: "Required for redox regulation", what_it_does: "", examples: "habitat preference) may have contributed to changes in biogeochemical cycles through Earth history" },
+
 };
 
 // ============================================================
