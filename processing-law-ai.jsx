@@ -16735,6 +16735,17 @@ const FLAT_DICT = {
   when_the_leaf: "Shed, it leaves a leaf scar on the twig",
   the_leaf_surface: "Also host to a large variety of microorganisms ; in this context it is referred to as the phyllosphere",
 
+  // === INGESTED 2026-06-22 05:03 ===
+  chemiosmosis: "The movement of ions across a semipermeable membrane through an integral membrane protein , down their electrochemical gradient",
+  atp_synthase: "The enzyme that makes ATP by chemiosmosis",
+  the_stored_energy: { definition: "Used to photophosphorylate ADP, making ATP, as protons move through ATP synthase", what_it_does: "", examples: "glucose are metabolized to produce acetyl CoA as a fairly energy-rich intermediate" },
+  the_energy_at_every_redox_transfer_step: "Used to pump protons from the matrix into the intermembrane space, storing energy in the form of a transmembrane electrochemical gradient",
+  the_prevailing_view: "That the energy of electron transfer was stored as a stable high potential intermediate, a chemically more conservative concept",
+  mitchell: "Awarded the Nobel Prize in Chemistry",
+  the_electrical_gradient: "A consequence of the charge separation across the membrane (when the protons H + move without a counterion , such as chloride Cl − )",
+  the_electrical_potential_gradient: { definition: "About -170 mV [ 6 ] , negative inside (N)", what_it_does: "", examples: "in case of the mammalian mitochondrion: [ 9 ] H + / ATP = ΔG p / (Δp / 10.4 kJ·mol −1 /mV) = 40" },
+  the_photons_in_sunlight: "Received by the antenna complex of Photosystem II , which excites electrons to a higher energy level",
+
 };
 
 // ============================================================
