@@ -22363,6 +22363,11 @@ const FLAT_DICT = {
   the_epidermis_and_gastrodermis: "Separated by a thick and multilayered basement membrane , the 'subepidermal membrane complex', a major part of the extracellular matrix",
   adults_producing_sperm: "Very rarely observed, but eggs and embryos are known to occur in follicles",
 
+  // === INGESTED 2026-06-22 20:38 ===
+  the_ulnar_nerve: "Trapped between the bone and the overlying skin at this point",
+  the_ulnar_collateral_ligament_of_elbow_joint: "In relation with the ulnar nerve",
+  the_nerve: { definition: "The largest in the human body unprotected by muscle or bone, so injury is common", what_it_does: "", examples: "both front and back of the tips , perhaps as far back as the fingernail beds" },
+
 };
 
 // ============================================================
