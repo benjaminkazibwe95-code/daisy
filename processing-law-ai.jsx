@@ -21300,6 +21300,16 @@ const FLAT_DICT = {
   act: "A 7-stage crisis intervention model",
   for_safety_purposes_it: { definition: "Important that two people go out together to assess the individual who experiencing a crisis", what_it_does: "", examples: "using the phrase ‘sort (x) out’ [ 42 ] can aid in minimising resistance to the help being offered" },
 
+  // === INGESTED 2026-06-22 17:52 ===
+  scott: "Eventually awarded the Distinguished Service Medal for his efforts",
+  his_interest_in_this_subject: "Attributed to Wilhelm Wundt's influence while at Leipzig",
+  sir_francis_galton: "A primary influence on Scott’s writings",
+  the_concept_of_suggestibility_eventually: "Phased out among scientific psychologists; however, the notion that underlying human behavior influences consumer decisions is still preserved",
+  although_some_of_his_contacts: "Skeptical, the officers decided to permit a practical test",
+  the_preliminary_test_was_given_to_men_who: "Already admitted and proven as good officers",
+  if_the_test_indicated_aptitudes_they: "Known to possess then it could be assumed that the test was valid and an accurate gauge",
+  his_committee_devised: "Of keeping wartime industries adequately staffed, and made possible successful selection of men for unusual tasks peculiar to a wartime army",
+
 };
 
 // ============================================================
