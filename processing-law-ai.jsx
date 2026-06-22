@@ -21169,6 +21169,11 @@ const FLAT_DICT = {
   secondary_bacterial_infection_of_the_skin: { definition: "A relatively uncommon complication of smallpox", what_it_does: "", examples: "conjunctivitis , keratitis , corneal ulcer , iritis , iridocyclitis , and atrophy of the optic nerve" },
   bony_lesions: "Symmetrical, most common in the elbows, legs, and characteristically cause separation of the epiphysis and marked periosteal reactions",
 
+  // === INGESTED 2026-06-22 17:20 ===
+  the_rotavirus_vaccine: { definition: "Recommended as a prevention for children", what_it_does: "", examples: "parasites and fungi" },
+  this_infection: { definition: "Usually transmitted by contaminated water or food", what_it_does: "", examples: "Clostridioides difficile , Salmonella , and Campylobacter species" },
+  the_most_common_organisms: "Campylobacter , Clostridioides difficile , Clostridium perfringens , and Salmonella",
+
 };
 
 // ============================================================
