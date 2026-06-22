@@ -20947,6 +20947,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 16:45 ===
   military_on_the_project: "General Dynamics IT , which received $493 million for its role",
 
+  // === INGESTED 2026-06-22 16:47 ===
+  the_principal_dictionary: "First published in 1890 as the American Illustrated Medical Dictionary , including 770 pages",
+  the_dictionaries: "Historically published by Saunders",
+  saunders: "Acquired first by CBS and then by Harcourt",
+
 };
 
 // ============================================================
