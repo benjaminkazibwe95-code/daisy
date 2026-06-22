@@ -15082,6 +15082,35 @@ const FLAT_DICT = {
   deductivism_states_that_such_inferences: "Not rational: the premises either ensure their conclusion, as in deductive reasoning, or they do not provide any support at all",
   the_core_motivation: { definition: "To give a simple presentation of deductive reasoning that closely mirrors how reasoning actually takes place", what_it_does: "", examples: "Hilbert-style deductive systems , which employ axiom schemes to express logical truths" },
 
+  // === INGESTED 2026-06-22 00:12 ===
+  verylargescale_integration: "Made practical by technological advancements in semiconductor device fabrication",
+  the_size_and_cost: "Low because the chips, with all their components, are printed as a unit by photolithography rather than being constructed one transistor at a time",
+  the_main_disadvantage_of_ics: "The high initial cost of designing them and the enormous capital cost of factory construction",
+  this_high_initial_cost_means_ics: "Only commercially viable when high production volumes are anticipated",
+  this_distinction_in_terminology: "Often relevant in debates on whether Moore's law remains applicable",
+  a_precursor_concept_to_the_ic: "The development of small ceramic substrates, known as micromodules , [ 5 ] each containing a single miniaturized electronic component",
+  modern_ic_chips: { definition: "Based on Noyce's monolithic design, [ 14 ] [ 13 ] rather than Kilby's early prototype", what_it_does: "", examples: "aerospace and pocket calculators" },
+  the_final_itrs: "Issued in 2016, and it is being replaced by the International Roadmap for Devices and Systems",
+  such_techniques: { definition: "Collectively known as advanced packaging", what_it_does: "", examples: "package on package and high bandwidth memory" },
+  among_the_most_advanced_integrated_circuits: { definition: "The microprocessors or ' cores ', used in personal computers, cell-phones, etc", what_it_does: "", examples: "logic gates , adders and registers" },
+  the_main_process_steps: { definition: "Supplemented by doping and cleaning", what_it_does: "", examples: "gallium arsenide are used)" },
+  dopants: "Impurities intentionally introduced to a semiconductor to modulate its electronic properties",
+  doping: "The process of adding dopants to a semiconductor material",
+  because_the_features: "So small, electron microscopes are essential tools for a process engineer working on fabrication process debugging",
+  each_device: "Tested before packaging using automated test equipment (ATE), in a procedure known as wafer testing or wafer probing",
+  the_wafer: "Then cut into rectangular blocks, each known as a die",
+  the_earliest_integrated_circuits: "Packaged in ceramic flat packs , which continued to be used by the military for many years due to their reliability and compact size",
+  when_multiple_dies: "Put in one package, the result is a system in package , abbreviated SiP",
+  packaged_integrated_circuits: "Usually large enough to include identifying information",
+  the_treaty: { definition: "Currently not in force, but was partially integrated into the TRIPS agreement", what_it_does: "", examples: "Japan, [ 85 ] the EC , [ 86 ] the UK, Australia, and Korea" },
+  manufacturing_yields: { definition: "Also quite low by today's standards", what_it_does: "", examples: "has become a de facto standard and remains in production" },
+  ssi_circuits: "Crucial to early aerospace projects, and aerospace projects helped inspire development of the technology",
+  a_typical_application: "FM inter-carrier sound processing in television receivers",
+  the_first_application_mos_chips: "Small-scale integration (SSI) chips",
+  multiple_developments: "Required to achieve this increased density",
+  the_term_itself: "Derived from Very-Large-Scale Integration (VLSI), which represented the state of the art at the time WSI was under development",
+  ever_since_ics: "Created, some chip designers have used the silicon surface area for surreptitious, non-functional images or words",
+
 };
 
 // ============================================================
