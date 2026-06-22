@@ -23121,6 +23121,16 @@ const FLAT_DICT = {
   hybrids: { definition: "Sometimes created by humans to produce improved plants that have some of the characteristics of each of the parent species", what_it_does: "", examples: "Triticale , × Triticosecale , a wheat– rye hybrid" },
   triploid_bananas_and_watermelons: { definition: "Intentionally bred because they produce no seeds and are also parthenocarpic", what_it_does: "", examples: "brewing [ 104 ] and winemaking" },
 
+  // === INGESTED 2026-06-22 23:00 ===
+  since_the_first_public_aquariums: "Built in the mid-19th century, they have become popular and their numbers have increased",
+  the_building_site: "To be Unter den Linden (along a major avenue), in the centre of town, not at the Berlin Zoo",
+  the_aquarium_unter_den_linden: "A three-story building",
+  machinery_and_water_tanks: { definition: "On the ground floor, and aquarium basins for the fish on the first floor", what_it_does: "", examples: "dolphins , sharks or beluga whales" },
+  most_public_aquariums: "Located close to the ocean , for a steady supply of natural seawater",
+  an_inland_pioneer: "Chicago's Shedd Aquarium [ 15 ] that received seawater shipped by rail in special tank cars",
+  the_monterey_bay_aquarium: "The first public aquarium to display a great white shark",
+  the_shark: "Released on 31 March 2005",
+
 };
 
 // ============================================================
