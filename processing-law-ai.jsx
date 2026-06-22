@@ -22404,6 +22404,36 @@ const FLAT_DICT = {
   while_epigenetic_regulation: { definition: "Necessary for driving cellular differentiation, they are certainly not sufficient for this process", what_it_does: "", examples: "Wnt are part) to result in differential gene expression" },
   the_ductility_of_these_microenvironments: "Unique to different tissue types",
 
+  // === INGESTED 2026-06-22 20:47 ===
+  its_cortical_surface: "Covered with finely spaced parallel grooves, in striking contrast to the broad irregular convolutions of the cerebral cortex",
+  within_this_thin_layer: "Several types of neurons with a highly regular arrangement, the most important being Purkinje cells and granule cells",
+  four_deep_cerebellar_nuclei: "Embedded in the white matter",
+  the_cerebellum: "Located in the posterior cranial fossa",
+  the_superior_cerebellar_peduncle: "Mainly an output to the cerebral cortex, carrying efferent fibers via thalamic nuclei to upper motor neurons in the cerebral cortex",
+  the_middle_cerebellar_peduncle: "Connected to the pons and receives all of its input from the pons mainly from the pontine nuclei",
+  the_input_to_the_pons: "From the cerebral cortex and is relayed from the pontine nuclei via transverse pontine fibers to the cerebellum",
+  the_middle_peduncle: "The largest of the three and its afferent fibers are grouped into three separate fascicles taking their inputs to different parts of the cerebellum",
+  output_from_the_inferior_peduncle: { definition: "Via efferent fibers to the vestibular nuclei and the reticular formation", what_it_does: "", examples: "determining the verb which best fits with a certain noun (as in 'sit' for 'chair')" },
+  the_spike_trains_show_a_mixture_of_what: "Called simple and complex spikes",
+  complex_spikes: "Often followed by a pause of several hundred milliseconds during which simple spike activity is suppressed",
+  the_most_popular_concept_of_their_function: "Proposed in 1969 by David Marr , who suggested that they could encode combinations of mossy fiber inputs",
+  the_entire_assemblage: "Surrounded by a sheath of glial cells",
+  the_flocculus_of_the_flocculonodular_lobe: "The only part of the cerebellar cortex that does not project to the deep nuclei—its output goes to the vestibular nuclei instead",
+  there_are_large_compartments_that: "Generally known as zones ; these can be divided into smaller compartments known as microzones",
+  the_bestknown_of_these_markers: "Called 'zebrins', because staining for them gives rise to a complex pattern reminiscent of the stripes on a zebra",
+  microzones: "Found to contain on the order of 1000 Purkinje cells each, arranged in a long, narrow strip, oriented perpendicular to the cortical folds",
+  deficits_in_nonmotor_functions: { definition: "More difficult to detect", what_it_does: "", examples: "affection, emotion including emotional body language perception [ 38 ] and behavior" },
+  unless_the_causative_condition: { definition: "Reversible, the only possible treatment is to help people live with their problems", what_it_does: "", examples: "heavy metals or pharmaceutical or recreational drugs" },
+  some_of_this_information: { definition: "Transferred to the motor system inducing a conscious motor avoidance of pain, graded according to pain intensity", what_it_does: "", examples: "the cerebellum" },
+  the_circuits_in_the_cerebellum: { definition: "Similar across all classes of vertebrates , including fish, reptiles, birds, and mammals", what_it_does: "", examples: "octopuses" },
+  although_the_spinocerebellum: "Present in these groups, the primary structures are small, paired-nuclei corresponding to the vestibulocerebellum",
+  the_largest_part_of_it: "A special structure called the valvula , which has an unusually regular architecture and receives much of its input from the electrosensory system",
+  the_dcn: "Most highly developed in rodents and other small animals, and is considerably reduced in primates",
+  its_function: "Not well understood; the most popular speculations relate it to spatial hearing in one way or another",
+  he_speculated_that_the_cerebellum: "The source of motor nerves",
+  more_anatomical_work: "Done during the 18th century, but it was not until early in the 19th century that the first insights into the function of the cerebellum were obtained",
+  the_updated_content: "Reintegrated into the Wikipedia page under a CC-BY-SA-3.0 license ( 2016 )",
+
 };
 
 // ============================================================
