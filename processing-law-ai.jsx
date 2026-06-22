@@ -22181,6 +22181,34 @@ const FLAT_DICT = {
   the_restriction_at_the_level_of_reasons: "Particularly important since it can be motivated by external reasons that are insufficiently conscious to the agent",
   the_suicidal_agents: "Not conscious that their free will have been manipulated by external, even if ungrounded, reasons",
 
+  // === INGESTED 2026-06-22 20:13 ===
+  psychiatry: "Not a popular career choice among medical students, even though medical school placements are rated favorably",
+  a_medical_doctor_specializing_in_psychiatry: "A psychiatrist (for a historical overview, see: Timeline of psychiatry )",
+  drug_prescriptions: "Very commonly written to be regimented to patients along with any therapy they receive",
+  psychiatrists: "Trained physicians who specialize in psychiatry and are certified to treat mental illness",
+  biological_psychiatry: "An approach to psychiatry that aims to understand mental disorders in terms of the biological function of the nervous system",
+  child_and_adolescent_psychiatry: "The branch of psychiatry that specializes in work with children, teenagers, and their families",
+  community_psychiatry: "An approach that reflects an inclusive public health perspective and is practiced in community mental health services",
+  emergency_psychiatry: "The clinical application of psychiatry in emergency settings",
+  geriatric_psychiatry: "A branch of psychiatry dealing with the study, prevention, and treatment of mental disorders in the elderly",
+  neuropsychiatry: "A branch of medicine dealing with mental disorders attributable to diseases of the nervous system",
+  social_psychiatry: { definition: "A branch of psychiatry that focuses on the interpersonal and cultural context of mental disorder and mental well-being", what_it_does: "", examples: "the consumer/survivor movement" },
+  guidelines: { definition: "Given on several areas of psychiatric evaluation", what_it_does: "", examples: "the UK and Australia, by sectioning under a mental health law" },
+  if_hospitalization: "Required, the average hospital stay is around one to two weeks, with only a small number receiving long-term hospitalization",
+  bed_availability: "Often the real determinant of admission decisions to hard pressed public facilities",
+  involuntary_treatment: "Treatment that occurs based on a treating physician's recommendations, without requiring consent from the patient",
+  some_wards_are_mixedsex_whilst_samesex_wards: "Increasingly favored to protect women inpatients",
+  this_is_why_hospitals: { definition: "Increasingly used in limited situations and moments of crisis where patients are a direct threat to themselves or others", what_it_does: "", examples: "clinical social workers and psychologists" },
+  democritus_explained_that_he: "Attempting to discover the cause of madness and melancholy",
+  trepanning: "One of these methods used throughout history",
+  it_has_been_cited_that_this: "An early psychiatric experiment",
+  john_conolly: "Impressed by the work of Hill, and introduced the method into their Hanwell Asylum , by then the largest in the country",
+  all_asylums: "Required to have written regulations and to have a resident qualified physician",
+  many_state_hospitals_in_the_united_states: "Built in the 1850s and 1860s on the Kirkbride Plan , an architectural style meant to have curative effect",
+  the_term_antipsychiatry: "Coined by psychiatrist David Cooper in 1967 and was later made popular by Thomas Szasz",
+  the_word_antipsychiatrie: "Already used in Germany in 1904",
+  prescription_of_psychiatric_drugs: { definition: "Partly due to lobbying by drug companies that distorts research", what_it_does: "", examples: "psychosurgery , an example of this being the frontal lobectomy (commonly called a lobotomy )" },
+
 };
 
 // ============================================================
