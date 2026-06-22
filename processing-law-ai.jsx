@@ -20501,6 +20501,11 @@ const FLAT_DICT = {
   intensities: "Broadly categorized according to energy expenditure using a standard measure of intensity, metabolic equivalents (METs)",
   the_broad_categories: "Sedentary behavior, light activity, moderate activity, and vigorous activity",
 
+  // === INGESTED 2026-06-22 15:30 ===
+  a_gamma_wave_or_gamma_rhythm: { definition: "A pattern of neural oscillation in humans with a frequency between 30 and 100 Hz , the 40 Hz point being of particular interest", what_it_does: "", examples: "Alzheimer's disease , [ 4 ] epilepsy , [ 5 ] and schizophrenia" },
+  if_the_thalamus: { definition: "Damaged even a little bit, this wave stops, conscious awarenesses do not form, and the patient slips into profound coma", what_it_does: "", examples: "perception" },
+  this_has_led_to_theories_that_gamma_waves: { definition: "Associated with solving the binding problem", what_it_does: "", examples: "visual oddball and Gestalt perception" },
+
 };
 
 // ============================================================
