@@ -17707,6 +17707,10 @@ const FLAT_DICT = {
   all_the_worlds: "There, even those in which everything goes wrong and all the statistical laws break down'",
   quantum_immortality: "The subjective experience of surviving quantum suicide",
 
+  // === INGESTED 2026-06-22 07:18 ===
+  in_the_same_graduating_class: "Sheldon Glashow , [ 12 ] whose research, independent of Weinberg's, resulted in their sharing the 1979 Nobel in physics with Abdus Salam",
+  one_of_its_fundamental_aspects: { definition: "The prediction of the existence of the Higgs boson", what_it_does: "", examples: "his own in his 1967 paper) that a sensible quantum field theory must be renormalizable" },
+
 };
 
 // ============================================================
