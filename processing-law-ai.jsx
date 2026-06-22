@@ -15546,6 +15546,17 @@ const FLAT_DICT = {
   monthly_the_data_recorded_in_the_register: { definition: "Reconciled with a hopefully identical list of transactions processed by the bank", what_it_does: "", examples: "deposits by source or checks by type, such as charitable contributions" },
   the_important_thing_about_this_example: "That it is a system , in which, all transactions are recorded consistently, and the same method of bank reconciliation is used each time",
 
+  // === INGESTED 2026-06-22 01:43 ===
+  this_annual_award: "Renamed the Dijkstra Prize ( Edsger W",
+  he_stated_that_he: "A programmer, which was unacceptable to the authorities, there being no such profession then in The Netherlands",
+  their_mode_of_interaction: "Disciplined: They would first decide upon the interface between the hardware and the software, by writing a programming manual",
+  each_student: "Examined in Dijkstra's office or home, and an exam lasted several hours",
+  the_manuscripts: "Called EWDs, since Dijkstra numbered them with EWD , his initials, as a prefix",
+  within_computer_science_they: "Known as the EWD reports, or, simply the EWDs",
+  the_company: "Called Mathematics, Inc",
+  selection: "Based on GPA in all major courses and election by department faculty",
+  this_lecture_series: "Made possible by a generous grant from Schlumberger to honor the memory of Dijkstra",
+
 };
 
 // ============================================================
