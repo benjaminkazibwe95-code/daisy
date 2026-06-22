@@ -20937,6 +20937,13 @@ const FLAT_DICT = {
   the_final_newspapers: { definition: "Wrapped in plastic and shipped out", what_it_does: "", examples: "The Wall Street Journal and USA Today" },
   condensed_versions_of_the_interviews: { definition: "Published simultaneously in The New York Times Magazine", what_it_does: "", examples: "from other publications through Audm, and archives from This American Life" },
 
+  // === INGESTED 2026-06-22 16:43 ===
+  additional_booster_doses: { definition: "Approved in some regions to maintain immunity", what_it_does: "", examples: "age, sex, and those with high-risk medical conditions" },
+  spikevax: "An mRNA vaccine composed of nucleoside-modified mRNA (modRNA) encoding a spike protein of SARS-CoV-2, which is encapsulated in lipid nanoparticles",
+  the_safety_profile_of_the_vaccine: "Favorable, with common side effects including injection site pain, fatigue, and headaches",
+  studies: { definition: "Underway to gauge efficacy and safety in children aged 0–11 (KidCOVE) and 12–17 (TeenCOVE)", what_it_does: "Catalent to manufacture up to 400 vials per minute and fill an additional 80 million vials per year", examples: "" },
+  the_increase_in_production: { definition: "In part attributed to improvements made by the company in manufacturing methods", what_it_does: "", examples: "fatigue, chills, headache, muscle pain, and pain at the site of injection" },
+
 };
 
 // ============================================================
