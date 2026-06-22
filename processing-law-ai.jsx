@@ -17925,6 +17925,15 @@ const FLAT_DICT = {
   the_length_of_training: "Intense, with practitioners often required to attain a 4-year bachelor's degree followed by a 4–6 year Ph.D",
   level_there: { definition: "Further opportunities for employment in academia and government", what_it_does: "", examples: "for individuals with pure synthetic organic and natural products synthesis in Ph.D" },
 
+  // === INGESTED 2026-06-22 07:54 ===
+  agricultural_chemistry: "The chemistry , especially organic chemistry and biochemistry , as they relate to agriculture",
+  its_applied_science_and_technology_aspects: { definition: "Directed towards increasing yields and improving quality, which comes with multiple advantages and disadvantages", what_it_does: "", examples: "dicotyledons vs monocotyledons , gymnosperms vs angiosperms , C2- vs C4-fixers , etc" },
+  pesticides: { definition: "Chemicals that play an important role in increasing crop yield and mitigating crop losses", what_it_does: "", examples: "birds, fish, [ 4 ] pollinators, [ 5 ] as well as the farmworkers themselves" },
+  while_organic_fertilizers: "Time-honored , their use has largely been displaced by chemicals produced from mining ( phosphate rock ) and the Haber-Bosch process",
+  biodiesel: "Derived from fats , both animal- and plant-derived",
+  emerging_technologies: "Numerous, including enzymes for clarifying or debittering of fruit juices",
+  bioremediation: "A green route to biodegradation",
+
 };
 
 // ============================================================
