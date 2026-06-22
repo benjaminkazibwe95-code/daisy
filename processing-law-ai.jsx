@@ -21255,6 +21255,13 @@ const FLAT_DICT = {
   armatimonadota: "Originally described solely on the basis of environmental 16S rRNA gene clone sequences, and was temporarily titled candidate phylum OP10",
   the_species_was_named_armatimonas_rosea_and: "The first member of its phylum, genus, and species",
 
+  // === INGESTED 2026-06-22 17:41 ===
+  peptides: { definition: "Short chains of amino acids linked by peptide bonds", what_it_does: "", examples: "microcins and bacteriocins" },
+  a_common_nonribosomal_peptide: "Glutathione , a component of the antioxidant defenses of most aerobic organisms",
+  peptones: { definition: "Used in nutrient media for growing bacteria and fungi", what_it_does: "", examples: "antimicrobial peptides , cell-penetrating peptides , and anticancer agents" },
+  all_of_these_peptides: "Synthesized by cells as longer ' propeptides ' or 'proproteins' and truncated prior to exiting the cell",
+  peptides_of_specific_shorter_lengths: "Named using IUPAC numerical multiplier prefixes: The same words are also used to describe a group of residues in a larger polypeptide ( e.g",
+
 };
 
 // ============================================================
