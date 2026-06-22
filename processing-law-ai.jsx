@@ -20290,6 +20290,22 @@ const FLAT_DICT = {
   the_functional_basis_for_clonal_aging: "Clarified by transplantation experiments of Aufderheide in 1986",
   freeliving_protozoa: { definition: "Found in almost all ecosystems that contain free water, permanently or temporarily", what_it_does: "", examples: "malaria , giardiasis , toxoplasmosis , and sleeping sickness" },
 
+  // === INGESTED 2026-06-22 14:55 ===
+  his_great_nephew: { definition: "The naval hero Eliab Harvey , captain of HMS Temeraire", what_it_does: "", examples: "Lord Chancellor Bacon" },
+  it_is_time_to_leave_fighting_when_there: "Nothing to eat, nothing to be kept, and nothing to be gotten",
+  he_knew_there: "Then no hopes of his recovery, so presently he sends for his young nephews to come up to him",
+  that_i: "Almost tempted to think",
+  that_the_movement_of_the_heart: "Only to be comprehended by God",
+  all_of_these_estimates: "Purposefully low, so that people could see the vast amount of blood Galen's theory required the liver to produce",
+  he_estimated_that_the_capacity_of_the_heart: "1.5 imperial fluid ounces (43 ml ), and that every time the heart pumps, 1 ⁄ 8 of that blood is expelled",
+  the_ligature: "Loosened slightly, which allowed blood from the arteries to come into the arm, since arteries are deeper in the flesh than the veins",
+  the_same_effect: "Seen in other veins of the body, except the veins in the neck",
+  those_veins: "Different from the others – they did not allow blood to flow up, but only down",
+  the_major_part: "Theoretical, dealing with Aristotle 's theories and the work of the physicians following Galen and up to Fabricius",
+  the_treatment: "Generally Aristotelian and limited by use of a simple magnifying lens",
+  the_harveian_society_of_edinburgh: "Founded in 1782 by Dr Andrew Duncan",
+  the_harveian_society_of_london: "A medical society founded in 1831 based in The Medical Society of London, Chandos Street, in Cavendish Square",
+
 };
 
 // ============================================================
