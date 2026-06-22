@@ -21050,6 +21050,23 @@ const FLAT_DICT = {
   isolated_restriction_enzymes: "Used to manipulate DNA for different scientific applications",
   the_latter_example: "Called restriction fragment length polymorphism (RFLP)",
 
+  // === INGESTED 2026-06-22 17:04 ===
+  antiviral_drugs: "A class of medication used for treating viral infections",
+  natural_virucides: "Produced by some plants such as eucalyptus and Australian tea trees",
+  chemicals_that_seemed_to_have_an_effect: "Selected for closer study",
+  a_very_early_stage_of_viral_infection: "Viral entry , when the virus attaches to and enters the host cell",
+  this_pocket: { definition: "Similar in most strains of rhinoviruses and enteroviruses , which can cause diarrhea, meningitis , conjunctivitis , and encephalitis", what_it_does: "", examples: "respiratory syncytial virus , parainfluenza virus and adenoviruses can cause them too" },
+  another_target: "Integrase , which integrate the synthesized DNA into the host cell genome",
+  production_of_mrna: "Initiated by proteins known as transcription factors",
+  several_antivirals: { definition: "Now being designed to block attachment of transcription factors to viral DNA", what_it_does: "", examples: "causing fat to build up in unusual places" },
+  a_protease_inhibitor: "Isolated from the shiitake mushroom ( Lentinus edodes )",
+  one_of_the_bestknown_of_this_class_of_drugs: "Interferons , which inhibit viral synthesis in infected cells",
+  a_more_specific_approach: "To synthesize antibodies , protein molecules that can bind to a pathogen and mark it for attack by other elements of the immune system",
+  prior_antiviral_regimens: "Designed to supplement the immune system’s ability to fight infection as a whole",
+  processes_that: { definition: "Common targets of HTAs include viral entry into the host cell, viral replication, nuclear import and export, and viral release from the host cell", what_it_does: "", examples: "antiviral agents" },
+  billions_of_viruses: "Produced every day during the course of an infection, with each replication giving another chance for mutations that encode for resistance to occur",
+  the_new_potential_approach: { definition: "The combination of DAA and HTA which create a genetic barrier against mutations", what_it_does: "", examples: "pandemic influenza" },
+
 };
 
 // ============================================================
