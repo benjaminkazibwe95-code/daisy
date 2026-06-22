@@ -22765,6 +22765,9 @@ const FLAT_DICT = {
   part_of_the_notch_protein: "Released from the cell surface membrane and takes part in gene regulation",
   the_choice_of_which_cell_continues_to_divide: "Controlled by competition of cell surface signals",
 
+  // === INGESTED 2026-06-22 21:53 ===
+  once_prohormones: { definition: "Needed to be expressed, prohormone convertase , a protein, cleaves the prohormones and separates them into one or more active hormones", what_it_does: "", examples: "vitamin D , also known as calciferol, which can be produced by the human body via sunlight" },
+
 };
 
 // ============================================================
