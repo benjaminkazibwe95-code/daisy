@@ -22550,6 +22550,13 @@ const FLAT_DICT = {
   the_grey_matter_in_the_spinal_cord: "Split into three grey columns: The grey matter of the spinal cord can be divided into different layers, called Rexed laminae",
   the_adjective_grisea_for_grey: "However not attested in classical Latin",
 
+  // === INGESTED 2026-06-22 21:03 ===
+  at_the_other_extreme: "Neural connectomes , which show individual neurons and their interconnections",
+  the_graph_that_describes_these_interactions: { definition: "Another form of connectome", what_it_does: "", examples: "Danionella and larval zebrafish )" },
+  em_reconstruction: "Successfully used for the compilation of the C",
+  lichtman_and_colleagues: { definition: "Able to mark individual neurons with one of over 100 distinct colors", what_it_does: "", examples: "long processes within a block of tissue" },
+  elegans: { definition: "Published in book form with accompanying floppy disks by Achacoso and Yamamoto in 1992", what_it_does: "", examples: "digital image processing began to be applied to detailed neural reconstruction" },
+
 };
 
 // ============================================================
