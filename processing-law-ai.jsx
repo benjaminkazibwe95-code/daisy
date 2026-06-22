@@ -17338,6 +17338,14 @@ const FLAT_DICT = {
   a_conserved_quantity: { definition: "A property or value that remains constant over time in a system even when changes occur in the system", what_it_does: "", examples: "adding a constant, to a conserved quantity" },
   suppose_a_system: "Defined by the Lagrangian L with generalized coordinates q",
 
+  // === INGESTED 2026-06-22 06:28 ===
+  gray: "Not paid by Desaguliers but provided with accommodation in exchange for his ability to discuss scientific subjects with the boarders",
+  some_of_his_reports: "Published by the Royal Society through the agency of a friend, Henry Hunt, who was a member of the Society's secretarial staff",
+  they_noticed_that_if_a_wire: "Used to support the pack-thread, all the 'electrical virtue' leaked away",
+  we_now_know_that_both: "Almost equally incorrect",
+  this_was_the_first_evidence_that_electricity: "Not a property of the glass tube but some kind of fluid",
+  the_fact_is_that_electricity: "Not considered that important at the time, and the Society's magazine was not published for a couple of years due to financial constraints",
+
 };
 
 // ============================================================
