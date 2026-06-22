@@ -17425,6 +17425,20 @@ const FLAT_DICT = {
   this_meter: "Used by electric utilities to do surveys of energy use",
   prepaid_meters_using_the_sts_standard: "Used in many countries",
 
+  // === INGESTED 2026-06-22 06:41 ===
+  a_heat_pump: "A device that uses mechanical or thermal energy to transfer heat from one space to another",
+  air_source_heat_pumps: { definition: "The most common models, while other types include ground source heat pumps , water source heat pumps , and exhaust air heat pumps", what_it_does: "", examples: "the heating of water and the interior of buildings" },
+  this_gaseous_refrigerant: "Pumped into more coils in the heating unit, where a fan blows air over the coil to absorb the heat and liquefy the refrigerant",
+  most_heat_pumps: { definition: "Capable of transferring heat in both directions, meaning, for example, that they can heat and cool a space", what_it_does: "", examples: "if the outside unit has been installed where there is not enough airflow" },
+  the_spf: "Total heat output per annum / Total electricity consumed per annum; in other words the average heating coefficient of performance (COP) over the year",
+  usually_heat: { definition: "Extracted from outdoor air and transferred to an indoor water tank", what_it_does: "", examples: "for process heat" },
+  consumer_performance_ratings: { definition: "Designed to reflect these variations under different conditions", what_it_does: "", examples: "wind and solar will lower the impact on the climate" },
+  in_heating_mode_this_heat: "Used to heat the building using the internal heat exchanger, and in cooling mode this heat is rejected via the external heat exchanger",
+  the_cold_mixture: "Then routed through the coil or tubes in the evaporator",
+  the_ice: "Melted through a defrosting cycle",
+  use_of_these_chemicals: { definition: "Banned or severely restricted by the Montreal Protocol of August 1987", what_it_does: "", examples: "R-32 and R-410A are being promoted as environmentally friendly but still have a high GWP" },
+  american_households: "Eligible for a tax credit to cover the costs of buying and installing a heat pump, up to $2,000",
+
 };
 
 // ============================================================
