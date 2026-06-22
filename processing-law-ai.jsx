@@ -16821,6 +16821,16 @@ const FLAT_DICT = {
   while_epistasis: "Originally conceived in the context of interaction between different genes, intragenic epistasis has also been studied recently",
   compensatory_mutations: "New mutations that arise and have a positive or neutral impact on a populations fitness",
 
+  // === INGESTED 2026-06-22 05:16 ===
+  holism: "The interdisciplinary idea that systems possess properties as wholes apart from the properties of their component parts",
+  when_applications_of_holism: { definition: "Said to reveal properties of a whole system beyond those of its parts, these qualities are referred to as emergent properties of that system", what_it_does: "", examples: "atoms , cells , or an individual's personality" },
+  he_argued_that_evolution: "Neither an accident nor is it brought about by the actions of some transcendent force, such as a God",
+  holism_in_physics: { definition: "The nonseparability of physical systems from their parts, especially quantum phenomena", what_it_does: "", examples: "the behavior of a liquid by examining its component molecules, atoms, ions or electrons" },
+  his_theory_agrees_with_bohm_that_whole_systems: "Not merely composed of their parts and it identifies properties such as position and momentum as those of whole systems beyond those of its components",
+  the_linguistic_perspective_of_meaning_holism: "Traced back to an essay by WV Quine [ 28 ] but was subsequently formalized by analytic philosophers Michael Dummett , Jerry Fodor , and Ernest Lepore",
+  meaning_in_some_languages: "Compositional in that meaning comes from the structure of an expression's parts",
+  if_these_beliefs: "Different, meaning may be lost",
+
 };
 
 // ============================================================
