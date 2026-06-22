@@ -17334,6 +17334,10 @@ const FLAT_DICT = {
   diatomic_gases: "Also almost exclusively diamagnetic, and not paramagnetic",
   the_explanation_of_the_phenomena: "Thus essentially based on all subtleties of quantum mechanics, whereas the electrodynamics covers mainly the phenomenology",
 
+  // === INGESTED 2026-06-22 06:26 ===
+  a_conserved_quantity: { definition: "A property or value that remains constant over time in a system even when changes occur in the system", what_it_does: "", examples: "adding a constant, to a conserved quantity" },
+  suppose_a_system: "Defined by the Lagrangian L with generalized coordinates q",
+
 };
 
 // ============================================================
