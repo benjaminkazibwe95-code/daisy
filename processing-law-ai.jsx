@@ -17115,6 +17115,32 @@ const FLAT_DICT = {
   over_half_of_the_sources: { definition: "Active galaxies , their central black holes created gamma-ray emissions detected by the LAT", what_it_does: "", examples: "one at 1.4 PeV, the highest energy photon ever observed" },
   gammaray_bursts: "The most energetic flashes of light known to occur in the universe",
 
+  // === INGESTED 2026-06-22 05:57 ===
+  the_application_of_acoustics: "Present in almost all aspects of modern society with the most obvious being the audio and noise control industries",
+  hearing_is_one_of_the_most_crucial: { definition: "Of survival in the animal world and speech is one of the most distinctive characteristics of human development and culture", what_it_does: "", examples: "a discussion of interference, echoes, and reverberation—the beginnings of architectural acoustics" },
+  the_first_such_application: "Sabine 's groundbreaking work in architectural acoustics, and many others followed",
+  underwater_acoustics: "Used for detecting submarines in the First World War",
+  acoustics: "Defined by ANSI/ASA S1",
+  there_is_one_fundamental_equation_that: "Sound wave propagation, the acoustic wave equation , but the phenomena that emerge from it are varied and often complex",
+  eventually_this_energy: "Transduced again into other forms, in ways that again may be natural and/or volitionally contrived",
+  the_five_basic_steps: { definition: "Found equally well whether we are talking about an earthquake , a submarine using sonar to locate its foe, or a band playing in a rock concert", what_it_does: "", examples: "longitudinal waves , transverse waves and surface waves" },
+  if_several_media: "Present, a refraction can also occur",
+  transduction_processes: { definition: "Also of special importance to acoustics", what_it_does: "", examples: "air and water, sound waves propagate as disturbances in the ambient pressure level" },
+  while_this_disturbance: "Usually small, it is still noticeable to the human ear",
+  the_loudness_of_these_disturbances: { definition: "Related to the sound pressure level (SPL), which is measured on a logarithmic scale in decibels", what_it_does: "", examples: "octave bands or time frequency plots" },
+  both_of_these_popular_methods: "Used to analyze sound and better understand the acoustic phenomenon",
+  this_range: { definition: "Important because its frequencies can be detected by the human ear", what_it_does: "", examples: "speech communication and music" },
+  the_ultrasonic_range: { definition: "The very high frequencies: 20,000 Hz and higher", what_it_does: "", examples: "ultrasonography and elastography rely on the ultrasonic frequency range" },
+  the_spectrogram_produced_by_such_an_instrument: "A graphical display of the time varying pressure level and frequency profiles that give a specific acoustic signal its defining character",
+  a_transducer: "A device for converting one form of energy into another",
+  the_most_widely_used_transduction_principles: "Electromagnetism , electrostatics and piezoelectricity",
+  an_acoustician: { definition: "An expert in the science of sound", what_it_does: "", examples: "physics or engineering" },
+  other_areas_of_work: { definition: "Listed under subdisciplines below", what_it_does: "", examples: "faculty (academic staff) require a Doctor of Philosophy" },
+  aeroacoustics: "Important for understanding how wind musical instruments work",
+  environmental_acoustics: "The study of noise and vibrations, and their impact on structures, objects, humans, and animals",
+  the_main_aim_of_these_studies: "To reduce levels of environmental noise and vibration",
+  speech_recognition_and_speech_synthesis: "Two important areas of speech processing using computers",
+
 };
 
 // ============================================================
