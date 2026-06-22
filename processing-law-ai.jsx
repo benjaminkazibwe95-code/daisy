@@ -18422,6 +18422,15 @@ const FLAT_DICT = {
   granules: "Produced by accretion onto urea seed particles by spraying liquid urea in a succession of layers",
   formaldehyde: { definition: "Added during the production of both prills and granules in order to increase crushing strength and suppress caking", what_it_does: "", examples: "pastillization (depositing uniform-sized liquid droplets onto a cooling conveyor belt) are also used" },
 
+  // === INGESTED 2026-06-22 09:10 ===
+  in_both_cases_the_rotation_of_bonds: { definition: "Restricted or prevented", what_it_does: "", examples: "pent-2-ene , which is 37 °C in the cis isomer and 36 °C in the trans isomer" },
+  polarity: "Key in determining relative boiling point as strong intermolecular forces raise the boiling point",
+  another_example_of_this: "The relationship between oleic acid and elaidic acid ; oleic acid, the cis isomer, has a melting point of 13",
+  in_the_case_of_geometric_isomers_that: "A consequence of double bonds, and, in particular, when both substituents are the same, some general trends usually hold",
+  whether_a_molecular_configuration: "Designated E or Z is determined by the CIP rules; higher atomic numbers are given higher priority",
+  if_both_the_higherpriority_substituents: "On the same side, the arrangement is Z ; if on opposite sides, the arrangement is E",
+  wavy_single_bonds: { definition: "The standard way to represent unknown or unspecified stereochemistry or a mixture of isomers (as with tetrahedral stereocenters)", what_it_does: "", examples: "there are two isomers of square planar Pt(NH 3 ) 2 Cl 2 , as explained by Alfred Werner in 1893" },
+
 };
 
 // ============================================================
