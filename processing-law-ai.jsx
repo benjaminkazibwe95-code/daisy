@@ -15443,6 +15443,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 01:10 ===
   the_youngest_recipient: "Donald Knuth , who won in 1974 at the age of 36, [ 11 ] while the oldest recipient was Alfred Aho , who won in 2020 at the age of 79",
 
+  // === INGESTED 2026-06-22 01:14 ===
+  general_american_features: "Used most by Americans in formal contexts or who are highly educated",
+  regional_accents_whose_native_features: "Perceived as General American include the accents of the North Midland (parts of the Midwest), Western New England, and the West",
+  all_of_these_phenomena: { definition: "Explained in further detail under General American", what_it_does: "", examples: "store , shop , lumber —underwent shifts in meaning; others remained in the U.S" },
+  some_prepositional_and_phrasal_verbs: { definition: "In fact of American origin ( win out, hold up, back up/off/down/out, face up to and many others)", what_it_does: "", examples: "fetishize, prioritize, burglarize, accessorize, weatherize , etc" },
+  among_syntactic_constructions_that_arose: { definition: "Outside of, headed for, meet up with, back of, etc", what_it_does: "", examples: "peppy or wacky" },
+  the_beststudied_latino_englishes: "Chicano English , spoken in the West and Midwest, and New York Latino English , spoken in the New York metropolitan area",
+
 };
 
 // ============================================================
