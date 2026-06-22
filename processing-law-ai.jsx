@@ -16976,6 +16976,16 @@ const FLAT_DICT = {
   divination: "The attempt to gain insight into a question or situation by way of an occultic standardized process or ritual",
   yet_the_two_still: "Often understood together as symbiotic in their origins, aims, and purposes",
 
+  // === INGESTED 2026-06-22 05:39 ===
+  the_grand_canonical_ensemble: "An example of an open system",
+  such_equilibrium_ensembles: "A diagonal matrix in the orthogonal basis of states that simultaneously diagonalize each conserved variable",
+  the_ensemble: "Then represented by a joint probability density function ρ ( N 1 , ",
+  the_expectation_value_of_any_such_quantity: { definition: "Given by an integral over the entire phase space of this quantity weighted by ρ : ⟨ X ⟩ = ∑ N 1 = 0 ∞ ⋯ ∑ N s = 0 ∞ ∫ ⋯ ∫ ρ X d p 1 ⋯ d q n", what_it_does: "", examples: "one could include only those phases where the particles' x coordinates are sorted in ascending order" },
+  since_the_ensemble_average: "Dependent on the ensemble chosen, its mathematical expression varies from ensemble to ensemble",
+  what_has_not_been_shown: { definition: "That the ensemble itself (not the consequent results) is a precisely defined object mathematically", what_it_does: "", examples: "the procedure might involve a physical apparatus and some protocols for manipulating the apparatus" },
+  the_systems_are_similar_in_that_they: "All produced in the same way",
+  each_one_of_these_values: "A 0 (or no) or a 1 (yes)",
+
 };
 
 // ============================================================
