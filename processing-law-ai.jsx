@@ -15367,6 +15367,31 @@ const FLAT_DICT = {
   other_chinese_languages_and_dialects: "Referred to as fangyan (regional speech)",
   a_number_of_dialects_and_languages: "Classified as Hindi dialects , which is a social rather than linguistic concept",
 
+  // === INGESTED 2026-06-22 01:04 ===
+  real_vector_spaces_and_complex_vector_spaces: { definition: "Kinds of vector spaces based on different kinds of scalars: real numbers and complex numbers", what_it_does: "", examples: "forces and velocity ) that have not only a magnitude , but also a direction" },
+  the_concept_of_vector_spaces: "Fundamental for linear algebra , together with the concept of matrices , which allows computing in vector spaces",
+  vector_spaces: "Characterized by their dimension , which, roughly speaking, specifies the number of independent directions in the space",
+  a_vector_space: "Finite-dimensional if its dimension is a natural number",
+  many_vector_spaces_that: "Considered in mathematics are also endowed with other structures",
+  such_a_vector_space: "Called an F - vector space or a vector space over F",
+  subtraction_of_two_vectors: "V − w = v + ( − w )",
+  italian_mathematician_peano: { definition: "The first to give the modern definition of vector spaces and linear maps in 1888, [ 25 ] although he called them 'linear systems'", what_it_does: "", examples: "spaces of p -integrable functions and Hilbert spaces" },
+  this_new_arrow: "Called the sum of the two arrows, and is denoted v + w",
+  when_a: "Negative, a v is defined as the arrow pointing in the opposite direction instead",
+  a_second_key_example_of_a_vector_space: "Provided by pairs of real numbers x and y",
+  the_order_of_the_components_x_and_y: "Significant, so such a pair is also called an ordered pair",
+  such_a_pair: "Written as ( x , y )",
+  systems_of_homogeneous_linear_equations: "Closely tied to vector spaces",
+  another_way_to_express_this: "That any vector space over a given field is completely classified ( up to isomorphism) by its dimension, a single number",
+  matrices: "A useful notion to encode linear maps",
+  if_v: { definition: "Finite-dimensional, this can be rephrased using determinants: f having eigenvalue λ is equivalent to det ( f − λ ⋅ Id ) = 0", what_it_does: "", examples: "F = C ) any linear map has at least one eigenvector" },
+  if_w: { definition: "An n -dimensional vector space, any subspace of dimension 1 less, i.e., of dimension n − 1 {\displaystyle n-1} is called a hyperplane", what_it_does: "", examples: "linear maps to several variables" },
+  norms_and_inner_products: { definition: "Denoted | v | {\displaystyle |\mathbf {v} |} and ⟨ v , w ⟩ , {\displaystyle \langle \mathbf {v} ,\mathbf {w} \rangle ,} respectively", what_it_does: "", examples: "for x = ( 0 , 0 , 0 , 1 )" },
+  note_that_in_other_conventions_time: "Often written as the first, or 'zeroeth' component so that the Lorentz product is written ⟨ x | y ⟩ = − x 0 y 0 + x 1 y 1 + x 2 y 2 + x 3 y 3",
+  such_a_set_of_functions: "Called a basis of H , {\displaystyle H,} its cardinality is known as the Hilbert space dimension",
+  sections_of_that_bundle: "Known as differential one-forms",
+  modules_are_to_rings_what_vector_spaces: { definition: "To fields: the same axioms, applied to a ring R instead of a field F , yield modules", what_it_does: "", examples: "all vector spaces) are known as free modules" },
+
 };
 
 // ============================================================
