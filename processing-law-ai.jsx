@@ -23150,6 +23150,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 23:04 ===
   each_set_of_cards: "Given a serial number to help identify it",
 
+  // === INGESTED 2026-06-22 23:06 ===
+  the_khashm_elgirba_dam: "A gravity and embankment composite dam on the Atbarah River about 4 km (2 mi) south of Khashm El Girba in eastern Sudan",
+  when_water_levels_in_the_reservoir: "Low, three pumps move water into the canal",
+  the_main_portion_of_the_dam: "An earthen embankment; the spillway and irrigation headworks sections are concrete gravity",
+
 };
 
 // ============================================================
