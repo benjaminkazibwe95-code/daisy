@@ -16550,6 +16550,28 @@ const FLAT_DICT = {
   his_studies: { definition: "Rigorously scrutinized by his peers, and many of them agreed", what_it_does: "", examples: "Blumenbach , Cuvier , Bory de St" },
   when_the_flask: "Turned so that particles could fall down the bends, the broth quickly became clouded",
 
+  // === INGESTED 2026-06-22 04:30 ===
+  two_other_major_campuses: { definition: "Located at Rutgers University–Newark , and Rutgers University–Camden", what_it_does: "", examples: "oceanographic research facilities at the Jersey Shore" },
+  these_faculty: "To be paid by the grant for three years, but after that time any faculty hired with the associate or full professor designation would become tenured",
+  classes_and_research: { definition: "Suspended for a week", what_it_does: "", examples: "remote sections of land extending into Edison and Highland Park" },
+  the_busch_campus: "Noted as the home of Rutgers' highly ranked Ernest Mario School of Pharmacy, as well as the golf course and football stadium",
+  the_campus_entrance: { definition: "Delineated by the all-glass Rutgers Business School building known as '100 Rock' (because of the building's Piscataway address, 100 Rockafeller Road)", what_it_does: "", examples: "the School of Arts and Sciences , the School of Communication and Information , the Edward J" },
+  the_organization: { definition: "Incorporated into the university following the 2013 merger of Rutgers and UMDNJ", what_it_does: "", examples: "the appointment of a separate chancellor" },
+  the_programs: { definition: "Offered at different location sites across New Jersey in New Brunswick, Newark, Blackwood , Stratford and Scotch Plains, New Jersey", what_it_does: "", examples: "SAS Excellence Award, Scarlet Guarantee, and many other forms of aid" },
+  rutgers: { definition: "An active participant of the EOF program giving financially or academically disadvantaged students resources to success", what_it_does: "", examples: "the Penji app to find available academic support" },
+  the_current_character_of_lsm: { definition: "A university science library also serving a medical school", what_it_does: "", examples: "art history, Chemistry, mathematics, music and physics" },
+  also_located_within_the_alexander_library: "The East Asian Library, which holds a sizable collection of Chinese, Japanese, and Korean monographs and periodicals",
+  this_database: "The authoritative research tool for bioinformaticists using protein primary, secondary and tertiary structures worldwide",
+  the_rutgers_bus_system: "The second-largest bus service in New Jersey, transporting six million passengers on an annual basis",
+  the_student_government: "Made up of campus councils and professional school councils",
+  an_example_of_these_campus_councils: { definition: "The University College Council, which represents adult, part-time, and military veteran students", what_it_does: "", examples: "in 2010 when The OrphanSporks placed second in the semifinals" },
+  chapters_of_zeta_psi_and_delta_phi: "Organized at Rutgers as early as 1845",
+  the_annual_dance_marathon: { definition: "Hundreds of dancers and volunteers", what_it_does: "", examples: "'Queensmen,' the 'Scarlet,' the 'Red Lions,' the 'Redmen' and the 'Flying Dutchmen" },
+  sixmile_races: "Held on the Raritan River among six-oared boats",
+  the_big_ten_conference: "A member of the Bowl Championship Series",
+  the_university_claims_this_change: { definition: "Due to budget cuts, while others claim it was a politically motivated move designed to protest state funding changes", what_it_does: "", examples: "Jack Babuscio (MHist.)" },
+  former_professor_ruth_chang: "An expert in decision-making and a fellow at Oxford",
+
 };
 
 // ============================================================
