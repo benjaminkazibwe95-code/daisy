@@ -21927,6 +21927,12 @@ const FLAT_DICT = {
   political_behavior: "The subset of human behavior that involves politics and power",
   the_ways_in_which_these_two_sources: { definition: "Interpreted often relies on the individuals specific political ideology formed by the long-term factors", what_it_does: "", examples: "the shift in voting behavior toward Trump in 2016" },
 
+  // === INGESTED 2026-06-22 19:32 ===
+  work_behavior: { definition: "The behavior one uses in employment and is normally more formal than other types of human behavior", what_it_does: "", examples: "a computer programmer would usually have far more leeway in their work behavior than a lawyer" },
+  counterproductive_work_behavior: { definition: "Also a type of work behavior", what_it_does: "", examples: "not working to meet date line or faking incompetence" },
+  a_variety_of_abusive_behaviors: { definition: "Being demonstrated against victims to hinder their ability to come to work, get their work done, and stay in their current employment", what_it_does: "", examples: "sabotaging the victim, so they can not get to work" },
+  a_way_to_counteract_this_unproductive_behavior: "To address the principle that work behavior is a function of contingent consequences",
+
 };
 
 // ============================================================
