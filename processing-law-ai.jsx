@@ -19077,6 +19077,29 @@ const FLAT_DICT = {
   whitehead_in_which_the_notion_of_region: "Assumed as a primitive together with the one of inclusion or connection",
   in_the_context_of_signal_processing_it: "Often referred to as the unit impulse symbol (or function)",
 
+  // === INGESTED 2026-06-22 11:08 ===
+  a_circle: "A shape consisting of all points in a plane that are at a given distance from a given point, the centre",
+  natural_circles: "Common, such as the full moon or a slice of round fruit",
+  the_circle: "The one-dimensional hypersphere (the 1-sphere)",
+  the_bounding_line: { definition: "Called its circumference and the point, its centre", what_it_does: "", examples: "unity, infinity, wholeness, the universe, divinity, balance, stability and perfection, among others" },
+  one_radian: "The measure of the central angle subtended by a circular arc whose length is equal to its radius",
+  if_the_circle: "Centred at the origin (0, 0), then the equation simplifies to x 2 + y 2 = r 2",
+  an_alternative_parametrisation_of_the_circle: "X = a + r 1 − t 2 1 + t 2 , y = b + r 2 t 1 + t 2",
+  these_points: "Called the circular points at infinity",
+  not_all_generalised_circles: "Actually circles: a generalised circle is either a (true) circle or a line",
+  since_the_diameter: "Twice the radius, the 'missing' part of the diameter is ( 2 r − x ) in length",
+  the_simplest_and_most_basic: "The construction given the centre of the circle and a point on the circle",
+  the_set_of_points_p_such_that_angle_cpd: "A right angle forms a circle, of which CD is a diameter",
+  a_closely_related_property_of_circles: "The geometry of the cross-ratio of points in the complex plane",
+  in_this_sense_a_line: "A generalised circle of infinite radius",
+  a_cyclic_polygon: "Any convex polygon about which a circle can be circumscribed , passing through each vertex",
+  a_wellstudied_example: "The cyclic quadrilateral",
+  a_polygon_that_is_both_cyclic_and_tangential: "Called a bicentric polygon",
+  a_hypocycloid_is_a_curve_that: "Inscribed in a given circle by tracing a fixed point on a smaller circle that rolls within and tangent to the given circle",
+  taxicab_circles: "Squares with sides oriented at a 45° angle to the coordinate axes",
+  two_topological_circles: "Equivalent if one can be transformed into the other via a deformation of R 3 upon itself (known as an ambient isotopy )",
+  a_circle_orientation: "Assumed in the measure of signed angles",
+
 };
 
 // ============================================================
