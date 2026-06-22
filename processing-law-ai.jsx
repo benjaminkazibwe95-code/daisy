@@ -20596,6 +20596,10 @@ const FLAT_DICT = {
   the_monkeys: { definition: "Trained to perform a delayed response task, making a movement in response to a sensory instruction cue", what_it_does: "", examples: "the primary motor cortex and several premotor fields" },
   whether_these_cortical_areas: "Arranged in a hierarchy or share some other more complex relationship is still debated",
 
+  // === INGESTED 2026-06-22 15:42 ===
+  the_ventral_pons: "Known as the basilar part , and the dorsal pons is known as the pontine tegmentum",
+  a_smaller_portion_of_the_pons: "Supplied by the anterior and posterior inferior cerebellar arteries",
+
 };
 
 // ============================================================
