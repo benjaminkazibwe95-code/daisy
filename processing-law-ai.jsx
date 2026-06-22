@@ -17226,6 +17226,13 @@ const FLAT_DICT = {
   their_amplitude: "Parameterized by the tensor-to-scalar ratio (denoted r {\displaystyle r} ), which is determined by the unknown energy scale of inflation",
   some_researchers_have_suggested_that_there: "A running spectral index, but no statistically significant study has revealed one",
 
+  // === INGESTED 2026-06-22 06:08 ===
+  their_existence: "Inferred through observations of their effects on the motions of stars and gas in galaxies and gravitational lensing",
+  the_current_hypothesis_for_this: "Based on cold dark matter (CDM) and its formation into structure early in the universe",
+  the_fact_that_the_dark_matter: "Cold compared to the baryonic matter allows the DM to form these initial, gravitationally bound clumps",
+  higher_resolution_computer_simulations: "Better described by the Einasto profile : [ 28 ] where r is the spatial (i.e., not projected) radius",
+  the_dark_matter_halo: "Likely to include around 6 × 10 11 to 3 × 10 12 M ☉ of dark matter",
+
 };
 
 // ============================================================
