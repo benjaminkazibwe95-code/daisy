@@ -18665,6 +18665,10 @@ const FLAT_DICT = {
   several_earlier_tunes: "Reworked and definitely 'new and improved,' including 'Break Me Down,' 'Her Walls Are Coming Down,' 'Black Box,' 'Goodbye,' and 'Ironic Dreams",
   they_are_professionals_with_a_clean_style_who: "Able to achieve an energetic stage presence while still appearing like three very approachable guys",
 
+  // === INGESTED 2026-06-22 09:52 ===
+  this_colorless_solid: "A useful building block in organic synthesis",
+  chloroacetic_acid: "Converted to chloroacetyl chloride , a precursor to adrenaline (epinephrine)",
+
 };
 
 // ============================================================
