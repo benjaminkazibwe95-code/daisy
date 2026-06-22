@@ -21475,6 +21475,11 @@ const FLAT_DICT = {
   this_downregulation: "Not observed and FOXP2 levels remained stable in birds singing directed song",
   their_case: "Studied at the Institute of Child Health of University College London",
 
+  // === INGESTED 2026-06-22 18:17 ===
+  scientific_consensus: { definition: "The collective judgment, position, and opinion of the vast majority of active, qualified experts on a conclusion in a specific scientific discipline", what_it_does: "", examples: "Canada, [ 17 ] the European Union, [ 18 ] Japan, [ 19 ] and United States, [ 4 ] among others" },
+  research_shows_that_these: "Different modes of practice, more than different historical periods",
+  the_tricky_part_is_discerning_what: { definition: "Close enough to 'final truth'", what_it_does: "", examples: "social action against smoking probably came too long after science was 'pretty consensual'" },
+
 };
 
 // ============================================================
