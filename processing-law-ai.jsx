@@ -16091,6 +16091,30 @@ const FLAT_DICT = {
   the_pledge: "Not signed by leaders from some of the world's biggest polluters, namely China, India, Russia, Brazil and the United States",
   that_the_targets: "Not legally binding has also been subject to criticism",
 
+  // === INGESTED 2026-06-22 03:18 ===
+  although_earth: "The only place known to harbor life, astrobiologists assume that life exists and came into being by similar processes on other planets",
+  the_advent_of_such_polymers: { definition: "Most likely a critical step in prebiotic chemical evolution", what_it_does: "", examples: "nucleobases , amino acids , and sugars , likely formed by reactions in the environment" },
+  heavier_elements: { definition: "Formed during supernovas at the end of a star's lifecycle", what_it_does: "", examples: "carbon and oxygen, throughout the universe" },
+  it_is_debated_whether_crust: "Exposed above this ocean",
+  the_available_energy: { definition: "Maximized at 100–150 °C, the temperatures at which hyperthermophilic bacteria and thermoacidophilic archaea live", what_it_does: "", examples: "layered structures called stromatolites" },
+  their_modern_counterparts: { definition: "Created by photosynthetic micro-organisms including cyanobacteria", what_it_does: "", examples: "organic molecules, form naturally both in space and on planets" },
+  since_life_tends_to_use_whatever: "Available, an explanation is needed for why the set used is so small",
+  breslow_proposed_that_the_reaction: { definition: "Autocatalytic in 1959", what_it_does: "", examples: "hydrogen cyanide (HCN) and ammonia" },
+  such_a_membrane: "Needed for a cell to create its own electrochemical gradient",
+  heat_from_geothermal_processes: { definition: "A standard energy source for chemistry", what_it_does: "", examples: "this was probably important for carbon fixation" },
+  the_mechanism_of_atp_synthesis: "A closed membrane in which the ATP synthase enzyme is embedded",
+  the_results_suggest_that_the_luca: "Anaerobic with a Wood–Ljungdahl (reductive Acetyl-CoA) pathway, nitrogen- and carbon-fixing, thermophilic",
+  its_genetic_material: "Probably DNA, requiring the 4-nucleotide genetic code, messenger RNA, transfer RNA, and ribosomes to translate the code into proteins such as enzymes",
+  these_theories: { definition: "Often in competition with one another as there are many views of prebiotic compound availability, geophysical setting, and early life characteristics", what_it_does: "", examples: "methane, ammonia, carbon dioxide, and hydrogen sulfide , toxic to much current life" },
+  this_rna: "Synthesized using activated ribonucleotides",
+  the_available_energy_in_hydrothermal_vents: { definition: "Maximized at 100–150 °C, the temperatures at which hyperthermophilic bacteria and thermoacidophilic archaea live", what_it_does: "", examples: "methane are in far lower concentrations at vents than in a Miller-Urey Experiment environment" },
+  some_organic_compounds: { definition: "Now understood to have been formed by other geological processes and inherited by vents", what_it_does: "", examples: "more likely comes from leached fluid inclusions formed deeper in oceanic crust from magmatic carbon" },
+  radiation_levels_from_a_young_sun: "Likely greater, and, with no ozone layer , harmful shortwave UV rays would reach the surface of Earth",
+  hot_springs: "Formed from the heating of groundwater by geothermal activity",
+  the_luca_likely: "Dependent upon synthesized organic matter for its growth",
+  these_polymers: "Encapsulated in vesicles after condensation",
+  while_rna_folding_in_psychrophilic_organisms: { definition: "Slower, so is hydrolysis, so folding is more successful", what_it_does: "", examples: "those in which molecules are exposed to circularly polarized light of a given handedness" },
+
 };
 
 // ============================================================
