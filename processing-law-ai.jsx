@@ -18978,6 +18978,11 @@ const FLAT_DICT = {
   the_equivalence_of_two_lambda_expressions: "Undecidable (but see unification (computer science) )",
   an_example_of_early_counting: { definition: "The Ishango bone , found near the Nile and dating back over 20,000 years ago , which is thought to show a six-month lunar calendar", what_it_does: "", examples: "equality or inequality ) or exponents" },
 
+  // === INGESTED 2026-06-22 10:43 ===
+  liber_abaci: { definition: "Among the first Western books to describe the Hindu–Arabic numeral system and to use symbols resembling modern ' Arabic numerals '", what_it_does: "", examples: "its arithmetic and methods for converting between different representation systems" },
+  another_example_in_this_chapter: { definition: "The growth of a population of rabbits, where the solution requires generating a numerical sequence", what_it_does: "", examples: "square roots" },
+  the_first_complete_english_translation: "Sigler's text of 2002",
+
 };
 
 // ============================================================
