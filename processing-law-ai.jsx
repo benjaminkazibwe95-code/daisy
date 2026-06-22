@@ -19194,6 +19194,20 @@ const FLAT_DICT = {
   multivariate_calculus: "Used in the optimal control of continuous time dynamic systems",
   multivariable_calculus: { definition: "Used in many fields of natural and social science and engineering to model and study high-dimensional systems that exhibit deterministic behavior", what_it_does: "", examples: "stochastic calculus" },
 
+  // === INGESTED 2026-06-22 11:39 ===
+  scientific_observations: { definition: "Marred by two distinct types of errors, systematic errors on the one hand, and random on the other hand", what_it_does: "", examples: "the uncertainty in the calibration of an instrument" },
+  these_errors: "Uncorrelated between measurements",
+  the_concept_of_random_error: "Closely related to the concept of precision",
+  incorrect_zeroing_of_an_instrument: "An example of systematic error in instrumentation",
+  drift: "Evident if a measurement of a constant quantity is repeated several times and the measurements drift one way during the experiment",
+  if_the_zero_reading: "Consistently above or below zero, a systematic error is present",
+  hopings_systematic_error: { definition: "Present if the stopwatch is checked against the ' speaking clock ' of the telephone system and found to be running slow or fast", what_it_does: "", examples: "ammeters and voltmeters need to be checked periodically against known standards" },
+  constant_systematic_errors: "Very difficult to deal with as their effects are only observable if they can be removed",
+  a_common_method_to_remove_systematic_error: "Through calibration of the measurement instrument",
+  these_sources_of_nonsampling_error: "Discussed in Salant and Dillman (1994) and Bland and Altman (1996)",
+  random_errors: "Caused by unintended mistakes by respondents, interviewers and/or coders",
+  systematic_error_can_occur_if_there: "A systematic reaction of the respondents to the method used to formulate the survey question",
+
 };
 
 // ============================================================
