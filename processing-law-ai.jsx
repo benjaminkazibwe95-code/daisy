@@ -20600,6 +20600,28 @@ const FLAT_DICT = {
   the_ventral_pons: "Known as the basilar part , and the dorsal pons is known as the pontine tegmentum",
   a_smaller_portion_of_the_pons: "Supplied by the anterior and posterior inferior cerebellar arteries",
 
+  // === INGESTED 2026-06-22 15:45 ===
+  flavor_perception: { definition: "An aggregation of auditory , taste , haptic , and smell sensory information", what_it_does: "", examples: "gradient search or chemotaxis , anemotaxis, klinotaxis, and tropotaxis" },
+  their_success: { definition: "Influenced by the turbulence of the air plume that is being followed", what_it_does: "", examples: "petrels and albatrosses ), certain species of new world vultures , and the kiwis" },
+  having_a_strong_sense_of_smell: "Referred to as macrosmatic in contrast to having a weak sense of smell which is referred to as microsmatic",
+  the_secondmostsensitive_nose: { definition: "Possessed by the Basset Hound , which was bred to track and hunt rabbits and other small animals", what_it_does: "", examples: "packs of wolves and human hunters) in the process" },
+  the_sense_of_smell: { definition: "Less developed in the catarrhine primates , and nonexistent in cetaceans , which compensate with a well-developed sense of taste", what_it_does: "", examples: "the red-bellied lemur , scent glands occur atop the head" },
+  the_olfactory_epithelium: "Made up of at least six morphologically and biochemically different cell types",
+  this_mechanism_of_transduction: "Somewhat unusual, in that cAMP works by directly binding to the ion channel rather than through activation of protein kinase A",
+  it_also_projects_to_the_hippocampus_and: "Involved in motivation and memory",
+  odor_information: "Stored in long-term memory and has strong connections to emotional memory",
+  it_is_possible_that_the_brain: "Able to distinguish specific odors through spatial encoding, but temporal coding must also be taken into account",
+  the_process_by_which_olfactory_information: "Coded in the brain to allow for proper perception is still being researched, and is not completely understood",
+  when_an_odorant: "Detected by receptors, they in a sense break the odorant down, and then the brain puts the odorant back together for identification and perception",
+  because_several_receptor_types: "Activated due to the different chemical features of the odorant, several glomeruli are activated as well",
+  the_signals_from_the_glomeruli: "Transformed to a pattern of oscillations of neural activities [ 64 ] of the mitral cells , the output neurons from the olfactory bulb",
+  olfactory_cortex: { definition: "Thought to have associative memories, [ 65 ] so that it resonates to this bulbar pattern when the odor object is recognized", what_it_does: "", examples: "a layout corresponding to chemical features (called chemotopy) or perceptual features" },
+  selectivity: "The insects' ability to tell one odorant apart from another",
+  these_compounds: { definition: "Commonly broken into three classes: short chain carboxylic acids , aldehydes and low molecular weight nitrogenous compounds", what_it_does: "", examples: "the moth Deilephila elpenor , use smell as a means to find food sources" },
+  the_tendrils_of_plants: { definition: "Especially sensitive to airborne volatile organic compounds", what_it_does: "", examples: "dodder make use of this in locating their preferred hosts and locking on to them" },
+  threatened_plants: "Then able to take defensive chemical measures, such as moving tannin compounds to their foliage",
+  this_derision_arises_in_part_as_it: { definition: "Hard to abstract smell; it is difficult to describe an odor without reference to its source (e.g", what_it_does: "", examples: "the smells of holiday meals and chocolate chip cookies has been described as particularly evocative" },
+
 };
 
 // ============================================================
