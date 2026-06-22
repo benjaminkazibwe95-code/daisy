@@ -19819,6 +19819,12 @@ const FLAT_DICT = {
   the_first_expression: "Manifestly Lorentz invariant",
   the_new_coordinates: "R = x 2 + y 2 {\displaystyle r={\sqrt {x^{2}+y^{2}}}} and θ = arctan ⁡ ( y x ) − ω t",
 
+  // === INGESTED 2026-06-22 13:21 ===
+  the_array: { definition: "Funded by the National Science Foundation , and costs about $10 million a year to operate", what_it_does: "", examples: "low-noise electronics, digital computers , data storage units, and the antenna-pointing machinery" },
+  each_of_the_antennas: "About as tall as a ten-story building when the antenna is pointed straight up, and each antenna weighs about 218 metric tons (240 short tons )",
+  once_the_disc_drives: "Loaded with information, they are carried to the Pete V",
+  these_three_additional_sites: "Brought online for as much as 100 hours per four-month trimester",
+
 };
 
 // ============================================================
