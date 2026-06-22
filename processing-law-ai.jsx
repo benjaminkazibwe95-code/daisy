@@ -17439,6 +17439,25 @@ const FLAT_DICT = {
   use_of_these_chemicals: { definition: "Banned or severely restricted by the Montreal Protocol of August 1987", what_it_does: "", examples: "R-32 and R-410A are being promoted as environmentally friendly but still have a high GWP" },
   american_households: "Eligible for a tax credit to cover the costs of buying and installing a heat pump, up to $2,000",
 
+  // === INGESTED 2026-06-22 06:43 ===
+  school_of_art_in_bombay: "For many years used as the dean's residence",
+  kipling: "Enthusiastic in his response and shortly produced both, formally titled ' The Ritual of the Calling of an Engineer '",
+  by_then_it: "The practice for the Viceroy of India and government to move to Simla for six months, and the town became a 'centre of power as well as pleasure'",
+  the_collection_of_barrackroom_ballads: "Issued in March 1892, first published individually for the most part in 1890, and contained his poems ' Mandalay ' and ' Gunga Din '",
+  next_morning_there: { definition: "An answering signal from the swamp where the sumacs grow", what_it_does: "", examples: "humility, restraint, order, and forethought" },
+  in_his_view_it: "Only British rule that allowed Ireland to advance",
+  our_tyler: "An Indian Jew .' Kipling received not only the three degrees of Craft Masonry but also the side degrees of Mark Master Mason and Royal Ark Mariner",
+  thus_thousands_of_british_soldiers: "Paying with their lives for their failure in the fields of France and Belgium",
+  a_body_identified_as_his: "Found in 1992, although that identification has been challenged",
+  his_main_contributions_to_the_project: { definition: "His selection of the biblical phrase, ' Their Name Liveth For Evermore ' ( Sirach 44", what_it_does: "", examples: "The Day's Work , [ 112 ] was asked by a University of Toronto civil engineering professor, Herbert E" },
+  he_believed_labour: { definition: "A communist front organisation, and 'excited orders and instructions from Moscow' would expose Labour as such to the British people", what_it_does: "", examples: "Konstantin Simonov , were influenced by him" },
+  a_number_of_his_poems: { definition: "Set to music by Percy Grainger", what_it_does: "", examples: "his Barrack-Room Ballads , Eliot writes 'of a number of poets who have written great poetry, only" },
+  ninetenths_of_those_enlightened_persons: "Forgotten and Kipling is in some sense still there",
+  those_who_now_call_themselves_conservatives: "Either Liberals, Fascists or the accomplices of Fascists",
+  where_it: "A permanent and pensioned opposition, as in England, the quality of its thought deteriorates accordingly",
+  it_is_a_great_thing_in_his_favour_that_he: { definition: "Not witty, not 'daring', has no wish to épater les bourgeois", what_it_does: "", examples: "Wilde's epigrams or the collection of cracker-mottoes at the end of Man and Superman" },
+  the_campers: { definition: "Referred to as 'the Pack', from the youngest 'Cubs' to the oldest living in 'Den'", what_it_does: "", examples: "The Jungle Book , Something of Myself , Kim , and The Just So Stories , and poems, including 'If " },
+
 };
 
 // ============================================================
