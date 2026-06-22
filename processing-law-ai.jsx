@@ -21210,6 +21210,20 @@ const FLAT_DICT = {
   bound_ribosomes_usually_produce_proteins_that: "Used within the plasma membrane or are expelled from the cell via exocytosis",
   certain_ribosomal_proteins: { definition: "Absolutely critical for cellular life while others are not", what_it_does: "", examples: "acetylation, methylation, and phosphorylation" },
 
+  // === INGESTED 2026-06-22 17:27 ===
+  vancomycin: { definition: "First isolated in 1953 by a research team lead by chemist Edmund Kornfeld at Eli Lilly , from a soil sample provided by missionary William M", what_it_does: "", examples: "from manufacturers Bioniche Pharma, Baxter Healthcare , Sandoz , Akorn - Strides , and Hospira" },
+  immunoassays: "Commonly utilized for measuring vancomycin levels",
+  the_consensus: { definition: "That clearly related cases of vancomycin ototoxicity are rare", what_it_does: "", examples: "aminoglycosides" },
+  dose_optimization: "Achieved by therapeutic drug monitoring (TDM), which allows measurement of vancomycin levels in the blood",
+  the_form_present_in_the_drug: "The thermodynamically more stable conformer",
+  before_vancomycin: "Assembled through NRPS, the non-proteinogenic amino acids are first synthesized",
+  l_tyrosine: "Modified to become the β-hydroxytyrosine (β-HT) and 4-hydroxyphenylglycine (4-Hpg) residues",
+  the_three_peptide_syntheses: "At the start of the region of the bacterial genome linked with antibiotic biosynthesis, and span 27 kb",
+  ltyrosine: "Activated and loaded on the NRPS VpsD, hydroxylated by OxyD, and released by the thioesterase Vhp",
+  the_peptidoglycan_precursor: "Synthesized in the cytoplasm and then transported across the cytoplasmic membrane to the periplasmic space, where it is assembled into the cell wall",
+  the_assembly_process: { definition: "Two enzymatic activities: transglycosylation and transpeptidation", what_it_does: "", examples: "osmotic pressure, so that the bacteria cannot survive and are eliminated by the immune system" },
+  that_is_why_vancomycin: { definition: "Mainly used to treat infections caused by Gram-positive bacteria [ 17 ] (except some nongonococcal species of Neisseria )", what_it_does: "", examples: "vancomycin-intermediate S" },
+
 };
 
 // ============================================================
