@@ -20108,6 +20108,34 @@ const FLAT_DICT = {
   the_role_of_the_committee_of_papers: "Abolished in 1989 and since 1990 two Fellows (rather than the secretaries) have acted as the editors with assistance from associate editors",
   all_the_out_of_copyright_material: "Completely free to access without a login",
 
+  // === INGESTED 2026-06-22 14:23 ===
+  it_assumed_the_heavens: { definition: "Fixed apart from the motion of the spheres and was developed without any understanding of gravity", what_it_does: "", examples: "deferent and epicycles were added by Ptolemy" },
+  the_proportionality: "Seen by the fact that the ratio for Jupiter: [ 9 ] is practically equal to that for Venus, [ 10 ] in accord with the relationship",
+  idealised_orbits_meeting_these_rules: { definition: "Known as Kepler orbits", what_it_does: "", examples: "the perturbations due to other bodies, or the impact of spheroidal rather than spherical bodies" },
+  the_laws_of_motion: "As follows: [ 30 ] By the first law of motion, in the absence of gravity, a physical object will continue to move in a straight line due to inertia",
+  the_object: "Then said to be orbiting the body",
+  the_effects_of_air_friction_on_the_cannonball: "Ignored (or perhaps the mountain is high enough that the cannon is above the Earth's atmosphere, which is the same thing)",
+  if_the_cannonball: "Fired with sufficient speed, the ground curves away from the ball at least as much as the ball falls—so the ball never strikes the ground",
+  as_the_firing_speed: { definition: "Increased beyond this, non-interrupted elliptic orbits are produced; one is shown in (D)", what_it_does: "", examples: "a star, [ 37 ] or a high level of accuracy is needed" },
+  the_acceleration_of_a_body: "Equal to the combination of the forces acting on it, divided by its mass",
+  the_gravitational_force_acting_on_a_body: "Proportional to the product of the masses of the two attracting bodies and decreases inversely with the square of the distance between them",
+  for_the_case_where_the_masses_of_two_bodies: "Comparable, an exact Newtonian solution is still sufficient, and can be had by placing the coordinate system at the center of the mass of the system",
+  which_it: "Depends on the total energy ( kinetic + potential energy ) of the system",
+  a_circular_orbit: "A special case, wherein the foci of the ellipse coincide",
+  this_motion: "Described by the empirical laws of Kepler, which can be mathematically derived from Newton's laws",
+  the_twobody_solutions: "Published by Newton in Principia in 1687",
+  the_assumption_is_that_the_central_body: "Massive enough that it can be considered to be stationary and so the more subtle effects of general relativity can be ignored",
+  the_timeaveraged_orbital_distance: "Given by: [ 61 ] which only equals a when e is zero, for a circular orbit",
+  an_orbital_perturbation: "When a force or impulse causes an acceleration that changes the parameters of the orbit over time",
+  this_perturbation: { definition: "Much smaller than the overall force or average impulse of the main gravitating body", what_it_does: "", examples: "and the drag is negligible for Mercury" },
+  solar_sails_or_magnetic_sails: "Forms of propulsion that require no propellant or energy input other than that of the Sun, and so can be used indefinitely for station keeping",
+  the_orbital_energy: "Converted to heat in the wire",
+  the_gravity_of_the_bulges: { definition: "Slightly off of the primary-satellite axis and thus has a component along the direction of the satellite's motion", what_it_does: "", examples: "compact objects that are orbiting each other closely" },
+  one_method: "To take the pure elliptic motion as a basis and add perturbation terms to account for the gravitational influence of multiple bodies",
+  the_perturbation_terms: { definition: "Much easier to describe in this form", what_it_does: "", examples: "a planar figure-eight orbit occupied by three moving bodies" },
+  hence_velocities: "The same and orbital periods are halved",
+  if_densities: "Multiplied by 4, times are halved; if velocities are doubled, forces are multiplied by 16",
+
 };
 
 // ============================================================
