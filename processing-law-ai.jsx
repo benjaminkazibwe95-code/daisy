@@ -19240,6 +19240,31 @@ const FLAT_DICT = {
   when_the_second_form_of_the_recurrence: { definition: "Used, the value converges to 15 digits of precision", what_it_does: "", examples: "common subexpression elimination and auto- vectorization" },
   one_interpretation_of_the_issue: "That 'fast' math as implemented currently has a poorly defined semantics",
 
+  // === INGESTED 2026-06-22 11:43 ===
+  an_experiment: "A procedure carried out to support or refute a hypothesis , or determine the efficacy or likelihood of something previously untried",
+  scientific_controls: "A part of the scientific method",
+  if_an_experiment: "Carefully conducted, the results usually either support or disprove the hypothesis",
+  confounding: { definition: "Commonly eliminated through scientific controls and/or, in randomized experiments , through random assignment", what_it_does: "", examples: "agricultural research frequently uses randomized experiments (e.g" },
+  the_results_of_the_two_regimens: "Compared, and the steward is instructed to act based on the observable outcome",
+  vanderkam_likewise: { definition: "The episode as presenting 'a rudimentary experimental design' contrasting two diets under controlled circumstances", what_it_does: "", examples: "combustion and biochemistry and to develop the theory of conservation of mass (matter)" },
+  the_independent_variable: "Manipulated by the experimenter, and the dependent variable is measured",
+  in_many_laboratory_experiments_it: "Good practice to have several replicate samples for the test being performed and have both a positive control and a negative control",
+  a_positive_control: "A procedure similar to the actual experimental test but is known from previous experience to give a positive result",
+  a_negative_control: { definition: "Known to give a negative result", what_it_does: "demonstrates the base-line result obtained when a test does not produce a measurable positive result", examples: "" },
+  most_often_the_value_of_the_negative_control: "Treated as a 'background' value to subtract from the test sample results",
+  an_example_that: "Often used in teaching laboratories is a controlled protein assay",
+  this_equivalency: { definition: "Determined by statistical methods that take into account the amount of variation between individuals and the number of individuals in each group", what_it_does: "", examples: "the placebo effect" },
+  this_ensures_that_any_effects_on_the_volunteer: "Due to the treatment itself and are not a response to the knowledge that he is being treated",
+  the_goal_of_the_experiment: { definition: "To measure the response to the stimulus by a test method", what_it_does: "", examples: "the ratio of water to flour, and with qualitative variables, such as strains of yeast" },
+  experimentation: "The step in the scientific method that helps people decide between two or more competing explanations—or hypotheses",
+  the_null_hypothesis_is_that_there: "No explanation or predictive power of the phenomenon through the reasoning that is being investigated",
+  once_hypotheses: "Defined, an experiment can be carried out and the results analysed to confirm, refute, or define the accuracy of the hypotheses",
+  the_degree_to_which_this: "Possible depends on the observed correlation between explanatory variables in the observed data",
+  when_these_variables: "Not well correlated, natural experiments can approach the power of controlled experiments",
+  an_early_example_of_this_type_of_experiment: { definition: "The first verification in the 17th century that light does not travel from place to place instantaneously, but instead has a measurable speed", what_it_does: "", examples: "voter turnout in an election) cannot be easily studied in a laboratory" },
+  it_can_also_be_used_when_confounding_factors: { definition: "Either limited or known well enough to analyze the data in light of them (though this may be rare when social phenomena are under examination)", what_it_does: "", examples: "in biological or social systems) often involve variables that are difficult to quantify or control" },
+  observational_studies: { definition: "Limited because they lack the statistical properties of randomized experiments", what_it_does: "", examples: "balancing benefit and harm, fairly distributing interventions (e.g" },
+
 };
 
 // ============================================================
