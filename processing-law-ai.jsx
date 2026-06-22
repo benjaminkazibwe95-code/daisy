@@ -22592,6 +22592,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 21:14 ===
   tonic_in_physiology: "A physiological response which is slow and may be graded",
 
+  // === INGESTED 2026-06-22 21:16 ===
+  the_part_of_the_soma_without_the_nucleus: "Called the perikaryon ( pl",
+  the_survival_factors: "Neurotrophic factors , including molecules such as nerve growth factor (NGF)",
+
 };
 
 // ============================================================
