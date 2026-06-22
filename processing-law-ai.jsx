@@ -23073,6 +23073,10 @@ const FLAT_DICT = {
   luol_deng: "A National Basketball Association star in the United States; at the international level, he represented Great Britain",
   no_medals: "Won during this Olympics",
 
+  // === INGESTED 2026-06-22 22:52 ===
+  this_fish: { definition: "Found widely in fresh and brackish waters in the northern half of Africa and the Middle East", what_it_does: "", examples: "Lake Tiberias (Kinneret), in Israel , Jordan and Syria , as well as coastal systems in Israel" },
+  breeding_adults: "More greenish overall, have iridescent blue-green spots on the head and bright pinkish-red underparts",
+
 };
 
 // ============================================================
