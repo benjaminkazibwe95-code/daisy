@@ -19659,6 +19659,21 @@ const FLAT_DICT = {
   such_organisms: { definition: "Formed clonally or from a single germ cell that is capable of forming the various specialised cells that form the adult organism", what_it_does: "", examples: "SETI are trying to detect radio transmissions from possible alien civilisations" },
   the_common_goal: "The design and construction of new biological functions and systems not found in nature",
 
+  // === INGESTED 2026-06-22 12:54 ===
+  a_star_cluster: "A group of stars , that share an origin [ 1 ] , formed at roughly the same time and held together by self-gravitation",
+  star_clusters_within_the_milky_way_that: "Visible to the naked eye, include the Pleiades and Hyades open clusters, and the globular cluster 47 Tucanae",
+  open_clusters: { definition: "Confined to the galactic plane , and are almost always found within spiral arms", what_it_does: "", examples: "Messier 67 (the closest and most observed old open cluster) for example" },
+  the_most_prominent_open_clusters: "The Pleiades and Hyades in Taurus",
+  cepheids: { definition: "Luminous and can be used to establish both the distances to remote galaxies and the expansion rate of the Universe ( Hubble constant )", what_it_does: "", examples: "protostars and pre-main-sequence stars" },
+  an_example_of_an_embedded_cluster: { definition: "The Trapezium Cluster in the Orion Nebula", what_it_does: "", examples: "the Sun , [ 9 ] were originally born into embedded clusters that disintegrated" },
+  some_galaxies: "Much richer in globulars than the Milky Way: The giant elliptical galaxy M87 contains over a thousand",
+  a_few_of_the_brightest_globular_clusters: "Visible to the naked eye ; the brightest, Omega Centauri , was observed in antiquity and catalogued as a star, before the telescopic age",
+  super_star_clusters: { definition: "Very large regions of recent star formation, and are thought to be the precursors of globular clusters", what_it_does: "", examples: "Westerlund 1 in the Milky Way" },
+  the_three_discovered_in_andromeda_galaxy: "M31WFS C1 [ 12 ] M31WFS C2 , and M31WFS C3",
+  the_reason_behind_this: { definition: "That almost all the stars in old clusters were born at roughly the same time", what_it_does: "", examples: "age, mass, chemical compositions may also play vital roles" },
+  clusters: "Also a crucial step in determining the distance scale of the universe",
+  a_few_of_the_nearest_clusters: "Close enough for their distances to be measured using parallax",
+
 };
 
 // ============================================================
