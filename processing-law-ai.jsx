@@ -15641,6 +15641,9 @@ const FLAT_DICT = {
   such_combined_systems: { definition: "Known as electromechanical systems and have widespread adoption", what_it_does: "", examples: "work experience requirements) before being certified" },
   the_workplaces_of_engineers: { definition: "Just as varied as the types of work they do", what_it_does: "", examples: "scientists, electricians , computer programmers , and other engineers" },
 
+  // === INGESTED 2026-06-22 01:53 ===
+  the_seed_for_the_book: "Planted by IBM's then-CEO Thomas J",
+
 };
 
 // ============================================================
