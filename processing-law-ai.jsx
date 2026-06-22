@@ -22616,6 +22616,32 @@ const FLAT_DICT = {
   slow_wave_propagation: "Also recorded by inserting two electrodes into two ends of a piece of mouse brain taken from a freshly killed mouse",
   the_tissue: "Then cut between the two electrode positions, severing any possible link by neurons or gap junctions between the two electrodes",
 
+  // === INGESTED 2026-06-22 21:26 ===
+  about_one_in_a_thousand_individuals: "Male and the rest are hermaphrodites",
+  when_a_wave_of_contractions: "Initiated at the front and proceeds posteriorly along the body, the animal is propelled forwards",
+  neutral_lipids: { definition: "Instead stored in the intestine, epidermis, and embryos", what_it_does: "", examples: "interneurons use a variety of neurotransmitters to control behaviors" },
+  these_gut_granules: "Found in all of the Rhabditida orders",
+  a_particular_feature_of_the_granules: "That when they are observed under ultraviolet light , they react by emitting an intense blue fluorescence",
+  another_phenomenon_seen: "Termed 'death fluorescence'",
+  one_possibility_is_that_the_aa: "Antibacterial and used in defense against invading pathogens",
+  males: "Produced through non-disjunction of the X chromosomes during meiosis",
+  elegans_embryogenesis: "Among the best understood examples of asymmetric cell division",
+  this_pheromone: "Composed of similar derivatives of the 3,6-dideoxy sugar, ascarylose",
+  dauer_larvae: "Stress-resistant; they are thin and their mouths are sealed with a characteristic dauer cuticle and cannot take in food",
+  transitions_through_these_stages: { definition: "Controlled by genes of the heterochronic pathway, an evolutionarily conserved set of regulatory factors", what_it_does: "", examples: "iron siderophores), so that they can migrate towards their bacterial prey" },
+  most_laboratory_strains: { definition: "Taken from artificial environments such as gardens and compost piles", what_it_does: "", examples: "Cryptococcus laurentii and C" },
+  wild_isolates_of_caenorhabditis_elegans: { definition: "Regularly found with infections by Microsporidia fungi", what_it_does: "", examples: "chemotaxis , thermotaxis , mechanotransduction , learning , memory , and mating behaviour" },
+  strains: "Cheap to breed and can be frozen",
+  elegans_made_news_when_specimens: "Discovered to have survived the Space Shuttle Columbia disaster in February 2003",
+  the_research: "Primarily about genetic basis of muscle atrophy , which relates to spaceflight or being bed-ridden, geriatric , or diabetic",
+  the_sequence: { definition: "Published in 1998, [ 136 ] although some small gaps were present; the last gap was finished by October 2002", what_it_does: "", examples: "Wilson et al" },
+  elegans_genome: "About 100 million base pairs long and consists of six pairs of chromosomes in hermaphrodites or five pairs of autosomes with XO chromosome in male C",
+  its_gene_density: "About one gene per five kilo-base pairs",
+  many_genes: "Arranged in clusters and how many of these are operons is unclear",
+  many_more_organisms: "Likely to be shown to have these operons",
+  most_changes: { definition: "Minor, adding or removing only a few base pairs of DNA", what_it_does: "", examples: "the WS202 release of WormBase (April 2009) added two base pairs to the genome sequence" },
+  briggsae: "Also determined, allowing researchers to study the comparative genomics of these two organisms",
+
 };
 
 // ============================================================
