@@ -20974,6 +20974,19 @@ const FLAT_DICT = {
   this_drug: "Used as a treatment for cancer, but scientific studies both before and after this legislative trend found it ineffective",
   the_risk_minimization_action_plans: { definition: "Set in place depending on the overall level of risk a prescription drug is likely to pose to the public", what_it_does: "", examples: "size, weight, etc" },
 
+  // === INGESTED 2026-06-22 16:51 ===
+  acip_statements: "Official federal recommendations for using vaccines and immune globulins in the U.S",
+  the_acip: "Governed by a charter which has gone through a number of revisions over the years: Regularly scheduled ACIP meetings are held three times a year",
+  eligible_voters: "Those members who do not have a conflict of interest",
+  the_minutes_of_each_meeting: "Available on the CDC website within 90 days of the conference",
+  each_piece_of_evidence: "Judged as very low, low, moderate, or high quality",
+  category_b_recommendations: "Made for individual clinical decision-making between the patient and physician",
+  these_votes: "Codified as VFC resolutions",
+  the_newly_appointed_members: "Seen as strong immunization supporters",
+  the_vaccines: "Licensed to be administered to persons 10 to 25 years of age",
+  the_preferred_age_for_menb_vaccination: "16 through 18 years of age",
+  one_of_the_critics: { definition: "ACIP member Cody Meissner: 'I will just say: we have heard that do no harm is a moral imperative", what_it_does: "", examples: "missing signatures—rather than actual financial ties" },
+
 };
 
 // ============================================================
