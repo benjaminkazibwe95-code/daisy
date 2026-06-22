@@ -21978,6 +21978,9 @@ const FLAT_DICT = {
   when_a_clutch: { definition: "Attacked at six days of age, the entire clutch hatched at the same time, almost instantaneously", what_it_does: "", examples: "precipitation, are better predictors of phenotypic plasticity than latitude alone" },
   temporal_plasticity: { definition: "Considered adaptive if the phenotypic response results in increased fitness", what_it_does: "", examples: "plants that depend on the environmental condition(s) each metamer was developed under" },
 
+  // === INGESTED 2026-06-22 19:44 ===
+  fundamental_to_the_study_of_management: "Organizational change",
+
 };
 
 // ============================================================
