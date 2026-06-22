@@ -18262,6 +18262,16 @@ const FLAT_DICT = {
   the_relationship: "Dependent on the crystal structure",
   the_ising_model: { definition: "Invented by Wilhelm Lenz in 1920 and solved for the one-dimensional case by his doctoral student Ernst Ising in 1925", what_it_does: "", examples: "a net magnetic moment of 0" },
 
+  // === INGESTED 2026-06-22 08:41 ===
+  john_dalton: "Born on 5 or 6 September 1766 into a Quaker family in Eaglesfield , near Cockermouth , in Cumberland , England",
+  as_both_he_and_his_brother: "Colour blind , he recognised that the condition must be hereditary",
+  while_his_name: "Inseparably associated with this theory, the origin of Dalton's atomic theory is not fully understood",
+  bryan_believed_that_an_atom: "A heavy central particle surrounded by an atmosphere of caloric , the supposed substance of heat at the time",
+  the_size_of_the_atom: "Determined by the diameter of the caloric atmosphere",
+  the_first_published_indications_of_this_idea: "To be found at the end of his paper 'On the Absorption of Gases by Water and other Liquids' [ 16 ] already mentioned",
+  but_this_or_some_other_such_rule: "Absolutely necessary to any incipient theory, since one needed an assumed molecular formula in order to calculate relative atomic weights",
+  dalton: "Accorded a civic funeral with full honours",
+
 };
 
 // ============================================================
