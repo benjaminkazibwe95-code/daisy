@@ -15219,6 +15219,15 @@ const FLAT_DICT = {
   as_the_intermediate_representation: "Constructed giving the same probability to individuals inside or outside the protected group, this attribute is hidden to the classifier",
   the_main_measures_used_in_this_approach: "False positive rate, false negative rate, and overall misclassification rate",
 
+  // === INGESTED 2026-06-22 00:41 ===
+  model_selection: "The task of selecting a model from among various candidates on the basis of performance criterion to choose the best one",
+  often_simple_models_such_as_polynomials: { definition: "Used, at least initially [ citation needed ]", what_it_does: "", examples: "understanding of the phenomenological processes or mechanisms (e.g" },
+  the_complexity: { definition: "Generally measured by counting the number of parameters in the model", what_it_does: "", examples: "the probability of the model producing the given data" },
+  the_bias_and_variance: "Both important measures of the quality of this estimator; efficiency is also often considered",
+  a_standard_example_of_model_selection: "That of curve fitting , where, given a set of points and other background knowledge (e.g",
+  another_objective_of_learning_from_data: "For predicting future or unseen observations, also called Statistical Prediction",
+  the_second_direction: "To choose a model as machinery to offer excellent predictive performance",
+
 };
 
 // ============================================================
