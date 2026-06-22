@@ -16143,6 +16143,21 @@ const FLAT_DICT = {
   anatomy_and_cell_biology_are_two_studies_that: "Closely related, and can be categorized under 'structural' studies",
   comparative_anatomy: { definition: "The study of similarities and differences in the anatomy of different groups", what_it_does: "", examples: "what is learned about the physiology of yeast cells can also apply to human cells" },
 
+  // === INGESTED 2026-06-22 03:24 ===
+  issns: "Used in ordering, cataloging, interlibrary loans, and other practices in connection with serial literature",
+  when_a_serial_with_the_same_content: { definition: "Published in more than one media type , a different ISSN is assigned to each media type", what_it_does: "", examples: "many serials are published both in print and electronic media" },
+  the_issn_system: "These types as print ISSN ( p-ISSN ) and electronic ISSN ( e-ISSN )",
+  if_the_result: "Less than 10, it yields the check digit: 11 − 6 = 5",
+  the_international_centre: "An intergovernmental organization created in 1974 through an agreement between UNESCO and the French government",
+  issnl: "A unique identifier for all versions of the serial containing the same content across different media",
+  with_issnl: "Possible to designate one single ISSN for all those media versions of the title",
+  issn_and_isbn_codes: "Similar in concept, where ISBNs are assigned to individual books",
+  for_this_reason_a_new_issn: "Assigned to a serial each time it undergoes a major title change",
+  separate_issns: { definition: "Needed for serials in different media (except reproduction microforms )", what_it_does: "", examples: "Rail could be referred to as ' urn:ISSN:0953-4563 '" },
+  urn_namespaces: { definition: "Case-sensitive, and the ISSN namespace is all caps", what_it_does: "", examples: "in particular, search systems and knowledge databases" },
+  pissn: "A standard label for 'Print ISSN', the ISSN for the print media (paper) version of a serial",
+  usually_it: "The 'default media' and so the 'default ISSN'",
+
 };
 
 // ============================================================
