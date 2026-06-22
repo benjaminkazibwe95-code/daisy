@@ -15193,6 +15193,16 @@ const FLAT_DICT = {
   the_bot: { definition: "Created by Microsoft's Technology and Research and Bing divisions, [ 3 ] and named 'Tay' as an acronym for 'thinking about you'", what_it_does: "", examples: "Eric Garner (killed by New York police in 2014) generate safe, canned answers'" },
   all_genders: "Equal and should be treated fairly.' [ 12 ] From the same evidence, Gizmodo concurred that Tay 'seems hard-wired to reject Gamer Gate'",
 
+  // === INGESTED 2026-06-22 00:33 ===
+  the_term_agent: { definition: "Derived from the Latin agere (to do): an agreement to act on one's behalf", what_it_does: "", examples: "a chatbot executing on a computer , such as a mobile device , e.g" },
+  these_consequences: "What agent researchers and users must consider when dealing with intelligent agent technologies",
+  the_range_of_agent_types: { definition: "Now (from 1990) broad: WWW, search engines, etc", what_it_does: "", examples: "CDs, books, electronic components, and other one-size-fits-all products" },
+  buyer_agents: { definition: "Typically optimized to allow for digital payment services used in e-commerce and traditional businesses", what_it_does: "", examples: "ways to increase sales or keep customers who are considering defecting" },
+  software_bots: "Becoming important in software engineering",
+  the_content_that_is_retrieved_in_this_way: { definition: "Probably already partially filtered – by the selection of the newsfeed or the databases that are searched", what_it_does: "combines the event content with the rule-based or knowledge content provided by the user", examples: "to notify the user that an important event has occurred" },
+  this_action: "Verified by a security function and then given the authority of the user",
+  if_the_user_confirms_that_the_event: "Important by acting quickly on the notification, the agent may also employ its learning machinery to increase its weighting for this kind of event",
+
 };
 
 // ============================================================
