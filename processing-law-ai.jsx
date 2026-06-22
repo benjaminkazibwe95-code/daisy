@@ -22274,6 +22274,18 @@ const FLAT_DICT = {
   the_evolution_rule_of_the_dynamical_system: "A fixed rule that describes what future states follow from the current state",
   the_rule: { definition: "Deterministic : for a given time interval only one future state follows from the current state", what_it_does: "", examples: "Master of Public Administration ) or a doctoral degree (e.g" },
 
+  // === INGESTED 2026-06-22 20:24 ===
+  kandel: "Known for the textbooks he has helped write, such as Principles of Neural Science",
+  at_that_time_kolomyya: "Part of Austria-Hungary",
+  by_graduation_he: "Firmly interested in the biological basis of the mind",
+  the_researchers_kandel_interacted_with: { definition: "Contemplating the technical challenges of intracellular recordings of the electrical activity of the relatively small neurons of the vertebrate brain", what_it_does: "", examples: "a form of presynaptic potentiation that seemed to correspond to a simple form of learning" },
+  by_this_time_it: "Known that long-term memory, unlike short-term memory, involved the synthesis of new proteins",
+  one_of_the_nuclear_targets_for_pka: "The transcriptional control protein CREB (cAMP response element binding protein)",
+  one_result_of_creb_activation: "An increase in the number of synaptic connections",
+  one_article: "The role of Hebbian learning in the Aplysia siphon-withdrawal reflex",
+  he_also_said_it: "'certainly not an Austrian Nobel, it was a Jewish-American Nobel'",
+  the_street: "Renamed in 2012 into Universitätsring",
+
 };
 
 // ============================================================
