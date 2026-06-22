@@ -16938,6 +16938,20 @@ const FLAT_DICT = {
   the_small_world_attribute: "The many loosely connected nodes, non-random dense clustering of a few nodes (i.e",
   these_regions_of_high_link_density: { definition: "Often referred to as cliques, hubs, compartments, cohesive sub-groups, or modules", what_it_does: "", examples: "organisms and mineral nutrients, cross the thresholds of ecosystem boundaries" },
 
+  // === INGESTED 2026-06-22 05:35 ===
+  the_political_and_theological_implications: "Intensely debated, but transmutation was not accepted by the scientific mainstream",
+  wernerians_thought_strata: "Deposits from shrinking seas , but James Hutton proposed a self-maintaining infinite cycle, anticipating uniformitarianism",
+  while_few_naturalists: "Willing to consider transmutation, Herbert Spencer became an active proponent of Lamarckism and progressive development in the 1850s",
+  while_he: "Researching, he told many people about his interest in transmutation without causing outrage",
+  darwin: { definition: "Cautious about such histories, and had already noted that von Baer's laws of embryology supported his idea of complex branching", what_it_does: "", examples: "the Lamarckian ideas of Spencer and Haeckel, as they were by Darwin's work" },
+  the_species_found_in_one_area_of_a_continent: "More closely allied with species found in other regions of that same continent than to species found on other continents",
+  his_explanation: { definition: "A combination of migration and descent with modification", what_it_does: "", examples: "flightless birds or reptiles" },
+  quammen_advised_that_later_editions: { definition: "Weakened by Darwin making concessions and adding details to address his critics, and recommended the first edition", what_it_does: "", examples: "inheritance of acquired characters were possible" },
+  ernst_haeckel: "Particularly ardent, aiming to synthesise Darwin's ideas with those of Lamarck and Goethe while still reflecting the spirit of Naturphilosophie",
+  the_issues_raised_were_complex_and_there: "A large middle ground",
+  george_jackson_mivart: { definition: "Among those accepting evolution but attacking Darwin's naturalistic mechanism", what_it_does: "", examples: "neo-Lamarckism were favoured over natural selection as being more compatible with purpose" },
+  the_full_significance_of_natural_selection: { definition: "At last accepted in the 1930s and 1940s as part of the modern evolutionary synthesis", what_it_does: "", examples: "medicine and agriculture" },
+
 };
 
 // ============================================================
