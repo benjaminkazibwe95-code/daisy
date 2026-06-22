@@ -15484,6 +15484,19 @@ const FLAT_DICT = {
   machine_learning_algorithms: "Not flexible and require high-quality sample data that is manually labeled on a large scale",
   the_neural_chip: { definition: "Only borrowing the most basic unit of brain information processing", what_it_does: "", examples: "nanometers, thus supporting the construction of more complex brain-inspired computing architectures" },
 
+  // === INGESTED 2026-06-22 01:26 ===
+  as_nonlinear_dynamical_equations: { definition: "Difficult to solve, nonlinear systems are commonly approximated by linear equations ( linearization )", what_it_does: "", examples: "solitons , chaos , [ 9 ] and singularities are hidden by linearization" },
+  this_nonlinearity: "One of the reasons why accurate long-term forecasts are impossible with current technology",
+  this_term: { definition: "Disputed by others: Using a term like nonlinear science is like referring to the bulk of zoology as the study of non-elephant animals", what_it_does: "", examples: "an antilinear map is additive but not homogeneous" },
+  the_equation: { definition: "Called homogeneous if C = 0 {\displaystyle C=0} and f ( x ) {\displaystyle f(x)} is a homogeneous function", what_it_does: "", examples: "integration or differentiation with associated constraints (such as boundary values )" },
+  in_the_case_where_f: { definition: "A polynomial , one has a polynomial equation such as x 2 + x − 1 = 0", what_it_does: "", examples: "Gröbner base algorithms" },
+  examples_of_nonlinear_recurrence_relations: "The logistic map and the relations that define the various Hofstadter sequences",
+  a_system_of_differential_equations: "Said to be nonlinear if it is not a system of linear equations",
+  examples_of_nonlinear_differential_equations: "The Navier–Stokes equations in fluid dynamics and the Lotka–Volterra equations in biology",
+  first_order_ordinary_differential_equations: "Often exactly solvable by separation of variables , especially for autonomous equations",
+  another_way_to_approach_the_problem: "To linearize any nonlinearity (the sine function term in this case) at the various points of interest through Taylor expansions",
+  one_more_interesting_linearization: "Possible around θ = π / 2 {\displaystyle \theta =\pi /2} , around which sin ⁡ ( θ ) ≈ 1 {\displaystyle \sin(\theta )\approx 1} : d 2 θ d t 2 + 1 = 0",
+
 };
 
 // ============================================================
