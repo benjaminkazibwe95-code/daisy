@@ -17711,6 +17711,11 @@ const FLAT_DICT = {
   in_the_same_graduating_class: "Sheldon Glashow , [ 12 ] whose research, independent of Weinberg's, resulted in their sharing the 1979 Nobel in physics with Abdus Salam",
   one_of_its_fundamental_aspects: { definition: "The prediction of the existence of the Higgs boson", what_it_does: "", examples: "his own in his 1967 paper) that a sensible quantum field theory must be renormalizable" },
 
+  // === INGESTED 2026-06-22 07:20 ===
+  if_the_barrier: "Much wider than this decay length, the left and right part are virtually independent and tunneling as a consequence is suppressed",
+  often_the_surfaces_of_such_materials: "Covered with oxide layers or are not ideal for other reasons",
+  the_above_model: "One-dimensional, while space is three-dimensional",
+
 };
 
 // ============================================================
