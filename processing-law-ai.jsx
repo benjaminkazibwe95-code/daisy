@@ -19599,6 +19599,26 @@ const FLAT_DICT = {
   the_concept_probe: { definition: "Called Titan Lake In-situ Sampling Propelled Explorer (TALISE)", what_it_does: "", examples: "methane or ethane, [ 157 ] although water is a stronger solvent than methane" },
   this_hypothetical_cell_membrane: "Termed an ' azotosome ', a combination of 'azote', French for nitrogen, and ' liposome '",
 
+  // === INGESTED 2026-06-22 12:46 ===
+  the_first_trigonometric_table: { definition: "Apparently compiled by Hipparchus, who is consequently now known as 'the father of trigonometry'", what_it_does: "", examples: "the Surya Siddhanta" },
+  the_stereographic_projection: { definition: "Ambiguously attributed to Hipparchus by Synesius (c", what_it_does: "", examples: "the rising and setting points of the ecliptic , or to take account of the lunar parallax" },
+  hipparchus: "Conjectured to have ranked the apparent magnitudes of stars on a numerical scale from 1, the brightest, to 6, the faintest",
+  ptolemy: "The details in the Almagest IV.11",
+  aristarchus_of_samos: "Said to have done so in 280 BC, and Hipparchus also had an observation by Archimedes",
+  ptolemy_claims_his_solar_observations: { definition: "On a transit instrument set in the meridian", what_it_does: "", examples: "earth spin acceleration), in his time of approximately 365" },
+  another_value_for_the_sidereal_year_that: "Attributed to Hipparchus (by the physician Galen in the second century AD) is 365 + ⁠ 1 / 4 ⁠ + ⁠ 1 / 288 ⁠ days (= 365.25347",
+  alexandria_and_nicaea: "On the same meridian",
+  alexandria: "At about 31° North, and the region of the Hellespont about 40° North",
+  his_results: { definition: "The best so far: the actual mean distance of the Moon is 60.3 Earth radii, within his limits from Hipparchus's second book", what_it_does: "", examples: "the gnomon , the astrolabe , and the armillary sphere" },
+  with_an_astrolabe_hipparchus: "The first to be able to measure the geographical latitude and time by observing fixed stars",
+  his_approach_would_give_accurate_results_if_it: "Correctly carried out but the limitations of timekeeping accuracy in his era made this method impractical",
+  it_is_not_certain_that_the_figure: "Meant to represent him",
+  this_passage_reports_that_it: "Unknown what instrument he used",
+  the_armillary_sphere: "Probably invented only later—maybe by Ptolemy 265 years after Hipparchus",
+  this_claim: "Highly exaggerated because it applies modern standards of citation to an ancient author",
+  the_globe: "Virtually reconstructed by a historian of science",
+  hipparchus_concluded_that_the_equinoxes: "Moving ('precessing') through the zodiac, and that the rate of precession was not less than 1° in a century",
+
 };
 
 // ============================================================
