@@ -18044,6 +18044,21 @@ const FLAT_DICT = {
   the_global_chromium_market: "Currently dominated by the United States and China",
   most_of_these_commodities: "Also dominated by one or two major suppliers with >60% of the world's reserves",
 
+  // === INGESTED 2026-06-22 08:12 ===
+  the_n_th_ionization_energy: "The amount of energy required to remove the most loosely bound electron from the species having a positive charge of ( n − 1)",
+  the_measurement: "Performed in the gas phase on single atoms",
+  monatomic_vapor: "Contained in a previously evacuated tube that has two parallel electrodes connected to a voltage source",
+  the_ionizing_excitation: "Introduced through the walls of the tube or produced within",
+  when_ultraviolet_light: "Used, the wavelength is swept down the ultraviolet range",
+  when_highvelocity_electrons: "Used to ionize the atoms, they are produced by an electron gun inside a similar evacuated tube",
+  some_values_for_elements_of_the_third_period: "Given in the following table: Large jumps in the successive molar ionization energies occur when passing noble gas configurations",
+  ionization_energy: { definition: "Also a periodic trend within the periodic table", what_it_does: "", examples: "aluminium and sulfur in the table above" },
+  calculating_these_energies_exactly: "Not possible except for the simplest systems (i.e",
+  this_has_become_a_wellstudied_problem_and: "Routinely done in computational chemistry",
+  this_transition: "Referred to as the 'vertical' ionization energy since it is represented by a completely vertical line on a potential energy diagram (see Figure)",
+  the_adiabatic_ionization: "The diagonal transition to the vibrational ground state of the ion",
+  the_ionization_energy: "The lowest binding energy for a particular atom (although these are not all shown in the graph)",
+
 };
 
 // ============================================================
