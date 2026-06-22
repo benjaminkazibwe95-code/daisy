@@ -19908,6 +19908,20 @@ const FLAT_DICT = {
   additionally_he: "Conferred the Astronomical Society of the Pacific's 2007 Richard H",
   my_philosophy_is_to_show_students_that_science: "Engaging, human, and part of our cultural heritage.' [ 30 ] In 2013 Fraknoi received the Faraday Science Communicator Award",
 
+  // === INGESTED 2026-06-22 13:50 ===
+  lemma: "Intended to replace the concept of equant as well",
+  the_great_astronomer_abd_alrahman_alsufi: "Patronised by prince 'Adud al-Dawla , who systematically revised Ptolemy's catalogue of stars",
+  the_most_influential_observatory: "However founded by Hulegu Khan during the 13th century",
+  the_observatory: { definition: "Short-lived however, as opponents of the observatory and prognostication from the heavens prevailed and the observatory was destroyed in 1580", what_it_does: "", examples: "adding new scales or details" },
+  celestial_globes: "Used primarily for solving problems in celestial astronomy",
+  in_this_context_there: "Also an Islamic development, the spherical astrolabe, of which only one complete instrument, from the 14th century, has survived",
+  brass_astrolabes: "An invention of late antiquity",
+  the_earliest_known_example: "Dated to 927/8 (AH 315)",
+  sundials: "Frequently placed on mosques to determine the time of prayer",
+  one_of_the_most_striking_examples: { definition: "Built in the 14th century by the muwaqqit (timekeeper) of the Umayyad Mosque in Damascus, ibn al-Shatir", what_it_does: "", examples: "the mural quadrant, for recording the angles of planets and celestial bodies" },
+  planetary_equatoria: { definition: "Probably made by ancient Greeks, although no findings nor descriptions have been preserved from that period", what_it_does: "", examples: "one example now at the Metropolitan Museum of Art" },
+  some_of_the_below: "From Hill (1993), Islamic Science And Engineering'",
+
 };
 
 // ============================================================
