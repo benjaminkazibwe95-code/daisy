@@ -23019,6 +23019,10 @@ const FLAT_DICT = {
   three_franchises: "Also based out of Hong Kong , which prior to the COVID-19 pandemic regularly played mainland teams",
   the_indoor_football_league: { definition: "An example of a prominent indoor league", what_it_does: "", examples: "flag football" },
 
+  // === INGESTED 2026-06-22 22:43 ===
+  clarias: "A genus of catfishes ( order Siluriformes ) of the family Clariidae, the airbreathing catfishes",
+  clarias_species: "Recognized by their long-based dorsal and anal fins , which give them a rather eel -like appearance",
+
 };
 
 // ============================================================
