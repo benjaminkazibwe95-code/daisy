@@ -22974,6 +22974,12 @@ const FLAT_DICT = {
   musisi: { definition: "A lawyer, advocate of the High Court of Uganda and seasoned administrator with a strong legal, administrative and leadership background", what_it_does: "", examples: "the George Washington University, Harvard Business School and Harvard Law School" },
   one_of_her_key_achievements: { definition: "The recovery of the 8-acre piece of land on which the URA headquarters stands today", what_it_does: "", examples: "taxes accruing from oil exploration activities" },
 
+  // === INGESTED 2026-06-22 22:37 ===
+  world_athletics_cross_country_championships: "The most important competition in international cross country running",
+  scoring: "Done for individuals and for national teams",
+  these_african_nations: "Not as dominant in the short races, but they have won every women's junior race since its introduction in 1989",
+  tirunesh_dibaba: "Also once the junior women's champion",
+
 };
 
 // ============================================================
