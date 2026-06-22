@@ -16158,6 +16158,9 @@ const FLAT_DICT = {
   pissn: "A standard label for 'Print ISSN', the ISSN for the print media (paper) version of a serial",
   usually_it: "The 'default media' and so the 'default ISSN'",
 
+  // === INGESTED 2026-06-22 03:28 ===
+  sapp: "Born in Halifax, Nova Scotia",
+
 };
 
 // ============================================================
