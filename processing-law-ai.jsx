@@ -18431,6 +18431,12 @@ const FLAT_DICT = {
   if_both_the_higherpriority_substituents: "On the same side, the arrangement is Z ; if on opposite sides, the arrangement is E",
   wavy_single_bonds: { definition: "The standard way to represent unknown or unspecified stereochemistry or a mixture of isomers (as with tetrahedral stereocenters)", what_it_does: "", examples: "there are two isomers of square planar Pt(NH 3 ) 2 Cl 2 , as explained by Alfred Werner in 1893" },
 
+  // === INGESTED 2026-06-22 09:12 ===
+  the_activity_of_an_ion: "Particularly influenced by its surroundings",
+  the_same: "Often true of equations for reaction rates",
+  this_means_that_activity: { definition: "A relative term that describes how 'active' a compound is compared to when it is under the standard state conditions", what_it_does: "", examples: "by a Pitzer electrolyte solution model (see external links below for examples)" },
+  the_prevailing_view_that_single_ion_activities: { definition: "Unmeasurable, or perhaps even physically meaningless, has its roots in the work of Edward A", what_it_does: "", examples: "pH is defined as the negative logarithm of the hydrogen ion activity" },
+
 };
 
 // ============================================================
