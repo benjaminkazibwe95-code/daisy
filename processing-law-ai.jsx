@@ -21191,6 +21191,25 @@ const FLAT_DICT = {
   so_far_the_function_of_circrnas: "Largely unknown, although for few examples a microRNA sponging activity has been demonstrated",
   the_role_of_rna_in_protein_synthesis: { definition: "Suspected already in 1939", what_it_does: "", examples: "siRNA , to silence genes" },
 
+  // === INGESTED 2026-06-22 17:25 ===
+  a_ribosome: "Made up of a large and a small subunit, each consisting of one or more ribosomal RNA molecules and many ribosomal proteins",
+  the_ribosomes_and_associated_molecules: "Also known as the translational apparatus",
+  ribosome_biogenesis: "The process of making ribosomes",
+  once_the_protein: "Produced, it can then fold to produce a functional three-dimensional structure",
+  the_stop_codon: "One of UAA, UAG, or UGA; since there are no tRNA molecules that recognize these codons, the ribosome recognizes that translation is complete",
+  the_ribosomal_proteins_and_rrnas: { definition: "Arranged into two distinct ribosomal subunits one large and one small", what_it_does: "", examples: "bacterial 70S ribosomes are made of 50S and 30S subunits" },
+  the_large_subunit: { definition: "Composed of a 5S RNA subunit (120 nucleotides), a 23S RNA subunit (2900 nucleotides) and 31 proteins", what_it_does: "", examples: "chloroplasts (also called plastoribosomes)" },
+  much_of_the_rna: "Highly organized into various tertiary structural motifs , for example pseudoknots that exhibit coaxial stacking",
+  the_extra_rna_in_the_larger_ribosomes: "In several long continuous insertions, [ 44 ] such that they form loops out of the core structure without disrupting or changing it",
+  the_structures_of_a_vacant_ribosome: "Determined at 3.5 Å resolution using X-ray crystallography",
+  their_main_function: "To convert genetic code into an amino acid sequence and to build protein polymers from amino acid monomers",
+  each_subunit: "Made of one or more rRNAs and many r-proteins",
+  the_mrna_comprises_a_series_of_codons_which: { definition: "Decoded by the ribosome to make the protein", what_it_does: "", examples: "translocation) are caused by changes in protein conformations" },
+  since_their_catalytic_core: "Made of RNA, ribosomes are classified as ' ribozymes ,' [ 60 ] and it is thought that they might be remnants of the RNA world",
+  proteins_that_are_formed_from_free_ribosomes: "Released into the cytosol and used within the cell",
+  bound_ribosomes_usually_produce_proteins_that: "Used within the plasma membrane or are expelled from the cell via exocytosis",
+  certain_ribosomal_proteins: { definition: "Absolutely critical for cellular life while others are not", what_it_does: "", examples: "acetylation, methylation, and phosphorylation" },
+
 };
 
 // ============================================================
