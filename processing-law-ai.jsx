@@ -16000,6 +16000,20 @@ const FLAT_DICT = {
   giving_v: { definition: "5 before the call, it will be 7 after", what_it_does: "", examples: "string lengths and array bounds" },
   the_second_function_calls_the_first_and: { definition: "Called like greet_martin() to write 'Welcome Martin' to the console", what_it_does: "", examples: "the procedure call ?- parent_child ( X , charles ) produces the output X = elizabeth" },
 
+  // === INGESTED 2026-06-22 02:57 ===
+  the_terms: { definition: "Often used as synonyms, but the use of procedures has a dramatic effect on how imperative programs appear and how they are constructed", what_it_does: "", examples: "Lisp machines" },
+  the_earliest_imperative_languages: "The machine languages of the original computers",
+  fortran: "A compiled language that allowed named variables, complex expressions, subprograms, and many other features now common in imperative languages",
+  the_specification: "First published in 1983, with revisions in 1995, 2005, and 2012",
+  the_statements: "English-like and verbose",
+  algol: "First to define its syntax using the Backus–Naur form",
+  the_stack: "Automatically used for the standard variable declarations",
+  a_less_obvious_feature: { definition: "To decompose large projects logically into abstract datatypes", what_it_does: "", examples: "a list of integers could be called integer_list" },
+  when_memory: "Allocated to a class, it's called an object",
+  an_assigned_function: "Then referred to as a method , member function , or operation",
+  objectoriented_programming: { definition: "Executing operations on objects", what_it_does: "", examples: "a student is a person" },
+  the_definitions_file: "Called the header file",
+
 };
 
 // ============================================================
