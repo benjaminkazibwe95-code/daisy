@@ -21572,6 +21572,9 @@ const FLAT_DICT = {
   the_structural_image: "Usually of a higher resolution and depends on a different signal, the T1 magnetic field decay after excitation",
   the_atlases_commonly_used: "The Talairach one, a single brain of an elderly woman created by Jean Talairach , and the Montreal Neurological Institute (MNI) one",
 
+  // === INGESTED 2026-06-22 18:29 ===
+  contact: { definition: "No longer sufficient", what_it_does: "", examples: "the band, clan or tribe" },
+
 };
 
 // ============================================================
