@@ -21116,6 +21116,17 @@ const FLAT_DICT = {
   first_the_singlestranded_circular_dna: "Converted to a double-stranded circular intermediate",
   the_ssdna: "Packaged into germinate particles in the nucleus",
 
+  // === INGESTED 2026-06-22 17:14 ===
+  hcc: { definition: "One of the deadliest cancers in China, where chronic hepatitis B is found in 90% of cases", what_it_does: "", examples: "sub-Saharan Africa" },
+  certain_risk_factors: "More highly associated with HCC than others",
+  in_regions_where_hepatitis_b_infection: { definition: "Endemic, such as southeast China, hepatitis B is the predominant cause", what_it_does: "", examples: "chronic hepatitis C, obesity, and excessive alcohol use" },
+  a_systematic_review_found_that_the_sensitivity: { definition: "60% and specificity was 97% as compared with pathologic examination of an explanted or resected liver as the reference standard", what_it_does: "", examples: "a person with symptoms or abnormal blood tests (i.e" },
+  tumor_nodules: "Round to oval, gray or green (if the tumor produces bile), well circumscribed but not encapsulated",
+  the_diffuse_type: "Poorly circumscribed and infiltrates the portal veins, or the hepatic veins (rarely)",
+  these_procedures: "Alternatives to surgery, and may be considered in combination with other strategies, such as a later liver transplantation",
+  numerous_other_molecular_targeted_drugs: { definition: "Being tested as alternative first- and second-line treatments for advanced HCC, such as lenvatinib and regorafenib", what_it_does: "", examples: "those in sub-Saharan Africa , Central and Southeast Asia , and the Amazon basin" },
+  the_common_risk_factor_for_hcc: { definition: "Hepatitis C, along with other health issues", what_it_does: "", examples: "TUC338 ) [ 102 ] and other predictive biomarkers" },
+
 };
 
 // ============================================================
