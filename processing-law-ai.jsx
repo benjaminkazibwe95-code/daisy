@@ -20636,6 +20636,9 @@ const FLAT_DICT = {
   the_gap_below_it: "Known as the ostium primum (from Latin ' first opening ' ), and becomes increasingly small",
   this_reversal: "Called Eisenmenger's syndrome",
 
+  // === INGESTED 2026-06-22 15:51 ===
+  peripheral_edema: "Edema (accumulation of fluid causing swelling) in tissues perfused by the peripheral vascular system , usually in the lower limbs",
+
 };
 
 // ============================================================
