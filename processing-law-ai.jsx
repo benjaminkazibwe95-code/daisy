@@ -21107,6 +21107,15 @@ const FLAT_DICT = {
   circular_dichroism: "Another laboratory technique for determining internal β-sheet / α-helical composition of proteins",
   predicting_and_analysing_protein_disorder: { definition: "An important part of protein structure characterisation", what_it_does: "", examples: "in molecular docking , [ 97 ] protein folding , protein–protein interaction and chemical reactivity" },
 
+  // === INGESTED 2026-06-22 17:12 ===
+  geminiviridae: "A family of plant viruses that encode their genetic information on a circular genome of single-stranded (ss) DNA",
+  according_to_the_baltimore_classification_they: "Considered class II viruses",
+  mastrevirus_and_curtovirus_transmission: "Via various leafhopper species (e.g",
+  these_viruses: "Responsible for a significant amount of crop damage worldwide",
+  the_following_genera: { definition: "Recognized: [ 3 ] Several additional genera have been proposed: Baminivirus, Nimivirus and Niminivirus", what_it_does: "", examples: "M13, and many plasmids" },
+  first_the_singlestranded_circular_dna: "Converted to a double-stranded circular intermediate",
+  the_ssdna: "Packaged into germinate particles in the nucleus",
+
 };
 
 // ============================================================
