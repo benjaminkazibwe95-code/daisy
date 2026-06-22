@@ -22658,6 +22658,13 @@ const FLAT_DICT = {
   cell_press_was_founded_and: "Currently based in Cambridge , MA , and has offices across the United States , Europe , and Asia under its parent company Elsevier",
   winning_essays: "Published in Cell , and winners receive a $10,000 award",
 
+  // === INGESTED 2026-06-22 21:34 ===
+  two_compounds: "Isolated and called abscisin I and abscisin II",
+  abscisin_ii: "Presently called abscisic acid (ABA)",
+  a_close_linear_correlation: "Found between the ABA content of the leaves and their conductance (stomatal resistance) on a leaf area basis",
+  aba: "Perceived by the PYRABACTIN RESISTANCE 1 ( PYR1 ) and PYR1-like membrane proteins",
+  the_quantitative_methods_used: "Based on HPLC and ELISA",
+
 };
 
 // ============================================================
