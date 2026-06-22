@@ -19979,6 +19979,20 @@ const FLAT_DICT = {
   the_second_close_approach: "Primarily used for imaging, but at the third approach, extensive magnetic data were obtained",
   the_first_orbital_image_of_mercury: { definition: "Obtained on March 29, 2011", what_it_does: "", examples: "infrared , ultraviolet , X-ray and gamma ray" },
 
+  // === INGESTED 2026-06-22 14:01 ===
+  a_red_dwarf: "The least massive, smallest, least luminous, and coolest kind of star on the main sequence",
+  red_dwarfs: "Often flare stars , which can emit gigantic flares, doubling their brightness in minutes",
+  one_definition: "Synonymous with stellar M dwarfs, yielding a maximum temperature of 3,900 K and 0.6 M ☉",
+  one_of_the_earliest_uses_of_the_term: { definition: "In 1915, used simply to contrast 'red' dwarf stars with hotter 'blue' dwarf stars", what_it_does: "", examples: "K8–M5 [ 6 ] or 'later than K5'" },
+  the_energy_generated: { definition: "The product of nuclear fusion of hydrogen into helium by way of the proton–proton (PP) chain", what_it_does: "", examples: "HD 179930 , HIP 12961 and Lacaille 8760 ) have only about 10% of the Sun's luminosity" },
+  as_later_cooler_stars: "Identified through the 1980s, it was clear that an overhaul of the red dwarf standards was needed",
+  additional_red_dwarf_standards: { definition: "Compiled by Henry et al", what_it_does: "", examples: "seen in TRAPPIST-1" },
+  the_disk_wind: "An important part in removal of mass from the disk and accretion of material onto the surface of stars",
+  silicates: "Also detected for some disks",
+  examples_of_debris_disks_around_red_dwarfs: "AU Microscopii , CE Antliae and Fomalhaut C",
+  many_red_dwarfs: "Orbited by exoplanets , but large Jupiter -sized planets are comparatively rare",
+  the_planets: { definition: "Discovered through the transit method, meaning we have mass and radius information for all of them", what_it_does: "", examples: "the planet's terminator" },
+
 };
 
 // ============================================================
