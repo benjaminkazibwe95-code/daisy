@@ -22480,6 +22480,24 @@ const FLAT_DICT = {
   this_circuit_type: "Found in the reflex arcs of certain reflexes",
   modifications_to_the_basal_ganglia: "Often associated with diseases such as in Parkinson's disease",
 
+  // === INGESTED 2026-06-22 20:55 ===
+  the_grey_columns: "Three regions of the somewhat ridge-shaped mass of grey matter in the spinal cord",
+  the_anterior_grey_column: { definition: "Made up of alpha motor neurons , gamma motor neurons , and small neurons thought to be interneurons", what_it_does: "", examples: "fine touch , proprioception , and vibration" },
+  the_lateral_grey_column: "Only present in the thoracic region and upper lumbar segments (T1-L2)",
+  its_posterior_part: "Termed the base, and its anterior part the head, but these are not differentiated from each other by any well-defined constriction",
+  the_function_of_the_spinal_dorsal_horn: "To process and integrate sensory information from the peripheral nervous system",
+  the_dorsal_horn_circuitry: "Involved in various aspects of sensory processing, including discrimination, integration, and modulation of nociceptive and non-nociceptive signals",
+  laminae_i_and_ii: "Important in nociception, laminae III and IV are not involved nociception, and lamina V is involved in both nociception and non-nociception",
+  lamina_i: "Also known as the marginal nucleus of spinal cord",
+  the_neurons_of_this_layer: "Only C fibers and contain almost no myelin",
+  the_lateral_column: "Only present in the thoracic region and upper lumbar segments",
+  the_thalamus: "Known as the 'gateway to the cortex'",
+  the_afferent_neurons: "Either A fibers or C fibers",
+  a_fibers: "Myelinated allowing for faster signal conduction",
+  among_these_there_are_a_beta_fibers_which: "Faster and carry information about non-painful touch and A delta fibers which are slower and thinner than the A beta fibers",
+  the_c_fibers: "Not myelinated and therefore slower",
+  nonpeptidergic_c_fibers: "Linked to the skin, where they innervate the epidermis while peptidergic C fibers innervate other tissues and deeper parts of the skin",
+
 };
 
 // ============================================================
