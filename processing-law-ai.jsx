@@ -15669,6 +15669,9 @@ const FLAT_DICT = {
   among_these_stipulations: "The inclusion of a copyright notice at the bottom of the website and broad rights for the CRC Press to produce MathWorld in printed book form",
   the_planetmath_project: "A result of MathWorld's being unavailable",
 
+  // === INGESTED 2026-06-22 02:01 ===
+  pseudocode_typically_omits_details_that: { definition: "Essential for machine implementation of the algorithm, meaning that pseudocode can only be verified by hand", what_it_does: "", examples: "for academic assessment)" },
+
 };
 
 // ============================================================
