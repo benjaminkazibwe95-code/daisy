@@ -19188,6 +19188,12 @@ const FLAT_DICT = {
   one_possibility: "To use more function evaluations",
   the_other_possibility: "To use more past values, as illustrated by the two-step Adams–Bashforth method: y n + 1 = y n + 3 2 h f ( t n , y n ) − 1 2 h f ( t n − 1 , y n − 1 )",
 
+  // === INGESTED 2026-06-22 11:33 ===
+  the_consequence_of_the_second_difference: "The existence of multiple types of integration, including line integrals , surface integrals and volume integrals",
+  these_equations: { definition: "Generally more difficult to solve than ordinary differential equations , which contain derivatives with respect to only one variable", what_it_does: "", examples: "surfaces and curves" },
+  multivariate_calculus: "Used in the optimal control of continuous time dynamic systems",
+  multivariable_calculus: { definition: "Used in many fields of natural and social science and engineering to model and study high-dimensional systems that exhibit deterministic behavior", what_it_does: "", examples: "stochastic calculus" },
+
 };
 
 // ============================================================
