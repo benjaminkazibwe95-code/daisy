@@ -19887,6 +19887,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 13:38 ===
   their_official_website: "Known as Science Focus",
 
+  // === INGESTED 2026-06-22 13:40 ===
+  a_minute_of_arc: { definition: "⁠ π / 10 800 ⁠ of a radian", what_it_does: "", examples: "astronomy , optometry , ophthalmology , optics , navigation , land surveying , and marksmanship" },
+  the_average_apparent_diameter_of_the_full_moon: "About 31′ , or 0.52°",
+  one_microarcsecond: "About the size of a period at the end of a sentence in the Apollo mission manuals left on the Moon as seen from Earth",
+  the_principal_exception: "Right ascension (RA) in equatorial coordinates, which is measured in time units of hours, minutes, and seconds",
+  the_arcsecond: { definition: "Also often used to describe small astronomical angles such as the angular diameters of planets (e.g", what_it_does: "", examples: "can produce images around 0.05″ on a 10 m class telescope" },
+  space_telescopes: { definition: "Not affected by the Earth's atmosphere but are diffraction limited", what_it_does: "", examples: "the Hubble Space Telescope can reach an angular size of stars down to about 0.1″" },
+  for_navigational_purposes_positions: { definition: "Given in degrees and decimal minutes, for instance, the Needles Lighthouse is at 50°39′44.2″N 1°35′30.5″W", what_it_does: "", examples: "North 65° 39′ 18″ West 85.69 feet would describe a line running from the starting point 85" },
+  the_subtension: { definition: "Linear with the distance, for example, at 500 yards, 1 MOA subtends 5.235 inches and, at 1,000 yards, 1 MOA subtends 10.47 inches", what_it_does: "", examples: "if the point of impact is 3 inches high and 1" },
+  zeroing_an_mrad_based_scope: "Easy for users familiar with base ten systems",
+  this_simply: { definition: "That under ideal conditions (i.e", what_it_does: "", examples: "Remington's M24 Sniper Weapon System is required to shoot 0" },
+  if_larger_samples: "Taken (i.e., more shots per group) then group size typically increases, however this will ultimately average out",
+  if_a_rifle: "Truly a 1 MOA rifle, it would be just as likely that two consecutive shots land exactly on top of each other as that they land 1 MOA apart",
+  what_this_means_in_practice: "If a rifle that shoots 1-inch groups on average at 100 yards shoots a group measuring 0.7 inches followed by a group that is 1",
+  if_the_markings: "Round they are called mil-dots",
+
 };
 
 // ============================================================
