@@ -20902,6 +20902,9 @@ const FLAT_DICT = {
   the_cyclostomes: { definition: "Seen as either degenerate cartilaginous fishes or primitive vertebrates", what_it_does: "", examples: "radial muscles in the fins, true lymphocytes, neuromasts in the inner ear, and a cerebellum" },
   it_was_once_thought_that_the_cephalochordata: { definition: "The sister taxon to Vertebrata", what_it_does: "", examples: "the Myllokunmingiida" },
 
+  // === INGESTED 2026-06-22 16:32 ===
+  palmitoylation: "Crucial for targeting proteins to specialized membrane regions, including lipid rafts and immunological synapses",
+
 };
 
 // ============================================================
