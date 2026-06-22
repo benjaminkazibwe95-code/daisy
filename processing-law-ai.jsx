@@ -16831,6 +16831,10 @@ const FLAT_DICT = {
   meaning_in_some_languages: "Compositional in that meaning comes from the structure of an expression's parts",
   if_these_beliefs: "Different, meaning may be lost",
 
+  // === INGESTED 2026-06-22 05:18 ===
+  relatively_few_plant_species: "Halophytes—perhaps only 2% of all plant species",
+  the_large_majority_of_plant_species: { definition: "Glycophytes , which are not salt-tolerant and are damaged fairly easily by high salinity", what_it_does: "", examples: "a rainy season ) when the salt concentration is low would be avoiding salt rather than tolerating it" },
+
 };
 
 // ============================================================
