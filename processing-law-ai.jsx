@@ -17934,6 +17934,24 @@ const FLAT_DICT = {
   emerging_technologies: "Numerous, including enzymes for clarifying or debittering of fruit juices",
   bioremediation: "A green route to biodegradation",
 
+  // === INGESTED 2026-06-22 07:56 ===
+  the_educational_writings: { definition: "Among Priestley's most popular works", what_it_does: "", examples: "Jeremy Bentham , John Stuart Mill , and Herbert Spencer" },
+  priestley: { definition: "Asked to join this unique society and contributed much to the work of its members", what_it_does: "", examples: "'Experiments relating to Phlogiston, and the seeming Conversion of Water into Air' (1783)" },
+  since_the_study_of_history: { definition: "A moral imperative for Priestley, he also promoted the education of middle-class women, which was unusual at the time", what_it_does: "", examples: "New College at Hackney, Brown , Princeton , Yale , and Cambridge" },
+  two_sons: "Born to the Priestleys in Leeds: Joseph, Junior, on 24 July 1768 and William three years later",
+  since_his_views_of_religion: { definition: "Tied deeply to his understanding of nature, the text's theism rested on the argument from design", what_it_does: "", examples: "the divinity of Christ and the miracle of the Virgin Birth" },
+  priestley_believed_that_the_corruptions: "'the most valuable' work he ever published",
+  the_workload: "Intentionally light, allowing him time to pursue his scientific investigations and theological interests",
+  he_also_contended_that_discussing_the_soul: "Impossible because it is made of a divine substance, and humanity cannot perceive the divine",
+  he_criticised_those_whose_faith: "Shaped by books and fashion, drawing an analogy between the scepticism of educated men and the credulity of the masses",
+  evil: { definition: "Therefore only an imperfect understanding of the world", what_it_does: "", examples: "the 17th-century philosopher Baruch Spinoza argued for absolute determinism and absolute materialism" },
+  this_led_him_to_conclude_that_there: { definition: "Only three types of 'air': 'fixed', 'alkaline', and 'acid'", what_it_does: "", examples: "French chemist Antoine Lavoisier" },
+  schofield_argues_that_the_most_likely_reason: "Shelburne's recent marriage to Louisa Fitzpatrick: apparently, she did not like the Priestleys",
+  barbara_lupton: "The second cousin of Olive Middleton , née Lupton, the great-grandmother of Catherine, Princess of Wales",
+  these_intercepted_letters: { definition: "Published in London, and copied in numerous papers in America", what_it_does: "", examples: "John McEvoy and Robert Schofield" },
+  similar_recognition: { definition: "Made on 7 August 2000, at Bowood House in Wiltshire, England", what_it_does: "", examples: "the noted American surgeon James Taggart Priestley II of the Mayo Clinic" },
+  the_most_exhaustive_biography_of_priestley: "Robert Schofield's two-volume work; several older one-volume treatments exist: those of Gibbs, Holt and Thorpe",
+
 };
 
 // ============================================================
