@@ -21858,6 +21858,14 @@ const FLAT_DICT = {
   anosognosia: { definition: "A condition in which a person with a disability is cognitively unaware of having it due to an underlying physical condition", what_it_does: "", examples: "their limbs" },
   another_commonly_used_method: "The use of feedback—comparing clients' self-predicted performance with their actual performance on a task in an attempt to improve insight",
 
+  // === INGESTED 2026-06-22 19:21 ===
+  this_interaction_is_called_an_observation_and: "The essence of a measurement in quantum mechanics , which connects the wave function with classical observables such as position and momentum",
+  collapse: "One of the two processes by which quantum systems evolve in time; the other is the continuous evolution governed by the Schrödinger equation",
+  the_wave_function: "A specific representation of a quantum state",
+  a_quantum_state: "A mathematical description of a quantum system; a quantum state vector uses Hilbert space vectors for the description",
+  if_the_wave_function: "Physically real, in some sense and to some extent, then the collapse of the wave function is also seen as a real process, to the same extent",
+  he_proposed_that_the_discontinuous_change: "Instead a splitting of a wave function representing the universe",
+
 };
 
 // ============================================================
