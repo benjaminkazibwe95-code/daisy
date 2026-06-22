@@ -20736,6 +20736,12 @@ const FLAT_DICT = {
   among_imperial_historians_who_wrote_in_greek: "Dionysius of Halicarnassus , Josephus , and Cassius Dio",
   tertullian: "One of the earliest prose authors with a distinctly Christian voice",
 
+  // === INGESTED 2026-06-22 16:05 ===
+  the_earliest_documentary_evidence: { definition: "A Roman cookbook , Apicius ' De Re Coquinaria , which contains recipes for stuffed chicken , dormouse , hare , and pig", what_it_does: "", examples: "stuffed turkey or goose" },
+  many_types_of_vegetables: { definition: "Also suitable for stuffing, after their seeds or flesh has been removed", what_it_does: "", examples: "zucchini may be prepared in this way" },
+  roast_pork: "Often accompanied by sage and onion stuffing in England; roast poultry in a Christmas dinner may be stuffed with sweet chestnuts",
+  oysters: { definition: "Used in one [ 15 ] traditional stuffing for Thanksgiving", what_it_does: "", examples: "apples, apricots, dried prunes, and raisins" },
+
 };
 
 // ============================================================
