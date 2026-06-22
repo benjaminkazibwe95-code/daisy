@@ -16986,6 +16986,13 @@ const FLAT_DICT = {
   the_systems_are_similar_in_that_they: "All produced in the same way",
   each_one_of_these_values: "A 0 (or no) or a 1 (yes)",
 
+  // === INGESTED 2026-06-22 05:41 ===
+  galileo_never_explicitly_stated_that_comets: "An illusion, but merely wondered if they are real or an optical illusion",
+  the_assayer: "A milestone in the history of science: here Galileo describes the scientific method , which was quite a revolution at the time",
+  this_book: "Edited and published by members of the Accademia",
+  for_they_believe_that_heat: "A real phenomenon, or property ",
+  hence_if_the_living_creature: "Removed, all these qualities would be ",
+
 };
 
 // ============================================================
