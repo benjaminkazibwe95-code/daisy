@@ -22768,6 +22768,29 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 21:53 ===
   once_prohormones: { definition: "Needed to be expressed, prohormone convertase , a protein, cleaves the prohormones and separates them into one or more active hormones", what_it_does: "", examples: "vitamin D , also known as calciferol, which can be produced by the human body via sunlight" },
 
+  // === INGESTED 2026-06-22 21:55 ===
+  access_to_at_least_basic_water: { definition: "39 percent of the total population, or 73% of the urban population and 32% of the rural population", what_it_does: "", examples: "rivers, lakes, and unprotected wells" },
+  one_consequence_of_poor_access_and_quality: "That water-borne diseases are a major cause of infant mortality",
+  sanitation_coverage: { definition: "Given through sanitation facilities in the place of residence", what_it_does: "", examples: "Kyaliwajala, Kulambiro, and most places on hilltops suffered from chronic water shortages" },
+  the_wetland: "Estimated to provide economic benefits of up to US$1",
+  the_existing_plant_at_bugolobi: "Planned to be decommissioned once the new plants became operational",
+  a_customer_satisfaction_survey: "Carried out in 2009–2010 for all towns served by NWSC",
+  a_customer_satisfaction_index: "Calculated across all questions, showing that 85 percent of customers were satisfied, up from 83 percent during the last survey",
+  the_national_target: "An average consumption of 20 L/p/d",
+  waterborne_sewerage: { definition: "Introduced after 1937", what_it_does: "", examples: "leakage and illegal connections, stood at 60 percent" },
+  the_utility: { definition: "Heavily overstaffed, and staff costs accounted for 64 percent of the total operating costs", what_it_does: "", examples: "the 2003–2006 contract required NWSC to reduce NRW from 39 percent in 2003 to 36 percent in 2006" },
+  the_significant_increase_in_new_connections: { definition: "Partially explained by a drastic reduction of connection charges, also in 1999, from USh 400,000/ = to 25,000/ =", what_it_does: "", examples: "Kampala, by June 2008" },
+  water_supply_and_sanitation: "Recognized as key issues under the national PEAP, prepared first in 1997 and revised in 2001 and 2004",
+  the_peap: "The key government document for fighting poverty through rapid economic development and social transformation",
+  tariffs: "Proposed by NWSC and need to be approved by MWE",
+  nwsc: "Regulated by contract according to a performance contract with the national government",
+  the_ministry_of_local_government: "Expected to support decentralized government systems, which manage their own water facilities",
+  indicators_show_that_economic_efficiency: "Also improving in small towns, where the systems are owned by local governments",
+  the_average_commercial_tariff: "US$1.00 per cubic metre",
+  a_customer_who: "Connected to the sewerage system would pay an additional charge of 75-100 percent",
+  although_water: "Cheapest at standpipes, UN-Water reports that in this case users usually have to pay the costs of operating a stand tap and thus in the end pay more",
+  these_physical_efforts: "Accompanied by environmental assessments, mitigation, and monitoring, as well as community development and capacity building",
+
 };
 
 // ============================================================
