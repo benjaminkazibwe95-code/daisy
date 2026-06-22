@@ -20216,6 +20216,12 @@ const FLAT_DICT = {
   a_part_of_its_mission: "To 'rigorously preclude backward contamination of Earth by extraterrestrial life",
   a_usual_way_to_do_that: "To add body features from other animals, such as insects or octopuses",
 
+  // === INGESTED 2026-06-22 14:36 ===
+  some_spotlight_articles: "Also funded by partners or sponsors",
+  as_of_the_time_it: "Released, it had about 10,000 subscribers",
+  these_critiques: { definition: "Then given to the original author, who makes revisions based on feedback", what_it_does: "", examples: "Science and Physical Review , also retracted papers by Schön" },
+  the_nature_podcast: "Founded – and the first 100 episodes were produced and presented – by clinician and virologist Chris Smith of Cambridge and The Naked Scientists",
+
 };
 
 // ============================================================
