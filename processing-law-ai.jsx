@@ -15122,6 +15122,9 @@ const FLAT_DICT = {
   alquist_now_realizes_that_primus_and_helena: "The new Adam and Eve , and gives the charge of the world to them",
   and_canada: { definition: "Sold to the New York Theatre Guild , perhaps during Lawrence Langner 's visit to Britain", what_it_does: "", examples: "the Theatre Guild 'Road' in Chicago and Los Angeles during 1923" },
 
+  // === INGESTED 2026-06-22 00:18 ===
+  alphageometry: "An artificial intelligence (AI) program that can solve hard problems in Euclidean geometry",
+
 };
 
 // ============================================================
