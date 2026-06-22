@@ -18032,6 +18032,18 @@ const FLAT_DICT = {
   a_shorter_form_of_the_work: "Known as the An-najat ( Liberatio )",
   persian_poetry_from_avicenna: "Recorded in various manuscripts and later anthologies such as Nozhat al-Majales",
 
+  // === INGESTED 2026-06-22 08:10 ===
+  ore: "Extracted from the earth through mining and treated or refined , often via smelting , to extract the valuable metals or minerals",
+  the_word_ore: "Of Anglo-Saxon origin, meaning ' lump of metal '",
+  the_part_of_an_ore_that: { definition: "Not economically desirable and that cannot be avoided in mining is known as gangue", what_it_does: "", examples: "the name of a god or goddess) [ 12 ] or the code name of the resource company which found it (e.g" },
+  iron_rich_water: "Thought to have upwelled where it oxidized to Fe (III) in the presence of early photosynthetic plankton producing oxygen",
+  the_banding: "Thought to be a result of changing plankton population",
+  a_placer_deposit: "Considered alluvial if formed via river, colluvial if by gravity, and eluvial when close to their parent rock",
+  the_exact_effects_an_ore_and_its_tailings_have: { definition: "Dependent on the minerals present", what_it_does: "", examples: "gold, lead and copper" },
+  iron_oxide: "Quite abundant on the surface and forms from a variety of processes",
+  the_global_chromium_market: "Currently dominated by the United States and China",
+  most_of_these_commodities: "Also dominated by one or two major suppliers with >60% of the world's reserves",
+
 };
 
 // ============================================================
