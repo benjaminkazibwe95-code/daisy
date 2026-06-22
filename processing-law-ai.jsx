@@ -18237,6 +18237,20 @@ const FLAT_DICT = {
   that_one_exceptional_case: "Beryllium , with even atomic number 4; its single stable, primordial isotope, beryllium-9, has 4 protons and 5 neutrons",
   non_mononuclidic_elements: "Marked with an asterisk, and the long-lived primordial radioisotope given",
 
+  // === INGESTED 2026-06-22 08:37 ===
+  gsfc: "A major US laboratory for developing and operating uncrewed scientific spacecraft",
+  the_center: "On Greenbelt Road, which is Maryland Route 193",
+  missions: { definition: "Developed in the same way an experiment would be developed using the scientific method", what_it_does: "", examples: "the development of technology related to scientific pursuits" },
+  mms: "Part of a larger program (Solar Terrestrial Probes) that studies the impact of the Sun on the Solar System",
+  the_individual_instruments: "Then integrated into an instrument suite which is then integrated with the spacecraft",
+  maven: "The second mission within the Mars Scout Program that is exploring the atmosphere of Mars in support of NASA's broader efforts to go to Mars",
+  once_a_mission: "Launched and reaches its destination, its instruments start collecting data",
+  the_facility: "Later renovated from the floor up to become the Near Space Operations Control Center (NSOCC) in 2023",
+  the_hubble_space_telescope: { definition: "Represented by models and deep space imagery from recent missions", what_it_does: "", examples: "Boy and Girl Scout leaders, and hosts special events during the year" },
+  employees: "Encouraged to take part in mentoring programs and take on speaking roles at area schools",
+  these_events: { definition: "Open to the general public, but attendees must sign up in advance to procure a visitors pass for access to the center's main grounds", what_it_does: "", examples: "NASA DEVELOP at Goddard Space Flight Center" },
+  the_tour_of_goddard: "Near the end of the Queen's visit to commemorate the 400th anniversary of the founding of Jamestown in Virginia",
+
 };
 
 // ============================================================
