@@ -18437,6 +18437,27 @@ const FLAT_DICT = {
   this_means_that_activity: { definition: "A relative term that describes how 'active' a compound is compared to when it is under the standard state conditions", what_it_does: "", examples: "by a Pitzer electrolyte solution model (see external links below for examples)" },
   the_prevailing_view_that_single_ion_activities: { definition: "Unmeasurable, or perhaps even physically meaningless, has its roots in the work of Edward A", what_it_does: "", examples: "pH is defined as the negative logarithm of the hydrogen ion activity" },
 
+  // === INGESTED 2026-06-22 09:14 ===
+  a_proton: "A stable subatomic particle , symbol p , H + , or 1 H + with a positive electric charge of +1 e ( elementary charge )",
+  one_or_more_protons: { definition: "Present in the nucleus of every atom", what_it_does: "the attractive electrostatic central force which binds the atomic electrons", examples: "" },
+  the_number_of_protons_in_the_nucleus: "The defining property of an element, and is referred to as the atomic number (represented by the symbol Z )",
+  the_word_proton: "Greek for 'first', and the name was given to the hydrogen nucleus by Ernest Rutherford in 1920",
+  the_proton_charge_radius: "Around 0.841 fm but two different kinds of measurements give slightly different values",
+  all_other_types_of_atomic_nuclei: "Composed of two or more protons and various numbers of neutrons",
+  if_the_alpha_particle: "Not absorbed, then 3 charged particles, a negatively charged carbon, a proton, and an alpha particle, would be expected",
+  blackett_proposed_that_the_alpha_particle: "Absorbed by the nitrogen atom",
+  one_or_more_bound_protons: "Present in the nucleus of every atom",
+  the_mass_of_a_proton: "About 80–100 times greater than the sum of the rest masses of its three valence quarks , while the gluons have zero rest mass",
+  the_kinetic_energy_of_the_quarks_that: "A consequence of confinement is a contribution (see Mass in special relativity )",
+  these_claims: "Still controversial, because the calculations cannot yet be done with quarks as light as they are in the real world",
+  this_means_that_the_predictions: "Found by a process of extrapolation , which can introduce systematic errors",
+  these_recent_calculations: "Performed by massive supercomputers, and, as noted by Boffi and Pasquini: 'a detailed description of the nucleon structure is still missing because ",
+  these_numbers: "Derived by a combination of a theoretical model and experimental Compton scattering of high-energy electrons",
+  such_molecules: { definition: "Then said to be ' protonated ', and chemically they are simply compounds of hydrogen, often positively charged", what_it_does: "", examples: "a proton captured by a water molecule in water becomes hydronium , the aqueous cation H 3 O +" },
+  all_atoms_of_a_given_element: "Not necessarily identical, however",
+  the_proton: { definition: "A 'bare charge' with only about 1/64,000 of the radius of a hydrogen atom, and so is extremely reactive chemically", what_it_does: "", examples: "liquids and it reacts immediately with the electron cloud of any available molecule" },
+  the_acid: { definition: "Referred to as a proton donor and the base as a proton acceptor", what_it_does: "", examples: "proton pump and proton channel refer to the movement of hydrated H + ions" },
+
 };
 
 // ============================================================
