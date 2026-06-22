@@ -16409,6 +16409,9 @@ const FLAT_DICT = {
   deletions: "Representative of eukaryotic organisms, including humans and not in prokaryotic organisms, such as bacteria",
   microdeletions: { definition: "Associated with many different conditions, including Angelman syndrome, Prader-Willi syndrome, and DiGeorge syndrome", what_it_does: "", examples: "end-sequence profiling" },
 
+  // === INGESTED 2026-06-22 04:10 ===
+  the_photograph_provided_key_information_that: "Essential for developing a model of DNA",
+
 };
 
 // ============================================================
