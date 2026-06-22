@@ -22021,6 +22021,24 @@ const FLAT_DICT = {
   after_the_presumptive_experiment: { definition: "Over, subjects were left with free time during which they could either sit idly or complete more tasks", what_it_does: "", examples: "an extrinsic reward lowers the public praise, Dickinson argues" },
   if_the_loss_of_praise: "Larger than the size of the specific reinforcer, she argues, then free-choice selection of that behavior will decrease",
 
+  // === INGESTED 2026-06-22 19:50 ===
+  these_people: "Able to recover from failure faster and are more likely to attribute failure to a lack of effort",
+  successes_and_failures: "Closely related to the ways in which people have learned to view themselves and their relationships with others",
+  when_selfefficacy: "Significantly beyond actual ability, it leads to an overestimation of the ability to complete tasks",
+  learned_helplessness: "Studied by Martin Seligman in an experiment in which shocks were applied to animals",
+  the_implications_of_this_research: "That managers should provide accurate descriptions of tasks and provide clear and concise instructions",
+  it_has_been_found_that_those_who: { definition: "High in self-efficacy learn more, which leads to higher job performance", what_it_does: "", examples: "improved quality of life" },
+  the_effect_of_technical_selfefficacy: "Found to be even stronger than the effect of gender",
+  those_whose_scores: "One standard deviation above or below the mean were categorized as high- or low-apprehensive writers, respectively",
+  and_the_third_and_final_phase_of_this_study: "A series of 30 minute long interviews with five low- and high-apprehension students",
+  researchers_found_that_there: "A direct correlation between students' self-efficacy and their own writing apprehension, essay performance, and perceived usefulness of writing",
+  higher_levels_of_writing_anxiety: "Associated with less favorable attitudes toward writing and lower confidence in one's writing abilities",
+  positive_attitdudes_toward_writing: { definition: "Linked to greater writing self-efficacy", what_it_does: "", examples: "motivations anxiety, self-confidence, and self regulation" },
+  learning_outcomes: "Shaped by a mix of cognitive, motivational, and emotional factors rather than instructional practices",
+  high_selfefficacy: { definition: "Associated with greater effort, strong engagement, and better performance", what_it_does: "", examples: "writing anxiety , grade goals, depth of processing, and expected outcomes" },
+  these_findings: { definition: "Significant for future consumer targeting and marketing", what_it_does: "", examples: "motivation, self confidence, self regulation, and approaches to problem solving" },
+  perceived_selfefficacy: "Belief in one's agentive capabilities, that one can produce given levels of attainment",
+
 };
 
 // ============================================================
