@@ -16239,6 +16239,15 @@ const FLAT_DICT = {
   this_signal_sequence: "Extremely specific for the ABC transporter",
   type_i_secretion: { definition: "Also involved in export of non-proteinaceous substrates like cyclic β-glucans and polysaccharides", what_it_does: "", examples: "animal, plant, human pathogens, as well as soil, environmental or marine bacteria" },
 
+  // === INGESTED 2026-06-22 03:41 ===
+  a_typical_fat_cell: { definition: "0.1 mm in diameter [ 2 ] with some being twice that size, and others half that size", what_it_does: "", examples: "resistin , adiponectin , leptin and apelin" },
+  brown_fat: "Derived from dermatomyocyte cells",
+  marrow_adipocytes: "Unilocular like white fat cells",
+  the_marrow_adipose_tissue_depot: "Poorly understood in terms of its physiologic function and relevance to bone health",
+  preadipocytes: "Undifferentiated fibroblasts that can be stimulated to form adipocytes",
+  also_anchored_in_the_er_membrane: "SCAP (SREBF-cleavage activating protein), which binds SREBF1",
+  leptin: "Important in regulation of appetite and acts as a satiety factor",
+
 };
 
 // ============================================================
