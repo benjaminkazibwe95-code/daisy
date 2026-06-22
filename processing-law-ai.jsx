@@ -15038,6 +15038,15 @@ const FLAT_DICT = {
   hassabis_met_legg_when_both: { definition: "Postdocs at the Gatsby Computational Neuroscience Unit, and he and Suleyman had been friends through family", what_it_does: "", examples: "pandemics and nuclear war'" },
   he_said_that_there: "An urgent need for research on evaluation tests that measure how capable and controllable new AI models are",
 
+  // === INGESTED 2026-06-22 00:08 ===
+  rosenblatt: "Born into a Jewish family in New Rochelle, New York as the son of Dr",
+  the_total_computational_cost: "2.5 million arithmetic operations, necessitating the use of an IBM CPC as well",
+  his_work: { definition: "Done in collaboration with colleagues, especially H", what_it_does: "", examples: "SRI , and many researchers had big expectations for what they could do" },
+  these_results: "Not contradictory, but the Minsky and Papert book was widely (and wrongly) cited as the proof of strong limitations of perceptrons",
+  the_probabilistic_approach: "Shared with theorists such as Ashby , Uttley , Minsky , MacKay , and von Neumann",
+  the_crosscoupled_perceptron_machines: { definition: "Currently known as Hopfield networks", what_it_does: "", examples: "the question of how a human memory works over a lifetime" },
+  rats: "Taught discrimination tasks such as Y-maze and two-lever Skinner box",
+
 };
 
 // ============================================================
