@@ -18772,6 +18772,11 @@ const FLAT_DICT = {
   both_proton_affinity_and_pk_a: "Measures of the acidity of a molecule, and so both reflect the thermodynamic gradient between a molecule and the deprotonated form of that molecule",
   proton_affinities: "Quoted in kJ/mol , in increasing order of gas-phase basicity of the base",
 
+  // === INGESTED 2026-06-22 10:10 ===
+  alkalimetry_and_acidimetry: "Types of volumetric analyses in which the fundamental reaction is a neutralization reaction",
+  a_monoprotic_acid: "An acid that donates one proton",
+  a_monoprotic_base: "A base that accepts one proton",
+
 };
 
 // ============================================================
