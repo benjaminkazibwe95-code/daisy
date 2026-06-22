@@ -20363,6 +20363,11 @@ const FLAT_DICT = {
   new_keynesian_economics: { definition: "Created partially in response to New Classical economics", what_it_does: "", examples: "artificial intelligence" },
   this_structural_functionalism_approach: { definition: "Questioned in the 1960s, when sociologists came to see this approach as merely a justification for inequalities present in the status quo", what_it_does: "", examples: "feminist theory , post-structuralism , rational choice theory, and postmodernism" },
 
+  // === INGESTED 2026-06-22 15:05 ===
+  prentice_hall: "A major American educational publisher",
+  in_its_last_few_years_it: { definition: "Owned by, then absorbed into, Savvas Learning Company", what_it_does: "", examples: "Prentice Hall, was sold to Pearson plc by G+W successor Viacom in 1998" },
+  they_followed_with_a_collection_of_books_that: "Generally by and for programmers, building a stalwart list of titles relied on by many in the first generation of microcomputers users",
+
 };
 
 // ============================================================
