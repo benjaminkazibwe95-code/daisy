@@ -15848,6 +15848,27 @@ const FLAT_DICT = {
   the_department_code: "Not necessarily unique; it may also be indexed, in which case it would be considered a secondary key , or alternate key",
   keys: "Usually chosen in a way that minimizes the chances of multiple values being feasibly mapped to by one key",
 
+  // === INGESTED 2026-06-22 02:35 ===
+  an_array: "Stored such that the position (memory address) of each element can be computed from its index tuple by a mathematical formula",
+  tables: "Often implemented in the form of arrays, especially lookup tables ; the word 'table' is sometimes used as a synonym of array",
+  arrays: "Used to implement other data structures, such as lists, heaps , hash tables , deques , queues , stacks , strings , and VLists",
+  one_or_more_large_arrays: "Sometimes used to emulate in-program dynamic memory allocation , particularly memory pool allocation",
+  when_data_objects: "Stored in an array, individual objects are selected by an index that is usually a non-negative scalar integer",
+  indexes: { definition: "Also called subscripts", what_it_does: "", examples: "C , Java and Lisp" },
+  thus_two_indices: "Used for a two-dimensional array, three for a three-dimensional array, and n for an n -dimensional array",
+  accessing_its_elements: { definition: "A single subscript which can either represent a row or column index", what_it_does: "", examples: "the expressions a and a are the first and last elements respectively" },
+  if_the_minimum_legal_value_for_every_index: "0, then B is the address of the element whose indices are all zero",
+  the_addressing_formula: "Completely defined by the dimension d , the base address B , and the increments c 1 , c 2 , ..., c k",
+  the_dope_vector: "A complete handle for the array, and is a convenient way to pass arrays as arguments to procedures",
+  even_if_arrays: "Always created with contiguous elements, some array slicing operations may create non-contiguous sub-arrays from them",
+  static_arrays_have_a_size_that: "Fixed when they are created and consequently do not allow elements to be inserted or removed",
+  if_this_operation: { definition: "Done infrequently, insertions at the end of the array require only amortized constant time", what_it_does: "", examples: "to store index bounds) but this is language-dependent" },
+  dynamic_arrays_or_growable_arrays: "Similar to arrays but add the ability to insert and delete elements; adding and deleting at the end is particularly efficient",
+  their_memory_use: "Typically worse than arrays, but is still linear",
+  an_iliffe_vector: "An alternative to a multidimensional array structure",
+  the_dimension_of_an_array: "The number of indices needed to select an element",
+  thus_a_onedimensional_array: { definition: "A list of data, a two-dimensional array is a rectangle of data, [ 12 ] a three-dimensional array a block of data, etc", what_it_does: "", examples: "an array with 5 rows and 4 columns is two-dimensional, but such matrices form a 20-dimensional space" },
+
 };
 
 // ============================================================
