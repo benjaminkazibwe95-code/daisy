@@ -22368,6 +22368,11 @@ const FLAT_DICT = {
   the_ulnar_collateral_ligament_of_elbow_joint: "In relation with the ulnar nerve",
   the_nerve: { definition: "The largest in the human body unprotected by muscle or bone, so injury is common", what_it_does: "", examples: "both front and back of the tips , perhaps as far back as the fingernail beds" },
 
+  // === INGESTED 2026-06-22 20:40 ===
+  second_messengers: { definition: "Intracellular signaling molecules released by the target cell in response to exposure to extracellular signaling molecules—the first messengers", what_it_does: "", examples: "proliferation , differentiation , migration, survival, apoptosis and depolarization" },
+  the_gprotein: "Known as the ' transducer",
+  this_signal: { definition: "Called the 'second (or secondary) messenger", what_it_does: "", examples: "muscle contraction , fertilization , and neurotransmitter release" },
+
 };
 
 // ============================================================
