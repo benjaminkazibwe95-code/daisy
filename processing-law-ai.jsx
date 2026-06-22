@@ -23204,6 +23204,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 23:27 ===
   the_source_of_the_nile_proper: "Also reached in 1629 by the Portuguese Jesuit missionary Jerónimo Lobo and in 1770 by the Scottish explorer James Bruce",
 
+  // === INGESTED 2026-06-22 23:29 ===
+  the_citystate_of_napata: "The spiritual capital and it was from there that Piye (spelled Piankhi or Piankhy in older works) invaded and took control of Egypt",
+  the_stele_of_piye_inscription: "Piye as very religious, compassionate, and a lover of horses",
+  this_detail_in_itself: { definition: "Sufficient to show that the reign of Shabaka cannot precede that of Shebitku/Shabataqo", what_it_does: "", examples: "Upper and Lower Egypt, around 712 BC" },
+  a_study_of_the_sphinx_that: { definition: "Created to represent Taharqa indicates that he was a Kushite pharaoh from Nubia", what_it_does: "", examples: "the Siege of an Egyptian fort in 667 BC" },
+  nubian_soldiers_defending_their_city: "Represented, as well as prisoners under Assyrian escort, many wearing the typical one-feathered headgear of Taharqa's soldiers",
+  this_expedition_and_its_destructions: "Recorded on several victory stelae, especially the Victory Stela of Kalabsha",
+  the_seat_of_government_and_the_royal_palace: "In Napata during this period, while Meroe was a provincial city",
+  the_kings_and_queens: "Buried in El-Kurru and Nuri",
+  while_piye: "Viewed as the founder of the 25th dynasty, some publications may include Kashta who already controlled some parts of Upper Egypt",
+
 };
 
 // ============================================================
