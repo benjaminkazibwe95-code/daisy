@@ -20011,6 +20011,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 14:07 ===
   the_superfluid_behavior: { definition: "A manifestation of Bose–Einstein condensation , which occurs only in collections of bosons", what_it_does: "", examples: "its size and ionization energy" },
 
+  // === INGESTED 2026-06-22 14:09 ===
+  a_solar_calendar: "A calendar whose dates indicates the season or almost equivalently the apparent position of the Sun relative to the stars",
+  the_main_other_types_of_calendar: "Lunar calendar and lunisolar calendar , whose months correspond to cycles of Moon phases",
+  such_a_calendar: "Called a tropical solar calendar",
+  a_calendar_of_this_type: "Called a sidereal solar calendar",
+  the_islamic_calendar: "A purely lunar calendar and has a year, whose start drifts through the seasons and so is not a solar calendar",
+
 };
 
 // ============================================================
