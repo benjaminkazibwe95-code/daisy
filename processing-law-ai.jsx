@@ -15206,6 +15206,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 00:35 ===
   moa: "Free software released under the GNU GPL",
 
+  // === INGESTED 2026-06-22 00:37 ===
+  additional_functionalities: "Available as add-ons (text-mining, image analytics, bioinformatics, etc.)",
+
 };
 
 // ============================================================
