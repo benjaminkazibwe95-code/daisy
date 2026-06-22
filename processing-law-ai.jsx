@@ -17494,6 +17494,29 @@ const FLAT_DICT = {
   typically_the_range_of_knowledge_that: "Required overlaps with climatology, mesoscale and synoptic meteorology, and other geosciences",
   military_meteorology: { definition: "The research and application of meteorology for military purposes", what_it_does: "", examples: "temperature, humidity, wind, and various weather conditions" },
 
+  // === INGESTED 2026-06-22 06:47 ===
+  an_equation_used_to_model_this_relationship: { definition: "Called an equation of state", what_it_does: "", examples: "the transition of solids from one crystalline state to another" },
+  a_related_concept: "The perfect fluid equation of state used in cosmology",
+  equations_of_state: "Applied in many fields such as process engineering and petroleum industry as well as pharmaceutical industry",
+  absolute_temperature: "The use of the Kelvin (K), with zero being absolute zero",
+  mercury: "Added to the tube, trapping a fixed quantity of air in the short, sealed end of the tube",
+  then_the_volume_of_gas: "Measured as additional mercury was added to the tube",
+  the_quantum_nature_of_this_equation: "In its dependence on s and ħ",
+  cubic_equations_of_state: "Called such because they can be rewritten as a cubic function of V m {\displaystyle V_{m}}",
+  this_equation: "Also called the Kamerlingh Onnes equation",
+  if_appropriate_assumptions: "Made about the mathematical form of intermolecular forces, theoretical expressions can be developed for each of the coefficients",
+  the_second_virial_coefficient: "Monotonically decreasing as temperature is lowered",
+  the_third_virial_coefficient: "Monotonically increasing as temperature is lowered",
+  the_helmholtz_energy: "Formulated as a sum of multiple terms modelling different types of molecular interaction or molecular structures, e.g",
+  most_physically_based_equations_of_state: "Built on monomer term describing the Lennard-Jones fluid or the Mie fluid",
+  perturbation_theory: "Frequently used for modelling dispersive interactions in an equation of state",
+  multiparameter_equations_of_state: "Available currently for about 50 of the most common industrial fluids including refrigerants",
+  the_functional_form_of_these_models: "In most parts not physically motivated",
+  the_magnitude_of_the_correction: "About 2 gigapascals (20,000 atmospheres)",
+  the_lszk_eos: "Primarily used to model detonation products rather than the unreacted solid explosive itself",
+  these_parameters: "Obtained by fitting the JWL-EOS to experimental results",
+  typical_parameters_for_some_explosives: "Listed in the table below",
+
 };
 
 // ============================================================
