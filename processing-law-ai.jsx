@@ -17301,6 +17301,39 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 06:22 ===
   the_coulomb: "Named after Charles-Augustin de Coulomb",
 
+  // === INGESTED 2026-06-22 06:24 ===
+  only_a_few_substances: "Ferromagnetic; the most common ones are iron , cobalt , nickel , and their alloys",
+  magnetic_materials: { definition: "Classified according to their bulk susceptibility", what_it_does: "", examples: "chromium , have a more complex relationship with a magnetic field" },
+  in_this_work_he: "Many of his experiments with his model earth called the terrella",
+  this_landmark_experiment: "Known as Ørsted's Experiment",
+  the_magnetic_moments_of_the_nuclei_of_atoms: "Typically thousands of times smaller than the electrons' magnetic moments, so they are negligible in the context of the magnetization of materials",
+  nuclear_magnetic_moments: "Nevertheless very important in other contexts, particularly in nuclear magnetic resonance (NMR) and magnetic resonance imaging (MRI)",
+  diamagnetism_appears_in_all_materials_and: "The tendency of a material to oppose an applied magnetic field, and therefore, to be repelled by a magnetic field",
+  in_a_paramagnetic_material_there: "Unpaired electrons; i.e., atomic or molecular orbitals with exactly one electron in them",
+  when_an_external_magnetic_field: "Applied, these magnetic moments will tend to align themselves in the same direction as the applied field, thus reinforcing it",
+  when_the_magnetizing_field: "Removed, the domains may not return to an unmagnetized state",
+  when_the_material: "Cooled, this domain alignment structure spontaneously returns, in a manner roughly analogous to how a liquid can freeze into a crystalline solid",
+  when_all_atoms: "Arranged in a substance so that each neighbor is anti-parallel, the substance is antiferromagnetic",
+  antiferromagnets: "Less common compared to the other types of behaviors and are mostly observed at low temperatures",
+  when_a_ferromagnet_or_ferrimagnet: "Sufficiently small, it acts like a single magnetic spin that is subject to Brownian motion",
+  its_response_to_a_magnetic_field: "Qualitatively similar to the response of a paramagnet, but much larger",
+  if_one_electron: "Removed under specific conditions, the lattice's energy would be minimal only when all electrons' spins were parallel",
+  a_variation_on_this: "Achieved experimentally by arranging the atoms in a triangular moiré lattice of molybdenum diselenide and tungsten disulfide monolayers",
+  delocalization: "Prevented unless the lattice electrons had aligned spins",
+  electromagnets: "Also employed in industry for picking up and moving heavy iron objects such as scrap iron and steel",
+  perturbations_in_the_magnetic_field: "Necessarily accompanied by a nonzero electric field, and propagate at the speed of light",
+  the_phenomenon_of_magnetism: "'mediated' by the magnetic field",
+  because_this: "A cross product , the force is perpendicular to both the motion of the particle and the magnetic field",
+  the_magnitude_of_the_force: "F = q v B sin ⁡ θ {\displaystyle F=qvB\sin \theta \,} where θ {\displaystyle \theta } is the angle between v and B",
+  when_diamagnetic_material: "Placed in a magnetic field, a magnetic dipole tends to align itself in opposed polarity to that field, thereby lowering the net field strength",
+  when_ferromagnetic_material: "Placed within a magnetic field, the magnetic dipoles align to the applied field, thus expanding the domain walls of the magnetic domains",
+  even_though_a_magnet: "Said to have a north pole and a south pole, these two poles cannot be separated from each other",
+  some_materials_in_living_things: "Ferromagnetic, though it is unclear if the magnetic properties serve a special function or are merely a byproduct of containing iron",
+  many_biological_organisms: "Mostly made of water, and because water is diamagnetic , extremely strong magnetic fields can repel these living things",
+  that_this_leads_to_magnetism: "Not at all obvious, but will be explained in the following",
+  diatomic_gases: "Also almost exclusively diamagnetic, and not paramagnetic",
+  the_explanation_of_the_phenomena: "Thus essentially based on all subtleties of quantum mechanics, whereas the electrodynamics covers mainly the phenomenology",
+
 };
 
 // ============================================================
