@@ -19993,6 +19993,15 @@ const FLAT_DICT = {
   many_red_dwarfs: "Orbited by exoplanets , but large Jupiter -sized planets are comparatively rare",
   the_planets: { definition: "Discovered through the transit method, meaning we have mass and radius information for all of them", what_it_does: "", examples: "the planet's terminator" },
 
+  // === INGESTED 2026-06-22 14:03 ===
+  the_journal: "Published by EDP Sciences and the current editors-in-chief are Thierry Forveille and João Alves",
+  the_european_southern_observatory: "Chosen as an additional body that acts on behalf of the board and handles the administrative, financial, and legal matters of the journal",
+  a_supplement_series_for_the_journal: { definition: "Created in 1970 for publishing extensive tabular material and catalogs", what_it_does: "", examples: "XMM-Newton , Planck , Rosetta , and Gaia were introduced" },
+  the_journal_editorial_office: "Located at the Paris Observatory and is supervised by the managing editor",
+  articles_in_the_other_sections_of_the_journal: "Made freely available 12 months after publication ( delayed open-access ), through the publisher's site and via the Astrophysics Data System",
+  the_purpose_of_these_schools: "To teach young authors how to express their scientific results through adequate and efficient science writing",
+  this_journal: "Abstracted and indexed in: According to the Journal Citation Reports , the journal has a 2022 impact factor of 6.5",
+
 };
 
 // ============================================================
