@@ -15249,6 +15249,12 @@ const FLAT_DICT = {
   the_challenge: "To develop such algorithms that can transfer knowledge across tasks and environments without extensive retraining",
   designing_appropriate_reward_functions: "Critical in RL because poorly designed reward functions can lead to unintended behaviors",
 
+  // === INGESTED 2026-06-22 00:47 ===
+  image_compression: "A type of data compression applied to digital images , to reduce their cost for storage or transmission",
+  other_names_for_scalability: "Progressive coding or embedded bitstreams",
+  certain_parts_of_the_image: "Encoded with higher quality than others",
+  the_quality_of_a_compression_method_often: "Measured by the peak signal-to-noise ratio",
+
 };
 
 // ============================================================
