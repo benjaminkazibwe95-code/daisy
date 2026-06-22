@@ -16952,6 +16952,30 @@ const FLAT_DICT = {
   george_jackson_mivart: { definition: "Among those accepting evolution but attacking Darwin's naturalistic mechanism", what_it_does: "", examples: "neo-Lamarckism were favoured over natural selection as being more compatible with purpose" },
   the_full_significance_of_natural_selection: { definition: "At last accepted in the 1930s and 1940s as part of the modern evolutionary synthesis", what_it_does: "", examples: "medicine and agriculture" },
 
+  // === INGESTED 2026-06-22 05:37 ===
+  predictions: "Often, but not always, based upon experience or knowledge of forecasters",
+  future_events: "Necessarily uncertain , so guaranteed accurate information about the future is impossible",
+  one_particular_approach_to_such_inference: "Known as predictive inference , but the prediction can be undertaken within any of the several approaches to statistical inference",
+  when_information: { definition: "Transferred across time, often to specific points in time, the process is known as forecasting", what_it_does: "", examples: "time series analysis, it is possible to estimate the models that generate the observations" },
+  when_the_generating_models: "Nonlinear then stepwise linearizations may be applied within Extended Kalman Filter and smoother recursions",
+  these_models: "Widely applied in domains such as natural language processing , computer vision , health informatics , and financial technology",
+  the_scientific_method: "Built on testing statements that are logical consequences of scientific theories",
+  a_scientific_theory_whose_predictions: "Contradicted by observations and evidence will be rejected",
+  notions_that_make_no_testable_predictions: { definition: "Usually considered not to be part of science ( protoscience or nescience ) until testable predictions can be made", what_it_does: "", examples: "in much of quantum physics" },
+  accurate_prediction_and_forecasting: "Very difficult in some areas, such as natural disasters , pandemics , demography , population dynamics and meteorology",
+  in_materials_engineering_it: { definition: "Also possible to predict the life time of a material with a mathematical model", what_it_does: "", examples: "eclipses are routinely predicted" },
+  the_existence_of_this_absolute_frame: { definition: "Deemed necessary for consistency with the established idea that the speed of light is constant", what_it_does: "", examples: "stars would bend light, in contradiction to accepted theory; this was observed in a 1919 eclipse" },
+  individuals_who: { definition: "More susceptible to disease in the future can be offered lifestyle advice or medication with the aim of preventing the predicted illness", what_it_does: "", examples: "the availability of prevention or treatment as a child that would prevent future disease" },
+  thus_there: "An extremely small number (of the order of 1) of relevant past data points from which to project the future",
+  such_analysis: "Provided by both non-profit groups as well as by for-profit private institutions",
+  predicting_the_outcome_of_sporting_events: { definition: "A business which has grown in popularity in recent years", what_it_does: "", examples: "Jimmy the Greek , were believed to have access to information that gave them an edge" },
+  situational_plays: "Much more difficult to measure because they usually involve the motivation of a team",
+  this_additional_information: "Then combined with historical facts to provide a revised prediction for future match outcomes",
+  nowadays_sport_betting: { definition: "A huge business; there are many websites (systems) alongside betting sites, which give tips or predictions for future games", what_it_does: "", examples: "trend projection, forecasting, scenario-building and Delphi surveys" },
+  the_oil_company_shell: { definition: "Particularly well known for its scenario-building activities", what_it_does: "", examples: "prophecy or by observing omens" },
+  divination: "The attempt to gain insight into a question or situation by way of an occultic standardized process or ritual",
+  yet_the_two_still: "Often understood together as symbiotic in their origins, aims, and purposes",
+
 };
 
 // ============================================================
