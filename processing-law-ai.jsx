@@ -17688,6 +17688,11 @@ const FLAT_DICT = {
   in_this_report_there: "No mention of black bodies",
   his_fresh_theoretical_proof_was_and_still: "Considered by some writers to be invalid",
 
+  // === INGESTED 2026-06-22 07:14 ===
+  the_displacement: "Constant over each plane perpendicular to n → {\displaystyle {\vec {n}}}",
+  a_standing_wave: "A field whose value can be expressed as the product of two functions, one depending only on position, the other only on time",
+  this_representation: "Not unique, since the same field values are obtained if S {\displaystyle S} and G {\displaystyle G} are scaled by reciprocal factors",
+
 };
 
 // ============================================================
