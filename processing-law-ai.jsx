@@ -21484,6 +21484,15 @@ const FLAT_DICT = {
   wegner: { definition: "Born in Calgary , Alberta , Canada", what_it_does: "", examples: "by attempting not to think of a white bear" },
   a_transactive_memory_system: "A system through which groups collectively encode, store, and retrieve knowledge",
 
+  // === INGESTED 2026-06-22 18:21 ===
+  the_sn: "Divided into two parts: the pars reticulata (SNpr) and the pars compacta (SNpc), which lies medial to the pars reticulata",
+  the_pars_reticulata_of_the_substantia_nigra: { definition: "An important processing center in the basal ganglia", what_it_does: "", examples: "single-spike or burst firing are found in Parkinson's disease [ 15 ] and epilepsy" },
+  the_pars_compacta: { definition: "Also important in spatial learning, the observations about one's environment and location in space", what_it_does: "", examples: "insomnia and REM sleep disturbances that are reported by patients with Parkinson's disease" },
+  the_condition: "Most commonly observed in anaesthesia where rapid and high doses of these drugs are given intravenously",
+  various_compounds_such_as_levodopa_and_mptp: "Used in the treatment and study of Parkinson's disease, and many other drugs have effects on the substantia nigra",
+  the_drawback_of_levodopa_treatment: "That it treats the symptoms of Parkinson's (low dopamine levels), rather than the cause (the death of dopaminergic neurons in the substantia nigra)",
+  mptp: { definition: "Brought to the spotlight in 1982 when heroin users in California displayed Parkinson's-like symptoms after using MPPP contaminated with MPTP", what_it_does: "", examples: "disruption of metabolism and creation of free radicals" },
+
 };
 
 // ============================================================
