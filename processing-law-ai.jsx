@@ -19476,6 +19476,25 @@ const FLAT_DICT = {
   their_measurement_of_the_hubble_constant: "69.8 +1.9 −1.9 (km/s)/Mpc",
   the_most_conservative_is_that_there: "An unknown systematic error affecting either early-universe or late-universe observations",
 
+  // === INGESTED 2026-06-22 12:33 ===
+  colormagnitude_plots: { definition: "Known as Hertzsprung–Russell diagrams after Ejnar Hertzsprung and Henry Norris Russell", what_it_does: "", examples: "the fraction of the Sun by mass currently composed of hydrogen (denoted X) is 74.9%" },
+  the_main_sequence: "Divided into upper and lower parts, based on the dominant process that a star uses to generate energy",
+  the_protonproton_chain: "Still occurring, but it produces less energy than the CNO cycle",
+  the_spectra_of_stars: "Shown to have distinctive features, which allowed them to be categorized",
+  these_stars: "Fusing hydrogen in their cores and so they mark the lower edge of the main sequence fuzziness caused by variance in chemical composition",
+  the_same_curve_also_showed_that_there: "Very few faint white stars",
+  this_timescale: "The length of time a star can last by radiating its internal kinetic energy",
+  a_key_indicator_of_this_energy_distribution: "Given by the color index , B − V , which measures the star's magnitude in blue ( B ) and green-yellow ( V ) light by means of filters",
+  mainsequence_stars: "Called dwarf stars, [ 19 ] [ 20 ] but this terminology is partly historical and can be somewhat confusing",
+  a_better_approximation: "To take ε = L / M , the energy generation rate per unit mass, as ε is proportional to T I 15 , where T I is the core temperature",
+  the_temperature_and_density_of_this_core: { definition: "At the levels necessary to sustain the energy production that will support the remainder of the star", what_it_does: "uses atoms of carbon , nitrogen , and oxygen as intermediaries in the process of fusing hydrogen into helium", examples: "" },
+  as_this: "The core temperature of a star with about 1.5 M ☉ , the upper main sequence consists of stars above this mass",
+  the_two_modes_for_transporting_this_energy: "Radiation and convection",
+  this_evolution: "Reflected in a broadening of the main sequence band which contains stars at various evolutionary stages",
+  even_these_refinements: "Only an approximation, however, and the mass-luminosity relation can vary depending on a star's composition",
+  supergiants: "Relatively rare and do not show prominently on most H–R diagrams",
+  the_position_where_stars_in_the_cluster: "Leaving the main sequence is known as the turnoff point",
+
 };
 
 // ============================================================
