@@ -19922,6 +19922,10 @@ const FLAT_DICT = {
   planetary_equatoria: { definition: "Probably made by ancient Greeks, although no findings nor descriptions have been preserved from that period", what_it_does: "", examples: "one example now at the Metropolitan Museum of Art" },
   some_of_the_below: "From Hill (1993), Islamic Science And Engineering'",
 
+  // === INGESTED 2026-06-22 13:52 ===
+  available_mean_data_for_each_object: "Given: [ 3 ] The Lyon-Meudon Extragalactic Database was eventually expanded into HyperLEDA , a database of a few million galaxies",
+  galaxies_in_the_original_pgc_catalogue: "Numbered with their original PGC number in HyperLEDA",
+
 };
 
 // ============================================================
