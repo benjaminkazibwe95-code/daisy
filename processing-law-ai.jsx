@@ -20022,6 +20022,36 @@ const FLAT_DICT = {
   the_star: "61 Cygni , and he used a 160-millimetre (6.2 in) heliometre designed by Joseph von Fraunhofer",
   the_speed_of_light: { definition: "Not yet precisely known in 1838; the estimate of its value changed in 1849 ( Fizeau ) and 1862 ( Foucault )", what_it_does: "", examples: "those belonging to the same spiral arm or globular cluster" },
 
+  // === INGESTED 2026-06-22 14:13 ===
+  a_photometer: "An instrument for measuring photometric quantities such as luminous flux , illuminance , or luminance",
+  another_type: "Based on the extinction of shadows",
+  before_electronic_light_sensitive_elements: "Developed, photometry was done by estimation by the eye",
+  the_relative_luminous_flux_of_a_source: "Compared with a standard source",
+  the_photometer: "Placed such that the illuminance from the source being investigated is equal to the standard source, as the human eye can judge equal illuminance",
+  when_the_spot: "Not visible from either side, the illuminance from the two sides is equal",
+  the_two_lights_to_be_compared: "Used to cast a shadow onto paper",
+  if_the_shadows: "Of the same depth, the difference in distance of the lights would indicate the difference in intensity (e.g",
+  the_height_of_the_apparatus: "Also adjustable via the stand (c)",
+  the_lights_to_compare: "Placed at the side of the box (m, n)—which illuminated the paper surfaces so that the eye saw both surfaces at once",
+  the_operating_principles: "The same but the results are given in units such as photons/cm 2 or photons·cm −2 ·sr −1 rather than W/cm 2 or W·cm −2 ·sr −1",
+  the_irradiance: "Limited by the time resolution of its associated detector readout electronics",
+  with_current_technology_this: "In the megahertz range",
+  the_maximum_irradiance: { definition: "Also limited by the throughput and gain parameters of the detector itself", what_it_does: "", examples: "the X-ray to far ultraviolet" },
+  photometers: "Used to determine the correct exposure in photography",
+  the_surface: "Illuminated with white light, and the reflected light is measured after passing through a monochromator",
+  two_types_of_photometers: "Used: spectrophotometer and filter photometer",
+  filter_photometers: "Cheaper, robuster and easier to use and therefore they are used for routine analysis",
+  spectrophotometry_in_infrared_light: "Mainly used to study structure of substances, as given groups give absorption at defined wavelengths",
+  measurement_in_aqueous_solution: "Generally not possible, as water absorbs infrared light strongly in some wavelength ranges",
+  the_substance_being_tested: "Thoroughly mixed with specially purified KBr and pressed into a transparent tablet, that is placed in the beam of light",
+  the_analysis_of_the_wavelength_dependence: "Generally not done using a monochromator as it is in UV-Vis, but with the use of an interferometer",
+  the_vibrational_excitations: "Characteristic of different groups in a molecule, that can in this way be identified",
+  atomic_absorption_photometers: "Photometers that measure the light from a very hot flame",
+  the_solution_to_be_analyzed: "Injected into the flame at a constant, known rate",
+  metals_in_the_solution: "Present in atomic form in the flame",
+  the_light: "Absorbed by the metal in the flame, and the absorption is used to determine the concentration of the metal in the original solution",
+  luminometers_are_sensitive_photometers_that: "Used to measure luminescence and fluorescence in biology and chemistry",
+
 };
 
 // ============================================================
