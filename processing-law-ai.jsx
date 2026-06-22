@@ -17298,6 +17298,9 @@ const FLAT_DICT = {
   the_classical_limit_or_correspondence_limit: { definition: "The ability of a physical theory to approximate or 'recover' classical mechanics when considered over special values of its parameters", what_it_does: "", examples: "the violations of Liouville's theorem upon quantization" },
   when_the_planck_constant: "Small, however, it is possible to have a state that is well localized in both position and momentum",
 
+  // === INGESTED 2026-06-22 06:22 ===
+  the_coulomb: "Named after Charles-Augustin de Coulomb",
+
 };
 
 // ============================================================
