@@ -19274,6 +19274,14 @@ const FLAT_DICT = {
   the_typical_parameters: { definition: "The expectations, variance, etc", what_it_does: "", examples: "movie reviews receiving one to four stars)" },
   one_drawback_of_nonparametric_methods: { definition: "That since they do not rely on assumptions, they are generally less powerful than their parametric counterparts", what_it_does: "", examples: "the Neyman–Pearson lemma and the Likelihood-ratio test" },
 
+  // === INGESTED 2026-06-22 11:48 ===
+  protocols_are_written_whenever_it: { definition: "Desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories", what_it_does: "", examples: "statistical analysis and any rules for predefining and documenting excluded data to avoid bias" },
+  clearly_defined_protocols: "Also required by research funded by the National Institutes of Health",
+  a_protocol: { definition: "What types of people may participate in the trial; the schedule of tests, procedures, medications, and dosages; and the length of the study", what_it_does: "", examples: "subjects, researchers, technicians, data analysts, and evaluators" },
+  a_good_clinical_protocol_ensures_that_blinding: "As effective as possible within ethical and practical constrains",
+  unblinding: "Common in blind experiments, and must be measured and reported",
+  positive_data: "Rarely rationalized the same way",
+
 };
 
 // ============================================================
