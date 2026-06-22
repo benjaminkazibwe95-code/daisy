@@ -22589,6 +22589,9 @@ const FLAT_DICT = {
   this_neurotransmitter: "A negative regulator of granule cell precursor proliferation which promotes the differentiation of different granule cells",
   dentate_granule_cells: "Situated to regulate the flow of information into the hippocampus , a structure required for normal learning and memory",
 
+  // === INGESTED 2026-06-22 21:14 ===
+  tonic_in_physiology: "A physiological response which is slow and may be graded",
+
 };
 
 // ============================================================
