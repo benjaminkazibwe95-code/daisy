@@ -15125,6 +15125,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 00:18 ===
   alphageometry: "An artificial intelligence (AI) program that can solve hard problems in Euclidean geometry",
 
+  // === INGESTED 2026-06-22 00:20 ===
+  careers: "Destroyed and research ended",
+  logical_reasoning: { definition: "Viewed as the essence of intelligence, either natural or artificial", what_it_does: "", examples: "Marvin Minsky , John McCarthy, Herbert A" },
+  ai_research_proposals: { definition: "Held to a very high standard", what_it_does: "", examples: "autonomous tanks and battle management systems" },
+  the_goals_of_the_project: "To provide recognition of utterances from a limited vocabulary in near-real time",
+  darpa: { definition: "Deeply disappointed with researchers working on the Speech Understanding Research program at Carnegie Mellon University", what_it_does: "", examples: "hidden Markov models ) and the market for speech recognition systems would reach $4 billion by 2001" },
+  when_the_lighthill_report: "Published in 1973 the fast-growing group had 1,241 members, approximately twice the level in 1969",
+  the_next_five_years: { definition: "Conventionally thought of as the darkest part of the first AI winter", what_it_does: "", examples: "CLIPS available" },
+  their_objectives: "To write programs and build machines that could carry on conversations, translate languages, interpret pictures, and reason like human beings",
+  ai_research: { definition: "Well-funded by the SCI", what_it_does: "", examples: "AlphaZero (chess champion) and AlphaGo (go champion), and Watson ( Jeopardy champion)" },
+
 };
 
 // ============================================================
