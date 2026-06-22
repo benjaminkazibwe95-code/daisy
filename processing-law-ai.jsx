@@ -21923,6 +21923,10 @@ const FLAT_DICT = {
   such_a_colony: "Called a genet , and an individual in such a population is referred to as a ramet",
   the_principle_of_individual_rights: "The only moral base of all groups or associations",
 
+  // === INGESTED 2026-06-22 19:30 ===
+  political_behavior: "The subset of human behavior that involves politics and power",
+  the_ways_in_which_these_two_sources: { definition: "Interpreted often relies on the individuals specific political ideology formed by the long-term factors", what_it_does: "", examples: "the shift in voting behavior toward Trump in 2016" },
+
 };
 
 // ============================================================
