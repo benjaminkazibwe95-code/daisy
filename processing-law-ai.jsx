@@ -16228,6 +16228,17 @@ const FLAT_DICT = {
   the_topo_i_of_both_prokaryotes_and_eukaryotes: "The type I topoisomerase",
   this_suggests_that_topoisomerase_iv: { definition: "The primary protein for decatenation of interlinked chromosomes in vivo , with DNA gyrase playing a minor role", what_it_does: "", examples: "Brucella , Paracoccus denitrificans , and Vibrio have multiple circular chromosomes" },
 
+  // === INGESTED 2026-06-22 03:39 ===
+  secretion: "Not unique to eukaryotes – it is also present in bacteria and archaea as well",
+  the_classical_mechanism_of_cell_secretion: "Via secretory portals at the plasma membrane called porosomes",
+  secretion_in_bacterial_species: { definition: "The transport or translocation of effector molecules", what_it_does: "", examples: "proteins , enzymes or toxins (such as cholera toxin in pathogenic bacteria e.g" },
+  proteins_targeted_for_the_outside: "Synthesized by ribosomes docked to the rough endoplasmic reticulum (ER)",
+  as_they: "Synthesized, these proteins translocate into the ER lumen , where they are glycosylated and where molecular chaperones aid protein folding",
+  misfolded_proteins: { definition: "Usually identified here and retrotranslocated by ER-associated degradation to the cytosol , where they are degraded by a proteasome", what_it_does: "", examples: "cleavage and functionalization, may occur" },
+  the_proteins: { definition: "Then moved into secretory vesicles which travel along the cytoskeleton to the edge of the cell", what_it_does: "", examples: "insulin is cleaved from proinsulin in the secretory vesicles)" },
+  this_signal_sequence: "Extremely specific for the ABC transporter",
+  type_i_secretion: { definition: "Also involved in export of non-proteinaceous substrates like cyclic β-glucans and polysaccharides", what_it_does: "", examples: "animal, plant, human pathogens, as well as soil, environmental or marine bacteria" },
+
 };
 
 // ============================================================
