@@ -20410,6 +20410,10 @@ const FLAT_DICT = {
   ovaries_of_some_kind: { definition: "Found in the female reproductive system of many invertebrates that employ sexual reproduction", what_it_does: "", examples: "the presence of follicular cells, tunica albuginea, and so on" },
   corpora_lutea: "Found only in mammals, and in some elasmobranch fish; in other species, the remnants of the follicle are quickly resorbed by the ovary",
 
+  // === INGESTED 2026-06-22 15:11 ===
+  most_of_those_offices: "Still in service under Wolters Kluwer",
+  lippincott_company: "Sold to Harper & Row , after which it shifted its publishing focus exclusively to health care",
+
 };
 
 // ============================================================
