@@ -18480,6 +18480,17 @@ const FLAT_DICT = {
   reactions: "Also categorized by the change in the carbon framework",
   more_reactions: "Found in organosilicon chemistry , organosulfur chemistry , organophosphorus chemistry and organofluorine chemistry",
 
+  // === INGESTED 2026-06-22 09:21 ===
+  the_wgsr: "A highly valuable industrial reaction that is used in the manufacture of ammonia, hydrocarbons , methanol , and hydrogen",
+  its_most_important_application: { definition: "In conjunction with the conversion of carbon monoxide from steam reforming of methane or other hydrocarbons in the production of hydrogen", what_it_does: "", examples: "the proton-exchange membrane (PEM) fuel cell" },
+  commercial_hts_catalysts: "Based on iron oxide – chromium oxide and the LTS catalyst is a copper-based",
+  the_copper_catalyst: "Susceptible to poisoning by sulfur",
+  sulfur_compounds: { definition: "Removed prior to the LTS reactor by a guard bed", what_it_does: "", examples: "the formation of metallic iron, methanation , carbon deposition, and the Fischer–Tropsch reaction" },
+  activation_energy: "A key criteria for the assessment of catalytic performance in WGS reactions",
+  the_function_of_zno: "To provide structural support as well as prevent the poisoning of copper by sulfur",
+  the_upper_temperature_limit: { definition: "Due to the susceptibility of copper to thermal sintering", what_it_does: "", examples: "platinum, supported on ceria, have also been used for LTS" },
+  the_redox_mechanism: { definition: "Generally regarded as kinetically relevant during the high-temperature WGSR (> 350 °C) over the industrial iron-chromia catalyst", what_it_does: "", examples: "sustainable aviation fuel via RWGS in tandem with the Fischer Tropsch reaction" },
+
 };
 
 // ============================================================
