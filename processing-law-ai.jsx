@@ -21748,6 +21748,9 @@ const FLAT_DICT = {
   the_most_famous_case_in_recent_memory_studies: { definition: "The case study of HM , who had parts of his hippocampus, parahippocampal cortices , and surrounding tissue removed in an attempt to cure his epilepsy", what_it_does: "", examples: "doze, pillow, bed, dream, nap, etc., but no theme word is presented" },
   ldopa_injections: { definition: "Often used to try to relieve Parkinson's disease symptoms, as well as behavioral therapy", what_it_does: "", examples: "calcium within hippocampal neurons) in the cell" },
 
+  // === INGESTED 2026-06-22 18:56 ===
+  cristina_maria_alberini: { definition: "An Italian neuroscientist who studies the biological mechanisms of long-term memory", what_it_does: "", examples: "the ones occurring in aging, Alzheimer's disease , or post-traumatic stress disorder (PTSD)" },
+
 };
 
 // ============================================================
