@@ -22681,6 +22681,14 @@ const FLAT_DICT = {
   a_smaller_number_of_species: { definition: "Farmed commercially", what_it_does: "", examples: "coats and hats" },
   the_scarab_beetle: "Sacred in ancient Egypt , [ 214 ] and the cow is sacred in Hinduism",
 
+  // === INGESTED 2026-06-22 21:41 ===
+  eicosanoids: { definition: "A sub-category of oxylipins , i.e", what_it_does: "", examples: "humans, are unable to convert ω−6 into ω−3 PUFA" },
+  eicosanoids_typically: { definition: "Not stored within cells but rather synthesized as required", what_it_does: "", examples: "chemotactic factors , cytokines , growth factors , and even certain eicosanoids" },
+  these_fatty_acids: "Bound in ester linkage to the SN2 position of membrane phospholipids ; PLA 2 act as esterases to release the fatty acid",
+  the_enzymes_that: { definition: "Biosynthetic for eicosanoids (e.g", what_it_does: "", examples: "HxA3 and HxB" },
+  many_of_the_prostanoids: { definition: "Known to mediate local symptoms of inflammation : vasoconstriction or vasodilation , coagulation , pain , and fever", what_it_does: "", examples: "inflammation, allergic reactions, cancer cell growth, blood flow to tissues, and/or blood pressure" },
+  the_eicosanoids: "Involved with each of these signs",
+
 };
 
 // ============================================================
