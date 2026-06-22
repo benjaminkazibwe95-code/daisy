@@ -18652,6 +18652,11 @@ const FLAT_DICT = {
   those_crystals: "Hygroscopic and have yellow-reddish color and a monoclinic crystal structure",
   amsi: { definition: "A black solid isomorphic with LaSi, it has an orthorhombic crystal symmetry", what_it_does: "", examples: "in spacecraft" },
 
+  // === INGESTED 2026-06-22 09:47 ===
+  salts_and_esters_of_trichloroacetic_acid: "Called trichloroacetates",
+  trichloroacetic_acid: { definition: "Widely used in biochemistry for the precipitation of macromolecules, such as proteins , DNA , and RNA", what_it_does: "", examples: "genital warts" },
+  another_route_to_trichloroacetic_acid: "The oxidation of trichloroacetaldehyde",
+
 };
 
 // ============================================================
