@@ -19732,6 +19732,30 @@ const FLAT_DICT = {
   the_theoretical_construct: "Created through the use of semiclassical gravity theory",
   this_vacuum_energy: "Theoretically unlimited and, if built up quickly enough, will stop gravitational collapse from creating a singularity",
 
+  // === INGESTED 2026-06-22 13:13 ===
+  his_leadership_and_scientific_expertise: "Instrumental in the project's success, and on July 16, 1945, he was present at the first test of the atomic bomb, Trinity",
+  rutherford: "Unimpressed, but Oppenheimer went to Cambridge nonetheless; [ 16 ] J",
+  the_lab_work: "A terrible bore, and I am so bad at it that it is impossible to feel that I am learning anything",
+  oppenheimer: { definition: "Subjected to while the evidence of his loyalty and love of country have only been further affirmed", what_it_does: "", examples: "Bethe, Groves, Kennan, Lilienthal, Rabi, Smyth, and Wigner" },
+  when_he_heard_the_ranch: "Available for lease, he exclaimed, 'Hot dog!', and he later called it Perro Caliente ('hot dog' in Spanish)",
+  he_always_knew_what: { definition: "The important problems, as shown by his choice of subjects", what_it_does: "", examples: "its extension into quantum electrodynamics" },
+  the_fbi_noted_that_oppenheimer: "On the executive committee of the American Civil Liberties Union , which it considered a communist front organization",
+  he_liked_things_that: { definition: "Difficult and since much of the scientific work appeared easy for him, he developed an interest in the mystical and the cryptic", what_it_does: "", examples: "the Bhagavad Gita and Meghaduta in the original Sanskrit, and deeply pondered them" },
+  yet_it: "Essentially this spiritual quality, this refinement as expressed in speech and manner, that was the basis of his charisma",
+  he_always_left_a_feeling_that_there: "Depths of sensibility and insight not yet revealed",
+  one_of_his_first_acts: "To host a summer school for atomic bomb theory in Berkeley",
+  shortly_afterwards_oppenheimer: "Appointed to head the Los Alamos Laboratory",
+  the_engineers: "Concerned about the poor access road and the water supply but otherwise felt that it was ideal",
+  he_expressed_regret_that_the_weapon: { definition: "Ready too late for use against Nazi Germany", what_it_does: "", examples: "the newly formed United Nations , which could institute a program to stifle a nuclear arms race" },
+  some_of_these_activities: "Resented by a few members of the mathematics faculty, who wanted the institute to stay a bastion of pure scientific research",
+  freeman_dyson: "Able to prove that their procedures gave similar results",
+  bernard_baruch: { definition: "Appointed to translate this report into a proposal to the United Nations, resulting in the Baruch Plan of 1946", what_it_does: "", examples: "tritium needed for a thermonuclear weapon" },
+  frank: "Subsequently fired from his University of Minnesota position",
+  he_later_taught_high_school_physics_and: "The founder of the San Francisco Exploratorium",
+  robert_oppenheimer: "An agent of the Soviet Union",
+  his_brother_frank_and_the_rest_of_his_family: "There, as was the historian Arthur M",
+  the_first_of_these_groups: { definition: "The more powerful in political terms, and Oppenheimer became its target", what_it_does: "", examples: "American Prometheus (2005) by Kai Bird and Martin J" },
+
 };
 
 // ============================================================
