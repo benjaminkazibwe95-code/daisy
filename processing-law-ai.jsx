@@ -18814,6 +18814,17 @@ const FLAT_DICT = {
   a_cylinder_having_a_right_section_that: "An ellipse , parabola , or hyperbola is called an elliptic cylinder , parabolic cylinder and hyperbolic cylinder , respectively",
   elliptic_cylinders: "Also known as cylindroids , but that name is ambiguous, as it can also refer to the Plücker conoid",
 
+  // === INGESTED 2026-06-22 10:21 ===
+  celestial_mechanics: { definition: "The branch of astronomy that deals with the motions and gravitational interactions of objects in outer space", what_it_does: "", examples: "stars and planets , to produce ephemeris data" },
+  where_one_of_the_bodies: "Sufficiently massive, general relativity must be included to predict apsidal precession",
+  the_name_celestial_mechanics: "More recent than that",
+  his_work_in_this_area: { definition: "The first major achievement in celestial mechanics since Isaac Newton's Principia", what_it_does: "", examples: "the non-ellipsoids, including ring-shaped and pear-shaped figures, and their stability" },
+  a_generalization: "The n -body problem , [ 19 ] where a number n of masses are mutually interacting via the gravitational force",
+  the_difficulty: "That the corrections usually progressively make the new solutions more complicated",
+  the_frame: { definition: "Aligned via a set of reference points, such as distant galaxies", what_it_does: "", examples: "the heliocentric and the geocentric reference frames" },
+  the_motion_of_these_objects: "Usually calculated from laws of motion and of universal gravitation derived by Isaac Newton",
+  astrodynamics: { definition: "A core discipline within space-mission design and control", what_it_does: "", examples: "both spacecraft and natural astronomical bodies such as star systems , planets , moons , and comets" },
+
 };
 
 // ============================================================
