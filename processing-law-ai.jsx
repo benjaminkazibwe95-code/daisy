@@ -18941,6 +18941,14 @@ const FLAT_DICT = {
   the_center_of_that_ring: "R × R , and hence it has the structure of an algebra over its center, which is not a field",
   note_that_the_splitbiquaternion_algebra: { definition: "Also naturally an 8-dimensional R -algebra", what_it_does: "", examples: "the integers)" },
 
+  // === INGESTED 2026-06-22 10:37 ===
+  the_nine_chapters_on_the_mathematical_art: "A Chinese mathematics book, composed by several generations of scholars from the 10th–2nd century BCE, its latest stage being from the 1st century CE",
+  from_documentary_evidence_this_tomb: "Known to have been closed in 186 BCE, early in the Western Han dynasty",
+  while_its_relationship_to_the_nine_chapters: "Still under discussion by scholars, some of its contents are clearly paralleled there",
+  the_subtraction: "'divide by the same name, benefit by different names",
+  the_addition: "'divide by different names, benefit from each other by the same name",
+  gou_gu_integer: "Precisely the finding of some significant integer Pythagorean numbers, including famously the triple 3,4,5",
+
 };
 
 // ============================================================
