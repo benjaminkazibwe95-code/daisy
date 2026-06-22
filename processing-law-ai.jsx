@@ -17647,6 +17647,14 @@ const FLAT_DICT = {
   if_the_theory: { definition: "Successful, it may be considered a ' Theory of Everything ', or 'TOE'", what_it_does: "", examples: "isotopes used in PET imaging ), or used directly in external beam radiotherapy" },
   the_world_wide_web_and_touchscreen_technology: "Initially developed at CERN",
 
+  // === INGESTED 2026-06-22 07:08 ===
+  the_ultimate_goal_of_this_research: "To identify what aspects of the ontology of the physical world make quantum theory a good tool for agents to use",
+  chief_among_the_tenets_of_qbism: { definition: "The following: [ 30 ] Reactions to the QBist interpretation have ranged from enthusiastic [ 12 ] [ 24 ] to strongly negative", what_it_does: "", examples: "Mohrhoff criticizes QBism from the standpoint of Kantian philosophy" },
+  consider_a_quantum_system_to_which: "Associated a d {\textstyle d} -dimensional Hilbert space",
+  note_that_the_urgleichung: "Structurally very similar to the law of total probability , which is the expression P ( D j ) = ∑ i = 1 d 2 P ( H i ) P ( D j ∣ H i )",
+  the_law_of_total_probability: "A consequence of coherence within the operational context of performing the two measurements as described",
+  those_qbists_who_find_this_approach_promising: "Pursuing a complete reconstruction of quantum theory featuring the urgleichung as the key postulate",
+
 };
 
 // ============================================================
