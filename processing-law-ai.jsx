@@ -20622,6 +20622,16 @@ const FLAT_DICT = {
   threatened_plants: "Then able to take defensive chemical measures, such as moving tannin compounds to their foliage",
   this_derision_arises_in_part_as_it: { definition: "Hard to abstract smell; it is difficult to describe an odor without reference to its source (e.g", what_it_does: "", examples: "the smells of holiday meals and chocolate chip cookies has been described as particularly evocative" },
 
+  // === INGESTED 2026-06-22 15:47 ===
+  the_village: "Now named Corteno Golgi in his honour",
+  at_the_same_time_he: "Also involved in the medical team for investigating cholera epidemic in villages around Pavia",
+  lombroso: "A renowned scientist in medical psychology such as genius, madness and criminality",
+  his_major_achievement: "The development of staining technique for nerve tissue called the black reaction (later the Golgi's method )",
+  the_available_tissue_staining_techniques: "Useless for studying nervous tissue",
+  his_discovery: "Published in the Gazzeta Medica Italiani on 2 August 1873",
+  but_scientists: "Sceptical until Golgi intervened",
+  their_microscopes: "Not powerful enough to identify the organelles",
+
 };
 
 // ============================================================
