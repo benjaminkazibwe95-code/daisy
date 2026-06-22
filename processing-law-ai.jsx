@@ -18657,6 +18657,14 @@ const FLAT_DICT = {
   trichloroacetic_acid: { definition: "Widely used in biochemistry for the precipitation of macromolecules, such as proteins , DNA , and RNA", what_it_does: "", examples: "genital warts" },
   another_route_to_trichloroacetic_acid: "The oxidation of trichloroacetaldehyde",
 
+  // === INGESTED 2026-06-22 09:50 ===
+  acidic: "Also involved with The Leukemia & Lymphoma Society , which helped drummer Matt Whitaker and his family during his battle with cancer",
+  whitaker: "A paediatric cancer survivor, having overcome leukemia when he was seven",
+  new_music: "Already being tested with fans on the road and winning raves never before seen in preparation for their next CD",
+  the_upcoming_album: { definition: "The third ACIDIC album produced by John Ryan of Chicago Kid Productions, who by this point has become a valued adviser and mentor to the band", what_it_does: "", examples: "Liz Phair and Avril Lavigne )" },
+  several_earlier_tunes: "Reworked and definitely 'new and improved,' including 'Break Me Down,' 'Her Walls Are Coming Down,' 'Black Box,' 'Goodbye,' and 'Ironic Dreams",
+  they_are_professionals_with_a_clean_style_who: "Able to achieve an energetic stage presence while still appearing like three very approachable guys",
+
 };
 
 // ============================================================
