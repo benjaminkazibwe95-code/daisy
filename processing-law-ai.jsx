@@ -21834,6 +21834,26 @@ const FLAT_DICT = {
   other_terms: { definition: "More colloquial, coined and used by practitioners in the field, and are similar to slang", what_it_does: "", examples: "emails, reports, and other forms of documentation" },
   it_can_indicate_to_the_audience_that_a_speaker: { definition: "An insider with using specialized terms in the field to make an argument based on authority and credibility", what_it_does: "", examples: "a football coach talking to their team or a doctor working with nurses" },
 
+  // === INGESTED 2026-06-22 19:17 ===
+  interoception: "The collection of senses providing information to the organism about the internal state of the body",
+  the_most_commonly_studied_system: "Cardiovascular interoception which is typically measured by directing attention towards the sensation of the heartbeat during various tasks",
+  soft_cutaneous_touch: "Another sensory signal often included within the interoceptive processing system",
+  the_concept_of_interoception: "Introduced in 1906 by the Nobel Laureate Sir Charles S",
+  and_proprioceptors: { definition: "Those found in skeletal tissue that control voluntary movement", what_it_does: "", examples: "interoception is the fundament of the modern view on allostasis and allostatic load" },
+  predictive_regulation: "The brain's ability to anticipate needs and prepare to fulfill them before they arise",
+  magnitude: "The intensity of the stimulus, or how strongly the stimuli is felt",
+  their_reported_count: "Then compared with the actual count obtained with an electrocardiogram",
+  heartbeat_detection: { definition: "Commonly used because of its ability discern an individual's performance above chance levels, so-called 'good detectors'", what_it_does: "", examples: "the heartbeat, breath, or stomach" },
+  temperature_and_pain: { definition: "Thought to be represented as 'feelings' of coolness and warmness and pleasantness or unpleasantness in the brain", what_it_does: "", examples: "moving away from a source of heat to a cooler space)" },
+  the_endocrine_and_immune_systems: "Necessary body systems that aid in allostasis and homeostatic control",
+  the_human_vmpo: "Much larger than that of primates and sub-primates [ 53 ] and is important for processing of nociceptive, thermoregulatory, and visceral sensations",
+  each_of_these_portions_of_the_insular_cortex: "Important for different levels of functional connectivity",
+  information_from_the_thalamus: "Projected to all three regions",
+  those_with_increased_granulation: "Considered to be capable of receiving sensory input",
+  palpitations_and_dyspnea: { definition: "Hallmarks of panic attacks", what_it_does: "", examples: "somatic experiencing use an interoceptive approach to treat PTSD" },
+  the_classical_view_of_information_processing: "That when a peripheral stimulus provided information to the central nervous system , it was processed in the brain, and a response was elicited",
+  acupuncture: "An alternative treatment type for many people with anxiety and depression",
+
 };
 
 // ============================================================
