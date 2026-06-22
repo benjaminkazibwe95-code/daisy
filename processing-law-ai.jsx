@@ -17627,6 +17627,26 @@ const FLAT_DICT = {
   science_policy_sometimes: { definition: "The act of applying scientific knowledge and consensus to the development of public policies", what_it_does: "", examples: "YouTube and Khan Academy), museums, and science magazines and blogs" },
   scientists_in_some_countries: "Found to have a bias in political party preferences compared to the general population",
 
+  // === INGESTED 2026-06-22 07:06 ===
+  particle_physics_or_highenergy_physics: "The study of fundamental particles and forces that constitute matter and radiation",
+  the_fundamental_particles_in_the_universe: "Classified in the Standard Model as fermions (matter particles) and bosons (force-carrying particles)",
+  hadrons_that_contain_an_odd_number_of_quarks: "Called baryons and those that contain an even number are called mesons",
+  mesons: { definition: "Also produced in cyclotrons or other particle accelerators", what_it_does: "", examples: "the antiparticle of the electron is the positron" },
+  these_elementary_particles: { definition: "Excitations of the quantum fields that also govern their interactions", what_it_does: "", examples: "loop quantum gravity , string theory and supersymmetry theory" },
+  experimental_particle_physics: "The study of these particles in radioactive processes and in particle accelerators such as the Large Hadron Collider",
+  theoretical_particle_physics: "The study of these particles in the context of cosmology and quantum theory",
+  the_two: "Closely interrelated: the Higgs boson was postulated theoretically before being confirmed by experiments",
+  the_idea_that_all_matter: { definition: "Fundamentally composed of elementary particles dates from at least the 6th century BC", what_it_does: "", examples: "the electron" },
+  the_large_number_of_particles: "Explained as combinations of a (relatively) small number of more fundamental particles and framed in the context of quantum field theories",
+  the_species_of_gauge_bosons: { definition: "Eight gluons , W − , W + and Z bosons , and the photon", what_it_does: "", examples: "electromagnetism , the weak interaction , and the strong interaction" },
+  baryons_and_mesons: "Collectively called hadrons",
+  quarks_inside_hadrons: "Governed by the strong interaction, thus are subjected to quantum chromodynamics (color charges)",
+  those_efforts: "Made challenging by the difficulty of calculating high precision quantities in quantum chromodynamics",
+  another_major_effort: "In model building where model builders develop ideas for what physics may lie beyond the Standard Model (at higher energies or smaller distances)",
+  vanishingdimensions_theory: "A particle physics theory suggesting that systems with higher energy have a smaller number of dimensions",
+  if_the_theory: { definition: "Successful, it may be considered a ' Theory of Everything ', or 'TOE'", what_it_does: "", examples: "isotopes used in PET imaging ), or used directly in external beam radiotherapy" },
+  the_world_wide_web_and_touchscreen_technology: "Initially developed at CERN",
+
 };
 
 // ============================================================
