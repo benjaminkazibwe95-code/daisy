@@ -17233,6 +17233,14 @@ const FLAT_DICT = {
   higher_resolution_computer_simulations: "Better described by the Einasto profile : [ 28 ] where r is the spatial (i.e., not projected) radius",
   the_dark_matter_halo: "Likely to include around 6 × 10 11 to 3 × 10 12 M ☉ of dark matter",
 
+  // === INGESTED 2026-06-22 06:10 ===
+  the_term_planck_scale: "Quantities of space, time, energy and other units that are similar in magnitude to corresponding Planck units",
+  all_planck_units: "Derived from the dimensional universal physical constants that define the system, and in a convention in which these units are omitted (i.e",
+  the_planck_units: { definition: "Based on the quantum of action , usually called the Planck constant, which appeared in the Wien approximation for black-body radiation", what_it_does: "", examples: "extraterrestrial and non-human ones, which can be called 'natural units of measure'" },
+  at_lower_energies_it: { definition: "Usually ignored, while for energies approaching or exceeding the Planck scale, a new theory of quantum gravity is necessary", what_it_does: "", examples: "time and length) cannot be equated even if they are numerically equal (e.g" },
+  these_normalizations: "Neither the only ones possible nor necessarily the best",
+  when_this: "Applied to electromagnetic constants, ε 0 , this unit system is called ' rationalized '",
+
 };
 
 // ============================================================
