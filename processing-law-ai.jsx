@@ -21251,6 +21251,10 @@ const FLAT_DICT = {
   due_to_this_there: { definition: "Large stockpiles of waste unable to be recycled safely", what_it_does: "", examples: "Beijing have received the worst air quality rankings (Li et al ., 2017)" },
   energy_star: { definition: "A program with a primary goal of increasing energy efficiency and indirectly decreasing greenhouse gas emissions", what_it_does: "", examples: "the United States, [ 35 ] the European Union [ 36 ] and Australia" },
 
+  // === INGESTED 2026-06-22 17:39 ===
+  armatimonadota: "Originally described solely on the basis of environmental 16S rRNA gene clone sequences, and was temporarily titled candidate phylum OP10",
+  the_species_was_named_armatimonas_rosea_and: "The first member of its phylum, genus, and species",
+
 };
 
 // ============================================================
