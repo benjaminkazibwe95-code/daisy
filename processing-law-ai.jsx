@@ -21340,6 +21340,12 @@ const FLAT_DICT = {
   the_international_journal_of_psychoanalysis: { definition: "Published by the Institute of Psychoanalysis", what_it_does: "", examples: "Wolpe ) into the 1940s and '50s, and have persisted (e.g., Miller )" },
   he_concluded_that_there: { definition: "Little evidence to support the existence of the Oedipus complex", what_it_does: "", examples: "implicit attitude measures, fMRI , PET scans , and other indirect tests)" },
 
+  // === INGESTED 2026-06-22 17:56 ===
+  reidhead: "Vice president and publishing director of Norton's College division and a former editor of the Norton Anthologies",
+  annotations_to_the_text: "Provided as footnotes, rather than as endnotes",
+  the_states_and_the_nation_series: "Published in celebration of the United States Bicentennial",
+  the_series: "Administered by the American Association for State and Local History via a grant from the National Endowment for the Humanities",
+
 };
 
 // ============================================================
