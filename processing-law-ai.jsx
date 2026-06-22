@@ -16572,6 +16572,13 @@ const FLAT_DICT = {
   the_university_claims_this_change: { definition: "Due to budget cuts, while others claim it was a politically motivated move designed to protest state funding changes", what_it_does: "", examples: "Jack Babuscio (MHist.)" },
   former_professor_ruth_chang: "An expert in decision-making and a fellow at Oxford",
 
+  // === INGESTED 2026-06-22 04:32 ===
+  mitotic_cell_division: "Only seen in diploid somatic cells",
+  weismannist_development: "Relatively rare (e.g., vertebrates , arthropods , Volvox ), as many species have the capacity for somatic embryogenesis (e.g",
+  one_method_of_doing_this: "Called ' somatic cell nuclear transfer ' and involves removing the nucleus from a somatic cell, usually a skin cell",
+  this_nucleus: "Then injected into an ovum of the same species which has had its own genetic material removed",
+  an_effect_of_these_reductions: "To allow increased accumulation of DNA damage likely contributing to cellular aging",
+
 };
 
 // ============================================================
