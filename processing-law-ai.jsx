@@ -20509,6 +20509,25 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 15:32 ===
   bliss: "On the board of the Feldberg Foundation [ 10 ] and was trustee of Sir John Soane's Museum from 2004 to 2009",
 
+  // === INGESTED 2026-06-22 15:34 ===
+  other_predators: "Opportunistic or omnivorous and only practice predation occasionally",
+  most_obligate_carnivores: { definition: "Specialized for hunting", what_it_does: "", examples: "vision , hearing , or smell for prey detection" },
+  physical_strength: { definition: "Usually necessary for large carnivores such as big cats to kill larger prey", what_it_does: "", examples: "the jackal and the hyena scavenge when the opportunity arises" },
+  one_such: { definition: "The Lévy walk , that tends to involve clusters of short steps with occasional long steps", what_it_does: "", examples: "bacteria, honeybees, sharks and human hunter-gatherers" },
+  prey_that: { definition: "Too small may not be worth the trouble for the amount of energy it provides", what_it_does: "", examples: "a mantid captures prey with its forelegs and they are optimized for grabbing prey of a certain size" },
+  mantids: "Reluctant to attack prey that is far from that size",
+  the_african_wild_dog: { definition: "An extreme persistence predator, tiring out individual prey by following them for many miles at relatively low speed", what_it_does: "", examples: "if it possesses sharp or poisonous spines, as in many prey fish" },
+  these_predators: { definition: "Able to access small crevices and flush out the prey", what_it_does: "", examples: "the cougar and cheetah" },
+  since_specialization: "Caused by predator-prey coevolution, the rarity of specialists may imply that predator-prey arms races are rare",
+  an_alternative_explanation: "Escalation , where predators are adapting to competitors, their own predators or dangerous prey",
+  avoidance: { definition: "Not necessarily an evolutionary response as it is generally learned from bad experiences with prey", what_it_does: "", examples: "the cycles observed in lynx and snowshoe hares" },
+  carnivores_that_feed_on_herbivores: { definition: "Secondary consumers; their predators are tertiary consumers, and so forth", what_it_does: "", examples: "coyotes compete with and sometimes kill gray foxes and bobcats" },
+  such_predators: { definition: "Known as keystone species and may have a profound influence on the balance of organisms in a particular ecosystem", what_it_does: "", examples: "grazers of a grassland may prevent a single dominant species from taking over" },
+  the_predators: { definition: "Thus demonstrated to be of vital importance in the ecosystem", what_it_does: "", examples: "through an increase in the number of young they bear" },
+  a_wellknown_example: "That of the snowshoe hare and lynx",
+  if_this_rate: { definition: "Limited by time spent handling each catch, then prey populations can reach densities above which predators cannot control them", what_it_does: "", examples: "insect flight [ 158 ] ) and armoured shells and exoskeletons" },
+  because_the_fossil_record: { definition: "Poor, these first predators could date back anywhere between 1 and over 2.7 Gya (billion years ago)", what_it_does: "", examples: "Tyrannosaurus from the Cretaceous period" },
+
 };
 
 // ============================================================
