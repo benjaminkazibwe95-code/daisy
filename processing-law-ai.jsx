@@ -21224,6 +21224,10 @@ const FLAT_DICT = {
   the_assembly_process: { definition: "Two enzymatic activities: transglycosylation and transpeptidation", what_it_does: "", examples: "osmotic pressure, so that the bacteria cannot survive and are eliminated by the immune system" },
   that_is_why_vancomycin: { definition: "Mainly used to treat infections caused by Gram-positive bacteria [ 17 ] (except some nongonococcal species of Neisseria )", what_it_does: "", examples: "vancomycin-intermediate S" },
 
+  // === INGESTED 2026-06-22 17:29 ===
+  while_this_role: { definition: "Also played by fungi , actinomycetota are much smaller and likely do not occupy the same ecological niche", what_it_does: "", examples: "many members of the genus Mycobacterium , are important pathogens" },
+  classification_of_gardnerella: { definition: "Controversial, and MeSH catalogues it as both a Gram-positive and Gram-negative organism", what_it_does: "", examples: "insecticides , herbicides , fungicides , and growth-promoting substances for plants and animals" },
+
 };
 
 // ============================================================
