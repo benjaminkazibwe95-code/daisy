@@ -17004,6 +17004,22 @@ const FLAT_DICT = {
   the_theory_that_describes_strong_interactions: "Called quantum chromodynamics (QCD)",
   this_theoretical_phase_of_matter: "Called quark–gluon plasma",
 
+  // === INGESTED 2026-06-22 05:45 ===
+  the_term_atomic_physics: "Often associated with nuclear power and nuclear bombs , due to the synonymous use of atomic and nuclear in standard English",
+  although_this_field: "Related to atomic physics , there are also additional degrees of freedom that create more complicated Hamiltonians with interesting underlying physics",
+  the_way_that_this_is_studied: "By characterizing the system's Hamiltonian and understanding the energy levels of the system",
+  molecular_physics: "Concerned with atomic processes in molecules, but it is also concerned with effects due to the molecular structure",
+  these_rotations_and_vibrations: "Quantized; there are discrete energy levels",
+  vibrational_spectra: "In the near infrared (about 1 - 5 μm) and spectra resulting from electronic transitions are mostly in the visible and ultraviolet regions",
+  physics_research_groups: { definition: "Usually so classified", what_it_does: "", examples: "the experimental demonstration of electromagnetically induced transparency by S" },
+  major_study_in_optical_physics: "Also devoted to quantum optics and coherence , and to femtosecond optics",
+  one_attempt_to_explain_hydrogen_spectral_lines: "The Bohr atom model",
+  the_equation_describing_these_standing_waves: "Given by: where E 0 is the magnitude of the electric field amplitude, and E is the magnitude of the electric field at position x",
+  his_prediction_of_the_energy_levels: "Then consistent with observation",
+  which_aspects_of_the_problem: "Treated quantum mechanically and which are treated classically is dependent on the specific problem at hand",
+  the_semiclassical_approach: "Ubiquitous in computational work within AMO, largely due to the large decrease in computational cost and complexity associated with it",
+  electrons_that_populate_a_shell: "Said to be in a bound state",
+
 };
 
 // ============================================================
