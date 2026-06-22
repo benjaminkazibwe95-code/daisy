@@ -18713,6 +18713,11 @@ const FLAT_DICT = {
   this_tendency: "Known as electronegativity",
   when_a_highly_electropositive_metal: "Combined with a highly electronegative nonmetal, the extra electrons from the metal atoms are transferred to the electron-deficient nonmetal atoms",
 
+  // === INGESTED 2026-06-22 09:58 ===
+  freeware: "Also often bundled with other products such as digital cameras or scanners",
+  xnview: "Available free of charge for personal use but must be licensed for commercial use",
+  in_the_latter_case_it: "Colloquially known as nagware",
+
 };
 
 // ============================================================
