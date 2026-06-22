@@ -21656,6 +21656,10 @@ const FLAT_DICT = {
   note_that_the_template_strand_of_the_dna: "The one the RNA is polymerized against; the other DNA strand would be the same as the RNA, but with thymine instead of uracil",
   note_that_there: "3 translation 'windows', or reading frames , depending on where you start reading the code",
 
+  // === INGESTED 2026-06-22 18:44 ===
+  a_variety_of_tests: "Used to gauge verbal memory, including learning lists or pairs of words, or recalling a story after it has been told",
+  although_leftlateralization: "Typically associated with language, studies suggest that symmetrical bi-lateralization of language in the brain is advantageous to verbal recall",
+
 };
 
 // ============================================================
