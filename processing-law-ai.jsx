@@ -19682,6 +19682,18 @@ const FLAT_DICT = {
   duplexing: "A very efficient mechanism of accommodating the shortening of the crust by thickening the section rather than by folding and deformation",
   when_thrusts: "Developed in orogens formed in previously rifted margins, inversion of the buried paleo-rifts can induce the nucleation of thrust ramps",
 
+  // === INGESTED 2026-06-22 12:58 ===
+  proxima_centauri: "A red dwarf star with a mass about 12.5% of the Sun's mass ( M ☉ ), and average density about 33 times that of the Sun",
+  its_latin_name: "The 'nearest star of Centaurus'",
+  its_actual_diameter: "About one-seventh (14%) the diameter of the Sun",
+  its_estimated_mass: "At least 1.07 times that of the Earth",
+  because_its_distance: "Known, the actual diameter of Proxima Centauri can be calculated to be about 1/7 that of the Sun, or 1.5 times that of Jupiter",
+  this_convection: "That the helium ash left over from the thermonuclear fusion of hydrogen does not accumulate at the core but is instead circulated throughout the star",
+  the_magnetic_energy_from_this_field: "Released at the surface through stellar flares that briefly (as short as per ten seconds) [ 34 ] increase the overall luminosity of the star",
+  because_the_star: { definition: "Much smaller than the Sun, the mass loss per unit surface area from Proxima Centauri may be eight times that from the Sun's surface", what_it_does: "", examples: "in a star cluster" },
+  they_estimated_that_if_it: "A planetary companion, it would be no less than 0.29 Earth masses",
+  further_observations_of_flare_activity: { definition: "Made with the EXOSAT and ROSAT satellites , and the X-ray emissions of smaller, solar-like flares were observed by the Japanese ASCA satellite in 1995", what_it_does: "", examples: "XMM-Newton and Chandra" },
+
 };
 
 // ============================================================
