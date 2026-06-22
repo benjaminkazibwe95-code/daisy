@@ -15255,6 +15255,36 @@ const FLAT_DICT = {
   certain_parts_of_the_image: "Encoded with higher quality than others",
   the_quality_of_a_compression_method_often: "Measured by the peak signal-to-noise ratio",
 
+  // === INGESTED 2026-06-22 00:49 ===
+  the_strength_of_the_signal_at_each_connection: "Determined by a weight , which adjusts as part of the training process",
+  groups_of_neurons: "Aggregated into layers",
+  deep_neural_networks: "Based on statistics developed over 200 years ago",
+  this_technique: { definition: "The method of least squares or linear regression", what_it_does: "", examples: "Rosenblatt's perceptron and the Hopfield network" },
+  other_neural_networks_computational_machines: "Created by Rochester , Holland, Habit and Duda (1956)",
+  these_limitations: "Highlighted in the book Perceptrons by Marvin Minsky and Seymour Papert , which deflated interest during the late 1960s and 1970s",
+  the_activation_functions_of_the_nodes: { definition: "Kolmogorov-Gabor polynomials , the first deep networks with multiplicative units or 'gates'", what_it_does: "", examples: "cats, from training only on unlabeled images" },
+  nns: "Further vulnerable to adversarial examples ('poison'), that can cause incorrect predictions",
+  training_takes_place_before_a_network: "Deployed, and (unlike brains) does not continue thereafter",
+  when_the_cost: "Low, the difference between the output ( e.g",
+  the_error_amount: "Essentially divided among the connections",
+  optimizations_such_as_quickprop: "Primarily aimed at accelerating learning",
+  the_learning_task: "To produce the desired output for each input",
+  the_cost_function: "Dependent on the task (the model domain) and reflects a priori assumptions (implicit model properties, its parameters and the observed variables)",
+  ssl_tasks: { definition: "Designed so that solving them requires capturing essential features or relationships in the data", what_it_does: "", examples: "audio processing , and is being used by Facebook and others for speech recognition" },
+  the_cost: "The inverse of the score",
+  selflearning: "Introduced in 1982 along with a crossbar adaptive array (CAA) NN that could teach itself",
+  convergent_recursion: "A learning algorithm for cerebellar model articulation controller (CMAC) neural networks",
+  a_common_compromise: { definition: "To use 'mini-batches', small batches with samples in each batch selected stochastically from the entire data set", what_it_does: "", examples: "number of units, number of layers, unit weights and topology" },
+  models_that_work_well_with_textual_data: "Typically not the best choice for image data, etc",
+  an_important_element: "Which training/learning the model uses",
+  the_basic_algorithm: "To propose a candidate model, evaluate it against a dataset, and use the results as feedback to teach the NAS network",
+  hyperparameters: "Design choices (they are not learned)",
+  the_vc_dimension_for_arbitrary_inputs: "Half the information capacity of a perceptron",
+  the_vc_dimension_for_arbitrary_points: "Sometimes referred to as Memory Capacity",
+  deeper_neural_networks: "More biased towards low frequency functions",
+  a_confidence_analysis_made_this_way: { definition: "Statistically valid as long as the output probability distribution stays the same and the network is not modified", what_it_does: "", examples: "image classification, object and facial recognition, and image segmentation" },
+  one_corrective: "To add synthetic data to offset the bias",
+
 };
 
 // ============================================================
