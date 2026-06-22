@@ -22080,6 +22080,10 @@ const FLAT_DICT = {
   the_altruistic_mechanism: "Based on an altruistic ultimate desire to care for its offspring",
   as_availability_and_energetic_efficiency: "Taken to be equivalent for both mechanisms it follows that the more reliable mechanism will then be the more likely mechanism",
 
+  // === INGESTED 2026-06-22 19:59 ===
+  it_follows_that_punishment: "A dangerous tool, since it often has effects which are entirely the opposite of those desired'",
+  having_a_low_frustration_tolerance: "Related to trait anger and a higher level of frustration tolerance is related to lower levels of anger and longer persistence on difficult tasks",
+
 };
 
 // ============================================================
