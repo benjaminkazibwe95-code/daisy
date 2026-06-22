@@ -18070,6 +18070,13 @@ const FLAT_DICT = {
   the_denominator: { definition: "The volume of the solution, not of the solvent", what_it_does: "", examples: "one liter of standard vodka contains about 0.40 L of ethanol (315 g, 6.85 mol) and 0.60 L of water" },
   the_amount_concentration_of_ethanol: { definition: "Therefore (6.85 mol of ethanol)/(1 L of vodka) = 6.85 mol/L, not (6.85 mol of ethanol)/(0.60 L of water), which would be 11.4 mol/L", what_it_does: "", examples: "each liter of a '0.5 molar' or '0.5 M' solution of urea ( CH 4 N 2 O ) in water contains 0" },
 
+  // === INGESTED 2026-06-22 08:16 ===
+  whereas_the_common_hydrogen_atom: "Composed of an electron and proton , the antihydrogen atom is made up of a positron and antiproton",
+  the_results: { definition: "In good agreement with predictions based on normal hydrogen and can be 'interpreted as a test of CPT symmetry at a precision of 200 ppt", what_it_does: "", examples: "excited antihydrogen atoms are expected to glow the same color as regular hydrogen" },
+  if_antihydrogen_atoms: "Suspended in a perfect vacuum , they should survive indefinitely",
+  the_first_antihydrogen: "Produced in 1995 by a team led by Walter Oelert at CERN [ 11 ] using a method first proposed by Charles Munger Jr",
+  antihydrogen: { definition: "First produced by ATHENA in 2002, [ 20 ] and then by ATRAP [ 21 ] and by 2004, millions of antihydrogen atoms were made", what_it_does: "", examples: "antideuterium ( D ), antitritium ( T ), and antihelium ( He ) are much more difficult to produce" },
+
 };
 
 // ============================================================
