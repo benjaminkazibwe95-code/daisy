@@ -19000,6 +19000,36 @@ const FLAT_DICT = {
   most_of_these_classes: "Divided further into two and three level sub-classes",
   the_main_difference_between_ddc_and_lcc: "Their approach to classifying",
 
+  // === INGESTED 2026-06-22 10:52 ===
+  graphs: "The basic subject studied by graph theory",
+  an_empty_graph: "A graph that has an empty set of vertices (and thus an empty set of edges)",
+  the_order_of_a_graph: "Its number | V | of vertices, usually denoted by n",
+  the_size_of_a_graph: "Its number | E | of edges, typically denoted by m",
+  the_degree_or_valency_of_a_vertex: "The number of edges that are incident to it; for graphs with loops, a loop is counted twice",
+  the_edge: "Said to join x and y and to be incident on x and on y",
+  a_multigraph: "A generalization that allows multiple edges to have the same pair of endpoints",
+  such_generalized_graphs: "Called graphs with loops or simply graphs when it is clear from the context that loops are allowed",
+  a_directed_graph_or_digraph: "A graph in which edges have orientations",
+  a_loop: "An edge that joins a vertex to itself",
+  a_mixed_graph: { definition: "A graph in which some edges may be directed and some may be undirected", what_it_does: "", examples: "costs, lengths or capacities, depending on the problem at hand" },
+  one_definition_of_an_oriented_graph_is_that_it: "A directed graph in which at most one of ( x , y ) and ( y , x ) may be edges of the graph",
+  a_regular_graph: "A graph in which each vertex has the same number of neighbours, i.e., every vertex has the same degree",
+  a_regular_graph_with_vertices_of_degree_k: "Called a k ‑regular graph or regular graph of degree k",
+  a_complete_graph: "A graph in which each pair of vertices is joined by an edge",
+  a_finite_graph: "A graph in which the vertex set and the edge set are finite sets",
+  most_commonly_in_graph_theory_it: "Implied that the graphs discussed are finite",
+  if_the_graphs: "Infinite, that is usually specifically stated",
+  a_connected_graph: "An undirected graph in which every unordered pair of vertices in the graph is connected",
+  a_strongly_connected_graph: "A directed graph in which every ordered pair of vertices in the graph is strongly connected",
+  otherwise_it: "Called a disconnected graph",
+  a_k_vertexconnected_graph: "Often called simply a k-connected graph",
+  a_planar_graph: "A graph whose vertices and edges can be drawn in a plane such that no two of the edges intersect",
+  a_tree: "An undirected graph in which any two vertices are connected by exactly one path , or equivalently a connected acyclic undirected graph",
+  two_vertices_of_a_directed_graph: "Called consecutive if the head of the first one is the tail of the second one",
+  the_graph_with_only_one_vertex_and_no_edges: "Called the trivial graph",
+  a_graph_with_only_vertices_and_no_edges: "Known as an edgeless graph",
+  the_graph_with_no_vertices_and_no_edges: { definition: "Sometimes called the null graph or empty graph , but the terminology is not consistent and not all mathematicians allow this object", what_it_does: "", examples: "by the numbers of incident edges" },
+
 };
 
 // ============================================================
