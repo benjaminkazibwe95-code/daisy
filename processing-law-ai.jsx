@@ -22067,6 +22067,19 @@ const FLAT_DICT = {
   it_is_much_easier_to_trust_someone_who: "Willing to share feelings openly, even if it may not be what the client always wants; this allows the therapist to foster a strong relationship",
   the_role_of_the_therapist: { definition: "To provide empathy and to listen attentively to the client", what_it_does: "", examples: "Relevant work was not confined to these pioneer thinkers" },
 
+  // === INGESTED 2026-06-22 19:57 ===
+  psychological_egoism_is_the_view_that_humans: { definition: "Always motivated by self-interest and selfishness , even in what seem to be acts of altruism", what_it_does: "", examples: "ethical egoism and rational egoism" },
+  a_specific_form_of_psychological_egoism: "Psychological hedonism , the view that the ultimate motive for all voluntary human action is the desire to experience pleasure or to avoid pain",
+  whether_or_not_sigmund_freud: "A psychological egoist, his concept of the pleasure principle borrowed much from psychological egoism and psychological hedonism in particular",
+  using_pleasure_and_pain_to_control_behavior: "Behaviorists assumed the principles of psychological hedonism could be applied to predicting human behavior",
+  even_though_it: "True that every human being seeks their own satisfaction, this sometimes may only be achieved via the well-being of their neighbor",
+  the_helpful_action: { definition: "Merely instrumental to these ultimately selfish goals", what_it_does: "", examples: "pride , self-worth, power or reciprocal beneficial action)" },
+  this_objection: "Tendered by William Hazlitt [ 30 ] and Thomas Macaulay [ 31 ] in the 19th century, and has been restated many times since",
+  an_earlier_version_of_the_same_objection: "Made by Joseph Butler in the Fifteen Sermons",
+  the_hedonistic_mechanism: "Based on a parent's ultimate desire for pleasure or the avoidance of pain and a belief that caring for its offspring will be instrumental to that",
+  the_altruistic_mechanism: "Based on an altruistic ultimate desire to care for its offspring",
+  as_availability_and_energetic_efficiency: "Taken to be equivalent for both mechanisms it follows that the more reliable mechanism will then be the more likely mechanism",
+
 };
 
 // ============================================================
