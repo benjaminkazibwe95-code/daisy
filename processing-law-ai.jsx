@@ -17275,6 +17275,10 @@ const FLAT_DICT = {
   his_research_on_the_subject: "Published in 1957 and 1961",
   bohr_asked_whether_they: "Stable and further research by Wheeler determined that they are not",
 
+  // === INGESTED 2026-06-22 06:16 ===
+  the_remaining_four_digits: "Used in the page field",
+  modern_bibcodes: "Likely to be deprecated in the future, and users should not depend on semantic meaning represented in the bibcode",
+
 };
 
 // ============================================================
