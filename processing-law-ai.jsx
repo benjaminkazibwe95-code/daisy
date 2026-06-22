@@ -23309,6 +23309,19 @@ const FLAT_DICT = {
   also_starting_with_endybis_these_coins: "2.11-2.5 grams in weight which is half the weight of a Roman antoninianus of 3.5-4.5 grams",
   that_coinage_began_so_late: { definition: "In fact a little surprising", what_it_does: "", examples: "Nubia , South Arabia and the Horn of Africa" },
 
+  // === INGESTED 2026-06-22 23:41 ===
+  the_species: { definition: "Adaptive and successful, and persisted for more than a million years before gradually diverging into new species around 500,000 years ago", what_it_does: "", examples: "Neanderthals are thought to have survived until around 40,000 years ago" },
+  the_genus_homo: "Given its taxonomic name to suggest that its member species can be classified as human",
+  erectus: "Present in both East Africa ( H",
+  ergaster_which: { definition: "In turn derived from H", what_it_does: "", examples: "Europe , Indonesia , China ) by 0.5 Mya" },
+  this_scenario: { definition: "Strengthened with the discovery of Homo erectus georgicus , early specimens of H", what_it_does: "", examples: "they showed increased cranial capacity from around 575 cm 3 in H" },
+  approximate_radiation_dates_of_daughter_clades: "Shown in millions of years ago (Mya)",
+  the_naming_of_groupings: "Sometimes muddled as often certain groupings are presumed before any cladistic analysis is performed",
+  europe: "Reached by about 0.5 Mya by Homo heidelbergensis",
+  homo_naledi: "Present in Southern Africa by 300 kya",
+  division_of_europeans_and_east_asians: "Of the order of 50,000 years, with repeated and significant admixture events throughout Eurasia during the Holocene",
+  neanderthalensis: "Closely related to each other and have been considered to be subspecies of H",
+
 };
 
 // ============================================================
