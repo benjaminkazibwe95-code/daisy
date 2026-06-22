@@ -19153,6 +19153,13 @@ const FLAT_DICT = {
   as_the_university_of_london: { definition: "The first in England to admit all, regardless of race , creed or political belief, it was largely consistent with Bentham's vision", what_it_does: "", examples: "Theory of Legislation , Volume 2 ( Principles of the Penal Code ) 1840, Weeks, Jordan, & Company" },
   the_collected_works: "Providing many unpublished works, as well as much-improved texts of works already published",
 
+  // === INGESTED 2026-06-22 11:25 ===
+  the_same_notation: "Used for the series, and, if it is convergent, to its sum",
+  this_convention_is_similar_to_that_which: "Used for addition: a + b denotes the operation of adding a and b as well as the result of this addition , which is called the sum of a and b",
+  any_series_that_is_not_convergent: "Said to be divergent or to diverge",
+  the_ratio_test_and_the_root_test: "Both based on comparison with a geometric series, and as such they work in similar situations",
+  the_root_test: "Therefore more generally applicable, but as a practical matter the limit is often difficult to compute for commonly seen types of series",
+
 };
 
 // ============================================================
