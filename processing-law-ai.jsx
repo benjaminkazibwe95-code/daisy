@@ -18396,6 +18396,32 @@ const FLAT_DICT = {
   organic_reactions: "Chemical reactions involving organic compounds",
   the_general_theory_of_these_reactions: "Careful analysis of such properties as the electron affinity of key atoms, bond strengths and steric hindrance",
 
+  // === INGESTED 2026-06-22 09:08 ===
+  the_word_urea: "Neo-Latin , from French urée , from Ancient Greek οὖρον ( oûron ) ' urine '",
+  urea: { definition: "Found in the urine of mammals and amphibians , as well as some fish", what_it_does: "", examples: "birds, invertebrates , insects, plants, yeast , fungi , and even microorganisms" },
+  the_urea_molecule: "Planar when in a solid crystal because of sp 2 hybridization of the N orbitals",
+  the_resulting_hydrogenbond_network: "Probably established at the cost of efficient molecular packing: The structure is quite open, the ribbons forming tunnels with square cross-section",
+  the_carbon_in_urea: { definition: "Described as sp 2 hybridized, the C−N bonds have significant double bond character, and the carbonyl oxygen is relatively basic", what_it_does: "", examples: "treatment with anilinium gives both N-phenylurea and N,N'-diphenylurea" },
+  ureas: "Closely related to biurets and related in structure to amides , carbamates , carbodiimides , and thiocarbamides",
+  the_ammonium: "Taken up by the plant through its roots",
+  the_most_common_impurity_of_synthetic_urea: { definition: "Biuret , which impairs plant growth", what_it_does: "", examples: "injects a water-based urea solution into the exhaust system" },
+  a_mixture_of_urea_and_choline_chloride: { definition: "Used as a deep eutectic solvent (DES), a substance similar to ionic liquid", what_it_does: "", examples: "diet, dehydration, [ 45 ] and liver function" },
+  because_ammonia: "Toxic, it is excreted immediately by fish, converted into uric acid by birds, and converted into urea by mammals",
+  urea_production_occurs_in_the_liver_and: "Regulated by N -acetylglutamate",
+  this_mechanism: "Important to prevent the loss of water, maintain blood pressure , and maintain a suitable concentration of sodium ions in the blood plasma",
+  the_discovery: "Also attributed to the French chemist Hilaire Rouelle as well as William Cruickshank",
+  uremic_frost: "First described in 1856 by the Austrian physician Anton Drasche",
+  this_solution: "Drained off and evaporated, leaving pure urea",
+  this_insight: "Important for the development of organic chemistry",
+  because_the_urea_conversion: "Incomplete, the urea must be separated from the unconverted reactants, including the ammonium carbamate",
+  various_commercial_urea_processes: { definition: "Characterized by the conditions under which urea forms and the way that unconverted reactants are further processed", what_it_does: "", examples: "ammonium nitrate or ammonium sulfate , and the carbon dioxide was usually wasted" },
+  the_stripper: "A carbamate decomposer that provides a large amount of gas-liquid contact",
+  normally_this_reaction: { definition: "Suppressed in the synthesis reactor by maintaining an excess of ammonia, but after the stripper, it occurs until the temperature is reduced", what_it_does: "", examples: "the stripper" },
+  for_its_main_use_as_a_fertilizer_urea: "Mostly marketed in solid form, either as prills or granules",
+  prills: "Solidified droplets, whose production predates satisfactory urea granulation processes",
+  granules: "Produced by accretion onto urea seed particles by spraying liquid urea in a succession of layers",
+  formaldehyde: { definition: "Added during the production of both prills and granules in order to increase crushing strength and suppress caking", what_it_does: "", examples: "pastillization (depositing uniform-sized liquid droplets onto a cooling conveyor belt) are also used" },
+
 };
 
 // ============================================================
