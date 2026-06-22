@@ -22014,6 +22014,13 @@ const FLAT_DICT = {
   passive_entertainment: "Typically derived from mass media , which may include written works or digital media",
   active_entertainment: "Games in which individuals participate",
 
+  // === INGESTED 2026-06-22 19:48 ===
+  these_behaviors: "Described as being intrinsically motivated , and their enjoyment or rewards come from the act of engaging in the task itself",
+  crowding_out: "Thought to be most significant in this case",
+  these_rewards: "Not expected to displace intrinsic motivation",
+  after_the_presumptive_experiment: { definition: "Over, subjects were left with free time during which they could either sit idly or complete more tasks", what_it_does: "", examples: "an extrinsic reward lowers the public praise, Dickinson argues" },
+  if_the_loss_of_praise: "Larger than the size of the specific reinforcer, she argues, then free-choice selection of that behavior will decrease",
+
 };
 
 // ============================================================
