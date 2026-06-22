@@ -16395,6 +16395,16 @@ const FLAT_DICT = {
   chips: "Produced in batches printed on the surface of a single large silicon wafer, which is cut up and non-working samples are discarded",
   the_lower_limit_on_this_process: "About $1 per completed chip due to packaging and other costs",
 
+  // === INGESTED 2026-06-22 04:06 ===
+  semen: "Collected from animals for artificial insemination or cryoconservation of genetic material",
+  cryoconservation_of_animal_genetic_resources: { definition: "A practice that calls for the collection of semen in efforts for conservation of a particular breed", what_it_does: "", examples: "spawn ova into their aquatic environment, where they are fertilized by the semen of the male fish" },
+  the_components_and_contributions_of_semen: "As follows: A 1992 World Health Organization report described normal human semen as having a volume of 2 mL or greater, pH of 7.2 to 8",
+  it_is_the_sperm_in_the_semen_that: { definition: "The fertile component, and therefore semen quality involves both sperm quantity and sperm quality", what_it_does: "", examples: "viruses like HIV [ 20 ] and Ebola" },
+  desensitization_treatments: { definition: "Often very successful", what_it_does: "", examples: "Lactobacillus have been detected in fluid transferral" },
+  a_woman: "Said to be really cool only after childbirth and had breast-feed her baby",
+  he_observed_that_when_sexual_behaviours: "Restricted, sexual incontinence follows with resultant guilt",
+  the_ancient_sumerians_believed_that_semen: "'a divine substance, endowed on humanity by Enki ', the god of water",
+
 };
 
 // ============================================================
