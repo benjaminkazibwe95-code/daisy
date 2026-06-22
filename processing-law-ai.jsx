@@ -18202,6 +18202,34 @@ const FLAT_DICT = {
   whether_or_not_a_material_is_polar: "Determined solely by its crystal structure",
   all_polar_crystals: "Pyroelectric , so the ten polar crystal classes are sometimes referred to as the pyroelectric classes",
 
+  // === INGESTED 2026-06-22 08:33 ===
+  the_binding_energy_for_stable_nuclei: "Always a positive number, as the nucleus must gain energy for the nucleons to move apart from each other",
+  nucleons: "Attracted to each other by the strong nuclear force",
+  both_the_experimental_and_theoretical_views: "Equivalent, with slightly different emphasis on what the binding energy means",
+  the_mass_of_an_atomic_nucleus: "Less than the sum of the individual masses of the free constituent protons and neutrons",
+  these_nuclear_binding_energies_and_forces: "On the order of one million times greater than the electron binding energies of light atoms like hydrogen",
+  the_energy_from_fission: "Used to generate electric power in hundreds of locations worldwide",
+  if_two_protons: "Touching, their repulsion force would be almost 40 newtons",
+  after_the_proton_and_neutron_magnetic_moments: "Measured and verified , it was apparent that their magnetic forces might be 20 or 30 newtons, attractive if properly oriented",
+  the_decrease_in_mass: { definition: "Equal to the energy emitted in the reaction of an atom's creation divided by c 2", what_it_does: "", examples: "a helium atom containing four nucleons has a mass about 0" },
+  the_reason_the_trend_reverses_after_iron: "The growing positive charge of the nuclei, which tends to force nuclei to break up",
+  in_even_heavier_nuclei_energy: "Consumed, not released, by combining similarly sized nuclei",
+  this_spontaneous_breakup: "One of the forms of radioactivity exhibited by some nuclei",
+  the_protons: "All positively charged and repel each other, but the nuclear force overcomes the repulsion and causes them to stick together",
+  the_nuclear_force: "A close-range force (it is strongly attractive at a distance of 1.0 fm and becomes extremely small beyond a distance of 2",
+  protons_and_neutrons_are_closely_related_and: "Collectively known as nucleons",
+  one_technique: "To use very strong magnetic fields, because charged particles (like those trapped in the Earth's radiation belt) are guided by magnetic field lines",
+  the_two_methods_for_this_conversion: "Mediated by the weak force, and involve types of beta decay",
+  this_is_permitted_if_enough_energy: "Available between parent and daughter nuclides to do this (the required energy difference is equal to 1.022 MeV, which is the mass of 2 electrons)",
+  the_calculation: "Determining the nuclear mass defect , converting it into energy, and expressing the result as energy per mole of atoms, or as energy per nucleon",
+  this_conversion: "Done with the mass–energy equivalence : E = ∆ mc 2",
+  when_fission: { definition: "Caused by a neutron, as in this case, it is called induced fission", what_it_does: "", examples: "its electrons) is not exactly the same as the binding energy of the atom's nucleus" },
+  the_measured_mass_deficits_of_isotopes: "Always listed as mass deficits of the neutral atoms of that isotope, and mostly in MeV/ c 2",
+  this_is_because_they: "Doubly magic , meaning their protons and neutrons both fill their respective nuclear shells",
+  the_region_of_increasing_binding_energy: "Followed by a region of relative stability (saturation) in the sequence from about mass 30 through about mass 90",
+  the_fact_that_the_maximum_binding_energy: { definition: "Found in medium-sized nuclei is a consequence of the trade-off in the effects of two opposing forces that have different range characteristics", what_it_does: "", examples: "uranium and plutonium ) into more tightly bound elements (such as barium and krypton )" },
+  the_atomic_binding_energy: "Simply the amount of energy (and mass) released, when a collection of free nucleons are joined to form a nucleus",
+
 };
 
 // ============================================================
