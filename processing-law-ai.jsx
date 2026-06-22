@@ -19856,6 +19856,10 @@ const FLAT_DICT = {
   when_spins: "Aligned in the orbital plane, a recoil of 5000 km/s is possible with two identical black holes",
   in_a_headon_collision_this_fraction: "Calculated at 0.002, or 0.2%",
 
+  // === INGESTED 2026-06-22 13:29 ===
+  bardeen: "Born in Minneapolis , Minnesota , on May 9, 1939",
+  they_met_the_year_before_in_paris_while_he: "Attending a conference, and remained married until his death",
+
 };
 
 // ============================================================
