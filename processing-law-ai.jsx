@@ -21725,6 +21725,29 @@ const FLAT_DICT = {
   the_brain_activity: "Tied to one thing, like a specific object or task",
   since_the_brain: { definition: "In a more free-flowing state, the patterns are a lot less predictable, and scientists often use tools like machine learning to help interpret the data", what_it_does: "", examples: "identifying what kinds of emotions, memories, or random thoughts are popping up" },
 
+  // === INGESTED 2026-06-22 18:54 ===
+  ltm: "Typically divided up into two major headings: explicit memory and implicit memory",
+  explicit_memory: "Broken down into episodic and semantic memory , while implicit memory includes procedural memory and emotional conditioning",
+  the_final_storage: "Long-term memory, which has a very large capacity and is capable of holding information possibly for a lifetime",
+  synaptic_consolidation: "The process by which items are transferred from short- to long-term memory",
+  at_the_top_of_the_calculator: "An opening in which the numbers typed in show up",
+  this_small_slot: "Compiled by many blocks that light up to show a specific number",
+  this_kind_of_remembering: "The idea of retrieval because it involves recalling the specific distributed representation created during the encoding of the experience",
+  newly_acquired_declarative_memory_traces: { definition: "Believed to be reactivated during NonREM sleep to promote their hippocampo-neocortical transfer for long-term storage", what_it_does: "", examples: "learning and memory" },
+  participants: "Then tested on the word pairs at one of three intervals 30 minutes, 12 hours, or 24 hours later",
+  the_precise_location_of_storage: "Unknown, but the temporal cortex has been proposed as a likely candidate",
+  this_implies_that_the_medial_temporal_lobe: "Heavily involved in explicit learning, but not in implicit learning",
+  the_hippocampus_is_where_memories: "First encoded into the brain, and evidence shows that damage to the hippocampus prevents new memories from being formed",
+  this_is_when_synapses: "Made to be more durable with exercise",
+  semantic_memory: "Unspecific in where it originates from, distinctive from episodic memory",
+  autobiographical_memories: { definition: "Facilitated by aids including verbal, face-evoked, picture-evoked, odour-evoked, and music-evoked autobiographical memory cues", what_it_does: "", examples: "how exactly to use a pencil, drive a car, or ride a bicycle" },
+  this_type_of_memory: "Encoded, and it is presumed stored by the striatum and other parts of the basal ganglia",
+  the_basal_ganglia: { definition: "Believed to mediate procedural memory and other brain structures and are largely independent of the hippocampus", what_it_does: "", examples: "writing or using a fork" },
+  research_indicates_that_the_amygdala: "Extremely active during emotional situations and acts with the hippocampus and prefrontal cortex in the encoding and consolidation of emotional events",
+  if_working_memory: "Overloaded, it can affect the encoding of LTM",
+  the_most_famous_case_in_recent_memory_studies: { definition: "The case study of HM , who had parts of his hippocampus, parahippocampal cortices , and surrounding tissue removed in an attempt to cure his epilepsy", what_it_does: "", examples: "doze, pillow, bed, dream, nap, etc., but no theme word is presented" },
+  ldopa_injections: { definition: "Often used to try to relieve Parkinson's disease symptoms, as well as behavioral therapy", what_it_does: "", examples: "calcium within hippocampal neurons) in the cell" },
+
 };
 
 // ============================================================
