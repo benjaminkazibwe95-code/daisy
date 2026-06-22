@@ -15799,6 +15799,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 02:20 ===
   boole: "Born in 1815 in Lincoln , Lincolnshire , England, the son of John Boole Snr (1779–1848), a shoemaker [ 7 ] and Mary Ann Joyce",
 
+  // === INGESTED 2026-06-22 02:22 ===
+  such_a_collection: { definition: "Usually called an array variable or array value", what_it_does: "", examples: "in the Pascal programming language , the declaration type MyTable = array [ 1 " },
+  dynamic_lists: { definition: "Also more common and easier to implement [ dubious – discuss ] than dynamic arrays", what_it_does: "", examples: "lists and strings" },
+  array_types: { definition: "Often implemented by array data structures , but sometimes by other means, such as hash tables , linked lists , or search trees", what_it_does: "", examples: "FORTRAN (1957), COBOL (1960), and Algol 60 (1960), provided support for multi-dimensional arrays" },
+  the_first_axiom: { definition: "That each element behaves like a variable", what_it_does: "", examples: "bytes and enumerated types ), and require that all elements have the same data type and storage size" },
+  the_individual_elements: { definition: "Accessed by first de-referencing an array pointer followed by indexing, e.g", what_it_does: "", examples: "[foo][bar][baz]" },
+  the_order_in_which_array_elements: { definition: "Stored differs among languages, e.g., FORTRAN has row major arrays while PL/I has column major arrays", what_it_does: "", examples: "C, provide only zero-based array types, for which the minimum valid value for any index is 0" },
+  these_capabilities: { definition: "Also provided via standard extension libraries for other general purpose programming languages (such as the widely used NumPy library for Python )", what_it_does: "", examples: "C), a string is just an array of characters, or is handled in much the same way" },
+  resizable_arrays: "Conceptually similar to lists , and the two concepts are synonymous in some languages",
+
 };
 
 // ============================================================
