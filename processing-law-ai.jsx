@@ -21364,6 +21364,18 @@ const FLAT_DICT = {
   and_when_i: "There, I learned everything that I have known; it was the most valuable six months of my life, really",
   he_focused_on_how_attachment_difficulties: { definition: "Transmitted from one generation to the next", what_it_does: "", examples: "Tinbergen, Hinde, and Harry Harlow" },
 
+  // === INGESTED 2026-06-22 18:04 ===
+  agreeableness: { definition: "The personality trait of being kind, sympathetic , cooperative , warm, honest , straightforward, and considerate", what_it_does: "", examples: "narcissistic , antisocial , and manipulative behavior" },
+  selfreport_measures: { definition: "Either lexical [ 2 ] or based on statements", what_it_does: "", examples: "sympathetic, cooperative, warm, considerate, harsh, unkind, rude" },
+  straightforwardness: "The quality of being direct, open, and honest in communicating with others",
+  low_scorers: "Less direct, tend to be high in self-monitoring , are more reticent",
+  because_agreeable_children: "More sensitive to the needs and perspectives of others, they are less likely to suffer from social rejection",
+  children_who: "Less disruptive, less aggressive, and more skilled at entering play groups are more likely to gain acceptance by their peers",
+  experiments_have_shown_that_most_people: "Likely to help their own kin , and to help when empathy has been aroused",
+  agreeable_people: "Likely to help even when these conditions are not present",
+  while_agreeable_individuals: { definition: "Habitually likely to help others, disagreeable people may be more likely to cause harm", what_it_does: "", examples: "the overweight" },
+  the_people_who: "Thought to be the most agreeable wore smiles, a facial expression that is recognized around the world",
+
 };
 
 // ============================================================
