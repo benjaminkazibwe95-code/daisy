@@ -18339,6 +18339,11 @@ const FLAT_DICT = {
   the_tree_most_commonly_used: "The gamboge tree (genus Garcinia ), including G",
   the_resulting_latex: "Collected in hollow bamboo canes",
 
+  // === INGESTED 2026-06-22 08:58 ===
+  william: "Soon busy equipping the laboratory, attending the Royal Irish Academy , and acting as a part-time chemist to the Irish Linen Board",
+  when_william_was_a_boy_he: "Sent to London to live with his uncle",
+  davy: "One of William’s proposers to the Royal Society in 1806",
+
 };
 
 // ============================================================
