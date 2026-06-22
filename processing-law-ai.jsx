@@ -16623,6 +16623,10 @@ const FLAT_DICT = {
   semantic_scholar: "Free to use and unlike similar search engines (e.g., Google Scholar ) does not search for material that is behind a paywall",
   the_following_entry: "An example: Liu, Ying; Gayle, Albert A; Wilder-Smith, Annelies; Rocklöv, Joacim (March 2020)",
 
+  // === INGESTED 2026-06-22 04:45 ===
+  the_editorinchief: "Richard Dixon ( UNT )",
+  each_issue: { definition: "Edited by one or more expert guest editors", what_it_does: "", examples: "Antonie van Leeuwenhoek , Hans Sloane and Alan Turing" },
+
 };
 
 // ============================================================
