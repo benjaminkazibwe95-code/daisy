@@ -20368,6 +20368,26 @@ const FLAT_DICT = {
   in_its_last_few_years_it: { definition: "Owned by, then absorbed into, Savvas Learning Company", what_it_does: "", examples: "Prentice Hall, was sold to Pearson plc by G+W successor Viacom in 1998" },
   they_followed_with_a_collection_of_books_that: "Generally by and for programmers, building a stalwart list of titles relied on by many in the first generation of microcomputers users",
 
+  // === INGESTED 2026-06-22 15:07 ===
+  the_resulting_viral_dna: { definition: "Then imported into the cell nucleus and integrated into the cellular DNA by a virally encoded enzyme, integrase , and host co-factors", what_it_does: "", examples: "reverse transcriptase , proteases , ribonuclease and integrase" },
+  the_density: "High as the glycans shield the underlying viral protein from neutralisation by antibodies",
+  the_psi_element: { definition: "Involved in viral genome packaging and recognized by gag and rev proteins", what_it_does: "", examples: "CD4 + T cells , macrophages , and microglial cells" },
+  macrophages_and_microglial_cells: "The cells infected by HIV in the central nervous system",
+  sexual_intercourse: "The major mode of HIV transmission",
+  a_survival_strategy_for_any_infectious_agent: { definition: "Not to kill its host, but ultimately become a commensal organism", what_it_does: "", examples: "DC-SIGN can also be used" },
+  the_selectivity_in_the_packaging: "Explained by the structural properties of the dimeric conformer of the gRNA",
+  the_formation_of_the_grna_dimer: "Mediated by a 'kissing' interaction between the DIS hairpin loops of the gRNA monomers",
+  which_part_of_the_rna: "Removed during RNA splicing determines which of the HIV protein-coding sequences is translated",
+  as_the_newly_produced_rev_protein: "Produced it moves to the nucleus, where it binds to full-length, unspliced copies of virus RNAs and allows them to leave the nucleus",
+  this_form_of_recombination: "Known as copy-choice",
+  on_the_view_that_recombination_in_hiv: { definition: "A repair process, the generation of recombinational variation would be a consequence, but not the cause of, the evolution of template switching", what_it_does: "", examples: "breaks in the single-stranded RNA" },
+  the_budded_virion: "Still immature as the gag polyproteins still need to be cleaved into the actual matrix, capsid and nucleocapsid proteins",
+  this_cleavage: "Mediated by the packaged viral protease and can be inhibited by antiretroviral drugs of the protease inhibitor class",
+  specimens_with_a_reactive_elisa_result: "Retested in duplicate",
+  only_specimens_that: { definition: "Repeatedly reactive by ELISA and positive by IFA or PCR or reactive by western blot are considered HIV-positive and indicative of HIV infection", what_it_does: "", examples: "viral RNA or proviral DNA amplification method) can also help diagnosis in certain situations" },
+  modern_hiv_testing: "Extremely accurate, when the window period is taken into consideration",
+  a_single_screening_test: "Correct more than 99% of the time",
+
 };
 
 // ============================================================
