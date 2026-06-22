@@ -22452,6 +22452,11 @@ const FLAT_DICT = {
   the_dynamical_systems_approach: "Not the only way to explain cognitive development in early-stage organisms",
   since_the_similarity_in_perception_of_objects: "Unlikely to be achieved in these organisms, teaching through interpersonal dynamics is more limited",
 
+  // === INGESTED 2026-06-22 20:51 ===
+  both_receptor_types: "Activated by specific chemical ligands",
+  when_an_ionotropic_receptor: "Activated, it opens a channel that allows ions such as Na + , K + , or Cl − to flow",
+  g_proteincoupled_receptors: { definition: "All metabotropic receptors", what_it_does: "", examples: "modifying synaptic strength and modulating short- and long-term synaptic plasticity" },
+
 };
 
 // ============================================================
