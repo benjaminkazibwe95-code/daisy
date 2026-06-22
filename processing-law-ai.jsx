@@ -22817,6 +22817,10 @@ const FLAT_DICT = {
   american_football: { definition: "By several measures the most popular spectator sport in the United States", what_it_does: "", examples: "Minor League Baseball" },
   its_final_match: "Attended by 90,185, setting the world record for largest women's sporting event crowd at the time",
 
+  // === INGESTED 2026-06-22 21:59 ===
+  pakwach: "In Pakwach District , West Nile sub-region",
+  thousands_of_locals: "Joined by solar eclipse tourists and professional observers",
+
 };
 
 // ============================================================
