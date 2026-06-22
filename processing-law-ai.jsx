@@ -20388,6 +20388,28 @@ const FLAT_DICT = {
   modern_hiv_testing: "Extremely accurate, when the window period is taken into consideration",
   a_single_screening_test: "Correct more than 99% of the time",
 
+  // === INGESTED 2026-06-22 15:09 ===
+  the_ovaries: "The site of production and periodical release of egg cells , the female gametes",
+  each_ovary: "Whitish in color and located alongside the lateral wall of the uterus in a region called the ovarian fossa",
+  the_ovarian_fossa_is_the_region_that: "Bounded by the external iliac artery and in front of the ureter and the internal iliac artery",
+  the_outer_layer: "The ovarian cortex , consisting of ovarian follicles and stroma in between them",
+  included_in_the_follicles: "The cumulus oophorus , membrana granulosa (and the granulosa cells inside it), corona radiata , zona pellucida , and primary oocyte",
+  also_in_the_cortex: "The corpus luteum , derived from the follicles",
+  the_innermost_layer: "The ovarian medulla",
+  follicular_cells: "Flat epithelial cells that originate from the surface epithelium covering the ovary",
+  messages_or_signals_from_the_hypothalamus: "Sent to the pituitary gland",
+  this_decline: "Tied to a decline in the number of ovarian follicles",
+  primordial_follicles_contain_oocytes_that: "At an intermediate (prophase I) stage of meiosis",
+  small_ovarian_cysts: { definition: "Common in healthy women", what_it_does: "", examples: "in hematologic malignancies or breast cancer" },
+  he_also_noted_the_ovaries: "Bumpy with ovulation stigmas",
+  he_stated_that_the_number_of_corpus_luteum: "The same as the number of fetuses, and it only occurs after coitus (he was observing rabbits, who have induced ovulation )",
+  he_observed_that_the_corpus_luteum: "Yellow in cows, red in sheep, and ashen in others",
+  the_true_egg: "Much smaller and within the follicle, and leaves the ovary",
+  the_egg: "Fertilized in the ovary",
+  this_line_of_work: { definition: "Continued by Corner and Allen , resulting in the discovery of progesterone", what_it_does: "", examples: "macaques and great apes share many structural and functional features with those of humans" },
+  ovaries_of_some_kind: { definition: "Found in the female reproductive system of many invertebrates that employ sexual reproduction", what_it_does: "", examples: "the presence of follicular cells, tunica albuginea, and so on" },
+  corpora_lutea: "Found only in mammals, and in some elasmobranch fish; in other species, the remnants of the follicle are quickly resorbed by the ovary",
+
 };
 
 // ============================================================
