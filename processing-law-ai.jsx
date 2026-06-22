@@ -19041,6 +19041,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 10:58 ===
   ahlfors: { definition: "A visiting scholar at the Institute for Advanced Study in 1962 and again in 1966", what_it_does: "", examples: "Riemann surfaces (1960) [ 6 ] and Conformal invariants (1973)" },
 
+  // === INGESTED 2026-06-22 11:00 ===
+  jain_mathematicians: "Apparently also the first to use the word shunya (literally void in Sanskrit ) to refer to zero",
+  memorisation_and_recitation: { definition: "Also used to transmit philosophical and literary works, as well as treatises on ritual and grammar", what_it_does: "", examples: "memorisation of the sacred Vedas included up to eleven forms of recitation of the same text" },
+  the_texts: "Subsequently 'proof-read' by comparing the different recited versions",
+  the_domestic_firealtar_in_the_vedic_period: "Required by ritual to have a square base and be constituted of five layers of bricks with 21 bricks in each layer",
+  the_bricks: "Then designed to be of the shape of the constituent rectangle and the layer was created",
+  all_these_inferences: "Made by the officiant as he recalls the formula from his memory",
+  india_today: "Estimated to have about thirty million manuscripts, the largest body of handwritten reading material anywhere in the world",
+  it_is_thought_to_be_of_aramaic_origin_and_it: { definition: "In use from the 4th century BCE to the 4th century CE", what_it_does: "", examples: "problems about volumes of irregular solids)" },
+  a_number_of_his_contributions: "Later transmitted to the Middle East and Europe",
+  the_theorems: "Stated without proof, but proofs for the series for sine , cosine , and inverse tangent were provided a century later in the work Yuktibhāṣā (c.1500–c",
+  some_of_his_explanations: "Algebraic, while others are geometric",
+  his_key_work: "The Yukti-bhāṣā (written in Malayalam, a regional language of Kerala)",
+  the_limit_ratio_between_consecutive_terms: "The supergolden ratio",
+  narayana: "Also thought to be the author of an elaborate commentary of Bhaskara II 's Lilavati , titled G anita Kaumudia (or Karma-Paddhati )",
+
 };
 
 // ============================================================
