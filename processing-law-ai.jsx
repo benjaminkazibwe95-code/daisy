@@ -17909,6 +17909,12 @@ const FLAT_DICT = {
   solutions_of_this_equation: "Wave functions which can be used to describe the probability density of a particle",
   the_dirac_equation: "A relativistic wave equation detailing electromagnetic interactions",
 
+  // === INGESTED 2026-06-22 07:49 ===
+  optical_phenomena: "Any observable events that result from the interaction of light and matter",
+  one_common_example: { definition: "The rainbow , when light from the Sun is reflected and refracted by water droplets", what_it_does: "", examples: "the green ray , are so rare they are sometimes thought to be mythical" },
+  other_phenomena: "Simply interesting aspects of optics , or optical effects",
+  also_listed_here: "Unexplained phenomena that could have an optical explanation and ' optical illusions ' for which optical explanations have been excluded",
+
 };
 
 // ============================================================
