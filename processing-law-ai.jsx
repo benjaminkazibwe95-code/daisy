@@ -23201,6 +23201,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 23:25 ===
   plans_for_the_merger: "First announced on 15 January 2015",
 
+  // === INGESTED 2026-06-22 23:27 ===
+  the_source_of_the_nile_proper: "Also reached in 1629 by the Portuguese Jesuit missionary Jerónimo Lobo and in 1770 by the Scottish explorer James Bruce",
+
 };
 
 // ============================================================
