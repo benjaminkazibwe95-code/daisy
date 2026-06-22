@@ -23131,6 +23131,22 @@ const FLAT_DICT = {
   the_monterey_bay_aquarium: "The first public aquarium to display a great white shark",
   the_shark: "Released on 31 March 2005",
 
+  // === INGESTED 2026-06-22 23:02 ===
+  climate_resilience: "A broader concept that includes adaptation but also emphasizes a system-wide approach to managing risks",
+  the_formal_definition_of_the_term: { definition: "The 'capacity of social, economic and ecosystems to cope with a hazardous event or trend or disturbance'", what_it_does: "to keep systems working in the face of external forces", examples: "floods and droughts" },
+  to_increase_climate_resilience: { definition: "One has to reduce the climate vulnerability of people, communities and countries", what_it_does: "", examples: "buildings and roads) or policy (e.g" },
+  these_types_of_approaches: "Also known as climate change adaptation",
+  two_examples_for_objective_tools: { definition: "The Resilience Index Measurement and Analysis (RIMA) and the Livelihoods Change Over Time (LCOT)", what_it_does: "", examples: "floods and droughts" },
+  adaptation_and_resilience: "Often used interchangeably, however, there are key differences",
+  climate_resilient_development: "A closely related area of work and research topic that has recently emerged",
+  such_adaptations: "Also considered to be incremental actions rather than transformational ones",
+  this_is_because_transformational_adaptation: "Connected with implementation at scale and ideally at the system-level",
+  community_resilience_assessment: "An important step toward reducing disasters from climate hazards",
+  the_four_types_of_adaptation_actions: "Infrastructural , institutional, behavioural and nature-based options",
+  climate_change_vulnerability_is_a_concept_that: "How strongly people or ecosystems are likely to be affected by climate change",
+  its_formal_definition: "The ' propensity or predisposition to be adversely affected' by climate change",
+  when_drr: "Successful, it makes communities less the vulnerable because it mitigates the effects of disasters",
+
 };
 
 // ============================================================
