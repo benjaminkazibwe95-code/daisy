@@ -22921,6 +22921,14 @@ const FLAT_DICT = {
   if_a_ship: "Not sent, they would die on their overland journey home",
   memorials_to_stanley: "Erected in St Asaph and in Denbigh (a statue of Stanley with an outstretched hand, by Nick Elphick [ 109 ] ) in 2011",
 
+  // === INGESTED 2026-06-22 22:20 ===
+  namanve: "An area in the Central Region of Uganda",
+  kampala_industrial_and_business_park: "A 2,209 acres (894ha/8.9sqkm) development to house factories and other industries, located in South Namanve",
+  namanve_cocacola_bottling_plant: "One of the two bottling plants in Uganda owned by Coca-Cola International , in North Namanve 4",
+  namanve_power_station: "Owned by Jacobsen Electro",
+  rwenzori_mineral_water_bottling_company: "Located in neighboring Seeta, Uganda 6",
+  namanve_railway_station: "On the Uganda Railways System, administered by Rift Valley Railways",
+
 };
 
 // ============================================================
