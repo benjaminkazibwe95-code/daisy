@@ -20860,6 +20860,13 @@ const FLAT_DICT = {
   malformation_of_dendrites: "Also tightly correlated to impaired nervous system function",
   these_functional_units: { definition: "Involved in processing input and are composed of the subdomains of dendrites such as spines, branches, or groupings of branches", what_it_does: "", examples: "signals from other cells" },
 
+  // === INGESTED 2026-06-22 16:26 ===
+  a_toxin: { definition: "A naturally occurring poison [ 1 ] produced by metabolic activities of living cells or organisms", what_it_does: "", examples: "enzymes or cellular receptors" },
+  toxins: "A subset of toxicants",
+  the_term_toxicant_is_preferred_when_the_poison: { definition: "Man-made and therefore artificial", what_it_does: "", examples: "fungal biotoxins , microbial toxins , plant biotoxins , or animal biotoxins" },
+  a_relatively_small_number_of_toxins: { definition: "Known to have the potential to cause widespread sickness or casualties", what_it_does: "", examples: "rapid investigation, response, and treatment" },
+  toxmap: "A Geographic Information System (GIS) that is part of TOXNET",
+
 };
 
 // ============================================================
