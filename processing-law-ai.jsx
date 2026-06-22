@@ -21174,6 +21174,23 @@ const FLAT_DICT = {
   this_infection: { definition: "Usually transmitted by contaminated water or food", what_it_does: "", examples: "Clostridioides difficile , Salmonella , and Campylobacter species" },
   the_most_common_organisms: "Campylobacter , Clostridioides difficile , Clostridium perfringens , and Salmonella",
 
+  // === INGESTED 2026-06-22 17:23 ===
+  rna: "Assembled as a chain of nucleotides",
+  one_of_these_active_processes: "Protein synthesis , a universal function in which RNA molecules direct the synthesis of proteins on ribosomes",
+  a_base: "Attached to the 1' position, in general, adenine (A), cytosine (C), guanine (G), or uracil (U)",
+  a_phosphate_group: "Attached to the 3' position of one ribose and the 5' position of the next",
+  the_scaffold_for_this_structure: "Provided by secondary structural elements that are hydrogen bonds within the molecule",
+  since_rna: "Charged, metal ions such as Mg 2+ are needed to stabilise many secondary and tertiary structures",
+  all_chirality_centers: "Located in the D -ribose",
+  l_rna: { definition: "Much more stable against degradation by RNase", what_it_does: "", examples: "proteins, one can define topology of a folded RNA molecule" },
+  the_rrna: "The component of the ribosome that hosts translation",
+  three_of_the_rrna_molecules: { definition: "Synthesized in the nucleolus , and one is synthesized elsewhere", what_it_does: "", examples: "bacterial small RNAs and CRISPR" },
+  the_dna_double_helix: "Unwound by the helicase activity of the enzyme",
+  rrnas_and_trnas: "Extensively modified, but snRNAs and mRNAs can also be the target of base modification",
+  viroids: "Another group of pathogens, but they consist only of RNA, do not encode any protein and are replicated by a host plant cell's polymerase",
+  so_far_the_function_of_circrnas: "Largely unknown, although for few examples a microRNA sponging activity has been demonstrated",
+  the_role_of_rna_in_protein_synthesis: { definition: "Suspected already in 1939", what_it_does: "", examples: "siRNA , to silence genes" },
+
 };
 
 // ============================================================
