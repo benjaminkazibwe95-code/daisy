@@ -19119,6 +19119,19 @@ const FLAT_DICT = {
   every_topological_space_x: "An open dense subspace of a compact space having at most one point more than X , by the Alexandroff one-point compactification",
   then_x_is_compact_if_and_only_if_x: "A complete lattice (i.e., all subsets have suprema and infima)",
 
+  // === INGESTED 2026-06-22 11:14 ===
+  yau: "The author of over five hundred articles",
+  the_first_congress: { definition: "Held at the Morningside Center from December 12 to 18, 1998", what_it_does: "", examples: "himself and two others quoted in the article" },
+  their_fundamental_result: "On the existence of minimal immersions with prescribed topological behavior",
+  although_the_algebraic_manipulations_involved: "Complex, the conceptual form of Yau's proof is strikingly simple",
+  although_their_assumptions_and_conclusions: "Quite similar, the methods of Li−Yau and Marques−Neves are distinct",
+  the_main_work_of_their_article: "Devoted to relating their conformal invariant to other geometric quantities",
+  the_elliptic_affine_spheres: "Identified as ellipsoids by Calabi",
+  cheng_and_yau_proved_that_they: { definition: "Asymptotic to convex cones, and conversely that every (uniformly) convex cone corresponds in such a way to some hyperbolic affine sphere", what_it_does: "", examples: "Euler and Hodge numbers" },
+  similar_results: "Obtained at the same time by Detlef Gromoll and Joseph Wolf",
+  his_result: { definition: "Known as Weyl's law", what_it_does: "", examples: "the above Pólya conjecture" },
+  their_approach: { definition: "Sufficiently flexible to deal with general surfaces with boundary", what_it_does: "", examples: "the central sulcus , they obtained mappings which are well-defined by such neurological features" },
+
 };
 
 // ============================================================
