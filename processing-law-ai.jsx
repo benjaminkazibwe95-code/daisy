@@ -16061,6 +16061,17 @@ const FLAT_DICT = {
   leonhart_fuchs: "One of the three founding fathers of botany, along with Otto Brunfels and Hieronymus Bock",
   other_important_contributors_to_the_field: { definition: "Valerius Cordus , Konrad Gesner ( Historiae animalium ), Frederik Ruysch , and Gaspard Bauhin", what_it_does: "", examples: "botany, geology, mycology , palaeontology , physiology , and zoology were formed" },
 
+  // === INGESTED 2026-06-22 03:12 ===
+  maury_stated_that_hundreds_of_ship_navigators: { definition: "Now sending abstract logs of their voyages to the United States Naval Observatory", what_it_does: "", examples: "creationism or intelligent design , into the scientific curriculum of schools" },
+  the_time_to_control_greenhouse_gas_emissions: "Now.' [ 19 ] In February 2007, the AAAS used satellite images to document human rights abuses in Burma",
+  the_first_year: "Spent as president-elect , the second as president and the third as chairperson of the board of directors",
+  geraldine_richmond: "The president of AAAS for 2015–16; Phillip Sharp is the board chair; and Barbara A",
+  among_the_elected_delegates_there: "Always at least two members from the National Academy of Sciences and one from each region of the country",
+  john_kerry_of_chicago: "The youngest American in the council and Akhil Ennamsetty of India is the youngest foreign council member",
+  the_current_chairman: "Gerald Fink , Margaret and Herman Sokol Professor at Whitehead Institute, MIT",
+  election_to_aaas: "An honor bestowed by their peers and elected fellows are presented with a certificate and rosette pin",
+  meetings: "Not held 1861–1865 during the American Civil War, and also 1942–1943 during World War II",
+
 };
 
 // ============================================================
