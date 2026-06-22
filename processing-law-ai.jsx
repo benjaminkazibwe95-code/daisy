@@ -16846,6 +16846,27 @@ const FLAT_DICT = {
   that_nature: "A fixed, indestructible capital asset",
   boulding: { definition: "Notable for building on the integration between ecology and its economic origins", what_it_does: "", examples: "environmental degradation, public health issues, and climate change" },
 
+  // === INGESTED 2026-06-22 05:24 ===
+  a_twodimensional_euclidean_space: "A two-dimensional space on the plane",
+  that_conception_of_the_world: "A four-dimensional space but not the one that was found necessary to describe electromagnetism",
+  the_concept_of_dimension: "Not restricted to physical objects",
+  the_dimension: "An intrinsic property of an object, in the sense that it is independent of the dimension of the space in which the object is or can be embedded",
+  a_tesseract: "An example of a four-dimensional object",
+  the_dimension_of_a_vector_space: "The number of vectors in any basis for the space, i.e",
+  a_connected_topological_manifold: "Locally homeomorphic to Euclidean n -space, in which the number n is the manifold's dimension",
+  this_state_of_affairs: "Highly marked in the various cases of the Poincaré conjecture , in which four different proof methods are applied",
+  the_most_intuitive_way: "Probably the dimension of the tangent space at any Regular point of an algebraic variety",
+  the_hausdorff_dimension: "Defined for all metric spaces and, unlike the dimensions considered above, can also have non-integer real values",
+  this_cardinality: "Called the dimension of the Hilbert space",
+  this_dimension: "Finite if and only if the space's Hamel dimension is finite, and in this case the two dimensions coincide",
+  moving_down: "The same as moving up a negative distance",
+  moving_diagonally_upward_and_forward: "Just as the name of the direction implies i.e",
+  one_wellstudied_possibility: { definition: "That the extra dimensions may be 'curled up' ( compactified ) at such tiny scales as to be effectively invisible to current experiments", what_it_does: "", examples: "an extra dimension of space" },
+  dbranes: "Dynamical extended objects of various dimensionalities predicted by string theory that could play this role",
+  this_could_be_related_to_why_gravity: "Exponentially weaker than the other forces, as it effectively dilutes itself as it propagates into a higher-dimensional volume",
+  according_to_this_idea_it_would_be_since_three: "The largest number of spatial dimensions in which strings can generically intersect",
+  extra_dimensions: { definition: "Said to be universal if all fields are equally free to propagate within them", what_it_does: "", examples: "illustration software , computer-aided design , and geographic information systems" },
+
 };
 
 // ============================================================
