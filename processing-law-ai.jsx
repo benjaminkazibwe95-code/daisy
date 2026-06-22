@@ -22941,6 +22941,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 22:26 ===
   the_directors: "So taken with her audition that she immediately got the role, marking her first leading role",
 
+  // === INGESTED 2026-06-22 22:29 ===
+  nsenene: "The Luganda name for Ruspolia differens : [ 1 ] [ 2 ] a bush cricket (a.k.a",
+  this_species: { definition: "A delicacy in central and south-western Uganda", what_it_does: "", examples: "Buganda and parts of Masaka" },
+
 };
 
 // ============================================================
