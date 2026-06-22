@@ -20008,6 +20008,9 @@ const FLAT_DICT = {
   the_source_code_to_the_site: "Published under the GNU Affero General Public License",
   a_first_hearing: "Held on March 20, 2023",
 
+  // === INGESTED 2026-06-22 14:07 ===
+  the_superfluid_behavior: { definition: "A manifestation of Bose–Einstein condensation , which occurs only in collections of bosons", what_it_does: "", examples: "its size and ionization energy" },
+
 };
 
 // ============================================================
