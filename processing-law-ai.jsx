@@ -17589,6 +17589,19 @@ const FLAT_DICT = {
   the_production_of_motion_in_steamengines: "Always accompanied by a circumstance on which we should fix our attention",
   this_circumstance: "The re-establishing of equilibrium",
 
+  // === INGESTED 2026-06-22 06:55 ===
+  his_work_on_the_applications_of_thermodynamics: "Instrumental in transforming physical chemistry into a rigorous deductive science",
+  the_elder_gibbs: "Generally known to his family and colleagues as 'Josiah', while the son was called 'Willard'",
+  that_cast: "On display at the Yale physics department",
+  similar_work: "Carried out independently, and at around the same time, by the British mathematical physicist and engineer Oliver Heaviside",
+  the_methods_that_he_used: { definition: "Highly original and the obtained results showed decisively the correctness of Maxwell's electromagnetic theory", what_it_does: "", examples: "the notions of chemical potential (1876) [ 28 ] and statistical ensemble (1902)" },
+  gibbs: "Not a freak, he had no striking ways, he was a kindly dignified gentleman",
+  his_manner: "Cordial without being effusive and conveyed clearly the innate simplicity and sincerity of his nature",
+  when_a_chemical_system: { definition: "At equilibrium , the change in Gibbs free energy is zero", what_it_does: "", examples: "adsorption , electrochemistry , and the Marangoni effect in fluid mixtures" },
+  the_phase_rule: { definition: "Very useful in diverse areas, such as metallurgy, mineralogy, and petrology", what_it_does: "", examples: "birefringence , dispersion , and optical activity" },
+  that_work: { definition: "Based largely on the thermodynamics of Kirchhoff, Boltzmann, and Gibbs", what_it_does: "", examples: "ideas that, according to Barry Simon , 'lay dormant for about seventy-five years'" },
+  the_development_of_vector_calculus: { definition: "Gibbs's other great contribution to mathematics", what_it_does: "", examples: "physician John W" },
+
 };
 
 // ============================================================
