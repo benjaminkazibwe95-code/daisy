@@ -19674,6 +19674,14 @@ const FLAT_DICT = {
   clusters: "Also a crucial step in determining the distance scale of the universe",
   a_few_of_the_nearest_clusters: "Close enough for their distances to be measured using parallax",
 
+  // === INGESTED 2026-06-22 12:56 ===
+  a_thrust_fault: { definition: "A type of reverse fault that has a dip of 45 degrees or less", what_it_does: "", examples: "mudstones or halite layers; these parts of the thrust are called decollements" },
+  the_part_of_the_thrust_linking_the_two_flats: "Known as a ramp and typically forms at an angle of about 15°–30° to the bedding",
+  such_structures: "Also known as tip-line folds",
+  if_the_individual_displacements: "Still greater, the horses have a foreland dip",
+  duplexing: "A very efficient mechanism of accommodating the shortening of the crust by thickening the section rather than by folding and deformation",
+  when_thrusts: "Developed in orogens formed in previously rifted margins, inversion of the buried paleo-rifts can induce the nucleation of thrust ramps",
+
 };
 
 // ============================================================
