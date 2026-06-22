@@ -18458,6 +18458,14 @@ const FLAT_DICT = {
   the_proton: { definition: "A 'bare charge' with only about 1/64,000 of the radius of a hydrogen atom, and so is extremely reactive chemically", what_it_does: "", examples: "liquids and it reacts immediately with the electron cloud of any available molecule" },
   the_acid: { definition: "Referred to as a proton donor and the base as a proton acceptor", what_it_does: "", examples: "proton pump and proton channel refer to the movement of hydrated H + ions" },
 
+  // === INGESTED 2026-06-22 09:16 ===
+  other_common_double_bonds: "Found in azo compounds (N=N), imines (C=N), and sulfoxides (S=O)",
+  the_porbital: "Perpendicular to this plane",
+  double_bonds: "Shorter than single bonds because p-orbital overlap is maximized",
+  the_double_bond: { definition: "Also stronger, 636 kJ mol −1 versus 368 kJ mol −1 but not twice as much as the pi-bond is weaker than the sigma bond due to less effective pi-overlap", what_it_does: "", examples: "dienes and enones" },
+  unlike_the_alkenes_these_compounds: "Not planar but adopt twisted and/or trans bent structures",
+  some_double_bonds_plumbenes_and_stannenes: "Similar in strength to hydrogen bonds",
+
 };
 
 // ============================================================
