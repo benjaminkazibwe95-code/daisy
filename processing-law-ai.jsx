@@ -15469,6 +15469,21 @@ const FLAT_DICT = {
   his_mother: "Fannie (Reiser), a Zionist activist, and his father was Henry, an eye surgeon",
   his_doctoral_dissertation: "Titled 'Theory of neural-analog reinforcement systems and its application to the brain-model problem'",
 
+  // === INGESTED 2026-06-22 01:24 ===
+  bioinspired_computing: "A major subset of natural computation",
+  using_these_ideas_he: { definition: "Able to describe an abstraction of the modern digital computer", what_it_does: "", examples: "logical conjunction , disjunction and negation" },
+  such_functions: "Also known as threshold functions",
+  a_similar_technique: "Used in genetic algorithms",
+  braininspired_computing: "Computational models and methods that are mainly based on the mechanism of the brain, rather than completely imitating the brain",
+  artificial_intelligence_researchers: "Now aware of the benefits of learning from the brain information processing mechanism",
+  brain_and_neuroscience_researchers: { definition: "Also trying to apply the understanding of brain information processing to a wider range of science field", what_it_does: "", examples: "EU-backed SpiNNaker and BrainScaleS, Stanford's Neurogrid , IBM's TrueNorth , and Qualcomm's Zeroth" },
+  truenorth: "A brain-inspired chip that IBM has been developing for nearly 10 years",
+  each_neuron_of_a_braininspired_chip: "Cross-connected with massive parallelism",
+  the_human_brain: "A product of evolution",
+  the_cranial_nervous_system: { definition: "A multi-scale structure", what_it_does: "", examples: "the fine connection structure of neuron scales and the mechanism of brain-scale feedback" },
+  machine_learning_algorithms: "Not flexible and require high-quality sample data that is manually labeled on a large scale",
+  the_neural_chip: { definition: "Only borrowing the most basic unit of brain information processing", what_it_does: "", examples: "nanometers, thus supporting the construction of more complex brain-inspired computing architectures" },
+
 };
 
 // ============================================================
