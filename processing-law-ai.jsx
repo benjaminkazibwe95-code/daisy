@@ -19694,6 +19694,18 @@ const FLAT_DICT = {
   they_estimated_that_if_it: "A planetary companion, it would be no less than 0.29 Earth masses",
   further_observations_of_flare_activity: { definition: "Made with the EXOSAT and ROSAT satellites , and the X-ray emissions of smaller, solar-like flares were observed by the Japanese ASCA satellite in 1995", what_it_does: "", examples: "XMM-Newton and Chandra" },
 
+  // === INGESTED 2026-06-22 13:00 ===
+  its_beacon_signal: "Received on December 26, showing that it had survived the passage through the corona",
+  incident_solar_radiation_at_perihelion: "Approximately 650 kW/m 2 , or 475 times the intensity at Earth orbit",
+  if_the_shield: "Not between the spacecraft and the Sun, the probe would be damaged and become inoperative within tens of seconds",
+  trajectory: "Re-optimized after the launch to save fuel",
+  the_first_venus_flyby: "Only 52 days after the launch; three trajectory correction maneuvers were performed in this window",
+  the_exact_time_of_closest_approach: "11:53 UTC on December 24 but the craft was out of contact at this time",
+  the_plan: "To then rotate the craft so that its instruments will be exposed to the full radiance of the Sun for the first time",
+  the_heat_shield_will_remain_and: "Expected to continue to orbit the Sun for millions of years",
+  currently_discussed_plan: "'to complete the solar cycle at the 9.86 Rs perihelion distance'",
+  communication_with_the_probe: { definition: "Largely cut off in that phase", what_it_does: "", examples: "three non-group comets" },
+
 };
 
 // ============================================================
