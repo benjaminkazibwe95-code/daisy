@@ -22989,6 +22989,36 @@ const FLAT_DICT = {
   children_below_five_years_of_age: "20 percent of the division population",
   the_average_family_size: "4 and the maternal mortality rate was 265 per 100,000 live births",
 
+  // === INGESTED 2026-06-22 22:41 ===
+  teams: "Set at 20 players each, and fields of 400 by 250 feet (122 m × 76 m) were specified",
+  nfl_teams: "Required to number their players by a league-approved numbering system, and any exceptions must be approved by the commissioner",
+  an_offensive_formation: "Considered illegal if there are more than four players in the backfield or fewer than five players numbered 50–79 on the offensive line",
+  interior_offensive_linemen: "Not allowed to move until the snap of the ball",
+  the_quarterback: "The leader of the offense",
+  the_principal_receivers: "The wide receivers (WR) and the tight ends (TE)",
+  the_main_goal_of_the_wide_receiver: "To catch passes thrown by the quarterback, [ 65 ] but they may also function as decoys or as blockers during running plays",
+  safeties: "Worth two points, which are awarded to the defense",
+  a_touchdown_is_scored_when_a_live_ball: "Advanced into, caught, or recovered in the opposing team's end zone",
+  if_the_pat: "Scored by what would normally be a touchdown, it is worth two points; this is known as a two-point conversion",
+  while_drop_kicks: "Common in the early days of the sport, the shape of modern footballs makes it difficult to reliably drop kick the ball",
+  goal_lines: "Marked 10 yards (9.1 m) inward from each end line",
+  the_crossbar_of_these_posts: "10 feet (3.0 m) above the ground, with vertical uprights at the end of the crossbar 18 feet 6 inches (5",
+  goal_posts: "Padded at the base, and orange ribbons are normally placed at the tip of each upright as indicators of wind strength and direction",
+  an_operator: "Responsible for starting, stopping and operating the game clock based on the direction of the appropriate official",
+  the_play_clock: "Set to 25 seconds after certain administrative stoppages in play and to 40 seconds when play is proceeding without such stoppages",
+  the_play_ends_when_the_player_with_the_ball: "Tackled or goes out-of-bounds or a pass hits the ground without a player having caught it",
+  if_a_place_kick: "Chosen, the ball can be placed on the ground or a tee; a holder may be used in either case",
+  the_play_ends_as_soon_as_the_ball: "Caught, and the ball may not be advanced",
+  each_carries_a_weighted_yellow_flag_that: { definition: "Thrown to the ground to signal that a foul has been called", what_it_does: "", examples: "thigh pads and guards, knee pads, chest protectors, and mouthguards" },
+  the_most_common_types_of_injuries: { definition: "Strains , sprains , bruises , fractures , dislocations , and concussions", what_it_does: "", examples: "dementia , Parkinson's disease , and depression" },
+  the_nfhs: "The largest organization for high school football, with member associations in all 50 states as well as the District of Columbia",
+  usa_football: "The governing body for youth and amateur football, [ 152 ] and Pop Warner Little Scholars is the largest organization for youth football",
+  large_team_sizes: "An additional difficulty, due to the Olympics' set limit of 10,500 athletes and coaches",
+  the_day_on_which_the_super_bowl_is_held: { definition: "Considered a de facto national holiday , [ 197 ] and in parts of the country like Texas , the sport has been compared to a religion", what_it_does: "", examples: "the Rose Bowl" },
+  games: "Played on the beach with modified rules and without the traditional football equipment due to its lack of availability in Brazil",
+  three_franchises: "Also based out of Hong Kong , which prior to the COVID-19 pandemic regularly played mainland teams",
+  the_indoor_football_league: { definition: "An example of a prominent indoor league", what_it_does: "", examples: "flag football" },
+
 };
 
 // ============================================================
