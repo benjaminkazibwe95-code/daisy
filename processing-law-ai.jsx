@@ -19160,6 +19160,12 @@ const FLAT_DICT = {
   the_ratio_test_and_the_root_test: "Both based on comparison with a geometric series, and as such they work in similar situations",
   the_root_test: "Therefore more generally applicable, but as a practical matter the limit is often difficult to compute for commonly seen types of series",
 
+  // === INGESTED 2026-06-22 11:27 ===
+  it_appears_that_barrow: "The only child of this union—certainly the only child to survive infancy",
+  particularly_noted: "The occasion of his having saved the ship he was upon, by the merits of his own prowess, from capture by pirates",
+  his_earliest_work: "A complete edition of the Elements of Euclid , which he issued in Latin in 1655, and in English in 1660; in 1657 he published an edition of the Data",
+  barrow: "The first to find the integral of the secant function in closed form , thereby proving a conjecture that was well-known at the time",
+
 };
 
 // ============================================================
