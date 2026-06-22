@@ -23255,6 +23255,13 @@ const FLAT_DICT = {
   this_peace_however: "Imperial rather than hegemonic",
   the_ministry_supposed_that_they: "'spared because the US did not find them on the map",
 
+  // === INGESTED 2026-06-22 23:35 ===
+  the_death_toll: "Disputed, with estimates ranging from several hundreds to 20,000",
+  because_british_and_american_citizens: "Successfully evacuated, the UK did not intervene in the island's unrest",
+  the_toll_of_victims_in_the_massacres: { definition: "Generally not recognized", what_it_does: "", examples: "health and education, than Africans" },
+  he_said_he: "A Christian and believed 'Everything can be learned from the Bible'",
+  operation_finery: { definition: "Cancelled the same day", what_it_does: "", examples: "became an almost entirely African organisation, and land was redistributed from Arabs to Africans" },
+
 };
 
 // ============================================================
