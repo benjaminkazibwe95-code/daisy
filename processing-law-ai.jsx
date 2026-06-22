@@ -16273,6 +16273,26 @@ const FLAT_DICT = {
   because_cholesterol_molecules: { definition: "Short and rigid, they fill the spaces between neighboring phospholipid molecules left by the kinks in their unsaturated hydrocarbon tails", what_it_does: "", examples: "in cell signaling" },
   if_biological_membranes: "Not fluid, it is hard to imagine how cells could live, grow, and reproduce",
 
+  // === INGESTED 2026-06-22 03:47 ===
+  wound_healing: "A living organism's replacement of destroyed or damaged tissue by newly produced tissue",
+  when_the_barrier: { definition: "Broken, a regulated sequence of biochemical events is set into motion to repair the damage", what_it_does: "", examples: "wound, ostomy, and continence nursing and burn center care" },
+  timing: "Important to wound healing",
+  the_cellular_phase: "Several types of cells working together to mount an inflammatory response, synthesize granulation tissue, and restore the epithelial layer",
+  when_tissue: { definition: "First wounded, blood comes in contact with collagen , triggering blood platelets to begin secreting inflammatory factors", what_it_does: "", examples: "cytokines and growth factors" },
+  endothelial_growth_and_proliferation: { definition: "Also directly stimulated by hypoxia , and presence of lactic acid in the wound", what_it_does: "", examples: "vascular endothelial growth factor (VEGF) and glucose transporter 1 (GLUT1)" },
+  eventually_blood_vessels_that: "No longer needed die by apoptosis",
+  initially_there: "A latent phase where the wound undergoes plasma exudation, inflammatory decontamination and debridement",
+  lastly_collagen: "Deposited into the ECM",
+  the_provisional_ecm: "Different in composition from the ECM in normal tissue and its components originate from fibroblasts",
+  even_as_fibroblasts: { definition: "Producing new collagen, collagenases and other factors degrade it", what_it_does: "", examples: "nitric oxide" },
+  the_maximum_scar_strength: { definition: "80% of that of unwounded skin", what_it_does: "", examples: "a venous ulcer or pathological scarring such as a keloid scar" },
+  these_scaffolds: { definition: "Structurally analogous to extracellular matrix (ECM) found in normal/un-injured dermis", what_it_does: "", examples: "inhibition of (1) platelet activation, (2) inflammatory response, and (3) wound contraction" },
+  the_opposite_of_scarless_wound_healing: { definition: "Scarification (wound healing to scar more)", what_it_does: "", examples: "salamanders , and invertebrates" },
+  collagen_supplementation: "Generally safe with no reported adverse events",
+  further_studies: { definition: "Needed to elucidate medical use in skin barrier diseases such as atopic dermatitis and to determine optimal dosing regimens", what_it_does: "", examples: "initial collagen alignment, cytokine properties, and cell proliferation rates can be tested" },
+  wound_closure: "Performed with sutures (stitches), staples, or adhesive tape or glue",
+  foreign_materials: "Walled off by macrophages that may metamorphose into epithelioid cells, which are encircled by mononuclear leukocytes, forming granulomas",
+
 };
 
 // ============================================================
