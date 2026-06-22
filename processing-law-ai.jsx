@@ -17847,6 +17847,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 07:41 ===
   anterior_uveitis: "An inflammatory process affecting the iris and ciliary body , with resulting inflammatory signs in the anterior chamber",
 
+  // === INGESTED 2026-06-22 07:43 ===
+  if_this_cap: { definition: "Broken for any of several reasons, convection of any humidity can then erupt into violent thunderstorms", what_it_does: "", examples: "by thermals ( convective heat transfer )" },
+  the_effects: "Even more pronounced when a city is surrounded by hills or mountains since they form an additional barrier to air circulation",
+  if_the_layer_of_cold_air_near_the_surface: "Thick enough, it will lead to the development of ice pellets as the raindrops re-freeze",
+
 };
 
 // ============================================================
