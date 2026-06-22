@@ -15147,6 +15147,21 @@ const FLAT_DICT = {
   the_laborers: { definition: "Exposed to toxic and traumatic content, including child sexual abuse , zoophilia , murder , suicide , torture , self-harm , and incest", what_it_does: "", examples: "bulletin board systems , multiple programming languages, and the text of Wikipedia" },
   state_of_the_art_large_language_models: { definition: "Trained on all the data which can be scraped from the Internet, often utilizing copyrighted material", what_it_does: "", examples: "Midjourney" },
 
+  // === INGESTED 2026-06-22 00:24 ===
+  thus_the_first_ultraintelligent_machine: "The last invention that man need ever make, provided that the machine is docile enough to tell us how to keep it under control",
+  the_first_accelerating_factor: { definition: "The new intelligence enhancements made possible by each previous improvement", what_it_does: "", examples: "material technology (especially as applied to nanotechnology ) and medical technology" },
+  substantial_dangers: "Associated with an intelligence explosion singularity originating from a recursively self-improving set of algorithms",
+  sheer_processing_power: "Not a pixie dust that magically solves all your problems",
+  and_one_of_the_dangers: "That we will give them more authority than they warrant",
+  the_buildup_to_the_singularity: "Compared to Christian end-times scenarios",
+  one_line_of_criticism: { definition: "That a log-log chart of this nature is inherently biased toward a straight-line result", what_it_does: "", examples: "biologist PZ Myers points out that many of the early evolutionary 'events' were picked arbitrarily" },
+  job_displacement: "No longer limited to the types of work traditionally considered 'routine'",
+  evidence_for_this_decline: { definition: "That the rise in computer clock rates is slowing, even while Moore's prediction of exponentially increasing circuit density continues to hold", what_it_does: "", examples: "we could mistakenly elevate a subgoal to the status of a supergoal" },
+  it_also_proposes_a_simple_design_that: "Vulnerable to corruption of the reward generator",
+  goertzel: "Skeptical of a hard five-minute takeoff but speculates that a takeoff from human to superhuman level on the order of five years is reasonable",
+  an_updated_version_of_the_article: "Published in 1979 in Analog Science Fiction and Fact",
+  the_rhetorical_effect_of_the_analogy: { definition: "That if humans are fine to pass the world to their biological children, they should be equally fine to pass it to robots, their 'mind children'", what_it_does: "", examples: "possible technological singularity" },
+
 };
 
 // ============================================================
