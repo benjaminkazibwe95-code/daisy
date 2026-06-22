@@ -22373,6 +22373,24 @@ const FLAT_DICT = {
   the_gprotein: "Known as the ' transducer",
   this_signal: { definition: "Called the 'second (or secondary) messenger", what_it_does: "", examples: "muscle contraction , fertilization , and neurotransmitter release" },
 
+  // === INGESTED 2026-06-22 20:42 ===
+  sea_anemones: "Classified in the phylum Cnidaria , class Anthozoa , subclass Hexacorallia",
+  a_typical_sea_anemone: "A single polyp attached to a hard surface by its base, but some species live in soft sediment, and a few float near the surface of the water",
+  the_tentacles: "Generally tapered and often tipped by a pore, but in some species they are branched, club-tipped, or reduced to low knobs",
+  actinotoxins: "Highly toxic to prey species of fish and crustaceans",
+  most_sea_anemones: "Harmless to humans, but a few highly toxic species (notably Actinodendron arboreum , Phyllodiscus semoni and Stichodactyla spp",
+  waste_and_undigested_matter: "Excreted through this opening",
+  the_mesenteries: "Usually found in multiples of twelve and are symmetrically arranged around the central lumen",
+  these_acontia: "Armed with nematocysts and can be extruded through cinclides, blister-like holes in the wall of the column, for use in defence",
+  no_specialized_sense_organs: "Present, but sensory cells include nematocysts and chemoreceptors",
+  these_fibers_are_not_true_muscles_because_they: "Not freely suspended in the body cavity as they are in more developed animals",
+  longitudinal_fibres: "Found in the tentacles and oral disc, and also within the mesenteries , where they can contract the whole length of the body",
+  circular_fibers: "Found in the body wall and, in some species, around the oral disc, allowing the animal to retract its tentacles into a protective sphincter",
+  the_inflated_body: "Also used to anchor the animal inside a crevice, burrow or tube",
+  the_gonads: { definition: "Strips of tissue within the mesenteries", what_it_does: "", examples: "Metridium dianthus , may be swept out from the body cavity through the cinclides" },
+  the_greatest_diversity: "In the tropics, although there are many species adapted to relatively cold waters",
+  the_whole_animal: "Marinated in vinegar, then coated in a batter similar to that used to make calamari , and deep-fried in olive oil",
+
 };
 
 // ============================================================
