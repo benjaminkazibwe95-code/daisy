@@ -17517,6 +17517,22 @@ const FLAT_DICT = {
   these_parameters: "Obtained by fitting the JWL-EOS to experimental results",
   typical_parameters_for_some_explosives: "Listed in the table below",
 
+  // === INGESTED 2026-06-22 06:49 ===
+  the_title: { definition: "The River Kelvin , which flows near his laboratory at the University of Glasgow's Gilmorehill home at Hillhead", what_it_does: "", examples: "his smoking-pipe" },
+  william_thomson: "Born on 26 June 1824 in Belfast",
+  language_study: "Given a high priority",
+  thomson: { definition: "A creationist in a broad sense, but he was not a ' flood geologist ' [ 67 ] (a view that had lost mainstream scientific support by the 1840s", what_it_does: "", examples: "the views published by Darwin, as 'vaguely vast age'" },
+  thomson_found_the_access_he: "Given unsatisfactory, and the Agamemnon had to return home following a disastrous storm in June 1858",
+  a_cable: "Completed on 5 August",
+  whitehouse_continued_to_maintain_that_it: "His equipment that was providing the service and started to engage in desperate measures to remedy some of the problems",
+  the_cable: "Lost after 1,200 miles (1,900 km) had been laid, and the project was abandoned",
+  the_enterprise: { definition: "Feted as a triumph by the public, and Thomson enjoyed a large share of the adulation", what_it_does: "", examples: "the quadrant electrometer, which cover the entire field of electrostatic measurement" },
+  it_was_only_when_thermonuclear_fusion: "Recognised in the 1930s that Kelvin's age paradox was truly resolved",
+  the_coffin: { definition: "Placed in a special Midland and Glasgow and South Western Railway van", what_it_does: "", examples: "burgh dignitaries" },
+  as_the_subject_matter: "Under active development, Kelvin amended that text and in 1904 it was typeset and published",
+  two_major_physical_theories: "Developed during the 20th century starting from these issues: for the former, the theory of relativity ; for the second, quantum mechanics",
+  all_that_remains: { definition: "More and more precise measurement", what_it_does: "", examples: "Philipp von Jolly" },
+
 };
 
 // ============================================================
