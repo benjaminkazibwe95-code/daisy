@@ -21782,6 +21782,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 19:05 ===
   the_name_lstm: "Introduced in a tech report in 1995, leading to the most cited LSTM publication, published in 1997 and co-authored by Hochreiter and Schmidhuber",
 
+  // === INGESTED 2026-06-22 19:07 ===
+  bicameral_mentality: "A psychological hypothesis proposed by American psychologist Julian Jaynes",
+  the_eventual_collapse_of_this_mental_structure: { definition: "Proposed to have led to the development of self-reflective consciousness in humans", what_it_does: "", examples: "deliberate mind-wandering and conscious introspection of mental content" },
+  jaynes_argues_that_schizophrenia: { definition: "A vestige of humanity's earlier bicameral state", what_it_does: "", examples: "walking into the ocean, which the listener feels they have no choice but to follow" },
+  jaynes_says_that_there: { definition: "No evidence of insanity existing prior to the breakdown of the bicameral mind and that this is indirect evidence for his theory", what_it_does: "", examples: "Andy Clark , Daniel Dennett , William H" },
+  mcveigh_argues_that_this_distinction: { definition: "Frequently not recognized by those offering critiques of Jaynes's theory", what_it_does: "", examples: "three books by Brian J" },
+
 };
 
 // ============================================================
