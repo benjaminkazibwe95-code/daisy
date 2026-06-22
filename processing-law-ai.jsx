@@ -22728,6 +22728,16 @@ const FLAT_DICT = {
   problemfocused_coping: "Directed at managing the problem, whereas emotion-focused coping processes are directed at managing the negative emotions",
   secondary_appraisal: "The evaluation of the resources available to cope with the problem, and may alter the primary appraisal",
 
+  // === INGESTED 2026-06-22 21:49 ===
+  all_hormones_secreted_by_the_pituitary_gland: { definition: "Peptide hormones, as are leptin from adipocytes, ghrelin from the stomach, and insulin from the pancreas", what_it_does: "", examples: "diabetes , hyperthyroidism , and many others (see list of diseases )" },
+  many_diseases: "Investigated through excitation/stimulation or inhibition/suppression testing",
+  most_endocrine_disorders: "Chronic diseases that need lifelong care",
+  endocrinologists: "Specialists of internal medicine or pediatrics",
+  the_hormone_foundation: "The public education affiliate of The Endocrine Society and provides information on all endocrine-related conditions",
+  if_the_vagus_nerve_on_the_first_heart: "Stimulated, negative inotropic (beat amplitude) and chronotropic (beat rate) activity were seen in both hearts",
+  the_vagus_nerve: "Adding something to the saline solution",
+  the_first_example_of_such_work_being_done: "In 1962 by Earl Sutherland",
+
 };
 
 // ============================================================
