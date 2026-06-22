@@ -17658,6 +17658,36 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 07:10 ===
   this_adaptation_of_a_physical_unit: "One of several ploys that Mermin uses to draw students into spacetime geometry",
 
+  // === INGESTED 2026-06-22 07:12 ===
+  blackbody_radiation: "The thermal electromagnetic radiation emitted from a body in thermodynamic equilibrium with its environment",
+  a_black_body: "An idealized opaque and non-reflective body",
+  the_radiation_emitted: "A continuous spectrum over all possible radiation wavelengths that depends only on the body's temperature",
+  the_term_black_body: "Introduced by Gustav Kirchhoff in 1860",
+  when_a_black_body: "At a uniform temperature, its emission has a characteristic frequency distribution that depends on the temperature",
+  its_emission: "Called black-body radiation",
+  the_concept_of_the_black_body: { definition: "An idealization, as perfect black bodies do not exist in nature", what_it_does: "", examples: "an oven), viewed from outside, looks red; at 6000 K , it looks white" },
+  different_curves: "Obtained by varying the temperature",
+  when_the_black_body: "Much bigger than the wavelength, the light energy absorbed is strictly proportional to the black-body curve",
+  the_radiance_or_observed_intensity: { definition: "Not a function of direction", what_it_does: "", examples: "temperature, emission angle, and wavelength" },
+  an_almost_perfect_blackbody_spectrum: "Exhibited by the cosmic microwave background radiation",
+  hawking_radiation: "The hypothetical black-body radiation emitted by black holes , at a temperature that depends on the mass, charge, and spin of the hole",
+  if_this_prediction: "Correct, black holes will very gradually shrink and evaporate over time as they lose mass by the emission of photons and other particles",
+  notice_that_there: "Two factors responsible for the shape of the graph, which can be seen as working opposite to one another",
+  these_quanta: "Called photons and the black-body cavity was thought of as containing a gas of photons",
+  the_wavelength_at_which_the_radiation: "Strongest is given by Wien's displacement law, and the overall power emitted per unit area is given by the Stefan–Boltzmann law",
+  the_intensity_maximum_for_this: "Given by [ 33 ] ν peak = T × 5.879",
+  the_approximate_numerical_solution: "X ≈ 2.82 {\displaystyle x\approx 2.82}",
+  the_net_power_radiated: "The difference between the power emitted and the power absorbed: P net = P emit − P absorb",
+  the_total_surface_area_of_an_adult: { definition: "About 2 m 2 , and the mid- and far-infrared emissivity of skin and most clothing is near unity, as it is for most nonmetallic surfaces", what_it_does: "", examples: "convection and evaporation" },
+  evaporation_by_perspiration: "Only required if radiation and convection are insufficient to maintain a steady-state temperature (but evaporation from the lungs occurs regardless)",
+  freeconvection_rates: "Comparable, albeit somewhat lower, than radiative rates",
+  if_the_planet: "A perfect black body, it would emit according to the Stefan–Boltzmann law where T E {\displaystyle T_{\rm {E}}} is the temperature of the planet",
+  the_albedo_and_emissivity_of_the_moon: "About 0.1054 [ 46 ] and 0.95 [ 47 ] respectively, yielding an estimated temperature of about 1.36 °C",
+  estimates: "Often based on the solar constant (total insolation power density) rather than the temperature, size, and distance of the Sun",
+  stewart: { definition: "Concerned with selective thermal radiation, which he investigated using plates which selectively radiated and absorbed different wavelengths", what_it_does: "", examples: "prisms or diffraction gratings" },
+  in_this_report_there: "No mention of black bodies",
+  his_fresh_theoretical_proof_was_and_still: "Considered by some writers to be invalid",
+
 };
 
 // ============================================================
