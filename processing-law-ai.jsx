@@ -22457,6 +22457,29 @@ const FLAT_DICT = {
   when_an_ionotropic_receptor: "Activated, it opens a channel that allows ions such as Na + , K + , or Cl − to flow",
   g_proteincoupled_receptors: { definition: "All metabotropic receptors", what_it_does: "", examples: "modifying synaptic strength and modulating short- and long-term synaptic plasticity" },
 
+  // === INGESTED 2026-06-22 20:53 ===
+  a_neural_circuit: "A population of neurons interconnected by synapses to carry out a specific function when activated",
+  simplified_models_of_biological_neurons: "Set up, now usually called perceptrons or artificial neurons",
+  the_connections_between_neurons_in_the_brain: "Much more complex than those of the artificial neurons used in the connectionist neural computing models of artificial neural networks",
+  the_basic_kinds_of_connections_between_neurons: "Synapses : both chemical and electrical synapses",
+  presynaptic_proteins_called_neurexins: "Central to this process",
+  longterm_synaptic_plasticity: "Often contended to be the most likely memory substrate",
+  temporal_characteristics: "The continuously modified activity-dependent efficacy of synaptic transmission, called spike-timing-dependent plasticity",
+  ltp: "Induced by a series of action potentials which cause a variety of biochemical responses",
+  this_picture: "Further complicated by variation in time constant between neurons, as some cells can experience their EPSPs over a wider period of time than others",
+  neural_connections: "Built and maintained primarily by glia",
+  the_interactions_between_these_brain_regions: "Critical to proper cognitive function",
+  the_central_pattern_generators: "Made up of different groups of spinal interneurons",
+  these_circuits: "A diverging circuit, a converging circuit, a reverberating circuit, and a parallel after-discharge circuit",
+  diverging_and_converging_circuits: "A type of feedforward excitation",
+  feedforward_excitation: "The method of travel taken by neuronal signals",
+  a_resulting_repetitive_pattern: "The outcome that only stops if one or more of the synapses fail, or if an inhibitory feed from another source causes it to stop",
+  this_type_of_reverberating_circuit: "Found in the respiratory center that sends signals to the respiratory muscles , causing inhalation",
+  when_the_circuit: "Interrupted by an inhibitory signal the muscles relax causing exhalation",
+  each_chain: "Made up of a different number of neurons but their signals converge onto one output neuron",
+  this_circuit_type: "Found in the reflex arcs of certain reflexes",
+  modifications_to_the_basal_ganglia: "Often associated with diseases such as in Parkinson's disease",
+
 };
 
 // ============================================================
