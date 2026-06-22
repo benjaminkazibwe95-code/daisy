@@ -17785,6 +17785,31 @@ const FLAT_DICT = {
   whenever_the_charges: "Quasistatic, however, this condition will be essentially met",
   the_vector_potential: "Similar: These can then be differentiated accordingly to obtain the complete field equations for a moving point particle",
 
+  // === INGESTED 2026-06-22 07:35 ===
+  laser_printing: "An electrostatic digital printing process",
+  the_laser_printer: "Invented at Xerox PARC in the 1970s",
+  laser_printers: { definition: "Introduced for the office and then home markets in subsequent years by IBM , Canon , Xerox, Apple , Hewlett-Packard and many others", what_it_does: "", examples: "insurance policies)" },
+  the_system_used_a_desktop_metaphor_that: "Unsurpassed in commercial sales, until the Apple Macintosh",
+  once_fasterrecovery_coatings: "Developed, the drums could touch the paper multiple times in a pass, and therefore be smaller in diameter",
+  the_laser: "Typically an aluminium gallium arsenide (AlGaAs) semiconductor laser , which emits red or infrared light",
+  the_drum: "Coated with selenium , or more recently, with an organic photoconductor made of N-vinylcarbazole , an organic monomer",
+  the_document_to_be_printed: "Encoded in a page description language such as PostScript, Printer Command Language (PCL), or Open XML Paper Specification (OpenXPS)",
+  each_horizontal_strip_of_dots_across_the_page: "Known as a raster line or scan line",
+  an_ac_bias_voltage: "Applied to the primary charge roller to remove any residual charges left by previous images",
+  a_laser_printer_uses_a_laser_because_lasers: "Able to form highly focused, precise, and intense beams of light, especially over the short distances inside of a printer",
+  one_roller: "Usually a hollow tube (heat roller) and the other is a rubber-backed roller (pressure roller)",
+  a_radiant_heat_lamp: "Suspended in the center of the hollow tube, and its infrared energy uniformly heats the roller from the inside",
+  once_the_raster_image_generation: { definition: "Complete, all steps of the printing process can occur one after the other in rapid succession", what_it_does: "can be completed before the drum completes one revolution", examples: "" },
+  the_toner: "Based on either wax or plastic, so that when the paper passes through the fuser assembly, the particles of toner melt",
+  the_mechanism_inside_a_laser_printer: { definition: "Somewhat delicate and, once damaged, often impossible to repair", what_it_does: "", examples: "the graphic intensity of the job being processed" },
+  the_combined_layers: "Then applied to the paper in a uniform single step",
+  color_laser_transfer_printers: "Designed to produce transfer media which are transfer sheets designed to be applied by means of a heat press",
+  these_transfers: "Typically used to make custom T-shirts or custom logo products with corporate or team logos on them",
+  the_dots: "Yellow and about 0.1 mm (0.0039 in) in size, with a raster of about 1 mm (0.039 in)",
+  toner_particles_are_so_fine_that_they: "Poorly filtered by conventional household vacuum cleaner filter bags and blow through the motor or back into the room",
+  these_specialized_tools: "Called 'ESD-safe' (Electrostatic Discharge-safe) or 'toner vacuums'",
+  a_potential_health_hazard: { definition: "Theoretically possible in extreme cases", what_it_does: "", examples: "cardiovascular problems or cancer" },
+
 };
 
 // ============================================================
