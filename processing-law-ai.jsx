@@ -19709,6 +19709,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 13:02 ===
   ktype_mainsequence_stars: "About three to four times as abundant as G-type main-sequence stars, making planet searches easier",
 
+  // === INGESTED 2026-06-22 13:05 ===
+  atmospheric_circulation: { definition: "The large-scale movement of air and together with ocean circulation is the means by which thermal energy is redistributed on the surface of Earth", what_it_does: "", examples: "the jet stream , and plate tectonics may shift ocean currents" },
+  the_wind_belts_girdling_the_planet: "Organised into three cells in each hemisphere—the Hadley cell , the Ferrel cell, and the polar cell",
+  the_hadley_cell: "A closed circulation loop which begins at the equator",
+  the_air_flows_at_the_surface: "Called the polar easterlies, flowing from northeast to southwest near the north pole and from southeast to northwest near the south pole",
+  the_ferrel_cell: "Weak, because it has neither a strong source of heat nor a strong sink, so the airflow and temperatures within it are variable",
+  this_atmospheric_motion: "Known as zonal overturning circulation",
+  latitudinal_circulation: "A result of the highest solar radiation per unit area (solar intensity) falling on the tropics",
+
 };
 
 // ============================================================
