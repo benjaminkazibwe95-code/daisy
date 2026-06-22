@@ -15925,6 +15925,15 @@ const FLAT_DICT = {
   the_vertex_set_partitions: "Then distributed to the PEs with matching index, additionally to the corresponding edges",
   general_techniques_such_as_huffman_coding: { definition: "Applicable, but the adjacency list or adjacency matrix can be processed in specific ways to increase efficiency", what_it_does: "", examples: "Kosaraju's algorithm , which is a modified DFS" },
 
+  // === INGESTED 2026-06-22 02:45 ===
+  racket: "A general-purpose , multi-paradigm programming language",
+  the_racket_language: { definition: "A modern dialect of Lisp and a descendant of Scheme", what_it_does: "", examples: "classes or modules , and separate dialects of Racket with different semantics" },
+  the_next_major_revision: "Named Version 200, which introduced a new default module system that cooperates with macros",
+  racket_cs: { definition: "Faster, easier to maintain and develop, backward-compatible with existing Racket programs, and has better parallel garbage collection", what_it_does: "", examples: "first-class functions , objects, reference cells, and so on" },
+  this_new_packaging_system: { definition: "Serviced by a client program named raco", what_it_does: "", examples: "the #%app syntactic form can be overridden to change the semantics of function application" },
+  drracket: "Available for Windows , macOS , Unix , and Linux with the X Window System and programs behave similarly on all these platforms",
+  a_notable_example: "The Hacker News website, which runs on Arc , which is developed in Racket",
+
 };
 
 // ============================================================
