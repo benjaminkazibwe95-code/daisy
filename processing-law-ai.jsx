@@ -17354,6 +17354,16 @@ const FLAT_DICT = {
   integrated_passive_devices: "Passive devices integrated within one distinct package",
   reference_designators: "Applied to the symbols to identify the components",
 
+  // === INGESTED 2026-06-22 06:33 ===
+  webb_said_he: { definition: "Drawn to the singer's distinctive voice and they became friends a few years later", what_it_does: "", examples: "the title track, which was released as a single in May 1967 and reached the Top Ten" },
+  each_album: "Noted for its inventive music and memorable lyrics",
+  webb: "Quoted as saying he had a crush on Mary Wilson when he wrote and produced 'I Keep It Hid' featuring her on lead vocals",
+  the_album_and_its_accompanying_dvd: "Filmed and recorded in December 1988 at the Hamilton, Ontario, studios of CHCH-TV as part of the Canadian concert series In Session",
+  the_first_part_of_a_relationship: "Usually that white-hot center when all the happy songs come",
+  the_breakup: "Also the primary influence for his 1965 composition 'By the Time I Get to Phoenix'",
+  he_stated_that_using_cocaine: "Pervasive in the music industry during the 1970s as recording sessions typically were long and cocaine provided the energy to keep on recording",
+  cocaine: "In the executive suites of all the major record companies",
+
 };
 
 // ============================================================
