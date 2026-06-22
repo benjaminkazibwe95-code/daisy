@@ -23296,6 +23296,19 @@ const FLAT_DICT = {
   the_university_of_asmara: "The oldest in the country and was opened in 1958",
   studentteacher_ratios: "High: 45:1 at the elementary level and 54:1 at the secondary level",
 
+  // === INGESTED 2026-06-22 23:39 ===
+  aksumite_currency: "Coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia and Eritrea",
+  by_the_time_coins: { definition: "First minted in Aksum, there was widespread trade with Romans on the Red Sea ; Kushana or Persian influence also cannot be ruled out", what_it_does: "", examples: "the medieval province/kingdom of Innarya has been attested from the 6th century (i.e" },
+  the_images: "Of his head and upper half of his chest in profile, wearing a regnal headcloth or helmet and abundant jewelry",
+  the_bisi_name: { definition: "A sort of tribal affiliation or 'ethnikon' (i.e", what_it_does: "", examples: "amulets and bracelets" },
+  two_other_minting_features_of_aphilas: "Also abandoned by later rulers",
+  the_older_coin: "Presumably more valuable than needed, and the new coin remedied the problem",
+  these_two_issues: "The only one of Aphilas's issues to portray him frontally, rather than in profile",
+  a_majority_of_these_coins: "Found in South Arabia and not Aksum",
+  the_name_is_unknown_so_it: "Referred to as an Æ diameter in mm Unit, like Æ17 for a coin of 17 mm",
+  also_starting_with_endybis_these_coins: "2.11-2.5 grams in weight which is half the weight of a Roman antoninianus of 3.5-4.5 grams",
+  that_coinage_began_so_late: { definition: "In fact a little surprising", what_it_does: "", examples: "Nubia , South Arabia and the Horn of Africa" },
+
 };
 
 // ============================================================
