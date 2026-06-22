@@ -18949,6 +18949,20 @@ const FLAT_DICT = {
   the_addition: "'divide by different names, benefit from each other by the same name",
   gou_gu_integer: "Precisely the finding of some significant integer Pythagorean numbers, including famously the triple 3,4,5",
 
+  // === INGESTED 2026-06-22 10:39 ===
+  polynomial_factorization: "One of the fundamental components of computer algebra systems",
+  the_first_polynomial_factorization_algorithm: "Published by Theodor von Schubert in 1793",
+  this_means_that_every_element_of_these_rings: "A product of a constant and a product of irreducible polynomials (those that are not the product of two non-constant polynomials)",
+  the_primitive_part_of_p: "Primpart( p ) = p /cont( p ), which is a primitive polynomial with integer coefficients",
+  this_factorization: { definition: "Also unique up to the choice of a sign", what_it_does: "", examples: "is a factorization into content and primitive part" },
+  the_content_of_q: "Defined as: and the primitive part of q is that of p",
+  this_implies_that_a_primitive_polynomial: "Irreducible over the rationals if and only if it is irreducible over the integers",
+  if_two_or_more_factors_of_a_polynomial: "Identical, then the polynomial is a multiple of the square of this factor",
+  the_multiple_factor: "Also a factor of the polynomial's derivative (with respect to any of the variables, if several)",
+  squarefree_factorization: "Therefore the first step in most polynomial factorization algorithms",
+  if_one_of_these_values: "0, we have a linear factor",
+  if_the_values: "Nonzero, we can list the possible factorizations for each",
+
 };
 
 // ============================================================
