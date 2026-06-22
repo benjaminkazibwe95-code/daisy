@@ -23215,6 +23215,38 @@ const FLAT_DICT = {
   the_kings_and_queens: "Buried in El-Kurru and Nuri",
   while_piye: "Viewed as the founder of the 25th dynasty, some publications may include Kashta who already controlled some parts of Upper Egypt",
 
+  // === INGESTED 2026-06-22 23:31 ===
+  they_believe_that_muhammad: "The main and final of God's prophets , through whom the religion was completed, and after whom no new prophet or divine law will come",
+  the_two_main_religious_festivals: "Eid al-Fitr and Eid al-Adha",
+  the_three_holiest_sites_in_islam: "Masjid al-Haram in Mecca, Prophet's Mosque in Medina , and al-Aqsa Mosque Compound in Jerusalem",
+  muslims_believe_this: "When Muhammad received his first revelation",
+  the_two_main_islamic_branches: "Sunni Islam (87–90%) and Shia Islam (10–13%)",
+  muslim_communities: "Also present in the Americas , China , and Europe",
+  muslims: "Encouraged to emulate Muhammad's moral behaviors in their daily lives, and the sunnah is seen as crucial to guiding interpretation of the Quran",
+  this_term_has_fallen_out_of_use_and: { definition: "Sometimes said to be offensive , as it suggests that a human being, rather than God, is central to Muslims' religion", what_it_does: "", examples: "clergy , are needed to enable contact with God" },
+  awareness_of_god: { definition: "Referred to as taqwa", what_it_does: "", examples: "wings, being of great size or wearing heavenly articles" },
+  muslims_believe_that_the_verses_of_the_quran: { definition: "Revealed to Muhammad by God, through the archangel Gabriel, on multiple occasions between 610 CE [ 44 ] [ 45 ] and 632, the year Muhammad died", what_it_does: "", examples: "Adam , Noah , Abraham , Moses , David and Jesus , among others" },
+  hadith_qudsi: "A sub-category of hadith, regarded as God's verbatim words quoted by Muhammad that are not part of the Quran",
+  a_hadith: "Two elements: a chain of narrators, called sanad , and the actual wording, called matn",
+  the_kutub_alsittah: "A collection of six books, regarded as the most authentic reports in Sunni Islam",
+  nonmuslims_wishing_to_convert_to_islam: "Required to recite the shahada in front of witnesses",
+  the_prayers: "Recited in the Arabic language and performed in the direction of the Kaaba",
+  although_the_primary_purpose_of_the_mosque: { definition: "To serve as a place of prayer, it is also an important social centre for the Muslim community", what_it_does: "", examples: "smoking , and is performed from dawn to sunset" },
+  tajwid: { definition: "The set of rules for the proper elocution of the Quran", what_it_does: "", examples: "raising hands as if begging" },
+  it_was_during_his_time_in_the_cave_that_he: "Said to have received the first revelation of the Quran from the angel Gabriel",
+  many_early_converts_to_islam: "Women, the poor, foreigners, and slaves like the first muezzin Bilal ibn Rabah al-Habashi",
+  the_constitution_of_medina: "Signed by all the tribes of Medina",
+  the_kharijites_rebelled_and: { definition: "Defeated in the Battle of Nahrawan but a Kharijite assassin later killed Ali", what_it_does: "", examples: "Hasan al-Basri inspired a movement that would evolve into tasawwuf or Sufism" },
+  rhazes: { definition: "The first to identify the diseases smallpox and measles", what_it_does: "", examples: "the Tulunids in 868 in Egypt [ 196 ] and the Ghaznavid dynasty in 977 in Central Asia" },
+  the_caliphate: { definition: "Claimed by the Ottoman dynasty of the Ottoman Empire and its claims were strengthened in 1517 as Selim I became the ruler of Mecca and Medina", what_it_does: "", examples: "democracy while being scripture oriented" },
+  while_some_of_those_who_broke_away: { definition: "Quietist , others believed in violence against those opposing them, even against other Muslims", what_it_does: "", examples: "during the Bosnian genocide" },
+  the_nurcu_sunni_movement: { definition: "Initiated by Said Nursi (1877–1960); [ 342 ] it incorporates elements of Sufism and science", what_it_does: "", examples: "Ali and Husayn" },
+  the_kharijites: { definition: "Groups that rebelled against Caliph Ali for his acceptance of arbitration with someone they viewed as a sinner", what_it_does: "", examples: "Mansur Al-Hallaj and Jalaluddin Rumi , emphasized religiosity based on love towards God" },
+  the_term_ghayr_muqallid: "Those who do not use taqlid and, by extension, do not have a madhab",
+  consensus_of_opinion: { definition: "Ijma , while ikhtilaf refers to scholarly disagreement", what_it_does: "", examples: "on censorship and violence" },
+  one_reason_cited_for_polygyny: "That it allows a man to give financial protection to multiple women, who might otherwise not have any support (e.g",
+  coffins_are_often_not_preferred_and_graves: { definition: "Often unmarked, even for kings", what_it_does: "", examples: "festivals and dress code" },
+
 };
 
 // ============================================================
