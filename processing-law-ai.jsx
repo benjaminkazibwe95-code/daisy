@@ -14984,6 +14984,30 @@ const FLAT_DICT = {
   green_infrastructure: { definition: "A type of sustainable infrastructure", what_it_does: "", examples: "flooding, [ 46 ] and create healthier urban environments" },
   masdar_city: { definition: "A proposed zero emission smart city that will be contracted in the United Arab Emirates", what_it_does: "", examples: "energy, water, waste management, and transportation" },
 
+  // === INGESTED 2026-06-22 00:02 ===
+  means_of_transport: { definition: "Any of the different kinds of transport facilities used to carry people or cargo", what_it_does: "", examples: "availability, information, usability, accessibility, and affordability (as in right to mobility )" },
+  they_remain_useful_in_rough_terrain_that: "Not readily accessible by automotive-based transportation",
+  two_things_necessary_for_aircraft: "Air flow over the wings for lift and an apparatus for landing",
+  the_lifting_gas: { definition: "Typically helium, as hydrogen is highly flammable", what_it_does: "", examples: "zeppelins were used on long-ranged bombing raids during World War I" },
+  land_transport: "A key factor in urban planning",
+  the_rails: "Anchored perpendicular to ties (or sleepers) of timber, concrete, or steel, to maintain a consistent distance apart, or gauge",
+  the_rails_and_perpendicular_beams: "Placed on a foundation made of concrete or compressed earth and gravel in a bed of ballast",
+  propulsion: "Commonly provided by a locomotive , which hauls a series of unpowered cars that carry passengers or freight",
+  typically_a_tram: "Electric-powered, but they have also been propelled by horses , cables , [ 42 ] gravity , [ citation needed ] or pneumatics",
+  an_example_of_the_latter: { definition: "Specially designed tank cars for the transport of hazardous materials", what_it_does: "", examples: "vehicles), leads to urban congestion, and have only limited ability to achieve economies of scale" },
+  the_need_for_buoyancy: "Common to watercraft, [ 58 ] making the hull a critical aspect of its construction, maintenance, and appearance",
+  the_steam: { definition: "Produced in a boiler using wood or coal and fed through a steam external combustion engine", what_it_does: "", examples: "submarines , use nuclear marine propulsion with heat from a nuclear reactor generating the steam" },
+  air_and_watercraft: "Able to avoid this, since the airway and seaway do not need to be constructed",
+  the_terminals_for_automobiles: "Parking lots , while buses and coaches can operate from simple stops",
+  relocation_of_travelers_and_cargo: "The most common uses of transport",
+  buses_are_the_cheapest_mode_of_transport_but: "Not necessarily flexible, and taxis are very flexible but more expensive",
+  air_medical_services: "A comprehensive term covering the use of air transport to move patients to and from healthcare facilities and accident scenes",
+  their_goal: "To provide for the safe, efficient, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods transport",
+  some_policies: "Levying a congestion charge [ 154 ] to cars for travelling within congested areas during peak time",
+  longdistance_trains: "Slightly higher at about 0.19 kg of CO 2 per passenger mile",
+  meeting_sustainable_transport_targets: { definition: "Said to be particularly important to achieving the Paris Agreement", what_it_does: "", examples: "the wheel and the sled (U.K" },
+  the_first_watercraft: "Canoes either cut out from tree trunks or made of animal hides",
+
 };
 
 // ============================================================
