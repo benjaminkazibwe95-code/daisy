@@ -20577,6 +20577,25 @@ const FLAT_DICT = {
   precious_metals_such_as_platinum_or_gold: "Used in electrodes, as well as carbon nanotube electrodes, which e.g",
   glucose_uptake_in_cells_of_organisms: "Measured with 2-deoxy-D-glucose or fluorodeoxyglucose",
 
+  // === INGESTED 2026-06-22 15:40 ===
+  the_premotor_cortex: "Now generally divided into four sections",
+  the_functions_of_the_premotor_cortex: "Diverse and not fully understood",
+  the_connectivity_of_the_premotor_cortex: "Diverse, partly because the premotor cortex itself is heterogenous and different subregions have different connectivity",
+  a_set_of_acronyms: "Commonly used: PMDr (premotor dorsal, rostral), PMDc (premotor dorsal, caudal), PMVr (premotor ventral, rostral), PMVc (premotor ventral, caudal)",
+  these_subdivisions_of_premotor_cortex: "Originally described and remain primarily studied in the monkey brain",
+  pmdc: "Often studied with respect to its role in guiding reaching",
+  neurons_here: "Responsive to tactile stimuli, visual stimuli, and auditory stimuli",
+  the_neurons: "Therefore both sensory and motor",
+  mirror_neurons: "Proposed to be a basis for understanding the actions of others by internally imitating the actions using one's own motor control circuits",
+  his_reasons: "Largely based on cytoarchitectonics",
+  the_betz_cells: "Rare or absent in the adjacent cortex",
+  vogt_and_vogt: "Therefore the original source of the idea of a caudal (6a-alpha) and a rostral (6a-beta) premotor cortex",
+  this_parallel_relationship: "Noted as early as 1919 by Vogt and Vogt [ 1 ] [ 2 ] and also emphasized by Fulton",
+  he_suggested_that_there: "No functional distinction between a primary motor and a premotor area",
+  in_his_view_both: { definition: "Part of the same map", what_it_does: "", examples: "following verbal instructions, more blood flow was measured in the dorsal premotor cortex" },
+  the_monkeys: { definition: "Trained to perform a delayed response task, making a movement in response to a sensory instruction cue", what_it_does: "", examples: "the primary motor cortex and several premotor fields" },
+  whether_these_cortical_areas: "Arranged in a hierarchy or share some other more complex relationship is still debated",
+
 };
 
 // ============================================================
