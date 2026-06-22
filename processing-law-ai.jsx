@@ -21082,6 +21082,31 @@ const FLAT_DICT = {
   whether_a_viral_genome: { definition: "Positive-sense or negative-sense can be used as a basis for classifying viruses", what_it_does: "", examples: "those needed for viral replication)" },
   other_antisense_mechanisms: { definition: "Not enzyme-dependent, but involve steric blocking of their target RNA (e.g", what_it_does: "", examples: "2′-O-alkyl, peptide nucleic acid (PNA), locked nucleic acid (LNA), and Morpholino oligomers" },
 
+  // === INGESTED 2026-06-22 17:10 ===
+  a_linear_chain_of_amino_acid_residues: "Called a polypeptide",
+  the_individual_amino_acid_residues: "Bonded together by peptide bonds and adjacent amino acid residues",
+  abnormal_or_misfolded_proteins: "Degraded more rapidly, often by the proteasome , which is a large protein assembly itself",
+  many_proteins: { definition: "Enzymes that catalyse biochemical reactions and are vital to metabolism", what_it_does: "", examples: "actin and myosin in muscle, and the cytoskeleton 's scaffolding proteins that maintain cell shape" },
+  other_proteins: { definition: "Important in cell signaling, immune responses , cell adhesion , and the cell cycle", what_it_does: "", examples: "the amino acid leucine for which he found a (nearly correct) molecular weight of 131 Da" },
+  cryoem_uses_protein_samples_that: "Frozen rather than crystals, and beams of electrons rather than X-rays",
+  an_individual_amino_acid_in_a_chain: "Called a residue , and the linked series of carbon, nitrogen, and oxygen atoms are known as the main chain or protein backbone",
+  the_alpha_carbons: "Roughly coplanar with the nitrogen and the carbonyl (C=O) group",
+  but_the_boundary_between_the_two: { definition: "Not well defined and usually lies near 20–30 residues", what_it_does: "", examples: "with other proteins , with lipids , with carbohydrates , and with DNA" },
+  the_rate_of_protein_synthesis: "Higher in prokaryotes than eukaryotes and can reach up to 20 amino acids per second",
+  the_growing_polypeptide: "Often termed the nascent chain",
+  chemical_synthesis: "Inefficient for polypeptides longer than about 300 amino acids, and the synthesized proteins may not readily assume their native tertiary structure",
+  the_shape_into_which_a_protein_naturally_folds: "Known as its native conformation",
+  almost_all_globular_proteins: "Soluble and many are enzymes",
+  fibrous_proteins: { definition: "Often structural, such as collagen , the major component of connective tissue, or keratin , the protein component of hair and nails", what_it_does: "", examples: "enzymatic activities (e.g" },
+  whereas_enzymes: "Limited in their binding affinity for their substrates by the necessity of conducting their reaction, antibodies have no such constraints",
+  many_ion_channel_proteins: { definition: "Specialized to select for only a particular ion; for example, potassium and sodium channels often discriminate for only one of the two ions", what_it_does: "", examples: "hair , nails , feathers , hooves , and some animal shells" },
+  various_types_of_chromatography: { definition: "Then used to isolate the protein or proteins of interest based on properties such as molecular weight, net charge and binding affinity", what_it_does: "", examples: "green fluorescent protein (GFP)" },
+  fluorescent_dyes: "Used to label cellular compartments for a similar purpose",
+  as_proteins: "Too small to be seen under a light microscope , other methods have to be employed to determine their structure",
+  dual_polarisation_interferometry: "A quantitative analytical method for measuring the overall protein conformation and conformational changes due to interactions or other stimulus",
+  circular_dichroism: "Another laboratory technique for determining internal β-sheet / α-helical composition of proteins",
+  predicting_and_analysing_protein_disorder: { definition: "An important part of protein structure characterisation", what_it_does: "", examples: "in molecular docking , [ 97 ] protein folding , protein–protein interaction and chemical reactivity" },
+
 };
 
 // ============================================================
