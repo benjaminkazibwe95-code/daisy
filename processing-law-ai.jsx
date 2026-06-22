@@ -18344,6 +18344,21 @@ const FLAT_DICT = {
   when_william_was_a_boy_he: "Sent to London to live with his uncle",
   davy: "One of William’s proposers to the Royal Society in 1806",
 
+  // === INGESTED 2026-06-22 09:00 ===
+  a_plane: "The two-dimensional analogue of a point (zero dimensions), a line (one dimension) and three-dimensional space",
+  a_prototypical_example: "One of a room's walls, infinitely extended and assumed infinitesimally thin",
+  the_elliptic_plane: "The real projective plane provided with a metric",
+  the_hemisphere: "Bounded by a plane through O and parallel to σ",
+  the_archetypical_example: "The real projective plane , also known as the extended Euclidean plane",
+  a_projective_plane: "A 2-dimensional projective space",
+  isomorphisms_of_the_topological_plane: "All continuous bijections",
+  the_topological_plane: "The natural context for the branch of graph theory that deals with planar graphs , and results such as the four color theorem",
+  from_this_viewpoint_there: { definition: "No distances, but collinearity and ratios of distances on any line are preserved", what_it_does: "", examples: "a differentiable or smooth path (depending on the type of differential structure applied)" },
+  the_isomorphisms_in_this_case: "Bijections with the chosen degree of differentiability",
+  the_result_of_this_compactification: "A manifold referred to as the Riemann sphere or the complex projective line",
+  the_plane_itself: "Homeomorphic (and diffeomorphic) to an open disk",
+  for_the_hyperbolic_plane_such_diffeomorphism: "Conformal, but for the Euclidean plane it is not",
+
 };
 
 // ============================================================
