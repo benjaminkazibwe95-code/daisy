@@ -20096,6 +20096,18 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 14:19 ===
   harrington: "Born near Newport News , Virginia",
 
+  // === INGESTED 2026-06-22 14:21 ===
+  the_eminent_person_in_question: "Pierre de Fermat , although the issue failed to mention his last theorem",
+  the_position_of_editor: "Sometimes held jointly and included William Musgrave (Nos 167 to 178) and Robert Plot (Nos 144 to 178)",
+  the_society_was_quick_to_point_out_that_it: "Not officially responsible for the journal",
+  but_individual_members_of_these_committees: { definition: "Soon put to work reporting on and evaluating papers submitted to the Royal Society", what_it_does: "", examples: "the amount expended on the Transactions was £1094, but only £276 of this was offset by sales income" },
+  sabine_felt_this: "More than the society could comfortably sustain",
+  stokes: "Paramount in establishing a more formalized refereeing process at the Royal Society",
+  many_papers: "Sent immediately for printing in abstract form in Proceedings of the Royal Society",
+  the_sectional_committees: "Intended to reduce the burden on the secretaries and Council",
+  the_role_of_the_committee_of_papers: "Abolished in 1989 and since 1990 two Fellows (rather than the secretaries) have acted as the editors with assistance from associate editors",
+  all_the_out_of_copyright_material: "Completely free to access without a login",
+
 };
 
 // ============================================================
