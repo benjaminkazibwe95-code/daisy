@@ -17267,6 +17267,14 @@ const FLAT_DICT = {
   the_predictions: "Experimentally confirmed with good precision",
   a_key_question_related_to_the_consistency: "The Yang–Mills existence and mass gap problem",
 
+  // === INGESTED 2026-06-22 06:14 ===
+  he_and_edward_teller: "The main civilian proponents of thermonuclear weapons",
+  wheeler: { definition: "Also a pioneer in the field of quantum gravity due to his development, with Bryce DeWitt , of the Wheeler–DeWitt equation in 1967", what_it_does: "", examples: "one by 'John Archibald Wyler' that was affectionately published by a relativity journal" },
+  although_it: "A lesser position, he felt that Princeton, which was building up its physics department, was a better career choice",
+  he_later_showed_that_geons: { definition: "Unstable, and would quickly self destruct if they were ever to form", what_it_does: "", examples: "gravitation and electromagnetism , to the geometrical properties of a curved space-time" },
+  his_research_on_the_subject: "Published in 1957 and 1961",
+  bohr_asked_whether_they: "Stable and further research by Wheeler determined that they are not",
+
 };
 
 // ============================================================
