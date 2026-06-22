@@ -22434,6 +22434,24 @@ const FLAT_DICT = {
   more_anatomical_work: "Done during the 18th century, but it was not until early in the 19th century that the first insights into the function of the cerebellum were obtained",
   the_updated_content: "Reintegrated into the Wikipedia page under a CC-BY-SA-3.0 license ( 2016 )",
 
+  // === INGESTED 2026-06-22 20:49 ===
+  a_cognitive_model: { definition: "A representation of one or more cognitive processes in humans or other animals for the purposes of comprehension and prediction", what_it_does: "", examples: "computer mouse and keyboard)" },
+  this_group_of_models: { definition: "What the mind does without necessarily explaining how the neurons fire", what_it_does: "", examples: "the Central Executive, Phonological Loop, and Visuospatial Sketchpad" },
+  examples_of_common_computational_models: "Weather forecasting models, earth simulator models, flight simulator models, molecular protein folding models, and neural network models",
+  sensory_information: "Transformed into symbolic inputs, which produce symbolic outputs that get transformed into motor outputs",
+  what_is_missing_from_this_traditional_view: "That human cognition happens continuously and in real time",
+  the_behavior_of_the_system: "Modeled with vectors which can change values, representing different states of the system",
+  this_early_model: "A major step toward a dynamical systems view of human cognition, though many details had yet to be added and more phenomena accounted for",
+  grammar: "Made up of attractors and repellers that constrain movement in the state space",
+  elman_networks: "Trained with simple sentences to represent grammar as a dynamical system",
+  this_suggests_that_there: { definition: "An ongoing representation of the toy's location that changes over time", what_it_does: "", examples: "leg movements during walking" },
+  one_feature_of_this_pattern: "That neuron outputs are either off or on most of the time",
+  another_feature_is_that_the_states: "Quasi-stable, meaning that they will eventually transition to other states",
+  a_simple_pattern_generator_circuit_like_this: "Proposed to be a building block for a dynamical system",
+  the_total_system: "A dynamical system that models an agent in an environment, whereas the agent system is a dynamical system that models an agent's intrinsic dynamics (i",
+  the_dynamical_systems_approach: "Not the only way to explain cognitive development in early-stage organisms",
+  since_the_similarity_in_perception_of_objects: "Unlikely to be achieved in these organisms, teaching through interpersonal dynamics is more limited",
+
 };
 
 // ============================================================
