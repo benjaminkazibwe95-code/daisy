@@ -20528,6 +20528,28 @@ const FLAT_DICT = {
   if_this_rate: { definition: "Limited by time spent handling each catch, then prey populations can reach densities above which predators cannot control them", what_it_does: "", examples: "insect flight [ 158 ] ) and armoured shells and exoskeletons" },
   because_the_fossil_record: { definition: "Poor, these first predators could date back anywhere between 1 and over 2.7 Gya (billion years ago)", what_it_does: "", examples: "Tyrannosaurus from the Cretaceous period" },
 
+  // === INGESTED 2026-06-22 15:36 ===
+  a_fish: { definition: "An aquatic , anamniotic , gill -bearing vertebrate animal with a tough cranium to protect the brain, but lacking limbs with digits", what_it_does: "", examples: "all living cartilaginous and bony fish , as well as the extinct placoderms and acanthodians" },
+  the_study_of_fish: "Known as ichthyology",
+  bony_fish: "Further divided into lobe-finned and ray-finned fishes",
+  fishes: { definition: "Used to describe different species or species groups", what_it_does: "", examples: "Haikouichthys , appear in the fossil record" },
+  the_best_known_of_these: "The bluestreak cleaner wrasses of coral reefs in the Indian and Pacific oceans",
+  fish_at_the_higher_levels: { definition: "Predatory , and a substantial part of their prey consists of other fish", what_it_does: "", examples: "dolphins and seals feed on fish, alongside birds such as gannets and cormorants" },
+  because_the_water_all_around: "The same colour, reflecting an image of the water offers near-invisibility",
+  behind_these: "The telencephalon , which in fish deals mostly with olfaction",
+  connecting_the_forebrain_to_the_midbrain: "The diencephalon ; it works with hormones and homeostasis",
+  the_pineal_body: "Just above the diencephalon; it detects light, maintains circadian rhythms, and controls color changes",
+  the_singlelobed_cerebellum: { definition: "The biggest part of the brain; it is small in hagfish and lampreys , but very large in mormyrids , processing their electrical sense", what_it_does: "", examples: "cyprinids have a fourth type of cone that detects ultraviolet" },
+  the_larval_period_in_oviparous_fish: { definition: "Usually only some weeks, and larvae rapidly grow and change in structure to become juveniles", what_it_does: "", examples: "pollutants, UV light and reactive oxygen species" },
+  this_system_evolved_once_and: { definition: "Basal to the jawed vertebrate clade", what_it_does: "", examples: "swimming speed, so that it remains close to the other members of the group" },
+  a_school: { definition: "A much more tightly organised group, synchronising its swimming so that all fish move at the same speed and in the same direction", what_it_does: "", examples: "synchronised movements" },
+  the_grunts: "At a frequency of around 700 Hz, and last approximately 47 milliseconds",
+  the_frequencies: "At the higher end of the range during spawning, when the female and male fishes were less than fifteen centimeters apart",
+  vibrations: { definition: "Caused by the rapid contraction of sonic muscles that surround the dorsal aspect of the swimbladder", what_it_does: "", examples: "courtship or a predator's attack" },
+  in_many_coastal_regions_the_fishing_industry: "A major employer, so governments are predisposed to support it",
+  harmful_species_include_fish_but: "Not limited to them; [ 128 ] the arrival of a comb jelly in the Black Sea damaged the anchovy fishery there",
+  recreational_fishing: { definition: "Particularly popular in North America and Europe; government agencies often actively manage target fish species", what_it_does: "", examples: "Finding Nemo [ 148 ] and books such as The Old Man and the Sea" },
+
 };
 
 // ============================================================
