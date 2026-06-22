@@ -20987,6 +20987,17 @@ const FLAT_DICT = {
   the_preferred_age_for_menb_vaccination: "16 through 18 years of age",
   one_of_the_critics: { definition: "ACIP member Cody Meissner: 'I will just say: we have heard that do no harm is a moral imperative", what_it_does: "", examples: "missing signatures—rather than actual financial ties" },
 
+  // === INGESTED 2026-06-22 16:53 ===
+  pneumoniae_cells: "Usually found in pairs ( diplococci ) and do not form spores and are non motile",
+  pneumoniae: "Associated with mutations in the peptidyl transferase central loop of the ribosomal 23S rRNA domain V",
+  pneumoniae_and: "Commonly attached to the peptidoglycan of the cell wall",
+  transformation: "A complex developmental process requiring energy and depends on the expression of numerous genes",
+  streptococcus_pneumoniae: "Part of the normal upper respiratory tract flora",
+  this_condition: "Called bacterial pneumonia",
+  pneumonia: "A lung infection characterized by symptoms such as fever, chills, coughing, rapid or labored breathing, and chest pain",
+  tachypnea: { definition: "Characterized by rapid, shallow breathing and can affect a person's ability to sleep, cause chest pain, and decrease appetite", what_it_does: "", examples: "the United Kingdom, [ 37 ] the United States, [ 38 ] Greece, [ 39 ] and South Africa" },
+  influenzae: { definition: "More aggressive in attacking S", what_it_does: "", examples: "clindamycin ), and tetracyclines , as reported in a study of Chinese isolates" },
+
 };
 
 // ============================================================
