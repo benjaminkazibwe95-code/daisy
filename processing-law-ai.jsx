@@ -22317,6 +22317,11 @@ const FLAT_DICT = {
   individuals_making_decisions: "Limited in resources (i.e",
   decisions_are_also_affected_by_whether_options: { definition: "Framed together or separately; this is known as the distinction bias", what_it_does: "", examples: "if flips of a fair coin give repeated tails, the coin still has the same probability (i.e., 0" },
 
+  // === INGESTED 2026-06-22 20:30 ===
+  while_the_book: { definition: "Often categorized as nonfiction, Sacks' private journals and correspondences have revealed that he embellished or fabricated some of its content", what_it_does: "", examples: "the soul , id, ego, and super-ego" },
+  the_man_who_mistook_his_wife_for_a_hat: "First produced by the Institute of Contemporary Arts in London in 1986",
+  a_television_version_of_the_opera: "Subsequently broadcast in the UK",
+
 };
 
 // ============================================================
