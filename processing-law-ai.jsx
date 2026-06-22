@@ -17768,6 +17768,15 @@ const FLAT_DICT = {
   their_performance: "Wavelength-specific; a fact that may be a limitation",
   because_they: "Based on total internal reflection, they are broadband —they work over a broad range of wavelengths",
 
+  // === INGESTED 2026-06-22 07:31 ===
+  the_study_of_these_phenomena: "Known as singular optics",
+  the_vortex: "Given a number, called the topological charge , according to how many twists the light does in one wavelength",
+  the_number: "Always an integer, and can be positive or negative, depending on the direction of the twist",
+  orbital_angular_momentum: "Distinct from the more commonly encountered spin angular momentum , which produces circular polarization",
+  optical_vortices: { definition: "Studied by creating them in the lab in various ways", what_it_does: "", examples: "computer-generated holograms, spiral-phase delay structures, or birefringent vortices in materials" },
+  vortices: "Points in 2D fields and lines in 3D fields (as they have codimension two)",
+  this_integer: "Known as the topological charge, or strength, of the vortex",
+
 };
 
 // ============================================================
