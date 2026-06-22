@@ -16044,6 +16044,18 @@ const FLAT_DICT = {
   these_futures: "Computed concurrently with the flow of the rest of the program",
   conditionals_block_until_their_condition: "Evaluated, and lambdas do not create futures until they are fully applied",
 
+  // === INGESTED 2026-06-22 03:06 ===
+  microsoft_corporation: { definition: "An American multinational technology company headquartered in Redmond, Washington", what_it_does: "", examples: "Internet services, cloud computing , artificial intelligence , video gaming, and more" },
+  its_flagship_hardware_products: { definition: "The Surface lineup of PCs and the Xbox brand of video game consoles, the latter including the Xbox network", what_it_does: "", examples: "Bing web search, the MSN web portal, the Outlook" },
+  this_nonprofit_organization: "Focused on providing support for a cloud computing initiative called Software-Defined Networking",
+  all_previous_divisions: "Dissolved into new divisions without any workforce cuts",
+  microsoft_profits: "$5.2 billion, while Apple Inc",
+  profits: "$6 billion, on revenues of $14.5 billion and $24.7 billion respectively",
+  its_total_market_value: "Over $410B—with the stock price hitting $50.04 a share, the highest since early 2000",
+  frequently_criticized: "The ease of use , robustness , and security of the Microsoft's software",
+  internal_revenue_service: "Alleging that the company owed the U.S",
+  this_inquiry: "Part of broader efforts by the U.S",
+
 };
 
 // ============================================================
