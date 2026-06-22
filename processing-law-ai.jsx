@@ -22938,6 +22938,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-22 22:24 ===
   kyengera: "Approximately 9 kilometres (5.6 mi), by road, south-west of Kampala, Uganda's capital and largest city",
 
+  // === INGESTED 2026-06-22 22:26 ===
+  the_directors: "So taken with her audition that she immediately got the role, marking her first leading role",
+
 };
 
 // ============================================================
