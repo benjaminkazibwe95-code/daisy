@@ -18789,6 +18789,9 @@ const FLAT_DICT = {
   the_bijective_linear_transformations: "Elements of a general linear group",
   the_transpose_of_a_row_vector_v: "A column vector v T , and the transpose of the above equality is w T = ( v A ) T = A T v T",
 
+  // === INGESTED 2026-06-22 10:16 ===
+  his_undergraduate_work: "At the University of Sydney (1971–74), where he attended St John's College and he was influenced by philosophers David Stove and David Armstrong",
+
 };
 
 // ============================================================
