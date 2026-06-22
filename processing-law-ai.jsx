@@ -21376,6 +21376,28 @@ const FLAT_DICT = {
   while_agreeable_individuals: { definition: "Habitually likely to help others, disagreeable people may be more likely to cause harm", what_it_does: "", examples: "the overweight" },
   the_people_who: "Thought to be the most agreeable wore smiles, a facial expression that is recognized around the world",
 
+  // === INGESTED 2026-06-22 18:06 ===
+  the_major_hindu_scriptures: { definition: "The Vedas , the Upanishads , the Puranas , the Mahabharata (including the Bhagavad Gita ), the Ramayana , and the Agamas", what_it_does: "", examples: "Transcendental Meditation and the ISKCON's Hare Krishna movement" },
+  some_forms_of_religious_expression: "Central to Hinduism and others, while not as central, still remain within the category",
+  the_word_dharma: { definition: "Used here to mean religion similar to modern Indo-Aryan languages , rather than with its original Sanskrit meaning", what_it_does: "", examples: "the Pancaratrika to be invalid because it did not conform to the Vedas" },
+  western_stereotypes: { definition: "Reversed, emphasising the universal aspects, and introducing modern approaches of social problems", what_it_does: "", examples: "social justice, peace and 'the spiritual transformation of humanity'" },
+  shaivas: { definition: "More attracted to ascetic individualism, and it has several sub-schools", what_it_does: "", examples: "Advaita and Raja Yoga" },
+  shaivism: { definition: "Related to Shaktism, wherein Shakti is seen as spouse of Shiva", what_it_does: "", examples: "the Kumbh Mela" },
+  devi: "Depicted as in gentler forms like Parvati , the consort of Shiva; or, as fierce warrior goddesses like Kali and Durga",
+  shaktism: { definition: "Also associated with Tantra practices", what_it_does: "", examples: "the Meitei people ( Tibeto-Burman ethnicity in the northeastern Indian state Manipur )" },
+  these_texts: "Classified into two: Shruti and Smriti",
+  the_bhagavad_gita: "An integral part of the Mahabharata and one of the most popular sacred texts of Hinduism",
+  the_yoga_sutras: { definition: "A classical text for the Hindu Yoga tradition, which gained renewed popularity in the 20th century", what_it_does: "", examples: "pleasure deriving from the arts" },
+  the_self: "Believed to be eternal",
+  the_underpinning_of_hindu_worship: { definition: "Bhakti , or loving devotion to God", what_it_does: "", examples: "puja, arti, and havan" },
+  the_nature_and_place_of_rituals: { definition: "An individual's choice", what_it_does: "", examples: "a Hindu wedding" },
+  as_long_as_the_purity_of_the_sounds: { definition: "Preserved, the recitation of the mantras will be efficacious, irrespective of whether their discursive meaning is understood by human beings", what_it_does: "", examples: "compassion towards all living beings and positive attitude" },
+  the_bhiksu: "Advised to not bother about the caste of the family from which he begs his food",
+  scholars_like_adi_sankara_affirm_that_not_only: "Brahman beyond all varṇas , the man who is identified with Him also transcends the distinctions and limitations of caste",
+  yoga: { definition: "A Hindu discipline which trains the body, mind, and consciousness for health, tranquility , and spiritual insight", what_it_does: "", examples: "plants and non-human animals" },
+  some_adhere_to_a_diet_that: { definition: "Devoid of meat, eggs, and seafood", what_it_does: "", examples: "Bali and Nepal [ 481 ] [ 482 ] practise animal sacrifice" },
+  the_first_period: { definition: "The pre-Vedic period, which includes the Indus Valley Civilization and local pre-historic religions, ending at about 1750 BCE", what_it_does: "", examples: "Unitarianism and Theosophy" },
+
 };
 
 // ============================================================
