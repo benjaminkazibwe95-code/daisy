@@ -15628,6 +15628,19 @@ const FLAT_DICT = {
   but_what_church_had_done: "Something rather different, and in a certain sense weaker",
   the_turing_construction: "More direct, and provided an argument from first principles, closing the gap in Church's demonstration",
 
+  // === INGESTED 2026-06-22 01:51 ===
+  william_gilbert: { definition: "A prominent early electrical scientist, and was the first to draw a clear distinction between magnetism and static electricity", what_it_does: "", examples: "the possibility of invisible airborne waves (later called 'radio waves')" },
+  one_of_the_properties_of_electricity: "That it is very useful for energy transmission as well as for information transmission",
+  these_two: { definition: "Sometimes combined to form a two-way communication device known as a transceiver", what_it_does: "", examples: "autonomous vehicles , autonomous drones and others used in a variety of industries" },
+  another_example_to_research: "A pneumatic signal conditioner",
+  nanoelectronics: "The further scaling of devices down to nanometer levels",
+  modern_devices: "Already in the nanometer regime, with below 100 nm processing having been standard since around 2002",
+  analog_signal_processing: { definition: "Still important in the design of many control systems", what_it_does: "", examples: "pressure , flow , and temperature" },
+  computer_engineers: { definition: "Involved in many hardware and software aspects of computing", what_it_does: "", examples: "CD and DVD)" },
+  mechatronics: "An engineering discipline that deals with the convergence of electrical and mechanical systems",
+  such_combined_systems: { definition: "Known as electromechanical systems and have widespread adoption", what_it_does: "", examples: "work experience requirements) before being certified" },
+  the_workplaces_of_engineers: { definition: "Just as varied as the types of work they do", what_it_does: "", examples: "scientists, electricians , computer programmers , and other engineers" },
+
 };
 
 // ============================================================
