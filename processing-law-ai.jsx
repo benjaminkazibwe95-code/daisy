@@ -16867,6 +16867,28 @@ const FLAT_DICT = {
   according_to_this_idea_it_would_be_since_three: "The largest number of spatial dimensions in which strings can generically intersect",
   extra_dimensions: { definition: "Said to be universal if all fields are equally free to propagate within them", what_it_does: "", examples: "illustration software , computer-aided design , and geographic information systems" },
 
+  // === INGESTED 2026-06-22 05:26 ===
+  a_classic_example: "Two seeds of genetically identical corn, one placed in a temperate climate and one in an arid climate (lacking sufficient waterfall or rain)",
+  blending_of_traits_in_the_progeny: "Now explained by the action of multiple genes with quantitative effects",
+  she_was_able_to_conclude_that_sex: "A chromosomal factor and is determined by the male",
+  the_nucleotide_sequence_of_a_messenger_rna: { definition: "Used to create an amino acid sequence in protein; this translation between nucleotide sequences and amino acid sequences is known as the genetic code", what_it_does: "", examples: "humans, have this pattern of inheritance" },
+  the_set_of_alleles_for_a_given_organism: { definition: "Called its genotype , while the observable traits of the organism are called its phenotype", what_it_does: "", examples: "Mendel found that if you cross heterozygous organisms your odds of getting the dominant trait is 3:1" },
+  a_gene: { definition: "Represented by one or a few letters", what_it_does: "", examples: "there exists a gene with alleles that determine the color of flowers: blue or magenta" },
+  this_interaction_between_genes: "Called epistasis , with the second gene epistatic to the first",
+  these_complex_traits: { definition: "Products of many genes", what_it_does: "", examples: "human height is a trait with complex causes" },
+  these_dna_strands: "Often extremely long; the largest human chromosome, for example, is about 247 million base pairs in length",
+  the_two_alleles_for_a_gene: "Located on identical loci of the two homologous chromosomes , each allele inherited from a different parent",
+  offspring_that: "Genetically identical to their parents are called clones",
+  most_animals_and_many_plants: "Diploid for most of their lifespan, with the haploid form reduced to single cell gametes such as sperm or eggs",
+  the_dna_sequence_of_a_gene: { definition: "Used to produce a specific amino acid sequence", what_it_does: "", examples: "microRNA )" },
+  an_interesting_example: "The coat coloration of the Siamese cat",
+  but_these_dark_hairproducing_proteins: { definition: "Sensitive to temperature (i.e", what_it_does: "", examples: "its legs, ears, tail, and face—so the cat has dark hair at its extremities" },
+  transcription_factors: { definition: "Regulatory proteins that bind to DNA, either promoting or inhibiting the transcription of a gene", what_it_does: "", examples: "there exists a series of genes necessary for the synthesis of the amino acid tryptophan" },
+  error_rates: { definition: "Usually very low—1 error in every 10–100 million bases—due to the 'proofreading' ability of DNA polymerases", what_it_does: "", examples: "mutation , genetic drift , genetic hitchhiking , [ 101 ] artificial selection and migration" },
+  genetic_comparisons: "Generally considered a more accurate method of characterizing the relatedness between species than the comparison of phenotypic characteristics",
+  the_process_of_cancer_development_in_the_body: "A combination of events",
+  restriction_enzymes: "Commonly used enzymes that cut DNA at specific sequences, producing predictable fragments of DNA",
+
 };
 
 // ============================================================
