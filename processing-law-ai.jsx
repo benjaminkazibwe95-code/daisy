@@ -19936,6 +19936,24 @@ const FLAT_DICT = {
   content: "Initially taken from the Jerusalem Post daily newspaper",
   one_of_his_early_reporters: "His nephew Martin Agronsky , who later became a famous American political journalist",
 
+  // === INGESTED 2026-06-22 13:56 ===
+  the_university_of_maryland: { definition: "The largest university in Maryland and in the Washington metropolitan area", what_it_does: "", examples: "113 undergraduate majors, 107 master's programs, and 83 doctoral programs" },
+  the_campus: "Used as a boys' preparatory school for the next two years",
+  the_first_building_built_after_the_fire: "The Calvert Hall in 1914",
+  all_five_campuses_in_the_former_network: { definition: "Designated distinct campuses in the new system", what_it_does: "", examples: "an advanced quantum science laboratory" },
+  pines: "A professor of Aerospace Engineering at the university before becoming president",
+  south_of_mckeldin_mall: "The North Hill Community, [ 52 ] at the southwesterly corner, and the original center of campus, Morrill Hall and the Morrill Quad",
+  south_of_the_morrill_quad: "The South Hill and South Campus Commons Communities, and the Southwest Mall and the Robert H",
+  the_university: "Ranked among Peace Corps ' 25 Top Volunteer-Producing Colleges for the tenth consecutive year in 2020",
+  these_nonac_halls: { definition: "Caroline, Carroll, Cecil, Chestertown, Ellicott, Hagerstown, Wicomico, and Worcester", what_it_does: "", examples: "Johnson Whittle and Pyon-Chen" },
+  this_airport: "The world's oldest continually operating airport [ 121 ] and the site of many significant aviation firsts",
+  this_stop: "Adjacent to a stop on the MARC [ 127 ] Camden line, a commuter rail line which runs from Baltimore to Washington, D.C",
+  the_stop: "Also serviced by busses from Shuttle–UM, MTA , WMATA , and TheBus",
+  the_newspaper: "Published online daily during the spring and fall semesters, with a circulation of 17,000 and annual advertising revenues of over $1 million",
+  wmuc: "A freeform and sports broadcasting station broadcast at 10 watts",
+  maryland_football: "Also popular at the university",
+  the_attendance_record_at_ludwig_field: { definition: "Set in 2015 when 8,449 fans saw Maryland win over top-ranked UCLA in extra time", what_it_does: "", examples: "Brazilian jiu-jitsu" },
+
 };
 
 // ============================================================
