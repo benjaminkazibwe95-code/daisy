@@ -15289,6 +15289,12 @@ const FLAT_DICT = {
   one_way_to_present_such_structure: "Via strings of symbols from a formal language",
   a_second_way_to_represent_relations: { definition: "Graphs , where nodes are linked if corresponding subpatterns are related", what_it_does: "", examples: "syntactic pattern recognition can be used to determine what objects are present in an image" },
 
+  // === INGESTED 2026-06-22 00:53 ===
+  phrasal_translations: "Translated by analogy to previous translations",
+  the_principle_of_translation_by_analogy: { definition: "Encoded to example-based machine translation through the example translations that are used to train such a system", what_it_does: "", examples: "statistical machine translation , also use bilingual corpora to learn the process of translation" },
+  examplebased_machine_translation: "Best suited for sub-language phenomena like phrasal verbs",
+  examplebased_machine_translation_systems: "Trained from bilingual parallel corpora containing sentence pairs like the example shown in the table above",
+
 };
 
 // ============================================================
