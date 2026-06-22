@@ -17070,6 +17070,35 @@ const FLAT_DICT = {
   this_growth_in_natural_history: "Led by Carl Linnaeus , whose 1735 taxonomy of the natural world is still in use",
   the_term_scientist: "Coined by William Whewell in an 1834 review of Mary Somerville 's On the Connexion of the Sciences",
 
+  // === INGESTED 2026-06-22 05:53 ===
+  the_higgs_field: { definition: "Responsible for this symmetry breaking", what_it_does: "", examples: "theories of gravity and Higgs-based inflation" },
+  if_these_ideas: "Correct, a particle known as a scalar boson (with certain properties) should also exist",
+  this_particle: "Called the Higgs boson and could be used to test whether the Higgs field was the correct explanation",
+  the_new_particle: { definition: "Subsequently confirmed to match the expected properties of a Higgs boson", what_it_does: "", examples: "Peter Higgs" },
+  forces_in_the_standard_model: "Transmitted by particles known as gauge bosons",
+  gauge_invariance: "Therefore an important property within particle physics theory",
+  the_gauge_symmetries: "Closely connected to conservation laws and are described mathematically using group theory",
+  quantum_field_theory_and_the_standard_model: "Both gauge-invariant theories – meaning that the gauge symmetries allow theoretical derivation of properties of the universe",
+  similar_behaviour: "Already theorised in superconductivity",
+  it_was_the_first_proposal_that: { definition: "Able to show, within a gauge invariant theory, how the weak force gauge bosons could have mass despite their governing symmetry", what_it_does: "", examples: "electrons and quarks ) have mass" },
+  this_also_means_it: { definition: "The first elementary scalar particle discovered in nature", what_it_does: "", examples: "the rainbow and prism , electric fields , and ripples on the surface of water" },
+  as_more_precise_measurements_of_its_properties: "Made, more advanced extensions may be suggested or excluded",
+  as_experimental: "To measure the Higgs field behaviour and interactions are developed, this fundamental field may be better understood",
+  weinberg: "The first to observe that this would also provide mass terms for the fermions",
+  the_tevatron: "Only able to exclude further ranges for the Higgs mass, and was shut down on 30 September 2011 because it no longer could keep up with the LHC",
+  when_additional_channels: { definition: "Taken into account, the CMS significance was reduced to 4.9 sigma", what_it_does: "", examples: "data from a third channel, which improved the significance to 5" },
+  if_gauge_invariance: "To be retained, then these particles had to be acquiring their mass by some other mechanism or interaction",
+  once_attention: { definition: "Drawn to this theory within particle physics, the parallels were clear", what_it_does: "", examples: "the Higgs boson to be calculable" },
+  the_higgs_boson: { definition: "Also its own antiparticle , is CP-even , and has zero electric and colour charge", what_it_does: "", examples: "only one Higgs boson per 10 billion collisions in the Large Hadron Collider" },
+  most_of_these_factors: "Fixed by the Standard Model (SM), except for the mass of the Higgs boson itself",
+  one_way_that_the_higgs_can_decay: "By splitting into a fermion–antifermion pair",
+  the_most_likely_possibility: "For the Higgs to decay into a pair of W bosons (the light blue line in the plot), which happens about 21",
+  a_cleaner_signal: "Given by decay into a pair of Z bosons (which happens about 2",
+  much_rarer: "The decay into a pair of photons mediated by a loop of W bosons or heavy quarks, which happens only twice for every thousand decays",
+  the_observation: "At significance 3.2 sigma (1 chance in 1000 of being wrong)",
+  the_first_is_that_higgs_undertook_a_step_which: { definition: "Either unique, clearer or more explicit in his paper in formally predicting and examining the particle", what_it_does: "", examples: "Higgs's own [ 68 ] : 7 ) credit the 'Higgs' name to physicist Benjamin Lee" },
+  the_particle: "Crucial however: It is the smoking gun , the evidence required to show the theory is right",
+
 };
 
 // ============================================================
