@@ -19030,6 +19030,14 @@ const FLAT_DICT = {
   a_graph_with_only_vertices_and_no_edges: "Known as an edgeless graph",
   the_graph_with_no_vertices_and_no_edges: { definition: "Sometimes called the null graph or empty graph , but the terminology is not consistent and not all mathematicians allow this object", what_it_does: "", examples: "by the numbers of incident edges" },
 
+  // === INGESTED 2026-06-22 10:54 ===
+  the_degree_of_a_term: "The sum of the exponents of the variables that appear in it, and thus is a non-negative integer",
+  the_following_names: "Assigned to polynomials according to their degree: [ 2 ] [ 3 ] [ 4 ] Names for degree above three are based on Latin ordinal numbers , and end in -ic",
+  the_degree_of_the_zero_polynomial: "Either left undefined, or is defined to be negative (usually −1 or − ∞ {\displaystyle -\infty } )",
+  one_based_on_asymptotic_analysis_is_this: { definition: "The exact counterpart of the method of estimating the slope in a log–log plot", what_it_does: "", examples: "The formula also gives sensible results for many combinations of such functions, e.g" },
+  in_the_special_case_that_r: "Also a field , the polynomial ring R [ x ] is a principal ideal domain and, more importantly to our discussion here, a Euclidean domain",
+  this_ring: "Not a field (and is not even an integral domain ) because 2 × 2 = 4 ≡ 0 (mod 4)",
+
 };
 
 // ============================================================
