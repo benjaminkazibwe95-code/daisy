@@ -22868,6 +22868,20 @@ const FLAT_DICT = {
   the_cabinet: "Appointed by the president from among the elected legislators",
   judges_for_the_high_court: "Appointed by the president; Judges for the Court of Appeal are appointed by the president and approved by the legislature",
 
+  // === INGESTED 2026-06-22 22:12 ===
+  the_main_ethiopian_and_gregory_rifts: "Associated with major off-axis volcanism and many of the active basins within the rift are at least part filled with volcanic products",
+  the_full_length_of_the_depression: "Filled during the Pleistocene by Lake Lisan , although the lake surface was still about 200 m below sea level at its highest",
+  the_area_of_the_depression_below_sea_level: "Approximately 5,000 km 2",
+  the_deepest_part_of_the_depression: "Well below sea level, reaching a general ~120m below in the northern part",
+  almost_the_entire_depression: "Flanked by steep sides",
+  the_red_sea: "Characterised by broad relatively shallow flanks and a narrow (<60 km wide), deep central valley that reaches a maximum depth of 2,860 m",
+  the_next_clearly_defined_section_of_the_grv: "The Main Ethiopian Rift (MER) valley, bordered by the Ethiopian and Somalian plateaus",
+  the_northernmost_part_of_the_eastern_branch: "Formed by the valley of the Omo river in southern Ethiopia and Lake Turkana in Kenya",
+  the_rift_valley_floor: "Punctuated by relatively small lakes and numerous volcanoes",
+  many_of_these_lakes: { definition: "Saline and alkaline in nature, such as Lake Bogoria and Lake Natron", what_it_does: "", examples: "Mount Kenya and Mount Kilimanjaro , the highest mountains in Africa" },
+  lake_tanganyika: "The second largest and second deepest freshwater lake in the world",
+  the_western_branch: "Bordered by some of the highest mountains in Africa, including the Virunga Mountains , Mitumba Mountains , and Ruwenzori Range",
+
 };
 
 // ============================================================
