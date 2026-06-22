@@ -23160,6 +23160,24 @@ const FLAT_DICT = {
   it_is_unknown_which_of_these_two_feeder_rivers: "The longer and hence the ultimate source of the Nile",
   on_the_river: "The Rusumo Falls , an important crossing point between Rwanda and Tanzania",
 
+  // === INGESTED 2026-06-22 23:14 ===
+  although_antelopes: "Sometimes misidentified as 'deer' ( cervids ), the groups are only distantly related",
+  while_antelopes: { definition: "Found in abundance in Africa, there is only one living African deer species: the Barbary stag of North Africa", what_it_does: "", examples: "throughout Southeast Asia , Europe and all of the Americas" },
+  if_a_horn: "Broken, it will either remain broken or take years to partially regenerate, depending on the species",
+  antelope: { definition: "Often classified by their reproductive behavior", what_it_does: "", examples: "dik-diks , tend to be monogamous" },
+  more_species_of_antelope: { definition: "Native to Africa than to any other continent, almost exclusively in savannahs , with 25-40 species co-occurring over much of East Africa", what_it_does: "", examples: "'American antelope')" },
+  many_desert_and_semidesert_species: { definition: "Particularly pale, some almost silvery or whitish (e.g", what_it_does: "", examples: "sitatunga , red lechwe , and suni )" },
+  many_wild_antelopes: { definition: "Characterized by high running and jumping abilities", what_it_does: "", examples: "running on flat dry lake beds" },
+  their_eyes: "Placed on the sides of their heads, giving them a broad radius of vision with minimal binocular vision",
+  horns_are_not_shed_and_their_bony_cores: "Covered with a thick, persistent sheath of horny material , both of which distinguish them from antlers",
+  a_number_of_subspecies: "Also endangered, including the giant sable antelope and the mhorr gazelle",
+  the_main_causes_for_concern_for_these_species: "Habitat loss, competition with cattle for grazing, and trophy hunting",
+  the_chiru_or_tibetan_antelope: "Hunted for its pelt, which is used in making shahtoosh wool, used in shawls",
+  the_species_showed_a_steep_decline_and: { definition: "Formerly classified as critically endangered", what_it_does: "", examples: "in the Rig Veda , as the steeds of the Maruts and the wind god Vayu" },
+  it_is_unknown_whether_they: { definition: "Truly domesticated, but it seems unlikely, as no domesticated gazelles exist today", what_it_does: "", examples: "the elands" },
+  this_bizarre_and_inaccurate_form: "Invented by European heralds in the Middle Ages, who knew little of foreign animals and made up the rest",
+  the_antelope: "Mistakenly imagined to be a monstrous beast of prey; the 16th century poet Edmund Spenser referred to it as being 'as fierce and fell as a wolf",
+
 };
 
 // ============================================================
