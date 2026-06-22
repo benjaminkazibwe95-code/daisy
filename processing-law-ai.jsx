@@ -17693,6 +17693,20 @@ const FLAT_DICT = {
   a_standing_wave: "A field whose value can be expressed as the product of two functions, one depending only on position, the other only on time",
   this_representation: "Not unique, since the same field values are obtained if S {\displaystyle S} and G {\displaystyle G} are scaled by reciprocal factors",
 
+  // === INGESTED 2026-06-22 07:16 ===
+  these_components: "Sometimes called 'worlds', though they are emergent, approximate, and not fundamental entities",
+  an_observation_or_measurement: { definition: "Modeled by applying the wave equation to the entire system, comprising the object being observed and the observer", what_it_does: "", examples: "by multiple observers) will confirm this consistency" },
+  if_the_final_theory_of_everything: "Non-linear with respect to wavefunctions, then many-worlds is invalid",
+  yet_when_the_particles: "Observed in this experiment, they appear as particles (i.e., at definite places) and not as non-localized waves",
+  the_crucial_feature_of_this_approach: "To define the branches so that they all have the same magnitude or 2-norm",
+  without_this_the_theory: "Ambiguous, as a quantum state can equally well be described (e.g",
+  the_assumption: "That the preferred basis to use is the one which assigns a unique measurement outcome to each world",
+  since_decoherence: { definition: "Never complete, there will always remain some infinitesimal overlap between two worlds, making it arbitrary whether a pair of worlds has split or not", what_it_does: "", examples: "Bohmian mechanics" },
+  barrett: "It as indicating the similarity of 'general views' between Everett and Schrödinger",
+  crease_says_that_mwi: "'one of the most implausible and unrealistic ideas in the history of science' because it means that everything conceivable happens",
+  all_the_worlds: "There, even those in which everything goes wrong and all the statistical laws break down'",
+  quantum_immortality: "The subjective experience of surviving quantum suicide",
+
 };
 
 // ============================================================
