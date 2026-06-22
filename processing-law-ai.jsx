@@ -15919,6 +15919,12 @@ const FLAT_DICT = {
   a_linked_data_structure: "Built dynamically and never needs to be bigger than the program requires",
   this_is_a_feature_that: "Key in avoiding wastes of memory",
 
+  // === INGESTED 2026-06-22 02:43 ===
+  these_pairs: { definition: "Known as edges (also called links or lines ), and for a directed graph are also known as edges but also sometimes arrows or arcs", what_it_does: "", examples: "a symbolic label or a numeric attribute (cost, capacity, length, etc.)" },
+  the_cost_of_edges_that: { definition: "Not present are assumed to be ∞", what_it_does: "", examples: "integers or character strings)" },
+  the_vertex_set_partitions: "Then distributed to the PEs with matching index, additionally to the corresponding edges",
+  general_techniques_such_as_huffman_coding: { definition: "Applicable, but the adjacency list or adjacency matrix can be processed in specific ways to increase efficiency", what_it_does: "", examples: "Kosaraju's algorithm , which is a modified DFS" },
+
 };
 
 // ============================================================
