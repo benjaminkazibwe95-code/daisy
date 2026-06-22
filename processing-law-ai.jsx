@@ -17033,6 +17033,21 @@ const FLAT_DICT = {
   the_existence_of_the_identification_number: { definition: "Also not proof that the papers have not been retracted for fraud, incompetence, or misconduct", what_it_does: "", examples: "Matlab , Python or R" },
   the_annual_baseline: "Released in December, followed by daily update files",
 
+  // === INGESTED 2026-06-22 05:49 ===
+  the_masses_of_these_bosons: "Far greater than the mass of a proton or neutron, which is consistent with the short range of the weak force",
+  the_weak_interaction: "Unique in that it allows quarks to swap their flavour for another",
+  the_swapping_of_those_properties: "Mediated by the force-carrier bosons",
+  weak_interaction: "Important in the fusion of hydrogen into helium in a star",
+  the_electroweak_force: "Believed to have separated into the electromagnetic and weak forces during the quark epoch of the early universe",
+  all_mesons: { definition: "Unstable because of weak decay", what_it_does: "", examples: "a neutral pion decays electromagnetically, and so has a life of only about 10 −16 seconds" },
+  the_first_type: "Called the ' charged-current interaction ' because the weakly interacting fermions form a current with total electric charge that is nonzero",
+  the_second_type: { definition: "Called the ' neutral-current interaction ' because the weakly interacting fermions form a current with total electric charge of zero", what_it_does: "", examples: "The W boson is unstable so will rapidly decay, with a very short lifetime" },
+  the_weak_charge_of_charged_leptons: "Then close to zero, so these mostly interact with the Z boson through the axial coupling",
+  the_standard_model_of_particle_physics: "The electromagnetic interaction and the weak interaction as two different aspects of a single electroweak interaction",
+  these_three_composite_bosons: "The W + , W − , and Z 0 bosons actually observed in the weak interaction",
+  the_fourth_electroweak_gauge_boson: { definition: "The photon ( γ ) of electromagnetism, which does not couple to any of the Higgs fields and so remains massless", what_it_does: "", examples: "a prediction of the masses of the Z and W bosons before their discovery and detection in 1983" },
+  this_socalled_law_of_parity_conservation: "Known to be respected by classical gravitation , electromagnetism and the strong interaction ; it was assumed to be a universal law",
+
 };
 
 // ============================================================
