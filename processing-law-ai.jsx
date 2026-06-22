@@ -21756,6 +21756,23 @@ const FLAT_DICT = {
   they_said_the_legislation: "The 'bare minimum for effective regulation of this technology",
   another_greatgreatgrandfather_of_his: "The surgeon and author James Hinton , [ 127 ] who was the father of the mathematician Charles Howard Hinton",
 
+  // === INGESTED 2026-06-22 19:00 ===
+  the_interference_theory: "A theory regarding human memory",
+  the_challenge_for_memory_retrieval: "Recalling the specific memory and working in the temporary workspace provided in STM",
+  his_experiment: "Similar to the Stroop task and required subjects to sort two decks of cards with words into two piles",
+  when_the_location: "Changed for the second pile, sorting was slower, demonstrating that the first set of sorting rules interfered with learning the new set",
+  span_performance: "Working memory capacity",
+  it_is_hypothesized_that_span_performance: { definition: "Limited in language comprehension , problem-solving, and memory", what_it_does: "", examples: "'not to remember' and 'not to recall' with currently learned material" },
+  executive_control_mechanisms: "Located in the frontal cortex and deficits in working memory show changes in the functioning of this brain area",
+  decay_theory: "A passive method of forgetting as no interference is produced",
+  memories: "Lost in Decay Theory by the passing of time",
+  both_decay_and_interference_theories: "Involved in psychological theories of forgetting",
+  dualtask_interference: "A kind of interference that occurs when two tasks are attempted simultaneously",
+  when_the_brain: "Attempting to complete two tasks, both tasks are present in the same mind area and compete for processing ability and speed",
+  crosstalk: "The communication between sensory inputs, processing, and the thoughts of the individual",
+  the_performance_of_stroop_and_simon_tasks: "Monitored on 10 healthy young adults using magnetic resonance image (MRI) scanning",
+  when_competitive_advertising: "Presented, it was shown that repetition provided no improvement in brand name recall over a single exposure",
+
 };
 
 // ============================================================
