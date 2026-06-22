@@ -15731,6 +15731,26 @@ const FLAT_DICT = {
   trendelenburg: "Also the examiner of Cantor's Habilitationsschrift",
   this_belief: "Summarized in his assertion that 'the essence of mathematics is its freedom",
 
+  // === INGESTED 2026-06-22 02:08 ===
+  amongst_his_other_works: { definition: "The Book of the Duchess , The House of Fame , The Legend of Good Women , Troilus and Criseyde , and Parlement of Foules", what_it_does: "", examples: "his monument, he was born in 1343), though the precise date and location remain unknown" },
+  chaucer: "One of the main characters in the 2001 film A Knight's Tale , and is portrayed by Paul Bettany",
+  the_last_mention_of_chaucer: "On 5 June 1400, when some debts owed to him were repaid",
+  two_other_early_poems: "Anelida and Arcite and The House of Fame",
+  it_indicates_that_chaucer: "Versed in science in addition to his literary talents",
+  his_early_pioneering_in_satire: "Also of importance: the common humorous mechanism, the quaint accent of regional dialect , appears in The Reeve's Tale",
+  modern_english: "Somewhat distanced from the language of Chaucer's poems, owing to the effect of the Great Vowel Shift sometime after his death",
+  these_words: "Probably frequently used in the language at the time, but Chaucer was the earliest extant manuscript source with his ear for common speech",
+  john_lydgate: { definition: "One of the earliest poets to write continuations of Chaucer's unfinished Tales", what_it_does: "", examples: "the personal copy of Henry IV" },
+  lollards: "Particularly attracted to Chaucer's satirical writings about friars, priests, and other church officials",
+  its_entry: "Surely facilitated by Thynne's inclusion of Thomas Usk's Testament of Love in the first edition",
+  more: "Added in the 17th century, and they remained as late as 1810, well after Thomas Tyrwhitt pared the canon down in his 1775 edition",
+  the_occasion_wherof_no_doubt: "Some daunger and trouble whereinto he was fallen by favouring some rash attempt of the common people",
+  jack_upland: "First printed in Foxe's Acts and Monuments , and then it appeared in Speght's edition of Chaucer's Works",
+  troubling_material: "Deemed metaphoric, while the more forthright satire (which Foxe prefers) is taken literally",
+  the_life_of_chaucer_prefixed_to_the_volume: "The work of the Reverend John Dart , corrected and revised by Timothy Thomas",
+  the_glossary_appended: "Also mainly compiled by Thomas",
+  his: "The first edition of Chaucer in nearly a hundred and fifty years to consult any manuscripts",
+
 };
 
 // ============================================================
