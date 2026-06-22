@@ -21696,6 +21696,18 @@ const FLAT_DICT = {
   nondeclarative_memory: "Essential for the performance of learned skills and habits, for example, running or cooking a favourite meal",
   this_stage_of_sleep: "Characterized by muscle atonia, fast but low voltage EEG and, as the name suggests, rapid eye movement",
 
+  // === INGESTED 2026-06-22 18:48 ===
+  neurotrophic_factors: "Found in the brain and the periphery",
+  bdnf: "Also required for stabilizing actin polymerization in spines through triggering the activation of the WAVE regulatory complex",
+  neurotrophins: "Proteins that help to stimulate and control neurogenesis, BDNF being one of the most active",
+  the_trkb_receptor: "Encoded by the NTRK2 gene and is member of a receptor family of tyrosine kinases that includes TrkA and TrkC",
+  the_activation_of_the_bdnftrkb_pathway: "Important in the development of short-term memory and the growth of neurons",
+  this_diversity_of_spliced_isoforms: { definition: "A common feature of eukaryotic organisms, particularly in the nervous system", what_it_does: "", examples: "but not limited to, rs6265, C270T, rs7103411, rs2030324, rs2203877, rs2049045 and rs7124442" },
+  ampa_and_nmda_receptors: "Two ionotropic glutamate receptors involved in glutamatergic neurotransmission and essential to learning and memory via long-term potentiation",
+  nmda_receptor_activation: { definition: "Essential to producing the activity-dependent molecular changes involved in the formation of new memories", what_it_does: "", examples: "Neogenin which are essential for spine enlargement and activity" },
+  synaptogenesis: { definition: "Dependent upon the assembly of new synapses and the disassembly of old synapses by β-adducin", what_it_does: "", examples: "depression , [ 75 ] schizophrenia , [ 76 ] and Alzheimer's disease" },
+  the_ultimate_goal_of_these: "To improve accessibility and enable longitudinal monitoring of BDNF levels",
+
 };
 
 // ============================================================
