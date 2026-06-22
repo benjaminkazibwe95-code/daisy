@@ -23178,6 +23178,13 @@ const FLAT_DICT = {
   this_bizarre_and_inaccurate_form: "Invented by European heralds in the Middle Ages, who knew little of foreign animals and made up the rest",
   the_antelope: "Mistakenly imagined to be a monstrous beast of prey; the 16th century poet Edmund Spenser referred to it as being 'as fierce and fell as a wolf",
 
+  // === INGESTED 2026-06-22 23:16 ===
+  toshka_in_its_entirety_then: "'the home of the Ghubeira plant",
+  these_lakes: "Not yet named individually",
+  the_city_of_new_toshka: "Established by Presidential Decree No",
+  the_central_basin: "Almost completely devoid of water and the rest of the lakes had mostly dried up due to low flow in the river",
+  the_egyptian_government: "Developing the surrounding region, also known as the ' Toshka Project ' or ' New Valley Project ' [ 20 ]",
+
 };
 
 // ============================================================
