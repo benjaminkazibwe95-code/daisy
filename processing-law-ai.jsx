@@ -15914,6 +15914,11 @@ const FLAT_DICT = {
   many_commercial_applications: "Written in assembly language as well, including a large amount of the IBM mainframe software developed by large corporations",
   assembly_language: { definition: "The default choice for programming 8-bit consoles such as the Atari 2600 and Nintendo Entertainment System", what_it_does: "", examples: "MS-DOS , Turbo Pascal , and the Lotus 1-2-3 spreadsheet was written in assembly language" },
 
+  // === INGESTED 2026-06-22 02:41 ===
+  linked_data_structures: "Thus contrasted with arrays and other data structures that require performing arithmetic operations on pointers",
+  a_linked_data_structure: "Built dynamically and never needs to be bigger than the program requires",
+  this_is_a_feature_that: "Key in avoiding wastes of memory",
+
 };
 
 // ============================================================
