@@ -20742,6 +20742,11 @@ const FLAT_DICT = {
   roast_pork: "Often accompanied by sage and onion stuffing in England; roast poultry in a Christmas dinner may be stuffed with sweet chestnuts",
   oysters: { definition: "Used in one [ 15 ] traditional stuffing for Thanksgiving", what_it_does: "", examples: "apples, apricots, dried prunes, and raisins" },
 
+  // === INGESTED 2026-06-22 16:07 ===
+  pyogenes: "A species of aerobic , cocci , gram-positive bacteria that are non-motile, non- spore forming , and forms chains and large colonies",
+  the_valvular_endothelium: "A prominent site of lymphocyte-induced damage",
+  the_dominant_contributors: { definition: "A component of MHC class II molecules, found on lymphocytes and antigen-presenting cells, specifically the DR and DQ alleles on human chromosome 6", what_it_does: "", examples: "tissue scarring and stenosis" },
+
 };
 
 // ============================================================
