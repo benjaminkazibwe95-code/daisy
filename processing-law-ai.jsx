@@ -23322,6 +23322,13 @@ const FLAT_DICT = {
   division_of_europeans_and_east_asians: "Of the order of 50,000 years, with repeated and significant admixture events throughout Eurasia during the Holocene",
   neanderthalensis: "Closely related to each other and have been considered to be subspecies of H",
 
+  // === INGESTED 2026-06-22 23:44 ===
+  mauritius: { definition: "A religiously diverse nation, with Hinduism being the most widely professed faith", what_it_does: "", examples: "Roman Catholicism and Protestantism )" },
+  the_majority_of_shias: "Ithnā‘ashariyyah with small Ismaili sect",
+  the_jummah_mosque_in_port_louis: "Built in the 1850s and is often described as one of the most beautiful religious building in Mauritius by the Ministry of Tourism's guide",
+  the_highest_concentration_of_muslims: "Found in the capital Port Louis , predominantly in the Plaine Verte, Ward IV, Valle Pitot and Camp Yoloff neighborhood",
+  punjabis: "A subgroup of Indo-Mauritians who mainly practice Sikhism",
+
 };
 
 // ============================================================
