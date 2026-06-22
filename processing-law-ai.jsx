@@ -18174,6 +18174,11 @@ const FLAT_DICT = {
   elements_at_the_time: "Generally distinguished by their atomic weights, a property measurable with fair accuracy by available analytical techniques",
   the_first_recorded_discovery_of_a_new_element: "Of phosphorus by the German alchemist Hennig Brand in 1669",
 
+  // === INGESTED 2026-06-22 08:29 ===
+  only_later_with_the_quantum_model_of_the_atom: { definition: "It understood that this number, ℓ , arises from quantization of orbital angular momentum", what_it_does: "", examples: "the energy of 2p is higher than of 2s, 3d occurs higher than 3p, which in turn is above 3s, etc" },
+  the_lowest_quantum_level: "Found to have an angular momentum of zero",
+  orbits_with_zero_angular_momentum: "Considered as oscillating charges in one dimension and so described as 'pendulum' orbits, but were not found in nature",
+
 };
 
 // ============================================================
