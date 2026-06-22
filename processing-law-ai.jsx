@@ -16499,6 +16499,11 @@ const FLAT_DICT = {
   the_mixture_of_treated_cells: "Cultured on media that contain the antibiotic so that only transformed cells are able to grow",
   another_method_of_selection: { definition: "The use of certain auxotrophic markers that can compensate for an inability to metabolise certain amino acids, nucleotides, or sugars", what_it_does: "", examples: "the lacZ gene which codes for β-galactosidase used in blue-white screening" },
 
+  // === INGESTED 2026-06-22 04:22 ===
+  a_brief_biographical_note: "Found in Aelius Donatus 's Life of Virgil , which seems to be derived from an earlier work by Suetonius",
+  lucretius_probably: "A member of the aristocratic gens Lucretia , and his work shows an intimate knowledge of the luxurious lifestyle in Rome",
+  lucretius: "Believed to be the first to put forward a theory of the successive uses of first wood and stone, then copper and bronze, and finally iron",
+
 };
 
 // ============================================================
