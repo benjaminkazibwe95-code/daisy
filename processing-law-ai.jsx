@@ -18098,6 +18098,25 @@ const FLAT_DICT = {
   dnp: "Typically performed at low temperature (≈1 K) and high magnetic field (≈3 T)",
   the_compound: "Subsequently thawed and dissolved to yield a room temperature solution containing hyperpolarized nuclei",
 
+  // === INGESTED 2026-06-22 08:23 ===
+  this_temperature_increase: "Caused by absorption of ionizing UV and X-ray emission from the Sun",
+  the_most_common: "The green aurora, which comes from atomic oxygen in the 1 S state, and occurs at altitudes from 120 to 400 km (75 to 250 mi)",
+  they_are_most_readily_visible_when_the_sun: "Around 4 to 16 degrees below the horizon",
+  the_mesosphere: "Mainly accessed by sounding rockets and rocket-powered aircraft",
+  it_lies_above_the_troposphere_and: "Separated from it by the tropopause",
+  this_rise_in_temperature: "Caused by the absorption of ultraviolet radiation (UV) from the Sun by the ozone layer, which restricts turbulence and mixing",
+  the_troposphere: "Bounded above by the tropopause , a boundary marked in most places by a temperature inversion (i.e",
+  total_atmospheric_mass: "5.1480 × 10 18 kg (1.13494 × 10 19 lb), [ 80 ] about 2.5% less than would be inferred from the average sea-level pressure and Earth's area of 51007",
+  the_mean_mass_of_water_vapor: "Estimated as 1.27 × 10 16 kg and the dry air mass as 5.1352 ±0.0003 × 10 18 kg",
+  another_portion_of_the_incident_energy: "Reflected, [ 92 ] [ 93 ] with the two most important atmospheric reflectors being dust and clouds",
+  indirect_radiation: "Light that has been scattered in the atmosphere",
+  because_the_sun: { definition: "Close to the horizon, the Sun's rays pass through more atmosphere than normal before reaching your eye", what_it_does: "", examples: "O 2 and O 3 absorb almost all radiation with wavelengths shorter than 300 nanometres" },
+  the_greenhouse_effect: "Directly related to this absorption and emission effect",
+  the_axial_tilt_of_the_planet: "The location of maximum heat is continually changing, resulting in seasonal variations",
+  atmospheric_tides: { definition: "Periodic oscillations of the troposphere and stratosphere that transport energy to the upper atmosphere", what_it_does: "", examples: "those now found in the gas giants ( Jupiter and Saturn ), notably water vapor , methane and ammonia" },
+  these_fluctuations_in_oxygenation: { definition: "Likely driven by the Lomagundi-Jatuli Carbon Isotope Excursion", what_it_does: "", examples: "the earliest cnidarians , placozoans and bilaterians ) first proliferated" },
+  periods_with_more_oxygen_in_the_atmosphere: { definition: "Often associated with more rapid development of animals", what_it_does: "", examples: "smogs , acid rains and pollution-related diseases" },
+
 };
 
 // ============================================================
