@@ -19132,6 +19132,10 @@ const FLAT_DICT = {
   his_result: { definition: "Known as Weyl's law", what_it_does: "", examples: "the above Pólya conjecture" },
   their_approach: { definition: "Sufficiently flexible to deal with general surfaces with boundary", what_it_does: "", examples: "the central sulcus , they obtained mappings which are well-defined by such neurological features" },
 
+  // === INGESTED 2026-06-22 11:19 ===
+  his_early_work: "On the Radon transform and he is remembered for John's equation",
+  his_textbook_on_partial_differential_equations: { definition: "Highly influential and was re-edited many times", what_it_does: "", examples: "the Birkhoff Prize in Applied Mathematics in 1973 and the Steele Prize in 1982" },
+
 };
 
 // ============================================================
