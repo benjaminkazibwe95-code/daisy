@@ -17294,6 +17294,10 @@ const FLAT_DICT = {
   the_laser_is_an_important_application_and: "Discussed above under stimulated emission",
   the_actual_outcome: { definition: "Used to determine whether the next bit in the sequence is 0 or 1", what_it_does: "of spontaneous parametric down conversion is often used to produce single-photon states", examples: "" },
 
+  // === INGESTED 2026-06-22 06:20 ===
+  the_classical_limit_or_correspondence_limit: { definition: "The ability of a physical theory to approximate or 'recover' classical mechanics when considered over special values of its parameters", what_it_does: "", examples: "the violations of Liouville's theorem upon quantization" },
+  when_the_planck_constant: "Small, however, it is possible to have a state that is well localized in both position and momentum",
+
 };
 
 // ============================================================
