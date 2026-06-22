@@ -17915,6 +17915,16 @@ const FLAT_DICT = {
   other_phenomena: "Simply interesting aspects of optics , or optical effects",
   also_listed_here: "Unexplained phenomena that could have an optical explanation and ' optical illusions ' for which optical explanations have been excluded",
 
+  // === INGESTED 2026-06-22 07:51 ===
+  medicinal_or_pharmaceutical_chemistry: "A scientific discipline at the intersection of chemistry and pharmacy involved with designing and developing pharmaceutical drugs",
+  medicinal_chemistry: "The identification, synthesis and development of new chemical entities suitable for therapeutic use by using structure",
+  compounds_used_as_medicines: { definition: "Most often organic compounds , which are often divided into the broad classes of small organic molecules (e.g", what_it_does: "", examples: "cisplatin , lithium carbonate and gallium nitrate , respectively)" },
+  pharmaceutical_chemistry: "Focused on quality aspects of medicines and aims to assure fitness for purpose of medicinal products",
+  critical_at_this_stage: "The transition to more stringent GMP requirements for material sourcing, handling, and chemistry",
+  structural_analysis_of_lead_compounds: "Often performed through computational methods prior to actual synthesis of the ligand(s)",
+  the_length_of_training: "Intense, with practitioners often required to attain a 4-year bachelor's degree followed by a 4–6 year Ph.D",
+  level_there: { definition: "Further opportunities for employment in academia and government", what_it_does: "", examples: "for individuals with pure synthetic organic and natural products synthesis in Ph.D" },
+
 };
 
 // ============================================================
