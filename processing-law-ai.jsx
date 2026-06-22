@@ -22642,6 +22642,13 @@ const FLAT_DICT = {
   most_changes: { definition: "Minor, adding or removing only a few base pairs of DNA", what_it_does: "", examples: "the WS202 release of WormBase (April 2009) added two base pairs to the genome sequence" },
   briggsae: "Also determined, allowing researchers to study the comparative genomics of these two organisms",
 
+  // === INGESTED 2026-06-22 21:28 ===
+  retrograde_signaling_in_biology: "The process where a signal travels backwards from a target source back to its original source",
+  neurons_use_extended_axons_that: "Away from the cell body and dendrites , by using retrograde signaling endosomes, communication can occur",
+  chloroplast_biogenesis: "Proposed to normally generate stage specific signals that allow cells to progress through distinct steps of photosynthesis differentiation",
+  if_the_signals: "Missing, cells are then 'stuck' in juvenile states",
+  an_abundant_amount_of_work: "Completed in the early 1990s to demonstrate the existence of a retrograde messenger and to determine its identity",
+
 };
 
 // ============================================================
