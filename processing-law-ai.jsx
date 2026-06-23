@@ -26579,6 +26579,12 @@ const FLAT_DICT = {
   during_the_transit_time_it: { definition: "Possible that third parties read or even modify the content", what_it_does: "", examples: "SASL prevent this" },
   the_reason_for_falling_behind: "Often due to information overload and a general sense there is so much information that it is not possible to read it all",
 
+  // === INGESTED 2026-06-23 09:42 ===
+  a_user: "A person who uses a computer or network service",
+  a_user_typically_has_a_user_account_and: "Recognized by the system through a username",
+  end_users: { definition: "The ultimate human users (also referred to as operators ) of a software product", what_it_does: "", examples: "sysops , database administrators and computer technicians" },
+  systems_whose_actor: { definition: "Another system or a software agent have no direct end users", what_it_does: "", examples: "the username 'anonymous' for anonymous FTP and the username 'guest' for a guest account" },
+
 };
 
 // ============================================================
