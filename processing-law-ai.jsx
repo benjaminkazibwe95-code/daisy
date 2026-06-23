@@ -28507,6 +28507,12 @@ const FLAT_DICT = {
   these_negative_effects: { definition: "Not reflected in the cost of producing, nor in the market price of the final goods", what_it_does: "", examples: "the fact that: 1" },
   the_emissions_fee_and_cap_and_trade_systems: "Both incentive-based approaches to solving a negative externality problem",
 
+  // === INGESTED 2026-06-23 16:27 ===
+  the_following_version: "Formulated in the Arrow–Debreu model of economy",
+  the_concept_of_an_excess_demand_function: "Important in general equilibrium theories, because it acts as a signal for the market to adjust prices",
+  if_excess_demand: { definition: "Negative, then more units are being supplied than are demanded; there is a glut", what_it_does: "", examples: "one million oranges would be valued exactly one million times more than one orange" },
+  the_extension_to_incomplete_markets: "First conjectured by Andreu Mas-Colell in 1986",
+
 };
 
 // ============================================================
