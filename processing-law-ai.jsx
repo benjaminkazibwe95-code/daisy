@@ -30358,6 +30358,19 @@ const FLAT_DICT = {
   training_also: "The development of physical fitness related to a specific competence, such as sport, martial arts, military applications and some other occupations",
   as_theory_of_mind_and_intentions: "Difficult (if not impossible) to assess in non-humans, teaching was considered uniquely human",
 
+  // === INGESTED 2026-06-23 23:36 ===
+  from_this_we_see_that_adaptation: { definition: "Not just a matter of visible traits: in such parasites critical adaptations take place in the life cycle , which is often quite complex", what_it_does: "", examples: "the different species of Darwin's finches" },
+  the_other_process: { definition: "Speciation , in which new species arise, typically through reproductive isolation", what_it_does: "", examples: "polyploidy in plants is a reasonably common large genetic change" },
+  structural_adaptations: "Physical features of an organism, such as shape, body covering, armament, and internal organization",
+  behavioural_adaptations: { definition: "Inherited systems of behaviour, whether inherited in detail as instincts , or as a neuropsychological capacity for learning", what_it_does: "", examples: "searching for food , mating , and vocalizations" },
+  acclimatization: "Automatic physiological adjustments during life; [ 30 ] learning means alteration in behavioural performance during life",
+  many_herbivores: "Like this; extreme examples are koalas which depend on Eucalyptus , and giant pandas which require bamboo",
+  the_ability_to_acclimatize: { definition: "An adaptation, but the acclimatization itself is not", what_it_does: "", examples: "invasions of species from other areas" },
+  mimicry: "Thus an anti-predator adaptation",
+  a_common_example_seen_in_temperate_gardens: "The hoverfly (Syrphidae), many of which—though bearing no sting—mimic the warning coloration of aculeate Hymenoptera ( wasps and bees )",
+  here_the_risk_to_life: "Counterbalanced by the necessity for reproduction",
+  the_cost_is_that_a_long_neck: { definition: "Heavy and adds to the animal's body mass, requiring additional energy to build the neck and to carry its weight around", what_it_does: "", examples: "by genetic dominance" },
+
 };
 
 // ============================================================
