@@ -28898,6 +28898,12 @@ const FLAT_DICT = {
   cloudbased_scm_technologies: "At the forefront of next-generation supply chains due to their impact on optimization of time, resources, and inventory visibility",
   dfsc: "Described as a process that aims to drastically reduce the product life cycle costs ",
 
+  // === INGESTED 2026-06-23 18:16 ===
+  one_main_reason: "The saturation of consumption, which exists due to the increasing competition in offered products",
+  the_relevant_market: "An integral part of the whole market, on which the company focuses its activities",
+  although_the_market_potential: "Rather fictitious, it offers good values of orientation",
+  the_market_size: "More difficult to estimate if one is starting with something completely new",
+
 };
 
 // ============================================================
