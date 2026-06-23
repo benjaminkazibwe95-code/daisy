@@ -28995,6 +28995,31 @@ const FLAT_DICT = {
   multifactor_models: "Developed as an alternative to the CAPM , allowing a better description of portfolio risks and a more accurate evaluation of a portfolio's performance",
   money_management: "A strategic technique to make money yield the highest interest-output value for any amount spent",
 
+  // === INGESTED 2026-06-23 18:35 ===
+  transactions_of_the_former: "Closely overseen by governments and regulatory bodies to prevent fraud, protect investors, and benefit the larger economy",
+  as_new_shares: { definition: "Issued by a company, the ownership and rights of existing shareholders are diluted in return for cash to sustain or grow the business", what_it_does: "", examples: "the par value, if any, or the class of the shares" },
+  shares_of_such_stock: { definition: "Called 'convertible preferred shares' (or 'convertible preference shares' in the UK)", what_it_does: "", examples: "Berkshire-Hathaway Class 'B' shares sell under stock ticker BRK" },
+  investors_wishing_to_sell_these_securities: "Subject to different rules than those selling traditional common or preferred stock",
+  a_stock_derivative: "Any financial instrument for which the underlying asset is the price of an equity",
+  futures_and_options: "The main types of derivatives on stocks",
+  stock_futures_are_contracts_where_the_buyer: "Long , i.e., takes on the obligation to buy on the contract maturity date, and the seller is short , i.e., takes on the obligation to sell",
+  stock_index_futures: "Generally delivered by cash settlement",
+  these_government_contractors: { definition: "Called publicani , or societas publicanorum as individual companies", what_it_does: "", examples: "a corporation ) that legally owns one or more shares of stock in a joint stock company" },
+  this_is_because_the_company: "Considered a legal person, thus it owns all its assets itself",
+  board_candidates: { definition: "Usually nominated by insiders or by the board of the directors themselves, and a considerable amount of stock is held or voted by insiders", what_it_does: "", examples: "issuing bonds ) can be done to avoid giving up shares of ownership of the company" },
+  the_major_otc_markets_in_the_united_states: "The electronic quotation systems OTC Bulletin Board (OTCBB) and OTC Markets Group (formerly known as Pink OTC Markets Inc",
+  shares_of_companies_in_bankruptcy_proceedings: "Usually listed by these quotation services after the stock is delisted from an exchange",
+  if_at_least_one_share: "Owned, most companies will allow the purchase of shares directly from the company through their investor relations departments",
+  another_way_to_buy_stock_in_companies: "Through Direct Public Offerings which are usually sold by the company itself",
+  a_direct_public_offering: "An initial public offering in which the stock is purchased directly from the company, usually without the aid of brokers",
+  buying_stock_on_margin: "Buying stock with money borrowed against the value of stocks in the same account",
+  selling_stock: { definition: "Procedurally similar to buying stock", what_it_does: "", examples: "to avoid further loss" },
+  an_important_part_of_selling: "Keeping track of the earnings",
+  the_risks_of_short_selling: "Usually higher than those of buying stock, as the loss can theoretically be unlimited since the stock's value can go up indefinitely in theory",
+  the_demand: "The number of shares investors wish to buy at exactly that same time",
+  if_more_investors_want_a_stock_and: "Willing to pay more, the price will go up",
+  if_more_investors: { definition: "Selling a stock and there are not enough buyers, the price will go down", what_it_does: "", examples: "stock markets are more volatile than EMH would imply" },
+
 };
 
 // ============================================================
