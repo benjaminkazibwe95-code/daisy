@@ -24619,6 +24619,12 @@ const FLAT_DICT = {
   the_word_pejorative: "Derived from a Late Latin past participle stem of peiorare , meaning 'to make worse', from peior 'worse'",
   an_example_of_pejoration: "The shift in meaning of the word silly from meaning that a person was happy and fortunate to meaning that they are foolish and unsophisticated",
 
+  // === INGESTED 2026-06-23 03:39 ===
+  general_elections: { definition: "Held in Kenya on 27 December 2007", what_it_does: "", examples: "the Embu and Meru" },
+  livondo: "Arrested, along with two of his bodyguards, and later released",
+  the_telex_also_noted_that_there: "‘evidence of rigging on both sides’",
+  the_national_assembly_results: "Cancelled in three of the 210 constituencies",
+
 };
 
 // ============================================================
