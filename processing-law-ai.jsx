@@ -27017,6 +27017,20 @@ const FLAT_DICT = {
   a_related_argument: "That 'my notebook is too specific' for it to be of interest to anyone else",
   fully_open_notebooks: "Marked as 'all content' and 'immediate' access",
 
+  // === INGESTED 2026-06-23 11:08 ===
+  this_less_formal_style: { definition: "Now typical of Internet Draft documents, the precursor step before being approved as an RFC", what_it_does: "", examples: "the RFC Series Advisory Group (RSAG)" },
+  the_results_of_the_program: "Included the RFC Editor Model (Version 3) as defined in RFC 9280 , published in June 2022",
+  the_role_of_the_rse: "Changed to the RFC Series Consulting Editor (RSCE)",
+  the_rfc_process: { definition: "Documented in RFC 2026 ( The Internet Standards Process, Revision 3 )", what_it_does: "", examples: "International Organization for Standardization (ISO)" },
+  independent_submissions: "Published at the discretion of the Independent Submissions Editor",
+  nonietf_documents: "Reviewed by the IESG for conflicts with IETF work",
+  every_rfc_is_submitted_as_plain_ascii_text_and: "Published in that form, but may also be available in other formats",
+  this_status: "One of the following: Informational , Experimental , Best Current Practice , Standards Track , or Historic",
+  the_definitive_list_of_internet_standards: "The Official Internet Protocol Standards",
+  a_draft_is_designated_experimental_if_it: "Unclear the proposal will work as intended or unclear if the proposal will be widely adopted",
+  a_historic_rfc: { definition: "One that the technology defined by the RFC is no longer recommended for use, which differs from 'Obsoletes' header in a replacement RFC", what_it_does: "", examples: "RFC 1267 , have been designated historic" },
+  status_unknown: "Used for some very old RFCs, where it is unclear which status the document would get if it were published today",
+
 };
 
 // ============================================================
