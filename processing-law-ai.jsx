@@ -28883,6 +28883,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 18:10 ===
   many_terms: "Used in the marketing field",
 
+  // === INGESTED 2026-06-23 18:12 ===
+  scimago: "Not an acronym , although the capitalization of first three letters do stand for SCientific Influence",
+  higher_sjr_indicator_values: "Meant to indicate greater journal prestige",
+  sjr: "Developed by the Scimago Lab, [ 5 ] originated from a research group at the University of Granada",
+  the_sjr_indicator: "A free journal metric inspired by, and using an algorithm similar to, PageRank",
+  the_sjr_indicator_computation: "Carried out using an iterative algorithm that distributes prestige values among the journals until a steady-state solution is reached",
+
 };
 
 // ============================================================
