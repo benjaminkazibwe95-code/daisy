@@ -30156,6 +30156,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 22:59 ===
   his_chief_work: "A metrical Life of Germanus of Auxerre , considered one of the best hagiographical poems of the times, which he dedicated c",
 
+  // === INGESTED 2026-06-23 23:05 ===
+  the_most_visible_result: "To allow thirty-five polytechnics to become universities (often referred to as the ' new universities ' or 'post-1992 universities')",
+  a_goal_of_the_act: "To end the distinction – known as the 'binary divide' – between colleges and universities",
+
 };
 
 // ============================================================
