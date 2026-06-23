@@ -27169,6 +27169,10 @@ const FLAT_DICT = {
   both_his_father_and_grandfather: "Stockbrokers at Shearson",
   the_award: { definition: "A 74% raise, which included over $18 million in restricted stock", what_it_does: "", examples: "former Chief of Staff Rahm Emanuel" },
 
+  // === INGESTED 2026-06-23 11:43 ===
+  chia_network: { definition: "Co-founded by Bram Cohen , the creator of BitTorrent , and Ryan Singer in 2017", what_it_does: "", examples: "the energy consumed in bitcoin mining" },
+  its_headquarters: "In South San Francisco, California",
+
 };
 
 // ============================================================
