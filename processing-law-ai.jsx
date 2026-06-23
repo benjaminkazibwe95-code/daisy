@@ -27918,6 +27918,21 @@ const FLAT_DICT = {
   berg: "Awarded one-half of the 1980 Nobel Prize in Chemistry , with the other half being shared by Walter Gilbert and Frederick Sanger",
   this_genesplicing_technique: "A fundamental step in the development of modern genetic engineering",
 
+  // === INGESTED 2026-06-23 14:51 ===
+  monsanto: { definition: "Criticized by Chinese economist Larry Lang for controlling the Chinese soybean market, and for trying to do the same to Chinese corn and cotton", what_it_does: "", examples: "heavy metals , Agent Orange and PCBs" },
+  the_name_monsanto: { definition: "No longer used, but Monsanto's previous product brand names were maintained", what_it_does: "", examples: "the artificial sweetener saccharin , caffeine and vanillin" },
+  this_insecticide: "Used to kill malaria -transmitting mosquitoes, but it was banned in the United States in 1972 due to its harmful environmental impacts",
+  the_primary_markets_then: "Electronic calculators , digital watches and digital clocks",
+  pharmacia: "Bought by Pfizer in 2003",
+  emergent: { definition: "The third-largest U.S", what_it_does: "", examples: "its seed and herbicide businesses, to BASF" },
+  field_tests: { definition: "Done in the United States between 1998 and 2005", what_it_does: "", examples: "Dupont Pioneer [ 179 ] [ 180 ] and Syngenta" },
+  the_growth: { definition: "Driven by Argentine investors' interest in export markets", what_it_does: "", examples: "milk , rice , maize , potatoes and lentils" },
+  the_seizures: "Part of a larger attempt by Monsanto to put pressure on the Argentinian government to enforce Monsanto's seed patents",
+  two_of_their_top_cpas: "Suspended and Monsanto was required to hire, at their expense, an independent ethics/compliance consultant for two years",
+  we_regret_that_these_corrections: "Necessary and thank those who brought this matter to our attention",
+  the_proposition: { definition: "Rejected by a 53.7% majority", what_it_does: "", examples: "at Monsanto" },
+  activists_objected_that_some_of_the_seeds: "Coated with the fungicides Maxim or thiram",
+
 };
 
 // ============================================================
