@@ -30323,6 +30323,20 @@ const FLAT_DICT = {
   npat: "Also a substrate of cyclin E-Cdk2, which is required for the transition between G1 phase and S phase",
   relief_from_repression: "Believed to involve both histone modification and the action of chromatin-remodeling complexes",
 
+  // === INGESTED 2026-06-23 23:30 ===
+  these_microhomologies: "Often present in single-stranded overhangs on the ends of double-strand breaks",
+  when_the_overhangs: "Perfectly compatible, NHEJ usually repairs the break accurately",
+  when_the_nhej_pathway: { definition: "Inactivated, double-strand breaks can be repaired by a more error-prone pathway called microhomology-mediated end joining (MMEJ)", what_it_does: "", examples: "Bacillus subtilis , Mycobacterium tuberculosis , and Mycobacterium smegmatis" },
+  this_step_is_not_necessary_if_the_ends: "Already compatible and have 3' hydroxyl and 5' phosphate termini",
+  some_of_these_lesions: "Not prompt DSBs but they convert to DSB after heating",
+  hls: "Not evolved to DSB under physiological temperature (37 C)",
+  the_nhej: "The dominant DNA repair pathway throughout the cell cycle",
+  the_dnapkcs_protein: "The critical element in the center of NHEJ",
+  this_regulation: "Accomplished by the cyclin-dependent kinase Cdk1 ( Cdc28 in yeast), which is turned off in G1 and expressed in S and G2",
+  patients_with_mutations_in_nhej_genes: { definition: "Unable to produce functional B cells and T cells and suffer from severe combined immunodeficiency (SCID)", what_it_does: "", examples: "Ku localizes to telomeres and its deletion leads to shortened telomeres" },
+  artemis_is_a_nuclease_and: "Thought to be required only for repair of DSBs with damaged ends, whereas DNA Ligase IV and XLF are required for all NHEJ events",
+  the_decline: "1.8 to 3.8-fold, depending on the tissue, in the 5-month-old compared to the 24-month-old mice",
+
 };
 
 // ============================================================
