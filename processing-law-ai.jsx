@@ -25455,6 +25455,41 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 06:39 ===
   chami: "An archaeologist from Tanzania",
 
+  // === INGESTED 2026-06-23 06:41 ===
+  this_call: { definition: "Met with an enthusiastic popular response across all social classes in western Europe", what_it_does: "", examples: "the Rhineland massacres" },
+  a_fatimid_counterattack: "Repulsed later that year at the Battle of Ascalon , which marked the end of the First Crusade",
+  four_crusader_states: "Established in the Holy Land: the Kingdom of Jerusalem , the County of Edessa , the Principality of Antioch , and the County of Tripoli",
+  while_the_seljuk_hold_on_jerusalem: "Weak (the group later lost the city to the Fatimids), returning pilgrims reported difficulties and the oppression of Christians",
+  citizens: "Required to fight against the empire's enemies",
+  violent_acts: "Commonly used for dispute resolution, and the papacy attempted to mitigate it",
+  the_status_quo_in_western_asia: "Challenged by later waves of Turkish migration, particularly the arrival of the Seljuk Turks in the 10th century",
+  the_seljuks_and_their_followers: "Sunni Muslims, which led to conflict in Palestine and Syria with the Shi'ite Fatimid Caliphate",
+  the_seljuks: "Nomads, Turkish-speaking, and occasionally shamanistic, unlike their sedentary, Arabic-speaking subjects",
+  egypt_and_much_of_palestine: "Controlled by the Fatimids",
+  many_pilgrims: "Kidnapped and sold into slavery while others were tortured",
+  churches: "Razed down to the ground",
+  reports_differ_as_to_whether_he: "Mad or merely eccentric",
+  what_is_certain_is_that_he: "Determined to completely annihilate his Christian and Jewish subjects",
+  his_administration: "Marked by confiscation of property, pillage, humiliation, imprisonment, and executions",
+  the_church: "'knocked to its foundations,' and even much of the cave was scraped away",
+  the_only_contemporary_records: { definition: "A few letters written by Urban in 1095", what_it_does: "", examples: "Walter Sans Avoir , who was lieutenant to Peter and led a separate army" },
+  adhemar_himself_was_present_at_the_council_and: { definition: "The first to 'take the cross'", what_it_does: "", examples: "women, monks, and the sick) from joining the crusade, but found this nearly impossible" },
+  it_is_quite_likely_that_personal_piety: "A major factor for many crusaders",
+  tancred: "Worried about the sinful nature of knightly warfare, and was excited to find a holy outlet for violence",
+  much_of_the_enthusiasm_for_the_crusade: "Based on family relations, as most of the French crusaders were distant relatives",
+  before_ensuring_that_the_various_armies: "Shuttled across the Bosporus, Alexios advised the leaders on how best to deal with the Seljuk armies that they would soon encounter",
+  the_first_objective_of_their_campaign: "Nicaea , a city once under Byzantine rule, but which had become the capital of the Seljuk Sultanate of Rûm under Kilij Arslan",
+  bagrat: "Tortured and forced to surrender Ravendel",
+  belek: "To play a small role in this story who, as an Artuqid emir, had hired Baldwin to suppress a revolt in Saruj",
+  antioch: "So large that the crusaders did not have enough troops to fully surround it, and as a result it was able to stay partially supplied",
+  morale_inside_the_city: "Low and defeat looked imminent but a peasant visionary called Peter Bartholomew claimed the apostle St",
+  it_seemed_like_their_situation: { definition: "Hopeless so he left the Middle East, warning Alexios and his army on his way back to France", what_it_does: "", examples: "the legate Adhemar, who died on 1 August" },
+  the_fatimid_iftikhar_aldawla: "Governor of Jerusalem and well aware of the Crusaders' intentions",
+  the_bishopric_of_ramlalydda: "Established there at the Church of St",
+  here_there: "No prospect of relief, even as they feared an imminent attack by the local Fatimid rulers",
+  this_first_assault: "Perhaps more speculative than determined, and after scaling the outer wall the Crusaders were repulsed from the inner one",
+  probably_more_persuasive: "The presence of the large army from Lorraine, led by him and his brothers, Eustace and Baldwin , vassals of the Ardennes–Bouillion dynasty",
+
 };
 
 // ============================================================
