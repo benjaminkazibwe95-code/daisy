@@ -28534,6 +28534,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 16:37 ===
   cengage_group: "An American educational content, technology, and services company",
 
+  // === INGESTED 2026-06-23 16:40 ===
+  a_coin: "Said to be debased if the quantity of gold, silver, copper or nickel in the coin is reduced",
+  the_coins: "Then melted down and sold",
+  an_administrative_method_to_debase_currency: "For the mint to start issuing coins of a certain face value, but with less metal content than previous issues",
+  modern_coins_used_as_currency: "Made of hard, cheap metals such as steel , copper , or a copper-nickel alloy, reducing wear and making it difficult and unprofitable to debase them",
+  clipping: "The act of shaving off a small portion of a precious metal coin for profit",
+  the_bits_of_metal_that_had_worn_off_the_coins: "Recovered from the bottom of the bag",
+
 };
 
 // ============================================================
