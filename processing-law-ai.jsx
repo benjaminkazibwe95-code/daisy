@@ -26504,6 +26504,9 @@ const FLAT_DICT = {
   one_of_the_drawbacks_of_freelancing: "That there is no guaranteed payment, and the work can be highly precarious",
   much_computer_freelance_work: { definition: "Being outsourced to developing countries outside the United States and Europe", what_it_does: "", examples: "Fiverr and Lyft , have been criticized as exploiting workers" },
 
+  // === INGESTED 2026-06-23 09:21 ===
+  its_development: "Sponsored by the Association for Computing Machinery and the IEEE Computer Society",
+
 };
 
 // ============================================================
