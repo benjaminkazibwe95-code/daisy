@@ -27432,6 +27432,11 @@ const FLAT_DICT = {
   the_customer_benefit_of_ai: "The feel for chatting with a live agent through improved speech technologies while giving customers the self-service benefit",
   another_form_of_automated_customer_service: { definition: "Touch-tone phone , which usually involves IVR (Interactive Voice Response) a main menu and the use of a keypad as options (e.g", what_it_does: "", examples: "National Express in the UK has invited passengers to send text messages while riding the bus" },
 
+  // === INGESTED 2026-06-23 13:00 ===
+  cnet_tv: "Composed of CNET Central , The Web , and The New Edge",
+  neil_ashe: { definition: "Named as the new CEO", what_it_does: "", examples: "download.com , downloads.com, upload.com, news.com, search.com, TV.com , mp3.com , chat" },
+  cnet_claims_that_this_software: "Free of spyware , but independent sources have confirmed that this is not the case",
+
 };
 
 // ============================================================
