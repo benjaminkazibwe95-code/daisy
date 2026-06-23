@@ -28705,6 +28705,10 @@ const FLAT_DICT = {
   this_expansion: "Seen as a response to the planned Mall of America to be constructed in nearby Bloomington, Minnesota",
   the_new_location: { definition: "370,000 sq ft, four stories, and featured many modern amenities, [ 106 ] replacing the older, smaller original Dayton's location", what_it_does: "", examples: "eight in the Twin Cities, one in St" },
 
+  // === INGESTED 2026-06-23 17:19 ===
+  companisto: { definition: "A German equity-based business angel network", what_it_does: "", examples: "the biggest Business Angel Network in Europe with over 4.000 members) from 92 countries" },
+  investors: "No longer limited to €10,000 and total investment is no longer limited to $2.4 million",
+
 };
 
 // ============================================================
