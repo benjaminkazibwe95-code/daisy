@@ -29658,6 +29658,9 @@ const FLAT_DICT = {
   a_comparison: { definition: "Also drawn between China and India to illustrate this interdependence of freedoms", what_it_does: "", examples: "the notion of universal human rights, in evaluating various states with regard to justice" },
   the_first_chapter: "'Atheism'—a very strong presentation of the argument in favor of atheism and materialism",
 
+  // === INGESTED 2026-06-23 21:18 ===
+  the_effect_of_these_individual_endowments: "Further reinforced through schooling, though somewhat diluted as men with high individual endowments tend to marry less educated wives",
+
 };
 
 // ============================================================
