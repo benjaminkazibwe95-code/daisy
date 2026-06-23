@@ -24144,6 +24144,9 @@ const FLAT_DICT = {
   the_social_categories: "Thus real, but there is little if any detectable genetic differentiation between Hutu and Tutsi",
   rwandarundi: "Subdivided into the Kinyarwanda and Kirundi dialects, which have been standardized as official languages of Rwanda and Burundi, respectively",
 
+  // === INGESTED 2026-06-23 02:07 ===
+  families_and_children_reaching_adulthood: "More mobile and tend to relocate to where jobs exist",
+
 };
 
 // ============================================================
