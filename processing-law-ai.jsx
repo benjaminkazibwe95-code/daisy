@@ -28646,6 +28646,16 @@ const FLAT_DICT = {
   implicit_bias: "An aspect of implicit social cognition : the phenomenon that perceptions, attitudes, and stereotypes operate without conscious intention",
   implicit_stereotype: "First defined by psychologists Mahzarin Banaji and Anthony Greenwald in 1995",
 
+  // === INGESTED 2026-06-23 17:01 ===
+  economic_history: "A scholarly discipline long before it became cliometrics",
+  historical_methods: { definition: "Commonly applied in financial and business history , which overlap with areas of social history such as demographic and labor history", what_it_does: "", examples: "the introduction of enclosures, machinery, or new currencies more intelligible" },
+  it_argued_that_there: "No universal truths in history, emphasizing the importance of historical context without quantitative analysis",
+  hughes_and_stanley_reiter_and: "Clio , who was the muse of history and heroic poetry in Greek mythology",
+  early_cliometrics: "A type of counterfactual history",
+  its_practitioners: { definition: "Economists and historians studying the histories of economies", what_it_does: "", examples: "say, deflation, and discover its general laws, relations to, and combinations with, other tendencies" },
+  both_sorts_of_studies: "Proper and important",
+  a_more_recent_work: "Daron Acemoglu and James A",
+
 };
 
 // ============================================================
