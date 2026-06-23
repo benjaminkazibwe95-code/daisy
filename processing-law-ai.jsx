@@ -25617,6 +25617,27 @@ const FLAT_DICT = {
   french_possession_of_the_bastion_de_france: "Confirmed for 100 years, and previous rights in La Calle, Cap Rose, Annaba, and Béjaïa were restored",
   however_the_enclave: "Expensive to defend and fortify against the attacks by Moulay Ismail and offered neither commercial nor military advantage to England",
 
+  // === INGESTED 2026-06-23 06:57 ===
+  the_guanches: "The only indigenous people known to have lived in the Macaronesian archipelago region before the arrival of Europeans",
+  there_they: "Surprised to be welcomed by Berbers",
+  el_hierro_and_the_bimbache_population: { definition: "The next to fall, then La Gomera, Gran Canaria, La Palma and in 1496, Tenerife", what_it_does: "", examples: "the leader, Alonso Fernandez de Lugo" },
+  mount_teide: "Sacred to the aboriginal Guanches and since 2007 is a World Heritage Site",
+  this_cemetery: "Almost completely looted; it is estimated to have contained between 60 and 74 mummies",
+  it_is_likely_that_animals: "Also sacrificed on the other islands",
+  it_follows_that_it: "A common custom of the island",
+  insult_of_a_woman_by_an_armed_man: "Allegedly a capital offense",
+  the_island_of_tenerife: "Divided into nine small kingdoms ( menceyatos ), each ruled by a king or Mencey",
+  the_mencey: "The ultimate ruler of the kingdom, and at times, meetings were held between the various kings",
+  these_armaments: "Commonly complemented with an obsidian knife known as Tabona",
+  dwellings: "Situated in natural or artificial caves in the mountains",
+  in_areas_where_cave_dwellings: "Not feasible, they built small round houses and, according to the Castilians, practiced crude fortification",
+  the_examined_guanches: "Found to have closest genetic affinities to modern Moroccan Berbers , Canary Islanders and Spaniards",
+  the_examined_benahoaritas: "Found to have high frequencies of the maternal haplogroups U6b1 and H1-16260",
+  the_kelif_el_boroud_people: "Modeled as being equally descended from people buried at the Neolithic sites of Ifri N'Ammar , Morocco (c",
+  the_kelif_el_boroud: "Thus determined to have carried 50% EEF ancestry, which may have spread with the Cardial Ware culture from Iberia to North Africa during the Neolithic",
+  guanches: "Found to the genetically very similar to the Kelif el Boroud people",
+  significant_genetic_differences: "Detected between Guanches of western and eastern islands, which supported the notion that Guanches were descended from two distinct migration waves",
+
 };
 
 // ============================================================
