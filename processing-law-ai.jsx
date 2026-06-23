@@ -27273,6 +27273,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 12:08 ===
   pc_world: "A British retail chain of mass market computer megastores",
 
+  // === INGESTED 2026-06-23 12:10 ===
+  this_commission: { definition: "Authorized to issue ' cease and desist ' orders to large corporations to curb unfair trade practices", what_it_does: "", examples: "banks, savings and loans institutions, federal credit unions—each as described in the FTC Act" },
+  if_the_representation_or_practice: { definition: "Directed to a particular group, the Commission will consider reasonableness from that targeted group's perspective", what_it_does: "", examples: "restitution or disgorgement" },
+
 };
 
 // ============================================================
