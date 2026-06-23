@@ -27378,6 +27378,15 @@ const FLAT_DICT = {
   a_central_complaint: "That excessive approval of overweight and obese individuals could dissuade them from desiring to improve their health, leading to lifestyle disease",
   a_bodypositive_approach_says_you: "Beautiful no matter what",
 
+  // === INGESTED 2026-06-23 12:46 ===
+  recruitment_also: { definition: "The process involved in choosing people for unpaid roles", what_it_does: "", examples: "executive search in the case of more senior roles, are used to undertake parts of the process" },
+  internetbased_recruitment: "Now widespread, including the use of artificial intelligence (AI)",
+  an_employee_referral: "A candidate recommended by an existing employee",
+  assessments: { definition: "Also available to measure physical ability", what_it_does: "", examples: "interpersonal ability and leadership, when evaluating candidates" },
+  the_advantages_of_hiring_externally: { definition: "That it often brings fresh ideas and perspectives to the company", what_it_does: "", examples: "aging and its impact on the industry" },
+  as_more_and_more_people: { definition: "Using the internet, social networking sites, or SNS, have become an increasingly popular tool used by companies to recruit and attract applicants", what_it_does: "", examples: "LinkedIn may charge for ancillary job-search-related services)" },
+  in_some_companies_where_the_recruitment_volume: "High, it is common to see a multi-tier recruitment model where the different sub-functions are grouped together to achieve efficiency",
+
 };
 
 // ============================================================
