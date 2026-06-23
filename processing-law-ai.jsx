@@ -28338,6 +28338,21 @@ const FLAT_DICT = {
   specialty_goods: { definition: "Mostly purchased by the upper classes of society as they are expensive in nature and difficult to afford for the middle and lower classes", what_it_does: "", examples: "antiques, jewelry, wedding dresses, cars, etc" },
   they_are_always_available_in_the_market_but: { definition: "Purchased by very few consumers, either based on their interest or their need for some specific reasons", what_it_does: "", examples: "snowshoes , fire extinguishers , flood insurance , etc" },
 
+  // === INGESTED 2026-06-23 15:56 ===
+  among_his_inventions: "The logic piano, a mechanical computer",
+  jevons: "Born in Liverpool , Lancashire , England",
+  his_mother_mary_anne_jevons: "The daughter of William Roscoe",
+  at_the_age_of_fifteen_he: "Sent to London to attend the University College School",
+  the_theory_of_utility: "At about 1870 being independently developed on somewhat similar lines by Carl Menger in Austria and Léon Walras in Switzerland",
+  this_fragment: "Published in 1905 under the title of The Principles of Economics: a fragment of a treatise on the industrial mechanism of society, and other papers",
+  his_reasoning: "That sunspots affected the weather, which, in turn, affected crops",
+  in_the_meantime_he: { definition: "Engaged upon a much more important logical treatise, which appeared in 1874 under the title of The Principles of Science", what_it_does: "", examples: "remarks on the integer factorization problem that foreshadowed its use in public-key cryptography" },
+  the_work_as_a_whole: "One of the most notable contributions to logical doctrine that appeared in the UK in the 19th century",
+  these_articles_and_one_other: "Republished after Jevons's death, together with his earlier logical treatises, in a volume, entitled Pure Logic, and other Minor Works",
+  jevons_did_not_claim_that_geometry: "Developed without any consideration for spatial reality",
+  this_conversation_between_helmholtz_and_jevons: "A microcosm of an ongoing debate between truth and perception in the wake of the introduction of non-Euclidean geometry in the late 19th century",
+  travelling_and_music: "The principal recreations of his life; but his health continued to be bad, and he suffered from depression",
+
 };
 
 // ============================================================
