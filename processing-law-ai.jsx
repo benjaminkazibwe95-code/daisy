@@ -23615,6 +23615,18 @@ const FLAT_DICT = {
   all_planned_government_projects: "Suspended in every ministry except Defence, and the administration was instructed not to fill vacancies",
   a_white_monument: "Erected in the cemetery and adorned with the names of the dead",
 
+  // === INGESTED 2026-06-23 00:32 ===
+  the_ones_in_kenya_and_tanzania: "The Joluo (also called Luo in Kenyan English)",
+  the_joluo_and_their_language_dholuo: "Also known as the 'Luo proper' by Kenya based observers, even though their dialect has more Bantu loan words than the rest",
+  the_luo: "Part of the Nilotic group of people",
+  dholuo: "Part of the Southern Luo group",
+  the_name_of_these_people: "Also spelled Anyuak, Agnwak, and Anywaa",
+  these_luo: "Assimilated into the Bantu's society and lost their language and culture",
+  those_who_went_further_a_field: "The Jo k'Ajok and Jo k'Owiny",
+  the_other_notable_luo_group: "The Omolo Luo who inhabited Ugenya and Gem areas of Siaya district",
+  the_last_immigrants: "The Jo Kager, who are related to the Omollo Luo",
+  the_luo_people_of_kenya_are_nilotes_and: "Related to the Nilotic people",
+
 };
 
 // ============================================================
