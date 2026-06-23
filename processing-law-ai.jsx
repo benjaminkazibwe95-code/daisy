@@ -29159,6 +29159,11 @@ const FLAT_DICT = {
   the_deposit_insurance_limit: { definition: "Also raised from 40,000 to 100,000 dollars per account", what_it_does: "", examples: "California, Florida, and Texas" },
   the_resulting_competitive_equality_banking_act: { definition: "Signed on August 11, 1987, giving FSLIC $10.8 billion through sale of bonds via an off-balance sheet government entity", what_it_does: "", examples: "intangibles such as goodwill and doubled to six percent within two years" },
 
+  // === INGESTED 2026-06-23 19:04 ===
+  financial_integration: "A phenomenon in which financial markets in neighboring, regional and/or global economies are closely linked together",
+  legal_restrictions: "Sometimes second-best devices for dealing with the market imperfections that limit financial integration",
+  and_it: { definition: "Amsterdam where Dutch investors directed funds abroad at the time", what_it_does: "", examples: "capital control, interest rate ceilings, etc" },
+
 };
 
 // ============================================================
