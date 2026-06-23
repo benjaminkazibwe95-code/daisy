@@ -26222,6 +26222,30 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 08:27 ===
   fog_robotics: { definition: "An architecture which consists of storage, networking functions, control with fog computing closer to robots", what_it_does: "", examples: "communication protocols of fog nodes" },
 
+  // === INGESTED 2026-06-23 08:29 ===
+  the_dulmont_magnum: { definition: "Released in Australia in 1981–82, but was not marketed internationally until 1984–85", what_it_does: "", examples: "a ' gaming laptop ' or a ' mobile workstation ' for professional use" },
+  convertibles: { definition: "Devices with the ability to conceal a hardware keyboard", what_it_does: "", examples: "Windows 10" },
+  a_netbook: { definition: "A marketing category for small, inexpensive laptops that were sold between 2007 and the early 2010s", what_it_does: "", examples: "strong vibrations, extreme temperatures, and wet or dusty environments" },
+  rugged_laptops: "Bulkier, heavier, and much more expensive than regular laptops, [ 59 ] and thus are seldom seen in regular consumer use",
+  the_panels: "Mainly manufactured by AU Optronics , BOE Technology , LG Display or Samsung Display",
+  larger_and_smaller_models: "Available, but less common – there is no clear dividing line in minimum or maximum size",
+  laptop_cpus: "Rarely able to be overclocked",
+  nvidia_optimus_and_amd_hybrid_graphics: "Examples of this sort of system of switchable graphics",
+  an_alphanumeric_keyboard: "Used to enter text, data, and other commands (e.g., function keys )",
+  a_quick_doubletap: "Typically registered as a click, and operating systems may recognize multi-finger touch gestures",
+  dedicated_connectors: "Typically cylindrical/barrel-shaped coaxial power connectors ; some vendors such as Lenovo make use of rectangular",
+  vendors_may_block_charging_if_a_power_supply: "Not recognized as the original part, which could deny the legitimate use of universal third-party chargers",
+  the_power_supply: "Usually external and connected to the laptop through a DC connector cable",
+  when_the_battery: "Fully charged, the laptop continues to run on power supplied by the external power supply, avoiding battery use",
+  waste_heat: "Usually exhausted away from the device operator towards the rear or sides of the device",
+  multiple_air_intake_paths: { definition: "Used since some intakes can be blocked, such as when the device is placed on a soft conforming surface like a chair cushion", what_it_does: "", examples: "if the laptop were to be left running and placed inside a carrying case" },
+  a_common_accessory_for_laptops: "A laptop sleeve, laptop skin, or laptop case, which provides a degree of protection from scratches",
+  some_laptop_sleeves: "Wrapped in ballistic nylon to provide some measure of waterproofing",
+  another_common_accessory: "A laptop cooler , a device that helps lower the internal temperature of the laptop either actively or passively",
+  if_more_ports: { definition: "Needed, or their position on a laptop is inconvenient, one can use a cheaper passive device known as a port replicator", what_it_does: "", examples: "through USB or FireWire" },
+  the_remaining_of_the_top_ten: { definition: "Made up of Fujitsu Siemens , Sony, NEC , Apple and Asus", what_it_does: "", examples: "netbooks , was either HP or Acer, depending on data source" },
+  the_first_commercial_laptop_used_in_space: "A Macintosh portable in 1990 on Space Shuttle mission STS-41 and again in 1991 aboard STS-43",
+
 };
 
 // ============================================================
