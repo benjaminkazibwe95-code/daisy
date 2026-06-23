@@ -27466,6 +27466,10 @@ const FLAT_DICT = {
   sailors_believed_that_they: { definition: "Dangerous to humans and could pull ships out to sea by the anchor", what_it_does: "", examples: "Jaws author Peter Benchley" },
   the_pups: "Born black all over like their mother, 1.6 metres (5 ft) wide, and weighed 42 kilograms (93 lb)",
 
+  // === INGESTED 2026-06-23 13:06 ===
+  scientific_research_in_europe: "Supported by industry, by the European universities and by several scientific institutions",
+  analytical_chemistry: "The identification and quantification of substances and their properties",
+
 };
 
 // ============================================================
