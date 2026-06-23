@@ -26877,6 +26877,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 10:32 ===
   mobile_linux: "A relatively recent addition to the Linux range of use , with Google's Android operating system pioneering the concept",
 
+  // === INGESTED 2026-06-23 10:34 ===
+  a_common_misconception: { definition: "That SDL is a game engine", what_it_does: "", examples: "SMPEG and OpenAL [ clarification needed ]" },
+  the_only_purpose_of_sdl: "To provide a common framework for accessing these functions for multiple operating systems (cross-platform)",
+  the_syntax_of_sdl: "Function-based: all operations done in SDL are done by passing parameters to subroutines (functions)",
+  special_structures: "Also used to store the specific information SDL needs to handle",
+  sdl_functions: { definition: "Categorized under several different subsystems", what_it_does: "", examples: "SDL_Collide on SourceForge created by Amir Taaki" },
+  when_sdl: "Compiled, the appropriate modules are selected for the target system",
+  the_following_backends: "Available: [ 9 ] An unofficial Sixel back-end is available for SDL 1.2",
+  sdl: { definition: "Also often used for later ports on new platforms with legacy code", what_it_does: "", examples: "DOSBox , FUSE ZX Spectrum emulator and VisualBoyAdvance" },
+
 };
 
 // ============================================================
