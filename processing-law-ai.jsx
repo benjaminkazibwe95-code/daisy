@@ -30354,6 +30354,10 @@ const FLAT_DICT = {
   adaptations_in_the_prefrontal_cortex: { definition: "Less dependent on previous stimuli being of similar size and shape", what_it_does: "", examples: "respiratory movements, are essential for survival" },
   since_breathing_rates: "Not conscious changes made by the animal, it is presumed that neural adaptations occur for the body to maintain a slower breathing rate",
 
+  // === INGESTED 2026-06-23 23:34 ===
+  training_also: "The development of physical fitness related to a specific competence, such as sport, martial arts, military applications and some other occupations",
+  as_theory_of_mind_and_intentions: "Difficult (if not impossible) to assess in non-humans, teaching was considered uniquely human",
+
 };
 
 // ============================================================
