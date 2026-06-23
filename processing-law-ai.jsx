@@ -28698,6 +28698,13 @@ const FLAT_DICT = {
   expd: "Described as a two-pronged, integrated systems approach",
   an_innovation_manager: { definition: "A senior person appointed to be responsible for implementing and managing such a system", what_it_does: "", examples: "a reduction in G&A (general & administrative) overhead costs of consulting firms" },
 
+  // === INGESTED 2026-06-23 17:17 ===
+  brookdale: { definition: "Not scheduled to be constructed immediately", what_it_does: "", examples: "Simon & Garfunkel and The Yardbirds" },
+  hudson: "The nation's largest independently owned department-store company",
+  dalton_booksellers: "Announced in April 1966 as a new book-store chain to be launched and wholly owned by Dayton's",
+  this_expansion: "Seen as a response to the planned Mall of America to be constructed in nearby Bloomington, Minnesota",
+  the_new_location: { definition: "370,000 sq ft, four stories, and featured many modern amenities, [ 106 ] replacing the older, smaller original Dayton's location", what_it_does: "", examples: "eight in the Twin Cities, one in St" },
+
 };
 
 // ============================================================
