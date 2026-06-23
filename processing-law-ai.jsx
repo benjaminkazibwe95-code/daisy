@@ -27784,6 +27784,17 @@ const FLAT_DICT = {
   a_tube_bandage: "Applied using an applicator, and is woven in a continuous circle",
   a_new_type_of_bandage: "Invented in 2016; inspired by the art of kirigami , it uses parallel slits to better fit areas of the body that bend",
 
+  // === INGESTED 2026-06-23 14:24 ===
+  nanorods: "Produced by direct chemical synthesis",
+  one_potential_application_of_nanorods: "In display technologies, because the reflectivity of the rods can be changed by changing their orientation with an applied electric field",
+  zno_nanowires: "Grown epitaxially on the substrate and assemble into monolayer arrays",
+  no_catalyst: { definition: "Involved in this process and the growth temperature is at 400 ~500 °C, i.e", what_it_does: "", examples: "to make a dense 'carpet' of CuO nanorods it was found to be enough to heat Cu foil in air at 420 °C" },
+  the_growth_solution: "Obtained by the reduction of HAuCl 4 with ascorbic acid in the presence of cetyltrimethylammonium bromide (CTAB) surfactant and silver ions",
+  the_shortcoming_of_this_method: "The formation of gold nanospheres, which requires non-trivial separations and cleanings",
+  raising_the_ph: "Another way to achieve high aspect ratio (> 25:1) nanorods with high yield (> 90%) at the cost of increased polydispersity",
+  another_shortcoming_of_this_method: "The high toxicity of CTAB",
+  cation_exchange_transformations_in_nanorods: "Kinetically favorable and often shape-conserving",
+
 };
 
 // ============================================================
