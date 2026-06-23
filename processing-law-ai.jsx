@@ -28013,6 +28013,24 @@ const FLAT_DICT = {
   the_main_leakage_from_this_sector: "Imports (M), which represent spending by residents into the rest of the world",
   the_main_injection_provided_by_this_sector: "The exports of goods and services which generate income for the exporters from overseas residents",
 
+  // === INGESTED 2026-06-23 15:03 ===
+  one_is_that_no_decision: "Made by an aggregate whole",
+  a_second: "The use of markets in the political system",
+  calhoun: { definition: "Also seen as a precursor to modern public choice theory", what_it_does: "", examples: "those in business" },
+  public_choice: "The process of what public goods are provided, how they are provided and distributed, and the corresponding matching rules that are established",
+  political_decisions_take_place_within_and: "Governed by the structure",
+  the_typical_image_of_a_bureau_chief: "Someone on a fixed salary concerned with pleasing whoever appointed them",
+  but_most_bureaucrats: { definition: "Civil servants whose jobs and pay are protected by a civil service system against major changes by their bureau chiefs", what_it_does: "", examples: "village councils and courts of law, have gotten special consideration" },
+  one_criticism: { definition: "That many economists do not share Caplan's views on the nature of public choice", what_it_does: "", examples: "emission rights, for command and control " },
+  public_choice_theory: "Often used to explain how political decision-making results in outcomes that conflict with the general public's preferences",
+  specialinterest_lobbyists: "Also behaving rationally",
+  the_taxpayer: "Also behaving rationally",
+  costs: "Diffused while benefits are concentrated",
+  the_costs_of_such_inefficient_policies: "Dispersed over all citizens and thus unnoticeable to each",
+  its_basic_thesis: "That when both a market economy and government are present, government agents may rent or sell their influence (i.e",
+  the_real_gain: "The gain over the competition",
+  but_public_choice_theorists: { definition: "Ideologically diverse", what_it_does: "", examples: "advocated a strong state and opposed political interest group lobbying" },
+
 };
 
 // ============================================================
