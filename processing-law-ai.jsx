@@ -28002,6 +28002,17 @@ const FLAT_DICT = {
   labeling_of_gmo_products_in_the_marketplace: "Required in 64 countries",
   in_canada_and_the_us_labeling_of_gm_food: { definition: "Voluntary, [ 180 ] while in Europe all food (including processed food ) or feed which contains greater than 0.9% of approved GMOs must be labelled", what_it_does: "", examples: "ethical, ecological and economic concerns" },
 
+  // === INGESTED 2026-06-23 15:01 ===
+  the_circular_flow_of_income_or_circular_flow: "A model of the economy in which the major exchanges are represented as flows of money , goods and services , etc",
+  the_circular_flow_analysis: "The basis of national accounts and hence of macroeconomics",
+  the_idea_of_the_circular_flow: "Already present in the work of Richard Cantillon",
+  the_circular_flow_of_income: "A concept for better understanding the economy as a whole and, for example, the National Income and Product Accounts (NIPAs)",
+  an_important_development: "John Maynard Keynes 's 1933 publication of the General Theory of Employment, Interest and Money",
+  flows_from_households_and_firms_to_government: { definition: "In the form of taxes", what_it_does: "", examples: "Westpac or financial institutions such as Suncorp" },
+  this_is_a_leakage_because_it: "A leakage out of the current income, thus reducing the expenditure on current goods and services",
+  the_main_leakage_from_this_sector: "Imports (M), which represent spending by residents into the rest of the world",
+  the_main_injection_provided_by_this_sector: "The exports of goods and services which generate income for the exporters from overseas residents",
+
 };
 
 // ============================================================
