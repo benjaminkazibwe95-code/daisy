@@ -27660,6 +27660,20 @@ const FLAT_DICT = {
   older_conceptual_words: "Typically highly polysemic, often extending beyond shades of similar meanings into ambiguity",
   homonymy: "The phenomenon where two distinct words ( lexemes ) share the same spelling and pronunciation",
 
+  // === INGESTED 2026-06-23 14:03 ===
+  hypernymy_and_hyponymy: "The semantic relations between a generic term ( hypernym ) and a more specific term ( hyponym )",
+  the_hypernym: "Also called a supertype , umbrella term , or blanket term",
+  the_semantic_field_of_the_hyponym: "Included within that of the hypernym",
+  a_hyponym: { definition: "A word or phrase whose semantic field is more specific than its hypernym", what_it_does: "", examples: "imagine , understand and knowledge" },
+  while_hyponyms: "Typically used to refer to nouns, it can also be used on other parts of speech",
+  if_x: "A kind of Y, then X is a hyponym of Y and Y is a hypernym of X",
+  this_latter_relation: "That which may be termed taxonymy",
+  cohyponyms: { definition: "Often but not always related to one another by the relation of incompatibility", what_it_does: "", examples: "apple , peach and plum are co-hyponyms of fruit" },
+  a_queen_and_mother: "Both hyponyms of woman but there is nothing preventing the queen from being a mother",
+  a_word_is_an_autohyponym_if_it: { definition: "Used for both a hypernym and its hyponym: [ 12 ] it has a stricter sense that is entirely a subset of a broader sense", what_it_does: "", examples: "in hypertension and hypotension" },
+  hyponymy: "The most frequently encoded relation among synsets used in lexical databases such as WordNet",
+  the_notion_of_hyponymy: { definition: "Particularly relevant to language translation , as hyponyms are very common across languages", what_it_does: "", examples: "the speakers' relative ages) is often not available during machine translation" },
+
 };
 
 // ============================================================
