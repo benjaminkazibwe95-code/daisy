@@ -28094,6 +28094,15 @@ const FLAT_DICT = {
   the_tanka: "Minted in copper and brass",
   the_currency: { definition: "Introduced due to the shortage of metals", what_it_does: "", examples: "the value, origin, and regulation of money" },
 
+  // === INGESTED 2026-06-23 15:18 ===
+  his_future_interests: "Influenced by his childhood at the farm",
+  thesis_title: "A theoretical and empirical inquiry into the economic replacement of capital equipment",
+  as_smith: "It: In the Autumn semester, 1955, I taught Principles of Economics, and found it a challenge to convey basic microeconomic theory to students",
+  the_economic_environment: "Simply the preferences of the people in the economy and the production capabilities of the firms in the economy",
+  the_key_insight_in_this_formulation: "That the economic outcome can be affected by the economic institution",
+  subjects_in_an_experiment: { definition: "Told that they can produce a 'commodity' at a cost and then sell it to buyers", what_it_does: "", examples: "altruism influence economic behavior" },
+  some_of_these_contributions: "Used in Neuroeconomics Lab [ 30 ] books published by Academic Press (2014)",
+
 };
 
 // ============================================================
