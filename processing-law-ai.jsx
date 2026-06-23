@@ -24431,6 +24431,10 @@ const FLAT_DICT = {
   many_of_these_sources: { definition: "No longer operational due to lack of maintenance, as is the case for wells equipped with pumps", what_it_does: "", examples: "ISTM/KA, ISTMRKA, ISTIA, and two university institutions: UNIKAB and UNILO" },
   the_university_of_mweneditu: "The province's main university in terms of infrastructure, number of students, and academic staff, with its seven faculties offering 14 programs",
 
+  // === INGESTED 2026-06-23 03:02 ===
+  the_conference_of_fourteen_countries: { definition: "Organised by Otto von Bismarck , the first chancellor of Germany , at the request of Leopold II of Belgium at a building (No", what_it_does: "", examples: "rubber , minerals , ivory , and cotton made Africa highly valuable" },
+  at_stake: { definition: "The British distinction between territorial annexations and protectorates", what_it_does: "", examples: "ethnic, linguistic, and cultural divides while creating new colony or protectorate borders" },
+
 };
 
 // ============================================================
