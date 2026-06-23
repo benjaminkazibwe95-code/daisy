@@ -28728,6 +28728,29 @@ const FLAT_DICT = {
   the_resources_that_flow_through_ecosystems: "Obtained primarily from the meetings between people and organizations that are an active part of those startup ecosystems",
   startup_ecosystems: "Dynamic entities that progress from formation stages to periodic disturbances (like the financial bubbles ) and then to recovering processes",
 
+  // === INGESTED 2026-06-23 17:26 ===
+  some_transistors: "Packaged individually, but many more in miniature form are found embedded in integrated circuits",
+  because_transistors: "The key active components in practically all modern electronics, they are considered one of the 20th century's greatest inventions",
+  most_transistors: { definition: "Made from very pure silicon , and some from germanium , but certain other semiconductor materials are sometimes used", what_it_does: "", examples: "traveling-wave tubes and gyrotrons" },
+  many_types_of_transistors: "Made to standardized specifications by multiple manufacturers",
+  the_industrial_design: { definition: "Outsourced to the Chicago firm of Painter, Teague and Petertil", what_it_does: "", examples: "smartphones" },
+  this_is_called_saturation_because_the_current: "Flowing from collector to emitter freely",
+  before_transistors: "Developed, vacuum tubes (or in the UK thermionic valves or just valves ) were the main active components in electronic equipment",
+  the_four_terminals_of_the_fet: "Named source , gate , drain , and body ( substrate )",
+  a_quadratic_behavior: "Not observed in modern devices, for example, at the 65 nm technology node",
+  fets: "Further divided into depletion-mode and enhancement-mode types, depending on whether the channel is turned on or off with zero gate-to-source voltage",
+  three_major_identification_standards: { definition: "Used for designating transistor devices", what_it_does: "", examples: "2N3055 is a silicon n–p–n power transistor, 2N1301 is a p–n–p germanium switching transistor" },
+  c_often: "High h FE , such as in: BC549C [ 115 ] ) or other codes may follow to show gain (e.g",
+  military_part_numbers_sometimes: "Assigned their codes, such as the British Military CV Naming System",
+  the_first_bjts: "Made from germanium (Ge)",
+  the_junction_forward_voltage: "The voltage applied to the emitter-base junction of a BJT to make the base conduct a specified current",
+  the_values_given_in_the_table: { definition: "Typical for a current of 1 mA (the same values apply to semiconductor diodes)", what_it_does: "", examples: "the impurity level in the channel" },
+  the_table_indicates_that_ge: "A better material than Si in this respect",
+  it_is_for_this_reason_that_gaas: "Used in high-frequency applications",
+  the_two_main_categories: "Through-hole (or leaded ), and surface-mount , also known as surface-mount device ( SMD )",
+  transistor_packages: "Made of glass, metal, ceramic, or plastic",
+  often_a_given_transistor_type: { definition: "Available in several packages", what_it_does: "", examples: "organic field-effect transistors" },
+
 };
 
 // ============================================================
