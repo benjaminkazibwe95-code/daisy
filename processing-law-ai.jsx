@@ -24565,6 +24565,12 @@ const FLAT_DICT = {
   nynorsk: "Backed by 27 percent of municipalities",
   modern_standard_arabic: "Directly based on Classical Arabic , the language of the Qur'an",
 
+  // === INGESTED 2026-06-23 03:27 ===
+  the_correlation_between_semivowels_and_vowels: { definition: "Strong enough that cross-language differences between semivowels correspond with the differences between their related vowels", what_it_does: "", examples: "[j, w] ) often found in syllable onsets" },
+  voiceless_approximants: { definition: "Rare in the languages of the world, but when they do occur the airflow is usually somewhat turbulent", what_it_does: "", examples: "[ɛ̥] , [" },
+  they_conclude_that_there: { definition: "'a range of variants within voiceless laterals, rather than a categorical split between lateral fricatives and voiceless approximant laterals'", what_it_does: "", examples: "with ⟨ R r ⟩ in Latin scripts , ⟨ Ρ ρ ⟩ in Greek scripts , and ⟨ Р р ⟩ in Cyrillic scripts" },
+  the_most_widely_recognized_rhotic_approximants: { definition: "Alveolar [ ɹ ] , retroflex [ ɻ ] , and uvular [ ʁ̞ ] , along with their postalveolar [ ɹ̠ ] and velar [ ɹ̈ ] analogues", what_it_does: "", examples: "/b, d, ʝ, ɡ/ to [β̞, ð̞, ʝ̞, ɣ̞]" },
+
 };
 
 // ============================================================
