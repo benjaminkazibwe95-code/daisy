@@ -29168,6 +29168,11 @@ const FLAT_DICT = {
   typically_the_auto_attendant: "Included in a business's phone system such as a PBX , but some services allow businesses to use an AA without such a system",
   automated_attendants: "Not part of voicemail systems",
 
+  // === INGESTED 2026-06-23 19:08 ===
+  contract_disputes: { definition: "Examined with consideration of whether the terms and administration of the contract were fair—that is, equitable", what_it_does: "", examples: "home equity loans and home equity lines of credit" },
+  if_the_equity: "Negative (a deficit) then the unpaid creditors bear loss and the owners' claim is void",
+  when_the_owners_of_a_firm: { definition: "Shareholders , their interest is called shareholders' equity", what_it_does: "", examples: "the liabilities), struck at the nominal value of the liabilities" },
+
 };
 
 // ============================================================
