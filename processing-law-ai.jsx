@@ -29492,6 +29492,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 20:20 ===
   global_village: { definition: "The phenomenon of the entire world becoming more interconnected as the result of the propagation of media technologies throughout the world", what_it_does: "", examples: "in other countries" },
 
+  // === INGESTED 2026-06-23 20:22 ===
+  the_most_common_example_of_a_cfc: { definition: "Dichlorodifluoromethane (R-12)", what_it_does: "", examples: "R-410A , R-134a and R-1234yf" },
+  the_decreased_volatility: "Attributed to the molecular polarity induced by the halides , which induces intermolecular interactions",
+  billions_of_kilograms_of_chlorodifluoromethane: "Produced annually as a precursor to tetrafluoroethylene , the monomer that is converted into Teflon",
+  the_rest_of_the_unaccounted_carbon_bonds: "Occupied by chlorine atoms",
+  the_value_of_this_equation: "Always a three figure number",
+  an_easy_example: "That of CFC-12, which gives: 90+12=102 -> 1 carbon, 0 hydrogens, 2 fluorine atoms, and hence 2 chlorine atoms resulting in CCl 2 F 2",
+  bromine_atoms: "Even more efficient catalysts; hence brominated CFCs are also regulated",
+  the_atmospheric_impacts_of_cfcs: { definition: "Not limited to their role as ozone-depleting chemicals", what_it_does: "", examples: "perfluorocarbons , HFCs , HCFCs , bromofluorocarbons , SF 6 , and NF 3" },
+  groups: { definition: "Actively disposing of legacy CFCs to reduce their impact on the atmosphere", what_it_does: "", examples: "ammonia, sulphur dioxide, and chloromethane" },
+  of_general_motors: "Credited for synthesizing the first chlorofluorocarbons",
+  the_frigidaire_corporation: "Issued the first patent, number 1,886,339, for the formula for CFCs on 31 December 1928",
+  public_health_codes_in_cities: { definition: "Revised to designate chlorofluorocarbons as the only gases that could be used as refrigerants in public buildings", what_it_does: "", examples: "computer rooms, telecommunications switches, laboratories, museums and art collections" },
+  the_interim_replacements_for_cfcs: { definition: "Hydrochlorofluorocarbons (HCFCs), which deplete stratospheric ozone, but to a much lesser extent than CFCs", what_it_does: "", examples: "cyclopentane , HFOs, and HFC-345a before January 2020" },
+  because_cfcs: "Inert, their concentration in the ocean interior reflects simply the convolution of their atmospheric time evolution and ocean circulation and mixing",
+  the_elapsed_time_since_a_subsurface_water_mass: "Last in contact with the atmosphere is the tracer-derived age",
+
 };
 
 // ============================================================
