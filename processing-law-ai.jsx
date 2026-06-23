@@ -23820,6 +23820,10 @@ const FLAT_DICT = {
   the_first_african_bible_college: "Established in Liberia , West Africa in 1975",
   all_three_institutions: "Recognized by the governments of their respective countries as accredited, university-level, degree-granting institutions",
 
+  // === INGESTED 2026-06-23 01:15 ===
+  the_license: { definition: "Granted by the Uganda National Council for Higher Education", what_it_does: "", examples: "Professor John Massa Kasenene, Professor Pius Coxwell Achanga, Dr" },
+  courses: "Structured to develop analytical and applied skills",
+
 };
 
 // ============================================================
