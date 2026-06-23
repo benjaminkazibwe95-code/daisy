@@ -27545,6 +27545,18 @@ const FLAT_DICT = {
   a_further_major_call_for_streamlining: "Made by Sir Melvill Jones who provided the theoretical concepts to demonstrate emphatically the importance of streamlining in aircraft design",
   the_busemann_biplane_theoretical_concept: "Not subject to wave drag when operated at its design speed, but is incapable of generating lift in this condition",
 
+  // === INGESTED 2026-06-23 13:21 ===
+  calculations_in_mechanics: { definition: "Often simplified when formulated with respect to the center of mass", what_it_does: "", examples: "a horseshoe" },
+  the_center_of_mass_frame: "An inertial frame in which the center of mass of a system is at rest with respect to the origin of the coordinate system",
+  the_mass_center: "A fixed property for a given rigid body (e.g",
+  because_the_resultant_torque: { definition: "Zero the body will move as though it is a particle with its mass concentrated at the center of mass", what_it_does: "", examples: "magnetic fields, electric fields, chemical reactions, and so on" },
+  the_center_of_mass: "An important point on an aircraft , which significantly affects the stability of the aircraft",
+  to_ensure_the_aircraft: "Stable enough to be safe to fly, the center of mass must fall within specified limits",
+  if_the_center_of_mass: "Ahead of the forward limit , the aircraft will be less maneuverable, possibly to the point of being unable to rotate for takeoff or flare for landing",
+  the_barycenter: "The point between two objects where they balance each other; it is the center of mass where two or more celestial bodies orbit each other",
+  if_the_masses: "More similar, e.g., Pluto and Charon , the barycenter will fall outside both bodies",
+  a_center_of_gravity_that: "At or above the lift point will most likely result in a tip-over incident",
+
 };
 
 // ============================================================
