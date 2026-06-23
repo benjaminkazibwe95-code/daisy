@@ -27856,6 +27856,17 @@ const FLAT_DICT = {
   the_term_picotechnology: "A portmanteau of picometre and technology , intended to parallel the term nanotechnology",
   picoscience: "A term used by some futurists to refer to structuring of matter on a true picometre scale",
 
+  // === INGESTED 2026-06-23 14:38 ===
+  genetic_testing: "Used in IVF to test embryos for potentially fatal diseases to determine the strongest candidates",
+  it_is_important_that_any_person_who: { definition: "Considering genetic testing understands and weighs these factors before making a decision", what_it_does: "", examples: "23andMe , Ancestry.com , and Family Tree DNA" },
+  possible_benefits_of_dtc_genetic_testing: { definition: "The accessibility of tests to consumers, promotion of proactive healthcare, and the privacy of genetic information", what_it_does: "", examples: "celiac disease and late-onset Alzheimer's" },
+  one_of_the_more_obvious_and_dangerous_of_these: { definition: "The possibility of misreading of test results", what_it_does: "", examples: "cardiovascular disease and diabetes" },
+  it_is_also_hoped_that_participants_who: "Given early warnings will adopt healthier lifestyles or take preventative drugs",
+  the_legal_status_of_genetic_testing_in_france: { definition: "Regulated under strict privacy and data protection laws, including the Bioethics Law", what_it_does: "", examples: "ancestry or personal traits, also face legal restrictions, particularly regarding consumer access" },
+  this_gender_selection_of_embryos: { definition: "Not aimed at assessing the viability of said embryo, rather a cultural act that has deep roots in most societies around the world", what_it_does: "", examples: "to start early intervention)" },
+  testing_asymptomatic_children_who: "At risk of childhood onset conditions can also be warranted",
+  results_for_prenatal_testing: "Usually available more quickly because time is an important consideration in making decisions about a pregnancy",
+
 };
 
 // ============================================================
