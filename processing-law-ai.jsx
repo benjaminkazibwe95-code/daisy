@@ -25430,6 +25430,10 @@ const FLAT_DICT = {
   the_ruler: "The first Kongo lord to be baptized when Christian missionaries came to the kingdom of Kongo in 1491",
   soyo: "Actively involved in Kongo's politics during and after Garcia II's reign, especially as defenders of the Kimpanzu branch of the family",
 
+  // === INGESTED 2026-06-23 06:32 ===
+  other_african_oil_producing_countries: "Gabon , the DRC, Cameroon , Tunisia , Equatorial Guinea , the Republic of the Congo , Ivory Coast , and more recently, Ghana",
+  included_in_this_list: "Chad , Sudan , Namibia , South Africa , and Madagascar , whilst Mozambique and Tanzania are potential oil producers",
+
 };
 
 // ============================================================
