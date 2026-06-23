@@ -29776,6 +29776,9 @@ const FLAT_DICT = {
   his_treatise: "A compilation of the knowledge about forest management at the time",
   hans_carl_von_carlowitz: "The first one to clearly formulate the concept of sustainability in forestry (pages 105–106 in the Sylvicultura Oeconomica )",
 
+  // === INGESTED 2026-06-23 21:39 ===
+  inclusive_growth: { definition: "Economic growth that raises standards of living for broad swaths of a population", what_it_does: "", examples: "a rise in corruption , which is a major problem in developing countries" },
+
 };
 
 // ============================================================
