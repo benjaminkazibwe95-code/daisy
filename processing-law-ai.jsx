@@ -23658,6 +23658,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 00:38 ===
   foreign_intelligence: "Information collection relating to the political, or economic activities of foreign states",
 
+  // === INGESTED 2026-06-23 00:40 ===
+  the_federal_research_program: "Run by the Federal Research Division (FRD), the fee-for-service research and analysis unit within the Library of Congress",
+
 };
 
 // ============================================================
