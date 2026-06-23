@@ -29235,6 +29235,10 @@ const FLAT_DICT = {
   the_set_of_paretooptimal_returns_and_risks: { definition: "Called the Pareto efficient frontier for the Markowitz portfolio selection problem", what_it_does: "", examples: "the market portfolio and the zero-investment portfolio" },
   one_traditional_method: "Using quarterly or monthly money-weighted returns; however, the true time-weighted method is a method preferred by many investors in financial markets",
 
+  // === INGESTED 2026-06-23 19:21 ===
+  once_the_reason_for_tax_selling: { definition: "Eliminated, the stock's price tends to recover", what_it_does: "", examples: "high-frequency trading , which often execute dozens or even hundreds of trades per second" },
+  depending_on_which_past_period: "Taken as a reference and how long the securities were held thereafter, a different magnitude of effect was observed",
+
 };
 
 // ============================================================
