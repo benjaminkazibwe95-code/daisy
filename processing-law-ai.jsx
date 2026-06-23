@@ -30394,6 +30394,9 @@ const FLAT_DICT = {
   i_think_there: "A lot of truth in it [",
   we_conclude_that_deliberate_practice: "Important, but not as important as has been argued'",
 
+  // === INGESTED 2026-06-23 23:43 ===
+  economic_historians_support_that_there: { definition: "No clear deskilling tendency within 18th and 19th century economies but rather a combination of deskilling, skilling and skill-displacement", what_it_does: "", examples: "high-skilled and low-skilled workers, as reaching above 60% of the English and Welsh population" },
+
 };
 
 // ============================================================
