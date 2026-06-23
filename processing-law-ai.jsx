@@ -26170,6 +26170,18 @@ const FLAT_DICT = {
   the_uk_has_many_gastropubs_and: "The birthplace of many alcoholic drinks including several beer styles such as pale ale , India pale ale , bitter , brown ale , porter , and stout",
   britannia: { definition: "A national personification of the United Kingdom, originating from Roman Britain", what_it_does: "", examples: "their national flags" },
 
+  // === INGESTED 2026-06-23 08:23 ===
+  most_access: { definition: "By subscription but some of the site is public domain , and open access content is available free of charge", what_it_does: "", examples: "BITNET and the Internet )" },
+  jstor: "Initiated in 1995 at seven different library sites, and originally encompassed ten economics and history journals",
+  special_software: "Put in place to make pictures and graphs clear and readable",
+  the_work_of_adding_these_volumes_to_jstor: "Completed by December 2000",
+  they_are_notified_when_the_dataset: "Ready and may download it in either XML or CSV formats",
+  the_materials_on_jstor_plant_science: "Contributed through the Global Plants Initiative (GPI) [ 16 ] and are accessible only to JSTOR and GPI members",
+  the_books: "Linked with reviews and from citations in journal articles",
+  posted_articles: "Generally based on JSTOR entries, and some entries provide the backstory to current events",
+  once_video: "Captured of him, the download was stopped and he was identified",
+  this_time_period: "Specified by agreement between JSTOR and the publisher of the journal, which usually is three to five years",
+
 };
 
 // ============================================================
