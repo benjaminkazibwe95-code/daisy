@@ -26997,6 +26997,19 @@ const FLAT_DICT = {
   colleges_that: { definition: "Both need-blind and full-need for all undergraduate applicants, including international students", what_it_does: "", examples: "about a quarter of the workforce of Silicon Valley" },
   if_the_companies_founded_by_mit_alumni: "A country, they would have the 11th-highest GDP of any country in the world",
 
+  // === INGESTED 2026-06-23 11:03 ===
+  different_open_access_types: "Currently commonly described using a colour system",
+  the_most_commonly_recognised_names: { definition: "'green', 'gold', and 'hybrid' open access; however, several other models and alternative terms are also used", what_it_does: "", examples: "a free license on the publisher-authored copyrightable portions of the printed version of an article" },
+  this_has_led_to_the_assessment_that_there: { definition: "Enough money 'within the system' to enable full transition to OA", what_it_does: "", examples: "subsidies, advertising, membership dues, endowments, or volunteer labour" },
+  the_momentum: "Further increased by a growing movement for academic journal publishing reform, and with it gold and libre OA",
+  a_growing_number_of_universities: { definition: "Providing institutional repositories in which their researchers can deposit their published articles", what_it_does: "", examples: "interlibrary loan , supporting researchers' needs for immediate access to scholarship" },
+  both_the_iop_and_the_acs: { definition: "Non-profit publishers", what_it_does: "", examples: "high-energy physics to adopt widespread preprint access" },
+  this_citation_diversity_advantage: { definition: "Robust, as observed across 19 million publications and 420 million citations (2010–2019)", what_it_does: "", examples: "those indexed by PubMed Central" },
+  a_blacklist_of_predatory_publishers: { definition: "Also maintained by Cabell's blacklist (a successor to Beall's List )", what_it_does: "", examples: "in widely-read journals such as The Lancet , Science and Nature" },
+  a_list_of_preprint_servers: "Maintained at ResearchPreprints",
+  the_idea_of_mandating_selfarchiving: "Raised at least as early as 1998",
+  these_recommendations: { definition: "Not legally binding and received mixed reactions", what_it_does: "", examples: "SWORD can help authors manage sharing between repositories" },
+
 };
 
 // ============================================================
