@@ -24858,6 +24858,10 @@ const FLAT_DICT = {
   most_coaches: "Run by Ritco , on which the government holds a share",
   while_the_national_ones: "Typically unmarked, Kigali taxis have a yellow stripe running round the vehicle, on which is imprinted the start and end points of its route",
 
+  // === INGESTED 2026-06-23 04:27 ===
+  rwandan_english: { definition: "The variety of English spoken in Rwanda", what_it_does: "", examples: "when the letter is between two vowels" },
+  a_common_characteristic: { definition: "The pluralisation of uncountable nouns ; words such as 'information', 'advice', 'equipment', and 'software' are often treated as countable (e.g", what_it_does: "", examples: "administration, education, and everyday social life" },
+
 };
 
 // ============================================================
