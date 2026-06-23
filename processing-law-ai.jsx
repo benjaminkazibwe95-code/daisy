@@ -24084,6 +24084,26 @@ const FLAT_DICT = {
   public_expenditures_go_to_where_they: "Most easily spent rather than where they are most urgently needed",
   operation_and_maintenance: { definition: "Financed by the national governments and consumer revenues", what_it_does: "", examples: "in Burkina Faso and Ethiopia" },
 
+  // === INGESTED 2026-06-23 01:55 ===
+  the_bbc_world_service: "Broadcast on DAB , Freeview , Virgin Media and Sky platforms, as well as on BBC Sounds",
+  the_empire_service: "Renamed the BBC Overseas Service in November 1939, supplemented by the addition of a dedicated BBC European Service from 1941",
+  news: "At the core of the scheduling",
+  the_english_service: { definition: "Also available on digital radio in the UK and Europe", what_it_does: "", examples: "the advice to evacuate Jordan during the Black September incidents of September 1970" },
+  the_mainstays_of_the_current_schedule: "Newsday , Newshour and The Newsroom",
+  outlook_is_a_human_interest_programme_which: "First broadcast in July 1966 and presented for more than thirty years by John Tidmarsh",
+  business_daily: { definition: "A weekday live international business news programme, which broadcasts from 8:32:30am to 8:59:00am UK time from Broadcasting House in London", what_it_does: "", examples: "Just A Minute" },
+  a_fiveminute_bulletin: "Generally transmitted at 01 past the hour, with a two-minute summary at 30 past the hour",
+  sometimes_these: "Separate from other programming, or alternatively made integral to the programme (such as with The Newsroom , Newshour or Newsday )",
+  transmission_facilities_in_the_uk_and_cyprus: "Supplemented by the former BBC Eastern Relay Station in Oman and the Far Eastern Relay Station in Singapore, formerly in Malaysia",
+  the_relay_station_in_thailand: "Closed during January 2017, and in Singapore during July 2023; [ 110 ] currently, a relay station in Masirah , Oman serves the Asian region",
+  the_persian_service: "The de facto national broadcaster of Afghanistan , along with its Iranian audience",
+  the_world_service: "Available up to eighteen hours a day in English across most parts of Asia, and in Arabic for the Middle East",
+  the_station: "Also available in Reykjavík, Iceland on 94.5 MHz FM",
+  transmissions_on_this_frequency: { definition: "Stopped on 27 March 2011, as a consequence of the budgetary constraints imposed on the BBC World Service in the 2010 budget review", what_it_does: "", examples: "FM, satellite and online, with fewer listening on shortwave" },
+  former_bbc_shortwave_transmitters: "Located in the United Kingdom at Rampisham Down in Dorset , Woofferton in Shropshire and Skelton in Cumbria",
+  a_previous_signature_tune_of_the_station: "A five note motif, composed by David Arnold and which comprises a variety of voices declaim 'This is the BBC in",
+  it_is_frightening_the_extent_to_which_we: "Losing the information war",
+
 };
 
 // ============================================================
