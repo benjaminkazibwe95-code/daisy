@@ -26514,6 +26514,9 @@ const FLAT_DICT = {
   vertical_applications: { definition: "Niche products , designed for a particular type of industry or business, or department within an organization", what_it_does: "", examples: "manufacturing or banking worker, accounting, or customer service" },
   a_kind: "Included in only one category even if it logically fits in multiple",
 
+  // === INGESTED 2026-06-23 09:26 ===
+  parnas: "Also a heavy promoter of ethics in the field of software engineering",
+
 };
 
 // ============================================================
