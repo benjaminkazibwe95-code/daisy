@@ -28173,6 +28173,15 @@ const FLAT_DICT = {
   these_directors: { definition: "Theoretically liable for breaches of that duty and are typically insured under directors and officers liability insurance", what_it_does: "", examples: "the chief financial officer (CFO), has increased" },
   managers_destined_for_the_service_sector: { definition: "Being trained to use unique measurement techniques, better worker support, and more charismatic leadership styles", what_it_does: "", examples: "Cog's Ladder (1972) and the notion of 'thriving on chaos' [ 53 ] (1987)" },
 
+  // === INGESTED 2026-06-23 15:29 ===
+  proquest_llc: "An Ann Arbor, Michigan -based global information-content and technology company, founded in 1938 as University Microfilms by Eugene Power",
+  this_content: "Estimated to be around 125 billion digital pages",
+  at_a_time_when_modem_connections: "Slow and expensive, it was more efficient to mail database CD-ROMs regularly to subscribing libraries, who installed the discs on dedicated PCs",
+  the_proquest_brand_name: "First used for databases on CD-ROM",
+  an_online_service_called_proquest_direct: { definition: "Launched in 1995; its name was later shortened to just ProQuest", what_it_does: "", examples: "nearly 20 million pages of newspaper content dating from pre-Revolutionary War America" },
+  later_that_year_it: "Renamed ProQuest LLC",
+  refworks: { definition: "Merged with ProQuest's existing Community of Science (COS) business to form RefWorks/COS", what_it_does: "", examples: "the MyiLibrary platform and the Online Acquisitions and Selection Information System (OASIS)" },
+
 };
 
 // ============================================================
