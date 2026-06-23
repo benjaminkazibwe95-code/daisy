@@ -26039,6 +26039,19 @@ const FLAT_DICT = {
   apps_with_similar_purposes_which: "Not strictly games are called gamified apps",
   this_gameplay: { definition: "Different since players take individual turns in the game, therefore allowing them to continue playing against human opponents", what_it_does: "", examples: "AT&T Mobility , Verizon Wireless , Sprint Corporation and T-Mobile US" },
 
+  // === INGESTED 2026-06-23 08:10 ===
+  meizu: "Having online marketing where they partnered with Amazon and Flipkart",
+  this_device: "Considered to be a large commercial success in China",
+  a_quadcore_version_of_the_meizu_mx: "Released in June 2012",
+  the_current_device_of_the_mx_series: { definition: "The Meizu MX6 , which was released on 19 July 2016", what_it_does: "", examples: "exterior paint, interior colour matching and Flyme Auto themes" },
+  some_of_its_key_features: "Completely redesigned apps, one-handed usability and performance optimizations",
+  the_back_button_function: { definition: "Implemented by tapping the physical button, while the home button function is used by pressing the physical button", what_it_does: "", examples: "ZTE , Huawei and the OnePlus One" },
+  flyme_aios: { definition: "The successor of Flyme, focusing heavily on AI features, ecosystem and ease of use", what_it_does: "", examples: "the control center, lockscreen and made the system feel smoother to use" },
+  the_budget_phones: { definition: "Meizu C9 and Meizu M6T, the premium one was Meizu 16 (also known as Meizu 16th)", what_it_does: "", examples: "the Meizu Note 21 series and the Meizu mblu 21" },
+  the_pro_series: "Introduced at the launch of the Meizu PRO 5 as a successor to the Meizu MX4 Pro",
+  the_m_series: "A series of smartphones targeted for users wanting an affordable and functional smartphone",
+  the_meizu_number_series: "A range of high-end Meizu smartphones and is the successor of the PRO series",
+
 };
 
 // ============================================================
