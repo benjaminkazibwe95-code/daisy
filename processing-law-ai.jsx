@@ -28391,6 +28391,10 @@ const FLAT_DICT = {
   a_financial_asset: "A non-physical asset whose value is derived from a contractual claim, such as bank deposits , bonds , and participations in companies' share capital",
   financial_assets: { definition: "Usually more liquid than tangible assets , such as commodities or real estate", what_it_does: "", examples: "intellectual property , including copyrights, patents, trademarks and data" },
 
+  // === INGESTED 2026-06-23 16:10 ===
+  the_elasticity: "By definition which for this function simply equals r",
+  elasticity_of_demand: "Indicated by r = d Q d P P Q {\displaystyle {r}={\frac {dQ}{dP}}{\frac {P}{Q}}} , where r is the elasticity, Q is quantity, and P is price",
+
 };
 
 // ============================================================
