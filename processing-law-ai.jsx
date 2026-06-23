@@ -28890,6 +28890,14 @@ const FLAT_DICT = {
   the_sjr_indicator: "A free journal metric inspired by, and using an algorithm similar to, PageRank",
   the_sjr_indicator_computation: "Carried out using an iterative algorithm that distributes prestige values among the journals until a steady-state solution is reached",
 
+  // === INGESTED 2026-06-23 18:14 ===
+  supply_chains: "Linked to value chains , [ 6 ] and suppliers within a supply chain are often organized into tiers",
+  the_components: "Then put together in an assembly plant",
+  suggest_that_at_least_three_entities: { definition: "Required for there to be a 'supply chain'", what_it_does: "", examples: "cleaning, canteen, security etc" },
+  each_process: { definition: "Managed by a cross-functional team including representatives from logistics, production, purchasing, finance, marketing, and research and development", what_it_does: "", examples: "process groups, and over 1,000 processes and associated activities" },
+  cloudbased_scm_technologies: "At the forefront of next-generation supply chains due to their impact on optimization of time, resources, and inventory visibility",
+  dfsc: "Described as a process that aims to drastically reduce the product life cycle costs ",
+
 };
 
 // ============================================================
