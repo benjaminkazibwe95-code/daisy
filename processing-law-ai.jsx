@@ -26767,6 +26767,26 @@ const FLAT_DICT = {
   tosthreads: "Unmaintained and have been deprecated",
   associated_utilities: "Provided to complete a development platform for working with TinyOS",
 
+  // === INGESTED 2026-06-23 10:13 ===
+  lisp_machines: { definition: "General-purpose computers designed to efficiently run Lisp as their main software and programming language , usually via hardware support", what_it_does: "", examples: "networking innovations such as Chaosnet , and effective garbage collection" },
+  the_operating_systems: "Written from the ground up in Lisp, often using object-oriented extensions",
+  this_simultaneous_checking_approach: "Used as well in testing the bounds of arrays when referenced, and other memory management necessities (not merely garbage collection or arrays)",
+  the_first_machine: "Called the CONS machine (named after the list construction operator cons in Lisp)",
+  often_it: "Affectionately referred to as the Knight machine , perhaps since Knight wrote his master's thesis on the subject; it was extremely well received",
+  emacs: "Ported from ITS in 1975 [ disputed – discuss ] )",
+  these_ideas_and_goals: "Considerably different from those of Noftsker",
+  while_noftsker: "Paying his staff a salary, he had no building or any equipment for the hackers to work on",
+  the_newfound_firm: "Named LISP Machine, Inc",
+  two_ai_lab_people: "Not hired by either: Richard Stallman and Marvin Minsky",
+  some_of_the_lmilambdas_and_the_ti_explorer: "Dual systems with both a Lisp and a Unix processor",
+  this_lisp_chip_also: "Used for the MicroExplorer – a NuBus board for the Apple Macintosh II (NuBus was initially developed at MIT for use in Lisp machines)",
+  the_symbolics_machine: "Competitive against many commercial super minicomputers , but was never adapted for conventional purposes",
+  the_symbolics_lisp_machines: "Also sold to some non-AI markets like computer graphics , modeling, and animation",
+  the_same_hardware: "Used with different software also as Smalltalk machines and as the Xerox Star office system",
+  all_data_objects: "Stored with a tag in memory, so that the type could be determined at runtime",
+  multiple_execution_threads: { definition: "Supported and termed processes", what_it_does: "", examples: "the Symbolics XL1200, had extensive graphics abilities using special graphics boards" },
+  these_machines: "Used in domains like medical image processing, 3D animation, and CAD",
+
 };
 
 // ============================================================
