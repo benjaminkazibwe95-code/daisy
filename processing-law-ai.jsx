@@ -30116,6 +30116,11 @@ const FLAT_DICT = {
   earlier_rankings: "Presented in following table",
   both_cities: "Linked by a long-lasting partnership agreement",
 
+  // === INGESTED 2026-06-23 22:52 ===
+  erfurt: "In the German Democratic Republic (East Germany) from 1949 to 1990",
+  the_university_of_erfurt: "A liberal arts university with a reformed and socio-cultural profile",
+  factgrid: "A Wikibase database intended to help historians collaborate in international projects",
+
 };
 
 // ============================================================
