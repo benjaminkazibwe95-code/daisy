@@ -24862,6 +24862,10 @@ const FLAT_DICT = {
   rwandan_english: { definition: "The variety of English spoken in Rwanda", what_it_does: "", examples: "when the letter is between two vowels" },
   a_common_characteristic: { definition: "The pluralisation of uncountable nouns ; words such as 'information', 'advice', 'equipment', and 'software' are often treated as countable (e.g", what_it_does: "", examples: "administration, education, and everyday social life" },
 
+  // === INGESTED 2026-06-23 04:29 ===
+  the_national_team: "Often referred to as Amavubi (The Wasps )",
+  win_draw_loss_fixture_the_following_players: "Called up for the 2026 FIFA Series (men's matches) matches against Grenada and either Kenya or Estonia on 27 and 30 March 2026",
+
 };
 
 // ============================================================
