@@ -28079,6 +28079,15 @@ const FLAT_DICT = {
   marketing_system: "A differentiated subset of social system",
   marketing_systems: "Strongly driven by symbolism",
 
+  // === INGESTED 2026-06-23 15:14 ===
+  her_writings_on_the_russian_revolution: "Later viewed by some as a prescient critique of Stalinism",
+  after_the_uprising: { definition: "Crushed by the Freikorps , a government-sponsored paramilitary group, Luxemburg and her comrade Karl Liebknecht were captured and murdered", what_it_does: "", examples: "national liberation, which it believed would deflect or compromise class consciousness" },
+  their_relationship: { definition: "A complex fusion of personal intimacy and political collaboration, marked by both deep affection and intense intellectual conflict", what_it_does: "", examples: "Julian Marchlewski and Adolf Warszawski" },
+  the_struggle_for_reforms: { definition: "Its means; the social revolution , its aim", what_it_does: "", examples: "Poland, seemed to confirm her revolutionary predictions" },
+  the_prussian_threeclass_franchise: { definition: "A long-standing grievance, and a new government bill that failed to introduce equal suffrage sparked a wave of mass demonstrations and strikes", what_it_does: "", examples: "through republican agitation" },
+  the_fight_for_reforms_was_the: { definition: "Of the class struggle; the social revolution was its aim", what_it_does: "", examples: "the peasantry and artisan classes) and, more importantly, in colonies abroad" },
+  collections_of_her_writings: { definition: "Published by the Socialist Workers Party 's Pathfinder Press and by Monthly Review Press, bringing her work to a new generation of activists", what_it_does: "", examples: "Raya Dunayevskaya, highlighting previously ignored feminist dimensions of her life and thought" },
+
 };
 
 // ============================================================
