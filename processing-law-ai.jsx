@@ -30045,6 +30045,32 @@ const FLAT_DICT = {
   the_kitchen: "Responsible for feeding the staff and officers, as well as the students, travelers and the poor",
   this_funding_or_endowments: "'raised by public subscription, including the gift of various properties, ranging from entire estates to a mill or cottage'",
 
+  // === INGESTED 2026-06-23 22:42 ===
+  his_system: "Successful in producing obedient children with basic literacy and numeracy",
+  that_same_year_the_educator_emily_ronalds: "The first British person to study his approach and Fröbel urged her to transplant his concepts in England",
+  the_first_kindergarten_in_the_united_states: "Founded in Watertown, Wisconsin in 1856 and was conducted in German",
+  preschool_education_in_india: "Not yet officially recognized by the government and is largely run by privately held companies",
+  before_this_law_was_passed_there: "A large number of children who did not attend an Early Childhood Education Program",
+  the_programs_that: { definition: "Offered operated voluntary and required the parents to pay a steep fee per child", what_it_does: "", examples: "count a child who is standing still near a group exercise session as participating" },
+  the_most_important_goal: { definition: "To provide a rich social environment that increasingly isolated nuclear families do not provide; unstructured play time is valued", what_it_does: "", examples: "physical fighting" },
+  most_behavioral_problems: { definition: "Attributed to the child's inappropriately expressed emotional dependency", what_it_does: "", examples: "learning empathy, rather than academic programs" },
+  kids: "Allowed to play with water guns or to make toy swords out of paper",
+  gun_control: { definition: "Extensive, and real firearms are rarely seen in Japan, but playing with toy weapons is acceptable and encouraged", what_it_does: "", examples: "ethnic), social and cognitive needs" },
+  preschools: "Also subject to inspection by local Social Services",
+  nursery_in_england: "Also called FS1 which is the first year of foundation before they go into primary or infants",
+  the_curriculum_goals_of_a_nursery_school: "More specific than for childcare but less strenuous than for primary school",
+  this_year_of_school: "Usually called Reception",
+  now_early_years_education_in_wales: "Provided half-time for children aged 3–4 (Nursery) and full-time for those between the ages of 4 and 5 (Reception)",
+  a_nursery_school: "Allowed to enrol up to 26 children into a class, with the curriculum being delivered by a qualified teacher and a Nursery Assistant",
+  both_nursery_and_preschool_settings: "Inspected by the Education and Training Inspectorate",
+  now_children: "Entitled to a place in a nursery class when they reach their third birthday",
+  nursery_children_who_are_three_years_old: "Referred to as ante-pre-school whilst children who are four years old are termed pre-school",
+  each_child: "Assumed to have particular strengths and weaknesses to be encouraged or ameliorated by the teachers",
+  a_typical_belief: { definition: "That 'children's play is their work' and that by allowing them to select the type of play, the child will meet their developmental needs", what_it_does: "", examples: "the rule of law and the idea that everyone is innocent until proven guilty" },
+  most_programs: "Not subsidized by government, making preschools relatively expensive even though the staff is typically poorly compensated",
+  head_start: "Started by the Federal Government in 1964 to help meet the needs of under-privileged pre-school children",
+  today_it: "A program within the Administration on Children, Youth and Families in the Department of Health and Human Services",
+
 };
 
 // ============================================================
