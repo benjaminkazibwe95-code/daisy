@@ -27752,6 +27752,31 @@ const FLAT_DICT = {
   john_bardeen: "The only laureate to win the prize twice—in 1956 and 1972",
   william_lawrence_bragg: "The youngest Nobel laureate in physics; he won the prize in 1915 at the age of 25",
 
+  // === INGESTED 2026-06-23 14:19 ===
+  a_nanoparticle: "Defined a nano-object with all three external dimensions in the nanoscale, whose longest and the shortest axes do not differ significantly",
+  a_nanocomposite: "A solid containing at least one physically or chemically distinct region or collection of regions, having at least one dimension in the nanoscale",
+  a_nanoporous_material: "A solid material containing nanopores , voids in the form of open or closed pores of sub-micron lengthscales",
+  microporous_materials: { definition: "Porous materials with a mean pore size smaller than 2 nm, while mesoporous materials are those with pores sizes in the region 2–50 nm", what_it_does: "", examples: "separation membranes" },
+  a_common_method_used_to_produce_fullerenes: "To send a large current between two nearby graphite electrodes in an inert atmosphere",
+  the_operating_principles_of_such_devices: { definition: "Governed by photoinduced processes like electron transfer and energy transfer", what_it_does: "", examples: "nanomaterial-based catalysts" },
+  the_change_in_properties: { definition: "Not always desirable", what_it_does: "", examples: "gold nanoparticles appear deep red to black in solution" },
+  sintering: { definition: "Possible at lower temperatures and over shorter durations than for larger particles", what_it_does: "", examples: "nanocomposites , nanocrystalline materials , nanostructured films , and nanotextured surfaces" },
+  this_nanostructure: "A multilayer system of parallel hollow nanochannels located along the surface and having quadrangular cross-section",
+  the_thickness_of_the_channel_walls: "Approximately equal to 1 nm",
+  nanomaterials: "Used in a variety of, manufacturing processes, products and healthcare including paints , filters , insulation and lubricant additives",
+  in_healthcare_nanozymes: { definition: "Nanomaterials with enzyme-like characteristics", what_it_does: "", examples: "biosensing, bioimaging, tumor diagnosis, [ 45 ] antibiofouling and more" },
+  another_application: { definition: "In the military, where mobile pigment nanoparticles have been used to create more effective camouflage", what_it_does: "", examples: "palladium and rhodium" },
+  often_the_methods: "Divided into two main types, 'bottom up' and 'top down'",
+  examples_of_chaotic_processes: "Laser ablation, [ 52 ] exploding wire, arc, flame pyrolysis, combustion, [ 53 ] and precipitation synthesis techniques",
+  a_popular_method: { definition: "Mechanical break apart bulk materials into nanomaterials is 'ball milling'", what_it_does: "", examples: "the de Broglie wavelength of electrons, or the optical wavelengths of high energy photons" },
+  this_characterization: "Imperative because many materials that are expected to be nano-sized are actually aggregated in solutions",
+  some_of_methods: { definition: "Based on light scattering", what_it_does: "", examples: "ultrasound attenuation spectroscopy for testing concentrated nano-dispersions and microemulsions" },
+  computer_simulations: "Also being progressively used to test theories and complement experimental studies",
+  the_most_used_computer_method: "Molecular dynamics simulation, [ 61 ] which uses Newton's equations of motion for the atoms or molecules in the system",
+  other_techniques_such_direct_probe_method: "Used to determine the adhesive properties of nanomaterials",
+  both_the_technique_and_simulation: "Coupled with transmission electron microscope (TEM) and AFM techniques to provide results",
+  silicon_nanoparticles_strength_and_hardness: "Four times more than the value of the bulk material",
+
 };
 
 // ============================================================
