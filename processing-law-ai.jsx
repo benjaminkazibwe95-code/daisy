@@ -28913,6 +28913,26 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 18:20 ===
   trade_associations_and_other_industry_groups: { definition: "Politically influential in the United States , United Kingdom , and other countries, lobbying elected officials, regulators, and other policymakers", what_it_does: "", examples: "pro-business lobbying on trade and other issues" },
 
+  // === INGESTED 2026-06-23 18:22 ===
+  argues_that_harming_the_environment: { definition: "Ethically objectionable", what_it_does: "", examples: "health care and education" },
+  rbv_presumes_that_firms: { definition: "Bundles of heterogeneous resources and capabilities that are imperfectly mobile across firms", what_it_does: "", examples: "Tesco, the largest retailer in the United Kingdom, [ 61 ] leading to the dismissal of the supplier" },
+  although_sometimes_it: { definition: "Not directly undertaken by the companies, they become accountable to the stakeholders", what_it_does: "", examples: "Enron 's yearly 'Corporate Responsibility Annual Report' and tobacco companies' social reports" },
+  nonlocal_actors: { definition: "Likely to experience a much lesser degree of social license than local actors", what_it_does: "", examples: "Deming 's Fourteen Points, balanced scorecards )" },
+  while_csr_benefits: { definition: "Hard to quantify, Orlitzky, Schmidt and Rynes [ 113 ] found a correlation between social/environmental performance and financial performance", what_it_does: "", examples: "the cost of the capital (unlike accounting definitions of profit)" },
+  another_criticism: "About the absence of a standard auditing procedure",
+  several_executives_suggest_that_employees: { definition: "Their most valuable asset and that the ability to retain them leads to organizational success", what_it_does: "", examples: "more favorable job attitudes and increased work performance" },
+  another_activity_done_by_a_lebanese_company: { definition: "A fund-raising campaign", what_it_does: "", examples: "child labour, was equated to a 40% lower fine in the case of bribing foreign officials" },
+  their_political_ideologies: { definition: "Expected to influence their preferences for CSR outcomes", what_it_does: "", examples: "when the company performs well, it will promote CSR" },
+  another_interesting_case_study: "Provided by Hein Schreuder (2022), who discusses the evolution of CSR at the Dutch multinational corporation DSM",
+  one_theory_for_explaining_this_discrepancy: "The 'bystander apathy' or the bystander effect",
+  another_explanation: "That of reciprocal altruism",
+  ethically_sourced_or_manufactured_products: "Typically higher in price due to greater costs",
+  collective_bargaining: "A way nations promote CSR",
+  before_this_law: "Passed, CSR laws were applied only to public sector companies",
+  the_ceres_principles: "Adopted following the 1989 Exxon Valdez incident",
+  magellan_metals: "Found responsible for lead contamination, which killed thousands of birds in Australia",
+  environmental_responsibility: "That a company is perceived to produce environmental-friendly, ecological, and non-harmful products'",
+
 };
 
 // ============================================================
