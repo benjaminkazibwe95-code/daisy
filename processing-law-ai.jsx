@@ -30278,6 +30278,24 @@ const FLAT_DICT = {
   lower_idea_density: "Found to be significantly associated with lower brain weight, higher cerebral atrophy , and more neurofibrillary tangles",
   its_initial_funding: { definition: "Also provided by NIA", what_it_does: "", examples: "for anti-aging" },
 
+  // === INGESTED 2026-06-23 23:24 ===
+  what_are_introspectively_observed: { definition: "Certain collateral products of those histories", what_it_does: "", examples: "therapy, education, and the workplace" },
+  the_idea_that_behavior: "Strengthened or weakened by its consequences raises several questions",
+  shaping: "Skinner's term for the gradual modification of behavior by the reinforcement of desired variations",
+  though_punishment: "Often used to suppress behavior, Skinner argued that this suppression is temporary and has a number of other, often unwanted, consequences",
+  although_noam_chomsky: "Highly critical of Verbal Behavior , he conceded that Skinner's 'S-R psychology' was worth a review",
+  it_was_invented_by_skinner_while_he: { definition: "A graduate student at Harvard University", what_it_does: "", examples: "by the use of the water maze" },
+  keeping_the_child_warm: "A central priority (Faye, 2010)",
+  sheets: "Intended to be used over the canvas and were easily rolled off when soiled",
+  this_crib: "Higher than most standard cribs, allowing easier access to the child without the need to bend over (Faye, 2010)",
+  in_which_all_her_needs: { definition: "Controlled and shaped'", what_it_does: "", examples: "preschool aged to adult) and instructional purposes (e.g., reading and music)" },
+  effective_selfmanagement: { definition: "Attending to stimuli appropriate to a task, avoiding distractions, reducing the opportunity of reward for competing behaviors, and so on", what_it_does: "", examples: "machines encourage students to pay attention before receiving a reward" },
+  the_screen: { definition: "Hinged, which connected the screens to the bomb's guidance system", what_it_does: "", examples: "those based on radar, became available" },
+  the_steps_are_skinner: { definition: "Popularly known mainly for his books Walden Two (1948) and Beyond Freedom and Dignity , (for which he made the cover of Time magazine)", what_it_does: "", examples: "the atomic bomb" },
+  if_the_world: "To save any part of its resources for the future, it must reduce not only consumption but the number of consumers",
+  the_bird_behaves_as_if_there: "A causal relation between its behavior and the presentation of food, although such a relation is lacking",
+  she_recalled_that_she: "Approximately 18 years old at the time",
+
 };
 
 // ============================================================
