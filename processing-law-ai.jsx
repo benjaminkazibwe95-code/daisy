@@ -25091,6 +25091,11 @@ const FLAT_DICT = {
   the_music_of_italian_composer_giacinto_scelsi: "Essentially drone-based",
   other_composers_whose_music: "Entirely based on drones include Charlemagne Palestine and Phill Niblock",
 
+  // === INGESTED 2026-06-23 05:11 ===
+  the_exercise: "Expected to last until 28 September 2011",
+  the_unregistered_cards: "Considered a threat to Nigerian national security",
+  mtn_nigeria_and_airtel_nigeria: "The only mobile network operators that have launched 5G services in Nigeria",
+
 };
 
 // ============================================================
