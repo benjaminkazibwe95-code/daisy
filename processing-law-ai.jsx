@@ -27064,6 +27064,12 @@ const FLAT_DICT = {
   an_example_application: { definition: "LAN messaging which allows users to communicate without a central server", what_it_does: "", examples: "digital content sharing, scientific computation, gaming, and collaborative work environments" },
   napster: "Found in violation of copyright laws by distributing unlicensed software , and was shut down",
 
+  // === INGESTED 2026-06-23 11:18 ===
+  a_digital_asset: "Anything that exists only in digital form and comes with a distinct usage right or distinct permission for use",
+  data_that_do_not_possess_those_rights: { definition: "Not considered assets", what_it_does: "", examples: "smartphones, serving as conduits for digital media" },
+  the_more_metadata: "Assigned to an asset the easier it gets to categorize it, especially as the amount of information grows",
+  still: "Not required to give access",
+
 };
 
 // ============================================================
