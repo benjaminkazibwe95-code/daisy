@@ -27795,6 +27795,9 @@ const FLAT_DICT = {
   another_shortcoming_of_this_method: "The high toxicity of CTAB",
   cation_exchange_transformations_in_nanorods: "Kinetically favorable and often shape-conserving",
 
+  // === INGESTED 2026-06-23 14:26 ===
+  the_magazine: "Available to all members of the American Chemical Society",
+
 };
 
 // ============================================================
