@@ -24750,6 +24750,18 @@ const FLAT_DICT = {
   turkana_county_residents: "Also enjoying the fruits of devolution",
   devolution_of_power_in_kenya: "Viewed as a blessing for the forgotten people of Turkana",
 
+  // === INGESTED 2026-06-23 04:00 ===
+  plantations: "Developed to grow spices; hence, the moniker of the Spice Islands (a name also used for the Dutch colony the Moluccas , now part of Indonesia )",
+  another_major_trade_good: "Ivory , the tusks of elephants that were killed on the Tanganyika mainland",
+  the_third_pillar_of_the_economy: { definition: "Slaves, which gave the Zanzibar slave trade an important place in the Indian Ocean slave trade", what_it_does: "", examples: "glass beads made in territories around the Indian Ocean" },
+  all_the_blacks_living_on_the_island: "Bantu people taken from the mainland",
+  the_slaves: "Brought to Zanzibar in dhows, where as many as possible were packed in with no regard for comfort or safety",
+  conditions_on_the_plantations: { definition: "So harsh that about 30% of the male slaves died every year, thus maintaining the demand for more slaves", what_it_does: "", examples: "Mombasa and Dar es Salaam , and several offshore Indian Ocean islands" },
+  a_cease_fire: "Declared 45 minutes after the action had begun, giving the bombardment the title of The Shortest War in History",
+  hamoud: "Declared the new ruler and peace was restored once more",
+  sheikh_abeid_amani_karume: { definition: "Named president of the newly created People's Republic of Zanzibar", what_it_does: "", examples: "became an almost entirely African organisation, and land was redistributed from Arabs to Africans" },
+  the_autonomous_status_of_zanzibar: { definition: "Viewed as comparable to Hong Kong as suggested by some scholars, and being recognized as the 'African Hong Kong'", what_it_does: "", examples: "the United States" },
+
 };
 
 // ============================================================
