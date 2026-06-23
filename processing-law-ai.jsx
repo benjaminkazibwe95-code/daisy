@@ -24210,6 +24210,26 @@ const FLAT_DICT = {
   an_nhs_constitution: "Published which lays out the legal rights of patients as well as promises (not legally enforceable) the NHS strives to keep in England",
   numerous_healthcare_reforms_in_germany: { definition: "Legislative interventions to stabilise the public health insurance since 1983", what_it_does: "", examples: "its industry and all services, is one of the largest sectors of the German economy" },
 
+  // === INGESTED 2026-06-23 02:20 ===
+  it_roughly_corresponds_with_what: "Historically referred to in Western Europe as the Near East , which was juxtaposed with the Far East",
+  arabs: { definition: "The most widespread ethnic group in the region , [ 5 ] followed by Turks , Persians , Kurds , Jews , and Assyrians", what_it_does: "", examples: "the Nile in Egypt, the Tigris and the Euphrates in Mesopotamia, and the Jordan River in the Levant" },
+  mideast: "Also acceptable, but Middle East is preferred",
+  since_these: "Based on a relative description, the meanings depend on the country and are generally different from the English terms",
+  various_concepts: { definition: "Often paralleled to the Middle East, most notably the Near East , Fertile Crescent , and Levant", what_it_does: "", examples: "Europe, the Indus Valley and Eastern Africa" },
+  the_middle_east: "Very diverse when it comes to religions , many of which originated there",
+  besides_the_political_reasons_there: { definition: "Also the 'ideological conflict' between the two systems", what_it_does: "", examples: "low rainfall, high temperatures and dry soil" },
+  law_and_policy: { definition: "Also being established on a national level amongst MENA countries, with a focus on the development of renewable energies", what_it_does: "", examples: "Gaza Strip and Yemen) to extremely wealthy nations (such as Qatar and the United Arab Emirates)" },
+  among_other_migrant_populations: { definition: "Chinese , Filipinos , Indians , Indonesians , Pakistanis , Pashtuns , Romani , and Afro-Arabs", what_it_does: "", examples: "Turkey , Israel , and Iran are also subject to important migration dynamics" },
+  arabic_dialects: { definition: "Also spoken in some adjacent areas in neighbouring Middle Eastern non-Arab countries", what_it_does: "", examples: "Mehri and Soqotri are also spoken in Yemen and Oman" },
+  another_semitic_language: "Aramaic and its dialects are spoken mainly by Assyrians and Mandaeans , with Western Aramaic still spoken in two villages near Damascus, Syria",
+  persian: "The second most spoken language",
+  hebrew: "Spoken and used by over 80% of Israel's population, the other 20% using Arabic",
+  greek: "One of the two official languages of Cyprus , and the country's main language",
+  armenian_speakers: "To be found in the region",
+  georgian: "Spoken by the Georgian diaspora",
+  russian: "Spoken by a large portion of the Israeli population, because of emigration in the late 1990s",
+  circassian: "Also spoken by the diaspora in the region and by almost all Circassians in Israel who speak Hebrew and English as well",
+
 };
 
 // ============================================================
