@@ -27686,6 +27686,21 @@ const FLAT_DICT = {
   this_liquid_is_omniphobic_which: "That it repels all the materials and will not stick to anything",
   these_smaller_parts: "Mounted onto the main structure",
 
+  // === INGESTED 2026-06-23 14:07 ===
+  instructions: "Delivered to a CNC machine in the form of a sequential program of machine control instructions such as G-code and M-code, and then executed",
+  positioning_control: "Handled using either an open-loop or a closed-loop system",
+  openloop_systems: "Generally cheaper but less accurate",
+  openloop_control_works_as_long_as_the_forces: "Kept small enough and speeds are not too great",
+  absolute_coordinates_are_what: "Generally used more commonly for machines and represent the (0,0,0) point on the plane",
+  most_new_cnc_systems_built_today: "100% electronically controlled",
+  cnclike_systems: "Used for any process that can be described as movements and operations",
+  if_the_drive_system: "Weaker than the machine's structural integrity, then the drive system simply pushes against the obstruction, and the drive motors 'slip in place'",
+  it_is_often_assumed_the_stepper: "Perfectly accurate and never missteps, so tool position monitoring simply involves counting the number of pulses sent to the stepper over time",
+  an_alternate: "Of stepper position monitoring is usually not available, so crash or slip detection is not possible",
+  although_such_simulation: { definition: "Not new, its accuracy and market penetration are changing considerably because of computing advancements", what_it_does: "", examples: "the milling of a circle, where axis motion is sinusoidal" },
+  the_format_for_a_gcode: { definition: "The letter G followed by two to three digits; for example G01", what_it_does: "", examples: "[Code Miscellaneous Functions (M-Code)] [ citation needed ]" },
+  mcodes: "Miscellaneous machine commands that do not command axis motion",
+
 };
 
 // ============================================================
