@@ -25782,6 +25782,18 @@ const FLAT_DICT = {
   colonial_architectural_influences: "Most evident in major cities such as Yangon",
   burmese_cuisine: "Characterised by extensive use of fish products such as fish sauce , ngapi (fermented seafood), and dried prawns",
 
+  // === INGESTED 2026-06-23 07:25 ===
+  a_document: { definition: "A written , drawn , presented, or memorialized representation of thought, often the manifestation of non-fictional , as well as fictional , content", what_it_does: "", examples: "fonts , colors, and images" },
+  documents: "Used in numerous fields, e.g.: Such standard documents can be drafted based on a template",
+  the_classic_example_provided_by_briet: "An antelope : 'An antelope running wild on the plains of Africa should not be considered a document[;] she rules",
+  but_if_it: "To be captured, taken to a zoo and made an object of study, it has been made into a document",
+  when_a_document: "Copied , the source is denominated the ' original '",
+  the_page_layout_of_a_document: "How information is graphically arranged in the space of the document, e.g., on a page",
+  if_the_appearance_of_the_document: { definition: "Of concern, the page layout is generally the responsibility of a graphic designer", what_it_does: "", examples: "a printing press or laser printer )" },
+  the_papyrus_or_parchment: "Often rolled into a scroll or cut into sheets and bound into a codex (book)",
+  contemporary_electronic: "Of memorializing and displaying documents include: Digital documents usually require a specific file format to be presentable in a specific medium",
+  the_forensic_analysis_of_such_a_document: "Within the scope of questioned document examination",
+
 };
 
 // ============================================================
