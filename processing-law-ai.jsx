@@ -26491,6 +26491,13 @@ const FLAT_DICT = {
   ktru_rice_radio: "The student-run radio station",
   one_such_show: "Held in fall and another in spring, usually during a weekend allocated for visits by prospective students",
 
+  // === INGESTED 2026-06-23 09:17 ===
+  dmaic: "A data-driven quality strategy used to improve processes",
+  in_mechanical_terms_this: "The operation of a product until it fails, often under stresses such as increasing vibration , temperature, and humidity",
+  statistical_control: "Based on analyses of objective and subjective data",
+  product_quality_data: "Statistically charted to distinguish between common cause variation or special cause variation",
+  quality_assurance: { definition: "Seen as one part of product assurance", what_it_does: "", examples: "ensuring conformance to one or more standards, e.g" },
+
 };
 
 // ============================================================
