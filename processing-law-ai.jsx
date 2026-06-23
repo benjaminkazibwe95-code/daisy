@@ -24762,6 +24762,10 @@ const FLAT_DICT = {
   sheikh_abeid_amani_karume: { definition: "Named president of the newly created People's Republic of Zanzibar", what_it_does: "", examples: "became an almost entirely African organisation, and land was redistributed from Arabs to Africans" },
   the_autonomous_status_of_zanzibar: { definition: "Viewed as comparable to Hong Kong as suggested by some scholars, and being recognized as the 'African Hong Kong'", what_it_does: "", examples: "the United States" },
 
+  // === INGESTED 2026-06-23 04:02 ===
+  female_babies: "Given a title, based on gender, instantly subjecting them to their social identity",
+  the_logic_behind_this_tradition: { definition: "That the female rite of passage is motherhood, therefore women must stay close to their household to avoid polluted climates and remain fertile", what_it_does: "", examples: "sexual assault (usually at the hands of their spouse)" },
+
 };
 
 // ============================================================
