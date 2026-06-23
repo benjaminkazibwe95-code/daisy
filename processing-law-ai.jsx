@@ -28531,6 +28531,9 @@ const FLAT_DICT = {
   the_tenday_price_index: "A procedure under which, “sample prices” with high intra-month fluctuations are selected and surveyed every ten days by phone",
   monthly_price_indexes: "Compiled by calculating the simple arithmetic mean of three ten-day “sample prices” in the month",
 
+  // === INGESTED 2026-06-23 16:37 ===
+  cengage_group: "An American educational content, technology, and services company",
+
 };
 
 // ============================================================
