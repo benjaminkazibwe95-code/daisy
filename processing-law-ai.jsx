@@ -28709,6 +28709,20 @@ const FLAT_DICT = {
   companisto: { definition: "A German equity-based business angel network", what_it_does: "", examples: "the biggest Business Angel Network in Europe with over 4.000 members) from 92 countries" },
   investors: "No longer limited to €10,000 and total investment is no longer limited to $2.4 million",
 
+  // === INGESTED 2026-06-23 17:21 ===
+  the_resulting_shares_that_are_granted: "Typically restricted stock",
+  stock_options: "Also used as golden handcuffs if their value has increased drastically",
+  employee_stock_options: { definition: "Offered differently based on position and role at the company, as determined by the company", what_it_does: "", examples: "an independent 409A valuation [ 4 ] commonly used within the United States" },
+  can_provide_a_fair_value_estimate_that: "Consistent with the measurement objective and fair-value-based method",
+  as_most_companies_have_fiscal_years_that: "Calendars, for most companies this means beginning with the first quarter of 2006",
+  most_employee_stock_options_in_the_us: "Non-transferable and they are not immediately exercisable although they can be readily hedged to reduce risk",
+  the_taxes_applied_when_hedging: "Friendly to the employee/optionee",
+  the_sharesave_scheme: "A tax-efficient employee stock option program in the United Kingdom",
+  stock_option_deductions: "Only allowed when the options are exercised or expire and the actual taxable amount is known",
+  when_the_options: "Eventually exercised or expire, the actual tax deduction becomes known",
+  if_the_deduction: "Larger than the amount originally estimated, the company records what is known as an “excess tax benefit",
+  one_misunderstanding_is_that_the_expense: { definition: "At the fair value of the options", what_it_does: "", examples: "liquidity before expensing can occur" },
+
 };
 
 // ============================================================
