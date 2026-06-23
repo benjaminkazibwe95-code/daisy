@@ -29221,6 +29221,16 @@ const FLAT_DICT = {
   us_mutual_funds: "To compute average annual total return as prescribed by the U.S",
   since_the_market_price_of_a_mutual_fund_share: "Based on net asset value, a capital gain distribution is offset by an equal decrease in mutual fund share value/price",
 
+  // === INGESTED 2026-06-23 19:17 ===
+  the_essential_characteristic_of_control: "The ability to benefit from the asset and prevent other entities from doing likewise",
+  the_accounting_equation: "The mathematical structure of the balance sheet",
+  current_assets: { definition: "Generally subclassified as cash and cash equivalents, receivables, inventory, and accruals (such as pre-paid expenses)", what_it_does: "", examples: "goodwill) and other assets (such as resources or biological assets)" },
+  these_assets: "(according to US GAAP) amortized to expense over 5 to 40 years with the exception of goodwill",
+  longterm_investments: { definition: "To be held for many years and are not intended to be disposed of in the near future", what_it_does: "", examples: "timberland and minerals )" },
+  accumulated_depreciation: "Shown in the face of the balance sheet or in the notes",
+  this_process_of_depreciation: "Used instead of allocating the entire expense to one year",
+  a_wasting_asset: "An asset that irreversibly declines in value over time",
+
 };
 
 // ============================================================
