@@ -24323,6 +24323,9 @@ const FLAT_DICT = {
   metallic_gold: { definition: "Approved as a food additive in the EU ( E175 in the Codex Alimentarius )", what_it_does: "", examples: "gold chloride are toxic to the liver and kidneys" },
   gold_metal: { definition: "Voted Allergen of the Year in 2001 by the American Contact Dermatitis Society; gold contact allergies affect mostly women", what_it_does: "", examples: "gold, silver, copper, iron and zinc" },
 
+  // === INGESTED 2026-06-23 02:32 ===
+  zoblazo: "A musical style from Abidjan , Côte d'Ivoire , created in the early 1990s",
+
 };
 
 // ============================================================
