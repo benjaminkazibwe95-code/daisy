@@ -25026,6 +25026,10 @@ const FLAT_DICT = {
   they_concluded_that_ethnologue: "'truly excellent, highly valuable, and the very best book of its sort available",
   the_main_difference: { definition: "That Ethnologue includes additional information (such as speaker numbers or vitality) but lacks systematic sources for the information given", what_it_does: "", examples: "speaker numbers and map location'" },
 
+  // === INGESTED 2026-06-23 04:58 ===
+  wileyblackwell: { definition: "An international scientific, technical, medical, and scholarly publishing business of John Wiley & Sons", what_it_does: "", examples: "biology , medicine , physical sciences , technology , social science , and the humanities" },
+  blackwell_publishing: "Merged into Wiley's Global Scientific, Technical, and Medical business to create Wiley-Blackwell",
+
 };
 
 // ============================================================
