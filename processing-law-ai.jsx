@@ -26703,6 +26703,15 @@ const FLAT_DICT = {
   spreadsheets: "A popular end-user development tool",
   since_spreadsheet_cell_formulas: { definition: "Not generally invertible, though, this technique is of somewhat limited value", what_it_does: "", examples: "out of date exchange rates )" },
 
+  // === INGESTED 2026-06-23 09:57 ===
+  if_the_changes: "The result of unauthorized access, it may also be a failure of data security",
+  physical_integrity_deals_with_challenges_which: { definition: "Associated with correctly storing and fetching the data itself", what_it_does: "", examples: "ionizing radiation , extreme temperatures, pressures and g-forces" },
+  humaninduced_data_integrity_errors: "Often detected through the use of simpler checks and algorithms, such as the Damm algorithm or Luhn algorithm",
+  this_type_of_integrity: { definition: "Concerned with the correctness or rationality of a piece of data, given a particular context", what_it_does: "", examples: "check constraints , foreign key constraints , program assertions , and other run-time sanity checks" },
+  rules_for_data_derivation: "Also applicable, specifying how a data value is derived based on algorithm, contributors and conditions",
+  three_types_of_integrity_constraints: "An inherent part of the relational data model: entity integrity, referential integrity and domain integrity",
+  an_example_of_a_dataintegrity_mechanism: "The parent-and-child relationship of related records",
+
 };
 
 // ============================================================
