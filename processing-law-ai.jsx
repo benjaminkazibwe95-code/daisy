@@ -25968,6 +25968,28 @@ const FLAT_DICT = {
   the_first_public_use_of_javascript: "In 1995, when the language was implemented in Netscape Navigator 2 , standardized as ECMAScript two years later",
   the_server_returns_the_requested_data_which: "Then processed by a client-side script",
 
+  // === INGESTED 2026-06-23 08:00 ===
+  the_rotor: "Constrained to spin about an axis, which is always perpendicular to the axis of the inner gimbal",
+  an_example_of_some_freeoutputgimbal_devices: { definition: "The attitude control gyroscopes used to sense or measure the pitch, roll and yaw attitude angles in a spacecraft or aircraft", what_it_does: "", examples: "the spinning rotor may be suspended in a fluid, instead of being mounted in gimbals" },
+  tops: "Invented in many different civilizations, including classical Greece, Rome, and China",
+  johnson_developed_a_similar_device_that: "Based on a rotating disc",
+  the_first_functional_gyrocompass: "Patented in 1904 by German inventor Hermann Anschütz-Kaempfe",
+  manufacture: "At some point switched to Chandler Mfg Co (still branded Hurst)",
+  the_product: "Later renamed to a 'Chandler gyroscope', presumably because Chandler Mfg Co",
+  the_gyroscope: "Still produced by TEDCO today",
+  similar_principles: { definition: "Later employed in the development of inertial navigation systems for ballistic missiles", what_it_does: "", examples: "the axle bearings have to be extremely accurate" },
+  a_small_amount_of_friction: { definition: "Deliberately introduced to the bearings, since otherwise an accuracy of better than 10 − 7 {\displaystyle 10^{-7}} of an inch (2", what_it_does: "", examples: "tablets , [ 25 ] smartphones , [ 26 ] and smartwatches" },
+  rigidity_in_space: { definition: "The principle that a gyroscope remains in the fixed position on the plane in which it is spinning, unaffected by the Earth's rotation", what_it_does: "", examples: "with a rotating bike wheel" },
+  precession: "Used in aerospace applications for sensing changes of attitude and direction",
+  the_simplest_accelerometer_is_a_weight_that: "Free to move horizontally, which is attached to a spring and a device to measure the tension in the spring",
+  this_kind_of_gyroscope: "First used in military applications but has since been adopted for increasing commercial use",
+  gyroscopic_effect: "Obtained from the inertial property of the flexural standing waves",
+  the_material_of_the_block: "Also changed from quartz to a new glass ceramic Cer-Vit , made by Owens Corning , because of helium leaks",
+  the_flywheel: "Rotated by hydraulic pumps creating a gyroscopic effect on the vehicle",
+  a_precessional_ram: "Responsible for rotating the gyroscope to change the direction of the precessional force to counteract any forces causing the vehicle imbalance",
+  the_oneofakind_prototype: "Now at the Lane Motor Museum in Nashville, Tennessee",
+  gyroscopes_in_consumer_electronics: { definition: "Frequently combined with accelerometers for more robust direction- and motion-sensing", what_it_does: "", examples: "the Oculus Rift" },
+
 };
 
 // ============================================================
