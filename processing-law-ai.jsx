@@ -27867,6 +27867,9 @@ const FLAT_DICT = {
   testing_asymptomatic_children_who: "At risk of childhood onset conditions can also be warranted",
   results_for_prenatal_testing: "Usually available more quickly because time is an important consideration in making decisions about a pregnancy",
 
+  // === INGESTED 2026-06-23 14:40 ===
+  biotechnology_industry_is_that_it: "A homegrown success story that has been an engine of job creation in this country",
+
 };
 
 // ============================================================
