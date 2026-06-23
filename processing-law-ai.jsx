@@ -30021,6 +30021,10 @@ const FLAT_DICT = {
   improving_populationwide_literacy: { definition: "The focus of education in the early years of the PRC", what_it_does: "", examples: "new democracy" },
   imam_hu_songshan_and_ma_linyi: { definition: "Involved in reforming Islamic education inside China", what_it_does: "", examples: "Cai Yuanpei , started bringing female education in the 1920s" },
 
+  // === INGESTED 2026-06-23 22:33 ===
+  an_extrinsic_property: { definition: "Not essential or inherent to the subject that is being characterized", what_it_does: "", examples: "one large piece or a collection of small particles" },
+  intrinsic_properties: { definition: "Dependent mainly on the fundamental chemical composition and structure of the material", what_it_does: "", examples: "an autoimmune disease or intrinsic immunity" },
+
 };
 
 // ============================================================
