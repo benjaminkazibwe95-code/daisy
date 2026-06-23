@@ -26276,6 +26276,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 08:40 ===
   a_cloud_broker: "An entity that manages the use, performance and delivery of cloud services and negotiates relationships between cloud providers and cloud consumers",
 
+  // === INGESTED 2026-06-23 08:42 ===
+  a_common_misconception_is_that_iso: "An abbreviation for 'International Standardization Organization' or a similar title in another language",
+  iso: "An engineering old boys club and these things are boring so you have to have a lot of passion ",
+  when_the_scope_of_a_new_work: "Sufficiently clarified, some of the working groups may make an open request for proposals—known as a 'call for proposals'",
+  the_first_document_that: "Produced, for example, for audio and video coding standards is called a verification model (VM) (previously also called a 'simulation and test model')",
+  a_document_in_the_dis_stage: "Available to the public for purchase and may be referred to with its ISO DIS reference number",
+
 };
 
 // ============================================================
