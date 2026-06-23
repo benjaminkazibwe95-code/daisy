@@ -28594,6 +28594,9 @@ const FLAT_DICT = {
   what_i_tried_to_leave_my_students_with: "The view that the invisible hand is more powerful than the [un]hidden hand",
   monetary_policy_and_mounting_regulation: "Argued to have undermined the innovative forces of the market economies",
 
+  // === INGESTED 2026-06-23 16:54 ===
+  although_fame_and_success: "Widely sought by many people, successful people are often displeased by their status",
+
 };
 
 // ============================================================
