@@ -25138,6 +25138,11 @@ const FLAT_DICT = {
   the_jewish_population_of_europe: "Composed primarily of two groups , the Ashkenazi and the Sephardi",
   jewish_history: "Notably affected by the Holocaust and emigration (including Aliyah , as well as emigration to America ) in the 20th century",
 
+  // === INGESTED 2026-06-23 05:28 ===
+  tinubu: "Announced winner of the disputed 2023 Nigerian presidential election on 1 March, after a tight race",
+  vice_president_kashim_shettima: "Sworn in at 10:30 am, and President Tinubu was sworn in at 10:41 am A luncheon will be held at the State House Banquet Hall at 1:30 pm",
+  in_attendance: "Former Nigerian heads of state General Yakubu Gowon , and President Goodluck Jonathan",
+
 };
 
 // ============================================================
