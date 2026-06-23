@@ -29940,6 +29940,29 @@ const FLAT_DICT = {
   all_schools_which: "Provided for by the state, including privately run and fee-paying secondary schools, teach the national curriculum",
   all_students: "Expected to take the standardised Junior Certificate examination after three years",
 
+  // === INGESTED 2026-06-23 22:17 ===
+  it_was_while_he: "Helping to mark some of these tests that Piaget noticed that young children consistently gave wrong answers to certain questions",
+  piaget: "Convinced he had found a way to analyze and access a child's thoughts about the world in a very effective way (Mayer, 2005)",
+  the_children: { definition: "Assimilating the objects to conform to their own mental structures", what_it_does: "", examples: "sucking, but not long after, they would pick up objects and put them in their mouths" },
+  because_the_two: "Often in conflict, they provide the impetus for intellectual development—the constant need to balance the two triggers intellectual growth",
+  during_the_sensorimotor_stage_children: "Extremely egocentric, meaning they cannot perceive the world from others' viewpoints",
+  such_play: "Demonstrated by the idea of checkers being snacks, pieces of paper being plates, and a box being a table",
+  the_child: "Able to form stable concepts as well as magical beliefs, but not perform operations, which are mental tasks, rather than physical",
+  thinking_in_this_stage: "Still egocentric, meaning the child has difficulty seeing the viewpoint of others",
+  the_preoperational_stage: "Split into two substages: the symbolic function substage, and the intuitive thought substage",
+  the_symbolic_function_substage: "When children are able to understand, represent, remember, and picture objects in their mind without having the object in front of them",
+  the_intuitive_thought_substage: "When children tend to propose the questions of 'why?' and 'how come?' This stage is when children want the knowledge of knowing everything",
+  abstract_thought: "Newly present during this stage of development",
+  a_function_therefore: { definition: "A unique mapping in one direction, or, as Piaget and his colleagues have written, functions are 'univocal to the right' (Piaget et al., 1977, p", what_it_does: "", examples: "could use the length of an array to index the number of objects in the array" },
+  older_children: "Able to do more by figuring out how to make entire card appear to be red by using three cutouts",
+  if_sugar: { definition: "Mixed into water or iced tea, then the sugar 'disappeared' and therefore does not exist to the child at that stage", what_it_does: "", examples: "'birds', 'fish', and so on" },
+  this_is_significant_because_they: { definition: "Now able to know things about a new animal simply on the basis of the fact that it is a bird – for example, that it will lay eggs", what_it_does: "", examples: "'right', 'valid', 'necessary', 'proper', and so on" },
+  initially_younger_children: "Not studied, because if at four years old a child could not conserve quantity , then a younger child presumably could not either",
+  the_purpose_of_using_such_method: "To examine the unconscious mind, as well as to continue parallel studies using different research methods",
+  the_purpose_of_this_study: "To examine how children verbalize and understand each other without adult intervention",
+  an_example_of_a_student_using_reversibility: { definition: "When learning new vocabulary", what_it_does: "", examples: "theory and practice, leading to a more 'child-centered' approach" },
+  here_the_knowledge_that_emerges: { definition: "Open, flexible and regulated by the logic of argument rather than being determined by an external authority", what_it_does: "", examples: "Neo-Piagetian stages have been applied to the maximum stage attained by various animals" },
+
 };
 
 // ============================================================
