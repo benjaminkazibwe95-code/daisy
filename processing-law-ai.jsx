@@ -25290,6 +25290,12 @@ const FLAT_DICT = {
   a_final_barrier_faced_by_schools_that: { definition: "Worth mentioning is the same as stated in the paragraph above – lack of a solid infrastructure and internet access", what_it_does: "", examples: "electricity, Internet, software, and hardware devices), teacher capacity, and financial resources" },
   the_locally_dismal_performance: "Ascribed to uncommitted teachers, proximity of schools to taverns, inactive governing bodies and the apartheid legacy",
 
+  // === INGESTED 2026-06-23 05:59 ===
+  one_such_criterion: "The income per capita; countries with the high gross domestic product (GDP) per capita would thus be described as developed countries",
+  another_economic_criterion: { definition: "Industrialisation ; countries in which the tertiary and quaternary sectors of industry dominate would thus be described as developed", what_it_does: "", examples: "the net wealth per capita or the relative quality of goods in a country" },
+  the_first_industrialized_country: "The United Kingdom , followed by Belgium",
+  the_un_hdi: "A statistical measure that gauges an economy's level of human development",
+
 };
 
 // ============================================================
