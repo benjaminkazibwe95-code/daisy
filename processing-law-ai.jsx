@@ -25244,6 +25244,27 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 05:51 ===
   klug: "Associated with the university and the town of Be'er Sheva , having visited them numerous times",
 
+  // === INGESTED 2026-06-23 05:55 ===
+  chapter_vi_missions: "Consent-based; therefore they require the consent of the belligerent factions involved in order to operate",
+  if_consent: "Lost at any point, Chapter VII missions would not be required to withdraw",
+  their_definitions: "As follows: Peacekeeping also means working together with NGOs with a view to protecting cultural property",
+  an_outstanding_mission: "The deployment of the UN peace mission UNIFIL together with Blue Shield International in 2019 to protect the UNESCO World Heritage in Lebanon",
+  weiss_and_giovanna_kuele_argue_that_this: { definition: "Due to three factors: regional interests, prestige, and financial benefits", what_it_does: "", examples: "armed groups and private security contractors, be held accountable for crimes against women" },
+  the_majority_of_these_allegations: "In regards to sex with person under the age of 18 years (45 percent) and sex with adult prostitutes (31 percent)",
+  cholera: "A waterborne disease that causes diarrhoea and vomiting, and it can kill in a matter of hours if patients do not receive rehydration intervention",
+  because_un_forces: "Cobbled together from so many different sources, there is a discrepancy in capabilities, training, equipment, standards and procedures",
+  its_soldiers: "Provided with the training required to acquaint them with the cultural, political and social situation of the people among whom they worked",
+  sovereignty_was_not_to_be_violated_and_this: { definition: "A system which benefited both superpowers, their allies, as well as third world governments", what_it_does: "", examples: "Tanzania (host of the process), Burundi , Uganda and Zaire" },
+  neither_belligerent: "Willing to concede or compromise on their demands, despite multiple attempts at a negotiated settlement",
+  in_the_aftermath_the_ruf: "A depleted threat, civilians were able to return from refugee camps and begin rebuilding their lives",
+  but_the_peace: "Fragile and negotiations were ongoing",
+  the_ruf: "Reluctant to put down their arms, concerned over potential retribution at the hands of army units and civilian militias alike",
+  it_also_meant_that_sankoh: "Dictating terms.' This consent-based approach effectively allowed the leadership of a brutal rebel group to hinder the potential for peace",
+  things: "Further inflamed when disaffected officers of the army overthrew the government in 1997",
+  a_small_un_force_of_monitors: "Deployed to observe the security situation",
+  from_the_outset_the_ruf: "Beyond uncooperative and once the ECOMOG contingent withdrew, the RUF attacked UN forces, eventually taking hundreds hostage",
+  thus_the_abuja_agreements: { definition: "Signed and UNAMSIL fulfilled its mandate in December 2005", what_it_does: "", examples: "in Bosnia, Somalia, and Sierra Leone" },
+
 };
 
 // ============================================================
