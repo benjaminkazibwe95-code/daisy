@@ -28656,6 +28656,15 @@ const FLAT_DICT = {
   both_sorts_of_studies: "Proper and important",
   a_more_recent_work: "Daron Acemoglu and James A",
 
+  // === INGESTED 2026-06-23 17:05 ===
+  by_the_end_of_his_tenure_ge: { definition: "The most valuable company in the world", what_it_does: "", examples: "at companies such as Amazon" },
+  one_of_his_primary_leadership_directives: "That GE had to be No",
+  welch: { definition: "Also known for abolishing the nine-layer management hierarchy", what_it_does: "", examples: "an apartment in New York, baseball tickets and the use of a private jet and chauffeured car" },
+  the_column: "Syndicated by The New York Times",
+  his_investment_in_the_university: "Also reflected in his interest in the institute's Net Promoter score (NPS)",
+  beasley_informed_the_review_and_wetlaufer: "Forced to resign in early 2002 after admitting to the affair with Welch while preparing an interview with him for the magazine",
+  shareholder_value: { definition: "A result, not a strategy...your main constituencies are your employees, your customers and your products", what_it_does: "", examples: "the fact that the employee had not worked at the Bureau since 2011" },
+
 };
 
 // ============================================================
