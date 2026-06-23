@@ -29821,6 +29821,36 @@ const FLAT_DICT = {
   the_records_created_as_the_scheme: "Being wound down were scanned by a subsidiary of the National Archives",
   this_last_describes_whether_the_borrower: "Still resident in the townland, and if so whether they are desperate, poor or comfortable, or where they moved or emigrated to, or their date of death",
 
+  // === INGESTED 2026-06-23 21:52 ===
+  money_is_any_item_or_verifiable_record_that: "Generally accepted as payment for goods and services and repayment of debts , such as taxes , in a particular country or socio-economic context",
+  the_latin_word: "Believed to originate from a temple of Juno , on Capitoline , one of Rome's seven hills",
+  the_temple_of_juno_moneta_at_rome: "The place where the mint of Ancient Rome was located",
+  the_mesopotamian_shekel: "A unit of weight, and relied on the mass of something like 160 grains of barley",
+  paper_money_or_banknotes: { definition: "First used in China during the Song dynasty", what_it_does: "", examples: "Marco Polo and William of Rubruck" },
+  these_gold_standard_notes: "Made legal tender , and redemption into gold coins was discouraged",
+  dollar: "In turn fixed to gold",
+  when_money: { definition: "Used to intermediate the exchange of goods and services, it is performing a function as a medium of exchange", what_it_does: "", examples: "the inability to permanently ensure ' coincidence of wants '" },
+  while_standard_of_deferred_payment: "Distinguished by some texts, [ 23 ] particularly older ones, other texts subsume this under other functions",
+  these_financial_instruments_together: "Collectively referred to as the money supply of an economy",
+  money_is_the_most_liquid_asset_because_it: "Universally recognized and accepted as a common currency",
+  liquid_financial_instruments: { definition: "Easily tradable and have low transaction costs", what_it_does: "", examples: "naturally scarce precious metals , conch shells , barley , beads, etc" },
+  these_items: "Sometimes used in a metric of perceived value in conjunction with one another, in various commodity valuation or price system economies",
+  the_use_of_commodity_money: "Similar to barter, but a commodity money provides a simple and automatic unit of account for the commodity which is being used as money",
+  the_rationale_for_this_is_that_emphasis: { definition: "Laid on their direct link to the prevailing value of their fine gold content", what_it_does: "", examples: "gold or silver" },
+  gold_coins: "Used for large purchases, payment of the military, and backing of state activities",
+  this_economic_phenomenon: "A slow and gradual process that took place from the late Tang dynasty (618–907) into the Song dynasty (960–1279)",
+  sweden: "Rich in copper, thus, because of copper's low value, extraordinarily big coins (often weighing several kilograms) had to be made",
+  the_printing_of_paper_money: "Also associated with wars, and financing of wars, and therefore regarded as part of maintaining a standing army",
+  at_this_time_both_silver_and_gold: { definition: "Considered legal tender , and accepted by governments for taxes", what_it_does: "", examples: "the United States greenback , to pay for military expenditures" },
+  commercial_bank_money_or_demand_deposits: "Claims against financial institutions that can be used for the purchase of goods and services",
+  a_demand_deposit_account: { definition: "An account from which funds can be withdrawn at any time by check or cash withdrawal without giving the bank or financial institution any prior notice", what_it_does: "", examples: "Ecash , bit gold , RPOW , and b-money" },
+  modernday_monetary_systems: "Based on fiat money and are no longer tied to the value of gold",
+  the_amount_of_money_in_the_economy: "Influenced by monetary policy , which is the process by which a central bank influences the economy to achieve specific goals",
+  both_problems: { definition: "Due to unpredictable shifts in the demand for money", what_it_does: "", examples: "requiring it for taxes and punishing fraud" },
+  foreign_currency: { definition: "Commonly bought or sold on foreign exchange markets by travelers and traders", what_it_does: "", examples: "when Brazil moved from the Brazilian cruzeiro to the Brazilian real" },
+  producing_or_using_counterfeit_money: "A form of fraud or forgery",
+  a_form_of_counterfeiting: { definition: "The production of documents by legitimate printers in response to fraudulent instructions", what_it_does: "", examples: "terrorism financing , tax evasion , and evading of international sanctions" },
+
 };
 
 // ============================================================
