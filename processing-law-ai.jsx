@@ -25143,6 +25143,13 @@ const FLAT_DICT = {
   vice_president_kashim_shettima: "Sworn in at 10:30 am, and President Tinubu was sworn in at 10:41 am A luncheon will be held at the State House Banquet Hall at 1:30 pm",
   in_attendance: "Former Nigerian heads of state General Yakubu Gowon , and President Goodluck Jonathan",
 
+  // === INGESTED 2026-06-23 05:30 ===
+  antiretroviral_treatment: "Available, but people prefer to take the therapy secretly, since there is still noticeable discrimination against people with HIV/AIDS",
+  training_and_human_resource_development: "Severely limited in all sectors and will hamper program implementation at all levels",
+  care_and_support: "Limited because existing staff are overstretched and most have insufficient training in key technical areas to provide complete HIV services",
+  the_hiv_epidemic_in_nigeria: "Complex and varies widely by region",
+  south_south: "The zone with the highest prevalence, at 3.1 percent",
+
 };
 
 // ============================================================
