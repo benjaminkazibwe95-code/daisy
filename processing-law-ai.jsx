@@ -27296,6 +27296,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 12:16 ===
   the_promise_of_tcommerce: "To enhance shopping channels as well as regular TV ads by offering consumers a 'One-Click' 'Buy It' possibility",
 
+  // === INGESTED 2026-06-23 12:19 ===
+  the_premier_of_the_state_council: "Responsible for the State Council and exercises overall leadership of its work",
+  the_state_council: { definition: "Constitutionally accountable to the NPC and its Standing Committee", what_it_does: "", examples: "the Politburo Standing Committee" },
+  between_meetings_it: "Guided by an executive meeting of the State Council which is held two to three times a month, and can be called at the discretion of the premier",
+  the_ministry_of_agriculture_and_rural_affairs: "Supplemented with the nameplate of the National Rural Revitalization Administration",
+
 };
 
 // ============================================================
