@@ -24259,6 +24259,13 @@ const FLAT_DICT = {
   the_primary_threat_to_the_western_chimpanzee: "Habitat loss , although it is also killed for bushmeat",
   transmission_of_ebola: "Also linked to chimpanzee diet of apparent appetite for meat from monkeys",
 
+  // === INGESTED 2026-06-23 02:24 ===
+  the_sandawe: "And remain an outgoing people, fond of singing, dancing, making music and drinking beer and have an enormous store of songs",
+  it_has_clicks_and: "Unrelated to the neighbouring Bantu languages , though it has been lightly influenced by neighbouring Cushitic languages",
+  caves_in_the_hills: "Believed to harbour spirits and were respected and even feared",
+  these_prayers: "Shouted as loudly as possible, to make sure that the spirits could hear no matter where they were",
+  the_mantis: "Divine messenger with a special reason for appearing and a medium was usually consulted to find the explanation",
+
 };
 
 // ============================================================
