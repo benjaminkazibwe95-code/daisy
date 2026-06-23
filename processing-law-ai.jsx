@@ -23801,6 +23801,12 @@ const FLAT_DICT = {
   that_contract: "Voided in 2012 after the company failed to implement the project",
   the_negotiations: "Expected to last about 60 days",
 
+  // === INGESTED 2026-06-23 01:05 ===
+  kinaawa_high_school_kawempe_campus: "A mixed, residential secondary school located at Kawempe Ttula 6 km off Bombo road, Kampala , Uganda",
+  kinaawa_high_school_kawempe: "Currently headed by Head Teacher Haji Sserugo Muhammad Ali who joined the school in December 2015 from the Kyengera - Mugongo Campus",
+  who: "Sported by the Head teacher after the 2019 edition from Mbale into coach Frank Muwuluzi 's team captained by Mbowa Najib",
+  kinaawa: "One of the schools that fielded 10 players under different categories",
+
 };
 
 // ============================================================
