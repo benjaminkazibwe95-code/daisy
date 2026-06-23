@@ -29608,6 +29608,21 @@ const FLAT_DICT = {
   rent_control_or_caps: "Not given attention in addition to landlord–tenant relations, with regulation laws poorly enforced",
   the_housing_law: "Approved in 2023, which made reforms aimed at providing affordable housing as well as rental protections to citizens",
 
+  // === INGESTED 2026-06-23 21:01 ===
+  child_poverty: { definition: "The state of children living in poverty and applies to children from poor families and orphans being raised with limited or no state resources", what_it_does: "", examples: "housing, regular food, or clean water" },
+  reports: { definition: "Available for these four countries that comparing the initial data obtained in 2002 with data from 2006", what_it_does: "", examples: "growth of gross national product, per capita income, or industrialization" },
+  households_headed_by_single_mothers: "Most likely to be affected",
+  the_majority_of_povertystricken_children: { definition: "Born to poor parents", what_it_does: "", examples: "disposable income restricts children's opportunities" },
+  families_raised_by_a_single_parent: { definition: "Generally poorer than those raised by couples", what_it_does: "", examples: "by reducing educational attainment or not investing in insurance" },
+  demographics: "Also correlated with poverty, including neighborhood disadvantage, residential segregation, age/sex composition, or living in a rural area",
+  power_resource_theory: { definition: "One of the most popular political explanations for poverty", what_it_does: "", examples: "for labor unions or voting )" },
+  institutionalists_claim_that_poverty: "Caused by how institutions (such as laws or regulations) affect the long-term distribution of resources",
+  one_piece_of_evidence: { definition: "That poverty rates do not respond quickly to changes in power or elections, and instead are relatively stable and slow-moving", what_it_does: "", examples: "parental incarceration is associated with increased childhood homelessness)" },
+  improving_the_quality_of_education: { definition: "Generally seen as the most effective way to break this cycle, especially the education of young children before they reach 3rd grade", what_it_does: "", examples: "physically, psychologically, and emotionally" },
+  people_in_lowincome_families: { definition: "Less likely to have access to higher education opportunities", what_it_does: "", examples: "anxiety and depression" },
+  that_adolescent: { definition: "Now an adult included in the other 37.2 million people reported living in poverty in 2020", what_it_does: "", examples: "asthma and anemia" },
+  poverty_in_these_countries: "A condition usually characterised by a severe deprivation of basic human needs (UN,1995)",
+
 };
 
 // ============================================================
