@@ -27740,6 +27740,14 @@ const FLAT_DICT = {
   supersonic_lmd: "Different from the other LMD processes in that the laser is not used to melt materials",
   in_supersonic_lmd_a_laser: "Used to pre-heat the substrate and the powder stream, in order to soften these materials",
 
+  // === INGESTED 2026-06-23 14:15 ===
+  the_nanocar: "Developed at Rice University's Richard E",
+  the_hydrogen_on_the_neighboring_carbon: "No great obstacle to free rotation",
+  the_rolling_action: "Confirmed by Professor Kevin Kelly, also at Rice, by pulling the molecule with the tip of the STM",
+  the_important_feature_of_this_nanocar_concept: "That all molecular component tinkertoys were known and synthesized molecules (alas, some very exotic and only recently discovered, e.g",
+  the_nanodragster: "50,000 times thinner than a human hair and has a top speed of 0.014 millimeters per hour (0.0006 in/h or 3.89×10 −9 m/s)",
+  the_nanodragster_and_other_nanomachines: "Designed for use in transporting items",
+
 };
 
 // ============================================================
