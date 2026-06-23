@@ -23743,6 +23743,9 @@ const FLAT_DICT = {
   gdp_adjusted_for_population: "Called Per-capita GDP or GDP per person",
   it_can_be_argued_that_gdp_per_capita: { definition: "An indicator of standard of living", what_it_does: "", examples: "gender parity and elements of regulatory quality" },
 
+  // === INGESTED 2026-06-23 00:52 ===
+  notably_this: "Done for Agenda 2063 , which was agreed on by the African Union a few months before the launch of the SDGs in 2015",
+
 };
 
 // ============================================================
