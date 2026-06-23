@@ -24944,6 +24944,11 @@ const FLAT_DICT = {
   note_that_overuse: { definition: "A relative term, and capacity varies greatly between individuals", what_it_does: "", examples: "at an hour or two per day, or a hundred miles or kilometers per week" },
   bilateral_muscular_pain: { definition: "A normal by-product of the training process, whereas unilateral pain may reveal 'exercise-induced arterial endofibrosis'", what_it_does: "", examples: "cars and motorways degraded and confined people's environment and mobility" },
 
+  // === INGESTED 2026-06-23 04:44 ===
+  dancepop: { definition: "A popular mainstream style of music and there have been numerous artists and groups who perform in the genre", what_it_does: "", examples: "'post-disco', 'club', 'dance' or 'dance-pop' music" },
+  dancepop_music: { definition: "Usually created, composed and produced by record producers who would then hire singers to perform the songs", what_it_does: "", examples: "Kylie Minogue , Dead or Alive and Bananarama" },
+  the_inaugural_winner: "Kylie Minogue for her single ' Padam Padam ', highlighting her continued influence in the genre",
+
 };
 
 // ============================================================
