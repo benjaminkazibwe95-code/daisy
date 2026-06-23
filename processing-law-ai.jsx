@@ -25725,6 +25725,22 @@ const FLAT_DICT = {
   smaller_mosfets: "Desirable for several reasons",
   the_main_reason_to_make_transistors_smaller: "To pack more and more devices in a given chip area",
 
+  // === INGESTED 2026-06-23 07:18 ===
+  early_computer_viruses: "Written for the Apple II and Mac , but they became more widespread with the dominance of the IBM PC and MS-DOS",
+  the_first_ibm_pc_virus_in_the_wild: { definition: "A boot sector virus dubbed (c)Brain , created in 1986 by the Farooq Alvi brothers in Pakistan", what_it_does: "", examples: "a virus could make an infected computer add autorunnable code to any USB stick plugged into it" },
+  the_first_wellknown_worm: { definition: "The Morris worm of 1988, which infected SunOS and VAX BSD systems", what_it_does: "", examples: "the Morris Worm , the first internet worm, were written as experiments or pranks" },
+  a_worm: "A stand-alone malware software that actively transmits itself over a network to infect other computers and can copy itself without infecting files",
+  the_only_way_to_kill_both_ghosts: { definition: "To kill them simultaneously (very difficult) or to deliberately crash the system", what_it_does: "", examples: "the Internet to install the backdoor application" },
+  the_purpose: "To keep the initial stage light and undetectable",
+  some_examples_of_encryptionbased_ransomware: "CryptoLocker and WannaCry",
+  the_aim_of_any_malware: "To conceal itself from detection by users or antivirus software",
+  the_first_is_that_it: { definition: "Difficult to determine if software is malicious", what_it_does: "", examples: "crypters come with an encrypted blob of malicious code and a decryption stub" },
+  such_attacks_are_not_easy_to_perform_but: { definition: "Becoming more prevalent with the help of exploit-kits", what_it_does: "", examples: "TestDisk 6.4 or earlier contained a vulnerability that allowed attackers to inject code into Windows" },
+  escaping_the_sandbox: "Targeting vulnerabilities in the sandbox mechanism or the operating system's sandboxing features",
+  keeping_browsers_and_operating_systems_updated: "Crucial to mitigate vulnerabilities",
+  stuxnet_is_an_example_of_malware_that: "Introduced to the target environment via a USB drive, causing damage to processes supported on the environment without the need to exfiltrate data",
+  china_and_india: "Identified as emerging contributors",
+
 };
 
 // ============================================================
