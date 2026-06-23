@@ -28210,6 +28210,11 @@ const FLAT_DICT = {
   the_utility_function: "Concave in the positive region, representing the phenomenon of diminishing marginal utility",
   the_graph_of_budget_line: "A linear, downward-sloping line between X and Y axes",
 
+  // === INGESTED 2026-06-23 15:37 ===
+  an_action_axiom: "An axiom that embodies a criterion for describing action",
+  action_axioms: { definition: "Of the form 'If a condition holds, then the following will be done'", what_it_does: "", examples: "MEU) is highly defensible and its scope very broad" },
+  but_the_definition_itself: "Adequate and does not need complement of commentary",
+
 };
 
 // ============================================================
