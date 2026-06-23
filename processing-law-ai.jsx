@@ -23521,6 +23521,9 @@ const FLAT_DICT = {
   resistance_committee_members_stated_that_they: { definition: "Consulting each other 'about upping the escalation against the coup'", what_it_does: "", examples: "NetBlocks" },
   the_outages: { definition: "Later corroborated by the Sudan Information Ministry", what_it_does: "", examples: "the 3 June 2019 Khartoum massacre" },
 
+  // === INGESTED 2026-06-23 00:17 ===
+  the_comoran_government: "Given 'until May 4 to send a file documenting its extradition request'",
+
 };
 
 // ============================================================
