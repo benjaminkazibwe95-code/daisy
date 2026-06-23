@@ -25188,6 +25188,19 @@ const FLAT_DICT = {
   the_programme: "Hosted by IK Osakioduwa and Stephanie Coker",
   idyl_from_team_timi: "Announced as the winner of the second series of The Voice Nigeria and Ebube from Team Patoranking as runner-up",
 
+  // === INGESTED 2026-06-23 05:36 ===
+  three_voortrekker_commando_members: "Lightly wounded, including Pretorius",
+  ndlela: "Not to attack the Trekkers when they were in a defensive wagon laager position, especially not during the day",
+  building_a_church_in_trekker_emigrant_context: "Symbolic for establishing a settled state",
+  the_other_ordnance_piece: "Unknown, but is currently depicted as a 4-pound smoothbore cannon , by then obsolete in most European armies",
+  the_attackers: "Hindered by a change introduced during Shaka's rule that replaced most of the longer throwing spears with short stabbing spears",
+  a_zulu_eyewitness_said_that_their_first_charge: "Mown down like grass by the Boer muskets",
+  all_the_patrols: "Called back into the laager by firing alarm signals from the cannons",
+  buckshot: "Used to maximise casualties",
+  the_bones_of_retief_and_his_men: "Found and buried, where a memorial stands today",
+  when_the_boers_realized_they: { definition: "Being confronted by unseen enemies, they shot wildly into the mist, injuring and killing some of the Zulu", what_it_does: "", examples: "George Theal ) played a central role in fostering Afrikaner nationalism [ citation needed ]" },
+  while_the_blood_river_memorial: "Associated with Afrikaner nationalism, the Ncome monument was intended as a symbol of reconciliation—but has become connected with Zulu nationalism",
+
 };
 
 // ============================================================
