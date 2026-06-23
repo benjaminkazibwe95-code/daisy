@@ -27105,6 +27105,18 @@ const FLAT_DICT = {
   telephone_and_internet_account_access: "Restored when the bank reopened",
   fuld_said_he: "A victim of the collapse, blaming a 'crisis of confidence' in the markets for dooming his firm",
 
+  // === INGESTED 2026-06-23 11:26 ===
+  when_one_or_more_electrochemical_cells: "Connected in parallel or series they make a battery",
+  each_metal: "In a separate solution; often the aqueous sulphate or nitrate forms of the metal, however more generally metal salts and water which conduct current",
+  an_alternative_to_a_salt_bridge: "To allow direct contact (and mixing) between the two half-cells, for example in simple electrolysis of water",
+  if_no_ionic_contact: "Provided, this charge difference would quickly prevent the further flow of electrons",
+  a_porous_pot: "Used in the Bunsen cell",
+  these_halfcell_potentials: "Defined relative to the assignment of 0 volts to the standard hydrogen electrode (SHE)",
+  cells_using_waterbased_electrolytes: "Usually limited to cell potentials less than about 2",
+  higher_cell_potentials: "Possible with cells using other solvents instead of water",
+  the_energy_needed_to_manufacture_a_battery: "About 50 times greater than the energy it contains",
+  the_energy_efficiency_of_a_fuel_cell: "Generally between 40 and 60%; however, if waste heat is captured in a cogeneration scheme, efficiencies up to 85% can be obtained",
+
 };
 
 // ============================================================
