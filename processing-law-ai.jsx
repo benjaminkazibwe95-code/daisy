@@ -27470,6 +27470,37 @@ const FLAT_DICT = {
   scientific_research_in_europe: "Supported by industry, by the European universities and by several scientific institutions",
   analytical_chemistry: "The identification and quantification of substances and their properties",
 
+  // === INGESTED 2026-06-23 13:09 ===
+  speech_synthesis: "Occasionally used in third-party programs, particularly word processors and educational software",
+  a_computer_system_used_for_this_purpose: "Called a speech synthesizer , and can be implemented in software or hardware products",
+  one_of_the_first: { definition: "The Telesensory Systems Inc", what_it_does: "", examples: "the Speak & Spell toy produced by Texas Instruments in 1978" },
+  the_ideal_speech_synthesizer: "Both natural and intelligible",
+  concatenative_synthesis: "Based on the concatenation (stringing together) of segments of recorded speech",
+  an_early_example_of_diphone_synthesis: "A teaching robot, Leachim , that was invented by Michael J",
+  highspeed_synthesized_speech: "Used by the visually impaired to quickly navigate computers using a screen reader",
+  formant_synthesizers: "Usually smaller programs than concatenative systems because they do not have a database of speech samples",
+  creating_proper_intonation_for_these_projects: "Painstaking, and the results have yet to be matched by real-time text-to-speech interfaces",
+  speech_waveforms: "Generated from HMMs themselves based on the maximum likelihood criterion",
+  the_deep_neural_networks: "Trained using a large amount of recorded speech and, in the case of a text-to-speech system, the associated labels and/or input text",
+  texts: "Full of heteronyms , numbers , and abbreviations that all require expansion into a phonetic representation",
+  there_are_many_spellings_in_english_which: "Pronounced differently based on context",
+  deciding_how_to_convert_numbers: { definition: "Another problem that TTS systems have to address", what_it_does: "", examples: "'Henry VIII' reads as 'Henry the Eighth', while 'Chapter VIII' reads as 'Chapter Eight'" },
+  the_other_approach: "Rule-based, in which pronunciation rules are applied to words to determine their pronunciations based on their spellings",
+  the_dictionarybased_approach: "Quick and accurate, but completely fails if it is given a word which is not in its dictionary",
+  one_of_the_related_issues: "Modification of the pitch contour of the sentence, depending upon whether it is an affirmative, interrogative or exclamatory sentence",
+  the_original_intent: "To release small cartridges that plugged directly into the synthesizer unit, which would increase the device's built-in vocabulary",
+  the_audible_output: "Extremely distorted speech when the screen is on",
+  the_software: "Licensed from third-party developers Joseph Katz and Mark Barton (later, SoftVoice, Inc",
+  voiceover: "For the first time featured in 2005 in Mac OS X Tiger (10.4)",
+  the_voice_synthesis: "Licensed by Commodore International from SoftVoice, Inc., who also developed the original MacinTalk text-to-speech system",
+  thirdparty_programs: "Available that can read text from the system clipboard",
+  microsoft_speech_server: "A server-based package for voice synthesis and recognition",
+  a_votrax_synthesizer: "Included in the first generation Kurzweil Reading Machine for the Blind",
+  a_growing_field_in_internet_based_tts: "Web-based assistive technology , e.g",
+  the_nonprofit_project_pediaphon: "Created in 2006 to provide a similar web-based TTS interface to the Wikipedia",
+  the_most_recent: "Speech Synthesis Markup Language (SSML), which became a W3C recommendation in 2004",
+  although_each_of_these: { definition: "Proposed as a standard, none of them have been widely adopted", what_it_does: "", examples: "games and animations" },
+
 };
 
 // ============================================================
