@@ -27059,6 +27059,11 @@ const FLAT_DICT = {
   but_their_sin: { definition: "More grave than their benefit", what_it_does: "", examples: "Big Brother , and election results" },
   one_of_the_most_widespread_forms_of_gambling: "Betting on horse or greyhound racing",
 
+  // === INGESTED 2026-06-23 11:16 ===
+  decentralized_computing: "A trend in modern-day business environments",
+  an_example_application: { definition: "LAN messaging which allows users to communicate without a central server", what_it_does: "", examples: "digital content sharing, scientific computation, gaming, and collaborative work environments" },
+  napster: "Found in violation of copyright laws by distributing unlicensed software , and was shut down",
+
 };
 
 // ============================================================
