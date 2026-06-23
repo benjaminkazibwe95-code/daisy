@@ -26138,6 +26138,38 @@ const FLAT_DICT = {
   each_share: "Printed on a separate transparency, and decryption was performed by overlaying the shares",
   an_oversampled_binary_image_sensor: "A digital image sensor reminiscent of traditional photographic film",
 
+  // === INGESTED 2026-06-23 08:21 ===
+  the_uk: "A major centre for engine manufacturing: 1.59 million engines were produced in 2024",
+  the_royal_greenwich_observatory_in_london: "Chosen as the defining point of the Prime Meridian [ 131 ] at the International Meridian Conference in 1884",
+  the_main_rivers_and_estuaries: "The Thames , Severn , and the Humber",
+  scotland: "The most mountainous constituent country of the UK",
+  the_highest_mountains_in_wales: { definition: "In Snowdonia and include Snowdon ( Welsh : Yr Wyddfa ) which, at 1,085 metres (3,560 ft), is the highest peak in Wales", what_it_does: "", examples: "the Pembrokeshire Coast" },
+  the_highest_peak_in_northern_ireland: { definition: "Slieve Donard in the Mourne Mountains at 852 metres (2,795 ft)", what_it_does: "", examples: "parliamentary sovereignty, the rule of law , democracy and upholding international law" },
+  the_uppertier_subdivisions_of_england: "The nine regions , used primarily for statistical purposes",
+  local_councils: "Made up of elected councillors, of whom there are 1,223",
+  their_powers: { definition: "Limited to services such as waste collection, dog control, and maintaining parks and cemeteries", what_it_does: "", examples: "renewable energy , energy efficiency and onshore oil and gas licensing" },
+  local_government_in_scotland: "Divided into 32 council areas with a wide variation in size and population",
+  the_welsh_government: "Currently a Welsh Labour minority government led by the first minister , Eluned Morgan",
+  the_agreement: "Confirmed by referendum and implemented later that year",
+  the_commanderinchief: "The British monarch , to whom members of the forces swear an oath of allegiance",
+  the_chief_courts: { definition: "The Court of Session , for civil cases, [ 244 ] and the High Court of Justiciary , for criminal cases", what_it_does: "", examples: "when adjusted for inequality" },
+  the_department_for_business_and_trade: "Responsible for business, international trade, and enterprise",
+  the_bank_of_england: { definition: "The UK's central bank and responsible for issuing notes and coins in the pound sterling", what_it_does: "", examples: "Rolls-Royce , Bentley and Range Rover" },
+  great_british_railways: { definition: "A planned state-owned public body that will oversee rail transport in Great Britain", what_it_does: "", examples: "two of the six major oil and gas companies – BP and Shell" },
+  wind_power: "The largest source of electricity in 2024, generating 30 per cent of the UK's total electricity",
+  the_uk_government: "Investing in small modular reactors that operate via nuclear fission , as well as in research and development towards commercial fusion reactors",
+  the_variety_of_dialects_and_accents: "Often noted, with nearby regions frequently having highly distinct variations",
+  received_pronunciation: { definition: "Traditionally associated with educated speakers in southern England", what_it_does: "", examples: "72 per cent of those living in the Outer Hebrides" },
+  public_healthcare: { definition: "Provided to all UK permanent residents and is mostly free at the point of need, being paid for from general taxation", what_it_does: "", examples: "the Royal Colleges" },
+  edinburgh: { definition: "UNESCO's first worldwide City of Literature", what_it_does: "", examples: "Joseph Conrad , [ 444 ] T" },
+  the_royal_academy_in_london: "A key organisation for the promotion of the visual arts in the United Kingdom",
+  the_courtauld_institute_of_art: { definition: "A leading centre for the teaching of the history of art", what_it_does: "", examples: "the folk music of England , Scotland , Wales and Northern Ireland" },
+  london_and_bristol: { definition: "Closely associated with the origins of electronic music sub-genres such as drum and bass and trip hop", what_it_does: "", examples: "UK Garage , Speed Garage , Drum and bass , Jungle , Trance , and Dubstep" },
+  roasts: { definition: "Served with either roasted or boiled vegetables, Yorkshire pudding and gravy", what_it_does: "", examples: "The Good Food Guide and Harden's" },
+  afternoon_tea: { definition: "A light afternoon meal served with tea in tea rooms and hotels around the United Kingdom, with the tradition dating back to around 1840", what_it_does: "", examples: "chicken tikka masala" },
+  the_uk_has_many_gastropubs_and: "The birthplace of many alcoholic drinks including several beer styles such as pale ale , India pale ale , bitter , brown ale , porter , and stout",
+  britannia: { definition: "A national personification of the United Kingdom, originating from Roman Britain", what_it_does: "", examples: "their national flags" },
+
 };
 
 // ============================================================
