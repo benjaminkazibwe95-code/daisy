@@ -26904,6 +26904,37 @@ const FLAT_DICT = {
   the_yocto_project: "Targeted at embedded use cases",
   the_relevant_term_is_of_the_porting_target: "Computer architecture ; it comprises the instruction set (s) and the microarchitecture (s) of the processor (s), at least of the CPU",
 
+  // === INGESTED 2026-06-23 10:43 ===
+  the_first_inflight_movie: "Screened by Aeromarine Airways in 1921, showing a film called Howdy Chicago to passengers on a Felixstowe F.5 flying boat as it flew around Chicago",
+  the_audio: { definition: "Played back through the headsets", what_it_does: "", examples: "the Boeing 767" },
+  regulations_the_inflight_entertainment_system: "Capable of being approved in the United States",
+  the_companies_involved: "In a constant battle to cut costs of production, without cutting the system's quality and compatibility",
+  difficulties_with_cost: "Also present with the customers, or airlines , looking to purchase in-flight entertainment systems",
+  most_inflight_entertainment_systems: { definition: "Purchased by existing airlines as an upgrade package to an existing fleet of aircraft", what_it_does: "", examples: "the modern Airbus A320, [ 20 ] which eliminates the possibility of having upgrade difficulties" },
+  some_airlines: "Passing the cost directly into the customers ticket price, while some are charging a user fee based on an individual customers use",
+  the_movingmap_system_information: "Derived in real time from the aircraft's flight management system",
+  the_maps_for_the_system: "Developed by hand tracing hundreds of paper maps with a light pen and a SPARCstation tablet",
+  most_music_channels: { definition: "Pre-recorded and feature their own DJs to provide chatter, song introductions, and interviews with artists", what_it_does: "", examples: "MusicMatch is used to select music off the music server" },
+  phillips_music_server: "One of the most widely used servers running under Windows Media Center used to control AVOD systems",
+  this_form_of_inflight_entertainment: "Experienced through headphones that are distributed to the passengers",
+  the_headphone_plugs: "Usually only compatible with the audio socket on the passenger's armrest (and vice versa), and some airlines may charge a small fee to obtain a pair",
+  these_televisions: "Usually located in the seat-backs or tucked away in the armrests for front row seats and first class",
+  in_addition_to_the_personal_televisions_that: "Installed in the seatbacks, portable media player (PMP) systems were introduced in the 2000s and early 2010s",
+  there_are_also_movies_that: "Shown throughout the aircraft at one time, often on shared overhead screens or a screen in the front of the cabin",
+  more_modern_aircraft: "Now allowing Personal Electronic Devices (PEDs) to be used to connect to the on board in-flight entertainment systems",
+  the_captions: "Text streamed along with video and spoken audio and enables passengers to either enable or disable the subtitle/caption language",
+  closed_captioning: "Capable of streaming various text languages, including Arabic, Chinese, English, French, German, Hindi, Spanish, and Russian",
+  a_waea_technical_committee: { definition: "Trying to standardize the closed caption specification", what_it_does: "", examples: "white letters on a consistent black background [ 32 ] )" },
+  video_games: "Another emerging facet of in-flight entertainment",
+  some_game_systems: "Networked to allow interactive playing by multiple passengers",
+  the_best_examples_of_this_changing_trend: { definition: "The popular trivia game series and the Berlitz Word Traveler that allows passengers to learn a new language in their own language", what_it_does: "", examples: "Internet browsing, text messaging, cell phone usage (where permitted), and emailing" },
+  the_service: "Designed to provide in-flight broadband service to commercial airlines; Boeing built partnerships with United Airlines, Delta, and American",
+  industry_expectations: "That by the end of 2011 thousands of planes flying in the US would offer some form of in-flight broadband communication to passengers",
+  internet_speeds: "Reportedly comparable to those at home, with the market projected to reach thousands of aircraft",
+  a_notable_example_of_such_a_system: "The Airfone which was used by several people on multiple aircraft during the September 11th attacks",
+  several_airlines: { definition: "Using in-cabin wi-fi systems", what_it_does: "", examples: "Qantas 's fleet of Airbus A380s and Boeing Dreamliner 787s" },
+  certain_elements: { definition: "Also retrofitted into existing Boeing 747-400s", what_it_does: "", examples: "Simi Valley , AWN and Aeronet Global Communications Services had been reducing operations as of 2019" },
+
 };
 
 // ============================================================
