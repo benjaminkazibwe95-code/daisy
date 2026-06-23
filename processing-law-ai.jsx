@@ -28846,6 +28846,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 17:53 ===
   business_model_patterns: "Reusable business model architectural components, which can be used in generating a new business model",
 
+  // === INGESTED 2026-06-23 17:55 ===
+  express_actual_authority: "An agent has been expressly told they may act on behalf of a principal",
+  in_wool_buying_industries_it: "Customary for traders to purchase in their own names",
+  when_the_agency: "Undisclosed or partially disclosed, however, both the agent and the principal are liable",
+  this_form_of_agency: "Inherent in the status of a partner and does not arise out of a contract of agency with a principal",
+  the_other_partners_or_the_firm: "The principal and third parties are entitled to assume that the principal has been informed of all relevant information",
+  agency_relationships: "Common in many professional areas",
+  agency_law_in_the_united_kingdom: "A component of UK commercial law , and forms a core set of rules necessary for the smooth functioning of business",
+  agency_law: "Primarily governed by the Common law and to a lesser extent by statutory instruments",
+
 };
 
 // ============================================================
