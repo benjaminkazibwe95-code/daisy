@@ -25052,6 +25052,11 @@ const FLAT_DICT = {
   written_by_the_emperor_himself: "Matsʼhafe Berhan ('The Book of Light') and Matsʼhafe Milad 'The Book of the Nativity '",
   numerous_homilies: { definition: "Written in this period, notably Retuʼa Haimanot ('True Orthodoxy') ascribed to John Chrysostom", what_it_does: "", examples: "the Chronicle of John of Nikiu and the Universal History of Jirjis al-Makin Ibn al-'Amid" },
 
+  // === INGESTED 2026-06-23 05:05 ===
+  selam: "Also known as the Dikika Child",
+  the_fossils: "Discovered by Zeresenay Alemseged , and are remarkable for their age and condition",
+  afarensis_a_lifelike_image_of_selam: "Published on the cover of the November 2006 issue of National Geographic",
+
 };
 
 // ============================================================
