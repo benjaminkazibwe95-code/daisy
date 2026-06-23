@@ -29859,6 +29859,17 @@ const FLAT_DICT = {
   peertopeer_lenders: "Registered with and regulated by the SEC",
   the_plaintiffs: { definition: "Seeking rescission of the loan notes, rescissory damages, damages, and attorneys' fees and expenses", what_it_does: "", examples: "individual lenders and lending agencies, but do not loan their own money" },
 
+  // === INGESTED 2026-06-23 21:58 ===
+  remittance: { definition: "More than three times as large as the total global foreign aid", what_it_does: "", examples: "US$528 billion in 2019 to developing countries" },
+  this_amount: "Nearly triple the $131 billion of global Official Development Assistance",
+  western_union: { definition: "The world's leading handler of remittance and the 170,000 Western Union agents handle about 25 percent of the total global remittance traffic", what_it_does: "", examples: "MoneyGram have also been a key player for decades" },
+  the_next_biggest_inflows: "Recorded from the U.S",
+  remittances: "A reliable source of revenue for the Philippines, accounting for 8.9 per cent of the country's GDP",
+  it_was_reported_that_syrians_in_turkey: { definition: "Using the ' hawala system ' to send money to their country of origin", what_it_does: "", examples: "migrants from Oaxaca , Mexico, who have settled in Venice Beach, California" },
+  the_number_of_immigrants_from_africa_today: "Approximately 20 to 30 million adults, who send around US$40 billion annually to their families and local communities back home",
+  the_multiagency_initiative: "Mandated with facilitating the Federal Government of Somalia 's new national policy pertaining to the money transfer industry",
+  its_main_priority: { definition: "Centered on establishing a comprehensive strategy and a consultative implementation plan for the formalization of the local financial sector", what_it_does: "", examples: "the laws on Anti-Money Laundering (AML) and Counter Financing of Terrorism (CFT)" },
+
 };
 
 // ============================================================
