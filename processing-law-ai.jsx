@@ -30397,6 +30397,18 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 23:43 ===
   economic_historians_support_that_there: { definition: "No clear deskilling tendency within 18th and 19th century economies but rather a combination of deskilling, skilling and skill-displacement", what_it_does: "", examples: "high-skilled and low-skilled workers, as reaching above 60% of the English and Welsh population" },
 
+  // === INGESTED 2026-06-23 23:45 ===
+  carpenters: { definition: "Usually the first tradesmen on a job and the last to leave", what_it_does: "", examples: "the United Kingdom , the United States , Canada , Switzerland , Australia and South Africa" },
+  those_areas_of_construction_that: "Normally hidden in a finished building",
+  an_easy_way_to_envisage_this: "That first fix work is all that is done before plastering takes place",
+  the_second_fix: { definition: "Done after plastering takes place", what_it_does: "", examples: "roads and highway overpasses" },
+  carpentry_in_the_united_states: "Historically defined similarly to the United Kingdom as the 'heavier and stronger' [ 8 ] work distinguished from a joiner '",
+  the_terms_housewright_and_barnwright: "Used historically and are now occasionally used by carpenters who work using traditional methods and materials",
+  knowledge_and_skills: "Simply passed down over the generations",
+  the_founding_of_america: "Partly based on a desire to extract resources from the new continent including wood for use in ships and buildings in Europe",
+  carpentry_requires_training_which: { definition: "Both acquiring knowledge and physical practice", what_it_does: "", examples: "high school shop classes and community colleges" },
+  the_average_length_of_time: { definition: "Four years and includes a minimum number of hours of both on-the-job training and technical instruction at a college or other institution", what_it_does: "", examples: "shop fitting , scaffolding , bench joinery , maintenance and system installation" },
+
 };
 
 // ============================================================
