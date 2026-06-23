@@ -29851,6 +29851,14 @@ const FLAT_DICT = {
   producing_or_using_counterfeit_money: "A form of fraud or forgery",
   a_form_of_counterfeiting: { definition: "The production of documents by legitimate printers in response to fraudulent instructions", what_it_does: "", examples: "terrorism financing , tax evasion , and evading of international sanctions" },
 
+  // === INGESTED 2026-06-23 21:54 ===
+  most_of_the_loans_funded_through_mintos: { definition: "Personal loans with car loans coming second", what_it_does: "", examples: "rules for management compliance, AML requirements and other prudential measures" },
+  their_applications: "Believed to be stealing customer's data such as phone contacts and photos",
+  many_cases: "Reported in the Indonesia's complaint handling system",
+  crowd_sourcing_arrangements_in_which_people: "Asked to contribute money in exchange for potential profits based on the work of others are considered to be securities",
+  peertopeer_lenders: "Registered with and regulated by the SEC",
+  the_plaintiffs: { definition: "Seeking rescission of the loan notes, rescissory damages, damages, and attorneys' fees and expenses", what_it_does: "", examples: "individual lenders and lending agencies, but do not loan their own money" },
+
 };
 
 // ============================================================
