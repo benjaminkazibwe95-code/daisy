@@ -24385,6 +24385,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 02:49 ===
   the_africa_report: "A Paris -based English-language quarterly magazine that focuses on African politics and economics",
 
+  // === INGESTED 2026-06-23 02:51 ===
+  the_leadership_team: "Split between multiple locations",
+  its_influence: "Greatest because its reserved territories were larger or of greater news importance than most others",
+  both_expansions: "Made possible by advances in overland telegraphs and undersea cables",
+  the_reuters_trust_principles: { definition: "Put in place to maintain the company's independence", what_it_does: "", examples: "the London Stock Exchange (LSE) and NASDAQ" },
+  reuters: { definition: "Acquired by the Canadian Thomson Corporation in 2008, forming Thomson Reuters", what_it_does: "", examples: "the US introducing an emissions cap-and-trade system" },
+  very_soon_after_that_conversation_i: { definition: "Told my climate change role was abolished", what_it_does: "", examples: "a team of specialist reporters at Point Carbon and a columnist" },
+  the_fact_that_the_blather: "All inserted without attribution suggests it was added at the insistence of an editor",
+  an_agreement: "Made between the Information Research Department (IRD) and Reuters for the UK Treasury to provide £350,000 over four years to fund Reuters' expansion",
+  reuters_president_michael_friedenberg_said_he: { definition: "'delighted that TASS and Reuters are building upon our valued partnership", what_it_does: "", examples: "its own reporters" },
+
 };
 
 // ============================================================
