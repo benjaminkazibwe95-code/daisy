@@ -26615,6 +26615,35 @@ const FLAT_DICT = {
   peertopeer_and_client_server: "Examples of Network Models",
   although_the_model: { definition: "Widely implemented and used, it failed to become dominant for two main reasons", what_it_does: "", examples: "IMS and DL/I" },
 
+  // === INGESTED 2026-06-23 09:49 ===
+  icl: "Rebranded as Fujitsu in April 2002",
+  the_icl_brand: "Still used by the former Russian joint-venture of the company, founded in 1991",
+  later_developments: "The 1901A / 1902A / 1903A with their own Executives and GEORGE2",
+  the_programming_languages: "Assembler, COBOL and Fortran (an Algol 60 compiler was provided but not used much, if at all)",
+  a_state_of_the_art_printed_circuit_board_plant: "Built in Plymouth Grove, Manchester in 1979, however financial troubles within the company forced its closure in 1981",
+  it_is_probable_that_this: "Due to union and political pressure from the Wilson government",
+  system_b: "Subsequently renamed VME/B",
+  system_d: "Dropped in order to focus efforts on VME/B and System T, renamed to VME/K (Confusingly, VME/B was developed in Kidsgrove , VME/K in Bracknell",
+  the_architect_of_cades: { definition: "David Pearson (computer scientist)", what_it_does: "", examples: "the 2903, whose sales were growing much more rapidly" },
+  one_of_their_first_actions: "To end VME/K development",
+  as_far_as_possible_it: "Developed from existing hardware and software, but configured for an office environment without underfloor cabling",
+  the_hardware: "Based on the 2900 DFC (Disk File Controller), and used the MICOS engine",
+  the_printers_abutted_to_the_wing_and: "Initially integrated; they were soon replaced by the CPI shuttle printer and PBS [ clarification needed ]",
+  tme: "The operating system on the ME29 and required CL (Control Language) to run jobs – 'manual' operation being discouraged",
+  everything: "Compiled into the equivalent 1900 IDMS objects for use at run time",
+  the_queensway_site: "Above Whiteleys department store, and had been used in the 1950s and 1960s by the LEO arm of food company J",
+  these_qualms_were_overcome_and_eventually_it: "Merged back into the parent company",
+  the_international_team: "Based in Greenville SC, US",
+  the_icl_branch: { definition: "Renamed Fujitsu-ICL International Banking Products, and continued operations until 2000 when ICL withdrew completely from operations in North America", what_it_does: "", examples: "retail and manufacturing" },
+  within_a_few_years_icl: "Contributing 60% of the profits and turnover of the combined group",
+  bonfield: "Appointed CBE for his role in turning the company around",
+  few_british_candidates: "Apparent as potential buyers, and the company pursued talks in 1989 with Olivetti regarding a possible sale",
+  at_the_time_this: "The second largest supplier in the US retail market, and greatly expanded ICL's US presence",
+  initially_the_collaboration_with_fujitsu: "Presented as being an arm's length one, to avoid diluting ICL's credentials as a European and British company",
+  this_changed_when_fujitsu_siemens_computers: "Formed in 1999 as a joint venture between Fujitsu and Siemens",
+  fujitsu_siemens: "Merged back into Fujitsu in 2009",
+  pc_interworks: "Subsequently absorbed by International Computer Logistics Limited",
+
 };
 
 // ============================================================
