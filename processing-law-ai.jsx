@@ -23824,6 +23824,10 @@ const FLAT_DICT = {
   the_license: { definition: "Granted by the Uganda National Council for Higher Education", what_it_does: "", examples: "Professor John Massa Kasenene, Professor Pius Coxwell Achanga, Dr" },
   courses: "Structured to develop analytical and applied skills",
 
+  // === INGESTED 2026-06-23 01:19 ===
+  this_location: "Approximately 3.5 kilometres (2 mi) northwest of the central business district of Kampala , Uganda's capital and largest city",
+  makerere_college_school: "Strong in rugby, behind Namilyango College and St",
+
 };
 
 // ============================================================
