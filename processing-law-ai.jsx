@@ -26219,6 +26219,9 @@ const FLAT_DICT = {
   where_a_contract_or_term: "Voidable, the party entitled to avoid may either conditionally or unconditionally choose to affirm the contract or term as outlined in Article 3.2",
   rescission_is_the_principal_remedy_and_damages: "Also available if a tort is established",
 
+  // === INGESTED 2026-06-23 08:27 ===
+  fog_robotics: { definition: "An architecture which consists of storage, networking functions, control with fog computing closer to robots", what_it_does: "", examples: "communication protocols of fog nodes" },
+
 };
 
 // ============================================================
