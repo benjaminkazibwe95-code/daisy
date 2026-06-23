@@ -26246,6 +26246,10 @@ const FLAT_DICT = {
   the_remaining_of_the_top_ten: { definition: "Made up of Fujitsu Siemens , Sony, NEC , Apple and Asus", what_it_does: "", examples: "netbooks , was either HP or Acer, depending on data source" },
   the_first_commercial_laptop_used_in_space: "A Macintosh portable in 1990 on Space Shuttle mission STS-41 and again in 1991 aboard STS-43",
 
+  // === INGESTED 2026-06-23 08:31 ===
+  parallel_file_systems: "A type of clustered file system that spread data across multiple storage nodes, usually for redundancy or performance",
+  more_file_servers: "Developed in the 1970s",
+
 };
 
 // ============================================================
