@@ -25265,6 +25265,31 @@ const FLAT_DICT = {
   from_the_outset_the_ruf: "Beyond uncooperative and once the ECOMOG contingent withdrew, the RUF attacked UN forces, eventually taking hundreds hostage",
   thus_the_abuja_agreements: { definition: "Signed and UNAMSIL fulfilled its mandate in December 2005", what_it_does: "", examples: "in Bosnia, Somalia, and Sierra Leone" },
 
+  // === INGESTED 2026-06-23 05:57 ===
+  the_public_schools_and_private_schools: "Collectively known as ordinary schools, which are roughly 97% of schools in South Africa",
+  nofee_schools: "Introduced on a limited basis in 2007",
+  grade_r: "Sometimes called Grade 0 (pronounced 'grade nought'), [ 14 ] [ 15 ] particularly in previously white schools, where the usage was once common",
+  the_ratio_of_learners_per_teacher: { definition: "Roughly the same in all provinces, but the ratio of learners per school varies by province", what_it_does: "", examples: "school fees paid by parents, fundraising events, and receiving donations" },
+  if_the_combined_annual_income_of_the_parents: "Less than ten times the annual school fee, the child is legally exempt",
+  if_the_income: { definition: "More than ten times the school fee but less than thirty times the school fee, the child is legally entitled to a specific reduction in school fees", what_it_does: "", examples: "Umalusi for school-level qualifications" },
+  all_the_universities: "Autonomous, reporting to their own councils rather than government",
+  graduate_unemployment_and_underemployment: "Continuing problems, since most students continue to enroll for the humanities, arts, and social sciences",
+  too_few_students: "Choosing to study high-demand subjects such as education , health care , business , STEM subjects , and the skilled trades",
+  the_grey_institute: "Established in Port Elizabeth in 1856; Graaff-Reinet College was founded in 1860",
+  provincial_autonomy_in_education: "Strengthened in the early twentieth century, and all four provincial governments used government funds primarily to educate whites",
+  the_basis_of_this_system: "That a person's social responsibilities and political opportunities are defined by that person's ethnic identity",
+  this_decree: "Unpopular with learners and teachers alike, particularly in towns like the Johannesburg township of Soweto , where practically no one spoke Afrikaans",
+  schools: "Vandalized and teachers left unable to teach and students were unable to come to school",
+  the_department_of_education_and_training: "Responsible for black education outside the bantustans",
+  whites: "Required to attend school between the ages of seven and sixteen",
+  black_children: "Required to attend school from age seven until the equivalent of seventh grade or the age of sixteen",
+  some_of_the_bantustans_that: "Incorporated back into South Africa in 1994 also had their own education departments",
+  afrikaans_language_schools: { definition: "An exception, in that all subjects (other than other languages) are taught in Afrikaans", what_it_does: "", examples: "'basic connectivity, wired schools and educator development" },
+  each_of_these_icts: { definition: "Focused on multilingual language learning, and the Dr", what_it_does: "", examples: "in South Africa" },
+  one_such_barrier_was_a_lack_of_teachers_who: "Competent and comfortable with ICTs",
+  a_final_barrier_faced_by_schools_that: { definition: "Worth mentioning is the same as stated in the paragraph above – lack of a solid infrastructure and internet access", what_it_does: "", examples: "electricity, Internet, software, and hardware devices), teacher capacity, and financial resources" },
+  the_locally_dismal_performance: "Ascribed to uncommitted teachers, proximity of schools to taverns, inactive governing bodies and the apartheid legacy",
+
 };
 
 // ============================================================
