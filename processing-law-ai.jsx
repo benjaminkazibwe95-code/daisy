@@ -28772,6 +28772,34 @@ const FLAT_DICT = {
   landgate: "The first Western Australian government agency to establish its Innovation Program",
   many_regional_governments: "Setting up innovation agencies to strengthen regional capabilities",
 
+  // === INGESTED 2026-06-23 17:34 ===
+  falsifiability: "A standard of evaluation of scientific statements, including theories and hypotheses",
+  a_statement: "Falsifiable if it belongs to a language or logical structure capable of describing an empirical observation that contradicts it",
+  only_then: "The asymmetry and falsifiability rigorous",
+  one_concern_about_the_scientific_method: { definition: "How to move from observations to scientific laws", what_it_does: "", examples: "for example, affirming the consequent" },
+  if_what_is_observed_is_c_being_true_while_p: "False (formally, C ∧ ¬ P {\displaystyle C\wedge \neg P} ), the law is false by modus tollens",
+  popper_claimed_that_induction: { definition: "Not needed in science, that is, he rejected that we learn by the repetition of observations and considered that logical induction was a fallacy", what_it_does: "", examples: "Moritz Schlick , Rudolf Carnap , Otto Neurath , and A" },
+  it_did_not_matter_what_observation: "Presented, psychoanalysis could explain it",
+  the_reason_it_could_explain_everything: { definition: "That it did not exclude anything", what_it_does: "", examples: "how to discover new laws" },
+  he_proposed_that_it_be_the_one_that: { definition: "The most tested: 'the one, which in the light of our critical discussion , appears to be the best so far'", what_it_does: "", examples: "Bayesian inductive logic [ 30 ] is justified by theorems that make explicit assumptions" },
+  these_theorems: { definition: "Obtained with deductive logic", what_it_does: "", examples: "'The brick fell upwards when released'" },
+  the_potential_falsifier: "Not required to actually show the law to be false",
+  one_such_rule: "That, refusing to go along with falsifications is equivalent to retiring from science",
+  methodological_rules: "Only needed in the context of actual falsifications",
+  first_there: { definition: "The logical comparison of deduced statements by which the internal consistency of the system is tested", what_it_does: "", examples: "tautological, as required by the falsifiability criterion" },
+  popper_says_that_it: "A singular existential statement or simply a singular statement",
+  when_an_actual_falsifier: { definition: "Proposed, the technology used is considered in detail and an actual agreement is needed", what_it_does: "", examples: "'All men are mortal" },
+  his_response: "At the logical level",
+  the_fact_that_all_ravens: { definition: "Black contradicts the theory, but it is not a singular statement, not a possible observation", what_it_does: "", examples: "unexpected extra forces" },
+  haldane: { definition: "'[These are] fossil rabbits in the Precambrian era", what_it_does: "", examples: "a hippo, would suffice" },
+  popper: "Not concerned with the probabilistic aspect of the experiment",
+  another_example_is_the_theory_that_neutrinos: "Emitted in beta decays",
+  a_fifth_decision: "Mentioned by Lakatos to allow even more theories to be falsified",
+  very_often_a_theory: { definition: "Still useful and used even after it is found in contradiction with some observations", what_it_does: "", examples: "the one his theory described could not be justified logically" },
+  research_programmes: "Classified as progressive or degenerative; the latter are eventually abandoned",
+  lakatos_claimed_that_this_classification: { definition: "Largely supported by historical evidence", what_it_does: "", examples: "Newton's law of gravitation states that a brick falls downward" },
+  he_says_that_it: { definition: "Not falsifiable because both the theory itself and its predictions are too imprecise", what_it_does: "", examples: "finding Neptune in 1846 where Le Verrier and Adams predicted it should be" },
+
 };
 
 // ============================================================
