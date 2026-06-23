@@ -29433,6 +29433,13 @@ const FLAT_DICT = {
   members_of_the_dpr: { definition: "Elected through party-based contests, while DPD candidates run as individuals to represent provincial constituencies", what_it_does: "", examples: "Lebanon , the Democratic Republic of the Congo and Mali" },
   gamelan_traditions: { definition: "Centred especially in Java and Bali, while angklung and other bamboo ensembles are used in western Java, Banyumas, and other regions", what_it_does: "", examples: "K-pop cover dance in Bali and hip-hop communities in Yogyakarta" },
 
+  // === INGESTED 2026-06-23 20:05 ===
+  when_trade: { definition: "Carried out within a country, it is called home or domestic trade , which can be wholesale or retail", what_it_does: "", examples: "law firms and property brokerages" },
+  ashley_began_the_programme_which: "The forerunner of many other BCom degree programmes throughout the British Empire",
+  the_curriculum: { definition: "Generally concentrated on one subject area and emphasizes underlying theory", what_it_does: "", examples: "the Master of Science in Finance or Master of Accounting – the MCom places more emphasis on theory" },
+  the_higher_doctorate: "Awarded for published work of the candidate, demonstrating original contributions of 'special excellence' in some branch of commerce",
+  the_research_doctorate: "Largely comparable to a PhD ; in fact 'Doctor of Commerce' may refer to a PhD in management or other commerce-related PhD",
+
 };
 
 // ============================================================
