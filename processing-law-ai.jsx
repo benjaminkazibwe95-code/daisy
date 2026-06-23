@@ -29643,6 +29643,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 21:10 ===
   connolly: { definition: "A development economist and a university professor", what_it_does: "", examples: "trade gains and protectionism" },
 
+  // === INGESTED 2026-06-23 21:14 ===
+  the_mason_cohort: "The most diverse at Harvard in terms of nationalities and ethnicities represented",
+  kennedy_award_for_excellence_in_public_service: "Awarded to 'a graduating student whose commitment, activities, and contributions to public service are extraordinary'",
+  several_other_awards: "Also awarded on Class Day annually at the end of May",
+
 };
 
 // ============================================================
