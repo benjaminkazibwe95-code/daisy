@@ -24822,6 +24822,22 @@ const FLAT_DICT = {
   the_gender_of_a_plural_noun: { definition: "Usually different from the gender of the corresponding singular", what_it_does: "", examples: "all plural nouns with the ⟨ -eemo ⟩ suffix are neuter" },
   when_a_noun: { definition: "Directly followed by then a construct case suffix must appear after the noun", what_it_does: "", examples: "the demonstrative, indefinite, and possessive suffixes)" },
 
+  // === INGESTED 2026-06-23 04:19 ===
+  the_enclosed_pocket_of_air: { definition: "Rarefied by a sucking action of the tongue (in technical terminology, clicks have a lingual ingressive airstream mechanism )", what_it_does: "", examples: "Hadza and Sandawe , clicks can be more subtle and may even be mistaken for ejectives" },
+  the_next_two_families_of_clicks: { definition: "More abrupt sounds that do not have this friction", what_it_does: "", examples: "Oorlams , retain clicks in Khoekhoe words" },
+  such_language_games: "Apparently widespread in China",
+  yeyi: { definition: "The only Bantu language with four, { ǀ ǁ ǃ ǂ }, while Xhosa and Zulu have three, { ǀ ǁ ǃ }, and most other Bantu languages with clicks have fewer", what_it_does: "", examples: "glottalisation) and airstream mechanism" },
+  the_literature_also: "A contrast between velar and uvular rear articulations for some languages",
+  the_lateral_clicks: { definition: "Pronounced by sucking on the molars of one or both sides", what_it_does: "", examples: "Zulu, /ᶢǃ/ may be written gq" },
+  formerly_when_a_click_consonant: "Transcribed, two symbols were used, one for each articulation, and connected with a tie bar",
+  places_of_articulation: "Often called click types, releases, or influxes, though 'release' is also used for the accompaniment/efflux",
+  no_language: "Known to contrast more than five",
+  click_manners: "Often called click accompaniments or effluxes , but both terms have met with objections on theoretical grounds",
+  oral_clicks: "Attested with four phonations: tenuis , aspirated , voiced and breathy voiced (murmured)",
+  a_glottal_stop: "Made during the hold of the click; the (necessarily voiceless) click is released, and then the glottal hold is released into the vowel",
+  glottalised_clicks: "Very common, and they are generally nasalised as well",
+  the_backvowel_constraint: { definition: "Also triggered by labial clicks, though not by labial stops", what_it_does: "", examples: "[ǂi] involved a simple and quick transition" },
+
 };
 
 // ============================================================
