@@ -24190,6 +24190,18 @@ const FLAT_DICT = {
   wet_woodlands: { definition: "Those receiving more than 1000 mm annual rainfall, mainly located in northern Zambia, eastern Angola, central Malawi, and western Tanzania", what_it_does: "", examples: "several endemic bird species" },
   the_predominant_tree: { definition: "Miombo ( Brachystegia spp.)", what_it_does: "", examples: "the Bemba people , Lozi people , Yao people , Luvale people , Shona people , and Luba people" },
 
+  // === INGESTED 2026-06-23 02:16 ===
+  the_most_populous_countries_in_west_asia: "Iran , Turkey , Iraq , Yemen , and Saudi Arabia",
+  these_three_nations: { definition: "Listed in the European category of the United Nations Educational, Scientific, and Cultural Organisation (UNESCO)", what_it_does: "", examples: "Syria, Mesopotamia, Chaldea and Persia" },
+  west_asia: { definition: "Primarily arid and semi-arid , and can be subject to drought , but it also contains vast expanses of forest and fertile valleys", what_it_does: "", examples: "the Tigris and Euphrates , provide sources for irrigation water to support agriculture" },
+  the_anatolian_plateau: "Sandwiched between the Pontus Mountains and Taurus Mountains in Turkey",
+  the_zagros_mountains: "Located in Iran, in areas along its border with Iraq",
+  the_central_plateau_of_iran: "Divided into two drainage basins",
+  the_northern_basin: "Dasht-e Kavir (Great Salt Desert), and Dasht-e-Lut is the southern basin",
+  jebel_al_akhdar: "A small range of mountains located in northeastern Oman, bordering the Gulf of Oman",
+  the_economy_of_west_asia: "Diverse and the region experiences high economic growth",
+  the_population_of_west_asia: { definition: "Estimated at 4% of world population , up from about 39 million at the beginning of the 20th century, or about 2% of world population at the time", what_it_does: "", examples: "Judaism and Christianity , [ 43 ] are also well represented" },
+
 };
 
 // ============================================================
