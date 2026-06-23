@@ -27197,6 +27197,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 11:49 ===
   transaction_laundering: "A massive and growing problem",
 
+  // === INGESTED 2026-06-23 11:51 ===
+  the_bretton_woods_system: "A set of unified rules and policies that provided the framework necessary to create fixed international currency exchange rates",
+  the_reserves_they_sell_may_be_the_currency_it: "Pegged to, in which case the value of that currency will fall",
+  currency_board_arrangements: "The most widespread means of fixed exchange rates",
+  currency_boards: "Considered hard pegs as they allow central banks to cope with shocks to money demand without running out of reserves",
+  a_monetary_union: "Considered to be the crowning step of a process of monetary co-operation and economic integration",
+
 };
 
 // ============================================================
