@@ -26804,6 +26804,14 @@ const FLAT_DICT = {
   plugboard_wirings: "Part of the 'day settings' that specified which rotors to insert into which slot, and which plugboard connections to make",
   the_first_version_of_the_eniac_computer: { definition: "Programmed via cabling, switches and plugboards", what_it_does: "", examples: "the IBM 700/7000 series and the IBM 650 , were based on unit record machines and included plugboards" },
 
+  // === INGESTED 2026-06-23 10:18 ===
+  four_major_versions_of_system_v: "Released, numbered 1, 2, 3, and 4",
+  system_v: { definition: "The successor to 1982's UNIX System III", what_it_does: "", examples: "Sun Microsystems and DEC extended BSD" },
+  a_commercial_source_license: "Offered for $43,000, with three months of support, and a $16,000 price per additional CPU",
+  the_first_release_of_hpux: "Also an SVR2 derivative",
+  the_final_version: { definition: "Release 3.2 in 1988, which added binary compatibility to Xenix on Intel platforms (see Intel Binary Compatibility Standard )", what_it_does: "", examples: "workstations and network servers" },
+  the_target_platform: { definition: "Meant to be Intel's new IA-64 architecture and Itanium line of processors", what_it_does: "", examples: "SCO UnixWare, Compaq Tru64 UNIX , and SGI IRIX were all in decline" },
+
 };
 
 // ============================================================
