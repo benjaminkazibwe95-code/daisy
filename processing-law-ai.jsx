@@ -27031,6 +27031,23 @@ const FLAT_DICT = {
   a_historic_rfc: { definition: "One that the technology defined by the RFC is no longer recommended for use, which differs from 'Obsoletes' header in a replacement RFC", what_it_does: "", examples: "RFC 1267 , have been designated historic" },
   status_unknown: "Used for some very old RFCs, where it is unclear which status the document would get if it were published today",
 
+  // === INGESTED 2026-06-23 11:10 ===
+  the_definition: "Based on the Debian Free Software Guidelines , written and adapted primarily by Bruce Perens",
+  once_the_leadership_and_community: "Satisfied with the whole project, it can be partially released and user instruction can be documented",
+  if_the_project: { definition: "Ready to be released, it is frozen, with only serious bug fixes or security repairs occurring", what_it_does: "", examples: "its commercial products" },
+  cvcs: { definition: "Centralized with a central repository while DVCS are decentralized and have a local repository for every user", what_it_does: "", examples: "GitHub or Gitlab" },
+  next: "The core contributors with a great deal of experience and authority in the project who may guide the other contributors",
+  new_contributors: "The least experienced but with mentorship and guidance can become regular contributors",
+  groups_like_open_collective_provide_a: "For individuals to contribute monthly to supporting their favorite projects",
+  within_europe_some_notable_organizations: "Free Software Foundation Europe , open-source projects EU (OSP) and OpenForum Europe (OFE)",
+  one_australian_organization: "Linux Australia while Asia has Open source Asia and FOSSAsia",
+  copyleft_licenses: { definition: "Different in that they require recipients to use the same license for at least some parts of the distribution of their works", what_it_does: "", examples: "attribution and identification of modifications" },
+  open_source_software: { definition: "Unique in that it becomes more valuable as it is used and contributed to, instead of diminishing the resource", what_it_does: "", examples: "improved reputation or value of the project" },
+  the_social_benefits_and_interactions_of_oss: { definition: "Difficult to account for in economic models as well", what_it_does: "", examples: "universities and governments, though these same organizations benefit from the work done by OSS" },
+  while_accidental_vulnerabilities: { definition: "Possible, so are attacks by outside agents", what_it_does: "", examples: "operating systems , semiconductors , cloud , and artificial intelligence" },
+  while_all_foss_software: { definition: "Source available because this is a requirement made by the Open Source Definition , not all source available software is FOSS", what_it_does: "", examples: "attracting more external contributors who bring new perspectives and problem solving capabilities" },
+  even_though_programming: { definition: "Originally seen as a female profession, there remains a large gap in computing", what_it_does: "", examples: "open-source ecology , a movement to decentralize technologies so that any human can use them" },
+
 };
 
 // ============================================================
