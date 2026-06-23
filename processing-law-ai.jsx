@@ -27336,6 +27336,11 @@ const FLAT_DICT = {
   being_able_to_reach_out_to_customers_directly: "An important marketing strategy because it is convenient and enhances direct customer interaction",
   multichannel_marketing_strategies: "Adaptable and can evolve as new channels and technologies emerge",
 
+  // === INGESTED 2026-06-23 12:31 ===
+  a_high_roi: "The investment's gains compare favorably to its cost",
+  the_investment_with_the_largest_roi: "Usually prioritized, even though the spread of ROI over the time period of an investment should also be taken into account",
+  roi: { definition: "Not time-adjusted (unlike e.g", what_it_does: "", examples: "receivables and inventories)" },
+
 };
 
 // ============================================================
