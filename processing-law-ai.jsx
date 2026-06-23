@@ -26507,6 +26507,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 09:21 ===
   its_development: "Sponsored by the Association for Computing Machinery and the IEEE Computer Society",
 
+  // === INGESTED 2026-06-23 09:23 ===
+  application_software_is_software_that: { definition: "Intended for end-user use – not operating , administering or programming a computer", what_it_does: "", examples: "word processors, web browsers, media players, and mobile applications used in daily tasks" },
+  antitrust_trial: "Whether Microsoft's Internet Explorer web browser was part of its Windows operating system or a separate piece of application software",
+  proprietary_software: { definition: "Protected under an exclusive copyright, and a software license grants limited usage rights", what_it_does: "", examples: "smartphones and tablets" },
+  vertical_applications: { definition: "Niche products , designed for a particular type of industry or business, or department within an organization", what_it_does: "", examples: "manufacturing or banking worker, accounting, or customer service" },
+  a_kind: "Included in only one category even if it logically fits in multiple",
+
 };
 
 // ============================================================
