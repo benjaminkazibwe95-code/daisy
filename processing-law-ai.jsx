@@ -25181,6 +25181,13 @@ const FLAT_DICT = {
   it_found_that_most_people_in_these_countries: "Largely ignorant of the Commonwealth's activities, aside from the Commonwealth Games , and indifferent toward its future",
   support_for_the_commonwealth: "Twice as high in developing countries as in developed countries; it was lowest in the United Kingdom",
 
+  // === INGESTED 2026-06-23 05:34 ===
+  the_voice_nigeria: "The Nigerian franchise of the TV series The Voice",
+  the_talents: "Cut from 32 to 16 to 12 to 8 of them who qualify for the finals",
+  the_four_coaches_for_the_inaugural_season: "Nigerian artistes Waje , Timi Dakolo , Patoranking and 2baba aka Tuface (formerly known as 2face Idibia )",
+  the_programme: "Hosted by IK Osakioduwa and Stephanie Coker",
+  idyl_from_team_timi: "Announced as the winner of the second series of The Voice Nigeria and Ebube from Team Patoranking as runner-up",
+
 };
 
 // ============================================================
