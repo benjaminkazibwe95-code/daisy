@@ -29963,6 +29963,23 @@ const FLAT_DICT = {
   an_example_of_a_student_using_reversibility: { definition: "When learning new vocabulary", what_it_does: "", examples: "theory and practice, leading to a more 'child-centered' approach" },
   here_the_knowledge_that_emerges: { definition: "Open, flexible and regulated by the logic of argument rather than being determined by an external authority", what_it_does: "", examples: "Neo-Piagetian stages have been applied to the maximum stage attained by various animals" },
 
+  // === INGESTED 2026-06-23 22:19 ===
+  commonly_encountered_mnemonics: "Often used for lists and in auditory form such as short poems , acronyms , initialisms or memorable phrases",
+  the_former_is_inborn_and: "The one that everyone uses instinctively",
+  mnemonic_systems: { definition: "Techniques or strategies consciously used to improve memory", what_it_does: "use information already stored in long-term memory to make memorization an easier task", examples: "" },
+  both_of_these_words: "Derived from μνήμη ( mnēmē ), ' remembrance, memory '",
+  philosopher_charmadas: "Famous for his outstanding memory and for his ability to memorize whole books and then recite them",
+  the_most_usual_method: "To choose a large house, of which the apartments, walls, windows, statues, furniture, etc",
+  except_that_the_rules_of_mnemonics: "Referred to by Martianus Capella , nothing further is known regarding the practice until the 13th century",
+  the_most_complete_account_of_his_system: "Given in two works by his pupil Martin Sommer, published in Venice in 1619",
+  other_writers_of_this_period: "The Florentine Publicius (1482); Johannes Romberch (1533); Hieronimo Morafiot , Ars memoriae (1602);and B",
+  a_later_modification: "Made in 1806 Gregor von Feinaigle , a German monk from Salem near Constance",
+  this_alphabet: "Supplemented by a complicated system of localities and signs",
+  the_most_commonly_used_mnemonics: "Those for lists, numerical sequences, foreign-language acquisition, and medical treatment for patients with memory deficits",
+  spanish_verb_forms_and_tenses: "Regularly seen as the hardest part of learning the language",
+  command_verbs_in_spanish: { definition: "Conjugated differently depending on who the command is being given to", what_it_does: "", examples: "the mnemonics technique" },
+  delayed_recall_of_a_word_list: "Assessed prior to, and immediately following mnemonic training, and at the 5-year follow-up",
+
 };
 
 // ============================================================
