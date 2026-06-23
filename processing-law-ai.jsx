@@ -25434,6 +25434,15 @@ const FLAT_DICT = {
   other_african_oil_producing_countries: "Gabon , the DRC, Cameroon , Tunisia , Equatorial Guinea , the Republic of the Congo , Ivory Coast , and more recently, Ghana",
   included_in_this_list: "Chad , Sudan , Namibia , South Africa , and Madagascar , whilst Mozambique and Tanzania are potential oil producers",
 
+  // === INGESTED 2026-06-23 06:34 ===
+  at_the_time_when_the_kingdom: "Flourishing, tree cover would have been more extensive and the soil less degraded than it is today",
+  dala: "Said to have had six generations of rulers before the arrival of Bagauda",
+  it_is_unknown_whether_these: { definition: "Hausa people or speakers of Niger–Congo languages", what_it_does: "", examples: "late as the end of the 15th century and the beginning of the 16th century by Bornoan sources" },
+  barbushe: "A great hunter who 'slew elephants with his stick and carried them on his head about nine miles",
+  the_names: { definition: "Preserved as titles of princes to this day", what_it_does: "", examples: "the conquest of Zamnagaba and the occupation of Rano for two years" },
+  other_clans: "Competing with the sultanate for control",
+  muskets_and_gunpowder: "Manufactured locally, and the city of Timbuktu depended on the Sultanate for protection",
+
 };
 
 // ============================================================
