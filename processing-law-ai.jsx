@@ -25006,6 +25006,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 04:52 ===
   another_islamic_cemetery: "Found at Arra 30 km southwards and was used between the mid-12th and mid-14th century, with most tombstones dating to the 13th century",
 
+  // === INGESTED 2026-06-23 04:54 ===
+  the_global_mpi: "Released annually by UNDP and OPHI and the results are published on their websites",
+  the_mpi: "Published along with the Human Development Index (HDI) in the Human Development Report",
+  a_household: { definition: "Assigned a 'deprivation score' determined by the number of indicators they are deprived in and the 'weights' assigned to those indicators", what_it_does: "", examples: "income and consumption" },
+  these_deprivation_profiles: "Analysed to identify who is poor and then used to construct a multidimensional index of poverty (MPI)",
+  the_most_common_way_of_measuring_poverty: "To calculate the percentage of the population who are poor, known as the headcount ratio ( H )",
+  having_identified_who: "Poor, the AF methodology generates a unique class of poverty measures ( Mα ) that goes beyond the simple headcount ratio",
+  three_measures_in_this_class: "Of high importance: M0 can be calculated with ordinal as well as cardinal data, which is why it is most often used",
+  cardinal_data: "Required to calculate M1 and M2",
+
 };
 
 // ============================================================
