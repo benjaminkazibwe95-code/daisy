@@ -27293,6 +27293,9 @@ const FLAT_DICT = {
   their_cells: { definition: "Extremely small, 1 to 2 micrometres across", what_it_does: "", examples: "fruit trees" },
   nematodes: { definition: "Able to cause radical changes in root cells in order to facilitate their lifestyle", what_it_does: "", examples: "Phytomonas , a kinetoplastid" },
 
+  // === INGESTED 2026-06-23 12:16 ===
+  the_promise_of_tcommerce: "To enhance shopping channels as well as regular TV ads by offering consumers a 'One-Click' 'Buy It' possibility",
+
 };
 
 // ============================================================
