@@ -26451,6 +26451,16 @@ const FLAT_DICT = {
   second_life_for_instance: { definition: "Designed with the expectation being on the residents to establish their own community rules for appropriate behaviour", what_it_does: "", examples: "Habbo enforce clear rules for behaviour, [ 62 ] as seen in their terms and conditions" },
   notable_shutdowns: { definition: "The Sims Online, The Sims Bustin Out Online Weekend Mode, PlayStation Home, and Club Penguin", what_it_does: "", examples: "the structure of the environment" },
 
+  // === INGESTED 2026-06-23 09:11 ===
+  the_gdpr: { definition: "An important component of EU privacy law and human rights law , in particular Article 8(1) of the Charter of Fundamental Rights of the European Union", what_it_does: "", examples: "in Brazil , [ 3 ] Japan , Singapore , South Africa , South Korea , Sri Lanka , and Thailand" },
+  the_right_to_data_portability: "Provided by Article 20",
+  a_right_to_be_forgotten: "Replaced by a more limited right of erasure in the version of the GDPR that was adopted by the European Parliament in March 2014",
+  compensation: { definition: "Determined nationally in accordance with national law", what_it_does: "", examples: "audit, internal controls, and operations" },
+  risk_assessment_and_mitigation: { definition: "Required and prior approval of the data protection authorities is required for high risks", what_it_does: "", examples: "the decryption key) to be kept separately from the pseudonymised data" },
+  when_the_processing: "Based on consent the data subject has the right to revoke it at any time",
+  a_typical_disclaimer: { definition: "Not considered sufficient to gain assumed consent to record calls", what_it_does: "", examples: "Facebook and Google ) that the regulation is ostensibly meant to target first and foremost" },
+  the_proposed_eprivacy_regulation: "Also planned to be applicable from 25 May 2018, but will be delayed for several months",
+
 };
 
 // ============================================================
