@@ -25654,6 +25654,22 @@ const FLAT_DICT = {
   a_prime_goal_for_explorers: "To locate the source of the River Nile",
   among_the_discoveries_of_schweinfurth: "One that confirmed Greek legends of the existence beyond Egypt of a 'pygmy race'",
 
+  // === INGESTED 2026-06-23 07:04 ===
+  tanganyika: "A colonial territory in East Africa which was administered by the United Kingdom in various forms from 1916 until 1961",
+  he_wrote_that_the_locals: "Not sure about its meaning and conjectured that it meant something like 'the great lake spreading out like a plain', or 'plain-like lake'",
+  the_island_of_zanzibar: { definition: "Even taken as a part of the Sultanate of Oman ; when Seyyid Said came to power in 1806, Omani interests in Tanzania began to increase", what_it_does: "", examples: "the Yao in the south of the country" },
+  sisal: "Especially valuable to rope production, and was one of German East Africa's largest exports",
+  this_railroad: "Still in use today and has since been connected to other railways across the country",
+  the_following_year_it: "Granted internal self-government and fresh elections were held",
+  both_elections: "Won by the Tanganyika African National Union (TANU), which led the country to independence in December 1961",
+  the_following_year_a_presidential_election: "Held, with TANU leader Julius Nyerere emerging victorious",
+  bryatt: "An unpopular politician, and his policies of expelling Germans halved Tanganyika's European population",
+  many_of_the_exgerman_plantations: "Sold to European companies and mixed farms were given to new British owners",
+  many_of_them: "Employed from the Indian administration to work for the Tanganyikan administration",
+  the_majority_of_the_voters_in_tanganyika: "African, approximately two-thirds of the 28,500 registered voters, [ 14 ] with them coming from across the country",
+  utp: "Less effective due to the £4,000 annual salary for Willis which limited the party's effectiveness, as they lacked funds to campaign effectively",
+  the_main_leader_of_the_independence_movement: { definition: "Undoubtedly Nyerere, who led the party TANU, which was a socially diverse group which had shared demands for independence from Britain", what_it_does: "", examples: "poor financial resources and inadequate levels of infrastructure" },
+
 };
 
 // ============================================================
