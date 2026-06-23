@@ -25396,6 +25396,16 @@ const FLAT_DICT = {
   the_ghf_military_doctrine_and_stated_mission: "To perform counterinsurgency operations within Ghana or externally and to provide logistical support to the Ghana Army",
   the_military_private_bank: { definition: "Sited at Burma Camp and serves Ghanaian military personnel and their civilian counterparts", what_it_does: "", examples: "to GAF personnel" },
 
+  // === INGESTED 2026-06-23 06:22 ===
+  the_broader_scope: "Renamed Central Tano to avoid ambiguity",
+  the_largest_akan_migration: { definition: "To Ghana in successive waves between the 11th and 18th centuries", what_it_does: "", examples: "symbols used in carvings and on clothes" },
+  the_transcriptions_in_the_tables_below: "In the order / phonemic /, [ phonetic ]",
+  all_fourteen: "Distinguished in the Gold Coast alphabet of the colonial era",
+  a_tongueroot_distinction_in_orthographic_a: { definition: "Only found in some subdialects of Fante, but not in the literary form; in Asante and Akuapem there are harmonic allophones of /a/ , but neither is ATR", what_it_does: "", examples: "reduplicated prefixes" },
+  although_this_system: { definition: "Now largely defunct, remnants of it persist in modern Twi-Fante plural formation, particularly through prefixes and suffixes", what_it_does: "", examples: "initial ab- becomes mm- and ad- becomes nn- in plural forms" },
+  this_suffix: { definition: "Used with profession- or agent-based nouns", what_it_does: "", examples: "onua → enuanom )" },
+  the_twifante_language: "Studied in these universities as a bachelor or masters program",
+
 };
 
 // ============================================================
