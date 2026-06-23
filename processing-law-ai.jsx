@@ -29328,6 +29328,21 @@ const FLAT_DICT = {
   it_risk: "A risk related to information technology",
   travel_risk_management: "Concerned with how organisations assess the risks to their staff when travelling , especially when travelling overseas",
 
+  // === INGESTED 2026-06-23 19:44 ===
+  a_common_path_towards_diversification: "To reduce risk or volatility by investing in a variety of assets",
+  the_simplest_example_of_diversification: "Provided by the proverb ' Don't put all your eggs in one basket '",
+  sometimes_quoted: "30, although it can be as low as 10 provided they are carefully chosen",
+  risk_parity: "The special case of correlation parity when all pair-wise correlations are equal",
+  synonyms_for_diversifiable_risk: "Idiosyncratic risk, unsystematic risk, and security-specific risk",
+  synonyms_for_nondiversifiable_risk: "Systematic risk , beta risk and market risk",
+  the_first_risk: "Called 'non-diversifiable', because it exists however many S&P 500 stocks are bought",
+  the_second_risk: "Called 'diversifiable', because it can be reduced by diversifying among stocks",
+  their_results: "Summarized in the following table",
+  horizontal_diversification: "Thought of as expanding a product line or acquiring related companies",
+  vertical_diversification: "Synonymous with integrating the supply chain or amalgamating distributions channels",
+  a_common_belief: "Younger investors should avoid bonds and emphasize stocks, due to the belief investors will have time to recover from any downturns",
+  the_formula_given_there: "To split one's assets into thirds: one third in business (buying and selling things), one third kept liquid (e.g",
+
 };
 
 // ============================================================
