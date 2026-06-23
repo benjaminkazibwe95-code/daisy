@@ -23807,6 +23807,9 @@ const FLAT_DICT = {
   who: "Sported by the Head teacher after the 2019 edition from Mbale into coach Frank Muwuluzi 's team captained by Mbowa Najib",
   kinaawa: "One of the schools that fielded 10 players under different categories",
 
+  // === INGESTED 2026-06-23 01:07 ===
+  the_first_chancellor_of_iuea: "Emmanuel Tumusiime-Mutebile , who was Governor of the Bank of Uganda , the national Central Bank",
+
 };
 
 // ============================================================
