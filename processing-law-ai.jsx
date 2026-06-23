@@ -25426,6 +25426,10 @@ const FLAT_DICT = {
   relatives: "Given key posts, and the faama was the head priest of powerful and important religious cults",
   most_other_provinces: "Governed by local elites who pledged loyalty to the faama or appointed governors",
 
+  // === INGESTED 2026-06-23 06:30 ===
+  the_ruler: "The first Kongo lord to be baptized when Christian missionaries came to the kingdom of Kongo in 1491",
+  soyo: "Actively involved in Kongo's politics during and after Garcia II's reign, especially as defenders of the Kimpanzu branch of the family",
+
 };
 
 // ============================================================
