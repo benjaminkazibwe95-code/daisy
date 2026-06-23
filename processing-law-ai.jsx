@@ -28031,6 +28031,26 @@ const FLAT_DICT = {
   the_real_gain: "The gain over the competition",
   but_public_choice_theorists: { definition: "Ideologically diverse", what_it_does: "", examples: "advocated a strong state and opposed political interest group lobbying" },
 
+  // === INGESTED 2026-06-23 15:06 ===
+  this_methodology: "Introduced by Robert Solow and Trevor Swan in 1957",
+  the_production_functions: "Understood and formulated differently in growth accounting and management accounting",
+  in_growth_accounting_the_production_function: "Formulated as a function OUTPUT=F (INPUT), which formulation leads to maximize the average productivity ratio OUTPUT/INPUT",
+  instead_the_production_function: "Formulated as a function INCOME=F(OUTPUT-INPUT) which is to be maximized",
+  the_name_of_the_game: "To maximize income, not to maximize productivity or production",
+  this_remainder: "The increase in the productivity of factors that happened over the period, or the measure of technological progress during this time",
+  because_the_accounting_result: "Obtained by subtracting it is often called a 'residual'",
+  the_residual: "Often defined as the growth rate of output not explained by the share-weighted growth rates of the inputs",
+  when_the_production_data: "The same in the model comparison the differences in the accounting results are only due to accounting models",
+  then_the_weights_of_inputs: "Computed as input shares of the total input (Period 1)",
+  the_accounting_result: "Obtained by subtracting the weighted growth rates of the inputs from the growth rate of the output",
+  in_this_case_the_accounting_result: "0.015 which implies a productivity growth by 1.5%",
+  in_the_productivity_model_the_input_volume: "Used as a production volume measure giving the growth rate 1.063",
+  in_this_case_productivity: "Defined as follows: input consumption per one unit of output volume",
+  this_is_due_to_the_fact_that_productivity: "Accounted as an independent variable separated from the entity it belongs to, i.e",
+  by_studying_only_this_isolated_issue_we: "Likely to end up with incorrect conclusions",
+  let_us_assume_we: "Studying the properties of water in putting out a fire",
+  wages_paid_to_labor: "Denoted by w and the rate of profit or the real interest rate is denoted by r",
+
 };
 
 // ============================================================
