@@ -24552,6 +24552,19 @@ const FLAT_DICT = {
   nasalized_vowels: { definition: "Vowels influenced by nearby sounds", what_it_does: "", examples: "for high vowels in Chamorro and low vowels in Thai" },
   the_notation_of_terry_and_webb: "Used below, where V, N, and Ṽ (with a tilde above) represent oral vowel, nasal consonant, and nasal vowel, respectively",
 
+  // === INGESTED 2026-06-23 03:25 ===
+  fluency_in_a_particular_language_variety: { definition: "A speaker internalizing these rules, many or most of which are acquired by observing other speakers, as opposed to intentional study or instruction", what_it_does: "", examples: "English grammar could describe the rules followed by every one of the language's speakers" },
+  the_first_grammar_of_slovene: "Written in 1583 by Adam Bohorič , and Grammatica Germanicae Linguae , the first grammar of German, was published in 1578",
+  the_deutsche_grammatik_of_jacob_grimm: "First published in the 1810s",
+  parse_trees: "Commonly used by such frameworks to depict their rules",
+  as_rules: { definition: "Established and developed, the prescriptive concept of grammatical correctness can arise", what_it_does: "", examples: "naturalistic Interlingua , schematic Esperanto , and the highly logical Lojban )" },
+  because_latin_words: "Quite (though not totally) self-contained, an intelligible Latin sentence can be made from elements that are arranged almost arbitrarily",
+  prescriptive_grammar: { definition: "Taught in primary and secondary school", what_it_does: "", examples: "Homer, Virgil, Euripides, and others)" },
+  standard_italian: { definition: "Based on the speech of Florence rather than the capital because of its influence on early literature", what_it_does: "", examples: "Castile and León (see Gramática de la lengua castellana )" },
+  in_argentina_and_uruguay_the_spanish_standard: "Based on the local dialects of Buenos Aires and Montevideo ( Rioplatense Spanish )",
+  nynorsk: "Backed by 27 percent of municipalities",
+  modern_standard_arabic: "Directly based on Classical Arabic , the language of the Qur'an",
+
 };
 
 // ============================================================
