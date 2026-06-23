@@ -24949,6 +24949,34 @@ const FLAT_DICT = {
   dancepop_music: { definition: "Usually created, composed and produced by record producers who would then hire singers to perform the songs", what_it_does: "", examples: "Kylie Minogue , Dead or Alive and Bananarama" },
   the_inaugural_winner: "Kylie Minogue for her single ' Padam Padam ', highlighting her continued influence in the genre",
 
+  // === INGESTED 2026-06-23 04:46 ===
+  the_gregorian_calendar: "A reform of the Julian calendar",
+  the_principal_change: "To space leap years slightly differently to make the average calendar year 365.2425 days long rather than the Julian calendar's 365",
+  the_rule_for_leap_years: { definition: "That every year divisible by four is a leap year, except for years that are divisible by 100, except in turn for years also divisible by 400", what_it_does: "", examples: "1800 and 1900 were not leap years, but 1600 and 2000 were leap years" },
+  this_date: "Important to the Christian churches, because it is fundamental to the calculation of the date of Easter",
+  the_reform: "Adopted initially by the Catholic countries of Europe and their overseas possessions",
+  a_mean_calendar_year: "⁠365 + 97 / 400 ⁠ days = 365.2425 days, or 365 days, 5 hours, 49 minutes and 12 seconds",
+  the_motivation_for_the_adjustment: "To bring the date for the celebration of Easter to the time of year in which it was celebrated when it was introduced by the early Church",
+  easter: "Celebrated on the Sunday after the ecclesiastical full moon on or after 21 March, which was adopted as an approximation to the March equinox",
+  an_attempt_to_go_forward_with_such_a_reform: "Undertaken by Pope Sixtus IV , who in 1475 invited Regiomontanus to the Vatican for this purpose",
+  all_values: "The same to two sexagesimal places (0;14,33, equal to decimal 0.2425) and this is also the mean length of the Gregorian year",
+  the_proposed_rule: "That 'years divisible by 100 would be leap years only if they were divisible by 400 as well'",
+  the_method_proposed_by_lilius: "Revised somewhat in the final reform",
+  the_papal_brief: "Revoked on 20 September 1582, because Antonio Lilio proved unable to keep up with the demand for copies",
+  the_changes_that_he_was_proposing: { definition: "Changes to the civil calendar, which required adoption by the civil authorities in each country to have legal effect", what_it_does: "", examples: "the eastern part of what is now the United States) adopted the Gregorian calendar in 1752" },
+  the_start_of_the_fiscal_year: "Eventually fixed at 1 March and the year number was roughly equivalent to the Hijri year (see Rumi calendar )",
+  as_the_solar_year: "Longer than the lunar year, this originally entailed the use of 'escape years' every so often when the number of the fiscal year would jump",
+  a_negative_difference: "The Julian calendar is ahead of the Gregorian calendar",
+  thus_if_the_calculated_value: "−4 the Gregorian equivalent of this date is 24 February",
+  these_two_reforms: { definition: "Implemented by the Calendar (New Style) Act 1750", what_it_does: "", examples: "Russia where no start of year adjustment took place, O.S" },
+  of_xxviij: "But oon And alle the remenaunt xxx and j",
+  a_similar_mnemonic: "To move up a piano keyboard in semitones from an F key, taking the white keys as the longer months and the black keys as the shorter ones",
+  calculating_the_day_of_the_week: "Not very simple, because of the irregularities in the Gregorian system",
+  when_the_gregorian_calendar: "Adopted by each country, the weekly cycle continued uninterrupted",
+  the_y_axis: "The date of the solstice in June and the x -axis is Gregorian calendar years",
+  each_point: "The date and time of the June solstice in that particular year",
+  centurial_years: "Ordinary years, unless they are divisible by 400, in which case they are leap years",
+
 };
 
 // ============================================================
