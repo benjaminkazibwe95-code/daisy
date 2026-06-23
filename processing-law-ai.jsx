@@ -29109,6 +29109,32 @@ const FLAT_DICT = {
   in_practice_this: { definition: "That the bank sets a reserve ratio target and responds when the actual ratio falls below the target", what_it_does: "", examples: "As with reserves, other sources of liquidity are managed with targets" },
   assets_and_liabilities: { definition: "Put into residual contractual maturity buckets such as 'on demand', 'less than 1 month', '2–3 months' etc", what_it_does: "", examples: "stress scenarios such as a bank-specific crisis" },
 
+  // === INGESTED 2026-06-23 18:52 ===
+  preseed_and_seed_rounds: "The initial stages of funding for a startup company, [ 2 ] typically occurring early in its development",
+  this_initial_capital_injection: { definition: "Crucial for startups to kickstart their journey and attract further investment in subsequent funding rounds", what_it_does: "", examples: "a competitor" },
+  it_was_a_business_that: "Growing very rapidly, and as the business grew, the transactions grew exponentially",
+  an_early_west_coast_venture_capital_company: "Draper and Johnson Investment Company, formed in 1962 [ 14 ] by William Henry Draper III and Franklin P",
+  the_nvca: { definition: "To serve as the industry trade group for the venture capital industry", what_it_does: "", examples: "many investments in privately held companies" },
+  this_return: "Generally earned when the venture capitalist 'exits' by selling its shareholdings when the business is sold to another owner",
+  venture_capitalists_also: "Expected to nurture the companies in which they invest, in order to increase the likelihood of reaching an IPO stage when valuations are favourable",
+  the_venture_capitalist: "Often expected to bring managerial and technical expertise, as well as capital, to their investments",
+  investors_in_venture_capital_funds: "Known as limited partners",
+  the_investing_cycle_for_most_funds: "Generally three to five years, after which the focus is managing and making follow-on investments in an existing portfolio",
+  the_vintage_year_generally: { definition: "The year in which the fund was closed and may serve as a means to stratify VC funds for comparison", what_it_does: "", examples: "the need to not have unrelated business taxable income in the case of public tax-exempt investors" },
+  equity_crowdfunding: "Emerging as an alternative to traditional venture capital",
+  traditional_crowdfunding: "An approach to raising the capital required for a new project or enterprise by appealing to large numbers of ordinary people for small donations",
+  some_equity_crowdfunding_models: "Also being applied specifically for startup funding, such as those listed at Comparison of crowd funding services",
+  the_traditional_vcs: "Shifting their focus to later-stage investments, and return on investment of many VC funds have been low or negative",
+  media_for_equity_investors: { definition: "Able to supply start-ups with often significant advertising campaigns in return for equity", what_it_does: "", examples: "mining, or manufacturing industries" },
+  this_surge: { definition: "Primarily driven by massive investments and soaring valuations in the artificial intelligence (AI) sector", what_it_does: "", examples: "Nubank , Stone, and PicPay" },
+  its_community: { definition: "Invested in its fund, and lean into assist with sourcing and evaluating deal opportunities, as well as supporting companies post-investment", what_it_does: "", examples: "NAB Ventures, Reinventure (associated with Westpac), IAG Firemark Ventures, and Telstra Ventures" },
+  this_disparity_exists_across_industries_and: "Unaffected by the business cycle or year of establishment",
+  vietnam: "Experiencing its first foreign venture capitals, including IDG Venture Vietnam ($100 million) and DFJ Vinacapital ($35 million)",
+  garena: "Reportedly the highest-valued unicorn in the region with a US$3.5 billion price tag, while Grab is the highest-funded, having raised a total of US$1",
+  a_public_consultation_on_the_proposals: "Held in January 2017 with changes expected to be introduced by July",
+  companies: "Allowed to use a tax-efficient structure similar to VCTs in the UK",
+  entrepreneurs: "Typically well advised to protect truly proprietary intellectual property",
+
 };
 
 // ============================================================
