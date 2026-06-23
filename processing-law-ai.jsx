@@ -24918,6 +24918,11 @@ const FLAT_DICT = {
   total_and_unconditional_surrender_in_europe: { definition: "Signed on 7 and 8 May , to be effective by the end of 8 May", what_it_does: "", examples: "at least 20 million who died from deprivation, famine and disease" },
   the_use_of_the_jet_aircraft: { definition: "Pioneered and led to jets becoming standard in air forces worldwide", what_it_does: "", examples: "the Type VII submarine and wolfpack tactics" },
 
+  // === INGESTED 2026-06-23 04:40 ===
+  the_dry_season: "A yearly period of low rainfall, especially in the tropics",
+  the_weather_in_the_tropics: "Dominated by the tropical rain belt , which moves from the northern to the southern tropics and back over the course of the year",
+  at_the_equator_there: "Two wet and two dry seasons, as the rain belt passes over twice a year, once moving north and once moving south",
+
 };
 
 // ============================================================
