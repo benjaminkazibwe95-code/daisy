@@ -27194,6 +27194,9 @@ const FLAT_DICT = {
   miners: "Rewarded for solving these puzzles and successfully adding new blocks",
   the_energy_used_in_this_competition: "What fundamentally gives Bitcoin its level of security and resistance to attacks",
 
+  // === INGESTED 2026-06-23 11:49 ===
+  transaction_laundering: "A massive and growing problem",
+
 };
 
 // ============================================================
