@@ -27079,6 +27079,32 @@ const FLAT_DICT = {
   the_main_goals_of_this_committee: { definition: "To promote small minority owned businesses, while also providing opportunities for minority men and women", what_it_does: "", examples: "the historically black colleges and universities (HBCUs) [ 35 ]" },
   webtrust: "A family of e-commerce assurance and auditing programs co-developed by the AICPA with the Canadian Institute of Chartered Accountants (CICA)",
 
+  // === INGESTED 2026-06-23 11:22 ===
+  the_first_phase_of_the_crisis: { definition: "The subprime mortgage crisis , which began in early 2007, as mortgage-backed securities (MBS) tied to U.S", what_it_does: "", examples: "investment banking and proprietary trading" },
+  the_basel_iii_capital_and_liquidity_standards: { definition: "Also adopted by countries around the world", what_it_does: "", examples: "credit default swaps also increased the linkage between large financial institutions" },
+  in_some_cases_the_fed: { definition: "Considered the 'buyer of last resort'", what_it_does: "", examples: "investing in emerging markets and foreign currencies" },
+  businesses: "Cancelling planned investments and laying off workers to preserve cash",
+  a_homeowner_with_equity_in_her_home: "Very unlikely to default on a car loan or credit card debt",
+  the_problem_with_the_economy: "The loss of close to $6 trillion in housing wealth and an even larger amount of stock wealth",
+  one_of_these_steps: "A credit line for major traders, who act as the Fed's partners in open market activities",
+  many_homeowners_who: "Trying to keep their homes from going into default got housing credits",
+  a_package_of_policies: "Passed that let borrowers refinance their loans even though the value of their homes was less than what they still owed on their mortgages",
+  the_riskiest_loans: { definition: "Originated in 2004–2007, the years of the most intense competition between securitizers and the lowest market share for the GSEs", what_it_does: "", examples: "Countrywide" },
+  housing_policy: "Not the cause of the crisis) is challenged by additional analysis",
+  most_of_the_commercial_real_estate_loans: "Good loans destroyed by a really bad economy",
+  mortgages_outstanding: "Either delinquent or in foreclosure",
+  private_debt: "123% of GDP; by the third quarter of 2008, it was 290%",
+  consumers: "Pulling back on purchases, especially on durable goods, to build their savings",
+  and_financial_institutions: { definition: "Shrinking assets to bolster capital and improve their chances of weathering the current storm", what_it_does: "", examples: "the default of a borrower) or to assist with obtaining financing" },
+  professional_investment_managers_generally: "Compensated based on the volume of client assets under management",
+  the_combined_effect_of_these_factors: "A financial system vulnerable to self-reinforcing asset price and credit cycles",
+  lending_mechanism: { definition: "Frozen and continued to be frozen into June 2009", what_it_does: "", examples: "former U.S" },
+  indymac: "Taking new measures to preserve capital, such as deferring interest payments on some preferred securities",
+  its_reduced_liquidity: "Further exacerbated in late June 2008 when account holders withdrew $1.55 billion (~$2.21 billion in 2024) or about 7.5% of IndyMac's deposits",
+  while_the_run: "A contributing factor in the timing of IndyMac's demise, the underlying cause of the failure was the unsafe and unsound way it was operated",
+  telephone_and_internet_account_access: "Restored when the bank reopened",
+  fuld_said_he: "A victim of the collapse, blaming a 'crisis of confidence' in the markets for dooming his firm",
+
 };
 
 // ============================================================
