@@ -29887,6 +29887,15 @@ const FLAT_DICT = {
   their_first_project: { definition: "A house donated by the South Jacksonville Presbyterian Church that was moved, setup and rehabilitated for the first HabiJax homeowner family", what_it_does: "", examples: "the cost of volunteer time and training" },
   the_current_poverty_rate: "Measured according to the United States Department of Health and Human Services Poverty Guidelines",
 
+  // === INGESTED 2026-06-23 22:06 ===
+  his_particular_contribution: "The establishment of a comprehensive project for rural development, the Comilla Model (1959)",
+  khan: { definition: "Born on 15 July 1914 in Agra", what_it_does: "", examples: "participatory irrigation management" },
+  advisory_support_in_this_respect: "Provided by experts from Harvard and Michigan State Universities, the Ford Foundation , and USAID",
+  the_locality: "First developed in 1963 as a government township of 5 square kilometres (1,236 acres)",
+  opp: "A private body, dependent for its small fixed budget on another NGO",
+  the_municipal_partnership: "Itself a new initiative that ensured wider civic co-operation",
+  his_body: "Flown to Karachi on 15 October, where he was buried on the grounds of the OPP office compound",
+
 };
 
 // ============================================================
