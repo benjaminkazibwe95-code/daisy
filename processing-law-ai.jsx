@@ -25201,6 +25201,9 @@ const FLAT_DICT = {
   when_the_boers_realized_they: { definition: "Being confronted by unseen enemies, they shot wildly into the mist, injuring and killing some of the Zulu", what_it_does: "", examples: "George Theal ) played a central role in fostering Afrikaner nationalism [ citation needed ]" },
   while_the_blood_river_memorial: "Associated with Afrikaner nationalism, the Ncome monument was intended as a symbol of reconciliation—but has become connected with Zulu nationalism",
 
+  // === INGESTED 2026-06-23 05:38 ===
+  merchandise_imports_are_goods_that: "Produced in one country and purchased to another country",
+
 };
 
 // ============================================================
