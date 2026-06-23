@@ -27277,6 +27277,14 @@ const FLAT_DICT = {
   this_commission: { definition: "Authorized to issue ' cease and desist ' orders to large corporations to curb unfair trade practices", what_it_does: "", examples: "banks, savings and loans institutions, federal credit unions—each as described in the FTC Act" },
   if_the_representation_or_practice: { definition: "Directed to a particular group, the Commission will consider reasonableness from that targeted group's perspective", what_it_does: "", examples: "restitution or disgorgement" },
 
+  // === INGESTED 2026-06-23 12:12 ===
+  encryption_software: { definition: "Software that uses cryptography to prevent unauthorized access to digital information", what_it_does: "", examples: "the Internet" },
+  one_way_to_classify_this_type_of_software: "The type of cipher used",
+  another_way_to_classify_software_encryption: { definition: "To categorize its purpose", what_it_does: "", examples: "audio and video information" },
+  data_in_transit_is_data_that: "Being sent over a computer network",
+  when_the_data: { definition: "Between two endpoints, any confidential information may be vulnerable", what_it_does: "", examples: "in the case of visiting a website" },
+  data_at_rest: { definition: "Generally encrypted by a symmetric key", what_it_does: "", examples: "database or other applications that run on the host operating system" },
+
 };
 
 // ============================================================
