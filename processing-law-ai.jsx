@@ -29380,6 +29380,12 @@ const FLAT_DICT = {
   pakistan: "Also building Munda Dam on Swat River",
   the_bollywood_film_dil_se: "Shot during the first Sindhu Darshan Festival in October 1997",
 
+  // === INGESTED 2026-06-23 19:54 ===
+  these_mncs: "Among the largest and most-profitable companies",
+  threequarters_of_mncs: { definition: "Headquartered in economically advanced countries", what_it_does: "", examples: "China, India, and Brazil are the largest recipients of MNC investment" },
+  the_range_is_so_broad_that_scholarly_consensus: { definition: "Difficult to discern", what_it_does: "", examples: "marginal farming or the informal economy" },
+  although_multinationals: "Primarily driven by profit, Krugman argued that the main beneficiaries are not capital owners but workers in developing countries",
+
 };
 
 // ============================================================
