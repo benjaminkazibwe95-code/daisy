@@ -29881,6 +29881,12 @@ const FLAT_DICT = {
   opportunity_cost: "The concept of ensuring efficient use of scarce resources, [ 22 ] a concept that is central to health economics",
   the_increased_demand_for_days_in_bed: "Due to the fact that infected hospitalized patients stay in bed longer, shifting the demand curve to the right (see curve D2 in Graph1.11)",
 
+  // === INGESTED 2026-06-23 22:04 ===
+  habijax: "Named the eighth-largest homebuilder in the United States by Builder magazine for 2009",
+  initial_funding: "Secured from the Jessie Ball duPont Fund",
+  their_first_project: { definition: "A house donated by the South Jacksonville Presbyterian Church that was moved, setup and rehabilitated for the first HabiJax homeowner family", what_it_does: "", examples: "the cost of volunteer time and training" },
+  the_current_poverty_rate: "Measured according to the United States Department of Health and Human Services Poverty Guidelines",
+
 };
 
 // ============================================================
