@@ -24489,6 +24489,20 @@ const FLAT_DICT = {
   this_abobokur_yusuf: "Accustomed to send messengers to Brava for tribute, and he drew thence about 2,000 dollars per annum",
   after_independence_the_town: "Largely ignored by the Somali government",
 
+  // === INGESTED 2026-06-23 03:10 ===
+  a_word_may_be_spoken_individually_in_what: "Called the citation form",
+  elision: "Extremely common in the pronunciation of the Japanese language",
+  in_casual_speech_it: "Frequently weakened to a voiced dental approximant [ð̞]",
+  contractions_of_both_sorts: { definition: "Natural forms of the language used by native speakers and are often colloquial but not considered substandard", what_it_does: "", examples: "English, the omitted letters in a contraction are replaced by an apostrophe (e.g" },
+  frequently_found_examples: { definition: "Over > o'er and ever > e'er", what_it_does: "", examples: "him and going to shown in the table above, are generally used only in fast or informal speech" },
+  they_are_still_generally_written_as: "Unless the writer intends to show the dialect or speech patterns of the speaker",
+  the_third_type_of_elision: "In common contractions, such as can't , isn't , or I'm",
+  the_apostrophes_represent_the_sounds_that: "Removed and are not spoken but help the reader to understand that it is a contraction and not a word of its own",
+  elision_of_vowel_and_consonant_sounds: "Also an important phenomenon in the phonological evolution of French",
+  the_final_e_of_a_noun: "Also elided when another noun or suffix is concatenated onto it: Strafe + Gesetzbuch becomes Strafgesetzbuch",
+  a_frequent_informal_use: "The elision of d in the past participle suffix -ado , pronouncing cansado as cansao",
+  the_elision_of_d_in_ido: "Considered even more informal, but both elisions common in Andalusian Spanish",
+
 };
 
 // ============================================================
