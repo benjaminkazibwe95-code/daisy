@@ -28387,6 +28387,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 16:06 ===
   learningbydoing: "A concept in economic theory by which productivity is achieved through practice, self-perfection and minor innovations",
 
+  // === INGESTED 2026-06-23 16:08 ===
+  a_financial_asset: "A non-physical asset whose value is derived from a contractual claim, such as bank deposits , bonds , and participations in companies' share capital",
+  financial_assets: { definition: "Usually more liquid than tangible assets , such as commodities or real estate", what_it_does: "", examples: "intellectual property , including copyrights, patents, trademarks and data" },
+
 };
 
 // ============================================================
