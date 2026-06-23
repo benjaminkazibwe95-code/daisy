@@ -25406,6 +25406,11 @@ const FLAT_DICT = {
   this_suffix: { definition: "Used with profession- or agent-based nouns", what_it_does: "", examples: "onua → enuanom )" },
   the_twifante_language: "Studied in these universities as a bachelor or masters program",
 
+  // === INGESTED 2026-06-23 06:24 ===
+  unguja_and_mainland_tanzania: "Separated by the Zanzibar Channel",
+  unguja: "Surrounded by a number of smaller islands and islets, with only two of them, Tumbatu and Uzi , being inhabited",
+  the_local_zanzibari_government: { definition: "Based in Stone Town , on the west coast of Unguja", what_it_does: "", examples: "Michenzani" },
+
 };
 
 // ============================================================
