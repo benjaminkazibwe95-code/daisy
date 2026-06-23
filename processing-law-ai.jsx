@@ -26517,6 +26517,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 09:26 ===
   parnas: "Also a heavy promoter of ethics in the field of software engineering",
 
+  // === INGESTED 2026-06-23 09:28 ===
+  donald_knuth: "Born in Milwaukee , Wisconsin , to Ervin Henry Knuth and Louise Marie Bohning",
+  the_last_person_to_think_it: "A terrible idea was Edsger Dijkstra on a visit to Burroughs",
+  so_one_of_my_motivations: "To put straight a story that had been very badly told",
+  each_verse: { definition: "Accompanied by a rendering in calligraphic art, contributed by a group of calligraphers led by Hermann Zapf", what_it_does: "", examples: "the interior-point method of linear programming" },
+  the_same_web_source: { definition: "Used to weave a TeX file, and to tangle a Pascal source file", what_it_does: "", examples: "the Turing Award , the National Medal of Science , the John von Neumann Medal , and the Kyoto Prize" },
+  knuth: "Elected to the National Academy of Sciences in 1975",
+
 };
 
 // ============================================================
