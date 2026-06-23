@@ -29076,6 +29076,25 @@ const FLAT_DICT = {
   the_etruscan_dna: "Completely absent a signal of recent admixture with Anatolia and the Eastern Mediterranean",
   bishops_from_the_various_dioceses_of_lydia: "Well represented at the Council of Nicaea in 325 and at the later ecumenical councils",
 
+  // === INGESTED 2026-06-23 18:45 ===
+  mitigation_finance: { definition: "Investment that aims to reduce global carbon emissions", what_it_does: "", examples: "green bonds , carbon offsetting , and payment for ecosystem services are some promoted solutions" },
+  transfer_of_solutions_that: "Not developed specifically for climate finance is also taking place, such as public–private partnerships and blended finance",
+  the_aims_of_these_activities: "To speed up the energy transition towards a low-carbon economy and climate-resilient growth",
+  the_paris_agreement: "An important international agreement between governments, which has also helped to engage financial institutions in the climate agenda",
+  global_climate_finance: "Heavily focused on mitigation",
+  public_finance: { definition: "Provided directly by governments or via intermediaries such as development finance institutions (e.g", what_it_does: "", examples: "grants or subsidies, concessional and non-concessional (i.e" },
+  the_highest_adaptation_expenses: "For river flood protection, infrastructure and coastal protection",
+  adaptation_costs: "Usually derived from economic modelling analysis (global or sectoral models)",
+  adaptation_needs: { definition: "Based on programme and project-level costing", what_it_does: "", examples: "a plan, policy or strategy" },
+  mdbs: { definition: "Financial vehicles created by governments to support economic and social efforts, predominantly in developing countries", what_it_does: "", examples: "grants, investment loans, equity, guarantees, policy-based financing and results-based financing" },
+  domestic_targets_on_addressing_climate_change: "Set out in national strategies and plans, including those submitted to the UNFCCC under the Paris Agreement",
+  nationallevel_coordination_of_climate_funding: { definition: "Important for meeting these domestic targets, and in the case of developing countries, also for accessing international funding", what_it_does: "", examples: "advanced batteries, hydrogen infrastructure, and carbon management projects" },
+  bankability_and_creditworthiness: { definition: "Therefore prerequisites to attracting private finance", what_it_does: "", examples: "loans from credit unions)" },
+  voluntary_carbon_markets: { definition: "Growing significantly", what_it_does: "", examples: "REDD+ include private sector contributions via voluntary carbon markets" },
+  the_bulk_of_this_finance: "Raised and spent domestically (84% in 2021/2022)",
+  the_us: { definition: "The largest donor across the four funds, while Norway makes the largest contribution relative to population size", what_it_does: "", examples: "public transportation or water utilities, is included in their investment" },
+  energy_efficiency_investments: "Good to both the bottom line and the environment",
+
 };
 
 // ============================================================
