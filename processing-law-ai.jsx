@@ -23593,6 +23593,28 @@ const FLAT_DICT = {
   john_githongo_and_charles_onyangoobbo: "Recruited and operated in Kenya and Kampala, respectively",
   the_first_issue: "Published on 7 November 1994",
 
+  // === INGESTED 2026-06-23 00:29 ===
+  most_of_the_beneficiaries_of_his_actions: "Muslim northerners, particularly those of Nubian and Sudanese extract, who were increasingly recruited into the army",
+  they_also_agreed_that_after_butabika: "Informed of the altercation, he unilaterally ordered his unit, the Suicide Battalion, to attack Tanzania in reprisal",
+  the_soldiers_stated_that_amin: "Not informed of this decision until later and went along with it to save face",
+  near_the_frontier: "The understrength 3rd Battalion",
+  tanzanian_leaders_felt_that_amin: "Only making provocations",
+  though_the_land_between_the_river_and_bukoba: "Left virtually undefended by the TPDF's withdrawal, the Uganda Army halted its advance at the north end of the bridge",
+  most_of_the_militiamen: "Deployed to Tanzania's southern border or sent to guard strategic installations within the country",
+  the_uganda_army: "Consequently surprised when the TPDF began a large-scale artillery bombardment along the border using BM-21 Grad rocket launchers on 25 December",
+  the_ugandans_lacked_weaponry_which: "Able to counter the Tanzanian artillery, and were terrified by the destructive capabilities of the BM-21 Grads which they nicknamed 'Saba-Saba'",
+  the_ugandan_garrison: "Easily overwhelmed and fled the scene, allowing the Tanzanians to secure Mutukula and capture much abandoned weaponry",
+  nyerere: { definition: "Surprised by the ultimatum, since he knew that Libyan soldiers had fought with the Ugandans at Lukaya", what_it_does: "", examples: "bananas, sweet potatoes, and cassava, and causing famine in some regions" },
+  obote_assured_nyerere_that_if_the_towns: "Taken a mass uprising against Amin's regime would occur, deposing the government in a few weeks and allowing the Tanzanians to exit the war",
+  major_general_david_musuguri: { definition: "Appointed commander of the TPDF's 20th Division and tasked with overseeing the advance into Uganda", what_it_does: "", examples: "the airstrip at Lukoma and various artillery batteries" },
+  the_ugandans_that_retreated_to_masaka: "In a panicked state and demoralised the troops stationed there",
+  the_swamp: "Impassable for vehicles, and the destruction of the causeway would delay a Tanzanian attack on Kampala for months",
+  believing_the_unit: { definition: "Heading south, they dispatched the 205th Brigade from its position in Masaka north to intercept it", what_it_does: "", examples: "122 mm (4.8 in) mortars [ 17 ] and two batteries of D-30 howitzers" },
+  after_heated_argument_a_consensus: "Reached whereby Lule would be given the chair and Muwanga would be made head of the Military Affairs Commission",
+  the_armed_rebel_militias_represented_in_moshi: "United as the Uganda National Liberation Army (UNLA)",
+  all_planned_government_projects: "Suspended in every ministry except Defence, and the administration was instructed not to fill vacancies",
+  a_white_monument: "Erected in the cemetery and adorned with the names of the dead",
+
 };
 
 // ============================================================
