@@ -29557,6 +29557,12 @@ const FLAT_DICT = {
   such_relationships_and_policies: "Characterized by a political economy – feudalist , socialist , capitalist , green , anarchist or otherwise",
   financial_capitalism: "The production of profit from the manipulation of financial capital",
 
+  // === INGESTED 2026-06-23 20:41 ===
+  this_view_of_freedom: { definition: "Closely related to the socialist view of human creativity and the importance ascribed to creative freedom", what_it_does: "", examples: "in the case of Lochner v" },
+  political_freedom: { definition: "The corollary of economic freedom", what_it_does: "", examples: "Sweden has not led to any loss of non-economic freedoms" },
+  economic_freedom: { definition: "Greater when individuals have more economic choices available – when, in some technical sense, the choice set of individuals expands", what_it_does: "", examples: "the World Bank and International Monetary Fund" },
+  these_trends_of_increasing_prosperity: "Confirmed even when we compare these indicators within territories of countries",
+
 };
 
 // ============================================================
