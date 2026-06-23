@@ -24067,6 +24067,23 @@ const FLAT_DICT = {
   sears_said_that_they: "Pleased with the group of seven players who committed to Cricket Kenya, while equally disappointed with those who refused contracts",
   perhaps_the_most_disappointing_aspect: "That they refused to represent their teams in the East African Competitions last weekend pulling out at the very last minute",
 
+  // === INGESTED 2026-06-23 01:53 ===
+  sewerage_networks: "Not common and wastewater treatment is even less common",
+  most_of_the_internal_financing: "Household self-finance ($2.1bn), which is primarily for on-site sanitation such as pit latrines",
+  even_when_there: "Available water in these places, there is poor access to readily accessible drinking water, as there are risks of contamination due to several factors",
+  surface_water_sources_in_africa: { definition: "Sometimes highly polluted", what_it_does: "", examples: "sewage discharges, oil pollution, industrial factors, etc" },
+  access_to_hygiene_facilities_in_particular: { definition: "A major barrier to achieving combined SDG access, reducing coverage in SSA from 19.7% to 4.4% (data from 2017)", what_it_does: "", examples: "mathematics and English" },
+  the_task_of_the_central_government: "Generally limited to setting the national goals and regulations for water supply and sanitation",
+  the_majority_of_these_utilities: "Corporatized, meaning that they emulate a private company in terms of productivity and financial independence",
+  some_african_utilities: { definition: "In charge of water supply only, while others are in charge of sanitation as well", what_it_does: "", examples: "shared standpipes, boreholes, and water vendors, which often lack reliability and affordability" },
+  this_it: "Rather delegated to community-led organisations or local private companies",
+  other_countries: "Trying different approaches, such as self-supply of water and sanitation , where most of the investment costs for simple systems are born by the users",
+  examples_for_cities_where_small_private_wsps: "Common include for example Nairobi (Kenya) and Dar es Salam (Tanzania)",
+  low_income_households_in_subsaharan_africa: "Significantly impacted by quality of service because they have limited access to clean water sources",
+  since_the_poorest_social_groups: { definition: "Less connected to water networks and sewerage, they need to turn to alternatives, and they pay in some cases a multiple of the formal tariff", what_it_does: "", examples: "6m 3 of water per month for free" },
+  public_expenditures_go_to_where_they: "Most easily spent rather than where they are most urgently needed",
+  operation_and_maintenance: { definition: "Financed by the national governments and consumer revenues", what_it_does: "", examples: "in Burkina Faso and Ethiopia" },
+
 };
 
 // ============================================================
