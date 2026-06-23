@@ -28361,6 +28361,13 @@ const FLAT_DICT = {
   friedman_argued_that_inflation: "The same as wage rises, and built his argument upon a widely believed idea, that a stable negative relation between inflation and unemployment existed",
   that_this_should_be_the_case_because_inflation: "Higher appeared to rely on systematic irrationality in the labor market",
 
+  // === INGESTED 2026-06-23 16:00 ===
+  as_was_aforementioned_dsge_models: "Seen to be an update of real business cycle (RBC) models",
+  their_structure: "Built around three interrelated sections including that of demand , supply , and the monetary policy equation",
+  these_three_sections: { definition: "Formally defined by micro-foundations and make explicit assumptions about the behavior of the main economic agents in the economy, i.e", what_it_does: "", examples: "households might be assumed to maximize a utility function over consumption and labor effort" },
+  monetary_policy_implications: { definition: "Surveyed by Clarida , Galí , and Gertler (1999)", what_it_does: "", examples: "vector autoregression , in out-of-sample forecasting" },
+  while_the_evolution_of_dsge_models_as_such: "Predictable the direction of this evolution is not",
+
 };
 
 // ============================================================
