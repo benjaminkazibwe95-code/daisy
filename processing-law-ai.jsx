@@ -30303,6 +30303,26 @@ const FLAT_DICT = {
   the_fact_that_game_creators_and_gamers: "Wanting new experiences within the games, the introduction of 'experiments' could increase the level of play and engagement",
   these_training_sessions: "Used to replicate real life stresses without the risk factor associated with flying",
 
+  // === INGESTED 2026-06-23 23:28 ===
+  the_nucleosome_core: "Formed of two H2A-H2B dimers and a H3-H4 tetramer",
+  the_most_common_modifications: { definition: "The methylation of arginine or lysine residues or the acetylation of lysine", what_it_does: "", examples: "transcription factors interact with the nucleosomes" },
+  the_most_basic_such_formation: "The 10 nm fiber or beads on a string conformation",
+  genes_encoding_histone_variants: { definition: "Usually not clustered, have introns and their mRNAs are regulated with polyA tails", what_it_does: "", examples: "H2A.X are phosphorylated at sites of DNA damage, marking regions for recruitment of repair proteins" },
+  histones: { definition: "Discovered in 1884 by Albrecht Kossel", what_it_does: "", examples: "they found Histone IV sequence to be highly conserved between peas and calf thymus" },
+  core_histones: { definition: "Found in the nuclei of eukaryotic cells and in most Archaeal phyla, but not in bacteria", what_it_does: "", examples: "histone H3-like CENPA is associated with only the centromere region of the chromosome" },
+  the_effect_of_histones_on_transcription: { definition: "Established already in the late 1980s", what_it_does: "", examples: "gene regulation , DNA repair , chromosome condensation ( mitosis ) and spermatogenesis ( meiosis )" },
+  arginine: { definition: "Known to be mono- or di-methylated, and methylation can be symmetric or asymmetric, potentially with different meanings", what_it_does: "", examples: "BRCT have been characterised" },
+  histone_modifications: { definition: "Involved in control of transcription", what_it_does: "", examples: "the ultraviolet radiation of the sun" },
+  this_acetylation: { definition: "An activating mark for pronociceptin", what_it_does: "", examples: "HIRA is a chaperone that specifically deposits the histone variant H3" },
+  current_research: "Exploring histone chaperones as potential therapeutic targets, particularly in cancers characterized by disrupted chromatin landscapes",
+  this_network_ensures_histones: "Deposited at the appropriate genomic locations, maintaining chromatin integrity and function",
+  once_repair: "Completed, these chaperones facilitate the reassembly of nucleosomes , restoring chromatin structure and ensuring epigenetic information is maintained",
+  histone_gene_transcription: "Controlled by multiple gene regulatory proteins such as transcription factors which bind to histone promoter regions",
+  sbf_is_a_transcription_factor_that: "Activated in late G1 phase, when it dissociates from its repressor Whi5",
+  slbp: "Marked for degradation by phosphorylation at two threonine residues by cyclin dependent kinases, possibly cyclin A/ cdk2, at the end of S phase",
+  npat: "Also a substrate of cyclin E-Cdk2, which is required for the transition between G1 phase and S phase",
+  relief_from_repression: "Believed to involve both histone modification and the action of chromatin-remodeling complexes",
+
 };
 
 // ============================================================
