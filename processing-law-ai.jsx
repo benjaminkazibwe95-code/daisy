@@ -24382,6 +24382,9 @@ const FLAT_DICT = {
   in_most_countries_that: "Signatories to the Berne Convention , copyright term is based on the life of the author, and extends to 50 or 70 years beyond the death of the author",
   material_in_the_public_domain: "Still considered so when included as part of larger copyrighted creations",
 
+  // === INGESTED 2026-06-23 02:49 ===
+  the_africa_report: "A Paris -based English-language quarterly magazine that focuses on African politics and economics",
+
 };
 
 // ============================================================
