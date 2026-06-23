@@ -28856,6 +28856,19 @@ const FLAT_DICT = {
   agency_law_in_the_united_kingdom: "A component of UK commercial law , and forms a core set of rules necessary for the smooth functioning of business",
   agency_law: "Primarily governed by the Common law and to a lesser extent by statutory instruments",
 
+  // === INGESTED 2026-06-23 17:57 ===
+  the_original_idea: { definition: "A 'Netflix box' that could download movies overnight and be ready to watch the next day", what_it_does: "", examples: "20th Century Fox , Sony Pictures , MGM , Paramount Pictures , Universal Pictures , Warner Bros" },
+  breaking_bad: { definition: "Considered the first show to have this 'Netflix effect'", what_it_does: "", examples: "Blu-ray players" },
+  the_rights_to_these_programs: { definition: "Given to Netflix shortly after deals with Viacom to stream Nickelodeon and Nick Jr", what_it_does: "", examples: "scenes that customers replayed or skipped, or when they stopped watching a show" },
+  the_company_denied_that_the_deal: { definition: "Intended to result in a tax break", what_it_does: "", examples: "manual reviewing, audio tagging, and machine learning" },
+  the_streaming_giant: { definition: "Said to co-produce three feature films with the studio, the first of which would premiere in September 2022", what_it_does: "", examples: "the first-ever stand-up show at Dodger Stadium" },
+  the_venture: { definition: "The first Broadway credit for the company but not its first stage project", what_it_does: "", examples: "sports and other live events" },
+  users: { definition: "Asked to set a primary location based on the device's IP address", what_it_does: "", examples: "The Lorax , ParaNorman , and Minions" },
+  the_api: { definition: "Free and allowed commercial use", what_it_does: "", examples: "Instant Watcher, Fanhattan, Yidio and Nextguide" },
+  each_title: { definition: "Presented with a thumbnail", what_it_does: "", examples: "an actor or scene type based on genre preferences" },
+  kevin_spacey_and_robin_wright: { definition: "Nominated for Outstanding Lead Actor and Outstanding Lead Actress in a Drama Series", what_it_does: "", examples: "Academy Award for Best Picture for Alfonso Cuarón 's Roma , which was nominated for 10 awards" },
+  these_same_steps: "Later taken in India",
+
 };
 
 // ============================================================
