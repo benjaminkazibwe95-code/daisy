@@ -30146,6 +30146,13 @@ const FLAT_DICT = {
   the_uncertainty_of_outcomes: { definition: "Inherent in democracy", what_it_does: "", examples: "on most issues, most of the time, they have no clear views or their views are not well-founded" },
   a_common_way_of_understanding_politics: { definition: "Through the left–right political spectrum , which ranges from left-wing politics via centrism to right-wing politics", what_it_does: "", examples: "Communism and Marxism" },
 
+  // === INGESTED 2026-06-23 22:57 ===
+  the_university_of_strathclyde: "The UK's first technological university, reflecting its history, teaching and research in technological education",
+  three_buildings_from_the_site: "Ultimately retained – most notably the giant warehouse which became the Curran Building and Andersonian Library",
+  the_faculty_of_education: { definition: "Moved to a newly constructed building on the John Anderson campus in the summer of 2012", what_it_does: "", examples: "engineering, researching and project management" },
+  strathclyde: "Placed in the top 20 of European business schools in the Financial Times Global MBA Rankings",
+  the_aim_of_that_program: "To enable students of member institutions to study in different parts of the North",
+
 };
 
 // ============================================================
