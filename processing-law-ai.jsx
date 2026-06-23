@@ -29640,6 +29640,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 21:08 ===
   deaton: { definition: "Also the author of 'Letters from America', a popular semi-annual feature in the Royal Economic Society Newsletter", what_it_does: "", examples: "worsened marriage and child outcomes, and overall health" },
 
+  // === INGESTED 2026-06-23 21:10 ===
+  connolly: { definition: "A development economist and a university professor", what_it_does: "", examples: "trade gains and protectionism" },
+
 };
 
 // ============================================================
