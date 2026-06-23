@@ -27777,6 +27777,13 @@ const FLAT_DICT = {
   both_the_technique_and_simulation: "Coupled with transmission electron microscope (TEM) and AFM techniques to provide results",
   silicon_nanoparticles_strength_and_hardness: "Four times more than the value of the bulk material",
 
+  // === INGESTED 2026-06-23 14:21 ===
+  other_bandages: { definition: "Used without dressings, such as elastic bandages, which are used to reduce swellings or to provide support to a sprained joint", what_it_does: "", examples: "when a leg or arm is bleeding heavily" },
+  the_most_common_type_of_bandage: { definition: "The gauze bandage, a woven strip of material", what_it_does: "", examples: "holding a dressing in place" },
+  one_advantage_of_this_type_of_bandage: "That it can be makeshift and made from a fabric scrap or a piece of clothing",
+  a_tube_bandage: "Applied using an applicator, and is woven in a continuous circle",
+  a_new_type_of_bandage: "Invented in 2016; inspired by the art of kirigami , it uses parallel slits to better fit areas of the body that bend",
+
 };
 
 // ============================================================
