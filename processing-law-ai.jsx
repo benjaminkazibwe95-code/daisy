@@ -23848,6 +23848,9 @@ const FLAT_DICT = {
   some_of_the_books: "Modeled on successful Western books by authors such as Dr",
   two_popular_collections_of_folktales: { definition: "Written by Siphone Vouthisakdee, who comes from a village where only five children finished primary school", what_it_does: "", examples: "Buddhism, health, and baby care" },
 
+  // === INGESTED 2026-06-23 01:24 ===
+  david_stasavage: { definition: "An American political scientist known for his work on democracy and political economy", what_it_does: "", examples: "Western Europe and Africa" },
+
 };
 
 // ============================================================
