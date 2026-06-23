@@ -25118,6 +25118,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 05:19 ===
   babangida_was_present_when_the_barracks: "Attacked but managed to escape by a back route",
 
+  // === INGESTED 2026-06-23 05:21 ===
+  a_megacity: { definition: "A very large city , typically with a population of more than 10 million people", what_it_does: "", examples: "OECD in 2020, still list Tokyo as the largest" },
+  to_correct_for_this_an_urban_metric_system: { definition: "Proposed, including measurement of Paropolis, that has tantamount calculation values to megacities", what_it_does: "", examples: "Karachi , Delhi , Cairo , Rio de Janeiro , and Lagos" },
+  discussions_and_debates_about_sprawl: { definition: "Often obfuscated by the ambiguity associated with the phrase", what_it_does: "also tends to lead to a decrease in average family size in the area", examples: "" },
+
 };
 
 // ============================================================
