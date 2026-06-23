@@ -27596,6 +27596,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 13:42 ===
   the_boat: "Wistin's father's that he was given when his father could no longer care for it",
 
+  // === INGESTED 2026-06-23 13:44 ===
+  drone_zithers_or_droned_zithers: { definition: "Stringed instruments of the zither family that have few (sometimes only one) melodic strings and a greater number of drone strings", what_it_does: "", examples: "the Langspil , the Epinette des Vosges or the Hummel" },
+  the_appalachian_dulcimer: "A traditional American form",
+
 };
 
 // ============================================================
