@@ -27248,6 +27248,11 @@ const FLAT_DICT = {
   another_tactic: { definition: "To make the link's displayed text appear trustworthy, while actually linking to the phisher's site", what_it_does: "", examples: "clicking a link or opening an attachment, or revealing sensitive information" },
   these_campaigns: { definition: "Just one of the ways that organizations are working to combat phishing", what_it_does: "", examples: "those suffered by Scandinavian bank Nordea in late 2005, [ 135 ] and Citibank in 2006" },
 
+  // === INGESTED 2026-06-23 12:04 ===
+  online_marketplaces: { definition: "Characterized by a low setup cost for sellers, because they do not have to run a retail store", what_it_does: "", examples: "payment processing, dispute resolution, and user verification" },
+  the_inventory: "Held by the sellers, not the company running the online marketplace",
+  gig_workers: { definition: "Paid for each task performed, for example US$0.01 for each moderated image", what_it_does: "", examples: "Uber and Airbnb , organized in the trade association Peers.org" },
+
 };
 
 // ============================================================
