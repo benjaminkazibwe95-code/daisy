@@ -23967,6 +23967,13 @@ const FLAT_DICT = {
   this_practice_continued_until_production: { definition: "Mechanized and butter was produced in less decorative stick form", what_it_does: "", examples: "sycamore , [ 68 ] kahikatea , [ 69 ] hoop pine , [ 70 ] maple , or spruce" },
   the_smoke_point_of_butterfat: "Around 200 °C (400 °F), so clarified butter or ghee is better suited to frying",
 
+  // === INGESTED 2026-06-23 01:38 ===
+  bat_plc_ordinary_shares: { definition: "Also listed on the New York Stock Exchange in the form of American Depositary Shares", what_it_does: "", examples: "Newport, Lucky Strike and Pall Mall" },
+  brands_of_cigarettes_produced: "Kumgansan, Craven A and Viceroy",
+  bat_claims_that_the_cigarettes: { definition: "Produced only for consumption in North Korea, although there are allegations that the cigarettes are smuggled for sale overseas", what_it_does: "", examples: "JTI-Macdonald Corp" },
+  after_the_spies: { definition: "Arrested, BAT negotiated a bribe so that the government would release them from jail", what_it_does: "", examples: "Somalia , South Sudan , Syria and Iraq" },
+  this_act: "A violation of the existing sanctions imposed by the US against North Korea",
+
 };
 
 // ============================================================
