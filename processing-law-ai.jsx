@@ -28374,6 +28374,16 @@ const FLAT_DICT = {
   the_edinburgh_building: { definition: "Purpose-built with an adjoining warehouse to accommodate the press's expansion", what_it_does: "", examples: "mugs, diaries, bags, postcards, maps" },
   the_new_organisation: { definition: "Called Cambridge University Press & Assessment", what_it_does: "", examples: "learned societies to develop Open Access for different communities" },
 
+  // === INGESTED 2026-06-23 16:04 ===
+  the_weekly: "An instant success and very profitable",
+  though_librarians_and_researchers: { definition: "Initially hesitant regarding the new technology, more and more of them switched to e-only subscriptions", what_it_does: "", examples: "English, German, French, Spanish, Italian, Portuguese, Polish, Japanese, Hindi, and Chinese" },
+  sciencedirect: "Elsevier's platform for online electronic access to its journals and over 40,000 e-books, reference works, book series, and handbooks",
+  the_articles: "Grouped in four main sections: Physical Sciences and Engineering , Life Sciences , Health Sciences , and Social Sciences and Humanities",
+  the_boycott: "In response to Elsevier's refusal to adopt 'transparent business models' to 'make publications more openly accessible'",
+  included: { definition: "A request that all Elsevier journals avoid publishing papers by Iranian nationals who are employed by the Iranian government", what_it_does: "", examples: "the lack of prevention of cost increases by means of the double dipping" },
+  this_award: "Given each year for a jury-selected best paper of the year",
+  several_awards: "Awarded each year, as of 2014",
+
 };
 
 // ============================================================
