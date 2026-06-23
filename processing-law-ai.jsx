@@ -25096,6 +25096,12 @@ const FLAT_DICT = {
   the_unregistered_cards: "Considered a threat to Nigerian national security",
   mtn_nigeria_and_airtel_nigeria: "The only mobile network operators that have launched 5G services in Nigeria",
 
+  // === INGESTED 2026-06-23 05:13 ===
+  joshua: "A regular visitor to Ghana during Mills' early presidency and allegedly organised 'prayer warriors' praying in Osu Castle",
+  his_endorsement_came_days_after_the_two: "Spotted publicly together in SCOAN, a visit that caused a media storm in Liberia",
+  at_the_time_the_channel: { definition: "Suspended, it had over 1,800,000 subscribers and 400 million views", what_it_does: "", examples: "Nigeria, Ghana, Britain, the U.S" },
+  his_predictions: "Frequently vague or based on hindsight",
+
 };
 
 // ============================================================
