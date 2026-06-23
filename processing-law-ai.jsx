@@ -29062,6 +29062,12 @@ const FLAT_DICT = {
   jobs_once_done_by_human_traders: "Being switched to computers",
   these_professionals: "Often dealing in versions of stock index funds like the E-mini S&Ps, because they seek consistency and risk-mitigation along with top performance",
 
+  // === INGESTED 2026-06-23 18:41 ===
+  its_value_is_unaffected_by_whether_the_firm: "Funded by retained earnings , or whether it raises capital by issuing shares or by selling debt",
+  dividends: "Certain as compared to income from future capital gains",
+  a_key_modelassumption: "That management will consider two factors in determining the dividend amount, with both indicating higher dividends correspondingly",
+  in_most_cases_dividends: { definition: "Taxed higher than capital gains , and thus investors - and management - would typically be expected to select a share repurchase", what_it_does: "", examples: "the equity risk premium , the discount rate, the expected growth rate or expected inflation" },
+
 };
 
 // ============================================================
