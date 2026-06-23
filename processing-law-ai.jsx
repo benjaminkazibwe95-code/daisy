@@ -28904,6 +28904,12 @@ const FLAT_DICT = {
   although_the_market_potential: "Rather fictitious, it offers good values of orientation",
   the_market_size: "More difficult to estimate if one is starting with something completely new",
 
+  // === INGESTED 2026-06-23 18:18 ===
+  all_goods: "Transported by sea (the Galley), land (Horseshoes), or air (Wings), and food (represented by the Grabs) must be a main feature of all markets",
+  the_crest: "A hand ‘advancing the standard of trade and commerce’",
+  the_dragons_are_white_because_the_customer: "Blameless and always right",
+  the_introduction_of_our_new_corporate_identity: "Fully rolled out during the financial year, resulting in a coherent and distinct visual presence for the first time in many years",
+
 };
 
 // ============================================================
