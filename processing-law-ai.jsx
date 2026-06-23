@@ -24332,6 +24332,15 @@ const FLAT_DICT = {
   shrublands: "Dominated by woody or herbaceous shrubs",
   these_large_mammal_faunas: "Richest in African savannas and grasslands",
 
+  // === INGESTED 2026-06-23 02:39 ===
+  this_decision: { definition: "Influenced by one of the channel's backers, who argued that the original Arabic-language channel already encompassed an international scope", what_it_does: "", examples: "a dedicated website" },
+  foreign_press_access_to_gaza: "Limited via either Egypt or Israel",
+  the_videos: "Hosted by YouTube, where viewers can also go to find the videos",
+  al_jazeera_english: "Available in Sub-Saharan Africa mainly via DStv and StarTimes ' satellite and terrestrial TV platforms",
+  most_al_jazeera_english_video_content: "No longer officially available in the United States",
+  these_programs: { definition: "The only AJE shows officially non-geoblocked for American viewing during the time that Al Jazeera America was in existence", what_it_does: "", examples: "politics, human rights, corruption, environmental issues, and more" },
+  the_verdict: { definition: "Widely criticized, with global leaders and media outlets denouncing it as a politically motivated attack on press freedom", what_it_does: "", examples: "'he regards white people as trash' and 'I'm afraid if he wins, the blacks will take over'" },
+
 };
 
 // ============================================================
