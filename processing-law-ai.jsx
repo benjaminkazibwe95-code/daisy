@@ -29164,6 +29164,10 @@ const FLAT_DICT = {
   legal_restrictions: "Sometimes second-best devices for dealing with the market imperfections that limit financial integration",
   and_it: { definition: "Amsterdam where Dutch investors directed funds abroad at the time", what_it_does: "", examples: "capital control, interest rate ceilings, etc" },
 
+  // === INGESTED 2026-06-23 19:06 ===
+  typically_the_auto_attendant: "Included in a business's phone system such as a PBX , but some services allow businesses to use an AA without such a system",
+  automated_attendants: "Not part of voicemail systems",
+
 };
 
 // ============================================================
