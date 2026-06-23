@@ -26935,6 +26935,9 @@ const FLAT_DICT = {
   several_airlines: { definition: "Using in-cabin wi-fi systems", what_it_does: "", examples: "Qantas 's fleet of Airbus A380s and Boeing Dreamliner 787s" },
   certain_elements: { definition: "Also retrofitted into existing Boeing 747-400s", what_it_does: "", examples: "Simi Valley , AWN and Aeronet Global Communications Services had been reducing operations as of 2019" },
 
+  // === INGESTED 2026-06-23 10:45 ===
+  most_operating_systems: { definition: "Accessible via a shell – a command line interpreter", what_it_does: "", examples: "some versions of BASIC served as a shell, and BASIC is also a general-purpose language" },
+
 };
 
 // ============================================================
