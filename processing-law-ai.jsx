@@ -27609,6 +27609,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 13:48 ===
   godflesh: { definition: "Also a stated influence on many groups", what_it_does: "", examples: "Kevin Drumm and Oren Ambarchi , have also worked in the style" },
 
+  // === INGESTED 2026-06-23 13:52 ===
+  while_stereolithography: "Fast and can produce almost any design, it can be expensive",
+  photopolymers: "Sensitive to ultraviolet light, so the resin is photochemically solidified and forms a single layer of the desired 3D object",
+  supports: "Typically created automatically during the preparation of CAD models and can also be made manually",
+  a_wide_variety_of_resins: "Commercially available, and it is also possible to use homemade resins",
+  a_region_of_interest: { definition: "Then selected and all the pixels connected to the target point within that grey value range are selected", what_it_does: "is called segmentation", examples: "" },
+  another_disadvantage_is_that_the_photopolymers: "Sticky and messy, and need to be handled with care",
+  the_choice_of_materials: "Limited compared to FFF , which can process virtually any thermoplastic",
+
 };
 
 // ============================================================
