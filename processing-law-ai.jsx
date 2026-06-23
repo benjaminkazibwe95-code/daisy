@@ -29673,6 +29673,21 @@ const FLAT_DICT = {
   suppose_that_the_level_of_pest_infestation: { definition: "Independent of all other factors within a given period, but is influenced by the level of rainfall and fertilizer in the preceding period", what_it_does: "", examples: "past, present, and future values [ 5 ] , that is E [ ϵ t ∣ x 0 , x 1 ," },
   the_presence_of_predetermined_variables: "A motivating factor in the Arellano–Bond estimator",
 
+  // === INGESTED 2026-06-23 21:24 ===
+  overexploitation: { definition: "Not an activity limited to humans", what_it_does: "", examples: "can overexploit native flora and fauna" },
+  even_though_people: { definition: "Only starting to care about the environment in modern times, worries about overexploitation have been around for a long time", what_it_does: "", examples: "species extinction and ecosystem degradation" },
+  the_dodo_quickly_became_extinct_because_it: { definition: "Naive and lacked natural defenses against both human hunters and newly introduced species", what_it_does: "", examples: "the extinction of species like the woolly mammoth and the saber-toothed cat" },
+  this_hypothesis_posits_that_these_extinctions: "Intricately associated with human migration and subsequent population growth",
+  one_strong_piece_of_evidence_for_this_theory: { definition: "That about 80% of North America 's large mammal species became extinct within about a thousand years of humans arriving in the Western Hemisphere", what_it_does: "", examples: "feathers and bones, hunted these birds extensively" },
+  its_leaves: "Used for thatching and food wrapping, and overharvesting has resulted in its leaf size becoming smaller",
+  each_man: "Locked into a system that compels him to increase his herd without limit—in a world that is limited",
+  ruin: { definition: "The destination toward which all men rush, each pursuing his own interest in a society that believes in the freedom of the commons", what_it_does: "", examples: "national parks , the atmosphere, oceans, rivers, and fish stocks" },
+  atlantic_cod_stocks: "Severely overexploited in the 1970s and 1980s, leading to their abrupt collapse in 1992",
+  an_aquifer_that_has_been_overexploited: "Said to be overdrafted or depleted",
+  marine_ecosystems: "Of particular interest in this regard",
+  island_endemic_populations: { definition: "More prone to extinction from overexploitation, as they often exist at low densities with reduced reproductive rates", what_it_does: "", examples: "the Hawaiian Achatinella and the French Polynesian Partula" },
+  twelve_species_of_avifauna: { definition: "Affected, with some species numbers being reduced by 39%", what_it_does: "", examples: "[ 67 ] Overexploitation of species can result in knock-on or cascade effects" },
+
 };
 
 // ============================================================
