@@ -25390,6 +25390,12 @@ const FLAT_DICT = {
   the_anonymous_sources: "Said to be familiar with disclosures Bensouda made to the ICC regarding the operation",
   it_wrote_that_there_was_no_evidence_that_khan: { definition: "Involved, though his representatives met with those of Highgate", what_it_does: "", examples: "the court's president Piotr Hofmański and its vice-president Luz del Carmen Ibáñez Carranza" },
 
+  // === INGESTED 2026-06-23 06:20 ===
+  major_general_stephen_otu: { definition: "Appointed Chief of Defence Staff in September 1961", what_it_does: "", examples: "the creation and expansion of the President's Own Guard Regiment (POGR)" },
+  the_ghana_army: "Structured as follows: In 1996, the Support Services Brigade was reorganized and transferred from the Army to be responsible to the Armed Forces GHQ",
+  the_ghf_military_doctrine_and_stated_mission: "To perform counterinsurgency operations within Ghana or externally and to provide logistical support to the Ghana Army",
+  the_military_private_bank: { definition: "Sited at Burma Camp and serves Ghanaian military personnel and their civilian counterparts", what_it_does: "", examples: "to GAF personnel" },
+
 };
 
 // ============================================================
