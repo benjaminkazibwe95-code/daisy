@@ -24923,6 +24923,27 @@ const FLAT_DICT = {
   the_weather_in_the_tropics: "Dominated by the tropical rain belt , which moves from the northern to the southern tropics and back over the course of the year",
   at_the_equator_there: "Two wet and two dry seasons, as the rain belt passes over twice a year, once moving north and once moving south",
 
+  // === INGESTED 2026-06-23 04:42 ===
+  cycling: { definition: "Practised around the world for purposes including transport , recreation , exercise , and competitive sport", what_it_does: "", examples: "mudguards, pannier racks and lights, which extend their usefulness on a daily basis" },
+  since_the_bicycle_is_so_effective_as_a: "Of transportation, various companies have developed methods of carrying anything from the weekly shop to children on bicycles",
+  road_bikes: "Ideal for racing, long-distance riding, and fitness training",
+  a_middlegrade_derailleur: { definition: "Sufficient for a beginner, although many utility bikes are equipped with hub gears", what_it_does: "", examples: "a bell or horn" },
+  the_comfortable_level_of_exertion: { definition: "Higher than for most other physical activities because of the very effective convective cooling of the body by the air flow from the forward motion", what_it_does: "", examples: "with more specialized bicycles or suitable clothing" },
+  education_for_adult_cyclists: { definition: "Available from organizations such as the League of American Bicyclists", what_it_does: "", examples: "setting up one-way street systems, free-right turns, high capacity roundabouts, and slip roads" },
+  dedicated_cycling_infrastructure: "Treated differently in the law of every jurisdiction, including the question of liability of users in a collision",
+  one_popular_dutch_pleasure: "The enjoyment of relaxed cycling in the countryside of the Netherlands",
+  some_organized_rides: "Entirely social events",
+  recumbent_bicycles: "Designed on different ergonomic principles and eliminate pressure from the saddle and handlebars, due to the relaxed riding position",
+  track_bicycles: { definition: "Used for track cycling in Velodromes , while cyclo-cross races are held on outdoor terrain, including pavement, grass, and mud", what_it_does: "", examples: "small barriers which riders either bunny hop over or dismount and walk over" },
+  bikes: { definition: "Changed for time trial races, using aero bars", what_it_does: "", examples: "the recumbent bicycle ) by requiring a double triangle structure" },
+  critical_mass: "An event typically held on the last Friday of every month in cities around the world where bicyclists take to the streets en masse",
+  cycling_for_transport_and_touring: "Promoted on a European level by the European Cyclists' Federation , with associated members from Great Britain, Japan and elsewhere",
+  regular_conferences_on_cycling_as_transport: { definition: "Held under the auspices of Velo City ; global conferences are coordinated by Velo Mondial", what_it_does: "", examples: "less perceived stress and better vitality" },
+  cycling_while_seated: "A relatively non- weight bearing exercise that, like swimming , does little to promote bone density",
+  the_most_common_injury_sites: "The neck (48.8%) and the knees (41.7%), as well as the groin/buttocks (36.1%), hands (31.1%), and back (30.3%)",
+  note_that_overuse: { definition: "A relative term, and capacity varies greatly between individuals", what_it_does: "", examples: "at an hour or two per day, or a hundred miles or kilometers per week" },
+  bilateral_muscular_pain: { definition: "A normal by-product of the training process, whereas unilateral pain may reveal 'exercise-induced arterial endofibrosis'", what_it_does: "", examples: "cars and motorways degraded and confined people's environment and mobility" },
+
 };
 
 // ============================================================
