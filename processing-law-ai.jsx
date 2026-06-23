@@ -27885,6 +27885,31 @@ const FLAT_DICT = {
   wright: "Surprised to discover that Fleming and the Oxford team had not been mentioned, though Oxford was attributed as the source of the drug",
   churchill: "Saved by Lord Moran , using sulphonamides , since he had no experience with penicillin, when Churchill fell ill in Carthage in Tunisia in 1943",
 
+  // === INGESTED 2026-06-23 14:45 ===
+  beijing: { definition: "The capital, while Shanghai is the most populous city by urban area", what_it_does: "", examples: "the Himalayas" },
+  the_prc: "A unitary state with the CCP as its sole ruling party",
+  chinese_characters: "Among the oldest writing systems on Earth, with a literary tradition dating back millennia to the Chinese classics",
+  chinese_cuisine: { definition: "Diverse and highly regional, with rice as a staple in the south and wheat in the north", what_it_does: "", examples: "the Great Wall and Grand Canal" },
+  modern_homo_sapiens: "Attested from around 50,000 years ago",
+  the_bankrupt_and_factionalized_government: { definition: "Unable to contain peasant rebellions", what_it_does: "", examples: "the occupation of Tibet and much of Central Asia" },
+  chinese_civilization: "Traditionally centered in the lowlands around its two largest rivers: the Yangtze and the Yellow River , both originating on the Tibetan Plateau",
+  this_temperate_region: { definition: "Bordered by forest and steppe to the north, alongside the mountainous and subtropical south", what_it_does: "", examples: "the Himalayas and Tian Shan , separate China from South and Central Asia" },
+  the_south: { definition: "Dominated by rice farming, while the north grows crops such as wheat and maize", what_it_does: "", examples: "the giant panda and tiger have received additional funding and protection" },
+  these_views: "Generally attributed to the material comforts and security available to large segments of the Chinese as well as the government's responsiveness",
+  provinces_and_autonomous_regions: { definition: "Divided into prefectures and prefecture-level cities , which themselves are divided into counties and county-level cities", what_it_does: "", examples: "Pakistan [ 173 ] and Russia" },
+  the_busiest_port_in_the_world: { definition: "The Port of Shanghai", what_it_does: "", examples: "18 megacities (cities with a population of over 10 million)" },
+  the_largest_of_these: { definition: "The Han Chinese , who constitute more than 91% of the total population", what_it_does: "", examples: "Tibetan , are spoken across the southwestern plateaus" },
+  formal_religious_practice: "Managed by 'patriotic associations' for each of the recognized faiths overseen by the CCP's National Religious Affairs Administration",
+  other_variations_in_chinese_architecture: "Shown in vernacular styles associated with different geographic regions and different ethnic heritages",
+  this_aesthetic: "Exemplified by Shan shui (mountain-water) ink wash painting and fine calligraphy , both regarded as elite art forms that utilize expressive brushwork",
+  traditional_chinese_musical_instruments: "Traditionally grouped into eight categories known as bayin (八音)",
+  traditional_chinese_opera: "A form of musical theatre in China originating thousands of years and has regional style forms such as Beijing and Cantonese opera",
+  the_qipao_or_cheongsam: { definition: "A popular Chinese female dress", what_it_does: "", examples: "Sichuan , Cantonese , Jiangsu , Shandong , Fujian , Hunan , Anhui , and Zhejiang cuisines" },
+  soybean_products_such_as_tofu_and_soy_milk: "A popular source of protein",
+  pork: "Now the most popular meat in China, accounting for about 60% of the country's total meat consumption",
+  there_is_evidence_that_archery: "Practiced during the Western Zhou dynasty",
+  physical_fitness: "Culturally emphasized, with morning exercises such as qigong and tai chi widely practiced",
+
 };
 
 // ============================================================
