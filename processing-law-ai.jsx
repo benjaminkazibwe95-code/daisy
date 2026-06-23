@@ -27914,6 +27914,10 @@ const FLAT_DICT = {
   biotechnology_risk: { definition: "A form of existential risk from biological sources, such as genetically engineered biological agents", what_it_does: "", examples: "viral agents" },
   one_risk_associated_with_gmos: { definition: "The possibility of horizontal gene transfer (HGT) of antibiotic resistance genes", what_it_does: "", examples: "virulence or toxicity" },
 
+  // === INGESTED 2026-06-23 14:49 ===
+  berg: "Awarded one-half of the 1980 Nobel Prize in Chemistry , with the other half being shared by Walter Gilbert and Frederick Sanger",
+  this_genesplicing_technique: "A fundamental step in the development of modern genetic engineering",
+
 };
 
 // ============================================================
