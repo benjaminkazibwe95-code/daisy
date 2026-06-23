@@ -24904,6 +24904,20 @@ const FLAT_DICT = {
   traditional_vietnamese_villages: "Surrounded by thick bamboo hedges ( lũy tre code: vie promoted to code: vi )",
   since_the_north_american_bamboos: "Now rare, with 98% of their original extent eliminated, the Cherokee have initiated an effort to restore it",
 
+  // === INGESTED 2026-06-23 04:38 ===
+  world_war_ii: { definition: "The deadliest conflict in history, causing the death of 60 to 75 million people", what_it_does: "", examples: "the Holocaust" },
+  poland: { definition: "Also invaded by the Soviet Union in mid-September and was partitioned between Germany and the Soviet Union under the Molotov–Ribbentrop Pact", what_it_does: "", examples: "Pearl Harbor in Hawaii , leading the United States to enter the war against the Axis" },
+  new_nationstates: "Created out of the dissolution of the Austro-Hungarian , Ottoman , and Russian Empires",
+  both_italy_and_ethiopia: "Member nations, but the League did little when the former clearly violated Article X of the League's Covenant",
+  small_shares_of_polish_territory: "Transferred to Lithuania and Slovakia",
+  the_united_kingdom: { definition: "Able to evacuate a significant number of Allied troops from the continent by early June, although they had to abandon almost all their equipment", what_it_does: "", examples: "the Soviet Union after it was invaded by Germany" },
+  japan_advanced_a_number_of_proposals_which: "Dismissed by the Americans as inadequate",
+  all_agreed_that_defeating_germany: "The primary objective",
+  japanese_advances: "Accompanied by numerous atrocities, including the Sook Ching Massacre in Singapore",
+  the_planned_invasion: "Thwarted when an Allied task force, centred on two American fleet carriers, fought Japanese naval forces to a draw in the Battle of the Coral Sea",
+  total_and_unconditional_surrender_in_europe: { definition: "Signed on 7 and 8 May , to be effective by the end of 8 May", what_it_does: "", examples: "at least 20 million who died from deprivation, famine and disease" },
+  the_use_of_the_jet_aircraft: { definition: "Pioneered and led to jets becoming standard in air forces worldwide", what_it_does: "", examples: "the Type VII submarine and wolfpack tactics" },
+
 };
 
 // ============================================================
