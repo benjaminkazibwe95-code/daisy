@@ -28836,6 +28836,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 17:47 ===
   marketwatch: "A website that provides financial information, business news, analysis, and stock market data",
 
+  // === INGESTED 2026-06-23 17:49 ===
+  design_methods: "Procedures, techniques, aids, or tools for designing",
+  what_design_methods_have_in_common: { definition: "That they 'are attempts to make public the hitherto private thinking of designers; to externalise the design process'", what_it_does: "", examples: "cybernetics , systems theory and semiotics into design education" },
+
 };
 
 // ============================================================
