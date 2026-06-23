@@ -24796,6 +24796,11 @@ const FLAT_DICT = {
   all_members_appointed_by_the_governor: "Abolished and the people of Tanganyika were allowed to elect all members of the Council",
   the_changes_made_in_this_year: "Constitutionally necessary so as to allow the President of Tanganyika to give assent to all laws passed instead of the Queen of the United Kingdom",
 
+  // === INGESTED 2026-06-23 04:13 ===
+  the_durand_line: "An example of a de facto boundary",
+  it_has_been_noted_that_it: { definition: "Harder to prove de facto relationship status, particularly in the case of the death of one of the partners", what_it_does: "", examples: "by habit and repute)" },
+  the_related_terms_oligopoly_and_monopsony: { definition: "Similar in meaning and this is the type of situation that antitrust laws are intended to eliminate", what_it_does: "", examples: "a coup d'état, revolution, usurpation, abrogation or suspension of the constitution" },
+
 };
 
 // ============================================================
