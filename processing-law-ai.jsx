@@ -26840,6 +26840,14 @@ const FLAT_DICT = {
   exitwhen: "Conceptually similar to exception handling , and exceptions or similar constructs are used for this purpose in many languages",
   the_following_simple_example: "Searching a two-dimensional table for a particular item",
 
+  // === INGESTED 2026-06-23 10:24 ===
+  power_isa: { definition: "A RISC load/store architecture", what_it_does: "", examples: "additional fused multiply–add (FMA) and decimal floating-point instructions" },
+  different_classes_of_processors: "Required to implement certain categories, for example a server-class processor includes the categories: Base , Server , Floating-Point , 64-Bit , etc",
+  memory_operations: "Strictly load/store, but allow for out-of-order execution",
+  an_implementation_that: { definition: "Compliant at a lower level is allowed to have additional selected functions from higher levels and custom extensions", what_it_does: "", examples: "decimal arithmetic (Category: Decimal Floating-Point in Book I ) and server hypervisor improvements" },
+  one_significant_new_feature: "Vector-scalar floating-point instructions ( VSX )",
+  the_spec: "Revised in September 2021 to the Power ISA v.3.1B spec",
+
 };
 
 // ============================================================
