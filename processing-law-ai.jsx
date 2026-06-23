@@ -24358,6 +24358,22 @@ const FLAT_DICT = {
   these_same_rifles: { definition: "Used in December 2013 Nuer massacre", what_it_does: "", examples: "the targeting of journalists" },
   a_gag_order: "Put on the petitions and the case",
 
+  // === INGESTED 2026-06-23 02:43 ===
+  consensus_decisionmaking: "A group decision-making process in which participants work together to develop proposals for actions that achieve a broad acceptance",
+  consensus_decisionmaking_in_a_democracy: "Consensus democracy",
+  the_word_consensus: "Latin meaning 'agreement, accord', derived from consentire meaning 'feel together'",
+  this_article: { definition: "The process and the outcome (e.g", what_it_does: "", examples: "the people's microphone and hand signals" },
+  simply_vetoing_a_decision: "Not considered a responsible use of consensus blocking",
+  the_debate_on_the_chosen_problem: "Initiated by the facilitator calling for proposals",
+  every_proposed_option: { definition: "Accepted if the referees decide it is relevant and conforms with the Universal Declaration of Human Rights", what_it_does: "and display a list of these options", examples: "" },
+  the_quaker_model: "Intended to allow hearing individual voices while providing a mechanism for dealing with disagreements",
+  the_facilitator: { definition: "Understood as serving the group rather than acting as person-in-charge", what_it_does: "", examples: "a Devil's advocate or greeter" },
+  unanimity: "Achieved when the full group apparently consents to a decision",
+  consent_however: { definition: "Still observed that defies factional explanations", what_it_does: "", examples: "are unanimous, though often for widely varying reasons" },
+  one_early_example: "The Haudenosaunee (Iroquois) Confederacy Grand Council , which used a 75% supermajority to finalize its decisions, [ 68 ] potentially as early as 1142",
+  the_resulting_agreements: { definition: "Expected to be followed, and range from advice and warnings to compensation and exile", what_it_does: "", examples: "the Anabaptists (Mennonites/Amish), Quakers and Shakers" },
+  conflicts: "Resolved by consensually agreed on arbitrators who are selected early in the negotiation process",
+
 };
 
 // ============================================================
