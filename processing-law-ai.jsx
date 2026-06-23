@@ -29287,6 +29287,10 @@ const FLAT_DICT = {
   the_major_stock_exchanges: { definition: "The most visible example of liquid secondary markets—in this case, for stocks of publicly traded companies", what_it_does: "", examples: "Fannie Mae and Freddie Mac" },
   these_markets: "Generally only available to institutional or accredited investors , and allow trading of unregistered and private company securities",
 
+  // === INGESTED 2026-06-23 19:36 ===
+  the_first_scholarship_organized_in_france: { definition: "Born in Lyon in 1540", what_it_does: "", examples: "the multilateral trading facility in Europe and alternative trading system in the United States" },
+  exchangetraded_forward_contracts: "Called futures contracts",
+
 };
 
 // ============================================================
