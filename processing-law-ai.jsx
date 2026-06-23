@@ -26342,6 +26342,9 @@ const FLAT_DICT = {
   free_movement_of_capital: "Intended to permit movement of investments such as property purchases and buying of shares between countries",
   the_free_movement_of_capital: "Unique insofar as it is granted equally to non-member states",
 
+  // === INGESTED 2026-06-23 08:52 ===
+  such_a_process: { definition: "Called 'regular, change-based code review'", what_it_does: "", examples: "safety critical embedded software ) may be too fast to find errors" },
+
 };
 
 // ============================================================
