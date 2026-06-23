@@ -27713,6 +27713,26 @@ const FLAT_DICT = {
   the_video_was_retracted_after_it: { definition: "Found that the ads had been triggered by the use of copyrighted content in the video", what_it_does: "", examples: "Philip DeFranco and Vlogbrothers" },
   this_will_occur_on_channels_whose_content: "Deemed 'advertiser-friendly', and all revenue will go directly to Google without any share given to the uploader",
 
+  // === INGESTED 2026-06-23 14:11 ===
+  the_trademarks_varivue_and_magic_motion: "Often used for lenticular pictures, without regard to the actual manufacturer",
+  lenticular_printing: "A multi-step process that consists of creating a lenticular image from at least two images, and placing it behind a lenticular lens",
+  once_the_images: "Collected, they are arranged in individual frame files, then digitally combined into a single file in a process called interlacing",
+  if_a_sequence_of_images: "Used, it can even show a short animation",
+  animated_portrait_photographs_with_line_sheets: "Marketed for a while, mostly in the 1910s and 1920s",
+  few_examples_of_these_pictures: "Still known to have survived",
+  winnek_coffey: { definition: "Granted US patent 2,063,985 (application 24 May 1935) for an 'Apparatus for making a composite stereograph'", what_it_does: "", examples: "lenticular technologies" },
+  some_baseball_cards: { definition: "Produced as xographs", what_it_does: "", examples: "badges for Beatles , Rolling Stones' and other bands in the 1960s" },
+  also_known: "A harbor scene (Plate No",
+  the_stamp: "Designed to celebrate the art of magic and 'by rotating each stamp, you can see a white rabbit popping out of a black top hat",
+  poster: "Printed by Lentimax [ 52 ] [ 53 ] A related product, produced by a small company in New Jersey, was Rowlux",
+  the_foil: "Then laminated onto a thin sheet of card stock that has been coated with a thick layer of wax",
+  lithographic_offset_printing: "Typically used, to ensure the images are good quality",
+  the_curing_of_the_ink: "Then initiated directly by an electron beam scanned across the surface",
+  double_images: "Usually caused by an exaggeration of the 3D effect from some angles of view, or an insufficient number of frames",
+  the_origin_of_this_problem: { definition: "A fault in the printing and forcibly generates a phase defect", what_it_does: "", examples: "these lead to a serious phase problem" },
+  in_the_printing_press_the_image_being_printed: "Aligned relative to the edges of the sheet of material",
+  if_the_sheet: "Not always cut in the same place relative to the first lenticule, a phase error is introduced between the lenses and the image slices",
+
 };
 
 // ============================================================
