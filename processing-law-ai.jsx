@@ -24651,6 +24651,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 03:45 ===
   the_bureau: "Established through the Statistics Act of 2006 and initiated in February 2007",
 
+  // === INGESTED 2026-06-23 03:48 ===
+  the_current_acting_chairperson: "Dr Samuel Kipng'etich arap Tororei who took over from Florence Simbiri-Jaoko whose term of office expired on January 9, 2012",
+  a_new_substantive_chairperson: "Expected to be appointed in November 2012",
+  the_mandate_of_the_knchr: "To enhance the promotion and protection of human rights in Kenya",
+  knchr: "Also an advisory body",
+  the_knchr: "A member of the Network of African National Human Rights Institutions (NANHRI), the ICC's regional grouping for Africa",
+
 };
 
 // ============================================================
