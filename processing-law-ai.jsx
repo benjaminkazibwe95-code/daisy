@@ -28805,6 +28805,10 @@ const FLAT_DICT = {
   the_acquisition: "Completed on January 31, 2018",
   fortune_indonesia: { definition: "Available in print version every month as well as an online news portal", what_it_does: "", examples: "it publishes a list of the Best Companies to Work For" },
 
+  // === INGESTED 2026-06-23 17:39 ===
+  the_phrase: { definition: "Coined by McKinsey consultants Michael Lanning and Edward Michaels in 1988", what_it_does: "", examples: "the marketing mix , balanced scorecard , and cost-benefit analysis" },
+  this_exposes_gaps_by_testing_if_current_assets: "Sufficient or need development",
+
 };
 
 // ============================================================
