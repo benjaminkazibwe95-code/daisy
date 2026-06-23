@@ -30409,6 +30409,11 @@ const FLAT_DICT = {
   carpentry_requires_training_which: { definition: "Both acquiring knowledge and physical practice", what_it_does: "", examples: "high school shop classes and community colleges" },
   the_average_length_of_time: { definition: "Four years and includes a minimum number of hours of both on-the-job training and technical instruction at a college or other institution", what_it_does: "", examples: "shop fitting , scaffolding , bench joinery , maintenance and system installation" },
 
+  // === INGESTED 2026-06-23 23:47 ===
+  the_process_of_learning_these_skills: "Called socialization",
+  interpersonal_skills: { definition: "Actions used to effectively interact with others", what_it_does: "", examples: "social interaction" },
+  grandiose_narcissists: "Characterized as confident; they possess unshakable belief that they are superior, even when it is unwarranted",
+
 };
 
 // ============================================================
