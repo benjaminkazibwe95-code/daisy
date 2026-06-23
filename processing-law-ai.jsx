@@ -24164,6 +24164,28 @@ const FLAT_DICT = {
   this_is_an_issue_as_agriculture: "The main form of food acquisition in places such as Tororo and Busia",
   the_state_of_nutrition: { definition: "Most dire for vulnerable populations like children who face developmental issues like stunting or wasting as a result of malnutrition", what_it_does: "", examples: "those on child stunting, wasting and overweight by 2030" },
 
+  // === INGESTED 2026-06-23 02:12 ===
+  ugali: "Prepared from ground white corn similar to how tamales are made from yellow corn in Central America",
+  solid_ugali: "Usually served with traditional vegetables, stew or sukuma wiki (also known as collard greens)",
+  when_ugali: { definition: "Made from another starch, it is usually given a specific regional name", what_it_does: "", examples: "sukuma wiki in Kenya ) to make a filling meal" },
+  sagtulga: "A main meal eaten with soupy accompaniments such as okro soup",
+  the_dish: { definition: "Usually eaten for dinner, yet some people (for example, farmers and manual workers) have it for breakfast or lunch", what_it_does: "", examples: "okra and groundnut soup" },
+  obusuma: "Commonly served with tsimboka , or etsiswa , eliani (vegetables), inyama (meat), inyeni (fish), thimena ( whitebait ) or omrere ( jute leaves)",
+  nsima: "A dish made from maize flour (white cornmeal ) and water and is a staple food in Zambia (nsima/ubwali) and Malawi (nsima)",
+  ndiwo_in_malawi: "The protein dishes and the vegetable sides are known as masamba",
+  the_protein_dishes: "Usually grilled, or in the form of stew",
+  eating: "Done by taking a small lump into one's right palm, rolling it into a ball and dipping it into the relish",
+  the_pudding: "Cooked on heat until it is thick",
+  phuthu_dishes: "Usually found in the coastal areas of South Africa",
+  since_mieliemeal: "Inexpensive, poor people combine it with vegetables",
+  phutu_porridge: "Sometimes eaten with chakalaka as a side dish with braais",
+  phuthu: "Often eaten with meat, beans, gravy and sour milk",
+  the_texture_and_consistency_of_uphuthu: "Often a deciding factor in what dishes will accompany it",
+  sadza_in_shona_or_isitshwala_in_isindebele: "A cooked maize meal that is the staple food in Zimbabwe",
+  this_maize_meal: "Referred to as impuphu in Ndebele or hupfu in Shona",
+  despite_the_fact_that_maize: { definition: "An imported food crop to Zimbabwe (c", what_it_does: "", examples: "sauce / gravy , sour milk , or stewed vegetables" },
+  similar_dishes: "Polenta from northern Italy , gh'omi (ღომი) from Georgia, and grits in the southern United States",
+
 };
 
 // ============================================================
