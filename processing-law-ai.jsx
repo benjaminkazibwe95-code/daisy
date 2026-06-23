@@ -25036,6 +25036,22 @@ const FLAT_DICT = {
   this_chaos: { definition: "An opportunity for John, and he fought many successful campaigns against the states disrupted by the Mongol invasions", what_it_does: "", examples: "imperial power and administrative organisation" },
   its_extinction_in_the_east: { definition: "Thereafter inevitable", what_it_does: "", examples: "roads, public buildings, and the legal system, supported trade and other economic activities" },
 
+  // === INGESTED 2026-06-23 05:03 ===
+  the_language_originates_from_what: "Now Ethiopia and Eritrea",
+  hawulti_obelisk: "An ancient pre- Aksumite obelisk located in Matara , Eritrea",
+  the_reconstructed_phonetic_value_of_a_phoneme: "Given in IPA transcription, followed by its representation in the Geʽez script and scholarly transliteration",
+  lambdin_also_notes_that_the_construct_state: "The unmarked form of possession in Geʽez",
+  the_common_way_of_negation: { definition: "The prefix ኢ ʾi- which descends from ʾəy- (which is attested in Axum inscriptions), from earlier * ʾay , from Proto-Semitic *ʾal by palatalization", what_it_does: "", examples: "Amharic and Tigrinya, the script is called Fidäl , which means script or alphabet" },
+  the_most_widespread_use: "For Amharic in Ethiopia and Tigrinya in Eritrea and Ethiopia",
+  in_eritrea_it: { definition: "Used for Tigre, and it is often used for Bilen , a Cushitic language", what_it_does: "", examples: "Oromo , used to be written using Geʽez but have switched to Latin -based alphabets" },
+  traditional_education: "The responsibility of priests and monks",
+  in_the_third_stage_the_acts_of_the_apostles: { definition: "Studied, while certain prayers were also learnt, and writing and arithmetic continued", what_it_does: "", examples: "magical and divinatory scrolls, and illuminated manuscripts of the 16th to 17th centuries" },
+  the_outcome: "An Ethiopic Bible containing 81 books: 46 in the Old Testament and 35 in the New Testament",
+  these_works: "The theological foundation of the Ethiopian Church",
+  another_important_religious_document: "Serʼata Paknemis , a translation of the monastic 'Rules of Pachomius '",
+  written_by_the_emperor_himself: "Matsʼhafe Berhan ('The Book of Light') and Matsʼhafe Milad 'The Book of the Nativity '",
+  numerous_homilies: { definition: "Written in this period, notably Retuʼa Haimanot ('True Orthodoxy') ascribed to John Chrysostom", what_it_does: "", examples: "the Chronicle of John of Nikiu and the Universal History of Jirjis al-Makin Ibn al-'Amid" },
+
 };
 
 // ============================================================
