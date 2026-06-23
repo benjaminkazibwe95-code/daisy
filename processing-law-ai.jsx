@@ -25123,6 +25123,21 @@ const FLAT_DICT = {
   to_correct_for_this_an_urban_metric_system: { definition: "Proposed, including measurement of Paropolis, that has tantamount calculation values to megacities", what_it_does: "", examples: "Karachi , Delhi , Cairo , Rio de Janeiro , and Lagos" },
   discussions_and_debates_about_sprawl: { definition: "Often obfuscated by the ambiguity associated with the phrase", what_it_does: "also tends to lead to a decrease in average family size in the area", examples: "" },
 
+  // === INGESTED 2026-06-23 05:26 ===
+  europeans: "The focus of European ethnology , the field of anthropology related to the various ethnic groups that reside in the states of Europe",
+  the_definitions_that_apply_to_who: "Considered an indigenous minority group in Europe can vary widely",
+  one_criterion: "The so-called 'time element', or how long the original inhabitants of a land occupied it before the arrival of later settlers",
+  as_there: "No fixed time frame, considering a specific group to be indigenous is often context-dependent",
+  the_nenets: "One of the 40 groups in Russia that are recognized as indigenous small-numbered peoples, while the Komi are seeking this recognition",
+  the_crimean_tatars: "The majority ethnic group of the Crimean Peninsula until the 19th century",
+  the_whole_of_europe: "Subdivided into these tribes",
+  european_culture_is_largely_rooted_in_what: "Often referred to as its 'common cultural heritage'",
+  much_of_this_set_of_traditions_and_knowledge: { definition: "Collected in the Western canon", what_it_does: "", examples: "the Americas , and Australasia , and is not restricted to Europe" },
+  the_secondlargest_christian_group_in_europe: "The Orthodox , who made up 32% of European Christians",
+  significant_minorities: { definition: "Present in the rest of Europe", what_it_does: "", examples: "Chechens , Avars , Ingush and others" },
+  the_jewish_population_of_europe: "Composed primarily of two groups , the Ashkenazi and the Sephardi",
+  jewish_history: "Notably affected by the Holocaust and emigration (including Aliyah , as well as emigration to America ) in the 20th century",
+
 };
 
 // ============================================================
