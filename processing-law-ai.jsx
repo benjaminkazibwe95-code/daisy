@@ -26812,6 +26812,34 @@ const FLAT_DICT = {
   the_final_version: { definition: "Release 3.2 in 1988, which added binary compatibility to Xenix on Intel platforms (see Intel Binary Compatibility Standard )", what_it_does: "", examples: "workstations and network servers" },
   the_target_platform: { definition: "Meant to be Intel's new IA-64 architecture and Itanium line of processors", what_it_does: "", examples: "SCO UnixWare, Compaq Tru64 UNIX , and SGI IRIX were all in decline" },
 
+  // === INGESTED 2026-06-23 10:20 ===
+  an_alternative_approach: "Predication which conditionally enables instructions instead of branching",
+  one_way_to_attack_software: "To redirect the flow of execution",
+  this_general_concept_of_structure: "Not be confused with structured programming which limits structure to sequencing, selection and iteration based on block organization",
+  sequential_execution: "The most basic structure",
+  although_not_all_code: "Sequential in nature, imperative code is",
+  some_languages_limit_a_label_to_a_number_which: "Sometimes called a line number , although that implies the inherent index of the line, not a label",
+  the_syntax: "Similar in Ada : In C : In bash : In Python : In Lisp : A multiway branch jumps control based on matching values",
+  a_loop_inside_the_loop_body: { definition: "Called a nested loop", what_it_does: "", examples: "rounding error, hardware, compiler" },
+  if_the_test: "At the start, the body may be skipped completely",
+  the_first_part: { definition: "A place to initialize state, and the third part is for incrementing for the next iteration, but both aspects can be performed elsewhere", what_it_does: "", examples: "asynchronous programming" },
+  one_common_use_example: { definition: "Searching a multi-dimensional table", what_it_does: "", examples: "multi-level breaks) and return statements" },
+  if_while: "Omitted, we get an infinite loop",
+  this_structure: "Not widely supported, with most languages instead using if ",
+  loop_variants: "Used to guarantee that loops will terminate",
+  a_loop_invariant: "An assertion which must be true before the first loop iteration and remain true after each iteration",
+  loop_invariants: { definition: "Used to monitor specific properties of a loop during successive iterations", what_it_does: "", examples: "Eiffel contain native support for loop variants and invariants" },
+  if_an_exception_of_any_other_type: { definition: "Propagated, then control jumps from line 2 to 6", what_it_does: "", examples: "Ada uses exception to introduce an exception handler and when instead of catch" },
+  since_this_pattern: "Common, C# provides the using statement to ensure cleanup",
+  continuations: { definition: "Useful for encoding other control mechanisms in programming languages such as exceptions , generators , coroutines , and so on", what_it_does: "", examples: "coroutines or first-class continuations" },
+  coroutines: "Well-suited for implementing familiar program components such as cooperative tasks , exceptions , event loops , iterators , infinite lists and pipes",
+  the_statement: "Intended to be the opposite of goto and is considered to be more a joke than serious computer science",
+  often_the_specified_jump_point: "Identified as a label",
+  a_major_difference_with_goto: "That goto depends on the local structure of the code, while COMEFROM depends on the global structure",
+  comefrom: "Eventually implemented in the C-INTERCAL variant of the esoteric programming language INTERCAL along with the even more obscure 'computed COMEFROM'",
+  exitwhen: "Conceptually similar to exception handling , and exceptions or similar constructs are used for this purpose in many languages",
+  the_following_simple_example: "Searching a two-dimensional table for a particular item",
+
 };
 
 // ============================================================
