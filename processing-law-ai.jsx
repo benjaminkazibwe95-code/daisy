@@ -29688,6 +29688,13 @@ const FLAT_DICT = {
   island_endemic_populations: { definition: "More prone to extinction from overexploitation, as they often exist at low densities with reduced reproductive rates", what_it_does: "", examples: "the Hawaiian Achatinella and the French Polynesian Partula" },
   twelve_species_of_avifauna: { definition: "Affected, with some species numbers being reduced by 39%", what_it_does: "", examples: "[ 67 ] Overexploitation of species can result in knock-on or cascade effects" },
 
+  // === INGESTED 2026-06-23 21:27 ===
+  dematerialization: "A phenomenon occurs simultaneously with technological advancement, especially in the Third Industrial revolution products",
+  miniaturization_and_optimization_of_products: "Enabled by the improvement of wafer fabrication and battery production",
+  servitization_of_products: "Due to the Industrial transformation in developed economies, from retailing to rental services",
+  while_consumer_demand: "Constantly increasing, consumers demand services such as communication, heating and housing, and not the raw materials needed to provide these",
+  the_majority_of_industrialized_economies: "Now in the midst of a 'forest transition,' in which governments are reclaiming forest land",
+
 };
 
 // ============================================================
