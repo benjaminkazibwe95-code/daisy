@@ -27212,6 +27212,10 @@ const FLAT_DICT = {
   the_demand_this_time: "Based more closely on market fundamentals",
   experts_note_that_the_current_price_increases: "Based on market fundamentals rather than speculative behavior, highlighting the ongoing issue of housing affordability",
 
+  // === INGESTED 2026-06-23 11:56 ===
+  whereas_it: "Governed under a national framework of accountability, the AMF increasingly implements policies set at the European Union level",
+  shareholders: "Required to notify their holdings to the AMF when their stake exceeds or falls below certain thresholds",
+
 };
 
 // ============================================================
