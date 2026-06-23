@@ -28938,6 +28938,13 @@ const FLAT_DICT = {
   brand_health: { definition: "The positive or negative feedback that a company gets", what_it_does: "", examples: "click-through-rate from a product-page to check-out and completion rates at the check-out" },
   electronic_services: { definition: "Different from traditional services and they are not affected by distance restrictions and opening hours", what_it_does: "", examples: "face-to-face, postal, and other remote services" },
 
+  // === INGESTED 2026-06-23 18:27 ===
+  the_term_client: "Derived from Latin clients or care meaning 'to incline' or 'to bend', and is related to the emotive idea of closure",
+  an_intermediate_customer: "Not a consumer at all",
+  company_employees: "Obliged to follow the processes of their companies",
+  peter_drucker_considers_that_there: "No customers inside organizations",
+  the_only_profit_center: "A customer whose check has not bounced",
+
 };
 
 // ============================================================
