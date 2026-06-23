@@ -29489,6 +29489,9 @@ const FLAT_DICT = {
   the_harappan_script: { definition: "Yet undeciphered, indeed it has not even been demonstrated to be a writing system, and therefore the language remains unknown", what_it_does: "", examples: "Meluhha ), in conjunction with analyses of the Harappan script" },
   bet_dwarka: { definition: "Fortified and continued to have contacts with the Persian Gulf region, but there was a general decrease of long-distance trade", what_it_does: "", examples: "stone weights and female figurines became rare" },
 
+  // === INGESTED 2026-06-23 20:20 ===
+  global_village: { definition: "The phenomenon of the entire world becoming more interconnected as the result of the propagation of media technologies throughout the world", what_it_does: "", examples: "in other countries" },
+
 };
 
 // ============================================================
