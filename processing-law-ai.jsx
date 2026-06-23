@@ -26760,6 +26760,13 @@ const FLAT_DICT = {
   a_significant_downside: "That each library call entails significantly more overhead than for a local library",
   they_also: { definition: "Used to intercept field access", what_it_does: "", examples: "/lib , /usr/lib and /usr/local/lib" },
 
+  // === INGESTED 2026-06-23 10:07 ===
+  tinyos_applications: { definition: "Written in the programming language nesC , a dialect of the C language optimized for the memory limits of sensor networks", what_it_does: "", examples: "the nesC compiler and Atmel AVR binutils toolchains, are mostly written in C" },
+  tinyos_programs: "Built of software components , some of which present hardware abstractions",
+  tinyos: "Fully non-blocking : it has one call stack",
+  tosthreads: "Unmaintained and have been deprecated",
+  associated_utilities: "Provided to complete a development platform for working with TinyOS",
+
 };
 
 // ============================================================
