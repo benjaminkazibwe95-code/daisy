@@ -27802,6 +27802,17 @@ const FLAT_DICT = {
   scientific_american: "Founded by inventor and publisher Rufus Porter in 1845 [ 4 ] as a four-page weekly newspaper",
   these_books: "Not sold in retail stores, but as a Book of the Month Club selection priced from $24.95 to $32.95",
 
+  // === INGESTED 2026-06-23 14:30 ===
+  catalysis: { definition: "Also important for the production of chemicals", what_it_does: "", examples: "nanoparticles with a distinct chemical surrounding ( ligands ), or specific optical properties" },
+  if_buildings: "Stronger, then fewer of them will require reconstruction and less waste will be produced",
+  nanotechnology_in_construction: "Using nanoparticles such as alumina and silica",
+  manufacturers: { definition: "Also investigating the methods of producing nano-cement", what_it_does: "", examples: "Atomic Force Microscopy (AFM), Scanning Electron Microscopy (SEM) and Focused Ion Beam (FIB)" },
+  current_steel_designs: "Based on the reduction in the allowable stress, service life or regular inspection regime",
+  stress_risers: { definition: "Responsible for initiating cracks from which fatigue failure results", what_it_does: "", examples: "magnesium and calcium makes the HAZ grains finer in plate steel" },
+  wood: "Also composed of nanotubes or “nanofibrils”; namely, lignocellulosic (woody tissue) elements which are twice as strong as steel",
+  most_of_glass_in_construction: { definition: "On the exterior surface of buildings", what_it_does: "a better solution to block light and heat coming through windows", examples: "" },
+  since_these_coatings: "Hydrophobic and repels water from the metal pipe and can also protect metal from salt water attack",
+
 };
 
 // ============================================================
