@@ -26273,6 +26273,9 @@ const FLAT_DICT = {
   the_cache: { definition: "Typically implemented using fast lookup structures such as hash tables or radix trees, and may utilize aging algorithms such as LRU for cache eviction", what_it_does: "", examples: "Linux, BSD, Solaris, and macOS" },
   these_dentries: { definition: "Organized in a tree structure that mirrors the directory hierarchy and are stored in memory as long as there is no memory pressure", what_it_does: "", examples: "complex setups with overlays or bind mounts" },
 
+  // === INGESTED 2026-06-23 08:40 ===
+  a_cloud_broker: "An entity that manages the use, performance and delivery of cloud services and negotiates relationships between cloud providers and cloud consumers",
+
 };
 
 // ============================================================
