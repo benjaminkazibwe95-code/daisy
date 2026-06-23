@@ -30015,6 +30015,12 @@ const FLAT_DICT = {
   future_design_plans: "Audited to ensure that these standards are met but not exceeded",
   the_external_finishes: { definition: "To be downgraded to meet a build cost of £1113/m 2", what_it_does: "", examples: "in Finland , or by a state run testing regime such as Ofsted in the United Kingdom" },
 
+  // === INGESTED 2026-06-23 22:31 ===
+  the_traditions_from_this_period: { definition: "Passed on through the Book of Rites , which later became one of the Five Classics of the Confucian Canon", what_it_does: "", examples: "Confucianism , Mohism , and Daoism" },
+  rival_scholars: { definition: "Invited to courts; governmental sponsorship led to the development of the first Chinese academies", what_it_does: "", examples: "through state education" },
+  improving_populationwide_literacy: { definition: "The focus of education in the early years of the PRC", what_it_does: "", examples: "new democracy" },
+  imam_hu_songshan_and_ma_linyi: { definition: "Involved in reforming Islamic education inside China", what_it_does: "", examples: "Cai Yuanpei , started bringing female education in the 1920s" },
+
 };
 
 // ============================================================
