@@ -28597,6 +28597,36 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 16:54 ===
   although_fame_and_success: "Widely sought by many people, successful people are often displeased by their status",
 
+  // === INGESTED 2026-06-23 16:56 ===
+  motherhood_and_childhood: "Entitled to special care and assistance",
+  this_typology: "An open exercise that makes abstraction of existing legal definitions in the EU member states",
+  the_presumption: "That vagabonds were unlicensed beggars",
+  many_vagabonds: { definition: "Among the convicts transported to the American colonies in the 18th century", what_it_does: "", examples: "providing funds to build public housing" },
+  families_that_made_it_to_china: "Often separated, in some cases children even fled North Korea on their own",
+  autism_spectrum_disorders_and_schizophrenia: { definition: "The top two common mental disabilities among the U.S", what_it_does: "", examples: "disownment due to sexuality or gender identity is one example" },
+  such_people: { definition: "Known in Greece as seismopathis , meaning earthquake-struck", what_it_does: "", examples: "the Syrian civil war has resulted in over 6.6 million internally displaced persons and 5" },
+  when_someone_is_prejudiced_against_people_who: "Homeless and then becomes homeless themselves, their anti-homelessness prejudice turns inward, causing depression",
+  the_photo_of_an_antihomeless_structure: "A classic example of hostile architecture, in an attempt to discourage people from attempting to access or use public space in irregular ways",
+  communicable_diseases: "Of great concern, especially tuberculosis , which spreads more easily in crowded homeless shelters in high-density urban settings",
+  the_report: "Published in the Journal of Geriatric Internal Medicine",
+  hurricane_katrina: { definition: "The deadliest hurricane in the US in seven decades, with more than 1,600 confirmed deaths, and more than 1,000 people missing", what_it_does: "", examples: "identification and other documents, or find them destroyed by police or others" },
+  the_right_to_adequate_housing: { definition: "About the security of tenure, affordability, access to services, and cultural adequacy", what_it_does: "", examples: "while the Census of 2011 counted 46" },
+  the_number_of_homeless_people_in_indonesia: { definition: "Estimated to be up to three million people in the country, with over 28,000 in Jakarta alone", what_it_does: "", examples: "tunawisma , which is used by the government, and gelandangan , meaning 'tramp'" },
+  the_amendment: { definition: "Part of a wider reform in the law in the wake of a lengthy battle by the Association for Civil Rights in Israel and other human rights groups", what_it_does: "", examples: "450 receiving services and treatment from their municipalities but continuing to live on the streets" },
+  the_majority_of_homeless_people_in_geneva: { definition: "Swiss or French, with a minority from other countries", what_it_does: "", examples: "the Suneboge community center" },
+  the_picture_in_scotland: { definition: "Considerably different, with laws that entitle everyone to a roof over their head if they are homeless", what_it_does: "", examples: "crisis accommodation , couch surfing , or living in unsafe or overcrowded conditions" },
+  reasons_given_for_wandering: { definition: "Varied with the most common causes being drug abuse (30.6%), family problems (22.4%), financial or economic problems (15", what_it_does: "", examples: "refuges, shelters, and half-way houses, and offer a range of supported services" },
+  the_highest_rate_of_homelessness: { definition: "In the Northern Territory (564 people per 10,000 population), while the lowest was in Western Australia (37 people per 10,000)", what_it_does: "", examples: "Hong Kong, San Francisco, Sydney and Vancouver, British Columbia" },
+  there_also: "A large number of shelterless homeless people",
+  the_flat: "Declared state property",
+  the_right_to_shelter: { definition: "Secured in the Soviet constitution", what_it_does: "", examples: "the prohibition of selling last flats with registered children" },
+  couch_surfing: { definition: "A temporary sleeping arrangement in dwellings of friends or family members ('couch surfing')", what_it_does: "", examples: "by those recently evicted from a home" },
+  squatting: "Living in an unoccupied structure where a homeless person may live without payment and the owner's knowledge or permission",
+  often_these_buildings: { definition: "Long abandoned and not safe to occupy", what_it_does: "", examples: "the working homeless, and is meant to transition residents into permanent, affordable housing" },
+  foyers: "Generally institutions that provide affordable accommodation as well as support and training services for residents",
+  supportive_housing: { definition: "A combination of housing and services intended as a cost-effective way to help people live more stable, productive lives", what_it_does: "", examples: "different types of plastics, and different types of metal)" },
+  examples_of_possible_problems: "Ways to deal with substance use disorders by certain shelter users, and the resolution of interpersonal conflicts",
+
 };
 
 // ============================================================
