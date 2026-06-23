@@ -29098,6 +29098,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 18:48 ===
   the_official_head_of_the_agency: { definition: "The comptroller of the currency, who is appointed to a five-year term by the president with the consent of the Senate", what_it_does: "", examples: "President Abraham Lincoln and Treasury Secretary Salmon P" },
 
+  // === INGESTED 2026-06-23 18:50 ===
+  such_a_situation: "Called a bank run and caused the demise of many early banks",
+  the_swedish_riksbank: { definition: "The world's first central bank, created in 1668", what_it_does: "", examples: "measures of inflation, unemployment, and the international balance of payments" },
+  that_deposit_account: { definition: "A liability on the balance sheet of the bank", what_it_does: "longer-term loans, and act as financial intermediaries for those funds", examples: "" },
+  influencing_interest_rates: "An important part of monetary policy used by central banks to promote macroeconomic stability",
+  data_for_reserves_and_vault_cash: "Published regularly by the Federal Reserve in the United States",
+  this_theoretical_maximum: { definition: "Never reached, because some eligible reserves are held as cash outside of banks", what_it_does: "", examples: "the European Union), the central bank does not require reserves to be held during the day" },
+  the_capital_requirement_ratio: "Perhaps the most important of these other required ratios",
+  in_practice_this: { definition: "That the bank sets a reserve ratio target and responds when the actual ratio falls below the target", what_it_does: "", examples: "As with reserves, other sources of liquidity are managed with targets" },
+  assets_and_liabilities: { definition: "Put into residual contractual maturity buckets such as 'on demand', 'less than 1 month', '2–3 months' etc", what_it_does: "", examples: "stress scenarios such as a bank-specific crisis" },
+
 };
 
 // ============================================================
