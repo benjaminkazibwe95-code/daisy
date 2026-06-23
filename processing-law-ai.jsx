@@ -29695,6 +29695,38 @@ const FLAT_DICT = {
   while_consumer_demand: "Constantly increasing, consumers demand services such as communication, heating and housing, and not the raw materials needed to provide these",
   the_majority_of_industrialized_economies: "Now in the midst of a 'forest transition,' in which governments are reclaiming forest land",
 
+  // === INGESTED 2026-06-23 21:29 ===
+  the_ideal_result_of_this_advancement: "The ability to feed ever-growing populations across the world",
+  sustainable_agricultural_systems: { definition: "Becoming an increasingly important field for AI research and development", what_it_does: "", examples: "digitalization and precision breeding" },
+  nitrates: { definition: "Used widely in farming as fertilizer", what_it_does: "", examples: "phosphorus and potassium are more limited" },
+  phosphate: { definition: "A primary component in fertilizer", what_it_does: "", examples: "photosynthesis, energy transfer, signal transduction, macromolecular biosynthesis, and respiration" },
+  the_goal_of_sustainable_agricultural_practices: { definition: "To decrease environmental degradation due to farming while increasing crop–and thus food–output", what_it_does: "", examples: "in Uganda , Genetically Modified Organisms were originally illegal" },
+  not_all_regions: { definition: "Suitable for agriculture", what_it_does: "", examples: "Nepal has built greenhouses to deal with its high altitude and mountainous regions" },
+  much_of_the_growth: "Due to women farming outside of the 'male dominated field of conventional agriculture'",
+  these_three_dimensions: "Seen as the core pillars to sustainability : social, environmental, and economic pillars",
+  an_increased_production: "A goal of intensification",
+  that_amount_of_land: { definition: "Equal to 29% of farms worldwide", what_it_does: "", examples: "have been successfully genetically modified to be drought resistant" },
+  different_methods: "Available to induce steam into the soil to kill pests and increase soil health",
+  solarizing: { definition: "Based on the same principle, used to increase the temperature of the soil to kill pathogens and pests", what_it_does: "", examples: "methyl isothiocyanates" },
+  this_broader_approach: "Particularly relevant for reconciling biodiversity conservation while maintaining sufficient agricultural production",
+  crop_genetic_diversity_is_one_method_that: { definition: "Used to reduce the risks associated with monoculture crops, which can be susceptible to a changing climate", what_it_does: "", examples: "animal and green manure" },
+  an_example_of_a_precision_machine: { definition: "The false seedbed tiller, which can remove a great majority of small weeds while only tilling one centimeter deep", what_it_does: "", examples: "the Altiplano region in Bolivia and Peru" },
+  water_harvesting: "One of the largest and most common practices, particularly used in dry areas and seasons",
+  native_american_farming_practices: "Specific to local environments and work with natural processes",
+  the_crops_that: { definition: "Paired in intercropping often do not heavily compete for resources, which helps them to each be successful", what_it_does: "", examples: "many tribes utilized intercropping in ways such as the Three Sisters Garden" },
+  intercropping: "A natural agricultural practice that often improves the overall health of the soil and plants, increases crop yield, and is sustainable",
+  the_honorable_harvest: "A set of practices that emphasize the idea that people should 'take only what you need and use everything you take",
+  such_varieties: "Being developed for rice, wheat, sorghum, barley, and sunflowers",
+  certifications_and_labels: { definition: "Used to signal the successful implementation of a VSS", what_it_does: "", examples: "coffee, tea, bananas, cocoa, palm oil, timber, cotton, and organic agri-foods" },
+  the_usda_produces_an_organic_label_that: "Supported by nationalized standards of farmers and facilities",
+  the_organic_system_plan: "Then reviewed and inspected by the USDA certifying agent",
+  once_the_certification: "Granted, the produce receives an approval sticker from the USDA and the produce is distributed across the U.S",
+  sustainable_agriculture: "A topic in international policy concerning its potential to reduce environmental risks",
+  the_community_farm_built_by_penniman: "Also a training center whose goal is to end racism in agriculture",
+  the_purpose_of_this_program: "To invest in sustainable farming throughout the country and increase food production while achieving few negative environmental effects",
+  in_a_conclusive_understanding_it: "Realised that sustainable agriculture is far from mainstream in India",
+  a_large_factor_of_this_policy: "Funding programs that made sustainable agriculture accessible to smaller Palestinian-Arab communities",
+
 };
 
 // ============================================================
