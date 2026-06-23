@@ -24587,6 +24587,34 @@ const FLAT_DICT = {
   the_higher_frequency: "Explained as a result of the glottis being tense",
   many_subclassifications_of_plosives: "Transcribed by adding a diacritic or modifier letter to the IPA symbols above",
 
+  // === INGESTED 2026-06-23 03:33 ===
+  most_languages_of_the_world_have_formal: "To express differences of number",
+  grammatical_number: { definition: "Expressed by morphological or syntactic means", what_it_does: "", examples: "through affixes or number words" },
+  the_lower_bound_of_the_paucal: "Usually defined by what other number categories exist in the language",
+  the_sursurunga_paucal: "Used for smaller groups, usually of about three or four, or for nuclear families of any size",
+  the_sursurunga_greater_paucal: "Used for groups of four or more (and must be used instead of the plural for a group of two or more dyads)",
+  apparent_examples_of_its_use: "Almost entirely confined to pronouns, and specifically those in the languages of Oceania or in sign languages",
+  the_greater_plural: { definition: "More common in nouns than in pronouns", what_it_does: "", examples: "Mele-Fila is said to have a paucal, plural, and greater plural" },
+  thus_the_distinction: "Muddied between a system of paucal, plural, greater plural, and a system of paucal, greater paucal, plural",
+  the_general_is_used_when_the_specific_number: "Deemed irrelevant or unimportant",
+  the_alternate_analysis: "Thus: The 'minimal' number is the smallest possible group for each category",
+  unit_augmented: "One more than minimal",
+  augmented: "An equivalent to plural",
+  these_languages_have_what: "Called an inverse number system",
+  what_number: { definition: "Implicit in an unmarked noun depends on its class", what_it_does: "", examples: "changing Class III nouns from dual to nondual" },
+  both_describe_how_members_of_a_group: "Viewed, rather than how many members are in that group",
+  thus_in_mohawk_there: { definition: "Ierakewáhtha’ , towel, and ierakewahtha’ shòn:’a , various products for wiping like towels, napkins, and so on", what_it_does: "", examples: "those found in Yir-Yoront , which distinguish between 'you and I' and 'you and I, acting separately'" },
+  verbs: { definition: "Conjugated for number as well as person", what_it_does: "", examples: "מכנסיים /mixnaˈsajim/ 'pants' and אופניים /ofaˈnajim/ 'bicycle')" },
+  the_plural_of_the_noun: "Usually obtained by adding a suffix, according to the noun's declension",
+  the_suffixes: { definition: "As follows: -or in the 1st declension (e.g", what_it_does: "", examples: "Chinese , often do not mark grammatical number" },
+  plurality: "Sometimes marked by a specialized number particle (or number word)",
+  an_example_from_tagalog: { definition: "The word mga [mɐˈŋa]: compare bahay 'house' with mga bahay 'houses'", what_it_does: "", examples: "Assamese ) lack this feature" },
+  the_singularity_or_plurality_of_the_noun: "Determined by the addition of the classifier suffix either to the noun or to the numeral",
+  number_system_in_assamese: "Either realized as numeral or as nominal inflection, but not both",
+  pingelapese: "A Micronesian language spoken on the Pingelap atoll and on two of the eastern Caroline Islands, called the high island of Pohnpei",
+  examples_of_this: { definition: "The names of the days of the week", what_it_does: "", examples: "English, number is obligatorily expressed in every grammatical context" },
+  they_may_do_so_by_lexical: "With words such as English a few , some , one , two , five hundred",
+
 };
 
 // ============================================================
