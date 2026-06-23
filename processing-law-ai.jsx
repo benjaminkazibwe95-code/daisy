@@ -26848,6 +26848,10 @@ const FLAT_DICT = {
   one_significant_new_feature: "Vector-scalar floating-point instructions ( VSX )",
   the_spec: "Revised in September 2021 to the Power ISA v.3.1B spec",
 
+  // === INGESTED 2026-06-23 10:26 ===
+  kotlin: { definition: "Designed to interoperate fully with Java , and the Java virtual machine (JVM) version of Kotlin's standard library depends on the Java Class Library", what_it_does: "", examples: "for frontend web applications using React ) [ 4 ] or native code via LLVM (e.g" },
+  kotlin_on_android: { definition: "Seen as beneficial for its null-safety and features that make code shorter and more readable", what_it_does: "", examples: "coroutines" },
+
 };
 
 // ============================================================
