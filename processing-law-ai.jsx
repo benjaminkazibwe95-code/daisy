@@ -28169,6 +28169,10 @@ const FLAT_DICT = {
   absolute_value: "The difference of the output and input values and the relative value is their relation, respectively",
   the_surplus_value_calculation_in_the_example: "At a nominal price, calculated at the market price of each period",
 
+  // === INGESTED 2026-06-23 15:26 ===
+  these_directors: { definition: "Theoretically liable for breaches of that duty and are typically insured under directors and officers liability insurance", what_it_does: "", examples: "the chief financial officer (CFO), has increased" },
+  managers_destined_for_the_service_sector: { definition: "Being trained to use unique measurement techniques, better worker support, and more charismatic leadership styles", what_it_does: "", examples: "Cog's Ladder (1972) and the notion of 'thriving on chaos' [ 53 ] (1987)" },
+
 };
 
 // ============================================================
