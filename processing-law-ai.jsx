@@ -26292,6 +26292,22 @@ const FLAT_DICT = {
   a_thorough_analysis_of_the_infrastructure: "Recommended to identify potential single point of failure (SPOF)",
   carpooling: "Sharing of car journeys so that not all of the persons need to drive to a location themselves",
 
+  // === INGESTED 2026-06-23 08:48 ===
+  this_use: { definition: "Common in most IEEE 802 networking technologies, including Ethernet , Wi-Fi , and Bluetooth", what_it_does: "", examples: "in its read-only memory , or by a firmware mechanism" },
+  the_term_oui: "Still in use, [ 4 ] but the IEEE Registration Authority does not administer them",
+  an_iab: "Ideal for organizations requiring not more than 4096 unique 48-bit numbers (EUI-48)",
+  a_universally_administered_address: "Uniquely assigned to a device by its manufacturer",
+  a_locally_administered_address: "Assigned to a device by software or a network administrator, overriding the burned-in address of a physical device",
+  this_bit: "Also referred to as the U/L bit, short for Universal/Local , which identifies how the address is administered",
+  each_new_virtual_machine: "Started with a MAC address set by assigning the last three bytes to be unique on the local network",
+  while_this: "Local administration of MAC addresses, it is not an LAA in the IEEE sense",
+  a_historical_example_of_this_hybrid_situation: "The DECnet protocol, where the universal MAC address (with Digital Equipment Corporation's OUI AA-00-04) is administered locally",
+  a_unicast_frame: { definition: "Transmitted to all nodes within the collision domain", what_it_does: "", examples: "based on a configurable list of accepted multicast MAC addresses" },
+  that_bit: "Set to 0 in individual addresses and set to 1 in group addresses",
+  this_additional_partitioning: { definition: "Called Structured Local Address Plan (SLAP) and its usage is optional", what_it_does: "", examples: "Ethernet and Wi-Fi) has an EUI-48 address" },
+  changing_mac_addresses: "Necessary in network virtualization",
+  mac_address_randomization_during_scanning: "Added in Android starting from version 6.0, [ 18 ] in Windows 10, [ 20 ] and in Linux 3.18",
+
 };
 
 // ============================================================
