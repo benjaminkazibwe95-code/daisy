@@ -29540,6 +29540,11 @@ const FLAT_DICT = {
   another_area_of_interest: { definition: "In defining how the behavior and performance of products is measured and described in data sheets", what_it_does: "", examples: "it in the standard" },
   such_an_agreement: "Regarded as a legally binding contract, [ 28 ] as in the 2012 case Microsoft v",
 
+  // === INGESTED 2026-06-23 20:32 ===
+  the_concept_behind_technocapitalism: "Part of a line of thought that relates science and technology to the evolution of capitalism",
+  science_and_technology: "Part of society, and they are subject to the priorities of capitalism as much as any other human endeavor, if not more so",
+  his_approach_to_the_topic: { definition: "Consonant with that of business journals and the corporate management literature", what_it_does: "", examples: "Blockchain capital" },
+
 };
 
 // ============================================================
