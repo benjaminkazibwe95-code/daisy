@@ -29139,6 +29139,19 @@ const FLAT_DICT = {
   the_calculation_of_risk_weights: { definition: "Dependent on whether the bank has adopted the standardized or IRB approach under the Basel II framework", what_it_does: "", examples: "debentures , are assigned a higher risk than others, such as cash or government securities / bonds" },
   the_main_recommendation_of_this_document: "That banks should hold enough capital to equal at least 8% of its risk-weighted assets",
 
+  // === INGESTED 2026-06-23 18:58 ===
+  the_ft: "Launched as the London Financial Guide on 10 January 1888, renaming itself the Financial Times on 13 February the same year",
+  the_readership: "The financial community of the City of London , its only rival being the more daring and slightly older (founded in 1884) Financial News",
+  the_lex_column: { definition: "A daily feature on the back page of the first section", what_it_does: "", examples: "at the general election in 1992 when Neil Kinnock was Labour leader" },
+  the_secondgeneration_site: "Launched in spring 1996",
+  ftfm: { definition: "The world's largest-circulation fund management title", what_it_does: "", examples: "broadcast, video, digital, social and events" },
+  the_piece: "Withdrawn from the FT website on the same day as its publication",
+  the_economist: "Rated the third-most-credible title by most influential professional investors, while the WSJ was second",
+  each_player: "Put in the virtual role of Chief Executive and the goal was to have the highest profit when the game closes",
+  the_longestrunning_of_these: "The former Financial News Index , started on 1 July 1935 by the Financial News",
+  the_oil_and_financial_sectors: "Included decades later",
+  the_first_of_several_overseas_offices: "Opened in New York City in 1999; Paris followed in early 2000, Hong Kong, Frankfurt and San Francisco in 2001, Madrid in 2002 and Tokyo in 2003",
+
 };
 
 // ============================================================
