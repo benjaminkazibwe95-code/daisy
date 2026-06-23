@@ -28678,6 +28678,11 @@ const FLAT_DICT = {
   the_basic_calculation_of_working_capital: "Based on the entity's gross current assets",
   common_types_of_shortterm_debt: { definition: "Bank loans and lines of credit", what_it_does: "", examples: "has paid off some short-term creditors—or a combination of both" },
 
+  // === INGESTED 2026-06-23 17:13 ===
+  incrementalism: { definition: "A method of working by adding to or subtracting from a project using many small incremental changes instead of a few (extensively planned) large jumps", what_it_does: "", examples: "making coffee or getting dressed" },
+  although_the_uk_and_us_designs: { definition: "Technically superior, the lack of experience in the field meant that their machines were less reliable", what_it_does: "", examples: "the DoD and government programs such as Social Security and Medicare" },
+  the_amounts_with_which: { definition: "Decided gradually change based on the importance as well as efficiencies and inefficiencies of agencies or priorities", what_it_does: "", examples: "is found in autonomous work groups" },
+
 };
 
 // ============================================================
