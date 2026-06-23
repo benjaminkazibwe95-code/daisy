@@ -27606,6 +27606,9 @@ const FLAT_DICT = {
   these_races: { definition: "Designed to challenge the pilots based on skill alone, and drones are typically much slower than open class racing", what_it_does: "", examples: "altitude hold, GPS positioning, or auto-leveling" },
   this_level_of_control: "An essential requirement for dynamic disciplines such as freestyle and drone racing",
 
+  // === INGESTED 2026-06-23 13:48 ===
+  godflesh: { definition: "Also a stated influence on many groups", what_it_does: "", examples: "Kevin Drumm and Oren Ambarchi , have also worked in the style" },
+
 };
 
 // ============================================================
