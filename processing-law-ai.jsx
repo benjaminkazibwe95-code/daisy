@@ -29239,6 +29239,33 @@ const FLAT_DICT = {
   once_the_reason_for_tax_selling: { definition: "Eliminated, the stock's price tends to recover", what_it_does: "", examples: "high-frequency trading , which often execute dozens or even hundreds of trades per second" },
   depending_on_which_past_period: "Taken as a reference and how long the securities were held thereafter, a different magnitude of effect was observed",
 
+  // === INGESTED 2026-06-23 19:23 ===
+  people_who_engage_in_arbitrage: "Called arbitrageurs ( / ˌ ɑːr b ɪ t r ɑː ˈ ʒ ɜːr / )",
+  an_arbitrage_equilibrium: "A precondition for a general economic equilibrium",
+  arbitragefree_pricing: "Used for bond valuation and to detect arbitrage opportunities for investors",
+  since_the_cash_flows: "Dispersed throughout future periods, they must be discounted back to the present",
+  arbitragefree_price: "The price at which no price arbitrage is possible",
+  if_the_curve: "To be created with Treasury securities of different maturities, they would be stripped of their coupon payments through bootstrapping",
+  this_means_that_the_value_of_the_portfolio: "Never negative, and guaranteed to be positive at least once over its lifetime",
+  when_the_transaction: { definition: "A delay of weeks or months, as above, it may entail considerable risk if borrowed money is used to magnify the reward through leverage", what_it_does: "", examples: "those involving Michael Milken and Ivan Boesky" },
+  in_the_extreme_case_this: "Merger arbitrage, described below",
+  this_hazard: "Serious because of the large quantities one must trade in order to make a profit on small price differences",
+  arbitrage_trades: { definition: "Necessarily synthetic, leveraged trades, as they involve a short position", what_it_does: "", examples: "price confusion, and may even cause prices to plummet in severe cases" },
+  if_these_prices: "Misquoted relative to the put-call parity relationship, it provides an arbitrageur the opportunity to profit from the mispricing",
+  these_corporate_equivalents: "Typically interest rate swaps referencing Libor or SIFMA",
+  credit_risk_and_duration_risk: "Largely eliminated in this strategy",
+  the_end_goal: "To limit this principal volatility, eliminating its relevance over time as the high, consistent, tax-free cash flow accumulates",
+  since_the_inefficiency: "Related to government tax policy, and hence is structural in nature, it has not been arbitraged away",
+  a_convertible_bond: "A bond that an investor can return to the issuing company in exchange for a predetermined number of shares in the company",
+  eventually_what_he_or_she_would_be_left_with: "Something similar to a call option on the underlying stock, acquired at a very low price",
+  a_depositary_receipt_is_a_security_that: "Offered as a 'tracking stock' on another foreign market",
+  since_the_adr: "Trading at a value lower than what it is worth, one can purchase the ADR and expect to make money as its value converges on the original",
+  private_to_public_equities_arbitrage: "A term that can arguably be applied to investment banking in general",
+  the_it_services_company: "Free to leverage their balance sheet as aggressively as they and their banker agree to",
+  the_calls: "Seen as free by the UK contract mobile phone customers since they are using up their allocated monthly minutes rather than paying for additional calls",
+  such_services: "Previously offered in the United States by companies such as FuturePhone.com",
+  grey_market_arbitrage: "Buying items through marketing channels that don't have the permission of the trademark owner and sells them in the legitimate market",
+
 };
 
 // ============================================================
