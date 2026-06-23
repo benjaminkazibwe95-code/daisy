@@ -28329,6 +28329,15 @@ const FLAT_DICT = {
   exogenous_variables: "Independent of the model's disturbance term , since they are preset",
   an_exogenous_factor_is_any_material_that: { definition: "Present and active in an individual organism or living cell but that originated outside that organism, as opposed to an endogenous factor", what_it_does: "", examples: "densities of populations and urbanizations of certain areas in the world" },
 
+  // === INGESTED 2026-06-23 15:54 ===
+  one_such_definition: { definition: "Found in the United States' Consumer Product Safety Act , which provides extensive explanation of consumer products", what_it_does: "", examples: "tools, cars, and boats" },
+  consumer_nondurable_goods: "Purchased for immediate use or for use very soon",
+  convenience_goods: "Primarily sold by wholesalers or retailers in large volumes to ensure widespread availability to consumers",
+  these_goods: { definition: "Easily available and in large quantities, such as milk, bread, and sugar", what_it_does: "", examples: "cost, brand, style, comfort etc., before buying an item" },
+  shopping_goods: "Costlier than convenience goods and are durable in nature",
+  specialty_goods: { definition: "Mostly purchased by the upper classes of society as they are expensive in nature and difficult to afford for the middle and lower classes", what_it_does: "", examples: "antiques, jewelry, wedding dresses, cars, etc" },
+  they_are_always_available_in_the_market_but: { definition: "Purchased by very few consumers, either based on their interest or their need for some specific reasons", what_it_does: "", examples: "snowshoes , fire extinguishers , flood insurance , etc" },
+
 };
 
 // ============================================================
