@@ -29266,6 +29266,20 @@ const FLAT_DICT = {
   such_services: "Previously offered in the United States by companies such as FuturePhone.com",
   grey_market_arbitrage: "Buying items through marketing channels that don't have the permission of the trademark owner and sells them in the legitimate market",
 
+  // === INGESTED 2026-06-23 19:25 ===
+  an_investment_trust: { definition: "A form of investment fund found mostly in the United Kingdom and Japan", what_it_does: "", examples: "venture capital trusts (VCTs)" },
+  the_association_of_investment_companies: "The trade association representing investment trusts and VCTs",
+  these_sector_classifications: "Revamped in spring 2019",
+  the_new_sectors: "Added to reflect the greater numbers of investment companies investing in alternative assets",
+  the_growing_debt_sector: "Separated into three new sectors, Debt – Direct Lending, Debt – Loans & Bonds, and Debt – Structured Finance",
+  most_of_the_equity_sectors: "Unchanged, but Asia was split into three new sectors, Asia Pacific, Asia Pacific Income, and Asia Pacific Smaller Companies",
+  investment_trust_shares: "Traded on stock exchanges, like those of other public companies",
+  unlike_openended_funds_that: "UCITS , investment trusts may borrow money in an attempt to enhance investment returns (known as gearing or leverage )",
+  ucits_funds: { definition: "Not permitted to gear for investment purposes", what_it_does: "", examples: "property, private equity and infrastructure" },
+  split_capital_investment_trusts: "Investment trusts with more than one type of share, such as zero dividend preference shares, income shares and capital shares",
+  next_in_line_to_be_repaid: "Zero Dividend Preference shares, followed by any Income shares and then Capital",
+  although_this_order_of_priority: "The most common way shares are paid out at the wind-up date, it may alter slightly from trust to trust",
+
 };
 
 // ============================================================
