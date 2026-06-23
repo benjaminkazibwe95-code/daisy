@@ -27600,6 +27600,12 @@ const FLAT_DICT = {
   drone_zithers_or_droned_zithers: { definition: "Stringed instruments of the zither family that have few (sometimes only one) melodic strings and a greater number of drone strings", what_it_does: "", examples: "the Langspil , the Epinette des Vosges or the Hummel" },
   the_appalachian_dulcimer: "A traditional American form",
 
+  // === INGESTED 2026-06-23 13:46 ===
+  drone_racing: "A motorsport in which participants operate radio-controlled aircraft (typically small quadcopter drones ) equipped with onboard digital video cameras",
+  the_image: "Transmitted as analog video or digital video (typically 2.4 GHz or 5.8 GHz frequency, 1",
+  these_races: { definition: "Designed to challenge the pilots based on skill alone, and drones are typically much slower than open class racing", what_it_does: "", examples: "altitude hold, GPS positioning, or auto-leveling" },
+  this_level_of_control: "An essential requirement for dynamic disciplines such as freestyle and drone racing",
+
 };
 
 // ============================================================
