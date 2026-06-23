@@ -24648,6 +24648,9 @@ const FLAT_DICT = {
   the_deities_and_gods: "The emissaries of the supreme God and the patrons in charge of the workability of the processes involved",
   sacrifices: "Offered to appease her for a successful run",
 
+  // === INGESTED 2026-06-23 03:45 ===
+  the_bureau: "Established through the Statistics Act of 2006 and initiated in February 2007",
+
 };
 
 // ============================================================
