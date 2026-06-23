@@ -27424,6 +27424,14 @@ const FLAT_DICT = {
   it_contains_critical_information_that: { definition: "Used to identify the person it’s about, such as their name, age, portrait photograph and individual characteristics such as knowledge or expertise", what_it_does: "", examples: "those on Windows and MacOS and physical documents such as passports and driving licenses" },
   some_reasons_for_intentional_distancing: "Time-waste, reducing distraction, privacy concerns, seeking new relationships and coping with lost relationships",
 
+  // === INGESTED 2026-06-23 12:58 ===
+  successful_customer_service_interactions: "Dependent on employees 'who can adjust themselves to the personality of the customer'",
+  a_service_package: { definition: "A combination of tangible and intangible characteristics a firm uses to take care of its clients", what_it_does: "", examples: "kiosks, websites , and apps" },
+  an_advantage_of_automation: "That it can provide service 24 hours a day which can complement face-to-face customer service",
+  a_popular_type_of_automated_customer_service: "Done through artificial intelligence (AI)",
+  the_customer_benefit_of_ai: "The feel for chatting with a live agent through improved speech technologies while giving customers the self-service benefit",
+  another_form_of_automated_customer_service: { definition: "Touch-tone phone , which usually involves IVR (Interactive Voice Response) a main menu and the use of a keypad as options (e.g", what_it_does: "", examples: "National Express in the UK has invited passengers to send text messages while riding the bus" },
+
 };
 
 // ============================================================
