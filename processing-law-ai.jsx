@@ -28945,6 +28945,28 @@ const FLAT_DICT = {
   peter_drucker_considers_that_there: "No customers inside organizations",
   the_only_profit_center: "A customer whose check has not bounced",
 
+  // === INGESTED 2026-06-23 18:29 ===
+  asset_classes: "Commonly compared using several dimensions: No single characteristic determines whether a grouping is an asset class",
+  securities_and_exchange_commission: "Asset classes as investments with similar characteristics and identifies stocks, bonds and cash as the three main classes for many investors",
+  a_mutual_fund_or_exchangetraded_fund: { definition: "An investment vehicle, not itself an asset class, although it may provide exposure to one or more classes", what_it_does: "", examples: "large-capitalization U.S" },
+  real_assets: { definition: "Nonfinancial assets with direct economic use, such as land, buildings, infrastructure, commodities, farmland, timberland and natural resources", what_it_does: "", examples: "institutional investors and high-income or high-net-worth individuals" },
+  these_instruments: "Usually held for liquidity, transaction needs, collateral, capital preservation or short-term savings",
+  although_moneymarket_instruments: "Economically short-term debt, they are often grouped with cash because of their low duration and high liquidity",
+  bonds: { definition: "Debt securities: borrowers issue them to raise money from investors for a set period of time", what_it_does: "income, liability matching, capital preservation, diversification against equity risk, and a source of collateral", examples: "equities, although liquidity and risk vary greatly across bond-market sectors" },
+  publicequity_subclasses: "Commonly defined by geography, market capitalization, sector, style and listing type",
+  equities: "Usually treated as growth assets because they provide exposure to corporate profits and economic expansion",
+  real_estate: { definition: "Ownership of land and permanent improvements such as residential, office, retail, industrial, logistics, hospitality and specialized properties", what_it_does: "", examples: "oil, natural gas, gold, copper, wheat, corn and livestock" },
+  private_capital: "Typically less liquid than public equity or bonds and may use capital commitments, drawdowns and distributions over a long fund life",
+  private_equity_and_private_credit: "Sometimes treated as separate asset classes and sometimes as alternative sub-classes of equity and debt",
+  some_strategies: { definition: "Directional, while others seek market-neutral, relative-value, event-driven, macro, arbitrage or trend-following returns", what_it_does: "", examples: "Bitcoin , Ethereum and some tokenized assets, are sometimes discussed as an emerging asset class" },
+  derivatives: { definition: "Financial instruments whose performance is derived from an underlying asset, security or index", what_it_does: "", examples: "futures, options, forwards, swaps, credit derivatives and total-return swaps" },
+  because_derivatives: { definition: "Contracts rather than underlying cash assets, many portfolio frameworks treat them as implementation tools", what_it_does: "", examples: "equity derivatives, interest-rate derivatives, commodity derivatives and credit derivatives" },
+  rebalancing: "The process of bringing portfolio weights back toward target allocation after market movements, cash flows or changes in investor circumstances",
+  benchmarks: "Used to measure asset-class performance, evaluate managers and define policy portfolios",
+  benchmarks_are_most_effective_when_they: "Specified in advance, relevant, measurable, unambiguous, representative and investable",
+  treasury_bills_and_longterm_corporate_bonds: "Both fixed income, but differ greatly in duration, credit risk and expected return",
+  another_limitation: { definition: "That asset-class definitions can be shaped by product marketing", what_it_does: "", examples: "complex structured credit within fixed income or highly leveraged strategies inside alternatives" },
+
 };
 
 // ============================================================
