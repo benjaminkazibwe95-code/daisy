@@ -28395,6 +28395,20 @@ const FLAT_DICT = {
   the_elasticity: "By definition which for this function simply equals r",
   elasticity_of_demand: "Indicated by r = d Q d P P Q {\displaystyle {r}={\frac {dQ}{dP}}{\frac {P}{Q}}} , where r is the elasticity, Q is quantity, and P is price",
 
+  // === INGESTED 2026-06-23 16:12 ===
+  a_data_point_or_datum: "An individual value in a collection of data",
+  field_data_is_data_that: "Collected in an uncontrolled, in-situ environment",
+  experimental_data_is_data_that: "Generated in the course of a controlled scientific experiment",
+  the_latin_word_data: "The plural of datum , '(thing) given,' and the neuter past participle of dare , 'to give'",
+  one_example_of_this_usage: { definition: "The term ' big data '", what_it_does: "", examples: "APA style as of the 7th edition requires 'data' to be treated as a plural form" },
+  these_patterns_in_the_data: "Seen as information that can be used to enhance knowledge",
+  marks: { definition: "No longer considered data once the link between the mark and observation is broken", what_it_does: "", examples: "numbers or letters, are then constructed from the binary alphabet" },
+  a_computer_program: "A collection of data, that can be interpreted as instructions",
+  a_similar_yet_earlier_term_for_metadata: { definition: "'ancillary data.' The prototypical example of metadata is the library catalog, which is a description of the contents of books", what_it_does: "", examples: "Science Citation Index" },
+  another_problem_is_that_much_scientific_data: "Never published or deposited in data repositories such as databases",
+  a_solution_to_the_problem_of_reproducibility: { definition: "The attempt to require FAIR data , that is, data that is Findable, Accessible, Interoperable, and Reusable", what_it_does: "", examples: "that phenomena are discrete or are observer-independent" },
+  the_term_datadriven: "A neologism applied to an activity that is primarily compelled by data over all other factors",
+
 };
 
 // ============================================================
