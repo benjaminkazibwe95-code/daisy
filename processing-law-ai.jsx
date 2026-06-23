@@ -27618,6 +27618,16 @@ const FLAT_DICT = {
   another_disadvantage_is_that_the_photopolymers: "Sticky and messy, and need to be handled with care",
   the_choice_of_materials: "Limited compared to FFF , which can process virtually any thermoplastic",
 
+  // === INGESTED 2026-06-23 13:54 ===
+  several_of_the_six_classic_simple_machines: "Invented in Mesopotamia",
+  textiles: "The dominant industry of the Industrial Revolution in terms of employment, value of output and capital invested",
+  the_textile_industry: { definition: "Also the first to use modern production methods", what_it_does: "", examples: "mechanized spinning and weaving, slowed down and their markets matured" },
+  a_small_electric_truck: "Now used to handle 150 dozen bottles at a time whereas previously used hand trucks could only carry 6 dozen bottles at a time",
+  all_of_these_machine_tools: "Arranged systematically in the production flow and some had special carriages for rolling heavy items into machining positions",
+  note_that_the_term: { definition: "Initially used by R H Hayes and Steven C", what_it_does: "", examples: "in the Manufacturing Belt in the United States" },
+  these_costs_are_now_well_known_and_there: "Effort to address them by improving efficiency , reducing waste, using industrial symbiosis , and eliminating harmful chemicals",
+  environment_laws_and_labor_protections_that: { definition: "Available in developed nations may not be available in the third world", what_it_does: "", examples: "rigging, tilt-and-load transport, forklifts, and oversize-load permitting" },
+
 };
 
 // ============================================================
