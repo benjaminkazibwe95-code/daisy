@@ -28557,6 +28557,22 @@ const FLAT_DICT = {
   yet_his_employment_theory: "Problematic and the 'Keynesian' policy solutions are questionable at best",
   four_months_later_he: "Given the Global Economy Prize of Kiel Institute for the World Economy",
 
+  // === INGESTED 2026-06-23 16:48 ===
+  increases_in_productivity: "The major factor responsible for per capita economic growth—this has been especially evident since the mid-19th century",
+  also_there: { definition: "A great increase in power as steam-powered electricity generation and internal combustion supplanted limited wind and water power", what_it_does: "", examples: "chemical fertilizers and livestock and poultry management, and the Green Revolution" },
+  he_shows_that_economic_growth: { definition: "Not correlated with average scores in more educated countries", what_it_does: "", examples: "India, Indonesia, and China" },
+  thus_health_in_a_broader_sense: "Not just the absence of illness, but the opportunity for people to live a full life and develop their full economic potential",
+  one_of_the_most_important_metrics_of_health: { definition: "The mortality rate and how its rise or decline can affect the labour supply predominant in a developing economy", what_it_does: "", examples: "life expectancy" },
+  much_unregistered_property: { definition: "Held in informal form through various property associations and other arrangements", what_it_does: "", examples: "bribes and pay-offs that offset much of any taxes avoided" },
+  implicitly_in_this_model_rich_countries: "Those that have invested a high share of GDP for a long time",
+  the_value_of_the_model: "That it predicts the pattern of economic growth once these two rates are specified",
+  although_the_rate_of_investment_in_the_model: "Exogenous, under certain conditions the model implicitly predicts convergence in the rates of investment across countries",
+  this_remaining_unaccounted_growth_output: "Known as the Solow Residual",
+  few_attempts: "Also made by the RAND Corporation the non-profit think tank and frequently visiting economist Kenneth Arrow to work out the kinks in the model",
+  they_suggested_that_new_knowledge: "Indivisible and that it is endogenous with a certain fixed cost",
+  the_gdp_per_person_data: "Adjusted for inflation, hence they are ' real '",
+  gdp_per_person_in_the_us: { definition: "30% more than it was in the UK", what_it_does: "", examples: "a 2% annual increase, have large effects" },
+
 };
 
 // ============================================================
