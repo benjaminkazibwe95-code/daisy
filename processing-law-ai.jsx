@@ -28671,6 +28671,13 @@ const FLAT_DICT = {
   the_main_way_groups_do_this: { definition: "Through campaign finance", what_it_does: "", examples: "the mass media and through public opinion campaigning" },
   this_violence_and_racism: { definition: "Then broadcast all over the world, showing the world just how one sided the race 'war' in America actually was", what_it_does: "", examples: "Greenpeace were better able to adapt to globalisation" },
 
+  // === INGESTED 2026-06-23 17:11 ===
+  gross_working_capital: "Equal to current assets",
+  working_capital: "The difference between current assets and current liabilities",
+  the_management_of_working_capital: "Managing inventories, accounts receivable and payable, and cash",
+  the_basic_calculation_of_working_capital: "Based on the entity's gross current assets",
+  common_types_of_shortterm_debt: { definition: "Bank loans and lines of credit", what_it_does: "", examples: "has paid off some short-term creditors—or a combination of both" },
+
 };
 
 // ============================================================
