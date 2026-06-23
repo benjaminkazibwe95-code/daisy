@@ -28215,6 +28215,14 @@ const FLAT_DICT = {
   action_axioms: { definition: "Of the form 'If a condition holds, then the following will be done'", what_it_does: "", examples: "MEU) is highly defensible and its scope very broad" },
   but_the_definition_itself: "Adequate and does not need complement of commentary",
 
+  // === INGESTED 2026-06-23 15:39 ===
+  gifts: "Often presented on occasions such as birthdays and holidays",
+  the_history_of_giftgiving: "A longstanding human tradition that predates recorded history",
+  in_many_cultures_gifts: "Traditionally packaged in some way",
+  these_gifts: { definition: "Primarily used for advertising", what_it_does: "promote the brand name and increase its awareness", examples: "" },
+  unwanted_gifts: "Often ' regifted ', donated to charity, or thrown away",
+  each_year: "Estimated to be about a billion dollars",
+
 };
 
 // ============================================================
