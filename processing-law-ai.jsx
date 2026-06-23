@@ -28523,6 +28523,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 16:33 ===
   a_relative_price: { definition: "The price of a commodity such as a good or service in terms of another; i.e., the ratio of two prices", what_it_does: "", examples: "changes in social consumption levels and consumer consumption habits" },
 
+  // === INGESTED 2026-06-23 16:35 ===
+  the_wpi: "Published by the Economic Adviser in the Ministry of Commerce and Industry",
+  the_purpose_of_the_wpi: "To monitor price movements that reflect supply and demand in industry, manufacturing and construction",
+  the_commodities_chosen_for_the_calculation: "Based on their importance in the region and the point of time the WPI is employed",
+  the_following_methods: "Used to compute the WPI: The Laspeyres Formula is the weighted arithmetic mean based on the fixed value-based weights for the base period",
+  the_tenday_price_index: "A procedure under which, “sample prices” with high intra-month fluctuations are selected and surveyed every ten days by phone",
+  monthly_price_indexes: "Compiled by calculating the simple arithmetic mean of three ten-day “sample prices” in the month",
+
 };
 
 // ============================================================
