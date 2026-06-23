@@ -26852,6 +26852,28 @@ const FLAT_DICT = {
   kotlin: { definition: "Designed to interoperate fully with Java , and the Java virtual machine (JVM) version of Kotlin's standard library depends on the Java Class Library", what_it_does: "", examples: "for frontend web applications using React ) [ 4 ] or native code via LLVM (e.g" },
   kotlin_on_android: { definition: "Seen as beneficial for its null-safety and features that make code shorter and more readable", what_it_does: "", examples: "coroutines" },
 
+  // === INGESTED 2026-06-23 10:30 ===
+  drm: { definition: "In common use by the entertainment industry ( e.g", what_it_does: "", examples: "OverDrive use DRM technologies, as do cable and satellite service operators" },
+  the_sss: "Based on encryption, with specialized hardware that controlled decryption and enabled payments to be sent to the copyright holder",
+  an_early_example_of_a_drm_system: { definition: "The Content Scramble System (CSS) employed by the DVD Forum on DVD movies", what_it_does: "", examples: "what outputs are permitted and how such permitted outputs are made available" },
+  russian_programmer_dmitry_sklyarov: "Arrested for alleged DMCA infringement after a presentation at DEF CON",
+  the_legality_of_decss: { definition: "Questionable: one of its authors was sued, and reproduction of the keys themselves is subject to restrictions as illegal numbers", what_it_does: "", examples: "ADEPT , FairPlay , Advanced Access Content System" },
+  the_broadcast_flag_concept: { definition: "Developed by Fox Broadcasting in 2001, and was supported by the MPAA and the U.S", what_it_does: "", examples: "time-shifting" },
+  class_action_lawsuits: "Filed, which were ultimately settled by agreements to provide affected consumers with a cash payout or album downloads free of DRM",
+  the_technical_specification: { definition: "Submitted to European governments in March 2007", what_it_does: "", examples: "apps, audiobooks, movies, and TV shows are protected by DRM" },
+  the_indicare_project: { definition: "A dialogue on consumer acceptability of DRM solutions in Europe that was completed in 2008", what_it_does: "", examples: "Call of Duty 4 and Assassin's Creed , use DRM without limits or online activation" },
+  fsf_wrote_that_this: "An example of the excessive power Amazon has to remotely censor content, and called upon Amazon to drop DRM",
+  the_only_attempt_to_deter_unlicensed_copies: "A letter emphasizing the lack of corporate involvement and direct relationship between artist and viewer",
+  the_artist_suggested_that_piracy_rates: "Lower than normal as a result, making the release an important case study for the digital marketplace",
+  encryption_alters_content_in_a_way_that: { definition: "That it cannot be used without first decrypting it", what_it_does: "", examples: "video formats , i.e., NTSC and PAL )" },
+  the_cablecard_standard: { definition: "Used to restrict content to services to which the customer is subscribed", what_it_does: "", examples: "Steam may include DRM mechanisms" },
+  most_of_the_mechanisms_above: "Copy protection mechanisms rather than DRM mechanisms per se",
+  fair_use: "Not explicitly addressed, but the anti-circumvention provisions do not prohibit circumventing for non-infringing purposes",
+  reverse_engineering: { definition: "Expressly permitted, providing a safe harbor where circumvention is necessary to interoperate with other software", what_it_does: "", examples: "FreeCulture.org are opposed to DRM" },
+  the_complaint: "Supported by consumers' ombudsmen in Sweden and Denmark, and was reviewed in the EU in 2014",
+  even_if_drm: { definition: "Unbreakable, pirates still might not be willing to purchase, so sales might not increase", what_it_does: "", examples: "live performances" },
+  the_mathematical_models: { definition: "Strictly applicable to the music industry", what_it_does: "", examples: "Spotify , Apple Music , etc.) and video (such as Netflix , Disney+ , Hulu , etc.)" },
+
 };
 
 // ============================================================
