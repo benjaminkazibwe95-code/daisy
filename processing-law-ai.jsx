@@ -23816,6 +23816,10 @@ const FLAT_DICT = {
   most_of_the_boys_chadwick_taught: "Houseboys of the missionaries",
   the_first_school_building: "A reed-walled structure, with a grass-thatched roof",
 
+  // === INGESTED 2026-06-23 01:11 ===
+  the_first_african_bible_college: "Established in Liberia , West Africa in 1975",
+  all_three_institutions: "Recognized by the governments of their respective countries as accredited, university-level, degree-granting institutions",
+
 };
 
 // ============================================================
