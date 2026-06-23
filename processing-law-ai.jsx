@@ -30103,6 +30103,19 @@ const FLAT_DICT = {
   the_four_military_junior_colleges: "As follows: There are six state-operated Merchant Marine academies: These merchant marine academies operate on a military college system",
   part_of_the_training_that_the_cadets_receive: "Naval and military in nature",
 
+  // === INGESTED 2026-06-23 22:50 ===
+  the_lectures: "Held in the colleges, of which the oldest was named for the king the Carolinum , established in 1366",
+  only_a_single_vote: "Left for all other three nations combined, compared to one vote per each nation before",
+  the_result_of_this_coup: { definition: "The emigration of foreign (mostly German) professors and students, founding the University of Leipzig in May 1409", what_it_does: "", examples: "46 professors" },
+  no_degrees: "Given in the years 1417–30; at times there were only eight or nine professors",
+  the_dilapidated_carolinum: { definition: "Rebuilt in 1718 at the expense of the state", what_it_does: "", examples: "physicist and philosopher Ernst Mach , Moritz Winternitz and Albert Einstein" },
+  regular_lectures: "Held to scientific and political themes",
+  nine_student_leaders: "Executed and about 1,200 Czech students were interned in Sachsenhausen and not released until 1943",
+  the_charles_university_archive_and_depository: "Located in Lešetice",
+  carolinum: "Also the venue for official academic ceremonies such as matriculations or graduations",
+  earlier_rankings: "Presented in following table",
+  both_cities: "Linked by a long-lasting partnership agreement",
+
 };
 
 // ============================================================
