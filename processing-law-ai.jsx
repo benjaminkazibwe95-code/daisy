@@ -28723,6 +28723,11 @@ const FLAT_DICT = {
   if_the_deduction: "Larger than the amount originally estimated, the company records what is known as an “excess tax benefit",
   one_misunderstanding_is_that_the_expense: { definition: "At the fair value of the options", what_it_does: "", examples: "liquidity before expensing can occur" },
 
+  // === INGESTED 2026-06-23 17:24 ===
+  investors_from_these_roles: "Linked together through shared events, activities, locations, and interactions",
+  the_resources_that_flow_through_ecosystems: "Obtained primarily from the meetings between people and organizations that are an active part of those startup ecosystems",
+  startup_ecosystems: "Dynamic entities that progress from formation stages to periodic disturbances (like the financial bubbles ) and then to recovering processes",
+
 };
 
 // ============================================================
