@@ -29464,6 +29464,10 @@ const FLAT_DICT = {
   a_key_argument_for_these_movements: { definition: "The need for both personal and systemic changes", what_it_does: "", examples: "meaningful relationships" },
   in_the_twentyeight_years_since_i: "Born, I've been subjected to a stunning amount of advertising, and I don't recall anyone ever asking me if I minded",
 
+  // === INGESTED 2026-06-23 20:15 ===
+  francesco_stipo: "Born in Rome , Italy , in 1973",
+  the_authority_of_the_world_government: "Shared with the Member States, in a way that both are sovereign within their respective sphere of competence",
+
 };
 
 // ============================================================
