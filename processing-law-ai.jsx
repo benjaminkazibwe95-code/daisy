@@ -29796,6 +29796,10 @@ const FLAT_DICT = {
   the_term_fossil_water: "Sometimes used to describe aquifers whose water is not being recharged",
   sustainability_measurements_and_indicators: "Part of an ever-evolving and changing process and has various gaps to be filled to achieve an integrated framework and model",
 
+  // === INGESTED 2026-06-23 21:45 ===
+  six_of_them: "To be achieved by the year 2030, one by the year 2020, and one has no target year",
+  are_all_part_of_susana_and: "Dedicated to achieving SDG 6",
+
 };
 
 // ============================================================
