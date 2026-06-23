@@ -28665,6 +28665,12 @@ const FLAT_DICT = {
   beasley_informed_the_review_and_wetlaufer: "Forced to resign in early 2002 after admitting to the affair with Welch while preparing an interview with him for the magazine",
   shareholder_value: { definition: "A result, not a strategy...your main constituencies are your employees, your customers and your products", what_it_does: "", examples: "the fact that the employee had not worked at the Bureau since 2011" },
 
+  // === INGESTED 2026-06-23 17:09 ===
+  wilkes: "Returned to Parliament, general warrants were declared as unconstitutional and press freedom was extended to the coverage of Parliamentary debates",
+  chartism: { definition: "The first mass movement of the growing working-class in the world", what_it_does: "", examples: "the government encouraging alternative energy and recycling" },
+  the_main_way_groups_do_this: { definition: "Through campaign finance", what_it_does: "", examples: "the mass media and through public opinion campaigning" },
+  this_violence_and_racism: { definition: "Then broadcast all over the world, showing the world just how one sided the race 'war' in America actually was", what_it_does: "", examples: "Greenpeace were better able to adapt to globalisation" },
+
 };
 
 // ============================================================
