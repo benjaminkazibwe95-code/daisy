@@ -27674,6 +27674,18 @@ const FLAT_DICT = {
   hyponymy: "The most frequently encoded relation among synsets used in lexical databases such as WordNet",
   the_notion_of_hyponymy: { definition: "Particularly relevant to language translation , as hyponyms are very common across languages", what_it_does: "", examples: "the speakers' relative ages) is often not available during machine translation" },
 
+  // === INGESTED 2026-06-23 14:05 ===
+  determining_the_optimal_part_orientation: "A common software solution for all additive manufacturing processes",
+  efficient_computation_of_adaptive_layers: "Possible by analyzing the model surface over the full layer height",
+  several_implementations: "Available as an open source software",
+  an_acoustic_hologram: "A mask that will direct the sound field to form the desired pattern",
+  then_the_acoustic_mask: "Used to generate the desired pressure sound field to put the particle in the correct order",
+  the_absorbance_spectra_of_two_material: "Orthogonal this allows to control the process with the two orthogonal light sources",
+  as_the_material: "Generated layer by layer the tray is gradually lifted and the photo inhibitors will not allow adhesion near the window",
+  one_method_to_create_this_dead_layer: "To use fluorinated oil flow",
+  this_liquid_is_omniphobic_which: "That it repels all the materials and will not stick to anything",
+  these_smaller_parts: "Mounted onto the main structure",
+
 };
 
 // ============================================================
