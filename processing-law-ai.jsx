@@ -25501,6 +25501,31 @@ const FLAT_DICT = {
   inexpensive_gifts: "Given to the potential bride in less formal scenarios, such as palm wine, palm oil, and local cloth",
   documentation_indicates_divorce: "Easier to obtain in these marriages, with some researchers referring to them as 'trial marriages'",
 
+  // === INGESTED 2026-06-23 06:47 ===
+  western_states: "At first reluctant to colonize the area in the absence of obvious economic benefits",
+  the_international_law_institute: { definition: "Supportive of the project under the belief that it was aimed to abolish the Congo Basin slave trade", what_it_does: "", examples: "Henry Morton Stanley" },
+  the_departments: "Headquartered in Brussels",
+  the_department_of_the_interior: "Responsible for defence, police, public health and public works",
+  the_minister: "Equal in rank to the vice governor-general and initially answered to the governor-general, but was eventually made responsible to the sovereign alone",
+  the_vast_congo_basin: "Split up into 14 administrative districts , each district into zones, each zone into sectors, and each sector into posts",
+  these_companies: "Outraged by the restrictions on free trade, which the Berlin Act had so carefully protected years before",
+  each_company: "Given a large amount of land in the Congo Free State on which to collect rubber and ivory for sale in Europe",
+  leopold_ii: "Heavily criticized by the European public opinion for his dealings with Tippu Tip",
+  when_we_failed_and_our_rubber: "Short, the soldiers came to our towns and killed us",
+  the_human_hands: "Collected as trophies on the orders of their officers to show that bullets had not been wasted",
+  failure_to_meet_the_rubber_collection_quotas: "Punishable by death",
+  sometimes_the_hands: "Collected by the soldiers of the FP, sometimes by the villages themselves",
+  the_causes_of_the_decline: "Multifactorial and included lower fertility, disease, famine, armed violence and mass emigration",
+  the_peak_year: "1903, with rubber fetching the highest price and concessionary companies raking in the highest profits",
+  as_plantations: "Begun in other tropical regions around the world, the global price of rubber started to dip",
+  branches_of_the_association: "Established as far away as the United States",
+  one_of_the_main_ways_britain: "Involved in ending Leopold's rule in the Congo, was by making Belgium, as a whole, more aware of the brutality present in the Congo",
+  morel: { definition: "One of the key British activists for a Congo free from Belgian rule", what_it_does: "", examples: "the US and Great Britain, more aware of what truly was being done in this part of Africa" },
+  this_letter: "A key factor in the propaganda struggle over conditions in the Congo",
+  belgium: "The obvious European candidate to annex the Congo Free State",
+  the_governance_of_the_belgian_congo: { definition: "Outlined in the 1908 Colonial Charter", what_it_does: "", examples: "the archives of the departments of finance and of the interior" },
+  the_order: "Made a decoration of the Belgian state with the abolition of the Congo Free State in 1908 and is still awarded today",
+
 };
 
 // ============================================================
