@@ -29566,6 +29566,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 20:43 ===
   a_shelter: { definition: "An architectural structure or natural formation (or a combination of the two) [ 1 ] providing protection from the local environment", what_it_does: "", examples: "the need for 'air, water, food, rest, clothing, and reproduction" },
 
+  // === INGESTED 2026-06-23 20:45 ===
+  when_she: { definition: "Five, the family moved back to Kerala, where her mother started a school", what_it_does: "", examples: "the Toronto Star ('a lush, magical novel' [ 26 ] )" },
+  roy_counters_that_her_writing: "Intentional in its passionate, hysterical tone: 'I am hysterical",
+  bush_and_uk_prime_minister_tony_blair: "Guilty of Orwellian doublethink : When he announced the air strikes, President George Bush said: 'We're a peaceful nation",
+  the_speech: "An indictment of the US actions relating to the Iraq War",
+  she_cited_reports_of_camps_into_which_tamils: "Being herded as part of what she called 'a brazen, openly racist war'",
+  she_said_business_houses: "Supporting his candidacy because he was the 'most militaristic and aggressive' candidate",
+  roy: { definition: "Awarded the Sydney Peace Prize in May 2004 for her work in social campaigns and her advocacy of non-violence", what_it_does: "", examples: "running aerobics classes" },
+  roy_and_krishen: "Still married but live separately",
+
 };
 
 // ============================================================
