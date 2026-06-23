@@ -24341,6 +24341,23 @@ const FLAT_DICT = {
   these_programs: { definition: "The only AJE shows officially non-geoblocked for American viewing during the time that Al Jazeera America was in existence", what_it_does: "", examples: "politics, human rights, corruption, environmental issues, and more" },
   the_verdict: { definition: "Widely criticized, with global leaders and media outlets denouncing it as a politically motivated attack on press freedom", what_it_does: "", examples: "'he regards white people as trash' and 'I'm afraid if he wins, the blacks will take over'" },
 
+  // === INGESTED 2026-06-23 02:41 ===
+  the_south_sudanese_civil_war: { definition: "A multi-sided civil war in South Sudan fought from 2013 to 2018 between government and opposition forces", what_it_does: "", examples: "forced displacement, ethnic massacres, and killings of journalists by various parties" },
+  fighting_continued_and: { definition: "Followed by several more ceasefire agreements", what_it_does: "", examples: "the 2013 Nuer massacre [ 66 ] and the 2014 Bentiu massacre" },
+  former_rebellious_militias: { definition: "Recruited into the South Sudan Liberation Army, a policy which has been described as 'bad culture' and an incentive to rebel", what_it_does: "", examples: "the Political Bureau, the National Convention and the National Liberation Council" },
+  although_machar_and_kiir: "Both members of the SPLM , they stem from different tribes with a history of conflict",
+  kiir: { definition: "An ethnic Dinka , while Machar is an ethnic Nuer", what_it_does: "", examples: "former Finance Minister Kosti Manibe and Pagan Amum was later reported to be held in house arrest" },
+  he_also_said_the_violence: "Started by the presidential guard, which was founded by Kiir and told to report directly to him instead of the military",
+  although_the_base: "Surrounded by 2,000 armed youths, a rebel commander had promised safe passage for the evacuation",
+  the_kenyan_government_said_that_there: "30,000 of its nationals in the country and that 10,000 had applied for emergency documents",
+  and_nigerian_envoys: { definition: "On their way to Juba to try to negotiate a solution", what_it_does: "", examples: "Rebecca Garang and Pagan Amum, be released from detention to be evacuated to Addis Ababa" },
+  john_uliny_and_his_forces: "Deployed in this operation and he was filmed ordering his troops to not spare civilians",
+  apparently_an_elderly_man: "Blind and the rebels spared him",
+  they_were_given_guns_and_their_pay: "What they could loot and the women they could rape",
+  refugees: { definition: "Allowed to work and travel and families get a 30-metre by 30-metre plot of land to build a home with additional space for farming", what_it_does: "", examples: "its flag bearer" },
+  these_same_rifles: { definition: "Used in December 2013 Nuer massacre", what_it_does: "", examples: "the targeting of journalists" },
+  a_gag_order: "Put on the petitions and the case",
+
 };
 
 // ============================================================
