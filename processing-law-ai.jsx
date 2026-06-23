@@ -30025,6 +30025,14 @@ const FLAT_DICT = {
   an_extrinsic_property: { definition: "Not essential or inherent to the subject that is being characterized", what_it_does: "", examples: "one large piece or a collection of small particles" },
   intrinsic_properties: { definition: "Dependent mainly on the fundamental chemical composition and structure of the material", what_it_does: "", examples: "an autoimmune disease or intrinsic immunity" },
 
+  // === INGESTED 2026-06-23 22:36 ===
+  grading_in_education: { definition: "The application of standardized measurements to evaluate different levels of student achievement in a course", what_it_does: "", examples: "1 to 6), percentages, or as numbers out of a possible total (often out of 100)" },
+  the_exact_system_that: "Used varies worldwide",
+  a_gpa: "Often calculated for high school , undergraduate , and graduate students",
+  grades: "Also used in decisions to provide a student with financial aid or a scholarship",
+  these_kinds_of_grades: { definition: "Only short-term snapshots of how much a student has learned in a given period of time and only partially reflect the actual performance", what_it_does: "", examples: "competency-based assessment, specifications grading, and 'ungrading' can be used" },
+  this_study_found_that_this_bias: { definition: "Dependent on the teacher and their relationship and attitude towards race", what_it_does: "", examples: "the European Baccalaureate" },
+
 };
 
 // ============================================================
