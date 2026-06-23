@@ -29343,6 +29343,11 @@ const FLAT_DICT = {
   a_common_belief: "Younger investors should avoid bonds and emphasize stocks, due to the belief investors will have time to recover from any downturns",
   the_formula_given_there: "To split one's assets into thirds: one third in business (buying and selling things), one third kept liquid (e.g",
 
+  // === INGESTED 2026-06-23 19:46 ===
+  the_economic_times: "An Indian English-language business-focused daily newspaper",
+  its_main_content: "Based on the Indian economy , international finance, share prices, prices of commodities as well as other matters related to finance",
+  the_founding_editor_of_the_paper_when_it: "Launched in 1961 was P",
+
 };
 
 // ============================================================
