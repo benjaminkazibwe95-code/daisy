@@ -29771,6 +29771,11 @@ const FLAT_DICT = {
   data_on_material_footprints: { definition: "Outdated and unavailable after the year 2010", what_it_does: "", examples: "for young people and persons with disabilities , and equal pay for work of equal value '" },
   most_sdgs: { definition: "Either set to be reached by 2020 or 2030", what_it_does: "", examples: "poverty and mass migration" },
 
+  // === INGESTED 2026-06-23 21:37 ===
+  von_carlowitz: "Raised in and influenced by this environment",
+  his_treatise: "A compilation of the knowledge about forest management at the time",
+  hans_carl_von_carlowitz: "The first one to clearly formulate the concept of sustainability in forestry (pages 105–106 in the Sylvicultura Oeconomica )",
+
 };
 
 // ============================================================
