@@ -26250,6 +26250,16 @@ const FLAT_DICT = {
   parallel_file_systems: "A type of clustered file system that spread data across multiple storage nodes, usually for redundancy or performance",
   more_file_servers: "Developed in the 1970s",
 
+  // === INGESTED 2026-06-23 08:33 ===
+  a_disk_image: "A snapshot of a storage device's content – typically stored in a file on another storage device",
+  disk_images: "Originally (in the late 1960s) used for backup and disk cloning of mainframe disk media",
+  early_ones: "As small as 5 megabytes and as large as 330 megabytes, and the copy medium was magnetic tape , which ran as large as 200 megabytes per reel",
+  disk_image_creation_is_called_disk_imaging_and: { definition: "Often time consuming, even with a fast computer, because the entire disk must be copied", what_it_does: "", examples: "RawWrite and WinImage create floppy disk image files for MS-DOS and Microsoft Windows" },
+  a_virtual_disk_writer_or_virtual_burner: { definition: "A computer program that emulates an actual disc authoring device such as a CD writer or DVD writer", what_it_does: "", examples: "files, metadata, volume information, filesystems and their structure" },
+  the_purposes_of_imaging_the_disk: "To not only discover evidence preserved in digital information but also to examine the drive to gather clues of how the crime was committed",
+  disk_imaging: { definition: "Commonly used to rapidly deploy the same configuration across workstations", what_it_does: "", examples: "IP addresses" },
+  imaging: { definition: "Also easier than automated setup methods because an administrator does not need to have knowledge of the prior configuration to copy it", what_it_does: "", examples: "prior to Windows 8, third party software was required to mount disk images" },
+
 };
 
 // ============================================================
