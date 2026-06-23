@@ -25526,6 +25526,31 @@ const FLAT_DICT = {
   the_governance_of_the_belgian_congo: { definition: "Outlined in the 1908 Colonial Charter", what_it_does: "", examples: "the archives of the departments of finance and of the interior" },
   the_order: "Made a decoration of the Belgian state with the abolition of the Congo Free State in 1908 and is still awarded today",
 
+  // === INGESTED 2026-06-23 06:49 ===
+  exploitation_colonialism: "A form of colonization where foreign armies conquer a country in order to control and capitalize on its natural resources and indigenous population",
+  all_of_this: "Done at very little monetary cost",
+  the_initial_solution_to_this_problem: "Direct rule, [ 13 ] which involves the establishment of a centralized European authority within a territory run by colonial officials",
+  these_chiefs: "Either drawn from the existing social hierarchy or were newly minted by the colonial authority",
+  european_laws_and_customs: "Imported to supplant traditional power structures",
+  the_desire_for_regional_homogeneity: { definition: "The driving force behind the French colonial doctrine of Assimilation", what_it_does: "", examples: "health care , public infrastructure , and education" },
+  mamdani: "The formal division of rural and urban natives by colonizers as the “bifurcated state",
+  rural_inhabitants: { definition: "Viewed as “uncivilized” subjects and were deemed unfit to receive the benefits of citizenship", what_it_does: "", examples: "families’ homes being separated from their farms" },
+  these_borderlands_persist_today_and: "Havens for crimes like human trafficking and arms smuggling",
+  some_african_states: "Plagued by internal issues such as inability to effectively collect taxes and weak national identities",
+  different_investment_strategies: "Employed, which included focuses on health, infrastructure, or education",
+  these_rights: "Never implemented in order to facilitate the predatory extraction of resources from indigenous populations",
+  natives: "Thus entirely divorced from their ethnic identities, which has been replaced by a desire to emulate their oppressors",
+  scott_straus_from_the_university_of_wisconsin: "The ethnic identities that partially contributed to the Rwandan genocide",
+  while_politically_this_situation: "Incredibly complex, the influence ethnicity had on the violence cannot be ignored",
+  tutsis_were_deemed_superior_and: "Propped up as a ruling minority supported by the Belgians, while the Hutu were systematically repressed",
+  these_organizations: "A melange of ethnic, cultural, local, and familial groups and they form the basis of our society",
+  strong_states: { definition: "Able to effectively navigate the intricate societal framework and exert social control over people's behavior", what_it_does: "", examples: "India, colonial languages were usually only taught to a small local elite" },
+  satellite_nations: "Anchored to, and subordinate to, metropolitan countries because of the international division of labor",
+  satellite_countries: "Thus dependent on metropolitan states and incapable of charting their own economic path",
+  finally_the_manufactured_goods: "Returned to Africa, but with prices so high, that laborers were unable to afford them",
+  the_first_documented_use_of_the_term: "By Former President of Ghana Kwame Nkrumah in the 1963 preamble of the Organization of African States",
+  he_argues_that_colonialism: { definition: "A mechanism for modernisation in the colonies and imposed a peace by putting an end to tribal warfare", what_it_does: "", examples: "the Falkland Islands )" },
+
 };
 
 // ============================================================
