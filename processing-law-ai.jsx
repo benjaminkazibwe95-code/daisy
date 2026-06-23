@@ -26348,6 +26348,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 08:54 ===
   stoll: "An FCC licensed amateur radio operator with the call sign K7TA",
 
+  // === INGESTED 2026-06-23 08:56 ===
+  apparmor: "First made available in SLES and openSUSE and was first enabled by default in SLES 10 and in openSUSE 10.1",
+  proponents_of_apparmor_claim_that_it: "Less complex and easier for the average user to learn than SELinux",
+  suse: { definition: "Now the legal owner of the trademarked name AppArmor", what_it_does: "", examples: "MySQL had installed profiles" },
+
 };
 
 // ============================================================
