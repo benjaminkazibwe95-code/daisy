@@ -25490,6 +25490,17 @@ const FLAT_DICT = {
   this_first_assault: "Perhaps more speculative than determined, and after scaling the outer wall the Crusaders were repulsed from the inner one",
   probably_more_persuasive: "The presence of the large army from Lorraine, led by him and his brothers, Eustace and Baldwin , vassals of the Ardennes–Bouillion dynasty",
 
+  // === INGESTED 2026-06-23 06:45 ===
+  the_most_important_position: "That of tendala , a chief advisor with the authority to rule in the Ngola's absence",
+  below_the_tendala: "The military commander, called ngolambole , who was also a former member of the kijikos class",
+  the_court: { definition: "Called the o-mbala , while the title of the chieftain was referred to as se-kulu , meaning 'old father' in the Mbundu language", what_it_does: "", examples: "several Jesuit priests including Francisco de Gouveia" },
+  thousands_of_ndongo_subjects: "Taken prisoner, and Mendes de Vasconcelos sought unsuccessfully to create a puppet government to allow Portuguese rule",
+  although_nzinga: "Prepared to do this, she would not leave the island until her complete control was established and the Ijiko returned",
+  his_troops: { definition: "The most significant component of the army the Portuguese used to make conquests and consolidate their rule in the Dembos area to the north", what_it_does: "", examples: "shields for defense" },
+  to_ensure_that_no_ana_murinda_or_kijiko: "Unjustly taken and sold, the kingdom even went so far as to interview every enslaved person who was marked for export",
+  inexpensive_gifts: "Given to the potential bride in less formal scenarios, such as palm wine, palm oil, and local cloth",
+  documentation_indicates_divorce: "Easier to obtain in these marriages, with some researchers referring to them as 'trial marriages'",
+
 };
 
 // ============================================================
