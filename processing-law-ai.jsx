@@ -24137,6 +24137,13 @@ const FLAT_DICT = {
   all_of_these_dance_crazes: "Closely tied to sabar breaks, and some (such as tawran tej) are even named for the vocal mnemonics of the sabar rhythm they accompany",
   their_traditional_role: "Transmitting oral history, genealogies and social rankings, diplomacy, and storytelling",
 
+  // === INGESTED 2026-06-23 02:05 ===
+  the_hutu: "The largest of the three main population divisions in Burundi and Rwanda",
+  the_tutsi_were_pastoralists_and: "Believed to have established aristocratic control over the sedentary Hutu and Twa",
+  formal_and_discrete_social_divisions: "Consequently imposed upon ambiguous biological distinctions",
+  the_social_categories: "Thus real, but there is little if any detectable genetic differentiation between Hutu and Tutsi",
+  rwandarundi: "Subdivided into the Kinyarwanda and Kirundi dialects, which have been standardized as official languages of Rwanda and Burundi, respectively",
+
 };
 
 // ============================================================
