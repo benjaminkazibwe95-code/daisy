@@ -29231,6 +29231,10 @@ const FLAT_DICT = {
   this_process_of_depreciation: "Used instead of allocating the entire expense to one year",
   a_wasting_asset: "An asset that irreversibly declines in value over time",
 
+  // === INGESTED 2026-06-23 19:19 ===
+  the_set_of_paretooptimal_returns_and_risks: { definition: "Called the Pareto efficient frontier for the Markowitz portfolio selection problem", what_it_does: "", examples: "the market portfolio and the zero-investment portfolio" },
+  one_traditional_method: "Using quarterly or monthly money-weighted returns; however, the true time-weighted method is a method preferred by many investors in financial markets",
+
 };
 
 // ============================================================
