@@ -29623,6 +29623,14 @@ const FLAT_DICT = {
   that_adolescent: { definition: "Now an adult included in the other 37.2 million people reported living in poverty in 2020", what_it_does: "", examples: "asthma and anemia" },
   poverty_in_these_countries: "A condition usually characterised by a severe deprivation of basic human needs (UN,1995)",
 
+  // === INGESTED 2026-06-23 21:04 ===
+  some_of_the_effects: "Related to economic development",
+  other_effects: { definition: "Related to social development", what_it_does: "", examples: "many related to women's empowerment" },
+  international_development: "An academic discipline concerned with the social and economic progress in impoverished regions",
+  typically_the_result_given: "A relatively steady average effect, although variation over time can also be measured",
+  in_a_household_where_the_mother: { definition: "Educated, children and especially girls are more likely to attend school", what_it_does: "", examples: "higher survival rates and better nutrition" },
+  one_issue_that_researchers_acknowledge: "The difficulty in comparing education levels",
+
 };
 
 // ============================================================
