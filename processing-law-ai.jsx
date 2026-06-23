@@ -23588,6 +23588,11 @@ const FLAT_DICT = {
   most_new_hollywood_films: "Nowadays screened at Nairobi's cinemas",
   benga_is_a_kenyan_genre_which: "Developed in Nairobi",
 
+  // === INGESTED 2026-06-23 00:27 ===
+  the_eastafrican: { definition: "A weekly newspaper published in Kenya since 7 November 1994, by the Nation Media Group , which also publishes Kenya's national Daily Nation", what_it_does: "", examples: "Tanzania , Uganda , and Rwanda" },
+  john_githongo_and_charles_onyangoobbo: "Recruited and operated in Kenya and Kampala, respectively",
+  the_first_issue: "Published on 7 November 1994",
+
 };
 
 // ============================================================
