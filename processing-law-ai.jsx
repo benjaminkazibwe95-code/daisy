@@ -24817,6 +24817,11 @@ const FLAT_DICT = {
   the_size: "705,768m 2 and the lake area is 322,800m 2",
   of_the_five_new_stations_that: "Set to open over the new 14 km of tracks, four of which will be in Sejong",
 
+  // === INGESTED 2026-06-23 04:17 ===
+  other_additions_to_the_orthography: "The sound ɬ is spelled ⟨sl⟩ , the tɬʼ is spelled ⟨tl⟩ , the ħ is spelled ⟨hh⟩ , and ʕ is spelled ⟨/⟩",
+  the_gender_of_a_plural_noun: { definition: "Usually different from the gender of the corresponding singular", what_it_does: "", examples: "all plural nouns with the ⟨ -eemo ⟩ suffix are neuter" },
+  when_a_noun: { definition: "Directly followed by then a construct case suffix must appear after the noun", what_it_does: "", examples: "the demonstrative, indefinite, and possessive suffixes)" },
+
 };
 
 // ============================================================
