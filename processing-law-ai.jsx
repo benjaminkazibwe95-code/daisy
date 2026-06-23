@@ -26283,6 +26283,10 @@ const FLAT_DICT = {
   the_first_document_that: "Produced, for example, for audio and video coding standards is called a verification model (VM) (previously also called a 'simulation and test model')",
   a_document_in_the_dis_stage: "Available to the public for purchase and may be referred to with its ISO DIS reference number",
 
+  // === INGESTED 2026-06-23 08:44 ===
+  while_others_argue_that_this: { definition: "Questionable as software vendors are usually more exposed to being targeted by cyberattacker as they hold vast amount of data within the system", what_it_does: "", examples: "small and large corporations, and to automate specific business processes within them" },
+  the_examples: "The software embedded into the mobile phone, computer and other electronic devices",
+
 };
 
 // ============================================================
