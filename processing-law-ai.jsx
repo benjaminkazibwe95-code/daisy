@@ -24571,6 +24571,22 @@ const FLAT_DICT = {
   they_conclude_that_there: { definition: "'a range of variants within voiceless laterals, rather than a categorical split between lateral fricatives and voiceless approximant laterals'", what_it_does: "", examples: "with ⟨ R r ⟩ in Latin scripts , ⟨ Ρ ρ ⟩ in Greek scripts , and ⟨ Р р ⟩ in Cyrillic scripts" },
   the_most_widely_recognized_rhotic_approximants: { definition: "Alveolar [ ɹ ] , retroflex [ ɻ ] , and uvular [ ʁ̞ ] , along with their postalveolar [ ɹ̠ ] and velar [ ɹ̈ ] analogues", what_it_does: "", examples: "/b, d, ʝ, ɡ/ to [β̞, ð̞, ʝ̞, ɣ̞]" },
 
+  // === INGESTED 2026-06-23 03:29 ===
+  a_plosive: "Called 'fully voiced' if it is voiced during the entire occlusion",
+  a_plosive_may_lack_an_approach_when_it: { definition: "Preceded by a consonant that involves an occlusion at the same place of articulation, as in [d] in end or old", what_it_does: "", examples: "the Iroquoian languages (e.g., Mohawk and Cherokee ), and Arabic lack the labial [p]" },
+  voiced_plosives: "Pronounced with vibration of the vocal cords , voiceless plosives without",
+  plosives: "Commonly voiceless, and many languages, such as Mandarin Chinese and Hawaiian , have only voiceless plosives",
+  in_languages_where_plosives: "Only distinguished by length (e.g., Arabic, Ilwana, Icelandic), the long plosives may be held up to three times as long as the short plosives",
+  estonian: "Unusual for contrasting three lengths, as in the minimal triplet kabi /kɑpi/ 'hoof', kapi /kɑpːi/ 'wardrobe [gen",
+  simple_nasals: "Differentiated from plosives only by a lowered velum that allows the air to escape through the nose during the occlusion",
+  the_closest_examples_in_english: { definition: "Consonant clusters such as the [nd] in candy , but many languages have prenasalized stops that function phonologically as single consonants", what_it_does: "", examples: "Fijian , these are even spelled with single letters: b [mb], d [nd]" },
+  the_terms_prenasalization_and_postnasalization: "Normally used only in languages where these sounds are phonemic: that is, not analyzed into sequences of plosive plus nasal",
+  the_normal_mechanism: "Pulmonic egressive , that is, with air flowing outward from the lungs",
+  a_fortis_plosive: "Produced with more muscular tension than a lenis plosive",
+  the_indirect_evidence_for_stiff_voice: "In the following vowels, which have a higher fundamental frequency than those following other plosives",
+  the_higher_frequency: "Explained as a result of the glottis being tense",
+  many_subclassifications_of_plosives: "Transcribed by adding a diacritic or modifier letter to the IPA symbols above",
+
 };
 
 // ============================================================
