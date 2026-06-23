@@ -26673,6 +26673,36 @@ const FLAT_DICT = {
   tco_analysis: "Popularized by the Gartner Group in 1987",
   if_the_truck: "Financed, the TCO also varies according to the interest rate on the loan",
 
+  // === INGESTED 2026-06-23 09:55 ===
+  a_spreadsheet: "Essentially just one table, whereas a database is a collection of many tables with machine-readable semantic relationships",
+  a_workbook: "Physically represented by a file containing all the data for the book, the sheets, and the cells with the sheets",
+  worksheets: "Normally represented by tabs that flip between pages, each one containing one of the sheets, although Numbers changes this model significantly",
+  although_they: "First developed for accounting or bookkeeping tasks, they now are used extensively in any context where tabular lists are built, sorted, and shared",
+  the_key_feature_of_spreadsheets: "The ability for a formula to refer to the contents of other cells, which may, in turn, be the result of a formula",
+  the_ability_to_chain_formulas_together: "What gives a spreadsheet its power",
+  primitive_timesharing: "Available on those machines",
+  students: "Able to take information prepared by the professor and manipulate it to represent it and show ratios etc",
+  both_the_book_and_program: "Copyrighted in 1966 and years later that copyright was renewed",
+  lanpar: "Also used by General Motors",
+  a_major_application: "Opinion research tabulation.) AutoPlan/AutoTab was not a WYSIWYG interactive spreadsheet program, it was a simple scripting language for spreadsheets",
+  both_fal_and_tabol: "Integrated with GEIS's database system, DMS",
+  the_ibm_financial_planning_and_control_system: "Developed in 1976, by Brian Ingham at IBM Canada",
+  it_ran_on_an_ibm_mainframe_and: "The first application for financial planning developed with APL that completely hid the programming language from the end-user",
+  apldot: "Dubbed a 'spreadsheet' because financial analysts and strategic planners used it to solve the same problems they addressed with paper spreadsheet pads",
+  the_main_concepts: "Those of a grid of cells , called a sheet, with either raw data, called values, or formulas in the cells",
+  a_single_cell: "Usually referenced by its column and row (C2 would represent the cell containing the value 30 in the example table below)",
+  an_array_of_cells: "Called a sheet or worksheet",
+  a_worksheet: { definition: "Simply a subset of the spreadsheet divided for the sake of clarity", what_it_does: "", examples: "a stock quote or a database value" },
+  recalculation_generally_requires_that_there: { definition: "No circular dependencies in a spreadsheet", what_it_does: "", examples: "a cell in a 'remote' spreadsheet" },
+  even_though_individual_cells: { definition: "Marked as locked, the spreadsheet data are not protected until the feature is activated in the file preferences", what_it_does: "", examples: "'31/12/2007' or '31 Dec 2007' would default to the cell format of date" },
+  the_cell_contents: { definition: "Not changed by this format, only the displayed value", what_it_does: "", examples: "'numeric' or 'currency' can also specify the number of decimal places" },
+  one_reason_for_this_usage: "For creating or running macros that repeat a command across many sheets",
+  the_formula: "Normally only shown when the cell is selected by 'clicking' the mouse over a particular cell; otherwise, it contains the result of the calculation",
+  its_value: { definition: "The value of the referenced cell or some derivation of it", what_it_does: "", examples: "A1 , or B1:B3 ), absolute (e.g" },
+  this_is_an_example_of_what: "Perhaps its primary contribution of the earlier Javelin—the concept of traceability of a user's logic or model structure through its twelve views",
+  spreadsheets: "A popular end-user development tool",
+  since_spreadsheet_cell_formulas: { definition: "Not generally invertible, though, this technique is of somewhat limited value", what_it_does: "", examples: "out of date exchange rates )" },
+
 };
 
 // ============================================================
