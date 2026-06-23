@@ -27346,6 +27346,18 @@ const FLAT_DICT = {
   these_computers: { definition: "Easy to customize and upgrade per user requirements, e.g", what_it_does: "", examples: "web browsing , accessing web-based applications , document processing, and audio/video playback" },
   a_nettop: { definition: "A notable example of a compact desktop", what_it_does: "", examples: "small form factor and all-in-one desktops) cannot due to their compact size and clamshell design" },
 
+  // === INGESTED 2026-06-23 12:39 ===
+  the_iphone: "A line of smartphones developed and marketed by Apple that run iOS , the company's own mobile operating system",
+  the_firstgeneration_iphone: "Described by Steve Jobs as a 'revolution' for the mobile phone industry",
+  the_original_iphone: "Heavily promoted before its official announcement, creating buzz and anticipation",
+  the_apple_watch: "Also introduced on the same day and operates in conjunction with a connected iPhone",
+  a_second_telephoto_camera_lens: { definition: "Added on the 7 Plus, enabling two-times optical zoom, and 'Portrait' photography mode which simulates bokeh in photos", what_it_does: "", examples: "faster AI tasks" },
+  the_main_hardware_of_the_iphone: { definition: "The touchscreen , with current models offering screens measuring 4.7 inches or larger", what_it_does: "", examples: "in 2009, Apple rejected the Newspapers app due to The Sun 's 'obscene' topless Page 3 girls" },
+  jailbreaking_may_cause_security_issues_and: "Not supported by Apple",
+  gestures_such_as_rotate_and_shake: { definition: "Available even if the iOS device is mounted on a wheelchair", what_it_does: "", examples: "doors, people, and objects, and can describe them to the user, as well as their distance" },
+  closed_captioning_and_external_tty_devices: { definition: "Supported, while Live Caption can transcribe audio across all apps and display it onscreen", what_it_does: "", examples: "door bells, kettles, water running, and babies crying, and notify the user with an onscreen alert" },
+  apple_speculated_that_they: { definition: "Likely shipped overseas and unlocked, a lucrative market before the iPhone 3G's worldwide release", what_it_does: "", examples: "the EU , [ 133 ] UK , [ 134 ] and U.S" },
+
 };
 
 // ============================================================
