@@ -27501,6 +27501,23 @@ const FLAT_DICT = {
   the_most_recent: "Speech Synthesis Markup Language (SSML), which became a W3C recommendation in 2004",
   although_each_of_these: { definition: "Proposed as a standard, none of them have been widely adopted", what_it_does: "", examples: "games and animations" },
 
+  // === INGESTED 2026-06-23 13:11 ===
+  usually_power_sources_and_welding_equipment: "Sized to the specific thickness and material being welded together",
+  the_thickness: "Limited by the output of the welding power source and thus the equipment range due to the current required for each application",
+  when_the_current: "Stopped the copper tips cool the spot weld, causing the metal to solidify under pressure",
+  this_burst_of_molten_metal: "Called expulsion, and when this occurs the metal will be thinner and have less strength than a weld with no expulsion",
+  an_alternative_test: { definition: "The restrained tensile test, which is much more difficult to perform, and requires calibrated equipment", what_it_does: "", examples: "ultrasound evaluation are in various states of early adoption by many OEMs" },
+  when_high_strength_in_shear: "Needed, spot welding is used in preference to more costly mechanical fastening, such as riveting",
+  resistance_seam_welding: "A process that produces a weld at the faying surfaces of two similar metals",
+  the_electrodes: "Often disc shaped and rotate as the material passes between them",
+  the_semimolten_surfaces: "Pressed together by the welding pressure that creates a fusion bond, resulting in a uniformly welded structure",
+  a_common_use_of_seam_welding: "During the manufacture of round or rectangular steel tubing",
+  this_low_frequency_process: "Used from the 1920s until 1970",
+  the_high_frequency_process: "Still being used to manufacture pipe for use in new pipeline construction",
+  the_pieces_of_metal_to_be_welded: "Set apart at a predetermined distance based on material thickness, material composition, and desired properties of the finished weld",
+  the_projections_can_also_serve_as_a: "Of positioning the workpieces",
+  projection_welding: "Often used to weld studs , nuts, and other threaded machine parts to metal plate",
+
 };
 
 // ============================================================
