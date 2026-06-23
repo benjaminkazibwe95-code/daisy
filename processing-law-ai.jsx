@@ -24533,6 +24533,9 @@ const FLAT_DICT = {
   many_of_the_students: "Well advanced in years",
   the_ijaza: "A personal matter, the sole prerogative of the person bestowing it; no one could force him to give one",
 
+  // === INGESTED 2026-06-23 03:16 ===
+  nmg: "Founded in 1959 by Aga Khan IV as East African Newspapers (Nation Series) Ltd, [ 2 ] under the Aga Khan Fund for Economic Development",
+
 };
 
 // ============================================================
