@@ -28582,6 +28582,18 @@ const FLAT_DICT = {
   national_review_institute: { definition: "Founded by William F", what_it_does: "", examples: "The Heritage Foundation and American Enterprise Institute" },
   and_this: "War.' [ 71 ] National Review later called the column a 'mistake' and fired Coulter as a contributing editor",
 
+  // === INGESTED 2026-06-23 16:52 ===
+  the_economics_department: "Small, and the library facilities were inadequate",
+  the_audience_with_the_queen: "Followed by a dinner with family and friends at the Institute of Economic Affairs",
+  when_later_that_evening_hayek: "Dropped off at the Reform Club , he commented: 'I've just had the happiest day of my life'",
+  his_goal: { definition: "To show how a number of then-popular doctrines and beliefs had a common origin in some fundamental misconceptions about the social science", what_it_does: "", examples: "'Degrees of Explanation' (1955) and 'The Theory of Complex Phenomena' (1964)" },
+  hayek_thought_that_the_sensory_order_actually: "A product of the brain",
+  these_ideas: "Informed by a moral philosophy derived from epistemological concerns regarding the inherent limits of human knowledge",
+  the_only_one: "Chile under Allende'",
+  hayek: "Skeptical about international immigration and supported Thatcher's anti-immigration policies",
+  what_i_tried_to_leave_my_students_with: "The view that the invisible hand is more powerful than the [un]hidden hand",
+  monetary_policy_and_mounting_regulation: "Argued to have undermined the innovative forces of the market economies",
+
 };
 
 // ============================================================
