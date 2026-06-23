@@ -26429,6 +26429,28 @@ const FLAT_DICT = {
   examples_when_this: "Helpful include: In August 2011, an IBM researcher, Jay Radcliffe, demonstrated a security flaw in insulin pumps",
   radcliffe: "Able to hack the wireless interface used to control the pump remotely",
 
+  // === INGESTED 2026-06-23 09:09 ===
+  example_rules: "Gravity , topography , locomotion , real-time actions, and communication",
+  such_devices: "Characterized by bulky headsets and other types of sensory input simulation",
+  maze_war: "The first networked, 3D multi-user first person shooter game",
+  a_mud: "A virtual world with many players interacting in real time",
+  the_virtual_helsinki_project: "Eventually renamed Helsinki Arena 2000 project and parts of the city in modern and historical context were rendered in 3D",
+  as_virtual_world: { definition: "A general term, the virtual environment supports varying degrees of play and gaming", what_it_does: "", examples: "time or currency" },
+  the_economy_in_virtual_worlds: { definition: "Typically driven by in-game needs such as equipment, food, or trade goods", what_it_does: "", examples: "the law of supply and demand) in the same way that people do in the physical world" },
+  online_encounters: "Employed as seemingly fulfilling alternatives to 'live person' relationships (Toronto, 2009)",
+  moor_explained_that_this_logic: "Used by people defending their own questionable behavior on the internet",
+  the_first_virtual_world_of_this_kind: { definition: "Whyville .net, launched in 1999, [ 22 ] built by Numedeon inc", what_it_does: "", examples: "forums, blogs, wikis, chatrooms, instant messaging, and video-conferences" },
+  communities: { definition: "Born in places which have their own rules, topics, jokes, and even language", what_it_does: "", examples: "television watching, playing computer games, reading or more conventional types of internet use" },
+  this_is_because_virtual_worlds: "A relatively new technology",
+  an_obvious_advantage: "That it will reduce any costs and restrictions that could come into play in the real world",
+  competitive_edge: "Crucial in the ruthless world that is today's business",
+  another_use_of_virtual_worlds_business: "Where players can create a gathering place",
+  knowing_that_there_is_an_area_where_help: "On hand can aid the employees",
+  transfers_of_inworld_credits_typically: "Not bound by laws governing commerce",
+  an_investigation: { definition: "Launched but nothing substantial ever came of finding and punishing the avatar known as Nicholas Portocarrero who was the head of Ginko Financial", what_it_does: "", examples: "Eve Online and Second Life also have people and systems that govern them" },
+  second_life_for_instance: { definition: "Designed with the expectation being on the residents to establish their own community rules for appropriate behaviour", what_it_does: "", examples: "Habbo enforce clear rules for behaviour, [ 62 ] as seen in their terms and conditions" },
+  notable_shutdowns: { definition: "The Sims Online, The Sims Bustin Out Online Weekend Mode, PlayStation Home, and Club Penguin", what_it_does: "", examples: "the structure of the environment" },
+
 };
 
 // ============================================================
