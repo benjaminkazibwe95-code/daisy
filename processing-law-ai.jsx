@@ -25863,6 +25863,18 @@ const FLAT_DICT = {
   his_initial_impression_of_the_browser: "'pretty good', highlighting that the built-in add blocker could be enabled before start up",
   he_also_claims_that_the_browser: "Visually appealing with colour-matching tiles and thin bars that maximise web space before customisation",
 
+  // === INGESTED 2026-06-23 07:39 ===
+  forms: { definition: "Usually combined with programs written in various programming language to allow developers to create dynamic web sites", what_it_does: "", examples: "C, and also have automatic memory management which helps to prevent buffer overrun attacks" },
+  implementations_of_these_interface_elements: "Available through JavaScript libraries such as jQuery",
+  some_are_based_upon_text_input_fields_and: { definition: "Intended to input and validate specific common data", what_it_does: "", examples: "the 'Search' text displayed in many search input fields before a search term is entered)" },
+  this_usage: "Being replaced, however, by HTML5 's new input field types and required attribute",
+  one_disadvantage_to_server_side_code: "Scalability —server side processing for all users occurs on the server, while client side processing occurs on individual client computers",
+  php: "One very common language used for server-side 'programming' and is one of the few languages created specifically for web programming",
+  perl: "Another language often used for web development",
+  perl_scripts: { definition: "Traditionally used as Common Gateway Interface applications (CGIs)", what_it_does: "", examples: "FastCGI , Plack or Apache 's mod_perl )" },
+  perl_cgis: "Once a very common way to write web applications",
+  one_of_the_most_popular_scripts_of_this_type: "'FormMail.pl' made by Matt's Script Archive",
+
 };
 
 // ============================================================
