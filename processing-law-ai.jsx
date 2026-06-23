@@ -30418,6 +30418,13 @@ const FLAT_DICT = {
   these_foundations: "Also a prerequisite for engaging in further education and training , and for acquiring transferable skills and technical and vocational skills",
   such_skills: { definition: "Nurtured to some extent outside the school environment", what_it_does: "", examples: "traditional apprenticeships and agricultural cooperatives" },
 
+  // === INGESTED 2026-06-23 23:57 ===
+  therapeutic_measures: "Often taken to help replenish and rebuild the individual's coping resources while simultaneously aiding the individual in dealing with current stress",
+  stressors_occur_when_an_individual: { definition: "Unable to cope with the demands of their environment (such as crippling debt with no clear path to resolving it)", what_it_does: "", examples: "traumatic events, life demands, sudden medical emergencies, and daily inconveniences, to name a few" },
+  while_the_pss: "A traditional Likert scale , the SRRS assigns specific predefined numerical values to stressors",
+  if_the_shock: { definition: "Pushed past a certain extreme after a particular period in time ASD can develop into what is commonly known as Post-traumatic stress disorder (PTSD)", what_it_does: "", examples: "cortisol )" },
+  the_idea_behind_this_hypothesis: "That an organism can better prepare for an event if they are informed beforehand, as this allows them to prepare for it (biologically)",
+
 };
 
 // ============================================================
