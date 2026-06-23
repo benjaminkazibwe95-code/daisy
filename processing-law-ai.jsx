@@ -24872,6 +24872,38 @@ const FLAT_DICT = {
   the_price: "Originally 6d plus 4d tax",
   ian_stewart: "Previously editor of Edinburgh Evening News and remains as the editor of Scotland on Sunday",
 
+  // === INGESTED 2026-06-23 04:35 ===
+  bamboos: { definition: "A diverse group of mostly evergreen perennial flowering plants making up the subfamily Bambusoideae of the grass family Poaceae", what_it_does: "", examples: "the palms and large bamboos, to be columnar rather than tapering" },
+  most_bamboo_species: { definition: "Native to warm and moist tropical and to warm temperate climates", what_it_does: "", examples: "in Europe and areas of North America where no native wild bamboo exists" },
+  the_size_range_for_mature_bamboo: "Species-dependent, with the smallest bamboos reaching only several inches high at maturity",
+  the_shoot: "Now a fully mature culm",
+  this_brief_life_means_culms: { definition: "Ready for harvest and suitable for use in construction within about three to seven years", what_it_does: "", examples: "USDA zone 7 and above, most bamboo remain fully leafed out and green year-round" },
+  the_longest_mass_flowering_interval_known: "120 years, and it is for the species Phyllostachys bambusoides (Sieb",
+  bamboo: "A symbol of prosperity in Japan, and are used to make New Year's decorations called kadomatsu",
+  fiber_corporation_resource_fiber: "Contracting farmers in the United States for bamboo cultivation",
+  bamboo_cultivation: "Cheap and in addition to adding value to its production chain, it is a sustainable crop that brings environmental, economic and social benefits",
+  a_skin_prick_test_using_bamboo_extract: { definition: "Positive for the immunoglobulin E (IgE) in an available case study", what_it_does: "", examples: "those with G6PD deficiency , should avoid them altogether, even when cooked" },
+  the_shoots_of_most_species: { definition: "Edible either raw or cooked, with the tough sheath removed", what_it_does: "", examples: "it is called khorisa" },
+  other_recipes_using_bamboo_shoots: { definition: "Sayur lodeh (mixed vegetables in coconut milk) and lun pia (sometimes written lumpia : fried wrapped bamboo shoots with vegetables)", what_it_does: "", examples: "the zongzi from China" },
+  this_fermented_bamboo_shoot: "Used in various culinary preparations, notably amil , a sour vegetable soup",
+  the_taste_of_cooked_bamboo_seeds: "Reported to be similar to wheat and the appearance similar to rice, but bamboo seeds have been found to have lower nutrient levels than both",
+  soups_are_boiled_and_rice: "Cooked in the hollows of fresh stalks of bamboo directly over a flame",
+  cooking_food_in_bamboo: "Said to give the food a subtle but distinctive taste",
+  coarse_bamboo_paper: "Still used to make spirit money in many Chinese communities",
+  the_most_common_bamboo_species_used_for_paper: "Dendrocalamus asper and Bambusa blumeana",
+  the_average_fiber_length: "Similar to hardwoods , but the properties of bamboo pulp are closer to softwood pulps due to it having a very broad fiber length distribution",
+  most_of_the_bamboo: "Harvested for papermaking",
+  no_cutting: { definition: "Done during the rainy season (July–September); broken and malformed culms are harvested first", what_it_does: "removes the natural characteristics of bamboo fibre, rendering it identical to rayon from other cellulose sources", examples: "sheets and pillow covers, typical of all rayon production" },
+  the_vast_majority_of_bamboo_textile_sold: "Actually Viscose Rayon, with no bamboo characteristics at all",
+  one_such_bridge_in_the_area_of_qianxian: { definition: "Referenced in writings dating back to 960 AD and may have stood since as far back as the third century BC, due largely to continuous maintenance", what_it_does: "", examples: "fencing, fountains, grates, and gutters, largely due to the ready abundance of quality timber" },
+  the_split_cane_rod: "Especially prized for fly fishing",
+  fourfootlong_sections_of_bamboo: "Cut, and a mixture of water and calcium carbide are introduced",
+  the_resulting_acetylene_gas: { definition: "Ignited with a stick, producing a loud bang", what_it_does: "", examples: "flutes, and devices like xylophones and organs, which require resonating sections" },
+  in_some_traditional_instruments_bamboo: { definition: "The primary material, while others combine bamboo with other materials such as wood and leather", what_it_does: "", examples: "chopsticks, trays, and tea scoops" },
+  chinese_bamboo_furniture: { definition: "A distinct style based on a millennia-long tradition, and bamboo is also used for floors due to its high hardness", what_it_does: "", examples: "that of the Andaman Islands , believe humanity emerged from a bamboo stem" },
+  traditional_vietnamese_villages: "Surrounded by thick bamboo hedges ( lũy tre code: vie promoted to code: vi )",
+  since_the_north_american_bamboos: "Now rare, with 98% of their original extent eliminated, the Cherokee have initiated an effort to restore it",
+
 };
 
 // ============================================================
