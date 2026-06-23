@@ -28520,6 +28520,9 @@ const FLAT_DICT = {
   the_boston_fed: "Its mission as promoting 'growth and financial stability in New England and the nation'",
   this_building: "Designated a Boston Landmark by the Boston Landmarks Commission in 1978",
 
+  // === INGESTED 2026-06-23 16:33 ===
+  a_relative_price: { definition: "The price of a commodity such as a good or service in terms of another; i.e., the ratio of two prices", what_it_does: "", examples: "changes in social consumption levels and consumer consumption habits" },
+
 };
 
 // ============================================================
