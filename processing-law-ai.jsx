@@ -28967,6 +28967,16 @@ const FLAT_DICT = {
   treasury_bills_and_longterm_corporate_bonds: "Both fixed income, but differ greatly in duration, credit risk and expected return",
   another_limitation: { definition: "That asset-class definitions can be shaped by product marketing", what_it_does: "", examples: "complex structured credit within fixed income or highly leveraged strategies inside alternatives" },
 
+  // === INGESTED 2026-06-23 18:31 ===
+  quantitative_analysis_in_finance: "The application of mathematical and statistical methods to problems in financial markets and investment management",
+  professionals_in_this_field: "Known as quantitative analysts or quants",
+  the_role: { definition: "Analogous to that of specialists in industrial mathematics working in non-financial industries", what_it_does: "", examples: "strategies based on trend following or mean reversion" },
+  such_options: { definition: "Frequently purchased by investors as a risk-hedging device", what_it_does: "", examples: "credit derivatives , exotic derivatives , real options , and employee stock options" },
+  foqs_typically: "Significantly better paid than those in back office, risk, and model validation",
+  quantitative_analysis: { definition: "Used extensively by asset managers", what_it_does: "", examples: "PIMCO , BlackRock or Citadel use a mix of quantitative and fundamental methods" },
+  lqs: "Required to understand techniques such as Monte Carlo methods and finite difference methods , as well as the nature of the products being modeled",
+  since_they_indicate_that_the_strategy: { definition: "Actually predicting a statistically significant number of evolutions of the system", what_it_does: "", examples: "computer science, physics and engineering" },
+
 };
 
 // ============================================================
