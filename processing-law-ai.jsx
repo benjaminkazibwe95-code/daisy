@@ -29637,6 +29637,9 @@ const FLAT_DICT = {
   although_indefinite_growth: { definition: "The assumption of modern economics, it's rare to find an exponential graph in a textbook", what_it_does: "", examples: "Steady-state economy , demurrage currency , and breaking out of consumerism, are explored" },
   these_minimum_requirements: "Based on the UN's sustainable development goals (SDGs)",
 
+  // === INGESTED 2026-06-23 21:08 ===
+  deaton: { definition: "Also the author of 'Letters from America', a popular semi-annual feature in the Royal Economic Society Newsletter", what_it_does: "", examples: "worsened marriage and child outcomes, and overall health" },
+
 };
 
 // ============================================================
