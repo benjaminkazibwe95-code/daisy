@@ -27052,6 +27052,13 @@ const FLAT_DICT = {
   common_examples_of_this_type_of_timestamp: "A postmark on a letter or the 'in' and 'out' times on a time card",
   timestamps: { definition: "Often found to be 'dirty' in many cases", what_it_does: "", examples: "provenance analysis or pattern queries are not reliable" },
 
+  // === INGESTED 2026-06-23 11:14 ===
+  the_two_words: { definition: "Not mutually exclusive; i.e", what_it_does: "", examples: "the Nevada Gaming Control Board" },
+  gambling: { definition: "Also a major international commercial activity, with the legal gambling market totaling an estimated $335 billion in 2009", what_it_does: "", examples: "in Monaco and Macau , China" },
+  professions_that: { definition: "Seen to violate the precept against theft include working in the gambling industry", what_it_does: "", examples: "increases in loan sharking, prostitution, corruption, and general public immorality" },
+  but_their_sin: { definition: "More grave than their benefit", what_it_does: "", examples: "Big Brother , and election results" },
+  one_of_the_most_widespread_forms_of_gambling: "Betting on horse or greyhound racing",
+
 };
 
 // ============================================================
