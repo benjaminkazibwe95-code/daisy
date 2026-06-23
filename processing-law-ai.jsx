@@ -23541,6 +23541,19 @@ const FLAT_DICT = {
   international_relief_supplies: "Flown or shipped into the country and distributed, wherever possible, through local relief workers",
   while_the_former_group: { definition: "Used to carry out minor attacks within Kenya, the Al-Shabaab leadership later switched its focus to Jaysh Ayman which proved more effective", what_it_does: "", examples: "in funding, training, and explosives" },
 
+  // === INGESTED 2026-06-23 00:23 ===
+  zaire: "Strategically important to the West during the Cold War , particularly the U.S., as a counterbalance to Soviet influence in Africa",
+  the_period: "Sometimes referred to as the Second Congolese Republic",
+  the_mpr: "Defined as the country's 'single institution,' and its president was vested with 'plentitude of power exercise",
+  as_details_of_a_reform_package: { definition: "Delayed, soldiers began looting Kinshasa in September 1991 to protest their unpaid wages", what_it_does: "", examples: "Rwanda and Uganda" },
+  the_coup_attempt: "Defeated, and Malanga was killed",
+  mobutu: { definition: "Confirmed in office by an implausible margin of over 10,131,000 votes against only 157 who voted 'no", what_it_does: "", examples: "those of the Supreme Court of Justice" },
+  governors_of_provinces: "No longer elected by provincial assemblies but appointed by the central government",
+  his_progress: "Fairly typical of the rotational pattern established by Mobutu, who retained the most sensitive ministerial portfolios (such as Defence) for himself",
+  the_likuta: "Also divided into 100 sengi",
+  however_this_unit: "Worth very little, so the smallest coin was for 10 Sengi",
+  much_of_this_money: "Embezzled by Mobutu and his circle",
+
 };
 
 // ============================================================
