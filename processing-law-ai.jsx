@@ -29550,6 +29550,13 @@ const FLAT_DICT = {
   eurasia_and_africa: "Then again separated with the Zanclean Flood around 5.33 million years ago refilling the Mediterranean Sea through the Strait of Gibraltar",
   this_is_a_list_of_the_points_that: "Farther north, south, east or west than any other location as well as the highest and lowest elevations on Afro-Eurasia",
 
+  // === INGESTED 2026-06-23 20:36 ===
+  financial_capital: { definition: "Provided by lenders for a price: interest", what_it_does: "", examples: "computers or books—that contribute directly or indirectly to obtaining other types of capital" },
+  the_ownership_interest: "Typically represented in preferred shares , and may be of various types, for example: These typically have preference over the common shares",
+  often_such_instruments: { definition: "Called fixed-income instruments if they have reliable payment schedules associated with the uniform rate of interest", what_it_does: "", examples: "citizen entitlements , e.g" },
+  such_relationships_and_policies: "Characterized by a political economy – feudalist , socialist , capitalist , green , anarchist or otherwise",
+  financial_capitalism: "The production of profit from the manipulation of financial capital",
+
 };
 
 // ============================================================
