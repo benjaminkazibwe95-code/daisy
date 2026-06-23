@@ -27733,6 +27733,13 @@ const FLAT_DICT = {
   in_the_printing_press_the_image_being_printed: "Aligned relative to the edges of the sheet of material",
   if_the_sheet: "Not always cut in the same place relative to the first lenticule, a phase error is introduced between the lenses and the image slices",
 
+  // === INGESTED 2026-06-23 14:13 ===
+  while_lmd: "Typically a melt-based process, this is not a requirement, as discussed below",
+  typically_an_inert_shielding_gas: "Used to reduce the oxidation around the melt zone",
+  the_carrier_gas_used_to_deliver_the_powder: "Also typically a shielding gas",
+  supersonic_lmd: "Different from the other LMD processes in that the laser is not used to melt materials",
+  in_supersonic_lmd_a_laser: "Used to pre-heat the substrate and the powder stream, in order to soften these materials",
+
 };
 
 // ============================================================
