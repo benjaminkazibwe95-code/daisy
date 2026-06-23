@@ -27162,6 +27162,9 @@ const FLAT_DICT = {
   private_businesses: { definition: "Free to create their own policies on whether they accept cash, unless there is a specific state law which says otherwise", what_it_does: "", examples: "a bus line may prohibit payment of fares in cents or dollar bills" },
   people_of_the_country: "Given 3 days to get rid of the 100 Bolivar notes (most widely used currency) post the introduction of new note of higher denominations",
 
+  // === INGESTED 2026-06-23 11:37 ===
+  line_corporation: "Founded on September 4, 2000, as Hangame Japan as a part of Hangame , a South Korean game company owned by NHN at the time",
+
 };
 
 // ============================================================
