@@ -30252,6 +30252,22 @@ const FLAT_DICT = {
   the_parameters_to_aixi: "The universal Turing machine U and the agent's lifetime m , which need to be chosen",
   one_such_approximation: { definition: "AIXI tl , which performs at least as well as the provably best time t and space l limited agent", what_it_does: "", examples: "partially observable Pac-Man" },
 
+  // === INGESTED 2026-06-23 23:20 ===
+  implicit_learning: "The learning of complex information in an unintentional manner, without awareness of what has been learned",
+  in_the_experiment_participants: "Given a string with an underlying finite-state grammar to memorize and then were asked to recognize other strings that followed the same grammar",
+  the_participants: "Unable to explain the acquisition of their knowledge",
+  the_experiment_showed_that_the_subjects: "Better able to memorize strings that followed the rules of the grammar than the strings that did not",
+  if_the_rule: "Too easy, participants will be able to mentally deconstruct the structure and the experiment will no longer test implicit learning",
+  the_person_interaction_tasks: "A participant and a virtual person",
+  the_computerperson: "Set to communicate using a fixed level of intimacy",
+  the_task_of_the_participant: "To interact with the computer and make changes to the level of intimacy until the level is set to 'very friendly'",
+  estes_saw_that_a_single_button: "Not enough to test learning and so had multiple buttons (usually two) corresponding to multiple outcomes that the participant had to predict",
+  these_participants_were_convinced_that_they: "Only making assumptions and had no real knowledge of the subject",
+  this_is_due_to_the_fact_that_testing: "Usually in the form of a yes or no answer which would give a 50% probability due to chance statistic",
+  measures_that: "Able to collect all and only what is learned during the experimental process would provide more accuracy in the results",
+  when_time_duration: "Short, it is more likely that implicit learning will be tested as opposed to explicit learning",
+  whereas_some_research_showed_that_participants: "Unable to use implicit learning to complete structurally similar tasks at all, others showed decreased transfer",
+
 };
 
 // ============================================================
