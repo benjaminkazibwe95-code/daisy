@@ -28751,6 +28751,10 @@ const FLAT_DICT = {
   transistor_packages: "Made of glass, metal, ceramic, or plastic",
   often_a_given_transistor_type: { definition: "Available in several packages", what_it_does: "", examples: "organic field-effect transistors" },
 
+  // === INGESTED 2026-06-23 17:28 ===
+  the_merger_was_the_largest_to_date_and: "Questioned by many analysts",
+  the_most_valuable_public_companies: "Now generally in the technology sector",
+
 };
 
 // ============================================================
