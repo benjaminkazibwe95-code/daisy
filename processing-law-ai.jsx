@@ -23992,6 +23992,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 01:42 ===
   a_second_cement_plant: "Started in India; the Gujarat Sidhee Cement Limited",
 
+  // === INGESTED 2026-06-23 01:44 ===
+  the_library: { definition: "Able to establish new acquisition centers abroad, including in Cairo and New Delhi", what_it_does: "", examples: "acquisitions and collections" },
+  much_of_the_original_collection: "Lost during the 1814 burning of Washington by British forces during the War of 1812",
+  among_the_buildings_burnt: { definition: "The Library of Congress, which saw over 3,000 of its volumes destroyed", what_it_does: "", examples: "topics not typically found in a legislative library" },
+  his_efforts: "Rejected by Smithsonian secretary Joseph Henry , who advocated a focus on scientific research and publication",
+  voorhees_of_indiana: { definition: "Particularly helpful in gaining this support", what_it_does: "", examples: "the 1904 purchase of a 4,000-volume library of Indica, the 1906 purchase of G" },
+  a_number_of_chairs_and_consultantships: { definition: "Established from the donations, the most well-known of which is the Poet Laureate Consultant", what_it_does: "", examples: "the Declaration of Independence, the Constitution, and The Federalist Papers" },
+  but_he: "Best known for creating Library of Congress Missions worldwide",
+  hayden: "Sworn in as the fourteenth librarian of Congress on September 14, 2016",
+  digital_images: "Also available at Snapshots of the Past , which provides archival prints",
+  the_thomas_jefferson_building: "Located between Independence Avenue and East Capitol Street on First Street SE",
+  the_building: "Constructed from 1971 to 1976, and serves as the official memorial to James Madison , a Founding Father and the fourth President of the United States",
+  the_james_madison_memorial_building: "Located between First and Second Streets on Independence Avenue SE",
+  the_centerpiece_of_the_complex: "A reproduction Art Deco movie theater that presents free movie screenings to the public on a semi-weekly basis",
+  access_to_the_closed_stacks: "Not permitted under any circumstances, except to authorized library staff, and occasionally, to dignitaries",
+  individuals: "Invited to apply for projects which would further the multi-faceted mission of the law library in serving the U.S",
+
 };
 
 // ============================================================
