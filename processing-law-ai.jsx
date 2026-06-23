@@ -26534,6 +26534,26 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 09:32 ===
   if_a_single_node_goes_down_and: { definition: "Unreachable, users should still be able to access a service without interruptions", what_it_does: "", examples: "facial recognition, which typically takes a human between 370-620 ms to perform" },
 
+  // === INGESTED 2026-06-23 09:34 ===
+  sundar_pichai: "Appointed CEO of Google in 2015, replacing Larry Page, who became the CEO of Alphabet",
+  many_of_these_products_and_services: { definition: "Dominant in their respective industries, as is Google Search", what_it_does: "", examples: "Amazon founder Jeff Bezos , and entrepreneur Ram Shriram" },
+  all_three_outages: { definition: "Resolved within hours", what_it_does: "", examples: "Ubisoft and Take-Two to bring some of their biggest games to Stadia" },
+  it_would_not_remove_content_that: "'broadly useful', such as news articles, or already part of the public record",
+  raxium: { definition: "Set to join Google's Devices and Services team to aid in the development of micro-optics, monolithic integration, and system integration", what_it_does: "", examples: "AI technology" },
+  fortysix_percent_of_this_profit: { definition: "From clicks (cost per clicks), amounting to US$109,652 million in 2017", what_it_does: "", examples: "AdSense for Content, AdSense for Search, etc.) and DoubleClick AdExchange" },
+  revenues: "Up 36% year-on-year, and 8% quarter-on-quarter",
+  the_original_google_logo: "Designed by Sergey Brin",
+  the_first_google_doodle: "In honor of the Burning Man Festival of 1998",
+  subsequent_google_doodles: { definition: "Designed by an outside contractor, until Larry and Sergey asked then- intern Dennis Hwang to design a logo for Bastille Day in 2000", what_it_does: "", examples: "Gmail, Google News , Orkut , and AdSense , originated from these independent endeavors" },
+  the_formation_of_the_union: "In response to persistent allegations of mistreatment of Google employees and a toxic workplace culture",
+  the_sale: { definition: "Touted as one of the most expensive real estate transactions for a single building in the history of New York", what_it_does: "", examples: "the Googleplex" },
+  one_of_its_first_projects: { definition: "To develop a viable plug-in hybrid electric vehicle that can attain 100 miles per gallon", what_it_does: "", examples: "monopoly , restraint of trade , anti-competitive practices , and patent infringement" },
+  many_complaints: { definition: "Filed against Israel's videos, but Google maintained that the ads did not violate its content policies", what_it_does: "", examples: "the Chrome browser and Android, due to its alleged monopoly in online search" },
+  a_trial_on_the_case: "Scheduled for April 2025, though the incoming administration and new DoJ leadership could potentially alter the course of the proceedings",
+  the_lawsuit_cited_the_wage_gap: "Around $17,000 and that Google locked women into lower career tracks, leading to smaller salaries and bonuses",
+  the_litigation: "Settled in July 2020 for $7.5 million with a payout to claimants of at least $5 each, with a maximum of $12 each",
+  google_issued_a_statement_saying_it: "'deeply committed' to transparency and was 'studying the decision' before determining its response",
+
 };
 
 // ============================================================
