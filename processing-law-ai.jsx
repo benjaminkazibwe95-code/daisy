@@ -26963,6 +26963,10 @@ const FLAT_DICT = {
   two_separate_reward_models: { definition: "Trained from these preferences for safety and helpfulness using reinforcement learning from human feedback (RLHF)", what_it_does: "", examples: "'speak in French' and 'act like Napoleon') are respected during the dialog" },
   this_ai_companion: { definition: "Powered by multiple models, including Meta Llama 2", what_it_does: "", examples: "by making it relatively easy to engineer advanced bioweapons without specialized knowledge" },
 
+  // === INGESTED 2026-06-23 10:53 ===
+  grabcad: "Founded in Estonia in 2009 by current CEO, Hardi Meybaum , and Indrek Narusk [ 1 ] as a marketplace to connect engineers with CAD-related jobs",
+  workbench: "Used by companies to support the design of physical products ranging from basic screws to jet engine brackets",
+
 };
 
 // ============================================================
