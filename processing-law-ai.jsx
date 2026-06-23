@@ -26975,6 +26975,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 10:57 ===
   the_current_editors: "Sarah Aitkinson ( King's College London ) and Helen Kennedy ( University of Nottingham )",
 
+  // === INGESTED 2026-06-23 10:59 ===
+  the_process_of_historical_revision: "A common, necessary, and usually uncontroversial process which develops and refines the historical record to make it more complete and accurate",
+  one_form_of_historical_revisionism: { definition: "Denying the moral significance or accuracy of the historical record", what_it_does: "", examples: "occurred after the Second World War (1939–1945); in The Future of the Past (1989), the historian C" },
+  the_best_evidence_and_their_conclusion: "Clear: General Compère 's brigade formed into line to attack Kempt 's Light Battalion",
+  interpretations_of_the_past: "Subject to change in response to new evidence, new questions asked of the evidence, new perspectives gained by the passage of time",
+  taylor_controversially_argued_that_hitler: "An ineffective and inexperienced diplomat and did not deliberately set out to cause a world war",
+  he_further_argued_that_britain_and_france: { definition: "In no position to come to Poland's aid, and Hitler was offering the Poles an alliance in return", what_it_does: "", examples: "Poland, to Stalin" },
+  some_also_claim_that_truman_knew_they: "Not necessary but wanted to pressure the Soviet Union",
+
 };
 
 // ============================================================
