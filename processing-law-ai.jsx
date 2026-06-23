@@ -27870,6 +27870,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 14:40 ===
   biotechnology_industry_is_that_it: "A homegrown success story that has been an engine of job creation in this country",
 
+  // === INGESTED 2026-06-23 14:42 ===
+  fleming: "The first to discover the properties of the active substance, giving him the privilege of naming it: penicillin",
+  the_demand_by_us_for_tears: "So great, that laboratory attendants were pressed into service, receiving threepence for each contribution",
+  his_paper_describing_his_discovery: "Received with no questions asked and no discussion, which was most unusual and an indication that it was considered to be of no importance",
+  the_lysozyme: "First noticed during some investigations made on a patient suffering from acute coryza",
+  the_source_of_the_fungal_contaminant: "Established in 1966 as coming from La Touche's room, which was directly below Fleming's",
+  his_problem: "The difficulty of producing penicillin in large amounts, and moreover, isolation of the main compound",
+  again_there: "A total lack of interest and no discussion",
+  abraham: "The first to propose the correct structure of penicillin",
+  i_thought_he: "Dead.' [ 44 ] Norman Heatley suggested transferring the active ingredient of penicillin back into water by changing its acidity",
+  the_war_cabinet: "Convinced of the usefulness upon which Sir Cecil Weir , Director General of Equipment, called for a meeting on the mode of action on 28 September 1942",
+  his_ashes: { definition: "Buried in St Paul's Cathedral", what_it_does: "", examples: "syphilis , gangrene and tuberculosis" },
+  wright: "Surprised to discover that Fleming and the Oxford team had not been mentioned, though Oxford was attributed as the source of the drug",
+  churchill: "Saved by Lord Moran , using sulphonamides , since he had no experience with penicillin, when Churchill fell ill in Carthage in Tunisia in 1943",
+
 };
 
 // ============================================================
