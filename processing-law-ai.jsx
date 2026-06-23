@@ -29545,6 +29545,11 @@ const FLAT_DICT = {
   science_and_technology: "Part of society, and they are subject to the priorities of capitalism as much as any other human endeavor, if not more so",
   his_approach_to_the_topic: { definition: "Consonant with that of business journals and the corporate management literature", what_it_does: "", examples: "Blockchain capital" },
 
+  // === INGESTED 2026-06-23 20:34 ===
+  the_afroeurasian_mainland: "The largest and most populous contiguous landmass on Earth",
+  eurasia_and_africa: "Then again separated with the Zanclean Flood around 5.33 million years ago refilling the Mediterranean Sea through the Strait of Gibraltar",
+  this_is_a_list_of_the_points_that: "Farther north, south, east or west than any other location as well as the highest and lowest elevations on Afro-Eurasia",
+
 };
 
 // ============================================================
