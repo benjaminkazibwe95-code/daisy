@@ -30190,6 +30190,12 @@ const FLAT_DICT = {
   the_motivation_for_the_invention: { definition: "To improve on the suction pumps that were used to raise water out of the mines", what_it_does: "", examples: "telescopes [ 173 ] made of wood, pasteboard, or with leather components exist" },
   the_base: { definition: "Wooden, and the cylindrical pump was brass", what_it_does: "", examples: "Pierre Duhem, John Hermann Randall, Alistair Crombie and William A" },
 
+  // === INGESTED 2026-06-23 23:11 ===
+  rankings_of_universities_in_canada: { definition: "Typically published annually by a variety of nationally, and internationally based publications", what_it_does: "", examples: "student body characteristics, classes, faculty, finances, library, and reputation" },
+  several_institutions_publish_rankings_that: "Primarily bibliometric, based on citation analysis",
+  bibliometrics: "A field of statistics used to provide quantitative analysis of academic literature",
+  the_most_prominent_of_which: "Maclean's , a Toronto -based news magazine that has published an annual rankings of Canadian universities since 1991",
+
 };
 
 // ============================================================
