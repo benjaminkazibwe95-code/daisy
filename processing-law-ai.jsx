@@ -25638,6 +25638,9 @@ const FLAT_DICT = {
   guanches: "Found to the genetically very similar to the Kelif el Boroud people",
   significant_genetic_differences: "Detected between Guanches of western and eastern islands, which supported the notion that Guanches were descended from two distinct migration waves",
 
+  // === INGESTED 2026-06-23 07:00 ===
+  among_their_bestknown_figures: { definition: "Saint Felicita, Saint Perpetua , Saint Cyprian and Saint Augustine", what_it_does: "", examples: "the Berbers" },
+
 };
 
 // ============================================================
