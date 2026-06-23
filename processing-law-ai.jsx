@@ -27253,6 +27253,23 @@ const FLAT_DICT = {
   the_inventory: "Held by the sellers, not the company running the online marketplace",
   gig_workers: { definition: "Paid for each task performed, for example US$0.01 for each moderated image", what_it_does: "", examples: "Uber and Airbnb , organized in the trade association Peers.org" },
 
+  // === INGESTED 2026-06-23 12:06 ===
+  the_company_also_developed_ssl_which: "Used for securing online communications and was later renamed to TLS",
+  the_first_meeting_between_clark_and_andreessen: "Never truly about a software or service like Netscape, but more about a product that was similar to Nintendo",
+  the_stock: "Set to be offered at US$14 per share, but a last-minute decision doubled the initial offering to US$28 per share",
+  most_of_the_programmers: "Laid off, and the Netscape logo was removed from the building",
+  these_additional_features: "Included in the final version of Netscape Navigator 9 (version 9.0.0.6), released on February 20, 2008",
+  netscape_navigator: "Netscape's web browser from versions 1.0 to 4.8",
+  the_first_beta_versions: "Released in 1994 and were called Mosaic and later Mosaic Netscape",
+  the_browser: "Easily the most advanced available [ citation needed ] and so was an instant success, becoming a market leader while still in beta",
+  the_new_suite: { definition: "Successful, despite increasing competition from Internet Explorer (IE) 4.0 and problems with the outdated browser core", what_it_does: "", examples: "versions 6.1 and 6.2" },
+  this_release: "Not a full Internet suite as before, but is solely a web browser",
+  it_was_the_first_time_the_browser: "Produced in-house with its own programming staff since 2004",
+  the_portal_of_netscape_germany: { definition: "Shut down in June 2008", what_it_does: "", examples: "video clips and discussions" },
+  netscape: { definition: "Notable for its cross-platform efforts", what_it_does: "", examples: "DEC , Sun Solaris , BSDI , IRIX , IBM AIX , and HP-UX" },
+  the_internet_service_provider: "Later run by Verizon under the Netscape brand",
+  the_lowcost_isp: "Officially launched on January 8, 2004",
+
 };
 
 // ============================================================
