@@ -27518,6 +27518,15 @@ const FLAT_DICT = {
   the_projections_can_also_serve_as_a: "Of positioning the workpieces",
   projection_welding: "Often used to weld studs , nuts, and other threaded machine parts to metal plate",
 
+  // === INGESTED 2026-06-23 13:13 ===
+  this_ability: { definition: "Called ' auditory scene analysis '", what_it_does: "", examples: "a smartphones, voice translators and cars make use of some form of machine hearing" },
+  machine_touch: { definition: "An area of machine perception where tactile information is processed by a machine or computer", what_it_does: "", examples: "physical pain" },
+  airborne_chemicals: "Sensed and classified with a device sometimes known as an electronic nose",
+  the_information_given_by_each_sensor: "Complementary, and the combination of all sensors' results generates a unique fingerprint",
+  most_of_the_detection_thresholds_of_sensors: "Similar to or better than human receptors",
+  etongue_sensors_process: "Similar: they generate electric signals as voltammetric and potentiometric variations",
+  taste_quality_perception_and_recognition: "Based on the building or recognition of activated sensory nerve patterns by the brain and the taste fingerprint of the product",
+
 };
 
 // ============================================================
