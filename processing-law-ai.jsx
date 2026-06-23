@@ -27557,6 +27557,14 @@ const FLAT_DICT = {
   if_the_masses: "More similar, e.g., Pluto and Charon , the barycenter will fall outside both bodies",
   a_center_of_gravity_that: "At or above the lift point will most likely result in a tip-over incident",
 
+  // === INGESTED 2026-06-23 13:25 ===
+  leadscrews: { definition: "Manufactured in the same way as other thread forms: they may be rolled, cut, or ground", what_it_does: "", examples: "in single-point threading on a manual lathe )" },
+  vthreads: "Less suitable for leadscrews than others such as Acme because they have more friction between the threads",
+  their_threads: { definition: "Designed to induce this friction to keep the fastener from loosening", what_it_does: "", examples: "on microlathes and micromills" },
+  buttress_threads: "Of a triangular shape",
+  an_equivalent_comparison: { definition: "When the friction angle is greater than the lead angle ( ϕ > λ {\displaystyle \phi >\lambda } )", what_it_does: "", examples: "a trapezoidal thread, this must be compensated as it increases the frictional forces" },
+  the_critical_speed: "The speed that excites the natural frequency of the screw",
+
 };
 
 // ============================================================
