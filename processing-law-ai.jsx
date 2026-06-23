@@ -25677,6 +25677,14 @@ const FLAT_DICT = {
   rodney: "The subject of the 2010 documentary film by Clairmont Chung, W.A.R",
   walter_rodney: "Listed on the Black Achievers Wall in the International Slavery Museum , Liverpool, UK",
 
+  // === INGESTED 2026-06-23 07:08 ===
+  newspapers: "Filled with talk of revenge for the humiliations suffered in Ethiopia at the end of the previous century, and of nostalgia for the Roman era",
+  dalmatia: "A strategic region during World War I that both Italy and Serbia intended to seize from Austria-Hungary",
+  the_matter: "Taken by Greece to the League of Nations , where Mussolini was convinced by Britain to evacuate Italian troops, in return for reparations from Greece",
+  corsica: "A pistol pointed at the heart of Italy; Tunisia at Sicily",
+  once_the_bars: { definition: "Broken, Italian policy can only have one motto – to march to the oceans", what_it_does: "", examples: "Ethiopia, to the invading allied forces by 1943" },
+  a_meeting_of_the_grand_council_of_fascism: "Held on 24 July, which managed to impose a vote of no confidence to Mussolini",
+
 };
 
 // ============================================================
