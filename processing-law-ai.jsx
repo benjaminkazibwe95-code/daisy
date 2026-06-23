@@ -28088,6 +28088,12 @@ const FLAT_DICT = {
   the_fight_for_reforms_was_the: { definition: "Of the class struggle; the social revolution was its aim", what_it_does: "", examples: "the peasantry and artisan classes) and, more importantly, in colonies abroad" },
   collections_of_her_writings: { definition: "Published by the Socialist Workers Party 's Pathfinder Press and by Monthly Review Press, bringing her work to a new generation of activists", what_it_does: "", examples: "Raya Dunayevskaya, highlighting previously ignored feminist dimensions of her life and thought" },
 
+  // === INGESTED 2026-06-23 15:16 ===
+  monetary_economics: { definition: "The branch of economics that studies the nature, role, and impact of money and monetary institutions", what_it_does: "", examples: "through its role as a public good" },
+  its_use: "Continued by the Mughal rulers",
+  the_tanka: "Minted in copper and brass",
+  the_currency: { definition: "Introduced due to the shortage of metals", what_it_does: "", examples: "the value, origin, and regulation of money" },
+
 };
 
 // ============================================================
