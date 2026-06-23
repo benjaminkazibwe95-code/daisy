@@ -27530,6 +27530,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 13:15 ===
   engelberger_robotics_awards: "Presented annually by A3 to recognize significant contributions to the advancement of robotics technology, application, leadership, and education",
 
+  // === INGESTED 2026-06-23 13:17 ===
+  philoponus_proposed_that_motion: "Not maintained by the action of a surrounding medium, but by some property imparted to the object when it was set in motion",
+  their_work_in_turn: { definition: "Elaborated by Nicole Oresme who pioneered the practice of illustrating the laws of motion with graphs", what_it_does: "", examples: "noninertial (accelerated) reference frames" },
+  rotational_inertia: { definition: "Often considered in relation to a rigid body", what_it_does: "", examples: "a gyroscope uses the property that it resists any change in the axis of rotation" },
+
 };
 
 // ============================================================
