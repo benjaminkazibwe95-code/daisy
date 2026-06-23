@@ -23792,6 +23792,15 @@ const FLAT_DICT = {
   ipcig: { definition: "A global forum for South-South policy dialogue and learning, having worked with more than 7,000 officials from more than 50 countries", what_it_does: "", examples: "the salaries of over 25,000 health care professionals" },
   the_documentary: "Described by The Guardian as exposing 'a toxic culture' where senior UN leaders hide 'behind a cloak of saintliness",
 
+  // === INGESTED 2026-06-23 01:01 ===
+  bujagali_energy_limited: "A special-vehicle company created to run the power station on behalf of the shareholders",
+  commissioning: { definition: "Planned during the second half of 2018", what_it_does: "", examples: "US$250 million to build the high-voltage transmission lines to evacuate the generated power" },
+  completion: "Planned for late 2018",
+  this_plant: "Licensed to sell up to 50 megawatts to the national electricity grid",
+  the_construction_contract: "Initially awarded, in 2007, to Tamoil, a company owned by the Government of Libya",
+  that_contract: "Voided in 2012 after the company failed to implement the project",
+  the_negotiations: "Expected to last about 60 days",
+
 };
 
 // ============================================================
