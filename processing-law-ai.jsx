@@ -24421,6 +24421,16 @@ const FLAT_DICT = {
   a_widely_attested_feature_in_aa_languages: { definition: "A consonantal structure into which various vocalic 'templates' are placed", what_it_does: "", examples: "verbal extensions ) were then added and lexicalized" },
   gemination_in_particular: { definition: "One of the typical features of AA", what_it_does: "", examples: "genitive, dative, locative, etc" },
 
+  // === INGESTED 2026-06-23 03:00 ===
+  lomami: "One of the 21 newest provinces of the Democratic Republic of the Congo created in the 2015 repartitioning",
+  the_town_of_kabinda: "Elevated to capital city of the new province",
+  formerly_part_of_the_lualaba_district_in_what: "Now Katanga (1908-1947), it became part of Kasaï-Oriental in 1965",
+  the_kabinda_district: "Primarily agro-pastoral, with some artisanal diamond mining activities in Lubao , Luputa , Kabinda, and Wikong",
+  these_airstrips: "In a very advanced state of degradation",
+  the_district: "Not sufficiently supplied with drinking water, which explains the high prevalence of polio and childhood blindness",
+  many_of_these_sources: { definition: "No longer operational due to lack of maintenance, as is the case for wells equipped with pumps", what_it_does: "", examples: "ISTM/KA, ISTMRKA, ISTIA, and two university institutions: UNIKAB and UNILO" },
+  the_university_of_mweneditu: "The province's main university in terms of infrastructure, number of students, and academic staff, with its seven faculties offering 14 programs",
+
 };
 
 // ============================================================
