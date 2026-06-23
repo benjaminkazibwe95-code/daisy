@@ -27219,6 +27219,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 11:58 ===
   rational_expectations: { definition: "Introduced into economics by John Muth , [ 8 ] then Robert Lucas, Jr", what_it_does: "", examples: "unemployment, fiscal and monetary policy, and growth" },
 
+  // === INGESTED 2026-06-23 12:00 ===
+  the_name_australia: "Popularised by the explorer Matthew Flinders , who circumnavigated the continent in 1803",
+  a_camp: { definition: "Established and the Union Flag raised and the date later became Australia's national day", what_it_does: "", examples: "Burke and Wills charted Australia's interior" },
+  high_immigration: "Justified to Australians using the slogan 'populate or perish', [ 104 ] and from the 1960s the white Australia policy was gradually relaxed",
+  the_mainland: "Relatively stable geologically, with no major mountain building, active volcanoes or tectonic faults",
+  some_in_western_australia: "Older than 3.7 billion years and others in South Australia are over 3.1 billion years old",
+  the_coastal_south: "Temperate and humid with winter freezing and snow in the southeastern highlands and Tasmania",
+  cyclones_and_rain_depressions: "Common in tropical Australia",
+  the_hottest_regions: "In the northwest of the country and the coolest in the southeast",
+  bushfire_conditions: "Common in southern Australia",
+  sea_levels: "Rising around Australia and the surrounding oceans are becoming more acidic",
+  as_the_leaves_of_most_plants: "Poor in nutrients, Australia has a high proportion of birds, insects and marsupials, such as the honey possum , that feed on nectar and pollen",
+  the_koala: { definition: "An exception, specialising in feeding on eucalyptus leaves", what_it_does: "", examples: "snakes, lizards, and hopping marsupials such as the kangaroo and wallaby" },
+  when_these_powers_may_be_exercised: "Governed by convention and their precise scope is unclear",
+  the_most_notable_exercise_of_these_powers: "The dismissal of the Whitlam government in the constitutional crisis of 1975",
+  voting_and_enrolment: "Compulsory for all enrolled citizens 18 years and older in every jurisdiction",
+  the_lower_houses: "Known as the Legislative Assembly (the House of Assembly in South Australia and Tasmania); the upper houses are known as the Legislative Council",
+  the_head_of_the_government_in_each_state: "The premier and in each territory the chief minister",
+  the_next_most_common_languages_spoken_at_home: "Mandarin (2.7%), Arabic (1.4%), Vietnamese (1.3%), Cantonese (1.2%) and Punjabi (0.9%)",
+  ranked_second_in_preventable_causes: "Hypertension at 7.6%, with obesity third at 7.5%",
+  the_volunteer_lifesaver: "One of the country's icons",
+
 };
 
 // ============================================================
