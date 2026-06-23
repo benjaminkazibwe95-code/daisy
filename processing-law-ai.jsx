@@ -25421,6 +25421,11 @@ const FLAT_DICT = {
   the_basin: "Home to the endangered western lowland gorilla",
   democratic_republic_of_the_congo: "Also looking to expand the area of forest under protection, for which it hopes to secure compensation through emerging markets for forest carbon",
 
+  // === INGESTED 2026-06-23 06:28 ===
+  the_segou_empire_survived_but: "Irreversibly weakened",
+  relatives: "Given key posts, and the faama was the head priest of powerful and important religious cults",
+  most_other_provinces: "Governed by local elites who pledged loyalty to the faama or appointed governors",
+
 };
 
 // ============================================================
