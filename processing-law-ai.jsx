@@ -26712,6 +26712,25 @@ const FLAT_DICT = {
   three_types_of_integrity_constraints: "An inherent part of the relational data model: entity integrity, referential integrity and domain integrity",
   an_example_of_a_dataintegrity_mechanism: "The parent-and-child relationship of related records",
 
+  // === INGESTED 2026-06-23 09:59 ===
+  the_most_popular_example_of_a_database_model: "The relational model , which uses a table-based format",
+  most_database_management_systems: "Built around one particular data model, although it is possible for products to offer support for more than one model",
+  a_model: { definition: "Not just a way of structuring data: it also defines a set of operations that can be performed on the data", what_it_does: "", examples: "defines operations such as select , project and join" },
+  this_tabular_format: "A precursor to the relational model",
+  this_hierarchy: "Used as the physical order of records in storage",
+  record_access: { definition: "Done by navigating downward through the data structure using pointers combined with sequential accessing", what_it_does: "", examples: "type A is the owner of B" },
+  access_to_records: { definition: "Either sequential (usually in each record type) or by navigation in the circular linked lists", what_it_does: "", examples: "database loading and reorganization" },
+  popular_dbms_products_that_utilized_it: "Cincom Systems ' Total and Cullinet 's IDMS",
+  notable_for_using_this_data_model: "The ADABAS DBMS of Software AG , introduced in 1970",
+  the_products_that: "Generally referred to as relational databases in fact implement a model that is only an approximation to the mathematical model defined by Codd",
+  three_key_terms: "Used extensively in relational database models: relations , attributes , and domains",
+  a_relation: "A table with columns and rows",
+  the_named_columns_of_the_relation: "Called attributes, and the domain is the set of values the attributes are allowed to take",
+  if_no_natural_key: "Suitable (think of the many people named Brown ), an arbitrary or surrogate key can be assigned (such as by giving employees ID numbers)",
+  dimensions_tend_to_be_discrete_and: "Often hierarchical; for example, the location might include the building, state, and country",
+  a_measure: { definition: "A quantity describing the fact, such as revenue", what_it_does: "", examples: "the revenue from different locations can be added together" },
+  coming_up_with_a_standard_set_of_dimensions: { definition: "An important part of dimensional modeling", what_it_does: "", examples: "they allow representation of a directed graph with trees on the nodes" },
+
 };
 
 // ============================================================
