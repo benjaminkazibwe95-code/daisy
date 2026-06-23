@@ -23828,6 +23828,26 @@ const FLAT_DICT = {
   this_location: "Approximately 3.5 kilometres (2 mi) northwest of the central business district of Kampala , Uganda's capital and largest city",
   makerere_college_school: "Strong in rugby, behind Namilyango College and St",
 
+  // === INGESTED 2026-06-23 01:22 ===
+  the_egyptian_hieroglyphic_writing_system: "The first notation system to have phonetic values; these symbols are called phonograms",
+  these_oraclebone_inscriptions: { definition: "The early ancestors of modern Chinese script and contained logosyllabic script and numerals", what_it_does: "", examples: "historian Ignace Gelb , credit the Ancient Greeks for creating the first alphabetic system ( c" },
+  this_script: "Prominent in the Mediterranean region throughout the First Temple period",
+  although_early_examples: "Scarce, archeologists have uncovered a wide range of later Aramaic texts, written as early as the seventh century BCE",
+  and_if_he: "Illiterate he shall go at the first, third and sixth hours to someone who can teach and has been appointed for him",
+  rates: "Often extrapolated from the number of people who can sign their name on official documents",
+  this_evidence_indicates_that_illiteracy: "A complex phenomenon with multiple factors impacting rates of illiteracy and the type of illiteracy one may experience",
+  this_disparity: { definition: "Even starker in previous decades, and from 1970 to 2000, the global gender gap in literacy decreased significantly", what_it_does: "", examples: "health, social equality, economic empowerment and environmental sustainability" },
+  living_in_poverty: "Stressful for all involved but is cognitively damaging for young children",
+  field_research: { definition: "Done by collecting data from families that were upper, middle, or lower class, or on welfare", what_it_does: "", examples: "increased GDP )" },
+  these_rates: "As high as 90% of second-grade students in Malawi, 85.4% in rural India, 83% in Ghana, and 64% in Uganda",
+  mastering_each_of_these_subskills: { definition: "Necessary for students to become proficient readers", what_it_does: "", examples: "Chinese ) use a symbol to represent a morpheme" },
+  a_common_method_of_teaching_phonics: { definition: "Synthetic phonics , in which a novice reader pronounces each individual sound and blends them to pronounce the whole word", what_it_does: "", examples: "it was found that all ten of the participants had problems with vision" },
+  a_pressing_challenge_in_education: "The instruction of literacy to migrant English-language learners (MELLs), a term coined by Pellerine and not limited to English",
+  the_first_modern_grammar_schools: { definition: "Established in Welsh towns such as Ruthin , Brecon , and Cowbridge", what_it_does: "", examples: "schools), and this uncontrolled reading could lead to increased radicalization of the populace" },
+  this_project: "Developed to increase agriculture production, develop key skills, resolve conflict, and improve literacy and numeracy skills",
+  some_of_the_books: "Modeled on successful Western books by authors such as Dr",
+  two_popular_collections_of_folktales: { definition: "Written by Siphone Vouthisakdee, who comes from a village where only five children finished primary school", what_it_does: "", examples: "Buddhism, health, and baby care" },
+
 };
 
 // ============================================================
