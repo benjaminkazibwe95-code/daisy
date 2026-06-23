@@ -26938,6 +26938,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 10:45 ===
   most_operating_systems: { definition: "Accessible via a shell – a command line interpreter", what_it_does: "", examples: "some versions of BASIC served as a shell, and BASIC is also a general-purpose language" },
 
+  // === INGESTED 2026-06-23 10:47 ===
+  gnu: { definition: "Also the project within which the free software concept originated", what_it_does: "", examples: "the song ' The Gnu '" },
+  this_philosophy: "Published as the GNU Manifesto in March 1985",
+  the_design_of_unix: "Modular, so it could be reimplemented piece by piece",
+  the_most_prominent_and_successful_of_these: { definition: "Cygnus Solutions , [ 23 ] now part of Red Hat", what_it_does: "", examples: "BSD variants, Solaris and macOS" },
+
 };
 
 // ============================================================
