@@ -25641,6 +25641,19 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 07:00 ===
   among_their_bestknown_figures: { definition: "Saint Felicita, Saint Perpetua , Saint Cyprian and Saint Augustine", what_it_does: "", examples: "the Berbers" },
 
+  // === INGESTED 2026-06-23 07:02 ===
+  the_european_powers: { definition: "Content to establish trading posts along the coast while they were actively exploring and colonizing the New World", what_it_does: "", examples: "the continent's geological makeup" },
+  a_report_of_this_expedition: "Provided by Herodotus (4.37)",
+  the_parts_of_north_africa_north_of_the_sahara: { definition: "Well known in antiquity", what_it_does: "", examples: "North Africa" },
+  most_of_the_slaves: "Sent to Madeira, which became, after thorough deforestation, the first European plantation colony",
+  the_kingdom_of_congo: "Converted to Christianity in 1495, its king taking the name of João I",
+  while_the_dutch: { definition: "Waging a long war of independence against Spain, Portugal had temporarily united with Spain, starting in 1580 and ending in 1640", what_it_does: "", examples: "Gorée in Senegal , partly overtaking Portugal as the main slave-trading power" },
+  the_english_forts_on_the_west_african_coast: "Eventually taken by the Dutch",
+  the_commercial_results_of_this_settlement: "Scarce and, again, most of the settlers died",
+  the_individuals_who_formed_this_club: "Inspired in part by the Scotsman James Bruce , who had ventured to Ethiopia in 1769 and reached the source of the Blue Nile",
+  a_prime_goal_for_explorers: "To locate the source of the River Nile",
+  among_the_discoveries_of_schweinfurth: "One that confirmed Greek legends of the existence beyond Egypt of a 'pygmy race'",
+
 };
 
 // ============================================================
