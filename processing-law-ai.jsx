@@ -28516,6 +28516,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 16:29 ===
   harwood: { definition: "A graduate of the United States Military Academy and served in the Army Corps of Engineers", what_it_does: "", examples: "free trade , deregulation , and the defense of certain civil liberties" },
 
+  // === INGESTED 2026-06-23 16:31 ===
+  the_boston_fed: "Its mission as promoting 'growth and financial stability in New England and the nation'",
+  this_building: "Designated a Boston Landmark by the Boston Landmarks Commission in 1978",
+
 };
 
 // ============================================================
