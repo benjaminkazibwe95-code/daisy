@@ -23746,6 +23746,42 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 00:52 ===
   notably_this: "Done for Agenda 2063 , which was agreed on by the African Union a few months before the launch of the SDGs in 2015",
 
+  // === INGESTED 2026-06-23 00:54 ===
+  in_its_metallic_state_it: "Mainly deposited by meteorites",
+  that_event: "Considered the transition from the Bronze Age to the Iron Age",
+  the_iron_and_steel_industry: "Thus very important economically, and iron is the cheapest metal, with a price of a few dollars per kilogram or pound",
+  pristine_and_smooth_pure_iron_surfaces: { definition: "A mirror-like silvery-gray", what_it_does: "", examples: "the other group 8 elements , ruthenium and osmium" },
+  these_allotropes: { definition: "Conventionally denoted α , γ , δ , and ε", what_it_does: "", examples: "electrical transformers , magnetic recording heads, and electric motors" },
+  much_of_this_work: "Driven by the Earth and planetary science communities, although applications to biological and industrial systems are emerging",
+  electric_currents_in_the_liquid_outer_core: "Believed to be the origin of the Earth's magnetic field",
+  the_mtype_asteroids: "Also believed to be partly or mostly made of metallic iron alloy",
+  the_rare_iron_meteorites: "The main form of natural metallic iron on the Earth's surface",
+  this_is_known_as_telluric_iron_and: "Described from a few localities, such as Disko Island in West Greenland, Yakutia in Russia and Bühl in Germany",
+  an_important_class: "The iron oxide minerals such as hematite (Fe 2 O 3 ), magnetite (Fe 3 O 4 ), and siderite (FeCO 3 ), which are the major ores of iron",
+  both_of_these: "Oxidized in aqueous solution and precipitate in even mildly elevated pH as iron(III) oxide",
+  the_banded_iron_formations: { definition: "Laid down in the time between 3,700 million years ago and 1,800 million years ago", what_it_does: "", examples: "ochre , have been used as yellow, red, and brown pigments since pre-historical times" },
+  the_best_known_sulfide: "Iron pyrite (FeS 2 ), also known as fool's gold owing to its golden luster",
+  a_typical_sixcoordinate_anion: "Hexachloroferrate(III), [FeCl 6 ] 3− , found in the mixed salt tetrakis(methylammonium) hexachloroferrate(III) chloride",
+  chloro_complexes: "Less stable and favor tetrahedral coordination as in [FeCl 4 ] − ; [FeBr 4 ] − and [FeI 4 ] − are reduced easily to iron(II)",
+  thiocyanate: "A common test for the presence of iron(III) as it forms the blood-red [Fe(SCN)(H 2 O) 5 ] 2+",
+  complexes_with_zero_to_two_unpaired_electrons: { definition: "Considered low-spin and those with four or five are considered high-spin", what_it_does: "", examples: "[Fe(NH 3 ) 6 ] 2+ is known while [Fe(NH 3 ) 6 ] 3+ is not" },
+  meteoric_iron: "Highly regarded due to its origin in the heavens and was often used to forge weapons and tools",
+  artifacts_of_smelted_iron: { definition: "Found in India dating from 1800 to 1200 BC, [ 95 ] and in the Levant from about 1500 BC (suggesting smelting in Anatolia or the Caucasus )", what_it_does: "", examples: "Joseph Hall" },
+  cast_iron: "Used in ancient China for warfare, agriculture, and architecture",
+  the_ensuing_availability_of_inexpensive_iron: "One of the factors leading to the Industrial Revolution",
+  carbon_content_in_iron: "Not implicated as the reason for the differences in properties of wrought iron, cast iron, and steel until the 18th century",
+  blacksmiths_in_luristan_in_western_persia: "Making good steel by 1000 BC",
+  oxygen_gas: "Produced in addition to liquid iron",
+  since_pure_iron: { definition: "Quite soft, it is most commonly combined with alloying elements to make steel", what_it_does: "", examples: "the Brinell test , the Rockwell test , and the Vickers hardness test" },
+  the_properties_of_pure_iron: "Often used to calibrate measurements or to compare tests",
+  this_form_of_iron: { definition: "Used in the type of stainless steel used for making cutlery, and hospital and food-service equipment", what_it_does: "", examples: "sulfur , silicon and phosphorus" },
+  pig_iron: "Not a saleable product, but rather an intermediate step in the production of cast iron and steel",
+  the_broken_surface_of_a_white_cast_iron: { definition: "Full of fine facets of the broken iron carbide, a very pale, silvery, shiny material, hence the appellation", what_it_does: "", examples: "chromium , vanadium , molybdenum , nickel, tungsten , etc" },
+  some_examples_of_iron_metalloproteins: { definition: "Ferritin and rubredoxin", what_it_does: "", examples: "catalase , [ 161 ] lipoxygenases , [ 162 ] and IRE-BP" },
+  hemoglobin_bound_to_carbon_monoxide: "Known as carboxyhemoglobin",
+  since_the_reduction_potential_of_each_step: "Slightly greater than the previous one, the energy is released step-by-step and can thus be stored in adenosine triphosphate",
+  the_simplest_of_such_compounds: "Rubredoxin , which has only one iron atom coordinated to four sulfur atoms from cysteine residues in the surrounding peptide chains",
+
 };
 
 // ============================================================
