@@ -26949,6 +26949,20 @@ const FLAT_DICT = {
   licensed_software: "In general not in the public domain",
   explicit_pd_waiver_statements_or_license_files: "At that time unusual",
 
+  // === INGESTED 2026-06-23 10:51 ===
+  meta_ai_has_a_dedicated_website_and: "Available on Facebook and WhatsApp",
+  this_foundation_model: "Further trained on 5B instruction following token to create the instruct fine-tune",
+  another_foundation_model: "Created for Python code, which trained on 100B tokens of Python-only code, before the long-context data",
+  the_decision: "Made to end training to focus GPU power elsewhere",
+  the_architecture: "Changed to a mixture of experts where only a fraction of the model’s expert sub-networks are activated per input token",
+  meta_claimed_it: "A 288 billion active parameter model with 16 experts and around 2T parameters in total; it was still in training when Scout and Maverick were released",
+  maverick: { definition: "Codistilled from Behemoth, while Scout was trained from scratch", what_it_does: "", examples: "publicly shared posts from Instagram and Facebook and people’s interactions with Meta AI" },
+  this_data_set: "Curated to remove Web sites that often disclose personal data of people",
+  the_average_dialog_depth: "3.9 in the Meta examples, 3.0 for Anthropic Helpful and Anthropic Harmless sets, and 1",
+  its_dataset: "Filtered by a text-quality classifier, and the classifier was trained by text synthesized by Llama 2",
+  two_separate_reward_models: { definition: "Trained from these preferences for safety and helpfulness using reinforcement learning from human feedback (RLHF)", what_it_does: "", examples: "'speak in French' and 'act like Napoleon') are respected during the dialog" },
+  this_ai_companion: { definition: "Powered by multiple models, including Meta Llama 2", what_it_does: "", examples: "by making it relatively easy to engineer advanced bioweapons without specialized knowledge" },
+
 };
 
 // ============================================================
