@@ -29398,6 +29398,34 @@ const FLAT_DICT = {
   the_lutheran_magdeburg_centuries: "A notable example of such a view",
   the_first_british_historian_to_use_the_term: { definition: "Most likely Gilbert Burnet , in the form 'darker ages' which appears several times in his work during the later 17th century", what_it_does: "", examples: "Horace Walpole , initiated the Gothic Revival in the arts" },
 
+  // === INGESTED 2026-06-23 20:01 ===
+  although_the_state: "Small and had only around 1",
+  the_republic: "A confederation of provinces, each with a high degree of independence from the federal assembly: the States General",
+  each_province: "Governed by the Provincial States, their main executive official (though not the official head of state) being a raadpensionaris or landsadvocaat",
+  the_union_of_utrecht: { definition: "Regarded as the foundation of the Republic of the Seven United Provinces, which was not recognized by Spain until the Peace of Westphalia in 1648", what_it_does: "", examples: "the Pilgrim Fathers" },
+  people_in_most_parts_of_europe: "Poor and many were unemployed",
+  religious_toleration: "Important, because a continuous influx of immigrants was necessary for the economy",
+  the_money: "Typically invested in high-risk ventures like pioneering expeditions to the East Indies to engage in the spice trade",
+  these_ventures: "Soon consolidated in the Dutch East India Company (VOC)",
+  the_profits_of_these_ventures: "Ploughed back in the financing of new trade, which led to its exponential growth",
+  amsterdam: "Also one of the most reliable in settling tax demands and therefore was able to use the threat to withhold such payments to good effect",
+  in_amsterdam_the_network: "So large that members of the same family could be related to opposing factions and pursue widely separated interests",
+  but_tolerance: "Practiced for the convenience of the city",
+  the_latter_group: "The Republicans, led by the Grand Pensionary (a sort of prime minister) and the regents stood for localism, municipal rights, commerce, and peace",
+  the_dutch_republic_of_the_united_provinces: "A true republic from 1650 to 1672 and 1702–1748",
+  these_periods: "Called the First Stadtholderless Period and Second Stadtholderless Period",
+  the_dutch_and_english: "Major rivals in world trade and naval power",
+  at_first_many_dutch_ships: "Captured and the English scored great victories",
+  the_advance_of_french_troops_from_the_south: "Halted by a costly inundation of its own heartland, by breaching river dikes",
+  the_main_focus_of_dutch_leaders: { definition: "Reducing the country's considerable budget deficits", what_it_does: "", examples: "largely imitated English and French styles with little in the way of innovation or originality" },
+  all_power: "Concentrated in the hands of an unaccountable few, including the Frisian nobleman Douwe Sirtema van Grovestins",
+  a_small_unpaid_prussian_army: "Billeted in the Netherlands and supported themselves by looting and extortion",
+  five_leaders: "Sentenced to death, forcing them to flee",
+  the_french_revolution: "Popular, and numerous underground clubs were promoting it when in January 1795 the French army invaded",
+  when_southern_europe: "Experiencing poor harvests, the Dutch very profitably exported surplus grain from Poland",
+  the_states_general: "Seated in The Hague and consisted of representatives of each of the seven provinces",
+  the_framers_of_the_united_states_constitution: "Influenced by the Constitution of the Republic of the United Provinces, as Federalist No",
+
 };
 
 // ============================================================
