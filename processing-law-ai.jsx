@@ -28193,6 +28193,23 @@ const FLAT_DICT = {
   the_key_factor: "The estimate of 'economic service life '",
   sometimes_depreciation_writeoffs: "Also viewed partly as compensation for this risk",
 
+  // === INGESTED 2026-06-23 15:35 ===
+  suppose_the_set_of_alternatives: { definition: "Not finite (for example, even if the number of goods is finite, the quantity chosen can be any real number on an interval)", what_it_does: "", examples: "illustrated by Edgeworth boxes in contract curves" },
+  such_efficiency: "A major concept in welfare economics",
+  while_preferences: "The conventional foundation of choice theory in microeconomics , it is often convenient to represent preferences with a utility function",
+  if_the_consumer_strictly_prefers_x_to_y_or: "Indifferent between them, then u ( x ) ≥ u ( y ) {\displaystyle u(x)\geq u(y)}",
+  one_function_that_would_fit_these_numbers: { definition: "U ( x apples , x oranges ) = x apples + 2 x oranges + 2 x apples x oranges", what_it_does: "", examples: "bundle A = {1 apple,2 oranges}, and bundle B = {1 apple,1 orange}, then A is preferred over B" },
+  a_notable_exception: "In the context of analyzing choice with conditions of risk (see below )",
+  sometimes_cardinal_utility: { definition: "Used to aggregate utilities across persons, to create a social welfare function", what_it_does: "", examples: "'preferred to', 'no more', 'less than', etc" },
+  an_example_is_lexicographic_preferences_which: "Not continuous and cannot be represented by a continuous utility function",
+  total_utility: "The utility of an alternative, an entire consumption bundle or situation in life",
+  marginal_rate_of_substitution: "The absolute value of the slope of the indifference curve, which measures how much an individual is willing to switch from one good to another",
+  mrs: "Related to marginal utility",
+  the_required_assumptions: "Four axioms about the properties of the agent's preference relation over 'simple lotteries', which are lotteries with just two options",
+  one_use_of_the_indirect_utility_concept: "The notion of the utility of money",
+  the_utility_function: "Concave in the positive region, representing the phenomenon of diminishing marginal utility",
+  the_graph_of_budget_line: "A linear, downward-sloping line between X and Y axes",
+
 };
 
 // ============================================================
