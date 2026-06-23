@@ -24658,6 +24658,20 @@ const FLAT_DICT = {
   knchr: "Also an advisory body",
   the_knchr: "A member of the Network of African National Human Rights Institutions (NANHRI), the ICC's regional grouping for Africa",
 
+  // === INGESTED 2026-06-23 03:50 ===
+  habilis_society: { definition: "Similar to that of modern savanna chimpanzees and baboons , groups may have numbered 70–85 members", what_it_does: "", examples: "big cats, hyenas and crocodiles" },
+  africanus: "A direct ancestor of Paranthropus and Homo (the two were sister taxa ), and that A",
+  he_further_said_that_there: "A major evolutionary leap between A",
+  erectus_or: "An offshoot of the human line, [ 22 ] and whether or not all specimens assigned to H",
+  habilis_are_correctly_assigned_or_the_species: "An assemblage of different Australopithecus and Homo species",
+  rudolfensis_generally: "Recognised members of the genus at the base of the family tree, with arguments for synonymisation or removal from the genus not widely adopted",
+  this_specimen: "Initially classified as Homo sp",
+  rates_of_sexual_dimorphism: { definition: "Difficult to determine as early hominin anatomy is poorly represented in the fossil record", what_it_does: "", examples: "diet, can also dramatically impact dental anatomy" },
+  boisei: { definition: "Associated with Olduwan tools despite not being the knapper (the one who made the tools), Leakey and colleagues, when describing H", what_it_does: "", examples: "jackals or cheetahs" },
+  habilis_could_indicate_early_homo: "Still arboreal to a degree",
+  habilis_and_other_early_homo: { definition: "Thicker than those of modern humans and all living apes, more comparable to Australopithecus", what_it_does: "", examples: "pliable plant parts or meat), otherwise the cusps would have been more worn down" },
+  mary_leakey_suggested_the_rock_piles: "Used to support poles stuck into the ground, possibly to support a windbreak or a rough hut",
+
 };
 
 // ============================================================
