@@ -24202,6 +24202,14 @@ const FLAT_DICT = {
   the_economy_of_west_asia: "Diverse and the region experiences high economic growth",
   the_population_of_west_asia: { definition: "Estimated at 4% of world population , up from about 39 million at the beginning of the 20th century, or about 2% of world population at the time", what_it_does: "", examples: "Judaism and Christianity , [ 43 ] are also well represented" },
 
+  // === INGESTED 2026-06-23 02:18 ===
+  health_care_reform: { definition: "For the most part governmental policy that affects health care delivery in a given place", what_it_does: "", examples: "equity, productivity, safety, innovation, and choice" },
+  private_health_care: { definition: "Not abolished but had to compete with the NHS", what_it_does: "", examples: "cod liver oil and malt" },
+  some_treatment_and_diagnostic_centres: "Now run by private enterprise and funded under contract",
+  the_biggest_of_these: { definition: "Obesity and related diseases such as diabetes and cardio-vascular disease", what_it_does: "", examples: "in the evenings and at weekends" },
+  an_nhs_constitution: "Published which lays out the legal rights of patients as well as promises (not legally enforceable) the NHS strives to keep in England",
+  numerous_healthcare_reforms_in_germany: { definition: "Legislative interventions to stabilise the public health insurance since 1983", what_it_does: "", examples: "its industry and all services, is one of the largest sectors of the German economy" },
+
 };
 
 // ============================================================
