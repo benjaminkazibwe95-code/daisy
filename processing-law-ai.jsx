@@ -28933,6 +28933,11 @@ const FLAT_DICT = {
   magellan_metals: "Found responsible for lead contamination, which killed thousands of birds in Australia",
   environmental_responsibility: "That a company is perceived to produce environmental-friendly, ecological, and non-harmful products'",
 
+  // === INGESTED 2026-06-23 18:24 ===
+  content_marketing: "A form of marketing focused on creating, publishing, and distributing content for a targeted audience online",
+  brand_health: { definition: "The positive or negative feedback that a company gets", what_it_does: "", examples: "click-through-rate from a product-page to check-out and completion rates at the check-out" },
+  electronic_services: { definition: "Different from traditional services and they are not affected by distance restrictions and opening hours", what_it_does: "", examples: "face-to-face, postal, and other remote services" },
+
 };
 
 // ============================================================
