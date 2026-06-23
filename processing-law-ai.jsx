@@ -25611,6 +25611,12 @@ const FLAT_DICT = {
   sixtynine_percent_of_arrivals: "For family visits ('affinity tourism'), while 16% were for leisure tourism",
   regional_flights: "Operated by Air Madagascar and Ewa Air (a subsidiary of Air Austral)",
 
+  // === INGESTED 2026-06-23 06:55 ===
+  the_taking_of_ceuta: "Recognised by Pope Martin V as a crusade",
+  another_algerian_attack: "Staged in 1615, but the following year captain Jacques Vinciguerra reasserted Lenche control",
+  french_possession_of_the_bastion_de_france: "Confirmed for 100 years, and previous rights in La Calle, Cap Rose, Annaba, and Béjaïa were restored",
+  however_the_enclave: "Expensive to defend and fortify against the attacks by Moulay Ismail and offered neither commercial nor military advantage to England",
+
 };
 
 // ============================================================
