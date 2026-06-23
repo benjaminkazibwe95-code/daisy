@@ -27010,6 +27010,13 @@ const FLAT_DICT = {
   the_idea_of_mandating_selfarchiving: "Raised at least as early as 1998",
   these_recommendations: { definition: "Not legally binding and received mixed reactions", what_it_does: "", examples: "SWORD can help authors manage sharing between repositories" },
 
+  // === INGESTED 2026-06-23 11:06 ===
+  opennotebook_science: "The practice of making the entire primary record of a research project publicly available online as it is recorded",
+  there_is_a_url_to_a_laboratory_notebook_that: "Freely available and indexed on common search engines",
+  usually_either_the_notebook: { definition: "Only partially shared or shared with significant delay", what_it_does: "", examples: "open notebook science, falls into this category" },
+  a_related_argument: "That 'my notebook is too specific' for it to be of interest to anyone else",
+  fully_open_notebooks: "Marked as 'all content' and 'immediate' access",
+
 };
 
 // ============================================================
