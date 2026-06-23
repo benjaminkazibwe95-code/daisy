@@ -24147,6 +24147,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 02:07 ===
   families_and_children_reaching_adulthood: "More mobile and tend to relocate to where jobs exist",
 
+  // === INGESTED 2026-06-23 02:10 ===
+  these_six_dimensions_of_food_security: "Reinforced in conceptual and legal understandings of the right to food",
+  the_most_important_ones: "High food prices and disruptions in global food supplies for example due to war",
+  chronic_and_transitory_food_insecurity: { definition: "Linked since the recurrence of transitory food security can make households more vulnerable to chronic food insecurity", what_it_does: "", examples: "the COVID-19 pandemic , triggering stubborn cycles of poverty and hunger" },
+  this_rise_in_food_insecurity: "Primarily driven by conflicts, economic shocks, and extreme weather",
+  regions_like_the_gaza_strip_and_south_sudan: { definition: "Among the hardest hit, highlighting the urgent need for targeted interventions to address and mitigate global hunger effectively", what_it_does: "", examples: "weakened physical, intellectual and emotional development" },
+  the_energy_for_the_green_revolution: { definition: "Provided by fossil fuels in the form of fertilizers (natural gas), pesticides (oil), and hydrocarbon -fueled irrigation", what_it_does: "", examples: "wheat and also fertilizer, with nearly 1" },
+  while_the_association_with_anxiety_symptoms: "Noted, there was insufficient data for a full meta-analysis",
+  depressive_symptoms: "Reported in 18% to 49% of cases, while anxiety symptoms ranged from 23% to 34%",
+  bangladesh: "An example of a country that has met the Millennium Development Goal hunger target",
+  irrigation_systems: "Established through infrastructure development programs",
+  the_agency_said_that_if_healthy_diets: "To become the norm, almost all of the health costs that can currently be blamed on unhealthy diets (estimated to reach US$1",
+  another_fao_priority: { definition: "For governments to secure better access to markets for small-scale producers of nutritious foods", what_it_does: "", examples: "indigenous, elderly, regional, and single-parent households" },
+  singapore: { definition: "Rated as the top country in affordability, availability, quality, and safety", what_it_does: "", examples: "some who are middle class, or who are in households where all adults are in work" },
+  this_is_an_issue_as_agriculture: "The main form of food acquisition in places such as Tororo and Busia",
+  the_state_of_nutrition: { definition: "Most dire for vulnerable populations like children who face developmental issues like stunting or wasting as a result of malnutrition", what_it_does: "", examples: "those on child stunting, wasting and overweight by 2030" },
+
 };
 
 // ============================================================
