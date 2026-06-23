@@ -29599,6 +29599,9 @@ const FLAT_DICT = {
   another_such_program: "Social Security Disability Insurance ( SSD or SSDI ), a payroll tax -funded, federal insurance program",
   fap: { definition: "Intended to fix many of the problems of the AFDC, particularly the anti-work structure", what_it_does: "", examples: "the Seattle-Denver Income Maintenance Experiments" },
 
+  // === INGESTED 2026-06-23 20:53 ===
+  ssis: { definition: "Used by financial institutions to facilitate fast and accurate cross-border payments", what_it_does: "", examples: "banks, insurance companies and brokers" },
+
 };
 
 // ============================================================
