@@ -27270,6 +27270,9 @@ const FLAT_DICT = {
   the_internet_service_provider: "Later run by Verizon under the Netscape brand",
   the_lowcost_isp: "Officially launched on January 8, 2004",
 
+  // === INGESTED 2026-06-23 12:08 ===
+  pc_world: "A British retail chain of mass market computer megastores",
+
 };
 
 // ============================================================
