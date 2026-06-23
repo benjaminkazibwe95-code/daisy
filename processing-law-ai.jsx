@@ -30167,6 +30167,29 @@ const FLAT_DICT = {
   the_higher_education_standards_framework: "Reviewed in 2015 and became effective in January 2017",
   the_impact_of_the_teqsa_act: { definition: "Reviewed in 2016-17 and, in 2019, a bill to implement the recommendations of the review was introduced to the Australian Parliament", what_it_does: "", examples: "academic and research integrity, cyber security, foreign interference and admission standards" },
 
+  // === INGESTED 2026-06-23 23:09 ===
+  but_this_opinion: "False, and entirely opposed to the truth",
+  few: "Bothered by this suggestion, and the pope and several archbishops were interested enough by it to want more detail",
+  coupled_with_this_approach: "The belief that rare events which seemed to contradict theoretical models were aberrations, telling nothing about nature as it 'naturally' was",
+  he_wrote_that_the_human_mind: { definition: "Created as a tabula rasa , a 'blank tablet,' upon which sensory impressions were recorded and built up knowledge through a process of reflection", what_it_does: "", examples: "the printing press , gunpowder and the compass" },
+  his_book_de_magnete: "Written in 1600, and he is regarded by some as the father of electricity and magnetism",
+  galilei_further_asserted_that_the_parabola: "The theoretically ideal trajectory of a uniformly accelerated projectile in the absence of friction and other disturbances",
+  the_final_cause: { definition: "The aim, goal, or purpose of some natural process or man-made thing", what_it_does: "", examples: "a child's growth, for example, leading to a mature adult" },
+  the_first_scientific_society_to_be_established: "The Royal Society of London",
+  its_rules: "Set down in 1699 by King Louis XIV , when it received the name of 'Royal Academy of Sciences' and was installed in the Louvre in Paris",
+  the_importance_of_chemistry: "Indicated by the range of important scholars who actively engaged in chemical research",
+  astronomiae_pars_optica: "Generally recognized as the foundation of modern optics",
+  newton_noted_that_regardless_of_whether_it: { definition: "Reflected or scattered or transmitted, it stayed the same colour", what_it_does: "", examples: "sulphur, wax, glass, etc., [ 137 ] were capable of manifesting electrical properties" },
+  one_of_his_important_discoveries: "That electrified bodies in a vacuum would attract light substances, this indicating that the electrical effect did not depend upon the air as a medium",
+  the_first_usage_of_the_word_electricity: "Ascribed to Thomas Browne in his 1646 work Pseudodoxia Epidemica",
+  the_way: "Opened to later scientific advances, particularly in astronomy and dynamics",
+  this_calculating_aid: "A predecessor of the slide rule",
+  denis_papin: "Best known for his pioneering invention of the steam digester , the forerunner of the steam engine",
+  the_inventor: "Unknown, but Hans Lipperhey applied for the first patent, followed by Jacob Metius of Alkmaar",
+  the_first_such_device: "Made by Otto von Guericke in 1654",
+  the_motivation_for_the_invention: { definition: "To improve on the suction pumps that were used to raise water out of the mines", what_it_does: "", examples: "telescopes [ 173 ] made of wood, pasteboard, or with leather components exist" },
+  the_base: { definition: "Wooden, and the cylindrical pump was brass", what_it_does: "", examples: "Pierre Duhem, John Hermann Randall, Alistair Crombie and William A" },
+
 };
 
 // ============================================================
