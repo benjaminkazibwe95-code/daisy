@@ -26972,6 +26972,9 @@ const FLAT_DICT = {
   commonsbased_peer_production: "A subset of peer production defined by its non-profit focus",
   they_argue_that_bureaucracy: "Better equipped to handle social problems than peer production, which they consider unsustainable",
 
+  // === INGESTED 2026-06-23 10:57 ===
+  the_current_editors: "Sarah Aitkinson ( King's College London ) and Helen Kennedy ( University of Nottingham )",
+
 };
 
 // ============================================================
