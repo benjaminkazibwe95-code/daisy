@@ -25411,6 +25411,16 @@ const FLAT_DICT = {
   unguja: "Surrounded by a number of smaller islands and islets, with only two of them, Tumbatu and Uzi , being inhabited",
   the_local_zanzibari_government: { definition: "Based in Stone Town , on the west coast of Unguja", what_it_does: "", examples: "Michenzani" },
 
+  // === INGESTED 2026-06-23 06:26 ===
+  the_congo_basin: "The largest forest in Africa",
+  the_congo_basin_region: "Sometimes known simply as the Congo",
+  fourteen_percent_of_the_humid_forest: { definition: "Designated as protected", what_it_does: "", examples: "the Bie, Mayumbe, Adamlia, Nile-Congo , East African, and Zambian Swells" },
+  much_of_the_rainfall: "Derived from large Mesoscale convective systems",
+  while_the_average_rainfall_change: "Uncertain, [ 16 ] it is likely that extreme rainfall events will become more extreme owing to the increases in water vapour in the atmosphere",
+  its_apex_predator: "The leopard , which are larger than their savannah counterparts due to lack of competition from other large predators",
+  the_basin: "Home to the endangered western lowland gorilla",
+  democratic_republic_of_the_congo: "Also looking to expand the area of forest under protection, for which it hopes to secure compensation through emerging markets for forest carbon",
+
 };
 
 // ============================================================
