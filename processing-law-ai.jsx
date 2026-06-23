@@ -24186,6 +24186,10 @@ const FLAT_DICT = {
   despite_the_fact_that_maize: { definition: "An imported food crop to Zimbabwe (c", what_it_does: "", examples: "sauce / gravy , sour milk , or stewed vegetables" },
   similar_dishes: "Polenta from northern Italy , gh'omi (ღომი) from Georgia, and grits in the southern United States",
 
+  // === INGESTED 2026-06-23 02:14 ===
+  wet_woodlands: { definition: "Those receiving more than 1000 mm annual rainfall, mainly located in northern Zambia, eastern Angola, central Malawi, and western Tanzania", what_it_does: "", examples: "several endemic bird species" },
+  the_predominant_tree: { definition: "Miombo ( Brachystegia spp.)", what_it_does: "", examples: "the Bemba people , Lozi people , Yao people , Luvale people , Shona people , and Luba people" },
+
 };
 
 // ============================================================
