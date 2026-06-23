@@ -25831,6 +25831,10 @@ const FLAT_DICT = {
   their_rationale: { definition: "That P2P is mostly used to share illegal content, and their infrastructure is not designed for continuous, high-bandwidth traffic", what_it_does: "", examples: "the BitTorrent protocol encryption" },
   an_important_requirement_of_this_process: "That results must be reproducible so that other researchers can replicate, validate, and extend existing work",
 
+  // === INGESTED 2026-06-23 07:31 ===
+  while_power: { definition: "Measured in watts (W) or kilowatts (kW), energy consumption is typically measured in watt-hours (Wh) or kilowatt-hours (kWh)", what_it_does: "", examples: "light, motion, computation) and minimizes conversion into undesirable forms, primarily heat" },
+  energy_consumption_in_the_body: "A product of the basal metabolic rate and the physical activity level",
+
 };
 
 // ============================================================
