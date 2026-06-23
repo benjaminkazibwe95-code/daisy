@@ -30296,6 +30296,13 @@ const FLAT_DICT = {
   the_bird_behaves_as_if_there: "A causal relation between its behavior and the presentation of food, although such a relation is lacking",
   she_recalled_that_she: "Approximately 18 years old at the time",
 
+  // === INGESTED 2026-06-23 23:26 ===
+  educational_games: "Games explicitly designed with educational purposes, or which have incidental or secondary educational value",
+  welldesigned_games_that_motivate_players: "What make them ideal learning environments",
+  this_character: "An expression of the human creating the virtual character",
+  the_fact_that_game_creators_and_gamers: "Wanting new experiences within the games, the introduction of 'experiments' could increase the level of play and engagement",
+  these_training_sessions: "Used to replicate real life stresses without the risk factor associated with flying",
+
 };
 
 // ============================================================
