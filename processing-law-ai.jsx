@@ -24801,6 +24801,22 @@ const FLAT_DICT = {
   it_has_been_noted_that_it: { definition: "Harder to prove de facto relationship status, particularly in the case of the death of one of the partners", what_it_does: "", examples: "by habit and repute)" },
   the_related_terms_oligopoly_and_monopsony: { definition: "Similar in meaning and this is the type of situation that antitrust laws are intended to eliminate", what_it_does: "", examples: "a coup d'état, revolution, usurpation, abrogation or suspension of the constitution" },
 
+  // === INGESTED 2026-06-23 04:15 ===
+  sejong: "Centrally located on Gyeongbu Line operated by Korail",
+  the_construction_of_the_city: "Expected to be completed in 2030, at which time 500,000 people are expected to live there",
+  the_revised_plan: "Approved by the National Assembly in March 2005",
+  challenges_to_the_new_plan: { definition: "Rejected by the Constitutional Court in November 2005", what_it_does: "", examples: "Lee's arch-rival and eventual successor, Park Geun-hye" },
+  jochiwon: "The main city within Yeongi",
+  it_has_sparked_criticism_that_the_new_city: "Not only too lackluster to draw residents away from Seoul, but also difficult to access and poorly designed'",
+  this_collection_of_nature_and_attractions: "Very appealing to families and tourists with the combination of nature and the structured content of the park",
+  winters: "Cold and dry, with January being the coldest month, averaging −2.7°C (27.1°F) in daily mean temperature and a mean minimum of −7.8°C (18.0°F)",
+  snowfall: "Possible but typically light, and precipitation is low, with only 22.6 mm on average in January",
+  summers: "Hot and rainy due to the East Asian monsoon",
+  july: "The warmest and wettest month, with a daily mean temperature of 25.4°C (77.7°F) and average precipitation of 284.9 mm (11.22 in)",
+  protestantism: { definition: "The most common religion with around 19.9% of the population being adherents, followed by Buddhism at 13.9% and Roman Catholicism at 7.9%", what_it_does: "", examples: "the square fountain" },
+  the_size: "705,768m 2 and the lake area is 322,800m 2",
+  of_the_five_new_stations_that: "Set to open over the new 14 km of tracks, four of which will be in Sejong",
+
 };
 
 // ============================================================
