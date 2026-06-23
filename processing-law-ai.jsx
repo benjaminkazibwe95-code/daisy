@@ -28814,6 +28814,20 @@ const FLAT_DICT = {
   the_transaction: "Valued at $1.275 billion and closed during the fourth quarter of Adobe's 2021 fiscal year",
   narayen: { definition: "Expected to stay on until a new CEO was identified and remain as chairman", what_it_does: "", examples: "Adobe Reader, to gain unauthorized access to computers" },
 
+  // === INGESTED 2026-06-23 17:43 ===
+  the_restaurants: "Turned into cafe-esque space, being mostly terracotta, grey, and olive",
+  the_redesigned_restaurants: { definition: "Also primarily furnished with wood furniture", what_it_does: "", examples: "the sale of McRice in Indonesia, or Ebi (prawn) Burger in Singapore and Japan)" },
+  allday_breakfast: "Phased out from menus in the United States at the start of the COVID-19 pandemic in 2020",
+  the_allday_breakfast_menu: "Still available in select locations across Canada",
+  among_the_fare_offered: "Meatloaf, fried chicken, and baked ham",
+  the_concept: { definition: "Created by McDonald's Australia, starting with Melbourne in 1993", what_it_does: "", examples: "kiosks, walk-up stands, and mobile coffee trucks" },
+  mcstop: "A location targeted at truckers and travelers who may have services found at truck stops",
+  the_first_location: "Opened in December 2023 in Bolingbrook, Illinois",
+  the_restaurant: "The second-biggest private sector employer in Saint-Barthélémy, which has an unemployment rate of 30 percent",
+  picket_lines: "Formed around the two stores in Crayford and Cambridge",
+  the_strike: { definition: "Supported by then Leader of the Opposition Jeremy Corbyn", what_it_does: "", examples: "broken or fractured bones, leg deformities and heart failure" },
+  some_of_the_complainants_also_stated_that_they: { definition: "Verbally and physically harassed in retaliation for their complaints", what_it_does: "", examples: "racism, homophobia, ableism, and harassment" },
+
 };
 
 // ============================================================
