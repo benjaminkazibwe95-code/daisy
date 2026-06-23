@@ -29068,6 +29068,14 @@ const FLAT_DICT = {
   a_key_modelassumption: "That management will consider two factors in determining the dividend amount, with both indicating higher dividends correspondingly",
   in_most_cases_dividends: { definition: "Taxed higher than capital gains , and thus investors - and management - would typically be expected to select a share repurchase", what_it_does: "", examples: "the equity risk premium , the discount rate, the expected growth rate or expected inflation" },
 
+  // === INGESTED 2026-06-23 18:43 ===
+  it_is_probable_that_ardys: "Killed during this Cimmerian attack",
+  lydia: "Captured finally by Turkish beyliks , which were absorbed by the Ottoman state in the 14th and 15th centuries",
+  croesus: "Defeated in battle by Cyrus II of Persia in 546 BC, with the Lydian kingdom losing its autonomy and becoming a Persian satrapy",
+  dionysius_of_halicarnassus: "Skeptical of this story, indicating that the Etruscan language and customs were known to be totally dissimilar to those of the Lydians",
+  the_etruscan_dna: "Completely absent a signal of recent admixture with Anatolia and the Eastern Mediterranean",
+  bishops_from_the_various_dioceses_of_lydia: "Well represented at the Council of Nicaea in 325 and at the later ecumenical councils",
+
 };
 
 // ============================================================
