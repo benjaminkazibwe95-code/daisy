@@ -25208,6 +25208,19 @@ const FLAT_DICT = {
   by_that_time_he: "Also the Regional Chairperson of the ANC's branch in Tshwane, a position he held until 2018",
   ramokgopa: "Born on 25 January 1975",
 
+  // === INGESTED 2026-06-23 05:42 ===
+  its_first_book: "Printed in Oxford in 1478, with the Press officially granted the legal right to print books by decree in 1586",
+  the_delegates_of_the_press: "Led by the Secretary to the Delegates, who serves as OUP's chief executive and as its major representative on other university bodies",
+  the_business: "Rescued by the intervention of a single Delegate, William Blackstone",
+  buildings: "Constructed from plans drawn up by Daniel Robertson and Edward Blore , and the press moved into them in 1830",
+  murray: "To edit a work estimated to take ten years and to cost approximately £9,000",
+  not_all_of_these: { definition: "Full-fledged branches: in Leipzig, there was a depot run by H", what_it_does: "", examples: "fiction and light reading" },
+  its_author_base: "Overwhelmingly local, and in 2008, it partnered with the university to support scholarships for South Africans studying postgraduate degrees",
+  visits_must_be_booked_in_advance_and: "Led by an archive staff member",
+  many_of_these: "Published under the Oxford Languages brand",
+  the_supreme_court_ruled_that_oup: "Not tax exempt in the subcontinent 'because it does not carry out any university activities there but acts simply as a commercial publisher'",
+  several_studies_published_in_the_journal: "Conducted or funded by Chinese police and security agencies, raising questions about the independence and ethical standards of the research",
+
 };
 
 // ============================================================
