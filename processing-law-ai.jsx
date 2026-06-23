@@ -29631,6 +29631,12 @@ const FLAT_DICT = {
   in_a_household_where_the_mother: { definition: "Educated, children and especially girls are more likely to attend school", what_it_does: "", examples: "higher survival rates and better nutrition" },
   one_issue_that_researchers_acknowledge: "The difficulty in comparing education levels",
 
+  // === INGESTED 2026-06-23 21:06 ===
+  the_doughnut: "An attempt to provide such a compass",
+  but_it_turns_out_that_homo_sapiens: { definition: "The most cooperative species on the planet and the economy develops via interdependency", what_it_does: "", examples: "higher marginal rates of taxation and land value taxes need to be reconsidered" },
+  although_indefinite_growth: { definition: "The assumption of modern economics, it's rare to find an exponential graph in a textbook", what_it_does: "", examples: "Steady-state economy , demurrage currency , and breaking out of consumerism, are explored" },
+  these_minimum_requirements: "Based on the UN's sustainable development goals (SDGs)",
+
 };
 
 // ============================================================
