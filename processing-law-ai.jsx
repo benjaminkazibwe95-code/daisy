@@ -29426,6 +29426,13 @@ const FLAT_DICT = {
   the_states_general: "Seated in The Hague and consisted of representatives of each of the seven provinces",
   the_framers_of_the_united_states_constitution: "Influenced by the Constitution of the Republic of the United Provinces, as Federalist No",
 
+  // === INGESTED 2026-06-23 20:03 ===
+  the_country_today: "A presidential republic with an elected legislature and consists of 38 provinces , some of which enjoy greater autonomy than others",
+  the_name_indonesia: { definition: "Usually explained as a compound of the Greek words Indos ( Ἰνδός ) and nesos ( νῆσος ), together meaning ' Indian islands '", what_it_does: "", examples: "the Sumatra-based Srivijaya grew through trade and Buddhist religious networks" },
+  most_lowland_areas: { definition: "Warm and humid throughout the year, while higher terrain is cooler; seasonal temperature differences are small", what_it_does: "", examples: "Nusa Tenggara, are generally drier" },
+  members_of_the_dpr: { definition: "Elected through party-based contests, while DPD candidates run as individuals to represent provincial constituencies", what_it_does: "", examples: "Lebanon , the Democratic Republic of the Congo and Mali" },
+  gamelan_traditions: { definition: "Centred especially in Java and Bali, while angklung and other bamboo ensembles are used in western Java, Banyumas, and other regions", what_it_does: "", examples: "K-pop cover dance in Bali and hip-hop communities in Yogyakarta" },
+
 };
 
 // ============================================================
