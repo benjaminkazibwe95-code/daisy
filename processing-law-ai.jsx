@@ -28573,6 +28573,15 @@ const FLAT_DICT = {
   the_gdp_per_person_data: "Adjusted for inflation, hence they are ' real '",
   gdp_per_person_in_the_us: { definition: "30% more than it was in the UK", what_it_does: "", examples: "a 2% annual increase, have large effects" },
 
+  // === INGESTED 2026-06-23 16:50 ===
+  national_review: "An American conservative [ 4 ] editorial magazine, focusing on news and commentary pieces on political, social, and cultural affairs",
+  for_it_is_the_plain_fact_that_nowadays_there: "No conservative or reactionary ideas in general circulation",
+  there_never: { definition: "An age of conformity quite like this one, or a camaraderie quite like the Liberals", what_it_does: "", examples: "libertarians , would work together to combat what were seen as their common opponents" },
+  the_sobering_answer: "Yes – the White community is so entitled because, for the time being, it is the advanced race",
+  the_common_requisite: { definition: "That they present their views as a critique of prevailing liberal orthodoxy but do so analytically and with decency and respect", what_it_does: "", examples: "editor Ramesh Ponnuru and contributor Jonah Goldberg , have remained uniformly critical of Trump" },
+  national_review_institute: { definition: "Founded by William F", what_it_does: "", examples: "The Heritage Foundation and American Enterprise Institute" },
+  and_this: "War.' [ 71 ] National Review later called the column a 'mistake' and fired Coulter as a contributing editor",
+
 };
 
 // ============================================================
