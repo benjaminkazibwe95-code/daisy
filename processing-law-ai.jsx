@@ -27813,6 +27813,9 @@ const FLAT_DICT = {
   most_of_glass_in_construction: { definition: "On the exterior surface of buildings", what_it_does: "a better solution to block light and heat coming through windows", examples: "" },
   since_these_coatings: "Hydrophobic and repels water from the metal pipe and can also protect metal from salt water attack",
 
+  // === INGESTED 2026-06-23 14:32 ===
+  femtotechnology: { definition: "A term used in reference to the hypothetical manipulation of matter on the scale of a femtometer , or 10 −15 m", what_it_does: "", examples: "self-replication, or what type of technology could be used to manipulate them, is unknown" },
+
 };
 
 // ============================================================
