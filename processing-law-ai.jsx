@@ -26013,6 +26013,12 @@ const FLAT_DICT = {
   particularly_at_issue: "The ability for Apple to remotely disable or delete apps at will",
   sales_of_ipads_in_recent_years: "Also behind Android, while, by web use (a proxy for all use), iPads (using iOS) are still the most popular",
 
+  // === INGESTED 2026-06-23 08:04 ===
+  hisense_kelon_electrical_holdings_ltd: "Listed on two stock exchanges",
+  hisense_kelon: "A large Hisense subsidiary",
+  hisense_optoelectronics_technology_co_ltd: { definition: "Created as a joint venture between Hisense, Ligent Photonics Inc, et al", what_it_does: "", examples: "residential buildings, apartments, villas, townhouses, office buildings and large industrial parks" },
+  a_refrigerator_production_base: { definition: "In this industrial park", what_it_does: "", examples: "basketball , netball , dance sports, cycling , gymnastics and tennis" },
+
 };
 
 // ============================================================
