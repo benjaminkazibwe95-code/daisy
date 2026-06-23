@@ -25150,6 +25150,37 @@ const FLAT_DICT = {
   the_hiv_epidemic_in_nigeria: "Complex and varies widely by region",
   south_south: "The zone with the highest prevalence, at 3.1 percent",
 
+  // === INGESTED 2026-06-23 05:32 ===
+  it_is_mutually_understood_that_it: "To the advantage of the nations in the Commonwealth and therefore they join",
+  the_london_declaration: "Often seen as marking the beginning of the modern Commonwealth",
+  the_monarch: "Regarded as a separate legal personality in each realm, even though the same person is monarch of each realm",
+  british_trade_with_the_commonwealth: "Four times larger than its trade with Europe",
+  when_that_proposal: { definition: "Turned down, Mollet suggested that France join the Commonwealth, possibly with 'a common citizenship arrangement on the Irish basis '", what_it_does: "", examples: "China moved to invade Taiwan" },
+  chogm: "The successor to the Commonwealth Prime Ministers Meetings and, earlier, the Imperial Conferences and Colonial Conferences, dating back to 1887",
+  the_commonwealth_of_nations: { definition: "Represented in the United Nations General Assembly by the Secretariat as an observer", what_it_does: "", examples: "25 small island developing states" },
+  tuvalu: "The smallest member, with about 12,000 people in that year",
+  the_status: { definition: "Originally known as ' special membership ', but was renamed on the Committee on Commonwealth Membership 's recommendation", what_it_does: "", examples: "Commonwealth Heads of Government Meetings" },
+  suspended_members: "Not represented at meetings of Commonwealth leaders and ministers, although they remain members of the organisation",
+  commonwealth_membership: { definition: "Held to have lapsed until 1997, after discriminatory provisions in the republican constitution were repealed and reapplication for membership made", what_it_does: "", examples: "the Commonwealth Games" },
+  the_first_state_to_do_so: "Ireland in 1949 following its decision to declare itself a republic , although it had not participated in the Commonwealth since 1932",
+  nonsovereign_states_or_regions: "Not permitted to become members of the Commonwealth",
+  the_commonwealth: "Not a private club of the governments or the secretariat",
+  foreign_exchange_reserves: "Pooled in London, to be used to fight the war",
+  the_debt: "Held in the form of British government securities and became known as 'sterling balances'",
+  queen_elizabeth: { definition: "One of the few remaining links between the UK and the Commonwealth", what_it_does: "", examples: "Australia, others preferred the economic advantages brought by British access to the Common Market" },
+  admittance: "Open to all members of the Commonwealth, and in December 2008, stood at 46 out of the 53 member countries",
+  the_foundation: { definition: "Headquartered in Marlborough House , Pall Mall, London", what_it_does: "", examples: "bowls , netball , and rugby sevens" },
+  the_most_recent_edition_of_the_games: "Held in 2023 in Trinidad and Tobago",
+  the_cwgc: "Notable for marking the graves identically, regardless of the rank, country of origin, race, or religion of the buried",
+  col: "Helping developing nations improve access to quality education and training",
+  practitioner_to_practitioner_support: "At the core of CLGF's work across the Commonwealth and within the region, using CLGF's own members to support others both within and between regions",
+  clgf: "A member of the Global Taskforce of Local and Regional Governments, the formal partner of the UN Major Group of Local Authorities",
+  these_commonalities: "The result of the association's heritage, having developed out of the British Empire",
+  remembrance_day: { definition: "Commemorated across the Commonwealth", what_it_does: "", examples: "cricket , association football , rugby , field hockey and netball" },
+  the_lyrics_of_the_anthem: "Taken from the 1948 Universal Declaration of Human Rights",
+  it_found_that_most_people_in_these_countries: "Largely ignorant of the Commonwealth's activities, aside from the Commonwealth Games , and indifferent toward its future",
+  support_for_the_commonwealth: "Twice as high in developing countries as in developed countries; it was lowest in the United Kingdom",
+
 };
 
 // ============================================================
