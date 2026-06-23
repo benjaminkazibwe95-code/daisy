@@ -24850,6 +24850,14 @@ const FLAT_DICT = {
   such_measures: "Designed to mitigate the ecological impact of large-scale logistics and field operations",
   the_main_contributing_factors_to_this: "Major conflicts, economic shocks, and climate disasters",
 
+  // === INGESTED 2026-06-23 04:25 ===
+  the_condition_of_these_roads: "Until recently very poor, with numerous pot-holes and vehicles often driving on the dirt verges since these were deemed smoother than the road itself",
+  no_tickets: "Issued on this form of taxi",
+  a_motorbike_or_scooter: "Driven and a single passenger can hop on and off the back and pay the required fare",
+  the_buses: "Run by private companies and issue tickets in advance with a price set by the government",
+  most_coaches: "Run by Ritco , on which the government holds a share",
+  while_the_national_ones: "Typically unmarked, Kigali taxis have a yellow stripe running round the vehicle, on which is imprinted the start and end points of its route",
+
 };
 
 // ============================================================
