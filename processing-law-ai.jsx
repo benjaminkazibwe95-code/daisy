@@ -28051,6 +28051,26 @@ const FLAT_DICT = {
   let_us_assume_we: "Studying the properties of water in putting out a fire",
   wages_paid_to_labor: "Denoted by w and the rate of profit or the real interest rate is denoted by r",
 
+  // === INGESTED 2026-06-23 15:08 ===
+  now_the_experiment: "Controlled for the dilutant and the experimenter can distinguish between sweetener, dilutant, and non-treatment",
+  controls: "Most often necessary where a confounding factor cannot easily be separated from the primary treatments",
+  the_simplest_solution: "To have a treatment where a tractor is driven over plots without spreading fertilizer and in that way, the effects of tractor traffic are controlled",
+  a_confounder_is_an_extraneous_variable_that: "Related to both the independent variable (treatment or exposure) and the dependent variable (outcome), potentially distorting the true association",
+  if_confounding: "Not properly accounted for, researchers might incorrectly attribute an effect to the exposure when it is actually due to another factor",
+  negative_controls: "Increasingly used in the epidemiology literature, [ 6 ] but they show promise in social sciences fields [ 7 ] such as economics",
+  they_hypothesized_that_screening_participants: "Healthier than non-participants and, therefore, already at baseline have a lower risk of breast-cancer death",
+  death_from_causes_other_than_breast_cancer: "Taken as NCO, as it is an outcome of better health, not effected by breast cancer screening",
+  dental_care_participation: "Taken to be NCE, as it is assumed to be a good proxy of health attentive behavior",
+  some_improvement: "Expected in the placebo group due to the placebo effect , and this result sets the baseline upon which the treatment must improve upon",
+  the_exposure: "Maternal smoking; the outcomes were various birth factors, such as incidence of low birth weight, length of pregnancy, and neonatal mortality rates",
+  nco_is_a_variable_that: "Not causally affected by the treatment, but suspected to have a similar confounding mechanism as the treatment-outcome relationship",
+  if_the_study_design: { definition: "Valid, there should be no statistical association between the NCO and the treatment", what_it_does: "", examples: "Jackson et al" },
+  a_possible_confounding_mechanism: "Health status and lifestyle, such as the people who are more healthy in general also tend to take the influenza vaccine",
+  a_violation_of_irrelevancy_occurs_when_there: "A causal effect of A {\displaystyle A} on Y ~ {\displaystyle {\tilde {Y}}}",
+  positive_controls: "Often used to assess test validity",
+  the_wellestablished_test: { definition: "A positive control since we already know that the answer to the question (whether the test works) is yes", what_it_does: "should give a large amount of enzyme activity, while the negative control should give very low to no activity", examples: "" },
+  while_this_does_not_ensure_that_there: { definition: "No differences between the groups, it ensures that the differences are distributed equally, thus correcting for systematic errors", what_it_does: "", examples: "in experiments where crop yield is affected (e.g" },
+
 };
 
 // ============================================================
