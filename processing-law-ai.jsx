@@ -26408,6 +26408,27 @@ const FLAT_DICT = {
   the_rewritable_audio_cd: "Designed to be used in a consumer audio CD recorder, which will not (without modification) accept standard CD-RW discs",
   philips_has_stated_that_such_discs: "Not permitted to bear the trademarked Compact Disc Digital Audio logo because they violate the Red Book specifications",
 
+  // === INGESTED 2026-06-23 09:05 ===
+  insulin_pumps: "Used to deliver insulin on a continuous basis to a person with type I diabetes",
+  use_of_insulin_pumps: "Increasing because of: In the early 1960s, Dr",
+  the_pump: { definition: "A 60 kg bedside device", what_it_does: "", examples: "precise flow control and programmable delivery rates" },
+  the_implantable_device: { definition: "Tested in animal models and subsequently implanted in human patients beginning in January 1981, with additional implantations reported in early 1982", what_it_does: "", examples: "analysis of system design considerations such as flow control, programmability, and reliability" },
+  new_insulin_pumps: "Becoming 'smart' as new features are added to their design",
+  a_standard_bolus: "An infusion of insulin pumped completely at the onset of the bolus",
+  the_standard_bolus: "Most appropriate when eating high carb, low protein, low fat meals because it will return blood sugar to normal levels quickly",
+  an_extended_bolus: "A slow infusion of insulin spread out over time",
+  the_extended_bolus: "Also useful for those with slow digestion (such as with gastroparesis or coeliac disease )",
+  the_combination_bolus: "Appropriate for high carb high fat meals such as pizza, pasta with heavy cream sauce, and chocolate cake",
+  a_super_bolus: "A method of increasing the spike of the standard bolus",
+  the_super_bolus: "Useful for certain foods (like sugary breakfast cereals) which cause a large post-prandial peak of blood sugar",
+  a_prebolus: "Simply a bolus of insulin given before it is actually needed to cover carbohydrates eaten",
+  there_are_two_situations_where_a_prebolus: "Helpful: Similarly, a low blood sugar level or a low glycemic food might be best treated with a bolus after a meal is begun",
+  the_basal_rate_for_a_particular_time_period: "Determined by fasting while periodically evaluating the blood sugar level",
+  changes_in_blood_glucose_level: { definition: "Compensated with adjustments in the morning basal rate", what_it_does: "", examples: "sleeping late on the weekends or working overtime on a weekday" },
+  since_the_basal_insulin: "Provided as a rapid-acting insulin, the basal insulin can be immediately increased or decreased as needed with a temporary basal rate",
+  examples_when_this: "Helpful include: In August 2011, an IBM researcher, Jay Radcliffe, demonstrated a security flaw in insulin pumps",
+  radcliffe: "Able to hack the wireless interface used to control the pump remotely",
+
 };
 
 // ============================================================
