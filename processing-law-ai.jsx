@@ -24789,6 +24789,13 @@ const FLAT_DICT = {
   the_upper_levels: "Dry woodland typified by trees of the Brachystegia - Isoberlinia association; these areas are often called miombo country, after one of these trees",
   lower_areas_of_grass_and_thornbush_steppe: "Also common, and in Sukumaland there are large tracts of park steppe interspersed with baobabs",
 
+  // === INGESTED 2026-06-23 04:10 ===
+  the_first_speaker: "Appointed to replace the Governor as the Chairman of the Council in 1953",
+  the_office_of_speaker: "First occupied on 1 November 1953",
+  these_elections: "Part of the preparations being made to make Tanganyika an independent nation",
+  all_members_appointed_by_the_governor: "Abolished and the people of Tanganyika were allowed to elect all members of the Council",
+  the_changes_made_in_this_year: "Constitutionally necessary so as to allow the President of Tanganyika to give assent to all laws passed instead of the Queen of the United Kingdom",
+
 };
 
 // ============================================================
