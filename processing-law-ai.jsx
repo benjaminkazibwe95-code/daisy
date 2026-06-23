@@ -28409,6 +28409,12 @@ const FLAT_DICT = {
   a_solution_to_the_problem_of_reproducibility: { definition: "The attempt to require FAIR data , that is, data that is Findable, Accessible, Interoperable, and Reusable", what_it_does: "", examples: "that phenomena are discrete or are observer-independent" },
   the_term_datadriven: "A neologism applied to an activity that is primarily compelled by data over all other factors",
 
+  // === INGESTED 2026-06-23 16:15 ===
+  when_supply_and_demand: "Equal, a market clearing takes place",
+  a_shortage_indicates_that_buyers: "Interested in purchasing something, but need help to afford to do so at current prices",
+  this_adjustment_process: "Critical in ensuring that markets operate efficiently, promoting economic growth and stability",
+  a_similar_mechanism: { definition: "Believed to operate when there is a market surplus (glut), where prices fall until all the excess supply is sold", what_it_does: "", examples: "John Maynard Keynes , to doubt their classical faith" },
+
 };
 
 // ============================================================
