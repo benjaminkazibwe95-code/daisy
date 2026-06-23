@@ -24544,6 +24544,10 @@ const FLAT_DICT = {
   labialization_also: "A specific type of assimilatory process where a given sound become labialized due to the influence of neighboring labial sounds",
   note_that_labialized_palatal_clicks: "Not attested in Yeyi and are not reconstructed for Proto-Kxʼa",
 
+  // === INGESTED 2026-06-23 03:20 ===
+  the_use_of_ny: "Also proposed in an alternative Aragonese orthography , the grafía SLA devised in 2004 by the Sociedat de Lingüistica Aragonesa in 2004",
+  its_name: { definition: "Eny ( /ɛɲ/ ), and it represents the palatal nasal ( /ɲ/ )", what_it_does: "", examples: "Spain is called Spanyol (compare with España in Spanish )" },
+
 };
 
 // ============================================================
