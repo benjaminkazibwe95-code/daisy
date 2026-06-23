@@ -28185,6 +28185,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 15:31 ===
   a_larger_real_income: "More purchasing power, as it corresponds to the income itself",
 
+  // === INGESTED 2026-06-23 15:33 ===
+  land_itself: "Not included in the statistical concept of fixed capital, even though it is a fixed asset",
+  the_main_reason_is_that_land: "Not regarded as a product (a reproducible good)",
+  but_the_value_of_land_improvements: "Included in the statistical concept of fixed capital, is regarded as the creation of value-added through production",
+  a_pioneer_in_this_area: "The economist Simon Kuznets",
+  the_key_factor: "The estimate of 'economic service life '",
+  sometimes_depreciation_writeoffs: "Also viewed partly as compensation for this risk",
+
 };
 
 // ============================================================
