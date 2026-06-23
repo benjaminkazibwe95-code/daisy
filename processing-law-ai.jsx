@@ -30386,6 +30386,14 @@ const FLAT_DICT = {
   some_electricians: { definition: "Union members and work under their union's policies", what_it_does: "", examples: "trade associations as Associated Builders and Contractors and Independent Electrical Contractors" },
   an_auto_electrician: "A tradesperson specializing in electrical wiring of motor vehicles",
 
+  // === INGESTED 2026-06-23 23:40 ===
+  gladwell: "Drawn to writing about singular things after he discovered that 'they always made the best stories'",
+  the_pattern_of_words_for_counting_numbers: "More logical in Asian languages than western languages",
+  the_review_remarked_that_outliers: { definition: "Repetitive in parts, but that Gladwell eventually pulls the stories together into an overarching narrative", what_it_does: "", examples: "in the example: 'There is something profoundly wrong with the way we look at success" },
+  we_cling_to_the_idea_that_success: "A simple function of individual merit and that the world in which we grow up and the rules we choose to write as a society don't matter at all",
+  i_think_there: "A lot of truth in it [",
+  we_conclude_that_deliberate_practice: "Important, but not as important as has been argued'",
+
 };
 
 // ============================================================
