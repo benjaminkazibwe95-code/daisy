@@ -24838,6 +24838,10 @@ const FLAT_DICT = {
   glottalised_clicks: "Very common, and they are generally nasalised as well",
   the_backvowel_constraint: { definition: "Also triggered by labial clicks, though not by labial stops", what_it_does: "", examples: "[ǂi] involved a simple and quick transition" },
 
+  // === INGESTED 2026-06-23 04:21 ===
+  nearly_a_quarter_of_electricity_generated: "Lost because of poor transmission infrastructure",
+  demand_for_connection: "Growing at 10 to 15 percent annually",
+
 };
 
 // ============================================================
