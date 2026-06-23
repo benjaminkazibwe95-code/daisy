@@ -27910,6 +27910,10 @@ const FLAT_DICT = {
   there_is_evidence_that_archery: "Practiced during the Western Zhou dynasty",
   physical_fitness: "Culturally emphasized, with morning exercises such as qigong and tai chi widely practiced",
 
+  // === INGESTED 2026-06-23 14:47 ===
+  biotechnology_risk: { definition: "A form of existential risk from biological sources, such as genetically engineered biological agents", what_it_does: "", examples: "viral agents" },
+  one_risk_associated_with_gmos: { definition: "The possibility of horizontal gene transfer (HGT) of antibiotic resistance genes", what_it_does: "", examples: "virulence or toxicity" },
+
 };
 
 // ============================================================
