@@ -29581,6 +29581,14 @@ const FLAT_DICT = {
   the_eiti: "A result of the efforts of the PWYP campaigners",
   anonymous_companies: "A legal business practice but can be used for purposes such as laundering money from criminal activity, financing terrorism, or evading taxes",
 
+  // === INGESTED 2026-06-23 20:49 ===
+  the_eight_goals: { definition: "Measured by 21 targets", what_it_does: "", examples: "many adapted from the outcomes of previous conferences" },
+  the_goals: "Intended to increase an individual's human capabilities and 'advance the means to a productive life'",
+  the_mdgs: "Developed out of several commitments set forth in the Millennium Declaration , signed in September 2000",
+  a_major_conference: { definition: "Held at UN headquarters in New York on 20–22 September 2010 to review progress", what_it_does: "", examples: "Benin , are not on track to realize any" },
+  they_note_that_mdgs: "The most broadly supported poverty reduction targets in world history",
+  they_also_commented_that_the_process: { definition: "Driven by rich states rather than the countries that would be more the subject of MDG interventions", what_it_does: "", examples: "think tanks" },
+
 };
 
 // ============================================================
