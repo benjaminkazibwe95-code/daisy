@@ -29896,6 +29896,9 @@ const FLAT_DICT = {
   the_municipal_partnership: "Itself a new initiative that ensured wider civic co-operation",
   his_body: "Flown to Karachi on 15 October, where he was buried on the grounds of the OPP office compound",
 
+  // === INGESTED 2026-06-23 22:10 ===
+  the_second_rationale: { definition: "Consistent with its practical and economic goals", what_it_does: "", examples: "the International Baccalaureate have contributed to the internationalization of education" },
+
 };
 
 // ============================================================
