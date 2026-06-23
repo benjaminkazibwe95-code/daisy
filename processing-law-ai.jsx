@@ -24374,6 +24374,14 @@ const FLAT_DICT = {
   the_resulting_agreements: { definition: "Expected to be followed, and range from advice and warnings to compensation and exile", what_it_does: "", examples: "the Anabaptists (Mennonites/Amish), Quakers and Shakers" },
   conflicts: "Resolved by consensually agreed on arbitrators who are selected early in the negotiation process",
 
+  // === INGESTED 2026-06-23 02:45 ===
+  the_longest_copyright_term: { definition: "In Mexico, which has life plus 100 years for all deaths since July 1928", what_it_does: "", examples: "a CD, LP, or digital sound file" },
+  a_publicdomain_film_is_a_film_that: { definition: "Never under copyright, was released to public domain by its author, or whose copyright has expired", what_it_does: "", examples: "Tom Stoppard 's Rosencrantz and Guildenstern Are Dead and Troma Entertainment 's Tromeo and Juliet" },
+  the_museum_claimed_that_the_photos: { definition: "Taken by their staff, and that photography within the museum by visitors was prohibited", what_it_does: "", examples: "there is a perpetual crown copyright for the Authorized King James Version of the Bible" },
+  typically_the_royalties: { definition: "Directed to support of living artists", what_it_does: "", examples: "the Bible and the inventions of Archimedes are in the public domain" },
+  in_most_countries_that: "Signatories to the Berne Convention , copyright term is based on the life of the author, and extends to 50 or 70 years beyond the death of the author",
+  material_in_the_public_domain: "Still considered so when included as part of larger copyrighted creations",
+
 };
 
 // ============================================================
