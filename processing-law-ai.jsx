@@ -29589,6 +29589,16 @@ const FLAT_DICT = {
   they_note_that_mdgs: "The most broadly supported poverty reduction targets in world history",
   they_also_commented_that_the_process: { definition: "Driven by rich states rather than the countries that would be more the subject of MDG interventions", what_it_does: "", examples: "think tanks" },
 
+  // === INGESTED 2026-06-23 20:51 ===
+  the_grain_subsidy: "First introduced by Gaius Gracchus in 123 B.C., then further institutionalized by Julius Caesar and Augustus Caesar",
+  a_subsistence_allowance: "Financial help for a person or family in need, which provides minimal resources for everyday life (food, medicine, housing costs, etc.)",
+  the_minimum_guaranteed_income: "A selective financial benefit to ensure that all citizens enjoy a minimum standard of living and cover their basic needs",
+  modern_independent_india_developed_many: "And livelihood tested cash transfer programs through Direct Benefit Transfer at both the federal and the state level",
+  income_support: { definition: "Paid by the Norwegian Labour and Welfare Administration", what_it_does: "", examples: "food, clothing and footwear" },
+  ssi: "Created in 1974 to replace federal-state adult assistance programs that served the same purpose",
+  another_such_program: "Social Security Disability Insurance ( SSD or SSDI ), a payroll tax -funded, federal insurance program",
+  fap: { definition: "Intended to fix many of the problems of the AFDC, particularly the anti-work structure", what_it_does: "", examples: "the Seattle-Denver Income Maintenance Experiments" },
+
 };
 
 // ============================================================
