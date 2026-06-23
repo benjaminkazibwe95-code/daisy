@@ -25895,6 +25895,16 @@ const FLAT_DICT = {
   tftp: "First standardized in 1981 and the current specification for the protocol can be found in RFC 1350",
   for_systems_with_a_word_size_that: { definition: "A multiple of 8 bits, the implementation of binary and continuous is the same", what_it_does: "", examples: "rename , delete , upload , download , download with overwrite , and download with append )" },
 
+  // === INGESTED 2026-06-23 07:45 ===
+  incompatible_versions_of_html: "Offered by different vendors, causing inconsistency in how web pages are displayed",
+  subsequent_revisions_on_each_level: "Denoted by an integer following a decimal point (for example, CSS2.1 is Revision 1)",
+  a_wd_document: "The first form of a standard that is publicly available",
+  commentary_by_virtually_anyone: "Accepted, though no promises are made with regard to action on any particular element commented upon",
+  the_purpose_of_the_cr: "To elicit aid from the development community on how implementable the standard is",
+  the_standard: "Now endorsed by the W3C, indicating its readiness for deployment to the public, and encouraging more widespread support among implementers and authors",
+  the_list_of_members: "Available to the public",
+  many_guidelines_and_requirements: "Stated in detail, but there is no final guideline about the process or standards by which membership might be finally approved or denied",
+
 };
 
 // ============================================================
