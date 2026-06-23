@@ -24842,6 +24842,14 @@ const FLAT_DICT = {
   nearly_a_quarter_of_electricity_generated: "Lost because of poor transmission infrastructure",
   demand_for_connection: "Growing at 10 to 15 percent annually",
 
+  // === INGESTED 2026-06-23 04:23 ===
+  this_program: "Jointly administered by the U.S",
+  this_period: "Characterized by a global trend where the Sustainable Development Goal of 'Zero Hunger' (SDG 2) remained unmet",
+  this_stagnation: "Largely attributed to systemic economic shocks and the protracted effects of the COVID-19 pandemic",
+  wfp_and_fao_warned_that_famines: { definition: "Becoming foreseeable consequences of human action—or inaction—rather than inevitable disasters", what_it_does: "", examples: "data from the Multilateral Organisation Performance Assessment Network (MOPAN)" },
+  such_measures: "Designed to mitigate the ecological impact of large-scale logistics and field operations",
+  the_main_contributing_factors_to_this: "Major conflicts, economic shocks, and climate disasters",
+
 };
 
 // ============================================================
