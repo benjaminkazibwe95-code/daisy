@@ -23661,6 +23661,27 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 00:40 ===
   the_federal_research_program: "Run by the Federal Research Division (FRD), the fee-for-service research and analysis unit within the Library of Congress",
 
+  // === INGESTED 2026-06-23 00:42 ===
+  this_form_of_justice: { definition: "Common before the emergence of an arbitration system based on the state or organized religion", what_it_does: "", examples: "cowardice, desertion , insubordination , and mutiny" },
+  the_earliest_and_most_famous_example: "The Code of Hammurabi , which prescribed different punishments and compensation based on the classes or groups of victims and perpetrators",
+  homicide: "Thus a disease of the soul , which must be reeducated as much as possible, and, as a last resort, sentenced to death if no rehabilitation is possible",
+  corpses_of_the_crucified: "Typically left on the crosses to decompose and to be eaten by animals",
+  decapitation: "The method of execution prescribed for more serious crimes such as treason and sedition",
+  some_further_forms_of_capital_punishment: "Practiced in the Tang dynasty, of which the first two that follow at least were extralegal",
+  the_heads_of_the_executed: { definition: "Displayed on poles or spears", what_it_does: "", examples: "the Abbasid caliphs in Baghdad (most notably al-Mu'tadid ), were often cruel in their punishments" },
+  james_pratt_and_john_smith: "The last two Englishmen to be executed for sodomy in 1835",
+  the_kingdom_of_tahiti: "The first legislative assembly in the world to abolish the death penalty in 1824",
+  further_limitations: { definition: "Placed on the death penalty in Atkins v", what_it_does: "", examples: "the United Kingdom from 2004" },
+  countries_where_a_majority_of_people: "Against execution include Norway, where only 25% support it",
+  his_mother_was_one_of_the_guernsey_martyrs_who: { definition: "Executed for heresy, and his father had previously fled the island", what_it_does: "", examples: "for juveniles, abolished by 1849" },
+  a_majority_of_countries: { definition: "Also party to the U.N", what_it_does: "", examples: "the number of victims, brutality, and the social impact of the crimes" },
+  this_move: { definition: "Lauded by UNICEF as a welcome attempt to secure children's rights in the country", what_it_does: "", examples: "whipping and imprisonment of 30–40 years" },
+  capital_punishment_for_nonlethal_crimes: { definition: "Usually considerably more controversial and has been abolished in many of the countries that retain it", what_it_does: "", examples: "terrorism , massacre and genocide" },
+  such_a_monster: { definition: "Not encountered in private life", what_it_does: "", examples: "provisionally , in anticipation of an actual verdict" },
+  just_as_unreasonable: { definition: "It to think that to take the life of a man who has taken that of another is to show want of regard for human life", what_it_does: "", examples: "Iran and Saudi Arabia, still employ slow hanging methods, decapitation, and stoning" },
+  the_onus: "On the accused in all of the above situations to prove that they did not have or consume illegal drugs",
+  armenia: "The most recent country to ratify the protocol, on 19 October 2023",
+
 };
 
 // ============================================================
