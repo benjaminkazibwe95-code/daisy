@@ -26267,6 +26267,12 @@ const FLAT_DICT = {
   the_distinction_between_the_customers: "Achieved during application design, thus customers do not share or see each other's data",
   the_use_of_multitenancy: { definition: "Increasing day by day", what_it_does: "", examples: "operating systems and database management systems)" },
 
+  // === INGESTED 2026-06-23 08:38 ===
+  the_terms_parent_and_child: { definition: "Often used to describe the relationship between a subdirectory and the directory in which it is cataloged, the latter being the parent", what_it_does: "", examples: "/root for this purpose" },
+  folders: "Often depicted with icons that visually resemble physical file folders",
+  the_cache: { definition: "Typically implemented using fast lookup structures such as hash tables or radix trees, and may utilize aging algorithms such as LRU for cache eviction", what_it_does: "", examples: "Linux, BSD, Solaris, and macOS" },
+  these_dentries: { definition: "Organized in a tree structure that mirrors the directory hierarchy and are stored in memory as long as there is no memory pressure", what_it_does: "", examples: "complex setups with overlays or bind mounts" },
+
 };
 
 // ============================================================
