@@ -27302,6 +27302,13 @@ const FLAT_DICT = {
   between_meetings_it: "Guided by an executive meeting of the State Council which is held two to three times a month, and can be called at the discretion of the premier",
   the_ministry_of_agriculture_and_rural_affairs: "Supplemented with the nameplate of the National Rural Revitalization Administration",
 
+  // === INGESTED 2026-06-23 12:21 ===
+  smart: "A mnemonic acronym used to establish criteria for goals and objectives that are specific, measurable, assignable, realistic, and time-bound",
+  this_framework: "Commonly applied in fields such as project management , employee performance management , and personal development",
+  the_smart_acronym: "Linked to Peter Drucker 's management by objectives (MBO) concept, illustrating its foundational role in strategic planning and performance management",
+  criteria_he_proposes: "As follows: Doran clarifies that it's not always feasible to quantify objectives at all management levels, particularly for middle-management roles",
+  goals_and_objectives: "Key concepts in planning and project management",
+
 };
 
 // ============================================================
