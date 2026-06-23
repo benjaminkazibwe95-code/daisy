@@ -29306,6 +29306,28 @@ const FLAT_DICT = {
   the_result_was_that_thousands_of_businesses: "Forced to close, and they laid off workers",
   a_new_securities_and_exchange_commission: "Empowered to require corporations disclose all material information about their business to the investing public",
 
+  // === INGESTED 2026-06-23 19:42 ===
+  two_types_of_events: "Analyzed in risk management: risks and opportunities",
+  positive_risks: { definition: "Called opportunities", what_it_does: "", examples: "target fixation" },
+  when_either_source_or_problem: "Known, the events that a source may trigger or the events that can lead to a problem can be investigated",
+  the_identification_methods: { definition: "Formed by templates or the development of templates for identifying source, problem or event", what_it_does: "", examples: "damage or loss) and to the probability of occurrence" },
+  a_highway: "Widened to allow more traffic",
+  asset_valuation: "Another question that needs to be addressed",
+  in_business_it: "Imperative to be able to present the findings of risk assessments in financial, market, or schedule terms",
+  the_courtney_formula: "Accepted as the official risk analysis method for the US governmental agencies",
+  some_of_them_may_involve_tradeoffs_that: { definition: "Not acceptable to the organization or person making the risk management decisions", what_it_does: "", examples: "sprinklers are designed to put out a fire to reduce the risk of loss by fire" },
+  riskretention_pools: "Technically retaining the risk for the group, but spreading it over the whole group involves transfer among individual members of the group",
+  risk_retention: "A viable strategy for small risks where the cost of insuring against the risk would be greater over time than the total losses sustained",
+  all_risks_that: "Not avoided or transferred are retained by default",
+  this_includes_risks_that: "So large or catastrophic that either they cannot be insured against or the premiums would be infeasible",
+  implementation: "Executing all planned methods for mitigating the effects of risks",
+  managing_the_risks_which: "Accepted through entry into a contract",
+  the_evidence_of_its_application: "Required by most regulatory bodies such as the US FDA",
+  guidance_on_the_application_of_the_standard: "Available via ISO/TR 24971:2020",
+  one_popular_models_for_risk_assessment: "The Risk Assessment and Safety Management (RASM) Model developed by Rick Curtis, author of The Backpacker's Field Manual",
+  it_risk: "A risk related to information technology",
+  travel_risk_management: "Concerned with how organisations assess the risks to their staff when travelling , especially when travelling overseas",
+
 };
 
 // ============================================================
