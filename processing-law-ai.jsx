@@ -26667,6 +26667,12 @@ const FLAT_DICT = {
   the_intention_in_that_case: "To ensure that the person browsing is aware that there is no endorsement of the site being linked to by the site that was linked from",
   another_special_page_name: { definition: "'_top', which causes any frames in the current window to be cleared away so that browsing can continue in the full window", what_it_does: "", examples: "gambling illegal in the US) or infringing (e.g., illegal MP3 copies)" },
 
+  // === INGESTED 2026-06-23 09:53 ===
+  tco_recognises_that_ownership_costs: "Significantly greater than the cost of purchasing or acquiring a product",
+  a_tco_analysis: "Used to gauge the viability of any capital investment",
+  tco_analysis: "Popularized by the Gartner Group in 1987",
+  if_the_truck: "Financed, the TCO also varies according to the interest rate on the loan",
+
 };
 
 // ============================================================
