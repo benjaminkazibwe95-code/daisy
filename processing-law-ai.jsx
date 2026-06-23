@@ -27387,6 +27387,21 @@ const FLAT_DICT = {
   as_more_and_more_people: { definition: "Using the internet, social networking sites, or SNS, have become an increasingly popular tool used by companies to recruit and attract applicants", what_it_does: "", examples: "LinkedIn may charge for ancillary job-search-related services)" },
   in_some_companies_where_the_recruitment_volume: "High, it is common to see a multi-tier recruitment model where the different sub-functions are grouped together to achieve efficiency",
 
+  // === INGESTED 2026-06-23 12:48 ===
+  social_network_games: "Originally implemented as browser games",
+  traditionally_they: { definition: "Oriented to be social games and casual games", what_it_does: "", examples: "Pot Farm creating a community by involving elements of cannabis subculture in its gameplay" },
+  the_client_in_the_web_era: "Implemented with a mix of web technologies like Flash , HTML5 , PHP and JavaScript",
+  the_back_end: { definition: "A mix of programming languages and systems, including PHP , Ruby , C++ and go", what_it_does: "frequent feedback with their performance", examples: "" },
+  the_ways_of_gaining_gaming_capital: "Not limited to playing games but the games-related productive activities that are appreciated in the player's social circle too",
+  the_achievements: "Visible to their network of friends",
+  gaming_capitals: "A way for developers to increase replay value provides extended play time, and players get more value from the game",
+  gamers: "Forced to wait and return after their energy replenishes to continue playing",
+  videos: "The ad format with the most revenue per view",
+  video_ads: "Shown either in in-game interstitials (e.g",
+  when_the_game: { definition: "Loading a new screen) or through incentive-based advertising, i.e", what_it_does: "", examples: "branded in-game goods or even in-game quests" },
+  another_form_of_advertising_that: "Prevalent in many social games are lead generation offers",
+  cow_clicker: { definition: "Clearly designed to ridicule other social media games such as FarmVille , yet fifty-six thousand users played it at its peak", what_it_does: "", examples: "offers rewards whenever a user introduces the game to their friends" },
+
 };
 
 // ============================================================
