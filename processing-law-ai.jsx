@@ -24009,6 +24009,34 @@ const FLAT_DICT = {
   access_to_the_closed_stacks: "Not permitted under any circumstances, except to authorized library staff, and occasionally, to dignitaries",
   individuals: "Invited to apply for projects which would further the multi-faceted mission of the law library in serving the U.S",
 
+  // === INGESTED 2026-06-23 01:47 ===
+  the_term_herbal_tea: "Drinks not made from Camellia sinensis",
+  the_earliest_of_the_three_to_enter_english: "Cha , which came in the 1590s via the Portuguese, who traded in Macao and picked up the Cantonese pronunciation of the word",
+  chunks_of_tea: "Then boiled to drink, flavoured with orange peels, jujube , mint, ginger or scallion",
+  the_alubari_tea_garden: { definition: "Opened in 1856, and Darjeeling tea began to be produced", what_it_does: "", examples: "the polyphenols and amino acids" },
+  tea_infusions: "Among most consumed beverages globally",
+  leaves_that: { definition: "Slow in development tend to produce better-flavoured teas", what_it_does: "", examples: "Darjeeling tea is available as first flush (at a premium price), second flush, monsoon and autumn" },
+  the_four_biggest_teaproducing_countries: { definition: "China, India, Kenya and Sri Lanka, together representing 81% of world tea production", what_it_does: "", examples: "flower teas, may last only a month or so" },
+  this_darkening: "Stopped at a predetermined stage by heating, which deactivates the enzymes responsible",
+  tea_blending: "The combination of different teas together to achieve the final product",
+  flavoured_and_scented_teas: { definition: "Enhancements of the base tea", what_it_does: "", examples: "ginger , cloves , mint leaves , cardamom , bergamot (found in Earl Grey ), vanilla , and spearmint" },
+  hong_kongstyle_milk_tea: "Based on British habits",
+  the_order_of_steps_in_preparing_a_cup_of_tea: { definition: "A much-debated topic and can vary widely between cultures and individuals", what_it_does: "", examples: "a tea chest" },
+  the_loose_tea: "Individually measured for use, allowing for flexibility and flavour control at the expense of convenience",
+  tea_bricks_or_compressed_tea: "Produced for convenience in transport, storage, and ageing",
+  compressed_tea: "The most popular form of tea in China during the Tang dynasty",
+  instant_tea: { definition: "Developed in the 1930s, with Nestlé introducing the first commercial product in 1946, while Redi-Tea debuted instant iced tea in 1953", what_it_does: "", examples: "chai , vanilla, honey or fruit, are popular, as is powdered milk" },
+  the_first_bottled_tea: { definition: "Introduced by an Indonesian tea company, PT", what_it_does: "", examples: "the tea party" },
+  one_form_of_chinese_tea_ceremony: "The Gongfu tea ceremony , which typically uses small Yixing clay teapots and oolong tea",
+  afternoon_tea_with_cakes_on_fine_porcelain: { definition: "A cultural stereotype", what_it_does: "", examples: "Irish breakfast tea , using Rwandan, Kenyan and Assam teas" },
+  tea_in_ireland: "Usually taken with milk or sugar and brewed longer for a stronger taste",
+  social_gatherings: "Considered incomplete without tea, which was traditionally brewed in a samovar",
+  the_popular_green_tea: "Often served after every meal in the Pashtun belt of Balochistan and in Khyber Pakhtunkhwa",
+  pickled_tea: "Usually eaten with roasted sesame seeds, crispy fried beans, roasted peanuts and fried garlic chips",
+  these_teas: { definition: "Both rare and expensive and can be compared to some of the most expensive wines in this respect", what_it_does: "", examples: "Rainforest Alliance , Fairtrade , UTZ Certified , and Organic" },
+  fairtrade_certified_tea: "Sold by a large number of suppliers around the world",
+  utz_certified_tea: { definition: "Sold by Pickwick tea", what_it_does: "", examples: "Africa and Southeast Asia" },
+
 };
 
 // ============================================================
