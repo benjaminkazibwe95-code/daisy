@@ -29386,6 +29386,12 @@ const FLAT_DICT = {
   the_range_is_so_broad_that_scholarly_consensus: { definition: "Difficult to discern", what_it_does: "", examples: "marginal farming or the informal economy" },
   although_multinationals: "Primarily driven by profit, Krugman argued that the main beneficiaries are not capital owners but workers in developing countries",
 
+  // === INGESTED 2026-06-23 19:57 ===
+  the_expression_terms_of_trade: "First coined by the US American economist Frank William Taussig in his 1927 book International Trade",
+  when_this_number: "Falling, the country is said to have 'deteriorating terms of trade'",
+  terms_of_trade: "The ratio of a country's export price index to its import price index, multiplied by 100",
+  the_laspeyre_export_index: "The current value of the base period exports divided by the base period value of the base period exports",
+
 };
 
 // ============================================================
