@@ -26745,6 +26745,21 @@ const FLAT_DICT = {
   if_the_page: { definition: "Not loaded in memory at the time of the fault, then the fault is major , or hard", what_it_does: "", examples: "those caused by overclocking , may corrupt pointers and cause valid code to fail" },
   if_the_memory_access_time: { definition: "0.2 μs, then the page fault would make the operation take about 40,000 times as long", what_it_does: "", examples: "implementing heuristic algorithms to reduce the incidence of page faults" },
 
+  // === INGESTED 2026-06-23 10:05 ===
+  if_these_operation_punch_cards: { definition: "Saved for reuse then 'by degrees the engine would have a library of its own", what_it_does: "", examples: "system parameters, also became common" },
+  static_linking: "Linking at build time , such that the library executable code is included in the program",
+  dynamic_linking: "Linking at run time ; it involves building the program with information that supports run-time linking to a dynamic link library (DLL)",
+  smart_linking: "Performed by a build tool that excludes unused code in the linking process",
+  some_references_in_a_program_or_library_module: "Stored in a relative or symbolic form which cannot be resolved until all code and libraries are assigned final static addresses",
+  relocation: { definition: "The process of adjusting these references, and is done either by the linker or the loader", what_it_does: "", examples: "in C , a library function is invoked via C's normal function call syntax and semantics" },
+  a_static_library_is_an_executable_library_that: "Linked into a program at build-time by a linker (or whatever the build tool is called that does linking)",
+  a_dynamic_library_is_linked_when_the_program: "Run – either at load-time or runtime",
+  the_dynamic_library: { definition: "Intended after the static library to support additional software deployment flexibility", what_it_does: "", examples: "COM /DCOM, SOM /DSOM, DOE , PDO and various CORBA -based systems" },
+  the_object_library_technology: { definition: "Developed since as OOP became popular, it became apparent that OOP runtime binding required information than contemporary libraries did not provide", what_it_does: "", examples: "data storage and processing" },
+  most_class_libraries: { definition: "Stored in a package repository (such as Maven Central for Java)", what_it_does: "", examples: "a Maven Pom in Java)" },
+  a_significant_downside: "That each library call entails significantly more overhead than for a local library",
+  they_also: { definition: "Used to intercept field access", what_it_does: "", examples: "/lib , /usr/lib and /usr/local/lib" },
+
 };
 
 // ============================================================
