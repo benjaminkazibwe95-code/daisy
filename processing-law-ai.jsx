@@ -26896,6 +26896,10 @@ const FLAT_DICT = {
   most_features: { definition: "Present for IA-32, x86-64, z/Architecture, ARM, and PowerPC", what_it_does: "", examples: "Google Chrome / Chromium , Firefox , Microsoft Edge , Apple Safari or WAVM" },
   lld: "Faster than both flavors of GNU ld",
 
+  // === INGESTED 2026-06-23 10:38 ===
+  qtopia: { definition: "An application platform for Linux -based devices such as mobile phones, portable media players, and home media", what_it_does: "", examples: "medical instruments and industrial devices" },
+  the_main_goal_of_the_acquisition: { definition: "To strengthen Digia's position in the Qt ecosystem and expand the availability of Qt technology across a growing number of platforms", what_it_does: "", examples: "data structures and a networking library" },
+
 };
 
 // ============================================================
