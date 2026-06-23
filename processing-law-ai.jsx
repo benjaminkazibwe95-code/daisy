@@ -28353,6 +28353,14 @@ const FLAT_DICT = {
   this_conversation_between_helmholtz_and_jevons: "A microcosm of an ongoing debate between truth and perception in the wake of the introduction of non-Euclidean geometry in the late 19th century",
   travelling_and_music: "The principal recreations of his life; but his health continued to be bad, and he suffered from depression",
 
+  // === INGESTED 2026-06-23 15:58 ===
+  the_natural_rate_of_unemployment: "The name that was given to a key concept in the study of economic activity",
+  this_level: "Consistent with aggregate production in the absence of various temporary frictions such as incomplete price adjustment in labor and goods markets",
+  the_natural_unemployment_rate: "Mainly determined by the economy's supply side , and hence production possibilities and economic institutions",
+  implicit_in_his_vision: "The notion that the natural rate is Unique : there is only one level of output and employment that is consistent with equilibrium",
+  friedman_argued_that_inflation: "The same as wage rises, and built his argument upon a widely believed idea, that a stable negative relation between inflation and unemployment existed",
+  that_this_should_be_the_case_because_inflation: "Higher appeared to rely on systematic irrationality in the labor market",
+
 };
 
 // ============================================================
