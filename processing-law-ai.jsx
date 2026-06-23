@@ -24503,6 +24503,36 @@ const FLAT_DICT = {
   a_frequent_informal_use: "The elision of d in the past participle suffix -ado , pronouncing cansado as cansao",
   the_elision_of_d_in_ido: "Considered even more informal, but both elisions common in Andalusian Spanish",
 
+  // === INGESTED 2026-06-23 03:12 ===
+  the_madrasas: { definition: "A specific educational institution, with their own funding and curricula, in contrast with the Enderun palace schools attended by Devshirme pupils", what_it_does: "", examples: "Urdu , Pashto , Baluchi , Persian , Turkish , Azeri , Kurdish , Indonesian , Somali and Bosnian" },
+  ubada_ibn_assamit: "Appointed there by Muhammad as teacher and among the students",
+  the_first_part_of_madrasabased_education: "Dated from the first day of ' nabuwwat ' to the first portion of the Umayyad Caliphate",
+  the_first_ottoman_medrese: { definition: "Created in İznik in 1331, when a converted church building was assigned as a medrese to a famous scholar, Dâvûd of Kayseri", what_it_does: "", examples: "requires approximately twelve years of study" },
+  an_important_function_of_the_madrasas: { definition: "To admit orphans and poor children in order to provide them with education and training", what_it_does: "", examples: "logic , mathematics and philosophy" },
+  as_the_mosque: "A starting ground for religious discourse in the Islamic world, these madrasas became more common",
+  since_the_focus_of_theology_and_legal_study: { definition: "Utmost, specified law schools began their own development", what_it_does: "", examples: "Abd al-Latif who was an expert in medicine, grammar, linguistics, law, alchemy, and philosophy" },
+  the_primary_function_for_these_institutions: "To train and prepare workers for bureaucratic work as well as the judicial system",
+  madrasas: "Often subsidized and founded by states or private individuals, and well-qualified teachers filled in the role for professors",
+  this_process_of_scholarly_research: { definition: "Called ijtihād , literally, the exertion of one's efforts to the utmost limit", what_it_does: "", examples: "of the 155 madrasa colleges in 15th century Damascus, three of them were medical schools" },
+  these_educators: "Provided with places to live inside the madrasas",
+  the_attraction_of_the_educational_institution: "That it provided free education for everyone in attendance",
+  further_evidence_of_this: "Illustrated by al-Sakhawi",
+  this_license: "Very extensive, allowing him to teach religious, philosophical, and even medical texts like Ibn Sina's first book in his Canon of Medicine",
+  there_are_many_more_examples_of_this_that: { definition: "Not listed on this page, but can easily be found", what_it_does: "", examples: "economics, engineering, medicine, and agriculture" },
+  but_neither_universities_nor_courts: "Beyond the reach of the Inquisition , which is another point that he seems to neglect",
+  female_education_in_the_islamic_world: "Inspired by Muhammad's wives , such as Khadijah , a successful businesswoman, and 'A'isha, a strong leader and interpreter of the Prophet's actions",
+  girls: "Expected to wear veils over their faces and cover their entire bodies as a means of dressing modestly by cultural standards",
+  classrooms_and_hallways: { definition: "Separated by gender in order to prevent fraternization", what_it_does: "", examples: "Jerusalem's Tankiziyya , Arghūniyya , Ṭashtamuriyya , Muzhiriyya , [ 136 ] and Damascus's Ẓāhirīyah" },
+  examples_of_ottoman_madrasas: "The ones built by Muhammad the Conqueror",
+  inalck_also_mentions_that_even_philosophy: { definition: "Only allowed to be studied so that it helped to confirm the doctrines of Islam", what_it_does: "", examples: "Italy and Spain in Europe, the Ottoman social life was interconnected with the medrese" },
+  the_first_two_categories: "Commonly called Qawmi or non-government madrasas",
+  although_madrasas: "Free they do provide adequate education for their students",
+  the_jamiatulmadina: "Also known as Faizan-e-Madina",
+  these_private_madrasas: { definition: "Found throughout Davao Region , Soccsksargen and the Autonomous Region in Muslim Mindanao (ARMM)", what_it_does: "", examples: "modern science, as practiced by the Taliban" },
+  this_stereotype: { definition: "Even further accentuated following the events of 9/11", what_it_does: "", examples: "would justify us in associating them with medieval universities in the West" },
+  many_of_the_students: "Well advanced in years",
+  the_ijaza: "A personal matter, the sole prerogative of the person bestowing it; no one could force him to give one",
+
 };
 
 // ============================================================
