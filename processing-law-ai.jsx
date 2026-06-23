@@ -30041,6 +30041,10 @@ const FLAT_DICT = {
   open_access: { definition: "Online research outputs that are free of all restrictions to access and free of many restrictions on use (e.g", what_it_does: "", examples: "MIT , provide freely available course content, such as lecture notes, video resources and tutorials" },
   open_content: "A free way of obtaining higher education that is 'focused on collective knowledge and the sharing and reuse of learning and scholarly content",
 
+  // === INGESTED 2026-06-23 22:40 ===
+  the_kitchen: "Responsible for feeding the staff and officers, as well as the students, travelers and the poor",
+  this_funding_or_endowments: "'raised by public subscription, including the gift of various properties, ranging from entire estates to a mill or cottage'",
+
 };
 
 // ============================================================
