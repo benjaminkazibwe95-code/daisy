@@ -24414,6 +24414,13 @@ const FLAT_DICT = {
   the_kameez: { definition: "A long shirt or tunic", what_it_does: "", examples: "chikankari ; and typically falls to either just above or just below the wearer's knees" },
   the_traditional_shalwar_kameez: { definition: "Rarely worn by younger urban women, who favour churidars or jeans", what_it_does: "", examples: "Kalarippayattu and marma adi remain popular" },
 
+  // === INGESTED 2026-06-23 02:58 ===
+  one_common_objection: "That the Hamitic component inaccurately suggests that a monophyletic 'Hamitic' branch exists alongside Semitic",
+  the_five_that_are_universally_agreed_upon: { definition: "Berber (also called 'Libyco-Berber'), Chadic , Cushitic , Egyptian , and Semitic", what_it_does: "", examples: "Hebrew), as well as the Ethiopian Semitic languages such as Geʽez and Amharic" },
+  this_family: { definition: "Formally described and named 'Semitic' by August Ludwig von Schlözer in 1781", what_it_does: "", examples: "skin color, hair type, and lifestyle" },
+  a_widely_attested_feature_in_aa_languages: { definition: "A consonantal structure into which various vocalic 'templates' are placed", what_it_does: "", examples: "verbal extensions ) were then added and lexicalized" },
+  gemination_in_particular: { definition: "One of the typical features of AA", what_it_does: "", examples: "genitive, dative, locative, etc" },
+
 };
 
 // ============================================================
