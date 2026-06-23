@@ -27933,6 +27933,31 @@ const FLAT_DICT = {
   the_proposition: { definition: "Rejected by a 53.7% majority", what_it_does: "", examples: "at Monsanto" },
   activists_objected_that_some_of_the_seeds: "Coated with the fungicides Maxim or thiram",
 
+  // === INGESTED 2026-06-23 14:53 ===
+  several_companies: "Formed to develop related drugs and research tools",
+  tomatoes: "Genetically modified for around five times the normal amount of possibly calming [ 48 ] GABA",
+  many_online_tools: { definition: "Available to aid in designing effective sgRNA sequences", what_it_does: "", examples: "a portion of a phage genome) that previously infected the cell" },
+  the_target_sequence: "20 bases long as part of each CRISPR locus in the crRNA array",
+  minimizing_offtarget_effects: { definition: "Thus maximizing the safety of the system", what_it_does: "", examples: "light or small molecules" },
+  this_genetic_perturbation: "Necessary for fully understanding gene function and epigenetic regulation",
+  depletion_or_enrichment_of_sgrnas: { definition: "Detected and compared to the original sgRNA library, annotated with the target gene that sgRNA corresponds to", what_it_does: "", examples: "Down syndrome and intersex disorders" },
+  orthogonal_crispr_experiments: "Often recommended to confirm the results of a gene editing experiment",
+  the_cysts: "Capable of reaching macroscopic dimensions, up to one centimeter in diameter",
+  casgevy: "The first FDA approved gene therapy to use the CRISPR-Cas9 technology and works by modifying a patient's hematopoietic stem cells",
+  this_was_significant_because_it: "The first ever gene-edited therapy for diabetes that approached clinics",
+  one_issue_with_this_approach: { definition: "That it requires the removal of the HIV genome from almost all cells, which can be difficult to realistically achieve", what_it_does: "", examples: "transposons , bacteriophages , and plasmids" },
+  dosing_of_the_new_cohorts: { definition: "Expected to be completed by July 2022", what_it_does: "", examples: "heart failure, hindrance of blood vessels, defects in growth and optical problems" },
+  enough_liver_cells: "Repaired to alleviate the symptoms of heamophilia in these mice",
+  grain_yield_in_cereal_crops: { definition: "Influenced by levels of the plant hormone cytokinin", what_it_does: "", examples: "improvements to physical appearance, flavor and aroma, texture, shelf life, and nutritional content" },
+  the_role_of_crispr_in_gene_therapy: "To substitute exogenous DNA in place of defective genes",
+  the_mutations: { definition: "Directly installed in cellular DNA so that the donor template is not required", what_it_does: "", examples: "cell damage that leads to cell death" },
+  one_example_of_a_coupled_technology: "SHERLOCK-based Profiling of IN vitro Transcription (SPRINT)",
+  the_targeted_site: { definition: "Methylated, epigenetically modifying the gene", what_it_does: "", examples: "potential off-target mutations in RNA − are transient and are not inherited" },
+  rna_editing: { definition: "Therefore considered to be less risky", what_it_does: "", examples: "molecular, reproductive, and ecological" },
+  crispr_edits: "Generally inefficient, fairly error-prone, and can lack target specificity, which are significant problems for using the technology in medicine",
+  prime_editing: { definition: "Developed by researchers at the Broad Institute of MIT and Harvard in Massachusetts", what_it_does: "", examples: "labs in the US, China, and the UK, as well as US biotechnology company OvaScience" },
+  the_researchers_stated_that_crispr: "Not ready for clinical application in reproductive medicine",
+
 };
 
 // ============================================================
