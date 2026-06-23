@@ -26740,6 +26740,11 @@ const FLAT_DICT = {
   entry_consistency: "When a process enters a critical section, it will automatically update the values of the shared variables",
   viewbased_consistency: "A variant of entry consistency, except the shared variables of a critical section are automatically detected by the system",
 
+  // === INGESTED 2026-06-23 10:03 ===
+  this_could_happen_if_the_memory: "Shared by different programs and the page has already been brought into memory for another program",
+  if_the_page: { definition: "Not loaded in memory at the time of the fault, then the fault is major , or hard", what_it_does: "", examples: "those caused by overclocking , may corrupt pointers and cause valid code to fail" },
+  if_the_memory_access_time: { definition: "0.2 μs, then the page fault would make the operation take about 40,000 times as long", what_it_does: "", examples: "implementing heuristic algorithms to reduce the incidence of page faults" },
+
 };
 
 // ============================================================
