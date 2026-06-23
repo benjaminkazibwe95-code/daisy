@@ -28103,6 +28103,23 @@ const FLAT_DICT = {
   subjects_in_an_experiment: { definition: "Told that they can produce a 'commodity' at a cost and then sell it to buyers", what_it_does: "", examples: "altruism influence economic behavior" },
   some_of_these_contributions: "Used in Neuroeconomics Lab [ 30 ] books published by Academic Press (2014)",
 
+  // === INGESTED 2026-06-23 15:20 ===
+  though_both_of_his_grandmothers: "Czech , Schumpeter did not acknowledge his Czech ancestry",
+  his_resignation: { definition: "A condition of the takeover of the Biedermann Bank in September 1924", what_it_does: "", examples: "by his Harvard student and protégé Paul Samuelson" },
+  this_is_the_reason_why_gold: "So unpopular now and also why it was so popular in a bourgeois era",
+  the_entrepreneur_disturbs_this_equilibrium_and: { definition: "The prime cause of economic development, which proceeds cyclically along with several time scales", what_it_does: "", examples: "a whole range of institutions for granting credit" },
+  he_argued_this: "Unrealistic, and that people's ignorance and superficiality meant that they were largely manipulated by politicians, who set the agenda",
+  his_fundamental_theories: "Often referred to [ 57 ] as Mark I and Mark II",
+  his_treatise_on_how_business_cycles_developed: "Based on Kondratiev's ideas which attributed the causes very differently",
+  the_process_of_technological_innovation: "Extremely complex relations among a set of key variables: inventions, innovations, diffusion paths, and investment activities",
+  new_inventions: "Typically primitive, their performance is usually poorer than existing technologies and the cost of their production is high",
+  the_speed_with_which_inventions: "Transformed into innovations and diffused depends on the actual and expected trajectory of performance improvement and cost reduction",
+  these_temporary_monopolies: "Necessary to provide the incentive for firms to develop new products and processes",
+  the_creation_of_the_report: "Credited in part to his work",
+  his_best_man_at_the_wedding: "The Austrian jurist Hans Kelsen",
+  his_second: "To Anna Reisinger, 20 years his junior and daughter of the concierge of the apartment where he grew up",
+  robert_heilbroner: { definition: "One of Schumpeter's most renowned pupils, who wrote extensively about him in The Worldly Philosophers", what_it_does: "", examples: "economic policy, management studies, industrial policy, and the study of innovation" },
+
 };
 
 // ============================================================
