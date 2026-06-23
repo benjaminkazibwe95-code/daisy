@@ -30337,6 +30337,23 @@ const FLAT_DICT = {
   artemis_is_a_nuclease_and: "Thought to be required only for repair of DSBs with damaged ends, whereas DNA Ligase IV and XLF are required for all NHEJ events",
   the_decline: "1.8 to 3.8-fold, depending on the tissue, in the 5-month-old compared to the 24-month-old mice",
 
+  // === INGESTED 2026-06-23 23:32 ===
+  neural_adaptation_or_sensory_adaptation: { definition: "A gradual decrease over time in the responsiveness of the sensory system to a constant stimulus", what_it_does: "", examples: "if a hand is rested on a table, the table's surface is immediately felt against the skin" },
+  the_sensory_neurons_that_initially_respond: "No longer stimulated to respond; this is an example of neural adaptation",
+  adaptation_of_cortical_responses: "Stronger and recovered more slowly",
+  an_example_of_this_phenomenon: "When a ball appears to be getting smaller and smaller, the mind will then infer that the ball is moving away from them",
+  his_brain: "Able to adapt to the change and perceive the world as normal",
+  all_of_the_pilots_that: { definition: "Fitted with the goggles that altered their vision were able to safely navigate the aircraft with ease", what_it_does: "", examples: "a quiet countryside, that individual would then be aware of the silence, crickets, etc" },
+  the_human_brain_can_distinguish_smells_that: "Unfamiliar to the individual, while adapting to those it is used to and no longer require to be consciously recognized",
+  an_unfamiliar_piece_of_clothing_that: { definition: "Just put on will be noticed instantly; however, once it has been worn for a while, the mind will adapt to its texture and ignore the stimulus", what_it_does: "", examples: "type I/group Aβ display adaptation, smaller type IV/group C nociceptive neurons do not" },
+  studies_have_shown_that_there: "Neural adaptation after as little as one weight training session",
+  strength_gains: "Experienced by subjects without any increased muscle size",
+  neural_adaptation: "Often critical for an animal's survival after an injury",
+  when_the_brain_recognizes_that_the_body: "Walking uphill, it makes neural adaptations that send more activity to muscles required for uphill walking",
+  the_rate_of_neural_adaptation: "Affected by the area of the brain and by the similarity between sizes and shapes of previous stimuli",
+  adaptations_in_the_prefrontal_cortex: { definition: "Less dependent on previous stimuli being of similar size and shape", what_it_does: "", examples: "respiratory movements, are essential for survival" },
+  since_breathing_rates: "Not conscious changes made by the animal, it is presumed that neural adaptations occur for the body to maintain a slower breathing rate",
+
 };
 
 // ============================================================
