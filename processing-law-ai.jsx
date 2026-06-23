@@ -23524,6 +23524,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 00:17 ===
   the_comoran_government: "Given 'until May 4 to send a file documenting its extradition request'",
 
+  // === INGESTED 2026-06-23 00:19 ===
+  ben_bella: { definition: "A strong advocate for Pan-Africanism and African Unity", what_it_does: "", examples: "the Black Panthers" },
+  the_most_popular_is_ubongo_which: "Africa's largest manufacturer of educational content for children and uses shows such as Akil and Me to help Africa's youth improve literacy outcomes",
+  this_colour_combination: "Originally adopted from the 1897 flag of Ethiopia , and was inspired by the fact that Ethiopia is the continent's oldest independent nation",
+  pan_africanism: "A movement of a self-interested class",
+  another_criticism_of_panafricanism_is_that_it: { definition: "Irrelevant for contemporary issues affecting postcolonial Africa, and it is thus 'stuck in the past'", what_it_does: "", examples: "colonialism in order to maintain its relevance and legitimacy" },
+  organization_whose_focus: "On providing pertinent and up-to-date information about Pan-Africanism across the United States, particularly to African Americans",
+  the_caa: { definition: "Hopeful that, following World War II , there would be a move towards Third World independence under the trusteeship of the United Nations", what_it_does: "", examples: "Robeson, W" },
+  the_emphasis_in_the_historical_narrative: "On African agents, as opposed to non-African agents",
+
 };
 
 // ============================================================
