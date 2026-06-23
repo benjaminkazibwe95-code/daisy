@@ -29980,6 +29980,21 @@ const FLAT_DICT = {
   command_verbs_in_spanish: { definition: "Conjugated differently depending on who the command is being given to", what_it_does: "", examples: "the mnemonics technique" },
   delayed_recall_of_a_word_list: "Assessed prior to, and immediately following mnemonic training, and at the 5-year follow-up",
 
+  // === INGESTED 2026-06-23 22:23 ===
+  the_main_ways: { definition: "Business-to-consumer and business-to-business", what_it_does: "", examples: "prayer , music , dance , singing , chanting , poetry , writing , sports and martial arts" },
+  sincere_worship_of_allah: { definition: "The foundation for self-discovery and self-development", what_it_does: "", examples: "staying away from things of the world" },
+  it_does_not_mean_worldly_success: { definition: "Inherently disruptive but can become so when spiritual beliefs do not align with the Sunnah", what_it_does: "", examples: "communist ideas of citizenship and capitalist conceptions of human capital" },
+  the_first_idea_is_the_ideal_self_which: "The person we want to be",
+  the_second_one_is_the_real_self_which: "The objective view of one self and who we really are",
+  rogers_emphasized_that_healthy_development: "When the real self and the ideal self are accurate",
+  incongruence: "What Rogers described to be when the real self and the ideal self are not accurate in their viewings",
+  the_first_is_hedonic_wellbeing_which: "The pursuit of pleasurable experiences that lead to increased personal happiness",
+  the_second_is_eudaimonic_wellbeing_which: "Living life by making choices that are congruent with authentic being",
+  once_repressed_memories_and_emotions: { definition: "Discovered, an individual can sift through them and receive healthy closure", what_it_does: "", examples: "a person may feel intense anger but would still behave in a positive manner" },
+  successive_approximation: "When one desires a final result but takes incremental steps to achieve the result",
+  it_includes_multiple_definitions_but: "Different from self knowledge",
+  selfawareness: "More in depth and explores the conscious and unconscious aspects of ourselves",
+
 };
 
 // ============================================================
