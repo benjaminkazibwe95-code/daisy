@@ -23810,6 +23810,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 01:07 ===
   the_first_chancellor_of_iuea: "Emmanuel Tumusiime-Mutebile , who was Governor of the Bank of Uganda , the national Central Bank",
 
+  // === INGESTED 2026-06-23 01:09 ===
+  the_coordinates_of_the_school: "0°19'14.0'N, 32°33'42.0'E (Latitude:0.320556; Longitude:32.561667)",
+  her_students: "Mainly youth who came to her house for prayers every afternoon",
+  most_of_the_boys_chadwick_taught: "Houseboys of the missionaries",
+  the_first_school_building: "A reed-walled structure, with a grass-thatched roof",
+
 };
 
 // ============================================================
