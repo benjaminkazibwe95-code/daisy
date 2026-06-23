@@ -29468,6 +29468,27 @@ const FLAT_DICT = {
   francesco_stipo: "Born in Rome , Italy , in 1973",
   the_authority_of_the_world_government: "Shared with the Member States, in a way that both are sovereign within their respective sphere of competence",
 
+  // === INGESTED 2026-06-23 20:18 ===
+  the_early_harappan_cultures: { definition: "Populated from Neolithic cultures, the earliest and best-known of which is named after Mehrgarh , in Balochistan , Pakistan", what_it_does: "", examples: "Balakot ( Kot Bala ), [ 39 ] and on islands, for example, Dholavira" },
+  a_considerable_number: { definition: "Carted away as track ballast for the railway lines being laid in the Punjab", what_it_does: "", examples: "Ahmad Hasan Dani" },
+  another_town_of_this_stage: { definition: "Found at Kalibangan in India on the Hakra River", what_it_does: "", examples: "lapis lazuli and other materials for bead-making" },
+  found_at_one_city: "An enormous well-built bath (the ' Great Bath '), which may have been a public bath",
+  although_the_citadels: "Walled, it is far from clear that these structures were defensive; many may have been flood defences",
+  materials_from_distant_regions: "Used in the cities for constructing seals, beads and other objects",
+  among_the_artefacts_discovered: { definition: "Beautiful glazed faïence beads", what_it_does: "", examples: "the yet un-deciphered writing system of the Indus Valley Civilisation" },
+  some_of_the_seals: "Used to stamp clay on trade goods",
+  although_some_houses: { definition: "Larger than others, Indus Valley Civilisation cities were remarkable for their apparent, if relative, egalitarianism", what_it_does: "", examples: "Scanning Electron Microscopy (SEM), to understand production, consumption, and trade in copper ore" },
+  indus_bronze: "Alloyed with tin , arsenic and lead",
+  he_studied_how_copper: "Acquired, processed, and used for diverse items, such as tools and prestige goods",
+  the_aravalli_range_in_northwestern_india: { definition: "Particularly important", what_it_does: "", examples: "the measurement of mass as revealed by their hexahedron weights" },
+  some_of_these_crafts: "Still practised in the subcontinent today",
+  it_became_apparent_that_indian_independence: "Approaching, but the Partition of India was not anticipated until late in the process",
+  most_of_these_boats: "Probably small, flat-bottomed craft, perhaps driven by sail, similar to those one can see on the Indus River today",
+  several_representations_of_ships: { definition: "Found on seals and graffiti at Harappa, Mohenjo-daro (Figs", what_it_does: "", examples: "overland traffic by peddlers or caravans, may account for their presence at Susa" },
+  zebu_cattle: { definition: "Still common in India, and in Africa", what_it_does: "", examples: "cattle, buffalo, goat, pig and chicken" },
+  the_harappan_script: { definition: "Yet undeciphered, indeed it has not even been demonstrated to be a writing system, and therefore the language remains unknown", what_it_does: "", examples: "Meluhha ), in conjunction with analyses of the Harappan script" },
+  bet_dwarka: { definition: "Fortified and continued to have contacts with the Persian Gulf region, but there was a general decrease of long-distance trade", what_it_does: "", examples: "stone weights and female figurines became rare" },
+
 };
 
 // ============================================================
