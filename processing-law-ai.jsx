@@ -30153,6 +30153,9 @@ const FLAT_DICT = {
   strathclyde: "Placed in the top 20 of European business schools in the Financial Times Global MBA Rankings",
   the_aim_of_that_program: "To enable students of member institutions to study in different parts of the North",
 
+  // === INGESTED 2026-06-23 22:59 ===
+  his_chief_work: "A metrical Life of Germanus of Auxerre , considered one of the best hagiographical poems of the times, which he dedicated c",
+
 };
 
 // ============================================================
