@@ -26900,6 +26900,10 @@ const FLAT_DICT = {
   qtopia: { definition: "An application platform for Linux -based devices such as mobile phones, portable media players, and home media", what_it_does: "", examples: "medical instruments and industrial devices" },
   the_main_goal_of_the_acquisition: { definition: "To strengthen Digia's position in the Qt ecosystem and expand the availability of Qt technology across a growing number of platforms", what_it_does: "", examples: "data structures and a networking library" },
 
+  // === INGESTED 2026-06-23 10:40 ===
+  the_yocto_project: "Targeted at embedded use cases",
+  the_relevant_term_is_of_the_porting_target: "Computer architecture ; it comprises the instruction set (s) and the microarchitecture (s) of the processor (s), at least of the CPU",
+
 };
 
 // ============================================================
