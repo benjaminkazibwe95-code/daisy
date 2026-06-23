@@ -28542,6 +28542,14 @@ const FLAT_DICT = {
   clipping: "The act of shaving off a small portion of a precious metal coin for profit",
   the_bits_of_metal_that_had_worn_off_the_coins: "Recovered from the bottom of the bag",
 
+  // === INGESTED 2026-06-23 16:44 ===
+  his_mother_edna: "An elementary school teacher",
+  the_appointment: "Largely viewed as a test run to ascertain if Bernanke could be Bush's pick to succeed Greenspan as Fed chairman the next year",
+  yellen: "Nominated on October 9, 2013, by President Obama and confirmed by the United States Senate on January 6, 2014",
+  this_disconnect: "Dangerous.' [ 58 ] Upon the revelation of the Quince pseudonym during the Starr v",
+  bernanke: "The Director of the Monetary Economics Program of the National Bureau of Economic Research and the editor of the American Economic Review",
+  he_expressed_his_hope_that_economic_growth: { definition: "Building momentum and stated that he was confident that the central bank would be able to withdraw its support smoothly", what_it_does: "", examples: "credit market stress and a failing gold standard" },
+
 };
 
 // ============================================================
