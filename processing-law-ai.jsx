@@ -29196,6 +29196,31 @@ const FLAT_DICT = {
   musharakah_mutanaqisah: "When the bank buys the property together with you",
   when_the_last_payment: { definition: "Made, the property changes hands", what_it_does: "", examples: "real estate) more quickly by reductions in price" },
 
+  // === INGESTED 2026-06-23 19:15 ===
+  a_loss_instead_of_a_profit: "Described as a negative return , assuming the amount invested is greater than zero",
+  the_result_of_the_conversion: "Called the rate of return",
+  the_change_in_value: "1,030 − 1,000 = 30, so the return is 30 1 , 000 = 3 % {\displaystyle {\frac {30}{1,000}}=3\%}",
+  if_the_initial_value: "Zero, then no return can be calculated",
+  the_deposit: { definition: "Worth 1.2 million yen at the start of the year, and 10,200 x 132 = 1,346,400 yen at the end of the year", what_it_does: "", examples: "let us suppose that US$20,000 is returned on an initial investment of US$100,000" },
+  this_formula_can_also_be_used_when_there: "No reinvestment of returns, any losses are made good by topping up the capital investment and all periods are of equal length",
+  where_the_individual_subperiods: "Each equal (say, 1 year), and there is reinvestment of returns, the annualized cumulative return is the geometric average rate of return",
+  the_value_of_an_investment: "Doubled if the return r {\displaystyle r} = +100%, that is, if r l o g {\displaystyle r_{\mathrm {log} }} = ln($200 / $100) = ln(2) = 69.3%",
+  ordinary_returns_and_logarithmic_returns: "Only equal when they are zero, but they are approximately equal when they are small",
+  the_difference_between_them: { definition: "Large only when percent changes are high", what_it_does: "", examples: "an arithmetic return of +50% is equivalent to a logarithmic return of 40" },
+  the_two_averages: "Equal if (and only if) all the sub-period returns are equal",
+  investment_returns: { definition: "Often published as 'average returns'", what_it_does: "", examples: "a month, or two years, annualized for comparison with a one-year return" },
+  if_the_return: { definition: "Reinvested, it contributes to the starting value of capital invested for the next period (or reduces it, in the case of a negative return)", what_it_does: "", examples: "interest previously reinvested and credited to the account" },
+  unless_the_interest: "Withdrawn at the end of each quarter, it will earn more interest in the next quarter",
+  the_extra_dime: "Interest on the additional $10 investment from the previous interest accumulated in the account",
+  the_answer_is_that_there: { definition: "Insufficient data to compute a return, in any currency, without knowing the return for both periods in the same currency", what_it_does: "", examples: "investments in company stock shares put capital at risk" },
+  if_the_price: "Relatively stable, the stock is said to have 'low volatility '",
+  to_the_right: "An example of a stock investment of one share purchased at the beginning of the year for $100",
+  investors_and_other_parties: "Interested to know how the investment has performed over various periods of time",
+  more_and_more_funds_and_brokerage_firms: "Now providing personalized account returns on investor's account statements in response to this need",
+  reinvestment_rates_or_factors: "Based on total distributions (dividends plus capital gains) during each period",
+  us_mutual_funds: "To compute average annual total return as prescribed by the U.S",
+  since_the_market_price_of_a_mutual_fund_share: "Based on net asset value, a capital gain distribution is offset by an equal decrease in mutual fund share value/price",
+
 };
 
 // ============================================================
