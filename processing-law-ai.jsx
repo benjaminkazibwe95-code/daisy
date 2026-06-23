@@ -23445,6 +23445,13 @@ const FLAT_DICT = {
   presidential_candidates: { definition: "Nominated by individual country members", what_it_does: "", examples: "US$71.2 million in loans and US$51.4 million in grants" },
   this_design: "Meant strengthen the bank's governance, risk management, and operational processes, ensuring better oversight, accountability, and financial stability",
 
+  // === INGESTED 2026-06-23 00:08 ===
+  the_head_of_the_ministry: "The minister of foreign affairs",
+  the_first_soviet_representatives: "Not of much note until the appointment of the Bulgarian native Christian Rakovsky in 1919",
+  the_building_of_the_ministry: "Also located on the Mykhailivska Square, named for the monastery and next to the park Volodymyrska Hill",
+  the_nomination_of_the_foreign_minister: "Done by the President of Ukraine , unlike most nominations of Cabinet Minister which are done by the Prime Minister of Ukraine",
+  the_national_commission_of_ukraine_for_unesco: "Created as part of the Ministry of Foreign Affairs by the Presidential decree #212/1996 on March 26, 1996",
+
 };
 
 // ============================================================
