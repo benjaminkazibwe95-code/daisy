@@ -29173,6 +29173,29 @@ const FLAT_DICT = {
   if_the_equity: "Negative (a deficit) then the unpaid creditors bear loss and the owners' claim is void",
   when_the_owners_of_a_firm: { definition: "Shareholders , their interest is called shareholders' equity", what_it_does: "", examples: "the liabilities), struck at the nominal value of the liabilities" },
 
+  // === INGESTED 2026-06-23 19:13 ===
+  mortgage_lending: { definition: "The primary mechanism used in many countries to finance private ownership of residential and commercial property (see commercial mortgages )", what_it_does: "may take a few days to a few weeks", examples: "by taking deposits or issuing bonds )" },
+  the_two_basic_types_of_amortized_loans: { definition: "The fixed rate mortgage (FRM) and adjustable-rate mortgage (ARM) (also known as a floating rate or variable rate mortgage )", what_it_does: "", examples: "the first five years, and vary after the end of that period" },
+  jumbo_mortgages_and_subprime_lending: "Not supported by government guarantees and face higher interest rates",
+  since_the_value_of_the_property: { definition: "An important factor in understanding the risk of the loan, determining the value is a key factor in mortgage lending", what_it_does: "", examples: "mortgage payments, as a percentage of income); and various net worth measures" },
+  a_mortgage: { definition: "A form of annuity (from the perspective of the lender), and the calculation of the periodic payments is based on the time value of money formulas", what_it_does: "", examples: "15-year mortgage loans, are common)" },
+  with_this_arrangement_regular_contributions: "Made to a separate investment plan designed to build up a lump sum to repay the mortgage at maturity",
+  investmentbacked_mortgages: "Seen as higher risk as they are dependent on the investment making sufficient return to clear the debt",
+  the_interest: "Rolled up with the principal, increasing the debt each year",
+  these_arrangements: "Variously called reverse mortgages , lifetime mortgages or equity release mortgages (referring to home equity ), depending on the country",
+  the_loans: "Typically not repaid until the borrowers are deceased, hence the age restriction",
+  when_interest_rates: "High relative to the rate on an existing seller's loan, the buyer can consider assuming the seller's mortgage",
+  shared_appreciation_mortgages: "A form of equity release",
+  in_the_uk_there: "Also the endowment mortgage where the borrowers pay interest while the principal is paid with a life insurance policy",
+  bausparkassen: "Not identical with banks that give mortgages",
+  the_most_common_mortgage_in_canada: "The five-year fixed-rate closed mortgage, as opposed to the U.S",
+  where_the_most_common_type: "The 30-year fixed-rate open mortgage",
+  in_the_uk_variablerate_mortgages: "More common than in the United States",
+  the_fca_and_pra: { definition: "Established in 2013 with the aim of responding to criticism of regulatory failings highlighted by the 2008 financial crisis and its aftermath", what_it_does: "", examples: "the lessons to be learned from international markets and institutions'" },
+  these_interest_rates: "Tied to a base rate (individual bank's benchmark rate)",
+  musharakah_mutanaqisah: "When the bank buys the property together with you",
+  when_the_last_payment: { definition: "Made, the property changes hands", what_it_does: "", examples: "real estate) more quickly by reductions in price" },
+
 };
 
 // ============================================================
