@@ -24536,6 +24536,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 03:16 ===
   nmg: "Founded in 1959 by Aga Khan IV as East African Newspapers (Nation Series) Ltd, [ 2 ] under the Aga Khan Fund for Economic Development",
 
+  // === INGESTED 2026-06-23 03:18 ===
+  labialization: "Not restricted to lip-rounding",
+  consonants_pronounced_this_way: "Said to be labialized and are usually transcribed in the International Phonetic Alphabet by affixing a superscript w , ⟨ ʷ ⟩, to the base letter",
+  all_places_and_manners_of_pulmonic_consonants: "Attested with labialized variants, with the possible exception of the epiglottals",
+  this_contrast: { definition: "Reconstructed also for Proto-Indo-European , the common ancestor of the Indo-European languages , and it survives in Latin and some Romance languages", what_it_does: "", examples: "Arrernte , have contrastive labialized forms for nearly all of their consonants" },
+  labialization_also: "A specific type of assimilatory process where a given sound become labialized due to the influence of neighboring labial sounds",
+  note_that_labialized_palatal_clicks: "Not attested in Yeyi and are not reconstructed for Proto-Kxʼa",
+
 };
 
 // ============================================================
