@@ -27568,6 +27568,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 13:27 ===
   the_album: "Released on May 5, 2023, by Fueled by Ramen",
 
+  // === INGESTED 2026-06-23 13:29 ===
+  the_doctor_finds_his_mobile_emitter: "Failing, and he is returned to sickbay while Lt",
+  the_borg: "A Star Trek villain species famous for their phrase, 'Resistance is futile",
+
 };
 
 // ============================================================
