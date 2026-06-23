@@ -26019,6 +26019,18 @@ const FLAT_DICT = {
   hisense_optoelectronics_technology_co_ltd: { definition: "Created as a joint venture between Hisense, Ligent Photonics Inc, et al", what_it_does: "", examples: "residential buildings, apartments, villas, townhouses, office buildings and large industrial parks" },
   a_refrigerator_production_base: { definition: "In this industrial park", what_it_does: "", examples: "basketball , netball , dance sports, cycling , gymnastics and tennis" },
 
+  // === INGESTED 2026-06-23 08:06 ===
+  texting_while_driving: "Considered extremely dangerous by many people, including authorities, and in some places has either been outlawed or restricted",
+  adults_think_that_text_messaging_while_driving: { definition: "'distracting, dangerous and should be outlawed'", what_it_does: "", examples: "a May 2009 incident involving a Boston trolley car driver who crashed while texting his girlfriend" },
+  one_such_study: "Conducted by Car and Driver magazine in June 2009",
+  their_model_predicted_text_messaging: "Involved in 6–16% of all car accidents in the US",
+  the_results_of_the_study: "Listed in the table below",
+  the_use_of_mobile_devices: "Linked to a significant increase in distracted driving, resulting in injury and even loss of life",
+  the_law_does_not_apply_if_the_phone: "In a secured fixed mounting that is positioned in such a way that the driver does not have to take their eyes off the road",
+  the_law_also_does_not_apply_if_the_driver: "Using a hands free device",
+  in_one_instance_a_uae_minister: "Himself given a fine for using his mobile phone while driving",
+  some_of_these_apps: "'paired' and require installation of the app on both the parents' phone and the driver's phones",
+
 };
 
 // ============================================================
