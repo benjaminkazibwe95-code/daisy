@@ -28755,6 +28755,9 @@ const FLAT_DICT = {
   the_merger_was_the_largest_to_date_and: "Questioned by many analysts",
   the_most_valuable_public_companies: "Now generally in the technology sector",
 
+  // === INGESTED 2026-06-23 17:30 ===
+  the_trieste_area_science_park: "Composed of two neighbouring campus developments located near the exit from the motorway linking Trieste to Austria and Slovenia",
+
 };
 
 // ============================================================
