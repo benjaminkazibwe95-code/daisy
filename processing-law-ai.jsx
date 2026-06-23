@@ -28418,6 +28418,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 16:17 ===
   the_wolfram_demonstrations_project: "An open-source collection of interactive programmes called Demonstrations",
 
+  // === INGESTED 2026-06-23 16:19 ===
+  principles_of_political_economy: "Ricardo's effort to fill that gap in the literature",
+
 };
 
 // ============================================================
