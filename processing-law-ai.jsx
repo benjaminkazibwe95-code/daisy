@@ -25794,6 +25794,12 @@ const FLAT_DICT = {
   contemporary_electronic: "Of memorializing and displaying documents include: Digital documents usually require a specific file format to be presentable in a specific medium",
   the_forensic_analysis_of_such_a_document: "Within the scope of questioned document examination",
 
+  // === INGESTED 2026-06-23 07:27 ===
+  the_ministry: "One of the three 'sovereign' ministerial bodies of Iran due to nature of its work at home and abroad",
+  former_savak_staff: "Believed to have been important in the ministry's infiltration of left-wing dissident groups and of the Iraqi Ba'ath Party",
+  the_formation_of_the_ministry: "Proposed by Saeed Hajjarian to the government of Mir-Hossein Mousavi and then the parliament",
+  this_plot: "Reportedly in retaliation for the U.S",
+
 };
 
 // ============================================================
