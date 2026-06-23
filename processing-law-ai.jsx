@@ -27437,6 +27437,17 @@ const FLAT_DICT = {
   neil_ashe: { definition: "Named as the new CEO", what_it_does: "", examples: "download.com , downloads.com, upload.com, news.com, search.com, TV.com , mp3.com , chat" },
   cnet_claims_that_this_software: "Free of spyware , but independent sources have confirmed that this is not the case",
 
+  // === INGESTED 2026-06-23 13:02 ===
+  a_key_component: "The communication between the members of the group that build a system of constant feedback",
+  the_swarm_behavior: "Constant change of individuals in cooperation with others, as well as the behavior of the whole group",
+  the_design_of_swarm_robotics_systems: "Guided by swarm intelligence principles, which promote fault tolerance, scalability, and flexibility",
+  the_initial_goal_of_studying_swarm_robotics: { definition: "To test whether the concept of stigmergy could be used as a method for robots to indirectly communicate and coordinate with each other", what_it_does: "", examples: "collective transport, area coverage, and searching for objects" },
+  a_promising_use_of_swarm_robotics: "In search and rescue missions",
+  the_boats: { definition: "Unmanned and can be fitted with any kind of kit to deter and destroy enemy vessels", what_it_does: "", examples: "GPS) or even stabilize them using onboard localization systems [ 20 ] where GPS is unavailable" },
+  the_robots: "Also made with provisions for indoor use via Wi-Fi, since the GPS sensors provide poor communication inside buildings",
+  another_such_attempt: "The micro robot (Colias), [ 35 ] built in the Computer Intelligence Lab at the University of Lincoln , UK",
+  this_micro_robot: "Built on a 4 cm circular chassis and is a low-cost and open platform for use in a variety of swarm robotics applications",
+
 };
 
 // ============================================================
