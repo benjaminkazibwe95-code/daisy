@@ -24478,6 +24478,17 @@ const FLAT_DICT = {
   malawian_cuisine: "Diverse, with tea and fish being popular features of the country's cuisine",
   lake_malawi: "A source of fish, including chambo (similar to bream ), usipa (similar to sardines ), and mpasa (similar to salmon and kampango )",
 
+  // === INGESTED 2026-06-23 03:08 ===
+  awali: "Looking for a place that best suited his family needs",
+  one_fact_awali_could_not_resist: { definition: "The freshness of the ocean breeze and immediately asked the collaboration of his people", what_it_does: "", examples: "Ibn Sa'id , wrote about Barawa as 'an Islamic island on the Somali coast" },
+  clay_horned_stones: { definition: "Common in Buur Heybe", what_it_does: "", examples: "the mihmil (Qu'ran rest)) and Attir or wedding bed" },
+  precious_metals: "Honed into fine jewellery and metal lined bridges which would connect multi-storied houses above",
+  coral: "Collected and then torched to add as a lime component",
+  the_commander_of_the_portuguese_army: "Tristão da Cunha : he set wanted to conquer the Ajuran territory, where the battle of Barawa was fought",
+  two_days_further_inland: "Dafert, a large town governed by Aweka Haji, his brother",
+  this_abobokur_yusuf: "Accustomed to send messengers to Brava for tribute, and he drew thence about 2,000 dollars per annum",
+  after_independence_the_town: "Largely ignored by the Somali government",
+
 };
 
 // ============================================================
