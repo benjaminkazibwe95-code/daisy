@@ -27204,6 +27204,14 @@ const FLAT_DICT = {
   currency_boards: "Considered hard pegs as they allow central banks to cope with shocks to money demand without running out of reserves",
   a_monetary_union: "Considered to be the crowning step of a process of monetary co-operation and economic integration",
 
+  // === INGESTED 2026-06-23 11:53 ===
+  market_conditions_during_the_runup_to_a_crash: "Sometimes characterized as 'frothy",
+  housing_price_busts: "Less frequent, but last nearly twice as long and lead to output losses that are twice as large ( IMF World Economic Outlook, 2003)",
+  measures_of_house_price: "Also used in identifying housing bubbles; these are known as house price indices (HPIs)",
+  a_noted_series_of_hpis_for_the_united_states: { definition: "The Case–Shiller indices , devised by American economists Karl Case , Robert J", what_it_does: "", examples: "Argentina , [ 26 ] New Zealand , Ireland , Spain , Lebanon , Poland , [ 27 ] and Croatia" },
+  the_demand_this_time: "Based more closely on market fundamentals",
+  experts_note_that_the_current_price_increases: "Based on market fundamentals rather than speculative behavior, highlighting the ongoing issue of housing affordability",
+
 };
 
 // ============================================================
