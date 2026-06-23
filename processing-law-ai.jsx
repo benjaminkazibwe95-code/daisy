@@ -27132,6 +27132,10 @@ const FLAT_DICT = {
   a_market: "Established where the validators compete on the fees, reputation, and other factors",
   token_holders: { definition: "Free to switch their support to another validator at any time", what_it_does: "", examples: "Blackcoin, Nxt , Cardano , and Algorand followed" },
 
+  // === INGESTED 2026-06-23 11:33 ===
+  ieee_access: "A peer-reviewed open-access scientific journal published by the Institute of Electrical and Electronics Engineers (IEEE)",
+  the_founding_editorinchief: "Michael Pecht ( University of Maryland ) and the current editor-in-chief is Derek Abbott ( University of Adelaide )",
+
 };
 
 // ============================================================
