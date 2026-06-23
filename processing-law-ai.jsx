@@ -26731,6 +26731,15 @@ const FLAT_DICT = {
   a_measure: { definition: "A quantity describing the fact, such as revenue", what_it_does: "", examples: "the revenue from different locations can be added together" },
   coming_up_with_a_standard_set_of_dimensions: { definition: "An important part of dimensional modeling", what_it_does: "", examples: "they allow representation of a directed graph with trees on the nodes" },
 
+  // === INGESTED 2026-06-23 10:01 ===
+  a_directory: "One such mechanism which maintains the state of cache blocks moving around the system",
+  in_a_situation_where_there: "N processes and Mi memory operations for each process i , and that all the operations are executed sequentially",
+  the_issue_with_this_conclusion: "Determining the correctness of the interleaved operations",
+  the_write_requests: "Handled by a sequencer",
+  release_consistency: "When a process exits a critical section , new values of the variables are propagated to all sites",
+  entry_consistency: "When a process enters a critical section, it will automatically update the values of the shared variables",
+  viewbased_consistency: "A variant of entry consistency, except the shared variables of a critical section are automatically detected by the system",
+
 };
 
 // ============================================================
