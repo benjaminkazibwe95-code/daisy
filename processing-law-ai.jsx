@@ -26984,6 +26984,19 @@ const FLAT_DICT = {
   he_further_argued_that_britain_and_france: { definition: "In no position to come to Poland's aid, and Hitler was offering the Poles an alliance in return", what_it_does: "", examples: "Poland, to Stalin" },
   some_also_claim_that_truman_knew_they: "Not necessary but wanted to pressure the Soviet Union",
 
+  // === INGESTED 2026-06-23 11:01 ===
+  academic_buildings: { definition: "Connected by an extensive corridor system", what_it_does: "", examples: "the Broad and Whitehead Institutes" },
+  undergraduate_life: "Known for hands-on research and elaborate pranks",
+  tuition: "Generally not charged to undergraduates from families with incomes below $200,000, and most graduate students are funded by research",
+  both_argued_that_practiceoriented_training: "Obsolete and industry needed engineers grounded in fundamental science",
+  this_was_widely_adopted_at_other_schools_and: { definition: "Later identified by Clark Kerr as one of the few genuine university reforms from the 1960s", what_it_does: "", examples: "Biogen and Genzyme first expanded in the area" },
+  the_bridge_closest_to_mit: "The Harvard Bridge , which is known for being marked off in a non-standard unit of length – the smoot",
+  the_cambridge_neighborhoods_surrounding_mit: { definition: "A mixture of modern offices for high-tech firms, old industry buildings, and low-rise residential neighborhoods", what_it_does: "", examples: "thirty-six fraternities , sororities , and independent living groups ( FSILGs )" },
+  the_mit_museum: { definition: "Founded in 1971 and collects, preserves, and exhibits artifacts significant to the culture and history of MIT", what_it_does: "", examples: "the annual Cambridge Science Festival , the first celebration of this kind in the United States" },
+  the_cannon: { definition: "Relocated to Cambridge, where it was displayed in front of the Green Building during the 2006 Campus Preview Weekend", what_it_does: "", examples: "rooftops and steam tunnels), as well as elaborate practical jokes" },
+  colleges_that: { definition: "Both need-blind and full-need for all undergraduate applicants, including international students", what_it_does: "", examples: "about a quarter of the workforce of Silicon Valley" },
+  if_the_companies_founded_by_mit_alumni: "A country, they would have the 11th-highest GDP of any country in the world",
+
 };
 
 // ============================================================
