@@ -29518,6 +29518,16 @@ const FLAT_DICT = {
   the_first_part_of_the_book: "The nature of the region of Ladakh when Helena first arrived in 1975, prior to the influx of Western ideas and material goods",
   the_second_part: "How Ladakh changed socially , ecologically and economically with development",
 
+  // === INGESTED 2026-06-23 20:28 ===
+  its_border_with_the_united_states: "The longest international land border",
+  its_capital: "Ottawa and its three largest metropolitan areas are Toronto , Montreal , and Vancouver",
+  the_country_is_a_commonwealth_realm_and: "Officially bilingual (English and French) in the federal jurisdiction",
+  these_two_colonies: { definition: "Collectively referred to as the Canadas until their union as the Province of Canada in 1841", what_it_does: "", examples: "addressing the plight of missing and murdered Indigenous women" },
+  the_future_of_the_permafrost: { definition: "Uncertain because the Arctic has been warming at three times the global average as a result of climate change in Canada", what_it_does: "", examples: "11.4 percent designated as protected areas" },
+  provincial_legislatures: "Unicameral and operate in parliamentary fashion similar to the House of Commons",
+  the_supreme_court_of_canada: { definition: "The highest court, final arbiter, and has been led since 2017 by Richard Wagner , the Chief Justice of Canada", what_it_does: "", examples: "healthcare through the Indian Health Transfer Policy , and exemption from taxation" },
+  education_in_both_english_and_french: { definition: "Available in most places across Canada", what_it_does: "", examples: "tuques , canoes and Hudson's Bay point blanket are considered as uniquely Canadian" },
+
 };
 
 // ============================================================
