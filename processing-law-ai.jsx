@@ -30121,6 +30121,31 @@ const FLAT_DICT = {
   the_university_of_erfurt: "A liberal arts university with a reformed and socio-cultural profile",
   factgrid: "A Wikibase database intended to help historians collaborate in international projects",
 
+  // === INGESTED 2026-06-23 22:54 ===
+  an_election: "Usually a competition between different parties",
+  a_political_system: "A framework which defines acceptable political methods within a society",
+  other_scholars_believe_that_generalizations: "Unhelpful and that each case of early state formation should be treated on its own",
+  some_theories_in_turn_argue_that_warfare: "Critical for state formation",
+  the_peace_of_westphalia: "Said to have ended attempts to impose supranational authority on European states",
+  the_ruling_dynasty: "Usually, but not always, from that group",
+  some_of_the_smaller_european_states: { definition: "Not so ethnically diverse, but were also dynastic states, ruled by a royal house", what_it_does: "", examples: "the independent principalities of Liechtenstein , Andorra , Monaco , and the republic of San Marino" },
+  the_study_of_politics: "Called political science",
+  comparative_politics: "The science of comparison and teaching of different types of constitutions , political actors, legislature and associated fields",
+  republics: { definition: "The most common form of government, with fewer nations being monarchies", what_it_does: "", examples: "in a democracy (rule of many), [ 58 ] oligarchy (rule by few), [ 59 ] or autocracy (rule by one)" },
+  a_stateless_society_is_a_society_that: "Not governed by a state",
+  a_central_tenet_of_anarchism: "The advocacy of society without states",
+  constitutions: "Written documents that specify and limit the powers of the different branches of government",
+  although_a_constitution: { definition: "A written document, there is also an unwritten constitution", what_it_does: "", examples: "the European colonies" },
+  political_culture: "How culture impacts politics",
+  every_political_system: { definition: "Embedded in a particular political culture", what_it_does: "", examples: "human rights and environmentalism" },
+  the_mafia_state_phenomenon: "An example of institutional corruption",
+  the_international_system_of_power: "Called the world order , which is affected by the balance of power that defines the degree of polarity in the system",
+  emerging_powers: { definition: "Potentially destabilizing to it, especially if they display revanchism or irredentism", what_it_does: "", examples: "social policy , economic policy , or law enforcement , which are executed by the state bureaucracy" },
+  mesopolitics: "The politics of intermediary structures within a political system, such as national political parties or movements",
+  micropolitics: "The actions of individual actors within the political system",
+  the_uncertainty_of_outcomes: { definition: "Inherent in democracy", what_it_does: "", examples: "on most issues, most of the time, they have no clear views or their views are not well-founded" },
+  a_common_way_of_understanding_politics: { definition: "Through the left–right political spectrum , which ranges from left-wing politics via centrism to right-wing politics", what_it_does: "", examples: "Communism and Marxism" },
+
 };
 
 // ============================================================
