@@ -29348,6 +29348,10 @@ const FLAT_DICT = {
   its_main_content: "Based on the Indian economy , international finance, share prices, prices of commodities as well as other matters related to finance",
   the_founding_editor_of_the_paper_when_it: "Launched in 1961 was P",
 
+  // === INGESTED 2026-06-23 19:48 ===
+  content_produced_by_bloomberg_news: { definition: "Disseminated through Bloomberg Terminals , Bloomberg Television , Bloomberg Radio , Bloomberg Businessweek , Bloomberg Markets , Bloomberg", what_it_does: "", examples: "Reuters and Dow Jones" },
+  paulson: "Upset about a column by Matt Levine that suggested his record-breaking donation to Harvard should have gone to 'literally any other charity",
+
 };
 
 // ============================================================
