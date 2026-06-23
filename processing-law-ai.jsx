@@ -28627,6 +28627,25 @@ const FLAT_DICT = {
   supportive_housing: { definition: "A combination of housing and services intended as a cost-effective way to help people live more stable, productive lives", what_it_does: "", examples: "different types of plastics, and different types of metal)" },
   examples_of_possible_problems: "Ways to deal with substance use disorders by certain shelter users, and the resolution of interpersonal conflicts",
 
+  // === INGESTED 2026-06-23 16:58 ===
+  apophenia: "Well documented as a rationalization for gambling",
+  pareidolia: "The visual or auditory form of apophenia",
+  cultural_bias: "The related phenomenon of interpreting and judging phenomena by standards inherent to one's own culture",
+  the_potential_conflict: "Autonomous of actual improper actions , it can be found and intentionally defused before corruption , or the appearance of corruption, happens",
+  cronyism: { definition: "Favoritism of long-standing friends, especially by appointing them to positions of authority, regardless of their qualifications", what_it_does: "", examples: "a third party entity monitor and enforce those standards" },
+  shilling: "Illegal in some places, but legal in others",
+  statistical_bias: "A systematic tendency in the process of data collection, which results in lopsided, misleading results",
+  the_observerexpectancy_effect: "When a researcher's expectations cause them to subconsciously influence the people participating in an experiment",
+  social_desirability_bias: "A bias within social science research where survey respondents can tend to answer questions in a manner that will be viewed positively by others",
+  bias_and_prejudice: "Usually considered to be closely related",
+  classism: "Discrimination on the basis of social class",
+  claims_of_bias: "Often linked to claims by conservatives of pervasive bias against political conservatives and religious Christians",
+  then_the_learner: "Tested with new examples",
+  a_classical_example_of_an_inductive_bias: { definition: "Occam's Razor , which assumes that the simplest consistent hypothesis is the best", what_it_does: "", examples: "bonds or stock options ) by individuals with access to non-public information about the company" },
+  matchfixing_generally: { definition: "Fixing the final result of the game", what_it_does: "", examples: "race and/or gender" },
+  implicit_bias: "An aspect of implicit social cognition : the phenomenon that perceptions, attitudes, and stereotypes operate without conscious intention",
+  implicit_stereotype: "First defined by psychologists Mahzarin Banaji and Anthony Greenwald in 1995",
+
 };
 
 // ============================================================
