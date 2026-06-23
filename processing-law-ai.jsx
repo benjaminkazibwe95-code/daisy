@@ -28875,6 +28875,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 18:06 ===
   data_privacy_and_cybersecurity: { definition: "Especially important in online businesses", what_it_does: "", examples: "Insider Store, Liv Up, and Sallve" },
 
+  // === INGESTED 2026-06-23 18:08 ===
+  product_marketing: { definition: "A 'core business function that plans and executes how a product is positioned, priced, and promoted to a defined audience", what_it_does: "includes 'understanding market trends, target audience identification, product positioning, and brand messaging", examples: "positioning, packaging, and pricing, and go-to-market execution,' as stated by A.H" },
+  identifying_what_parts_of_the_market: "Most likely to buy this product is targeting, and product positioning means creating a product that is different from others",
+  the_global_market: { definition: "The exchange of goods, services, and labor anywhere in the world", what_it_does: "", examples: "crude oil, soybeans, wheat, automobiles, machinery, clothing, and jewelry" },
+
 };
 
 // ============================================================
