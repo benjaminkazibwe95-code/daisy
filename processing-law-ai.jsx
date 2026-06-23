@@ -25016,6 +25016,16 @@ const FLAT_DICT = {
   three_measures_in_this_class: "Of high importance: M0 can be calculated with ordinal as well as cardinal data, which is why it is most often used",
   cardinal_data: "Required to calculate M1 and M2",
 
+  // === INGESTED 2026-06-23 04:56 ===
+  these_lists_of_names: "Not necessarily complete",
+  ethnologue: "Founded in 1951 by Richard S",
+  pittman_and: "Initially focused on minority languages, to share information on Bible translation needs",
+  this_standard: "Now administered separately from Ethnologue",
+  sil_international: "The registration authority for language names and codes, [ 5 ] according to rules established by ISO",
+  they_reported_that_ethnologue_and_linguasphere: "The only comprehensive sources of information about language populations and that Ethnologue had more specific information",
+  they_concluded_that_ethnologue: "'truly excellent, highly valuable, and the very best book of its sort available",
+  the_main_difference: { definition: "That Ethnologue includes additional information (such as speaker numbers or vitality) but lacks systematic sources for the information given", what_it_does: "", examples: "speaker numbers and map location'" },
+
 };
 
 // ============================================================
