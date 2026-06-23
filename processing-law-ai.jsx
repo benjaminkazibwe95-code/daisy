@@ -25835,6 +25835,16 @@ const FLAT_DICT = {
   while_power: { definition: "Measured in watts (W) or kilowatts (kW), energy consumption is typically measured in watt-hours (Wh) or kilowatt-hours (kWh)", what_it_does: "", examples: "light, motion, computation) and minimizes conversion into undesirable forms, primarily heat" },
   energy_consumption_in_the_body: "A product of the basal metabolic rate and the physical activity level",
 
+  // === INGESTED 2026-06-23 07:33 ===
+  the_nature_of_these_services: "Described in ARIN's mission statement: These services are grouped in three areas: Registration, Organization, and Policy Development",
+  this_section_includes_what: "Necessary to request resources, specific distribution policies, and guidelines for requesting and managing Internet number resources",
+  the_board_of_trustees_and_advisory_council: { definition: "Elected by ARIN members for three-year terms", what_it_does: "", examples: "ARIN's President and CEO, a Chair, and a Treasurer" },
+  executive_decisions: { definition: "Carried out following approval by the Board", what_it_does: "", examples: "a Chair and Vice Chair" },
+  kim: "Succeeded by Raymond 'Ray' Plzak until the end of 2008",
+  trustee_john_curran: "Acting president until July 1, 2009, when he assumed the CEO role permanently",
+  subsaharan_africa: "Also part of ARIN's region until April 2005, when AfriNIC was officially recognized by ICANN as the fifth regional Internet registry",
+  any_service_member: "Eligible to participate in ARIN Elections by requesting General Membership [ 16 ]",
+
 };
 
 // ============================================================
