@@ -28550,6 +28550,13 @@ const FLAT_DICT = {
   bernanke: "The Director of the Monetary Economics Program of the National Bureau of Economic Research and the editor of the American Economic Review",
   he_expressed_his_hope_that_economic_growth: { definition: "Building momentum and stated that he was confident that the central bank would be able to withdraw its support smoothly", what_it_does: "", examples: "credit market stress and a failing gold standard" },
 
+  // === INGESTED 2026-06-23 16:46 ===
+  phelps: { definition: "Also strongly influenced by William Fellner whose course emphasized the expectations of agents", what_it_does: "", examples: "monetary economics or Ricardian equivalence and its relation to optimal growth" },
+  the_conference_papers: "Published the next year in a book [ 9 ] that had a strong and lasting influence; it became known as the 'Phelps volume'",
+  the_research_task: "To identify the institutions that are pathways to dynamism and the institutions that are obstructions",
+  yet_his_employment_theory: "Problematic and the 'Keynesian' policy solutions are questionable at best",
+  four_months_later_he: "Given the Global Economy Prize of Kiel Institute for the World Economy",
+
 };
 
 // ============================================================
