@@ -23782,6 +23782,10 @@ const FLAT_DICT = {
   since_the_reduction_potential_of_each_step: "Slightly greater than the previous one, the energy is released step-by-step and can thus be stored in adenosine triphosphate",
   the_simplest_of_such_compounds: "Rubredoxin , which has only one iron atom coordinated to four sulfur atoms from cysteine residues in the surrounding peptide chains",
 
+  // === INGESTED 2026-06-23 00:57 ===
+  tantalite: "Also very close to tapiolite",
+  tantalite_occurs_in_granitic_pegmatites_that: "Rich in rare-elements, and in placer deposits derived from such rocks",
+
 };
 
 // ============================================================
