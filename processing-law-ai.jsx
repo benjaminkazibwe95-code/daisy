@@ -25221,6 +25221,22 @@ const FLAT_DICT = {
   the_supreme_court_ruled_that_oup: "Not tax exempt in the subcontinent 'because it does not carry out any university activities there but acts simply as a commercial publisher'",
   several_studies_published_in_the_journal: "Conducted or funded by Chinese police and security agencies, raising questions about the independence and ethical standards of the research",
 
+  // === INGESTED 2026-06-23 05:44 ===
+  south_african_cuisine: "Heavily based on meat consumption",
+  a_widely_observed_culinary_tradition: "Braai , a social event in which South Africans gather to cook meat over an open fire",
+  a_popular_south_african_snack: "Biltong, a dried, spiced meat",
+  the_san_peoples: "Hunter-gatherers , who mostly depended on foods like tortoises , crayfish , coconuts , and squash",
+  traditional_beer: "Brewed from local grains, especially sorghum",
+  beer: "So prized that it became central to many ceremonies, such as betrothals and weddings, in which one family ceremoniously offered beer to the other",
+  as_cows: { definition: "Considered highly desirable domestic animals in precolonial societies, milk was abundant", what_it_does: "", examples: "the Sotho-Tswana saying, 'cattle beget children" },
+  the_ribs_of_any_cattle_that: "Slaughtered in many communities were so prized that they were offered to the chief of the village",
+  rice_and_beans: "Also very popular, although they are not indigenous",
+  because_beef: { definition: "The most prized meat for weddings, affluent families often buy a live steer for slaughter at home", what_it_does: "", examples: "biltong , droëwors , and rusks evolved locally out of necessity" },
+  sunday_roast: "As popular in South Africa as Australia , Canada , and New Zealand where there are influences from the UK",
+  fish_and_chips: { definition: "Also popular in South Africa", what_it_does: "", examples: "street vendors or vans" },
+  meat_pies_and_other_savoury_pies: "Readily available at most grocery stores and many petrol stations",
+  this_cuisine: { definition: "Characterised mainly by the usage of spices such as nutmeg , allspice , and chili peppers", what_it_does: "", examples: "curries, sweets , chutneys , fried snacks such as samoosas , and other savoury foods" },
+
 };
 
 // ============================================================
