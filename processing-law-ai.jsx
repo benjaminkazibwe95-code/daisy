@@ -29280,6 +29280,9 @@ const FLAT_DICT = {
   next_in_line_to_be_repaid: "Zero Dividend Preference shares, followed by any Income shares and then Capital",
   although_this_order_of_priority: "The most common way shares are paid out at the wind-up date, it may alter slightly from trust to trust",
 
+  // === INGESTED 2026-06-23 19:29 ===
+  the_bourse_of_antwerp: "First opened in 1531 as the world's first purpose-built commodity exchange",
+
 };
 
 // ============================================================
