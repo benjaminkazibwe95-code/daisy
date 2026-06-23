@@ -25320,6 +25320,16 @@ const FLAT_DICT = {
   ghanaian_contributors: { definition: "Grouped according to their levels of income", what_it_does: "", examples: "contributors to SSNIT who indirectly contribute through a 2.5% deduction from their payroll" },
   only_members_of_the_informal_group: "Required to pay a premium, while those in the exempt groups do not have this obligation",
 
+  // === INGESTED 2026-06-23 06:09 ===
+  a_prime_meridian: "A meridian (a line of longitude ) in a geographic coordinate system at which longitude is defined to be 0°",
+  west_longitudes: "Used if the rotation of the body is prograde (or 'direct', like Earth), meaning that its direction of rotation is the same as that of its orbit",
+  east_longitudes: "Used if the rotation is retrograde",
+  the_main_point: "To be comfortably west of the western tip of Africa (17°30′W) as negative numbers were not yet in use",
+  the_tordesillas_line: { definition: "Eventually settled at 370 leagues (about 2,190 kilometres (1,360 miles; 1,180 nautical miles)) west of Cape Verde", what_it_does: "", examples: "Cape Verde were coming into use" },
+  in_his_atlas_longitudes: "Counted from 0° to 360°, not 180°W to 180°E as is usual today",
+  these_meridians: { definition: "Very close to each other", what_it_does: "", examples: "lunar laser ranging , satellite laser ranging , and very-long-baseline interferometry" },
+  often_a_landmark_such_as_a_crater: "Used; other times a prime meridian is defined by reference to another celestial object, or by magnetic fields",
+
 };
 
 // ============================================================
