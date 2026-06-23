@@ -24399,6 +24399,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 02:53 ===
   trade_blocs: "Seen by them to encourage regional free trade at the expense of global free trade",
 
+  // === INGESTED 2026-06-23 02:55 ===
+  the_rights_promised_to_indians: { definition: "Granted slowly, [ 50 ] [ 51 ] but technological changes were introduced, and modern ideas of education and the public life took root", what_it_does: "", examples: "barley ) and animals (including humped zebu cattle) occurred here" },
+  the_indian_climate: { definition: "Strongly influenced by the Himalayas and the Thar Desert, both of which drive the economically and culturally pivotal summer and winter monsoons", what_it_does: "", examples: "the Ganges and the Brahmaputra" },
+  modi: "The longest-serving non-Congress prime minister",
+  the_definition_of_fundamental_rights: "Based on the Constitution of the United States , and the constitutional directives, or goals of endeavor, are based on the Constitution of Ireland",
+  the_remaining_five_union_territories: "Directly ruled by the central government through appointed administrators",
+  three_wars: { definition: "Fought over the disputed territory of Kashmir", what_it_does: "", examples: "Hindi but not English, which the government is obligated to develop" },
+  the_indian_subcontinent: "The birthplace of four major world religions : Buddhism , Hinduism , Jainism , and Sikhism",
+  several_tribal_religions: "Also present in India, such as Donyi-Polo , Sanamahism , Sarnaism , and Niamtre",
+  the_improvement_in_the_rural_literacy_rate: "Twice that of urban areas",
+  each_caste: "Further divided into sub-castes, or jatis , many of which are tied to occupations",
+  in_north_india_mauryan_art: { definition: "The first imperial movement", what_it_does: "", examples: "Ajanta , Karla and Ellora" },
+  the_kameez: { definition: "A long shirt or tunic", what_it_does: "", examples: "chikankari ; and typically falls to either just above or just below the wearer's knees" },
+  the_traditional_shalwar_kameez: { definition: "Rarely worn by younger urban women, who favour churidars or jeans", what_it_does: "", examples: "Kalarippayattu and marma adi remain popular" },
+
 };
 
 // ============================================================
