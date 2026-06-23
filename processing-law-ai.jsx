@@ -23735,6 +23735,14 @@ const FLAT_DICT = {
   the_key_issues_of_the_time: "Finance and adjustment, commodity price stabilisation and trade",
   this_was_the_first_time_the_conference: { definition: "Held in a Small Island Developing State (SIDS)", what_it_does: "", examples: "ASYCUDA , DMFAS , EMPRETEC [ 34 ] and WAIPA" },
 
+  // === INGESTED 2026-06-23 00:50 ===
+  the_most_direct_of_the_three: "The production approach, which sums the outputs of every class of enterprise to arrive at the total",
+  the_second_way_of_estimating_gdp: "To use 'the sum of primary incomes distributed by resident producer units'",
+  in_the_case_where_a_good: { definition: "Produced and unsold, the standard accounting convention is that the producer has bought the good from themselves", what_it_does: "", examples: "suppose a country's GDP in 1990 was $100 million and its GDP in 2000 was $300 million" },
+  the_standards: "Designed to be flexible, to allow for differences in local statistical needs and conditions",
+  gdp_adjusted_for_population: "Called Per-capita GDP or GDP per person",
+  it_can_be_argued_that_gdp_per_capita: { definition: "An indicator of standard of living", what_it_does: "", examples: "gender parity and elements of regulatory quality" },
+
 };
 
 // ============================================================
