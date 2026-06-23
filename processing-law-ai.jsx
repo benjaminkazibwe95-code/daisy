@@ -29528,6 +29528,18 @@ const FLAT_DICT = {
   the_supreme_court_of_canada: { definition: "The highest court, final arbiter, and has been led since 2017 by Richard Wagner , the Chief Justice of Canada", what_it_does: "", examples: "healthcare through the Indian Health Transfer Policy , and exemption from taxation" },
   education_in_both_english_and_french: { definition: "Available in most places across Canada", what_it_does: "", examples: "tuques , canoes and Hudson's Bay point blanket are considered as uniquely Canadian" },
 
+  // === INGESTED 2026-06-23 20:30 ===
+  some_standards_become_mandatory_when_they: "Adopted by regulators as legal requirements in particular domains, often for the purpose of safety or for consumer protection from deceitful practices",
+  the_term_de_jure_standard: "A standard mandated by legal requirements or refers generally to any formal standard",
+  in_this_country_no_two_professional_men: "Agreed upon the size and weight of a girder to employ for given work'",
+  the_national_standards: "Adopted universally throughout the country, and enabled the markets to act more rationally and efficiently, with an increased level of cooperation",
+  the_iec: "Similarly composed of national committees, one per member economy",
+  iso_and_iec: "Private international organizations that are not established by any international treaty",
+  a_national_standards_body: "Likely the sole member from that economy in ISO; ISO currently has 161 members",
+  sdos: "Differentiated from standards setting organizations (SSOs) in that SDOs may be accredited to develop standards using open and transparent processes",
+  another_area_of_interest: { definition: "In defining how the behavior and performance of products is measured and described in data sheets", what_it_does: "", examples: "it in the standard" },
+  such_an_agreement: "Regarded as a legally binding contract, [ 28 ] as in the 2012 case Microsoft v",
+
 };
 
 // ============================================================
