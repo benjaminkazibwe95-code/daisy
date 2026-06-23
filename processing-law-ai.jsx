@@ -26260,6 +26260,13 @@ const FLAT_DICT = {
   disk_imaging: { definition: "Commonly used to rapidly deploy the same configuration across workstations", what_it_does: "", examples: "IP addresses" },
   imaging: { definition: "Also easier than automated setup methods because an administrator does not need to have knowledge of the prior configuration to copy it", what_it_does: "", examples: "prior to Windows 8, third party software was required to mount disk images" },
 
+  // === INGESTED 2026-06-23 08:36 ===
+  software_multitenancy: "A software architecture in which a single instance of software runs on a server and serves multiple tenants",
+  systems_designed_in_such_manner: "'shared' (rather than 'dedicated' or 'isolated')",
+  a_tenant: "A group of users who share a common access with specific privileges to the software instance",
+  the_distinction_between_the_customers: "Achieved during application design, thus customers do not share or see each other's data",
+  the_use_of_multitenancy: { definition: "Increasing day by day", what_it_does: "", examples: "operating systems and database management systems)" },
+
 };
 
 // ============================================================
