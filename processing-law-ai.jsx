@@ -27448,6 +27448,24 @@ const FLAT_DICT = {
   another_such_attempt: "The micro robot (Colias), [ 35 ] built in the Computer Intelligence Lab at the University of Lincoln , UK",
   this_micro_robot: "Built on a 4 cm circular chassis and is a low-cost and open platform for use in a variety of swarm robotics applications",
 
+  // === INGESTED 2026-06-23 13:04 ===
+  manta_rays: "Particularly valued for their gill plates , which are traded internationally",
+  mantas: "Found in warm temperate , subtropical and tropical waters",
+  alfredi: "A more resident and coastal species",
+  areas_where_mantas_congregate: "Popular with tourists",
+  only_a_few_public_aquariums: "Large enough to house them",
+  the_name_manta: { definition: "Portuguese and Spanish for mantle (cloak or blanket), a type of blanket-shaped trap traditionally used to catch rays", what_it_does: "", examples: "vampyrus , americana , johnii , and hamiltoni )" },
+  hynei: "A fossil species dating to Early Pliocene North America",
+  the_spiracles_typical_of_rays: "Vestigial and concealed by small flaps of skin, and mantas must keep swimming with their mouths open to keep oxygenated water passing over their gills",
+  birostris: "Not evenly distributed over the oceans, but is concentrated in areas that provide the food resources it requires, while M",
+  mantas_defecate_dark_red_fecal_matter_which: "Often mistaken for blood",
+  the_gestation_period: "Thought to be 12–13 months",
+  their_distributions: "Thus fragmented, with little evidence of intermingling of subpopulations",
+  the_cms: "An international treaty organization concerned with conserving migratory species and habitats on a global scale",
+  although_individual_nations: "Already protecting manta rays, the fish often migrate through unregulated waters, putting them at increased risk from overfishing",
+  sailors_believed_that_they: { definition: "Dangerous to humans and could pull ships out to sea by the anchor", what_it_does: "", examples: "Jaws author Peter Benchley" },
+  the_pups: "Born black all over like their mother, 1.6 metres (5 ft) wide, and weighed 42 kilograms (93 lb)",
+
 };
 
 // ============================================================
