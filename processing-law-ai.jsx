@@ -28448,6 +28448,26 @@ const FLAT_DICT = {
   the_proper_line_of_conduct_therefore: "By a well-directed economy to retrench every current expense, and to make as large a saving during the peace as possible",
   the_french_version_by_germain_garnier: "Not the first to appear, but is regarded as better than earlier translations",
 
+  // === INGESTED 2026-06-23 16:23 ===
+  a_change: "Called a Pareto improvement if it leaves at least one person in society better off without leaving anyone else worse off than they were before",
+  when_no_pareto_improvements: "Possible, the state is a 'Pareto optimum'",
+  a_special_case_of_a_state: "An allocation of resources",
+  the_pareto_order: "A strict partial order , though it is not a product order (neither non-strict nor strict)",
+  weak_pareto_efficiency: "A situation that cannot be strictly improved for every individual",
+  a_situation: "Weak Pareto efficient if it has no strong Pareto improvements",
+  any_strong_pareto_improvement: "Also a weak Pareto improvement",
+  the_opposite: { definition: "Not true: ex-ante PE is stronger that ex-post PE", what_it_does: "", examples: "suppose there are two objects – a car and a house" },
+  this_will_occur_if_it: "Limited by the same informational or institutional constraints as are individual agents",
+  fractional_pareto_efficiency: "A strengthening of Pareto efficiency in the context of fair item allocation",
+  an_allocation_of_indivisible_items: "Fractionally Pareto efficient (' fPE or fPO ) if it is not Pareto dominated even by an allocation in which some items are split between agents",
+  all_five_outcomes: "PE, so every lottery is ex-post PE",
+  bayesian_efficiency: "An adaptation of Pareto efficiency to settings in which players have incomplete information regarding the types of other players",
+  despite_the_fact_that_it: { definition: "Frequently used in conjunction with the idea of Pareto optimality, the term 'efficiency' refers to the process of increasing societal productivity", what_it_does: "", examples: "social efficiency, overall welfare, and issues such as diminishing marginal value" },
+  due_to_the_fact_that_it: "Feasible to improve, market failure implies Pareto inefficiency",
+  suppose_each_agent_i: "Assigned a positive weight a i",
+  a_shorter_proof: { definition: "Provided by Hal Varian", what_it_does: "", examples: "property rights and corrective taxes" },
+  the_theorem_tells_us_that_no_taxation: "Pareto efficient and that taxation with redistribution is Pareto inefficient",
+
 };
 
 // ============================================================
