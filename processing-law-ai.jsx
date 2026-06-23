@@ -27070,6 +27070,15 @@ const FLAT_DICT = {
   the_more_metadata: "Assigned to an asset the easier it gets to categorize it, especially as the amount of information grows",
   still: "Not required to give access",
 
+  // === INGESTED 2026-06-23 11:20 ===
+  aicpa: { definition: "Headquartered in Durham, North Carolina , and maintains additional offices in New York City , Washington, D.C", what_it_does: "", examples: "Fair Value Accounting Estimates, and Related Disclosures" },
+  the_credentials: { definition: "Similar to state board certifications for attorneys, which also recognize subject matter-specific expertise", what_it_does: "", examples: "the Feed the Pig campaign and the 360 Degrees of Financial Literacy site" },
+  a_lot_of_the_reasons_for_such_statistics: "The numerous barriers that people of color have to face in order to even meet the qualifications to take the CPA exam",
+  the_role_of_the_difficulty_of_education: "Highlighted in studies done by the AICPA and the National Association of State Boards of Accountancy (NASBA) themselves",
+  one_of_the_first_actions_taken_by_the_aicpa: "The creation of the Minority Recruitment and Equal Opportunity Committee, renamed the Minority Initiatives Committee (MIC) in 1969 [ 35 ]",
+  the_main_goals_of_this_committee: { definition: "To promote small minority owned businesses, while also providing opportunities for minority men and women", what_it_does: "", examples: "the historically black colleges and universities (HBCUs) [ 35 ]" },
+  webtrust: "A family of e-commerce assurance and auditing programs co-developed by the AICPA with the Canadian Institute of Chartered Accountants (CICA)",
+
 };
 
 // ============================================================
