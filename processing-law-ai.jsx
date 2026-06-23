@@ -29661,6 +29661,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 21:18 ===
   the_effect_of_these_individual_endowments: "Further reinforced through schooling, though somewhat diluted as men with high individual endowments tend to marry less educated wives",
 
+  // === INGESTED 2026-06-23 21:20 ===
+  the_title_of_his_dissertation: "Essays in Intertemporal Economics",
+
 };
 
 // ============================================================
