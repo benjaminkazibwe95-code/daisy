@@ -23917,6 +23917,25 @@ const FLAT_DICT = {
   sweet_potato_chips: "Also a commonly sold snack, be it on the street or in packaged foods",
   cultivars: "Available in many colors, such as green, yellow, and purple",
 
+  // === INGESTED 2026-06-23 01:32 ===
+  vegetables_are_edible_parts_of_plants_that: { definition: "Consumed by humans or other animals as food", what_it_does: "", examples: "flowers , fruits , stems , leaves , roots , and seeds" },
+  the_word_vegetable: "First recorded in English in the early 15th century",
+  the_broadest_definition: { definition: "The word's use adjectivally to mean 'matter of plant origin'", what_it_does: "", examples: "mature fruits that are eaten as part of a main meal'" },
+  the_question_of_whether_the_tomato: "A fruit or a vegetable found its way into the United States Supreme Court in 1893",
+  hedden_that_a_tomato: { definition: "Correctly identified as, and thus taxed as, a vegetable, for the purposes of the Tariff of 1883 on imported produce", what_it_does: "", examples: "large fruit and vigorous growth soon followed" },
+  the_diet_of_the_ancient_egyptians: "Based on bread , often contaminated with sand which wore away their teeth",
+  particularly_important: "The antioxidant vitamins A , C , and E",
+  when_vegetables: { definition: "Included in the diet, there is found to be a reduction in the incidence of cancer, stroke, cardiovascular disease, and other chronic ailments", what_it_does: "", examples: "vitamin A, vitamin K , and vitamin B 6 ; provitamins ; dietary minerals ; and carbohydrates" },
+  these_foods: "Commonly eaten raw and may become contaminated during their preparation by an infected food handler",
+  potatoes_are_not_included_in_the_count_as_they: { definition: "Mainly providers of starch", what_it_does: "", examples: "lettuce and spinach , a single serving is typically a full cup" },
+  some_are_staple_foods_but_most: "Accessory foodstuffs, adding variety to meals with their unique flavors and at the same time, adding nutrients necessary for health",
+  some_vegetables_are_perennials_but_most: "Annuals and biennials , usually harvested within a year of sowing or planting",
+  harvesting_root_vegetables_when_they: { definition: "Fully mature improves their storage life, but alternatively, these root crops can be left in the ground and harvested over an extended period", what_it_does: "should seek to minimise damage and bruising to the crop", examples: "" },
+  most_vegetables: "Perishable and short-term storage for a few days provides flexibility in marketing",
+  if_refrigerated_storage: "Not available, the priority for most crops is to store high-quality produce, to maintain a high humidity level, and to keep the produce in the shade",
+  the_can: { definition: "Then able to be stored at ambient temperatures for a long period", what_it_does: "", examples: "tomatoes, mushrooms, and beans, spreading the produce on racks and turning the crop at intervals" },
+  sauerkraut: "Made from chopped cabbage and relies on lactic acid bacteria which produce compounds that are inhibitory to the growth of other micro-organisms",
+
 };
 
 // ============================================================
