@@ -30087,6 +30087,22 @@ const FLAT_DICT = {
   academisation_is_not_always_successful_nor: "It the only proven alternative for a struggling school'",
   critics_contend_that_this: { definition: "Significantly more than it costs to build a new local authority school", what_it_does: "", examples: "Djanogly CTC is now Djanogly City Academy ) was a 2003 conversion" },
 
+  // === INGESTED 2026-06-23 22:48 ===
+  a_military_academy_or_service_academy: { definition: "An educational institution which prepares candidates for service in the officer corps", what_it_does: "", examples: "military engineers and artillery , with scientific training" },
+  its_original_purpose: "To train cadets entering the Royal Artillery and Royal Engineers",
+  french_military_academies: "Widely copied in Prussia , Austria , Russia",
+  the_academy: "Established in 1750, and is the oldest institution for higher education in Norway",
+  the_two_original_departments: "Later combined and moved to Sandhurst",
+  many_military_schools: "Also boarding schools, and others are simply magnet schools in a larger school system",
+  a_collegelevel_military_academy: "An institute of higher learning of things military",
+  graduates_from_national_academies: "Typically commissioned as officers in the country's military",
+  the_only_exception_in_the_united_states: "The Virginia Military Institute which remains all-military",
+  rmcc: { definition: "Established in 1876, while RMC Saint-Jean was established in 1954", what_it_does: "", examples: "the Canadian Forces College , and the Canadian Forces Language School" },
+  these_higher_education_institutions: "Operated by the Philippine Government and grant different baccalaureate degrees",
+  today_four_institutions: "Considered military junior colleges (MJC)",
+  the_four_military_junior_colleges: "As follows: There are six state-operated Merchant Marine academies: These merchant marine academies operate on a military college system",
+  part_of_the_training_that_the_cadets_receive: "Naval and military in nature",
+
 };
 
 // ============================================================
