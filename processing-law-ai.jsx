@@ -28758,6 +28758,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 17:30 ===
   the_trieste_area_science_park: "Composed of two neighbouring campus developments located near the exit from the motorway linking Trieste to Austria and Slovenia",
 
+  // === INGESTED 2026-06-23 17:32 ===
+  whether_an_innovation: "New to the firm, new to the market, new to the industry, or new to the world) and kind of innovation (i.e",
+  whether_it: "Process or product-service system innovation)",
+  the_second_component: { definition: "Found to be productivity", what_it_does: "", examples: "through patenting ), the widespread practice of Planned obsolescence (incl" },
+  disruptive_innovation_in_contrast: { definition: "A process by which a new product or service creates a new market (e.g", what_it_does: "", examples: "service innovation and organizational innovation" },
+  these_social_innovations: { definition: "Socialism, communism, nationalization, cooperative associations", what_it_does: "", examples: "the transition from the craft shop to factory)" },
+  another_source_of_innovation: "End-user innovation",
+  some_causes: "External to the organization and outside its influence of control",
+  the_first_approach: { definition: "That of Jean-Philippe Deschamps, a professor at the IMD in Lausanne, Switzerland, who distinguishes six main characteristics", what_it_does: "has been proposed that the lifecycle of innovations can be described using the ' s-curve ' or diffusion curve", examples: "" },
+  comparisons: { definition: "Thus often meaningless across products or service", what_it_does: "", examples: "investment in R&D (Research and Development) as percentage of GNP (Gross National Product)" },
+  because_clusters: { definition: "The geographic incubators of innovative products and processes, a cluster development grant program would also be targeted for implementation", what_it_does: "", examples: "government debt , carbon footprint , and oil dependence" },
+  landgate: "The first Western Australian government agency to establish its Innovation Program",
+  many_regional_governments: "Setting up innovation agencies to strengthen regional capabilities",
+
 };
 
 // ============================================================
