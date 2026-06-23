@@ -26345,6 +26345,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 08:52 ===
   such_a_process: { definition: "Called 'regular, change-based code review'", what_it_does: "", examples: "safety critical embedded software ) may be too fast to find errors" },
 
+  // === INGESTED 2026-06-23 08:54 ===
+  stoll: "An FCC licensed amateur radio operator with the call sign K7TA",
+
 };
 
 // ============================================================
