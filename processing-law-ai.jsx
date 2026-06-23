@@ -24615,6 +24615,10 @@ const FLAT_DICT = {
   examples_of_this: { definition: "The names of the days of the week", what_it_does: "", examples: "English, number is obligatorily expressed in every grammatical context" },
   they_may_do_so_by_lexical: "With words such as English a few , some , one , two , five hundred",
 
+  // === INGESTED 2026-06-23 03:35 ===
+  the_word_pejorative: "Derived from a Late Latin past participle stem of peiorare , meaning 'to make worse', from peior 'worse'",
+  an_example_of_pejoration: "The shift in meaning of the word silly from meaning that a person was happy and fortunate to meaning that they are foolish and unsophisticated",
+
 };
 
 // ============================================================
