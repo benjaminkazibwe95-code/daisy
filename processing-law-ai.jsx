@@ -28683,6 +28683,21 @@ const FLAT_DICT = {
   although_the_uk_and_us_designs: { definition: "Technically superior, the lack of experience in the field meant that their machines were less reliable", what_it_does: "", examples: "the DoD and government programs such as Social Security and Medicare" },
   the_amounts_with_which: { definition: "Decided gradually change based on the importance as well as efficiencies and inefficiencies of agencies or priorities", what_it_does: "", examples: "is found in autonomous work groups" },
 
+  // === INGESTED 2026-06-23 17:15 ===
+  new_product_development: "The realization of a market opportunity by making a product available for purchase",
+  a_process_management_approach: { definition: "Used to provide a structure", what_it_does: "", examples: "ideation among other aspects of design , as well as manufacturing and market introduction" },
+  the_development_process: "Articulated and broken down in many different ways, many of which often include the following phases/stages: PHASE 1",
+  the_second_element: "The opportunity analysis",
+  its_purpose: "To choose whether to pursue an idea by analyzing its potential business value",
+  the_fifth_element: "The idea and technology development",
+  these_activities: "Often chaotic, unpredictable, and unstructured",
+  the_term_fuzzy_front_end: "First popularized by Smith and Reinertsen (1991)",
+  the_front_end_of_the_innovation: "The greatest area of weakness in the NPD process",
+  this_is_mainly_because_the_ffe: { definition: "Often chaotic, unpredictable and unstructured", what_it_does: "", examples: "QFD , DFM / DFA and more" },
+  the_primary_goal_of_expd: "To reduce uncertainty and risk by reducing the unknown",
+  expd: "Described as a two-pronged, integrated systems approach",
+  an_innovation_manager: { definition: "A senior person appointed to be responsible for implementing and managing such a system", what_it_does: "", examples: "a reduction in G&A (general & administrative) overhead costs of consulting firms" },
+
 };
 
 // ============================================================
