@@ -25845,6 +25845,18 @@ const FLAT_DICT = {
   subsaharan_africa: "Also part of ARIN's region until April 2005, when AfriNIC was officially recognized by ICANN as the fifth regional Internet registry",
   any_service_member: "Eligible to participate in ARIN Elections by requesting General Membership [ 16 ]",
 
+  // === INGESTED 2026-06-23 07:35 ===
+  equal_opportunity: { definition: "Central to the concept of meritocracy", what_it_does: "", examples: "political philosophy, sociology and psychology" },
+  if_firing_any_pregnant_employee: "Legal, it would meet Equality before the law but would violate both Formal equality of opportunity and substantive equality",
+  formal_equality_of_opportunity: "Often more difficult to measure",
+  social_mobility_and_the_great_gatsby_curve: { definition: "Often used as an indicator of substantive equality of opportunity", what_it_does: "", examples: "the family , marriage , or religion" },
+  equality_of_opportunity: "Often seen as a major aspect of a meritocracy",
+  the_substantive_model: { definition: "Advocated by people who see limitations in formal equality", what_it_does: "", examples: "personal responsibility was important" },
+  a_basic_definition_of_equality: "The idea of equal treatment and respect",
+  monarchies: "Replaced by democracies : kings were replaced by parliaments and congresses",
+  slavery: "Also abolished generally",
+  the_equal_employment_opportunity_commission: { definition: "Established, sometimes reviewing charges of discrimination cases which numbered in the tens of thousands annually during the 1990s", what_it_does: "", examples: "cases of equal opportunity" },
+
 };
 
 // ============================================================
