@@ -29095,6 +29095,9 @@ const FLAT_DICT = {
   the_us: { definition: "The largest donor across the four funds, while Norway makes the largest contribution relative to population size", what_it_does: "", examples: "public transportation or water utilities, is included in their investment" },
   energy_efficiency_investments: "Good to both the bottom line and the environment",
 
+  // === INGESTED 2026-06-23 18:48 ===
+  the_official_head_of_the_agency: { definition: "The comptroller of the currency, who is appointed to a five-year term by the president with the consent of the Senate", what_it_does: "", examples: "President Abraham Lincoln and Treasury Secretary Salmon P" },
+
 };
 
 // ============================================================
