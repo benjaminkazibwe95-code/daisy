@@ -27358,6 +27358,17 @@ const FLAT_DICT = {
   closed_captioning_and_external_tty_devices: { definition: "Supported, while Live Caption can transcribe audio across all apps and display it onscreen", what_it_does: "", examples: "door bells, kettles, water running, and babies crying, and notify the user with an onscreen alert" },
   apple_speculated_that_they: { definition: "Likely shipped overseas and unlocked, a lucrative market before the iPhone 3G's worldwide release", what_it_does: "", examples: "the EU , [ 133 ] UK , [ 134 ] and U.S" },
 
+  // === INGESTED 2026-06-23 12:41 ===
+  on_the_other: "Over-stress (hyperstress) and understress (hypostress)",
+  a_stressor: { definition: "Inherently neutral meaning that the same stressor can cause either distress or eustress", what_it_does: "", examples: "heart disease and anxiety" },
+  daily_hassles: { definition: "The most frequently occurring type of stressor in most adults", what_it_does: "", examples: "lost or delayed baggage) and routine breakers (inability to maintain daily habits)" },
+  they_are_defined_as_stressors_that: "'chronic, negatively valued, non-urgent, physically perceptible, and intractable to the efforts of individuals to change them'",
+  one_such_scale: { definition: "The Holmes and Rahe Stress Scale , also known as the Social Readjustment Rating Scale, or SRRS", what_it_does: "", examples: "job changes, correlate with insomnia, impaired sleeping , and health complaints" },
+  decreasing_stressful_behaviors: { definition: "A part of prevention", what_it_does: "", examples: "alertness and concentration, decreases overall levels of tension, and improves self-esteem" },
+  because_stress: "Perceived, the following mechanisms do not necessarily deal with the actual situation that is causing an individual stress",
+  the_following_mechanisms: "Adapted from the DSM-IV Adaptive Functioning Scale, APA, 1994",
+  perceptions_of_stress: "Critical for making decisions and living everyday life",
+
 };
 
 // ============================================================
