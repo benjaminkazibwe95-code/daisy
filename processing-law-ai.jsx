@@ -24053,6 +24053,20 @@ const FLAT_DICT = {
   olive_fruit: { definition: "Pressed for olive oil and similar processing is applied to other oil-bearing fruits and vegetables", what_it_does: "", examples: "blackberries and apricots in the UK) are subject to seasonal availability" },
   fruits_and_vegetables_that: "Not going to be cooked should be thrown away if they have touched raw meat, poultry, seafood, or eggs",
 
+  // === INGESTED 2026-06-23 01:51 ===
+  the_kenyan_national_team: "Governed by Cricket Kenya",
+  in_what_at_the_time: "Described as the most startling upsets in the history of the World Cup, Kenya bowled out the West Indies for just 93 and won by 73 runs",
+  the_team: "Expected to be crushed by the full member teams in its group and this proved to be correct in most of their matches",
+  but_the_highlights_of_their_campaign: "Beating former World Champions the West Indies in a low-scoring affair",
+  the_fourday_match: "Drawn, and Kenya won the one-day series 4–1",
+  both_firstclass_matches: "Drawn, and Sri Lanka A won the first two one-day games, with the final two being abandoned",
+  the_first_firstclass_game: "Won by the West Indies, with the second being drawn, and the three ODIs all went the way of the visitors",
+  the_tournament: "Held in South Africa, with Kenya hosting their two matches against Sri Lanka and New Zealand",
+  their_return_to_odi_cricket: "A five match series against Zimbabwe, which was drawn 2–2 with one match abandoned",
+  while_the_east_africa_premier_league: "A Twenty20 tournament, the East African Cup is a 50-over tournament",
+  sears_said_that_they: "Pleased with the group of seven players who committed to Cricket Kenya, while equally disappointed with those who refused contracts",
+  perhaps_the_most_disappointing_aspect: "That they refused to represent their teams in the East African Competitions last weekend pulling out at the very last minute",
+
 };
 
 // ============================================================
