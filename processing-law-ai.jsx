@@ -29283,6 +29283,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 19:29 ===
   the_bourse_of_antwerp: "First opened in 1531 as the world's first purpose-built commodity exchange",
 
+  // === INGESTED 2026-06-23 19:31 ===
+  the_major_stock_exchanges: { definition: "The most visible example of liquid secondary markets—in this case, for stocks of publicly traded companies", what_it_does: "", examples: "Fannie Mae and Freddie Mac" },
+  these_markets: "Generally only available to institutional or accredited investors , and allow trading of unregistered and private company securities",
+
 };
 
 // ============================================================
