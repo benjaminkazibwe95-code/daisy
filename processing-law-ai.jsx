@@ -26031,6 +26031,14 @@ const FLAT_DICT = {
   in_one_instance_a_uae_minister: "Himself given a fine for using his mobile phone while driving",
   some_of_these_apps: "'paired' and require installation of the app on both the parents' phone and the driver's phones",
 
+  // === INGESTED 2026-06-23 08:08 ===
+  a_mobile_game: "A video game played on a mobile device",
+  snake: { definition: "Once recorded to be on 350 million devices worldwide", what_it_does: "", examples: "Apple's iOS App Store" },
+  these_players: "Colloquially termed 'whales', inspired by the same term used for high rolling gamblers",
+  the_largest_mobile_gaming_markets: "In the Asia-Pacific nations Japan and China , followed by the United States",
+  apps_with_similar_purposes_which: "Not strictly games are called gamified apps",
+  this_gameplay: { definition: "Different since players take individual turns in the game, therefore allowing them to continue playing against human opponents", what_it_does: "", examples: "AT&T Mobility , Verizon Wireless , Sprint Corporation and T-Mobile US" },
+
 };
 
 // ============================================================
