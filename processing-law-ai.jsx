@@ -25241,6 +25241,9 @@ const FLAT_DICT = {
   a_progress_report: "Presented at the 2008 G8 Summit in Japan; a final report on the results of the dialogue was put forward in Italy in 2009",
   the_following_list: "A list of leaders of G8+5 in March 2014, when Russia was suspended from the G8",
 
+  // === INGESTED 2026-06-23 05:51 ===
+  klug: "Associated with the university and the town of Be'er Sheva , having visited them numerous times",
+
 };
 
 // ============================================================
