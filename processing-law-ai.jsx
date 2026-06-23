@@ -28307,6 +28307,24 @@ const FLAT_DICT = {
   the_work_of_von_wieser: "Heavily influenced by that of Walras",
   wicksteed: { definition: "Heavily influenced by Menger", what_it_does: "", examples: "formal disregard for time-preference by Wicksell's American rival Irving Fisher" },
 
+  // === INGESTED 2026-06-23 15:49 ===
+  in_this_case_it: { definition: "Said that the price of a dollar in relation to yen is ¥141, or equivalently that the price of a yen in relation to dollars is $1/141", what_it_does: "", examples: "a currency may be floating , pegged (fixed) , or a hybrid" },
+  most_trades: "To or from the local currency",
+  the_buying_rate: "The rate at which money dealers will buy foreign currency, and the selling rate is the rate at which they will sell that currency",
+  one_form_of_charge: "The use of an exchange rate that is less favourable than the wholesale spot rate",
+  retail_foreign_exchange_trading: "A small segment of the larger foreign exchange market where individuals speculate on the exchange rate between different currencies",
+  in_order_to_determine_which: "The fixed currency when neither currency is on the above list (i.e",
+  where_rates: "Below 1, quotes frequently include five decimal places",
+  exchange_rates_for_such_currencies: "Likely to change almost constantly as quoted on financial markets , mainly by banks , around the world",
+  a_movable_or_adjustable_peg_system: "A system of fixed exchange rates , but with a provision for the revaluation (usually devaluation) of a currency",
+  most_of_these_countries: { definition: "Net debtors whose debt is denominated in one of the G3 currencies", what_it_does: "", examples: "the capital controls which have been used in Argentina to manage economic instability" },
+  the_transaction_demand: "Highly correlated to a country's level of business activity, gross domestic product (GDP), and employment levels",
+  the_more_people_that: "Unemployed , the less the public as a whole will spend on goods and services",
+  speculative_demand: "Much harder for central banks to accommodate, which they influence by adjusting interest rates",
+  internal_balance: "Reached when the level of output is in line with both full employment of all available factors of production, and a low and stable rate of inflation",
+  the_future_exchange_rate: "Reflected into the forward exchange rate stated today",
+  the_yen: { definition: "Said to be at a premium", what_it_does: "", examples: "stocks and bonds" },
+
 };
 
 // ============================================================
