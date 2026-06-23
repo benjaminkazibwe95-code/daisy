@@ -24448,6 +24448,36 @@ const FLAT_DICT = {
   the_malayic_languages: "Mutually intelligible to varying extents, though the distinction between language and dialect is unclear in many cases",
   batavian_and_eastern_dialects: "Sometimes regarded as Malay creole, because the speakers are not ethnically Malay",
 
+  // === INGESTED 2026-06-23 03:06 ===
+  the_part_of_africa_now_known_as_malawi: { definition: "Settled around the 10th century by the Akafula , also known as the Abathwa", what_it_does: "", examples: "the Maravi and Nkhamanga kingdoms, that flourished from the 16th century" },
+  banda: "Elected president of the NAC and worked to mobilize nationalist sentiment before being jailed by colonial authorities in 1959",
+  malawi: "Ranked 93rd out of 127 countries",
+  its_economy: "Heavily based on agriculture , and it has a largely rural and growing population",
+  the_name_malawi: "'flames' in Chichewa and Chitumbuka",
+  these_few_employees: "Then expected to administer and police a territory of around 94,000 square kilometres with between one and two million people",
+  an_influential_opponent_of_the_caf: "Hastings Banda, a European-trained doctor working in Ghana who was persuaded to return to Nyasaland in 1958 to assist the nationalist cause",
+  the_current_constitution: "Put into place on 18 May 1995",
+  the_executive_includes_a_president_who: "Both head of state and head of government , first and second vice presidents, and the Cabinet of Malawi",
+  the_president_and_vice_president: { definition: "Elected together every five years", what_it_does: "", examples: "the disabled, youth, and women" },
+  suffrage: "Universal at 18 years of age, and the central government budget for 2021/2022 is $2.4 billion from $2.8 billion for the 2020/2021 financial year",
+  corruption_within_the_government: "Seen as a major issue, despite the Malawi Anti-Corruption Bureau 's attempts to reduce it",
+  lake_malawi_national_park: { definition: "First listed in 1984, and the Chongoni Rock Art Area was listed in 2006", what_it_does: "", examples: "birds of prey, parrots, and falcons; waterfowl and large waders; and owls and songbirds" },
+  the_main_industries: "Tobacco, tea, and sugar processing, sawmill products, cement, and consumer goods",
+  the_industrial_production_growth_rate: "Estimated at 10% (2009)",
+  dependence_on_tobacco: { definition: "Growing, with the product jumping from 53% to 70% of export revenues between 2007 and 2008", what_it_does: "", examples: "spices such as paprika" },
+  the_destinations_for_exports: "South Africa, Germany, Egypt, Zimbabwe, the United States, Russia, and the Netherlands",
+  main_importing_countries: "South Africa, India, Zambia, Tanzania, the US, and China",
+  the_moth: "Capable of wiping out entire fields of corn, the staple grain of residents",
+  telephones: "Much more accessible in urban areas, with less than a quarter of land lines being in rural areas",
+  production_facilities: "To be established for a wide range of products within the three selected clusters: oilseed products, sugar cane products, and manufacturing",
+  abortion: "Illegal in Malawi , [ 128 ] except to save the mother's life",
+  the_entry_requirement: "Six credits on the Malawi School Certificate of Education, which is equivalent to O levels",
+  the_malawi_air_force: "Established with German help in 1976, and operates a small number of transport aircraft and multi-purpose helicopters",
+  the_malawian_navy: "Established in the early 1970s with Portuguese support, presently having three vessels operating on Lake Malawi, based in Monkey Bay",
+  wood_carving_and_oil_painting: { definition: "Also popular in more urban centres, with many of the items produced being sold to tourists", what_it_does: "", examples: "poet Jack Mapanje , history and fiction writer Paul Zeleza and author Legson Kayira" },
+  malawian_cuisine: "Diverse, with tea and fish being popular features of the country's cuisine",
+  lake_malawi: "A source of fish, including chambo (similar to bream ), usipa (similar to sardines ), and mpasa (similar to salmon and kampango )",
+
 };
 
 // ============================================================
