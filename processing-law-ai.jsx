@@ -24396,6 +24396,9 @@ const FLAT_DICT = {
   an_agreement: "Made between the Information Research Department (IRD) and Reuters for the UK Treasury to provide £350,000 over four years to fund Reuters' expansion",
   reuters_president_michael_friedenberg_said_he: { definition: "'delighted that TASS and Reuters are building upon our valued partnership", what_it_does: "", examples: "its own reporters" },
 
+  // === INGESTED 2026-06-23 02:53 ===
+  trade_blocs: "Seen by them to encourage regional free trade at the expense of global free trade",
+
 };
 
 // ============================================================
