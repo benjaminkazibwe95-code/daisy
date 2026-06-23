@@ -25375,6 +25375,21 @@ const FLAT_DICT = {
   the_provincial_states: "Other kingdoms absorbed into the empire",
   every_metropolitan_asante_state: "Headed by the Amanhene or paramount chief",
 
+  // === INGESTED 2026-06-23 06:18 ===
+  countries_that: "Not party to the Rome Statute and do not recognise the court's jurisdiction include China , India , Russia , and the United States",
+  the_official_seat_of_the_court: "In The Hague , Netherlands, but its proceedings may take place anywhere",
+  the_land_and_financing_for_the_construction: "Provided by the Netherlands",
+  three_architects: "Chosen by an international jury from 171 applicants to enter into further negotiations",
+  the_danish_firm_schmidt_hammer_lassen: { definition: "Selected to design the premises, since its design met all the ICC criteria, such as design quality, sustainability, functionality and costs", what_it_does: "", examples: "email, Microsoft Office , file storage and 'software for evidence analysis' through to 2025" },
+  thomas_lubanga: "Convicted and sentenced to 14 years imprisonment, Germain Katanga to 12 years, and Mathieu Ngudjolo Chui was acquitted",
+  bemba: { definition: "Convicted on two counts of crimes against humanity and three counts of war crimes", what_it_does: "", examples: "allegations of genocide" },
+  alleged_resistance_and_opposition: { definition: "Brutally suppressed with murder, imprisonment, torture, rape, and other forms of sexual violence, since 2021", what_it_does: "", examples: "the exchange of information and logistical support" },
+  the_relationship_between_the_court_and_the_un: "Governed by a 'Relationship Agreement between the International Criminal Court and the United Nations'",
+  the_cicc_also_claims_organisations_that: "Themselves federations, such as the International Federation of Human Rights Leagues (FIDH)",
+  ngos: "Also 'sources of criticism, exhortation and pressure upon' the ICC",
+  the_anonymous_sources: "Said to be familiar with disclosures Bensouda made to the ICC regarding the operation",
+  it_wrote_that_there_was_no_evidence_that_khan: { definition: "Involved, though his representatives met with those of Highgate", what_it_does: "", examples: "the court's president Piotr Hofmański and its vice-president Luz del Carmen Ibáñez Carranza" },
+
 };
 
 // ============================================================
