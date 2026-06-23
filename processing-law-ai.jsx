@@ -28325,6 +28325,10 @@ const FLAT_DICT = {
   the_future_exchange_rate: "Reflected into the forward exchange rate stated today",
   the_yen: { definition: "Said to be at a premium", what_it_does: "", examples: "stocks and bonds" },
 
+  // === INGESTED 2026-06-23 15:52 ===
+  exogenous_variables: "Independent of the model's disturbance term , since they are preset",
+  an_exogenous_factor_is_any_material_that: { definition: "Present and active in an individual organism or living cell but that originated outside that organism, as opposed to an endogenous factor", what_it_does: "", examples: "densities of populations and urbanizations of certain areas in the world" },
+
 };
 
 // ============================================================
