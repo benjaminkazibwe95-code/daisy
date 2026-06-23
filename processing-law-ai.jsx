@@ -25443,6 +25443,15 @@ const FLAT_DICT = {
   other_clans: "Competing with the sultanate for control",
   muskets_and_gunpowder: "Manufactured locally, and the city of Timbuktu depended on the Sultanate for protection",
 
+  // === INGESTED 2026-06-23 06:37 ===
+  the_large_rift_lakes_of_africa: { definition: "The ancient home of great biodiversity, and 10% of the world's fish species live in this region", what_it_does: "", examples: "Lake Kyoga" },
+  the_most_powerful_of_these_monarchies: "Buganda , Bunyoro , Karagwe , Rwanda, and Burundi",
+  a_short_rainy_season_in_october: "Followed by a longer one from April to May",
+  the_western_rift_valley_lakes: "Freshwater and home to an extraordinary number of endemic species",
+  the_lakes: "Also important habitats for a number of amphibian species",
+  the_lake_turkana_area: "Home to hundreds of species of birds endemic to Kenya",
+  the_birds: "Essentially supported by plankton masses in the lake, which also feed the fish there",
+
 };
 
 // ============================================================
