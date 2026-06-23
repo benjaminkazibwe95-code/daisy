@@ -26566,6 +26566,19 @@ const FLAT_DICT = {
   specialization_and_generalization: "Inverse processes: specialization creates subclasses from a superclass, while generalization creates a superclass from existing entity types",
   each_vehicle_owner: "Either a person, a bank, or a company, but not multiple types simultaneously",
 
+  // === INGESTED 2026-06-23 09:40 ===
+  such_mtas: { definition: "Called open mail relays", what_it_does: "", examples: "From, To, CC, Subject, Date, and other information about the email" },
+  the_header: "Separated from the body by a blank line",
+  the_separator: "Followed by the field value (the 'field body')",
+  such_addresses: { definition: "Supported by Google and Microsoft products, and promoted by some government agents", what_it_does: "", examples: "also fields defined for MIME, netnews, and HTTP, and referencing relevant RFCs" },
+  the_delivery_list: { definition: "Supplied separately to the transport protocol, SMTP , which may be extracted from the header content", what_it_does: "", examples: "underlines and italics , and change font styles" },
+  mail: "Typically not downloaded to the web client, so it cannot be read without a current Internet connection",
+  received_messages: "Often deleted from the server",
+  knowledge_workers_felt_email: { definition: "Critical to their success and productivity at work", what_it_does: "", examples: "an 'opt-in'—is likely to be viewed as unwelcome ' email spam '" },
+  email_bombing: "The intentional sending of large volumes of messages to a target address",
+  during_the_transit_time_it: { definition: "Possible that third parties read or even modify the content", what_it_does: "", examples: "SASL prevent this" },
+  the_reason_for_falling_behind: "Often due to information overload and a general sense there is so much information that it is not possible to read it all",
+
 };
 
 // ============================================================
