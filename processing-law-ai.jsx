@@ -27852,6 +27852,10 @@ const FLAT_DICT = {
   the_berkeley_high_campus: "Designated a historic district by the National Register of Historic Places on January 7, 2008",
   the_berkeley_city_council: "Composed of the mayor and eight council members elected by district who each serve four-year terms",
 
+  // === INGESTED 2026-06-23 14:36 ===
+  the_term_picotechnology: "A portmanteau of picometre and technology , intended to parallel the term nanotechnology",
+  picoscience: "A term used by some futurists to refer to structuring of matter on a true picometre scale",
+
 };
 
 // ============================================================
