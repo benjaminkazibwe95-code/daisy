@@ -27654,6 +27654,12 @@ const FLAT_DICT = {
   injection_molding_machines: "Classified primarily by the type of driving systems they use",
   tonnage: "Required on all machines so that the clamps of the machine do not open due to the injection pressure",
 
+  // === INGESTED 2026-06-23 14:01 ===
+  wordsense_disambiguation: { definition: "A process used by people and computers to determine [ 1 ] [ 2 ] the intended meaning of a word", what_it_does: "is context-sensitive", examples: "" },
+  polysemy: "The phenomenon where a word or phrase has multiple related meanings stemming from a common historical origin",
+  older_conceptual_words: "Typically highly polysemic, often extending beyond shades of similar meanings into ambiguity",
+  homonymy: "The phenomenon where two distinct words ( lexemes ) share the same spelling and pronunciation",
+
 };
 
 // ============================================================
