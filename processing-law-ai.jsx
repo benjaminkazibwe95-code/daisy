@@ -24266,6 +24266,28 @@ const FLAT_DICT = {
   these_prayers: "Shouted as loudly as possible, to make sure that the spirits could hear no matter where they were",
   the_mantis: "Divine messenger with a special reason for appearing and a medium was usually consulted to find the explanation",
 
+  // === INGESTED 2026-06-23 02:26 ===
+  the_empire: "Believed to have been founded around the year 700, though later and earlier dates have also been proposed",
+  the_kanembased_empire: "Brought to its zenith by the 13th-century mai Dunama II Dibalemi",
+  the_salt_industry: "Particularly prosperous, with the empire able to provide salt across the surrounding region",
+  although_kanem: "Later recovered by mai Idris III Katagarmabe , scholars sometimes divide the Kanem–Bornu Empire into an earlier Kanem Empire and later Bornu Empire",
+  the_bornubased_empire: "Brought to the peak of its power and influence under mai Idris IV Alooma in the late 16th century",
+  subsequent_civil_unrest: "Exploited by France and Britain",
+  although_the_alkanemi_dynasty: "Restored in 1900, they governed under colonial suzerainty",
+  the_early_history_of_kanem: "Poorly known [ 16 ] and subject to debate",
+  some_later_arab_sources_suggest_that_it: { definition: "A 'city of tents' in its original incarnation", what_it_does: "", examples: "the Toubou people in the north" },
+  revolts: "Met with brutal punishments; an 1896 uprising in Nganzai led to the execution of over a hundred rebel leaders",
+  much_of_the_money_collected: "Spent on Rabih's palace and on the army",
+  sanda_kura: { definition: "Installed as Bornu's new ruler at Dikwa", what_it_does: "", examples: "Boko Haram" },
+  colonial_historiographies: { definition: "For the most part focused on the central regions of respective colonies, and thus on powers such as Sokoto, Songhai, Mali , and Ghana", what_it_does: "", examples: "styles such as arjinoma , yerima , and tegoma" },
+  their_court: { definition: "Made more formal, though not to the same extent as that of the mai s (the zanadir was for instance not adopted)", what_it_does: "", examples: "musterema and yerima continued to be used" },
+  chima_kura_s: "The formal owners of a fief and could own multiple territories throughout the empire",
+  crops: "Planted at the beginning of the rainy season (June–October)",
+  the_main_crops: "Varieties of guinea corn and millet",
+  other_crops: "Also cultivated, such as maize , onion , rice , cucumber , peanuts , and calabash , but on a lesser scale",
+  the_limited_source_material_that: "Known indicates that women were important and valued in diplomacy, long-distance correspondence, and military logistics",
+  local_slaves: "Used in many different tasks, for instance in agricultural production",
+
 };
 
 // ============================================================
