@@ -27241,6 +27241,13 @@ const FLAT_DICT = {
   ranked_second_in_preventable_causes: "Hypertension at 7.6%, with obesity third at 7.5%",
   the_volunteer_lifesaver: "One of the country's icons",
 
+  // === INGESTED 2026-06-23 12:02 ===
+  most_attacks: { definition: "'bulk attacks' that are not targeted and are instead sent in bulk to a wide audience", what_it_does: "", examples: "financial institutions, email and cloud productivity providers, and streaming services" },
+  the_victim: { definition: "Then prompted to enter sensitive information or connected to a live person who uses social engineering tactics to obtain information", what_it_does: "", examples: "login credentials" },
+  page_hijacking: { definition: "Redirecting users to malicious websites or exploit kits by compromising legitimate web pages, often using cross site scripting", what_it_does: "", examples: "MPack into compromised websites to exploit legitimate users visiting the server" },
+  another_tactic: { definition: "To make the link's displayed text appear trustworthy, while actually linking to the phisher's site", what_it_does: "", examples: "clicking a link or opening an attachment, or revealing sensitive information" },
+  these_campaigns: { definition: "Just one of the ways that organizations are working to combat phishing", what_it_does: "", examples: "those suffered by Scandinavian bank Nordea in late 2005, [ 135 ] and Citibank in 2006" },
+
 };
 
 // ============================================================
