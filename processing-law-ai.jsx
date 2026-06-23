@@ -25003,6 +25003,9 @@ const FLAT_DICT = {
   the_somalis: { definition: "Never treated as equals by the Amhara and were scarcely integrated into the Ethiopian Empire", what_it_does: "", examples: "the provinces of Wollega and Illubabor" },
   these_fears: "The subject of endless discussions with me",
 
+  // === INGESTED 2026-06-23 04:52 ===
+  another_islamic_cemetery: "Found at Arra 30 km southwards and was used between the mid-12th and mid-14th century, with most tombstones dating to the 13th century",
+
 };
 
 // ============================================================
