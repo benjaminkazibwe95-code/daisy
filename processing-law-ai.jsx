@@ -30009,6 +30009,12 @@ const FLAT_DICT = {
   another_issue: "Whether Erasmus enables the mixing of Europeans",
   emrex: "Particularly used in Nordic countries, where it is integrated into national higher education information systems",
 
+  // === INGESTED 2026-06-23 22:29 ===
+  primarschule: "Used in Liechtenstein and Switzerland",
+  volksschule: "Used in Austria and Switzerland",
+  future_design_plans: "Audited to ensure that these standards are met but not exceeded",
+  the_external_finishes: { definition: "To be downgraded to meet a build cost of £1113/m 2", what_it_does: "", examples: "in Finland , or by a state run testing regime such as Ofsted in the United Kingdom" },
+
 };
 
 // ============================================================
