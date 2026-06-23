@@ -24977,6 +24977,26 @@ const FLAT_DICT = {
   each_point: "The date and time of the June solstice in that particular year",
   centurial_years: "Ordinary years, unless they are divisible by 400, in which case they are leap years",
 
+  // === INGESTED 2026-06-23 04:48 ===
+  a_comparable_architectural_style: { definition: "Evident in substantial 'palace' structures not only in Axum but also in other cities like Adulis and Matara", what_it_does: "", examples: "metalworking, glassware, and pottery" },
+  the_kebra_nagast: "Written by Nebure Id Yishaq of Aksum, but Aksum is never mentioned by name in the book",
+  they_say_that_it: "So named because its altar stone came from Sion",
+  this_church: "Very large; it has five aisles of good width and of great length, vaulted above, and all the vaults closed, the ceiling and sides all painted",
+  within_this_enclosure: { definition: "Handsome groups of one storey buildings, and all spout out their water by strong figures of lions and dogs of stone [of different colours]", what_it_does: "", examples: "the outer walls, within which the smaller new church was situated" },
+  its_dedication: "Celebrated by his daughter, Princess Yodit, who gave 'an incalculable quantity of money', so that the church became 'marvellous and magnificent'",
+  the_obelisk: "Widely regarded as one of the finest examples of engineering from the height of the Axumite empire",
+  these_obelisks: "Around 1,700 years old and have become a symbol of the Ethiopian people's identity",
+  the_other_major_features_of_the_town: "The old and new churches of Our Lady Mary of Zion",
+  the_church_of_our_lady_mary_of_zion: "Built in 1665 by Emperor Fasilides and said to have previously housed the Ark of the Covenant",
+  only_men: "Permitted entry into the Old St",
+  between_the_two_cathedrals: "A small chapel known as The Chapel of the Tablet built at the same time as the new cathedral, and which is believed to house the Ark of the Covenant",
+  admittance_to_the_chapel: "Closed to all but the guardian monk who resides there",
+  entrance: "Even forbidden to the Patriarch of the Orthodox Church, and to the Emperor of Ethiopia during the monarchy",
+  the_two_cathedrals_and_the_chapel_of_the_ark: "The focus of pilgrimage and considered the holiest sites in Ethiopia to members of its Orthodox Church",
+  the_largest_ethnic_group_reported: "Tigrayans with 98.54% and Tigrinya was spoken as a first language by 98.68%",
+  aksum_university: "Established in May 2006 on a greenfield site, 4 km (2.5 mi) from Axum's central area",
+  the_inauguration_ceremony: "Held on 16 February 2007 and the current area of the campus is 107 ha (260 acres), with ample room for expansion",
+
 };
 
 // ============================================================
