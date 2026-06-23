@@ -27402,6 +27402,14 @@ const FLAT_DICT = {
   another_form_of_advertising_that: "Prevalent in many social games are lead generation offers",
   cow_clicker: { definition: "Clearly designed to ridicule other social media games such as FarmVille , yet fifty-six thousand users played it at its peak", what_it_does: "", examples: "offers rewards whenever a user introduces the game to their friends" },
 
+  // === INGESTED 2026-06-23 12:50 ===
+  recent_analysis_tends_to_posit_that_ideology: { definition: "A 'coherent system of ideas' that rely on a few basic assumptions about reality that may or may not have any factual basis", what_it_does: "", examples: "particular representations of power relations" },
+  minar: { definition: "Six different ways the word ideology has been used: [ 18 ] For Willard A", what_it_does: "", examples: "liberalism and social democracy dominate" },
+  results_indicate_that_where_people_live: { definition: "Likely to closely correlate with their ideological beliefs", what_it_does: "", examples: "democracy , demagogy , theocracy , caliphate etc.), scope of government (e.g" },
+  sometimes_the_same_word: "Used to identify both an ideology and one of its main ideas",
+  the_classification_of_political_ideology: { definition: "Difficult, however, due to cultural relativity in definitions", what_it_does: "", examples: "Vladimir Lenin and Robespierre may thus overcome more moderate revolutionaries" },
+  the_dominant_ideology_in_a_society: "Passed along through the society's major social institutions, such as the media, the family, education, and religion",
+
 };
 
 // ============================================================
