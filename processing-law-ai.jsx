@@ -27647,6 +27647,13 @@ const FLAT_DICT = {
   today_other_forms_of_metal_cutting: "Becoming increasingly popular",
   water_jet_cutting: "Pressurized water over 620 MPa (90,000 psi) and can cut metal and have a finished product",
 
+  // === INGESTED 2026-06-23 13:58 ===
+  the_magnetic_and_hydraulic_clamps: "Used where fast tool changes are required",
+  a_hot_runner_system: { definition: "More complicated, often using cartridge heaters to keep the plastic in the runners hot as the part cools", what_it_does: "relies on the thermoplastic's insulating effect to reduce heat loss within the mold", examples: "" },
+  after_the_part: "Ejected, the plastic remaining in a hot runner is injected into the next part",
+  injection_molding_machines: "Classified primarily by the type of driving systems they use",
+  tonnage: "Required on all machines so that the clamps of the machine do not open due to the injection pressure",
+
 };
 
 // ============================================================
