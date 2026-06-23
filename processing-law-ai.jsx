@@ -25084,6 +25084,13 @@ const FLAT_DICT = {
   houses: { definition: "Built of dressed stone similar to the ones in Ancient Egypt", what_it_does: "", examples: "the Wargaade Wall" },
   this_component_today: { definition: "Most common among Afro-Asiatic-speaking populations in the Horn of Africa", what_it_does: "", examples: "anthropology , sociology , linguistics , historiography and archaeology" },
 
+  // === INGESTED 2026-06-23 05:09 ===
+  the_drone: "Most often placed upon the tonic or dominant (play 'Row, Row, Row Your Boat' with a drone on the tonic ⓘ , on the dominant ⓘ , or on both ⓘ",
+  in_vocal_music_drone: "Particularly widespread in traditional musical cultures, particularly in Europe, Polynesia and Melanesia",
+  drones: "Used by a number of music education programs for ear training and pitch awareness, as well as a way to improvise ensemble music",
+  the_music_of_italian_composer_giacinto_scelsi: "Essentially drone-based",
+  other_composers_whose_music: "Entirely based on drones include Charlemagne Palestine and Phill Niblock",
+
 };
 
 // ============================================================
