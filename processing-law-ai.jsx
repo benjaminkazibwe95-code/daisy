@@ -26874,6 +26874,9 @@ const FLAT_DICT = {
   even_if_drm: { definition: "Unbreakable, pirates still might not be willing to purchase, so sales might not increase", what_it_does: "", examples: "live performances" },
   the_mathematical_models: { definition: "Strictly applicable to the music industry", what_it_does: "", examples: "Spotify , Apple Music , etc.) and video (such as Netflix , Disney+ , Hulu , etc.)" },
 
+  // === INGESTED 2026-06-23 10:32 ===
+  mobile_linux: "A relatively recent addition to the Linux range of use , with Google's Android operating system pioneering the concept",
+
 };
 
 // ============================================================
