@@ -27165,6 +27165,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 11:37 ===
   line_corporation: "Founded on September 4, 2000, as Hangame Japan as a part of Hangame , a South Korean game company owned by NHN at the time",
 
+  // === INGESTED 2026-06-23 11:39 ===
+  both_his_father_and_grandfather: "Stockbrokers at Shearson",
+  the_award: { definition: "A 74% raise, which included over $18 million in restricted stock", what_it_does: "", examples: "former Chief of Staff Rahm Emanuel" },
+
 };
 
 // ============================================================
