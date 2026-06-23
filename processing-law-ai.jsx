@@ -24131,6 +24131,12 @@ const FLAT_DICT = {
   alexander_and_his_exploits: { definition: "Admired by many Romans, especially generals, who wanted to associate themselves with his achievements", what_it_does: "", examples: "Middle Persian , Syriac and Arabic" },
   their_works: "Lost, but later works based on these original sources have survived",
 
+  // === INGESTED 2026-06-23 02:03 ===
+  mbalax_dancing: "Popular in nightclubs and social gatherings as well as religious and life cycle events such as weddings, birthdays, and naming ceremonies",
+  the_basic_mbalax_dancing: "Pelvic gyrations and knee movements, but new movements arise as well, often associated with popular songs",
+  all_of_these_dance_crazes: "Closely tied to sabar breaks, and some (such as tawran tej) are even named for the vocal mnemonics of the sabar rhythm they accompany",
+  their_traditional_role: "Transmitting oral history, genealogies and social rankings, diplomacy, and storytelling",
+
 };
 
 // ============================================================
