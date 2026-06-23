@@ -29995,6 +29995,20 @@ const FLAT_DICT = {
   it_includes_multiple_definitions_but: "Different from self knowledge",
   selfawareness: "More in depth and explores the conscious and unconscious aspects of ourselves",
 
+  // === INGESTED 2026-06-23 22:25 ===
+  the_erasmus_programme: "An educational programme named after Erasmus , combining all the EU's current schemes for education, training, youth and sport",
+  the_original_idea_for_the_programme: "First developed in the 1960s by Italian pedagogist Sofia Corradi , who advocated for the official recognition of study periods abroad",
+  the_lack_of_peertopeer_support: "Singled out as a major issue, but it was also a driving force behind the creation of the Erasmus Student Network",
+  erasmus: "A backronym meaning European Community Action Scheme for the Mobility of University Students",
+  the_proportion: "Higher among university teachers, where Erasmus teacher mobility is 1.9% of the teacher population in Europe , or 20,877 people",
+  the_erasmus_mundus_programme: "A parallel scholarship programme oriented towards globalising European education and is open to non-Europeans with Europeans being exceptional cases",
+  projects: "Divided into two parts – formal and non-formal education – each of them with three key actions",
+  the_former_case: "Called a Student Mobility for Studies or SMS , while the latter case is called a Student Mobility of Placement or SMP",
+  a_derived_benefit: "That students can share knowledge and exchange tips and hints with each other before and after going abroad",
+  the_forum: { definition: "Based on the principle of participatory journalism", what_it_does: "", examples: "the task of legitimising the European institutions" },
+  another_issue: "Whether Erasmus enables the mixing of Europeans",
+  emrex: "Particularly used in Nordic countries, where it is integrated into national higher education information systems",
+
 };
 
 // ============================================================
