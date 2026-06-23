@@ -23682,6 +23682,12 @@ const FLAT_DICT = {
   the_onus: "On the accused in all of the above situations to prove that they did not have or consume illegal drugs",
   armenia: "The most recent country to ratify the protocol, on 19 October 2023",
 
+  // === INGESTED 2026-06-23 00:44 ===
+  extreme_poverty: "Defined as living on less than US$ 2.50 purchasing power parity",
+  this_score_shows_how_well_uganda: { definition: "Doing to ensure these rights and not the numbers or percentages of people", what_it_does: "", examples: "access to safe water, clean energy, quality education and health care" },
+  manufacturing_growth: "Expected to depend on agriculture both as a source of raw materials for exports and as a driver of rural incomes that sustain domestic demand",
+  the_main_goal_of_the_ndp_ii: "To propel Uganda to the middle-income status with a GDP per capita of US$1,003",
+
 };
 
 // ============================================================
