@@ -27341,6 +27341,11 @@ const FLAT_DICT = {
   the_investment_with_the_largest_roi: "Usually prioritized, even though the spread of ROI over the time period of an investment should also be taken into account",
   roi: { definition: "Not time-adjusted (unlike e.g", what_it_does: "", examples: "receivables and inventories)" },
 
+  // === INGESTED 2026-06-23 12:37 ===
+  the_change_in_sales_of_form_factors: { definition: "Due to the desktop iMac moving from affordable G3 to upscale G4 model and subsequent releases are considered premium all-in-ones", what_it_does: "", examples: "desktops and laptops) were shipped, up from 246 million in 2023 – a 3" },
+  these_computers: { definition: "Easy to customize and upgrade per user requirements, e.g", what_it_does: "", examples: "web browsing , accessing web-based applications , document processing, and audio/video playback" },
+  a_nettop: { definition: "A notable example of a compact desktop", what_it_does: "", examples: "small form factor and all-in-one desktops) cannot due to their compact size and clamshell design" },
+
 };
 
 // ============================================================
