@@ -30160,6 +30160,13 @@ const FLAT_DICT = {
   the_most_visible_result: "To allow thirty-five polytechnics to become universities (often referred to as the ' new universities ' or 'post-1992 universities')",
   a_goal_of_the_act: "To end the distinction – known as the 'binary divide' – between colleges and universities",
 
+  // === INGESTED 2026-06-23 23:07 ===
+  the_commissioners: "TEQSA's accountable authority",
+  stephen_somogyi: "The sole commissioner",
+  this_package_expanded_the_system_and: "Intended to create new opportunities for all Australians to reach their potential in higher education",
+  the_higher_education_standards_framework: "Reviewed in 2015 and became effective in January 2017",
+  the_impact_of_the_teqsa_act: { definition: "Reviewed in 2016-17 and, in 2019, a bill to implement the recommendations of the review was introduced to the Australian Parliament", what_it_does: "", examples: "academic and research integrity, cyber security, foreign interference and admission standards" },
+
 };
 
 // ============================================================
