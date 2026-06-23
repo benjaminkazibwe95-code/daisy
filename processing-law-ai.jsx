@@ -28421,6 +28421,33 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 16:19 ===
   principles_of_political_economy: "Ricardo's effort to fill that gap in the literature",
 
+  // === INGESTED 2026-06-23 16:21 ===
+  five_editions_of_the_wealth_of_nations: "Published during Smith's lifetime: in 1776, 1778, [ 11 ] 1784, 1786 and 1789",
+  the_differences: "Published along with an edited sixth edition in 1904",
+  this_diversification: "Greatest for nations with more industry and improvement, and is responsible for 'universal opulence' in those countries",
+  that_the_division_of_labour: "Limited by the Extent of the Market : Limited opportunity for exchange discourages division of labour",
+  masters: "Always and everywhere in a sort of tacit, but constant and uniform, combination, not to raise the wages of labour above their actual rate [",
+  smith: "Highly concerned about the problems of poverty",
+  smith_also: { definition: "The relation of cheap years and the production of manufactures versus the production in dear years", what_it_does: "", examples: "the linen production in France, show a correlation, another example in Scotland shows the opposite" },
+  he_concludes_that_there: "Too many variables to make any statement about this",
+  smith_argues_that_the_profits_of_stock: "Inversely proportional to the wages of labour, because as more money is spent compensating labour, there is less remaining for personal profit",
+  he_expects_that_in_due_time_it: { definition: "To be restored to him, and that in the meantime the borrower is to pay him a certain annual rent for the use of it", what_it_does: "", examples: "the property or the rent of land" },
+  the_stock_which: "Lent at interest is, no doubt, occasionally employed in both these ways, but in the former much more frequently than in the latter",
+  agricultural_work: "A more desirable situation than industrial work because the owner is in complete control",
+  the_great_commerce_of_every_civilised_society: "That carried on between the inhabitants of the town and those of the country",
+  the_country_supplies_the_town_with_the: "Of subsistence and the materials of manufacture",
+  a_great_part_of_them: "Uncultivated; but no part of them, whether cultivated or uncultivated, was left without a proprietor",
+  all_of_them: "Engrossed, and the greater part by a few great proprietors",
+  the_towns: { definition: "Chiefly inhabited by tradesmen and mechanics, who seem in those days to have been of servile, or very nearly of servile condition", what_it_does: "", examples: "tariffs , arguing that this creates inefficiency and high prices in the long run" },
+  smith_advocated_a_government_that: "Active in sectors other than the economy",
+  in_the_passage_above_smith: "Referring to 'the support of domestic industry' and contrasting that support with the importation of goods",
+  of_these_encouragements_what: "Called Drawbacks seem to be the most reasonable",
+  this_is_because_economic_growth: "Determined by the needs of a free market and the entrepreneurial nature of private persons",
+  politicians: "Inclined to spend the money on some other scheme that will win the favour of their constituents",
+  in_that_book_it: "Stated that the only way to become rich was to manage matters so as to make one's income exceed one's expenses",
+  the_proper_line_of_conduct_therefore: "By a well-directed economy to retrench every current expense, and to make as large a saving during the peace as possible",
+  the_french_version_by_germain_garnier: "Not the first to appear, but is regarded as better than earlier translations",
+
 };
 
 // ============================================================
