@@ -23627,6 +23627,27 @@ const FLAT_DICT = {
   the_last_immigrants: "The Jo Kager, who are related to the Omollo Luo",
   the_luo_people_of_kenya_are_nilotes_and: "Related to the Nilotic people",
 
+  // === INGESTED 2026-06-23 00:34 ===
+  many_locals: { definition: "Surprised that the NRA soldiers behaved relatively well, and many ex-UNLA troops felt secure enough to return to their homes", what_it_does: "", examples: "arbitrary arrests and torture of civilians" },
+  the_scale_of_the_abuses: "Unprecedented in the area, even compared to the situation under previous regimes",
+  a_growing_number_of_exunla_soldiers: "Also arrested on suspicions of weapon ownership or anti-government activities",
+  the_political_wing: { definition: "Led by Eric Otema-Allimadi , [ 21 ] former Prime Minister in the Obote government", what_it_does: "", examples: "the Sudanese Armed Forces" },
+  the_upda: { definition: "Consequently forced to abandon its offensive plans", what_it_does: "", examples: "Captain Mark Lapyem to join his movement" },
+  one_of_these_judges: "Future Rwandan President Paul Kagame",
+  its_forces: "Often poorly armed, resorting to knives and machetes ( pangas )",
+  the_hsm: { definition: "Surprised at this operation, and its defences were disorganized", what_it_does: "", examples: "500 defectors" },
+  auma: "Able to break out of the encirclement on 1 October, and decided to march against the city of Jinja",
+  the_battle: { definition: "A major defeat for the HSM, losing at least 100 dead and 60 captured", what_it_does: "", examples: "the removal of Ugandan rebels from Sudanese soil" },
+  its_first_action: "A bombing in Kampala in January 1988 that killed Libyan diplomat Ayyad Abeid Matus",
+  four_policemen: "Killed in the second attack, resulting in mass arrests of Tablighi Jamaat members",
+  although_the_situation: "Defused as a result of talks organized by Mengistu Haile Mariam of Ethiopia and Ali Hassan Mwinyi of Tanzania, tensions continued",
+  although_war: "Once again avoided, relations between Uganda and Kenya were not normalized until a meeting between Moi and Museveni in August 1990",
+  the_nra: "Also becoming more willing to make a deal with the UPDA as it was also exhausted by the constant war and still faced multiple other insurgencies",
+  his_movement: "Also less centralized",
+  his_group: "Substantially weakened for a time",
+  these_civilians: "Conscripted as porters or distributed as rewards to fighters",
+  these_talks: "Promising, and a ceasefire was agreed upon",
+
 };
 
 // ============================================================
