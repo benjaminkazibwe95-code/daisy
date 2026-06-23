@@ -24435,6 +24435,19 @@ const FLAT_DICT = {
   the_conference_of_fourteen_countries: { definition: "Organised by Otto von Bismarck , the first chancellor of Germany , at the request of Leopold II of Belgium at a building (No", what_it_does: "", examples: "rubber , minerals , ivory , and cotton made Africa highly valuable" },
   at_stake: { definition: "The British distinction between territorial annexations and protectorates", what_it_does: "", examples: "ethnic, linguistic, and cultural divides while creating new colony or protectorate borders" },
 
+  // === INGESTED 2026-06-23 03:04 ===
+  old_malay: "Written using Pallava and Kawi script, as evident from several inscription stones in the Malay region",
+  the_laws: { definition: "For the Minangkabau people , who today still live in the highlands of Sumatra, Indonesia", what_it_does: "", examples: "a massive infusion of Arabic vocabulary, as well as continued influence from Sanskrit and Tamil" },
+  the_text: "Addressed to the king of Portugal , following contact with Portuguese explorer Francisco Serrão",
+  malay: "Used solely as a lingua franca for inter-ethnic communications",
+  although_these_languages: "Not necessarily mutually intelligible to any extent, their similarities are often quite apparent",
+  latin_script: { definition: "Official in Malaysia, Singapore, and Indonesia", what_it_does: "", examples: "the Cham alphabet are used by the Chams of Vietnam and Cambodia" },
+  other_minority_languages: "Also commonly used by the country's large ethnic minorities",
+  the_situation_in_brunei: "Similar to that of Malaysia",
+  functional_phrases: { definition: "Taught to members of the Armed Forces of the Philippines as well as local students", what_it_does: "", examples: "Standard Malay, it has six, with /i/ split into /i, e/ and /u/ split into /u, o/" },
+  the_malayic_languages: "Mutually intelligible to varying extents, though the distinction between language and dialect is unclear in many cases",
+  batavian_and_eastern_dialects: "Sometimes regarded as Malay creole, because the speakers are not ethnically Malay",
+
 };
 
 // ============================================================
