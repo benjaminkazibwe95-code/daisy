@@ -29135,6 +29135,10 @@ const FLAT_DICT = {
   companies: "Allowed to use a tax-efficient structure similar to VCTs in the UK",
   entrepreneurs: "Typically well advised to protect truly proprietary intellectual property",
 
+  // === INGESTED 2026-06-23 18:56 ===
+  the_calculation_of_risk_weights: { definition: "Dependent on whether the bank has adopted the standardized or IRB approach under the Basel II framework", what_it_does: "", examples: "debentures , are assigned a higher risk than others, such as cash or government securities / bonds" },
+  the_main_recommendation_of_this_document: "That banks should hold enough capital to equal at least 8% of its risk-weighted assets",
+
 };
 
 // ============================================================
