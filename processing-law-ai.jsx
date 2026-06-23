@@ -26287,6 +26287,11 @@ const FLAT_DICT = {
   while_others_argue_that_this: { definition: "Questionable as software vendors are usually more exposed to being targeted by cyberattacker as they hold vast amount of data within the system", what_it_does: "", examples: "small and large corporations, and to automate specific business processes within them" },
   the_examples: "The software embedded into the mobile phone, computer and other electronic devices",
 
+  // === INGESTED 2026-06-23 08:46 ===
+  pooling: "The grouping together of assets, and related strategies for minimizing risk",
+  a_thorough_analysis_of_the_infrastructure: "Recommended to identify potential single point of failure (SPOF)",
+  carpooling: "Sharing of car journeys so that not all of the persons need to drive to a location themselves",
+
 };
 
 // ============================================================
