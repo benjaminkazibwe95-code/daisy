@@ -28182,6 +28182,9 @@ const FLAT_DICT = {
   later_that_year_it: "Renamed ProQuest LLC",
   refworks: { definition: "Merged with ProQuest's existing Community of Science (COS) business to form RefWorks/COS", what_it_does: "", examples: "the MyiLibrary platform and the Online Acquisitions and Selection Information System (OASIS)" },
 
+  // === INGESTED 2026-06-23 15:31 ===
+  a_larger_real_income: "More purchasing power, as it corresponds to the income itself",
+
 };
 
 // ============================================================
