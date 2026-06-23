@@ -23786,6 +23786,12 @@ const FLAT_DICT = {
   tantalite: "Also very close to tapiolite",
   tantalite_occurs_in_granitic_pegmatites_that: "Rich in rare-elements, and in placer deposits derived from such rocks",
 
+  // === INGESTED 2026-06-23 00:59 ===
+  the_concept_of_sunfed: "Dropped to form the Special Fund",
+  this_special_fund: "A compromise over the SUNFED concept: it did not provide investment capital but only helped to bring pre-conditions for private investment",
+  ipcig: { definition: "A global forum for South-South policy dialogue and learning, having worked with more than 7,000 officials from more than 50 countries", what_it_does: "", examples: "the salaries of over 25,000 health care professionals" },
+  the_documentary: "Described by The Guardian as exposing 'a toxic culture' where senior UN leaders hide 'behind a cloak of saintliness",
+
 };
 
 // ============================================================
