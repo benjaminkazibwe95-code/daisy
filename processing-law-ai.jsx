@@ -29747,6 +29747,23 @@ const FLAT_DICT = {
   their_answer: "That a business that wanted to succeed in that market had to spend time talking to and understanding those customers",
   its_signature_bop_product: "Pureit, a countertop water-purification system sold in India, Africa and Latin America",
 
+  // === INGESTED 2026-06-23 21:33 ===
+  the_authors_note_that_these_estimates: "Strongest for eukaryotic organisms and likely represent the lower bound of prokaryotic diversity",
+  estimates_of_species_losses: "At a rate 100–10,000 times as fast as is typical in the fossil record",
+  species_today: { definition: "Being wiped out at a rate 100 to 1,000 times higher than baseline, and the rate of extinctions is increasing", what_it_does: "destroys the resilience and adaptability of life on Earth", examples: "the Cape Floristic Region and lower in polar regions generally" },
+  naturebased_solutions: "A critical tool for a global resolution",
+  terrestrial_biodiversity: { definition: "Thought to be up to 25 times greater than ocean biodiversity", what_it_does: "", examples: "forest type, geography, climate and soils – in addition to human use" },
+  the_other_category_of_agricultural_diversity: { definition: "Called interspecific diversity and refers to the number and types of different species", what_it_does: "", examples: "pest control, nutrient cycling and pollination that support crop production" },
+  other_examples_of_diverse_species_or_organisms: { definition: "Present around the world, offering their resourceful utilities to provide protection of human survival", what_it_does: "", examples: "medical treatments to cancer, viral bacteria, AIDS, etc" },
+  the_loss_of_biodiversity: { definition: "Actually harming the GDP of the world by costing an estimated $5 trillion annually", what_it_does: "", examples: "spiritual and aesthetic values, knowledge systems and education" },
+  species_evenness: "The relative number of individuals of each species in a given area",
+  contemporary_biodiversity_physics: { definition: "'firmly fixated on the visible [macroscopic] world'", what_it_does: "", examples: "microbial life is metabolically and environmentally more diverse than multicellular life (see e.g" },
+  the_term_invasive_species: "Applied to species that breach the natural barriers that would normally keep them constrained",
+  some_studies_say_that_diverse_ecosystems: "More resilient and resist invasive plants and animals",
+  some_degree_of_gene_flow: { definition: "Normal adaptation and not all gene and genotype constellations can be preserved", what_it_does: "", examples: "economic incentives, and ecosystem services" },
+  recording_and_sharing_observations: "Enabled by several global-scale platforms, including iNaturalist and eBird",
+  the_biodiversity_strategy: "An essential part of the climate change mitigation strategy of the European Union",
+
 };
 
 // ============================================================
