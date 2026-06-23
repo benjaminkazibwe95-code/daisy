@@ -23648,6 +23648,13 @@ const FLAT_DICT = {
   these_civilians: "Conscripted as porters or distributed as rewards to fighters",
   these_talks: "Promising, and a ceasefire was agreed upon",
 
+  // === INGESTED 2026-06-23 00:36 ===
+  the_last_king_of_scotland: "A 2006 historical drama film directed by Kevin Macdonald from a screenplay by Peter Morgan and Jeremy Brock",
+  the_title_of_the_film: "Amin's spurious claim of being the King of Scotland",
+  garrigan: "Beaten by Amin's henchmen before Amin arrives and discloses he is aware of the relationship with Kay",
+  a_hijacked_aircraft: "Flown to Entebbe Airport by pro- Palestinian hijackers seeking asylum",
+  in_real_life_and_in_the_book_kay_amin: "Impregnated by her lover, an Ugandan physician (given a different name in the book from in real life)",
+
 };
 
 // ============================================================
