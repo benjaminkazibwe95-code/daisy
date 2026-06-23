@@ -27410,6 +27410,9 @@ const FLAT_DICT = {
   the_classification_of_political_ideology: { definition: "Difficult, however, due to cultural relativity in definitions", what_it_does: "", examples: "Vladimir Lenin and Robespierre may thus overcome more moderate revolutionaries" },
   the_dominant_ideology_in_a_society: "Passed along through the society's major social institutions, such as the media, the family, education, and religion",
 
+  // === INGESTED 2026-06-23 12:52 ===
+  this_page: "A timeline of social media",
+
 };
 
 // ============================================================
