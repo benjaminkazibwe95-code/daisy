@@ -26887,6 +26887,15 @@ const FLAT_DICT = {
   the_following_backends: "Available: [ 9 ] An unofficial Sixel back-end is available for SDL 1.2",
   sdl: { definition: "Also often used for later ports on new platforms with legacy code", what_it_does: "", examples: "DOSBox , FUSE ZX Spectrum emulator and VisualBoyAdvance" },
 
+  // === INGESTED 2026-06-23 10:36 ===
+  llvm: { definition: "Administered by the LLVM Foundation", what_it_does: "", examples: "a class in C++ can be represented by a mix of structures, functions and arrays of function pointers" },
+  the_name_llvm: "Originally an initialism for Low Level Virtual Machine",
+  a_similar_system: "Developed under the Gallium3D LLVMpipe, and incorporated into the GNOME shell to allow it to run without a proper 3D hardware driver loaded",
+  while_the_generator: { definition: "In early stages of development, in many cases it was more efficient than the C code generator", what_it_does: "", examples: "the calling convention is abstracted through call and ret instructions with explicit arguments" },
+  some_features: "Not available on some platforms",
+  most_features: { definition: "Present for IA-32, x86-64, z/Architecture, ARM, and PowerPC", what_it_does: "", examples: "Google Chrome / Chromium , Firefox , Microsoft Edge , Apple Safari or WAVM" },
+  lld: "Faster than both flavors of GNU ld",
+
 };
 
 // ============================================================
