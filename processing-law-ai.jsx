@@ -23974,6 +23974,21 @@ const FLAT_DICT = {
   after_the_spies: { definition: "Arrested, BAT negotiated a bribe so that the government would release them from jail", what_it_does: "", examples: "Somalia , South Sudan , Syria and Iraq" },
   this_act: "A violation of the existing sanctions imposed by the US against North Korea",
 
+  // === INGESTED 2026-06-23 01:40 ===
+  the_board: "Made up of government representatives elected by the United Nations Economic and Social Council , usually for three-year terms",
+  its_work: "Coordinated by the bureau, comprising the president and four vice-presidents, each officer representing one of the five regional groups",
+  these_five_officers: "Elected by the executive board annually from among its members, with the presidency rotating among the regional groups on an annual basis",
+  their_primary_function: { definition: "To raise funds from the private sector, as UNICEF is entirely dependent on voluntary contributions", what_it_does: "", examples: "from corporations, civil society organizations, around six million individual donors worldwide" },
+  the_us_fund_for_unicef: "The oldest of the national committees, founded in 1946",
+  the_results_of_this_contest: { definition: "Auctioned off and raised a total amount of 124,700 euros for benefit of UNICEF", what_it_does: "", examples: "child labour , can be identified and actions to ratify them are put in place" },
+  it_was_created_to_support_unicef_campaigns_and: "Sponsored by Hélène Ségara and Corneille , two francophone singers",
+  sms_polls_and_alerts: "Sent out to U-reporters and real-time response information is collected",
+  results_and_ideas: "Shared back with the community",
+  the_initiative: "Currently operational in 68 countries and covers more than 11 million people",
+  unicef_ambassadors: { definition: "Leaders in the entertainment industry, representing the fields of film, television, music, sports and beyond", what_it_does: "", examples: "Angela Merkel , demanding explanations, and the chairwoman of UNICEF Germany resigning in 2008" },
+  unicef_said_it: "Helping children in the UK because of an increase in food poverty in Britain, caused by the COVID-19 pandemic",
+  it_estimates_there: "Children going hungry in a fifth of households",
+
 };
 
 // ============================================================
