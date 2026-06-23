@@ -29509,6 +29509,11 @@ const FLAT_DICT = {
   because_cfcs: "Inert, their concentration in the ocean interior reflects simply the convolution of their atmospheric time evolution and ocean circulation and mixing",
   the_elapsed_time_since_a_subsurface_water_mass: "Last in contact with the atmosphere is the tracer-derived age",
 
+  // === INGESTED 2026-06-23 20:24 ===
+  member_states_that_were_noncompliant: "Subject to punishment or to dispute settlements that could produce adverse outcomes",
+  the_working_party_on_the_accession_of_vanuatu: "Reconvened informally on 4 April 2011 to discuss Vanuatu's future WTO membership",
+  the_agreement_on_technical_barriers_to_trade: "An international treaty of the World Trade Organization",
+
 };
 
 // ============================================================
