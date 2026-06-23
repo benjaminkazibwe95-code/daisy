@@ -30071,6 +30071,10 @@ const FLAT_DICT = {
   head_start: "Started by the Federal Government in 1964 to help meet the needs of under-privileged pre-school children",
   today_it: "A program within the Administration on Children, Youth and Families in the Department of Health and Human Services",
 
+  // === INGESTED 2026-06-23 22:44 ===
+  caring_for_the_sick: { definition: "An important obligation", what_it_does: "", examples: "Hippocrates, Galen, and Dioscorides" },
+  since_maintaining_a_hospital_wing: "A necessity, it is no surprise that monks invested a lot of time on medical treatment",
+
 };
 
 // ============================================================
