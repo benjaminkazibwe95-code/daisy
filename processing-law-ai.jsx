@@ -25057,6 +25057,33 @@ const FLAT_DICT = {
   the_fossils: "Discovered by Zeresenay Alemseged , and are remarkable for their age and condition",
   afarensis_a_lifelike_image_of_selam: "Published on the cover of the November 2006 issue of National Geographic",
 
+  // === INGESTED 2026-06-23 05:07 ===
+  this_ancient_historical_kingdom: "Where a great portion of their cultural traditions and ancestry are said to derive from",
+  one_other_theory_is_that_the_name: "Held to be derived from the words soo and maal , which together mean literally 'go and milk '",
+  asmach: "Thought to have been their Egyptian name, with Automoli being a Greek derivative of the Hebrew word S'mali (meaning 'on the left hand side')",
+  the_historian_alumari_records_that_ifat: "Situated near the Red Sea coast, and states its size as 15 days travel by 20 days travel",
+  the_incident_in_question: "That of a group of Somali children who were converted to Christianity and adopted by the French Catholic Mission at Berbera in 1899",
+  his_rival_boqor_osman_mahamuud: { definition: "To sign a similar agreement vis-a-vis his own Majeerteen Sultanate the following year", what_it_does: "", examples: "the Mogadishu–Villabruzzi Railway" },
+  harbi: "Killed in a plane crash two years later",
+  the_putsch: "Spearheaded by Major General Mohamed Siad Barre , who at the time commanded the army",
+  it_holds_territorial_properties_and: "Typically overseen by a Sultan",
+  each_clan: { definition: "Administered by its designated leader and supported by its council of elders, with land being communally owned and overseen", what_it_does: "", examples: "Sultan , [ 163 ] Emir , Imam , [ 164 ] Ughaz , [ 163 ] and Garaad" },
+  it_also_stipulates_that_no_law_that: "Inconsistent with the basic tenets of Shari'a can be enacted",
+  its_nearest_relatives: "The Afar and Saho languages",
+  one_source_estimates_that_there: { definition: "16.3 million speakers of Somali within Somalia and 25.8 million speakers globally", what_it_does: "", examples: "Mogadishu, as well as in the immediate hinterland" },
+  maay: "Principally spoken by the Digil and Mirifle ( Rahanweyn ) clans in the southwestern areas of Somalia",
+  somali_society: { definition: "Traditionally clan-based, with a strong emphasis on hospitality, kinship, and communal responsibility", what_it_does: "", examples: "the major scale" },
+  somali_songs: { definition: "Usually the product of collaboration between lyricists ( midho ), songwriters ( laxan ) and singers ( Codka or 'voice')", what_it_does: "", examples: "the oud , kaban (a type of lute), and percussion" },
+  although_the_issues_it_describes: { definition: "Later to some degree redressed, the work remains a mainstay of Somali literature", what_it_does: "", examples: "Oxford University , which first published the English translation under its press house" },
+  usage_of_the_eye_cosmetic_in_the_horn_region: "Believed to date to the ancient Land of Punt",
+  traditional_somali_attire: { definition: "Designed for modesty, comfort in a hot climate, and social or religious significance", what_it_does: "", examples: "judo, boxing, athletics, weightlifting, swimming, rowing, fencing, and wrestling" },
+  somalis: { definition: "Among the early adopters of coffee consumption and the first individuals documented to have enjoyed this drink", what_it_does: "", examples: "poetry and Hadith" },
+  early_somali_writing: "Primarily in Arabic script and Wadaad writing, a system used by religious scholars and their associates",
+  xeer_is_a_polycentric_legal_system_where_there: "No monopolistic agent that determines what the law should be or how it should be interpreted",
+  hundreds_of_these_dry_stone_monuments: "Found around the country today",
+  houses: { definition: "Built of dressed stone similar to the ones in Ancient Egypt", what_it_does: "", examples: "the Wargaade Wall" },
+  this_component_today: { definition: "Most common among Afro-Asiatic-speaking populations in the Horn of Africa", what_it_does: "", examples: "anthropology , sociology , linguistics , historiography and archaeology" },
+
 };
 
 // ============================================================
