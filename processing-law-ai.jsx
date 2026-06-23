@@ -27535,6 +27535,16 @@ const FLAT_DICT = {
   their_work_in_turn: { definition: "Elaborated by Nicole Oresme who pioneered the practice of illustrating the laws of motion with graphs", what_it_does: "", examples: "noninertial (accelerated) reference frames" },
   rotational_inertia: { definition: "Often considered in relation to a rigid body", what_it_does: "", examples: "a gyroscope uses the property that it resists any change in the axis of rotation" },
 
+  // === INGESTED 2026-06-23 13:19 ===
+  a_body: { definition: "Known as bluff or blunt when the source of drag is dominated by pressure forces, and streamlined if the drag is dominated by viscous forces", what_it_does: "", examples: "road vehicles are bluff bodies" },
+  parasite_drag: { definition: "Often expressed in terms of a hypothetical", what_it_does: "", examples: "the wing or propeller of an airplane" },
+  the_equivalent_parasite_area: { definition: "The area which a flat plate perpendicular to the flow would have to match the parasite drag of an aircraft", what_it_does: "", examples: "the Douglas DC-3 has an equivalent parasite area of 2.20 m 2 (23" },
+  the_reference_area_a: { definition: "Often the orthographic projection of the object, or the frontal area, on a plane perpendicular to the direction of motion", what_it_does: "", examples: "a sphere, this is the cross sectional area" },
+  since_power: { definition: "The rate of doing work, 4 times the work done in half the time requires 8 times the power", what_it_does: "", examples: "for a human body ( d {\displaystyle d} ≈0" },
+  an_alternative_perspective_on_lift_and_drag: "Gained from considering the change of momentum of the airflow",
+  a_further_major_call_for_streamlining: "Made by Sir Melvill Jones who provided the theoretical concepts to demonstrate emphatically the importance of streamlining in aircraft design",
+  the_busemann_biplane_theoretical_concept: "Not subject to wave drag when operated at its design speed, but is incapable of generating lift in this condition",
+
 };
 
 // ============================================================
