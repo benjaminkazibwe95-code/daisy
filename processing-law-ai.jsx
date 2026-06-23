@@ -28840,6 +28840,9 @@ const FLAT_DICT = {
   design_methods: "Procedures, techniques, aids, or tools for designing",
   what_design_methods_have_in_common: { definition: "That they 'are attempts to make public the hitherto private thinking of designers; to externalise the design process'", what_it_does: "", examples: "cybernetics , systems theory and semiotics into design education" },
 
+  // === INGESTED 2026-06-23 17:51 ===
+  a_workflow_application: "A software application that automates a process or processes to some degree",
+
 };
 
 // ============================================================
