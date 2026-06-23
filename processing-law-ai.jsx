@@ -30414,6 +30414,10 @@ const FLAT_DICT = {
   interpersonal_skills: { definition: "Actions used to effectively interact with others", what_it_does: "", examples: "social interaction" },
   grandiose_narcissists: "Characterized as confident; they possess unshakable belief that they are superior, even when it is unwarranted",
 
+  // === INGESTED 2026-06-23 23:51 ===
+  these_foundations: "Also a prerequisite for engaging in further education and training , and for acquiring transferable skills and technical and vocational skills",
+  such_skills: { definition: "Nurtured to some extent outside the school environment", what_it_does: "", examples: "traditional apprenticeships and agricultural cooperatives" },
+
 };
 
 // ============================================================
