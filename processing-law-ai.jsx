@@ -28384,6 +28384,9 @@ const FLAT_DICT = {
   this_award: "Given each year for a jury-selected best paper of the year",
   several_awards: "Awarded each year, as of 2014",
 
+  // === INGESTED 2026-06-23 16:06 ===
+  learningbydoing: "A concept in economic theory by which productivity is achieved through practice, self-perfection and minor innovations",
+
 };
 
 // ============================================================
