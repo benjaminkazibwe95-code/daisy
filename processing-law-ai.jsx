@@ -24743,6 +24743,13 @@ const FLAT_DICT = {
   recruitment: "Entirely voluntary; about 1.75 million men served in the First World War, many on the Western Front and 2.5 million in the Second",
   british_army_ranks_such_as_gunner_and_sapper: "Used by other corps",
 
+  // === INGESTED 2026-06-23 03:58 ===
+  turkana_county: "Emerging as a major source of electric power in Kenya",
+  catholicism: { definition: "The largest denomination with 44% of the population being Catholic and 28% being Protestant", what_it_does: "", examples: "the area covered by Lake Turkana, in Kenya" },
+  the_county: "Currently experiencing crude oil exploration in Block 10BB and Block 13T and has the potential for geothermal, solar and wind energy",
+  turkana_county_residents: "Also enjoying the fruits of devolution",
+  devolution_of_power_in_kenya: "Viewed as a blessing for the forgotten people of Turkana",
+
 };
 
 // ============================================================
