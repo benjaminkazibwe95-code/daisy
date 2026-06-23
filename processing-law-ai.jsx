@@ -25670,6 +25670,13 @@ const FLAT_DICT = {
   utp: "Less effective due to the £4,000 annual salary for Willis which limited the party's effectiveness, as they lacked funds to campaign effectively",
   the_main_leader_of_the_independence_movement: { definition: "Undoubtedly Nyerere, who led the party TANU, which was a socially diverse group which had shared demands for independence from Britain", what_it_does: "", examples: "poor financial resources and inadequate levels of infrastructure" },
 
+  // === INGESTED 2026-06-23 07:06 ===
+  walter_anthony_rodney: "Born in 1942 into a working-class family in Georgetown , Guyana",
+  the_trial: "Deferred three times and later dropped for lack of evidence",
+  it_was_groundbreaking_in_that_it: "Among the first to bring a new perspective to the question of underdevelopment in Africa",
+  rodney: "The subject of the 2010 documentary film by Clairmont Chung, W.A.R",
+  walter_rodney: "Listed on the Black Achievers Wall in the International Slavery Museum , Liverpool, UK",
+
 };
 
 // ============================================================
