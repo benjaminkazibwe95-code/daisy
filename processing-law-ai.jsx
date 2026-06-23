@@ -25990,6 +25990,29 @@ const FLAT_DICT = {
   the_oneofakind_prototype: "Now at the Lane Motor Museum in Nashville, Tennessee",
   gyroscopes_in_consumer_electronics: { definition: "Frequently combined with accelerometers for more robust direction- and motion-sensing", what_it_does: "", examples: "the Oculus Rift" },
 
+  // === INGESTED 2026-06-23 08:02 ===
+  major_versions_of_ios: "Released annually; the current stable version, iOS 26 , was released to the public on September 15, 2025",
+  although_some_parts_of_ios: "Open source under the Apple Public Source License [ 12 ] and other licenses, [ 13 ] iOS is proprietary software",
+  forstall: "Also responsible for creating a software development kit for programmers to build iPhone apps, as well as an App Store within iTunes",
+  from_the_notifications_of_some_apps_it: "Possible to interact directly, for example by replying to a message directly from it",
+  when_the_context_menu: { definition: "Displayed, the background is blurred", what_it_does: "", examples: "eliminating any element) are colored red" },
+  the_rest_of_the_screen: "Devoted to the current application",
+  when_a_passcode: "Set and a user switches on the device, the passcode must be entered at the Lock Screen before access to the Home screen is granted",
+  the_feature: "Initially only available on the iPad (1st generation) until the release of iOS 4 a few months after the release of iPhone OS 3",
+  a_title_for_the_folder: { definition: "Automatically selected by the category of applications inside, but the name can also be edited by the user", what_it_does: "", examples: "Mail, Maps, TV, Music, FaceTime, Wallet, Health, and many more" },
+  applications_for_ios: { definition: "Mostly built using components of UIKit , a programming framework", what_it_does: "", examples: "new interface rules" },
+  uikit_elements: { definition: "Very adaptable, this allows developers to design a single app that looks the same on any iOS device", what_it_does: "", examples: "an audio mixer and an iPhone simulator" },
+  apps: { definition: "Generally limited to accessing their own containers and specific system-provided directories, such as the Photos library", what_it_does: "", examples: "documents, presentations, and spreadsheets, in the cloud" },
+  to_the_far_left: { definition: "Icons which function as music controls, a rotation lock, and on iOS 4.2 and above, a volume controller", what_it_does: "", examples: "third-party messaging apps, as well as payments, ride-sharing, and Internet calling apps" },
+  game_center: "An online multiplayer 'social gaming network' [ 167 ] released by Apple",
+  a_preview: { definition: "Released to registered Apple developers in August", what_it_does: "", examples: "hardware and software attributes" },
+  updates: "Checked for regularly, and are downloaded and installed automatically if enabled",
+  a_tethered_jailbreak: { definition: "Only able to temporarily jailbreak the device during a single boot", what_it_does: "", examples: "Recovery Mode" },
+  an_additional_motivation: { definition: "That it may enable the installation of pirated apps", what_it_does: "", examples: "Android and the Linux kernel" },
+  sim_unlocking: "Not jailbreaking, but a jailbreak is also required for these unofficial software unlocks",
+  particularly_at_issue: "The ability for Apple to remotely disable or delete apps at will",
+  sales_of_ipads_in_recent_years: "Also behind Android, while, by web use (a proxy for all use), iPads (using iOS) are still the most popular",
+
 };
 
 // ============================================================
