@@ -28071,6 +28071,9 @@ const FLAT_DICT = {
   the_wellestablished_test: { definition: "A positive control since we already know that the answer to the question (whether the test works) is yes", what_it_does: "should give a large amount of enzyme activity, while the negative control should give very low to no activity", examples: "" },
   while_this_does_not_ensure_that_there: { definition: "No differences between the groups, it ensures that the differences are distributed equally, thus correcting for systematic errors", what_it_does: "", examples: "in experiments where crop yield is affected (e.g" },
 
+  // === INGESTED 2026-06-23 15:10 ===
+  he_believed_that_economics: "The true driver of history, and so he planned to immerse himself fully in economics and then return to the history department",
+
 };
 
 // ============================================================
