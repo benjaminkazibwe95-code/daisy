@@ -25741,6 +25741,11 @@ const FLAT_DICT = {
   stuxnet_is_an_example_of_malware_that: "Introduced to the target environment via a USB drive, causing damage to processes supported on the environment without the need to exfiltrate data",
   china_and_india: "Identified as emerging contributors",
 
+  // === INGESTED 2026-06-23 07:20 ===
+  a_local_internet_registry: "An organization that assigns parts of its allocation from a regional Internet registry to other customers",
+  most_local_internet_registries: { definition: "Also Internet service providers", what_it_does: "", examples: "IP addresses and autonomous system (AS) numbers" },
+  network_administrators: { definition: "Asked to submit a note or place a phone call, 'describing the function and socket numbers of network service programs at each HOST'", what_it_does: "", examples: "all governments, participate on an equal footing'" },
+
 };
 
 // ============================================================
