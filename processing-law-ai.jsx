@@ -27816,6 +27816,42 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 14:32 ===
   femtotechnology: { definition: "A term used in reference to the hypothetical manipulation of matter on the scale of a femtometer , or 10 −15 m", what_it_does: "", examples: "self-replication, or what type of technology could be used to manipulate them, is unknown" },
 
+  // === INGESTED 2026-06-23 14:34 ===
+  berkeley: "Traversed by the Hayward Fault Zone , a major branch of the San Andreas Fault to the west",
+  the_lands_of_the_brothers_domingo_and_vicente: "Quickly reduced to reservations close to their respective ranch homes",
+  the_rest_of_the_land: "Surveyed and parceled out to various American claimants ( See Kellersberger's Map )",
+  the_area_that_became_berkeley: "Then the northern part of the 'Oakland Township' subdivision of Alameda County",
+  the_element_berkelium: "Synthesized utilizing the 60-inch (1",
+  their_presence: "Met by protesters, including many from the university",
+  an_iconic_event_in_the_berkeley_sixties_scene: { definition: "A conflict over a parcel of university property south of the contiguous campus site that came to be called ' People's Park '", what_it_does: "", examples: "the Adeline Corridor seeing a 50% decline in Black / African American population from 1990 to 2010" },
+  the_berkeley_hills: "Part of the Pacific Coast Ranges , and run in a northwest–southeast alignment",
+  the_current_assessment: "That a Bay Area earthquake of magnitude 6",
+  although_no_significant_damage: "Reported to most of the few Berkeley buildings of the time, the 1868 quake did destroy the vulnerable adobe home of Domingo Peralta in north Berkeley",
+  spring_and_fall: "Transitional and intermediate, with some rainfall and variable temperature",
+  the_warmest_and_driest_months: "Typically June through September, with the highest temperatures occurring in September",
+  the_highest_recorded_temperature: "107 °F (42 °C) on June 15, 2000, and July 16, 1993, and the lowest recorded temperature was 24 °F (−4 °C) on December 22, 1990",
+  february: "Normally the wettest month, averaging 5.21 inches (132 mm) of precipitation",
+  average_annual_precipitation: "25.40 inches (645 mm), falling on an average of 63.7 days each year",
+  the_most_rainfall_in_one_month: { definition: "14.49 inches (368 mm) in February 1998", what_it_does: "", examples: "1982–83; 1997–98), which bring in drenching ' Pineapple Express ' storms" },
+  the_population_density: "11,874 people per square mile of land area (4,584/km 2 )",
+  the_homeowner_vacancy_rate: { definition: "1.0%; the rental vacancy rate was 4.5%", what_it_does: "", examples: "13.2% of those under age 18 and 9.2% of those age 65 or over" },
+  the_berkeley_branch_line: "Extended from Shattuck and University to Vine Street ('Berryman's Station') in 1878",
+  the_shattuck_line: "Extended and connected with two other Berkeley lines (the Ninth Street Line and the California Street line) at Solano and Colusa (the 'Colusa Wye ')",
+  south_of_the_campus: "Southside , mainly a student ghetto , where much of the university's student housing is located",
+  the_busiest_stretch_of_telegraph_avenue: "In this neighborhood",
+  north_of_the_campus: "The quieter Northside neighborhood, the location of the Graduate Theological Union",
+  commercial_activities: "Concentrated along the major avenues and at important intersections and frequently define the neighborhood within which they reside",
+  in_the_southeastern_corner_of_the_city: "The Claremont District , home to the Claremont Hotel",
+  also_in_the_southeast: "The Elmwood District known for its commercial area on College Avenue",
+  west_of_elmwood: "South Berkeley , known for its weekend flea market at the Ashby Station",
+  also_nearby: "Berkeley's Aquatic Park , featuring an artificial linear lagoon of San Francisco Bay",
+  the_freight_and_salvage: "The oldest established full-time folk and traditional music venue west of the Mississippi River",
+  berkeley_city_college: "A community college in the Peralta Community College District",
+  the_first_public_school_in_berkeley: "The Ocean View School, now the site of the Berkeley Adult School located at Virginia Street and San Pablo Avenue",
+  the_public_schools_today: "Administered by the Berkeley Unified School District",
+  the_berkeley_high_campus: "Designated a historic district by the National Register of Historic Places on January 7, 2008",
+  the_berkeley_city_council: "Composed of the mayor and eight council members elected by district who each serve four-year terms",
+
 };
 
 // ============================================================
