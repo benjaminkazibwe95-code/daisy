@@ -23430,6 +23430,16 @@ const FLAT_DICT = {
   afrikaans: { definition: "Also spoken by some residents of Afrikaner descent", what_it_does: "", examples: "African Zionist (37.6%), constitute the majority of Christians, followed by Catholicism at 3" },
   preschool_education: "Usually for children 5-years or younger; after that, a student can enroll in a primary school anywhere in the country",
 
+  // === INGESTED 2026-06-23 00:04 ===
+  sassou_nguesso: "Re-elected in the 2016 , 2021 , and 2026 presidential elections with a majority in the first round",
+  his_parents: { definition: "Julien Nguesso and Émilienne Mouebara", what_it_does: "", examples: "Sassou Nguesso, and headed by Marien Ngouabi" },
+  massambadebat: { definition: "Executed on 25 March 1977", what_it_does: "", examples: "a claim from some delegates that he was involved in Ngouabi's assassination" },
+  the_second_round: { definition: "Held between Lissouba (UPADS) and Kolelas (MCDDI); Sassou Nguesso backed Lissouba, who won in the second round with 61.32% of the vote", what_it_does: "", examples: "the MCDDI and the Rally for Democracy and Social Progress (RDPS) was constituted" },
+  members: "Elected by the forum by mid-January",
+  presidential_elections: "Held on 10 March 2002",
+  his_election: "The result of a compromise reached to prevent the chairmanship from going to Omar al-Bashir",
+  turnout: { definition: "Officially placed at 72.44%", what_it_does: "", examples: "Louis Vuitton and Roberto Cavalli" },
+
 };
 
 // ============================================================
