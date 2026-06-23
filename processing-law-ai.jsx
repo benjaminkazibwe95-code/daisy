@@ -29899,6 +29899,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 22:10 ===
   the_second_rationale: { definition: "Consistent with its practical and economic goals", what_it_does: "", examples: "the International Baccalaureate have contributed to the internationalization of education" },
 
+  // === INGESTED 2026-06-23 22:13 ===
+  the_goal_of_his_research: "To determine what it means to achieve work that is at once excellent, engaging, and carried out in an ethical way",
+  four_years_later_he: "Named an Honorary Professor at East China Normal University in Shanghai",
+
 };
 
 // ============================================================
