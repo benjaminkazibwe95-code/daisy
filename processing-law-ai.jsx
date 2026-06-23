@@ -27958,6 +27958,22 @@ const FLAT_DICT = {
   prime_editing: { definition: "Developed by researchers at the Broad Institute of MIT and Harvard in Massachusetts", what_it_does: "", examples: "labs in the US, China, and the UK, as well as US biotechnology company OvaScience" },
   the_researchers_stated_that_crispr: "Not ready for clinical application in reproductive medicine",
 
+  // === INGESTED 2026-06-23 14:55 ===
+  rna_polymerase_i: "Responsible for transcription of ribosomal RNA (rRNA) genes",
+  proteins_that: { definition: "Supposed to be produced at the endoplasmic reticulum are recognised part-way through the translation process", what_it_does: "", examples: "phosphorylation , acetylation , or glycosylation" },
+  it_has_become_apparent_that_there: "A significant influence of non-DNA-sequence specific effects on transcription",
+  other_important_cisregulatory_modules: "Localized in DNA regions that are distant from the transcription start sites",
+  the_loop: "Stabilized by a dimer of a connector protein (e.g",
+  all_transport_in_and_out_of_the_nucleus: "Via the nuclear pore and transport is controlled by a wide range of importin and exportin proteins",
+  mres: "Sequences to which miRNAs bind",
+  mirnas: "Predicted to have an average of about four hundred target mRNAs (affecting expression of several hundred genes)",
+  these_modifications: { definition: "Usually catalyzed by enzymes", what_it_does: "", examples: "DNA transcription and cell death" },
+  investigation_of_localization: { definition: "Particularly important for the study of development in multicellular organisms and as an indicator of protein function in single cells", what_it_does: "", examples: "digoxigenin and biotin chemistries, have been developed" },
+  one_of_the_most_commonly_used_methods: { definition: "To perform a Western blot against the protein of interest", what_it_does: "", examples: "proteolysis or ubiquitination, from changes in size" },
+  analysis_of_expression: "Not limited to quantification; localization can also be determined",
+  the_probed_sample: { definition: "Then observed by microscopy to identify where the mRNA or protein is", what_it_does: "", examples: "via an expression vector" },
+  the_detection_process: "Very similar to that of a Western blot, but by avoiding the gel steps more accurate quantification can be achieved",
+
 };
 
 // ============================================================
