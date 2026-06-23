@@ -28513,6 +28513,9 @@ const FLAT_DICT = {
   if_excess_demand: { definition: "Negative, then more units are being supplied than are demanded; there is a glut", what_it_does: "", examples: "one million oranges would be valued exactly one million times more than one orange" },
   the_extension_to_incomplete_markets: "First conjectured by Andreu Mas-Colell in 1986",
 
+  // === INGESTED 2026-06-23 16:29 ===
+  harwood: { definition: "A graduate of the United States Military Academy and served in the Army Corps of Engineers", what_it_does: "", examples: "free trade , deregulation , and the defense of certain civil liberties" },
+
 };
 
 // ============================================================
