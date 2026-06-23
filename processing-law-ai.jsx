@@ -25110,6 +25110,11 @@ const FLAT_DICT = {
   online_film_rights: { definition: "Also acquired by Video on demand platforms across the continent and beyond", what_it_does: "", examples: "'Strategic Action Against Piracy (STRAP)'" },
   avrs: { definition: "A Collective Management Organization set up to help prevent creative works from being duplicated and overused by unauthorised bodies", what_it_does: "", examples: "technology-based solutions such as digital streaming" },
 
+  // === INGESTED 2026-06-23 05:17 ===
+  sir_warrior: { definition: "A Nigerian Igbo highlife musician, guitarist and bandleader", what_it_does: "", examples: "London and the United States of America with his crew" },
+  he_would_always_emphasize_that_education: "The best legacy, other things could follow later'",
+  his_legacy: "Summarised by Oliver De Coque , who in paying tribute to Dr",
+
 };
 
 // ============================================================
