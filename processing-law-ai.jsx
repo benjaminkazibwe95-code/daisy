@@ -27572,6 +27572,9 @@ const FLAT_DICT = {
   the_doctor_finds_his_mobile_emitter: "Failing, and he is returned to sickbay while Lt",
   the_borg: "A Star Trek villain species famous for their phrase, 'Resistance is futile",
 
+  // === INGESTED 2026-06-23 13:31 ===
+  among_its_tributaries: "The Lizonne and the Côle",
+
 };
 
 // ============================================================
