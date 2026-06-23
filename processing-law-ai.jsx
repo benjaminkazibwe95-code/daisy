@@ -28869,6 +28869,9 @@ const FLAT_DICT = {
   kevin_spacey_and_robin_wright: { definition: "Nominated for Outstanding Lead Actor and Outstanding Lead Actress in a Drama Series", what_it_does: "", examples: "Academy Award for Best Picture for Alfonso Cuarón 's Roma , which was nominated for 10 awards" },
   these_same_steps: "Later taken in India",
 
+  // === INGESTED 2026-06-23 18:02 ===
+  parker: { definition: "Also a Research Fellow and Visiting Scholar at the MIT Initiative on the Digital Economy", what_it_does: "", examples: "“ MarketWatch ,” Wired , and The Wall Street Journal" },
+
 };
 
 // ============================================================
