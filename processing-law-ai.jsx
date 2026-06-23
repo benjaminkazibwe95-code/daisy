@@ -27369,6 +27369,15 @@ const FLAT_DICT = {
   the_following_mechanisms: "Adapted from the DSM-IV Adaptive Functioning Scale, APA, 1994",
   perceptions_of_stress: "Critical for making decisions and living everyday life",
 
+  // === INGESTED 2026-06-23 12:44 ===
+  body_positivity: { definition: "A social movement that promotes a positive view of all bodies, regardless of size, shape, skin tone, gender, and physical abilities", what_it_does: "", examples: "the National Association to Advance Fat Acceptance" },
+  women_were_mocked_for_their_egotism_if_they: "Not able to shrink their waistline, and they were criticized for too small a waistline if they were successful",
+  this_event_involved_a_group_of_people_who: "Partaking while holding posters of a famous thin woman and setting diet books on fire",
+  these_plussize_models: { definition: "Also hired to be featured on fashion campaigns as well as magazine covers", what_it_does: "", examples: "anorexia , bulimia , depression , body image disturbance , and body dysmorphic disorder" },
+  qualities_that_fit_that_mold: { definition: "Height , rectus abdominis muscle or 'six pack abs', a broad upper body, muscular arms, shoulders, pectoral muscles , genital shape and size , etc", what_it_does: "", examples: "body dysmorphia , anorexia nervosa and bulimia nervosa" },
+  a_central_complaint: "That excessive approval of overweight and obese individuals could dissuade them from desiring to improve their health, leading to lifestyle disease",
+  a_bodypositive_approach_says_you: "Beautiful no matter what",
+
 };
 
 // ============================================================
