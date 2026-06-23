@@ -30425,6 +30425,9 @@ const FLAT_DICT = {
   if_the_shock: { definition: "Pushed past a certain extreme after a particular period in time ASD can develop into what is commonly known as Post-traumatic stress disorder (PTSD)", what_it_does: "", examples: "cortisol )" },
   the_idea_behind_this_hypothesis: "That an organism can better prepare for an event if they are informed beforehand, as this allows them to prepare for it (biologically)",
 
+  // === INGESTED 2026-06-23 23:59 ===
+  these_anecdotes: "Combined with the results of statistical studies to give the reader an understanding of the magnitude that biology plays in athletics",
+
 };
 
 // ============================================================
