@@ -23989,6 +23989,9 @@ const FLAT_DICT = {
   unicef_said_it: "Helping children in the UK because of an increase in food poverty in Britain, caused by the COVID-19 pandemic",
   it_estimates_there: "Children going hungry in a fifth of households",
 
+  // === INGESTED 2026-06-23 01:42 ===
+  a_second_cement_plant: "Started in India; the Gujarat Sidhee Cement Limited",
+
 };
 
 // ============================================================
