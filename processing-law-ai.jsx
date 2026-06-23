@@ -27974,6 +27974,13 @@ const FLAT_DICT = {
   the_probed_sample: { definition: "Then observed by microscopy to identify where the mRNA or protein is", what_it_does: "", examples: "via an expression vector" },
   the_detection_process: "Very similar to that of a Western blot, but by avoiding the gel steps more accurate quantification can be achieved",
 
+  // === INGESTED 2026-06-23 14:57 ===
+  an_example_of_a_phenotypic_trait: { definition: "A specific hair color or eye color", what_it_does: "", examples: "various epigenetic processes" },
+  incomplete_dominance: "The condition in which neither allele dominates the other in one heterozygote",
+  instead_the_phenotype: "Intermediate in heterozygotes",
+  thus_you_can_tell_that_each_allele: "Present in the heterozygote",
+  the_abo_blood_group_proteins: "Important in determining blood type in humans, and this is determined by different alleles of the one locus",
+
 };
 
 // ============================================================
