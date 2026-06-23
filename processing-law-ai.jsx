@@ -29807,6 +29807,20 @@ const FLAT_DICT = {
   the_potential_market_size: { definition: "Considered huge in both rural and urban areas and some of these water and sanitation schemes have achieved a significant scale", what_it_does: "", examples: "through market assessments and capacity-building" },
   every_project: "Pre-financed with a credit of up to 80 percent of the project costs (averaging US$80,000 )",
 
+  // === INGESTED 2026-06-23 21:50 ===
+  at_peak_there: "About 300 loan funds",
+  some_of_the_funds: "Set up in the 18th century, and many more in the 19th century after regulatory legislation was passed in the wake of the 1822 Irish Famine",
+  all_the_committee_members: "Women in the O'Brien's Bridge Association for Bettering the Condition of the Poor in the Adjoining Districts of Tipperary, Limerick and Clare",
+  the_worst_affected_provinces: { definition: "Connacht and western Munster", what_it_does: "", examples: "roads, canals and harbours were started to provide jobs for the poor" },
+  trustees: "Appointed in each county, subject to the board of directors of the Irish Reproductive Loan Fund Institution in London",
+  some_of_the_money: "Also spent to promote agricultural schools in the provinces of Munster and Connacht",
+  the_funds: { definition: "Thus similar to banks but did not pay stamp duty, an important advantage given their many small loans", what_it_does: "", examples: "schools or hospitals" },
+  the_mean_amount_of_a_loan: "£3, and by law no loan could exceed £10",
+  possibly_the_change: "Due to influence from the joint stock banks, for whom the funds had become strong competitors",
+  the_interest_charged: "Thus equivalent to a discount of about 7 1/2 per cent per annum",
+  the_records_created_as_the_scheme: "Being wound down were scanned by a subsidiary of the National Archives",
+  this_last_describes_whether_the_borrower: "Still resident in the townland, and if so whether they are desperate, poor or comfortable, or where they moved or emigrated to, or their date of death",
+
 };
 
 // ============================================================
