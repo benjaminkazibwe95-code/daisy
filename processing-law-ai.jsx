@@ -23534,6 +23534,13 @@ const FLAT_DICT = {
   the_caa: { definition: "Hopeful that, following World War II , there would be a move towards Third World independence under the trusteeship of the United Nations", what_it_does: "", examples: "Robeson, W" },
   the_emphasis_in_the_historical_narrative: "On African agents, as opposed to non-African agents",
 
+  // === INGESTED 2026-06-23 00:21 ===
+  some_suggested_that_these_leadership_missteps: { definition: "The result of Godane's lack of clan roots, which they said led him to undervalue the lives both of civilians and of Al-Shabaab fighters", what_it_does: "", examples: "fled the group in mid-2013" },
+  that_deathtoll: { definition: "Exceeded two years later in the Garissa University College attack in which 148 people were killed in an attack targeting Christian students", what_it_does: "", examples: "many children, provoking domestic and international outrage" },
+  since_the_site: { definition: "Closed in 2009, it has distributed its press releases and videos using other sympathetic websites, or, more commonly, using social media networks", what_it_does: "", examples: "through a brutal interpretation and application of Islamic jurisprudence on hudud" },
+  international_relief_supplies: "Flown or shipped into the country and distributed, wherever possible, through local relief workers",
+  while_the_former_group: { definition: "Used to carry out minor attacks within Kenya, the Al-Shabaab leadership later switched its focus to Jaysh Ayman which proved more effective", what_it_does: "", examples: "in funding, training, and explosives" },
+
 };
 
 // ============================================================
