@@ -23851,6 +23851,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 01:24 ===
   david_stasavage: { definition: "An American political scientist known for his work on democracy and political economy", what_it_does: "", examples: "Western Europe and Africa" },
 
+  // === INGESTED 2026-06-23 01:26 ===
+  galvanized_steel: "Coated in a layer of zinc to achieve a similar effect",
+  the_german_states: "The major steel producers in Europe in the 19th century",
+  modern_steel: "Generally identified by various grades defined by assorted standards organizations",
+  alloy_steel: "Steel to which other alloying elements have been intentionally added to modify the characteristics of steel",
+  slabs: "Hot or cold rolled into sheet metal or plates",
+  billets: "Hot or cold rolled into bars, rods, and wire",
+  blooms: { definition: "Hot or cold rolled into structural steel , such as I-beams and rails", what_it_does: "", examples: "magnetite or hematite" },
+  understanding_such_properties: "Essential to making quality steel",
+  the_above_assumes_that_the_cooling_process: "Very slow, allowing enough time for the carbon to migrate",
+  if_quenching: { definition: "Done improperly, the internal stresses can cause a part to shatter as it cools", what_it_does: "", examples: "annealing , quenching , and tempering" },
+  annealing: "The process of heating the steel to a sufficiently high temperature to relieve local internal stresses",
+  one_such_furnace: "Found in Samanalawewa and archaeologists were able to produce steel as the ancients did",
+  this_material: { definition: "Both strong and ductile so that vehicle structures can maintain their current safety levels while using less material", what_it_does: "", examples: "the ferritic stainless steels are magnetic , while others, such as the austenitic , are nonmagnetic" },
+
 };
 
 // ============================================================
