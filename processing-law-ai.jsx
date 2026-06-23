@@ -27798,6 +27798,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 14:26 ===
   the_magazine: "Available to all members of the American Chemical Society",
 
+  // === INGESTED 2026-06-23 14:28 ===
+  scientific_american: "Founded by inventor and publisher Rufus Porter in 1845 [ 4 ] as a four-page weekly newspaper",
+  these_books: "Not sold in retail stores, but as a Book of the Month Club selection priced from $24.95 to $32.95",
+
 };
 
 // ============================================================
