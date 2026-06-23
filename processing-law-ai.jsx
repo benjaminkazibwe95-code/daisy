@@ -27216,6 +27216,9 @@ const FLAT_DICT = {
   whereas_it: "Governed under a national framework of accountability, the AMF increasingly implements policies set at the European Union level",
   shareholders: "Required to notify their holdings to the AMF when their stake exceeds or falls below certain thresholds",
 
+  // === INGESTED 2026-06-23 11:58 ===
+  rational_expectations: { definition: "Introduced into economics by John Muth , [ 8 ] then Robert Lucas, Jr", what_it_does: "", examples: "unemployment, fiscal and monetary policy, and growth" },
+
 };
 
 // ============================================================
