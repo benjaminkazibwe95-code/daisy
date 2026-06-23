@@ -25102,6 +25102,14 @@ const FLAT_DICT = {
   at_the_time_the_channel: { definition: "Suspended, it had over 1,800,000 subscribers and 400 million views", what_it_does: "", examples: "Nigeria, Ghana, Britain, the U.S" },
   his_predictions: "Frequently vague or based on hindsight",
 
+  // === INGESTED 2026-06-23 05:15 ===
+  the_silverbird_group: "The first company to launch a series of modern Cinema houses across major cities in Nigeria, mostly situated in affluent areas and districts",
+  the_silverbird_galleria: { definition: "A large shopping mall, with an upscale cinema facility and various outlets where mercantile activities take place", what_it_does: "", examples: "Lagos , Ibadan , Asaba and Calabar , with plans to have at least 25 cinemas across the country" },
+  a_nollyfund_implementation_advisory_group: "Set up for the program, in order to ensure that only commercially viable scripts with good storylines benefit from the scheme",
+  an_example_of_such_filmmakers: "Kunle Afolayan , who stated that sponsorship could fund about 30 [ 3 ] to 50 [ 4 ] percent of a film's budget",
+  online_film_rights: { definition: "Also acquired by Video on demand platforms across the continent and beyond", what_it_does: "", examples: "'Strategic Action Against Piracy (STRAP)'" },
+  avrs: { definition: "A Collective Management Organization set up to help prevent creative works from being duplicated and overused by unauthorised bodies", what_it_does: "", examples: "technology-based solutions such as digital streaming" },
+
 };
 
 // ============================================================
