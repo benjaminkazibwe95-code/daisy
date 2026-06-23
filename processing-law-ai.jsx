@@ -25296,6 +25296,24 @@ const FLAT_DICT = {
   the_first_industrialized_country: "The United Kingdom , followed by Belgium",
   the_un_hdi: "A statistical measure that gauges an economy's level of human development",
 
+  // === INGESTED 2026-06-23 06:01 ===
+  the_military_police: { definition: "An ancillary and reserve force of the Army, under the General Inspectorate of Military Police, being that a part of Land Operations Command", what_it_does: "", examples: "a civilian bystander" },
+  before_this_heavier_guns: "Only given to elite units but some units are now getting heavier weaponry such as the anti-criminality brigades which was given H&K G36 assault rifles",
+  while_gas_weapons: { definition: "Forbidden for military use by the Geneva convention , which is signed by France too, no restriction applies to civilian use", what_it_does: "", examples: "in Papua and Poso" },
+  the_ric: "A quasi-military police force: constables were armed with rifles, billeted in barracks, and the force had a militaristic structure and uniform",
+  the_ruc: "The first police force to use rubber and plastic bullets for riot control",
+  this_role: "Known as the Counter Terrorist Specialist Firearms Officer (CTSFO)",
+  when_becoming_a_ctsfo_they: { definition: "Established into teams to form a police tactical unit", what_it_does: "", examples: "the Thompson submachine gun, and armored cars in the 1920s and 1930s" },
+  local_patrol_officers_at_the_time: { definition: "Typically armed with their standard issue 9×19mm pistols or", what_it_does: "", examples: "semi-automatic 5.56×45mm NATO AR-15 -type rifles" },
+  usms_and_fbi_agents: "Armed with M16s and sniper rifles, and they used an APC",
+  no_drugs: "Found in Russell's apartment and the Minneapolis City Council agreed to pay $1 million in damages",
+  all_of_those: { definition: "Clear indications that they're moving away from a civilian model of policing", what_it_does: "", examples: "hostage situations or barricades'" },
+  suspects: "Allegedly shackled and beaten",
+  the_increased_use_of_swat_teams: { definition: "A hallmark of increased police militarization", what_it_does: "", examples: "their areas of operation and tactics" },
+  a_police_sharpshooter: "Part of a police operation and usually takes part in relatively short missions",
+  police_units_that: { definition: "Unequipped for tactical operations may rely on a specialized SWAT team, which may have a dedicated sniper", what_it_does: "", examples: "high buildings, can provide security for events" },
+  riot_police: { definition: "Used in a variety of different situations and for a variety of different purposes", what_it_does: "", examples: "teach-ins and teams of medics providing first aid to other protesters" },
+
 };
 
 // ============================================================
