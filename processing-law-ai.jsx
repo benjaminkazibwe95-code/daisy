@@ -25875,6 +25875,9 @@ const FLAT_DICT = {
   perl_cgis: "Once a very common way to write web applications",
   one_of_the_most_popular_scripts_of_this_type: "'FormMail.pl' made by Matt's Script Archive",
 
+  // === INGESTED 2026-06-23 07:41 ===
+  the_last_released_version: "2.2.6 from April 10, 2007",
+
 };
 
 // ============================================================
