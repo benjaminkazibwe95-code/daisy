@@ -24548,6 +24548,10 @@ const FLAT_DICT = {
   the_use_of_ny: "Also proposed in an alternative Aragonese orthography , the grafía SLA devised in 2004 by the Sociedat de Lingüistica Aragonesa in 2004",
   its_name: { definition: "Eny ( /ɛɲ/ ), and it represents the palatal nasal ( /ɲ/ )", what_it_does: "", examples: "Spain is called Spanyol (compare with España in Spanish )" },
 
+  // === INGESTED 2026-06-23 03:23 ===
+  nasalized_vowels: { definition: "Vowels influenced by nearby sounds", what_it_does: "", examples: "for high vowels in Chamorro and low vowels in Thai" },
+  the_notation_of_terry_and_webb: "Used below, where V, N, and Ṽ (with a tilde above) represent oral vowel, nasal consonant, and nasal vowel, respectively",
+
 };
 
 // ============================================================
