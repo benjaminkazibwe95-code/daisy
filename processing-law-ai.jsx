@@ -29291,6 +29291,15 @@ const FLAT_DICT = {
   the_first_scholarship_organized_in_france: { definition: "Born in Lyon in 1540", what_it_does: "", examples: "the multilateral trading facility in Europe and alternative trading system in the United States" },
   exchangetraded_forward_contracts: "Called futures contracts",
 
+  // === INGESTED 2026-06-23 19:38 ===
+  mises: "So mad he wouldn't speak to Machlup for three years",
+  it_is_not_just_that_god: "For the big battalions and that those who are better equipped defeat poorly equipped adversaries",
+  it_is_not_just_that_john: "Killed and Mark crippled for the rest of his life, while Paul returns home safe and sound and enjoys all the privileges accorded to veterans",
+  it_may_be_admitted_that_it: "Not 'fair' that war enhances the profits of those entrepreneurs who contribute best to the equipment of the fighting forces",
+  he_argued_that_these_principles: { definition: "Essential for creating a peaceful and prosperous society", what_it_does: "", examples: "his 1981 book The Politics and Philosophy of Economics: Marxians, Keynesians, and Austrians" },
+  some_of_the_people_there: "Expressing the view that there could be a justification for it",
+  another_occasion_which: "Equally telling: Fritz Machlup was a student of Mises's, one of his most faithful disciples",
+
 };
 
 // ============================================================
