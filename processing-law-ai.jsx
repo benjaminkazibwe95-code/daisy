@@ -26944,6 +26944,11 @@ const FLAT_DICT = {
   the_design_of_unix: "Modular, so it could be reimplemented piece by piece",
   the_most_prominent_and_successful_of_these: { definition: "Cygnus Solutions , [ 23 ] now part of Red Hat", what_it_does: "", examples: "BSD variants, Solaris and macOS" },
 
+  // === INGESTED 2026-06-23 10:49 ===
+  publicdomain_software: { definition: "Commercialized sometimes by a donationware model, asking the users for a financial donation to be sent by mail", what_it_does: "", examples: "CERN httpd [ 15 ] in 1993 and Serpent cipher in 1999" },
+  licensed_software: "In general not in the public domain",
+  explicit_pd_waiver_statements_or_license_files: "At that time unusual",
+
 };
 
 // ============================================================
