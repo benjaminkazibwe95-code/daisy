@@ -29764,6 +29764,13 @@ const FLAT_DICT = {
   recording_and_sharing_observations: "Enabled by several global-scale platforms, including iNaturalist and eBird",
   the_biodiversity_strategy: "An essential part of the climate change mitigation strategy of the European Union",
 
+  // === INGESTED 2026-06-23 21:35 ===
+  the_full_title: "To 'Foster sustained, inclusive and sustainable economic growth , full and productive employment and decent work for all",
+  some_targets: { definition: "For 2030; others are for 2020", what_it_does: "", examples: "through a focus on high-value added and labour-intensive sectors" },
+  two_of_the_indicators: { definition: "To be achieved by the year 2020, one by the year 2025, and the remaining fourteen indicators are to be achieved by 2030", what_it_does: "", examples: "through a focus on high-value added and labour-intensive sectors" },
+  data_on_material_footprints: { definition: "Outdated and unavailable after the year 2010", what_it_does: "", examples: "for young people and persons with disabilities , and equal pay for work of equal value '" },
+  most_sdgs: { definition: "Either set to be reached by 2020 or 2030", what_it_does: "", examples: "poverty and mass migration" },
+
 };
 
 // ============================================================
