@@ -29870,6 +29870,17 @@ const FLAT_DICT = {
   the_multiagency_initiative: "Mandated with facilitating the Federal Government of Somalia 's new national policy pertaining to the money transfer industry",
   its_main_priority: { definition: "Centered on establishing a comprehensive strategy and a consultative implementation plan for the formalization of the local financial sector", what_it_does: "", examples: "the laws on Anti-Money Laundering (AML) and Counter Financing of Terrorism (CFT)" },
 
+  // === INGESTED 2026-06-23 22:02 ===
+  assuming_the_best_choice: "Made, it is the ' cost ' incurred by not enjoying the benefit that would have been had if the second best available choice had been taken instead",
+  explicit_costs: "The expenses that the government incurred directly as a result of the pandemic which included $4",
+  these_costs: "Often hidden to the naked eye and are not made known",
+  as_implicit_costs: "The result of assets, they are also not recorded for the use of accounting purposes because they do not represent any monetary losses or gains",
+  marginal_cost: { definition: "Abbreviated MC or MPC", what_it_does: "", examples: "changes in organizational abilities, assets, and expertise" },
+  it_signifies_if_it: "Prudent to undertake a specific decision against the opportunity of undertaking a different decision",
+  absolute_advantage_on_the_other_hand: "How efficiently a party can use its resources to produce goods and services compared to others, regardless of its opportunity costs",
+  opportunity_cost: "The concept of ensuring efficient use of scarce resources, [ 22 ] a concept that is central to health economics",
+  the_increased_demand_for_days_in_bed: "Due to the fact that infected hospitalized patients stay in bed longer, shifting the demand curve to the right (see curve D2 in Graph1.11)",
+
 };
 
 // ============================================================
