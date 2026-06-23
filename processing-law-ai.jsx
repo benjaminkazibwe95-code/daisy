@@ -24104,6 +24104,13 @@ const FLAT_DICT = {
   a_previous_signature_tune_of_the_station: "A five note motif, composed by David Arnold and which comprises a variety of voices declaim 'This is the BBC in",
   it_is_frightening_the_extent_to_which_we: "Losing the information war",
 
+  // === INGESTED 2026-06-23 01:57 ===
+  muhammad: "A prominent general under the Songhai ruler Sunni Ali",
+  when_sunni_ali: "Succeeded by his son, Sunni Baru , in 1492, Muhammad challenged the succession on the grounds that the new ruler was not a faithful Muslim",
+  the_theory_that_he: "An ethnic Songhai through both his father and mother is being studied at the Ahmed Baba center in Timbuktu",
+  this_alliance_with_the_tuareg: { definition: "A key pillar of Songhai power, particularly in their control over the salt mines of Taghaza", what_it_does: "", examples: "produced books on Islamic law which are still in use today" },
+  a_version_recounted_by_nouhou_malio: "Recorded by Thomas A",
+
 };
 
 // ============================================================
