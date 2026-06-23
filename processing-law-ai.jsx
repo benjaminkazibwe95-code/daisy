@@ -26787,6 +26787,23 @@ const FLAT_DICT = {
   multiple_execution_threads: { definition: "Supported and termed processes", what_it_does: "", examples: "the Symbolics XL1200, had extensive graphics abilities using special graphics boards" },
   these_machines: "Used in domains like medical image processing, 3D animation, and CAD",
 
+  // === INGESTED 2026-06-23 10:16 ===
+  control_panels: "Sometimes used to direct the operation of unit record equipment , cipher machines , and early computers",
+  the_array_of_holes: "Often contained in a flat removable panel that can be inserted into a machine and pressed against an array of contacts",
+  the_earliest_machines: "Hardwired for specific applications",
+  tabulator_functions: { definition: "Implemented with both mechanical and electrical components", what_it_does: "", examples: "the IBM 602 and IBM 604 , that specified a sequence of operations, were described as being programs" },
+  unit_record_equipment: "Typically configured for a specific task using a removable control panel",
+  the_components_of_most_unit_record_machines: "Synchronized to a rotating shaft",
+  the_cycles: "Divided into points according to when the rows on a punched card would appear under a read or punch station",
+  each_brush: { definition: "Connected to an individual hub on the control panel, from which it could be wired to another hub, as needed", what_it_does: "", examples: "counter outputs" },
+  zone_impulses_and_digit_impulses: "Both needed for alphanumeric printing",
+  a_few_groups_of_hubs: "Wired together but not connected to any internal circuits",
+  small_connector_blocks_called_wire_splits: "Also available to join three or four wires together, above the control panel",
+  several: "Visible in the photo of an IBM 402 panel",
+  the_following_hub_groupings: "Typical of later IBM machines: [ 7 ] A plugboard was used on the famous Enigma machine ; it was not removable",
+  plugboard_wirings: "Part of the 'day settings' that specified which rotors to insert into which slot, and which plugboard connections to make",
+  the_first_version_of_the_eniac_computer: { definition: "Programmed via cabling, switches and plugboards", what_it_does: "", examples: "the IBM 700/7000 series and the IBM 650 , were based on unit record machines and included plugboards" },
+
 };
 
 // ============================================================
