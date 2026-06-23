@@ -24230,6 +24230,35 @@ const FLAT_DICT = {
   russian: "Spoken by a large portion of the Israeli population, because of emigration in the late 1990s",
   circassian: "Also spoken by the diaspora in the region and by almost all Circassians in Israel who speak Hebrew and English as well",
 
+  // === INGESTED 2026-06-23 02:22 ===
+  the_chimpanzee_and_the_bonobo: "The only species in the genus Pan",
+  the_chimpanzee: "Host to the louse species Pediculus schaeffi , a close relative of P",
+  the_infant: "Weaned at about three years old but usually maintains a close relationship with its mother for several years more",
+  the_biggest_threats_to_the_chimpanzee: { definition: "Habitat loss, poaching , and disease", what_it_does: "", examples: "chimpanzees' tea parties , circus acts and stage shows" },
+  the_spelling_chimpanzee: "Found in a 1758 supplement to Chamber's Cyclopædia",
+  the_bonobo: { definition: "Recognised as distinct from the chimpanzee in 1933", what_it_does: "", examples: "insertions , deletions and non-coding material—additional 12.5% to 13.3% differences were found" },
+  these_differences: "Primarily in genes related to the brain, immune system and aging",
+  the_big_toe: "Opposable , allowing the ape to grasp with its feet",
+  the_body_or_thorax: { definition: "Short but wide, while the hips are long with a wide top", what_it_does: "", examples: "dry savanna , evergreen rainforest, montane forest , swamp forest , and dry woodland -savanna mosaic" },
+  chimpanzees_are_more_likely_to_hunt_when_fruit: "More abundant, since more individuals aggregate during this time and hunting requires large groups",
+  when_fruit: "Abundant, gorillas and chimpanzees both consume it, but when fruit is scarce gorillas switch to eating vegetation",
+  the_most_prevalent_species: "The protozoan Troglodytella abrassarti",
+  males_in_a_community: "More likely to be related to one another than females are to each other",
+  chimpanzees: "A common target for poachers",
+  the_survival_and_emotional_health_of_the_young: { definition: "Dependent on maternal care", what_it_does: "", examples: "their grasping reflex is not strong enough to support them for more than a few seconds" },
+  infants: "Unable to support their own weight for their first two months and need their mothers' support",
+  adolescent_females_move_between_groups_and: "Supported by their mothers in agonistic encounters",
+  they_have_expressive_faces_that: "Important in close-up communications",
+  the_most_common_call_in_adults: "The ' pant-hoot ', which can be made in numerous contexts including meetings, feedings and travellings",
+  if_a_female_chimpanzee: "To participate in the hunting group and catch a red colobus, it would likely immediately be taken by an adult male",
+  female_chimpanzees: { definition: "Estimated to hunt ≈ 10-15% of a community's vertebrates", what_it_does: "", examples: "wrestling, play chasing, or tickling" },
+  nut_cracking: { definition: "Also difficult and must be learned", what_it_does: "", examples: "her adopted son, Loulis" },
+  gio_masks: { definition: "Relatively primitive, and worn when warning young people about bad behaviours", what_it_does: "", examples: "hugs, kisses, pats on the back, and even tickling" },
+  although_deforestation_rates: "Low in western Central Africa, selective logging may take place outside national parks",
+  infectious_diseases: "A main cause of death for chimpanzees",
+  the_primary_threat_to_the_western_chimpanzee: "Habitat loss , although it is also killed for bushmeat",
+  transmission_of_ebola: "Also linked to chimpanzee diet of apparent appetite for meat from monkeys",
+
 };
 
 // ============================================================
