@@ -29648,6 +29648,16 @@ const FLAT_DICT = {
   kennedy_award_for_excellence_in_public_service: "Awarded to 'a graduating student whose commitment, activities, and contributions to public service are extraordinary'",
   several_other_awards: "Also awarded on Class Day annually at the end of May",
 
+  // === INGESTED 2026-06-23 21:16 ===
+  sen: "Inspired by violent acts he had witnessed as a child leading up to the Partition of India in 1947",
+  amartya_sen: { definition: "Born on 3 November 1933 in a Bengali Baidya [ 9 ] [ 10 ] [ 11 ] [ 12 ] [ 13 ] [ 14 ] [ 15 ] family in Santiniketan , Bengal, British India", what_it_does: "", examples: "a distaste for examinations or competitive testing" },
+  one_of_the_books_he_was_most_interested_in: { definition: "Kenneth Arrow 's Social Choice and Individual Values", what_it_does: "", examples: "what to read or how to dress" },
+  prude_thinks_that_the_book: { definition: "Indecent and that it should be disposed of, unread", what_it_does: "", examples: "the availability of education, to the very specific, such as transportation to the polls" },
+  only_when_such_barriers: { definition: "Removed can the citizen truly be said to act out of personal choice", what_it_does: "", examples: "GDP or income-per-capita" },
+  protective_security: "The system of social safety nets that prevents a group affected by poverty from being subjected to terrible misery",
+  a_comparison: { definition: "Also drawn between China and India to illustrate this interdependence of freedoms", what_it_does: "", examples: "the notion of universal human rights, in evaluating various states with regard to justice" },
+  the_first_chapter: "'Atheism'—a very strong presentation of the argument in favor of atheism and materialism",
+
 };
 
 // ============================================================
