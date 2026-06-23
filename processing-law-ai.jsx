@@ -27527,6 +27527,9 @@ const FLAT_DICT = {
   etongue_sensors_process: "Similar: they generate electric signals as voltammetric and potentiometric variations",
   taste_quality_perception_and_recognition: "Based on the building or recognition of activated sensory nerve patterns by the brain and the taste fingerprint of the product",
 
+  // === INGESTED 2026-06-23 13:15 ===
+  engelberger_robotics_awards: "Presented annually by A3 to recognize significant contributions to the advancement of robotics technology, application, leadership, and education",
+
 };
 
 // ============================================================
