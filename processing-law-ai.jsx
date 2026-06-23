@@ -24766,6 +24766,19 @@ const FLAT_DICT = {
   female_babies: "Given a title, based on gender, instantly subjecting them to their social identity",
   the_logic_behind_this_tradition: { definition: "That the female rite of passage is motherhood, therefore women must stay close to their household to avoid polluted climates and remain fertile", what_it_does: "", examples: "sexual assault (usually at the hands of their spouse)" },
 
+  // === INGESTED 2026-06-23 04:04 ===
+  the_regional_capital: "The municipality of Sumbawanga",
+  the_smallest_district: "Kalambo , which makes up only 15.99% of the region's total area",
+  western_tanzania: "Where the Rukwa Region is located",
+  although_agriculture: "Not yet fully mechanized, the trend indicates that there is an excess of certain crops, notably maize, paddy, cassava , sunflower, and sesame",
+  heritage_farm: "The owner of the dairy farm in the Sumbawanga Municipality's Malonje",
+  the_beef_ranches_in_nkundi_and_kalambo: "Owned by SAAFI and NARCO, respectively",
+  the_remaining_roads: "Earthen ones that are kept up",
+  ships: "Required to anchor some distance from the beach (about 1 to 1",
+  only_boats: "Permitted for transportation within Lake Rukwa",
+  the_sumbawanga_municipal_council: "Home to the public airport",
+  infant_mortality: "78/1000, under-five mortality is 81/1000, and severe malnutrition is 1.3%",
+
 };
 
 // ============================================================
