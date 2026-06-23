@@ -23488,6 +23488,29 @@ const FLAT_DICT = {
   the_judgment: "Popularly known as Vishaka Judgment",
   the_act: "Intended to cover all women employees, including those in the unorganized sector and domestic workers",
 
+  // === INGESTED 2026-06-23 00:13 ===
+  dunn_wrote_that_ir: "About 'relations that take place across national boundaries' and 'between autonomous political groups in a world system'",
+  a_state_in_which_the_nation: "Sovereign would hence be termed a nation-state, as opposed to a monarchy or a religious state; the term republic increasingly became its synonym",
+  the_same_claim_to_sovereignty: "Made for both forms of nation-state",
+  the_contemporary_international_system: "Finally established through decolonization during the Cold War",
+  while_the_nationstate_system: "Considered 'modern', many states have not adopted it and are termed 'pre-modern'",
+  international_politics_courses: "Established at the University of Wisconsin in 1899 by Paul Samuel Reinsch and at Columbia University in 1910",
+  because_the_operation_of_these_laws: "Impervious to our preferences, persons will challenge them only at the risk of failure",
+  it_assumes_that_cooperation: { definition: "Possible within the anarchic system of states; indeed, regimes are, by definition, instances of international cooperation", what_it_does: "", examples: "ideas , norms , and identities" },
+  constructivism: "Part of critical theory and, as such, seeks to criticise the assumptions underlying traditional IR theory",
+  a_prominent_derivative_of_marxian_thought: { definition: "Critical international relations theory , which applies ' critical theory ' to international relations", what_it_does: "", examples: "Andrew Linklater , Robert W" },
+  many_ir_feminists_argue_that_the_discipline: "Inherently masculine in nature",
+  nicholas_wheeler: "A prominent solidarist, while Hedley Bull and Robert H",
+  jackson: "Perhaps the best known pluralists",
+  the_systemic_level_concepts: { definition: "Those broad concepts that define and shape an international milieu, characterized by anarchy", what_it_does: "", examples: "the use of force, and soft power commonly covering economics , diplomacy , and cultural influence" },
+  core_or_vital_interests: "The things a country is willing to defend or expand through conflict, such as territory, ideology (religious, political, economic), or its citizens",
+  peripheral_or_nonvital_interests: { definition: "Interests that a state is willing to compromise", what_it_does: "", examples: "the South-South Cooperation movement" },
+  the_balance_of_power: { definition: "A concept prevalent in Europe before the First World War , the idea being that balancing power blocs would create stability and prevent war", what_it_does: "", examples: "tensions between the United States and China during the early decades of the Twenty-First Century" },
+  democratic_peace_theory: "A theory that suggests that the nature of democracy means democratic countries will not go to war with one another",
+  the_justifications_for_this: "That democracies externalize their norms and only go to war for causes, and that democracy encourages mutual trust and respect",
+  one_dramatic_example: "The Thirty Years' War (1618–1648), which ravaged much of Europe and was at least partly motivated by theological differences within Christianity",
+  many_university_departments: "Offering area studies in diverse titles",
+
 };
 
 // ============================================================
