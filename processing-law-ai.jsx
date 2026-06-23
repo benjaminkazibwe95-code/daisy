@@ -26585,6 +26585,30 @@ const FLAT_DICT = {
   end_users: { definition: "The ultimate human users (also referred to as operators ) of a software product", what_it_does: "", examples: "sysops , database administrators and computer technicians" },
   systems_whose_actor: { definition: "Another system or a software agent have no direct end users", what_it_does: "", examples: "the username 'anonymous' for anonymous FTP and the username 'guest' for a guest account" },
 
+  // === INGESTED 2026-06-23 09:44 ===
+  the_number_of_attributes_in_this_set: "The relation's degree or arity",
+  a_tuple: { definition: "A collection of n values , where n is the relation's degree, and each value in the tuple corresponds to a unique attribute", what_it_does: "", examples: "a relation describing a company's employees may have two attributes: ID and Name" },
+  relations: "Classified based upon the types of anomalies to which they're vulnerable",
+  a_database_that_is_in_the_first_normal_form: "Vulnerable to all types of anomalies, while a database that is in the domain/key normal form has no modification anomalies",
+  normal_forms: "Hierarchical in nature",
+  the_body_of_a_relation: "A subset of these tuples, representing which propositions are true",
+  relational_algebra: "A set of logical rules that can validly infer conclusions from these propositions",
+  if_this_tuple: "Not in the relation's body, the proposition is false (there is no such employee)",
+  usually_one_candidate_key: "Chosen to be called the primary key and used in preference over the other candidate keys, which are then called alternate keys",
+  foreign_keys: { definition: "Integrity constraints enforcing that the value of the attribute set is drawn from a candidate key in another relation", what_it_does: "", examples: "in the Order relation the attribute Customer ID is a foreign key" },
+  a_join: "The operation that draws on information from several relations at once",
+  but_again_this: "Not always true in the real world",
+  an_order: "Sometimes paid through several invoices, and sometimes paid without an invoice",
+  attributes: "Commonly represented as columns , tuples as rows , and relations as tables",
+  a_table: "Specified as a list of column definitions, each of which specifies a unique column name and the type of the values that are permitted for that column",
+  an_attribute_value: "The entry in a specific column and row",
+  the_heading_of_its_assigned_value_at_any_time: "As specified in the table declaration and its body is that most recently assigned to it by an update operator (typically, INSERT, UPDATE, or DELETE)",
+  another_basic_notion: "The set of atomic values that contains values such as numbers and strings",
+  such_a_relation_closely_corresponds_to_what: "Usually called the extension of a predicate in first-order logic except that here we identify the places in the predicate with attribute names",
+  a_superkey: "A set of column headers for which the values of those columns concatenated are unique across all rows",
+  functional_dependency: "The property that a value in a tuple may be derived from another value in that tuple",
+  also_of_note: { definition: "Newer object-oriented databases", what_it_does: "", examples: "if , or , and and not to define relations as part of the database itself" },
+
 };
 
 // ============================================================
