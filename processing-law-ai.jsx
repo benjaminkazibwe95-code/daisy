@@ -29602,6 +29602,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 20:53 ===
   ssis: { definition: "Used by financial institutions to facilitate fast and accurate cross-border payments", what_it_does: "", examples: "banks, insurance companies and brokers" },
 
+  // === INGESTED 2026-06-23 20:57 ===
+  the_department_of_human_settlements: "Tasked with implementing this mandate",
+  one_exception: "Massachusetts , where families (but not homeless individuals) do have the right to shelter",
+  rent_control_or_caps: "Not given attention in addition to landlord–tenant relations, with regulation laws poorly enforced",
+  the_housing_law: "Approved in 2023, which made reforms aimed at providing affordable housing as well as rental protections to citizens",
+
 };
 
 // ============================================================
