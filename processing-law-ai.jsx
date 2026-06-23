@@ -30196,6 +30196,19 @@ const FLAT_DICT = {
   bibliometrics: "A field of statistics used to provide quantitative analysis of academic literature",
   the_most_prominent_of_which: "Maclean's , a Toronto -based news magazine that has published an annual rankings of Canadian universities since 1991",
 
+  // === INGESTED 2026-06-23 23:13 ===
+  exceptions: "Parasitic plants that have lost the genes for chlorophyll and photosynthesis, and obtain their energy from other plants or fungi",
+  most_plants: "Multicellular , except for some green algae",
+  the_scientific_study_of_plants: "Known as botany , a branch of biology",
+  all_living_things: "Traditionally placed into one of two groups, plants and animals",
+  several_projects: "Currently attempting to collect records on all plant taxa in online databases, e.g",
+  these_early_plants: { definition: "Preserved by being petrified in chert formed in silica-rich volcanic hot springs", what_it_does: "", examples: "roots, leaves and secondary wood in trees such as Archaeopteris" },
+  chloroplasts_are_derived_from_what: { definition: "Once a symbiosis of a non-photosynthetic cell and photosynthetic cyanobacteria", what_it_does: "pollen , which produces male gametes that enter the ovule to fertilize the egg cell of the female gametophyte", examples: "mosses, the sexual gametophyte forms most of the visible plant" },
+  the_first_such_plant_receptors: "Identified in rice [ 71 ] and in Arabidopsis thaliana",
+  the_first_plant_genome_sequenced: { definition: "That of Arabidopsis thaliana which encodes about 25,500 genes", what_it_does: "", examples: "grassland , savanna , and tropical rainforest" },
+  animals_and_most_other_organisms: "Aerobic , relying on oxygen; those that do not are confined to relatively rare anaerobic environments",
+  light_is_a_critical_resource_because_it: { definition: "Necessary for photosynthesis", what_it_does: "", examples: "both flowering plants and conifers, for timber" },
+
 };
 
 // ============================================================
