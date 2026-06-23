@@ -27413,6 +27413,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 12:52 ===
   this_page: "A timeline of social media",
 
+  // === INGESTED 2026-06-23 12:54 ===
+  the_immediate_goal_of_job_seeking: "Usually to obtain a job interview with an employer which may lead to getting hired",
+  contacting_as_many_people_as_possible: "A highly effective way to find a job",
+  another_recommended_method_of_job_hunting: "Cold calling and, since the 1990s, emailing companies that one desires to work for and inquire to whether there are any job vacancies",
+  this_type_of_unemployment: "Always present in the economy",
+
 };
 
 // ============================================================
