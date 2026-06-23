@@ -27285,6 +27285,14 @@ const FLAT_DICT = {
   when_the_data: { definition: "Between two endpoints, any confidential information may be vulnerable", what_it_does: "", examples: "in the case of visiting a website" },
   data_at_rest: { definition: "Generally encrypted by a symmetric key", what_it_does: "", examples: "database or other applications that run on the host operating system" },
 
+  // === INGESTED 2026-06-23 12:14 ===
+  plant_diseases: "Diseases in plants caused by pathogens (infectious organisms) and environmental conditions (physiological factors)",
+  the_study_of_plant_disease: "Called plant pathology",
+  most_phytopathogenic_fungi: "Ascomycetes or Basidiomycetes",
+  many_soil_inhabiting_fungi: "Capable of living saprotrophically , carrying out the role of their life cycle in the soil",
+  their_cells: { definition: "Extremely small, 1 to 2 micrometres across", what_it_does: "", examples: "fruit trees" },
+  nematodes: { definition: "Able to cause radical changes in root cells in order to facilitate their lifestyle", what_it_does: "", examples: "Phytomonas , a kinetoplastid" },
+
 };
 
 // ============================================================
