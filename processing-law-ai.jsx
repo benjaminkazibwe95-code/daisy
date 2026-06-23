@@ -24779,6 +24779,16 @@ const FLAT_DICT = {
   the_sumbawanga_municipal_council: "Home to the public airport",
   infant_mortality: "78/1000, under-five mortality is 81/1000, and severe malnutrition is 1.3%",
 
+  // === INGESTED 2026-06-23 04:06 ===
+  sukuma: "'north' and refers to 'people of the north.' The Sukuma refer to themselves as Basukuma (plural) and Nsukuma (singular)",
+  the_northern_area_of_their_residence: "In the Serengeti Plain",
+  the_sukuma_land: "Mostly a flat, scrubless savannah plain between 910 and 1,220 metres (3,000 and 4,000 ft) elevation",
+  some_claim_they: "A Nyamwezi people who had moved northwestward to escape Mirambo 's raids with the result that game and tsetse re-occupied the deserted area",
+  because_snakes_and_porcupines: "A danger to people and crops in Sukumaland, medicine men and healers captured them to be used as entertainment",
+  the_biggest_threat_to_conservation_in_tanzania: { definition: "The legal and illegal trafficking of wild animals for pets", what_it_does: "", examples: "decoration and clothing" },
+  the_upper_levels: "Dry woodland typified by trees of the Brachystegia - Isoberlinia association; these areas are often called miombo country, after one of these trees",
+  lower_areas_of_grass_and_thornbush_steppe: "Also common, and in Sukumaland there are large tracts of park steppe interspersed with baobabs",
+
 };
 
 // ============================================================
