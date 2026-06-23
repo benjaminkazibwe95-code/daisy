@@ -29440,6 +29440,19 @@ const FLAT_DICT = {
   the_higher_doctorate: "Awarded for published work of the candidate, demonstrating original contributions of 'special excellence' in some branch of commerce",
   the_research_doctorate: "Largely comparable to a PhD ; in fact 'Doctor of Commerce' may refer to a PhD in management or other commerce-related PhD",
 
+  // === INGESTED 2026-06-23 20:09 ===
+  humanmade_systems: "Made with various purposes that are achieved by some action performed by or with the system",
+  most_systems: "Open systems , exchanging matter and energy with their respective surroundings; like a car, a coffeemaker , or Earth",
+  inputs: { definition: "Consumed; outputs are produced", what_it_does: "", examples: "an output of a passenger ship is the movement of people from departure to destination" },
+  a_system_model: "Required to describe and represent all these views",
+  a_subsystem: "A set of elements, which is a system itself, and a component of a larger system",
+  the_main_elements_they_have_in_common: "The components that handle input, scheduling, spooling and output; they also have the ability to interact with local and remote operators",
+  a_subsystem_description: { definition: "A system object that contains information defining the characteristics of an operating environment controlled by the system", what_it_does: "", examples: "in an analysis of urban systems dynamics , A" },
+  an_economic_system: "A social institution which deals with the production , distribution and consumption of goods and services in a particular society",
+  the_economic_system: "Composed of people , institutions and their relationships to resources, such as the convention of property",
+  the_international_sphere_of_interacting_states: { definition: "Described and analyzed in systems terms by several international relations scholars, most notably in the neorealist school", what_it_does: "", examples: "an incorrect statement or data definition" },
+  an_obvious_example: "The calculus developed simultaneously by Leibniz and Isaac Newton",
+
 };
 
 // ============================================================
