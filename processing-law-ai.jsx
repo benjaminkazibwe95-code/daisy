@@ -29514,6 +29514,10 @@ const FLAT_DICT = {
   the_working_party_on_the_accession_of_vanuatu: "Reconvened informally on 4 April 2011 to discuss Vanuatu's future WTO membership",
   the_agreement_on_technical_barriers_to_trade: "An international treaty of the World Trade Organization",
 
+  // === INGESTED 2026-06-23 20:26 ===
+  the_first_part_of_the_book: "The nature of the region of Ladakh when Helena first arrived in 1975, prior to the influx of Western ideas and material goods",
+  the_second_part: "How Ladakh changed socially , ecologically and economically with development",
+
 };
 
 // ============================================================
