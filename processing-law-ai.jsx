@@ -28977,6 +28977,24 @@ const FLAT_DICT = {
   lqs: "Required to understand techniques such as Monte Carlo methods and finite difference methods , as well as the nature of the products being modeled",
   since_they_indicate_that_the_strategy: { definition: "Actually predicting a statistically significant number of evolutions of the system", what_it_does: "", examples: "computer science, physics and engineering" },
 
+  // === INGESTED 2026-06-23 18:33 ===
+  the_largest_financial_fund_managers: { definition: "Firms that exhibit all the complexity their size demands", what_it_does: "", examples: "to hold managers to account, to ensure Board's effective functioning)" },
+  perhaps_more_frequent: "The sustained pressure that large institutions bring to bear on management teams through persuasive discourse and PR",
+  the_usa: "A litigious society and shareholders use the law as a lever to pressure management teams",
+  the_different_asset_class_definitions: { definition: "Widely debated, but four common divisions are cash and fixed income (such as certificates of deposit), stocks , bonds and real estate", what_it_does: "", examples: "the peer group of competing funds, bonds, and stock indices)" },
+  the_theory_of_portfolio_diversification: "Originated by Markowitz (and many others)",
+  large_asset_managers: "Increasingly profiling their equity portfolio managers to execute trades more effectively",
+  while_this_strategy: "Less effective for small-cap trades, it has proven effective for portfolios with large-cap companies",
+  fund_performance: { definition: "Often thought to be the acid test of fund management, and in the institutional context, accurate measurement is a necessity", what_it_does: "", examples: "+4.6% total return in US dollars)" },
+  one_possible_solution: { definition: "To report the after-tax position of some standard taxpayer", what_it_does: "", examples: "the measure of risk taken" },
+  several_other_aspects: "Also part of performance measurement: evaluating if managers have succeeded in reaching their objective, i.e",
+  the_sharpe_ratio: "The simplest and best-known performance measure",
+  this_measure: "Relative, as it evaluates portfolio performance about a benchmark, making the result strongly dependent on this benchmark choice",
+  the_information_ratio: "A more general form of the Sharpe ratio in which the risk-free asset is replaced by a benchmark portfolio",
+  portfolio_alpha: "Obtained by measuring the difference between the return of the portfolio and that of a benchmark portfolio",
+  multifactor_models: "Developed as an alternative to the CAPM , allowing a better description of portfolio risks and a more accurate evaluation of a portfolio's performance",
+  money_management: "A strategic technique to make money yield the highest interest-output value for any amount spent",
+
 };
 
 // ============================================================
