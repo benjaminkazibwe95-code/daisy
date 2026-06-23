@@ -26609,6 +26609,12 @@ const FLAT_DICT = {
   functional_dependency: "The property that a value in a tuple may be derived from another value in that tuple",
   also_of_note: { definition: "Newer object-oriented databases", what_it_does: "", examples: "if , or , and and not to define relations as part of the database itself" },
 
+  // === INGESTED 2026-06-23 09:46 ===
+  the_network_model: "Adopted by the CODASYL Data Base Task Group in 1969 and underwent a major update in 1971",
+  cycles: "Permitted at both levels",
+  peertopeer_and_client_server: "Examples of Network Models",
+  although_the_model: { definition: "Widely implemented and used, it failed to become dominant for two main reasons", what_it_does: "", examples: "IMS and DL/I" },
+
 };
 
 // ============================================================
