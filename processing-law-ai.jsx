@@ -28833,6 +28833,9 @@ const FLAT_DICT = {
   the_executive_perspective: "Concerned with the scope and context of the business",
   the_business_management_perspective: { definition: "Concerned with business definition models", what_it_does: "", examples: "IT Systems Modeling and Business Process Management" },
 
+  // === INGESTED 2026-06-23 17:47 ===
+  marketwatch: "A website that provides financial information, business news, analysis, and stock market data",
+
 };
 
 // ============================================================
