@@ -28809,6 +28809,11 @@ const FLAT_DICT = {
   the_phrase: { definition: "Coined by McKinsey consultants Michael Lanning and Edward Michaels in 1988", what_it_does: "", examples: "the marketing mix , balanced scorecard , and cost-benefit analysis" },
   this_exposes_gaps_by_testing_if_current_assets: "Sufficient or need development",
 
+  // === INGESTED 2026-06-23 17:41 ===
+  its_first_notable_acquisition_in_the_decade: "In 2002, when Adobe acquired Canadian company Accelio, also known as JetForm",
+  the_transaction: "Valued at $1.275 billion and closed during the fourth quarter of Adobe's 2021 fiscal year",
+  narayen: { definition: "Expected to stay on until a new CEO was identified and remain as chairman", what_it_does: "", examples: "Adobe Reader, to gain unauthorized access to computers" },
+
 };
 
 // ============================================================
