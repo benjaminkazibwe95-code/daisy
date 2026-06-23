@@ -24997,6 +24997,12 @@ const FLAT_DICT = {
   aksum_university: "Established in May 2006 on a greenfield site, 4 km (2.5 mi) from Axum's central area",
   the_inauguration_ceremony: "Held on 16 February 2007 and the current area of the campus is 107 ha (260 acres), with ample room for expansion",
 
+  // === INGESTED 2026-06-23 04:50 ===
+  these_requests: "Ignored by the British, who favoured a separate Eritrean entity, and a Greater Somalia under their control",
+  the_ethiopian_presence_in_the_region: "Always colonial in nature, primarily consisting of soldiers and tax collectors",
+  the_somalis: { definition: "Never treated as equals by the Amhara and were scarcely integrated into the Ethiopian Empire", what_it_does: "", examples: "the provinces of Wollega and Illubabor" },
+  these_fears: "The subject of endless discussions with me",
+
 };
 
 // ============================================================
