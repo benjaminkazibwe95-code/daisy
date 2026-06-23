@@ -29664,6 +29664,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 21:20 ===
   the_title_of_his_dissertation: "Essays in Intertemporal Economics",
 
+  // === INGESTED 2026-06-23 21:22 ===
+  the_thing_one_thinks_is_causing_change: "Also being influenced by the outcome, making the results unreliable",
+  exogeneity: "Articulated in such a way that a variable or variables is exogenous for parameter α {\displaystyle \alpha }",
+  even_if_a_variable: "Exogenous for parameter α {\displaystyle \alpha } , it might be endogenous for parameter β {\displaystyle \beta }",
+  when_the_explanatory_variables: "Not stochastic, then they are strong exogenous for all the parameters",
+  the_endogeneity_problem: "Particularly relevant in the context of time series analysis of causal processes",
+  suppose_that_the_level_of_pest_infestation: { definition: "Independent of all other factors within a given period, but is influenced by the level of rainfall and fertilizer in the preceding period", what_it_does: "", examples: "past, present, and future values [ 5 ] , that is E [ ϵ t ∣ x 0 , x 1 ," },
+  the_presence_of_predetermined_variables: "A motivating factor in the Arellano–Bond estimator",
+
 };
 
 // ============================================================
