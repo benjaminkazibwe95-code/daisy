@@ -28800,6 +28800,11 @@ const FLAT_DICT = {
   lakatos_claimed_that_this_classification: { definition: "Largely supported by historical evidence", what_it_does: "", examples: "Newton's law of gravitation states that a brick falls downward" },
   he_says_that_it: { definition: "Not falsifiable because both the theory itself and its predictions are too imprecise", what_it_does: "", examples: "finding Neptune in 1846 where Le Verrier and Adams predicted it should be" },
 
+  // === INGESTED 2026-06-23 17:36 ===
+  its_editor: "Luce, managing editor Parker Lloyd-Smith, and art director Thomas Maitland Cleland",
+  the_acquisition: "Completed on January 31, 2018",
+  fortune_indonesia: { definition: "Available in print version every month as well as an online news portal", what_it_does: "", examples: "it publishes a list of the Best Companies to Work For" },
+
 };
 
 // ============================================================
