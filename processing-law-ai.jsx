@@ -30371,6 +30371,21 @@ const FLAT_DICT = {
   here_the_risk_to_life: "Counterbalanced by the necessity for reproduction",
   the_cost_is_that_a_long_neck: { definition: "Heavy and adds to the animal's body mass, requiring additional energy to build the neck and to carry its weight around", what_it_does: "", examples: "by genetic dominance" },
 
+  // === INGESTED 2026-06-23 23:38 ===
+  an_electrician: "A tradesperson specializing in electrical wiring of buildings, transmission lines, stationary machines, and related equipment",
+  electricians: "Trained to work safely and take many measures to minimize the danger of injury",
+  service_electricians: "Tasked to respond to requests for isolated repairs and upgrades",
+  other_specialty_areas: "Marine electricians, research electricians and hospital electricians",
+  electrical_contractors: "Businesses that employ electricians to design, install, and maintain electrical systems",
+  industry_best_practice: "The Queensland Electrical Safety Act 2002, and requires six-monthly testing",
+  the_only_difference_between_each_class: "That they are able to do increasingly higher voltage and current work",
+  the_two_qualification_awarding_organisations: "City and Guilds and EAL",
+  electrical_competence: { definition: "Required at Level 3 to practice as a 'qualified electrician' in the UK", what_it_does: "", examples: "Design and Verification or Testing and Inspection among others" },
+  usual_amendments: "Published on an ad hoc bases when minor changes occur",
+  lockout_and_tagout_procedures: { definition: "Used to make sure that circuits are proven to be de-energized before work is done", what_it_does: "", examples: "climbing ladders and lifting tools and supplies" },
+  some_electricians: { definition: "Union members and work under their union's policies", what_it_does: "", examples: "trade associations as Associated Builders and Contractors and Independent Electrical Contractors" },
+  an_auto_electrician: "A tradesperson specializing in electrical wiring of motor vehicles",
+
 };
 
 // ============================================================
