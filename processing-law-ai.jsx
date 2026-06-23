@@ -23952,6 +23952,21 @@ const FLAT_DICT = {
   even_the_loans_are_concessional_since_they: { definition: "Given to countries that have no access to international capital markets", what_it_does: "", examples: "complaint intake, investigation, and investigation reports" },
   structural_adjustment_policies: { definition: "Most effective in countries with an institutional framework that allowed these policies to be implemented easily", what_it_does: "", examples: "transfer of subsidies and price rises" },
 
+  // === INGESTED 2026-06-23 01:36 ===
+  butter: "Produced by agitating cream, which damages these membranes and allows the milk fats to conjoin, separating from the other parts of the cream",
+  the_density_of_butter: "911 g/L ( 15 + 1 ⁄ 4 oz/US pt)",
+  this_watery_liquid: "Called buttermilk , although the buttermilk most commonly sold today is instead directly fermented skimmed milk",
+  then_the_grains: "'worked': pressed and kneaded together",
+  butterfat: { definition: "A mixture of triglyceride , a triester derived from glycerol , and three of any of several fatty acid groups", what_it_does: "", examples: "diacetyl , which makes for a fuller-flavored and more 'buttery' tasting product" },
+  butter_made_from_unpasteurized_raw_milk: "Very rare and can be dangerous",
+  commercial_raw_milk_products: "Not legal to sell through interstate commerce in the United States [ 27 ] and are very rare in Europe",
+  clarified_butter: "Made by heating butter to its melting point and then allowing it to cool; after settling, the remaining components separate by density",
+  the_resulting_butterfat: { definition: "Then poured off from the mixture of water and casein proteins that settle to the bottom", what_it_does: "flavors the ghee, and also produces antioxidants that help protect it from rancidity", examples: "" },
+  the_fat_content_of_whey: "Low, so a thousand units mass of whey will typically yield only three units of butter",
+  buffalos: "Very efficient at converting dietary β-carotene to vitamin A before the pigment reaches the milk, unlike most cattle species",
+  this_practice_continued_until_production: { definition: "Mechanized and butter was produced in less decorative stick form", what_it_does: "", examples: "sycamore , [ 68 ] kahikatea , [ 69 ] hoop pine , [ 70 ] maple , or spruce" },
+  the_smoke_point_of_butterfat: "Around 200 °C (400 °F), so clarified butter or ghee is better suited to frying",
+
 };
 
 // ============================================================
