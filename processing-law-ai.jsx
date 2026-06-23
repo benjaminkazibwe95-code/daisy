@@ -26644,6 +26644,29 @@ const FLAT_DICT = {
   fujitsu_siemens: "Merged back into Fujitsu in 2009",
   pc_interworks: "Subsequently absorbed by International Computer Logistics Limited",
 
+  // === INGESTED 2026-06-23 09:51 ===
+  hypertext: "Text with hyperlinks",
+  the_text_that_is_linked_from: "Known as anchor text",
+  a_software_system_that: "Used for viewing and creating hypertext is a hypertext system , and to create a hyperlink is to hyperlink (or simply to link )",
+  a_user_following_hyperlinks: "Said to navigate or browse the hypertext",
+  the_document_containing_a_hyperlink: "Known as its source document",
+  hyperlinks: "Therefore integral to the creation of the World Wide Web",
+  the_full_content: "Then usually available on demand, as is the case with print publishing software – e.g., with an external link",
+  the_fragment: "Generally a portion of text or a heading, though not necessarily",
+  fragments: "Marked with anchors (in any of various ways), which is why a link to a fragment is called an anchor link (that is, a link to an anchor)",
+  one_way_to_define_a_hot_area_in_an_image: "By a list of coordinates that indicate its boundaries",
+  web_pages: "Written in the hypertext mark-up language HTML",
+  permalinks: "Used in order to point and redirect readers to the same Web page , blog post or any online digital media",
+  internet_shortcuts: "Text files , but their internal structure is similar to that of an INI file",
+  other_keyvalue_pairs: "Irregularly supported across operating systems",
+  the_most_common_destination_anchor: "A URL used in the World Wide Web",
+  the_latter_is_achieved_by: "Of an HTML element with a 'name' or 'id' attribute at that position of the HTML document",
+  the_url_of_the_position: { definition: "The URL of the webpage with a fragment identifier – '# id attribute ' – appended", what_it_does: "", examples: "'# page=386 '" },
+  if_the_target: "Not an HTML file, depending on the file type and on the browser and its plugins , another program may be activated to open the file",
+  creation_of_new_windows: "Probably the most common use of the 'target' attribute",
+  the_intention_in_that_case: "To ensure that the person browsing is aware that there is no endorsement of the site being linked to by the site that was linked from",
+  another_special_page_name: { definition: "'_top', which causes any frames in the current window to be cleared away so that browsing can continue in the full window", what_it_does: "", examples: "gambling illegal in the US) or infringing (e.g., illegal MP3 copies)" },
+
 };
 
 // ============================================================
