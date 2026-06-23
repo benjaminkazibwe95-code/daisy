@@ -27178,6 +27178,22 @@ const FLAT_DICT = {
   the_basic_premise_of_a_ponzi_scheme: "' to rob Peter to pay Paul '",
   bubbles: "Often said to be based on the 'greater fool' theory",
 
+  // === INGESTED 2026-06-23 11:47 ===
+  in_the_context_of_cryptocurrencies_they: "The most common mechanisms",
+  another_common_feature: "Built-in incentive -structures that reward allocating computational capacity to the network with value in the form of cryptocurrency",
+  one_of_the_earliest_implementations_of_pow: "Hashcash , created by British cryptographer Adam Back in 1997",
+  this_task: "Trivial for legitimate users but would impose a significant cost on spammers attempting to send bulk messages",
+  proofofwork_systems: "Being used by other, more complex cryptographic systems such as Bitcoin, which uses a system similar to Hashcash",
+  the_earliest_appearance_of_proof_of_work: "In 1993, when Cynthia Dwork and Moni Naor proposed a system to curb junk email by requiring senders to perform computationally demanding tasks",
+  the_rationale: "That mailing-list holders may generate stamps for every recipient without incurring a high cost",
+  whether_such_a_feature: "Desirable depends on the usage scenario",
+  the_protocol: "Built around Doubly Parallel Local Search (DPLS), a local search algorithm that is used as the PoUW component",
+  bitcoin_has_better_trustworthiness_because_it: "Protected by computation",
+  bitcoins: "'mined' using the Hashcash proof-of-work function by individual miners and verified by the decentralized nodes in the P2P Bitcoin network",
+  the_solutions: "Then used to validate transactions, add blocks and generate new bitcoins",
+  miners: "Rewarded for solving these puzzles and successfully adding new blocks",
+  the_energy_used_in_this_competition: "What fundamentally gives Bitcoin its level of security and resistance to attacks",
+
 };
 
 // ============================================================
