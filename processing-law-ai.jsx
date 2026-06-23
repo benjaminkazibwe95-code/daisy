@@ -25237,6 +25237,10 @@ const FLAT_DICT = {
   meat_pies_and_other_savoury_pies: "Readily available at most grocery stores and many petrol stations",
   this_cuisine: { definition: "Characterised mainly by the usage of spices such as nutmeg , allspice , and chili peppers", what_it_does: "", examples: "curries, sweets , chutneys , fried snacks such as samoosas , and other savoury foods" },
 
+  // === INGESTED 2026-06-23 05:46 ===
+  a_progress_report: "Presented at the 2008 G8 Summit in Japan; a final report on the results of the dialogue was put forward in Italy in 2009",
+  the_following_list: "A list of leaders of G8+5 in March 2014, when Russia was suspended from the G8",
+
 };
 
 // ============================================================
