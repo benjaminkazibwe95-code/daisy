@@ -25452,6 +25452,9 @@ const FLAT_DICT = {
   the_lake_turkana_area: "Home to hundreds of species of birds endemic to Kenya",
   the_birds: "Essentially supported by plankton masses in the lake, which also feed the fish there",
 
+  // === INGESTED 2026-06-23 06:39 ===
+  chami: "An archaeologist from Tanzania",
+
 };
 
 // ============================================================
