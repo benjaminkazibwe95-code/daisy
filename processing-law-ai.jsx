@@ -27565,6 +27565,9 @@ const FLAT_DICT = {
   an_equivalent_comparison: { definition: "When the friction angle is greater than the lead angle ( ϕ > λ {\displaystyle \phi >\lambda } )", what_it_does: "", examples: "a trapezoidal thread, this must be compensated as it increases the frictional forces" },
   the_critical_speed: "The speed that excites the natural frequency of the screw",
 
+  // === INGESTED 2026-06-23 13:27 ===
+  the_album: "Released on May 5, 2023, by Fueled by Ramen",
+
 };
 
 // ============================================================
