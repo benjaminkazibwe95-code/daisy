@@ -29727,6 +29727,26 @@ const FLAT_DICT = {
   in_a_conclusive_understanding_it: "Realised that sustainable agriculture is far from mainstream in India",
   a_large_factor_of_this_policy: "Funding programs that made sustainable agriculture accessible to smaller Palestinian-Arab communities",
 
+  // === INGESTED 2026-06-23 21:31 ===
+  while_poverty: { definition: "Much more widespread in developing countries, both types of countries undertake poverty reduction measures", what_it_does: "", examples: "nitrogen fertilizers , pesticides and irrigation methods" },
+  promoting_hand_washing: "One of the most cost effective health intervention and can cut deaths from the major childhood diseases of diarrhea and pneumonia by half",
+  a_significant_fraction_of_these_gains: { definition: "Made possible by skill-biased technical change amplifying the returns to education", what_it_does: "", examples: "roads and information networks, helps market reforms to work" },
+  an_analysis_of_the_whole_area: { definition: "Carried out in 2007 and 2008", what_it_does: "", examples: "micro finance banks, may be able to make a difference" },
+  aid_in_its_simplest_form: { definition: "A basic income grant , a form of social security periodically providing citizens with money", what_it_does: "", examples: "enrolling children in school or receiving vaccinations" },
+  a_major_proportion_of_aid_from_donor_nations: "'tied', mandating that a receiving nation buy products originating only from the donor country",
+  the_diseases_then_treated: "Ranked by their prevalence, morbidity, risk of mortality, and the feasibility of control",
+  the_argument_occurs_because_once_these_people: { definition: "Treated, they are sent back to the conditions that led to the disease in the first place", what_it_does: "", examples: "against polio , diphtheria and measles have saved millions of lives" },
+  efficient_institutions_that: "Not corrupt and obey the rule of law make and enforce good laws that provide security to property and businesses",
+  comparative_research_has_found_that_the_scale: { definition: "Correlated with higher rates of economic development", what_it_does: "", examples: "where good governance comes from and how it can be achieved" },
+  the_toronto_dollar: "An example of a local currency oriented towards reducing poverty",
+  toronto_dollars: "Sold and redeemed in such a way that raise funds which are then given as grants to local charities, primarily ones oriented towards reducing poverty",
+  disasters: "A major cause of impoverishment and can reverse progress towards poverty reduction",
+  adaptationpoverty_linkages: "Found to be strongest in NAPAs from sub-Saharan Africa LDCs",
+  unless_suitable_reduction_procedures: "Formulated and implemented in the near future, rustic poverty will probably be a real issue for quite some long time",
+  families: { definition: "Determined to be low-pay if their monthly income does not surpass the evaluated monthly minimum set by every city or region", what_it_does: "", examples: "the elderly and the incapacitated, who cannot work" },
+  their_answer: "That a business that wanted to succeed in that market had to spend time talking to and understanding those customers",
+  its_signature_bop_product: "Pureit, a countertop water-purification system sold in India, Africa and Latin America",
+
 };
 
 // ============================================================
