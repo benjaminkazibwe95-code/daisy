@@ -29457,6 +29457,13 @@ const FLAT_DICT = {
   this_grouping: "Directly opposed to the First World , which grouped countries aligned with the United States and its allies in NATO and the Western Bloc",
   first_world_countries: { definition: "Capitalist and industrial; they shared similar political and economic institutions, and retained influence over parts of the former colonial world", what_it_does: "", examples: "centrally planned economic systems , single-party states , and medium income levels" },
 
+  // === INGESTED 2026-06-23 20:13 ===
+  anticonsumerism: "A sociopolitical ideology",
+  anticonsumerist_beliefs: { definition: "In some cases connected with religious beliefs", what_it_does: "", examples: "in the broader context of environmentalism and anti-corporate activism" },
+  a_notable_anticonsumerist_protest_community: "Reverend Billy and the Church of Stop Shopping",
+  a_key_argument_for_these_movements: { definition: "The need for both personal and systemic changes", what_it_does: "", examples: "meaningful relationships" },
+  in_the_twentyeight_years_since_i: "Born, I've been subjected to a stunning amount of advertising, and I don't recall anyone ever asking me if I minded",
+
 };
 
 // ============================================================
