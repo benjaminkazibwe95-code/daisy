@@ -25958,6 +25958,16 @@ const FLAT_DICT = {
   attributes_of_an_element: { definition: "Represented as properties of the element node in the DOM tree", what_it_does: "", examples: "getElementById , createElement , appendChild , and innerHTML" },
   another_way_to_create_a_dom_structure: { definition: "Using the innerHTML property to insert HTML code as a string, creating the elements and children in the process", what_it_does: "", examples: "Another method is to use a JavaScript library or framework such as jQuery , AngularJS , React , Vue" },
 
+  // === INGESTED 2026-06-23 07:58 ===
+  web_pages_that_use_serverside_scripting: { definition: "Often created with the help of server-side languages such as PHP , Perl , ASP , JSP , ColdFusion and other languages", what_it_does: "", examples: "Coldfusion , WebObjects , PHP , and Active Server Pages" },
+  a_program_running_on_a_web_server: "Used to generate the web content on various web pages, manage user sessions, and control workflow",
+  two_notable_exceptions: "ASP.NET , and JSP , which reuse CGI concepts in their APIs but actually dispatch all web requests into a shared virtual machine",
+  the_serverside_languages: { definition: "Used to embed tags or markers within the source file of the web page on the web server", what_it_does: "", examples: "the current date" },
+  clientside_scripting: "Changing interface behaviors within a specific web page in response to input device actions, or at specified timing events",
+  the_clientside_content: "Generated on the user's local computer system",
+  the_first_public_use_of_javascript: "In 1995, when the language was implemented in Netscape Navigator 2 , standardized as ECMAScript two years later",
+  the_server_returns_the_requested_data_which: "Then processed by a client-side script",
+
 };
 
 // ============================================================
