@@ -29800,6 +29800,13 @@ const FLAT_DICT = {
   six_of_them: "To be achieved by the year 2030, one by the year 2020, and one has no target year",
   are_all_part_of_susana_and: "Dedicated to achieving SDG 6",
 
+  // === INGESTED 2026-06-23 21:47 ===
+  commercial_credit_to_public_utilities: "Limited by low tariffs and insufficient cost-recovery",
+  microcredits: "A complementary or alternative approach to allow the poor to gain access to water supply and sanitation in the aforementioned regions",
+  such_use: "Typically to finance household water and sewerage connections, bathrooms , toilets , pit latrines , rainwater harvesting tanks or water purifiers",
+  the_potential_market_size: { definition: "Considered huge in both rural and urban areas and some of these water and sanitation schemes have achieved a significant scale", what_it_does: "", examples: "through market assessments and capacity-building" },
+  every_project: "Pre-financed with a credit of up to 80 percent of the project costs (averaging US$80,000 )",
+
 };
 
 // ============================================================
