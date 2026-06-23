@@ -25330,6 +25330,9 @@ const FLAT_DICT = {
   these_meridians: { definition: "Very close to each other", what_it_does: "", examples: "lunar laser ranging , satellite laser ranging , and very-long-baseline interferometry" },
   often_a_landmark_such_as_a_crater: "Used; other times a prime meridian is defined by reference to another celestial object, or by magnetic fields",
 
+  // === INGESTED 2026-06-23 06:12 ===
+  although_the_country: "Sometimes referred to as the Dominion of Ghana during this period, it never held the formal status of Dominion within the British Empire",
+
 };
 
 // ============================================================
