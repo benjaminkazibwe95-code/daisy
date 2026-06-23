@@ -30075,6 +30075,18 @@ const FLAT_DICT = {
   caring_for_the_sick: { definition: "An important obligation", what_it_does: "", examples: "Hippocrates, Galen, and Dioscorides" },
   since_maintaining_a_hospital_wing: "A necessity, it is no surprise that monks invested a lot of time on medical treatment",
 
+  // === INGESTED 2026-06-23 22:46 ===
+  the_terms_of_the_arrangements: "Set out in individual Academy Funding Agreements",
+  an_academy_chain: "A group of trusts working together under a shared management structure",
+  the_current_advisory_text: { definition: "The Academy and free school: master funding agreement dated March 2018", what_it_does: "", examples: "its curriculum, ethos, specialism and building (if a new one is built)" },
+  the_remainder_of_the_capital_and_running_costs: "Met by the state in the usual way for UK state schools through grants funded by the local authority",
+  its_schools: "Likely to be taken over by a new trust",
+  the_school_staff_to: "Transferred to the MAT in accordance with TUPE regulations, and land and commercial assets are transferred from the local authority",
+  the_school_can_change_its_mind_until_documents: "Sent to the Secretary of State in order to be signed; this is usually around three weeks before the agreed conversion date",
+  school_land_and_playing_fields: { definition: "Protected under Section 77 of the School Standards and Framework Act 1998", what_it_does: "", examples: "former party leader Lord Kinnock" },
+  academisation_is_not_always_successful_nor: "It the only proven alternative for a struggling school'",
+  critics_contend_that_this: { definition: "Significantly more than it costs to build a new local authority school", what_it_does: "", examples: "Djanogly CTC is now Djanogly City Academy ) was a 2003 conversion" },
+
 };
 
 // ============================================================
