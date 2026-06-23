@@ -26465,6 +26465,32 @@ const FLAT_DICT = {
   names: "Also placed on the EUR ING Register maintained by Engineers Europe, in addition to the relevant national registers",
   recognition_of_the_qualification_and_title: "Generally not specifically incorporated into national law",
 
+  // === INGESTED 2026-06-23 09:15 ===
+  jones: { definition: "Not prosecuted since he cooperated with the district attorney, and testified against Patrick", what_it_does: "", examples: "visits to 78 institutions of higher learning across the world on a long tour between 1908 and 1909" },
+  classes: "Difficult, however, and about half of Rice's students had failed after the first 1912 term",
+  the_statue: "Crafted by John Angel",
+  oncampus_housing: { definition: "Exclusively for men for the first forty years, until 1957", what_it_does: "", examples: "Lovett College , Sid Richardson College , and Martel College" },
+  the_economic_summit_of_industrialized_nations: "Held at Rice in 1990",
+  the_rice_owls_baseball_team: "Ranked #1 in the nation for the first time in that year (1999), holding the top spot for eight weeks",
+  nearly_every_building_on_campus: "Noticeably Byzantine in style, with sand and pink-colored bricks, large archways and columns being a common theme among many campus buildings",
+  these_two_quads: "Surrounded by the university's main access road, a one-way loop referred to as the 'inner loop'",
+  housing: "Divided among eleven residential colleges",
+  the_colleges: { definition: "Named for university historical figures and benefactors", what_it_does: "", examples: "at least four within the greater Houston area" },
+  reginald_desroches: "Appointed president in 2022 and succeeded David W",
+  these_transitions: "Designed to be simple, with students not required to decide on a specific major until their sophomore year of study",
+  almost_all_rice_exams: "Unproctored and professors give timed, closed-book exams that students take home and complete at their own convenience",
+  potential_infractions: "Reported to the student Honor Council, elected by popular vote",
+  although_each_college: { definition: "Composed of a full cross-section of students at Rice, they have over time developed their own traditions and 'personalities", what_it_does: "", examples: "Beer Bike and O-Week" },
+  willy_week: "A term coined in the 1990s to refer to the week preceding Beer Bike, a time of general energy and excitement on campus",
+  beer_bike: "Rice's most prominent student event, and for younger alumni it serves as an unofficial reunion weekend on par with Homecoming",
+  the_rice_coffeehouse: "A not-for-profit student-run organization serving Rice University and the greater Houston community",
+  the_original_name: "Chosen by students in tribute to the university's founder, William Marsh Rice",
+  after_the_drinking_age_in_texas: "Raised in 1986, the pub entered a period of financial difficulties and in April 1995, was destroyed in a fire",
+  the_space: "Gutted but renovated and remains open",
+  the_website: "Created sometime in the early to mid-2000s",
+  ktru_rice_radio: "The student-run radio station",
+  one_such_show: "Held in fall and another in spring, usually during a weekend allocated for visits by prospective students",
+
 };
 
 // ============================================================
