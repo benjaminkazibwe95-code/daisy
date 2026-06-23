@@ -28415,6 +28415,9 @@ const FLAT_DICT = {
   this_adjustment_process: "Critical in ensuring that markets operate efficiently, promoting economic growth and stability",
   a_similar_mechanism: { definition: "Believed to operate when there is a market surplus (glut), where prices fall until all the excess supply is sold", what_it_does: "", examples: "John Maynard Keynes , to doubt their classical faith" },
 
+  // === INGESTED 2026-06-23 16:17 ===
+  the_wolfram_demonstrations_project: "An open-source collection of interactive programmes called Demonstrations",
+
 };
 
 // ============================================================
