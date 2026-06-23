@@ -25115,6 +25115,9 @@ const FLAT_DICT = {
   he_would_always_emphasize_that_education: "The best legacy, other things could follow later'",
   his_legacy: "Summarised by Oliver De Coque , who in paying tribute to Dr",
 
+  // === INGESTED 2026-06-23 05:19 ===
+  babangida_was_present_when_the_barracks: "Attacked but managed to escape by a back route",
+
 };
 
 // ============================================================
