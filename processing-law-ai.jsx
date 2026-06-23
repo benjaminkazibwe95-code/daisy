@@ -30033,6 +30033,14 @@ const FLAT_DICT = {
   these_kinds_of_grades: { definition: "Only short-term snapshots of how much a student has learned in a given period of time and only partially reflect the actual performance", what_it_does: "", examples: "competency-based assessment, specifications grading, and 'ungrading' can be used" },
   this_study_found_that_this_bias: { definition: "Dependent on the teacher and their relationship and attitude towards race", what_it_does: "", examples: "the European Baccalaureate" },
 
+  // === INGESTED 2026-06-23 22:38 ===
+  an_analogy: { definition: "A use of the rival terms free software and open-source, which describe ideological differences rather than legal ones", what_it_does: "", examples: "mashups and collaborative content" },
+  a_public_domain_work: "A work whose author has either relinquished to the public or no longer can claim control over, the distribution and usage of the work",
+  a_symbol_commonly_associated_with_copyleft: { definition: "A reversal of the copyright symbol , facing the other way; the opening of the C points left rather than right", what_it_does: "", examples: "software, academic literature, general literature, music, images, video, and engineering" },
+  wikipedia: { definition: "Amongst the most well-known databases of user-uploaded free content on the web", what_it_does: "", examples: "scientific research, with the social structures that result leading to decreased production costs" },
+  open_access: { definition: "Online research outputs that are free of all restrictions to access and free of many restrictions on use (e.g", what_it_does: "", examples: "MIT , provide freely available course content, such as lecture notes, video resources and tutorials" },
+  open_content: "A free way of obtaining higher education that is 'focused on collective knowledge and the sharing and reuse of learning and scholarly content",
+
 };
 
 // ============================================================
