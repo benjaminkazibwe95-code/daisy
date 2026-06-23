@@ -23936,6 +23936,22 @@ const FLAT_DICT = {
   the_can: { definition: "Then able to be stored at ambient temperatures for a long period", what_it_does: "", examples: "tomatoes, mushrooms, and beans, spreading the produce on racks and turning the crop at intervals" },
   sauerkraut: "Made from chopped cabbage and relies on lactic acid bacteria which produce compounds that are inhibitory to the growth of other micro-organisms",
 
+  // === INGESTED 2026-06-23 01:34 ===
+  the_world_bank: "Established along with the International Monetary Fund at the 1944 Bretton Woods Conference",
+  the_president_of_the_world_bank: "Nominated by the president of the United States and elected by the bank's Board of Governors",
+  although_many_countries: "Represented at the Bretton Woods Conference, the United States and United Kingdom were the most powerful in attendance and dominated the negotiations",
+  the_loan: "For US$250 million, half the amount requested, and came with strict conditions",
+  krueger: "Known for her criticism of development funding and for describing developing countries' governments as ' rent-seeking states'",
+  kosovo: "Not a member of the UN, but is a member of the IMF and the World Bank Group, including the IBRD and IDA",
+  the_countries_with_most_voting_power: "Now the United States (15.85%), Japan (6.84%), China (4.42%), Germany (4.00%), the United Kingdom (3.75%), France (3.75%), India (2",
+  membership_gives_certain_voting_rights_that: "The same for all countries but there are also additional votes that depend on financial contributions to the organization",
+  executive_directors: "Appointed by their respective governments or the constituencies",
+  the_nominee: "Subject to confirmation by the executive directors, to serve a five-year, renewable term",
+  the_eir_recommendations: { definition: "Published in January 2004 in a final report, 'Striking a Better Balance'", what_it_does: "", examples: "those for diseases" },
+  the_grant_beneficiaries: "Social enterprises with projects that aim to deliver social and public services to groups with the lowest incomes",
+  even_the_loans_are_concessional_since_they: { definition: "Given to countries that have no access to international capital markets", what_it_does: "", examples: "complaint intake, investigation, and investigation reports" },
+  structural_adjustment_policies: { definition: "Most effective in countries with an institutional framework that allowed these policies to be implemented easily", what_it_does: "", examples: "transfer of subsidies and price rises" },
+
 };
 
 // ============================================================
