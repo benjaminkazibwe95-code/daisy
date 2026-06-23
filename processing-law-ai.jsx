@@ -25922,6 +25922,29 @@ const FLAT_DICT = {
   the_height_of_the_root: "The height of the tree",
   the_depth_of_a_node: "The length of the path to its root (i.e., its root path )",
 
+  // === INGESTED 2026-06-23 07:52 ===
+  discussions: "Threaded , as with web forums and BBSes, though posts are stored on the server sequentially",
+  usenet: "Originally created to distribute text content encoded in the 7- bit ASCII character set",
+  the_first_commercial_spam_on_usenet: { definition: "From immigration attorneys Canter and Siegel advertising green card services", what_it_does: "", examples: "in the wine-making newsgroup rec.crafts" },
+  the_format_and_transmission_of_usenet_articles: "Similar to that of Internet e-mail messages",
+  commonly_omitted_from_such_a_newsfeed: "Foreign-language newsgroups and the alt",
+  the_moderator: "To receive submitted articles, review them, and inject approved articles so that they can be properly propagated worldwide",
+  the_rfd: "Required to have the following information: newsgroup name, checkgroups file entry, and moderated or unmoderated status",
+  if_the_group: "To be moderated, then at least one moderator with a valid email address must be provided",
+  other_information_which: "Beneficial but not required includes: a charter, a rationale, and a moderation policy if the group is to be moderated",
+  only_one_copy_of_a_message: "Stored per server, and each server makes it available on demand to the (typically local) readers able to access that server",
+  the_major_set_of_worldwide_newsgroups: "Contained within nine hierarchies, eight of which are operated under consensual guidelines that govern their administration and naming",
+  many_other_hierarchies_of_newsgroups: { definition: "Distributed alongside these", what_it_does: "", examples: "japan.* , malta.* and ne" },
+  some_subgroups: "Recursive—to the point of some silliness in alt.* [ citation needed ]",
+  files: "Therefore commonly split into sections that require reassembly by the reader",
+  parity_files: "Used to recreate missing data when not every part of the files reaches a server",
+  the_average_length_of_time_that_posts: "Able to stay on the server before being deleted is commonly called the retention time",
+  binary_newsgroups: { definition: "Only able to function reliably if sufficient storage is allocated to handle the amount of articles being added", what_it_does: "", examples: "spam floods, without deleting anything" },
+  the_data_is_typically_encrypted_because_it: { definition: "Available to anyone to download the backup files", what_it_does: "", examples: "the Recording Industry Association of America" },
+  the_public_release_of_news: "In the form of conventional compiled software , written by Steve Daniel and Truscott",
+  a_vote: "Taken at the 1982 USENIX conference to choose a new name",
+  the_name_usenet: { definition: "Retained, but it was established that it only applied to news", what_it_does: "", examples: "UFGATE (UUCP to FidoNet Gateway), FSUUCP and UUPC" },
+
 };
 
 // ============================================================
