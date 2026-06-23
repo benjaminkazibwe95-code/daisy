@@ -27048,6 +27048,10 @@ const FLAT_DICT = {
   while_all_foss_software: { definition: "Source available because this is a requirement made by the Open Source Definition , not all source available software is FOSS", what_it_does: "", examples: "attracting more external contributors who bring new perspectives and problem solving capabilities" },
   even_though_programming: { definition: "Originally seen as a female profession, there remains a large gap in computing", what_it_does: "", examples: "open-source ecology , a movement to decentralize technologies so that any human can use them" },
 
+  // === INGESTED 2026-06-23 11:12 ===
+  common_examples_of_this_type_of_timestamp: "A postmark on a letter or the 'in' and 'out' times on a time card",
+  timestamps: { definition: "Often found to be 'dirty' in many cases", what_it_does: "", examples: "provenance analysis or pattern queries are not reliable" },
+
 };
 
 // ============================================================
