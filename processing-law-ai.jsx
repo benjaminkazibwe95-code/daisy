@@ -25949,6 +25949,15 @@ const FLAT_DICT = {
   web_standards: "The formal, non-proprietary standards and other technical specifications that define and describe aspects of the World Wide Web",
   these_bandwidth_requirements: "Burdensome to users in developing countries, rural areas, and wherever fast Internet connections were unavailable",
 
+  // === INGESTED 2026-06-23 07:56 ===
+  once_an_event: "Triggered, the event handlers get executed",
+  legacy_dom: { definition: "Limited in the kinds of elements that could be accessed", what_it_does: "", examples: "a form input element could be accessed as either document.myForm.myInput or document.forms.elements" },
+  the_nodes_of_every_document: "Organized in a tree structure , called the DOM tree , with the topmost node named as 'Document object'",
+  when_an_html_page: "Rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen",
+  elements_in_an_html_or_xml_document: "Represented as nodes in the DOM tree",
+  attributes_of_an_element: { definition: "Represented as properties of the element node in the DOM tree", what_it_does: "", examples: "getElementById , createElement , appendChild , and innerHTML" },
+  another_way_to_create_a_dom_structure: { definition: "Using the innerHTML property to insert HTML code as a string, creating the elements and children in the process", what_it_does: "", examples: "Another method is to use a JavaScript library or framework such as jQuery , AngularJS , React , Vue" },
+
 };
 
 // ============================================================
