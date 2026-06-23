@@ -25912,6 +25912,16 @@ const FLAT_DICT = {
   multiple_http_headers: { definition: "Often supplied together for content format or, specifically media type, language and a few other aspects of a resource", what_it_does: "", examples: "in the above example, choosing between an HTML page in English and a GIF image in German" },
   agentdriven_or_reactive_content_negotiation: { definition: "Performed by algorithms in the user-agent which choose among the possible variant representations", what_it_does: "", examples: "content-type, quality, language, etc.)" },
 
+  // === INGESTED 2026-06-23 07:50 ===
+  binary_trees: "A commonly used type, which constrain the number of children for each parent to at most two",
+  when_the_order_of_the_children: { definition: "Specified, this data structure corresponds to an ordered tree in graph theory", what_it_does: "", examples: "using indexes or ancestor lists for performance" },
+  trees_as_used_in_computing: "Similar to but can be different from mathematical constructs of trees in graph theory , trees in set theory , and trees in descriptive set theory",
+  a_node: "A structure which may contain data and connections to other nodes, sometimes called edges or links",
+  a_node_that_has_a_child: { definition: "Called the child's parent node (or superior )", what_it_does: "", examples: "the parent's parent" },
+  the_height_of_a_node: "The length of the longest downward path to a leaf from that node",
+  the_height_of_the_root: "The height of the tree",
+  the_depth_of_a_node: "The length of the path to its root (i.e., its root path )",
+
 };
 
 // ============================================================
