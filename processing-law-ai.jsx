@@ -24866,6 +24866,12 @@ const FLAT_DICT = {
   the_national_team: "Often referred to as Amavubi (The Wasps )",
   win_draw_loss_fixture_the_following_players: "Called up for the 2026 FIFA Series (men's matches) matches against Grenada and either Kenya or Estonia on 27 and 30 March 2026",
 
+  // === INGESTED 2026-06-23 04:31 ===
+  the_scotsman: "A Scottish compact newspaper and daily news website headquartered in Edinburgh",
+  these_two_plus_john_ramsay_mcculloch: "Co-founders of the venture",
+  the_price: "Originally 6d plus 4d tax",
+  ian_stewart: "Previously editor of Edinburgh Evening News and remains as the editor of Scotland on Sunday",
+
 };
 
 // ============================================================
