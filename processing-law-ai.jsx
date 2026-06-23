@@ -26967,6 +26967,11 @@ const FLAT_DICT = {
   grabcad: "Founded in Estonia in 2009 by current CEO, Hardi Meybaum , and Indrek Narusk [ 1 ] as a marketplace to connect engineers with CAD-related jobs",
   workbench: "Used by companies to support the design of physical products ranging from basic screws to jet engine brackets",
 
+  // === INGESTED 2026-06-23 10:55 ===
+  peer_production: "A collaborative effort with no limit to the amount of discussion or changes that can be made to the product",
+  commonsbased_peer_production: "A subset of peer production defined by its non-profit focus",
+  they_argue_that_bureaucracy: "Better equipped to handle social problems than peer production, which they consider unsustainable",
+
 };
 
 // ============================================================
