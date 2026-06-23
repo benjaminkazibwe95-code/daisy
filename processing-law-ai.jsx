@@ -27117,6 +27117,12 @@ const FLAT_DICT = {
   the_energy_needed_to_manufacture_a_battery: "About 50 times greater than the energy it contains",
   the_energy_efficiency_of_a_fuel_cell: "Generally between 40 and 60%; however, if waste heat is captured in a cogeneration scheme, efficiencies up to 85% can be obtained",
 
+  // === INGESTED 2026-06-23 11:28 ===
+  generalizing_test_cases: { definition: "An example of just one technique to deal with failure—specifically, failure due to invalid user input", what_it_does: "", examples: "disconnecting from a network" },
+  some_of_the_most_robust_systems: { definition: "Evolvable and can be easily adapted to new situations", what_it_does: "", examples: "the internet or biological systems demonstrate adaptation to their environments" },
+  one_of_the_main_reasons_why_there: "No focus on robustness today is because it is hard to do in a general way",
+  robust_machine_learning_typically: "The robustness of machine learning algorithms",
+
 };
 
 // ============================================================
