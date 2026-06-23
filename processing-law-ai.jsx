@@ -24111,6 +24111,26 @@ const FLAT_DICT = {
   this_alliance_with_the_tuareg: { definition: "A key pillar of Songhai power, particularly in their control over the salt mines of Taghaza", what_it_does: "", examples: "produced books on Islamic law which are still in use today" },
   a_version_recounted_by_nouhou_malio: "Recorded by Thomas A",
 
+  // === INGESTED 2026-06-23 01:59 ===
+  macedon: { definition: "Too small for you', and bought the horse for him", what_it_does: "", examples: "Ptolemy , Hephaestion , and Cassander" },
+  the_territory: "Colonized, and a city, named Alexandropolis , was founded",
+  while_philip: "Occupied in Thrace, Alexander was ordered to muster an army for a campaign in southern Greece",
+  alexander: { definition: "Also impressed by Porus's bravery and made him an ally", what_it_does: "", examples: "malaria and typhoid fever" },
+  the_theban_resistance: "Ineffective and Alexander razed the city and divided its territory between the other Boeotian cities",
+  the_macedonians: "Demoralized by Philip's death and were subsequently defeated near Magnesia by the Achaemenids under the command of the mercenary Memnon of Rhodes",
+  alexander_replied_that_since_he: "Now king of Asia, it was he alone who decided territorial divisions",
+  the_stronghold: { definition: "Heavily fortified and built on a hill, requiring a siege", what_it_does: "", examples: "modern Kandahar in Afghanistan, and Alexandria Eschate ('The Furthest') in modern Tajikistan" },
+  this_one: "Instigated by his own royal pages",
+  caligula: "Said to have taken Alexander's breastplate from the tomb for his own use",
+  ernst_badian_argued_that_they: "Exaggerated by Perdiccas in order to ensure that the Macedonian troops voted not to carry them out",
+  macedonian_losses: "Negligible compared to those of the Persians",
+  the_advance: { definition: "Successful and broke Darius's center, causing the latter to flee once again", what_it_does: "", examples: "in Central Asia and India, Alexander adapted his forces to his opponents' style" },
+  whereas_he: "Of a fair colour, as they say, and his fairness passed into ruddiness on his breast particularly, and in his face",
+  additionally_heracles_of_macedon: "Claimed to be his illegitimate son born of mistress, Barsine",
+  the_sons: "Heracles and Alexander",
+  alexander_and_his_exploits: { definition: "Admired by many Romans, especially generals, who wanted to associate themselves with his achievements", what_it_does: "", examples: "Middle Persian , Syriac and Arabic" },
+  their_works: "Lost, but later works based on these original sources have survived",
+
 };
 
 // ============================================================
