@@ -23655,6 +23655,9 @@ const FLAT_DICT = {
   a_hijacked_aircraft: "Flown to Entebbe Airport by pro- Palestinian hijackers seeking asylum",
   in_real_life_and_in_the_book_kay_amin: "Impregnated by her lover, an Ugandan physician (given a different name in the book from in real life)",
 
+  // === INGESTED 2026-06-23 00:38 ===
+  foreign_intelligence: "Information collection relating to the political, or economic activities of foreign states",
+
 };
 
 // ============================================================
