@@ -29020,6 +29020,12 @@ const FLAT_DICT = {
   if_more_investors_want_a_stock_and: "Willing to pay more, the price will go up",
   if_more_investors: { definition: "Selling a stock and there are not enough buyers, the price will go down", what_it_does: "", examples: "stock markets are more volatile than EMH would imply" },
 
+  // === INGESTED 2026-06-23 18:37 ===
+  an_arbitrage_opportunity: "A way of making money with no initial investment without any possibility of loss",
+  completeness: "A common property of market models (for instance the Black–Scholes model )",
+  a_complete_market: "One in which every contingent claim can be replicated",
+  though_this_property: "Common in models, it is not always considered desirable or realistic",
+
 };
 
 // ============================================================
