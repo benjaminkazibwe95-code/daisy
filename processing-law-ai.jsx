@@ -30268,6 +30268,16 @@ const FLAT_DICT = {
   when_time_duration: "Short, it is more likely that implicit learning will be tested as opposed to explicit learning",
   whereas_some_research_showed_that_participants: "Unable to use implicit learning to complete structurally similar tasks at all, others showed decreased transfer",
 
+  // === INGESTED 2026-06-23 23:22 ===
+  aging_brain: "Biological and functional changes that occur in the brain as individuals advance in age",
+  two_circuits_worth_mentioning_here: { definition: "The hippocampal and neocortical circuits", what_it_does: "", examples: "changes in enzymatic activity, chemical messengers, or gene expression in cortical circuits" },
+  neurofibrillary_tangles: "Composed of paired helical filaments (PHF)",
+  oxidative_stress: { definition: "The most controllable risk factor and is the best understood", what_it_does: "", examples: "telomere shortening in DNA components" },
+  as_telomere_length: { definition: "Partly inheritable, [ 25 ] there are individual differences in the age of onset of cognitive decline", what_it_does: "", examples: "8-OHdG, with age (see DNA damage theory of aging )" },
+  deficits_in_orientation: { definition: "One of the most common symptoms of brain disease, hence tests of orientation are included in almost all medical and neuropsychological evaluations", what_it_does: "", examples: "it is possible that sensory deficits impact older adults' attentional abilities" },
+  lower_idea_density: "Found to be significantly associated with lower brain weight, higher cerebral atrophy , and more neurofibrillary tangles",
+  its_initial_funding: { definition: "Also provided by NIA", what_it_does: "", examples: "for anti-aging" },
+
 };
 
 // ============================================================
