@@ -26525,6 +26525,12 @@ const FLAT_DICT = {
   the_same_web_source: { definition: "Used to weave a TeX file, and to tangle a Pascal source file", what_it_does: "", examples: "the Turing Award , the National Medal of Science , the John von Neumann Medal , and the Kyoto Prize" },
   knuth: "Elected to the National Academy of Sciences in 1975",
 
+  // === INGESTED 2026-06-23 09:30 ===
+  the_stevens_award: "A software engineering lecture award given by the Reengineering Forum, an industry association",
+  the_international_stevens_award: "Created to recognize outstanding contributions to the literature or practice of methods for software and systems development",
+  the_stevens_award_and_lecture: "Managed by the Reengineering Forum",
+  wayne_stevens: "A charter member of the IWCASE executive board",
+
 };
 
 // ============================================================
