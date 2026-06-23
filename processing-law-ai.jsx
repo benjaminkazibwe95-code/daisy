@@ -24037,6 +24037,22 @@ const FLAT_DICT = {
   fairtrade_certified_tea: "Sold by a large number of suppliers around the world",
   utz_certified_tea: { definition: "Sold by Pickwick tea", what_it_does: "", examples: "Africa and Southeast Asia" },
 
+  // === INGESTED 2026-06-23 01:49 ===
+  fruits_are_the: { definition: "By which angiosperms disseminate their seeds", what_it_does: "", examples: "the apple and the pomegranate ) have acquired extensive cultural and symbolic meanings" },
+  a_nut: { definition: "A type of fruit (and not a seed), and a seed is a ripened ovule", what_it_does: "", examples: "a peach, pear or lemon); nuts are hard, oily, non-sweet plant produce in shells (e.g" },
+  many_spices: { definition: "Fruits, botanically speaking, including black pepper , chili pepper , cumin and allspice", what_it_does: "", examples: "corn , rice , or wheat is a kind of fruit (termed a caryopsis )" },
+  two_sperm: "Transferred from the pollen to a megagametophyte",
+  fruit_formation: "Associated with meiosis , a central aspect of sexual reproduction in flowering plants",
+  repeated_fertilisations_within_the_ovary: { definition: "Accompanied by maturation of the ovary to form the fruit", what_it_does: "", examples: "petals, sepals, and stamens) that fuse with the ovary and ripen with it" },
+  simple_fruits: { definition: "The result of the ripening-to-fruit of a simple or compound ovary in a single flower with a single pistil", what_it_does: "", examples: "strawberries and raspberries" },
+  seeds_typically: { definition: "Embedded in the fleshy interior of the ovary", what_it_does: "", examples: "The strawberry, regardless of its appearance, is classified as a dry, not a fleshy fruit" },
+  commercial_cultivars_of_bananas_and_pineapples: "Examples of seedless fruits",
+  dispersal: "Achieved by wind or water, by explosive dehiscence , and by interactions with animals",
+  these_plants: { definition: "Termed zoochorous ; common examples include cocklebur , unicorn plant , and beggarticks (or Spanish needle)", what_it_does: "", examples: "elm , maple , and tuliptree" },
+  other_fruits_that_can_disperse_via_water: { definition: "Nipa palm and screw pine", what_it_does: "", examples: "pineapple, fig, mulberries – are commercially valuable as human food" },
+  olive_fruit: { definition: "Pressed for olive oil and similar processing is applied to other oil-bearing fruits and vegetables", what_it_does: "", examples: "blackberries and apricots in the UK) are subject to seasonal availability" },
+  fruits_and_vegetables_that: "Not going to be cooked should be thrown away if they have touched raw meat, poultry, seafood, or eggs",
+
 };
 
 // ============================================================
