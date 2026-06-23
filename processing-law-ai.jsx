@@ -23440,6 +23440,11 @@ const FLAT_DICT = {
   his_election: "The result of a compromise reached to prevent the chairmanship from going to Omar al-Bashir",
   turnout: { definition: "Officially placed at 72.44%", what_it_does: "", examples: "Louis Vuitton and Roberto Cavalli" },
 
+  // === INGESTED 2026-06-23 00:06 ===
+  the_cdb: "Established by an Agreement signed on October 18, 1969, in Kingston, Jamaica, which entered into force on January 26, 1970",
+  presidential_candidates: { definition: "Nominated by individual country members", what_it_does: "", examples: "US$71.2 million in loans and US$51.4 million in grants" },
+  this_design: "Meant strengthen the bank's governance, risk management, and operational processes, ensuring better oversight, accountability, and financial stability",
+
 };
 
 // ============================================================
