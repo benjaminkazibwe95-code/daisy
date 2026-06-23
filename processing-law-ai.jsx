@@ -25800,6 +25800,37 @@ const FLAT_DICT = {
   the_formation_of_the_ministry: "Proposed by Saeed Hajjarian to the government of Mir-Hossein Mousavi and then the parliament",
   this_plot: "Reportedly in retaliation for the U.S",
 
+  // === INGESTED 2026-06-23 07:29 ===
+  overlays: "Used for indexing and peer discovery, and make the P2P system independent from the physical network topology",
+  popular_content: "Likely to be available at several peers and any peer searching for it is likely to find the same thing",
+  but_if_a_peer: { definition: "Looking for rare data shared by only a few other peers, then it is highly unlikely that the search will be successful", what_it_does: "", examples: "high cost of advertising/discovering resources and static and dynamic load imbalance" },
+  hybrid_models: "A combination of peer-to-peer and client–server models",
+  all_of_the_information: "Retained at the server",
+  it_assigns_peers_to_other_peers_who: "'close in IP ' to its neighbors [same prefix range] in an attempt to use locality",
+  if_multiple_peers: "Found with the same file it designates that the node choose the fastest of its neighbors",
+  streaming_media: "Transmitted by having clients cache the previous stream, and then transmit it piece-wise to new nodes",
+  files_infected_with_the_riaa_virus: "Unusable afterwards and contained malicious code",
+  the_riaa: "Also known to have uploaded fake music and movies to P2P networks in order to deter illegal file sharing",
+  although_serverclient_networks: "Able to monitor and manage content availability, they can have more stability in the availability of the content they choose to host",
+  peertopeer_networking: "Data transfer from one user to another without using an intermediate server",
+  peercasting: "Employed for multicasting streams",
+  cryptocurrency_systems: "Built around a distributed network of nodes that propagate transactions and blocks and maintain a shared ledger",
+  jami: "A peer-to-peer chat and SIP app",
+  jxta: "A peer-to-peer protocol designed for the Java platform",
+  netsukuku: "A Wireless community network designed to be independent from the Internet",
+  open_garden: "A connection-sharing application that shares Internet access with other devices using Wi-Fi or Bluetooth",
+  resilio_sync_and_syncthing: "File synchronization applications",
+  secure_scuttlebutt: "A peer-to-peer gossip protocol capable of supporting many different types of applications, primarily social networking",
+  tradepal_l_and_mcommerce_applications: "Designed to power real-time marketplaces",
+  department_of_defense: "Conducting research on P2P networks as part of its modern network warfare strategy",
+  hotline_communications_hotline_client: "Built with decentralized servers and tracker software dedicated to any type of files and continues to operate today",
+  these_documents: "Usually news reporting or under the lines of research and scholarly work",
+  when_a_file: "Downloaded through a peer-to-peer network, it is impossible to know who created the file or what users are connected to the network at a given time",
+  trustworthiness_of_sources: "A potential security threat that can be seen with peer-to-peer systems",
+  pains: { definition: "Taken to remove effects of false and misremembered responses", what_it_does: "", examples: "BitTorrent" },
+  their_rationale: { definition: "That P2P is mostly used to share illegal content, and their infrastructure is not designed for continuous, high-bandwidth traffic", what_it_does: "", examples: "the BitTorrent protocol encryption" },
+  an_important_requirement_of_this_process: "That results must be reproducible so that other researchers can replicate, validate, and extend existing work",
+
 };
 
 // ============================================================
