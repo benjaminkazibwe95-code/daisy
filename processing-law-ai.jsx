@@ -29453,6 +29453,10 @@ const FLAT_DICT = {
   the_international_sphere_of_interacting_states: { definition: "Described and analyzed in systems terms by several international relations scholars, most notably in the neorealist school", what_it_does: "", examples: "an incorrect statement or data definition" },
   an_obvious_example: "The calculus developed simultaneously by Leibniz and Isaac Newton",
 
+  // === INGESTED 2026-06-23 20:11 ===
+  this_grouping: "Directly opposed to the First World , which grouped countries aligned with the United States and its allies in NATO and the Western Bloc",
+  first_world_countries: { definition: "Capitalist and industrial; they shared similar political and economic institutions, and retained influence over parts of the former colonial world", what_it_does: "", examples: "centrally planned economic systems , single-party states , and medium income levels" },
+
 };
 
 // ============================================================
