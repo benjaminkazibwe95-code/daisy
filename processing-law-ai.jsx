@@ -28843,6 +28843,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 17:51 ===
   a_workflow_application: "A software application that automates a process or processes to some degree",
 
+  // === INGESTED 2026-06-23 17:53 ===
+  business_model_patterns: "Reusable business model architectural components, which can be used in generating a new business model",
+
 };
 
 // ============================================================
