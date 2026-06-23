@@ -28872,6 +28872,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 18:02 ===
   parker: { definition: "Also a Research Fellow and Visiting Scholar at the MIT Initiative on the Digital Economy", what_it_does: "", examples: "“ MarketWatch ,” Wired , and The Wall Street Journal" },
 
+  // === INGESTED 2026-06-23 18:06 ===
+  data_privacy_and_cybersecurity: { definition: "Especially important in online businesses", what_it_does: "", examples: "Insider Store, Liv Up, and Sallve" },
+
 };
 
 // ============================================================
