@@ -29300,6 +29300,12 @@ const FLAT_DICT = {
   some_of_the_people_there: "Expressing the view that there could be a justification for it",
   another_occasion_which: "Equally telling: Fritz Machlup was a student of Mises's, one of his most faithful disciples",
 
+  // === INGESTED 2026-06-23 19:40 ===
+  a_company: "A legal entity representing an association of legal persons with a shared objective, such as generating profit or benefiting society",
+  incorporated_companies: "Created through state registration, [ 1 ] whereas unincorporated companies are not",
+  the_result_was_that_thousands_of_businesses: "Forced to close, and they laid off workers",
+  a_new_securities_and_exchange_commission: "Empowered to require corporations disclose all material information about their business to the investing public",
+
 };
 
 // ============================================================
