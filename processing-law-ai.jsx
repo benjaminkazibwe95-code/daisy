@@ -28120,6 +28120,18 @@ const FLAT_DICT = {
   his_second: "To Anna Reisinger, 20 years his junior and daughter of the concierge of the apartment where he grew up",
   robert_heilbroner: { definition: "One of Schumpeter's most renowned pupils, who wrote extensively about him in The Worldly Philosophers", what_it_does: "", examples: "economic policy, management studies, industrial policy, and the study of innovation" },
 
+  // === INGESTED 2026-06-23 15:22 ===
+  the_usevalue_of_a_commodity: { definition: "Specifically a social use-value, meaning that it has a generally accepted use-value for others in society, and not just for the producer", what_it_does: "", examples: "is a distinct use-value differing from the use-values of cotton, glass, paper, etc" },
+  but_the_extent_of_its_possible_application: { definition: "Limited by its existence as an object with distinct properties", what_it_does: "", examples: "a bushel of wheat, a quire of paper, a yard of linen" },
+  from_the_taste_of_wheat_it: "Not possible to tell who produced it, a Russian serf, a French peasant or an English capitalist",
+  to_be_a_usevalue: "Evidently a necessary prerequisite of the commodity, but it is immaterial to the use-value whether it is a commodity",
+  it_belongs_in_this_sphere_only_when_it: "Itself a determinate form",
+  usevalue: "The immediate physical entity in which a definite economic relationship—exchange-value—is expressed",
+  he_remained_a_sharp_critic_of_what: "To the Marxian view a destructive philosophy: The utility of a thing makes it a use value",
+  this_property_of_a_commodity: { definition: "Independent of the amount of labour required to appropriate its useful qualities", what_it_does: "", examples: "dozens of watches, yards of linen, or tons of iron" },
+  in_the_form_of_society_we: "About to consider, they are, in addition, the material depositories of exchange value",
+  if_the_thing: { definition: "Useless, so is the labour contained in it; the labour does not count as labour, and therefore creates no value", what_it_does: "", examples: "you objectively require steel, and this steel is required, regardless of what its price might be" },
+
 };
 
 // ============================================================
