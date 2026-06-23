@@ -28828,6 +28828,11 @@ const FLAT_DICT = {
   the_strike: { definition: "Supported by then Leader of the Opposition Jeremy Corbyn", what_it_does: "", examples: "broken or fractured bones, leg deformities and heart failure" },
   some_of_the_complainants_also_stated_that_they: { definition: "Verbally and physically harassed in retaliation for their complaints", what_it_does: "", examples: "racism, homophobia, ableism, and harassment" },
 
+  // === INGESTED 2026-06-23 17:45 ===
+  the_strategic_statements: "Analyzed and arranged hierarchically, through techniques like qualitative hierarchical cluster analysis",
+  the_executive_perspective: "Concerned with the scope and context of the business",
+  the_business_management_perspective: { definition: "Concerned with business definition models", what_it_does: "", examples: "IT Systems Modeling and Business Process Management" },
+
 };
 
 // ============================================================
