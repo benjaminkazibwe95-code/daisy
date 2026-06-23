@@ -25945,6 +25945,10 @@ const FLAT_DICT = {
   a_vote: "Taken at the 1982 USENIX conference to choose a new name",
   the_name_usenet: { definition: "Retained, but it was established that it only applied to news", what_it_does: "", examples: "UFGATE (UUCP to FidoNet Gateway), FSUUCP and UUPC" },
 
+  // === INGESTED 2026-06-23 07:54 ===
+  web_standards: "The formal, non-proprietary standards and other technical specifications that define and describe aspects of the World Wide Web",
+  these_bandwidth_requirements: "Burdensome to users in developing countries, rural areas, and wherever fast Internet connections were unavailable",
+
 };
 
 // ============================================================
