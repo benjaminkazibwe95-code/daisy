@@ -27309,6 +27309,23 @@ const FLAT_DICT = {
   criteria_he_proposes: "As follows: Doran clarifies that it's not always feasible to quantify objectives at all management levels, particularly for middle-management roles",
   goals_and_objectives: "Key concepts in planning and project management",
 
+  // === INGESTED 2026-06-23 12:23 ===
+  posts: "Made to appear in reverse chronological order by manually updating text-based HTML code using FTP software in real time several times a day",
+  microblogging: "Another type of blogging, featuring very short posts",
+  the_page: { definition: "Accessible by a special 'What's New' button in the Mosaic web browser", what_it_does: "", examples: "Justin Hall , credit him with being an inspiration" },
+  the_entries: "Maintained by featured Beanie Babies that were voted for monthly by Web site visitors",
+  early_blogs: "Simply manually updated components of common Websites",
+  web_site: "Produced and updated manually before any blogging programs were available",
+  blogging: { definition: "Established by politicians and political candidates to express opinions on war and other issues and cemented blogs' role as a news source", what_it_does: "", examples: "an official video blog and a political blog" },
+  other_bloggers_are_media_professionals_who: "Publishing online, rather than via a TV station or newspaper, either as an add-on to a traditional media presence (e.g",
+  a_prize_for_the_best_blogbased_book: "Initiated in 2005, [ 49 ] the Lulu Blooker Prize",
+  consumergenerated_advertising: "A relatively new and controversial development, and it has created a new model of marketing communication from businesses to consumers",
+  the_plaintiff: "Supported by the Malaysian government",
+  the_case: "Dismissed for lack of personal jurisdiction, and Traffic Power failed to appeal within the allowed time",
+  horton: "A police officer in the United Kingdom who blogged about his job under the name 'NightJack'",
+  after_the_blog_was_discovered_and_she: "Fired, [ 73 ] she wrote a novel based on her experiences and blog: The Washingtonienne: A Novel",
+  monem: { definition: "A member of the then banned Muslim Brotherhood", what_it_does: "", examples: "'Hacker1984')" },
+
 };
 
 // ============================================================
