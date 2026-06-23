@@ -24625,6 +24625,29 @@ const FLAT_DICT = {
   the_telex_also_noted_that_there: "‘evidence of rigging on both sides’",
   the_national_assembly_results: "Cancelled in three of the 210 constituencies",
 
+  // === INGESTED 2026-06-23 03:43 ===
+  the_beliefs_and_practices_of_african_people: "Highly diverse and include various ethnic religions",
+  the_religions_of_the_igbo_and_yoruba: "Popular in the Caribbean and portions of Central and South America",
+  these_traditions: "Not religious principles, but a cultural identity that is passed on through stories, myths and tales, from one generation to the next",
+  these_individuals: "Essential in the spiritual and religious survival of the community",
+  there_are_mystics_that: "Responsible for healing and 'divining' - a kind of fortune telling and counseling, similar to shamans",
+  most_ancestral_spirits: "Generally good and kind",
+  negative_actions_taken_by_ancestral_spirits: "To cause minor illnesses to warn people that they have gotten onto the wrong path",
+  forms_of_polytheism: "Widespread in most of ancient Africa and other regions of the world before the introduction of Islam, Christianity, and Judaism",
+  these_indigenous_concepts: "Different from the monotheism found in Abrahamic religions",
+  gods: "Either self-created or evolved from spirits or ancestors which got worshiped by the people",
+  the_ancestors: { definition: "Generally believed to reside in an ancestral realm (spiritworld), while some believe that the ancestors became equal in power to deities", what_it_does: "", examples: "insisting that their shrines be properly maintained and propitiated" },
+  ancestor_worship: "An important basic concept in nearly all African religions",
+  the_will_of_the_gods_or_spirits: "Sought by the believer also through consultation of divinities or divination",
+  this_is_largely_because_cosmology_and_beliefs: "Intricately intertwined with the natural phenomena and environment",
+  natural_phenomena: { definition: "Responsible for providing people with their daily needs", what_it_does: "", examples: "in the Serer religion , one of the most sacred stars in the cosmos is called Yoonir (i.e., Sirius )" },
+  since_africa: { definition: "A large continent with many ethnic groups and cultures, there is not one single technique of casting divination", what_it_does: "", examples: "bones, cowrie shells, stones, strips of leather, or flat pieces of wood" },
+  some_castings: "Done using sacred divination plates made of wood or performed on the ground (often within a circle)",
+  ubuntu: "An Nguni Bantu term meaning 'humanity'",
+  this_spread: { definition: "Significantly impacted by the promotion of Sub-Saharan trade routes, in which Muslim merchants helped to spread Islam", what_it_does: "", examples: "is considered 'ascientific,' 'pseudo-science,' or 'magic' in Western perspective" },
+  the_deities_and_gods: "The emissaries of the supreme God and the patrons in charge of the workability of the processes involved",
+  sacrifices: "Offered to appease her for a successful run",
+
 };
 
 // ============================================================
