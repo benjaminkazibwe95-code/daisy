@@ -25314,6 +25314,12 @@ const FLAT_DICT = {
   police_units_that: { definition: "Unequipped for tactical operations may rely on a specialized SWAT team, which may have a dedicated sniper", what_it_does: "", examples: "high buildings, can provide security for events" },
   riot_police: { definition: "Used in a variety of different situations and for a variety of different purposes", what_it_does: "", examples: "teach-ins and teams of medics providing first aid to other protesters" },
 
+  // === INGESTED 2026-06-23 06:03 ===
+  the_objective_of_the_nhis: "To secure the implementation of the national health insurance policy that ensures access to basic healthcare services to all residents of Ghana",
+  the_district_offices_in_each_region: "Managed by the Regional Offices",
+  ghanaian_contributors: { definition: "Grouped according to their levels of income", what_it_does: "", examples: "contributors to SSNIT who indirectly contribute through a 2.5% deduction from their payroll" },
+  only_members_of_the_informal_group: "Required to pay a premium, while those in the exempt groups do not have this obligation",
+
 };
 
 // ============================================================
