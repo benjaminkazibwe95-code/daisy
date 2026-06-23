@@ -25333,6 +25333,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 06:12 ===
   although_the_country: "Sometimes referred to as the Dominion of Ghana during this period, it never held the formal status of Dominion within the British Empire",
 
+  // === INGESTED 2026-06-23 06:14 ===
+  the_prime_minister_of_ghana: "The executive head of government of Ghana from independence in 1957 to 1960 and again from 1969 to 1972",
+  a_presidential_system: "Instituted in 1979 when civilian rule was re-established",
+
 };
 
 // ============================================================
