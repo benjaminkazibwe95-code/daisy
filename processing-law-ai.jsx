@@ -25551,6 +25551,30 @@ const FLAT_DICT = {
   the_first_documented_use_of_the_term: "By Former President of Ghana Kwame Nkrumah in the 1963 preamble of the Organization of African States",
   he_argues_that_colonialism: { definition: "A mechanism for modernisation in the colonies and imposed a peace by putting an end to tribal warfare", what_it_does: "", examples: "the Falkland Islands )" },
 
+  // === INGESTED 2026-06-23 06:51 ===
+  a_fort: "Completed and a number of houses were built",
+  the_fort: "Renamed James Fort and the town Jamestown , in honour of the Duke of York and heir apparent, later King James II of England and VII of Scotland",
+  for_similar_reasons_tristan_da_cunha: "Annexed as a dependency of the Cape Colony (British South Africa) on 14 August 1816, at the settlement of the Napoleonic Wars",
+  between_saint_helena_and_tristan_da_cunha: "The Tropic of Capricorn",
+  although_all_three_territories: "Formed by volcanic activity, only the Tristan da Cunha group of islands are volcanically active at the moment",
+  the_highest_point_of_the_territories: "Queen Mary's Peak on the island of Tristan da Cunha, with an elevation of 2,062 metres (6,765 ft) above sea level",
+  the_mountain: "Listed as an ultra prominent peak",
+  st_helena: "More moderate (and arid near the coasts)",
+  the_uninhabited_southernmost_gough_island: "Wetter and has freezing winter temperatures",
+  neither_the_islands_nor_their_eezs: "The subject of any current international dispute",
+  the_island_of_st_helena: "Then further divided into eight districts",
+  the_governor_of_saint_helena: "The British monarch 's representative",
+  the_royal_saint_helena_police_service: { definition: "Responsible for policing on the islands", what_it_does: "", examples: "St Helena Secondary School" },
+  whereas_the_coins: "Struck with 'Saint Helena • Ascension', the banknotes only say, 'Government of St",
+  commemorative_coins: "Struck separately for the two entities and say either just 'St",
+  the_bank_of_saint_helena: "The territory's only bank",
+  the_flag_of_saint_helena: "Adopted on 4 October 1984",
+  the_flag_of_ascension_island: "Adopted on 11 May 2013",
+  the_flag_of_tristan_da_cunha: "Adopted on 20 October 2002, in a proclamation made by the Governor of Saint Helena under a Royal Warrant granted by Queen Elizabeth II",
+  below_this: "A scroll with the territory's motto, Our faith is our strength",
+  the_flights: "Mainly to transport military personnel, though the RAF did allow fare-paying civilians to use them",
+  ascension_island: "Also used by the US military (which supply the base using MV Ascension ) and was a designated emergency landing site for the Space Shuttle program",
+
 };
 
 // ============================================================
