@@ -27173,6 +27173,11 @@ const FLAT_DICT = {
   chia_network: { definition: "Co-founded by Bram Cohen , the creator of BitTorrent , and Ryan Singer in 2017", what_it_does: "", examples: "the energy consumed in bitcoin mining" },
   its_headquarters: "In South San Francisco, California",
 
+  // === INGESTED 2026-06-23 11:45 ===
+  the_returns: "Said to originate from a business or a secret idea run by the con artist",
+  the_basic_premise_of_a_ponzi_scheme: "' to rob Peter to pay Paul '",
+  bubbles: "Often said to be based on the 'greater fool' theory",
+
 };
 
 // ============================================================
