@@ -27136,6 +27136,32 @@ const FLAT_DICT = {
   ieee_access: "A peer-reviewed open-access scientific journal published by the Institute of Electrical and Electronics Engineers (IEEE)",
   the_founding_editorinchief: "Michael Pecht ( University of Maryland ) and the current editor-in-chief is Derek Abbott ( University of Adelaide )",
 
+  // === INGESTED 2026-06-23 11:35 ===
+  legal_tender: "Solely for the guaranteed settlement of debts, and does not imply a right to pay with cash in other contexts",
+  the_term_legal_tender: "From Middle French tendre (verb form), meaning to offer",
+  the_latin_root: "Tendere (to stretch out), and the sense of tender as an offer is related to the etymology of the English word extend (to hold outward)",
+  the_opposite_of_demonetization: { definition: "Remonetization, in which a form of payment is restored as legal tender", what_it_does: "", examples: "gold coins held for non- numismatic purposes" },
+  bank_of_england_notes_that: "Withdrawn from circulation generally cease to be legal tender but remain redeemable for current currency at the Bank of England itself or by post",
+  a_cashless_society: "An economic state whereby financial transactions are not conducted with money in the form of physical banknotes or coins",
+  australian_notes: "Legal tender by virtue of the Reserve Bank Act 1959 (Cth) s 36(1), [ 19 ] without an amount limit",
+  a_provider_of_goods_or_services: "At liberty to set the commercial terms upon which payment will take place before the contract for supply of the goods or services is entered into",
+  queensland_treasury_notes: "Issued by the Queensland Government and were legal tender in that state",
+  although_one_side_of_the_coins: "Used for different national marks for each country, all coins and all banknotes are legal tender throughout the eurozone",
+  the_indian_rupee: "Also legal tender in Nepal and Bhutan , but the Nepalese rupee and Bhutanese ngultrum are not legal tender in India",
+  both_the_nepalese_rupee_and_bhutanese_ngultrum: "Pegged with the Indian rupee",
+  this_creation_of_a_separate_currency: "An attempt to reduce the strain put on India's foreign reserves by gold smuggling",
+  these_debentures_were_circulated_but: "Traded at a discount to their face value because of distrust of the colonial government amongst the settler population",
+  the_bank: "Given a monopoly on the issue of legal tender",
+  these_olderstyle_silver_coins: "Legal tender until October 2006, after which only the new 10c, 20c and 50c coins, introduced in August 2006, remained legal",
+  the_swiss_franc: "Also the legal tender of the Principality of Liechtenstein , which is in a customs union with Switzerland",
+  current_bank_of_england_notes: "Legal tender in England and Wales and are issued in the denominations of £5, £10, £20 and £50",
+  royal_mint_coins: "Legal tender in Scotland and Northern Ireland, but no banknotes are, including Bank of England notes",
+  silver_coins: "Reduced in weight 7%, coins had exactly their value in metal (from 1830 to 1852)",
+  legaltender_notes: "Treasury notes or banknotes that, in the eyes of the law, must be accepted in the payment of debts",
+  foreign_gold_or_silver_coins: "Not legal tender for debts",
+  private_businesses: { definition: "Free to create their own policies on whether they accept cash, unless there is a specific state law which says otherwise", what_it_does: "", examples: "a bus line may prohibit payment of fares in cents or dollar bills" },
+  people_of_the_country: "Given 3 days to get rid of the 100 Bolivar notes (most widely used currency) post the introduction of new note of higher denominations",
+
 };
 
 // ============================================================
