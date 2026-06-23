@@ -24326,6 +24326,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 02:32 ===
   zoblazo: "A musical style from Abidjan , Côte d'Ivoire , created in the early 1990s",
 
+  // === INGESTED 2026-06-23 02:35 ===
+  tropical_grasslands: "Mainly found between 5 degrees and 20 degrees in both North and south of the Equator",
+  savannas: "Grasslands with scattered trees",
+  shrublands: "Dominated by woody or herbaceous shrubs",
+  these_large_mammal_faunas: "Richest in African savannas and grasslands",
+
 };
 
 // ============================================================
