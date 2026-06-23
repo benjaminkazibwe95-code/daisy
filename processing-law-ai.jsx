@@ -23511,6 +23511,16 @@ const FLAT_DICT = {
   one_dramatic_example: "The Thirty Years' War (1618–1648), which ravaged much of Europe and was at least partly motivated by theological differences within Christianity",
   many_university_departments: "Offering area studies in diverse titles",
 
+  // === INGESTED 2026-06-23 00:15 ===
+  the_sovereignty_council: "To be led by a military figure for 21 months, followed by a civilian leader for 18 months",
+  the_handover: { definition: "Planned to take place in November 2021", what_it_does: "", examples: "Khartoum, Omdurman , Port Sudan and Atbara took to the streets in support of the civilian government" },
+  many_discussions: "Made, and many initiatives proposed",
+  international_flights: "Suspended after the closure of Khartoum airport",
+  one_protestor: { definition: "Run over by a military vehicle", what_it_does: "", examples: "Khartoum, Wad Madani, Atbara, El Fasher and Port Sudan" },
+  fifteen_protestors: "Shot dead by the security forces, who raided hospitals and fired tear gas to block medical treatment of wounded survivors",
+  resistance_committee_members_stated_that_they: { definition: "Consulting each other 'about upping the escalation against the coup'", what_it_does: "", examples: "NetBlocks" },
+  the_outages: { definition: "Later corroborated by the Sudan Information Ministry", what_it_does: "", examples: "the 3 June 2019 Khartoum massacre" },
+
 };
 
 // ============================================================
