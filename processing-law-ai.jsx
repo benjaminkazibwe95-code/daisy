@@ -28910,6 +28910,9 @@ const FLAT_DICT = {
   the_dragons_are_white_because_the_customer: "Blameless and always right",
   the_introduction_of_our_new_corporate_identity: "Fully rolled out during the financial year, resulting in a coherent and distinct visual presence for the first time in many years",
 
+  // === INGESTED 2026-06-23 18:20 ===
+  trade_associations_and_other_industry_groups: { definition: "Politically influential in the United States , United Kingdom , and other countries, lobbying elected officials, regulators, and other policymakers", what_it_does: "", examples: "pro-business lobbying on trade and other issues" },
+
 };
 
 // ============================================================
