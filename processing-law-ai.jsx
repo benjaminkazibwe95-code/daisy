@@ -28297,6 +28297,16 @@ const FLAT_DICT = {
   this_shows_they: { definition: "Likely to make the purchase to show power, status, and wealth", what_it_does: "", examples: "sensory pleasure, aesthetic beauty, and excitement" },
   prestige_brands: "Expected to show high quality, and it is this reassurance of the highest quality that can actually enhance the value of the product",
 
+  // === INGESTED 2026-06-23 15:47 ===
+  without_the_presumption_that_utility: "Quantified, the diminishing of utility should not be taken to be itself an arithmetic subtraction",
+  the_rate_of_substitution: "The least favorable rate at which an agent is willing to exchange units of one good or service for units of another",
+  as_one_thing_is_tradedaway_and_another: "Acquired, the respective marginal gains or losses from further trades are now changed",
+  the_law_of_diminishing_marginal_utility: "Said to explain the paradox of water and diamonds, most commonly associated with Adam Smith , [ 14 ] although it was recognized by earlier thinkers",
+  marginalists_explained_that_it: "The marginal usefulness of any given quantity that matters, rather than the usefulness of a class or of a totality",
+  the_american_john_bates_clark: "Also associated with the origins of Marginalism, but did little to advance the theory",
+  the_work_of_von_wieser: "Heavily influenced by that of Walras",
+  wicksteed: { definition: "Heavily influenced by Menger", what_it_does: "", examples: "formal disregard for time-preference by Wicksell's American rival Irving Fisher" },
+
 };
 
 // ============================================================
