@@ -29152,6 +29152,13 @@ const FLAT_DICT = {
   the_oil_and_financial_sectors: "Included decades later",
   the_first_of_several_overseas_offices: "Opened in New York City in 1999; Paris followed in early 2000, Hong Kong, Frankfurt and San Francisco in 2001, Madrid in 2002 and Tokyo in 2003",
 
+  // === INGESTED 2026-06-23 19:00 ===
+  these_thrifts: "Banks that historically specialized in fixed-rate mortgage lending",
+  many_new_thrifts: "Formed in the American southwest and levered themselves to substantial size rapidly",
+  examinations: "Conducted by the Federal Home Loan Bank Board (FHLBB); but supervisory authority was separate and resided in regional Federal Home Loan Banks",
+  the_deposit_insurance_limit: { definition: "Also raised from 40,000 to 100,000 dollars per account", what_it_does: "", examples: "California, Florida, and Texas" },
+  the_resulting_competitive_equality_banking_act: { definition: "Signed on August 11, 1987, giving FSLIC $10.8 billion through sale of bonds via an off-balance sheet government entity", what_it_does: "", examples: "intangibles such as goodwill and doubled to six percent within two years" },
+
 };
 
 // ============================================================
