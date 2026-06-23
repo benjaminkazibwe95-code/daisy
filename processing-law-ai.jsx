@@ -29563,6 +29563,9 @@ const FLAT_DICT = {
   economic_freedom: { definition: "Greater when individuals have more economic choices available – when, in some technical sense, the choice set of individuals expands", what_it_does: "", examples: "the World Bank and International Monetary Fund" },
   these_trends_of_increasing_prosperity: "Confirmed even when we compare these indicators within territories of countries",
 
+  // === INGESTED 2026-06-23 20:43 ===
+  a_shelter: { definition: "An architectural structure or natural formation (or a combination of the two) [ 1 ] providing protection from the local environment", what_it_does: "", examples: "the need for 'air, water, food, rest, clothing, and reproduction" },
+
 };
 
 // ============================================================
