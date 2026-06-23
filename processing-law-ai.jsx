@@ -26461,6 +26461,10 @@ const FLAT_DICT = {
   a_typical_disclaimer: { definition: "Not considered sufficient to gain assumed consent to record calls", what_it_does: "", examples: "Facebook and Google ) that the regulation is ostensibly meant to target first and foremost" },
   the_proposed_eprivacy_regulation: "Also planned to be applicable from 25 May 2018, but will be delayed for several months",
 
+  // === INGESTED 2026-06-23 09:13 ===
+  names: "Also placed on the EUR ING Register maintained by Engineers Europe, in addition to the relevant national registers",
+  recognition_of_the_qualification_and_title: "Generally not specifically incorporated into national law",
+
 };
 
 // ============================================================
