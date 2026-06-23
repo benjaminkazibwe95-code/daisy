@@ -28368,6 +28368,12 @@ const FLAT_DICT = {
   monetary_policy_implications: { definition: "Surveyed by Clarida , Galí , and Gertler (1999)", what_it_does: "", examples: "vector autoregression , in out-of-sample forecasting" },
   while_the_evolution_of_dsge_models_as_such: "Predictable the direction of this evolution is not",
 
+  // === INGESTED 2026-06-23 16:02 ===
+  cambridge_university_press: "The university press of the University of Cambridge",
+  cambridge: "One of the two privileged presses (the other being Oxford University Press )",
+  the_edinburgh_building: { definition: "Purpose-built with an adjoining warehouse to accommodate the press's expansion", what_it_does: "", examples: "mugs, diaries, bags, postcards, maps" },
+  the_new_organisation: { definition: "Called Cambridge University Press & Assessment", what_it_does: "", examples: "learned societies to develop Open Access for different communities" },
+
 };
 
 // ============================================================
