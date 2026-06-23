@@ -25905,6 +25905,13 @@ const FLAT_DICT = {
   the_list_of_members: "Available to the public",
   many_guidelines_and_requirements: "Stated in detail, but there is no final guideline about the process or standards by which membership might be finally approved or denied",
 
+  // === INGESTED 2026-06-23 07:47 ===
+  one_classical_use_of_this_mechanism: { definition: "To serve an image in GIF or PNG format, so that a browser that cannot display PNG images (e.g", what_it_does: "", examples: "it might be available in different languages or different media types" },
+  serverdriven_or_proactive_content_negotiation: "Performed by algorithms on the server which choose among the possible variant representations",
+  the_server: "Then able to supply the version of the resource that best fits the user agent's needs",
+  multiple_http_headers: { definition: "Often supplied together for content format or, specifically media type, language and a few other aspects of a resource", what_it_does: "", examples: "in the above example, choosing between an HTML page in English and a GIF image in German" },
+  agentdriven_or_reactive_content_negotiation: { definition: "Performed by algorithms in the user-agent which choose among the possible variant representations", what_it_does: "", examples: "content-type, quality, language, etc.)" },
+
 };
 
 // ============================================================
