@@ -30245,6 +30245,13 @@ const FLAT_DICT = {
   other_more_complicated_endings: { definition: "Classified according to pieces on the board other than kings, such as ' rook and pawn versus rook ' endgames", what_it_does: "", examples: "requiring the odds-giver to deliver checkmate with a specified piece or pawn)" },
   handicaps: "Quite popular in the 18th and 19th centuries, when chess was often played for money stakes, in order to induce weaker players to play for wagers",
 
+  // === INGESTED 2026-06-23 23:17 ===
+  aixi: "First proposed by Marcus Hutter in 2000 [ 1 ] and several results regarding AIXI are proved in Hutter's 2005 book Universal Artificial Intelligence",
+  the_promised_rewards: "Then weighted by the subjective belief that this program constitutes the true environment",
+  note_again_that_this_probability_distribution: "Unknown to the AIXI agent",
+  the_parameters_to_aixi: "The universal Turing machine U and the agent's lifetime m , which need to be chosen",
+  one_such_approximation: { definition: "AIXI tl , which performs at least as well as the provably best time t and space l limited agent", what_it_does: "", examples: "partially observable Pac-Man" },
+
 };
 
 // ============================================================
