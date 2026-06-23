@@ -29352,6 +29352,34 @@ const FLAT_DICT = {
   content_produced_by_bloomberg_news: { definition: "Disseminated through Bloomberg Terminals , Bloomberg Television , Bloomberg Radio , Bloomberg Businessweek , Bloomberg Markets , Bloomberg", what_it_does: "", examples: "Reuters and Dow Jones" },
   paulson: "Upset about a column by Matt Levine that suggested his record-breaking donation to Harvard should have gone to 'literally any other charity",
 
+  // === INGESTED 2026-06-23 19:50 ===
+  its_principal_rightbank_tributaries: "The Shyok , Gilgit , Kabul , Kurram , and Gomal rivers",
+  the_word_punjab: "'land of five rivers' and the five rivers are Jhelum , Chenab , Ravi , Beas and Sutlej , all of which finally flow into the Indus",
+  the_length_used_in_this_article: "3,180 km (1,980 mi), taken from the Himalayan Climate and Water Atlas (2015)",
+  the_modern_encyclopedia_britannica: "Originally published in 1999 with the shorter measurement, but was updated in 2015 to use the longer measurement",
+  it_flows_swiftly_across_hazara_and: "Dammed at the Tarbela Reservoir",
+  the_remainder_of_its_route_to_the_sea: "In the plains of the Punjab [ 29 ] and Sindh, where the flow of the river becomes slow and highly braided",
+  the_indus: "The most important supplier of water resources to the Punjab and Sindh plains – it forms the backbone of agriculture and food production in Pakistan",
+  the_indus_system: "Largely fed by the snow and glaciers of the Himalayas , Karakoram and the Hindu Kush ranges",
+  the_flow_of_the_river: "Also determined by the seasons – it diminishes greatly in the winter while flooding its banks in the monsoon months from July to September",
+  among_the_settlements: { definition: "The major urban centres of Harappa and Mohenjo-daro, as well as Lothal , Dholavira , Ganeriwala , and Rakhigarhi", what_it_does: "", examples: "one named 'Sindhu'" },
+  the_indus_valley: "Later dominated by the Mauryan and Kushan Empires , Indo-Greek Kingdoms , Indo-Scythians and Hepthalites",
+  the_indus_river: "An antecedent river , meaning that it existed before the Himalayas and entrenched itself while they were rising",
+  the_indus_valley_regions: "Arid with poor vegetation",
+  according_to_the_world_wildlife_fund_it: { definition: "One of the most threatened cetaceans with only about 1,816 still existing", what_it_does: "", examples: "22 which are found nowhere else" },
+  the_population_of_fish_in_the_river: "Moderately high, with Sukkur , Thatta , and Kotri being the major fishing centres – all in the lower Sindh course",
+  irrigation_canals: "First built by the people of the Indus Valley Civilisation , and later by the engineers of the Kushan Empire and the Mughal Empire",
+  modern_irrigation: "Introduced by the British East India Company in 1850 – the construction of modern canals accompanied with the restoration of old canals",
+  the_guddu_barrage: "1,350 m (4,430 ft) long – irrigating Sukkur , Jacobabad , Larkana and Kalat",
+  the_kotri_barrage_near_hyderabad: { definition: "915 metres (3,000 ft) long and provides additional water supplies for Karachi", what_it_does: "electricity for heavy industries and urban centres", examples: "cotton, sugarcane and wheat" },
+  these_actions: "Done off-season, in violation of the treaty provisions, without informing Pakistan",
+  the_indus_basin_irrigation_system: "The 'largest contiguous irrigation system developed over the past 140 years' anywhere in the world",
+  irrigation_itself: "Increasing soil salinization, reducing crop yields and in some cases rendering farmland useless for cultivation",
+  the_yangtze: "The only river contributing more plastic",
+  the_right_bank_side: "Also leveed from Guddu barrage to Lake Manchar",
+  pakistan: "Also building Munda Dam on Swat River",
+  the_bollywood_film_dil_se: "Shot during the first Sindhu Darshan Festival in October 1997",
+
 };
 
 // ============================================================
