@@ -29392,6 +29392,12 @@ const FLAT_DICT = {
   terms_of_trade: "The ratio of a country's export price index to its import price index, multiplied by 100",
   the_laspeyre_export_index: "The current value of the base period exports divided by the base period value of the base period exports",
 
+  // === INGESTED 2026-06-23 19:59 ===
+  the_dark_ages: "A term, now deprecated by most historians, for the Early Middle Ages ( c",
+  petrarch: { definition: "The first to give the metaphor secular meaning by reversing its application", what_it_does: "", examples: "Petrarch, but they added an anti-Catholic perspective" },
+  the_lutheran_magdeburg_centuries: "A notable example of such a view",
+  the_first_british_historian_to_use_the_term: { definition: "Most likely Gilbert Burnet , in the form 'darker ages' which appears several times in his work during the later 17th century", what_it_does: "", examples: "Horace Walpole , initiated the Gothic Revival in the arts" },
+
 };
 
 // ============================================================
