@@ -23724,6 +23724,17 @@ const FLAT_DICT = {
   the_soil_around_nishio_in_central_japan: "Rich in mica deposits, which were already mined in the Nara period",
   yatsuomote_ware: { definition: "A type of local Japanese pottery from there", what_it_does: "", examples: "diatomite , perlite , and vermiculite , may be substituted for ground mica when used as filler" },
 
+  // === INGESTED 2026-06-23 00:48 ===
+  the_primary_objective_of_unctad: "To formulate policies relating to all aspects of development, including trade, aid, transport, finance and technology",
+  one_member_state_the_united_states: "In the process of leaving",
+  the_lists: "Similar to those of UNIDO , a UN specialized agency",
+  the_full_list: "As follows: Other states that do not participate are Cook Islands , Niue , and the states with limited recognition",
+  the_intergovernmental_work: "Done at five levels of meetings: The 15th quadrennial meeting took place virtually in Bridgetown, Barbados , from 25 to 30 April 2021",
+  the_conference_in_new_delhi: "An opportunity for schemes to be finally approved",
+  the_principal_result_of_the_conference: "The adoption of the Integrated Programme for Commodities",
+  the_key_issues_of_the_time: "Finance and adjustment, commodity price stabilisation and trade",
+  this_was_the_first_time_the_conference: { definition: "Held in a Small Island Developing State (SIDS)", what_it_does: "", examples: "ASYCUDA , DMFAS , EMPRETEC [ 34 ] and WAIPA" },
+
 };
 
 // ============================================================
