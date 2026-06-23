@@ -25878,6 +25878,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 07:41 ===
   the_last_released_version: "2.2.6 from April 10, 2007",
 
+  // === INGESTED 2026-06-23 07:43 ===
+  ftp: { definition: "Built on a client–server model architecture using separate control and data connections between the client and the server", what_it_does: "", examples: "HTML editors and file managers" },
+  further_changes: { definition: "Introduced to the passive mode at that time, updating it to extended passive mode", what_it_does: "", examples: "'200' (or '200 OK') means that the last command was successful" },
+  an_odd_and_an_even_port: "Reserved for each application layer application or protocol",
+  file_organization: "Specified using the STRU command",
+  the_following_file_structures: "Defined in section 3.1.1 of RFC959: Most contemporary FTP clients and servers only support STRU F",
+  stru_r: "Still in use in mainframe and minicomputer file transfer applications",
+  this_mode: "Described in an Internet Draft , but not standardized",
+  although_users: { definition: "Commonly asked to send their email address instead of a password, [ 3 ] no verification is actually performed on the supplied data", what_it_does: "", examples: "File Explorer (formerly Windows Explorer) on Microsoft Windows" },
+  this_client: { definition: "Only recommended for small file transfers from a server, due to limitations compared to dedicated client software", what_it_does: "", examples: "Microsoft Edge" },
+  explicit_ftps: "An extension to the FTP standard that allows clients to request FTP sessions to be encrypted",
+  this_protocol_extension: "Defined in RFC 4217",
+  implicit_ftps: "An outdated standard for FTP that requires the use of an SSL or TLS connection",
+  one_of_its_primary_uses: { definition: "In the early stages of booting from a local area network , because TFTP is very simple to implement", what_it_does: "", examples: "File Transfer Protocol" },
+  tftp: "First standardized in 1981 and the current specification for the protocol can be found in RFC 1350",
+  for_systems_with_a_word_size_that: { definition: "A multiple of 8 bits, the implementation of binary and continuous is the same", what_it_does: "", examples: "rename , delete , upload , download , download with overwrite , and download with append )" },
+
 };
 
 // ============================================================
