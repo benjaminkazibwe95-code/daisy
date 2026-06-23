@@ -28074,6 +28074,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 15:10 ===
   he_believed_that_economics: "The true driver of history, and so he planned to immerse himself fully in economics and then return to the history department",
 
+  // === INGESTED 2026-06-23 15:12 ===
+  market_systems: { definition: "More abstract than their application to any one use, and typically a 'system' describes a protocol of offering or requesting things for sale", what_it_does: "", examples: "a bank or central bank ) is often critical in determining the success of a market" },
+  marketing_system: "A differentiated subset of social system",
+  marketing_systems: "Strongly driven by symbolism",
+
 };
 
 // ============================================================
