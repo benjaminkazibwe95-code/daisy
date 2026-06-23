@@ -27123,6 +27123,15 @@ const FLAT_DICT = {
   one_of_the_main_reasons_why_there: "No focus on robustness today is because it is hard to do in a general way",
   robust_machine_learning_typically: "The robustness of machine learning algorithms",
 
+  // === INGESTED 2026-06-23 11:31 ===
+  pos: "More energy-efficient",
+  early_pos_implementations: "Plagued by a number of new attacks that exploited the unique vulnerabilities of the PoS protocols",
+  if_the_perblock_and_pertransaction_rewards: "Offered, then the malicious group can, for example, redo the entire history and collect these rewards",
+  npos: "Utilized by Ouroboros Praos and BABE",
+  bft_schemes: "Used in Tendermint and Casper FFG",
+  a_market: "Established where the validators compete on the fees, reputation, and other factors",
+  token_holders: { definition: "Free to switch their support to another validator at any time", what_it_does: "", examples: "Blackcoin, Nxt , Cardano , and Algorand followed" },
+
 };
 
 // ============================================================
