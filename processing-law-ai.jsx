@@ -23866,6 +23866,18 @@ const FLAT_DICT = {
   one_such_furnace: "Found in Samanalawewa and archaeologists were able to produce steel as the ancients did",
   this_material: { definition: "Both strong and ductile so that vehicle structures can maintain their current safety levels while using less material", what_it_does: "", examples: "the ferritic stainless steels are magnetic , while others, such as the austenitic , are nonmagnetic" },
 
+  // === INGESTED 2026-06-23 01:28 ===
+  the_flowers: "Small, 1–2 cm ( 3 ⁄ 8 – 13 ⁄ 16 in) diameter, with pink calyx",
+  the_seeds: "The main ingredient of chocolate , while the pulp is used in some countries to prepare juice , smoothies , jelly , and cream",
+  cacao: "Also believed to have been ground by the Aztecs and mixed with tobacco for smoking purposes",
+  forastero_trees: "Significantly hardier and more disease-resistant than Criollo trees, resulting in cheaper cacao beans",
+  cacao_by_using_superheated_steam: "Found to be better than conventional oven-roasting because it resulted in the same quality of cocoa beans in a shorter time",
+  other_major_producers: "Ghana (11.7%) and Indonesia (11.5%)",
+  the_pests_and_diseases_to_which_cacao: "Subject, along with climate change, mean that new varieties will be needed to respond to these challenges",
+  some_natural_areas_of_cacao_diversity: "Protected by various forms of conservation, for example national parks",
+  the_cacao_beverage: "Used as a ritual only by men, as it was believed to be an intoxicating food unsuitable for women and children",
+  the_use_of_cacao_beans_as_currency: "Also known to have spawned counterfeiters during the Aztec empire",
+
 };
 
 // ============================================================
