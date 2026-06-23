@@ -26125,6 +26125,19 @@ const FLAT_DICT = {
   the_device: "Revealed officially for the first time in a Super Bowl ad on Sunday, February 6, 2011",
   the_playstation_vita: "The successor to Sony's PlayStation Portable (PSP) Handheld series",
 
+  // === INGESTED 2026-06-23 08:19 ===
+  a_binary_image: "A digital image that consists of pixels that can have one of exactly two colors, usually black and white",
+  each_pixel: { definition: "Stored as a single bit — i.e", what_it_does: "", examples: "in digital image processing and pixel art" },
+  pixel_art_made_up_of_two_colours: { definition: "Often referred to as 1-bit in reference to the single bit required to store each pixel", what_it_does: "", examples: "grayscale images" },
+  another_class_of_operations: "Gathering orientation-free metrics",
+  the_structuring_element: "Binary image, usually small, which is passed over the target image, in a similar manner to a filter in gray scale image processing",
+  the_distance_transform: "Also useful for determining the center of the object, and for matching in image recognition",
+  binary_images: "Produced from color images by segmentation",
+  the_simplest_form_of_segmentation: "Probably Otsu's method which assigns pixels to foreground or background based on grayscale intensity",
+  dithering: { definition: "Often used for displaying [ needs context ] halftone images", what_it_does: "", examples: "laser printers , fax machines , and bi-level computer displays , can only handle binary images" },
+  each_share: "Printed on a separate transparency, and decryption was performed by overlaying the shares",
+  an_oversampled_binary_image_sensor: "A digital image sensor reminiscent of traditional photographic film",
+
 };
 
 // ============================================================
