@@ -27748,6 +27748,10 @@ const FLAT_DICT = {
   the_nanodragster: "50,000 times thinner than a human hair and has a top speed of 0.014 millimeters per hour (0.0006 in/h or 3.89×10 −9 m/s)",
   the_nanodragster_and_other_nanomachines: "Designed for use in transporting items",
 
+  // === INGESTED 2026-06-23 14:17 ===
+  john_bardeen: "The only laureate to win the prize twice—in 1956 and 1972",
+  william_lawrence_bragg: "The youngest Nobel laureate in physics; he won the prize in 1915 at the age of 25",
+
 };
 
 // ============================================================
