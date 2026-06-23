@@ -25204,6 +25204,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 05:38 ===
   merchandise_imports_are_goods_that: "Produced in one country and purchased to another country",
 
+  // === INGESTED 2026-06-23 05:40 ===
+  by_that_time_he: "Also the Regional Chairperson of the ANC's branch in Tshwane, a position he held until 2018",
+  ramokgopa: "Born on 25 January 1975",
+
 };
 
 // ============================================================
