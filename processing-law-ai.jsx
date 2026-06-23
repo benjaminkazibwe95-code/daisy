@@ -26361,6 +26361,12 @@ const FLAT_DICT = {
   you_can_see_what_your_neighbors: "Saying (or recently said), but not what either they or their physical surroundings look like",
   town_meetings: { definition: "Continuous and discussions rage on everything from sexual kinks to depreciation schedules", what_it_does: "", examples: "might be metaphorically said to 'exist in cyberspace'" },
 
+  // === INGESTED 2026-06-23 09:01 ===
+  the_antikeylogger: "Efficient in managing malicious users",
+  public_computers: "Extremely susceptible to the installation of keystroke logging software and hardware, and there are documented instances of this occurring",
+  antikeyloggers: { definition: "Used by many World of Warcraft and other gaming community members in order to try to keep their gaming accounts secure", what_it_does: "", examples: "PIN pads or screen keyboards" },
+  one_of_them: "That this type of software blocks non-keyloggers also",
+
 };
 
 // ============================================================
