@@ -25030,6 +25030,12 @@ const FLAT_DICT = {
   wileyblackwell: { definition: "An international scientific, technical, medical, and scholarly publishing business of John Wiley & Sons", what_it_does: "", examples: "biology , medicine , physical sciences , technology , social science , and the humanities" },
   blackwell_publishing: "Merged into Wiley's Global Scientific, Technical, and Medical business to create Wiley-Blackwell",
 
+  // === INGESTED 2026-06-23 05:01 ===
+  its_remaining_territories: { definition: "Progressively annexed by the Ottomans in a series of wars fought in the 14th and 15th centuries", what_it_does: "", examples: "'Empire of the Greeks' until the 19th century" },
+  john_in_particular: "An astute administrator who reformed military structures and implemented effective fiscal policies",
+  this_chaos: { definition: "An opportunity for John, and he fought many successful campaigns against the states disrupted by the Mongol invasions", what_it_does: "", examples: "imperial power and administrative organisation" },
+  its_extinction_in_the_east: { definition: "Thereafter inevitable", what_it_does: "", examples: "roads, public buildings, and the legal system, supported trade and other economic activities" },
+
 };
 
 // ============================================================
