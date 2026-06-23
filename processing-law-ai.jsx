@@ -29576,6 +29576,11 @@ const FLAT_DICT = {
   roy: { definition: "Awarded the Sydney Peace Prize in May 2004 for her work in social campaigns and her advocacy of non-violence", what_it_does: "", examples: "running aerobics classes" },
   roy_and_krishen: "Still married but live separately",
 
+  // === INGESTED 2026-06-23 20:47 ===
+  global_witness: "An international NGO which investigates environmental and human rights abuses",
+  the_eiti: "A result of the efforts of the PWYP campaigners",
+  anonymous_companies: "A legal business practice but can be used for purposes such as laundering money from criminal activity, financing terrorism, or evading taxes",
+
 };
 
 // ============================================================
