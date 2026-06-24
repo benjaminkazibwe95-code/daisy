@@ -31322,6 +31322,18 @@ const FLAT_DICT = {
   while_the_discussions: { definition: "Quite disparate, the essays generally draw from Nozick's previous interests in both politics and philosophy", what_it_does: "", examples: "'On Austrian Methodology' and 'Why Do Intellectuals Oppose Capitalism?'" },
   metcalf_then_postulates_that_nozick_felt_this: "Threatened by neoliberal politics",
 
+  // === INGESTED 2026-06-24 02:20 ===
+  that_which_is_right: { definition: "Commanded by God because it is right ) goes by a variety of names, including intellectualism , rationalism , realism , naturalism , and objectivism", what_it_does: "", examples: "a being who is omnipotent but not omnibenevolent )" },
+  but_divine_commands: { definition: "Not totally irrelevant, for God and his will can still effect contingent moral truths", what_it_does: "", examples: "the command to worship on Sundays instead of on Tuesdays" },
+  that_which_is_right_is_right_because_it: "Commanded by God ) is sometimes known as divine command theory or voluntarism",
+  these_are_therefore_good_because_they: "Commanded and evil because prohibited",
+  here_the_restricted_divine_command_theory: "Commonly combined with a view reminiscent of Plato: God is identical to the ultimate standard for goodness",
+  something_is_a_meter_long_inasmuch_as_it: { definition: "The same length as the standard meter bar, and likewise, something is good inasmuch as it approximates God", what_it_does: "", examples: "being loving, being just)" },
+  rather_his_very_nature: "The standard for value",
+  you_must_know_what_piety: "Before you can list acts which are pious)",
+  and_obviously_only_the_absolute_divine_will: "The right standard of its own act' [ 130 ] [ 131 ] – and consequently of all human acts",
+  this_too: "Why, in a merely human world without a God, the appeal to our moral energy falls short of its maximum stimulating power",
+
 };
 
 // ============================================================
