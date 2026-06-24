@@ -34227,6 +34227,29 @@ const FLAT_DICT = {
   these_skills: "The focus of the training and development programs that are implemented by human resources",
   the_success_of_hpos: "Due to their ability to have structures in place that allow them to quickly adjust to the environment that they operate within",
 
+  // === INGESTED 2026-06-24 11:01 ===
+  the_original_title: "A New English Dictionary on Historical Principles; Founded Mainly on the Materials Collected by The Philological Society",
+  the_third_edition_of_the_dictionary: "Expected to be available exclusively in electronic form; the CEO of OUP has stated that it is unlikely that it will ever be printed",
+  another_earlier_large_dictionary: "The Grimm brothers ' 33-volume dictionary of the German language, Deutsches Wörterbuch , begun in 1838 and completed in 1961",
+  the_official_dictionary_of_spanish: "The Diccionario de la lengua española (produced, edited, and published by the Royal Spanish Academy ), and its first edition was published in 1780",
+  his_house: "The first editorial office",
+  if_enough_material: "Ready, 128 or even 192 pages would be published together",
+  this_pace: "Maintained until World War I forced reductions in staff",
+  a_onevolume_supplement_of_such_material: { definition: "Published in 1933, with entries weighted towards the start of the alphabet where the fascicles were decades old", what_it_does: "", examples: "the supplement was subsequently reprinted in 1961 and 1970" },
+  robert_burchfield: "Hired in 1957 to edit the second supplement; [ 32 ] Charles Talbut Onions turned 84 that year but was still able to make some contributions as well",
+  the_work_on_the_supplement: { definition: "Expected to take about seven years", what_it_does: "", examples: "North America, Australia, New Zealand, South Africa, India, Pakistan, and the Caribbean" },
+  many_responses: "Received; Charkin and OED editor Edmund Weiner made numerous visits in the UK and North America",
+  optical_character_recognition: { definition: "Not practical due to the poor quality of the printed text of the first edition", what_it_does: "", examples: "headword, pronunciation, etymology, sense section, quotation etc.) as well as typographic tags" },
+  automatic_integration: { definition: "Completed in May 1987; it successfully handled about 80 per cent of the text, saving 50–60 per cent of manual editorial and keyboarding work", what_it_does: "", examples: "due to updated sense numbers" },
+  crossreferences: "Therefore identified by the parser and numbered; after integration, they were checked against their targets and adjusted where appropriate",
+  the_twovolume_letters: "A and P ; the first supplement was at the second volume's end",
+  many_copies: "Inexpensively distributed through book clubs",
+  the_text_of_the_first_edition: "Made available in 1987",
+  these_cdrom_editions: "For Microsoft Windows only",
+  the_online_edition: { definition: "The most up-to-date version of the dictionary available", what_it_does: "", examples: "universities" },
+  the_concise_oxford_dictionary: "A different work, which aims to cover current English only, without the historical focus",
+  its_primary_source: { definition: "The Oxford English Dictionary, and it is nominally an abridgement of the Concise Oxford Dictionary", what_it_does: "", examples: "labour , centre ) with variants following ( labor , center , etc.)" },
+
 };
 
 // ============================================================
