@@ -35236,6 +35236,11 @@ const FLAT_DICT = {
   this_oneoff_event: { definition: "The first time an England game had been screened in such a way", what_it_does: "", examples: "2022–23 UEFA Nations League matches, Euro 2024 qualifying games, and friendlies" },
   a_clean_sheet: "A match where a team does not concede any goals to their opponent",
 
+  // === INGESTED 2026-06-24 14:04 ===
+  rugby_union: { definition: "Another popular football code in South Africa, but it is commonly known as just rugby as rugby league has a smaller presence in the country", what_it_does: "", examples: "Australia with Australian rules football" },
+  both_rugby_union_and_rugby_league: "Generally known as rugby",
+  union: "The more commonly played variant in the United States",
+
 };
 
 // ============================================================
