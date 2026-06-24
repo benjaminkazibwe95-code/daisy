@@ -30949,6 +30949,17 @@ const FLAT_DICT = {
   the_recent_development_of_the_third_sector: "A result of this welfare systems restructuring, rather than of democratization",
   habermas_argues_that_even_though_society: "Representative of capitalist society, there are some institutions that were part of political society",
 
+  // === INGESTED 2026-06-24 01:19 ===
+  coase: { definition: "Honoured and received an honorary doctorate from the university at Buffalo Department of Economics in May 2012", what_it_does: "", examples: "would be expected to increase the size of firms" },
+  ronald_harry_coase: "Born in Willesden , a suburb of London, on 29 December 1910",
+  at_a_meeting_in_chicago_i: "Able to convince these economists that I was right and Pigou's analysis faulty",
+  the_example_he_gave: "Of a rancher whose cattle stray onto the cropland of his neighbour",
+  if_the_rancher: "Made to restrict his cattle, he is harmed just as the farmer is if the cattle remain unrestrained",
+  if_the_farmer: "Responsible for the crop damage, the farmer will pay for the fence (as long the fence costs less than the crop damage)",
+  the_allocation_of_property_rights: "Primarily an equity issue, with consequences for the distribution of income and wealth, rather than an efficiency issue",
+  what_i_wanted_to_do: { definition: "To improve our analysis of the working of the economic system", what_it_does: "", examples: "those by Guido Calabresi at Yale, by Donald Turner at Harvard, and by others" },
+  what_we_discover: "That most regulation does produce, or has produced in recent times, a worse result",
+
 };
 
 // ============================================================
