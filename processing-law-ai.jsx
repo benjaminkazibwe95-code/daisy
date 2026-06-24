@@ -30618,6 +30618,17 @@ const FLAT_DICT = {
   mozambican_media: { definition: "Heavily influenced by the government", what_it_does: "", examples: "Noticias and Diário de Moçambique , and the weekly Domingo" },
   track_and_field_and_basketball: "Also avidly followed in the country",
 
+  // === INGESTED 2026-06-24 00:29 ===
+  farleft_politics: { definition: "The leftmost ideologies on the left of the left–right political spectrum", what_it_does: "", examples: "communism and anarchism are typically described as far-left" },
+  anarchist_strains_of_farleft_thought: "Anti-authoritarian in nature, and most far-left schools of thought aim at a classless, stateless society",
+  green_anarchism: { definition: "An ideology within anarchism, and some of its contemporary adherents argue that climate change will become apocalyptic", what_it_does: "", examples: "the Immigration Act of 1903 , also called the Anarchist Exclusion Act" },
+  the_specific_nature_of_this_society: { definition: "Not strictly defined, but it is generally agreed among the far-left that it would be self-governing and extend globally", what_it_does: "", examples: "cosmopolitanism , altruism , and egalitarianism" },
+  this_group: { definition: "Officially aligned with social democracy but was predominantly influenced by Marxism", what_it_does: "", examples: "anarchists and Trotskyists" },
+  communist_parties: "Effectively outcast within the West, and most were aligned with Stalinism and the Soviet Union",
+  the_peasants: "Not targeted, however, instead using them as a base of political support",
+  in_the_egyptian_revolution_and_anarchist_ideas: { definition: "Put into practice in the local councils established as part of the Syrian revolution", what_it_does: "", examples: "the Occupy movement and the indignados , in which radical left ideas were prominent" },
+  insurgencies: { definition: "Only viable in developing nations where the state is not capable of defeating the group", what_it_does: "", examples: "freeing its members from prison" },
+
 };
 
 // ============================================================
