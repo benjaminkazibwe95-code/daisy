@@ -31147,6 +31147,9 @@ const FLAT_DICT = {
   the_seat_of_the_council: "In Strasbourg in France",
   adolf: "Living in Argentina after the war",
 
+  // === INGESTED 2026-06-24 01:51 ===
+  cescr_members: "Elected for a term of four years by the ECOSOC , in accordance with ECOSOC Resolution 1985/17 of 28 May 1985",
+
 };
 
 // ============================================================
