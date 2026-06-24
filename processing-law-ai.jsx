@@ -33166,6 +33166,32 @@ const FLAT_DICT = {
   such_theorists: { definition: "Derided as ontological cheaters", what_it_does: "", examples: "this can be applied to philosophical presentism , the view that nothing outside the present exists" },
   one_important_difference: { definition: "That philosophy does not use experimental data obtained through measuring equipment like telescopes or cloud chambers to justify its claims", what_it_does: "", examples: "through intuitions or thought experiments , is central for justifying basic principles and axioms" },
 
+  // === INGESTED 2026-06-24 07:41 ===
+  so_driving_a_car: "An action since the agent intends to do so, but sneezing is a mere behavior since it happens independent of the agent's intention",
+  an_important_distinction_among_actions: "Between non-basic actions, which are done by doing something else, and basic actions, for which this is not the case",
+  deliberations_and_decisions: "Processes that often precede and lead to actions",
+  the_problem_of_responsibility: "Closely related to the philosophy of actions since people are usually held responsible by others for what they do",
+  volitions: "Understood as forms of summoning of means within one's power and are different from merely intending to do something later",
+  some_consequences: "Included in the action even though the agent did not intend them to happen",
+  because_the_skills_of_the_agent: { definition: "Not exercised in the way planned", what_it_does: "", examples: "a rock climber forms the intention to kill the climber below him by letting go of the rope" },
+  but_trying_and_failing_to_move_the_legs: "Different from intending to do it later or merely wishing to do it: only in the former case does the patient learn that the treatment was unsuccessful",
+  they_usually_agree_that_intentions: "Essential to actions",
+  few_theorists_deny_that_actions: "Teleological in the sense of being goal-oriented",
+  abdul: "Aware of both of these reasons, but he performs this action only because of the former reason",
+  the_challenge_to_noncausalist_theories: "To provide a convincing non-causal explanation of this fact",
+  one_intuition_in_favor_of_this_view: "That people often do one thing by doing another thing: [ 2 ] a gun is shot by pulling the trigger or a light is turned on by flipping the switch",
+  one_argument_against_this_view: { definition: "That the different events may happen at different times", what_it_does: "", examples: "Lincoln died of his injuries the following day, so a significant time after the shooting" },
+  for_something_to_be_a_basic_action_it: "Not just important what the agent can do but what the agent actually does",
+  but_this_position: "Various problems, as explained in the corresponding section above",
+  the_problem_here: "That the intention to think about something already needs to include the content of the thought",
+  so_the_thought: "No longer needed since the intention already 'thinks' the content",
+  deciding_then: { definition: "The process of picking one of these alternatives and forming an intention to perform it, thereby leading toward an action", what_it_does: "", examples: "John went to the fridge because he had a desire for ice cream" },
+  the_desire_together_with_the_belief: "Often referred to as the reason for the action",
+  only_actions_with_good_reasons: { definition: "Considered rational", what_it_does: "", examples: "John's action of going to the fridge would be considered irrational if his reason for this is bad, e" },
+  because_his_belief_that_there: "Ice cream in the fridge is merely based on wishful thinking",
+  but_in_one_sense_the_problem_of_responsibility: { definition: "Wider since people can be responsible not just for doing something but for failing to do something, so-called omissions", what_it_does: "", examples: "a chain smoker may have a negative impact on the health of the people around him" },
+  this_is_a_sideeffect_of_his_smoking_that: { definition: "Not part of his intention", what_it_does: "", examples: "Dretske has put forward the viewpoint of reasons as structuring causes" },
+
 };
 
 // ============================================================
