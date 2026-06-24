@@ -33414,6 +33414,23 @@ const FLAT_DICT = {
   the_wise_old_person: "An unconscious attitude concerning nature and the collective unconscious",
   he_argues_that_the_pursuit_of_knowledge: "Indeed valuable and good, but that it should be considered a part of the broader task of improving wisdom",
 
+  // === INGESTED 2026-06-24 08:28 ===
+  information_is_an_abstract_concept_that: "Something which has the power to inform",
+  any_natural_process_that: "Not completely random and any observable pattern in any medium can be said to convey some amount of information",
+  the_key_characteristic_of_information: { definition: "That it is subject to interpretation and processing", what_it_does: "", examples: "a restaurant collects data from every customer order" },
+  that_which: { definition: "Perceived can be construed as a message in its own right, and in that sense, all information is always conveyed as the content of a message", what_it_does: "", examples: "information may be encoded into a sequence of signs , or transmitted via a signal )" },
+  the_uncertainty_of_an_event: "Measured by its probability of occurrence",
+  uncertainty: "Proportional to the negative logarithm of the probability of occurrence",
+  the_bit: { definition: "The standard unit of information", what_it_does: "", examples: "the nat may be used" },
+  information_is_addressed_to_human_minds_and: "Received by human minds",
+  the_field_itself: "Fundamentally established by the work of Claude Shannon in the 1940s, with earlier contributions by Harry Nyquist and Ralph Hartley in the 1920s",
+  some_inputs: "Important to the function of the organism (for example, food) or system ( energy ) by themselves",
+  some_information: { definition: "Important because of association with other information but eventually there must be a connection to a causal input", what_it_does: "", examples: "light is mainly (but not only, e.g" },
+  the_sequence_of_nucleotides: { definition: "A pattern that influences the formation and development of an organism without any need for a conscious mind", what_it_does: "", examples: "a nucleotide, naturally involves conscious information processing" },
+  these_sections: "Using measurements of data rather than information, as information cannot be directly measured",
+  the_focus_of_pragmatics: "On the intentions of living agents underlying communicative behaviour",
+  a_fundamental_feature_of_quantum_theory: { definition: "That the predictions it makes are probabilistic", what_it_does: "", examples: "magnetic or optical, including holographic methods ), etc" },
+
 };
 
 // ============================================================
