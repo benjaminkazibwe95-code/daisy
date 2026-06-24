@@ -34076,6 +34076,9 @@ const FLAT_DICT = {
   occulesics: { definition: "A form of kinesics that includes eye contact and the use of the eyes to convey messages", what_it_does: "", examples: "in terms of personal space and in terms of office layout)" },
   paralanguage_refers_to_how_something: "Said, rather than the content of what is said—e.g., rate of speech, tone and inflection of voice, other noises, laughing, yawning, and silence",
 
+  // === INGESTED 2026-06-24 10:27 ===
+  one_of_his_focuses: "The study of success and failure in groups and in individuals",
+
 };
 
 // ============================================================
