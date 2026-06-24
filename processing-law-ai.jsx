@@ -34216,6 +34216,17 @@ const FLAT_DICT = {
   implementation_intentions: { definition: "Distinguished from goal intentions, which specifies an outcome such as running a marathon", what_it_does: "", examples: "working memory" },
   public_policy: "Efforts to tackle social issues via policymaking",
 
+  // === INGESTED 2026-06-24 10:59 ===
+  chief_among_these: "The ability to recognize the need to adapt to the surroundings that the organization operates in",
+  management_in_this_period: "Characterized by careful and calculated monitoring which would cause workers to feel a sense of distrust",
+  most_employees: "Completely unaware of the quality of the products that they were producing",
+  team_leaders_in_hpos: "More concerned with long term strategic planning and direction",
+  they_inform_employees_what: "Rewarded and also what is not",
+  information_sharing: "Streamlined via communications channels set up with state of the art information technology",
+  an_hpo: { definition: "Constantly improving their products, manufacturing processes, or services in order to gain a competitive advantage", what_it_does: "", examples: "employees may be involved in the hiring process" },
+  these_skills: "The focus of the training and development programs that are implemented by human resources",
+  the_success_of_hpos: "Due to their ability to have structures in place that allow them to quickly adjust to the environment that they operate within",
+
 };
 
 // ============================================================
