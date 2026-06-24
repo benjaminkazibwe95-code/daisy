@@ -35032,6 +35032,13 @@ const FLAT_DICT = {
   where: "Your Home for Fallen Men?' [ 125 ] Before long, however, she grew tired of long Canadian winters, and she ran out of money",
   their_politics: "By now very different, and Sylvia was living, unmarried, with an Italian anarchist",
 
+  // === INGESTED 2026-06-24 13:08 ===
+  as_a: "Of dramatizing the continuing menace of Fascism', bolstering their military",
+  and_so_part_of_telling_the_big_lie: { definition: "That you immediately say it's the other side that tells the big lie", what_it_does: "", examples: "those in 2022 and 2024" },
+  the_suit: "Dismissed with prejudice , meaning Trump could not sue again on the same basis",
+  people_assume_there: "An evidence base when the lie is big (it's like a blind spot)",
+  and_backing_down: "Typically seen as weakness",
+
 };
 
 // ============================================================
