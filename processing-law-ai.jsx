@@ -35166,6 +35166,17 @@ const FLAT_DICT = {
   important_early_works_published_by_pantheon: { definition: "Zen and the Art of Archery by German scholar Eugen Herrigel , the Bollingen series (composed of C", what_it_does: "", examples: "Noam Chomsky , James Loewen and Studs Terkel to European readers" },
   many_of_its_comics_publications: "High-quality collected editions of works originally serialized by other publishers such as Fantagraphics Books",
 
+  // === INGESTED 2026-06-24 13:49 ===
+  other_people: "Swayed by arguments that a war must continue because lives will have been sacrificed in vain unless victory is achieved",
+  a_common_example_of_a_sunk_cost_for_a_business: { definition: "The promotion of a brand name", what_it_does: "", examples: "anxious people face the stress brought about by the sunk cost fallacy" },
+  if_decisionmakers: { definition: "Irrational or have the 'wrong' (different) incentives, the completion of the project may be chosen", what_it_does: "", examples: "politicians or managers may have more incentive to avoid the appearance of a total loss" },
+  this_is_considered_an_incentive_problem_and: "Distinct from a sunk cost problem",
+  the_most_common_type_of_framing_effect: { definition: "Theorised in Kahneman & Tversky, 1979 in the form of valence framing effects", what_it_does: "", examples: "saving 200 people from a sinking ship of 600 is equivalent to letting 400 people drown" },
+  the_former_framing_type: "Positive and the latter is negative",
+  their_hypothesis: "Confirmed: after making a $2.00 commitment, people became more confident their bet would pay off",
+  what_they_found_was_that_people_who: "About to place a bet rated the chance that their horse would win at an average of 3",
+  to_leave_early: "To make this lapse of judgment manifest to strangers, an appearance they might otherwise choose to avoid",
+
 };
 
 // ============================================================
