@@ -33139,6 +33139,18 @@ const FLAT_DICT = {
   this_care: "Often found in a hospital emergency department",
   some_primary_care_services: { definition: "Delivered within hospitals", what_it_does: "", examples: "a tertiary referral hospital" },
 
+  // === INGESTED 2026-06-24 07:37 ===
+  the_tao: "Cutting off words and speech",
+  important_in_this_respect: "The Taoist concept of de ('virtue')",
+  chu_tao: "'the way to be a monarch', i.e",
+  all_four_texts: "Used in modern Taoism with varying acceptance and emphasis among sects",
+  the_tao_te_ching: "The oldest text and representative of a speculative and philosophical approach to the Tao",
+  the_self_steeped_in_the_tao: "The self grounded in its place within the natural Universe",
+  dhyana: { definition: "Translated as 禅 ; chán , and later as 'zen', giving Zen Buddhism its name", what_it_does: "", examples: "the use of 'Tao' for central concepts and tenets of Buddhism" },
+  words_and_meanings: { definition: "Used to refer to rituals and practices", what_it_does: "", examples: "Tai Chen during the Qing dynasty" },
+  the_most_closely_related_english_words: { definition: "'track' and 'trek', while 'trail' and 'tract' are derived from other cognate Indo-European roots", what_it_does: "", examples: "French EFEO Chinese transcription and English Wade–Giles ) to dao in Pinyin" },
+  the_earliest_recorded_usages: "Tao (1736), Tau (1747), Taou (1831), and Dao (1971)",
+
 };
 
 // ============================================================
