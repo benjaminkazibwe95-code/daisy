@@ -32304,6 +32304,35 @@ const FLAT_DICT = {
   exposure_to_daylight: "Effective in reducing depression",
   exposure_to_nature_and_hospital_gardens: "Also important – looking out windows improves patients' moods and reduces blood pressure and stress level",
 
+  // === INGESTED 2026-06-24 05:00 ===
+  the_scientific_study_of_research_practices: "Known as meta-research",
+  a_researcher: "A person who conducts research",
+  the_purpose_of_the_original_research: { definition: "To produce new knowledge rather than present the existing knowledge in a new form (e.g., summarized or classified)", what_it_does: "", examples: "for example hermeneutics and semiotics" },
+  an_example_of_research_in_the_humanities: { definition: "Historical research, which is embodied in historical method", what_it_does: "", examples: "queer theory or feminist theory" },
+  the_florence_principles_have_been_endorsed_and: "Supported also by AEC , CILECT , CUMULUS and SAR",
+  there_are_various_history_guidelines_that: "Commonly used by historians in their work, under the headings of external criticism, internal criticism, and synthesis",
+  it_is_only_when_a_range_of_tests: "Consistent over many kinds of data, researchers, and methods can one have confidence in the results",
+  the_quantitative_research_designs: "Experimental, correlational, and survey (or descriptive)",
+  quantitative_research: "Linked with the philosophical and theoretical stance of positivism",
+  if_the_intent: { definition: "To generalize from the research participants to a larger population, the researcher will employ probability sampling to select participants", what_it_does: "", examples: "through interviews or questionnaires" },
+  secondary_data: "Data that already exists, such as census data, which can be re-used for the research",
+  nonempirical_research: "Not an absolute alternative to empirical research because they may be used together to strengthen a research approach",
+  neither_one: "Less effective than the other since they have their particular purpose in science",
+  much_of_cosmological_research: "Theoretical in nature",
+  research_ethics: "A discipline within the study of applied ethics",
+  the_discipline: { definition: "Most developed in medical research", what_it_does: "", examples: "those of the US , UK , and EU , govern and oversee the responsible conduct of research" },
+  metascience: "The study of research through the use of research methods",
+  among_the_finding_of_metaresearch: "A low rates of reproducibility across a large number of fields",
+  academic_bias: "The bias or perceived bias in academia shaping research and the scientific community",
+  respondents_claimed_that_bias: "Directed at individuals because of their sexual orientation , ethnicity , race , sex , religion and class",
+  research_is_often_biased_in_the_languages_that: "Preferred ( linguicism ) and the geographic locations where research occurs",
+  peer_review_methods: "Employed to maintain standards of quality, improve performance, and provide credibility",
+  the_following_ranks: "Known: Academic publishing is a system that is necessary for academic scholars to peer review the work and make it available for a wider audience",
+  the_system_varies_widely_by_field_and: "Also always changing, if often slowly",
+  most_academic_work: "Published in journal article or book form",
+  the_kinds_of_publications_that: { definition: "Accepted as contributions of knowledge or research vary greatly between fields, from the print to the electronic format", what_it_does: "", examples: "the National Institutes of Health in the US [ 63 ] and the Medical Research Council in the UK" },
+  these_grants: "Necessary not only for researchers to carry out their research but also as a source of merit",
+
 };
 
 // ============================================================
