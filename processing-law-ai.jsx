@@ -32656,6 +32656,10 @@ const FLAT_DICT = {
   higher_levels_of_von_willebrand_factor: "More common amongst people who have had ischemic stroke for the first time",
   the_term_apoplectic_stroke: "An archaic, nonspecific term, for a cerebrovascular accident accompanied by haemorrhage or haemorrhagic stroke",
 
+  // === INGESTED 2026-06-24 05:54 ===
+  this_review: "Conducted on short-term studies, therefore such a mechanism cannot be excluded in the long term, as evidence is currently lacking on this timeframe",
+  a_negative_balance_or_caloric_deficit: { definition: "A result of energy intake being less than what is consumed in external work and other bodily means of energy expenditure", what_it_does: "", examples: "fasting or lack of access to food" },
+
 };
 
 // ============================================================
