@@ -32796,6 +32796,34 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 06:22 ===
   your_whole_being: "Involved, and you're using your skills to the utmost",
 
+  // === INGESTED 2026-06-24 06:24 ===
+  these_needs: "Said to be universal and innate",
+  the_three_needs: { definition: "For autonomy , competence , and relatedness", what_it_does: "", examples: "a therapist, may be beneficial" },
+  the_main_five_minitheories: "Cognitive evaluation theory, organismic integration theory, causality orientations theory, basic needs theory, and goal contents theory",
+  cet: "Offered as an explanation of the phenomenon known as motivational 'crowding out'",
+  oit_proposes_that_internalization: "More likely to occur when there is a sense of relatedness",
+  internalisation_of_extrinsic_motivation: "Also linked to competence",
+  sdt_argues_that_needs: "Innate but can be developed in a social context or learned from various life experiences and outside influences",
+  depending_on_which: "Reached, there can either be positive or negative outcomes, which vary between individual to individual and what their needs may be",
+  within_sdt_there: "Two general individual difference concepts, causality orientations and life goals, which will be discussed in further detail below",
+  when_needs: { definition: "Satisfied, it has been shown to improve vitality, life satisfaction , and positive affect", what_it_does: "", examples: "emotional exhaustion" },
+  the_second_experiment: "A field experiment, similar to laboratory Experiment I, but was conducted in a natural setting",
+  eight_student_workers: "Observed at a college biweekly newspaper",
+  the_control_and_experimental_group_students: "Not aware that they were being observed",
+  absences: "Used as a measure of attitudes",
+  the_results_of_this_experiment: "Similar to Experiment I and monetary reward was found to decrease the intrinsic motivation of the students, supporting Deci's hypothesis",
+  the_increase_in_intrinsic_motivation: "Explained by positive reinforcement and an increase in perceived locus of control to perform the task",
+  the_time_spent_on_the_chessproblem_task: "Observed through a one way mirror by the experimenter during the 10 minute break and was used as a measure of intrinsic motivation",
+  the_control_group: "Not offered a monetary reward",
+  the_experimental_group_was_reminded_that_there: "No reward for the task this time",
+  after_both_sessions_the_participants: "Required to respond to questionnaires evaluating the task, i.e",
+  other_studies: { definition: "Conducted around this time focusing on other types of rewards as well as other external factors that play a role in decreasing intrinsic motivation", what_it_does: "", examples: "willingness to be vaccinated ; [ 67 ] morality; [ 68 ] and technology design" },
+  another_area_of_interest_for_sdt_researchers: "The relationship between subjective vitality and self-regulation",
+  this_freedom: { definition: "At the heart of the school; it belongs to the students as their right not to be violated", what_it_does: "", examples: "having good health" },
+  environmental_attitudes_and_knowledge: "Not good predictors of behavior",
+  each_item: "Scored on a 1–7 Likert scale",
+  the_importance_of_intrinsic_motivation: "Particularly apparent with more difficult behaviors",
+
 };
 
 // ============================================================
