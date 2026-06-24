@@ -33769,6 +33769,18 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 09:37 ===
   publishing_formats: "Research articles, reviews , and theoretical or methodological articles",
 
+  // === INGESTED 2026-06-24 09:39 ===
+  these_photographs: "Recognized as expressing the same feelings by cultures in Africa, Asia, Europe, and North and South America",
+  sexuality: "Not spiritually distinct from love: indeed, sex was often used as a medium of spiritual worship, emulating the divine love between Krishna and Radha",
+  cultural_scripts: { definition: "Cultural norms that influence our expectations for emotional regulation and experience", what_it_does: "", examples: "storybooks, showing cross-cultural differences by preschool age" },
+  keeping_emotions_inside: "Viewed as being insincere as well as posing a risk to one's health and well-being",
+  collectivistic_cultures: "Believed to be less likely to express emotions, in fear of upsetting social harmony",
+  when_american_school_students: { definition: "Asked about their emotions, they usually stated that they experienced emotions within themselves", what_it_does: "", examples: "pride or anger" },
+  emotion_expression: { definition: "Consequently seen to be influenced largely by the culture in which a person has been socialized", what_it_does: "", examples: "age, it can be challenging to do with others, like social class and education" },
+  most_of_these_attributes: { definition: "Ascribed to the Japanese people's collectivistic orientations'", what_it_does: "", examples: "excitement, over low arousal positive states such as calmness" },
+  as_the_cultures_continue_to_evolve_it: "Necessary that research capture these changes",
+  identifying_which_emotions: "Good or bad, when emotions are appropriate to be expressed, and even how they should be displayed are all influenced by culture",
+
 };
 
 // ============================================================
