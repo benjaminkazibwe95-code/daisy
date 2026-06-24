@@ -34693,6 +34693,40 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 12:13 ===
   their_parents: "The well-known socialist and later communist politicians and educators Hermann and Käte Duncker",
 
+  // === INGESTED 2026-06-24 12:15 ===
+  part_of_this_process: "The distinction between sense and reference",
+  sense: "Given by the ideas and concepts associated with an expression while reference is the object to which an expression points",
+  lexical_semantics: "The branch of semantics that studies word meaning",
+  theories_of_meaning: "General explanations of the nature of meaning and how expressions are endowed with it",
+  the_internal_side: "Interested in the connection between words and the mental phenomena they evoke, like ideas and conceptual representations",
+  it_concerns_how_signs: "Interpreted and what information they contain",
+  fields_like_religion_and_spirituality: "Interested in the meaning of life , which is about finding a purpose in life or the significance of existence in general",
+  word_meaning: "Studied by lexical semantics and investigates the denotation of individual words",
+  the_sense_of_an_expression: "The way in which it refers to that object or how the object is interpreted",
+  many_sentences_that_people_read: "Sentences that they have never seen before and they are nonetheless able to understand them",
+  it_is_controversial_whether_this_claim: "Correct or whether additional aspects influence meaning",
+  whether_a_statement: "True usually depends on the relation between the statement and the rest of the world",
+  the_truth_conditions_of_a_statement: "The way the world needs to be for the statement to be true",
+  the_sentence_is_true_if_it: "Used in a situation in which the truth conditions are fulfilled, i.e., if there is actually rain outside",
+  the_symbol: "A linguistic signifier , either in its spoken or written form",
+  the_central_idea_of_the_model_is_that_there: "No direct relation between a linguistic expression and what it refers to, as was assumed by earlier dyadic models",
+  the_relation: "Only established indirectly through the mind of the language user",
+  the_meaning_of_a_specific_symbol: "Governed by the conventions of a particular language",
+  the_semantic_role_of_an_expression: "The function it fulfills in a sentence",
+  other_common_semantic_roles: "Location, source, goal, beneficiary, and stimulus",
+  two_words: { definition: "Synonyms if they share the same or a very similar meaning, like car and automobile or buy and purchase", what_it_does: "", examples: "the contrast between alive and dead or fast and slow" },
+  a_prototype: "A hyponym that has characteristic features of the type it belongs to",
+  a_robin: { definition: "A prototype of a bird but a penguin is not", what_it_does: "", examples: "whether two terms are synonyms or antonyms" },
+  the_subject_of_a_sentence_usually: { definition: "A specific entity while the predicate describes a feature of the subject or an event in which the subject participates", what_it_does: "", examples: "agent, patient, theme, location, source, and goal" },
+  sentences: { definition: "Mapped to a truth value based on whether their description of the world is in correspondence with its ontological model", what_it_does: "", examples: "quantification , intensionality , noun phrases , plurals , mass terms, tense , and modality" },
+  it_holds_that_meaning: { definition: "Not about the objects to which expressions refer but about the cognitive structure of human concepts that connect thought, perception, and action", what_it_does: "", examples: "the meaning of the name George Washington is the person with this name" },
+  he_held_that_the_meaning_of_an_expression: "Given by the intended reaction",
+  this_means_that_communication: "Not just about decoding what the speaker literally said but requires an understanding of their intention or why they said it",
+  the_meaning_of_expressions_depends_on_how_they: { definition: "Used inside a game and the same expression may have different meanings in different games", what_it_does: "", examples: "the contrast between names, common nouns, and verbs" },
+  a_semantics_of_a_formal_language: { definition: "A set of rules, usually expressed as a mathematical function , that assigns meanings to formal language expressions", what_it_does: "", examples: "type errors , which arise when an operation receives an incompatible data type" },
+  it_is_concerned_with_how_meaning: { definition: "Represented on a cognitive level and what mental processes are involved in understanding and producing language", what_it_does: "", examples: "the relation between language and perceptual experience" },
+  the_assessment_process: "Fast if their semantic features are similar, which is the case if the example is a prototype of the general category",
+
 };
 
 // ============================================================
