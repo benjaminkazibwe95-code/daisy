@@ -31774,6 +31774,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 03:27 ===
   this_type_of_biomass: "Far more challenging to work with, as it contains a more varied mixture of compounds that cannot be easily converted into useful products",
 
+  // === INGESTED 2026-06-24 03:29 ===
+  polytunnels: { definition: "Mainly used in temperate regions in similar ways to greenhouses and cloches ( row covers )", what_it_does: "", examples: "raspberries and blackberries are also cultivated in the same way" },
+  major_themes_of_continuing_development: "(1) achieving the same results with lighter construction and less cost and (2) making hoophouses easily movable",
+  a_us_department_of_agriculture_program: "Helping farmers install polytunnels",
+
 };
 
 // ============================================================
