@@ -33482,6 +33482,20 @@ const FLAT_DICT = {
   paresthesia: "A sensation of tingling, pricking, or numbness of the skin that may result from nerve damage and may be permanent or temporary",
   two_types_of_somatosensory_signals_that: "Transduced by free nerve endings are pain and temperature",
 
+  // === INGESTED 2026-06-24 08:34 ===
+  instructive_strategies: { definition: "Governed by the pupil's background knowledge and experience, situation and environment, as well as learning goals set by the student and teacher", what_it_does: "", examples: "'the development of health and bodily fitness, social and moral welfare, ethics and aesthetics '" },
+  pedagogy: { definition: "Interested in the forms and methods used to convey this understanding", what_it_does: "", examples: "French and German" },
+  his_motto: "'Learning by head, hand and heart'",
+  herbartianism: "The movement underpinned by Herbart's theoretical perspectives",
+  learning_spaces: "Highly diverse in use, learning styles , configuration, location, and educational institution",
+  learning_theories: "Conceptual frameworks describing how knowledge is absorbed, processed, and retained during learning",
+  courses_that: "Conducted (51 percent or more) [ 36 ] are either hybrid , [ 37 ] blended [ 38 ] or 100% distance learning",
+  important_pedagogues_in_belgium: "Jan Masschelein and Maarten Simons (Catholic University of Leuven)",
+  and_these_outcomes: { definition: "A direct input for the knowledge economy", what_it_does: "", examples: "pre-school, elementary and special teachers" },
+  the_education: "A 3.5-year academic course, giving the student the title of a Bachelor in Social Education (Danish: Professionsbachelor som pædagog )",
+  critics_say_the_theory: "Based only on Gardner's intuition instead of empirical data",
+  another_criticism_is_that_the_intelligence: { definition: "Too identical for types of personalities", what_it_does: "", examples: "student learning, interaction, teaching methods , teacher training , and classroom dynamics" },
+
 };
 
 // ============================================================
