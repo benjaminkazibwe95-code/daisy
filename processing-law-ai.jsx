@@ -30481,6 +30481,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 00:12 ===
   metaknowledge_or_metaknowledge: "Knowledge about knowledge",
 
+  // === INGESTED 2026-06-24 00:14 ===
+  this_meaning_of_the_metaphor: "Then codified into medieval law for the offense of high treason and if found guilty the sentence of Hanged, drawn and quartered was carried out",
+  attempts: { definition: "Made to increase their productive force through exercise, drill, and so on", what_it_does: "", examples: "mathematics, chemistry, astronomy, physics, genetics, and biology" },
+  when_the_state: "Invested in protecting the life of the population, when the stakes are life itself, anything can be justified",
+  cooperation: "Needed by the three groups—the Monarchy, the Church, and the Nobility —in an uneasy medieval alliance and, at times, it appeared fractious",
+
 };
 
 // ============================================================
