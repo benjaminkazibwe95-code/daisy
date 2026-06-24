@@ -34124,6 +34124,10 @@ const FLAT_DICT = {
   elite_theory: "The sociological or political science analysis of elite influence in society: elite theorists regard pluralism as a utopian ideal",
   elitism: "Closely related to social class and what sociologists term ' social stratification '",
 
+  // === INGESTED 2026-06-24 10:40 ===
+  the_situational_leadership_model: "The idea that effective leaders adapt their style to each situation",
+  no_one_style: "Appropriate for all situations",
+
 };
 
 // ============================================================
