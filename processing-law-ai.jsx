@@ -31519,6 +31519,11 @@ const FLAT_DICT = {
   temperature_conditions_that: { definition: "Outside of this range may experience decreased fitness and the inability to reproduce", what_it_does: "", examples: "coral and kelp" },
   a_study_found_the_average_resident_in_china: "Exposed to 16 days of heat waves in 2023, with more than 37,000 heat wave-related deaths",
 
+  // === INGESTED 2026-06-24 02:52 ===
+  the_wais: "Bounded by the Ross Ice Shelf , the Ronne Ice Shelf , and outlet glaciers that drain into the Amundsen Sea",
+  the_grounding_lines_of_its_glaciers: "Below the sea level by several hundred metres or more, and the bed only deepens upstream",
+  since_that_period: "Only 0.5 °C (0.90 °F) to 1.5 °C (2",
+
 };
 
 // ============================================================
