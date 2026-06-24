@@ -31295,6 +31295,29 @@ const FLAT_DICT = {
   so_if_ruling_the_baltic_sea: "A goal of Swedish strategy, the conquests in Germany were not a defensive war but an act of expansion",
   the_swedish_king: "Also ' Rex Gotorum ' ( Latin : King of the Goths ), and the list of kings was traced back to the Gothic rulers to construct continuity",
 
+  // === INGESTED 2026-06-24 02:16 ===
+  a_series_of_conferences_to_discuss_federalism: "Promoted by the premier of New South Wales Henry Parkes ; the first held in 1890 at Melbourne, and another at Sydney in 1891",
+  these_conferences: "Attended by most colonial leaders",
+  a_draft_constitution: "Drawn up at the conference under the guidance of Sir Samuel Griffith , but these meetings lacked popular support",
+  an_additional_problem: "That this draft constitution sidestepped some critical issues like tariff policy",
+  after_that_event_other_colonies: "Unwilling to proceed",
+  the_copy: "Given to the National Archives of Australia",
+  constitution_day: "First held on 9 July 2000 to mark the centenary of the Constitution in the lead up to the Centenary of Federation",
+  the_day: "Revived in 2007 and is jointly organised by the National Archives and the Department of Immigration and Citizenship",
+  since_the_constitution_itself: "Divided into sections, sections 1 to 8 of the Act have come to be known for convenience as the 'covering clauses'",
+  the_house_of_representatives: "Required to have twice as many members as the senate",
+  the_parliament: "Authorised to create federal courts, and to vest the exercise of federal judicial power within the courts of the states",
+  executive_power_is_vested_in_the_monarch_and: "Exercisable by the governor-general , who appoints the Federal Executive Council and is to act with its advice",
+  the_governorgeneral: "Empowered to appoint and dismiss ministers, and is the Commander-in-Chief of the Australian armed forces",
+  commonwealth_judicial_power: "Vested in a federal supreme court to be called the High Court of Australia",
+  canberra: "Built within it and declared the national capital in 1913",
+  that_section: "Removed by referendum in 1967",
+  the_wording_of_these_oaths: "Not set by statute and are set by the government of the day",
+  this_convention: "Broken by the Lewis government of New South Wales",
+  both_doctrines: "Born of the section 7 and section 24 requirements that representatives in Australia's houses of parliament be 'directly chosen by the people'",
+  a_modified_version: "Released one day before the passage of legislation that authorised the 1999 referendum",
+  this_proposal: "Again opposed by the Labor party and was eventually defeated with a 60% no vote",
+
 };
 
 // ============================================================
