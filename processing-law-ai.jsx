@@ -31083,6 +31083,11 @@ const FLAT_DICT = {
   he_holds_that_pleasures_gained_in_activity: "Of a higher quality than those gained passively",
   by_happiness: "Intended pleasure, and the absence of pain; by unhappiness, pain, and the privation of pleasure",
 
+  // === INGESTED 2026-06-24 01:40 ===
+  the_former_evolved_into_the_udhr_and: "Adopted on 10 December 1948",
+  the_drafts: { definition: "Presented to the UN General Assembly for discussion in 1954 and adopted in 1966", what_it_does: "", examples: "genocide, slavery, torture, and wars of aggression" },
+  reservation: { definition: "Further made to Article 20, paragraph 1", what_it_does: "", examples: "Article 17 of the convention has been implemented by the Australian Privacy Act 1988" },
+
 };
 
 // ============================================================
