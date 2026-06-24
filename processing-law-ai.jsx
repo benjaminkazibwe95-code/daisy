@@ -33308,6 +33308,10 @@ const FLAT_DICT = {
   the_observation_that_large_cardinal_axioms: { definition: "Linearly ordered by consistency strength is just that: an observation, not a theorem", what_it_does: "", examples: "Martin's axiom ) or others that they consider intuitively unlikely (such as V = L )" },
   this_point_of_view_is_by_no: "Universal among set theorists",
 
+  // === INGESTED 2026-06-24 08:02 ===
+  the_and_of_a_set_of_operands: "True if and only if all of its operands are true, i.e",
+  either_of_the_above: { definition: "Constructively valid proofs by contradiction", what_it_does: "", examples: "' AND ', an algebraic multiplication, or the ampersand symbol & (sometimes doubled as in && )" },
+
 };
 
 // ============================================================
