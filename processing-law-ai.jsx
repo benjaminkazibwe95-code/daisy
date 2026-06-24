@@ -32525,6 +32525,12 @@ const FLAT_DICT = {
   the_first_named_pathways: { definition: "Evident to the naked eye even in a poorly preserved brain , and were named by the great anatomists of the Renaissance using cadaver material", what_it_does: "", examples: "the name ' pyramidal tract ' has been mainly supplanted by lateral corticospinal tract in most texts" },
   the_other_main_pathway: "From the climbing fibers and these project to Purkinje cells and also send collaterals directly to the deep nuclei",
 
+  // === INGESTED 2026-06-24 05:35 ===
+  active_living: { definition: "A lifestyle that integrates physical activity into everyday routines, such as walking to the store or biking to work", what_it_does: "", examples: "obesity and chronic disease, by helping people have a physically active lifestyle" },
+  the_overarching_goal: { definition: "To develop an understanding of how the built environment impacted physical activity and what could be done to increase physical activity", what_it_does: "", examples: "blood cholesterol levels, diabetes and hypertension" },
+  one_of_the_most_wellknown_programs: "The ParticipACTION program, which aims to encourage Canadians to move more and increase their physical activity levels",
+  their_mission_statement: "' ParticipACTION is the national voice of physical activity and sport participation in Canada",
+
 };
 
 // ============================================================
