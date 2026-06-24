@@ -33431,6 +33431,18 @@ const FLAT_DICT = {
   the_focus_of_pragmatics: "On the intentions of living agents underlying communicative behaviour",
   a_fundamental_feature_of_quantum_theory: { definition: "That the predictions it makes are probabilistic", what_it_does: "", examples: "magnetic or optical, including holographic methods ), etc" },
 
+  // === INGESTED 2026-06-24 08:30 ===
+  modern_philosophy: "Philosophy developed in the modern era and associated with modernity",
+  how_much_of_the_renaissance_should_be_included: "A matter of dispute, as is whether modernity ended in the 20th century and has been replaced by postmodernity",
+  major_rationalists: "Descartes , Baruch Spinoza , Gottfried Leibniz , and Nicolas Malebranche",
+  major_figures_in_this_line_of_thought: "John Locke , George Berkeley , and David Hume (These are retrospective categories, for which Kant is largely responsible)",
+  ethics_and_political_philosophy: "Usually not subsumed under these categories, though all these philosophers worked in ethics , in their own distinctive styles",
+  whether_or_not_he: "Right, he did not entirely succeed in ending philosophical disputes",
+  he_knows_what_he: "Thinking about, even if it is not true, and he knows that he is there thinking about it",
+  both_empiricism_and_rationalism: "Individualist theories of knowledge, whereas historicism is a social epistemology",
+  empiricism: { definition: "One of several competing views that predominate in the study of human knowledge, known as epistemology", what_it_does: "", examples: "rationalism which relies upon reason and can incorporate innate knowledge" },
+  it_describes_a_process_where_theory: "Extracted from practice and applied back to practice to form what is called intelligent practice",
+
 };
 
 // ============================================================
