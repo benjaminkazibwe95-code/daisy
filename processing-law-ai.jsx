@@ -35541,6 +35541,36 @@ const FLAT_DICT = {
   the_best_pitcher_on_the_team: "Lon Knight , who won 10 games, lost 22, and had an ERA of 2.62",
   dozens_of_leading_clubs_by_number_of_matches: "Included, as are many others",
 
+  // === INGESTED 2026-06-24 15:07 ===
+  bob_kennedy: "Fired at the end of the season",
+  hank_bauer: "Fired (and replaced with John McNamara ) near the end of the season",
+  a_contemporaneous_book_about_the_team: "Called Mustache Gang",
+  williams: "So disgusted by the affair that he resigned after the Series",
+  the_next_three_years: "As bad as the worst days in Philadelphia or Kansas City, with the A's finishing last twice and next-to-last once",
+  what_is_beyond_dispute_is_that_it: "The smallest 'crowd' in the West Coast portion of A's history",
+  although_martin: "Not blamed for the debacle, growing concern about his off-field behavior resulted in his firing after the season",
+  giambi: "Named American League MVP in 2000, and Tejada won an MVP Award of his own in 2002, a year which also saw Zito win 23 games and the Cy Young Award",
+  the_last_three_games: "Won in dramatic fashion, each victory coming in the bottom of the ninth inning",
+  the_streak: "Snapped two nights later in Minneapolis, with the A's losing 6–0 to the Minnesota Twins",
+  pitcher_huston_street: "Voted the AL Rookie of the Year in 2005, the second year in a row an Athletic won that award, shortstop Bobby Crosby having won in 2004",
+  their_victory: "Short-lived though, as the A's were swept 4–0 by the Detroit Tigers",
+  manager_ken_macha: { definition: "Fired by Billy Beane on October 16, four days after their loss in the 2006 American League Championship Series", what_it_does: "", examples: "a 10-game losing streak) dropped the A's into third place, where they would finish the season" },
+  giambi_said_he: "Glad to be back as he put on his old number 16",
+  also_signed: "Infielders Orlando Cabrera of the Chicago White Sox and Nomar Garciaparra of the Los Angeles Dodgers",
+  louis_cardinals_for_prospects_and_giambi: "Released in August after spending time on the DL",
+  the_next_homestand: "A week-long celebration of the feat, with a commemorative graphic placed on the outfield wall on May 17",
+  hideki_matsui: "Signed as a DH on a one-year deal",
+  vin_mazarro: "Traded to the Royals for David DeJesus",
+  encarnacion: "Later claimed off waivers",
+  rajai_davis: "Traded to Toronto for two pitchers",
+  eric_chavez: "Lost to the Yankees as a free agent",
+  this_season: { definition: "Bob Melvin 's first full season as the A's manager", what_it_does: "", examples: "Las Vegas natives Bryce Harper , Bryson Stott , and Paul Sewald" },
+  the_oakland_athletics: "Unable to break their lease at the Coliseum, and remained in Oakland",
+  the_coliseum: "Expanded to 63,026 seats",
+  the_grassy_area: { definition: "Open to all ticketed fans, and it features food trucks, seating and games like corn hole for every Athletics home game", what_it_does: "", examples: "The Terrace, Lounge Seats, and the Coppola Theater Boxes, to the Coliseum for the 2019 season" },
+  i_know_there: "Some people who think it's taken too long and I understand that",
+  premiere_of_moneyball: "Held at the Paramount Theatre in Oakland, which featured a green carpet for attendees to walk, rather than the traditional red carpet",
+
 };
 
 // ============================================================
