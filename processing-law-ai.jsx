@@ -30731,6 +30731,13 @@ const FLAT_DICT = {
   siddis_and_kaffirs: "Considered untouchables due to their darker skin color alongside other physical factors that distinguish the group as lower caste",
   the_student_unrest: "Not unique to Allahabad University but was strong enough to last over 90 days",
 
+  // === INGESTED 2026-06-24 00:45 ===
+  systems_in_which_a_prime_minister: "The active head of the executive branch of government",
+  the_federal_council: "Elected by the Assembly but is not subject to parliamentary confidence during its fixed term",
+  states_that_have_a_system_of_government_that: "In transition or turmoil",
+  constitutional_provisions_for_government: "Suspended in these states; constitutional forms of government are stated in parentheses",
+  states_in_which_most_power: "Exercised by the central government",
+
 };
 
 // ============================================================
