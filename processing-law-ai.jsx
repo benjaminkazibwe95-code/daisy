@@ -33296,6 +33296,12 @@ const FLAT_DICT = {
   thus_the_statement_p: "Undecidable in our axiomatic system: it can neither be proved nor disproved within the system",
   a_similar_proof_method: "Independently discovered by Saul Kripke",
 
+  // === INGESTED 2026-06-24 07:58 ===
+  existential_quantification: "Distinct from universal quantification ('for all'), which asserts that the property or relation holds for all members of the domain",
+  the_existential_quantifier: "Encoded as U+2203 ∃ THERE EXISTS in Unicode , and as \exists in LaTeX and related formula editors",
+  consider_the_formal_sentence_this: { definition: "A single statement using existential quantification", what_it_does: "", examples: "the real numbers" },
+  logical_conjunctions: "Used to restrict the domain of discourse to fulfill a given predicate",
+
 };
 
 // ============================================================
