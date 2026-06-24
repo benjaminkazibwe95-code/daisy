@@ -34727,6 +34727,10 @@ const FLAT_DICT = {
   it_is_concerned_with_how_meaning: { definition: "Represented on a cognitive level and what mental processes are involved in understanding and producing language", what_it_does: "", examples: "the relation between language and perceptual experience" },
   the_assessment_process: "Fast if their semantic features are similar, which is the case if the example is a prototype of the general category",
 
+  // === INGESTED 2026-06-24 12:17 ===
+  domain_knowledge: { definition: "Knowledge of a specific discipline or field in contrast to general (or domain-independent) knowledge", what_it_does: "", examples: "software agents" },
+  operations_on_domain_knowledge: "Performed by metaknowledge",
+
 };
 
 // ============================================================
