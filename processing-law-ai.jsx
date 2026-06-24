@@ -31347,6 +31347,9 @@ const FLAT_DICT = {
   eric_heinze: { definition: "Professor of Law and Humanities at the School of Law Queen Mary, University of London", what_it_does: "", examples: "extensive opportunities to criticize their governments" },
   heinze: "A Liberal Democrat candidate for the Valley ward in the 2022 Waltham Forest London Borough Council election , coming 8th in the three-member ward",
 
+  // === INGESTED 2026-06-24 02:26 ===
+  entitlement_theory: "Based on John Locke 's ideas",
+
 };
 
 // ============================================================
