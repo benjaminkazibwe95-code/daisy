@@ -34858,6 +34858,11 @@ const FLAT_DICT = {
   a_graph_when_inverted_horizontally_generally: "The same word, and additional components are sometimes present without changing the meaning",
   some_characters: "Only attested in the oracle bone script, dropping out of later usage and usually being replaced by newer characters",
 
+  // === INGESTED 2026-06-24 12:44 ===
+  the_protoelamite_script: "A writing system used briefly during early Bronze Age and before the introduction of Elamite cuneiform",
+  they_serve_the_same_basic_function_which: { definition: "Administrative accounting of goods in a centrally controlled society", what_it_does: "", examples: "the order in which the tablet was inscribed, are clear" },
+  there_is_disagreement_over_whether_some_signs: "Different or merely variants; but by 1974 enough of a consensus on the signs was reached that decipherment could advance",
+
 };
 
 // ============================================================
