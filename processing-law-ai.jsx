@@ -32254,6 +32254,9 @@ const FLAT_DICT = {
   the_masking_effect: { definition: "Known as genetic complementation", what_it_does: "", examples: "digoxin and opioids , and decorative and landscaping plants" },
   coffee_and_hot_chocolate: { definition: "Beverages from flowering plants (in the Rubiaceae and Malvaceae respectively)", what_it_does: "", examples: "William Blake , Robert Frost , and Rabindranath Tagore" },
 
+  // === INGESTED 2026-06-24 04:47 ===
+  this_mode_of_cooking_a_hare: "Very desirable when there is any doubt as to its age, as an old hare, which would be otherwise uneatable, may be made into an agreeable dish",
+
 };
 
 // ============================================================
