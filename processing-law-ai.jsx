@@ -34940,6 +34940,10 @@ const FLAT_DICT = {
   the_painting: "Currently in the permanent collection of the Malaysian National Visual Arts Gallery",
   rampur: "The most common name for villages and towns across the nation particularly UP, Bihar and West Bengal",
 
+  // === INGESTED 2026-06-24 12:57 ===
+  table_topics: "Topics on various subjects that are discussed by a group of people around a table",
+  speeches_given_by_the_persons: "Extemporaneous or Ad libitum",
+
 };
 
 // ============================================================
