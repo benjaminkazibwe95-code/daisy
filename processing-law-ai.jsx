@@ -35044,6 +35044,16 @@ const FLAT_DICT = {
   pyne: "The first European (Ireland) to win the title",
   she_also: "The first woman to win in almost two decades",
 
+  // === INGESTED 2026-06-24 13:12 ===
+  the_philosopher: { definition: "Consequently a 'dialectician'", what_it_does: "", examples: "Scripture, Church Fathers, or classical philosophers" },
+  this_is_the_essence_of_what: "Popularly called Hegelian dialectics",
+  marxist_dialectic: "Thus a method by which one can examine social and economic behaviors",
+  dialectical_negation: "A stage of development in which a contradiction between two previous subjects gives rise to a new subject",
+  while_the_first: "Supposed to be the key method and theory of the philosophy of nature, the second was the Soviet version of the philosophy of history",
+  in_the_death_of_christ_humanity: "Negated and overcome, but this judgment also points forwards to the resurrection in which humanity is reestablished in Christ",
+  the_will_to_a_system: "A lack of integrity'",
+  one_task_which_they_can_fulfill_quite_usefully: { definition: "The study of the critical methods of science", what_it_does: "", examples: "formulated by Engels (1940, 1954) and Lenin (1947, 1981), are false insofar as they are intelligible" },
+
 };
 
 // ============================================================
