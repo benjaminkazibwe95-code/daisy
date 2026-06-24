@@ -32912,6 +32912,9 @@ const FLAT_DICT = {
   anonymus: "A Canadian thrash metal band from Montreal , Quebec , founded in 1989",
   carlos: "On the drum for half of the show and the band members make an appearance in 'Taper Du Pied'",
 
+  // === INGESTED 2026-06-24 06:45 ===
+  the_album_des_rois_des_pions_et_des_fous: "His fourth solo project",
+
 };
 
 // ============================================================
