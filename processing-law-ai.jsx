@@ -33079,6 +33079,14 @@ const FLAT_DICT = {
   khader: "An American moral and political philosopher and feminist theorist",
   much_of_her_work: "About decolonial, transnational, postcolonial, and global feminisms",
 
+  // === INGESTED 2026-06-24 07:24 ===
+  his_eldest_brother: "Thomas Sturge Moore , a poet, writer and engraver",
+  moore: { definition: "An important and admired member of the secretive Cambridge Apostles , a discussion group drawn from the British intellectual elite", what_it_does: "", examples: "an ethical argument may claim that if an item has certain properties, then that item is 'good" },
+  since_they: "Anything but trivial and obvious, value must be indefinable",
+  moore_holds_that_right_actions: "Those producing the most good",
+  a_moral_scenario: "A complex assembly of parts, and its total value is often created by the relations between those parts, and not by their individual value",
+  the_organic_metaphor: "Thus very appropriate: biological organisms seem to have emergent properties which cannot be found anywhere in their individual parts",
+
 };
 
 // ============================================================
