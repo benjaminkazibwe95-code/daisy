@@ -34836,6 +34836,16 @@ const FLAT_DICT = {
   the_english_term_monograph: "Derived from modern Latin monographia , which has its root in Greek",
   the_firstever_monograph_of_a_plant_taxon: "Robert Morison 's 1672 Plantarum Umbelliferarum Distributio Nova , a treatment of the Apiaceae",
 
+  // === INGESTED 2026-06-24 12:40 ===
+  plato_initially_visited_syracuse_while_it: { definition: "Under the rule of Dionysius , in roughly 385 BC", what_it_does: "", examples: "several aspects of metaphysics" },
+  that_apprehension_of_forms: { definition: "Required for knowledge may be taken to cohere with Plato's theory in the Theaetetus and Meno", what_it_does: "", examples: "virtue and vice, pleasure and pain, crime and punishment, and justice and medicine" },
+  because_these_opinions: { definition: "Not spoken directly by Plato and vary between dialogues, they cannot be straightforwardly assumed as representing Plato's own views", what_it_does: "", examples: "rhetoric and rhapsody" },
+  socrates_says_that_poetry: { definition: "Inspired by the muses , and is not rational", what_it_does: "", examples: "the story of Atlantis , the Myth of Er , and the Allegory of the Cave" },
+  the_symposium: "Narrated by Apollodorus, a Socratic disciple, apparently to Glaucon",
+  the_works: { definition: "Usually grouped into Early , Middle , and Late period; The following represents one relatively common division amongst developmentalist scholars", what_it_does: "", examples: "the theory of Forms" },
+  the_remaining_dialogues: { definition: "Classified as 'late' and are generally agreed to be difficult and challenging pieces of philosophy", what_it_does: "", examples: "Avicenna , postulated that all phenomena emanated from the divine source" },
+  many_of_these_commentaries_on_plato: { definition: "Translated from Arabic into Latin, in which form they influenced medieval scholastics", what_it_does: "", examples: "metempsychosis and polyamory , with Christianity" },
+
 };
 
 // ============================================================
