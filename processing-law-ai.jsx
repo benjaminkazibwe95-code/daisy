@@ -30849,6 +30849,17 @@ const FLAT_DICT = {
   in_thailand_foreigners: "Normally prohibited to own or possess land in Thailand",
   these_restrictions: { definition: "Covered in the land code, articles 96 and following", what_it_does: "", examples: "California Proposition 13 (1978) that incentivize treating housing as an investment" },
 
+  // === INGESTED 2026-06-24 01:04 ===
+  freedom_house: "A nonprofit organization based in Washington, D.C",
+  all_board_members: "Current residents of the United States",
+  bollen_writes_that_expertbased_evaluations: { definition: "Prone to statistical bias of an unknown direction, that is, not known either to agree with U.S", what_it_does: "", examples: "new legislation passed, but lacks the country coverage of other datasets" },
+  whether_there: "A systematic or sporadic slant in Gastil's ratings is an open question'",
+  while_this_improved_after_a_team: "Hired in 1990, she says some criticism remains",
+  as_for_why_the_freedom_house_index: "Most often quoted in the United States, she notes that its definition of democracy is closely aligned with US foreign policy",
+  cuba_also_stated_that_these_violations: { definition: "Well documented by other reports, such as those of Human Rights Watch", what_it_does: "", examples: "China and Sudan also gave criticism" },
+  the_representative_said_the_funds: { definition: "From the United States Agency for International Development (USAID), which was not a branch of the CIA", what_it_does: "", examples: "Freedom House" },
+  the_representative_said_his_country: "Not immune from criticism from Freedom House, which he said was well documented",
+
 };
 
 // ============================================================
