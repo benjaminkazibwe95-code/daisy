@@ -31088,6 +31088,10 @@ const FLAT_DICT = {
   the_drafts: { definition: "Presented to the UN General Assembly for discussion in 1954 and adopted in 1966", what_it_does: "", examples: "genocide, slavery, torture, and wars of aggression" },
   reservation: { definition: "Further made to Article 20, paragraph 1", what_it_does: "", examples: "Article 17 of the convention has been implemented by the Australian Privacy Act 1988" },
 
+  // === INGESTED 2026-06-24 01:42 ===
+  political_bias: "The bias or manipulation of information to favor a particular political position, party, or candidate",
+  it_implies_that_cognitive_biases: "Not exclusive to any one ideology but rather are a universal feature of human reasoning",
+
 };
 
 // ============================================================
