@@ -30842,6 +30842,13 @@ const FLAT_DICT = {
   a_librarian: { definition: "Designated as the library director or library manager", what_it_does: "", examples: "state libraries, the Library of Congress , the Bibliothèque Nationale de France )" },
   but_the_survey_also_found_the_public: "Mostly unaware of financial difficulties facing their libraries",
 
+  // === INGESTED 2026-06-24 01:02 ===
+  all_land_holders: "Either its tenants or sub-tenants",
+  a_landowner: "The holder of the estate in land with the most extensive and exclusive rights of ownership over the territory, simply put, the owner of land",
+  the_fees: { definition: "Often lands, land revenue or revenue-producing real property, typically known as fiefs or fiefdoms", what_it_does: "", examples: "leases and estates" },
+  in_thailand_foreigners: "Normally prohibited to own or possess land in Thailand",
+  these_restrictions: { definition: "Covered in the land code, articles 96 and following", what_it_does: "", examples: "California Proposition 13 (1978) that incentivize treating housing as an investment" },
+
 };
 
 // ============================================================
