@@ -34766,6 +34766,10 @@ const FLAT_DICT = {
   engelbart_later_revealed_that_it: "Nicknamed the 'mouse' because the tail came out the end",
   some_years_later_it: "Learned that they had licensed it to Apple Computer for something like $40,000",
 
+  // === INGESTED 2026-06-24 12:25 ===
+  edward_lee_thorndike: { definition: "The initiator of the theory of trial and error learning based on the findings he showed how to manage a trial-and-error experiment in the laboratory", what_it_does: "", examples: "use theory to guide the method, an approach known as guided empiricism" },
+  once_again_this: { definition: "'trial and error', but of a different type", what_it_does: "", examples: "antibiotics" },
+
 };
 
 // ============================================================
