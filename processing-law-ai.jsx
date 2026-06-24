@@ -35465,6 +35465,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 14:51 ===
   the_philadelphia_athletics: { definition: "A short-lived Major League Baseball franchise that existed for two seasons from 1890 to 1891", what_it_does: "", examples: "Gus Weyhing , Elton Chamberlain , and Pop Corkhill" },
 
+  // === INGESTED 2026-06-24 14:53 ===
+  if_the_angle: "Bad, the scoring team's fullback punted the ball out into the field from behind the goal line",
+  when_he_saw_that_the_stands: "Practically empty, he refused to play until his team was paid their share of the gate",
+
 };
 
 // ============================================================
