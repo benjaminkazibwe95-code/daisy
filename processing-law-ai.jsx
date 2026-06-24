@@ -32950,6 +32950,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 07:01 ===
   hirschmann: { definition: "Born on April 25, 1956", what_it_does: "", examples: "domestic violence, welfare reform, and Islamic veiling" },
 
+  // === INGESTED 2026-06-24 07:06 ===
+  unconscious_aspects_of_mentality: "Referred to between 2,500 and 600 BC in the Hindu texts known as the Vedas , found today in Ayurvedic medicine",
+  that_are_not_present_to_consciousness_but: { definition: "Capable of becoming so; the unconscious consists of psychic material that is made completely inaccessible to consciousness by the act of repression", what_it_does: "", examples: "as dream elements or neurotic symptoms" },
+  the_personal_unconscious: "A reservoir of material that was once conscious but has been forgotten or suppressed, much like Freud's notion",
+  archetypes: "Not memories but energy centers or psychological functions that are apparent in the culture's use of symbols",
+  the_collective_unconscious: "Therefore said to be inherited and to contain material of an entire species rather than of an individual",
+  the_dreamwork: "Disguising these unconscious desires to preserve sleep",
+  this_process_occurs_primarily_by: "Of what Freud called condensation and displacement",
+  there_is_evidence_that_whether_something: "Consciously perceived depends both on the incoming stimulus (bottom up strength) [ 45 ] and on top-down mechanisms like attention",
+  this_is_not_to_imply_that_there: "Not 'nonconscious' processes that form the basis of much of conscious life",
+
 };
 
 // ============================================================
