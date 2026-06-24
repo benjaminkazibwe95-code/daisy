@@ -33404,6 +33404,16 @@ const FLAT_DICT = {
   the_lower_city: "Built in the plain around the Acropolis, but this plain also contained several hills, especially in the southwest part",
   the_leading_statesman_of_this_period: "Pericles , who used the tribute paid by the members of the Delian League to build the Parthenon and other great monuments of classical Athens",
 
+  // === INGESTED 2026-06-24 08:25 ===
+  her_symbol: "The owl , which is still a popular representation of wisdom, because it can see in darkness",
+  taoist_sages: "Often depicted as detached from worldly concerns, seeking a deeper, wordless understanding of existence that transcends conventional logic",
+  immanuel_kant_argued_that_wisdom: "The application of practical reason to align one's actions with universal moral principles",
+  kantian_wisdom: { definition: "Making decisions that conform to the categorical imperative, a moral law derived from reason", what_it_does: "", examples: "Martha Nussbaum argue that wisdom is tied to emotional intelligence and empathy" },
+  michel_foucault_argued_that_ideas_of_wisdom: { definition: "Shaped by power structures and are inherently subjective, often serving to reinforce dominant ideologies", what_it_does: "", examples: "Jane Loevinger's stages of ego development and James W" },
+  the_wise_person_realizes_that_what_matters: { definition: "Not just knowledge, or the intellectual skills one applies to this knowledge, but how the knolwedge is used", what_it_does: "", examples: "features of cognition, motivation, and emotion, in the context of a specific situation" },
+  the_wise_old_person: "An unconscious attitude concerning nature and the collective unconscious",
+  he_argues_that_the_pursuit_of_knowledge: "Indeed valuable and good, but that it should be considered a part of the broader task of improving wisdom",
+
 };
 
 // ============================================================
