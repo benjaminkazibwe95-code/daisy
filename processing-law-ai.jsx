@@ -34156,6 +34156,14 @@ const FLAT_DICT = {
   turns_within_a_topic: "Expected to be related to previous turns of the topic as a whole",
   in_settings_turns: "Long and more loosely related to the previous turns",
 
+  // === INGESTED 2026-06-24 10:49 ===
+  roman_dictators_could_not_make_new_laws_and: "Expected to hand power back once the emergency, and their six-month term, had passed",
+  the_institution: "Not seen as inherently autocratic or tyrannical ; for centuries, it operated within the republic's legal framework without leading to one-man rule",
+  draper_and_hunt_suggest_that_marx: { definition: "Not claiming the slogan came from Blanqui, but rather that the bourgeoisie had attached Blanqui's name to revolutionary socialism as a bogeyman", what_it_does: "", examples: "the US, Britain, and the Netherlands, a peaceful path was possible" },
+  the_abolition_of_the_standing_army: { definition: "Central to Marx and Engels's understanding", what_it_does: "", examples: "universal suffrage, 'it would be criminal to hesitate'" },
+  he_contended_that_the_central_issue: "No longer public ownership versus private ownership, but the pursuit of social equality and welfare within a managed mixed economy",
+  the_class_nature_of_the_state: "Redefined: the USSR was now considered a ' state of the whole people '",
+
 };
 
 // ============================================================
