@@ -35395,6 +35395,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 14:32 ===
   the_same_term: "Also the official wording used by the National Collegiate Athletic Association (NCAA) and high school basketball",
 
+  // === INGESTED 2026-06-24 14:34 ===
+  indoor_basketball_courts: "Almost always made of polished wood , usually maple , with 10 feet (3.048 m)-high rims on each basket",
+  outdoor_surfaces: "Generally made from standard paving materials such as concrete or asphalt",
+  many_older_high_school_gyms: "84 feet (26 m) or even 74 feet (23 m) in length",
+  the_baskets: "Always 10 feet (3.05 m) above the floor (except possibly in youth competition)",
+  a_basket_made_from_beyond_this_arc: "Worth three points; a basket made from within this line, or with a player's foot touching the line, is worth 2 points",
+  a_foul_shot: "Worth 1 point, but if a shot is made from the foul line while in play it is still worth 2 points",
+  the_threepoint_line: "The line that separates the two-point area from the three-point area ; any shot made beyond this line counts as three points",
+  the_perimeter: "Defined as the areas outside the free throw lane and inside the three-point line",
+  the_low_post: "Defined as the areas closest to the basket but outside of the free throw lane",
+  the_no_charge_zone_arc: "A semi-circular arc drawn around the area directly underneath the basket",
+  the_baseline_or_endline: "The boundary line running the end of the court, and usually measures 50 feet long",
+  inbounds_passes_after_made_baskets: "Taken from the baseline",
+  a_defensive_player: { definition: "Allowed to draw a charging foul within the restricted arc if the offensive player receives the ball and/or starts his drive within this area", what_it_does: "", examples: "the timekeeper and reserve referee" },
+
 };
 
 // ============================================================
