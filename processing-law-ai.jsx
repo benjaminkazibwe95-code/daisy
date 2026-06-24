@@ -32885,6 +32885,12 @@ const FLAT_DICT = {
   when_the_assessment: { definition: "Overall negative, it is better to end with the most pleasant or most easily acceptable part of the negative feedbacks", what_it_does: "", examples: "the peak-end rule works for the evaluation of food when the price is low" },
   a_potential_reason: "That high-price payers form a higher expectation on the service than low-price payers do",
 
+  // === INGESTED 2026-06-24 06:36 ===
+  the_lyrics: "Written by Moritaka and the music was composed by Hideo Saitō",
+  the_single: "Released by Warner Pioneer on February 25, 1989",
+  the_full_title_of_the_single: "'The Stress -Stress Chūkintō Version-' ( ザ・ストレス -ストレス 中近東バージョン- ; lit",
+  her_doctor_told_her_that_the_inflammation: "Caused by mental stress",
+
 };
 
 // ============================================================
