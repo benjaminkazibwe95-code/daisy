@@ -32932,6 +32932,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 06:57 ===
   the_first_album: "Released in 1982, called simply Stress",
 
+  // === INGESTED 2026-06-24 06:59 ===
+  that_emphasis: { definition: "Typically caused by such properties as increased loudness and vowel length , full articulation of the vowel , and changes in tone", what_it_does: "", examples: "the penultimate (e.g" },
+  the_stress_placed_on_words_within_sentences: "Called sentence stress or prosodic stress",
+  stressed_syllables: "Often louder than non-stressed syllables, and they may have a higher or lower pitch",
+  a_prominent_syllable_or_word: "Said to be accented or tonic ; the latter term does not imply that it carries phonemic tone",
+  other_syllables_or_words: "Said to be unaccented or atonic",
+  syllables: { definition: "Frequently said to be in pretonic or post-tonic position, and certain phonological rules apply specifically to such positions", what_it_does: "", examples: "in English" },
+  in_armenian_the_stress: "On the last syllable of a word",
+  stress_in_these_languages: { definition: "Usually truly lexical and must be memorized as part of the pronunciation of an individual word", what_it_does: "", examples: "in the Spanish words c é lebre and celebr é" },
+  the_spanish_word_video: "Stressed on the first syllable in Spain ( v í deo ) but on the second syllable in the Americas ( vid e o )",
+  a_syllable_with_secondary_stress: "Stressed relative to unstressed syllables but not as strongly as a syllable with primary stress",
+  examples_of_this_in_english: "The words words 'cinema' and 'operational'",
+  prosodic_stress: { definition: "Also often used pragmatically to emphasize (focus attention on) particular words or the ideas associated with them", what_it_does: "", examples: "I didn't take the test yesterday" },
+  that_behavior: "Not confined to verbs; note for example Spanish v ie nto ' wind ' from Latin v e ntum , or Italian f uo co ' fire ' from Latin f o cum",
+
 };
 
 // ============================================================
