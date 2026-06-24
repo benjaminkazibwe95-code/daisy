@@ -32694,6 +32694,31 @@ const FLAT_DICT = {
   nature_reviews: "A series of review journals",
   each_journal_in_the_series: "Published through a partnership between Springer Nature and a separate academic organization, foundation, or institution",
 
+  // === INGESTED 2026-06-24 06:05 ===
+  the_most_prominent_items: "Personal protective equipment (PPE) for hospital workers and ventilators for treatment",
+  such_behavior: "Driven by the 'psychological distress' of governmental control and social restrictions",
+  the_middle_east_and_europe: { definition: "Both countries of interest in this study, indicating the cross-cultural impact that COVID-19 has had upon PTSD", what_it_does: "", examples: "the lack of understanding about the pandemic and the ability to complete school work" },
+  those_that_were_offered_a_positive_diagnosis: { definition: "Then further restricted by the limited non-medication based treatment options, such as behavioural and educational therapies", what_it_does: "", examples: "depression and anxiety during the COVID-19 pandemic is a commonly held perception worldwide" },
+  during_the_pandemic_there: "A significant increase in the amount of time children spent on screens, and less on physical activity and sleeping",
+  they_had_also_found_that_older_adolescents: "Affected more and it was the most prevalent in girls",
+  the_highest_levels_of_anxiety: "Found in South America (65.7%) and Oceania (64.4%), followed by North America (55.8%) and Europe (48.7%)",
+  the_least_anxious: "Students from Africa (38.1%) and Asia (32.7%)",
+  a_similar_order_of_continents: "Found for frustration",
+  the_data_collected: "From about 35,000 LGBTQ people aged 13–24 years old",
+  in_schools_teachers_and_adults: "Able to be on the look out and recognize physical/emotional distress, signs of physical abuse, and/or sudden significant or subtle changes in behavior",
+  since_students: { definition: "Suffering mentally, it became challenging for them to have the motivation to do their school work", what_it_does: "", examples: "overdose, suicide and substance abuse reached an all-time high" },
+  students_who: { definition: "Able to maintain these aspects of life were found to have lower rates of poor mental health and suicidal thoughts/behaviors", what_it_does: "", examples: "stress, anxiety, depression, and post-traumatic stress that intensify due to the pandemic" },
+  these_workers_earn_modest_wages_on_average_and: "More likely to be racial/ethnic minorities",
+  service_industry_workers: "The least likely to get compensated for time off",
+  lowwage_and_parttime_workers: "Those most likely to be unemployed and people of color (especially women) had disproportionate job losses compared to the general population",
+  healthcare_workers_stated_that_all_they_needed: "Uninterrupted rest as well as more supplies",
+  many_mental_healthcare_workers: { definition: "Forced to adapt to new service models, including widespread use of remote services such as telephone consultations and online meetings", what_it_does: "", examples: "depression, PTSD, 'brain fog', and anxiety" },
+  relapses_and_increased_hospitalization_rates: { definition: "Occurring in cases of severe mental disorders, obsessive-compulsive disorder, and anxiety disorders", what_it_does: "", examples: "WeChat , Weibo , and TikTok" },
+  free_electronic_copies: "Available through the Chinese Association for Mental Health",
+  lockdowns: "Enforced in major cities to control the spread, and emotional welfare deteriorated, causing increased depression, anxiety, PTSD, and stress",
+  the_indirect_effects: { definition: "Mediated by increases in working memory span and cognitive empathy", what_it_does: "", examples: "62,354 individuals" },
+  while_this_symptom: { definition: "Not fatal, an absence of these senses for a prolonged amount of time can cause lack of appetite, anxiety, and depression", what_it_does: "", examples: "PTSD, anxiety, and depression" },
+
 };
 
 // ============================================================
