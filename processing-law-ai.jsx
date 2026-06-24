@@ -33730,6 +33730,24 @@ const FLAT_DICT = {
   assets: "Audited at more than £4m in 2022",
   its_books: "Distributed worldwide by Wiley",
 
+  // === INGESTED 2026-06-24 09:22 ===
+  a_symbol: "A mark, sign , or word that indicates, signifies, or is understood as representing an idea , object , relationship , or mathematical formula",
+  symbols_allow_people_to_go_beyond_what: "Known or seen by creating linkages between otherwise different concepts and experiences",
+  numerals: { definition: "Symbols for numbers ; letters of an alphabet may be symbols for certain phonemes ; and personal names are symbols representing individuals", what_it_does: "", examples: "in François Rabelais , Le Quart Livre , in 1552" },
+  symbols_are_a: "Of complex communication that often can have multiple levels of meaning",
+  concepts_and_words: "Symbols, just as visions, rituals, and images are; so too are the manners and customs of daily life",
+  symbols_hold_the_mind_to_truth_but: "Not themselves the truth, hence it is delusory to borrow them",
+  semiotics: "Linked with linguistics and psychology",
+  in_his_studies_on_what: "Now called Jungian archetypes , a sign stands for something known, as a word stands for its referent",
+  an_example_of_a_symbol_in_this_sense: "Christ as a symbol of the archetype called self",
+  one_example_he_uses_to_indicate_what_he: "By the misuse of the symbol is the story of a man who, when told that a particular food item was whale blubber, could barely keep from throwing it up",
+  he_says_they: { definition: "Related through 'substitution', where one word, phrase, or symbol is substituted for another in order to change the meaning", what_it_does: "", examples: "'the hero', 'the princess' and 'the witch' have remained popular for centuries" },
+  the_unique_nature_of_a_symbol: { definition: "That it gives access to deeper layers of reality that are otherwise inaccessible", what_it_does: "", examples: "popular usage, history , and contextual intent" },
+  the_history_of_a_symbol: "One of many factors in determining a particular symbol's apparent meaning",
+  symbols: { definition: "Used in cartography to communicate geographical information (generally as point, line, or area features)", what_it_does: "", examples: "size, shape, orientation, texture, and pattern provide meaning to the symbol" },
+  unicode: "Ultimately capable of encoding more than 1.1 million characters",
+  the_unicode_character_repertoire: "Synchronized with ISO/IEC 10646 , each being code-for-code identical with one another",
+
 };
 
 // ============================================================
