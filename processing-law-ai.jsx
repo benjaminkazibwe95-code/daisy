@@ -30543,6 +30543,27 @@ const FLAT_DICT = {
   pota: { definition: "Repealed in 2006, but the Official Secrets Act 1923 continues", what_it_does: "", examples: "Gauri Lankesh" },
   the_clubs: "Considered to be one of the reasons why Japan came bottom among the G7 nations and was ranked 68th in the world in the 2023 World Press Freedom Index",
 
+  // === INGESTED 2026-06-24 00:22 ===
+  bicameralism_is_a_type_of_legislature_that: "Divided into two separate assemblies , chambers, or houses, known as a bicameral legislature",
+  bicameralism: "Distinguished from unicameralism , in which all members deliberate and vote as a single group",
+  the_commons: "Democratically elected every four years (constitutionally up to five years)",
+  only_the_directly_elected_bundestag: "Considered the parliament",
+  there_is_also_bicameralism_in_countries_that: "Not federations, but have upper houses with representation on a territorial basis",
+  the_best_known_example: "The British House of Lords , which includes a number of hereditary peers",
+  the_house_of_lords: "A vestige of the aristocratic system that once predominated in British politics, while the other house, the House of Commons , is entirely elected",
+  another_example_of_aristocratic_bicameralism: { definition: "The Japanese House of Peers , abolished after World War II and replaced with the present House of Councillors", what_it_does: "", examples: "a party may be the first nationally but second or third in some regions" },
+  another_similar_situation: "Cross-community votes in Northern Ireland when the petition of concern procedure is invoked",
+  a_few_such_states_as_or: "Nebraska in the U.S., Queensland in Australia, Bavaria in Germany, and Tucumán and Córdoba in Argentina have later adopted unicameral systems",
+  when_the_australian_states: "Founded as British colonies in the 19th century, they each had a bicameral Parliament",
+  members_of_the_legislative_council: "Elected in various ways: From 1956 to 1958 the Andhra Pradesh Legislature was unicameral",
+  a_conference_committee: "Appointed when the two chambers cannot agree on the same wording of a proposal, and consists of a small number of legislators from each chamber",
+  bicameral_regional_legislatures: "Still technically allowed by federal law but this clause is dormant now",
+  many_secular_critics_of_bicameralism: "Won around to its benefits in 2005, after many MPs in the lower house voted for the introduction of so-called morality police",
+  the_turnout_rate: "50.95%, with 77.78% of 'Yes' votes for a unicameral Parliament",
+  a_referendum_on_a_new_constitution: "Held on 30 October 2016",
+  two_thirds_of_the_senate: "To be elected at the same time as the general election",
+  the_remaining_one_third: "Appointed by the president elect",
+
 };
 
 // ============================================================
