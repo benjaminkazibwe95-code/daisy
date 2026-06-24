@@ -30965,6 +30965,29 @@ const FLAT_DICT = {
   the_benefit_of_clergy: { definition: "Systematically removed from English legal systems over the next 200 years, although it still occurred in South Carolina in 1855", what_it_does: "", examples: "the law in continental Europe and Latin American countries" },
   the_dogmatic_determinations_of_the_councils: "To be applied rigorously since they are considered to be essential for the church's unity and the faithful preservation of the Gospel",
 
+  // === INGESTED 2026-06-24 01:25 ===
+  causation_of_an_event_alone: "Insufficient to create legal liability",
+  sometimes_causation: "One part of a multi-stage test for legal liability",
+  it_asks: "It 'necessary' for the defendant's act to have occurred for the harm to have occurred",
+  a_member_of_the_ness_set: { definition: "A 'causally relevant condition'", what_it_does: "", examples: "accomplices" },
+  leon_green_and_jane_stapleton: "Two scholars who take the opposite view",
+  they_consider_that_once_something: "A 'but for' (Green) or NESS (Stapleton) condition, that ends the factual inquiry altogether, and anything further is a question of policy",
+  the_most_important_doctrine: "That of novus actus interveniens , which means a 'new intervening act' which may 'cut the chain of causation'",
+  the_legally_liable_cause: "The one closest to or most proximate to the injury",
+  as_b: { definition: "Wheeled to an ambulance, she is struck by lightning", what_it_does: "", examples: "Anderson v" },
+  the_other_problem: "That of overdetermination",
+  an_actor: "Liable for the foreseeable, but not the unforeseeable, consequences of his or her act",
+  however_it: "Not (generally speaking) foreseeable that they will be struck by lightning and killed by that event",
+  this_type_of_causal_foreseeability: "To be distinguished from foreseeability of extent or kind of injury, which is a question of remoteness of damage, not causation",
+  because_causation_in_the_law: "A complex amalgam of fact and policy, other doctrines are also important, such as foreseeability and risk",
+  some_aspects_of_the_physical_world: "So inevitable that it is always reasonable to impute knowledge of their incidence",
+  a_court_would_have_to_consider_where_the_body: "Left and what level of injury A believed that B had suffered",
+  only_those_causes_that: "Reasonably foreseeable fit naturally into the chain",
+  but_if_this: "An event like a flash flood , an entirely unpredictable event, it will be a novus actus",
+  the_defendant: "Held liable because of the amount of risk it contributed to the occasioning of the harm",
+  the_fault_which_caused_the_initial_injury: "Compounded by the omission to move B to a safer place or call for assistance",
+  a_difficult_issue_that_has_arisen_recently: "The case where the defendant neither factually causes the harm, nor increases the risk of its occurrence",
+
 };
 
 // ============================================================
