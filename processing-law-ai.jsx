@@ -33763,6 +33763,9 @@ const FLAT_DICT = {
   during_this_period_there: { definition: "Large-scale movements of people establishing new colonies all over western Europe", what_it_does: "", examples: "Abkhazia was merged into Georgia and thousands of ethnic Georgians were sent to Abkhazia" },
   another_motive: "To strengthen Soviet presence along the vulnerable eastern border",
 
+  // === INGESTED 2026-06-24 09:35 ===
+  all_cultural_phenomena: "Replaced by others when they are no longer cognitively adequate",
+
 };
 
 // ============================================================
