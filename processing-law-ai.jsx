@@ -34258,6 +34258,16 @@ const FLAT_DICT = {
   goals_that: "Pursued to fulfill intrinsic values or to support an individual's self-concept are called self-concordant goals",
   attainmenttowellbeing_effects: { definition: "Mediated by need satisfaction, i.e", what_it_does: "", examples: "establishing and enforcing structures for reducing common employee disputes" },
 
+  // === INGESTED 2026-06-24 11:05 ===
+  glaucoma: "Caused by damage to the optic nerve, causing vision loss",
+  prevention: { definition: "The best measure in the case of glaucoma", what_it_does: "", examples: "childhood poliomyelitis )" },
+  the_age_of_an_adult_human: { definition: "Commonly measured in whole years since the day of birth", what_it_does: "", examples: "caregiving and volunteering" },
+  life_expectancy_at_birth: "Over 80 now in 33 countries",
+  while_the_effects_on_society: { definition: "Complex, there is a concern about the impact on health care demand", what_it_does: "", examples: "collagen and fibronectin (important proteins for cell proliferation)" },
+  older_people: "Respected for their wisdom and most important decisions have traditionally not been made without consulting them",
+  positive_selfperceptions_of_ageing: { definition: "Associated with better mental and physical health and well-being", what_it_does: "", examples: "nurses or care centre staff" },
+  intrinsic_capacity: "A construct encompassing people's physical and mental abilities which can be drawn upon during ageing",
+
 };
 
 // ============================================================
