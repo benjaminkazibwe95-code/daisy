@@ -35297,6 +35297,36 @@ const FLAT_DICT = {
   rugby_union_sevens: "A core event at both the Commonwealth Games and the Asian Games",
   the_wheelchair_rugby_league_world_cup: "First held in 2008 and England won the inaugural title",
 
+  // === INGESTED 2026-06-24 14:13 ===
+  the_objective_of_the_game: "To score more points than the opposing team by scoring tries , conversion kicks, penalties , and drop goals",
+  although_the_rules_of_the_game: { definition: "Not a factor in the split, the breakaway teams subsequently adopted some rule changes and this became the separate code of ' rugby league '", what_it_does: "", examples: "the New Zealand Army team" },
+  the_first_world_cup_sevens_tournament: "Held at Murrayfield in 1993",
+  rugby_sevens: { definition: "Introduced into the Commonwealth Games in 1998 and was added to the Olympic Games of 2016", what_it_does: "", examples: "an investigation in Britain by a House of Commons Select committee in early 1995" },
+  the_role_of_the_two_props: "To support the hooker during scrums, to provide support for the jumpers during line-outs and to provide strength and power in rucks and mauls",
+  the_hooker: "A key position in attacking and defensive play and is responsible for winning the ball in the scrum",
+  locks: "Usually the tallest players in the team and specialise as line-out jumpers",
+  their_main_role: "To win possession through 'turn overs'",
+  the_flyhalf: "Crucial to a team's game plan, orchestrating the team's performance",
+  the_scrumhalf: "The link between the forwards and the backs",
+  they_often_field_opposition_kicks_and: { definition: "Usually the last line of defence should an opponent break through the back line", what_it_does: "", examples: "dirt, artificial turf, etc" },
+  the_field_of_play: "Divided by a solid 'halfway' line, drawn perpendicular to the sidelines at their midpoint",
+  a_pair_of_solid_lines: "Also drawn perpendicular to the sidelines, 22 metres (formerly 25 yards) from each end of the field of play and called the 22-metre lines, or '22's",
+  the_perimeter_area: "Considered 'out-of-bounds' for the ball and the players, normally resulting in the non-infringing team receiving possession of the ball at a restart",
+  also_required_in_the_perimeter_area: "A set of 14 flag posts, each with a minimum height of 1.2 metres, marking the intersections of certain lines or other nominated distances",
+  flags: "Placed as follows: Rugby goalposts are H-shaped and are situated in the middle of the goal lines at each end of the field",
+  if_scores: "Level after 100 minutes then the rules call for 20 minutes of sudden-death extra time to be played",
+  a_ruck_or_maul: "Called a breakdown, and each is governed by a specific law",
+  this_formation: "Known as the 3–4–1 formation",
+  the_referees: { definition: "Commonly addressed as 'Sir'", what_it_does: "", examples: "watching for foul play and checking offside lines" },
+  the_rugby_ball: "Oval in shape (technically a prolate spheroid ), and is made up of four panels",
+  the_most_common_items: { definition: "Mouthguards , which are worn by almost all players, and are compulsory in some rugby-playing nations", what_it_does: "", examples: "sevens) is World Rugby" },
+  the_first_rugby_club_in_france: "Formed by British residents in Le Havre in 1872, while the next year Argentina recorded its first game: 'Banks' v 'City' in Buenos Aires",
+  the_rest_of_europe: "Left to play amongst themselves",
+  the_most_important_competition_in_rugby_union: "The Rugby World Cup , a men's tournament that has taken place every four years since the inaugural event in 1987",
+  the_oldest_variant: "Rugby sevens (sometimes 7s or VIIs), a fast-paced game which originated in Melrose , Scotland in 1883",
+  a_more_recent_variant_of_the_sport: "Rugby tens (10s or Xs), a Malaysian invention with ten players per side",
+  the_four_threequarter_backs_and_the_full_back: { definition: "Not usually used in attack; if they are, this is usually restricted to the inside centre on the crash ball , and chasing kicks, especially garryowens", what_it_does: "", examples: "rugby to invent basketball" },
+
 };
 
 // ============================================================
