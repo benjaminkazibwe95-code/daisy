@@ -34150,6 +34150,12 @@ const FLAT_DICT = {
   employees_who: { definition: "Bullied often remain silent because management fails to hold perpetrators accountable", what_it_does: "", examples: "volcanic eruptions" },
   organizations: "The product of their organizational culture, which shapes behavior and interaction",
 
+  // === INGESTED 2026-06-24 10:46 ===
+  a_meeting: { definition: "A gathering with a specific agenda and not just mere gathering of people casually talking to each other", what_it_does: "", examples: "a telephone conference call , a skyped conference call or a videoconference" },
+  a_preclosing_formulation: "An individual's summarization of the groups understanding of a topic",
+  turns_within_a_topic: "Expected to be related to previous turns of the topic as a whole",
+  in_settings_turns: "Long and more loosely related to the previous turns",
+
 };
 
 // ============================================================
