@@ -33852,6 +33852,14 @@ const FLAT_DICT = {
   an_intentional_state: "Opaque if it satisfies neither (i) nor (ii)",
   intentionalism: "The thesis that all mental states are intentional, i.e",
 
+  // === INGESTED 2026-06-24 09:54 ===
+  this_supported_the_idea_that_there: "Factors other than language transfer involved in learning second languages and was a strong confirmation of the concept of interlanguage",
+  this_influence: "Known as language transfer",
+  this_area_of_research: "Based in the more general area of cognitive science and uses many concepts and models used in more general cognitive theories of learning",
+  a_smaller_social_distance: { definition: "Likely to encourage learners to acquire the second language, as their investment in the learning process is greater", what_it_does: "", examples: "integrativeness and attitudes towards the learning situation drive motivation" },
+  the_outcome_of_positive_motivation: "Not only linguistic but non-linguistic, such that the learner has met the desired goal",
+  secondlanguage_attrition: { definition: "The loss of proficiency in a language that was previously acquired, often due to a lack of use or exposure", what_it_does: "", examples: "input, negotiation for meaning, and learner output.<ref>Loewen, S., & Sato, M" },
+
 };
 
 // ============================================================
