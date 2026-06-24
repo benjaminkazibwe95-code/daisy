@@ -31618,6 +31618,34 @@ const FLAT_DICT = {
   if_a_transpired_solar_collector: "Used in place of the glazed collector, the efficiency is doubled",
   additional_efficiency_improvements: { definition: "Possible by modifying the turbine and chimney design to increase air speed using a venturi configuration", what_it_does: "", examples: "the AP-1000 at roughly $5 per watt of capacity" },
 
+  // === INGESTED 2026-06-24 03:15 ===
+  the_seabed: "The bottom of the ocean",
+  features_of_the_seabed: { definition: "Governed by the physics of sediment transport and by the biology of the creatures living in the seabed and in the ocean waters above", what_it_does: "", examples: "volcanic ash" },
+  along_tectonic_plate_edges_there: "Typically oceanic trenches – deep valleys, created by the mantle circulation movement from the mid-ocean mountain ridge to the oceanic trench",
+  deep_ocean_water: "Divided into layers or zones, each with typical features of salinity, pressure, temperature and marine life , according to their depth",
+  lying_along_the_top_of_the_abyssal_plain: { definition: "The abyssal zone , whose lower boundary lies at about 6,000 m (20,000 ft)", what_it_does: "", examples: "some from outer space" },
+  fluvial_sediments: "Transported from land by rivers and glaciers, such as clay, silt, mud, and glacial flour",
+  aeolian_sediments: "Transported by wind, such as dust and volcanic ash",
+  biogenous_sediments: "Biologically produced by living creatures",
+  calcareous_oozes: "Predominantly composed of calcium shells found in phytoplankton such as coccolithophores and zooplankton like the foraminiferans",
+  these_calcareous_oozes: { definition: "Never found deeper than about 4,000 to 5,000 meters because at further depths the calcium dissolves", what_it_does: "", examples: "radiolarians" },
+  rarer_still: { definition: "Cosmogenous sediments", what_it_does: "", examples: "comets and asteroids, made up of silicates and various metals that have impacted the Earth" },
+  benthos: { definition: "The community of organisms that live in the benthic zone, that is, on, in, or near the bottom of a stream , river , lake , or ocean", what_it_does: "", examples: "streams, rivers, and lakes" },
+  marine_snow: { definition: "Organic matter from higher up in the water column that drifts down to the depths", what_it_does: "", examples: "piezophiles , which thrive in high pressures, may also live there" },
+  these_shapes: { definition: "Obvious along coastlines, but they occur also in significant ways underwater", what_it_does: "", examples: "ocean rises and seamounts" },
+  the_mass_of_the_oceans: "Approximately 1.35 × 10 18 metric tons , or about 1/4400 of the total mass of the Earth",
+  seabed_topography: { definition: "Flat where layers of sediments cover the tectonic features", what_it_does: "", examples: "the abyssal plain regions of the ocean are relatively flat and covered in many layers of sediments" },
+  these_underwater_mountain_ranges: "Known as mid-ocean ridges",
+  marine_life: "Abundant in the deep sea around hydrothermal vents",
+  brine_pools: { definition: "Another seabed feature, [ 29 ] usually connected to cold seeps", what_it_does: "", examples: "corals, fish, algae, crabs, marine plants and other organisms" },
+  hydrothermal_vents: "Discovered in 1977 by researchers using an underwater camera platform",
+  these_estimates: "About one to two times the amount of plastic thought – per Jambeck et al., 2015 – to currently enter the oceans annually",
+  benthic_trawling: { definition: "Towing a net at the very bottom of the ocean and demersal trawling is towing a net just above the benthic zone", what_it_does: "", examples: "cod , squid , shrimp , and rockfish" },
+  trawling: { definition: "Done by a trawler , which can be a small open boat with only 30 hp (22 kW) or a large factory trawler with 10,000 hp (7,500 kW)", what_it_does: "", examples: "marine protected areas" },
+  deep_sea_mining: "The extraction of minerals from the seabed of the deep sea",
+  the_main_ores_of_commercial_interest: { definition: "Polymetallic nodules , which are found at depths of 4–6 km (2.5–3.7 mi) primarily on the abyssal plain", what_it_does: "", examples: "copper , nickel , cobalt and manganese making up roughly 30% of their weight" },
+  this_underwater_cultural_heritage: "Protected by the UNESCO Convention on the Protection of the Underwater Cultural Heritage",
+
 };
 
 // ============================================================
