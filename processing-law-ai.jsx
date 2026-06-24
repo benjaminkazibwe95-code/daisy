@@ -32134,6 +32134,26 @@ const FLAT_DICT = {
   scholarships: "Available for all academic disciplines, with around 1000 scholarships per year",
   the_prize: "Endowed with €10,000",
 
+  // === INGESTED 2026-06-24 04:22 ===
+  oats: { definition: "An ingredient in many cold cereals, in particular muesli and granola ; the Quaker Oats Company introduced instant oatmeal in 1966", what_it_does: "", examples: "laverbread , a Welsh breakfast , and ' cockles and eggs' served with oatbread" },
+  global_production: "Dominated by Canada and Russia; global trade is a small part of production, most of the grain being consumed within the producing countries",
+  one_of_the_most_common_uses_of_oats: "As livestock feed; the crop can also be grown as groundcover and ploughed in as a green manure",
+  the_oat: "A tall stout grass, a member of the family Poaceae ; it can grow to a height of 1.8 metres (5.9 ft)",
+  when_seeds: "Dense, they make only one or two hollow stems (culms), but when spaced out may make 10 to 30 culms",
+  tetraploids: "Formed as much as 10.6 mya , and hexaploids as much as 7.4 mya",
+  this_implies_that_the_two_varieties: "Domesticated independently",
+  this_means_that_they_are_derived_from_what: { definition: "Considered a weed of the primary cereal domesticates such as wheat", what_it_does: "", examples: "Northwest Europe" },
+  although_better_yields: "Achieved at a soil pH of 5.3 to 5.7, oats can tolerate soils with a pH as low as 4.5",
+  mature_oats: "Harvested by a combine , either directly or after drying by windrowing , since their moisture must not exceed 13% to be safely stored",
+  the_straw: { definition: "Either mixed in with humus or as bedding for livestock", what_it_does: "", examples: "the state of Iowa led US oat production until 1989, but has largely switched to maize and soybeans" },
+  when_resistant_oat_varieties: "Developed, new disease races tend to develop",
+  the_first_stage: "Cleaning, to remove seeds of other plants, stones and any other extraneous materials",
+  avena_sativa: "An allohexaploid species with three ancestral genomes (2 n =6 x =42; AACCDD)",
+  cattle: "Also fed oats, either whole or ground into a coarse flour using a roller mill , burr mill , or hammermill",
+  oat_forage: { definition: "Commonly used to feed all kinds of ruminants, as pasture, straw, hay or silage", what_it_does: "", examples: "quantum sensors [ 75 ] and fluorescent reporters" },
+  production_and_consumption: "Long concentrated in Scotland even as oats were cultivated elsewhere",
+  similar_songs: "Recorded from France, Canada, Belgium, Sweden, and Italy",
+
 };
 
 // ============================================================
