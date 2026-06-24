@@ -34575,6 +34575,21 @@ const FLAT_DICT = {
   the_franklin_planner: { definition: "Marketed to consumers through an e-commerce web site, a US-based call center, and a GSA government contract", what_it_does: "", examples: "Franklin Planner, to a private equity firm" },
   the_planner_pages: "Drilled, loose-leaf style pages in different sizes and formats",
 
+  // === INGESTED 2026-06-24 11:54 ===
+  the_precise_causes_of_adhd: { definition: "Unknown in most individual cases", what_it_does: "", examples: "social, school, work, or home), and must directly interfere with or reduce quality of functioning" },
+  people_with_attention_deficits: { definition: "Prone to having difficulty processing verbal and nonverbal language which can negatively affect social interaction", what_it_does: "", examples: "video games or online chatting" },
+  the_sensory_overload: { definition: "Treatable with oral potassium gluconate", what_it_does: "", examples: "between the caudate and prefrontal cortex" },
+  the_defined_subtypes: "Predominantly inattentive presentation (6A05.0); predominantly hyperactive-impulsive presentation (6A05.1); and combined presentation (6A05.2)",
+  many_but_not_all_of_these: { definition: "Also common comorbidities of ADHD", what_it_does: "", examples: "intoxication and withdrawal can overlap to some extent with ADHD symptoms" },
+  adhd: "Often comorbid with disruptive, impulse control, and conduct disorders",
+  conduct_disorder: "More impairment in motivation control than ADHD",
+  anxiety_and_mood_disorders: { definition: "Frequent comorbidities", what_it_does: "", examples: "impulsive traits; however, associations and causality are not clear" },
+  effects_reported: { definition: "Not replicated, causing the authors to conclude that there is insufficient evidence that exercise is an effective form of treatment for ADHD symptoms", what_it_does: "", examples: "zinc sulfate which had the largest effect" },
+  the_studies_suggest_that_adhd_diagnosis: { definition: "Prone to subjective analysis", what_it_does: "", examples: "cultural norms" },
+  sir_alexander_crichton: "'mental restlessness' in his book An inquiry into the nature and origin of mental derangement written in 1798",
+  the_first_clear_description_of_adhd: "Credited to George Still in 1902 during a series of lectures he gave to the Royal College of Physicians of London",
+  a_genetic_component_was_identified_and_adhd: "Acknowledged to be a persistent, long-term disorder which lasted from childhood into adulthood",
+
 };
 
 // ============================================================
