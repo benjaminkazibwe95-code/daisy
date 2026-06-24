@@ -32473,6 +32473,12 @@ const FLAT_DICT = {
   it_is_difficult_to_tell_whether_the_model: "Fundamentally wrong or whether a specific variable has been inaccurately identified or left out",
   the_currency_of_optimal_foraging_theory: "Energy because it is an essential component for organisms, but it is also the downfall of optimal foraging theory in regard to archaeology",
 
+  // === INGESTED 2026-06-24 05:23 ===
+  an_organism: "Any living thing that functions as an individual",
+  a_unicellular_organism: { definition: "A microorganism such as a protist , bacterium , or archaean , composed of a single cell , which may contain functional structures called organelles", what_it_does: "", examples: "an animal , plant , fungus , or alga is composed of many cells, often specialised" },
+  what_they_all_have_in_common: "A teleonomic or goal-seeking behaviour that enables them to correct errors of many kinds so as to achieve whatever result they are designed for",
+  such_behaviour: "Reminiscent of intelligent action by organisms; intelligence is seen as an embodied form of cognition",
+
 };
 
 // ============================================================
