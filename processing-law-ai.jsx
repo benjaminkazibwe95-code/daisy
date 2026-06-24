@@ -31418,6 +31418,18 @@ const FLAT_DICT = {
   the_term_legal_plunder_refers_to_acts_that: "Done through legislation, and would be a crime if done by a private person",
   bastiat_argued_that_when_the_law: "Turned to such ends, whether through protectionism, subsidy, or socialism, it loses moral authority and provokes social conflicts",
 
+  // === INGESTED 2026-06-24 02:37 ===
+  the_lawspeaker_claimed_the_king_of_sweden: { definition: "Accountable to the people and would be overthrown by them if he continued with his unpopular war with Norway", what_it_does: "", examples: "the United States Constitution" },
+  theological_notions_of_the_right_of_revolution: "Elaborated in the early modern period",
+  when_ordinary_citizens: "Confronted with tyranny, he wrote, ordinary citizens have to suffer it",
+  the_right_of_revolution: "Expounded by the Monarchomachs in the context of the French Wars of Religion , and by Huguenots thinkers who legitimized tyrannicides",
+  it_is_seen_also_that_she: "Ready and willing to follow a banner if only someone will raise it",
+  the_injury_and_the_crime: "Equal, whether committed by the wearer of a crown or some petty villain",
+  when_they_are_hindered_by_any_force_from_what: "So necessary to the society, and wherein the safety and preservation of the people consists, the people have a right to remove it by force",
+  likewise_held_that_it: { definition: "The duty of the people to resist unjust laws", what_it_does: "", examples: "Americans considered their plight to justify exercise of the right of revolution" },
+  this_original_contract: "'a central dogma in English and British constitutional law' since 'time immemorial'",
+  all_political_power: "Inherent in the people, and all free governments are founded on their authority, and instituted for their benefit",
+
 };
 
 // ============================================================
