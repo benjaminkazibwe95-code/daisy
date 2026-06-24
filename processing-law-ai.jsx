@@ -32447,6 +32447,32 @@ const FLAT_DICT = {
   butterfat_or_milkfat: "The fatty portion of milk",
   milk_and_cream: "Often sold according to the amount of butterfat they contain",
 
+  // === INGESTED 2026-06-24 05:21 ===
+  oft: { definition: "An ecological application of the optimality model", what_it_does: "", examples: "the most food per unit time" },
+  constraints: "Hypotheses about the limitations that are placed on an animal",
+  identifying_the_optimal_decision_rule: { definition: "The primary goal of the OFT", what_it_does: "", examples: "high population interactions" },
+  the_model_building_process: { definition: "Identifying the currency, constraints, and appropriate decision rule for the forager", what_it_does: "", examples: "finding mates or protecting young" },
+  the_maximum_number_of_food_items_a_forager: { definition: "Able to carry back to its nesting site is another example of a constraint", what_it_does: "", examples: "limits to learning and memory" },
+  energy_gain_per_cost: "The currency being optimized",
+  the_profitability_of_a_prey_item: "Then defined as E/h",
+  how_difficult_it: "To find prey1) is logically dependent on the density of prey 1 , the choice to eat prey 2 is dependent on the abundance of prey 1",
+  these_types_of_animals: "Defined as specialists and have very exclusive diets in nature",
+  the_predator: "Able to be choosy and does not eat every item it finds",
+  the_marginal_value_theorem: "A type of optimality model that is often applied to optimal foraging",
+  this_theorem: "Used to describe a situation in which an organism searching for food in a patch must decide when it is economically favorable to leave",
+  while_the_animal: "Within a patch, it experiences the law of diminishing returns , where it becomes harder and harder to find prey as time goes on",
+  this_may_be_because_the_prey: "Being depleted, the prey begins to take evasive action and becomes harder to catch, or the predator starts crossing its own path more as it searches",
+  another_important_cost_to_consider: "The traveling time between different patches and the nesting site",
+  the_constraints: "The travel time and the shape of the curve of diminishing returns",
+  the_constraints_on_these_birds: "The characteristics of the different mussel sizes",
+  after_this: { definition: "Accounted for, they found a good agreement between the model's prediction and the observed data", what_it_does: "", examples: "energy gained per energy spent (i.e" },
+  while_this_situation: "Similar to that of the starlings, both the constraints and currency are actually different for the bees",
+  the_predicted_reactive_distances: { definition: "Compared with experimental data", what_it_does: "", examples: "the need to avoid predators may constrain foragers to feed less than the optimal rate" },
+  one_of_the_most_imperative_critiques_of_oft: "That it may not be truly testable",
+  this_issue_arises_whenever_there: "A discrepancy between the model's predictions and the actual observations",
+  it_is_difficult_to_tell_whether_the_model: "Fundamentally wrong or whether a specific variable has been inaccurately identified or left out",
+  the_currency_of_optimal_foraging_theory: "Energy because it is an essential component for organisms, but it is also the downfall of optimal foraging theory in regard to archaeology",
+
 };
 
 // ============================================================
