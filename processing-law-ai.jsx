@@ -33766,6 +33766,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 09:35 ===
   all_cultural_phenomena: "Replaced by others when they are no longer cognitively adequate",
 
+  // === INGESTED 2026-06-24 09:37 ===
+  publishing_formats: "Research articles, reviews , and theoretical or methodological articles",
+
 };
 
 // ============================================================
