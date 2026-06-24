@@ -32016,6 +32016,12 @@ const FLAT_DICT = {
   if_a_particular_cone_type: "Missing or abnormal, due to a genetic anomaly, a color vision deficiency , sometimes called color blindness will occur",
   the_rate_of_firing_of_the_ganglion_cells: "Increased when it is signaled by one cone and decreased (inhibited) when it is signaled by the other cone",
 
+  // === INGESTED 2026-06-24 03:59 ===
+  how_much_a_wave_is_refracted: { definition: "Determined by the change in wave speed and the initial direction of wave propagation relative to the direction of change in speed", what_it_does: "", examples: "air, water, or glass, and is responsible for phenomena such as refraction" },
+  another_way_of_understanding_the_same_thing: "To consider the change in wavelength at the interface",
+  if_the_speed: "Decreased, such as in the figure to the right, the wavelength will also decrease",
+  the_amount_of_ray_bending: "Dependent on the amount of difference between sound speeds, that is, the variation in temperature, salinity, and pressure of the water",
+
 };
 
 // ============================================================
