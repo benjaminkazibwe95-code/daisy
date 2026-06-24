@@ -35001,6 +35001,37 @@ const FLAT_DICT = {
   spirits_on_the_other_hand: "True infinitely divisible substances",
   rothman_has_written_that_idealism: "Incompatible with science and is not considered an empirical system of knowledge unlike realism which is pragmatical and makes testable predictions",
 
+  // === INGESTED 2026-06-24 13:05 ===
+  emmeline: "So furious that she 'gave [Adela] a ticket, £20, and a letter of introduction to a suffragette in Australia, and firmly insisted that she emigrate'",
+  emmeline_goulden: { definition: "Born on Sloan Street in the Moss Side district of Manchester on 15 July 1858", what_it_does: "", examples: "those written by her daughters, repeat this claim" },
+  goulden: { definition: "Enthralled by Becker's address and later wrote, 'I left the meeting a conscious and confirmed suffragist", what_it_does: "", examples: "embroidery" },
+  her_roommate: { definition: "Noémie, the daughter of Victor Henri Rochefort , who had been imprisoned in New Caledonia for his support of the Paris Commune", what_it_does: "", examples: "freedom of speech and education reform – for years" },
+  their_mutual_affection: "Powerful, but the couple's happiness was diminished by the death of his mother the following year",
+  their_daughter_christabel: "Born on 22 September 1880, less than a year after the wedding",
+  the_girls: "Enrolled in Manchester Girls' High School, where they felt confined by the large student population and strictly regimented schedule",
+  one_biographer: "This period as her 'emergence from Richard's shadow",
+  bronchitis: "Epidemic among them most of the time ",
+  i_found_that_there: "Pregnant women in that workhouse, scrubbing floors, doing the hardest kind of work, almost until their babies came into the world ",
+  of_course_the_babies: "Very badly protected ",
+  her_chief_opponent: "A passionate man named Mainwaring, known for his rudeness",
+  asked_by_an_ilp_reporter_if_she: "Prepared to spend time in prison, Pankhurst replied: 'Oh, yes, quite",
+  before_long_they: "All involved in the struggle for women's suffrage",
+  adela: { definition: "Sent to a local boarding school , where she was cut off from her friends and contracted head lice", what_it_does: "", examples: "in Caxton Hall , to coincide with official government sessions" },
+  although_the_bill: "Never resurrected, Pankhurst considered it a successful demonstration of militancy's power to capture attention",
+  pankhurst: "Arrested seven times before women's suffrage was approved",
+  pankhurst_and_her_daughter_christabel: "Chosen (along with Mabel Tuke and Emmeline Pethick Lawrence ) as members of the new committee",
+  this_day: "The beginning of 'Women' s Sunday'",
+  they_insisted_their_act: "Independent of the WSPU command, but Pankhurst expressed her approval of the action",
+  she_hesitated_to_leave_the_country_while_he: "Ill, but she needed money to pay for his treatment and the tour promised to be lucrative",
+  i_have_to_say_there: "An end to the truce.' [ 83 ] When it was defeated, Pankhurst led a protest march of 300 women to Parliament Square on 18 November",
+  aileen_preston: "Appointed as Pankhurst's driver in April 1911, to drive her around the country to help spread the suffrage message",
+  pankhurst_and_emmeline_pethicklawrence: "Tried at the Old Bailey and convicted of conspiracy to commit property damage",
+  during_the_following_two_years_she: "Arrested numerous times but was frequently released after several days because of her ill health",
+  she_and_other_escorts: "Targeted by police, resulting in violent scuffles as officers tried to detain Pankhurst",
+  all_three_women: "Exhausted and stressed, which added considerably to the tension",
+  where: "Your Home for Fallen Men?' [ 125 ] Before long, however, she grew tired of long Canadian winters, and she ran out of money",
+  their_politics: "By now very different, and Sylvia was living, unmarried, with an Italian anarchist",
+
 };
 
 // ============================================================
