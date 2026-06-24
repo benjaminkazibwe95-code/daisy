@@ -32420,6 +32420,9 @@ const FLAT_DICT = {
   instead_it: "Being drilled, pumped and burned at a steadily increasing rate",
   once_the_acid: "Completely dissociated in water the pH can drop to 4.3 or lower causing damage to both man-made and natural systems",
 
+  // === INGESTED 2026-06-24 05:14 ===
+  the_currently_accepted_taxonomy: "Based on the List of Prokaryotic names with Standing in Nomenclature (LPSN)",
+
 };
 
 // ============================================================
