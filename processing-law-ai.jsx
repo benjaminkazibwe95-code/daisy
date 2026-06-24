@@ -30864,6 +30864,32 @@ const FLAT_DICT = {
   civic_education: "The study of the theoretical, political, and practical aspects of citizenship manifest as political rights, civil rights , and legal obligations",
   nor_ought_we_to_believe_that_there: { definition: "Much difference between man and man, but to think that the superiority lies with him who is reared in the severest school", what_it_does: "", examples: "such questions as who is or is not a good citizen of Sparta" },
 
+  // === INGESTED 2026-06-24 01:08 ===
+  this_suggested_rhetoric_could_be_a: { definition: "Of communicating any expertise, not just politics", what_it_does: "", examples: "modal logic has undergone a major development that also modifies rhetoric" },
+  because_language: { definition: "Not rigid and changes depending on the situation, the very usage of language is rhetorical", what_it_does: "", examples: "assemblies and courts" },
+  aristotle_and_isocrates: "Two of the first to see rhetoric in this light",
+  from_this_it_follows_that_there: "Three divisions of oratory—(1) political, (2) forensic, and (3) the ceremonial oratory of display'",
+  because_rhetoric: "A public art capable of shaping opinion, some of the ancients, including Plato found fault in it",
+  the_masses: "Incapable of analyzing or deciding anything on their own and would therefore be swayed by the most persuasive speeches",
+  aristotle_believed_that_this_technique: "An art, and that persuasive speech could have truth and logic embedded within it",
+  hugh_blair: "A key early leader of this movement",
+  the_american_lyceum_in_particular: "Seen as both an educational and social institution, featuring group discussions and guest lecturers",
+  an_important_theme_from_the_article: "That cultural rhetorics emphasized listening and negotiating",
+  one_definition_maintains_that_certainty: "Subjective and feeling-based, the other that it is a byproduct of justification",
+  harpine: "The issue of unclear definitions that occurs in the theories of 'rhetoric is epistemic' in his 2004 article 'What Do You Mean, Rhetoric Is Epistemic?'",
+  he_explains_how_certainty: { definition: "Subjective, shaped by individual and cultural belief rather than by absolute objectivity", what_it_does: "", examples: "Kautilya , Birbal , and the like indulged in a great deal of discussion and persuasion" },
+  nyaya_is_a_sanskrit_word_which: "'just' or 'right' and refers to 'the science of right and wrong reasoning'",
+  here_sutra: "A collection of aphorism in the form of a manual",
+  each_sutra: "A short rule usually consisted of one or two sentences",
+  it_is_estimated_that_the_text: "Composed between 6th-century BCE and 2nd-century CE",
+  its_treatment_of_rhetoric: "Less comprehensive than the classic works of antiquity, but provides a traditional treatment of res-verba (matter and form)",
+  adoption_of_works_in_english: "Slow, however, due to the strong scholastic orientation toward Latin and Greek",
+  his_central_tenet: { definition: "That the style should be proper 'to the occasion, the subject, and the persons'", what_it_does: "", examples: "photography , telegraphy , radio , and film brought rhetoric more prominently into people's lives" },
+  criticism: { definition: "An art as well, and as such is particularly well suited for examining rhetorical creations", what_it_does: "", examples: "in the Sciences researchers purposefully adhere to a strict method (the scientific method)" },
+  since_the_aim_of_rhetoric: "To be persuasive, the level to which the rhetoric in question persuades its audience is what must be analyzed, and later criticized",
+  in_determining_the_extent_to_which_a_text: { definition: "Persuasive, one may explore the text's relationship with its audience, purpose, ethics, argument, evidence, arrangement, delivery, and style", what_it_does: "", examples: "history, philosophy, and the social sciences" },
+  methodological_rhetorical_criticism: "Typically done by deduction, in which a broad method [ vague ] is used to examine a specific case of rhetoric",
+
 };
 
 // ============================================================
