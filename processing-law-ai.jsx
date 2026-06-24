@@ -32514,6 +32514,9 @@ const FLAT_DICT = {
   fossil_fuel_combustion: { definition: "A primary contributor, but so are biofuels and even the burning of hydrogen", what_it_does: "", examples: "hypoxic and anoxic conditions, which can cause death of aquatic fauna" },
   nitrification_via_aeration_before_discharge: { definition: "Often desirable to prevent fish deaths", what_it_does: "", examples: "oral cancer and gastric cancer )" },
 
+  // === INGESTED 2026-06-24 05:29 ===
+  the_world_journal_of_surgery: "A peer-reviewed medical journal covering research in the field of surgery",
+
 };
 
 // ============================================================
