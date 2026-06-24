@@ -32236,6 +32236,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 04:39 ===
   the_carpels_of_a_pome: { definition: "Fused within the core", what_it_does: "", examples: "some apples); others (e.g" },
 
+  // === INGESTED 2026-06-24 04:41 ===
+  such_nonperishable_foods: "The only possible staples during seasons of shortage, such as dry seasons or cold temperate winters, against which times harvests have been stored",
+  staple_foods: { definition: "Derived from either plant or animal products that are digestible by humans and can be supplied in substantial quantities", what_it_does: "", examples: "olive oil , coconut oil and sugar" },
+  these_three: "The staples of about 80 percent of the world population, [ 11 ] and rice feeds almost half of humanity",
+  roots_and_tubers: { definition: "High in carbohydrates , calcium and vitamin C , but low in protein", what_it_does: "", examples: "is a major food staple in the developing world, a basic food source for around 500 million people" },
+  the_nutrientdeficiency_disease_pellagra: "Associated with a diet consisting primarily of maize , while the disease beriberi is associated with a diet of refined white rice",
+  raw_grains: "Not edible and cannot be digested, so they must be cooked, sprouted or otherwise prepared for human consumption",
+
 };
 
 // ============================================================
