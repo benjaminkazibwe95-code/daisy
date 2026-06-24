@@ -35161,6 +35161,11 @@ const FLAT_DICT = {
   roozbeh_kiani: "An Iranian-American neuroscientist whose research focuses on how the brain makes decisions under uncertainty",
   kiani: "Born and raised in Amol, Iran",
 
+  // === INGESTED 2026-06-24 13:47 ===
+  pantheon_books: { definition: "An American book publishing imprint", what_it_does: "", examples: "Studs Terkel , Kurt Vonnegut , and Barbara Ehrenreich held a protest outside Random House" },
+  important_early_works_published_by_pantheon: { definition: "Zen and the Art of Archery by German scholar Eugen Herrigel , the Bollingen series (composed of C", what_it_does: "", examples: "Noam Chomsky , James Loewen and Studs Terkel to European readers" },
+  many_of_its_comics_publications: "High-quality collected editions of works originally serialized by other publishers such as Fantagraphics Books",
+
 };
 
 // ============================================================
