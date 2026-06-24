@@ -33895,6 +33895,21 @@ const FLAT_DICT = {
   this_scope: { definition: "In contrast to theories of political science which look inside political institutions to understand decision-making processes", what_it_does: "", examples: "whether the technology creates psychological closeness (electronic propinquity theory)" },
   outside_replication_of_research_findings: "Particularly important in this approach to prevent individual researchers' values from contaminating their findings and interpretations",
 
+  // === INGESTED 2026-06-24 10:06 ===
+  mass_communication: "Necessary for improving awareness and education surrounding public health issues",
+  paid_media: "Directly through advertising and various business sponsorship campaigns",
+  citizen_journalism: "Based upon public citizens actively producing news and information",
+  the_term_catfish: "A person who uses a false online profile on a social media platform",
+  the_goal_of_these_episodes: "To keep track of people who have fallen in love with someone they interacted with online but who have never met in person",
+  podcasts_a_podcast_is_an_audio_file_that: { definition: "Recorded and digitally uploaded to an online platform in order to be downloaded and listened to by the general public", what_it_does: "", examples: "Spotify, YouTube, and Apple Music" },
+  some_podcasts: "Recorded in front of a live audience and then uploaded, enabling the public to listen to their favorite podcast hosts live",
+  its_audience: "Greater in size than that of any other media audience",
+  since_television: "Able to attract the audiences of all age groups, literate and illiterate and of all strata of society, it has attracted an enormous audience",
+  camera_obscura: { definition: "One of the first techniques that led to creating photos", what_it_does: "", examples: "Fujifilm , have adapted, despite a downturn in sales" },
+  a_video_game_genre: { definition: "Defined by a set of gameplay challenges; genres are classified independently of when and where the game takes place", what_it_does: "", examples: "games, movies, and music" },
+  this_habit: "Very common as the multitude of sources permit us to only take things at face value",
+  this_method_of_perception: "Coined by communications scholar George Gerbner and is associated with the impact of mass communication on one's thoughts of the world they live in",
+
 };
 
 // ============================================================
