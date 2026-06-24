@@ -33697,6 +33697,13 @@ const FLAT_DICT = {
   the_bat_and_ball_sport_of_cricket: "First played in England during the 16th century and was exported around the globe via the British Empire",
   many_games: "Known as 'football' were being played at colleges and universities in the United States in the first half of the 19th century",
 
+  // === INGESTED 2026-06-24 09:16 ===
+  habits: { definition: "Sometimes compulsory", what_it_does: "", examples: "regular exercise or healthy eating, or detrimental, such as smoking or procrastination" },
+  behavior_prediction: "Also derived from goals",
+  the_influence_of_goals_on_habits: "One of the reasons that makes habits different from other automatic processes in the mind",
+  nervous_habits: { definition: "Commonly associated with anxiety disorders and may serve as coping mechanisms for managing stress or emotional tension", what_it_does: "", examples: "there are many shared habits of consumer behaviour" },
+  the_key_to_changing_habits: "To identify the cue and modify routine and reward",
+
 };
 
 // ============================================================
