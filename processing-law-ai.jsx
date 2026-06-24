@@ -34830,6 +34830,12 @@ const FLAT_DICT = {
   lexitype: { definition: "Popular with large organizations that had previously used the Lexitron", what_it_does: "", examples: "' killer app ' spreadsheet applications, e.g" },
   of_particular_interest_also: { definition: "The standardization of TrueType fonts used in both Macintosh and Windows PCs", what_it_does: "", examples: "Microsoft Word, WordPerfect, and Ami Pro" },
 
+  // === INGESTED 2026-06-24 12:38 ===
+  a_monograph: "Generally a long-form work on one (usually scholarly ) subject, or one aspect of a subject, most often created by a single author or artist",
+  traditionally_it: "In written form and published as a book, but it may be an artwork, audiovisual work, or exhibition made up of visual artworks",
+  the_english_term_monograph: "Derived from modern Latin monographia , which has its root in Greek",
+  the_firstever_monograph_of_a_plant_taxon: "Robert Morison 's 1672 Plantarum Umbelliferarum Distributio Nova , a treatment of the Apiaceae",
+
 };
 
 // ============================================================
