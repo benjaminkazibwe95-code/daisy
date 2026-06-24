@@ -33126,6 +33126,12 @@ const FLAT_DICT = {
   the_sum_of_all_these_numbers: { definition: "613, reflecting the concept that tzitzit reminds its wearer of all Torah commandments", what_it_does: "", examples: "Ben Azzai held that there exist 300 positive mitzvot" },
   some_rabbis_declared_that_this_count: { definition: "Not an authentic tradition, or that it was not logically possible to come up with a systematic count", what_it_does: "", examples: "the Shulkhan Arukh and the Kitzur Shulkhan Arukh do not refer to it" },
 
+  // === INGESTED 2026-06-24 07:33 ===
+  the_individuals_that: { definition: "Better adapted to this new pressure will survive and reproduce at a higher rate than those who are at a disadvantage", what_it_does: "", examples: "building roads or hunting" },
+  those_cliff_swallows_that: { definition: "Killed by passing cars showed a larger wingspan than the population as a whole", what_it_does: "", examples: "road usage, car size, and population size were shown to have no impact on the study" },
+  evolutionary_pressure_imposed_by_humans: "Also seen in elk populations",
+  faster_and_more_mobile_male_elk: { definition: "Shown to be more likely to fall prey to hunters", what_it_does: "an environment where the more active animals are more likely to succumb to predation than less active animals", examples: "size and color, even if they are not necessarily beneficial to the human in a tangible way" },
+
 };
 
 // ============================================================
