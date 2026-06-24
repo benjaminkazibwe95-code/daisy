@@ -35039,6 +35039,11 @@ const FLAT_DICT = {
   people_assume_there: "An evidence base when the lie is big (it's like a blind spot)",
   and_backing_down: "Typically seen as weakness",
 
+  // === INGESTED 2026-06-24 13:10 ===
+  carroll: "The first non-American (from Canada) to win the title",
+  pyne: "The first European (Ireland) to win the title",
+  she_also: "The first woman to win in almost two decades",
+
 };
 
 // ============================================================
