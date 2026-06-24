@@ -30696,6 +30696,15 @@ const FLAT_DICT = {
   the_chinese_soviet_republic: "Dissolved on 22 September 1937 when the Chinese Communist Party issued, in the Second United Front, its manifesto on unity with the Kuomintang",
   the_limerick_soviet: "Formed in Ireland in 1919 at the beginning of the Irish War of Independence , and sprung up alongside a number of soviets in Ireland",
 
+  // === INGESTED 2026-06-24 00:41 ===
+  when_the_seat_of_government: "Transferred out of Rome, the Senate was reduced to a purely municipal body",
+  that_decline_in_status: "Reinforced when Constantine the Great created an additional senate in Constantinople",
+  after_romulus_augustulus: "Deposed in 476, the Senate in the Western Empire functioned under the rule of Odoacer (476–489) and during Ostrogothic rule (489–535)",
+  while_the_king: "Nominally elected by the people, it was actually the senate who chose each new king",
+  only_patricians: "Members in the early period",
+  plebeians: "Admitted later, although they were denied the senior magistracies for a longer period",
+  senate_membership: { definition: "Controlled by the censors", what_it_does: "", examples: "the senate now held jurisdiction over criminal trials" },
+
 };
 
 // ============================================================
