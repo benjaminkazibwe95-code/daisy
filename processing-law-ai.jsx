@@ -33986,6 +33986,28 @@ const FLAT_DICT = {
   barker: "Leader of “Task Force Barker” and Medina’s commanding officer",
   after_the_attack: "Halted, Calley inexplicably ordered two groups of Vietnamese villagers executed",
 
+  // === INGESTED 2026-06-24 10:17 ===
+  a_political_campaign: "An organized effort which seeks to influence the decision making progress within a specific group",
+  a_message_that: "Too narrow can alienate voters or slow the candidate down with explaining details",
+  the_difference_is_it: "A group paid employees and unpaid volunteers",
+  campaigns: "Run by campaign managers , political consultants , and activist or volunteers",
+  their_primary_focus: { definition: "Mass media and controlling the image", what_it_does: "", examples: "canvassing door-to-door and making phone calls on behalf of the campaigns" },
+  political_campaigning: { definition: "Not a standalone event but a critical phase integrated into a complex, multi-step electoral cycle", what_it_does: "", examples: "the definition of Electoral Boundaries and the legal framework for Political Party Registration" },
+  a_credible_campaign_environment: "Defined by inclusiveness, where systemic barriers are removed to ensure marginalized groups can participate without unreasonable restriction",
+  when_these_standards: "Met, the campaign functions not just as a race for office, but as a vital mechanism that truly reflects the collective will of the people",
+  campaign_advertising: "The use of paid media (newspapers, radio, television, etc.) to influence the decisions made for and by groups",
+  the_ads: "Designed by political consultants and the campaign's staff as it is part of their role",
+  media_management: "The ability of a political campaign to control the message that it broadcasts to the public",
+  an_advantage_of_paid_media: "That it allows political campaigns to tailor the messages they show the public and control when the public sees them",
+  these_internet_technologies: "Used for cause-related fundraising, lobbying, volunteering, community building, and organizing",
+  individual_political_candidates: "Also using the internet to promote their election campaign",
+  in_modern_terms_it: "The campaign trail in Canada and Britain",
+  it_can_be_a_costeffective: "Of attracting media coverage",
+  voters: { definition: "More likely to vote for a nominee based on whose values align closest with theirs", what_it_does: "", examples: "media presence" },
+  more_visible: "The candidates themselves",
+  often_mass_campaigns: "Started by the less privileged or anti-establishment viewpoints (as against more powerful interests whose first resort is lobbying )",
+  the_phenomenon_of_political_campaigns: "Tightly tied to lobby groups and political parties",
+
 };
 
 // ============================================================
