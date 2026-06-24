@@ -33246,6 +33246,11 @@ const FLAT_DICT = {
   logos: "The one principle at work, that gives order to the manifold in the world",
   acting_dialogically: "Directing someone's attention to another one and to reality at the same time",
 
+  // === INGESTED 2026-06-24 07:50 ===
+  the_only_two_cases_where_p_and_notp: "False (when P is 100% true or false) are the same cases considered by two-valued logic, and the same rules apply",
+  the_law_of_the_excluded_middle: "Proved intuitionistically to apply to general recursive predicates",
+  consideration_of_its_status_will_show_that_we: "Limited to a special kind of truth table'",
+
 };
 
 // ============================================================
