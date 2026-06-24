@@ -33039,6 +33039,15 @@ const FLAT_DICT = {
   the_main_destinations: "Famous temples and Shinto shrines around the country, and eating and drinking at the inns and prostitution were one of the main attractions",
   what_people_admired_most: "The visit to Ise Grand Shrine and the summit of Mount Fuji , which are considered the most sacred places in Japan",
 
+  // === INGESTED 2026-06-24 07:16 ===
+  initially_he_mentioned_that_he: "Going on a journey to the Hajj pilgrimage, in order to avoid attempts at preventing his decision from the leadership",
+  this_fatwa: "Used by Yusuf ibn Tashfin to justify his conquest of al-Andalus",
+  its_great_achievement: "To bring orthodox Sunni theology and Sufi mysticism together in a useful, comprehensive guide to every aspect of Muslim life and death",
+  these_two_chapters: "The 22nd and 23rd chapters, respectively, in Ghazali's Revival of the Religious Sciences",
+  his_most_important_persian_work: "Kimiya-yi sa'adat (The Alchemy of Happiness)",
+  the_most_famous_among_them: { definition: "Ay farzand (O Child!)", what_it_does: "", examples: "Nasir al-Din al-Tusi" },
+  its_aim: "Not to promote the study of mathematics: it is to condemn the attitude which consists in considering them as rivals of religion",
+
 };
 
 // ============================================================
