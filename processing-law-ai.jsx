@@ -35383,6 +35383,12 @@ const FLAT_DICT = {
   although_rainfall: "Abundant, most streams in the Azores are temporary",
   its_main_exports: { definition: "Machinery and mechanical appliances, vehicles and other transportation equipment, base metals, and plastics", what_it_does: "", examples: "wine and cork in export earnings" },
 
+  // === INGESTED 2026-06-24 14:27 ===
+  the_federal_republic_of_yugoslavia: "Banned due to UN sanctions, but individual Yugoslav athletes were allowed to take part as Independent Olympic Participants",
+  events_from_five_venues: "Covered live –80% of the total broadcast time– and other events were recorded for a delayed broadcast",
+  onscreen_text_and_graphics: { definition: "Shown in HDTV for the first time ever", what_it_does: "", examples: "the deadly 1991 Vic bombing" },
+  the_official_mascot: "Cobi, a Catalan sheepdog in cubist style designed by Javier Mariscal",
+
 };
 
 // ============================================================
