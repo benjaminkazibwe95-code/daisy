@@ -32830,6 +32830,36 @@ const FLAT_DICT = {
   particularly_notable: "The prominent structural role of the precuneus, a region that is homologous to the highly connected posteromedial cortex in the macaque",
   the_precuneus: { definition: "Involved in self-referential processing, imagery and memory, and its deactivation is associated with anaesthetic-induced loss of consciousness", what_it_does: "", examples: "New world monkeys 'the superior parietal and precuneate regions are poorly developed'" },
 
+  // === INGESTED 2026-06-24 06:28 ===
+  the_summa: "Translated into Greek (apparently by Maximus Planudes around 1327) and Armenian , many European languages , and Chinese",
+  the_two_parts_of_the_second_part: "Usually presented as containing several 'treatises'",
+  the_contents: "As follows: [ 9 ] The Summa makes many references to certain thinkers held in great respect in Aquinas's time",
+  the_ethics_detailed_in_this_part: "A summary of the ethics ( Aristotelian in nature) that man must follow to reach his intended destiny",
+  the_first_part_of_the_summa: "Summed up in the premise that God governs the world as the 'universal first cause '",
+  his_essence: "Actus purus et perfectus",
+  reprobation: "More than mere foreknowledge; it is the 'will of permitting anyone to fall into sin and incur the penalty of condemnation for sin'",
+  since_god: "The first cause of everything, he is the cause of even the free acts of men through predestination",
+  nothing_in_the_world: "Accidental or free, although it may appear so in reference to the proximate cause",
+  its_theme: "Man's striving for the highest end, which is the blessedness of the visio beata",
+  whether_the_act: "Good or evil depends on the end",
+  human_acts: "Meritorious insofar as they promote the purpose of God and his honor",
+  the_devil: "Not directly the cause of sin, but he incites the imagination and the sensuous impulse of man (as men or things may also do)",
+  the_thought: "Involved here by the fact that St",
+  this_negative_state: "The essence of original sin",
+  since_sin: "Contrary to the divine order, it is guilt and subject to punishment",
+  the_new_law: "'primarily grace itself' and so a 'law given within'; 'a gift superadded to nature by grace', but not a 'written law'",
+  since_man: "Sinner and creature, he needs grace to reach the final end",
+  in_that_man: "Created anew, he believes and loves, and now, sin is forgiven",
+  the_conceptions_of_faith_and_love: "Of much significance in the complete system of St",
+  the_way_which_leads_to_god: "Christ , the theme of Part III",
+  it_can_be_asserted_that_the_incarnation: "Absolutely necessary",
+  so_christ: "Unum since his human nature lacks the hypostasis",
+  this_union_with_the_human_soul: "The gratia unionis , which leads to the impartation of the gratia habitualis from the Logos to the human nature",
+  insofar_as_it: "The limited human nature which receives these perfections, they are finite",
+  thomas_teaches_that_christ: "To be regarded as redeemer after his human nature but in such way that the human nature produces divine effects as organ of divinity",
+  the_res_sensibiles: "The matter, the words of institution the form of the sacraments",
+  that_which_christ_effects: "Achieved through the sacraments",
+
 };
 
 // ============================================================
