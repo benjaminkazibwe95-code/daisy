@@ -32824,6 +32824,12 @@ const FLAT_DICT = {
   each_item: "Scored on a 1–7 Likert scale",
   the_importance_of_intrinsic_motivation: "Particularly apparent with more difficult behaviors",
 
+  // === INGESTED 2026-06-24 06:26 ===
+  the_areas_with_which_it_links: { definition: "Involved in executive functions , working memory and motor planning", what_it_does: "", examples: "past episodes related to the self" },
+  these_clusters_or_modules: "Interlinked by specialized hub regions, ensuring that overall path lengths across the network are short",
+  particularly_notable: "The prominent structural role of the precuneus, a region that is homologous to the highly connected posteromedial cortex in the macaque",
+  the_precuneus: { definition: "Involved in self-referential processing, imagery and memory, and its deactivation is associated with anaesthetic-induced loss of consciousness", what_it_does: "", examples: "New world monkeys 'the superior parietal and precuneate regions are poorly developed'" },
+
 };
 
 // ============================================================
