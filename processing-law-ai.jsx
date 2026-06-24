@@ -33524,6 +33524,10 @@ const FLAT_DICT = {
   vico: "Primarily unknown in his own time",
   this_is_the_idea_that_certain_things: "True only in certain times and places (a view influenced by pragmatism ) however, this does not make them less true",
 
+  // === INGESTED 2026-06-24 08:49 ===
+  susanna_siegel: "An American philosopher",
+  her_monograph: "Well received, [ 6 ] [ 7 ] and her papers have been widely cited",
+
 };
 
 // ============================================================
