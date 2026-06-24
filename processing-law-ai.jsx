@@ -33866,6 +33866,14 @@ const FLAT_DICT = {
   agglutination: "A typological feature and does not imply a linguistic relation, but there are some families of agglutinative languages",
   this_developmental_phenomenon: "Known as language drift , such as Indonesian and Malay",
 
+  // === INGESTED 2026-06-24 10:00 ===
+  the_tower_of_babel: "The subject of two surviving paintings and one lost painting by Dutch and Flemish Renaissance painter Pieter Bruegel the Elder",
+  the_tower_of_babel_in_vienna: "Dated 1563, while the version in Rotterdam is undated but widely believed to have been painted sometime after",
+  rather_the_tower: "Built as an ascending spiral",
+  grand_and_formal_architecture_of_this_sort: "Not a usual interest of Bruegel in either paintings or drawings, although it was typical subject matter for many of his contemporaries",
+  both_tower_versions: "Full of the type of details which are likely to have been worked out in sketches first",
+  the_vienna_tower: "Built around a very steep small mountain, which can be seen protruding from the architecture at the centre near the ground and to the right higher up",
+
 };
 
 // ============================================================
