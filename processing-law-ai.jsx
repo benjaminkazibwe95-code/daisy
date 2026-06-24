@@ -33327,6 +33327,14 @@ const FLAT_DICT = {
   in_this_form_it: "Known as 'Shannon's maxim'",
   shannon_award: "Established in his honor; he was also its first recipient, in 1973",
 
+  // === INGESTED 2026-06-24 08:09 ===
+  citizenship_education: "Taught in schools, as an academic subject similar to politics or sociology",
+  the_different_names_for_the_subject: "Mirrored in the different approaches towards citizenship education adopted in different countries",
+  at_the_same_time_as_the_subject: "Introduced in 2001, a longitudinal study began",
+  this_version_of_the_curriculum_in_particular: { definition: "Concerned with the practical side of citizenship – going beyond just the knowledge of institutions", what_it_does: "", examples: "Citizenship" },
+  in_france_citizenship_education: "Known as ECJS (education civique, juridique et sociale) in the high school and 'éducation civique' in the middle school and primary school",
+  in_finland_citizenship_education: "Known as YH, YT or YO",
+
 };
 
 // ============================================================
