@@ -30890,6 +30890,13 @@ const FLAT_DICT = {
   in_determining_the_extent_to_which_a_text: { definition: "Persuasive, one may explore the text's relationship with its audience, purpose, ethics, argument, evidence, arrangement, delivery, and style", what_it_does: "", examples: "history, philosophy, and the social sciences" },
   methodological_rhetorical_criticism: "Typically done by deduction, in which a broad method [ vague ] is used to examine a specific case of rhetoric",
 
+  // === INGESTED 2026-06-24 01:11 ===
+  an_administrative_court: "A type of specialized court on administrative law , particularly disputes concerning the exercise of public power",
+  their_role_is_to_ascertain_that_official_acts: "Consistent with the law",
+  such_courts: "Usually considered separate from ordinary courts",
+  the_administrative_acts: "Recognized from the hallmark that they become binding without the consent of the other involved parties",
+  the_parallel_system: "Found in countries like Austria , Egypt , Greece , Germany , France , Italy , some of the Nordic Countries, Portugal , Taiwan and others",
+
 };
 
 // ============================================================
