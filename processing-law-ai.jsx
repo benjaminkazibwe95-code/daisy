@@ -32531,6 +32531,21 @@ const FLAT_DICT = {
   one_of_the_most_wellknown_programs: "The ParticipACTION program, which aims to encourage Canadians to move more and increase their physical activity levels",
   their_mission_statement: "' ParticipACTION is the national voice of physical activity and sport participation in Canada",
 
+  // === INGESTED 2026-06-24 05:37 ===
+  abnormal_persistently_high_glycemia: "Referred to as hyperglycemia ; low levels are referred to as hypoglycemia",
+  diabetes_mellitus: "Also characterized by frequent episodes of low sugar, or hypoglycemia",
+  glucagon: { definition: "Secreted from alpha cells, while insulin is secreted by beta cells", what_it_does: "", examples: "heart disease, cancer, [ 25 ] eye, kidney, and nerve damage" },
+  when_diabetes: { definition: "The cause, physicians typically recommend an anti-diabetic medication as treatment", what_it_does: "", examples: "cortisone, hydrocortisone, prednisolone, prednisone, and dexamethasone" },
+  low_blood_sugar: "Very frequent among type 1 diabetics",
+  the_actual_concentration_of_glucose_in_blood: "Very low, even in the hyperglycemic",
+  the_two_most_common_employed_enzymes: "Glucose oxidase and hexokinase",
+  strips_of_this_type: "Still used for urine glucose readings, but for blood glucose levels they are obsolete",
+  errors_when_using_test_strips: "Often caused by the age of the strip or exposure to high temperatures or humidity",
+  healthy_urine_glucose_levels: { definition: "First standardized and published in 1965 [ 39 ] by Hans Renschler", what_it_does: "", examples: "food intake are avoided" },
+  conditions_affecting_glucose_levels: "Shown in the table below",
+  abnormalities_in_these_test_results: { definition: "Due to problems in the multiple control mechanism of glucose regulation", what_it_does: "", examples: "tinting contaminants) with light source or the light sensor" },
+  electrical_techniques: { definition: "Less susceptible to these errors, though not to others", what_it_does: "", examples: "due to exercise or medication adjustments) are properly tracked" },
+
 };
 
 // ============================================================
