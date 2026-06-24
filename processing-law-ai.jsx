@@ -32035,6 +32035,31 @@ const FLAT_DICT = {
   the_annual_airborne_fraction: { definition: "The ratio of the atmospheric increase in a given year to that year's total emissions", what_it_does: "", examples: "fossil fuel extraction" },
   the_term_greenhouse: "First applied to this phenomenon by Nils Gustaf Ekholm in 1901",
 
+  // === INGESTED 2026-06-24 04:05 ===
+  many_himalayan_peaks: "Sacred in Hinduism and Buddhism",
+  the_summits_of_several: { definition: "Off-limits to climbers", what_it_does: "", examples: "the Sanskrit epic Mahabharata" },
+  to_the_east_of_annapurna: "The 8,000-metre (26,000-foot; 5.0-mile) peaks of Manaslu and across the border in Tibet, Shishapangma",
+  further_east: "The Mahalangur Himal with four of the world's six highest mountains, including the highest: Cho Oyu , Everest , Lhotse , and Makalu",
+  the_eastern_side_of_kangchenjunga: "In the Indian state of Sikkim",
+  the_highest_mountain_in_bhutan: "Gangkhar Puensum , which is also a strong candidate for the highest unclimbed mountain in the world",
+  the_himalayas_here: { definition: "Becoming increasingly rugged, with heavily forested steep valleys", what_it_does: "", examples: "Gyala Peri , however, are also sometimes included in the Himalayas" },
+  the_twin_peaks_of_nun_kun: "The only mountains over 7,000 metres (23,000 ft; 4.3 miles) in this part of the Himalayas",
+  the_closure_of_the_neotethys: "Completed approximately 40 Ma",
+  each_of_the_three_megaunits: "Internally imbricated into several individual nappes",
+  tarns: "Found mostly in the upper reaches of the Himalaya, above 5,500 m (18,000 ft)",
+  this_forced_lifting_of_air: { definition: "Called the orographic effect", what_it_does: "", examples: "the Kathmandu valley), are classified as Cwa , Humid subtropical climate with dry winters" },
+  the_vegetation: "Sparse and stunted and the winters are severely cold",
+  most_of_the_precipitation_in_the_region: "In the form of snow during the late winter and spring months",
+  local_impacts_on_climate: "Significant throughout the Himalayas",
+  the_rain_shadowing_of_himalayas: "Also believed to play an important part in the formation of Central Asian deserts, such as the Taklamakan and Gobi",
+  the_himalayan_musk_deer: "Also found at high altitudes",
+  hydrangea_hirta: "An example of floral species that can be found in this area",
+  the_increase_in_temperature: "Shifting various species to higher elevations",
+  the_oak_forest: "Being invaded by pine forests in the Garhwal Himalayan region",
+  paro_taktsang: "The holy place where Buddhism started in Bhutan",
+  a_notable_example_of_a_religious_site: "Paro Taktsang , where Padmasambhava is said to have founded Buddhism in Bhutan",
+  the_bark_of_a_callicarpa_arborea: "Used for skin ailments",
+
 };
 
 // ============================================================
