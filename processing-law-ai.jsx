@@ -34480,6 +34480,9 @@ const FLAT_DICT = {
   since_capital: "Defined by him as being goods of higher-order, or goods used to produce consumer goods, and derived their value from them, being future goods",
   the_cambridge_capital_controversy: "A dispute between economists at Cambridge, Massachusetts based MIT and University of Cambridge in the UK about the measurement of capital",
 
+  // === INGESTED 2026-06-24 11:35 ===
+  rich_dad_poor_dad: "Written in the style of a set of parables presented as autobiographical",
+
 };
 
 // ============================================================
