@@ -32660,6 +32660,28 @@ const FLAT_DICT = {
   this_review: "Conducted on short-term studies, therefore such a mechanism cannot be excluded in the long term, as evidence is currently lacking on this timeframe",
   a_negative_balance_or_caloric_deficit: { definition: "A result of energy intake being less than what is consumed in external work and other bodily means of energy expenditure", what_it_does: "", examples: "fasting or lack of access to food" },
 
+  // === INGESTED 2026-06-24 05:56 ===
+  the_icd: "Developed and annually updated by the World Health Organization (WHO)",
+  an_entity_can_be_anything_that: "Relevant to health care",
+  the_primary_derivative_of_the_foundation: { definition: "Called the ICD-11 MMS, and it is this system that is commonly referred to as simply 'the ICD-11'", what_it_does: "", examples: "pneumonia can be categorized as a lung infection , but also as a bacterial or viral infection (i.e" },
+  the_foundation_component: "The common core on which all Reference and Derived Classifications are based",
+  derived_classifications: { definition: "Based on the three Reference Classifications, and are usually tailored for a particular specialty", what_it_does: "", examples: "the ICD-O is a Derived Classification used in oncology" },
+  related_classifications: "Complementary, and cover specialty areas not covered elsewhere in the WHO-FIC",
+  the_abbreviation: "Variously written with or without a hyphen between 11 and MMS ('ICD-11 MMS' or 'ICD-11-MMS')",
+  a_chapter: "A top level entity of the hierarchy; the MMS contains 28 of them (see Chapters section below)",
+  a_category_can_be_anything_that: "Relevant to health care",
+  these_are_terms_or_conditions_which: "Judged important or commonly used in relation to that code",
+  the_first_stable_version: "Released on 18 June 2018",
+  the_letters_i_and_o: "Not used, to prevent confusion with the numbers 1 and 0",
+  the_chapter_character: "Then followed by a letter, a number, and a fourth character that starts as a number (0–9, e.g",
+  questioned_if_what: "Called 'gaming disorder' is in fact a coping strategy for underlying problems, such as depression , social anxiety , or ADHD",
+  noted_that_stigmatization: { definition: "A risk not specific to GD alone", what_it_does: "", examples: "a person can have an alcohol dependence due to PTSD" },
+  disorders_in_this_chapter: "Meant to encourage research and are not intended for clinical use",
+  the_who_acknowledged_that_there: "An overlap between desire and arousal, but they are not the same",
+  a_related_condition: { definition: "Vulvodynia , which is in the ICD-9 ( 625.7 ), but not in the ICD-10", what_it_does: "", examples: "anxiety or depression" },
+  experiencing_shame_and_guilt_about_sex: "Not a reliable indicator of a sex disorder, Kraus et al",
+  medical_procedures_that: { definition: "Labeled 'traditional' are used all over the world", what_it_does: "", examples: "acupuncture" },
+
 };
 
 // ============================================================
