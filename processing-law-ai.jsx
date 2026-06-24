@@ -33977,6 +33977,15 @@ const FLAT_DICT = {
   while_vietnam_as_a_whole: { definition: "Eventually communized, only the northern half of Korea remained communist", what_it_does: "", examples: "Chinese, Arabic, and Russian" },
   all_of_the_european_union_countries: { definition: "Joined together by a hope to promote and extend peace, democracy, cooperativeness, stability, prosperity, and the rule of law", what_it_does: "", examples: "economic ones" },
 
+  // === INGESTED 2026-06-24 10:15 ===
+  his_early_schooling: "Hampered by what he has called 'pretty severe dyslexia '",
+  poe: { definition: "The co-founder and a former editor of the academic journal Kritika : Explorations in Russian and Eurasian History", what_it_does: "", examples: "it included a study by the U.S" },
+  volume_and_range: "Also low because the unaided human voice can't carry very far or to many people, but velocity was high because speech travels at the speed of sound",
+  poe_notes_that_speech: { definition: "Not a persistent medium because it fades away instantly, but it is searchable because what is said can remain in people's memories", what_it_does: "", examples: "the My Lai Massacre could happen" },
+  poe_noted_that_the_my_lai_operation: "Probably the best documented small unit action in the history of warfare",
+  barker: "Leader of “Task Force Barker” and Medina’s commanding officer",
+  after_the_attack: "Halted, Calley inexplicably ordered two groups of Vietnamese villagers executed",
+
 };
 
 // ============================================================
