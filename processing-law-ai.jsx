@@ -30590,6 +30590,34 @@ const FLAT_DICT = {
   traditionally_food: "Served on a plantain leaf or lotus leaf",
   while_the_national_sport: "Volleyball , by far the most popular sport in the country is Cricket",
 
+  // === INGESTED 2026-06-24 00:26 ===
+  the_sovereign_state: "Separated from the Comoros , Mayotte , and Madagascar through the Mozambique Channel to the east",
+  mozambique: { definition: "A member of the Southern African Development Community (SADC)", what_it_does: "", examples: "telecommunications, energy, ports, and railways" },
+  the_most_popular_religion_in_mozambique: { definition: "Christianity, with significant minorities following Islam and African traditional religions", what_it_does: "", examples: "modern day Mozambique" },
+  the_authority_of_the_prazeiros: { definition: "Exercised and upheld amongst the local population by armies of these enslaved men, whose members became known as Chikunda", what_it_does: "", examples: "a railroad linking present-day Zimbabwe with the Mozambican port of Beira" },
+  while_the_first_elections: "Accepted by most political parties as free and fair, growing evidence shows that all subsequent elections since 1999 have been fraudulent",
+  guebuza: "Inaugurated as the President of Mozambique on 2 February 2005 [ 62 ] and served two five-year terms",
+  the_major_cities: "Maputo , Beira , Nampula , Tete , Quelimane , Chimoio , Pemba , Inhambane , Xai-Xai and Lichinga",
+  cyclones: "Common during the wet season",
+  average_temperature_ranges_in_maputo: "From 13 to 24 °C (55.4 to 75.2 °F) in July and from 22 to 31 °C (71.6 to 87.8 °F) in February",
+  tens_of_thousands_of_hectares_of_crops: "Also affected during the flooding",
+  the_prime_minister: "Appointed by the president",
+  at_the_time_it: "The only nation to have joined the Commonwealth that was never part of the British Empire",
+  the_minimum_legal_salary: "Around US$60 per month",
+  the_railroads: "Major targets during the Mozambican Civil War, were sabotaged by RENAMO, and are being rehabilitated",
+  some_nyanja: { definition: "Used at the coast of Lake Malawi, as well as on the other side of the Lake", what_it_does: "", examples: "epula = 'rain'" },
+  south_of_this_area: { definition: "Languages of the Tsonga group", what_it_does: "", examples: "such local dialects as XiHlanganu, XiN'walungu, XiBila, XiHlengwe, and XiDzonga" },
+  new_churches: "Chartered each year in each Annual Conference (north and south)",
+  public_expenditure_on_health: "At 2.7% of the GDP in 2004, whereas private expenditure on health was at 1.3% in the same year",
+  health_expenditure_per_capita: "42 US$ (PPP) in 2004",
+  but_since_most_of_the_people_of_mozambique: "Bantus, most of the culture is native; for Bantus living in urban areas, there is some Portuguese influence",
+  the_makonde: "Known for their wood carving and elaborate masks, which are commonly used in traditional dances",
+  these_sculptures: "Usually referred to as 'family trees' because they tell stories of many generations",
+  dances: "Usually intricate, highly developed traditions throughout Mozambique",
+  the_marimba: "A popular instrument with the Chopi of the south-central coast, who are famous for their musical skill and dance",
+  mozambican_media: { definition: "Heavily influenced by the government", what_it_does: "", examples: "Noticias and Diário de Moçambique , and the weekly Domingo" },
+  track_and_field_and_basketball: "Also avidly followed in the country",
+
 };
 
 // ============================================================
