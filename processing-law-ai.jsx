@@ -31859,6 +31859,36 @@ const FLAT_DICT = {
   for_double_glazed_windows_shgc: { definition: "More often in the range of 0.42 - 0.55", what_it_does: "", examples: "overhangs , louvers , fins, porches , and other architectural shading elements" },
   passive_solar_heating: "A design strategy that attempts to maximize the amount of solar gain in a building when additional heating is desired",
 
+  // === INGESTED 2026-06-24 03:42 ===
+  particular_attention: { definition: "Given to daylighting while designing a building when the aim is to maximize visual comfort or to reduce energy use", what_it_does: "", examples: "Radiance allow an architect or engineer to quickly calculate benefits of a particular design" },
+  sunlight_that_is_scattered_in_the_atmosphere: { definition: "' diffused daylight '", what_it_does: "", examples: "light shelves" },
+  passive_daylighting_systems: "Different from active daylighting systems in that active systems track and/or follow the sun, and rely on mechanical mechanisms to do so",
+  their_vertical_orientation: "That they selectively admit sunlight and diffuse daylight at different times of the day and year",
+  the_type_of_glazing: "An important issue, expressed by its VT coefficient (Visual Transmittance), [ 8 ] also known as visual light transmittance (VLT)",
+  these_walls: "Placed so as to reflect indirect light to interior areas where it is needed",
+  another_roofangled_glass_alternative: { definition: "A sawtooth roof (found on older factories)", what_it_does: "", examples: "the Lyme Art Association Gallery utilizes translucent white muslin laylights below its skylights" },
+  the_tube_itself: "A passive component consisting of either a simple reflective interior coating or a light conducting fiber optic bundle",
+  the_tubular_daylighting_device: "Invented by Solatube International in 1986 and brought to market first in Australia in 1991",
+  active_daylighting_systems: { definition: "Different from passive daylighting systems in that passive systems are stationary and do not actively follow or track the sun", what_it_does: "", examples: "light tubes, that distribute the light where it is needed" },
+  solar_street_lights_raised_light_sources_which: "Powered by photovoltaic panels generally mounted on the lighting structure",
+  essentially_no_electricity: "Needed for daytime natural interior lighting",
+  if_a_hall: "Necessary for privacy or room isolation, inexpensive patio door safety glass can be placed on both sides of the hall",
+  if_the_temperature: "Correct, and a room is unoccupied, the drapes can automatically close to reduce heat transfer in either direction",
+  building_codes_require_a_second: "Of egress, in case of fire",
+  sda: "A metric describing annual sufficiency of ambient daylight levels in interior environments",
+  illuminance_measurements_on_a_grid: { definition: "A basic level to derive an average illuminance of a space", what_it_does: "for the effects of climate with hourly weather data from typical meteorological year", examples: "" },
+  computer_models: "Available which can predict variations in internally reflected light",
+  radiosity_and_raytracing: "Methods can deal with complex geometry, allow complex sky distributions and potentially produce photorealistic images",
+  radiosity_methods_assume_all_surfaces: "Perfectly diffusing to reduce computational times",
+  the_benefit_of_continuous_daylight_autonomy: "That it does not give a hard threshold of acceptable illuminance",
+  the_useful_daylight_illuminance_calculation: "Based on three factors—the percentage of time a point is below, between, or above an illuminance value",
+  the_range_for_these_factors: "Typically 100–2,000 lux",
+  useful_daylight_illuminance: "Similar to daylight autonomy but has the added benefit of addressing glare and thermal discomfort",
+  besides_determining_how_much_illuminance: "Received on a horizontal surface, a method that analyses annual illuminance distributions for daylight has been developed",
+  daylight_patterns_that: "More similar to each other due to architectural features and the time of the year the illuminance are produced are grouped together",
+  the_last_approach: "A combination of the other three calculation methods to prove that the daylight illumination requirements are achieved",
+  the_daylight_factor_calculation: "Based on uniform overcast skies",
+
 };
 
 // ============================================================
