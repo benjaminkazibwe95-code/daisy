@@ -31563,6 +31563,12 @@ const FLAT_DICT = {
   the_mediator: "Activated by request of a citizen and, after evaluating the request, starts a mediation process aimed at reaching an agreement",
   the_nature_of_the_agreement: "That of a private contract between parties",
 
+  // === INGESTED 2026-06-24 03:00 ===
+  a_protected_forest: { definition: "Not the same as a protection forest", what_it_does: "", examples: "natural reservoirs which are intended to be left to themselves" },
+  an_undertaking_to_develop_modern_treehouses: { definition: "Being taken by a company from Germany called 'TrueSchool treehouses'", what_it_does: "", examples: "the trade in certified wood" },
+  which_means_that_these_areas: "Not being monitored as they should and the protection is not working",
+  an_example_given: "That the average protection of 8.4% in biodiversity hotspots",
+
 };
 
 // ============================================================
