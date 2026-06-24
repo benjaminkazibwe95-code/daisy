@@ -32723,6 +32723,21 @@ const FLAT_DICT = {
   psychiatric_boarding_is_when_someone: { definition: "Detained, often in a hospital emergency department, while waiting for proper psychiatric treatment", what_it_does: "", examples: "child and adolescent psychiatry" },
   at_the_same_time_there: { definition: "Concerns around data security and challenges regarding proper infrastructure, capacity, access and skills", what_it_does: "", examples: "a lack of private space at home to access during their sessions or access to technology" },
 
+  // === INGESTED 2026-06-24 06:11 ===
+  extreme_events: { definition: "Based on a location's recorded weather history", what_it_does: "", examples: "tropical cyclones" },
+  severe_weather: "A particular type of extreme weather which poses risks to life and property",
+  extreme_weather: "Unusual weather events that are at the extremes of the historical distribution for a given area",
+  dried_soils: "More susceptible to erosion, decreasing lands available for agriculture",
+  the_precise_criterion_for_a_cold_wave: "Determined by the rate at which the temperature falls, and the minimum to which it falls",
+  this_minimum_temperature: "Dependent on the geographical region and time of year",
+  this_results_in_crop_failure_as_plants: { definition: "Killed before they can be harvested economically", what_it_does: "", examples: "due to changes in the Arctic" },
+  a_hurricane: "A strong tropical cyclone that occurs in the Atlantic Ocean or northeastern Pacific Ocean",
+  a_typhoon: "The same thing which occurs in the northwestern Pacific Ocean",
+  tropical_cyclones: "Typically between 100 and 2,000 km (62 and 1,243 mi) in diameter",
+  south_atlantic_tropical_cyclones: "Very rare due to consistently strong wind shear and a weak Intertropical Convergence Zone",
+  as_climate_change: "Warming ocean temperatures , there is potentially more of this fuel available",
+  rapidly_intensifying_cyclones: "Hard to forecast and therefore pose additional risk to coastal communities",
+
 };
 
 // ============================================================
