@@ -33375,6 +33375,9 @@ const FLAT_DICT = {
   also_related: { definition: "Form criticism and tradition history which try to reconstruct the oral prehistory behind the identified written sources", what_it_does: "", examples: "historians' possibilities" },
   the_most_important_legal_sources: "Created by parliaments, governments, courts, and legal researchers",
 
+  // === INGESTED 2026-06-24 08:19 ===
+  critique: { definition: "A method of disciplined, systematic study of a written or oral discourse", what_it_does: "", examples: "in the analysis and evaluation of writings such as pictorial, musical, or expanded textual works" },
+
 };
 
 // ============================================================
