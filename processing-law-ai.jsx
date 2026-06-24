@@ -34322,6 +34322,17 @@ const FLAT_DICT = {
   a_stronger_aroma_may_be_attained_if_the_pods: { definition: "Split in two, exposing more of a pod's surface area to the liquid", what_it_does: "", examples: "chocolate , custard , caramel , coffee , and others" },
   ethyl_vanillin: "More expensive, but has a stronger note",
 
+  // === INGESTED 2026-06-24 11:16 ===
+  the_food_industry: "A complex, global network of diverse businesses that supplies most of the food consumed by the world's population",
+  the_uk_food_standards_agency: "It as 'the whole food industry – from farming and food production , packaging and distribution, to retail and catering'",
+  food_system: { definition: "A complex network of farmers and the industries that link to them", what_it_does: "", examples: "providers of transportation and financial services" },
+  aquaculture: "The cultivation of aquatic organisms such as fish, shrimp, and mollusks in controlled environments like ponds, tanks, or cages",
+  one_in_three_people_worldwide: { definition: "Employed in agriculture, [ 9 ] yet it only contributes 3% to global GDP", what_it_does: "", examples: "nitrogen fertilizers and poor land management" },
+  agronomy: "The application of a combination of sciences",
+  all_components_of_the_product: { definition: "Available in-house and the customer chooses what they want in the product", what_it_does: "", examples: "improved seeds, chemical fertilizers and pesticides, and crop production methods" },
+  food_preparation: "Another area where the change in recent decades has been dramatic",
+  many_other_types_of_technology: { definition: "Also involved, to the point where it is hard to find an area that does not have a direct impact on the food industry", what_it_does: "", examples: "age, gender, income, and cultural background" },
+
 };
 
 // ============================================================
