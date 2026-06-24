@@ -33967,6 +33967,16 @@ const FLAT_DICT = {
   that_prioritization: "Fine when the network has sufficient capacity for all the VoIP calls taking place at the same time and the network is enabled for prioritization, i.e",
   these_threats_exist_if_there: { definition: "Any methods for connecting remotely to the LAN", what_it_does: "", examples: "DHCP , allowed TCP/IP-based computers to self-configure in the network" },
 
+  // === INGESTED 2026-06-24 10:13 ===
+  various_ways_in_which_these_metrics: "Assessed are through the examination of a country's GDP , GNP , literacy rate , life expectancy , and Human Development Index",
+  the_first_world: "Considered to be countries with high-income economies",
+  the_highincome_economies: "Equated to mean developed and industrialized countries",
+  the_circumstances_of_these_two_blocs: "So different that they were essentially two worlds, however, they were not numbered first and second",
+  the_first_world_and_second_world: { definition: "At constant odds with one another via the tensions between their two cores, the United States and the Soviet Union, respectively", what_it_does: "", examples: "the Truman Doctrine and Marshall Plan (from the U.S.) and the Molotov Plan (from the Soviet Union)" },
+  because_countries_of_the_third_world: { definition: "Noncommittal and non-aligned with both the First World and the Second World, they were targets for recruitment", what_it_does: "", examples: "Vietnam and Korea" },
+  while_vietnam_as_a_whole: { definition: "Eventually communized, only the northern half of Korea remained communist", what_it_does: "", examples: "Chinese, Arabic, and Russian" },
+  all_of_the_european_union_countries: { definition: "Joined together by a hope to promote and extend peace, democracy, cooperativeness, stability, prosperity, and the rule of law", what_it_does: "", examples: "economic ones" },
+
 };
 
 // ============================================================
