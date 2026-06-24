@@ -33075,6 +33075,10 @@ const FLAT_DICT = {
   normative_economics: "A subfield dedicated to prescriptive analysis by examining ideals or standards of economic activities",
   one_such_standard: { definition: "Efficiency , which evaluates and compares economic arrangements based on the quantity of resources required to achieve a desired goal", what_it_does: "", examples: "cancer , can be defined as biological dysfunctions in value-neutral terms" },
 
+  // === INGESTED 2026-06-24 07:22 ===
+  khader: "An American moral and political philosopher and feminist theorist",
+  much_of_her_work: "About decolonial, transnational, postcolonial, and global feminisms",
+
 };
 
 // ============================================================
