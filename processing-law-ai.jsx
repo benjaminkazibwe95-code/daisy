@@ -34483,6 +34483,26 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 11:35 ===
   rich_dad_poor_dad: "Written in the style of a set of parables presented as autobiographical",
 
+  // === INGESTED 2026-06-24 11:37 ===
+  financial_risk: "Any of various types of risk associated with financing , including financial transactions that include company loans in risk of default",
+  interest_rate_risk: "The risk that interest rates or the implied volatility will change",
+  currency_risk: { definition: "The risk that foreign exchange rates or the implied volatility will change, which affects, for example, the value of an asset held in that currency", what_it_does: "", examples: "if the euro depreciates against the dollar, the U.S" },
+  wants_to_buy_goods_and_the_eu: "Willing to sell them; it is too expensive for the EU to import from U.S",
+  commodity_risk: "The risk that commodity prices (e.g",
+  credit_risk_management: "Used by banks, credit lenders, and other financial institutions to mitigate losses primarily associated with nonpayment of loans",
+  a_credit_risk_occurs_when_there: "Potential that a borrower may default or miss on an obligation as stated in a contract between the financial institution and the borrower",
+  attaining_good_customer_data: { definition: "An essential factor for managing credit risk", what_it_does: "", examples: "that in business, industry of investment, and management risks are to be evaluated" },
+  the_expected_credit_loss: "Formulated using the formula: Expected Exposure refers to exposure expected during the credit event",
+  expected_default: "A risk calculated for the number of times a default will likely occur from the borrower",
+  expected_severity: { definition: "The total cost incurred in the event a default occurs", what_it_does: "", examples: "fraud, and physical events are among the factors that can trigger operational risk" },
+  the_process_to_manage_operational_risk: { definition: "Known as operational risk management", what_it_does: "", examples: "legal risk), differ from the expected losses'" },
+  the_amount_of_risk_one: "Prepared to accept in pursuit of his objectives), determined by balancing the costs of improvement against the expected benefits",
+  the_returns_from_different_assets: "Highly unlikely to be perfectly correlated and the correlation may sometimes be negative",
+  a_key_issue_in_diversification: "The correlation between assets, the benefits increasing with lower correlation",
+  hedging: "A method for reducing risk where a combination of assets are selected to offset the movements of each other",
+  the_combined_portfolio_of_stock_and_option: "Now much less likely to move below a given value",
+  as_in_diversification_there: "A cost, this time in buying the option for which there is a premium",
+
 };
 
 // ============================================================
