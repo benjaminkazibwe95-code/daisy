@@ -31572,6 +31572,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 03:02 ===
   this_pagebypage_navigation: { definition: "Produced long before Amazon's Look Inside, or Google's Book Search", what_it_does: "", examples: "improving professional practice, informing personal decisions, and general learning" },
 
+  // === INGESTED 2026-06-24 03:04 ===
+  penryn: "Founded by a Welsh miner, Griffith Griffith, who established a large granite quarry",
+  lincoln_also: { definition: "The home of one of the county's oldest businesses, the Gladding, McBean terra cotta clay manufacturing plant, established in 1875", what_it_does: "", examples: "the Lake Tahoe region)" },
+  auburn_and_lincoln: "The main secondary commercial centers",
+  the_racial_makeup_of_placer_county: "290,977 (83.5%) White , 4,751 (1.4%) African American , 3,011 (0.9%) Native American , 20,435 (5.9%) Asian , 778 (0.2%) Pacific Islander , 13,375 (3",
+  the_racial_makeup_of_the_county: "88.6% White , 0.8% Black or African American , 0.9% Native American , 3.0% Asian , 0.2% Pacific Islander , 3.4% from other races , and 3",
+  the_average_household_size: { definition: "2.63 and the average family size was 3.06", what_it_does: "", examples: "6.3% of those under age 18 and 3.8% of those age 65 or over" },
+  unemployment_in_the_county: "Just under 7% which is considerably lower than the state's average",
+  the_population_ranking_of_the_following_table: "Based on the 2020 census of Placer County",
+
 };
 
 // ============================================================
