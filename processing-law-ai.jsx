@@ -34451,6 +34451,17 @@ const FLAT_DICT = {
   some_bars_that: "Mostly chocolate have other ingredients blended into the chocolate, such as nuts, raisins, or crisped rice",
   some_alcoholic_liqueurs: "Flavored with chocolate, such as chocolate liqueur and crème de cacao",
 
+  // === INGESTED 2026-06-24 11:26 ===
+  protein_denaturation: { definition: "Also a consequence of cell death", what_it_does: "", examples: "metalloenzymes , lose their 3D structure or metal cofactor and, therefore, cannot function" },
+  proper_protein_folding: "Key to whether a globular or membrane protein can do its job correctly; it must be folded into the native shape to function",
+  this_is_one_reason_why_cellular_homeostasis: "Physiologically necessary in most life forms",
+  the_skin_that_forms_on_curdled_milk: "Another common example of denatured protein",
+  the_cold_appetizer_known_as_ceviche: "Prepared by chemically 'cooking' raw fish and shellfish in an acidic citrus marinade, without heat",
+  proteins_or_polypeptides: { definition: "Polymers of amino acids", what_it_does: "can be called renaturation", examples: "copper , zinc , or iron" },
+  this_irreversibility: "Typically a kinetic, not thermodynamic irreversibility, as a folded protein generally has lower free energy than when it is unfolded",
+  the_ionizable_groups_in_amino_acids: { definition: "Able to become ionized when changes in pH occur", what_it_does: "", examples: "the addition of enzymes like chymosin" },
+  some_agents: { definition: "Even able to induce denaturation at room temperature", what_it_does: "", examples: "alkaline agents (e.g" },
+
 };
 
 // ============================================================
