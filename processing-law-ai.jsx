@@ -31002,6 +31002,38 @@ const FLAT_DICT = {
   federal_funds_and_private_foundation_grants: { definition: "The largest sources of funding for most organizations, however funding varies based on the type of organization", what_it_does: "", examples: "lobbying and class action, rely on other sources of funding" },
   legal_aid_clinics_across_the_country: "Forced to decline many of the requests they receive because of lack of resources",
 
+  // === INGESTED 2026-06-24 01:32 ===
+  taiwan: "Also a major competitor in korfball",
+  archaeological_remains_suggest_they: { definition: "Initially hunter-gatherers that slowly shifted to intensive fishing", what_it_does: "", examples: "the use of Taiwanese jade in the Philippine jade culture" },
+  a_government_permit: "Required for settlers to go beyond the Dajia River",
+  when_taiwan: "Annexed, there were 46 aboriginal villages under its control, likely inherited from the Kingdom of Tungning",
+  during_the_early_qianlong_period_there: "93 acculturated villages and 61 non-acculturated villages that paid taxes",
+  the_markings: { definition: "Changed four times over the latter half of the 18th century due to continued settler encroachment", what_it_does: "", examples: "the Lin Shuangwen rebellion , were caused by Han settlers" },
+  mountain_roads: "Constructed to make inner Taiwan more accessible",
+  restrictions_on_entering_taiwan: "Ended in 1875 and agencies for recruiting settlers were established on the mainland, but efforts to promote settlement ended soon after",
+  colonization_efforts: "Renewed under Liu Mingchuan",
+  a_land_reform: "Implemented, increasing revenue which still fell short of expectation",
+  the_mountainous_areas: { definition: "Still largely autonomous under the control of Indigenous peoples", what_it_does: "", examples: "sugar greatly increased, and large areas were therefore diverted from the production of rice" },
+  national_shinto_religion: { definition: "Promoted in parallel with suppression of traditional Taiwanese beliefs", what_it_does: "", examples: "Tibet), Taiwan (including Penghu), Outer Mongolia , and other minor territories" },
+  since_these_people: "Mainly from the intellectual and social elite, an entire generation of political and social leaders was destroyed",
+  although_the_protest: "Rapidly crushed by the authorities, it is considered as the main event that united Taiwan's opposition",
+  the_tectonic_boundary_that_formed_these_ranges: "Still active, and the island experiences many earthquakes",
+  typhoons: "Most common in July, August and September",
+  the_constitutional_court: "Formerly called the Council of Grand Justices",
+  the_right_to_a_fair_public_trial: "Protected by law and respected in practice",
+  the_examination_yuan: { definition: "In charge of validating the qualification of civil servants", what_it_does: "", examples: "Tibet and Mongol banners" },
+  some_divisions: "Indigenous divisions which have different degrees of autonomy to standard ones",
+  they_oppose_the_idea_that_taiwan: { definition: "Part of China, and seek wide diplomatic recognition and an eventual declaration of formal Taiwan independence", what_it_does: "", examples: "'Chinese Taipei'" },
+  the_roc: { definition: "Able to participate as 'China' in organizations in which the PRC does not participate, such as the World Organization of the Scout Movement", what_it_does: "", examples: "first-wave reservists numbered at 300,000 as of 2022 [update]" },
+  civilian_transport_in_taiwan: "Characterized by extensive use of scooters",
+  mandarin: "The primary language used in business and education, and is spoken by the vast majority of the population",
+  traditional_chinese: "Used as the writing system",
+  standalone_classical_chinese: { definition: "Occasionally used in formal or ceremonial occasions, such as religious or cultural rites", what_it_does: "", examples: "is in Classical Chinese" },
+  a_national_language_in_taiwan: "Legally defined as 'a natural language used by an original people group of Taiwan and the Taiwan Sign Language '",
+  nhi: "A single-payer compulsory social insurance plan that centralizes the disbursement of healthcare funds",
+  copays: "Reduced for disabled and low-income households maintain 100 percent premium coverage",
+  the_general_assembly_of_chinese_culture: { definition: "Established to help promote Chinese culture in Taiwan and overseas", what_it_does: "", examples: "the continued use of Traditional Chinese" },
+
 };
 
 // ============================================================
