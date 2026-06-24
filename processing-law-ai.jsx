@@ -31150,6 +31150,19 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 01:51 ===
   cescr_members: "Elected for a term of four years by the ECOSOC , in accordance with ECOSOC Resolution 1985/17 of 28 May 1985",
 
+  // === INGESTED 2026-06-24 01:53 ===
+  resolutions_of_the_security_council: { definition: "Enforced in part through UN peacekeeping missions , comprising military, police, and civilian personnel voluntarily provided by member states", what_it_does: "", examples: "the International Committee of the Red Cross and the Hague Conventions of 1899 and 1907" },
+  the_security_council: { definition: "The only UN body with authority to issue binding resolutions", what_it_does: "", examples: "the use of armed force 'to maintain or restore international peace and security'" },
+  the_chamber: { definition: "Designed by the Norwegian architect Arnstein Arneberg and was a gift from Norway", what_it_does: "", examples: "Nairobi , Kenya; Addis Ababa , Ethiopia; Panama City , Panama; and Geneva , Switzerland" },
+  the_other_representatives: "Placed in clockwise order alphabetically from the president leaving two seats at the ends of the table for guest speakers",
+  the_seating_order_of_the_members: { definition: "Then rotated each month as the presidency changes", what_it_does: "", examples: "with walkouts" },
+  the_room: "Used for 'informal consultations', which soon became the primary meeting format for the Security Council",
+  the_press: "Not admitted, and other members of the United Nations cannot be invited into the consultations",
+  resolutions: "Vetoed only if the sponsor feels so strongly about a measure that it wishes to force the permanent member to cast a formal veto",
+  the_open_meeting_of_the_security_council: { definition: "Merely a public ratification of a decision that has already been reached in private", what_it_does: "", examples: "Resolution 1373 was adopted without public debate in a meeting that lasted just five minutes" },
+  this_authority: { definition: "Also reflected in Rule 28 of the Provisional Rules of Procedure", what_it_does: "", examples: "asset freezes, travel bans, and arms embargoes" },
+  both_tribunals_completed_their_mandates_and: "Succeeded by the International Residual Mechanism for Criminal Tribunals , which handles remaining functions including appeals and fugitive tracking",
+
 };
 
 // ============================================================
