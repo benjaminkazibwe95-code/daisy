@@ -32752,6 +32752,13 @@ const FLAT_DICT = {
   my_trip_to_space: { definition: "Supposed to be a celebration; instead, it felt like a funeral", what_it_does: "", examples: "people in participatory decision-making" },
   meaningfocused_coping: { definition: "Behaviors such as identifying positive information, focusing on constructive sources of hope, and trusting that other people are also doing their part", what_it_does: "", examples: "active transport , increased physical activity, and healthier diets" },
 
+  // === INGESTED 2026-06-24 06:17 ===
+  diener: { definition: "Born in 1946 in Glendale, California , and grew up on a farm in the San Joaquin Valley of California", what_it_does: "", examples: "for the past year" },
+  diener_discovered_that_there: "Reasons for greater SWB among extraverts beyond the fact that they spend more time with others, a hypothesis popularized by other researchers",
+  among_which: "SWB's influence on physiological processes underlying health and disease, on practice of good health behaviors, and on fulfilling social relationships",
+  one_important_finding: { definition: "That predictors of SWB may differ across cultures (Tov & Diener, 2007)", what_it_does: "", examples: "relationship, self-esteem, and optimism (Diener et al., 2009)" },
+  the_finding_that_subjective_wellbeing: { definition: "Beneficial to outcomes such as health, longevity, social relationships, and work productivity, added force to the proposal", what_it_does: "", examples: "Mindfulness, positive social interactions, and getting adequate restful sleep" },
+
 };
 
 // ============================================================
