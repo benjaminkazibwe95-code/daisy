@@ -33577,6 +33577,38 @@ const FLAT_DICT = {
   indigenous_religion_or_native_religion: "A category used in the study of religion to demarcate the religious belief systems of communities described as being ' indigenous '",
   this_category: "Often juxtaposed against others such as the ' world religions ' and ' new religious movements '",
 
+  // === INGESTED 2026-06-24 09:03 ===
+  taoism: "Further influenced by Buddhism upon its introduction to China , with long-running discourses shared between Taoists and Buddhists",
+  xian: "Immortal beings with vast supernatural powers, also describing a principled, moral person",
+  since_taoist_thought: "Syncretic and deeply rooted in Chinese culture for millennia, it is often unclear which denominations should be considered 'Taoist'",
+  the_expression_daojia: { definition: "Traced to the early Han historian Sima Tan (d", what_it_does: "", examples: "Xuanxue ('Neo-Daoism')" },
+  shangqing: "Based on a series of revelations by gods and spirits to a certain Yang Xi between 364 and 370",
+  this_tradition: { definition: "Called the Northern Celestial masters , and their main scripture was the Xishengjing ( Scripture of Western Ascension )", what_it_does: "", examples: "Sima Chengzhen" },
+  the_quanzhen_school: "Syncretic, combining elements from Buddhism and Confucianism with Taoist tradition",
+  tao: "The change of these forces, usually referred to as yin and yang",
+  standard_translations: "Non-action, effortless action, action without intent, non-interference, and non-intervention",
+  innate_nature: "Connected with one's heart-mind (xin), which refers to consciousness, the heart, and one's spirit",
+  it_emphasizes_doing_things_that: { definition: "Natural, following the Tao, which is a cosmic force that flows through all things and binds and releases them", what_it_does: "", examples: "the building of the Great Wall of China was important to many Taoist groups" },
+  taoist_cosmology: "Cyclic —the universe is seen as being in constant change, with various forces and energies (qi) affecting each other in different complex patterns",
+  these_deities: { definition: "Seen as emanations from an impersonal ultimate principle", what_it_does: "", examples: "orphans or widows, or those who die unexpectedly)" },
+  all_taoist_deities: "Seen as expressions or emanations of the Dao",
+  if_the_three_pure_ones: { definition: "Like supreme “principles,” the Jade Emperor is the administrator of the cosmos", what_it_does: "", examples: "a village, temple compound, neighborhood block, or building)" },
+  the_body_is_no_longer_just_a: "Of living in harmony in the world; it is itself a universe",
+  the_early_traditions_of_celestial_master: { definition: "Said to have rejected blood (animal) sacrifice to traditional gods in favor of petition-based rites and offerings", what_it_does: "", examples: "the Qingming Festival , street parades take place" },
+  the_various_participants: "Not considered performers but possessed by the gods and spirits in question",
+  vernacular_rituals: "More about the community and include things like healing, protection, and celebrations for farming",
+  a_key_part_of_many_taoist_traditions: { definition: "The practice of divination", what_it_does: "", examples: "ascetic diets, monastic diets, therapeutic diets, and alchemical diets that use herbs and minerals)" },
+  laozi: "Sometimes thought to be a god or 'the image of the Tao'",
+  the_headquarters_of_the_association: "At the Baiyunguan , or White Cloud Temple of Beijing, belonging to the Longmen branch of the Quanzhen tradition",
+  followers_of_taoism: "Present in Chinese émigré communities outside Asia",
+  membership_of_these_temples: "Entirely of non-Chinese ancestry",
+  ancient_taoist_art: "Commissioned by the aristocracy; however, scholars masters and adepts also directly engaged in the art themselves",
+  the_entry_of_buddhism_into_china: { definition: "Marked by significant interaction and syncretism with Taoism", what_it_does: "", examples: "Lin Yutang , [ 375 ] have argued that some moral and ethical tenets of the religions are similar" },
+  the_basic_belief_of_ceremonial_taoism: "That through various rites, human beings can honor the deities and these deities may then grant them with power, protection and blessings",
+  these_meditative_inner_alchemical_practices: { definition: "Believed to lead to greater longevity and even immortality (union with the Tao at death)", what_it_does: "", examples: "xian as being divine" },
+  the_laozu_treatise_on_the_response_of_the_tao: { definition: "Studied in Quanzhen Taoism, Hsien-t'ien Tao and in the Wu-Liu sect", what_it_does: "", examples: "devas, various kinds of beings occupying heaven, members of the celestial bureaucracy, and xian" },
+  an_unrelated_trinity: "The Three Great Emperor-Officials , three of the highest shen in some branches of religious Taoism thought to be able to pardon sins",
+
 };
 
 // ============================================================
