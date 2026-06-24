@@ -31684,6 +31684,37 @@ const FLAT_DICT = {
   this_large_fuel_supply: "What offers the possibility of a meltdown",
   although_failure_of_the_reaction_chamber: "Possible, stopping fuel delivery prevents catastrophic failure",
 
+  // === INGESTED 2026-06-24 03:19 ===
+  electrification: "The process of powering by electricity and, in many contexts, the introduction of such power by changing over from an earlier power source",
+  although_early_electricity: "Very expensive compared to the 21st century, it was far cheaper and more convenient than oil or gas lighting",
+  electric_lighting: { definition: "So much safer than oil or gas that some companies were able to pay for the electricity with the insurance savings", what_it_does: "", examples: "lathes, were common in many shops" },
+  household_sewing_machines: { definition: "Powered with a foot treadle, unlike their line-shaft operated factory counterparts", what_it_does: "", examples: "renewable energy or nuclear power" },
+  a_key_sustainable_solution_to_heating: { definition: "Electrification ( heat pumps , or the less efficient electric heater )", what_it_does: "", examples: "for the production of ethylene via steam cracking , temperatures as high as 900 °C are required" },
+  solar_and_wind: { definition: "Variable renewable energy sources that supply electricity intermittently depending on the weather and the time of day", what_it_does: "", examples: "coal-fired power plants" },
+  later_segmented_commutators: "Used to produce direct current",
+  this_type_of_dynamo: "Made by several people in 1866",
+  carbon_arc_lamps: "Started by making contact between two carbon electrodes, which were then separated to within a narrow gap",
+  several_mechanisms: "Developed to regulate the arc",
+  their_light: "Used to light up the National Gallery in London and was a great novelty at the time",
+  his_concern: "One of the first electrical engineering firms in the world",
+  the_supply: { definition: "A direct current at 110 V; due to power loss in the copper wires, this amounted to 100 V for the customer", what_it_does: "", examples: "Crompton & Co" },
+  when_lighting: "Practically the only use of electricity, demand was high during the first hours before the workday and the evening hours when demand peaked",
+  the_way_this: "Eventually accomplished was through motor load",
+  electric_street_railways: { definition: "Ideal for load balancing", what_it_does: "", examples: "pulp and paper, chemicals and refining" },
+  the_main_advantages_of_ac: "That it could be transformed to high voltage to reduce transmission losses and that AC motors could easily run at constant speeds",
+  alternating_current_technology: { definition: "Rooted in Faraday's 1830–31 discovery that a changing magnetic field can induce an electric current in a circuit", what_it_does: "", examples: "an early transformer" },
+  many_of_their_designs: "Adapted to the particular laws governing electrical distribution in the UK",
+  other_inventors: "The American engineers Charles S",
+  the_first_ac_power_station: "Built by the English electrical engineer Sebastian de Ferranti",
+  a_decision: "Taken to use AC for power transmission from the Niagara Power Project to Buffalo, New York",
+  the_modern_steam_turbine: "Invented in 1884 by British engineer Sir Charles Parsons , whose first model was connected to a dynamo that generated 7.5 kW (10 hp) of electricity",
+  turbines: "Two De Leval units at Edison Co",
+  parsons_turbine: "At Westinghouse Air Brake Co",
+  the_condensate_from_steam_engines: "Contaminated with oil and could not be reused, while condensate from a turbine is clean and typically reused",
+  steam_turbines: "A fraction of the size and weight of comparably rated reciprocating steam engine",
+  a_fundamental_principle_of_thermodynamics: "That the higher the temperature of the steam entering an engine, the higher the efficiency",
+  rural_areas: { definition: "Electrified first in Europe, and in the U.S", what_it_does: "", examples: "villages and hamlets" },
+
 };
 
 // ============================================================
