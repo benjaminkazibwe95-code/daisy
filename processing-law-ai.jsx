@@ -34128,6 +34128,21 @@ const FLAT_DICT = {
   the_situational_leadership_model: "The idea that effective leaders adapt their style to each situation",
   no_one_style: "Appropriate for all situations",
 
+  // === INGESTED 2026-06-24 10:42 ===
+  lincoln: "Remembered as a martyr and a national hero for his wartime leadership and for his efforts to preserve the Union and abolish slavery",
+  the_captain: "Killed in a Native American raid in 1786",
+  thomas_and_nancy: { definition: "Members of a Separate Baptist Church , a pious evangelical group whose members largely opposed slavery", what_it_does: "", examples: "Abraham, moved west to Illinois and settled in Macon County" },
+  hardin: "The winning candidate, though Lincoln convinced the party convention to limit Hardin to one term",
+  after_scott: "Returned to the slave state, he petitioned a federal court for his freedom",
+  his_petition: "Denied in Dred Scott v",
+  while_lincoln: "Popular in the Midwest , he lacked support in the Northeast and was unsure whether to seek the office",
+  his_victory: "Entirely due to his support in the North and West",
+  no_ballots: "Cast for him in 10 of the 15 Southern slave states",
+  the_amendment_passed_congress_and: "Awaiting ratification by the required three-fourths of the states when Southern states began to secede",
+  lincoln_believed_chase: { definition: "An able jurist who would support Reconstruction legislation and that his appointment would unite the Republican Party", what_it_does: "", examples: "the anti-war Democrat Clement L" },
+  greenbacks: "Not backed by gold or silver, but rather by the government's promise to honor their value",
+  hundreds_of_settlers: { definition: "Killed and 30,000 were displaced from their homes", what_it_does: "", examples: "the Battle of the Crater damaged Lincoln's re-election prospects, and many Republicans feared defeat" },
+
 };
 
 // ============================================================
