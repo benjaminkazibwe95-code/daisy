@@ -33496,6 +33496,15 @@ const FLAT_DICT = {
   critics_say_the_theory: "Based only on Gardner's intuition instead of empirical data",
   another_criticism_is_that_the_intelligence: { definition: "Too identical for types of personalities", what_it_does: "", examples: "student learning, interaction, teaching methods , teacher training , and classroom dynamics" },
 
+  // === INGESTED 2026-06-24 08:36 ===
+  philosophical_discourse: "Paramount in Stoicism, including the view that the mind is in rational dialogue with itself",
+  stoicism_emerged_from_the_cynic_tradition_and: "Popularized through public teaching at the Stoa Poikile , a painted colonnade",
+  among_its_adherents: "Roman Emperor Marcus Aurelius",
+  stoicism: { definition: "Originally known as Zenonism", what_it_does: "", examples: "Musonius Rufus , Seneca , Epictetus , and Marcus Aurelius" },
+  it_was_conceived_as_material_and: "Usually identified with God or Nature",
+  stoic_ethics: { definition: "Improving the individual's ethical and moral well-being: ' Virtue consists in a will that is in agreement with Nature", what_it_does: "", examples: "anger, fear and excessive joy" },
+  but_the_logic_that_made_it_all_possible: { definition: "The interconnected logic of an interconnected universe, discovered by the ancient Chrysippus, who labored long ago under an old Athenian stoa", what_it_does: "", examples: "propositions of the type 'It is possible that it is day' ...) " },
+
 };
 
 // ============================================================
