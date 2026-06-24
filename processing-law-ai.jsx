@@ -31334,6 +31334,15 @@ const FLAT_DICT = {
   and_obviously_only_the_absolute_divine_will: "The right standard of its own act' [ 130 ] [ 131 ] – and consequently of all human acts",
   this_too: "Why, in a merely human world without a God, the appeal to our moral energy falls short of its maximum stimulating power",
 
+  // === INGESTED 2026-06-24 02:22 ===
+  evolutionary_ethics: { definition: "A field of inquiry that explores how evolutionary theory might bear on our understanding of ethics or morality", what_it_does: "", examples: "Thomas Henry Huxley , G" },
+  the_behavioral_conflicts_that: "Addressed by such rules have their evolutionary origin in the (genetic) sexual conflict between men and women",
+  normative_evolutionary_ethics: { definition: "The most controversial branch of evolutionary ethics", what_it_does: "", examples: "Michael Ruse , E" },
+  sharon_street: "One prominent ethicist who argues that evolutionary psychology undercuts moral realism",
+  but_such_qualities: "Precisely those that lie at the core of any plausible theory of objective moral truth",
+  the_instantiation_of_normative_properties: "Metaphysically possible in a world like ours",
+  ethical_a_priori_cognition: "Vindicated to the extent to which other a priori knowledge is available",
+
 };
 
 // ============================================================
