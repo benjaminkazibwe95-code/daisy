@@ -33378,6 +33378,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 08:19 ===
   critique: { definition: "A method of disciplined, systematic study of a written or oral discourse", what_it_does: "", examples: "in the analysis and evaluation of writings such as pictorial, musical, or expanded textual works" },
 
+  // === INGESTED 2026-06-24 08:21 ===
+  dewey: "Pivotal in advancing the philosophy of education by emphasizing the role of experience and active problem-solving in cultivating critical thinking",
+  john_dewey: "Born in Burlington, Vermont , to a family of modest means",
+  their_first_son: "Also named John , but he died in an accident on January 17, 1859",
+  the_second_john_dewey: { definition: "Born October 20, 1859, forty weeks after the death of his older brother", what_it_does: "", examples: "Tao Xingzhi , that they use pragmatism to devise their own model school system at the national level" },
+  he_developed_the_idea_that_there: "A coordination by which the stimulation is enriched by the results of previous experiences",
+  the_response: "Modulated by sensorial experience",
+  the_ideas_of_democracy_and_social_reform: "Continually discussed in Dewey's writings on education",
+  if_teachers: "Up to their work, they also aid in the production of character.' (Dewey, TAP, 2010, pp",
+  while_contact_with_the_young: "A privilege for some temperaments, it is a tax on others and a tax which they do not bear up under very well",
+  black_mountain_college: "The locus of the 'Black Mountain Poets' a group of avant-garde poets closely linked with the Beat Generation and the San Francisco Renaissance",
+  publics: "Spontaneous groups of citizens who share the indirect effects of a particular action",
+  as_an_adult_he: { definition: "Negative, or at most neutral, about theology in education", what_it_does: "", examples: "Pullman sleeping cars" },
+  for_this_he: { definition: "Criticised by Randolph Bourne , a former student whose essay ' Twilight of Idols ', was published in the literary journal Seven Arts in October 1917", what_it_does: "", examples: "The New Leader (contributing editor, 1949)" },
+  the_following_publications_by_john_dewey: "Referenced or mentioned in this article",
+
 };
 
 // ============================================================
