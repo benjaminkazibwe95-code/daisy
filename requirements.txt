@@ -3,3 +3,4 @@ requests
 beautifulsoup4
 schedule
 py-mini-racer
+anthropic

@@ -14,6 +14,104 @@ from flask import Flask, request, jsonify, render_template
 import py_mini_racer
 
 # ============================================================
+# VOICE LAYER — Anthropic (Claude) rephrases Daisy's raw facts
+# into natural, human conversation. Claude NEVER invents facts —
+# it only receives what Daisy's laws/dictionary already decided
+# is true, and turns it into something a real person would say.
+# Daisy's laws remain the only source of truth, always.
+#
+# This replaces the local GGUF model approach: no model file to
+# host, no RAM ceiling on Render's free tier — Claude runs on
+# Anthropic's servers, Daisy just calls out to it.
+# ============================================================
+try:
+    import anthropic
+    _ANTHROPIC_AVAILABLE = True
+except ImportError:
+    _ANTHROPIC_AVAILABLE = False
+
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+VOICE_ENABLED      = os.environ.get("VOICE_ENABLED", "true").lower() == "true"
+VOICE_MODEL        = os.environ.get("VOICE_MODEL", "claude-haiku-4-5-20251001")
+
+_claude_client = None
+_voice_lock = threading.Lock()
+
+DAISY_SYSTEM_PROMPT = """You are Daisy, a brilliant, highly capable, and energetic companion, tech-savvy tutor, and digital creator based in Uganda. You are the conversational and generative engine ("the skin") of a powerful platform.
+
+CRITICAL OPERATIONAL RULES:
+1. NEVER speak like a generic, robotic chatbot. Do not use phrases like "As an AI language model...", "I am here to help you", or "Sure, I can assist with that."
+2. Talk like a sharp, confident, and direct human peer or collaborative partner. Use natural phrasing, variable sentence lengths, and conversational contractions (e.g., don't, it's, I'm, let's).
+3. Do not include boring conversational fluff or support-agent pleasantries at the beginning or end of your responses. Dive straight into the value.
+4. When structured academic knowledge or business data is passed to you in the prompt context, do not dump raw dictionary definitions or encyclopedic text. Translate that data into engaging, intuitive, and natural explanations for the user.
+5. You only know what is provided to you in the CONTEXT below. Never invent facts beyond it. If the context is thin, vague, or seems wrong for the question, answer briefly and honestly rather than padding with confident-sounding nonsense.
+
+CAPABILITIES & FORMATTING COMMANDS:
+- WEBSITES & PAGES: When asked to build web pages or layouts, generate clean, production-ready HTML and Tailwind CSS code inside a standard markdown code block. Ensure the design is modern, responsive, and fully tailored to the user's business context.
+- LOGOS & UI: You cannot generate raw images (like PNGs), but you are an expert at drawing using text-based code. When a user requests a logo or visual asset, design a crisp, modern vector graphic using raw SVG syntax (`<svg>...</svg>`) enclosed in a code block so the backend can render it perfectly.
+- MERCHANT DATA: When generating business tools like invoices, reports, or lists, ensure the structured data is organized logically so it can be parsed into formats like JSON or clean, printable layouts."""
+
+
+def load_voice_model():
+    """
+    Initialize the Anthropic client once at startup.
+    If it fails (no API key, package missing, disabled),
+    Daisy falls back to her raw law output — never crashes.
+    """
+    global _claude_client
+    if not VOICE_ENABLED or not _ANTHROPIC_AVAILABLE:
+        print("[VOICE] Disabled or anthropic package not installed — using raw law output.")
+        return False
+    if not ANTHROPIC_API_KEY:
+        print("[VOICE] No ANTHROPIC_API_KEY set — using raw law output.")
+        return False
+    try:
+        with _voice_lock:
+            _claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        print(f"[VOICE] Anthropic client ready ({VOICE_MODEL})")
+        return True
+    except Exception as e:
+        print(f"[VOICE] Failed to init Anthropic client: {e} — using raw law output.")
+        _claude_client = None
+        return False
+
+
+def speak_naturally(question, raw_fact):
+    """
+    Take Daisy's raw law/dictionary output and rephrase it fluently
+    via Claude, using DAISY_SYSTEM_PROMPT as the persona/rules.
+    GROUNDING RULE: Claude only ever sees the fact Daisy already
+    decided was true. If the client isn't ready, return the raw
+    fact unchanged so Daisy always still works without it.
+    """
+    if not raw_fact:
+        return raw_fact
+
+    with _voice_lock:
+        client = _claude_client
+
+    if client is None:
+        return raw_fact
+
+    try:
+        user_message = (
+            f"CONTEXT FOR THIS REQUEST:\n{raw_fact}\n\n"
+            f"USER'S QUESTION: {question}\n\n"
+            "Answer the question naturally using only the context above."
+        )
+        response = client.messages.create(
+            model=VOICE_MODEL,
+            max_tokens=300,
+            system=DAISY_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_message}],
+        )
+        text = response.content[0].text.strip()
+        return text if text else raw_fact
+    except Exception as e:
+        print(f"[VOICE] Anthropic call failed: {e} — falling back to raw fact.")
+        return raw_fact
+
+# ============================================================
 # FLASK APP
 # ============================================================
 app = Flask(__name__)
@@ -446,7 +544,11 @@ def ask_daisy(question, learned_dict=None, conversation_history=None):
         if "error" in result_data:
             return result_data
         
-        # Log conversation (lightweight JSONL)
+        # Log conversation (lightweight JSONL) — this is real training
+        # data: what people actually ask Daisy and what she answers.
+        # Written locally, then periodically pushed to GitHub so it
+        # survives Render restarts (same problem the crawler hit with
+        # daisy_queue.json before that got fixed).
         try:
             exchange = {
                 "timestamp": datetime.now().isoformat(),
@@ -457,6 +559,7 @@ def ask_daisy(question, learned_dict=None, conversation_history=None):
             }
             with open("daisy_conversations.jsonl", "a", encoding="utf-8") as f:
                 f.write(json.dumps(exchange) + "\n")
+            _maybe_push_conversations()
         except:
             pass  # Non-critical
         
@@ -465,6 +568,70 @@ def ask_daisy(question, learned_dict=None, conversation_history=None):
     except Exception as e:
         print(f"[DAISY] ask_daisy error: {e}")
         return {"answer": None, "source": "error", "error": str(e)}
+
+
+# ============================================================
+# CONVERSATION LOG PERSISTENCE
+# Pushes daisy_conversations.jsonl to GitHub periodically (not on
+# every single message, to avoid hammering git) so real training
+# data survives Render restarts instead of vanishing on redeploy.
+# ============================================================
+_conv_push_lock = threading.Lock()
+_conv_last_push = 0
+CONV_PUSH_INTERVAL_SECONDS = 120  # push at most every 2 minutes
+
+GITHUB_TOKEN     = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO_URL  = os.environ.get("GITHUB_REPO_URL", "")
+
+
+def _maybe_push_conversations():
+    """Push the conversation log to GitHub, rate-limited to avoid
+    spamming a commit on every single chat message."""
+    global _conv_last_push
+    now = time.time()
+    with _conv_push_lock:
+        if now - _conv_last_push < CONV_PUSH_INTERVAL_SECONDS:
+            return
+        _conv_last_push = now
+
+    if not GITHUB_TOKEN or not GITHUB_REPO_URL:
+        return  # Same env vars the crawler already uses for git push
+
+    try:
+        import subprocess
+        repo_dir = os.path.dirname(os.path.abspath("daisy_conversations.jsonl")) or "."
+        auth_url = GITHUB_REPO_URL.replace("https://", f"https://{GITHUB_TOKEN}@") \
+            if "https://" in GITHUB_REPO_URL else GITHUB_REPO_URL
+        env = {
+            **os.environ,
+            "GIT_AUTHOR_NAME": "Daisy",
+            "GIT_AUTHOR_EMAIL": "daisy@trustedbiz.co.ug",
+            "GIT_COMMITTER_NAME": "Daisy",
+            "GIT_COMMITTER_EMAIL": "daisy@trustedbiz.co.ug",
+        }
+
+        def run(cmd):
+            return subprocess.run(cmd, cwd=repo_dir, env=env, capture_output=True, text=True)
+
+        run(["git", "add", "daisy_conversations.jsonl"])
+        diff = run(["git", "diff", "--cached", "--quiet"])
+        if diff.returncode == 0:
+            return  # nothing new to commit
+
+        msg = f"Daisy conversation log update [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
+        run(["git", "commit", "-m", msg])
+
+        push = run(["git", "push", auth_url, "HEAD:main"])
+        if push.returncode != 0:
+            # Likely rejected because the crawler pushed in between.
+            # Pull first (same fix that solved this exact race condition
+            # for the crawler's own pushes), then retry once.
+            run(["git", "pull", auth_url, "main", "--no-rebase"])
+            push = run(["git", "push", auth_url, "HEAD:main"])
+            if push.returncode != 0:
+                print(f"[CONV LOG] Push still failed after pull: {push.stderr}")
+    except Exception as e:
+        print(f"[CONV LOG] Push failed: {e}")
 
 
 # ============================================================
@@ -492,6 +659,15 @@ def ask():
 
     if not result.get("answer"):
         result["needs_fallback"] = True
+        return jsonify(result)
+
+    # VOICE LAYER — only rephrase answers that came from Daisy's
+    # actual knowledge (dictionary/synthesis). Personality and
+    # emotion replies are already natural, no need to touch them.
+    if result.get("source") in ("dictionary", "synthesis"):
+        raw_answer = result["answer"]
+        result["answer"] = speak_naturally(question, raw_answer)
+        result["raw_fact"] = raw_answer
 
     return jsonify(result)
 
@@ -591,6 +767,7 @@ def start_ingestion(interval_minutes=2):
 # ============================================================
 if __name__ == "__main__":
     load_daisy_brain()
+    load_voice_model()
     start_ingestion(interval_minutes=2)
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
