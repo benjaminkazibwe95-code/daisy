@@ -34796,6 +34796,25 @@ const FLAT_DICT = {
   drivers_for_knowledge_sharing: { definition: "Connected to both human resources and software", what_it_does: "", examples: "isolation and resistance to ideas, occur when knowledge sharing is impeded" },
   respectively_facilitators: "Seen as enabling factors that improve, stimulate or promote the flow of knowledge",
 
+  // === INGESTED 2026-06-24 12:34 ===
+  the_earliest_inscriptions_found_which: "Identifiably Maya date to the 3rd century BCE in late Preclassic sites like Chakjobon (Mexico) and San Bartolo (Guatemala)",
+  carved_and_molded_glyphs: "Painted, but the paint has rarely survived",
+  the_blocks_within_the_columns: "Read left to right, top to bottom, and would be repeated until there were no more columns left",
+  glyphs: "Sometimes conflated into ligatures , where an element of one glyph would replace part of a second",
+  the_maya_script: { definition: "A logosyllabic system with some syllabogrammatic elements", what_it_does: "", examples: "a calendaric glyph can be read as the morpheme manikʼ or as the syllable chi" },
+  glyphs_used_as_syllabograms: { definition: "Originally logograms for single-syllable words, usually those that ended in a vowel or in a weak consonant such as y, w, h, or glottal stop", what_it_does: "", examples: "verbal inflections which did not have dedicated logograms (similar to Japanese okurigana )" },
+  when_these_final_consonants: { definition: "Sonorants (l, m, n) or gutturals (j, h, ʼ) they were sometimes ignored ('underspelled')", what_it_does: "", examples: "the word [kah] 'fish fin' would be underspelled ka or written in full as ka-ha" },
+  a_more_complex_spelling: "Ha-o-bo ko-ko-no-ma for [haʼoʼb kohknoʼm] 'they are the guardians'",
+  this_title: "Identified in 1958 by Heinrich Berlin , who coined the term 'emblem glyph'",
+  the_authors_demonstrated_that_there: "Many place-names-proper, some real, some mythological, mentioned in the hieroglyphic inscriptions",
+  each_successive_line: { definition: "An additional power of twenty (similar to how in Arabic numerals , additional powers of 10 are added to the left of the first digit)", what_it_does: "", examples: "the Aztec Nahuatl or the Epiolmec writing systems" },
+  landa: "Also involved in creating an orthography , or a system of writing, for the Yucatec Maya language using the Latin alphabet",
+  knowledge_of_the_writing_system: "Lost, probably by the end of the 16th century",
+  renewed_interest_in_it: "Sparked by published accounts of ruined Maya sites in the 19th century",
+  all_contributed_to_a_process_that: "Truly and essentially multidisciplinary",
+  in_the_left_column: "The consonants with their pronunciation instructions",
+  blank_cells: { definition: "Bytes whose characters are not yet known", what_it_does: "", examples: "with regard to the representation of infixes, i.e" },
+
 };
 
 // ============================================================
