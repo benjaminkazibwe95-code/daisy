@@ -33888,6 +33888,13 @@ const FLAT_DICT = {
   saussure_argues_that_language: "A 'social fact'; a conventionalised set of rules or norms relating to speech",
   when_at_least_two_people: { definition: "Engaged in conversation, there forms a communicative circuit between the minds of the individual speakers", what_it_does: "", examples: "Cognitive Linguistics , Construction Grammar , Usage-based linguistics , and Emergent Linguistics" },
 
+  // === INGESTED 2026-06-24 10:04 ===
+  a_critical_epistemology: "Driven by its values and oriented to social and political change",
+  the_natural_unit_of_information: "Therefore the decimal digit, much later renamed the hartley in his honour as a unit or scale or measure of information",
+  theories_in_interpersonal_communication: "Concerned with the ways in which very small groups of people communicate with one another",
+  this_scope: { definition: "In contrast to theories of political science which look inside political institutions to understand decision-making processes", what_it_does: "", examples: "whether the technology creates psychological closeness (electronic propinquity theory)" },
+  outside_replication_of_research_findings: "Particularly important in this approach to prevent individual researchers' values from contaminating their findings and interpretations",
+
 };
 
 // ============================================================
