@@ -31280,6 +31280,21 @@ const FLAT_DICT = {
   the_major_head_of_this_movement: "Louis Massignon , a French Orientalist, who brought his concern before the Arabic Language Academy in Damascus in 1928",
   he_also_believed_that_latin_script: "Key to the success of Egypt as it would allow for more advances in science and technology",
 
+  // === INGESTED 2026-06-24 02:12 ===
+  gustavus_adolphus: "Killed when, at a crucial point in the battle, he became separated from his troops while leading a cavalry charge on his wing",
+  this_war: { definition: "Part of the preliminary religious strife before the Thirty Years' War , and reigned as regent before taking the throne as Charles IX of Sweden in 1604", what_it_does: "", examples: "the Spanish tercios that were up to 50 ranks deep) used in other pike and shot armies of the day" },
+  his_infantrymen_and_gunners: "Taught to ride, if needed",
+  richard_brzezinski_says_his_legendary_status: "Based on inaccurate myths created by later historians",
+  many_of_his_innovations: "Developed by his senior staff",
+  his_partly_stripped_body: "Found an hour or two later, and evacuated from the field in a Swedish artillery wagon",
+  in_most_of_them_the_assassin: "Named as Prince Francis Albert of Saxe-Lauenburg [ de ] , who was next to the king on the occasion and was thought to be acting on behalf of the enemy",
+  when_king_charles_xii_of_sweden: "Shown purported evidence in 1707 he dismissed the theory out of doubt that 'any prince could be so ungrateful'",
+  the_organization_in_austria: "Called the Gustav-Adolf-Verein",
+  the_project_of_forming_such_a_society: "First broached in connection with the bicentennial celebration of the Battle of Lützen on 6 November 1832",
+  the_manifesto: "Written by scholar Johann Adler Salvius in a style common of the time that promotes a 'just war'",
+  so_if_ruling_the_baltic_sea: "A goal of Swedish strategy, the conquests in Germany were not a defensive war but an act of expansion",
+  the_swedish_king: "Also ' Rex Gotorum ' ( Latin : King of the Goths ), and the list of kings was traced back to the Gothic rulers to construct continuity",
+
 };
 
 // ============================================================
