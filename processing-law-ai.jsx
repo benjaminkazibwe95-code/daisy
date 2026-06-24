@@ -30705,6 +30705,32 @@ const FLAT_DICT = {
   plebeians: "Admitted later, although they were denied the senior magistracies for a longer period",
   senate_membership: { definition: "Controlled by the censors", what_it_does: "", examples: "the senate now held jurisdiction over criminal trials" },
 
+  // === INGESTED 2026-06-24 00:43 ===
+  a_caste: { definition: "A fixed social group into which an individual is born within a particular system of social stratification : a caste system", what_it_does: "", examples: "ants , bees , and termites" },
+  varna: "Not an inherited category and the occupation determined the varna",
+  scholars_believe_that_the_varnas_system: { definition: "Never truly operational in society and there is no evidence of it ever being a reality in Indian history", what_it_does: "", examples: "rape and murder, against Dalits" },
+  many_northern_villages: "More likely to participate in exogamous marriage, due to a lack of eligible suitors within the same caste",
+  prosperity_and_stability: "Now more easily attained by an individual, and the anxiety to marry quickly and effectively was reduced",
+  a_similar_exercise: "Made during the reign of Mahindra Malla (1506–1575)",
+  the_hindu_social_code: "Later set up in the Gorkha Kingdom by Ram Shah (1603–1636)",
+  the_siwa_caste: "Subdivided into five: Kemenuh, Keniten, Mas, Manuba and Petapan",
+  this_classification: { definition: "To accommodate the observed marriage between higher-caste Brahmana men with lower-caste women", what_it_does: "", examples: "Mexico , and caste system studies in British colonies such as India" },
+  at_the_top: "Noblemen and direct descendants of the original Songhai people, followed by freemen and traders",
+  the_defeated_khitans_who_surrendered: "Settled in isolated communities throughout Goryeo to forestall rebellion",
+  below_that: "The sangmin ( 상민-常民 : literally 'commoner'), farmers working their own fields",
+  one_measure: "The new household registration system, reflecting the goals of formal social equality , which was implemented by the loyalists' cabinet",
+  the_osu_caste: "Determined by one's birth into a particular family irrespective of the religion practised by the individual",
+  certain_subcastes: { definition: "Shunned more than others", what_it_does: "", examples: "exogamy is rare for women born into families of woodcarvers" },
+  endogamy: "Prevalent within a caste or among a limited number of castes, yet castes did not form demographic isolates according to Tamari",
+  social_status_according_to_caste: "Inherited by off-springs automatically; but this inheritance was paternal",
+  these_groups: { definition: "Largely endogamous, exclusionary and with limited mobility", what_it_does: "", examples: "the Gurage and Konso" },
+  each_broad_caste_level: "A hierarchical order that is based on notions of purity, non-purity and impurity",
+  at_the_top_of_this_hierarchy: { definition: "The Kafa, followed by occupational groups including blacksmiths (Qemmo), weavers (Shammano), bards (Shatto), potters, and tanners (Manjo)", what_it_does: "", examples: "the Madhiban were traditionally sometimes treated as outcasts" },
+  the_socially_isolated_cagots: { definition: "Endogamous, and chances of social mobility non-existent within the regions where they were found", what_it_does: "", examples: "Maggie Walker , Annie Malone , and Madame C.J" },
+  parts_of_the_united_states: { definition: "Sometimes divided by race and class status despite the national narrative of integration", what_it_does: "", examples: "the Africana Siddis and Kaffirs" },
+  siddis_and_kaffirs: "Considered untouchables due to their darker skin color alongside other physical factors that distinguish the group as lower caste",
+  the_student_unrest: "Not unique to Allahabad University but was strong enough to last over 90 days",
+
 };
 
 // ============================================================
