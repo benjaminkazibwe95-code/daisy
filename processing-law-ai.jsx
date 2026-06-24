@@ -34590,6 +34590,9 @@ const FLAT_DICT = {
   the_first_clear_description_of_adhd: "Credited to George Still in 1902 during a series of lectures he gave to the Royal College of Physicians of London",
   a_genetic_component_was_identified_and_adhd: "Acknowledged to be a persistent, long-term disorder which lasted from childhood into adulthood",
 
+  // === INGESTED 2026-06-24 11:56 ===
+  an_opposite_characteristic: { definition: "Tardiness , or more colloquially 'being late'", what_it_does: "", examples: "it might not the case for doctor's appointments" },
+
 };
 
 // ============================================================
