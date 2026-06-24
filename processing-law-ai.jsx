@@ -34143,6 +34143,13 @@ const FLAT_DICT = {
   greenbacks: "Not backed by gold or silver, but rather by the government's promise to honor their value",
   hundreds_of_settlers: { definition: "Killed and 30,000 were displaced from their homes", what_it_does: "", examples: "the Battle of the Crater damaged Lincoln's re-election prospects, and many Republicans feared defeat" },
 
+  // === INGESTED 2026-06-24 10:44 ===
+  organizational_culture: { definition: "The set of shared norms, values, and behaviors in organizations that reflect an organization's core values and strategic direction", what_it_does: "", examples: "national culture" },
+  a_strong_culture: { definition: "Characterized by reinforcing tools such as ceremonies and policies to instill and spread it", what_it_does: "", examples: "in terms of formal vs" },
+  if_one_monkey: "Removed from the cage and replaced with a newcomer, they too are punished for reaching for the banana",
+  employees_who: { definition: "Bullied often remain silent because management fails to hold perpetrators accountable", what_it_does: "", examples: "volcanic eruptions" },
+  organizations: "The product of their organizational culture, which shapes behavior and interaction",
+
 };
 
 // ============================================================
