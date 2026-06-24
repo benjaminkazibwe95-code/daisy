@@ -32860,6 +32860,16 @@ const FLAT_DICT = {
   the_res_sensibiles: "The matter, the words of institution the form of the sacraments",
   that_which_christ_effects: "Achieved through the sacraments",
 
+  // === INGESTED 2026-06-24 06:30 ===
+  harvard_university: "Accredited by the New England Commission of Higher Education",
+  harvard: "Governed by a combination of its Board of Overseers and the President and Fellows of Harvard College , which is also known as the Harvard Corporation",
+  surrounding_the_shield: "The motto CHRISTO ET ECCLESIÆ ('For Christ and the Church'), and the outer border bears the inscription SIGILLVM ACADEMIÆ HARVARDINÆ IN NOV",
+  though_eliot: { definition: "An influential figure in the secularization of U.S", what_it_does: "", examples: "special exams were developed so veterans could be considered for admission" },
+  also_on_harvard_yard: { definition: "Massachusetts Hall , built between 1718 and 1720 and the university's oldest still standing building, Memorial Church , and University Hall", what_it_does: "", examples: "Sever Hall , Harvard Hall , and freshman dormitories" },
+  each_house: { definition: "A community of undergraduates, faculty deans, and resident tutors, with its own dining hall, library, and recreational facilities", what_it_does: "", examples: "Massachusetts General Hospital , are located throughout Greater Boston" },
+  chan_school_of_public_health: "The public health school of Harvard University, located in the Longwood Medical Area of Boston",
+  cornell_and_harvard: { definition: "The most storied programs currently in the ECAC", what_it_does: "", examples: "the pre-NCAA era, Harvard has won 159 national championships across all sports" },
+
 };
 
 // ============================================================
