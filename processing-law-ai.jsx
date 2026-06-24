@@ -33753,6 +33753,11 @@ const FLAT_DICT = {
   to_deny_this: { definition: "To assume our infallibility", what_it_does: "", examples: "the freedom of religion" },
   if_we: "Skeptical about knowledge, then we have no way of knowing that toleration is good",
 
+  // === INGESTED 2026-06-24 09:31 ===
+  a_broad_conceptualization: "It as literature characterized by oral transmission and the absence of any fixed form",
+  even_when_these: { definition: "Collected and published by scholars such as folklorists and paremiographers , the result is still often referred to as 'oral literature'", what_it_does: "", examples: "bedtime stories ) or informal social structures" },
+  this_process_often: { definition: "Linguistic and musical creolisation (e.g", what_it_does: "", examples: "the existence of gestures, dance, and the interaction between the storyteller and the audience" },
+
 };
 
 // ============================================================
