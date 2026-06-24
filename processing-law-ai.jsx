@@ -34944,6 +34944,26 @@ const FLAT_DICT = {
   table_topics: "Topics on various subjects that are discussed by a group of people around a table",
   speeches_given_by_the_persons: "Extemporaneous or Ad libitum",
 
+  // === INGESTED 2026-06-24 12:59 ===
+  both_cornell_and_stanford: "Among the first to make higher education accessible, non-sectarian, and inclusive of women and men",
+  stanford_university_school_of_medicine: { definition: "Established in 1908 when the university acquired Cooper Medical College in San Francisco; [ 50 ] it moved to the Stanford campus in 1959", what_it_does: "", examples: "students, parents, alumni, and the ADL" },
+  the_central_campus: { definition: "Adjacent to Palo Alto, [ 83 ] bounded by El Camino Real , Stanford Avenue, Junipero Serra Blvd, and Sand Hill Road , off State Route 82", what_it_does: "", examples: "the Stanford Shopping Center and the Stanford Research Park" },
+  stanford_land: { definition: "Also leased for a token rent by the Palo Alto Unified School District for several schools including Palo Alto High School and Gunn High School", what_it_does: "", examples: "the Lucile Packard Children's Hospital )" },
+  kathryn_ann_moler: "The key person for leading those research centers for choosing problems, faculty members, and students",
+  stanford: "Home to the Martin Luther King Jr",
+  this_medical_research_center: "Working for designing advanced-level health care units",
+  the_hoover_institution_library_and_archives: "A research center based on history of 20th-century",
+  the_encyclopedia: { definition: "Founded by Stanford senior researcher Edward Zalta in 1995", what_it_does: "", examples: "the logo of the Encyclopedia of Philosophy" },
+  firstyear_undergraduates: { definition: "Required to live on campus, and all undergraduates are guaranteed housing for all four undergraduate years", what_it_does: "", examples: "dormitories, co-ops, row houses , and fraternities and sororities" },
+  most_residences: { definition: "Co-ed; seven are all-male fraternities , three are all-female sororities , and there is also one all-female non-sorority house, Roth House", what_it_does: "", examples: "cooking meals or cleaning shared spaces" },
+  many_coops: "Hubs of music, art and philosophy",
+  the_indian_symbol_and_name: "Dropped by President Richard Lyman in 1972, after objections from Native American students and a vote by the student senate",
+  its_traditional_sports_rival: "The University of California, Berkeley",
+  no_other_division_i_school: { definition: "Within 100 of Stanford's total", what_it_does: "", examples: "26 medals at the 2020 Tokyo Olympics and 27 medals at the 2016 Rio de Janeiro Olympics" },
+  nine_of_the_greek_organizations: { definition: "Housed (eight in University-owned houses and one, Sigma Chi , in their own house, although the land is owned by the university)", what_it_does: "", examples: "the Stanford Robotics Club , founded in 2012" },
+  stanford_pre_business_association: { definition: "Intended to build connections among industry, alumni, and student communities", what_it_does: "", examples: "Stanford in Government and Stanford Women in Politics" },
+  its_deputy_sheriffs: { definition: "Peace officers by arrangement with the Santa Clara County Sheriff's Office", what_it_does: "", examples: "the 1974 murder of Arlis Perry in Stanford Memorial Church, which was not solved until 2018" },
+
 };
 
 // ============================================================
