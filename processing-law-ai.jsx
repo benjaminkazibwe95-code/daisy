@@ -31836,6 +31836,17 @@ const FLAT_DICT = {
   the_last_congressional_elections: "Held on 21 November 2021, concurrently with the presidential election",
   the_congress: "Located in the port city of Valparaíso , about 140 kilometers (90 miles) west of the capital, Santiago",
 
+  // === INGESTED 2026-06-24 03:36 ===
+  paraffin: "Unaffected by most common chemical reagents but burns readily",
+  it_is_an_effective_neutron_moderator_and: { definition: "Used in James Chadwick 's 1932 experiments to identify the neutron", what_it_does: "", examples: "beeswax and tallow" },
+  the_first_step_in_making_paraffin_wax: "To remove the oil (de-oiling or de-waxing) from the slack wax",
+  the_oil: { definition: "Separated by crystallization", what_it_does: "", examples: "a ketone and then cooled" },
+  this_mixture: "Filtered into two streams: solid (wax plus some solvent) and liquid (oil and solvent)",
+  after_the_solvent: { definition: "Recovered by distillation, the resulting products are called 'product wax' (or 'press wax') and 'foots oil'", what_it_does: "", examples: "melt point and penetration" },
+  paraffin_wax: "Sold in either liquid or solid form",
+  the_modification: "Usually done with additives, such as EVA copolymers, microcrystalline wax , or forms of polyethylene",
+  sections: "Then cut on a microtome",
+
 };
 
 // ============================================================
