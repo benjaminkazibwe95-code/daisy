@@ -35462,6 +35462,9 @@ const FLAT_DICT = {
   inherent_in_the_drive_to_win: "The ability to remain relaxed and focused under the pressure of competition",
   professional_sports: "Sports in which athletes receive payment for their performance",
 
+  // === INGESTED 2026-06-24 14:51 ===
+  the_philadelphia_athletics: { definition: "A short-lived Major League Baseball franchise that existed for two seasons from 1890 to 1891", what_it_does: "", examples: "Gus Weyhing , Elton Chamberlain , and Pop Corkhill" },
+
 };
 
 // ============================================================
