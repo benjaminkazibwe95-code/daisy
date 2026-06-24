@@ -33609,6 +33609,19 @@ const FLAT_DICT = {
   the_laozu_treatise_on_the_response_of_the_tao: { definition: "Studied in Quanzhen Taoism, Hsien-t'ien Tao and in the Wu-Liu sect", what_it_does: "", examples: "devas, various kinds of beings occupying heaven, members of the celestial bureaucracy, and xian" },
   an_unrelated_trinity: "The Three Great Emperor-Officials , three of the highest shen in some branches of religious Taoism thought to be able to pardon sins",
 
+  // === INGESTED 2026-06-24 09:05 ===
+  satanism: { definition: "A group of religious , ideological , or philosophical beliefs based on Satan —particularly his worship or veneration", what_it_does: "", examples: "the Knights Templar and the Cathars , performed secret Satanic rituals" },
+  the_word_satan: { definition: "Not originally a proper name, but rather an ordinary noun that means 'adversary'", what_it_does: "", examples: "the Book of Enoch" },
+  every_man: "A god if he chooses to recognize himself as one.' [ 211 ] [ 32 ] Not everyone would measure up to being a god however",
+  human_social_equality: "A 'myth', leading to 'mediocrity' and support of the weak at the expense of the strong",
+  the_members_do_not_agree_on_whether_set: "Real or symbolic, and they're not expected to",
+  cosmos: "Made of three spatial dimensions and one linear time dimension",
+  cosmos_rarely_ever_changes_and: "A materialistic realm",
+  chaos_exists_outside_of_the_cosmos_and: "Made of infinite dimensions and unlike the Cosmos, it is always changing",
+  this_higher_being: { definition: "Known as Azerate, the Dragon Mother, and is all of the 11 gods united as one", what_it_does: "", examples: "such characteristics as viciousness and/or subversion" },
+  the_survey_found_that_more_satanists: "Raised as Protestant Christians than Catholic",
+  the_decentralization_of_the_satanist_movement: { definition: "Considerably accelerated when Anton LaVey disbanded the grotto system in the mid-1970s", what_it_does: "", examples: "most new religious communities" },
+
 };
 
 // ============================================================
