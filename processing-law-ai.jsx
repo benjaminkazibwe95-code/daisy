@@ -31451,6 +31451,22 @@ const FLAT_DICT = {
   maslowski_that_there: "A 75% chance that the entire north polar ice cap during some of the summer months could be completely ice-free within the next five to seven years",
   he_and_his_wife: "Baptized in 1980 and became members of the church",
 
+  // === INGESTED 2026-06-24 02:41 ===
+  undernutrition_by_underweight_and_wasting: "11.5% and 2.5% in lowland and 22.% and 1.4% in the highland areas of Tanzania respectively",
+  this_most_commonly_occurs_in_people_who: "Malnourished during a 'critical period ",
+  it_is_argued_that_commodity_speculators: "Increasing the cost of food",
+  as_the_realestate_bubble_in_the_united_states: { definition: "Collapsing, it is said that trillions of dollars moved to invest in food and primary commodities, causing the 2007–2008 food price crisis", what_it_does: "", examples: "corn cobs and banana leaves , should be used as fuel instead of crops" },
+  more_fast_food: { definition: "Consumed per capita in the United States than in any other country", what_it_does: "", examples: "heart disease and diabetes, that may be fatal" },
+  particularly_in_areas_where_food: "Available but unaffordable, giving cash assistance is a cheaper, faster, and more efficient way to deliver help to the hungry",
+  food_first: { definition: "One of the primary think tanks working to build support for food sovereignty", what_it_does: "", examples: "Peru and Ghana" },
+  measuring_children: "Crucial to identifying malnourishment",
+  its_objective: "To help doctors provide more efficient treatments",
+  if_clean_water: "Available, they should be encouraged to drink that too",
+  intravenous_fluids: "Recommended only in those who have significant dehydration due to their potential complications, including congestive heart failure",
+  if_the_patient: { definition: "Conscious, the initial dose of sugar and water can be given by mouth", what_it_does: "", examples: "their head) in blankets is one method" },
+  warming_methods: { definition: "Usually most important at night", what_it_does: "", examples: "lack of vitamin A or zinc , for example, account for 1 million" },
+  the_right_to_food: { definition: "A human right for people to feed themselves in dignity, be free from hunger, food insecurity, and malnutrition", what_it_does: "", examples: "India is present in all stages of life" },
+
 };
 
 // ============================================================
