@@ -34907,6 +34907,20 @@ const FLAT_DICT = {
   an_agent_morpheme: "An affix like -er that in English transforms a verb into an agent noun (e.g",
   an_example_idiom: { definition: "'Don't let the cat out of the bag'", what_it_does: "", examples: "'in view of' and 'business intelligence' in which the words, when together, have a specific meaning" },
 
+  // === INGESTED 2026-06-24 12:53 ===
+  the_upanishads: "One of a small number of books that Holst kept with him for his whole life",
+  the_brihadaranyaka: "Seen as particularly ancient by modern scholars",
+  german_philosopher_arthur_schopenhauer: { definition: "Deeply impressed by the Upanishads and called them 'the most profitable and elevating reading which ", what_it_does: "", examples: "the fourth verse of the 13th volume in the first chapter of the Chandogya Upanishad" },
+  even_the_older_texts: { definition: "Composed over a wide expanse of time from about 600 to 300 BCE", what_it_does: "", examples: "itself as the last" },
+  of_the_early_periods: { definition: "The Brihadaranyaka and the Chandogya , the oldest", what_it_does: "", examples: "Gargi and Maitreyi, the wife of Yajnavalkayva, [ 68 ] also feature occasionally" },
+  many_such_lists_exist_but_they: { definition: "Inconsistent across India in terms of which Upanishads are included and how the newer Upanishads are assigned to the ancient Vedas", what_it_does: "", examples: "the Katha Upanishad , are dualistic" },
+  the_one_in_which_the_nondual_brahmanatman: "The all-inclusive ground of the universe and another in which empirical, changing reality is an appearance (Maya)",
+  maya_means_that_the_world: "Not as it seems; the world that one experiences is misleading as far as its true nature is concerned",
+  advaita: { definition: "Considered the most influential sub-school of the Vedanta school of Hindu philosophy", what_it_does: "", examples: "Arthur Berriedale Keith , J" },
+  this_translation: "The final piece of work published by Yeats before his death less than a year later",
+  their_multiplicity: "Only apparent, in truth there is only one mind",
+  the_keynote_of_the_old_upanishads: { definition: "'know thyself,' but with a much deeper meaning than that of the γνῶθι σεαυτόν of the Delphic Oracle", what_it_does: "", examples: "Hymns from the Rig Veda , The Cloud Messenger and the opera Sāvitri" },
+
 };
 
 // ============================================================
