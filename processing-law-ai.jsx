@@ -32197,6 +32197,15 @@ const FLAT_DICT = {
   gypsy_moth_bodily_fluid: "Lethal, and swallowtail caterpillars were prone to higher rates of parasitism when placed in the field near gypsy moth infestations",
   such_rashes: "Documented in the early 1980s, during a major infestation in the Northeastern United States",
 
+  // === INGESTED 2026-06-24 04:30 ===
+  freezing_precipitation: "Uncommon in this part of the temperate zone",
+  warm_ocean_currents: "Usually found in coastal areas with humid subtropical climates",
+  two_types_of_climates: "In this zone, a milder oceanic one and more severe seasonal continental one",
+  oceanic_climates: "Created by the on-shore flow from the cool high latitude oceans to their west",
+  these_climates: "Frequently cloudy and cool, and winters are milder than those in the continental climate",
+  cfc: "The categorization for this regime",
+  the_other_large_factor: "The burning of fossil fuels from buildings and vehicles",
+
 };
 
 // ============================================================
