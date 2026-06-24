@@ -33338,6 +33338,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 08:11 ===
   hendricks: "Awarded the Elite Research Prize by the Danish Minister of Science, Technology and Innovation and HRH Crown Princess Mary",
 
+  // === INGESTED 2026-06-24 08:13 ===
+  this_is_especially_relevant_when_there: { definition: "Significant expert disagreement", what_it_does: "", examples: "because such a skeptic has more happiness and peace of mind or because it is morally better" },
+  agnosticism: { definition: "Often understood more narrowly as skepticism about religious questions, in particular, about the Christian doctrine", what_it_does: "", examples: "because they follow different cognitive norms" },
+  skepticism: { definition: "Usually restricted to knowledge claims on one particular subject, which is why its different forms can be distinguished based on the subject", what_it_does: "", examples: "skepticism about perception , memory , or intuition" },
+  the_strongest_forms_assert_that_there: { definition: "No knowledge at all or that knowledge is impossible", what_it_does: "", examples: "bringing down a certain institution associated with the spread of claims they reject" },
+  ordinary_skepticism: { definition: "A doubting attitude toward knowledge claims that are rejected by many", what_it_does: "", examples: "by doubting the knowledge claims made by flat earthers or astrologers" },
+  a_strong_element_of_skepticism: { definition: "Found in Early Buddhism , most particularly in the Aṭṭhakavagga sutra", what_it_does: "", examples: "Nagarjuna , Jayarāśi Bhaṭṭa , and Shriharsha" },
+  the_academic_skeptics_denied_that_knowledge: "Possible ( acatalepsy )",
+  most_of_what_we_know_about_ancient_skepticism: "From Sextus Empiricus , a Pyrrhonian skeptic who lived in the second or third century CE",
+  similar_arguments: "Offered later (perhaps ironically) by the Protestant thinker Pierre Bayle in his influential Historical and Critical Dictionary (1697–1702)",
+  an_influential_response: { definition: "Offered by the French philosopher and mathematician René Descartes (1596–1650)", what_it_does: "", examples: "that thinking is occurring, or that I exist) that are absolutely certain" },
+  hume: "An empiricist, claiming that all genuine ideas can be traced back to original impressions of sensation or introspective consciousness",
+  hume_argued_that_on_empiricist_grounds_there: { definition: "No sound reasons for belief in God, an enduring self or soul, an external world, causal necessity, objective morality, or inductive reasoning", what_it_does: "", examples: "towards divine omnipotence )" },
+  religious_people: "Generally skeptical about claims of other religions, at least when the two denominations conflict concerning some belief",
+  the_historian_will_durant_writes_that_plato: "'as skeptical of atheism as of any other dogma'",
+  professional_skepticism: "An important concept in auditing",
+
 };
 
 // ============================================================
