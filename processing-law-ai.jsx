@@ -32288,6 +32288,12 @@ const FLAT_DICT = {
   the_requirement: "Set at 135 μg of folate per 100 g of bread",
   some_results: "Reported as What We Eat In America",
 
+  // === INGESTED 2026-06-24 04:55 ===
+  the_endosperm: { definition: "A tissue produced inside the seeds of most flowering plants following double fertilization", what_it_does: "", examples: "certain orchids , lack endosperm in their seeds" },
+  orchid_seedlings: { definition: "Mycoheterotrophic in their early development", what_it_does: "", examples: "coffee , the endosperm also does not develop" },
+  the_endosperm_of_some_species: { definition: "Responsible for seed dormancy", what_it_does: "", examples: "cytokinins , which regulate cellular differentiation and embryonic organ formation" },
+  the_aleurone: "The outer layer of endosperm cells, present in all small grains and retained in many dicots with transient endosperm",
+
 };
 
 // ============================================================
