@@ -32022,6 +32022,12 @@ const FLAT_DICT = {
   if_the_speed: "Decreased, such as in the figure to the right, the wavelength will also decrease",
   the_amount_of_ray_bending: "Dependent on the amount of difference between sound speeds, that is, the variation in temperature, salinity, and pressure of the water",
 
+  // === INGESTED 2026-06-24 04:01 ===
+  cognates: "Distinguished from loanwords , where a word has been borrowed from another language",
+  an_extreme_case: { definition: "Armenian երկու ( erku ) and English two , which descend from Proto-Indo-European dwóh₁ ; the sound change *dw > erk in Armenian is regular", what_it_does: "", examples: "Latin habēre and German haben both mean 'to have' and are phonetically similar" },
+  a_true_cognate_of_much: { definition: "The archaic Spanish maño 'big'", what_it_does: "", examples: "the etymon of both Welsh ceffyl and Irish capall is the Proto-Celtic * kaballos (all meaning horse )" },
+  a_root: { definition: "The source of related words within a single language (no language barrier is crossed)", what_it_does: "", examples: "suffixes, prefixes, and slight changes to the vowels or to the consonants of the root word" },
+
 };
 
 // ============================================================
