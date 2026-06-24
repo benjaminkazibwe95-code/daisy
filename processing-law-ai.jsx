@@ -33680,6 +33680,23 @@ const FLAT_DICT = {
   this_rite: "Known as 'earth laid upon a corpse'",
   most_spaniards: "Roman Catholics and follow Catholic funeral traditions",
 
+  // === INGESTED 2026-06-24 09:14 ===
+  the_west_as_a_geographical_area: "Unclear and undefined",
+  new_ideas_and_beliefs_spread_around_europe_and: "Fostered by an increase in literacy due to a departure from solely religious texts",
+  the_industrial_revolution: { definition: "The transition to new manufacturing processes in the period from about 1760 to sometime between 1820 and 1840", what_it_does: "", examples: "New Age movements) and increasing cultural syncretism resulting from globalization and immigration" },
+  the_ballet: "A distinctively Western form of performance dance",
+  the_music_video: "Also developed in the West in the middle of the 20th century",
+  many_oriental_ingredients: "Relatively new to the Western lands",
+  nitrogen_fixation_and_petrochemicals: "Invented in Germany",
+  credit_cards_and_the_charge_card: "First used in the United States",
+  roman_religion: "Similar to but not the same as Hellenic religion – likewise for indigenous Germanic polytheism , Celtic polytheism and Slavic polytheism",
+  western_culture_at_a_fundamental_level: { definition: "Influenced by the Judeo-Christian and Greco-Roman traditions", what_it_does: "", examples: "a common emphasis on the individual, but they also embody fundamentally conflicting worldviews" },
+  the_first_modern_olympic_games: { definition: "Held at Athens in 1896", what_it_does: "", examples: "the amphitheatres to house their festivals of sport" },
+  the_sport_of_bullfighting: "A traditional spectacle of Spain, Portugal, southern France, and some Latin American countries",
+  a_great_number_of_popular_global_sports: "First developed or codified in Europe",
+  the_bat_and_ball_sport_of_cricket: "First played in England during the 16th century and was exported around the globe via the British Empire",
+  many_games: "Known as 'football' were being played at colleges and universities in the United States in the first half of the 19th century",
+
 };
 
 // ============================================================
