@@ -32095,6 +32095,10 @@ const FLAT_DICT = {
   the_relevant_description: "Really a high-dimensional phase space in which manifolds might take a variety of more complicated topological forms",
   this_means_that_if_one_pathway: { definition: "Found to be more thermodynamically favorable than another, it is likely to be used more frequently in the pursuit of the native structure", what_it_does: "", examples: "Rosetta@home , [ 86 ] Folding@home [ 87 ] and Foldit , [ 88 ] target protein folding" },
 
+  // === INGESTED 2026-06-24 04:14 ===
+  ihe_delft_institute_for_water_education: "The largest international graduate water education facility in the world and is based in Delft , Netherlands",
+  ihe_delft: "A partner institute of the National SENSE Research School",
+
 };
 
 // ============================================================
