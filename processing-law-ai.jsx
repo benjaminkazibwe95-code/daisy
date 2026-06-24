@@ -32546,6 +32546,14 @@ const FLAT_DICT = {
   abnormalities_in_these_test_results: { definition: "Due to problems in the multiple control mechanism of glucose regulation", what_it_does: "", examples: "tinting contaminants) with light source or the light sensor" },
   electrical_techniques: { definition: "Less susceptible to these errors, though not to others", what_it_does: "", examples: "due to exercise or medication adjustments) are properly tracked" },
 
+  // === INGESTED 2026-06-24 05:42 ===
+  juvenile_yellowtail_amberjack: "Rarely seen, as they are often found far from land associated with floating debris or weed which provide camouflage",
+  juveniles: "Yellow with black bands",
+  these_traps: "So effective that some studies suggested the traps may have wiped out as much as 60% of the larger amberjack population",
+  yellowtail_amberjacks: { definition: "Known for their curiosity around human vessels", what_it_does: "", examples: "yellowtail mackerel , squid , prawns , garfish , pilchards and kahawai" },
+  the_fish: "Traditionally associated with qualities of warriors and leaders, and some iwi associate the fish with the end of life",
+  lalandi: { definition: "Sold to the Japanese restaurant market for consumption as sashimi", what_it_does: "", examples: "grilling and drying" },
+
 };
 
 // ============================================================
