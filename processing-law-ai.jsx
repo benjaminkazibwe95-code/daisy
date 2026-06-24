@@ -31172,6 +31172,24 @@ const FLAT_DICT = {
   primary_among_these: "The imposition of a state of emergency by Indira Gandhi in 1975, and her subsequent attempt to suppress her prosecution through the 39th Amendment",
   the_basic_foundation_of_the_constitution: { definition: "The dignity and the freedom of its citizens which is of supreme importance and can not be destroyed by any legislation of the parliament", what_it_does: "", examples: "the Fundamental Rights and article 368" },
 
+  // === INGESTED 2026-06-24 01:59 ===
+  converts: { definition: "Included in the definition", what_it_does: "", examples: "يَهُودِيّ yahūdī (sg.), al-yahūd (pl" },
+  in_such_contexts_jewish: "The only acceptable possibility",
+  these_definitions_of_who: "A Jew date back to the codification of the Oral Torah into the Babylonian Talmud , around 200 CE",
+  the_kingdom_of_judah: { definition: "Described as comprising the tribes of Judah , Benjamin and partially, Levi", what_it_does: "", examples: "religious practices , prohibition on intermarriage , and an emphasis on genealogy and family history" },
+  among_the_most_influential_from_this_period: "Albert Einstein in physics, Sigmund Freud in psychology, Franz Kafka in literature, and Irving Berlin in music",
+  many_nobel_prize_winners_at_this_time: "Jewish, as is still the case",
+  the_holocaust: "The name given to this genocide , in which six million Jews in total were systematically murdered",
+  the_jewish_people_and_the_religion_of_judaism: "Strongly interrelated",
+  a_significant_portion_of_conversions: "Undertaken by children of mixed marriages, or would-be or current spouses of Jews",
+  dialects_of_these_same_languages: "Also used by the Jews of Syria Palaestina at that time",
+  yiddish: "The Judaeo-German language developed by Ashkenazi Jews who migrated to Central Europe",
+  ladino: "The Judaeo-Spanish language developed by Sephardic Jews who migrated to the Iberian Peninsula",
+  although_many_of_the_ancient_jews: "Illiterate (as were their neighbors), their national narrative was reinforced through public readings",
+  even_if_one_knew_no_hebrew_or: "Illiterate, one could recognize that a group of signs was in Hebrew script",
+  as_such_it: { definition: "Inseparable from the national identity", what_it_does: "", examples: "schools, synagogues, and Sabbath worship" },
+  the_teimanim_from_yemen: { definition: "Sometimes included, although their style of liturgy is unique and they differ in respect to the admixture found among them to that found in Mizrahim", what_it_does: "", examples: "the United States , Canada , Argentina , Australia , Brazil , and Uruguay" },
+
 };
 
 // ============================================================
