@@ -32746,6 +32746,12 @@ const FLAT_DICT = {
   the_research_base_of_mental_disorders: { definition: "Evolving at different rates for different disorders", what_it_does: "", examples: "new 'false 'epidemics''" },
   the_weakness: "Its lack of validity ",
 
+  // === INGESTED 2026-06-24 06:15 ===
+  conditions_such_as_ecoanxiety: { definition: "Very rarely severe enough to require clinical treatment", what_it_does: "", examples: "hypnotics, anxiolytics, and antipsychotics)" },
+  as_their_lifestyles: "Often closely linked to the land, climate change directly impacts their physical health and financial stability in quantifiable ways",
+  my_trip_to_space: { definition: "Supposed to be a celebration; instead, it felt like a funeral", what_it_does: "", examples: "people in participatory decision-making" },
+  meaningfocused_coping: { definition: "Behaviors such as identifying positive information, focusing on constructive sources of hope, and trusting that other people are also doing their part", what_it_does: "", examples: "active transport , increased physical activity, and healthier diets" },
+
 };
 
 // ============================================================
