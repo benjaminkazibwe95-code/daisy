@@ -35075,6 +35075,24 @@ const FLAT_DICT = {
   four_minutes: { definition: "Allocated for the reply speech, and no POIs can be offered during this time", what_it_does: "", examples: "traveling cost and even hotel costs" },
   popular_ones: "The debater of the month or more formal debate formats such as Lincoln-Doublas",
 
+  // === INGESTED 2026-06-24 13:16 ===
+  in_a_game_in_which_carol_and_dan: "Also players, (A, B, C, D) is a Nash equilibrium if A is Alice's best response to (B, C, D), B is Bob's best response to (A, C, D), and so forth",
+  one_particularly_important_issue: "That some Nash equilibria may be based on threats that are not ' credible '",
+  a_strategy_profile: "A set of strategies, one for each player",
+  even_if_the_equilibrium: "Unique, it might be weak : a player might be indifferent among several strategies given the other players' choices",
+  in_cooperative_games_such_a_concept: "Not convincing enough",
+  cpne: "Related to the theory of the core",
+  this_is_because_a_nash_equilibrium: "Not necessarily Pareto optimal",
+  the_coordination_game: "A classic two-player, two- strategy game, as shown in the example payoff matrix to the right",
+  an_application_of_nash_equilibria: "In determining the expected flow of traffic in a network",
+  notice_that_this_distribution: "Not, actually, socially optimal",
+  if_these_conditions: "Met, the cell represents a Nash equilibrium",
+  if_only_condition_one_holds_then_there: "Likely to be an infinite number of optimal strategies for the player who changed",
+  the_payoff_in_economics: "Utility (or sometimes money), and in evolutionary biology is gene transmission; both are the fundamental bottom line of survival",
+  the_existence_of_a_nash_equilibrium: "Equivalent to r {\displaystyle r} having a fixed point",
+  the_free_money_game: "An example of a 'special' game with an even number of equilibria",
+  but_the_opposite: "Not necessarily true",
+
 };
 
 // ============================================================
