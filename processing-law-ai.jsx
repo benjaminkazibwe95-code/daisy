@@ -34271,6 +34271,18 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 11:07 ===
   the_department: "Responsible to Parliament through the minister of health as part of the federal health portfolio",
 
+  // === INGESTED 2026-06-24 11:10 ===
+  within_these_broader_categorizations: "Further national and regional differences",
+  another_form_of_barbacoa: { definition: "Digging a hole in the ground, burning logs in it and placing stones in it to absorb and retain heat", what_it_does: "takes a few hours", examples: "barbeque and truncations such as bar-b-q or BBQ may also be found" },
+  its_south_american_versions: { definition: "The southern Brazilian churrasco and the Southern Cone asado", what_it_does: "", examples: "mustard-based, vinegar-based, and light and heavy tomato-based sauces" },
+  memphis_barbecue: "Best known for tomato- and vinegar-based sauces",
+  the_finished_barbecue: "Then served with barbecue sauce on the side",
+  louis_style_barbecue: "Known for its distinctive approach to ribs and sauce",
+  this_potlucklike_activity: "Known as 'bring and braai'",
+  grilling_and_smoking: "Done with wood, charcoal, gas, electricity, or pellets",
+  meat_and_fish: "The most common smoked foods, though cheeses, vegetables, nuts, and ingredients used to make beverages such as beer or smoked beer are also smoked",
+  the_term_barbecue: "Also used to designate a flavor added to food items, the most prominent of which are potato chips",
+
 };
 
 // ============================================================
