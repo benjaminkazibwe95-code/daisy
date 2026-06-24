@@ -30860,6 +30860,10 @@ const FLAT_DICT = {
   the_representative_said_the_funds: { definition: "From the United States Agency for International Development (USAID), which was not a branch of the CIA", what_it_does: "", examples: "Freedom House" },
   the_representative_said_his_country: "Not immune from criticism from Freedom House, which he said was well documented",
 
+  // === INGESTED 2026-06-24 01:06 ===
+  civic_education: "The study of the theoretical, political, and practical aspects of citizenship manifest as political rights, civil rights , and legal obligations",
+  nor_ought_we_to_believe_that_there: { definition: "Much difference between man and man, but to think that the superiority lies with him who is reared in the severest school", what_it_does: "", examples: "such questions as who is or is not a good citizen of Sparta" },
+
 };
 
 // ============================================================
