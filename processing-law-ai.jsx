@@ -35410,6 +35410,16 @@ const FLAT_DICT = {
   inbounds_passes_after_made_baskets: "Taken from the baseline",
   a_defensive_player: { definition: "Allowed to draw a charging foul within the restricted arc if the offensive player receives the ball and/or starts his drive within this area", what_it_does: "", examples: "the timekeeper and reserve referee" },
 
+  // === INGESTED 2026-06-24 14:38 ===
+  most_students: "Enrolled in the six largest faculties: Arts , Science , Medicine , Education , Engineering , and Management",
+  mcgill: "Known for its strong baseball, hockey and lacrosse programs",
+  the_nurses: "Not allowed to tell or indicate to the patients in any way how long they had been in the room, nor were the patients permitted to speak to the nurses",
+  many_of_the_major_university_buildings: "Constructed using local grey limestone , which serves as a unifying element",
+  the_gymnasium: { definition: "Named in honour of General Sir Arthur William Currie", what_it_does: "", examples: "Mile End , The Plateau , and even as far as Verdun because of rising rent prices" },
+  the_mcgill_coat_of_arms: "Derived from an armorial device assumed during his lifetime by the founder of the university, James McGill",
+  the_official_school_song: "Entitled 'Hail, Alma Mater",
+  tvmcgill: { definition: "The university TV station, broadcasting on closed-circuit television and over the internet", what_it_does: "", examples: "the McGill Law Journal , founded in 1952" },
+
 };
 
 // ============================================================
