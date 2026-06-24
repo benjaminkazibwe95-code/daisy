@@ -33874,6 +33874,20 @@ const FLAT_DICT = {
   both_tower_versions: "Full of the type of details which are likely to have been worked out in sketches first",
   the_vienna_tower: "Built around a very steep small mountain, which can be seen protruding from the architecture at the centre near the ground and to the right higher up",
 
+  // === INGESTED 2026-06-24 10:02 ===
+  ferdinand_de_saussure: "One of the world's most quoted linguists, which is remarkable as he hardly published anything during his lifetime",
+  his_brothers: "The linguist and Esperantist René de Saussure , and scholar of ancient Chinese astronomy, Léopold de Saussure",
+  his_son_raymond_de_saussure: "A psychiatrist and prolific psychoanalytic theorist, who was trained under Sigmund Freud himself",
+  his_idea: "That all myths have an underlying pattern, which forms the structure that makes them myths",
+  ruqaiya_hasan: "Systemic functional linguistics as a 'post-Saussurean' linguistic theory",
+  its_central_notion: "That language may be analyzed as a formal system of differential elements, apart from the messy dialectics of real-time production and comprehension",
+  saussure_believed_that_semiotics: { definition: "Concerned with everything that can be taken as a sign, and he called it semiology", what_it_does: "", examples: "Roland Barthes , Jacques Lacan , Jacques Derrida , Michel Foucault , and Claude Lévi-Strauss" },
+  different_colour_frequencies: "Per se meaningless, or mere substance or meaning potential",
+  it_is_only_when_a_region_of_the_spectrum: "Outlined and given an arbitrary name, for example, 'blue', that the sign emerges",
+  the_same_idea: "Applied to any concept",
+  saussure_argues_that_language: "A 'social fact'; a conventionalised set of rules or norms relating to speech",
+  when_at_least_two_people: { definition: "Engaged in conversation, there forms a communicative circuit between the minds of the individual speakers", what_it_does: "", examples: "Cognitive Linguistics , Construction Grammar , Usage-based linguistics , and Emergent Linguistics" },
+
 };
 
 // ============================================================
