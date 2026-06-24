@@ -32333,6 +32333,17 @@ const FLAT_DICT = {
   the_kinds_of_publications_that: { definition: "Accepted as contributions of knowledge or research vary greatly between fields, from the print to the electronic format", what_it_does: "", examples: "the National Institutes of Health in the US [ 63 ] and the Medical Research Council in the UK" },
   these_grants: "Necessary not only for researchers to carry out their research but also as a source of merit",
 
+  // === INGESTED 2026-06-24 05:02 ===
+  optimism: "The attitude or mindset of expecting events to lead to particularly positive, favorable, desirable, and hopeful outcomes",
+  variation_in_optimism_between_people: { definition: "Somewhat heritable [ 4 ] and reflects biological trait systems to some degree", what_it_does: "", examples: "family environment, [ 4 ] and may be learnable" },
+  some_researchers_argue_that_optimism: "Simply the lay-term for what researchers know as explanatory style",
+  more_research: "Required to 'bridge' or further differentiate these concepts",
+  both_optimism_and_pessimism: { definition: "Strongly influenced by environmental factors , including the family environment", what_it_does: "", examples: "intelligence , temperament , and alcoholism" },
+  they_then_rate_whether_this: { definition: "Internal or external, stable or changeable, and global or local to the event", what_it_does: "", examples: "cardiovascular disease , [ 36 ] stroke , [ 37 ] and depression" },
+  he_maintained_that_knowledge_of_moral_truth: { definition: "Necessary and sufficient for leading a good life", what_it_does: "", examples: "idealism , realism , and philosophical pessimism" },
+  leibniz_proposed_that_it: "Not God's power to create a perfect world, but he created the best among possible worlds",
+  the_optimistic_position: "Also called Panglossianism which became a term for excessive, even stupendous, optimism",
+
 };
 
 // ============================================================
