@@ -34593,6 +34593,39 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 11:56 ===
   an_opposite_characteristic: { definition: "Tardiness , or more colloquially 'being late'", what_it_does: "", examples: "it might not the case for doctor's appointments" },
 
+  // === INGESTED 2026-06-24 12:00 ===
+  one_of_the_primary_functions_of_the_family: { definition: "Providing a framework for the production and reproduction of persons biologically and socially", what_it_does: "", examples: "heterosexual married couples (and their children) as family" },
+  the_way_roles: "Balanced between the parents will help children grow and learn valuable life lessons",
+  members_of_the_extended_family: { definition: "Not included in this family group", what_it_does: "", examples: "a grandparents living with their grandchildren, are included" },
+  most_singleparent_families: "Headed by a mother, but the number of single-parent families headed by fathers is increasing",
+  most_of_the_us_households: "Now non-traditional under this definition",
+  polyandry: { definition: "Traditionally practiced in areas of the Himalayan mountains, among Tibetans in Nepal , in parts of China and in parts of northern India", what_it_does: "", examples: "a full sibling, parent or progeny" },
+  although_much_of_his_work: "Now considered dated, he argued that kinship terminologies reflect different sets of distinctions",
+  all_other_relatives: "Grouped together into categories",
+  the_spouse_of_a_biological_aunt_or_uncle: { definition: "An aunt or uncle, and the nieces and nephews of a spouse are nieces and nephews", what_it_does: "", examples: "'fourth great-grandson', 'four-greats grandson' or 'four-times-great-grandson'" },
+  degrees_of_collaterality_and_removals: "Used to more precisely describe the relationship between cousins",
+  matrilineality: "A form of kinship system in which an individual's family membership derives from and is traced through their mother's lineage",
+  this_matrilineal_descent_pattern: "In contrast to the more common patrilineal descent pattern",
+  bilateral_descent: "A form of kinship system in which an individual's family membership derives from and is traced through both the paternal and maternal sides",
+  the_popularity_of_this_theory: "Largely unmatched until the 1980s, when other sociological theories, most notably structural functionalism , gained acceptance",
+  it_supplies_what: { definition: "Vitally needed but missing in other social arrangements", what_it_does: "", examples: "illegitimate children and divorce" },
+  this_drop: "Shocking from traditional forms of the family system",
+  only_a_fifth_of_households: "Following traditional ways of having married couples raising a family together",
+  the_convention: "Ratified by the UK in 1981 and by Ireland in 1988",
+  such_families: "More common among Blacks and Hispanics and among the lower socioeconomic class",
+  single_parent_families: "More commonly single mother families than single father",
+  family_violence: "A broader definition, often used to include child abuse , elder abuse , and other violent acts between family members",
+  abuse_of_parents_by_their_children: "A common but under reported and under-researched subject",
+  a_factor_why_this_subject_is_underresearched: "Because of the overshadowing effect caused by parents abusing their children instead",
+  laws_protecting_the_elderly_from_abuse: "Similar to, and related to, laws protecting dependent adults from abuse",
+  the_core_element_to_the_harm_of_elder_abuse: "The 'expectation of trust' of the older person toward their abuser",
+  many_forms_of_elder_abuse: "Recognized as types of domestic violence or family violence",
+  dower: { definition: "Property given to the bride herself by the groom at the time of marriage, and which remains under her ownership and control", what_it_does: "", examples: "spouses may be allowed to average their combined incomes" },
+  in_some_jurisdictions_there: { definition: "Also an option of civil partnership or domestic partnership", what_it_does: "", examples: "through tax on childlessness ) or conversely, discriminatory policies against large families (e.g" },
+  child_mortality: { definition: "The death of a child before the child's fifth birthday", what_it_does: "", examples: "that based on traditional family values" },
+  any_deviation_from_this_family_model: { definition: "Considered a 'nontraditional family'", what_it_does: "", examples: "marriage promotion" },
+  socalled_traditional_societies: "Seeing the same trend",
+
 };
 
 // ============================================================
