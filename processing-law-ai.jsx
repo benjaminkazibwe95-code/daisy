@@ -35762,6 +35762,10 @@ const FLAT_DICT = {
   the_pieces: "Usually called men , stones , 'peón' (pawn) or a similar term; men promoted to kings are called dames or ladies",
   this_european_game: { definition: "Already being played in 1100, probably in the south of France", what_it_does: "", examples: "mandatory capture and backward capture, as well as different powers for promoted pieces" },
 
+  // === INGESTED 2026-06-24 15:24 ===
+  kearney: "Once again an independent firm",
+  its_first_office_in_asia: "Opened in 1972, in Tokyo , Japan",
+
 };
 
 // ============================================================
