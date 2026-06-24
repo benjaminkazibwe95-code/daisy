@@ -31715,6 +31715,26 @@ const FLAT_DICT = {
   a_fundamental_principle_of_thermodynamics: "That the higher the temperature of the steam entering an engine, the higher the efficiency",
   rural_areas: { definition: "Electrified first in Europe, and in the U.S", what_it_does: "", examples: "villages and hamlets" },
 
+  // === INGESTED 2026-06-24 03:21 ===
+  the_inverse_piezoelectric_effect: { definition: "Used in the production of ultrasound waves", what_it_does: "", examples: "generating sparks to ignite gas cooking and heating devices, torches, and cigarette lighters" },
+  the_word_piezoelectricity: "Electricity resulting from pressure",
+  the_converse_effect: "Mathematically deduced from fundamental thermodynamic principles by Gabriel Lippmann in 1881",
+  more_work: "Done to explore and define the crystal structures that exhibited piezoelectricity",
+  these_transducers_now: "Mounted on several car models as an echolocation device, helping the driver determine the distance from the car to any objects that may be in its path",
+  the_nature_of_the_piezoelectric_effect: "Closely related to the occurrence of electric dipole moments in solids",
+  such_a_relabeled_notation: "Often called Voigt notation",
+  engineering_shear_strains: "Double the value of the corresponding tensor shear, such as S 6 = 2 S 12 and so on",
+  macroscopic_piezoelectricity: "Possible in textured polycrystalline non-ferroelectric piezoelectric materials, such as AlN and ZnO",
+  since_the_harmful_impacts: { definition: "Focused on these early phases, some actions can be taken to minimize the effects", what_it_does: "", examples: "the Group III – V and II – VI materials, due to polarization of ions under applied stress and strain" },
+  the_piezoresponse_of_polymers: "Not as high as the response for ceramics; however, polymers hold properties that ceramics do not",
+  a_piezoresponse_observed_by_bulk_polymers: "Mostly due to its molecular structure",
+  examples_of_semicrystalline_polymers: { definition: "Polyvinylidene fluoride (PVDF) and its copolymers , polyamides , and parylene-C", what_it_does: "", examples: "polyimide and polyvinylidene chloride (PVDC), fall under amorphous bulk polymers" },
+  some_applications_of_pvdf: { definition: "Pressure sensors, hydrophones, and shock wave sensors", what_it_does: "", examples: "sucrose (table sugar), DNA , and viral proteins, including those from bacteriophage" },
+  some_applications_of_cellular_polypropylene: "Musical key pads, microphones, and ultrasound-based echolocation systems",
+  piezoelectric_sensors_especially: "Used with high frequency sound in ultrasonic transducers for medical imaging and also industrial nondestructive testing (NDT)",
+  these_ceramics: "Used within two kinds of actuators: direct piezo actuators and amplified piezoelectric actuators",
+  the_piezoelectrical_properties_of_quartz: "Useful as a standard of frequency",
+
 };
 
 // ============================================================
