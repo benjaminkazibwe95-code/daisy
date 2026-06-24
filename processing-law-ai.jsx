@@ -35456,6 +35456,12 @@ const FLAT_DICT = {
   the_uleague: "Mirrored after the domestic professional leagues and a large number of student-athletes eventually turn professional",
   the_club_championship: { definition: "Contested by college teams operated as intramural clubs", what_it_does: "", examples: "tennis, horse racing, boxing, cricket, and women's collegiate sport" },
 
+  // === INGESTED 2026-06-24 14:48 ===
+  the_word_athletics: { definition: "Derived from the Greek word 'athlos' (ἄθλος), meaning 'contest' or 'task'", what_it_does: "", examples: "running , jumping , boxing and wrestling competitions" },
+  sports_nutrition: { definition: "The study and practice of nutrition and diet as they relate to athletic performance", what_it_does: "", examples: "vitamins, minerals, supplements and organic substances such as carbohydrates, proteins and fats" },
+  inherent_in_the_drive_to_win: "The ability to remain relaxed and focused under the pressure of competition",
+  professional_sports: "Sports in which athletes receive payment for their performance",
+
 };
 
 // ============================================================
