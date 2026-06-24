@@ -35214,6 +35214,18 @@ const FLAT_DICT = {
   field_goals_are_scored_when_the_ball: "Thrown through the first two vertical uprights that support the hanging basket",
   tackling_in_the_usa_wheelchair_football_league: "Completed by placing one-hand above the waist of the ball carrier",
 
+  // === INGESTED 2026-06-24 13:58 ===
+  medieval_football: "A modern term used for a wide variety of the localised informal football games that were invented and played in Europe during the Middle Ages",
+  it_is_unclear_exactly_what: "Happening in this set of three images, although the last image appears to show a man with a broken arm",
+  an_early_description_of_ball_games_that: "Likely to be football in England was given by William Fitzstephen in his Descriptio Nobilissimi Civitatis Londoniae (c",
+  it_looks_as_though_they: "Using their hands for the game; however, kicking certainly cannot be excluded",
+  at_this_time_football: { definition: "Already being differentiated in England from handball, which suggests the evolution of basic rules", what_it_does: "", examples: "football occurred" },
+  this_confirms_that_football: "Not confined to London",
+  at_this_time_the_prior: "Willing to give his patronage to the game despite its being outlawed",
+  although_the_precise_date: "Uncertain it certainly comes from between 1481 and 1500",
+  in_class_she: "Emploied to litle strength; in boulyng oftentimes to moche; wherby the sinewes be to moche strayned, and the vaines to moche chafed",
+  this_account_is_particularly_noteworthy_as_he: "Football by its correct name in English and is the first to describe the following: modern goals and a pitch ('a close that has a gate at either end",
+
 };
 
 // ============================================================
