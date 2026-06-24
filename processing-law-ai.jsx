@@ -31467,6 +31467,9 @@ const FLAT_DICT = {
   warming_methods: { definition: "Usually most important at night", what_it_does: "", examples: "lack of vitamin A or zinc , for example, account for 1 million" },
   the_right_to_food: { definition: "A human right for people to feed themselves in dignity, be free from hunger, food insecurity, and malnutrition", what_it_does: "", examples: "India is present in all stages of life" },
 
+  // === INGESTED 2026-06-24 02:43 ===
+  the_first_working_group_report: { definition: "Published in 2013 and the rest were completed in 2014", what_it_does: "", examples: "meteorology , physics, oceanography, statistics, engineering, ecology, social sciences and economics" },
+
 };
 
 // ============================================================
