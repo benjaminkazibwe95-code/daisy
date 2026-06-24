@@ -32521,6 +32521,10 @@ const FLAT_DICT = {
   the_corps_motto: "Mens sana in corpore sano which means 'a healthy mind in a healthy body'",
   its_quick_march: "Be Fit , with words taken from Land and Sea Tales by Rudyard Kipling",
 
+  // === INGESTED 2026-06-24 05:33 ===
+  the_first_named_pathways: { definition: "Evident to the naked eye even in a poorly preserved brain , and were named by the great anatomists of the Renaissance using cadaver material", what_it_does: "", examples: "the name ' pyramidal tract ' has been mainly supplanted by lateral corticospinal tract in most texts" },
+  the_other_main_pathway: "From the climbing fibers and these project to Purkinje cells and also send collaterals directly to the deep nuclei",
+
 };
 
 // ============================================================
