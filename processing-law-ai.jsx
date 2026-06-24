@@ -33725,6 +33725,11 @@ const FLAT_DICT = {
   the_first_such_nanoabacus: { definition: "Developed by IBM in 1997", what_it_does: "", examples: "addition, subtraction, multiplication, and division, in the mind by manipulating an imagined abacus" },
   a_piece_of_soft_fabric_or_rubber: "Placed behind the beads, keeping them in place while the users manipulate them",
 
+  // === INGESTED 2026-06-24 09:20 ===
+  polity: "An academic publisher in the social sciences and humanities",
+  assets: "Audited at more than £4m in 2022",
+  its_books: "Distributed worldwide by Wiley",
+
 };
 
 // ============================================================
