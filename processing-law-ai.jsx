@@ -34666,6 +34666,30 @@ const FLAT_DICT = {
   friday: "Focused on the company and the culture and recruiting",
   sunday: "Reflection, feedback, strategy, and getting ready for the week",
 
+  // === INGESTED 2026-06-24 12:11 ===
+  running_the_source_code: { definition: "Slower than running an executable", what_it_does: "", examples: "variables are not declared before being used" },
+  the_engine: "Programmed using two sets of perforated cards",
+  this_note: "Recognized by some historians as the world's first computer program",
+  function_tables: "Connected to function panels by plugging heavy black cables into plugboards",
+  when_one_process: "Waiting for input/output , another could compute",
+  the_purpose_was_to_develop_a_language_that: "Comprehensive, easy to use, extendible, and would replace COBOL and FORTRAN",
+  an_instruction: { definition: "Represented by a configuration of on/off settings", what_it_does: "was then repeated", examples: "" },
+  computer_programs_also: "Automatically inputted via paper tape , punched cards or magnetic-tape",
+  after_the_medium: "Loaded, the starting address was set via switches, and the execute button was pressed",
+  the_mos_transistor: "The primary component in integrated circuit chips",
+  the_succession_of_development: "Known as the x86 series",
+  abstract_datatypes: { definition: "Structures of concrete datatypes, with a new name assigned", what_it_does: "", examples: "a list of integers could be called integer_list" },
+  two_broad_categories_of_declarative_languages: "Functional languages and logical languages",
+  the_principle_behind_a_functional_language: "To use lambda calculus as a guide for a well defined semantic",
+  functional_languages: "Used in computer science research to explore new language features",
+  a_full_structure_of_the_data: "Formed by building lists of lists",
+  the_first_two_elements: "Themselves lists of two elements: ((A B) (HELLO WORLD) 94) Lisp has functions to extract and reconstruct elements",
+  assigning_the_datatype_at_runtime: "Called dynamic binding",
+  assigning_the_datatype_at_compile_time: "Called static binding",
+  the_operations_on_the_phenomenon: "Also grouped into the container",
+  the_resulting_structure: { definition: "Called an abstract datatype", what_it_does: "", examples: "The syntax of a computer program is a list of production rules which form its grammar" },
+  one_production_rule_listing_method: "Called the Backus–Naur form (BNF)",
+
 };
 
 // ============================================================
