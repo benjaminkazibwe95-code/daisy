@@ -32219,6 +32219,20 @@ const FLAT_DICT = {
   these_animals: "The result of a deliberate decision to create a specific crossbred animal",
   while_the_term: "Best known when applied to certain dog crossbreeds , other animals such as cattle, horses, birds [ 8 ] and cats may also be bred in this fashion",
 
+  // === INGESTED 2026-06-24 04:37 ===
+  wine: "Also collected and stored , as an investment or to improve with age",
+  vineyards: { definition: "Established in Mexico by 1530, Peru by the 1550s and Chile shortly afterwards", what_it_does: "", examples: "South Australia" },
+  fruit_wines: "Particularly popular in North America and Scandinavia",
+  grapes: { definition: "Harvested by hand or machine, sorted to select those of sufficient quality, typically destemmed, and then crushed to release the juice", what_it_does: "", examples: "sugar, to increase the alcohol content ( chaptalization ), or adjust the acid levels" },
+  when_one_variety_of_grape: { definition: "Predominantly used, [ e ] the wine may be marketed as a ' varietal ' as opposed to a 'blended' wine", what_it_does: "", examples: "in the American Viticultural Area and Australian Wine Geographical Indications systems" },
+  therefore_vintages: "Rarely uniformly 'good' or 'bad' even within a small area",
+  sediment: "More common in older bottles",
+  the_palate: { definition: "More sensitive to sweetness at higher temperatures, so when the sweetness is not balanced by acidity a wine should be served cooler", what_it_does: "", examples: "pineapple and asparagus to non-consumables such as compost heaps and leather" },
+  the_necessary_quality_of_cooking_wine: { definition: "A matter of debate, but faulty wine is not appropriate for culinary use, and the range of flavor compounds in a fine wine do not survive heating", what_it_does: "", examples: "exposure to yeast during fermentation" },
+  optimal_conditions: "Provided by wine cellars and wine caves , as well as temperature-controlled cabinets",
+  bordeaux: "Especially popular for investment, due to its fame, high volume of output, longevity, and relatively simple naming system",
+  burgundy: { definition: "Also popular, with the 2016 Romanée-Conti fetching £3,250 per bottle, as well as Italian wines such as Barolo , Barbaresco , and those of Tuscany", what_it_does: "", examples: "to aid socialization , to pair with food , and simply as a sensory experience" },
+
 };
 
 // ============================================================
