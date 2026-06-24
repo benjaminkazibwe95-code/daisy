@@ -34873,6 +34873,27 @@ const FLAT_DICT = {
   the_digits_historically: "Greek letters over- and under-lined with a vinculum",
   ethiopian_numerals: "Borrowed from the Greek numerals , possibly via Coptic uncial letters",
 
+  // === INGESTED 2026-06-24 12:49 ===
+  the_semitic_languages: { definition: "Notable for their nonconcatenative morphology", what_it_does: "", examples: "in Arabic, the root meaning 'write' has the form k-t-b" },
+  the_only_earlier_attested_languages: "Sumerian and Elamite (2800 BCE to 550 BCE), both language isolates , and Egyptian ( c",
+  the_maltese_language: "A descendant of the extinct Siculo-Arabic , a variety of Maghrebi Arabic formerly spoken in Sicily",
+  the_modern_maltese_alphabet: "Based on the Latin script with the addition of some letters with diacritic marks and digraphs",
+  mandaic: { definition: "Both spoken and used as a liturgical language by the Mandaeans", what_it_does: "", examples: "Mahri and Soqotri" },
+  amharic: "The official language of Ethiopia",
+  tigrinya: "A working language in Eritrea",
+  tigre: "Spoken by over one million people in the northern and central Eritrean lowlands and parts of eastern Sudan",
+  a_number_of_gurage_languages: "Spoken by populations in the semi-mountainous region of central Ethiopia, while Harari is restricted to the city of Harar",
+  sound_shifts_affecting_the_vowels: "More numerous and, at times, less regular",
+  each_protosemitic_phoneme: { definition: "Reconstructed to explain a certain regular sound correspondence between various Semitic languages", what_it_does: "", examples: "Arabic, Hebrew and Shehri (Jibbali) words for ‘ten’ from Proto-Semitic (ʕ-s₂-r)" },
+  an_accusative_ending_n: "Preserved in Ethiopian Semitic",
+  the_prefix_conjugation: "Extremely old, with clear analogues in nearly all the families of Afroasiatic languages (i.e",
+  new_suffixes: "Used to mark different moods in the non-past, e.g",
+  a_special_feature_in_classical_hebrew: { definition: "The waw-consecutive , prefixing a verb form with the letter waw in order to change its tense or aspect", what_it_does: "", examples: "the old mood suffixes were dropped, and new mood prefixes developed (e.g" },
+  this_root_also_exists_in_arabic_and: "Used to form words with a close meaning to 'writing', such as ṣaḥāfa 'journalism', and ṣaḥīfa 'newspaper' or 'parchment'",
+  if_the_counted_noun: "Masculine, the numeral would be feminine and vice versa",
+  some_early_semitic_languages: "Speculated to have had weak ergative features",
+  the_root_lbn: "'milk' in Arabic, but the color 'white' in Hebrew",
+
 };
 
 // ============================================================
