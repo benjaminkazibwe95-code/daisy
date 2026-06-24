@@ -33358,6 +33358,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 08:15 ===
   internalization_helps_one_define_who_they: "And create their own identity and values within a society that has already created a norm set of values and practices for them",
 
+  // === INGESTED 2026-06-24 08:17 ===
+  hermeneutics: "Thus a universal theory",
+  humanities: { definition: "Thus 'doubly hermeneutic'", what_it_does: "", examples: "academic fraud )" },
+  epistemological_theories: "The basic theories about how knowledge is obtained and are thus the most general theories about how to evaluate information sources",
+  fallacies: "Presented by Walton (1998)",
+  the_methods_that: "Relevant for producing knowledge are also relevant for evaluating knowledge",
+  another_field: "The study of scientific misconduct",
+  such_studies: "Important for source criticism in revealing the bias introduced by referring to classical studies",
+  the_work_provided_by_text_philology: "An important part of source criticism in the humanities",
+  the_study_of_eyewitness_testimony: { definition: "An important field of study used, among other purposes, to evaluate testimony in courts", what_it_does: "", examples: "poor viewing conditions, brief exposure, and stress" },
+  photos: "Often manipulated during wars and for political purposes",
+  a_recent_example: { definition: "Reported by Healy (2008) about North Korean leader Kim Jong Il", what_it_does: "", examples: "philosophy of history/view of history, should not suffer by being neglected' (Translated by BH)" },
+  the_ultimate_aim_of_these_scholars: "To reconstruct the history of the biblical text, as well as the religious history of ancient Israel",
+  related_to_source_criticism: "Redaction criticism which seeks to determine how and why the redactor (editor) put the sources together the way he did",
+  also_related: { definition: "Form criticism and tradition history which try to reconstruct the oral prehistory behind the identified written sources", what_it_does: "", examples: "historians' possibilities" },
+  the_most_important_legal_sources: "Created by parliaments, governments, courts, and legal researchers",
+
 };
 
 // ============================================================
