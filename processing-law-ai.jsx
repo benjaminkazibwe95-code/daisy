@@ -32517,6 +32517,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 05:29 ===
   the_world_journal_of_surgery: "A peer-reviewed medical journal covering research in the field of surgery",
 
+  // === INGESTED 2026-06-24 05:31 ===
+  the_corps_motto: "Mens sana in corpore sano which means 'a healthy mind in a healthy body'",
+  its_quick_march: "Be Fit , with words taken from Land and Sea Tales by Rudyard Kipling",
+
 };
 
 // ============================================================
