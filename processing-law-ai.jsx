@@ -34863,6 +34863,16 @@ const FLAT_DICT = {
   they_serve_the_same_basic_function_which: { definition: "Administrative accounting of goods in a centrally controlled society", what_it_does: "", examples: "the order in which the tablet was inscribed, are clear" },
   there_is_disagreement_over_whether_some_signs: "Different or merely variants; but by 1974 enough of a consensus on the signs was reached that decipherment could advance",
 
+  // === INGESTED 2026-06-24 12:46 ===
+  two_writing_systems: "Used to write the Geʽez language: an abjad and, later, an abugida",
+  the_original_form_of_the_consonant: "Used when the vowel was ä ( / ə / ), the so-called inherent vowel",
+  the_resulting_forms: "Shown below in their traditional order",
+  for_most_consonants_there: "An eighth form for the diphthong -wa or -oa , and for a number of those a ninth form for -jä",
+  a_few_of_the_basic_consonants: "Falling into disuse in Eritrea (as they used 'ጸ' for 'ፀ')",
+  where_the_labiovelar_variants: { definition: "Used, these come immediately after the basic consonant and are followed by other variants", what_it_does: "", examples: "the letters based on ከ come in this order: ከ, ኰ, ኸ, ዀ" },
+  the_digits_historically: "Greek letters over- and under-lined with a vinculum",
+  ethiopian_numerals: "Borrowed from the Greek numerals , possibly via Coptic uncial letters",
+
 };
 
 // ============================================================
