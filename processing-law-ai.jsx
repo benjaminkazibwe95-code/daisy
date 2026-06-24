@@ -35754,6 +35754,14 @@ const FLAT_DICT = {
   of_special_note_are_the_players_who: "Dubbed Kisei (Go Sage)",
   the_only_three_players_to_receive_this_honor: "Dōsaku , Jōwa and Shūsaku , all of the house Hon'inbō",
 
+  // === INGESTED 2026-06-24 15:22 ===
+  checkers: "Developed from alquerque",
+  american_checkers: "Weakly solved in 2007 by a team of Canadian computer scientists led by Jonathan Schaeffer",
+  kings_with_such_an_ability: "Also informally called flying kings",
+  flying_kings: "Not used in American checkers; a king's only advantage over a man is the additional ability to move and capture backwards",
+  the_pieces: "Usually called men , stones , 'peón' (pawn) or a similar term; men promoted to kings are called dames or ladies",
+  this_european_game: { definition: "Already being played in 1100, probably in the south of France", what_it_does: "", examples: "mandatory capture and backward capture, as well as different powers for promoted pieces" },
+
 };
 
 // ============================================================
