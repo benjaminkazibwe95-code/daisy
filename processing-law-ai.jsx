@@ -35226,6 +35226,16 @@ const FLAT_DICT = {
   in_class_she: "Emploied to litle strength; in boulyng oftentimes to moche; wherby the sinewes be to moche strayned, and the vaines to moche chafed",
   this_account_is_particularly_noteworthy_as_he: "Football by its correct name in English and is the first to describe the following: modern goals and a pitch ('a close that has a gate at either end",
 
+  // === INGESTED 2026-06-24 14:02 ===
+  england: "Regarded in Argentina as one of the major rivals of the national football team, matched only by Brazil and Uruguay",
+  thomas_tuchel: "The current head coach",
+  graham_taylor: "Robson's immediate successor",
+  the_away_kit: "Also sometimes worn during home matches, when a new edition has been released to promote it",
+  the_original_empire_stadium: { definition: "Built in Wembley , London, for the British Empire Exhibition", what_it_does: "", examples: "the hand of God in 1986" },
+  all_england_matches: "Broadcast with full commentary on Talksport and BBC Radio 5 Live",
+  this_oneoff_event: { definition: "The first time an England game had been screened in such a way", what_it_does: "", examples: "2022–23 UEFA Nations League matches, Euro 2024 qualifying games, and friendlies" },
+  a_clean_sheet: "A match where a team does not concede any goals to their opponent",
+
 };
 
 // ============================================================
