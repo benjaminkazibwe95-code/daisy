@@ -31343,6 +31343,10 @@ const FLAT_DICT = {
   the_instantiation_of_normative_properties: "Metaphysically possible in a world like ours",
   ethical_a_priori_cognition: "Vindicated to the extent to which other a priori knowledge is available",
 
+  // === INGESTED 2026-06-24 02:24 ===
+  eric_heinze: { definition: "Professor of Law and Humanities at the School of Law Queen Mary, University of London", what_it_does: "", examples: "extensive opportunities to criticize their governments" },
+  heinze: "A Liberal Democrat candidate for the Valley ward in the 2022 Waltham Forest London Borough Council election , coming 8th in the three-member ward",
+
 };
 
 // ============================================================
