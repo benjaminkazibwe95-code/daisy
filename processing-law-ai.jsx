@@ -34560,6 +34560,17 @@ const FLAT_DICT = {
   allen_argues_that_it: "Often difficult for individuals to focus on big picture goals if they cannot sufficiently control the day-to-day tasks that they frequently must face",
   mental_blocks_we_encounter: { definition: "Caused by insufficient 'front-end' planning", what_it_does: "", examples: "43 Folders , [ 13 ] Lifehacker , [ 14 ] and The Simple Dollar" },
 
+  // === INGESTED 2026-06-24 11:49 ===
+  the_short_duration_of_which_we: "Immediately and incessantly sensible'",
+  explicit_timing: "Used in estimating the duration of a stimulus",
+  implicit_timing: "Used to gauge the amount of time separating one from an impending event that is expected to occur in the near future",
+  explicit_timing_often: "The supplementary motor area and the right prefrontal cortex",
+  this_window_of_delay_means_that_awareness: "Retroactive, incorporating data from a window of time after an event and delivering a delayed interpretation of what happened",
+  this_is_true_whether_the_total_amount_of_food: { definition: "The same for both options or if the total amount of food is unpredictable in the variable option", what_it_does: "", examples: "quick eye movement )" },
+  if_the_first_hypothesis: { definition: "Correct, we would expect that, immediately following reversal, the moving object would be observed as lagging behind the flashed object", what_it_does: "", examples: "a fight-or-flight response )" },
+  their_answers_suggest_that_this_model: { definition: "More accurate than the previous one", what_it_does: "", examples: "dopamine and norepinephrine may be the reason for this" },
+  dosedependent_effects_on_time_perception: "Only observed when short-term abstinent meth abusers processed long time intervals",
+
 };
 
 // ============================================================
