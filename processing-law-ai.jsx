@@ -34921,6 +34921,25 @@ const FLAT_DICT = {
   their_multiplicity: "Only apparent, in truth there is only one mind",
   the_keynote_of_the_old_upanishads: { definition: "'know thyself,' but with a much deeper meaning than that of the γνῶθι σεαυτόν of the Delphic Oracle", what_it_does: "", examples: "Hymns from the Rig Veda , The Cloud Messenger and the opera Sāvitri" },
 
+  // === INGESTED 2026-06-24 12:55 ===
+  each_shloka: "A couplet (two individual lines)",
+  though_bala_kanda: "Sometimes considered in the main epic, according to many Uttara Kanda is certainly a later interpolation, not attributable to Valmiki",
+  he_obeys_her_wish_but_stipulates_that_she: "Not to leave the cottage or entertain any stranger",
+  kishkindha_kanda: "Set in the land of Vānaras (Vana-nara) – Forest dwelling humans",
+  he_is_condemned_and_his_tail: "Set on fire, but he escapes his bonds and leaps across the rooftops, sets fire to Rāvaṇa's citadel, and makes the giant leap back from the island",
+  rama_rules_ayodhya_and_the_reign: "Called Rama-Rajya (a place where the common folk are happy, fulfilled, and satisfied)",
+  hanuman_rescues_rama_and_lakshmana_after_they: "Kidnapped by the Ahi-Mahi Ravana at the behest of Ravana and held prisoner in a cave, to be sacrificed to the goddess Kali",
+  adbhuta_ramayana_is_a_version_that: "Obscure but also attributed to Valmiki – intended as a supplementary to the original Valmiki Ramayana",
+  vimalsuri: "A Jain monk of the Śvetāmbara Murtipujaka sect",
+  perhaps_this: "Because Rama, a liberated Jain Self in his last life, is unwilling to kill",
+  the_first_half_of_kakawin_ramayana: { definition: "Similar to the original Sanskrit version, while the latter half is very different", what_it_does: "", examples: "in wayang and traditional dances" },
+  it_has_an_expanded_role_for_hanuman_and_he: "Portrayed as a lascivious character",
+  sendratari_ramayana: "The Javanese traditional ballet in wayang orang style, routinely performed in the cultural center of Yogyakarta",
+  large_casts: "Part of outdoor and indoor performances presented regularly at Prambanan Trimurti temple for many years",
+  their_paintings: "Currently in the National Museum of World Cultures collections of Tropenmuseum in Amsterdam , Netherlands",
+  the_painting: "Currently in the permanent collection of the Malaysian National Visual Arts Gallery",
+  rampur: "The most common name for villages and towns across the nation particularly UP, Bihar and West Bengal",
+
 };
 
 // ============================================================
