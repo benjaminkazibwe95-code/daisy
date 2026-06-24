@@ -31779,6 +31779,27 @@ const FLAT_DICT = {
   major_themes_of_continuing_development: "(1) achieving the same results with lighter construction and less cost and (2) making hoophouses easily movable",
   a_us_department_of_agriculture_program: "Helping farmers install polytunnels",
 
+  // === INGESTED 2026-06-24 03:31 ===
+  the_first_patent_for_a_solar_collector: "Obtained by the Italian Alessandro Battaglia in Genoa, Italy, in 1886",
+  few_other_plants: "Built with this design, although the 5 MW Kimberlina Solar Thermal Energy Plant opened in 2009",
+  ivanpah_solar_power_facility: "Constructed at the same time but without thermal storage, using natural gas to preheat water each morning",
+  csp: "Used to produce electricity (sometimes called solar thermoelectricity, usually generated through steam )",
+  the_concentrated_light: { definition: "Then used as heat or as a heat source for a conventional power plant (solar thermoelectricity)", what_it_does: "", examples: "in solar air conditioning" },
+  new_innovations_in_csp_technology: "Leading systems to become more and more cost-effective",
+  the_receiver: "A tube positioned at the longitudinal focal line of the parabolic mirror and filled with a working fluid",
+  optically_a_solar_power_tower: "The same as a circular Fresnel reflector",
+  the_working_fluid_in_the_receiver: "Heated to 250–700 °C (482–1,292 °F) and then used by a Stirling engine to generate power",
+  powertower_development: "Less advanced than trough systems, but they offer higher efficiency and better energy storage capability",
+  beam_down_tower_application: "Also feasible with heliostats to heat the working fluid",
+  fresnel_reflectors: "Made of many thin, flat mirror strips to concentrate sunlight onto tubes through which working fluid is pumped",
+  the_cost_efficiency_of_this_model: "What causes some to use this instead of others with higher output ratings",
+  these_csp_plants: "Equipped with gas turbines to generate electricity",
+  when_the_receiver_efficiency: "Null (blue curve on the figure below), T max is: T m a x = ( I C σ ) 0.25 {\displaystyle T_{\mathrm {max} }=\left({\frac {IC}{\sigma }}\right)^{0",
+  another_application_for_csp_in_australia: { definition: "Mines that need 24/7 electricity but often have no grid connection", what_it_does: "", examples: "large-scale onshore wind, rather than solar thermal and CSP" },
+  researchers: "Investigating solar thermal reactors for the production of solar fuels, making solar a fully transportable form of energy in the future",
+  total_consumption_worldwide: "15,223 TWh/year [ 129 ] (in 2003)",
+  the_locations_with_highest_direct_irradiance: { definition: "Dry, at high altitude, and located in the tropics", what_it_does: "", examples: "the use of barriers, non-stick coatings on mirrors, water misting systems, and others" },
+
 };
 
 // ============================================================
