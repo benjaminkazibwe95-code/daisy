@@ -35177,6 +35177,33 @@ const FLAT_DICT = {
   what_they_found_was_that_people_who: "About to place a bet rated the chance that their horse would win at an average of 3",
   to_leave_early: "To make this lapse of judgment manifest to strangers, an appearance they might otherwise choose to avoid",
 
+  // === INGESTED 2026-06-24 13:54 ===
+  feedback_occurs_when_outputs_of_a_system: "Routed back as inputs as part of a chain of cause and effect that forms a circuit or loop",
+  he_emphasizes_that_the_information_by_itself: { definition: "Not feedback unless translated into action", what_it_does: "", examples: "the speed limit" },
+  the_controlled_system: "The car; its input includes the combined torque from the engine and from the changing slope of the road (the disturbance)",
+  the_error_signal: { definition: "The difference between the speed as measured by the speedometer and the target speed (set point)", what_it_does: "", examples: "those that are used to make and design digital systems" },
+  the_value_of_the_parameter_to_maintain: "Recorded by a reception system and conveyed to a regulation module via an information channel",
+  a_negative_feedback_loop: "One that tends to slow down a process, whereas a positive feedback loop tends to accelerate it",
+  the_mirror_neurons: { definition: "Part of a social feedback system, when an observed action is mirrored by the brain, like a self-performed action", what_it_does: "", examples: "molecules that induce diverse cells to cooperate and restore tissue structure and function" },
+  this_type_of_feedback: "Important because it enables coordination of immune responses and recovery from infections and injuries",
+  when_they_realize_that_they: "Blushing, they become even more embarrassed, which leads to further blushing, and so on",
+  hydraulic_servos: { definition: "Later used to position guns", what_it_does: "", examples: "amplifiers , oscillators , and stateful logic circuit elements such as flip-flops and counters" },
+  electronic_feedback_systems: "Also very commonly used to control mechanical, thermal and other physical processes",
+  if_the_signal: "Inverted on its way round the control loop, the system is said to have negative feedback ; [ 43 ] otherwise, the feedback is said to be positive",
+  design_to_ensure_stability_often: "Frequency compensation to control the location of the poles of the amplifier",
+  electronic_feedback_loops: "Used to control the output of electronic devices, such as amplifiers",
+  a_feedback_loop: "Created when all or some portion of the output is fed back to the input",
+  a_device: "Said to be operating open loop if no output feedback is being employed and closed loop if feedback is being used",
+  this_fact: "Very widely used in digital electronics to make bistable circuits for volatile storage of information",
+  if_the_loop_gain: "Sufficient, howling or squealing at the maximum power of the amplifier is possible",
+  loop_gain: "The sum of the gain , expressed as a ratio or in decibels , around a feedback loop",
+  the_input_signal: "Applied to the amplifier with open-loop gain A and amplified",
+  the_output_of_the_amplifier: "Applied to a feedback network with gain B , and subtracted from the input to the amplifier",
+  the_loop_gain: "The product of all gains in the loop",
+  the_minus_sign_is_because_the_feedback_signal: "Subtracted from the input",
+  latches_and_flipflops: { definition: "Used as data storage elements", what_it_does: "", examples: "IBM Db2 and IBM Tivoli" },
+  video_feedback: { definition: "The video equivalent of acoustic feedback", what_it_does: "", examples: "a television screen or monitor" },
+
 };
 
 // ============================================================
