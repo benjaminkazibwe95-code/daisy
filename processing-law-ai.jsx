@@ -32385,6 +32385,17 @@ const FLAT_DICT = {
   the_idea_of_this: { definition: "To reduce the temptation to eat so much junk food and excessive fats and sugars, as there is already enough fat and sugar in the rest of the diet", what_it_does: "", examples: "the triangles in the Fruit Group represent the fact that sugar is inevitable in that group" },
   this_incident: { definition: "Only one of many in which the food industry attempted to alter federal dietary recommendations in their own economic self-interest", what_it_does: "", examples: "a Vegetarian Diet Pyramid" },
 
+  // === INGESTED 2026-06-24 05:08 ===
+  community_health: "Generally measured by geographical information systems (GIS) and demographic data",
+  secondary_healthcare: "Related to 'hospital care' where acute care is administered in a hospital department setting",
+  tertiary_healthcare: { definition: "Highly specialized care usually involving disease or disability management", what_it_does: "", examples: "distribution of water chlorination tablets, mosquito nets and health education material" },
+  the_vital_role: "Advocating for the rights and interests of their community members",
+  primary_healthcare: "Provided by health professionals , specifically the ones a patient sees first that may refer them to Secondary or Tertiary care",
+  prevention_programs: "One of the most effective tools health professionals can use to significantly impact individual, population, and community health",
+  community_health_status: { definition: "Determined by the environmental characteristics, behavioral characteristics, social cohesion in the environment of that community", what_it_does: "", examples: "scientific complexity or uncertainty" },
+  an_assetbased_approach: "Empowering individuals and communities by focusing on community strengths along with the skills of the individuals",
+  the_information_that_is_gathered: { definition: "Also distributed to the community to help with important decision-making", what_it_does: "", examples: "South Asia, the Middle East, and Sub-Saharan Africa" },
+
 };
 
 // ============================================================
