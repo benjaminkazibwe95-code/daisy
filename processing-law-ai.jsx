@@ -32915,6 +32915,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 06:45 ===
   the_album_des_rois_des_pions_et_des_fous: "His fourth solo project",
 
+  // === INGESTED 2026-06-24 06:47 ===
+  mode_i: "The most common load type encountered in engineering design",
+  mode_ii: "A sliding (in-plane shear ) mode where the crack surfaces slide over one another in a direction perpendicular to the leading edge of the crack",
+  mode_iii: "A tearing ( antiplane shear ) mode where the crack surfaces move relative to one another and parallel to the leading edge of the crack",
+  different_subscripts: "Used to designate the stress intensity factor for the three different modes",
+  the_stress_intensity_factor_for_mode_i: "Designated K I {\displaystyle K_{\rm {I}}} and applied to the crack opening mode",
+  the_material: "Assumed to be an isotropic, homogeneous, and linear elastic",
+  stress_intensity_in_any_mode_situation: "Directly proportional to the applied load on the material",
+  the_gcriterion: "A fracture criterion that relates the critical stress intensity factor (or fracture toughness) to the stress intensity factors for the three modes",
+
 };
 
 // ============================================================
