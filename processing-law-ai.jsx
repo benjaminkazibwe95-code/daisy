@@ -34777,6 +34777,20 @@ const FLAT_DICT = {
   the_superintendent: "A spokesperson for education in the state",
   the_superintendent_also: "The primary liaison to the United States Department of Education and other federal agencies",
 
+  // === INGESTED 2026-06-24 12:30 ===
+  another_concept_of_learning: { definition: "Attributed to all animals and even certain plants", what_it_does: "", examples: "the barriers, if they want to create good conditions for knowledge flow" },
+  his_early_work_clearly_stated_that_knowledge: { definition: "Regarded as a firm's stock", what_it_does: "", examples: "effects of the fluid's native viscosity)" },
+  even_though_the_benefits_of_knowledge_transfer: { definition: "Well known, the effectiveness of the process varies considerably", what_it_does: "", examples: "best practices, can be quite difficult to achieve" },
+  explicit_knowledge: "An awareness of facts or skills that can be readily articulated, conceptualized, codified, formalized, stored and accessed",
+  a_knowledge_transfer_unit: "Defined as the smallest amount of information that can be accurately communicated",
+  linear_knowledge_transfer_occurs_when_there: "One source and one recipient (e.g",
+  divergent_knowledge_transfer_occurs_when_there: "One source and multiple recipients (e.g",
+  convergent_knowledge_transfer: { definition: "Especially efficient in producing in-depth knowledge of a specific topic", what_it_does: "", examples: "The Global Innovation Network [ 70 ] and the knowledge Pool)" },
+  businessuniversity_collaboration: { definition: "The subject of the Lambert Review in the UK in 2003", what_it_does: "", examples: "management and organisational practices" },
+  a_recent_trend: "The development of online platforms aiming to optimize knowledge transfer and collaboration",
+  the_main_idea: "To help people work productively with data and knowledge",
+  this_fluency_of_application: "In part what differentiates information from knowledge",
+
 };
 
 // ============================================================
