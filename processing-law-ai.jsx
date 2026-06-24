@@ -33781,6 +33781,21 @@ const FLAT_DICT = {
   as_the_cultures_continue_to_evolve_it: "Necessary that research capture these changes",
   identifying_which_emotions: "Good or bad, when emotions are appropriate to be expressed, and even how they should be displayed are all influenced by culture",
 
+  // === INGESTED 2026-06-24 09:41 ===
+  relation: "Considered to be 'established beyond a reasonable doubt' if a reconstruction of the common ancestor is feasible",
+  two_languages: { definition: "Genetically related if they descended from the same ancestor language", what_it_does: "", examples: "is related to both German and Russian but is more closely related to the former than to the latter" },
+  the_scythian_theory: "Further developed by Andreas Jäger (1686) and William Wotton (1713), who made early forays to reconstruct the primitive common language",
+  this_abbreviated_summary: "Based on their concepts of how to proceed",
+  this_step_involves_making_lists_of_words_that: "Likely cognates among the languages being compared",
+  if_more_evidence_along_those_lines: "Given, one might conclude that an alteration of the original k took place because of a different environment",
+  a_more_complex_case: { definition: "Consonant clusters in Proto-Algonquian", what_it_does: "", examples: "is reconstructed as *dwō , which is reflected in Classical Armenian as erku" },
+  it_has_a_large_number_of_proponents_but: "Not generally accepted",
+  the_limitations_of_the_comparative_method: "Recognized by the very linguists who developed it, [ 60 ] but it is still seen as a valuable tool",
+  childe: { definition: "A philologist turned archaeologist", what_it_does: "", examples: "their languages, but his law was rejected after World War II" },
+  the_tree_model_features_nodes_that: "Presumed to be distinct proto-languages existing independently in distinct regions during distinct historical times",
+  even_after_they: "Considered distinct, languages near one another continue to influence one another and often share grammatical, phonological, and lexical innovations",
+  the_reconstruction_of_unknown_protolanguages: { definition: "Inherently subjective", what_it_does: "", examples: "*p , which eventually mutated to *b in one branch and to *m in the other" },
+
 };
 
 // ============================================================
