@@ -32738,6 +32738,14 @@ const FLAT_DICT = {
   as_climate_change: "Warming ocean temperatures , there is potentially more of this fuel available",
   rapidly_intensifying_cyclones: "Hard to forecast and therefore pose additional risk to coastal communities",
 
+  // === INGESTED 2026-06-24 06:13 ===
+  section_i: { definition: "DSM-5 chapter organization, its change from the multiaxial system, and Section III's dimensional assessments", what_it_does: "", examples: "field trials, public and professional review, and expert review" },
+  it_states_its_goal: { definition: "To harmonize with the International Classification of Diseases (ICD) systems and share organizational structures as much as is feasible", what_it_does: "", examples: "dissociative , neurodevelopmental , and personality disorders" },
+  three_additional_white_papers: "Also due by 2004 concerning gender issues, diagnostic issues in the geriatric population, and mental disorders in infants and young children",
+  several_individuals: "Ruled ineligible for task force appointments due to their competing interests",
+  the_research_base_of_mental_disorders: { definition: "Evolving at different rates for different disorders", what_it_does: "", examples: "new 'false 'epidemics''" },
+  the_weakness: "Its lack of validity ",
+
 };
 
 // ============================================================
