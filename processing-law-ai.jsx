@@ -34690,6 +34690,9 @@ const FLAT_DICT = {
   the_resulting_structure: { definition: "Called an abstract datatype", what_it_does: "", examples: "The syntax of a computer program is a list of production rules which form its grammar" },
   one_production_rule_listing_method: "Called the Backus–Naur form (BNF)",
 
+  // === INGESTED 2026-06-24 12:13 ===
+  their_parents: "The well-known socialist and later communist politicians and educators Hermann and Käte Duncker",
+
 };
 
 // ============================================================
