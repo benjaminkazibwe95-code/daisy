@@ -32443,6 +32443,10 @@ const FLAT_DICT = {
   the_triglycerides: "Coated with cholesterol and protein (protein coat) into a compound called a chylomicron",
   separation_of_unsaturated_isomers: "Possible by silver ion complemented thin-layer chromatography",
 
+  // === INGESTED 2026-06-24 05:19 ===
+  butterfat_or_milkfat: "The fatty portion of milk",
+  milk_and_cream: "Often sold according to the amount of butterfat they contain",
+
 };
 
 // ============================================================
