@@ -32870,6 +32870,14 @@ const FLAT_DICT = {
   chan_school_of_public_health: "The public health school of Harvard University, located in the Longwood Medical Area of Boston",
   cornell_and_harvard: { definition: "The most storied programs currently in the ECAC", what_it_does: "", examples: "the pre-NCAA era, Harvard has won 159 national championships across all sports" },
 
+  // === INGESTED 2026-06-24 06:32 ===
+  intellect: "A faculty of the human mind that enables reasoning , abstraction , conceptualization , and judgment",
+  the_conceptual_model_of_mind: "Composed of the mental and emotional processes by which a person seeks, finds, and applies logical solutions to the problems of life",
+  the_full_potential_of_the_intellect: { definition: "Achieved when a person acquires a factually accurate understanding of the real world, which is mirrored in the mind", what_it_does: "", examples: "intuition and emotion" },
+  the_mind_that: "Orientated by objective data, is actually the only one recognized",
+  contents: "Figurative and symbolic , semantic and behavioral",
+  products: "In units, classes, and relations , systems, transformations, and implications",
+
 };
 
 // ============================================================
