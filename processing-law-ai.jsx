@@ -35121,6 +35121,19 @@ const FLAT_DICT = {
   when_animals: "Faced with a choice to either wait for a reward, or receive a reward right away, the discounting of the reward is hyperbolic",
   the_ultimate_payoff: "The same, but the monkeys preferred the riskier choice",
 
+  // === INGESTED 2026-06-24 13:37 ===
+  psychologist_george_armitage_miller: { definition: "Very influential in this regard, proposing that people can process about seven chunks of information at a time", what_it_does: "", examples: "'information glut', 'data smog', and 'data glut' ( Data Smog , Shenk, 1997)" },
+  the_library_of_alexandria: "Established around the 3rd century BCE or 1st century Rome, which introduced acts of preserving historical artifacts",
+  this_era_marked_a_time_when_inventive_methods: "Established to practice information accumulation",
+  he_discusses_how_information_theory: "Created to first bridge mathematics, engineering, and computing together, creating an information code between the fields",
+  the_phenomenon_of_information_overload: "Connected to the field of information technology (IT)",
+  one_concern_in_this_field: "That massive amounts of information can be distracting and negatively impact productivity and decision-making and cognitive control",
+  disillusionment_when_a_search: "More challenging than expected may result in an individual being less able to search effectively",
+  filtering: "Quickly working out whether a particular piece of information, such as an email, can be ignored based on certain criteria",
+  the_aim_of_such_charging: "To force the sender to consider the necessity of the interruption",
+  economics_often_assumes_that_people: "Rational in that they have the knowledge of their preferences and an ability to look for the best possible ways to maximize their preferences",
+  a_response_to_this: "The publishing of systematic reviews such as the Cochrane Reviews",
+
 };
 
 // ============================================================
