@@ -33317,6 +33317,16 @@ const FLAT_DICT = {
   while_this_problem: "First noted in a footnote by Frege , it received a more developed formulation by Jørgensen",
   mixed_inferences: "Of special interest to logicians",
 
+  // === INGESTED 2026-06-24 08:07 ===
+  his_best_subjects: "Science and mathematics",
+  both_shannon_and_edison: { definition: "Descendants of John Ogden (1609–1682), a colonial leader and an ancestor of many distinguished people", what_it_does: "", examples: "a digital 4-bit full adder" },
+  shannon: "Credited with the invention of signal-flow graphs , in 1942",
+  a_declassified_version_of_this_paper: "Published in 1949 as ' Communication Theory of Secrecy Systems ' in the Bell System Technical Journal",
+  below_the_surface: "Sensors (an electromechanical relay circuit) [ 66 ] that followed the path of a mechanical mouse through the maze",
+  this_random_trial_and_error: { definition: "The foundation of artificial intelligence", what_it_does: "", examples: "neural nets, Turing machines, cybernetic mechanisms, and symbolic processing by computer" },
+  in_this_form_it: "Known as 'Shannon's maxim'",
+  shannon_award: "Established in his honor; he was also its first recipient, in 1973",
+
 };
 
 // ============================================================
