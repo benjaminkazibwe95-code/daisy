@@ -33825,6 +33825,18 @@ const FLAT_DICT = {
   keyboards_with_a_zawgyi_layout: "The most commonly available for purchase domestically",
   the_national_standard_keyboard_layout: "Known as the Myanmar3 layout, and it was published along with the Myanmar3 Unicode font",
 
+  // === INGESTED 2026-06-24 09:48 ===
+  the_basic_postulate_of_ug_is_that_there: "Innate constraints on what the grammar of a possible human language could be",
+  when_linguistic_stimuli: { definition: "Received in the course of language acquisition , children then adopt specific syntactic rules that conform to UG", what_it_does: "", examples: "one famous poverty of the stimulus argument concerns the acquisition of yes–no questions in English" },
+  this_is_taken_as_evidence_that_children: "Born knowing that grammatical rules involve hierarchical structure, even though they have to figure out what those rules are",
+  while_not_much_work: "Done on the evolution of languages, Dante and Roger Bacon offered perceptive observations",
+  an_influential_work_in_that_time: { definition: "Grammaire générale by Claude Lancelot and Antoine Arnauld", what_it_does: "", examples: "number , tenses , etc" },
+  the_second_hypothesis_states_that_the_flb: "A derived and uniquely human adaptation for language",
+  this_hypothesis_holds_that_individual_traits: "Subject to natural selection and came to be specialized for humans",
+  it_holds_that_while_mechanisms_of_the_flb: "Present in both human and non-human animals, the computational mechanism of recursion has evolved recently, and solely in humans",
+  the_system_used_by_the_original_speakers: { definition: "Typically an inconsistent mix of vocabulary items, known as pidgin", what_it_does: "", examples: "children correct grammar generalizations like goed to went through repetitive failure" },
+  the_lad: "Part of the species' heredity, the result of mutations over a long period, he states",
+
 };
 
 // ============================================================
