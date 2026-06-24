@@ -34550,6 +34550,16 @@ const FLAT_DICT = {
   workers: { definition: "Not aware of the dangers of the hazardous substance and were not given protective equipment", what_it_does: "", examples: "continuous casting , while profitable U.S" },
   the_johnstown_plant: "Purchased from Bethlehem Steel through a management buyout in 1991, creating Johnstown America Industries",
 
+  // === INGESTED 2026-06-24 11:47 ===
+  the_workflow: "The center of the control aspect",
+  it_just: "Applying the 'capture, clarify, organize' steps to all one's 'stuff'",
+  multistep_projects_identified_above: "Assigned a desired outcome and a single 'next action'",
+  the_goal_of_the_control_processes_in_gtd: "To get everything except the current task out of one's head and into this trusted system external to one's mind",
+  when_a_small_object: "Thrown into a pool of water, the water responds appropriately with a small splash followed by quiescence",
+  when_a_large_object: "Thrown in the water again responds appropriately with a large splash followed by quiescence",
+  allen_argues_that_it: "Often difficult for individuals to focus on big picture goals if they cannot sufficiently control the day-to-day tasks that they frequently must face",
+  mental_blocks_we_encounter: { definition: "Caused by insufficient 'front-end' planning", what_it_does: "", examples: "43 Folders , [ 13 ] Lifehacker , [ 14 ] and The Simple Dollar" },
+
 };
 
 // ============================================================
