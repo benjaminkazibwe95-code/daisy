@@ -32490,6 +32490,30 @@ const FLAT_DICT = {
   in_many_families_the_adults: { definition: "Working away from home and therefore there is little time for the preparation of food based on fresh ingredients", what_it_does: "", examples: "heat destroys vitamin C" },
   processing_foods_often: { definition: "Nutrient losses, which can make it harder to meet the body's needs if these nutrients are not added back through fortification or enrichment", what_it_does: "", examples: "using high heat during processing can cause vitamin C losses" },
 
+  // === INGESTED 2026-06-24 05:27 ===
+  many_of_these_processes: "Carried out by microbes , either in their effort to harvest energy or to accumulate nitrogen in a form needed for their growth",
+  monitrogenase: { definition: "A complex two-component enzyme that has multiple metal-containing prosthetic groups", what_it_does: "", examples: "Rhizobium usually live in the root nodules of legumes (such as peas, alfalfa , and locust trees)" },
+  if_nitrate: "Absorbed, it is first reduced to nitrite ions and then ammonium ions for incorporation into amino acids, nucleic acids, and chlorophyll",
+  it_is_now_known_that_there: { definition: "A more complex cycling of amino acids between Rhizobia bacteroids and plants", what_it_does: "", examples: "many bacteria ) are able to utilize inorganic compounds, such as ammonium as sole N sources" },
+  utilization_of_various_n_sources: { definition: "Carefully regulated in all organisms", what_it_does: "", examples: "amino acids and DNA" },
+  elevated_nitrate_in_groundwater: "A concern for drinking water use because nitrate can interfere with blood-oxygen levels in infants and cause methemoglobinemia or blue-baby syndrome",
+  denitrification: "The reduction of nitrates back into nitrogen gas ( N 2 ), completing the nitrogen cycle",
+  often_these_conversions: { definition: "Effected by different organisms", what_it_does: "makes up a major proportion of nitrogen conversion in the oceans", examples: "freshwater" },
+  while_the_overall_cycle: "Similar, there are different players [ 56 ] and modes of transfer for nitrogen in the ocean",
+  ammonia_and_urea: "Released into the water by excretion from plankton",
+  nitrogen_sources: "Removed from the euphotic zone by the downward movement of the organic matter",
+  nitrate: "Depleted in near-surface water except in upwelling regions",
+  the_input_of_iron_varies_by_region_and: "Delivered to the ocean by dust (from dust storms ) and leached out of rocks",
+  nitrogen_entering_the_euphotic_zone: "Referred to as new nitrogen because it is newly arrived from outside the productive layer",
+  outside_sources: "Upwelling from deep water and nitrogen fixation",
+  new_production: "An important component of the marine environment",
+  one_reason: { definition: "That only continual input of new nitrogen can determine the total capacity of the ocean to produce a sustainable fish harvest", what_it_does: "", examples: "ammonia ( NH 3 ) and ammonium ions ( NH + 4 )" },
+  human_alterations_to_the_global_nitrogen_cycle: "Most intense in developed countries and in Asia, where vehicle emissions and industrial agriculture are highest",
+  nitrous_oxide_is_also_a_greenhouse_gas_and: "Currently the third largest contributor to global warming , after carbon dioxide and methane",
+  its_production: "A function of combustion temperature - the higher the temperature, the more NO x is produced",
+  fossil_fuel_combustion: { definition: "A primary contributor, but so are biofuels and even the burning of hydrogen", what_it_does: "", examples: "hypoxic and anoxic conditions, which can cause death of aquatic fauna" },
+  nitrification_via_aeration_before_discharge: { definition: "Often desirable to prevent fish deaths", what_it_does: "", examples: "oral cancer and gastric cancer )" },
+
 };
 
 // ============================================================
