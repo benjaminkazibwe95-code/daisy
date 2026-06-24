@@ -31318,6 +31318,10 @@ const FLAT_DICT = {
   a_modified_version: "Released one day before the passage of legislation that authorised the 1999 referendum",
   this_proposal: "Again opposed by the Labor party and was eventually defeated with a 60% no vote",
 
+  // === INGESTED 2026-06-24 02:18 ===
+  while_the_discussions: { definition: "Quite disparate, the essays generally draw from Nozick's previous interests in both politics and philosophy", what_it_does: "", examples: "'On Austrian Methodology' and 'Why Do Intellectuals Oppose Capitalism?'" },
+  metcalf_then_postulates_that_nozick_felt_this: "Threatened by neoliberal politics",
+
 };
 
 // ============================================================
