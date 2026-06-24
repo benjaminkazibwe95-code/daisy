@@ -33570,6 +33570,9 @@ const FLAT_DICT = {
   the_most_wellestablished_among_them: { definition: "Ablullah Yolcu, who is said to do 'production of Turkish Salafism from Arabic texts'", what_it_does: "", examples: "Eid Charity and Madid Ahl al-Sham , have a history of financing terrorist groups in Syria" },
   what_they_had_in_common: { definition: "That both rejected traditional teachings on Islam in favor of direct, 'fundamentalist' reinterpretation", what_it_does: "", examples: "those inspired for example by [ 307 ] Muhammad Abduh or by Muhammad Iqbal" },
 
+  // === INGESTED 2026-06-24 08:59 ===
+  marr: { definition: "Disappointed that the 'regionalism' so characteristic of the texts is absent in Doniger's book, and wondered why the discussion took so long", what_it_does: "", examples: "Varadaraja V" },
+
 };
 
 // ============================================================
