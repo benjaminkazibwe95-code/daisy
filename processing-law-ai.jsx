@@ -31912,6 +31912,27 @@ const FLAT_DICT = {
   maerl: { definition: "Commonly used as a soil conditioner", what_it_does: "", examples: "nori and aonori ; [ 164 ] Ireland, dulse ; Chile , cochayuyo" },
   molecular_cuisine: { definition: "Also a user of the substance for its gelling properties, by which it becomes a delivery vehicle for flavours", what_it_does: "", examples: "for use in flip-flops [ 187 ] and in surf boards" },
 
+  // === INGESTED 2026-06-24 03:48 ===
+  similar_terms: { definition: "Unmanned aircraft vehicle system ( UAVS ) and remotely piloted aircraft system ( RPAS )", what_it_does: "", examples: "UAV , UAS , RPAS , or uncrewed aircraft" },
+  the_term_uncrewed: { definition: "Sometimes used rather than unmanned when referring to UAVs", what_it_does: "", examples: "a vehicle may be remotely piloted in most contexts but have an autonomous return-to-base operation" },
+  the_balloons: "Launched mainly from land; however, some were also launched from the Austrian ship SMS Vulcano",
+  the_loss_rate: { definition: "High, but we are willing to risk more of them ", what_it_does: "", examples: "the General Atomics MQ-1 Predator , that launched AGM-114 Hellfire air-to-ground missiles" },
+  the_dji_phantom: "Considered one of the most influential consumer drone products ever made",
+  the_ingenuity_helicopter: "An autonomous UAV that operated on Mars from 2021 to 2024",
+  its_primary_goal: "To roam around the surface, expanding the amount of area to be researched previously seen by landers",
+  the_main_exceptions: "The cockpit and environmental control system or life-support systems",
+  miniaturization: "That less-powerful propulsion technologies can be used that are not feasible for crewed aircraft, such as small electric motors and batteries",
+  control_systems_for_uavs: "Often different from crewed craft",
+  autopilot_software: "Used on both crewed and uncrewed aircraft, with varying feature sets",
+  air_safety: "Also less of a critical requirement for unmanned aircraft, allowing the designer greater freedom to experiment",
+  larger_types_which_carry_a_variable_payload: "More likely to feature a distinct fuselage with a tail for stability, control and trim, although the wing configurations in use vary widely",
+  modern_system_hardware_for_uav_control: { definition: "Often called the flight controller (FC), flight controller board (FCB) or autopilot", what_it_does: "", examples: "accelerometers, gyroscopes, magnetometers, and barometers into a single module" },
+  this_software: { definition: "Not necessarily time-critical, and can often run on a single board computer running an operating system such as Linux with relaxed time constraints", what_it_does: "", examples: "airborne refueling [ 136 ] or ground-based battery switching" },
+  proper_drone_cooling: "Essential for long-term drone endurance",
+  overheating_and_subsequent_engine_failure: "The most common cause of drone failure",
+  the_prevalence_of_dji_drones: { definition: "Attributable to their market dominance, affordability, high performance, and reliability", what_it_does: "", examples: "the AERIGON cinema drone, used in film production, is operated by two people" },
+  another_risk: { definition: "The possibility of hijacking or jamming a UAV in flight", what_it_does: "", examples: "the Aaronia AARTOS have been installed on major international airports" },
+
 };
 
 // ============================================================
