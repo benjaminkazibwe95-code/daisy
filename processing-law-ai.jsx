@@ -30812,6 +30812,36 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 00:58 ===
   an_election_commission: { definition: "A body charged with overseeing the implementation of electioneering process of any country", what_it_does: "", examples: "section 190 of the Constitution of South Africa" },
 
+  // === INGESTED 2026-06-24 01:00 ===
+  a_public_library: "A library , most often a lending library , that is accessible by the general public and is usually funded from public sources, such as taxes",
+  public_libraries: { definition: "Funded from a range of sources, the most significant of which is usually local or municipal funding", what_it_does: "", examples: "parks and police" },
+  their_mandate: { definition: "To serve the general public's information needs rather than the needs of a particular school, institution, or research population", what_it_does: "", examples: "preschool story times to encourage early literacy among children" },
+  circulating_libraries: "Not in the business of preserving books; their owners wanted to lend books as many times as they possibly could",
+  the_building_and_creation_of_the_library: { definition: "Commissioned by the Lord of Cesena, Malatesta Novello", what_it_does: "", examples: "incunabula like the 1493 Nuremberg Chronicle, the oldest text in the library" },
+  the_library_was_open_to_the_public_and: "The first Polish public library, the biggest in Poland, and one of the earliest public libraries in Europe",
+  while_some_circulating_libraries: "Almost completely novels, others had less than 10% of their overall collection in the form of novels",
+  since_books: "Read for pure enjoyment rather than for scholarly work, books needed to become both cheaper and smaller",
+  small_duodecimo_editions_of_books: "Preferred to the large folio editions",
+  folio_editions: "Read at a desk, while the small duodecimo editions could be easily read like the paperbacks of today",
+  many_circulating_libraries: "Attached to the shops of milliners or drapers",
+  the_united_public_library: { definition: "Said to have a collection of some 52,000 volumes – twice as many as any private-subscription library in the country at that period", what_it_does: "", examples: "the British Library, were still largely an institution for the middle and upper classes" },
+  the_highest_percentage_of_subscribers: "Often landed proprietors, gentry, and old professions",
+  the_entrance_fee: { definition: "3 shillings, and the subscription was 1 shilling 6 pence per quarter", what_it_does: "", examples: "mechanics' institutes and the fear that it would give rise to 'unhealthy social agitation'" },
+  the_middle_classes: { definition: "Concerned that the workers' free time was not being well-spent", what_it_does: "", examples: "reading, would promote greater social good" },
+  over_half_of_its_volumes_were_lost_when_it: "Used as the British Officers Club during the Revolutionary War",
+  an_effort: { definition: "Made to replace the original collection", what_it_does: "", examples: "some belonging to universities" },
+  if_a_borrowed_book: "Returned late, the library may charge a small library fine , though some libraries have eliminated fines in recent years",
+  the_right_to_freedom_of_speech_and_information: "Significant to public libraries; one way of upholding this doctrine is to protect the privacy of all patrons that belong to a library",
+  the_concept_of_confidentiality: "Important because the First Amendment may be violated if a patron's information could possibly be shared",
+  adult_education_act_which: "Part of the Economic Opportunity Act of 1964",
+  a_starting_point_for_most_libraries: "To find out the demographics in which they are located",
+  reference_assistance: { definition: "Usually provided through a reference interview which is usually conducted at a public reference desk but may also be conducted by telephone or online", what_it_does: "", examples: "Wikipedia have transformed the reference environment" },
+  reference_books_that: "Frequently used, such as phone books, may be housed in a special section called 'ready reference'",
+  libraries_that: { definition: "Focused on collecting works related to particular families are genealogical libraries and may be housed in the same building as a public library", what_it_does: "", examples: "audiobooks , e-books , CDs , cassettes , videotapes , and DVDs" },
+  in_communities_that: "Extremely isolated or that have poor digital infrastructure, libraries may provide the only access to online education, telemedicine , or remote work",
+  a_librarian: { definition: "Designated as the library director or library manager", what_it_does: "", examples: "state libraries, the Library of Congress , the Bibliothèque Nationale de France )" },
+  but_the_survey_also_found_the_public: "Mostly unaware of financial difficulties facing their libraries",
+
 };
 
 // ============================================================
