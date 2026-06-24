@@ -32344,6 +32344,26 @@ const FLAT_DICT = {
   leibniz_proposed_that_it: "Not God's power to create a perfect world, but he created the best among possible worlds",
   the_optimistic_position: "Also called Panglossianism which became a term for excessive, even stupendous, optimism",
 
+  // === INGESTED 2026-06-24 05:04 ===
+  nanopharmacology: "The specialization of pharmacology in the nanoscale",
+  the_two_main_areas_of_pharmacology: "Pharmacodynamics and pharmacokinetics",
+  pharmacology: "Often taught to pharmacy and medicine students as part of a Medical School curriculum",
+  pharmakon: "Related to pharmakos , the ritualistic sacrifice or exile of a human scapegoat or victim in Ancient Greek religion",
+  the_modern_term_pharmacon: { definition: "Used more broadly than the term drug because it includes endogenous substances, and biologically active substances which are not used as drugs", what_it_does: "", examples: "monoamine oxidase inhibitors)" },
+  psychopharmacology: "The study of the use of drugs that affect the psyche , mind, and behavior (e.g",
+  pharmacogenomics: "The application of genomic technologies to drug discovery and further characterization of drugs related to an organism's entire genome",
+  clinical_pharmacology: "The application of pharmacological methods and principles in the study of drugs in humans",
+  both_pharmacology_and_toxicology: { definition: "Scientific disciplines that focus on understanding the properties and actions of chemicals", what_it_does: "", examples: "tablet or aerosol" },
+  the_energy_of_light: "Used to change for shape and chemical properties of the drug, resulting in different biological activity",
+  pharmacokinetics: "The study of the bodily absorption, distribution, metabolism, and excretion of drugs",
+  receptors: "Typically categorized based on structure and function",
+  pharmacodynamics: "Defined as how the body reacts to the drugs",
+  medication: "Said to have a narrow or wide therapeutic index , certain safety factor , or therapeutic window",
+  once_the_drug_reaches_the_blood_circulation_it: "Then distributed throughout the body and being more concentrated in highly perfused organs",
+  the_dosage_of_any_drug_approved_for_use: "Intended to fall within a range in which the drug produces a therapeutic effect or desired outcome",
+  medicare_part_d: "A prescription drug plan in the U.S",
+  prescription_drugs: "Drugs regulated by legislation",
+
 };
 
 // ============================================================
