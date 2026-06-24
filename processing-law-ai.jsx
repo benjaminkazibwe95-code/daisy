@@ -32099,6 +32099,15 @@ const FLAT_DICT = {
   ihe_delft_institute_for_water_education: "The largest international graduate water education facility in the world and is based in Delft , Netherlands",
   ihe_delft: "A partner institute of the National SENSE Research School",
 
+  // === INGESTED 2026-06-24 04:16 ===
+  the_first_use_of_agricultural_engineering: "The introduction of irrigation in large scale agriculture in the Nile and the Euphrates rivers before 2000 B.C",
+  large_irrigation_structures: "Also present in Baluchistan and India before Christian era",
+  in_south_america_irrigation: "Practiced in Peru by the Incas and in North America by the Aztecs",
+  mechanical_threshing: "Introduced in 1761 by John Lloyd, Magnus Strindberg and Dietrich",
+  beater_bar_threshing_machine: "Built by Andrew Meikle in 1786",
+  these_engineers: "Licensed and accredited after successfully passing the Agricultural and Biosystems Engineering Licensure Examination",
+  these_standards_and_regulations: "Developed on an international scale for fertilizers, soil conditions, fisheries, biofuels, biogas, feed machinery, tractors, and machinery",
+
 };
 
 // ============================================================
