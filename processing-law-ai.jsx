@@ -35479,6 +35479,12 @@ const FLAT_DICT = {
   the_home_uniforms: "A plain white uniform with script 'Athletics' across the chest",
   the_road_uniforms: { definition: "The same save for the shirt being gray", what_it_does: "", examples: "gold sleeveless tops with green undershirts and gold pants" },
 
+  // === INGESTED 2026-06-24 14:57 ===
+  the_other_teams: "The Baltimore Orioles , Cincinnati Red Stockings , Eclipse of Louisville , Pittsburgh Alleghenys , and St",
+  the_athletics: "Founded by businessman Bill Sharsig in September 1880",
+  their_home_games: "Played at Oakdale Park in 1882, and at the Jefferson Street Grounds from 1883 to 1890",
+  atkinson: "One of the few pitchers to throw more than one no-hitter , and he threw them both for the Athletics, on May 24, 1884 and May 1, 1886",
+
 };
 
 // ============================================================
