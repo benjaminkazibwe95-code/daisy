@@ -30960,6 +30960,11 @@ const FLAT_DICT = {
   what_i_wanted_to_do: { definition: "To improve our analysis of the working of the economic system", what_it_does: "", examples: "those by Guido Calabresi at Yale, by Donald Turner at Harvard, and by others" },
   what_we_discover: "That most regulation does produce, or has produced in recent times, a worse result",
 
+  // === INGESTED 2026-06-24 01:23 ===
+  the_ecclesiastical_courts: "Generally more lenient",
+  the_benefit_of_clergy: { definition: "Systematically removed from English legal systems over the next 200 years, although it still occurred in South Carolina in 1855", what_it_does: "", examples: "the law in continental Europe and Latin American countries" },
+  the_dogmatic_determinations_of_the_councils: "To be applied rigorously since they are considered to be essential for the church's unity and the faithful preservation of the Gospel",
+
 };
 
 // ============================================================
