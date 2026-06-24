@@ -31053,6 +31053,12 @@ const FLAT_DICT = {
   the_production: "Well received and had an extended run",
   a_mural_of_mahathir: { definition: "Unveiled in Alor Setar , Kedah in 2015", what_it_does: "", examples: "the Royal Family Order of Brunei (1997), Order of Mubarak the Great (1997), Honorary Ph.D" },
 
+  // === INGESTED 2026-06-24 01:36 ===
+  un_until_the_progressive_movement_there: "No push to get xenophobia and racism out of society figures",
+  all_states: { definition: "Encouraged to accede to these international instruments; all States are encouraged to avoid, as far as possible, the resort to reservations", what_it_does: "", examples: "legislative ones, for their full implementation" },
+  migrant_workers: { definition: "Used almost as slaves and forced into terrible working conditions and labor hours", what_it_does: "", examples: "by addressing their root causes" },
+  every_person: "Born equal and has the same rights to life and welfare , education and work , living independently and active participation in all aspects of society",
+
 };
 
 // ============================================================
