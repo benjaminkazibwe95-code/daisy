@@ -31239,6 +31239,15 @@ const FLAT_DICT = {
   private_health_insurance: "Available to the population for those who want to avail of it",
   bram_stoker: "Best known as the author of the 1897 novel Dracula",
 
+  // === INGESTED 2026-06-24 02:05 ===
+  how_far_they_made_amendments: "Not recorded and, in the main, cannot be known because most of the originals have not survived",
+  its_public_law_content: { definition: "Quarried for arguments by both secular and ecclesiastical authorities", what_it_does: "", examples: "the contrast, especially in the Institutes , between 'law' (statute) and custom" },
+  the_institutiones: "Largely based on the Institutiones of Gaius",
+  the_new_institutiones: "Used as a manual for jurists in training from 21 November 533 and were given the authority of law on 30 December 533 along with the Digest",
+  these_serbian_codes: { definition: "Practised until the Serbian Despotate fell to the Ottoman Empire in 1459", what_it_does: "", examples: "the Exarchate of Ravenna" },
+  several_factors: "Likely involved, including disputes between the Holy Roman Empire and the papacy",
+  the_full_title_of_the_digest: "Digestorum seu Pandectarum tomus alter , and it was published by Carolus Guillardus",
+
 };
 
 // ============================================================
