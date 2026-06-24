@@ -31602,6 +31602,22 @@ const FLAT_DICT = {
   a_vaccine_for_mink_and_other_animals: "Being researched in 2021, though by 2025 it appeared that animals were effectively vaccinated, with the exception of polar bears",
   a_cytokine_storm: { definition: "A potentially deadly immune reaction where a large amount of pro-inflammatory cytokines and chemokines are released too quickly", what_it_does: "", examples: "antibody-dependant cellular cytotoxicity or phagocytosis , may be possible" },
 
+  // === INGESTED 2026-06-24 03:13 ===
+  scaledup_versions_of_demonstration_models: { definition: "Planned to generate significant power", what_it_does: "", examples: "an interview with an informed engineering proponent" },
+  functional_or_mechanical_feasibility: "Now less of an issue than capitalisation",
+  a_nearly_negligible_amount_of_carbon_dioxide: "Produced as part of operations, while construction material manufacturing can create emissions",
+  the_tower_blew_over_and: "Decommissioned in 1989",
+  the_solar_tower: "Built of iron plating only 1.25 millimetres (0.049 in) thick under the direction of a German engineer, Jörg Schlaich",
+  various_materials: "Used for testing, such as single or double glazing or plastic (which turned out not to be durable enough)",
+  one_section: "Used as an actual greenhouse",
+  the_solar_chimney_plant: { definition: "Expected to improve the climate by covering loose sand, restraining sandstorms", what_it_does: "", examples: "the ability to recover heat from photovoltaic (PV) arrays" },
+  insolation_and_wind: "The major factors on variance (range from 0.12 to 21.78 mW) in output",
+  this_demonstration_project: "Led by Cao Jun Ji, a chemist at the Chinese Academy of Sciences ' Key Laboratory of Aerosol Chemistry and Physics",
+  the_low_conversion_rate: "Balanced to some extent by the lower cost per square metre of solar collection",
+  the_glazed_collector_area: "Expected to extract about 0.5 percent, or 5 W/m 2 of 1 kW/m 2 , of the solar energy that falls upon it",
+  if_a_transpired_solar_collector: "Used in place of the glazed collector, the efficiency is doubled",
+  additional_efficiency_improvements: { definition: "Possible by modifying the turbine and chimney design to increase air speed using a venturi configuration", what_it_does: "", examples: "the AP-1000 at roughly $5 per watt of capacity" },
+
 };
 
 // ============================================================
