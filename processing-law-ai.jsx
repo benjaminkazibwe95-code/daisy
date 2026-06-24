@@ -31847,6 +31847,18 @@ const FLAT_DICT = {
   the_modification: "Usually done with additives, such as EVA copolymers, microcrystalline wax , or forms of polyethylene",
   sections: "Then cut on a microtome",
 
+  // === INGESTED 2026-06-24 03:38 ===
+  the_amount_of_solar_gain_a_space_experiences: "A function of the total incident solar irradiance and of the ability of any intervening material to transmit or resist the radiation",
+  the_overall_shading_coefficient: "Thus given by the ratio: S",
+  the_standard_shgc: "Calculated only for an angle of incidence normal to the window",
+  in_these_components_heat_transfer: "Entirely due to absorptance, conduction, and re-radiation since all transmittance is blocked in opaque materials",
+  the_primary_metric_in_opaque_components: "The Solar Reflectance Index which accounts for both solar reflectance (albedo) and emittance of a surface",
+  uncontrolled_solar_gain: "Undesirable in hot climates due to its potential for overheating a space",
+  shgc: "Influenced by the color or tint of glass and its degree of reflectivity",
+  lowemissivity_coating: { definition: "Another more recently developed option that offers greater specificity in the wavelengths reflected and re-emitted", what_it_does: "", examples: "in triple glazed windows , SHGC tends to be in the range of 0.33 - 0.47" },
+  for_double_glazed_windows_shgc: { definition: "More often in the range of 0.42 - 0.55", what_it_does: "", examples: "overhangs , louvers , fins, porches , and other architectural shading elements" },
+  passive_solar_heating: "A design strategy that attempts to maximize the amount of solar gain in a building when additional heating is desired",
+
 };
 
 // ============================================================
