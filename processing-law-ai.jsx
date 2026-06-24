@@ -31933,6 +31933,25 @@ const FLAT_DICT = {
   the_prevalence_of_dji_drones: { definition: "Attributable to their market dominance, affordability, high performance, and reliability", what_it_does: "", examples: "the AERIGON cinema drone, used in film production, is operated by two people" },
   another_risk: { definition: "The possibility of hijacking or jamming a UAV in flight", what_it_does: "", examples: "the Aaronia AARTOS have been installed on major international airports" },
 
+  // === INGESTED 2026-06-24 03:50 ===
+  the_largest_annual_emissions: { definition: "From China followed by the United States , which has higher emissions per capita", what_it_does: "", examples: "on human mortality" },
+  this_result_is_mostly_due_to_the_fact_that_it: { definition: "Cheaper to produce goods outside of developed countries, leading developed countries to become increasingly dependent on services and not goods", what_it_does: "", examples: "be measured against the base year of 1990" },
+  another_measurement: "Of per capita emissions",
+  the_net_effect_of_trade: "To export emissions from China and other emerging markets to consumers in the US, Japan, and Western Europe",
+  carbon_footprints: "Usually reported in tonnes of emissions ( CO 2 -equivalent ) per unit of comparison",
+  they_depend_on_whether_the_focus: "On a country, organization, product or individual person",
+  consumptionbased_accounting: { definition: "Therefore more comprehensive", what_it_does: "", examples: "Scope 3 emissions deals with gaps in current systems" },
+  the_majority_of_these_emissions: "Caused by passenger vehicles and vans",
+  road_travel: "The first major source of greenhouse gas emissions from transportation, followed by aircraft and maritime",
+  greenhouse_gas_emissions: "One of the environmental impacts of electricity generation",
+  if_emissions: { definition: "Attributed at the point of production, then electricity generators contribute about 25% of global greenhouse gas emissions", what_it_does: "", examples: "forests into agricultural land are also very important" },
+  lowenergy_buildings: { definition: "Designed to be highly efficient with low total energy consumption and carbon emissions—a popular type is the passive house", what_it_does: "", examples: "use of hempcrete , cellulose fiber insulation , and landscaping" },
+  this_flaring: { definition: "Highly concentrated: 10 countries account for 70% of emissions, and twenty for 85%", what_it_does: "", examples: "transport of people, [ 177 ] and possibly buildings and industry" },
+  the_goal_of_such_assessments: "To cover the full life of the source, from material and fuel mining through construction to operation and waste management",
+  it_can_be_seen_that_there: "A strong relationship between income and per capita carbon dioxide emissions",
+  the_largest_disproportionality: "Identified to be in the domain of transport, where e.g",
+  the_model_results: "Far from encouraging",
+
 };
 
 // ============================================================
