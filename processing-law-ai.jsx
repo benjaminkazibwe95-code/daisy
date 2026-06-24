@@ -33207,6 +33207,37 @@ const FLAT_DICT = {
   but_his_maxim: { definition: "This: from self-love I make as my principle to shorten my life when its continued duration threatens more evil than it promises satisfaction", what_it_does: "", examples: "those in which he is deceived by the lie" },
   kant_was_of_the_opinion_that_man: "His own law (autonomy)—that is, he binds himself under the law which he himself gives himself",
 
+  // === INGESTED 2026-06-24 07:46 ===
+  organs_and_tissues_that: "Transplanted within the same person's body are called autografts",
+  transplants_that: { definition: "Recently performed between two subjects of the same species are called allografts", what_it_does: "", examples: "kidney for nutcracker syndrome or ex vivo liver resection for tumors) to minimize rejection" },
+  an_allograft: { definition: "A transplant of an organ or tissue between two genetically non-identical members of the same species", what_it_does: "", examples: "an identical twin)" },
+  isografts: "Differentiated from other types of transplants because while they are anatomically identical to allografts, they do not trigger an immune response",
+  the_latter_research_study: "Intended to pave the way for potential human use if successful",
+  her_heart: "Subsequently donated to a second patient—a woman with right ventricular dysplasia, a condition that caused a dangerously abnormal heart rhythm",
+  these_other_transplants: { definition: "Otherwise impossible due to blood type or antibody barriers to transplantation", what_it_does: "", examples: "graft-versus-host disease and allograft rejections" },
+  most_deceased_donors: "Those who have been pronounced brain dead",
+  allocation_criteria_vary_by_organ_type_and: "Periodically revised",
+  the_risk_of_surgery: "Offset by the psychological benefit of not losing someone related to them, or not seeing them suffer the ill effects of waiting on a list",
+  paired_exchange_programs: { definition: "Popularized by the New England Journal of Medicine article 'Ethics of a paired-kidney-exchange program' in 1997 by L.F", what_it_does: "", examples: "an eight-way multihospital kidney exchange" },
+  their_economic_modeling: { definition: "Able to estimate the price tag for human kidneys ($15,000) and human livers ($32,000)", what_it_does: "", examples: "the opt-out system, where individuals are presumed donors unless they explicitly decline" },
+  public_campaigns_and_advertisements: "Also widely used to encourage organ donation",
+  the_economist_argued_that_donating_kidneys: "No more risky than surrogate motherhood , which can be done legally for pay in most countries",
+  pakistani_donors: { definition: "Offered $2,500 for a kidney but receive only about half of that because middlemen take so much", what_it_does: "", examples: "Uruguay, Cuba, and Chile, approximately 90% of organ transplants are sourced from cadaveric donors" },
+  organ_transplantation_in_singapore: { definition: "Generally overseen by the National Organ Transplant Unit of the Ministry of Health (Singapore)", what_it_does: "", examples: "different groups express definite interest and complete pretransplant workup at different rates" },
+  the_first_reasonable_account: "Of the Indian surgeon Sushruta in the 2nd century BC, who used autografted skin transplantation in nose reconstruction, a rhinoplasty",
+  some_of_these_transplants: "Done in animals for purposes of research, where organ removal and transplantation became a successful strategy of investigating the function of organs",
+  kocher: "Awarded his Nobel Prize in 1909 for the discovery of the function of the thyroid gland",
+  the_surgery: "Performed by American surgeon Dr",
+  the_success_of_this_transplant: "Mostly due to the family relation between the recipient, a Richard Herrick of Maine, and his donor and identical twin brother Ronald",
+  richard_herrick: "In the Navy and became severely ill with acute renal failure",
+  among_his_advances: "The tubed pedicle graft, which maintained a flesh connection from the donor site until the graft established its own blood flow",
+  over_a_hundred: { definition: "Performed in 1968–1969, but almost all the people died within 60 days", what_it_does: "", examples: "the first heart-lung transplant" },
+  fourteen_of_his_patients: { definition: "Dead within six months", what_it_does: "", examples: "multiple-organ transplants on humans and whole-body transplant research on animals" },
+  the_risk_of_early_rejection: "Increased if corticosteroid immunosuppression are avoided or withdrawn after renal transplantation",
+  the_donor: { definition: "A 38-year-old male classified as 'high-risk' by donation organizations, whose organs transmitted HIV and Hepatitis C to four recipients", what_it_does: "", examples: "making it mandatory to request for organ donation in case of brain death" },
+  some_organs: "Also shipped to Uganda and the Netherlands",
+  even_within_developed_countries_there: { definition: "Concern that enthusiasm for increasing the supply of organs may trample on respect for the right to life", what_it_does: "", examples: "former U.S" },
+
 };
 
 // ============================================================
