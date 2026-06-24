@@ -34211,6 +34211,11 @@ const FLAT_DICT = {
   social_loafing_occurs_less_when_groups: "Kept small between three and five people",
   if_group_size: "Fewer employees, they will need to contribute more as there is no extra help around",
 
+  // === INGESTED 2026-06-24 10:55 ===
+  an_important_aspect_of_planning: { definition: "Its relationship to forecasting", what_it_does: "", examples: "management and business" },
+  implementation_intentions: { definition: "Distinguished from goal intentions, which specifies an outcome such as running a marathon", what_it_does: "", examples: "working memory" },
+  public_policy: "Efforts to tackle social issues via policymaking",
+
 };
 
 // ============================================================
