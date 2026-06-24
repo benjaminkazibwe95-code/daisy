@@ -31142,6 +31142,11 @@ const FLAT_DICT = {
   the_black_slave_market: { definition: "Supplied by well-established slave trade networks controlled by local African societies and individuals", what_it_does: "", examples: "the Calabar and other southern parts of Nigeria had economies depended solely on the trade" },
   the_news: "Welcomed by President Barack Obama , the nation's first president of African descent",
 
+  // === INGESTED 2026-06-24 01:48 ===
+  the_charter: "Unanimously approved at the OAU's 1981 Assembly",
+  the_seat_of_the_council: "In Strasbourg in France",
+  adolf: "Living in Argentina after the war",
+
 };
 
 // ============================================================
