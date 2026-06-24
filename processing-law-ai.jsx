@@ -34268,6 +34268,9 @@ const FLAT_DICT = {
   positive_selfperceptions_of_ageing: { definition: "Associated with better mental and physical health and well-being", what_it_does: "", examples: "nurses or care centre staff" },
   intrinsic_capacity: "A construct encompassing people's physical and mental abilities which can be drawn upon during ageing",
 
+  // === INGESTED 2026-06-24 11:07 ===
+  the_department: "Responsible to Parliament through the minister of health as part of the federal health portfolio",
+
 };
 
 // ============================================================
