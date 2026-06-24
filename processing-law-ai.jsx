@@ -35521,6 +35521,17 @@ const FLAT_DICT = {
   the_commands_of_the_starter: "Typically given in the native language in national competitions, or in English or French in international competitions",
   once_all_athletes: "Set in their starting position, the gun or an approved starting apparatus must be fired or activated",
 
+  // === INGESTED 2026-06-24 15:03 ===
+  an_allforest_green_batting_helmet: "Paired with this cap until 2008",
+  the_cap_paired_with_this_jersey: "All-black, initially with the green and white-trimmed 'A's' wordmark, before switching to a white and gold-trimmed 'A's' wordmark",
+  a_green_version_of_their_gold_alternates: { definition: "Introduced for the 2014 season, serving as a replacement to the previous green alternates", what_it_does: "", examples: "Jed Lowrie 's green cleats" },
+  hats_displaying_both_teams_on_the_cap: "Sold from vendors at the games, and once in a while the teams would both dress in original team uniforms from the early era of baseball",
+  the_angels: "Swept in the playoffs by the eventual champion Boston Red Sox",
+  no_city_series: "Held in 1901 and 1902 because of legal warring between the National League and American League",
+  dave_stewart: "About to have his #34 jersey retired by the Athletics in 2020, but the ceremony was postponed until further notice, due to the COVID-19 pandemic",
+  each_member: "Honored with an unveiling of a painting in their likeness and a bright green jacket",
+  television_coverage: "Exclusively on NBC Sports California",
+
 };
 
 // ============================================================
