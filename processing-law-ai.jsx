@@ -35276,6 +35276,27 @@ const FLAT_DICT = {
   if_a_ball_is_not_goaled_it: "Repainted in the design of the dignitary that turned it up and given back to them to keep",
   even_during_both_world_wars_the_games: "Played; indeed, the Ashbourne Regiment even played a version of the game in the German trenches during the First World War",
 
+  // === INGESTED 2026-06-24 14:10 ===
+  the_first_season_of_the_nswrfl_competition: "Played in 1908 , and has continued to be played every year since",
+  goals_are_scored_when_the_ball: "Kicked between the two posts and over the cross-bar, either during open play or as the result of a penalty",
+  a_try_is_scored_when_the_ball: "Touched down on or beyond the defending team's goal-line",
+  a_rugby_tackle: "An attempt to bring the ball carrier to the ground or to stop his forward progress",
+  generally_league_restarts: "Likely to go for distance unless possession is needed quickly (usually if a team is behind with very little time left to play)",
+  tackling_or_interfering_with_a_player_who: "Not in possession of the ball is not permitted",
+  tripping_with_the_leg: "Not allowed in either code",
+  if_the_tackle: "Complete, such a move would constitute a 'double movement' and the try would be disallowed",
+  the_double_movement_rule: "Not explicit in rugby union but has been applied for similar movements",
+  a_drop_goal: "Worth 3 points in union and 1 in league (although in the NRL , drop goals from more than 40m out of the try line are worth 2 points)",
+  a_penalty_goal: "Worth 3 points in union and 2 points in league",
+  a_rugby_league_pitch: "Between 112 and 122 metres long by 68 metres wide",
+  at_the_goal_line: "A set of goal posts in the shape of the letter 'H', used for other forms of point scoring: drop goal , penalty and conversion",
+  a_rugby_union_pitch: "Between 106 and 144 metres long by 68 to 70 metres wide",
+  lines: "Also located 5 metres away from the goal line and touchline and 15 metres away from the touchline",
+  rugby_league_balls: "Similar in size to rugby union balls, but are more pointed at the edges",
+  the_turnover_of_the_rfl: { definition: "Reported as £19m in 2014", what_it_does: "", examples: "wheelchair users) is about 100,000" },
+  rugby_union_sevens: "A core event at both the Commonwealth Games and the Asian Games",
+  the_wheelchair_rugby_league_world_cup: "First held in 2008 and England won the inaugural title",
+
 };
 
 // ============================================================
