@@ -30681,6 +30681,21 @@ const FLAT_DICT = {
   the_domesday_book: { definition: "Compiled in 1086 cataloguing all land and labour to levy taxes", what_it_does: "", examples: "the East India Company to monopolise trade routes" },
   further_it: { definition: "Seen that the only way to prevent conflict was through economic integration", what_it_does: "", examples: "abolishing the Greater London Council" },
 
+  // === INGESTED 2026-06-24 00:39 ===
+  the_first_soviets: "Established during the 1905 Revolution in the late Russian Empire",
+  the_governmental_bodies_on_various_levels: { definition: "Formally named ' Soviets of People's Deputies [ ru ] ', colloquially 'soviets of deputies' or 'sovdeps'", what_it_does: "", examples: "the Irish soviets" },
+  the_russian_workers: "Largely organized at the turn of the 20th century, leading to a government-sponsored trade-union leadership",
+  the_soviet_system: "Seen as an alternative to parliamentary systems for administering republican governments",
+  any_candidate: "Personally known to the electors, and his qualifications could be argued about immediately in front of his face",
+  delegates_once_elected: "Liable to 'recall' should they cease to represent the views of their electorate",
+  since_this_electorate: "A real entity, always in existence and discussing politics from day to day, it had a live and changing public opinion",
+  unsatisfactory_delegates: "Liable to recall by majority decision of the electorate: in the 30s, fifteen delegates were so recalled within four years in Moscow alone",
+  its_untranslated_name: { definition: "Сове́т Федера́ции (Sovyet Federatsii)", what_it_does: "", examples: "many non-Communist" },
+  a_social_democratic_government: "Thereupon restored, however, political power passed to the Bavarian right",
+  the_csr: "China's first communist government in a structure that would later evolve into the People's Republic of China",
+  the_chinese_soviet_republic: "Dissolved on 22 September 1937 when the Chinese Communist Party issued, in the Second United Front, its manifesto on unity with the Kuomintang",
+  the_limerick_soviet: "Formed in Ireland in 1919 at the beginning of the Irish War of Independence , and sprung up alongside a number of soviets in Ireland",
+
 };
 
 // ============================================================
