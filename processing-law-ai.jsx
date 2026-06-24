@@ -33087,6 +33087,21 @@ const FLAT_DICT = {
   a_moral_scenario: "A complex assembly of parts, and its total value is often created by the relations between those parts, and not by their individual value",
   the_organic_metaphor: "Thus very appropriate: biological organisms seem to have emergent properties which cannot be found anywhere in their individual parts",
 
+  // === INGESTED 2026-06-24 07:27 ===
+  variations_in_practice: { definition: "Observed among adherents of different madhahib (schools of Islamic jurisprudence )", what_it_does: "", examples: "Sunnah prayer and Nafl prayer , may be performed at any time, subject to certain restrictions" },
+  some_concessions_are_made_for_muslims_who: "Physically unable to perform the salah in its original form, or are travelling",
+  the_term_wajib: { definition: "Used for situations that do not meet the second of these conditions", what_it_does: "", examples: "Hanafis accept 5 daily prayers as fard" },
+  the_hands: "Then lowered, and may be clasped on the abdomen (qabd), or hang by one's sides (sadl)",
+  these_prostrations: "Known as sujud sahwi (Arabic: سجود السهو , romanized: Sujud as-Sahw )",
+  the_prohibition_of_salah_at_these_times: "To prevent the practice of sun worship",
+  it_is_followed_by_the_isha_salah_that: "Performed during the night, the Fajr salah performed before sunrise, and the Dhuhr and Asr prayers performed in the afternoon",
+  it_is_obligatory_upon_men_and: "To be prayed in congregation, while women have the choice to offer it in congregation or pray Zuhr at home",
+  the_exact_number_of_extra_takbirs: "Differed upon within the Sunni schools, with the majority opining that seven takbirs are pronounced in the first rak'a and five in the second",
+  this_prayer: "One of 4 sunnah prayers which can be done in congregation",
+  tahajjud: "Generally concluded with Witr salah",
+  tarawih: "Also generally concluded with Witr salah",
+  the_authority_for_the_basic_forms_of_the_salah: "Neither the hadiths nor the Quran, but rather the consensus of Muslims",
+
 };
 
 // ============================================================
