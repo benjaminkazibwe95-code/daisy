@@ -30897,6 +30897,23 @@ const FLAT_DICT = {
   the_administrative_acts: "Recognized from the hallmark that they become binding without the consent of the other involved parties",
   the_parallel_system: "Found in countries like Austria , Egypt , Greece , Germany , France , Italy , some of the Nordic Countries, Portugal , Taiwan and others",
 
+  // === INGESTED 2026-06-24 01:13 ===
+  this_degree: { definition: "Often a prerequisite for taking bar exams or qualifying as a practising lawyer , depending on the jurisdiction", what_it_does: "", examples: "a Master of Laws (LLM) or other postgraduate studies in law" },
+  the_teaching_of_law_at_oxford_university: "For philosophical or scholarly purposes and not meant to prepare one to practise law",
+  the_llb: "A three or four-year full-time law degree",
+  the_scots_law_llb: "Generally taken as a four-year honours course, similar to other university degrees in Scotland",
+  the_university_of_rajshahi: "The first institute in South Asia to offer a bachelor's degree in law, originally offering the B",
+  the_common_law_programme: "Three years in length",
+  the_civil_law_programme_in_canada: "Three years in length",
+  the_law_degree_offered_by_mcgill_university: "A mandatory joint common law LLB and Quebec civil law BCL degree",
+  the_first_national_law_school: "The National Law School of India University",
+  distance_or_online_education_options: "Not available to become a practising lawyer in India",
+  hence_all: "Lawyers eligible and can be admitted to the High Court as a legal professional is entitled to be bestowed with the title 'Advocate & Solicitor'",
+  an_llb: "Required to practise law in New Zealand",
+  graduate_jd_courses: "Also available at all three law schools",
+  the_core_subjects: "Those regularly required for legal practice",
+  is_a_postgraduate_degree_and: { definition: "Required to practice as a barrister in Ireland", what_it_does: "", examples: "the LLB Law with French Law and Language offered by the University of East Anglia" },
+
 };
 
 // ============================================================
