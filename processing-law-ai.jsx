@@ -32206,6 +32206,19 @@ const FLAT_DICT = {
   cfc: "The categorization for this regime",
   the_other_large_factor: "The burning of fossil fuels from buildings and vehicles",
 
+  // === INGESTED 2026-06-24 04:34 ===
+  a_crossbreed: "An organism with purebred parents of two different breeds, varieties, or populations",
+  crossbreeding: { definition: "The process of breeding such an organism", what_it_does: "", examples: "the Aegean cat are developed entirely from a local landrace population" },
+  a_hybrid_animal: "One with parentage of two separate species, differentiating it from crossbred animals, which have parentage of the same species",
+  the_liger: "A hybrid cross between a male lion and female tiger",
+  the_yattle: "A cross between a cow and a yak",
+  today_wolves_and_dogs: "Both recognized as Canis lupus , but the old term 'wolf hybrid' is still used",
+  a_dog_of_unknown_parentage: "Often called a mixed-breed dog, 'mutt' or ' mongrel",
+  a_horse_of_unknown_bloodlines: "Called a grade horse",
+  a_designer_crossbreed_or_designer_breed: "A crossbred animal with purebred parents, usually registered with a breed registry , but from two different breeds",
+  these_animals: "The result of a deliberate decision to create a specific crossbred animal",
+  while_the_term: "Best known when applied to certain dog crossbreeds , other animals such as cattle, horses, birds [ 8 ] and cats may also be bred in this fashion",
+
 };
 
 // ============================================================
