@@ -32364,6 +32364,27 @@ const FLAT_DICT = {
   medicare_part_d: "A prescription drug plan in the U.S",
   prescription_drugs: "Drugs regulated by legislation",
 
+  // === INGESTED 2026-06-24 05:06 ===
+  a_food_pyramid: "A representation of the optimal number of servings to be eaten each day from each of the basic food groups",
+  food_pyramids: "Developed in other Scandinavian countries, as well as West Germany , Japan and Sri Lanka",
+  some_food_substances: "Singled out due to the impact on the target issues that the 'pyramid' is meant to address",
+  all_percentages: "Percentages of calories , not of weight or volume",
+  the_representation_as_a_pyramid: { definition: "Not precise, and involves variations due to the alternative percentages of different elements, but the main sections can be represented", what_it_does: "", examples: "school lunch programs, food supplement programs, and military meal rations" },
+  the_usda_food_pyramid: "Created in 1992 and divided into six horizontal sections containing depictions of foods from each section's food group",
+  mypyramid: "Often displayed with the food images absent, creating a more abstract design",
+  the_vegetables_and_grains_portions: "The largest of the four",
+  a_modified_food_pyramid: "Proposed in 1999 for adults aged over 70",
+  a_vegetable: { definition: "Not considered a grain, fruit, nut , spice , or herb", what_it_does: "", examples: "the stem , root , flower , etc., may be eaten as vegetables" },
+  fruits_are_low_in_calories_and_fat_and: "A source of natural sugars , fiber and vitamins",
+  the_fruit_food_group: { definition: "Sometimes combined with the vegetable food group", what_it_does: "", examples: "tomatoes or avocados" },
+  dairy_products: "Produced from the milk of animals, usually but not exclusively cattle",
+  milk_and_its_derivative_products: "A rich source of dietary calcium and also provide protein, phosphorus , vitamin A, and vitamin D",
+  since_most_parts_of_many_animals: "Edible, there is a vast variety of meats",
+  the_meat_group: "One of the major compacted food groups in the food guide pyramid",
+  one_serving_of_meat: "4 oz (110 g), about the size of a deck of cards",
+  the_idea_of_this: { definition: "To reduce the temptation to eat so much junk food and excessive fats and sugars, as there is already enough fat and sugar in the rest of the diet", what_it_does: "", examples: "the triangles in the Fruit Group represent the fact that sugar is inevitable in that group" },
+  this_incident: { definition: "Only one of many in which the food industry attempted to alter federal dietary recommendations in their own economic self-interest", what_it_does: "", examples: "a Vegetarian Diet Pyramid" },
+
 };
 
 // ============================================================
