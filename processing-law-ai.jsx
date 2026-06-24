@@ -35688,6 +35688,33 @@ const FLAT_DICT = {
   the_primary_scoring_method: "A try , worth 5 points in rugby union and worth 4 points in rugby league",
   a_try: "Scored by grounding the ball in the in-goal area",
 
+  // === INGESTED 2026-06-24 15:18 ===
+  the_hellenistic_period: "Considered to have ended in 30 BC, when the last Hellenistic kingdom, Ptolemaic Egypt , was annexed by the Roman Republic",
+  classical_antiquity_in_greece: "Preceded by the Greek Dark Ages ( c",
+  one_which: "Considered exemplary by later observers, most famously in the Parthenon of Athens",
+  herodotus: { definition: "Widely known as the 'father of history': his Histories are eponymous of the entire field", what_it_does: "", examples: "Candaules" },
+  their_scope: { definition: "Further limited by a focus on political, military and diplomatic history, ignoring economic and social history", what_it_does: "", examples: "Athens and Sparta, determined to resist the Persian invaders" },
+  these_tensions: "Exacerbated in 462 BC when Athens sent a force to aid Sparta in overcoming a helot revolt, but this aid was rejected by the Spartans",
+  his_son_alexander_the_great: { definition: "Left to fulfill his father's ambitions", what_it_does: "", examples: "Corinth and Argos) [ 73 ] [ 74 ] and the Aetolian League" },
+  although_the_first_macedonian_war: "Inconclusive, the Romans, in typical fashion, continued to fight Macedon until it was completely absorbed into the Roman Republic (by 149 BC)",
+  the_aegean_islands: "Added to this territory in 133 BC",
+  the_territory_of_greece: "Mountainous, and as a result, ancient Greece consisted of many smaller regions, each with its own dialect, cultural peculiarities, and identity",
+  regionalism_and_regional_conflicts: { definition: "Prominent features of ancient Greece", what_it_does: "", examples: "Emathia (Macedonia) , Pieria , and Bottiaea , and later Almopia , Amphaxitis" },
+  the_original_capital_of_macedon: "Aigai and then moved to Pella in the 4th century BC",
+  these_greek_colonies: "Not, as Roman colonies were, dependent on their mother-city, but were independent city-states in their own right",
+  examples_of_this_latter_type_of_settlement: "Found at Al Mina in the east and Pithekoussai in the west",
+  greek_colonies: "Also founded in Egypt and Libya",
+  the_independence_of_the_poleis: { definition: "Fiercely defended; unification was something rarely contemplated by the ancient Greeks", what_it_does: "", examples: "the archon basileus in Athens" },
+  when_this_tyranny: { definition: "Ended, the Athenians founded the world's first democracy as a radical solution to prevent the aristocracy regaining power", what_it_does: "", examples: "metics (foreigners living in Athens) or slaves , had no political rights at all" },
+  owners: "Not allowed to beat or kill their slaves",
+  helots: "Messenians enslaved en masse during the Messenian Wars by the state and assigned to families where they were forced to stay",
+  the_eventual_triumph_of_the_greeks: { definition: "Achieved by alliances of city-states (the exact composition changing over time), allowing the pooling of resources and division of labor", what_it_does: "", examples: "the ancient Egyptians and Babylonians , has long been a topic of study by theorists of civilization" },
+  the_first_known_philosophers_of_greece: { definition: "The pre-Socratics , who attempted to provide naturalistic, non-mythical descriptions of the world", what_it_does: "", examples: "Antisthenes ( cynicism ), Zeno of Citium ( stoicism ) and Plotinus ( Neoplatonism )" },
+  the_earliest_greek_literature_was_poetry_and: { definition: "Composed for performance rather than private consumption", what_it_does: "", examples: "Strabo and Dionysius of Halicarnassus came to Rome" },
+  the_original_mechanism: "Displayed in the Bronze collection of the National Archaeological Museum of Athens , accompanied by a replica",
+  hippocrates: "A physician of the Classical period, and is considered one of the most outstanding figures in the history of medicine",
+  the_greeks: "Polytheistic , worshipping many gods, but as early as the 6th century BC a pantheon of twelve Olympians began to develop",
+
 };
 
 // ============================================================
