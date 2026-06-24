@@ -34506,6 +34506,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 11:39 ===
   similar: "The French language expression bon père de famille , used in a sense similar to 'reasonably cautious person.' For example, in the case of Fales v",
 
+  // === INGESTED 2026-06-24 11:41 ===
+  financial_plans: "The entire financial accounting overview of a company",
+  a_financial_plan: { definition: "A combination of the individual financial statements and reflect all categories of transactions (operations & expenses & investing) over time", what_it_does: "", examples: "pro forma statements (historical period) and prospective statements (current and future period)" },
+  compilations_are_a_type_of_service_which: "'presenting, in the form of financial statements, information that is the representation of management'",
+  forecasts: "Based on management's expected financial position, results of operations, and cash flows",
+  when_the_products_of_their_work: "Combined, it produces a complete picture, a financial plan",
+  accountants_and_financial_planners: { definition: "Both involved with presenting issues and resolving inefficiencies, so together, the results and explanation are provided in a financial plan", what_it_does: "is called aggregation", examples: "Sid Mittra, Anandi P" },
+
 };
 
 // ============================================================
