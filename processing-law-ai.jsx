@@ -32891,6 +32891,23 @@ const FLAT_DICT = {
   the_full_title_of_the_single: "'The Stress -Stress Chūkintō Version-' ( ザ・ストレス -ストレス 中近東バージョン- ; lit",
   her_doctor_told_her_that_the_inflammation: "Caused by mental stress",
 
+  // === INGESTED 2026-06-24 06:41 ===
+  when_a_liquid: { definition: "In a closed container under pressure , each particle gets pushed against by all the surrounding particles", what_it_does: "", examples: "a piston) push against them in (Newtonian) reaction" },
+  these_macroscopic_forces: "Actually the net result of a very large number of intermolecular forces and collisions between the particles in those molecules",
+  elastic_and_viscous_stresses: { definition: "Usually combined under the name mechanical stress", what_it_does: "", examples: "in prestressed concrete and tempered glass" },
+  this_number_will_be_positive_if_p: "'pulling' on Q (tensile stress), and negative if P is 'pushing' against Q (compressive stress)",
+  the_shear_component: { definition: "Then the vector T − ( T · n ) n", what_it_does: "", examples: "external influences and internal physical processes" },
+  molecular_origin_of_shear_stresses_in_fluids: "Given in the article on viscosity",
+  this_analysis_assumes_the_stress: "Evenly distributed over the entire cross-section",
+  another_variant_of_normal_stress: "The hoop stress that occurs on the walls of a cylindrical pipe or vessel filled with pressurized fluid",
+  that_average: { definition: "Often sufficient for practical purposes", what_it_does: "", examples: "a shaft is subjected to opposite torques at its ends" },
+  that_torque: "Modeled as a bending stress that tends to change the curvature of the plate",
+  stress_analysis: { definition: "Simplified when the physical dimensions and the distribution of loads allow the structure to be treated as one- or two-dimensional", what_it_does: "", examples: "the stress field may be assumed to be uniform and uniaxial over each member" },
+  the_typical_problem_in_stress_analysis: "To determine these internal stresses, given the external forces that are acting on the system",
+  most_stress: "Analysed by mathematical methods, especially during design",
+  the_basic_stress_analysis_problem: "Therefore a boundary-value problem",
+  stress_analysis_for_elastic_structures: "Based on the theory of elasticity and infinitesimal strain theory",
+
 };
 
 // ============================================================
