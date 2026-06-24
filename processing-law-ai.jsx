@@ -34770,6 +34770,13 @@ const FLAT_DICT = {
   edward_lee_thorndike: { definition: "The initiator of the theory of trial and error learning based on the findings he showed how to manage a trial-and-error experiment in the laboratory", what_it_does: "", examples: "use theory to guide the method, an approach known as guided empiricism" },
   once_again_this: { definition: "'trial and error', but of a different type", what_it_does: "", examples: "antibiotics" },
 
+  // === INGESTED 2026-06-24 12:27 ===
+  the_state_board_of_education: "First provided for in the Constitution of 1850 and currently exists through the provisions of Article VIII, Section 3, of the Constitution of 1963",
+  the_governor: "Authorized to fill vacancies on the state board and also serves as an ex officio member of the state board, without the right to vote",
+  the_superintendent_of_public_instruction: "Appointed by the board for a term to be determined by the board, to serve as its chair, without the right to vote",
+  the_superintendent: "A spokesperson for education in the state",
+  the_superintendent_also: "The primary liaison to the United States Department of Education and other federal agencies",
+
 };
 
 // ============================================================
