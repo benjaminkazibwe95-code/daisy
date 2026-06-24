@@ -34164,6 +34164,18 @@ const FLAT_DICT = {
   he_contended_that_the_central_issue: "No longer public ownership versus private ownership, but the pursuit of social equality and welfare within a managed mixed economy",
   the_class_nature_of_the_state: "Redefined: the USSR was now considered a ' state of the whole people '",
 
+  // === INGESTED 2026-06-24 10:51 ===
+  the_growth_of_trade: "Supported by the stable administration of the Romans",
+  the_romans: "Incredibly good at co-opting people and ideas.' [ 8 ] The Romans created a stable empire that benefitted both ruled and allied countries",
+  gold_and_silver: "Currencies created by the Romans which supported a market economy, leading to trading within the Roman Empire and taxes",
+  meals: "Taken by the entire colony in a common long room",
+  the_first_documented_discussion_of_game_theory: "In a letter written by James Waldegrave, 1st Earl Waldegrave in 1713",
+  one_such_group: { definition: "Created at Lockheed in 1943", what_it_does: "", examples: "construction, engineering and defense" },
+  both_organizations: "Now participating in the development of a global project management standard",
+  in_its_day_it: { definition: "A unique educational experiment for the artists and writers who conducted it and was an incubator for the American avant garde", what_it_does: "", examples: "learning communities as one of its centerpieces" },
+  one_approach: "For an author to publish early drafts/chapters of a work on the Internet and solicit suggestions from the world at large",
+  wartime_collaboration: "Cooperating with the enemy or enemies of one's own country",
+
 };
 
 // ============================================================
