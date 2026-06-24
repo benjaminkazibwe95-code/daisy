@@ -30791,6 +30791,24 @@ const FLAT_DICT = {
   the_constabulary: "Regularised as a military body in 1337",
   the_resulting_force: "Also known as the Maréchaussée , or, formally, the Constabulary and Marshalcy of France",
 
+  // === INGESTED 2026-06-24 00:56 ===
+  many_titles_and_offices: "Not hereditary (such as democratic state offices) and they are subject to different rules of succession",
+  the_rules_may_stipulate_that_eligible_heirs: "Heirs male or heirs general – see further primogeniture (agnatic, cognatic, and also equal)",
+  a_famous_example_of_this: "Marjorie, Countess of Carrick , mother of Robert the Bruce , who was the Countess of Carrick in her own right",
+  razia_sultana_of_the_delhi_sultanate: "A rare example of a queen who succeeded her father even when her brothers were alive",
+  the_right_of_the_child: { definition: "With the maternal uncle or the mother's family rather than the father or the father's family", what_it_does: "", examples: "the Hindu Succession Act (1956), this form of inheritance is no longer recognised by law" },
+  ultimogeniture: "An order of succession where the subject is succeeded by the youngest son (or youngest child)",
+  proximity_of_blood: "A system wherein the person closest in degree of kinship to the sovereign succeeds, preferring males over females and elder over younger siblings",
+  in_outremer_it: "Often used to choose regents, and it figured in some of the succession disputes over the Kingdom of Jerusalem",
+  the_most_prominent_examples_of_this_practice: "The multiple divisions of the Frankish Empire under the Merovingian and Carolingian dynasties, and similarly Gavelkind in the British Isles",
+  a_secundogeniture: "A dependent territory given to a younger son of a princely house and his descendants, creating a cadet branch",
+  the_eligibility: "Based on descent from a king to a few degrees of proximity",
+  the_composition_and_the_governance_of_the_clan: "Built upon descent from a similar ancestor",
+  a_story_about_cormac_mac_airt: "His eldest son as his tanist",
+  fraternal_succession: "Preferred to ensure that mature leaders are in charge, removing a need for regents",
+  the_lateral_monarch: "Generally elected after the leadership throne becomes vacant",
+  where_the_line_of_succession: "Clear, it has sometimes happened that a pretender with a weak or spurious claim but military or political power usurps the throne",
+
 };
 
 // ============================================================
