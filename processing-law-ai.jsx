@@ -33132,6 +33132,13 @@ const FLAT_DICT = {
   evolutionary_pressure_imposed_by_humans: "Also seen in elk populations",
   faster_and_more_mobile_male_elk: { definition: "Shown to be more likely to fall prey to hunters", what_it_does: "an environment where the more active animals are more likely to succumb to predation than less active animals", examples: "size and color, even if they are not necessarily beneficial to the human in a tangible way" },
 
+  // === INGESTED 2026-06-24 07:35 ===
+  health_care: { definition: "An important determinant in promoting the general physical and mental health and well-being of people around the world", what_it_does: "", examples: "public health practitioners , community health workers and assistive personnel" },
+  providing_health_care_services: "'the timely use of personal health services to achieve the best possible health outcomes'",
+  health_systems: "The organizations established to meet the health needs of targeted populations",
+  this_care: "Often found in a hospital emergency department",
+  some_primary_care_services: { definition: "Delivered within hospitals", what_it_does: "", examples: "a tertiary referral hospital" },
+
 };
 
 // ============================================================
