@@ -32598,6 +32598,34 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 05:48 ===
   cyclability: "The degree of ease of bicycle circulation",
 
+  // === INGESTED 2026-06-24 05:50 ===
+  independence_from_the_spanish_empire: "Declared in 1810, with what is now Colombia emerging as the United Provinces of New Granada",
+  the_oldest_archaeological_finds: "From the Pubenza and El Totumo sites in the Magdalena Valley 100 kilometers (62 mi) southwest of Bogotá",
+  vestiges_indicate_that_there: "Also early occupation in the regions of El Abra and Tequendama in Cundinamarca",
+  the_muisca_inhabited_mainly_the_area_of_what: { definition: "Now the Departments of Boyacá and Cundinamarca high plateau ( Altiplano Cundiboyacense ) where they formed the Muisca Confederation", what_it_does: "", examples: "the Caribs lived in a state of permanent war, but others had less bellicose attitudes" },
+  the_name_soon_acquired_a_suffix_and: "Called Santa Fe de Bogotá",
+  indigenous_allies: { definition: "Crucial to conquest, as well as to creating and maintaining empire", what_it_does: "", examples: "smallpox , to which they had no immunity" },
+  the_changes_generated_by_the_new_constitution: { definition: "Viewed as positive by Colombian society", what_it_does: "", examples: "Bogotá, Bucaramanga , and Cúcuta" },
+  mountain_climate: "One of the unique features of the Andes and other high altitude reliefs where climate is determined by elevation",
+  the_cold_climate: { definition: "Present between 2,001 and 3,000 meters (6,565 and 9,843 ft) and the temperatures vary between 12 and 17 °C (53.6 and 62.6 °F)", what_it_does: "", examples: "over 1,900 species of bird, more than in Europe and North America combined" },
+  in_colombia_there: { definition: "32 terrestrial biomes and 314 types of ecosystems", what_it_does: "", examples: "corregimientos or comunas" },
+  a_second_round: "Required since no candidate received over the 50% winning threshold of votes",
+  the_foreign_affairs_of_colombia: "Headed by the President, as head of state, and managed by the Minister of Foreign Affairs",
+  consumption_expenditure_by_households: "The largest component of GDP",
+  a_strong_fiscal_climate: { definition: "Reaffirmed by a boost in bond ratings", what_it_does: "", examples: "the new entrepreneurs, Colombians with a net worth exceeding US$1 billion" },
+  colombian_palm_oil_production: "One of the most sustainable on the planet, compared to the largest existing producers",
+  large_afrocolombian_communities: { definition: "Found today on the Pacific Coast", what_it_does: "", examples: "people from the former USSR during and after the Second World War" },
+  basic_education: "Followed by Middle vocational education ( Educación media vocacional ) that comprises the tenth and eleventh grades",
+  this_qualification: { definition: "Usually awarded by the SENA after a two years curriculum", what_it_does: "", examples: "98.66% of those aged 15–24" },
+  rebel_groups: "Behind assassinations, kidnapping and extortion",
+  cultural_expressions_in_colombia: "Promoted by the government through the Ministry of Culture",
+  jeanbaptiste_louis_gros: { definition: "Who brought the daguerreotype process to Colombia in 1841", what_it_does: "", examples: "Shakira , Juanes , Carlos Vives and others" },
+  some_popular_archipelago_rhythms: "The Schottische , the Calypso , the Polka and the Mento",
+  colombian_theater: "Supported by the Ministry of Culture and a number of private and state owned organizations",
+  many_hundreds_of_radio_stations: { definition: "Registered with the Ministry of Information Technologies and Communications", what_it_does: "", examples: "beef, chicken, pork and goat; fish; and seafood" },
+  representative_snacks_and_breads: "Pandebono , arepas (corn cakes), aborrajados (fried sweet plantains with cheese), torta de choclo , empanadas and almojábanas",
+  representative_side_dishes: "Papas chorreadas (potatoes with cheese), remolachas rellenas con huevo duro (beets stuffed with hard-boiled egg ) and arroz con coco (coconut rice)",
+
 };
 
 // ============================================================
