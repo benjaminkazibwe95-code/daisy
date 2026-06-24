@@ -30521,6 +30521,11 @@ const FLAT_DICT = {
   to_be_acquainted_with_a_proposition: "To understand its meaning and be able to entertain it",
   an_example_of_a_nonfactive_attitude: "Believing—people can believe a false proposition and people can believe a true proposition",
 
+  // === INGESTED 2026-06-24 00:18 ===
+  the_word_vidya: "Derived from the Sanskrit root vid , which means 'to see, to knowingly-see, to know'",
+  avidya: "Explained in different ways or on different levels within different Buddhist teachings or traditions",
+  one_such_condition: { definition: "The karmic formations that arise from ignorance", what_it_does: "", examples: "the self, cuts the impurities', an insight into Emptiness yields full awakening" },
+
 };
 
 // ============================================================
