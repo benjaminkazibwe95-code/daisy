@@ -31375,6 +31375,17 @@ const FLAT_DICT = {
   anglican_chant: { definition: "A method of singing prose versions of the Psalms", what_it_does: "", examples: "those by Claudio Monteverdi , Antonio Vivaldi , Marc-Antoine Charpentier (84 settings H.149 – H" },
   one_of_the_better_known_examples: "Gregorio Allegri's Miserere mei , a falsobordone setting of Psalm 51 ('Have mercy upon me, O God')",
 
+  // === INGESTED 2026-06-24 02:33 ===
+  the_practical_authority_given_to_the_court: "Known as its jurisdiction , which describes the court's power to decide certain kinds of questions, or petitions put to it",
+  jurisdiction: "Defined as the official authority to make legal decisions and judgements over a person or material item within a territory",
+  trial_courts: "Courts that hold trials",
+  juries: "Less common in court systems outside the Anglo-American common law tradition",
+  appellate_courts: { definition: "Courts that hear appeals of lower courts and trial courts", what_it_does: "", examples: "the Crown Court in England and Wales, may have both trial and appellate jurisdictions" },
+  these_two_great_legal_traditions: "Similar, in that they are products of western culture, although there are significant differences between the two traditions",
+  civil_law_courts: "Profoundly based upon Roman law , specifically a civil body of law entitled Corpus Juris Civilis",
+  common_law_courts: "Established by English royal judges of the King's Council after the Norman Invasion of Britain in 1066",
+  this_legal_tradition: "Practiced in the English and American legal systems",
+
 };
 
 // ============================================================
