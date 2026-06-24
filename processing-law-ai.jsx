@@ -33505,6 +33505,13 @@ const FLAT_DICT = {
   stoic_ethics: { definition: "Improving the individual's ethical and moral well-being: ' Virtue consists in a will that is in agreement with Nature", what_it_does: "", examples: "anger, fear and excessive joy" },
   but_the_logic_that_made_it_all_possible: { definition: "The interconnected logic of an interconnected universe, discovered by the ancient Chrysippus, who labored long ago under an old Athenian stoa", what_it_does: "", examples: "propositions of the type 'It is possible that it is day' ...) " },
 
+  // === INGESTED 2026-06-24 08:40 ===
+  the_folk_concept_of_intentionality: { definition: "Used in the legal system to distinguish between intentional and unintentional behavior", what_it_does: "", examples: "those that are impossible to achieve" },
+  outcome_beliefs: "Beliefs as to whether a given action will fulfill an intention, as in 'purchasing a new watch will impress my friends'",
+  this_point_of_view: "Primarily concerned with the norms and patterns that correspond with our behavior and applying them in social situations",
+  three_categories_of_moral_character_traits: "Assigned: virtue-labeling, narrative-based moral assessment, as well as gossiping about traits and they use different approaches to social cognition",
+  although_character_judgement: { definition: "A component in folk psychology, it does not take into consideration other processes that we engage in on the daily basis", what_it_does: "", examples: "shape, size, color)" },
+
 };
 
 // ============================================================
