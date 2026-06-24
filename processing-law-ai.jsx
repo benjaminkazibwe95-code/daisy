@@ -32396,6 +32396,10 @@ const FLAT_DICT = {
   an_assetbased_approach: "Empowering individuals and communities by focusing on community strengths along with the skills of the individuals",
   the_information_that_is_gathered: { definition: "Also distributed to the community to help with important decision-making", what_it_does: "", examples: "South Asia, the Middle East, and Sub-Saharan Africa" },
 
+  // === INGESTED 2026-06-24 05:10 ===
+  metabolic_syndrome: "Associated with the risk of developing cardiovascular disease and type 2 diabetes",
+  most_affected_people: { definition: "Older, obese, sedentary, and have some degree of insulin resistance", what_it_does: "", examples: "adiponectin , resistin , PAI-1 )" },
+
 };
 
 // ============================================================
