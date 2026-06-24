@@ -35330,6 +35330,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 14:15 ===
   when_the_artist: "Ready to use the paint, they would puncture a hole in the bladder and squeeze out the desired amount of paint",
 
+  // === INGESTED 2026-06-24 14:17 ===
+  partick_burgh_hall: "A venue (much like a community centre ) located within Partick",
+  it_regularly_holds_community_events_and: "Owned and managed by Culture & Sport Glasgow (part of Glasgow City Council)",
+  the_hall: "Staffed in order to accommodate events and to handle security",
+  private_events: "Also held in the hall",
+  partick_station: "A trunk station serving as an interchange between the local rail, Glasgow Subway and local bus systems",
+
 };
 
 // ============================================================
