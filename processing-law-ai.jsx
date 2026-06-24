@@ -32690,6 +32690,10 @@ const FLAT_DICT = {
   summarylevel_data: { definition: "Available to the general public whereas the individual-level data is accessible to researchers", what_it_does: "", examples: "techniques for those with arthritis" },
   omb_determines_what_amounts_and_research_areas: { definition: "Approved for incorporation into the President's final budget", what_it_does: "takes approximately 18 months before the NIH can allocate any actual funds", examples: "the Bethesda Declaration , an open letter from former and current NIH staffers" },
 
+  // === INGESTED 2026-06-24 06:01 ===
+  nature_reviews: "A series of review journals",
+  each_journal_in_the_series: "Published through a partnership between Springer Nature and a separate academic organization, foundation, or institution",
+
 };
 
 // ============================================================
