@@ -35337,6 +35337,11 @@ const FLAT_DICT = {
   private_events: "Also held in the hall",
   partick_station: "A trunk station serving as an interchange between the local rail, Glasgow Subway and local bus systems",
 
+  // === INGESTED 2026-06-24 14:19 ===
+  the_county_of_london: "A county of England from 1889 to 1965, corresponding to the area known today as Inner London",
+  the_territory_of_the_county: "74,903 acres (303.12 km 2 ) in 1961",
+  the_local_authority_for_the_county: "The London County Council (LCC)",
+
 };
 
 // ============================================================
