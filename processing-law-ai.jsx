@@ -35376,6 +35376,13 @@ const FLAT_DICT = {
   midshipman_officer_collar_insignia: { definition: "A series of gold bars, from the rank of Midshipman Ensign (one bar or stripe) to Midshipman Captain (six bars or stripes)", what_it_does: "", examples: "the Fluegel-Moore Tennis Stadium" },
   the_adjunct_professors: "Not eligible for tenure",
 
+  // === INGESTED 2026-06-24 14:25 ===
+  portugal: { definition: "Divided into two autonomous regions and seven intermunicipal communities while it remains highly centralised", what_it_does: "", examples: "contributing to the formation of Portuguese values and identity, such as saudade" },
+  the_territory_north_of_the_tagus: "Marked by mountains and plateaus incised by river valleys, whereas the south is distinguished by rolling plains",
+  the_steep_gradient_and_very_high_rainfall: "A cause of flash floods with high sediment transport",
+  although_rainfall: "Abundant, most streams in the Azores are temporary",
+  its_main_exports: { definition: "Machinery and mechanical appliances, vehicles and other transportation equipment, base metals, and plastics", what_it_does: "", examples: "wine and cork in export earnings" },
+
 };
 
 // ============================================================
