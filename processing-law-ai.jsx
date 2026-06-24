@@ -31889,6 +31889,29 @@ const FLAT_DICT = {
   the_last_approach: "A combination of the other three calculation methods to prove that the daylight illumination requirements are achieved",
   the_daylight_factor_calculation: "Based on uniform overcast skies",
 
+  // === INGESTED 2026-06-24 03:46 ===
+  most_algae: "Plankton carried passively by water, although some macroalgae have holdfasts for anchorage",
+  the_singular_alga: "The Latin word for ' seaweed ' and retains that meaning in English",
+  although_some_speculate_that_it: "Related to Latin algēre , 'be cold', [ 11 ] no reason is known to associate seaweed with temperature",
+  a_more_likely_source: { definition: "Alliga , 'binding, entwining'", what_it_does: "", examples: "Prototheca )" },
+  the_term_algal_turf: "Commonly used but poorly defined",
+  plant_hormones: { definition: "Found not only in higher plants, but in algae, too", what_it_does: "", examples: "Chlorochytrium ), but later were seen as endophytic algae" },
+  some_phyla: { definition: "Not photosynthetic, namely Picophyta and Rhodelphidophyta , but they are included in the database due to their close relationship with red algae", what_it_does: "", examples: "heliobacteria , green sulfur and nonsulfur bacteria and proteobacteria" },
+  their_rubisco_enzymes: { definition: "Concentrated in carboxysomes", what_it_does: "", examples: "extreme environments from hot springs to polar glaciers" },
+  many_groups_contain_some_members_that: "No longer photosynthetic",
+  the_latter_chlorophyll_type: "Not known from any prokaryotes or primary chloroplasts, but genetic similarities with red algae suggest a relationship there",
+  the_spores_of_freshwater_algae: { definition: "Dispersed mainly by running water and wind, as well as by living carriers", what_it_does: "", examples: "Antarctica , long distances of ocean or general land masses" },
+  mapping: { definition: "Possible for select species only: 'there are many valid examples of confined distribution patterns", what_it_does: "", examples: "phytoplankton" },
+  the_alga: "Thus protected from predators; the sponge is provided with oxygen and sugars which can account for 50 to 80% of sponge growth in some species",
+  the_seven_most_cultivated_taxa: "Eucheuma spp., Kappaphycus alvarezii , Gracilaria spp., Saccharina japonica , Undaria pinnatifida , Pyropia spp., and Sargassum fusiforme",
+  alvarezii: "Attractive for carrageenan (a gelling agent ); Gracilaria is farmed for agar ; the rest are eaten after limited processing",
+  open_reactors: { definition: "Exposed to the atmosphere while enclosed reactors, also commonly called photobioreactors , are isolated to varying extents from the atmosphere", what_it_does: "", examples: "NO x and CO 2 in flue gases of power plants" },
+  the_carbon_dioxide: "Dispersed into the reactor fluid to make it accessible to the algae",
+  the_breakeven_point_for_algaebased_biofuels: { definition: "Estimated to occur by 2025", what_it_does: "", examples: "as fertilizers , soil conditioners , and livestock feed" },
+  algaculture_on_a_large_scale: "An important type of aquaculture in some places",
+  maerl: { definition: "Commonly used as a soil conditioner", what_it_does: "", examples: "nori and aonori ; [ 164 ] Ireland, dulse ; Chile , cochayuyo" },
+  molecular_cuisine: { definition: "Also a user of the substance for its gelling properties, by which it becomes a delivery vehicle for flavours", what_it_does: "", examples: "for use in flip-flops [ 187 ] and in surf boards" },
+
 };
 
 // ============================================================
