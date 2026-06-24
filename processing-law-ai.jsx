@@ -31112,6 +31112,36 @@ const FLAT_DICT = {
   liberalism: { definition: "A political ideology that developed in the 19th century in the Americas, England, France and Western Europe", what_it_does: "", examples: "libertarian municipalism , citizens' assemblies , trade unions and workers' councils" },
   for_what_it_seeks: { definition: "To disturb monotony of type, slavery of custom, tyranny of habit, and the reduction of man to the level of a machine", what_it_does: "", examples: "the 'peculiar' and individualistic psychology of modern people)" },
 
+  // === INGESTED 2026-06-24 01:46 ===
+  enslavement: { definition: "The placement of a person into slavery, and the person is called a slave or an enslaved person", what_it_does: "", examples: "race or sex" },
+  cicero: { definition: "Also known to have suggested such parallels", what_it_does: "", examples: "serfdom ) appear and disappear" },
+  where_ever_any_one_of_these: "Wanting, slavery still continues...' [ 76 ] Even after slavery became a criminal offense, slave owners could get high returns",
+  a_widespread_practice: "Branding , either to explicitly mark slaves as property or as punishment",
+  some_slaves: "Also acquired further south at Tondi, Adirampatnam, and Kayalpatnam",
+  africans: "Sent as slaves to the Arabian Peninsula , to Indian Ocean islands (including Madagascar ), to the Indian subcontinent , and later to the Americas",
+  on_this_basis_it: "Thought that around 8,500 new slaves were needed annually to replenish numbers – about 850,000 captives over the century from 1580 to 1680",
+  the_majority: "Sailors (particularly those who were English), taken with their ships, but others were fishermen and coastal villagers",
+  the_forms_of_slavery_in_africa: "Closely related to kinship structures",
+  although_the_atlantic_slave_trade: { definition: "Not the only slave trade from Africa, it was the largest in volume and intensity", what_it_does: "", examples: "prescribed death for anyone who helped a slave escape or who sheltered a fugitive" },
+  the_spanish_colonies: { definition: "The first Europeans to use African slaves in the New World on islands such as Cuba and Hispaniola", what_it_does: "", examples: "the Aztecs" },
+  gold_and_diamond_deposits: "Discovered in Brazil in 1690, which sparked an increase in the importation of African slaves to power this newly profitable market",
+  transportation_systems: "Developed for the mining infrastructure, and population boomed from immigrants seeking to take part in gold and diamond mining",
+  some_men_of_color: "Admitted into the military",
+  new_communities_of_african_american_culture: "Developed in the Deep South, and the total slave population in the South eventually reached 4 million before liberation",
+  strike_leaders: "Punished with indefinite solitary confinement",
+  they_became_a_class_and: { definition: "Called ' jianmin [ zh ] ( Chinese : 贱民)' (literally 'inferior person')", what_it_does: "", examples: "the famous contemporary female poet Yu Xuanji was publicly executed for murdering her own slave" },
+  many_han_chinese: { definition: "Enslaved in the process of the Mongol invasion of China proper", what_it_does: "", examples: "Thais and aboriginals from the southern provinces of Fujian, Guangdong, Guangxi, and Guizhou" },
+  the_nobi: { definition: "Socially indistinct from freemen (i.e", what_it_does: "", examples: "Portugal, throughout the 16th and 17th centuries" },
+  chinese_slaves: "More expensive than Moors and blacks and showed off the high status of the owner",
+  those_from_outside_of_europe: "Predominantly of Greek descent",
+  they_were_well_cared_for_but: "Legally slaves owned by the government and were not allowed to marry",
+  periodic_raiding_expeditions: { definition: "Sent from Al-Andalus to ravage the Iberian Christian kingdoms, bringing back booty and slaves", what_it_does: "", examples: "Algeria and Morocco" },
+  russian_agricultural_slaves: "Formally converted into serfs earlier in 1679",
+  the_collar: { definition: "The same device used long ago by the ancient Egyptians", what_it_does: "", examples: "Instagram were uncovered" },
+  this_figure_does_not_include_those_who: { definition: "Trafficked internally", what_it_does: "", examples: "unjust incarcerations and lynchings deterred upward mobility further" },
+  the_black_slave_market: { definition: "Supplied by well-established slave trade networks controlled by local African societies and individuals", what_it_does: "", examples: "the Calabar and other southern parts of Nigeria had economies depended solely on the trade" },
+  the_news: "Welcomed by President Barack Obama , the nation's first president of African descent",
+
 };
 
 // ============================================================
