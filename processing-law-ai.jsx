@@ -33251,6 +33251,9 @@ const FLAT_DICT = {
   the_law_of_the_excluded_middle: "Proved intuitionistically to apply to general recursive predicates",
   consideration_of_its_status_will_show_that_we: "Limited to a special kind of truth table'",
 
+  // === INGESTED 2026-06-24 07:52 ===
+  many_permissions_and_obligations: "Complementary to each other, and deontic logic is a tool sometimes used in reasoning about such relationships",
+
 };
 
 // ============================================================
