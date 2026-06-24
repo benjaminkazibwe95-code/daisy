@@ -32591,6 +32591,10 @@ const FLAT_DICT = {
   once_a_cell: "Sufficiently stimulated, the cell's sarcoplasmic reticulum releases ionic calcium (Ca 2+ ), which then interacts with the regulatory protein troponin",
   excitation_contraction_coupling: "The process by which a muscular action potential in the muscle fiber causes the myofibrils to contract",
 
+  // === INGESTED 2026-06-24 05:46 ===
+  most_eukaryotic_cellular_mrnas: { definition: "Blocked at their 5'-ends with the 7-methyl- guanosine five-prime cap structure, m 7 GpppX (where X is any nucleotide)", what_it_does: "", examples: "yeast, drosophila and humans" },
+  vpg: { definition: "Covalently linked to its genomic RNA and this interaction allows VPg to act as a 'cap", what_it_does: "", examples: "cancers of the breast, lung, and prostate" },
+
 };
 
 // ============================================================
