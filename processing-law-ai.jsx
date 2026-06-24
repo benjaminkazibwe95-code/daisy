@@ -35327,6 +35327,9 @@ const FLAT_DICT = {
   a_more_recent_variant_of_the_sport: "Rugby tens (10s or Xs), a Malaysian invention with ten players per side",
   the_four_threequarter_backs_and_the_full_back: { definition: "Not usually used in attack; if they are, this is usually restricted to the inside centre on the crash ball , and chasing kicks, especially garryowens", what_it_does: "", examples: "rugby to invent basketball" },
 
+  // === INGESTED 2026-06-24 14:15 ===
+  when_the_artist: "Ready to use the paint, they would puncture a hole in the bladder and squeeze out the desired amount of paint",
+
 };
 
 // ============================================================
