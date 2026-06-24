@@ -33704,6 +33704,27 @@ const FLAT_DICT = {
   nervous_habits: { definition: "Commonly associated with anxiety disorders and may serve as coping mechanisms for managing stress or emotional tension", what_it_does: "", examples: "there are many shared habits of consumer behaviour" },
   the_key_to_changing_habits: "To identify the cue and modify routine and reward",
 
+  // === INGESTED 2026-06-24 09:18 ===
+  later_the_beads: { definition: "Made to slide on rods and built into a frame, allowing faster manipulation", what_it_does: "", examples: "base ten (though some cultures used different numerical bases )" },
+  although_calculators_and_computers: { definition: "Commonly used today instead of abacuses, abacuses remain in everyday use in some countries", what_it_does: "", examples: "Japan [ 6 ] and China" },
+  while_the_table_strewn_with_dust_definition: "Popular, some argue evidence is insufficient for that conclusion",
+  below_these_lines: { definition: "A wide space with a horizontal crack dividing it", what_it_does: "", examples: "a 'treasurer' holding a wax tablet in one hand while manipulating counters on a table with the other" },
+  the_wires: "Usually bowed upward in the center, to keep the beads pinned to either side",
+  the_russian_abacus: "In use in shops and markets throughout the former Soviet Union , and its usage was taught in most schools until the 1990s",
+  the_beads: "Always in the shape of a diamond",
+  various_calculation_techniques: "Devised for suanpan enabling efficient calculations",
+  another_possible_source_of_the_suanpan: "Chinese counting rods , which operated with a decimal system but lacked the concept of zero as a placeholder",
+  the_file: "Next to the four beads, and pressing the 'clearing' button puts the upper bead in the upper position, and the lower bead in the lower position",
+  the_abacus: "Still manufactured in Japan, despite the proliferation, practicality, and affordability of pocket electronic calculators",
+  the_use_of_the_soroban: "Still taught in Japanese primary schools as part of mathematics , primarily as an aid to faster mental calculation",
+  its_complete_meaning: "Taken as: counting with small similar elements",
+  the_quipu_of_the_incas: "A system of colored knotted cords used to record numerical data, [ 61 ] like advanced tally sticks – but not used to perform calculations",
+  calculations: "Carried out using a yupana ( Quechua for 'counting tool'; see figure) which was still in use after the conquest of Peru",
+  the_working_principle_of_a_yupana: { definition: "Unknown, but in 2001 Italian mathematician De Pasquale proposed an explanation", what_it_does: "", examples: "42 can be represented by shifting all 10 beads on four wires and two beads on a fifth wire" },
+  the_redandwhite_abacus: "Used in contemporary primary schools for a wide range of number-related lessons",
+  the_first_such_nanoabacus: { definition: "Developed by IBM in 1997", what_it_does: "", examples: "addition, subtraction, multiplication, and division, in the mind by manipulating an imagined abacus" },
+  a_piece_of_soft_fabric_or_rubber: "Placed behind the beads, keeping them in place while the users manipulate them",
+
 };
 
 // ============================================================
