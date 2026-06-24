@@ -32985,6 +32985,17 @@ const FLAT_DICT = {
   these_orientations: "Centered on the topics of human nature, human activity, social organization, relation to nature, and a focus on past, present, or future",
   he_argued_that_values: { definition: "Ordered hierarchically around a set of paramount values that trump all other values", what_it_does: "", examples: "self-directedness , independence, and the fulfillment of personal goals" },
 
+  // === INGESTED 2026-06-24 07:10 ===
+  vishishta_advaita: { definition: "'non-duality with distinctions' and recognises Brahman (ब्रह्म) as the primordial quality while also acknowledging its existential multiplicity", what_it_does: "", examples: "omniscience , omnipotence , omnipresence , and omnibenevolence" },
+  tanka: "Attributed with having written commentaries on Chandogya Upanishad and Brahma Sutras",
+  ishvara: "Described as Parabrahman endowed with numerous auspicious qualities (Kalyana Gunas)",
+  brahman: "Assigned two kāraṇatvas (ways of being the cause): According to Vishishtadvaita, the Universe and Sentients always exist",
+  cit_and_acit: "Completely dependent on Brahman",
+  the_vishishtadvaita_theory: "Called Brahma-parinama-vada, with 'parinama-vada' meaning the evolution of the effect from the cause",
+  the_subtle_state: "Called a causal state, while the transformed state is called the effect state",
+  the_causal_state_is_when_brahman: "Internally not distinguishable by name and form",
+  karma_yoga_and_jnana_yoga: "Sub-processes of Bhakti, total surrender, as the devotee acquires the knowledge that the deity is the inner self",
+
 };
 
 // ============================================================
