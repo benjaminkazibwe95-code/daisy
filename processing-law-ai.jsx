@@ -31163,6 +31163,9 @@ const FLAT_DICT = {
   this_authority: { definition: "Also reflected in Rule 28 of the Provisional Rules of Procedure", what_it_does: "", examples: "asset freezes, travel bans, and arms embargoes" },
   both_tribunals_completed_their_mandates_and: "Succeeded by the International Residual Mechanism for Criminal Tribunals , which handles remaining functions including appeals and fugitive tracking",
 
+  // === INGESTED 2026-06-24 01:55 ===
+  this_interest: "Especially focused on areas of commonality between the teachings of Judaism and their own beliefs",
+
 };
 
 // ============================================================
