@@ -30468,6 +30468,16 @@ const FLAT_DICT = {
   they_also_examine_how_these_processes: { definition: "Influenced by neurotransmitters — signalling molecules that affect information exchange between neurons", what_it_does: "", examples: "perception, memory, and reasoning, adopts an abstract perspective" },
   they_analyze_how_information: "Encoded, retrieved, and transformed, often with the goal of devising educational practices that optimize learning",
 
+  // === INGESTED 2026-06-24 00:10 ===
+  the_perennial_position: { definition: "'largely dismissed by scholars' [ 10 ] but 'has lost none of its popularity", what_it_does: "", examples: "Buddha , Jesus , Lao Tze , and Krishna" },
+  this_amalgam: "Exported back to the West as 'authentic Asian traditions', and acquired a great popularity in the west",
+  this_mutual_influence: { definition: "Also known as the pizza effect", what_it_does: "", examples: "Steven Katz reject any typology of experiences since each mystical experience is deemed unique" },
+  natural_mystical_experiences: "In Zaehner's view of less value because they do not lead as directly to the virtues of charity and compassion",
+  zaehner: "Generally critical of what he sees as narcissistic tendencies in nature mysticism",
+  while_an_atheist: { definition: "The unity as 'freed from empirical filling', a religious person might describe it as 'God' or 'the Divine'", what_it_does: "", examples: "psychoses or other forms of altered awareness" },
+  proponents_of_neurotheology_claim_that_there: "A neurological and evolutionary basis for subjective experiences traditionally categorized as spiritual or religious",
+  these_religious_experiences: "Thereby emergent properties of neural correlates",
+
 };
 
 // ============================================================
