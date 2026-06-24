@@ -32154,6 +32154,25 @@ const FLAT_DICT = {
   production_and_consumption: "Long concentrated in Scotland even as oats were cultivated elsewhere",
   similar_songs: "Recorded from France, Canada, Belgium, Sweden, and Italy",
 
+  // === INGESTED 2026-06-24 04:24 ===
+  domesticated_animals: "Known as breeds , normally bred by a professional breeder , while domesticated plants are known as varieties , cultigens , cultivars , or breeds",
+  in_animal_breeding_artificial_selection: "Often combined with techniques such as inbreeding , linebreeding , and outcrossing",
+  the_lincoln_longwool: "Improved by Bakewell, and in turn the Lincoln was used to develop the subsequent breed, named the New (or Dishley) Leicester",
+  bakewell: "Also the first to breed cattle to be used primarily for beef",
+  crossbreeds: "A mix of two purebreds, whereas mixed breeds are a mix of several breeds, often unknown",
+  artificial_reproduction: "Not achieved because of the difficulties in hatching or feeding some farmed species such as eel and yellowtail farming",
+  documentation_of_the_genetic_changes: "Considered important as they help in fine tuning further selection schemes",
+  resistant_strains: "Found to have an average mortality of 4.3% whereas 96.1% mortality was observed in a highly sensitive strain",
+  an_increase_in_growth_rate: "Observed in the second generation in Vietnam",
+  bonamia_ostrea: "A protistan parasite that causes catastrophic losses (nearly 98%) in European flat oyster Ostrea edulis L",
+  this_protistan_parasite: "Endemic to three oyster-regions in Europe",
+  stylirostris_that: "Resistant to IHHNV infection",
+  when_selective_breeding: "Carried out, some characteristics are lost for others that may suit a specific environment or situation",
+  if_these_fish_are_farmed_in_areas_they: "Not native to they may be able to establish themselves and outcompete native populations of fish, and cause ecological harm as an invasive species",
+  a_singlegeneration_method_of_breeding: "Not as accurate or direct",
+  controlled_mating_instances: { definition: "Difficult to carry out in this case and this is a necessary component of selective breeding", what_it_does: "", examples: "reduction of genetic diversity or physical problems" },
+  at_the_same_time_it: "More vulnerable to Southern Corn leaf-blight",
+
 };
 
 // ============================================================
