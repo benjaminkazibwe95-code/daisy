@@ -31974,6 +31974,28 @@ const FLAT_DICT = {
   the_effluent_from_the_reclamation_plants: "Either discharged into the sea or undergoes further microfiltration, reverse osmosis and ultraviolet treatment",
   water_reclaimation: "Pursued primarily due to geopolitical tensions arising from Singapore's dependency on water imported from Malaysia",
 
+  // === INGESTED 2026-06-24 03:55 ===
+  an_exoplanet_or_extrasolar_planet: "A planet outside the Solar System",
+  the_first_confirmed_detection_of_an_exoplanet: "In 1992 around a pulsar , and the first detection around a main-sequence star was in 1995",
+  some_exoplanets: "So far away from the star that it is difficult to tell whether they are gravitationally bound to it",
+  the_nearest_exoplanets: { definition: "Located 4.2 light-years (1.3 parsecs ) from Earth and orbit Proxima Centauri , the closest star to the Sun", what_it_does: "", examples: "their composition , environmental conditions , and habitability" },
+  such_objects: "Generally considered in a separate category from planets, especially if they are gas giants , often counted as sub-brown dwarfs",
+  one_alternate_suggestion: "That planets should be distinguished from brown dwarfs on the basis of their formation",
+  if_several_planets_in_the_same_system: "Discovered at the same time, the closest one to the star gets the next letter, followed by the other planets in order of orbital size",
+  this_spectrum: { definition: "Reexamined during studies of white dwarf stars with unpredicted compositions", what_it_does: "", examples: "the transit method and the radial-velocity method" },
+  in_it: { definition: "An infinity of worlds of the same kind as our own", what_it_does: "", examples: "a few that were confirmations of controversial claims from the late 1980s" },
+  as_pulsars: "Aggressive stars, it was considered unlikely at the time that a planet could form in their orbit",
+  the_conclusion_that_the_third_object: "A planet was announced by Stephen Thorsett and his collaborators in 1993",
+  more_extrasolar_planets: "Later detected by observing the variation in a star's apparent luminosity as an orbiting planet transited in front of it",
+  but_eventually_more_planets_of_other_sorts: "Found, and it is now clear that hot Jupiters make up a minority of exoplanets",
+  these_exoplanets: "Checked using a statistical technique called 'verification by multiplicity'",
+  stars_with_higher_metallicity: "More likely to have planets, especially giant planets, than stars with lower metallicity",
+  a_few_planets_in_triple_star_systems: "Known [ 124 ] and one in the quadruple system Kepler-64",
+  the_magnetic_field: { definition: "Estimated to be about one-tenth as strong as Jupiter's", what_it_does: "", examples: "LOFAR , although they have yet to be found" },
+  the_lack_of_water_also_means_there: "Less ice to reflect heat into space, so the outer edge of desert-planet habitable zones is further out",
+  when_the_surface: "Frozen, this stops carbon dioxide weathering , resulting in a build-up of carbon dioxide in the atmosphere from volcanic emissions",
+  its_equilibrium_temperature: "Estimated to be −39 °C (234 K)",
+
 };
 
 // ============================================================
