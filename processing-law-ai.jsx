@@ -30629,6 +30629,34 @@ const FLAT_DICT = {
   in_the_egyptian_revolution_and_anarchist_ideas: { definition: "Put into practice in the local councils established as part of the Syrian revolution", what_it_does: "", examples: "the Occupy movement and the indignados , in which radical left ideas were prominent" },
   insurgencies: { definition: "Only viable in developing nations where the state is not capable of defeating the group", what_it_does: "", examples: "freeing its members from prison" },
 
+  // === INGESTED 2026-06-24 00:33 ===
+  nationalism: "An ideology or movement that holds that the nation should be congruent with the state",
+  the_union_jack: { definition: "Adopted in 1801 as the national flag", what_it_does: "", examples: "Bulgarians , Romanians , Serbs and Greeks , from Ottoman rule" },
+  these_juntas: { definition: "Established as a result of Napoleon's resistance failure in Spain", what_it_does: "", examples: "dissolving the Holy Roman Empire in 1806" },
+  the_three_main_historians: "Johann Gustav Droysen (1808–1884), Heinrich von Sybel (1817–1895) and Heinrich von Treitschke (1834–1896)",
+  the_core_of_his_message: "The need for a strong, unified state—a unified Germany under Prussian supervision",
+  although_he: "A descendant of a Czech family, he considered himself not Slavic but German: 'I am 1,000 times more the patriot than a professor",
+  lebensraum: "Thus a vast project for advancing the Aryan race far outside of any particular nation or national borders",
+  but_their_goals: "Trans-national and intended to spread across as much of the world as they could achieve",
+  the_memory_of_the_risorgimento: "Central to Italian nationalism but it was based in the liberal middle classes and ultimately proved a bit weak",
+  his_policies: { definition: "Ruinous, both for Italy's trade with France, and, more humiliatingly, for colonial ambitions in East Africa", what_it_does: "", examples: "those in the Kresy" },
+  the_jagiellon_concept: "The official policy of the government in the 1920s and 1930s",
+  political_theorists_state_that_there: "Four key elements necessary for a group to suffice as a nationality; a shared territory, a shared culture, a shared economy, and a shared language",
+  the_official_language_of_israel: "Originally debated between Hebrew and Yiddish",
+  the_key_episode: "The decisive defeat of Russia by Japan in 1905, demonstrating the military advancement of non-Europeans in a modern war",
+  militant_buddhist_nationalism: { definition: "Also on the rise in Myanmar , Thailand and Sri Lanka", what_it_does: "", examples: "the Nanking Massacre" },
+  his_unexpected_victory_in_the_election: { definition: "Seen as part of the same trend that had brought about the Brexit vote", what_it_does: "", examples: "ethnic groups, or other groups that form the foundation of a nation" },
+  needed: { definition: "A spiritual soul that allowed as a 'daily referendum' among the people", what_it_does: "", examples: "Great Britain, Belgium and Spain" },
+  allegiance_to_the_napoleonic_states: "Rejected, and increasingly the creoles demanded independence",
+  pannationalism: "Unique in that it covers a large area span",
+  panslavism: "One example of Pan-nationalism",
+  for_them_it: { definition: "A negative term and they rather consider themselves as ' Patriots '", what_it_does: "", examples: "banning race mixing and the immigration of other races" },
+  sometimes_a_mythic_homeland: "More important for the national identity than the actual territory occupied by the nation",
+  a_criterion_of_a_territorial_nationalism: "The establishment of a mass, public culture based on common values, codes and traditions of the population",
+  grayling: "Nations as artificial constructs, 'their boundaries drawn in the blood of past wars'",
+  cultural_heritage: "Not the same thing as national identity'",
+  national_symbols_and_patriotic_assertiveness: "In some countries discredited by their historical link with past wars, especially in Germany",
+
 };
 
 // ============================================================
