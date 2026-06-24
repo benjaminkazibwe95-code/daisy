@@ -33543,6 +33543,15 @@ const FLAT_DICT = {
   the_meat: "Then divided into three equal parts",
   the_third_part: "Distributed to the poor",
 
+  // === INGESTED 2026-06-24 08:55 ===
+  sinema: "Described in news reports as an organizer and sponsor of the rally and was listed as the point of contact for the event",
+  her_parents_divorced_when_she: "A child, and her mother, who had custody of the children, remarried",
+  she_said_she: "'running on the issues people care about most, including offering quality, affordable health care and promoting economic opportunity'",
+  and_nothing: { definition: "More central to it now than her childhood homelessness.' [ 19 ] On November 12, many news sources called the U.S", what_it_does: "", examples: "abolishing the filibuster and aspects of Biden's Build Back Better Plan" },
+  the_meeting: "Ultimately unsuccessful",
+  wade: { definition: "Overturned in June 2022, Sinema said the decision 'endangers the health and well-being of women in Arizona and across America", what_it_does: "", examples: "a $15/hour minimum wage as part of a COVID-19 relief bill" },
+  cnn_said_that_such_positions: "'a contrast from the more moderate profile she has developed since her 2012 election to Congress'",
+
 };
 
 // ============================================================
