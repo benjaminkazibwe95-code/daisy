@@ -35157,6 +35157,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 13:41 ===
   katsenelinboigen: { definition: "Born in Izyaslavl in the Ukrainian SSR", what_it_does: "", examples: "biology, psychology and theology" },
 
+  // === INGESTED 2026-06-24 13:45 ===
+  roozbeh_kiani: "An Iranian-American neuroscientist whose research focuses on how the brain makes decisions under uncertainty",
+  kiani: "Born and raised in Amol, Iran",
+
 };
 
 // ============================================================
