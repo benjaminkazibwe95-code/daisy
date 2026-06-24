@@ -35443,6 +35443,19 @@ const FLAT_DICT = {
   any_number_that: "In the 20s is half-court",
   the_packline_defense: "Created by former college coach Dick Bennett while serving at Green Bay using principles from several other man-to-man systems",
 
+  // === INGESTED 2026-06-24 14:46 ===
+  the_international_governing_body: "The International University Sports Federation (FISU), which organizes the FISU World University Games",
+  this_university_affiliated_team: "One of the only teams from that period that still exists",
+  there_are_athletic_scholarships_that: "Awarded to student athletes based on academic eligibility and athletic ability",
+  athletic_scholarships: "Not only determined by the league caps but it varies on the institution, team, and coaches standard",
+  university_sport: "Established in China by the 1930s",
+  one_of_these_programs: "At the Catholic University of Peking",
+  soccer: "Played in 1904 with the founding of the soccer club at Tokyo Higher Normal School ( University of Tsukuba )",
+  national_championships: { definition: "Held that year with Aichi Gakuin University winning the inaugural event", what_it_does: "", examples: "the All Japan University Rugby Championship" },
+  one_such_team: "The Universidad Autonoma Pumas",
+  the_uleague: "Mirrored after the domestic professional leagues and a large number of student-athletes eventually turn professional",
+  the_club_championship: { definition: "Contested by college teams operated as intramural clubs", what_it_does: "", examples: "tennis, horse racing, boxing, cricket, and women's collegiate sport" },
+
 };
 
 // ============================================================
