@@ -32065,6 +32065,18 @@ const FLAT_DICT = {
   the_marpol_convention: { definition: "An example of such regulation", what_it_does: "", examples: "areas beyond the national jurisdiction of the countries making those activities" },
   a_large_portion_of_these_requirements: "Further strengthened and expanded",
 
+  // === INGESTED 2026-06-24 04:09 ===
+  a_redox_couple: "A reducing species and its corresponding oxidizing form, [ 8 ] e.g., Fe 2+ / Fe 3+",
+  oxidants: { definition: "Usually chemical substances with elements in high oxidation states [ 3 ] : 159 (e.g", what_it_does: "", examples: "a metal oxide to extract the metal" },
+  these_reagents: "Widely used in the reduction of carbonyl compounds to alcohols",
+  electron_transfer_reactions: "Generally fast, occurring within the time of mixing",
+  the_reduction_potential: "A measure of the tendency of the oxidizing agent to be reduced",
+  thus_one_sulfur_atom: "Reduced from +2 to 0, while the other is oxidized from +2 to +4",
+  the_redox_state: "Reflected in the balance of several sets of metabolites (e.g",
+  the_net_reaction: "The oxidation of the flavoenzyme's coenzymes and the reduction of molecular oxygen to form superoxide",
+  titanium: "Mined as its dioxide, usually in the form of rutile (TiO 2 )",
+  blast_furnaces: "The reactors where iron oxides and coke (a form of carbon) are combined to produce molten iron",
+
 };
 
 // ============================================================
