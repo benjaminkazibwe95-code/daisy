@@ -35608,6 +35608,22 @@ const FLAT_DICT = {
   books_on_the_subject: { definition: "Predominantly non-fiction, and tend towards the forms of training manuals and historical accounts of athletics", what_it_does: "", examples: "The Perfect Mile and 3:59.4: The Quest to Break the Four Minute Mile" },
   one_of_the_recent_samples: "The €10 Greek Running commemorative coin , minted in 2003 to commemorate the 2004 Summer Olympics",
 
+  // === INGESTED 2026-06-24 15:12 ===
+  horses: "Large prey animals with a well-developed flight or fight instinct able to move quickly and unexpectedly",
+  some_popular_forms_of_competition: { definition: "Grouped together at horse shows where horses perform in a wide variety of disciplines", what_it_does: "", examples: "fox hunting , trail riding , or hacking" },
+  in_ancient_times_chariot_warfare: { definition: "Followed by the use of war horses as light and heavy cavalry", what_it_does: "", examples: "transportation , trade and agriculture" },
+  three_forms_of_competition: "Recognized worldwide and are a part of the equestrian events at the Olympics",
+  these_disciplines: "Part of the FEI World Equestrian Games every four years and may hold their own individual World Championships in other years",
+  horse_shows: "Held throughout the world with a tremendous variety of possible events, equipment, attire, and judging standards used",
+  finished_western_horses: "Asked to perform with a loose rein controlled by one hand",
+  bitless_headstalls: { definition: "Also seen, such as a bosal -style hackamore on younger horses, or various styles of mechanical hackamore", what_it_does: "", examples: "Western pleasure may much flashier equipment" },
+  a_lasso_or_lariat: "Thrown over the head of a calf or the horns of adult cattle, and the animal is secured in a fashion dictated by its size and age",
+  horseback_riding: "A leading cause of sports-related traumatic brain injury in the United States",
+  the_most_common_injury: "Falling from the horse, followed by being kicked, trampled and bitten",
+  most_frequent_injury_sites: "The lower trunk (19.6%); head (15.0%); upper trunk (13.4%); shoulder (8.2%); and wrist (6.8%)",
+  within_this_study_patients: { definition: "Treated and released (86.2%), were hospitalized (8.7%), were transferred (3.6%), left without being treated (0.8%), remained for observation (0", what_it_does: "", examples: "indicate that about 30 million people ride horses annually" },
+  riders_falling_with_a_helmet: "Five times less likely to experience a traumatic brain injury than a rider who falls without a helmet",
+
 };
 
 // ============================================================
