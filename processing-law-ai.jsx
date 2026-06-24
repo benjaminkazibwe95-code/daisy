@@ -35658,6 +35658,36 @@ const FLAT_DICT = {
   the_speed_at_which_the_venue_empty: "Important both for amenity and safety, because large crowds take a long time to disperse from a badly designed venue, which creates a safety risk",
   the_hillsborough_disaster: "An example of how poor aspects of building design can contribute to audience deaths",
 
+  // === INGESTED 2026-06-24 15:16 ===
+  sports_which_feature_goal_scoring: { definition: "Also commonly known as invasion games", what_it_does: "", examples: "the basketball hoop" },
+  in_australian_rules_football_the_score: { definition: "Expressed by listing the quantity of each team's 'goals' and 'behinds' followed by the total number of points", what_it_does: "", examples: "those based on rugby , the ball must pass over the crossbar instead" },
+  an_attempt_on_goal: { definition: "Referred to as a 'shot' or 'shot on goal'", what_it_does: "", examples: "touching the ball with the hand or arm)" },
+  the_goal_structure: "Defined as a frame 24 feet (7.32 m) wide by 8 feet (2.44 m) tall",
+  in_futsal_the_goal: "Defined as a frame 3 m wide by 2 m tall",
+  centered_at_each_shortline_of_the_bandy_field: "A 3.5 m (11 ft) wide and 2.1 m (6 ft 11 in) high goal cage, regulated to size, form, material and other properties in section 1",
+  in_front_of_the_goal_cage: "A half-circular penalty area with a 17 m (56 ft) radius",
+  a_penalty_spot: "Located 12 metres (39 ft) in front of the goal and there are two free-stroke spots at the penalty area line, each surrounded by a 5 m (16 ft) circle",
+  the_goal_structure_in_field_hockey: "3.66 metres (12.0 ft) wide by 2.14 metres (7.0 ft) tall",
+  nets: "Required to hold the ball in",
+  a_net: "Required to catch the ball",
+  goals_can_be_disallowed_if_there: "An infraction by the offensive team",
+  the_goal_in_lacrosse: "6 feet (1.8 m) tall and 6 feet (1.8 m) wide and a net is used to prevent the ball from reentering the field of play",
+  lacrosse_goals: "Not positioned on the end boundary line; play often occurs behind the goal",
+  a_shot: "Made with either end of the mallet head similar to swinging a hammer whereas a shuffle is made with the long side like pushing a broom",
+  these_nonnetted_goals: "No long regulation [ 12 ] [ 13 ] in competitive play but are common depending on the resources of a club",
+  in_most_cases_the_score: "Shown as the number of goals, plus the number of secondary scores (usually 1 point), plus the total number of points",
+  in_australian_rules_football_a_goal: "Scored when the ball is kicked by an attacking player completely between the two tall goal posts",
+  basketball_scores: "Expressed in total points",
+  free_throws: "Awarded to a team after the opponent commits a foul in certain scenarios",
+  the_ring: "Fastened to a rectangular backboard 6 feet (1.8 m) wide by 3.5 feet (1",
+  overs: "The most common scoring method with goals heavily defended",
+  the_goal_posts: "At least 6 meters high, and the crossbar is 2.44 meters above the ground",
+  the_front_line_of_the_end_zone: "The 'goal line', its back line is the 'end line', and each corner is marked with a pylon",
+  each_end_zone_in_american_football: { definition: "About 10 by 53.33 yards (9.14 m × 48.76 m) wide, while each end zone in Canadian football is about 20 by 65 yards (18 m × 59 m) wide", what_it_does: "", examples: "in high school football the posts are 23 feet 4 inches (7.11 m) apart" },
+  the_nets: "30 feet (9.14 m) wide and 37 feet (11.28 m) high",
+  the_primary_scoring_method: "A try , worth 5 points in rugby union and worth 4 points in rugby league",
+  a_try: "Scored by grounding the ball in the in-goal area",
+
 };
 
 // ============================================================
