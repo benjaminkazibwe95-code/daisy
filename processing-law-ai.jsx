@@ -33799,6 +33799,32 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 09:43 ===
   controlled_natural_languages: { definition: "Subsets of natural languages whose grammars and dictionaries have been restricted to reduce ambiguity and complexity", what_it_does: "", examples: "Haitian Creole has its own grammar, vocabulary and literature" },
 
+  // === INGESTED 2026-06-24 09:45 ===
+  burmese: "A tonal language , which means phonemic contrasts can be made on the basis of the tone of a vowel",
+  the_standard_dialect: { definition: "Typified by the Yangon dialect because of the modern city's media influence and economic clout", what_it_does: "", examples: "Palaw, Merguese, and Tavoyan, are especially conservative compared to Standard Burmese" },
+  mergers_of_sound_pairs_that: { definition: "Distinct in Old Burmese) as well as accompanying changes in the underlying orthography", what_it_does: "", examples: "increased tax burdens from the Burmese crown, British rice production incentives, etc" },
+  the_final_nasal: { definition: "Usually realised as nasalisation of the vowel", what_it_does: "", examples: "in /mòʊɰ̃dáɪɰ̃/ ('storm'), which is pronounced [mõ̀ũndã́ĩ]" },
+  the_consonants: "Arranged into six consonant groups (called ဝဂ် vag ) based on articulation, like other Brahmi scripts",
+  tone_markings_and_vowel_modifications: "Written as diacritics placed to the left, right, top, and bottom of letters",
+  similar_mergers: "Seen in other Sino-Tibetan languages like Shanghainese and, to a lesser extent, Cantonese",
+  affixes: "Used to convey information",
+  sometimes_the_case_markers: "Different between the two registers",
+  superlatives: "Indicated with the prefix အ a",
+  nouns_in_burmese: "Pluralized by suffixing တွေ twe [dwè] (or [twè] if the word ends in a glottal stop) in colloquial Burmese or များ mya: [mjà] in formal Burmese",
+  measure_words: "Like English expressions such as 'two slices of bread' or 'a cup of coffee'",
+  classifiers: "Required when counting nouns, so ကလေး ၅ hka.le: nga: [kʰəlé ŋà] ( lit",
+  the_only_exception_to_this_rule: { definition: "The number 10, which follows the standard word order", what_it_does: "", examples: "'hour', နာရီ 'day', ရက် or 'month', လ do not require classifiers" },
+  among_the_most_prominent_of_these: "The prefix အ [ə] , which is prefixed to verbs to form nouns or adverbs",
+  one_holdover: "The use of ညီ ('younger brother to a male') and မောင် ('younger brother to a female')",
+  reduplication_is_prevalent_in_burmese_and: { definition: "Used to intensify or weaken property verbs' meanings", what_it_does: "", examples: "if ချော [tɕʰɔ́] 'beautiful' is reduplicated, then the intensity of the verb's meaning increases" },
+  some_nouns: "Also reduplicated to indicate plurality",
+  the_cardinal_forms_of_burmese_numerals: "Primarily inherited from the Proto-Sino-Tibetan language , with some larger numbers like 'ten million' borrowed from Sanskrit or Pali",
+  the_ordinal_forms_of_primary_burmese_numerals: "Directly borrowed from Pali",
+  transcription_of_burmese: "Not standardized, as seen in the varying English transcriptions of Burmese names",
+  these_character_clusters: "Built with multiple keystrokes",
+  keyboards_with_a_zawgyi_layout: "The most commonly available for purchase domestically",
+  the_national_standard_keyboard_layout: "Known as the Myanmar3 layout, and it was published along with the Myanmar3 Unicode font",
+
 };
 
 // ============================================================
