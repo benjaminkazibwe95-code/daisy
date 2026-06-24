@@ -34571,6 +34571,10 @@ const FLAT_DICT = {
   their_answers_suggest_that_this_model: { definition: "More accurate than the previous one", what_it_does: "", examples: "dopamine and norepinephrine may be the reason for this" },
   dosedependent_effects_on_time_perception: "Only observed when short-term abstinent meth abusers processed long time intervals",
 
+  // === INGESTED 2026-06-24 11:52 ===
+  the_franklin_planner: { definition: "Marketed to consumers through an e-commerce web site, a US-based call center, and a GSA government contract", what_it_does: "", examples: "Franklin Planner, to a private equity firm" },
+  the_planner_pages: "Drilled, loose-leaf style pages in different sizes and formats",
+
 };
 
 // ============================================================
