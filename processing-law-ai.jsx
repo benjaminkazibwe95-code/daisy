@@ -35420,6 +35420,15 @@ const FLAT_DICT = {
   the_official_school_song: "Entitled 'Hail, Alma Mater",
   tvmcgill: { definition: "The university TV station, broadcasting on closed-circuit television and over the internet", what_it_does: "", examples: "the McGill Law Journal , founded in 1952" },
 
+  // === INGESTED 2026-06-24 14:40 ===
+  his_basketball_success: "Not immediate, and in fact he was cut from the school team in his first year",
+  he_later_made_it_clear_that_he: "Hoping for Zaslofsky, would have tolerated Phillip, and did not want Cousy",
+  while_that_record: "Broken 19 years later, Cousy also set a record for 19 assists in a half which has never been broken",
+  the_finals_series_against_the_lakers: "Especially dramatic, because Lakers guard Frank Selvy failed to make a last-second buzzer beater in Game 7 which would have won the title",
+  providence: { definition: "Coached by Joe Mullaney, who was Cousy's teammate at Holy Cross when the two men were players there on the same team in 1947", what_it_does: "", examples: "the 1967 Eastern Regional Finals" },
+  i_think_he: "Anyway.' [ 10 ] In addition, on May 11, 2006, ESPN",
+  the_statue_of_cousy: "Dedicated in June 2021",
+
 };
 
 // ============================================================
