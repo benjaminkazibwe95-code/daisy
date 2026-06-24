@@ -31585,6 +31585,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 03:08 ===
   a_web_shell: { definition: "A shell-like interface that facilitates remote access to a web server , commonly exploited for cyberattacks", what_it_does: "", examples: "Active Server Pages , ASP.NET , Python , Perl , Ruby , and Unix shell scripts, are also employed" },
 
+  // === INGESTED 2026-06-24 03:10 ===
+  at_least_a_third_of_people_who: { definition: "Infected do not develop noticeable symptoms", what_it_does: "", examples: "fatigue , cognitive issues and shortness of breath" },
+  the_first_known_case: { definition: "Identified in Wuhan , China, in December 2019", what_it_does: "", examples: "the Spanish flu , [ 31 ] Middle East respiratory syndrome , and Zika virus" },
+  multiyear_studies: "Underway to further investigate the protracted effects of long COVID",
+  symptoms_with_the_omicron_variant: { definition: "Less severe than they are with other variants", what_it_does: "", examples: "immunocompromised people" },
+  the_virus: { definition: "Not detected in the central nervous system (CNS) of the majority of people with COVID-19 who also have neurological issues", what_it_does: "", examples: "Omicron) killed brain cells, but the exact cells killed varied by variant" },
+  all_effects: { definition: "More pronounced among older ages", what_it_does: "", examples: "pulmonary vasoconstriction – a possible mechanism in which oxygenation decreases during pneumonia" },
+  it_is_the_focus_spike_proteins_expression_that: "Involved in many effective COVID‑19 vaccines",
+  until_further_data: { definition: "Available, guidelines and recommendations for people with hypertension remain", what_it_does: "", examples: "strokes, myocardial infarction , encephalitis , acute kidney injury , and vasculitis" },
+  glycerol: { definition: "Added as a humectant", what_it_does: "", examples: "cotton fabric and copper, the virus usually dies after a few hours" },
+  the_average_to_readmit: "Eight days since first hospital visit",
+  common_symptoms: "Fatigue , post-exertional malaise , cognitive issues , shortness of breath and pain",
+  the_first_case_of_reinfection: { definition: "Documented in August 2020", what_it_does: "", examples: "age, sex, and overall health" },
+  mortality_rates: { definition: "Highly correlated to age, with relatively low rates for young people and relatively high rates among the elderly", what_it_does: "", examples: "0.002% at age 10 and 0.01% at age 25) but increases progressively to 0.4% at age 55, 1" },
+  a_vaccine_for_mink_and_other_animals: "Being researched in 2021, though by 2025 it appeared that animals were effectively vaccinated, with the exception of polar bears",
+  a_cytokine_storm: { definition: "A potentially deadly immune reaction where a large amount of pro-inflammatory cytokines and chemokines are released too quickly", what_it_does: "", examples: "antibody-dependant cellular cytotoxicity or phagocytosis , may be possible" },
+
 };
 
 // ============================================================
