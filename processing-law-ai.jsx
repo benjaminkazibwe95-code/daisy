@@ -33102,6 +33102,24 @@ const FLAT_DICT = {
   tarawih: "Also generally concluded with Witr salah",
   the_authority_for_the_basic_forms_of_the_salah: "Neither the hadiths nor the Quran, but rather the consensus of Muslims",
 
+  // === INGESTED 2026-06-24 07:29 ===
+  access: { definition: "Guaranteed to all citizens'", what_it_does: "", examples: "public health, public education, public opinion, or public ownership" },
+  the_notion_of_the_public: "Intrinsically connected to the notion of the private",
+  the_key_feature_of_this_public_sphere: "Its separation from the power of both the church and the government due to its access to a variety of resources, both economic and social",
+  this_collapse: "Due to the consumeristic drive that infiltrated society, so citizens became more concerned about consumption than political actions",
+  she_argues_that_if_the_public_sphere: "To be open to any discussion that affects the population, there cannot be distinctions between 'what is' and 'what is not' discussed",
+  the_public_sphere: { definition: "Long regarded as men's domain whereas women were supposed to inhabit the private domestic sphere", what_it_does: "", examples: "a study by S" },
+  the_authors_mention_critiques_that_say_youtube: "Built around the popularity of videos with sensationalist content",
+  they_argue_that_this: "A possible indicator that YouTube provides space for public discussion",
+  the_findings_of_the_work_suggest_that_youtube: { definition: "A public sphere platform", what_it_does: "", examples: "in online campaigns" },
+  its_third_virtue: "To escape from the simple dichotomy of free market versus state control that dominates so much thinking about media policy",
+  the_proletarian_public_sphere: "Rather to be conceived of as the 'excluded', vague, unarticulated impulses of resistance or resentment",
+  the_public_spheres_of_production: "Wholly instrumental and have no critical impulse (unlike the bourgeois and proletarian spheres)",
+  the_interests_that: "Incorporated in the public sphere of production are given capitalist shape, and questions of their legitimacy are thus neutralized",
+  this_account_of_property: "(according to Hardt and Negri) based upon a scarcity economy",
+  the_scarcity_economy: "Characterized by the impossibility of sharing the goods",
+  the_interests_of_agents: "Thus, generally, clearly separated",
+
 };
 
 // ============================================================
