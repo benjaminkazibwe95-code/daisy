@@ -33758,6 +33758,11 @@ const FLAT_DICT = {
   even_when_these: { definition: "Collected and published by scholars such as folklorists and paremiographers , the result is still often referred to as 'oral literature'", what_it_does: "", examples: "bedtime stories ) or informal social structures" },
   this_process_often: { definition: "Linguistic and musical creolisation (e.g", what_it_does: "", examples: "the existence of gestures, dance, and the interaction between the storyteller and the audience" },
 
+  // === INGESTED 2026-06-24 09:33 ===
+  colonization_or_colonisation: { definition: "Defined as 'the act or process of sending people to live in and govern another country'", what_it_does: "", examples: "the city-states of Greece and Phoenicia established colonies in other parts of the Mediterranean" },
+  during_this_period_there: { definition: "Large-scale movements of people establishing new colonies all over western Europe", what_it_does: "", examples: "Abkhazia was merged into Georgia and thousands of ethnic Georgians were sent to Abkhazia" },
+  another_motive: "To strengthen Soviet presence along the vulnerable eastern border",
+
 };
 
 // ============================================================
