@@ -30564,6 +30564,32 @@ const FLAT_DICT = {
   two_thirds_of_the_senate: "To be elected at the same time as the general election",
   the_remaining_one_third: "Appointed by the president elect",
 
+  // === INGESTED 2026-06-24 00:24 ===
+  sri_lanka: "Ranked 6th in the ICC Men's Test Team Rankings 2025 with rating 86",
+  the_sigiriya_rock_fortress: "Surrounded by an extensive network of ramparts and moats",
+  inside_this_protective_enclosure: "Gardens, ponds, pavilions, palaces and other structures",
+  mahinda_v: { definition: "Captured and taken to India, and the Cholas sacked the city of Anuradhapura causing the fall of Anuradhapura kingdom", what_it_does: "", examples: "Dambadeniya, Yapahuwa , Gampola , Raigama , Kotte , [ 82 ] Sitawaka , and finally, Kandy" },
+  bandaranaike: "Elected prime minister in 1956",
+  the_longest_of_these: "The Mahaweli River , extending 335 kilometres (208 mi)",
+  the_highest: { definition: "Bambarakanda Falls , with a height of 263 metres (863 ft)", what_it_does: "", examples: "fringing coral reefs and shallow beds of coastal and estuarine seagrasses" },
+  among_the_trees_of_the_dryland_forests: "Valuable species such as satinwood , ebony , ironwood , mahogany and teak",
+  the_wet_zone: { definition: "A tropical evergreen forest with tall trees, broad foliage, and a dense undergrowth of vines and creepers", what_it_does: "", examples: "storks, pelicans, ibis, and spoonbills" },
+  the_crisis: "Fuelled by anti-government protests and demonstrations by the public and also due to the worsening economy of Sri Lanka since 2019",
+  now_each_province: "Administered by a directly elected provincial council: Each district is administered under a district secretariat",
+  these_divisional_secretariats: "Currently administered by a divisional secretary",
+  colonial_plantations: "Dismantled, industries were nationalised , and a welfare state established",
+  the_other_roads: { definition: "Local roads falling under local government authorities", what_it_does: "", examples: "financial crisis due to devaluation of national currency pivoted around tea industry" },
+  this_growth: "Attributed to the government's proactive measures and improvements from SriLankan Airlines",
+  a_free_tourist_visa_programme: "Introduced for visitors from selected countries, allowing them to stay for up to 30 days",
+  buddhism: "Introduced to Sri Lanka in the 2nd century BCE by Mahinda Maurya",
+  most_followers_on_the_island_today: "Sunni who follow the Shafi'i school [ 339 ] and are believed to be descendants of Arab traders and the local women whom they married",
+  the_remaining_christians: "Evenly split between the Anglican Church of Ceylon and other Protestant denominations",
+  thus_the_elite_national_schools: { definition: "Controlled directly by the ministry of education and the provincial schools by the provincial government", what_it_does: "", examples: "family melodrama, social transformation and the years of conflict between the military and the LTTE" },
+  naturalised_canadian_michael_ondaatje: { definition: "Well known for his English-language novels and three films", what_it_does: "", examples: "Kolam , Sokari and Nadagam" },
+  broadcast_television: { definition: "Introduced in 1979 when the Independent Television Network was launched", what_it_does: "", examples: "cinnamon and nutmeg), kottu , and appam" },
+  traditionally_food: "Served on a plantain leaf or lotus leaf",
+  while_the_national_sport: "Volleyball , by far the most popular sport in the country is Cricket",
+
 };
 
 // ============================================================
