@@ -34250,6 +34250,14 @@ const FLAT_DICT = {
   the_concise_oxford_dictionary: "A different work, which aims to cover current English only, without the historical focus",
   its_primary_source: { definition: "The Oxford English Dictionary, and it is nominally an abridgement of the Concise Oxford Dictionary", what_it_does: "", examples: "labour , centre ) with variants following ( labor , center , etc.)" },
 
+  // === INGESTED 2026-06-24 11:03 ===
+  a_goal_or_objective: "An idea of the future or desired result that a person or a group of people envision, plan , and commit to achieve",
+  goalsetting_theory: "Formulated based on empirical research and has been called one of the most important theories in organizational psychology",
+  the_primary_difference: { definition: "The time required to achieve them", what_it_does: "", examples: "saving for retirement or saving for a purchase" },
+  goal_integrity: { definition: "How consistent one's goals are with core aspects of the self", what_it_does: "", examples: "psychological distress" },
+  goals_that: "Pursued to fulfill intrinsic values or to support an individual's self-concept are called self-concordant goals",
+  attainmenttowellbeing_effects: { definition: "Mediated by need satisfaction, i.e", what_it_does: "", examples: "establishing and enforcing structures for reducing common employee disputes" },
+
 };
 
 // ============================================================
