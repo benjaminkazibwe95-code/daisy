@@ -33796,6 +33796,9 @@ const FLAT_DICT = {
   even_after_they: "Considered distinct, languages near one another continue to influence one another and often share grammatical, phonological, and lexical innovations",
   the_reconstruction_of_unknown_protolanguages: { definition: "Inherently subjective", what_it_does: "", examples: "*p , which eventually mutated to *b in one branch and to *m in the other" },
 
+  // === INGESTED 2026-06-24 09:43 ===
+  controlled_natural_languages: { definition: "Subsets of natural languages whose grammars and dictionaries have been restricted to reduce ambiguity and complexity", what_it_does: "", examples: "Haitian Creole has its own grammar, vocabulary and literature" },
+
 };
 
 // ============================================================
