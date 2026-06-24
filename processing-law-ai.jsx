@@ -30994,6 +30994,14 @@ const FLAT_DICT = {
   special_courts: "Created to judge criminals who might intimidate the jury",
   but_the_state_of_louisiana: "Unique in being strongly influenced by French and Spanish legal traditions in its civil code",
 
+  // === INGESTED 2026-06-24 01:29 ===
+  but_by_the_time_local_activists: "Ready to consider the utility of impact litigation , test cases, and other tactics familiar from the U.S",
+  not_all_human_rights_cases: { definition: "Likely to receive a favorable ruling; a negative ruling could produce more damage to the human rights cause than no ruling at all", what_it_does: "", examples: "the requirement to exhaust domestic remedies, to consider" },
+  experience_for_local_activists: { definition: "How courts could be used effectively as a tool for civil society engagement in governance", what_it_does: "", examples: "a justiciable Bill of Rights, broad rules of standing and flexible remedial powers for courts" },
+  public_interest_law: "Institutionalized in the United States",
+  federal_funds_and_private_foundation_grants: { definition: "The largest sources of funding for most organizations, however funding varies based on the type of organization", what_it_does: "", examples: "lobbying and class action, rely on other sources of funding" },
+  legal_aid_clinics_across_the_country: "Forced to decline many of the requests they receive because of lack of resources",
+
 };
 
 // ============================================================
