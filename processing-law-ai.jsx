@@ -31430,6 +31430,27 @@ const FLAT_DICT = {
   this_original_contract: "'a central dogma in English and British constitutional law' since 'time immemorial'",
   all_political_power: "Inherent in the people, and all free governments are founded on their authority, and instituted for their benefit",
 
+  // === INGESTED 2026-06-24 02:39 ===
+  gore: "The Democratic presidential nominee in the 2000 election, in which he lost the U.S",
+  this_opponent: "Later found by the Watergate commission to have accepted illegal money from Nixon's operatives",
+  but_i: "Proud to wear my country's uniform",
+  his_decision_to_become_an_attorney: "A partial result of his time as a journalist, as he realized that, while he could expose corruption, he could not change it",
+  before_computers: "Comprehensible, let alone sexy, the poker-faced Gore struggled to explain artificial intelligence and fiber-optic networks to sleepy colleagues",
+  his_eyes: "Open with the nothingness stare of death, and we prayed, the two of us, there in the gutter, with only my voice",
+  clinton_and_gore: { definition: "Inaugurated on January 20, 1993", what_it_does: "", examples: "NetDay '96 and 24 Hours in Cyberspace" },
+  i_was_advised_there: "Nothing wrong with that",
+  my_counsel_tells_me_there: "No controlling legal authority that says that is any violation of any law",
+  his_major_theme: { definition: "The need to strengthen the American family", what_it_does: "", examples: "the Lewinsky scandal and impeachment" },
+  bush: "Leading Gore 54% to 41% in polls during that time",
+  gore_and_bush: "Deadlocked in the polls",
+  the_women: "Employees of Gore's Current TV",
+  the_circumstances: { definition: "Really completely different ", what_it_does: "", examples: "what he called 'religious zealots' who claim special knowledge of God's will in American politics" },
+  anderson_spickard_and: "Accompanied by Gore and Albert III",
+  stating_there: "A 'real desire for another septuagenarian candidate.' However by 2028, Gore will be 80 years old",
+  this_speculation: { definition: "Enhanced by a meeting held between Obama, Gore, and Joe Biden in Chicago on December 9, 2008", what_it_does: "", examples: "Marsha Blackburn , a current U.S" },
+  maslowski_that_there: "A 75% chance that the entire north polar ice cap during some of the summer months could be completely ice-free within the next five to seven years",
+  he_and_his_wife: "Baptized in 1980 and became members of the church",
+
 };
 
 // ============================================================
