@@ -31386,6 +31386,38 @@ const FLAT_DICT = {
   common_law_courts: "Established by English royal judges of the King's Council after the Norman Invasion of Britain in 1066",
   this_legal_tradition: "Practiced in the English and American legal systems",
 
+  // === INGESTED 2026-06-24 02:35 ===
+  the_english_word: "Derived from the Latin, iurisprudentia",
+  praetors: "Replaced in the 3rd century BC by a laical body of prudentes",
+  admission_to_this_body: { definition: "Conditional upon proof of competence or experience", what_it_does: "", examples: "the Proculians and Sabinians" },
+  the_scientific_nature_of_the_studies: "Unprecedented in ancient times",
+  the_work_for_which_he_is_best_known: "The Summa Theologiae",
+  francisco_de_vitoria: { definition: "Perhaps the first to develop a theory of ius gentium (law of nations), and thus is an important figure in the transition to modernity", what_it_does: "", examples: "being impartial and publicly knowable)" },
+  the_account: "General in the sense that it targets universal features of law that hold at all times and in all places",
+  so_analysing_and_clarifying_the_way_the_world: "Must be treated as a strictly separate question from normative and evaluative questions of what ought to be done",
+  legal_positivism: "The view that the content of law is dependent on social facts and that a legal system's existence is not constrained by morality",
+  hart_and_jules_coleman: { definition: "Examples of inclusive legal positivism", what_it_does: "", examples: "determines the directive's legal validity—not its moral or practical merits" },
+  the_separability_thesis_states_that_law: "Conceptually distinct from morality",
+  hobbes: "A social contractarian [ 44 ] and believed that the law had people's tacit consent",
+  he_believed_that_society: "Formed from a state of nature to protect people from the state of war that would exist otherwise",
+  john_austin_and_jeremy_bentham: "Early legal positivists who sought to provide a descriptive account of law as it is",
+  whether_it_be_or_be_not: "One enquiry; whether it be or be not conformable to an assumed standard, is a different enquiry",
+  austin: "The first chair of law at the new University of London , from 1829",
+  his_pure_theory_of_law: { definition: "Law as 'binding norms' while simultaneously refusing to evaluate those norms", what_it_does: "", examples: "God, personified Nature, or—of great importance in his time—a personified State or Nation" },
+  hart_claimed_that_law: "The union of primary rules and secondary rules",
+  secondary_rules: "Rules that confer authority to create new primary rules or modify existing ones",
+  one_important_debate: "Within legal positivism",
+  one_school: { definition: "Sometimes called 'exclusive legal positivism' and is associated with the view that a norm's legal validity can never depend on its moral correctness", what_it_does: "", examples: "Joseph Raz, John Gardner , and Leslie Green —reject that view" },
+  raz_claims_it_is_a_necessary_truth_that_there: "Vices that a legal system cannot possibly have (for example, it cannot commit rape or murder)",
+  legal_realism: "The view that a theory of law should be descriptive and account for the reasons why judges decide cases as they do",
+  the_essential_tenet_of_legal_realism: "That humans make all law and thus should account for reasons besides legal rules that led to a legal decision",
+  virtue_jurisprudence: "The view that the laws should promote the development of virtuous character in citizens",
+  contemporary_virtue_jurisprudence: "Inspired by philosophical work on virtue ethics",
+  john_stuart_mill: "A pupil of Bentham's and was the torchbearer for utilitarian philosophy throughout the late nineteenth century",
+  when_a_law: "Used to take from some and give to others, it is 'legal plunder'",
+  the_term_legal_plunder_refers_to_acts_that: "Done through legislation, and would be a crime if done by a private person",
+  bastiat_argued_that_when_the_law: "Turned to such ends, whether through protectionism, subsidy, or socialism, it loses moral authority and provokes social conflicts",
+
 };
 
 // ============================================================
