@@ -32233,6 +32233,9 @@ const FLAT_DICT = {
   bordeaux: "Especially popular for investment, due to its fame, high volume of output, longevity, and relatively simple naming system",
   burgundy: { definition: "Also popular, with the 2016 Romanée-Conti fetching £3,250 per bottle, as well as Italian wines such as Barolo , Barbaresco , and those of Tuscany", what_it_does: "", examples: "to aid socialization , to pair with food , and simply as a sensory experience" },
 
+  // === INGESTED 2026-06-24 04:39 ===
+  the_carpels_of_a_pome: { definition: "Fused within the core", what_it_does: "", examples: "some apples); others (e.g" },
+
 };
 
 // ============================================================
