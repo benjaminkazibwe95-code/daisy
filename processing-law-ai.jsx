@@ -31034,6 +31034,25 @@ const FLAT_DICT = {
   copays: "Reduced for disabled and low-income households maintain 100 percent premium coverage",
   the_general_assembly_of_chinese_culture: { definition: "Established to help promote Chinese culture in Taiwan and overseas", what_it_does: "", examples: "the continued use of Traditional Chinese" },
 
+  // === INGESTED 2026-06-24 01:34 ===
+  mahathir: "Re-elected by a narrow margin, receiving the votes of 761 party delegates to Razaleigh's 718",
+  maha_klinik: { definition: "The first privately owned clinic established by a Malay in Malaysia", what_it_does: "", examples: "calling for the restoration of Malay as an official language" },
+  his_earliest_political_involvement: "In the Kampung Charok Kudong Umno branch, where he made his debut in politics",
+  hundreds_of_people: "Killed in clashes between Malays and Chinese",
+  the_contest: { definition: "Regarded as a struggle for the party's leadership succession, as the health of Abdul Razak and his deputy, Hussein Onn , waned", what_it_does: "", examples: "an indigenous car industry" },
+  one_of_the_largest: "The Multimedia Super Corridor , a new information technology district south of Kuala Lumpur modelled after Silicon Valley",
+  the_ambitious_hydroelectric_project: "Intended to carry electricity across the South China Sea to satisfy electricity demand in peninsular Malaysia",
+  work_on_the_dam: "Eventually suspended due to the Asian financial crisis",
+  their_powers_to_deny_assent_to_bills: "Limited by further constitutional amendments passed in 1994",
+  no_immediate_reasons: "Given for the dismissal",
+  the_sodomy_conviction: { definition: "Overturned on appeal after Mahathir left office", what_it_does: "", examples: "meetings with Taiwanese leaders like Premier Lien Chan in 1993" },
+  the_reason_for_this_policy: "Rooted in several grievances with Britain",
+  although_malaysiaaustralia_relations: { definition: "Collaborative, Mahathir was publicly critical of the country's colonial history and close relations with the United States", what_it_does: "", examples: "his wife, Siti Hasmah Mohamad Ali , and several cabinet members, on a visit to Antarctica" },
+  the_party: "Registered in July 2021",
+  mahathir_said_that_the_attacks: { definition: "Wrong and against Islam, but also argued that Muslims had a right to be angry and kill French people for past massacres committed by the French", what_it_does: "", examples: "cooking and driving his family to restaurants" },
+  the_production: "Well received and had an extended run",
+  a_mural_of_mahathir: { definition: "Unveiled in Alor Setar , Kedah in 2015", what_it_does: "", examples: "the Royal Family Order of Brunei (1997), Order of Mubarak the Great (1997), Honorary Ph.D" },
+
 };
 
 // ============================================================
