@@ -34538,6 +34538,18 @@ const FLAT_DICT = {
   mortality_changes: "Closely linked to county-level coverage gains, with one life saved annually for every 239 to 316 adults gaining insurance",
   the_proposed_mechanisms_for_the_reduction: "That Medicaid increased the economic security of individuals and provided greater access to treatment for substance abuse or behavioral disorders",
 
+  // === INGESTED 2026-06-24 11:45 ===
+  the_bethlehem_steel_corporation: "An American steelmaking company headquartered in Bethlehem, Pennsylvania",
+  the_first_rolling_mill: { definition: "Built between the spring of 1861 and the summer of 1863 with the first railroad rails being rolled on September 26, 1863", what_it_does: "", examples: "the Carnegie Steel Company and Lackawanna Steel" },
+  almost_no_new_ordnance: "Produced, and new technology was neglected",
+  navy_and: "Completing facilities to provide armor plating",
+  the_iron: "Manufactured in Bethlehem Iron Company's blast furnaces converted to steel in their Open Hearth furnaces, then forged",
+  the_united_states_shipbuilding_company: "In turmoil; its subsidiaries, including Bethlehem Steel Company, contributed to United States Shipbuilding Company's problems",
+  the_new_company: "Initially to be named Bethlehem Steel and Shipbuilding Company",
+  galvanized_sheet_steel_under_the_name_bethcon: "Widely produced for use as duct work or spiral conduit",
+  workers: { definition: "Not aware of the dangers of the hazardous substance and were not given protective equipment", what_it_does: "", examples: "continuous casting , while profitable U.S" },
+  the_johnstown_plant: "Purchased from Bethlehem Steel through a management buyout in 1991, creating Johnstown America Industries",
+
 };
 
 // ============================================================
