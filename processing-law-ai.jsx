@@ -30666,6 +30666,21 @@ const FLAT_DICT = {
   content_which_gets_more_views: "Continually filtered around different internet circles, regardless of its legitimacy",
   various_similar_countermeasures_that: { definition: "Largely based on technical changes or extensions to common platforms and software have been proposed (see below )", what_it_does: "", examples: "by Professor Daniel W" },
 
+  // === INGESTED 2026-06-24 00:37 ===
+  the_house_of_commons: "Elected by a democratic vote in the country's 650 constituencies",
+  in_england_there: { definition: "The Greater London Authority and Combined Authorities which hold oversight powers and general responsibility", what_it_does: "", examples: "the United Kingdom Internal Markets Act 2020" },
+  common_land: { definition: "Guaranteed to people to farm, graze, hunt or fish, though aristocrats continued to dominate politics", what_it_does: "", examples: "Winston Churchill , who in 1946 had called for a ' United States of Europe '" },
+  megarry_vc_held_there: { definition: "No wrong at common law, and refused to interpret the statute in light of the right to privacy under the European Convention on Human Rights, article 8", what_it_does: "", examples: "the security threats that might transpire" },
+  the_place_of_the_social_welfare_state_that: "Necessary to support democratic life is also manifested through the courts' interpretation",
+  the_main_sources_of_constitutional_law: { definition: "Acts of Parliament, court cases, and conventions in the way that government, Parliament and the monarch act", what_it_does: "", examples: "the Treasury , the Foreign Office , the Department of Health and the Department for Education" },
+  the_formal_head_of_state: "Charles III , the monarch since 2022",
+  a_referendum: "Held in Australia, in 1999 on becoming a Republic , but failed to get a majority",
+  every_minister: "Expected to follow collective responsibility, [ 213 ] and the Ministerial Code 2010",
+  three_main_issues_in_local_government: "The authorities' financing, their powers, and the reform of governance structures",
+  the_functions_of_an_elected_mayor: { definition: "Not substantial, but can include those of Police and Crime Commissioners", what_it_does: "", examples: "district councils such as Chorley Council and unitary authorities such as Blackpool Council" },
+  the_domesday_book: { definition: "Compiled in 1086 cataloguing all land and labour to levy taxes", what_it_does: "", examples: "the East India Company to monopolise trade routes" },
+  further_it: { definition: "Seen that the only way to prevent conflict was through economic integration", what_it_does: "", examples: "abolishing the Greater London Council" },
+
 };
 
 // ============================================================
