@@ -32925,6 +32925,10 @@ const FLAT_DICT = {
   stress_intensity_in_any_mode_situation: "Directly proportional to the applied load on the material",
   the_gcriterion: "A fracture criterion that relates the critical stress intensity factor (or fracture toughness) to the stress intensity factors for the three modes",
 
+  // === INGESTED 2026-06-24 06:53 ===
+  godsmack: "The second studio album and major label debut by American rock band Godsmack",
+  stickers_and_lyrics: "By nature subjective",
+
 };
 
 // ============================================================
