@@ -35392,6 +35392,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 14:29 ===
   this_glossary_of_basketball_terms: "A list of definitions of terms used in the game of basketball",
 
+  // === INGESTED 2026-06-24 14:32 ===
+  the_same_term: "Also the official wording used by the National Collegiate Athletic Association (NCAA) and high school basketball",
+
 };
 
 // ============================================================
