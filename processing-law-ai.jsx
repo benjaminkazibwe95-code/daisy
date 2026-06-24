@@ -32423,6 +32423,26 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 05:14 ===
   the_currently_accepted_taxonomy: "Based on the List of Prokaryotic names with Standing in Nomenclature (LPSN)",
 
+  // === INGESTED 2026-06-24 05:16 ===
+  an_important_saturated_fatty_acid: { definition: "Stearic acid ( n = 16), which when neutralized with sodium hydroxide is the most common form of soap", what_it_does: "", examples: "hydrogenation )" },
+  the_most_common_ocfa: "The saturated C15 and C17 derivatives, pentadecanoic acid and heptadecanoic acid respectively, which are found in dairy products",
+  most_common_fatty_acids: "Straight-chain compounds , with no additional carbon atoms bonded as side groups to the main hydrocarbon chain",
+  carbon_number_x: { definition: "Often abbreviated C- x (or sometimes C x ), with x = 1, 2, 3, etc", what_it_does: "", examples: "the essential fatty acids" },
+  fatty_acids_with_an_odd_number_of_carbon_atoms: "Called odd-chain fatty acids , whereas the rest are even-chain fatty acids",
+  the_following_table: "The most common systems of naming fatty acids",
+  ffas: "Always bound to a transport protein , such as albumin",
+  some_fatty_acids: "Produced synthetically by hydrocarboxylation of alkenes",
+  the_oxaloacetate: { definition: "Returned to the mitochondrion as malate", what_it_does: "", examples: "the nucleus , the mitochondria , endoplasmic reticulum , and the Golgi apparatus )" },
+  the_extent_of_hydrogenation: "Indicated by the iodine number",
+  hydrogenated_fatty_acids: "Less prone toward rancidification",
+  since_the_saturated_fatty_acids: "Higher melting than the unsaturated precursors, the process is called hardening",
+  related_technology: "Used to convert vegetable oils into margarine",
+  ketonic_decarboxylation: "A method useful for producing symmetrical ketones from carboxylic acids",
+  stearone: "Prepared by heating magnesium stearate",
+  instead_they: "Absorbed into the fatty walls of the intestine villi and reassemble again into triglycerides",
+  the_triglycerides: "Coated with cholesterol and protein (protein coat) into a compound called a chylomicron",
+  separation_of_unsaturated_isomers: "Possible by silver ion complemented thin-layer chromatography",
+
 };
 
 // ============================================================
