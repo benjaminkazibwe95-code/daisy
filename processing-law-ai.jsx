@@ -35093,6 +35093,10 @@ const FLAT_DICT = {
   the_free_money_game: "An example of a 'special' game with an even number of equilibria",
   but_the_opposite: "Not necessarily true",
 
+  // === INGESTED 2026-06-24 13:18 ===
+  they_may_believe_the_other_side: "Either bluffing or acting unfairly and deserves to be 'punished'",
+  the_word_impasse: "Taken from the French impasse",
+
 };
 
 // ============================================================
