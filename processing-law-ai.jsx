@@ -33394,6 +33394,16 @@ const FLAT_DICT = {
   for_this_he: { definition: "Criticised by Randolph Bourne , a former student whose essay ' Twilight of Idols ', was published in the literary journal Seven Arts in October 1917", what_it_does: "", examples: "The New Leader (contributing editor, 1949)" },
   the_following_publications_by_john_dewey: "Referenced or mentioned in this article",
 
+  // === INGESTED 2026-06-24 08:23 ===
+  athenian_democracy: "Briefly overthrown by the coup of 411 , brought about because of its poor handling of the war, but it was quickly restored",
+  most_offices: "Filled by lot, although the ten strategoi (generals) were elected",
+  the_acropolis: "Just south of the centre of this walled area",
+  its_beauty: "Chiefly due to its public buildings, for the private houses were mostly insignificant, and its streets badly laid out",
+  the_entire_circuit_of_the_walls: "174.5 stadia (nearly 22 miles, 35 km), of which 43 stadia (5.5 miles, 9 km) belonged to the city, 75 stadia (9",
+  the_summit_of_the_acropolis: "Covered with temples, statues of bronze and marble, and various other works of art",
+  the_lower_city: "Built in the plain around the Acropolis, but this plain also contained several hills, especially in the southwest part",
+  the_leading_statesman_of_this_period: "Pericles , who used the tribute paid by the members of the Delian League to build the Parthenon and other great monuments of classical Athens",
+
 };
 
 // ============================================================
