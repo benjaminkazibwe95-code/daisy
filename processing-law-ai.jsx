@@ -32961,6 +32961,30 @@ const FLAT_DICT = {
   there_is_evidence_that_whether_something: "Consciously perceived depends both on the incoming stimulus (bottom up strength) [ 45 ] and on top-down mechanisms like attention",
   this_is_not_to_imply_that_there: "Not 'nonconscious' processes that form the basis of much of conscious life",
 
+  // === INGESTED 2026-06-24 07:08 ===
+  an_entity_has_intrinsic_value_if_it: "Good in itself, independent of external factors",
+  an_entity_has_instrumental_value_if_it: { definition: "Useful as a means leading to other good things", what_it_does: "", examples: "economic, moral, political, aesthetic, and religious values" },
+  value_theory: "Related to various fields",
+  this_field_also_studies_whether_values: { definition: "A fundamental aspect of reality and how they influence phenomena such as emotion , desire , decision, and action", what_it_does: "", examples: "well-being , utility , beauty , human life, knowledge , wisdom , freedom , love , and justice" },
+  the_proposed_classifications_overlap_and: { definition: "Based on factors like the source, beneficiary, and function of the value", what_it_does: "", examples: "character traits , in addition to the evaluation" },
+  the_term_value: "Sometimes restricted to positive degrees to contrast with the term disvalue for negative degrees",
+  the_words_better_and_worse: { definition: "Used to compare degrees, but it is controversial whether a quantitative comparison is always possible", what_it_does: "", examples: "tools like microwaves or money have instrumental value due to the useful functions they perform" },
+  this_is_the_case_if_some_of_its_consequences: "Good while others are bad",
+  the_total_instrumental_value_of_a_thing: "The value balance of all its consequences",
+  final_value_is_understood_as_what: "Valued for its own sake, independent of whether intrinsic or extrinsic properties are responsible",
+  a_thing_has_relative_value_if_its_value: "Relative to other things or limited to certain considerations or viewpoints",
+  to_be_attributively_good_as_a_certain_type: "To possess qualities characteristic of that type",
+  this_obligation: { definition: "In place even if it does not benefit Mei, in which case there is an agent-relative value without a personal value", what_it_does: "", examples: "stating that kindness is good asserts that kindness possesses the property of goodness" },
+  some_value_theorists_hold_that_the_value: { definition: "A property directly of Bill while others contend that it is a property of the state of affairs that Bill is pleased", what_it_does: "", examples: "knowledge, health, and justice" },
+  this_means_that_each_value_type: "Unique, making it impossible to determine which one is superior",
+  thought_experiments: { definition: "Imagined scenarios that exemplify philosophical problems", what_it_does: "", examples: "philosopher Robert Nozick imagines an experience machine that can virtually simulate an ideal life" },
+  this_approach_assumes_that_people: { definition: "Aware of their evaluative outlook and able to articulate it accurately", what_it_does: "", examples: "freedom and family security" },
+  the_schwartz_theory_of_basic_human_values: { definition: "A modification of the Rokeach Value Survey that seeks to provide a more cross-cultural and universal assessment", what_it_does: "", examples: "openness to change and conservation" },
+  the_economic_value_or_benefit_of_a_commodity: "The advantage it provides to an economic agent , often measured in terms of what people are willing to pay for it",
+  it_says_that_the_utility_of_a_commodity: { definition: "The source of its value", what_it_does: "", examples: "but not limited to the quantity of labor" },
+  these_orientations: "Centered on the topics of human nature, human activity, social organization, relation to nature, and a focus on past, present, or future",
+  he_argued_that_values: { definition: "Ordered hierarchically around a set of paramount values that trump all other values", what_it_does: "", examples: "self-directedness , independence, and the fulfillment of personal goals" },
+
 };
 
 // ============================================================
