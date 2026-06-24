@@ -33573,6 +33573,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 08:59 ===
   marr: { definition: "Disappointed that the 'regionalism' so characteristic of the texts is absent in Doniger's book, and wondered why the discussion took so long", what_it_does: "", examples: "Varadaraja V" },
 
+  // === INGESTED 2026-06-24 09:01 ===
+  indigenous_religion_or_native_religion: "A category used in the study of religion to demarcate the religious belief systems of communities described as being ' indigenous '",
+  this_category: "Often juxtaposed against others such as the ' world religions ' and ' new religious movements '",
+
 };
 
 // ============================================================
