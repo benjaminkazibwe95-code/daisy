@@ -35154,6 +35154,9 @@ const FLAT_DICT = {
   its_characteristics: { definition: "Embedded in a curriculum where students are engaged in resolving problems, conducting investigations, or developing projects", what_it_does: "", examples: "that paying undue attention to pseudoscience could dignify it" },
   irrational_health_care_is_not_harmless_and_it: "Careless to create patient confidence in pseudomedicine",
 
+  // === INGESTED 2026-06-24 13:41 ===
+  katsenelinboigen: { definition: "Born in Izyaslavl in the Ukrainian SSR", what_it_does: "", examples: "biology, psychology and theology" },
+
 };
 
 // ============================================================
