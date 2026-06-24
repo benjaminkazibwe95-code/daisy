@@ -31996,6 +31996,26 @@ const FLAT_DICT = {
   when_the_surface: "Frozen, this stops carbon dioxide weathering , resulting in a build-up of carbon dioxide in the atmosphere from volcanic emissions",
   its_equilibrium_temperature: "Estimated to be −39 °C (234 K)",
 
+  // === INGESTED 2026-06-24 03:57 ===
+  the_visible_range_of_light_is_defined_by_what: "Readily perceptible to humans, though the visual perception of non-humans often extends beyond the visual spectrum",
+  the_resulting_perception: "Also known as vision , sight , or eyesight (adjectives visual , optical , and ocular , respectively)",
+  the_photoreceptors: "Broadly classed into cone cells and rod cells , which enable photopic and scotopic vision, respectively",
+  this_conjecture: "Known as the two streams hypothesis",
+  the_major_problem_in_visual_perception: "That what people see is not simply a translation of retinal stimuli (i.e",
+  if_an_object_was_seen_directly_it: "By 'means of rays' coming out of the eyes and again falling on the object",
+  this_theory_was_championed_by_scholars_who: { definition: "Followers of Euclid 's Optics and Ptolemy 's Optics", what_it_does: "", examples: "Roger Bacon , Kepler , and eventually Newton" },
+  he_proposed_the_brain: { definition: "Making assumptions and conclusions from incomplete data, based on previous experiences", what_it_does: "", examples: "the perception of motion , the perception of depth , and figure-ground perception" },
+  fixations: "Comparably static points where the eye rests",
+  these_drifts: "In turn corrected by microsaccades, very small fixational eye movements",
+  saccadic_movements: "The type of eye movement that makes jumps from one position to another position and is used to rapidly scan a particular scene/image",
+  this_shows_that_the_it_cortex: "Divided into regions that respond to different and particular visual features",
+  marr_suggested_that_it: { definition: "Possible to investigate vision at any of these levels independently", what_it_does: "", examples: "to represent visual inputs as neural activities in the retina)" },
+  transduction: "The process through which energy from environmental stimuli is converted to neural activity",
+  the_cones: "Responsible for color perception and are of three distinct types labeled red, green, and blue",
+  rods: "Responsible for the perception of objects in low light",
+  if_a_particular_cone_type: "Missing or abnormal, due to a genetic anomaly, a color vision deficiency , sometimes called color blindness will occur",
+  the_rate_of_firing_of_the_ganglion_cells: "Increased when it is signaled by one cone and decreased (inhibited) when it is signaled by the other cone",
+
 };
 
 // ============================================================
