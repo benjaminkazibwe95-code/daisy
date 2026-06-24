@@ -32996,6 +32996,15 @@ const FLAT_DICT = {
   the_causal_state_is_when_brahman: "Internally not distinguishable by name and form",
   karma_yoga_and_jnana_yoga: "Sub-processes of Bhakti, total surrender, as the devotee acquires the knowledge that the deity is the inner self",
 
+  // === INGESTED 2026-06-24 07:12 ===
+  the_most_generous_of_people: { definition: "The one who gives to those from whom he has no hope of return", what_it_does: "", examples: "during natural disasters , where people voluntarily contribute resources, goods, and money" },
+  the_impact_of_generosity: "Most profound when it arises spontaneously rather than being directed by an organization",
+  being_generous: "Literally a way of complying with nobility",
+  god_knows_what: "In the hearts of men",
+  and_he: { definition: "The Best of providers", what_it_does: "", examples: "if it was stingy) and both people would get zero" },
+  generosity_for_the_purposes_of_this_project: "Defined as the virtue of giving good things to others empathically and abundantly",
+  generous_people: "Considered more trustworthy by participants than selfish people, and punishers were considered less trustworthy than non-punishers",
+
 };
 
 // ============================================================
