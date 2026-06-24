@@ -32626,6 +32626,36 @@ const FLAT_DICT = {
   representative_snacks_and_breads: "Pandebono , arepas (corn cakes), aborrajados (fried sweet plantains with cheese), torta de choclo , empanadas and almojábanas",
   representative_side_dishes: "Papas chorreadas (potatoes with cheese), remolachas rellenas con huevo duro (beets stuffed with hard-boiled egg ) and arroz con coco (coconut rice)",
 
+  // === INGESTED 2026-06-24 05:52 ===
+  a_stroke: "The second leading cause of death in people under 20 with sickle-cell anemia",
+  the_defect_in_the_brain: "Usually on the opposite side of the body",
+  a_silent_stroke: "Estimated to occur at five times the rate of a symptomatic stroke",
+  a_silent_stroke_typically_causes_lesions_which: "Detectable via the use of neuroimaging such as MRI",
+  since_blockage_of_the_artery: "Gradual, onset of a symptomatic thrombotic stroke is slower than that of a hemorrhagic stroke",
+  an_embolus: "Most frequently a thrombus, but it can also be a number of other substances including fat (e.g",
+  because_the_embolic_blockage: "Sudden in onset, symptoms are usually maximal at the start",
+  this_subset_of_cryptogenic_stroke: "Defined as a non-lacunar brain infarct without proximal arterial stenosis or cardioembolic sources",
+  because_the_reduction_in_blood_flow: "Global, all parts of the brain may be affected, especially vulnerable 'watershed' areas—border zone regions supplied by the major cerebral arteries",
+  a_watershed_stroke: "The condition when the blood supply to these areas is compromised",
+  infarcts: { definition: "More likely to undergo hemorrhagic transformation (leaking of blood into the damaged area) than other types of ischemic stroke", what_it_does: "", examples: "amphetamines or cocaine )" },
+  a_third_of_intracerebral_bleed: { definition: "Into the brain's ventricles", what_it_does: "", examples: "pancreatic, lung and gastric are typically associated with a higher thromboembolism risk" },
+  since_blood_vessels_in_the_brain: "Now blocked, the brain becomes low in energy, and thus it resorts to using anaerobic metabolism within the region of brain tissue affected by ischemia",
+  lactic_acid: "An irritant which could potentially destroy cells since it is an acid and disrupts the normal acid-base balance in the brain",
+  the_ischemia_area: { definition: "Referred to as the 'ischemic penumbra '", what_it_does: "", examples: "ion pumping) necessary for tissue cell survival" },
+  a_major_cause_of_neuronal_injury: "The release of the excitatory neurotransmitter glutamate",
+  the_rate_of_damage: "Affected by temperature, with hyperthermia accelerating damage and hypothermia slowing it down and other factors",
+  some_causes_of_hemorrhagic_strokes: "Hypertensive hemorrhage , a ruptured aneurysm , ruptured AV fistula , transformation of prior ischemic infarction, and drug-induced bleeding",
+  the_diagnosis: "Clinical, with assistance from the imaging techniques",
+  most_return_of_function: "Seen in the first few months, and then improvement falls off with the 'window' considered officially by U.S",
+  complete_recovery: "Unusual but not impossible and most people will improve to some extent: proper diet and exercise are known to help the brain to recover",
+  the_body_of_evidence: { definition: "Uncertain whether the use of rehabilitation can improve on-road driving skills following stroke", what_it_does: "", examples: "bed mobility, transferring, walking and other gross motor functions" },
+  people_with_aphasia_who: "Younger than 55 years are the most likely to improve but people older than 75 years can still get better with therapy",
+  if_swallowing: { definition: "Still deemed unsafe, then a percutaneous endoscopic gastrostomy (PEG) tube is passed and this can remain indefinitely", what_it_does: "", examples: "wheelchairs , walkers and canes may be beneficial" },
+  if_the_stroke: { definition: "Severe enough, or in a certain location such as parts of the brainstem, coma or death can result", what_it_does: "", examples: "crying when they are happy" },
+  those_with_a_right_hemisphere_stroke: { definition: "More likely to have empathy problems which can make communication harder", what_it_does: "", examples: "in childhood" },
+  higher_levels_of_von_willebrand_factor: "More common amongst people who have had ischemic stroke for the first time",
+  the_term_apoplectic_stroke: "An archaic, nonspecific term, for a cerebrovascular accident accompanied by haemorrhage or haemorrhagic stroke",
+
 };
 
 // ============================================================
