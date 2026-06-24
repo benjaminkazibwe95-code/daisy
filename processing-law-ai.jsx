@@ -30988,6 +30988,12 @@ const FLAT_DICT = {
   the_fault_which_caused_the_initial_injury: "Compounded by the omission to move B to a safer place or call for assistance",
   a_difficult_issue_that_has_arisen_recently: "The case where the defendant neither factually causes the harm, nor increases the risk of its occurrence",
 
+  // === INGESTED 2026-06-24 01:27 ===
+  the_possibility_of_lengthy_remand_periods: "One criticism—particularly voiced in common law countries—of the Napoleonic Code",
+  another_concern: "The combination of magistrate and prosecutor into a single role",
+  special_courts: "Created to judge criminals who might intimidate the jury",
+  but_the_state_of_louisiana: "Unique in being strongly influenced by French and Spanish legal traditions in its civil code",
+
 };
 
 // ============================================================
