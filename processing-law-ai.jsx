@@ -31524,6 +31524,12 @@ const FLAT_DICT = {
   the_grounding_lines_of_its_glaciers: "Below the sea level by several hundred metres or more, and the bed only deepens upstream",
   since_that_period: "Only 0.5 °C (0.90 °F) to 1.5 °C (2",
 
+  // === INGESTED 2026-06-24 02:54 ===
+  one_commonly_used_figure: { definition: "Carbon intensity per kilowatt-hour ( CIPK ), which is used to compare emissions from different sources of electrical power", what_it_does: "", examples: "Chinese oil fields emit between 1" },
+  the_interrelations_of_these_variables: "Treated under the so-called Kaya identity",
+  units: "Metric tons of carbon dioxide per thousand year 2005 US dollars",
+  important_ratios: { definition: "Also observed in countries in CIS and the Middle East", what_it_does: "", examples: "Algeria, Canada, Venezuela)" },
+
 };
 
 // ============================================================
