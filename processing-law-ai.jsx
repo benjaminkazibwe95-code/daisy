@@ -33860,6 +33860,12 @@ const FLAT_DICT = {
   the_outcome_of_positive_motivation: "Not only linguistic but non-linguistic, such that the learner has met the desired goal",
   secondlanguage_attrition: { definition: "The loss of proficiency in a language that was previously acquired, often due to a lack of use or exposure", what_it_does: "", examples: "input, negotiation for meaning, and learner output.<ref>Loewen, S., & Sato, M" },
 
+  // === INGESTED 2026-06-24 09:56 ===
+  the_term_agglutinative: "Sometimes incorrectly used as a synonym for synthetic , but that term also includes fusional languages",
+  the_agglutinative_and_fusional_languages: { definition: "Two ends of a continuum, with various languages falling more toward one end or the other", what_it_does: "", examples: "in its case system (e.g., German , Dutch , and Persian )" },
+  agglutination: "A typological feature and does not imply a linguistic relation, but there are some families of agglutinative languages",
+  this_developmental_phenomenon: "Known as language drift , such as Indonesian and Malay",
+
 };
 
 // ============================================================
