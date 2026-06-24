@@ -34626,6 +34626,18 @@ const FLAT_DICT = {
   any_deviation_from_this_family_model: { definition: "Considered a 'nontraditional family'", what_it_does: "", examples: "marriage promotion" },
   socalled_traditional_societies: "Seeing the same trend",
 
+  // === INGESTED 2026-06-24 12:04 ===
+  the_selfreward_of_accomplishing_a_goal: "Usually one of the main keys that keeps individuals committed",
+  a_goal: "Thereby of vital importance because it helps an individual to focus their efforts in a specified direction",
+  error_management_training: "Participants practicing metacognitive activities of planning, monitoring, and evaluation",
+  when_feedback: "Not presented, an employee might think they are not making enough progress",
+  an_example_of_this_in_practice: "'One Simple Thing', a goal-setting well-being practice employed by Google",
+  once_the_main_goal: "Set, breaking it up into smaller, more achievable components helps in the planning portion of setting the goal",
+  further_evidence_for_this_effect: "Provided by the more broader personal benefits of prosocial behavior and acts of kindness towards others rather than self care/focusing on oneself",
+  a_solution_to_some_of_these_potential_issues: "To set a unifying organizational vision or superordinate goal",
+  an_important_addition_to_goal_setting_theory: "The incorporation of self-efficacy from Bandura's social cognitive theory",
+  a_more_balanced_approach: "Necessary, involving thoughtful goal design, awareness of potential side effects, and ongoing monitoring",
+
 };
 
 // ============================================================
