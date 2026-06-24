@@ -33837,6 +33837,21 @@ const FLAT_DICT = {
   the_system_used_by_the_original_speakers: { definition: "Typically an inconsistent mix of vocabulary items, known as pidgin", what_it_does: "", examples: "children correct grammar generalizations like goed to went through repetitive failure" },
   the_lad: "Part of the species' heredity, the result of mutations over a long period, he states",
 
+  // === INGESTED 2026-06-24 09:50 ===
+  in_presentation_something: "Presented, in judgement something is affirmed or denied, in love loved, in hate hated, in desire desired and so on",
+  this_intentional_inexistence: { definition: "Characteristic exclusively of mental phenomena", what_it_does: "", examples: "agency or desire, i.e" },
+  ayer: { definition: "Critical of Husserl's concept of intentionality and his many layers of consciousness", what_it_does: "", examples: "assume that Mary is thinking about Superman" },
+  this_suggests_that_mary_either: "Not thinking about something or is thinking about something that does not exist (that Superman fiction exists is beside the point)",
+  it_might_seem_to_us_and_to_mary_that_she: "Thinking about something but she is not really thinking at all",
+  the_difficulty_for_such_a_position: "To explain why it seems to Mary that she is thinking about something and how seeming to think is different from actual thinking",
+  one_problem_for_both_of_these_theories: "That they seem to mischaracterize the experience of thinking",
+  as_mary: "Thinking about Superman, she is neither thinking about a Platonic form outside space-time nor about a mental object",
+  so_no_independent_objects: { definition: "Needed besides the subject, which is how adverbialists avoid the problem of non-existence", what_it_does: "", examples: "'belief', 'desire', and the like, to be replaceable either with behavioristic language (e.g" },
+  holders_of_realism_argue_that_there: "A deeper fact of the matter to both translation and belief attribution",
+  if_the_intentional_state: "About a, and a = b, then the intentional state is about b as well)",
+  an_intentional_state: "Opaque if it satisfies neither (i) nor (ii)",
+  intentionalism: "The thesis that all mental states are intentional, i.e",
+
 };
 
 // ============================================================
