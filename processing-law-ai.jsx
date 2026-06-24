@@ -34740,6 +34740,27 @@ const FLAT_DICT = {
   one_can_readily_argue_that_abstraction: { definition: "An elementary methodological tool in several disciplines of social science", what_it_does: "", examples: "'the market' [ 29 ] and the generalized concept of ' business '" },
   material_point: "The ultimate and common feature of all bodies",
 
+  // === INGESTED 2026-06-24 12:21 ===
+  the_traditional_disciplines_of_engineering: { definition: "Civil, mechanical, electrical, and chemical", what_it_does: "", examples: "engineering studies , environmental science , engineering ethics and philosophy of engineering" },
+  early_machines: "Powered by humans and animals, then later by wind",
+  machines_of_war: "Invented for siegecraft",
+  the_word_engineering: "Derived from the Latin ingenium",
+  much_of_this_product_lifecycle_management: { definition: "Now assisted with computer software , from design to testing and manufacturing", what_it_does: "", examples: "the wedge , lever , wheel and pulley , etc" },
+  the_spinning_wheel: "Also a precursor to the spinning jenny , which was a key development during the early Industrial Revolution in the 18th century",
+  the_first_music_sequencer: { definition: "An automated flute player invented by the Banu Musa brothers, described in their Book of Ingenious Devices , in the 9th century", what_it_does: "", examples: "millwrights , clockmakers , instrument makers and surveyors" },
+  de_re_metallica: "The standard chemistry reference for the next 180 years",
+  canal_building: { definition: "An important engineering work during the early phases of the Industrial Revolution", what_it_does: ", patented by Henry Cort in 1784 produced large scale quantities of wrought iron", examples: "" },
+  boring_cast_iron_cylinders_with_precision: "Not possible until John Wilkinson invented his boring machine , which is considered the first machine tool",
+  precision_machining_techniques: { definition: "Developed in the first half of the 19th century", what_it_does: "", examples: "rubbers , plastics , semiconductors , and biomaterials" },
+  early_knowledge_of_aeronautical_engineering: "Largely empirical with some concepts and skills imported from other branches of engineering",
+  engineering_is_a_broad_discipline_that: "Often broken down into several sub-disciplines",
+  there_can_also_be_what: "Called by the FAA a Designated Engineering Representative",
+  the_task_of_the_engineer: { definition: "To identify, understand, and interpret the constraints on a design in order to yield a successful result", what_it_does: "", examples: "requirements for cost, safety , marketability, productivity, and serviceability" },
+  careful_analysis: { definition: "Needed to establish the cause of failure of a product", what_it_does: "", examples: "miscalculations and miscommunication" },
+  almost_all_engineering_projects: "Obligated to a funding source: a company, a set of investors, or a government",
+  the_types_of_engineering_that: "Less constrained by such a funding source, are pro bono , and open-design engineering",
+  these_initiatives: "Typically sponsored by C-level executives",
+
 };
 
 // ============================================================
