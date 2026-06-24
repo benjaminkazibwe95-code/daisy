@@ -33151,6 +33151,21 @@ const FLAT_DICT = {
   the_most_closely_related_english_words: { definition: "'track' and 'trek', while 'trail' and 'tract' are derived from other cognate Indo-European roots", what_it_does: "", examples: "French EFEO Chinese transcription and English Wade–Giles ) to dao in Pinyin" },
   the_earliest_recorded_usages: "Tao (1736), Tau (1747), Taou (1831), and Dao (1971)",
 
+  // === INGESTED 2026-06-24 07:39 ===
+  methods_of_philosophy: "Procedures for conducting research, creating new theories, and selecting between competing theories",
+  the_phenomenological_method: { definition: "First-person experience", what_it_does: "", examples: "metaphysical dualism or utilitarianism , is true or false" },
+  some_of_these_methods: "Developed as a reaction to other methods, for example, to counter skepticism by providing a secure path to knowledge",
+  the_method_for_finding_these_foundations: "Doubt: only that which is indubitable can serve this role",
+  one_problem: "That it has proven very difficult to find such absolutely certain claims if the doubt is applied in its most radical form",
+  the_features_of_this_object: { definition: "Then varied in order to see whether the resulting object still belongs to the investigated kind", what_it_does: "", examples: "when imagining a triangle, one can vary its features, like the length of its sides or its color" },
+  this_suggests_that_common_sense: "In such cases just an antiquated theory that is eventually eliminated by the progress of science",
+  another_problem: { definition: "That for many issues, there is no one universally accepted common-sense opinion", what_it_does: "", examples: "based on what sounds insightful or odd to the average English speaker" },
+  a_closely_related_problem: { definition: "That believing in a certain theory may be useful to one person and useless to another, which would mean the same theory is both true and false", what_it_does: "", examples: "what we know or experience" },
+  but_even_if_this_point: "Granted, it does not guarantee that the assumption itself is true",
+  so_even_if_the_belief_in_a_given_proposition: { definition: "A psychological necessity for a certain experience, it does not automatically follow that this belief itself is true", what_it_does: "", examples: "culture , gender , or ethnicity" },
+  such_theorists: { definition: "Derided as ontological cheaters", what_it_does: "", examples: "this can be applied to philosophical presentism , the view that nothing outside the present exists" },
+  one_important_difference: { definition: "That philosophy does not use experimental data obtained through measuring equipment like telescopes or cloud chambers to justify its claims", what_it_does: "", examples: "through intuitions or thought experiments , is central for justifying basic principles and axioms" },
+
 };
 
 // ============================================================
