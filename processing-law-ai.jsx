@@ -32947,6 +32947,9 @@ const FLAT_DICT = {
   prosodic_stress: { definition: "Also often used pragmatically to emphasize (focus attention on) particular words or the ideas associated with them", what_it_does: "", examples: "I didn't take the test yesterday" },
   that_behavior: "Not confined to verbs; note for example Spanish v ie nto ' wind ' from Latin v e ntum , or Italian f uo co ' fire ' from Latin f o cum",
 
+  // === INGESTED 2026-06-24 07:01 ===
+  hirschmann: { definition: "Born on April 25, 1956", what_it_does: "", examples: "domestic violence, welfare reform, and Islamic veiling" },
+
 };
 
 // ============================================================
