@@ -30526,6 +30526,23 @@ const FLAT_DICT = {
   avidya: "Explained in different ways or on different levels within different Buddhist teachings or traditions",
   one_such_condition: { definition: "The karmic formations that arise from ignorance", what_it_does: "", examples: "the self, cuts the impurities', an insight into Emptiness yields full awakening" },
 
+  // === INGESTED 2026-06-24 00:20 ===
+  jurisdictions_with_high_levels_of_transparency: "Subject to ' sunshine laws ' or freedom of information legislation that allow citizens broad access to government-held information",
+  freedom_of_the_press: { definition: "Formally established in Great Britain with the lapse of the Licensing of the Press Act in 1695", what_it_does: "", examples: "the right to refuse to print anything for any reason" },
+  levels_of_freedom: { definition: "Scored on a scale from 1 (most free) to 100 (least free)", what_it_does: "", examples: "freedom of the press, which yet exists in the 18th century and in the 19th century" },
+  his_proposals: "Aired at the Geneva Conference on Freedom of Information in 1948 but were blocked by the Soviets and the French",
+  no_publication: "Allowed without the accompaniment of a government-granted license",
+  one_form_of_speech_that: "Widely restricted in Great Britain was seditious libel , and laws were in place that made criticizing the government a crime",
+  the_truth: "Not a defense to seditious libel because the goal was to prevent and punish all condemnation of the government",
+  the_good_society: "One in which the greatest number of persons enjoy the greatest possible amount of happiness",
+  the_individual_freedom_of_expression: "Therefore essential to the well-being of society",
+  the_first_proposal_to_abolish_censorship: { definition: "Presented to the Riksdag as early as 1727 by Anders Bachmanson (later ennobled as Nordencrantz), a member of the burgher estate", what_it_does: "", examples: "Antena 1 in 1994 and ProTV in 1995" },
+  these_websites: { definition: "Both Palestinian and Arabic and were identified to have been publishing material that 'threaten national security and civil peace'", what_it_does: "", examples: "the 2014 report" },
+  political_pressure_on_media: "Mostly done indirectly",
+  one_tool_widely_used_by_the_government: "To cut off 'unfriendly' media from governmental advertising",
+  pota: { definition: "Repealed in 2006, but the Official Secrets Act 1923 continues", what_it_does: "", examples: "Gauri Lankesh" },
+  the_clubs: "Considered to be one of the reasons why Japan came bottom among the G7 nations and was ranked 68th in the world in the 2023 World Press Freedom Index",
+
 };
 
 // ============================================================
