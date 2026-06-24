@@ -33512,6 +33512,12 @@ const FLAT_DICT = {
   three_categories_of_moral_character_traits: "Assigned: virtue-labeling, narrative-based moral assessment, as well as gossiping about traits and they use different approaches to social cognition",
   although_character_judgement: { definition: "A component in folk psychology, it does not take into consideration other processes that we engage in on the daily basis", what_it_does: "", examples: "shape, size, color)" },
 
+  // === INGESTED 2026-06-24 08:42 ===
+  but_another_view: "That VR will not destroy our cognitive structure or take away our connection with reality",
+  than_we: "Prior to the experiment",
+  since_the_biv: { definition: "Dis embodied, it follows that it does not have similar biology to that of an embodied brain", what_it_does: "", examples: "Uriah Kriegel, [ 11 ] Colin McGinn , [ 12 ] and Robert D" },
+  putnam: "This relationship as a 'causal connection' which is sometimes referred to as 'a causal constraint'",
+
 };
 
 // ============================================================
