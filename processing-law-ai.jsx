@@ -32244,6 +32244,16 @@ const FLAT_DICT = {
   the_nutrientdeficiency_disease_pellagra: "Associated with a diet consisting primarily of maize , while the disease beriberi is associated with a diet of refined white rice",
   raw_grains: "Not edible and cannot be digested, so they must be cooked, sprouted or otherwise prepared for human consumption",
 
+  // === INGESTED 2026-06-24 04:43 ===
+  flowering_plants: "Commonly grown for decorative purposes , with certain flowers playing significant cultural roles in many societies",
+  many_flowering_plants: "Threatened by habitat destruction and by climate change",
+  angiosperms: { definition: "Terrestrial vascular plants; like the gymnosperms, they have roots , stems , leaves , and seeds", what_it_does: "", examples: "nitrate from the bodies of trapped insects" },
+  a_formal_classification: "Published alongside the 2009 revision in which the flowering plants rank as the subclass Magnoliidae",
+  much_of_the_existing_phylogeny: { definition: "Confirmed; the rosid phylogeny is revised", what_it_does: "", examples: "the particularly debated Nanjinganthus" },
+  the_synergid_that_the_cells: "Released into degenerates; one sperm makes its way to fertilise the egg cell, producing a diploid (2 n ) zygote",
+  the_masking_effect: { definition: "Known as genetic complementation", what_it_does: "", examples: "digoxin and opioids , and decorative and landscaping plants" },
+  coffee_and_hot_chocolate: { definition: "Beverages from flowering plants (in the Rubiaceae and Malvaceae respectively)", what_it_does: "", examples: "William Blake , Robert Frost , and Rabindranath Tagore" },
+
 };
 
 // ============================================================
