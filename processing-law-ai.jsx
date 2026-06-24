@@ -32878,6 +32878,13 @@ const FLAT_DICT = {
   contents: "Figurative and symbolic , semantic and behavioral",
   products: "In units, classes, and relations , systems, transformations, and implications",
 
+  // === INGESTED 2026-06-24 06:34 ===
+  this_model_dictates_that_an_event: "Not judged by the entirety of an experience, but by prototypical moments (or snapshots ) as a result of the representativeness heuristic",
+  colonoscopy_patients: "Randomly divided into two groups",
+  the_precise_cause_of_this: { definition: "Unclear, but it has been demonstrated, for decades, across a wide variety of surveys and experiments", what_it_does: "", examples: "tended to recall the best game they could remember" },
+  when_the_assessment: { definition: "Overall negative, it is better to end with the most pleasant or most easily acceptable part of the negative feedbacks", what_it_does: "", examples: "the peak-end rule works for the evaluation of food when the price is low" },
+  a_potential_reason: "That high-price payers form a higher expectation on the service than low-price payers do",
+
 };
 
 // ============================================================
