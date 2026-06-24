@@ -32400,6 +32400,26 @@ const FLAT_DICT = {
   metabolic_syndrome: "Associated with the risk of developing cardiovascular disease and type 2 diabetes",
   most_affected_people: { definition: "Older, obese, sedentary, and have some degree of insulin resistance", what_it_does: "", examples: "adiponectin , resistin , PAI-1 )" },
 
+  // === INGESTED 2026-06-24 05:12 ===
+  the_sulfur_cycle: "A biogeochemical cycle in which the sulfur moves between rocks, waterways and living systems",
+  when_two_sulfur_atoms: { definition: "Present in the same polyatomic oxyanion in an asymmetrical situation, i", what_it_does: "", examples: "pyrite (FeS 2 )" },
+  this_pathway: "The reduction of sulfate by organic compounds to produce hydrogen sulfide, which occurs in both processes",
+  organic_acids: "The main organic reactants for BSR and branched/ n - alkanes are the main organic reactants for TSR",
+  the_inorganic_reaction_products_in_bsr_and_tsr: { definition: "H 2 S (HS − ) and HCO − 3 (CO 2 )", what_it_does: "", examples: "oil and gas fields" },
+  bsr: "Geologically instantaneous in most geologic settings, while TSR occurs at rates in the order of hundreds of thousands of years",
+  aerobic_sulfide_oxidation: { definition: "Usually performed by autotrophs that use sulfide or elemental sulfur to fix carbon dioxide", what_it_does: "", examples: "elemental sulfur and thiosulfate" },
+  the_ratio_of_these_two_isotopes: "Fixed in the Solar System and has been since its formation",
+  the_bulk_earth_sulfur_isotopic_ratio: "Thought to be the same as the ratio of 22.22 measured from the Canyon Diablo troilite (CDT), a meteorite",
+  dissimilatory_sulfate_reduction: "Driven by the degradation of buried organic matter and anaerobic oxidation of methane (AOM) both of which produce carbon dioxide",
+  at_depths_where_sulfate: "Depleted, methanogenesis is prevalent",
+  more_sulfate: { definition: "Present at the SMTZ than methane", what_it_does: "", examples: "elemental sulfur, thiosulfate, sulfite, and sulfate" },
+  other_sources: "Metamorphic and volcanic degassing and hydrothermal activity ( δ 34 S = 0‰), which release reduced sulfur species (such as H 2 S and S 0 )",
+  the_second_sulfur_sink: "Pyrite burial in shelf sediments or deep seafloor sediments ( 4 × 10 10 kg/a ; δ 34 S = −20‰)",
+  microbial_ability_for_desulfurization: "Reflected by the presence of sulfatase genes",
+  the_presence_or_absence_of_sulfur: "One of the limiting factors in the concentration of precious metals and their precipitation from solution",
+  instead_it: "Being drilled, pumped and burned at a steadily increasing rate",
+  once_the_acid: "Completely dissociated in water the pH can drop to 4.3 or lower causing damage to both man-made and natural systems",
+
 };
 
 // ============================================================
