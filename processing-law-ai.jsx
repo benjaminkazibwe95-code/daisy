@@ -32173,6 +32173,30 @@ const FLAT_DICT = {
   controlled_mating_instances: { definition: "Difficult to carry out in this case and this is a necessary component of selective breeding", what_it_does: "", examples: "reduction of genetic diversity or physical problems" },
   at_the_same_time_it: "More vulnerable to Southern Corn leaf-blight",
 
+  // === INGESTED 2026-06-24 04:28 ===
+  its_larvae: "Polyphagous , consuming the leaves of over 500 species of trees, shrubs and plants",
+  in_its_invasive_range_it: "Classified as a pest, notably one of the most destructive pests of hardwood trees in the Eastern United States",
+  dispar: "Indigenous to Europe",
+  lymantriid_larvae: { definition: "Commonly called tussock moths because of the tufts of hair on the larvae", what_it_does: "", examples: "when referring to Japanese, Indian, and Asiatic subspecies" },
+  the_moths: "Accidentally released from his residence in Medford, Massachusetts",
+  the_natural_spread: "Slow, but transportation of the moth has led to isolated populations, with accidental transport of the eggs being noted",
+  some_places_in_these_regions: { definition: "Experiencing one of the most severe outbreaks ever recorded", what_it_does: "", examples: "rocks, foliage and vehicles" },
+  the_larvae_will_disperse_even_if_there: "Enough foliage for growth, hanging from silk threads and waiting for the wind to send them aloft",
+  males_typically: "Five instars and females are six instars",
+  another_important_difference_between_the_sexes: "That females possess fully formed wings but do not fly",
+  female_flight: "Common in Eurasia, but these moths may be of a different species",
+  the_structure_determination_of_this_pheromone: "An eventful chapter in the history of pheromone chemistry",
+  multiple_mating_in_females: "Possible but uncommon, as the female stops releasing the attracting pheromone after mating",
+  the_northern_shorttailed_shrew: "Common east of the Rocky Mountains and will consume the larva and pupa",
+  disparis_is_the_only_species_that: "Known to occasionally affect the population dynamics of the gypsy moth",
+  liparidis: "Both wasps that lay eggs on the gypsy moth larva",
+  the_most_important_pathogen: "The Lymantria dispar multicapsid nuclear polyhedrosis virus (LdMNPV), sometimes referred to as NPV or Borralinivirus reprimens",
+  egg_deposits_that: "Low or on the ground can be insulated against temperatures, including snow, and survive the lethal temperatures",
+  rainfall_can_drown_larvae_before_they: "Established; low populations are correlated to heavy rainfall during the larval stage",
+  wind_speeds_of_several_miles_per_hour: "Enough to break the silk threads and disperse the larvae",
+  gypsy_moth_bodily_fluid: "Lethal, and swallowtail caterpillars were prone to higher rates of parasitism when placed in the field near gypsy moth infestations",
+  such_rashes: "Documented in the early 1980s, during a major infestation in the Northeastern United States",
+
 };
 
 // ============================================================
