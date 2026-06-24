@@ -34427,6 +34427,30 @@ const FLAT_DICT = {
   commercial_production_of_pecans: "Slow because trees were slow to mature and bear fruit",
   the_centennial_cultivar: { definition: "The first to be successfully grafted", what_it_does: "", examples: "Carya tomentosa" },
 
+  // === INGESTED 2026-06-24 11:24 ===
+  chocolate: { definition: "A popular flavor of ice cream and pudding , and chocolate sauce is a commonly added as a topping on ice cream sundaes", what_it_does: "", examples: "peppermint , spearmint , or crème de menthe , to chocolate" },
+  cocoa_beans: "The processed seeds of the cacao tree ( Theobroma cacao )",
+  the_shell: { definition: "Removed to reveal nibs, which are ground to chocolate liquor (unadulterated chocolate in rough form", what_it_does: "", examples: "ice creams , cakes , mousse , and cookies" },
+  many_candies: { definition: "Filled with or coated with sweetened chocolate", what_it_does: "", examples: "Christmas, Easter , Valentine's Day, Hanukkah and Eid al-Fitr" },
+  the_cacao_tree: "First used as a source for food in what is today Ecuador at least 5,300 years ago",
+  cocoa_beans_for_most_chocolate: "Grown in West African countries, particularly Ivory Coast and Ghana , which contribute about 60% of the world's cocoa supply",
+  much_of_the_chocolate_consumed_today: "In the form of sweet chocolate, which combines chocolate with sugar",
+  the_traditional_types_of_chocolate: "Dark , milk and white",
+  modeling_chocolate: "A chocolate paste made by melting chocolate and combining it with corn syrup , glucose syrup , or golden syrup",
+  cacao_trees: "Small, understory trees that need rich, well-drained soils",
+  pods_are_harvested_when_they: "Ripe, as beans in unripe pods have a low cocoa butter content, or low sugar content, impacting the ultimate flavor",
+  the_beans: "Cleaned (removing twigs, stones, and other debris), roasted , and graded",
+  a_conche: "A container filled with metal beads, which act as grinders",
+  the_refined_and_blended_chocolate_mass: "Kept in a liquid state by frictional heat",
+  after_the_process: "Complete, the chocolate mass is stored in tanks heated to about 45–50 °C (113–122 °F) until final processing",
+  cocoa_butter: { definition: "A polymorphic fat with six different crystal forms, but only one of them—Form V—gives chocolate its characteristic snap, gloss, and stable texture", what_it_does: "", examples: "chocolate bars and chocolate chips" },
+  ideal_storage_temperatures: "Between 15 and 17 °C (59 and 63 °F), with a relative humidity of less than 50%",
+  one_hundred_grams_of_milk_chocolate: "An excellent source (over 19% of the Daily Value , DV) of riboflavin , vitamin B12 and the dietary minerals manganese , phosphorus and zinc",
+  guylian: "Best known for its chocolate sea shells; Cadbury for its Dairy Milk and Creme Egg",
+  lindt: { definition: "Known for its truffle balls and gold foil-wrapped Easter bunnies", what_it_does: "", examples: "cocoa farming" },
+  some_bars_that: "Mostly chocolate have other ingredients blended into the chocolate, such as nuts, raisins, or crisped rice",
+  some_alcoholic_liqueurs: "Flavored with chocolate, such as chocolate liqueur and crème de cacao",
+
 };
 
 // ============================================================
