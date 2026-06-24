@@ -33748,6 +33748,11 @@ const FLAT_DICT = {
   unicode: "Ultimately capable of encoding more than 1.1 million characters",
   the_unicode_character_repertoire: "Synchronized with ISO/IEC 10646 , each being code-for-code identical with one another",
 
+  // === INGESTED 2026-06-24 09:24 ===
+  toleration: { definition: "The act of permitting an action, idea, object, or person that one dislikes or disagrees with", what_it_does: "", examples: "LGBT individuals" },
+  to_deny_this: { definition: "To assume our infallibility", what_it_does: "", examples: "the freedom of religion" },
+  if_we: "Skeptical about knowledge, then we have no way of knowing that toleration is good",
+
 };
 
 // ============================================================
