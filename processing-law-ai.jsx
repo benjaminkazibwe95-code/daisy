@@ -32682,6 +32682,14 @@ const FLAT_DICT = {
   experiencing_shame_and_guilt_about_sex: "Not a reliable indicator of a sex disorder, Kraus et al",
   medical_procedures_that: { definition: "Labeled 'traditional' are used all over the world", what_it_does: "", examples: "acupuncture" },
 
+  // === INGESTED 2026-06-24 05:58 ===
+  various_institutes_and_centers_within_the_nih: "Created for specific research programs",
+  an_advisory_committee: { definition: "Formed to oversee the further development of the NIH and its research programs", what_it_does: "", examples: "grant review panels – as well as travel, communications, and hiring at the NIH, affecting $47" },
+  some_grants: "Reinstated after court rulings, but as of January 2026 around 2,600 grants ($1.4 billion) are still suspended",
+  nih_toolbox_assessments: "Based, where possible, on Item Response Theory and adapted for testing by computer",
+  summarylevel_data: { definition: "Available to the general public whereas the individual-level data is accessible to researchers", what_it_does: "", examples: "techniques for those with arthritis" },
+  omb_determines_what_amounts_and_research_areas: { definition: "Approved for incorporation into the President's final budget", what_it_does: "takes approximately 18 months before the NIH can allocate any actual funds", examples: "the Bethesda Declaration , an open letter from former and current NIH staffers" },
+
 };
 
 // ============================================================
