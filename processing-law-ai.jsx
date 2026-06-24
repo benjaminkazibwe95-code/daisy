@@ -33636,6 +33636,14 @@ const FLAT_DICT = {
   soon_the_scenes: { definition: "Split into two registers, as in the Dogmatic Sarcophagus (320 to 350) or the Sarcophagus of Junius Bassus of c", what_it_does: "", examples: "Ambrose of Milan , Jerome and Augustine of Hippo are only among the most renowned representatives" },
   the_first_example_of_this: "The Hexaemeron of Basil of Caesarea , with the first occurrence in Syriac literature being the Hexaemeron of Jacob of Serugh",
 
+  // === INGESTED 2026-06-24 09:10 ===
+  according_to_jayandra_soni_these_names: "Likely incorrect, because they have been used for other Jain scholars such as Umaswati in texts and others in inscriptions",
+  the_mundane_aspect: "Associated with the changing qualities of the soul mainly the influx of karmic particles",
+  the_astapahuda: "'shown by Schubring to be later than Kundakunda on metrical and stylistic grounds",
+  the_reverence_for_his_scholarship: "Such that some later texts such as Pravachanasara list him third in importance, right after Mahavira and Mahavira's disciple Indrabhuti Gautama",
+  his_path: "Sometimes referred as Raj Bhakta Marg , Kavipanth , or Shrimadiya , which has mostly lay followers as was Rajchandra himself",
+  kanji_panth: "A lay movement founded by Kanji Swami (1890–1980)",
+
 };
 
 // ============================================================
