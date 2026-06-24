@@ -33335,6 +33335,9 @@ const FLAT_DICT = {
   in_france_citizenship_education: "Known as ECJS (education civique, juridique et sociale) in the high school and 'éducation civique' in the middle school and primary school",
   in_finland_citizenship_education: "Known as YH, YT or YO",
 
+  // === INGESTED 2026-06-24 08:11 ===
+  hendricks: "Awarded the Elite Research Prize by the Danish Minister of Science, Technology and Innovation and HRH Crown Princess Mary",
+
 };
 
 // ============================================================
