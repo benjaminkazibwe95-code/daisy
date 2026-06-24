@@ -34008,6 +34008,30 @@ const FLAT_DICT = {
   often_mass_campaigns: "Started by the less privileged or anti-establishment viewpoints (as against more powerful interests whose first resort is lobbying )",
   the_phenomenon_of_political_campaigns: "Tightly tied to lobby groups and political parties",
 
+  // === INGESTED 2026-06-24 10:19 ===
+  though_originally_all_mice: { definition: "Connected to a computer by a cable, many modern mice are cordless, relying on short-range radio communication with the connected system", what_it_does: "", examples: "the selection of a menu item on the associated display" },
+  the_plural_for_a_computer_mouse: "Either 'mice' or 'mouses' according to most dictionaries, with 'mice' being more common",
+  benjamin: "Then working for the British Royal Navy Scientific Service",
+  benjamin_felt_that_a_more_elegant_input_device: "Needed and invented what they called a 'roller ball' for this purpose",
+  engelbart: { definition: "Also recognized as such in various obituary titles after his death in July 2013", what_it_does: "", examples: "head-mounted devices attached to the chin or nose" },
+  one_early_version: { definition: "A knee operated device placed under the desk, which kept both hands free for typing", what_it_does: "", examples: "RWTH Aachen , Technische Universität Berlin , University of Stuttgart [ 45 ] [ 46 ] and Konstanz" },
+  one_such_convention: "The drag and drop gesture, which has become pervasive across various applications and platforms",
+  the_drag_and_drop_gesture: "A fundamental gestural convention that enables users to manipulate objects on the screen seamlessly",
+  opposite_the_two_rollers: "A third one (white, in the photo, at 45 degrees) that is spring-loaded to push the ball against the other two rollers",
+  this_incremental_rotary_encoder_scheme: { definition: "Sometimes called quadrature encoding of the wheel rotation, as the two optical sensors produce signals that are in approximately quadrature phase", what_it_does: "", examples: "the Xerox mice, and via a data-formatting IC in modern mice" },
+  ball_mice_and_wheel_mice: "Manufactured for Xerox by Jack Hawley, doing business as The Mouse House in Berkeley, California, starting in 1975",
+  a_laser_mouse: "An optical mouse that uses coherent (laser) light",
+  the_virtual_motion: "Connected to the 3D mouse control handle via a transfer function",
+  motion_tracking_systems: { definition: "Also used for motion capture e.g", what_it_does: "", examples: "giving feedback when crossing a window boundary" },
+  the_socalled_roller_bar_mouse: "Positioned snugly in front of the keyboard, thus allowing bi-manual accessibility",
+  dpi: { definition: "A misnomer used in the gaming world, and many manufacturers use it to refer to CPI, counts per inch", what_it_does: "", examples: "removable and/or elongated palm rests, horizontally adjustable thumb rests and pinky rests" },
+  the_mouse: { definition: "A simple optomechanical device, and the decoding circuitry was all in the main computer", what_it_does: "", examples: "mice and other devices on the same bus with no configuration whatsoever" },
+  the_most_visible_change: { definition: "The use of a round 6-pin mini-DIN , in lieu of the former 5-pin MIDI style full sized DIN 41524 connector", what_it_does: "", examples: "through a USB port" },
+  multiple_mice: { definition: "Often used in multi-user gaming in addition to specially designed devices that provide several input interfaces", what_it_does: "", examples: "OpenSolaris and FreeBSD , support 255 cursors/input points through Multi-Pointer X" },
+  a_sensitivity_converter: { definition: "The preferred tool that FPS gamers use to translate correctly the rotational movements between different mice and between different games", what_it_does: "", examples: "allowing access to the scope of a sniper rifle or allowing the mounting of a bayonet or silencer" },
+  mouse_bungees: "Typically used with gaming mice because it eliminates the annoyance of the cable",
+  a_mouse: "Also released for the Nintendo 64 , although it was only released in Japan",
+
 };
 
 // ============================================================
