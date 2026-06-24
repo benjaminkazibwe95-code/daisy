@@ -31166,6 +31166,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 01:55 ===
   this_interest: "Especially focused on areas of commonality between the teachings of Judaism and their own beliefs",
 
+  // === INGESTED 2026-06-24 01:57 ===
+  the_basic_structure_doctrine: "First cited with approval by the Federal Court in obiter dicta in Sivarasa Rasiah v",
+  the_doctrine: { definition: "Recognised in India , Bangladesh , Pakistan , and Uganda", what_it_does: "", examples: "the Fundamental Rights and article 368" },
+  primary_among_these: "The imposition of a state of emergency by Indira Gandhi in 1975, and her subsequent attempt to suppress her prosecution through the 39th Amendment",
+  the_basic_foundation_of_the_constitution: { definition: "The dignity and the freedom of its citizens which is of supreme importance and can not be destroyed by any legislation of the parliament", what_it_does: "", examples: "the Fundamental Rights and article 368" },
+
 };
 
 // ============================================================
