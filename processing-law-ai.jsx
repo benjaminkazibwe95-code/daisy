@@ -34638,6 +34638,22 @@ const FLAT_DICT = {
   an_important_addition_to_goal_setting_theory: "The incorporation of self-efficacy from Bandura's social cognitive theory",
   a_more_balanced_approach: "Necessary, involving thoughtful goal design, awareness of potential side effects, and ongoing monitoring",
 
+  // === INGESTED 2026-06-24 12:06 ===
+  chronemics: "One of the channels of nonverbal communication preferred by a High context Polychronic negotiator over verbal communication",
+  a_monochronic_time_system_means_that_things: "Done one at a time and time is segmented into small precise units",
+  waiters_from_the_north: "'to the point': they will 'engage in little' and there is usually 'no small talk",
+  the_inuit: "Not fond of that method because they determine their times by the sea tides, how long it takes place and how long it lasts",
+  haole_time: "When the person will meet when they say they will meet",
+  but_if_you: "To hear someone say, 'I'll be there at two o'clock Hawaiian time,' then something different is implied",
+  hawaiian_time: "Very lax and it basically means 'when you get there",
+  people_oriented_with_timeline_cognitivity: "Often detail oriented and think of everything in linear terms",
+  individuals_with_a_present_orientation: "Mostly characterized as pleasure seekers who live for the moment and have a very low risk aversion",
+  consumer_attitudes: "Mediated by the perceived usefulness of the attribute information",
+  these_time_perspectives: "The seeds for communication clashes in diplomatic situations",
+  to_be_kept_waiting: "To imply that one's time is less valuable than that of the one who imposes the wait",
+  the_time_and_duration_of_the_conversation: "Dictated by the higher-status individual",
+  such_practices: "More associated with those in non-supervisory roles or in blue collar rather than white collar professions",
+
 };
 
 // ============================================================
