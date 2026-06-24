@@ -34964,6 +34964,26 @@ const FLAT_DICT = {
   stanford_pre_business_association: { definition: "Intended to build connections among industry, alumni, and student communities", what_it_does: "", examples: "Stanford in Government and Stanford Women in Politics" },
   its_deputy_sheriffs: { definition: "Peace officers by arrangement with the Santa Clara County Sheriff's Office", what_it_does: "", examples: "the 1974 murder of Arlis Perry in Stanford Memorial Church, which was not solved until 2018" },
 
+  // === INGESTED 2026-06-24 13:01 ===
+  these_exercises: "Implemented by students of rhetoric , who began their schooling between ages twelve and fifteen",
+  the_purpose_of_these_exercises: "To prepare students for writing declamations after they had completed their education with the grammarians",
+  the_use_of_preliminary_rhetorical_exercises: "Discussed briefly in some Greek and Roman dialogues, but all handbooks from that time remain lost today",
+  the_earliest_one: "That of Theon, written some time during the first century A.D",
+  the_second_handbook: "Attributed to one of the most influential rhetoricians of the second century, Hemogenes of Tarsus",
+  his_treatises: "Combined with rhetorical treatises of Hermogenes on stasis theory and style to create the “Hermogenic Corpus",
+  but_because_the_work_of_aphthonius: "The one most widely recognized and practiced, these variations are often unrecognized",
+  the_progymnasmata: "Taught in order, increasing in difficulty as the course advances",
+  the_courses: "Organized to begin with story-telling and end with making an argument",
+  the_progymnasmata_of_aphthonius: "First translated to Latin in the fifteenth century by Rudolphus Agricola",
+  what_all_three_have_in_common: "They each have a moral , stated before the story begins or after it has concluded",
+  this_elementary_assignment: "To simply write a narrative (not to be confused with fable)",
+  maxim_or_proverbs: "First described by Aristotle, and in Aphthonius's book are divided into protreptic, apotreptic, declarative, simple, and compound",
+  a_moral_generalization: "Given to students about a writer, and they were asked to create something similar to an anecdote about the writer",
+  the_confirmation_exercise: "The opposite of refutation",
+  the_student: "Asked to reason in favor of something drawn from legends and literature",
+  this_exercise: "In the form of advocacy of a proposed law or opposition of it",
+  because_this_exercise: "An introduction to argument in the philosophical schools, the use of thesis was not performed until first completing all previous exercises",
+
 };
 
 // ============================================================
