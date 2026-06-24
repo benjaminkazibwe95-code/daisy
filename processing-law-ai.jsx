@@ -34791,6 +34791,11 @@ const FLAT_DICT = {
   the_main_idea: "To help people work productively with data and knowledge",
   this_fluency_of_application: "In part what differentiates information from knowledge",
 
+  // === INGESTED 2026-06-24 12:32 ===
+  although_knowledge: { definition: "Commonly treated as an object, Dave Snowden has argued it is more appropriate to teach it as both a flow and a thing", what_it_does: "", examples: "organizational culture, trust, incentives, and technology" },
+  drivers_for_knowledge_sharing: { definition: "Connected to both human resources and software", what_it_does: "", examples: "isolation and resistance to ideas, occur when knowledge sharing is impeded" },
+  respectively_facilitators: "Seen as enabling factors that improve, stimulate or promote the flow of knowledge",
+
 };
 
 // ============================================================
