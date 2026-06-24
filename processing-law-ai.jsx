@@ -34462,6 +34462,10 @@ const FLAT_DICT = {
   the_ionizable_groups_in_amino_acids: { definition: "Able to become ionized when changes in pH occur", what_it_does: "", examples: "the addition of enzymes like chymosin" },
   some_agents: { definition: "Even able to induce denaturation at room temperature", what_it_does: "", examples: "alkaline agents (e.g" },
 
+  // === INGESTED 2026-06-24 11:28 ===
+  a_savings_account: { definition: "A bank account at a retail bank", what_it_does: "", examples: "a safe place to hold their cash" },
+  savings_accounts: "Very popular in India, and almost 80% of the population have one, with many having multiple savings accounts",
+
 };
 
 // ============================================================
