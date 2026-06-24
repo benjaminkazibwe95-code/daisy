@@ -35105,6 +35105,10 @@ const FLAT_DICT = {
   this_is_what: "Generally referred to as spin",
   press_agents: { definition: "Occasionally required to act as ' spin doctors , to put into the best light their clients' public actions", what_it_does: "", examples: "blogs and podcasts" },
 
+  // === INGESTED 2026-06-24 13:26 ===
+  the_term_open_market: "Used generally to refer to an economic situation close to free trade",
+  this_raises_the_question_of_whether_markets: "Ever truly 'open', and suggests that the 'openness' of markets is more a relative concept",
+
 };
 
 // ============================================================
