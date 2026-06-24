@@ -31486,6 +31486,20 @@ const FLAT_DICT = {
   on_planets_where_the_primary_heat_source: "Solar radiation, excess heat in the tropics is transported to higher latitudes",
   mars: "Similar to the Earth in this respect, but it displays greater seasonality due to its thinner atmosphere",
 
+  // === INGESTED 2026-06-24 02:47 ===
+  a_just_transition_from_coal: "Supported by the European Bank for Reconstruction and Development",
+  the_refined_products: "Primarily for transportation by conventional cars, trucks, trains, planes and ships",
+  popular_alternatives: "Human-powered transport , public transport, electric vehicles , and biofuels",
+  but_oil_phaseout: "Also a question of which deposits to phase out first",
+  leaks: "Also a large source of atmospheric methane",
+  in_some_countries_natural_gas: { definition: "Being used as a temporary ' bridge fuel ' to replace coal, in turn to be replaced by renewable sources or a hydrogen economy", what_it_does: "", examples: "gas-fired power plants built in the 2020s, as the average plant life is 35 years" },
+  one_estimate_is_that_the_proportion: "65% and the number 3.5 million each year",
+  significant_fossil_fuel_subsidies: "Present in many countries",
+  many_transit_authorities: "Working to purchase only electric buses while also restricting use of ICE vehicles in the city center to limit air pollution",
+  the_peak_of_this_curve: "Known as peak oil, and by changing the shape of the curve, the timing of the peak in oil production is affected",
+  hydrogen_fuel_cells: { definition: "About a third as efficient as batteries and double the efficiency of petrol vehicles", what_it_does: "", examples: "ethanol contains less energy, more 'tankstops' might be necessary for such planes" },
+  former_fossil_fuel_exporters: "Expected to lose power, while the positions of former fossil fuel importers and countries rich in renewable energy resources is expected to strengthen",
+
 };
 
 // ============================================================
