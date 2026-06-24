@@ -34404,6 +34404,29 @@ const FLAT_DICT = {
   moderate_selenium_deficiency: { definition: "Linked to muscle weakness and muscle diseases", what_it_does: "", examples: "iodide and vitamin E" },
   isolated_selenium_deficiency: "Now being investigated for its role in the induction of autoimmune reactions in the thyroid gland in Hashimoto's disease",
 
+  // === INGESTED 2026-06-24 11:22 ===
+  the_seed: "An edible nut used as a snack and in various recipes, such as praline candy and pecan pie",
+  the_pecan: "The state nut of Alabama , Arkansas , California , Texas, and Louisiana , and is also the state tree of Texas",
+  the_husks: "Produced from the exocarp tissue of the flower, while the part known as the nut develops from the endocarp and contains the seed",
+  the_husk_itself: "Aeneous, that is, brassy greenish-gold in color, oval to oblong in shape, 2.6–6 cm (1– 2 + 3 ⁄ 8 in) long, and 1.5–3 cm ( 5 ⁄ 8 – 1 + 1 ⁄ 8 in) broad",
+  illinoinensis: "Found in bottomlands, suburban woodlands, disturbed areas, and along forest edges; it commonly naturalizes near where cultivated trees are located",
+  illinoinensis_grows_on_soils_that: "Not subject to frequent flooding, preferring moist, well-drained, rich soils",
+  juglandaceae: "Represented worldwide by seven and ten extant genera and more than 60 species",
+  most_of_these_species: "Concentrated in the Northern Hemisphere of the New World, but some can be found on every continent except Antarctica",
+  extant_examples_of_engelhardioideae: "Generally tropical and evergreen, while those of Juglandioideae are deciduous and found in more temperate zones",
+  the_ratio_of_oleic_to_linoleic_acids: "Inverted between wind- and animal-dispersed seeds",
+  although_wild_pecans: "Well known among native and colonial Americans as a delicacy, the commercial growth of pecans in the United States did not begin until the 1880s",
+  the_nut_harvest_for_growers: { definition: "Typically around mid-October", what_it_does: "", examples: "Frutosa and Norteña, which are recommended for cultivation in Mexico" },
+  such_as_parts_of_florida_and_puerto_rico: { definition: "Zone 10 or higher, and these regions have limited options for pecan cultivation", what_it_does: "", examples: "'Elliot' are increasing in popularity due to resistance to pecan scab" },
+  selection_programs: "Ongoing at the state level, with Alabama, Arkansas, Florida, Georgia, Kansas, Missouri, New Mexico, and others having trial plantings",
+  varieties_that: "Available and adapted (e.g",
+  pecans: { definition: "A moderate source (10–19% DV) of iron , potassium , and several B vitamins", what_it_does: "", examples: "tuberculosis" },
+  scab: { definition: "The most destructive disease affecting pecan trees untreated with fungicides", what_it_does: "", examples: "canker disease and shuck decline complex" },
+  butter_pecan: "Also a common flavor in cookies, cakes, and ice creams",
+  pecan_trees: "Native to the United States, and writing about the pecan tree goes back to the nation's founders",
+  commercial_production_of_pecans: "Slow because trees were slow to mature and bear fruit",
+  the_centennial_cultivar: { definition: "The first to be successfully grafted", what_it_does: "", examples: "Carya tomentosa" },
+
 };
 
 // ============================================================
