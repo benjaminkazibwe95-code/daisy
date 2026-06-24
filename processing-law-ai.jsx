@@ -32108,6 +32108,23 @@ const FLAT_DICT = {
   these_engineers: "Licensed and accredited after successfully passing the Agricultural and Biosystems Engineering Licensure Examination",
   these_standards_and_regulations: "Developed on an international scale for fertilizers, soil conditions, fisheries, biofuels, biogas, feed machinery, tractors, and machinery",
 
+  // === INGESTED 2026-06-24 04:18 ===
+  the_largest_producer: "Nigeria , while Thailand is the largest exporter of cassava starch",
+  cassava: "The third-largest source of carbohydrates in food in the tropics, after rice and maize",
+  the_harvested_part: "The storage root , which is long and tapered, with an easily detached rough brown rind",
+  the_white_or_yellowish_flesh: "Firm and even in texture",
+  the_tuberous_roots: { definition: "Largely starch , with small amounts of calcium (16 milligrams per 100 grams), phosphorus (27 mg/100 g), and vitamin C (20.6 mg/100 g)", what_it_does: "", examples: "possible (unproven) roles for Flowering Locus T (FT) orthologs" },
+  the_harvest: "Gathered by pulling up the base of the stem and cutting off the tuberous roots",
+  this_deterioration: { definition: "Related to the accumulation of reactive oxygen species initiated by cyanide release during mechanical harvesting", what_it_does: "", examples: "nematodes, and insects, as well as diseases caused by viruses, bacteria, and fungi" },
+  the_use_of_tolerant_and_resistant_cultivars: "The most practical management method in most locales",
+  other_major_growers: "Democratic Republic of the Congo and Thailand",
+  cassavas_grown_during_drought: "Especially high in these toxins",
+  the_moist_pulp: "Soaked (or 'retted') in water for 48 to 72 hours to initiate spontaneous fermentation",
+  the_cyanide: "Carried away in the processing water and the amounts produced in domestic consumption are too small to have environmental impact",
+  the_large_roots: "Peeled and then ground into flour, which is then soaked in water, squeezed dry several times, and toasted",
+  the_poisonous_filtrate_water: "Boiled to release the hydrogen cyanide, and used as a base for stews",
+  the_roots: "Then dried or cooked",
+
 };
 
 // ============================================================
