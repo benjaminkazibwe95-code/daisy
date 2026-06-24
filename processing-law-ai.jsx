@@ -34104,6 +34104,22 @@ const FLAT_DICT = {
   the_oregon_country_fair: "A three-day festival featuring handmade crafts, educational displays and costumed entertainment",
   many_ravers: "Originally soul boys and football casuals , and football hooliganism declined after the Second Summer of Love",
 
+  // === INGESTED 2026-06-24 10:36 ===
+  using_these_considerations_it: { definition: "Possible to link personal processes to structural conditions'", what_it_does: "", examples: "position or title, are interrelated" },
+  the_manner_in_which_the_power_strategy: "Utilized will also affect its success or failure",
+  where_coercion: "Deemed necessary, a leader might soften its negative effects with a touch of humor",
+  the_main_idea_behind_this_concept: "That someone is forced to do something that he/she does not desire to do",
+  reward_power: "Based on the right of some to offer or deny tangible, social, emotional, or spiritual rewards to others for doing what is wanted or expected of them",
+  this_power: "Therefore not strong enough to be one's only form of influencing/persuading",
+  referent_power: "Commonly seen in political and military figures, although celebrities often have this as well",
+  the_responsibility_involved: "Heavy and the power easily lost, but when combined with other forms of power it can be very useful",
+  expert_power: "Based on what one knows, experience, and special skills or talents",
+  informational: "The ability of an agent of influence to bring about change through the resource of information",
+  other_forms_of_power: { definition: "Independent of the content", what_it_does: "", examples: "a case with a librarian or data base manager" },
+  not_all_information: "Readily available; some information is closely controlled by few people",
+  our_society: { definition: "Now reliant on information power as knowledge for influence, decision making, credibility, and control", what_it_does: "", examples: "hints or suggestions" },
+  power_tactics: "Different strategies used to influence others, typically to gain a particular advantage or objective",
+
 };
 
 // ============================================================
