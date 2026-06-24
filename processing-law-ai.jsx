@@ -33192,6 +33192,21 @@ const FLAT_DICT = {
   but_in_one_sense_the_problem_of_responsibility: { definition: "Wider since people can be responsible not just for doing something but for failing to do something, so-called omissions", what_it_does: "", examples: "a chain smoker may have a negative impact on the health of the people around him" },
   this_is_a_sideeffect_of_his_smoking_that: { definition: "Not part of his intention", what_it_does: "", examples: "Dretske has put forward the viewpoint of reasons as structuring causes" },
 
+  // === INGESTED 2026-06-24 07:43 ===
+  hypothetical_imperatives_tell_us_which: "Best achieve our ends",
+  the_typical_dichotomy_in_choosing_ends: "Between ends that are right (e.g., helping someone) and those that are good (e.g., enriching oneself)",
+  he_proposed_that_determinism: "Logically inconsistent: the determinist claims that because A caused B , and B caused C , that A is the true cause of C",
+  that_the_human_will: { definition: "Part of the causal chain", what_it_does: "", examples: "the identity and desires of the person making the moral deliberation" },
+  the_first_division: { definition: "Between duties that we have to ourselves versus those we have to others", what_it_does: "", examples: "we have an obligation not to kill ourselves as well as an obligation not to kill others" },
+  imperfect_duties: "Circumstantial, meaning simply that you could not reasonably exist in a constant state of performing that duty",
+  a_particular_example_provided_by_kant: "The imperfect duty to cultivate one's own talents",
+  the_free_will: "The source of all rational action",
+  but_to_treat_it_as_a_subjective_end: "To deny the possibility of freedom in general",
+  this_is_a_contradiction_because_if_it: "A universal action, no person would lend money anymore as he knows that he will never be paid back",
+  if_a_thief: "To steal a book from an unknowing victim, it may have been that the victim would have agreed, had the thief simply asked",
+  but_his_maxim: { definition: "This: from self-love I make as my principle to shorten my life when its continued duration threatens more evil than it promises satisfaction", what_it_does: "", examples: "those in which he is deceived by the lie" },
+  kant_was_of_the_opinion_that_man: "His own law (autonomy)—that is, he binds himself under the law which he himself gives himself",
+
 };
 
 // ============================================================
