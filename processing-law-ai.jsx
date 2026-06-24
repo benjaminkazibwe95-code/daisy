@@ -31952,6 +31952,28 @@ const FLAT_DICT = {
   the_largest_disproportionality: "Identified to be in the domain of transport, where e.g",
   the_model_results: "Far from encouraging",
 
+  // === INGESTED 2026-06-24 03:53 ===
+  other_types_of_reuse: "Environmental reuse, industrial reuse, and reuse for drinking water, whether planned or not",
+  this_latter: { definition: "Also known as groundwater recharge", what_it_does: "", examples: "toilet flushing , businesses, and industry" },
+  water_recycling_and_reuse: { definition: "Of increasing importance, not only in arid regions but also in cities and contaminated environments", what_it_does: "", examples: "the UAE, Qatar, Kuwait and Israel" },
+  reclaimed_water_is_water_that: "Used more than one time before it passes back into the natural water cycle",
+  planned_potable_reuse: "Publicly acknowledged as an intentional project to recycle water for drinking water",
+  some_municipalities_are_using_and_others: { definition: "Investigating IPR of reclaimed water", what_it_does: "", examples: "underground or above ground tanks" },
+  human_urine_and_feces: "Input into one end of the reactor and pure oxygen , pure water , and compost ( humanure ) are output from the other end",
+  one_example_of_this_scenario: { definition: "In the domestic environment where toilets can be flushed using greywater from baths and showers with little or no treatment", what_it_does: "", examples: "reverse osmosis), and disinfection" },
+  wastewater: "Generally treated to only secondary level treatment when used for irrigation",
+  even_though_fresh_water: "Scarce, just 3% of it is extracted for human consumption",
+  the_remaining_water: "Mostly used for agriculture, which uses roughly two-thirds of all fresh water",
+  reclaimed_water: "Typically distributed with a color-coded dual piping network that keeps reclaimed water pipes completely separate from potable water pipes",
+  the_water_quality_parameters_included: "E.coli , BOD5, total suspended solids (TSS), turbidity, legionella, and intestinal nematodes (helminth eggs)",
+  the_document: { definition: "Developed under a Cooperative Research and Development Agreement between the EPA, the U.S", what_it_does: "a framework for states to develop regulations that incorporate the best practices and address local requirements", examples: "" },
+  reuse_of_reclaimed_water: { definition: "An increasingly common response to water scarcity in many parts of the United States", what_it_does: "", examples: "the creation or restoration of wetlands; as well as agricultural irrigation" },
+  reuse_of_treated_wastewater: "Practiced in Namibia in many urban areas such as Swakopmund , Walvis Bay , Tsumeb , Otjiwarongo , Okahandja , Mariental , Oranjemund and Windhoek",
+  though_most_of_the_reused_water: "Used for high-tech industry in Singapore, a small amount is returned to reservoirs for drinking water",
+  newater: "The brand name given to ultra-pure water that is produced from reclaimed water",
+  the_effluent_from_the_reclamation_plants: "Either discharged into the sea or undergoes further microfiltration, reverse osmosis and ultraviolet treatment",
+  water_reclaimation: "Pursued primarily due to geopolitical tensions arising from Singapore's dependency on water imported from Malaysia",
+
 };
 
 // ============================================================
