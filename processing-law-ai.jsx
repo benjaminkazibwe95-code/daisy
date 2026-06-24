@@ -35134,6 +35134,26 @@ const FLAT_DICT = {
   economics_often_assumes_that_people: "Rational in that they have the knowledge of their preferences and an ability to look for the best possible ways to maximize their preferences",
   a_response_to_this: "The publishing of systematic reviews such as the Cochrane Reviews",
 
+  // === INGESTED 2026-06-24 13:39 ===
+  the_term_pseudoscience: "Often considered pejorative , because it suggests something is being presented as science inaccurately or even deceptively",
+  an_earlier_use_of_the_term: { definition: "In 1843 by the French physiologist François Magendie , that refers to phrenology as ' a pseudo-science of the present day '", what_it_does: "", examples: "the scientific method , falsifiability of claims , and Mertonian norms" },
+  the_point_is_made_that_there: "No physical test to refute the claim of the presence of this dragon",
+  if_any_of_the_norms: "Violated, Merton considered the enterprise to be non-science",
+  this_use_of_the_term: { definition: "Common among practitioners of post-normal science", what_it_does: "", examples: "NUSAP and – in the case of mathematical modelling – sensitivity auditing" },
+  the_history_of_pseudoscience: "The study of pseudoscientific theories over time",
+  a_pseudoscience: "A set of ideas that presents itself as science, while it does not meet the criteria to be properly called such",
+  an_example_of_this_transformation: { definition: "The science of chemistry , which traces its origins to the pseudoscientific or pre-scientific study of alchemy", what_it_does: "", examples: "astrology and acupuncture , originated before the scientific era" },
+  examples_of_this_ideological_process: "Creation science and intelligent design , which were developed in response to the scientific theory of evolution",
+  the_entire_foundation_of_antisemitism: { definition: "Based on pseudoscience, or scientific racism", what_it_does: "", examples: "reading a book, an advertisement or the testimony of others are the basis of pseudoscience beliefs" },
+  it_is_assumed_that_illusions: { definition: "Not unusual, and given the right conditions, illusions are able to occur systematically even in normal emotional situations", what_it_does: "", examples: "the study of history , metaphysics , religion , art , and the humanities" },
+  the_latter_case: "Exemplified by astrology, which appeals to observation and experimentation",
+  this_prediction: { definition: "Particularly striking to Popper because it involved considerable risk", what_it_does: "", examples: "the precession of equinoxes in astronomy" },
+  if_the_strengths_of_beliefs: "A hallmark of knowledge, we should have to rank some tales about demons, angels, devils, and of heaven and hell as knowledge",
+  blind_commitment_to_a_theory: "Not an intellectual virtue: it is an intellectual crime",
+  a_reinvention_of_the_school_science_curriculum: { definition: "One that shapes students to contend with its changing influence on human welfare", what_it_does: "", examples: "astrology, is among the attributes that enable students to adapt to the changing world" },
+  its_characteristics: { definition: "Embedded in a curriculum where students are engaged in resolving problems, conducting investigations, or developing projects", what_it_does: "", examples: "that paying undue attention to pseudoscience could dignify it" },
+  irrational_health_care_is_not_harmless_and_it: "Careless to create patient confidence in pseudomedicine",
+
 };
 
 // ============================================================
