@@ -31059,6 +31059,30 @@ const FLAT_DICT = {
   migrant_workers: { definition: "Used almost as slaves and forced into terrible working conditions and labor hours", what_it_does: "", examples: "by addressing their root causes" },
   every_person: "Born equal and has the same rights to life and welfare , education and work , living independently and active participation in all aspects of society",
 
+  // === INGESTED 2026-06-24 01:38 ===
+  the_columbia_encyclopedia: "Mill as occasionally coming 'close to socialism, a theory repugnant to his predecessors'",
+  john_stuart: "Educated by his father, with the advice and assistance of Jeremy Bentham for whom he had worked as a ghostwriter [ 15 ] and Francis Place",
+  his_main_reading: "Still history, but he went through all the commonly taught Latin and Greek authors and by the age of ten could read Plato and Demosthenes with ease",
+  his_father_also_thought_that_it: "Important for Mill to study and compose poetry",
+  one_of_his_earliest_poetic_compositions: { definition: "A continuation of the Iliad", what_it_does: "", examples: "Don Quixote and Robinson Crusoe" },
+  taylor: "Married when they met, and their relationship was close but generally believed to be chaste during the years before her first husband died in 1849",
+  john_stuart_mill_and_harriet_taylor_mill: "Foundational figures in feminist economic thought",
+  mill: "Hopeful of the autonomy such an education could allow for its recipients and especially for women",
+  in_the_case_of_oxford_university_it: "The standard text until 1919, when it was replaced by Marshall's Principles of Economics",
+  their_apologists_in_england_say_that_it: "About tariffs, and similar trumpery",
+  slavery_alone: "Thought of, alone talked of",
+  he_said_that_social_liberty: "'the nature and limits of the power which can be legitimately exercised by society over the individual",
+  government_should_interfere_when_it: "For the protection of society",
+  on_liberty: "An impassioned defence of free speech",
+  mill_argues_that_free_discourse: "A necessary condition for intellectual and social progress",
+  he_argued_that_even_if_an_opinion: "False, the truth can be better understood by refuting the error",
+  he_said_that_freedom_of_speech: "A vital way to develop talents and realise a person's potential and creativity",
+  he_repeatedly_said_that_eccentricity: "Preferable to uniformity and stagnation",
+  if_any_argument: "Really wrong or harmful, the public will judge it as wrong or harmful, and then those arguments cannot be sustained and will be excluded",
+  mill_argued_that_even_any_arguments_which: "Used in justifying murder or rebellion against the government should not be politically suppressed or socially persecuted",
+  he_holds_that_pleasures_gained_in_activity: "Of a higher quality than those gained passively",
+  by_happiness: "Intended pleasure, and the absence of pain; by unhappiness, pain, and the privation of pleasure",
+
 };
 
 // ============================================================
