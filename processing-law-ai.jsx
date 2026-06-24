@@ -30938,6 +30938,17 @@ const FLAT_DICT = {
   their: "To survive is cannibalism",
   a_memorial_stone_commemorating_parker: "In the churchyard of Jesus Chapel on Peartree Green in Southampton, near the site of Itchen Ferry village whence he came",
 
+  // === INGESTED 2026-06-24 01:17 ===
+  aristotle_thought_the_polis: "An 'association of associations' that enables citizens to share in the virtuous task of ruling and being ruled",
+  the_concept_of_societas_civilis_is_roman_and: "Introduced by Cicero",
+  instead_conversation: "Dominated by problems of just war , a preoccupation that would last until the end of Renaissance",
+  as_far_as_locke: "Concerned, the basic rights of human beings are the preservation of life, liberty and property",
+  as_far_as_kant: "Concerned, this system was effective to guard against the domination of a single interest and check the tyranny of the majority (Alagappa 2004:30)",
+  this_new_way_of_thinking_about_civil_society: "Followed by Alexis de Tocqueville and Karl Marx as well",
+  political_society: "Autonomized into the state, which was in turn ruled by the bourgeois class (consider also that suffrage only belonged, then, to propertied men)",
+  the_recent_development_of_the_third_sector: "A result of this welfare systems restructuring, rather than of democratization",
+  habermas_argues_that_even_though_society: "Representative of capitalist society, there are some institutions that were part of political society",
+
 };
 
 // ============================================================
