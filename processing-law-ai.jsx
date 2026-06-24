@@ -34470,6 +34470,16 @@ const FLAT_DICT = {
   jen_bergstrom: "The Senior Vice President and Publisher",
   louise_burke: { definition: "Named executive vice-president and publisher while Jennifer Bergstrom, who had been publisher of SSE, would be editor-in-chief", what_it_does: "", examples: "Candice Carty-Williams , Kristen Roupenian , Andrew MacDonald, and Iain Reid" },
 
+  // === INGESTED 2026-06-24 11:33 ===
+  all_other_inputs_to_production: "Called intangibles in classical economics",
+  capital_goods: "Generally considered one-of-a-kind, capital intensive products that consist of many components",
+  their_production: { definition: "Often organized in projects, with several parties cooperating in networks", what_it_does: "", examples: "tools, buildings, and vehicles that are used in the production process" },
+  natural_capital: { definition: "The world's stock of natural resources, which includes geology, soils, air, water and all living organisms", what_it_does: "", examples: "an automobile is a consumer good when purchased as a private car" },
+  hence_if_there: { definition: "A desire to increase consumption, the output of the capital goods should be maximized", what_it_does: "", examples: "it may not be able to compete as effectively in the market" },
+  tradein_capital_goods: "A crucial part of the dynamic relationship between international trade and development",
+  since_capital: "Defined by him as being goods of higher-order, or goods used to produce consumer goods, and derived their value from them, being future goods",
+  the_cambridge_capital_controversy: "A dispute between economists at Cambridge, Massachusetts based MIT and University of Cambridge in the UK about the measurement of capital",
+
 };
 
 // ============================================================
