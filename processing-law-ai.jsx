@@ -34731,6 +34731,15 @@ const FLAT_DICT = {
   domain_knowledge: { definition: "Knowledge of a specific discipline or field in contrast to general (or domain-independent) knowledge", what_it_does: "", examples: "software agents" },
   operations_on_domain_knowledge: "Performed by metaknowledge",
 
+  // === INGESTED 2026-06-24 12:19 ===
+  those_abstract_things: { definition: "Then said to be multiply instantiated , in the sense of picture 1 , picture 2 , etc., shown below", what_it_does: "", examples: "the particular redness of a particular apple is an abstract particular" },
+  an_approach_to_resolving_such_difficulty: "To use predicates as a general term for whether things are variously real, abstract, concrete, or of a particular property (e.g., good )",
+  questions_about_the_properties_of_things: "Then propositions about predicates, which propositions remain to be evaluated by the investigator",
+  architecture_also: { definition: "The __abstract__ arrangement, design of computer code to implement complex software systems", what_it_does: "", examples: "many different things can be red" },
+  the_notion_of_abstraction: { definition: "Important to understanding some philosophical controversies surrounding empiricism and the problem of universals", what_it_does: "", examples: "time, place, and so on" },
+  one_can_readily_argue_that_abstraction: { definition: "An elementary methodological tool in several disciplines of social science", what_it_does: "", examples: "'the market' [ 29 ] and the generalized concept of ' business '" },
+  material_point: "The ultimate and common feature of all bodies",
+
 };
 
 // ============================================================
