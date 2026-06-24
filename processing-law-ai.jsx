@@ -33355,6 +33355,9 @@ const FLAT_DICT = {
   the_historian_will_durant_writes_that_plato: "'as skeptical of atheism as of any other dogma'",
   professional_skepticism: "An important concept in auditing",
 
+  // === INGESTED 2026-06-24 08:15 ===
+  internalization_helps_one_define_who_they: "And create their own identity and values within a society that has already created a norm set of values and practices for them",
+
 };
 
 // ============================================================
