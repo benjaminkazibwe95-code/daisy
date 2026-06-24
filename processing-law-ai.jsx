@@ -32060,6 +32060,11 @@ const FLAT_DICT = {
   a_notable_example_of_a_religious_site: "Paro Taktsang , where Padmasambhava is said to have founded Buddhism in Bhutan",
   the_bark_of_a_callicarpa_arborea: "Used for skin ailments",
 
+  // === INGESTED 2026-06-24 04:07 ===
+  other_nations: { definition: "Quick to follow suit", what_it_does: "", examples: "Gibraltar" },
+  the_marpol_convention: { definition: "An example of such regulation", what_it_does: "", examples: "areas beyond the national jurisdiction of the countries making those activities" },
+  a_large_portion_of_these_requirements: "Further strengthened and expanded",
+
 };
 
 // ============================================================
