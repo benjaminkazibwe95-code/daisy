@@ -34514,6 +34514,30 @@ const FLAT_DICT = {
   when_the_products_of_their_work: "Combined, it produces a complete picture, a financial plan",
   accountants_and_financial_planners: { definition: "Both involved with presenting issues and resolving inefficiencies, so together, the results and explanation are provided in a financial plan", what_it_does: "is called aggregation", examples: "Sid Mittra, Anandi P" },
 
+  // === INGESTED 2026-06-24 11:43 ===
+  medicaid: { definition: "Established by the Social Security Amendments of 1965 as part of the Great Society set of programs that formed the policy agenda of President Lyndon B", what_it_does: "", examples: "nursing home care and personal care services" },
+  states: "Not required to participate in the program, although all have since 1982",
+  the_health_plan: "Then responsible for providing for all or most of the recipient's healthcare needs",
+  before_the_law: { definition: "Passed, some states did not allow able-bodied adults to participate in Medicaid, and many set income eligibility far below the Federal poverty level", what_it_does: "", examples: "for adults between 100% and 399% of poverty level, the uninsured rate in 2018 was 12" },
+  state_participation_in_medicaid: "Voluntary; however, all states have participated since 1982",
+  in_some_states_medicaid: "Subcontracted to private health insurance companies, while other states pay providers (i.e., doctors, clinics and hospitals) directly",
+  the_most_provided_services: { definition: "Intermediate care for mentally disabled, prescription drugs and nursing facility care for under 21-year-olds", what_it_does: "", examples: "children, pregnant women, parents, seniors, and people with disabilities" },
+  medicaid_is_a_program_that: "Not solely funded at the federal level",
+  eligibility: "Determined largely by income",
+  the_main_criterion_for_medicaid_eligibility: "Limited income and financial resources, a criterion which plays no role in determining Medicare coverage",
+  registration_for_dental_services: "Optional for people older than 21 years but required for people eligible for Medicaid and younger than 21",
+  the_reasons_for_low_use: "Many, but a lack of dental providers who participate in Medicaid is a key factor",
+  the_details_of_how_each_category: { definition: "Defined vary from state to state", what_it_does: "", examples: "coverage for eligible seniors or disabled" },
+  the_penalty: { definition: "Determined by dividing the average monthly cost of nursing home care in the area or State into the amount of assets gifted", what_it_does: "", examples: "Medicaid (Medi-Cal)" },
+  noncitizen_ssi_recipients: "Eligible for (and required to be covered under) Medicaid",
+  refugees_and_asylees: "Eligible for Medicaid for seven years after arrival; after this term, they may be eligible at state option",
+  nonimmigrants_and_unauthorized_aliens: "Not eligible for most federal benefits, regardless of whether they are means tested, with notable exceptions for emergency services (e.g",
+  ports_of_entry: { definition: "Generally denied entry if they are deemed 'likely at any time to become a public charge", what_it_does: "", examples: "if they progress to AIDS ( T-cell count drops below 200)" },
+  if_the_federal_match_expenditure: "Also counted, the program, on average, takes up 22% of each state's budget",
+  in_some_states_medicaid_beneficiaries: "Required to pay a small fee (co-payment) for medical services",
+  mortality_changes: "Closely linked to county-level coverage gains, with one life saved annually for every 239 to 316 adults gaining insurance",
+  the_proposed_mechanisms_for_the_reduction: "That Medicaid increased the economic security of individuals and provided greater access to treatment for substance abuse or behavioral disorders",
+
 };
 
 // ============================================================
