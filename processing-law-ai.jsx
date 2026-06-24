@@ -35766,6 +35766,10 @@ const FLAT_DICT = {
   kearney: "Once again an independent firm",
   its_first_office_in_asia: "Opened in 1972, in Tokyo , Japan",
 
+  // === INGESTED 2026-06-24 20:51 ===
+  one_major_framework: "The probably approximately correct learning model",
+  because_training_sets: "Finite and the future is uncertain, learning theory usually does not yield guarantees of the performance of algorithms",
+
 };
 
 // ============================================================
