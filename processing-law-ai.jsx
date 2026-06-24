@@ -33312,6 +33312,11 @@ const FLAT_DICT = {
   the_and_of_a_set_of_operands: "True if and only if all of its operands are true, i.e",
   either_of_the_above: { definition: "Constructively valid proofs by contradiction", what_it_does: "", examples: "' AND ', an algebraic multiplication, or the ampersand symbol & (sometimes doubled as in && )" },
 
+  // === INGESTED 2026-06-24 08:04 ===
+  imperative_logic: "The field of logic concerned with imperatives",
+  while_this_problem: "First noted in a footnote by Frege , it received a more developed formulation by Jørgensen",
+  mixed_inferences: "Of special interest to logicians",
+
 };
 
 // ============================================================
