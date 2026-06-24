@@ -35532,6 +35532,15 @@ const FLAT_DICT = {
   each_member: "Honored with an unveiling of a painting in their likeness and a bright green jacket",
   television_coverage: "Exclusively on NBC Sports California",
 
+  // === INGESTED 2026-06-24 15:05 ===
+  three_na_clubs_still_in_business: "Excluded: the Philadelphia Whites , Brooklyn Atlantics , and the New Haven Elm Citys",
+  new_haven: "Too small a city and the club had declined to travel west in 1875, playing only three home games apiece with Chicago and St",
+  both_clubs: "Expelled from the National League, which simply contracted from eight to six for the 1877 season",
+  their_tophitting_regular: "Left fielder George Hall , who batted .366 with a slugging percentage of .545",
+  another_strong_batter_on_the_team: "Third baseman Levi Meyerle , who hit .340",
+  the_best_pitcher_on_the_team: "Lon Knight , who won 10 games, lost 22, and had an ERA of 2.62",
+  dozens_of_leading_clubs_by_number_of_matches: "Included, as are many others",
+
 };
 
 // ============================================================
