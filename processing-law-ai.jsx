@@ -33238,6 +33238,14 @@ const FLAT_DICT = {
   some_organs: "Also shipped to Uganda and the Netherlands",
   even_within_developed_countries_there: { definition: "Concern that enthusiasm for increasing the supply of organs may trample on respect for the right to life", what_it_does: "", examples: "former U.S" },
 
+  // === INGESTED 2026-06-24 07:48 ===
+  the_first_extant_author_who_uses_the_term: { definition: "Plato, in whose works it is closely associated with the art of dialectic", what_it_does: "", examples: "in 'Conversation between a Sage and an Unenlightened Man' (The Writings of Nichiren Daishonin 1: pp" },
+  the_sage_or_person_answering_the_questions: { definition: "Understood as the author", what_it_does: "", examples: "Mikhail Bakhtin , Paulo Freire , Martin Buber , and David Bohm" },
+  dialogued_pedagogy: "Not only about deepening understanding; it was also about making positive changes in the world: to make it better",
+  structured_dialogue: { definition: "Employed for complex problems including peacemaking (e.g., Civil Society Dialogue project in Cyprus ) and indigenous community development", what_it_does: "", examples: "EU institutions and young people" },
+  logos: "The one principle at work, that gives order to the manifold in the world",
+  acting_dialogically: "Directing someone's attention to another one and to reality at the same time",
+
 };
 
 // ============================================================
