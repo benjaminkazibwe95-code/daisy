@@ -35469,6 +35469,16 @@ const FLAT_DICT = {
   if_the_angle: "Bad, the scoring team's fullback punted the ball out into the field from behind the goal line",
   when_he_saw_that_the_stands: "Practically empty, he refused to play until his team was paid their share of the gate",
 
+  // === INGESTED 2026-06-24 14:55 ===
+  four_kansas_city_athletics_players: { definition: "Elected to the National Baseball Hall of Fame : Satchel Paige , Reggie Jackson , Enos Slaughter , and Catfish Hunter", what_it_does: "", examples: "Norm Siebern and Jerry Lumpe , and the cash helped the team pay the bills" },
+  this_relative_success: "Not before starting the season with a 3–14 (.176) record by May 5, which was the worst start of the Athletics tenure in Kansas City",
+  their_record: "74–86 (.463) , 23 games behind the World Series winning Baltimore Orioles",
+  the_actual_lease: "Still in force—including the escape clause",
+  finley_later_admitted_that_the_whole_thing: "A publicity stunt, and he had no intention of amending the lease",
+  kansas_city: "Awarded an American League expansion team, the Kansas City Royals",
+  the_home_uniforms: "A plain white uniform with script 'Athletics' across the chest",
+  the_road_uniforms: { definition: "The same save for the shirt being gray", what_it_does: "", examples: "gold sleeveless tops with green undershirts and gold pants" },
+
 };
 
 // ============================================================
