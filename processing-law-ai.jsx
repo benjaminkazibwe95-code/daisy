@@ -35204,6 +35204,16 @@ const FLAT_DICT = {
   latches_and_flipflops: { definition: "Used as data storage elements", what_it_does: "", examples: "IBM Db2 and IBM Tivoli" },
   video_feedback: { definition: "The video equivalent of acoustic feedback", what_it_does: "", examples: "a television screen or monitor" },
 
+  // === INGESTED 2026-06-24 13:56 ===
+  wheelchair_football: "Patterned after American football , and is thus different from powerchair football or wheelchair soccer (both adaptations of association football )",
+  the_sport_of_wheelchair_football: "Developed by Professor Tim Nugent in 1948",
+  this_version: "Played with seven players per side on smaller indoor courts and includes rule adaptations for both manual and powered wheelchair users",
+  the_required_court_markings: { definition: "A center line and circle, and a key area measuring 8 metres (26 ft 3 in) wide by 1.75 metres (5 ft 9 in) deep at each end of the court", what_it_does: "", examples: "a breakdown of all rules, with motion graphics for potential plays, can also be viewed" },
+  a_standardsized_foam_football: "Used to accommodate players of varying physical abilities",
+  wheelchair_football_players: "Classified into three different levels, and the rules of play are slightly different for each level",
+  field_goals_are_scored_when_the_ball: "Thrown through the first two vertical uprights that support the hanging basket",
+  tackling_in_the_usa_wheelchair_football_league: "Completed by placing one-hand above the waist of the ball carrier",
+
 };
 
 // ============================================================
