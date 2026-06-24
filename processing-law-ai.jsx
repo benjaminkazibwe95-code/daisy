@@ -35054,6 +35054,27 @@ const FLAT_DICT = {
   the_will_to_a_system: "A lack of integrity'",
   one_task_which_they_can_fulfill_quite_usefully: { definition: "The study of the critical methods of science", what_it_does: "", examples: "formulated by Engels (1940, 1954) and Lenin (1947, 1981), are false insofar as they are intelligible" },
 
+  // === INGESTED 2026-06-24 13:14 ===
+  debate_is_a_process_that: { definition: "Formal discourse , discussion, and oral addresses on a particular collection of topics, often with a moderator and an audience", what_it_does: "", examples: "Athenian Democracy or the Shastrartha in Ancient India" },
+  the_society_of_cogers: "Founded in London in 1755 and still operates today",
+  the_american_whig_society_at_the_university: "Co-founded in 1765 by future revolutionary James Madison",
+  the_cambridge_union_society: { definition: "Founded in 1815 and claims to be the oldest continually operating debating society in the World", what_it_does: "", examples: "the Oxford Union , the Durham Union , the Yale Political Union , and the Conférence Olivaint" },
+  debates: "Usually conducted by proposing a law, or changes to a law known as amendments",
+  parliamentarystyle_debates: "Structured with two opposing sides, the Leader of Opposition (LO) and the Government (GOV)",
+  this_style_of_debating: { definition: "Widely practiced in Asian Countries such as Japan, Malaysia and Taiwan", what_it_does: "", examples: "public debate" },
+  most_topics: "Usually specific to local Australian regions to facilitate participant and audience interest",
+  the_speaking_order: "As follows: First Affirmative, First Negative, Second Affirmative, Second Negative, Third Affirmative, and finally Third Negative",
+  the_first_and_the_last_minutes: "Protected time: no Points of Information may be asked",
+  impromptu_debating: "A relatively informal style of debate compared to other highly structured formats",
+  this_technique_of_fasttalking: "Often called spreading and is also prevalent in policy debates",
+  pois: "Used to attack a speaker on a weak point or to argue against something the speaker said",
+  the_mace_format_of_the_debate: { definition: "Designed to be beginner-friendly and to prepare students for British Parliamentary style debate (which it is modeled on)", what_it_does: "", examples: "American, Brazilian, British, Canadian, and German forms" },
+  this_tournament: "Conducted in the traditional British Parliamentary style of debate",
+  this_form_of_debate: "Primarily found within the United States",
+  united_asian_debating_championship: "The biggest university debating tournament in Asia, where teams from the Middle East to Japan [ 61 ] [ 62 ] come to debate",
+  four_minutes: { definition: "Allocated for the reply speech, and no POIs can be offered during this time", what_it_does: "", examples: "traveling cost and even hotel costs" },
+  popular_ones: "The debater of the month or more formal debate formats such as Lincoln-Doublas",
+
 };
 
 // ============================================================
