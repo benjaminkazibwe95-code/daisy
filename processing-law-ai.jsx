@@ -34052,6 +34052,30 @@ const FLAT_DICT = {
   the_basic_bipartite_division_that: { definition: "Ubiquitous in natural languages is that of nouns vs verbs", what_it_does: "", examples: "the word sbiaw can be understood as '(is a) coyote' rather than simply 'coyote'" },
   different_grammatical_forms_of_a_given_lexeme: "Studied; however, there was no attempt to decompose them into morphemes",
 
+  // === INGESTED 2026-06-24 10:25 ===
+  intercultural_understanding: "The ability to understand and value cultural differences",
+  kim_proposes_an_alternative_to_acculturation: "Complete assimilation",
+  a_theory_that: "Found in 1984 and revisited on 1987 explains the importance of truth and intention of getting an understanding",
+  dialect_barriers: { definition: "Communication gaps that lead to misunderstandings between conversations", what_it_does: "", examples: "analytical reasoning, cultural awareness, and constructive work ethics" },
+  the_capacity_to_avoid_ethnocentrism: "The foundation of intercultural communication competence",
+  ethnocentrism: "The inclination to view one's own group as natural and correct, and all others as aberrant",
+  listed_below: "Some of the components of intercultural competence",
+  the_meaning_of_trust_and_how_it: "Developed and communicated varies across societies",
+  crosscultural_understanding: { definition: "Not just for incoming expats", what_it_does: "", examples: "the ability to communicate within that environment" },
+  this_model_will_help_you_understand_who_you: "As an individual, and how you can better communicate with others that may be different from you",
+  the_media: "Influential in what we think of other cultures and what we think about our own selves",
+  positioning: "The consideration of one's place in the world compared to others, and how this position might influence both world-views and certain privileges",
+  its_core: "To establish and understand how people from different cultures communicate with each other",
+  its_charge: "To also produce some guidelines with which people from different cultures can better communicate with each other",
+  human_experience: "Culturally relevant, so elements of language are also culturally relevant",
+  in_this_instance_there: "Opportunity for miscommunication between two or more parties",
+  due_to_different_cultures_there: "Different meaning in vocabulary chosen, this allows for a message between the sender and receiver to be misconstrued",
+  kinesic_behavior: "Communication through body movement—e.g., posture, gestures, facial expressions and eye contact",
+  clothing_and_the_way_people_dress: "Used as a form of nonverbal communication",
+  object_language_or_material_culture: "How people communicate through material artifacts—e.g., architecture, office design and furniture, clothing, cars, cosmetics, and time",
+  occulesics: { definition: "A form of kinesics that includes eye contact and the use of the eyes to convey messages", what_it_does: "", examples: "in terms of personal space and in terms of office layout)" },
+  paralanguage_refers_to_how_something: "Said, rather than the content of what is said—e.g., rate of speech, tone and inflection of voice, other noises, laughing, yawning, and silence",
+
 };
 
 // ============================================================
