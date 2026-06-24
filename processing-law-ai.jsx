@@ -30914,6 +30914,30 @@ const FLAT_DICT = {
   the_core_subjects: "Those regularly required for legal practice",
   is_a_postgraduate_degree_and: { definition: "Required to practice as a barrister in Ireland", what_it_does: "", examples: "the LLB Law with French Law and Language offered by the University of East Anglia" },
 
+  // === INGESTED 2026-06-24 01:15 ===
+  the_defendants_were_found_guilty_and: "Sentenced to the statutory death penalty, though with a recommendation of mercy",
+  the_vessel: "Not struggling and Dudley gave the order to heave to so that the crew could enjoy a good night's sleep",
+  as_the_manoeuvre: "Completed, and Parker was sent below to prepare tea, a wave struck and washed away the lee bulwark",
+  dudley_instantly_realised_that_the_yacht: "Doomed and ordered the single 13-foot (4 m) lifeboat to be lowered",
+  the_lifeboat: "Of flimsy construction, with boards only 0.25 inches (6 mm) thick and was holed in the haste to get it away",
+  we_all: "Like mad wolfs who should get the most, and for men—fathers of children—to commit such a deed, we could not have our right reason",
+  he_later_questioned_dudley_about_the: "By which he had killed Parker, taking custody of the knife and promising to return it",
+  the_depositions: "Telegraphed to the Board of Trade and to the Registrar General of Shipping in Basinghall Street in London",
+  while_the_survivors: { definition: "Making arrangements to rejoin their families, Basinghall Street advised the men be detained", what_it_does: "", examples: "Liddicoat, had consulted, they were returned to the police cells until Friday" },
+  the_only_witnesses: "The three defendants themselves and their right to silence would impede any formal proceedings",
+  a_confession: "Only admissible against the person making it, not his co-defendants and the contents of the depositions were probably inadequate to convict",
+  this_case: "Cited in the defence",
+  holmes: "Subsequently pardoned by President John Tyler",
+  archer_and_four_survivors: "Picked up on 31 August, and he was candid that he and August Muller had killed and butchered Francis Shufus, by all drawing lots",
+  huddleston: "Further determined that the legal question would be settled by a reserved bench for authority",
+  as_much_was_ultimately_admitted_and_it: "Eventually agreed that it was best that the special verdict be restored to the version agreed by the jury",
+  the_saint_christopher_case: "Rejected as a precedent because it had not been formally recorded in the law reports",
+  war_is_full_of_instances_in_which_it: "A man's duty not to live, but to die",
+  though_harcourt: "Personally in favour of the abolition of the death penalty, he was conscientious in his official duties",
+  dudley_and_stephens: "Advised the next day but were somewhat disappointed at being held for so long in custody",
+  their: "To survive is cannibalism",
+  a_memorial_stone_commemorating_parker: "In the churchyard of Jesus Chapel on Peartree Green in Southampton, near the site of Itchen Ferry village whence he came",
+
 };
 
 // ============================================================
