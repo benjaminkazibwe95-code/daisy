@@ -33528,6 +33528,21 @@ const FLAT_DICT = {
   susanna_siegel: "An American philosopher",
   her_monograph: "Well received, [ 6 ] [ 7 ] and her papers have been widely cited",
 
+  // === INGESTED 2026-06-24 08:53 ===
+  sacrifice: "An act or offering made to a deity",
+  varieties_of_ritual_nonhuman_sacrifices: { definition: "Practiced by numerous religions today", what_it_does: "", examples: "in a game of chess" },
+  jay_observed_that_sacrificial_rituals: { definition: "Almost exclusively performed by men", what_it_does: "", examples: "in the cult of Apis ) and from the Aztecs to the Yoruba" },
+  corpses: "Found at a number of sites in the citadel of Knossos in Crete",
+  the_aztec_in_particular: "Known for the practice of human sacrifice",
+  human_sacrifice: "No longer officially condoned in any country, [ 20 ] and any cases which may take place are regarded as murder",
+  thus_his_oncebrought_sacrifice: "Also present in that its effect grants the individual access to salvation",
+  often_found_in_roman_catholicism: { definition: "The idea of joining one's own life and sufferings to the sacrifice of Christ on the cross", what_it_does: "", examples: "illness, or purposefully embrace suffering in acts of penance" },
+  each_one: "Also called to share in that suffering through which the Redemption was accomplished",
+  this_good_in_itself: "Inexhaustible and infinite",
+  animal_sacrifices: "Part of the ancient Vedic religion in India, and are mentioned in scriptures such as the Yajurveda",
+  the_meat: "Then divided into three equal parts",
+  the_third_part: "Distributed to the poor",
+
 };
 
 // ============================================================
