@@ -32294,6 +32294,16 @@ const FLAT_DICT = {
   the_endosperm_of_some_species: { definition: "Responsible for seed dormancy", what_it_does: "", examples: "cytokinins , which regulate cellular differentiation and embryonic organ formation" },
   the_aleurone: "The outer layer of endosperm cells, present in all small grains and retained in many dicots with transient endosperm",
 
+  // === INGESTED 2026-06-24 04:58 ===
+  a_hospital: "A healthcare institution providing patient treatment with specialized medical science and auxiliary healthcare staff and medical equipment",
+  a_district_hospital_typically: { definition: "The major health care facility in its region, with large numbers of beds for intensive care , critical care , and long-term care", what_it_does: "", examples: "cardiac, oncology, or orthopedic problems, and so forth" },
+  the_bestknown_type_of_hospital: "The general hospital, also known as an acute-care hospital",
+  this_department: "Responsible for the administration of professional nursing practice, research , and policy for the hospital",
+  dispensaries: "Also opened in New York 1771, Philadelphia 1786, and Boston 1796",
+  independent_external_assessment_of_quality: { definition: "One of the most powerful ways to assess this aspect of health care, and hospital accreditation is one means by which this is achieved", what_it_does: "", examples: "Accreditation Canada in Canada, the Joint Commission in the U.S" },
+  exposure_to_daylight: "Effective in reducing depression",
+  exposure_to_nature_and_hospital_gardens: "Also important – looking out windows improves patients' moods and reduces blood pressure and stress level",
+
 };
 
 // ============================================================
