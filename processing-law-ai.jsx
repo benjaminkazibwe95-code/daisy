@@ -32719,6 +32719,10 @@ const FLAT_DICT = {
   the_indirect_effects: { definition: "Mediated by increases in working memory span and cognitive empathy", what_it_does: "", examples: "62,354 individuals" },
   while_this_symptom: { definition: "Not fatal, an absence of these senses for a prolonged amount of time can cause lack of appetite, anxiety, and depression", what_it_does: "", examples: "PTSD, anxiety, and depression" },
 
+  // === INGESTED 2026-06-24 06:07 ===
+  psychiatric_boarding_is_when_someone: { definition: "Detained, often in a hospital emergency department, while waiting for proper psychiatric treatment", what_it_does: "", examples: "child and adolescent psychiatry" },
+  at_the_same_time_there: { definition: "Concerns around data security and challenges regarding proper infrastructure, capacity, access and skills", what_it_does: "", examples: "a lack of private space at home to access during their sessions or access to technology" },
+
 };
 
 // ============================================================
