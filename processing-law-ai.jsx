@@ -33048,6 +33048,33 @@ const FLAT_DICT = {
   the_most_famous_among_them: { definition: "Ay farzand (O Child!)", what_it_does: "", examples: "Nasir al-Din al-Tusi" },
   its_aim: "Not to promote the study of mathematics: it is to condemn the attitude which consists in considering them as rivals of religion",
 
+  // === INGESTED 2026-06-24 07:20 ===
+  practical_normativity: "About what to do , while theoretical normativity concerns what to believe",
+  deontic_normativity_deals_with_what: "Allowed, required, or forbidden, whereas evaluative normativity addresses the values underlying normative assessments",
+  other_distinctions: "Based on the domain of assessment, such as moral , social , legal , and linguistic norms",
+  realists_assert_that_there: "Objective facts about what is right and wrong, a view rejected by anti-realists",
+  normativity: { definition: "Relevant to many domains, including morality , law , politics , language , and the human sciences", what_it_does: "", examples: "a rule that should be followed, and the authority or normative force they carry" },
+  the_word_normativity: "Coined in the 1930s as a technical term in academic discourse",
+  constitutive_norms: "Part of the definition of a specific activity",
+  regulative_norms: { definition: "Commands, prohibitions, or permissions about how people should behave, and violating them is a type of mistake", what_it_does: "", examples: "the terms ought , should , right , and wrong" },
+  antirealists_deny_that_normativity: { definition: "A substantial or fundamental feature of reality", what_it_does: "", examples: "rational intuition , is required" },
+  expressivism: "One such proposal arguing that normative language is used to express personal attitudes and emotions",
+  noncognitivism: { definition: "Primarily associated with anti-realism, but it is also possible to combine cognitivism with anti-realism", what_it_does: "", examples: "mental attitudes studied by psychologists, form the foundation of normativity" },
+  it_maintains_that_something: { definition: "Good if its features provide adequate reasons to have a positive attitude toward it, such as a favorable feeling, emotion, and desire", what_it_does: "", examples: "Ralph Wedgwood suggests that a concept is normative if it sets standards of what to think and do" },
+  while_this_outlook: "Compatible with externalism, it conflicts with internalism, which maintains that normative requirements must be able to guide actions",
+  they_hold_that_values: "Fundamental and reduce other normative concepts to evaluative facts",
+  the_idea_underlying_this_approach: { definition: "That something should be done or ought to be the case because it is valuable or brings about values in some form", what_it_does: "", examples: "truth, which act as cognitive goals" },
+  conceptualism_argues_that_normativity: { definition: "Primarily found in the realm of thought as an aspect of concepts or ideas", what_it_does: "", examples: "God or a political ruler" },
+  it_suggests_that_the_term_normativity: { definition: "Ambiguous by referring to several connected phenomena", what_it_does: "", examples: "the utilitarian maxim of promoting the greatest happiness for the greatest number" },
+  norms_in_this_context: "Social rules, often informal and context-dependent, specifying what people may, must, or must not do",
+  another_academic_discussion: "About whether normative cognition is limited to specific mental domains",
+  the_alternative_view_suggests_that_it: { definition: "Associated with a general cognitive ability, making it relevant to most psychological processes", what_it_does: "", examples: "altruism , moral emotions , and virtues" },
+  the_standards_of_spoken_language: { definition: "More flexible, and ill-formed expressions may nonetheless be understood through shared context", what_it_does: "", examples: "beliefs, desires, and intentions" },
+  this_view_assumes_that_there: "Some kind of higher law—a natural or moral law—and holds that human-made laws are legitimate only insofar as they embody this natural law",
+  it_examines_how_laws: "Created, practiced, and applied to particular cases",
+  normative_economics: "A subfield dedicated to prescriptive analysis by examining ideals or standards of economic activities",
+  one_such_standard: { definition: "Efficiency , which evaluates and compares economic arrangements based on the quantity of resources required to achieve a desired goal", what_it_does: "", examples: "cancer , can be defined as biological dysfunctions in value-neutral terms" },
+
 };
 
 // ============================================================
