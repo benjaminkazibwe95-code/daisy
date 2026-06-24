@@ -34082,6 +34082,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 10:32 ===
   hogg: "Born in 1954 in Calcutta , India, where his parents (his father was Scottish, his mother English and Welsh) were employed at the time of his birth",
 
+  // === INGESTED 2026-06-24 10:34 ===
+  the_term_hippie: { definition: "Used in print by San Francisco writer Michael Fallon, helping popularize use of the term in the media, although the tag was seen elsewhere earlier", what_it_does: "", examples: "marijuana and LSD to explore altered states of consciousness" },
+  their_adventures: "Documented in Tom Wolfe 's book The Electric Kool-Aid Acid Test",
+  the_merry_pranksters: { definition: "Known for using cannabis , amphetamine , and LSD , and during their journey they 'turned on' many people to these drugs", what_it_does: "", examples: "the Byrds in 1964 and later Love" },
+  a_sign_of_this: { definition: "The visibility that the hippie subculture gained in various mainstream and underground media", what_it_does: "", examples: "cannabis and LSD use, sex and wild psychedelic parties" },
+  the_draft: { definition: "Ended soon thereafter, in January 1973", what_it_does: "", examples: "Rick Griffin , Victor Moscoso , Bonnie MacLean , Stanley Mouse and Alton Kelley , and Wes Wilson" },
+  their_psychedelicrock_concert_posters: "Inspired by Art Nouveau , Victoriana , Dada , and pop art",
+  psychedelic_light_shows: "A new art form developed for rock concerts",
+  using_oil_and_dye_in_an_emulsion_that: "Set between large convex lenses upon overhead projectors, the light-show artists created bubbling liquid visuals that pulsed in rhythm to the music",
+  zap_comix: "Among the original underground comics, and featured the work of Robert Crumb , S",
+  underground_comix: "Ribald and intensely satirical, and seemed to pursue weirdness for the sake of weirdness",
+  much_hippie_clothing: "Self-made in defiance of corporate culture, and hippies often purchased their clothes from flea markets and second-hand shops",
+  the_clinical_study_human_sexual_response: "Published by Masters and Johnson in 1966, and the topic suddenly became more commonplace in America",
+  in_fact_love: "Something you shared with everyone, not just your sex partners",
+  this_profound_truth: "One of the great hippie revelations",
+  the_peak_experience_of_this_type: "The Woodstock Festival near Bethel, New York , from August 15 to 18, 1969, which drew between 400,000 and 500,000 people",
+  the_psychedelic_experience: "The inspiration for John Lennon 's song ' Tomorrow Never Knows ' in the Beatles ' album Revolver",
+  hippies: { definition: "Often pacifists , and participated in nonviolent political demonstrations, such as Civil Rights Movement , the marches on Washington, D.C", what_it_does: "", examples: "draft-card burnings and the 1968 Democratic National Convention protests" },
+  the_music: { definition: "Like Dalí, with many colors and revolutionary ways", what_it_does: "", examples: "nudity, have become more widely acceptable, all of which was uncommon before the hippie era" },
+  the_oregon_country_fair: "A three-day festival featuring handmade crafts, educational displays and costumed entertainment",
+  many_ravers: "Originally soul boys and football casuals , and football hooliganism declined after the Second Summer of Love",
+
 };
 
 // ============================================================
