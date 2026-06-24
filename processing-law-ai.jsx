@@ -30657,6 +30657,15 @@ const FLAT_DICT = {
   cultural_heritage: "Not the same thing as national identity'",
   national_symbols_and_patriotic_assertiveness: "In some countries discredited by their historical link with past wars, especially in Germany",
 
+  // === INGESTED 2026-06-24 00:35 ===
+  researchers_have_suggested_that_this: { definition: "Due to people overcorrecting for their biases in an effort to remain impartial", what_it_does: "allows the user to only watch what they volunteer to see", examples: "intentional rumors, lies, conspiracy theories , and fake news" },
+  the_illusory_truth_effect: "The tendency to believe false information to be correct after repeated exposure",
+  conspiracy_theories: "Definitionally an assertion of a conspiracy, and are sold as appealing narratives regardless of their truth",
+  the_most_prominent_of_these_organizations: { definition: "The Daily Wire , which was established with heavy investments from the fracking-baron Wilks brothers", what_it_does: "", examples: "the Daily Wire heavily promotes climate change denialism" },
+  facts: { definition: "Unpatriotic.' He added that post-truth politics can also include a claimed rejection of partisanship and negative campaigning", what_it_does: "", examples: "the ' birther ' or ' Muslim ' conspiracy theories about Barack Obama) become major news topics" },
+  content_which_gets_more_views: "Continually filtered around different internet circles, regardless of its legitimacy",
+  various_similar_countermeasures_that: { definition: "Largely based on technical changes or extensions to common platforms and software have been proposed (see below )", what_it_does: "", examples: "by Professor Daniel W" },
+
 };
 
 // ============================================================
