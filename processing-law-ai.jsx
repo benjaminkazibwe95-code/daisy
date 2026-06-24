@@ -34846,6 +34846,18 @@ const FLAT_DICT = {
   the_remaining_dialogues: { definition: "Classified as 'late' and are generally agreed to be difficult and challenging pieces of philosophy", what_it_does: "", examples: "Avicenna , postulated that all phenomena emanated from the divine source" },
   many_of_these_commentaries_on_plato: { definition: "Translated from Arabic into Latin, in which form they influenced medieval scholastics", what_it_does: "", examples: "metempsychosis and polyamory , with Christianity" },
 
+  // === INGESTED 2026-06-24 12:42 ===
+  the_oracle_bone_script: "The oldest attested form of written Chinese , dating to the late 2nd millennium BC",
+  inscriptions: "Made by carving characters into oracle bones , usually either the shoulder bones of oxen or the plastrons of turtles",
+  both_the_prompt_and_interpretation: "Inscribed on the same piece of bone that had been used for the divination itself",
+  the_most_recent_major_discovery: "The Huayuanzhuang cache found near the site in 1993",
+  the_subjects_of_concern_in_inscriptions: "Broad, and include war, ritual sacrifice, and agriculture, as well as births, illnesses, and deaths in the royal family",
+  the_common_chinese_term_for_oracle_bone_script: "甲骨文 ( jiǎgǔwén 'shell and bone script'), which is an abbreviation of 龜甲獸骨文字 ( guījiǎ shòugǔ wénzì 'turtle-shell and animal-bone script')",
+  a_previously_common_term: "殷墟卜辭 ( Yīnxū bǔcí 'Yinxu divinatory texts')",
+  oracle_bone_science: "The study of oracle bone script itself; it is a discipline of paleography",
+  a_graph_when_inverted_horizontally_generally: "The same word, and additional components are sometimes present without changing the meaning",
+  some_characters: "Only attested in the oracle bone script, dropping out of later usage and usually being replaced by newer characters",
+
 };
 
 // ============================================================
