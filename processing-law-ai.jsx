@@ -35429,6 +35429,12 @@ const FLAT_DICT = {
   i_think_he: "Anyway.' [ 10 ] In addition, on May 11, 2006, ESPN",
   the_statue_of_cousy: "Dedicated in June 2021",
 
+  // === INGESTED 2026-06-24 14:42 ===
+  gasol: { definition: "Struggling after seven games under D'Antoni, averaging 10.1 points and 8.0 rebounds while shooting 38", what_it_does: "", examples: "the playoffs" },
+  the_first_sport_he_played: { definition: "Actually rugby , before switching to basketball", what_it_does: "", examples: "two straight games going 12–12 from the line, tying the best single-game mark in franchise history" },
+  after_lakers_co_captain_derek_fisher: "Traded in March 2012, Gasol joined Bryant as co-captains of the team",
+  i_thought_chicago: "Going to be the best fit for me",
+
 };
 
 // ============================================================
