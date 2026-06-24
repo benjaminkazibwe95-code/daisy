@@ -34815,6 +34815,21 @@ const FLAT_DICT = {
   in_the_left_column: "The consonants with their pronunciation instructions",
   blank_cells: { definition: "Bytes whose characters are not yet known", what_it_does: "", examples: "with regard to the representation of infixes, i.e" },
 
+  // === INGESTED 2026-06-24 12:36 ===
+  the_functions_of_a_word_processor_program: "Typically between those of a simple text editor and a desktop publishing program",
+  these_memory_cards: "Inserted into an extra device that accompanied the MT/ST, able to read and record users' work",
+  linolex_systems: "Founded in 1970 by James Lincoln and Robert Oleksiak",
+  lexitron: "The first to use a full-sized video display screen (CRT) in its models by 1978",
+  the_program_disk: "Inserted in one drive, and the system booted up",
+  the_data_diskette: { definition: "Then put in the second drive", what_it_does: "", examples: "medium-sized law firms, and easily mastered and operated by secretarial staff" },
+  cheap_generalpurpose_personal_computers: "Still the domain of hobbyists",
+  their_functions: "Limited to text creation, proofreading, editing, and printing",
+  electric_pencil_ii: "Released shortly after, targeting the CP/M operating system",
+  several_other_word_processing_programs: "Released shortly after, including EasyWriter and WordStar",
+  wordstar: { definition: "Commonly attributed as the first WYSIWYG (what you see is what you get) editor, as the WordStar editor replicated the printed output", what_it_does: "", examples: "WordPerfect in 1979, MultiMate in 1982, and Microsoft Word in 1983" },
+  lexitype: { definition: "Popular with large organizations that had previously used the Lexitron", what_it_does: "", examples: "' killer app ' spreadsheet applications, e.g" },
+  of_particular_interest_also: { definition: "The standardization of TrueType fonts used in both Macintosh and Windows PCs", what_it_does: "", examples: "Microsoft Word, WordPerfect, and Ami Pro" },
+
 };
 
 // ============================================================
