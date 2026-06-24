@@ -30428,6 +30428,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-23 23:59 ===
   these_anecdotes: "Combined with the results of statistical studies to give the reader an understanding of the magnitude that biology plays in athletics",
 
+  // === INGESTED 2026-06-24 00:01 ===
+  the_term_tacit_knowing: "Attributed to Michael Polanyi 's Personal Knowledge (1958)",
+  polanyi_describes_that_many_animals: "Creative, some even have mental representations , but can only possess tacit knowledge",
+  terrains: "Of three kinds: Tacit knowledge has been described as “ know-how ” as opposed to “know-what” ( facts )",
+  the_tacit_aspects_of_knowledge: "Those that cannot be codified, but can only be transmitted via training or gained through personal experience",
+  this_ambiguity: "Common in the knowledge management literature",
+
 };
 
 // ============================================================
