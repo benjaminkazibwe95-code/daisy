@@ -33622,6 +33622,20 @@ const FLAT_DICT = {
   the_survey_found_that_more_satanists: "Raised as Protestant Christians than Catholic",
   the_decentralization_of_the_satanist_movement: { definition: "Considerably accelerated when Anton LaVey disbanded the grotto system in the mid-1970s", what_it_does: "", examples: "most new religious communities" },
 
+  // === INGESTED 2026-06-24 09:08 ===
+  late_antiquity: { definition: "A time period between classical antiquity and the Early Middle Ages", what_it_does: "", examples: "parts of Europe and the Near East" },
+  while_the_exact_start_and_end_dates: { definition: "Debated, [ 3 ] [ 4 ] [ 5 ] the period is often thought to span between 250–750 AD", what_it_does: "", examples: "the Ostrogoths and Visigoths saw themselves as perpetuating the 'Roman' tradition" },
+  rome_itself: "Ruled by the Arian Ostrogothic Kingdom from Ravenna",
+  though_most_of_italy: { definition: "Soon lost to the Kingdom of the Lombards , the Roman Exarchate of Ravenna endured, ensuring the so-called Byzantine Papacy", what_it_does: "", examples: "the timing of Christ's resurrection and its relation to the Passover" },
+  notable_in_this_regard: "The topic of the Fifty Bibles of Constantine",
+  in_europe_there: "Also a general decline in urban populations",
+  the_cities_in_the_east: "Still lively stages for political participation and remained important for background for religious and political disputes",
+  all_of_these_cities: "Founded for military purposes and at least Reccopolis, Victoriacum, and Ologicus in celebration of victory",
+  a_possible_fifth_visigothic_foundation: { definition: "Baiyara (perhaps modern Montoro ), mentioned as founded by Reccared in the 15th-century geographical account, Kitab al-Rawd al-Mitar", what_it_does: "", examples: "Cologne and Trier lived on in diminished form as administrative centres of the Franks" },
+  replacing_them: { definition: "Greater interests in mosaics , architecture, and relief sculpture", what_it_does: "", examples: "Maximinus Thrax ( r" },
+  soon_the_scenes: { definition: "Split into two registers, as in the Dogmatic Sarcophagus (320 to 350) or the Sarcophagus of Junius Bassus of c", what_it_does: "", examples: "Ambrose of Milan , Jerome and Augustine of Hippo are only among the most renowned representatives" },
+  the_first_example_of_this: "The Hexaemeron of Basil of Caesarea , with the first occurrence in Syriac literature being the Hexaemeron of Jacob of Serugh",
+
 };
 
 // ============================================================
