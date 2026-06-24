@@ -34295,6 +34295,33 @@ const FLAT_DICT = {
   the_prevalence_of_the_disease: "Greatly reduced as a result",
   the_resulting_name_niacin: "Derived from ni cotinic ac id + vitam in",
 
+  // === INGESTED 2026-06-24 11:14 ===
+  vanilla: "A common ingredient in Western sweet baked goods , such as cookies and cakes",
+  the_method_proved_financially_unworkable_and: { definition: "Not deployed commercially", what_it_does: "", examples: "parts of modern-day Mexico" },
+  the_cultivation_of_vanilla: "A low-profile affair, as few people from outside these regions knew of it",
+  indonesia_and_madagascar: "The world's largest producers",
+  these_seed_pods: "Roughly one-third of an inch (8.5 mm) by six inches (150 mm), and brownish red to black when ripe",
+  inside_of_these_pods: "An oily liquid full of tiny seeds",
+  planifolia_flowers: "Hermaphroditic : they carry both male ( anther ) and female ( stigma ) organs",
+  the_only_known_way_to_produce_fruits: "Artificial pollination",
+  optimum_temperatures_for_cultivation: "15–30 °C (59–86 °F) during the day and 15–20 °C (59–68 °F) during the night",
+  ideal_humidity: "Around 80%, and under normal greenhouse conditions, it can be achieved by an evaporative cooler",
+  most_successful_vanilla_growing_and_processing: { definition: "Done in the region within 10 to 20° of the equator", what_it_does: "", examples: "vermicompost , oil cakes, poultry manure, and wood ash" },
+  foliar_applications: { definition: "Also good for vanilla, and a solution of 1% NPK (17:17:17) can be sprayed on the plant once a month", what_it_does: "", examples: "banana or hemp" },
+  three_years: "Required for cuttings to grow enough to produce flowers and subsequent pods",
+  a_small_splinter_of_wood_or_a_grass_stem: "Used to lift the rostellum or move the flap upward, so the overhanging anther can be pressed against the stigma and self-pollinate the vine",
+  the_first_flowers_that_open_in_each_raceme: "Usually the only ones that are pollinated, so the resulting beans are similar in age and mature together",
+  development_of_most_diseases: "Favoured by unsuitable growing conditions such as overwatering, insufficient drainage, heavy mulch, overpollination, and too much shade",
+  most_synthetic_vanillin: "A byproduct from the pulp used in papermaking , in which the lignin is broken down using sulfites or sulfates",
+  judging_bean_maturity: "Difficult as they reach full size soon after pollination",
+  overmatured_fruits: "Likely to split, causing a reduction in market value",
+  its_commercial_value: "Fixed based on the length and appearance of the pod",
+  if_the_fruit: "More than 15 cm (5.9 in) in length, it is categorized as first-quality",
+  if_the_fruits: "Between 10 and 15 cm long, pods are in the second-quality category, and fruits less than 10 cm (3.9 in) in length are in the third-quality category",
+  the_processed_fruits: { definition: "Sorted, graded, bundled, and wrapped in paraffin paper and preserved for the development of desired bean qualities, especially flavor and aroma", what_it_does: "", examples: "in the production of vanilla flavoring extract and in the fragrance industry" },
+  a_stronger_aroma_may_be_attained_if_the_pods: { definition: "Split in two, exposing more of a pod's surface area to the liquid", what_it_does: "", examples: "chocolate , custard , caramel , coffee , and others" },
+  ethyl_vanillin: "More expensive, but has a stronger note",
+
 };
 
 // ============================================================
