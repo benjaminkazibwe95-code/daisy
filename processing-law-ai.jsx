@@ -34503,6 +34503,9 @@ const FLAT_DICT = {
   the_combined_portfolio_of_stock_and_option: "Now much less likely to move below a given value",
   as_in_diversification_there: "A cost, this time in buying the option for which there is a premium",
 
+  // === INGESTED 2026-06-24 11:39 ===
+  similar: "The French language expression bon père de famille , used in a sense similar to 'reasonably cautious person.' For example, in the case of Fales v",
+
 };
 
 // ============================================================
