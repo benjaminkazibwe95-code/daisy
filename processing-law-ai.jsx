@@ -33552,6 +33552,24 @@ const FLAT_DICT = {
   wade: { definition: "Overturned in June 2022, Sinema said the decision 'endangers the health and well-being of women in Arizona and across America", what_it_does: "", examples: "a $15/hour minimum wage as part of a COVID-19 relief bill" },
   cnn_said_that_such_positions: "'a contrast from the more moderate profile she has developed since her 2012 election to Congress'",
 
+  // === INGESTED 2026-06-24 08:57 ===
+  the_promotion_of_ijtihad_of_these_movements: "Also accompanied by an emphasis on strict adherence to Qur'an and Hadith",
+  kadzade_and_his_followers: "Determined rivals of Sufism and popular religion",
+  while_these_reformers: { definition: "Critical of various aspects of popular Sufism , they didn't deny Sufism completely", what_it_does: "", examples: "al-Shawkani, Muhammad ibn 'Abd al-Wahhab, etc" },
+  this_secondstage_of_salafiyya: { definition: "Championed by Rashid Rida and his disciples across the Islamic World, advocating a literalist understanding of the Scriptures", what_it_does: "", examples: "Hasan al-Banna (d" },
+  numerous_books_of_the_movement: { definition: "Printed and published through the Islamic Bookstore in Lebanon owned by Zuhayr Shawish", what_it_does: "", examples: "was more uncompromising in his defense of Salafi theology than Rida and al-Qasimi" },
+  conservative_salafis: "Disinterested in getting entangled in the problems and consequences that accompany political activism",
+  their_strategy: "Working within the established order, to achieve the ultimate objective of replacing that order with an Islamic state",
+  practitioners: { definition: "Often referred to as 'Salafi jihadis', 'Salafi jihadists', 'Revolutionary Salafis' or 'armed Salafis'", what_it_does: "", examples: "'more than 1,500 mosques were built from Saudi public funds over the last 50 years') were paid for" },
+  ahli_hadith: "A religious movement that emerged in Northern India in the mid-nineteenth century",
+  siddiq_hasan_khan: "A student of Sadar al-Din Khan (1789–1868) who inturn, had studied under Shah 'Abd al-Azeez and Shah 'Abd al-Qadir, the sons of Shah Waliullah",
+  yemeni_scholars: "Also active in the Bhopal court of Siddiq Hasan Khan, who became a student of Muhaddith 'Abd al-Haqq of Benarus, a disciple of Shawkani in Yemen",
+  their_ideal: { definition: "To lead a pious and ethical life in conformity to the Prophetic example in every aspect of life", what_it_does: "", examples: "the scholars of Saudi Arabia" },
+  the_main_salafi_trends_in_egypt: "Al-Sunna Al-Muhammadeyya Society, The Salafist Calling, al-Madkhaliyya Salafism, Activist Salafism, and al-Gam'eyya Al-Shar'eyya",
+  most_of_the_early_leaders_of_ansar_alsunna: { definition: "Azhari graduates and many of its contemporary scholars studied under Al-Azhar", what_it_does: "", examples: "the Ahl-i Hadith in the Indian subcontinent" },
+  the_most_wellestablished_among_them: { definition: "Ablullah Yolcu, who is said to do 'production of Turkish Salafism from Arabic texts'", what_it_does: "", examples: "Eid Charity and Madid Ahl al-Sham , have a history of financing terrorist groups in Syria" },
+  what_they_had_in_common: { definition: "That both rejected traditional teachings on Islam in favor of direct, 'fundamentalist' reinterpretation", what_it_does: "", examples: "those inspired for example by [ 307 ] Muhammad Abduh or by Muhammad Iqbal" },
+
 };
 
 // ============================================================
