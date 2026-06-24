@@ -32479,6 +32479,17 @@ const FLAT_DICT = {
   what_they_all_have_in_common: "A teleonomic or goal-seeking behaviour that enables them to correct errors of many kinds so as to achieve whatever result they are designed for",
   such_behaviour: "Reminiscent of intelligent action by organisms; intelligence is seen as an embodied form of cognition",
 
+  // === INGESTED 2026-06-24 05:25 ===
+  primary_food_processing: { definition: "Necessary to make most foods edible while secondary food processing turns ingredients into familiar foods, such as bread", what_it_does: "", examples: "raw wheat kernels or livestock, into something that can eventually be eaten" },
+  this_category_includes_ingredients_that: "Produced by ancient processes such as drying , threshing , winnowing and milling grain, shelling nuts , and butchering animals for meat",
+  tertiary_food_processing: { definition: "The commercial production of what is commonly called processed food", what_it_does: "", examples: "the ultra-processed foods category of the Nova classification" },
+  unit_operations_and_unit_processes: "The premise of food processing systems",
+  multiple_unit_operations: { definition: "Often needed to carry out food processing designed to result in physical changes", what_it_does: "", examples: "loss of vitamin C, [ 14 ] can accompany intended physical modifications, e.g" },
+  saltpreservation: { definition: "Especially common for foods that constituted warrior and sailors' diets until the introduction of canning methods", what_it_does: "", examples: "Cornish pasty and Haggis" },
+  processed_foods: { definition: "Usually less susceptible to early spoilage than fresh foods and are better suited for long-distance transportation from the source to the consumer", what_it_does: "", examples: "fresh produce and raw meats, are more likely to harbour pathogenic micro-organisms (e.g" },
+  in_many_families_the_adults: { definition: "Working away from home and therefore there is little time for the preparation of food based on fresh ingredients", what_it_does: "", examples: "heat destroys vitamin C" },
+  processing_foods_often: { definition: "Nutrient losses, which can make it harder to meet the body's needs if these nutrients are not added back through fortification or enrichment", what_it_does: "", examples: "using high heat during processing can cause vitamin C losses" },
+
 };
 
 // ============================================================
