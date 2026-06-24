@@ -31248,6 +31248,38 @@ const FLAT_DICT = {
   several_factors: "Likely involved, including disputes between the Holy Roman Empire and the papacy",
   the_full_title_of_the_digest: "Digestorum seu Pandectarum tomus alter , and it was published by Carolus Guillardus",
 
+  // === INGESTED 2026-06-24 02:10 ===
+  maltese: { definition: "A Semitic language developed from a dialect of Arabic and written in the Latin alphabet", what_it_does: "", examples: "Hausa , Amharic , Tigrinya , Somali , Tamazight , and Swahili" },
+  these_features: "Present to varying degrees inside the Arabian peninsula",
+  it_has_been_argued_that_the_h: { definition: "An archaism and not a shared innovation, and thus unsuitable for language classification, rendering the hypothesis of an ANA language family untenable", what_it_does: "", examples: "Kitāb Al-Munṣif , Kitāb Al-Muḥtasab , and Kitāb Al-Khaṣāʾiṣ [ ar ]" },
+  ahmad_aljallad_proposes_that_there: { definition: "At least two considerably distinct types of Arabic on the eve of the conquests: Northern and Central (Al-Jallad 2009)", what_it_does: "", examples: "sayyārah سَيَّارَة 'automobile' or bākhirah باخِرة 'steamship')" },
+  classical_arabic: { definition: "The language found in the Quran , used from the period of Pre-Islamic Arabia to that of the Abbasid Caliphate", what_it_does: "", examples: "Sibawayh ) and the vocabulary defined in classical dictionaries (such as the Lisān al-ʻArab )" },
+  much_of_the_new_vocabulary: "Used to denote concepts that have arisen in the industrial and post-industrial era , especially in modern times",
+  these_dialects_and_modern_standard_arabic: "Described by some scholars as not mutually comprehensible",
+  an_earlier_tendency: { definition: "To redefine an older word although this has fallen into disuse (e.g", what_it_does: "", examples: "poetry and printed advertising" },
+  tawleed: { definition: "The process of giving a new shade of meaning to an old classical word", what_it_does: "", examples: "al-hatif lexicographically means the one whose sound is heard but whose person remains unseen" },
+  now_the_term_alhatif: { definition: "Used for a telephone", what_it_does: "", examples: "Levantine and Gulf speakers understand each other much better than they do speakers from the Maghreb" },
+  because_the_quran: "Written in Arabic and all Islamic terms are in Arabic, millions [ 85 ] of Muslims (both Arab and non-Arab) study the language",
+  radio_series_of_arabic_language_classes: { definition: "Also provided from some radio stations", what_it_does: "", examples: "Kabyle ), along with Swahili , borrow some numbers from Arabic" },
+  most_islamic_religious_terms: { definition: "Direct borrowings from Arabic, such as صلاة ( ṣalāh ), 'prayer', and إمام ( imām ), 'prayer leader'", what_it_does: "", examples: "most Arabic loanwords in Hindustani and Turkish entered through Persian" },
+  older_arabic_loanwords_in_hausa: "Borrowed from Kanuri",
+  msa: { definition: "Used in writing in formal print media and orally in newscasts, speeches and formal declarations of numerous types", what_it_does: "", examples: "the interdentals /θ, ð/ , and the pharyngeals /ħ, ʕ/ are considered rare cross-linguistically" },
+  the_feminine_singular: "Often marked by ـَة ‎ /-at/, which is pronounced as /-ah/ before a pause",
+  adjectives_in_literary_arabic: "Marked for case, number, gender and state, as for nouns",
+  the_plural_of_all_nonhuman_nouns: "Always combined with a singular feminine adjective, which takes the ـَة ‎ /-at/ suffix",
+  pronouns_in_literary_arabic: "Marked for person, number and gender",
+  enclitic_pronouns: "Attached to the end of a verb, noun or preposition and indicate verbal and prepositional objects or possession of nouns",
+  nonhuman_plural_nouns: "Grammatically considered to be feminine singular",
+  a_verb_in_a_verbinitial_sentence: "Marked as singular regardless of its semantic number when the subject of the verb is explicitly mentioned as a noun",
+  verbs_in_literary_arabic: "Marked for person (first, second, or third), gender, and number",
+  the_past_and_nonpast_paradigms: { definition: "Sometimes termed perfective and imperfective , indicating the fact that they actually represent a combination of tense and aspect", what_it_does: "", examples: "past كَتَبـ ‎ katab- vs" },
+  another_fairly_common_means_of_forming_nouns: "Through one of a limited number of patterns that can be applied directly to roots, such as the 'nouns of location' in ma- (e.g",
+  finally_signs_known_as_tashkil: "Used for short vowels known as harakat and other uses such as final postnasalized or long vowels",
+  the_composition: "Often abstract, but sometimes the writing is shaped into an actual form such as that of an animal",
+  sequences_of_digits_such_as_telephone_numbers: "Read from left to right, but numbers are spoken in the traditional Arabic fashion, with units and tens reversed from the modern English usage",
+  the_major_head_of_this_movement: "Louis Massignon , a French Orientalist, who brought his concern before the Arabic Language Academy in Damascus in 1928",
+  he_also_believed_that_latin_script: "Key to the success of Egypt as it would allow for more advances in science and technology",
+
 };
 
 // ============================================================
