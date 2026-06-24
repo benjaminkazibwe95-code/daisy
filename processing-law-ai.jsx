@@ -30742,6 +30742,20 @@ const FLAT_DICT = {
   a_hereditary_monarchy: { definition: "A form of government and succession of power in which the throne passes from one member of a ruling family to another member of the same family", what_it_does: "", examples: "seniority and tanistry (in which an heir-apparent is nominated from among qualified candidates)" },
   agnatic_succession: "Systems where females are neither allowed to succeed nor to transmit succession rights to their male descendants (as according to the Salic law )",
 
+  // === INGESTED 2026-06-24 00:50 ===
+  rebellion_is_an_uprising_that_resists_and: "Organized against one's government",
+  a_rebel_group: { definition: "A consciously coordinated group that seeks to gain political control over an entire state or a portion of a state", what_it_does: "", examples: "if it had refused to acknowledge its defeat in an election" },
+  social_movements: "Thus determined by an exogenous set of circumstances",
+  her_analysis: "Limited to studying the French, Russian, and Chinese revolutions",
+  his_theory: "Based on the figure of a hyper rational peasant that bases his decision to join (or not) a rebellion uniquely on a cost-benefit analysis",
+  voluntarism: "Thus non-existent in such communities",
+  popkin_argues_that_selective_incentives: "Necessary to overcome this problem",
+  thompson: { definition: "Often cited as being the first to use the term 'moral economy', he said in his 1991 publication that the term had been in use since the 18th century", what_it_does: "", examples: "Popkin has argued that peasants were trying to gain material benefits, such as more food" },
+  scott_finds_that_peasants: { definition: "Mostly in the business of surviving and producing enough to subsist", what_it_does: "", examples: "anger, outrage, and injustice ('grievance') in the roots of rebellions" },
+  the_agency: "Located both within the collective and in the individual, in the universal and the local",
+  rebellions: "'concatenations of multiple and often disparate local cleavages, more or less loosely arranged around the master cleavage'",
+  kalyvas_thus_argues_that_political_conflict: "Not always political in the sense that they cannot be reduced to a certain discourse, decisions, or ideologies from the 'center' of collective action",
+
 };
 
 // ============================================================
