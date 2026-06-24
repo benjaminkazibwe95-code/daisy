@@ -30809,6 +30809,9 @@ const FLAT_DICT = {
   the_lateral_monarch: "Generally elected after the leadership throne becomes vacant",
   where_the_line_of_succession: "Clear, it has sometimes happened that a pretender with a weak or spurious claim but military or political power usurps the throne",
 
+  // === INGESTED 2026-06-24 00:58 ===
+  an_election_commission: { definition: "A body charged with overseeing the implementation of electioneering process of any country", what_it_does: "", examples: "section 190 of the Constitution of South Africa" },
+
 };
 
 // ============================================================
