@@ -31190,6 +31190,22 @@ const FLAT_DICT = {
   as_such_it: { definition: "Inseparable from the national identity", what_it_does: "", examples: "schools, synagogues, and Sabbath worship" },
   the_teimanim_from_yemen: { definition: "Sometimes included, although their style of liturgy is unique and they differ in respect to the admixture found among them to that found in Mizrahim", what_it_does: "", examples: "the United States , Canada , Argentina , Australia , Brazil , and Uruguay" },
 
+  // === INGESTED 2026-06-24 02:01 ===
+  the_king_of_the_two_sicilies: "Overthrown by Giuseppe Garibaldi in 1860, after which the people voted in a plebiscite to join the Kingdom of Sardinia",
+  the_old_normanstaufer_kingdom: { definition: "Since then – despite mutual claims to power – effectively divided into the Aragonese Kingdom of Sicily and the Kingdom of Naples ruled by the Angevins", what_it_does: "", examples: "some reforms to their civil code, the penal and commercial code, were kept (and extended to Sicily)" },
+  lawlessness_in_the_countryside: { definition: "Aggravated by the problem of administrative corruption", what_it_does: "", examples: "reduction of taxation" },
+  conditions: "So bad that they caused international attention; in 1856 Britain and France demanded the release of the political prisoners",
+  the_real_marina: "The kingdom's naval force",
+  a_major_problem: "The distribution of land property: most of it concentrated in the hands of a few families, the landed nobility",
+  the_engineering_factory_of_pietrarsa: "The largest industrial plant in the Italian peninsula, [ 36 ] producing tools, cannons , rails, and locomotives",
+  the_reali_ferriere_ed_officine_di_mongiana: "An iron foundry and weapons factory",
+  the_sicilian_mines: "Able to satisfy most of the global demand for sulfur",
+  silk_cloth_production: "Focused in San Leucio (near Caserta )",
+  food_processing: "Widespread, especially near Naples ( Torre Annunziata and Gragnano )",
+  a_peaceful_solution: "Eventually negotiated by France",
+  efforts: "Made to tackle the tough mountainous terrain; Ferdinand II built the cliff-top road along the Sorrentine peninsula",
+  the_peninsula: "Divided into fifteen departments [ 58 ] [ 59 ] and Sicily was divided into seven departments",
+
 };
 
 // ============================================================
