@@ -30478,6 +30478,9 @@ const FLAT_DICT = {
   proponents_of_neurotheology_claim_that_there: "A neurological and evolutionary basis for subjective experiences traditionally categorized as spiritual or religious",
   these_religious_experiences: "Thereby emergent properties of neural correlates",
 
+  // === INGESTED 2026-06-24 00:12 ===
+  metaknowledge_or_metaknowledge: "Knowledge about knowledge",
+
 };
 
 // ============================================================
