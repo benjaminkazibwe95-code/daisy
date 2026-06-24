@@ -35435,6 +35435,14 @@ const FLAT_DICT = {
   after_lakers_co_captain_derek_fisher: "Traded in March 2012, Gasol joined Bryant as co-captains of the team",
   i_thought_chicago: "Going to be the best fit for me",
 
+  // === INGESTED 2026-06-24 14:44 ===
+  man_to_man_offense: "Commonly referred to as man offense, and as the name implies, the player is matched up with their checks (defender)",
+  motion_offenses: "Governed by a set of rules which have everyone in motion",
+  continuity_offense: "A pattern of movements and passes, which eveads back to the starting formation, and the play can repeat itself again",
+  man_to_man_defense: "Where the defender follows their check (offensive player) through their movement on the court",
+  any_number_that: "In the 20s is half-court",
+  the_packline_defense: "Created by former college coach Dick Bennett while serving at Green Bay using principles from several other man-to-man systems",
+
 };
 
 // ============================================================
