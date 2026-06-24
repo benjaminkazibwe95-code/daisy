@@ -33302,6 +33302,12 @@ const FLAT_DICT = {
   consider_the_formal_sentence_this: { definition: "A single statement using existential quantification", what_it_does: "", examples: "the real numbers" },
   logical_conjunctions: "Used to restrict the domain of discourse to fulfill a given predicate",
 
+  // === INGESTED 2026-06-24 08:00 ===
+  a_large_cardinal_axiom: "An axiom stating that there exists a cardinal (or perhaps many of them) with some specified large cardinal property",
+  if_zfc: "Consistent , then ZFC does not imply that any such large cardinals exist",
+  the_observation_that_large_cardinal_axioms: { definition: "Linearly ordered by consistency strength is just that: an observation, not a theorem", what_it_does: "", examples: "Martin's axiom ) or others that they consider intuitively unlikely (such as V = L )" },
+  this_point_of_view_is_by_no: "Universal among set theorists",
+
 };
 
 // ============================================================
