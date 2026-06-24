@@ -31500,6 +31500,25 @@ const FLAT_DICT = {
   hydrogen_fuel_cells: { definition: "About a third as efficient as batteries and double the efficiency of petrol vehicles", what_it_does: "", examples: "ethanol contains less energy, more 'tankstops' might be necessary for such planes" },
   former_fossil_fuel_exporters: "Expected to lose power, while the positions of former fossil fuel importers and countries rich in renewable energy resources is expected to strengthen",
 
+  // === INGESTED 2026-06-24 02:49 ===
+  a_heat_wave: "Usually measured relative to the usual climate in the area and to normal temperatures for the season",
+  in_the_same_period_the_minimum_temperature: "26 °C (79 °F) or more",
+  a_heat_storm: "A Californian term for an extended heat wave",
+  the_high_pressure_area: "On the equator side of the jet stream in the upper layers of the atmosphere",
+  weather_patterns: "Generally slower to change in summer than in winter",
+  one_of_the_main_mechanisms: "Reduced evaporative cooling of the atmosphere",
+  if_the_soil: "Very dry, then incoming radiation from the sun will warm the air",
+  heat_waves: "More likely to occur simultaneously with droughts",
+  marine_heatwaves: "Twice as likely as they were in 1980",
+  extreme_heat: { definition: "Also linked to acute kidney injury , low quality sleep , [ 55 ] [ 56 ] and complications with pregnancy", what_it_does: "", examples: "low birth weight and pre-term birth" },
+  in_some_heat_waves_there: "A decrease in overall mortality in the weeks after a heat wave",
+  livestock_mortality_rates: { definition: "Already known to be higher during the hottest months of the year, as well as during heatwaves", what_it_does: "", examples: "reduced milk production" },
+  one_examples: { definition: "Ketosis , or the rapid accumulation of ketone bodies, caused by the animal's body rapidly catabolizing its fat stores to sustain itself", what_it_does: "", examples: "when electrical transformers in northern California caught fire due to inadequate cooling" },
+  because_hot_air: "Able to carry more moisture, heatwaves may be followed by extreme rainfall especially in mid-latitude regions",
+  species_have_a_thermal_range_of_tolerance_that: "The temperatures where they perform best",
+  temperature_conditions_that: { definition: "Outside of this range may experience decreased fitness and the inability to reproduce", what_it_does: "", examples: "coral and kelp" },
+  a_study_found_the_average_resident_in_china: "Exposed to 16 days of heat waves in 2023, with more than 37,000 heat wave-related deaths",
+
 };
 
 // ============================================================
