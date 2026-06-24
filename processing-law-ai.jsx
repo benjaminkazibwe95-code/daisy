@@ -35389,6 +35389,9 @@ const FLAT_DICT = {
   onscreen_text_and_graphics: { definition: "Shown in HDTV for the first time ever", what_it_does: "", examples: "the deadly 1991 Vic bombing" },
   the_official_mascot: "Cobi, a Catalan sheepdog in cubist style designed by Javier Mariscal",
 
+  // === INGESTED 2026-06-24 14:29 ===
+  this_glossary_of_basketball_terms: "A list of definitions of terms used in the game of basketball",
+
 };
 
 // ============================================================
