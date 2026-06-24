@@ -35264,6 +35264,18 @@ const FLAT_DICT = {
   for_state_occasions_when_the_monarch: "Present, the Lord Mayor wears a crimson velvet robe of state trimmed with an ermine cape and facings, similar to a royal earl's coronation robe",
   a_plain_black_gown: "Worn by the Lord Mayor in times of national mourning",
 
+  // === INGESTED 2026-06-24 14:08 ===
+  royal_shrovetide_football: "A ' medieval football ' game played annually on Shrove Tuesday and Ash Wednesday in the town of Ashbourne in Derbyshire , England",
+  these_influences: "Available to a Catholic Church Clergy familiar with native customs and educated in Latin when a ball game was introduced to Shrovetide festivities",
+  the_two_teams_that_play_the_game: "Known as the Up'Ards and the Down'Ards (local dialect for 'upwards and downwards')",
+  when_a_ball: "'goaled' that particular game ends",
+  thus_shops_in_the_town: "Boarded up during the game, and people are encouraged to park their cars away from the main streets",
+  before_the_ball: "Turned-up, the assembled crowd sing ' Auld Lang Syne ' followed by ' God Save the King '",
+  a_timber_post_salvaged_from_the_mill: "Erected on the site of the old mill to act as a goal for the Up'Ards",
+  once_a_ball_is_goaled_it: "Repainted with the name and in the design of the scorer and is theirs to keep",
+  if_a_ball_is_not_goaled_it: "Repainted in the design of the dignitary that turned it up and given back to them to keep",
+  even_during_both_world_wars_the_games: "Played; indeed, the Ashbourne Regiment even played a version of the game in the German trenches during the First World War",
+
 };
 
 // ============================================================
