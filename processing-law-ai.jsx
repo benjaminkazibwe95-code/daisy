@@ -34894,6 +34894,19 @@ const FLAT_DICT = {
   some_early_semitic_languages: "Speculated to have had weak ergative features",
   the_root_lbn: "'milk' in Arabic, but the color 'white' in Hebrew",
 
+  // === INGESTED 2026-06-24 12:51 ===
+  a_morpheme: { definition: "The smallest meaningful constituent of a linguistic expression, especially within a word", what_it_does: "", examples: "cat inside the word cats ), which can be bound or free" },
+  the_main_difference_between_them: "Their function in relation to words",
+  allomorphs: "Variants of a morpheme that differ in form but are semantically similar",
+  an_allomorph: "A concrete realization of a morpheme, which is an abstract unit",
+  a_zeromorpheme: "A type of morpheme that carries semantic meaning, but is not realized in speech",
+  a_word_with_a_zeromorpheme: "Analyzed as having the morpheme for grammatical purposes, but the morpheme is not realized in speech",
+  the_intended_meaning: { definition: "Thus derived from the co-occurrence determiner (in this case, 'some-' or 'a-')", what_it_does: "", examples: "the morphemes fast and sad can be considered content morphemes" },
+  any_additional_affixes: { definition: "Considered morphemes", what_it_does: "", examples: "in the word quirkiness , the root is quirk , but the stem is quirky , which has two morphemes" },
+  both_meaning_and_form: "Equally important for the identification of morphemes",
+  an_agent_morpheme: "An affix like -er that in English transforms a verb into an agent noun (e.g",
+  an_example_idiom: { definition: "'Don't let the cat out of the bag'", what_it_does: "", examples: "'in view of' and 'business intelligence' in which the words, when together, have a specific meaning" },
+
 };
 
 // ============================================================
