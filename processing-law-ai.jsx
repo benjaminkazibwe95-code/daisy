@@ -32125,6 +32125,15 @@ const FLAT_DICT = {
   the_poisonous_filtrate_water: "Boiled to release the hydrogen cyanide, and used as a base for stews",
   the_roots: "Then dried or cooked",
 
+  // === INGESTED 2026-06-24 04:20 ===
+  our_main_tenets: { definition: "Ecology and sustainability, democracy and human rights, self-determination and justice", what_it_does: "", examples: "some prominent intellectuals of trying to design Turkish politics" },
+  the_foundation_claims_that_its_headquarters: "In the 'ecological vanguard' of modern office and conference centre design",
+  even_when_the_temperature_outside: "Over 30 °C, the room temperature does not rise above 25°",
+  projects_overseen_by_individual_offices: "Frequently not limited to the country where an office is located as many have regional responsibilities",
+  the_very_first_office: "The one in Prague, which opened its doors in August 1990",
+  scholarships: "Available for all academic disciplines, with around 1000 scholarships per year",
+  the_prize: "Endowed with €10,000",
+
 };
 
 // ============================================================
