@@ -34032,6 +34032,15 @@ const FLAT_DICT = {
   mouse_bungees: "Typically used with gaming mice because it eliminates the annoyance of the cable",
   a_mouse: "Also released for the Nintendo 64 , although it was only released in Japan",
 
+  // === INGESTED 2026-06-24 10:21 ===
+  environmental_communication: { definition: "'the dissemination of information and the implementation of communication practices that are related to the environment", what_it_does: "", examples: "the creation of the journal of environmental communication in 2007" },
+  the_environmental_movement: { definition: "Ignited by a spark from a writer’s pen, or more specifically and accurately, Rachel Carson ’s typewriter", what_it_does: "", examples: "“Green Websites” have emerged for helping to tackle this issue" },
+  environmental_human_communication: { definition: "Constitutive because it helps shape human understanding of environmental issues , themselves, and nature", what_it_does: "", examples: "values, attitudes, and ideologies regarding nature and environmental issues" },
+  the_biologists: "'starting to unravel a long-standing mystery about how different parts of a plant communicate with one another",
+  they_are_called_critical_because_they: "Necessary for the survival of the living system",
+  robert_cox: "A leader in the discipline of environmental communication and its role in the public sphere",
+  though_this: "A broad topic, a key aspect of successful environmental campaigns is the language used in campaign material",
+
 };
 
 // ============================================================
