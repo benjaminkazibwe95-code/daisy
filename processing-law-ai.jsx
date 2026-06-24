@@ -34761,6 +34761,11 @@ const FLAT_DICT = {
   the_types_of_engineering_that: "Less constrained by such a funding source, are pro bono , and open-design engineering",
   these_initiatives: "Typically sponsored by C-level executives",
 
+  // === INGESTED 2026-06-24 12:23 ===
+  his_ancestors: "Of German , Swedish and Norwegian descent",
+  engelbart_later_revealed_that_it: "Nicknamed the 'mouse' because the tail came out the end",
+  some_years_later_it: "Learned that they had licensed it to Apple Computer for something like $40,000",
+
 };
 
 // ============================================================
