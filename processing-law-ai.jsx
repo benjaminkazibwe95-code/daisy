@@ -31569,6 +31569,9 @@ const FLAT_DICT = {
   which_means_that_these_areas: "Not being monitored as they should and the protection is not working",
   an_example_given: "That the average protection of 8.4% in biodiversity hotspots",
 
+  // === INGESTED 2026-06-24 03:02 ===
+  this_pagebypage_navigation: { definition: "Produced long before Amazon's Look Inside, or Google's Book Search", what_it_does: "", examples: "improving professional practice, informing personal decisions, and general learning" },
+
 };
 
 // ============================================================
