@@ -34283,6 +34283,18 @@ const FLAT_DICT = {
   meat_and_fish: "The most common smoked foods, though cheeses, vegetables, nuts, and ingredients used to make beverages such as beer or smoked beer are also smoked",
   the_term_barbecue: "Also used to designate a flavor added to food items, the most prominent of which are potato chips",
 
+  // === INGESTED 2026-06-24 11:12 ===
+  the_symptoms: "Similar to pellagra, including red, scaly rash and sensitivity to sunlight",
+  oral_nicotinic_acid_or_nicotinamide: { definition: "Given as a treatment for this condition in doses ranging from 50 to 100 mg twice a day, with a good prognosis if identified and treated early", what_it_does: "", examples: "those pregnant or lactating), men and children the PRI is 1.6 mg per megajoule" },
+  as_the_conversion: "1 MJ = 239 kcal, an adult consuming 2390 kilocalories should be consuming 16 mg niacin",
+  this_is_because_the_amino_acid: "Utilized to synthesize the vitamin",
+  niacin: { definition: "Found in a variety of whole and processed foods , including fortified packaged foods , meat from various animal sources, seafoods , and spices", what_it_does: "", examples: "wheat flour have niacin added, which is bioavailable" },
+  the_colormetric_method: { definition: "The König reaction with cyanogen bromide and can detect both the acid and the amide", what_it_does: "", examples: "Lactobacillus plantarum , and measures the extent of its growth" },
+  an_emerging_method: "Isotope dilution mass spectrometry using deuterated nicotinic acid",
+  a_disease_that: "Characterized by dermatitis of sunlight-exposed skin was described in Spain in 1735 by Gaspar Casal",
+  the_prevalence_of_the_disease: "Greatly reduced as a result",
+  the_resulting_name_niacin: "Derived from ni cotinic ac id + vitam in",
+
 };
 
 // ============================================================
