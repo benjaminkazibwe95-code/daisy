@@ -32261,6 +32261,11 @@ const FLAT_DICT = {
   this_was_a_time_when_the_warehouse: "Pushing to enter the grocery business",
   the_stores: { definition: "Supplied daily from their centralised island warehousing", what_it_does: "", examples: "45 Auckland stores" },
 
+  // === INGESTED 2026-06-24 04:51 ===
+  the_apex_predator_concept: { definition: "Applied in wildlife management , conservation , and ecotourism", what_it_does: "", examples: "Anomalocaris and Timorebestia dominated the seas" },
+  anomalocaris: "An aquatic apex predator, in the Cambrian",
+  its_mouthparts: { definition: "Clearly predatory, and there were no larger animals in the seas at that time", what_it_does: "", examples: "deer and wolves" },
+
 };
 
 // ============================================================
