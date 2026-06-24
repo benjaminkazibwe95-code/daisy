@@ -31582,6 +31582,9 @@ const FLAT_DICT = {
   unemployment_in_the_county: "Just under 7% which is considerably lower than the state's average",
   the_population_ranking_of_the_following_table: "Based on the 2020 census of Placer County",
 
+  // === INGESTED 2026-06-24 03:08 ===
+  a_web_shell: { definition: "A shell-like interface that facilitates remote access to a web server , commonly exploited for cyberattacks", what_it_does: "", examples: "Active Server Pages , ASP.NET , Python , Perl , Ruby , and Unix shell scripts, are also employed" },
+
 };
 
 // ============================================================
