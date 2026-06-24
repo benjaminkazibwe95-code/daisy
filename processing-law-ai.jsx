@@ -33518,6 +33518,12 @@ const FLAT_DICT = {
   since_the_biv: { definition: "Dis embodied, it follows that it does not have similar biology to that of an embodied brain", what_it_does: "", examples: "Uriah Kriegel, [ 11 ] Colin McGinn , [ 12 ] and Robert D" },
   putnam: "This relationship as a 'causal connection' which is sometimes referred to as 'a causal constraint'",
 
+  // === INGESTED 2026-06-24 08:46 ===
+  its_subclass: "Sociology of scientific knowledge",
+  its_complement: { definition: "The sociology of scientific ignorance", what_it_does: "", examples: "space and time) used in logical thought have a sociological origin" },
+  vico: "Primarily unknown in his own time",
+  this_is_the_idea_that_certain_things: "True only in certain times and places (a view influenced by pragmatism ) however, this does not make them less true",
+
 };
 
 // ============================================================
