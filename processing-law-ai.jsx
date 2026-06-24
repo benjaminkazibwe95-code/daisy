@@ -32266,6 +32266,28 @@ const FLAT_DICT = {
   anomalocaris: "An aquatic apex predator, in the Cambrian",
   its_mouthparts: { definition: "Clearly predatory, and there were no larger animals in the seas at that time", what_it_does: "", examples: "deer and wolves" },
 
+  // === INGESTED 2026-06-24 04:53 ===
+  low_levels_in_early_pregnancy: { definition: "Believed to be the cause of more than half of babies born with NTDs", what_it_does: "", examples: "folic acid" },
+  folate: "Important for cells and tissues that divide rapidly",
+  the_antifolate_drug_methotrexate: { definition: "Often used to treat cancer because it inhibits the production of the active tetrahydrofolate (THF) from the inactive dihydrofolate (DHF)", what_it_does: "", examples: "inflammation in the digestive tract that make eating normally more difficult" },
+  the_amount_of_folate_given: "Quickly depleted by rapidly dividing (cancer) cells, so this does not negate the effects of methotrexate",
+  elevated_plasma_homocysteine_and_low_folate: { definition: "Associated with cognitive impairment, dementia and Alzheimer's disease", what_it_does: "", examples: "that of dopamine and serotonin" },
+  a_secondary_folate_transporter: "The reduced folate carrier (RFC), coded for by the SLC19A1 gene",
+  production_of_the_receptor_proteins: "Increased in times of folate deficiency",
+  when_pharmacological_amounts_of_folate: "Taken as a dietary supplement, absorption also takes place by a passive diffusion-like process",
+  fecal_content_includes_what: { definition: "Synthesized by intestinal microflora", what_it_does: "", examples: "humans, cannot synthesize (produce) folate and therefore must obtain folate from their diet" },
+  pterin: "In turn derived in a series of enzymatically catalyzed steps from guanosine triphosphate (GTP), while PABA is a product of the shikimate pathway",
+  formyl_folate: "Required for two of the steps in the biosynthesis of inosine monophosphate , the precursor to GMP and AMP",
+  the_conversion: "Catalyzed by thymidylate synthase",
+  one_dfe: "Defined as 1 μg of dietary folate",
+  ai_and_ul: "Defined the same as in the United States",
+  pri_for_pregnancy: { definition: "600 μg/day, for lactation 500 μg/day", what_it_does: "", examples: "phenytoin, sulfasalazine , or trimethoprim-sulfamethoxazole)" },
+  this_treatment: "Very successful in replenishing tissues, even if deficiency was caused by malabsorption",
+  the_most_commonly_fortified_food: "Wheat flour, followed by maize flour and rice",
+  it_is_used_as_it: "More stable during processing and storage",
+  the_requirement: "Set at 135 μg of folate per 100 g of bread",
+  some_results: "Reported as What We Eat In America",
+
 };
 
 // ============================================================
