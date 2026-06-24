@@ -30738,6 +30738,10 @@ const FLAT_DICT = {
   constitutional_provisions_for_government: "Suspended in these states; constitutional forms of government are stated in parentheses",
   states_in_which_most_power: "Exercised by the central government",
 
+  // === INGESTED 2026-06-24 00:48 ===
+  a_hereditary_monarchy: { definition: "A form of government and succession of power in which the throne passes from one member of a ruling family to another member of the same family", what_it_does: "", examples: "seniority and tanistry (in which an heir-apparent is nominated from among qualified candidates)" },
+  agnatic_succession: "Systems where females are neither allowed to succeed nor to transmit succession rights to their male descendants (as according to the Salic law )",
+
 };
 
 // ============================================================
