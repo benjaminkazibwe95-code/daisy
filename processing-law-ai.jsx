@@ -34466,6 +34466,10 @@ const FLAT_DICT = {
   a_savings_account: { definition: "A bank account at a retail bank", what_it_does: "", examples: "a safe place to hold their cash" },
   savings_accounts: "Very popular in India, and almost 80% of the population have one, with many having multiple savings accounts",
 
+  // === INGESTED 2026-06-24 11:31 ===
+  jen_bergstrom: "The Senior Vice President and Publisher",
+  louise_burke: { definition: "Named executive vice-president and publisher while Jennifer Bergstrom, who had been publisher of SSE, would be editor-in-chief", what_it_does: "", examples: "Candice Carty-Williams , Kristen Roupenian , Andrew MacDonald, and Iain Reid" },
+
 };
 
 // ============================================================
