@@ -34120,6 +34120,10 @@ const FLAT_DICT = {
   our_society: { definition: "Now reliant on information power as knowledge for influence, decision making, credibility, and control", what_it_does: "", examples: "hints or suggestions" },
   power_tactics: "Different strategies used to influence others, typically to gain a particular advantage or objective",
 
+  // === INGESTED 2026-06-24 10:38 ===
+  elite_theory: "The sociological or political science analysis of elite influence in society: elite theorists regard pluralism as a utopian ideal",
+  elitism: "Closely related to social class and what sociologists term ' social stratification '",
+
 };
 
 // ============================================================
