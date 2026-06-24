@@ -33120,6 +33120,12 @@ const FLAT_DICT = {
   the_scarcity_economy: "Characterized by the impossibility of sharing the goods",
   the_interests_of_agents: "Thus, generally, clearly separated",
 
+  // === INGESTED 2026-06-24 07:31 ===
+  the_most_famous_of_these: "An enumeration of the 613 commandments by Maimonides",
+  while_the_total_number_of_commandments: "613, no individual can perform all of them",
+  the_sum_of_all_these_numbers: { definition: "613, reflecting the concept that tzitzit reminds its wearer of all Torah commandments", what_it_does: "", examples: "Ben Azzai held that there exist 300 positive mitzvot" },
+  some_rabbis_declared_that_this_count: { definition: "Not an authentic tradition, or that it was not logically possible to come up with a systematic count", what_it_does: "", examples: "the Shulkhan Arukh and the Kitzur Shulkhan Arukh do not refer to it" },
+
 };
 
 // ============================================================
