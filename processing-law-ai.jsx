@@ -32028,6 +32028,13 @@ const FLAT_DICT = {
   a_true_cognate_of_much: { definition: "The archaic Spanish maño 'big'", what_it_does: "", examples: "the etymon of both Welsh ceffyl and Irish capall is the Proto-Celtic * kaballos (all meaning horse )" },
   a_root: { definition: "The source of related words within a single language (no language barrier is crossed)", what_it_does: "", examples: "suffixes, prefixes, and slight changes to the vowels or to the consonants of the root word" },
 
+  // === INGESTED 2026-06-24 04:03 ===
+  this_high_rate_of_warming: "Caused by a combination of greenhouse gas emissions being at an all-time high of 53.6±5",
+  carbon_dioxide_levels: "Now higher than they have been for three million years",
+  the_upper_atmosphere: { definition: "Also shrinking as the result", what_it_does: "", examples: "methane has a GWP over 20 years (GWP-20) of 81" },
+  the_annual_airborne_fraction: { definition: "The ratio of the atmospheric increase in a given year to that year's total emissions", what_it_does: "", examples: "fossil fuel extraction" },
+  the_term_greenhouse: "First applied to this phenomenon by Nils Gustaf Ekholm in 1901",
+
 };
 
 // ============================================================
