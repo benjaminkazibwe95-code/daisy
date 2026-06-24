@@ -34079,6 +34079,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 10:27 ===
   one_of_his_focuses: "The study of success and failure in groups and in individuals",
 
+  // === INGESTED 2026-06-24 10:32 ===
+  hogg: "Born in 1954 in Calcutta , India, where his parents (his father was Scottish, his mother English and Welsh) were employed at the time of his birth",
+
 };
 
 // ============================================================
