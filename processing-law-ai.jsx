@@ -31470,6 +31470,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 02:43 ===
   the_first_working_group_report: { definition: "Published in 2013 and the rest were completed in 2014", what_it_does: "", examples: "meteorology , physics, oceanography, statistics, engineering, ecology, social sciences and economics" },
 
+  // === INGESTED 2026-06-24 02:45 ===
+  an_atmosphere: "A layer of gases that envelop an astronomical object , held in place by the gravity of the object",
+  the_further_a_body: { definition: "From the Sun, the lower the rate of atmospheric stripping", what_it_does: "", examples: "HD 209458 b and Kepler-7b" },
+  the_protostar: "Created at the central mass concentration, while the planets and satellites are formed in the disk through a process of accretion",
+  masses_of_gas: { definition: "Then acquired from the surrounding disk nebula, forming a gas giant around the embryo", what_it_does: "", examples: "a star with the mass of the Sun will spend 3 × 10 7 years contracting" },
+  instead_the_atmosphere: "Maintained in hydrostatic equilibrium by intense pressure deep in the body",
+  the_first_such_detection: "In 2002, when sodium was detected in the atmosphere of HD 209458b , [ 16 ] a gas giant with a close orbit around a star in the constellation Pegasus",
+  its_atmosphere: { definition: "Heated to temperatures over 1,000 K, and is steadily escaping into space", what_it_does: "", examples: "sodium, potassium, oxygen, and silicon oxide" },
+  the_incoming_energy: { definition: "Determined by the distance from the Sun, and the energy reflected back out by the planetary albedo", what_it_does: "", examples: "Venus has a surface temperature of almost 460 C compared to an equilibrium temperature of −40 C" },
+  the_homopause: "At an altitude of 100–110 km for the Earth, 115–130 km for Mars, and 135–150 km for Venus",
+  the_ionospheres_for_mars_and_venus: "Closer to the surface and are less dense than on the Earth",
+  gas_giants: "Primarily composed of hydrogen and helium with traces of other elements, giving the planets a low bulk density",
+  one_difference_for_uranus_and_neptune: "That hydrogen sulfide (H 2 S) mixes at the same level as the condensed ammonia",
+  on_planets_where_the_primary_heat_source: "Solar radiation, excess heat in the tropics is transported to higher latitudes",
+  mars: "Similar to the Earth in this respect, but it displays greater seasonality due to its thinner atmosphere",
+
 };
 
 // ============================================================
