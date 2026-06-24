@@ -34984,6 +34984,23 @@ const FLAT_DICT = {
   this_exercise: "In the form of advocacy of a proposed law or opposition of it",
   because_this_exercise: "An introduction to argument in the philosophical schools, the use of thesis was not performed until first completing all previous exercises",
 
+  // === INGESTED 2026-06-24 13:03 ===
+  idealism: "Also more recently critiqued in the works of Australian philosopher David Stove , [ 106 ] and by Alan Musgrave , [ 107 ] and John Searle",
+  platonic_idealism_affirms_that_ideal_forms: "More basic to reality than the things we perceive, while subjective idealists and phenomenalists privilege sensory experiences",
+  a_common_distinction: { definition: "Between subjective and objective forms of idealism", what_it_does: "", examples: "quarks and photons )" },
+  the_most_influential_advaita_philosopher: "Ādi Śaṅkara (788–820)",
+  this_reality: "Independent, self-established, irreducible, immutable, and free of space, time, and causation",
+  their_arguments: { definition: "A lively subject of debate for Buddhist and non-Buddhist philosophers in India for centuries", what_it_does: "", examples: "Huayan , Tiantai , Pure Land , and Zen" },
+  if_something: "Mind independent, then it must be completely different from ideas",
+  this_means_even_time_and_space: "Not properties of things in themselves (i.e",
+  intuition: { definition: "Possible; if the object ([e.g", what_it_does: "", examples: "Karl Leonhard Reinhold and Jakob Sigismund Beck" },
+  hegel_argues_that_if_knowledge: "Possible, real objects must also have a similar structure as thought (without, however, being reduced to thoughts)",
+  the_best_we_can_hope_for: "To deny and try to escape (however briefly) the incessant force of the Will, through art, aesthetic experience , asceticism , and compassion",
+  many_angloamerican_idealists: "Influenced by Hegelianism , but they also drew on Kant, Plato and Aristotle",
+  its_contents: { definition: "Nothing but sentient experience", what_it_does: "", examples: "science, morality, and philosophy" },
+  spirits_on_the_other_hand: "True infinitely divisible substances",
+  rothman_has_written_that_idealism: "Incompatible with science and is not considered an empirical system of knowledge unlike realism which is pragmatical and makes testable predictions",
+
 };
 
 // ============================================================
