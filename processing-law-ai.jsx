@@ -31350,6 +31350,31 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 02:26 ===
   entitlement_theory: "Based on John Locke 's ideas",
 
+  // === INGESTED 2026-06-24 02:30 ===
+  the_book_of_psalms: { definition: "Divided into five sections, each closing with a doxology (i.e., a benediction )", what_it_does: "", examples: "such statements as 'with stringed instruments' and 'according to lilies'" },
+  psalms: "Inserted in Requiem compositions, such as Psalm 126 in A German Requiem of Johannes Brahms and Psalms 130 and 23 in John Rutter 's Requiem",
+  the_hebrew_text: "Correct in counting as one Psalm 146 and Psalm 147",
+  the_two_strophes_and_the_epode: "Psalm 14; the two antistrophes are Psalm 70",
+  other_such_duplicated_portions_of_psalms: "Psalm 108:2–6 = Psalm 57:8–12; Psalm 108:7–14 = Psalm 60:7–14; Psalm 71:1–3 = Psalm 31:2–4",
+  two_subcategories: { definition: "'enthronement psalms' celebrating the enthronement of Yahweh as king, and 'Zion psalms' glorifying Mount Zion , God's dwelling-place in Jerusalem", what_it_does: "", examples: "various Ugaritic texts and the Babylonian Enūma Eliš" },
+  he_concluded_that_the_collection: "Redacted to be a retrospective of the failure of the Davidic covenant , exhorting Israel to trust in God alone in a non-messianic future",
+  fragments_of_temple_psalmody: { definition: "Preserved in ancient synagogue and church chant, particularly in the tonus peregrinus melody to Psalm 114", what_it_does: "", examples: "the Babylonian and Palestinian systems" },
+  most_notable_of_these: "Psalm 142 which is sometimes called the 'Maskil of David'; others include Psalm 32 and Psalm 78",
+  the_reading_of_psalms: "Viewed in Jewish tradition as a vehicle for gaining God's favor",
+  some_songs: { definition: "Entirely based on a particular psalm or psalms, and many quote directly from the Book of Psalms (and other parts of the Bible)", what_it_does: "", examples: "the services of the Hours and the Divine Liturgy" },
+  fragments_of_psalms_and_individual_verses: "Used as Prokimena (introductions to Scriptural readings) and Stichera",
+  the_entire_book_of_psalms: "Traditionally read aloud or chanted at the side of the deceased during the time leading up to the funeral, mirroring Jewish tradition",
+  the_liturgy_of_the_hours: { definition: "Centered on chanting or recitation of the Psalms, using fixed melodic formulas known as psalm tones", what_it_does: "", examples: "129/130, for prayer in his devotional books" },
+  bishop_challoner: { definition: "Also noted for revising the Douay–Rheims Bible , and the translations he used in his devotional books are taken from this work", what_it_does: "", examples: "the Benedictines of St Maur [ 99 ] ) following individual arrangements" },
+  official_approval: "Also given to other arrangements [ Notes 1 ] by which the complete Psalter is recited in a one-week or two-week cycle",
+  these_vernacular_translations_of_the_psalms: "Arranged into rhyming strict- metre verses, known as metrical psalms and used for congregational singing",
+  the_metrical_psalms: { definition: "Particularly popular in the Calvinist tradition, where in the past they were often sung to the exclusion of other hymns ( exclusive psalmody )", what_it_does: "", examples: "Louis Bourgeois and a certain Maistre Pierre" },
+  among_famous_hymn_settings_of_the_psalter: "The Scottish Psalter and the paraphrases by Isaac Watts",
+  the_first_book_printed_in_north_america: "A collection of Psalm settings, the Bay Psalm Book (1640)",
+  metrical_psalms: "Still widely sung in many Reformed congregations",
+  anglican_chant: { definition: "A method of singing prose versions of the Psalms", what_it_does: "", examples: "those by Claudio Monteverdi , Antonio Vivaldi , Marc-Antoine Charpentier (84 settings H.149 – H" },
+  one_of_the_better_known_examples: "Gregorio Allegri's Miserere mei , a falsobordone setting of Psalm 51 ('Have mercy upon me, O God')",
+
 };
 
 // ============================================================
