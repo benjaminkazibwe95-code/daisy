@@ -34041,6 +34041,17 @@ const FLAT_DICT = {
   robert_cox: "A leader in the discipline of environmental communication and its role in the public sphere",
   though_this: "A broad topic, a key aspect of successful environmental campaigns is the language used in campaign material",
 
+  // === INGESTED 2026-06-24 10:23 ===
+  a_word: { definition: "A basic element of language that carries meaning , can be used on its own, and is uninterruptible", what_it_does: "", examples: "based on phonological , grammatical or orthographic basis" },
+  others_suggest_that_the_concept: { definition: "Simply a convention used in everyday situations", what_it_does: "", examples: "'rock', 'god', 'type', 'writ', 'can', 'not') and possibly some affixes ('-s', 'un-', '-ly', '-ness')" },
+  the_lexeme_teapot: "The singular teapot as well as the plural teapots",
+  mandarin_chinese: { definition: "A highly analytic language with few inflectional affixes, making it unnecessary to delimit words orthographically", what_it_does: "", examples: "switching between kanji (characters borrowed from Chinese writing) and the two kana syllabaries" },
+  the_task_of_defining_what_constitutes_a_word: "Determining where one word ends and another begins",
+  derivation_is_a_process_in_which_a_new_word: { definition: "Created from existing ones, with an adjustment to its meaning and often with a change of word class", what_it_does: "", examples: "indicating case, tense, or gender" },
+  this_class: "Not present in Japanese, which depends on context to indicate this difference",
+  the_basic_bipartite_division_that: { definition: "Ubiquitous in natural languages is that of nouns vs verbs", what_it_does: "", examples: "the word sbiaw can be understood as '(is a) coyote' rather than simply 'coyote'" },
+  different_grammatical_forms_of_a_given_lexeme: "Studied; however, there was no attempt to decompose them into morphemes",
+
 };
 
 // ============================================================
