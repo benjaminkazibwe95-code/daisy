@@ -31092,6 +31092,26 @@ const FLAT_DICT = {
   political_bias: "The bias or manipulation of information to favor a particular political position, party, or candidate",
   it_implies_that_cognitive_biases: "Not exclusive to any one ideology but rather are a universal feature of human reasoning",
 
+  // === INGESTED 2026-06-24 01:44 ===
+  individuation: "An always incomplete process, always leaving a 'pre-individual' left-over, itself making possible future individuations",
+  the_i: "Constituted in adopting a collective tradition, which it inherits and in which a plurality of I ' s acknowledge each other's existence",
+  independent_thinking_and_opinion: "A necessary trait of an individualist",
+  individualism_versus_collectivism: "A common dichotomy in cross-cultural research",
+  methodological_individualism: "The view that phenomena can only be understood by examining how they result from the motivations and actions of individual agents",
+  to_live: { definition: "The rarest thing in the world", what_it_does: "", examples: "in Abrahamic or Confucian societies, although Taoists were and are known to be individualists" },
+  john_locke_and_montesquieu: "Often credited with the philosophical foundations of classical liberalism , a political ideology inspired by the broader liberal movement",
+  notable_among_these: "John Wilmot, 2nd Earl of Rochester and the Marquis de Sade",
+  philosophical_anarchism: "A component especially of individualist anarchism",
+  subjectivism: "A philosophical tenet that accords primacy to subjective experience as fundamental of all measure and law",
+  metaphysical_subjectivism: "The theory that reality is what we perceive to be real, and that there is no underlying true reality that exists independently of perception",
+  one_can_also_hold_that_it: "Consciousness rather than perception that is reality ( subjective idealism )",
+  the_most_common_forms_of_ethical_subjectivism: "Also forms of moral relativism , with moral standards held to be relative to each culture or society, i.e",
+  moral_subjectivism: "That species of moral relativism that relativizes moral value to the individual subject",
+  horst_matthai_quelle: "A Spanish-language German anarchist philosopher influenced by Max Stirner",
+  solipsism: "The only epistemological position that, by its own postulate , is both irrefutable and yet indefensible in the same manner",
+  liberalism: { definition: "A political ideology that developed in the 19th century in the Americas, England, France and Western Europe", what_it_does: "", examples: "libertarian municipalism , citizens' assemblies , trade unions and workers' councils" },
+  for_what_it_seeks: { definition: "To disturb monotony of type, slavery of custom, tyranny of habit, and the reduction of man to the level of a machine", what_it_does: "", examples: "the 'peculiar' and individualistic psychology of modern people)" },
+
 };
 
 // ============================================================
