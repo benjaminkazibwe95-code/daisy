@@ -32929,6 +32929,9 @@ const FLAT_DICT = {
   godsmack: "The second studio album and major label debut by American rock band Godsmack",
   stickers_and_lyrics: "By nature subjective",
 
+  // === INGESTED 2026-06-24 06:57 ===
+  the_first_album: "Released in 1982, called simply Stress",
+
 };
 
 // ============================================================
