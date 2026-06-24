@@ -35241,6 +35241,29 @@ const FLAT_DICT = {
   both_rugby_union_and_rugby_league: "Generally known as rugby",
   union: "The more commonly played variant in the United States",
 
+  // === INGESTED 2026-06-24 14:06 ===
+  the_lord_or_lady_mayor_of_london: { definition: "The mayor of the City of London , England, and the leader of the City of London Corporation", what_it_does: "", examples: "the title and style The Right Honourable Lord Mayor of London" },
+  the_lord_mayor: "Sworn in each November, on the day before the Lord Mayor's Show ( see below )",
+  the_wife_of_a_male_lord_mayor: "Styled as Lady Mayoress , but no equivalent title exists for the husband of a female Lord Mayor or Lady Mayor",
+  this_custom: "Generally followed from the 16th to the 19th centuries; creations became more regular from 1889 onward",
+  the_office_of_mayor: "Instituted in 1189, the first holder being Henry Fitz-Ailwin de Londonestone",
+  lord_mayors: { definition: "Elected for one-year terms, and customarily serve only one term", what_it_does: "", examples: "As Mayor As Lord Mayor Almost 700 people have served as Lord Mayor" },
+  the_first_woman_elected: { definition: "Dame Mary Donaldson in 1983", what_it_does: "", examples: "Sir Edward Dalyngrigge (1392), did not live in London" },
+  common_hall: "Summoned by the sitting Lord Mayor",
+  the_qualification_to_stand_for_election: "That one must have served as a City sheriff and be a current alderman",
+  two_sheriffs: "Selected annually by Common Hall, which meets on Midsummer's Day for this purpose",
+  the_ceremony: "Known as the 'Silent Ceremony' because, aside from a short declaration by the incoming Lord Mayor, no speeches are made",
+  the_main_role_of_the_lord_mayor: "To represent, support and promote all aspects of the UK's financial service industries, including maritime",
+  the_establishment_of_the_residence: "Considered after the Great Fire of London in 1666",
+  the_official_car_of_the_lord_mayor: "A Rolls-Royce Phantom VI with registration number LM 0",
+  if_the_sovereign: "Attending a service at St Paul's Cathedral this ceremony would take place there rather than at the boundary of the City, simply for convenience",
+  the_importance_of_the_office: "Reflected in the composition of the Accession Council , a body which proclaims the accession of new sovereigns",
+  the_same_privilege: "Held by the lord mayor of Oxford , while the mayor of Winchester may assist the royal cook",
+  this_form_of_court_dress: "Worn by all Lord Mayors regardless of gender",
+  the_violet_robe: "Worn at most formal meetings of the Corporation with the scarlet robe substituted on certain days or occasions as directed by the City Ceremonial Book",
+  for_state_occasions_when_the_monarch: "Present, the Lord Mayor wears a crimson velvet robe of state trimmed with an ermine cape and facings, similar to a royal earl's coronation robe",
+  a_plain_black_gown: "Worn by the Lord Mayor in times of national mourning",
+
 };
 
 // ============================================================
