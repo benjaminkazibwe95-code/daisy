@@ -35109,6 +35109,18 @@ const FLAT_DICT = {
   the_term_open_market: "Used generally to refer to an economic situation close to free trade",
   this_raises_the_question_of_whether_markets: "Ever truly 'open', and suggests that the 'openness' of markets is more a relative concept",
 
+  // === INGESTED 2026-06-24 13:33 ===
+  mischel_and_his_colleagues: "Interested in strategies that preschool children used to resist temptation",
+  each_minute_that_a_preschooler: { definition: "Able to delay gratification translated on average to a reduction of 0.2 points of the Body Mass Index 30 years later", what_it_does: "", examples: "delays are increased when thinking about the taste and smell of popcorn while waiting to eat candy" },
+  the_buttons_to_turn_off_the_noise: "Manipulated by one button turning off the noise for a short amount of time and the other turning the noise off for an extended time",
+  the_token_economy_for_rewards: { definition: "An example of delayed gratification, by way of cool processing", what_it_does: "", examples: "deficiencies in development that are closely related to attention deficits and behavior problems" },
+  delayers: "In general smart and well-adjusted, but they also tend to be somewhat overcontrolled and unnecessarily inhibited",
+  when_the_contingency: { definition: "Self-imposed, the physical presence of the reward seems to aid in delaying gratification", what_it_does: "", examples: "researchers told children that they would receive better art supplies if they waited" },
+  since_many_complex_genetic_interactions: "Necessary for neurons to perform the simplest tasks, it is hard to isolate one gene to study this behavior",
+  further_research: { definition: "Necessary to discover the genetic corollaries to delayed gratification", what_it_does: "", examples: "capuchin monkeys , tamarins , marmosets , rats, and pigeons" },
+  when_animals: "Faced with a choice to either wait for a reward, or receive a reward right away, the discounting of the reward is hyperbolic",
+  the_ultimate_payoff: "The same, but the monkeys preferred the riskier choice",
+
 };
 
 // ============================================================
