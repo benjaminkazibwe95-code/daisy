@@ -31771,6 +31771,9 @@ const FLAT_DICT = {
   further_expansion_of_the_empire: "Halted after defeats in the invasions of Japan and Vietnam",
   the_era: "Known as Pax Mongolica , when much of the Asian continent was ruled by the Mongols",
 
+  // === INGESTED 2026-06-24 03:27 ===
+  this_type_of_biomass: "Far more challenging to work with, as it contains a more varied mixture of compounds that cannot be easily converted into useful products",
+
 };
 
 // ============================================================
