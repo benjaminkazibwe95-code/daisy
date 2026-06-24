@@ -33943,6 +33943,30 @@ const FLAT_DICT = {
   miniature_paintings: "The primary form of painting in pre-colonial India",
   miniature_painting: "Not one style but a group of several styles of schools of painting such as Mughal, Pahari, Rajasthani, Company style etc",
 
+  // === INGESTED 2026-06-24 10:11 ===
+  pigeon_post_had_persian_roots_and: { definition: "Later used by the Romans to aid their military", what_it_does: "", examples: "'the enemy has been sighted' had to be agreed upon in advance" },
+  one_notable_instance_of_their_use: "During the Spanish Armada , when a beacon chain relayed a signal from Plymouth to London",
+  his_code: "An important advance over Wheatstone's signalling method",
+  the_first_transatlantic_telegraph_cable: { definition: "Successfully completed on July 27, 1866, allowing transatlantic telecommunication for the first time", what_it_does: "", examples: "signal amplification and current rectification" },
+  the_free_space_channel: "The transmission medium, and the receiver's antenna is the interface between the free space channel and the receiver",
+  telecommunication_systems: "Occasionally 'duplex' (two-way systems) with a single box of electronics working as both the transmitter and a receiver, or a transceiver (e.g",
+  telecommunication_over_fixed_lines: "Called point-to-point communication because it occurs between a transmitter and a receiver",
+  telecommunication_through_radio_broadcasts: "Called broadcast communication because it occurs between a powerful transmitter and numerous low-power but sensitive radio receivers",
+  multiplexed_systems: { definition: "Laid out in telecommunication networks and multiplexed signals are switched at nodes to reach the correct destination terminal receiver", what_it_does: "", examples: "a set of ones and zeroes)" },
+  this_form_of_noise: "Called additive noise , with the understanding that the noise can be negative or positive at different instances",
+  coaxial_cable_types: "Classified by RG type or radio guide , terminology derived from World War II",
+  the_various_rg_designations: { definition: "Used to classify the specific signal transmission applications", what_it_does: "", examples: "the above, which are called the 'carrier frequencies'" },
+  another_term_for_the_same_concept: "Wavelength-division multiplexing , which is more commonly used in optical communications when multiple transmitters share the same physical medium",
+  the_shaping_of_a_signal_to_convey_information: { definition: "Known as modulation", what_it_does: "", examples: "uses phase-shift keying to exchange information between various devices" },
+  a_telecommunications_network: { definition: "A collection of transmitters, receivers, and communications channels that send messages to one another", what_it_does: "", examples: "the ability to conduct business or order home services) as opposed to the social dimensions" },
+  once_the_connection: "Made, the caller's voice is transformed to an electrical signal using a small microphone in the caller's handset",
+  this_electrical_signal: { definition: "Then sent through the network to the user at the other end, where it is transformed back into sound by a small speaker in that person's handset", what_it_does: "", examples: "GSM or W-CDMA with many markets choosing to deprecate analog systems such as AMPS" },
+  the_highfrequency_wave_sent_by_the_tower: "Modulated with a signal containing visual or audio information",
+  the_chief_advantage_of_digital_broadcasts: { definition: "That they prevent a number of complaints common to traditional analogue broadcasts", what_it_does: "", examples: "snowy pictures , ghosting and other distortions" },
+  tcp_is_used_when_it: "Essential that every message sent is received by the other computer, whereas UDP is used when it is merely desirable",
+  that_prioritization: "Fine when the network has sufficient capacity for all the VoIP calls taking place at the same time and the network is enabled for prioritization, i.e",
+  these_threats_exist_if_there: { definition: "Any methods for connecting remotely to the LAN", what_it_does: "", examples: "DHCP , allowed TCP/IP-based computers to self-configure in the network" },
+
 };
 
 // ============================================================
