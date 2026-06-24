@@ -33254,6 +33254,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 07:52 ===
   many_permissions_and_obligations: "Complementary to each other, and deontic logic is a tool sometimes used in reasoning about such relationships",
 
+  // === INGESTED 2026-06-24 07:54 ===
+  an_operand_of_a_negation: "Called a negand or negatum",
+  the_negation_of_a_proposition_p: "Notated in different ways, in various contexts of discussion and fields of application",
+  negation: "A self dual logical operator",
+  sometimes_negation_elimination: "Formulated using a primitive absurdity sign ⊥ {\displaystyle \bot }",
+  then_negation_introduction_and_elimination: { definition: "Just special cases of implication introduction ( conditional proof ) and elimination ( modus ponens )", what_it_does: "", examples: "C++ , Java , JavaScript , Perl , and PHP" },
+  in_computer_science_there: { definition: "Also bitwise negation", what_it_does: "", examples: "for printing or if the number is subsequently used for arithmetic operations" },
+
 };
 
 // ============================================================
