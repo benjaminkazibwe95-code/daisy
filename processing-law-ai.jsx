@@ -32257,6 +32257,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-24 04:47 ===
   this_mode_of_cooking_a_hare: "Very desirable when there is any doubt as to its age, as an old hare, which would be otherwise uneatable, may be made into an agreeable dish",
 
+  // === INGESTED 2026-06-24 04:49 ===
+  this_was_a_time_when_the_warehouse: "Pushing to enter the grocery business",
+  the_stores: { definition: "Supplied daily from their centralised island warehousing", what_it_does: "", examples: "45 Auckland stores" },
+
 };
 
 // ============================================================
