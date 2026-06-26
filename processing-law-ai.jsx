@@ -36088,6 +36088,9 @@ const FLAT_DICT = {
   each_of_these_subnets: "Connected only by feed-forward connections",
   such_controlled_states: "Referred to as gated states or gated memory and are part of long short-term memory networks (LSTMs) and gated recurrent units",
 
+  // === INGESTED 2026-06-26 23:22 ===
+  sainath: "An American computer scientist whose research involves deep learning applied to speech recognition",
+
 };
 
 // ============================================================
