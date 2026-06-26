@@ -36018,6 +36018,19 @@ const FLAT_DICT = {
   in_deep_learning_the_boltzmann_distribution: "Used in the sampling distribution of stochastic neural networks such as the Boltzmann machine",
   the_boltzmann_machine: { definition: "Based on the Sherrington–Kirkpatrick spin glass model by David Sherrington and Scott Kirkpatrick", what_it_does: "", examples: "'energy'), which became standard in the field" },
 
+  // === INGESTED 2026-06-26 23:11 ===
+  these_other_characteristics: "Often difficult to predict with rational design techniques",
+  potential_drug_targets: { definition: "Not necessarily disease causing but must by definition be disease modifying", what_it_does: "", examples: "extract drugs or natural products), and then perform target identification" },
+  the_purified_protein: { definition: "Then used to establish a screening assay", what_it_does: "", examples: "Lipinski's Rule of Five and a range of scoring methods such as lipophilic efficiency" },
+  molecular_mechanics_or_molecular_dynamics: "Most often used to estimate the strength of the intermolecular interaction between the small molecule and its biological target",
+  the_reality: "That present computational methods are imperfect and provide, at best, only qualitatively accurate estimates of affinity",
+  a_second_category: "De novo design of new ligands",
+  the_key_advantage_of_such_a_method: "That novel structures, not contained in any database, can be suggested",
+  selective_high_affinity_binding_to_the_target: "Generally desirable since it leads to more efficacious drugs with fewer side effects",
+  the_master_equation: "The linear combination of these components",
+  various_computational_methods: { definition: "Used to estimate each of the components of the master equation", what_it_does: "", examples: "the change in polar surface area upon ligand binding can be used to estimate the desolvation energy" },
+  this_approach_to_drug_discovery: "Sometimes referred to as structure-based drug design",
+
 };
 
 // ============================================================
