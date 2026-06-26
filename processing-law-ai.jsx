@@ -36117,6 +36117,18 @@ const FLAT_DICT = {
   the_proof_idea: "To take the average over all elements of G {\textstyle G}",
   we_claim_this: "The desired perceptron",
 
+  // === INGESTED 2026-06-26 23:39 ===
+  neural_network_simulators: "Software applications that are used to simulate the behavior of artificial or biological neural networks",
+  the_advantage_of_this_type_of_software: "That it is relatively easy to use",
+  neural_designer: "One example of a data analysis simulator",
+  the_original_pdp_software: "Developed into a more powerful package called PDP++, which in turn has become an even more powerful platform called Emergent",
+  basic_prop: "A self-contained application, distributed as a platform neutral JAR file, that provides much of the same simple functionality as tLearn",
+  the_neural_network: "Constructed by connecting adaptive filter components in a pipe filter flow",
+  the_data_flow: "Controlled by a control system which is exchangeable as well as the adaptation algorithms",
+  the_other_important_feature: { definition: "Deployment capabilities", what_it_does: "", examples: "embedded systems" },
+  basic_types_of_neural_networks: { definition: "Simple to implement directly", what_it_does: "", examples: "TensorFlow , Theano , etc., typically providing bindings to languages such as Python , C++ , Java )" },
+  a_range_of_products: "Being offered to produce and consume PMML",
+
 };
 
 // ============================================================
