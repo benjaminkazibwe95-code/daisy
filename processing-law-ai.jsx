@@ -35786,6 +35786,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 20:32 ===
   the_law_itself: { definition: "Seen as promoting order rather than justice", what_it_does: "", examples: "John Locke held that justice derives from natural law" },
 
+  // === INGESTED 2026-06-26 22:17 ===
+  the_generated_programs: "Then executed and scored by the evaluator",
+  the_new_function: "Executed inside the problem-specific program skeleton and scored by the evaluator",
+  if_the_generated_function: "Valid, it is added back into D {\displaystyle D} , allowing later prompts to build on stronger previous candidates",
+  the_repository_states_that_its_software: "Licensed under the Apache License 2.0 , while other materials are licensed under the Creative Commons Attribution 4.0 International License",
+
 };
 
 // ============================================================
