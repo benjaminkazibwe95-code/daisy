@@ -35937,6 +35937,13 @@ const FLAT_DICT = {
   this_most_highrisk_area: { definition: "The home of Texas Eastman Chemical Plant", what_it_does: "", examples: "waterboarding, confinement in small boxes, and wall slamming" },
   this_retraction_came_after_haspel: "Nominated to lead the CIA , sparking renewed scrutiny of her record",
 
+  // === INGESTED 2026-06-26 22:48 ===
+  fitness_approximation: "One of the solutions to overcome this difficulty",
+  this_is_exactly_what: "Inevitably done in practice",
+  this_form_of_extension_of_an_ea: "Also known as a memetic algorithm",
+  this_indirect_encoding: "Believed to make the genetic search more robust (i.e",
+  an_example_of_such_tasks: { definition: "The proverbial search for a needle in a haystack , e.g", what_it_does: "", examples: "the concept of neural networks" },
+
 };
 
 // ============================================================
