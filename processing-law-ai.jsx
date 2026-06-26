@@ -35783,6 +35783,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 18:40 ===
   the_legislation: "Reintroduced in 2025",
 
+  // === INGESTED 2026-06-26 20:32 ===
+  the_law_itself: { definition: "Seen as promoting order rather than justice", what_it_does: "", examples: "John Locke held that justice derives from natural law" },
+
 };
 
 // ============================================================
