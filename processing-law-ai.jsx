@@ -35848,6 +35848,21 @@ const FLAT_DICT = {
   both_conjunction_and_disjunction: "Associative, commutative and idempotent in classical logic, most varieties of many-valued logic and intuitionistic logic",
   the_partial_order: "Defined by declaring that x ≤ y {\displaystyle x\leq y} if and only if whenever x {\displaystyle x} holds then so does y",
 
+  // === INGESTED 2026-06-26 22:36 ===
+  its_quality: "Influenced by linguistic, grammatical, tonal, and cultural differences, making it inadequate to replace real translators fully",
+  a_demonstration: { definition: "Made in 1954 on the APEXC machine at Birkbeck College ( University of London ) of a rudimentary translation of English into French", what_it_does: "", examples: "an article by Cleave and Zacharov in the September 1955 issue of Wireless World )" },
+  the_rulebased_machine_translation_approach: "Used mostly in the creation of dictionaries and grammar programs",
+  interlingual_machine_translation: "One instance of rule-based machine-translation approaches",
+  the_target_language: "Then generated out of the interlingua",
+  where_such_corpora: "Available, good results were achieved translating similar texts, but such corpora were rare for many language pairs",
+  one_of_the_major_pitfalls_of_mt: "Its inability to translate non-standard language with the same accuracy as standard language",
+  the_term_rigid_designator: "What defines these usages for analysis in statistical machine translation",
+  words_like_these: "Hard for machine translators, even those with a transliteration component, to process",
+  named_entities: { definition: "Replaced with a token to represent their 'class'; 'Ted' and 'Erica' would both be replaced with 'person' class token", what_it_does: "", examples: "mobile telephones, pocket PCs, PDAs, etc" },
+  probably_the_largest_institutional_user: "The European Commission",
+  even_though_human_evaluation: "Time-consuming, it is still the most reliable method to compare different systems such as rule-based and statistical systems",
+  researchers_found_that_when_a_program: "Trained on 203,529 sentence pairings, accuracy actually decreases",
+
 };
 
 // ============================================================
