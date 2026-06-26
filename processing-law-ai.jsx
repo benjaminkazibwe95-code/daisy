@@ -35780,6 +35780,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 18:21 ===
   the_slow_progress: { definition: "Accounted to limited administrative capacity, security issues and the need for customs and regularity reforms", what_it_does: "", examples: "an 100% duty on sugar" },
 
+  // === INGESTED 2026-06-26 18:40 ===
+  the_legislation: "Reintroduced in 2025",
+
 };
 
 // ============================================================
