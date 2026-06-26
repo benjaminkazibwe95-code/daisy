@@ -35930,6 +35930,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 22:44 ===
   a_function_with_this_property: "Called positive semidefinite",
 
+  // === INGESTED 2026-06-26 22:46 ===
+  steiger: { definition: "Reported to have received 850 applications [ 14 ] after ProPublica's announcement", what_it_does: "", examples: "Paul Steiger, executive chairman of ProPublica, is a trustee of the Knight Foundation" },
+  this_was_the_first_time_a_pulitzer_prize: "Awarded to a group of stories not published in print",
+  the_stories: "Written by Joshua Kaplan, Justin Elliott, Brett Murphy , Alex Mierjeski and Kirsten Berg",
+  this_most_highrisk_area: { definition: "The home of Texas Eastman Chemical Plant", what_it_does: "", examples: "waterboarding, confinement in small boxes, and wall slamming" },
+  this_retraction_came_after_haspel: "Nominated to lead the CIA , sparking renewed scrutiny of her record",
+
 };
 
 // ============================================================
