@@ -36037,6 +36037,24 @@ const FLAT_DICT = {
   english_responses: "Voiced by Jen Taylor , organic responses required the use of a text-to-speech engine",
   microsoft_eva: "The name of the text-to-speech voice for organic response in Cortana's U.S",
 
+  // === INGESTED 2026-06-26 23:16 ===
+  the_modernday_tower_and_main_building: { definition: "Constructed in its place", what_it_does: "", examples: "misapplication of public funds, and removed from office" },
+  the_massacre_ended_when_whitman: "Shot and killed by police after they breached the tower",
+  no_one_else: { definition: "Injured, except for one sprained ankle suffered by a student fleeing the scene", what_it_does: "", examples: "a photojournalist for Fox 7 Austin, with several more detained" },
+  songs: "Played on weekdays by student carillonneurs, [ 76 ] in addition to the usual pealing of Westminster Quarters every quarter-hour between 6 a.m",
+  the_sac: "Constructed as a result of a student referendum passed in 2006 which raised student fees by $65 per semester",
+  the_ninth: { definition: "The Plan II Honors Program, a rigorous interdisciplinary program that is a major in and of itself", what_it_does: "", examples: "the Freshman Research Initiative and Texas Interdisciplinary Plan" },
+  the_university_of_texas_at_austin: { definition: "Ranked as the 18th most selective in the South", what_it_does: "", examples: "the Cockrell School of Engineering, have secondary requirements that must be met for admission" },
+  johnson_school_of_public_affairs: { definition: "7th, and the McCombs School of Business is tied for 16th-best (with the undergraduate business program tied for 5th-best in the country)", what_it_does: "", examples: "computer science" },
+  their_transformative_generosity: "Based on the belief in our power to change society for the better",
+  the_center_for_transportation_research: "A nationally recognized research institution focusing on transportation research, education, and public service",
+  the_university_of_texas: { definition: "Also represented by the Texas Cowboys , who maintain Smokey , the university's replica 1,200-pound Civil War artillery cannon", what_it_does: "", examples: "a Final Four appearance in 2003" },
+  novelist_raymond_benson: "The official author of James Bond novels between 1996 and 2002, the only American to be commissioned to pen them",
+  the_video: { definition: "Titled ' Kendall Ross Bean: Chopin Polonaise in A Flat '", what_it_does: "", examples: "the award-winning Internet series, Red vs" },
+  also_an_alumnus: "Robert Cade , the inventor of the sports drink Gatorade",
+  amit_kshatriya: "Named associate administrator of NASA in 2025",
+  erika_thompson: "A well-known beekeeper",
+
 };
 
 // ============================================================
