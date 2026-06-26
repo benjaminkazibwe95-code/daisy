@@ -36152,6 +36152,27 @@ const FLAT_DICT = {
   digits_and: "Handled by 12 and 24-tooth gears on the 1/12-revolution shaft",
   the_monster_in_this_field: "The Duodecillion made by Burroughs for exhibit purposes",
 
+  // === INGESTED 2026-06-26 23:57 ===
+  even_though_leibniz: "A life member of the Royal Society and the Berlin Academy of Sciences , neither organization saw fit to honour his death",
+  the_eulogy: "Composed at the behest of the Duchess of Orleans , a niece of the Electress Sophia",
+  he_proposes_his_theory_that_the_universe: "Made of an infinite number of simple substances known as monads",
+  these_simple_substances_or_monads: "The 'ultimate units of existence in nature'",
+  these_qualities: "Continuously changing over time, and each monad is unique",
+  they_are_also_not_affected_by_time_and: "Subject to only creation and annihilation",
+  if_this_book: "Copied from an infinite chain of copies, there must be some reason for the content of the book",
+  the_ontological_essence_of_a_monad: { definition: "Its irreducible simplicity", what_it_does: "", examples: "each human being constitutes a monad, in which case free will is problematic" },
+  leibniz_thought_symbols: "Important for human understanding",
+  his_notation_for_calculus: { definition: "An example of his skill in this regard", what_it_does: "", examples: "the notation of logic, serve only to facilitate reasoning" },
+  a_recent_study_argues_that_leibnizian_calculus: "Free of contradictions, and was better grounded than Berkeley's empiricist criticisms",
+  my_leibniz_mania: "Further reinforced by finding that for one moment its hero attached importance to geometric scaling",
+  the_straight_line: { definition: "A curve, any part of which is similar to the whole, and it alone has this property, not only among curves but among sets", what_it_does: "can be continued infinitely, from which arises a good idea of self-similarity", examples: "" },
+  much_of_his_writing_on_physics: "Included in Gerhardt's Mathematical Writings",
+  a_number_of_such_machines: { definition: "Made during his years in Hanover by a craftsman working under his supervision", what_it_does: "", examples: "Esperanto and its rivals), symbolic logic , even the World Wide Web" },
+  leibniz_emphasized_that_research: "A collaborative endeavour",
+  leibniz_the_philologist: "An avid student of languages, eagerly latching on to any information about vocabulary and grammar that came his way",
+  its_manufacturer_bahlsen: "Based in Hanover , where Leibniz lived for four decades until his death",
+  the_year_given: "Usually that in which the work was completed, not of its eventual publication",
+
 };
 
 // ============================================================
