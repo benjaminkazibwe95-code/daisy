@@ -36031,6 +36031,12 @@ const FLAT_DICT = {
   various_computational_methods: { definition: "Used to estimate each of the components of the master equation", what_it_does: "", examples: "the change in polar surface area upon ligand binding can be used to estimate the desolvation energy" },
   this_approach_to_drug_discovery: "Sometimes referred to as structure-based drug design",
 
+  // === INGESTED 2026-06-26 23:13 ===
+  an_android_release: { definition: "Set for July 2015, but the Android APK file containing Cortana was leaked ahead of its release", what_it_does: "", examples: "Microsoft Edge" },
+  cortana: { definition: "Able to find opening hours when on restaurant sites, show retail coupons for websites, or show weather information in the address bar", what_it_does: "", examples: "'Hola Cortana' in Spanish" },
+  english_responses: "Voiced by Jen Taylor , organic responses required the use of a text-to-speech engine",
+  microsoft_eva: "The name of the text-to-speech voice for organic response in Cortana's U.S",
+
 };
 
 // ============================================================
