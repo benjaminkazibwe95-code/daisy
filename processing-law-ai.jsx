@@ -35796,6 +35796,11 @@ const FLAT_DICT = {
   he_argues_that_if_colonization: "Inevitable, it should be led by agents deeply committed to minimizing harm",
   agential_srisks: "Further aggravated by malevolent traits in powerful individuals, such as narcissism or psychopathy",
 
+  // === INGESTED 2026-06-26 22:21 ===
+  common_inherited_parkinson_disease: { definition: "Associated with mutations in the alpha-synuclein (SNCA) gene", what_it_does: "", examples: "by gastrointestinal tract (GIT) biopsies" },
+  exogenous_alphasynuclein_in_the_dentate_gyrus: { definition: "Able to rescue this defect", what_it_does: "", examples: "12.16 kDa ( amino acids 14–133) and 10" },
+  on_the_left_hand_side: "Some of the known modifiers of this process",
+
 };
 
 // ============================================================
