@@ -36091,6 +36091,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 23:22 ===
   sainath: "An American computer scientist whose research involves deep learning applied to speech recognition",
 
+  // === INGESTED 2026-06-26 23:26 ===
+  hebbian_theory: { definition: "Introduced by Donald Hebb in his 1949 book The Organization of Behavior", what_it_does: "", examples: "blocking and other neural learning phenomena is the mathematical model of Harry Klopf" },
+  hebbian_learning: { definition: "Linked to cognitive processes like decision-making and social learning", what_it_does: "", examples: "the striatum and prefrontal cortex" },
+  while_classical_neural_networks: "The primary area of application for Hebbian theory, recent studies have begun exploring the potential for quantum-inspired algorithms",
+
 };
 
 // ============================================================
