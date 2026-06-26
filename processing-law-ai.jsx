@@ -35773,6 +35773,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 16:17 ===
   the_two_chains: "Coiled around the same axis (but not directly opposite one to the other), and have the same pitch of 34 ångströms (3.4 nm )",
 
+  // === INGESTED 2026-06-26 16:40 ===
+  the_actual_mass_of_an_atom_at_rest: "Often expressed in daltons (Da), also called the unified atomic mass unit (u)",
+  the_energy_of_an_emitted_photon: "Proportional to its frequency , so these specific energy levels appear as distinct bands in the electromagnetic spectrum",
+
 };
 
 // ============================================================
