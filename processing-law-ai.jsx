@@ -35999,6 +35999,25 @@ const FLAT_DICT = {
   the_loss_function: "A function that maps values of one or more variables onto a real number intuitively representing some 'cost' associated with those values",
   the_second_assumption: "That it can be written as a function of the outputs from the neural network",
 
+  // === INGESTED 2026-06-26 23:09 ===
+  this_relationship_is_true_when_the_machine: "'at thermal equilibrium ', meaning that the probability distribution of global states has converged",
+  the_units_in_the_boltzmann_machine: "Divided into 'visible' units, V, and 'hidden' units, H",
+  the_visible_units: "Those that receive information from the 'environment', i.e",
+  the_training_set: "A set of binary vectors over the set V",
+  the_distribution_over_the_training_set: "Denoted P + ( V ) {\displaystyle P^{+}(V)}",
+  our_goal: "To approximate the 'real' distribution P + ( V ) {\displaystyle P^{+}(V)} using the P − ( V ) {\displaystyle P^{-}(V)} produced by the machine",
+  the_similarity_of_the_two_distributions: "Measured by the Kullback–Leibler divergence , G {\displaystyle G} : where the sum is over all the possible states of V {\displaystyle V}",
+  boltzmann_machine_training: "Two alternating phases",
+  this_learning_rule: "Biologically plausible because the only information needed to change the weights is provided by 'local' information",
+  training_the_biases: { definition: "Similar, but uses only single node activity: Theoretically the Boltzmann machine is a rather general computational medium", what_it_does: "", examples: "complete a partial photograph" },
+  as_each_new_layer: "Added the generative model improves",
+  in_a_dbm_all_layers: "Symmetric and undirected",
+  because_exact_maximum_likelihood_learning: { definition: "Intractable for DBMs, only approximate maximum likelihood learning is possible", what_it_does: "", examples: "feature representation" },
+  a_spike: "A discrete probability mass at zero, while a slab is a density over continuous domain; [ 13 ] their mixture forms a prior",
+  in_statistics_and_machine_learning_it: "Called a log-linear model",
+  in_deep_learning_the_boltzmann_distribution: "Used in the sampling distribution of stochastic neural networks such as the Boltzmann machine",
+  the_boltzmann_machine: { definition: "Based on the Sherrington–Kirkpatrick spin glass model by David Sherrington and Scott Kirkpatrick", what_it_does: "", examples: "'energy'), which became standard in the field" },
+
 };
 
 // ============================================================
