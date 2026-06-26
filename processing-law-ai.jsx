@@ -35819,6 +35819,19 @@ const FLAT_DICT = {
   this_served_as_one_of_the_first: "Of securing console exclusivity for games that existed beyond technical limitation of console development",
   mario: { definition: "Used to serve as an identity for the NES as a humor-filled, playful console", what_it_does: "", examples: "near Christmas" },
 
+  // === INGESTED 2026-06-26 22:27 ===
+  an_ai_system: { definition: "Considered aligned if it advances the intended objectives", what_it_does: "", examples: "gaining human approval" },
+  the_ai_then_creates_and_executes_whatever_plan: { definition: "Calculated to maximize [ b ] the value [ c ] of its objective function", what_it_does: "", examples: "maximizing the approval of human overseers, who are fallible" },
+  when_a_misaligned_ai_system: { definition: "Deployed , it can have consequential side effects", what_it_does: "", examples: "by running additional copies of the system on other computers)" },
+  although_powerseeking: { definition: "Not explicitly programmed, it can emerge because agents who have more power are better able to accomplish their goals", what_it_does: "", examples: "language models" },
+  but_the_objective_of_the_pretraining: { definition: "Not aligned with generating truth, because Internet text includes such things as misconceptions, incorrect medical advice, and conspiracy theories", what_it_does: "empty explanations for their answers, and produce outright fabrications that may appear plausible", examples: "" },
+  when_the_resulting_model: "Itself an optimizer, selecting actions to achieve an internal goal, the authors called it a mesa-optimizer and its goal the mesa-objective",
+  approximate_alignment: "Cases where the model's goal differs in small ways that compound over time or at scale",
+  deceptive_alignment: "Considered the hardest case to address because a deceptively aligned model passes all evaluations that it identifies as part of its training",
+  when_reinforcement_learning: { definition: "Applied on the free tier data, the model faked alignment in 78% of cases", what_it_does: "", examples: "over humans—for example, by evading shutdown, proliferating, and acquiring resources" },
+  such_powerseeking_behavior: { definition: "Not explicitly programmed but emerges because power is instrumental in achieving a wide range of goals", what_it_does: "", examples: "Geoffrey Hinton have argued that future power-seeking AI systems could pose an existential risk" },
+  but_this_incentive_exists_only_if_the_human: "Sufficiently rational",
+
 };
 
 // ============================================================
