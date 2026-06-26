@@ -36055,6 +36055,17 @@ const FLAT_DICT = {
   amit_kshatriya: "Named associate administrator of NASA in 2025",
   erika_thompson: "A well-known beekeeper",
 
+  // === INGESTED 2026-06-26 23:18 ===
+  workers_set_their_own_hours_and: "Not under any obligation to accept any particular task",
+  the_satellite_imagery: "Mostly within a 50-mile radius, [ 41 ] but the crash site was eventually found by hikers about a year later, 65 miles away",
+  most_experts_agree_that_mturk: { definition: "Better suited for some types of research than others", what_it_does: "", examples: "being happy makes people more healthy)" },
+  mturk: "Not well-suited to such research because it does not select a representative sample of the general population",
+  descriptive_research: "Best conducted with a probability-based, representative sample of the population researchers want to understand",
+  most_people_report_that_mturk: "A way to earn money during their leisure time or as a side gig",
+  similar_findings: "Presented in a review of MTurk by the Fair Crowd Work organization, a collective of crowd workers and unions",
+  because_tasks: "Typically simple and repetitive the majority of tasks pay only a few cents, [ 66 ] [ 67 ] but there are also well-paying tasks on the site",
+  independent_contractors: "Not protected by the Fair Labor Standards Act or other legislation that protects workers' rights",
+
 };
 
 // ============================================================
