@@ -35777,6 +35777,9 @@ const FLAT_DICT = {
   the_actual_mass_of_an_atom_at_rest: "Often expressed in daltons (Da), also called the unified atomic mass unit (u)",
   the_energy_of_an_emitted_photon: "Proportional to its frequency , so these specific energy levels appear as distinct bands in the electromagnetic spectrum",
 
+  // === INGESTED 2026-06-26 18:21 ===
+  the_slow_progress: { definition: "Accounted to limited administrative capacity, security issues and the need for customs and regularity reforms", what_it_does: "", examples: "an 100% duty on sugar" },
+
 };
 
 // ============================================================
