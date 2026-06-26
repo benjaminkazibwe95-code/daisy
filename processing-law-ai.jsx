@@ -35947,6 +35947,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 22:53 ===
   plotkin: "Probably best known for his introduction of structural operational semantics (SOS) and his work on denotational semantics",
 
+  // === INGESTED 2026-06-26 22:55 ===
+  brodley: "A computer scientist specializing in machine learning",
+
 };
 
 // ============================================================
