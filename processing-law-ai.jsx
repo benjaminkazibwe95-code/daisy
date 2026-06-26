@@ -35970,6 +35970,24 @@ const FLAT_DICT = {
   two_common_approaches_for_when_there: "Multiple classes are (1) average over all pairwise AUC values [ 64 ] and (2) compute the volume under surface (VUS)",
   notable_proposals_for_regression_problems: "The so-called regression error characteristic (REC) Curves [ 67 ] and the Regression ROC (RROC) curves",
 
+  // === INGESTED 2026-06-26 23:03 ===
+  the_main_goal_of_mic: { definition: "To extract clinically relevant information or knowledge from medical images", what_it_does: "", examples: "hexahedral and tetrahedral forms, which are used in advanced biomechanical analysis (e.g" },
+  this_iterative_procedure: "Repeated until a (local) optimum is found",
+  methods_from_scientific_visualization: "Used to understand and communicate about medical images, which are inherently spatial-temporal",
+  data_visualization_and_data_analysis: "Used on unstructured data forms, for example when evaluating statistical measures derived during algorithmic processing",
+  visualization: "Used both for initial exploration and for conveying intermediate and final results of analyses",
+  the_nodular_lesion: "Clearly visible in the different presentations and has been annotated with a white line",
+  a_popular_approach_to_represent_medical_images: { definition: "Through the use of one or more atlases", what_it_does: "", examples: "local image statistics and the probability that a particular spatial location has a certain label" },
+  mapping_an_image_to_an_atlas_usually: "Registering the image and the atlas",
+  such_clinical_questions: { definition: "Very diverse and include group analysis, imaging biomarkers, disease phenotyping and longitudinal studies", what_it_does: "", examples: "the hippocampus in brain may be linked to Alzheimer's disease" },
+  the_comparison_between_groups: { definition: "Usually conducted on the voxel level", what_it_does: "", examples: "the mean values of two groups are equal for a particular voxel)" },
+  shape_analysis: { definition: "The field of medical image computing that studies geometrical properties of structures obtained from different imaging modalities", what_it_does: "", examples: "diffusion MRI and functional MRI" },
+  as_each_acquisition: { definition: "Associated with multiple volumes, diffusion MRI has created a variety of unique challenges in medical image computing", what_it_does: "", examples: "the dysmyelination of axonal fibers [ 60 ] or the presence of edema" },
+  the_most_common_solution_to_this_problem: { definition: "To estimate multiple directions of local diffusion using more complex models", what_it_does: "", examples: "registration [ 72 ] [ 73 ] [ 74 ] and segmentation" },
+  typically_system_architectures: "Layered to serve algorithm developers, application developers, and users",
+  medical_image_computing: "Also related to the field of computer vision",
+  proceedings_for_this_conference: "Published by Springer in the Lecture Notes in Computer Science series",
+
 };
 
 // ============================================================
