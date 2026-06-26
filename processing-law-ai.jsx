@@ -35895,6 +35895,38 @@ const FLAT_DICT = {
   he_was_convinced_that_such_a_logic: "Necessary for understanding brain activity",
   the_second_solution: "In a negative feedback circuit that drives a canonical representation",
 
+  // === INGESTED 2026-06-26 22:42 ===
+  bcis: "Often directed at researching, mapping , assisting, augmenting , or repairing human cognitive or sensory-motor functions",
+  one_such_distinction: { definition: "Between active and passive BCIs", what_it_does: "", examples: "in moving a cursor, spelling words, or operating robotic arms" },
+  berger: "Able to identify oscillatory activity , such as the alpha wave (8–13 Hz), by analyzing EEG traces",
+  the_linefollowing_behavior: "The default robot behavior, utilizing autonomous intelligence and an autonomous energy source",
+  the_cnv_brain_potential: { definition: "Part of Vidal's 1973 challenge", what_it_does: "", examples: "University of Pittsburgh Medical Center , [ 24 ] Paradromics, [ 25 ] Brown, [ 26 ] and Synchron" },
+  neuron_firings: "Recorded from watching eight short movies",
+  invasive_bcis: "Implanted directly into the grey matter of the brain during neurosurgery",
+  phosphenes: { definition: "Spread out across the visual field in what researchers call 'the starry-night effect'", what_it_does: "", examples: "interfaces with computers or robot arms" },
+  kennedy_and_bakay: "First to install a human brain implant that produced signals of high enough quality to simulate movement",
+  the_first_bilingual_speech_neuroprosthesis: "Reported to have been developed by the same team at the University of San Francisco, in 2024",
+  the_ucsf_researchers_reported_that_a_man: "Able to control a robotic arm just by thinking",
+  advances_in_cmos_technology: "Pushing and enabling integrated, invasive BCI designs with smaller size, lower power requirements, and higher signal acquisition capabilities",
+  improvement_in_motor_assessment_scores: "Observed in three of eleven studies",
+  this_level_of_integration: "Required to achieve the result",
+  a_basic_pattern: "Identified in his beta-rhythm EEG output and used to control a switch: Above average activity was interpreted as on, below average off",
+  the_signals: "Also used to drive nerve controllers embedded in his hands, restoring some movement",
+  these_electrodes: "Secured to the headband's DAQ board with snap-on electrode holders",
+  the_wearable_system: "Composed of a four channel bio-signal acquisition/amplification module , a communication module, and a Bluetooth phone",
+  the_stated_goals_of_this_study: "To 'increase the practicability, portability, and ubiquity of an SSVEP-based BCI, for daily use'",
+  these_two_qualitative_characterizations: "Suggested as indicators of the feasibility of using a mobile stimulus BCI",
+  reported_results: { definition: "That as speed increased, SSVEP detectability using CCA decreased", what_it_does: "", examples: "electromyography (EMG), galvanic skin resistance (GSR), and heart rate variability (HRV) can do so" },
+  ssvep_stimuli: "Often formed from alternating checkerboard patterns and at times use flashing images",
+  ssvep: "Used within many BCI systems",
+  the_signal_elicited: { definition: "Measurable in as large a population as the transient VEP and blink movement", what_it_does: "", examples: "electrooculography and eye-tracking" },
+  a_mobile_robot: "Driven to a goal point using five EOG commands, interpreted as forward, backward, left, right, and stop",
+  letter_selection: "Based on best fit between unintentional pupil-size oscillation and the background circle's brightness oscillation pattern",
+  the_words: "Encoded in binary streams by the cognitive motor input of the person sending the information",
+  the_neurochip: "Designed for rat brains",
+  the_hippocampus_was_chosen_because_it: "Thought to be the most structured and most studied part of the brain",
+  this_state: "Defined to include people in a coma and those in a vegetative state (VS) or minimally conscious state (MCS)",
+
 };
 
 // ============================================================
