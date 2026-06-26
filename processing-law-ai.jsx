@@ -35801,6 +35801,24 @@ const FLAT_DICT = {
   exogenous_alphasynuclein_in_the_dentate_gyrus: { definition: "Able to rescue this defect", what_it_does: "", examples: "12.16 kDa ( amino acids 14–133) and 10" },
   on_the_left_hand_side: "Some of the known modifiers of this process",
 
+  // === INGESTED 2026-06-26 22:23 ===
+  a_video_game_console: "An electronic device that outputs a video signal or image to display a video game that can typically be played with a game controller",
+  simplicity: "Achieved in part through the use of game cartridges or other simplified methods of distribution, easing the effort of launching a game",
+  the_first_video_game_consoles: "Produced in the early 1970s",
+  the_first_consoles: { definition: "Capable of playing only a very limited number of games built into the hardware", what_it_does: "", examples: "processor word size" },
+  home_video_game_consoles: { definition: "Meant to be connected to a television or other type of monitor, with power supplied through an outlet", what_it_does: "", examples: "the Wii U , the PlayStation 5 , and the Xbox Series X" },
+  hybrid_video_game_consoles: { definition: "Devices that combine the use as either a handheld or a home console", what_it_does: "", examples: "the Wii U have hybrid features" },
+  dedicated_consoles: { definition: "Very popular in the first generation until they were gradually replaced by second generation that use ROM cartridges", what_it_does: "", examples: "the Nintendo Game & Watch color screen series" },
+  completed_consoles: { definition: "Then usually tested, distributed, and repaired by the company itself", what_it_does: "BatterUP , a baseball bat-shaped controller", examples: "jumping or interacting with the game world" },
+  controllers: "Nominally built into a handheld unit, though some newer ones allow for separate wireless controllers to also be used",
+  early_iterations_of_external_storage: { definition: "Achieved through the use of flash-based memory cards , first used by the Neo Geo but popularized with the PlayStation", what_it_does: "", examples: "with the Xbox 360" },
+  the_best_example_of_this: "Through the various CD-ROM add-ons for consoles of the fourth generation such as the TurboGrafx CD, Atari Jaguar CD , and the Sega CD",
+  early_console_games: "Commonly created by a single person and could be changed in a short amount of time due to the simplicity of the games at the time",
+  the_cost_varies_by_manufacturer_but: { definition: "Estimated to be about US$3−10 per unit in 2012", what_it_does: "", examples: "by Atari in its subsidiary company Tengen" },
+  packin_games: { definition: "Typically first-party games, often featuring the console's primary mascot characters", what_it_does: "", examples: "significant reduction of the process node size for the CPU and GPU" },
+  this_served_as_one_of_the_first: "Of securing console exclusivity for games that existed beyond technical limitation of console development",
+  mario: { definition: "Used to serve as an identity for the NES as a humor-filled, playful console", what_it_does: "", examples: "near Christmas" },
+
 };
 
 // ============================================================
