@@ -35950,6 +35950,26 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 22:55 ===
   brodley: "A computer scientist specializing in machine learning",
 
+  // === INGESTED 2026-06-26 22:59 ===
+  roc_analysis: "Related in a direct and natural way to the cost/benefit analysis of diagnostic decision making",
+  the_roc_curve: "Thus the sensitivity as a function of false positive rate",
+  the_truepositive_rate: "Also known as sensitivity or probability of detection",
+  a_roc_space: "Defined by FPR and TPR as x and y axes, respectively, which depicts relative trade-offs between true positive (benefits) and false positive (costs)",
+  since_tpr_is_equivalent_to_sensitivity_and_fpr: "Equal to 1 − specificity , the ROC graph is sometimes called the sensitivity vs (1 − specificity) plot",
+  the_actual_shape_of_the_curve: { definition: "Determined by how much overlap the two distributions have", what_it_does: "", examples: "might correspond to low values of precision and negative predictive value, such as 0.2 and 0" },
+  it_can_be_shown_that_the_auc: { definition: "Closely related to the Mann–Whitney U , [ 28 ] [ 29 ] which tests whether positives are ranked higher than negatives", what_it_does: "", examples: "the Brier score" },
+  an_alternative_to_the_roc_curve: "The detection error tradeoff (DET) graph, which plots the false negative rate (missed detections) vs",
+  the_transformation_function: "The quantile function of the normal distribution, i.e., the inverse of the cumulative normal distribution",
+  if_the_standard_deviations: "Equal, the slope will be 1.0",
+  the_yonelinas_familiarityrecollection_model: "A two-dimensional account of recognition memory",
+  recollection: "Assumed to be all-or-none, and it trumps familiarity",
+  patients_with_anterograde_amnesia: "Unable to recollect, so their Yonelinas zROC curve would have a slope close to 1.0",
+  the_ratio_of_signal_to_noise: "An important metric when determining if a target will be detected",
+  this_signal_to_noise_ratio: "Directly correlated to the receiver operating characteristics of the whole radar system, which is used to quantify the ability of a radar system",
+  conversion_to_decibels: "Through X d B = 10 log 10 ⁡ X {\displaystyle {\mathcal {X}}_{dB}=10\log _{10}{\mathcal {X}}}",
+  two_common_approaches_for_when_there: "Multiple classes are (1) average over all pairwise AUC values [ 64 ] and (2) compute the volume under surface (VUS)",
+  notable_proposals_for_regression_problems: "The so-called regression error characteristic (REC) Curves [ 67 ] and the Regression ROC (RROC) curves",
+
 };
 
 // ============================================================
