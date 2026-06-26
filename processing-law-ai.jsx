@@ -35944,6 +35944,9 @@ const FLAT_DICT = {
   this_indirect_encoding: "Believed to make the genetic search more robust (i.e",
   an_example_of_such_tasks: { definition: "The proverbial search for a needle in a haystack , e.g", what_it_does: "", examples: "the concept of neural networks" },
 
+  // === INGESTED 2026-06-26 22:53 ===
+  plotkin: "Probably best known for his introduction of structural operational semantics (SOS) and his work on denotational semantics",
+
 };
 
 // ============================================================
