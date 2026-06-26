@@ -35770,6 +35770,9 @@ const FLAT_DICT = {
   one_major_framework: "The probably approximately correct learning model",
   because_training_sets: "Finite and the future is uncertain, learning theory usually does not yield guarantees of the performance of algorithms",
 
+  // === INGESTED 2026-06-26 16:17 ===
+  the_two_chains: "Coiled around the same axis (but not directly opposite one to the other), and have the same pitch of 34 ångströms (3.4 nm )",
+
 };
 
 // ============================================================
