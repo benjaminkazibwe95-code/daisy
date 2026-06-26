@@ -35927,6 +35927,9 @@ const FLAT_DICT = {
   the_hippocampus_was_chosen_because_it: "Thought to be the most structured and most studied part of the brain",
   this_state: "Defined to include people in a coma and those in a vegetative state (VS) or minimally conscious state (MCS)",
 
+  // === INGESTED 2026-06-26 22:44 ===
+  a_function_with_this_property: "Called positive semidefinite",
+
 };
 
 // ============================================================
