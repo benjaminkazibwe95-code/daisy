@@ -36129,6 +36129,29 @@ const FLAT_DICT = {
   basic_types_of_neural_networks: { definition: "Simple to implement directly", what_it_does: "", examples: "TensorFlow , Theano , etc., typically providing bindings to languages such as Python , C++ , Java )" },
   a_range_of_products: "Being offered to produce and consume PMML",
 
+  // === INGESTED 2026-06-26 23:47 ===
+  most_mechanical_calculators: "Comparable in size to small desktop computers and have been rendered obsolete by the advent of the electronic calculator and the digital computer",
+  leibniz: "Also the first person to describe a pinwheel calculator",
+  for_forty_years_the_arithmometer: "The only type of mechanical calculator available for sale until the industrial production of the more successful Odhner Arithmometer in 1890",
+  a_crucial_step: "The adoption of a punched card system derived from the Jacquard loom ' [ 10 ] making it infinitely programmable",
+  this_instrument: "Probably invented by the Semitic races [ a ] and later adopted in India, whence it spread westward throughout Europe and eastward to China and Japan",
+  the_machine: "Designed to assist in all the four basic functions of arithmetic (addition, subtraction, multiplication and division)",
+  the_adding_machine_in_the_base: "Primarily provided to assist in the difficult task of adding or multiplying two multi-digit numbers",
+  whilst_schickard_noted_that_the_adding_machine: "Working, his letters mention that he had asked a professional, a clockmaker named Johann Pfister, to build a finished machine",
+  regrettably_it: "Destroyed in a fire either whilst still incomplete, or in any case before delivery",
+  he_and_his_entire_family: "Wiped out in 1635 by bubonic plague during the Thirty Years' War",
+  his_report: "Favorable except for the sequence in the carry",
+  the_cash_register: "Easy to use and, unlike genuine mechanical calculators, was needed and quickly adopted by a great number of businesses",
+  these_devices: "Motor-driven, and had movable carriages where results of calculations were displayed by dials",
+  nearly_all_keyboards: { definition: "Full – each digit that could be entered had its own column of nine keys, 1..9, plus a column-clear key, permitting entry of several digits at once", what_it_does: "", examples: "Olivetti , did make printing calculators" },
+  the_last_of_the_mechanical_calculators: { definition: "Likely to have short-cut multiplication, and some ten-key, serial-entry types had decimal-point keys", what_it_does: "", examples: "the 1948 Curta continued to be used until they were displaced by electronic calculators in the 1970s" },
+  although_most_of_these: { definition: "Operated by handcranks, there were motor-driven versions", what_it_does: "", examples: "motor-driven ones, were also built until the 1960s" },
+  the_basic_mechanism_of_the_friden_and_monroe: "A modified Leibniz wheel (better known, perhaps informally, in the USA as a 'stepped drum' or 'stepped reckoner')",
+  the_earliest_marchants: "Pinwheel machines, but most of them were remarkably sophisticated rotary types",
+  the_rack_for: "Closest to the pivot, of course",
+  digits_and: "Handled by 12 and 24-tooth gears on the 1/12-revolution shaft",
+  the_monster_in_this_field: "The Duodecillion made by Burroughs for exhibit purposes",
+
 };
 
 // ============================================================
