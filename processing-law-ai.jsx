@@ -36103,6 +36103,20 @@ const FLAT_DICT = {
   ai_developers_have_argued_that_such_training: { definition: "Protected under fair use , while copyright holders have argued that it infringes their rights", what_it_does: "", examples: "politics (46%), crime (43%), and local news (37%) produced by AI than other news topics" },
   many_of_these_automated_translations: { definition: "Seen as lower quality, especially for sentences that were translated into at least three languages", what_it_does: "", examples: "rape , child sexual abuse material , [ 185 ] [ 186 ] necrophilia , and zoophilia" },
 
+  // === INGESTED 2026-06-26 23:37 ===
+  the_main_subject_of_the_book: "The perceptron , a type of artificial neural network developed in the late 1950s and early 1960s",
+  the_problem_of_connectedness: "Illustrated at the awkwardly colored cover of the book, intended to show how humans themselves have difficulties in computing this predicate",
+  handwritten_alterations: "Made by the authors for the second printing in 1972",
+  the_perceptron: "A neural net developed by psychologist Frank Rosenblatt in 1958 and is one of the most famous machines of its period",
+  the_perceptron_convergence_theorem: { definition: "Proved for single-layer neural nets", what_it_does: "", examples: "symbolic AI emerged" },
+  parity: "Determining whether the number of activated inputs in the input retina is odd or even, and connectedness refers to the figure-ground problem",
+  behind_each_mask: "A photoreceiver that fires if the input, after masking, is bright enough",
+  the_second_layer: "Made of standard perceptron units",
+  large_problems: "Always decomposable into little problems",
+  a_boolean_function: "Conjunctively local iff its order does not increase to infinity as | R | {\displaystyle |R|} increases to infinity",
+  the_proof_idea: "To take the average over all elements of G {\textstyle G}",
+  we_claim_this: "The desired perceptron",
+
 };
 
 // ============================================================
