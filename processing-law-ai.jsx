@@ -35792,6 +35792,10 @@ const FLAT_DICT = {
   if_the_generated_function: "Valid, it is added back into D {\displaystyle D} , allowing later prompts to build on stronger previous candidates",
   the_repository_states_that_its_software: "Licensed under the Apache License 2.0 , while other materials are licensed under the Creative Commons Attribution 4.0 International License",
 
+  // === INGESTED 2026-06-26 22:19 ===
+  he_argues_that_if_colonization: "Inevitable, it should be led by agents deeply committed to minimizing harm",
+  agential_srisks: "Further aggravated by malevolent traits in powerful individuals, such as narcissism or psychopathy",
+
 };
 
 // ============================================================
