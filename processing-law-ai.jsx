@@ -35888,6 +35888,13 @@ const FLAT_DICT = {
   rankvisu: "Especially useful on difficult tasks (when the preservation of distance cannot be achieved satisfyingly)",
   a_method_based_on_proximity_matrices: "One where the data is presented to the algorithm in the form of a similarity matrix or a distance matrix",
 
+  // === INGESTED 2026-06-26 22:40 ===
+  his_brother_was_a_chemical_engineer_and_warren: "Originally planning to join the Christian ministry",
+  as_a_teenager_he: "Associated with the theologians Henry Sloane Coffin , Harry Emerson Fosdick , Herman Karl Wilhelm Kumm and Julian F",
+  he_designed_it_so_that_the_tone: { definition: "Invariant for the same letter viewed under different angles", what_it_does: "", examples: "geometric figures, was further developed in their 1947 paper" },
+  he_was_convinced_that_such_a_logic: "Necessary for understanding brain activity",
+  the_second_solution: "In a negative feedback circuit that drives a canonical representation",
+
 };
 
 // ============================================================
