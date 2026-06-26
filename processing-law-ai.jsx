@@ -35988,6 +35988,9 @@ const FLAT_DICT = {
   medical_image_computing: "Also related to the field of computer vision",
   proceedings_for_this_conference: "Published by Springer in the Lecture Notes in Computer Science series",
 
+  // === INGESTED 2026-06-26 23:05 ===
+  ben_goertzel: { definition: "A computer scientist, artificial intelligence (AI) researcher, and businessman", what_it_does: "", examples: "calling the project 'complete bullshit'" },
+
 };
 
 // ============================================================
