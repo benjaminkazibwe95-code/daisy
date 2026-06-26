@@ -35840,6 +35840,14 @@ const FLAT_DICT = {
   rockets: "Used for fireworks , weaponry, ejection seats , launch vehicles for artificial satellites , human spaceflight and exploration of other planets",
   chemical_rockets: "The most common type of rocket and they typically create their exhaust by the combustion of rocket propellant",
 
+  // === INGESTED 2026-06-26 22:34 ===
+  their_classical_interpretations: "Similar to the meanings of natural language expressions such as English 'not', 'or', 'and', and 'if', but not identical",
+  these_symbols: "Called logical connectives , logical operators , propositional operators , or, in classical logic , truth-functional connectives",
+  a_less_trivial_example_of_a_redundancy: "The classical equivalence between ¬ p ∨ q {\displaystyle \neg p\vee q} and p → q {\displaystyle p\to q}",
+  the_meanings_of_natural_language_connectives: { definition: "Not precisely identical to their nearest equivalents in classical logic", what_it_does: "", examples: "the strict conditional , the variably strict conditional , as well as various dynamic operators" },
+  both_conjunction_and_disjunction: "Associative, commutative and idempotent in classical logic, most varieties of many-valued logic and intuitionistic logic",
+  the_partial_order: "Defined by declaring that x ≤ y {\displaystyle x\leq y} if and only if whenever x {\displaystyle x} holds then so does y",
+
 };
 
 // ============================================================
