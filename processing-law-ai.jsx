@@ -36066,6 +36066,28 @@ const FLAT_DICT = {
   because_tasks: "Typically simple and repetitive the majority of tasks pay only a few cents, [ 66 ] [ 67 ] but there are also well-paying tasks on the site",
   independent_contractors: "Not protected by the Fair Labor Standards Act or other legislation that protects workers' rights",
 
+  // === INGESTED 2026-06-26 23:20 ===
+  neural_feedback_loops: "A common topic of discussion at the Macy conferences",
+  another_origin_of_rnn: "Statistical mechanics",
+  sherrington_and_kirkpatrick_found_that_it: { definition: "Highly likely for the energy function of the SK model to have many local minima", what_it_does: "", examples: "machine translation" },
+  the_hopfield_network: "An RNN in which all connections across layers are equally sized",
+  it_requires_stationary_inputs_and: "Thus not a general RNN, as it does not process sequences of patterns",
+  if_the_connections: { definition: "Trained using Hebbian learning , then the Hopfield network can perform as robust content-addressable memory , resistant to connection alteration", what_it_does: "", examples: "sequence-prediction that are beyond the power of a standard multilayer perceptron" },
+  jordan_networks: "Similar to Elman networks",
+  the_context_units: "Fed from the output layer instead of the hidden layer",
+  the_context_units_in_a_jordan_network: "Also called the state layer",
+  lstm: "Normally augmented by recurrent gates called 'forget gates'",
+  the_weights_of_output_neurons: "The only part of the network that can change (be trained)",
+  esns: "Good at reproducing certain time series",
+  such_networks: { definition: "Typically also trained by the reverse mode of automatic differentiation", what_it_does: "", examples: "logical terms" },
+  a_special_case_of_recursive_neural_networks: "The RNN whose structure corresponds to a linear chain",
+  the_whole_network: { definition: "Represented as a single chromosome", what_it_does: "", examples: "simulated annealing or particle swarm optimization" },
+  the_crossneuron_information: "Explored in the next layers",
+  the_neural_history_compressor: "An unsupervised stack of RNNs",
+  each_subnetwork: "Feed-forward except for the last layer, which can have feedback connections",
+  each_of_these_subnets: "Connected only by feed-forward connections",
+  such_controlled_states: "Referred to as gated states or gated memory and are part of long short-term memory networks (LSTMs) and gated recurrent units",
+
 };
 
 // ============================================================
