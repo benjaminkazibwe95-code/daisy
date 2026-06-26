@@ -35991,6 +35991,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-26 23:05 ===
   ben_goertzel: { definition: "A computer scientist, artificial intelligence (AI) researcher, and businessman", what_it_does: "", examples: "calling the project 'complete bullshit'" },
 
+  // === INGESTED 2026-06-26 23:07 ===
+  bias_terms: "Not treated specially since they correspond to a weight with a fixed input of 1",
+  now_if_the_relation: "Plotted between the network's output y on the horizontal axis and the error E on the vertical axis, the result is a parabola",
+  the_gradient_descent_method: "Calculating the derivative of the loss function with respect to the weights of the network",
+  the_number_of_input_units_to_the_neuron: "N {\displaystyle n}",
+  the_loss_function: "A function that maps values of one or more variables onto a real number intuitively representing some 'cost' associated with those values",
+  the_second_assumption: "That it can be written as a function of the outputs from the neural network",
+
 };
 
 // ============================================================
