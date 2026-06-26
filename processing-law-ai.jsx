@@ -36096,6 +36096,13 @@ const FLAT_DICT = {
   hebbian_learning: { definition: "Linked to cognitive processes like decision-making and social learning", what_it_does: "", examples: "the striatum and prefrontal cortex" },
   while_classical_neural_networks: "The primary area of application for Hebbian theory, recent studies have begun exploring the potential for quantum-inspired algorithms",
 
+  // === INGESTED 2026-06-26 23:30 ===
+  funsearch: { definition: "Used to discover new mathematical constructions in the cap set problem and the bin packing problem", what_it_does: "", examples: "Midjourney, and text-to-video products such as Runway Gen-2" },
+  these_very_large_models: { definition: "Typically accessed as cloud services over the Internet", what_it_does: "", examples: "GPTZero ), as well as images, audio or video coming from it" },
+  the_discriminator: "Trained to distinguish the authentic data from synthetic data produced by the generator",
+  ai_developers_have_argued_that_such_training: { definition: "Protected under fair use , while copyright holders have argued that it infringes their rights", what_it_does: "", examples: "politics (46%), crime (43%), and local news (37%) produced by AI than other news topics" },
+  many_of_these_automated_translations: { definition: "Seen as lower quality, especially for sentences that were translated into at least three languages", what_it_does: "", examples: "rape , child sexual abuse material , [ 185 ] [ 186 ] necrophilia , and zoophilia" },
+
 };
 
 // ============================================================
