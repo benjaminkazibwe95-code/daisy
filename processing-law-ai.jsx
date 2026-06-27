@@ -37381,6 +37381,13 @@ const FLAT_DICT = {
   expert_systems: { definition: "One of the first successful applications of artificial intelligence technology to real world business problems", what_it_does: "", examples: "medical diagnosis" },
   text_generation: { definition: "Also extremely useful in generating explanations for system behavior", what_it_does: "", examples: "the Web Ontology Language (OWL)" },
 
+  // === INGESTED 2026-06-27 23:07 ===
+  neats_verify_their_programs: "Correct via rigorous mathematical theory",
+  the_scruffy_approach: "More biological , in that much of the work involves studying and categorizing diverse phenomena",
+  other_programs: { definition: "Designed as inference engines that manipulated formal statements (or 'declarations') about the world and translated these manipulations into actions", what_it_does: "", examples: "the ' Planner ' language" },
+  each_of_these_entries: "An ad hoc addition to the intelligence of the system",
+  the_trick: { definition: "That there is no trick", what_it_does: "", examples: "mathematical optimization and neural networks" },
+
 };
 
 // ============================================================
