@@ -37409,6 +37409,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 23:15 ===
   a_chatbot: "A software application or web interface that is designed to mimic human conversation through text or voice interactions",
 
+  // === INGESTED 2026-06-27 23:21 ===
+  the_following_tables: "A comparison of machine learning software such as software frameworks , libraries , and computer programs used for machine learning",
+
 };
 
 // ============================================================
