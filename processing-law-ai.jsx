@@ -37399,6 +37399,13 @@ const FLAT_DICT = {
   the_page_comments: "Moderated by the marketing team, not by editorial staff, and comments critical of the church were being removed",
   although_the_settlement_terms: "Not publicly disclosed in court, The New York Times reported that The Atlantic agreed to pay Barrett more than $1 million",
 
+  // === INGESTED 2026-06-27 23:13 ===
+  these_assumptions: { definition: "Often rejected in non-generative approaches such as usage-based models of language", what_it_does: "", examples: "biolinguistics and music cognition" },
+  generative_grammar: "An umbrella term for a variety of approaches to linguistics",
+  what_unites_these_approaches: "The goal of uncovering the cognitive basis of language by formulating and testing explicit models of humans' subconscious grammatical knowledge",
+  these_subfields: { definition: "Also studied in non-generative approaches", what_it_does: "", examples: "morphemes into larger units such as phrases and sentences" },
+  the_semantic_interpretation_of_a_sentence: { definition: "Represented by its deep structure, while the surface structure provided its pronunciation", what_it_does: "", examples: "'Everyone in the room knows two languages' and 'Two languages are known by everyone in the room'" },
+
 };
 
 // ============================================================
