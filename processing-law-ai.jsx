@@ -37072,6 +37072,15 @@ const FLAT_DICT = {
   the_bottom_line: "That a number of clades have been placed inside or outside of Euphorbia at different times",
   the_subgenera_chamaesyce_and_euphorbia: "Probably sister taxa , but very closely related to subgenus Athymalus (formerly Rhizanthium [ 27 ] )",
 
+  // === INGESTED 2026-06-27 03:19 ===
+  the_proterozoic: "Subdivided into three geologic eras (from oldest to youngest): the Paleoproterozoic , Mesoproterozoic and Neoproterozoic",
+  the_geologic_record_of_the_proterozoic_eon: "More complete than that for the preceding Archean Eon",
+  such_massive_iron_oxide_formations: "Not found in older rocks",
+  volcanism: "Also extensive resulting in more geologic changes",
+  the_reason_for_these_pulses: { definition: "Unknown, but they seemed to have decreased in magnitude after every period", what_it_does: "", examples: "orogenic belts or ophiolite complexes, we see today" },
+  the_turukhanian: "Succeeded by the Uchuromayan, lasting from 1.03–0.85 Ga, which was in turn succeeded by the Yuzhnouralian, lasting from 0.85–0.63 Ga",
+  the_final_two_zones: { definition: "The Amadeusian, spanning the first half of the Ediacaran from 0.63–0.55 Ga, and the Belomorian, spanning from 0.55–0.542 Ga", what_it_does: "", examples: "trilobites and archeocyathids , as well as the animal-like Caveasphaera , appeared" },
+
 };
 
 // ============================================================
