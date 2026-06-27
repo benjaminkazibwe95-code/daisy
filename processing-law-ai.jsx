@@ -36944,6 +36944,14 @@ const FLAT_DICT = {
   a_selectable_marker: { definition: "A gene introduced into cells , especially bacteria or cells in culture , which confers one or more traits suitable for artificial selection", what_it_does: "", examples: "the gene which confers antibiotic resistance, can survive and produce colonies" },
   these_wanted_or_unwanted_cells: "Simply non-transformed cells that were unable to take up the screenable gene during the experiment",
 
+  // === INGESTED 2026-06-27 02:41 ===
+  stabilizing_selection: "The opposite of disruptive selection",
+  this_is_because_the_extreme_phenotypes: "Selected against, causing reduced survival in organisms with those traits",
+  the_first_type_of_data: "An estimation of fitness of different phenotypes within a single generation",
+  the_second_type_of_data: "Changes in allelic frequencies or phenotypes across different generations",
+  the_third_type_of_data: "Differences in allelic frequencies across space",
+  the_fourth_type_of_data: "DNA sequences from the genes contributing to observes phenotypic differences",
+
 };
 
 // ============================================================
