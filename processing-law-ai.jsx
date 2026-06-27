@@ -36776,6 +36776,21 @@ const FLAT_DICT = {
   these_deposits: { definition: "Determined via polarity cues, growth and differentiation factors, or adhesion contacts", what_it_does: "support for the structure of the axon and are a major part of the cytoskeleton", examples: "" },
   intermediate_filaments: { definition: "Not involved with the direct movement of cells unlike microtubules and microfilaments", what_it_does: "to assemble an orthogonal network in these cells in the nuclear membrane", examples: "" },
 
+  // === INGESTED 2026-06-27 02:05 ===
+  optical_microscopes: "The oldest type of microscope, with the present compound form first appearing in the 17th century",
+  while_larger_magnifications: "Possible no additional details of the object are resolved",
+  that_image: { definition: "Then magnified by a second lens or group of lenses (called the eyepiece ) that gives the viewer an enlarged inverted virtual image of the object", what_it_does: "", examples: "phase contrast" },
+  the_camera: "Attached directly to a computer's USB port to show the images directly on the monitor",
+  highpower_illumination: { definition: "Usually provided by an LED source or sources adjacent to the camera lens", what_it_does: "", examples: "one demonstrated by Cornelis Drebbel in London (around 1621) and one exhibited in Rome in 1624" },
+  the_huygens_ocular: { definition: "Still being produced to this day, but suffers from a small field size, and other minor disadvantages", what_it_does: "", examples: "a lightbulb filament, was always visible in the image of the sample" },
+  the_eyepiece: "Inserted into the top end of the body tube",
+  eyepieces: "Interchangeable and many different eyepieces can be inserted with different degrees of magnification",
+  microscope_objectives: "Characterized by two parameters, namely, magnification and numerical aperture",
+  in_the_center_of_the_stage: "A hole through which light passes to illuminate the specimen",
+  horizontal_specimen_position_adjustments: { definition: "The reason for having a mechanical stage", what_it_does: "", examples: "a diaphragm and/or filters, to manage the quality and intensity of the illumination" },
+  as_the_number_of_fluorescing_molecules: "Low the spots of light are unlikely to overlap and therefore can be placed accurately",
+  resolution_in_these_cases: "Limited by the size of the probe; micromachining techniques can produce probes with tip radii of 5–10 nm",
+
 };
 
 // ============================================================
