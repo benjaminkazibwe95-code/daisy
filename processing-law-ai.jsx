@@ -36907,6 +36907,28 @@ const FLAT_DICT = {
   a_limitation_of_this_implementation: { definition: "That two separate automata are required, one to administer each drug", what_it_does: "of evaluation until drug release took around an hour to complete", examples: "" },
   a_partnership_between_ibm_and_caltech: "Established in 2009 aiming at ' DNA chips ' production",
 
+  // === INGESTED 2026-06-27 02:31 ===
+  numerous_proteins: "Associated with the replication fork to help in the initiation and continuation of DNA synthesis",
+  each_single_strand_of_dna: "A chain of four types of nucleotides",
+  complementary_nucleobases: "Matched between strands through hydrogen bonds to form base pairs",
+  the_strands_of_the_double_helix: "Anti-parallel, with one being 5′ to 3′, and the opposite strand 3′ to 5′",
+  once_replication: "Complete, it does not occur again in the same cell cycle",
+  coli_the_primary_initiator_protein: "Dna A ; in yeast , this is the origin recognition complex",
+  the_mcm_complex: "Recruited at late G1 phase and loaded by the ORC-Cdc6-Cdt1 complex onto the DNA via ATP-dependent protein remodeling",
+  four_distinct_mechanisms_for_dna_synthesis: "Recognized: [ citation needed ] Cellular organisms use the first of these pathways leading to it being the most well-known",
+  the_rna_primers: "Then removed by another DNA polymerase and replaced with DNA, and the fragments of DNA are joined by DNA ligase",
+  the_two_polymerases: { definition: "Bound to the helicase hexamer", what_it_does: "results in a build-up of twists in the DNA ahead", examples: "DNA gyrase ) achieve this by adding negative supercoils to the DNA helix" },
+  some_steps_in_this_reassembly: "Somewhat speculative",
+  clamploading_proteins: "Used to initially load the clamp, recognizing the junction between template and RNA primers",
+  the_disentanglement: "Essential for distributing the chromatids into daughter cells after DNA replication",
+  telomeres: "Regions of repetitive DNA close to the ends and help prevent loss of genes due to this shortening",
+  shortening_of_the_telomeres: "A normal process in somatic cells",
+  increased_telomerase_activity: "One of the hallmarks of cancer",
+  progression_through_checkpoints: "Controlled through complex interactions between various proteins, including cyclins and cyclin-dependent kinases",
+  when_geminin: "Destroyed, Cdt1 is released, allowing it to function in pre-replication complex assembly",
+  progress_of_replication_forks: "Inhibited by many factors; collision with proteins or with complexes binding strongly on DNA, deficiency of dNTPs, nicks on template DNAs and so on",
+  as_other_mechanism_of_the_rescue_there: { definition: "Application of dormant replication origins that excess origins do not fire in normal DNA replication", what_it_does: "", examples: "[ 72 ] Researchers commonly replicate DNA in vitro using the polymerase chain reaction (PCR)" },
+
 };
 
 // ============================================================
