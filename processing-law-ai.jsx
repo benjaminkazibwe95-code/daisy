@@ -36879,6 +36879,21 @@ const FLAT_DICT = {
   they_determined_that_a_protective_protein_coat: "Formed around the bacteriophage, but that the internal DNA is what conferred its ability to produce progeny inside a bacterium",
   george_gamow_proposed_that_the_genetic_code: "Composed of sequences of three DNA base pairs known as triplets or codons which represent one of the twenty amino acids",
 
+  // === INGESTED 2026-06-27 02:22 ===
+  starch_is_a_polysaccharide_and: { definition: "Abundant in cereals (wheat, maize, rice), potatoes, and processed food based on cereal flour , such as bread , pizza or pasta", what_it_does: "", examples: "jam, biscuits, scones and cakes" },
+  monosaccharides: { definition: "The simplest carbohydrates in that they cannot be hydrolyzed to smaller carbohydrates", what_it_does: "", examples: "starch , cellulose )" },
+  saccharides: "Polyhydroxy aldehydes, ketones as well as derived polymers having linkages of the acetal type",
+  many_polyols: "Also classified as carbohydrates",
+  in_many_carbohydrates_the_oh_groups: "Appended to or replaced by N -acetyl (e.g., chitin ), sulfate (e.g., glycosaminoglycans ), carboxylic acid and deoxy modifications (e.g",
+  polysaccharides: { definition: "Also common sources of energy", what_it_does: "", examples: "chitin and arabinoxylans" },
+  carbohydrate_metabolism: "The series of biochemical processes responsible for the formation , breakdown and interconversion of carbohydrates in living organisms",
+  the_most_important_carbohydrate: "Glucose , a simple sugar ( monosaccharide ) that is metabolized by nearly all known organisms",
+  plant_components: { definition: "Consumed by animals and fungi , and used as fuel for cellular respiration", what_it_does: "", examples: "oxidation of glucose) is usually stored temporarily within cells in the form of ATP" },
+  catabolism: "The metabolic reaction which cells undergo to break down larger molecules, extracting energy",
+  many_techniques: "Used in the analysis of glycans",
+  detection: "Here done by mass spectrometry, but in instead of MALDI -MS, electrospray ionisation ( ESI ) is more frequently used",
+  carbohydrate_chemistry: "A large and economically important branch of organic chemistry",
+
 };
 
 // ============================================================
