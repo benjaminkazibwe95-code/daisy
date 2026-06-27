@@ -36894,6 +36894,19 @@ const FLAT_DICT = {
   detection: "Here done by mass spectrometry, but in instead of MALDI -MS, electrospray ionisation ( ESI ) is more frequently used",
   carbohydrate_chemistry: "A large and economically important branch of organic chemistry",
 
+  // === INGESTED 2026-06-27 02:26 ===
+  every_one_of_these_fragments: "Capable of a linkage with the other fragments created",
+  these_dna_fragments: "Produced and mixed in a test tube",
+  the_remains: "The solution to the problem, but overall, the experiment lasted a week",
+  first_results_to_these_problems: "Obtained by Leonard Adleman",
+  the_substrate_itself: "Composed of a DNA strand onto which was grafted a fluorescent chemical group at one end, and the other end, a repressor group",
+  fluorescence: "Only active if the molecules of the substrate are cut in half",
+  the_dna_enzymes: "Divided among the bins in such a way as to ensure that the best the human player can achieve is a draw, as in real tic-tac-toe",
+  while_dna: { definition: "A biologically compatible substrate, i.e., it can be used at places where silicon technology cannot, its computational speed is still very slow", what_it_does: "", examples: "the square-root circuit used as a benchmark in the field takes over 100 hours to complete" },
+  the_dnazyme_that_changes: { definition: "Then 'used', and cannot initiate any more reactions", what_it_does: "", examples: "a continuous stirred-tank reactor, where old product is removed and new molecules added" },
+  a_limitation_of_this_implementation: { definition: "That two separate automata are required, one to administer each drug", what_it_does: "of evaluation until drug release took around an hour to complete", examples: "" },
+  a_partnership_between_ibm_and_caltech: "Established in 2009 aiming at ' DNA chips ' production",
+
 };
 
 // ============================================================
