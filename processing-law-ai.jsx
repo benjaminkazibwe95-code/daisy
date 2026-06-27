@@ -37329,6 +37329,25 @@ const FLAT_DICT = {
   one_wellpublicized_example: { definition: "The network of content creators supporting the view that the Earth is flat, not a sphere", what_it_does: "", examples: "126,000 posts spread by 3 million people over 4.5 million times" },
   stella_immanuel_claiming_hydroxychloroquine: "An effective cure for COVID-19",
 
+  // === INGESTED 2026-06-27 22:58 ===
+  another_character_then_asks_calvin_if_robots: "Different from human beings after all",
+  because_their_positronic_brains: "Highly sensitive to gamma rays the robots are rendered inoperable by doses reasonably safe for humans",
+  daneel_olivaw: "Seen continually struggling with 'First Law' robots who deny the existence of the Zeroth Law, promoting agendas different from Daneel's",
+  giskard_reventlov: "The first robot to act according to the Zeroth Law",
+  the_first_case: "A short-short story entitled ' First Law ' and is often considered an insignificant 'tall tale' [ 25 ] or even apocryphal",
+  in_his_first_writings_they: "Simply carefully engineered safeguards",
+  the_second_law: "Modified to require cooperation instead of obedience",
+  the_third_law_is_modified_so_it: { definition: "No longer superseded by the Second, i.e., a 'New Law' robot cannot be ordered to destroy itself", what_it_does: "", examples: "unhappiness, stress, unhealthy lifestyle and all actions that could be potentially dangerous" },
+  all_that_is_left_for_humans_to_do: "To sit with folded hands",
+  lodovic_trema_whose_positronic_brain: "Infected by a rogue AI — specifically, a simulation of the long-dead Voltaire — which consequently frees Trema from the Three Laws",
+  they_therefore_claim_that_it: { definition: "Morally indefensible for Daneel to ruthlessly sacrifice robots and extraterrestrial sentient life for the benefit of humanity", what_it_does: "", examples: "terms the Machines 'the first RIs, really'" },
+  powell_and_donovan: { definition: "Afraid this will make it capable of causing mass destruction by letting the beams stray off their proper course during a solar storm", what_it_does: "robots with the Three Laws but with a warped meaning of 'human'", examples: "" },
+  solarian_robots: "Told that only people speaking with a Solarian accent are human",
+  advanced_robots_in_fiction: "Typically programmed to handle the Three Laws in a sophisticated manner",
+  the_example_he_uses: "Forcefully ordering a robot to let a human do its work, which on Solaria, due to the extreme specialization, would mean its only purpose",
+  robby: "One of the first cinematic depictions of a robot with internal safeguards put in place in this fashion",
+  asimov: { definition: "Delighted with Robby and noted that Robby appeared to be programmed to follow his Three Laws", what_it_does: "", examples: "the Three Laws" },
+
 };
 
 // ============================================================
