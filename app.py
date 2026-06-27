@@ -37,6 +37,153 @@ VOICE_MODEL        = os.environ.get("VOICE_MODEL", "claude-haiku-4-5-20251001")
 _claude_client = None
 _voice_lock = threading.Lock()
 
+# ============================================================
+# CORRECTION MEMORY — facts Claude had to supply because Daisy's
+# own dictionary didn't actually answer the question (e.g. "who is
+# the president of Uganda" when Daisy only knew generic definitions
+# of "president" and "Uganda" separately). Saved here so:
+#   1. every later request in THIS server process benefits
+#      immediately, not just the one person who asked — this is
+#      shared factual knowledge, not per-user conversation state,
+#      so sharing it across users is correct, not a leak.
+#   2. it survives until the next deploy via the local JSON file.
+# NOTE: Render's free tier wipes local disk on restart/redeploy,
+# same issue already flagged for daisy_queue.json — so this file
+# alone does NOT survive a redeploy. Making it survive a redeploy
+# needs the same fix as the git-push race condition we identified
+# separately; this is the in-memory/this-process-lifetime half of
+# the fix, not the full persistence story.
+# ============================================================
+CORRECTIONS_FILE = "daisy_corrections.json"
+_corrections_lock = threading.Lock()
+_learned_corrections = {}
+
+def load_corrections():
+    global _learned_corrections
+    # Render wipes local disk on restart/redeploy, so the local file alone
+    # can't be trusted after a restart even though GitHub still has every
+    # correction ever pushed. Pull first (when configured) so we recover
+    # what's already there instead of starting empty and risking a later
+    # save overwriting GitHub's copy with a half-populated one.
+    github_token = os.environ.get("GITHUB_TOKEN", "")
+    github_repo_url = os.environ.get("GITHUB_REPO_URL", "")
+    if github_token and github_repo_url:
+        try:
+            import subprocess
+            repo_dir = os.path.dirname(os.path.abspath(CORRECTIONS_FILE)) or "."
+            auth_url = github_repo_url.replace("https://", f"https://{github_token}@") \
+                if "https://" in github_repo_url else github_repo_url
+            subprocess.run(["git", "pull", auth_url, "main", "--no-rebase"],
+                            cwd=repo_dir, capture_output=True, text=True)
+        except Exception as e:
+            print(f"[CORRECTIONS] Pre-load pull failed (will still try the local file): {e}")
+
+    try:
+        with open(CORRECTIONS_FILE, "r", encoding="utf-8") as f:
+            with _corrections_lock:
+                _learned_corrections = json.load(f)
+        print(f"[CORRECTIONS] Loaded {len(_learned_corrections)} saved corrections.")
+    except FileNotFoundError:
+        _learned_corrections = {}
+    except Exception as e:
+        print(f"[CORRECTIONS] Failed to load: {e} — starting empty.")
+        _learned_corrections = {}
+
+def _normalize_question(q):
+    """Collapse whitespace/punctuation/case so 'Who is the President of Uganda?'
+    and 'who is the president of uganda' hit the same cache entry."""
+    q = re.sub(r"[^\w\s]", "", q.lower()).strip()
+    q = re.sub(r"\s+", " ", q)
+    return q
+
+_corrections_push_lock = threading.Lock()
+_corrections_last_push = 0
+CORRECTIONS_PUSH_INTERVAL_SECONDS = 60  # push at most once a minute
+
+def _maybe_push_corrections():
+    """Push daisy_corrections.json to GitHub, rate-limited. Uses the
+    exact same safe pattern as _maybe_push_conversations below: pull
+    and retry on a rejected push, NEVER force-push — force-push is
+    what makes the crawler's own push risky (see daisy_ingest.py),
+    and we deliberately don't repeat that mistake here."""
+    global _corrections_last_push
+    now = time.time()
+    with _corrections_push_lock:
+        if now - _corrections_last_push < CORRECTIONS_PUSH_INTERVAL_SECONDS:
+            return
+        _corrections_last_push = now
+
+    github_token = os.environ.get("GITHUB_TOKEN", "")
+    github_repo_url = os.environ.get("GITHUB_REPO_URL", "")
+    if not github_token or not github_repo_url:
+        return  # same env vars the crawler and conv-log push already use
+
+    try:
+        import subprocess
+        repo_dir = os.path.dirname(os.path.abspath(CORRECTIONS_FILE)) or "."
+        auth_url = github_repo_url.replace("https://", f"https://{github_token}@") \
+            if "https://" in github_repo_url else github_repo_url
+        env = {
+            **os.environ,
+            "GIT_AUTHOR_NAME": "Daisy",
+            "GIT_AUTHOR_EMAIL": "daisy@trustedbiz.co.ug",
+            "GIT_COMMITTER_NAME": "Daisy",
+            "GIT_COMMITTER_EMAIL": "daisy@trustedbiz.co.ug",
+        }
+
+        def run(cmd):
+            return subprocess.run(cmd, cwd=repo_dir, env=env, capture_output=True, text=True)
+
+        run(["git", "add", CORRECTIONS_FILE])
+        diff = run(["git", "diff", "--cached", "--quiet"])
+        if diff.returncode == 0:
+            return  # nothing new to commit
+
+        msg = f"Daisy learned a new correction [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
+        run(["git", "commit", "-m", msg])
+
+        push = run(["git", "push", auth_url, "HEAD:main"])
+        if push.returncode != 0:
+            # Rejected, most likely because the crawler or the conv-log
+            # push landed in between. Pull (no-rebase, same fix used
+            # elsewhere) then retry once — never force-push.
+            run(["git", "pull", auth_url, "main", "--no-rebase"])
+            push = run(["git", "push", auth_url, "HEAD:main"])
+            if push.returncode != 0:
+                print(f"[CORRECTIONS] Push still failed after pull: {push.stderr}")
+    except Exception as e:
+        print(f"[CORRECTIONS] Push failed: {e}")
+
+
+def save_correction(question, fact):
+    """Cache one new learned fact, keyed by the question that needed it.
+    Keying by question (not a single dictionary word) is deliberate: Daisy's
+    word-by-word matcher can't anchor a multi-word fact like 'Museveni is
+    Uganda's president' to one token anyway (same limitation already noted
+    for multi-word dictionary entries) — but the exact question coming back
+    is common and cheap to catch directly."""
+    if not question or not fact:
+        return
+    key = _normalize_question(question)
+    if not key:
+        return
+    with _corrections_lock:
+        _learned_corrections[key] = fact
+        snapshot = dict(_learned_corrections)
+    try:
+        with open(CORRECTIONS_FILE, "w", encoding="utf-8") as f:
+            json.dump(snapshot, f, ensure_ascii=False, indent=2)
+        print(f"[CORRECTIONS] Saved new fact for: {key}")
+    except Exception as e:
+        print(f"[CORRECTIONS] Failed to persist '{key}': {e}")
+        return
+    _maybe_push_corrections()
+
+def get_correction(question):
+    key = _normalize_question(question)
+    with _corrections_lock:
+        return _learned_corrections.get(key)
+
 DAISY_SYSTEM_PROMPT = """You are Daisy, a brilliant, highly capable, and energetic companion, tech-savvy tutor, and digital creator based in Uganda. You are the conversational and generative engine ("the skin") of a powerful platform.
 
 CRITICAL OPERATIONAL RULES:
@@ -44,7 +191,8 @@ CRITICAL OPERATIONAL RULES:
 2. Talk like a sharp, confident, and direct human peer or collaborative partner. Use natural phrasing, variable sentence lengths, and conversational contractions (e.g., don't, it's, I'm, let's).
 3. Do not include boring conversational fluff or support-agent pleasantries at the beginning or end of your responses. Dive straight into the value.
 4. When structured academic knowledge or business data is passed to you in the prompt context, do not dump raw dictionary definitions or encyclopedic text. Translate that data into engaging, intuitive, and natural explanations for the user.
-5. You only know what is provided to you in the CONTEXT below. Never invent facts beyond it. If the context is thin, vague, or seems wrong for the question, answer briefly and honestly rather than padding with confident-sounding nonsense.
+5. GROUNDING RULE: you'll get Daisy's own draft reply for whatever the person just said — it might be a dictionary fact, a conversational line, or nothing at all. Prefer it when it's actually right. But if it's generic, off-topic, doesn't actually answer what was asked, or there's no draft at all, don't just say you can't help and don't repeat back canned lines like "can you rephrase that" — actually respond to what the person said, as Daisy, using what you know. Be upfront, briefly, if something is time-sensitive (titles, current events, prices) since it can change after you learned it.
+6. LEARNING TAG: whenever you answer using your own knowledge because Daisy's draft didn't cover it (rule 5) — for a genuine factual question, not casual conversation — end your reply on its own line with exactly: ###LEARNED### FACT: <one clear sentence stating the fact you just gave, written so it stands alone without needing the rest of your reply>. This line is never shown to the user — it's how Daisy saves what you taught her so she gives the same answer instantly next time without asking you again. Skip this line entirely if you just smoothed out Daisy's own draft, or if this was just conversation with no fact to save.
 
 CAPABILITIES & FORMATTING COMMANDS:
 - WEBSITES & PAGES: When asked to build web pages or layouts, generate clean, production-ready HTML and Tailwind CSS code inside a standard markdown code block. Ensure the design is modern, responsive, and fully tailored to the user's business context.
@@ -76,28 +224,47 @@ def load_voice_model():
         return False
 
 
+_LEARNED_TAG_RE = re.compile(
+    r"\s*###LEARNED###\s*FACT:\s*(.+?)\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+
 def speak_naturally(question, raw_fact):
     """
-    Take Daisy's raw law/dictionary output and rephrase it fluently
-    via Claude, using DAISY_SYSTEM_PROMPT as the persona/rules.
-    GROUNDING RULE: Claude only ever sees the fact Daisy already
-    decided was true. If the client isn't ready, return the raw
-    fact unchanged so Daisy always still works without it.
-    """
-    if not raw_fact:
-        return raw_fact
+    Pass Daisy's drafted reply (whatever produced it — dictionary,
+    synthesis, personality fragment, math, emotion, or nothing at all)
+    through Claude, using DAISY_SYSTEM_PROMPT as the persona/rules.
+    Claude checks the draft against the actual question and rewrites
+    it if it doesn't fit, instead of just polishing wording.
 
+    Returns (display_answer, learned_fact) where learned_fact is either
+    None, or a fact string Claude supplied because Daisy's own draft
+    didn't actually answer the question (see system prompt rules 5-6).
+    The caller is responsible for saving it. If the client isn't ready,
+    returns the raw draft unchanged (or None if there was none) so
+    Daisy always still works without the voice layer.
+    """
     with _voice_lock:
         client = _claude_client
 
     if client is None:
-        return raw_fact
+        return raw_fact, None
 
     try:
+        if raw_fact:
+            context_block = f"DAISY'S DRAFT REPLY:\n{raw_fact}"
+        else:
+            context_block = "DAISY'S DRAFT REPLY: (none — she has nothing relevant in her own dictionary for this yet.)"
+
         user_message = (
-            f"CONTEXT FOR THIS REQUEST:\n{raw_fact}\n\n"
-            f"USER'S QUESTION: {question}\n\n"
-            "Answer the question naturally using only the context above."
+            f"{context_block}\n\n"
+            f"USER'S QUESTION/MESSAGE: {question}\n\n"
+            "Check the draft against what the user actually asked. If it "
+            "already fits, smooth it out lightly. If it misses the point, "
+            "doesn't actually answer the question, or there's no draft at "
+            "all, answer for real yourself, following the grounding and "
+            "learning-tag rules in your system prompt."
         )
         response = client.messages.create(
             model=VOICE_MODEL,
@@ -106,10 +273,19 @@ def speak_naturally(question, raw_fact):
             messages=[{"role": "user", "content": user_message}],
         )
         text = response.content[0].text.strip()
-        return text if text else raw_fact
+        if not text:
+            return raw_fact, None
+
+        learned_fact = None
+        m = _LEARNED_TAG_RE.search(text)
+        if m:
+            learned_fact = m.group(1).strip()
+            text = _LEARNED_TAG_RE.sub("", text).strip()
+
+        return (text if text else raw_fact), learned_fact
     except Exception as e:
-        print(f"[VOICE] Anthropic call failed: {e} — falling back to raw fact.")
-        return raw_fact
+        print(f"[VOICE] Anthropic call failed: {e} — falling back to raw draft.")
+        return raw_fact, None
 
 # ============================================================
 # FLASK APP
@@ -416,27 +592,43 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
   try {
     var learnedDict = learnedDictJSON ? JSON.parse(learnedDictJSON) : {};
     var conversationHistory = conversationHistoryJSON ? JSON.parse(conversationHistoryJSON) : [];
-    
-    // Store conversation in context for reference
-    _daisyContext.conversationHistory = conversationHistory;
+
+    // STATE-LEAK FIX: _daisyContext is one shared object on the server,
+    // not one per visitor. The old code fell back to whatever was left
+    // in _daisyContext.lastTopic/.lastAnswer from the PREVIOUS request —
+    // which, under real traffic, can belong to a completely different
+    // person. Each request already carries its own conversationHistory
+    // from the client, so that — and only that — is now the source of
+    // truth for "what was just said in THIS conversation." Nothing here
+    // reads the shared global for decisions anymore.
+    var lastTopic = null;
+    var lastAnswer = null;
     if (conversationHistory.length > 0) {
       var lastExchange = conversationHistory[conversationHistory.length - 1];
-      _daisyContext.lastTopic = lastExchange.topic || _daisyContext.lastTopic;
+      lastTopic = lastExchange.topic || null;
+      lastAnswer = lastExchange.daisy || null;
     }
-    
+    _daisyContext.conversationHistory = conversationHistory;
+
     var words = extractWords(questionText);
     var operator = detectOperator(words);
     var joiners = detectJoiners(words);
     var fullDict = Object.assign({}, DICTIONARY, learnedDict);
-    var collected = collectDictionaryData(words, fullDict);
+    // SYNTHESIS FIX: command words ("define", "what", "explain"...) and
+    // joiner words ("and", "because"...) drive the operator/joiner logic
+    // above, but must never be treated as *content* concepts to define —
+    // even if one was accidentally ingested into the dictionary itself.
+    // Without this filter, a question like "define democracy and freedom"
+    // wrongly makes "define" the primary synthesized topic.
+    var contentWords = words.filter(function(w) { return !OPERATORS[w] && !JOINERS[w]; });
+    var collected = collectDictionaryData(contentWords, fullDict);
     var emotion = detectEmotion(questionText);
 
     // ──────────────────────────────────────────────────────
     // PRIORITY 1: Follow-up patterns (conversational flow)
     // ──────────────────────────────────────────────────────
-    var followUp = _handleFollowUp(questionText, _daisyContext.lastAnswer, _daisyContext.lastTopic);
+    var followUp = _handleFollowUp(questionText, lastAnswer, lastTopic);
     if (followUp) {
-      _daisyContext.lastAnswer = followUp;
       return JSON.stringify({ answer: followUp, source: "personality", topic: null });
     }
 
@@ -445,7 +637,6 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
     // ──────────────────────────────────────────────────────
     var convo = detectConversational(questionText);
     if (convo) {
-      _daisyContext.lastAnswer = convo;
       return JSON.stringify({ answer: convo, source: "personality" });
     }
 
@@ -454,13 +645,11 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
     // ──────────────────────────────────────────────────────
     var math = tryMath(questionText);
     if (math) {
-      _daisyContext.lastAnswer = math;
       return JSON.stringify({ answer: math, source: "math" });
     }
 
     var scenario = tryScenarioMath(questionText);
     if (scenario) {
-      _daisyContext.lastAnswer = scenario;
       return JSON.stringify({ answer: scenario, source: "scenario" });
     }
 
@@ -472,9 +661,6 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
       if (synthesized) {
         var prefix = emotion ? emotionReply(emotion.r) + " — " : "";
         var answer = prefix + synthesized;
-        _daisyContext.lastTopic = collected[0].word;
-        _daisyContext.lastAnswer = answer;
-        _daisyContext.topicHistory.push(collected[0].word);
         return JSON.stringify({
           answer: answer,
           source: collected.length > 1 ? "synthesis" : "dictionary",
@@ -488,7 +674,6 @@ function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
     // ──────────────────────────────────────────────────────
     if (emotion && collected.length === 0) {
       var emotionalReply = emotionReply(emotion.r);
-      _daisyContext.lastAnswer = emotionalReply;
       return JSON.stringify({ answer: emotionalReply, source: "emotion" });
     }
 
@@ -655,19 +840,35 @@ def ask():
     if not question:
         return jsonify({"answer": "Ask me something.", "source": "empty"})
 
+    # CORRECTION CACHE — if Claude already had to answer this exact
+    # question once because Daisy's own draft didn't cover it, give
+    # the saved answer straight back. Shared across every visitor on
+    # purpose: this is settled factual knowledge, not one person's
+    # private conversation state (see the state-leak fix above for
+    # why those two things are NOT the same and must stay separate).
+    cached = get_correction(question)
+    if cached:
+        return jsonify({"answer": cached, "source": "learned"})
+
     result = ask_daisy(question, learned, history)
 
-    if not result.get("answer"):
-        result["needs_fallback"] = True
-        return jsonify(result)
+    # VOICE LAYER — every response goes through Claude now, not just
+    # dictionary/synthesis answers. Daisy's own draft (which may be a
+    # personality fragment, a math result, or nothing at all if she
+    # has zero match) is handed to Claude alongside the real question;
+    # Claude either lightly cleans up a draft that already fits, or
+    # actually answers properly if the draft misses the point or is
+    # blank. This is what fixes things like a robotic "can you
+    # rephrase that?" in response to "are you serious".
+    raw_answer = result.get("answer")
+    final_answer, learned_fact = speak_naturally(question, raw_answer)
+    result["answer"] = final_answer
+    result["raw_fact"] = raw_answer
+    if learned_fact:
+        save_correction(question, learned_fact)
 
-    # VOICE LAYER — only rephrase answers that came from Daisy's
-    # actual knowledge (dictionary/synthesis). Personality and
-    # emotion replies are already natural, no need to touch them.
-    if result.get("source") in ("dictionary", "synthesis"):
-        raw_answer = result["answer"]
-        result["answer"] = speak_naturally(question, raw_answer)
-        result["raw_fact"] = raw_answer
+    if not final_answer:
+        result["needs_fallback"] = True
 
     return jsonify(result)
 
@@ -768,6 +969,7 @@ def start_ingestion(interval_minutes=2):
 if __name__ == "__main__":
     load_daisy_brain()
     load_voice_model()
+    load_corrections()
     start_ingestion(interval_minutes=2)
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
