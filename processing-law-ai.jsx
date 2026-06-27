@@ -36203,6 +36203,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 00:04 ===
   while_the_content: "Subject to peer review , the articles published are often summaries of research that may also be published elsewhere",
 
+  // === INGESTED 2026-06-27 00:06 ===
+  digital_computing: { definition: "Intimately tied to the representation of numbers", what_it_does: "", examples: "addition, subtraction, multiplication, division, squaring, square root, and so forth" },
+  its_original_style_of_usage: { definition: "By lines drawn in sand with pebbles", what_it_does: "", examples: "the myriad myriad )" },
+  the_antikythera_mechanism: { definition: "Believed to be the earliest known geared computing device", what_it_does: "", examples: "the development of cryptanalysis and frequency analysis by Alkindus" },
+  a_planimeter: { definition: "A device that does integrals, using distance as the analog quantity", what_it_does: "", examples: "the distribution of pressures and temperatures in a heating system" },
+  but_this_is_speculation_and_there: "No sign of it so far",
+  the_competitor_to_ibm: "The digital electronic computer NCR3566, developed in NCR, Dayton, Ohio by Joseph Desch and Robert Mumma in the period April 1939 - August 1939",
+  the_computer: { definition: "Never truly completed due to Atanasoff's departure from Iowa State University in 1942 to work for the United States Navy", what_it_does: "", examples: "the Intel 8008 and Intel 8080 , were 8-bit" },
+  the_lisa: { definition: "One of the first personal computers with a graphical user interface (GUI) that was sold commercially", what_it_does: "", examples: "word processing" },
+  this_technological_advancement: "Very significant, as it was used as a model for some of the fastest multi-processor systems in the world",
+  its_maximum_speed: "40 MHz or 3 million floating point operations per second ( FLOPS )",
+  although_cdc: "A leader in supercomputers, their relationship with Seymour Cray (which had already been deteriorating) completely collapsed",
+  roadrunner: "Put into production use in April 1999",
+
 };
 
 // ============================================================
