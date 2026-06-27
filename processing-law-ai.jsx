@@ -37031,6 +37031,12 @@ const FLAT_DICT = {
   distinct_stereoisomers_that: "Not mirror-images of each other usually have different chemical properties, even in non-chiral environments",
   the_d_and_l_prefixes: "Also used with other monosaccharides, to distinguish two particular stereoisomers that are mirror-images of each other",
 
+  // === INGESTED 2026-06-27 03:06 ===
+  examples_of_substances_that: "Common reducing agents include hydrogen , carbon monoxide , the alkali metals , formic acid , [ 1 ] oxalic acid , [ 2 ] and sulfite compounds",
+  the_reducing_agent: "Stronger when it has a more negative reduction potential and weaker when it has a more positive reduction potential",
+  hydrogen_gas: "A reducing agent when it reacts with non-metals and an oxidizing agent when it reacts with metals",
+  reducing_agents_and_oxidizing_agents: "The ones responsible for corrosion , which is the 'degradation of metals as a result of electrochemical activity'",
+
 };
 
 // ============================================================
