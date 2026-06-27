@@ -37412,6 +37412,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 23:21 ===
   the_following_tables: "A comparison of machine learning software such as software frameworks , libraries , and computer programs used for machine learning",
 
+  // === INGESTED 2026-06-27 23:24 ===
+  a_nucleic_acid_sequence: "A succession of bases within the nucleotides forming alleles within a DNA (using GACT) or RNA (GACU) molecule",
+  this_succession: "Denoted by a series of a set of five different letters that indicate the order of the nucleotides",
+  because_nucleic_acids: "Normally linear (unbranched) polymers , specifying the sequence is equivalent to defining the covalent structure of the entire molecule",
+  primary_structure: "Sometimes mistakenly referred to as 'primary sequence'",
+  however_there: "No parallel concept of secondary or tertiary sequence",
+  the_nucleobases: { definition: "Important in base pairing of strands to form higher-level secondary and tertiary structures such as the famed double helix", what_it_does: "", examples: "the complementary sequence to TTAC is GTAA" },
+  if_one_strand_of_the_doublestranded_dna: "Considered the sense strand, then the other strand, considered the antisense strand, will have the complementary sequence to the sense strand",
+  hypoxanthine: "Produced from adenine , and xanthine is produced from guanine",
+  in_this_case_there: "Three differences in the 10 nucleotide sequence",
+  dna_sequencing: "The process of determining the nucleotide sequence of a given DNA fragment",
+  the_human_genome: "Believed to contain around 20,000–25,000 genes",
+  several_hundred_genetic_tests: "Currently in use, and more are being developed",
+  although_dna_and_rna_nucleotide_bases: { definition: "More similar to each other than are amino acids, the conservation of base pairs can indicate a similar functional or structural role", what_it_does: "", examples: "for example in motif and rearrangements detection" },
+
 };
 
 // ============================================================
