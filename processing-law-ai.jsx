@@ -37145,6 +37145,27 @@ const FLAT_DICT = {
   the_type_ii_functional_response: "Visualized as the graph of b a M 1 + a T H M {\displaystyle {\cfrac {baM}{1+aT_{H}M}}} vs",
   but_it_also: "That pollinator species collapse simultaneously when conditions pass a critical point",
 
+  // === INGESTED 2026-06-27 03:31 ===
+  the_gaia_hypothesis: "Formulated by the chemist James Lovelock [ 1 ] and co-developed by the microbiologist Lynn Margulis in the 1970s",
+  among_the_precursors_of_the_gaia_hypothesis: "Russian scientists such as Piotr Alekseevich Kropotkin (1842–1921), Rafail Vasil’evich Rizpolozhensky (1862 – c",
+  the_gaia_paradigm: "An influence on the deep ecology movement",
+  these_epochs: "Evidence against the ability of the pre Phanerozoic biosphere to fully self-regulate",
+  the_black_daisies: "Assumed to grow and reproduce best at a lower temperature, while the white daisies are assumed to thrive best at a higher temperature",
+  it_has_been_suggested_that_the_results: "Predictable because Lovelock and Watson selected examples that produced the responses they desired",
+  the_constant_ocean_salinity: "A long-standing mystery, because no process counterbalancing the salt influx from rivers was known",
+  it_is_hypothesized_that_these: "Created by bacterial colonies that fix ions and heavy metals during their life processes",
+  salts: "When weathering, erosion, and dissolution of rocks are transported into rivers and deposited into the oceans",
+  the_stability_of_the_atmosphere_in_earth: "Not a consequence of chemical equilibrium",
+  calcium_carbonate: "Used by living organisms to manufacture carbonaceous tests and shells",
+  one_of_these_organisms: "Emiliania huxleyi , an abundant coccolithophore algae which may have a role in the formation of clouds",
+  vernadsky_was_a_ukrainian_geochemist_and: "One of the first scientists to recognize that the oxygen, nitrogen, and carbon dioxide in the Earth's atmosphere result from biological processes",
+  vernadsky: "A pioneer of the scientific bases for the environmental sciences",
+  this_difference_with_the_earth_atmosphere: { definition: "Considered to be a proof that there was no life in these planets", what_it_does: "", examples: "oxygen and methane persist in stable concentrations in the atmosphere of the Earth" },
+  lovelock_states_that_the_initial_formulation: "Based on observation, but still lacked a scientific explanation",
+  this_new_statement_of_the_gaia_hypothesis: "More acceptable to the scientific community",
+  the_role_of_selection: { definition: "To favor organisms that are best adapted to prevailing environmental conditions", what_it_does: "", examples: "Ford Doolittle , [ 52 ] Richard Dawkins [ 53 ] and Stephen Jay Gould" },
+  a_significant_argument_raised_against_it: "The many examples where life has had a detrimental or destabilising effect on the environment rather than acting to regulate it",
+
 };
 
 // ============================================================
