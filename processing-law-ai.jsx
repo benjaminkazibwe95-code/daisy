@@ -37508,6 +37508,11 @@ const FLAT_DICT = {
   desensitization_of_the_postsynaptic_receptors: "A decrease in response to the same neurotransmitter stimulus",
   electrical_synapses: { definition: "Faster than chemical synapses", what_it_does: "", examples: "in the retina , the reticular nucleus of the thalamus , the neocortex , and in the hippocampus" },
 
+  // === INGESTED 2026-06-27 23:47 ===
+  ensemble_of_physicsinformed_neural_networks: "Applied to solve plane elasticity problems",
+  the_computational_approach: "Based on principles of artificial intelligence",
+  translation_and_discontinuous_behavior: "Hard to approximate using PINNs",
+
 };
 
 // ============================================================
