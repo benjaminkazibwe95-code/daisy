@@ -36693,6 +36693,15 @@ const FLAT_DICT = {
   a_progenitor_cell: "A biological cell that can differentiate into a specific cell type",
   some_research_found_that_progenitor_cells: "Mobile and that these progenitor cells could move through the body and migrate towards the tissue where they are needed",
 
+  // === INGESTED 2026-06-27 01:46 ===
+  organogenesis: "The phase of embryonic development that starts at the end of gastrulation and continues until birth",
+  juxtacrine_signaling: "Exchanged between adjacent cells",
+  paracrine_signals: "Sent by one cell and received by neighboring cells over short distances",
+  autocrine_signaling: "Due to intracellular signals being produced and received by the same cell",
+  studying_human_embryos: { definition: "Difficult and faces ethical concerns, but can be done using organoids developed in vitro without the use of a human embryo", what_it_does: "", examples: "the liver, lungs, and pancreas" },
+  he_noted_that_each_germ_layer: { definition: "Differentiated due to interactions with surrounding tissues", what_it_does: "", examples: "spina bifida and anencephaly" },
+  the_type_of_organ_that: "Formed depends on the relative concentrations of the hormones in the medium",
+
 };
 
 // ============================================================
