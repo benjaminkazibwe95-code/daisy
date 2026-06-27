@@ -37237,6 +37237,31 @@ const FLAT_DICT = {
   many_of_these_features: "First studied in the laboratory, and have subsequently been recognized throughout the universe",
   interaction_of_cold_gas_and_thermal_plasma: "Briefly studied by a group led by Hannes Alfvén in 1960s and 1970s for its possible applications in insulation of fusion plasma from the reactor walls",
 
+  // === INGESTED 2026-06-27 03:46 ===
+  he_first_proposed_that_light: "In fact undulations ( electromagnetic radiation ) in the same aetherial medium that is the cause of electric and magnetic phenomena",
+  an_important_consequence_of_this_notion: "That the velocity of light is totally independent of the velocity of the source",
+  he_assumed_that_two_observers_who: "Moving in the aether synchronize their clocks by optical signals",
+  another_important_step: "The postulate that the Lorentz transformation has to be valid for non-electrical forces as well",
+  he_argued_that_superluminal_velocities: "Impossible, because that would require an infinite amount of energy — the same was already noted by Thomson (1893) and Searle (1897)",
+  abraham_showed_that_both_assumptions: { definition: "Incompatible, because in Lorentz's theory of the contracted electrons, non-electric forces were needed in order to guarantee the stability of matter", what_it_does: "", examples: "gravitational waves) by extending the validity of Lorentz-invariance to non-electrical forces" },
+  he_showed_that_the_transformations: { definition: "A consequence of the principle of least action and developed the properties of the Poincaré stresses", what_it_does: "", examples: "the aether" },
+  he_stated_that_his_thinking: "Influenced by the empiricist philosophers David Hume and Ernst Mach",
+  a_further_new_result: { definition: "That the 'Lorentz invariance' is a general condition for any physical theory", what_it_does: "", examples: "a factor of ⁠ 4 / 3 ⁠ ) for the relation of mass to energy" },
+  so_it_was_einstein_who: { definition: "The first to ascribe this relation to all forms of energy, and to understand the connection of mass–energy equivalence with the relativity principle", what_it_does: "", examples: "the fundamental assumption that Lorentz's local time can be described as real time" },
+  on_return_to_the_point_of_entry_the_light: "Allowed to exit the platform in such a way that an interference pattern is obtained",
+  an_experiment_of_this_kind: { definition: "Performed by Georges Sagnac in 1913, who actually measured a displacement of the interference pattern ( Sagnac effect )", what_it_does: "", examples: "in analogy to a Foucault pendulum" },
+  from_this_observer_a_signal: "Sent to both clocks, and in the frame in which A and B are at rest, they synchronously start to run",
+  today_special_relativity: "Seen as an application of linear algebra , but at the time special relativity was being developed the field of linear algebra was still in its infancy",
+  other_important_contributions: "Made by Laue (1911, 1913), who used the spacetime formalism to create a relativistic theory of deformable bodies and an elementary particle theory",
+  he_noted_that_spacetime: "In a certain sense a four-dimensional non-Euclidean manifold",
+  this_notion: "Further developed by Born (1909) and Sommerfeld (1910), with Born introducing the expression ' hyperbolic motion '",
+  he_noted_that_there: "Many possibilities for a relativistic law, and he discussed two of them",
+  the_fundamental_defect_of_those_theories: "That they implicitly contain a negative value for the gravitational energy in the vicinity of matter, which would violate the energy principle",
+  the_decision_between_those_models: "Brought about by Einstein, when he was able to exactly derive the perihelion precession of Mercury , while the other theories gave erroneous results",
+  another_type_of_interferometer_experiment: "The Kennedy–Thorndike experiment in 1932, by which the independence of the speed of light from the velocity of the apparatus was confirmed",
+  time_dilation: "Directly measured in the Ives–Stilwell experiment in 1938 and by measuring the decay rates of moving particles in 1940",
+  this_surprising_gap_in_the_experimental_record: "Quickly closed in the ensuing years, by experiments by Fox, and by Alvager et al., which used gamma rays sourced from high energy mesons",
+
 };
 
 // ============================================================
