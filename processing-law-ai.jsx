@@ -36554,6 +36554,9 @@ const FLAT_DICT = {
   the_prolog_contains_procedures_and: "Written by a programmer",
   the_script: "Often generated automatically, using a programming language other than PostScript",
 
+  // === INGESTED 2026-06-27 01:13 ===
+  its_first_computer_book: "Programs for an Electronic Digital Computer , by Wilkes, Wheeler, and Gill",
+
 };
 
 // ============================================================
