@@ -37166,6 +37166,25 @@ const FLAT_DICT = {
   the_role_of_selection: { definition: "To favor organisms that are best adapted to prevailing environmental conditions", what_it_does: "", examples: "Ford Doolittle , [ 52 ] Richard Dawkins [ 53 ] and Stephen Jay Gould" },
   a_significant_argument_raised_against_it: "The many examples where life has had a detrimental or destabilising effect on the environment rather than acting to regulate it",
 
+  // === INGESTED 2026-06-27 03:33 ===
+  neighbor_joining_is_a_phenetic_method_that: "Often used for building similarity trees for DNA barcodes",
+  such_methods: "Often ambiguous and lacked explicit criteria for evaluating alternative hypotheses",
+  one_use_of_phylogenetic_analysis: { definition: "The pharmacological examination of closely related groups of organisms", what_it_does: "", examples: "species of Taxus for taxol) or natural variants of known pharmaceuticals (e.g" },
+  trees_from_chainlike_networks: { definition: "Less variable, deeper, more imbalanced, and narrower than those from other networks", what_it_does: "", examples: "the number of infected individuals and the time since infection" },
+  languages_sharing_larger_numbers_of_cognates: "Generally inferred to be more closely related and those sharing fewer cognates more distantly related",
+  phylogenetic_methods: "A component of quantitative comparative linguistics",
+  as_language_change: { definition: "Often linked to population dispersals they provide important insights into the history of population expansions", what_it_does: "", examples: "stone projectile point shapes [ 103 ] and Bronze Age ceramics [ 104 ]" },
+  cultural_and_linguistic_modifications: "Not always inherited vertically i.e",
+  one_way_linguists_try_to_accommodate_this: "To analyse words and grammar that tend to be more highly conserved",
+  horizontal_mixing_between_societies: "An important issue in cultural phylogenetics [ 90 ]",
+  two_further_issues: "Independent evolution and differences in evolutionary rates",
+  linguistic_skill: "Required to identify cognates and there may be marginal cases [ 93 ]",
+  cultural_data: { definition: "Difficult to codify and accuracy is dependent on the knowledge of those interpreting the raw data e.g", what_it_does: "", examples: "those that produce visual outputs of uncertain (reticulated) relationships" },
+  a_sample_of_trees: "Obtained that reflects the most likely trees but also uncertainty in the phylogeny",
+  distances_between_groups_or_taxa: "Measured as similarities of cognate or cultural trait presence",
+  a_neighbor_joining_algorithm: "Used to array groups in space and the number and length of lines between taxa gives a visual indication of possible phylogenetic histories",
+  an_example_model: "NeighbourNet [ 111 ] which has been used to analyse conflicting signals of inheritance in both biological and cultural systems [ 112 ] [ 113 ]",
+
 };
 
 // ============================================================
