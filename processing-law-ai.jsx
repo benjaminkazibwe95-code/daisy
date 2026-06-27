@@ -36217,6 +36217,11 @@ const FLAT_DICT = {
   although_cdc: "A leader in supercomputers, their relationship with Seymour Cray (which had already been deteriorating) completely collapsed",
   roadrunner: "Put into production use in April 1999",
 
+  // === INGESTED 2026-06-27 00:10 ===
+  these_formulas: "The heart of the Floyd–Warshall algorithm",
+  when_a_graph: "Dense (i.e., | E | ≈ | V | 2 {\displaystyle |E|\approx |V|^{2}} ), the Floyd-Warshall algorithm tends to perform better in practice",
+  when_the_graph: { definition: "Sparse (i.e., | E | {\displaystyle |E|} is significantly smaller than | V | 2 {\displaystyle |V|^{2}} ), Dijkstra tends to dominate", what_it_does: "", examples: "requiring them to be small integers)" },
+
 };
 
 // ============================================================
