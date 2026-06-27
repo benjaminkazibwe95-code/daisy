@@ -36791,6 +36791,21 @@ const FLAT_DICT = {
   as_the_number_of_fluorescing_molecules: "Low the spots of light are unlikely to overlap and therefore can be placed accurately",
   resolution_in_these_cases: "Limited by the size of the probe; micromachining techniques can produce probes with tip radii of 5–10 nm",
 
+  // === INGESTED 2026-06-27 02:09 ===
+  the_quadruplex_structure: "Further stabilized by the presence of a cation , especially potassium , which sits in a central channel between each pair of tetrads",
+  their_activities_in_basic_genetic_processes: "An active area of research in telomere, gene regulation, and functional genomics research",
+  such_a_quadruplex: { definition: "Described as tetramolecular, reflecting the requirement of four separate strands", what_it_does: "", examples: "G-quadruplexes if the overhang is longer than four TTAGGG repeats" },
+  one_model: { definition: "Shown below, with G-quadruplex formation in or near a promoter blocking transcription of the gene, and hence de-activating it", what_it_does: "", examples: "epigenetic regulation of genes like hTERT" },
+  tloops_and_gquadruplexes: { definition: "Described as the two tertiary DNA structures that protect telomere ends and regulate telomere length", what_it_does: "", examples: "Alzheimer's disease (AD)" },
+  its_concentration: "Used as a measurement of oxidative stress within a cell",
+  this_oxidative_product: { definition: "Formed through a tautomeric shift from the original damage guanine, 8-oxo-Gua, and represents DNA damage that causes changes in the structure", what_it_does: "", examples: "8-oxoguanine" },
+  once_the_cell: "Aware of oxidative stress and damage, it recruits OGG1 to the site, whose main function is to initiate the BER pathway",
+  the_intramolecular_gquadruplex_structures: "Formed mostly through the abundant guanine sequence in the promoter region of this specific pathway",
+  the_binding_of_ligands_to_gquadruplexes: "Vital for anti-cancer pursuits because G-quadruplexes are found typically at translocation hot spots",
+  the_shape_of_the_ligand: "Vital because it closely matches the quadruplex which has stacked quartets and the loops of nucleic acids holding it together",
+  the_quartet_and_the_chromophore: "Bound with a π-π bond while the side chains and loops are not bound but are in close proximity",
+  what_makes_this_binding_strong: { definition: "The fluidity in the position of the loops to better associate with the ligand side chains", what_it_does: "", examples: "K+ or with G-quadruplex ligands), and scan toward the far-UV region (180–230 nm)" },
+
 };
 
 // ============================================================
