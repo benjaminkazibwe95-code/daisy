@@ -37354,6 +37354,28 @@ const FLAT_DICT = {
   such_an_organization: { definition: "Called a mandatory, integrated, or unified bar, [ 5 ] [ 6 ] and is a type of government-granted monopoly", what_it_does: "", examples: "social, educational, and lobbying functions" },
   the_federal_bar_association: { definition: "A private, voluntary group", what_it_does: "", examples: "sometimes serving as the student government" },
 
+  // === INGESTED 2026-06-27 23:03 ===
+  information_theory: { definition: "Initially formed in the context of telecommunication but soon found a wide range of other applications", what_it_does: "", examples: "source coding/ data compression (e.g" },
+  the_unit_of_information: "Therefore the decimal digit , which since has sometimes been called the hartley in his honor as a unit or scale or measure of information",
+  one_of_the_most_important_measures: "Called entropy , which forms the building block of many other measures",
+  a_common_unit_of_information: "The bit or shannon , based on the binary logarithm",
+  this_quantity: "Defined as: [ 38 ] [ 39 ] A less probable symbol has a larger surprisal, meaning its occurrence provides more information",
+  if_the_source_data_symbols: "Identically distributed but not independent, the entropy of a message of length N {\displaystyle N} will be less than N ⋅ H {\displaystyle N\cdot H}",
+  the_entropy: "Given by: [ 50 ] This function is depicted in the plot shown above, reaching its maximum of 1 bit when p = 0",
+  this_implies_that_if_x_and_y: "Independent , then their joint entropy is the sum of their individual entropies",
+  the_mutual_information_of_x_relative_to_y: "Given by: where SI ( S pecific mutual Information) is the pointwise mutual information",
+  the_kl_divergence: "The (objective) expected value of Bob's (subjective) surprisal minus Alice's surprisal, measured in bits if the log is in base 2",
+  coding_theory: "One of the most important and direct applications of information theory",
+  information_rate: "The average entropy per symbol",
+  for_the_more_general_case_of_a_process_that: "Not necessarily stationary, the average rate is: that is, the limit of the joint entropy per symbol",
+  the_rate_of_a_source_of_information: "Related to its redundancy and how well it can be compressed, the subject of source coding",
+  communications_over_a_channel: "The primary motivation of information theory",
+  fungible_information: "The information for which the means of encoding is not important",
+  information_theory_leads_us_to_believe_it: { definition: "Much more difficult to keep secrets than it might first appear", what_it_does: "", examples: "block ciphers" },
+  information_theoretic_security: "Methods such as the one-time pad that are not vulnerable to such brute force attacks",
+  pseudorandom_number_generators: "Widely available in computer language libraries and application programs",
+  a_class_of_improved_random_number_generators: "Termed cryptographically secure pseudorandom number generators , but even they require random seeds external to the software to work as intended",
+
 };
 
 // ============================================================
