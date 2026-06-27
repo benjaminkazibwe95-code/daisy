@@ -37532,6 +37532,13 @@ const FLAT_DICT = {
   local_velocity: "Undefined if the corresponding image region does not contain any spatial variation",
   such_representations: "Referred to as averageable",
 
+  // === INGESTED 2026-06-27 23:53 ===
+  autoassociative_selfsupervised_learning: "A specific category of self-supervised learning where a neural network is trained to reproduce or reconstruct its own input data",
+  the_training_process: "Presenting the model with input data and requiring it to reconstruct the same data as closely as possible",
+  positive_examples: "Those that match the target",
+  the_loss_function_in_contrastive_learning: { definition: "Used to minimize the distance between positive sample pairs, while maximizing the distance between negative sample pairs", what_it_does: "", examples: "self-improvement through autonomous learning" },
+  directpred: "A NCSSL that directly sets the predictor weights instead of learning it via typical gradient descent",
+
 };
 
 // ============================================================
