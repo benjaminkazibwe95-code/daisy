@@ -37111,6 +37111,12 @@ const FLAT_DICT = {
   the_tale: "Partly based on historical events , [ 140 ] including the albino sperm whale Mocha Dick",
   the_first_beluga: { definition: "Shown at Barnum's Museum in New York City in 1861", what_it_does: "", examples: "narwhal, Sowerby's beaked whale, grey whale, and minke whale in captivity, often unsuccessfully" },
 
+  // === INGESTED 2026-06-27 03:23 ===
+  biological_organization: "The organization of complex biological structures and systems that define life using a reductionistic approach",
+  the_higher_levels_of_this_scheme: { definition: "Often referred to as an ecological organizational concept, or as the field , hierarchical ecology", what_it_does: "", examples: "multiple ecosystems" },
+  these_new_roles: "Not functions that the lower level components are capable of and are thus referred to as emergent properties",
+  every_organism: "Organized, though not necessarily to the same degree",
+
 };
 
 // ============================================================
