@@ -36508,6 +36508,15 @@ const FLAT_DICT = {
   because_forth: "Simple to implement and has no standard reference implementation, there are numerous versions of the language",
   listed_here: "Some of the systems which conform to the 1994 ANS Forth standard",
 
+  // === INGESTED 2026-06-27 01:02 ===
+  the_term_run: "Generally synonymous",
+  the_act_of_starting_execution: "Often called launching or invoking in addition to executing and running",
+  an_execution_environment: "The context in which a program runs",
+  hostnative: { definition: "A common scenario for execution, especially historically", what_it_does: "", examples: "memory page addresses and register values" },
+  a_runtime_system: { definition: "A software layer that provides services to an executable", what_it_does: "", examples: "a runtime system" },
+  an_interpreter_executes_code_that: "In a form that can be executed directly",
+  an_executable: "Directly executable by a CPU (including a virtual CPU)",
+
 };
 
 // ============================================================
