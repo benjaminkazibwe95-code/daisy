@@ -36689,6 +36689,10 @@ const FLAT_DICT = {
   possessive_or_associated_adjectives: "Probably created from nouns through internal derivation",
   if_the_first_element: { definition: "A noun, this created an adjective that resembled a present participle in meaning, e.g", what_it_does: "", examples: "[ 48 ] : 21 In athematic stems, there was a change in the accent/ablaut class" },
 
+  // === INGESTED 2026-06-27 01:44 ===
+  a_progenitor_cell: "A biological cell that can differentiate into a specific cell type",
+  some_research_found_that_progenitor_cells: "Mobile and that these progenitor cells could move through the body and migrate towards the tissue where they are needed",
+
 };
 
 // ============================================================
