@@ -36707,6 +36707,10 @@ const FLAT_DICT = {
   many_anabolic_processes: "Powered by the cleavage of adenosine triphosphate (ATP)",
   substrates_for_anabolism: { definition: "Mostly intermediates taken from catabolic pathways during periods of high energy charge in the cell", what_it_does: "", examples: "glycolysis fluctuating to match an animal's normal periods of activity throughout the day" },
 
+  // === INGESTED 2026-06-27 01:51 ===
+  cephalization: { definition: "A characteristic feature among most bilaterians, where the sense organs and central nerve ganglia become concentrated at the front end of the animal", what_it_does: "", examples: "food, favouring cephalisation , the development of a head with sense organs and a mouth" },
+  held_presents_evidence_that_it: { definition: "Segmented, as the mechanism for creating segments is shared between vertebrates ( deuterostomes ) and arthropods ( protostomes )", what_it_does: "", examples: "of their heads , than do the Cnidaria and the Acoelomorpha" },
+
 };
 
 // ============================================================
