@@ -36341,6 +36341,10 @@ const FLAT_DICT = {
   a_program_written_in_assembly_language: { definition: "Non-portable , due to being written and optimized for a particular architecture", what_it_does: "", examples: "symbolic addresses, to opcodes , addresses , numeric constants, strings and so on" },
   one_method_for_doing_this: "Inline assembly , in which assembly code is embedded in the high-level language code",
 
+  // === INGESTED 2026-06-27 00:37 ===
+  computer_companies: { definition: "Known to tune their systems to improve performance on benchmark tests that are not representative of real world usage", what_it_does: "", examples: "the 'benchmark wars' between rival relational database makers in the 1980s and 1990s" },
+  interpretation_of_benchmarking_data: "Also extraordinarily difficult",
+
 };
 
 // ============================================================
