@@ -37388,6 +37388,17 @@ const FLAT_DICT = {
   each_of_these_entries: "An ad hoc addition to the intelligence of the system",
   the_trick: { definition: "That there is no trick", what_it_does: "", examples: "mathematical optimization and neural networks" },
 
+  // === INGESTED 2026-06-27 23:09 ===
+  the_atlantic: "An American magazine and multi-platform publisher based in Washington, D.C",
+  the_above_named: "The only ones invited, and they were all present",
+  cabot: "Much wiser than I am",
+  emerson: "A philosopher and I am not",
+  the_atlantic_monthly_press: "Founded in 1917; for many years, it was operated in partnership with Little, Brown and Company",
+  its_launch: { definition: "Overseen by Nicholas Jackson, who had previously been overseeing the Life channel and initially joined the website to cover technology", what_it_does: "", examples: "the archives and narrated articles and various other features" },
+  among_its_offerings: "Navigator, 'a guide to urban life'; and Solutions, which covers solutions to problems in a dozen topics",
+  the_page_comments: "Moderated by the marketing team, not by editorial staff, and comments critical of the church were being removed",
+  although_the_settlement_terms: "Not publicly disclosed in court, The New York Times reported that The Atlantic agreed to pay Barrett more than $1 million",
+
 };
 
 // ============================================================
