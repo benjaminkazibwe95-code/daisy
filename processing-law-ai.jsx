@@ -37185,6 +37185,12 @@ const FLAT_DICT = {
   a_neighbor_joining_algorithm: "Used to array groups in space and the number and length of lines between taxa gives a visual indication of possible phylogenetic histories",
   an_example_model: "NeighbourNet [ 111 ] which has been used to analyse conflicting signals of inheritance in both biological and cultural systems [ 112 ] [ 113 ]",
 
+  // === INGESTED 2026-06-27 03:38 ===
+  it_posits_that_the_metabolic_rate_of_organisms: "The fundamental biological rate that governs most observed patterns in ecology",
+  mte: "A macroecological theory that aims to be universal in scope and application",
+  the_metabolic_rate_of_a_heterotroph: { definition: "Defined as the rate of respiration in which energy is obtained by oxidation of a carbon compound", what_it_does: "", examples: "cells and organelles" },
+  it_has_long_been_observed_that_there: { definition: "More small species than large species", what_it_does: "", examples: "higher productivity or reduced seasonality" },
+
 };
 
 // ============================================================
