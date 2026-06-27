@@ -36517,6 +36517,21 @@ const FLAT_DICT = {
   an_interpreter_executes_code_that: "In a form that can be executed directly",
   an_executable: "Directly executable by a CPU (including a virtual CPU)",
 
+  // === INGESTED 2026-06-27 01:07 ===
+  altmetrics: { definition: "Proposed to rely upon a greater set of measures that account for tweets, blogs, discussions, and bookmarks", what_it_does: "", examples: "collaboration patterns, to produce comprehensive impact measures" },
+  the_central_concern_of_the_school: "With the legal and other obstacles that hinder the access of research publications and scientific data to the public",
+  debates_over_priority: "Inherent in systems where science is not published openly, and this was problematic for scientists who wanted to benefit from priority",
+  its_first_pillar: { definition: "Free access to scientific publications", what_it_does: "", examples: "open archives and open access journals, free of charge for the reader" },
+  the_core_issue_is_that_these_metrics: "Designed not only to measure but also to influence researchers' behavior",
+  increasingly_the_reproducibility_of_science: "Being questioned and for many papers or multiple fields of research [ 83 ] [ 84 ] was shown to be lacking",
+  open_source_electronics: "Particularly beneficial and able to be replicated with CNC mills",
+  the_tableau_of_organizations: { definition: "Dynamic with some organizations becoming defunct, e.g., Science Commons , and new organizations trying to grow, e.g., the Self-Journal of Science", what_it_does: "", examples: "OCSDNet 's [ 139 ] concentration on the developing world" },
+  other_projects: { definition: "Organized around completion of projects that require extensive collaboration", what_it_does: "", examples: "OpenWorm seeks to make a cellular level simulation of a roundworm, a multidisciplinary project" },
+  these_code_implementations: "Also surfaced on the preprint server arXiv [ 147 ] and open peer-review platform OpenReview",
+  within_scholarly_societies_there: "Also sections and interest groups that promote open science practices",
+  the_interplanetary_idea_system: "A blockchain based system that tracks the evolution of scientific ideas over time",
+  the_research_network: { definition: "A social networking platform for researchers", what_it_does: "", examples: "the Open Science Framework" },
+
 };
 
 // ============================================================
