@@ -37461,6 +37461,29 @@ const FLAT_DICT = {
   a_variety_of_networks: "Supported, from LAN to WAN or the public Internet",
   schwartz: "One of the first CEOs of large companies to regularly blog; his postings were frequently quoted and analyzed in the press",
 
+  // === INGESTED 2026-06-27 23:40 ===
+  fuzzy_logic: "An important concept in medical decision making",
+  the_term_fuzzy_logic: { definition: "Introduced with the 1965 proposal of fuzzy set theory by mathematician Lotfi Zadeh", what_it_does: "", examples: "linguistic variables and lattices" },
+  fuzzy_models_or_fuzzy_sets_are_mathematical: "Of representing vagueness and imprecise information (hence the term fuzzy)",
+  classical_logic_only_permits_conclusions_that: { definition: "Either true or false", what_it_does: "", examples: "age may accept values such as young and its antonym old" },
+  these_fuzzy_sets: "Typically described by words, and so by assigning the system input to fuzzy sets, we can reason with it in a linguistically natural manner",
+  a_common_replacement: "Called the Zadeh operator s : For TRUE/1 and FALSE/0, the fuzzy expressions produce the same result as the Boolean expressions",
+  the_generalization_of_and: "An instance of a t-norm",
+  the_variables_in_the_consequent: "The system's input variables evaluated at the current input, while the antecedent membership values determine the weights of the rules",
+  the_main_advantage_of_using_tsk_over_mamdani: { definition: "That it is computationally efficient and works well within other algorithms, such as PID control and with optimization algorithms", what_it_does: "", examples: "in adaptive neuro fuzzy inference systems" },
+  a_first_notable_application: "On the Sendai Subway 1000 series , in which fuzzy logic was able to improve the economy, comfort, and precision of the ride",
+  nowhere_in_that_process: "There anything like the sequences of either-or decisions which characterize non-fuzzy mathematics, computer programming , and digital electronics",
+  a_major_challenge: "How to derive the required fuzzy data",
+  this_is_why_fuzzy_logic: "A highly promising possibility within the medical decision making application area but still requires more research to achieve its full potential",
+  once_fuzzy_relations: { definition: "Defined, it is possible to develop fuzzy relational databases", what_it_does: "", examples: "the SQLf by P" },
+  we_say_that_s: "Decidable if both s and its complement – s are recursively enumerable",
+  the_proposed_definitions: "Well related to fuzzy logic",
+  another_open_question: "To start from this notion to find an extension of Gödel 's theorems to fuzzy logic",
+  zadeh_argues_that_fuzzy_logic: { definition: "Different in character from probability, and is not a replacement for it", what_it_does: "", examples: "dynamical systems" },
+  another_logical_system_where_truth_values: "Real numbers between 0 and 1 and where AND & OR operators are replaced with MIN and MAX is Gödel's G ∞ logic",
+  the_conjunction: "The geometric mean and its dual as conjunctive and disjunctive operators",
+  fml: "Based on eXtensible Markup Language ( XML )",
+
 };
 
 // ============================================================
