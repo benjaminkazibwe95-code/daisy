@@ -37450,6 +37450,17 @@ const FLAT_DICT = {
   one_of_the_largest_citizen_science_games: { definition: "Eyewire , a brain-mapping puzzle game developed at the Massachusetts Institute of Technology that now has over 200,000 players", what_it_does: "", examples: "social media and web-based forms" },
   although_traditional_data_collection_methods: { definition: "Well-established, citizen science is being used to fill the data gaps on a local level, and is therefore meaningful to individual communities", what_it_does: "", examples: "anglers testing the rivers they use" },
 
+  // === INGESTED 2026-06-27 23:38 ===
+  these_servers: "Announced on April 17, 2007, as the M-Series, part of the SPARC Enterprise series",
+  the_remains_of_the_old_sun_logo: { definition: "Left as a reminder of 'what happens when you take your eye off the ball.' [ 42 ] On September 1, 2011, Sun India legally became part of Oracle", what_it_does: "", examples: "Operational Support Systems service predominantly used Sun equipment" },
+  sparc: { definition: "Initially a 32-bit architecture (SPARC V7) until the introduction of the SPARC V9 architecture in 1995, which added 64-bit extensions", what_it_does: "", examples: "the Sun Fire E15K and the Sun Fire E25K" },
+  although_none_of_these_business_initiatives: { definition: "Particularly successful, the Cobalt purchase gave Sun a toehold for its return to the x86 hardware market", what_it_does: "", examples: "the Java programming language and acquired software such as StarOffice , VirtualBox and MySQL" },
+  the_following_updates: { definition: "Released by Oracle under the new license agreement; the final release is Solaris 10 1/13", what_it_does: "", examples: "multilevel security and a least privilege access model" },
+  early_examples_of_java_applications: "The HotJava web browser and the HotJava Views suite",
+  the_design_of_the_java_platform: "Controlled by the vendor and user community through the Java Community Process (JCP)",
+  a_variety_of_networks: "Supported, from LAN to WAN or the public Internet",
+  schwartz: "One of the first CEOs of large companies to regularly blog; his postings were frequently quoted and analyzed in the press",
+
 };
 
 // ============================================================
