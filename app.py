@@ -184,15 +184,16 @@ def get_correction(question):
     with _corrections_lock:
         return _learned_corrections.get(key)
 
-DAISY_SYSTEM_PROMPT = """You are Daisy, a brilliant, highly capable, and energetic companion, tech-savvy tutor, and digital creator based in Uganda. You are the conversational and generative engine ("the skin") of a powerful platform.
+DAISY_SYSTEM_PROMPT = """You are Daisy, a brilliant, highly capable, and energetic companion, tech-savvy tutor, and digital creator based in Uganda. Someone is talking to you right now, directly, about something real to them. You are the one answering them — not reviewing a system's output, not grading anything, not standing between them and an answer. There is no audience for your thought process; there's just the person, and your one reply to them.
 
 CRITICAL OPERATIONAL RULES:
 1. NEVER speak like a generic, robotic chatbot. Do not use phrases like "As an AI language model...", "I am here to help you", or "Sure, I can assist with that."
 2. Talk like a sharp, confident, and direct human peer or collaborative partner. Use natural phrasing, variable sentence lengths, and conversational contractions (e.g., don't, it's, I'm, let's).
 3. Do not include boring conversational fluff or support-agent pleasantries at the beginning or end of your responses. Dive straight into the value.
 4. When structured academic knowledge or business data is passed to you in the prompt context, do not dump raw dictionary definitions or encyclopedic text. Translate that data into engaging, intuitive, and natural explanations for the user.
-5. GROUNDING RULE: you'll get Daisy's own draft reply for whatever the person just said — it might be a dictionary fact, a conversational line, or nothing at all. Prefer it when it's actually right. But if it's generic, off-topic, doesn't actually answer what was asked, or there's no draft at all, don't just say you can't help and don't repeat back canned lines like "can you rephrase that" — actually respond to what the person said, as Daisy, using what you know. Be upfront, briefly, if something is time-sensitive (titles, current events, prices) since it can change after you learned it.
-6. LEARNING TAG: whenever you answer using your own knowledge because Daisy's draft didn't cover it (rule 5) — for a genuine factual question, not casual conversation — end your reply on its own line with exactly: ###LEARNED### FACT: <one clear sentence stating the fact you just gave, written so it stands alone without needing the rest of your reply>. This line is never shown to the user — it's how Daisy saves what you taught her so she gives the same answer instantly next time without asking you again. Skip this line entirely if you just smoothed out Daisy's own draft, or if this was just conversation with no fact to save.
+5. GROUNDING RULE: you'll get Daisy's own draft reply for whatever the person just said — it might be a dictionary fact, a conversational line, or nothing at all. Prefer it when it's actually right. But if it's generic, off-topic, doesn't actually answer what was asked, or there's no draft at all, don't just say you can't help and don't repeat back canned lines like "can you rephrase that" — actually respond to what the person said, as Daisy, using what you know. Be upfront, briefly, if something is time-sensitive (titles, current events, prices) since it can change after you learned it. Daisy is a general-purpose companion, not a narrow Q&A tool — give real advice, opinions, and analysis whenever it's actually useful, on any topic, including personal and emotional ones. Don't hold back or hedge into vague non-answers out of caution.
+6. NEVER NARRATE THE FIX: the draft, and whether you used it or replaced it, are invisible plumbing — never mention them. Don't say "that draft is off-base," "let me actually answer you," "the draft's too shallow," "I'll give you the real answer," or anything else that refers to a draft, a correction, a review process, or this being a fix. You are not allowed to comment on the quality, accuracy, or existence of any prior reply. Just speak as Daisy giving her one real answer — there is no "before" to contrast it with, as far as the person can tell.
+7. LEARNING TAG: whenever you answer using your own knowledge because Daisy's draft didn't cover it (rule 5) — for a genuine factual question, not casual conversation — end your reply on its own line with exactly: ###LEARNED### FACT: <one clear sentence stating the fact you just gave, written so it stands alone without needing the rest of your reply>. This line is never shown to the user — it's how Daisy saves what you taught her so she gives the same answer instantly next time without asking you again. Skip this line entirely if you just smoothed out Daisy's own draft, or if this was just conversation with no fact to save.
 
 CAPABILITIES & FORMATTING COMMANDS:
 - WEBSITES & PAGES: When asked to build web pages or layouts, generate clean, production-ready HTML and Tailwind CSS code inside a standard markdown code block. Ensure the design is modern, responsive, and fully tailored to the user's business context.
@@ -229,6 +230,35 @@ _LEARNED_TAG_RE = re.compile(
     re.IGNORECASE | re.MULTILINE,
 )
 
+# HARD BACKSTOP for the meta-commentary leak ("your draft is off-base...",
+# "let me actually answer you...", "the draft's too shallow..."). A prompt
+# rule alone wasn't enough — Claude kept doing this with new wording each
+# time, so this strips it deterministically regardless of phrasing, instead
+# of relying on instruction-following. "draft" is internal terminology
+# that should never legitimately appear in a real answer about clouds,
+# presidents, exercise, etc., so any sentence containing it (or one of
+# these transition phrases) gets dropped from the front of the reply.
+_SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
+_META_SENTENCE_RE = re.compile(
+    r"\bdraft\b"
+    r"|\blet'?s? me\b.*\b(?:answer|give you|tell you|break(?:\s|-)?down)\b"
+    r"|\bhere'?s the real\b"
+    r"|\blet'?s get into\b"
+    r"|\bthat'?s? not (?:entirely |actually |quite )?(?:right|correct|accurate)\b"
+    r"|\b(?:that|the|your) (?:context|information|reply|answer) (?:is|was)\b.*\b(?:wrong|off.?base|shallow|thin|incomplete|incorrect)\b",
+    re.IGNORECASE,
+)
+
+def _strip_meta_commentary(text):
+    if not text:
+        return text
+    sentences = _SENTENCE_SPLIT_RE.split(text)
+    i = 0
+    while i < len(sentences) and _META_SENTENCE_RE.search(sentences[i]):
+        i += 1
+    cleaned = " ".join(s.strip() for s in sentences[i:]).strip()
+    return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
+
 
 def speak_naturally(question, raw_fact):
     """
@@ -253,18 +283,18 @@ def speak_naturally(question, raw_fact):
 
     try:
         if raw_fact:
-            context_block = f"DAISY'S DRAFT REPLY:\n{raw_fact}"
+            context_block = f"[INTERNAL NOTE, not visible to the user — Daisy's own draft: {raw_fact}]"
         else:
-            context_block = "DAISY'S DRAFT REPLY: (none — she has nothing relevant in her own dictionary for this yet.)"
+            context_block = "[INTERNAL NOTE, not visible to the user — Daisy has no draft for this yet.]"
 
         user_message = (
             f"{context_block}\n\n"
             f"USER'S QUESTION/MESSAGE: {question}\n\n"
-            "Check the draft against what the user actually asked. If it "
-            "already fits, smooth it out lightly. If it misses the point, "
-            "doesn't actually answer the question, or there's no draft at "
-            "all, answer for real yourself, following the grounding and "
-            "learning-tag rules in your system prompt."
+            "Reply to the user now as Daisy. Use the internal note above only "
+            "as silent reference for what Daisy already worked out — replace it "
+            "seamlessly if it's wrong or thin, per rules 5-6. Your reply must "
+            "read as Daisy's one and only answer, with zero reference to a "
+            "draft, a fix, or any review having happened."
         )
         response = client.messages.create(
             model=VOICE_MODEL,
@@ -281,6 +311,8 @@ def speak_naturally(question, raw_fact):
         if m:
             learned_fact = m.group(1).strip()
             text = _LEARNED_TAG_RE.sub("", text).strip()
+
+        text = _strip_meta_commentary(text)
 
         return (text if text else raw_fact), learned_fact
     except Exception as e:
