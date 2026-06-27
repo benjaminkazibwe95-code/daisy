@@ -244,22 +244,22 @@
     .msg-actions {
       display: flex;
       align-items: center;
-      gap: 2px;
+      gap: 4px;
       margin-top: 8px;
       opacity: 0.75;
     }
     .msg-action-btn {
-      width: 30px; height: 30px;
+      width: 36px; height: 36px;
       border: none;
       background: none;
       color: var(--muted);
-      border-radius: 8px;
+      border-radius: 9px;
       display: flex; align-items: center; justify-content: center;
       cursor: pointer;
       transition: background 0.15s, color 0.15s;
     }
     .msg-action-btn:hover { background: var(--card); color: var(--text); }
-    .msg-action-btn svg { width: 15px; height: 15px; }
+    .msg-action-btn svg { width: 17px; height: 17px; }
     .msg-action-btn.active.up   { color: #6ee7b7; }
     .msg-action-btn.active.down { color: #f87171; }
     .msg-action-btn.copied { color: var(--daisy); }
@@ -334,6 +334,36 @@
     @keyframes pulse {
       0%, 100% { opacity: 0.2; transform: scale(0.8); }
       50%       { opacity: 1;   transform: scale(1.1); }
+    }
+
+    /* ── THINKING PANEL (steps + which law fired) ── */
+    .thinking-panel {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 10px 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .thinking-panel .t-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--daisy);
+      flex-shrink: 0;
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+    .thinking-step {
+      transition: opacity 0.22s ease;
+    }
+    .thinking-tag {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 10px;
+      color: var(--daisy);
+      background: var(--card);
+      border-radius: 6px;
+      padding: 2px 6px;
+      margin-left: 7px;
+      letter-spacing: 0.02em;
     }
 
     /* ── QUICK STARTS ── */
@@ -1050,7 +1080,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const ICONS = {
     copy:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a1 1 0 01-1-1V4a1 1 0 011-1h10a1 1 0 011 1v1"/></svg>',
     up:       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11v9H4a1 1 0 01-1-1v-7a1 1 0 011-1h3zm0 0l4.5-7.5a1.5 1.5 0 012.7 1.3L13 9h5.3a2 2 0 011.9 2.7l-2.3 6A2 2 0 0116 19H9a2 2 0 01-2-2v-6z"/></svg>',
-    down:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="scale(1,-1) translate(0,-24)"><path d="M7 11v9H4a1 1 0 01-1-1v-7a1 1 0 011-1h3zm0 0l4.5-7.5a1.5 1.5 0 012.7 1.3L13 9h5.3a2 2 0 011.9 2.7l-2.3 6A2 2 0 0116 19H9a2 2 0 01-2-2v-6z"/></svg>',
+    down:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(1,-1) translate(0,-24)"><path d="M7 11v9H4a1 1 0 01-1-1v-7a1 1 0 011-1h3zm0 0l4.5-7.5a1.5 1.5 0 012.7 1.3L13 9h5.3a2 2 0 011.9 2.7l-2.3 6A2 2 0 0116 19H9a2 2 0 01-2-2v-6z"/></g></svg>',
     share:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.6l6.8-3.8M8.6 13.4l6.8 3.8"/></svg>',
     redo:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0115.5-6.4M21 12a9 9 0 01-15.5 6.4"/><path d="M3 5v5h5M21 19v-5h-5"/></svg>',
     edit:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4h2M4 20h4l10.5-10.5a2.1 2.1 0 00-3-3L5 17v3z"/></svg>',
@@ -1168,11 +1198,57 @@ document.addEventListener('DOMContentLoaded', function() {
     return div;
   }
 
+  function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+  function isNearBottom() {
+    return mainEl.scrollHeight - mainEl.scrollTop - mainEl.clientHeight < 150;
+  }
+
+  function maybeAutoScroll(div) {
+    if (isNearBottom()) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  }
+
+  // Typed reveal of an already-complete answer. This is a SIMULATED
+  // typing effect on text we already have in full — not real token
+  // streaming from Claude. True streaming would need the backend to
+  // push partial output over time (server-sent events + a streaming
+  // call to the Anthropic API); this gets the same visual effect
+  // without that infrastructure.
+  async function typeIntoBody(body, fullText, div) {
+    const CHUNK = 3, DELAY_MS = 14;
+    for (let i = 0; i <= fullText.length; i += CHUNK) {
+      body.innerHTML = renderMarkdown(fullText.slice(0, i));
+      maybeAutoScroll(div);
+      await sleep(DELAY_MS);
+    }
+    body.innerHTML = renderMarkdown(fullText); // final clean pass
+  }
+
+  async function addMsgTyped(text, opts) {
+    opts = opts || {};
+    const div = document.createElement('div');
+    div.className = 'msg daisy';
+    const label = document.createElement('div');
+    label.className = 'daisy-label';
+    label.textContent = 'Daisy';
+    const body = document.createElement('div');
+    body.className = 'md-body';
+    div.appendChild(label);
+    div.appendChild(body);
+    chatArea.appendChild(div);
+    div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+
+    await typeIntoBody(body, text, div);
+    div.appendChild(buildActionToolbar(() => body.innerText, opts.question));
+    return div;
+  }
+
   async function regenerate(btn, question) {
     const msgDiv = btn.closest('.msg.daisy');
     const body = msgDiv.querySelector('.md-body');
     const original = body.innerHTML;
-    body.style.opacity = '0.5';
+    body.style.opacity = '0.55';
+    body.innerHTML = 'Thinking again…';
     try {
       const res = await fetch('/ask', {
         method: 'POST',
@@ -1181,8 +1257,8 @@ document.addEventListener('DOMContentLoaded', function() {
       });
       const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
-      body.innerHTML = renderMarkdown(answer);
       body.style.opacity = '1';
+      await typeIntoBody(body, answer, msgDiv);
     } catch(e) {
       body.innerHTML = original;
       body.style.opacity = '1';
@@ -1242,13 +1318,61 @@ document.addEventListener('DOMContentLoaded', function() {
     msgMenu.style.top = top + 'px';
   }
 
-  function addThinking() {
+  // ── THINKING PANEL — shows real steps, ending on whichever "law"
+  // actually answered (Daisy's source field), not a fake animation
+  // disconnected from what really happened. ──
+  function sourceToFinalStep(data) {
+    const src = data.source;
+    const hasDraft = !!(data.raw_fact && String(data.raw_fact).trim());
+    const map = {
+      personality: "Found the right tone",
+      math:        "Worked it out",
+      scenario:    "Worked it out",
+      emotion:     "Read the tone",
+      learned:     "Found this saved from before",
+    };
+    if (map[src]) return { label: map[src], tag: src };
+    if (src === 'dictionary' || src === 'synthesis') {
+      return hasDraft
+        ? { label: "Found a match — polishing it", tag: src }
+        : { label: "Nothing on this yet — researching it now", tag: src };
+    }
+    if (src === 'unknown') return { label: "Nothing on this yet — researching it now", tag: src };
+    return { label: "Putting it together", tag: src || 'reply' };
+  }
+
+  function addThinkingPanel() {
     const div = document.createElement('div');
-    div.className = 'thinking';
-    div.innerHTML = '<span></span><span></span><span></span>';
+    div.className = 'thinking-panel';
+    div.innerHTML = '<span class="t-dot"></span><span class="thinking-step">Reading your message…</span>';
     chatArea.appendChild(div);
     div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+
+    const stepEl = div.querySelector('.thinking-step');
+    let cancelled = false;
+    const t = setTimeout(async () => {
+      if (cancelled) return;
+      stepEl.style.opacity = '0';
+      await sleep(220);
+      if (cancelled) return;
+      stepEl.textContent = "Checking Daisy's dictionary…";
+      stepEl.style.opacity = '1';
+    }, 550);
+
+    div._cancel = () => { cancelled = true; clearTimeout(t); };
+    div._stepEl = stepEl;
     return div;
+  }
+
+  async function settleThinkingPanel(panel, data) {
+    panel._cancel();
+    const final = sourceToFinalStep(data);
+    panel._stepEl.style.opacity = '0';
+    await sleep(150);
+    panel._stepEl.innerHTML = `${escHtml(final.label)}<span class="thinking-tag">${escHtml(final.tag)}</span>`;
+    panel._stepEl.style.opacity = '1';
+    await sleep(420);
+    panel.remove();
   }
 
   async function sendMessage(overrideText) {
@@ -1258,7 +1382,7 @@ document.addEventListener('DOMContentLoaded', function() {
     inp.style.height = 'auto';
     activateChat();
     addMsg(text, 'user');
-    const thinking = addThinking();
+    const panel = addThinkingPanel();
 
     try {
       const res  = await fetch('/ask', {
@@ -1267,22 +1391,21 @@ document.addEventListener('DOMContentLoaded', function() {
         body: JSON.stringify({ question: text })
       });
       const data = await res.json();
-      thinking.remove();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
-      addMsg(answer, 'daisy', { question: text });
+      await settleThinkingPanel(panel, data);
+      await addMsgTyped(answer, { question: text });
       if (ttsOn) speak(answer);
     } catch(e) {
-      thinking.remove();
+      panel._cancel();
+      panel.remove();
       addMsg("I couldn't reach my brain right now. Try again.", 'daisy');
     }
   }
 
   function quickAsk(text) {
     activateChat();
-    addMsg(text, 'user');
     inp.value = text;
     sendMessage(text);
-    inp.value = '';
   }
 
   // ── SCROLL TO BOTTOM ──
@@ -1427,7 +1550,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         activateChat();
         addMsg(question, 'user');
-        const thinking = addThinking();
+        const panel = addThinkingPanel();
         try {
           const res  = await fetch('/ask', {
             method: 'POST',
@@ -1435,13 +1558,14 @@ document.addEventListener('DOMContentLoaded', function() {
             body: JSON.stringify({ question })
           });
           const data = await res.json();
-          thinking.remove();
           const answer = data.answer || "Still learning that one.";
-          addMsg(answer, 'daisy');
+          await settleThinkingPanel(panel, data);
+          await addMsgTyped(answer, { question });
           transcript.textContent = answer;
           speak(answer);
         } catch(e) {
-          thinking.remove();
+          panel._cancel();
+          panel.remove();
           transcript.textContent = "Couldn't reach Daisy.";
         }
       }
