@@ -37059,6 +37059,19 @@ const FLAT_DICT = {
   that_heat: "Wasted energy, and could damage the cell",
   when_more_than_one_electron: "Created per incident photon)",
 
+  // === INGESTED 2026-06-27 03:15 ===
+  euphorbia: "Now subdivided into four subgenera : Athymalus , Chamaesyce , Esula and Euphorbia",
+  some_euphorbias: { definition: "Widely available commercially, such as poinsettias at Christmas", what_it_does: "", examples: "the crown of thorns plant ( Euphorbia milii )" },
+  the_succulent_trees_and_large_shrubs: "Mostly confined to southern and eastern Africa, but others are found elsewhere",
+  the_stipules: "Mostly small, partly transformed into spines or glands , or missing",
+  euphorbias: { definition: "Often used as hedging plants in many parts of Africa", what_it_does: "", examples: "Chamaesyce , Monadenium, Pedilanthus , and poinsettia ( E" },
+  the_involucre: { definition: "Above and supported by bract -like modified leaf structures (usually in pairs) [ citation needed ] called cyathophylls', or cyathial leaves", what_it_does: "", examples: "glands that attached to these" },
+  the_majority_of_species: "Monoecious (bearing male and female flowers on the same plant), although some are dioecious with male and female flowers occurring on different plants",
+  the_skinirritating_and_caustic_effects: { definition: "Largely caused by varying amounts of diterpenes", what_it_does: "", examples: "betulin and corresponding esters are other major components of the latex" },
+  congealed_latex: { definition: "Insoluble in water, but can be removed with an emulsifier such as milk or soap", what_it_does: "", examples: "permanent blindness may result from exposure to the sap" },
+  the_bottom_line: "That a number of clades have been placed inside or outside of Euphorbia at different times",
+  the_subgenera_chamaesyce_and_euphorbia: "Probably sister taxa , but very closely related to subgenus Athymalus (formerly Rhizanthium [ 27 ] )",
+
 };
 
 // ============================================================
