@@ -36929,6 +36929,11 @@ const FLAT_DICT = {
   progress_of_replication_forks: "Inhibited by many factors; collision with proteins or with complexes binding strongly on DNA, deficiency of dNTPs, nicks on template DNAs and so on",
   as_other_mechanism_of_the_rescue_there: { definition: "Application of dormant replication origins that excess origins do not fire in normal DNA replication", what_it_does: "", examples: "[ 72 ] Researchers commonly replicate DNA in vitro using the polymerase chain reaction (PCR)" },
 
+  // === INGESTED 2026-06-27 02:33 ===
+  the_annual_review_of_biophysics: "A peer-reviewed scientific journal published annually by Annual Reviews",
+  the_editor: "Assisted by the editorial committee , which includes associate editors, regular members, and occasionally guest editors",
+  all_other_members_of_the_editorial_committee: "Appointed by the Annual Reviews board of directors and serve five-year terms",
+
 };
 
 // ============================================================
