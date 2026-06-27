@@ -37406,6 +37406,9 @@ const FLAT_DICT = {
   these_subfields: { definition: "Also studied in non-generative approaches", what_it_does: "", examples: "morphemes into larger units such as phrases and sentences" },
   the_semantic_interpretation_of_a_sentence: { definition: "Represented by its deep structure, while the surface structure provided its pronunciation", what_it_does: "", examples: "'Everyone in the room knows two languages' and 'Two languages are known by everyone in the room'" },
 
+  // === INGESTED 2026-06-27 23:15 ===
+  a_chatbot: "A software application or web interface that is designed to mimic human conversation through text or voice interactions",
+
 };
 
 // ============================================================
