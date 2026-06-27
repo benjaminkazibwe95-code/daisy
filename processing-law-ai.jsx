@@ -36748,6 +36748,34 @@ const FLAT_DICT = {
   land_surfaces: { definition: "Either bare rock or shifting sand produced by weathering", what_it_does: "", examples: "clubmosses such as Baragwanathia ; most were under 10 centimetres (3" },
   the_current_hypothesis: { definition: "That Acanthostega , which was about 1 metre (3.3 ft) long, was a wholly aquatic predator that hunted in shallow water", what_it_does: "", examples: "natural selection and the selfish gene" },
 
+  // === INGESTED 2026-06-27 02:03 ===
+  when_the_filaments: "Packed up together, they are able to form three different cellular parts",
+  microfilaments: "Part of the cytoskeleton that are composed of protein called actin",
+  actin_filaments: "Considered to be both helical and flexible",
+  microfilament_polymerization: "Divided into three steps",
+  the_nucleation_step: "The first step, and it is the rate limiting and slowest step of the process",
+  elongation: "The next step in this process, and it is the rapid addition of actin monomers at both the plus and minus end of the microfilament",
+  cytochalasin: "A toxin that will bind to the actin polymer, so it can no longer bind to the incoming actin monomers",
+  actin_originally_attached_in_the_polymer: "Still leaving the microfilament causing depolymerization",
+  phalloidin: "A toxin that will bind to actin locking the filament in place",
+  monomers: "Neither adding or leaving this polymer which causes the stabilization of the molecule",
+  latrunculin: "Similar to cytochalasin, but it is a toxin which will bind to the actin monomers preventing it from adding onto the actin polymer",
+  the_actin_microfilament: "Composed of three bands and one disk",
+  the_a_band: "The part of the actin that will bind to the myosin during muscle contraction",
+  the_i_band_is_the_part_of_the_actin_that: "Not bound to the myosin, but it will still move during muscle contraction",
+  the_h_zone: "The space in between two adjacent actin that will shrink when the muscle begins to contract",
+  the_z_disk: "The part of the microfilament that characterizes the overall end of each side of the sarcomere , a structural unit of a myofibril",
+  tropomodulin: "A protein that will cap the ends of the actin filaments causing the overall stability of the structure",
+  nebulin: "Another protein that can bind to the sides of the actin preventing the attachment of myosin to them",
+  titin: "Another protein, but it binds to the myosin rather than the actin microfilament",
+  singlets_are_microtubule_structures_that: "Known to be found in the cytoplasm",
+  doublets: "Structures found in the cilia and flagella",
+  the_other_population: "Stable long-lived microtubules",
+  taxol: "Another drug oftentimes used to help treat breast cancer through targeting microtubules",
+  astral_microtubules: "Those extending out of the centrosome toward the cell cortex",
+  these_deposits: { definition: "Determined via polarity cues, growth and differentiation factors, or adhesion contacts", what_it_does: "support for the structure of the axon and are a major part of the cytoskeleton", examples: "" },
+  intermediate_filaments: { definition: "Not involved with the direct movement of cells unlike microtubules and microfilaments", what_it_does: "to assemble an orthogonal network in these cells in the nuclear membrane", examples: "" },
+
 };
 
 // ============================================================
