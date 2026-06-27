@@ -36619,6 +36619,40 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 01:28 ===
   the_following_outline: "Provided as an overview of and topical guide to biology : Biology – The natural science that studies life",
 
+  // === INGESTED 2026-06-27 01:32 ===
+  antirealism: "Conducted as powerful scientific theories extended beyond the realm of the observable",
+  the_elements_above: "Often taught in the educational system as 'the scientific method'",
+  the_basic_elements_of_the_scientific_method: { definition: "Illustrated by the following example (which occurred from 1944 to 1953) from the discovery of the structure of DNA (marked with and indented)", what_it_does: "", examples: "Benjamin Franklin conjectured, correctly, that St" },
+  scientific_measurements: { definition: "Usually tabulated, graphed, or mapped, and statistical manipulations, such as correlation and regression , performed on them", what_it_does: "", examples: "stars or human populations" },
+  scientific_quantities: "Often characterized by their units of measure which can later be described in terms of conventional physical units when communicating the work",
+  new_theories: "Sometimes developed after realizing certain terms have not previously been sufficiently clearly defined",
+  a_hypothesis: { definition: "A suggested explanation of a phenomenon, or alternately a reasoned proposal suggesting a possible correlation between or among a set of phenomena", what_it_does: "", examples: "deductive reasoning" },
+  if_the_outcome: "Already known, it is called a consequence and should have already been considered while formulating the hypothesis",
+  if_the_predictions: "Not accessible by observation or experience, the hypothesis is not yet testable and so will remain to that extent unscientific in a strict sense",
+  sometimes_the_experiments: "Conducted incorrectly or are not very well designed when compared to a crucial experiment",
+  the_experimental_control: "A technique for dealing with observational error",
+  even_taking_a_plane_from_new_york_to_paris: "An experiment that tests the aerodynamical hypotheses used for constructing the plane",
+  detailed_recordkeeping: "Essential, to aid in recording and reporting on the experimental results, and supports the effectiveness and integrity of the procedure",
+  often_the_experiment: "Not done by the person who made the prediction, and the characterization is based on experiments done by someone else",
+  the_unfettered_principles_of_science: "To strive for accuracy and the creed of honesty; openness already being a matter of degrees",
+  openness: "Restricted by the general rigour of scepticism",
+  his_thought_is_that_science: "A community effort by those who have accreditation and are working within the community",
+  those_limits: "Usually deemed to be answers to questions that aren't in science's domain, such as faith",
+  an_example_here: { definition: "Monte-Carlo simulations", what_it_does: "", examples: "to cure disease)" },
+  such_protoideas: "At first always too broad and insufficiently specialized",
+  an_extension_of_this: "The assumption of a solution to an open problem",
+  it_can_even_be_said_that_statistical_models: { definition: "Only ever useful, but never a complete representation of circumstances", what_it_does: "", examples: "medical professionals, [ 133 ] have shown a lack of proper understanding" },
+  the_logic_of_this_testing: "What affords this method of inquiry to be reasoned deductively",
+  the_formulated_hypothesis: { definition: "Assumed to be 'true', and from that 'true' statement implications are inferred", what_it_does: "", examples: "in biology, where general laws are few, [ 135 ] as valid deductions rely on solid presuppositions" },
+  parsimony_and_related_principles: "Further explored below",
+  once_this_translation_into_mathematics: "Complete, the resulting model, in place of the corresponding system, can be analysed through purely mathematical and computational means",
+  the_way_such_models: "Reasoned will often be mathematically deductive—but they don't have to be",
+  when_empirical_evidence: "Limited, scientists favor parsimony and invariant observations",
+  the_goal_here: { definition: "To make the choice between theories less arbitrary", what_it_does: "starts at the opposite end of there being a vast number of potential explanations and general disorder", examples: "these do not necessarily decide between alternative theories" },
+  specific_to_krugman_here: "To 'question the question'",
+  the_one_of_a_lab_suspended_in_empty_space: "An example of a useful invariant observation",
+  related_principles_here: "Falsifiability and testability",
+
 };
 
 // ============================================================
