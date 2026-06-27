@@ -37191,6 +37191,33 @@ const FLAT_DICT = {
   the_metabolic_rate_of_a_heterotroph: { definition: "Defined as the rate of respiration in which energy is obtained by oxidation of a carbon compound", what_it_does: "", examples: "cells and organelles" },
   it_has_long_been_observed_that_there: { definition: "More small species than large species", what_it_does: "", examples: "higher productivity or reduced seasonality" },
 
+  // === INGESTED 2026-06-27 03:42 ===
+  the_human_sperm_cell: "Haploid , so that its 23 chromosomes can join the 23 chromosomes of the female egg to form a diploid cell with 46 paired chromosomes",
+  the_word_sperm: "Derived from the Greek word σπέρμα , sperma , meaning 'seed'",
+  it_is_generally_accepted_that_isogamy: { definition: "The ancestor to sperm and eggs", what_it_does: "", examples: "' XX ', ' XY ', etc" },
+  human_spermatozoa: "Particularly vulnerable to free radical attack and the generation of oxidative DNA damage",
+  the_bloodtestis_barrier: "Also important in preventing toxic substances from disrupting spermatogenesis",
+  longer_sperm_cells: "Better than their shorter counterparts at displacing competitors from the female's seminal receptacle",
+  the_benefit_to_females: "That only healthy males carry 'good' genes that can produce long sperm in sufficient quantities to outcompete their competitors",
+  the_cumulus_cells: "Embedded in a gel-like substance made primarily of hyaluronic acid , and developed in the ovary with the egg and support it as it grows",
+  the_initial_change: "Called 'hyperactivation', which causes a change in spermatozoa motility",
+  these_channels: "Selective, allowing only calcium ions to pass",
+  the_opening_of_catsper_channels: "Responsible for the influx of calcium",
+  sperm_hyperactivity: "Necessary for breaking through two physical barriers that protect the egg from fertilization",
+  the_second_process_in_sperm_activation: "The acrosome reaction",
+  this_lockandkey_type_mechanism: "Species-specific and prevents the sperm and egg of different species from fusing",
+  there_is_some_evidence_that_this_binding: "What triggers the acrosome to release the enzymes that allow the sperm to fuse with the egg",
+  the_spermatozoa_of_animals: "Produced through spermatogenesis inside the male gonads ( testicles ) via meiotic division",
+  human_sperm_cells: "Particularly vulnerable to free radical attack and the generation of oxidative DNA damage, [ 8 ] such as that from 8-Oxo-2'-deoxyguanosine",
+  the_capacitation: { definition: "The final phase of spermatozoa development, when they acquire the capability to fertilize the oocyte", what_it_does: "", examples: "if more than 1" },
+  this_hook: "Used to attach to the hooks or to the flagella of other spermatozoa",
+  aggregation: "Caused by these attachments and mobile trains result",
+  sea_urchins_such_as_arbacia_punctulata: "Ideal organisms to use in sperm research, they spawn large numbers of sperm into the sea, making them well-suited as model organisms for experiments",
+  algae_and_lower_plant_sperm_cells: { definition: "Often multi-flagellated (see image) and thus morphologically different from animal spermatozoa", what_it_does: "", examples: "cycads and ginkgo" },
+  the_sperm_cells: "The only flagellated cells in the life cycle of these plants",
+  spermatia: { definition: "Produced in a spermatangium", what_it_does: "", examples: "Polysiphonia , produce non-motile spermatia that are spread by water currents after their release" },
+  conidia: "Spores that germinate independently of fertilization, whereas spermatia are gametes that are required for fertilization",
+
 };
 
 // ============================================================
