@@ -37003,6 +37003,11 @@ const FLAT_DICT = {
   naturalis: "Named the European Museum of the Year 2021 in the annual awards of the European Museum Forum",
   some_parts_of_the_collections: { definition: "Stored in a depot in the former museum building at the Raamsteeg in the city center of Leiden", what_it_does: "", examples: "biodiversity, botany, marine biology, or geology" },
 
+  // === INGESTED 2026-06-27 02:52 ===
+  the_synthesis: { definition: "Defined differently by its founders, with Ernst Mayr in 1959, G", what_it_does: "", examples: "with social behaviour in E" },
+  the_piebald_or_hooded_pattern: "Recessive to the grey wild type",
+  ford: { definition: "An experimental naturalist who wanted to test natural selection in nature, virtually inventing the field of ecological genetics", what_it_does: "", examples: "island biogeography , speciation , and competition" },
+
 };
 
 // ============================================================
