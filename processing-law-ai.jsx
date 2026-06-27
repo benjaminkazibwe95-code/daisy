@@ -36732,6 +36732,10 @@ const FLAT_DICT = {
   caspases: { definition: "An important group of proteases involved in apoptosis or programmed cell death", what_it_does: "", examples: "in the destruction of lung tissues in emphysema brought on by smoking tobacco" },
   protein_backbones: { definition: "Very stable in water at neutral pH and room temperature, although the rate of hydrolysis of different peptide bonds can vary", what_it_does: "", examples: "cyanogen bromide cleaves the peptide bond after a methionine" },
 
+  // === INGESTED 2026-06-27 01:55 ===
+  detritivores: "Heterotrophs which obtain nutrients by consuming detritus (decomposing plant and animal parts as well as feces )",
+  this_interdependence: "Exemplified in symbiotic relationships, such as those between corals and algae, where nutrient exchange benefits both partners",
+
 };
 
 // ============================================================
