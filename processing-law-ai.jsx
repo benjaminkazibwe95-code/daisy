@@ -36736,6 +36736,18 @@ const FLAT_DICT = {
   detritivores: "Heterotrophs which obtain nutrients by consuming detritus (decomposing plant and animal parts as well as feces )",
   this_interdependence: "Exemplified in symbiotic relationships, such as those between corals and algae, where nutrient exchange benefits both partners",
 
+  // === INGESTED 2026-06-27 02:01 ===
+  hence_it: "Suggested that self-sustaining synthesis of proteins could have occurred near hydrothermal vents",
+  a_scheme_of_the_precell_scenario: "Shown in the adjacent figure, [ 69 ] where important evolutionary improvements are indicated by numbers",
+  wetdry_cycles_at_geothermal_springs: "Shown to solve the problem of hydrolysis and promote the polymerization and vesicle encapsulation of biopolymers",
+  the_molecules_that_fell_from_the_meteors: "Then accumulated in geothermal springs",
+  thin_pores: { definition: "Shown to only accumulate long polynucleotides whereas thick pores accumulate both short and long polynucleotides", what_it_does: "", examples: "biochemical reactions such as reductive amination and transamination" },
+  the_idea_that_life_on_earth: "'seeded' from elsewhere in the Universe dates back at least to the Greek philosopher Anaximander in the sixth century BCE",
+  this_genetic_drift: "Insufficient on its own to make sexual reproduction advantageous, but a combination of genetic drift and natural selection may be sufficient",
+  an_alternative_view_is_that_sex_arose_and: { definition: "Maintained as a process for repairing DNA damage, and that the genetic variation produced is an occasionally beneficial byproduct", what_it_does: "", examples: "'having multiple cells', could include colonial cyanobacteria like Nostoc" },
+  land_surfaces: { definition: "Either bare rock or shifting sand produced by weathering", what_it_does: "", examples: "clubmosses such as Baragwanathia ; most were under 10 centimetres (3" },
+  the_current_hypothesis: { definition: "That Acanthostega , which was about 1 metre (3.3 ft) long, was a wholly aquatic predator that hunted in shallow water", what_it_does: "", examples: "natural selection and the selfish gene" },
+
 };
 
 // ============================================================
