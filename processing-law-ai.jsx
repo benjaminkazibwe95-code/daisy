@@ -37484,6 +37484,13 @@ const FLAT_DICT = {
   the_conjunction: "The geometric mean and its dual as conjunctive and disjunctive operators",
   fml: "Based on eXtensible Markup Language ( XML )",
 
+  // === INGESTED 2026-06-27 23:42 ===
+  continuoustime_signal_processing: "For signals that vary continuously in time and are not broken into individual interrupted points, i.e., samples",
+  the_above_convolution_operation: "Conducted between the input and the system",
+  discretetime_signal_processing: "For sampled signals, defined only at discrete points in time, and as such are quantized in time, but not in magnitude",
+  digital_signal_processing: "The processing of digitized discrete-time sampled signals",
+  nonlinear_signal_processing: { definition: "The analysis and processing of signals produced from nonlinear systems and can be in the time, frequency , or spatiotemporal domains", what_it_does: "", examples: "sampling signal techniques, [ 13 ] recovery techniques [ 14 ] and time-varying techiques" },
+
 };
 
 // ============================================================
