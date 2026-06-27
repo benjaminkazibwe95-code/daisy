@@ -37129,6 +37129,13 @@ const FLAT_DICT = {
   the_epidermal_microbiome_on_the_skin: "An indicator of how healthy the animal is, and is also an ecological indicator of the state of the surrounding environment",
   blow_samples: "Taken to the laboratory where the respiratory tract microbiota are amplified and sequenced",
 
+  // === INGESTED 2026-06-27 03:27 ===
+  metapopulation_theory: "First developed for terrestrial ecosystems, and subsequently applied to the marine realm",
+  population_dynamics_within_a_patch: "Simplified to the point where only presence and absence were considered",
+  each_patch_in_his_model: "Either populated or not",
+  one_major_drawback_of_the_levins_model: "That it is deterministic , whereas the fundamental metapopulation processes are stochastic",
+  metapopulations: { definition: "Particularly useful when discussing species in disturbed habitats , and the viability of their populations , i.e", what_it_does: "", examples: "their evolutionary ecology" },
+
 };
 
 // ============================================================
