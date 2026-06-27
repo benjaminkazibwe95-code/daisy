@@ -36806,6 +36806,26 @@ const FLAT_DICT = {
   the_quartet_and_the_chromophore: "Bound with a π-π bond while the side chains and loops are not bound but are in close proximity",
   what_makes_this_binding_strong: { definition: "The fluidity in the position of the loops to better associate with the ligand side chains", what_it_does: "", examples: "K+ or with G-quadruplex ligands), and scan toward the far-UV region (180–230 nm)" },
 
+  // === INGESTED 2026-06-27 02:12 ===
+  the_cloning_of_an_organism: "A form of asexual reproduction",
+  the_evolution_of_sexual_reproduction: "A major puzzle for biologists",
+  the_twofold_cost_of_sexual_reproduction: "That only 50% of organisms reproduce, [ 1 ] and organisms only pass on 50% of their genes",
+  some_species_that: "Capable of reproducing asexually, like hydra , yeast (See Mating of yeasts ) and jellyfish, may also reproduce sexually",
+  parthenogenesis: { definition: "The growth and development of embryo or seed without fertilization", what_it_does: "", examples: "lower plants (where it is called apomixis ), invertebrates (e.g" },
+  the_diploid_stage: "Relatively small and short-lived compared to the haploid stage, i.e",
+  fertilization_begins_when_the_pollen: "Brought to a female gamete through the pollen tube",
+  allogamy: { definition: "Also known as cross fertilization, in contrast to autogamy or geitonogamy which are methods of self-fertilization", what_it_does: "", examples: "many vascular plants , some foraminiferans , some ciliates" },
+  mitosis_and_meiosis: "Types of cell division",
+  meiosis_the_resultant_number_of_cells: { definition: "Four times the number of original cells", what_it_does: "occurs in two phases, meiosis I and meiosis II", examples: "" },
+  sperm_are_produced_by_spermatogenesis_and_eggs: { definition: "Produced by oogenesis", what_it_does: "", examples: "double-strand breaks" },
+  researches_noted_that_there: "Little chance these techniques would be applied to humans in the near future",
+  these_two_main_strategies: "Known as K-selection (few offspring) and r-selection (many offspring)",
+  which_strategy: "Favoured by evolution depends on a variety of circumstances",
+  the_existence_of_life_without_reproduction: "The subject of some speculation",
+  whether_or_not_there: "Several independent abiogenetic events, biologists believe that the last universal ancestor to all present life on Earth lived about 3",
+  the_point_of_this_analogy: "That since asexual reproduction does not produce genetic variations, there is little ability to quickly adapt to a changing environment",
+  the_lottery_principle: "Less accepted these days because of evidence that asexual reproduction is more prevalent in unstable environments, the opposite of what it predicts",
+
 };
 
 // ============================================================
