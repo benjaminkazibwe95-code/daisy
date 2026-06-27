@@ -36333,6 +36333,10 @@ const FLAT_DICT = {
   a_new_dynamic_version_of_the_encyclopedia: "Now available as a public wiki online",
   this_new_wiki: "A collaboration between Springer and the European Mathematical Society",
 
+  // === INGESTED 2026-06-27 00:33 ===
+  the_software_patent_debate: "The argument about the extent to which, as a matter of public policy , it should be possible to patent software and computer-implemented inventions",
+  if_the_answer: "Affirmative, the court must proceed to the next step",
+
 };
 
 // ============================================================
