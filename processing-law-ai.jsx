@@ -37301,6 +37301,9 @@ const FLAT_DICT = {
   ultraviolet_lamps: "Used to sterilize workspaces and tools used in biology laboratories and medical facilities",
   uvc_leds: "Relatively new to the commercial market and are gaining in popularity",
 
+  // === INGESTED 2026-06-27 03:50 ===
+  the_character_of_physical_law: "A series of seven lectures by physicist Richard Feynman concerning the nature of the laws of physics",
+
 };
 
 // ============================================================
