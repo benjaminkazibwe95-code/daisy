@@ -36711,6 +36711,27 @@ const FLAT_DICT = {
   cephalization: { definition: "A characteristic feature among most bilaterians, where the sense organs and central nerve ganglia become concentrated at the front end of the animal", what_it_does: "", examples: "food, favouring cephalisation , the development of a head with sense organs and a mouth" },
   held_presents_evidence_that_it: { definition: "Segmented, as the mechanism for creating segments is shared between vertebrates ( deuterostomes ) and arthropods ( protostomes )", what_it_does: "", examples: "of their heads , than do the Cnidaria and the Acoelomorpha" },
 
+  // === INGESTED 2026-06-27 01:53 ===
+  protein_degradation: "A major regulatory mechanism of gene expression [ 1 ] and contributes substantially to shaping mammalian proteomes",
+  this_signal_peptide: "Removed by proteolysis after their transport through a membrane",
+  this_polypeptide: "Subsequently cleaved into individual polypeptide chains",
+  many_proteins_and_hormones: "Synthesized in the form of their precursors - zymogens , proenzymes , and prehormones",
+  the_proinsulin: "Then cleaved at two positions to yield two polypeptide chains linked by two disulfide bonds",
+  proteases_in_particular: "Synthesized in the inactive form so that they may be safely stored in cells, and ready for release in sufficient quantity when required",
+  this_is_to_ensure_that_the_protease: { definition: "Activated only in the correct location or context, as inappropriate activation of these proteases can be very destructive for an organism", what_it_does: "", examples: "cathepsins" },
+  proteins_marked_for_degradation: "Covalently linked to ubiquitin",
+  the_polyubiquinated_protein: "Targeted to an ATP-dependent protease complex, the proteasome",
+  the_ubiquitin: "Released and reused, while the targeted protein is degraded",
+  different_proteins: "Degraded at different rates",
+  abnormal_proteins: "Quickly degraded, whereas the rate of degradation of normal proteins may vary widely depending on their functions",
+  one_of_the_most_rapidly_degraded_proteins: { definition: "Ornithine decarboxylase , which has a half-life of 11 minutes", what_it_does: "", examples: "its hormonal state as well as nutritional status" },
+  the_zymogen_of_trypsin: { definition: "Trypsinogen , which is activated by a very specific protease, enterokinase , secreted by the mucosa of the duodenum", what_it_does: "", examples: "chymotrypsin and carboxypeptidase to activate them" },
+  cyclins: "A group of proteins that activate kinases involved in cell division",
+  the_degradation_of_cyclins: "The key step that governs the exit from mitosis and progress into the next cell cycle",
+  the_cyclins: "Removed via a ubiquitin-mediated proteolytic pathway",
+  caspases: { definition: "An important group of proteases involved in apoptosis or programmed cell death", what_it_does: "", examples: "in the destruction of lung tissues in emphysema brought on by smoking tobacco" },
+  protein_backbones: { definition: "Very stable in water at neutral pH and room temperature, although the rate of hydrolysis of different peptide bonds can vary", what_it_does: "", examples: "cyanogen bromide cleaves the peptide bond after a methionine" },
+
 };
 
 // ============================================================
