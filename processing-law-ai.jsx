@@ -36606,6 +36606,13 @@ const FLAT_DICT = {
   type_inference: { definition: "In general possible, if it is computable in the type system in question", what_it_does: "", examples: "primitive types inherit from a single root object" },
   if_the_type_of_e_and_the_type_of_x: "The same, and assignment is allowed for that type, then this is a valid expression",
 
+  // === INGESTED 2026-06-27 01:21 ===
+  lamarck: "Buried in a common grave of the Montparnasse cemetery for just five years, according to the grant obtained from relatives",
+  the_second_principle_was_that_life: "Structured in an orderly manner and that many different parts of all bodies make possible the organic movements of animals",
+  lamarck_argued_that_this_adaptive_force: "Powered by the interaction of organisms with their environment, by the use and disuse of certain characteristics",
+  the_last_clause_of_this_law_introduces_what: "Now called soft inheritance , the inheritance of acquired characteristics, or simply 'Lamarckism', though it forms only a part of Lamarck's thinking",
+  many_epigenetic_changes: { definition: "Heritable to a degree, though often only for few generations", what_it_does: "", examples: "the highest forms of life, was but the result of natural processes" },
+
 };
 
 // ============================================================
