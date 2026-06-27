@@ -36952,6 +36952,25 @@ const FLAT_DICT = {
   the_third_type_of_data: "Differences in allelic frequencies across space",
   the_fourth_type_of_data: "DNA sequences from the genes contributing to observes phenotypic differences",
 
+  // === INGESTED 2026-06-27 02:45 ===
+  half_of_the_marbles_in_the_jar: "Red and half are blue, with each colour corresponding to a different allele of one gene in the population",
+  since_all_bacteria_in_the_original_solution: "Equally likely to survive when the solution shrinks, the four survivors are a random sample from the original colony",
+  the_total_number_of_other_combinations: "Ten, so the probability of unequal number of A and B alleles is 10/16",
+  the_situation_of_equal_numbers: "Actually less likely than unequal numbers",
+  the_frequency_of_one_allele: "Assigned p and the other q",
+  this_means_that_the_transition_matrix: { definition: "Tridiagonal , which means that mathematical solutions are easier for the Moran model than for the Wright–Fisher model", what_it_does: "", examples: "random changes in selection pressure" },
+  the_mathematical_properties_of_genetic_draft: "Different from those of genetic drift",
+  genetic_drift: "One mechanism of evolution that affects allele frequencies; the others are migration , genetic mutations , and natural selection",
+  thus_even_while_genetic_drift: "A random, directionless process, it acts to eliminate genetic variation over time",
+  if_an_allele: "Lost by mutation much more often than it is gained by mutation, then mutation, as well as drift, may influence the time to loss",
+  neutral_evolution: { definition: "The product of both mutation and drift, not of drift alone", what_it_does: "", examples: "in small populations ), the magnitude of drift on allele frequencies per generation is larger" },
+  the_magnitude_of_drift: { definition: "Large enough to overwhelm selection at any allele frequency when the selection coefficient is less than 1 divided by the effective population size", what_it_does: "", examples: "a natural catastrophe" },
+  the_worst_of_these_mutations: "Selected against, leading to the loss of other alleles that are genetically linked to them, in a process of background selection",
+  currently_the_greater_prairie_chicken: "Experiencing low reproductive success",
+  when_a_newly_formed_colony: "Small, its founders can strongly affect the population's genetic make-up far into the future",
+  sewall_wright: "The first to attach this significance to random drift and small, newly isolated populations with his shifting balance theory of speciation",
+  random_drift_by: { definition: "Of sampling error came to be known as the 'Sewall–Wright effect', though he was never entirely comfortable to see his name given to it", what_it_does: "", examples: "selection) or 'random drift' (e.g., sampling error)" },
+
 };
 
 // ============================================================
