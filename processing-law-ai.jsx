@@ -37304,6 +37304,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 03:50 ===
   the_character_of_physical_law: "A series of seven lectures by physicist Richard Feynman concerning the nature of the laws of physics",
 
+  // === INGESTED 2026-06-27 03:52 ===
+  one_approach_to_this_issue: "By the use of perturbation theory , as developed under the leadership of John Archibald Wheeler at Princeton",
+  he_argues_that_computers_today: { definition: "Unable to have intelligence because they are algorithmically deterministic systems", what_it_does: "", examples: "IBM's John A" },
+  a_reviewed_and_updated_version_of_the_theory: "Published along with critical commentary and debate in the March 2014 issue of Physics of Life Reviews",
+  his_first_choice: "The Mass in B minor",
+
 };
 
 // ============================================================
