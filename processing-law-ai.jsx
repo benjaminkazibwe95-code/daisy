@@ -36411,6 +36411,13 @@ const FLAT_DICT = {
   a_global_identifier: "Declared outside of functions and is available throughout the program",
   a_local_identifier: { definition: "Declared within a specific function and only available within that function", what_it_does: "", examples: "Go, identifiers' uniqueness is based on their spelling and their visibility" },
 
+  // === INGESTED 2026-06-27 00:52 ===
+  when_mascitti: "Questioned informally in 1992 about the naming, he indicated that it was given in a tongue-in-cheek spirit",
+  the_next_major_revision_of_the_standard: "Informally referred to as 'C++0x', but it was not released until 2011",
+  doing_it_efficiently: { definition: "What distinguishes it from other languages.' [ 70 ] C++ inherits most of C's syntax", what_it_does: "", examples: "standard headers, for example #include <vector>" },
+  the_main_aim: { definition: "To efficiently and consistently write type and resource safe C++", what_it_does: "", examples: "std::byte , smart pointers, and std::span" },
+  the_downside_of_this_decision: { definition: "That object code produced by different compilers is expected to be incompatible", what_it_does: "", examples: "the Itanium C++ ABI is processor-independent (despite its name) and is implemented by GCC and Clang" },
+
 };
 
 // ============================================================
