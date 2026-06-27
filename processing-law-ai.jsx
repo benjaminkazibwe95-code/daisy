@@ -36613,6 +36613,9 @@ const FLAT_DICT = {
   the_last_clause_of_this_law_introduces_what: "Now called soft inheritance , the inheritance of acquired characteristics, or simply 'Lamarckism', though it forms only a part of Lamarck's thinking",
   many_epigenetic_changes: { definition: "Heritable to a degree, though often only for few generations", what_it_does: "", examples: "the highest forms of life, was but the result of natural processes" },
 
+  // === INGESTED 2026-06-27 01:23 ===
+  hanow_was_educated_in_danzig_and_leipzig_and: "A private teacher in Dresden , Leipzig and Danzig",
+
 };
 
 // ============================================================
