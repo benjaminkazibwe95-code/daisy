@@ -36394,6 +36394,9 @@ const FLAT_DICT = {
   software_stored_in_rom: "Often called firmware , because it is notionally more like hardware than software",
   generally_computers_with_this_sort_of_cache: "Designed to move frequently needed data into the cache automatically, often without the need for any intervention on the programmer's part",
 
+  // === INGESTED 2026-06-27 00:44 ===
+  baezayates: "Proposed for the first time to the Chilean National Prize in Applied Sciences (Premio Nacional de Ciencias Aplicadas) [ citation needed ]",
+
 };
 
 // ============================================================
