@@ -37019,6 +37019,18 @@ const FLAT_DICT = {
   the_names_of_genera_and_species: { definition: "Usually printed in italics", what_it_does: "", examples: "'sp.' should not be italicised" },
   a_form: { definition: "Distinguished by being shared by all its members, the young inheriting any variations they might have from their parents", what_it_does: "", examples: "to distinguish a species " },
 
+  // === INGESTED 2026-06-27 03:04 ===
+  the_table_sugar_used_in_everyday_vernacular: "A disaccharide sucrose derived from the condensation of one molecule of each of the monosaccharides D -glucose and D -fructose",
+  maltose: { definition: "The dehydration condensate of two glucose molecules", what_it_does: "", examples: "deoxyribose ), monosaccharides have the chemical formula (CH 2 O) x , where conventionally x ≥ 3" },
+  monosaccharides_with_eight_or_more_carbons: "Rarely observed as they are quite unstable",
+  if_the_carbonyl: { definition: "At position 1 (that is, n or m is zero), the molecule begins with a formyl group H(C=O)− and is technically an aldehyde", what_it_does: "", examples: "'aldohexose' and 'ketotriose'" },
+  the_fischer_projection: "A systematic way of drawing the skeletal formula of an acyclic monosaccharide so that the handedness of each chiral carbon is well specified",
+  most_stereoisomers: "Themselves chiral (distinct from their mirror images)",
+  mirrorimage_isomers: "Chemically identical in non-chiral environments, but usually have very different biochemical properties and occurrences in nature",
+  this_happens_whenever_the_molecular_graph: "Symmetrical, as in the 3-ketopentoses H(CHOH) 2 (CO)(CHOH) 2 H, and the two halves are mirror images of each other",
+  distinct_stereoisomers_that: "Not mirror-images of each other usually have different chemical properties, even in non-chiral environments",
+  the_d_and_l_prefixes: "Also used with other monosaccharides, to distinguish two particular stereoisomers that are mirror-images of each other",
+
 };
 
 // ============================================================
