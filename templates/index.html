@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"></noscript>
+  <!-- Markdown rendering for Daisy's responses (headers, bullets, bold, tables, etc.) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.5/purify.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -105,6 +108,7 @@
       overflow-x: hidden;
       padding: 0 20px;
       scrollbar-width: none;
+      position: relative;
     }
     #main::-webkit-scrollbar { display: none; }
 
@@ -177,6 +181,142 @@
       text-transform: uppercase;
       margin-bottom: 6px;
     }
+
+    /* ── RENDERED MARKDOWN (inside Daisy's messages) ── */
+    .md-body { font-size: 14px; line-height: 1.65; }
+    .md-body h1, .md-body h2, .md-body h3 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      line-height: 1.3;
+      margin: 14px 0 6px;
+      color: var(--text);
+    }
+    .md-body h1:first-child, .md-body h2:first-child, .md-body h3:first-child { margin-top: 0; }
+    .md-body h1 { font-size: 18px; }
+    .md-body h2 { font-size: 16px; }
+    .md-body h3 { font-size: 14.5px; color: var(--daisy); }
+    .md-body p { margin: 8px 0; }
+    .md-body p:first-child { margin-top: 0; }
+    .md-body p:last-child { margin-bottom: 0; }
+    .md-body ul, .md-body ol { margin: 8px 0; padding-left: 22px; }
+    .md-body li { margin: 4px 0; }
+    .md-body li::marker { color: var(--daisy); }
+    .md-body strong { font-weight: 600; color: var(--text); }
+    .md-body em { font-style: italic; }
+    .md-body code {
+      background: var(--card);
+      border-radius: 4px;
+      padding: 2px 5px;
+      font-size: 13px;
+      font-family: 'SF Mono', Consolas, monospace;
+    }
+    .md-body pre {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      overflow-x: auto;
+      margin: 10px 0;
+    }
+    .md-body pre code { background: none; padding: 0; }
+    .md-body blockquote {
+      border-left: 3px solid var(--daisy);
+      padding-left: 12px;
+      margin: 8px 0;
+      color: var(--muted);
+    }
+    .md-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 10px 0;
+      font-size: 13px;
+    }
+    .md-body th, .md-body td {
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      text-align: left;
+    }
+    .md-body th { background: var(--card); font-weight: 600; }
+    .md-body a { color: var(--daisy); text-decoration: underline; }
+    .md-body hr { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+
+    /* ── MESSAGE ACTION TOOLBAR (under each Daisy reply) ── */
+    .msg-actions {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      margin-top: 8px;
+      opacity: 0.75;
+    }
+    .msg-action-btn {
+      width: 30px; height: 30px;
+      border: none;
+      background: none;
+      color: var(--muted);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .msg-action-btn:hover { background: var(--card); color: var(--text); }
+    .msg-action-btn svg { width: 15px; height: 15px; }
+    .msg-action-btn.active.up   { color: #6ee7b7; }
+    .msg-action-btn.active.down { color: #f87171; }
+    .msg-action-btn.copied { color: var(--daisy); }
+
+    /* ── TAP MENU (on a user's own sent message) ── */
+    .msg.user { cursor: pointer; position: relative; }
+    .msg-menu-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.35);
+      z-index: 80;
+      display: none;
+    }
+    .msg-menu-overlay.show { display: block; }
+    .msg-menu {
+      position: fixed;
+      z-index: 81;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      min-width: 180px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    .msg-menu-item {
+      display: flex; align-items: center; gap: 10px;
+      width: 100%;
+      padding: 13px 16px;
+      background: none;
+      border: none;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      text-align: left;
+      cursor: pointer;
+    }
+    .msg-menu-item:hover { background: var(--surface); }
+    .msg-menu-item.danger { color: #f87171; }
+    .msg-menu-item svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+    /* ── SCROLL TO BOTTOM ── */
+    #scroll-bottom-btn {
+      position: absolute;
+      right: 20px;
+      bottom: 18px;
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      display: none;
+      align-items: center; justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+      z-index: 30;
+    }
+    #scroll-bottom-btn.show { display: flex; }
+    #scroll-bottom-btn svg { width: 17px; height: 17px; }
 
     .thinking {
       display: flex; gap: 5px; align-items: center;
@@ -651,6 +791,9 @@
 
     <!-- CHAT AREA -->
     <div id="chat-area"></div>
+    <button id="scroll-bottom-btn" aria-label="Scroll to latest">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </button>
 
     <!-- QUICK STARTS -->
     <div id="quick-starts">
@@ -701,6 +844,10 @@
   </div>
 
 </div><!-- /app -->
+
+<!-- MESSAGE TAP MENU (shown when tapping a sent user message) -->
+<div id="msg-menu-overlay" class="msg-menu-overlay"></div>
+<div id="msg-menu" class="msg-menu" style="display:none;"></div>
 
 <!-- DRAWER -->
 <div id="drawer-overlay"></div>
@@ -899,17 +1046,200 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  function addMsg(text, role) {
+  // ── ICONS for the message action toolbar / tap-menu ──
+  const ICONS = {
+    copy:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a1 1 0 01-1-1V4a1 1 0 011-1h10a1 1 0 011 1v1"/></svg>',
+    up:       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11v9H4a1 1 0 01-1-1v-7a1 1 0 011-1h3zm0 0l4.5-7.5a1.5 1.5 0 012.7 1.3L13 9h5.3a2 2 0 011.9 2.7l-2.3 6A2 2 0 0116 19H9a2 2 0 01-2-2v-6z"/></svg>',
+    down:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="scale(1,-1) translate(0,-24)"><path d="M7 11v9H4a1 1 0 01-1-1v-7a1 1 0 011-1h3zm0 0l4.5-7.5a1.5 1.5 0 012.7 1.3L13 9h5.3a2 2 0 011.9 2.7l-2.3 6A2 2 0 0116 19H9a2 2 0 01-2-2v-6z"/></svg>',
+    share:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.6l6.8-3.8M8.6 13.4l6.8 3.8"/></svg>',
+    redo:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0115.5-6.4M21 12a9 9 0 01-15.5 6.4"/><path d="M3 5v5h5M21 19v-5h-5"/></svg>',
+    edit:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4h2M4 20h4l10.5-10.5a2.1 2.1 0 00-3-3L5 17v3z"/></svg>',
+    trash:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>',
+  };
+
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function renderMarkdown(text) {
+    // marked/DOMPurify load from a CDN — if either failed (offline, ad
+    // blocker, etc.) fall back to plain escaped text so Daisy never
+    // just breaks because a script tag didn't load.
+    if (typeof marked === 'undefined' || typeof DOMPurify === 'undefined') {
+      return escHtml(text).replace(/\n/g, '<br>');
+    }
+    const html = marked.parse(text, { breaks: true });
+    return DOMPurify.sanitize(html);
+  }
+
+  function flashAction(btn) {
+    btn.classList.add('copied');
+    setTimeout(() => btn.classList.remove('copied'), 1200);
+  }
+
+  function buildActionToolbar(rawTextGetter, question) {
+    const bar = document.createElement('div');
+    bar.className = 'msg-actions';
+
+    const copyBtn = document.createElement('button');
+    copyBtn.className = 'msg-action-btn';
+    copyBtn.innerHTML = ICONS.copy;
+    copyBtn.title = 'Copy';
+    copyBtn.onclick = async () => {
+      try { await navigator.clipboard.writeText(rawTextGetter()); flashAction(copyBtn); }
+      catch(e) {}
+    };
+
+    const upBtn = document.createElement('button');
+    upBtn.className = 'msg-action-btn';
+    upBtn.innerHTML = ICONS.up;
+    upBtn.title = 'Good response';
+
+    const downBtn = document.createElement('button');
+    downBtn.className = 'msg-action-btn';
+    downBtn.innerHTML = ICONS.down;
+    downBtn.title = 'Bad response';
+
+    upBtn.onclick = () => {
+      const wasActive = upBtn.classList.contains('active');
+      upBtn.classList.toggle('active', !wasActive);
+      upBtn.classList.toggle('up', !wasActive);
+      downBtn.classList.remove('active', 'down');
+    };
+    downBtn.onclick = () => {
+      const wasActive = downBtn.classList.contains('active');
+      downBtn.classList.toggle('active', !wasActive);
+      downBtn.classList.toggle('down', !wasActive);
+      upBtn.classList.remove('active', 'up');
+    };
+
+    const shareBtn = document.createElement('button');
+    shareBtn.className = 'msg-action-btn';
+    shareBtn.innerHTML = ICONS.share;
+    shareBtn.title = 'Share';
+    shareBtn.onclick = async () => {
+      const text = rawTextGetter();
+      if (navigator.share) {
+        try { await navigator.share({ text }); } catch(e) {}
+      } else {
+        try { await navigator.clipboard.writeText(text); flashAction(shareBtn); } catch(e) {}
+      }
+    };
+
+    bar.appendChild(copyBtn);
+    bar.appendChild(upBtn);
+    bar.appendChild(downBtn);
+    bar.appendChild(shareBtn);
+
+    if (question) {
+      const redoBtn = document.createElement('button');
+      redoBtn.className = 'msg-action-btn';
+      redoBtn.innerHTML = ICONS.redo;
+      redoBtn.title = 'Regenerate';
+      redoBtn.onclick = () => regenerate(redoBtn, question);
+      bar.appendChild(redoBtn);
+    }
+
+    return bar;
+  }
+
+  function addMsg(text, role, opts) {
+    opts = opts || {};
     const div = document.createElement('div');
     div.className = `msg ${role}`;
+
     if (role === 'daisy') {
-      div.innerHTML = `<div class="daisy-label">Daisy</div>${escHtml(text)}`;
+      const label = document.createElement('div');
+      label.className = 'daisy-label';
+      label.textContent = 'Daisy';
+      const body = document.createElement('div');
+      body.className = 'md-body';
+      body.innerHTML = renderMarkdown(text);
+      div.appendChild(label);
+      div.appendChild(body);
+      div.appendChild(buildActionToolbar(() => body.innerText, opts.question));
     } else {
       div.textContent = text;
+      div.addEventListener('click', () => openMsgMenu(div, text));
     }
+
     chatArea.appendChild(div);
     div.scrollIntoView({ behavior: 'smooth', block: 'end' });
     return div;
+  }
+
+  async function regenerate(btn, question) {
+    const msgDiv = btn.closest('.msg.daisy');
+    const body = msgDiv.querySelector('.md-body');
+    const original = body.innerHTML;
+    body.style.opacity = '0.5';
+    try {
+      const res = await fetch('/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question })
+      });
+      const data = await res.json();
+      const answer = data.answer || "I'm still learning about that. Ask me something else.";
+      body.innerHTML = renderMarkdown(answer);
+      body.style.opacity = '1';
+    } catch(e) {
+      body.innerHTML = original;
+      body.style.opacity = '1';
+    }
+  }
+
+  // ── TAP MENU on a user's own sent message ──
+  const msgMenu        = document.getElementById('msg-menu');
+  const msgMenuOverlay = document.getElementById('msg-menu-overlay');
+
+  function closeMsgMenu() {
+    msgMenu.style.display = 'none';
+    msgMenuOverlay.classList.remove('show');
+  }
+  msgMenuOverlay.addEventListener('click', closeMsgMenu);
+
+  function openMsgMenu(msgDiv, text) {
+    const rect = msgDiv.getBoundingClientRect();
+    msgMenu.innerHTML = '';
+
+    const items = [
+      { icon: ICONS.copy, label: 'Copy message', action: async () => {
+          try { await navigator.clipboard.writeText(text); } catch(e) {}
+          closeMsgMenu();
+        } },
+      { icon: ICONS.edit, label: 'Edit & resend', action: () => {
+          inp.value = text;
+          inp.focus();
+          inp.dispatchEvent(new Event('input'));
+          closeMsgMenu();
+        } },
+      { icon: ICONS.trash, label: 'Delete', danger: true, action: () => {
+          const next = msgDiv.nextElementSibling;
+          if (next && next.classList.contains('daisy')) next.remove();
+          msgDiv.remove();
+          closeMsgMenu();
+        } },
+    ];
+
+    items.forEach(it => {
+      const btn = document.createElement('button');
+      btn.className = 'msg-menu-item' + (it.danger ? ' danger' : '');
+      btn.innerHTML = `${it.icon}<span>${it.label}</span>`;
+      btn.onclick = it.action;
+      msgMenu.appendChild(btn);
+    });
+
+    msgMenu.style.display = 'block';
+    msgMenuOverlay.classList.add('show');
+    // Position above-right of the tapped bubble, clamped to viewport.
+    const menuWidth = 200;
+    let left = Math.min(rect.right - menuWidth, window.innerWidth - menuWidth - 12);
+    left = Math.max(left, 12);
+    let top = rect.bottom + 6;
+    if (top + 170 > window.innerHeight) top = rect.top - 176;
+    msgMenu.style.left = left + 'px';
+    msgMenu.style.top = top + 'px';
   }
 
   function addThinking() {
@@ -919,10 +1249,6 @@ document.addEventListener('DOMContentLoaded', function() {
     chatArea.appendChild(div);
     div.scrollIntoView({ behavior: 'smooth', block: 'end' });
     return div;
-  }
-
-  function escHtml(s) {
-    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   }
 
   async function sendMessage(overrideText) {
@@ -943,7 +1269,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const data = await res.json();
       thinking.remove();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
-      addMsg(answer, 'daisy');
+      addMsg(answer, 'daisy', { question: text });
       if (ttsOn) speak(answer);
     } catch(e) {
       thinking.remove();
@@ -958,6 +1284,17 @@ document.addEventListener('DOMContentLoaded', function() {
     sendMessage(text);
     inp.value = '';
   }
+
+  // ── SCROLL TO BOTTOM ──
+  const scrollBtn = document.getElementById('scroll-bottom-btn');
+  const mainEl = document.getElementById('main');
+  mainEl.addEventListener('scroll', () => {
+    const fromBottom = mainEl.scrollHeight - mainEl.scrollTop - mainEl.clientHeight;
+    scrollBtn.classList.toggle('show', chatActive && fromBottom > 200);
+  });
+  scrollBtn.addEventListener('click', () => {
+    mainEl.scrollTo({ top: mainEl.scrollHeight, behavior: 'smooth' });
+  });
 
   // ── ACTION BUTTON (live mic ↔ send swap) ─────────────
   const actionBtn       = document.getElementById('action-btn');
