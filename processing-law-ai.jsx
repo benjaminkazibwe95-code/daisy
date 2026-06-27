@@ -37427,6 +37427,10 @@ const FLAT_DICT = {
   several_hundred_genetic_tests: "Currently in use, and more are being developed",
   although_dna_and_rna_nucleotide_bases: { definition: "More similar to each other than are amino acids, the conservation of base pairs can indicate a similar functional or structural role", what_it_does: "", examples: "for example in motif and rearrangements detection" },
 
+  // === INGESTED 2026-06-27 23:26 ===
+  mehryar_mohri: "A professor and theoretical computer scientist [ 2 ] at the Courant Institute of Mathematical Sciences",
+  mohri: "Currently the president of the Association for Algorithmic Learning Theory (AALT) [ 10 ] and the steering committee chair for the ALT conference",
+
 };
 
 // ============================================================
