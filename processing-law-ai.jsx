@@ -36261,6 +36261,12 @@ const FLAT_DICT = {
   then_one_endpoint_of_edge_e: "In set V and the other is not",
   this_shows_y: "A minimum spanning tree",
 
+  // === INGESTED 2026-06-27 00:23 ===
+  before_the_measurement_occurs_the_qubit: "In a superposition of both states",
+  this_transformation: "Itself a quantum superposition and every position wave function can be represented as a superposition of momentum wave functions and vice versa",
+  such_shorthand_notation: "Very common in textbooks and papers on quantum mechanics, and superposition of basis states is a fundamental tool in quantum mechanics",
+  is_only_valid_if_there: "No way to know, even in principle, which path the particle took",
+
 };
 
 // ============================================================
