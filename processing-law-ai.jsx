@@ -37437,6 +37437,19 @@ const FLAT_DICT = {
   matlab: { definition: "A weakly typed programming language because types are implicitly converted", what_it_does: "", examples: "A simple array is defined using the colon syntax: initial : increment : terminator" },
   an_example_of_a_simple_class: { definition: "Provided below: When put into a file named hello", what_it_does: "", examples: "the function plot can be used to produce a graph from two vectors x and y" },
 
+  // === INGESTED 2026-06-27 23:36 ===
+  computation_tasks: "Performed by volunteers' computers and require little involvement beyond initial setup",
+  although_the_experiment: { definition: "To originally test the strength of citizen science, the team also learned more about Vespidae biology and species distribution in the United Kingdom", what_it_does: "", examples: "issues such as intellectual property and project design.(e.g" },
+  ethical_opendata_practice_in_citizen_science: { definition: "Therefore frequently framed as a matter of data governance, not only technical quality", what_it_does: "", examples: "pollution exposure, land use, biodiversity decline)" },
+  a_positive_outcome_of_this: { definition: "That the students were more careful of their own research", what_it_does: "", examples: "Sir Isaac Newton , Benjamin Franklin , and Charles Darwin" },
+  the_primary_utilization_of_citizen_science: { definition: "As a methodology for data collection and classification", what_it_does: "", examples: "star clusters, galaxies, and nebulae" },
+  observations_of_comets_and_stars: "Also used to measure the local level of artificial skyglow",
+  two_longrunning_programs: { definition: "The UK Butterfly Monitoring Scheme (started in 1976) and the North American Butterfly Association 's Butterfly Count Program (started in 1975)", what_it_does: "", examples: "NestWatch, a bird species monitoring program which tracks data on reproduction" },
+  participation_in_this_program: { definition: "Extremely easy for the general public to join", what_it_does: "", examples: "the continuous plankton recorder has been fitted on ships of opportunity since 1931" },
+  one_recent_project: "FrogWatch USA , organized by the Association of Zoos and Aquariums",
+  one_of_the_largest_citizen_science_games: { definition: "Eyewire , a brain-mapping puzzle game developed at the Massachusetts Institute of Technology that now has over 200,000 players", what_it_does: "", examples: "social media and web-based forms" },
+  although_traditional_data_collection_methods: { definition: "Well-established, citizen science is being used to fill the data gaps on a local level, and is therefore meaningful to individual communities", what_it_does: "", examples: "anglers testing the rivers they use" },
+
 };
 
 // ============================================================
