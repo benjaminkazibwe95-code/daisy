@@ -37348,6 +37348,12 @@ const FLAT_DICT = {
   robby: "One of the first cinematic depictions of a robot with internal safeguards put in place in this fashion",
   asimov: { definition: "Delighted with Robby and noted that Robby appeared to be programmed to follow his Three Laws", what_it_does: "", examples: "the Three Laws" },
 
+  // === INGESTED 2026-06-27 23:00 ===
+  a_bar_association: "A professional association of lawyers as generally organized in countries following the Anglo-American types of jurisprudence",
+  the_process_of_enrollment: "Delegated by the Bar Council of India to the state Bar Councils wherein almost each state has a Bar Council of its own",
+  such_an_organization: { definition: "Called a mandatory, integrated, or unified bar, [ 5 ] [ 6 ] and is a type of government-granted monopoly", what_it_does: "", examples: "social, educational, and lobbying functions" },
+  the_federal_bar_association: { definition: "A private, voluntary group", what_it_does: "", examples: "sometimes serving as the student government" },
+
 };
 
 // ============================================================
