@@ -37543,6 +37543,13 @@ const FLAT_DICT = {
   if_a_phoneme: "Swapped with another phoneme inside a word, it can change the meaning of that word",
   even_if_those_particular_phones: { definition: "Interchanged, those two words would still likely be recognized as sheet and shack by native English speakers", what_it_does: "", examples: "some Slavic languages like Polish or Russian, may indeed perceive [ɕ] and [ʃ] as separate phonemes" },
 
+  // === INGESTED 2026-06-27 23:59 ===
+  onthejob_training: "Applicable on all departments within an organization",
+  simulation_based_training: "Another method which uses technology to assist in trainee development",
+  an_advantage: { definition: "That simulation training allows the trainer to find, study, and remedy skill deficiencies in their trainees in a controlled, virtual environment", what_it_does: "", examples: "in-flight emergencies, system failure, etc" },
+  offthejob_training_method_also: "Employee training at a site away from the actual work environment",
+  a_more_recent_development_in_job_training: { definition: "The On-the-Job Training Plan or OJT Plan", what_it_does: "", examples: "(for example) closeness to God or freedom from suffering" },
+
 };
 
 // ============================================================
