@@ -37081,6 +37081,36 @@ const FLAT_DICT = {
   the_turukhanian: "Succeeded by the Uchuromayan, lasting from 1.03–0.85 Ga, which was in turn succeeded by the Yuzhnouralian, lasting from 0.85–0.63 Ga",
   the_final_two_zones: { definition: "The Amadeusian, spanning the first half of the Ediacaran from 0.63–0.55 Ga, and the Belomorian, spanning from 0.55–0.542 Ga", what_it_does: "", examples: "trilobites and archeocyathids , as well as the animal-like Caveasphaera , appeared" },
 
+  // === INGESTED 2026-06-27 03:21 ===
+  their_closest_noncetacean_living_relatives: "The hippopotamuses , from which they and other cetaceans diverged about 54 million years ago",
+  the_sperm_whale: { definition: "The largest toothed predator on Earth", what_it_does: "", examples: "the sperm whale , can stay underwater for up to 90 minutes" },
+  although_whales: "Widespread, most species prefer the colder waters of the Northern and Southern Hemispheres and migrate to the equator to give birth",
+  species_such_as_humpbacks_and_blue_whales: "Capable of travelling thousands of miles without feeding",
+  calves: "More commonly taken by orcas, but adults can be targeted as well",
+  the_immediate_clade: "Cetacea , but if the dolphins and porpoises are excluded, the whales are paraphyletic",
+  cetaceans: { definition: "Divided into two parvorders", what_it_does: "", examples: "visible legs or asymmetrical teeth" },
+  pulses_in_a_click_train: "Emitted at intervals of ≈35–50 milliseconds ; the inter-click intervals are usually slightly greater than the round-trip time of sound to the target",
+  whistles: "Narrow-band frequency modulated (FM) signals, used for communicative purposes, such as contact calls",
+  whale_spindle_neurons: { definition: "Found in areas of the brain homologous to where they are found in humans, suggesting that they perform a similar function", what_it_does: "", examples: "belugas and narwhals, is second only to humans" },
+  sexual_maturity: "Achieved at around seven to ten years of age",
+  nursing_can_occur_while_the_mother_whale: "In the vertical or horizontal position",
+  this_position_with_the_flukes_above_the_water: "Known as 'whale-tail-sailing",
+  all_species: "Generalist and opportunistic feeders",
+  the_former_behaviour: "Typical when hunting non-schooling fish, slow-moving or immobile invertebrates or endothermic prey",
+  when_large_amounts_of_prey: { definition: "Available, whales such as certain mysticetes hunt cooperatively in small groups", what_it_does: "", examples: "other species of whales or certain species of pinnipeds" },
+  these_species: "Preyed on by the orca",
+  the_polar_bear: "Well adapted for hunting Arctic whales and calves",
+  bears: "Known to use sit-and-wait tactics as well as active stalking and pursuit of prey on ice or water",
+  this_however: "Less room around the breathing hole as the ice slowly closes the gap",
+  polar_bear_attacks_on_belugas_and_narwhals: { definition: "Usually successful in winter, but rarely inflict any damage in summer", what_it_does: "", examples: "nitrogen from the depths back to the surface" },
+  this_nitrogen_input_in_the_gulf_of_maine: "'more than the input of all rivers combined' emptying into the gulf, some 23,000 metric tons (25,000 short tons) each year",
+  the_whale_faeces: { definition: "Liquid and instead of sinking, they stay at the surface where phytoplankton feed off it", what_it_does: "", examples: "cold seeps and hydrothermal vents" },
+  gillnetting_and_seine_netting: "A significant cause of mortality in whales and other marine mammals",
+  some_show_particular_detail_in_which_there: "Throat pleats, typical of rorquals",
+  this_episode: { definition: "Frequently depicted in medieval art (for example, on a 12th-century column capital at the abbey church of Mozac , France)", what_it_does: "", examples: "'Neptune and the Whale', indicating at least the city's dependence on the sea for its wealth" },
+  the_tale: "Partly based on historical events , [ 140 ] including the albino sperm whale Mocha Dick",
+  the_first_beluga: { definition: "Shown at Barnum's Museum in New York City in 1861", what_it_does: "", examples: "narwhal, Sowerby's beaked whale, grey whale, and minke whale in captivity, often unsuccessfully" },
+
 };
 
 // ============================================================
