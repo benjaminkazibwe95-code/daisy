@@ -36868,6 +36868,17 @@ const FLAT_DICT = {
   the_repeat_clusters: "Located on the acrocentric chromosomes 13 ( RNR1 ), 14 ( RNR2 ), 15 ( RNR3 ), 21 ( RNR4 ) and 22 ( RNR5 )",
   coding_regions_of_rdna: { definition: "Highly conserved among species but ITS regions are variable due to insertions, deletions, and point mutations", what_it_does: "", examples: "ITS tracts among species and phylogenetic analysis are made satisfactorily" },
 
+  // === INGESTED 2026-06-27 02:18 ===
+  this_was_based_on_the_belief_that_proteins: "More complex than DNA",
+  since_phosphorus: "Contained in DNA but not amino acids, radioactive phosphorus-32 was used to label the DNA contained in the T2 phage",
+  the_labeled_progeny: "Then allowed to infect unlabeled bacteria",
+  these_bacteria: "Lysed to release phage progeny",
+  the_progeny_of_the_phages_that: "Labeled with radioactive phosphorus remained labeled, whereas the progeny of the phages labeled with radioactive sulfur were unlabeled",
+  this_demonstrated_that_the_phage: "Resistant to the enzyme while intact",
+  using_a_highspeed_blender_they: "Able to force the bacteriophages from the bacterial cells after adsorption",
+  they_determined_that_a_protective_protein_coat: "Formed around the bacteriophage, but that the internal DNA is what conferred its ability to produce progeny inside a bacterium",
+  george_gamow_proposed_that_the_genetic_code: "Composed of sequences of three DNA base pairs known as triplets or codons which represent one of the twenty amino acids",
+
 };
 
 // ============================================================
