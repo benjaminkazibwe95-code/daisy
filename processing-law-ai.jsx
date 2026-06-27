@@ -37008,6 +37008,17 @@ const FLAT_DICT = {
   the_piebald_or_hooded_pattern: "Recessive to the grey wild type",
   ford: { definition: "An experimental naturalist who wanted to test natural selection in nature, virtually inventing the field of ecological genetics", what_it_does: "", examples: "island biogeography , speciation , and competition" },
 
+  // === INGESTED 2026-06-27 02:54 ===
+  the_first_part_of_a_binomen: "The name of a genus to which the species belongs",
+  if_species: "Fixed and distinct from one another, there would be no problem, but evolutionary processes cause species to change",
+  species_and_higher_taxa: "Seen from Aristotle until the 18th century as categories that could be arranged in a hierarchy, the great chain of being",
+  that_understanding: "Greatly extended in the 20th century through genetics and population ecology",
+  species_named_in_this_manner: { definition: "Called morphospecies", what_it_does: "", examples: "more than one polymorphic locus, to give plausible results" },
+  renewal_cohesion: { definition: "'the restriction of genetic diversity of a group of related individuals as a result of their recent origin from a common ancestor'", what_it_does: "", examples: "some crustaceans and echinoderms" },
+  this_commonly_occurs_when_authors: "Confident that some individuals belong to a particular genus but are not sure to which exact species they belong, as is common in paleontology",
+  the_names_of_genera_and_species: { definition: "Usually printed in italics", what_it_does: "", examples: "'sp.' should not be italicised" },
+  a_form: { definition: "Distinguished by being shared by all its members, the young inheriting any variations they might have from their parents", what_it_does: "", examples: "to distinguish a species " },
+
 };
 
 // ============================================================
