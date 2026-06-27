@@ -12,6 +12,10 @@
   <!-- Markdown rendering for Daisy's responses (headers, bullets, bold, tables, etc.) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.5/purify.min.js"></script>
+  <!-- Real math notation (proper fractions, exponents, etc.) instead of plain-text "^" and "/" -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -239,6 +243,11 @@
     .md-body th { background: var(--card); font-weight: 600; }
     .md-body a { color: var(--daisy); text-decoration: underline; }
     .md-body hr { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+    .md-body .katex-display {
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 4px 0;
+    }
 
     /* ── MESSAGE ACTION TOOLBAR (under each Daisy reply) ── */
     .msg-actions {
@@ -1102,6 +1111,29 @@ document.addEventListener('DOMContentLoaded', function() {
     return DOMPurify.sanitize(html);
   }
 
+  // Converts $$...$$ (standalone formulas) and \(...\) (inline math)
+  // into real rendered notation via KaTeX. Deliberately NOT using
+  // single $...$ as a delimiter — that collides with plain currency
+  // amounts ("$100") and turns ordinary text into broken math.
+  // Only call this on a FINISHED element, never mid-typewriter-animation:
+  // it's a real DOM scan + render pass, and incomplete LaTeX while
+  // still typing (an unclosed \( with no \) yet) would either render
+  // wrong or just get skipped until the closing delimiter arrives —
+  // both wasted work happening dozens of times during one type-out.
+  function renderMathIn(el) {
+    if (typeof renderMathInElement === 'undefined') return; // CDN didn't load — formulas stay as plain text, not broken
+    try {
+      renderMathInElement(el, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\[', right: '\\]', display: true },
+          { left: '\\(', right: '\\)', display: false }
+        ],
+        throwOnError: false
+      });
+    } catch (e) {}
+  }
+
   function flashAction(btn) {
     btn.classList.add('copied');
     setTimeout(() => btn.classList.remove('copied'), 1200);
@@ -1185,6 +1217,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const body = document.createElement('div');
       body.className = 'md-body';
       body.innerHTML = renderMarkdown(text);
+      renderMathIn(body);
       div.appendChild(label);
       div.appendChild(body);
       div.appendChild(buildActionToolbar(() => body.innerText, opts.question));
@@ -1222,6 +1255,7 @@ document.addEventListener('DOMContentLoaded', function() {
       await sleep(DELAY_MS);
     }
     body.innerHTML = renderMarkdown(fullText); // final clean pass
+    renderMathIn(body);
   }
 
   async function addMsgTyped(text, opts) {
