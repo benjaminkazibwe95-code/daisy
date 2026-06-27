@@ -36237,6 +36237,21 @@ const FLAT_DICT = {
   the_set_of_integers: "Countably infinite , meaning it is possible to pair each integer with a unique natural number",
   an_example_of_such_a_pairing: "More technically, the cardinality of ⁠ Z {\displaystyle \mathbb {Z} } ⁠ is said to equal ℵ 0 ( aleph-null )",
 
+  // === INGESTED 2026-06-27 00:14 ===
+  drakon: "A family of hybrid languages, such as DRAKON-C, DRAKON-ASM, DRAKON-Java, etc",
+  the_basis_of_the_graphical_syntax: "A graphical alphabet",
+  macroicons: "The graphical words of the DRAKON language; they consist of icons",
+  drakoncharts: "Constructed out of icons and macroicons",
+  the_important_parts_of_macroicons: "Valence points (in the illustration depicted as black circles)",
+  code_snippets_of_a_programming_language: "Added to the DRAKON icons",
+  drakon_rules_for_creating_diagrams: "Cognitively optimized for easy comprehension, making it a tool for intelligence augmentation",
+  advancestep: "A state machine represented as a decision tree",
+  in_such_case_the_row: "Removed from the grid, the score is increased, and the game's tempo goes up",
+  the_algorithm_execution: "Animated by highlighting diagram elements in the running order",
+  the_drakon_editor_software: "Used to graphically program flowcharts which were specially checked",
+  ccode: "Generated from the drakon-charts, for instance, for a DRAKON representation of code for launch detection",
+  in_russia_the_drakon_editor: "Known for being used in the medical field as a tool for making 'instructional' charts for patients or medical personnel",
+
 };
 
 // ============================================================
