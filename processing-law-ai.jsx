@@ -37376,6 +37376,11 @@ const FLAT_DICT = {
   pseudorandom_number_generators: "Widely available in computer language libraries and application programs",
   a_class_of_improved_random_number_generators: "Termed cryptographically secure pseudorandom number generators , but even they require random seeds external to the software to work as intended",
 
+  // === INGESTED 2026-06-27 23:05 ===
+  knowledge_acquisition: "The process used to define the rules and ontologies required for a knowledge-based system",
+  expert_systems: { definition: "One of the first successful applications of artificial intelligence technology to real world business problems", what_it_does: "", examples: "medical diagnosis" },
+  text_generation: { definition: "Also extremely useful in generating explanations for system behavior", what_it_does: "", examples: "the Web Ontology Language (OWL)" },
+
 };
 
 // ============================================================
