@@ -37513,6 +37513,25 @@ const FLAT_DICT = {
   the_computational_approach: "Based on principles of artificial intelligence",
   translation_and_discontinuous_behavior: "Hard to approximate using PINNs",
 
+  // === INGESTED 2026-06-27 23:51 ===
+  other_examples_of_features: "Related to motion in image sequences, or to shapes defined in terms of curves or boundaries between different image regions",
+  more_broadly_a_feature: "Any piece of information that is relevant for solving the computational task related to a certain application",
+  the_feature_concept: "Very general and the choice of features in a particular computer vision system may be highly dependent on the specific problem at hand",
+  since_features: "Used as the starting point and main primitives for subsequent algorithms, the overall algorithm will often only be as good as its feature detector",
+  feature_detection: "A low-level image processing operation",
+  although_local_decisions: "Made, the output from a feature detection step does not need to be a binary image",
+  when_feature_extraction: "Done without local decision making, the result is often referred to as a feature image",
+  feature_images: "Also often computed as integrated step in algorithms for feature detection",
+  a_common_practice: "To organize the information provided by all these descriptors as the elements of one single vector, commonly referred to as a feature vector",
+  edges_are_points_where_there: { definition: "A boundary (or an edge) between two image regions", what_it_does: "", examples: "shape, smoothness, and gradient value" },
+  the_terms_corners_and_interest_points: "Used somewhat interchangeably and refer to point-like features in an image, which have a local two-dimensional structure",
+  the_detector_will_respond_to_points_that: { definition: "Sharp in the shrunk image, but may be smooth in the original image", what_it_does: "", examples: "an appropriate notion of scale" },
+  the_extraction_of_features: "Sometimes made over several scalings",
+  one_of_these_methods: "The scale-invariant feature transform (SIFT)",
+  two_examples_of_image_features: "Local edge orientation and local velocity in an image sequence",
+  local_velocity: "Undefined if the corresponding image region does not contain any spatial variation",
+  such_representations: "Referred to as averageable",
+
 };
 
 // ============================================================
