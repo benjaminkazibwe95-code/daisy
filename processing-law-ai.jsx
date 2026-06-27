@@ -36578,6 +36578,34 @@ const FLAT_DICT = {
   while_begin: "Defined as a library syntax in R5RS, the expander must know about it to achieve the splicing function",
   many_of_the_srfis: "Supported by all or most Scheme implementations",
 
+  // === INGESTED 2026-06-27 01:17 ===
+  when_a_type_mismatch: "Detected, it is called a type error",
+  type_systems: "Typically specified as part of programming language design",
+  an_example_of_a_simple_type_system: "That of the C language",
+  the_portions_of_a_c_program: "The function definitions",
+  one_function: "Invoked by another function",
+  type_theory: { definition: "The study of type systems", what_it_does: "", examples: "a value in memory or some object such as a variable" },
+  thus_a_facility_for_detection_of_the_error: { definition: "Needed in the type system", what_it_does: "", examples: "expressing the type of non-zero numbers )" },
+  static_type_checking: "The process of verifying the type safety of a program based on analysis of a program's text ( source code )",
+  if_a_compiler_can_prove_that_a_program: { definition: "Well-typed, then it does not need to emit dynamic safety checks, allowing the resulting compiled binary to run faster and to be smaller", what_it_does: "", examples: "downcasting" },
+  dynamic_type_checking: { definition: "The process of verifying the type safety of a program at runtime", what_it_does: "", examples: "suppose that a program defines two types, A and B, where B is a subtype of A" },
+  a_variable_whose_type: { definition: "Dynamic will not be subject to static type checking", what_it_does: "", examples: "Common Lisp allow optional type declarations for optimization for this reason" },
+  an_eval_function: { definition: "Possible with static typing, but requires advanced uses of algebraic data types", what_it_does: "", examples: "metaclasses and introspection are often harder to use in statically typed languages" },
+  if_y: "A different string, one that could not be converted to a number (e.g., ' Hello, World '), the result would be well-defined also",
+  this_is_for_languages_where_the_type_system: "Not sufficiently advanced to precisely specify the validity of operations on all possible operands",
+  but_if_a_program_encounters_an_operation_that: "Not type-safe, terminating the program is often the only option",
+  this_is_memory_that_the_program: "Not expected to access",
+  as_arbitrary_data: { definition: "Assumed to be a character, it is also not a type-safe language", what_it_does: "", examples: "lint and IBM Rational Purify can also be used to achieve a higher level of strictness" },
+  he_believes_this: "Advantageous, because what he calls mandatory type systems make languages less expressive and code more fragile",
+  optional_typing: "Related to, but distinct from, gradual typing",
+  the_typetheoretic_foundations_of_polymorphism: "Closely related to those of abstraction , modularity and (in some cases) subtyping",
+  many_type_systems_have_been_created_that: { definition: "Specialized for use in certain environments with certain types of data, or for out-of-band static program analysis", what_it_does: "", examples: "the following rule for matrix multiplication: where k , m , n are arbitrary positive integer values" },
+  intersection_types: { definition: "Types describing values that belong to both of two other given types with overlapping value sets", what_it_does: "", examples: "its parent) is the most derived type" },
+  union_types: { definition: "Important in program analysis, where they are used to represent symbolic values whose exact nature (e.g., value or type) is not known", what_it_does: "", examples: "its parent) is the ancestor type" },
+  the_consistency_relation: { definition: "Symmetric but not transitive", what_it_does: "", examples: "a string or list) as an argument would signal an error" },
+  type_inference: { definition: "In general possible, if it is computable in the type system in question", what_it_does: "", examples: "primitive types inherit from a single root object" },
+  if_the_type_of_e_and_the_type_of_x: "The same, and assignment is allowed for that type, then this is a valid expression",
+
 };
 
 // ============================================================
