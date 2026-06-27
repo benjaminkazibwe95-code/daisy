@@ -36702,6 +36702,11 @@ const FLAT_DICT = {
   he_noted_that_each_germ_layer: { definition: "Differentiated due to interactions with surrounding tissues", what_it_does: "", examples: "spina bifida and anencephaly" },
   the_type_of_organ_that: "Formed depends on the relative concentrations of the hormones in the medium",
 
+  // === INGESTED 2026-06-27 01:48 ===
+  anabolism: "Powered by catabolism, where large molecules are broken down into smaller parts and then used up in cellular respiration",
+  many_anabolic_processes: "Powered by the cleavage of adenosine triphosphate (ATP)",
+  substrates_for_anabolism: { definition: "Mostly intermediates taken from catabolic pathways during periods of high energy charge in the cell", what_it_does: "", examples: "glycolysis fluctuating to match an animal's normal periods of activity throughout the day" },
+
 };
 
 // ============================================================
