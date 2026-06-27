@@ -37313,6 +37313,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 08:10 ===
   quantum_robotics: "The study of running robotic programs on quantum computers , which will likely outperform digital computers",
 
+  // === INGESTED 2026-06-27 22:56 ===
+  an_example_of_such: { definition: "The Chicago Tribune ' s infamous 1948 headline ' Dewey Defeats Truman '", what_it_does: "", examples: "misinformation about alternative treatments was spread during the Ebola outbreak in 2014–2016" },
+  trust_is_even_higher_when_these_hyperlinks: "To scientific journals, and higher still when readers do not click on the sources to investigate for themselves",
+  one_notable_area_where_cognitive_decline: "Prevalent is repeated exposure to misinformation",
+  a_study_found_that_older_adults: "More likely than younger adults to believe misinformation after repeated exposure, known as the illusory truth effect",
+  research_also_indicates_that_older_adults: "More vulnerable to deception than younger adults",
+  social_media_algorithms: "Designed to increase user engagement",
+  deep_fakes: "A part of synthetic media that have gained popularity recently in which faces of people are replaced",
+  an_example_of_such_misinformation: "The AI-generated images of Hollywood Sign on fire",
+  the_test_shows_how_hard_it: "To detect AI-generated images",
+  an_example_of_such_llm_hallucinations: "The court case of Roberto Mata, Plaintiff, v",
+  multiple_people_on_social_media: { definition: "Using AI-generated images to create a face for what the gunman would look like", what_it_does: "", examples: "the site FactCheck.org aims to fact check the media, especially viral political stories" },
+  because_editorial_oversight: { definition: "Not required, inaccurate or misleading posts can circulate widely before any fact-checkers or experts even become aware of them", what_it_does: "", examples: "an editor or fact checker" },
+  one_wellpublicized_example: { definition: "The network of content creators supporting the view that the Earth is flat, not a sphere", what_it_does: "", examples: "126,000 posts spread by 3 million people over 4.5 million times" },
+  stella_immanuel_claiming_hydroxychloroquine: "An effective cure for COVID-19",
+
 };
 
 // ============================================================
