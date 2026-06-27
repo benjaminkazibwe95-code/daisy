@@ -36267,6 +36267,31 @@ const FLAT_DICT = {
   such_shorthand_notation: "Very common in textbooks and papers on quantum mechanics, and superposition of basis states is a fundamental tool in quantum mechanics",
   is_only_valid_if_there: "No way to know, even in principle, which path the particle took",
 
+  // === INGESTED 2026-06-27 00:27 ===
+  the_location: "Also marked with a blue plaque",
+  if_he: "To be solely a Scientific Specialist , he is wasting his time at a public school'",
+  i_am_sure_that_he: "As happy now as he was when he was here",
+  turing: "Walking along Manchester's Oxford Road when he met Murray just outside the Regal Cinema and invited him to lunch",
+  another_of_his_eccentricities: "That he chained his mug to the radiator pipes to prevent it being stolen",
+  we_can_admire_the_ideas_they_share_with_us_and: "Usually able to understand their source; we may even often believe that we ourselves could have created such concepts and originated such thoughts",
+  his_tryout_time_for_the_marathon: "Only 11 minutes slower than British silver medallist Thomas Richards ' Olympic race time of 2 hours 35 minutes",
+  the_first_bombe: "Installed on 18 March 1940",
+  they_emphasised_how_small_their_need: "Compared with the vast expenditure of men and money by the forces and compared with the level of assistance they could offer to the forces",
+  it_is_always_difficult_to_say_that_anyone: "'absolutely indispensable', but if anyone was indispensable to Hut 8, it was Turing",
+  turingery: { definition: "A method of wheel-breaking , i.e., a procedure for working out the cam settings of Tunny's wheels", what_it_does: "", examples: "the English Electric DEUCE and the American Bendix G-15" },
+  a_reversed_form_of_the_turing_test: { definition: "Widely used on the Internet; the CAPTCHA test is intended to determine whether the user is a human or a computer", what_it_does: "", examples: "a uniform mixture that oddly enough had regularly spaced fixed red spots" },
+  belousov: "Not aware of Turing's paper in the Philosophical Transactions of the Royal Society",
+  murray_told_turing_that_he_and_the_burglar: "Acquainted, and Turing reported the crime to the police",
+  the_proceedings: "Held at the Sessions House in Knutsford",
+  among_the_various_men_he_met_there: "One named Kjell Carlson",
+  i_think_that: "Probably the last time we saw him before we heard of his suicide",
+  the_potassium_cyanide: "Used to dissolve the gold",
+  copeland_noted_that_the_autopsy_findings: "More consistent with inhalation than with ingestion of the poison",
+  alan_turing: "Driven to a terrible despair and early death by the nation he'd done so much to save",
+  he_would_have_known_that_his_offence: "Against the law and that he would be prosecuted",
+  it_is_tragic_that_alan_turing: { definition: "Convicted of an offence that now seems both cruel and absurd—particularly poignant given his outstanding contribution to the war effort", what_it_does: "", examples: "the physicist Stephen Hawking" },
+  and_his_story: "A sad story of a society and how it treated him",
+
 };
 
 // ============================================================
