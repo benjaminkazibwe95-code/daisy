@@ -36672,6 +36672,23 @@ const FLAT_DICT = {
   seven_different_phenotypic_characteristics: "Studied and tested in the peas, including seed color, flower color and seed shape",
   the_plants_that_were_originally_crossed: "Known as the parental generation, or P generation, and the offspring resulting from the parental cross is known as the first filial, or F1, generation",
 
+  // === INGESTED 2026-06-27 01:42 ===
+  it_proposes_that_this_protolanguage: "Spoken by the Yamnaya culture in the general area of the Pontic steppe north of the Black Sea c",
+  the_last_two_of_these_theories: "Not regarded as credible within academia",
+  the_location_of_the_stress: { definition: "Associated with ablaut variations, especially between full-grade vowels ( /e/ and /o/ ) and zero-grade (i.e", what_it_does: "", examples: "Verner's Law in the Germanic branch" },
+  sources_for_indoeuropean_accentuation: "Also the Balto-Slavic accentual system and plene spelling in Hittite cuneiform",
+  suffixation_and_ablaut: "The main methods of marking inflection, both for nominals and verbs",
+  the_subject_of_a_sentence: { definition: "In the nominative case and agreed in number and person with the verb, which was additionally marked for voice, tense, aspect, and mood", what_it_does: "", examples: "friendship, friendly , befriend , and newly coined words such as unfriend )" },
+  protoindoeuropean: "A fusional language , in which inflectional morphemes signaled the grammatical relationships between words",
+  this_dependence_on_inflectional_morphemes: "That roots in PIE, unlike those in English, were rarely used without affixes",
+  the_forms: { definition: "Referred to as the 'ablaut grades' of the morpheme—the e -grade, o -grade, zero-grade (no vowel), etc", what_it_does: "", examples: "a verb and an associated abstract verbal noun may have different vowels)" },
+  protoindoeuropean_pronouns: "Difficult to reconstruct, owing to their variety in later languages",
+  protoindoeuropean_numerals: "Generally reconstructed as follows: Rather than specifically 100, * ḱm̥tóm may originally have meant 'a large number'",
+  protoindoeuropean_employed_various: "Of deriving words from other words, or directly from verb roots",
+  internal_derivation: "A process that derived new words through changes in accent and ablaut alone",
+  possessive_or_associated_adjectives: "Probably created from nouns through internal derivation",
+  if_the_first_element: { definition: "A noun, this created an adjective that resembled a present participle in meaning, e.g", what_it_does: "", examples: "[ 48 ] : 21 In athematic stems, there was a change in the accent/ablaut class" },
+
 };
 
 // ============================================================
