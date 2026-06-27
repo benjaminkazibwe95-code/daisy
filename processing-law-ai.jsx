@@ -37310,6 +37310,9 @@ const FLAT_DICT = {
   a_reviewed_and_updated_version_of_the_theory: "Published along with critical commentary and debate in the March 2014 issue of Physics of Life Reviews",
   his_first_choice: "The Mass in B minor",
 
+  // === INGESTED 2026-06-27 08:10 ===
+  quantum_robotics: "The study of running robotic programs on quantum computers , which will likely outperform digital computers",
+
 };
 
 // ============================================================
