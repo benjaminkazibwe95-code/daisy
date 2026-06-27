@@ -37037,6 +37037,23 @@ const FLAT_DICT = {
   hydrogen_gas: "A reducing agent when it reacts with non-metals and an oxidizing agent when it reacts with metals",
   reducing_agents_and_oxidizing_agents: "The ones responsible for corrosion , which is the 'degradation of metals as a result of electrochemical activity'",
 
+  // === INGESTED 2026-06-27 03:08 ===
+  world_energy_supply_and_consumption: { definition: "The global supply of energy resources and the consumption of the latter", what_it_does: "", examples: "raw resources or more processed and refined forms of energy" },
+  a_significant_lack_of_energy_supplies: "Called an energy crisis",
+  energy_production: "Usually classified as: Primary energy assessment by IEA follows certain rules [ note 1 ] to ease measurement of different kinds of energy",
+  but_fossil_and_nuclear_energy: "Set at the reaction heat, which is about three times the electric energy",
+  the_amounts: "Rounded and given in Mtoe",
+  renewable: "Biomass plus Heat plus renewable percentage of Electricity production (hydro, wind, solar)",
+  nuclear: "Nonrenewable percentage of Electricity production",
+  much_primary_and_converted_energy: { definition: "Traded among countries", what_it_does: "", examples: "import of an oil refinery product" },
+  tes: "All energy required to supply energy for end users",
+  otherwise_chemical_energy_of_fuel: "Not inherently low-quality; for example, conversion of chemical energy to electricity in batteries can approach 100%",
+  high_quality_energy: "Measured according to the amount of low-quality energy that would be needed to produce it",
+  the_amounts_of_fuel_in_the_tables: { definition: "Based on lower heating value", what_it_does: "", examples: "oil platforms , uranium isotope separators and wind turbines" },
+  if_the_final_energy_delivered_for_consumption: "E and the EROI equals R, then the net energy available is E-E/R",
+  this_steep_decline: { definition: "Known as the net energy cliff", what_it_does: "", examples: "reforestation" },
+  nuclear_power_and_carbon_capture: "Excluded in these scenarios",
+
 };
 
 // ============================================================
