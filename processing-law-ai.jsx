@@ -36173,6 +36173,33 @@ const FLAT_DICT = {
   its_manufacturer_bahlsen: "Based in Hanover , where Leibniz lived for four decades until his death",
   the_year_given: "Usually that in which the work was completed, not of its eventual publication",
 
+  // === INGESTED 2026-06-27 00:00 ===
+  many_communication_channels: "Subject to channel noise , and thus errors may be introduced during transmission from the source to a receiver",
+  error_correction: "The detection of errors and reconstruction of the original, error-free data",
+  as_the_prose_books_of_the_bible: "Hardly ever written in stichs, the copyists, in order to estimate the amount of work, had to count the letters",
+  if_error_correction: "Required, a receiver can apply the decoding algorithm to the received data bits and the received check bits to recover the original error-free data",
+  an_alternate_approach_for_error_control: "Hybrid automatic repeat request (HARQ), which is a combination of ARQ and error-correction coding",
+  an_acknowledgment: "A message sent by the receiver to indicate that it has correctly received a data frame",
+  three_types_of_arq_protocols: "Stop-and-wait ARQ , Go-Back-N ARQ , and Selective Repeat ARQ",
+  arq: { definition: "Appropriate if the communication channel has varying or unknown capacity , such as is the case on the Internet", what_it_does: "", examples: "flash memory , hard disk and RAM" },
+  this_strict_upper_limit: "Expressed in terms of the channel capacity",
+  the_code_rate: "Defined as the fraction k/n of k source symbols and n encoded symbols",
+  hybrid_arq: "A combination of ARQ and forward error correction",
+  a_repetition_code: "Very inefficient and can be susceptible to problems if the error occurs in exactly the same place for each group (e.g",
+  each_block: "Transmitted some predetermined number of times",
+  if_this_twelvebit_pattern: "Received as 1010 1011 1011 – where the first block is unlike the other two – an error has occurred",
+  the_advantage_of_repetition_codes_is_that_they: "Extremely simple, and are in fact used in some transmissions of numbers stations",
+  parity_bits_added_to_each_word_sent: "Called transverse redundancy checks , while those added at the end of a stream of words are called longitudinal redundancy checks",
+  a_checksum_of_a_message: "A modular arithmetic sum of message code words of a fixed word length (e.g., byte values)",
+  the_sum_may_be_negated_by: "Of a ones'-complement operation prior to transmission to detect unintentional all-zero messages",
+  crcs: { definition: "Particularly easy to implement in hardware and are therefore commonly used in computer networks and storage devices such as hard disk drives", what_it_does: "", examples: "due to transmission errors) or maliciously introduced" },
+  digital_signatures: "Perhaps most notable for being part of the HTTPS protocol for securely browsing the web",
+  the_parity_bit: { definition: "An example of a single-error-detecting code", what_it_does: "", examples: "digital money transfers) must use ARQ due to the possibility of uncorrectable errors with FEC" },
+  concatenated_codes: { definition: "Increasingly falling out of favor with space missions, and are replaced by more powerful codes such as Turbo codes or LDPC codes", what_it_does: "", examples: "new channels and high-definition television ) and IP data" },
+  transponder_capacity: "Determined by the selected modulation scheme and the proportion of capacity consumed by FEC",
+  error_detection_and_correction_codes: "Often used to improve the reliability of data storage media",
+  reedsolomon_codes: { definition: "Used in compact discs to correct errors caused by scratches", what_it_does: "", examples: "scientific computing, financial, medical, etc" },
+
 };
 
 // ============================================================
