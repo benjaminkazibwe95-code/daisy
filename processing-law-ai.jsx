@@ -36971,6 +36971,32 @@ const FLAT_DICT = {
   sewall_wright: "The first to attach this significance to random drift and small, newly isolated populations with his shifting balance theory of speciation",
   random_drift_by: { definition: "Of sampling error came to be known as the 'Sewall–Wright effect', though he was never entirely comfortable to see his name given to it", what_it_does: "", examples: "selection) or 'random drift' (e.g., sampling error)" },
 
+  // === INGESTED 2026-06-27 02:47 ===
+  cambridge_common: { definition: "Thus celebrated as the birthplace of the Continental Army", what_it_does: "", examples: "two of her sons" },
+  the_first_houses: "Built in the spring of 1631",
+  the_settlement: "Initially referred to as 'the newe towne'",
+  most_of_the_loyalist_estates_in_cambridge: "Confiscated after the Revolutionary War",
+  the_new_bridges_and_roads_made_what: "Formerly estates and marshland into prime industrial and residential districts",
+  when_radcliffe_college: "Established in 1879, the town became a mecca for some of the nation's most academically talented female students",
+  those_selling_advanced_minicomputers: "Overtaken by the microcomputer",
+  kendall_square: { definition: "A software hub through the dot-com boom and today hosts offices of such technology companies as Google, Microsoft , and Amazon", what_it_does: "", examples: "Cytel ; and many smaller companies" },
+  the_cambridge_center_office_complex: "In Kendall Square, and not at the actual center of Cambridge",
+  central_square: "Formed by the junction of Massachusetts Avenue, Prospect Street, and Western Avenue",
+  cambridgeport: "South of Central Square, and bordered by MIT, the Charles River, Massachusetts Avenue, and River Street",
+  the_average_january_temperature: "26.6 °F (−3 °C), making Cambridge part of Group D, independent of the isotherm",
+  the_racial_makeup_of_the_city: "66.60% White , 11.70% Black or African American , 0.20% Native American , 15.10% Asian (3.7% Chinese , 1.4% Asian Indian , 1.2% Korean , 1",
+  nonhispanic_whites: "62.1% of the population in 2010, [ 92 ] down from 89.7% in 1970",
+  some_others: { definition: "In University Park at MIT, a new development in another former manufacturing area", what_it_does: "", examples: "some from the 17th century" },
+  fresh_pond_reservation: "The largest open green space in Cambridge with 162 acres (656,000 m 2 ) of land around a 155-acre (627,000 m 2 ) kettle hole lake",
+  the_governor_of_massachusetts: { definition: "Democrat Maura Healey , elected in 2022", what_it_does: "", examples: "parts of the City of Boston)" },
+  the_councilors_and_school_committee_members: "Elected every two years using proportional representation",
+  the_mayor: "Not the city's chief executive",
+  the_city_council_and_its_members: "Also forbidden from giving orders to any subordinate of the city manager",
+  though_the_county_government: { definition: "Abolished in 1997, the county still exists as a geographical and political region", what_it_does: "", examples: "Cambridge Rindge and Latin School" },
+  bike_parking_is_common_and_there: { definition: "Bike lanes on many streets, although concerns have been expressed regarding the suitability of many of the lanes", what_it_does: "", examples: "traffic calming features based on the needs of pedestrians rather than of motorists" },
+  the_city_of_cambridge: "Protected by the Cambridge Fire Department",
+  the_large_modern_main_building: "Built in 2009, and connects to the restored 1888 Richardson Romanesque building",
+
 };
 
 // ============================================================
