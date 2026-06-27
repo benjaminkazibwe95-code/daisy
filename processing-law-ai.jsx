@@ -36418,6 +36418,9 @@ const FLAT_DICT = {
   the_main_aim: { definition: "To efficiently and consistently write type and resource safe C++", what_it_does: "", examples: "std::byte , smart pointers, and std::span" },
   the_downside_of_this_decision: { definition: "That object code produced by different compilers is expected to be incompatible", what_it_does: "", examples: "the Itanium C++ ABI is processor-independent (despite its name) and is implemented by GCC and Clang" },
 
+  // === INGESTED 2026-06-27 00:54 ===
+  freeman_and_company: "An imprint of Macmillan Higher Education, a division of Macmillan Publishers",
+
 };
 
 // ============================================================
