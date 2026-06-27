@@ -37539,6 +37539,10 @@ const FLAT_DICT = {
   the_loss_function_in_contrastive_learning: { definition: "Used to minimize the distance between positive sample pairs, while maximizing the distance between negative sample pairs", what_it_does: "", examples: "self-improvement through autonomous learning" },
   directpred: "A NCSSL that directly sets the predictor weights instead of learning it via typical gradient descent",
 
+  // === INGESTED 2026-06-27 23:55 ===
+  if_a_phoneme: "Swapped with another phoneme inside a word, it can change the meaning of that word",
+  even_if_those_particular_phones: { definition: "Interchanged, those two words would still likely be recognized as sheet and shack by native English speakers", what_it_does: "", examples: "some Slavic languages like Polish or Russian, may indeed perceive [ɕ] and [ʃ] as separate phonemes" },
+
 };
 
 // ============================================================
