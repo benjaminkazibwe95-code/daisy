@@ -36337,6 +36337,10 @@ const FLAT_DICT = {
   the_software_patent_debate: "The argument about the extent to which, as a matter of public policy , it should be possible to patent software and computer-implemented inventions",
   if_the_answer: "Affirmative, the court must proceed to the next step",
 
+  // === INGESTED 2026-06-27 00:35 ===
+  a_program_written_in_assembly_language: { definition: "Non-portable , due to being written and optimized for a particular architecture", what_it_does: "", examples: "symbolic addresses, to opcodes , addresses , numeric constants, strings and so on" },
+  one_method_for_doing_this: "Inline assembly , in which assembly code is embedded in the high-level language code",
+
 };
 
 // ============================================================
