@@ -36997,6 +36997,12 @@ const FLAT_DICT = {
   the_city_of_cambridge: "Protected by the Cambridge Fire Department",
   the_large_modern_main_building: "Built in 2009, and connects to the restored 1888 Richardson Romanesque building",
 
+  // === INGESTED 2026-06-27 02:49 ===
+  a_new_building: "Designed by the Dutch architect Fons Verheijen",
+  temporary_exhibitions: "Held in the Pesthuis, the former entrance building, during the renovations",
+  naturalis: "Named the European Museum of the Year 2021 in the annual awards of the European Museum Forum",
+  some_parts_of_the_collections: { definition: "Stored in a depot in the former museum building at the Raamsteeg in the city center of Leiden", what_it_does: "", examples: "biodiversity, botany, marine biology, or geology" },
+
 };
 
 // ============================================================
