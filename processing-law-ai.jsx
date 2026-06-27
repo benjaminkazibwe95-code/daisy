@@ -37218,6 +37218,25 @@ const FLAT_DICT = {
   spermatia: { definition: "Produced in a spermatangium", what_it_does: "", examples: "Polysiphonia , produce non-motile spermatia that are spread by water currents after their release" },
   conidia: "Spores that germinate independently of fertilization, whereas spermatia are gametes that are required for fertilization",
 
+  // === INGESTED 2026-06-27 03:44 ===
+  neon_signs_and_lightning: "Examples of partially ionized plasmas",
+  the_electric_arc: "Discovered independently by Vasily Petrov and Humphry Davy in 1803",
+  although_these_particles: "Unbound, they are not 'free' in the sense of not experiencing forces",
+  high_temperatures: "Usually needed to sustain ionization, which is a defining feature of a plasma",
+  the_degree_of_plasma_ionization: "Determined by the electron temperature relative to the ionization energy (and more weakly by the density)",
+  if_an_electrode: "Inserted into a plasma, its potential will generally lie considerably below the plasma potential due to what is termed a Debye sheath",
+  in_the_special_case_that_double_layers: "Formed, the charge separation can extend some tens of Debye lengths",
+  a_common_quantitative_criterion: "That a particle on average completes at least one gyration around the magnetic-field line before making a collision, i.e",
+  it_is_often_the_case_that_the_electrons: "Magnetized while the ions are not",
+  magnetized_plasmas: "Anisotropic , meaning that their properties in the direction parallel to the magnetic field are different from those perpendicular to it",
+  a_more_general_description: "The two-fluid plasma, [ 40 ] where the ions and electrons are described separately",
+  fluid_models: "Often accurate when collisionality is sufficiently high to keep the plasma velocity distribution close to a Maxwell–Boltzmann distribution",
+  a_kinetic_description: "Often necessary for collisionless plasmas",
+  kinetic_models: { definition: "Generally more computationally intensive than fluid models", what_it_does: "", examples: "several sub-disciplines such as space plasma physics" },
+  astrophysical_plasmas: "Also observed in accretion disks around stars or compact objects like white dwarfs , neutron stars , or black holes in close binary star systems",
+  many_of_these_features: "First studied in the laboratory, and have subsequently been recognized throughout the universe",
+  interaction_of_cold_gas_and_thermal_plasma: "Briefly studied by a group led by Hannes Alfvén in 1960s and 1970s for its possible applications in insulation of fusion plasma from the reactor walls",
+
 };
 
 // ============================================================
