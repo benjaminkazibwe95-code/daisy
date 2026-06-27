@@ -37117,6 +37117,18 @@ const FLAT_DICT = {
   these_new_roles: "Not functions that the lower level components are capable of and are thus referred to as emergent properties",
   every_organism: "Organized, though not necessarily to the same degree",
 
+  // === INGESTED 2026-06-27 03:25 ===
+  the_term_thus_not_only: { definition: "The microorganisms involved but also encompasses their theatre of activity'", what_it_does: "", examples: "in cell–cell adhesion or biofilm formation" },
+  the_core_plant_microbiome: "Thought to contain keystone microbial taxa essential for plant health and for the fitness of the plant holobiont",
+  the_overwhelming_majority_of_microbes: { definition: "Essential for ecosystem functioning and known for beneficial interactions with other microbes as well as macroorganisms", what_it_does: "", examples: "the 16S rRNA gene for microbial community analysis by Carl Woese and George E" },
+  the_term_microbiome: "Also sometimes confused with the metagenome",
+  neutral_interactions: "Interactions where there is no observed effect on the functional capacities or fitness of interacting species microbial life strategy concepts",
+  in_contrast: { definition: "The copiotrophs , which thrive in much higher carbon concentrations, and do well in high organic substrate conditions such as sewage lagoons", what_it_does: "", examples: "of altruists and cheaters in native microbiomes" },
+  the_vertebrate_adaptive_immune_system: "Even speculated to have evolved as just such a factor for selective maintenance of symbiotic homeostasis",
+  those_that: { definition: "Expected to be present, and that under normal circumstances do not cause disease, are sometimes deemed normal flora or normal microbiota", what_it_does: "", examples: "protists, bacteria, archaea, fungi, and viruses" },
+  the_epidermal_microbiome_on_the_skin: "An indicator of how healthy the animal is, and is also an ecological indicator of the state of the surrounding environment",
+  blow_samples: "Taken to the laboratory where the respiratory tract microbiota are amplified and sequenced",
+
 };
 
 // ============================================================
