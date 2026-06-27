@@ -37491,6 +37491,23 @@ const FLAT_DICT = {
   digital_signal_processing: "The processing of digitized discrete-time sampled signals",
   nonlinear_signal_processing: { definition: "The analysis and processing of signals produced from nonlinear systems and can be in the time, frequency , or spatiotemporal domains", what_it_does: "", examples: "sampling signal techniques, [ 13 ] recovery techniques [ 14 ] and time-varying techiques" },
 
+  // === INGESTED 2026-06-27 23:45 ===
+  chemical_synapses: { definition: "Biological junctions through which neurons ' signals can be sent to each other and to non-neuronal cells such as those in muscles or glands", what_it_does: "the nervous system to connect to and control other systems of the body", examples: "another neuron)" },
+  the_neurotransmitter_molecules: "Contained within small sacs called synaptic vesicles , and are released into the synaptic cleft by exocytosis",
+  the_adult_human_brain: "Estimated to contain from 10 14 to 5 × 10 14 (100–500 trillion) synapses",
+  synapses: "Affected by drugs, such as curare, strychnine, cocaine, morphine, alcohol, LSD, risperidone, and countless others",
+  some_synaptic_vesicles: "Docked at the presynaptic plasma membrane at regions called active zones",
+  immediately_behind_the_postsynaptic_membrane: "An elaborate complex of interlinked proteins called the postsynaptic density (PSD)",
+  proteins_in_the_psd: "Involved in anchoring and trafficking neurotransmitter receptors and modulating the activity of these receptors",
+  the_receptors_and_psds: "Often found in specialized protrusions from the main dendritic shaft called dendritic spines",
+  asymmetric_synapses: "Typically excitatory",
+  symmetric_synapses: "Typically inhibitory",
+  vesicle_fusion: "Driven by the action of a set of proteins in the presynaptic terminal known as SNAREs",
+  here_the_neurotransmitter_atp: "Released directly from the cytoplasm into the synaptic cleft via voltage gated channels",
+  learning_and_memory: "Believed to result from long-term changes in synaptic strength, via a mechanism known as synaptic plasticity",
+  desensitization_of_the_postsynaptic_receptors: "A decrease in response to the same neurotransmitter stimulus",
+  electrical_synapses: { definition: "Faster than chemical synapses", what_it_does: "", examples: "in the retina , the reticular nucleus of the thalamus , the neocortex , and in the hippocampus" },
+
 };
 
 // ============================================================
