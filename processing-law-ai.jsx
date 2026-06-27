@@ -36476,6 +36476,38 @@ const FLAT_DICT = {
   the_android_sdk: "An alternative software platform, used primarily for developing Android applications with its own GUI system",
   the_java_language: { definition: "A key pillar in Android , an open source mobile operating system", what_it_does: "", examples: "smartphones and tablet computers" },
 
+  // === INGESTED 2026-06-27 01:00 ===
+  forth: "Popular in the early 1980s, [ 21 ] because it was well suited to the limited memory of microcomputers",
+  a_stack: "Used to pass parameters between words, leading to a Reverse Polish notation style",
+  one_of_the_early_benefits_of_forth: { definition: "Size: an entire development environment—including compiler, editor, and user programs—could fit in memory on an 8-bit or similarly limited system", what_it_does: "", examples: "the custom Forth used to implement the bestselling 1986 video game Starflight from Electronic Arts" },
+  most_of_these_languages: "Created to support Moore's own projects, such as chip design",
+  asyst: "A Forth expansion for measuring and controlling on PCs",
+  he_recalls_how_the_name: "Coined: [ 19 ] At Mohasco ['in the late 1960s'] I also worked directly on an IBM 1130 interfaced with an IBM 2250 graphics display",
+  microforth: "Later used by hobbyists to generate Forth systems for other architectures, such as the 6502 in 1978",
+  insoft_graforth: "A version of Forth with graphics extensions for the Apple II",
+  these_standards: "Unified by ANSI in 1994, commonly referred to as ANS Forth",
+  a_large_forth_program: "A hierarchy of words",
+  the_text_in_parentheses: "A comment, advising that this word expects a number on the stack and will return a possibly changed number (on the stack)",
+  if_the_word: { definition: "Found, the interpreter executes the code associated with the word, and then returns to parse the rest of the input stream", what_it_does: "", examples: "will compile the word X , and makes the name findable in the dictionary" },
+  a_forth_assembler: "By nature a macro assembler, so that it is easy to define an alias for registers according to their role in the Forth system: e.g",
+  in_a_hosted_system_those_blocks_too: "Allocated in a normal file in any case",
+  the_word_pause: { definition: "Used to save the current task's execution context, to locate the next task, and restore its execution context", what_it_does: "", examples: "the Intel 8051 , Atmel AVR , and TI MSP430" },
+  the_usual_method: "To redefine the handful of words that place compiled bits into memory",
+  the_buffer_in_memory: { definition: "Written to disk, and ways are provided to load it temporarily into memory for testing", what_it_does: "", examples: "the Motorola CPU32 ) that eliminate this task" },
+  head_and_body_of_a_dictionary_entry: { definition: "Treated separately because they may not be contiguous", what_it_does: "", examples: "embedded systems ) the heads occupy memory unnecessarily" },
+  the_compiler_itself: "Not a monolithic program",
+  compilation_in_traditional_forth_systems: { definition: "Straightforward and does not involve building and optimizing an abstract representation of the code", what_it_does: "", examples: "IF and WHILE" },
+  lit: "The primitive word for pushing a 'literal' number onto the data stack",
+  if_a_word: "Found, the interpreter executes the compilation semantics associated with the word, instead of the interpretation semantics",
+  the_default_compilation_semantics_of_a_word: { definition: "To append its interpretation semantics to the current definition", what_it_does: "", examples: "the next right parenthesis and is used to place comments in a colon definition" },
+  when_a_word: { definition: "A variable or other data object, the CF points to the runtime code associated with the defining word that created it", what_it_does: "", examples: "circular buffers, named bits on an I/O port, and automatically indexed arrays" },
+  a_standard_forth_system: "Also an interpreter, and the same output can be obtained by typing the following code fragment into the Forth console:",
+  the_text_between_the_parentheses: "A comment and is ignored by the compiler",
+  every_time_the_array: "Used it changes by swapping two bytes",
+  the_swaps: "Controlled by counters i and j , each initially 0",
+  because_forth: "Simple to implement and has no standard reference implementation, there are numerous versions of the language",
+  listed_here: "Some of the systems which conform to the 1994 ANS Forth standard",
+
 };
 
 // ============================================================
