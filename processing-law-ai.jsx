@@ -36454,6 +36454,28 @@ const FLAT_DICT = {
   the_skip_list: { definition: "A linked list augmented with layers of pointers for quickly jumping over large numbers of elements, and then descending to the next layer", what_it_does: "continues down to the bottom layer, which is the actual list", examples: "" },
   an_unrolled_linked_list: "A linked list in which each node contains an array of data values",
 
+  // === INGESTED 2026-06-27 00:58 ===
+  later_the_project_went_by_the_name_green_and: { definition: "Finally renamed Java , from Java coffee , a type of coffee from Indonesia", what_it_does: "", examples: "the Java Enterprise System" },
+  jvm_bytecode_instructions: { definition: "Analogous to machine code, but they are intended to be executed by a virtual machine (VM) written specifically for the host hardware", what_it_does: "", examples: "graphics, threading , and networking" },
+  the_programmer_determines_when_objects: "Created, and the Java runtime is responsible for recovering the memory once objects are no longer in use",
+  those_where_the_memory: "Still referenced but never used",
+  it_is_guaranteed_to_be_triggered_if_there: "Insufficient free memory on the heap to allocate a new object; this can cause a program to stall momentarily",
+  explicit_memory_management: "Not possible in Java, however it is possible to make the JVM do garbage collection manually [ 62 ]",
+  shenandoah: { definition: "Instead available in third-party builds of OpenJDK, such as Eclipse Temurin", what_it_does: "", examples: "Java 8, the Parallel Garbage Collector was used as the default garbage collector" },
+  the_java_applet_api: "Deprecated with the release of Java 9 in 2017",
+  servlets: { definition: "Server-side Java EE components that generate responses to requests from clients", what_it_does: "", examples: "for WebSocket communication" },
+  a_jsp: "Compiled to a Java servlet , a Java application in its own right, the first time it is accessed",
+  such_code: "Accepted by the compiler, but fails at run time with a class cast exception",
+  the_java_class_library: { definition: "The standard library , developed to support application development in Java", what_it_does: "has been a subject of controversy during the 2010s", examples: "Javadoc is a comprehensive documentation system, created by Sun Microsystems" },
+  the_delimiters: "/** and */ , whereas the normal multi-line comments in Java are delimited by /* and */ , and single-line comments start with //",
+  this_implementation: "Based on the original implementation of Java by Sun",
+  the_oracle_implementation: { definition: "Available for Windows , macOS , Linux , and Solaris", what_it_does: "", examples: "the Java compiler , Javadoc , Jar , and a debugger" },
+  openjdk_is_another_java_se_implementation_that: "Licensed under the GNU GPL",
+  the_goal_of_java: "To make all implementations of Java compatible",
+  platformindependent_java: "Essential to Java EE , and an even more rigorous validation is required to certify an implementation",
+  the_android_sdk: "An alternative software platform, used primarily for developing Android applications with its own GUI system",
+  the_java_language: { definition: "A key pillar in Android , an open source mobile operating system", what_it_does: "", examples: "smartphones and tablet computers" },
+
 };
 
 // ============================================================
