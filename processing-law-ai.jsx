@@ -37136,6 +37136,15 @@ const FLAT_DICT = {
   one_major_drawback_of_the_levins_model: "That it is deterministic , whereas the fundamental metapopulation processes are stochastic",
   metapopulations: { definition: "Particularly useful when discussing species in disturbed habitats , and the viability of their populations , i.e", what_it_does: "", examples: "their evolutionary ecology" },
 
+  // === INGESTED 2026-06-27 03:29 ===
+  three_important_types: { definition: "Pollination , cleaning symbiosis, and zoochory", what_it_does: "", examples: "fleshy fruit, overabundance of seeds) for animals that disperse the seeds (service)" },
+  a_second_example: "That of the relationship between some ants in the genus Pseudomyrmex and trees in the genus Acacia , such as the whistling thorn and bullhorn acacia",
+  these_peculiar_patches: "Known by local people as ' devil's gardens '",
+  because_that: "Not possible due to environmental constraints and carrying capacity, a model that includes saturation would be more accurate",
+  mutualists_that_display_foraging_behavior: "Exposed to the restrictions on handling time",
+  the_type_ii_functional_response: "Visualized as the graph of b a M 1 + a T H M {\displaystyle {\cfrac {baM}{1+aT_{H}M}}} vs",
+  but_it_also: "That pollinator species collapse simultaneously when conditions pass a critical point",
+
 };
 
 // ============================================================
