@@ -36222,6 +36222,21 @@ const FLAT_DICT = {
   when_a_graph: "Dense (i.e., | E | ≈ | V | 2 {\displaystyle |E|\approx |V|^{2}} ), the Floyd-Warshall algorithm tends to perform better in practice",
   when_the_graph: { definition: "Sparse (i.e., | E | {\displaystyle |E|} is significantly smaller than | V | 2 {\displaystyle |V|^{2}} ), Dijkstra tends to dominate", what_it_does: "", examples: "requiring them to be small integers)" },
 
+  // === INGESTED 2026-06-27 00:12 ===
+  an_integer: { definition: "Often a primitive data type in computer languages", what_it_does: "", examples: "Algol68 , C , Java , Delphi , etc.)" },
+  this_unique_homomorphism: { definition: "Injective if and only if the characteristic of the ring is zero", what_it_does: "", examples: "1 divided by 2) need not be an integer" },
+  although_the_natural_numbers: "Closed under exponentiation , the integers are not (since the result can be a fraction when the exponent is negative)",
+  only_those_equalities_of_expressions: "True in ⁠ Z {\displaystyle \mathbb {Z} } ⁠ for all values of variables, which are true in any unital commutative ring",
+  although_ordinary_division: "Not defined on ⁠ Z {\displaystyle \mathbb {Z} } ⁠ , the division 'with remainder' is defined on them",
+  the_integer_q_is_called_the_quotient_and_r: "Called the remainder of the division of a by b",
+  zero: "Defined as neither negative nor positive",
+  then_the_integers: "Defined to be the union ⁠ P ∪ P − ∪ { 0 } {\displaystyle P\cup P^{-}\cup \{0\}} ⁠",
+  the_natural_number_n: "Identified with the class [( n ,0)] (i.e",
+  integers: "Represented as algebraic terms built using a few basic operations (e.g",
+  other_integer_data_types: "Implemented with a fixed size, usually a number of bits which is a power of 2 (4, 8, 16, etc.) or a memorable number of decimal digits (e.g., 9 or 10)",
+  the_set_of_integers: "Countably infinite , meaning it is possible to pair each integer with a unique natural number",
+  an_example_of_such_a_pairing: "More technically, the cardinality of ⁠ Z {\displaystyle \mathbb {Z} } ⁠ is said to equal ℵ 0 ( aleph-null )",
+
 };
 
 // ============================================================
