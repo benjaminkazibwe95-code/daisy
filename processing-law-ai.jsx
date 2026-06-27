@@ -36864,6 +36864,10 @@ const FLAT_DICT = {
   tavern: { definition: "Previously a popular term, though it has become somewhat antiquated", what_it_does: "", examples: "novels, stories, films, video games, and other works" },
   the_centrepiece_of_each_visit: "A trip into the Rovers, [ 166 ] the Queen Vic, [ 167 ] or the Woolpack to be offered a drink",
 
+  // === INGESTED 2026-06-27 02:16 ===
+  the_repeat_clusters: "Located on the acrocentric chromosomes 13 ( RNR1 ), 14 ( RNR2 ), 15 ( RNR3 ), 21 ( RNR4 ) and 22 ( RNR5 )",
+  coding_regions_of_rdna: { definition: "Highly conserved among species but ITS regions are variable due to insertions, deletions, and point mutations", what_it_does: "", examples: "ITS tracts among species and phylogenetic analysis are made satisfactorily" },
+
 };
 
 // ============================================================
