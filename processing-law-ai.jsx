@@ -36940,6 +36940,10 @@ const FLAT_DICT = {
   it_is_further_assumed_that_it: "The task of a theory of explanation to capture what is common to both scientific and at least some more ordinary forms of explanation",
   observe_the_cat: "Scratching right now.' Joe has made an argument that the cat has fleas",
 
+  // === INGESTED 2026-06-27 02:39 ===
+  a_selectable_marker: { definition: "A gene introduced into cells , especially bacteria or cells in culture , which confers one or more traits suitable for artificial selection", what_it_does: "", examples: "the gene which confers antibiotic resistance, can survive and produce colonies" },
+  these_wanted_or_unwanted_cells: "Simply non-transformed cells that were unable to take up the screenable gene during the experiment",
+
 };
 
 // ============================================================
