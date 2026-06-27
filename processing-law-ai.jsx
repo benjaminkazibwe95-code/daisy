@@ -36536,6 +36536,24 @@ const FLAT_DICT = {
   an_exception_is_if_a_processor: "Designed to use bytecode as its machine code, such as the Pascal MicroEngine or a Java processor",
   if_bytecode: "Processed by a software interpreter, then that interpreter is a virtual machine for which the bytecode is its machine code",
 
+  // === INGESTED 2026-06-27 01:11 ===
+  postscript: "Created at Adobe Systems by John Warnock , Charles Geschke , Doug Brotz, Ed Taft and Bill Paxton from 1982 to 1984",
+  the_concepts_of_the_postscript_language: { definition: "Seeded in 1976 by John Gaffney at Evans & Sutherland , [ 2 ] [ 3 ] [ 4 ] a computer graphics company", what_it_does: "", examples: "font hinting" },
+  the_first_version_of_the_postscript_language: "Released to the market in 1984",
+  the_characters_on_these_systems: "Drawn as a series of dots, as defined by a font table inside the printer",
+  vector_graphics_printing: "Left to special-purpose devices, called plotters",
+  since_the_documentprogram: "The same regardless of its destination, it is called device-independent",
+  when_the_postscript_program: "Interpreted, the interpreter converts these instructions into the dots needed to form the output",
+  almost_as_complex_as_postscript_itself: "Its handling of fonts",
+  those_who_did_not_license_the_technology: { definition: "Left with the Type 3 Font (also known as PostScript Type 3 Font , PS3 or T3 )", what_it_does: "", examples: "Linotronic implemented PostScript" },
+  several_compatible_interpreters: "Listed on the Undocumented Printing Wiki",
+  when_postscript_support: "Needed for such a printer, Ghostscript can be used",
+  although_dps: "Written in conjunction with NeXT, Adobe sold it commercially and it was a common feature of most Unix workstations in the 1990s",
+  a_pdf_document: { definition: "A static data structure made for efficient access and embeds navigational information suitable for interactive viewing", what_it_does: "", examples: "numbers) have the effect of placing a copy of themselves on the stack" },
+  postscript_programs: "Typically divided into two parts, conventionally called the prolog and the script",
+  the_prolog_contains_procedures_and: "Written by a programmer",
+  the_script: "Often generated automatically, using a programming language other than PostScript",
+
 };
 
 // ============================================================
