@@ -36252,6 +36252,10 @@ const FLAT_DICT = {
   ccode: "Generated from the drakon-charts, for instance, for a DRAKON representation of code for launch detection",
   in_russia_the_drakon_editor: "Known for being used in the medical field as a tool for making 'instructional' charts for patients or medical personnel",
 
+  // === INGESTED 2026-06-27 00:18 ===
+  algorithm_certification: "Auditing whether the algorithm used during the life cycle 1) conforms to the protocoled requirements (e.g",
+  belarusian_lawyer_denis_aleinikov: "Considered to be the author of a smart contract legal concept introduced by the decree",
+
 };
 
 // ============================================================
