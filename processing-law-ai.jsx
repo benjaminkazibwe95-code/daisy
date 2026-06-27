@@ -36397,6 +36397,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 00:44 ===
   baezayates: "Proposed for the first time to the Chilean National Prize in Applied Sciences (Premio Nacional de Ciencias Aplicadas) [ citation needed ]",
 
+  // === INGESTED 2026-06-27 00:48 ===
+  both_the_data_structure_and_its_name: { definition: "Devised by John Iacono and Stefan Langerman", what_it_does: "", examples: "searching, inserting, or deleting" },
+  if_the_item_x: "Already in tree T , the item is removed using the 2–4 tree delete operation",
+  all_the_elements_stored_in_list_l: "Then added to the 2–4 tree, setting the bit variable of each element to zero",
+  the_operations: "As follows: New(Q): Initializes a new empty queap",
+  the_running_time: "Analyzed using the amortized analysis",
+  the_delete_operation: "O(1) amortized 2–4 tree",
+  since_x: "Removed from the tree, h v {\displaystyle h_{v}} and c v {\displaystyle c_{v}} pointers may need updating",
+  the_time: "Spent at most 2 a | L | + O ( l g q ( x ) ) {\displaystyle 2a|L|+O(lgq(x))}",
+
 };
 
 // ============================================================
