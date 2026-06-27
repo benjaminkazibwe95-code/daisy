@@ -36616,6 +36616,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 01:23 ===
   hanow_was_educated_in_danzig_and_leipzig_and: "A private teacher in Dresden , Leipzig and Danzig",
 
+  // === INGESTED 2026-06-27 01:28 ===
+  the_following_outline: "Provided as an overview of and topical guide to biology : Biology – The natural science that studies life",
+
 };
 
 // ============================================================
