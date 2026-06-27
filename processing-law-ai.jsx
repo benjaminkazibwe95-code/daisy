@@ -36200,6 +36200,9 @@ const FLAT_DICT = {
   error_detection_and_correction_codes: "Often used to improve the reliability of data storage media",
   reedsolomon_codes: { definition: "Used in compact discs to correct errors caused by scratches", what_it_does: "", examples: "scientific computing, financial, medical, etc" },
 
+  // === INGESTED 2026-06-27 00:04 ===
+  while_the_content: "Subject to peer review , the articles published are often summaries of research that may also be published elsewhere",
+
 };
 
 // ============================================================
