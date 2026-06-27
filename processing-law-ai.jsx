@@ -36934,6 +36934,12 @@ const FLAT_DICT = {
   the_editor: "Assisted by the editorial committee , which includes associate editors, regular members, and occasionally guest editors",
   all_other_members_of_the_editorial_committee: "Appointed by the Annual Reviews board of directors and serve five-year terms",
 
+  // === INGESTED 2026-06-27 02:35 ===
+  an_explanation: "A set of statements usually constructed to describe a set of facts that clarifies the causes , context , and consequences of those facts",
+  it_is_thus_assumed_that_there: "A single kind or form of explanation that is “scientific”",
+  it_is_further_assumed_that_it: "The task of a theory of explanation to capture what is common to both scientific and at least some more ordinary forms of explanation",
+  observe_the_cat: "Scratching right now.' Joe has made an argument that the cat has fleas",
+
 };
 
 // ============================================================
