@@ -36345,6 +36345,16 @@ const FLAT_DICT = {
   computer_companies: { definition: "Known to tune their systems to improve performance on benchmark tests that are not representative of real world usage", what_it_does: "", examples: "the 'benchmark wars' between rival relational database makers in the 1980s and 1990s" },
   interpretation_of_benchmarking_data: "Also extraordinarily difficult",
 
+  // === INGESTED 2026-06-27 00:39 ===
+  the_size_of_the_tree: "Taken to be the number n of internal nodes (those with two children); the other nodes are leaf nodes and there are n + 1 of them",
+  insertion_on_internal_nodes: "Slightly more complex than on leaf nodes",
+  say_that_the_internal_node: "Node A and that node B is the child of A",
+  deletion_is_the_process_whereby_a_node: { definition: "Removed from the tree", what_it_does: "", examples: "binary search trees ) these nodes can be deleted, though with a rearrangement of the tree structure" },
+  the_preorder_traversal: "A topologically sorted one, because a parent node is processed before any of its child nodes is done",
+  preorder: "A special case of this",
+  contrasting_with_depthfirst_order: "Breadth-first order, which always attempts to visit the node closest to the root that it has not already visited",
+  when_the_breadthindex: "Masked at bit d − 1, the bit values 0 and 1 mean to step either left or right, respectively",
+
 };
 
 // ============================================================
