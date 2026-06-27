@@ -36421,6 +36421,39 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 00:54 ===
   freeman_and_company: "An imprint of Macmillan Higher Education, a division of Macmillan Publishers",
 
+  // === INGESTED 2026-06-27 00:56 ===
+  a_drawback_of_linked_lists: "That data access time is linear with respect to the number of nodes in the list",
+  because_nodes: { definition: "Serially linked, accessing any node requires that the prior node be accessed beforehand (which introduces difficulties in pipelining )", what_it_does: "", examples: "random access, is not feasible" },
+  linked_lists: "By implementing a program that resolves the Josephus problem",
+  but_in_linked_list_data: { definition: "Not stored in contiguous memory locations, instead the node holding the reference to other node's memory address is in sequential order", what_it_does: "", examples: "the Logic Theory Machine, the General Problem Solver , and a computer chess program" },
+  the_directory_structure: "Similar to Unix, where a directory could contain files and other directories and extend to any depth",
+  each_record_of_a_linked_list: "Often called an 'element' or ' node '",
+  the_remaining_fields: { definition: "Known as the 'data', 'information', 'value', 'cargo', or 'payload' fields", what_it_does: "", examples: "by name, by department, by date of birth, etc.)" },
+  an_empty_list: "A list that contains no data records",
+  if_sentinel_nodes: "Being used, the list is usually said to be empty when it has only sentinel nodes",
+  if_the_data_records: "Stored in an array and referenced by their indices, the link field may be stored in a separate array with the same indices as the data records",
+  a_dynamic_array: "A data structure that allocates all elements contiguously in memory, and keeps a count of the current number of elements",
+  if_the_space_reserved_for_the_dynamic_array: "Exceeded, it is reallocated and (possibly) copied, which is an expensive operation",
+  an_array_from_which_many_elements: "Removed may also have to be resized in order to avoid wasting too much space",
+  sequential_access_on_arrays_and_dynamic_arrays: "Also faster than on linked lists on many machines, because they have optimal locality of reference and thus make good use of data caching",
+  the_josephus_problem: "An election method that works by having a group of people stand in a circle",
+  once_the_n_th_person: "Reached, one should remove them from the circle and have the members close the circle",
+  a_singly_linked_linear_list: { definition: "A recursive data structure, because it contains a pointer to a smaller object of the same type", what_it_does: "", examples: "every proper list ends with a link to a special node, denoted by nil or ()" },
+  the_advantages_of_the_fancy_variants: { definition: "Often limited to the complexity of the algorithms, not in their efficiency", what_it_does: "", examples: "the quad-edge and face-edge" },
+  one_wellknown_method: { definition: "To have a second pointer walking the list at half or double the speed, and if both pointers meet at the same node, a cycle has been found", what_it_does: "", examples: "the creation of a new empty list)" },
+  this_ensures_that_there: { definition: "No special cases for the beginning of the list and renders both insertBeginning() and removeBeginning() unnecessary, i.e", what_it_does: "", examples: "a queue), one stores a reference to the last node in the list" },
+  if_records: "Also not supported, parallel arrays can often be used instead",
+  links_between_elements: { definition: "Formed by placing the array index of the next (or previous) cell into the Next or Prev field within a given element", what_it_does: "", examples: "In the above example, ListHead would be set to 2, the location of the first entry in the list" },
+  if_all_entries: "In use, the size of the array would have to be increased or some elements would have to be deleted before new entries could be stored in the list",
+  these_disadvantages: { definition: "Also mitigated if the maximum size of the list is known at the time the array is created", what_it_does: "", examples: "Lisp and Scheme have singly linked lists built in" },
+  the_generic_routines: "Used to add new messages to a queue when they are received, and remove them from the queue in order to process the message",
+  the_message_type_field: "Then used to call the correct routine to process the specific type of message",
+  another_common_approach: { definition: "To ' index ' a linked list using a more efficient external data structure", what_it_does: "", examples: "one can build a red–black tree or hash table whose elements are references to the linked list nodes" },
+  the_disadvantage: "That these indexes may need to be updated each time a node is added or removed (or at least, before that index is used again)",
+  a_randomaccess_list: "A list with support for fast random access to read or modify any element in the list",
+  the_skip_list: { definition: "A linked list augmented with layers of pointers for quickly jumping over large numbers of elements, and then descending to the next layer", what_it_does: "continues down to the bottom layer, which is the actual list", examples: "" },
+  an_unrolled_linked_list: "A linked list in which each node contains an array of data values",
+
 };
 
 // ============================================================
