@@ -36407,6 +36407,10 @@ const FLAT_DICT = {
   since_x: "Removed from the tree, h v {\displaystyle h_{v}} and c v {\displaystyle c_{v}} pointers may need updating",
   the_time: "Spent at most 2 a | L | + O ( l g q ( x ) ) {\displaystyle 2a|L|+O(lgq(x))}",
 
+  // === INGESTED 2026-06-27 00:50 ===
+  a_global_identifier: "Declared outside of functions and is available throughout the program",
+  a_local_identifier: { definition: "Declared within a specific function and only available within that function", what_it_does: "", examples: "Go, identifiers' uniqueness is based on their spelling and their visibility" },
+
 };
 
 // ============================================================
