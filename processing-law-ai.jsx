@@ -36656,6 +36656,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 01:36 ===
   this_short_list: "Abbreviated CHNOPS (carbon, hydrogen, nitrogen, oxygen, phosphorus, and sulfur ) as an aid to memory",
 
+  // === INGESTED 2026-06-27 01:38 ===
+  classical_genetics: "Often contrasted with reverse genetics , and aspects of molecular biology are sometimes referred to as molecular genetics",
+  linkage_maps: "Still used today, especially in breeding for plant improvement",
+  the_genes: "Composed of sequences of DNA and, one after another, are lined up at fixed positions on chromosomes within the nucleus of cells",
+  the_characteristics: "Associated with a simple feature or character",
+  the_process_by_which_characteristics: "Passed down from parents to their offspring is called heredity",
+  genes_are_a_fundamental_part_of_dna_that: "Aligned linearly on a eukaryotic chromosome",
+  chemical_information_that: "Transported and encoded by each gene is referred to as a trait",
+  these_paired_genes_that_control_the_same_trait: "Classified as an allele",
+  the_genotype_of_an_offspring: "Known as its genetic makeup",
+  mendelian_inheritance: "The process in which genes and traits are passed from a set of parents to their offspring",
+  these_inherited_traits: "Passed down mechanistically with one gene from one parent and the second gene from another parent in sexually reproducing organisms",
+  he_focused_on_the_patterns_of_the_traits_that: "Being passed down from one generation to the next generation",
+  seven_different_phenotypic_characteristics: "Studied and tested in the peas, including seed color, flower color and seed shape",
+  the_plants_that_were_originally_crossed: "Known as the parental generation, or P generation, and the offspring resulting from the parental cross is known as the first filial, or F1, generation",
+
 };
 
 // ============================================================
