@@ -37054,6 +37054,11 @@ const FLAT_DICT = {
   this_steep_decline: { definition: "Known as the net energy cliff", what_it_does: "", examples: "reforestation" },
   nuclear_power_and_carbon_capture: "Excluded in these scenarios",
 
+  // === INGESTED 2026-06-27 03:12 ===
+  another_name_for_it: { definition: "Incident photon to converted electron ( IPCE ) ratio", what_it_does: "", examples: "modifying the front surface can affect carriers generated near the surface" },
+  that_heat: "Wasted energy, and could damage the cell",
+  when_more_than_one_electron: "Created per incident photon)",
+
 };
 
 // ============================================================
