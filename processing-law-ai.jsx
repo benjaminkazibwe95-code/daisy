@@ -36329,6 +36329,10 @@ const FLAT_DICT = {
   the_first_known_ones: "Made by Enmetena and Urukagina of Lagash in c",
   the_cart: "Composed of a woven basket and the wheels had a solid three-piece design",
 
+  // === INGESTED 2026-06-27 00:31 ===
+  a_new_dynamic_version_of_the_encyclopedia: "Now available as a public wiki online",
+  this_new_wiki: "A collaboration between Springer and the European Mathematical Society",
+
 };
 
 // ============================================================
