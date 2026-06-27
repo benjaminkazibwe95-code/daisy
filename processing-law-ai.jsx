@@ -36557,6 +36557,27 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-27 01:13 ===
   its_first_computer_book: "Programs for an Electronic Digital Computer , by Wilkes, Wheeler, and Gill",
 
+  // === INGESTED 2026-06-27 01:15 ===
+  scheme: "A very simple language, much easier to implement than many other languages of comparable expressive power",
+  when_an_rtd: "Created and used, the record type representation can show the memory layout",
+  character_data: "Also now specified in Unicode",
+  lists: "Also the main data structure in Scheme, leading to a close equivalence between source code and data formats ( homoiconicity )",
+  the_reliance_on_lists_as_data_structures: { definition: "Shared by all Lisp dialects", what_it_does: "", examples: "cons , car and cdr from its Lisp progenitors" },
+  but_early_lisps: "Not suitable expressions of the lambda calculus because of their treatment of free variables",
+  the_named_let: "Widely used to implement iteration",
+  standardconforming_scheme_implementations: "Required to optimize tail calls so as to support an unbounded number of active tail calls (R5RS sec",
+  continuations_in_scheme: { definition: "First-class objects", what_it_does: "", examples: "iterators , coroutines , and backtracking" },
+  the_promise: "Only ever evaluated once",
+  among_popular_ones: { definition: "Syntactic closures , explicit renaming macros and define-macro , a non-hygienic macro system similar to defmacro system provided in Common Lisp", what_it_does: "", examples: "scope sets provide a potential solution" },
+  the_reason_for_this_confusion: { definition: "That in Scheme with its lexical scoping the result of evaluating an expression depends on where it is evaluated", what_it_does: "", examples: "Common Lisp, by convention the value NIL evaluates to the value false in a Boolean expression" },
+  redirection_of_input_and_standard_output: "Supported in the standard, by standard procedures such as with-input-from-file and with-output-to-file",
+  the_following_examples: { definition: "Written in strict R5RS Scheme", what_it_does: "", examples: "the standard ones, belongs to some library, and all exported bindings are immutable" },
+  these_conventions: "Often followed by Scheme programmers",
+  procedure_application: "Sometimes referred to formally as combination",
+  this_table: "The standard forms in Scheme",
+  while_begin: "Defined as a library syntax in R5RS, the expander must know about it to achieve the splicing function",
+  many_of_the_srfis: "Supported by all or most Scheme implementations",
+
 };
 
 // ============================================================
