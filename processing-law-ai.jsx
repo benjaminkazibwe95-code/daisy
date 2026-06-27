@@ -36532,6 +36532,10 @@ const FLAT_DICT = {
   the_interplanetary_idea_system: "A blockchain based system that tracks the evolution of scientific ideas over time",
   the_research_network: { definition: "A social networking platform for researchers", what_it_does: "", examples: "the Open Science Framework" },
 
+  // === INGESTED 2026-06-27 01:09 ===
+  an_exception_is_if_a_processor: "Designed to use bytecode as its machine code, such as the Pascal MicroEngine or a Java processor",
+  if_bytecode: "Processed by a software interpreter, then that interpreter is a virtual machine for which the bytecode is its machine code",
+
 };
 
 // ============================================================
