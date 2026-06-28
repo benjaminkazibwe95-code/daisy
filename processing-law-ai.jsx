@@ -38870,6 +38870,15 @@ const FLAT_DICT = {
   nondeterministic_pushdown_automata: "Another formalism equivalent to context-free grammars",
   primitive_recursive_functions: "A defined subclass of the recursive functions",
 
+  // === INGESTED 2026-06-28 20:05 ===
+  searle: "Born in Denver on July 31, 1932",
+  among_concepts_presented_in_the_book: { definition: "The distinction between the 'illocutionary force' and the 'propositional content' of an utterance", what_it_does: "", examples: "the statement 'John bought two candy bars' is satisfied if and only if it is true, i.e" },
+  perhaps_the_goal_of_science: { definition: "To establish and validate statements which are epistemically objective, i.e", what_it_does: "", examples: "all conscious experiences, that are ontologically subjective, i.e" },
+  no_matter_how_good_a_simulation_of_digestion: "Built on the computer, it will not digest anything; no matter how well it simulates fire, nothing will get burnt",
+  although_their_accounts_of_social_reality: "Similar, there are important differences",
+  certain_behaviors: "Seen as rational, no matter what their source, and a system of rules derives from finding patterns in what is considered rational",
+  our_rights_have_been_massively_violated_and_we: "Here to correct that injustice.' [ 56 ] The court described the debate as a 'morass of political invective, ad hominem attack, and policy argument'",
+
 };
 
 // ============================================================
