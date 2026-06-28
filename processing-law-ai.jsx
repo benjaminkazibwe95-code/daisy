@@ -37598,6 +37598,13 @@ const FLAT_DICT = {
   if_k: "A commutative ring instead of a field, then everything that has been said above about linear combinations generalizes to this case without change",
   a_more_complicated_twist_comes_when_v: "A bimodule over two rings, K L and K R",
 
+  // === INGESTED 2026-06-28 00:22 ===
+  the_term_connectionist_model: { definition: "Reintroduced in a 1982 paper in the journal Cognitive Science by Jerome Feldman and Dana Ballard", what_it_does: "", examples: "that of William James" },
+  another_form_of_connectionist_model: { definition: "The relational network framework developed by the linguist Sydney Lamb in the 1960s", what_it_does: "", examples: "Jerry Fodor , Steven Pinker and others) reacted against it" },
+  the_debate: { definition: "Largely centred on logical arguments about whether connectionist networks could produce the syntactic structure observed in this sort of reasoning", what_it_does: "", examples: "specifying the learning algorithm, the number of units, etc.), or in unhelpfully low-level terms" },
+  some_researchers_suggest_that_the_analysis_gap: "The consequence of connectionist mechanisms giving rise to emergent phenomena that may be describable in computational terms",
+  relational_networks_and_neural_turing_machines: { definition: "Further evidence that connectionism and computationalism need not be at odds", what_it_does: "", examples: "by Bechtel & Abrahamsen, [ 63 ] Marcus [ 64 ] and Maurer" },
+
 };
 
 // ============================================================
