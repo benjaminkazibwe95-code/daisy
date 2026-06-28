@@ -37980,6 +37980,36 @@ const FLAT_DICT = {
   monodevelop: "An open-source alternative IDE",
   the_gambas_environment: "Also similar but distinct from Visual Basic, as is the Visual FB Editor for FreeBasic",
 
+  // === INGESTED 2026-06-28 02:05 ===
+  since_options_to_commands: { definition: "Given in a few characters in each command line, an experienced user often finds the options easier to access", what_it_does: "", examples: "different fonts or extended edit windows found in a GUI" },
+  examples_of_commandline_interpreters: { definition: "Nushell , DEC's DIGITAL Command Language (DCL) in OpenVMS and RSX-11 , the various Unix shells ( sh , ksh , csh , tcsh , zsh , Bash , etc", what_it_does: "", examples: "4DOS for DOS, 4OS2 for OS/2, and 4NT / Take Command for Windows" },
+  this_program_strictly_speaking: "A shell GUI and by extension a shell (strictly speaking, the Windows shell is shell32.dll not explorer.exe which is a shell GUI for shell32",
+  the_mechanical_teleprinter: "Replaced by a 'glass tty' , a keyboard and screen emulating the teleprinter",
+  some_of_these_pcs: "Running Bulletin Board System software",
+  early_operating_system_clis: { definition: "Implemented as part of resident monitor programs, and could not easily be replaced", what_it_does: "", examples: "CP/M , DOS or AppleSoft BASIC" },
+  mingw_and_cygwin: "Open-source packages for Windows that offer a Unix-like CLI",
+  z_shell: "The default shell for macOS; Bash, tcsh , and the KornShell are also provided",
+  clis: "Often used by programmers and system administrators, in engineering and scientific environments, and by technically advanced personal computer users",
+  another_redirection_operator: "The vertical bar ( | ), which creates a pipeline where the output of one command becomes the input to the next command",
+  the_directories_in_the_path_variable: { definition: "Searched in the order they are given", what_it_does: "", examples: "access to advanced internal commands" },
+  the_set_of_commands: { definition: "Grouped by association with security, system, interface, etc", what_it_does: "", examples: "the path of the current working directory and the hostname" },
+  in_risc_os_the_command_prompt: { definition: "A * symbol, and thus (OS) CLI commands are often referred to as star commands", what_it_does: "", examples: "the BBC BASIC command line), by preceding the command with a *" },
+  a_commandline_argument_or_parameter: "An item of information provided to a program when it is started",
+  when_a_command_processor_is_active_a_program: { definition: "Typically invoked by typing its name followed by command-line arguments (if any)", what_it_does: "", examples: "in Unix and Unix-like environments, an example of a command-line argument is: file" },
+  the_default_character_returned_by_this_api: { definition: "/ , but can be changed to a hyphen-minus on the above-mentioned systems, except for under Datalight ROM-DOS and MS-DOS/PC DOS 5", what_it_does: "", examples: "filename or date) for the first option" },
+  double_hyphenminuses: "Also sometimes used to prefix long options where more descriptive option names are used",
+  keyword_values: "Separated from the keywords with equal signs",
+  one_of_the_criticisms_of_a_cli: "The lack of cues to the user as to the available actions",
+  the_context_of_interpretation: "Usually one of a given operating system or programming language",
+  the_commands: "Stored in the graphical shell [ clarification needed ] or in files like the registry or the OS/2 OS2USER.INI file",
+  later_a_single_system_console: "Added to allow the operator to communicate with the system",
+  all_of_these_devices: { definition: "Purely text based, with no ability to display graphics or pictures", what_it_does: "", examples: "the Commodore PET , Apple II and BBC Micro – almost always in the form of a BASIC interpreter" },
+  the_command_line: { definition: "First seriously challenged by the PARC GUI approach used in the 1983 Apple Lisa and the 1984 Apple Macintosh", what_it_does: "", examples: "GEOS and Windows 3.1 but the majority of IBM PC users did not replace their COMMAND" },
+  basic: "Modeled on the default interface for 8-bit Intel computers",
+  the_program_returns_a_text_which: "How the character sees it, or makes the action happen",
+  the_most_notable_of_these_interfaces: "The standard streams interface, which allows the output of one command to be passed to the input of another",
+  the_command: "Processed internally by the shell, and then passed on to another program to launch the document",
+
 };
 
 // ============================================================
