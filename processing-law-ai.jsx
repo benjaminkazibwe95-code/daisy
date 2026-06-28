@@ -38394,6 +38394,18 @@ const FLAT_DICT = {
   the_courts_of_the_united_states: { definition: "Closely linked hierarchical systems of courts at the federal and state levels", what_it_does: "", examples: "traffic citations, and courts of general jurisdiction responsible for more serious disputes" },
   judicial_system: { definition: "Often portrayed in American literature and films", what_it_does: "", examples: "A Few Good Men (1992) and Runaway Jury (2003) are set around its courts" },
 
+  // === INGESTED 2026-06-28 11:15 ===
+  the_resolution_rule_in_propositional_logic: "A single valid inference rule that produces a new clause implied by two clauses containing complementary literals",
+  a_literal: "A propositional variable or the negation of a propositional variable",
+  two_literals_are_said_to_be_complements_if_one: "The negation of the other (in the following, ¬ c {\displaystyle \lnot c} is taken to be the complement to c {\displaystyle c} )",
+  one_instance_of_this_algorithm: "The original Davis–Putnam algorithm that was later refined into the DPLL algorithm that removed the need for explicit representation of the resolvents",
+  tree_representations: "More faithful to the fact that the resolution rule is binary",
+  here_x: "A variable and b is a constant",
+  murray_has_shown_that_this_rule: "Complete if augmented by appropriate logical transformation rules",
+  the_generalized_resolvent: "Obtained after applying ϕ {\displaystyle \phi } to the parent formulas, thus making the propositional version applicable",
+  the_subterm: "Then replaced by the other side of the equality",
+  the_general_aim_of_paramodulation: "To reduce the system to atoms, reducing the size of the terms when substituting",
+
 };
 
 // ============================================================
