@@ -38910,6 +38910,11 @@ const FLAT_DICT = {
   hart: "The authors of 'Pattern Classification and Scene Analysis', originally published in 1973",
   this_classic_text: "A widely cited reference, and the first edition was in print for over 25 years until being superseded by the second edition in 2000",
 
+  // === INGESTED 2026-06-28 20:20 ===
+  multilinear_subspace_learning: "An approach for disentangling the causal factor of data formation and performing dimensionality reduction",
+  linear_subspace_learning_algorithms: "Traditional dimensionality reduction techniques that are well suited for datasets that are the result of varying a single causal factor",
+  mpca: "An extension of PCA",
+
 };
 
 // ============================================================
