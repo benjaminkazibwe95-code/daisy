@@ -38915,6 +38915,28 @@ const FLAT_DICT = {
   linear_subspace_learning_algorithms: "Traditional dimensionality reduction techniques that are well suited for datasets that are the result of varying a single causal factor",
   mpca: "An extension of PCA",
 
+  // === INGESTED 2026-06-28 20:26 ===
+  since_the_following: "Valid: it suffices to solve only minimization problems",
+  the_domain_a_of_f: "Called the search space or the choice set , while the elements of A are called candidate solutions or feasible solutions",
+  while_a_local_minimum: "At least as good as any nearby elements, a global minimum is at least as good as every feasible element",
+  optimization_problems: "Often multi-modal; that is, they possess multiple good solutions",
+  the_minimum_value_in_this_case: "1, occurring at x = 0",
+  operators_arg_min_and_arg_max: { definition: "Sometimes also written as argmin and argmax , and stand for argument of the minimum and argument of the maximum", what_it_does: "", examples: "to optimize a structural design, one would desire a design that is both light and rigid" },
+  one_way_to_obtain_such_a_point: "To relax the feasibility conditions using a slack variable ; with enough slack, any starting point is feasible",
+  the_envelope_theorem: "How the value of an optimal solution changes when an underlying parameter changes",
+  the_process_of_computing_this_change: "Called comparative statics",
+  when_the_objective_function: { definition: "A convex function , then any local minimum will also be a global minimum", what_it_does: "", examples: "interior-point methods" },
+  both_line_searches_and_trust_regions: { definition: "Used in modern methods of non-differentiable optimization", what_it_does: "detailed information for such optimizers, but are even harder to calculate, e.g", examples: "" },
+  which_one: "Best with respect to the number of function calls depends on the problem itself",
+  a_heuristic_is_any_algorithm_which: "Not guaranteed (mathematically) to find the solution, but which is nevertheless useful in certain practical situations",
+  this_application: "Called design optimization",
+  asset_prices: "Also modeled using optimization theory, though the underlying mathematics relies on optimizing stochastic processes rather than on static optimization",
+  the_optimization_of_portfolios: { definition: "An example of multi-objective optimization in economics", what_it_does: "", examples: "dynamic search models are used to study labor-market behavior" },
+  mathematical_optimization: { definition: "Used in much modern controller design", what_it_does: "", examples: "model predictive control (MPC) or real-time optimization (RTO) employ mathematical optimization" },
+  optimization_techniques: "Used in many facets of computational systems biology such as model building, optimal experimental design, metabolic engineering, and synthetic biology",
+  the_majority_of_problems_in_geophysics: "Nonlinear with both deterministic and stochastic methods being widely used",
+  nonlinear_optimization_methods: "Widely used in conformational analysis",
+
 };
 
 // ============================================================
