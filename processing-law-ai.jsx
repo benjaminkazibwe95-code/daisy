@@ -37801,6 +37801,15 @@ const FLAT_DICT = {
   if_the_candidates: "Enumerated in increasing order, 1 to 1000, the number t of candidates examined before success will be about 6, on the average",
   so_if_the_valid_solutions: "Likely to be 'clustered' in some sense, then each new candidate should be as far as possible from the previous ones, in that same sense",
 
+  // === INGESTED 2026-06-28 01:04 ===
+  although_automated_reasoning: "Considered a sub-field of artificial intelligence , it also has connections with theoretical computer science and philosophy",
+  an_important_part_of_the_uncertainty_field: "That of argumentation, where further constraints of minimality and consistency are applied on top of the more standard automated deduction",
+  a_formal_proof: "A proof in which every logical inference has been checked back to the fundamental axioms of mathematics",
+  all_the_intermediate_logical_steps: "Supplied, without exception",
+  no_appeal: "Made to intuition, even if the translation from intuition to logic is routine",
+  principia_mathematica: "Initially published in three volumes in 1910, 1912 and 1913",
+  logic_theorist: "A good example of this",
+
 };
 
 // ============================================================
