@@ -38335,6 +38335,14 @@ const FLAT_DICT = {
   neurosymbolic_knowledge_extraction: "Closely related to the field of Explainable AI and Argumentation",
   knowledge_extraction: "The main bottleneck computationally for the realization of neuro-symbolic AI in practice and at large scale",
 
+  // === INGESTED 2026-06-28 11:00 ===
+  deepface: { definition: "A deep learning facial recognition system created by a research group at Facebook", what_it_does: "", examples: "an instance where an individual used someone's profile photo as their own" },
+  if_the_feature: "Turned off, Facebook will cease facial recognition for that individual",
+  an_image_of_a_face: "Passed through them in sequence, resulting in a 4096-dimensional feature vector representing the face",
+  because_full_perspective_projections: "Not modeled, the fitted camera is only an approximation of the individual's actual face",
+  slate_said_that_deepface: "Not being publicized by Facebook because it is wary of another round of headlines decrying DeepFace's creepiness",
+  the_implementation_of_these_programs: "Recent, and it is still unclear what reforms will be made",
+
 };
 
 // ============================================================
