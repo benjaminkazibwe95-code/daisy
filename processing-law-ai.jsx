@@ -38587,6 +38587,27 @@ const FLAT_DICT = {
   the_goal_of_the_networks: "To study phenomena such as segregation or mobility within a country in large-scale",
   a_large_subset_of_these: "Created based on registry data available within a country, such networks have been created for the Netherlands [ 91 ] , Denmark [ 92 ] and Sweden",
 
+  // === INGESTED 2026-06-28 12:10 ===
+  these_applications: { definition: "Called direct voice input", what_it_does: "", examples: "identifying native language using pronunciation assessment" },
+  raj_reddy: { definition: "The first person to work on continuous speech recognition, [ 19 ] as a graduate student at Stanford University in the late 1960s", what_it_does: "", examples: "acoustics , language, and syntax , in a unified probabilistic model" },
+  sphinxii: { definition: "The first to do speaker-independent, large vocabulary, continuous speech recognition, and it won DARPA's 1992 evaluation", what_it_does: "", examples: "Kurzweil Applied Intelligence in 1997 and Dragon Systems in 2000" },
+  multiple_deep_learning_models: "Used to improve accuracy",
+  the_error_rate: "Reported to be as low as 4 professional human transcribers working together on the same benchmark",
+  language_modelling: "Also used in many other natural language processing applications, such as document classification or statistical machine translation",
+  hmms: { definition: "Popular because they can be trained automatically and are simple and computationally feasible", what_it_does: "", examples: "10), outputting one every 10 milliseconds" },
+  dynamic_time_warping: { definition: "Historically used for speech recognition, but was later displaced by HMM", what_it_does: "", examples: "time series) with certain restrictions" },
+  the_sequences: "'warped' non-linearly to match each other",
+  this_sequence_alignment_method: "Often used in the context of HMMs",
+  a_more_significant_issue: { definition: "That most EHRs have not been expressly tailored to take advantage of voice-recognition capabilities", what_it_does: "", examples: "a chest X-ray vs" },
+  voice_commands: "Confirmed by visual and/or aural feedback",
+  the_overriding_issue_for_voice: "The impact on pilot effectiveness",
+  encouraging_results: "Reported for the AVRADA tests, although these represent only a feasibility demonstration in a test environment",
+  for_individuals_who: { definition: "Deaf or hard of hearing , speech recognition software can be used to generate captions of conversations", what_it_does: "", examples: "voicemail to text, relay services , and captioned telephone" },
+  the_performance_of_speech_recognition_systems: "Usually evaluated in terms of accuracy and speed",
+  as_the_more_complex_sound_signal: "Divided, different levels are created, where at the top level are complex sounds made of simpler sounds on the lower level, etc",
+  these_sounds: { definition: "Put together into more complex sounds on upper level, a new set of more deterministic rules predicts what the complex sound represents", what_it_does: "", examples: "ACL , NAACL , EMNLP, and HLT, include papers on speech processing" },
+  the_main_journal: "IEEE/ACM Transactions on Audio, Speech and Language Processing",
+
 };
 
 // ============================================================
