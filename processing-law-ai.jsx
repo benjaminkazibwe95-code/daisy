@@ -39184,6 +39184,15 @@ const FLAT_DICT = {
   a_general_algebraic_data_type: "A possibly recursive sum type of product types",
   if_a_datatype: { definition: "Recursive, the entire sum of products is wrapped in a recursive type , and each constructor also rolls the datatype into the recursive type", what_it_does: "", examples: "the Haskell datatype: is represented in type theory as λ α" },
 
+  // === INGESTED 2026-06-28 21:50 ===
+  the_new_testament_of_the_christian_bible: { definition: "Also originally written in Greek", what_it_does: "", examples: "the Evangelika ( Gospel riots ) and the Orestiaka ( Oresteia riots ) – and even deaths" },
+  hellenic: "The branch of the Indo-European language family whose principal member is Greek",
+  the_cypriot_syllabary: "Attested in Cyprus from the 11th century BC until its gradual abandonment in the late Classical period, in favor of the standard Greek alphabet",
+  the_variant_of_the_alphabet_in_use_today: "Essentially the late Ionic variant, introduced for writing classical Attic in 403 BC",
+  the_lowercase_greek_letters: "Developed much later by medieval scribes to permit a faster, more convenient cursive writing style with the use of ink and quill",
+  these_marks: "Introduced during the course of the Hellenistic period",
+  the_yevanic_dialect: "Written by Romaniote and Constantinopolitan Karaite Jews using the Hebrew Alphabet",
+
 };
 
 // ============================================================
