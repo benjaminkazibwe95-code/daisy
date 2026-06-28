@@ -37783,6 +37783,15 @@ const FLAT_DICT = {
   if_the_check_bits: "Not consistent with the rest of the message when it arrives, the receiver will ask the sender to retransmit the message",
   the_idea_of_group_testing: "To determine which items are 'different' by using as few tests as possible",
 
+  // === INGESTED 2026-06-28 00:58 ===
+  digital_image_processing: { definition: "The use of a digital computer to process digital images through an algorithm", what_it_does: "", examples: "the build-up of noise and distortion during processing" },
+  since_images: "Defined over two dimensions (perhaps more), digital image processing may be modeled in the form of multidimensional systems",
+  the_first_successful_application: { definition: "The American Jet Propulsion Laboratory (JPL)", what_it_does: "", examples: "geometric correction, gradation transformation, noise removal, etc" },
+  dcts: "Also commonly used for high-definition television (HDTV) encoder/decoder chips",
+  the_third_dimension: { definition: "Usually set to a non-zero constant, usually 1 , so that the new coordinate is [ x , y , 1]", what_it_does: "", examples: "2-dimensional coordinates only permit rotation about the origin (0, 0)" },
+  these_operations: "Particularly useful for tasks such as noise removal, shape smoothing, and object separation",
+  this_ensures_that_unwanted_noise: "Removed without significantly altering the size or shape of larger objects",
+
 };
 
 // ============================================================
