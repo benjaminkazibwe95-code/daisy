@@ -38860,6 +38860,16 @@ const FLAT_DICT = {
   that_the_door_is_open_after_the_change: "Reflected by formula o p e n ( d o o r , result ( o p e n s , s ) ) {\displaystyle open(door,{\textit {result}}(opens,s))} being entailed",
   induction_axioms: "Also implicit, and are needed only to prove program properties",
 
+  // === INGESTED 2026-06-28 20:03 ===
+  some_pioneers_of_the_theory_of_computation: "Ramon Llull , Alonzo Church , Kurt Gödel , Alan Turing , Stephen Kleene , Rózsa Péter , John von Neumann and Claude Shannon",
+  automata_theory: "Also closely related to formal language theory, [ 5 ] as the automata are often classified by the class of formal languages they are able to recognize",
+  automata: "Used as theoretical models for computing machines, and are used for proofs about computability",
+  formal_language_theory: "A branch of mathematics concerned with describing languages as a set of operations over an alphabet",
+  because_automata: "Used as models for computation, formal languages are the preferred mode of specification for any problem that must be computed",
+  the_official_problem_description: "Given by Turing Award winner Stephen Cook",
+  nondeterministic_pushdown_automata: "Another formalism equivalent to context-free grammars",
+  primitive_recursive_functions: "A defined subclass of the recursive functions",
+
 };
 
 // ============================================================
