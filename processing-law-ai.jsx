@@ -37896,6 +37896,11 @@ const FLAT_DICT = {
   some_languages_have_character_types_that: "Too small to represent all Unicode characters",
   char: "Also used for a 16-bit integer type in Java , but again this is not a Unicode character type",
 
+  // === INGESTED 2026-06-28 01:33 ===
+  the_first_three_volumes_of_what: "Then expected to be a seven-volume set were published in 1968, 1969, and 1973",
+  parts_of_this: "Used in the Burroughs approach to memory management",
+  varga: { definition: "Visiting Olga Taussky-Todd and John Todd at Caltech", what_it_does: "", examples: "the GNU MIX Development Kit (MDK) exists to provide emulation of the MIX architecture" },
+
 };
 
 // ============================================================
