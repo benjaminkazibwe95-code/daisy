@@ -39002,6 +39002,15 @@ const FLAT_DICT = {
   such_problems: "Also called restricted permutations",
   the_pmx_operator: "Designed as a recombination operator for TSP like Problems",
 
+  // === INGESTED 2026-06-28 20:45 ===
+  the_globe_and_mail: "Regarded by some as Canada's ' newspaper of record '",
+  the_predecessor_to_the_globe_and_mail: "Called The Globe ; it was founded in 1844 by Scottish immigrant George Brown , who became a Father of Confederation",
+  the_toronto_mail: "Established in 1872, while The Empire was founded in 1887 by Brown's former rival, Conservative politician and then-Prime Minister John A",
+  fp_publications_and_the_globe_and_mail: "Sold in 1980 to The Thomson Corporation , a company run by the family of Kenneth Thomson",
+  the_subscription_service: "Reduced a few years later to include an electronic edition of the newspaper, access to its archives, and membership to a premium investment site",
+  the_new_website: { definition: "Designed to display well on mobile, tablet, and desktop, with pages that highlight journalists and newer articles", what_it_does: "", examples: "an Online Journalism Award" },
+  standard_rob_sections: { definition: "Typically fifteen to twenty pages", what_it_does: "", examples: "the Toronto Sun" },
+
 };
 
 // ============================================================
