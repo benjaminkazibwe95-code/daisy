@@ -39337,6 +39337,13 @@ const FLAT_DICT = {
   if_this_number: { definition: "Truncated to 4 decimal places, the result is 3.141", what_it_does: "", examples: "the numbers 0.056 and 1200 each have only 2 significant digits, but the number 40" },
   interval_arithmetic: "Operations on intervals",
 
+  // === INGESTED 2026-06-28 22:32 ===
+  a_highlevel_programming_language: { definition: "A programming language with strong abstraction from the details of the computer", what_it_does: "", examples: "string handling, object-oriented programming features, and file input/output, may also be provided" },
+  some_control_of_what_instructions_to_execute: { definition: "Handed to the compiler", what_it_does: "", examples: "Fortran and COBOL" },
+  the_terms_highlevel_and_lowlevel: "Inherently relative, and languages can be compared as higher or lower level to each other",
+  sometimes_the_c_language: { definition: "Considered as either high-level or low-level depending on one's perspective", what_it_does: "", examples: "auto-increment and pointer math" },
+  java_is_compiled_to_bytecode_which: "Then executed by either interpreting in a Java virtual machine (JVM) or JIT compiled",
+
 };
 
 // ============================================================
