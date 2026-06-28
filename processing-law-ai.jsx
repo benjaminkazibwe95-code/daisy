@@ -39169,6 +39169,21 @@ const FLAT_DICT = {
   formal_methods_of_software_development: "Not widely used in industry",
   the_z_notation: "An example of a leading formal specification language",
 
+  // === INGESTED 2026-06-28 21:48 ===
+  an_algebraic_data_type: "Defined by two key constructions: a sum and a product",
+  a_sum_type: { definition: "A choice between possibilities", what_it_does: "", examples: "a type representing the state of a traffic light could be either Red , Amber , or Green" },
+  enumerated_types: "A simple form of sum type where the constructors carry no data",
+  values_of_algebraic_data_types: "Typically handled using pattern matching",
+  algebraic_data_types: "Used to represent values that can be one of several types of things",
+  a_list_type: "A sum type with two variants, Nil for an empty list and Cons x xs for the combination of a new element x with a list xs to create a new list",
+  each_type_of_thing: { definition: "Associated with an identifier called a constructor , which can be considered a tag for that kind of data", what_it_does: "", examples: "considering the binary Tree example shown above, a constructor could carry no data (e.g" },
+  patterns: "Recursive, so then the data that is associated with that constructor is matched with the pattern 'n'",
+  the_type_of_each_extracted_value: "Based on the types declared by the relevant constructor",
+  the_number_of_values_that_can_be_extracted: "Known based on the constructor",
+  the_purpose_of_both: "Similar (to extract parts from a piece of data matching certain constraints) however, the implementation is very different",
+  a_general_algebraic_data_type: "A possibly recursive sum type of product types",
+  if_a_datatype: { definition: "Recursive, the entire sum of products is wrapped in a recursive type , and each constructor also rolls the datatype into the recursive type", what_it_does: "", examples: "the Haskell datatype: is represented in type theory as λ α" },
+
 };
 
 // ============================================================
