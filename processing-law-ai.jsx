@@ -37926,6 +37926,18 @@ const FLAT_DICT = {
   an_index: "One way of providing quicker access to data",
   indices: "Usually implemented via B+ trees , R-trees , and bitmaps",
 
+  // === INGESTED 2026-06-28 01:50 ===
+  for_instance_there: "Logical constants which do not refer to any idea, but rather serve as a form of punctuation in the language (e.g",
+  a_formal_language: "A syntactic entity which consists of a set of finite strings of symbols which are its words (usually called its well-formed formulas )",
+  which_strings_of_symbols_are_words: "Determined by the creator of the language, usually by specifying a set of formation rules",
+  formation_rules: "A precise description of which strings of symbols are the well-formed formulas of a formal language",
+  a_proposition: "A sentence expressing something true or false",
+  a_formal_theory: "A set of sentences in a formal language",
+  an_interpretation_of_a_formal_system: "The assignment of meanings to the symbols, and truth values to the sentences of a formal system",
+  the_study_of_interpretations: "Called formal semantics",
+  giving_an_interpretation: "Synonymous with constructing a model",
+  an_interpretation: "Expressed in a metalanguage , which may itself be a formal language, and as such itself is a syntactic entity",
+
 };
 
 // ============================================================
