@@ -39254,6 +39254,15 @@ const FLAT_DICT = {
   the_first_seawolves_showcase: "Held in 2010 and continues to be held every year during homecoming weekend",
   leddy: "Followed by Shayna Stahl (2013–2016) and Christopher Parks (2016–2018)",
 
+  // === INGESTED 2026-06-28 22:07 ===
+  such_traversals: "Classified by the order in which the vertices are visited",
+  tree_traversal: "A special case of graph traversal",
+  dfs: "The basis for many graph-related algorithms, including topological sorts and planarity testing",
+  this_algorithm: { definition: "Often used to find the shortest path from one vertex to another", what_it_does: "", examples: "The problem of graph exploration can be seen as a variant of graph traversal" },
+  a_common_model: "As follows: given a connected graph G = ( V , E ) with non-negative edge weights",
+  when_a_new_vertex: "Visited, then again all incident outgoing edges and the vertices at the end are known",
+  a_probabilistic_proof: "Used by Aleliunas et al",
+
 };
 
 // ============================================================
