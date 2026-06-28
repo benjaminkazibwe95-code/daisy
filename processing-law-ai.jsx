@@ -39095,6 +39095,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 21:23 ===
   papert: { definition: "A political and anti-apartheid activist during his student years in South Africa", what_it_does: "", examples: "LogoWriter [ 29 ] and Lego/Logo (marketed as Lego Mindstorms )" },
 
+  // === INGESTED 2026-06-28 21:27 ===
+  a_binary_classifier: { definition: "A function that can decide whether or not an input, represented by a vector of numbers, belongs to some specific class", what_it_does: "", examples: "the perceptron" },
+  singlelayer_perceptrons: "Only capable of learning linearly separable patterns",
+  the_last_attempt: "Tobermory, built between 1961 and 1967, built for speech recognition",
+  the_perceptron_algorithm: { definition: "Also termed the single-layer perceptron , to distinguish it from a multilayer perceptron , which is a misnomer for a more complicated neural network", what_it_does: "", examples: "the Boolean exclusive-or problem (the famous 'XOR problem')" },
+  a_single_perceptron: "A linear classifier",
+  in_case_the_training_set_d: "Not linearly separable , i.e",
+  the_following_simple_proof: "Due to Novikoff (1962)",
+  a_generalization_of_the_perceptron_model: "The Receptron that incorporates non-linear interactions between inputs",
+  a_single_receptron: "Able to classify non-linear Boolean functions",
+
 };
 
 // ============================================================
