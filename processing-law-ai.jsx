@@ -38760,6 +38760,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 12:58 ===
   an_algorithmic_paradigm: "An abstraction higher than the notion of an algorithm, just as an algorithm is an abstraction higher than a computer program",
 
+  // === INGESTED 2026-06-28 13:00 ===
+  computational_mathematics: { definition: "A field of study that focuses on the interaction of mathematical sciences , computer science , and algorithms", what_it_does: "", examples: "the four color theorem ), and the design and use of proof assistants" },
+
 };
 
 // ============================================================
