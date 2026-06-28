@@ -37810,6 +37810,30 @@ const FLAT_DICT = {
   principia_mathematica: "Initially published in three volumes in 1910, 1912 and 1913",
   logic_theorist: "A good example of this",
 
+  // === INGESTED 2026-06-28 01:10 ===
+  the_study_of_algorithmic_bias: "Most concerned with algorithms that reflect 'systematic and unfair' discrimination",
+  even_when_full_transparency: { definition: "Provided, the complexity of certain algorithms poses a barrier to understanding their functioning", what_it_does: "", examples: "historical, representation, and measurement biases, each of which can contribute to unfair outcomes" },
+  this_requires_human_decisions_about_how_data: { definition: "Categorized, and which data is included or discarded", what_it_does: "", examples: "by selecting information based on previous choices of a similar user or group of users" },
+  the_rules_a_computer_follows: "Based on the assumptions of a computer programmer for how these problems might be solved",
+  george: { definition: "Most notable for automating said bias through the use of an algorithm, thus gaining the attention of people on a much wider scale", what_it_does: "", examples: "search results" },
+  these_biases_can_manifest_in_various_ways_and: { definition: "Often a reflection of the data used to train these algorithms", what_it_does: "", examples: "adding fairness constraints), and monitoring systems after deployment" },
+  this_ban_which: { definition: "Subsequently enforced with the use of artificial intelligence by U", what_it_does: "", examples: "as food, tools, or pests) rather than as sentient beings with intrinsic value" },
+  if_the_random_number_generation_mechanism: { definition: "Not truly random, it can introduce bias, for example, by skewing selections toward items at the end or beginning of a list", what_it_does: "", examples: "potentially mistaking bystanders for those who commit the crime" },
+  the_company_said_this: { definition: "The result of an analysis of users' interactions with the site", what_it_does: "", examples: "the display of higher-paying jobs to male applicants on job search websites" },
+  these_particular_algorithms: "Present in FinTech companies and were shown to discriminate against minorities",
+  darkskinned_males_and_females: "Significanfly less likely to be accurately identified by facial recognition software",
+  these_disparities: { definition: "Attributed to the under-representation of darker-skinned participants in data sets used to develop this software", what_it_does: "", examples: "the critically acclaimed novel Brokeback Mountain" },
+  disabilities: "Incredibly diverse, [ 141 ] fall within a large spectrum, and can be unique to each individual",
+  google_claimed_it: { definition: "Unable to erase those pages unless they were considered unlawful", what_it_does: "", examples: "clicks, time spent on site, and other metrics" },
+  these_emergent_fields_focus_on_tools_which: "Typically applied to the (training) data used by the program rather than the algorithm's internal processes",
+  a_simpler_method: "Proposed in the context of word embeddings, and involves removing information that is correlated with the protected characteristic",
+  a_draft_of_the_standard: { definition: "Expected to be submitted for balloting in June 2019", what_it_does: "", examples: "DARPA , for reasons that go beyond the remedy of bias" },
+  an_academic_initiative_in_this_regard: "The Stanford University's Institute for Human-Centered Artificial Intelligence which aims to foster multidisciplinary collaboration",
+  the_mission_of_the_institute: { definition: "To advance artificial intelligence (AI) research, education, policy and practice to improve the human condition", what_it_does: "", examples: "profiling ' in Article 22" },
+  where_they: "Permitted, there must be safeguards in place, such as a right to a human-in-the-loop , and a non-binding right to an explanation of decisions reached",
+  while_these_regulations: { definition: "Commonly considered to be new, nearly identical provisions have existed across Europe since 1995, in Article 15 of the Data Protection Directive", what_it_does: "", examples: "fraud, discrimination, and national security threats" },
+  an_important_point_in_the_commitment: "Promoting responsible innovation and collaboration across sectors to ensure that AI benefits society as a whole",
+
 };
 
 // ============================================================
