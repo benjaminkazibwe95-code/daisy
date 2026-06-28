@@ -38372,6 +38372,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 11:04 ===
   that_there: "No algorithm that can learn the globally-optimal target function using a finite number of training samples",
 
+  // === INGESTED 2026-06-28 11:07 ===
+  a_tree_structure: "Conceptual, and appears in several forms",
+  nodes_without_children: "Called leaf nodes , 'end-nodes', or 'leaves'",
+  this_member: "Called the 'root' or root node",
+  but_the_converse: "Not true: infinite tree structures may or may not have a root node",
+
 };
 
 // ============================================================
