@@ -39016,6 +39016,10 @@ const FLAT_DICT = {
   the_formula_for_factoring_in_the_momentum: "More complex than for decay but is most often built in with deep learning libraries such as Keras",
   exponential_learning_schedules: "Similar to step-based, but instead of steps, a decreasing exponential function is used",
 
+  // === INGESTED 2026-06-28 20:58 ===
+  google_voice_search_or_search_by_voice: "A Google product that allows users to use Google Search by speaking on a mobile phone or computer, i.e",
+  google_voice_search: "A tool from Google Labs that allowed someone to use their phone to make a Google query",
+
 };
 
 // ============================================================
