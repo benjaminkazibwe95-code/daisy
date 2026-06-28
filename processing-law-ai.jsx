@@ -38369,6 +38369,9 @@ const FLAT_DICT = {
   but_in_alp_the_hypotheses: "Variable-free facts, and in ILP the hypotheses are general rules",
   when_the_guards_of_several_clauses: { definition: "Satisfied, concurrent constraint logic programming makes a committed choice to use only one", what_it_does: "", examples: "predicate variables" },
 
+  // === INGESTED 2026-06-28 11:04 ===
+  that_there: "No algorithm that can learn the globally-optimal target function using a finite number of training samples",
+
 };
 
 // ============================================================
