@@ -38454,6 +38454,13 @@ const FLAT_DICT = {
   the_main_aim_of_an_image_denoising_algorithm: "To achieve both noise reduction [ 37 ] and feature preservation [ 38 ] using the wavelet filter banks",
   deep_image_prior: "One such technique that makes use of convolutional neural network and is notable in that it requires no prior training data",
 
+  // === INGESTED 2026-06-28 11:32 ===
+  they_are_also_used_when_the_goal: { definition: "To find a variable assignment that will maximize or minimize a certain function of those variables", what_it_does: "", examples: "linear relaxation, constraint generation, and constraint propagation" },
+  the_goal_in_these_problems: { definition: "To find the move that provides the best chance of a win, taking into account all possible moves of the opponent(s)", what_it_does: "", examples: "in robot guidance or in marketing , financial , or military strategy planning" },
+  examples_of_algorithms_for_this_class: { definition: "The minimax algorithm , alpha–beta pruning , and the A* algorithm and its variants", what_it_does: "", examples: "subgraphs , paths , circuits, and so on" },
+  another_important_subclass_of_this_category: "The string searching algorithms , that search for patterns within strings",
+  two_famous_examples: "The Boyer–Moore and Knuth–Morris–Pratt algorithms , and several algorithms based on the suffix tree data structure",
+
 };
 
 // ============================================================
