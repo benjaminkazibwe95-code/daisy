@@ -38477,6 +38477,9 @@ const FLAT_DICT = {
   swarm_technology: { definition: "Particularly attractive because it is cheap, robust, and simple", what_it_does: "", examples: "found in art and architecture" },
   once_the_attention_of_the_swarm: "Drawn to a certain line within the canvas, the capability of PSO is used to produce a 'swarmic sketch' of the attended line",
 
+  // === INGESTED 2026-06-28 11:38 ===
+  acm_computing_surveys: "Peer-reviewed quarterly scientific journal and is published by the Association for Computing Machinery",
+
 };
 
 // ============================================================
