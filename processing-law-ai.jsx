@@ -37570,6 +37570,9 @@ const FLAT_DICT = {
   jmir_publications: "Also notable for being one of the fastest-growing companies in Canada in 2019",
   the_novel_format: "Announced by JMIR Publications publisher Gunther Eysenbach in 2019 in the 20th anniversary special issue of the publisher",
 
+  // === INGESTED 2026-06-28 00:08 ===
+  a_feedforward_neural_network: { definition: "An artificial neural network in which information flows in a single direction – inputs are multiplied by weights to obtain outputs (inputs-to-output)", what_it_does: "", examples: "the rectifier and softplus functions" },
+
 };
 
 // ============================================================
