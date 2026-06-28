@@ -38615,6 +38615,34 @@ const FLAT_DICT = {
   the_following_situation: { definition: "A general setting of many supervised learning problems", what_it_does: "", examples: "consistency" },
   tilted_empirical_risk_minimization: "Particularly useful in scenarios with imbalanced data or when there is a need to emphasize errors in certain parts of the prediction space",
 
+  // === INGESTED 2026-06-28 12:24 ===
+  a_mathematical_model: "An abstract description of a concrete system using mathematical concepts and language",
+  mathematical_models: { definition: "Used in many fields, including applied mathematics , natural sciences , social sciences [ 1 ] [ 2 ] and engineering", what_it_does: "", examples: "dynamical systems , statistical models , differential equations , or game theoretic models" },
+  all_other_models: "Considered nonlinear",
+  the_definition_of_linearity_and_nonlinearity: { definition: "Dependent on context, and linear models may have nonlinear expressions in them", what_it_does: "", examples: "chaos and irreversibility" },
+  a_common_approach_to_nonlinear_problems: "Linearization , but this can be problematic if one is trying to study aspects such as irreversibility, which are strongly tied to nonlinearity",
+  dynamic_models: { definition: "Typically represented by differential equations or difference equations", what_it_does: "", examples: "Newton's method or Broyden's method" },
+  in_such_a_case_the_model: "Said to be implicit",
+  a_deductive_model: { definition: "A logical structure based on a theory", what_it_does: "", examples: "competing species or bidders in an auction" },
+  strategic_models_assume_that_players: "Autonomous decision makers who rationally choose actions that maximize their objective function",
+  a_key_challenge_of_using_strategic_models: "Defining and computing solution concepts such as the Nash equilibrium",
+  an_interesting_property_of_strategic_models: "That they separate reasoning about rules of the game from reasoning about behavior of the players",
+  decision_variables: "Sometimes known as independent variables",
+  the_variables: { definition: "Not independent of each other as the state variables are dependent on the decision, input, random, and exogenous variables", what_it_does: "", examples: "economists often apply linear algebra when using input–output models" },
+  mathematical_modeling_problems: "Often classified into black box or white box models, according to how much a priori information on the system is available",
+  a_blackbox_model_is_a_system_of_which_there: "No a priori information available",
+  practically_all_systems: "Somewhere between the black-box and white-box models, so this concept is useful only as an intuitive guide for deciding which approach to take",
+  this_example: { definition: "Therefore not a completely white-box model", what_it_does: "", examples: "with a set of functions that probably could describe the system adequately" },
+  an_often_used_approach_for_blackbox_models: "Neural networks which usually do not make assumptions about incoming data",
+  any_model_which: "Not pure white-box contains some parameters that can be used to fit the model to the system it is intended to describe",
+  this_question_can_be_difficult_to_answer_as_it: "Several different types of evaluation",
+  the_training_data: "Used to estimate the model parameters",
+  one_can_also_argue_that_a_model: "Worthless unless it provides some insight which goes beyond what is already known from direct investigation of the phenomenon being studied",
+  physical_theories: "Almost invariably expressed using mathematical models",
+  the_laws_of_physics: "Represented with simple equations such as Newton's laws, Maxwell's equations and the Schrödinger equation",
+  a_mathematical_model_usually: "A system by a set of variables and a set of equations that establish relationships between the variables",
+  the_actual_model: "The set of functions that describe the relations between the different variables",
+
 };
 
 // ============================================================
