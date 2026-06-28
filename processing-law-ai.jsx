@@ -38464,6 +38464,19 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 11:34 ===
   gensim: "Implemented in Python and Cython for performance",
 
+  // === INGESTED 2026-06-28 11:36 ===
+  the_expression: "Introduced by Jing Wang and Gerardo Beni in 1989, in the context of cellular robotic systems",
+  the_application_of_swarm_principles_to_robots: "Called swarm robotics while swarm intelligence refers to the more general set of algorithms",
+  the_rules_applied_in_the_simplest_boids_world: "As follows: More complex rules can be added, such as obstacle avoidance and goal seeking",
+  these_force_laws: "Inverse-power force laws, incorporating both attraction and repulsion, similar but more general compared to the force laws found in molecular dynamics",
+  the_social_potential_fields_approach: { definition: "Distributed since the force calculations and motion control can be done in an asynchronous and distributed manner", what_it_does: "", examples: "clustering, guarding, escorting, patrolling, etc" },
+  aco: "A probabilistic technique useful in problems that deal with finding better paths through graphs",
+  the_european_space_agency: "Thinking about an orbital swarm for self-assembly and interferometry",
+  nasa: { definition: "Investigating the use of swarm technology for planetary mapping", what_it_does: "", examples: "crowd movement or flocking" },
+  as_the_system_behaves_stochastically_and: "Therefore lacking repeatability, there are large hurdles to commercial deployment",
+  swarm_technology: { definition: "Particularly attractive because it is cheap, robust, and simple", what_it_does: "", examples: "found in art and architecture" },
+  once_the_attention_of_the_swarm: "Drawn to a certain line within the canvas, the capability of PSO is used to produce a 'swarmic sketch' of the attended line",
+
 };
 
 // ============================================================
