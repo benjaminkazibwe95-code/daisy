@@ -37938,6 +37938,18 @@ const FLAT_DICT = {
   giving_an_interpretation: "Synonymous with constructing a model",
   an_interpretation: "Expressed in a metalanguage , which may itself be a formal language, and as such itself is a syntactic entity",
 
+  // === INGESTED 2026-06-28 01:58 ===
+  applying_a_macro_to_an_input: "Known as macro expansion",
+  character_macros: "Supported in software applications to make it easy to invoke common command sequences",
+  token_and_tree_macros: "Supported in some programming languages to enable code reuse or to extend the language, sometimes for domain-specific languages",
+  separate_programs_for_creating_these_macros: "Called macro recorders",
+  a_parameterized_macro_is_a_macro_that: { definition: "Able to insert given objects into its expansion", what_it_does: "", examples: "inline functions" },
+  a_classic_use_of_macros: { definition: "In the computer typesetting system TeX and its derivatives, where most functionality is based on macros", what_it_does: "", examples: "by XEDIT in CMS" },
+  the_outputs: "Custom documents, typically compilable source modules",
+  macros: "Normally used to map a short string (macro invocation) to a longer sequence of instructions",
+  the_first_application_run_in_such_a_context: "A more sophisticated and powerful macro compiler, written in the machine-independent macro language",
+  this_macro_compiler: { definition: "Applied to itself, in a bootstrap fashion, to produce a compiled and much more efficient version of itself", what_it_does: "", examples: "FORTRAN and COBOL" },
+
 };
 
 // ============================================================
