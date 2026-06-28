@@ -37750,6 +37750,12 @@ const FLAT_DICT = {
   an_archetype_of_a_declarative_language: "The fourth generation language SQL , and the family of functional languages and logic programming",
   symbolic_programming_is_a_paradigm_that: { definition: "Programs able to manipulate formulas and program components as data", what_it_does: "", examples: "artificial intelligence , expert systems , natural-language processing and computer games" },
 
+  // === INGESTED 2026-06-28 00:54 ===
+  the_activity_of_applied_mathematics: "Thus intimately connected with research in pure mathematics",
+  such_categorizations: "Made difficult by the way mathematics and science change over time, and also by the way universities organize departments, courses, and degrees",
+  academic_institutions: "Not consistent in the way they group and label courses, programs, and degrees in applied mathematics",
+  continuum_mechanics: { definition: "Also an important branch of mathematics in its own right", what_it_does: "", examples: "graph theory , [ 24 ] [ 25 ] and combinatorics" },
+
 };
 
 // ============================================================
