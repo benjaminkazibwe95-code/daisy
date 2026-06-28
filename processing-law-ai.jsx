@@ -38406,6 +38406,21 @@ const FLAT_DICT = {
   the_subterm: "Then replaced by the other side of the equality",
   the_general_aim_of_paramodulation: "To reduce the system to atoms, reducing the size of the terms when substituting",
 
+  // === INGESTED 2026-06-28 11:17 ===
+  recidivism: { definition: "A synonym of relapse , which is more commonly used in medicine and in the disease model of addiction", what_it_does: "", examples: "larceny , or to drug addicts" },
+  this_study: "Conducted by the Correctional Education Association (CEA) for the U.S",
+  this_form_of_education: { definition: "Meant to use literature and writing as a form of therapy and can be referred to as ' bibliotherapy '", what_it_does: "", examples: "deeply recognize the risk of being caught, disbelieved or injured as a result of their behavior" },
+  relapse_prevention: "A cognitive-behavioral approach to self-management that focuses on teaching alternate responses to high-risk situations",
+  the_first_phase: "The 'boot camp' phase",
+  the_second_and_third_phases: "Called 'community phases'",
+  in_phase_two_the_participants: "On intensive supervized release (ISR)",
+  during_this_phase_one: "Still on ISR and has to remain in the community while maintaining a full-time job",
+  once_phase_three: "Complete participants have 'graduated' CIP",
+  the_alternative: "' home incarceration ' in which the defendant would complete his or her time at home instead of in jail",
+  this_therapy: "Intended to wean heroin users from the drug by administering small doses of methadone, thereby avoiding withdrawal symptoms",
+  the_other_study: "Done in 1994 on 272,111 prisoners from 15 states",
+  this_graph_shows_that_recidivism: "Much more likely within the first six months after they are released",
+
 };
 
 // ============================================================
