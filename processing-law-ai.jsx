@@ -39051,6 +39051,9 @@ const FLAT_DICT = {
   the_space_of_documents: { definition: "Then scanned using HDBSCAN , [ 23 ] and clusters of similar documents are found", what_it_does: "", examples: "their use to solve analogies" },
   the_word_embedding_approach: { definition: "Able to capture multiple different degrees of similarity between words", what_it_does: "", examples: "Country–Capital) as well as syntactic relations (e.g" },
 
+  // === INGESTED 2026-06-28 21:04 ===
+  differentiable_programming: { definition: "A programming paradigm in which a numeric computer program can be differentiated throughout via automatic differentiation", what_it_does: "", examples: "protein structure prediction and drug discovery" },
+
 };
 
 // ============================================================
