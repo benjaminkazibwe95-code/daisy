@@ -38560,6 +38560,13 @@ const FLAT_DICT = {
   the_tdnn: "Shown to be effective to recognize speech robustly despite different levels of reverberation",
   an_example_of_this_analysis: "A combination of vehicle detection and recognizing pedestrians",
 
+  // === INGESTED 2026-06-28 11:59 ===
+  state_of_the_art_embeddings: "Based on the learned hidden layer representation of dedicated sentence transformer models",
+  other_approaches: { definition: "Loosely based on the idea of distributional semantics applied to sentences", what_it_does: "", examples: "InferSent or SBERT" },
+  an_alternative_direction: "To aggregate word embeddings , such as those returned by Word2vec , into sentence embeddings",
+  the_most_straightforward_approach: "To simply compute the average of word vectors, known as continuous bag-of-words (CBOW)",
+  one_such_approach: "The vector of locally aggregated word embeddings (VLAWE), [ 10 ] which demonstrated performance improvements in downstream text classification tasks",
+
 };
 
 // ============================================================
