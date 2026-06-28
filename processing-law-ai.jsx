@@ -38421,6 +38421,12 @@ const FLAT_DICT = {
   the_other_study: "Done in 1994 on 272,111 prisoners from 15 states",
   this_graph_shows_that_recidivism: "Much more likely within the first six months after they are released",
 
+  // === INGESTED 2026-06-28 11:19 ===
+  an_ai_arms_race: "Sometimes placed in the context of an AI Cold War between the United States and China",
+  the_concern: { definition: "Regarding the consolidation of power and technological advantage in the hands of one group", what_it_does: "", examples: "nuclear energy, infrastructure, and high-performance computing" },
+  work_who: "Concerned about China's military use of the emerging technology",
+  one_major_initiative: { definition: "MGX , a UAE-backed technology group focused on AI development", what_it_does: "", examples: "potential collaborations with U.S" },
+
 };
 
 // ============================================================
