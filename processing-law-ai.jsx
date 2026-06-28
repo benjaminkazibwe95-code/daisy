@@ -38441,6 +38441,19 @@ const FLAT_DICT = {
   a_concept: "A subset c ⊂ X {\displaystyle c\subset X}",
   one_concept: "The set of all patterns of bits in X = { 0 , 1 } n {\displaystyle X=\{0,1\}^{n}} that encode a picture of the letter 'P'",
 
+  // === INGESTED 2026-06-28 11:30 ===
+  noise_reduction: "The process of removing noise from a signal",
+  noise_rejection: "The ability of a circuit to isolate an undesired signal component from the desired signal component, as with common-mode rejection ratio",
+  tape_hiss: { definition: "A performance-limiting issue in analog tape recording", what_it_does: "", examples: "Dolby HX Pro ) work to affect the recording medium at the time of recording" },
+  dbx: { definition: "A competing analog noise reduction system developed by David E", what_it_does: "", examples: "magnetic tape recordings and FM radio broadcasts, reducing noise by as much as 10 dB" },
+  yet_another_approach: { definition: "The automatic noise limiter and noise blanker commonly found on HAM radio transceivers, CB radio transceivers, etc", what_it_does: "", examples: "computer vision" },
+  one_method_to_remove_noise: { definition: "By convolving the original image with a mask that represents a low-pass filter or smoothing operation", what_it_does: "", examples: "the Gaussian mask comprises elements determined by a Gaussian function" },
+  another_method_for_removing_noise: "To evolve the image under a smoothing partial differential equation similar to the heat equation , which is called anisotropic diffusion",
+  another_approach_for_removing_noise: "Based on non-local averaging of all the pixels in an image",
+  a_median_filter: "An example of a nonlinear filter and, if properly designed, is very good at preserving image detail",
+  the_main_aim_of_an_image_denoising_algorithm: "To achieve both noise reduction [ 37 ] and feature preservation [ 38 ] using the wavelet filter banks",
+  deep_image_prior: "One such technique that makes use of convolutional neural network and is notable in that it requires no prior training data",
+
 };
 
 // ============================================================
