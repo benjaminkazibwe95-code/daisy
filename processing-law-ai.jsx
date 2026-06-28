@@ -38530,6 +38530,22 @@ const FLAT_DICT = {
   obesity_in_children_and_adolescents: "Defined as a BMI greater than the 95th percentile",
   changing_diet_and_decreasing_physical_activity: "Believed to be the two most important causes for the recent increase in the incidence of child obesity",
 
+  // === INGESTED 2026-06-28 11:55 ===
+  once_the_velocity_field: "Calculated, other quantities of interest, such as pressure or temperature , may be found using dynamical equations and relations",
+  the_right_side_of_the_equation: { definition: "In effect a summation of hydrostatic effects, the divergence of deviatoric stress and body forces (such as gravity)", what_it_does: "", examples: "pressure and temperature" },
+  this_dependence: { definition: "Called the dispersion", what_it_does: "", examples: "for modelling air winds at normal temperatures" },
+  thus_the_governing_equation: "An integro-differential equation similar to Coulomb's and Biot–Savart's law , not convenient for numerical computation",
+  the_discrete_form_of_this: "Eminently suited to finite element computation of divergence-free flow, as we shall see in the next section",
+  the_first_equation: "The momentum balance equation, while the second represents the mass conservation , namely the continuity equation",
+  while_the_velocity: "The variable of interest, the existence of the stream function or vector potential is necessary by the Helmholtz theorem",
+  the_stream_function: "Constant on no-flow surfaces, with no-slip velocity conditions on surfaces",
+  no_boundary_conditions: "Necessary on open boundaries, though consistent values may be used with some problems",
+  the_algebraic_equations_to_be_solved: "Simple to set up, but of course are non-linear , requiring iteration of the linearized equations",
+  the_nonlinearity: { definition: "Due to convective acceleration, which is an acceleration associated with the change in velocity over position", what_it_does: "", examples: "oil) through a small converging nozzle" },
+  wyld_diagrams: "Bookkeeping graphs that correspond to the Navier–Stokes equations via a perturbation expansion of the fundamental continuum mechanics",
+  the_continuity_equation: "Reduced to: ∂ x u x + ∂ y u y + ∂ z u z = 0",
+  cylindrical_coordinates: { definition: "Chosen to take advantage of symmetry, so that a velocity component can disappear", what_it_does: "", examples: "factoring 1 r 2 {\textstyle {\frac {1}{r^{2}}}} from the viscous terms" },
+
 };
 
 // ============================================================
