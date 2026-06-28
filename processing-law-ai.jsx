@@ -38611,6 +38611,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 12:12 ===
   narendra: { definition: "An American control theorist , who currently holds the Harold W", what_it_does: "", examples: "Neural Networks [ 6 ] and Learning Automata" },
 
+  // === INGESTED 2026-06-28 12:18 ===
+  the_following_situation: { definition: "A general setting of many supervised learning problems", what_it_does: "", examples: "consistency" },
+  tilted_empirical_risk_minimization: "Particularly useful in scenarios with imbalanced data or when there is a need to emphasize errors in certain parts of the prediction space",
+
 };
 
 // ============================================================
