@@ -37666,6 +37666,9 @@ const FLAT_DICT = {
   syntactic_equality: { definition: "The equality of their representation in a computer", what_it_does: "", examples: "the polynomials and rational fractions" },
   an_example_of_this_type_of_work: "The computation of polynomial greatest common divisors , a task required to simplify fractions and an essential component of computer algebra",
 
+  // === INGESTED 2026-06-28 00:37 ===
+  hollerith: "Buried at Oak Hill Cemetery in the Georgetown neighborhood of Washington, D.C",
+
 };
 
 // ============================================================
