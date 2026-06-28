@@ -38757,6 +38757,9 @@ const FLAT_DICT = {
   data_transfer_rates: { definition: "Usually measured in decimal SI multiples", what_it_does: "", examples: "a channel capacity may be specified as 8 kbit/s = 1 kB/s" },
   file_sizes: { definition: "Often measured in (binary) IEC multiples of bytes, for example, 1 KiB = 1024 bytes = 8192 bits", what_it_does: "", examples: "1 TB = 10 12 {\displaystyle 10^{12}} bytes" },
 
+  // === INGESTED 2026-06-28 12:58 ===
+  an_algorithmic_paradigm: "An abstraction higher than the notion of an algorithm, just as an algorithm is an abstraction higher than a computer program",
+
 };
 
 // ============================================================
