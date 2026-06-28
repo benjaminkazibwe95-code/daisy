@@ -37950,6 +37950,22 @@ const FLAT_DICT = {
   the_first_application_run_in_such_a_context: "A more sophisticated and powerful macro compiler, written in the machine-independent macro language",
   this_macro_compiler: { definition: "Applied to itself, in a bootstrap fashion, to produce a compiled and much more efficient version of itself", what_it_does: "", examples: "FORTRAN and COBOL" },
 
+  // === INGESTED 2026-06-28 02:00 ===
+  the_only_implicit_conversions_by_default: "Those that are considered safe, such as widening of integers",
+  enumeration_members: "Placed in their own scope",
+  a_property: { definition: "Read-only if there's no setter", what_it_does: "", examples: "class instances, arrays or strings" },
+  code_that: "Not marked as unsafe can still store and manipulate pointers through the System.IntPtr type, but it cannot dereference them",
+  a_range_of_standard_exceptions: "Available to programmers",
+  if_inspecting_the_error_details: { definition: "Not required, the (Exception ex) parameter can be omitted as well", what_it_does: "", examples: "List<T> , a variable-sized array which only can contain elements of type T" },
+  this_unified_type_system: { definition: "Called Common Type System (CTS)", what_it_does: "", examples: "primitives such as integers, are subclasses of the System" },
+  value_types: "Derived from System",
+  examples_of_reference_types: "Object (the ultimate base class for all other C# classes), System",
+  both_type_categories: "Extensible with user-defined types",
+  unboxing: "The operation of converting a value of a reference type (previously boxed) into a value of a value type",
+  this_line: "A comment; it describes and documents the code for the programmer(s)",
+  above: "A class definition for the Program class",
+  console: { definition: "A static class in the System namespace", what_it_does: "usually takes 6–9 months", examples: "" },
+
 };
 
 // ============================================================
