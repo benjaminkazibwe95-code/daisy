@@ -38487,6 +38487,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 11:44 ===
   goofs: "Also known as ' bloopers ' [ 2 ] or 'mistakes'",
 
+  // === INGESTED 2026-06-28 11:46 ===
+  each_training_rating: "A quadruplet of the form <user, movie, date of grade, grade>",
+  the_user_and_movie_fields: "Integer IDs, while grades are from 1 to 5 ( integer ) stars",
+  the_other_half: "The test set of 1,408,789, and performance on this is used by the jury to determine potential prize winners",
+  only_the_judges_know_which_ratings: "In the quiz set, and which are in the test set—this arrangement is intended to make it difficult to hill climb on the test set",
+  submitted_predictions: "Scored against the true grades in the form of root mean squared error (RMSE), and the goal is to reduce this error as much as possible",
+  no_information_at_all: "Provided about users",
+  originally_submissions: "Limited to once a week, but the interval was quickly modified to once a day",
+  the_prize_money: "Donated to the charities chosen by the winners",
+  linacre_claimed_it: { definition: "Made deliberately bad, as befitting the name of ' Lanterne rouge '", what_it_does: "", examples: "renters' ages, gender, ZIP codes, genre ratings and previously chosen movies, but not ratings" },
+
 };
 
 // ============================================================
