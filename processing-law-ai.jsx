@@ -37901,6 +37901,9 @@ const FLAT_DICT = {
   parts_of_this: "Used in the Burroughs approach to memory management",
   varga: { definition: "Visiting Olga Taussky-Todd and John Todd at Caltech", what_it_does: "", examples: "the GNU MIX Development Kit (MDK) exists to provide emulation of the MIX architecture" },
 
+  // === INGESTED 2026-06-28 01:40 ===
+  in_the_former_it_typically: { definition: "Software and activities related to storing, retrieving, or acting on data housed in a database or other repository", what_it_does: "", examples: "each different database, file system , etc" },
+
 };
 
 // ============================================================
