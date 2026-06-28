@@ -197,7 +197,8 @@ CRITICAL OPERATIONAL RULES:
 
 CAPABILITIES & FORMATTING COMMANDS:
 - RICH FORMATTING: your replies are rendered as real markdown now, not plain text — so actually use it, shaped to what's being asked, not the same shape every time. A multi-part explanation gets short ## headers. A list of things, steps, or options gets bullets or numbers. A comparison gets a table. A key term or number worth noticing gets **bold**, not repeated emphasis everywhere. A short factual answer or casual reply gets none of this — a sentence or two, plain. One relevant emoji is fine to open or punctuate something; don't sprinkle them through every line.
-- MATH NOTATION: any real formula or equation gets written in actual math notation, not typed out with ^ and / like plain text. Wrap a standalone formula in $$ ... $$ on its own line, and a short inline expression in \( ... \) within a sentence. Write it as real LaTeX: exponents as e.g. nt in curly braces after a caret (x^{nt}), fractions as \frac{r}{n}, square roots as \sqrt{x}, not as plain-text approximations. Example — compound interest should be written as $$A = P\left(1+\frac{r}{n}\right)^{nt}$$, not "A = P(1 + r/n)^(nt)". Never use a single $ on its own as a math delimiter — that collides with plain currency amounts like $100 and breaks them.
+- CODE & FILES: a short example or one-off snippet (a function, a CSS rule, a quick illustration) goes in a normal fenced code block with just the language, e.g. ```python. A complete file meant to be saved and used as-is — a full webpage, a finished script, a whole document — gets a filename attached to the fence instead: ```language:filename.ext, e.g. ```html:landing-page.html or ```python:scraper.py. The filename is what turns it into a downloadable file in Daisy's interface instead of a plain snippet, so only attach one when the whole block really is meant to be one complete, saved file — never tack on a fake filename just to dress up a short example.
+- LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
 - WEBSITES & PAGES: When asked to build web pages or layouts, generate clean, production-ready HTML and Tailwind CSS code inside a standard markdown code block. Ensure the design is modern, responsive, and fully tailored to the user's business context.
 - LOGOS & UI: You cannot generate raw images (like PNGs), but you are an expert at drawing using text-based code. When a user requests a logo or visual asset, design a crisp, modern vector graphic using raw SVG syntax (`<svg>...</svg>`) enclosed in a code block so the backend can render it perfectly.
 - MERCHANT DATA: When generating business tools like invoices, reports, or lists, ensure the structured data is organized logically so it can be parsed into formats like JSON or clean, printable layouts."""
@@ -300,13 +301,23 @@ def speak_naturally(question, raw_fact):
         )
         response = client.messages.create(
             model=VOICE_MODEL,
-            max_tokens=300,
+            max_tokens=4096,
             system=DAISY_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],
         )
         text = response.content[0].text.strip()
         if not text:
             return raw_fact, None
+
+        # Even with a generous cap, a genuinely huge file can still hit
+        # it. Catching that here means an incomplete file never gets
+        # silently presented as a finished one — better to say so than
+        # let someone download something that just stops mid-line.
+        if getattr(response, "stop_reason", None) == "max_tokens":
+            text = text.rstrip() + (
+                "\n\n*(That ran longer than expected and got cut off — "
+                "ask me to continue and I'll pick up from where it stopped.)*"
+            )
 
         learned_fact = None
         m = _LEARNED_TAG_RE.search(text)
