@@ -39020,6 +39020,25 @@ const FLAT_DICT = {
   google_voice_search_or_search_by_voice: "A Google product that allows users to use Google Search by speaking on a mobile phone or computer, i.e",
   google_voice_search: "A tool from Google Labs that allowed someone to use their phone to make a Google query",
 
+  // === INGESTED 2026-06-28 21:00 ===
+  the_scientific_discipline_of_computer_vision: "Concerned with the theory behind artificial systems that extract information from images",
+  machine_vision: { definition: "Also heavily used in the agricultural processes to remove undesirable foodstuff from bulk material, a process called optical sorting", what_it_does: "", examples: "for knowing where they are or mapping their environment ( SLAM ), for detecting obstacles" },
+  the_sensors: "Designed using quantum physics",
+  physics_explains_the_behavior_of_optics_which: { definition: "A core part of most imaging systems", what_it_does: "", examples: "motion in fluids" },
+  the_core_challenges: { definition: "The acquisition, processing, analysis and rendering of visual information (mainly images and video)", what_it_does: "", examples: "many methods in computer vision are based on statistics , optimization or geometry" },
+  this_implies_that_the_basic_techniques_that: { definition: "Used and developed in these fields are similar, something which can be interpreted as there is only one field with different names", what_it_does: "", examples: "stereophotogrammetry vs" },
+  a_second_application_area_in_computer_vision: "In industry, sometimes called machine vision , where information is extracted for the purpose of supporting a production process",
+  examples_of_supporting_systems: "Obstacle warning systems in cars, cameras and LiDAR sensors in vehicles, and systems for autonomous landing of aircraft",
+  materials_such_as_rubber_and_silicon: "Being used to create sensors that allow for applications such as detecting microundulations and calibrating robotic hands",
+  if_a_pin: "Being pushed upward then the computer can recognize this as an imperfection in the surface",
+  this_sort_of_technology: { definition: "Useful in order to receive accurate data on imperfections on a very large surface", what_it_does: "", examples: "robotic hands in order to allow the computer to receive highly accurate tactile data" },
+  different_varieties_of_recognition_problem: { definition: "Described in the literature", what_it_does: "", examples: "a small ant on the stem of a flower or a person holding a quill in their hand" },
+  when_the_images: "Degraded or damaged, the information to be extracted from them also gets damaged",
+  the_aim_of_image_restoration: { definition: "The removal of noise (sensor noise, motion blur, etc.) from images", what_it_does: "", examples: "low-pass filters or median filters" },
+  the_organization_of_a_computer_vision_system: "Highly application-dependent",
+  many_functions: "Unique to the application",
+  many_of_these_requirements: { definition: "Entirely topics for further research", what_it_does: "", examples: "camera supports, cables, and connectors" },
+
 };
 
 // ============================================================
