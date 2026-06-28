@@ -38052,6 +38052,29 @@ const FLAT_DICT = {
   as_a_result_of_negotiations_over_whether_items: "'citable', impact factor variations of more than 300% have been observed",
   another_less_insidious_tactic_journals_employ: { definition: "To publish a large portion of its papers, or at least the papers expected to be highly cited, early in the calendar year", what_it_does: "", examples: "in 2007, the specialist journal Folia Phoniatrica et Logopaedica , with an impact factor of 0" },
 
+  // === INGESTED 2026-06-28 02:19 ===
+  the_molecules_on_which_enzymes_act: "Called substrates , which are converted into products",
+  a_striking_example: "Orotidine 5′-phosphate decarboxylase , which accelerates a reaction that would otherwise take millions of years to occur in milliseconds",
+  what_distinguishes_them: "Their high specificity, determined by their unique three-dimensional structure , and their sensitivity to factors such as temperature and pH",
+  papain_and_other_proteolytic_enzymes: { definition: "Used in meat tenderizers to hydrolyze proteins, improving texture and digestibility", what_it_does: "", examples: "pepsin , and the word ferment was used to refer to chemical activity produced by living organisms" },
+  sumner_showed_that_the_enzyme_urease: "A pure protein and crystallized it; he did likewise for the enzyme catalase in 1937",
+  these_three_scientists: "Awarded the 1946 Nobel Prize in Chemistry",
+  each_enzyme: { definition: "Described by 'EC' followed by a sequence of four numbers which represent the hierarchy of enzymatic activity (from very general to very specific)", what_it_does: "", examples: "the substrate, products, and chemical mechanism" },
+  an_enzyme: { definition: "Fully specified by four numerical designations", what_it_does: "", examples: "hexokinase (EC 2.7.1.1) is a transferase (EC 2) that adds a phosphate group (EC 2" },
+  the_most_common_of_these_is_the_ribosome_which: "A complex of protein and catalytic RNA components",
+  specificity: { definition: "Achieved by binding pockets with complementary shape, charge and hydrophilic / hydrophobic characteristics to the substrates", what_it_does: "", examples: "glycosidases , the substrate molecule also changes shape slightly as it enters the active site" },
+  when_the_enzyme: { definition: "Released it mixes with its substrate", what_it_does: "", examples: "metal ions and iron–sulfur clusters ) or organic compounds (e.g., flavin and heme )" },
+  this_continuous_regeneration: { definition: "That small amounts of coenzymes can be used very intensively", what_it_does: "", examples: "the human body turns over its own weight in ATP each day" },
+  another_useful_constant: "K cat , also called the turnover number , which is the number of substrate molecules handled by one active site per second",
+  enzymes_with_this_property: "Called catalytically perfect or kinetically perfect",
+  example_of_such_enzymes: { definition: "Triose-phosphate isomerase , carbonic anhydrase , acetylcholinesterase , catalase , fumarase , β-lactamase , and superoxide dismutase", what_it_does: "", examples: "the citric acid cycle make use of this mechanism" },
+  most_central_metabolic_pathways: "Regulated at a few steps, typically through enzymes whose activity involves the phosphorylation by ATP",
+  such_a_regulatory_mechanism: "Called a negative feedback mechanism , because the amount of the end product produced is regulated by its own concentration",
+  this_type_of_inactive_precursor_to_an_enzyme: "Known as a zymogen [ 93 ] : 149–53 or proenzyme",
+  this_form_of_gene_regulation: { definition: "Called enzyme induction", what_it_does: "", examples: "the neutral cytoplasm and the acidic lysosome ) or oxidative state (e.g" },
+  a_key_question: "Therefore whether and how enzymes can change their enzymatic activities alongside",
+  enzymes_in_general: "Limited in the number of reactions they have evolved to catalyze and also by their lack of stability in organic solvents and at high temperatures",
+
 };
 
 // ============================================================
