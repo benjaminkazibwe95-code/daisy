@@ -38191,6 +38191,24 @@ const FLAT_DICT = {
   a_stromule: { definition: "A microscopic tubular process extending from plastids in plant cells", what_it_does: "", examples: "proplastids , chloroplasts , etioplasts , leucoplasts , amyloplasts , and chromoplasts" },
   stromules: "Usually 0.35–0.85 μm in diameter and of variable length, from short beak-like projections to linear or branched structures up to 220 μm long",
 
+  // === INGESTED 2026-06-28 02:45 ===
+  the_latin_word_flagellum: "' whip ' to describe its lash-like swimming motion",
+  the_flagellum_in_archaea: "Called the archaellum to note its difference from the bacterial flagellum",
+  surfaceattached_cilia_and_flagella: "Used to swim or move fluid from one region to another",
+  each_protofilament: { definition: "A series of tandem protein chains", what_it_does: "", examples: "the hollow, rod-like 'plug' in their centers extending out through the plasma membrane" },
+  the_two_directions_of_rotation: "Not identical (with respect to flagellum movement) and are selected by a molecular switch",
+  counterclockwise_rotation: { definition: "Called the thruster mode with the flagella lagging behind the body", what_it_does: "", examples: "various regulators and chaperones, hence it has been argued that flagella evolved from a T3SS" },
+  bundling: "A phenomenon in multi-flagellated cells where flagella cluster together and rotate in a synchronized manner to facilitate movement",
+  the_stator_is_the_torquegenerating_unit_and: { definition: "A proton-powered rotary motor that drives the main bacterial flagellar motor", what_it_does: "", examples: "phosphorylated CheY-protein, which initiates a cascade of internal rearrangements" },
+  at_the_base_of_a_eukaryotic_flagellum: "A basal body , 'blepharoplast' or kinetosome, which is the microtubule organizing center for flagellar microtubules and is about 500 nanometers long",
+  basal_bodies: "Structurally identical to centrioles",
+  the_flagellum: "Encased within the cell's plasma membrane , so that the interior of the flagellum is accessible to the cell's cytoplasm",
+  the_radial_spoke: { definition: "Thought to be involved in the regulation of flagellar motion, although its exact function and method of action are not yet understood", what_it_does: "", examples: "in the respiratory tract" },
+  flagellated_lifecycle_stages: "Found in many groups, e.g",
+  flagella_or_cilia: "Completely absent in some groups, probably due to a loss rather than being a primitive condition",
+  a_number_of_terms_related_to_flagella_or_cilia: "Used to characterize eukaryotes",
+  the_archaellins: "Typically modified by the addition of N-linked glycans which are necessary for proper assembly or function",
+
 };
 
 // ============================================================
