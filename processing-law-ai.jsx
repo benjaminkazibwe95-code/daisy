@@ -39305,6 +39305,38 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 22:20 ===
   he_also_developed_what: "Now called the ' Rosser sieve ' in number theory",
 
+  // === INGESTED 2026-06-28 22:28 ===
+  arithmetic: { definition: "The fundamental branch of mathematics that studies numbers and their operations", what_it_does: "", examples: "divisibility , factorization , and primality" },
+  integer_arithmetic: "About calculations with positive and negative integers",
+  rational_number_arithmetic: "Operations on fractions of integers",
+  real_number_arithmetic: "About calculations with real numbers , which include both rational and irrational numbers",
+  its_cognitive_and_conceptual_foundations: "Studied by psychology and philosophy",
+  the_practice_of_arithmetic: "At least thousands and possibly tens of thousands of years old",
+  the_first_mechanical_calculators: "Invented in the 17th century",
+  the_symbol_of_the_natural_numbers: { definition: "N {\displaystyle \mathbb {N} }", what_it_does: "", examples: "0 in the set of natural numbers" },
+  the_symbol_of_the_rational_numbers: "Q {\displaystyle \mathbb {Q} }",
+  the_symbol_of_the_real_numbers: "R {\displaystyle \mathbb {R} }",
+  all_higher_numbers: { definition: "Written by repeating this symbol", what_it_does: "", examples: "the number 7 can be represented by repeating the symbol for 1 seven times" },
+  a_similar_wellknown_framework: "The Roman numeral system",
+  this_means_that_the_first_digit: { definition: "Multiplied by 2 0 {\displaystyle 2^{0}} , the next digit by 2 1 {\displaystyle 2^{1}} , and so on", what_it_does: "", examples: "the identity element of addition is 0 since any sum of a number and 0 results in the same number" },
+  the_inverse_element: "The element that results in the identity element when combined with another element",
+  associativity: "A rule that affects the order in which a series of operations can be carried out",
+  the_symbol_of_addition: "+ {\displaystyle +}",
+  the_result_of_this_operation: "Called the quotient",
+  the_symbol_of_subtraction: "− {\displaystyle -}",
+  if_the_multiplicand: "A natural number then multiplication is the same as repeated addition, as in 2 × 3 = 2 + 2 + 2 {\displaystyle 2\times 3=2+2+2}",
+  the_symbols_of_division: "÷ {\displaystyle \div } and / {\displaystyle /}",
+  the_reciprocal_of_a_number: "1 divided by that number",
+  exponentiation: "Sometimes expressed using the symbol ^ but the more common way is to write the exponent in superscript right after the base",
+  other_common_methods: { definition: "Verbal counting and finger-counting", what_it_does: "", examples: "in the method addition with carries , the two numbers are written one above the other" },
+  if_the_sum: "A two-digit number then the leftmost digit, called the 'carry', is added to the next pair of digits to the left",
+  these_difficulties: "Avoided by rational number arithmetic, which allows for the exact representation of fractions",
+  it_examines_problems_like_how_prime_numbers: "Distributed and the claim that every even number is a sum of two prime numbers",
+  a_similar_procedure: { definition: "Used for subtraction", what_it_does: "", examples: "5 2 3 = 5 2 3 {\displaystyle 5^{\frac {2}{3}}={\sqrt[{3}]{5^{2}}}}" },
+  irrational_numbers: "Numbers that cannot be expressed through fractions or repeated decimals, like the root of 2 and π",
+  if_this_number: { definition: "Truncated to 4 decimal places, the result is 3.141", what_it_does: "", examples: "the numbers 0.056 and 1200 each have only 2 significant digits, but the number 40" },
+  interval_arithmetic: "Operations on intervals",
+
 };
 
 // ============================================================
