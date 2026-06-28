@@ -39148,6 +39148,19 @@ const FLAT_DICT = {
   computational_finance: "A branch of applied computer science that deals with problems of practical interest in finance",
   this_required_more_computer_power_than: { definition: "Available at the time, so he worked on useful algorithms for approximate solutions", what_it_does: "", examples: "Ed Thorp [ 9 ] and Michael Goodkin (working with Harry Markowitz, Paul Samuelson and Robert C" },
 
+  // === INGESTED 2026-06-28 21:40 ===
+  historical_geology: { definition: "The application of geology to interpret Earth history and how it has changed over time", what_it_does: "", examples: "the formation and composition of rocks" },
+  petrophysics: "The physical and chemical properties of rocks",
+  petrography: "A branch of petrology that studies the typology and classification of rocks",
+  the_mantle: "Not quite solid and consists of magma which is in a state of semi-perpetual convection",
+  the_resulting_process: "Known as plate tectonics",
+  crust_material_that: "Forced into the asthenosphere melts, and some portion of the melted material becomes light enough to rise to the surface—giving birth to volcanoes",
+  atmospheric_chemistry: { definition: "Developed in the 20th century to measure air pollution and expanded in the 1970s in response to acid rain", what_it_does: "", examples: "CO 2 and water vapor" },
+  such_information_in_turn: "Helpful in studying the motions of continents and ocean floors",
+  the_magnetosphere: { definition: "Defined by the extent of Earth's magnetic field in space or geospace", what_it_does: "", examples: "the ozone layer that protects Earth from harmful ultraviolet radiation" },
+  applied_hydrology: { definition: "Engineering to maintain aquatic environments and distribute water supplies", what_it_does: "", examples: "glaciers and coverage of the Earth by ice and snow" },
+  this_concept_of_spheres: "A useful tool for understanding the Earth's surface and its various processes [ 32 ] ; these correspond to rocks , water , air and life",
+
 };
 
 // ============================================================
