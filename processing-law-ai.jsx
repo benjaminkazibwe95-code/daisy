@@ -37846,6 +37846,12 @@ const FLAT_DICT = {
   in_this_connection_red_auxiliary_numbers: "Written next to the fractions",
   knowledge_of_arithmetic_progressions: "Also evident from the mathematical sources",
 
+  // === INGESTED 2026-06-28 01:21 ===
+  nicomachus: "Plato quite often, and writes that philosophy can only be possible if one knows enough about mathematics",
+  nicomachus_also: "How natural numbers and basic mathematical ideas are eternal and unchanging, and in an abstract realm",
+  propositions: "Typically stated and illustrated with one example, but not proven through inference",
+  the_introduction_to_arithmetic_of_nicomachus: "A standard textbook in Neoplatonic schools, and commentaries on it were written by Iamblichus (3rd century) and John Philoponus (6th century)",
+
 };
 
 // ============================================================
