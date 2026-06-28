@@ -38773,6 +38773,25 @@ const FLAT_DICT = {
   the_final_three_items_on_the_rhind_papyrus: "Designated as 'numbers' 85–87, as opposed to 'problems', and they are scattered widely across the papyrus's back side, or verso",
   these_three_latter_items: "Written on disparate areas of the papyrus's verso (back side), far away from the mathematical content",
 
+  // === INGESTED 2026-06-28 13:04 ===
+  problems_that: "Undecidable using classical computers remain undecidable using quantum computers",
+  the_bestknown_algorithms: { definition: "Shor's algorithm for factoring and Grover's algorithm for searching an unstructured database or an unordered list", what_it_does: "", examples: "the Hamiltonian oracle model" },
+  the_hadamard_transform: "Also an example of a quantum Fourier transform over an n-dimensional vector space over the field F 2",
+  the_algorithm_determines_whether_a_function_f: { definition: "Either constant (0 on all inputs or 1 on all inputs) or balanced (returns 1 for half of the input domain and 0 for the other half)", what_it_does: "", examples: "bounded-error probabilistic algorithms" },
+  the_quantum_phase_estimation_algorithm: "Used to determine the eigenphase of an eigenvector of a unitary gate, given a quantum state proportional to the eigenvector and access to the gate",
+  it_is_unknown_whether_these_problems: { definition: "In P or NP-complete", what_it_does: "", examples: "Simon's problem, solving Pell's equation , testing the principal ideal of a ring R and factoring" },
+  efficient_quantum_algorithms: "Known for certain non-abelian groups",
+  a_quantum_walk: "The quantum analogue of a classical random walk",
+  quantum_walks: "Known to give exponential speedups for some black-box problems",
+  when_individual_photons: "Used, the problem is isomorphic to a multi-photon quantum walk",
+  the_element_distinctness_problem: "The problem of determining whether all the elements of a list are distinct",
+  the_optimal_algorithm: "Put forth by Andris Ambainis , [ 27 ] and Yaoyun Shi first proved a tight lower bound when the size of the range is sufficiently large",
+  the_trianglefinding_problem: "The problem of determining whether a given graph with N vertices contains a triangle (a clique of size 3)",
+  a_well_studied_formula: "The balanced binary tree with only NAND gates",
+  no_better_quantum_algorithm_for_this_case: "Known until one was found for the unconventional Hamiltonian oracle model",
+  a_blackbox_group: "A group with an oracle function, which must be used to perform the group operations (multiplication, inversion, and comparison with identity)",
+  a_problem_is_bqp_complete_if_it: { definition: "In BQP and any problem in BQP can be reduced to it in polynomial time", what_it_does: "", examples: "a molecule's Hamiltonian" },
+
 };
 
 // ============================================================
