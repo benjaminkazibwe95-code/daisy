@@ -39074,6 +39074,20 @@ const FLAT_DICT = {
   a_functor: "An operation on spaces and functions between them",
   this_variant_of_the_chain_rule: "Not an example of a functor because the two functions being composed are of different types",
 
+  // === INGESTED 2026-06-28 21:12 ===
+  donald_hebb: "Born in Chester , Nova Scotia , the oldest of four children of Arthur M",
+  his_thesis: "Titled 'The problem of spatial orientation and place learning'",
+  his_harvard_thesis: "Soon published, and he finished the thesis he started at University of Chicago",
+  the_experiments: "Somewhat unsuccessful, however because chimpanzees turned out to be hard to teach",
+  hebb: "Instrumental in defining psychology as a biological science by identifying thought as the integrated activity of the brain",
+  the_inaugural_award: "Presented to Hebb in 1980",
+  he_believed_that_everything_in_the_brain: "Interrelated and worked together",
+  this_cell_assembly: "The brain's thoughts or ideas",
+  hebb_believed_that_the_environment: "Very important to learning in children",
+  the_aim_of_the_program: "To prepare children for success in school through an early learning program providing cognitively stimulating educational activities",
+  this_attitude_toward_psychology_and_the_way_it: { definition: "Taught made McGill University a prominent center of psychological study", what_it_does: "", examples: "the use of sensory deprivation , because of his research into this field" },
+  one_possible_factor: "Perceptual isolation and we concentrated on that",
+
 };
 
 // ============================================================
