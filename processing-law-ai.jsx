@@ -38330,6 +38330,11 @@ const FLAT_DICT = {
   in_this_kind_of_glycosylation_a_protein: { definition: "Attached to a lipid anchor, via a glycan chain", what_it_does: "", examples: "collagen [ 20 ] which is the most glycated and structurally abundant protein, especially in humans" },
   all_these_diseases: "Difficult to diagnose because they do not only affect one organ, they affect many of them and in different ways",
 
+  // === INGESTED 2026-06-28 10:58 ===
+  others_in_machine_learning: { definition: "Interested in incorporating symbolic knowledge into neural networks", what_it_does: "", examples: "Amazon (Vulcan and Rufus AI [ 6 ] ), Google ( AlphaGeometry [ 38 ] ) and Anthropic ( Claude Code )" },
+  neurosymbolic_knowledge_extraction: "Closely related to the field of Explainable AI and Argumentation",
+  knowledge_extraction: "The main bottleneck computationally for the realization of neuro-symbolic AI in practice and at large scale",
+
 };
 
 // ============================================================
