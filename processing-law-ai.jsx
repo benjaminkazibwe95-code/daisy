@@ -38815,6 +38815,9 @@ const FLAT_DICT = {
   the_knapsack_hamiltonian: "Constructed via embedding the constraint condition to the cost function of the problem with a penalty term",
   multidimensional_knapsack: { definition: "Computationally harder than knapsack; even for D = 2 {\displaystyle D=2} , the problem does not have EPTAS unless P = {\displaystyle =} NP", what_it_does: "", examples: "when scheduling packets in a wireless network with relay nodes" },
 
+  // === INGESTED 2026-06-28 15:54 ===
+  the_asante_empire: { definition: "Established in present-day Ghana", what_it_does: "", examples: "Nkore and Rwanda" },
+
 };
 
 // ============================================================
