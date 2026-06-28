@@ -38187,6 +38187,10 @@ const FLAT_DICT = {
   the_most_commonly_used_laboratory_inhibitors: { definition: "Lactacystin and the peptide aldehyde MG132 initially developed by Goldberg lab", what_it_does: "", examples: "adenomatous polyposis coli (APC) in colorectal cancer, retinoblastoma (Rb)" },
   the_ups: "Also involved in the regulation of inflammatory responses",
 
+  // === INGESTED 2026-06-28 02:42 ===
+  a_stromule: { definition: "A microscopic tubular process extending from plastids in plant cells", what_it_does: "", examples: "proplastids , chloroplasts , etioplasts , leucoplasts , amyloplasts , and chromoplasts" },
+  stromules: "Usually 0.35–0.85 μm in diameter and of variable length, from short beak-like projections to linear or branched structures up to 220 μm long",
+
 };
 
 // ============================================================
