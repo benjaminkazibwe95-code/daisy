@@ -38427,6 +38427,10 @@ const FLAT_DICT = {
   work_who: "Concerned about China's military use of the emerging technology",
   one_major_initiative: { definition: "MGX , a UAE-backed technology group focused on AI development", what_it_does: "", examples: "potential collaborations with U.S" },
 
+  // === INGESTED 2026-06-28 11:21 ===
+  dbns: "Developed by Paul Dagum in the early 1990s at Stanford University 's Section on Medical Informatics",
+  dbn: "A generalization of hidden Markov models and Kalman filters",
+
 };
 
 // ============================================================
