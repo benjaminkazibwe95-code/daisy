@@ -39011,6 +39011,11 @@ const FLAT_DICT = {
   the_new_website: { definition: "Designed to display well on mobile, tablet, and desktop, with pages that highlight journalists and newer articles", what_it_does: "", examples: "an Online Journalism Award" },
   standard_rob_sections: { definition: "Typically fifteen to twenty pages", what_it_does: "", examples: "the Toronto Sun" },
 
+  // === INGESTED 2026-06-28 20:54 ===
+  while_the_descent_direction: "Usually determined from the gradient of the loss function, the learning rate determines how big a step is taken in that direction",
+  the_formula_for_factoring_in_the_momentum: "More complex than for decay but is most often built in with deep learning libraries such as Keras",
+  exponential_learning_schedules: "Similar to step-based, but instead of steps, a decreasing exponential function is used",
+
 };
 
 // ============================================================
