@@ -38498,6 +38498,11 @@ const FLAT_DICT = {
   the_prize_money: "Donated to the charities chosen by the winners",
   linacre_claimed_it: { definition: "Made deliberately bad, as befitting the name of ' Lanterne rouge '", what_it_does: "", examples: "renters' ages, gender, ZIP codes, genre ratings and previously chosen movies, but not ratings" },
 
+  // === INGESTED 2026-06-28 11:49 ===
+  this_does_not_mean_that_the_parts: { definition: "Unrelated, only that no common relation has been established yet for the generalization", what_it_does: "", examples: "peach and oak , and the term ship which stands for equally ranked items such as cruiser and steamer" },
+  a_hypernym: "Superordinate to a hyponym, and a hyponym is subordinate to a hypernym",
+  cartographic_generalization: "The process of selecting and representing information of a map in a way that adapts to the scale of the display medium of the map",
+
 };
 
 // ============================================================
