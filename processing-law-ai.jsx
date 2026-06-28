@@ -37591,6 +37591,13 @@ const FLAT_DICT = {
   the_flow_of_ions_that_causes_an_epsp: "An excitatory postsynaptic current ( EPSC )",
   the_extracellular_signal_from_a_single_neuron: "Extremely small and thus next to impossible to record in the human brain",
 
+  // === INGESTED 2026-06-28 00:18 ===
+  in_most_cases_the_value: "Emphasized, as in the assertion 'the set of all linear combinations of v 1 ,..., v n always forms a subspace'",
+  this_set: "Called the linear span (or just span ) of the vectors, say S = { v 1 , ..., v n }",
+  if_s: "Linearly independent and the span of S equals V , then S is a basis for V",
+  if_k: "A commutative ring instead of a field, then everything that has been said above about linear combinations generalizes to this case without change",
+  a_more_complicated_twist_comes_when_v: "A bimodule over two rings, K L and K R",
+
 };
 
 // ============================================================
