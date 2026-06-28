@@ -39039,6 +39039,18 @@ const FLAT_DICT = {
   many_functions: "Unique to the application",
   many_of_these_requirements: { definition: "Entirely topics for further research", what_it_does: "", examples: "camera supports, cables, and connectors" },
 
+  // === INGESTED 2026-06-28 21:02 ===
+  words_which: "Semantically similar should influence these probabilities in similar ways, because semantically similar words should be used in similar contexts",
+  both_cbow_and_skipgram: "Methods to learn one vector per word appearing in the corpus",
+  the_idea_of_skipgram: "To represent each word with a vector, such that it is possible to predict the vectors of its neighbors using the vector of a word",
+  the_idea_of_cbow: "To represent each word with a vector, such that it is possible to predict a word using the sum of the vectors of its neighbors",
+  the_output_of_the_neural_network: "A probability distribution over the dictionary, representing a prediction of individual words in the neighborhood of w i {\displaystyle w_{i}}",
+  each_row_of_it: "A word vector v ′ {\displaystyle v'}",
+  once_such_a_system: "Trained, we have two trained matrices V , V ′ {\displaystyle V,V'}",
+  the_objective_of_training: { definition: "To maximize ∑ i ∑ j ∈ N ln ⁡ Pr ( w j + i ∣ w i ) {\displaystyle \sum _{i}\sum _{j\in N}\ln \Pr(w_{j+i}\mid w_{i})}", what_it_does: "", examples: "those using n-grams and latent semantic analysis" },
+  the_space_of_documents: { definition: "Then scanned using HDBSCAN , [ 23 ] and clusters of similar documents are found", what_it_does: "", examples: "their use to solve analogies" },
+  the_word_embedding_approach: { definition: "Able to capture multiple different degrees of similarity between words", what_it_does: "", examples: "Country–Capital) as well as syntactic relations (e.g" },
+
 };
 
 // ============================================================
