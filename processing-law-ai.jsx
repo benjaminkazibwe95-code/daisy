@@ -39298,6 +39298,10 @@ const FLAT_DICT = {
   this_is_an_idea_that: "Considered highly modern, traced to the 14th century England and France and anticipating integral calculus",
   many_references: "Made to Babylon in the Bible , both literally (historical) and allegorically",
 
+  // === INGESTED 2026-06-28 22:17 ===
+  john_of_seville: { definition: "Capable of translating Arabic directly into Latin, creating a distinction between himself and Avendehut", what_it_does: "", examples: "Ptolemy, Messahallah and Hermes" },
+  a_work_by_jewish_philosopher_avencebrol: { definition: "Believed to be translated by both John of Seville and Dominicus Gundissalinus titled Fons Vitae (Source of Life)", what_it_does: "", examples: "judgement, concept and logic" },
+
 };
 
 // ============================================================
