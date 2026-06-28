@@ -39088,6 +39088,10 @@ const FLAT_DICT = {
   this_attitude_toward_psychology_and_the_way_it: { definition: "Taught made McGill University a prominent center of psychological study", what_it_does: "", examples: "the use of sensory deprivation , because of his research into this field" },
   one_possible_factor: "Perceptual isolation and we concentrated on that",
 
+  // === INGESTED 2026-06-28 21:21 ===
+  predictive_modelling: { definition: "Often contrasted with causal modelling", what_it_does: "", examples: "healthcare, insurance, and lending" },
+  the_actions: "Usually sales, marketing and customer retention related",
+
 };
 
 // ============================================================
