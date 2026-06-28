@@ -39144,6 +39144,10 @@ const FLAT_DICT = {
   for_many_functions_the_higher_derivatives: "Trivial to obtain; for instance, the sine function at 0 has values of 0 or ± 1 {\displaystyle \pm 1} for all derivatives",
   a_minimum_of_n_values: "Calculated evenly spaced along the range of the desired calculations",
 
+  // === INGESTED 2026-06-28 21:38 ===
+  computational_finance: "A branch of applied computer science that deals with problems of practical interest in finance",
+  this_required_more_computer_power_than: { definition: "Available at the time, so he worked on useful algorithms for approximate solutions", what_it_does: "", examples: "Ed Thorp [ 9 ] and Michael Goodkin (working with Harry Markowitz, Paul Samuelson and Robert C" },
+
 };
 
 // ============================================================
