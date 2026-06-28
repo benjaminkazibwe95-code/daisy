@@ -38322,6 +38322,14 @@ const FLAT_DICT = {
   the_sequence_of_amino_acids_in_the_cterminus: "What classifies Pol θ as Family A polymerase, although the error rate for Pol θ is more closely related to Family Y polymerases",
   the_products_of_such_an_experiment: "Thus amplified PCR products from RNA",
 
+  // === INGESTED 2026-06-28 03:01 ===
+  glycosylation: "Also present in the cytoplasm and nucleus as the O -GlcNAc modification",
+  aglycosylation: { definition: "A feature of engineered antibodies to bypass glycosylation", what_it_does: "", examples: "monoclonal antibodies" },
+  a_significant_example: { definition: "The dense glycan shield of the envelope spike of the human immunodeficiency virus", what_it_does: "", examples: "cell trafficking )" },
+  a_cc_bond: { definition: "Formed between the first carbon of the alpha-mannose and the second carbon of the tryptophan", what_it_does: "", examples: "nitrogen or oxygen" },
+  in_this_kind_of_glycosylation_a_protein: { definition: "Attached to a lipid anchor, via a glycan chain", what_it_does: "", examples: "collagen [ 20 ] which is the most glycated and structurally abundant protein, especially in humans" },
+  all_these_diseases: "Difficult to diagnose because they do not only affect one organ, they affect many of them and in different ways",
+
 };
 
 // ============================================================
