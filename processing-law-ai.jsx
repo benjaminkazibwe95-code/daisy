@@ -38078,6 +38078,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 02:21 ===
   even_then_he: "Never fully recognized for his discoveries",
 
+  // === INGESTED 2026-06-28 02:26 ===
+  molecular_genetics: "A branch of biology that addresses how differences in the structures or expression of DNA molecules manifests as variation among organisms",
+  he_determined_it: { definition: "Composed of hydrogen, oxygen, nitrogen and phosphorus", what_it_does: "", examples: "recessive and dominant traits, without knowing what genes where composed of" },
+  this_finding_suggested_that_dna: "The genetic material of bacteria",
+  one_noteworthy_study: "Performed by Sydney Brenner and collaborators using 'amber' mutants defective in the gene encoding the major head protein of bacteriophage T4",
+  a_single_strand_of_dna: "Held together by covalent bonds, while the two antiparallel strands are held together by hydrogen bonds between the nucleotide bases",
+  this_is_why_the_process_of_dna_replication: { definition: "Known as a semiconservative process", what_it_does: "", examples: "in bacteria or cell cultures" },
+  chromosomes: { definition: "Stained and visualized through a microscope to look for any chromosomal abnormalities", what_it_does: "", examples: "translocations" },
+  one_way_to_due_this: "Through the technique Crispr/Cas9 , which was adapted from the genome immune defense that is naturally occurring in bacteria",
+  one_common_technique: "DNA fingerprinting which is done using a combination of molecular genetic techniques like polymerase chain reaction (PCR) and gel electrophoresis",
+
 };
 
 // ============================================================
