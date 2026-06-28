@@ -38033,6 +38033,14 @@ const FLAT_DICT = {
   languages_of_this_sort: { definition: "Designed for a single application; while they may superficially resemble a specific general-purpose language (e.g", what_it_does: "", examples: "the Adobe products Flash ( ActionScript ) and Acrobat (for scripting PDF files)" },
   tcl: "Created as an extension language but has come to be used more often as a general-purpose language in roles similar to Python , Perl , and Ruby",
 
+  // === INGESTED 2026-06-28 02:15 ===
+  georges: "Named after his mother's uncle (and godfather ) Georges Blaisot, the tax-farmer of the Duke of Savoy for all of Sicily",
+  buffon: "Instrumental in transforming the Jardin du Roi into a major research center and museum",
+  the_style: { definition: "The man himself' (' Le style c'est l'homme même ')", what_it_does: "", examples: "called him 'the great phrase-monger'" },
+  his_histoire_naturelle: "A source of inspiration for the painters of the Sèvres factory, giving rise to porcelain services called Buffon",
+  the_name_of_the_different_species: "Inscribed on the back of each piece",
+  the_early_volumes: { definition: "Condemned by the Faculty of Theology at the Sorbonne", what_it_does: "", examples: "continental drift" },
+
 };
 
 // ============================================================
