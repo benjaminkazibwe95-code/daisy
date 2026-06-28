@@ -38480,6 +38480,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 11:38 ===
   acm_computing_surveys: "Peer-reviewed quarterly scientific journal and is published by the Association for Computing Machinery",
 
+  // === INGESTED 2026-06-28 11:40 ===
+  mahout: "A work in progress; a number of algorithms have been implemented",
+  supported_algebraic_platforms: "Apache Spark , H2O , and Apache Flink",
+
 };
 
 // ============================================================
