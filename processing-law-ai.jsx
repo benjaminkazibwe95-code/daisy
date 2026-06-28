@@ -38664,6 +38664,16 @@ const FLAT_DICT = {
   the_origin_of_true_muscle_cells: { definition: "Argued by other authors to be the endoderm portion of the mesoderm and the endoderm", what_it_does: "", examples: "the sponges and amoebozoans" },
   vertebrate_smooth_muscle: "Found to have evolved independently from the skeletal and cardiac muscle types",
 
+  // === INGESTED 2026-06-28 12:31 ===
+  the_first_implementation_of_anns: "The perceptron by Frank Rosenblatt",
+  diffusion_models: { definition: "First described in 2015, and became the basis of image generation models such as DALL-E in the 2020s", what_it_does: "", examples: "Rosenblatt's perceptron and the Hopfield network" },
+  the_earliest_published_instance: "Seppo Linnainmaa 's 1970 master thesis",
+  an_idea_involving_adversarial_networks: { definition: "Published in a 2010 blog post by Olli Niemitalo", what_it_does: "", examples: "DALL·E 2 (2022) and Stable Diffusion (2022)" },
+  saccade_control: "Modulated by cognitive processes, in that the eye moves preferentially towards areas of high salience",
+  as_the_fovea_of_the_eye: { definition: "Small, the eye cannot sharply resolve all of the visual field at once", what_it_does: "", examples: "a variant of the neocognitron" },
+  these_strands_of_development: "Combined in the transformer architecture, published in Attention Is All You Need in 2017",
+  this_rbm: { definition: "A generative stochastic feedforward neural network that can learn a probability distribution over its set of inputs", what_it_does: "", examples: "cats, only from watching unlabelled images taken from YouTube videos" },
+
 };
 
 // ============================================================
