@@ -38010,6 +38010,13 @@ const FLAT_DICT = {
   the_most_notable_of_these_interfaces: "The standard streams interface, which allows the output of one command to be passed to the input of another",
   the_command: "Processed internally by the shell, and then passed on to another program to launch the document",
 
+  // === INGESTED 2026-06-28 02:07 ===
+  the_address_register_for_the_stack: "Known as a stack pointer because its value always refers to the top item on the stack",
+  when_the_instruction: { definition: "Completed, a stack pointer is advanced", what_it_does: "", examples: "Conway's machine" },
+  the_uncol_concept: "Good, but it has not been widely used due to the poor performance of the generated code",
+  the_memory: { definition: "Used to store data and programs, while the interpreter is the component that executes the instructions included in programs", what_it_does: "", examples: "strings and integers" },
+  when_certain_conditions: { definition: "Met, it is necessary to change the typical sequential execution of a program", what_it_does: "", examples: "operations to update the address of the next instruction to execute)" },
+
 };
 
 // ============================================================
