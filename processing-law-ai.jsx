@@ -38298,6 +38298,30 @@ const FLAT_DICT = {
   milne: { definition: "Each early 20th century alumni of the university", what_it_does: "", examples: "Lytton Strachey , a central figure in the Bloomsbury Group , Peter Ackroyd , and Claire Tomalin" },
   the_webcam: { definition: "Also invented at the University of Cambridge, showing the Trojan Room coffee pot in the university's computer laboratories", what_it_does: "", examples: "88 gold medals" },
 
+  // === INGESTED 2026-06-28 02:59 ===
+  a_dna_polymerase: "A member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates , the molecular precursors of DNA",
+  kornberg: { definition: "Later awarded the Nobel Prize in Physiology or Medicine in 1959 for this work", what_it_does: "", examples: "DNA polymerase III (discovered in the 1970s) and DNA polymerases IV and V (discovered in 1999)" },
+  the_main_function_of_dna_polymerase: "To synthesize DNA from deoxyribonucleotides , the building blocks of DNA",
+  the_dna_copies: "Created by the pairing of nucleotides to bases present on each strand of the original DNA molecule",
+  the_function_of_dna_polymerase: "Not quite perfect, with the enzyme making about one mistake for every billion base pairs copied",
+  when_an_incorrect_base_pair: "Recognized, DNA polymerase moves backwards by one base pair of DNA",
+  fidelity: "Very important in DNA replication",
+  processivity: "A characteristic of enzymes that function on polymeric substrates",
+  once_it: "Bound, a nonprocessive DNA polymerase adds nucleotides at a rate of one nucleotide per second",
+  the_degree_of_processivity: "Directly proportional to the rate of DNA synthesis",
+  the_rate_of_dna_synthesis_in_a_living_cell: "First determined as the rate of phage T4 DNA elongation in phage infected E",
+  this_increase: "Facilitated by the DNA polymerase's association with proteins known as the sliding DNA clamp",
+  the_clamps: { definition: "Multiple protein subunits associated in the shape of a ring", what_it_does: "", examples: "Hepatitis B virus DNA polymerase" },
+  pol_ii: "Also thought to be a backup to Pol III as it can interact with holoenzyme proteins and assume a high level of processivity",
+  the_main_role_of_pol_ii: "Thought to be the ability to direct polymerase activity at the replication fork and help stalled Pol III bypass terminal mismatches",
+  others_polbs_found_in_archaea: { definition: "Part of 'Casposons', Cas1 -dependent transposons", what_it_does: "", examples: "Φ29 DNA polymerase ) and mitochondrial plasmids carry polB as well" },
+  the_beta_sliding_clamp_processivity_factor: { definition: "Also present in duplicate, one for each core, to create a clamp that encloses DNA allowing for high processivity", what_it_does: "", examples: "bypassing N2-deoxyguanine adducts at a faster rate than transversing undamaged DNA" },
+  family_x_polymerases: "Found mainly in vertebrates, and a few are found in plants and fungi",
+  one_motif: { definition: "Located in the 8 kDa domain that interacts with downstream DNA and one motif is located in the thumb domain that interacts with the primer strand", what_it_does: "", examples: "skin cancer and Xeroderma Pigmentosum Variant (XPS)" },
+  the_accessory_subunit_binds_dna_and: "Required for processivity of Pol γ",
+  the_sequence_of_amino_acids_in_the_cterminus: "What classifies Pol θ as Family A polymerase, although the error rate for Pol θ is more closely related to Family Y polymerases",
+  the_products_of_such_an_experiment: "Thus amplified PCR products from RNA",
+
 };
 
 // ============================================================
