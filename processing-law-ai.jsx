@@ -38698,6 +38698,18 @@ const FLAT_DICT = {
   some_notable_examples: "Intelligent Systems for Molecular Biology , European Conference on Computational Biology and Research in Computational Molecular Biology",
   evolutionary_computation: "A field of computer science comprising algorithms inspired by evolution in biology",
 
+  // === INGESTED 2026-06-28 12:41 ===
+  ibm: { definition: "Founded in 1911 as the Computing-Tabulating-Recording Company (CTR), a holding company of manufacturers of record-keeping and measuring systems", what_it_does: "", examples: "six Nobel Prizes and six Turing Awards" },
+  this_equipment: { definition: "Critical to Nazi efforts to categorize citizens of both Germany and other nations that fell under Nazi control through ongoing censuses", what_it_does: "", examples: "internment in the concentration camps" },
+  the_song: "Daisy Bell (Bicycle Built for Two)",
+  the_recording: "Now in the United States National Recording Registry",
+  answer_sheets_for_the_multiplechoice_exams: "Ordered from the United States, and candidates' papers were graded using an IBM 1230 machine",
+  the_graded_papers: "Then transferred to an IBM 534 machine for punching",
+  the_sample_group_and_norm_group: "Carefully selected according to statistical methods to calculate the average score and standard deviation",
+  both_companies_stated_that_it: { definition: "Unrelated to the charges of bribery earlier that year", what_it_does: "", examples: "Weather.com and The Weather Channel mobile app" },
+  all_russian_articles: { definition: "Also removed from the IBM website", what_it_does: "", examples: "the IBM Watson headquarters at Astor Place in Manhattan" },
+  ibm_india_private_limited: { definition: "The Indian subsidiary of IBM, which is headquartered at Bangalore , Karnataka", what_it_does: "", examples: "Xbox 360 , [ 162 ] PlayStation 3 , and Nintendo 's Wii U" },
+
 };
 
 // ============================================================
