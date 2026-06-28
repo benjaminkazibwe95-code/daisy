@@ -37655,6 +37655,17 @@ const FLAT_DICT = {
   quantitative_aspects_of_electrolysis: "Originally developed by Michael Faraday in 1834",
   also_he: "An advocate of the law of conservation of energy",
 
+  // === INGESTED 2026-06-28 00:35 ===
+  computer_algebra: "Widely used to experiment in mathematics and to design the formulas that are used in numerical programs",
+  neither_of_these: { definition: "Convenient for computer algebra, due to expression swell", what_it_does: "", examples: "Mathematica and Maple , [ 10 ] [ 11 ] use the GMP library , which is thus a de facto standard" },
+  this_process_of_delayed_evaluation: "Fundamental in computer algebra",
+  this_simplification: "Normally done through rewriting rules",
+  the_simplest: "Rules that always reduce the size of the expression, like E − E → 0 or sin(0) → 0",
+  the_standard_way_to_deal_with_associativity: "To consider that addition and multiplication have an arbitrary number of operands; that is, that a + b + c is represented as '+'( a , b , c )",
+  testing_every_pair_of_terms: "Costly with very long sums and products",
+  syntactic_equality: { definition: "The equality of their representation in a computer", what_it_does: "", examples: "the polynomials and rational fractions" },
+  an_example_of_this_type_of_work: "The computation of polynomial greatest common divisors , a task required to simplify fractions and an essential component of computer algebra",
+
 };
 
 // ============================================================
