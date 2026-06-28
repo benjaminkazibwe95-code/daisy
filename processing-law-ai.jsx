@@ -38162,6 +38162,31 @@ const FLAT_DICT = {
   ventricular_cardiomyocytes: { definition: "Longer and wider, with a denser T-tubule network", what_it_does: "", examples: "alcohol, long standing high blood pressure or hypertension , or persistent abnormal heart racing" },
   if_the_heart: "No longer able to pump enough blood to meet the body's needs, this is described as heart failure",
 
+  // === INGESTED 2026-06-28 02:40 ===
+  proteasomes: "Part of a major mechanism by which cells regulate the concentration of particular proteins and degrade misfolded proteins",
+  each_ring: "Composed of seven individual proteins",
+  the_inner_two_rings: { definition: "Made of seven β subunits that contain three to seven protease active sites , within the central chamber of the complex", what_it_does: "", examples: "the 19S Regulatory Particle forming the 26S Proteasome" },
+  once_a_protein: "Tagged with a single ubiquitin molecule, this is a signal to other ligases to attach additional ubiquitin molecules",
+  the_result_is_a_polyubiquitin_chain_that: "Bound by the proteasome, allowing it to degrade the tagged protein in an ATP dependent manner",
+  the_proteasome_subcomponents: "Often referred to by their Svedberg sedimentation coefficient (denoted S )",
+  doubly_capped_proteasomes: { definition: "Referred to as 30S proteasomes also exist in the cell", what_it_does: "", examples: "those produced after infection by a virus" },
+  the_interior_chamber: { definition: "At most 53 Å wide, though the entrance can be as narrow as 13 Å, suggesting that substrate proteins must be at least partially unfolded to enter", what_it_does: "", examples: "those in yeast contain seven distinct types of each subunit" },
+  six_of_the_nine_base_proteins: { definition: "ATPase subunits from the AAA Family, and an evolutionary homolog of these ATPases exists in archaea, called PAN (proteasome-activating nucleotidase)", what_it_does: "", examples: "complex assembly, gate opening, translocation, and proteolysis)" },
+  it_is_presumed_that_this: "Because the complex cannot unfold larger substrates",
+  assembly_of_the_base_complex: "Facilitated by four assembly chaperones , Hsm3/S5b, Nas2/p27, Rpn14/PAAF1, and Nas6/ gankyrin (names for yeast/mammals)",
+  the_ubiquitin_protein_itself: "76 amino acids long and was named due to its ubiquitous nature, as it has a highly conserved sequence and is found in all known eukaryotic organisms",
+  it_has_been_proposed_that_ubiquitin: "The slowest- evolving protein identified to date",
+  this_process_recycles_ubiquitin_and: { definition: "Essential to maintain the ubiquitin reservoir in cells", what_it_does: "", examples: "disulfide bonds , are sufficient to inhibit degradation" },
+  while_energy: "Needed for substrate unfolding, it is not required for translocation",
+  these_variations_in_specificity: { definition: "The result of interatomic contacts with local residues near the active sites of each subunit", what_it_does: "", examples: "p53 have also been reported, although p53 is also subject to ubiquitin-dependent degradation" },
+  gankyrin: "Anti- apoptotic and has been shown to be overexpressed in some tumor cell types such as hepatocellular carcinoma",
+  the_specific_response_to_arf_derepression: "Thought to be mediated by specificity in the pairing of individual ARF and Aux/IAA proteins",
+  peptide_antigens: "Displayed by the major histocompatibility complex class I (MHC) proteins on the surface of antigen-presenting cells",
+  these_peptides: { definition: "Products of proteasomal degradation of proteins originated by the invading pathogen", what_it_does: "", examples: "systemic lupus erythematosus and rheumatoid arthritis" },
+  lactacystin: "Licensed to Myogenics/Proscript, which was acquired by Millennium Pharmaceuticals , now part of Takeda Pharmaceuticals",
+  the_most_commonly_used_laboratory_inhibitors: { definition: "Lactacystin and the peptide aldehyde MG132 initially developed by Goldberg lab", what_it_does: "", examples: "adenomatous polyposis coli (APC) in colorectal cancer, retinoblastoma (Rb)" },
+  the_ups: "Also involved in the regulation of inflammatory responses",
+
 };
 
 // ============================================================
