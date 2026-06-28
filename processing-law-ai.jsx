@@ -38647,6 +38647,23 @@ const FLAT_DICT = {
   pitts_at_the_time: "Homeless and without income",
   a_group: "Established with Pitts, Lettvin, McCulloch, and Pat Wall",
 
+  // === INGESTED 2026-06-28 12:29 ===
+  skeletal_muscle_cells: { definition: "The individual contractile cells within a muscle and are more usually known as muscle fibers because of their longer, threadlike appearance", what_it_does: "", examples: "the biceps brachii in a young adult human male, contains around 253,000 muscle fibers" },
+  the_third_type_of_myofilament: "An elastic filament composed of titin , a very large protein",
+  thin_filaments_of_actin: "The light filaments that make up the I band",
+  the_smallest_contractile_unit_in_the_fiber: "Called the sarcomere, which is a repeating unit within two Z bands",
+  the_laminar_coat: "Separable into two layers; the lamina densa and lamina lucida",
+  while_the_first_function: { definition: "Important for biochemical processes, the latter is crucial in defining the surface-to-volume ratio of the cell", what_it_does: "", examples: "those of the arrector pili cause hair to stand erect in response to cold temperature or fear" },
+  the_diameter_of_their_cells: "Also much smaller, which removes the need for T-tubules found in striated muscle cells",
+  the_fusion_of_myoblasts: "Specific to skeletal muscle, and not cardiac muscle or smooth muscle",
+  this_contraction_of_the_myocyte: "Triggered by the action potential over the cell membrane of the myocyte",
+  sarcoplasmic_reticula: "Membranous bags that transverse tubules touch but remain separate from",
+  eccentric_contraction: "When a muscle moves under a load",
+  concentric_contraction: "When a muscle shortens and generates force",
+  sinoatrial_node_activity: "Modulated, in turn, by nerve fibers of both the sympathetic and parasympathetic nervous systems",
+  the_origin_of_true_muscle_cells: { definition: "Argued by other authors to be the endoderm portion of the mesoderm and the endoderm", what_it_does: "", examples: "the sponges and amoebozoans" },
+  vertebrate_smooth_muscle: "Found to have evolved independently from the skeletal and cardiac muscle types",
+
 };
 
 // ============================================================
