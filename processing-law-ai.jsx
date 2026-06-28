@@ -38387,6 +38387,9 @@ const FLAT_DICT = {
   the_mathematically_grounded_approaches: "Purely theoretical and the result is a printed paper instead of a program",
   informal_approaches: { definition: "Common in computer programming", what_it_does: "", examples: "ConceptNet , claims to generate commonsense inferences at a level approaching human benchmarks" },
 
+  // === INGESTED 2026-06-28 11:11 ===
+  these_modules: "Programmed to avoid both stationary and moving objects",
+
 };
 
 // ============================================================
