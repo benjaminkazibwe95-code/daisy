@@ -38512,6 +38512,24 @@ const FLAT_DICT = {
   optical_sensors: { definition: "Also used in EFI's Optirip device, which offers greater tissue feeling for minimally invasive surgery", what_it_does: "", examples: "milk and plastics" },
   the_platforms_considered_most_versatile: { definition: "Indium phosphide (InP) and silicon photonics (SiPh): The term 'silicon photonics' actually refers to the technology rather than the material", what_it_does: "", examples: "Broadcom are beginning commercialization" },
 
+  // === INGESTED 2026-06-28 11:53 ===
+  one_of_the_strongest: { definition: "The link with type 2 diabetes", what_it_does: "", examples: "ones based on waist circumference rather than BMI, which is unreliable in certain individuals" },
+  no_significant_differences: "Seen among men of different social classes",
+  the_decrease_in_strength_of_correlation: "Felt to be due to the effects of globalization",
+  a_similar_relationship: "Seen among US states: more adults, even in higher social classes, are obese in more unequal states",
+  in_china_overall_rates_of_obesity: { definition: "Below 5%; however, in some cities rates of obesity are greater than 20%", what_it_does: "", examples: "inadequate public spaces for physical activity)" },
+  this_apparent_alteration: "Believed to confer a greater capacity to harvest energy contributing to obesity",
+  whether_these_differences: "The direct cause or the result of obesity has yet to be determined unequivocally",
+  certain_aspects_of_personality: "Associated with being obese",
+  both_groups_of_arcuate_nucleus_neurons: "Regulated in part by leptin",
+  deaths: { definition: "Reportedly associated with seven products", what_it_does: "", examples: "dizziness, drowsiness, fatigue, insomnia and nausea during period of treatment" },
+  globally_there: "More obese women than men, but the numbers differ depending on how obesity is measured",
+  the_weight_that: { definition: "Viewed as an ideal has become lower since the 1920s", what_it_does: "", examples: "disadvantages in employment [ 251 ] : 29 [ 252 ] and increased business costs" },
+  the_most_common_injuries_in_this_group: { definition: "Due to falls and lifting, thus affecting the lower extremities, wrists or hands, and backs", what_it_does: "", examples: "the airline, healthcare and food industries, have special concerns" },
+  it_has_more_of_a_global_orientation_and: "Its mission as promoting size acceptance and helping to end weight-based discrimination",
+  obesity_in_children_and_adolescents: "Defined as a BMI greater than the 95th percentile",
+  changing_diet_and_decreasing_physical_activity: "Believed to be the two most important causes for the recent increase in the incidence of child obesity",
+
 };
 
 // ============================================================
