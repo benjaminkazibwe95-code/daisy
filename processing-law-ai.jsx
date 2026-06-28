@@ -39226,6 +39226,34 @@ const FLAT_DICT = {
   the_brass_workings_of_the_machine: "Reminiscent of Babbage's analytical engine",
   her_employment: "Described as keeping her occupied until she returns to her studies in advanced mathematics",
 
+  // === INGESTED 2026-06-28 22:05 ===
+  these_first_students: "Admitted on a tuition-free basis",
+  plans_for_a_law_school: "In the talks but scrapped shortly after",
+  stanley: "Announced as Stony Brook's fifth president",
+  bernstein: "Named interim president in his place",
+  mccormick: "Named interim president",
+  the_stony_brook_university_campus_area: "A census-designated place (CDP), [ 64 ] with a population of 10,409 at the 2020 census",
+  the_west_campus: "The center of the academic life of the university",
+  the_engineering_quad: "Located near the Academic Mall, and contains the Engineering, Light Engineering, Heavy Engineering, and Computing Center facilities",
+  among_the_latest_additions_to_the_campus: "The Simons Center for Geometry and Physics, the new Walter J",
+  the_athletic_facilities: "In the northwest quadrant of West Campus, which include the Stony Brook Sports Complex , Island Federal Credit Union Arena , Kenneth P",
+  the_south_campus: "About half a mile south of the Academic Mall and separated from West Campus by the Ashley Schiff Forest Preserve",
+  the_research_and_development_park: "On Stony Brook Road, a mile from the center of campus",
+  the_east_campus: "Separated from the main campus by Nicolls Road (County Road 97)",
+  the_original_site: "At 401 Park Avenue South; a newer operation opened in late 2008 in the adjacent building on the third floor of 387 Park Avenue South",
+  professor_martin_schoonen: "Appointed interim dean of Southampton campus on August 3, 2006, and conservationist Mary Pearl was appointed dean and vice president in March 2009",
+  students_studying_the_arts: "Engaged in studies for filmmaking and creative writing",
+  zuccaire_gallery: "In the Staller Center for the Arts",
+  the_sac_art_gallery: "A center for interactive and participatory art projects",
+  stony_brook_university_students: "Allowed to apply for an exchange program at SUNY Korea, while SUNY Korea students are required to take a year of classes at Stony Brook University",
+  the_president_of_stony_brook: "The principal executive officer of the university",
+  undergraduate_students: "Obligated to pay a Student Activity Fee per semester which is then administered by the Undergraduate Student Government",
+  the_oldest_campus_newspaper: { definition: "The Statesman , which was founded in 1957 when the university was in Oyster Bay", what_it_does: "", examples: "Homecoming Hoopla & Carnival on Wednesday and the Seawolves Showcase talent show on Friday" },
+  the_homecoming_court: { definition: "Presented during halftime, dating back to 1984", what_it_does: "", examples: "students, faculty, staff, and alumni" },
+  the_competition: "Groups making boats out of cardboard and tape, with the challenge to get across the Roth Pond first without sinking",
+  the_first_seawolves_showcase: "Held in 2010 and continues to be held every year during homecoming weekend",
+  leddy: "Followed by Shayna Stahl (2013–2016) and Christopher Parks (2016–2018)",
+
 };
 
 // ============================================================
