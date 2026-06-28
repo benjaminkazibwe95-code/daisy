@@ -38710,6 +38710,18 @@ const FLAT_DICT = {
   all_russian_articles: { definition: "Also removed from the IBM website", what_it_does: "", examples: "the IBM Watson headquarters at Astor Place in Manhattan" },
   ibm_india_private_limited: { definition: "The Indian subsidiary of IBM, which is headquartered at Bangalore , Karnataka", what_it_does: "", examples: "Xbox 360 , [ 162 ] PlayStation 3 , and Nintendo 's Wii U" },
 
+  // === INGESTED 2026-06-28 12:43 ===
+  once_the_siege_of_bilbao: "Lifted in 1874, he returned to Madrid and completed his studies in 1876, graduating fourth in his class",
+  the_cableway: "About 200 metres (660 ft) wide and carried a single person seated in a chair suspended from a cable, with another traction cable",
+  what_varies_with_this_load: "The deflection of the cables, which increases as the counterweight is raised",
+  the_resulting_design: "Very robust and remains safe in case of a support cable failure",
+  the_load_per_cableway: "9 tonnes (9.9 short tons), with a safety factor for the cables of 4.6, [ 39 ] and carries 35 standing passengers on a one-kilometer journey",
+  an_abstract: "Published in its Comptes rendus that same year, [ 49 ] followed by the full memoir in the Mémoires de l' Institut de France",
+  the_angular_movements: { definition: "Proportional to the logarithms of the magnitudes to be represented", what_it_does: "", examples: "complex ones, with an accuracy of up to thousandths" },
+  when_the_black_king: "Moved by hand, an algorithm calculated and performed the next best move for the white player",
+  this_stage_on_the_path_to_automatic_computing: { definition: "Built upon a concise and proven technology: that of electromagnetic relays", what_it_does: "", examples: "Babbage's—could be replaced with electromechanical components" },
+  the_twin_hulls: { definition: "Intended to accommodate machinery and tanks, while the structure above them provided space for cargo, passengers and crew", what_it_does: "", examples: "Albert Einstein , Marie Curie , Gilbert Murray , and its first president, Henri Bergson" },
+
 };
 
 // ============================================================
