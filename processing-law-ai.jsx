@@ -39193,6 +39193,13 @@ const FLAT_DICT = {
   these_marks: "Introduced during the course of the Hellenistic period",
   the_yevanic_dialect: "Written by Romaniote and Constantinopolitan Karaite Jews using the Hebrew Alphabet",
 
+  // === INGESTED 2026-06-28 21:58 ===
+  frequency_analysis: "Based on the fact that, in any given stretch of written language, certain letters and combinations of letters occur with varying frequencies",
+  the_basic_use_of_frequency_analysis: { definition: "To first count the frequency of ciphertext letters and then associate guessed plaintext letters with them", what_it_does: "", examples: "considering counts of pairs of letters ( bigrams ), triplets ( trigrams ), and so on" },
+  shorter_messages: { definition: "Likely to show more variation", what_it_does: "", examples: "the Enigma machine ) were essentially immune to straightforward frequency analysis" },
+  several_of_the_ciphers_used_by_the_axis_powers: "Breakable using frequency analysis, for example, some of the consular ciphers used by the Japanese",
+  the_cipher_in_the_poe_story: "Encrusted with several deception measures, but this is more a literary device than anything significant cryptographically",
+
 };
 
 // ============================================================
