@@ -37687,6 +37687,11 @@ const FLAT_DICT = {
   some_design_patterns: { definition: "Especially useful for OOP, and design patterns are typically introduced in an OOP context", what_it_does: "", examples: "a graphics program may have objects such as circle , square , and menu" },
   bob_martin_suggests_that_because_classes: "Software, their relationships don't match the real-world relationships they represent",
 
+  // === INGESTED 2026-06-28 00:41 ===
+  vulnerability_management_typically: { definition: "A combination of remediation, mitigation, and acceptance", what_it_does: "", examples: "the Common Vulnerabilities and Exposures (CVE) database" },
+  often_a_defense_in_depth_strategy: { definition: "Used for multiple barriers to attack", what_it_does: "", examples: "by downloading a software patch" },
+  the_former_approach: { definition: "Praised for its transparency, but the drawback is that the risk of attack is likely to be increased after disclosure with no patch available", what_it_does: "", examples: "PCI , HIPAA , and Sarbanes-Oxley , that place legal requirements on vulnerability management" },
+
 };
 
 // ============================================================
