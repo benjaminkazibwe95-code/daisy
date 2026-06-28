@@ -38742,6 +38742,10 @@ const FLAT_DICT = {
   some_of_the_key_figures_in_this_movement: "Otto Neurath , Moritz Schlick and the rest of the Vienna Circle , along with A",
   any_sentence_that: { definition: "Not purely logical, or is unverifiable, is devoid of meaning", what_it_does: "", examples: "' X at location Y and at time T observes such and such'" },
 
+  // === INGESTED 2026-06-28 12:50 ===
+  computational_linguistics: "Closely related to mathematical linguistics",
+  while_computational_semantics: { definition: "A scientific field, it has many applications in real-world settings and substantially overlaps with Artificial Intelligence", what_it_does: "", examples: "those described in Chomsky normal form" },
+
 };
 
 // ============================================================
