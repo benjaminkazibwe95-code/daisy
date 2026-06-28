@@ -38221,6 +38221,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 02:49 ===
   diploblasty: { definition: "A condition of the early embryo in which there are two primary germ layers : the ectoderm and endoderm", what_it_does: "", examples: "sea sponges , have one germ layer and lack true tissue organization" },
 
+  // === INGESTED 2026-06-28 02:51 ===
+  the_related_latin_term_testa: { definition: "Used for the outer layer of the hard seed coat of plant seeds", what_it_does: "", examples: "a piece of pottery, a tile, or a potsherd, and by extension, the shell of a mollusc or a skull" },
+  this_lime: "Constituted itself of 99.9% of calcium carbonate, with 0",
+  the_endoskeletal_matrix: { definition: "Formed by spicules of calcite and extracellular matrix proteins that form concentric folded layers", what_it_does: "", examples: "miliolids and rotaliids" },
+  foraminifera_with_multichambered_tests: "Referred to as multilocular and develop by building new chambers in their test",
+  urchins_appeared_in_the_phanerozoic_and: { definition: "Globally distributed, and the skeletal nature of their tests allowed for consistent conservation in the fossil record", what_it_does: "", examples: "loriciferans and rotifers are referred to as loricas" },
+
 };
 
 // ============================================================
