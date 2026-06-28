@@ -38228,6 +38228,26 @@ const FLAT_DICT = {
   foraminifera_with_multichambered_tests: "Referred to as multilocular and develop by building new chambers in their test",
   urchins_appeared_in_the_phanerozoic_and: { definition: "Globally distributed, and the skeletal nature of their tests allowed for consistent conservation in the fossil record", what_it_does: "", examples: "loriciferans and rotifers are referred to as loricas" },
 
+  // === INGESTED 2026-06-28 02:53 ===
+  most_streptococci: { definition: "Oxidase-negative and catalase-negative , and many are facultative anaerobes (capable of growth both aerobically and anaerobically)", what_it_does: "", examples: "in the mouth, skin, intestine, and upper respiratory tract" },
+  a_few: "Opportunistic , being able to switch between friend and foe",
+  this_system_of_classification: "Developed by Rebecca Lancefield , a scientist at Rockefeller University",
+  alphahemolysis: "Also termed incomplete hemolysis or partial hemolysis because the cell membranes of the red blood cells are left intact",
+  streptolysin_s: "An oxygen-stable cytotoxin also produced by most GAS strains which results in clearing on the surface of blood agar",
+  listeria_monocytogenes: "Also positive on sheep's blood agar",
+  this_occurs_when_the_bacterium: "Able to infect areas where it is not usually found, such as the blood and organs",
+  equi: { definition: "A clonal descendant or biovar of the ancestral S", what_it_does: "", examples: "cattle and horses" },
+  group_c_streptococcal_bacteria: { definition: "Considered zoonotic pathogens, meaning infection can be passed from animal to human", what_it_does: "", examples: "Streptococcus faecalis is now Enterococcus faecalis" },
+  faecalis: "Sometimes alpha-hemolytic and E",
+  faecium: "Sometimes beta hemolytic",
+  group_f_streptococci: "First described in 1934 by Long and Bliss among the 'minute haemolytic streptococci'",
+  these_streptococci: "Usually, but not exclusively, beta-hemolytic",
+  phocae: "A GGS subspecies that has been found in marine mammals and marine fish species",
+  its_environmental_reservoir_and: "Of transmission in marine mammals is not well characterized",
+  group_g_streptococci: "Also considered zoonotic pathogens",
+  one_of_the_most_common_ways_this_can_be_spread: { definition: "Human-to-canine, mouth-to-mouth contact", what_it_does: "", examples: "the PYR test for group A streptococcus" },
+  natural_genetic_transformation: "The transfer of DNA from one bacterium to another through the surrounding medium",
+
 };
 
 // ============================================================
