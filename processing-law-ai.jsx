@@ -39200,6 +39200,12 @@ const FLAT_DICT = {
   several_of_the_ciphers_used_by_the_axis_powers: "Breakable using frequency analysis, for example, some of the consular ciphers used by the Japanese",
   the_cipher_in_the_poe_story: "Encrusted with several deception measures, but this is more a literary device than anything significant cryptographically",
 
+  // === INGESTED 2026-06-28 22:01 ===
+  wikiversity: "A Wikimedia Foundation project [ 2 ] [ 3 ] that supports learning communities, their learning materials, and resulting activities",
+  one_element_of_wikiversity: "A set of WikiJournals which publish peer-reviewed articles in a stable, indexed , and citable format comparable with academic journals",
+  the_first_project_proposal: "Not approved (2005) and the second, modified proposal, was approved (2006)",
+  texts_useful_to_others: "Hosted at Wikibooks for update and maintenance",
+
 };
 
 // ============================================================
