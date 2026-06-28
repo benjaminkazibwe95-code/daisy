@@ -37587,6 +37587,10 @@ const FLAT_DICT = {
   areflexia: "A condition in which tendon reflexes are reduced and it may subside temporarily after a period of exercise",
   nmt: "Also believed to be of autoimmune origin due to its associations with autoimmune symptoms in the individual affected",
 
+  // === INGESTED 2026-06-28 00:14 ===
+  the_flow_of_ions_that_causes_an_epsp: "An excitatory postsynaptic current ( EPSC )",
+  the_extracellular_signal_from_a_single_neuron: "Extremely small and thus next to impossible to record in the human brain",
+
 };
 
 // ============================================================
