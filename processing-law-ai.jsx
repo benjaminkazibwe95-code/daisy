@@ -39106,6 +39106,27 @@ const FLAT_DICT = {
   a_generalization_of_the_perceptron_model: "The Receptron that incorporates non-linear interactions between inputs",
   a_single_receptron: "Able to classify non-linear Boolean functions",
 
+  // === INGESTED 2026-06-28 21:31 ===
+  numerical_analysis: "The study of algorithms for the problems of continuous mathematics",
+  linear_interpolation: { definition: "Already in use more than 2000 years ago", what_it_does: "", examples: "interpolation points and function coefficients" },
+  the_function_values: "No longer very useful when a computer is available, but the large listing of formulas can still be very handy",
+  the_mechanical_calculator: "Also developed as a tool for hand computation",
+  the_leslie_fox_prize_for_numerical_analysis: { definition: "Initiated in 1985 by the Institute of Mathematics and its Applications", what_it_does: "", examples: "Newton's method, the bisection method , and Jacobi iteration" },
+  some_methods_are_direct_in_principle_but: "Usually used as though they were not, e.g",
+  the_initial_values: { definition: "A = 0, b = 3, f ( a ) = −24, f ( b ) = 57", what_it_does: "", examples: "the solution of a differential equation is a function" },
+  roundoff_errors_arise_because_it: "Impossible to represent all real numbers exactly on a machine with finite memory (which is what all practical digital computers are)",
+  once_an_error: { definition: "Generated, it propagates through the calculation", what_it_does: "", examples: "the operation + on a computer is inexact" },
+  a_truncation_error: "Created when a mathematical procedure is approximated",
+  an_algorithm: "Called numerically stable if an error, whatever its cause, does not grow to be much larger during the calculation",
+  an_art_of_numerical_analysis: "To find a stable algorithm for solving a well-posed mathematical problem",
+  the_least_squares_method: "One way to achieve this",
+  another_fundamental_problem: "Computing the solution of some given equation",
+  two_cases: "Commonly distinguished, depending on whether the equation is linear or not",
+  rootfinding_algorithms: "Used to solve nonlinear equations (they are so named since a root of a function is an argument for which the function yields zero)",
+  if_the_function: "Differentiable and the derivative is known, then Newton's method is a popular choice",
+  the_corresponding_tool_in_statistics: "Called principal component analysis",
+  the_field_of_optimization: { definition: "Further split in several subfields, depending on the form of the objective function and the constraint", what_it_does: "", examples: "FreeMat , Scilab , [ 34 ] [ 35 ] GNU Octave (similar to Matlab), and IT++ (a C++ library)" },
+
 };
 
 // ============================================================
