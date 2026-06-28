@@ -38390,6 +38390,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 11:11 ===
   these_modules: "Programmed to avoid both stationary and moving objects",
 
+  // === INGESTED 2026-06-28 11:13 ===
+  the_courts_of_the_united_states: { definition: "Closely linked hierarchical systems of courts at the federal and state levels", what_it_does: "", examples: "traffic citations, and courts of general jurisdiction responsible for more serious disputes" },
+  judicial_system: { definition: "Often portrayed in American literature and films", what_it_does: "", examples: "A Few Good Men (1992) and Runaway Jury (2003) are set around its courts" },
+
 };
 
 // ============================================================
