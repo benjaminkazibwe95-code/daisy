@@ -37834,6 +37834,18 @@ const FLAT_DICT = {
   while_these_regulations: { definition: "Commonly considered to be new, nearly identical provisions have existed across Europe since 1995, in Article 15 of the Data Protection Directive", what_it_does: "", examples: "fraud, discrimination, and national security threats" },
   an_important_point_in_the_commitment: "Promoting responsible innovation and collaboration across sectors to ensure that AI benefits society as a whole",
 
+  // === INGESTED 2026-06-28 01:17 ===
+  ancient_egyptian_mathematics: "The mathematics that was developed and used in Ancient Egypt c",
+  evidence_for_egyptian_mathematics: { definition: "Limited to a scarce amount of surviving sources written on papyrus", what_it_does: "", examples: "the false position method and quadratic equations" },
+  in_either_representation_the_number_system: "Always given in base 10",
+  large_numbers: "Represented by collections of the glyphs and the value was obtained by simply adding the individual numbers together",
+  very_rarely_a_special_glyph: "Used to denote ⁠ 3 / 4 ⁠",
+  the_rest_of_the_fractions: "Always represented by a mouth super-imposed over a number",
+  the_multiplicand: "Written next to figure 1; the multiplicand was then added to itself, and the result written next to the number 2",
+  next_it: "Noted that ⁠ 2 / 3 ⁠ + ⁠ 1 / 10 ⁠ + ⁠ 1 / 2190 ⁠ times 365 gives us the value of 280 we need",
+  in_this_connection_red_auxiliary_numbers: "Written next to the fractions",
+  knowledge_of_arithmetic_progressions: "Also evident from the mathematical sources",
+
 };
 
 // ============================================================
