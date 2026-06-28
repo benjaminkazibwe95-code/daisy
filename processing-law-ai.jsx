@@ -38895,6 +38895,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 20:10 ===
   the_geographically_agnostic_nature_of_software: { definition: "That new business opportunities may arise for those organisations that have a political or regulatory impediment to offshoring or outsourcing", what_it_does: "", examples: "cost efficiency and consistency in performance, it also has some limitations" },
 
+  // === INGESTED 2026-06-28 20:12 ===
+  critics_have_pointed_out_that_the_model: "Politically charged and over-simplified",
+  yet_the_significance_of_the_article: { definition: "Not simply a matter of citations―it has also provided the foundation for what has become known as the 'New Terrorism' paradigm", what_it_does: "", examples: "Walter Laquer, Steven Simon and Daniel Benjamen, and rebranded as the 'New Terrorism'" },
+  this_strategy: { definition: "Used in Ireland, in Kenya , in Algeria and in Cyprus during their independence struggles", what_it_does: "", examples: "fatherless, friendless, jobless situations—or suicidal symptoms" },
+  terrorism_as_we_ordinarily_understand_it: "Innately media-related",
+  the_code_of_conduct: "Initiated by Kazakhstan President Nursultan Nazarbayev",
+  the_civilian_population: "The center of gravity—the deciding factor in the struggle",
+  the_use_of_force_by_states: { definition: "Already thoroughly regulated under international law'", what_it_does: "", examples: "during the Red Terror or the Great Terror" },
+  two_examples_of_this_phenomenon: "The Nobel Peace Prize laureates Menachem Begin and Nelson Mandela",
+
 };
 
 // ============================================================
