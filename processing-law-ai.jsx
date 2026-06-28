@@ -37756,6 +37756,33 @@ const FLAT_DICT = {
   academic_institutions: "Not consistent in the way they group and label courses, programs, and degrees in applied mathematics",
   continuum_mechanics: { definition: "Also an important branch of mathematics in its own right", what_it_does: "", examples: "graph theory , [ 24 ] [ 25 ] and combinatorics" },
 
+  // === INGESTED 2026-06-28 00:56 ===
+  the_aim_of_source_coding: "To take the source data and make it smaller",
+  a_code: "A function C ( x ) {\displaystyle C(x)} is the code word associated with x {\displaystyle x}",
+  the_code_word_of_the_empty_string: "The empty string itself: Entropy of a source is the measure of information",
+  the_purpose_of_channel_coding_theory: "To find codes which transmit quickly, contain many valid code words and can correct or at least detect many errors",
+  the_twist_on_this: "That we do not merely send the bits in order",
+  the_block_of_data_bits: "First divided into 4 smaller blocks",
+  other_codes: "More appropriate for different applications",
+  deep_space_communications: "Limited by the thermal noise of the receiver which is more of a continuous nature than a bursty nature",
+  again_there_are_a_class_of_channel_codes_that: "Designed to combat fading",
+  the_sum_of_any_two_codewords: "Also a code word, and they are applied to the source bits in blocks, hence the name linear block codes",
+  there_are_block_codes_that: { definition: "Not linear, but it is difficult to prove that a code is a good one without this property", what_it_does: "", examples: "Block codes are tied to the sphere packing problem, which has received some attention over the years" },
+  the_only_nontrivial_and_useful_perfect_codes: "The distance-3 Hamming codes with parameters satisfying (2 r – 1, 2 r – 1 – r , 3), and the [23,12,7] binary and [11,6,5] ternary Golay codes",
+  the_idea_behind_a_convolutional_code: "To make every codeword symbol be the weighted sum of the various input message symbols",
+  the_encoder: "Usually a simple circuit which has state memory and some feedback logic, normally XOR gates",
+  the_viterbi_algorithm: "The optimum algorithm used to decode convolutional codes",
+  convolutional_codes: "Used in voiceband modems (V.32, V.17, V.34) and in GSM mobile phones, as well as satellite and military communication devices",
+  cryptography_or_cryptographic_coding: "The practice and study of techniques for secure communication in the presence of third parties (called adversaries )",
+  cryptography_prior_to_the_modern_age: "Effectively synonymous with encryption , the conversion of information from a readable state to apparent nonsense",
+  these_schemes: "Therefore termed computationally secure; theoretical advances, e.g",
+  line_coding: "Often used for digital data transport",
+  the_common_types_of_line_encoding: "Unipolar , polar , bipolar , and Manchester encoding",
+  another_concern_of_coding_theory: "Designing codes that help synchronization",
+  each_phone_is_assigned_a_code_sequence_that: "Approximately uncorrelated with the codes of other phones",
+  if_the_check_bits: "Not consistent with the rest of the message when it arrives, the receiver will ask the sender to retransmit the message",
+  the_idea_of_group_testing: "To determine which items are 'different' by using as few tests as possible",
+
 };
 
 // ============================================================
