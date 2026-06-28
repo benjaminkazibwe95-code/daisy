@@ -38674,6 +38674,18 @@ const FLAT_DICT = {
   these_strands_of_development: "Combined in the transformer architecture, published in Attention Is All You Need in 2017",
   this_rbm: { definition: "A generative stochastic feedforward neural network that can learn a probability distribution over its set of inputs", what_it_does: "", examples: "cats, only from watching unlabelled images taken from YouTube videos" },
 
+  // === INGESTED 2026-06-28 12:37 ===
+  some_of_the_key_areas_of_logic_that: "Particularly significant are computability theory (formerly called recursion theory), modal logic and category theory",
+  the_theory_of_computation: "Based on concepts defined by logicians and mathematicians such as Alonzo Church and Alan Turing",
+  one_of_the_things_that_a_logician_does: "To take a set of statements in logic and deduce the conclusions (additional statements) that must be true by the laws of logic",
+  from_the_beginning_of_the_field_it: "Realized that technology to automate logical inferences could have great potential to solve problems and draw conclusions from facts",
+  firstorder_logic: "A general and powerful method for describing and analyzing information",
+  the_closer_it: { definition: "To FOL), the more likely it is to be slower and prone to an infinite loop", what_it_does: "", examples: "IF–THEN rules used in expert systems approximate to a very limited subset of FOL" },
+  an_example_of_such_a_domain: { definition: "Very Large Scale Integrated (VLSI) design—the process for designing the chips used for the CPUs and other critical components of digital devices", what_it_does: "", examples: "KL-ONE can be directly mapped to set theory and first-order logic" },
+  the_level_of_flexibility: "Ideal for handling the ever changing world of the Internet",
+  classifier_technology: "Built on top of languages such as the Web Ontology Language to allow a logical semantic level on top of the existing Internet",
+  this_layer: "Called the Semantic Web",
+
 };
 
 // ============================================================
