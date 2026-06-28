@@ -38209,6 +38209,15 @@ const FLAT_DICT = {
   a_number_of_terms_related_to_flagella_or_cilia: "Used to characterize eukaryotes",
   the_archaellins: "Typically modified by the addition of N-linked glycans which are necessary for proper assembly or function",
 
+  // === INGESTED 2026-06-28 02:47 ===
+  a_plastid: "A membrane-bound organelle found in the cells of plants , algae , and some other eukaryotic organisms",
+  plastids: { definition: "Sites for manufacturing and storing pigments and other important chemical compounds used by the cells of autotrophic eukaryotes", what_it_does: "", examples: "used in photosynthesis or which determine a cell's color" },
+  the_remodelling_of_plastid_nucleoids: { definition: "Believed to occur by modifications to the abundance of and the composition of nucleoid proteins", what_it_does: "", examples: "heme biosynthesis" },
+  some_dna_molecules: "Repaired but DNA with unrepaired damage is apparently degraded to non-functional fragments",
+  dna_repair_proteins: "Encoded by the cell's nuclear genome and then translocated to plastids where they maintain genome stability/ integrity by repairing the plastid's DNA",
+  all_these_primary_plastids: { definition: "Surrounded by two membranes", what_it_does: "", examples: "the causative agents of malaria ( Plasmodium spp" },
+  proplastids: "The precursor of the more differentiated forms of plastids, as shown in the diagram to the right",
+
 };
 
 // ============================================================
