@@ -38143,6 +38143,25 @@ const FLAT_DICT = {
   as_tubal_disease: "Often related to Chlamydia infection , testing for Chlamydia antibodies has become a cost-effective screening device for tubal pathology",
   to_remove_both_tubes: "A bilateral salpingectomy",
 
+  // === INGESTED 2026-06-28 02:38 ===
+  on_the_outer_aspect_of_the_myocardium: "The epicardium which forms part of the pericardial sac that surrounds, protects, and lubricates the heart",
+  the_pacemaker_cells: "Only weakly contractile without sarcomeres, and are connected to neighboring contractile cells via gap junctions",
+  pacemaker_cells_carry_the_impulses_that: "Responsible for the beating of the heart",
+  they_are_distributed_throughout_the_heart_and: { definition: "Responsible for several functions", what_it_does: "", examples: "may occur during abnormal heart rhythms such as ventricular fibrillation" },
+  these_striations: "Caused by lighter I bands composed mainly of actin, and darker A bands composed mainly of myosin",
+  ttubules_in_cardiac_muscle: "Bigger and wider than those in skeletal muscle , but fewer in number",
+  the_discs: { definition: "Responsible mainly for force transmission during muscle contraction", what_it_does: "", examples: "a myocardial infarction" },
+  the_ecm: "Composed of proteins including collagen and elastin along with polysaccharides (sugar chains) known as glycosaminoglycans",
+  cardiomyocytes: "Linked to the basement membrane via specialised glycoproteins called integrins",
+  evidence_suggests_that_cardiomyocytes: { definition: "Slowly turned over during aging, but less than 50% of the cardiomyocytes present at birth are replaced during a normal life span", what_it_does: "", examples: "after a myocardial infarction" },
+  the_primary_function_of_both_muscle_types: "To contract, and in both cases, a contraction begins with a characteristic flow of ions across the cell membrane known as an action potential",
+  the_rest_phase: { definition: "Considered polarized", what_it_does: "", examples: "sodium, potassium, and calcium" },
+  the_flow_of_sodium_ions: "Rapid but very short-lived, while the flow of calcium is sustained and gives the plateau phase characteristic of cardiac muscle action potentials",
+  although_this_muscle_tissue: "Very similar between cardiac chambers, some differences exist",
+  the_myocardium_found_in_the_ventricles: "Thick to allow forceful contractions, while the myocardium in the atria is much thinner",
+  ventricular_cardiomyocytes: { definition: "Longer and wider, with a denser T-tubule network", what_it_does: "", examples: "alcohol, long standing high blood pressure or hypertension , or persistent abnormal heart racing" },
+  if_the_heart: "No longer able to pump enough blood to meet the body's needs, this is described as heart failure",
+
 };
 
 // ============================================================
