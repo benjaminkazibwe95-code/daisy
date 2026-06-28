@@ -37966,6 +37966,20 @@ const FLAT_DICT = {
   above: "A class definition for the Program class",
   console: { definition: "A static class in the System namespace", what_it_does: "usually takes 6–9 months", examples: "" },
 
+  // === INGESTED 2026-06-28 02:02 ===
+  most_visual_studio_editions: "Commercial ; the only exceptions are Visual Studio Express and Visual Studio Community , which are freeware",
+  visual_basic: "Often used in conjunction with the Windows Forms GUI library to make desktop apps for Windows",
+  the_windows_forms_library: { definition: "Most commonly used to create GUI interfaces in Visual Basic", what_it_does: "", examples: "location, size, color, font, text, as well as common events like click and drag/drop" },
+  a_tool: "Used to place controls (e.g., text boxes, buttons, etc.) on the form (window)",
+  default_values_are_provided_when_the_control: { definition: "Created, but may be changed in the Visual Studio IDE GUI or in code", what_it_does: "", examples: "based on user actions, or changes in the environment, providing a dynamic application" },
+  the_most_common_statement: "An expression statement, consisting of an expression to be evaluated, on a single line",
+  structured_programming: "Supported by several constructs including two conditional execution constructs ( If ",
+  the_most_important_feature: "Managed code , which contrasts with the classic Visual Basic",
+  improvements: { definition: "Also made to the performance and reliability of .NET IDE (particularly the background compiler ) and runtime", what_it_does: "", examples: "To bridge the gaps between itself and other" },
+  the_official_visual_basic_compiler: { definition: "Written in Visual Basic and is available on GitHub as a part of the .NET Compiler Platform", what_it_does: "", examples: "Windows Forms GUI library" },
+  monodevelop: "An open-source alternative IDE",
+  the_gambas_environment: "Also similar but distinct from Visual Basic, as is the Visual FB Editor for FreeBasic",
+
 };
 
 // ============================================================
