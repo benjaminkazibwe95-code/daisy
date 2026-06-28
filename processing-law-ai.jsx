@@ -38017,6 +38017,22 @@ const FLAT_DICT = {
   the_memory: { definition: "Used to store data and programs, while the interpreter is the component that executes the instructions included in programs", what_it_does: "", examples: "strings and integers" },
   when_certain_conditions: { definition: "Met, it is necessary to change the typical sequential execution of a program", what_it_does: "", examples: "operations to update the address of the next instruction to execute)" },
 
+  // === INGESTED 2026-06-28 02:11 ===
+  a_scripting_language_or_script_language: "A programming language that is used for scripting",
+  the_term_scripting_language: "Sometimes used in a wider sense, to refer to dynamic high-level programming languages in general",
+  a_script: "Usually not compiled , at least not its usual meaning",
+  a_few_lines_of_code_without_branching: "Probably considered a script",
+  a_language_that: { definition: "Primarily intended for scripting generally has limited capabilities compared to a general-purpose language", what_it_does: "", examples: "a class definition required by Java" },
+  languages_such_as_tcl_and_lua: { definition: "Specifically designed as general-purpose scripting languages that could be embedded in any application", what_it_does: "", examples: "JavaScript (a dialect of ECMAScript ) or XUL" },
+  scripting: "Often contrasted with system programming , as in Ousterhout's dichotomy or ' programming in the large and programming in the small '",
+  pipelines_and_shell_scripting: "Archetypal examples of glue languages, and Perl was initially developed to fill this same role",
+  but_if_a_substantial_amount_of_logic: { definition: "Written in script, it is better characterized as simply another software component, not 'glue'", what_it_does: "", examples: "implementations of Rexx, Perl, Tcl, Python, XSLT, Ruby, Modern Pascal, Delphi , and C)" },
+  sometimes_text_editors_and_edit_macros: { definition: "Used under the covers to provide other applications, e.g., FILELIST and RDRLIST in CMS", what_it_does: "", examples: "the Unix shell or the MS-DOS COMMAND.COM" },
+  such_languages: "Also called macros when control is through simulated key presses or mouse clicks, and tapping or pressing on a touch-activated screen",
+  some_gui_scripting_languages: { definition: "Based on recognizing graphical objects from their display screen pixels", what_it_does: "", examples: "Object REXX , can be used to write GUI scripts" },
+  languages_of_this_sort: { definition: "Designed for a single application; while they may superficially resemble a specific general-purpose language (e.g", what_it_does: "", examples: "the Adobe products Flash ( ActionScript ) and Acrobat (for scripting PDF files)" },
+  tcl: "Created as an extension language but has come to be used more often as a general-purpose language in roles similar to Python , Perl , and Ruby",
+
 };
 
 // ============================================================
