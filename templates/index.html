@@ -311,8 +311,9 @@
     /* ── SCROLL TO BOTTOM ── */
     #scroll-bottom-btn {
       position: absolute;
-      right: 20px;
-      bottom: 18px;
+      left: 50%;
+      bottom: 100%;
+      transform: translate(-50%, 10px);
       width: 38px; height: 38px;
       border-radius: 50%;
       border: 1px solid var(--border);
@@ -324,13 +325,12 @@
       box-shadow: 0 4px 14px rgba(0,0,0,0.3);
       z-index: 30;
       opacity: 0;
-      transform: translateY(6px);
       pointer-events: none;
       transition: opacity 0.22s ease, transform 0.22s ease;
     }
     #scroll-bottom-btn.show {
       opacity: 1;
-      transform: translateY(0);
+      transform: translate(-50%, 0);
       pointer-events: auto;
     }
     #scroll-bottom-btn svg { width: 17px; height: 17px; }
@@ -430,6 +430,7 @@
       padding: 12px 16px 20px;
       flex-shrink: 0;
       background: var(--black);
+      position: relative;
     }
 
     #input-row {
@@ -838,9 +839,6 @@
 
     <!-- CHAT AREA -->
     <div id="chat-area"></div>
-    <button id="scroll-bottom-btn" aria-label="Scroll to latest">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-    </button>
 
     <!-- QUICK STARTS -->
     <div id="quick-starts">
@@ -862,6 +860,9 @@
 
   <!-- INPUT BAR -->
   <div id="input-area">
+    <button id="scroll-bottom-btn" aria-label="Scroll to latest">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </button>
     <div id="input-row">
       <textarea id="question-input" rows="1" placeholder="Talk to Daisy..."></textarea>
       <button id="speaker-btn" title="Read aloud">
