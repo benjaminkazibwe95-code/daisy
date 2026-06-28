@@ -38727,6 +38727,21 @@ const FLAT_DICT = {
   nondeterministic_models: "Used in the study of computational complexity of algorithms",
   a_commonly_used_example: "The random-access machine , which has unit cost for read and write access to all of its memory cells",
 
+  // === INGESTED 2026-06-28 12:48 ===
+  the_earliest_western_protoempiricists: "The empiric school of ancient Greek medical practitioners, founded in 330 BCE",
+  it_is_known_that_he: "The essential pedagogical influence upon the young Galileo, his eldest son (cf",
+  primary_qualities: { definition: "Essential for the object in question to be what it is", what_it_does: "", examples: "an apple is an apple because of the arrangement of its atomic structure" },
+  if_an_apple: "Structured differently, it would cease to be an apple",
+  secondary_qualities: { definition: "The sensory information we can perceive from its primary qualities", what_it_does: "", examples: "'Locke divides all arguments into demonstrative and probable" },
+  but_to_be_convinced_that_this_explication: "More popular than philosophical, we need but reflect on two very obvious principles",
+  ideas: "Therefore the faint copies of sensations",
+  according_to_hume_these_beliefs: { definition: "To be accepted nonetheless because of their profound basis in instinct and custom", what_it_does: "", examples: "are a part" },
+  in_his_view_logical_and_mathematical_necessity: { definition: "Psychological; we are merely unable to conceive any other possibilities than those that logical and mathematical propositions assert", what_it_does: "", examples: "Mill, essentially left the question unanswered" },
+  but_it_came_to_be_realized_that_there: "No finite set of statements about actual and possible sense-data from which we can deduce even a single physical-object statement",
+  and_if_we: "To specify in sensory terms that the second doctor is a normal observer, we must refer to a third doctor, and so on (also see the third man )",
+  some_of_the_key_figures_in_this_movement: "Otto Neurath , Moritz Schlick and the rest of the Vienna Circle , along with A",
+  any_sentence_that: { definition: "Not purely logical, or is unverifiable, is devoid of meaning", what_it_does: "", examples: "' X at location Y and at time T observes such and such'" },
+
 };
 
 // ============================================================
