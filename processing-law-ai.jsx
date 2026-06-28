@@ -38990,6 +38990,18 @@ const FLAT_DICT = {
   the_main_field_of_interest: "Collective phenomena of many-body systems",
   the_specific_article: "Displayed for several weeks, and is part of a rotation with other articles, also deemed significant",
 
+  // === INGESTED 2026-06-28 20:39 ===
+  the_aim_of_recombination: "To transfer good characteristics from two different parents to one child",
+  the_list_of_operators_presented_below_is_by_no: "Complete and serves mainly as an exemplary illustration of this dyadic genetic operator type",
+  crossover_methods_for_bit_arrays: "Popular and an illustrative example of genetic recombination",
+  bits_to_the_right_of_that_point: "Swapped between the two parent chromosomes",
+  the_bits_in_between_the_two_points: "Swapped between the parent organisms",
+  twopoint_crossover: "Equivalent to performing two single-point crossovers with different crossover points",
+  the_underlying_set: "Usually a subset of N {\displaystyle \mathbb {N} } or N 0 {\displaystyle \mathbb {N} _{0}}",
+  an_example_of_the_constrained_task_type: { definition: "The scheduling of multiple workflows", what_it_does: "", examples: "a thread cannot be cut until the corresponding hole has been drilled in a workpiece" },
+  such_problems: "Also called restricted permutations",
+  the_pmx_operator: "Designed as a recombination operator for TSP like Problems",
+
 };
 
 // ============================================================
