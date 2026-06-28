@@ -39054,6 +39054,26 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 21:04 ===
   differentiable_programming: { definition: "A programming paradigm in which a numeric computer program can be differentiated throughout via automatic differentiation", what_it_does: "", examples: "protein structure prediction and drug discovery" },
 
+  // === INGESTED 2026-06-28 21:06 ===
+  it_states_that_if_g_is_a_function_that: { definition: "Differentiable at a point c (i.e", what_it_does: "", examples: "the quotient rule is a consequence of the chain rule and the product rule" },
+  the_derivative_of_the_reciprocal_function: "− 1 / x 2 {\displaystyle -1/x^{2}\!}",
+  the_derivative_of_x: { definition: "The constant function with value 1, and the derivative of f ( g ( x ) ) {\displaystyle f(g(x))} is determined by the chain rule", what_it_does: "", examples: "consider the function g ( x ) = e x" },
+  its_inverse: "F ( y ) = y 1/3 , which is not differentiable at zero",
+  this_is_not_surprising_because_f: "Not differentiable at zero",
+  then_the_previous_expression: "Equal to the product of two factors: lim x → a f ( g ( x ) ) − f ( g ( a ) ) g ( x ) − g ( a ) ⋅ g ( x ) − g ( a ) x − a",
+  the_two_factors: "Q ( g ( x )) and ( g ( x ) − g ( a )) / ( x − a )",
+  the_function_g_is_continuous_at_a_because_it: "Differentiable at a , and therefore Q ∘ g is continuous at a",
+  another_way_of_proving_the_chain_rule: "To measure the error in the linear approximation determined by the derivative",
+  the_role_of_q_in_the_first_proof: "Played by η in this proof",
+  these_two_derivatives: "Linear transformations R n → R m and R m → R k , respectively, so they can be composed",
+  the_matrix_corresponding_to_a_total_derivative: "Called a Jacobian matrix , and the composite of two derivatives corresponds to the product of their Jacobian matrices",
+  the_higherdimensional_chain_rule: "A generalization of the one-dimensional chain rule",
+  another_way_of_writing_the_chain_rule: "Used when f and g are expressed in terms of their components as y = f ( u ) = ( f 1 ( u ), …, f k ( u )) and u = g ( x ) = ( g 1 ( x ), …, g m ( x ))",
+  the_chain_rule: "Also valid for Fréchet derivatives in Banach spaces",
+  the_common_feature_of_these_examples: "That they are expressions of the idea that the derivative is part of a functor",
+  a_functor: "An operation on spaces and functions between them",
+  this_variant_of_the_chain_rule: "Not an example of a functor because the two functions being composed are of different types",
+
 };
 
 // ============================================================
