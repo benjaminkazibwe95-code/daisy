@@ -38041,6 +38041,17 @@ const FLAT_DICT = {
   the_name_of_the_different_species: "Inscribed on the back of each piece",
   the_early_volumes: { definition: "Condemned by the Faculty of Theology at the Sorbonne", what_it_does: "", examples: "continental drift" },
 
+  // === INGESTED 2026-06-28 02:17 ===
+  journals_with_higher_impactfactor_values: "Considered more prestigious or important within their field",
+  impact_factor: "A scientometric index calculated by Clarivate 's Web of Science",
+  isi: "Acquired by Thomson Scientific & Healthcare in 1992, [ 4 ] and became known as Thomson ISI",
+  impact_factors: { definition: "Sometimes used to evaluate not only the journals but the papers therein, thereby devaluing papers in certain subjects", what_it_does: "", examples: "case reports in medical journals) or by altering articles (e.g" },
+  wos: "Accessible to all registered users, who can independently verify the number of citable items for a given journal",
+  journals_that: "Indexed starting with a volume other than the first volume will not get an impact factor until they have been indexed for three years",
+  as_impact_factors: "A journal-level metric, rather than an article- or individual-level metric, this use is controversial",
+  as_a_result_of_negotiations_over_whether_items: "'citable', impact factor variations of more than 300% have been observed",
+  another_less_insidious_tactic_journals_employ: { definition: "To publish a large portion of its papers, or at least the papers expected to be highly cited, early in the calendar year", what_it_does: "", examples: "in 2007, the specialist journal Folia Phoniatrica et Logopaedica , with an impact factor of 0" },
+
 };
 
 // ============================================================
