@@ -37573,6 +37573,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 00:08 ===
   a_feedforward_neural_network: { definition: "An artificial neural network in which information flows in a single direction – inputs are multiplied by weights to obtain outputs (inputs-to-output)", what_it_does: "", examples: "the rectifier and softplus functions" },
 
+  // === INGESTED 2026-06-28 00:12 ===
+  nachrs: "Ionotropic receptors, meaning they serve as ligand -gated ion channels",
+  some_of_these_vesicles: "Gathered into groups of fifty, positioned at active zones close to the nerve membrane",
+  active_zones: "About 1 micrometer apart",
+  by_the_time_the_acetylcholine: "Released from the receptors the acetylcholinesterase has destroyed its bound ACh, which takes about ~0",
+  the_epp: "Accomplished when ACh binds the nicotinic acetylcholine receptors (nAChR) at the motor end plate, and causes an influx of sodium ions",
+  the_endplate_potential: "Thus responsible for setting up an action potential in the muscle fiber which triggers muscle contraction",
+  these_cysloop_receptors: "Found only in eukaryotes , but prokaryotes possess ACh receptors with similar properties",
+  in_mice_which: "Deficient for either agrin or MuSK, the neuromuscular junction does not form",
+  a_positive_voltage: "Applied to the tip of the micropipette, which caused a burst of positively charged ACh molecules to be released from the pipette",
+  the_farther_the_micropipette: { definition: "From the motor endplate, the smaller the depolarization was in the muscle fiber", what_it_does: "", examples: "green fluorescent protein (GFP) to the α-bungarotoxin, AChRs can be visualized and quantified" },
+  areflexia: "A condition in which tendon reflexes are reduced and it may subside temporarily after a period of exercise",
+  nmt: "Also believed to be of autoimmune origin due to its associations with autoimmune symptoms in the individual affected",
+
 };
 
 // ============================================================
