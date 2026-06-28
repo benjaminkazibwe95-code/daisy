@@ -38567,6 +38567,26 @@ const FLAT_DICT = {
   the_most_straightforward_approach: "To simply compute the average of word vectors, known as continuous bag-of-words (CBOW)",
   one_such_approach: "The vector of locally aggregated word embeddings (VLAWE), [ 10 ] which demonstrated performance improvements in downstream text classification tasks",
 
+  // === INGESTED 2026-06-28 12:08 ===
+  social_networks_and_the_analysis_of_them: "An inherently interdisciplinary academic field which emerged from social psychology , sociology , statistics , and graph theory",
+  these_approaches: "Mathematically formalized in the 1950s and theories and methods of social networks became pervasive in the social and behavioral sciences by the 1980s",
+  although_levels_of_analysis: { definition: "Not necessarily mutually exclusive , there are three general levels into which networks may fall: micro-level , meso-level , and macro-level", what_it_does: "", examples: "balance and transitivity , as well as social equality and tendencies toward reciprocity/mutuality" },
+  the_discord_in_a_rivalrous_love_triangle: "An example of an unbalanced triad, likely to change to a balanced triad by a change in one of the relations",
+  mesolevel_networks: { definition: "Low density and may exhibit causal processes distinct from interpersonal micro-level networks", what_it_does: "", examples: "the addition of autonomous agents to the groups" },
+  in_network_theory_a_scalefree_ideal_network: "A random network with a degree distribution that unravels the size distribution of social groups",
+  the_highestdegree_nodes: { definition: "Often called 'hubs', and may serve specific purposes in their networks, although this depends greatly on the social context", what_it_does: "", examples: "economic or other resource transfer interactions over a large population" },
+  the_most_prominent_of_these: "Graph theory , Balance theory , Social comparison theory, and more recently, the Social identity approach",
+  two_that_have: "Structural role theory and heterophily theory",
+  this_homophilic_tendency: "The reason for the members of the cliques to be attracted together in the first place",
+  nonredundant_information: { definition: "Most often obtained through contacts in different clusters", what_it_does: "", examples: "techniques of dynamic network analysis" },
+  the_study_of_social_networks: { definition: "Being used to examine the nature of interdependencies between actors and the ways in which these are related to outcomes of conflict and cooperation", what_it_does: "", examples: "murders can be seen as a series of exchanges between gangs" },
+  a_case_in_point: { definition: "The social diffusion of linguistic innovation such as neologisms", what_it_does: "", examples: "homeless people or intravenous drug users" },
+  social_capital: "Split into three dimensions: the structural, the relational and the cognitive dimension",
+  the_structural_dimension: "How partners interact with each other and which specific partners meet in a social network",
+  the_content_of_a_relation: "The resource that is exchanged",
+  the_goal_of_the_networks: "To study phenomena such as segregation or mobility within a country in large-scale",
+  a_large_subset_of_these: "Created based on registry data available within a country, such networks have been created for the Netherlands [ 91 ] , Denmark [ 92 ] and Sweden",
+
 };
 
 // ============================================================
