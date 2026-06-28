@@ -38763,6 +38763,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 13:00 ===
   computational_mathematics: { definition: "A field of study that focuses on the interaction of mathematical sciences , computer science , and algorithms", what_it_does: "", examples: "the four color theorem ), and the design and use of proof assistants" },
 
+  // === INGESTED 2026-06-28 13:02 ===
+  the_rhind_papyrus: { definition: "The larger, but younger, of the two", what_it_does: "", examples: "2 15 = 1 10 + 1 30 {\displaystyle {\frac {2}{15}}={\frac {1}{10}}+{\frac {1}{30}}}" },
+  the_quotients: "Expressed in terms of Horus eye fractions, sometimes also using a much smaller unit of volume known as a 'quadruple ro'",
+  the_final_six_problems: "Related to the slopes of pyramids",
+  the_third_part_of_the_rhind_papyrus: "Therefore a kind of miscellany, building on what has already been presented",
+  in_modern_notation_the_formula_given: "The technique given in 61B is closely related to the derivation of the 2/n table",
+  its_language: { definition: "Strongly suggestive of the more modern riddle and nursery rhyme ' As I was going to St Ives '", what_it_does: "", examples: "fowl and oxen" },
+  the_final_three_items_on_the_rhind_papyrus: "Designated as 'numbers' 85–87, as opposed to 'problems', and they are scattered widely across the papyrus's back side, or verso",
+  these_three_latter_items: "Written on disparate areas of the papyrus's verso (back side), far away from the mathematical content",
+
 };
 
 // ============================================================
