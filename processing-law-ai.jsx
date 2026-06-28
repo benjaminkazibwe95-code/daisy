@@ -38378,6 +38378,15 @@ const FLAT_DICT = {
   this_member: "Called the 'root' or root node",
   but_the_converse: "Not true: infinite tree structures may or may not have a root node",
 
+  // === INGESTED 2026-06-28 11:09 ===
+  the_most_that_can_be_done: "To identify basic actions and track characters",
+  since_tweety_is_an_instance_of_robin_and_robin: "A subset of bird , it follows that Tweety is an instance of bird",
+  since_tweety: "An instance of robin , which is a subset of bird and bird is marked with property canfly , it follows that Tweety and robin have property canfly",
+  simple_taxonomic_structures: { definition: "Frequently used in AI programs", what_it_does: "", examples: "a taxonomy, whose elements are meanings of English words" },
+  the_theory_of_qualitative_reasoning: { definition: "Applied in many spheres such as physics, biology, engineering, ecology, etc", what_it_does: "", examples: "the Winograd Schema Challenge" },
+  the_mathematically_grounded_approaches: "Purely theoretical and the result is a printed paper instead of a program",
+  informal_approaches: { definition: "Common in computer programming", what_it_does: "", examples: "ConceptNet , claims to generate commonsense inferences at a level approaching human benchmarks" },
+
 };
 
 // ============================================================
