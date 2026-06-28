@@ -38218,6 +38218,9 @@ const FLAT_DICT = {
   all_these_primary_plastids: { definition: "Surrounded by two membranes", what_it_does: "", examples: "the causative agents of malaria ( Plasmodium spp" },
   proplastids: "The precursor of the more differentiated forms of plastids, as shown in the diagram to the right",
 
+  // === INGESTED 2026-06-28 02:49 ===
+  diploblasty: { definition: "A condition of the early embryo in which there are two primary germ layers : the ectoderm and endoderm", what_it_does: "", examples: "sea sponges , have one germ layer and lack true tissue organization" },
+
 };
 
 // ============================================================
