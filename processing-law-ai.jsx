@@ -37904,6 +37904,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 01:40 ===
   in_the_former_it_typically: { definition: "Software and activities related to storing, retrieving, or acting on data housed in a database or other repository", what_it_does: "", examples: "each different database, file system , etc" },
 
+  // === INGESTED 2026-06-28 01:44 ===
+  many_relational_database_systems: "Equipped with the option of using SQL (Structured Query Language) for querying and updating the database",
+  rows: { definition: "Also called records or tuples", what_it_does: "", examples: "customer or product)" },
+  when_a_new_row: "Written to the table, a new unique value for the primary key is generated; this is the key that the system uses primarily for accessing the table",
+  often_several_columns: "Needed to form an AK (this is one reason why a single integer column is usually made the PK)",
+  the_primary_keys_within_a_database: "Used to define the relationships among the tables",
+  the_relational_database: "First defined in June 1970 by Edgar Codd , of IBM's San Jose Research Laboratory",
+  objects: "Typically physical objects or concepts",
+  all_the_data_referenced_by_an_attribute: { definition: "In the same domain and conform to the same constraints", what_it_does: "", examples: "select to identify tuples, project to identify attributes, and join to combine relations" },
+  because_a_tuple: "Unique, its attributes by definition constitute a superkey",
+  all_data: "Stored and accessed via relations",
+  relations_that_store_data: "Called 'base relations', and in implementations are called 'tables'",
+  in_implementations_these: "Called ' views ' or 'queries'",
+  derived_relations: "Convenient in that they act as a single relation, even though they may grab information from several relations",
+  a_domain: "The set of possible values for a given attribute, and can be considered a constraint on the value of the attribute",
+  another_example_of_domain: "The possible values for the field 'CoinFace' as ('Heads','Tails')",
+  a_composite_key: "A key made up of two or more attributes within a table that (together) uniquely identify a record",
+  frequently_they: "Used as an application programming interface (API) for security or simplicity",
+  stored_procedures: "Not part of the relational database model, but all commercial implementations include them",
+  an_index: "One way of providing quicker access to data",
+  indices: "Usually implemented via B+ trees , R-trees , and bitmaps",
+
 };
 
 // ============================================================
