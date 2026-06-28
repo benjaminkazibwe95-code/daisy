@@ -37612,6 +37612,12 @@ const FLAT_DICT = {
   projection_and_normalization: { definition: "Commonly used to improve the robustness of estimation algorithms", what_it_does: "", examples: "fuzzy and neural networks to bring forth new concepts such as fuzzy adaptive control" },
   lyapunov_stability: { definition: "Typically used to derive control adaptation laws and show", what_it_does: "", examples: "fault tolerant adaptive control" },
 
+  // === INGESTED 2026-06-28 00:28 ===
+  general_game_playing: "A project of the Stanford Logic Group of Stanford University , California, which aims to create a platform for general game playing",
+  these_games: "Described in terms of a start state, possible intermediary states, and a goal",
+  it_was_determined_that_it: "Most likely a two-player blocking game",
+  one_example_for_vgdl: "PyVGDL developed in 2013",
+
 };
 
 // ============================================================
