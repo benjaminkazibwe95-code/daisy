@@ -1264,7 +1264,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // call to the Anthropic API); this gets the same visual effect
   // without that infrastructure.
   async function typeIntoBody(body, fullText, div) {
-    const CHUNK = 3, DELAY_MS = 14;
+    // Bigger steps, less often: each tick does a full markdown parse +
+    // HTML sanitize pass. At the old pace (~70/sec) that's enough
+    // constant main-thread work to make a slower phone feel like it's
+    // ignoring touch input until typing finishes — not actually
+    // blocked, just too busy to respond smoothly. Fewer, larger steps
+    // cuts that work by roughly 3x while still reading as "typing."
+    const CHUNK = 10, DELAY_MS = 24;
     for (let i = 0; i <= fullText.length; i += CHUNK) {
       body.innerHTML = renderMarkdown(fullText.slice(0, i));
       maybeAutoScroll();
