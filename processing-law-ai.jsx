@@ -38805,6 +38805,16 @@ const FLAT_DICT = {
   the_calculation_of_volume: "A vital part of integral calculus",
   the_washer_or_disc_integration_method: "Used when integrating by an axis parallel to the axis of rotation",
 
+  // === INGESTED 2026-06-28 13:11 ===
+  the_subset_sum_problem: "One of Karp's 21 NP-complete problems",
+  one_early_application_of_knapsack_algorithms: "In the construction and scoring of tests in which the test-takers have a choice as to which questions they answer",
+  the_students: "Asked to answer all of the questions to the best of their abilities",
+  one_example_of_the_unbounded_knapsack_problem: { definition: "Given using the figure shown at the beginning of this article and the text 'if any number of each book is available' in the caption of that figure", what_it_does: "", examples: "the Merkle–Hellman knapsack cryptosystem" },
+  if_the_weights_and_profits: { definition: "Given as integers, it is weakly NP-complete , while it is strongly NP-complete if the weights and profits are given as rational numbers", what_it_does: "", examples: "the Turing machine )" },
+  this_restriction_then: "That an algorithm can find a solution in polynomial time that is correct within a factor of (1-ε) of the optimal solution",
+  the_knapsack_hamiltonian: "Constructed via embedding the constraint condition to the cost function of the problem with a penalty term",
+  multidimensional_knapsack: { definition: "Computationally harder than knapsack; even for D = 2 {\displaystyle D=2} , the problem does not have EPTAS unless P = {\displaystyle =} NP", what_it_does: "", examples: "when scheduling packets in a wireless network with relay nodes" },
+
 };
 
 // ============================================================
