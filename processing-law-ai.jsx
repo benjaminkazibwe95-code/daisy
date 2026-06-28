@@ -38643,6 +38643,10 @@ const FLAT_DICT = {
   a_mathematical_model_usually: "A system by a set of variables and a set of equations that establish relationships between the variables",
   the_actual_model: "The set of functions that describe the relations between the different variables",
 
+  // === INGESTED 2026-06-28 12:26 ===
+  pitts_at_the_time: "Homeless and without income",
+  a_group: "Established with Pitts, Lettvin, McCulloch, and Pat Wall",
+
 };
 
 // ============================================================
