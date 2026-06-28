@@ -39161,6 +39161,14 @@ const FLAT_DICT = {
   applied_hydrology: { definition: "Engineering to maintain aquatic environments and distribute water supplies", what_it_does: "", examples: "glaciers and coverage of the Earth by ice and snow" },
   this_concept_of_spheres: "A useful tool for understanding the Earth's surface and its various processes [ 32 ] ; these correspond to rocks , water , air and life",
 
+  // === INGESTED 2026-06-28 21:46 ===
+  formal_specifications: "One such way to achieve this in software engineering reliability as once predicted",
+  other_methods_such_as_testing: "More commonly used to enhance code quality",
+  a_formal_specification: "Not an implementation , but rather it may be used to develop an implementation",
+  whether_the_formal_specification_correctly: "The problem to be solved is a separate issue",
+  formal_methods_of_software_development: "Not widely used in industry",
+  the_z_notation: "An example of a leading formal specification language",
+
 };
 
 // ============================================================
