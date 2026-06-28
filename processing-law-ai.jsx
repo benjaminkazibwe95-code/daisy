@@ -38746,6 +38746,17 @@ const FLAT_DICT = {
   computational_linguistics: "Closely related to mathematical linguistics",
   while_computational_semantics: { definition: "A scientific field, it has many applications in real-world settings and substantially overlaps with Artificial Intelligence", what_it_does: "", examples: "those described in Chomsky normal form" },
 
+  // === INGESTED 2026-06-28 12:52 ===
+  a_contiguous_group_of_binary_digits: "Commonly called a bit string , a bit vector, or a single-dimensional (or multi-dimensional) bit array",
+  a_group_of_eight_bits: "Called one byte , but historically, the size of the byte is not strictly defined",
+  the_field_of_algorithmic_information_theory: "Devoted to the study of the irreducible information content of a string (i.e",
+  the_symbol_for_the_binary_digit: "Either 'bit', per the IEC 80000-13 :2008 standard, or the lowercase character 'b', per the IEEE 1541-2002 standard",
+  a_variant_of_that_idea: "The perforated paper tape",
+  the_encoding_of_text_by_bits: { definition: "Also used in Morse code (1844) and early digital communications machines such as teleprinters (1870)", what_it_does: "", examples: "metro tickets and some credit cards" },
+  bits: "Transmitted one at a time in serial transmission",
+  data_transfer_rates: { definition: "Usually measured in decimal SI multiples", what_it_does: "", examples: "a channel capacity may be specified as 8 kbit/s = 1 kB/s" },
+  file_sizes: { definition: "Often measured in (binary) IEC multiples of bytes, for example, 1 KiB = 1024 bytes = 8192 bits", what_it_does: "", examples: "1 TB = 10 12 {\displaystyle 10^{12}} bytes" },
+
 };
 
 // ============================================================
