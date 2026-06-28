@@ -37792,6 +37792,15 @@ const FLAT_DICT = {
   these_operations: "Particularly useful for tasks such as noise removal, shape smoothing, and object separation",
   this_ensures_that_unwanted_noise: "Removed without significantly altering the size or shape of larger objects",
 
+  // === INGESTED 2026-06-28 01:02 ===
+  bruteforce_search: "Also useful as a baseline method when benchmarking other algorithms or metaheuristics",
+  a_convenient_way_to_do_that: "To return a 'null candidate', some conventional data value Λ that is distinct from any real candidate",
+  the_bruteforce_method: "Then expressed by the algorithm For example, when looking for the divisors of an integer n , the instance data P is the number n",
+  if_n: "A random 64- bit natural number, which has about 19 decimal digits on the average, the search will take about 10 years",
+  this_unwelcome_phenomenon: { definition: "Commonly called the combinatorial explosion , or the curse of dimensionality", what_it_does: "", examples: "consider the problem of finding a 1 bit in a given 1000-bit string P" },
+  if_the_candidates: "Enumerated in increasing order, 1 to 1000, the number t of candidates examined before success will be about 6, on the average",
+  so_if_the_valid_solutions: "Likely to be 'clustered' in some sense, then each new candidate should be as far as possible from the previous ones, in that same sense",
+
 };
 
 // ============================================================
