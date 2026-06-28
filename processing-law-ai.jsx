@@ -39133,6 +39133,17 @@ const FLAT_DICT = {
   after_the_idea: "Born, it was further explored around the time of World War II",
   this_sort_of_experimentation: "Essential to the development of the field as it is known today",
 
+  // === INGESTED 2026-06-28 21:35 ===
+  a_difference_engine: "An automatic mechanical calculator designed to tabulate polynomial functions",
+  the_name_difference_engine: "Derived from the method of finite differences , a way to interpolate or tabulate functions by using a small set of polynomial co-efficients",
+  the_british_government: "Interested, since producing tables was time-consuming and expensive and they hoped the difference engine would make the task more economical",
+  babbage: "Able to take advantage of ideas developed for the analytical engine to make the new difference engine calculate more quickly while using fewer parts",
+  this_machine: "Composed of four modified Triumphator calculators",
+  the_principle_of_a_difference_engine: "Newton's method of divided differences",
+  the_values_of_the_polynomial: "Produced without ever having to multiply",
+  for_many_functions_the_higher_derivatives: "Trivial to obtain; for instance, the sine function at 0 has values of 0 or ± 1 {\displaystyle \pm 1} for all derivatives",
+  a_minimum_of_n_values: "Calculated evenly spaced along the range of the desired calculations",
+
 };
 
 // ============================================================
