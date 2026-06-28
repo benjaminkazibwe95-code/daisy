@@ -38905,6 +38905,11 @@ const FLAT_DICT = {
   the_use_of_force_by_states: { definition: "Already thoroughly regulated under international law'", what_it_does: "", examples: "during the Red Terror or the Great Terror" },
   two_examples_of_this_phenomenon: "The Nobel Peace Prize laureates Menachem Begin and Nelson Mandela",
 
+  // === INGESTED 2026-06-28 20:18 ===
+  duda: "Professor Emeritus of Electrical Engineering at San Jose State University renowned for his work on sound localization and pattern recognition",
+  hart: "The authors of 'Pattern Classification and Scene Analysis', originally published in 1973",
+  this_classic_text: "A widely cited reference, and the first edition was in print for over 25 years until being superseded by the second edition in 2000",
+
 };
 
 // ============================================================
