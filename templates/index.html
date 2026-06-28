@@ -223,6 +223,119 @@
       margin: 10px 0;
     }
     .md-body pre code { background: none; padding: 0; }
+
+    /* ── CODE BLOCKS (short snippets) ── */
+    .code-block {
+      margin: 10px 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .code-block-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px 6px 6px 12px;
+      background: rgba(255,255,255,0.03);
+      border-bottom: 1px solid var(--border);
+    }
+    .code-block-lang {
+      font-size: 11px;
+      color: var(--muted);
+      font-family: 'SF Mono', Consolas, monospace;
+      text-transform: lowercase;
+    }
+    .code-block-copy {
+      width: 28px; height: 28px;
+      border: none; background: none;
+      color: var(--muted);
+      border-radius: 7px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+    }
+    .code-block-copy svg { width: 13px; height: 13px; }
+    .code-block-copy:hover { background: var(--surface); color: var(--text); }
+    .code-block-copy.copied { color: var(--daisy); }
+    .code-block pre {
+      margin: 0; border: none; border-radius: 0;
+      background: var(--card);
+      padding: 12px 14px;
+      overflow-x: auto;
+    }
+    .code-block code {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 12.5px;
+      line-height: 1.55;
+      background: none;
+    }
+
+    /* ── FILE CARDS (complete, downloadable files) ── */
+    .file-card {
+      margin: 10px 0;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--card);
+    }
+    .file-card-head {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      padding: 13px 14px 10px;
+    }
+    .file-card-icon {
+      flex-shrink: 0;
+      width: 34px; height: 34px;
+      border-radius: 9px;
+      background: var(--surface);
+      color: var(--daisy);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .file-card-icon svg { width: 16px; height: 16px; }
+    .file-card-meta { flex: 1; min-width: 0; }
+    .file-card-name {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--text);
+      font-family: 'SF Mono', Consolas, monospace;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .file-card-sub { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+    .file-card-actions {
+      display: flex; gap: 8px;
+      padding: 0 14px 12px;
+    }
+    .file-card-btn {
+      flex: 1;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+      padding: 9px 10px;
+      border-radius: 9px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 12.5px;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+    }
+    .file-card-btn svg { width: 13px; height: 13px; }
+    .file-card-btn.primary { background: var(--daisy); color: #15110a; border-color: var(--daisy); }
+    .file-card-btn.copied { background: var(--daisy); color: #15110a; border-color: var(--daisy); }
+    .file-card-pre {
+      margin: 0;
+      border: none; border-radius: 0;
+      border-top: 1px solid var(--border);
+      background: rgba(0,0,0,0.15);
+      padding: 12px 14px;
+      max-height: 280px;
+      overflow: auto;
+    }
+    .file-card-pre code {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.5;
+      background: none;
+      white-space: pre;
+    }
     .md-body blockquote {
       border-left: 3px solid var(--daisy);
       padding-left: 12px;
@@ -1103,6 +1216,8 @@ document.addEventListener('DOMContentLoaded', function() {
     redo:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0115.5-6.4M21 12a9 9 0 01-15.5 6.4"/><path d="M3 5v5h5M21 19v-5h-5"/></svg>',
     edit:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4h2M4 20h4l10.5-10.5a2.1 2.1 0 00-3-3L5 17v3z"/></svg>',
     trash:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>',
+    file:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg>',
+    download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 21h16"/></svg>',
   };
 
   function escHtml(s) {
@@ -1117,8 +1232,118 @@ document.addEventListener('DOMContentLoaded', function() {
       return escHtml(text).replace(/\n/g, '<br>');
     }
     const html = marked.parse(text, { breaks: true });
-    return DOMPurify.sanitize(html);
+    // ADD_ATTR: the custom code-block/file-card buttons below carry
+    // data-action/data-code-id/data-filename — DOMPurify strips any
+    // attribute not on its default whitelist, so these need to be
+    // explicitly allowed or every copy/download button would silently
+    // lose its wiring on every render.
+    return DOMPurify.sanitize(html, { ADD_ATTR: ['data-action', 'data-code-id', 'data-filename'] });
   }
+
+  // ── CODE BLOCKS & FILE CARDS ──
+  // A short example gets a normal code block with a small copy button
+  // (the way Claude.ai / most chat UIs show inline code). A complete
+  // file meant to be saved gets a distinct card — icon, filename,
+  // copy + download — adapted from how Claude's Artifacts / ChatGPT's
+  // Canvas present generated files, just without a side panel: there's
+  // no room for a split view on a phone, so the "artifact" becomes an
+  // inline card instead of a separate pane.
+  //
+  // Daisy signals which is which through the fence's info string:
+  // a plain ```language is a snippet; ```language:filename.ext is a
+  // real file (see the MATH/FORMATTING rules in app.py's system prompt).
+  let _codeBlockSeq = 0;
+  const _codeBlockText = {}; // id -> raw code, kept outside the DOM so copy/download always get the exact original text, not whatever survived HTML rendering
+
+  const FILE_EXT_LABEL = {
+    html: 'HTML', css: 'CSS', js: 'JS', jsx: 'JSX', ts: 'TS', tsx: 'TSX',
+    py: 'PY', json: 'JSON', sql: 'SQL', sh: 'SH', md: 'MD', txt: 'TXT',
+    csv: 'CSV', xml: 'XML', svg: 'SVG', yml: 'YAML', yaml: 'YAML',
+  };
+
+  function escAttr(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function formatBytes(n) {
+    return n > 1024 ? (n / 1024).toFixed(1) + ' KB' : n + ' B';
+  }
+
+  function setupMarkedRenderer() {
+    if (typeof marked === 'undefined') return; // CDN didn't load — code still shows, just via the plain markdown fallback path
+    const renderer = new marked.Renderer();
+    renderer.code = function(code, infostring) {
+      const id = 'cb' + (_codeBlockSeq++);
+      _codeBlockText[id] = code;
+
+      let lang = (infostring || '').trim();
+      let filename = '';
+      if (lang.includes(':')) {
+        const idx = lang.indexOf(':');
+        filename = lang.slice(idx + 1).trim();
+        lang = lang.slice(0, idx).trim();
+      }
+      const isFile = !!filename && /\.[a-zA-Z0-9]+$/.test(filename);
+      const codeHtml = escHtml(code);
+
+      if (isFile) {
+        const ext = (filename.split('.').pop() || '').toLowerCase();
+        const badge = FILE_EXT_LABEL[ext] || ext.toUpperCase().slice(0, 4) || 'FILE';
+        const lines = code.split('\n').length;
+        return `<div class="file-card">
+          <div class="file-card-head">
+            <span class="file-card-icon">${ICONS.file}</span>
+            <div class="file-card-meta">
+              <div class="file-card-name">${escHtml(filename)}</div>
+              <div class="file-card-sub">${badge} · ${lines} line${lines === 1 ? '' : 's'} · ${formatBytes(code.length)}</div>
+            </div>
+          </div>
+          <div class="file-card-actions">
+            <button class="file-card-btn" data-action="copy" data-code-id="${id}">${ICONS.copy}<span>Copy</span></button>
+            <button class="file-card-btn primary" data-action="download" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.download}<span>Download</span></button>
+          </div>
+          <pre class="file-card-pre"><code>${codeHtml}</code></pre>
+        </div>`;
+      }
+
+      return `<div class="code-block">
+        <div class="code-block-head">
+          <span class="code-block-lang">${escHtml(lang || 'code')}</span>
+          <button class="code-block-copy" data-action="copy" data-code-id="${id}" title="Copy">${ICONS.copy}</button>
+        </div>
+        <pre><code>${codeHtml}</code></pre>
+      </div>`;
+    };
+    marked.use({ renderer });
+  }
+  setupMarkedRenderer();
+
+  // One delegated listener handles every code-block/file-card button,
+  // since they're created (and recreated, during the typing animation)
+  // dynamically — individual per-button listeners would need rewiring
+  // on every single re-render.
+  chatArea.addEventListener('click', async (e) => {
+    const btn = e.target.closest('[data-action]');
+    if (!btn) return;
+    const code = _codeBlockText[btn.dataset.codeId];
+    if (code === undefined) return;
+
+    if (btn.dataset.action === 'copy') {
+      try { await navigator.clipboard.writeText(code); flashAction(btn); } catch (err) {}
+    } else if (btn.dataset.action === 'download') {
+      const filename = btn.dataset.filename || 'daisy-file.txt';
+      const blob = new Blob([code], { type: 'text/plain;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 4000);
+      flashAction(btn);
+    }
+  });
 
   // Converts $$...$$ (standalone formulas) and \(...\) (inline math)
   // into real rendered notation via KaTeX. Deliberately NOT using
@@ -1377,7 +1602,18 @@ document.addEventListener('DOMContentLoaded', function() {
   // ── THINKING PANEL — shows real steps, ending on whichever "law"
   // actually answered (Daisy's source field), not a fake animation
   // disconnected from what really happened. ──
+  // Detects Daisy's own ```language:filename.ext convention in the
+  // final answer text, so the thinking panel can say what was actually
+  // built instead of a generic brain-routing label.
+  function detectFileInAnswer(answer) {
+    if (!answer) return null;
+    const m = answer.match(/```[a-zA-Z0-9_-]*:([^\n`]+\.[a-zA-Z0-9]+)\s*\n/);
+    return m ? m[1].trim() : null;
+  }
+
   function sourceToFinalStep(data) {
+    const file = detectFileInAnswer(data.answer);
+    if (file) return { label: `Built \`${file}\``, tag: 'file' };
     const src = data.source;
     const hasDraft = !!(data.raw_fact && String(data.raw_fact).trim());
     const map = {
@@ -1423,8 +1659,23 @@ document.addEventListener('DOMContentLoaded', function() {
   async function settleThinkingPanel(panel, data) {
     panel._cancel();
     const final = sourceToFinalStep(data);
-    panel._stepEl.style.opacity = '0';
-    await sleep(150);
+
+    if (final.tag === 'file') {
+      // Extra beat for files specifically — reads as a small build
+      // sequence rather than one label swap, closer to what you see
+      // when Claude or other AI tools generate a file.
+      panel._stepEl.style.opacity = '0';
+      await sleep(150);
+      panel._stepEl.textContent = 'Writing it out…';
+      panel._stepEl.style.opacity = '1';
+      await sleep(380);
+      panel._stepEl.style.opacity = '0';
+      await sleep(150);
+    } else {
+      panel._stepEl.style.opacity = '0';
+      await sleep(150);
+    }
+
     panel._stepEl.innerHTML = `${escHtml(final.label)}<span class="thinking-tag">${escHtml(final.tag)}</span>`;
     panel._stepEl.style.opacity = '1';
     await sleep(420);
