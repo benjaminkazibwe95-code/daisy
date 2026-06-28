@@ -38503,6 +38503,15 @@ const FLAT_DICT = {
   a_hypernym: "Superordinate to a hyponym, and a hyponym is subordinate to a hypernym",
   cartographic_generalization: "The process of selecting and representing information of a map in a way that adapts to the scale of the display medium of the map",
 
+  // === INGESTED 2026-06-28 11:51 ===
+  such_lasers: "Not electrically driven but optically driven and therefore still necessitate a further optical pump laser source",
+  photonics: { definition: "The science behind the detection, generation, and manipulation of photons", what_it_does: "", examples: "total internal reflection in an optical fibre allows it to act as a waveguide" },
+  the_different_material_systems: "Used because they each provide different advantages and limitations depending on the function to be integrated",
+  unlike_electronics_where_the_primary_device: { definition: "The transistor , there is no single dominant device", what_it_does: "", examples: "biomedical [ 7 ] and photonic computing are also possible" },
+  since_separating_optical_modes: "A need for quantum computing , this technology may be helpful to miniaturize quantum computers (see linear optical quantum computing )",
+  optical_sensors: { definition: "Also used in EFI's Optirip device, which offers greater tissue feeling for minimally invasive surgery", what_it_does: "", examples: "milk and plastics" },
+  the_platforms_considered_most_versatile: { definition: "Indium phosphide (InP) and silicon photonics (SiPh): The term 'silicon photonics' actually refers to the technology rather than the material", what_it_does: "", examples: "Broadcom are beginning commercialization" },
+
 };
 
 // ============================================================
