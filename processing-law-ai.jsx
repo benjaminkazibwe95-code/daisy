@@ -38248,6 +38248,21 @@ const FLAT_DICT = {
   one_of_the_most_common_ways_this_can_be_spread: { definition: "Human-to-canine, mouth-to-mouth contact", what_it_does: "", examples: "the PYR test for group A streptococcus" },
   natural_genetic_transformation: "The transfer of DNA from one bacterium to another through the surrounding medium",
 
+  // === INGESTED 2026-06-28 02:55 ===
+  cell_division_by_mitosis: "An equational division which gives rise to genetically identical cells in which the total number of chromosomes is maintained",
+  these_stages: "Preprophase (specific to plant cells), prophase , prometaphase , metaphase , anaphase , and telophase",
+  most_human_cells: "Produced by mitotic cell division",
+  the_genome: "Composed of a number of chromosomes—complexes of tightly coiled DNA that contain genetic information vital for proper cell function",
+  the_interphase: "Very important as it will determine if mitosis completes successfully",
+  interphase: "Divided into three subphases: G 1 (first gap) , S (synthesis) , and G 2 (second gap)",
+  the_two_chromatids: "Joined at the centromere",
+  the_centrosome: "The coordinating center for the cell's microtubules",
+  cytokinesis: "Not a phase of mitosis, but rather a separate process necessary for completing cell division",
+  the_phragmoplast: "A microtubule structure typical for higher plants, whereas some green algae use a phycoplast microtubule array during cytokinesis",
+  the_most_notable_occurrence_of_this: "Among the fungi , slime molds , and coenocytic algae, but the phenomenon is found in various other organisms",
+  the_lagging_chromatid: { definition: "Excluded from both nuclei and is lost", what_it_does: "", examples: "there is routinely a quantification of mitotic count in breast cancer classification" },
+  as_mitosis: "Less complex than meiosis , meiosis may have arisen after mitosis",
+
 };
 
 // ============================================================
