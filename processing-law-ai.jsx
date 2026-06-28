@@ -38822,6 +38822,24 @@ const FLAT_DICT = {
   the_fluent_calculus: { definition: "A formalism for expressing dynamical domains in first-order logic", what_it_does: "", examples: "that the box is on the table in the situation s {\displaystyle s} is represented by the formula ∃ t" },
   the_frame_problem: "Solved by asserting that the situation after the execution of an action is identical to the one before but for the conditions changed by the action",
 
+  // === INGESTED 2026-06-28 19:57 ===
+  the_earliest_usage_example_it_cites: { definition: "A 1909 article in The American Historical Review , [ 53 ] [ 54 ] although the phrase appeared in print several decades before", what_it_does: "", examples: "by falsely alleging that Lee Harvey Oswald worked for us" },
+  the_causes_of_events_or_situations: "Simplified to exclude complex or interacting factors, as well as the role of chance and unintended consequences",
+  nearly_all_observations: "Explained as having been deliberately planned by the alleged conspirators",
+  the_postulated_conspirators: "Not merely people with selfish agendas or differing values",
+  the_general_public: { definition: "Cast as the victim of organised persecution, and the motives of the alleged conspirators often verge on pure maniacal evil", what_it_does: "", examples: "in Eastern Europe, Southeast Asia, and the Middle East" },
+  rothbard: { definition: "This latter activity as a matter of confirming with certain facts one's initial paranoia", what_it_does: "", examples: "scholarly documents or mainstream media reports" },
+  any_minor_errors_in_the_response: { definition: "Heavily emphasized, while deficiencies in the arguments of other proponents are generally excused", what_it_does: "", examples: "Nazi Germany and the Soviet Union" },
+  these_interventions: { definition: "Most effective against conspiracy theories based on faulty reasoning and were successful even among groups prone to conspiracy beliefs", what_it_does: "", examples: "interventions that promote analytical thinking in the general public are likely to be effective" },
+  the_use_of_visual_aids: "Also an essential part of these strategies",
+  one_conclusion_from_this_finding: { definition: "That the content of a conspiracist belief is less important than the idea of a coverup by the authorities", what_it_does: "", examples: "pseudoscience and paranormal phenomena" },
+  these_motives: "Particularly acute in vulnerable and disadvantaged populations",
+  this_is_because_it: "A consolation to imagine that humans create difficulties in human affairs and remain within human control",
+  belief_in_the_power_of_a_cabal: { definition: "An implicit assertion of human dignity—an unconscious affirmation that man is responsible for his own destiny", what_it_does: "", examples: "power relations in social groups and the perceived existence of evil forces" },
+  a_fundamental_paradox_of_the_paranoid_style: { definition: "The imitation of the enemy", what_it_does: "", examples: "in the delight of anti-Masons with the cruelty of Masonic punishments'" },
+  resort_to_conspiracy_theory_because_it: { definition: "The ultimate refuge of the powerless", what_it_does: "", examples: "if Republican President George W" },
+  conspiracism: "An important phenomenon in understanding Turkish politics",
+
 };
 
 // ============================================================
