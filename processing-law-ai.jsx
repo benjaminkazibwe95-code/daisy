@@ -38435,6 +38435,12 @@ const FLAT_DICT = {
   the_aaai_conference_on_artificial_intelligence: "A leading international academic conference in artificial intelligence held annually",
   the_first_aaai: { definition: "Held in 1980 at Stanford University , Stanford California", what_it_does: "", examples: "NeurIPS and ICML , AAAI uses an artificial-intelligence algorithm to assign papers to reviewers" },
 
+  // === INGESTED 2026-06-28 11:28 ===
+  an_important_innovation_of_the_pac_framework: "The introduction of computational complexity theory concepts to machine learning",
+  the_other_example: "The problem of finding an interval that will correctly classify points within the interval as positive and the points outside of the range as negative",
+  a_concept: "A subset c ⊂ X {\displaystyle c\subset X}",
+  one_concept: "The set of all patterns of bits in X = { 0 , 1 } n {\displaystyle X=\{0,1\}^{n}} that encode a picture of the letter 'P'",
+
 };
 
 // ============================================================
