@@ -318,13 +318,21 @@
       border: 1px solid var(--border);
       background: var(--card);
       color: var(--text);
-      display: none;
+      display: flex;
       align-items: center; justify-content: center;
       cursor: pointer;
       box-shadow: 0 4px 14px rgba(0,0,0,0.3);
       z-index: 30;
+      opacity: 0;
+      transform: translateY(6px);
+      pointer-events: none;
+      transition: opacity 0.22s ease, transform 0.22s ease;
     }
-    #scroll-bottom-btn.show { display: flex; }
+    #scroll-bottom-btn.show {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
     #scroll-bottom-btn svg { width: 17px; height: 17px; }
 
     .thinking {
@@ -1129,7 +1137,8 @@ document.addEventListener('DOMContentLoaded', function() {
           { left: '\\[', right: '\\]', display: true },
           { left: '\\(', right: '\\)', display: false }
         ],
-        throwOnError: false
+        throwOnError: false,
+        errorColor: 'inherit'
       });
     } catch (e) {}
   }
@@ -1233,12 +1242,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-  function isNearBottom() {
-    return mainEl.scrollHeight - mainEl.scrollTop - mainEl.clientHeight < 150;
-  }
+  // Whether the view should keep following new content. A REAL user
+  // scroll gesture (wheel/touch-drag — see the listeners below) turns
+  // this off immediately, so the typewriter animation stops chasing
+  // them instead of re-asserting a smooth-scroll every ~14ms, which is
+  // what made it feel "impossible" to scroll up while Daisy was typing.
+  let stickToBottom = true;
 
-  function maybeAutoScroll(div) {
-    if (isNearBottom()) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  function maybeAutoScroll() {
+    // 'auto' (instant), not 'smooth' — smooth re-triggered every tick
+    // stacks/restarts its own animation and is what caused the fight
+    // in the first place.
+    if (stickToBottom) mainEl.scrollTo({ top: mainEl.scrollHeight, behavior: 'auto' });
   }
 
   // Typed reveal of an already-complete answer. This is a SIMULATED
@@ -1251,7 +1266,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const CHUNK = 3, DELAY_MS = 14;
     for (let i = 0; i <= fullText.length; i += CHUNK) {
       body.innerHTML = renderMarkdown(fullText.slice(0, i));
-      maybeAutoScroll(div);
+      maybeAutoScroll();
       await sleep(DELAY_MS);
     }
     body.innerHTML = renderMarkdown(fullText); // final clean pass
@@ -1415,6 +1430,7 @@ document.addEventListener('DOMContentLoaded', function() {
     inp.value = '';
     inp.style.height = 'auto';
     activateChat();
+    stickToBottom = true;
     addMsg(text, 'user');
     const panel = addThinkingPanel();
 
@@ -1445,11 +1461,21 @@ document.addEventListener('DOMContentLoaded', function() {
   // ── SCROLL TO BOTTOM ──
   const scrollBtn = document.getElementById('scroll-bottom-btn');
   const mainEl = document.getElementById('main');
+
+  // wheel / touchmove only ever fire from a real input device, never
+  // from our own mainEl.scrollTo(...) calls — so these are a clean,
+  // unambiguous signal that the person actually wants to look away,
+  // with no risk of our own auto-scroll re-triggering itself.
+  mainEl.addEventListener('wheel', () => { stickToBottom = false; }, { passive: true });
+  mainEl.addEventListener('touchmove', () => { stickToBottom = false; }, { passive: true });
+
   mainEl.addEventListener('scroll', () => {
     const fromBottom = mainEl.scrollHeight - mainEl.scrollTop - mainEl.clientHeight;
+    if (fromBottom < 60) stickToBottom = true; // they scrolled back to the bottom themselves
     scrollBtn.classList.toggle('show', chatActive && fromBottom > 200);
   });
   scrollBtn.addEventListener('click', () => {
+    stickToBottom = true;
     mainEl.scrollTo({ top: mainEl.scrollHeight, behavior: 'smooth' });
   });
 
@@ -1583,6 +1609,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const question = final.trim();
 
         activateChat();
+        stickToBottom = true;
         addMsg(question, 'user');
         const panel = addThinkingPanel();
         try {
