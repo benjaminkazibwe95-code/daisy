@@ -38089,6 +38089,30 @@ const FLAT_DICT = {
   one_way_to_due_this: "Through the technique Crispr/Cas9 , which was adapted from the genome immune defense that is naturally occurring in bacteria",
   one_common_technique: "DNA fingerprinting which is done using a combination of molecular genetic techniques like polymerase chain reaction (PCR) and gel electrophoresis",
 
+  // === INGESTED 2026-06-28 02:28 ===
+  the_topics_of_their_research: "Diverse, because this is an interdisciplinary network with professional alliances in the biological as well as social sciences",
+  wilderness: { definition: "Denigrated while agricultural development was praised", what_it_does: "", examples: "Darwin, believed in special creation and that all species were unchanged" },
+  a_series_of_national_forests_and_preserves: "Established by Theodore Roosevelt from 1901 to 1909",
+  a_local_organization: "Established in Birmingham , UK, a development followed in rapid succession in cities across the UK, then overseas",
+  considerable_research_effort: { definition: "Now directed at urban conservation biology", what_it_does: "", examples: "the Institute of Ecology and Environmental Management and the Society for the Environment" },
+  instead_an_ecosystem_approach: "Advocated by most mainstream conservationists, although concerns have been expressed by those working to protect some high-profile species",
+  to_keep_every_cog_and_wheel: "The first precaution of intelligent tinkering",
+  the_current_background_extinction_rate: "Estimated to be one species every few years",
+  the_sloss_debate: { definition: "Often considered in planning", what_it_does: "", examples: "microbes, plants, and animals)" },
+  the_society_for_conservation_biology: { definition: "A global community of conservation professionals dedicated to advancing the science and practice of conserving biodiversity", what_it_does: "", examples: "philosophy , law , economics , humanities , arts , anthropology , and education" },
+  ecological_monitoring: { definition: "The systematic collection of data relevant to the ecology of a species or habitat at repeating intervals with defined methods", what_it_does: "", examples: "genetic, population and ecosystem diversity" },
+  they_reason_it: { definition: "Better to understand the significance of the ecological roles of species", what_it_does: "", examples: "steppes , the Serengeti , the Arctic , or taiga" },
+  while_biodiversity_and_ecosystems: "Resilient, the danger of losing them is that humans cannot recreate many ecosystem functions through technological innovation",
+  indicator_species: "Monitored in an effort to capture environmental degradation through pollution or some other link to proximate human activities",
+  an_example_of_an_umbrella_species: "The monarch butterfly , because of its lengthy migrations and aesthetic value",
+  the_surviving_populations: { definition: "In continual decline in 43 percent of those that are threatened", what_it_does: "", examples: "the Hawaiian Crow and the Whooping Crane of Texas" },
+  the_oceans: "Threatened by acidification due to an increase in CO 2 levels",
+  the_greatest_bulk_of_biomass_on_land: "Found in plants, which is sustained by insect relations",
+  this_great_ecological_value_of_insects: "Countered by a society that often reacts negatively toward these aesthetically 'unpleasant' creatures",
+  this_sudden_demographic_loss_in_bee_numbers: "Placing a strain on the agricultural sector",
+  a_few_of_them: "Being eradicated as pests of humans or domestic animals; however, most of them are harmless",
+  parasites: { definition: "Intricately woven into ecosystems and food webs, thereby occupying valuable roles in ecosystem structure and function", what_it_does: "", examples: "wildlife trade )" },
+
 };
 
 // ============================================================
