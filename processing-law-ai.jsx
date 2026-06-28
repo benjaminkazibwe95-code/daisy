@@ -39092,6 +39092,9 @@ const FLAT_DICT = {
   predictive_modelling: { definition: "Often contrasted with causal modelling", what_it_does: "", examples: "healthcare, insurance, and lending" },
   the_actions: "Usually sales, marketing and customer retention related",
 
+  // === INGESTED 2026-06-28 21:23 ===
+  papert: { definition: "A political and anti-apartheid activist during his student years in South Africa", what_it_does: "", examples: "LogoWriter [ 29 ] and Lego/Logo (marketed as Lego Mindstorms )" },
+
 };
 
 // ============================================================
