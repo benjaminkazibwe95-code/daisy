@@ -37692,6 +37692,13 @@ const FLAT_DICT = {
   often_a_defense_in_depth_strategy: { definition: "Used for multiple barriers to attack", what_it_does: "", examples: "by downloading a software patch" },
   the_former_approach: { definition: "Praised for its transparency, but the drawback is that the risk of attack is likely to be increased after disclosure with no patch available", what_it_does: "", examples: "PCI , HIPAA , and Sarbanes-Oxley , that place legal requirements on vulnerability management" },
 
+  // === INGESTED 2026-06-28 00:45 ===
+  rather_than_trying_to_determine_if_a_machine: "Thinking, Turing suggests we should ask if the machine can win a game, called the ' Imitation Game '",
+  player_a: "A man, player B is a woman and player C (who plays the role of the interrogator) can be of either sex",
+  if_the_judge_cannot_consistently_tell_which: { definition: "Which, then the computer wins the game", what_it_does: "", examples: "John Searle 's Chinese room , are themselves controversial" },
+  the_problem_then: "Broken down into two parts, the programming of a child mind and its education process",
+  a_learning_process_that: { definition: "A method of reward and punishment must be in place that will select desirable patterns in the mind", what_it_does: "", examples: "playing chess could be a good place to start another method which he puts as '" },
+
 };
 
 // ============================================================
