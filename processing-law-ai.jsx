@@ -38974,6 +38974,17 @@ const FLAT_DICT = {
   critiques_from_outside_of_the_field: "Primarily from philosophers, on intellectual grounds, but also from funding agencies, especially during the two AI winters",
   limitations: "Discovered in using simple first-order logic to reason about dynamic domains",
 
+  // === INGESTED 2026-06-28 20:31 ===
+  this_choice: "Made by optimizing a sampling criterion, also called an acquisition function",
+  after_observations: "Collected, the prior is updated to form a posterior distribution over the objective function",
+  the_posterior_distribution: "Then used to construct the sampling criterion that determines the next query point",
+  sampling_criteria: "Defined from this predictive distribution, so the model provides both predicted objective values and uncertainty estimates",
+  gaussian_process_regression: { definition: "The standard probabilistic model in classical presentations of Bayesian optimization and remains common in applications", what_it_does: "", examples: "expected improvement, probability of improvement, and upper confidence bound criteria" },
+  batch_methods: { definition: "Useful when experiments, simulations, or machine-learning jobs can be executed concurrently", what_it_does: "", examples: "expected hypervolume improvement" },
+  it_is_usually_inexpensive_to_evaluate_and: { definition: "Optimized instead of the expensive objective function", what_it_does: "", examples: "Newton's method and quasi-Newton methods like the Broyden–Fletcher–Goldfarb–Shanno algorithm" },
+  stochastic_methods: { definition: "Also used for this auxiliary search, especially for multimodal or mixed-variable criteria", what_it_does: "", examples: "genetic algorithms and other evolutionary algorithms , as well as sequential Monte Carlo methods" },
+  gaussianprocess_sequential_design: { definition: "Also used in reliability analysis to estimate a probability of failure", what_it_does: "", examples: "upper confidence bounds and Thompson sampling appear in both settings" },
+
 };
 
 // ============================================================
