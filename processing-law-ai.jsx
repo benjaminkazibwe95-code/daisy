@@ -37564,6 +37564,12 @@ const FLAT_DICT = {
   gnns: "Used to develop recommender systems based on both social relations and item relations",
   edges: { definition: "Then formed by connecting each node to its nearest neighbors based on spatial or feature similarity", what_it_does: "", examples: "QM9, MD17, and the Materials Project" },
 
+  // === INGESTED 2026-06-28 00:03 ===
+  the_journal_of_medical_internet_research: "A peer-reviewed open-access medical journal established in 1999 covering eHealth and 'healthcare in the Internet age'",
+  the_editorsinchief: "Gunther Eysenbach and Rita Kukafka",
+  jmir_publications: "Also notable for being one of the fastest-growing companies in Canada in 2019",
+  the_novel_format: "Announced by JMIR Publications publisher Gunther Eysenbach in 2019 in the 20th anniversary special issue of the publisher",
+
 };
 
 // ============================================================
