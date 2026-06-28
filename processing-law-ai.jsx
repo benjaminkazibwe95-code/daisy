@@ -38546,6 +38546,20 @@ const FLAT_DICT = {
   the_continuity_equation: "Reduced to: ∂ x u x + ∂ y u y + ∂ z u z = 0",
   cylindrical_coordinates: { definition: "Chosen to take advantage of symmetry, so that a velocity component can disappear", what_it_does: "", examples: "factoring 1 r 2 {\textstyle {\frac {1}{r^{2}}}} from the viscous terms" },
 
+  // === INGESTED 2026-06-28 11:57 ===
+  shiftinvariant_classification: "That the classifier does not require explicit segmentation prior to classification",
+  the_input_to_the_network: "A continuous speech signal, preprocessed into a 2D array (a mel scale spectrogram )",
+  one_dimension: "Time at 10 ms per frame, and the other dimension is frequency",
+  the_second_layer_of_the_tdnn: "A 1D convolutional layer",
+  the_third_layer_of_the_tdnn: "Not a convolutional layer",
+  each_steps: { definition: "Computed in a batch over the entire training dataset, i.e", what_it_does: "", examples: "formant transitions, bursts, frication, etc" },
+  timeshift_invariance: "Achieved through weight sharing across time during training: Time shifted copies of the TDNN are made over the input range (from left to right in Fig",
+  since_such_timeshifted_networks: { definition: "Only copies, however, the position dependence is removed by weight sharing", what_it_does: "", examples: "formant transitions, bursts, etc" },
+  the_delays_or_context_windows: "Chosen specific to each application",
+  this_is_particularly_useful_as_sounds: "Smeared out through reverberation",
+  the_tdnn: "Shown to be effective to recognize speech robustly despite different levels of reverberation",
+  an_example_of_this_analysis: "A combination of vehicle detection and recognizing pedestrians",
+
 };
 
 // ============================================================
