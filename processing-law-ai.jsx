@@ -38818,6 +38818,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 15:54 ===
   the_asante_empire: { definition: "Established in present-day Ghana", what_it_does: "", examples: "Nkore and Rwanda" },
 
+  // === INGESTED 2026-06-28 19:55 ===
+  the_fluent_calculus: { definition: "A formalism for expressing dynamical domains in first-order logic", what_it_does: "", examples: "that the box is on the table in the situation s {\displaystyle s} is represented by the formula ∃ t" },
+  the_frame_problem: "Solved by asserting that the situation after the execution of an action is identical to the one before but for the conditions changed by the action",
+
 };
 
 // ============================================================
