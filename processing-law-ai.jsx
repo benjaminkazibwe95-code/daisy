@@ -38461,6 +38461,9 @@ const FLAT_DICT = {
   another_important_subclass_of_this_category: "The string searching algorithms , that search for patterns within strings",
   two_famous_examples: "The Boyer–Moore and Knuth–Morris–Pratt algorithms , and several algorithms based on the suffix tree data structure",
 
+  // === INGESTED 2026-06-28 11:34 ===
+  gensim: "Implemented in Python and Cython for performance",
+
 };
 
 // ============================================================
