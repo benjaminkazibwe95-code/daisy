@@ -38127,6 +38127,22 @@ const FLAT_DICT = {
   the_basis_for_this_difference: "A fundamental problem in biology",
   progeroid_syndromes: { definition: "Characterized by having features that resemble those of physiological aging such as hair loss and cardiovascular disease", what_it_does: "", examples: "a small face, thin lips, small chin, and protruding ears" },
 
+  // === INGESTED 2026-06-28 02:34 ===
+  the_fallopian_tubes: "Held in place by the mesosalpinx , a part of the broad ligament mesentery that wraps around the tubes",
+  the_intramural_part: "0.7 mm wide and 1 cm long",
+  the_isthmus: "1–5 mm wide, and 3 cm long",
+  the_ampulla: "The widest part of the tube with a maximal luminal diameter of 1 cm, and a length of 5 cm",
+  most_cells_here: "Ciliated epithelial cells",
+  an_oocyte: "Released from the ovary into the peritoneal cavity and the cilia of the fimbriae sweep it into the fallopian tube",
+  peg_cells: "Shorter, have surface microvilli , and are located between the other epithelial cells",
+  other_cells_found: "B lymphocytes , macrophages , NK cells , and dendritic cells",
+  when_an_oocyte: "Developing in an ovary, it is surrounded by a spherical collection of cells known as an ovarian follicle",
+  the_secondary_oocyte: "Caught by the fimbriated end of the fallopian tube and travels to the ampulla",
+  the_ampulla_is_typically_where_the_sperm: "Met and fertilization occurs; meiosis II is promptly completed",
+  tubal_obstruction: "A major cause of infertility but full testing of tubal functions is not possible",
+  as_tubal_disease: "Often related to Chlamydia infection , testing for Chlamydia antibodies has become a cost-effective screening device for tubal pathology",
+  to_remove_both_tubes: "A bilateral salpingectomy",
+
 };
 
 // ============================================================
