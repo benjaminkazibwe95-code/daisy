@@ -38722,6 +38722,11 @@ const FLAT_DICT = {
   this_stage_on_the_path_to_automatic_computing: { definition: "Built upon a concise and proven technology: that of electromagnetic relays", what_it_does: "", examples: "Babbage's—could be replaced with electromechanical components" },
   the_twin_hulls: { definition: "Intended to accommodate machinery and tanks, while the structure above them provided space for cargo, passengers and crew", what_it_does: "", examples: "Albert Einstein , Marie Curie , Gilbert Murray , and its first president, Henri Bergson" },
 
+  // === INGESTED 2026-06-28 12:45 ===
+  a_model_of_computation: "How units of computations, memories, and communications are organized",
+  nondeterministic_models: "Used in the study of computational complexity of algorithms",
+  a_commonly_used_example: "The random-access machine , which has unit cost for read and write access to all of its memory cells",
+
 };
 
 // ============================================================
