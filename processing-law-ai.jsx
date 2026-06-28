@@ -38840,6 +38840,26 @@ const FLAT_DICT = {
   resort_to_conspiracy_theory_because_it: { definition: "The ultimate refuge of the powerless", what_it_does: "", examples: "if Republican President George W" },
   conspiracism: "An important phenomenon in understanding Turkish politics",
 
+  // === INGESTED 2026-06-28 19:59 ===
+  the_situation_calculus: "Based on a sorted domain with three sorts: actions, situations, and objects, where the objects include everything that is not an action or a situation",
+  in_this_world_there: "A single robot and several inanimate objects",
+  the_world: "Laid out according to a grid so that locations can be specified in terms of ( x , y ) {\displaystyle (x,y)} coordinate points",
+  the_main_elements_of_the_situation_calculus: "The actions, fluents and the situations",
+  a_number_of_objects: "Also typically involved in the description of the world",
+  a_special_predicate_poss: "Used to indicate when an action is executable",
+  this_condition_makes_no_sense_if_situations: "States, as two different actions executed in two different states can result in the same state",
+  statements_whose_truth_value_may_change: "Modeled by relational fluents , predicates that take a situation as their final argument",
+  also_possible: { definition: "Functional fluents , functions that take a situation as their final argument and return a situation-dependent value", what_it_does: "", examples: "it is impossible to put down an object unless one is in fact carrying it" },
+  proving_consequences: "Supposedly simpler from this formula than from the original one",
+  golog: "A logic programming language based on the situation calculus",
+  this_is_also_different_from_the_approach_that: "Taken by the fluent calculus , where a state can be a collection of known facts, that is, a possibly incomplete description of the universe",
+  the_effects_of_actions: "Expressed by formulae relating fluents in situation s and fluents in situations result ( a , s ) {\displaystyle {\textit {result}}(a,s)}",
+  the_formula_says_that_if_the_door: "Not locked in a situation, then the door is open after executing the action of opening, this action being represented by the constant opens",
+  these_formulae: "Not sufficient to derive everything that is considered plausible",
+  the_initial_situation: { definition: "Not needed if situations are taken to be descriptions of the world", what_it_does: "", examples: "¬ l o c k e d ( d o o r , s ) {\displaystyle \neg locked(door,s)} )" },
+  that_the_door_is_open_after_the_change: "Reflected by formula o p e n ( d o o r , result ( o p e n s , s ) ) {\displaystyle open(door,{\textit {result}}(opens,s))} being entailed",
+  induction_axioms: "Also implicit, and are needed only to prove program properties",
+
 };
 
 // ============================================================
