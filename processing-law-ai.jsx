@@ -38431,6 +38431,10 @@ const FLAT_DICT = {
   dbns: "Developed by Paul Dagum in the early 1990s at Stanford University 's Section on Medical Informatics",
   dbn: "A generalization of hidden Markov models and Kalman filters",
 
+  // === INGESTED 2026-06-28 11:23 ===
+  the_aaai_conference_on_artificial_intelligence: "A leading international academic conference in artificial intelligence held annually",
+  the_first_aaai: { definition: "Held in 1980 at Stanford University , Stanford California", what_it_does: "", examples: "NeurIPS and ICML , AAAI uses an artificial-intelligence algorithm to assign papers to reviewers" },
+
 };
 
 // ============================================================
