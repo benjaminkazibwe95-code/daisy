@@ -39206,6 +39206,26 @@ const FLAT_DICT = {
   the_first_project_proposal: "Not approved (2005) and the second, modified proposal, was approved (2006)",
   texts_useful_to_others: "Hosted at Wikibooks for update and maintenance",
 
+  // === INGESTED 2026-06-28 22:03 ===
+  king: "A Baron , and was created Viscount Ockham and 1st Earl of Lovelace in 1838",
+  the_name_lovelace_was_chosen_because_ada: "Descended from the extinct Baron Lovelaces",
+  her_mother: "The only significant parental figure in her life",
+  when_ada: "Twelve years old, this future 'Lady Fairy', as Charles Babbage affectionately called her, decided she wanted to fly",
+  her_final_step: "To integrate steam with the 'art of flying'",
+  she_tried_to_elope_with_him_after_she: "Caught, but the tutor's relatives recognised her and contacted her mother",
+  this_first_impression: "Not to last, and they later became friends",
+  it_later_became_their_summer_retreat_and: "Further improved during this time",
+  when_it_became_clear_that_carpenter: { definition: "Trying to start an affair, Ada cut it off", what_it_does: "", examples: "the ' numbers of Bernoulli ' (that formed her celebrated algorithm for Babbage's Analytical Engine)" },
+  this_was_the_first_that_she_knew_he: "Leaving it unsigned, and she wrote back refusing to withdraw the paper",
+  part_of_the_terrace_at_worthy_manor: "Known as Philosopher's Walk; it was there that Lovelace and Babbage were reputed to have walked while discussing mathematical principles",
+  the_ada_initiative: "A non-profit organisation dedicated to increasing the involvement of women in the free culture and open source movements",
+  ada_lovelace_house: "A council-owned building in Kirkby-in-Ashfield , Nottinghamshire, near where Lovelace spent her infancy",
+  the_redevelopment: "Part of a complex with Imperial Chemical House",
+  the_sculpture: "Unveiled on International Women's Day, 2022",
+  lovelace_and_mary_shelley_as_teenagers: "The central characters in Jordan Stratford 's steampunk series, The Wollstonecraft Detective Agency",
+  the_brass_workings_of_the_machine: "Reminiscent of Babbage's analytical engine",
+  her_employment: "Described as keeping her occupied until she returns to her studies in advanced mathematics",
+
 };
 
 // ============================================================
