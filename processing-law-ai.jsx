@@ -38879,6 +38879,19 @@ const FLAT_DICT = {
   certain_behaviors: "Seen as rational, no matter what their source, and a system of rules derives from finding patterns in what is considered rational",
   our_rights_have_been_massively_violated_and_we: "Here to correct that injustice.' [ 56 ] The court described the debate as a 'morass of political invective, ad hominem attack, and policy argument'",
 
+  // === INGESTED 2026-06-28 20:08 ===
+  the_aec: { definition: "Dissolved, because it was perceived as unduly favoring the industry it was charged with regulating", what_it_does: "", examples: "deadlines for new reactor applications and continued operation of existing reactors" },
+  the_chairman: "The principal executive officer of the NRC, who exercise all of the executive and administrative functions of the commission",
+  hanson: "The chairman of the NRC",
+  the_whistleblower: { definition: "Fired and blacklisted", what_it_does: "", examples: "those executed by al-Qaeda on New York City and Washington, D.C" },
+  such_a_conclusion: "Scientifically indefensible given the experience of the Three Mile Island , Chernobyl , and Fukushima accidents",
+  this_gives_the_appearance_of_a_regulator_which: { definition: "Acting in a commercial capacity, 'raising concerns about a potential conflict of interest '", what_it_does: "", examples: "he supported the requirement that new plants be able to withstand an aircraft crash" },
+  it_also_shows_that_nrc_management: "Aware of some aspects of this risk for 15 years and yet it had done nothing to effectively address the problem",
+  some_flooding_events: "So serious that they could result in a 'severe' nuclear accident, up to, and including, a nuclear meltdown",
+  oconee: "Licensed to operate for another 20 years",
+  more_than_half_of_these_dams: { definition: "Roughly the size of the Jocassee dam", what_it_does: "", examples: "the potential for a nuclear meltdown" },
+  another_cisf_in_new_mexico: "Similarly being challenged in the United States Court of Appeals for the Tenth Circuit",
+
 };
 
 // ============================================================
