@@ -38792,6 +38792,19 @@ const FLAT_DICT = {
   a_blackbox_group: "A group with an oracle function, which must be used to perform the group operations (multiplication, inversion, and comparison with identity)",
   a_problem_is_bqp_complete_if_it: { definition: "In BQP and any problem in BQP can be reduced to it in polynomial time", what_it_does: "", examples: "a molecule's Hamiltonian" },
 
+  // === INGESTED 2026-06-28 13:09 ===
+  the_volume_of_a_container: { definition: "Generally understood to be the capacity of the container; i.e", what_it_does: "", examples: "bounding volume )" },
+  primitive_integration_of_shapes: "Also discovered independently by Liu Hui in the 3rd century CE, Zu Chongzhi in the 5th century CE, the Middle East and India",
+  the_water_volume_difference: { definition: "The volume of the object", what_it_does: "", examples: "the sester , amber , coomb , and seam" },
+  a_better_way_to_measure_volume: "To use roughly consistent and durable containers found in nature, such as gourds , sheep or pig stomachs , and bladders",
+  air_displacement_pipette: "Used in biology and biochemistry to measure volume of fluids at the microscopic scale",
+  the_largest_of_such_calibrated_containers: { definition: "Petroleum storage tanks , some can hold up to 1,000,000 bbl (160,000,000 L) of fluids", what_it_does: "", examples: "in a reservoir , the container's volume is modeled by shapes and calculated using mathematics" },
+  the_cubic_metre: { definition: "Also a SI derived unit", what_it_does: "", examples: "the prefix" },
+  the_conversion_between_the_prefix_units: "As follows: 1000 mm 3 = 1 cm 3 , 1000 cm 3 = 1 dm 3 , and 1000 dm 3 = 1 m 3",
+  customary_units_of_volume: "Also in use, including: Capacity is the maximum amount of material that a container can hold, measured in volume or weight",
+  the_calculation_of_volume: "A vital part of integral calculus",
+  the_washer_or_disc_integration_method: "Used when integrating by an axis parallel to the axis of rotation",
+
 };
 
 // ============================================================
