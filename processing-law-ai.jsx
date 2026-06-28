@@ -37669,6 +37669,24 @@ const FLAT_DICT = {
   // === INGESTED 2026-06-28 00:37 ===
   hollerith: "Buried at Oak Hill Cemetery in the Georgetown neighborhood of Washington, D.C",
 
+  // === INGESTED 2026-06-28 00:39 ===
+  as_paradigms: { definition: "Not mutually exclusive, a language can be multi-paradigm (i.e", what_it_does: "", examples: "data abstraction and modular programming were common points of discussion at this time" },
+  the_flavors_objectoriented_lisp: { definition: "Developed starting 1979, introducing multiple inheritance and mixins", what_it_does: "", examples: "the Intel iAPX 432 and the Linn Smart Rekursiv" },
+  objectivec: "Developed by Brad Cox , who had used Smalltalk at ITT Inc",
+  one_wellknown_example: "Apple's Cocoa framework, used on macOS and written in Objective-C",
+  many_programming_languages_that: "Initially developed before OOP was popular have been augmented with object-oriented features, including Ada , BASIC , Fortran , Pascal , and COBOL",
+  you_wanted_a_banana_but_what_you_got: "A gorilla holding the banana and the entire jungle",
+  an_object: "Created via the constructor",
+  other_classes: "Utility classes which contain only class variables and methods and are not meant to be instantiated or subclassed",
+  composition: { definition: "A 'has-a' relationships, like 'an employee has an address'", what_it_does: "", examples: "instead of inheriting from class Person, the Employee class could simply contain a Person object" },
+  delegation: "Another language feature that can be used as an alternative to inheritance",
+  this_presumes_the_program_semantics: "That objects from the subclass can always replace objects from the original class without problems",
+  behavioral_subtyping: { definition: "Undecidable in general, so it cannot be easily implemented by a compiler", what_it_does: "", examples: "other objects passed as parameters), it's called multiple dispatch" },
+  because_the_details_of_each_shape: { definition: "Handled inside their own classes, this makes the code simpler and more organized, enabling strong separation of concerns", what_it_does: "", examples: "itself, using this special word" },
+  design_patterns: "Common solutions to problems in software design",
+  some_design_patterns: { definition: "Especially useful for OOP, and design patterns are typically introduced in an OOP context", what_it_does: "", examples: "a graphics program may have objects such as circle , square , and menu" },
+  bob_martin_suggests_that_because_classes: "Software, their relationships don't match the real-world relationships they represent",
+
 };
 
 // ============================================================
