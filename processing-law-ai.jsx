@@ -37883,6 +37883,11 @@ const FLAT_DICT = {
   an_untyped_pointer: "Also provided under the name Pointer , which is compatible with other pointer types",
   working_with_raw_pointers: "Less common, generally for low-level systems programming",
 
+  // === INGESTED 2026-06-28 01:27 ===
+  the_concrete_representation_of_the_type: "Hidden from its users, and the visible implementation is incomplete",
+  a_data_type_whose_representation: { definition: "Visible is called transparent", what_it_does: "", examples: "Java , the only kind of opaque type provided is the opaque pointer" },
+  the_information_which: "Missing in the interface may be declared in its implementation , or in another 'friends-only' interface",
+
 };
 
 // ============================================================
