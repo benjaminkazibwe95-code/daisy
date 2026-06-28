@@ -37888,6 +37888,14 @@ const FLAT_DICT = {
   a_data_type_whose_representation: { definition: "Visible is called transparent", what_it_does: "", examples: "Java , the only kind of opaque type provided is the opaque pointer" },
   the_information_which: "Missing in the interface may be declared in its implementation , or in another 'friends-only' interface",
 
+  // === INGESTED 2026-06-28 01:29 ===
+  operations_on_such_types: { definition: "Usually quite efficient", what_it_does: "", examples: "it is faster using SIMD operations and data types to operate on an array of floats" },
+  although_only_one_bit: "Necessary to accommodate the value set true and false , programming languages typically implement Boolean types as one or more bytes",
+  the_basic_types_of_java: "Similar to that of C",
+  strings_with_a_length_of_one: "Normally used to represent single characters",
+  some_languages_have_character_types_that: "Too small to represent all Unicode characters",
+  char: "Also used for a 16-bit integer type in Java , but again this is not a Unicode character type",
+
 };
 
 // ============================================================
