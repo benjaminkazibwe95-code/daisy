@@ -39344,6 +39344,15 @@ const FLAT_DICT = {
   sometimes_the_c_language: { definition: "Considered as either high-level or low-level depending on one's perspective", what_it_does: "", examples: "auto-increment and pointer math" },
   java_is_compiled_to_bytecode_which: "Then executed by either interpreting in a Java virtual machine (JVM) or JIT compiled",
 
+  // === INGESTED 2026-06-28 22:34 ===
+  a_laboratory_site: "Constructed in Washington, DC , and instruments were acquired from the national physical laboratories of Europe",
+  quality_standards: { definition: "Developed for products including some types of clothing, automobile brake systems and headlamps, antifreeze , and electrical safety", what_it_does: "", examples: "electron microscopes and atomic force microscopes )" },
+  each_edition: "Developed through cooperation of the Committee on Specifications and Tolerances of the NCWM and the Weights and Measures Division (WMD) of NIST",
+  nist_has_been_publishing_various_forms_of_what: { definition: "Now the Handbook 44 since 1918 and began publication under the current name in 1949", what_it_does: "", examples: "30 recommendations for improving building and occupant safety—was released in October 2005" },
+  all_four: "Recognized for their work related to laser cooling of atoms, which is directly related to the development and advancement of the atomic clock",
+  john_werner_cahn: { definition: "Awarded the 2011 Kyoto Prize for Materials Science", what_it_does: "", examples: "one for a Chip-scale atomic clock , developed by a NIST team as part of a DARPA competition" },
+  nist: { definition: "Also required by statute to consult with the NSA", what_it_does: "", examples: "weights, measures and reference data" },
+
 };
 
 // ============================================================
