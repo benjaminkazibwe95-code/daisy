@@ -37733,6 +37733,23 @@ const FLAT_DICT = {
   if_the_problem: "NP {\displaystyle {\textsf {NP}}} -complete, the polynomial time hierarchy will collapse to its first level (i.e",
   many_known_complexity_classes: "Suspected to be unequal, but this has not been proved",
 
+  // === INGESTED 2026-06-28 00:51 ===
+  a_programming_paradigm: "A relatively high-level way to conceptualize and structure the implementation of a computer program",
+  some_paradigms: "About implications of the execution model , such as allowing side effects , or whether the sequence of operations is defined by the execution model",
+  other_paradigms_are_about_the_way_code: "Organized, such as grouping into units that include both state and behavior",
+  yet_others: { definition: "About syntax and grammar", what_it_does: "for describing and comparing programming practices and the languages used to code programs", examples: "Smalltalk supports object-oriented and Haskell supports functional" },
+  categorizing_the_resulting_code_by_paradigm: "Often an academic activity done in retrospect",
+  most_objectoriented_languages: "Also imperative languages",
+  many_programming_paradigms: "As well known for the techniques they forbid as for those they support",
+  classification_of_each_approach: "Either described at the time the approach was first developed, but often not until some time later, retrospectively",
+  as_it_is_the_most_prescriptive_way_to_code_it: "Classified as imperative",
+  assembly_is_classified_as_imperative_and: { definition: "Sometimes called the second-generation programming language", what_it_does: "vocabulary related to the problem being solved", examples: "READ/WRITE/GET/PUT" },
+  the_efficacy_and_efficiency_of_such_a_program: { definition: "Therefore highly dependent on the programmer's skill", what_it_does: "", examples: "Simula , Smalltalk , C++ , Eiffel , Python , PHP , Java , and C#" },
+  although_most_oop_languages: "Third-generation, it is possible to create an object-oriented assembler language",
+  a_declarative_programming_program: "What the problem is, not how to solve it",
+  an_archetype_of_a_declarative_language: "The fourth generation language SQL , and the family of functional languages and logic programming",
+  symbolic_programming_is_a_paradigm_that: { definition: "Programs able to manipulate formulas and program components as data", what_it_does: "", examples: "artificial intelligence , expert systems , natural-language processing and computer games" },
+
 };
 
 // ============================================================
