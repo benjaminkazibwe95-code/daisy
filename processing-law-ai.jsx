@@ -38985,6 +38985,11 @@ const FLAT_DICT = {
   stochastic_methods: { definition: "Also used for this auxiliary search, especially for multimodal or mixed-variable criteria", what_it_does: "", examples: "genetic algorithms and other evolutionary algorithms , as well as sequential Monte Carlo methods" },
   gaussianprocess_sequential_design: { definition: "Also used in reliability analysis to estimate a probability of failure", what_it_does: "", examples: "upper confidence bounds and Thompson sampling appear in both settings" },
 
+  // === INGESTED 2026-06-28 20:37 ===
+  physical_review_e: "A peer-reviewed , scientific journal , published monthly by the American Physical Society",
+  the_main_field_of_interest: "Collective phenomena of many-body systems",
+  the_specific_article: "Displayed for several weeks, and is part of a rotation with other articles, also deemed significant",
+
 };
 
 // ============================================================
