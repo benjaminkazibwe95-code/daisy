@@ -38113,6 +38113,20 @@ const FLAT_DICT = {
   a_few_of_them: "Being eradicated as pests of humans or domestic animals; however, most of them are harmless",
   parasites: { definition: "Intricately woven into ecosystems and food webs, thereby occupying valuable roles in ecosystem structure and function", what_it_does: "", examples: "wildlife trade )" },
 
+  // === INGESTED 2026-06-28 02:30 ===
+  fitness_in_this_context: "How likely an organism is to survive and reproduce",
+  it_is_based_on_the_environment_and: { definition: "Also relative to other individuals in the population", what_it_does: "", examples: "comes at the expense of the other" },
+  note_that_somatic_mutations: { definition: "Not heritable, they are only a source of developmental variation", what_it_does: "", examples: "antibiotics and new medical technology" },
+  because_selection: "More efficient on traits that appear early in life",
+  mutations_is_genetic_information_that: "Expressed among organisms via gene expression , which is the translation of genetic information into a phenotypic character",
+  antagonistic_pleiotropy: { definition: "Permanent unless a mutation that modifies the effects of the primary locus occurs", what_it_does: "", examples: "DNA, RNA, and proteins along with the deterioration of tissues and organs are the basis of aging" },
+  speciesspecific_rates_of_aging: "Due to deleterious changes which manifest after the reproductive phase",
+  apoptosis_or_programmed_cell_death: "Associated with gradual degradation of the immune system, skeletal muscle, and aging-associated malfunction",
+  telomerase: { definition: "A ribonucleotide protein that helps repair and replace degraded telomeres", what_it_does: "", examples: "caloric restriction, and may be responsible for lifespan in particular species" },
+  birds: { definition: "Warm-blooded and similar in size to many small mammals, yet often live 5–10 times as long", what_it_does: "", examples: "a zoo or nature reserve" },
+  the_basis_for_this_difference: "A fundamental problem in biology",
+  progeroid_syndromes: { definition: "Characterized by having features that resemble those of physiological aging such as hair loss and cardiovascular disease", what_it_does: "", examples: "a small face, thin lips, small chin, and protruding ears" },
+
 };
 
 // ============================================================
