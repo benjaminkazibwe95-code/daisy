@@ -38075,6 +38075,9 @@ const FLAT_DICT = {
   a_key_question: "Therefore whether and how enzymes can change their enzymatic activities alongside",
   enzymes_in_general: "Limited in the number of reactions they have evolved to catalyze and also by their lack of stability in organic solvents and at high temperatures",
 
+  // === INGESTED 2026-06-28 02:21 ===
+  even_then_he: "Never fully recognized for his discoveries",
+
 };
 
 // ============================================================
