@@ -37550,6 +37550,20 @@ const FLAT_DICT = {
   offthejob_training_method_also: "Employee training at a site away from the actual work environment",
   a_more_recent_development_in_job_training: { definition: "The On-the-Job Training Plan or OJT Plan", what_it_does: "", examples: "(for example) closeness to God or freedom from suffering" },
 
+  // === INGESTED 2026-06-28 00:01 ===
+  the_key_design_element_of_gnns: { definition: "The use of pairwise message passing , such that graph nodes iteratively update their representations by exchanging information with their neighbors", what_it_does: "", examples: "simplicial complexes can be designed" },
+  the_outputs_of_one_or_more_mpnn_layers: { definition: "Node representations h u {\displaystyle \mathbf {h} _{u}} for each node u ∈ V {\displaystyle u\in V} in the graph", what_it_does: "", examples: "node/graph classification or edge prediction" },
+  oversquashing_refers_to_the_bottleneck_that: "Created by squeezing long-range dependencies into fixed-size representations",
+  a_limitation_of_gcns: "That they do not allow multidimensional edge features e u v {\displaystyle \mathbf {e} _{uv}}",
+  attention_coefficients: "Then normalized via softmax to make them easily comparable across different nodes",
+  the_message_passing_framework: "Implemented as an update rule to a gated recurrent unit (GRU) cell",
+  the_same_gru_cell: "Used for updating representations for each node",
+  the_output: "A coarsened node-feature matrix X ′ {\displaystyle \mathbf {X} '} and a coarsened adjacency matrix A ′ {\displaystyle \mathbf {A} '}",
+  because_the_assignment_matrix: { definition: "Differentiable, DiffPool can be trained end-to-end together with the surrounding GNN layers", what_it_does: "", examples: "heterogeneous graphs , temporal graphs and hypergraphs" },
+  social_networks: "A major application domain for GNNs due to their natural representation as social graphs",
+  gnns: "Used to develop recommender systems based on both social relations and item relations",
+  edges: { definition: "Then formed by connecting each node to its nearest neighbors based on spatial or feature similarity", what_it_does: "", examples: "QM9, MD17, and the Materials Project" },
+
 };
 
 // ============================================================
