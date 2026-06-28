@@ -37852,6 +37852,37 @@ const FLAT_DICT = {
   propositions: "Typically stated and illustrated with one example, but not proven through inference",
   the_introduction_to_arithmetic_of_nicomachus: "A standard textbook in Neoplatonic schools, and commentaries on it were written by Iamblichus (3rd century) and John Philoponus (6th century)",
 
+  // === INGESTED 2026-06-28 01:25 ===
+  a_pointer: "A simple, more concrete implementation of the more abstract reference data type",
+  this_language: "Widely used on the Soviet computers",
+  pointers: "Declared by use of the dereference operator ^",
+  the_second_case: { definition: "Possible in the current implementation of AMD64 , where pointers are 64 bit long and addresses only extend to 48 bits", what_it_does: "", examples: "memory segmentation or paging is employed to use different parts of the memory at different times" },
+  if_a: "Accessed later, its new value will be 8",
+  assume_that_a: "Located at address 0x8130 in memory and ptr at 0x8134; also assume this is a 32-bit machine such that an int is 32-bits wide",
+  typical_examples_of_pointers: "Start pointers, end pointers, and stack pointers",
+  relative_addresses: { definition: "A form of manual memory segmentation , and share many of its advantages and disadvantages", what_it_does: "", examples: "the hexadecimal ASCII value of a character (e.g" },
+  such_blocks: "Used to store data objects or arrays of objects",
+  the_code_below_illustrates_how_memory_objects: "Dynamically deallocated, i.e., returned to the heap or free store",
+  assigning_addresses_to_pointers: { definition: "An invaluable tool when programming microcontrollers", what_it_does: "", examples: "floating-point numbers , eliminating some errors" },
+  when_a_pointer_of_one_type: "Cast to another type of a different size, the programmer should expect that pointer arithmetic will be calculated differently",
+  array_indexing: "Handled as a special case",
+  a_dangling_pointer: "A pointer that does not point to a valid object and consequently may make a program crash or behave oddly",
+  if_a_new_value: "Added to the beginning of the list, head has to be changed to point to the new element",
+  ada: "A strongly typed language where all pointers are typed and only safe type conversions are permitted",
+  all_pointers: "By default initialized to null , and any attempt to access data through a null pointer causes an exception to be raised",
+  pointers_in_ada: "Called access types",
+  the_types_of_all_of_these: { definition: "Integers, but their values are equivalent to those held by pointer types", what_it_does: "", examples: "FreeBASIC or BlitzMax , have exhaustive pointer implementations, however" },
+  in_c_pointers: { definition: "Variables that store addresses and can be null", what_it_does: "", examples: "a and 3[a] both access the fourth element of the array a" },
+  memory_space_for_each_pointedto_data_object: "Typically allocated dynamically using external CALL statements or via embedded extended language constructs such as EXEC CICS or EXEC SQL statements",
+  the_values_of_such_pointer_variables: "Established and modified using SET and SET ADDRESS statements",
+  the_declaration_syntax_for_a_pointer: "DECLARE xxx POINTER; , which declares a pointer named 'xxx'",
+  pointer_arithmetic: "Always performed in bytes",
+  the_d_programming_language: { definition: "A derivative of C and C++ which fully supports C pointers and C typecasting", what_it_does: "", examples: "to support arbitrary array sections), and other metadata" },
+  internally_they: "Pointers to mutable structures), and are initialized using the make function",
+  a_pointer_to_a_char: "Not compatible with a pointer to an integer)",
+  an_untyped_pointer: "Also provided under the name Pointer , which is compatible with other pointer types",
+  working_with_raw_pointers: "Less common, generally for low-level systems programming",
+
 };
 
 // ============================================================
