@@ -39127,6 +39127,12 @@ const FLAT_DICT = {
   the_corresponding_tool_in_statistics: "Called principal component analysis",
   the_field_of_optimization: { definition: "Further split in several subfields, depending on the form of the objective function and the constraint", what_it_does: "", examples: "FreeMat , Scilab , [ 34 ] [ 35 ] GNU Octave (similar to Matlab), and IT++ (a C++ library)" },
 
+  // === INGESTED 2026-06-28 21:33 ===
+  the_norm_for_scholars_in_management_science: "To focus their work in a certain area or subfield of management like public administration, finance , calculus , information and so forth",
+  drucker: "Quoted as having said that, 'the purpose of the corporation is to be economically efficient",
+  after_the_idea: "Born, it was further explored around the time of World War II",
+  this_sort_of_experimentation: "Essential to the development of the field as it is known today",
+
 };
 
 // ============================================================
