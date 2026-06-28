@@ -37605,6 +37605,13 @@ const FLAT_DICT = {
   some_researchers_suggest_that_the_analysis_gap: "The consequence of connectionist mechanisms giving rise to emergent phenomena that may be describable in computational terms",
   relational_networks_and_neural_turing_machines: { definition: "Further evidence that connectionism and computationalism need not be at odds", what_it_does: "", examples: "by Bechtel & Abrahamsen, [ 63 ] Marcus [ 64 ] and Maurer" },
 
+  // === INGESTED 2026-06-28 00:26 ===
+  adaptive_control: "The control method used by a controller which must adapt to a controlled system with parameters which vary, or are initially uncertain",
+  the_foundation_of_adaptive_control: "Parameter estimation , which is a branch of system identification",
+  both_of_these_methods_provide_update_laws_that: "Used to modify estimates in real-time (i.e., as the system operates)",
+  projection_and_normalization: { definition: "Commonly used to improve the robustness of estimation algorithms", what_it_does: "", examples: "fuzzy and neural networks to bring forth new concepts such as fuzzy adaptive control" },
+  lyapunov_stability: { definition: "Typically used to derive control adaptation laws and show", what_it_does: "", examples: "fault tolerant adaptive control" },
+
 };
 
 // ============================================================
