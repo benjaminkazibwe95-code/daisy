@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+  <!-- Syntax-highlighted code (real colors, not plain monospace text) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -161,7 +164,7 @@
       max-width: 88%;
       padding: 12px 16px;
       border-radius: 16px;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 1.6;
     }
     .msg.user {
@@ -187,18 +190,18 @@
     }
 
     /* ── RENDERED MARKDOWN (inside Daisy's messages) ── */
-    .md-body { font-size: 14px; line-height: 1.65; }
+    .md-body { font-size: 16px; line-height: 1.6; }
     .md-body h1, .md-body h2, .md-body h3 {
       font-family: 'Inter', sans-serif;
       font-weight: 600;
       line-height: 1.3;
-      margin: 14px 0 6px;
+      margin: 16px 0 7px;
       color: var(--text);
     }
     .md-body h1:first-child, .md-body h2:first-child, .md-body h3:first-child { margin-top: 0; }
-    .md-body h1 { font-size: 18px; }
-    .md-body h2 { font-size: 16px; }
-    .md-body h3 { font-size: 14.5px; color: var(--daisy); }
+    .md-body h1 { font-size: 21px; }
+    .md-body h2 { font-size: 18.5px; }
+    .md-body h3 { font-size: 16.5px; color: var(--daisy); }
     .md-body p { margin: 8px 0; }
     .md-body p:first-child { margin-top: 0; }
     .md-body p:last-child { margin-bottom: 0; }
@@ -211,7 +214,7 @@
       background: var(--card);
       border-radius: 4px;
       padding: 2px 5px;
-      font-size: 13px;
+      font-size: 14.5px;
       font-family: 'SF Mono', Consolas, monospace;
     }
     .md-body pre {
@@ -301,6 +304,31 @@
       overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     }
     .file-card-sub { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+
+    /* Preview / Code tabs — only present on renderable files (html, svg).
+       Preview is the default tab: someone who doesn't read code wants
+       to see the poster/page/logo itself, not markup. */
+    .file-card-tabs {
+      display: flex;
+      gap: 4px;
+      padding: 0 14px 10px;
+    }
+    .file-card-tab {
+      padding: 6px 13px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: none;
+      color: var(--muted);
+      font-size: 12px;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+    }
+    .file-card-tab.active {
+      background: var(--surface);
+      color: var(--text);
+      border-color: var(--text);
+    }
+
     .file-card-actions {
       display: flex; gap: 8px;
       padding: 0 14px 12px;
@@ -320,13 +348,21 @@
     .file-card-btn svg { width: 13px; height: 13px; }
     .file-card-btn.primary { background: var(--daisy); color: #15110a; border-color: var(--daisy); }
     .file-card-btn.copied { background: var(--daisy); color: #15110a; border-color: var(--daisy); }
+
+    .file-card-preview {
+      border: none;
+      border-top: 1px solid var(--border);
+      width: 100%;
+      height: 280px;
+      background: #fff; /* the previewed page sets its own colors; white avoids a dark flash before it loads */
+    }
     .file-card-pre {
       margin: 0;
       border: none; border-radius: 0;
       border-top: 1px solid var(--border);
       background: rgba(0,0,0,0.15);
       padding: 12px 14px;
-      max-height: 280px;
+      max-height: 320px;
       overflow: auto;
     }
     .file-card-pre code {
@@ -1218,6 +1254,7 @@ document.addEventListener('DOMContentLoaded', function() {
     trash:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>',
     file:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg>',
     download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 21h16"/></svg>',
+    print:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="4" y="9" width="16" height="8" rx="1"/><path d="M6 17v4h12v-4"/></svg>',
   };
 
   function escHtml(s) {
@@ -1237,7 +1274,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // attribute not on its default whitelist, so these need to be
     // explicitly allowed or every copy/download button would silently
     // lose its wiring on every render.
-    return DOMPurify.sanitize(html, { ADD_ATTR: ['data-action', 'data-code-id', 'data-filename'] });
+    return DOMPurify.sanitize(html, {
+      ADD_TAGS: ['iframe'],
+      ADD_ATTR: ['data-action', 'data-code-id', 'data-filename', 'sandbox', 'referrerpolicy'],
+    });
   }
 
   // ── CODE BLOCKS & FILE CARDS ──
@@ -1272,6 +1312,8 @@ document.addEventListener('DOMContentLoaded', function() {
   function setupMarkedRenderer() {
     if (typeof marked === 'undefined') return; // CDN didn't load — code still shows, just via the plain markdown fallback path
     const renderer = new marked.Renderer();
+    const RENDERABLE = new Set(['html', 'htm', 'svg']);
+
     renderer.code = function(code, infostring) {
       const id = 'cb' + (_codeBlockSeq++);
       _codeBlockText[id] = code;
@@ -1290,6 +1332,30 @@ document.addEventListener('DOMContentLoaded', function() {
         const ext = (filename.split('.').pop() || '').toLowerCase();
         const badge = FILE_EXT_LABEL[ext] || ext.toUpperCase().slice(0, 4) || 'FILE';
         const lines = code.split('\n').length;
+        const renderable = RENDERABLE.has(ext);
+
+        const tabs = renderable ? `
+          <div class="file-card-tabs">
+            <button class="file-card-tab active" data-action="show-preview" data-code-id="${id}">Preview</button>
+            <button class="file-card-tab" data-action="show-code" data-code-id="${id}">Code</button>
+          </div>` : '';
+
+        // The iframe starts empty on purpose — its content gets set via
+        // the .srcdoc PROPERTY in a JS pass after insertion (see
+        // renderFilePreviews), never written here as an HTML attribute.
+        // Generated pages can contain quotes, backticks, anything; trying
+        // to escape arbitrary code into one attribute string is exactly
+        // the kind of thing that breaks in some edge case later.
+        const previewBlock = renderable
+          ? `<iframe class="file-card-preview" data-code-id="${id}" sandbox="allow-scripts allow-modals" referrerpolicy="no-referrer"></iframe>`
+          : '';
+
+        const codeBlock = `<pre class="file-card-pre"${renderable ? ' style="display:none"' : ''}><code class="language-${escAttr(lang || ext)}">${codeHtml}</code></pre>`;
+
+        const printBtn = renderable
+          ? `<button class="file-card-btn" data-action="print" data-code-id="${id}">${ICONS.print}<span>Print</span></button>`
+          : '';
+
         return `<div class="file-card">
           <div class="file-card-head">
             <span class="file-card-icon">${ICONS.file}</span>
@@ -1298,11 +1364,14 @@ document.addEventListener('DOMContentLoaded', function() {
               <div class="file-card-sub">${badge} · ${lines} line${lines === 1 ? '' : 's'} · ${formatBytes(code.length)}</div>
             </div>
           </div>
+          ${tabs}
           <div class="file-card-actions">
             <button class="file-card-btn" data-action="copy" data-code-id="${id}">${ICONS.copy}<span>Copy</span></button>
+            ${printBtn}
             <button class="file-card-btn primary" data-action="download" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.download}<span>Download</span></button>
           </div>
-          <pre class="file-card-pre"><code>${codeHtml}</code></pre>
+          ${previewBlock}
+          ${codeBlock}
         </div>`;
       }
 
@@ -1311,7 +1380,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="code-block-lang">${escHtml(lang || 'code')}</span>
           <button class="code-block-copy" data-action="copy" data-code-id="${id}" title="Copy">${ICONS.copy}</button>
         </div>
-        <pre><code>${codeHtml}</code></pre>
+        <pre><code class="language-${escAttr(lang || 'plaintext')}">${codeHtml}</code></pre>
       </div>`;
     };
     marked.use({ renderer });
@@ -1342,6 +1411,22 @@ document.addEventListener('DOMContentLoaded', function() {
       a.remove();
       setTimeout(() => URL.revokeObjectURL(url), 4000);
       flashAction(btn);
+    } else if (btn.dataset.action === 'show-preview' || btn.dataset.action === 'show-code') {
+      const card = btn.closest('.file-card');
+      if (!card) return;
+      const wantPreview = btn.dataset.action === 'show-preview';
+      card.querySelectorAll('.file-card-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      const preview = card.querySelector('.file-card-preview');
+      const codeView = card.querySelector('.file-card-pre');
+      if (preview) preview.style.display = wantPreview ? '' : 'none';
+      if (codeView) codeView.style.display = wantPreview ? 'none' : '';
+    } else if (btn.dataset.action === 'print') {
+      const card = btn.closest('.file-card');
+      const frame = card ? card.querySelector('.file-card-preview') : null;
+      if (frame && frame.contentWindow) {
+        try { frame.contentWindow.focus(); frame.contentWindow.print(); } catch (err) {}
+      }
     }
   });
 
@@ -1367,6 +1452,53 @@ document.addEventListener('DOMContentLoaded', function() {
         errorColor: 'inherit'
       });
     } catch (e) {}
+  }
+
+  function highlightCodeIn(el) {
+    if (typeof hljs === 'undefined') return; // CDN didn't load — code still shows, just unhighlighted
+    el.querySelectorAll('pre code[class^="language-"]').forEach(block => {
+      try { hljs.highlightElement(block); } catch (e) {}
+    });
+  }
+
+  // Wraps a bare SVG (just the <svg>...</svg> markup, not a full HTML
+  // document) in a minimal page so it centers nicely in the preview
+  // iframe — an .html file's code is presumably already a complete
+  // document and gets used as-is.
+  function wrapForPreview(code, ext) {
+    if (ext === 'svg') {
+      return `<!DOCTYPE html><html><head><meta charset="utf-8"></head>
+        <body style="margin:0;display:flex;align-items:center;justify-content:center;min-height:100vh;background:#fff;">
+        ${code}</body></html>`;
+    }
+    return code;
+  }
+
+  function renderFilePreviewsIn(el) {
+    el.querySelectorAll('iframe.file-card-preview').forEach(frame => {
+      const id = frame.dataset.codeId;
+      const code = _codeBlockText[id];
+      if (code === undefined || frame.dataset.loaded) return;
+      const card = frame.closest('.file-card');
+      const filename = card ? card.querySelector('.file-card-name').textContent : '';
+      const ext = (filename.split('.').pop() || '').toLowerCase();
+      // .srcdoc is set as a JS PROPERTY, not written into the HTML
+      // string anywhere — generated code can contain quotes, backticks,
+      // anything, and trying to escape arbitrary content into an HTML
+      // attribute is exactly the kind of thing that breaks later.
+      frame.srcdoc = wrapForPreview(code, ext);
+      frame.dataset.loaded = '1';
+    });
+  }
+
+  // Single entry point for everything that only needs to run once on
+  // FINISHED content: math, syntax colors, and populating preview
+  // iframes. One helper instead of three separate calls so a future
+  // call site can't add math rendering and forget the other two.
+  function finalizeRenderedContent(el) {
+    renderMathIn(el);
+    highlightCodeIn(el);
+    renderFilePreviewsIn(el);
   }
 
   function flashAction(btn) {
@@ -1452,7 +1584,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const body = document.createElement('div');
       body.className = 'md-body';
       body.innerHTML = renderMarkdown(text);
-      renderMathIn(body);
+      finalizeRenderedContent(body);
       div.appendChild(label);
       div.appendChild(body);
       div.appendChild(buildActionToolbar(() => body.innerText, opts.question));
@@ -1502,7 +1634,7 @@ document.addEventListener('DOMContentLoaded', function() {
       await sleep(DELAY_MS);
     }
     body.innerHTML = renderMarkdown(fullText); // final clean pass
-    renderMathIn(body);
+    finalizeRenderedContent(body);
   }
 
   async function addMsgTyped(text, opts) {
