@@ -369,6 +369,31 @@
       background: #fff;
     }
 
+    /* ── FULLSCREEN CODE MODAL ── */
+    .code-modal-head {
+      padding: 14px 14px 14px 60px;
+      color: #ccc;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      border-bottom: 1px solid #2a2a2a;
+      flex: 0 0 auto;
+    }
+    .code-modal-pre {
+      flex: 1;
+      margin: 0;
+      padding: 16px 20px 40px;
+      overflow: auto;
+      background: #0d0d0d;
+    }
+    .code-modal-pre code {
+      color: #e8e8e8;
+      font-family: 'JetBrains Mono', 'Menlo', monospace;
+      font-size: 13px;
+      line-height: 1.55;
+      white-space: pre;
+    }
+
+
     .file-card-actions {
       display: flex; gap: 8px;
       padding: 0 14px 12px;
@@ -1490,15 +1515,23 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     } else if (btn.dataset.action === 'expand') {
       const card = btn.closest('.file-card');
-      const frame = card ? card.querySelector('.file-card-preview') : null;
-      if (frame && frame.srcdoc) {
-        openPreviewModal(frame.srcdoc);
+      const codeTab = card ? card.querySelector('.file-card-tab[data-action="show-code"]') : null;
+      const codeIsActive = codeTab && codeTab.classList.contains('active');
+      const filename = card.querySelector('.file-card-name').textContent;
+      const ext = (filename.split('.').pop() || '').toLowerCase();
+
+      if (codeIsActive) {
+        // Code tab is active — open a fullscreen CODE view, not the preview.
+        openCodeModal(code, ext, filename);
       } else {
-        // Inline preview hasn't populated yet — derive it directly
-        // instead of opening the modal blank.
-        const filename = card.querySelector('.file-card-name').textContent;
-        const ext = (filename.split('.').pop() || '').toLowerCase();
-        openPreviewModal(wrapForPreview(code, ext));
+        const frame = card ? card.querySelector('.file-card-preview') : null;
+        if (frame && frame.srcdoc) {
+          openPreviewModal(frame.srcdoc);
+        } else {
+          // Inline preview hasn't populated yet — derive it directly
+          // instead of opening the modal blank.
+          openPreviewModal(wrapForPreview(code, ext));
+        }
       }
     }
   });
@@ -1517,6 +1550,31 @@ document.addEventListener('DOMContentLoaded', function() {
     previewModalFrame.srcdoc = ''; // stop anything still running inside (audio, timers, etc.) once closed
   }
   previewModalClose.addEventListener('click', closePreviewModal);
+
+  // ── FULLSCREEN CODE MODAL (separate from preview modal) ──
+  function openCodeModal(code, ext, filename) {
+    let modal = document.getElementById('code-modal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'code-modal';
+      modal.className = 'preview-modal';
+      modal.innerHTML = `
+        <button class="preview-modal-close" id="code-modal-close" aria-label="Close">${ICONS.close}</button>
+        <div class="code-modal-head" id="code-modal-filename"></div>
+        <pre class="code-modal-pre"><code id="code-modal-body"></code></pre>`;
+      document.body.appendChild(modal);
+      modal.querySelector('#code-modal-close').addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    }
+    modal.querySelector('#code-modal-filename').textContent = filename || '';
+    const bodyEl = modal.querySelector('#code-modal-body');
+    bodyEl.className = 'language-' + (ext || 'plaintext');
+    bodyEl.textContent = code;
+    if (window.hljs) { try { hljs.highlightElement(bodyEl); } catch (err) {} }
+    modal.style.display = 'flex';
+  }
+
 
   // Converts $$...$$ (standalone formulas) and \(...\) (inline math)
   // into real rendered notation via KaTeX. Deliberately NOT using
