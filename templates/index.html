@@ -1320,7 +1320,15 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typeof marked === 'undefined' || typeof DOMPurify === 'undefined') {
       return escHtml(text).replace(/\n/g, '<br>');
     }
-    const html = marked.parse(text, { breaks: true });
+    // A code fence only renders as a real code block if ``` starts its
+    // own line — that's a CommonMark rule, not a bug in this app. If
+    // the model writes "...built to move. ```html:file.html" mid-
+    // sentence, marked correctly leaves it as literal text (which is
+    // what showed up as raw backticks in the screenshot). Force a line
+    // break before any ``` that isn't already at the start of a line,
+    // so it gets a fair chance to be parsed as a fence either way.
+    const normalized = text.replace(/([^\n])(```)/g, '$1\n\n$2');
+    const html = marked.parse(normalized, { breaks: true });
     // ADD_ATTR: the custom code-block/file-card buttons below carry
     // data-action/data-code-id/data-filename — DOMPurify strips any
     // attribute not on its default whitelist, so these need to be
@@ -1701,6 +1709,26 @@ document.addEventListener('DOMContentLoaded', function() {
   // call to the Anthropic API); this gets the same visual effect
   // without that infrastructure.
   async function typeIntoBody(body, fullText, div) {
+    // Skip the per-character animation for anything containing a code
+    // block, or for long replies in general. Each tick re-parses the
+    // ENTIRE text from scratch — for a multi-thousand-character file,
+    // that's hundreds of full markdown parses over the course of one
+    // message, each bigger than the last (cost grows with the square
+    // of the length). That's what caused the multi-second freeze and
+    // "can't scroll" complaint — not the typing animation looking
+    // slow, but the browser's main thread genuinely busy doing that
+    // repeated work. Nobody actually wants to watch raw HTML/CSS type
+    // out letter by letter anyway, so this renders code/long content
+    // once, complete, while keeping the animation for normal-length
+    // conversational replies where the cost is negligible.
+    const hasCode = fullText.includes('```');
+    if (hasCode || fullText.length > 1200) {
+      body.innerHTML = renderMarkdown(fullText);
+      finalizeRenderedContent(body);
+      maybeAutoScroll();
+      return;
+    }
+
     // Bigger steps, less often: each tick does a full markdown parse +
     // HTML sanitize pass. At the old pace (~70/sec) that's enough
     // constant main-thread work to make a slower phone feel like it's
