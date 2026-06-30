@@ -310,6 +310,7 @@
        to see the poster/page/logo itself, not markup. */
     .file-card-tabs {
       display: flex;
+      align-items: center;
       gap: 4px;
       padding: 0 14px 10px;
     }
@@ -328,15 +329,58 @@
       color: var(--text);
       border-color: var(--text);
     }
+    .file-card-expand {
+      margin-left: auto;
+      width: 28px; height: 28px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: none;
+      color: var(--muted);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+    }
+    .file-card-expand svg { width: 13px; height: 13px; }
+
+    /* ── FULLSCREEN PREVIEW ── */
+    .preview-modal {
+      position: fixed; inset: 0;
+      z-index: 200;
+      background: #000;
+      display: flex;
+      flex-direction: column;
+    }
+    .preview-modal-close {
+      position: absolute;
+      top: 14px; left: 14px;
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(40,40,40,0.85);
+      color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .preview-modal-close svg { width: 17px; height: 17px; }
+    .preview-modal-frame {
+      flex: 1;
+      width: 100%;
+      border: none;
+      background: #fff;
+    }
 
     .file-card-actions {
       display: flex; gap: 8px;
       padding: 0 14px 12px;
+      overflow-x: auto;
+      scrollbar-width: none;
     }
+    .file-card-actions::-webkit-scrollbar { display: none; }
     .file-card-btn {
-      flex: 1;
+      flex: 0 0 auto;
       display: flex; align-items: center; justify-content: center; gap: 6px;
-      padding: 9px 10px;
+      padding: 9px 14px;
+      white-space: nowrap;
       border-radius: 9px;
       border: 1px solid var(--border);
       background: var(--surface);
@@ -1046,6 +1090,12 @@
 <div id="msg-menu-overlay" class="msg-menu-overlay"></div>
 <div id="msg-menu" class="msg-menu" style="display:none;"></div>
 
+<!-- FULLSCREEN PREVIEW (expanded file preview) -->
+<div id="preview-modal" class="preview-modal" style="display:none;">
+  <button id="preview-modal-close" class="preview-modal-close" aria-label="Close"></button>
+  <iframe id="preview-modal-frame" class="preview-modal-frame" sandbox="allow-scripts allow-modals" referrerpolicy="no-referrer"></iframe>
+</div>
+
 <!-- DRAWER -->
 <div id="drawer-overlay"></div>
 <div id="drawer">
@@ -1255,6 +1305,8 @@ document.addEventListener('DOMContentLoaded', function() {
     file:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg>',
     download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 21h16"/></svg>',
     print:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="4" y="9" width="16" height="8" rx="1"/><path d="M6 17v4h12v-4"/></svg>',
+    expand:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 00-2 2v4M15 3h4a2 2 0 012 2v4M9 21H5a2 2 0 01-2-2v-4M15 21h4a2 2 0 002-2v-4"/></svg>',
+    close:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>',
   };
 
   function escHtml(s) {
@@ -1338,6 +1390,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="file-card-tabs">
             <button class="file-card-tab active" data-action="show-preview" data-code-id="${id}">Preview</button>
             <button class="file-card-tab" data-action="show-code" data-code-id="${id}">Code</button>
+            <button class="file-card-expand" data-action="expand" data-code-id="${id}" title="Open full view">${ICONS.expand}</button>
           </div>` : '';
 
         // The iframe starts empty on purpose — its content gets set via
@@ -1427,8 +1480,35 @@ document.addEventListener('DOMContentLoaded', function() {
       if (frame && frame.contentWindow) {
         try { frame.contentWindow.focus(); frame.contentWindow.print(); } catch (err) {}
       }
+    } else if (btn.dataset.action === 'expand') {
+      const card = btn.closest('.file-card');
+      const frame = card ? card.querySelector('.file-card-preview') : null;
+      if (frame && frame.srcdoc) {
+        openPreviewModal(frame.srcdoc);
+      } else {
+        // Inline preview hasn't populated yet — derive it directly
+        // instead of opening the modal blank.
+        const filename = card.querySelector('.file-card-name').textContent;
+        const ext = (filename.split('.').pop() || '').toLowerCase();
+        openPreviewModal(wrapForPreview(code, ext));
+      }
     }
   });
+
+  const previewModal      = document.getElementById('preview-modal');
+  const previewModalFrame = document.getElementById('preview-modal-frame');
+  const previewModalClose = document.getElementById('preview-modal-close');
+  previewModalClose.innerHTML = ICONS.close;
+
+  function openPreviewModal(srcdoc) {
+    previewModalFrame.srcdoc = srcdoc;
+    previewModal.style.display = 'flex';
+  }
+  function closePreviewModal() {
+    previewModal.style.display = 'none';
+    previewModalFrame.srcdoc = ''; // stop anything still running inside (audio, timers, etc.) once closed
+  }
+  previewModalClose.addEventListener('click', closePreviewModal);
 
   // Converts $$...$$ (standalone formulas) and \(...\) (inline math)
   // into real rendered notation via KaTeX. Deliberately NOT using
