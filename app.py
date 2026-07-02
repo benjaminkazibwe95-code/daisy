@@ -9,6 +9,10 @@ import re
 import json
 import threading
 import time
+import sqlite3
+import uuid
+import string
+import secrets
 from datetime import datetime
 from flask import Flask, request, jsonify, render_template
 import py_mini_racer
@@ -263,13 +267,19 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
-def speak_naturally(question, raw_fact):
+def speak_naturally(question, raw_fact, custom_instructions=None):
     """
     Pass Daisy's drafted reply (whatever produced it — dictionary,
     synthesis, personality fragment, math, emotion, or nothing at all)
     through Claude, using DAISY_SYSTEM_PROMPT as the persona/rules.
     Claude checks the draft against the actual question and rewrites
     it if it doesn't fit, instead of just polishing wording.
+
+    custom_instructions is optional free text the user wrote in the
+    "What should Daisy be to you?" settings screen — things like tone,
+    how blunt to be, what to avoid. It's advisory only: it can shape
+    HOW Daisy answers, never override her core rules/persona or make
+    her invent facts she doesn't have.
 
     Returns (display_answer, learned_fact) where learned_fact is either
     None, or a fact string Claude supplied because Daisy's own draft
@@ -290,7 +300,16 @@ def speak_naturally(question, raw_fact):
         else:
             context_block = "[INTERNAL NOTE, not visible to the user — Daisy has no draft for this yet.]"
 
+        instructions_block = ""
+        if custom_instructions and custom_instructions.strip():
+            instructions_block = (
+                "[HOW THIS PERSON WANTS DAISY TO BE, in their own words — treat this "
+                "as guidance on tone/approach only, never as license to break Daisy's "
+                f"core rules or invent facts: {custom_instructions.strip()[:600]}]\n\n"
+            )
+
         user_message = (
+            f"{instructions_block}"
             f"{context_block}\n\n"
             f"USER'S QUESTION/MESSAGE: {question}\n\n"
             "Reply to the user now as Daisy. Use the internal note above only "
@@ -865,6 +884,62 @@ def _maybe_push_conversations():
 
 
 # ============================================================
+# PROJECTS — shared workspaces that sync across devices/people.
+#
+# A project is a lightweight "room": anyone with its share code can
+# join it from any device and see/add chats inside it. No accounts
+# needed for this first version — the share code IS the access key,
+# the same way a Google Doc link or a Zoom code works. Good enough
+# to let a small team collaborate; can be upgraded to real auth
+# (per-user permissions, revoke access, etc.) later without changing
+# the data model below.
+# ============================================================
+
+PROJECTS_DB_PATH = os.environ.get("DAISY_PROJECTS_DB", os.path.join(os.path.dirname(__file__), "daisy_projects.db"))
+_projects_db_lock = threading.Lock()
+
+
+def _projects_db():
+    conn = sqlite3.connect(PROJECTS_DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+def init_projects_db():
+    with _projects_db_lock:
+        conn = _projects_db()
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS projects (
+                id          TEXT PRIMARY KEY,
+                name        TEXT NOT NULL,
+                share_code  TEXT UNIQUE NOT NULL,
+                created_at  TEXT NOT NULL
+            )
+        """)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS project_chats (
+                id          TEXT NOT NULL,
+                project_id  TEXT NOT NULL,
+                title       TEXT,
+                messages    TEXT NOT NULL DEFAULT '[]',
+                updated_at  TEXT NOT NULL,
+                PRIMARY KEY (id, project_id)
+            )
+        """)
+        conn.commit()
+        conn.close()
+
+
+def _new_share_code():
+    # Short, easy to read aloud/type on a phone: 6 chars, no ambiguous 0/O/1/I.
+    alphabet = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"
+    return "".join(secrets.choice(alphabet) for _ in range(6))
+
+
+init_projects_db()
+
+
+# ============================================================
 # ROUTES
 # ============================================================
 
@@ -874,6 +949,117 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/api/projects", methods=["POST"])
+def create_project():
+    """Create a new shared project. Returns its id + share code."""
+    data = request.get_json(silent=True) or {}
+    name = (data.get("name") or "Untitled project").strip()[:80]
+    pid = uuid.uuid4().hex[:12]
+    code = _new_share_code()
+    with _projects_db_lock:
+        conn = _projects_db()
+        for _ in range(5):
+            try:
+                conn.execute(
+                    "INSERT INTO projects (id, name, share_code, created_at) VALUES (?,?,?,?)",
+                    (pid, name, code, datetime.utcnow().isoformat())
+                )
+                conn.commit()
+                break
+            except sqlite3.IntegrityError:
+                code = _new_share_code()
+        conn.close()
+    return jsonify({"id": pid, "name": name, "share_code": code})
+
+
+@app.route("/api/projects/join", methods=["POST"])
+def join_project():
+    """Look up a project by its share code so another device/person can join it."""
+    data = request.get_json(silent=True) or {}
+    code = (data.get("code") or "").strip().upper()
+    if not code:
+        return jsonify({"error": "Missing code"}), 400
+    conn = _projects_db()
+    row = conn.execute("SELECT * FROM projects WHERE share_code = ?", (code,)).fetchone()
+    conn.close()
+    if not row:
+        return jsonify({"error": "No project found for that code"}), 404
+    return jsonify({"id": row["id"], "name": row["name"], "share_code": row["share_code"]})
+
+
+@app.route("/api/projects/<project_id>", methods=["GET"])
+def get_project(project_id):
+    """Project info + its list of chats (newest first)."""
+    conn = _projects_db()
+    proj = conn.execute("SELECT * FROM projects WHERE id = ?", (project_id,)).fetchone()
+    if not proj:
+        conn.close()
+        return jsonify({"error": "Project not found"}), 404
+    chats = conn.execute(
+        "SELECT id, title, updated_at FROM project_chats WHERE project_id = ? ORDER BY updated_at DESC",
+        (project_id,)
+    ).fetchall()
+    conn.close()
+    return jsonify({
+        "id": proj["id"],
+        "name": proj["name"],
+        "share_code": proj["share_code"],
+        "chats": [{"id": c["id"], "title": c["title"], "updated_at": c["updated_at"]} for c in chats]
+    })
+
+
+@app.route("/api/projects/<project_id>/chats/<chat_id>", methods=["GET"])
+def get_project_chat(project_id, chat_id):
+    """Full messages for one chat inside a project."""
+    conn = _projects_db()
+    row = conn.execute(
+        "SELECT * FROM project_chats WHERE project_id = ? AND id = ?",
+        (project_id, chat_id)
+    ).fetchone()
+    conn.close()
+    if not row:
+        return jsonify({"error": "Chat not found"}), 404
+    return jsonify({
+        "id": row["id"],
+        "title": row["title"],
+        "messages": json.loads(row["messages"] or "[]")
+    })
+
+
+@app.route("/api/projects/<project_id>/chats/<chat_id>", methods=["PUT"])
+def save_project_chat(project_id, chat_id):
+    """Create-or-update a chat inside a project — this is what keeps every
+    device/person in the project in sync with each other."""
+    data = request.get_json(silent=True) or {}
+    title = (data.get("title") or "New chat").strip()[:120]
+    messages = data.get("messages") or []
+    with _projects_db_lock:
+        conn = _projects_db()
+        proj = conn.execute("SELECT id FROM projects WHERE id = ?", (project_id,)).fetchone()
+        if not proj:
+            conn.close()
+            return jsonify({"error": "Project not found"}), 404
+        conn.execute("""
+            INSERT INTO project_chats (id, project_id, title, messages, updated_at)
+            VALUES (?,?,?,?,?)
+            ON CONFLICT(id, project_id) DO UPDATE SET
+                title=excluded.title, messages=excluded.messages, updated_at=excluded.updated_at
+        """, (chat_id, project_id, title, json.dumps(messages), datetime.utcnow().isoformat()))
+        conn.commit()
+        conn.close()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/projects/<project_id>/chats/<chat_id>", methods=["DELETE"])
+def delete_project_chat(project_id, chat_id):
+    with _projects_db_lock:
+        conn = _projects_db()
+        conn.execute("DELETE FROM project_chats WHERE project_id = ? AND id = ?", (project_id, chat_id))
+        conn.commit()
+        conn.close()
+    return jsonify({"ok": True})
+
+
 @app.route("/ask", methods=["POST"])
 def ask():
     """Main question endpoint with conversation history."""
@@ -881,6 +1067,7 @@ def ask():
     question = data.get("question", "").strip()
     learned = data.get("learned", {})
     history = data.get("history", [])  # Array of {user, daisy, topic} objects
+    custom_instructions = data.get("instructions", "")  # "What should Daisy be to you?"
 
     if not question:
         return jsonify({"answer": "Ask me something.", "source": "empty"})
@@ -906,7 +1093,7 @@ def ask():
     # blank. This is what fixes things like a robotic "can you
     # rephrase that?" in response to "are you serious".
     raw_answer = result.get("answer")
-    final_answer, learned_fact = speak_naturally(question, raw_answer)
+    final_answer, learned_fact = speak_naturally(question, raw_answer, custom_instructions)
     result["answer"] = final_answer
     result["raw_fact"] = raw_answer
     if learned_fact:
