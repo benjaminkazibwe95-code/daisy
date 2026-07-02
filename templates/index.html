@@ -51,6 +51,32 @@
       }
     }
 
+    /* ── MANUAL THEME OVERRIDE — set by the Settings page. When
+       html[data-theme] isn't present, the system-preference media
+       query above is what decides. ── */
+    html[data-theme="dark"] {
+      --black:   #2b2b2b;
+      --surface: #333333;
+      --card:    #3a3a3a;
+      --border:  #484848;
+      --text:    #f0f0f0;
+      --muted:   #9a9a9a;
+      --daisy:   #7eb8f7;
+      --daisy2:  #a78bfa;
+      --live:    #f87171;
+    }
+    html[data-theme="light"] {
+      --black:   #f5f5f0;
+      --surface: #ebebeb;
+      --card:    #e0e0da;
+      --border:  #d0d0ca;
+      --text:    #1c1c1e;
+      --muted:   #6e6e73;
+      --daisy:   #2a7dd4;
+      --daisy2:  #7c3aed;
+      --live:    #dc2626;
+    }
+
     html, body {
       height: 100%;
       background: var(--black);
@@ -845,7 +871,7 @@
     }
     #end-live:hover { background: #dc2626; }
 
-    /* ── DRAWER MENU ── */
+    /* ── DRAWER / SIDEBAR MENU (ChatGPT/Claude-style) ── */
     #drawer-overlay {
       display: none;
       position: fixed; inset: 0; z-index: 90;
@@ -854,41 +880,111 @@
     #drawer-overlay.active { display: block; }
     #drawer {
       position: fixed;
-      top: 0; left: -280px; bottom: 0;
-      width: 270px;
+      top: 0; left: -300px; bottom: 0;
+      width: 288px;
+      max-width: 84vw;
       background: var(--surface);
       border-right: 1px solid var(--border);
       z-index: 95;
-      padding: 56px 0 32px;
+      padding: 0 0 16px;
       transition: left 0.25s cubic-bezier(0.4,0,0.2,1);
       display: flex;
       flex-direction: column;
     }
     #drawer.open { left: 0; }
 
+    #drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 16px 14px;
+      flex-shrink: 0;
+    }
     #drawer-title {
-      font-family: 'Instrument Serif', serif;
-      font-size: 26px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      font-size: 20px;
       color: var(--text);
-      padding: 0 24px 24px;
-      border-bottom: 1px solid var(--border);
+    }
+    #drawer-close {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+    }
+    #drawer-close:hover { background: var(--card); color: var(--text); }
+    #drawer-close svg { width: 16px; height: 16px; }
+
+    #new-chat-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 4px 16px 18px;
+      padding: 11px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 14.5px;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      flex-shrink: 0;
+    }
+    #new-chat-btn:hover { background: var(--daisy); border-color: var(--daisy); color: #10151c; }
+    #new-chat-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+    #drawer-scroll {
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
     .drawer-section {
-      padding: 20px 24px 0;
+      padding: 6px 16px 4px;
+    }
+    .drawer-section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      padding: 0 8px;
     }
     .drawer-section-label {
-      font-size: 10px;
+      font-size: 11px;
+      font-weight: 800;
       color: var(--muted);
-      letter-spacing: 0.1em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-      margin-bottom: 10px;
     }
+    .drawer-section-actions {
+      display: flex;
+      gap: 4px;
+    }
+    .drawer-mini-btn {
+      width: 24px; height: 24px;
+      border-radius: 7px;
+      border: none;
+      background: none;
+      color: var(--muted);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .drawer-mini-btn:hover { background: var(--card); color: var(--daisy); }
+
     .drawer-item {
       display: flex;
       align-items: center;
-      gap: 12px;
-      padding: 11px 0;
+      gap: 11px;
+      padding: 9px 8px;
       border: none;
       background: none;
       color: var(--text);
@@ -897,18 +993,47 @@
       cursor: pointer;
       width: 100%;
       text-align: left;
-      border-radius: 8px;
-      transition: color 0.15s;
+      border-radius: 9px;
+      transition: background 0.15s;
     }
-    .drawer-item:hover { color: var(--daisy); }
-    .drawer-item .d-icon { font-size: 16px; width: 24px; text-align: center; }
+    .drawer-item:hover { background: var(--card); }
+    .drawer-item .d-icon { font-size: 15px; width: 20px; text-align: center; flex-shrink: 0; }
+    .drawer-item .item-text {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      flex: 1;
+    }
+    .drawer-item.sub-item { padding-left: 8px; font-size: 13.5px; color: var(--text); }
+
+    .sidebar-project { display: flex; align-items: center; gap: 2px; }
+    .sidebar-project .drawer-item { flex: 1; }
+    .project-share-btn {
+      width: 30px; height: 30px;
+      border-radius: 8px;
+      border: none;
+      background: none;
+      color: var(--muted);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .project-share-btn:hover { background: var(--card); color: var(--daisy); }
+    .project-sublist { padding-left: 6px; margin-bottom: 4px; }
+
+    .drawer-empty {
+      padding: 8px 8px 14px;
+      font-size: 12.5px;
+      color: var(--muted);
+    }
 
     .drawer-footer {
-      margin-top: auto;
-      padding: 20px 24px;
+      margin-top: 8px;
+      padding: 16px 24px 0;
       border-top: 1px solid var(--border);
       font-size: 11px;
       color: var(--muted);
+      flex-shrink: 0;
     }
     .drawer-footer strong { color: var(--daisy); font-weight: 500; }
 
@@ -919,66 +1044,170 @@
       color: var(--muted);
       padding: 8px 0 4px;
     }
-    /* ── PROFILE PANEL ── */
-    #profile-overlay {
-      display: none;
-      position: fixed; inset: 0; z-index: 90;
-      background: rgba(0,0,0,0.5);
-    }
-    #profile-overlay.active { display: block; }
-
-    #profile-panel {
-      position: fixed;
-      top: 0; right: -320px; bottom: 0;
-      width: 300px;
-      background: var(--surface);
-      border-left: 1px solid var(--border);
-      z-index: 95;
-      padding: 56px 24px 32px;
-      transition: right 0.25s cubic-bezier(0.4,0,0.2,1);
+    /* ── SETTINGS PAGE — full-screen in-app page (no separate route) ── */
+    #settings-page {
+      position: fixed; inset: 0;
+      z-index: 120;
+      background: var(--black);
       display: flex;
       flex-direction: column;
-      gap: 24px;
+      max-width: 480px;
+      margin: 0 auto;
+      transform: translateX(100%);
+      transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
     }
-    #profile-panel.open { right: 0; }
+    #settings-page.open { transform: translateX(0); }
 
-    #close-profile {
-      position: absolute;
-      top: 16px; right: 20px;
-      width: 32px; height: 32px;
-      border-radius: 50%;
-      background: var(--card);
-      border: none; color: var(--muted);
-      cursor: pointer; font-size: 14px;
-      display: flex; align-items: center; justify-content: center;
-    }
-
-    #profile-header {
+    .page-topbar {
       display: flex;
       align-items: center;
-      gap: 16px;
+      justify-content: space-between;
+      padding: 14px 12px 10px;
+      flex-shrink: 0;
     }
-    #profile-avatar {
-      width: 56px; height: 56px;
+    .page-title {
+      font-family: 'Instrument Serif', serif;
+      font-size: 21px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .page-topbar-spacer { width: 40px; }
+
+    .page-scroll {
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      padding: 4px 16px 40px;
+    }
+
+    #settings-account-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-bottom: 18px;
+    }
+    #settings-avatar {
+      width: 52px; height: 52px;
       border-radius: 50%;
       background: linear-gradient(135deg, var(--daisy), var(--daisy2));
       display: flex; align-items: center; justify-content: center;
-      font-size: 22px; font-weight: 500; color: #fff;
+      font-size: 20px; font-weight: 600; color: #fff;
       flex-shrink: 0;
     }
-    #profile-name-display {
-      font-size: 16px; font-weight: 500; color: var(--text);
-    }
-    #profile-email-display {
-      font-size: 12px; color: var(--muted); margin-top: 2px;
-    }
+    #settings-name-display { font-size: 15px; font-weight: 600; color: var(--text); }
+    #settings-email-display { font-size: 12px; color: var(--muted); margin-top: 2px; }
 
-    #profile-form {
+    .settings-section-label {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 18px 6px 8px;
+    }
+    .settings-group {
+      background: var(--surface);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .settings-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      width: 100%;
+      padding: 13px 16px;
+      background: none;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      text-align: left;
+      cursor: pointer;
+    }
+    .settings-group > *:last-child,
+    .settings-group > .settings-row:last-child { border-bottom: none; }
+    .settings-row.disabled { cursor: default; opacity: 0.55; }
+    .settings-row-btn:hover { background: var(--card); }
+    .settings-row.danger .s-row-title { color: var(--live); }
+    .s-icon { font-size: 17px; width: 20px; text-align: center; flex-shrink: 0; }
+    .s-row-text { flex: 1; min-width: 0; }
+    .s-row-title { font-size: 14px; color: var(--text); }
+    .s-row-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .s-chevron { color: var(--muted); font-size: 12px; flex-shrink: 0; }
+
+    .settings-options {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+    }
+    .settings-option {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 11px 16px 11px 50px;
+      background: none;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 13.5px;
+      cursor: pointer;
+    }
+    .settings-option:last-child { border-bottom: none; }
+    .settings-option:hover { background: var(--surface); }
+    .settings-option.selected { color: var(--daisy); font-weight: 600; }
+
+    .settings-swatches {
+      display: flex;
+      gap: 12px;
+      padding: 14px 16px 16px 50px;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+    }
+    .swatch {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      cursor: pointer;
+      padding: 0;
+    }
+    .swatch.selected { border-color: var(--text); }
+
+    .settings-toggle {
+      position: relative;
+      width: 42px; height: 25px;
+      flex-shrink: 0;
+    }
+    .settings-toggle input { opacity: 0; width: 0; height: 0; }
+    .settings-toggle span {
+      position: absolute; inset: 0;
+      background: var(--border);
+      border-radius: 999px;
+      transition: background 0.15s;
+    }
+    .settings-toggle span::before {
+      content: '';
+      position: absolute;
+      width: 21px; height: 21px;
+      left: 2px; top: 2px;
+      background: #fff;
+      border-radius: 50%;
+      transition: transform 0.15s;
+    }
+    .settings-toggle input:checked + span { background: var(--daisy); }
+    .settings-toggle input:checked + span::before { transform: translateX(17px); }
+
+    .settings-form-group {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 14px 16px;
       display: flex;
       flex-direction: column;
-      gap: 14px;
+      gap: 12px;
     }
-    #profile-form label {
+    .settings-form-group label {
       display: flex;
       flex-direction: column;
       gap: 6px;
@@ -987,7 +1216,7 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
     }
-    #profile-form input {
+    .settings-form-group input {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 10px;
@@ -998,9 +1227,9 @@
       outline: none;
       transition: border-color 0.2s;
     }
-    #profile-form input:focus { border-color: var(--daisy); }
-    #save-profile {
-      margin-top: 4px;
+    .settings-form-group input:focus { border-color: var(--daisy); }
+    #settings-save-profile {
+      margin-top: 2px;
       background: var(--daisy);
       color: #000;
       border: none;
@@ -1008,11 +1237,162 @@
       padding: 11px;
       font-family: 'Inter', sans-serif;
       font-size: 14px;
-      font-weight: 500;
+      font-weight: 600;
       cursor: pointer;
-      transition: opacity 0.15s;
     }
-    #save-profile:hover { opacity: 0.85; }
+    #settings-save-profile:hover { opacity: 0.85; }
+
+    /* ── PERSONALIZE DAISY page (shares the settings-page look) ── */
+    #persona-page, #stats-page {
+      position: fixed; inset: 0;
+      z-index: 120;
+      background: var(--black);
+      display: flex;
+      flex-direction: column;
+      max-width: 480px;
+      margin: 0 auto;
+      transform: translateX(100%);
+      transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
+    }
+    #persona-page.open, #stats-page.open { transform: translateX(0); }
+
+    .persona-intro {
+      font-size: 13px;
+      color: var(--muted);
+      padding: 2px 6px 14px;
+      line-height: 1.5;
+    }
+    .persona-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .persona-chip {
+      padding: 8px 13px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 12.5px;
+      cursor: pointer;
+    }
+    .persona-chip:hover { border-color: var(--daisy); color: var(--daisy); }
+    #persona-textarea {
+      width: 100%;
+      min-height: 160px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      resize: vertical;
+      outline: none;
+    }
+    #persona-textarea:focus { border-color: var(--daisy); }
+    #persona-charcount {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: right;
+      margin-top: 6px;
+    }
+    #persona-save-btn {
+      margin-top: 16px;
+      width: 100%;
+      background: var(--daisy);
+      color: #000;
+      border: none;
+      border-radius: 12px;
+      padding: 12px;
+      font-family: 'Inter', sans-serif;
+      font-size: 14.5px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    #persona-save-btn:hover { opacity: 0.85; }
+    #persona-saved-note {
+      text-align: center;
+      font-size: 12px;
+      color: var(--daisy);
+      margin-top: 10px;
+      min-height: 16px;
+    }
+
+    /* ── KNOWLEDGE STATS page ── */
+    #stats-status-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin-bottom: 16px;
+      font-size: 13.5px;
+      color: var(--text);
+    }
+    #stats-status-dot {
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      background: #34d399;
+      flex-shrink: 0;
+      box-shadow: 0 0 0 4px rgba(52,211,153,0.15);
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .stats-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 16px 14px;
+    }
+    .stats-card .stats-num {
+      font-family: 'Instrument Serif', serif;
+      font-size: 28px;
+      color: var(--daisy);
+      line-height: 1.1;
+    }
+    .stats-card .stats-label {
+      font-size: 11.5px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+    #stats-log {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 4px 0;
+      max-height: 260px;
+      overflow-y: auto;
+    }
+    .stats-log-line {
+      font-family: 'SFMono-Regular', Consolas, monospace;
+      font-size: 11.5px;
+      color: var(--muted);
+      padding: 7px 16px;
+      border-bottom: 1px solid var(--border);
+      word-break: break-word;
+    }
+    .stats-log-line:last-child { border-bottom: none; }
+    #stats-refresh-btn {
+      width: 100%;
+      margin-top: 14px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 11px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    #stats-refresh-btn:hover { border-color: var(--daisy); color: var(--daisy); }
 
   </style>
 </head>
@@ -1124,43 +1504,227 @@
 <!-- DRAWER -->
 <div id="drawer-overlay"></div>
 <div id="drawer">
-  <div id="drawer-title">Daisy</div>
-  <div class="drawer-section">
-    <div class="drawer-section-label">Navigation</div>
-    <button class="drawer-item"><span class="d-icon">💬</span> New Chat</button>
-    <button class="drawer-item"><span class="d-icon">🕐</span> History</button>
-    <button class="drawer-item"><span class="d-icon">📌</span> Saved</button>
+  <div id="drawer-header">
+    <div id="drawer-title">Daisy</div>
+    <button id="drawer-close" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
   </div>
-  <div class="drawer-section">
-    <div class="drawer-section-label">Daisy</div>
-    <button class="drawer-item" onclick="checkStatus()"><span class="d-icon">📊</span> Knowledge Stats</button>
-    <button class="drawer-item"><span class="d-icon">⚙️</span> Settings</button>
+
+  <button id="new-chat-btn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+    New chat
+  </button>
+
+  <div id="drawer-scroll">
+    <div class="drawer-section">
+      <div class="drawer-section-head">
+        <span class="drawer-section-label">Projects</span>
+        <div class="drawer-section-actions">
+          <button class="drawer-mini-btn" id="join-project-btn" title="Join a shared project">🔗</button>
+          <button class="drawer-mini-btn" id="new-project-btn" title="New project">+</button>
+        </div>
+      </div>
+      <div id="projects-list"></div>
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-head">
+        <span class="drawer-section-label">Recents</span>
+      </div>
+      <div id="recents-list"></div>
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-head">
+        <span class="drawer-section-label">Daisy</span>
+      </div>
+      <button class="drawer-item" id="drawer-stats-btn"><span class="d-icon">📊</span><span class="item-text">Knowledge Stats</span></button>
+      <button class="drawer-item" id="drawer-settings-btn"><span class="d-icon">⚙️</span><span class="item-text">Settings</span></button>
+    </div>
   </div>
+
   <div class="drawer-footer">
     Powered by <a href="https://trustedbiz.co.ug" target="_blank" rel="noopener" style="color:var(--daisy);text-decoration:none;font-weight:500;">TrustedBiz</a>
   </div>
 </div>
 
-<!-- PROFILE PANEL -->
-<div id="profile-overlay"></div>
-<div id="profile-panel">
-  <div id="profile-header">
-    <div id="profile-avatar"></div>
-    <div>
-      <div id="profile-name-display"></div>
-      <div id="profile-email-display"></div>
+<!-- SETTINGS PAGE (in-app page, not a separate route) -->
+<div id="settings-page">
+  <div class="page-topbar">
+    <button class="icon-btn" id="settings-back" aria-label="Back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="page-title">Settings</div>
+    <div class="page-topbar-spacer"></div>
+  </div>
+
+  <div class="page-scroll">
+
+    <div id="settings-account-card">
+      <div id="settings-avatar"></div>
+      <div>
+        <div id="settings-name-display"></div>
+        <div id="settings-email-display"></div>
+      </div>
     </div>
+
+    <div class="settings-section-label">Profile</div>
+    <div class="settings-form-group">
+      <label>Name
+        <input id="sname" type="text" placeholder="Your name" autocomplete="name" />
+      </label>
+      <label>Email
+        <input id="semail" type="email" placeholder="your@email.com" autocomplete="email" />
+      </label>
+      <button id="settings-save-profile">Save profile</button>
+    </div>
+
+    <div class="settings-section-label">Appearance</div>
+    <div class="settings-group">
+      <button class="settings-row settings-row-btn" id="theme-row">
+        <span class="s-icon">☀️</span>
+        <div class="s-row-text"><div class="s-row-title">Theme</div><div class="s-row-sub" id="theme-value">System</div></div>
+        <span class="s-chevron">▾</span>
+      </button>
+      <div id="theme-options" class="settings-options" style="display:none;">
+        <button class="settings-option" data-theme-choice="system">System (matches your phone)</button>
+        <button class="settings-option" data-theme-choice="light">Light</button>
+        <button class="settings-option" data-theme-choice="dark">Dark</button>
+      </div>
+      <button class="settings-row settings-row-btn" id="accent-row">
+        <span class="s-icon">🎨</span>
+        <div class="s-row-text"><div class="s-row-title">Accent color</div><div class="s-row-sub" id="accent-value">Default</div></div>
+        <span class="s-chevron">▾</span>
+      </button>
+      <div id="accent-options" class="settings-swatches" style="display:none;">
+        <button class="swatch" data-accent="default" data-c1="#7eb8f7" data-c2="#a78bfa" style="background:#7eb8f7" title="Default"></button>
+        <button class="swatch" data-accent="green"   data-c1="#34d399" data-c2="#10b981" style="background:#34d399" title="Green"></button>
+        <button class="swatch" data-accent="purple"  data-c1="#a78bfa" data-c2="#7c3aed" style="background:#a78bfa" title="Purple"></button>
+        <button class="swatch" data-accent="pink"    data-c1="#f472b6" data-c2="#ec4899" style="background:#f472b6" title="Pink"></button>
+        <button class="swatch" data-accent="orange"  data-c1="#fb923c" data-c2="#f97316" style="background:#fb923c" title="Orange"></button>
+      </div>
+    </div>
+
+    <div class="settings-section-label">Voice</div>
+    <div class="settings-group">
+      <div class="settings-row">
+        <span class="s-icon">🔊</span>
+        <div class="s-row-text">
+          <div class="s-row-title">Read answers aloud</div>
+          <div class="s-row-sub">Daisy speaks every reply automatically</div>
+        </div>
+        <label class="settings-toggle">
+          <input type="checkbox" id="tts-default-toggle" />
+          <span></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="settings-section-label">Data controls</div>
+    <div class="settings-group">
+      <button class="settings-row settings-row-btn" id="export-data-btn">
+        <span class="s-icon">⬇️</span>
+        <div class="s-row-text"><div class="s-row-title">Export my data</div><div class="s-row-sub">Download your profile, recents & projects list</div></div>
+      </button>
+      <button class="settings-row settings-row-btn danger" id="clear-data-btn">
+        <span class="s-icon">🗑️</span>
+        <div class="s-row-text"><div class="s-row-title">Clear chat history</div><div class="s-row-sub">Removes Recents from this device only</div></div>
+      </button>
+    </div>
+
+    <div class="settings-section-label">Security</div>
+    <div class="settings-group">
+      <div class="settings-row disabled">
+        <span class="s-icon">🔒</span>
+        <div class="s-row-text"><div class="s-row-title">Sign-in & account security</div><div class="s-row-sub">Coming once Daisy accounts launch</div></div>
+      </div>
+    </div>
+
+    <div class="settings-section-label">Daisy</div>
+    <div class="settings-group">
+      <button class="settings-row settings-row-btn" id="settings-persona-btn">
+        <span class="s-icon">🌼</span>
+        <div class="s-row-text"><div class="s-row-title">Personalize Daisy</div><div class="s-row-sub">Tell Daisy who to be for you</div></div>
+        <span class="s-chevron">›</span>
+      </button>
+      <button class="settings-row settings-row-btn" id="settings-stats-btn">
+        <span class="s-icon">📊</span>
+        <div class="s-row-text"><div class="s-row-title">Knowledge stats</div></div>
+        <span class="s-chevron">›</span>
+      </button>
+      <button class="settings-row settings-row-btn" id="settings-report-btn">
+        <span class="s-icon">🐞</span>
+        <div class="s-row-text"><div class="s-row-title">Report a bug</div></div>
+      </button>
+      <div class="settings-row">
+        <span class="s-icon">ℹ️</span>
+        <div class="s-row-text"><div class="s-row-title">About</div><div class="s-row-sub">Powered by TrustedBiz · daisy-web</div></div>
+      </div>
+    </div>
+
   </div>
-  <div id="profile-form">
-    <label>Name
-      <input id="pname" type="text" placeholder="Your name" autocomplete="name" />
-    </label>
-    <label>Email
-      <input id="pemail" type="email" placeholder="your@email.com" autocomplete="email" />
-    </label>
-    <button id="save-profile">Save</button>
+</div>
+
+<!-- PERSONALIZE DAISY page (in-app page) -->
+<div id="persona-page">
+  <div class="page-topbar">
+    <button class="icon-btn" id="persona-back" aria-label="Back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="page-title">Personalize Daisy</div>
+    <div class="page-topbar-spacer"></div>
   </div>
-  <button id="close-profile">✕</button>
+  <div class="page-scroll">
+    <p class="persona-intro">What should Daisy be to you? Tell her how to talk to you, what to focus on, what to avoid — she'll carry it into every answer, on top of who she already is.</p>
+    <div class="persona-chips">
+      <button class="persona-chip" data-preset="Be direct and challenge my thinking — don't just agree with me. Point out gaps or risks I might be missing.">Direct & challenging</button>
+      <button class="persona-chip" data-preset="Explain things simply and patiently, like I'm new to the topic. Avoid jargon, or explain it when you use it.">Simple & patient</button>
+      <button class="persona-chip" data-preset="Keep a warm, encouraging tone. I'm building something and need support, not just correctness.">Warm & encouraging</button>
+      <button class="persona-chip" data-preset="Be brief and businesslike. Skip pleasantries, give me the answer first, details after.">Short & professional</button>
+    </div>
+    <textarea id="persona-textarea" placeholder="e.g. Be tough on me, challenge my points, and help me build real, bulletproof work — don't just tell me what I want to hear."></textarea>
+    <div id="persona-charcount">0 / 600</div>
+    <button id="persona-save-btn">Save</button>
+    <div id="persona-saved-note"></div>
+  </div>
+</div>
+
+<!-- KNOWLEDGE STATS page (in-app page) -->
+<div id="stats-page">
+  <div class="page-topbar">
+    <button class="icon-btn" id="stats-back" aria-label="Back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="page-title">Knowledge Stats</div>
+    <div class="page-topbar-spacer"></div>
+  </div>
+  <div class="page-scroll">
+    <div id="stats-status-card">
+      <div id="stats-status-dot"></div>
+      <span id="stats-status-text">Checking Daisy's status…</span>
+    </div>
+    <div class="stats-grid">
+      <div class="stats-card">
+        <div class="stats-num" id="stats-words">—</div>
+        <div class="stats-label">Words known</div>
+      </div>
+      <div class="stats-card">
+        <div class="stats-num" id="stats-cycles">—</div>
+        <div class="stats-label">Ingestion cycles</div>
+      </div>
+    </div>
+    <div class="settings-section-label">Last ingestion</div>
+    <div class="settings-group">
+      <div class="settings-row">
+        <span class="s-icon">🕐</span>
+        <div class="s-row-text"><div class="s-row-title" id="stats-last-ingest">—</div></div>
+      </div>
+    </div>
+    <div class="settings-section-label">Recent activity</div>
+    <div id="stats-log"></div>
+    <button id="stats-refresh-btn">Refresh</button>
+  </div>
 </div>
 <!-- LIVE ROOM — Full screen Gemini style -->
 <div id="live-room">
@@ -1259,11 +1823,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const name = user.name || '';
     const initial = name ? name.trim()[0].toUpperCase() : '?';
     userBtn.textContent = initial;
-    document.getElementById('profile-avatar').textContent = initial;
-    document.getElementById('profile-name-display').textContent = name || 'Your account';
-    document.getElementById('profile-email-display').textContent = user.email || '';
-    document.getElementById('pname').value  = name;
-    document.getElementById('pemail').value = user.email || '';
+    document.getElementById('settings-avatar').textContent = initial;
+    document.getElementById('settings-name-display').textContent = name || 'Your account';
+    document.getElementById('settings-email-display').textContent = user.email || 'No email set';
+    document.getElementById('sname').value  = name;
+    document.getElementById('semail').value = user.email || '';
     const h = new Date().getHours();
     const tod = h < 12 ? 'morning' : h < 17 ? 'afternoon' : 'evening';
     greetingEl.textContent = name ? `Good ${tod}, ${name}` : `Good ${tod}`;
@@ -1271,26 +1835,217 @@ document.addEventListener('DOMContentLoaded', function() {
 
   applyUser();
 
-  // Profile panel
-  const profilePanel   = document.getElementById('profile-panel');
-  const profileOverlay = document.getElementById('profile-overlay');
-  userBtn.onclick = () => {
-    profilePanel.classList.add('open');
-    profileOverlay.classList.add('active');
-  };
-  document.getElementById('close-profile').onclick = closeProfile;
-  profileOverlay.onclick = closeProfile;
-  function closeProfile() {
-    profilePanel.classList.remove('open');
-    profileOverlay.classList.remove('active');
+  // ── SETTINGS PAGE ──────────────────────────────────────
+  const settingsPage = document.getElementById('settings-page');
+  function openSettings() {
+    settingsPage.classList.add('open');
   }
-  document.getElementById('save-profile').onclick = () => {
-    const name  = document.getElementById('pname').value.trim();
-    const email = document.getElementById('pemail').value.trim();
+  function closeSettings() {
+    settingsPage.classList.remove('open');
+  }
+  userBtn.onclick = openSettings;
+  document.getElementById('settings-back').onclick = closeSettings;
+  document.getElementById('drawer-settings-btn').onclick = () => {
+    closeDrawer();
+    openSettings();
+  };
+  document.getElementById('drawer-stats-btn').onclick = () => {
+    closeDrawer();
+    openStatsPage();
+  };
+
+  document.getElementById('settings-save-profile').onclick = () => {
+    const name  = document.getElementById('sname').value.trim();
+    const email = document.getElementById('semail').value.trim();
     saveUser({ name, email });
     applyUser();
-    closeProfile();
   };
+
+  // Theme (System / Light / Dark)
+  const THEME_KEY = 'daisy_theme';
+  const themeLabels = { system: 'System', light: 'Light', dark: 'Dark' };
+  const themeRow     = document.getElementById('theme-row');
+  const themeOptions = document.getElementById('theme-options');
+  const themeValueEl = document.getElementById('theme-value');
+
+  function applyTheme(choice) {
+    if (choice === 'light' || choice === 'dark') {
+      document.documentElement.setAttribute('data-theme', choice);
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      choice = 'system';
+    }
+    localStorage.setItem(THEME_KEY, choice);
+    themeValueEl.textContent = themeLabels[choice];
+    themeOptions.querySelectorAll('.settings-option').forEach(o =>
+      o.classList.toggle('selected', o.dataset.themeChoice === choice));
+  }
+  applyTheme(localStorage.getItem(THEME_KEY) || 'system');
+
+  themeRow.onclick = () => {
+    accentOptions.style.display = 'none';
+    themeOptions.style.display = themeOptions.style.display === 'none' ? 'block' : 'none';
+  };
+  themeOptions.querySelectorAll('.settings-option').forEach(btn => {
+    btn.onclick = () => { applyTheme(btn.dataset.themeChoice); themeOptions.style.display = 'none'; };
+  });
+
+  // Accent color
+  const ACCENT_KEY = 'daisy_accent';
+  const accentRow     = document.getElementById('accent-row');
+  const accentOptions = document.getElementById('accent-options');
+  const accentValueEl = document.getElementById('accent-value');
+
+  function applyAccent(name) {
+    const swatch = accentOptions.querySelector(`.swatch[data-accent="${name}"]`) || accentOptions.querySelector('.swatch[data-accent="default"]');
+    document.documentElement.style.setProperty('--daisy', swatch.dataset.c1);
+    document.documentElement.style.setProperty('--daisy2', swatch.dataset.c2);
+    localStorage.setItem(ACCENT_KEY, name);
+    accentValueEl.textContent = swatch.title;
+    accentOptions.querySelectorAll('.swatch').forEach(s => s.classList.toggle('selected', s === swatch));
+  }
+  applyAccent(localStorage.getItem(ACCENT_KEY) || 'default');
+
+  accentRow.onclick = () => {
+    themeOptions.style.display = 'none';
+    accentOptions.style.display = accentOptions.style.display === 'none' ? 'flex' : 'none';
+  };
+  accentOptions.querySelectorAll('.swatch').forEach(btn => {
+    btn.onclick = () => applyAccent(btn.dataset.accent);
+  });
+
+  // Voice — "read answers aloud" default, wired to the existing speaker toggle
+  const TTS_KEY = 'daisy_tts_default';
+  const ttsDefaultToggle = document.getElementById('tts-default-toggle');
+  ttsDefaultToggle.checked = localStorage.getItem(TTS_KEY) === '1';
+  ttsDefaultToggle.onchange = () => {
+    localStorage.setItem(TTS_KEY, ttsDefaultToggle.checked ? '1' : '0');
+    setTtsOn(ttsDefaultToggle.checked);
+  };
+
+  // Data controls
+  document.getElementById('export-data-btn').onclick = () => {
+    const payload = {
+      exportedAt: new Date().toISOString(),
+      profile: getUser(),
+      recents: loadRecents(),
+      projects: activeProjects
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href = url; a.download = 'daisy-data.json';
+    document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
+  };
+  document.getElementById('clear-data-btn').onclick = () => {
+    if (!confirm('Clear all Recents on this device? This cannot be undone.')) return;
+    saveRecentsList([]);
+    alert('Chat history cleared on this device.');
+  };
+
+  // Report a bug — captured locally for now (no bug-tracker wired up yet)
+  document.getElementById('settings-report-btn').onclick = () => {
+    const desc = prompt("What went wrong? A quick description helps:");
+    if (!desc) return;
+    try {
+      const key = 'daisy_bug_reports';
+      const list = JSON.parse(localStorage.getItem(key) || '[]');
+      list.unshift({ desc, at: new Date().toISOString() });
+      localStorage.setItem(key, JSON.stringify(list.slice(0, 20)));
+    } catch(e) {}
+    alert("Thanks — noted. (This is saved locally for now until bug reports are wired to a server.)");
+  };
+
+  document.getElementById('settings-stats-btn').onclick = () => {
+    closeSettings();
+    openStatsPage();
+  };
+
+  // ── PERSONALIZE DAISY ("what should Daisy be to you?") ──
+  const INSTRUCTIONS_KEY = 'daisy_instructions';
+  function getInstructions() {
+    return localStorage.getItem(INSTRUCTIONS_KEY) || '';
+  }
+
+  const personaPage      = document.getElementById('persona-page');
+  const personaTextarea  = document.getElementById('persona-textarea');
+  const personaCharcount = document.getElementById('persona-charcount');
+  const personaSavedNote = document.getElementById('persona-saved-note');
+
+  function openPersonaPage() {
+    personaTextarea.value = getInstructions();
+    updatePersonaCharcount();
+    personaSavedNote.textContent = '';
+    personaPage.classList.add('open');
+  }
+  function closePersonaPage() { personaPage.classList.remove('open'); }
+  function updatePersonaCharcount() {
+    personaCharcount.textContent = `${personaTextarea.value.length} / 600`;
+  }
+
+  document.getElementById('settings-persona-btn').onclick = () => {
+    closeSettings();
+    openPersonaPage();
+  };
+  document.getElementById('persona-back').onclick = closePersonaPage;
+  personaTextarea.addEventListener('input', updatePersonaCharcount);
+  personaTextarea.maxLength = 600;
+
+  document.querySelectorAll('.persona-chip').forEach(chip => {
+    chip.onclick = () => {
+      personaTextarea.value = chip.dataset.preset;
+      updatePersonaCharcount();
+      personaTextarea.focus();
+    };
+  });
+
+  document.getElementById('persona-save-btn').onclick = () => {
+    localStorage.setItem(INSTRUCTIONS_KEY, personaTextarea.value.trim());
+    personaSavedNote.textContent = 'Saved — Daisy will use this from your next message.';
+  };
+
+  // ── KNOWLEDGE STATS page ──
+  const statsPage = document.getElementById('stats-page');
+  function openStatsPage() {
+    statsPage.classList.add('open');
+    refreshStats();
+  }
+  function closeStatsPage() { statsPage.classList.remove('open'); }
+  document.getElementById('stats-back').onclick = closeStatsPage;
+  document.getElementById('stats-refresh-btn').onclick = refreshStats;
+
+  async function refreshStats() {
+    const statusText = document.getElementById('stats-status-text');
+    const dot = document.getElementById('stats-status-dot');
+    statusText.textContent = 'Checking Daisy\'s status…';
+    try {
+      const res  = await fetch('/daisy/status');
+      const data = await res.json();
+      dot.style.background = data.status === 'online' ? '#34d399' : '#f87171';
+      statusText.textContent = data.status === 'online' ? 'Daisy is online' : 'Daisy is offline';
+      document.getElementById('stats-words').textContent  = (data.words || 0).toLocaleString();
+      document.getElementById('stats-cycles').textContent = (data.ingest_cycles || 0).toLocaleString();
+      document.getElementById('stats-last-ingest').textContent = data.last_ingest || 'not yet';
+
+      const logEl = document.getElementById('stats-log');
+      logEl.innerHTML = '';
+      const lines = data.log_tail || [];
+      if (!lines.length) {
+        logEl.innerHTML = '<div class="drawer-empty">No recent ingestion activity yet.</div>';
+      } else {
+        lines.slice().reverse().forEach(line => {
+          const row = document.createElement('div');
+          row.className = 'stats-log-line';
+          row.textContent = line;
+          logEl.appendChild(row);
+        });
+      }
+    } catch(e) {
+      dot.style.background = '#f87171';
+      statusText.textContent = "Couldn't reach Daisy right now.";
+    }
+  }
 
   // ── AUTO-RESIZE TEXTAREA ──────────────────────────────
   const inp = document.getElementById('question-input');
@@ -1832,7 +2587,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const res = await fetch('/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question })
+        body: JSON.stringify({ question, instructions: getInstructions() })
       });
       const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
@@ -1988,18 +2743,20 @@ document.addEventListener('DOMContentLoaded', function() {
     activateChat();
     stickToBottom = true;
     addMsg(text, 'user');
+    recordMessage('user', text);
     const panel = addThinkingPanel();
 
     try {
       const res  = await fetch('/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: text })
+        body: JSON.stringify({ question: text, instructions: getInstructions() })
       });
       const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
       await settleThinkingPanel(panel, data);
       await addMsgTyped(answer, { question: text });
+      recordMessage('daisy', answer);
       if (ttsOn) speak(answer);
     } catch(e) {
       panel._cancel();
@@ -2068,11 +2825,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // ── TTS ───────────────────────────────────────────────
   let ttsOn = false;
   const speakerBtn = document.getElementById('speaker-btn');
-  speakerBtn.onclick = () => {
-    ttsOn = !ttsOn;
+  function setTtsOn(on) {
+    ttsOn = on;
     speakerBtn.style.color = ttsOn ? 'var(--daisy)' : 'var(--muted)';
     speakerBtn.style.background = ttsOn ? 'rgba(126,184,247,0.12)' : 'var(--card)';
-  };
+  }
+  speakerBtn.onclick = () => setTtsOn(!ttsOn);
+  setTtsOn(localStorage.getItem('daisy_tts_default') === '1');
 
   function speak(text) {
     if (!window.speechSynthesis) return;
@@ -2167,17 +2926,19 @@ document.addEventListener('DOMContentLoaded', function() {
         activateChat();
         stickToBottom = true;
         addMsg(question, 'user');
+        recordMessage('user', question);
         const panel = addThinkingPanel();
         try {
           const res  = await fetch('/ask', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ question })
+            body: JSON.stringify({ question, instructions: getInstructions() })
           });
           const data = await res.json();
           const answer = data.answer || "Still learning that one.";
           await settleThinkingPanel(panel, data);
           await addMsgTyped(answer, { question });
+          recordMessage('daisy', answer);
           transcript.textContent = answer;
           speak(answer);
         } catch(e) {
@@ -2210,28 +2971,231 @@ document.addEventListener('DOMContentLoaded', function() {
   const drawer        = document.getElementById('drawer');
   const drawerOverlay = document.getElementById('drawer-overlay');
   document.getElementById('menu-btn').onclick = () => {
+    renderSidebarLists();
     drawer.classList.add('open');
     drawerOverlay.classList.add('active');
   };
+  document.getElementById('drawer-close').onclick = closeDrawer;
   drawerOverlay.onclick = closeDrawer;
   function closeDrawer() {
     drawer.classList.remove('open');
     drawerOverlay.classList.remove('active');
   }
 
-  // ── DAISY STATUS ──────────────────────────────────────
-  async function checkStatus() {
-    closeDrawer();
-    try {
-      const res  = await fetch('/daisy/status');
-      const data = await res.json();
-      activateChat();
-      addMsg(`Daisy knows ${data.words.toLocaleString()} words. Last ingestion: ${data.last_ingest}. Cycles completed: ${data.ingest_cycles}.`, 'daisy');
-    } catch(e) {
-      activateChat();
-      addMsg("Couldn't fetch Daisy's stats right now.", 'daisy');
+  // ── CHATS: current session, Recents (per-device), Projects (shared) ──
+  const RECENTS_KEY  = 'daisy_recents_v1';
+  const PROJECTS_KEY = 'daisy_projects_v1';
+
+  let currentChat   = { id: null, title: null, projectId: null, messages: [] };
+  let activeProjects = [];
+  try { activeProjects = JSON.parse(localStorage.getItem(PROJECTS_KEY) || '[]'); } catch(e) { activeProjects = []; }
+
+  function escapeHtml(s) {
+    const d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
+  }
+  function genChatId() {
+    return 'c_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+  }
+  function loadRecents() {
+    try { return JSON.parse(localStorage.getItem(RECENTS_KEY) || '[]'); } catch(e) { return []; }
+  }
+  function saveRecentsList(list) { localStorage.setItem(RECENTS_KEY, JSON.stringify(list)); }
+  function saveProjectsList() { localStorage.setItem(PROJECTS_KEY, JSON.stringify(activeProjects)); }
+
+  function recordMessage(role, text) {
+    if (!currentChat.id) currentChat.id = genChatId();
+    currentChat.messages.push({ role, text });
+    if (!currentChat.title) {
+      currentChat.title = text.length > 48 ? text.slice(0, 48) + '…' : text;
+    }
+    persistCurrentChat();
+  }
+
+  function persistCurrentChat() {
+    if (!currentChat.id) return;
+    if (currentChat.projectId) {
+      // Shared project chat — synced through the backend so every
+      // device/person in the project sees it.
+      fetch(`/api/projects/${currentChat.projectId}/chats/${currentChat.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title: currentChat.title, messages: currentChat.messages })
+      }).catch(() => {});
+    } else {
+      // Personal recent chat — this device only.
+      let recents = loadRecents();
+      const idx = recents.findIndex(c => c.id === currentChat.id);
+      const entry = { id: currentChat.id, title: currentChat.title || 'New chat', messages: currentChat.messages, updatedAt: Date.now() };
+      if (idx >= 0) recents[idx] = entry; else recents.unshift(entry);
+      saveRecentsList(recents.slice(0, 50));
     }
   }
+
+  function startNewChat() {
+    currentChat = { id: null, title: null, projectId: null, messages: [] };
+    chatArea.innerHTML = '';
+    chatArea.classList.remove('active');
+    quickStarts.style.display = '';
+    greetWrap.style.paddingTop = '';
+    greetWrap.querySelector('#greeting').style.fontSize = '';
+    chatActive = false;
+    closeDrawer();
+  }
+
+  function openChat(chat, projectId) {
+    currentChat = { id: chat.id, title: chat.title, projectId: projectId || null, messages: chat.messages || [] };
+    chatArea.innerHTML = '';
+    activateChat();
+    (chat.messages || []).forEach(m => addMsg(m.text, m.role === 'user' ? 'user' : 'daisy'));
+    closeDrawer();
+  }
+
+  document.getElementById('new-chat-btn').onclick = startNewChat;
+
+  // ── PROJECTS: shared workspaces synced via share code ──
+  async function createProject() {
+    const name = prompt('Name this project:');
+    if (!name || !name.trim()) return;
+    try {
+      const res = await fetch('/api/projects', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: name.trim() })
+      });
+      if (!res.ok) throw new Error('bad response');
+      const proj = await res.json();
+      activeProjects.unshift(proj);
+      saveProjectsList();
+      renderSidebarLists();
+      alert(`"${proj.name}" created.\nShare code: ${proj.share_code}\n\nAnyone who enters this code (Projects → 🔗) can join and work in it from any device.`);
+    } catch(e) {
+      alert("Couldn't create the project — check your connection.");
+    }
+  }
+
+  async function joinProjectByCode() {
+    const code = prompt('Enter the project share code:');
+    if (!code || !code.trim()) return;
+    try {
+      const res = await fetch('/api/projects/join', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code: code.trim() })
+      });
+      if (!res.ok) { alert("That code didn't match any project."); return; }
+      const proj = await res.json();
+      if (!activeProjects.find(p => p.id === proj.id)) activeProjects.unshift(proj);
+      saveProjectsList();
+      renderSidebarLists();
+    } catch(e) {
+      alert("Couldn't join — check your connection.");
+    }
+  }
+
+  document.getElementById('new-project-btn').onclick = createProject;
+  document.getElementById('join-project-btn').onclick = joinProjectByCode;
+
+  function renderSidebarLists() {
+    // Projects
+    const projList = document.getElementById('projects-list');
+    projList.innerHTML = '';
+    if (!activeProjects.length) {
+      projList.innerHTML = '<div class="drawer-empty">No projects yet — tap + to start one, or 🔗 to join one someone shared with you.</div>';
+    } else {
+      activeProjects.forEach(proj => {
+        const row = document.createElement('div');
+        row.className = 'sidebar-project';
+
+        const openBtn = document.createElement('button');
+        openBtn.className = 'drawer-item';
+        openBtn.innerHTML = `<span class="d-icon">📁</span><span class="item-text">${escapeHtml(proj.name)}</span>`;
+
+        const shareBtn = document.createElement('button');
+        shareBtn.className = 'project-share-btn';
+        shareBtn.title = `Share code: ${proj.share_code}`;
+        shareBtn.textContent = '🔗';
+        shareBtn.onclick = (e) => {
+          e.stopPropagation();
+          const msg = `Share code for "${proj.name}": ${proj.share_code}`;
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText(proj.share_code).then(() => alert(msg + '\n\n(copied to clipboard)')).catch(() => alert(msg));
+          } else {
+            alert(msg);
+          }
+        };
+
+        row.appendChild(openBtn);
+        row.appendChild(shareBtn);
+        projList.appendChild(row);
+
+        const subList = document.createElement('div');
+        subList.className = 'project-sublist';
+        subList.style.display = 'none';
+        projList.appendChild(subList);
+
+        openBtn.onclick = async () => {
+          const willOpen = subList.style.display === 'none';
+          document.querySelectorAll('.project-sublist').forEach(s => s.style.display = 'none');
+          if (!willOpen) return;
+          subList.style.display = 'block';
+          subList.innerHTML = '<div class="drawer-empty">Loading…</div>';
+          try {
+            const res = await fetch(`/api/projects/${proj.id}`);
+            const data = await res.json();
+            subList.innerHTML = '';
+
+            const newBtn = document.createElement('button');
+            newBtn.className = 'drawer-item sub-item';
+            newBtn.innerHTML = '<span class="d-icon">＋</span><span class="item-text">New chat in this project</span>';
+            newBtn.onclick = () => {
+              startNewChat();
+              currentChat.projectId = proj.id;
+            };
+            subList.appendChild(newBtn);
+
+            (data.chats || []).forEach(c => {
+              const cBtn = document.createElement('button');
+              cBtn.className = 'drawer-item sub-item';
+              cBtn.innerHTML = `<span class="d-icon">💬</span><span class="item-text">${escapeHtml(c.title || 'Untitled')}</span>`;
+              cBtn.onclick = async () => {
+                try {
+                  const r2 = await fetch(`/api/projects/${proj.id}/chats/${c.id}`);
+                  const full = await r2.json();
+                  openChat(full, proj.id);
+                } catch(e) { alert("Couldn't open that chat."); }
+              };
+              subList.appendChild(cBtn);
+            });
+
+            if (!data.chats || !data.chats.length) {
+              subList.innerHTML += '<div class="drawer-empty">No chats in this project yet.</div>';
+            }
+          } catch(e) {
+            subList.innerHTML = '<div class="drawer-empty">Couldn\'t load this project.</div>';
+          }
+        };
+      });
+    }
+
+    // Recents
+    const recList = document.getElementById('recents-list');
+    recList.innerHTML = '';
+    const recents = loadRecents();
+    if (!recents.length) {
+      recList.innerHTML = '<div class="drawer-empty">Your recent chats will show up here.</div>';
+    } else {
+      recents.slice(0, 20).forEach(c => {
+        const btn = document.createElement('button');
+        btn.className = 'drawer-item';
+        btn.innerHTML = `<span class="d-icon">💬</span><span class="item-text">${escapeHtml(c.title || 'New chat')}</span>`;
+        btn.onclick = () => openChat(c, null);
+        recList.appendChild(btn);
+      });
+    }
+  }
+
+  // ── DAISY STATUS ──────────────────────────────────────
+  // (superseded by the full Knowledge Stats page — see openStatsPage above)
 
   } catch(err) {
     // If anything crashes on load, show a visible error so we can debug
