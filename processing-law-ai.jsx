@@ -58084,6 +58084,12 @@ const FLAT_DICT = {
   fellowships_are_awarded_to_students_who: "In the writing stages of their dissertations, and whose research focuses on women and/or gender",
   stanford_hai: "Founded in 2019 by Fei-Fei Li , John Etchemendy , James Landay , and Chris Manning",
 
+  // === INGESTED 2026-07-03 08:35 ===
+  the_advantage_of_this_website: "That the owner does not have to sell mortgages, meet with customers, or pay for everyday business operation expenses in order to make money",
+  if_the_lendingtree_advertisement: "Used by a visitor, the website owner gets paid a commission from LendingTree for the lead",
+  customers_may_often_find_items_that: { definition: "Difficult to locate elsewhere", what_it_does: "", examples: "PayPal ), but often are conducted using social-media networks (e.g" },
+  government_contracts: "Often large and more stable than analogous private-sector work",
+
 };
 
 // ============================================================
