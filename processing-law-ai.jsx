@@ -57180,6 +57180,31 @@ const FLAT_DICT = {
   suluhu_and_magufuli: "Re-elected to a second term in 2020",
   the_major_opposition_party_chadema: "Also barred from participation in the election",
 
+  // === INGESTED 2026-07-03 05:09 ===
+  lake_turkana: "Considered the cradle of human life because of the diverse hominid species found living millions of years apart in this desert landscape",
+  the_rocks_of_the_surrounding_area: "Predominantly volcanic",
+  central_island: "An active volcano, emitting vapour",
+  outcrops_and_rocky_shores: { definition: "Found on the east and southern shores of the lake, while dunes, spits and flats are on the west and north, at a lower elevation", what_it_does: "", examples: "the level fell by 10 metres (33 ft) between 1975 and 1993" },
+  the_rocky_shores: "Home to scorpions and carpet vipers",
+  the_lake_is_rich_in_fish_and_fishing: "Very important to the local economy, but is threatened by falling water levels and overfishing",
+  the_lake: "Also an imaginary boundary of the Rendille and Borana and Oromo to the Turkana land",
+  the_area_is_primarily_claybased_and: "More alkaline than seawater",
+  the_samburu: "Among the dominant tribes in the lake Turkana region when the explorers came",
+  the_major_biomes: { definition: "The lake itself, which is an aquatic biome, and the surrounding region, which is classified as desert and xeric shrubland", what_it_does: "", examples: "Duosperma eremophilum and Indigofera spinosa" },
+  the_lake_turkana_region: "Home to hundreds of species of birds native to Kenya",
+  some_birds_more_common_to_turkana: "The little stint , the wood sandpiper , and the common sandpiper",
+  the_grazers: "Chiefly Grevy's zebra , Burchell's zebra , the beisa oryx , Grant's gazelle , the topi and the reticulated giraffe",
+  elephants_and_the_black_rhinoceroses: "No longer seen, although Teleki reported seeing (and shooting) many",
+  closer_to_the_dust: "The cushioned gerbil ( Gerbillus pulvinatus )",
+  this_rift: "One of two, and is called the Great or Eastern Rift",
+  no_rift: "In the offing at that time",
+  a_rift: "Signalled by volcanic activity through the weakened crust",
+  the_two_latter_basalts: "Identified as the outcrops forming the rocky mountains and badlands around the lake",
+  probably_the_best_known_of_the_formations: "The Koobi Fora on the east side of Turkana and the Nachukui on the west",
+  terraces_representing_ancient_shores: { definition: "Visible in the Turkana Basin", what_it_does: "", examples: "the crocodiles and the Nile perch" },
+  volcanic_ash_and_drier_climates: "Ideal for preserving these human fossils but it also caused the lake to shrink or disappear at times",
+  full_commercial_operation: "Achieved in July 2019 when the power lines delivering the outpurt were completed",
+
 };
 
 // ============================================================
