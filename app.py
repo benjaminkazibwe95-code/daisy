@@ -206,7 +206,8 @@ CAPABILITIES & FORMATTING COMMANDS:
 - LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
 - WEBSITES & PAGES: a requested page, poster, or layout is a complete file — use ```html:descriptive-name.html so it gets Daisy's real Preview/Code/Download treatment, not a plain snippet. The HTML has to be fully self-contained: all CSS inline in a <style> tag in the <head>, nothing relying on an external stylesheet or build step. This matters more than it sounds like — the file renders in a real live preview now, and Tailwind-style utility class names with no Tailwind CSS actually loaded just render as plain unstyled HTML. Write real CSS yourself in a <style> block, modern and responsive, tailored to what the person actually asked for.
 - LOGOS & VISUALS: you can't generate raster images (PNGs etc.), but raw SVG is real, renderable code. For a logo or visual asset, write a crisp, modern ```svg:descriptive-name.svg file — it gets the same live preview, so the person sees the actual logo, not markup.
-- MERCHANT DATA: invoices, reports, and lists that are meant to be a finished document the person keeps or sends should also go through the filename convention (e.g. ```html:invoice-may.html), formatted as a clean printable layout — not just structured data dumped as JSON unless JSON specifically was what they asked for."""
+- MERCHANT DATA: invoices, reports, and lists that are meant to be a finished document the person keeps or sends should also go through the filename convention (e.g. ```html:invoice-may.html), formatted as a clean printable layout — not just structured data dumped as JSON unless JSON specifically was what they asked for.
+- PDF EXPORT IS REAL, NOT A LIMITATION: Daisy's interface can turn any answer into an actual downloadable PDF file — there's a "Save as PDF" button that appears automatically under long or structured answers, and it triggers automatically when someone asks for a PDF directly. This is a real, working feature, not a hypothetical one — never say "I can't generate a PDF directly" or claim this is one of Daisy's limits. When someone asks for a PDF (a report, a list, marks, anything), just write the complete, well-organized answer using normal formatting (headers, bullets, tables) — the PDF gets created from that automatically. Don't ask clarifying questions if they've already given you the actual data (e.g. a list of names and marks) — write the full thing. Only ask what to include if they genuinely haven't said yet."""
 
 
 def load_voice_model():
@@ -951,7 +952,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.colors import HexColor
 from reportlab.lib.enums import TA_LEFT
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, ListFlowable, ListItem
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, ListFlowable, ListItem, Table, TableStyle
 
 _PDF_STYLES = getSampleStyleSheet()
 _PDF_STYLES.add(ParagraphStyle(
@@ -974,6 +975,19 @@ def _md_inline_to_reportlab(s):
     return s
 
 
+def _parse_table_row(line):
+    cells = line.strip()
+    if cells.startswith("|"):
+        cells = cells[1:]
+    if cells.endswith("|"):
+        cells = cells[:-1]
+    return [c.strip() for c in cells.split("|")]
+
+
+def _is_table_separator(line):
+    return bool(re.match(r"^\s*\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?\s*$", line))
+
+
 def _markdown_to_flowables(text):
     flow = []
     lines = (text or "").replace("\r\n", "\n").split("\n")
@@ -984,6 +998,31 @@ def _markdown_to_flowables(text):
         if not line.strip():
             flow.append(Spacer(1, 6))
             i += 1
+            continue
+
+        # Markdown table: a row with pipes, immediately followed by a
+        # ---|--- separator row. Common in comparisons and any kind of
+        # roster/marks/report data — renders as an actual bordered table,
+        # not literal pipe characters.
+        if "|" in line and i + 1 < len(lines) and _is_table_separator(lines[i + 1]):
+            header = _parse_table_row(line)
+            rows = [[Paragraph(f"<b>{_md_inline_to_reportlab(c)}</b>", _PDF_STYLES["DaisyBody"]) for c in header]]
+            i += 2
+            while i < len(lines) and "|" in lines[i] and lines[i].strip():
+                rows.append([Paragraph(_md_inline_to_reportlab(c), _PDF_STYLES["DaisyBody"]) for c in _parse_table_row(lines[i])])
+                i += 1
+            table = Table(rows, hAlign="LEFT", repeatRows=1)
+            table.setStyle(TableStyle([
+                ("BACKGROUND", (0, 0), (-1, 0), HexColor("#e8f0fb")),
+                ("GRID", (0, 0), (-1, -1), 0.6, HexColor("#c9c9c9")),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 6),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+                ("TOPPADDING", (0, 0), (-1, -1), 5),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+            ]))
+            flow.append(table)
+            flow.append(Spacer(1, 10))
             continue
 
         heading = re.match(r"^(#{1,3})\s+(.*)", line)
