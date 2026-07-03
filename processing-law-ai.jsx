@@ -58178,6 +58178,12 @@ const FLAT_DICT = {
   the_language_in_the_act: "Specific to public universities, which implies that the Act does not confer these obligations on private universities",
   the_impact_of_these_developments: { definition: "The increasing enrollment of students with disabilities in higher education", what_it_does: "", examples: "visual impairments, auditory impairments, physical impairments, and cognitive impairments" },
 
+  // === INGESTED 2026-07-03 16:03 ===
+  bcpl: "Also the initial language used in the Xerox PARC Alto project",
+  the_programmer: "Always assumed to know what he is doing and is not hemmed in by petty restrictions",
+  several_operating_systems: "Written partially or wholly in BCPL (for example, TRIPOS and the earliest versions of AmigaDOS )",
+  macbcpl: { definition: "Released for the Apple Macintosh in 1985 by Topexpress Ltd, of Kensington, England", what_it_does: "", examples: "Linux, FreeBSD, and Mac OS X" },
+
 };
 
 // ============================================================
