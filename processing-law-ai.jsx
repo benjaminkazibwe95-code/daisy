@@ -56586,6 +56586,12 @@ const FLAT_DICT = {
   research_has_focused_on_where_neuropil: "Found in many different species in order to unveil the range of significance it has and possible functions",
   the_neuropil_in_drosophila_ellipsoid: { definition: "Composed of four substructures", what_it_does: "", examples: "basic leg coordination of walking was normal, whereas speed, activity, and turning were affected" },
 
+  // === INGESTED 2026-07-03 01:53 ===
+  a_defining_property_of_fgfs: "That they bind to heparin and to heparan sulfate",
+  heparan_sulfate_binding: "Mediated through the D3 domain",
+  this_local_action_of_fgf_proteins: { definition: "Classified as paracrine signalling , most commonly through the JAK-STAT signalling pathway or the receptor tyrosine kinase (RTK) pathway", what_it_does: "", examples: "intestine, liver, kidney, adipose, and bone" },
+  the_intervening_loops: "Less well-conserved - the loop between beta-strands 6 and 7 is slightly longer in interleukin-1 beta",
+
 };
 
 // ============================================================
