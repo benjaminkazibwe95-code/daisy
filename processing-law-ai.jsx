@@ -58184,6 +58184,12 @@ const FLAT_DICT = {
   several_operating_systems: "Written partially or wholly in BCPL (for example, TRIPOS and the earliest versions of AmigaDOS )",
   macbcpl: { definition: "Released for the Apple Macintosh in 1985 by Topexpress Ltd, of Kensington, England", what_it_does: "", examples: "Linux, FreeBSD, and Mac OS X" },
 
+  // === INGESTED 2026-07-03 16:28 ===
+  many_of_the_extensions: { definition: "Cytoplasmic protrusions such as the axon and dendrite of a neuron , known also as cytoplasmic processes", what_it_does: "", examples: "pericytes extend processes to wrap around capillaries" },
+  the_podocyte: { definition: "A highly specialised epithelial cell in Bowman's capsule in the kidney", what_it_does: "", examples: "synaptopodin and dendrin" },
+  subsequent_maturation_of_these_microvessels: "The recruitment of pericytes",
+  this_aggregation: { definition: "Believed to serve as a mechanism for trapping pathogens and promoting their elimination by the immune system", what_it_does: "", examples: "amyloid beta and tau proteins , a defining characteristic of AD" },
+
 };
 
 // ============================================================
