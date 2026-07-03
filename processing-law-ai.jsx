@@ -56529,6 +56529,16 @@ const FLAT_DICT = {
   i_enjoy_what: "Called swotting in my day",
   other_shortlisted_figures: "David Hume (12.7%), Ludwig Wittgenstein (6.8%), Friedrich Nietzsche (6.5%), Plato (5.6%), Immanuel Kant (5.6%), Thomas Aquinas (4.8%), Socrates (4",
 
+  // === INGESTED 2026-07-03 01:27 ===
+  molecular_neuroscience: { definition: "A branch of neuroscience that observes concepts in molecular biology applied to the nervous systems of animals", what_it_does: "", examples: "catecholamines by fixing neural tissue sections with formaldehyde" },
+  the_first_ion_channels_to_be_characterized: "The sodium and potassium ion channels by A.L",
+  the_amino_acid_sequence_of_the_protein: { definition: "Analyzed by Edman degradation and then used to construct a cDNA library which could be used to clone the channel protein", what_it_does: "", examples: "identifying the same channels in other animals" },
+  nmda_receptors: { definition: "Notable for their excitatory mechanisms to affect neuronal plasticity in learning and memory, as well as neuropathologies such as stroke and epilepsy", what_it_does: "", examples: "neurotransmitter release)" },
+  typically_these_slow_responses: { definition: "Characterized by more elaborate intracellular changes in biochemistry", what_it_does: "", examples: "acetylcholine , glutamate , GABA , and glycine" },
+  this_mechanism_of_action: { definition: "Discovered in squid giant axons", what_it_does: "", examples: "a knockout of a particular gene only resulted in anxiety-like effects in males" },
+  the_disorder: "Characterized by progressive loss of memory and various cognitive functions",
+  the_inhibitory_outflow_of_the_basal_ganglia: { definition: "Thus not decreased, and so upper motor neurons , mediated by the thalamus , are not activated in a timely manner", what_it_does: "", examples: "inappropriate activation of upper motor neurons" },
+
 };
 
 // ============================================================
