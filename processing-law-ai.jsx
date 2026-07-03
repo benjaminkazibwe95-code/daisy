@@ -56969,6 +56969,9 @@ const FLAT_DICT = {
   dikembe_mutombo: "One of the best African basketball players to ever play the game",
   mutombo: "Well known for humanitarian projects in his home country",
 
+  // === INGESTED 2026-07-03 03:56 ===
+  parts_of_the_mall_which: "Badly damaged in the terrorist attack underwent further reconstruction and remained closed until 2018",
+
 };
 
 // ============================================================
