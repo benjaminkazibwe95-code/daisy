@@ -56903,6 +56903,19 @@ const FLAT_DICT = {
   similar_effects: { definition: "Seen in loanwords for other non-African CV languages like Japanese", what_it_does: "", examples: "Kiswahili and Rutooro , Bantu languages are tonal and have two to four register tones" },
   in_a_few_cases_prefixes: "Used to distinguish languages with the same root in their name, such as Tshilubà and Kiluba (both Luba ), Umbundu and Kimbundu (both Mbundu )",
 
+  // === INGESTED 2026-07-03 03:48 ===
+  increasing_degrees_of_autonomy: { definition: "Recognised for its white settler colonies , some of which were formally reclassified as Dominions by the 1920s", what_it_does: "", examples: "the United Kingdom, retain the same person as monarch , currently King Charles III" },
+  the_foundations_of_the_overseas_british_empire: "Laid when England and Scotland were separate kingdoms, and, at the time ruled by different monarchs",
+  forts_and_trading_posts_established_by_the_hbc: { definition: "Frequently the subject of attacks by the French, who had established their own fur trading colony in adjacent New France", what_it_does: "", examples: "James Island , Accra and Bunce Island" },
+  a_successful_settlement_of_nova_scotia: "Finally achieved in 1629",
+  the_darien_scheme: "A financial disaster for Scotland: a quarter of Scottish capital was lost in the enterprise",
+  american_independence: "Acknowledged at the Peace of Paris in 1783",
+  french_ports: "Blockaded by the Royal Navy , which won a decisive victory over a French Imperial Navy - Spanish Navy fleet at the Battle of Trafalgar in 1805",
+  overseas_colonies: "Attacked and occupied, including those of the Netherlands, which was annexed by Napoleon in 1810",
+  initially_the_canal: "Opposed by the British; [ 138 ] but once opened, its strategic value was quickly recognised and became the 'jugular vein of the Empire'",
+  responsible_government: "First granted to Nova Scotia in 1848, and was soon extended to the other British North American colonies",
+  nauru: { definition: "Made a combined mandate of Britain and the two Pacific Dominions", what_it_does: "", examples: "the British Indian Empire" },
+
 };
 
 // ============================================================
