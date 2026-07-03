@@ -58818,6 +58818,10 @@ const FLAT_DICT = {
   this_relieves_ring_strain_on_the_epoxide_and: { definition: "The driving force of the reaction", what_it_does: "", examples: "2,4,6-Tris(dimethylaminomethyl)phenol" },
   it_has_been_stated_that_this: { definition: "The most widely used room temperature accelerator for two-component epoxy resin systems", what_it_does: "", examples: "ethylamine , are toxic with LD 50 between 100 and 1000 mg/kg" },
 
+  // === INGESTED 2026-07-03 19:11 ===
+  from_this_hypothesis: "Derived the whole number rule , which was the rule of thumb that atomic masses were whole-number multiples of the mass of hydrogen",
+  the_ideal_formula: "FeO, but it is about Fe 0.95 O due to crystallographic vacancies",
+
 };
 
 // ============================================================
