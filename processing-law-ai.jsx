@@ -57621,6 +57621,21 @@ const FLAT_DICT = {
   also_google: "Still working on a new approach based on an erasure-coding mechanism",
   the_cost_of_a_server: "Determined by the quality of the hardware, the storage capacities, and its query-processing and communication overhead",
 
+  // === INGESTED 2026-07-03 06:56 ===
+  outsourcing: { definition: "A business practice in which companies use external providers to carry out business processes that would otherwise be handled internally", what_it_does: "", examples: "manufacturing, facility management , call center /call center support" },
+  the_slogan: { definition: "Primarily used to advocate outsourcing as a viable business strategy", what_it_does: "", examples: "Poland and Romania" },
+  identity_management_cosourcing: { definition: "When on-site hardware [ 73 ] [ 74 ] interacts with outside identity services", what_it_does: "", examples: "cost estimation software" },
+  while_security_and_compliance_issues: "Supposed to be addressed through the contract between the client and the suppliers, fraud cases have been reported",
+  when_and_how: { definition: "Important: 'What is the process for stepping-in' must be clearly defined in the collateral warranty", what_it_does: "", examples: "insourcing and reshoring" },
+  other_issues: "Differences in language and culture",
+  and_other_western_powers_opposing_outsourcing: "Particularly strengthened by the drastic increase in unemployment due to the 2008 financial crisis",
+  often_the_reason: { definition: "To maintain control of critical production or competencies, and insourcing is used to reduce costs of taxes, labor and transportation", what_it_does: "", examples: "China, Malaysia and Vietnam did not return" },
+  the_directive: "Implemented differently in different nations",
+  when_these_changes: "Not well synchronized, unemployment or underemployment is a likely result",
+  outsourcing_on_mexico: "That for every 10% increase in U.S",
+  print_and_mail_outsourcing: { definition: "The outsourcing of document printing and distribution", what_it_does: "", examples: "when The Guardian outsourced most of its marketing design in May 2010" },
+  the_bpo_industry_workforce_in_india: { definition: "Expected to shrink by 14% in 2021", what_it_does: "", examples: "not only the BPO industry but also IT outsourcing services, at $130.9 billion" },
+
 };
 
 // ============================================================
