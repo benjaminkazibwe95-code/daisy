@@ -57771,6 +57771,9 @@ const FLAT_DICT = {
   qubits: "Capable of being in a superposition, i.e",
   this_trait_of_qubits: "Known as quantum entanglement , and is the core idea of quantum computing that allows quantum computers to do large scale computations",
 
+  // === INGESTED 2026-07-03 07:29 ===
+  pankaj_jalote: "The Director of Indraprastha Institute of Information Technology",
+
 };
 
 // ============================================================
