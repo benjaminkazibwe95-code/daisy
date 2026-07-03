@@ -57271,6 +57271,9 @@ const FLAT_DICT = {
   the_number_of_dugongs: { definition: "Dwindling, and it is unknown how many there are or their reproductive trend", what_it_does: "", examples: "the greater flamingo , and booted warbler may be destroyed" },
   the_persian_gulf_and_its_coastal_areas: "The world's largest single source of petroleum, [ 94 ] and related industries dominate the region",
 
+  // === INGESTED 2026-07-03 05:24 ===
+  membe: "Expelled from CCM earlier in the year and moved over to ACT to be able to run for president",
+
 };
 
 // ============================================================
