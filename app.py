@@ -14,7 +14,7 @@ import uuid
 import string
 import secrets
 from datetime import datetime
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_from_directory
 import py_mini_racer
 
 # ============================================================
@@ -947,6 +947,38 @@ init_projects_db()
 def index():
     """Serve Daisy's face."""
     return render_template("index.html")
+
+
+@app.route("/welcome")
+def welcome():
+    """Daisy's public marketing/landing page — separate from the app
+    itself so the existing '/' chat experience is untouched."""
+    return render_template("landing.html")
+
+
+@app.route("/icons/<path:filename>")
+def serve_icons(filename):
+    """
+    Icon files live directly in templates/ (same folder as index.html /
+    landing.html) — no subfolder, so they can be uploaded one at a time
+    from a phone. Flask doesn't serve templates/ over the web on its
+    own, so this route exposes them at /icons/<file>. Restricted to
+    image extensions so it can't be used to fetch the raw .html files
+    sitting in the same folder.
+    """
+    if not filename.lower().endswith((".png", ".ico", ".jpg", ".jpeg", ".svg")):
+        return jsonify({"error": "Not found"}), 404
+    return send_from_directory(app.root_path + "/templates", filename)
+
+
+@app.route("/sw.js")
+def service_worker():
+    """
+    Served at the root path (not /static/sw.js) so its default scope
+    covers the whole app, letting the installed PWA open the app shell
+    instantly instead of a blank/loading screen on a slow connection.
+    """
+    return app.send_static_file("sw.js")
 
 
 @app.route("/api/projects", methods=["POST"])
