@@ -58880,6 +58880,15 @@ const FLAT_DICT = {
   impurities: "Rejected from the growing crystals and are concentrated in the remaining melt",
   the_crystallizer: { definition: "Filled with feed again and the next cooling cycle is started", what_it_does: "", examples: "various colas and jams, providing a tangy or sour taste" },
 
+  // === INGESTED 2026-07-03 19:39 ===
+  sli_batteries: "Not designed for deep discharging, and a full discharge can reduce the battery's lifespan",
+  electric_power_for_the_ignition: "Provided by a magneto , the engine was started with a crank , headlights were gas-powered and a bell or bulb-horn was used instead of an electric horn",
+  the_hudson_motor_car_company: "The first to use a standardized battery in 1918 when they started using Battery Council International batteries",
+  bci: { definition: "The organization that sets the dimensional standards for batteries", what_it_does: "", examples: "the Volkswagen Beetle in the mid-1960s and the Citroën 2CV in 1970" },
+  a_weakness_of_these_batteries_is_that_they: { definition: "Very intolerant of deep discharge, such as when the car battery is completely drained by leaving the lights on", what_it_does: "", examples: "motorcycles" },
+  this_rating: "Required by law in Europe",
+  sulfation_can_happen_when_battery: "Not fully charged and remains discharged",
+
 };
 
 // ============================================================
