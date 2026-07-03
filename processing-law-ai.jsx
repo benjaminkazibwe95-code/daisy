@@ -58627,6 +58627,16 @@ const FLAT_DICT = {
   extraction_of_himalayan_salt: "Expected to last 350 years at the present rate of extraction of around 385,000 tons per annum",
   the_mine: "Also a major tourist attraction, receiving around a quarter of a million visitors a year",
 
+  // === INGESTED 2026-07-03 18:27 ===
+  the_phenomenon_of_stimulated_emission: "Predicted by Albert Einstein in 1916, introducing what is now called the Einstein B Coefficient",
+  the_reverse_process: "Absorption which consumes a photon from the field to raise the energy level of the atom, creating an excited state",
+  the_key_work: "His 1917 paper [ 6 ] which introduced spontaneous and stimulated emission, as well as the Einstein coefficients",
+  the_rate_of_emission: "Thus proportional to the number of atoms in the excited state N 2 , and to the density of incident photons",
+  its_rate: "Precisely the negative of the stimulated emission rate, ∂ N 2 ∂ t = − ∂ N 1 ∂ t = B 12 ρ ( ν ) N 1",
+  the_photons_involved: "Thus mutually coherent",
+  the_two_photons: "Completely indistinguishable particles and can be considered 'cloned biphotons'",
+  since_more_atoms: "In the excited state than in the ground state then an amplification of the input intensity results",
+
 };
 
 // ============================================================
