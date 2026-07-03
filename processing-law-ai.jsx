@@ -58973,6 +58973,27 @@ const FLAT_DICT = {
   the_nearinfrared_counterpart: "Determined by spectroscopic observations",
   the_jet_of_materials_being_ejected: "Occasionally choked off by a hot wind blowing off the accretion disk",
 
+  // === INGESTED 2026-07-03 20:15 ===
+  the_center_of_the_spinal_cord: "Hollow and contains a structure called the central canal , which contains cerebrospinal fluid",
+  the_human_spinal_cord: "Divided into segments where pairs of spinal nerves (mixed; sensory and motor) form",
+  the_peripheral_nervous_system: "Made up of these spinal roots, nerves, and ganglia",
+  the_dorsal_roots: "Afferent fascicles , receiving sensory information from the skin, muscles, and visceral organs to be relayed to the brain",
+  the_dura_mater: "The outermost layer, and it forms a tough protective coating",
+  the_epidural_space: "Filled with adipose tissue , and it contains a network of blood vessels",
+  internal_to_this_peripheral_region: "The grey matter , which contains the nerve cell bodies arranged in the three grey columns that give the region its butterfly-shape",
+  the_posterior_median_sulcus: "The groove in the dorsal side, and the anterior median fissure is the groove in the ventral side",
+  the_inferior_part_of_the_vertebral_canal: "Filled with cerebrospinal fluid and the space is called the lumbar cistern",
+  the_three_longitudinal_arteries: { definition: "The anterior spinal artery , and the right and left posterior spinal arteries", what_it_does: "", examples: "during aortic aneurysm repair, can result in spinal cord infarction and paraplegia" },
+  the_collection_of_secondary_axons_that_do_this: "Known as internal arcuate fibers",
+  the_tract_that_ascends_before_synapsing: "Known as Lissauer's tract",
+  the_cell_bodies_of_these_primary_neurons: { definition: "Located in the dorsal root ganglia", what_it_does: "", examples: "the fastigial and interposed nuclei" },
+  this_tract: "Known as the cuneocerebellar tract",
+  the_descending_tracts: "Composed of white matter",
+  the_dl_neurons: "Involved in distal limb control",
+  spinal_shock: { definition: "Usually temporary, lasting only for 24–48 hours, and is a temporary absence of sensory and motor functions", what_it_does: "", examples: "that of the head" },
+  regeneration: "Facilitated by maintaining electric transmission in neural elements",
+  spinal_stenoses_at_the_lumbar_region: "Usually due to disc herniation , hypertrophy of the facet joint and ligamentum flavum , osteophyte , and spondylolisthesis",
+
 };
 
 // ============================================================
