@@ -58872,6 +58872,14 @@ const FLAT_DICT = {
   each_base: "Likewise characterized by its own E B and C B",
   barrierfree_reactions: "(initially) unselective or (subsequently) determined by equilibrium thermodynamics",
 
+  // === INGESTED 2026-07-03 19:37 ===
+  phosphoric_acid: { definition: "Produced industrially by one of two routes, wet processes and dry", what_it_does: "", examples: "calcium hydroxyapatite or fluorapatite are treated with sulfuric acid" },
+  silica: "Also added, resulting in the production of calcium silicate slag",
+  elemental_phosphorus: "Distilled out of the furnace and burned with air to produce high-purity phosphorus pentoxide , which is dissolved in water to make phosphoric acid",
+  the_wet_process: { definition: "The most common method of producing phosphoric acid for fertilizer use", what_it_does: "", examples: "tributyl phosphate (TBP), methyl isobutyl ketone (MIBK), or n -octanol" },
+  impurities: "Rejected from the growing crystals and are concentrated in the remaining melt",
+  the_crystallizer: { definition: "Filled with feed again and the next cooling cycle is started", what_it_does: "", examples: "various colas and jams, providing a tangy or sour taste" },
+
 };
 
 // ============================================================
