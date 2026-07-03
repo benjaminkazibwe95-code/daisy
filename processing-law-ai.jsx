@@ -56444,6 +56444,14 @@ const FLAT_DICT = {
   much_research_in_these_and_other_areas: { definition: "Related directly or indirectly to behaviors important to survival in natural settings, such as navigation, tool use, and numerical competence", what_it_does: "", examples: "huskies have been known to ruin gardens and houses if they are not allowed enough activity" },
   pet_ownership: "Found to be positively associated with some forms of social contact and interaction, and with perceptions of neighborhood friendliness",
 
+  // === INGESTED 2026-07-03 01:01 ===
+  the_mood_disorders: { definition: "A group of disorders considered to be primary disturbances of mood", what_it_does: "", examples: "stress, violence, or deprivation" },
+  the_beck_depression_inventory: "A self-report scale that helps a therapist identify the patterns of depression symptoms and monitor recovery",
+  evolutionary_approaches_to_depression: "Attempts by evolutionary psychologists and evolutionary psychiatrists to use the theory of evolution to further understand mood disorders",
+  the_biology_of_depression: "The attempt to identify a biochemical origin of depression, as opposed to theories that emphasize psychological or situational causes",
+  although_antidepressant_medications: "Frequently prescribed, many residents prefer non-pharmacological treatments such as psychological therapies",
+  personality_types: "Similarly thought to be determined by the dominant humor in a particular person",
+
 };
 
 // ============================================================
