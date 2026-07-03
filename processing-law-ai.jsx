@@ -56617,6 +56617,27 @@ const FLAT_DICT = {
   abnormalities_in_brain_structure_and_function: "Often associated with deficits that may persist for years after the stress is removed, and may be a risk factor for future psychopathology",
   common_types_of_early_life_stress_that: "Documented include maltreatment, neglect, and previous institutionalization",
 
+  // === INGESTED 2026-07-03 02:01 ===
+  primates: { definition: "Among the most social of all animals, forming pairs or family groups, uni-male harems, and multi-male/multi-female groups", what_it_does: "", examples: "herpes , measles , ebola , rabies and hepatitis" },
+  thousands_of_nonhuman_primates: "Used in research around the world because of their psychological and physiological similarity to humans",
+  the_english_name_primates: { definition: "Derived from Old French or French primat , from a noun use of Latin primat- , from primus ('prime, first rank')", what_it_does: "", examples: "prosimians , monkeys , lesser apes , and great apes reflect this methodology" },
+  one_remedy: "To create a new common name, in this case hominoids",
+  order_primates: "Part of the clade Euarchontoglires , which is nested within the clade Eutheria of Class Mammalia",
+  the_first_hominin_fossils: { definition: "Discovered in northern Africa and date back 5–8 mya", what_it_does: "", examples: "subspecies" },
+  prosimians: { definition: "Distinguished by their immobilized upper lips, the moist tip of their noses and forward-facing lower front teeth", what_it_does: "", examples: "also have them)" },
+  studies_have_shown_that_dimorphism: "The product of changes in both male and female traits",
+  several_prosimians: "Primarily vertical clingers and leapers",
+  most_monkeys: { definition: "Both arboreal and terrestrial quadrupeds and climbers", what_it_does: "", examples: "the night monkeys and bush babies , are often monochromatic" },
+  catarrhines: "Routinely trichromatic due to a gene duplication of the red-green opsin gene at the base of their lineage, 30 to 40 million years ago",
+  color_vision_in_strepsirrhines: "Not as well understood; however, research indicates a range of color vision similar to that found in platyrrhines",
+  copulation_in_primates_typically: "The males mounting the females from behind, as with most mammals",
+  human_sex_positions: { definition: "Modifications of these two positions", what_it_does: "", examples: "homosexual behaviour" },
+  adult_males_may_kill_dependent_offspring_that: { definition: "Not theirs so the female will return to estrus and thus they can sire offspring of their own", what_it_does: "", examples: "humans, derive from an early ancestor's practice of taking most of its food from the tropical canopy" },
+  they_will_break_off_a_tree_branch_that: "About 30 cm long, snap off the twigs, fray one end and then use the stick to dig in tree holes for termites",
+  nhps: { definition: "Commonly used in preclinical trials , neuroscience , ophthalmology studies, and toxicity studies", what_it_does: "", examples: "87% of species in Madagascar, 73% in Asia, 37% in Africa, and 36% in South and Central America" },
+  largescale_tropical_forest_clearing: { definition: "Widely regarded as the process that most threatens primates", what_it_does: "", examples: "guenons and the drill are hunted at levels that far exceed sustainable levels" },
+  large_tracts_of_forest: { definition: "Now rare in Central America", what_it_does: "", examples: "farmland encroachment, lower levels of humidity and a change in plant life" },
+
 };
 
 // ============================================================
