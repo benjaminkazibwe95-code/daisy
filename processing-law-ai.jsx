@@ -56686,6 +56686,16 @@ const FLAT_DICT = {
   acidophilic_neurons: "Often found in the first 12–24 hours after an ischemic injury such as a stroke",
   since_neurons: "Permanent cells, they are most susceptible to hypoxic injury",
 
+  // === INGESTED 2026-07-03 02:25 ===
+  adenosine: "Believed to be an anti-inflammatory agent at the A 2A receptor",
+  when_adenosine: "Used to cardiovert an abnormal rhythm, it is normal for the heart to enter ventricular asystole for a few seconds",
+  if_the_initial_dose: { definition: "Ineffective, it may be repeated every 2 minutes with a slightly increased dose (0.05–0", what_it_does: "", examples: "in a 'stress test', the dosage is typically 0" },
+  the_dose: "Often decreased in patients on dipyridamole (Persantine) and diazepam (Valium) because adenosine potentiates the effects of these drugs",
+  the_four_receptor_subtypes: "Further classified based on their ability to either stimulate or inhibit adenylate cyclase activity",
+  where_the_endothelium: "Not separated from the tunica media by atherosclerotic plaque",
+  other_coronary_arteries_dilate_when_adenosine: "Administered while the segment past the occlusion is already maximally dilated, which is a process called coronary steal",
+  adenosine_deaminase_deficiency: "A known cause of immunodeficiency",
+
 };
 
 // ============================================================
