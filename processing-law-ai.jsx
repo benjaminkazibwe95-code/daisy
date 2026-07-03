@@ -56916,6 +56916,31 @@ const FLAT_DICT = {
   responsible_government: "First granted to Nova Scotia in 1848, and was soon extended to the other British North American colonies",
   nauru: { definition: "Made a combined mandate of Britain and the two Pacific Dominions", what_it_does: "", examples: "the British Indian Empire" },
 
+  // === INGESTED 2026-07-03 03:50 ===
+  his_contribution_to_the_wedding_festivities: "A crate of beer, all his army salary could afford",
+  embassy_staff: "Each assigned a list of delegation members to meet, and discussed their impressions afterward",
+  but_everyone_agreed_that_this: "An extremely intelligent man, very young, perhaps immature, but a man with great potential",
+  the_two_main_candidates_for_the_post: "Minister of Youth and Sports Maurice Mpolo and Mobutu",
+  it_was_to_him_that_we_appealed_when_our_people: { definition: "Arrested by Lumumba's hashish-stimulated guards", what_it_does: "", examples: "meet the pay roll of the potentially mutinous Congolese army" },
+  kasavubu: "Encouraged by the US and Belgium to dismiss Lumumba, which he did on 5 September",
+  lumumba_rejected_this_action_but: "Forced to retire to his residence, where UN peacekeepers prevented Mobutu's soldiers from arresting him",
+  it_was_later_discovered_that_he: "Executed the same day by the secessionist forces of Moise Tshombe , after Mobutu's government turned him over",
+  historian_de_witte_argues_that_this: "A political action, 'aimed to strengthen the army, the president's sole support, and Mobutu's position within the army'",
+  one_of_his_key_tenets_early_in_his_rule: "'authentic Congolese nationalism'",
+  uprisings_by_former_katangan_gendarmeries: "Crushed, as were the Stanleyville mutinies of 1967 led by white mercenaries",
+  casting_a_green_ballot: "Deemed a vote for hope, while a red ballot was deemed a vote for chaos",
+  the_constitution_stated_that_the_mpr: "Embodied by the party's president, who was elected every seven years at its national convention",
+  a_single_list_of_mpr_candidates: "Returned to the legislature every five years with equally implausible margins; official figures gave the MPR list unanimous or near-unanimous support",
+  while_mulele: "Still alive, his eyes were gouged out, his genitals were ripped off, and his limbs were amputated one by one",
+  most_of_the_money: "Siphoned off to Mobutu, his family, and top political and military leaders",
+  his_portraits: { definition: "Hung in many public places, and government officials wore lapel pins bearing his portrait", what_it_does: "", examples: "the International Monetary Fund" },
+  mobutu_and_his_family: "Received as personal guests of the Belgian monarch in 1968, and a convention for scientific and technical cooperation was signed that same year",
+  the_expedition: { definition: "A fiasco with far-reaching repercussions, most notably the Shaba I and Shaba II invasions, both of which China opposed", what_it_does: "", examples: "Richard Nixon , Ronald Reagan , and George H" },
+  the_lesson: "That my support for American policy counts for nothing",
+  the_antimobutu_government: { definition: "Headed by Laurent Monsengwo and Étienne Tshisekedi of the Union for Democracy and Social Progress (UDPS)", what_it_does: "", examples: "many of the génocidaires , to flee into refugee camps in eastern Zaire" },
+  however_the_talks_stalled_as_kabila: "Reluctant to negotiate and deplete the momentum of his forces, potentially seeing it as giving Mobutu the advantage to regroup his forces",
+  according_to_the_documentary_when_we: "Kings , promoter Don King promised each fighter five million dollars (U.S.) for the fight",
+
 };
 
 // ============================================================
