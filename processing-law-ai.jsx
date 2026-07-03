@@ -57829,6 +57829,12 @@ const FLAT_DICT = {
   these_other_entities: "Not necessarily trusted from a security standpoint",
   the_network_connection_to_an_extranet: "Often, but not always, implemented via WAN technology",
 
+  // === INGESTED 2026-07-03 07:48 ===
+  the_posix_standard: "Developed by the Austin Group (a joint working group among the IEEE, The Open Group , and the ISO/IEC JTC 1/SC 22 /WG 15)",
+  posix: { definition: "A trademark of the IEEE", what_it_does: "", examples: "SUS version 3 (SUSv3) includes volumes labeled issue 6" },
+  the_family_of_posix_standards: "Formally designated as IEEE 1003 and the ISO/IEC standard number is ISO / IEC 9945",
+  when_richard_stallman_and_the_gnu_team: "Implementing POSIX for the GNU operating system , they objected to this on the grounds that most people think in terms of 1024 byte (or 1 KiB ) blocks",
+
 };
 
 // ============================================================
