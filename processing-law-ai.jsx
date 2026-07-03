@@ -57650,6 +57650,37 @@ const FLAT_DICT = {
   rose_was_reportedly_upset_that_he: { definition: "Not considered for the CEO vacancy, which became apparent once Michael Capellas was named COO", what_it_does: "", examples: "Dell who took over the top spot of PC manufacturer from Compaq in 2001" },
   plus_there: { definition: "Significant cultural differences between HP and Compaq; which made decisions by consensus and rapid autocratic styles, respectively", what_it_does: "", examples: "Jeff Clarke and Peter Blackmore would resign or be ousted from the post-merger HP" },
 
+  // === INGESTED 2026-07-03 07:01 ===
+  development_of_the_saturn_v_rocket: "Led by Wernher von Braun and his team at the Marshall Space Flight Center , derived from the Army Ballistic Missile Agency's original Saturn I",
+  the_apollo_spacecraft: "Designed and built by North American Aviation , while the Apollo Lunar Module was designed and built by Grumman",
+  the_ranger_program: "Started in the 1950s as a response to Soviet lunar exploration, however most missions ended in failure",
+  the_first_lunar_landing: "Conducted by Apollo 11",
+  skylab_hosted_nine_missions_and: "Decommissioned in 1974 and deorbited in 1979, two years prior to the first launch of the Space Shuttle and any possibility of boosting its orbit",
+  the_mariner_program: "Its flagship program, launching probes to Venus , Mars , and Mercury in the 1960s",
+  the_first_planet_tagged_for_exploration: "Venus , sharing many similar characteristics to Earth",
+  future_missions: "Flybys of Venus, on their way to other destinations in the Solar System",
+  the_uhuru_satellite: "The first dedicated x-ray telescope, mapping 85% of the sky and discovering a large number of black holes",
+  the_chandra_xray_observatory: "Launched from the Columbia on STS-93 in 1999, observing black holes, quasars , supernova , and dark matter",
+  the_james_webb_space_telescope: "A strategic mission that was developed over a period of more than 20 years",
+  while_almost_all_previous_astronauts: "Air Force or Naval test pilots, the Space Shuttle allowed NASA to begin recruiting more non-military scientific and technical experts",
+  a_prime_example: "Sally Ride , who became the first American woman to fly in space on STS-7",
+  several_redesigns_to_reduce_cost: "Conducted in the early 1990s, stripping away much of its functions",
+  a_crew_dragon_spacecraft: { definition: "Launched to space atop a Falcon 9 Block 5 launch vehicle and the capsule returns to Earth via splashdown in the ocean near Florida", what_it_does: "", examples: "ESA, JAXA, and Canadian Space Agency" },
+  the_orion_crew_exploration_vehicle: "Held over from the canceled Constellation program for Artemis",
+  artemis_i: "The uncrewed initial launch of Space Launch System (SLS) that would also send an Orion spacecraft on a Distant Retrograde Orbit",
+  the_landing: { definition: "Pushed to Artemis IV , planned for early 2028", what_it_does: "", examples: "Intuitive Machines , Firefly Space Systems , and Astrobotic" },
+  the_mission_development_construct: "Defined by four umbrella programs",
+  the_small_explorer_missions: "Required to limit cost to NASA to below $150M (2022 dollars)",
+  the_explorer_program_office: "Based at NASA Goddard Space Flight Center",
+  the_planetary_mission_program_office: "Based at the NASA Marshall Space Flight Center and manages both the Discovery and New Frontiers missions",
+  osirisrex_and_new_horizons: "Examples of New Frontiers missions",
+  strategic_missions: "Developed on an ad-hoc basis as program objectives and priorities are established",
+  three_of_the_great_observatories: "Strategic missions (the Chandra X-ray Observatory , the Compton Gamma Ray Observatory , and the Hubble Space Telescope )",
+  europa_clipper: "The next large strategic mission in development by NASA",
+  these_telescopes_have_provided_the: { definition: "To study the cosmos over a large range of the electromagnetic spectrum", what_it_does: "", examples: "neutron stars and pulsar wind nebulae, as well as stellar and supermassive black holes" },
+  the_primary_goal_of_esds: "To maximize the scientific return from NASA's missions and experiments for research and applied scientists, decision makers, and society at large",
+  travel_to_mars: { definition: "Significantly longer and deeper into space, significant medical issues can result", what_it_does: "", examples: "asteroids and comets and develop potential responses and defenses against these threats" },
+
 };
 
 // ============================================================
