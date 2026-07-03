@@ -56793,6 +56793,9 @@ const FLAT_DICT = {
   the_tsh_receptor: "Found mainly on thyroid follicular cells",
   a_tsh_assay: "Now also the recommended screening tool for thyroid disease",
 
+  // === INGESTED 2026-07-03 03:14 ===
+  the_official_name_of_the_standard: "Codes for the representation of names of countries and their subdivisions",
+
 };
 
 // ============================================================
