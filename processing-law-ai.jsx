@@ -56941,6 +56941,34 @@ const FLAT_DICT = {
   however_the_talks_stalled_as_kabila: "Reluctant to negotiate and deplete the momentum of his forces, potentially seeing it as giving Mobutu the advantage to regroup his forces",
   according_to_the_documentary_when_we: "Kings , promoter Don King promised each fighter five million dollars (U.S.) for the fight",
 
+  // === INGESTED 2026-07-03 03:52 ===
+  the_territory_of_the_congo: "First inhabited by Central African foragers around 90,000 years ago and was settled in the Bantu expansion about 2,000 to 3,000 years ago",
+  these_kingdoms: { definition: "Broken up by Europeans during the colonization of the Congo Basin", what_it_does: "", examples: "forced disappearances , torture, arbitrary imprisonment and restrictions on civil liberties" },
+  the_congo_river: "Renamed the Zaire River",
+  congo: { definition: "The preferred English name in 19th-century literature, although references to Zaire as the name used by the natives (i.e", what_it_does: "", examples: "the Luba and Lunda Empires" },
+  although_relative_peace_and_stability: { definition: "Achieved, Mobutu's government was guilty of severe human rights violations, political repression , a cult of personality , and corruption", what_it_does: "", examples: "roads to deteriorate to as little as one-quarter of what had existed in 1960" },
+  a_transitional_government: "Set up until an election was held",
+  a_constitution: "Approved by voters; further, on 30 July 2006, DRC held its first multi-party elections",
+  the_united_nations_mission_in_the_drc: "Its largest and most expensive peacekeeping effort, but it shut down five UN bases near Masisi in 2017, after the U.S",
+  the_glaciated_rwenzori_mountains: "Found in the extreme eastern region",
+  the_sources_of_the_congo_river: "In the Albertine Rift Mountains that flank the western branch of the East African Rift , as well as Lake Tanganyika and Lake Mweru",
+  kinshasa_and_brazzaville: "On opposite sides of the river at the Pool",
+  there_is_also_a_separate_republican_guard_that: "Outside of the FARDC command structure, being directly responsible to the president",
+  besides_kinshasa_there: "Three other international airports in the DRC, which are at Lubumbashi , Kisangani , and Goma",
+  river_transports: "Owned by many private operators",
+  kinshasa: "Connected by river ferry to Ilebo , where the rail line to Lubumbashi begins",
+  the_track_and_rolling_stock_of_the_sncc_system: { definition: "In poor condition, though the more recently built Matadi–Kinshasa line has better track", what_it_does: "", examples: "Lubumbashi" },
+  both_coal_and_crude_oil_resources: "Mainly used domestically up to 2008",
+  the_only_interconnected_part_of_the_power_grid: "The high voltage transmission line between the Inga dams in Kongo Central and the southern DRC",
+  official_figures: "Unavailable, partly due to the predominance of the informal economy in the DRC",
+  emigrants_from_the_drc: "Above all long-term emigrants, the majority of whom live in Africa and to a lesser extent in Europe; 79.7% and 15.3% respectively, in 2000",
+  kimbanguism: "Seen as a threat to the colonial regime and was banned by the Belgians",
+  though_the_religion: { definition: "Banned in the 1970s and 1980s, due to misrepresentations of foreign governments, the ban was lifted by the end of the 1980s", what_it_does: "", examples: "the Congo Children Trust" },
+  the_usual_term_for_these_children: { definition: "Enfants sorciers (child witches) or enfants dits sorciers (children accused of witchcraft)", what_it_does: "", examples: "outbreaks of Ebola , measles , and malaria , and its healthcare system is under-resourced" },
+  the_sports: "Played in numerous stadiums throughout the country, including the Stade Frederic Kibassa Maliba",
+  dikembe_mutombo: "One of the best African basketball players to ever play the game",
+  mutombo: "Well known for humanitarian projects in his home country",
+
 };
 
 // ============================================================
