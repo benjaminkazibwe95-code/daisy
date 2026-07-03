@@ -56302,6 +56302,11 @@ const FLAT_DICT = {
   both_sonar_and_vision: "Regarded as perceptual experiences",
   physicalism_claims_that_states_and_events: "Physical, but those physical states and events are only imperfectly characterized",
 
+  // === INGESTED 2026-07-03 00:23 ===
+  sameroff: { definition: "An early contributor to the field of developmental psychology in the 1970s", what_it_does: "", examples: "a child and parent, that result in the modification of each individual's behavior" },
+  together_with_michael_chandler_he: "Known for developing the transactional model of development",
+  problem_behavior: { definition: "Seen to result from the way an individual's characteristics affect and are affected by others", what_it_does: "", examples: "ethnic, socioeconomic, and neighborhood backgrounds within a general systems theory framework" },
+
 };
 
 // ============================================================
