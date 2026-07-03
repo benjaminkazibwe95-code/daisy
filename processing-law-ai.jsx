@@ -56858,6 +56858,15 @@ const FLAT_DICT = {
   the_greatest_amount_of_funding: { definition: "Directed towards basic research of the disease; approximately US$21.6 million was directed towards that effort", what_it_does: "", examples: "philanthropic foundations and private pharmaceutical companies, to fill" },
   these_types_of_partnerships: { definition: "More effective than industry or public groups working independently", what_it_does: "", examples: "cattle and wild animals" },
 
+  // === INGESTED 2026-07-03 03:35 ===
+  ugandan_words: { definition: "Often inserted into English because the English equivalent does not convey the sense the Ugandan speaker intends", what_it_does: "", examples: "many cell phones in Uganda have torches , as an accessory of the phones" },
+  the_luganda_conjunction_nti: "Often slipped into English sentences instead of that",
+  the_expression_well_done: { definition: "Extrapolated to specific actions", what_it_does: "", examples: "'I am going to change into a dress' becomes 'I'm going to ku-changi-nga" },
+  the_personal_pronoun: "Usually added to imperative sentences",
+  standard_english_spelling_rules: "Often openly disregarded, even in official publications",
+  businesses_that: "Labelled saloons are, in reality, western salons",
+  another_frequent_change: "The confusion of u / ʌ / and a / æ /",
+
 };
 
 // ============================================================
