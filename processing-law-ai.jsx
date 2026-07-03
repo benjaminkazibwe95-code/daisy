@@ -58595,6 +58595,13 @@ const FLAT_DICT = {
   this_layer_of_particles: "Called the boundary layer",
   it_also_implies_that_external_forces: "Balanced (volume does not change), and all chemical reactions within the system are complete",
 
+  // === INGESTED 2026-07-03 18:18 ===
+  an_exotic_atom: { definition: "An otherwise normal atom in which one or more subatomic particles have been replaced by other particles", what_it_does: "", examples: "muons (muonic atoms) or pions (pionic atoms)" },
+  since_leptons: "Only sensitive to weak , electromagnetic and gravitational forces, muonic atoms are governed to very high precision by the electromagnetic interaction",
+  muon_capture: "Very important in heavier muonic atoms, but shortens the muon's lifetime from 2.2 μs to only 0.08 μs",
+  its_chemical_behavior: { definition: "More like a hydrogen atom than an inert helium atom", what_it_does: "", examples: "mesonic molecules and pentaquark states" },
+  such_hypernuclear_atoms: { definition: "Generally studied for their nuclear behaviour, falling into the realm of nuclear physics rather than atomic physics", what_it_does: "", examples: "pyramidal hexamethylbenzene and a Rydberg atom" },
+
 };
 
 // ============================================================
