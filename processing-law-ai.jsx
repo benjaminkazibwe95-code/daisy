@@ -58790,6 +58790,9 @@ const FLAT_DICT = {
   seven_of_them: "Air-stable at room temperature, and these are given in the table below",
   two_structural_isomers: "The enol tautomers of the carbonyl isomers (propionaldehyde and acetone), but these are not stable",
 
+  // === INGESTED 2026-07-03 19:05 ===
+  the_positive_charge_on_x: "Transferred to the carbon-carbon bond, forming a carbocation during the formation of the C-X bond",
+
 };
 
 // ============================================================
