@@ -58320,6 +58320,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 17:02 ===
   charged_particles: "Labeled as either positive (+) or negative (-)",
 
+  // === INGESTED 2026-07-03 17:04 ===
+  a_variety_of_methods_of_torture: { definition: "Used, often in combination; the most common form of physical torture is beatings", what_it_does: "", examples: "treason , often only when some evidence already existed" },
+
 };
 
 // ============================================================
