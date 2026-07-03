@@ -56571,6 +56571,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 01:40 ===
   another_class_of_event_sensors: { definition: "So-called retinomorphic sensors", what_it_does: "", examples: "object recognition, autonomous vehicles, and robotics" },
 
+  // === INGESTED 2026-07-03 01:42 ===
+  segerstrom: "A professor of Psychology and biostatistician at the University of Kentucky",
+
 };
 
 // ============================================================
