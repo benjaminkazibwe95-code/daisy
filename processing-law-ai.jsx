@@ -58403,6 +58403,34 @@ const FLAT_DICT = {
   a_spontaneous_reaction: "A chemical reaction which is a spontaneous process under the conditions of interest",
   if_these_two_signs: "The same (both positive or both negative), then the sign of Δ G will change from positive to negative (or vice-versa) at the temperature T = Δ H /Δ S",
 
+  // === INGESTED 2026-07-03 17:28 ===
+  a_common_source_of_ionizing_radiation: "Radioactive materials that emit α, β, or γ radiation , consisting of helium nuclei , electrons or positrons , and photons , respectively",
+  radio_wavelengths_and_below_generally: "Not regarded as harmful to biological systems",
+  ionization_occurs_when_an_electron: "Stripped (or 'knocked out') from an electron shell of the atom, which leaves the atom with a net positive charge",
+  while_an_individual_cell: "Made of trillions of atoms, only a small fraction of those will be ionized at low to moderate radiation powers",
+  if_the_source_of_the_ionizing_radiation: "A radioactive material or a nuclear process such as fission or fusion , there is particle radiation to consider",
+  particle_radiation: "Subatomic particles accelerated to relativistic speeds by nuclear reactions",
+  since_this_radiation: { definition: "Invisible and not directly detectable by human senses, instruments such as Geiger counters are usually required to detect its presence", what_it_does: "", examples: "the Chernobyl disaster" },
+  the_soft_tissue_in_the_human_body: { definition: "Composed of smaller atoms than the calcium atoms that make up bone, so there is a contrast in the absorption of X-rays", what_it_does: "", examples: "water or concrete)" },
+  even_air: "Capable of absorbing gamma rays, halving the energy of such waves by passing through, on the average, 500 ft (150 m)",
+  alpha_particles: "Helium-4 nuclei (two protons and two neutrons)",
+  alpha_radiation: "Dangerous when alpha-emitting radioisotopes are inhaled or ingested (breathed or swallowed)",
+  examples_of_highly_poisonous_alphaemitters: "All isotopes of radium , radon , and polonium , due to the amount of decay that occur in these short half-life materials",
+  beta_radiation_from_linac_accelerators: "Far more energetic and penetrating than natural beta radiation",
+  thus_water: { definition: "Only very weakly capable of activation", what_it_does: "imparts most of the neutron's energy to the proton, much like one billiard ball striking another", examples: "" },
+  highenergy_neutrons: { definition: "Very penetrating and can travel great distances in air (hundreds or even thousands of metres) and moderate distances (several metres) in common solids", what_it_does: "", examples: "concrete or water, to block them within distances of less than 1 m" },
+  a_familiar_example_of_thermal_ionization: "The flame-ionization of a common fire, and the browning reactions in common food items induced by infrared radiation, during broiling-type cooking",
+  ir_wavelengths: "Longer than that of visible light, but shorter than that of microwaves",
+  naturally_occurring_radio_waves: "Made by lightning, or by certain astronomical objects",
+  for_a_given_temperature_of_a_blackbody_there: "A particular frequency at which the radiation emitted is at its maximum intensity",
+  the_discovery_of_infrared_radiation: "Ascribed to William Herschel , the astronomer",
+  ritter_noted_that_the_uv_rays: "Capable of causing chemical reactions",
+  henri_becquerel_himself_proved_that_beta_rays: "Fast electrons, while Rutherford and Thomas Royds proved in 1909 that alpha particles are ionized helium",
+  the_nature_of_these_radiations: "Only gradually understood in later years",
+  the_neutron_and_neutron_radiation: "Discovered by James Chadwick in 1932",
+  radiation_and_radioactive_substances: { definition: "Used for diagnosis, treatment, and research", what_it_does: "", examples: "pass through muscles and other soft tissue but are stopped by dense materials" },
+  they_do_not_have_as_much_energy_so_they: "Not able to ionize cells",
+
 };
 
 // ============================================================
