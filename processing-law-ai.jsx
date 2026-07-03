@@ -57406,6 +57406,10 @@ const FLAT_DICT = {
   is_aware_of_this_issue_and: "Working to resolve it as quickly as possible'",
   executives: "Asked about this issue, and responded: 'We know the sale of shark products is both legal in Asia and a centuries-old tradition",
 
+  // === INGESTED 2026-07-03 06:01 ===
+  such_portions_in_general: { definition: "Commonly called 'components' or 'elements' of a document", what_it_does: "", examples: "lists, not merely list items; sections, not merely section headings; and so on" },
+  a_document_that_follows_these_rules: { definition: "Considered 'valid.' [ 2 ] Some systems support flexible component types while maintaining syntactic rules", what_it_does: "", examples: "paragraph, title, and code; but also format-oriented ones such as italic, bold, and most table" },
+
 };
 
 // ============================================================
