@@ -58050,6 +58050,15 @@ const FLAT_DICT = {
   cheng_did_not_withdraw_and: "Elected to the leadership role",
   cheng_responded_that_the_restructuring: { definition: "A layoff of one person", what_it_does: "", examples: "banning pride flags and incarcerating all transgender people en masse" },
 
+  // === INGESTED 2026-07-03 08:22 ===
+  the_san_francisco_chronicle: { definition: "A newspaper serving primarily the San Francisco Bay Area of Northern California", what_it_does: "", examples: "both content from the newspaper and other sources" },
+  the_chronicle: "Founded by brothers Charles and M",
+  their_brother_gustavus: "Named with Charles on the masthead",
+  it_is_a_historic_landmark_and: "The location of the Ritz-Carlton Club and Residences",
+  audrey_cooper: "Named editor-in-chief in January 2015 and was the first woman to hold the position",
+  carl_nolte: "A journalist and columnist",
+  its_baseball_coverage: "Anchored by Henry Schulman, John Shea, and Susan Slusser , the first female president of the Baseball Writers' Association of America (BBWAA)",
+
 };
 
 // ============================================================
