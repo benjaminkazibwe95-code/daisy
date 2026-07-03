@@ -57028,6 +57028,9 @@ const FLAT_DICT = {
   because_italy: { definition: "The birthplace of opera and a leading center of musical innovation, its terminology was adopted internationally", what_it_does: "", examples: "in English" },
   the_original_hand_talk: { definition: "Found across Indian Country in pockets, but it has also been employed to create new or revive old languages, such as with Oneida Sign Language", what_it_does: "", examples: "in LSF , ASL , BSL , Libras , or Auslan" },
 
+  // === INGESTED 2026-07-03 04:26 ===
+  socotra_swahili: "An extinct variety of Swahili , a Bantu language, that was formerly spoken on the island of Socotra in Yemen",
+
 };
 
 // ============================================================
