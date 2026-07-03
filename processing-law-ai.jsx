@@ -58842,6 +58842,21 @@ const FLAT_DICT = {
   sodium_hydroxide_relaxers: "Still available, but they are used mostly by professionals",
   a_solution_of_sodium_hydroxide_in_water: "Traditionally used as the most common paint stripper on wooden objects",
 
+  // === INGESTED 2026-07-03 19:26 ===
+  all_definitions_agree_that_bases: "Substances that react with acids , as originally proposed by G.-F",
+  such_aqueous_hydroxide_solutions: "Also described by certain characteristic properties",
+  a_soluble_base: "Called an alkali if it contains and releases OH − ions quantitatively",
+  if_the_aqueous_solution: { definition: "Saturated with a given salt solute , any additional such salt precipitates out of the solution", what_it_does: "", examples: "aqueous solutions of ammonia (NH 3 ) or its organic derivatives ( amines )" },
+  one_notable_example: "Boron trifluoride (BF 3 )",
+  bases: "Generally compounds that can neutralize an amount of acid",
+  both_sodium_carbonate_and_ammonia: { definition: "Bases, although neither of these substances contains OH − groups", what_it_does: "", examples: "water: From this, a pH , or acidity, can be calculated for aqueous solutions of bases" },
+  a_strong_base_is_a_base_that: "Quantitatively protonated upon exposure to water",
+  this_complete_protonation: { definition: "A result of the leveling effect", what_it_does: "", examples: "alkaline earth hydroxides, can be used when the solubility factor is not taken into account" },
+  tetraalkylated_ammonium_hydroxides: "Also strong bases since they dissociate completely in water",
+  guanidine_is_a_special_case_of_a_species_that: { definition: "Exceptionally stable when protonated, analogously to the reason that makes perchloric acid and sulfuric acid very strong acids", what_it_does: "", examples: "sodium into the conjugate acid or through metal halogen exchange" },
+  adducts_involving_metal_ions: "Usually described as coordination complexes",
+  basic_catalysts: "Used for hydrogenation , the migration of double bonds , in the Meerwein-Ponndorf-Verley reduction , the Michael reaction , and many others",
+
 };
 
 // ============================================================
