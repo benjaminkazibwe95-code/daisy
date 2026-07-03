@@ -57223,6 +57223,23 @@ const FLAT_DICT = {
   a_special_issue: "Published in 2006 to celebrate the magazine's 70th anniversary",
   the_members_list: "Available online under the IFRI's Partners section",
 
+  // === INGESTED 2026-07-03 05:16 ===
+  northeast_tanzania: "Mountainous, while the central area is part of a large plateau covered in grasslands",
+  west_of_those_mountains: "The Gregory Rift , which is the eastern arm of the Great Rift Valley",
+  on_the_floor_of_the_rift: "A number of large salt lakes, including Natron in the north, Manyara in the south, and Eyasi in the southwest",
+  just_to_the_south_of_lake_natron: "Ol Doinyo Lengai with an elevation of 3,188 m (10,459 ft) , [ 3 ] the world's only active volcano to produce natrocarbonatite lava",
+  just_to_the_southeast_of_the_park: "Olduvai Gorge , where many of the oldest hominid fossils and artifacts have been found",
+  this_lake: "Estimated to be the second deepest lake in the world after Lake Baikal in Siberia",
+  mbeya: "The largest city in the Southern Highlands",
+  the_centre_of_tanzania: "A large plateau , which is part of the East African Plateau",
+  the_southern_half_of_this_plateau: "Grassland within the Eastern miombo woodlands ecoregion, the majority of which is covered by the huge Selous National Park",
+  further_north_the_plateau: "Arable land and includes the national capital, Dodoma",
+  the_coast: "Home to areas of East African mangroves , mangrove swamps that are an important habitat for wildlife on land and in the water",
+  the_western_portion_of_tanzania: "In the watershed of Lake Tanganyika , which drains into the Congo River",
+  the_malagarasi_river: "The largest tributary of Lake Tanganyika",
+  seasonal_rainfall: "Driven mainly by the migration of the Intertropical Convergence Zone",
+  forest_regrowth: "Not included in the dataset",
+
 };
 
 // ============================================================
