@@ -58525,6 +58525,13 @@ const FLAT_DICT = {
   the_collimated_beam: "Split by a half-silvered mirror",
   also_beamsplitters_that: "Not 50/50 are frequently employed to improve the interferometer's performance in certain types of measurement",
 
+  // === INGESTED 2026-07-03 18:04 ===
+  its_values: "Natural numbers (1, 2, 3, ...)",
+  the_principal_quantum_number: "First created for use in the semiclassical Bohr model of the atom , distinguishing between different energy levels",
+  the_other_quantum_numbers_for_bound_electrons: "The total angular momentum of the orbit ℓ , the angular momentum in the z direction ℓ z , and the spin s of the electron",
+  the_concept_of_energy_levels_and_notation: "Taken from the earlier Bohr model of the atom",
+  the_sets_of_orbitals_with_the_same_n_value: "Often referred to as an electron shell",
+
 };
 
 // ============================================================
