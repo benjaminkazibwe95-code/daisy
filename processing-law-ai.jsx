@@ -58793,6 +58793,31 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 19:05 ===
   the_positive_charge_on_x: "Transferred to the carbon-carbon bond, forming a carbocation during the formation of the C-X bond",
 
+  // === INGESTED 2026-07-03 19:07 ===
+  many_kinds_of_anions: "Found in such compounds",
+  amines: "Alkylated by alkyl halides",
+  an_organic_compound_with_multiple_amino_groups: "Called a diamine , triamine , tetraamine and so forth",
+  lower_amines: "Named with the suffix -amine",
+  the_lone_electron_pair: "Represented in this article by two dots above or next to the N",
+  the_water_solubility_of_simple_amines: "Enhanced by hydrogen bonding involving these lone electron pairs",
+  their_boiling_points: { definition: "High and their solubility in water is low", what_it_does: "", examples: "mass spectrometry as well as NMR and IR spectroscopies" },
+  somewhat_less_distinctive: "The bands appearing below 1600 cm −1 , which are weaker and overlap with C–C and C–H modes",
+  cn_distances: { definition: "Slightly shorter than C-C distances", what_it_does: "", examples: "N -substituted aziridines ( quaternary ammonium salts are resolvable)" },
+  the_cn_distance: "Correspondingly shorter",
+  the_situation_where_solvation: "Unimportant, has been evaluated in the gas phase",
+  thus_tertiary_amines: "More basic than secondary amines, which are more basic than primary amines, and finally ammonia is least basic",
+  aryl_halides: "Much less reactive toward amines and for that reason are more controllable",
+  a_popular_way_to_prepare_aryl_amines: { definition: "The Buchwald-Hartwig reaction", what_it_does: "", examples: "tert -octylamine" },
+  many_amines: "Produced from aldehydes and ketones via reductive amination , reduction of an imine formed in situ or a two-step process",
+  because_amines: "Basic, they neutralize acids to form the corresponding ammonium salts R 3 NH +",
+  the_alkyl_diazonium_salts: { definition: "Of little importance because they are too unstable", what_it_does: "", examples: "a phenol to form azo compounds" },
+  such_reactions: "Widely applied to the production of dyes",
+  many_neurotransmitters: "Amines, including epinephrine , norepinephrine , dopamine , serotonin , and histamine",
+  amine_hormones: "Synthesized from the amino acids tryptophan or tyrosine",
+  related_processes: { definition: "Known as sweetening", what_it_does: "", examples: "4,4-diaminodicyclohexylmethane" },
+  this_relieves_ring_strain_on_the_epoxide_and: { definition: "The driving force of the reaction", what_it_does: "", examples: "2,4,6-Tris(dimethylaminomethyl)phenol" },
+  it_has_been_stated_that_this: { definition: "The most widely used room temperature accelerator for two-component epoxy resin systems", what_it_does: "", examples: "ethylamine , are toxic with LD 50 between 100 and 1000 mg/kg" },
+
 };
 
 // ============================================================
