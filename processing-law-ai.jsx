@@ -57852,6 +57852,10 @@ const FLAT_DICT = {
   supercomputing_facilities: "Constructed to efficiently remove the increasing amount of heat produced by modern multi-core central processing units",
   a_supercomputer_from_thinking_machines: "Mentioned as the supercomputer used to sequence the DNA extracted from preserved parasites in the Jurassic Park series",
 
+  // === INGESTED 2026-07-03 07:52 ===
+  exploits_targeting_the_user_space: "Colloquially referred to as 'userland exploits'",
+  some_operating_systems: "Single address space operating systems —with a single address space for all user-mode code",
+
 };
 
 // ============================================================
