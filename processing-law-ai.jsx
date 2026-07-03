@@ -56580,6 +56580,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 01:46 ===
   a_group_of_cnidarians_known_as_myxozoans: { definition: "Particularly reduced", what_it_does: "", examples: "genes that control cell differentiation , adhesion and cell-to-cell communication" },
 
+  // === INGESTED 2026-07-03 01:48 ===
+  the_inner_plexiform_layer_of_the_retina: "A little more complex",
+  the_overall_average: "0.585 ± 0.043; these values are not statistically different from the optimal 3/5",
+  research_has_focused_on_where_neuropil: "Found in many different species in order to unveil the range of significance it has and possible functions",
+  the_neuropil_in_drosophila_ellipsoid: { definition: "Composed of four substructures", what_it_does: "", examples: "basic leg coordination of walking was normal, whereas speed, activity, and turning were affected" },
+
 };
 
 // ============================================================
