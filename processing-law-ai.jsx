@@ -58398,6 +58398,11 @@ const FLAT_DICT = {
   initial_validation_of_such_software: "Performed using a wind tunnel with the final validation coming in full-scale testing, e.g",
   acoustical_engineering: "The study of sound and vibration",
 
+  // === INGESTED 2026-07-03 17:23 ===
+  because_spontaneous_processes: "Characterized by a decrease in the system's free energy, they do not need to be driven by an outside source of energy",
+  a_spontaneous_reaction: "A chemical reaction which is a spontaneous process under the conditions of interest",
+  if_these_two_signs: "The same (both positive or both negative), then the sign of Δ G will change from positive to negative (or vice-versa) at the temperature T = Δ H /Δ S",
+
 };
 
 // ============================================================
