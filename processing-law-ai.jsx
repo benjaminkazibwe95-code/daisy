@@ -56972,6 +56972,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 03:56 ===
   parts_of_the_mall_which: "Badly damaged in the terrorist attack underwent further reconstruction and remained closed until 2018",
 
+  // === INGESTED 2026-07-03 03:59 ===
+  when_colonial_boundaries: { definition: "Drawn in the late nineteenth century many Banyarwanda found themselves on the Congolese side of the Rwandan border, in Kivu province", what_it_does: "", examples: "the Banyamulenge" },
+  while_the_afdl: "An ostensibly Zairian rebel movement, Rwanda had played a key role in its formation",
+  while_its_actions: "Originally sparked by the security threat posed by the Zairian-based génocidaires, Kigali was pursuing multiple goals during its invasion of Zaire",
+  the_first_and_foremost_of_these: "The suppression of génocidaires who had been launching attacks against the new Rwandan state from Zaire",
+  while_partially_a: "To minimize the threat in eastern Zaire, the new Rwandan state also sought to set up a puppet regime in Kinshasa",
+  ugandan_soldiers: "Present in Zaire throughout the conflict and Museveni likely helped Kagame plan and direct the AFDL",
+  the_greatest_impact_that_it_had_on_the_war: { definition: "Probably that it gave Angola reason to join the anti-Mobutu coalition", what_it_does: "", examples: "Chadian troops" },
+  prominent_among_these: "Ethnic tensions in eastern DRC, where the government still had little control",
+
 };
 
 // ============================================================
