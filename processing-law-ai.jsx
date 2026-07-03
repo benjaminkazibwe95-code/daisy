@@ -58130,6 +58130,21 @@ const FLAT_DICT = {
   one_of_these_instruments: { definition: "A range of flutes made from PVC pipe", what_it_does: "", examples: "Eye Catching (1993), Watchful (1997), and Pivot (2000)" },
   this_album: "A recreation of the sleep-concert environment he had created during the 1980s at Stanford",
 
+  // === INGESTED 2026-07-03 08:46 ===
+  silent_running: "A 1972 American science fiction film",
+  after_four_of_the_six_valley_forge_domes: "Jettisoned and destroyed with nuclear charges, Lowell rebels and opts to save his ship's plants and animals",
+  the_final_scene: "Of the now well-lit forest greenhouse drifting into deep space, with Dewey tenderly caring for it, holding Lowell's battered old watering can",
+  the_patch: "In the form of a maritime signal flag corresponding to the initial letter of their surname",
+  the_saturn_idea: "Scrapped, and Kubrick substituted Jupiter instead",
+  shortly_after_filming: "Completed, the carrier was scrapped",
+  the_valley_forge: "Listed as ' Bahia Honda Subtropical,' indicating at least some specimens were taken from this area of the Florida Keys",
+  after_filming: { definition: "Completed, American Airlines expressed an interest in sending the model on the tour circuit, but this was not feasible due to its fragility", what_it_does: "", examples: "the domes, wound up in the hands of collectors" },
+  the_suits: { definition: "In Trumbull's personal collection", what_it_does: "", examples: "the drones, were created by uncredited composer Joseph Byrd" },
+  the_soundtrack: "Written by Peter Schickele , a bassoonist who also composed comedy music under the name P",
+  an_lp: "Released by Decca in 1972 (DL 7–9188) and later reissued by Varèse Sarabande on black (STV-81072) and green (VC-81072) vinyl",
+  the_spaceries_really: "Impressive and the movie is an ingenious family entertainment which offers something to think about",
+  a_dvd: "Released featuring the film's original 1",
+
 };
 
 // ============================================================
