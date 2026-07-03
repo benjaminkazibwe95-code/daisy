@@ -57577,6 +57577,18 @@ const FLAT_DICT = {
   these_prices: "Locked in for either a 1-year or 3-year term",
   an_amazon_official_later_stated_that_it: { definition: "Due to a hardware failure", what_it_does: "", examples: "Foursquare , Springpad , Reddit , Quora , and Hootsuite" },
 
+  // === INGESTED 2026-07-03 06:48 ===
+  telescript: "An agent-oriented programming language written by General Magic as part of the overall Magic Cap system",
+  the_basic_model_of_telescript: "Similar to Java , and differs primarily in where the applications would run",
+  general_magic: "Unable to find a niche within the market, and Telescript services were soon deprecated in favor of new products unrelated to mobile computing",
+  key_members_of_the_early_team: { definition: "Porat, and famous Macintosh developers Bill Atkinson and Andy Hertzfeld", what_it_does: "", examples: "Joanna Hoffman , Susan Kare , Dan Winkler, Bruce Leak and Phil Goldman" },
+  magic_cap: "A point and click interface (similar to HyperCard or the modern iOS )",
+  method_calls: "Known as requests , and the act of running a method's implementation was known as performing it",
+  the_code_basically_says_that_when_it: "Created, the object should send itself (*.go) to the location sent to it during creation (*.destination)",
+  when_that_command: "Complete, the agent will return to its place of origin",
+  using_sponsored: "Exactly the same result as placing the code in an own {} block, but allows this to take place in the caller",
+  one_common_source_of_errors_in_telescript: "That while a collection as a whole could be passed back in an agent, individual items within it were owned by the place",
+
 };
 
 // ============================================================
