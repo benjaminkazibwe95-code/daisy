@@ -57069,6 +57069,16 @@ const FLAT_DICT = {
   business_times: "The only financial and economic newspaper in the city; it was established in 1988 and became the first private newspaper in Tanzania",
   the_expressed_aim_of_the_seacom_cable: { definition: "To enable East Africa to develop economically through increased online trading", what_it_does: "", examples: "cholera and skin infection, and are a barrier to reducing poverty" },
 
+  // === INGESTED 2026-07-03 04:41 ===
+  the_rest_of_the_persons: { definition: "Not distinguished in the verb ( I walk , you walk , they walk , etc.) except in the verb to be ( I am , you are , he is , etc.)", what_it_does: "", examples: "in Polish ) with the subject" },
+  these_noun_phrases: { definition: "Not called predicate nouns, but are instead called direct objects because they refer to the object that is being acted upon", what_it_does: "", examples: "'My friend read the newspaper.' 'The teenager earned a speeding ticket" },
+  the_number_of_arguments_that_a_verb_takes: "Called its valency or valence",
+  intransitive_and_transitive_verbs: "The most common, but the impersonal and objective verbs are somewhat different from the norm",
+  the_tam_ending_nu: "The general today past attainative perfective, found with all numbers in the perfective except the singular active, where -ma is found",
+  if_the_verbal_expression_of_modality: "The use of an auxiliary verb, that auxiliary is called a modal verb",
+  the_two_most_common_voices: "The active voice (as in 'I saw the car') and the passive voice (as in 'The car was seen by me' or simply 'The car was seen')",
+  the_active_participle_of_break: "Breaking , and the passive participle is broken",
+
 };
 
 // ============================================================
