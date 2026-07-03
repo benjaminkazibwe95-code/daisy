@@ -58916,6 +58916,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 19:58 ===
   kerr: "A notable bridge player representing New Zealand internationally in the mid-1970s",
 
+  // === INGESTED 2026-07-03 20:02 ===
+  if_the_difference_between_the_phases: { definition: "Intermediate between these two extremes, then the magnitude of the displacement of the summed waves lies between the minimum and maximum values", what_it_does: "", examples: "what happens when two identical stones are dropped into a still pool of water at different locations" },
+  interference_of_light: "A unique phenomenon in that we can never observe superposition of the EM field directly as we can, for example, in water",
+  superposition_in_the_em_field: "An assumed phenomenon and necessary to explain how two light beams pass through each other and continue on their respective paths",
+  prime_examples_of_light_interference: "The famous double-slit experiment , laser speckle , anti-reflective coatings and interferometers",
+  a_simple_form_of_interference_pattern: "Obtained if two plane waves of the same frequency intersect at an angle",
+  one_wave: "Travelling horizontally, and the other is travelling downwards at an angle θ to the first wave",
+  assuming_that_the_two_waves: "In phase at the point B , then the relative phase changes along the x -axis",
+  the_phase_difference_at_the_point_a: "Given by Δ φ = 2 π d λ = 2 π x sin ⁡ θ λ",
+  the_fringes: "Observed wherever the two waves overlap and the fringe spacing is uniform throughout",
+  when_the_plane_of_observation: "Far enough away, the fringe pattern will be a series of almost straight lines, since the waves will then be almost planar",
+  interference_occurs_when_several_waves: "Added together provided that the phase differences between them remain constant over the observation time",
+  the_intensity_of_the_light_at_a_given_point: "Proportional to the square of the average amplitude of the wave",
+  the_displacement_of_the_summed_waves: "U ( r , t ) = A 1 ( r ) e i [ φ 1 ( r ) − ω t ] + A 2 ( r ) e i [ φ 2 ( r ) − ω t ]",
+  if_the_two_beams: { definition: "Of equal intensity, the maxima are four times as bright as the individual beams, and the minima have zero intensity", what_it_does: "", examples: "sodium- or mercury-vapor lamps have emission lines with quite narrow frequency spectra" },
+  young: { definition: "This very elegantly in his discussion of two slit interference", what_it_does: "", examples: "iridescence and structural coloration" },
+  if_this_term: "Absent for all x {\displaystyle x} , then there is no quantum mechanical interference associated with situations A and B",
+  the_best_known_example_of_quantum_interference: "The double-slit experiment",
+  interferometry: "Used in the calibration of slip gauges (called gauge blocks in the US) and in coordinate-measuring machines",
+  all_of_the_telescopes_in_the_array: "Widely separated and are usually connected together using coaxial cable , waveguide , optical fiber , or other type of transmission line",
+  an_acoustic_interferometer: "An instrument for measuring the physical characteristics of sound waves in a gas or liquid, such as velocity , wavelength, absorption , or impedance",
+
 };
 
 // ============================================================
