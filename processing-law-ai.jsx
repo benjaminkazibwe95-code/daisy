@@ -58542,6 +58542,13 @@ const FLAT_DICT = {
   any_linearly_ordered_set_that: "Infinitely divisible and gapless, and has more than one member, is uncountably infinite",
   the_skewnormal_distribution: "An example of a non-infinitely divisible distribution",
 
+  // === INGESTED 2026-07-03 18:08 ===
+  the_valence: { definition: "The combining capacity of an atom of a given element, determined by the number of hydrogen atoms that it combines with", what_it_does: "", examples: "NO 3 , NH 3 , NI 3 , etc.) or 5, i.e., in the 5-atom groups (e.g., NO 5 , NH 4 O , PO 5 , etc" },
+  polyvalence_or_multivalence: "Species that are not restricted to a specific number of valence bonds",
+  species_with_a_single_charge: "Univalent (monovalent)",
+  each_carbon_atom: { definition: "Tetravalent (valence 4), but has oxidation state −1", what_it_does: "", examples: "in dichloromethane , CH 2 Cl 2 , carbon has valence 4 but oxidation state 0" },
+  maximum_valences_for_the_elements: "Based on the data from list of oxidation states of the elements",
+
 };
 
 // ============================================================
