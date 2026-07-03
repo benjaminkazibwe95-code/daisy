@@ -57712,6 +57712,14 @@ const FLAT_DICT = {
   wmsb: "A low-power FM station with studios on the top floor of Lee Hall",
   the_publication: { definition: "Named the #1 college newspaper in the South in 2007 by the Southeast Journalism Conference", what_it_does: "", examples: "a visit in 1965 by Johnny Cash" },
 
+  // === INGESTED 2026-07-03 07:14 ===
+  john_vincent_atanasoff: "Once a physics and mathematics teacher for Iowa State University and Clifford Berry a former graduate under electrical engineering and physics",
+  computer_engineering: { definition: "Referred to as computer science and engineering at some universities", what_it_does: "", examples: "calculus , linear algebra , and differential equations , along with computer science" },
+  processor_design_process: { definition: "Choosing an instruction set and a certain execution paradigm (e.g", what_it_does: "", examples: "digital watermarking" },
+  the_gathered_threedimensional_information: { definition: "Then implemented to perform a variety of tasks", what_it_does: "", examples: "special-purpose cameras with versatile vision sensors" },
+  embedded_systems: "Found in many devices from a small FM radio to the space shuttle",
+  an_example_of_this_specialty: { definition: "Work done on reducing the power consumption of VLSI algorithms and architecture", what_it_does: "", examples: "speech recognition and synthesis, medical and scientific imaging, or communications systems" },
+
 };
 
 // ============================================================
