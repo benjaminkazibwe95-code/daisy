@@ -58532,6 +58532,16 @@ const FLAT_DICT = {
   the_concept_of_energy_levels_and_notation: "Taken from the earlier Bohr model of the atom",
   the_sets_of_orbitals_with_the_same_n_value: "Often referred to as an electron shell",
 
+  // === INGESTED 2026-07-03 18:06 ===
+  aristotle_proves_that_both_length_and_time: { definition: "Infinitely divisible, refuting atomism", what_it_does: "", examples: "an act of becoming during one second" },
+  therefore_there: "Nothing which becomes, so as to effect a transition into the second in question",
+  whereas_the_modern_atom: "Indeed divisible, it actually is uncuttable: there is no partition of space such that its parts correspond to material parts of the atom",
+  physical_space: "Often regarded as infinitely divisible: it is thought that any region in space, no matter how small, could be further split",
+  the_more_the_price: { definition: "Multiplied the more the precision could matter", what_it_does: "", examples: "financial reports may be reported annually, quarterly, or monthly" },
+  to_say_that_the_field_of_rational_numbers: "Infinitely divisible (i.e",
+  any_linearly_ordered_set_that: "Infinitely divisible and gapless, and has more than one member, is uncountably infinite",
+  the_skewnormal_distribution: "An example of a non-infinitely divisible distribution",
+
 };
 
 // ============================================================
