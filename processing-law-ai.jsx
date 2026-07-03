@@ -56657,6 +56657,31 @@ const FLAT_DICT = {
   the_nachr: { definition: "Unable to bind ACh when bound to any of the snake venom α-neurotoxins", what_it_does: "", examples: "to the regulation of activity of some genes or the release of neurotransmitters" },
   neuronal_nachrs: { definition: "Transmembrane proteins that form pentameric structures assembled from a family of subunits composed of α 2 – α 10 and β 2 – β 4", what_it_does: "", examples: "in the human lung where epithelial and muscular pentamers largely differ" },
 
+  // === INGESTED 2026-07-03 02:18 ===
+  nuclear_dna: "Often organized into multiple chromosomes – long strands of DNA dotted with various proteins , such as histones , that protect and organize the DNA",
+  the_genes_within_these_chromosomes: "Structured in such a way to promote cell function",
+  because_the_nuclear_envelope: "Impermeable to large molecules , nuclear pores are required to regulate nuclear transport of molecules across the envelope",
+  the_bestknown_of_these: "The nucleolus , involved in the assembly of ribosomes",
+  euchromatin: { definition: "The less compact DNA form, and contains genes that are frequently expressed by the cell", what_it_does: "", examples: "telomeres and centromeres" },
+  the_size_of_the_nucleus: { definition: "Correlated to the size of the cell, and this ratio is reported across a range of cell types and species", what_it_does: "", examples: "nucleic acids and larger proteins, from inappropriately entering or exiting the nucleus" },
+  attached_to_the_ring: { definition: "A structure called the nuclear basket that extends into the nucleoplasm, and a series of filamentous extensions that reach into the cytoplasm", what_it_does: "", examples: "emerin and nesprin , bind to the cytoskeleton to provide structural support" },
+  the_actual_function_of_the_veil: { definition: "Not clear, although it is excluded from the nucleolus and is present during interphase", what_it_does: "", examples: "LEM3 , bind chromatin and disrupting their structure inhibits transcription of protein-coding genes" },
+  the_most_notable_laminopathy: "The family of diseases known as progeria , which causes the appearance of premature aging in those with the condition",
+  the_main_roles_of_the_nucleolus: "To synthesize rRNA and assemble ribosomes",
+  the_assembled_ribosomal_subunits: { definition: "The largest structures passed through the nuclear pores", what_it_does: "", examples: "active transcription sites" },
+  the_main_function_of_the_cell_nucleus: "To control gene expression and mediate the replication of DNA during the cell cycle",
+  hexokinase: "An enzyme responsible for the first step of glycolysis, forming glucose-6-phosphate from glucose",
+  the_splicing: "Done inside the nucleus before the mRNA can be accessed by ribosomes for translation",
+  as_ribosomes: "Located outside the nucleus, mRNA produced needs to be exported",
+  the_three_main_modifications: "5' capping , 3' polyadenylation , and RNA splicing",
+  the_key_gtpase_in_nuclear_transport: "Ran , which is bound to either GTP or GDP (guanosine diphosphate), depending on whether it is located in the nucleus or the cytoplasm",
+  this_qualitycontrol_mechanism: { definition: "Important due to these molecules' central role in protein translation", what_it_does: "", examples: "yeasts) undergo so-called closed mitosis , in which the nuclear envelope remains intact" },
+  the_destruction_of_the_lamin_networks: "Controlled by specialized apoptotic proteases called caspases , which cleave the lamin proteins and, thus, degrade the nucleus' structural integrity",
+  lamin_cleavage: "Sometimes used as a laboratory indicator of caspase activity in assays for early apoptotic activity",
+  observations_that_myxobacteria: { definition: "Motile, can form multicellular complexes, and possess kinases and G proteins similar to eukarya, support a bacterial origin for the eukaryotic cell", what_it_does: "", examples: "ribosomal subunits" },
+  franz_meyen: "A strong opponent of this view, having already described cells multiplying by division and believing that many cells would have no nuclei",
+  this_was_the_first_time_it: { definition: "Suggested that an individual develops from a (single) nucleated cell", what_it_does: "", examples: "amphibians and molluscs" },
+
 };
 
 // ============================================================
