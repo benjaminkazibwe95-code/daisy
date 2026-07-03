@@ -57524,6 +57524,33 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 06:37 ===
   handango: "An online store that sold mobile apps for personal digital assistants (PDAs) and smartphones",
 
+  // === INGESTED 2026-07-03 06:39 ===
+  a_compass: "Also subject to errors when the compass is accelerated or decelerated in an airplane or automobile",
+  when_the_compass: "Held level, the needle turns until, after a few seconds to allow oscillations to die out, it settles into its equilibrium orientation",
+  the_local_magnetic_declination: "Given on most maps, to allow the map to be oriented with a compass parallel to true north",
+  the_effect_of_this: "A map with the latest declination information should be used",
+  these_compasses: "Made of iron needles, magnetized by striking them with a lodestone",
+  as_the_compass_fill_liquid: { definition: "Noncompressible under pressure, many ordinary liquid-filled compasses will operate accurately underwater to considerable depths", what_it_does: "", examples: "inclinometers for measuring gradients" },
+  traditionally_the_card: "Divided into thirty-two points (known as rhumbs ), although modern compasses are marked in degrees rather than cardinal points",
+  the_magnetic_compass: "Very reliable at moderate latitudes, but in geographic regions near the Earth's magnetic poles it becomes unusable",
+  magnetic_compasses: "Prone to errors in the neighborhood of such bodies",
+  compasses_that_include_compensating_magnets: { definition: "Especially prone to these errors, since accelerations tilt the needle, bringing it closer or further from the magnets", what_it_does: "", examples: "gyrocompasses, are more stable in such situations" },
+  a_thumb_compass: "A type of compass commonly used in orienteering , a sport in which map reading and terrain association are paramount",
+  thumb_compasses: "Also often transparent so that an orienteer can hold a map in the hand with the compass and see the map through the compass",
+  the_compass_dial: "Driven by a set of gears controlled by a magnet mounted on a shaft",
+  if_a_needle: "Rubbed on a lodestone or other magnet, the needle becomes magnetized",
+  the_value_to_the_military: "That one angular mil subtends approximately one metre at a distance of one kilometer",
+  a_compass_deviation_card: "Prepared so that the navigator can convert between compass and magnetic headings",
+  mariners: "Concerned about very accurate measurements; however, casual users need not be concerned with differences between magnetic and true North",
+  if_a_magnetic_north_bearing_or_compass_bearing: "Desired, the compass must be adjusted by the amount of magnetic declination before using the bearing so that both map and compass are in agreement",
+  the_resulting_bearing_indicated: "The magnetic bearing to the target",
+  the_exact_value_of_the_magnetic_declination: "Place-dependent and varies over time, though declination is frequently given on the map itself or obtainable on-line from various sites",
+  items_to_avoid_around_compasses: { definition: "Magnets of any kind and any electronics", what_it_does: "", examples: "certain rocks which contain magnetic minerals, like Magnetite" },
+  to_see_if_a_rock_or_an_area: "Causing interference on a compass, get out of the area, and see if the needle on the compass moves",
+  a_gyrocompass: "Similar to a gyroscope",
+  gyrocompasses: "Widely used on ships",
+  these_directions_may_be_different_if_there: "A crosswind or tidal current",
+
 };
 
 // ============================================================
