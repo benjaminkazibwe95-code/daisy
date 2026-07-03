@@ -58637,6 +58637,19 @@ const FLAT_DICT = {
   the_two_photons: "Completely indistinguishable particles and can be considered 'cloned biphotons'",
   since_more_atoms: "In the excited state than in the ground state then an amplification of the input intensity results",
 
+  // === INGESTED 2026-07-03 18:29 ===
+  this_particular_chemical_equation: "An example of complete combustion",
+  the_numbers_in_front_of_each_quantity: "A set of stoichiometric coefficients which directly reflect the molar ratios between the products and reactants",
+  elements_in_their_natural_state: "Mixtures of isotopes of differing mass; thus, atomic masses and thus molar masses are not exactly integers",
+  the_term_stoichiometry: { definition: "Also often used for the molar proportions of elements in stoichiometric compounds (composition stoichiometry)", what_it_does: "", examples: "the stoichiometry of hydrogen and oxygen in H 2 O is 2:1" },
+  the_limiting_reagent: "The reagent that limits the amount of product that can be formed and is completely consumed when the reaction is complete",
+  an_excess_reactant_is_a_reactant_that: "Left over once the reaction has stopped due to the limiting reactant being exhausted",
+  any_chemical_species_that: "Regenerated, such as a catalyst , also has a stoichiometric coefficient of zero",
+  moles: "Most commonly used, but it is more suggestive to picture incremental chemical reactions in terms of molecules",
+  the_stoichiometry_matrix: { definition: "Denoted by the symbol N", what_it_does: "", examples: "the stoichiometries in the second reaction simplify when included in the matrix" },
+  the_ideal_gas_law: { definition: "Used for these calculations", what_it_does: "", examples: "slow combustion or insufficient mixing of fuel and oxygen – this is not due to stoichiometry" },
+  diesel_fuel_is_less_volatile_and: "Effectively burned as it is injected",
+
 };
 
 // ============================================================
