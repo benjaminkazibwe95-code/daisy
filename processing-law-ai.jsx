@@ -58466,6 +58466,11 @@ const FLAT_DICT = {
   if_the_desire: "To 'navigate' a reader to a new page, taking them away from the current page, a link is preferred",
   buttons: "Used within Wikipedia to trigger an 'action', such as Show preview , Create account , or Reply",
 
+  // === INGESTED 2026-07-03 17:42 ===
+  in_radar_scattering_it_usually: "Taking the current that would be found on a tangent plane of similar material as the current at each point on the front, i",
+  the_approximate_scattered_field: "Then obtained by an integral over these approximate currents",
+  the_rayoptics_field_or_current: "Generally not accurate near edges or shadow boundaries, unless supplemented by diffraction and creeping wave calculations",
+
 };
 
 // ============================================================
