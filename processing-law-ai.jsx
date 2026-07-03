@@ -57737,6 +57737,11 @@ const FLAT_DICT = {
   the_root_causes_of_poor_reliability: { definition: "Found in a combination of non-compliance with good architectural and coding practices", what_it_does: "", examples: "SQL injection or cross-site scripting" },
   reasons_for_why_maintainability: "Low can be classified as reckless vs",
 
+  // === INGESTED 2026-07-03 07:20 ===
+  sometimes_a_programmer_or_job_position: { definition: "Identified by the language used or target platform", what_it_does: "", examples: "assembly programmer , web developer" },
+  licensing: "Not typically required to work as a programmer, although professional certifications are commonly held by programmers",
+  programmers: "Left without work or with lower wages",
+
 };
 
 // ============================================================
