@@ -56311,6 +56311,38 @@ const FLAT_DICT = {
   understanding_and_knowledge: "Both words without unified definitions",
   chaitin_argues_that_comprehension: "This ability to compress data",
 
+  // === INGESTED 2026-07-03 00:29 ===
+  elephants: { definition: "Popularly thought of as having an excellent memory", what_it_does: "", examples: "those from other groups" },
+  three_living_species: "Currently recognised: the African bush elephant ( Loxodonta africana ), the African forest elephant ( L",
+  the_trunk: { definition: "Prehensile , bringing food and water to the mouth and grasping objects", what_it_does: "", examples: "savannahs , forests, deserts, and marshes" },
+  african_bush_elephants_and_asian_elephants: "Listed as endangered and African forest elephants as critically endangered on the IUCN Red Lists",
+  their_closest_extant_relatives: { definition: "The sirenians ( dugongs and manatees ) and the hyraxes , with which they share the clade Paenungulata within the superorder Afrotheria", what_it_does: "", examples: "the 1 m (3 ft 3 in) tall dwarf elephant species Palaeoloxodon falconeri" },
+  the_skeleton: "Made up of 326–351 bones",
+  the_cranium: "Particularly large and provides enough room for the attachment of muscles to support the entire head",
+  the_number_and_patterns_of_whiskers: "Distinctly different between species",
+  the_dentine: "Known as ivory and has a cross-section of intersecting lines, known as 'engine turning', which create diamond-shaped patterns",
+  the_cerebrum_and_cerebellum: "Well developed, and the temporal lobes are so large that they bulge out laterally",
+  the_vocal_folds: "Anchored close to the epiglottis base",
+  the_vulva: "Found lower than in other herbivores, between the hind legs instead of under the tail",
+  this_organ: { definition: "Associated with sexual behaviour, and males secrete a fluid from it when in musth", what_it_does: "", examples: "dung beetles and monkeys" },
+  the_amboseli_elephant_population: "Further divided into the 'central' and 'peripheral' subpopulations",
+  size: "The determining factor in hostile encounters when the individuals have the same condition",
+  allomothers: "Typically aged two to twelve years",
+  it_continues_to_stay_near_its_mother_as_it: "Still reliant on her",
+  touching: "Especially important for mother–calf communication",
+  this_individual: "Even able to score a high accuracy rating when re-tested with the same visual pairs a year later",
+  the_population_of_rainforest_elephants: "Lower than anticipated, at around 214,000 individuals",
+  population_trends_in_southern_africa: "Various, with unconfirmed losses in Zambia, Mozambique and Angola while populations grew in Botswana and Zimbabwe and were stable in South Africa",
+  although_asian_elephants: { definition: "Declining in numbers overall, particularly in Southeast Asia, the population in the Western Ghats may have stabilised", what_it_does: "", examples: "Periyar National Park in India" },
+  mitigating_these_conflicts: "Important for conservation",
+  one_proposed_solution: "The protection of wildlife corridors which give populations greater interconnectivity and space",
+  asian_elephants: "Always more common than their African counterparts in modern zoos and circuses",
+  they_and_other_captive_elephants: "Thus protected under The Prevention of Cruelty to Animals Act of 1960",
+  the_most_famous_circus_elephant: "Probably Jumbo (1861 – 15 September 1885), who was a major attraction in the Barnum & Bailey Circus",
+  opponents_claim_that_animals_in_zoos: "Under physical and mental stress",
+  feld_stated_that_these_practices: "Necessary to protect circus workers and acknowledged that an elephant trainer was rebuked for using an electric prod on an elephant",
+  ralph_helfer: { definition: "Known to have relied on positive reinforcement when training his animals", what_it_does: "", examples: "one made by Leonardo da Vinci" },
+
 };
 
 // ============================================================
