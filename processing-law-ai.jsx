@@ -57466,6 +57466,12 @@ const FLAT_DICT = {
   with_a_line_scan_camera_all_that_is_necessary: "To provide even illumination across the 'line' currently being viewed by the camera",
   linescan_cameras: "Also extensively used in imaging from satellites (see push broom scanner )",
 
+  // === INGESTED 2026-07-03 06:26 ===
+  a_small_minority_of_issues: "Sold on newsstands, with the bulk of funding for production arising from advertising",
+  vnu_business_publications: "Acquired by Incisive Media in 2007",
+  the_computing_web_site: "Relaunched with new video and audio content and a focus on extensive reader interactivity in early 2007",
+  about_a_dozen_regular_bloggers: "Introduced to create dynamic content for the online version of the magazine, some of these blogs also being carried in the print title",
+
 };
 
 // ============================================================
