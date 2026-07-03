@@ -58287,6 +58287,33 @@ const FLAT_DICT = {
   curie: "Introduced to Maria Skłodowska by their friend, physicist Józef Wierusz-Kowalski",
   their_laboratory_books: "Kept in special lead boxes and people who want to see them have to wear protective clothing",
 
+  // === INGESTED 2026-07-03 16:54 ===
+  a_semiconductor: "A material with electrical conductivity between that of a conductor and an insulator",
+  when_two_regions_with_different_doping_levels: { definition: "Present in the same crystal, they form a semiconductor junction", what_it_does: "", examples: "microchips and computer processors , which work using the physical properties of semiconductors" },
+  some_examples_of_semiconductors: "Silicon , germanium , gallium arsenide , and elements near the so-called ' metalloid staircase ' on the periodic table",
+  silicon: "A critical element for fabricating most electronic circuits",
+  when_a_semiconductor: { definition: "Doped by Group III elements, they will behave like acceptors creating free holes, known as ' p-type ' doping", what_it_does: "", examples: "doping or gating" },
+  whenever_thermal_equilibrium: "Disturbed in a semiconducting material, the number of holes and electrons changes",
+  crystalline_faults: "A major cause of defective semiconductor devices",
+  silicon_wafers: "First introduced in the 1940s",
+  one_process: "Called thermal oxidation , which forms silicon dioxide on the surface of the silicon",
+  ultraviolet_light: "Used along with a photoresist layer to create a chemical change that generates the patterns for the circuit",
+  the_part_of_the_silicon_that: "Not covered by the photoresist layer from the previous step can now be etched",
+  the_main_process_typically_used_today: "Called plasma etching",
+  plasma_etching_usually: "An etch gas pumped in a low-pressure chamber to create plasma",
+  a_common_etch_gas: "Chlorofluorocarbon , or more commonly known Freon",
+  the_silicon_wafer: "Located on the cathode, which causes it to be hit by the positively charged ions that are released from the plasma",
+  the_result_is_silicon_that: "Etched anisotropically",
+  the_atoms: "Injected in and eventually diffuse with the silicon",
+  the_energies_of_these_quantum_states: "Critical since a state is partially filled only if its energy is near the Fermi level [ citation needed ] (see Fermi–Dirac statistics )",
+  although_the_electrons_in_the_valence_band: "Always moving around, a completely full valence band is inert, not conducting any current",
+  electronhole_pairs: "Also apt to recombine",
+  the_probability_of_meeting: "Increased by carrier traps – impurities or dislocations which can trap an electron or hole and hold it until a pair is completed",
+  such_carrier_traps: "Sometimes purposely added to reduce the time needed to reach the steady-state",
+  semiconductors_doped_with_donor_impurities: "Called n-type , while those doped with acceptor impurities are known as p-type",
+  the_opposite_carrier: "Called the minority carrier , which exists due to thermal excitation at a much lower concentration compared to the majority carrier",
+  the_first_working_transistor: "A point-contact transistor invented by John Bardeen , Walter Houser Brattain , and William Shockley at Bell Labs in 1947",
+
 };
 
 // ============================================================
