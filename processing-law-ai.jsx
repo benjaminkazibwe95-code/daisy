@@ -57274,6 +57274,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 05:24 ===
   membe: "Expelled from CCM earlier in the year and moved over to ACT to be able to run for president",
 
+  // === INGESTED 2026-07-03 05:28 ===
+  competitive_programming_or_sport_programming: "A mind sport involving participants trying to program according to provided specifications",
+  the_contests: "Usually held over the Internet or a local network",
+  competitive_programming: "Recognized and supported by several multinational software and Internet companies, such as Google [ 1 ] [ 2 ] and Meta",
+  contestants: "Required to write computer programs capable of solving these problems",
+  one_of_the_oldest_contests_known: "The International Collegiate Programming Contest (ICPC) which originated in the 1970s [ 4 ] and has grown to include 88 countries in its 2011 edition",
+  the_aim_of_competitive_programming: "To write computer programs which are able to solve given problems",
+  every_solution_submitted_by_a_contestant: "Run on the judge against a set of (usually secret) test cases",
+  online_judges: "Online environments in which testing takes place",
+  the_archives_of_past_problems: "Popular resources for training in competitive programming",
+
 };
 
 // ============================================================
