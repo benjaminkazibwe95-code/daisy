@@ -58155,6 +58155,23 @@ const FLAT_DICT = {
   acoustic_wave_transmissions: { definition: "Typically delayed between 1–2 seconds, as they move more slowly than other types of waves", what_it_does: "", examples: "reflection, refraction, and the absorbing of signal" },
   the_royal_netherlands_navy: "Strongly concerned with the ability of UUV's to evade detection and complete tasks not possible in manned vessels",
 
+  // === INGESTED 2026-07-03 08:52 ===
+  the_ferengi: { definition: "Originally intended as the new enemy for the United Federation of Planets, but their comical appearance failed to portray them as a convincing threat", what_it_does: "", examples: "beings they do not consider an immediate threat" },
+  borg: "Highly resistant to energy-based weapons, having personal shielding that quickly adapts",
+  borg_shields: "Ineffective protection against projectile or melee weapons , and several have been defeated in this way, or through hand-to-hand combat",
+  borg_civilization: "Based on a hive or group mind known as the Collective",
+  each_borg_drone: { definition: "Linked to the collective by a sophisticated subspace network that ensures each member is given constant supervision and guidance", what_it_does: "new technology inside a Borg when needed and protect them from many forms of disease", examples: "" },
+  cubes: "Also distinguished by their immense size and lack of streamlining",
+  the_enterprise_crew: "Overwhelmed by the Borg, and Picard begs for – and receives – Q's help in returning the ship to its previous coordinates",
+  picard: "Abducted and assimilated by the Borg and transformed into Locutus (Latin for 'he who speaks')",
+  the_saratoga: { definition: "Destroyed by the Borg, killing Sisko's wife, Jennifer", what_it_does: "", examples: "a human child, a Klingon, and a Vulcan" },
+  crewmember_zero_connects_to_the_collective_and: "Nearly assimilated as the Borg awaken and attack the others",
+  this_idea_of_a_connection: "Advanced in William Shatner 's novel The Return",
+  the_borg_queen: "Created out of the necessity for a single unifying voice",
+  among_the_patients: "The daughter of the head medical researcher of the satellite",
+  the_gestalt_group_mind: "Perverted to become the collective, driven by Sedin's desperate hunger and need to add the strength, technology, and life-force of others to her own",
+  enab: "Based on the Batman villain Bane",
+
 };
 
 // ============================================================
