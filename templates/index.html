@@ -2,8 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Daisy</title>
+
+  <!-- ── PWA: makes Daisy installable straight from the site, no app store needed ── -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2b2b2b">
+  <link rel="icon" href="/icons/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/icons/favicon-48.png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Daisy">
+
   <!-- Non-blocking font load — page renders even if fonts fail -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1643,6 +1655,10 @@
 
     <div class="settings-section-label">Daisy</div>
     <div class="settings-group">
+      <button class="settings-row settings-row-btn" id="settings-install-btn">
+        <span class="s-icon">⬇️</span>
+        <div class="s-row-text"><div class="s-row-title">Install Daisy</div><div class="s-row-sub" id="settings-install-sub">Add Daisy to your home screen, like an app</div></div>
+      </button>
       <button class="settings-row settings-row-btn" id="settings-persona-btn">
         <span class="s-icon">🌼</span>
         <div class="s-row-text"><div class="s-row-title">Personalize Daisy</div><div class="s-row-sub">Tell Daisy who to be for you</div></div>
@@ -1806,6 +1822,26 @@
 </div>
 
 <script>
+// ── PWA: capture the install prompt as early as possible, and
+// register the service worker so the app shell loads instantly on
+// repeat opens (this is what makes an installed Daisy feel "always
+// there" instead of reloading from scratch every time). ──
+let daisyDeferredInstallPrompt = null;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  daisyDeferredInstallPrompt = e;
+  document.dispatchEvent(new Event('daisy-install-available'));
+});
+window.addEventListener('appinstalled', () => {
+  daisyDeferredInstallPrompt = null;
+  document.dispatchEvent(new Event('daisy-install-done'));
+});
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {});
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   try {
   const greetingEl = document.getElementById('greeting');
@@ -1852,6 +1888,42 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('drawer-stats-btn').onclick = () => {
     closeDrawer();
     openStatsPage();
+  };
+
+  // ── INSTALL DAISY (PWA "add to home screen") ──
+  const installBtn = document.getElementById('settings-install-btn');
+  const installSub = document.getElementById('settings-install-sub');
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+  function refreshInstallRow() {
+    if (isStandalone) {
+      installSub.textContent = "You're using the installed app — you're all set.";
+      installBtn.style.opacity = '0.6';
+    } else if (daisyDeferredInstallPrompt) {
+      installSub.textContent = 'Tap to add Daisy to your home screen';
+    } else if (isIOS) {
+      installSub.textContent = 'Tap the Share icon in Safari, then "Add to Home Screen"';
+    } else {
+      installSub.textContent = "Open this menu from your browser's ⋮ menu → \"Install app\" if this button doesn't respond";
+    }
+  }
+  refreshInstallRow();
+  document.addEventListener('daisy-install-available', refreshInstallRow);
+  document.addEventListener('daisy-install-done', refreshInstallRow);
+
+  installBtn.onclick = async () => {
+    if (isStandalone) return;
+    if (daisyDeferredInstallPrompt) {
+      daisyDeferredInstallPrompt.prompt();
+      await daisyDeferredInstallPrompt.userChoice;
+      daisyDeferredInstallPrompt = null;
+      refreshInstallRow();
+    } else if (isIOS) {
+      alert('On iPhone: tap the Share icon in Safari, then "Add to Home Screen".');
+    } else {
+      alert('Your browser doesn\'t support one-tap install here — look for "Install app" or "Add to Home Screen" in your browser\'s menu.');
+    }
   };
 
   document.getElementById('settings-save-profile').onclick = () => {
@@ -2407,6 +2479,41 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => btn.classList.remove('copied'), 1200);
   }
 
+  function isExplicitPdfRequest(question) {
+    if (!question) return false;
+    return /\b(pdf|printable|print(ed)?\s+(this|version)|as a document)\b/i.test(question);
+  }
+  function isLongOrStructuredAnswer(text) {
+    if (!text) return false;
+    const wordCount = text.trim().split(/\s+/).filter(Boolean).length;
+    const hasStructure = /(^|\n)\s*[-*•]\s|\n#{1,3}\s|(^|\n)\s*\d+\.\s/.test(text);
+    return wordCount > 110 || hasStructure;
+  }
+
+  async function downloadAsPdf(btn, title, content) {
+    if (btn) btn.disabled = true;
+    try {
+      const res = await fetch('/export/pdf', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title: title || 'Daisy', content })
+      });
+      if (!res.ok) throw new Error('export failed');
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const safeName = (title || 'daisy-answer').slice(0, 50).replace(/[^\w\- ]+/g, '').trim().replace(/\s+/g, '-') || 'daisy-answer';
+      const a = document.createElement('a');
+      a.href = url; a.download = `${safeName}.pdf`;
+      document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+      if (btn) flashAction(btn);
+    } catch (e) {
+      alert("Couldn't create that PDF right now — try again in a moment.");
+    } finally {
+      if (btn) btn.disabled = false;
+    }
+  }
+
   function buildActionToolbar(rawTextGetter, question) {
     const bar = document.createElement('div');
     bar.className = 'msg-actions';
@@ -2460,6 +2567,16 @@ document.addEventListener('DOMContentLoaded', function() {
     bar.appendChild(upBtn);
     bar.appendChild(downBtn);
     bar.appendChild(shareBtn);
+
+    const currentText = rawTextGetter();
+    if (isExplicitPdfRequest(question) || isLongOrStructuredAnswer(currentText)) {
+      const pdfBtn = document.createElement('button');
+      pdfBtn.className = 'msg-action-btn';
+      pdfBtn.innerHTML = ICONS.file;
+      pdfBtn.title = 'Save as PDF';
+      pdfBtn.onclick = () => downloadAsPdf(pdfBtn, question, rawTextGetter());
+      bar.appendChild(pdfBtn);
+    }
 
     if (question) {
       const redoBtn = document.createElement('button');
@@ -2758,6 +2875,7 @@ document.addEventListener('DOMContentLoaded', function() {
       await addMsgTyped(answer, { question: text });
       recordMessage('daisy', answer);
       if (ttsOn) speak(answer);
+      if (isExplicitPdfRequest(text)) downloadAsPdf(null, text, answer);
     } catch(e) {
       panel._cancel();
       panel.remove();
@@ -2941,6 +3059,7 @@ document.addEventListener('DOMContentLoaded', function() {
           recordMessage('daisy', answer);
           transcript.textContent = answer;
           speak(answer);
+          if (isExplicitPdfRequest(question)) downloadAsPdf(null, question, answer);
         } catch(e) {
           panel._cancel();
           panel.remove();
