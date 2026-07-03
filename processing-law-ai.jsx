@@ -56770,6 +56770,16 @@ const FLAT_DICT = {
   the_rhcatalysed_hydroformylation_of_ethylene: "Conducted on an industrial scale to provide propionaldehyde",
   the_name_ethylene: "Used in this sense as early as 1852",
 
+  // === INGESTED 2026-07-03 02:59 ===
+  hypothyroidism: "An endocrine disease in which the thyroid gland does not produce enough thyroid hormones",
+  numerous_symptoms_and_signs: { definition: "Associated with hypothyroidism and can be related to the underlying cause, or a direct effect of not having enough thyroid hormones", what_it_does: "", examples: "skin changes or enlargement of the tongue" },
+  primary_hypothyroidism: { definition: "About a thousandfold more common than central hypothyroidism", what_it_does: "", examples: "thyroid peroxidase , thyroglobulin and the TSH receptor" },
+  production_of_tsh_and_trh: { definition: "Decreased by thyroxine by a negative feedback process", what_it_does: "", examples: "menstrual cycle abnormalities and adrenal insufficiency" },
+  the_firsttrimester_normal_range: "Below 2.5 mIU/L and the second and third trimesters normal range is below 3.0 mIU/L",
+  if_a_decision: "Made not to treat, close monitoring of the thyroid function (every 4 weeks in the first 20 weeks of pregnancy) is recommended",
+  after_hypothyroidism: "Found to cause a lower basal metabolic rate , this was used as a marker to guide adjustments in therapy in the early 20th century (around 1915)",
+  skin_changes_and_fertility_problems: { definition: "Seen in dogs with hypothyroidism, as well as many other symptoms", what_it_does: "", examples: "surgery or radiation" },
+
 };
 
 // ============================================================
