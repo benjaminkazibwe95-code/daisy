@@ -58938,6 +58938,37 @@ const FLAT_DICT = {
   all_of_the_telescopes_in_the_array: "Widely separated and are usually connected together using coaxial cable , waveguide , optical fiber , or other type of transmission line",
   an_acoustic_interferometer: "An instrument for measuring the physical characteristics of sound waves in a gas or liquid, such as velocity , wavelength, absorption , or impedance",
 
+  // === INGESTED 2026-07-03 20:04 ===
+  this_is_because_weight: "A force, while mass is the property that (along with gravity) determines the strength of this force",
+  the_specific_values_of_these_constants: "Selected to closely approximate the older definition of the kilogram, the platinum–iridium International Prototype of the Kilogram",
+  the_early_unit: "A grain of wheat or barleycorn used to weigh the precious metals silver and gold",
+  larger_units_preserved_in_stone_standards: "Developed that were used as both units of mass and of monetary currency",
+  the_pound: "Derived from the mina (unit) used by ancient civilizations",
+  a_smaller_unit: "The shekel , and a larger unit was the talent",
+  the_carat: "A unit for measuring gemstones that had its origin in the carob seed, which later was standardized at 1/144 ounce and then 0.2 gram",
+  goods_of_commerce: "Originally traded by number or volume",
+  the_present_stone: "14 pounds (~6.35 kg), but an earlier unit appears to have been 16 pounds (~7.25 kg)",
+  the_other_units: "Multiples of 2, 8, and 160 times the stone, or 28, 112, and 2240 pounds (~12.7 kg, 50.8 kg, 1016 kg), respectively",
+  the_hundredweight: "Approximately equal to two talents",
+  the_kilogram: { definition: "First defined in 1795 as the mass of one cubic decimetre of water at the melting point of ice", what_it_does: "", examples: "in space or on other planets" },
+  that_it_does: "An established empirical fact to one part in a trillion",
+  more_precise_experimental_efforts: "Still being carried out",
+  the_concept_of_amount: "Very old and predates recorded history",
+  the_two_sides_of_a_balance_scale: { definition: "Close enough that the objects experience similar gravitational fields", what_it_does: "", examples: "used the carob seed ( carat or siliqua ) as a measurement standard" },
+  the_roman_pound_and_ounce: "Both defined in terms of different sized collections of the same common mass standard, the carob seed",
+  the_wooden_ramp: "'12 cubits long, half a cubit wide and three finger-breadths thick' with a straight, smooth, polished groove",
+  the_groove: "Lined with ' parchment , also smooth and polished as possible'",
+  and_into_this_groove: "Placed 'a hard, smooth and very round bronze ball'",
+  the_ramp: "Inclined at various angles to slow the acceleration enough so that the elapsed time could be measured",
+  the_mass_of_the_earth: "Approximately three-millionths of the mass of the Sun",
+  and_the_greater_the_velocity_is_with_which_it: "Projected, the farther it goes before it falls to the Earth",
+  assuming_the_gravitational_field: "Equivalent on both sides of the balance, a balance measures relative weight, giving the relative gravitation mass of each object",
+  suppose_that_these_accelerations: { definition: "Non-zero, so that the forces between the two objects are non-zero", what_it_does: "", examples: "if the two objects are in the process of colliding with one another" },
+  rest_mass: "The Newtonian mass as measured by an observer moving along with the object",
+  relativistic_mass: { definition: "The total quantity of energy in a body or system divided by c 2", what_it_does: "", examples: "photons of light), but this does not affect the total amount of mass or energy" },
+  because_the_relativistic_mass: { definition: "Proportional to the energy , it has gradually fallen into disuse among physicists", what_it_does: "", examples: "the Earth) is the same as the pseudo-force experienced by an observer in a non- inertial (i.e" },
+  when_v: "Larger than c , the denominator in the equation for the energy is 'imaginary' , as the value under the radical is negative",
+
 };
 
 // ============================================================
