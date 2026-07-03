@@ -56542,6 +56542,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 01:29 ===
   basic_books: "A book publisher founded in 1950 and located in New York City, now an imprint of Hachette Book Group",
 
+  // === INGESTED 2026-07-03 01:31 ===
+  a_small_dna_molecule: "Found within individual mitochondria",
+  some_of_the_genome: "Non-functional junk DNA , such as pseudogenes, but there is no firm consensus on the total amount of junk DNA",
+  the_total_amount_of_coding_dna: "About 1-2% of the genome",
+  many_rnas: "Thought to be non-functional",
+  the_number_of_pseudogenes_in_the_human_genome: "On the order of 13,000, [ 25 ] and in some chromosomes is nearly the same as the number of functional protein-coding genes",
+  gene_duplication: "A major mechanism through which new genetic material is generated during molecular evolution",
+  research_suggests_that_this: "A species-specific characteristic, as the most closely related primates all have proportionally fewer pseudogenes",
+  many_scientists_think_that_these_estimates: { definition: "Unreasonably high and conflict with the view that only 10% of the genome is functional and 90% is junk DNA", what_it_does: "", examples: "occurred 70–90 million years ago" },
+  the_missing_genetic_information: "Mostly in repetitive heterochromatic regions and near the centromeres and telomeres , but also some gene-encoding euchromatic regions",
+  a_genome_map: "Less detailed than a genome sequence and aids in navigating around the genome",
+  the_hapmap: "A haplotype map of the human genome, 'which will describe the common patterns of human DNA sequence variation",
+  structural_variation: { definition: "Genetic variants that affect larger segments of the human genome, as opposed to point mutations", what_it_does: "", examples: "deletions, duplications, insertions, inversions and other rearrangements" },
+  transitional_changes: "More common than transversions, with CpG dinucleotides showing the highest mutation rate, presumably due to deamination",
+  that_sequence: { definition: "Derived from the DNA of several volunteers from a diverse population", what_it_does: "", examples: "those of Desmond Tutu , [ 95 ] [ 96 ] and of a Paleo-Eskimo" },
+  these_knockouts: "Often difficult to distinguish, especially within heterogeneous genetic backgrounds",
+  molecularly_characterized_genetic_disorders: "Those for which the underlying causal gene has been identified",
+  diagnosis_and_treatment_of_genetic_disorders: "Usually performed by a geneticist -physician trained in clinical/medical genetics",
+  the_results_of_the_human_genome_project: "Likely to provide increased availability of genetic testing for gene-related disorders, and eventually improved treatment",
+  a_major_difference_between_the_two_genomes: { definition: "Human chromosome 2 , which is equivalent to a fusion product of chimpanzee chromosomes 12 and 13", what_it_does: "", examples: "the migration of Native Americans from Siberia [ 121 ] or Polynesians from southeastern Asia" },
+  the_epigenome: "Also influenced significantly by environmental factors",
+
 };
 
 // ============================================================
