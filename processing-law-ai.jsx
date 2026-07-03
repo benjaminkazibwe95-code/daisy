@@ -57777,6 +57777,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 07:31 ===
   embedded_hardware_configurations: { definition: "Often unique, varying according to the application", what_it_does: "", examples: "x86 , ARM , SH4 , and MIPS" },
 
+  // === INGESTED 2026-07-03 07:35 ===
+  the_proximate_cause: { definition: "A memory access violation, while the underlying cause is generally a software bug of some sort", what_it_does: "", examples: "dereferencing a dangling pointer )" },
+
 };
 
 // ============================================================
