@@ -58034,6 +58034,22 @@ const FLAT_DICT = {
   privacy_of_personal_information: "A significant issue for some consumers",
   these_stores: "Presented within an integrated navigation framework, sometimes known as virtual shopping malls or online marketplaces",
 
+  // === INGESTED 2026-07-03 08:20 ===
+  dow_jones: "Headquartered in the basement of 15 Wall Street, the same building as Kiernan's company next to the New York Stock Exchange Building",
+  the_debut_issue_of_the_journal: "Four pages long, with dimensions of 20 3/4 × 15 1/2 inches and cost of $0.02 per copy",
+  woodlock: "Editor of the Journal from 1902 to 1905",
+  most_editions: "Only 12 to 14 pages long, and Dow Jones made only $69,000 of profits on $2 million of revenue, mostly due to its news ticker",
+  kilgore: "Named managing editor of the Journal in 1941 and Dow Jones CEO in 1945",
+  phillips: { definition: "Jewish, in contrast to the largely midwestern, WASP management of the Journal at the time", what_it_does: "", examples: "' Factiva ', The Wall Street Journal Asia , The Wall Street Journal Europe , the WSJ" },
+  the_daily: { definition: "Awarded by the Society for News Design World's Best Designed Newspaper award for 1994 and 1997", what_it_does: "", examples: "at least eight reporters" },
+  sarah_ball: "Editor in Chief and Omblyne Pelier is Publisher",
+  edition_of_the_wall_street_journal_and: "Available on WSJ.com and in the newspaper's iPad app",
+  the_inclusion_of_drawings: "Notable for being a rare use of graphics by the Journal of the time",
+  vice_president_spiro_agnew: "Under federal investigation on bribery, extortion, and tax fraud charges",
+  the_encrypted_files: { definition: "Decrypted and translated", what_it_does: "", examples: "campaign finance violations in connection with the Daniels payment" },
+  cheng_did_not_withdraw_and: "Elected to the leadership role",
+  cheng_responded_that_the_restructuring: { definition: "A layoff of one person", what_it_does: "", examples: "banning pride flags and incarcerating all transgender people en masse" },
+
 };
 
 // ============================================================
