@@ -56872,6 +56872,12 @@ const FLAT_DICT = {
   independence_from_british_rule: { definition: "Achieved in 1947 with the formation of two nations, the Dominions of India and Pakistan , the latter including East Bengal , present-day Bangladesh", what_it_does: "", examples: "factories and forts, were then called the Madras Presidency (or the Presidency of Fort St" },
   thus_ganjam_and_vizagapatam: "Non-regulation districts",
 
+  // === INGESTED 2026-07-03 03:41 ===
+  the_acholi_living_in_uganda: "Estimated to number 1.9 million people in 2024 [ 2 ] and over 45,000 more were living in South Sudan in 2000",
+  then_in_kenya_and_tanzania: "The Joluo also known as the Luo",
+  purifications_or_atonement_practices: "Still performed by Acholi elders in some communities",
+  tito_okellolutwa_in_uganda: { definition: "Overthrown by Museveni and his NRA rebels", what_it_does: "", examples: "the Acholi and Alur" },
+
 };
 
 // ============================================================
