@@ -58605,6 +58605,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 18:21 ===
   other_periodic_waveforms: "Often called composite waveforms and can often be described as a combination of a number of sinusoidal waves or other basis functions added together",
 
+  // === INGESTED 2026-07-03 18:23 ===
+  the_down_quark: { definition: "First observed by experiments at the Stanford Linear Accelerator Center in 1968", what_it_does: "", examples: "protons , neutrons , and pions were thought to be elementary particles" },
+  down_quarks: "Most commonly found in atomic nuclei , where they combine with up quarks to form protons and neutrons",
+  because_the_bare_mass_of_down_quarks: "So small, it cannot be straightforwardly calculated because relativistic effects have to be taken into account",
+
 };
 
 // ============================================================
