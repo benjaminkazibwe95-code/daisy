@@ -56568,6 +56568,9 @@ const FLAT_DICT = {
   sfn: "Founded in 1969 [ 3 ] by Ralph W",
   the_first_annual_meeting_of_the_society: { definition: "Held in Washington, DC in October 1971, [ 3 ] and it was attended by 1,396 scientists", what_it_does: "", examples: "replication studies and negative results" },
 
+  // === INGESTED 2026-07-03 01:40 ===
+  another_class_of_event_sensors: { definition: "So-called retinomorphic sensors", what_it_does: "", examples: "object recognition, autonomous vehicles, and robotics" },
+
 };
 
 // ============================================================
