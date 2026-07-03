@@ -56757,6 +56757,19 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 02:50 ===
   foster: "Also the binomial author of many iris species",
 
+  // === INGESTED 2026-07-03 02:57 ===
+  ethylene: "A fundamental ligand in transition metal alkene complexes",
+  the_hch_angle: "117.4°, close to the 120° for ideal sp² hybridized carbon",
+  many_reactions_of_ethylene: "Catalyzed by transition metals, which bind temporarily to the ethylene using both the π and π* orbitals",
+  its_uvvis_spectrum: "Still used as a test of theoretical methods",
+  a_primary_method: { definition: "Steam cracking (SC) where hydrocarbons and steam are heated to 750–950 °C", what_it_does: "converts large hydrocarbons into smaller ones and introduces unsaturation", examples: "" },
+  when_ethane: "The feedstock, ethylene is the product",
+  the_immediate_precursor: "1-aminocyclopropane-1-carboxylic acid",
+  some_products_derived_from_this_group: "Polyvinyl chloride , trichloroethylene , perchloroethylene , methyl chloroform , polyvinylidene chloride and copolymers , and ethyl bromide",
+  styrene: { definition: "Used principally in polystyrene for packaging and insulation, as well as in styrene-butadiene rubber for tires and footwear", what_it_does: "produces mixed n -butenes (primarily 2-butenes ) while the IFP process produces 1-butene", examples: "" },
+  the_rhcatalysed_hydroformylation_of_ethylene: "Conducted on an industrial scale to provide propionaldehyde",
+  the_name_ethylene: "Used in this sense as early as 1852",
+
 };
 
 // ============================================================
