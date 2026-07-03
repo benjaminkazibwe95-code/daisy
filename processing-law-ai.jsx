@@ -56754,6 +56754,9 @@ const FLAT_DICT = {
   a_new_online_version_of_lsj: "Released in 2011 by the Thesaurus Linguae Graecae (TLG)",
   lsj: "The basis of the project of John Chadwick and James Diggle at Cambridge to publish the Cambridge Greek Lexicon of 2021",
 
+  // === INGESTED 2026-07-03 02:50 ===
+  foster: "Also the binomial author of many iris species",
+
 };
 
 // ============================================================
