@@ -58126,6 +58126,10 @@ const FLAT_DICT = {
   fewer_typographical_errors: "Seen in the paper since the end of hot-metal typesetting",
   the_current_extent_of_the_archives_available: "1821 to 2003 for The Guardian and 1791 to 2003 for The Observer : [ 353 ] The Newsroom's other components were also transferred to Kings Place in 2008",
 
+  // === INGESTED 2026-07-03 08:44 ===
+  one_of_these_instruments: { definition: "A range of flutes made from PVC pipe", what_it_does: "", examples: "Eye Catching (1993), Watchful (1997), and Pivot (2000)" },
+  this_album: "A recreation of the sleep-concert environment he had created during the 1980s at Stanford",
+
 };
 
 // ============================================================
