@@ -56817,6 +56817,11 @@ const FLAT_DICT = {
   baker_lived_as_a_reputed_victorian_nimrod_and: "A milestone in the history of modern hunting through his works and deeds",
   he_was_proud_of_his_british_heritage_and: "An advocate of the virtues of his nation, and a fighter against slavery in Northern Uganda at Fort Patiko",
 
+  // === INGESTED 2026-07-03 03:24 ===
+  this_parastatal: "Governed by a five-member board, also known as the 'Authority'",
+  the_daytoday_affairs_of_the_agency: "Supervised by the chief executive officer",
+  the_intention_of_the_ew_regulations: "Lower the electricity tariff to manufacturers from an average of US$0.068 per Kilowatt-hour in Q4 2024, to the desired US$0",
+
 };
 
 // ============================================================
