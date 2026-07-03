@@ -57521,6 +57521,9 @@ const FLAT_DICT = {
   another_topic: "To use this type of cameras to interact with games on video game consoles",
   as_the_distance_calculation: "Simple, only little computational power is used",
 
+  // === INGESTED 2026-07-03 06:37 ===
+  handango: "An online store that sold mobile apps for personal digital assistants (PDAs) and smartphones",
+
 };
 
 // ============================================================
