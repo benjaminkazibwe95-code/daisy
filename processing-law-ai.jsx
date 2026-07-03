@@ -57083,6 +57083,19 @@ const FLAT_DICT = {
   these_object_types: "Illustrated in the following table: Indirect objects are frequently expressed as objects of prepositions, complicating the traditional typology; e.g",
   the_object_of_a_transitive_ergative_verb: "The subject of the corresponding intransitive ergative verb",
 
+  // === INGESTED 2026-07-03 04:48 ===
+  the_crosslinguistic_dimension_of_linguistics: "Established in the Renaissance period",
+  such_work: "Accounted for in the 'Catalogue of the Languages of the Populations We Know', 1800, by the Spanish Jesuit Lorenzo Hervás",
+  the_greenbergian_or_universalist_approach: { definition: "Accounted for by the World Atlas of Language Structures , among others", what_it_does: "", examples: "Functional Discourse Grammar , Role and Reference Grammar , and Systemic Functional Linguistics" },
+  the_implicational_hierarchy: "Thus singular < plural < dual (etc.)",
+  the_most_commonly_attested_word_orders: "SOV and SVO while the least common orders are those that are object initial with OVS being the least common with only four attested instances",
+  those_sentences_in_which_the_verb: "Not split) or on the position of the auxiliary",
+  german_is_thus_svo_in_main_clauses_and_welsh: { definition: "VSO (and preposition phrases would go after the infinitive)", what_it_does: "", examples: "Language X, varying degrees of freedom in constituent order are observed" },
+  sov: { definition: "The most common type in both although much more clearly in the data of language families including isolates", what_it_does: "", examples: "tend to have postpositions" },
+  exemplary_relative_frequencies: { definition: "Given below for certain speech sounds formed by obstructing airflow (obstruents)", what_it_does: "", examples: "the English niece and knees" },
+  it_is_then_seen_that_complex_consonants: "In proportion to the size of the inventory",
+  most_interesting_though: "The lack of relationship between consonant inventory size and vowel inventory size",
+
 };
 
 // ============================================================
