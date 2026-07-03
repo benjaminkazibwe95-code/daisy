@@ -58857,6 +58857,10 @@ const FLAT_DICT = {
   adducts_involving_metal_ions: "Usually described as coordination complexes",
   basic_catalysts: "Used for hydrogenation , the migration of double bonds , in the Meerwein-Ponndorf-Verley reduction , the Michael reaction , and many others",
 
+  // === INGESTED 2026-07-03 19:28 ===
+  such_compounds: "Called lipophilic (translated as 'fat-loving' or 'fat-liking' [ 1 ] [ 2 ] )",
+  such_nonpolar_solvents: "Themselves lipophilic, and the adage 'like dissolves like' generally holds true",
+
 };
 
 // ============================================================
