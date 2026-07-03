@@ -56780,6 +56780,14 @@ const FLAT_DICT = {
   after_hypothyroidism: "Found to cause a lower basal metabolic rate , this was used as a marker to guide adjustments in therapy in the early 20th century (around 1915)",
   skin_changes_and_fertility_problems: { definition: "Seen in dogs with hypothyroidism, as well as many other symptoms", what_it_does: "", examples: "surgery or radiation" },
 
+  // === INGESTED 2026-07-03 03:01 ===
+  this_signaling_pathway: "Conserved in diverse land plants",
+  these_two_actions: "Especially important for plant cells because they are stationary and must perform cell expansion",
+  cle_peptides: "Coded by the CLE genes",
+  when_atype_hormones: "Secreted the plant slows down the rate of root growth whereas the secretion of B-type peptides effects the vascular growth of the plant",
+  sam_and_ram_cells_divide_rapidly_and: "Considered indeterminate , in that they do not possess any defined end status",
+  all_sams: { definition: "Usually dome shaped and have structures that are layered and are described as the tunica and corpus", what_it_does: "", examples: "beet, soybean and potato cyst nematodes" },
+
 };
 
 // ============================================================
