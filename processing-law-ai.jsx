@@ -56519,6 +56519,11 @@ const FLAT_DICT = {
   a_viral_infection: { definition: "One of the causes of lissencephaly , which results in a smooth cortex without gyrification", what_it_does: "", examples: "pre-surgical mapping" },
   the_basic_form_of_the_pallium: "A cylindrical layer enclosing fluid-filled ventricles",
 
+  // === INGESTED 2026-07-03 01:23 ===
+  optogenetics: { definition: "A biological technique used to characterize and manipulate the activity of neurons or other cell types with light", what_it_does: "", examples: "those of the dopaminergic system, elicited characteristic behavioural changes in fruit flies" },
+  neuronal_activity: { definition: "Directly proportional to the hardness of the object being bitten, suggesting the neurons' role in force modulation", what_it_does: "", examples: "Chronos, [ 112 ] CatCh and f-Chrimson" },
+  to_produce_activation_transgenic_mice: { definition: "Infected with channelrhodopsin-2 with a TH-Cre promoter and to produce inhibition the hyperpolarizing opsin NpHR was added onto the TH-Cre promoter", what_it_does: "", examples: "the Halorhodopsin class of chlorid pumps and imparts a strong conductance" },
+
 };
 
 // ============================================================
