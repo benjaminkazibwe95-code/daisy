@@ -57217,6 +57217,12 @@ const FLAT_DICT = {
   von_blumenthal: "Then sent along the Luwegu River, partly by boat",
   the_ngoni_chiefs: { definition: "Offered Christian baptism before execution", what_it_does: "", examples: "daily life, preparations for resistance, and the visual strategies of colonial rule" },
 
+  // === INGESTED 2026-07-03 05:13 ===
+  its_political_and_intellectual_independence: "Paramount and the Institute chose to diversify its public and private sources of funding",
+  more_than_half_of_them: "Less than 40 years old",
+  a_special_issue: "Published in 2006 to celebrate the magazine's 70th anniversary",
+  the_members_list: "Available online under the IFRI's Partners section",
+
 };
 
 // ============================================================
