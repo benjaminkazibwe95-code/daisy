@@ -56746,6 +56746,14 @@ const FLAT_DICT = {
   this_cdna: { definition: "Then hybridized to the fragments on the array and visualization of the hybridization can be done", what_it_does: "", examples: "a healthy and cancerous tissue" },
   the_target_dna: "Then analyzed for the presence of the probe via radioactivity or fluorescence",
 
+  // === INGESTED 2026-07-03 02:44 ===
+  the_lexicon: { definition: "Begun in the 19th century, and is now in its ninth (revised) edition, published in 1940", what_it_does: "", examples: "the ongoing Greek– Spanish dictionary project Diccionario Griego–Español (DGE)" },
+  the_lsj: { definition: "Sometimes compared and contrasted with A Latin Dictionary by Lewis and Short, which was also published by Oxford University Press (OUP)", what_it_does: "", examples: "a reprint, re-typeset in 2007, of the 1909 edition is available from Simon Wallenberg Press" },
+  the_supplement: "Initially edited by M",
+  the_supplemental_entries: "Marked with signs to show the nature of the changes they call for",
+  a_new_online_version_of_lsj: "Released in 2011 by the Thesaurus Linguae Graecae (TLG)",
+  lsj: "The basis of the project of John Chadwick and James Diggle at Cambridge to publish the Cambridge Greek Lexicon of 2021",
+
 };
 
 // ============================================================
