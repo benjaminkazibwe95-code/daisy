@@ -57551,6 +57551,16 @@ const FLAT_DICT = {
   gyrocompasses: "Widely used on ships",
   these_directions_may_be_different_if_there: "A crosswind or tidal current",
 
+  // === INGESTED 2026-07-03 06:41 ===
+  reactive_principles: "A set of principles and patterns which help to make your cloud native application as well as edge native applications more reactive",
+  instances: "Questions that we can ask, and solutions are desired answers to these questions",
+  three_viewpoints: "Commonly used: In the case of distributed algorithms, computational problems are typically related to graphs",
+  often_the_graph_that: "The structure of the computer network is the problem instance",
+  another_commonly_used_measure: { definition: "The total number of bits transmitted in the network (cf", what_it_does: "", examples: "the dining philosophers problem and other similar mutual exclusion problems" },
+  there_are_also_fundamental_challenges_that: { definition: "Unique to distributed computing, for example those related to fault-tolerance", what_it_does: "", examples: "undirected rings, unidirectional rings, complete graphs, grids, directed Euler graphs, and others" },
+  the_coordinator_election_problem: "To choose a process from among a group of processes on different processors in a distributed system to act as the central coordinator",
+  a_complementary_research_problem: "Studying the properties of a given distributed system",
+
 };
 
 // ============================================================
