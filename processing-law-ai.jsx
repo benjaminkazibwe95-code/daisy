@@ -57915,6 +57915,21 @@ const FLAT_DICT = {
   his_reasons_for_vegetarianism: "Based on health, ethics, and economy: When about 16 years of age, I happen'd to meet with a book written by one Tryon, recommending a vegetable diet",
   the_sweet_little_creatures: "All alive to this day, with the prettiest fleeces on their backs imaginable",
 
+  // === INGESTED 2026-07-03 08:03 ===
+  this_exemption: { definition: "Adopted by the European Union in the Electronic Commerce Directive 2000", what_it_does: "", examples: "the Internet" },
+  exemptions_are_granted_when_it: "Shown that access-control technology has had a substantial adverse effect on the ability of people to make non-infringing uses of copyrighted works",
+  the_exemption_rules: "Revised every three years",
+  hold_there: "No need to amend the statute or to significantly alter the rulemaking",
+  the_studios_argued_that_the_code: { definition: "An anti-circumvention device as defined by the DMCA", what_it_does: "", examples: "those used in ebook distribution" },
+  elcom_argued_in_court_that_the_dmca: "Unconstitutionally vague and allowed for circumvention of use controls for purposes of fair use",
+  the_ruling_established_that_the_dmca: { definition: "Not unconstitutional, and that while it did place a burden on users accessing works for fair use, the DMCA did not outright restrict fair use", what_it_does: "", examples: "those with CSS copy protection, to another DVD or to a CD-ROM" },
+  early_concerns: "Focused on peer-to-peer file sharing services such as BitTorrent",
+  such_services_grew_after_napster: { definition: "Sued by several music industry groups in A&M Records, Inc", what_it_does: "", examples: "MGM Studios, Inc" },
+  when_a_dvd: "Played through an analog video cable and recorded using a VCR , Rovi's ACP technology will distort the copy partially or completely",
+  the_producers_of_video_equipment: "Forced by law to support and implement the corporation's proprietary technology",
+  sklyarov: "Arrested in the United States after presenting a speech at DEF CON and subsequently spent nearly a month in jail",
+  what_this_means: { definition: "That it's trivial to publish almost anything you want regardless of the quality of the work or, in these cases, how original it is", what_it_does: "", examples: "formatting and layout" },
+
 };
 
 // ============================================================
