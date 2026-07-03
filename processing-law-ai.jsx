@@ -58766,6 +58766,19 @@ const FLAT_DICT = {
   the_gender_bonus_gaps: { definition: "Far higher, at 50.7% for the median measure and 42.3% for the mean", what_it_does: "", examples: "their work in these training data sets" },
   the_court_found_that_circumstantial_evidence: "Sufficient to establish distribution of 116 titles for which counterfeit copies had been presented and of other 5 titles",
 
+  // === INGESTED 2026-07-03 18:59 ===
+  a_covalent_bond_is_a_chemical_bond_that: "The sharing of electrons to form electron pairs between atoms",
+  these_electron_pairs: { definition: "Known as shared pairs or bonding pairs", what_it_does: "", examples: "double bonds and triple bonds" },
+  each_hydrogen_has_a_valence_of_one_and: "Surrounded by two electrons (a duet rule) – its own one electron plus one from the carbon",
+  walter_heitler_and_fritz_london: { definition: "Credited with the first successful quantum mechanical explanation of a chemical bond ( molecular hydrogen ) in 1927", what_it_does: "", examples: "individual molecules, molecular structures , macromolecular structures and giant covalent structures" },
+  such_covalent_substances: { definition: "Low-boiling-temperature liquids (such as ethanol ), and low-melting-temperature solids (such as iodine and solid CO 2 )", what_it_does: "", examples: "synthetic polymers such as polyethylene and nylon , and biopolymers such as proteins and starch" },
+  molecules_with_oddelectron_bonds: "Usually highly reactive",
+  these_types_of_bond: "Only stable between atoms with similar electronegativities",
+  the_nitrate_ion: "One such example with three equivalent structures",
+  molecular_orbitals: "Orthogonal, which significantly increases the feasibility and speed of computer calculations compared to nonorthogonal valence bond orbitals",
+  if_the_range_to_select: "Unclear, it can be identified in practice by examining the molecular orbitals that describe the electron density along with the considered bond",
+  an_analogous_effect_to_covalent_binding: "Believed to occur in some nuclear systems, with the difference that the shared fermions are quarks rather than electrons",
+
 };
 
 // ============================================================
