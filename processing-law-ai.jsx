@@ -58889,6 +58889,19 @@ const FLAT_DICT = {
   this_rating: "Required by law in Europe",
   sulfation_can_happen_when_battery: "Not fully charged and remains discharged",
 
+  // === INGESTED 2026-07-03 19:43 ===
+  a_phosphate: "An anion , salt , functional group or ester derived from a phosphoric acid",
+  it_most_commonly: "Orthophosphate , a derivative of orthophosphoric acid, a.k.a",
+  the_term_also: "The trivalent functional group OP(O − ) 3 in such esters",
+  phosphates: "Medicinal salts of phosphorus",
+  many_phosphates: "Soluble in water at standard temperature and pressure",
+  most_other_phosphates: "Only slightly soluble or are insoluble in water",
+  the_p_k_a_values: { definition: "The pH values where the concentration of each species is equal to that of its conjugate bases", what_it_does: "", examples: "pyrophosphate , P 2 O 7 4− , and triphosphate , P 3 O 10 5−" },
+  atp_and_adp: "Often referred to as high-energy phosphates , as are the phosphagens in muscle tissue",
+  inorganic_phosphates: "Mined to obtain phosphorus for use in agriculture and industry",
+  smaller_deposits: "Located in Montana , Tennessee , Georgia , and South Carolina",
+  phosphorite_mines: "Primarily found in: In 2007, at the current rate of consumption, the supply of phosphorus was estimated to run out in 345 years",
+
 };
 
 // ============================================================
