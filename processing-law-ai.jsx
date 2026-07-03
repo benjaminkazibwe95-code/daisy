@@ -57205,6 +57205,18 @@ const FLAT_DICT = {
   volcanic_ash_and_drier_climates: "Ideal for preserving these human fossils but it also caused the lake to shrink or disappear at times",
   full_commercial_operation: "Achieved in July 2019 when the power lines delivering the outpurt were completed",
 
+  // === INGESTED 2026-07-03 05:11 ===
+  since_their_hold_on_the_colony: "Weak, they resorted to using violently repressive tactics to control the population",
+  the_headmen_of_the_village: "Put in charge of overseeing the production, which set them against the rest of the population",
+  the_social_fabric_of_society: "Rapidly changing: as the roles of men and women were being changed, they had to adapt for the communities",
+  since_men: "Forced away from their homes to work, women had to take on some of the traditional male roles",
+  kinjikitile: { definition: "Arrested and hanged for treason", what_it_does: "", examples: "Bishop Spiss (the Roman Catholic Bishop of Dar es Salaam ) were speared to death" },
+  though_the_southern_garrison: "Quite small (there were but 458 European and 588 native soldiers in the entire area), their fortifications and modern weapons gave them an advantage",
+  the_first_attack: "Met with gunfire from 1000 meters; the tribesmen stood firm for about fifteen minutes, then broke and retreated",
+  some_of_these_attackers: "Able to get within three paces of the firing line before they were killed",
+  von_blumenthal: "Then sent along the Luwegu River, partly by boat",
+  the_ngoni_chiefs: { definition: "Offered Christian baptism before execution", what_it_does: "", examples: "daily life, preparations for resistance, and the visual strategies of colonial rule" },
+
 };
 
 // ============================================================
