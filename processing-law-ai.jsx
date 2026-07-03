@@ -57164,6 +57164,18 @@ const FLAT_DICT = {
   her_husband: "Responsible for providing her with mlaso, a meal consisting of fat, fresh blood, and milk, with the blood sourced from a tapped animal",
   weaning: "Gradual, often beginning early, and children may continue to breastfeed until around three years of age, or longer if circumstances permit",
 
+  // === INGESTED 2026-07-03 05:05 ===
+  free_and_accessible_education: { definition: "A human right in Tanzania", what_it_does: "", examples: "the need to help families with work, poor accessibility, and a variety of learning disabilities" },
+  the_objectives_of_the_pedp: "To: (1) expand school access; (2)improve education quality; and (3) increase school retention at the primary level",
+  the_language_of_education_for_primary_school: "Kiswahili while the language of secondary school is English",
+  private_primary_schools: { definition: "Very few, and they are English medium and expensive", what_it_does: "", examples: "constructing buildings and teachers' houses, consumedonly 10" },
+  unless_children: "Enrolled in private primary education which is taught in English, language comes as a barrier to pursuing higher education",
+  the_pass_rate: { definition: "70.6 percent in 2001, 88.7 percent in 2003, and 78.5 percent in 2007", what_it_does: "", examples: "self-confidence, grit, and problem solving" },
+  the_total_number_of_teachers: { definition: "32,835 and the total number of schools was 3,485", what_it_does: "", examples: "experienced graduates" },
+  onethird_of_girls: "Still married by age 18, and most of them come from poorer families",
+  a_student_who_passes: "Given a school-leaving certificate by his or her school",
+  many_students_were_and_still: "Forced to stay at home due to superstition, stigma, and ignorance, and they are, consequently, often seen as worthless or as a burden",
+
 };
 
 // ============================================================
