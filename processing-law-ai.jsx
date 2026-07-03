@@ -57096,6 +57096,13 @@ const FLAT_DICT = {
   it_is_then_seen_that_complex_consonants: "In proportion to the size of the inventory",
   most_interesting_though: "The lack of relationship between consonant inventory size and vowel inventory size",
 
+  // === INGESTED 2026-07-03 04:50 ===
+  such_metrics_based_on_syllables: { definition: "Also referred to as syllable weight", what_it_does: "", examples: "Old English and potentially present-day English, can have syllables with up to four morae" },
+  these_trimoraic_constituents: { definition: "Units of stress in Gilbertese", what_it_does: "", examples: "in the two-syllable word mōra , the ō is a long vowel and counts as two morae" },
+  the_japanese_syllablefinal_n: "Also moraic, as is the first part of a geminate consonant",
+  most_dialects_of_japanese: "Pitch accent languages, and these pitch accents are also based on morae",
+  if_modern_english: "Analyzed in terms of morae at all, which is contentious, the rules would be similar, except that all diphthongs would be considered bimoraic",
+
 };
 
 // ============================================================
