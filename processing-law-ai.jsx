@@ -56467,6 +56467,17 @@ const FLAT_DICT = {
   when_the_perceived_stress_level: "The same, men and women have much fewer differences in how they seek and use social support",
   one_study_shows_that_koreans: "More likely to report substance abuse than European Americans are",
 
+  // === INGESTED 2026-07-03 01:12 ===
+  a_neurotransmitter: "A signaling molecule secreted by a neuron to affect another cell across a synapse",
+  some_neurotransmitters: "Also stored in large dense core vesicles",
+  monoamines: { definition: "Synthesized by altering a single amino acid", what_it_does: "", examples: "the precursor of serotonin is the amino acid tryptophan" },
+  the_effect_of_the_neurotransmitter: { definition: "Dependent on the identity of the target cell's receptors present at the synapse", what_it_does: "allows for the flow of information and the formation of complex neural networks", examples: "" },
+  if_the_cell_body: "Normally in an inhibited state, the only way to generate an action potential at the axon hillock is to reduce the cell body's inhibition",
+  soluble_gas_neurotransmitters: { definition: "Difficult to study because they act rapidly and are immediately broken down, existing for only a few seconds", what_it_does: "", examples: "cocaine and amphetamines exert their effects primarily on the dopamine system" },
+  when_neurotransmitter_synthesis: "Inhibited, the amount of neurotransmitter available for release decreases, thus reducing neurotransmitter activity",
+  antagonists: { definition: "Often described as receptor “blockers” and may be classified as competitive or irreversible", what_it_does: "", examples: "autism , obsessive–compulsive disorder (OCD), schizophrenia , and depression" },
+  some_of_these_conditions: "Also related to neurotransmitter switching, a phenomenon where neurons change the type of neurotransmitters they release",
+
 };
 
 // ============================================================
