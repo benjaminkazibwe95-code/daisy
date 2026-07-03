@@ -59047,6 +59047,9 @@ const FLAT_DICT = {
   the_exception_to_this: { definition: "In the Piscicolidae, where branching or leaf-like lateral outgrowths from the body wall form gills", what_it_does: "", examples: "earthworms" },
   then_the_posterior_end: { definition: "Released, pulled forward by the longitudinal muscles, and reattached; then the anterior end is released, and the cycle repeats", what_it_does: "", examples: "inside the nose, are more likely to require medical intervention" },
 
+  // === INGESTED 2026-07-03 20:23 ===
+  the_gut_metagenome: "The aggregate of all the genomes of gut microbiota",
+
 };
 
 // ============================================================
