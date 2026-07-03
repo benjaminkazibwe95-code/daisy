@@ -57760,6 +57760,17 @@ const FLAT_DICT = {
   the_student_government_endorses_proposal_that: "Brought before the University Council",
   richard_rose: "On sabbatical with the CIA, and again in 1992 between Rose's retirement and Albert J",
 
+  // === INGESTED 2026-07-03 07:24 ===
+  the_earliest_known_tool_for_use_in_computation: "The abacus , and it is thought to have been invented in Babylon circa between 2700 and 2300 BC",
+  some_users: { definition: "Satisfied with the bundled apps and need never install additional applications", what_it_does: "", examples: "a geography application for Windows or an Android application for education or Linux gaming" },
+  one_wellknown_communications_protocol: "Ethernet , a hardware and link layer standard that is ubiquitous in local area networks",
+  another_common_protocol: "The Internet Protocol Suite , which defines a set of protocols for internetworking, i.e",
+  the_highestquality_software: { definition: "Thus often developed by a team of domain experts, each a specialist in some area of development", what_it_does: "", examples: "system administration and maintenance" },
+  the_first_reference_to_the_term: { definition: "The 1968 NATO Software Engineering Conference , and was intended to provoke thought regarding the perceived software crisis at the time", what_it_does: "", examples: "computer graphics , emphasize real-world applications" },
+  one_area_of_interest_in_this_field: "Its potential to support energy efficiency",
+  qubits: "Capable of being in a superposition, i.e",
+  this_trait_of_qubits: "Known as quantum entanglement , and is the core idea of quantum computing that allows quantum computers to do large scale computations",
+
 };
 
 // ============================================================
