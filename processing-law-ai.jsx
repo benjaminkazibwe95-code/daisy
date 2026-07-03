@@ -57382,6 +57382,10 @@ const FLAT_DICT = {
   higherorder_units: { definition: "Merely the direct expression of lower-order units delegating, combining and coordinating", what_it_does: "", examples: "social relations and the economy" },
   asymmetric_federalism_exists_where_states: { definition: "Granted different powers, or some possess greater autonomy than others do", what_it_does: "", examples: "Navarre , Galicia , Catalonia , and the Basque Country" },
 
+  // === INGESTED 2026-07-03 05:50 ===
+  usually_the_smaller_the_country: "(by area or population), the fewer levels of administrative divisions it has",
+  within_those_entities: "The large and small cities or towns, which may or may not be the county seat",
+
 };
 
 // ============================================================
