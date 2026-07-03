@@ -56354,6 +56354,27 @@ const FLAT_DICT = {
   the_experimental_analysis_of_behavior: { definition: "A science that studies the behavior of individuals across a variety of species", what_it_does: "", examples: "food or pain" },
   and_when_stopping_leverpressing: "Followed by shock, lever-pressing is maintained or increased (negative reinforcement)",
 
+  // === INGESTED 2026-07-03 00:38 ===
+  subjective_wellbeing: { definition: "How a person feels about and evaluates their life", what_it_does: "", examples: "health, income, and security" },
+  wellbeing_is_what: { definition: "Intrinsically or non-instrumentally good for a person or in their self-interest", what_it_does: "", examples: "income , safety , and environmental quality" },
+  a_thing_has_impersonal_value_if_it: { definition: "Good for the world at large by making it a better place, without being restricted to one specific person", what_it_does: "", examples: "if an individual seeks personal gain that is bad from a wider perspective" },
+  this_doubt: { definition: "Based on the idea that well-being is essentially a subjective phenomenon tied to a person's experience", what_it_does: "", examples: "low income and frail health, may nonetheless be subjectively happy" },
+  eudaimonic_wellbeing: { definition: "A form of personal fulfillment in which an individual flourishes by striving for excellence and actualizing their innate potential", what_it_does: "", examples: "sadistic pleasures from torturing animals" },
+  desires_present_conditions_that: { definition: "Either fulfilled or frustrated depending on whether the desired state of affairs is actualized", what_it_does: "", examples: "health, friendship, achievement, knowledge, and autonomy" },
+  monist_theories_hold_that_a_single_good: { definition: "Responsible for well-being, meaning that all types of well-being share the same essential features", what_it_does: "", examples: "rationality , knowledge, health, and dignity , to live well" },
+  this_view_emphasizes_that_wellbeing: { definition: "Not a passive state but an active process", what_it_does: "", examples: "beliefs, feelings, and judgments about what is good" },
+  pleasure_and_pain: { definition: "Closely tied to the brain's reward system , influencing motivation and behavior by reinforcing beneficial actions and discouraging harmful ones", what_it_does: "people build trust, share values, promote the exchange of information, and provide access to new opportunities", examples: "joy , hope , anger , and fear" },
+  a_central_aspect: "The strength of the connection, distinguishing close friends from distant ones",
+  the_value_of_epistemic_goods: { definition: "Reflected in the emphasis given to education to foster the development of the minds of students", what_it_does: "", examples: "dispositions to act morally and follow ethical principles" },
+  it_states_that_the_main_elements: { definition: "Self-acceptance , personal growth , purpose in life, environmental mastery, autonomy, and positive relations with others", what_it_does: "", examples: "feelings, emotions, attitudes, traits, and interactions with one's environment" },
+  welfarism_is_the_view_that_wellbeing: { definition: "The only basic source of value", what_it_does: "", examples: "ensuring that well-being is distributed equally among people" },
+  one_of_its_primary_goals: { definition: "To develop standards for evaluating and choosing between competing policy proposals based on their potential benefit to well-being", what_it_does: "", examples: "distribution of income , gross domestic product , consumer surplus , and compensating variation" },
+  it_holds_that_subjective_wellbeing: { definition: "A product of natural selection : its underlying hereditary traits are passed on to future generations if they promote survival and reproduction", what_it_does: "", examples: "functional magnetic resonance imaging" },
+  he_maintained_that_wellbeing: { definition: "The purpose of life and is achieved primarily by practicing virtues, such as acting in accordance with reason, justice , courage , and temperance", what_it_does: "", examples: "health; and external goods, such as wealth and good relations to others" },
+  the_epicureans_argued_that_pleasure: { definition: "The only source of well-being and that it is best achieved through moderation and the cultivation of a tranquil state of mind", what_it_does: "", examples: "right conduct and mindfulness, to overcome it" },
+  he_maintained_that_true_happiness: { definition: "Achievable only in the afterlife", what_it_does: "", examples: "their intensity and duration" },
+  he_held_that_higher_pleasures_of_the_mind: "More valuable than lower pleasures of the body, even if they have the same intensity and duration",
+
 };
 
 // ============================================================
