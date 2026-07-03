@@ -56343,6 +56343,13 @@ const FLAT_DICT = {
   feld_stated_that_these_practices: "Necessary to protect circus workers and acknowledged that an elephant trainer was rebuked for using an electric prod on an elephant",
   ralph_helfer: { definition: "Known to have relied on positive reinforcement when training his animals", what_it_does: "", examples: "one made by Leonardo da Vinci" },
 
+  // === INGESTED 2026-07-03 00:33 ===
+  a_behavioral_cusp: "An important behavior change that alters the probability of the learner's future repertoires and interactions with stakeholders' repertoires",
+  the_cusp: { definition: "A behavior change that presents special features when compared to other behavior changes", what_it_does: "", examples: "learning to play soccer is not a milestone, but it was life-changing for Pelé" },
+  new_reinforcers: "Accessible and enrich the perspective of the learner",
+  if_the_reinforcers: "Promoting health and social behaviors, they will lead to an improved quality of life",
+  new_contingencies: { definition: "Responsible for the selection of novel and more adaptive behaviors while decreasing problematic or archaic behaviors", what_it_does: "", examples: "school curriculum)" },
+
 };
 
 // ============================================================
