@@ -58521,6 +58521,10 @@ const FLAT_DICT = {
   interference: "Less well understood because the frequency of the two waves affects result of the combination",
   in_modern_times_this_experiment: "Considered an important classic proof of the wave theory of light",
 
+  // === INGESTED 2026-07-03 17:57 ===
+  the_collimated_beam: "Split by a half-silvered mirror",
+  also_beamsplitters_that: "Not 50/50 are frequently employed to improve the interferometer's performance in certain types of measurement",
+
 };
 
 // ============================================================
