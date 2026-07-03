@@ -58743,6 +58743,15 @@ const FLAT_DICT = {
   the_average: "Roughly 2.5 to 3.0 and at least one, on average, must evade capture in order to sustain the nuclear chain reaction",
   the_energy_of_free_neutrons: { definition: "Characterized by their temperature as given by their Maxwell–Boltzmann distribution", what_it_does: "", examples: "thermal neutrons have with kT = 0.0253 eV ( 4" },
 
+  // === INGESTED 2026-07-03 18:46 ===
+  valence_bond_theory: { definition: "Typically easier to employ in ground state molecules", what_it_does: "", examples: "a bond between two s -orbital electrons is a sigma bond, because two spheres are always coaxial" },
+  this_combination_of_valence_bond_structures: "The main point of resonance theory",
+  hybridization_is_a_model_that: "How atomic orbitals combine to form new orbitals that better match the geometry of molecules",
+  atomic_orbitals_that: { definition: "Similar in energy combine to make hybrid orbitals", what_it_does: "", examples: "transition metal compounds" },
+  the_resulting_energies: "More competitive with energies from calculations where electron correlation is introduced based on a Hartree–Fock reference wavefunction",
+  the_most_recent_text: "By Shaik and Hiberty",
+  since_the_nature_of_the_overlapping_orbitals: "Different in H 2 and F 2 molecules, the bond strength and bond lengths differ between H 2 and F 2 molecules",
+
 };
 
 // ============================================================
