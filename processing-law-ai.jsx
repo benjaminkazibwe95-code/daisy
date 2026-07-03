@@ -57784,6 +57784,9 @@ const FLAT_DICT = {
   a_monolithic_kernel: { definition: "An operating system architecture with the entire operating system running in kernel space", what_it_does: "", examples: "process management , concurrency , and memory management" },
   this_modularity_of_the_operating_system: { definition: "At the binary (image) level and not at the architecture level", what_it_does: "easy extension of the operating systems' capabilities as required", examples: "to minimize operating system footprint for embedded devices or those with limited hardware resources" },
 
+  // === INGESTED 2026-07-03 07:41 ===
+  middleware: "A type of computer software program that provides services to software applications beyond those available from the operating system",
+
 };
 
 // ============================================================
