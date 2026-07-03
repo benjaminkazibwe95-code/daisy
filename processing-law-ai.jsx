@@ -57103,6 +57103,25 @@ const FLAT_DICT = {
   most_dialects_of_japanese: "Pitch accent languages, and these pitch accents are also based on morae",
   if_modern_english: "Analyzed in terms of morae at all, which is contentious, the rules would be similar, except that all diphthongs would be considered bimoraic",
 
+  // === INGESTED 2026-07-03 04:54 ===
+  thus_to_go: "An infinitive, as is go in a sentence like 'I must go there' (but not in 'I go there', where it is a finite verb )",
+  the_form_without_to: { definition: "Called the bare infinitive , and the form with to is called the full infinitive or to-infinitive", what_it_does: "", examples: "Latin has distinct active and passive infinitives" },
+  an_infinitive_phrase: "A verb phrase constructed with the verb in infinitive form",
+  some_examples_of_infinitive_phrases_in_english: { definition: "Given below – these may be based on either the full infinitive (introduced by the particle to ) or the bare infinitive (without the particle to )", what_it_does: "", examples: "it may form a noun phrase or adverb" },
+  english_has_infinitive_constructions_that: "Marked (periphrastically) for aspect: perfect , progressive (continuous), or a combination of the two ( perfect progressive )",
+  perfect_infinitives: { definition: "Also found in other European languages that have perfect forms with auxiliaries similarly to English", what_it_does: "", examples: "avoir mangé means ' (to) have eaten ' in French" },
+  the_other_nonfinite_verb_forms_in_english: { definition: "The gerund or present participle (the -ing form), and the past participle – these are not considered infinitives", what_it_does: "", examples: "can , must , etc" },
+  infinitives: "Negated by simply preceding them with not",
+  the_form_listed_in_a_dictionary_entry: "The bare infinitive, but the to -infinitive is often used when defining other verbs, e.g",
+  in_german_it: "-en ( sagen ), with -eln or -ern endings on a few words based on -l or -r roots ( segeln, ändern )",
+  the_use_of_zu_with_infinitives: { definition: "Similar to English to , but is less frequent than in English", what_it_does: "", examples: "' Het is niet moeilijk te begrijpen ' → ' It is not hard to understand '" },
+  in_north_germanic_languages_the_final_n: { definition: "Lost from the infinitive as early as 500–540 AD, reducing the suffix to -a", what_it_does: "", examples: "the written majority language bokmål )" },
+  the_infinitives_of_these_languages: "Inflected for passive voice through the addition of -s or -st to the active form",
+  the_only_verb_that: { definition: "Modal in common modern Romanian is the verb a putea , ' to be able to '", what_it_does: "", examples: "the English finite clause in order that you/she/we have" },
+  when_the_infinitive_construct: "Preceded by the dative preposition ל־ ‎, it has a similar meaning to the English to -infinitive, and this is its most frequent use in Modern Hebrew",
+  the_infinitive_absolute: "Used for verb focus and emphasis, as in מוֹת יָמוּת ‎ mōṯ yāmūṯ (literally ' a dying he will die ' , figuratively ' he shall indeed/surely die ' )",
+  in_modern_hebrew_it: { definition: "Restricted to high-register literary works", what_it_does: "", examples: "in French the sentence 'I want you to come' translates to Je veux que vous veniez ( lit" },
+
 };
 
 // ============================================================
