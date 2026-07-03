@@ -57425,6 +57425,13 @@ const FLAT_DICT = {
   two_display_variants: { definition: "Reportedly created, one with a 1080p screen and another with a 1440p screen", what_it_does: "", examples: "build 9867 and, in some cases, build 10113" },
   the_battery_performance: "Noted to be limited due to the combination of high-end components and testing configurations",
 
+  // === INGESTED 2026-07-03 06:18 ===
+  the_macrometer_interferometric_surveyor: { definition: "The first commercial GNSS-based system for performing geodetic measurements", what_it_does: "", examples: "Garmin (1991), Benefon (1999), Mio (2002) and TomTom (2002) entered the market" },
+  gnss_signals: "Already very weak when they arrive at the Earth's surface",
+  these_receivers: "Among the least expensive available, but they cannot operate under high dynamics and have the slowest time-to-first-fix (TTFF) performance",
+  their_design: "Ergonomical , their screens are small, and some do not show color, in part to save power",
+  consumer_devices: { definition: "Restricted by selective availability (SA), which was scheduled to be phased out but was removed abruptly by President Clinton", what_it_does: "", examples: "for golf carts" },
+
 };
 
 // ============================================================
