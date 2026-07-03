@@ -56867,6 +56867,11 @@ const FLAT_DICT = {
   businesses_that: "Labelled saloons are, in reality, western salons",
   another_frequent_change: "The confusion of u / ʌ / and a / æ /",
 
+  // === INGESTED 2026-07-03 03:37 ===
+  these_rulers: { definition: "Allowed a measure of internal autonomy in exchange for recognition of British suzerainty", what_it_does: "", examples: "it covered approximately 54% of the area and included over 77% of the population" },
+  independence_from_british_rule: { definition: "Achieved in 1947 with the formation of two nations, the Dominions of India and Pakistan , the latter including East Bengal , present-day Bangladesh", what_it_does: "", examples: "factories and forts, were then called the Madras Presidency (or the Presidency of Fort St" },
+  thus_ganjam_and_vizagapatam: "Non-regulation districts",
+
 };
 
 // ============================================================
