@@ -58317,6 +58317,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 17:00 ===
   setup_costs: "Higher than for other heating systems due to the requirement of installing ground loops over large areas or of drilling bore holes",
 
+  // === INGESTED 2026-07-03 17:02 ===
+  charged_particles: "Labeled as either positive (+) or negative (-)",
+
 };
 
 // ============================================================
