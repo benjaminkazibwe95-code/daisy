@@ -57285,6 +57285,17 @@ const FLAT_DICT = {
   online_judges: "Online environments in which testing takes place",
   the_archives_of_past_problems: "Popular resources for training in competitive programming",
 
+  // === INGESTED 2026-07-03 05:31 ===
+  the_sounds: "Shown using the same system for representing the sounds as in the rest of the article",
+  when_the_ipa_symbol: "Different, the orthography is indicated in brackets",
+  this_fricative_or_affricate: "More often pronounced further back, in the uvular place of articulation (although it is represented in this article as [xʼ] )",
+  since_these_two_sounds: { definition: "Completely conditioned by their environments, they can be considered allophones of /k/ and /kʼ/", what_it_does: "", examples: "ይሰርቁ /jəsɐrkʼu/ ( ' they steal ' ) and ይሰርቕ /jəsɐrrəxʼ/ ( ' he steals ' )" },
+  because_allophones: { definition: "Completely predictable, it is quite unusual for them to be represented with distinct symbols in the written form of a language", what_it_does: "", examples: "Stress is neither contrastive nor particularly salient in Tigrinya" },
+  these_redundant_symbols: "Falling into disuse in Tigrinya and are shown with a dark gray background in the table",
+  since_some_of_the_distinctions_that: "Apparently made in Ge'ez have been lost in Tigrinya, there are two rows of symbols each for the consonants ‹ḥ›, ‹s›, and ‹sʼ›",
+  these_lessused_series: "Shown with a dark gray background in the chart",
+  since_such_minimal_pairs: "Very rare, this presents no problem to readers of the language",
+
 };
 
 // ============================================================
