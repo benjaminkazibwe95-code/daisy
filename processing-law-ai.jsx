@@ -58440,6 +58440,32 @@ const FLAT_DICT = {
   a_prime_example_of_this_irreversibility: "The transfer of heat by conduction or radiation",
   such_details: "Often referred to as disorder on a microscopic or molecular scale, and less often as dispersal of energy",
 
+  // === INGESTED 2026-07-03 17:36 ===
+  linking_through_hyperlinks: "An important feature of Wikipedia",
+  the_page_from_which_the_hyperlink_is_activated: { definition: "Called the origin ; the page the link points to is called the target", what_it_does: "", examples: "in article leads , at the openings of new sections, in the cells of tables , and in file captions" },
+  an_article: "Said to be overlinked if it contains an excessive number of links, making it difficult to identify those likely to aid a reader's understanding",
+  the_purpose_of_linking: { definition: "To clarify and to provide reasonable navigation opportunities, not to emphasize a particular word", what_it_does: "", examples: "in infoboxes , tables , image captions , footnotes , and hatnotes" },
+  if_the_list: "Uniform, where each item clearly qualifies for an article, a single red link (or blue link) could indicate that",
+  sectionlinking_options: { definition: "Piped links , redirects , and the {{ Section link }} template, which also generates the § character", what_it_does: "", examples: "<!-- 'Quark' links here" },
+  avoid_linking_redirects_that: { definition: "Self links ( WP:SELFRED )", what_it_does: "", examples: "[[ Henry II of England | Henry II ]] displays as Henry II" },
+  if_a_physical_copy_of_the_article: "Printed, or the article saved as an audio file, the reference to the parton model would be lost",
+  the_format_for_a_piped_link: { definition: "[[Article#Section|name of link]]", what_it_does: "", examples: "to link to the 'Culture' subsection of the article Oman , type: which displays as culture of Oman" },
+  the_section_name: { definition: "Case-sensitive , unlike article titles, where the first letter is case-insensitive", what_it_does: "", examples: "A list of incoming wikilinks can be generated using the ' What links here ' feature" },
+  but_if_too_many_blue_links: "Distracting, a red link is even more so",
+  if_you_remain_convinced_there: "Overlinking of red links, consider turning some of them blue",
+  the_methods_to_do_so: { definition: "By creating a simple stub , a redirect , or a disambiguation page", what_it_does: "", examples: "the conventions on article titles" },
+  if_no_protocol: { definition: "Used, the square brackets display normally – [like this] – and can be used in the standard way", what_it_does: "", examples: "https://www.example.org/ → https://www.example.org/" },
+  embedded_html_links_within_an_article: { definition: "A now-deprecated way to supply a bare URL as a source within an article, by simply enclosing the URL in square brackets, like this: [ https://www", what_it_does: "", examples: "to add a title to a bare URL such as https://en.wikipedia.org/ (this is rendered as https://en" },
+  there_may_be_exceptions_where_the_domain_name: "Well known or is also the company or publication name",
+  when_a_url_or_domain_name: "Given, putting both a plain-English title or description and the URL is often more informative: for example, European Space Agency website, www.esa",
+  if_the_url_or_domain_name: { definition: "Displayed, make it as simple as possible; for example, if the index.html is superfluous, remove it (but be sure to check in preview mode first)", what_it_does: "", examples: "those given a title, so no information is lost" },
+  this_style_of_referencing: "Now deprecated, because such links are susceptible to link rot",
+  useful_templates: "Available: {{ DOClink }} , {{ RTFlink }}",
+  if_a_browser_plugin: "Required to view the file, mention that as well",
+  if_a_link: { definition: "To a PDF file but doesn't end with .pdf , you can put a #.pdf at the end to flag it as a PDF", what_it_does: "", examples: "{{ Wikiquote | Jimmy Wales }}" },
+  if_the_desire: "To 'navigate' a reader to a new page, taking them away from the current page, a link is preferred",
+  buttons: "Used within Wikipedia to trigger an 'action', such as Show preview , Create account , or Reply",
+
 };
 
 // ============================================================
