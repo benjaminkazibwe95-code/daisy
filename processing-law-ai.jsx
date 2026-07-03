@@ -57328,6 +57328,13 @@ const FLAT_DICT = {
   twelver_shia: "Otherwise known as Imami or Jaʿfari ; the latter term derives from Jaʿfar al-Ṣādiq , the 6th Shia Imam, who elaborated the Twelver jurisprudence",
   his_rule: "The longest of any caliph in any Islamic empire",
 
+  // === INGESTED 2026-07-03 05:39 ===
+  the_bri: { definition: "Central to China's foreign policy and economy", what_it_does: "", examples: "in the Boten–Vientiane and Jakarta-Bandung lines" },
+  the_belt_and_road_initiative_now: { definition: "The entire geographical area of the historic ' Silk Road ' trade route , which has been continuously used in antiquity", what_it_does: "", examples: "the addition of a 'Health Silk Road' during the COVID-19 pandemic" },
+  overall_the_pan: { definition: "That the ship connections for container transport between Asia and Europe will be reorganized", what_it_does: "", examples: "with the logistics platform in Cervignano" },
+  one_notable_example_of_this: { definition: "China's Digital Silk Road", what_it_does: "", examples: "overuse of natural resources, ecosystem disruption, and pollutant emissions" },
+  the_cia_promoted_narratives_that_ccp_leaders: { definition: "Hiding money overseas and that the BRI was corrupt and wasteful", what_it_does: "", examples: "one related to the BRI" },
+
 };
 
 // ============================================================
