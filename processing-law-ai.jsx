@@ -57780,6 +57780,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 07:35 ===
   the_proximate_cause: { definition: "A memory access violation, while the underlying cause is generally a software bug of some sort", what_it_does: "", examples: "dereferencing a dangling pointer )" },
 
+  // === INGESTED 2026-07-03 07:39 ===
+  a_monolithic_kernel: { definition: "An operating system architecture with the entire operating system running in kernel space", what_it_does: "", examples: "process management , concurrency , and memory management" },
+  this_modularity_of_the_operating_system: { definition: "At the binary (image) level and not at the architecture level", what_it_does: "easy extension of the operating systems' capabilities as required", examples: "to minimize operating system footprint for embedded devices or those with limited hardware resources" },
+
 };
 
 // ============================================================
