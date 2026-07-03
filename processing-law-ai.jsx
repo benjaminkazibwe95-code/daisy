@@ -57176,6 +57176,10 @@ const FLAT_DICT = {
   a_student_who_passes: "Given a school-leaving certificate by his or her school",
   many_students_were_and_still: "Forced to stay at home due to superstition, stigma, and ignorance, and they are, consequently, often seen as worthless or as a burden",
 
+  // === INGESTED 2026-07-03 05:07 ===
+  suluhu_and_magufuli: "Re-elected to a second term in 2020",
+  the_major_opposition_party_chadema: "Also barred from participation in the election",
+
 };
 
 // ============================================================
