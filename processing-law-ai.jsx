@@ -56833,6 +56833,31 @@ const FLAT_DICT = {
   rwenzori_mountains_national_park: "A Ugandan national park and UNESCO World Heritage Site located in the Rwenzori Mountains",
   those_mountains: "Higher than the Alps and are ice-capped",
 
+  // === INGESTED 2026-07-03 03:33 ===
+  brucei_gambiense: "Primarily transmitted between humans and causes over 92% of cases, [ 1 ] while T",
+  brucei_rhodesiense: { definition: "Zoonotic , with animals such as cattle serving as reservoirs", what_it_does: "", examples: "confusion , poor coordination , numbness , and trouble sleeping" },
+  a_lumbar_puncture: { definition: "Often needed to tell the difference between first- and second-stage disease", what_it_does: "", examples: "by the use of insect repellents and protective clothing" },
+  fexinidazole: { definition: "A more recent treatment that can be taken by mouth for either stage of T", what_it_does: "", examples: "farming, fishing, and hunting increase exposure risk" },
+  the_hemolymphatic_stage: { definition: "To the period when parasites are present in the blood and lymphatic system, prior to central nervous system involvement", what_it_does: "", examples: "travelers)" },
+  the_ulcer: { definition: "Most commonly observed in T", what_it_does: "", examples: "pericarditis and congestive heart failure), and ophthalmic involvement" },
+  this_assessment: "Crucial because treatment protocols differ depending on whether or not the central nervous system has been affected",
+  sleepwake_disturbances: { definition: "A leading feature of the neurological stage [ 12 ] [ 20 ] and give the disease its common name of 'sleeping sickness'", what_it_does: "", examples: "metabolic patterns in cells" },
+  the_underlying_causes: "Investigated in a mouse model where T",
+  the_role_of_these_cytokines: { definition: "Currently being explored; however, the sites of T", what_it_does: "", examples: "cycling genes" },
+  wild_game_animals_and_cattle: "The main reservoir of T",
+  metacyclic_trypomastigotes: { definition: "The infectious form of the parasite that develops in the salivary glands of the vector and is transmitted through the bite", what_it_does: "", examples: "lymph, spinal fluid), and continue to replicate by binary fission" },
+  the_treatment_for_firststage_disease: "Fexinidazole by mouth or pentamidine by injection for T",
+  disease_progression: "Rapid and invades the central nervous system, causing death within a short amount of time",
+  the_democratic_republic_of_the_congo: { definition: "The most affected country in the world, accounting for 75% of the Trypanosoma brucei gambiense cases", what_it_does: "", examples: "single-dose acoziborole , will be critical for elimination" },
+  rhodesiense_infections: "Resistant to the parasite serving as an evolutionary mark in the evolutionary divergence of early hominid natural selection",
+  brucei: "The cause of a similar disease in horses and cattle that was transmitted by the tsetse fly ( Glossina morsitans )",
+  suramin: "First synthesized by Oskar Dressel and Richard Kothe in 1916 for Bayer",
+  tryparsamide: "Announced in the Journal of Experimental Medicine in 1919 and tested in the Belgian Congo by Louise Pearce of the Rockefeller Institute in 1920",
+  resistance_to_melarsoprol: "Increasing, and combination therapy with nifurtimox is currently under research",
+  the_drug: "Approved by the United States Food and Drug Administration in 1990",
+  the_greatest_amount_of_funding: { definition: "Directed towards basic research of the disease; approximately US$21.6 million was directed towards that effort", what_it_does: "", examples: "philanthropic foundations and private pharmaceutical companies, to fill" },
+  these_types_of_partnerships: { definition: "More effective than industry or public groups working independently", what_it_does: "", examples: "cattle and wild animals" },
+
 };
 
 // ============================================================
