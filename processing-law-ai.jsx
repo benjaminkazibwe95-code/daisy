@@ -57390,6 +57390,15 @@ const FLAT_DICT = {
   web_content: { definition: "The text , visual or audio content that is made available online and user encountered as part of the online usage and experience on websites", what_it_does: "", examples: "content author , editor , publisher , and administrator" },
   web_content_accessibility: "The practice of designing and developing web content that can be used by people with a wide range of disabilities",
 
+  // === INGESTED 2026-07-03 05:56 ===
+  the_wap_standard: "Built on a three-layer, middleware architecture that fueled the early growth of the mobile web",
+  mobile_internet: "Internet access and mainly usage of Internet using a cellular telephone service provider or mobile wireless network",
+  the_goal_of_the_initiative: "To make browsing the web from mobile devices more reliable and accessible",
+  access_to_the_mobile_web: "First commercially offered in 1996, in Finland, on the Nokia 9000 Communicator phone via the Sonera and Radiolinja networks",
+  many_new_mobile_browsers: { definition: "Moving beyond these limits by supporting a wider range of Web formats, including variants of HTML commonly found on the desktop web", what_it_does: "", examples: "in Hong Kong , Italy and Ukraine , the mobile phone penetration rate had passed 140% by 2009" },
+  the_goal_of_this_project: "To improve the speed and performance of content-rich pages which include video , animations , and graphics",
+  usability_problems: "Centered on the small physical size of the mobile phone form factors , which limit display resolution and user input )",
+
 };
 
 // ============================================================
