@@ -57930,6 +57930,20 @@ const FLAT_DICT = {
   sklyarov: "Arrested in the United States after presenting a speech at DEF CON and subsequently spent nearly a month in jail",
   what_this_means: { definition: "That it's trivial to publish almost anything you want regardless of the quality of the work or, in these cases, how original it is", what_it_does: "", examples: "formatting and layout" },
 
+  // === INGESTED 2026-07-03 08:05 ===
+  reaction_from_the_net_community: "Fiercely negative, but the spam did generate some sales",
+  forum_spam: "The creation of advertising messages on Internet forums",
+  mobile_phone_spam: { definition: "Directed at the text messaging service of a mobile phone", what_it_does: "", examples: "friends and family" },
+  another_possible_form_of_spam_in_blogs: { definition: "The spamming of a certain tag on websites such as Tumblr", what_it_does: "", examples: "a still image from a feature film, purporting to be a part-by-part piece of a movie being pirated, e" },
+  voip_spam: "VoIP (Voice over Internet Protocol) spam, usually using SIP (Session Initiation Protocol)",
+  many_early_usenet_spams: "Religious or political",
+  a_growing_number_of_criminals: { definition: "Also using spam to perpetrate various sorts of fraud", what_it_does: "", examples: "lost productivity and the additional equipment, software, and manpower needed to combat the problem" },
+  since_email: { definition: "So cheap to send, a tiny number of spammers can saturate the Internet with junk mail", what_it_does: "", examples: "advance fee fraud )" },
+  but_the_law: "Criticized by many for not being effective enough",
+  attorney_laurence_canter: "Disbarred by the Tennessee Supreme Court in 1997 for sending prodigious amounts of spam advertising his immigration law practice",
+  the_spamming_operation: "Successfully shut down",
+  despite_the_statutory_tort_that: "Created by the Regulations implementing the EC Directive, few other people have followed their example",
+
 };
 
 // ============================================================
