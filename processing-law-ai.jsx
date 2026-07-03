@@ -58172,6 +58172,12 @@ const FLAT_DICT = {
   the_gestalt_group_mind: "Perverted to become the collective, driven by Sedin's desperate hunger and need to add the strength, technology, and life-force of others to her own",
   enab: "Based on the Batman villain Bane",
 
+  // === INGESTED 2026-07-03 11:31 ===
+  this_statistic: "More significant for students with disabilities with only 9% attending secondary school",
+  physical_accessibility_standards: { definition: "Often not, or are unable to be, followed", what_it_does: "", examples: "ramps, hallways, doorframes, toilets, rails and clear signage are often inaccessible or unavailable" },
+  the_language_in_the_act: "Specific to public universities, which implies that the Act does not confer these obligations on private universities",
+  the_impact_of_these_developments: { definition: "The increasing enrollment of students with disabilities in higher education", what_it_does: "", examples: "visual impairments, auditory impairments, physical impairments, and cognitive impairments" },
+
 };
 
 // ============================================================
