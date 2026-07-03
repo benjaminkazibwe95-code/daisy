@@ -56730,6 +56730,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 02:40 ===
   the_systematic_name: { definition: "Myo -inositol-phosphate phosphohydrolase", what_it_does: "", examples: "fructose 1,6-bisphosphatase (FBPase) and inositol polyphosphate 1-phosphatase" },
 
+  // === INGESTED 2026-07-03 02:42 ===
+  the_field_of_molecular_biology: "Multi-disciplinary , relying on principles from genetics , biochemistry , physics, mathematics, and more recently computer science ( bioinformatics )",
+  then_the_mixture: "Blended or agitated, which separates the phage from E.coli cells",
+  the_whole_mixture: { definition: "Centrifuged and the pellet which contains E.coli cells was checked and the supernatant was discarded", what_it_does: "of transduction , described by Zinder and Lederberg, is also a type of horizontal gene transfer", examples: "" },
+  since_nitrogen: { definition: "Present in all of the DNA bases , they generated parent DNA containing a heavier isotope of nitrogen than would be present naturally", what_it_does: "", examples: "bioinformatics and computational biology" },
+  several_different_transfection_techniques: "Available, such as calcium phosphate transfection, electroporation , microinjection and liposome transfection",
+  the_membrane: { definition: "Then exposed to a labeled DNA probe that has a complement base sequence to the sequence on the DNA of interest", what_it_does: "", examples: "PCR , to detect specific DNA sequences from DNA samples" },
+  in_this_process_rna: "Separated based on size and is then transferred to a membrane that is then probed with a labeled complement of a sequence of interest",
+  the_intensity_of_these_bands: "Related to the amount of the target RNA in the samples analyzed",
+  the_proteins_in_the_gel: { definition: "Then transferred to a polyvinylidene fluoride (PVDF), nitrocellulose, nylon, or other support membrane", what_it_does: "", examples: "colored products, chemiluminescence , or autoradiography" },
+  when_a_chemiluminescent_substrate: "Exposed to the enzyme it allows detection",
+  each_spot_has_a_dna_fragment_molecule_that: "Complementary to a single DNA sequence",
+  in_this_technique_the_rna_in_a_tissue: "Isolated and converted to labeled complementary DNA (cDNA)",
+  this_cdna: { definition: "Then hybridized to the fragments on the array and visualization of the hybridization can be done", what_it_does: "", examples: "a healthy and cancerous tissue" },
+  the_target_dna: "Then analyzed for the presence of the probe via radioactivity or fluorescence",
+
 };
 
 // ============================================================
