@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Daisy — The First Ugandan AI</title>
+<meta name="description" content="Daisy is the first Ugandan AI — an assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
+
+<link rel="icon" href="/static/icons/favicon-32.png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg:      #0a0a10;
+    --surface: #14141e;
+    --card:    #191926;
+    --card2:   #1e1e2c;
+    --border:  rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.14);
+    --text:    #f4f4f8;
+    --muted:   #94919f;
+    --blue:    #7eb8f7;
+    --violet:  #a78bfa;
+    --radius:  18px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; overflow-x: hidden; max-width: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.5; -webkit-font-smoothing: antialiased;
+    position: relative; overflow-x: hidden; max-width: 100%;
+  }
+  a { color: inherit; }
+  img { max-width: 100%; display: block; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 2; }
+  .glow { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
+  .eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); }
+  h1, h2, h3 { font-family: 'Instrument Serif', serif; font-weight: 400; margin: 0; }
+  em { font-style: italic; background: linear-gradient(100deg, var(--blue), var(--violet)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  code { font-family: 'IBM Plex Mono', monospace; }
+
+  /* ── NAV ── */
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(10,10,16,0.78); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; padding-top: 15px; padding-bottom: 15px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: 'Instrument Serif', serif; font-size: 21px; }
+  .brand-mark { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, var(--blue), var(--violet)); flex-shrink: 0; position: relative; }
+  .brand-mark svg { position: absolute; inset: 0; margin: auto; width: 17px; height: 17px; }
+  .nav-links { display: flex; align-items: center; gap: 30px; }
+  .nav-links a { font-size: 14px; font-weight: 500; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 6px; }
+  .nav-links a:hover { color: var(--text); }
+  .nav-badge { font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 700; letter-spacing: 0.04em; background: var(--card2); border: 1px solid var(--border2); color: var(--muted); padding: 2px 6px; border-radius: 5px; }
+  .nav-right { display: flex; align-items: center; gap: 22px; }
+
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 10px; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; text-decoration: none; border: 1px solid transparent; cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, color 0.15s ease, background 0.15s ease; }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-primary { background: linear-gradient(100deg, var(--blue), var(--violet)); color: #0a0a10; box-shadow: 0 8px 24px -8px rgba(126,184,247,0.5); }
+  .btn-primary:hover { box-shadow: 0 10px 30px -6px rgba(167,139,250,0.6); }
+  .btn-ghost { background: rgba(255,255,255,0.03); border-color: var(--border2); color: var(--text); }
+  .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
+  .btn-sm { padding: 10px 18px; font-size: 13px; }
+  .btn[disabled] { opacity: 0.45; cursor: not-allowed; pointer-events: none; }
+
+  /* ── HERO ── */
+  header.hero { padding: 76px 0 44px; position: relative; }
+  .hero-grid { display: grid; grid-template-columns: 1.08fr 0.92fr; gap: 56px; align-items: center; }
+  h1.headline { font-size: clamp(38px, 5.2vw, 58px); line-height: 1.06; letter-spacing: -0.015em; margin: 18px 0 20px; }
+  .sub { font-size: 16.5px; color: var(--muted); max-width: 44ch; margin-bottom: 28px; }
+  .hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .hero-note { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--muted); margin-top: 15px; }
+
+  /* ── DEVICE (live animated demo, not a static image) ── */
+  .device-wrap { position: relative; display: flex; justify-content: center; }
+  .device { position: relative; width: 272px; border-radius: 38px; padding: 12px; background: linear-gradient(160deg, #232333, #0d0d14); border: 1px solid var(--border2); box-shadow: 0 40px 90px -20px rgba(0,0,0,0.7); }
+  .device-screen { background: #101018; border-radius: 27px; min-height: 480px; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
+  .device-topbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px 10px; border-bottom: 1px solid var(--border); }
+  .device-topbar .dtitle { font-family: 'Instrument Serif', serif; font-size: 15px; }
+  .device-topbar .davatar { width: 20px; height: 20px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--violet)); }
+  .device-body { flex: 1; padding: 16px 14px; display: flex; flex-direction: column; gap: 10px; justify-content: flex-end; }
+  .bubble { max-width: 86%; padding: 10px 13px; border-radius: 15px; font-size: 12.5px; line-height: 1.4; opacity: 0; transform: translateY(6px); animation: bubbleIn 0.3s ease forwards; }
+  .bubble.user { align-self: flex-end; background: #1e1e2c; border: 1px solid var(--border); color: var(--text); border-bottom-right-radius: 4px; }
+  .bubble.daisy { align-self: flex-start; background: linear-gradient(135deg, rgba(126,184,247,0.14), rgba(167,139,250,0.14)); border: 1px solid rgba(126,184,247,0.26); color: var(--text); border-bottom-left-radius: 4px; }
+  @keyframes bubbleIn { to { opacity: 1; transform: translateY(0); } }
+  .cursor { display: inline-block; width: 2px; height: 12px; background: var(--blue); vertical-align: middle; margin-left: 2px; animation: blink 0.9s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .device-inputbar { margin: 10px 14px 14px; padding: 10px 12px; border-radius: 12px; background: var(--card); border: 1px solid var(--border); font-size: 11.5px; color: var(--muted); }
+
+  .float-badge { position: absolute; display: flex; align-items: center; gap: 8px; background: rgba(20,20,30,0.92); border: 1px solid var(--border2); backdrop-filter: blur(8px); padding: 9px 13px; border-radius: 13px; font-size: 12px; font-weight: 600; box-shadow: 0 14px 30px -10px rgba(0,0,0,0.6); }
+  .float-badge.b1 { top: 6%; left: -6px; }
+  .float-badge.b2 { bottom: 10%; right: -14px; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: #34d399; box-shadow: 0 0 0 4px rgba(52,211,153,0.18); flex-shrink: 0; }
+
+  /* ── STAT STRIP ── */
+  .stat-strip { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 26px 0; position: relative; }
+  .stat-strip .wrap { display: flex; flex-wrap: wrap; gap: 46px; justify-content: center; }
+  .stat { text-align: center; }
+  .stat-num { font-family: 'IBM Plex Mono', monospace; font-size: 26px; font-weight: 600; background: linear-gradient(100deg, var(--blue), var(--violet)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .stat-label { font-size: 12px; color: var(--muted); margin-top: 3px; }
+
+  /* ── SECTIONS ── */
+  section { padding: 84px 0; position: relative; }
+  .section-head { max-width: 58ch; margin-bottom: 44px; }
+  .section-head h2 { font-size: clamp(28px, 3.6vw, 38px); margin-top: 12px; letter-spacing: -0.01em; }
+  .section-head p { color: var(--muted); margin-top: 12px; font-size: 15px; }
+
+  .feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .feature-card { background: linear-gradient(165deg, var(--card2), var(--surface)); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; transition: border-color 0.2s, transform 0.2s; }
+  .feature-card:hover { border-color: var(--border2); transform: translateY(-2px); }
+  .feature-card .f-icon { width: 40px; height: 40px; border-radius: 11px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: rgba(126,184,247,0.1); border: 1px solid rgba(126,184,247,0.22); }
+  .feature-card .f-icon svg { width: 19px; height: 19px; stroke: var(--blue); }
+  .feature-card h3 { font-size: 19px; margin-bottom: 7px; color: var(--text); }
+  .feature-card p { color: var(--muted); font-size: 13.5px; margin: 0; line-height: 1.5; }
+
+  /* ── API / DEVELOPER CONSOLE ── */
+  .console-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .console-top { display: flex; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--border); background: var(--card); }
+  .console-top .ct-label { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
+  .construction-badge { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 700; letter-spacing: 0.05em; background: rgba(167,139,250,0.14); border: 1px solid rgba(167,139,250,0.34); color: var(--violet); padding: 4px 10px; border-radius: 999px; }
+  .console-body { padding: 26px 22px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 26px; }
+  .console-field-label { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--muted); margin-bottom: 8px; }
+  .console-key { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px dashed var(--border2); border-radius: 10px; padding: 12px 14px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--muted); }
+  .console-btn-row { display: flex; gap: 10px; margin-top: 14px; }
+  .console-notes { display: flex; flex-direction: column; gap: 10px; }
+  .console-note { font-size: 13.5px; color: var(--muted); display: flex; gap: 9px; }
+  .console-note svg { width: 15px; height: 15px; stroke: var(--blue); flex-shrink: 0; margin-top: 2px; }
+  @media (max-width: 720px) { .console-body { grid-template-columns: 1fr; } }
+
+  /* ── HOW IT WORKS ── */
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .step-num { font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; color: var(--blue); border: 1px solid var(--border2); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+  .step h3 { font-size: 18px; margin-bottom: 7px; color: var(--text); }
+  .step p { color: var(--muted); font-size: 13.5px; margin: 0; }
+
+  /* ── PRICING ── */
+  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .price-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px; display: flex; flex-direction: column; position: relative; }
+  .price-card.pro { border: 1px solid transparent; background: linear-gradient(var(--surface), var(--surface)) padding-box, linear-gradient(135deg, var(--blue), var(--violet)) border-box; }
+  .price-badge { position: absolute; top: -12px; right: 28px; background: linear-gradient(100deg, var(--blue), var(--violet)); color: #0a0a10; font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 700; padding: 5px 11px; border-radius: 999px; letter-spacing: 0.05em; }
+  .price-card .plan-name { font-family: 'Instrument Serif', serif; font-size: 25px; }
+  .price-card .plan-price { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--muted); margin: 11px 0 22px; }
+  .price-card .plan-price b { font-size: 29px; color: var(--text); font-family: 'Inter', sans-serif; font-weight: 800; }
+  .plan-list { list-style: none; padding: 0; margin: 0 0 26px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .plan-list li { display: flex; gap: 10px; font-size: 13.5px; color: var(--text); align-items: flex-start; }
+  .plan-list li svg { width: 15px; height: 15px; stroke: var(--blue); flex-shrink: 0; margin-top: 2px; }
+
+  .final-cta { text-align: center; padding: 96px 0 100px; }
+  .final-cta h2 { font-size: clamp(30px, 4.2vw, 44px); max-width: 20ch; margin: 0 auto 16px; }
+  .final-cta p { color: var(--muted); margin-bottom: 28px; }
+
+  footer { border-top: 1px solid var(--border); padding: 30px 0; position: relative; }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; font-size: 13px; color: var(--muted); }
+  .footer-brand { display: flex; align-items: center; gap: 8px; }
+
+  @media (max-width: 860px) {
+    .nav-links { display: none; }
+    .hero-grid { grid-template-columns: 1fr; }
+    .device-wrap { margin-top: 18px; }
+    .feature-grid, .pricing-grid, .steps { grid-template-columns: 1fr; }
+    header.hero { padding-top: 44px; }
+    section { padding: 56px 0; }
+    .float-badge.b1, .float-badge.b2 { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="glow" style="width:600px;height:600px;top:-200px;left:-160px;background:radial-gradient(circle, rgba(126,184,247,0.20), transparent 70%);"></div>
+<div class="glow" style="width:520px;height:520px;top:120px;right:-200px;background:radial-gradient(circle, rgba(167,139,250,0.18), transparent 70%);"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h3l2-5 3 11 3-14 2 8h3"/></svg></span>
+      Daisy
+    </div>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#api">API <span class="nav-badge">SOON</span></a>
+      </div>
+      <a class="btn btn-primary btn-sm" href="#download">Download</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Daisy · Made in Uganda</span>
+      <h1 class="headline">An AI that gets<br><em>where you're asking from.</em></h1>
+      <p class="sub">Daisy answers in plain language, remembers how you like to be spoken to, and keeps learning. Free to start, right from your phone.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#download">Download Daisy — it's free</a>
+        <a class="btn btn-ghost" href="#features">See what she can do</a>
+      </div>
+      <div class="hero-note">No app store needed · installs straight from this site</div>
+    </div>
+
+    <div class="device-wrap">
+      <div class="float-badge b1"><span class="dot"></span>Daisy is online</div>
+      <div class="float-badge b2">🔊 Reads answers aloud</div>
+      <div class="device">
+        <div class="device-screen">
+          <div class="device-topbar">
+            <span class="dtitle">Daisy</span>
+            <span class="davatar"></span>
+          </div>
+          <div class="device-body" id="demo-screen"></div>
+          <div class="device-inputbar">Talk to Daisy...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="stat-strip">
+  <div class="wrap">
+    <div class="stat"><div class="stat-num" id="stat-words">—</div><div class="stat-label">words Daisy knows</div></div>
+    <div class="stat"><div class="stat-num">24/7</div><div class="stat-label">always awake</div></div>
+    <div class="stat"><div class="stat-num">UGX 0</div><div class="stat-label">to get started</div></div>
+  </div>
+</div>
+
+<section id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What she does</span>
+      <h2>Built to be used, not just installed.</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 5V4L8 9H4Z"/><path d="M17 8a5 5 0 0 1 0 8"/><path d="M19.5 5.5a9 9 0 0 1 0 13"/></svg></div>
+        <h3>Talks back</h3>
+        <p>Daisy reads her answers aloud, so you can listen while you work, walk, or ride.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M4 12h6M4 18h12"/><circle cx="18" cy="6" r="2"/><circle cx="14" cy="18" r="2"/></svg></div>
+        <h3>Remembers how you like it</h3>
+        <p>Set your tone once — direct, patient, formal — and every answer after carries it.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 0 1 4-4h3a4 4 0 1 1 0 8h-1"/><path d="M15 12a4 4 0 0 1-4 4H8a4 4 0 1 1 0-8h1"/></svg></div>
+        <h3>Built for working together</h3>
+        <p>One code, one shared project — your whole team on the same conversation.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
+        <h3>Keeps learning</h3>
+        <p>Her knowledge base grows continuously — check her stats any time, in-app.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="api">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">For developers</span>
+      <h2>Build Daisy into your own product.</h2>
+      <p>A public API is on the way — bring Daisy's answers into your own app, bot, or workflow.</p>
+    </div>
+    <div class="console-card">
+      <div class="console-top">
+        <span class="ct-label">Daisy API · Console</span>
+        <span class="construction-badge">🚧 Under construction</span>
+      </div>
+      <div class="console-body">
+        <div>
+          <div class="console-field-label">API KEY</div>
+          <div class="console-key"><span>sk-daisy-••••••••••••••••</span></div>
+          <div class="console-btn-row">
+            <button class="btn btn-ghost btn-sm" disabled>Generate key</button>
+            <button class="btn btn-ghost btn-sm" disabled>View docs</button>
+          </div>
+        </div>
+        <div class="console-notes">
+          <div class="console-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 3"/></svg>Not live yet — this panel is a preview of what's coming.</div>
+          <div class="console-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Want early access? Join the Pro waitlist below.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Getting started</span>
+      <h2>Three steps. No forms, no card.</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><h3>Install her</h3><p>Tap Download — she installs straight from this page, like any app.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>Tell her who to be</h3><p>Direct, patient, formal — set it once in Settings.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>Ask anything</h3><p>Type or talk — Daisy answers in plain language.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Pricing</span>
+      <h2>Free to start. No card required.</h2>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="plan-name">Daisy Free</div>
+        <div class="plan-price"><b>UGX 0</b> / forever</div>
+        <ul class="plan-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Unlimited everyday questions</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Voice replies</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Personalize how Daisy talks to you</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>1 shared project</li>
+        </ul>
+        <a class="btn btn-ghost" href="#download">Start free</a>
+      </div>
+      <div class="price-card pro">
+        <span class="price-badge">FOR TEAMS</span>
+        <div class="plan-name">Daisy Pro</div>
+        <div class="plan-price">Pricing coming soon</div>
+        <ul class="plan-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Everything in Free</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Priority responses — skip the queue</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Unlimited shared projects</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Early API access</li>
+        </ul>
+        <a class="btn btn-primary" href="mailto:hello@example.com?subject=Daisy%20Pro%20waitlist">Join the waitlist</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta" id="download">
+  <div class="wrap">
+    <h2>Meet Daisy today.</h2>
+    <p>Free, fast to install, and she gets a little better every day.</p>
+    <a class="btn btn-primary" href="/" id="download-btn">Download Daisy — it's free</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-brand">
+      <span class="brand-mark" style="width:22px;height:22px;border-radius:7px;"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="width:12px;height:12px;"><path d="M2 12h3l2-5 3 11 3-14 2 8h3"/></svg></span>
+      © <span id="year"></span> Daisy. Made in Uganda 🇺🇬
+    </div>
+    <span>Free to start, everywhere your phone goes.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  fetch('/daisy/status').then(r => r.json()).then(d => {
+    if (d && typeof d.words === 'number') document.getElementById('stat-words').textContent = d.words.toLocaleString();
+  }).catch(() => { document.getElementById('stat-words').textContent = 'growing'; });
+
+  const demo = [
+    { q: "Translate 'thank you very much' to Luganda", a: "Webale nnyo — the warm, everyday way to say it." },
+    { q: "Help me plan a simple budget for my shop", a: "Sure — let's start with your fixed costs: rent, stock, staff." },
+    { q: "Explain photosynthesis simply", a: "Plants turn sunlight into food, using water and air." }
+  ];
+  const screen = document.getElementById('demo-screen');
+  let round = 0;
+
+  function typeBubble(el, text, speed, done) {
+    let i = 0;
+    const cursor = document.createElement('span');
+    cursor.className = 'cursor';
+    el.appendChild(document.createTextNode(''));
+    el.appendChild(cursor);
+    const timer = setInterval(() => {
+      el.insertBefore(document.createTextNode(text[i]), cursor);
+      i++;
+      if (i >= text.length) { clearInterval(timer); cursor.remove(); if (done) done(); }
+    }, speed);
+  }
+  function runDemo() {
+    screen.innerHTML = '';
+    const pair = demo[round % demo.length];
+    round++;
+    const userBubble = document.createElement('div');
+    userBubble.className = 'bubble user';
+    screen.appendChild(userBubble);
+    typeBubble(userBubble, pair.q, 22, () => {
+      setTimeout(() => {
+        const daisyBubble = document.createElement('div');
+        daisyBubble.className = 'bubble daisy';
+        screen.appendChild(daisyBubble);
+        typeBubble(daisyBubble, pair.a, 18, () => setTimeout(runDemo, 2400));
+      }, 450);
+    });
+  }
+  runDemo();
+</script>
+
+</body>
+</html>
