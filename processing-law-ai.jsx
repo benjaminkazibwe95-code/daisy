@@ -58103,6 +58103,29 @@ const FLAT_DICT = {
   applicationlevel_gateways: { definition: "Notable for analyzing entire messages rather than individual packets", what_it_does: "", examples: "Internet Explorer 6, which used to lead the market, [ 19 ] was heavily attacked" },
   a_password_manager: "A software application that creates, stores and provides passwords to applications",
 
+  // === INGESTED 2026-07-03 08:39 ===
+  the_guardian: "A British daily newspaper",
+  the_site_featured_news_from_the_guardian_that: { definition: "Relevant to an American audience: coverage of US news and the Middle East, for example", what_it_does: "", examples: "a reporter, a multimedia producer and four web editors" },
+  ten_journalists_and_four_columnists: "Initially hired for the edition",
+  the_only_fact_the_guardian_can_report: "That the case involves the London solicitors Carter-Ruck",
+  it_said_the_dsmanotice: "Being used as an 'attempt to censor coverage of surveillance tactics employed by intelligence agencies in the UK and US'",
+  the_title_of_the_story: "Originally 'Manafort held secret talks with Assange in Ecuadorian embassy'",
+  republicans: { definition: "More straightforward targets", what_it_does: "", examples: "the Liberal Democrats and the Scottish National Party in seats where Labour did not stand a chance" },
+  when_the_stamp_duty: "Cut in 1836, The Guardian added a Wednesday edition and with the abolition of the tax in 1855 it became a daily paper costing 2d",
+  this_innovation: "Widely copied by the other 'quality' broadsheets and ultimately led to the rise of 'compact' papers and The Guardian ' s move to the Berliner format",
+  its_international_weekly_edition: { definition: "Now titled The Guardian Weekly , though it retained the title Manchester Guardian Weekly for some years after the home edition had moved to London", what_it_does: "", examples: "Le Monde and The Washington Post" },
+  the_guardian_weekly: { definition: "Also linked to a website for expatriates, Guardian Abroad , which was launched in 2007 but had been taken offline by 2012", what_it_does: "", examples: "tabloid, approximately A4, and pocket-size (approximately A5)" },
+  the_format_switch: "Accompanied by a comprehensive redesign of the paper's look",
+  another_press: "Shared with the Guardian Media Group's north-western tabloid local papers, which did not wish to switch to the Berliner format",
+  the_new_format: "Generally well received by Guardian readers, who were encouraged to provide feedback on the changes",
+  the_only_controversy: "Over the dropping of the Doonesbury cartoon strip",
+  the_investment: "Rewarded with a circulation rise",
+  the_editors: "Working on changing aspects that had caused complaints from readers",
+  censorship: "Exercised by moderators who can ban – with no right of appeal –posts that they feel have overstepped the mark",
+  one_of_the_most_prominent: { definition: "Today in Focus , a daily news podcast hosted by Anushka Asthana launched on 1 November 2018", what_it_does: "", examples: "misspelling its own name as The Gaurdian" },
+  fewer_typographical_errors: "Seen in the paper since the end of hot-metal typesetting",
+  the_current_extent_of_the_archives_available: "1821 to 2003 for The Guardian and 1791 to 2003 for The Observer : [ 353 ] The Newsroom's other components were also transferred to Kings Place in 2008",
+
 };
 
 // ============================================================
