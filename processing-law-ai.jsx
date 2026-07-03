@@ -56296,6 +56296,12 @@ const FLAT_DICT = {
   the_situative_perspective: "Focused on interactive systems in which individuals interact with one another and physical and representational systems",
   mixed_methods_and_qualitative_methodologies: "The most prominently used by researchers",
 
+  // === INGESTED 2026-07-03 00:21 ===
+  because_bats: "Mammals, they are assumed to have conscious experience",
+  nagel: "Inspired to use a bat for his argument after living in a home where the animals were frequent visitors",
+  both_sonar_and_vision: "Regarded as perceptual experiences",
+  physicalism_claims_that_states_and_events: "Physical, but those physical states and events are only imperfectly characterized",
+
 };
 
 // ============================================================
