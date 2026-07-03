@@ -58602,6 +58602,9 @@ const FLAT_DICT = {
   its_chemical_behavior: { definition: "More like a hydrogen atom than an inert helium atom", what_it_does: "", examples: "mesonic molecules and pentaquark states" },
   such_hypernuclear_atoms: { definition: "Generally studied for their nuclear behaviour, falling into the realm of nuclear physics rather than atomic physics", what_it_does: "", examples: "pyramidal hexamethylbenzene and a Rydberg atom" },
 
+  // === INGESTED 2026-07-03 18:21 ===
+  other_periodic_waveforms: "Often called composite waveforms and can often be described as a combination of a number of sinusoidal waves or other basis functions added together",
+
 };
 
 // ============================================================
