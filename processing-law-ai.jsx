@@ -58059,6 +58059,18 @@ const FLAT_DICT = {
   carl_nolte: "A journalist and columnist",
   its_baseball_coverage: "Anchored by Henry Schulman, John Shea, and Susan Slusser , the first female president of the Baseball Writers' Association of America (BBWAA)",
 
+  // === INGESTED 2026-07-03 08:27 ===
+  a_pest: { definition: "Any species, strain or biotype of plant, animal, or pathogenic agent injurious to plants or plant products", what_it_does: "", examples: "has adapted its thin-walled stems to create ideal housing for an ant Crematogaster spp" },
+  some_animals: "Disliked because they bite or sting; wolves , snakes , wasps , ants , bees , bed bugs , mosquitos , fleas and ticks belong in this category",
+  agricultural_and_horticultural_crops: { definition: "Attacked by a wide variety of pests, the most important being rodents , insects , mites , nematodes and gastropod molluscs", what_it_does: "", examples: "mechanical control , and recently developed biological controls" },
+  mosquitoes_and_ticks: "Vectors that can transmit ailments but are also pests because of the distress caused by their bites",
+  all_birds: { definition: "A risk at airfields where they can be sucked into aircraft engines", what_it_does: "", examples: "gutters, down-spouts, chimneys, vents and aluminium sheeting" },
+  secondly_there: "The indirect damage, where the insects do little direct harm, but either transmit or allow entry of fungal, bacterial or viral infections",
+  vast_numbers_of_nematodes: { definition: "Found in soil and attack roots, but others affect stems, buds, leaves, flowers and fruits", what_it_does: "", examples: "beetles, cockroaches, moths, mites, and silverfish" },
+  the_longer_a_product: "Stored, the more likely it is to become contaminated, with the insects often originating from dry pet foods",
+  one_of_the_most_damaging: "The flour mite , which is found in grain and may become exceedingly abundant in poorly stored material",
+  the_earliest_approach: { definition: "Mechanical, from ploughing to picking off insects by hand", what_it_does: "", examples: "pyrethrum , derris , quassia , and tobacco extract" },
+
 };
 
 // ============================================================
