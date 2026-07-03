@@ -57009,6 +57009,9 @@ const FLAT_DICT = {
   it_is_large_and_diverse_with_institutions_that: "Privately governed and institutions that are owned and operated by state and local governments",
   some_private_institutions: "Affiliated with religious organizations whereas others are secular with enrollment ranging from a few dozen to tens of thousands of students",
 
+  // === INGESTED 2026-07-03 04:16 ===
+  all_boarding_students: "Guaranteed accommodation in the gender-segregated student dormitories, and have access to the 25-acre land which the school sits on",
+
 };
 
 // ============================================================
