@@ -57681,6 +57681,10 @@ const FLAT_DICT = {
   the_primary_goal_of_esds: "To maximize the scientific return from NASA's missions and experiments for research and applied scientists, decision makers, and society at large",
   travel_to_mars: { definition: "Significantly longer and deeper into space, significant medical issues can result", what_it_does: "", examples: "asteroids and comets and develop potential responses and defenses against these threats" },
 
+  // === INGESTED 2026-07-03 07:05 ===
+  while_these_descriptions: "Useful, 'hot' and 'cold' lack concrete definitions",
+  another_variation: "Large amounts of nonvolatile memory in the server, for example, flash memory chips as addressable memory rather than structured as disk arrays",
+
 };
 
 // ============================================================
