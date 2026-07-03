@@ -56564,6 +56564,10 @@ const FLAT_DICT = {
   a_major_difference_between_the_two_genomes: { definition: "Human chromosome 2 , which is equivalent to a fusion product of chimpanzee chromosomes 12 and 13", what_it_does: "", examples: "the migration of Native Americans from Siberia [ 121 ] or Polynesians from southeastern Asia" },
   the_epigenome: "Also influenced significantly by environmental factors",
 
+  // === INGESTED 2026-07-03 01:38 ===
+  sfn: "Founded in 1969 [ 3 ] by Ralph W",
+  the_first_annual_meeting_of_the_society: { definition: "Held in Washington, DC in October 1971, [ 3 ] and it was attended by 1,396 scientists", what_it_does: "", examples: "replication studies and negative results" },
+
 };
 
 // ============================================================
