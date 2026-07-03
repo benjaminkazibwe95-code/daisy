@@ -58650,6 +58650,15 @@ const FLAT_DICT = {
   the_ideal_gas_law: { definition: "Used for these calculations", what_it_does: "", examples: "slow combustion or insufficient mixing of fuel and oxygen – this is not due to stoichiometry" },
   diesel_fuel_is_less_volatile_and: "Effectively burned as it is injected",
 
+  // === INGESTED 2026-07-03 18:31 ===
+  polyatomic_ions_often: { definition: "Useful in the context of acid–base chemistry and in the formation of salts", what_it_does: "", examples: "the conjugate base of sulfuric acid (H 2 SO 4 ) is the polyatomic hydrogen sulfate anion ( HSO − 4 )" },
+  an_alternative_to_the_bi_prefix: "To use the word hydrogen in its place: the anion derived from H +",
+  most_of_the_common_polyatomic_anions: { definition: "Oxyanions , conjugate bases of oxyacids (acids derived from the oxides of non-metallic elements )", what_it_does: "", examples: "the sulfate anion, S O 2− 4 , is derived from H 2 SO 4 , which can be regarded as SO 3 + H 2 O" },
+  the_main_exception: { definition: "The per- prefix, as only halogens and some transition metals can be oxidized to the +7 or greater oxidation states that would normally use per-", what_it_does: "", examples: "the oxidation of manganate ( MnO 2− 4 ) to permanganate ( MnO − 4 )" },
+  exceptions_to_the_rules: "Highlighted in yellow, while anions too unstable to exist are marked out with a red 'none'",
+  only_a_few_representatives: "Given, as the number of polyatomic ions encountered in practice is very large",
+  an_important_case_of_these_compounds: "Zwitterions , which are neutral compounds but have opposing formal charges within the same molecule",
+
 };
 
 // ============================================================
