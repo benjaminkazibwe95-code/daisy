@@ -57888,6 +57888,33 @@ const FLAT_DICT = {
   this_is_evidence_that_while_popular_ebooks: { definition: "Being completely read, some e-books are only sampled", what_it_does: "", examples: "Project Gutenberg" },
   public_domain_books: { definition: "Those whose copyrights have expired, meaning they can be copied, edited, and sold freely without restrictions", what_it_does: "", examples: "PDF , TXT , and EPUB" },
 
+  // === INGESTED 2026-07-03 08:01 ===
+  he_organized_and: "The first secretary of the American Philosophical Society and was elected its president in 1769",
+  ambassador_to_france_and: "A major figure in the development of positive Franco – American relations",
+  josiah_franklin: "Born at Ecton, Northamptonshire , England , on December 23, 1657, to Thomas Franklin and Jane White",
+  her_father_peter: "'the sort of rebel destined to transform colonial America",
+  when_benjamin: "15, James founded The New-England Courant , which was the third newspaper founded in Boston",
+  when_his_brother: "Jailed for three weeks in 1722 for publishing material unflattering to the governor , young Franklin took over the newspaper and had Mrs",
+  the_busybody_himself: "A true Censor Morum, as Isaac Bickerstaff had been in the Tatler",
+  the_first_issue_published: "For the upcoming year, 1733",
+  pennsylvania_hospital: "The first hospital in the colonies",
+  while_the_plan: "Not adopted, elements of it found their way into the Articles of Confederation and the Constitution",
+  he_had_been_a_postmaster_for_decades_and: "A natural choice for the position",
+  the_economy_of_the_kingdom_of_ireland: "Affected by the same trade regulations and laws that governed the Thirteen Colonies",
+  news_of_his_electrical_discoveries: "Widespread in France",
+  his_reputation_meant_that_he: "Introduced to many influential scientists and politicians, and also to King Louis XV",
+  hopes_for_a_peaceful_solution_ended_as_he: "Systematically ridiculed and humiliated by Solicitor-General Alexander Wedderburn , before the Privy Council on January 29, 1774",
+  among_his_many_creations: "The lightning rod , Franklin stove , bifocal glasses and the flexible urinary catheter",
+  he_proposed_a_dinner_party_where_a_turkey: { definition: "To be killed via electric shock and roasted on an electrical spit", what_it_does: "", examples: "the use of the electric bath" },
+  subsequent_versions: "Printed in France in 1778 and the U.S",
+  he_felt_that_organized_religion: "Necessary to keep men good to their fellow men, but rarely attended religious services himself",
+  all_of_us_who: { definition: "Engaged in the struggle must have observed frequent instances of a Superintending providence in our favor", what_it_does: "", examples: "Franklin, erected 'a large, new hall, that " },
+  the_design_that_was_produced: { definition: "Not acted upon by Congress, and the Great Seal's design was not finalized until a third committee was appointed in 1782", what_it_does: "", examples: "Thomas Jefferson, George Washington, and James Madison – owned slaves, but many others did not" },
+  benjamin_franklin_thought_that_slavery: "'an atrocious debasement of human nature' and 'a source of serious evils",
+  their_argument_against_slavery: { definition: "Backed by the Pennsylvania Abolitionist Society", what_it_does: "", examples: "Benjamin Lay and John Woolman" },
+  his_reasons_for_vegetarianism: "Based on health, ethics, and economy: When about 16 years of age, I happen'd to meet with a book written by one Tryon, recommending a vegetable diet",
+  the_sweet_little_creatures: "All alive to this day, with the prettiest fleeces on their backs imaginable",
+
 };
 
 // ============================================================
