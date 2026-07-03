@@ -58145,6 +58145,16 @@ const FLAT_DICT = {
   the_spaceries_really: "Impressive and the movie is an ingenious family entertainment which offers something to think about",
   a_dvd: "Released featuring the film's original 1",
 
+  // === INGESTED 2026-07-03 08:48 ===
+  the_sbu_said_that_the_operation: "The first of its kind",
+  the_manta_ray: "Also capable of harvesting energy from the ocean",
+  uuvs_with_combustion_engines: "Oxygen dependent vehicles which require to resurface",
+  the_goal_of_this_exercise: { definition: "To demonstrate the communication speed between the operator and the UUV", what_it_does: "", examples: "current and temperature measurement, ocean floor mapping, and Hydrothermal vent detection" },
+  the_vehicle: "Shaped to minimize water resistance during dives, and utilized acoustic communications systems to report the vehicles status while operating",
+  glider_type_uncrewed_vehicles: "Often used to measure ocean temperatures and current strengths at various depths",
+  acoustic_wave_transmissions: { definition: "Typically delayed between 1–2 seconds, as they move more slowly than other types of waves", what_it_does: "", examples: "reflection, refraction, and the absorbing of signal" },
+  the_royal_netherlands_navy: "Strongly concerned with the ability of UUV's to evade detection and complete tasks not possible in manned vessels",
+
 };
 
 // ============================================================
