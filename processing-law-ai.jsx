@@ -58757,6 +58757,15 @@ const FLAT_DICT = {
   such_forces: "Described by Coulomb's law",
   if_only_two_charges: "Present, the potential energy is Q 1 Q 2 / ( 4 π ε 0 r ) {\displaystyle Q_{1}Q_{2}/(4\pi \varepsilon _{0}r)}",
 
+  // === INGESTED 2026-07-03 18:55 ===
+  interscience: { definition: "Supplanted by Wiley Online Library in 2010", what_it_does: "", examples: "all of its interests in the Frommer's brand, to Google Inc" },
+  the_stms_business: { definition: "Also known as Wiley-Blackwell , formed following the acquisition of Blackwell Publishing in February 2007", what_it_does: "", examples: "Wiley University Services" },
+  the_initial_courses: "Adapted from Wiley books, extending their reach into the digital space",
+  wiley: { definition: "An accredited AIA continuing education provider", what_it_does: "", examples: "Wiley-Blackwell , Wiley-VCH , and Jossey-Bass" },
+  the_online_library: "Implemented on top of the Literatum platform, developed by Atypon which Wiley acquired in 2016",
+  the_gender_bonus_gaps: { definition: "Far higher, at 50.7% for the median measure and 42.3% for the mean", what_it_does: "", examples: "their work in these training data sets" },
+  the_court_found_that_circumstantial_evidence: "Sufficient to establish distribution of 116 titles for which counterfeit copies had been presented and of other 5 titles",
+
 };
 
 // ============================================================
