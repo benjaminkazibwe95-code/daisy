@@ -56829,6 +56829,10 @@ const FLAT_DICT = {
   the_match_outcome: "Officially changed to a 3–0 win to Morocco",
   the_host_country_of_the_final_tournament: "Automatically qualified, and in the first editions the defending champion was also qualified for the following tournament",
 
+  // === INGESTED 2026-07-03 03:31 ===
+  rwenzori_mountains_national_park: "A Ugandan national park and UNESCO World Heritage Site located in the Rwenzori Mountains",
+  those_mountains: "Higher than the Alps and are ice-capped",
+
 };
 
 // ============================================================
