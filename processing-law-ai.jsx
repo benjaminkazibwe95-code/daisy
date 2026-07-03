@@ -57012,6 +57012,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 04:16 ===
   all_boarding_students: "Guaranteed accommodation in the gender-segregated student dormitories, and have access to the 25-acre land which the school sits on",
 
+  // === INGESTED 2026-07-03 04:18 ===
+  the_school_board: "Chaired by Katende Jimmy Rogers, who previously served as PTA chairman and president of the Old Budonian Club",
+  the_land_on_which_it_was_built: "Donated by the Kabaka of Buganda",
+
 };
 
 // ============================================================
