@@ -58219,6 +58219,9 @@ const FLAT_DICT = {
   methanogens: "A notable part of the microbial communities in continental and marine deep biosphere",
   if_methane: { definition: "Detected (by using a spectrometer for example) this may indicate that life is, or recently was, present", what_it_does: "", examples: "carbon dioxide, methane and ammonia" },
 
+  // === INGESTED 2026-07-03 16:39 ===
+  as_all_life_processes: { definition: "Ultimately based on chemistry it is natural that detection and passing on of the external input will involve chemical events", what_it_does: "", examples: "mates, and predators" },
+
 };
 
 // ============================================================
