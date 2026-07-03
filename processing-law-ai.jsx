@@ -58090,6 +58090,19 @@ const FLAT_DICT = {
   customers_may_often_find_items_that: { definition: "Difficult to locate elsewhere", what_it_does: "", examples: "PayPal ), but often are conducted using social-media networks (e.g" },
   government_contracts: "Often large and more stable than analogous private-sector work",
 
+  // === INGESTED 2026-07-03 08:37 ===
+  internet_security: "A branch of computer security focused on the Internet",
+  many_countermeasures: { definition: "Used to combat Internet security threats and web threats , including encryption and ground-up engineering", what_it_does: "", examples: "viruses , Trojan horses , spyware , and worms" },
+  victims: { definition: "Directed to web pages that appear to be legitimate, but instead route information to the attackers", what_it_does: "", examples: "extorting money and identity theft" },
+  public_wifi: { definition: "Often insecure because monitoring or intercepting Web traffic is unknown", what_it_does: "", examples: "memory safety bugs or flawed authentication checks" },
+  when_a_message: { definition: "Sent, it is transformed into a standard format according to RFC 2822", what_it_does: "", examples: "Triple DES or CAST-128" },
+  only_authorized_traffic: "Allowed to pass through it",
+  its_main_job: "To filter traffic from a remote IP host, so a router is needed to connect the internal network to the Internet",
+  the_router: "Known as a screening router , which screens packets leaving and entering the network",
+  an_applicationlevel_firewall: "A third-generation firewall where a proxy server operates at the very top of the OSI model, the IP suite application level",
+  applicationlevel_gateways: { definition: "Notable for analyzing entire messages rather than individual packets", what_it_does: "", examples: "Internet Explorer 6, which used to lead the market, [ 19 ] was heavily attacked" },
+  a_password_manager: "A software application that creates, stores and provides passwords to applications",
+
 };
 
 // ============================================================
