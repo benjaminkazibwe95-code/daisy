@@ -2266,7 +2266,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const codeBlock = `<pre class="file-card-pre"${renderable ? ' style="display:none"' : ''}><code class="language-${escAttr(lang || ext)}">${codeHtml}</code></pre>`;
 
         const printBtn = renderable
-          ? `<button class="file-card-btn" data-action="print" data-code-id="${id}">${ICONS.print}<span>Print</span></button>`
+          ? `<button class="file-card-btn" data-action="print" data-code-id="${id}" title="Opens your browser's print dialog — choose 'Save as PDF' there">${ICONS.print}<span>Print</span></button>`
+          : '';
+        const pdfBtn = !renderable
+          ? `<button class="file-card-btn" data-action="save-pdf" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.file}<span>PDF</span></button>`
           : '';
 
         return `<div class="file-card">
@@ -2281,6 +2284,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="file-card-actions">
             <button class="file-card-btn" data-action="copy" data-code-id="${id}">${ICONS.copy}<span>Copy</span></button>
             ${printBtn}
+            ${pdfBtn}
             <button class="file-card-btn primary" data-action="download" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.download}<span>Download</span></button>
           </div>
           ${previewBlock}
@@ -2324,6 +2328,10 @@ document.addEventListener('DOMContentLoaded', function() {
       a.remove();
       setTimeout(() => URL.revokeObjectURL(url), 4000);
       flashAction(btn);
+    } else if (btn.dataset.action === 'save-pdf') {
+      const filename = btn.dataset.filename || 'daisy-document';
+      const title = filename.replace(/\.[a-zA-Z0-9]+$/, '');
+      downloadAsPdf(btn, title, code);
     } else if (btn.dataset.action === 'show-preview' || btn.dataset.action === 'show-code') {
       const card = btn.closest('.file-card');
       if (!card) return;
