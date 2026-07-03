@@ -57079,6 +57079,10 @@ const FLAT_DICT = {
   the_two_most_common_voices: "The active voice (as in 'I saw the car') and the passive voice (as in 'The car was seen by me' or simply 'The car was seen')",
   the_active_participle_of_break: "Breaking , and the passive participle is broken",
 
+  // === INGESTED 2026-07-03 04:43 ===
+  these_object_types: "Illustrated in the following table: Indirect objects are frequently expressed as objects of prepositions, complicating the traditional typology; e.g",
+  the_object_of_a_transitive_ergative_verb: "The subject of the corresponding intransitive ergative verb",
+
 };
 
 // ============================================================
