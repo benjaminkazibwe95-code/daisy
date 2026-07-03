@@ -56985,6 +56985,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 04:01 ===
   members_of_this_community: "Known as Indian-Ugandans , Indo-Ugandans , and Indo-Pakistani Ugandans",
 
+  // === INGESTED 2026-07-03 04:03 ===
+  the_main_campus_of_the_university: "In Mbale , about 222 kilometres (138 mi) north-east of Kampala , Uganda's capital and largest city",
+  the_main_objective_of_the_university: { definition: "To serve the higher education needs of the English-speaking Muslim community in Southern and Eastern Africa", what_it_does: "", examples: "Imam Rufai, Ismail, Uba Inuwa and Taufik Abubakar" },
+  two_west_african_students: "Privileged to serve in high positions of the hall",
+  their_rise_to_these_positions: "Mainly because they were among three of the best table tennis players the university had ever produced",
+  the_other_halls: "Uth-Fat Hall and Abu-Aisha Hall",
+
 };
 
 // ============================================================
