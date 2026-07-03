@@ -57259,6 +57259,18 @@ const FLAT_DICT = {
   the_amsc: "The largest club in Tanzania that invites foreign competitors to rally and compete for AMSC",
   parts_of_the_film: "Shot at Momela Lakes",
 
+  // === INGESTED 2026-07-03 05:22 ===
+  the_body_of_water: "An extension of the Arabian Sea and the larger Indian Ocean located between the Arabian Peninsula and Iran (Persia)",
+  the_persian_gulf: { definition: "Also a major hub for global fertilizer production and exports", what_it_does: "", examples: "urea and ammonia" },
+  its_western_end: "Marked by the major river delta of the Shatt al-Arab , which carries the waters of the Euphrates and the Tigris",
+  the_waters: { definition: "Very shallow, with a maximum depth of 90 metres (295 feet) and an average depth of 50 metres (164 feet)", what_it_does: "", examples: "Bahrain, an Arab state" },
+  the_evaporation_rate: "High, so that after considering river discharge and rain contributions, there is still a deficit of 416 cubic kilometres (100 cu mi) per year",
+  the_modern_marine_gulf: { definition: "Formed when sea level rose during the early Holocene , from around 12,000 to 6,000 years ago", what_it_does: "", examples: "southern and northern shores" },
+  most_pollution: { definition: "From ships; land generated pollution counts as the second most common source of pollution", what_it_does: "", examples: "Gulf of Aden, [ 67 ] Israel coasts, [ 68 ] and in the Strait of Hormuz" },
+  research_show_that_dolphins: "At danger of entrapment in purse seine fishing nets and exposure to pollution from oil, sewage, and industrial run offs",
+  the_number_of_dugongs: { definition: "Dwindling, and it is unknown how many there are or their reproductive trend", what_it_does: "", examples: "the greater flamingo , and booted warbler may be destroyed" },
+  the_persian_gulf_and_its_coastal_areas: "The world's largest single source of petroleum, [ 94 ] and related industries dominate the region",
+
 };
 
 // ============================================================
