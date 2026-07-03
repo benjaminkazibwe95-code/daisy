@@ -56524,6 +56524,11 @@ const FLAT_DICT = {
   neuronal_activity: { definition: "Directly proportional to the hardness of the object being bitten, suggesting the neurons' role in force modulation", what_it_does: "", examples: "Chronos, [ 112 ] CatCh and f-Chrimson" },
   to_produce_activation_transgenic_mice: { definition: "Infected with channelrhodopsin-2 with a TH-Cre promoter and to produce inhibition the hyperpolarizing opsin NpHR was added onto the TH-Cre promoter", what_it_does: "", examples: "the Halorhodopsin class of chlorid pumps and imparts a strong conductance" },
 
+  // === INGESTED 2026-07-03 01:25 ===
+  in_our_time: "A BBC Radio 4 discussion series and podcast exploring a wide variety of historical, scientific and philosophical topics",
+  i_enjoy_what: "Called swotting in my day",
+  other_shortlisted_figures: "David Hume (12.7%), Ludwig Wittgenstein (6.8%), Friedrich Nietzsche (6.5%), Plato (5.6%), Immanuel Kant (5.6%), Thomas Aquinas (4.8%), Socrates (4",
+
 };
 
 // ============================================================
