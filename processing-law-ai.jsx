@@ -56577,6 +56577,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 01:44 ===
   subhash_kak: { definition: "An Indian-American computer scientist and Hindutva historical revisionist", what_it_does: "", examples: "Michael Witzel , [ 6 ] and the noted historian of mathematics Kim Plofker" },
 
+  // === INGESTED 2026-07-03 01:46 ===
+  a_group_of_cnidarians_known_as_myxozoans: { definition: "Particularly reduced", what_it_does: "", examples: "genes that control cell differentiation , adhesion and cell-to-cell communication" },
+
 };
 
 // ============================================================
