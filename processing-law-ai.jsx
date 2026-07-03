@@ -56452,6 +56452,21 @@ const FLAT_DICT = {
   although_antidepressant_medications: "Frequently prescribed, many residents prefer non-pharmacological treatments such as psychological therapies",
   personality_types: "Similarly thought to be determined by the dominant humor in a particular person",
 
+  // === INGESTED 2026-07-03 01:08 ===
+  support_from_a_romantic_partner: { definition: "Associated with health benefits, particularly for men", what_it_does: "", examples: "blogs , Facebook groups, health forums, and online support groups" },
+  social_support_profile: { definition: "Associated with increased psychological well-being in the workplace [ 58 ] and in response to important life events", what_it_does: "", examples: "anxiety or depression )" },
+  their_perceived_severity_of_the_illness: "Affected by those to whom they compare themselves to, often resulting in people believing their illness is not severe enough to seek support",
+  eating_disorders: { definition: "Classified as mental illnesses but can also have physical health repercussions", what_it_does: "", examples: "change in marital status, geographic mobility , and social disintegration" },
+  talking_things_over_among_coworkers: "The most frequent form of coping utilized while on duty, whereas most police officers kept issues to themselves while off duty",
+  found_that_social_support: { definition: "The strongest predictor, accounting for 40%, of variance in PTSD severity", what_it_does: "", examples: "sedentary behavior, drug and alcohol use, and too much or too little sleep" },
+  people_with_low_social_support: { definition: "At a much higher risk of death from a variety of diseases (e.g., cancer or cardiovascular disease)", what_it_does: "", examples: "severity and spread are difficult to measure in the context of impacts of social support" },
+  social_support_theories: "Often found in 'real life' in cultural, music and arts communities, and as might be expected within religious communities",
+  social_support: "Integral in theories of aging, and the 'social care systems' have often been challenged (e.g",
+  stress_buffering: { definition: "More likely to be observed for perceived support than for social integration [ 68 ] or received support", what_it_does: "", examples: "problem solving or relaxation" },
+  while_many_support_groups: { definition: "Held where the discussions can be face to face there has been evidence that shows online support offers the same amount of benefits", what_it_does: "", examples: "being able to cope with things and having an overall sense of well-being" },
+  when_the_perceived_stress_level: "The same, men and women have much fewer differences in how they seek and use social support",
+  one_study_shows_that_koreans: "More likely to report substance abuse than European Americans are",
+
 };
 
 // ============================================================
