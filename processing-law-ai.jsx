@@ -57869,6 +57869,25 @@ const FLAT_DICT = {
   works_selected: "Intended to be suitable for medium to large academic and public libraries",
   web_accessibility: { definition: "Defined by W3C as adherence to Web Content Accessibility Guidelines (WCAG)", what_it_does: "", examples: "the creation of open textbooks in popular subjects" },
 
+  // === INGESTED 2026-07-03 07:59 ===
+  the_paper_books: "Then delivered to the reader by mail or any other delivery service",
+  ebooks: "Also referred to as 'ebooks', 'e-books', 'eBooks', 'Ebooks', 'e-Books', 'e-journals', 'e-editions', or 'digital books'",
+  a_device_that: "Designed specifically for reading e-books is called an 'e-reader', 'ebook device', or 'eReader'",
+  maybe_this_is_because_the_digitized_text_was_a: "For studying written texts and developing linguistic concordances, rather than as a published edition in its own right",
+  her_idea: "To create a device which would decrease the number of books that her pupils carried to school",
+  the_final_device: "Planned to include audio recordings, a magnifying glass, a calculator, and an electric light for night reading",
+  van_dam: { definition: "Generally thought to have coined the term 'electronic book', [ 20 ] [ 21 ] and it was established enough to use in an article title by 1985", what_it_does: "", examples: "English Poetry and Biochemistry" },
+  detailed_specifications: "Completed in FY 1981/82, and prototype development began with Texas Instruments that same year",
+  four_prototypes: "Produced and delivered for testing in 1986, and tests were completed in 1987",
+  the_final_summary_report: { definition: "Produced in 1989 by the U.S", what_it_does: "", examples: "e-books, drawing the interest of professionals in finance and law" },
+  a_notable_feature: { definition: "Automatic tracking of the last page read so that on returning to the 'book' you were taken back to where you had previously left off reading", what_it_does: "", examples: "Adobe with its PDF format that was introduced in 1993" },
+  several_scholars_from_the_tei: "Closely involved in the early development of Open eBook , including Allen Renear , Elli Mylonas , and Steven DeRose , all from Brown",
+  consumer_ebook_publishing_market: { definition: "Controlled by the 'Big Five'", what_it_does: "", examples: "Hilton and Wikey 2010)" },
+  an_ereader: { definition: "Similar in form, but more limited in purpose than a tablet", what_it_does: "", examples: "hardcovers for which there was no digital edition" },
+  the_first_major_publisher_to_omit_drm: { definition: "Tor Books , one of the largest publishers of science fiction and fantasy, in 2012", what_it_does: "", examples: "O'Reilly Media , Carina Press and Baen Books had already forgone DRM previously" },
+  this_is_evidence_that_while_popular_ebooks: { definition: "Being completely read, some e-books are only sampled", what_it_does: "", examples: "Project Gutenberg" },
+  public_domain_books: { definition: "Those whose copyrights have expired, meaning they can be copied, edited, and sold freely without restrictions", what_it_does: "", examples: "PDF , TXT , and EPUB" },
+
 };
 
 // ============================================================
