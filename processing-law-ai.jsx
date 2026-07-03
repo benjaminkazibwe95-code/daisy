@@ -57472,6 +57472,34 @@ const FLAT_DICT = {
   the_computing_web_site: "Relaunched with new video and audio content and a focus on extensive reader interactivity in early 2007",
   about_a_dozen_regular_bloggers: "Introduced to create dynamic content for the online version of the magazine, some of these blogs also being carried in the print title",
 
+  // === INGESTED 2026-07-03 06:28 ===
+  a_camcorder: "A self-contained portable electronic device with video and recording as its primary function",
+  the_earliest_camcorders: { definition: "Tape-based, recording analog signals onto videotape cassettes", what_it_does: "", examples: "mini- HDD , MiniDVD , internal flash memory and SD cards" },
+  warren_instead_suggest_that_the_word: "Derived from the Japanese kamukōdā ( カムコーダー ) using the English words camera and tape recorder , coined by Sony for export purposes in March 1982",
+  although_the_camera_itself: "Compact, the need for a separate recorder made on-location shooting a two-person job",
+  these_shouldermount_camcorders: "Used by videophiles , industrial videographers and college TV studios",
+  avchd_camcorders: { definition: "Produced by Sony, Panasonic, Canon, JVC and Hitachi", what_it_does: "", examples: "Sony's FDR-AX53" },
+  the_lens: "The first component of the light path",
+  this_light_exposure: "Converted into an electrical charge",
+  after_the_conversion: { definition: "Complete, the photosites reset to start the exposure of the next video frame", what_it_does: "", examples: "the JVC GZ-HD3 , introduced around 2007, are triple sensor cameras , usually CCD but could be CMOS" },
+  dedicated_camcorders: { definition: "Usually equipped with optical image stabilization , optical zoom , stereo microphone, and touch screen", what_it_does: "", examples: "date/time and technical parameters may be stored in a separate subtitle track" },
+  the_current: "Then digitised before being electronically scanned and fed to the imager's output",
+  the_main_difference_between_the_two_devices: "How the scanning is done",
+  in_the_ccd_the_diodes: "Sampled simultaneously, and the scan passes the digitised data from one register to the next",
+  a_tapeless_camcorder: { definition: "A camcorder that does not use video tape for the digital recording of video productions as 20th century ones did", what_it_does: "", examples: "optical discs , hard disk drives and solid-state flash memory cards" },
+  some_tapeless_camcorders: "Equipped with a FireWire (IEEE-1394) port to ensure compatibility with magnetic tape -based DV and HDV formats",
+  most_devices_with_camcorder_capability: "Camera phones or compact digital cameras , in which video is a secondary capability",
+  indoor_or_dimlight_shooting: { definition: "Generally quiet, and in such conditions artificial lighting is recommended", what_it_does: "", examples: "focus, aperture, shutter speed and color balance)" },
+  most_consumer_camcorders: "Sold with basic video editing software , so users can create their own DVDs or share edited footage online",
+  dslr_cameras_with_highdefinition_video: { definition: "Also introduced early in the 21st century", what_it_does: "", examples: "the Canon 5D Mark II provide depth-of-field and optical-perspective control" },
+  the_flip_video: "A series of tapeless camcorders introduced by Pure Digital Technologies in 2006",
+  the_mino: "The smallest of all camcorders, slightly wider than a MiniDV cassette and smaller than most smartphones on the market",
+  in_fact_the_mino: "Small enough to fit inside the shell of a VHS cassette",
+  these_camcorders: { definition: "A huge success and Sony subsequently released further models in this range", what_it_does: "", examples: "America's Funniest Home Videos , which showcases homemade video footage" },
+  camcorders: { definition: "Used in the production of low-budget TV shows if the production crew lacks access to more expensive equipment", what_it_does: "", examples: "The Blair Witch Project , 28 Days Later and Paranormal Activity" },
+  teacher_evaluation: "A teacher's classroom lessons being recorded for review by officials, especially for questions of teacher tenure",
+  recordings_of_mat_student_work: "Posted on USC's web portal for evaluation by faculty as if they were present in class",
+
 };
 
 // ============================================================
