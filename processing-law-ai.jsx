@@ -57034,6 +57034,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 04:33 ===
   tanganyika_province: "The scene of a rebellion by the Luba -Katanga people against the independent state of Katanga",
 
+  // === INGESTED 2026-07-03 04:35 ===
+  the_prefixes_added_to_these_terms: "Also derived from Greek: The terms autonym and xenonym also have different applications, [ 3 ] thus leaving endonym and exonym as the preferred forms",
+  use_of_a_misspelled_endonym: { definition: "Perhaps more problematic than the respectful use of an existing exonym", what_it_does: "", examples: "Beijing ( 北京 ; Běijīng ), Qingdao ( 青岛 ; Qīngdǎo ), and the province of Guangdong ( 广东 ; Guǎngdōng )" },
+  in_some_cases_the_traditional_english_exonym: { definition: "Based on a local Chinese variety instead of Mandarin , in the case of Xiamen , where the name Amoy is closer to the Hokkien pronunciation", what_it_does: "", examples: "the Sinyi District is now spelled Xinyi" },
+  ancient_greeks_thought_that_all_nongreeks: "Uncultured and so called them ' barbarians ', which eventually gave rise to the exonym ' Berber '",
+  when_the_city: "First settled by English people , in the early 17th century, both names were in use",
+
 };
 
 // ============================================================
