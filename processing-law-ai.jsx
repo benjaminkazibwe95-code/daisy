@@ -58235,6 +58235,16 @@ const FLAT_DICT = {
   since_myosins: "Recruited to the medial region, the contractile forces acting on the cortex resemble a 'purse string' constriction pulling inwards",
   usually_this: "An unwanted aberration and can be a sign of cancerous cells",
 
+  // === INGESTED 2026-07-03 16:43 ===
+  the_breakdown: { definition: "Done by various enzymes, for example proteases, glycosidases and lipases", what_it_does: "", examples: "acid phosphatase within cells, using cell fractionation methods to isolate subcellular components" },
+  the_presence_of_digestive_enzymes: "Further validated using electron microscopy",
+  de_duve: { definition: "Awarded the Nobel Prize in Physiology or Medicine in 1974", what_it_does: "", examples: "peptides , nucleic acids , carbohydrates , and lipids" },
+  the_interior_of_the_lysosome: "Acidic compared to the slightly basic cytosol (pH 7.2)",
+  vacuolaratpases: "Responsible for the transport of protons, while the counter transport of chloride ions is performed by ClC-7 Cl⁻/H⁺ antiporter",
+  when_nutrients: "Plentiful, they activate mTOR signaling to support anabolic (biosynthetic) processes",
+  the_lysosome: "Delivered material for degradation via transient interactions or complete fusion, forming endolysosomes and autolysosomes respectively",
+  the_resulting_hybrid_structure: "Called an endolysosome",
+
 };
 
 // ============================================================
