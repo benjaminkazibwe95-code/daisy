@@ -58516,6 +58516,11 @@ const FLAT_DICT = {
   mtheory: "Also foreshadowed in the work of Paul Townsend at approximately the same time",
   the_flurry_of_activity_that_began_at_this_time: "Sometimes called the second superstring revolution",
 
+  // === INGESTED 2026-07-03 17:53 ===
+  superposition: "Understood before Young because it was known that two sound waves could pass through each other",
+  interference: "Less well understood because the frequency of the two waves affects result of the combination",
+  in_modern_times_this_experiment: "Considered an important classic proof of the wave theory of light",
+
 };
 
 // ============================================================
