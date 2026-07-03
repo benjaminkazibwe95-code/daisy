@@ -56682,6 +56682,10 @@ const FLAT_DICT = {
   franz_meyen: "A strong opponent of this view, having already described cells multiplying by division and believing that many cells would have no nuclei",
   this_was_the_first_time_it: { definition: "Suggested that an individual develops from a (single) nucleated cell", what_it_does: "", examples: "amphibians and molluscs" },
 
+  // === INGESTED 2026-07-03 02:20 ===
+  acidophilic_neurons: "Often found in the first 12–24 hours after an ischemic injury such as a stroke",
+  since_neurons: "Permanent cells, they are most susceptible to hypoxic injury",
+
 };
 
 // ============================================================
