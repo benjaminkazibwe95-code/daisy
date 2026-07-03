@@ -57410,6 +57410,9 @@ const FLAT_DICT = {
   such_portions_in_general: { definition: "Commonly called 'components' or 'elements' of a document", what_it_does: "", examples: "lists, not merely list items; sections, not merely section headings; and so on" },
   a_document_that_follows_these_rules: { definition: "Considered 'valid.' [ 2 ] Some systems support flexible component types while maintaining syntactic rules", what_it_does: "", examples: "paragraph, title, and code; but also format-oriented ones such as italic, bold, and most table" },
 
+  // === INGESTED 2026-07-03 06:09 ===
+  springer_nature_also_stated_that_it: "Reviewing and strengthening its book peer-review and research-integrity processes, including additional safeguards and post-publication reviews",
+
 };
 
 // ============================================================
