@@ -58969,6 +58969,10 @@ const FLAT_DICT = {
   because_the_relativistic_mass: { definition: "Proportional to the energy , it has gradually fallen into disuse among physicists", what_it_does: "", examples: "the Earth) is the same as the pseudo-force experienced by an observer in a non- inertial (i.e" },
   when_v: "Larger than c , the denominator in the equation for the energy is 'imaginary' , as the value under the radical is negative",
 
+  // === INGESTED 2026-07-03 20:09 ===
+  the_nearinfrared_counterpart: "Determined by spectroscopic observations",
+  the_jet_of_materials_being_ejected: "Occasionally choked off by a hot wind blowing off the accretion disk",
+
 };
 
 // ============================================================
