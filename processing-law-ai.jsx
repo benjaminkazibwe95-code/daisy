@@ -58475,6 +58475,17 @@ const FLAT_DICT = {
   his_dream: "To put sources of entangled light onto a satellite in orbit",
   the_resulting_leggett_inequality: "Shown to be violated in the experiments of the Zeilinger group",
 
+  // === INGESTED 2026-07-03 17:49 ===
+  operators: "Even more important in quantum mechanics , where they form an intrinsic part of the formulation of the theory",
+  operators_in_classical_mechanics: "Related to these symmetries",
+  physical_pure_states_in_quantum_mechanics: "Represented as unit-norm vectors (probabilities are normalized to one) in a special complex Hilbert space",
+  time_evolution_in_this_vector_space: "Given by the application of the evolution operator",
+  mathematically_this: { definition: "The operators must be Hermitian", what_it_does: "", examples: "position, momentum, energy, angular momentum etc.)" },
+  one_mathematical_example: { definition: "The del operator , which is itself a vector (useful in momentum-related quantum operators, in the table below)", what_it_does: "", examples: "L x and L y , or s y and s z , etc.)" },
+  since_the_operators: "Linear, the matrix is a linear transformation (aka transition matrix) between bases",
+  the_operators_used_in_quantum_mechanics: "Collected in the table below (see for example [ 1 ] [ 4 ] )",
+  the_boldface_vectors_with_circumflexes: "Not unit vectors , they are 3-vector operators; all three spatial components taken together",
+
 };
 
 // ============================================================
