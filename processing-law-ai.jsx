@@ -56727,6 +56727,9 @@ const FLAT_DICT = {
   one_product_of_serotonin_breakdown: "5-hydroxyindoleacetic acid (5-HIAA), which is excreted in the urine",
   indium_tin_oxide: { definition: "Recommended for the electrode material in electrochemical investigation of concentrations produced, detected, or consumed by microbes", what_it_does: "", examples: "some other vasoactives" },
 
+  // === INGESTED 2026-07-03 02:40 ===
+  the_systematic_name: { definition: "Myo -inositol-phosphate phosphohydrolase", what_it_does: "", examples: "fructose 1,6-bisphosphatase (FBPase) and inositol polyphosphate 1-phosphatase" },
+
 };
 
 // ============================================================
