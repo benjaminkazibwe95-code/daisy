@@ -58713,6 +58713,36 @@ const FLAT_DICT = {
   enlil: "The god of air in ancient Sumer",
   shu: { definition: "The ancient Egyptian deity of air and the husband of Tefnut , goddess of moisture", what_it_does: "", examples: "whirlwinds, cyclones, monsoons, west winds and trade winds" },
 
+  // === INGESTED 2026-07-03 18:40 ===
+  a_neutron: "A subatomic particle , symbol n or n 0 , that has no electric charge , and a mass slightly greater than that of a proton",
+  free_neutrons: "Unstable, although they have the longest half-life of any unstable subatomic particle by several orders of magnitude",
+  neutron_properties_and_interactions: "Described by nuclear physics",
+  the_neutron: "Not affected by electric fields, but it is affected by magnetic fields",
+  this_physical_picture: "A contradiction, since there is no way to arrange the spins of an electron and a proton in a bound state to get a fractional spin",
+  the_radiation: "Not influenced by an electric field, so Bothe and Becker assumed it was gamma radiation",
+  protons_and_neutrons_of_a_nuclide: "Organized into discrete hierarchical energy levels with unique quantum numbers",
+  when_all_available_proton_states: "Filled, the Pauli exclusion principle disallows the decay of a neutron to a proton",
+  the_dineutron: "Considered a component in neutron-rich 16 Be nuclei [ 64 ] and an unbound state with lifetimes less than 10 −22 seconds",
+  the_first_evidence_for_this_state: "Reported by Haddock et al",
+  the_quarks_of_the_neutron: "Held together by the strong force , mediated by gluons",
+  the_results_of_this_calculation: { definition: "Encouraging, but the masses of the up or down quarks were assumed to be 1/3 the mass of a nucleon", what_it_does: "", examples: "all of the effects mentioned and using more realistic values for the quark masses" },
+  the_calculation_gave_results_that: "In fair agreement with measurement, but it required significant computing resources",
+  one_proposed_mechanism: { definition: "Neutron-antineutron oscillations which might be detectable", what_it_does: "", examples: "in a cloud chamber ) does not work for neutrons directly" },
+  detectors_relying_on_elastic_scattering: "Called fast neutron detectors",
+  a_major_challenge_in_fast_neutron_detection: "Discerning such signals from erroneous signals produced by gamma radiation in the same detector",
+  their_halflife: "Still only about 10 minutes, so they can be obtained only from sources that produce them continuously",
+  these_highenergy_muons: { definition: "Capable of penetration to considerable depths in water and soil", what_it_does: "", examples: "(hypothesized) interactions that might be caused by particles of dark matter" },
+  a_popular_source_of_the_latter_type: "Radioactive antimony-124 plus beryllium, a system with a half-life of 60.9 days, which can be constructed from natural antimony (which is 42",
+  free_neutron_beams: { definition: "Obtained from neutron sources by neutron transport", what_it_does: "", examples: "neutron capture often results in neutron activation , inducing radioactivity" },
+  another_use_of_neutron_emitters: "The detection of light nuclei, in particular the hydrogen found in water molecules",
+  because_neutron_radiation: "Both penetrating and ionizing, it can be exploited for medical treatments",
+  neutron_tomography: "Therefore not a viable medical application",
+  radiation_therapy_of_cancers: "Based upon the biological response of cells to ionizing radiation",
+  if_radiation: "Delivered in small sessions to damage cancerous areas, normal tissue will have time to repair itself, while tumor cells often cannot",
+  this_often: "That simple concrete blocks or even paraffin-loaded plastic blocks afford better protection from neutrons than do far more dense materials",
+  the_average: "Roughly 2.5 to 3.0 and at least one, on average, must evade capture in order to sustain the nuclear chain reaction",
+  the_energy_of_free_neutrons: { definition: "Characterized by their temperature as given by their Maxwell–Boltzmann distribution", what_it_does: "", examples: "thermal neutrons have with kT = 0.0253 eV ( 4" },
+
 };
 
 // ============================================================
