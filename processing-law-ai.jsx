@@ -57122,6 +57122,13 @@ const FLAT_DICT = {
   the_infinitive_absolute: "Used for verb focus and emphasis, as in מוֹת יָמוּת ‎ mōṯ yāmūṯ (literally ' a dying he will die ' , figuratively ' he shall indeed/surely die ' )",
   in_modern_hebrew_it: { definition: "Restricted to high-register literary works", what_it_does: "", examples: "in French the sentence 'I want you to come' translates to Je veux que vous veniez ( lit" },
 
+  // === INGESTED 2026-07-03 04:56 ===
+  paradisec: "Part of the worldwide community of language archives ( DELAMAN [ 2 ] and the Open Language Archives Community [ 3 ] )",
+  bwf_files: "Archived with a digitally sealed 'header' comprising metadata exported from the PARADISEC catalogue",
+  researchers_whose_materials: "Represented in these collections include Arthur Capell , Stephen Wurm , Clemens Voorhoeve and Terry Crowley",
+  analogue_recordings: "Digitised at the international archive standard for PCM audio files of 24-bit resolution and a sample rate of 96 kHz",
+  the_archive: "Currently headed by Nicholas Thieberger (Melbourne) and Amanda Harris (Sydney)",
+
 };
 
 // ============================================================
