@@ -57685,6 +57685,9 @@ const FLAT_DICT = {
   while_these_descriptions: "Useful, 'hot' and 'cold' lack concrete definitions",
   another_variation: "Large amounts of nonvolatile memory in the server, for example, flash memory chips as addressable memory rather than structured as disk arrays",
 
+  // === INGESTED 2026-07-03 07:07 ===
+  the_initial_release: "Named 2012 product of the year by the International Council on Systems Engineering",
+
 };
 
 // ============================================================
