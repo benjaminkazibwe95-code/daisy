@@ -58913,6 +58913,9 @@ const FLAT_DICT = {
   the_advanced_ligo_proposal: "Developed while Barish was director, and he has continued to play a leading role in LIGO and Advanced LIGO",
   barish: { definition: "Honored as a Titan of Physics in the On the Shoulders of Giants [ 29 ] series at the 2016 World Science Festival", what_it_does: "", examples: "groundbreaking research on sub-atomic particles" },
 
+  // === INGESTED 2026-07-03 19:58 ===
+  kerr: "A notable bridge player representing New Zealand internationally in the mid-1970s",
+
 };
 
 // ============================================================
