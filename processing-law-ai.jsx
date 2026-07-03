@@ -57688,6 +57688,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 07:07 ===
   the_initial_release: "Named 2012 product of the year by the International Council on Systems Engineering",
 
+  // === INGESTED 2026-07-03 07:09 ===
+  a_methodology: { definition: "A classification of processes or a blueprint for a process that is devised for the SDLC", what_it_does: "", examples: "many processes can be classified as a spiral model" },
+  software_process_and_software_quality: { definition: "Closely interrelated; some unexpected facets and effects have been observed in practice", what_it_does: "", examples: "waterfall , spiral , agile , rapid prototyping , incremental , and synchronize and stabilize" },
+  the_waterfall_model: "The SDLC phases such that each builds on the result of the previous one",
+  shape_up: "A software development approach introduced by Basecamp in 2018",
+  although_the_standard: "Originally created for the manufacturing sector, ISO 9000 standards have been applied to software development as well",
+  soft_systems_methodology: "A general method for improving management processes",
+  method_engineering: "A general method for improving information system processes",
+
 };
 
 // ============================================================
