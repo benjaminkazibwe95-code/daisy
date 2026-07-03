@@ -56592,6 +56592,31 @@ const FLAT_DICT = {
   this_local_action_of_fgf_proteins: { definition: "Classified as paracrine signalling , most commonly through the JAK-STAT signalling pathway or the receptor tyrosine kinase (RTK) pathway", what_it_does: "", examples: "intestine, liver, kidney, adipose, and bone" },
   the_intervening_loops: "Less well-conserved - the loop between beta-strands 6 and 7 is slightly longer in interleukin-1 beta",
 
+  // === INGESTED 2026-07-03 01:57 ===
+  the_neural_plate: "The source of the majority of neurons and glial cells of the CNS",
+  the_ventral_part_of_the_neural_tube: "Called the basal plate ; the dorsal part is called the alar plate",
+  the_hollow_interior: "Called the neural canal",
+  neural_inducers: "Molecules that can induce the expression of neural genes in ectoderm explants without inducing mesodermal genes as well",
+  neural_induction: "Often studied in xenopus embryos since they have a simple body pattern and there are good markers to distinguish between neural and non-neural tissue",
+  examples_of_neural_inducers: "The molecules noggin and chordin",
+  above_the_mesencephalon: "The prosencephalon (future forebrain) and beneath it is the rhombencephalon (future hindbrain)",
+  between_the_basal_and_alar_plates: "An intermediate layer that contains neurons of the autonomic nervous system",
+  eeg_and_erp: "Effective imaging processes used mainly on babies and young children since they are more gentle",
+  the_mri_and_fmri: { definition: "Widely used for research on the brain due to the quality of images and analysis possible from them", what_it_does: "", examples: "defining growth patterns, [ 10 ] and characterizing the sequence of myelination" },
+  another_key_region: "The anterior temporal cortex (ATC) in the posterior region",
+  studies_report_that_three_primary_structures: "Formed in the sixth gestational week",
+  the_peak_for_the_temporal_lobes: "~17 years with the superior temporal cortex being last to mature",
+  their_most_common_means_of_migration: "Radial and tangential migration",
+  neurons_migrating_with_this_mode_of_locomotion: "Bipolar and attach the leading edge of the process to the pia",
+  neurophilic_migration: "The migration of neurons along an axon belonging to a different nerve",
+  gliophilic_migration: "The migration of glia along glial fibres",
+  an_example_of_tangential_migration: { definition: "The movement of Cajal–Retzius cells within the marginal zone of the cortical neuroepithelium", what_it_does: "", examples: "remyelination , generation of new neurons , glia , axons , myelin or synapses" },
+  this_rush: { definition: "Followed by a sort of intermission beginning in the third trimester of pregnancy", what_it_does: "", examples: "from diseases of the mother, various events and xenobiotics )" },
+  early_life_stress: { definition: "Defined as exposure to circumstances during childhood that overwhelm a child's coping resources and lead to sustained periods of stress", what_it_does: "", examples: "those involved in memory and emotion are more vulnerable to effects of early life stress" },
+  receptor_type: "Another consideration when determining whether or not a brain region is sensitive to the effects of early life stress",
+  abnormalities_in_brain_structure_and_function: "Often associated with deficits that may persist for years after the stress is removed, and may be a risk factor for future psychopathology",
+  common_types_of_early_life_stress_that: "Documented include maltreatment, neglect, and previous institutionalization",
+
 };
 
 // ============================================================
