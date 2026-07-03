@@ -56478,6 +56478,12 @@ const FLAT_DICT = {
   antagonists: { definition: "Often described as receptor “blockers” and may be classified as competitive or irreversible", what_it_does: "", examples: "autism , obsessive–compulsive disorder (OCD), schizophrenia , and depression" },
   some_of_these_conditions: "Also related to neurotransmitter switching, a phenomenon where neurons change the type of neurotransmitters they release",
 
+  // === INGESTED 2026-07-03 01:14 ===
+  absenteeism: { definition: "A habitual pattern of absence from a duty or obligation without good reason", what_it_does: "", examples: "children and elders, falls ill, sick leave can be applied" },
+  evidence_indicates_that_absence: { definition: "Generally viewed as 'mildly deviant workplace behavior", what_it_does: "", examples: "employee satisfaction and commitment" },
+  students_with_poor_attendance_records: "Found to be at a disadvantage both academically and socially",
+  three_major_profiles: "Identified from these students",
+
 };
 
 // ============================================================
