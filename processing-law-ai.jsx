@@ -56996,6 +56996,19 @@ const FLAT_DICT = {
   miu: "Located in Kisoro in South Western Uganda and has a second campus in Kampala , Namungoona on plot 281 along Nakibinge road",
   currently_the_chancellor: "Dr Philemon Mateke and Vice Chancellor is Dr Julius Arinaitwe",
 
+  // === INGESTED 2026-07-03 04:11 ===
+  tertiary_education_at_a_nondegree_level: "Sometimes referred to as further education or continuing education , as distinct from higher education",
+  graduates: "Also more likely to embrace cultural and ethnic diversity and express more positive views towards minority groups",
+  the_latter_level_of_education: { definition: "Often referred to as graduate school , especially in North America", what_it_does: "", examples: "according to the Lisbon Recognition Convention" },
+  tertiaryeducated_individuals: "Earning twice as much as median workers",
+  italian_universities: { definition: "Among the oldest universities in the world", what_it_does: "", examples: "the Diploma di Perfezionamento , equivalent to a Doctorate, Dottorato di Ricerca , i.e" },
+  nine_further_schools: "Direct offshoots of the universities, i.e., do not have their own 'university status'",
+  this_university: "The only Italian member of the League of European Research Universities (LERU), a group of twenty research-intensive European Universities",
+  tertiary_education_in_kazakhstan: "Governed by the Law on Education of the Republic of Kazakhstan, model rules for higher-education institutions, and individual university charters",
+  higher_education_programs: "Intricately designed with the perspective of the learner in focus, striving to mitigate risks and assure definite outcomes",
+  it_is_large_and_diverse_with_institutions_that: "Privately governed and institutions that are owned and operated by state and local governments",
+  some_private_institutions: "Affiliated with religious organizations whereas others are secular with enrollment ranging from a few dozen to tens of thousands of students",
+
 };
 
 // ============================================================
