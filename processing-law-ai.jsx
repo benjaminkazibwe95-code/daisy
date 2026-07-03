@@ -57636,6 +57636,20 @@ const FLAT_DICT = {
   print_and_mail_outsourcing: { definition: "The outsourcing of document printing and distribution", what_it_does: "", examples: "when The Guardian outsourced most of its marketing design in May 2010" },
   the_bpo_industry_workforce_in_india: { definition: "Expected to shrink by 14% in 2021", what_it_does: "", examples: "not only the BPO industry but also IT outsourcing services, at $130.9 billion" },
 
+  // === INGESTED 2026-07-03 06:58 ===
+  the_first_compaq_pc: { definition: "Sketched out on a placemat by Ted Papajohn while dining with the founders in a pie shop, [ 18 ] [ 20 ] (named House of Pies in Houston)", what_it_does: "", examples: "portability and better technology, at prices comparable to those of IBM's PCs" },
+  the_softspoken_canion: "Popular with employees and the culture that he built helped Compaq to attract the best talent",
+  the_compaq_portable: "The first in the range of the Compaq Portable series",
+  compaq: "Sitting down at the typewriter'",
+  the_only_part_which_had_to_be_duplicated: { definition: "The BIOS , which Compaq did legally by using clean room design at a cost of $1 million", what_it_does: "", examples: "the IBM Portable PC" },
+  pfeiffer: "Given US$20,000 to start up Compaq Europe [ 55 ] He started up Compaq's first overseas office in Munich in 1984",
+  such_that_european_dealers: "More qualified to handle its increasingly complex products",
+  this_strategy_was_successful_as_compaq: "Considered a trusted brand, while many other IBM clones were untrusted due to being plagued by poor reliability",
+  as_canion: { definition: "Popular with company workers, 150 employees staged an impromptu protest with signs stating, 'We love you, Rod", what_it_does: "", examples: "remaining company founder James Harris as SVP of Engineering" },
+  these_departures: { definition: "Motivated by an enhanced severance or early retirement, as well as an imminent demotion as their functions were to be shifted to vice presidents", what_it_does: "", examples: "Packard Bell and AST Research" },
+  rose_was_reportedly_upset_that_he: { definition: "Not considered for the CEO vacancy, which became apparent once Michael Capellas was named COO", what_it_does: "", examples: "Dell who took over the top spot of PC manufacturer from Compaq in 2001" },
+  plus_there: { definition: "Significant cultural differences between HP and Compaq; which made decisions by consensus and rapid autocratic styles, respectively", what_it_does: "", examples: "Jeff Clarke and Peter Blackmore would resign or be ousted from the post-merger HP" },
+
 };
 
 // ============================================================
