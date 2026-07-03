@@ -57730,6 +57730,13 @@ const FLAT_DICT = {
   postrelease_software_maintenance: { definition: "Necessary to remediate these bugs when they are found and keep the software working as the environment changes over time", what_it_does: "", examples: "injury or death" },
   the_underlying_ideas_or_algorithms: "Not protected by copyright law, but are sometimes treated as a trade secret and concealed by such methods as non-disclosure agreements",
 
+  // === INGESTED 2026-07-03 07:18 ===
+  edwards_deming_quality: { definition: "A customer determination, not an engineer's determination, not a marketing determination, nor a general management determination", what_it_does: "", examples: "this it is convenient to standardize on a short definition of the word quality as 'fitness for use'" },
+  the_main_focus: { definition: "On internal structural quality", what_it_does: "", examples: "data access and manipulation or the notion of transactions" },
+  a_wellknown_example_of_vulnerability: "The Common Weakness Enumeration , [ 68 ] a repository of vulnerabilities in the source code that make applications exposed to security breaches",
+  the_root_causes_of_poor_reliability: { definition: "Found in a combination of non-compliance with good architectural and coding practices", what_it_does: "", examples: "SQL injection or cross-site scripting" },
+  reasons_for_why_maintainability: "Low can be classified as reckless vs",
+
 };
 
 // ============================================================
