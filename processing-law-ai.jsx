@@ -56796,6 +56796,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 03:14 ===
   the_official_name_of_the_standard: "Codes for the representation of names of countries and their subdivisions",
 
+  // === INGESTED 2026-07-03 03:16 ===
+  the_national_post: "A Canadian English-language broadsheet newspaper and the flagship publication of the American-owned Postmedia Network",
+  weekend_editions_of_the_newspaper: "Also distributed in Manitoba and Saskatchewan",
+  izzy_asper: "Once leader of the Liberal Party in his home province of Manitoba",
+  without_a_buyer_closing_the_paper: { definition: "Studied, but the costs were greater than gains from liquidating assets", what_it_does: "", examples: "a third of the National Post's editorial staff" },
+
 };
 
 // ============================================================
