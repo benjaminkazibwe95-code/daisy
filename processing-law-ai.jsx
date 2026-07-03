@@ -57416,6 +57416,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 06:11 ===
   cailliau: "Founding member of the committee from 1994 until 2002",
 
+  // === INGESTED 2026-07-03 06:16 ===
+  the_lumia_name: { definition: "Derived from the partitive plural form of the Finnish word lumi , meaning 'snow'", what_it_does: "", examples: "Apple 's iPhone line and Android -based products" },
+  these_new_lowend_devices: { definition: "Intended to improve Windows Phone adoption in emerging markets such as China", what_it_does: "", examples: "rights to the Lumia and low-end Asha brands) in an overall deal of over US $7bn" },
+  the_next_microsoft_phone_release: "The Microsoft Surface Duo , while a Windows Phone-powered Surface Neo foldable tablet was cancelled too a few years later, after its introduction",
+  all_devices_in_the_lumia_line: "Smartphones (including one tablet computer ) running Microsoft Windows software",
+  all_the_smartphones: "Full-touch in a candybar form",
+  two_display_variants: { definition: "Reportedly created, one with a 1080p screen and another with a 1440p screen", what_it_does: "", examples: "build 9867 and, in some cases, build 10113" },
+  the_battery_performance: "Noted to be limited due to the combination of high-end components and testing configurations",
+
 };
 
 // ============================================================
