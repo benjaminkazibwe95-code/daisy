@@ -56992,6 +56992,10 @@ const FLAT_DICT = {
   their_rise_to_these_positions: "Mainly because they were among three of the best table tennis players the university had ever produced",
   the_other_halls: "Uth-Fat Hall and Abu-Aisha Hall",
 
+  // === INGESTED 2026-07-03 04:07 ===
+  miu: "Located in Kisoro in South Western Uganda and has a second campus in Kampala , Namungoona on plot 281 along Nakibinge road",
+  currently_the_chancellor: "Dr Philemon Mateke and Vice Chancellor is Dr Julius Arinaitwe",
+
 };
 
 // ============================================================
