@@ -58344,6 +58344,13 @@ const FLAT_DICT = {
   benzoin: "Usually part of the recipe",
   vanilla_and_cloves: "Sometimes used to enhance the aroma",
 
+  // === INGESTED 2026-07-03 17:13 ===
+  heinrich_rudolf_hertz: "Born on 22 February 1857 in Hamburg , the son of Gustav Ferdinand Hertz , a lawyer and politician, and Anna Elisabeth Pfefferkorn",
+  the_antenna: "Excited by pulses of high voltage of about 30 kilovolts applied between the two sides from a Ruhmkorff coil",
+  this_experiment_produced_and_received_what: { definition: "Now called radio waves in the very high frequency range", what_it_does: "", examples: "aluminium)" },
+  he_observed_that_the_maximum_spark_length: "Reduced when in the box",
+  his_daughter_mathilde_carmen_hertz: "A well-known biologist and comparative psychologist",
+
 };
 
 // ============================================================
