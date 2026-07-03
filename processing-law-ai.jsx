@@ -58779,6 +58779,17 @@ const FLAT_DICT = {
   if_the_range_to_select: "Unclear, it can be identified in practice by examining the molecular orbitals that describe the electron density along with the considered bond",
   an_analogous_effect_to_covalent_binding: "Believed to occur in some nuclear systems, with the difference that the shared fermions are quarks rather than electrons",
 
+  // === INGESTED 2026-07-03 19:01 ===
+  a_classical_example: "The cyanate ion O=C=N − and the fulminate ion C − ≡N + −O −",
+  structural_isomerism: { definition: "The most radical type of isomerism", what_it_does: "", examples: "alkanes , that usually means the carbon atoms and the bonds between them" },
+  functional_isomers: "Structural isomers which have different functional groups , resulting in significantly different chemical and physical properties",
+  likewise_there: "Only two positional isomers of butanol , and three of pentanol or hexanol",
+  once_a_substitution: "Made on a parent molecule, its structural symmetry is usually reduced, meaning that atoms that were formerly equivalent may no longer be so",
+  the_classical_example: "The derivatives of benzene",
+  if_the_substituents_at_each_step: "Different, there will usually be more structural isomers",
+  seven_of_them: "Air-stable at room temperature, and these are given in the table below",
+  two_structural_isomers: "The enol tautomers of the carbonyl isomers (propionaldehyde and acetone), but these are not stable",
+
 };
 
 // ============================================================
