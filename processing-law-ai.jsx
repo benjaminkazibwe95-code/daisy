@@ -58245,6 +58245,13 @@ const FLAT_DICT = {
   the_lysosome: "Delivered material for degradation via transient interactions or complete fusion, forming endolysosomes and autolysosomes respectively",
   the_resulting_hybrid_structure: "Called an endolysosome",
 
+  // === INGESTED 2026-07-03 16:45 ===
+  the_vault_structure: "Highly conserved across species",
+  the_hollow_interior_of_the_vault: "Large enough to enclose a ribosome",
+  inside: "Two associated vault proteins, TEP1 and PARP4",
+  vaults: "Over expressed in many multidrug resistant cancer cells",
+  these_modified_proteins: "Incorporated into the inside of the vault particle without altering its basic structure",
+
 };
 
 // ============================================================
