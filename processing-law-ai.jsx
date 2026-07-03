@@ -58486,6 +58486,36 @@ const FLAT_DICT = {
   the_operators_used_in_quantum_mechanics: "Collected in the table below (see for example [ 1 ] [ 4 ] )",
   the_boldface_vectors_with_circumflexes: "Not unit vectors , they are 3-vector operators; all three spatial components taken together",
 
+  // === INGESTED 2026-07-03 17:51 ===
+  one_of_the_challenges_of_string_theory: "That the full theory does not have a satisfactory definition in all circumstances",
+  one_of_the_deepest_problems_in_modern_physics: "The problem of quantum gravity",
+  the_starting_point_for_string_theory: "The idea that the point-like particles of particle physics can also be modeled as one-dimensional objects called strings",
+  bosonic_string_theory: "Eventually superseded by theories called superstring theories",
+  a_standard_analogy_for_this: "To consider a multidimensional object such as a garden hose",
+  if_the_hose: { definition: "Viewed from a sufficient distance, it appears to have only one dimension, its length", what_it_does: "", examples: "Montonen–Olive duality is an example of an S-duality relationship between quantum field theories" },
+  if_two_theories: "Related by a duality, it means that one theory can be transformed in some way so that it ends up looking just like the other theory",
+  the_two_theories: { definition: "Then said to be dual to one another under the transformation", what_it_does: "", examples: "the AdS/CFT correspondence, which has shed light on many problems in quantum field theory" },
+  one_of_the_problems: "That the laws of physics appear to distinguish between clockwise and counterclockwise, a phenomenon known as chirality",
+  if_the_radius_of_the_circle: "Sufficiently small, then this membrane looks just like a string in ten-dimensional spacetime",
+  a_matrix_model: "The behavior of a set of matrices within the framework of quantum mechanics",
+  this_subject: "A generalization of ordinary geometry in which mathematicians define new geometric notions using tools from noncommutative algebra",
+  finding_such_a_derivation_of_this_formula: { definition: "Considered an important test of the viability of any theory of quantum gravity such as string theory", what_it_does: "", examples: "the factor of 1/4" },
+  one_difference: "That Strominger and Vafa considered only extremal black holes in order to make the calculation tractable",
+  the_resulting_geometric_object: "Three-dimensional anti-de Sitter space",
+  a_superfluid: "A system of electrically neutral atoms that flows without any friction",
+  phenomenology: "The branch of theoretical physics in which physicists construct realistic models of nature from more abstract theoretical ideas",
+  string_phenomenology: { definition: "The part of string theory that attempts to construct realistic or semi-realistic models based on string theory", what_it_does: "", examples: "the hierarchy problem and the inability to explain the structure of fermion masses or dark matter" },
+  the_exact_properties_of_this_particle: "Not fixed by the theory but should ultimately be derived from a more fundamental theory such as string theory",
+  these_conjectures: "Sometimes later proved by mathematicians, and in this way, string theory serves as a source of new ideas in pure mathematics",
+  each_of_these_operations: "Called a symmetry , and the collection of these symmetries satisfies certain technical properties making it into what mathematicians call a group",
+  it_is_generally_believed_that_finite_groups: "Too diverse to admit a useful classification",
+  a_more_modest_but_still_challenging_problem: "To classify all finite simple groups",
+  the_latter_groups: "Called the 'sporadic' groups, and each one owes its existence to a remarkable combination of circumstances",
+  while_the_scale: "Off by many orders of magnitude, the approach he advocated was ideally suited for a theory of quantum gravity",
+  the_gauge_group_of_these_closed_strings: "Two copies of E8 , and either copy could easily and naturally include the standard model",
+  mtheory: "Also foreshadowed in the work of Paul Townsend at approximately the same time",
+  the_flurry_of_activity_that_began_at_this_time: "Sometimes called the second superstring revolution",
+
 };
 
 // ============================================================
