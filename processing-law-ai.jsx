@@ -58206,6 +58206,11 @@ const FLAT_DICT = {
   these_molecular_markers: { definition: "In agreement with the observed phylogenetic tree branching of two monophyletic clades within the Spirochaetales order", what_it_does: "", examples: "pathogenicity (viz" },
   the_distribution_of_a_csi: "Indicative of shared ancestry within the clade for which it is specific",
 
+  // === INGESTED 2026-07-03 16:34 ===
+  functions_of_the_nervous_system: "Sensory input , integration, control of muscles and glands , homeostasis , and mental activity",
+  four_types_of_neuroglia_found_in_the_cns: "Astrocytes , microglial cells , ependymal cells , and oligodendrocytes",
+  two_types_of_neuroglia_found_in_the_pns: "Satellite glial cells and Schwann cells",
+
 };
 
 // ============================================================
