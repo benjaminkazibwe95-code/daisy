@@ -58906,6 +58906,9 @@ const FLAT_DICT = {
   ginzburg: "The editor-in-chief of the scientific journal Uspekhi Fizicheskikh Nauk",
   russian_academy_of_sciences: "A major institution where mostly all Nobel Prize laureates of physics from Russia have done their studies and/or research works",
 
+  // === INGESTED 2026-07-03 19:54 ===
+  his_wife_valentina: { definition: "The daughter of Revolutionary hero Mykola Shchors", what_it_does: "", examples: "the Landau-Khalatnikov theory of superfluidity" },
+
 };
 
 // ============================================================
