@@ -57413,6 +57413,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 06:09 ===
   springer_nature_also_stated_that_it: "Reviewing and strengthening its book peer-review and research-integrity processes, including additional safeguards and post-publication reviews",
 
+  // === INGESTED 2026-07-03 06:11 ===
+  cailliau: "Founding member of the committee from 1994 until 2002",
+
 };
 
 // ============================================================
