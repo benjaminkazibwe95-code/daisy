@@ -56350,6 +56350,10 @@ const FLAT_DICT = {
   if_the_reinforcers: "Promoting health and social behaviors, they will lead to an improved quality of life",
   new_contingencies: { definition: "Responsible for the selection of novel and more adaptive behaviors while decreasing problematic or archaic behaviors", what_it_does: "", examples: "school curriculum)" },
 
+  // === INGESTED 2026-07-03 00:35 ===
+  the_experimental_analysis_of_behavior: { definition: "A science that studies the behavior of individuals across a variety of species", what_it_does: "", examples: "food or pain" },
+  and_when_stopping_leverpressing: "Followed by shock, lever-pressing is maintained or increased (negative reinforcement)",
+
 };
 
 // ============================================================
