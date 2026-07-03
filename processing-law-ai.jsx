@@ -57016,6 +57016,9 @@ const FLAT_DICT = {
   the_school_board: "Chaired by Katende Jimmy Rogers, who previously served as PTA chairman and president of the Old Budonian Club",
   the_land_on_which_it_was_built: "Donated by the Kabaka of Buganda",
 
+  // === INGESTED 2026-07-03 04:20 ===
+  the_third_campus: "In the town of Mubende , approximately 153 kilometres (95 mi) , by road, west of Kampala",
+
 };
 
 // ============================================================
