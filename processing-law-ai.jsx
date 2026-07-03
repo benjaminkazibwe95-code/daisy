@@ -56410,6 +56410,26 @@ const FLAT_DICT = {
   customers_who_are_in_a_bad_mood: "More difficult to please",
   they_tend_to_be_more_argumentative_and: "More likely to complain",
 
+  // === INGESTED 2026-07-03 00:46 ===
+  as_such_decisions: { definition: "Not always made in the sense of greatest self-reward as limited information is available", what_it_does: "", examples: "overconfidence , projection bias and the effects of limited attention are now part of the theory" },
+  it_is_motivated_by_the_fact_that_it: "Costly to gain information about options and it aims to maximise the utility of searching for information",
+  while_each_heuristic: "Not wholistic in its explanation of the search process alone, a combination of these heuristics may be used in the decision-making process",
+  satisficing_satisficing_is_the_idea_that_there: "Some minimum requirement from the search and once that has been met, stop searching",
+  directed_cognition_directed_cognition: { definition: "A search heuristic in which a person treats each opportunity to research information as their last", what_it_does: "", examples: "Present bias Present bias reflects the human tendency to want rewards sooner" },
+  it_describes_people_who: "More likely to forego a greater payoff in the future in favour of receiving a smaller benefit sooner",
+  present_bias_is_commonly_split_into_people_who: "Aware of their present bias (sophisticated) and those who are not (naive)",
+  if_the_high_payout: "Not likely, they might try to avoid losses altogether even if the investment's risk is acceptable from a rational standpoint",
+  it_assumes_that_investors: "Not always rational , have limits to their self-control and are influenced by their own biases",
+  the_central_issue_in_behavioral_finance: { definition: "Explaining why market participants make irrational systematic errors contrary to assumption of rational market participants", what_it_does: "", examples: "online trading and decision making has changed major economic theories" },
+  the_author_shows_that_behavioral_findings: "Hardly generalizable and that they do not disprove typical mainstream axioms related to rational behavior",
+  understanding_why_behavior_occurs: "Necessary for the creation of generalizable knowledge, the goal of science",
+  experiments_and_surveys: { definition: "At risk of systemic biases , strategic behavior and lack of incentive compatibility", what_it_does: "", examples: "statistical , econometric , and computational , [ 146 ] to study economic questions" },
+  data_collected_in_experiments: "Used to estimate effect size , test the validity of economic theories, and illuminate market mechanisms",
+  many_economic_behaviors: { definition: "Not fully explained by these models, such as heuristics and framing", what_it_does: "", examples: "heightened price awareness [ 156 ] —the overall effect of constant financial stress is detrimental" },
+  trust_in_financial_institutions: { definition: "Much lower in the Global South as a result of historical experiences with inflation, bank failures and corruption", what_it_does: "", examples: "rotating savings and credit associations (ROSCAs)" },
+  selfcontrol_problems: "Especially relevant in labor markets",
+  while_noise_and_heat: { definition: "Common in urban areas of the Global South, workers often underestimate how these factors affect their productivity, reflecting bounded rationality", what_it_does: "", examples: "low self-efficacy and misperceptions about social norms contribute to this" },
+
 };
 
 // ============================================================
