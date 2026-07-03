@@ -56708,6 +56708,25 @@ const FLAT_DICT = {
   sholl_analysis: { definition: "Used to measure the number of crossings processes make at different distances from the centroid, and is a type of morphometric analysis", what_it_does: "", examples: "number of intersections, or total neurite length) contained within each shell is reported" },
   such_software: "Amenable to high-throughput studies [ 11 ] [ 12 ]",
 
+  // === INGESTED 2026-07-03 02:33 ===
+  serotonylation: { definition: "A type of monoaminylation , which itself refers to the overall class of post-translational modifications involving monoamines", what_it_does: "", examples: "neuropsychiatric disorders such as depression and schizophrenia , as well as a variety of cancers" },
+  the_neurons_of_the_raphe_nuclei: { definition: "The principal source of 5-HT release in the brain", what_it_does: "", examples: "fibromyalgia, migraine, and other pain disorders, and the efficacy of antidepressants in them" },
+  when_dominant_males: "Removed from such groups, subordinate males begin competing for dominance",
+  once_new_dominance_hierarchies: "Established, serotonin levels of the new dominant individuals also increased to double those in subordinate males and females",
+  the_reason_why_serotonin_levels: "Only high in dominant males, but not dominant females has not yet been established",
+  if_serotonin: "Released in the blood faster than the platelets can absorb it, the level of free serotonin in the blood is increased",
+  normally_serotonin: { definition: "Taken back into the presynaptic neuron to stop its action, then reused or broken down by monoamine oxidase", what_it_does: "", examples: "serotonin), and therefore increase concentrations of the neurotransmitter in the brain" },
+  the_drug_was_declining_in_use_since_it: "Reported in 2003 to be associated with cardiac fibrosis",
+  low_serotonin_signals_to_the_entamoebas_they: "Outside a host and they become less virulent to conserve energy",
+  if_lobsters: "Injected with serotonin, they behave like dominant individuals whereas octopamine causes subordinate behavior",
+  this_olfactory_response_broadening: "Demonstrated to go along with increased serotonin and dopamine , but not octopamine in 2006",
+  two_relevant_case_studies: { definition: "Also mentioned regarding serotonin development involving teleost fish and mice", what_it_does: "", examples: "the basal forebrain and pretectum" },
+  one_study_reported_serotonin_values: { definition: "Higher at dawn than at dusk", what_it_does: "", examples: "the basal forebrain" },
+  the_tphmediated_reaction: "The rate-limiting step in the pathway",
+  these_agents: "Available as dietary supplements and in various foods, and may be effective serotonergic agents",
+  one_product_of_serotonin_breakdown: "5-hydroxyindoleacetic acid (5-HIAA), which is excreted in the urine",
+  indium_tin_oxide: { definition: "Recommended for the electrode material in electrochemical investigation of concentrations produced, detected, or consumed by microbes", what_it_does: "", examples: "some other vasoactives" },
+
 };
 
 // ============================================================
