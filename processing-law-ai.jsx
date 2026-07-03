@@ -57376,6 +57376,12 @@ const FLAT_DICT = {
   and_there: "An Aethiopian eunuch , a court official of Candace, queen of the Aethiopians, who was in charge of all her treasure",
   malalas_also_wrote_that_kandake: "An Indian queen and Alexander met her during his Indian campaign",
 
+  // === INGESTED 2026-07-03 05:48 ===
+  an_early_ancestor_of_federalism: { definition: "The Achaean League in Hellenistic Greece", what_it_does: "", examples: "modern Russia )—leaving the terms 'federalist', 'federalism', 'federation', etc" },
+  the_modern_american_usage_of_the_word: "Much closer to the European sense",
+  higherorder_units: { definition: "Merely the direct expression of lower-order units delegating, combining and coordinating", what_it_does: "", examples: "social relations and the economy" },
+  asymmetric_federalism_exists_where_states: { definition: "Granted different powers, or some possess greater autonomy than others do", what_it_does: "", examples: "Navarre , Galicia , Catalonia , and the Basque Country" },
+
 };
 
 // ============================================================
