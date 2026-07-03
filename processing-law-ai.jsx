@@ -56878,6 +56878,23 @@ const FLAT_DICT = {
   purifications_or_atonement_practices: "Still performed by Acholi elders in some communities",
   tito_okellolutwa_in_uganda: { definition: "Overthrown by Museveni and his NRA rebels", what_it_does: "", examples: "the Acholi and Alur" },
 
+  // === INGESTED 2026-07-03 03:44 ===
+  an_ethnicity_or_ethnic_group: "A group of humans who identify with each other on the basis of perceived shared attributes that distinguish them from other groups",
+  the_term_ethnic_group: { definition: "First recorded in 1935 and entered the Oxford English Dictionary in 1972", what_it_does: "", examples: "anthropologists Fredrik Barth and Eric Wolf , do not consider ethnic identity to be universal" },
+  sometimes_these_contradictions: { definition: "Destructive, but they can also be creative and positive", what_it_does: "", examples: "language, race, or location" },
+  their_coherence: "Attributed to shared myths, descent, kinship , a common place of origin, language, religion, customs and national character",
+  ethnicity_is_an_important: { definition: "By which people may identify with a larger group", what_it_does: "", examples: "the anthropologists Fredrik Barth and Eric Wolf , do not consider ethnic identity to be universal" },
+  the_states_of_the_new_world: "Multi-ethnic from the onset, as they developed as settler colonies imposed on existing indigenous populations",
+  though_these_categories: { definition: "Usually discussed as belonging to the public, political sphere, they are upheld within the private, family sphere to a great extent", what_it_does: "", examples: "Britannia or Marianne" },
+  in_effect_there: { definition: "No 'ethnics'; there are only 'ethnic relations'", what_it_does: "", examples: "Johann Gottfried Herder" },
+  periods_frequently_cited_as_examples_of_this: { definition: "The 19th-century consolidation and expansion of the German Empire , and 20th-century Nazi Germany", what_it_does: "", examples: "those in Hong Kong , Shanghai and Singapore" },
+  many_of_the_smaller_groups: "Found in the Asian part of Russia (see Indigenous peoples of Siberia )",
+  the_serbian_province_of_vojvodina: "Recognizable for its multiethnic and multicultural identity",
+  in_mexico_most_mexicans: "Mestizo , a mixture of Spanish and Native American ancestry",
+  the_caribbean: "Also colonized and discovered by the Portuguese, English, Dutch and French",
+  the_indigenous_population: "Growing faster than the non-indigenous population",
+  some_of_their_residents: { definition: "Descended from mixed-race Pitcairn Islanders that were relocated onto Norfolk due to overpopulation in 1856", what_it_does: "", examples: "Baker Island , Clipperton Island , Howland Island and Jarvis Island" },
+
 };
 
 // ============================================================
