@@ -58211,6 +58211,14 @@ const FLAT_DICT = {
   four_types_of_neuroglia_found_in_the_cns: "Astrocytes , microglial cells , ependymal cells , and oligodendrocytes",
   two_types_of_neuroglia_found_in_the_pns: "Satellite glial cells and Schwann cells",
 
+  // === INGESTED 2026-07-03 16:37 ===
+  methanogenesis_or_biomethanation: "The formation of methane coupled to energy conservation by microbes known as methanogens",
+  the_production_of_methane: "An important and widespread form of microbial metabolism",
+  the_catabolism_of_the_methyl_compounds: { definition: "Mediated by methyl transferases to give methyl coenzyme M", what_it_does: "", examples: "methane seeps, hydrothermal vents, coastal sediments and sulfate-methane transition zones" },
+  the_useful_products_of_methanogenesis: "Absorbed by the gut, but methane is released from the animal mainly by belching (eructation)",
+  methanogens: "A notable part of the microbial communities in continental and marine deep biosphere",
+  if_methane: { definition: "Detected (by using a spectrometer for example) this may indicate that life is, or recently was, present", what_it_does: "", examples: "carbon dioxide, methane and ammonia" },
+
 };
 
 // ============================================================
