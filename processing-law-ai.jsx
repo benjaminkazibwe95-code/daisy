@@ -56650,6 +56650,13 @@ const FLAT_DICT = {
   the_anatomy_of_the_plexus: "Similar to the anatomy of the central nervous system",
   motility_disorders: "Divided by what they affect, with four regions: The esophagus, the stomach, the small intestines, and the large intestines",
 
+  // === INGESTED 2026-07-03 02:16 ===
+  at_the_neuromuscular_junction_they: { definition: "The primary receptor in muscle for motor nerve-muscle communication that controls muscle contraction", what_it_does: "", examples: "hexamethonium interfere with the transmission of these signals" },
+  several_different_terms: "Used to refer to the molecules that bind receptors, such as ligand , agonist, or transmitter",
+  the_binding_site: "Located in the extracellular domain near the N terminus",
+  the_nachr: { definition: "Unable to bind ACh when bound to any of the snake venom α-neurotoxins", what_it_does: "", examples: "to the regulation of activity of some genes or the release of neurotransmitters" },
+  neuronal_nachrs: { definition: "Transmembrane proteins that form pentameric structures assembled from a family of subunits composed of α 2 – α 10 and β 2 – β 4", what_it_does: "", examples: "in the human lung where epithelial and muscular pentamers largely differ" },
+
 };
 
 // ============================================================
