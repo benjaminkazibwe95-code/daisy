@@ -56438,6 +56438,12 @@ const FLAT_DICT = {
   adoption_studies_show_that_adoptees: { definition: "Routinely more similar to their biological relatives than their adoptive relatives for a wide variety of traits and disorders", what_it_does: "", examples: "positive emotionality, negative emotionality, and constraint" },
   the_risk_alleles_within_such_variants: { definition: "Exceedingly rare, such that their large behavioural effects impact only a small number of individuals", what_it_does: "", examples: "Huntington's disease" },
 
+  // === INGESTED 2026-07-03 00:59 ===
+  this_stunted_state_of_affairs: "Pointed out by Frank Beach in 1950, [ 10 ] and although it was generally agreed with him, no real change took place",
+  in_retrospect_it_can_be_seen_that_they: { definition: "Not sufficiently sophisticated, either in their analysis of the demands of different tasks, or in their choice of species to compare", what_it_does: "", examples: "Gardner (1967) successfully taught the female chimpanzee Washoe 350 words in American Sign Language" },
+  much_research_in_these_and_other_areas: { definition: "Related directly or indirectly to behaviors important to survival in natural settings, such as navigation, tool use, and numerical competence", what_it_does: "", examples: "huskies have been known to ruin gardens and houses if they are not allowed enough activity" },
+  pet_ownership: "Found to be positively associated with some forms of social contact and interaction, and with perceptions of neighborhood friendliness",
+
 };
 
 // ============================================================
