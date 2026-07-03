@@ -58610,6 +58610,23 @@ const FLAT_DICT = {
   down_quarks: "Most commonly found in atomic nuclei , where they combine with up quarks to form protons and neutrons",
   because_the_bare_mass_of_down_quarks: "So small, it cannot be straightforwardly calculated because relativistic effects have to be taken into account",
 
+  // === INGESTED 2026-07-03 18:25 ===
+  salt_became_an_important_article_of_trade_and: "Transported by boat across the Mediterranean Sea , along specially built salt roads , and across the Sahara on camel caravans",
+  slabs_of_rock_salt: "Used as coins in Abyssinia",
+  salzach: "'salt river', while Salzburg means 'salt castle', both taking their names from the German word Salz , salt",
+  hallstatt: "The site of the world's first salt mine",
+  the_voyages_of_christopher_columbus: "Said to have been financed from salt production in southern Spain",
+  the_oppressive_salt_tax_in_france: "One of the causes of the French Revolution",
+  salt_crystals: { definition: "Translucent and cubic in shape; they normally appear white but impurities may give them a blue or purple tinge", what_it_does: "", examples: "otherwise unpalatable food" },
+  table_salt: { definition: "A refined salt containing about 97 to 99 percent sodium chloride", what_it_does: "", examples: "sodium aluminosilicate or magnesium carbonate are added to make it free-flowing" },
+  when_salt: { definition: "Added during cooking however, these flavours would likely be overwhelmed by those of the food ingredients", what_it_does: "", examples: "meats, vegetables and fruit, it is present in very small quantities" },
+  dairy_salt: { definition: "Used in the preparation of butter and cheese products", what_it_does: "", examples: "with salt crusts and brining" },
+  salt_evaporation_ponds: "Filled from the ocean and salt crystals can be harvested as the water dries up",
+  about_seven_million_tons_of_salt: "Extracted from it annually",
+  the_salt: "Dug out by the room and pillar method, where about half the material is left in place to support the upper levels",
+  extraction_of_himalayan_salt: "Expected to last 350 years at the present rate of extraction of around 385,000 tons per annum",
+  the_mine: "Also a major tourist attraction, receiving around a quarter of a million visitors a year",
+
 };
 
 // ============================================================
