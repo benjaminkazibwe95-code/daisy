@@ -56802,6 +56802,12 @@ const FLAT_DICT = {
   izzy_asper: "Once leader of the Liberal Party in his home province of Manitoba",
   without_a_buyer_closing_the_paper: { definition: "Studied, but the costs were greater than gains from liquidating assets", what_it_does: "", examples: "a third of the National Post's editorial staff" },
 
+  // === INGESTED 2026-07-03 03:20 ===
+  not_much: "Known about the golden monkey's behaviour",
+  during_the_season_when_ripe_fruit: "Available, they remain in those areas",
+  results_of_studies_indicate_that_if_there: "An area consisting of mixed fruit and bamboo, the golden monkeys tend to frequent that area more than areas consisting of only bamboo",
+  during_seasons_when_ripe_fruit: { definition: "Available, the golden monkey tends to feed more on fruit", what_it_does: "", examples: "tree extraction and bamboo removal, pose serious threats" },
+
 };
 
 // ============================================================
