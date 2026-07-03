@@ -57399,6 +57399,13 @@ const FLAT_DICT = {
   the_goal_of_this_project: "To improve the speed and performance of content-rich pages which include video , animations , and graphics",
   usability_problems: "Centered on the small physical size of the mobile phone form factors , which limit display resolution and user input )",
 
+  // === INGESTED 2026-07-03 05:59 ===
+  yahoo: { definition: "Established by Jerry Yang and David Filo in January 1994 and was one of the pioneers of the early Internet era in the 1990s", what_it_does: "", examples: "Excite , Lycos , and America Online" },
+  loeb: "Nominated to the board of directors",
+  wang_xiaoning: "A Chinese dissident from Shenyang who was arrested by authorities of the People's Republic of China for publishing controversial material online",
+  is_aware_of_this_issue_and: "Working to resolve it as quickly as possible'",
+  executives: "Asked about this issue, and responded: 'We know the sale of shark products is both legal in Asia and a centuries-old tradition",
+
 };
 
 // ============================================================
