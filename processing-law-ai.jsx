@@ -57589,6 +57589,10 @@ const FLAT_DICT = {
   using_sponsored: "Exactly the same result as placing the code in an own {} block, but allows this to take place in the caller",
   one_common_source_of_errors_in_telescript: "That while a collection as a whole could be passed back in an agent, individual items within it were owned by the place",
 
+  // === INGESTED 2026-07-03 06:50 ===
+  once_the_software: "Installed on one or more machines, the private PaaS arranges the application and database components into a single hosting platform",
+  these_applications_and_their_usage: "Much more sensitive to jitter, latency and packet losses",
+
 };
 
 // ============================================================
