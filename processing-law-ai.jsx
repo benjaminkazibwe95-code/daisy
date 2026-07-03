@@ -57856,6 +57856,10 @@ const FLAT_DICT = {
   exploits_targeting_the_user_space: "Colloquially referred to as 'userland exploits'",
   some_operating_systems: "Single address space operating systems —with a single address space for all user-mode code",
 
+  // === INGESTED 2026-07-03 07:54 ===
+  the_gnu_manifesto: "Published with its title and full written form in 1985 but was updated slightly in 1987",
+  a_large_part_of_the_gnu_manifesto: "Focused on rebutting possible objections to GNU Project's goals",
+
 };
 
 // ============================================================
