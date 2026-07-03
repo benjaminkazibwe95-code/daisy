@@ -58471,6 +58471,10 @@ const FLAT_DICT = {
   the_approximate_scattered_field: "Then obtained by an integral over these approximate currents",
   the_rayoptics_field_or_current: "Generally not accurate near edges or shadow boundaries, unless supplemented by diffraction and creeping wave calculations",
 
+  // === INGESTED 2026-07-03 17:47 ===
+  his_dream: "To put sources of entangled light onto a satellite in orbit",
+  the_resulting_leggett_inequality: "Shown to be violated in the experiments of the Zeilinger group",
+
 };
 
 // ============================================================
