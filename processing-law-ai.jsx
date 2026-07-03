@@ -57371,6 +57371,11 @@ const FLAT_DICT = {
   the_europeans_all_thought_that_the_empire: "A sick man in rapid decline",
   ottoman_divan_poetry: "A highly ritualised and symbolic art form",
 
+  // === INGESTED 2026-07-03 05:46 ===
+  the_name_candace: "Derived from the way the word is used in the New Testament ( Acts 8:27 )",
+  and_there: "An Aethiopian eunuch , a court official of Candace, queen of the Aethiopians, who was in charge of all her treasure",
+  malalas_also_wrote_that_kandake: "An Indian queen and Alexander met her during his Indian campaign",
+
 };
 
 // ============================================================
