@@ -58252,6 +58252,32 @@ const FLAT_DICT = {
   vaults: "Over expressed in many multidrug resistant cancer cells",
   these_modified_proteins: "Incorporated into the inside of the vault particle without altering its basic structure",
 
+  // === INGESTED 2026-07-03 16:49 ===
+  this_integrated_solar_irradiance: "Called solar irradiation , solar radiation , solar exposure , solar insolation , or insolation",
+  irradiance_in_space: "A function of distance from the Sun, the solar cycle , and cross-cycle changes",
+  one_langley: "One thermochemical calorie per square centimetre or 41,840 J/m 2",
+  the_area_of_this_circular_disc: "Π r 2 , in which r is the radius of the Earth",
+  this_figure: "Important in radiative forcing",
+  insolation: "Essential for numerical weather prediction and understanding seasons and climatic change",
+  application_to_ice_ages: "Known as Milankovitch cycles",
+  the_most_recent_significant_event: { definition: "An axial tilt of 24° during boreal summer near the Holocene climatic optimum", what_it_does: "", examples: "at the summer solstice, the declination δ is equal to the obliquity ε" },
+  the_aperture: "Modulated via a shutter",
+  the_tim_uses_a_viewlimiting_aperture_that: "Smaller than the precision aperture that precludes this spurious signal",
+  the_new_estimate: { definition: "From better measurement rather than a change in solar output", what_it_does: "", examples: "a photovoltaic panel, partly depends on the angle of the sun relative to the panel" },
+  one_sun: "A unit of power flux , not a standard value for actual insolation",
+  sometimes_this_unit: { definition: "Referred to as a Sol, not to be confused with a sol , meaning one solar day", what_it_does: "", examples: "electricity or chemical bonds , as in the case of photovoltaic cells or plants" },
+  the_proportion_of_reflected_radiation: "The object's reflectivity or albedo",
+  insolation_onto_a_surface: "Largest when the surface directly faces (is normal to) the sun",
+  this_projection_effect: "The main reason why Earth's polar regions are much colder than equatorial regions",
+  the_optical_depth_of_the_whole_path: "Then the integral (sum) of those optical depths along the path",
+  solar_radiation_maps: "Built using databases derived from satellite imagery, as for example using visible images from Meteosat Prime satellite",
+  solar_irradiation_figures: "Used to plan the deployment of solar power systems",
+  different_solar_power_technologies: "Able to use different components of the total irradiation",
+  because_solar_collectors_panels: "Almost always mounted at an angle towards the Sun, insolation figures must be adjusted to find the amount of sunlight falling on the panel",
+  this_will_prevent_estimates_that: { definition: "Inaccurately low for winter and inaccurately high for summer", what_it_does: "", examples: "tilt, tracking and shading, to determine the expected output" },
+  field_measurement: "Accomplished using a pyranometer",
+  solar_activity_and_irradiance_measurement: "A concern for space travel",
+
 };
 
 // ============================================================
