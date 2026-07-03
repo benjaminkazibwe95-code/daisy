@@ -57561,6 +57561,22 @@ const FLAT_DICT = {
   the_coordinator_election_problem: "To choose a process from among a group of processes on different processors in a distributed system to act as the central coordinator",
   a_complementary_research_problem: "Studying the properties of a given distributed system",
 
+  // === INGESTED 2026-07-03 06:46 ===
+  the_credits: "Designed to run a 'micro' sized server, storage (EBS), and bandwidth for one year",
+  these_reservations: { definition: "Made based on an instance type and a count of that instance type", what_it_does: "", examples: "you could reserve 100 i3.large instances for a 3-year term" },
+  this_hourly_commitment: { definition: "Made using the discounted pricing of the savings plan you are purchasing", what_it_does: "", examples: "you could commit to spending $5 per hour, on a Compute Savings Plan, for a 3-year term" },
+  initial_support: "Announced for macOS Mojave and macOS Catalina running on Mac Mini",
+  the_second_option: "To use an EBS volume as a root device",
+  instancestore_volumes: { definition: "Temporary storage, which survive rebooting an EC2 instance, but when the instance is stopped or terminated (e.g", what_it_does: "", examples: "snapshotting and cloning" },
+  ebs_volumes: "Built on replicated storage, so that the failure of a single component will not cause data loss",
+  ebs: "Introduced to the general public by Amazon in August 2008",
+  the_os: "Free to use the device however it wants",
+  another_possible_use: { definition: "The creation of RAID arrays by combining two or more EBS volumes", what_it_does: "snapshots, which can be taken from a GUI tool or the API", examples: "data stored in Europe from a US East Coast EC2 instance) will be billed at Amazon's normal rates" },
+  it_exists_until_it: { definition: "Explicitly removed, and remains associated with the account even while it is associated with no instance", what_it_does: "", examples: "CPU, disk, network and replica lag for RDS Database replicas" },
+  the_vm_startup_time: "Dependent on image size, VM type, data center locations, etc",
+  these_prices: "Locked in for either a 1-year or 3-year term",
+  an_amazon_official_later_stated_that_it: { definition: "Due to a hardware failure", what_it_does: "", examples: "Foursquare , Springpad , Reddit , Quora , and Hootsuite" },
+
 };
 
 // ============================================================
