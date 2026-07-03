@@ -57031,6 +57031,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 04:26 ===
   socotra_swahili: "An extinct variety of Swahili , a Bantu language, that was formerly spoken on the island of Socotra in Yemen",
 
+  // === INGESTED 2026-07-03 04:33 ===
+  tanganyika_province: "The scene of a rebellion by the Luba -Katanga people against the independent state of Katanga",
+
 };
 
 // ============================================================
