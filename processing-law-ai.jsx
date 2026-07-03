@@ -58278,6 +58278,15 @@ const FLAT_DICT = {
   field_measurement: "Accomplished using a pyranometer",
   solar_activity_and_irradiance_measurement: "A concern for space travel",
 
+  // === INGESTED 2026-07-03 16:51 ===
+  pierre_curie: "Born on 15 May 1859 in Paris , the son of Eugène Curie (1827–1910), a doctor of Huguenot origin from Alsace , and Sophie-Claire Depouilly (1832–1897)",
+  from_the_university_of_paris_and: "Appointed Professor of Physics",
+  variations_on_this_equipment: "Commonly used by future workers in that area",
+  the_curie_temperature: { definition: "Used to study plate tectonics , treat hypothermia , measure caffeine , and to understand extraterrestrial magnetic fields", what_it_does: "", examples: "a random mixture of sand in zero gravity has no dissymmetry (it is isotropic )" },
+  i_think_they: "Questions that deal with physics.' [ 28 ] : 66 Pierre Curie's notebooks from this period show he read many books on spiritualism",
+  curie: "Introduced to Maria Skłodowska by their friend, physicist Józef Wierusz-Kowalski",
+  their_laboratory_books: "Kept in special lead boxes and people who want to see them have to wear protective clothing",
+
 };
 
 // ============================================================
