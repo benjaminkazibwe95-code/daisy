@@ -56539,6 +56539,9 @@ const FLAT_DICT = {
   the_disorder: "Characterized by progressive loss of memory and various cognitive functions",
   the_inhibitory_outflow_of_the_basal_ganglia: { definition: "Thus not decreased, and so upper motor neurons , mediated by the thalamus , are not activated in a timely manner", what_it_does: "", examples: "inappropriate activation of upper motor neurons" },
 
+  // === INGESTED 2026-07-03 01:29 ===
+  basic_books: "A book publisher founded in 1950 and located in New York City, now an imprint of Hachette Book Group",
+
 };
 
 // ============================================================
