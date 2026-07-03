@@ -57944,6 +57944,9 @@ const FLAT_DICT = {
   the_spamming_operation: "Successfully shut down",
   despite_the_statutory_tort_that: "Created by the Regulations implementing the EC Directive, few other people have followed their example",
 
+  // === INGESTED 2026-07-03 08:07 ===
+  its_overarching_goal: { definition: "To speed the translation of data into discovery and thereby the value of research", what_it_does: "", examples: "DNA , cell lines , model animals and more" },
+
 };
 
 // ============================================================
