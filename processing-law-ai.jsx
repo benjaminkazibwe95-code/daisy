@@ -57316,6 +57316,18 @@ const FLAT_DICT = {
   more_specific_figures: "Available for individual engagements, particularly the Battle of Arogee",
   the_abyssinia_expedition: "The setting for the George MacDonald Fraser novel Flashman on the March",
 
+  // === INGESTED 2026-07-03 05:37 ===
+  the_three_principal_shia_branches: "Twelverism , Isma'ilism , and Zaydism",
+  and_allah: "All-Hearing, All-Knowing",
+  shia_doctrine: { definition: "Founded on the understanding that ʿAlī was uniquely designated to lead the Muslim community after Muhammad's death in 632", what_it_does: "", examples: "Twelvers and Ismāʿīlīs , became Imamis" },
+  the_state_of_infallibility: "Based on the Shia interpretation of the verse of purification",
+  the_necessity_of_the_imam: { definition: "Therefore not merely a political convenience but a logical consequence of divine justice", what_it_does: "", examples: "Zaydism and Nizari Isma'ilism , do not believe in the idea of Occultation" },
+  a_significant_shia_minority: { definition: "Present in Nigeria , made up of modern-era converts to a Shia movement centered around Kano and Sokoto states", what_it_does: "", examples: "the Khoja" },
+  the_largest_branch: "The Twelvers , followed by the Zaydīs and the Ismāʿīlīs",
+  the_designation_twelver: "Derived from the doctrine of believing in twelve divinely ordained leaders, known as ' the Twelve Imams '",
+  twelver_shia: "Otherwise known as Imami or Jaʿfari ; the latter term derives from Jaʿfar al-Ṣādiq , the 6th Shia Imam, who elaborated the Twelver jurisprudence",
+  his_rule: "The longest of any caliph in any Islamic empire",
+
 };
 
 // ============================================================
