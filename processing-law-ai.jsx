@@ -57835,6 +57835,23 @@ const FLAT_DICT = {
   the_family_of_posix_standards: "Formally designated as IEEE 1003 and the ISO/IEC standard number is ISO / IEC 9945",
   when_richard_stallman_and_the_gnu_team: "Implementing POSIX for the GNU operating system , they objected to this on the grounds that most people think in terms of 1024 byte (or 1 KiB ) blocks",
 
+  // === INGESTED 2026-07-03 07:50 ===
+  a_supercomputer: { definition: "A type of computer with a high level of performance as compared to a general-purpose computer", what_it_does: "", examples: "simulations of aerodynamics , of the early moments of the universe, and of nuclear weapons )" },
+  the_first_such_machines: "Highly tuned conventional designs that ran quicker than their more general-purpose contemporaries",
+  but_the_partial_success_of_the_illiac_iv: { definition: "Widely seen as pointing the way to the future of supercomputing", what_it_does: "", examples: "257 Zilog Z8001 control processors and 257 iAPX 86/20 floating-point processors" },
+  similar_designs_using_custom_hardware: "Made by many companies, including the Evans & Sutherland ES-1 , MasPar , nCUBE , Intel iPSC and the Goodyear MPP",
+  heat_management: { definition: "A major issue in complex electronic devices and affects powerful computer systems in various ways", what_it_does: "", examples: "a full Linux distribution on server and I/O nodes" },
+  gpgpus_have_hundreds_of_processor_cores_and: { definition: "Programmed using programming models such as CUDA or OpenCL", what_it_does: "", examples: "fluid dynamic simulations" },
+  good_examples_of_such_challenges: "Virtualization overhead in the cloud, multi-tenancy of resources, and network latency issues",
+  much_research: "Currently being done to overcome these challenges and make HPC in the cloud a more realistic possibility",
+  pod_computing_nodes: "Connected via non-virtualized 10 Gbit/s Ethernet or QDR InfiniBand networks",
+  capability_computing: "Typically thought of as using the maximum computing power to solve a single large problem in the shortest amount of time",
+  often_a_capability_system: "Able to solve a problem of a size or complexity that no other computer can, e.g",
+  exascale: "Computing performance in the exaFLOPS (EFLOPS) range",
+  an_eflops: { definition: "One quintillion (10 18 ) FLOPS (one million TFLOPS)", what_it_does: "", examples: "the EFF DES cracker, applied to brute-force tasks like code-breaking" },
+  supercomputing_facilities: "Constructed to efficiently remove the increasing amount of heat produced by modern multi-core central processing units",
+  a_supercomputer_from_thinking_machines: "Mentioned as the supercomputer used to sequence the DNA extracted from preserved parasites in the Jurassic Park series",
+
 };
 
 // ============================================================
