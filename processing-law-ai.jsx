@@ -57860,6 +57860,15 @@ const FLAT_DICT = {
   the_gnu_manifesto: "Published with its title and full written form in 1985 but was updated slightly in 1987",
   a_large_part_of_the_gnu_manifesto: "Focused on rebutting possible objections to GNU Project's goals",
 
+  // === INGESTED 2026-07-03 07:56 ===
+  an_open_textbook: "A textbook licensed under an open license , and made available online to be freely used by students, teachers and members of the public",
+  many_open_textbooks: { definition: "Licensed to allow modification", what_it_does: "", examples: "open textbooks" },
+  a_portion_of_the_expense_of_college_textbooks: "Offset by the easy access to material provided by open source textbooks",
+  openstax: "Both a platform for locating open textbooks and an open textbook creator",
+  the_most_expensive_part_of_this_process: "Image rights clearing with cleared images becoming available for reuse in even more titles",
+  works_selected: "Intended to be suitable for medium to large academic and public libraries",
+  web_accessibility: { definition: "Defined by W3C as adherence to Web Content Accessibility Guidelines (WCAG)", what_it_does: "", examples: "the creation of open textbooks in popular subjects" },
+
 };
 
 // ============================================================
