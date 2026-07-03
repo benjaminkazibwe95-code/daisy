@@ -58201,6 +58201,11 @@ const FLAT_DICT = {
   once_they: { definition: "In the wound site, monocytes mature into macrophages", what_it_does: "", examples: "growth factors and other cytokines, especially during the third and fourth post-wound days" },
   intestinal_macrophages: "Critical in maintaining gut homeostasis",
 
+  // === INGESTED 2026-07-03 16:32 ===
+  most_spirochaetes: { definition: "Free-living and anaerobic , but there are numerous exceptions", what_it_does: "", examples: "guanine-cytosine content and genome size" },
+  these_molecular_markers: { definition: "In agreement with the observed phylogenetic tree branching of two monophyletic clades within the Spirochaetales order", what_it_does: "", examples: "pathogenicity (viz" },
+  the_distribution_of_a_csi: "Indicative of shared ancestry within the clade for which it is specific",
+
 };
 
 // ============================================================
