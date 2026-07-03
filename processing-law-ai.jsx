@@ -58351,6 +58351,32 @@ const FLAT_DICT = {
   he_observed_that_the_maximum_spark_length: "Reduced when in the box",
   his_daughter_mathilde_carmen_hertz: "A well-known biologist and comparative psychologist",
 
+  // === INGESTED 2026-07-03 17:17 ===
+  a_simple_statement_of_the_law: "That heat always flows spontaneously from hotter to colder regions of matter (or 'downhill' in terms of the temperature gradient)",
+  such_phenomena: "Accounted for in terms of entropy change",
+  a_carnot_engine_operated_in_this_way: "The most efficient possible heat engine using those two temperatures",
+  the_efficiency_of_a_normal_heat_engine: { definition: "Η and so the efficiency of the reversed heat engine is 1/ η", what_it_does: "", examples: "in the text by ter Haar and Wergeland" },
+  a_closely_related_statement: "That 'Frictional pressure never does positive work.' [ 56 ] Planck wrote: 'The production of heat by friction is irreversible",
+  a_statement_that_in_a_sense: "Complementary to Planck's principle is made by Claus Borgnakke and Richard E",
+  hatsopoulus_and_keenan_maintained_that_it: "Unlikely to identify a satisfactory definition of heat without a prior statement of the second law",
+  such_a_machine: "Called a 'perpetual motion machine of the second kind'",
+  the_reversible_case: "Used to introduce the state function entropy",
+  if_the_process: "An adiabatic process , then δ Q = 0 {\displaystyle \delta Q=0} , so Δ S ≥ 0 {\displaystyle \Delta S\geq 0}",
+  this_approach_to_the_second_law: "Widely utilized in engineering practice, environmental accounting , systems ecology , and other disciplines",
+  from_there_he: "Able to infer the principle of Sadi Carnot and the definition of entropy (1865)",
+  the_ergodic_hypothesis: "Also important for Ludwig Boltzmann 's approach",
+  that_all_accessible_microstates: "Equally probable over a long period of time",
+  the_advantage_of_this_formulation: "That it shows the effect of the entropy production",
+  the_rate_of_entropy_production: "A very important concept since it determines (limits) the efficiency of thermal machines",
+  if_heat: "Supplied to the system at several places we have to take the algebraic sum of the corresponding terms",
+  strictly_speaking_this: { definition: "That the entropy depends on the choice of δ E {\displaystyle \delta E}", what_it_does: "", examples: "refer to the total volume, the positions of pistons in the system, etc" },
+  if_y_dx: "Larger than δ E {\displaystyle \delta E} there will be the energy eigenstates that move from below E to above E + δ E {\displaystyle E+\delta E}",
+  if_the_assumption: "Justified, it can often be very valuable and useful because it makes available the theory of thermodynamics",
+  thermodynamic_operations: "Macroscopic external interventions imposed on the participating bodies, not derived from their internal properties",
+  the_thermodynamic_operation: "Externally imposed, not subject to the reversible microscopic dynamical laws that govern the constituents of the systems",
+  both_parts: "Filled with the same gas at equal temperatures and placed next to each other, separated by a wall",
+  but_if_your_theory: { definition: "Found to be against the second law of thermodynamics I can give you no hope; there is nothing for it but to collapse in deepest humiliation", what_it_does: "", examples: "energy or money , are transformed into useless, inaccessible forms of the same quantity" },
+
 };
 
 // ============================================================
