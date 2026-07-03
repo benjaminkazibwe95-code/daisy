@@ -56982,6 +56982,9 @@ const FLAT_DICT = {
   the_greatest_impact_that_it_had_on_the_war: { definition: "Probably that it gave Angola reason to join the anti-Mobutu coalition", what_it_does: "", examples: "Chadian troops" },
   prominent_among_these: "Ethnic tensions in eastern DRC, where the government still had little control",
 
+  // === INGESTED 2026-07-03 04:01 ===
+  members_of_this_community: "Known as Indian-Ugandans , Indo-Ugandans , and Indo-Pakistani Ugandans",
+
 };
 
 // ============================================================
