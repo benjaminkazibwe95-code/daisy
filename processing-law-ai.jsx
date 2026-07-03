@@ -58822,6 +58822,26 @@ const FLAT_DICT = {
   from_this_hypothesis: "Derived the whole number rule , which was the rule of thumb that atomic masses were whole-number multiples of the mass of hydrogen",
   the_ideal_formula: "FeO, but it is about Fe 0.95 O due to crystallographic vacancies",
 
+  // === INGESTED 2026-07-03 19:24 ===
+  the_resulting_solution: { definition: "Usually colorless and odorless", what_it_does: "", examples: "the metastable ones) from solutions with different concentrations" },
+  the_monohydrate_cell_dimensions: "A = 1.1825, b = 0.6213, c = 0.6069 nm",
+  adjacent_o_layers: { definition: "Held together by hydrogen bonds between water molecules", what_it_does: "", examples: "sulfur dioxide" },
+  flasks_and_glasslined_chemical_reactors: "Damaged by long exposure to hot sodium hydroxide, which also frosts the glass",
+  the_following_colours: "Observed: Zinc and lead salts dissolve in excess sodium hydroxide to give a clear solution of Na 2 ZnO 2 or Na 2 PbO 2",
+  aluminium_hydroxide: { definition: "Prepared at the treatment plant from aluminium sulfate by reacting it with sodium hydroxide or bicarbonate", what_it_does: "", examples: "sebum are converted to soap" },
+  sodium_hydroxide: "First prepared by soap makers",
+  solid_sodium_hydroxide: { definition: "Most commonly sold as flakes, prills , and cast blocks", what_it_does: "was called causticizing", examples: "" },
+  the_byproducts: "Hydrogen gas and heat, often resulting in a flame",
+  the_waste_which_is_formed: "Toxic and difficult to deal with, and the process is banned in many countries because of this",
+  if_a_dilute_solution: "Spilled on the skin, burns may result if the area is not washed thoroughly and for several minutes with running water",
+  sodium_aluminate_is_an_inorganic_chemical_that: { definition: "Used as an effective source of aluminium hydroxide for many industrial and technical applications", what_it_does: "", examples: "iron oxides behind in the form of a highly alkaline red mud" },
+  other_amphoteric_metals: "Zinc and lead which dissolve in concentrated sodium hydroxide solutions to give sodium zincate and sodium plumbate respectively",
+  a_sodium_hydroxide_soak_solution: "Used as a powerful degreaser on stainless steel and glass bakeware",
+  a_common_use_of_sodium_hydroxide: "In the production of parts washer detergents",
+  dissolving_sodium_hydroxide_in_water: "An exothermic reaction producing considerable quantities of heat which assists in speeding up the reactions with grease and other organic matter",
+  sodium_hydroxide_relaxers: "Still available, but they are used mostly by professionals",
+  a_solution_of_sodium_hydroxide_in_water: "Traditionally used as the most common paint stripper on wooden objects",
+
 };
 
 // ============================================================
