@@ -58577,6 +58577,24 @@ const FLAT_DICT = {
   one_such_property: "The piezoelectric effect , where a voltage across the crystal can shrink or stretch it",
   large_numbers_of_known_crystal_structures: "Stored in crystallographic databases",
 
+  // === INGESTED 2026-07-03 18:12 ===
+  the_word_gas: "First used by the early 17th-century Brabantian or Southern Netherlandish chemist Jan Baptist van Helmont",
+  gas_particles: { definition: "Widely separated from one another, and consequently, have weaker intermolecular bonds than liquids or solids", what_it_does: "", examples: "Robert Boyle studied pneumatic chemistry for a small portion of his career" },
+  he_observed_that_when_the_pressure: "Increased in the gas, by adding more mercury to the column, the trapped gas' volume decreased (this is known as an inverse relationship)",
+  his_results_were_possible_because_he: "Studying gases in relatively low pressure situations where they behaved in an 'ideal' manner",
+  the_speed_of_a_gas_particle: "Proportional to its absolute temperature",
+  the_temperature_of_any_physical_system: "Related to the motions of the particles (molecules and atoms) which make up the [gas] system",
+  the_methods_of_storing_this_energy: "Dictated by the degrees of freedom of the molecule itself ( energy modes )",
+  the_variance_of_this_distribution: "Due to the speeds of individual particles constantly varying, due to repeated collisions with other particles",
+  this_variation_of_density: "Referred to as compressibility",
+  this_microscopic_view_of_gas: "Well-described by statistical mechanics , but it can be described by many different theories",
+  as_the_box: { definition: "Further heated (as more energy is added), the individual particles increase their average speed as the system's total internal energy increases", what_it_does: "", examples: "translation, rotation, and vibration" },
+  an_ideal_gas: { definition: "A simplified 'real gas' with the assumption that the compressibility factor Z is set to 1 meaning that this pneumatic ratio remains constant", what_it_does: "", examples: "the specific heat ratio , γ" },
+  historically_such_gases: "Thought to be impossible to liquefy and would therefore permanently remain in the gaseous state",
+  gaylussac_himself: "Credited with the law describing pressure, which he found in 1809",
+  this_layer_of_particles: "Called the boundary layer",
+  it_also_implies_that_external_forces: "Balanced (volume does not change), and all chemical reactions within the system are complete",
+
 };
 
 // ============================================================
