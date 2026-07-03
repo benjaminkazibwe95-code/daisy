@@ -56574,6 +56574,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 01:42 ===
   segerstrom: "A professor of Psychology and biostatistician at the University of Kentucky",
 
+  // === INGESTED 2026-07-03 01:44 ===
+  subhash_kak: { definition: "An Indian-American computer scientist and Hindutva historical revisionist", what_it_does: "", examples: "Michael Witzel , [ 6 ] and the noted historian of mathematics Kim Plofker" },
+
 };
 
 // ============================================================
