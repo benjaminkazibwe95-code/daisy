@@ -58377,6 +58377,27 @@ const FLAT_DICT = {
   both_parts: "Filled with the same gas at equal temperatures and placed next to each other, separated by a wall",
   but_if_your_theory: { definition: "Found to be against the second law of thermodynamics I can give you no hope; there is nothing for it but to collapse in deepest humiliation", what_it_does: "", examples: "energy or money , are transformed into useless, inaccessible forms of the same quantity" },
 
+  // === INGESTED 2026-07-03 17:21 ===
+  mechanical_engineering: "The study of physical machines and mechanisms that may involve force and movement",
+  the_six_classic_simple_machines: "Known in the ancient Near East",
+  the_geared_antikythera_mechanisms: "An Analog computer invented around the 2nd century BC",
+  in_italy_the_course_work: "Based on five years of education, and training, but in order to qualify as an Engineer one has to pass a state exam at the end of the course",
+  in_the_us_it: { definition: "Common for mechanical engineering students to complete one or more internships while studying, though this is not typically mandated by the university", what_it_does: "", examples: "tools, engines, and machines" },
+  the_median_income: "Highest when working for the government ($92,030), and lowest in education ($57,090)",
+  several_of_these_subdisciplines_which: "Typically taught at the undergraduate level are listed below, with a brief explanation and the most common application of each",
+  some_of_these_subdisciplines: "Unique to mechanical engineering, while others are a combination of mechanical engineering and one or more other disciplines",
+  several_specialized_subdisciplines: "Discussed in this section",
+  if_the_engineering_project: "The design of a vehicle, statics might be employed to design the frame of the vehicle, in order to evaluate where the stresses will be most intense",
+  structural_analysis: { definition: "Often used by mechanical engineers after a failure has occurred, or when designing to prevent failure", what_it_does: "", examples: "those published by ASM [ 61 ] to aid them in determining the type of failure and possible causes" },
+  once_theory: "Applied to a mechanical design, physical testing is often performed to verify calculated results",
+  drafting: { definition: "Used in nearly every subdiscipline of mechanical engineering, and by many other branches of engineering and architecture", what_it_does: "", examples: "2D and 3D solid modeling computer-aided design (CAD)" },
+  mechatronic_concepts: "Used in the majority of electro-mechanical systems",
+  one_speculative_goal: "To create a molecular assembler to build molecules and materials via mechanosynthesis ; however, that goal remains within exploratory engineering",
+  finite_element_analysis: { definition: "A computational tool used to estimate stress, strain, and deflection of solid bodies", what_it_does: "", examples: "NASTRAN , ANSYS , and ABAQUS are widely used in industry for research and the design of components" },
+  the_structure_of_bone_matter: "Optimized for its purpose of bearing a large amount of compressive stress per unit weight",
+  initial_validation_of_such_software: "Performed using a wind tunnel with the final validation coming in full-scale testing, e.g",
+  acoustical_engineering: "The study of sound and vibration",
+
 };
 
 // ============================================================
