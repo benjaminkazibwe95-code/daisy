@@ -58909,6 +58909,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 19:54 ===
   his_wife_valentina: { definition: "The daughter of Revolutionary hero Mykola Shchors", what_it_does: "", examples: "the Landau-Khalatnikov theory of superfluidity" },
 
+  // === INGESTED 2026-07-03 19:56 ===
+  the_advanced_ligo_proposal: "Developed while Barish was director, and he has continued to play a leading role in LIGO and Advanced LIGO",
+  barish: { definition: "Honored as a Titan of Physics in the On the Shoulders of Giants [ 29 ] series at the 2016 World Science Festival", what_it_does: "", examples: "groundbreaking research on sub-atomic particles" },
+
 };
 
 // ============================================================
