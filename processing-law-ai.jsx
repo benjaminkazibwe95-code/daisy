@@ -57305,6 +57305,17 @@ const FLAT_DICT = {
   the_latter_two: "Themselves landlocked between each other, Württemberg, and Baden",
   the_free_city_of_frankfurt_which: "Independent between 1815 and 1866 was doubly landlocked as it bordered the Electorate of Hesse , the Grand Duchy of Hesse, Hesse-Homburg , and Nassau",
 
+  // === INGESTED 2026-07-03 05:35 ===
+  the_formidable_obstacles_to_the_action: "Overcome by the commander of the expedition, General Robert Napier , who captured the Ethiopian capital, and rescued all the hostages",
+  this_was_a_very_unusual_decision_as_it: { definition: "The first time a campaign had been entrusted to an officer from the Corps of Royal Engineers", what_it_does: "", examples: "the elephants" },
+  when_his_death: "Announced, resistance from the defenders ceased",
+  a_strange_smile: { definition: "On the remarkably young and attractive-looking face, and I was struck particularly by the finely drawn, boldly aquiline nose", what_it_does: "", examples: "its churches, as a punitive measure" },
+  several_artifacts: "Uncovered including pottery, coins and stone columns",
+  general_napier: "Also made Knight Grand Cross of the Order of the Bath (GCB) on 27 April 1868",
+  kirkham: "Instrumental in training Ethiopian troops to Western military standards, raising and drilling what became known as the Emperor's Disciplined Force",
+  more_specific_figures: "Available for individual engagements, particularly the Battle of Arogee",
+  the_abyssinia_expedition: "The setting for the George MacDonald Fraser novel Flashman on the March",
+
 };
 
 // ============================================================
