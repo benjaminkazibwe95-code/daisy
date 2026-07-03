@@ -56430,6 +56430,14 @@ const FLAT_DICT = {
   selfcontrol_problems: "Especially relevant in labor markets",
   while_noise_and_heat: { definition: "Common in urban areas of the Global South, workers often underestimate how these factors affect their productivity, reflecting bounded rationality", what_it_does: "", examples: "low self-efficacy and misperceptions about social norms contribute to this" },
 
+  // === INGESTED 2026-07-03 00:49 ===
+  behavioural_genetics: { definition: "Thereby discredited through its association to eugenics", what_it_does: "", examples: "twin studies and adoption studies" },
+  an_important_assumption_of_the_twin_model: { definition: "The equal environment assumption [ 27 ] that monozygotic twins have the same shared environmental experiences as dizygotic twins", what_it_does: "", examples: "mental disorder , cognitive ability , personality , and so on" },
+  a_simple_demonstration_of_this_fact: "That measures of 'environmental' influence are heritable",
+  it_could_be_because_the_children: "Modelling their parents' behaviour",
+  adoption_studies_show_that_adoptees: { definition: "Routinely more similar to their biological relatives than their adoptive relatives for a wide variety of traits and disorders", what_it_does: "", examples: "positive emotionality, negative emotionality, and constraint" },
+  the_risk_alleles_within_such_variants: { definition: "Exceedingly rare, such that their large behavioural effects impact only a small number of individuals", what_it_does: "", examples: "Huntington's disease" },
+
 };
 
 // ============================================================
