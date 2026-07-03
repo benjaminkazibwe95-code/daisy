@@ -58659,6 +58659,37 @@ const FLAT_DICT = {
   only_a_few_representatives: "Given, as the number of polyatomic ions encountered in practice is very large",
   an_important_case_of_these_compounds: "Zwitterions , which are neutral compounds but have opposing formal charges within the same molecule",
 
+  // === INGESTED 2026-07-03 18:33 ===
+  a_polymer: { definition: "A substance composed of macromolecules", what_it_does: "", examples: "DNA and proteins that are fundamental to biological structure and function" },
+  polyisoprene_of_latex_rubber: "An example of a natural polymer, and the polystyrene of styrofoam is an example of a synthetic polymer",
+  the_distinct_piece_of_each_monomer_that: "Incorporated into the polymer is known as a repeat unit or monomer residue",
+  synthetic_methods: { definition: "Generally divided into two categories, step-growth polymerization and chain polymerization", what_it_does: "", examples: "in polyester" },
+  many_commercially_important_polymers: "Synthesized by chemical modification of naturally occurring polymers",
+  polymer_nomenclature: { definition: "Generally based upon the type of monomer residues comprising the polymer", what_it_does: "", examples: "polynucleotides such as DNA are composed of four types of nucleotide subunits" },
+  while_branched_and_unbranched_polymers: "Usually thermoplastics, many elastomers have a wide-meshed cross-linking between the 'main chains'",
+  crosslinks_and_branches: "Shown as red dots in the figures",
+  highly_branched_polymers: { definition: "Amorphous and the molecules in the solid interact randomly", what_it_does: "", examples: "living polymerization" },
+  a_common: { definition: "Of expressing the length of a chain is the degree of polymerization , which quantifies the number of monomers incorporated into the chain", what_it_does: "", examples: "van der Waals attractions and entanglements that come with increased chain length" },
+  copolymers: "Classified either as statistical copolymers, alternating copolymers, block copolymers, graft copolymers or gradient copolymers",
+  tacticity: "The relative stereochemistry of chiral centers in neighboring structural units within a macromolecule",
+  polymer_morphology_generally: "The arrangement and microscale ordering of polymer chains in space",
+  few_synthetic_polymers: "Entirely crystalline",
+  polymers_with_microcrystalline_regions: "Generally tougher (can be bent more without breaking) and more impact-resistant than totally amorphous polymers",
+  the_space_occupied_by_a_polymer_molecule: "Generally expressed in terms of radius of gyration , which is an average distance from the center of mass of the chain to the chain itself",
+  the_bulk_properties_of_a_polymer: "Those most often of end-use interest",
+  the_modulus: "Strongly dependent on temperature",
+  viscoelasticity: { definition: "A complex time-dependent elastic response, which will exhibit hysteresis in the stress-strain curve when the load is removed", what_it_does: "", examples: "diffusivity describe how rapidly molecules move through the polymer matrix" },
+  the_transition_between_the_states: "Known as a coil–globule transition",
+  a_good_example_of_the_action_of_plasticizers: "Related to polyvinylchlorides or PVCs",
+  plasticized_pvc: "Used in clothing for a flexible quality",
+  plasticizers: { definition: "Also put in some types of cling film to make the polymer more flexible", what_it_does: "", examples: "polyethylene interact only through weak Van der Waals forces" },
+  overall_the_chemical_properties_of_a_polymer: "Important elements for designing new polymeric material products",
+  these_polymers_have_a_high_surface_quality_and: { definition: "Also highly transparent so that the laser properties are dominated by the laser dye used to dope the polymer matrix", what_it_does: "", examples: "polythiophenes" },
+  the_trivial_name: { definition: "Assigned based on historical precedent or popular usage rather than a standardized naming convention", what_it_does: "", examples: "heat , light , and the presence of certain chemicals , oxygen, and enzymes" },
+  this_change_in_properties: "Often the result of bond breaking in the polymer backbone ( chain scission ) which may occur at the chain ends or at random positions in the chain",
+  although_such_changes: { definition: "Frequently undesirable, in some cases, such as biodegradation and recycling , they may be intended to prevent environmental pollution", what_it_does: "", examples: "polydimethylsiloxane and are therefore not ideal for most high-temperature applications" },
+  one_of_the_oldest_known_failure_modes: "Ozone cracking caused by chain scission when ozone gas attacks susceptible elastomers , such as natural rubber and nitrile rubber",
+
 };
 
 // ============================================================
