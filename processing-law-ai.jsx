@@ -56895,6 +56895,14 @@ const FLAT_DICT = {
   the_indigenous_population: "Growing faster than the non-indigenous population",
   some_of_their_residents: { definition: "Descended from mixed-race Pitcairn Islanders that were relocated onto Norfolk due to overpopulation in 1856", what_it_does: "", examples: "Baker Island , Clipperton Island , Howland Island and Jarvis Island" },
 
+  // === INGESTED 2026-07-03 03:46 ===
+  the_total_number_of_bantu_languages: "Estimated at between 440 and 680 distinct languages, depending on the definition of 'language' versus 'dialect'",
+  the_most_widely_used_classification: "An alphanumeric coding system developed by Malcolm Guthrie in his 1948 classification of the Bantu languages",
+  northwest_bantu: "Not a coherent family, but even for Central Bantu the evidence is lexical, with little evidence that it is a historically valid group",
+  the_class_is_indicated_by_a_prefix_that: "Part of the noun, as well as agreement markers on verb and qualificative roots connected with the noun",
+  similar_effects: { definition: "Seen in loanwords for other non-African CV languages like Japanese", what_it_does: "", examples: "Kiswahili and Rutooro , Bantu languages are tonal and have two to four register tones" },
+  in_a_few_cases_prefixes: "Used to distinguish languages with the same root in their name, such as Tshilubà and Kiluba (both Luba ), Umbundu and Kimbundu (both Mbundu )",
+
 };
 
 // ============================================================
