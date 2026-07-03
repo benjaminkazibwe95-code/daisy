@@ -58549,6 +58549,34 @@ const FLAT_DICT = {
   each_carbon_atom: { definition: "Tetravalent (valence 4), but has oxidation state −1", what_it_does: "", examples: "in dichloromethane , CH 2 Cl 2 , carbon has valence 4 but oxidation state 0" },
   maximum_valences_for_the_elements: "Based on the data from list of oxidation states of the elements",
 
+  // === INGESTED 2026-07-03 18:10 ===
+  most_inorganic_solids: "Not crystals but polycrystals , i.e",
+  a_third_category_of_solids: "Amorphous solids , where the atoms have no periodic structure whatsoever",
+  a_crystal: "A solid where the atoms form a periodic arrangement",
+  most_macroscopic_inorganic_solids: "Polycrystalline, including almost all metals , ceramics , ice , rocks , etc",
+  solids_that: "Neither crystalline nor polycrystalline, such as glass , are called amorphous solids , also called glassy , vitreous, or noncrystalline",
+  the_unit_cells: "Stacked in three-dimensional space to form the crystal",
+  the_symmetry_of_a_crystal: { definition: "Constrained by the requirement that the unit cells stack perfectly with no gaps", what_it_does: "", examples: "ordinary water ice )" },
+  euhedral_crystals: "Those that have obvious, well-formed flat faces",
+  a_crystallographic_form: "Described by placing the Miller indices of one of its faces within brackets",
+  the_cubic_and_octahedral_forms: "Examples of closed forms",
+  all_the_forms_of_the_isometric_system: "Closed, while all the forms of the monoclinic and triclinic crystal systems are open",
+  the_vast_majority_of_igneous_rocks: { definition: "Formed from molten magma and the degree of crystallization depends primarily on the conditions under which they solidified", what_it_does: "", examples: "marbles , mica-schists and quartzites , are recrystallized" },
+  another_unusual_property_of_water: "That it expands rather than contracts when it crystallizes",
+  the_different_polymorphs: { definition: "Usually called different phases", what_it_does: "", examples: "diamond is the hardest substance known, while graphite is so soft that it is used as a lubricant" },
+  polymorphism_in_steel: "Responsible for its ability to be heat treated , giving it a wide range of properties",
+  polyamorphism: "A similar phenomenon where the same atoms can exist in more than one amorphous solid form",
+  crystallization: { definition: "The process of forming a crystalline structure from a fluid or from materials dissolved in a fluid", what_it_does: "", examples: "hydrothermal synthesis , sublimation , or simply solvent-based crystallization" },
+  dislocations: "Especially important in materials science , because they help determine the mechanical strength of materials",
+  another_common_type_of_crystallographic_defect: "An impurity , meaning that the 'wrong' type of atom is present in a crystal",
+  twinning: "A phenomenon somewhere between a crystallographic defect and a grain boundary",
+  mosaicity: { definition: "A spread of crystal plane orientations", what_it_does: "", examples: "metallic bonds , ionic bonds , covalent bonds , van der Waals bonds , and others" },
+  ionic_materials: { definition: "Usually crystalline or polycrystalline", what_it_does: "", examples: "oxides like aluminium oxide found in many gemstones such as ruby and synthetic sapphire" },
+  this_leads_to_crystals_that: { definition: "Much softer and more easily pulled apart or broken", what_it_does: "", examples: "chocolates, candles, or viruses" },
+  water_ice_and_dry_ice: "Examples of other materials with molecular bonding",
+  one_such_property: "The piezoelectric effect , where a voltage across the crystal can shrink or stretch it",
+  large_numbers_of_known_crystal_structures: "Stored in crystallographic databases",
+
 };
 
 // ============================================================
