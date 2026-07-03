@@ -57041,6 +57041,34 @@ const FLAT_DICT = {
   ancient_greeks_thought_that_all_nongreeks: "Uncultured and so called them ' barbarians ', which eventually gave rise to the exonym ' Berber '",
   when_the_city: "First settled by English people , in the early 17th century, both names were in use",
 
+  // === INGESTED 2026-07-03 04:37 ===
+  the_relocation_process_to_dodoma: { definition: "Completed, although Dar es Salaam continued to be the location of most government offices", what_it_does: "", examples: "parts of the harbour and streets going back to colonial times, still exist" },
+  the_botanical_gardens_now: "Close to the National Museum of Tanzania",
+  kinondoni: "The most populated of the districts",
+  to_the_east: "The Port of Dar es Salaam, the largest port in the country",
+  temeke: "Believed to have the largest concentration of low-income residents due to industry",
+  this_district: "Characterised with a lot of potential social and economic centres such as industries i.e",
+  access_to_the_suburb: "Mainly by ferry, although the Kigamboni Bridge provides an alternative",
+  the_average_private_household_size: "3.9 persons compared to the national average of 4.7",
+  the_literacy_rate_in_the_city: "96%, while the national average was 78%",
+  the_dar_es_salaam_central_business_district: "The largest in Tanzania and comprises the Kisutu , Kivukoni , Upanga and Kariakoo areas",
+  kivukoni: "Home to the Tanzania Central Bank, The Bank of Tanzania , the Dar es Salaam Stock Exchange and the city's important Magogoni fish market",
+  the_metro_buses: "Managed by UDA-RT, a partnership between Usafiri Dar es Salaam (UDA) and the government",
+  the_train: "Capable of cruising speeds of 160 km/hour or 99 miles/hour",
+  the_main_terminal: "Located west of Dar es Salaam's central business district in north Yombo Vituka along the Nelson Mandela Road",
+  tanzania_standard_gauge_railway: "A new railway station currently under construction",
+  the_julius_nyerere_international_airport: "The principal airport serving the country, with three operating terminals",
+  terminal_three: "Located at Kipawa in Ilala Municipality",
+  the_music_scene_in_dar_es_salaam: "Divided among several styles",
+  the_longeststanding_style: "Live dance music ( muziki wa dansi ) played by bands such as DDC Mlimani Park Orchestra and Malaika Musical Band",
+  close_to_the_national_museum: "Also the botanical gardens , with tropical plants and trees",
+  azam_complex_chamazi: "Owned by Azam Football Club",
+  outside_of_the_metropolitan_districts: "Lugalo Military Golf Course located in the Lugalo Military Barracks",
+  tanzanian_professional_boxer_francis_checka: "The current World Boxing Federation (WBF) Super Middleweight Champion",
+  newspapers_in_dar_es_salaam: "Often sold by vendors weaving through stationary traffic at road intersections",
+  business_times: "The only financial and economic newspaper in the city; it was established in 1988 and became the first private newspaper in Tanzania",
+  the_expressed_aim_of_the_seacom_cable: { definition: "To enable East Africa to develop economically through increased online trading", what_it_does: "", examples: "cholera and skin infection, and are a barrier to reducing poverty" },
+
 };
 
 // ============================================================
