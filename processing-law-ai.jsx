@@ -56702,6 +56702,12 @@ const FLAT_DICT = {
   neurotherapy_is_a_medical_treatment_that: { definition: "The targeted systemic administration of an energetic stimulus or chemical agent to a specific neurological area", what_it_does: "", examples: "clinical psychology" },
   cases_involving_these_symptoms: { definition: "Classified as functional disorders ('functional' in this context is usually contrasted with the old term ' organic disease ')", what_it_does: "", examples: "functional seizures , numbness , paresthesia , and weakness , among others" },
 
+  // === INGESTED 2026-07-03 02:31 ===
+  sholl_also_realized_his_method: "Useful to determine where and how big is the region where synapses are possible, something he called the neuron's 'connective zone'",
+  the_maximum_value_of_the_polynomial: "Calculated and used in place of the Dendrite Maximum",
+  sholl_analysis: { definition: "Used to measure the number of crossings processes make at different distances from the centroid, and is a type of morphometric analysis", what_it_does: "", examples: "number of intersections, or total neurite length) contained within each shell is reported" },
+  such_software: "Amenable to high-throughput studies [ 11 ] [ 12 ]",
+
 };
 
 // ============================================================
