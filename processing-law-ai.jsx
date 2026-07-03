@@ -57957,6 +57957,22 @@ const FLAT_DICT = {
   one_of_the_principal_findings_of_the_review: "That there is no comparable body to JISC within the UK, and internationally its reputation is outstanding as a strategic leader and partner",
   jisc_explained_that_the_move: "Taken due to 'recent events that are incompatible with our values as an organisation'",
 
+  // === INGESTED 2026-07-03 08:12 ===
+  software_development: "The process of designing, creating, testing, and maintaining software applications to meet specific user needs or business objectives",
+  common_types_of_tools: "Compilers , integrated development environments (IDEs), and version control",
+  each_of_the_available_methodologies: "Best suited to specific kinds of projects, based on various technical, organizational, project, and team considerations",
+  design_often_involves_people_who: "Expert in aspects such as database design , screen architecture, and the performance of servers and other hardware",
+  cohesive_software_has_various_components_that: "Independent from each other",
+  code_refactoring: "A technique for restructuring existing code without changing its external behavior, often to improve its design, readability, or maintainability",
+  efficient_communications_between_team_members: "Essential to success",
+  this_is_more_easily_achieved_if_the_team: "Small, used to working together, and located near each other",
+  although_workers_for_proprietary_software: { definition: "Paid, most contributors to open-source software are volunteers", what_it_does: "", examples: "services and modifications to open source software" },
+  the_process_of_generating_estimations: "Often delegated by the project manager",
+  whenever_a_new_version: "Checked in, the software saves a backup of all modified files",
+  if_multiple_programmers: "Working on the software simultaneously, it manages the merging of their code changes",
+  the_software_highlights_cases_where_there: "A conflict between two sets of changes and allows programmers to fix the conflict",
+  the_purpose_of_viewpoints_and_views: "To enable human engineers to comprehend very complex systems and to organize the elements of the problem around domains of expertise",
+
 };
 
 // ============================================================
