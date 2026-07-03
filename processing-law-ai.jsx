@@ -57296,6 +57296,15 @@ const FLAT_DICT = {
   these_lessused_series: "Shown with a dark gray background in the chart",
   since_such_minimal_pairs: "Very rare, this presents no problem to readers of the language",
 
+  // === INGESTED 2026-07-03 05:33 ===
+  a_landlocked_country: "A country that has no coastlines on the world ocean",
+  some_landlocked_countries_in_europe: "Affluent, such as Andorra , Austria , Liechtenstein , Luxembourg , San Marino , Switzerland , and Vatican City",
+  the_wish_to_gain_control_of_a_warmwater_port: { definition: "A major motivator of Russian expansion towards the Baltic Sea , Black Sea , and Pacific Ocean", what_it_does: "", examples: "the Caspian Sea and the Dead Sea" },
+  since_these_seas: "In effect lakes without access to wider seaborne trade, countries such as Kazakhstan are still considered landlocked",
+  although_the_caspian_sea: "Connected to the Black Sea via the man-made Volga–Don Canal , large oceangoing ships are unable to traverse it",
+  the_latter_two: "Themselves landlocked between each other, Württemberg, and Baden",
+  the_free_city_of_frankfurt_which: "Independent between 1815 and 1866 was doubly landlocked as it bordered the Electorate of Hesse , the Grand Duchy of Hesse, Hesse-Homburg , and Nassau",
+
 };
 
 // ============================================================
