@@ -58071,6 +58071,19 @@ const FLAT_DICT = {
   one_of_the_most_damaging: "The flour mite , which is found in grain and may become exceedingly abundant in poorly stored material",
   the_earliest_approach: { definition: "Mechanical, from ploughing to picking off insects by hand", what_it_does: "", examples: "pyrethrum , derris , quassia , and tobacco extract" },
 
+  // === INGESTED 2026-07-03 08:29 ===
+  the_center_states_that_it: { definition: "Designated by NIH as a Center for Excellence in Ethical, Legal and Social Issues (ELSI) in Genetics", what_it_does: "", examples: "medicine, law, engineering, history, political science, economics, and sociology" },
+  humanities_center_scholars: "On the forefront of innovation with access to new digital tools to interpret the human experience",
+  the_current_director: "Professor Christopher D",
+  research_accomplishments_at_sail: "Many, including in the fields of speech recognition and robotics",
+  ces: "Founded by Tom Byers and Charles A",
+  the_reopening_of_the_facility: "Celebrated in the Spring of 2005 with the CCRMA: newStage Festival",
+  ccrma: "Affiliated with the Center for Computer Assisted Research in the Humanities (CCARH), also located at Stanford",
+  the_place_where_the_clayman_institute: "Located was renamed the Carolyn Lewis Attneave House in 2019",
+  irwg: "Renamed in honor of Michelle R",
+  fellowships_are_awarded_to_students_who: "In the writing stages of their dissertations, and whose research focuses on women and/or gender",
+  stanford_hai: "Founded in 2019 by Fei-Fei Li , John Etchemendy , James Landay , and Chris Manning",
+
 };
 
 // ============================================================
