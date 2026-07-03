@@ -56808,6 +56808,15 @@ const FLAT_DICT = {
   results_of_studies_indicate_that_if_there: "An area consisting of mixed fruit and bamboo, the golden monkeys tend to frequent that area more than areas consisting of only bamboo",
   during_seasons_when_ripe_fruit: { definition: "Available, the golden monkey tends to feed more on fruit", what_it_does: "", examples: "tree extraction and bamboo removal, pose serious threats" },
 
+  // === INGESTED 2026-07-03 03:22 ===
+  other_friendships: "With explorers Henry Morton Stanley , Roderick Murchison , John H",
+  samuel_white_baker: "Born on 8 June 1821 in London, as the offspring of a wealthy commercial family",
+  after_that_project: "Completed he spent some months on a tour of south-eastern Europe and Asia Minor",
+  possibly_it_was_there_that_she: "Adopted by an Armenian family with name Finnian (or Finnin)",
+  later_she: "Abducted and sold to an Armenian slave merchant, who groomed her for the Harem",
+  baker_lived_as_a_reputed_victorian_nimrod_and: "A milestone in the history of modern hunting through his works and deeds",
+  he_was_proud_of_his_british_heritage_and: "An advocate of the virtues of his nation, and a fighter against slavery in Northern Uganda at Fort Patiko",
+
 };
 
 // ============================================================
