@@ -58330,6 +58330,20 @@ const FLAT_DICT = {
   in_his_professional_writings_kilgour: { definition: "One of the earliest proponents of applying computerization to librarianship", what_it_does: "", examples: "catalog card production" },
   kilgour: "The author of 205 scholarly papers",
 
+  // === INGESTED 2026-07-03 17:11 ===
+  amber: "Fossilized tree resin",
+  the_word_referred_to_what: { definition: "Now known as ambergris ( ambre gris or 'gray amber'), a solid waxy substance derived from the sperm whale", what_it_does: "", examples: "allingite , beckerite , gedanite , kochenite , krantzite , and stantienite" },
+  the_final_luster: "Given by polishing with flannel",
+  baltic_amber: { definition: "Found as irregular nodules in marine glauconitic sand, known as blue earth , occurring in Upper Eocene strata of Sambia in Prussia", what_it_does: "", examples: "glacial drift" },
+  as_well_as_the_usual_yelloworangebrown_that: "Associated with the color 'amber', amber can range from a whitish color through a pale lemon yellow, to brown and almost black",
+  much_of_the_most_highly_prized_amber: "Transparent, in contrast to the very common cloudy amber and opaque amber",
+  this_kind_of_amber: { definition: "Known as 'bony amber'", what_it_does: "", examples: "communic or ozic acids" },
+  many_remarkable_insects_and_spiders: "Recently discovered in the amber of Jordan including the oldest zorapterans , clerid beetles , umenocoleid roaches , and achiliid planthoppers",
+  it_is_improbable_that_the_production_of_amber: "Limited to a single species; and indeed a large number of conifers belonging to different genera are represented in the amber-flora",
+  scientifically_this: { definition: "As yet impossible, since no amber with fossilized mosquitoes has ever yielded preserved blood", what_it_does: "", examples: "perfume , do not normally use actual amber because fossilized amber produces very little scent" },
+  benzoin: "Usually part of the recipe",
+  vanilla_and_cloves: "Sometimes used to enhance the aroma",
+
 };
 
 // ============================================================
