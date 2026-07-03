@@ -57720,6 +57720,16 @@ const FLAT_DICT = {
   embedded_systems: "Found in many devices from a small FM radio to the space shuttle",
   an_example_of_this_specialty: { definition: "Work done on reducing the power consumption of VLSI algorithms and architecture", what_it_does: "", examples: "speech recognition and synthesis, medical and scientific imaging, or communications systems" },
 
+  // === INGESTED 2026-07-03 07:16 ===
+  the_history_of_software: "Closely tied to the development of digital computers in the mid-20th century",
+  early_programs: "Written in the machine language specific to the hardware",
+  software_in_a_programming_language: "Run through a compiler or interpreter to execute on the architecture's hardware",
+  software_quality_assurance_and_security: "Critical aspects of software development, as bugs and security vulnerabilities can lead to system failures and security breaches",
+  traditional_applications: "Purchased with a perpetual license for a specific version of the software, downloaded, and run on hardware belonging to the purchaser",
+  a_challenge: { definition: "That software development effort estimation is often inaccurate", what_it_does: "", examples: "a change request" },
+  postrelease_software_maintenance: { definition: "Necessary to remediate these bugs when they are found and keep the software working as the environment changes over time", what_it_does: "", examples: "injury or death" },
+  the_underlying_ideas_or_algorithms: "Not protected by copyright law, but are sometimes treated as a trade secret and concealed by such methods as non-disclosure agreements",
+
 };
 
 // ============================================================
