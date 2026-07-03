@@ -56638,6 +56638,13 @@ const FLAT_DICT = {
   largescale_tropical_forest_clearing: { definition: "Widely regarded as the process that most threatens primates", what_it_does: "", examples: "guenons and the drill are hunted at levels that far exceed sustainable levels" },
   large_tracts_of_forest: { definition: "Now rare in Central America", what_it_does: "", examples: "farmland encroachment, lower levels of humidity and a change in plant life" },
 
+  // === INGESTED 2026-07-03 02:08 ===
+  in_humans_it: "Encoded for by the CHRD gene",
+  the_chordin_gene: "Discovered through its activation following use of gsc ( goosecoid ) and Xnot [ 4 ] mRNA injections",
+  the_discoverers_of_chordin_concluded_that_it: "Expressed in embryo regions where gsc and Xnot were also expressed, which included the prechordal plate , the notochord , and the chordoneural hinge",
+  chordin: "Also involved in avian gastrulation and may also play a role in organogenesis",
+  these_repeats: { definition: "Homologous with domains in a number of extracellular matrix proteins , including von Willebrand factor", what_it_does: "", examples: "bone morphogenetic proteins (BMP) through its four cytosine rich regions" },
+
 };
 
 // ============================================================
