@@ -57742,6 +57742,24 @@ const FLAT_DICT = {
   licensing: "Not typically required to work as a programmer, although professional certifications are commonly held by programmers",
   programmers: "Left without work or with lower wages",
 
+  // === INGESTED 2026-07-03 07:22 ===
+  the_name_of_the_merged_institution_at_the_time: "Called Rochester Athenæum and Mechanics Institute ( RAMI )",
+  the_mechanics_institute: "Considered as the surviving school and took over The Rochester Athenæum's 1829 founding charter",
+  its_art_department: "Originally located in the Bevier Memorial Building",
+  the_main_campus: "Listed as a census-designated place in 2020",
+  median_sat_scores: "680 for SAT Evidence-Based Reading and Writing and 690 for SAT Math",
+  rit_library_services: "Based in the Wallace Library",
+  the_first_ever_mascot_of_rit: "A dog named 'Brownie,' a terrier that acted as the school's mascot during World War I",
+  ambitious_students: "Trained as the Tiger Cubs handlers and took him to most sport events until 1964",
+  it_was_then_discovered_that_the_cub: "Ill and eventually he was put down due to these health complications",
+  special_interest_houses: "Self-governing and accept members based on their own criteria",
+  rit: { definition: "The host of the Air Force ROTC Detachment 538 'Blue Tigers' [ 135 ] and the Army ROTC 'Tiger Battalion'", what_it_does: "", examples: "children, the festival features a variety of exhibits" },
+  rit_public_safety: { definition: "The primary agency responsible for the protection of students, staff, and property, as well as enforcement of both college policies and state laws", what_it_does: "", examples: "The Inn and Conference Center) and also manage the Call Box System" },
+  dining_services_at_rit: "Completely internal and run through the university",
+  the_shared_governance_system: "Composed of the Student Government, the Staff Council, and the Academic Senate",
+  the_student_government_endorses_proposal_that: "Brought before the University Council",
+  richard_rose: "On sabbatical with the CIA, and again in 1992 between Rose's retirement and Albert J",
+
 };
 
 // ============================================================
