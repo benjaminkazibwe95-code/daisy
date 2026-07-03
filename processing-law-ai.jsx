@@ -56696,6 +56696,12 @@ const FLAT_DICT = {
   other_coronary_arteries_dilate_when_adenosine: "Administered while the segment past the occlusion is already maximally dilated, which is a process called coronary steal",
   adenosine_deaminase_deficiency: "A known cause of immunodeficiency",
 
+  // === INGESTED 2026-07-03 02:27 ===
+  a_neurological_disorder: "Any disorder of the nervous system",
+  the_broadest_division: "Between central nervous system disorders and peripheral nervous system disorders",
+  neurotherapy_is_a_medical_treatment_that: { definition: "The targeted systemic administration of an energetic stimulus or chemical agent to a specific neurological area", what_it_does: "", examples: "clinical psychology" },
+  cases_involving_these_symptoms: { definition: "Classified as functional disorders ('functional' in this context is usually contrasted with the old term ' organic disease ')", what_it_does: "", examples: "functional seizures , numbness , paresthesia , and weakness , among others" },
+
 };
 
 // ============================================================
