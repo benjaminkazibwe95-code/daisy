@@ -58902,6 +58902,10 @@ const FLAT_DICT = {
   smaller_deposits: "Located in Montana , Tennessee , Georgia , and South Carolina",
   phosphorite_mines: "Primarily found in: In 2007, at the current rate of consumption, the supply of phosphorus was estimated to run out in 345 years",
 
+  // === INGESTED 2026-07-03 19:45 ===
+  ginzburg: "The editor-in-chief of the scientific journal Uspekhi Fizicheskikh Nauk",
+  russian_academy_of_sciences: "A major institution where mostly all Nobel Prize laureates of physics from Russia have done their studies and/or research works",
+
 };
 
 // ============================================================
