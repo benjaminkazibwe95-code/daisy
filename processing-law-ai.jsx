@@ -57787,6 +57787,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 07:41 ===
   middleware: "A type of computer software program that provides services to software applications beyond those available from the operating system",
 
+  // === INGESTED 2026-07-03 07:44 ===
+  the_motivation_for_amortized_analysis: { definition: "That looking at the worst-case run time can be too pessimistic", what_it_does: "", examples: "worst-case and average-case analysis" },
+  amortization: "Initially used for very specific types of algorithms, particularly those involving binary trees and union operations",
+  therefore_the_average_time_per_push_operation: "O ( n ) / n = O ( 1 ) {\displaystyle O(n)/n=O(1)}",
+
 };
 
 // ============================================================
