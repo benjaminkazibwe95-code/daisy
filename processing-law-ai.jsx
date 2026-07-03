@@ -57019,6 +57019,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 04:20 ===
   the_third_campus: "In the town of Mubende , approximately 153 kilometres (95 mi) , by road, west of Kampala",
 
+  // === INGESTED 2026-07-03 04:24 ===
+  koine_greek: "The lingua franca of the Hellenistic culture",
+  old_tamil: "Once the lingua franca for most of ancient Tamilakam and Sri Lanka",
+  john_guy_states_that_tamil: { definition: "Also the lingua franca for early maritime traders from India", what_it_does: "", examples: "the Native Schools Act 1867 contributed to the demise of Māori language as a lingua franca" },
+  the_polish_language: { definition: "A lingua franca, [ 62 ] [ 63 ] important both diplomatically and academically in Central and part of Eastern Europe", what_it_does: "", examples: "Ghana and South Africa" },
+  russianspeaking_minorities_in_these_countries: "Very small or nonexistent, so after the collapse of the Eastern Bloc, English completely replaced Russian as the international language",
+  because_italy: { definition: "The birthplace of opera and a leading center of musical innovation, its terminology was adopted internationally", what_it_does: "", examples: "in English" },
+  the_original_hand_talk: { definition: "Found across Indian Country in pockets, but it has also been employed to create new or revive old languages, such as with Oneida Sign Language", what_it_does: "", examples: "in LSF , ASL , BSL , Libras , or Auslan" },
+
 };
 
 // ============================================================
