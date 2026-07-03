@@ -58704,6 +58704,15 @@ const FLAT_DICT = {
   physical_properties: "Listed in loose order of ease of their determination",
   chemical_properties: "Listed from general characteristics to more specific details",
 
+  // === INGESTED 2026-07-03 18:38 ===
+  air_or_wind: "One of the four classical elements along with water , earth and fire in ancient Greek philosophy and in Western alchemy",
+  the_archangel_of_air: "Raphael , the angel is Chassan, the ruler is Ariel, the king is Paralda, and the air elementals (following Paracelsus ) are called sylphs",
+  the_concept_of_qi: "Often reified , however no scientific evidence supports its existence",
+  its_characteristic: "Distension ( vitthambana ), its function is to cause motion in the other material phenomena, and it is manifested as conveyance to other places",
+  its_proximate_cause: "The other three great essentials",
+  enlil: "The god of air in ancient Sumer",
+  shu: { definition: "The ancient Egyptian deity of air and the husband of Tefnut , goddess of moisture", what_it_does: "", examples: "whirlwinds, cyclones, monsoons, west winds and trade winds" },
+
 };
 
 // ============================================================
