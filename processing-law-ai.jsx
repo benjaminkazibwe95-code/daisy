@@ -58861,6 +58861,17 @@ const FLAT_DICT = {
   such_compounds: "Called lipophilic (translated as 'fat-loving' or 'fat-liking' [ 1 ] [ 2 ] )",
   such_nonpolar_solvents: "Themselves lipophilic, and the adage 'like dissolves like' generally holds true",
 
+  // === INGESTED 2026-07-03 19:35 ===
+  hsab: "Widely used in chemistry for explaining the stability of compounds , reaction mechanisms and pathways",
+  hsab_theory: "Commonly, but misleadingly, applied to predict the reactions of ambident nucleophiles (nucleophiles that can attack from two or more places)",
+  the_hsab_classification_in_the_original_work: "Largely based on equilibrium constants of Lewis acid/base reactions with a reference base for comparison",
+  the_hardness_and_mulliken_electronegativity: "Related as and in this sense hardness is a measure for resistance to deformation or change",
+  an_alternative_quantitative_measure: "The heat ( enthalpy ) of formation of the Lewis acid-base adduct in a non-coordinating solvent",
+  the_ecw_model_is_quantitative_model_that: "And predicts the strength of Lewis acid base interactions, -ΔH",
+  each_acid: "Characterized by an E A and a C A",
+  each_base: "Likewise characterized by its own E B and C B",
+  barrierfree_reactions: "(initially) unselective or (subsequently) determined by equilibrium thermodynamics",
+
 };
 
 // ============================================================
