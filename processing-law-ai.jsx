@@ -56645,6 +56645,11 @@ const FLAT_DICT = {
   chordin: "Also involved in avian gastrulation and may also play a role in organogenesis",
   these_repeats: { definition: "Homologous with domains in a number of extracellular matrix proteins , including von Willebrand factor", what_it_does: "", examples: "bone morphogenetic proteins (BMP) through its four cytosine rich regions" },
 
+  // === INGESTED 2026-07-03 02:14 ===
+  the_enteric_nervous_system: { definition: "A complex part of the nervous system", what_it_does: "", examples: "via the vagus nerve ) and sympathetic (e.g., via the prevertebral ganglia ) nervous systems" },
+  the_anatomy_of_the_plexus: "Similar to the anatomy of the central nervous system",
+  motility_disorders: "Divided by what they affect, with four regions: The esophagus, the stomach, the small intestines, and the large intestines",
+
 };
 
 // ============================================================
