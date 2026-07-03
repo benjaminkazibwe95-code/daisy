@@ -57240,6 +57240,25 @@ const FLAT_DICT = {
   seasonal_rainfall: "Driven mainly by the migration of the Intertropical Convergence Zone",
   forest_regrowth: "Not included in the dataset",
 
+  // === INGESTED 2026-07-03 05:18 ===
+  the_current_site_of_arusha: "First settled in the 1830s by the agro-pastoral Arusha Maasai from the Arusha Chini community, south of Mount Kilimanjaro",
+  with_john_wayne: "Filmed at Momela Lakes and at Mount Meru",
+  the_arusha_declaration: "Signed in 1967 in Arusha",
+  the_arusha_accords: "Signed at the city of Arusha on 4 August 1993, by representatives of competing factions in the Rwandan civil war",
+  it_provided_that_all_splm_members_who: "Dismissed be reinstated to their previous positions and a secret ballot system be adopted",
+  arusha: "Alleged to be midway between Cape Town and Cairo",
+  arusha_airport: "A regional air hub in the west of the city, and serves more than 87,000 passengers yearly",
+  the_arusha_cultural_heritage_centre: { definition: "A large privately run art gallery in a striking building, resembling the Guggenheim museum whilst drawing on African symbols (drum, spear, and shield)", what_it_does: "", examples: "from the Tanzanian TingaTinga school" },
+  exhibits_are_for_sale_and_there: "Not a permanent collection",
+  the_aaff: "Connected to the East African Film Festival, which also gives ample opportunity for awards and credit to young filmmakers",
+  cool_dry_air: "Prevalent for much of the year",
+  areas_away_from_arusha_to_the_south_and_west: "Classified as tropical savanna climate ( Aw )",
+  many_crops: "Planted twice per year",
+  the_long_masika_rains_from_march_through_may: "More reliable in Arusha than in surrounding areas because of the influence of Mt",
+  the_short_vuli_rains: "Less reliable, usually coming in November and December",
+  the_amsc: "The largest club in Tanzania that invites foreign competitors to rally and compete for AMSC",
+  parts_of_the_film: "Shot at Momela Lakes",
+
 };
 
 // ============================================================
