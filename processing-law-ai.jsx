@@ -56788,6 +56788,11 @@ const FLAT_DICT = {
   sam_and_ram_cells_divide_rapidly_and: "Considered indeterminate , in that they do not possess any defined end status",
   all_sams: { definition: "Usually dome shaped and have structures that are layered and are described as the tunica and corpus", what_it_does: "", examples: "beet, soybean and potato cyst nematodes" },
 
+  // === INGESTED 2026-07-03 03:09 ===
+  somatostatin: "Also produced by the hypothalamus , and has an opposite effect on the pituitary production of TSH, decreasing or inhibiting its release",
+  the_tsh_receptor: "Found mainly on thyroid follicular cells",
+  a_tsh_assay: "Now also the recommended screening tool for thyroid disease",
+
 };
 
 // ============================================================
