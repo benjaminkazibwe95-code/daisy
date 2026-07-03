@@ -56307,6 +56307,10 @@ const FLAT_DICT = {
   together_with_michael_chandler_he: "Known for developing the transactional model of development",
   problem_behavior: { definition: "Seen to result from the way an individual's characteristics affect and are affected by others", what_it_does: "", examples: "ethnic, socioeconomic, and neighborhood backgrounds within a general systems theory framework" },
 
+  // === INGESTED 2026-07-03 00:27 ===
+  understanding_and_knowledge: "Both words without unified definitions",
+  chaitin_argues_that_comprehension: "This ability to compress data",
+
 };
 
 // ============================================================
