@@ -58323,6 +58323,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 17:04 ===
   a_variety_of_methods_of_torture: { definition: "Used, often in combination; the most common form of physical torture is beatings", what_it_does: "", examples: "treason , often only when some evidence already existed" },
 
+  // === INGESTED 2026-07-03 17:06 ===
+  these_reports: "Sent from Washington, D.C",
+  at_yale_he: { definition: "Also a lecturer in the history of science and technology and published many scholarly articles on those topics", what_it_does: "", examples: "use of books and journals by categories of borrowers to guide selection and retention of titles" },
+  worldcat: "Available through many libraries and university computer networks",
+  in_his_professional_writings_kilgour: { definition: "One of the earliest proponents of applying computerization to librarianship", what_it_does: "", examples: "catalog card production" },
+  kilgour: "The author of 205 scholarly papers",
+
 };
 
 // ============================================================
