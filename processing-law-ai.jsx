@@ -58752,6 +58752,11 @@ const FLAT_DICT = {
   the_most_recent_text: "By Shaik and Hiberty",
   since_the_nature_of_the_overlapping_orbitals: "Different in H 2 and F 2 molecules, the bond strength and bond lengths differ between H 2 and F 2 molecules",
 
+  // === INGESTED 2026-07-03 18:50 ===
+  electrostatics: { definition: "A branch of physics that studies slow-moving or stationary electric charges on macroscopic objects where quantum effects can be neglected", what_it_does: "", examples: "amber , attract lightweight particles after rubbing" },
+  such_forces: "Described by Coulomb's law",
+  if_only_two_charges: "Present, the potential energy is Q 1 Q 2 / ( 4 π ε 0 r ) {\displaystyle Q_{1}Q_{2}/(4\pi \varepsilon _{0}r)}",
+
 };
 
 // ============================================================
