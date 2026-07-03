@@ -57947,6 +57947,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 08:07 ===
   its_overarching_goal: { definition: "To speed the translation of data into discovery and thereby the value of research", what_it_does: "", examples: "DNA , cell lines , model animals and more" },
 
+  // === INGESTED 2026-07-03 08:09 ===
+  its_head_office: "Based in Bristol with offices in London , Manchester , and Oxford",
+  its_current_ceo: "Heidi Fraser-Krauss , who joined in September 2021 from the University of Sheffield",
+  jisc: "To provide national vision and leadership for the benefit of the entire Higher Education sector",
+  an_initial_challenge: "To support a much larger community of institutions, including ex-polytechnics and higher education colleges",
+  the_new_committee: "Initially supported by four sub-committees, covering Networking; Awareness, Liaison and Training; Electronic Information; and Technology Applications",
+  other_activities: "Funded by the Higher Education Funding Councils for England and Wales",
+  one_of_the_principal_findings_of_the_review: "That there is no comparable body to JISC within the UK, and internationally its reputation is outstanding as a strategic leader and partner",
+  jisc_explained_that_the_move: "Taken due to 'recent events that are incompatible with our values as an organisation'",
+
 };
 
 // ============================================================
