@@ -58314,6 +58314,9 @@ const FLAT_DICT = {
   the_opposite_carrier: "Called the minority carrier , which exists due to thermal excitation at a much lower concentration compared to the majority carrier",
   the_first_working_transistor: "A point-contact transistor invented by John Bardeen , Walter Houser Brattain , and William Shockley at Bell Labs in 1947",
 
+  // === INGESTED 2026-07-03 17:00 ===
+  setup_costs: "Higher than for other heating systems due to the requirement of installing ground loops over large areas or of drilling bore holes",
+
 };
 
 // ============================================================
