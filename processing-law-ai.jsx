@@ -57697,6 +57697,21 @@ const FLAT_DICT = {
   soft_systems_methodology: "A general method for improving management processes",
   method_engineering: "A general method for improving information system processes",
 
+  // === INGESTED 2026-07-03 07:11 ===
+  mississippi_state: { definition: "A founding member of the SEC in 1932", what_it_does: "", examples: "military tactics" },
+  the_cooperative_extension_service: "Established in 1914 by the Smith-Lever Act",
+  the_msu_vet_school: "The largest veterinary school under one roof in the nation",
+  the_university_honors_program: "Founded in 1968 to provide more rigorous course curricula and support guest speakers",
+  the_drill_field: "Defined at its north and south ends by the mirror-image buildings, Lee Hall and Swalm Hall",
+  old_main: "The original dormitory, west of Lee Hall; it burned in a tragic fire, and was replaced by the Colvard Student Union",
+  the_largest_building_on_drill_field: "Mitchell Memorial Library",
+  the_mitchell_memorial_library: "In the heart of the campus, on the eastern side of the Drill Field",
+  materials_from_the_grisham_papers: { definition: "On display in Mitchell Memorial Library's John Grisham Room (3rd floor), which opened in May 1998", what_it_does: "", examples: "foreign-language translations" },
+  this_collection: "Valued at over $495,000 in 1989",
+  items_from_the_collection: { definition: "On display at the Templeton Music Museum on the 4th floor of Mitchell Memorial Library", what_it_does: "", examples: "lectures and live performance of historic and contemporary ragtime" },
+  wmsb: "A low-power FM station with studios on the top floor of Lee Hall",
+  the_publication: { definition: "Named the #1 college newspaper in the South in 2007 by the Southeast Journalism Conference", what_it_does: "", examples: "a visit in 1965 by Johnny Cash" },
+
 };
 
 // ============================================================
