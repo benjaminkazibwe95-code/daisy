@@ -59028,6 +59028,25 @@ const FLAT_DICT = {
   while_the_term_in_popular_culture_usually: "Animals that are untouched by civilized human factors, most scientists agree that wildlife around the world is (now) impacted by human activities",
   while_true_wilderness: "Increasingly rare, wild nature (e.g",
 
+  // === INGESTED 2026-07-03 20:21 ===
+  leeches: "Found throughout the world, except Antarctica, [ 4 ] but are at their most abundant in temperate lakes and ponds in the northern hemisphere",
+  the_jaws_used_to_pierce_the_skin: "Replaced in other species by a proboscis which is pushed into the skin",
+  a_minority_of_leech_species: "Predatory, mostly preying on small invertebrates",
+  almost_seven_hundred_species_of_leech: "Currently recognised, of which some hundred are marine, ninety terrestrial and the remainder freshwater",
+  the_majority_of_freshwater_leeches: { definition: "Found in the shallow, vegetated areas on the edges of ponds, lakes and slow-moving streams; very few species tolerate fast-flowing water", what_it_does: "", examples: "some jawed species, the ' Arhynchobdellida ', without a proboscis" },
+  the_branchiobdellida: "Sister to the leech clade Hirudinida, which approximately corresponds to the traditional subclass Hirudinea",
+  the_main_subdivision_of_leeches: "Into the Rhynchobdellida and the Arhynchobdellida, though the Acanthobdella are sister to the clade that contains these two groups",
+  as_no_crown_vertebrates: "Known from the Waukesha Lagerstätte where M",
+  siluricus: "Found, aside from agnathans like Panderodus , it likely fed on invertebrates as a predator or as a parasite",
+  a_spermatophore: "Pushed by one through the integument of the other, usually into the clitellar region",
+  the_sperm: "Liberated and passes to the ovisacs, either through the coelomic channels or interstitially through specialist 'target tissue' pathways",
+  the_cocoon_of_hemibdella_soleae: "Attached to a suitable fish host",
+  behind_the_blades: "The mouth, located ventrally at the anterior end of the body",
+  such_leeches: { definition: "Often ambush predators that lie in wait until they can strike prey with the proboscises in a spear-like fashion", what_it_does: "", examples: "snails, earthworms and insect larvae" },
+  the_prey: { definition: "Usually sucked in and swallowed whole", what_it_does: "", examples: "amylases , lipases or endopeptidases" },
+  the_exception_to_this: { definition: "In the Piscicolidae, where branching or leaf-like lateral outgrowths from the body wall form gills", what_it_does: "", examples: "earthworms" },
+  then_the_posterior_end: { definition: "Released, pulled forward by the longitudinal muscles, and reattached; then the anterior end is released, and the cycle repeats", what_it_does: "", examples: "inside the nose, are more likely to require medical intervention" },
+
 };
 
 // ============================================================
