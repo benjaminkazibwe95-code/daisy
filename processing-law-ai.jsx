@@ -58008,6 +58008,32 @@ const FLAT_DICT = {
   messages_posted_to_a_forum: "Publicly available for some time even if the forum or thread is closed, which is uncommon in chat rooms that maintain frequent activity",
   one_rarity_among_forums: { definition: "The ability to create a picture album", what_it_does: "", examples: "'Report Post' and 'Reply to Post'" },
 
+  // === INGESTED 2026-07-03 08:18 ===
+  when_an_online_store: { definition: "Set up to enable businesses to buy from another business, the process is instead called business-to-business (B2B) online shopping", what_it_does: "", examples: "a credit card , an Interac -enabled debit card , or a service such as PayPal" },
+  these_websites_or_apps: { definition: "Designed to enable customers to browse through a companies' products and services on tablet computers and smartphones", what_it_does: "", examples: "wine, chocolates, and flowers paving the way" },
+  the_early_adopters: "Predominantly affluent males aged 30 and above",
+  english_entrepreneur_michael_aldrich: "A pioneer of online shopping in 1979",
+  retailers: { definition: "Increasingly selling goods and services prior to availability through ' pretail ' for testing, building, and managing demand", what_it_does: "", examples: "websites about product tests" },
+  one_of_the_great_benefits_of_online_shopping: "The ability to read product reviews , written either by experts or fellow online shoppers",
+  if_people_feel_their_money: { definition: "Secure and safe within the buying process, they will most likely purchase the product and feel comfortable about it", what_it_does: "", examples: "Some online shops will not accept international credit cards" },
+  letting_the_consumer_know_their_credit_card: "Declined before they log off), or may be done later as part of the fulfillment process",
+  the_shop: "Then generated as HTML files and graphics that can be uploaded to a webspace",
+  information_load: "A product of the spatial and temporal arrangements of stimuli in the web store",
+  novelty: { definition: "The unexpected, suppressed, new, or unfamiliar aspects of the site", what_it_does: "", examples: "Best Buy , the largest retailer of electronics in the U.S" },
+  online_stores: { definition: "Usually available 24 hours a day, and many consumers in Western countries have Internet access both at work and at home", what_it_does: "", examples: "Internet cafes, community centers and schools provide internet access as well" },
+  research_shows_that_when_consumers: "Looking at reviews, they pay attention to both the text and the picture of the product",
+  even_if_an_online_store: "Open 24 hours a day, seven days a week, the customer service team may only be available during regular business hours",
+  another_major_advantage_for_retailers: "The ability to rapidly switch suppliers and vendors without disrupting users' shopping experience",
+  denial_of_service_attacks: "A minor risk for merchants, as are server and network outages",
+  the_purpose_of_these_seals: "To increase the confidence of online shoppers",
+  most_large_online_corporations: "Inventing new ways to make fraud more difficult",
+  even_though_online_retailers: "Making efforts to protect consumer information, it is a constant fight to maintain the lead",
+  product_delivery: "Also a main concern of online shopping",
+  fencing: "Another growing societal problem associated with online platforms",
+  additional_fees_such_as_shipping: { definition: "Often not visible until the final step in the checkout process", what_it_does: "", examples: "duties and brokerage" },
+  privacy_of_personal_information: "A significant issue for some consumers",
+  these_stores: "Presented within an integrated navigation framework, sometimes known as virtual shopping malls or online marketplaces",
+
 };
 
 // ============================================================
