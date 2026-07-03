@@ -56822,6 +56822,13 @@ const FLAT_DICT = {
   the_daytoday_affairs_of_the_agency: "Supervised by the chief executive officer",
   the_intention_of_the_ew_regulations: "Lower the electricity tariff to manufacturers from an average of US$0.068 per Kilowatt-hour in Q4 2024, to the desired US$0",
 
+  // === INGESTED 2026-07-03 03:29 ===
+  the_final: "Re-staged two days later with Zaire winning 2–0",
+  both_finalists: { definition: "Eliminated in the quarter-finals two years later in Tunisia , where the hosts won their first title, beating Morocco 2–1 in the final", what_it_does: "", examples: "when Egypt was known as UAR between 1958 and 1961)" },
+  it_also_meant_there: "Two tournaments within twelve months in January 2012 [ 17 ] ( co-hosted by Gabon and Equatorial Guinea ) and January 2013 ( hosted by South Africa )",
+  the_match_outcome: "Officially changed to a 3–0 win to Morocco",
+  the_host_country_of_the_final_tournament: "Automatically qualified, and in the first editions the defending champion was also qualified for the following tournament",
+
 };
 
 // ============================================================
