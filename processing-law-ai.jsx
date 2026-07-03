@@ -58190,6 +58190,17 @@ const FLAT_DICT = {
   subsequent_maturation_of_these_microvessels: "The recruitment of pericytes",
   this_aggregation: { definition: "Believed to serve as a mechanism for trapping pathogens and promoting their elimination by the immune system", what_it_does: "", examples: "amyloid beta and tau proteins , a defining characteristic of AD" },
 
+  // === INGESTED 2026-07-03 16:30 ===
+  this_process_of_engulfment_and_digestion: { definition: "Called phagocytosis ; it acts to defend the host against infection and injury", what_it_does: "", examples: "lymphocytes" },
+  macrophages_that_encourage_inflammation: "Called M1 macrophages, whereas those that decrease inflammation and encourage tissue repair are called M2 macrophages",
+  human_macrophages: { definition: "About 21 micrometres (0.00083 in) in diameter [ 8 ] and are produced by the differentiation of monocytes in tissues", what_it_does: "", examples: "CD14 , CD40 , CD11b , CD64 , F4/80 (mice)/ EMR1 (human), lysozyme M, MAC-1 /MAC-3 and CD68" },
+  these_cells_together_as_a_group: { definition: "Known as the mononuclear phagocyte system and were previously known as the reticuloendothelial system", what_it_does: "", examples: "damaged cells, pathogens and cytokines released by macrophages already at the site" },
+  macrophages_are_professional_phagocytes_and: { definition: "Highly specialized in removal of dying or dead cells and cellular debris", what_it_does: "", examples: "pathogens and recruiting additional macrophages if needed" },
+  tumorassociated_macrophages: "Mainly of the M2 phenotype, and seem to actively promote tumor growth",
+  they_also_play_a_role_in_wound_healing_and: { definition: "Needed for revascularization and reepithelialization", what_it_does: "vascular endothelial growth factor-A and TGF-β1", examples: "" },
+  once_they: { definition: "In the wound site, monocytes mature into macrophages", what_it_does: "", examples: "growth factors and other cytokines, especially during the third and fourth post-wound days" },
+  intestinal_macrophages: "Critical in maintaining gut homeostasis",
+
 };
 
 // ============================================================
