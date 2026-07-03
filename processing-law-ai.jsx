@@ -57505,6 +57505,22 @@ const FLAT_DICT = {
   digital_zoom: "Allowed up to 8x, twice as much as on the S5 and Note 3",
   the_first_regions_to_receive_the_device: { definition: "South Korea and China where it gained huge popularity", what_it_does: "", examples: "the United Kingdom and India" },
 
+  // === INGESTED 2026-07-03 06:35 ===
+  the_swiss_ranger: { definition: "A compact, short-range device, with ranges of 5 or 10 meters and a resolution of 176 x 144 pixels", what_it_does: "ranges up to 60 m", examples: "" },
+  illumination: { definition: "Pulsed LEDs rather than a laser", what_it_does: "", examples: "to see through fog" },
+  the_illumination: "Switched on for a very short time, the resulting light pulse illuminates the scene and is reflected by the objects in the field of view",
+  only_with_special_leds_or_lasers: "It possible to generate such short pulses",
+  the_switches: "Controlled by a pulse with the same length as the light pulse, where the control signal of switch G2 is delayed by exactly the pulse width",
+  as_the_length_of_the_light_pulse: "Defined, the distance can be calculated with the formula: In the example, the signals have the following values: S1 = 0.66 and S2 = 0.33",
+  if_the_objects: { definition: "Further away than the distance range, the result is also wrong", what_it_does: "", examples: "3D Flash LIDAR, a single short pulse from 5 to 10 ns is emitted by the laser" },
+  tzero: "Used to compare the return time of the returning reflected pulse on the various pixels of the focal plane array",
+  the_accuracy: "Usually estimated at 1% of the measured distance",
+  such_tof_sensors: "Used in space applications [ 14 ] and in consideration for automotive applications",
+  direct_tof_imagers_are_vulnerable_if_the_light: "Reflecting from a specular surface",
+  continuouswave_tof_systems: { definition: "Used to detect retroreflective surfaces such as license plates and vehicle reflectors", what_it_does: "", examples: "televisions" },
+  another_topic: "To use this type of cameras to interact with games on video game consoles",
+  as_the_distance_calculation: "Simple, only little computational power is used",
+
 };
 
 // ============================================================
