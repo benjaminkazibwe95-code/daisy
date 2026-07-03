@@ -58690,6 +58690,20 @@ const FLAT_DICT = {
   although_such_changes: { definition: "Frequently undesirable, in some cases, such as biodegradation and recycling , they may be intended to prevent environmental pollution", what_it_does: "", examples: "polydimethylsiloxane and are therefore not ideal for most high-temperature applications" },
   one_of_the_oldest_known_failure_modes: "Ozone cracking caused by chain scission when ozone gas attacks susceptible elastomers , such as natural rubber and nitrile rubber",
 
+  // === INGESTED 2026-07-03 18:36 ===
+  seventeen_elements: { definition: "Widely recognized as nonmetals", what_it_does: "", examples: "nonmetals are widespread" },
+  most_nonmetallic_elements: { definition: "Identified in the 18th and 19th centuries", what_it_does: "", examples: "chlorine's 'familiar yellow-green colour " },
+  many_of_the_nonmetallic_elements: "Hard and brittle, [ 20 ] where dislocations cannot readily move so they tend to undergo brittle fracture rather than deforming",
+  exceptions_may_occur_if_a_nonmetal: "Not very electronegative, or if its oxidation state is low, or both",
+  the_higher_these_values: "(including electronegativity) the more nonmetallic the element tends to be",
+  the_volatile_noble_gas_nonmetal_elements: "Less abundant in the atmosphere than expected based upon their overall abundance due to cosmic nucleosynthesis",
+  mechanisms_to_explain_this_difference: { definition: "An important aspect of planetary science", what_it_does: "", examples: "hydrogen, nitrogen, oxygen, sulfur, and most of the noble gases" },
+  the_organogens_and_sulphuroids: "Akin to the unclassified nonmetals",
+  the_chloroides: "Later called halogens",
+  the_early_terminologies: "Empirical categorizations based upon observables",
+  physical_properties: "Listed in loose order of ease of their determination",
+  chemical_properties: "Listed from general characteristics to more specific details",
+
 };
 
 // ============================================================
