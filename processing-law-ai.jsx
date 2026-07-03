@@ -58431,6 +58431,15 @@ const FLAT_DICT = {
   radiation_and_radioactive_substances: { definition: "Used for diagnosis, treatment, and research", what_it_does: "", examples: "pass through muscles and other soft tissue but are stopped by dense materials" },
   they_do_not_have_as_much_energy_so_they: "Not able to ionize cells",
 
+  // === INGESTED 2026-07-03 17:34 ===
+  a_common_corollary_of_the_statement: "That heat does not spontaneously pass from a colder body to a warmer body",
+  the_history_of_thermodynamics: "Fundamentally interwoven with the history of physics and the history of chemistry , and ultimately dates back to theories of heat in antiquity",
+  while_the_numbering_of_the_laws: "Universal today, various textbooks throughout the 20th century have numbered the laws differently",
+  such_a_temperature_definition: "Said to be 'empirical'",
+  one_of_the_simplest: "The Clausius statement, that heat does not spontaneously pass from a colder to a hotter body",
+  a_prime_example_of_this_irreversibility: "The transfer of heat by conduction or radiation",
+  such_details: "Often referred to as disorder on a microscopic or molecular scale, and less often as dispersal of energy",
+
 };
 
 // ============================================================
