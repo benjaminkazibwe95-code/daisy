@@ -57500,6 +57500,11 @@ const FLAT_DICT = {
   teacher_evaluation: "A teacher's classroom lessons being recorded for review by officials, especially for questions of teacher tenure",
   recordings_of_mat_student_work: "Posted on USC's web portal for evaluation by faculty as if they were present in class",
 
+  // === INGESTED 2026-07-03 06:31 ===
+  while_the_camera_software_and_user_interface: "Largely inherited from the Galaxy S5 , some changes have been made",
+  digital_zoom: "Allowed up to 8x, twice as much as on the S5 and Note 3",
+  the_first_regions_to_receive_the_device: { definition: "South Korea and China where it gained huge popularity", what_it_does: "", examples: "the United Kingdom and India" },
+
 };
 
 // ============================================================
