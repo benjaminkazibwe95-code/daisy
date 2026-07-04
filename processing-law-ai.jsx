@@ -59119,6 +59119,19 @@ const FLAT_DICT = {
   these_insulators: "Usually ceramic and cylindrical or egg-shaped (see picture)",
   the_insulated_supports_used_for_this_purpose: "Called standoff insulators",
 
+  // === INGESTED 2026-07-04 20:40 ===
+  since_voltage: { definition: "The difference in electric potential, it is a physical scalar quantity", what_it_does: "", examples: "the ground of the system is used as one of the points" },
+  the_si_unit_of_work_per_unit_charge: "The joule per coulomb , where 1 volt = 1 joule (of work) per 1 coulomb of charge",
+  the_above: "The same formula used in electrostatics",
+  if_external_fields: "Negligible, we find that is path-independent, and there is a well-defined voltage across the inductor's terminals",
+  a_simple_analogy_for_an_electric_circuit: { definition: "Water flowing in a closed circuit of pipework , driven by a mechanical pump", what_it_does: "", examples: "driving a turbine" },
+  if_the_pump: "Not working, it produces no pressure difference, and the turbine will not rotate",
+  the_hydraulic_analogy: { definition: "A useful way of understanding many electrical concepts", what_it_does: "", examples: "a resistor)" },
+  the_voltage_drop: "The difference between the two readings",
+  two_points_in_an_electric_circuit_that: "Connected by an ideal conductor without resistance and not within a changing magnetic field have a voltage of zero",
+  the_voltage_between_a_and_c: "The sum of the voltage between A and B and the voltage between B and C",
+  the_term_electromotive_force: "First used by Volta in a letter to Giovanni Aldini in 1798, and first appeared in a published paper in 1801 in Annales de chimie et de physique",
+
 };
 
 // ============================================================
