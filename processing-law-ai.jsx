@@ -59457,6 +59457,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-04 22:18 ===
   gibbons: "Elected a Fellow of the Royal Society (FRS) in 1999",
 
+  // === INGESTED 2026-07-04 22:20 ===
+  editors: "The European Mathematical Society , FIZ Karlsruhe, and the Heidelberg Academy of Sciences",
+  zbmath: "Distributed by Springer Science+Business Media",
+  courant_and_neugebauer: "Professors at the University of Göttingen",
+  the_credit_for_this_achievement: "Particularly due to Richard Courant , who convinced the Rockefeller Foundation to donate a large amount of money for the construction",
+  an_issue: "Published as soon as sufficiently many reviews were available, in a frequency of three or four weeks",
+  the_electronic_form: "Provided under the name INKA-MATH ( acronym for In formation System Ka rlsruhe-Database on Math ematics) since at least 1980",
+  the_printed_issue: "Discontinued in 2013",
+  the_jahrbuch: "Written in 1868 by the mathematicians Carl Ohrtmann (1839–1885) and Felix Müller (1843–1928)",
+  some_of_the_mathematical_abstracts: "Written by famous mathematicians such as Felix Klein , Sophus Lie , Richard Courant , or Emmy Noether",
+  the_reviews: "Predominantly in English, with occasional entries in German and French",
+  reviewers: "Volunteers invited by the editors based on their published work or a recommendation by an existing reviewer",
+  zentralblatt_math: "Now edited by the European Mathematical Society , FIZ Karlsruhe , and the Heidelberg Academy of Sciences",
+
 };
 
 // ============================================================
