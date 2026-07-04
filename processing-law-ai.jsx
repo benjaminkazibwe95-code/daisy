@@ -59435,6 +59435,25 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-04 22:14 ===
   hydrobromic_acid: "Mainly used for the production of inorganic bromides, especially the bromides of zinc, calcium, and sodium",
 
+  // === INGESTED 2026-07-04 22:16 ===
+  lactones: { definition: "Cyclic carboxylic esters; naturally occurring lactones are mainly 5- and 6-membered ring lactones", what_it_does: "", examples: "nitroglycerin , are known for their explosive properties" },
+  the_names_of_esters_that: "Formed from an alcohol and an acid, are derived from the parent alcohol and the parent acid, where the latter may be organic or inorganic",
+  alternative_presentations: "Common including BuOAc and CH 3 COO(CH 2 ) 3 CH 3",
+  cyclic_esters: "Called lactones , regardless of whether they are derived from an organic or inorganic acid",
+  some_inorganic_acids_that: "Unstable or elusive form stable esters",
+  the_preference_for_the_z_conformation: "Influenced by the nature of the substituents and solvent, if present",
+  esters_are_widespread_in_nature_and: { definition: "Widely used in industry", what_it_does: "", examples: "apples , durians , pears , bananas , pineapples , and strawberries" },
+  esters: "Common in organic chemistry and biological materials, and often have a pleasant characteristic, fruity odor",
+  ester_bonds: { definition: "Also found in many polymers", what_it_does: "", examples: "ethyl acetate" },
+  many_other_acids: "Also used such as polymeric sulfonic acids",
+  carboxylic_acids: "Esterified by treatment with epoxides , giving β-hydroxyesters: This reaction is employed in the production of vinyl ester resin from acrylic acid",
+  esters_of_propanoic_acid: "Produced commercially by this method: A preparation of methyl propionate is one illustrative example",
+  the_saponification_of_esters_of_fatty_acids: { definition: "An industrially important process, used in the production of soap", what_it_does: "", examples: "Grignard reagents and organolithium compounds, add readily to the carbonyl" },
+  the_related_reagent_sodium_borohydride: "Slow in this reaction",
+  an_intramolecular_claisen_condensation: "Called a Dieckmann condensation or Dieckmann cyclization, since it can be used to form rings",
+  the_carbonyl_oxygen_in_esters: { definition: "Weakly basic, less so than the carbonyl oxygen in amides due to resonance donation of an electron pair from nitrogen in amides, but forms adducts", what_it_does: "", examples: "alkoxides" },
+  protecting_a_carboxylic_acid: "Useful in peptide synthesis, to prevent self-reactions of the bifunctional amino acids",
+
 };
 
 // ============================================================
