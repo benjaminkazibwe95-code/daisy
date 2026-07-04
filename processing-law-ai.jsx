@@ -59803,6 +59803,9 @@ const FLAT_DICT = {
   glutamic_acid_often: "Used as a food additive and flavor enhancer in the form of its sodium salt , known as monosodium glutamate (MSG)",
   ninetyfive_percent_of_the_dietary_glutamate: "Metabolized by intestinal cells in a first pass",
 
+  // === INGESTED 2026-07-04 23:56 ===
+  other_factors_to_consider: "The need for social interaction and how hominids have interacted with their environments over time",
+
 };
 
 // ============================================================
