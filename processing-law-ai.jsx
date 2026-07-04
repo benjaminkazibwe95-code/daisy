@@ -59414,6 +59414,9 @@ const FLAT_DICT = {
   its_acidity: "Thus comparable to that of fluorosulfonic acid",
   the_inorganic_salts: "Intermediates in the manufacture of flame-retardant materials and glazing frits , and in electrolytic generation of boron",
 
+  // === INGESTED 2026-07-04 22:05 ===
+  salts_and_esters_of_methanesulfonic_acid: "Known as mesylates (or methanesulfonates, as in ethyl methanesulfonate )",
+
 };
 
 // ============================================================
