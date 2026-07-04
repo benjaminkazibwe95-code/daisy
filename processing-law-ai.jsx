@@ -59573,6 +59573,13 @@ const FLAT_DICT = {
   the_three_types_of_glial_cells: "Astrocytes , oligodendrocytes , and ependymal cells , known collectively as macroglia , and the smaller scavenger cells known as microglia",
   glial_stem_cells: "Found in all parts of the adult brain",
 
+  // === INGESTED 2026-07-04 22:50 ===
+  perfusion: "Measured as the rate at which blood is delivered to tissue, [ 2 ] or volume of blood per unit time (blood flow ) per unit tissue mass",
+  the_si_unit: "M 3 /(s·kg) [ citation needed ] , although for human organs perfusion is typically reported in ml/min/g",
+  tests_verifying_that_adequate_perfusion_exists: "A part of a patient's assessment process that are performed by medical or emergency personnel",
+  as_the_lead_surgeons: "Often too busy to handle all hemodynamic control by themselves, specialists called perfusionists manage this aspect",
+  radioactively_labeled_particles: "Injected into the test subject and a radiation detector measures radioactivity in tissues of interest",
+
 };
 
 // ============================================================
