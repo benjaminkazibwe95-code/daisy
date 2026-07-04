@@ -59795,6 +59795,14 @@ const FLAT_DICT = {
   neurotransmitter_transporters: "A class of membrane transport proteins that span the cellular membranes of neurons",
   such_neurotransporter_cotransport_systems: { definition: "Highly diverse, as recent development indicates that uptake systems are generally selective and associate with a specific neurotransmitter", what_it_does: "", examples: "amacrine cells in the retina , as a normal form of neurotransmitter release" },
 
+  // === INGESTED 2026-07-04 23:54 ===
+  this_form_of_the_compound: { definition: "Prevalent in neutral solutions", what_it_does: "", examples: "monosodium glutamate (MSG)" },
+  the_oneletter_symbol_e_for_glutamate: "Assigned as the letter following D for aspartate , as glutamate is larger by one methylene –CH 2 – group",
+  glutamic_acid: "Produced on the largest scale of any amino acid, with an estimated annual production of about 1.5 million tons in 2006",
+  a_key_process_in_amino_acid_degradation: { definition: "Transamination , in which the amino group of an amino acid is transferred to an α- ketoacid , typically catalysed by a transaminase", what_it_does: "", examples: "glycolysis , gluconeogenesis , and the citric acid cycle" },
+  glutamic_acid_often: "Used as a food additive and flavor enhancer in the form of its sodium salt , known as monosodium glutamate (MSG)",
+  ninetyfive_percent_of_the_dietary_glutamate: "Metabolized by intestinal cells in a first pass",
+
 };
 
 // ============================================================
