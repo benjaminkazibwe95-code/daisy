@@ -59279,6 +59279,21 @@ const FLAT_DICT = {
   the_energy_spectrum_of_the_set_of_bound_states: { definition: "Most commonly discrete, unlike scattering states of free particles , which have a continuous spectrum", what_it_does: "", examples: "radionuclides and Rydberg atoms" },
   because_the_photon: "Massless, D is infinite for electromagnetism",
 
+  // === INGESTED 2026-07-04 21:21 ===
+  bond_polarity: "Typically divided into three groups that are loosely based on the difference in electronegativity between the two bonded atoms",
+  it_occurs_whenever_there: "A separation of positive and negative charges",
+  a_useful_conversion_factor: "1 D = 3.335 64 × 10 −30 C m",
+  often_bond_dipoles: "Obtained by the reverse process: a known total dipole of a molecule can be decomposed into bond dipoles",
+  one_common_form_of_polar_interaction: "The hydrogen bond , which is also known as the H-bond",
+  most_nonpolar_molecules: { definition: "Water-insoluble ( hydrophobic ) at room temperature", what_it_does: "", examples: "turpentine , are able to dissolve nonpolar substances" },
+  in_the_gas_phase_the_dipole_moment: { definition: "≈ 1.86 debye (D), [ 11 ] whereas liquid water (≈ 2.95 D) [ 12 ] and ice (≈ 3.09 D) [ 13 ] are higher due to differing hydrogen-bonded environments", what_it_does: "", examples: "the water molecule (H 2 O) contains two polar O−H bonds in a bent (nonlinear) geometry" },
+  this_orbital: { definition: "Not participating in covalent bonding; it is electron-rich, which results in a powerful dipole across the whole ammonia molecule", what_it_does: "", examples: "boron trifluoride (BF 3 ) has a trigonal planar arrangement of three polar bonds at 120°" },
+  the_bonds_are_arranged_symmetrically_so_there: "No overall dipole in the molecule",
+  other_alkane_molecules: "Less symmetric than methane, but have only a weak dipole because the C-H bonds are only weakly polar",
+  determining_the_point_group: "A useful way to predict polarity of a molecule",
+  this_is_because_dipole_moments: "Euclidean vector quantities with magnitude and direction, and a two equal vectors that oppose each other will cancel out",
+  weak_deflection: "Even possible for nonpolar liquids",
+
 };
 
 // ============================================================
