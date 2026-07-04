@@ -59089,6 +59089,36 @@ const FLAT_DICT = {
   a_pair_of_kidney_shaped_electric_organs: "At the base of the pectoral fins",
   the_snout: "Broad, large in the Narcinidae, but reduced in all other families",
 
+  // === INGESTED 2026-07-04 20:34 ===
+  an_electrical_insulator: "A material in which electric current does not flow freely",
+  the_property_that_distinguishes_an_insulator: { definition: "Its resistivity ; insulators have higher resistivity than semiconductors or conductors", what_it_does: "", examples: "glass , paper and PTFE , which have high resistivity , are very good electrical insulators" },
+  insulators: "Also required where wire enters buildings or electrical devices, such as transformers or circuit breakers , for insulation from the case",
+  electrical_insulation: { definition: "The absence of electrical conduction", what_it_does: "", examples: "a metal , if an electric potential difference is applied to the material" },
+  if_no_such_states: "Available, the material is an insulator",
+  once_this_voltage: "Exceeded, electrical breakdown occurs, and the material ceases being an insulator, passing charge",
+  these_freed_electrons_and_ions: "In turn accelerated and strike other atoms, creating more charge carriers, in a chain reaction",
+  windings_that_use_thicker_conductors: "Often wrapped with supplemental fiberglass insulating tape",
+  wire_insulated_with_felted_asbestos: "Used in high-temperature and rugged applications from the 1920s",
+  wire_of_this_type: "Sold by General Electric under the trade name 'Deltabeston",
+  some_high_voltage_equipment: "Designed to operate within a high pressure insulating gas such as sulfur hexafluoride",
+  alternative_materials: "Likely to become increasingly used due to EU safety and environmental legislation making PVC less economic",
+  all_portable_or_handheld_electrical_devices: "Insulated to protect their user from harmful shock",
+  class_ii_insulation: "That the device is double insulated",
+  all_internal_electrically_energized_components: "Totally enclosed within an insulated body that prevents any contact with 'live' parts",
+  insulating_supports: "Required at the points where they are supported by utility poles or transmission towers",
+  often_these: "Bushings , which are hollow insulators with the conductor inside them",
+  porcelain_insulators: "Made from clay , quartz or alumina and feldspar , and are covered with a smooth glaze to shed water",
+  insulators_made_from_porcelain_rich_in_alumina: "Used where high mechanical strength is a criterion",
+  composite_insulators: "Less costly, lighter in weight, and have excellent hydrophobic properties",
+  minimum_creepage_distances: "20–25 mm/kV, but must be increased in high pollution or airborne sea-salt areas",
+  ceramic: "An alternative material for these insulators and is utilized alongside plastic components to enhance the overall strength of the assembly",
+  pintype_insulators: "Unsuitable for voltages greater than about 69 kV line-to-line",
+  each_unit: "Constructed of a ceramic or glass disc with a metal cap and pin cemented to opposite sides",
+  metal_grading_rings: { definition: "Sometimes added around the disc at the high voltage end, to reduce the electric field across that disc and improve flashover voltage", what_it_does: "", examples: "the 'Z' type, which became a standard for railway telecommunications throughout the 1870s" },
+  arcing_horns_and_lightning_arresters: "Necessary because lightning strikes to the mast are common",
+  these_insulators: "Usually ceramic and cylindrical or egg-shaped (see picture)",
+  the_insulated_supports_used_for_this_purpose: "Called standoff insulators",
+
 };
 
 // ============================================================
