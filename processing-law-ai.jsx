@@ -59496,6 +59496,22 @@ const FLAT_DICT = {
   the_reason_for_these_types_of_divergences: "That modes that end at the horizon from the point of view of outside coordinates are singular in frequency there",
   the_formulas_from_the_previous_section: "Applicable only if the laws of gravity are approximately valid all the way down to the Planck scale",
 
+  // === INGESTED 2026-07-04 22:33 ===
+  the_glass_of_the_jar: { definition: "A different material, in its own separate phase", what_it_does: "", examples: "gas , liquid , solid , plasma or Bose–Einstein condensate" },
+  solubility: "The maximum amount of a solute that can dissolve in a solvent before the solute ceases to dissolve and remains in a separate phase",
+  metal_pairs_that: "Mutually soluble can form alloys , whereas metal pairs that are mutually insoluble cannot",
+  not_all_organic_solvents: "Completely miscible, e.g",
+  emulsions_and_colloids: "Examples of immiscible phase pair combinations that do not physically separate",
+  most_of_the_water: "In the liquid phase, where it is held by the mutual attraction of water molecules",
+  if_the_liquid: "Heated a little over 100 °C, the transition from liquid to gas will occur not only at the surface but throughout the liquid volume: the water boils",
+  the_number_and_type_of_phases_that_will_form: "Hard to predict and is usually determined by experiment",
+  the_phase_diagram_shown_here: "For a single component system",
+  an_unusual_feature_of_the_water_phase_diagram: "That the solid–liquid phase line (illustrated by the dotted green line) has a negative slope",
+  this_unusual_feature_of_water: "Related to ice having a lower density than liquid water",
+  the_intersection: "Referred to as the triple point",
+  if_the_piston: "Slowly lowered, the system will trace a curve of increasing temperature and pressure within the gas region of the phase diagram",
+  between_two_phases_in_equilibrium_there: { definition: "A narrow region where the properties are not that of either phase", what_it_does: "", examples: "causing a liquid to exhibit surface tension" },
+
 };
 
 // ============================================================
