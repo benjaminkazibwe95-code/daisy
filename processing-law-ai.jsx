@@ -59538,6 +59538,12 @@ const FLAT_DICT = {
   a_mixed_quantum_state: "A statistical ensemble of pure states (see Quantum statistical mechanics )",
   the_rules_for_measurement_in_quantum_mechanics: "Particularly simple to state in terms of density matrices",
 
+  // === INGESTED 2026-07-04 22:37 ===
+  it_received_this_name_because_it: "Theoretically possible to extract energy and mass from this region",
+  the_outer_surface_of_the_ergosphere: "Called the static surface or static limit",
+  such_a_surface_would_appear_as_an_oblate_that: "Coincident with the event horizon at the pole of rotation, but at a greater distance from the event horizon at the equator",
+  an_implication_of_this_dragging_of_space: "The existence of negative energies within the ergosphere",
+
 };
 
 // ============================================================
