@@ -59471,6 +59471,17 @@ const FLAT_DICT = {
   reviewers: "Volunteers invited by the editors based on their published work or a recommendation by an existing reviewer",
   zentralblatt_math: "Now edited by the European Mathematical Society , FIZ Karlsruhe , and the Heidelberg Academy of Sciences",
 
+  // === INGESTED 2026-07-04 22:24 ===
+  light_escaping_from_the_surface_of_the_sun: "Predicted by Einstein in 1911 to be redshifted by roughly 2 ppm or 2 × 10 −6",
+  one_such_statement: "That gravitational effects are locally undetectable for a free-falling observer",
+  such_an_effect: "Verified in the 1959 Pound–Rebka experiment",
+  when_the_field: { definition: "Not uniform, the simplest and most useful case to consider is that of a spherically symmetric field", what_it_does: "", examples: "the emitter cannot be stationary inside the horizon, as was assumed above" },
+  when_the_photon: "Emitted at an infinitely large distance, there is no redshift",
+  the_value_for_the_surface_of_the_sun: "About 2 × 10 −6 , corresponding to 0.64 km/s",
+  an_improved_experiment: "Done by Pound and Snider in 1965, with an accuracy better than the 1% level",
+  when_the_first_satellite: "Launched, it showed the predicted shift of 38 microseconds per day",
+  this_rate_of_the_discrepancy: "Sufficient to substantially impair the function of GPS within hours if not accounted for",
+
 };
 
 // ============================================================
