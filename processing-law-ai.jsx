@@ -59454,6 +59454,9 @@ const FLAT_DICT = {
   the_carbonyl_oxygen_in_esters: { definition: "Weakly basic, less so than the carbonyl oxygen in amides due to resonance donation of an electron pair from nitrogen in amides, but forms adducts", what_it_does: "", examples: "alkoxides" },
   protecting_a_carboxylic_acid: "Useful in peptide synthesis, to prevent self-reactions of the bifunctional amino acids",
 
+  // === INGESTED 2026-07-04 22:18 ===
+  gibbons: "Elected a Fellow of the Royal Society (FRS) in 1999",
+
 };
 
 // ============================================================
