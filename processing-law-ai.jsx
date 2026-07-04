@@ -59294,6 +59294,21 @@ const FLAT_DICT = {
   this_is_because_dipole_moments: "Euclidean vector quantities with magnitude and direction, and a two equal vectors that oppose each other will cancel out",
   weak_deflection: "Even possible for nonpolar liquids",
 
+  // === INGESTED 2026-07-04 21:25 ===
+  light_scattering_spectroscopy: "A type of reflectance spectroscopy that determines tissue structures by examining elastic scattering",
+  spectroscopic_studies: "Central to the development of quantum mechanics",
+  the_coupling_of_the_two_states: "Strongest when the source energy matches the energy difference between the two states",
+  the_energy_e_of_a_photon: "Related to its frequency ν by E = hν where h is the Planck constant , [ 18 ] and so a spectrum of the system response vs",
+  the_types_of_spectroscopy: "Distinguished by the type of radiative energy involved in the interaction",
+  atomic_spectroscopy: "The first application of spectroscopy",
+  atoms_have_distinct_xray_spectra_that: "Attributable to the excitation of inner shell electrons to excited states",
+  rotations: "Collective motions of the atomic nuclei and typically lead to spectra in the microwave and millimetre-wave spectral regions",
+  electronic_excitations: "Studied using visible and ultraviolet spectroscopy as well as fluorescence spectroscopy",
+  acoustic_and_mechanical_responses: "Due to collective motions as well",
+  nuclei_have_distinct_energy_states_that: { definition: "Widely separated and lead to gamma ray spectra", what_it_does: "", examples: "The history of spectroscopy began with Isaac Newton 's optics experiments (1666–1672)" },
+  the_hydrogen_spectral_series_in_particular: "First successfully explained by the Rutherford–Bohr quantum model of the hydrogen atom",
+  in_some_cases_spectral_lines: "Well separated and distinguishable, but spectral lines can overlap and appear to be a single transition if the density of energy states is high enough",
+
 };
 
 // ============================================================
