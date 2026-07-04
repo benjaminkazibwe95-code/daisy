@@ -59080,6 +59080,9 @@ const FLAT_DICT = {
   tubes_of_force: "A group of electric lines of force",
   later_on_he: "Them as just an instance of magnetic lines of force or simply lines of force",
 
+  // === INGESTED 2026-07-04 20:19 ===
+  siemens_ag: "One of the largest electrotechnological firms in the world",
+
 };
 
 // ============================================================
