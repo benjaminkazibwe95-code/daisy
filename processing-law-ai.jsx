@@ -59580,6 +59580,21 @@ const FLAT_DICT = {
   as_the_lead_surgeons: "Often too busy to handle all hemodynamic control by themselves, specialists called perfusionists manage this aspect",
   radioactively_labeled_particles: "Injected into the test subject and a radiation detector measures radioactivity in tissues of interest",
 
+  // === INGESTED 2026-07-04 22:52 ===
+  the_first_implantable_arrays: "Microwire arrays developed in the 1950s",
+  myocytes_harvested_from_embryonic_chicks: "Dissociated and cultured onto the MEAs, and signals up to 1 mV high in amplitude were recorded",
+  these_arrays: "Approximately 180 μm allowing them to be used with high-power lenses",
+  electrodes_within_a_group: "Separated by 30 um with diameters of 10 μm",
+  arrays_such_as_this: { definition: "Used to examine local responses of neurons while also studying functional connectivity of organotypic slices", what_it_does: "", examples: "gold nanopillars [ 22 ] or nanocavities" },
+  the_three_major_categories_of_implantable_meas: "Microwire, silicon -based, [ 26 ] and flexible microelectrode arrays",
+  microwire_meas: { definition: "Largely made of stainless steel or tungsten and they can be used to estimate the position of individual recorded neurons by triangulation", what_it_does: "signals to be obtained along the length of the shank, rather than just at the ends of the shanks", examples: "position or velocity of motor movement that can be used to control a prosthetic device" },
+  in_vitro_meas: "Less suited for recording and stimulating single cells due to their low spatial resolution compared to patch clamp and dynamic clamp systems",
+  the_tissue_response: { definition: "Typically divided into short term and long term response", what_it_does: "", examples: "laminin , or drug eluting substances" },
+  dissociated_rat_cortical_neurons: { definition: "Integrated into a closed stimulus-response feedback loop to control an animat in a virtual environment", what_it_does: "", examples: "deep brain stimulators , cochlear implants , and cardiac pacemakers" },
+  the_meeting_contributions: "Available as open access proceeding books",
+  signals_from_the_neurons: "Relayed in a closed-loop between Perth and Atlanta as the MEA stimulated the pneumatic arm",
+  meart: "First exhibited to the public in the exhibition Biofeel at the Perth Institute of Contemporary Arts in 2002",
+
 };
 
 // ============================================================
