@@ -59743,6 +59743,12 @@ const FLAT_DICT = {
   the_stable_integration_of_viral_genes: { definition: "Mediated by the retroviral interiors of these vectors", what_it_does: "", examples: "an antigen for generation of immunity against a disease" },
   the_flaviviruses: "Formed into their own family when sufficient differences with the alphaviruses were noted due to the development of sequencing",
 
+  // === INGESTED 2026-07-04 23:32 ===
+  virus_classification: { definition: "The process of naming viruses and placing them into a taxonomic system similar to the classification systems used for cellular organisms", what_it_does: "", examples: "taxon structure" },
+  classifying_viruses_according_to_their_genome: "That those in a given category will all behave in a similar fashion, offering some indication of how to proceed with further research",
+  viriforms: "A polyphyletic category of endogenous viral elements",
+  other_members: "So-called gene transfer agents (GTAs) found among prokaryotes",
+
 };
 
 // ============================================================
