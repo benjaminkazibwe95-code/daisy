@@ -59149,6 +59149,21 @@ const FLAT_DICT = {
   the_notion_of_the_tautological_oneform: "Commonly used in this setting",
   when_the_function: "Not differentiable, the Legendre transform can still be extended, and is known as the Legendre-Fenchel transformation",
 
+  // === INGESTED 2026-07-04 20:47 ===
+  commonly_the_term: { definition: "Used to refer to changes among the basic states of matter : solid , liquid , and gas , and in rare cases, plasma", what_it_does: "", examples: "temperature or pressure" },
+  the_resulting_state: { definition: "Metastable , i.e., less stable than the phase to which the transition would have occurred, but not unstable either", what_it_does: "", examples: "in alpha- titanium aluminides" },
+  the_most_wellknown: "The transition between the ferromagnetic and paramagnetic phases of magnetic materials, which occurs at what is called the Curie point",
+  a_peritectoid_reaction: { definition: "A peritectoid reaction, except involving only solid phases", what_it_does: "", examples: "in supersaturation" },
+  an_example_of_an_order_parameter: { definition: "The net magnetization in a ferromagnetic system undergoing a phase transition", what_it_does: "", examples: "superconducting and ferromagnetic, can have order parameters for more than one degree of freedom" },
+  continuous_phase_transitions: "Easier to study than first-order transitions due to the absence of latent heat , and they have been discovered to have many interesting properties",
+  the_most_important_one: "Perhaps the exponent describing the divergence of the thermal correlation length by approaching the transition",
+  the_critical_exponents: { definition: "Not necessarily the same above and below the critical temperature", what_it_does: "", examples: "γ {\displaystyle \gamma } , the exponent of the susceptibility) are not identical" },
+  at_least_one_experiment: "Performed in the zero-gravity conditions of an orbiting satellite to minimize pressure differences in the sample",
+  an_example_of_such_behavior: "The 3D ferromagnetic phase transition",
+  exponents: "Related by scaling relations, such as It can be shown that there are only two independent exponents, e.g",
+  it_has_long_been_known_that_protein_globules: "Shaped by interactions with water",
+  twenty_fractals: "Discovered in solvent associated surface areas of > 5000 protein segments",
+
 };
 
 // ============================================================
