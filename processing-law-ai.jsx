@@ -59565,6 +59565,14 @@ const FLAT_DICT = {
   a_special_case_of_direct_detection: { definition: "Directional sensitivity, which attempts to correlate WIMP signals with the direction of the Solar System's motion towards Cygnus", what_it_does: "", examples: "in regions of high dark matter density (e.g" },
   explaining_any_individual_observation: "Possible but explaining all of them in the absence of dark matter is very difficult",
 
+  // === INGESTED 2026-07-04 22:46 ===
+  the_rest_of_the_brain_tissue: "The structural stroma that includes connective tissue such as the meninges , blood vessels , and ducts",
+  the_two_main_types_of_cells_in_the_brain: "Neurons , also known as nerve cells, and glial cells , also known as neuroglia",
+  neurons_are_polarised_cells_that: { definition: "Specialised for the conduction of action potentials also called nerve impulses", what_it_does: "", examples: "excitatory dopaminergic neurons and inhibitory GABAergic neurons" },
+  disruption_of_this_balance: "A common feature of neuropsychiatric disorders such as schizophrenia",
+  the_three_types_of_glial_cells: "Astrocytes , oligodendrocytes , and ependymal cells , known collectively as macroglia , and the smaller scavenger cells known as microglia",
+  glial_stem_cells: "Found in all parts of the adult brain",
+
 };
 
 // ============================================================
