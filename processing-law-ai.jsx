@@ -59606,6 +59606,18 @@ const FLAT_DICT = {
   when_the_ground_regulation: "Out of balance, the probability of chronic illness increases",
   the_implication_of_the_work: "That a vectoral electron transport process may be greater the smaller the potential, as in living systems",
 
+  // === INGESTED 2026-07-04 23:05 ===
+  central_nervous_system_tumors: "The most common forms of pediatric cancer",
+  bacterial_organisms: { definition: "Most often the cause, but animal parasites and fungi can also cause the infection", what_it_does: "", examples: "injury, repetitive strain, genetics, and tumors" },
+  a_tumor: { definition: "An abnormal growth of body tissue", what_it_does: "", examples: "brain and spinal cord tumors, are still largely unknown" },
+  ionizing_radiation: "The only well-established environmental risk factor, accounting for only a few percent of incident CNS tumors",
+  a_few_percent_of_cns_tumor_cases: "Owing to specific inherited syndromes",
+  an_autoimmune_disorder: "A condition where in the immune system attacks and destroys healthy body tissue",
+  catalepsy: { definition: "Considered a symptom of serious diseases of the nervous system (e.g., Parkinson's disease , Epilepsy , etc.) rather than a disease by itself", what_it_does: "", examples: "Lorazepam ) in pill and I.V" },
+  meningitis: "An inflammation of the meninges (membranes) of the brain and spinal cord",
+  myelopathy: "An injury to the spinal cord due to severe compression that may result from trauma, congenital stenosis, degenerative disease or disc herniation",
+  lewy_body_dementia: "An umbrella term for two similar and common subtypes of dementia : [ 35 ] dementia with Lewy bodies (DLB) and Parkinson's disease dementia (PDD)",
+
 };
 
 // ============================================================
