@@ -59786,6 +59786,11 @@ const FLAT_DICT = {
   the_processes_that: { definition: "Operating must therefore have been systemic and worldwide", what_it_does: "", examples: "sponges and diatoms became prevalent" },
   just_four: "Represented in the Avalon assemblage",
 
+  // === INGESTED 2026-07-04 23:43 ===
+  this_toxin: "Also present in many other species ranging from toads to nemerteans",
+  another_type_of_paralysis: "Caused by a fibrocartilaginous embolism",
+  if_a_clot: "Large enough to block one or both femoral arteries, there may be hind leg paralysis because the major source of blood flow to the hind leg is blocked",
+
 };
 
 // ============================================================
