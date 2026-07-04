@@ -59618,6 +59618,21 @@ const FLAT_DICT = {
   myelopathy: "An injury to the spinal cord due to severe compression that may result from trauma, congenital stenosis, degenerative disease or disc herniation",
   lewy_body_dementia: "An umbrella term for two similar and common subtypes of dementia : [ 35 ] dementia with Lewy bodies (DLB) and Parkinson's disease dementia (PDD)",
 
+  // === INGESTED 2026-07-04 23:09 ===
+  the_term_chronic: { definition: "Often applied when the course of the disease lasts for more than three months", what_it_does: "", examples: "acquired immunodeficiency syndrome" },
+  chronic_illnesses: "Sometimes contrasted with terminal illnesses , which will end the affected person’s life",
+  periods_of_remission_and_relapse: { definition: "Commonly discussed when referring to substance abuse disorders, which some consider to fall under the category of chronic condition", what_it_does: "", examples: "syndromes, physical impairments, disabilities as well as diseases" },
+  social_determinants: "Important risk factors for chronic diseases",
+  adults_with_chronic_illness: "Significantly more likely to report life dissatisfaction than those without chronic illness",
+  these_modifiable_behaviors: { definition: "Becoming widespread across both rural and urban areas", what_it_does: "", examples: "diabetes, heart, and kidney disease" },
+  while_typically_higher_socioeconomic_status: { definition: "Correlated with lower occurrence of chronic disease, it is not known is there is a direct cause and effect relationship between these two variables", what_it_does: "", examples: "AIDS is also different from that of noncommunicable chronic disease" },
+  communicable_chronic_diseases: { definition: "Also typically only treatable with medication intervention, rather than lifestyle change as some non-communicable chronic diseases can be treated", what_it_does: "", examples: "diabetes, asthma, high blood pressure, and elevated cholesterol levels" },
+  a_striking_success: "The development of combined antiviral therapies that led to remarkable improvement in survival rates and quality of life of HIV -infected patients",
+  a_particular_concern: { definition: "The rising rates of overweight and obesity in all segments of the U.S", what_it_does: "", examples: "diabetes, stroke, cardiovascular disease and cancers" },
+  and_chronic_illness_therapists: "Available for support to help with the mental toll of chronic illness as it is often underestimated in society",
+  this_type_of_constant_attention_that: "Required by type 1 diabetes and other chronic illness can result in psychological maladjustment",
+  racial_minorities: { definition: "1.5-2 times more likely to have most chronic diseases than white individuals", what_it_does: "", examples: "the American Diabetes Association , Alzheimer's Association , or Crohn's and Colitis Foundation" },
+
 };
 
 // ============================================================
