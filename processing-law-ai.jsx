@@ -59595,6 +59595,10 @@ const FLAT_DICT = {
   signals_from_the_neurons: "Relayed in a closed-loop between Perth and Atlanta as the MEA stimulated the pneumatic arm",
   meart: "First exhibited to the public in the exhibition Biofeel at the Perth Institute of Contemporary Arts in 2002",
 
+  // === INGESTED 2026-07-04 22:56 ===
+  background: "Minimised by optimising blocking and washing methods (as for IHC), and specificity is ensured via the presence of positive and negative controls",
+  detection_methods: "Usually colorimetric or chemiluminescence based",
+
 };
 
 // ============================================================
