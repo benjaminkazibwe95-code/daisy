@@ -59083,6 +59083,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-04 20:19 ===
   siemens_ag: "One of the largest electrotechnological firms in the world",
 
+  // === INGESTED 2026-07-04 20:28 ===
+  the_electric_rays: "A group of rays , flattened cartilaginous fish with enlarged pectoral fins , composing the order Torpediniformes / t ɔːr ˈ p ɛ d ɪ n ɪ f ɔːr m iː z /",
+  perhaps_the_best_known_members: "Those of the genus Torpedo",
+  a_pair_of_kidney_shaped_electric_organs: "At the base of the pectoral fins",
+  the_snout: "Broad, large in the Narcinidae, but reduced in all other families",
+
 };
 
 // ============================================================
