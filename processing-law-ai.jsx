@@ -59599,6 +59599,13 @@ const FLAT_DICT = {
   background: "Minimised by optimising blocking and washing methods (as for IHC), and specificity is ensured via the presence of positive and negative controls",
   detection_methods: "Usually colorimetric or chemiluminescence based",
 
+  // === INGESTED 2026-07-04 23:00 ===
+  bernard: "Initially only concerned with the role of the blood but he later included that of the whole body in ensuring this internal stability",
+  the_stability_of_the_internal_environment: "The condition for the free and independent life",
+  this_ground_substance: { definition: "Made up of 'amorphous' and 'structural' ground substance", what_it_does: "", examples: "collagen , which not only conducts energy but generates it, due to its piezoelectric properties" },
+  when_the_ground_regulation: "Out of balance, the probability of chronic illness increases",
+  the_implication_of_the_work: "That a vectoral electron transport process may be greater the smaller the potential, as in living systems",
+
 };
 
 // ============================================================
