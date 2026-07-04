@@ -59137,6 +59137,18 @@ const FLAT_DICT = {
   atmospheric_thermodynamic_diagrams: { definition: "Used as tools in the forecasting of storm development", what_it_does: "", examples: "convective-equilibrium climate models" },
   those_dynamics: { definition: "Modified by the force of the pressure gradient and that motion is modified by the Coriolis force", what_it_does: "", examples: "equivalent potential temperature, wet-bulb and virtual temperatures" },
 
+  // === INGESTED 2026-07-04 20:45 ===
+  the_legendre_transformation: "An application of the duality relationship between points and lines",
+  this_definition_of_the_legendre_transformation: "The one originally introduced by Legendre in his work in 1787, [ 1 ] and is still applied by physicists nowadays",
+  a_legendre_transform: "Used in classical mechanics to derive the Hamiltonian formulation from the Lagrangian formulation , and conversely",
+  the_new_variable: "The partial derivative of the original function with respect to the original variable",
+  this_approach_is_justified_because_u: "A linear function with respect to V (so a convex function on V ) by the definition of extensive variables",
+  the_nonstandard_legendre_transform_here: "Obtained by negating the standard version, so − U ∗ = H = U − ∂ U ∂ V V = U + P V {\textstyle -U^{*}=H=U-{\frac {\partial U}{\partial V}}V=U+PV}",
+  the_enthalpy: "Suitable for description of processes in which the pressure is controlled from the surroundings",
+  an_important_application_of_the_rate_function: "In the calculation of tail probabilities of sums of i.i.d",
+  the_notion_of_the_tautological_oneform: "Commonly used in this setting",
+  when_the_function: "Not differentiable, the Legendre transform can still be extended, and is known as the Legendre-Fenchel transformation",
+
 };
 
 // ============================================================
