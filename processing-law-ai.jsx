@@ -59185,6 +59185,23 @@ const FLAT_DICT = {
   the_carnot_engine: "Supposed to be frictionless and have perfect insulation or conduction where required",
   in_france_the_better_known_carnots: "His father , his nephew and his younger brother",
 
+  // === INGESTED 2026-07-04 20:51 ===
+  subsonic_explosions: { definition: "Created by low explosives through a slower combustion process known as deflagration", what_it_does: "", examples: "volcanic eruptions , or two objects striking each other at very high speeds, as in an impact event" },
+  solar_flares: "An example of common, much less energetic, explosions on the Sun, and presumably on most other stars as well",
+  this_occurs_because_the_two_objects: { definition: "Moving at very high speed relative to each other (a minimum of 11.2 kilometres per second (7.0 mi/s) for an Earth impacting body [ 3 ] )", what_it_does: "", examples: "the Tunguska event of 1908 is believed to have resulted from a meteor air burst" },
+  the_most_common_artificial_explosives: "Chemical explosives, usually involving a rapid and violent oxidation reaction that produces large amounts of hot gas",
+  gunpowder: "The first explosive to be invented and put to use",
+  chemical_reactions_that_cause_explosions: "Typically either unimolecular decomposition reactions or multi-molecular reduction-oxidation (redox) reactions",
+  this_arc_flash_hazard: { definition: "A danger to people working on energized switchgear", what_it_does: "", examples: "an overheated boiler or a simple tin can of beans tossed into a fire" },
+  explosive_force: "Released in a direction perpendicular to the surface of the explosive",
+  if_a_grenade: "In mid air during the explosion, the direction of the blast will be 360°",
+  the_speed_of_the_reaction: "What distinguishes an explosive reaction from an ordinary combustion reaction",
+  when_a_chemical_compound: "Formed from its constituents, heat may either be absorbed or released",
+  a_positive_value_indicates_that_heat: "Absorbed during the formation of the compound from its elements; such a reaction is called an endothermic reaction",
+  in_explosive_technology_only_materials_that: "Exothermic —that have a net liberation of heat and have a negative heat of formation—are of interest",
+  reaction_heat: "Measured under conditions either of constant pressure or constant volume",
+  fragmentation: "The accumulation and projection of particles as the result of a high explosives detonation",
+
 };
 
 // ============================================================
