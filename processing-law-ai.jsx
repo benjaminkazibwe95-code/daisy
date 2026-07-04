@@ -59050,6 +59050,31 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-03 20:23 ===
   the_gut_metagenome: "The aggregate of all the genomes of gut microbiota",
 
+  // === INGESTED 2026-07-04 19:52 ===
+  the_specialized_class: "A sub-class , and the class it is based on is its superclass",
+  the_object_is_usable_until_it: "Destroyed – its state memory is de-allocated",
+  other_implementations: "Possible: for example, objects in Python use associative key-value containers",
+  encapsulation_of_state: "Necessary for being able to enforce the invariants of the class",
+  methods: { definition: "Subroutines with the ability to operate on objects or classes", what_it_does: "", examples: "an abstract class can define an interface without providing an implementation" },
+  a_common_conceptual_error: { definition: "To mistake a part of relation with a subclass", what_it_does: "", examples: "instances of Body , Engine , Tires , etc" },
+  a_similar_issue: { definition: "Whether or not the class hierarchy can be modified at run time", what_it_does: "", examples: "Flavors, CLOS, and Smalltalk all support this feature as part of their meta-object protocols" },
+  since_classes: { definition: "Themselves first-class objects, it is possible to have them dynamically alter their structure by sending them the appropriate messages", what_it_does: "", examples: "Java and C++ do not allow the class hierarchy to be modified at run time" },
+  compositional_relationship_between_classes: { definition: "Also commonly known as a has-a relationship", what_it_does: "", examples: "a class Car could be composed of and contain a class Engine" },
+  one_aspect_of_composition: "Containment, which is the enclosure of component instances by the instance that has them",
+  if_the_components: { definition: "Contained by reference, they may not have a similar lifetime", what_it_does: "", examples: "in Objective-C 2" },
+  classes_in_the_same_level: "More likely to be associated than classes in different levels",
+  the_levels_of_this_hierarchy: "Called layers or levels of abstraction",
+  association_role_multiplicity: "How many instances correspond to each instance of the other class of the association",
+  common_multiplicities: "'0..1', '1..1', '1..*' and '0..*', where the '*' specifies any number of instances",
+  an_abstract_class: { definition: "Either labeled as such explicitly or it may simply specify abstract methods (or virtual methods )", what_it_does: "", examples: "in Java , C# and PHP , the reserved word (keyword) abstract is used" },
+  an_inner_class: "Typically neither associated with instances of the enclosing class nor instantiated along with its enclosing class",
+  one_common_restriction: "To disallow local class methods to access local variables of the enclosing function",
+  metaclasses: "Often used to describe frameworks",
+  a_final_class: "Implicitly a concrete class, can be instantiated directly",
+  a_class: { definition: "Declared as final via the keyword final in Java, C++ or PHP, or sealed in C#", what_it_does: "", examples: "Java's String class is marked as final" },
+  software_reuse: "Also a major benefit of using Object classes",
+  the_structure_and_behavior_of_an_object: "Defined by a class , which is a syntactic structure, or blueprint , of all objects of a specific type",
+
 };
 
 // ============================================================
