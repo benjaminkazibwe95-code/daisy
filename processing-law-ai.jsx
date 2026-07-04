@@ -59230,6 +59230,15 @@ const FLAT_DICT = {
   if_two_of_the_kinds_of_wall: "Left unsealed, then energy transfer can be shared between them, so that the two remaining permitted terms do not correspond precisely",
   the_flow_of_matter_across_the_boundary: "Zero when considered as a flow of total mass",
 
+  // === INGESTED 2026-07-04 20:55 ===
+  the_temperature_used_in_the_equation_of_state: "An absolute temperature: the appropriate SI unit is the kelvin",
+  how_much_gas: { definition: "Present could be specified by giving the mass instead of the chemical amount of gas", what_it_does: "", examples: "R ¯ {\displaystyle {\bar {R}}} or R ∗ {\displaystyle R^{*}} to distinguish it" },
+  a_thermodynamic_process: "Defined as a system that moves from state 1 to state 2, where the state number is denoted by a subscript",
+  if_three_of_the_six_equations: "Known, it may be possible to derive the remaining three using the same method",
+  hence_where_d_s: "The infinitesimal area element along the walls of the container",
+  since_the_divergence_of_the_position_vector_q: "The divergence theorem implies that where dV is an infinitesimal volume within the container and V is the total volume of the container",
+  an_additional_derivation: "Possible using the particle in a box model of quantum mechanics",
+
 };
 
 // ============================================================
