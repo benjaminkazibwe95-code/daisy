@@ -463,6 +463,36 @@
       height: 280px;
       background: #fff; /* the previewed page sets its own colors; white avoids a dark flash before it loads */
     }
+    /* Document card — a clean typeset "page" look, not a code view.
+       Deliberately plain paper styling (serif-ish headings, generous
+       margins) so a report/invoice/letter reads like a document, not
+       like markup. */
+    .doc-card-page {
+      background: #fdfdfb;
+      color: #24211c;
+      border-top: 1px solid var(--border);
+      padding: 22px 20px;
+      max-height: 420px;
+      overflow-y: auto;
+      font-size: 13.5px;
+      line-height: 1.6;
+    }
+    .doc-card-page h1, .doc-card-page h2, .doc-card-page h3 {
+      font-family: 'Instrument Serif', serif;
+      color: #1c1a15;
+      margin: 0.6em 0 0.35em;
+    }
+    .doc-card-page h1 { font-size: 22px; }
+    .doc-card-page h2 { font-size: 18px; }
+    .doc-card-page h3 { font-size: 15.5px; }
+    .doc-card-page p { margin: 0.5em 0; }
+    .doc-card-page ul, .doc-card-page ol { margin: 0.4em 0; padding-left: 22px; }
+    .doc-card-page li { margin: 0.25em 0; }
+    .doc-card-page table { width: 100%; border-collapse: collapse; margin: 0.6em 0; font-size: 12.5px; }
+    .doc-card-page th, .doc-card-page td { border: 1px solid #ddd8cc; padding: 6px 9px; text-align: left; }
+    .doc-card-page th { background: #eef3fa; }
+    .doc-card-page strong { color: #14202c; }
+    .doc-card .file-card-icon { color: var(--daisy); }
     .file-card-pre {
       margin: 0;
       border: none; border-radius: 0;
@@ -2240,6 +2270,40 @@ document.addEventListener('DOMContentLoaded', function() {
       const isFile = !!filename && /\.[a-zA-Z0-9]+$/.test(filename);
       const codeHtml = escHtml(code);
 
+      // DOCUMENT: a clean, typeset document (report, invoice, letter,
+      // marks list, anything meant to be read/printed/sent) — rendered
+      // from its own markdown like a real page, never shown as raw
+      // code. Deliberately separate from the webpage/code file-card
+      // below: this is for things meant to be READ, not run, and it
+      // exports straight to a correctly-formatted PDF because the
+      // source really is plain markdown, not HTML/CSS pretending to be one.
+      if (isFile && lang === 'document') {
+        const lines = code.split('\n').length;
+        let docHtml;
+        try {
+          docHtml = (typeof marked !== 'undefined') ? marked.parse(code) : `<pre>${codeHtml}</pre>`;
+        } catch (e) {
+          docHtml = `<pre>${codeHtml}</pre>`;
+        }
+        if (typeof DOMPurify !== 'undefined') docHtml = DOMPurify.sanitize(docHtml);
+
+        return `<div class="file-card doc-card">
+          <div class="file-card-head">
+            <span class="file-card-icon">${ICONS.file}</span>
+            <div class="file-card-meta">
+              <div class="file-card-name">${escHtml(filename)}</div>
+              <div class="file-card-sub">Document · ${lines} line${lines === 1 ? '' : 's'} · ${formatBytes(code.length)}</div>
+            </div>
+          </div>
+          <div class="file-card-actions">
+            <button class="file-card-btn" data-action="copy" data-code-id="${id}">${ICONS.copy}<span>Copy</span></button>
+            <button class="file-card-btn primary" data-action="save-pdf" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.file}<span>Save as PDF</span></button>
+            <button class="file-card-btn" data-action="download" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.download}<span>Download</span></button>
+          </div>
+          <div class="doc-card-page">${docHtml}</div>
+        </div>`;
+      }
+
       if (isFile) {
         const ext = (filename.split('.').pop() || '').toLowerCase();
         const badge = FILE_EXT_LABEL[ext] || ext.toUpperCase().slice(0, 4) || 'FILE';
@@ -2491,6 +2555,15 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!question) return false;
     return /\b(pdf|printable|print(ed)?\s+(this|version)|as a document)\b/i.test(question);
   }
+  function containsFileCard(text) {
+    // Any ```language:filename.ext fence — html, svg, document, anything.
+    // Those already have their own correct export (Print for HTML/SVG,
+    // a direct Save as PDF for documents) — the generic message-level
+    // PDF button must never run on text that includes one of these,
+    // since that means grabbing the raw source/markup as if it were
+    // plain prose and exporting THAT instead, producing a garbled PDF.
+    return /```[a-zA-Z0-9_-]+:[^\n`]+\.[a-zA-Z0-9]+\s*\n/.test(text || '');
+  }
   function isLongOrStructuredAnswer(text) {
     if (!text) return false;
     const wordCount = text.trim().split(/\s+/).filter(Boolean).length;
@@ -2522,7 +2595,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  function buildActionToolbar(rawTextGetter, question) {
+  function buildActionToolbar(rawTextGetter, question, rawSourceText) {
     const bar = document.createElement('div');
     bar.className = 'msg-actions';
 
@@ -2577,7 +2650,7 @@ document.addEventListener('DOMContentLoaded', function() {
     bar.appendChild(shareBtn);
 
     const currentText = rawTextGetter();
-    if (isExplicitPdfRequest(question) || isLongOrStructuredAnswer(currentText)) {
+    if (!containsFileCard(rawSourceText) && (isExplicitPdfRequest(question) || isLongOrStructuredAnswer(currentText))) {
       const pdfBtn = document.createElement('button');
       pdfBtn.className = 'msg-action-btn';
       pdfBtn.innerHTML = ICONS.file;
@@ -2613,7 +2686,7 @@ document.addEventListener('DOMContentLoaded', function() {
       finalizeRenderedContent(body);
       div.appendChild(label);
       div.appendChild(body);
-      div.appendChild(buildActionToolbar(() => body.innerText, opts.question));
+      div.appendChild(buildActionToolbar(() => body.innerText, opts.question, text));
     } else {
       div.textContent = text;
       div.addEventListener('click', () => openMsgMenu(div, text));
@@ -2698,7 +2771,7 @@ document.addEventListener('DOMContentLoaded', function() {
     div.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
     await typeIntoBody(body, text, div);
-    div.appendChild(buildActionToolbar(() => body.innerText, opts.question));
+    div.appendChild(buildActionToolbar(() => body.innerText, opts.question, text));
     return div;
   }
 
@@ -2883,7 +2956,7 @@ document.addEventListener('DOMContentLoaded', function() {
       await addMsgTyped(answer, { question: text });
       recordMessage('daisy', answer);
       if (ttsOn) speak(answer);
-      if (isExplicitPdfRequest(text)) downloadAsPdf(null, text, answer);
+      if (isExplicitPdfRequest(text) && !containsFileCard(answer)) downloadAsPdf(null, text, answer);
     } catch(e) {
       panel._cancel();
       panel.remove();
@@ -3067,7 +3140,7 @@ document.addEventListener('DOMContentLoaded', function() {
           recordMessage('daisy', answer);
           transcript.textContent = answer;
           speak(answer);
-          if (isExplicitPdfRequest(question)) downloadAsPdf(null, question, answer);
+          if (isExplicitPdfRequest(question) && !containsFileCard(answer)) downloadAsPdf(null, question, answer);
         } catch(e) {
           panel._cancel();
           panel.remove();
