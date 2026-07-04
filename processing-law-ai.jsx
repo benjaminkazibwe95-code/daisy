@@ -59164,6 +59164,27 @@ const FLAT_DICT = {
   it_has_long_been_known_that_protein_globules: "Shaped by interactions with water",
   twenty_fractals: "Discovered in solvent associated surface areas of > 5000 protein segments",
 
+  // === INGESTED 2026-07-04 20:49 ===
+  typically_it: { definition: "Done by steam engines", what_it_does: "", examples: "these had attracted some of the ablest mathematicians and physicists in France" },
+  if_the_second_law: "Not true, it would be possible to drive a steam-ship across the ocean by extracting heat from the ocean",
+  cardwell_believed_that_carnot: "Inspired by the column-of-water engine , an early form of hydropower",
+  popular_in_districts_where_coal: "Scarce, it was similar to a steam engine, but driven by the pressure of a head of water instead of steam",
+  today_this_engine: "Called the Carnot engine in his honour",
+  its_point: "That it represents the ideal or extreme limit which cannot be surpassed even in theory",
+  the_carnot_cycle: "Illustrated in the animation; and since it is completely reversible, by Carnot's Principle its efficiency must be the best that can be achieved",
+  this_was_not_done_by_carnot_himself_and: "Not necessary for an intuitive understanding of his ideas",
+  it_held_that_heat: "A material fluid that can flow from one place to another: its temperature may vary, but it can never itself be destroyed nor created",
+  the_caloric_theory: "Highly developed, mathematically sophisticated, and plausible",
+  it_was_not_heat_that: "Conserved, but a more general thing: energy",
+  one_person_who_did_read_it: "His friend Émile Clapeyron who rewrote the theory in a mathematical treatment and published it in a learned journal; it was translated into English",
+  hence_thomson: "Extremely reluctant to give up the caloric theory, even though his friend Joule was insisting it was wrong",
+  a_simple_way_to_correct_the_mistake: "Described by James Clerk Maxwell in his Theory of Heat (1871)",
+  its_impossibility: "Kelvin's version of the second law of thermodynamics",
+  the_first_law_of_thermodynamics: "The conservation of energy",
+  carnot_himself: "Able to state that it depended on the temperature difference between the hot source and cold sink, and the temperature of the cold sink",
+  the_carnot_engine: "Supposed to be frictionless and have perfect insulation or conduction where required",
+  in_france_the_better_known_carnots: "His father , his nephew and his younger brother",
+
 };
 
 // ============================================================
