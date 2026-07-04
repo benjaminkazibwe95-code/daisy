@@ -59512,6 +59512,32 @@ const FLAT_DICT = {
   if_the_piston: "Slowly lowered, the system will trace a curve of increasing temperature and pressure within the gas region of the phase diagram",
   between_two_phases_in_equilibrium_there: { definition: "A narrow region where the properties are not that of either phase", what_it_does: "", examples: "causing a liquid to exhibit surface tension" },
 
+  // === INGESTED 2026-07-04 22:35 ===
+  quantum_states: "Either pure or mixed , and have several possible representations",
+  pure_quantum_states: { definition: "Commonly represented as a vector in a Hilbert space", what_it_does: "", examples: "the singlet , and states describing many-body quantum systems in a Fock space" },
+  the_quantum_state_after_a_measurement: "In an eigenstate corresponding to that measurement and the value measured",
+  any_state_that_is_not_pure: "Called a mixed state as discussed in more depth below",
+  the_equivalent_momentum_wave_function: "Another wave function based representation",
+  if_its_momentum: "Measured, the result is guaranteed to be 1 kg ⋅ m/s",
+  how_a_quantum_state_changes_in_time: "Governed by the time evolution operator",
+  a_mixture_of_quantum_states: "Again a quantum state",
+  statistical_mixtures_of_states: "A different type of linear combination",
+  a_statistical_mixture_of_states: "A statistical ensemble of independent systems",
+  unlike_the_linear_combination_case_each_system: "In a definite eigenstate",
+  there_is_no_state_that: { definition: "Simultaneously an eigenstate for all observables", what_it_does: "", examples: "an experiment with two particles rather than one" },
+  both_viewpoints: "Used in quantum theory",
+  any_given_system: "Identified with some finite- or infinite-dimensional Hilbert space",
+  multiplying_a_pure_state_by_a_scalar: "Physically inconsequential (as long as the state is considered by itself)",
+  mathematically_it: "Described with spinors",
+  the_treatment_of_identical_particles: "Very different for bosons (particles with integer spin) versus fermions (particles with half-integer spin)",
+  when_symmetrization_or_antisymmetrization: "Unnecessary, N -particle spaces of states can be obtained simply by tensor products of one-particle spaces, to which we will return later",
+  an_example_of_the_continuous_case: "Given by the position operator",
+  a_particle: "Said to be in a bound state if it remains localized in a bounded region of space for all times",
+  one_example_of_superposition: "The double-slit experiment , in which superposition leads to quantum interference",
+  a_pure_quantum_state: "A state which can be described by a single ket vector, as described above",
+  a_mixed_quantum_state: "A statistical ensemble of pure states (see Quantum statistical mechanics )",
+  the_rules_for_measurement_in_quantum_mechanics: "Particularly simple to state in terms of density matrices",
+
 };
 
 // ============================================================
