@@ -59239,6 +59239,22 @@ const FLAT_DICT = {
   since_the_divergence_of_the_position_vector_q: "The divergence theorem implies that where dV is an infinitesimal volume within the container and V is the total volume of the container",
   an_additional_derivation: "Possible using the particle in a box model of quantum mechanics",
 
+  // === INGESTED 2026-07-04 21:02 ===
+  logical_axioms: { definition: "Taken to be true within the system of logic they define and are often shown in symbolic form (e.g", what_it_does: "", examples: "the parallel postulate in Euclidean geometry )" },
+  any_axiom: "A statement that serves as a starting point from which other statements are logically derived",
+  axioms_and_postulates: "Thus the basic assumptions underlying a given body of deductive knowledge",
+  while_the_axioms: "Common to many sciences, the postulates of each particular science were different",
+  their_validity_had_to_be_established_by: "Of real-world experience",
+  the_postulates_of_euclid: { definition: "Profitably motivated by saying that they lead to a great wealth of geometric facts", what_it_does: "", examples: "hyperbolic geometry )" },
+  another_lesson_learned_in_modern_mathematics: "To examine purported proofs carefully for hidden assumptions",
+  an_early_success_of_the_formalist_program: "Hilbert's formalization [ b ] of Euclidean geometry , [ 13 ] and the related demonstration of the consistency of those axioms",
+  these_founding_assertions: "Usually called principles or postulates so as to distinguish from mathematical axioms",
+  a_theory: "Considered valid as long as it has not been falsified",
+  the_peano_axioms: "The most widely used axiomatization of first-order arithmetic",
+  the_objectives_of_the_study: { definition: "Within the domain of real numbers", what_it_does: "", examples: "both models that are smaller than the reals and models that are larger" },
+  some_of_the_latter: "Studied in non-standard analysis",
+  a_desirable_property_of_a_deductive_system: { definition: "That it be complete", what_it_does: "", examples: "'true in the intended interpretation'" },
+
 };
 
 // ============================================================
