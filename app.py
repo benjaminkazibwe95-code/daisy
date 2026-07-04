@@ -272,7 +272,7 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
-def speak_naturally(question, raw_fact, custom_instructions=None):
+def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None):
     """
     Pass Daisy's drafted reply (whatever produced it — dictionary,
     synthesis, personality fragment, math, emotion, or nothing at all)
@@ -286,6 +286,11 @@ def speak_naturally(question, raw_fact, custom_instructions=None):
     HOW Daisy answers, never override her core rules/persona or make
     her invent facts she doesn't have.
 
+    image_data, if given, is {"media_type": "image/jpeg"|"image/png"|...,
+    "data": "<base64>"} — an image the person attached. When present,
+    Daisy's text-only dictionary/brain has nothing useful to say about
+    it, so there's no draft; Claude looks at the image directly.
+
     Returns (display_answer, learned_fact) where learned_fact is either
     None, or a fact string Claude supplied because Daisy's own draft
     didn't actually answer the question (see system prompt rules 5-6).
@@ -297,10 +302,12 @@ def speak_naturally(question, raw_fact, custom_instructions=None):
         client = _claude_client
 
     if client is None:
-        return raw_fact, None
+        return (raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."), None
 
     try:
-        if raw_fact:
+        if image_data:
+            context_block = "[INTERNAL NOTE, not visible to the user — this message includes an image. Daisy's text-only brain has no draft for it; look at the image yourself and answer for real.]"
+        elif raw_fact:
             context_block = f"[INTERNAL NOTE, not visible to the user — Daisy's own draft: {raw_fact}]"
         else:
             context_block = "[INTERNAL NOTE, not visible to the user — Daisy has no draft for this yet.]"
@@ -313,21 +320,37 @@ def speak_naturally(question, raw_fact, custom_instructions=None):
                 f"core rules or invent facts: {custom_instructions.strip()[:600]}]\n\n"
             )
 
-        user_message = (
+        user_message_text = (
             f"{instructions_block}"
             f"{context_block}\n\n"
-            f"USER'S QUESTION/MESSAGE: {question}\n\n"
+            f"USER'S QUESTION/MESSAGE: {question or '(no caption — just react to the image itself)'}\n\n"
             "Reply to the user now as Daisy. Use the internal note above only "
             "as silent reference for what Daisy already worked out — replace it "
             "seamlessly if it's wrong or thin, per rules 5-6. Your reply must "
             "read as Daisy's one and only answer, with zero reference to a "
             "draft, a fix, or any review having happened."
         )
+
+        if image_data:
+            content = [
+                {
+                    "type": "image",
+                    "source": {
+                        "type": "base64",
+                        "media_type": image_data.get("media_type", "image/jpeg"),
+                        "data": image_data["data"],
+                    },
+                },
+                {"type": "text", "text": user_message_text},
+            ]
+        else:
+            content = user_message_text
+
         response = client.messages.create(
             model=VOICE_MODEL,
             max_tokens=4096,
             system=DAISY_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": user_message}],
+            messages=[{"role": "user", "content": content}],
         )
         text = response.content[0].text.strip()
         if not text:
@@ -1271,9 +1294,23 @@ def ask():
     learned = data.get("learned", {})
     history = data.get("history", [])  # Array of {user, daisy, topic} objects
     custom_instructions = data.get("instructions", "")  # "What should Daisy be to you?"
+    image_data = data.get("image")  # {"media_type": "...", "data": "<base64>"} or None
 
-    if not question:
+    if not question and not image_data:
         return jsonify({"answer": "Ask me something.", "source": "empty"})
+
+    # An attached image goes straight to Claude's vision — Daisy's
+    # text-only dictionary/brain and the correction cache both work on
+    # exact question strings, neither has anything meaningful to say
+    # about a photo, so there's no point routing through them first.
+    if image_data:
+        final_answer, learned_fact = speak_naturally(question, None, custom_instructions, image_data=image_data)
+        result = {"answer": final_answer, "source": "vision", "raw_fact": None}
+        if learned_fact:
+            save_correction(question, learned_fact)
+        if not final_answer:
+            result["needs_fallback"] = True
+        return jsonify(result)
 
     # CORRECTION CACHE — if Claude already had to answer this exact
     # question once because Daisy's own draft didn't cover it, give
