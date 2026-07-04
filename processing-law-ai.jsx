@@ -59202,6 +59202,34 @@ const FLAT_DICT = {
   reaction_heat: "Measured under conditions either of constant pressure or constant volume",
   fragmentation: "The accumulation and projection of particles as the result of a high explosives detonation",
 
+  // === INGESTED 2026-07-04 20:53 ===
+  internal_energy: "A property of the system, while work and heat describe the process, not the system",
+  heat_and_work: { definition: "Said to be path dependent , while change in internal energy depends only on the initial and final states of the system, not on the path between", what_it_does: "", examples: "the caloric theory of heat" },
+  whereever_there: "Destruction of motive power, there is at the same time production of heat in quantity exactly proportional to the quantity of motive power destroyed",
+  jointly_primitive_with_this_notion_of_heat: "The notions of empirical temperature and thermal equilibrium",
+  this_nonuniqueness: "In keeping with the abstract mathematical nature of the internal energy",
+  the_concept_of_internal_energy: "Considered by Bailyn to be of 'enormous interest'",
+  bryan_wrote_about_systems_between_which_there: "No transfer of matter (closed systems): ' Definition",
+  this_reinterpretation: { definition: "Systematically expounded in 1909 by Constantin Carathéodory , whose attention had been drawn to it by Max Born", what_it_does: "", examples: "in the work of Hermann von Helmholtz , [ 25 ] but also in the work of many others" },
+  a_cyclic_process: "One that can be repeated indefinitely often, returning the system to its initial state",
+  the_first_two_quantities: "Specifiable in terms of appropriate mechanical variables, and by definition E t o t = E k i n + E p o t + U",
+  internal_energy_u: { definition: "Evaluated for bodies in states of thermodynamic equilibrium, which possess well-defined temperatures, relative to a reference state", what_it_does: "", examples: "walls that are permeable only to heat)" },
+  thus_heat: "Not defined calorimetrically or as due to temperature difference",
+  that_it: "Not always possible to reach any state 2 from any other state 1 by means of an adiabatic process",
+  sometimes_the_concept_of_internal_energy: "Not made explicit in the statement",
+  heat_supplied: { definition: "Then defined as the residual change in internal energy after work has been taken into account, in a non-adiabatic process", what_it_does: "", examples: "calorimetric evidence" },
+  the_original_discovery_of_the_law: "Gradual over a period of perhaps half a century or more, and some early studies were in terms of cyclic processes",
+  the_work_done_on_the_system: "Defined and measured by changes in mechanical or quasi-mechanical variables external to the system",
+  the_return_to_the_initial_state: "Not conducted by doing adiabatic work on the system",
+  it_is_irrelevant_if_the_work: "Electrical , mechanical, chemical,",
+  if_the_initial_and_final_states: "The same, then the integral of an inexact differential may or may not be zero, but the integral of an exact differential is always zero",
+  if_d_n_i: "Expressed in mol then μ i is expressed in J/mol",
+  the_parameters_x_i: "Independent of the size of the system and are called intensive parameters and the x i are proportional to the size and called extensive parameters",
+  an_open_system: "Not adiabatically enclosed",
+  the_case_of_a_wall_that: "Permeable to matter and can move so as to allow transfer of energy as work is not considered here",
+  if_two_of_the_kinds_of_wall: "Left unsealed, then energy transfer can be shared between them, so that the two remaining permitted terms do not correspond precisely",
+  the_flow_of_matter_across_the_boundary: "Zero when considered as a flow of total mass",
+
 };
 
 // ============================================================
