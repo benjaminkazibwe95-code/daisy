@@ -59730,6 +59730,19 @@ const FLAT_DICT = {
   edmonston_b: "Discontinued in 1975",
   the_mmr_vaccine: "Combined with the varicella vaccine to create the MMRV vaccine , which was licensed in 2005",
 
+  // === INGESTED 2026-07-04 23:26 ===
+  alphavirus: { definition: "A genus of RNA viruses , the sole genus in the Togaviridae family", what_it_does: "", examples: "humans, rodents, fish, birds, and larger mammals such as horses, as well as invertebrates" },
+  this_site: "Located at the base of a narrow cleft and is not readily accessible",
+  these_two_glycoproteins: "The targets of numerous serologic reactions and tests including neutralization and hemagglutination inhibition",
+  in_most_other_cases_the_virus: "Maintained in nature in mosquitoes, rodents and birds",
+  terrestrial_alphavirus_infections: "Spread by insect vectors such as mosquitoes",
+  once_a_human: "Bitten by the infected mosquito, the virus can gain entry into the bloodstream, causing viremia",
+  alphaviruses: "Able to cause the production of interferons",
+  diagnoses: "Based on clinical samples from which the virus can be easily isolated and identified",
+  such_chimeras: "Termed pseudotyped viruses",
+  the_stable_integration_of_viral_genes: { definition: "Mediated by the retroviral interiors of these vectors", what_it_does: "", examples: "an antigen for generation of immunity against a disease" },
+  the_flaviviruses: "Formed into their own family when sufficient differences with the alphaviruses were noted due to the development of sequencing",
+
 };
 
 // ============================================================
