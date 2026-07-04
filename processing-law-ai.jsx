@@ -59771,6 +59771,15 @@ const FLAT_DICT = {
   developing_countries: "Most heavily impacted, in part due to lack of access to medical care",
   toxocariasis: { definition: "A zoonotic infection caused by roundworms passed from dogs, and sometimes cats", what_it_does: "", examples: "visceral larva migrans and ocular larva migrans" },
 
+  // === INGESTED 2026-07-04 23:39 ===
+  the_retina: "Also technically part of the CNS",
+  within_the_meninges_the_brain_and_spinal_cord: "Bathed in cerebral spinal fluid which replaces the body fluid found outside the cells of all bilateral animals",
+  apart_from_cortical_gray_matter_there: { definition: "Also subcortical gray matter making up a large number of different nuclei", what_it_does: "", examples: "the brachial plexa , sacral plexa etc" },
+  other_nuclei: { definition: "Involved in balance , taste , hearing , and control of muscles of the face and neck", what_it_does: "", examples: "the cerebellum, the basal ganglia and both cerebral hemispheres , among others" },
+  previously_it: { definition: "Considered only a 'relay station', but it is engaged in the sorting of information that will reach cerebral hemispheres ( neocortex )", what_it_does: "", examples: "though the SCN" },
+  axons_in_the_cns: { definition: "Often very short, barely a few millimeters, and do not need the same degree of isolation as peripheral nerves", what_it_does: "", examples: "the nerves to the big toe" },
+  the_area_of_the_neocortex_of_mice: "Only about 1/100 that of monkeys, and that of monkeys is only about 1/10 that of humans",
+
 };
 
 // ============================================================
