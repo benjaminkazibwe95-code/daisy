@@ -59700,6 +59700,12 @@ const FLAT_DICT = {
   the_intracellular_mature_virions: "Then transported to the Golgi apparatus where it is wrapped with an additional two membranes, becoming the intracellular enveloped virus",
   this_triggers_actin_tails_on_cell_surfaces_or: "Released as external enveloped virion",
 
+  // === INGESTED 2026-07-04 23:20 ===
+  many_species_of_bacteria: { definition: "Subject to lysis by the enzyme lysozyme , found in animal saliva , egg white , and other secretions", what_it_does: "", examples: "the contractile vacuole that exists in some paramecia , which rapidly pump water out of the cell" },
+  oncolysis: "The destruction of neoplastic cells or of a tumour",
+  lysis: "Also used for protein purification , DNA extraction , and RNA extraction",
+  cell_lysis: { definition: "Best done at a pH range of 11.5–12.5", what_it_does: "", examples: "lysozyme or proteases to disintegrate the cell membrane" },
+
 };
 
 // ============================================================
