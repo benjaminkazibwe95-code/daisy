@@ -59780,6 +59780,12 @@ const FLAT_DICT = {
   axons_in_the_cns: { definition: "Often very short, barely a few millimeters, and do not need the same degree of isolation as peripheral nerves", what_it_does: "", examples: "the nerves to the big toe" },
   the_area_of_the_neocortex_of_mice: "Only about 1/100 that of monkeys, and that of monkeys is only about 1/10 that of humans",
 
+  // === INGESTED 2026-07-04 23:41 ===
+  most_macroscopic_fossils: { definition: "Morphologically distinct from later life-forms: they resemble discs, tubes, mud-filled bags or quilted mattresses", what_it_does: "", examples: "15 year-old Roger Mason" },
+  although_microbial_mats: "Once widespread before the Cambrian substrate revolution , the evolution of grazing organisms vastly reduced their numbers",
+  the_processes_that: { definition: "Operating must therefore have been systemic and worldwide", what_it_does: "", examples: "sponges and diatoms became prevalent" },
+  just_four: "Represented in the Avalon assemblage",
+
 };
 
 // ============================================================
