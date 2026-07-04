@@ -59417,6 +59417,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-04 22:05 ===
   salts_and_esters_of_methanesulfonic_acid: "Known as mesylates (or methanesulfonates, as in ethyl methanesulfonate )",
 
+  // === INGESTED 2026-07-04 22:10 ===
+  this_type_of_micelle: "Known as a normal-phase micelle (or oil-in-water micelle)",
+  micelles: { definition: "Approximately spherical in shape", what_it_does: "", examples: "ellipsoids, cylinders, and bilayers, are also possible" },
+  the_process_of_forming_micelles: "Known as micellisation and forms part of the phase behaviour of many lipids according to their polymorphism",
+  pioneering_work_in_this_area: "Carried out by James William McBain at the University of Bristol",
+  this_water_cage: "Similar to a clathrate and has an ice -like crystal structure and can be characterized according to the hydrophobic effect",
+  the_extent_of_lipid_solubility: { definition: "Determined by the unfavorable entropy contribution due to the ordering of the water structure according to the hydrophobic effect", what_it_does: "", examples: "its electrical conductivity" },
+  although_the_relaxation_processes: "The same between the two types of micelles, the kinetics of unimer exchange are very different",
+  the_rate_of_this_process: "Found to be a decreasing power-law of the degree of polymerization of the hydrophobic block to the power 2/3",
+  kinetically_frozen_micelles: "Formed when either of these conditions is met",
+  this_block_copolymer: { definition: "Characterized by the high hydrophobicity of the core forming block, PS , which causes the unimers to be insoluble in water", what_it_does: "", examples: "for the development of long circulating drug delivery nanoparticles" },
+  the_most_common_example_of_this_phenomenon: "Detergents , which clean poorly soluble lipophilic material (such as oils and waxes) that cannot be removed by water alone",
+  the_emulsifying_property_of_surfactants: { definition: "Also the basis for emulsion polymerization", what_it_does: "", examples: "when reacting molecules form micelles that shield a molecular component vulnerable to oxidation" },
+  micelle_formation: { definition: "Essential for the absorption of fat-soluble vitamins and complicated lipids within the human body", what_it_does: "", examples: "lecithin) and lipid-soluble vitamins (A, D, E, and K) within the micelle by the small intestine" },
+
 };
 
 // ============================================================
