@@ -59749,6 +59749,28 @@ const FLAT_DICT = {
   viriforms: "A polyphyletic category of endogenous viral elements",
   other_members: "So-called gene transfer agents (GTAs) found among prokaryotes",
 
+  // === INGESTED 2026-07-04 23:35 ===
+  an_early_and_influential_classification: "Proposed by Chitwood and Chitwood [ 38 ] —later revised by Chitwood [ 39 ] —who divided the phylum into two classes— Aphasmidia and Phasmidia",
+  this_scheme: "Adhered to in many later classifications, though the Adenophorea were not in a uniform group",
+  the_cuticle: { definition: "Often of a complex structure and may have two or three distinct layers", what_it_does: "", examples: "ridges, especially in carnivorous species, which may bear several teeth" },
+  digestive_glands: "Found in this region of the gut, producing enzymes that start to break down the food",
+  the_last_portion_of_the_intestine: "Lined by a cuticle, forming a rectum , which expels waste through the anus just below and in front of the tip of the tail",
+  in_secernentia_there: "An excretory canal system that may or may not use a gland cell",
+  the_ventral_nerve: "The largest, and has a double structure forward of the excretory pore",
+  the_dorsal_nerve: "Responsible for motor control, while the lateral nerves are sensory, and the ventral combines both functions",
+  these_are_well_supplied_with_nerve_cells_and: { definition: "Probably chemoreception organs", what_it_does: "", examples: "Caenorhabditis elegans , are androdioecious , consisting of hermaphrodites and rare males" },
+  nematode_sperm: "Thought to be the only eukaryotic cell without the globular protein G-actin",
+  a_few_species: "Known to be ovoviviparous",
+  elegans_that_are_longlived: "Shown to have increased DNA repair capability",
+  freeliving_marine_nematodes: "Important and abundant members of the meiobenthos",
+  dirofilaria_immitis: "Known for causing heartworm disease by inhabiting the hearts, arteries, and lungs of dogs and some cats",
+  haemonchus_contortus: "One of the most abundant infectious agents in sheep around the world, causing great economic damage to sheep",
+  atratus_and: { definition: "Fed to their larvae , thus completing the lifecycle of M", what_it_does: "", examples: "slugs and snails" },
+  this_nematode: { definition: "Transmitted from tree to tree by sawyer beetles ( Monochamus )", what_it_does: "", examples: "the fungus Gliocladium roseum" },
+  the_golden_nematode_globodera_rostochiensis: { definition: "A particularly harmful pest that has resulted in quarantines and crop failures worldwide", what_it_does: "", examples: "ascariasis , trichuriasis , and hookworm disease" },
+  developing_countries: "Most heavily impacted, in part due to lack of access to medical care",
+  toxocariasis: { definition: "A zoonotic infection caused by roundworms passed from dogs, and sometimes cats", what_it_does: "", examples: "visceral larva migrans and ocular larva migrans" },
+
 };
 
 // ============================================================
