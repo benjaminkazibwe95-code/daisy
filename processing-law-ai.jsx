@@ -59394,6 +59394,12 @@ const FLAT_DICT = {
   susceptibility_of_bacteria_to_degradation: "Also considerably affected by exposure to antibiotics",
   even_brief_exposure: { definition: "Sufficient to trigger a regulated response leading to increased production of biofilm matrix components", what_it_does: "", examples: "the vps ‑I and vps ‑II gene clusters that contribute to biofilm structure" },
 
+  // === INGESTED 2026-07-04 21:57 ===
+  chromic_acid: { definition: "Widely used in the musical instrument repair industry, due to its ability to 'brighten' raw brass", what_it_does: "", examples: "several that are catalytic" },
+  chromium_trioxide: { definition: "The anhydride of molecular chromic acid", what_it_does: "", examples: "pyridine in a non-aqueous medium such as dichloromethane ( Collins reagent )" },
+  chromium_trioxide_and_chromic_acids: "Strong oxidizers and may react violently if mixed with easily oxidizable organic substances",
+  chromic_acid_burns: "Treated with a dilute sodium thiosulfate solution",
+
 };
 
 // ============================================================
