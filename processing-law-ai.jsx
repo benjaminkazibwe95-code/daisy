@@ -59482,6 +59482,20 @@ const FLAT_DICT = {
   when_the_first_satellite: "Launched, it showed the predicted shift of 38 microseconds per day",
   this_rate_of_the_discrepancy: "Sufficient to substantially impair the function of GPS within hours if not accounted for",
 
+  // === INGESTED 2026-07-04 22:31 ===
+  modern_black_holes: "First predicted using Albert Einstein's general theory of relativity",
+  early_research_into_black_holes: "Done by individuals such as Karl Schwarzschild and John Wheeler , who modeled black holes as having zero entropy",
+  the_field_theory: "Defined by a local path integral, so if the boundary conditions at the horizon are determined, the state of the field outside will be specified",
+  the_metric_describes_a_frame_that: "Accelerating to keep from falling into the black hole",
+  the_horizon: "Not a special boundary, and objects can fall in",
+  the_gravitational_redshift: "Given by the square root of the time component of the metric",
+  forming_a_black_hole: "The most efficient way to compress mass into a region, and this entropy is also a bound on the information content of any sphere in space time",
+  greybody_factors: "Functions of frequency and angular momentum that characterize the deviation of the emission-spectrum of a black hole from a pure black-body spectrum",
+  the_constant_in_the_denominator: "1 for Bosons and -1 for Fermions",
+  this_in_turn: { definition: "Any black hole that could dissipate cannot be one created by stellar collapse", what_it_does: "", examples: "the modern estimate of a solar-mass black hole lifetime is 10 67 years" },
+  the_reason_for_these_types_of_divergences: "That modes that end at the horizon from the point of view of outside coordinates are singular in frequency there",
+  the_formulas_from_the_previous_section: "Applicable only if the laws of gravity are approximately valid all the way down to the Planck scale",
+
 };
 
 // ============================================================
