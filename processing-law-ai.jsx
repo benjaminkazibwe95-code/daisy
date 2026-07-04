@@ -59400,6 +59400,12 @@ const FLAT_DICT = {
   chromium_trioxide_and_chromic_acids: "Strong oxidizers and may react violently if mixed with easily oxidizable organic substances",
   chromic_acid_burns: "Treated with a dilute sodium thiosulfate solution",
 
+  // === INGESTED 2026-07-04 22:01 ===
+  oxalic_acid: "Also widely used as a wood bleach; most often it is supplied in its crystalline form, so as to be mixed with water to its proper dilution for use",
+  oxalobacter_formigenes: "An important gut bacterium that helps animals (including humans) degrade oxalate",
+  its_utility_in_rust_removal_agents: "Due to its forming a stable, water-soluble salt with ferric iron, ferrioxalate ion",
+  two_such_examples: "Quartz crystals and pyrite",
+
 };
 
 // ============================================================
