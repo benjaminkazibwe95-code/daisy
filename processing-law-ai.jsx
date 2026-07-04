@@ -59363,6 +59363,15 @@ const FLAT_DICT = {
   in_this_sense_the_electrophilicity_index: "A kind of electrophilic power",
   the_responsible_reactive_intermediate: { definition: "The [CH 3 CO 2 H 3 ] 2+ dication", what_it_does: "", examples: "the protonitronium ion O=N + =O + —H (a protonated nitronium ion )" },
 
+  // === INGESTED 2026-07-04 21:48 ===
+  a_carbanion: { definition: "One of several reactive intermediates in organic chemistry", what_it_does: "", examples: "allylic anions, enolates, nitronates, etc.) are generally planar rather than pyramidized" },
+  the_basicity_and_nucleophilicity_of_carbanions: "Determined by the substituents on carbon",
+  gasphase_carbanions_that: "Sp 2 and sp hybridized are much more strongly stabilized and are often prepared directly by gas-phase deprotonation",
+  this_propeller_shape: "Less pronounced with a tetramethylammonium counterion",
+  while_the_structure_of_the_former: "Verified by X-ray crystallography almost a century later, [ 12 ] the instability of the latter has so far precluded structural verification",
+  a_compound: { definition: "A carbon acid if deprotonation results in loss of a proton from a carbon atom", what_it_does: "", examples: "benzene is not an acid in the classical Arrhenius sense, since its aqueous solutions are neutral" },
+  aqueous_p_k_a_values: { definition: "Also commonly encountered in the literature, particularly in the context of biochemistry and enzymology", what_it_does: "", examples: "the aldol reaction and Michael addition" },
+
 };
 
 // ============================================================
