@@ -59406,6 +59406,14 @@ const FLAT_DICT = {
   its_utility_in_rust_removal_agents: "Due to its forming a stable, water-soluble salt with ferric iron, ferrioxalate ion",
   two_such_examples: "Quartz crystals and pyrite",
 
+  // === INGESTED 2026-07-04 22:03 ===
+  the_ethyl_ether_solvate: "Also commercially available, where the fluoroboric acid can be represented by the formula [ H((CH 3 CH 2 ) 2 O) n ] + [ BF 4 ] − , where n is 2",
+  fluoroboric_acid: { definition: "Corrosive and attacks the skin", what_it_does: "", examples: "diethyl ether" },
+  the_same_holds_true_for_the_superacids_that: { definition: "Known by the simplified formulas H [ PF 6 ] and H [ SbF 6 ]", what_it_does: "", examples: "H 3 O + and H 5 O + 2 , and the tetrahedral BF − 4 anion" },
+  the_anion_and_cations: "Strongly hydrogen-bonded",
+  its_acidity: "Thus comparable to that of fluorosulfonic acid",
+  the_inorganic_salts: "Intermediates in the manufacture of flame-retardant materials and glazing frits , and in electrolytic generation of boron",
+
 };
 
 // ============================================================
