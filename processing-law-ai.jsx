@@ -59386,6 +59386,14 @@ const FLAT_DICT = {
   the_hebrew_bible: "God breathing the breath of life into clay to make Adam a living soul ( nephesh )",
   breathing_disciplines: "Incorporated into meditation, certain forms of yoga such as pranayama , and the Buteyko method as a treatment for asthma and other conditions",
 
+  // === INGESTED 2026-07-04 21:55 ===
+  attached_to_the_n_acetylmuramic_acid: "An oligopeptide chain made of three to five amino acids",
+  gram_positive_cells: "Purple after staining, while Gram negative cells stain pink",
+  the_alternating_sugars: "Connected by a β-(1,4)- glycosidic bond",
+  peptidoglycan: { definition: "One of the most important sources of D -amino acids in nature", what_it_does: "", examples: "skin, sweat glands, eyes or the intestinal tract" },
+  susceptibility_of_bacteria_to_degradation: "Also considerably affected by exposure to antibiotics",
+  even_brief_exposure: { definition: "Sufficient to trigger a regulated response leading to increased production of biofilm matrix components", what_it_does: "", examples: "the vps ‑I and vps ‑II gene clusters that contribute to biofilm structure" },
+
 };
 
 // ============================================================
