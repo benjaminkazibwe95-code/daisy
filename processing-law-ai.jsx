@@ -59706,6 +59706,20 @@ const FLAT_DICT = {
   lysis: "Also used for protein purification , DNA extraction , and RNA extraction",
   cell_lysis: { definition: "Best done at a pH range of 11.5–12.5", what_it_does: "", examples: "lysozyme or proteases to disintegrate the cell membrane" },
 
+  // === INGESTED 2026-07-04 23:22 ===
+  smaller_quantities: { definition: "Converted into a wide variety of derivative products such as cellophane and rayon", what_it_does: "", examples: "cellulosic ethanol is under development as a renewable fuel source" },
+  cellulose_for_industrial_use: { definition: "Mainly obtained from wood pulp and cotton", what_it_does: "", examples: "Trichonympha" },
+  natural_cellulose: "Cellulose I, with structures I α and I β",
+  cellulose_produced_by_bacteria_and_algae: "Enriched in I α while cellulose of higher plants consists mainly of I β",
+  the_conversion_of_cellulose_i_to_cellulose_ii: "Irreversible, suggesting that cellulose I is metastable and cellulose II is stable",
+  with_various_chemical_treatments_it: "Possible to produce the structures cellulose III and cellulose IV",
+  the_chemical_formula_of_cellulose: { definition: "(C 6 H 10 O 5 ) n where n is the degree of polymerization and represents the number of glucose groups", what_it_does: "", examples: "Cellulomonas and Ruminococcus spp" },
+  the_breakdown_products: { definition: "Then used by the bacteria for proliferation", what_it_does: "", examples: "endo-acting cellulases and exo-acting glucosidases" },
+  such_enzymes: { definition: "Usually secreted as part of multienzyme complexes that may include dockerins and carbohydrate-binding modules", what_it_does: "", examples: "carbon dioxide" },
+  these_dissolution_processes_are_reversible_and: "Used in the production of regenerated celluloses (such as viscose and cellophane ) from dissolving pulp",
+  the_agents: "Then removed concomitant with the formation of fibers",
+  nitrocellulose: "Initially used as an explosive and was an early film forming material",
+
 };
 
 // ============================================================
