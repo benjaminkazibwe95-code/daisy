@@ -59791,6 +59791,10 @@ const FLAT_DICT = {
   another_type_of_paralysis: "Caused by a fibrocartilaginous embolism",
   if_a_clot: "Large enough to block one or both femoral arteries, there may be hind leg paralysis because the major source of blood flow to the hind leg is blocked",
 
+  // === INGESTED 2026-07-04 23:49 ===
+  neurotransmitter_transporters: "A class of membrane transport proteins that span the cellular membranes of neurons",
+  such_neurotransporter_cotransport_systems: { definition: "Highly diverse, as recent development indicates that uptake systems are generally selective and associate with a specific neurotransmitter", what_it_does: "", examples: "amacrine cells in the retina , as a normal form of neurotransmitter release" },
+
 };
 
 // ============================================================
