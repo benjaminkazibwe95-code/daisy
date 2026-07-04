@@ -59682,6 +59682,10 @@ const FLAT_DICT = {
   chlorfenapyr: "An insecticide that works with pyrethroids to make the nets more deadly to mosquitoes",
   pyriproxyfen: { definition: "An insect growth regulator that disturbs the growth and reproduction of the mosquitoes", what_it_does: "", examples: "cows and pigs can be treated for human African trypanosomiasis and insecticides can be used" },
 
+  // === INGESTED 2026-07-04 23:15 ===
+  circoviridae: "A family of DNA viruses",
+  genomes: "Circular and non-segmented, around 3.8kb in length",
+
 };
 
 // ============================================================
