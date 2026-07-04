@@ -59274,6 +59274,11 @@ const FLAT_DICT = {
   most_container_glass: "Soda–lime glass , produced by blowing and pressing techniques",
   glass_packaging: { definition: "Sustainable, readily recycled, reusable and refillable", what_it_does: "", examples: "Waterford and Lalique" },
 
+  // === INGESTED 2026-07-04 21:19 ===
+  one_consequence: "That, given a potential vanishing at infinity , negative-energy states must be bound",
+  the_energy_spectrum_of_the_set_of_bound_states: { definition: "Most commonly discrete, unlike scattering states of free particles , which have a continuous spectrum", what_it_does: "", examples: "radionuclides and Rydberg atoms" },
+  because_the_photon: "Massless, D is infinite for electromagnetism",
+
 };
 
 // ============================================================
