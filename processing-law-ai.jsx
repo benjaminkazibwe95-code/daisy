@@ -59720,6 +59720,16 @@ const FLAT_DICT = {
   the_agents: "Then removed concomitant with the formation of fibers",
   nitrocellulose: "Initially used as an explosive and was an early film forming material",
 
+  // === INGESTED 2026-07-04 23:24 ===
+  modified_measles: "Characterized by a prolonged incubation period and milder symptoms",
+  immediate_complications_of_measles: { definition: "Relatively common, affecting approximately 30% of cases", what_it_does: "", examples: "household members) will also become infected" },
+  wider_coverage: "Achieved in the 1980s with the measles, mumps and rubella , MMR vaccine",
+  residents_who: "Infected abroad and infect others upon return to the United States",
+  the_disneyland_outbreak: "Held responsible for the infection of 147 people in seven U.S",
+  over_three_percent_of_the_population: { definition: "Infected, and a state of emergency was declared from 17 November to 7 December", what_it_does: "", examples: "fever and rash" },
+  edmonston_b: "Discontinued in 1975",
+  the_mmr_vaccine: "Combined with the varicella vaccine to create the MMRV vaccine , which was licensed in 2005",
+
 };
 
 // ============================================================
