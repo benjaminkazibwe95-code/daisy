@@ -218,6 +218,13 @@
       border-bottom-left-radius: 4px;
       padding-left: 0;
     }
+    .msg-image {
+      display: block;
+      max-width: 220px;
+      max-height: 220px;
+      border-radius: 12px;
+      margin-bottom: 6px;
+    }
     .msg.daisy .daisy-label {
       font-size: 11px;
       color: var(--daisy);
@@ -229,6 +236,42 @@
 
     /* ── RENDERED MARKDOWN (inside Daisy's messages) ── */
     .md-body { font-size: 16px; line-height: 1.6; }
+    .typing-cursor {
+      display: inline-block;
+      width: 8px; height: 16px;
+      margin-left: 1px;
+      background: var(--daisy);
+      vertical-align: -2px;
+      border-radius: 1px;
+      animation: typingBlink 0.9s step-end infinite;
+    }
+    @keyframes typingBlink { 50% { opacity: 0; } }
+    .building-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 6px 0;
+      padding: 12px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 13.5px;
+      color: var(--muted);
+    }
+    .building-card code {
+      font-family: 'SF Mono', Consolas, monospace;
+      color: var(--text);
+      background: none;
+    }
+    .building-spinner {
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      border-top-color: var(--daisy);
+      flex-shrink: 0;
+      animation: buildingSpin 0.7s linear infinite;
+    }
+    @keyframes buildingSpin { to { transform: rotate(360deg); } }
     .md-body h1, .md-body h2, .md-body h3 {
       font-family: 'Inter', sans-serif;
       font-weight: 600;
@@ -726,12 +769,56 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 28px;
-      padding: 10px 10px 10px 18px;
+      padding: 10px 10px 10px 10px;
       transition: border-color 0.2s;
     }
     #input-row:focus-within {
       border-color: var(--daisy);
     }
+
+    #attach-btn {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      background: var(--card);
+      color: var(--muted);
+      transition: background 0.15s, color 0.15s, transform 0.1s;
+    }
+    #attach-btn:hover { background: var(--border); color: var(--text); }
+    #attach-btn:active { transform: scale(0.95); }
+    #attach-btn svg { width: 17px; height: 17px; }
+
+    #image-preview-row { display: none; padding: 0 6px 8px; }
+    #image-preview-chip {
+      position: relative;
+      display: inline-flex;
+      width: 64px; height: 64px;
+      border-radius: 12px;
+      overflow: visible;
+    }
+    #image-preview-thumb {
+      width: 64px; height: 64px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      display: block;
+    }
+    #image-preview-remove {
+      position: absolute;
+      top: -6px; right: -6px;
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      padding: 0;
+    }
+    #image-preview-remove svg { width: 11px; height: 11px; }
 
     #question-input {
       flex: 1;
@@ -882,6 +969,21 @@
       font-style: italic;
       max-width: 320px;
     }
+    #live-retry-btn {
+      margin-top: 18px;
+      padding: 10px 20px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.08);
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      align-items: center;
+      gap: 8px;
+    }
+    #live-retry-btn:hover { background: rgba(255,255,255,0.16); }
 
     /* Bottom controls */
     #live-controls {
@@ -1503,7 +1605,19 @@
     <button id="scroll-bottom-btn" aria-label="Scroll to latest">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
     </button>
+    <div id="image-preview-row" style="display:none;">
+      <div id="image-preview-chip">
+        <img id="image-preview-thumb" alt="Attached image" />
+        <button id="image-preview-remove" aria-label="Remove image">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
     <div id="input-row">
+      <button id="attach-btn" title="Add an image">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      </button>
+      <input type="file" id="image-input" accept="image/*" style="display:none;" />
       <textarea id="question-input" rows="1" placeholder="Talk to Daisy..."></textarea>
       <button id="speaker-btn" title="Read aloud">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -1818,6 +1932,7 @@
       <div class="wave-bar idle"></div>
     </div>
     <div id="live-transcript">Listening...</div>
+    <button id="live-retry-btn" style="display:none;">Try again</button>
   </div>
 
   <!-- Bottom controls -->
@@ -2158,6 +2273,43 @@ document.addEventListener('DOMContentLoaded', function() {
   inp.addEventListener('keydown', e => {
     if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
   });
+
+  // ── IMAGE ATTACH ───────────────────────────────────────
+  const attachBtn      = document.getElementById('attach-btn');
+  const imageInput     = document.getElementById('image-input');
+  const imagePreviewRow = document.getElementById('image-preview-row');
+  const imagePreviewThumb = document.getElementById('image-preview-thumb');
+  const imagePreviewRemove = document.getElementById('image-preview-remove');
+  let pendingImage = null; // { dataUrl, base64, mediaType }
+
+  attachBtn.onclick = () => imageInput.click();
+
+  imageInput.addEventListener('change', () => {
+    const file = imageInput.files && imageInput.files[0];
+    if (!file) return;
+    if (!file.type.startsWith('image/')) { alert('Please choose an image file.'); return; }
+    if (file.size > 8 * 1024 * 1024) { alert('That image is a bit large — try one under 8MB.'); return; }
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      const dataUrl = reader.result; // "data:image/jpeg;base64,AAAA..."
+      const base64 = dataUrl.split(',')[1];
+      pendingImage = { dataUrl, base64, mediaType: file.type };
+      imagePreviewThumb.src = dataUrl;
+      imagePreviewRow.style.display = 'block';
+      refreshActionMode();
+    };
+    reader.readAsDataURL(file);
+    imageInput.value = ''; // allow picking the same file again later
+  });
+
+  imagePreviewRemove.onclick = () => clearPendingImage();
+  function clearPendingImage() {
+    pendingImage = null;
+    imagePreviewRow.style.display = 'none';
+    imagePreviewThumb.src = '';
+    if (typeof refreshActionMode === 'function') refreshActionMode();
+  }
 
   // ── CHAT ─────────────────────────────────────────────
   const chatArea   = document.getElementById('chat-area');
@@ -2688,7 +2840,19 @@ document.addEventListener('DOMContentLoaded', function() {
       div.appendChild(body);
       div.appendChild(buildActionToolbar(() => body.innerText, opts.question, text));
     } else {
-      div.textContent = text;
+      if (opts.imageDataUrl) {
+        const img = document.createElement('img');
+        img.src = opts.imageDataUrl;
+        img.className = 'msg-image';
+        div.appendChild(img);
+        if (text) {
+          const caption = document.createElement('div');
+          caption.textContent = text;
+          div.appendChild(caption);
+        }
+      } else {
+        div.textContent = text;
+      }
       div.addEventListener('click', () => openMsgMenu(div, text));
     }
 
@@ -2719,41 +2883,92 @@ document.addEventListener('DOMContentLoaded', function() {
   // push partial output over time (server-sent events + a streaming
   // call to the Anthropic API); this gets the same visual effect
   // without that infrastructure.
+  //
+  // Earlier version re-ran a FULL markdown parse + sanitize on every
+  // tick, which is O(n) work repeated O(n) times over one message —
+  // fine for a short reply, but it froze slower phones on long ones,
+  // so long replies skipped the animation entirely and just appeared
+  // instantly. Fix: the typing phase reveals plain text only (cheap —
+  // just a textContent append, no parsing at all), then a single
+  // markdown render happens once at the end. Same visual effect GPT/
+  // Claude give — text grows steadily, formatting resolves once it's
+  // done — at a fraction of the cost, so it can now run for any length.
+  //
+  // File-fences (```lang:filename.ext) get their own staged treatment:
+  // prose around them still types out, but each file gets a brief
+  // "Building filename..." beat before the real card appears, instead
+  // of the whole thing just popping in — the same "watching it get
+  // built" feel Claude's own interface gives. Whatever happens during
+  // the animation is purely cosmetic: the function always finishes
+  // with ONE authoritative renderMarkdown+finalizeRenderedContent pass
+  // on the complete text, so correctness never depends on the staged
+  // reveal getting every detail right.
+  const FILE_FENCE_RE = /```([a-zA-Z0-9_-]+):([^\n`]+\.[a-zA-Z0-9]+)[ \t]*\n([\s\S]*?)```/g;
+
+  async function typeProse(body, text) {
+    if (!text.trim()) return;
+    const textNode = document.createTextNode('');
+    const cursor = document.createElement('span');
+    cursor.className = 'typing-cursor';
+    body.appendChild(textNode);
+    body.appendChild(cursor);
+    const CHUNK = 2, DELAY_MS = 20; // ~100 chars/sec — readable, not instant, not sluggish
+    for (let i = 0; i <= text.length; i += CHUNK) {
+      textNode.textContent = text.slice(0, i);
+      maybeAutoScroll();
+      await sleep(DELAY_MS);
+    }
+    cursor.remove();
+  }
+
   async function typeIntoBody(body, fullText, div) {
-    // Skip the per-character animation for anything containing a code
-    // block, or for long replies in general. Each tick re-parses the
-    // ENTIRE text from scratch — for a multi-thousand-character file,
-    // that's hundreds of full markdown parses over the course of one
-    // message, each bigger than the last (cost grows with the square
-    // of the length). That's what caused the multi-second freeze and
-    // "can't scroll" complaint — not the typing animation looking
-    // slow, but the browser's main thread genuinely busy doing that
-    // repeated work. Nobody actually wants to watch raw HTML/CSS type
-    // out letter by letter anyway, so this renders code/long content
-    // once, complete, while keeping the animation for normal-length
-    // conversational replies where the cost is negligible.
-    const hasCode = fullText.includes('```');
-    if (hasCode || fullText.length > 1200) {
+    FILE_FENCE_RE.lastIndex = 0;
+    const segments = [];
+    let lastIndex = 0, m;
+    while ((m = FILE_FENCE_RE.exec(fullText)) !== null) {
+      if (m.index > lastIndex) segments.push({ type: 'prose', text: fullText.slice(lastIndex, m.index) });
+      segments.push({ type: 'file', filename: m[2].trim(), code: m[3] });
+      lastIndex = FILE_FENCE_RE.lastIndex;
+    }
+    if (lastIndex < fullText.length) segments.push({ type: 'prose', text: fullText.slice(lastIndex) });
+
+    const hasFileFence = segments.some(s => s.type === 'file');
+
+    // A plain code fence with no filename (```python, a short snippet,
+    // not a whole file) — nothing to stage, just render once it's done.
+    if (!hasFileFence) {
+      if (fullText.includes('```')) {
+        body.innerHTML = renderMarkdown(fullText);
+        finalizeRenderedContent(body);
+        maybeAutoScroll();
+        return;
+      }
+      await typeProse(body, fullText);
       body.innerHTML = renderMarkdown(fullText);
       finalizeRenderedContent(body);
       maybeAutoScroll();
       return;
     }
 
-    // Bigger steps, less often: each tick does a full markdown parse +
-    // HTML sanitize pass. At the old pace (~70/sec) that's enough
-    // constant main-thread work to make a slower phone feel like it's
-    // ignoring touch input until typing finishes — not actually
-    // blocked, just too busy to respond smoothly. Fewer, larger steps
-    // cuts that work by roughly 3x while still reading as "typing."
-    const CHUNK = 10, DELAY_MS = 24;
-    for (let i = 0; i <= fullText.length; i += CHUNK) {
-      body.innerHTML = renderMarkdown(fullText.slice(0, i));
-      maybeAutoScroll();
-      await sleep(DELAY_MS);
+    for (const seg of segments) {
+      if (seg.type === 'prose') {
+        await typeProse(body, seg.text);
+      } else {
+        const building = document.createElement('div');
+        building.className = 'building-card';
+        const safeName = seg.filename.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        building.innerHTML = `<span class="building-spinner"></span><span>Building <code>${safeName}</code>…</span>`;
+        body.appendChild(building);
+        maybeAutoScroll();
+        const pause = Math.min(1500, 450 + seg.code.length * 0.6); // longer files feel like they took a bit more work, capped so it never drags
+        await sleep(pause);
+        building.remove();
+      }
     }
-    body.innerHTML = renderMarkdown(fullText); // final clean pass
+
+    body.innerHTML = renderMarkdown(fullText); // one full, final, authoritative render
     finalizeRenderedContent(body);
+    maybeAutoScroll();
   }
 
   async function addMsgTyped(text, opts) {
@@ -2935,20 +3150,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
   async function sendMessage(overrideText) {
     const text = overrideText || inp.value.trim();
-    if (!text) return;
+    const attachedImage = pendingImage;
+    if (!text && !attachedImage) return;
     inp.value = '';
     inp.style.height = 'auto';
     activateChat();
     stickToBottom = true;
-    addMsg(text, 'user');
-    recordMessage('user', text);
+    addMsg(text, 'user', attachedImage ? { imageDataUrl: attachedImage.dataUrl } : {});
+    recordMessage('user', attachedImage ? (text || '[image]') : text);
+    clearPendingImage();
     const panel = addThinkingPanel();
 
     try {
       const res  = await fetch('/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: text, instructions: getInstructions() })
+        body: JSON.stringify({
+          question: text,
+          instructions: getInstructions(),
+          image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
+        })
       });
       const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
@@ -3012,9 +3233,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  inp.addEventListener('input', () => {
-    setActionMode(inp.value.trim() ? 'send' : 'live');
-  });
+  function refreshActionMode() {
+    setActionMode((inp.value.trim() || pendingImage) ? 'send' : 'live');
+  }
+  inp.addEventListener('input', refreshActionMode);
 
   actionBtn.onclick = () => {
     if (actionMode === 'send') sendMessage();
@@ -3045,7 +3267,15 @@ document.addEventListener('DOMContentLoaded', function() {
   const endLive    = document.getElementById('end-live');
   const micBtn     = document.getElementById('mic-btn');
   const transcript = document.getElementById('live-transcript');
+  const liveRetryBtn = document.getElementById('live-retry-btn');
   const waveBars   = document.querySelectorAll('.wave-bar');
+
+  liveRetryBtn.onclick = async () => {
+    liveRetryBtn.style.display = 'none';
+    transcript.textContent = 'Listening...';
+    await startMic();
+    startSpeechRecognition();
+  };
 
   let mediaStream = null, audioCtx = null, analyser = null, waveRAF = null;
   let recognition = null, micMuted = false;
@@ -3055,6 +3285,7 @@ document.addEventListener('DOMContentLoaded', function() {
   async function openLive() {
     liveRoom.classList.add('active');
     transcript.textContent = 'Listening...';
+    liveRetryBtn.style.display = 'none';
     await startMic();
     startSpeechRecognition();
   }
@@ -3076,9 +3307,23 @@ document.addEventListener('DOMContentLoaded', function() {
       analyser.fftSize = 64;
       audioCtx.createMediaStreamSource(mediaStream).connect(analyser);
       animateWave();
+      liveRetryBtn.style.display = 'none';
     } catch(e) {
-      transcript.textContent = 'Microphone access needed.';
+      showMicError(e);
     }
+  }
+
+  function showMicError(e) {
+    let msg = "Couldn't access your microphone.";
+    if (e && (e.name === 'NotAllowedError' || e.name === 'PermissionDeniedError')) {
+      msg = "Microphone access is blocked. Tap the 🔒 or ⓘ icon next to the address bar, allow Microphone, then try again.";
+    } else if (e && e.name === 'NotFoundError') {
+      msg = "No microphone found on this device.";
+    } else if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+      msg = "Voice needs a secure (https) connection to work.";
+    }
+    transcript.textContent = msg;
+    liveRetryBtn.style.display = 'inline-flex';
   }
 
   function stopMic() {
@@ -3105,7 +3350,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function startSpeechRecognition() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!SR) { transcript.textContent = 'Speech not supported in this browser.'; return; }
+    if (!SR) {
+      transcript.textContent = 'Voice isn\'t supported in this browser — try Chrome.';
+      liveRetryBtn.style.display = 'none';
+      return;
+    }
     recognition = new SR();
     recognition.continuous = true;
     recognition.interimResults = true;
