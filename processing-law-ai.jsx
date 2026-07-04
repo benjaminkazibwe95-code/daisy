@@ -59314,6 +59314,11 @@ const FLAT_DICT = {
   these_notes: "The basis for Heitler's book Elementary Wave Mechanics: Introductory Course of Lectures , first published in 1943",
   a_new_edition: "Published as Elementary Wave Mechanics in 1945",
 
+  // === INGESTED 2026-07-04 21:33 ===
+  another_way_to_phrase_this: "That useful energy must be absorbed from the surroundings into the workable system for the reaction to happen",
+  the_equilibrium_constant_for_the_reaction: "Related to Δ G ° by the relation: where T is the absolute temperature and R is the gas constant",
+  endergonic_reactions_can_be_achieved_if_they: { definition: "Either pulled or pushed by an exergonic (stability increasing, negative change in free energy ) process", what_it_does: "", examples: "on its own the reaction may be too endergonic to occur" },
+
 };
 
 // ============================================================
