@@ -59544,6 +59544,27 @@ const FLAT_DICT = {
   such_a_surface_would_appear_as_an_oblate_that: "Coincident with the event horizon at the pole of rotation, but at a greater distance from the event horizon at the equator",
   an_implication_of_this_dragging_of_space: "The existence of negative energies within the ergosphere",
 
+  // === INGESTED 2026-07-04 22:41 ===
+  the_most_prevalent_explanation: "That dark matter is some as-yet-undiscovered subatomic particle , such as either weakly interacting massive particles (WIMPs) or axions",
+  he_posed_what_would_happen_if_there: "A thousand million stars within 1 kiloparsec of the Sun (at which distance their parallax would be 1 milli-arcsecond )",
+  the_gravity_effect_of_the_visible_galaxies: "Far too small for such fast orbits, thus mass must be hidden from view",
+  several_different_observations: "Synthesized to argue that galaxies should be surrounded by halos of unseen matter",
+  experimental_efforts: { definition: "Characterized by a rapid increase in sensitivity using liquid xenon detectors, including XENON , LUX , PandaX , and LUX-ZEPLIN (LZ)", what_it_does: "", examples: "early-era standard-model neutrinos, is similarly halved" },
+  if_luminous_mass: { definition: "All the matter, then the galaxy can be modelled as a point mass in the centre and test masses orbiting around it, similar to the Solar System", what_it_does: "", examples: "elliptical galaxies or globular clusters" },
+  the_bullet_cluster: "The result of a recent collision of two galaxy clusters",
+  strong_lensing: { definition: "The observed distortion of background galaxies into arcs when their light passes through such a gravitational lens", what_it_does: "", examples: "Abell 1689" },
+  the_measured_dark_energy_density: "Ω Λ ≈ 0.690 ; the observed ordinary (baryonic) matter energy density is Ω b ≈ 0.0482 and the energy density of radiation is negligible",
+  although_both_dark_matter_and_ordinary_matter: "Matter, they do not behave in the same way",
+  the_cmb: { definition: "Very close to a perfect blackbody but contains very small temperature anisotropies of a few parts in 100,000", what_it_does: "the Lambda-CDM model", examples: "modified Newtonian dynamics (MOND)" },
+  ordinary_matter: "Affected by radiation, which is the dominant element of the universe at very early times",
+  this_distance: "Called the free streaming length",
+  the_categories_of_dark_matter: "Set with respect to the size of the collection of mass prior to structure formation that later collapses to form a dwarf galaxy",
+  this_collection_of_mass: { definition: "Sometimes called a protogalaxy", what_it_does: "", examples: "stars and planets)" },
+  an_axion_with_mass_that: "Much less than 60 keV/ c 2 is long-lived and weakly interacting: a perfect dark matter candidate",
+  as_no_astrophysical_process: { definition: "Known to produce black holes below the Chandrasekhar limit (~1", what_it_does: "", examples: "evaporating tiny black holes or monochromatic intermediate-mass populations)" },
+  a_special_case_of_direct_detection: { definition: "Directional sensitivity, which attempts to correlate WIMP signals with the direction of the Solar System's motion towards Cygnus", what_it_does: "", examples: "in regions of high dark matter density (e.g" },
+  explaining_any_individual_observation: "Possible but explaining all of them in the absence of dark matter is very difficult",
+
 };
 
 // ============================================================
