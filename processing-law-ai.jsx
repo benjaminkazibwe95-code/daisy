@@ -59255,6 +59255,25 @@ const FLAT_DICT = {
   some_of_the_latter: "Studied in non-standard analysis",
   a_desirable_property_of_a_deductive_system: { definition: "That it be complete", what_it_does: "", examples: "'true in the intended interpretation'" },
 
+  // === INGESTED 2026-07-04 21:06 ===
+  some_common_objects_made_of_glass: "Named after the material, e.g., a ' glass ' for drinking, ' glasses ' for vision correction, and a ' magnifying glass '",
+  some_glasses_such_as_volcanic_glass: "Naturally occurring, and obsidian has been used to make arrowheads and knives since the Stone Age",
+  the_earliest_known_glass_objects: { definition: "Beads , perhaps created accidentally during metalworking or the production of faience , which is a form of pottery using lead glazes", what_it_does: "", examples: "bowls , vases , bottles , jars and drinking glasses" },
+  obsidian: { definition: "A common volcanic glass with high silica (SiO 2 ) content formed when felsic lava extruded from a volcano cools rapidly", what_it_does: "", examples: "grinding and carving glass in a cold state" },
+  fused_quartz: "Used for high-temperature applications such as furnace tubes, lighting tubes, melting crucibles, etc",
+  fluorine: "Highly electronegative and lowers the polarizability of the material",
+  fluoride_silicate_glasses: "Used in the manufacture of integrated circuits as an insulator",
+  these_fibres: "Woven together into a cloth and left to set in a plastic resin",
+  fibreglass: "Originally used in the United Kingdom and United States during World War II to manufacture radomes",
+  the_fibres: "Bonded with an adhesive spray and the resulting wool mat is cut and packed in rolls or panels",
+  many_emerging_pharmaceuticals: { definition: "Practically insoluble in their crystalline forms", what_it_does: "", examples: "handles or feet attached by welding" },
+  the_top_surface_of_the_glass: { definition: "Subjected to nitrogen under pressure to obtain a polished finish", what_it_does: "", examples: "sodium selenite may be preferred over easily evaporating selenium dioxide (SeO 2 )" },
+  glass_homogeneity: "Achieved by homogenizing the raw materials mixture ( glass batch ), stirring the melt, and crushing and re-melting the first melt",
+  the_obtained_glass: "Usually annealed to prevent breakage during processing",
+  float_or_rolled_sheet_glass_products: { definition: "Cut to size either by scoring and snapping the material, laser cutting , water jets , or diamond-bladed saw", what_it_does: "", examples: "scratch resistance, blocking specific wavelengths of light (e.g" },
+  most_container_glass: "Soda–lime glass , produced by blowing and pressing techniques",
+  glass_packaging: { definition: "Sustainable, readily recycled, reusable and refillable", what_it_does: "", examples: "Waterford and Lalique" },
+
 };
 
 // ============================================================
