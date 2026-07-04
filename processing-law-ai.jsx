@@ -59352,6 +59352,9 @@ const FLAT_DICT = {
   between_the_two_buffer_regions_there: "An end-point, or equivalence point , at about pH 3",
   this_endpoint_is_not_sharp_and: "Typical of a diprotic acid whose buffer regions overlap by a small amount: p K a2 − p K a1 is about three in this example",
 
+  // === INGESTED 2026-07-04 21:44 ===
+  recrystallized_products: "Often subject to X-ray crystallography for purity assessment",
+
 };
 
 // ============================================================
