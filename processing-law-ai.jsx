@@ -59667,6 +59667,21 @@ const FLAT_DICT = {
   coagulation: "Commonly used as a pre-treatment step in wastewater treatment plants",
   heterogeneous_photocatalysis: "One approach to the degradation of dyes",
 
+  // === INGESTED 2026-07-04 23:13 ===
+  agents_regarded_as_vectors: { definition: "Mostly blood-sucking ( hematophagous ) arthropods such as mosquitoes", what_it_does: "", examples: "mosquitos, thus bringing them closer to dense human populations" },
+  many_such_vectors: "Haematophagous , meaning they feed on blood at some or all stages of their lives",
+  japanese_encephalitis_and_west_nile_fever: { definition: "Both caused by viruses", what_it_does: "", examples: "viruses, bacteria, protozoans, and parasites" },
+  these_pathogens: { definition: "Found in Europe , Asia , and North America", what_it_does: "", examples: "spotted fever , and tularemia" },
+  lyme_disease: "Caused by the bacteria Borrelia burgdorferi , while relapsing fever is caused by several different species of Borrelia bacteria",
+  later_it_transpired_that_the_virus: "Transmitted by the zoospores of the fungus and also survived in the resting spores",
+  polymyxa_graminis: { definition: "An obligate parasite, and it can transmit viruses such as barley yellow mosaic virus and soil borne wheat mosaic virus", what_it_does: "", examples: "Berberis and related genera act as alternate hosts in a cycle of infection of grain" },
+  rabies_is_a_viral_infection_spread_that: { definition: "Transmitted through exposure to the saliva or brain tissue of an infected animal", what_it_does: "", examples: "tobacco, tomatoes, and peppers" },
+  the_transmission_of_zika_in_the_americas: { definition: "Influenced by global travel, which allowed infected travelers to introduce the virus into regions containing highly competent Aedes vectors", what_it_does: "", examples: "Tobacco mosaic virus" },
+  tmv: { definition: "A single-stranded RNA virus spread through physical contact", what_it_does: "", examples: "mosquitoes and ticks to expand into higher altitudes and latitudes" },
+  the_goal_of_integrated_vector_management: "To target vectors and intermediate disease hosts using methods that are as sustainable, efficient, and cost effective as possible",
+  chlorfenapyr: "An insecticide that works with pyrethroids to make the nets more deadly to mosquitoes",
+  pyriproxyfen: { definition: "An insect growth regulator that disturbs the growth and reproduction of the mosquitoes", what_it_does: "", examples: "cows and pigs can be treated for human African trypanosomiasis and insecticides can be used" },
+
 };
 
 // ============================================================
