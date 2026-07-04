@@ -59355,6 +59355,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-04 21:44 ===
   recrystallized_products: "Often subject to X-ray crystallography for purity assessment",
 
+  // === INGESTED 2026-07-04 21:46 ===
+  this_mechanistic_pathway: "Known by the Ingold label Ad E 3 ('addition, electrophilic, third-order')",
+  many_electrophiles: "Chiral and optically stable",
+  one_such_reagent: { definition: "The fructose -derived organocatalyst used in the Shi epoxidation", what_it_does: "", examples: "γ-rhodomycionone and α-citromycinone" },
+  the_solidphase_reagents: "Applied toward the selenenylation of various alkenes with good enantioselectivities",
+  in_this_sense_the_electrophilicity_index: "A kind of electrophilic power",
+  the_responsible_reactive_intermediate: { definition: "The [CH 3 CO 2 H 3 ] 2+ dication", what_it_does: "", examples: "the protonitronium ion O=N + =O + —H (a protonated nitronium ion )" },
+
 };
 
 // ============================================================
