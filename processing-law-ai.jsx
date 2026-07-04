@@ -59686,6 +59686,20 @@ const FLAT_DICT = {
   circoviridae: "A family of DNA viruses",
   genomes: "Circular and non-segmented, around 3.8kb in length",
 
+  // === INGESTED 2026-07-04 23:18 ===
+  poxviridae: "A family of double-stranded DNA viruses",
+  the_similarly_named_disease_chickenpox: "Not caused by a poxvirus, but by varicella zoster , a herpesvirus",
+  modern_viral_classification: "Based on phenotypic characteristics; morphology, nucleic acid type, mode of replication, host organisms, and the type of disease they cause",
+  one_of_the_earliest_suspected_cases: "That of Egyptian Pharaoh , Ramses V , who is thought to have died from smallpox circa 1150 years BCE",
+  vaccinia_virus: "Most closely related to CPV-GRI-90",
+  as_the_viral_particles: "Assembled, they are enveloped by the intracellular membrane and released",
+  imvs: "Antigenically distinct from EEVs, have only a singular membrane, are more abundant, and released from cells upon cell lysis",
+  these_host_polymerases: { definition: "Found in the nucleus , and therefore most double-stranded DNA viruses carry out a part of their infection cycle within the host cell's nucleus", what_it_does: "", examples: "the virus can inhibit host apoptosis and block the antiviral state" },
+  the_ancestor_of_the_genus_orthopoxvirus: "Next to diverge from the other clades at 0.3 million years ago",
+  the_vaccinia_virus: "An effective tool for foreign protein expression, as it elicits a strong host immune-response",
+  the_intracellular_mature_virions: "Then transported to the Golgi apparatus where it is wrapped with an additional two membranes, becoming the intracellular enveloped virus",
+  this_triggers_actin_tails_on_cell_surfaces_or: "Released as external enveloped virion",
+
 };
 
 // ============================================================
