@@ -59432,6 +59432,9 @@ const FLAT_DICT = {
   the_emulsifying_property_of_surfactants: { definition: "Also the basis for emulsion polymerization", what_it_does: "", examples: "when reacting molecules form micelles that shield a molecular component vulnerable to oxidation" },
   micelle_formation: { definition: "Essential for the absorption of fat-soluble vitamins and complicated lipids within the human body", what_it_does: "", examples: "lecithin) and lipid-soluble vitamins (A, D, E, and K) within the micelle by the small intestine" },
 
+  // === INGESTED 2026-07-04 22:14 ===
+  hydrobromic_acid: "Mainly used for the production of inorganic bromides, especially the bromides of zinc, calcium, and sodium",
+
 };
 
 // ============================================================
