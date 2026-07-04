@@ -59132,6 +59132,11 @@ const FLAT_DICT = {
   the_voltage_between_a_and_c: "The sum of the voltage between A and B and the voltage between B and C",
   the_term_electromotive_force: "First used by Volta in a letter to Giovanni Aldini in 1798, and first appeared in a published paper in 1801 in Annales de chimie et de physique",
 
+  // === INGESTED 2026-07-04 20:42 ===
+  atmospheric_thermodynamics: "The study of heat -to- work transformations (and their reverse) that take place in the Earth's atmosphere and manifest as weather or climate",
+  atmospheric_thermodynamic_diagrams: { definition: "Used as tools in the forecasting of storm development", what_it_does: "", examples: "convective-equilibrium climate models" },
+  those_dynamics: { definition: "Modified by the force of the pressure gradient and that motion is modified by the Coriolis force", what_it_does: "", examples: "equivalent potential temperature, wet-bulb and virtual temperatures" },
+
 };
 
 // ============================================================
