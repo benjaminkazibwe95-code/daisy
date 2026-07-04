@@ -59372,6 +59372,20 @@ const FLAT_DICT = {
   a_compound: { definition: "A carbon acid if deprotonation results in loss of a proton from a carbon atom", what_it_does: "", examples: "benzene is not an acid in the classical Arrhenius sense, since its aqueous solutions are neutral" },
   aqueous_p_k_a_values: { definition: "Also commonly encountered in the literature, particularly in the context of biochemistry and enzymology", what_it_does: "", examples: "the aldol reaction and Michael addition" },
 
+  // === INGESTED 2026-07-04 21:52 ===
+  at_rest_exhalation: { definition: "Largely passive as inhalatory muscles relax and the elastic recoil of the lungs and chest wall returns the chest to its resting position", what_it_does: "", examples: "during severe asthma or chronic obstructive pulmonary disease (COPD) exacerbations" },
+  some_of_the_heat_and_moisture: { definition: "Recovered during exhalation when air passes back over cooler, partially dried mucus", what_it_does: "", examples: "returning arterial CO₂ toward normal during exercise )" },
+  the_volume_of_oxygen: "Reduced by about a quarter, 4% to 5%, of total air volume",
+  oxygen_and_analgesic_gases: "Sometimes given to patients under medical care",
+  the_saturated_vapor_pressure_of_water: "Dependent only on temperature; at a body core temperature of 37 °C it is 6.3 kPa (47.0 mmHg), regardless of any other influences, including altitude",
+  the_exact_increase_required: "Determined by the respiratory gases homeostatic mechanism , which regulates the arterial P O 2 and P CO 2",
+  air_breathed_underwater_by_divers: "At the ambient pressure of the surrounding water and this has a complex range of physiological and biochemical implications",
+  the_effects_of_breathing_gasses_under_pressure: "Further complicated by the use of one or more special gas mixtures",
+  the_breathing_performance_of_regulators: "A factor when choosing a suitable regulator for the type of diving to be undertaken",
+  many_conditions: { definition: "Associated with obstructed airways", what_it_does: "", examples: "by exercise" },
+  the_hebrew_bible: "God breathing the breath of life into clay to make Adam a living soul ( nephesh )",
+  breathing_disciplines: "Incorporated into meditation, certain forms of yoga such as pranayama , and the Buteyko method as a treatment for asthma and other conditions",
+
 };
 
 // ============================================================
