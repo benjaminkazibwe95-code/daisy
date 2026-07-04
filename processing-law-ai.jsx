@@ -59309,6 +59309,11 @@ const FLAT_DICT = {
   the_hydrogen_spectral_series_in_particular: "First successfully explained by the Rutherford–Bohr quantum model of the hydrogen atom",
   in_some_cases_spectral_lines: "Well separated and distinguishable, but spectral lines can overlap and appear to be a single transition if the density of energy states is high enough",
 
+  // === INGESTED 2026-07-04 21:27 ===
+  walter_heinrich_heitler: { definition: "Born on 2 January 1904 in Karlsruhe , Germany, the son of Adolf Heitler, [ a ] a Jewish engineering professor, and Ottilie Rudolf", what_it_does: "", examples: "Hans Bethe and Herbert Fröhlich , who also left Germany in 1933" },
+  these_notes: "The basis for Heitler's book Elementary Wave Mechanics: Introductory Course of Lectures , first published in 1943",
+  a_new_edition: "Published as Elementary Wave Mechanics in 1945",
+
 };
 
 // ============================================================
