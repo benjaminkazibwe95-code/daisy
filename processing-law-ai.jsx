@@ -61317,6 +61317,22 @@ const FLAT_DICT = {
   the_most_common_type: "The forced circulation (FC) model (see evaporator )",
   a_quasiperfect_control_of_all_parameters: "Achieved as DTF crystallizers offer superior control over crystal size and characteristics",
 
+  // === INGESTED 2026-07-05 06:14 ===
+  the_seed_of_a_vascular_plant: "A small package produced in a fruit or cone after the union of male and female reproductive cells",
+  dormant_seeds: "Viable seeds that do not germinate because they require specific internal or environmental stimuli to resume growth",
+  some_live_seeds: { definition: "Dormant and need more time, and/or need to be subjected to specific environmental conditions before they will germinate", what_it_does: "", examples: "within the embryo; in other cases the seed coat is involved" },
+  dormancy_breaking_often: "Changes in membranes, initiated by dormancy-breaking signals",
+  it_is_a_measure_of_germination_time_course_and: "Usually expressed as a percentage, e.g",
+  seed_germination_rate: "Determined by the seed genetic composition, morphological features and environmental factors",
+  soil_salinity: { definition: "One of the stress factors that can limit the germination rate", what_it_does: "", examples: "peas, chickpeas and mango germinate this way" },
+  the_coleorhiza: "The first part to grow out of the seed, followed by the radicle",
+  the_coleoptile: "Then pushed up through the ground until it reaches the surface",
+  pollen_germination: "Facilitated by hydration on the stigma, as well as by the structure and physiology of the stigma and style",
+  endospores: "Formed inside the mother cell, whereas exospores are formed at the end of the mother cell as a bud",
+  the_seed_needs_to_be_able_to_determine_when: "The perfect time to germinate and they do that by sensing environmental cues",
+  when_red_light: "Present, PHYB is converted to its active form and moves from the cytoplasm to the nucleus where it upregulates the degradation of PIF1",
+  when_aba_levels: "Higher than GA then that leads to dormant seeds and when GA levels are higher, seeds germinate",
+
 };
 
 // ============================================================
