@@ -61480,6 +61480,13 @@ const FLAT_DICT = {
   the_missouri_state_university_bears: "Members of Conference USA",
   ice_bears_home_games: "Played at Mediacom Ice Park",
 
+  // === INGESTED 2026-07-05 06:36 ===
+  debt_consolidation: "A form of debt refinancing that entails taking out one loan to pay off many others",
+  household_debt: "The consumer debt of the adults in the household plus the mortgage , if applicable",
+  most_debt_consolidation_loans: "Offered from lending institutions and secured as a second mortgage or home equity line of credit",
+  the_overall_lower_interest_rate: "An advantage that debt consolidation loan offers to consumers",
+  federal_student_loan_consolidation: "Sometimes incorrectly referred to as refinancing",
+
 };
 
 // ============================================================
