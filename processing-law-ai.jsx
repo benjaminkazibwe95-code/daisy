@@ -62025,6 +62025,10 @@ const FLAT_DICT = {
   the_journal_of_mathematical_physics: "A peer-reviewed journal published monthly by the American Institute of Physics devoted to the publication of papers in mathematical physics",
   the_current_editor: "Jan Philip Solovej from University of Copenhagen",
 
+  // === INGESTED 2026-07-05 16:53 ===
+  because_black_hole_formation: "Not a stationary event, proving that the GSL holds is difficult",
+  proving_it: "Generally valid would require quantum-statistical mechanics , because the GSL is both a quantum and statistical law",
+
 };
 
 // ============================================================
