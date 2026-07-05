@@ -61037,6 +61037,38 @@ const FLAT_DICT = {
   global_forest_watch: "Most frequently used by nongovernmental organizations (NGOs), academic researchers, government employees, and the private sector",
   such_rates: { definition: "Affected by three forest growth components, which are difficult to measure: ingrowth, upgrowth and mortality", what_it_does: "", examples: "wetlands, forests, trees, crops and urban areas" },
 
+  // === INGESTED 2026-07-05 05:19 ===
+  the_gustatory_system_or_sense_of_taste: { definition: "The sensory system that is partially responsible for the perception of taste", what_it_does: "", examples: "the upper surface of the tongue and the epiglottis" },
+  taste_buds: "Able to tell different tastes apart when they interact with different molecules or ions",
+  saltiness_and_sourness: { definition: "Perceived when alkali metals or hydrogen ions meet taste buds, respectively", what_it_does: "", examples: "of menthol ) and 'hotness' ( pungency ), by chemesthesis" },
+  within_each_papilla: "Hundreds of taste buds",
+  the_amino_acids_in_proteins: "Used in the body to build muscles and organs, and to transport molecules ( hemoglobin ), antibodies , and the organic catalysts known as enzymes",
+  sweetness: "Detected by a variety of G protein coupled receptors (GPCR) coupled to the G protein gustducin found on the taste buds",
+  compounds_the_brain_senses_as_sweet: "Compounds that can bind with varying bond strength to two different sweetness receptors",
+  for_lactose_it: { definition: "30 millimoles per liter, with a sweetness index of 0.3, [ 31 ] and 5-nitro-2-propoxyaniline 0.002 millimoles per liter", what_it_does: "", examples: "saccharides activate the GPCR, which releases gustducin" },
+  sourness: "The taste that describes acidity",
+  the_sourness_of_substances: { definition: "Rated relative to dilute hydrochloric acid , which has a sourness index of 1", what_it_does: "", examples: "lemon , lime , grape , orange , tamarind , and bitter melon" },
+  but_the_chloride_of_calcium: "Saltier and less bitter than potassium chloride, and is commonly used in pickle brine instead of KCl",
+  quinine_is_also_known_for_its_bitter_taste_and: "Found in tonic water",
+  the_variation_in_sensitivity: "Determined by two common alleles at the TAS2R38 locus",
+  gustducin: { definition: "Made of three subunits", what_it_does: "", examples: "Japanese cuisine" },
+  taste: "A form of chemoreception which occurs in the specialised taste receptors in the mouth",
+  receptor_molecules: { definition: "Found on the top of microvilli of the taste cells", what_it_does: "", examples: "lead acetate" },
+  rebaudioside_a: "A steviol glycoside coming from stevia that is 200 times sweeter than sugar",
+  lead_acetate_and_other_lead_compounds: "Used as sweeteners, mostly for wine, until lead poisoning became known",
+  the_protons_that: { definition: "Released then block potassium channels, which depolarise the cell and cause calcium influx", what_it_does: "", examples: "TAS2R38 are responsible for the ability to taste bitter substances in vertebrates" },
+  the_sensation_of_heat: { definition: "Caused by the food's activating nerves that express TRPV1 and TRPA1 receptors", what_it_does: "", examples: "Sichuan cuisine ), Vietnamese , and Thai cuisines" },
+  in_the_case_where_it: { definition: "Caused by dental work, the dissimilar metals used may produce a measurable current", what_it_does: "", examples: "working with pesticides" },
+  the_main_form_of_fat_that_is_commonly_ingested: "Triglycerides , which are composed of three fatty acids bound together",
+  the_taste: "Commonly related to other, more negative, tastes such as bitter and sour due to how unpleasant the taste is for humans",
+  the_casr_receptor: { definition: "Commonly found in the gastrointestinal tract , kidneys , and brain", what_it_does: "", examples: "sweetness, without suggesting an associated chemical receptor" },
+  both_the_lesser_palatine_and_the_zygomatic: "Maxillary nerves (from the trigeminal nerve )",
+  the_nst: "The topographical map that processes gustatory and sensory (temp, texture, etc.) info",
+  the_frontal_operculum: { definition: "Speculated to be the memory and association hub for taste", what_it_does: "", examples: "the mouthparts, legs, and wings" },
+  detecting_these_substances: "Vital for behaviors like feeding, mating, and oviposition",
+  a_supertaster_is_a_person_whose_sense_of_taste: "Significantly more sensitive than most",
+  the_cause_of_this_heightened_response: { definition: "Likely, at least in part, due to an increased number of fungiform papillae", what_it_does: "", examples: "aspartame (artificial sweetener)" },
+
 };
 
 // ============================================================
