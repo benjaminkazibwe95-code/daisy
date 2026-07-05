@@ -61899,6 +61899,9 @@ const FLAT_DICT = {
   one_fraudster: "Sentenced to 33 months in prison for selling a white powder containing starch, but no DCA, to people with cancer",
   all_five_patients: "Receiving other treatments during the study",
 
+  // === INGESTED 2026-07-05 16:17 ===
+  lowry_who: "The minister of the Wesleyan Church in Aldershot from 1892 to 1919",
+
 };
 
 // ============================================================
