@@ -61487,6 +61487,31 @@ const FLAT_DICT = {
   the_overall_lower_interest_rate: "An advantage that debt consolidation loan offers to consumers",
   federal_student_loan_consolidation: "Sometimes incorrectly referred to as refinancing",
 
+  // === INGESTED 2026-07-05 06:38 ===
+  the_government_fiscal_balance: "One of three major sectoral balances in the national economy, the others being the foreign sector and the private sector",
+  the_collapse: { definition: "Explained by the massive shift of the private sector from financial deficit into surplus or, in other words, from boom to bust", what_it_does: "", examples: "the private banking system) and the external sector – that is, foreign buyers and sellers" },
+  this_is_because_a_budget_deficit: "That a government has deposited, over the course of some time range, more money and bonds into private holdings than it has removed in taxes",
+  a_budget_surplus: "The opposite: in total, the government has removed more money and bonds from private holdings via taxes than it has put back in via spending",
+  this_implies_that_private_net_saving: { definition: "Only possible if the government runs budget deficits; alternately, the private sector is forced to dissave when the government runs a budget surplus", what_it_does: "", examples: "the interest payments on the debt as expenditures" },
+  this_means_that_tax_revenues: "Low and expenditure (e.g., on social security ) high",
+  the_structural_deficit: "The deficit that remains across the business cycle, because the general level of government spending exceeds prevailing tax levels",
+  the_observed_total_budget_deficit: { definition: "Equal to the sum of the structural deficit with the cyclical deficit or surplus", what_it_does: "", examples: "health and retirement spending, and planned future tax revenues" },
+  a_prominent_example_of_this: "The Rothschild dynasty in the late 18th and 19th century, though there were many earlier examples (e.g",
+  large_longterm_loans: "Risky for the lender, and therefore commanded high interest rates",
+  examples_of_bearer_bonds: "British Consols and American Treasury bill bonds",
+  current_reality: "Almost the exact opposite",
+  these_include_households_acting_as_if_they: "Infinite-lived dynasties as well as assumptions of no uncertainty and no liquidity constraints",
+  this_crowdingout_effect: "Induced by changes in the interest rate",
+  this_is_partly_because_stock_markets_variables: "Harder to target as circumstances outside direct government control (e.g",
+  debttogdp_ratio: "Used to characterise the long-run sustainability of government fiscal policy",
+  lagged_budget_balance: { definition: "That past fiscal policy decisions done by government can influence the condition of public finances in the following years (e.g", what_it_does: "government to understand the current economic situation and choose the correct policy to sustain economic prosperity", examples: "" },
+  government_composition_index: "The political ideology of the government",
+  type_of_government_means_if_the_government: "Single party or a coalition",
+  if_a_reduction_in_a_structural_deficit: "Desired, either revenue must increase, spending must decrease, or both",
+  surplus_purchases: { definition: "Funded through increases in tax", what_it_does: "", examples: "economic conditions and political climate" },
+  budget_reconciliation: "An optional procedure used in some years to facilitate the passage of legislation amending tax or spending law",
+  if_paygo_requirements: "Not met, automatic spending cuts (known as sequestration) may be triggered to offset the increase in the deficit",
+
 };
 
 // ============================================================
