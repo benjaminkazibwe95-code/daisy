@@ -62800,6 +62800,37 @@ const FLAT_DICT = {
   a_specific_proposal: { definition: "'equal per capita entitlements'", what_it_does: "", examples: "significant fossil fuel subsidies are present in many countries" },
   other_barriers: "Cultural values, governance, accountability and institutional capacity",
 
+  // === INGESTED 2026-07-05 20:54 ===
+  options: "Classified into a number of styles, the most common of which are: These are often described as vanilla options",
+  when_an_option: { definition: "Exercised, the cost to the option holder is the strike price of the asset acquired plus the premium, if any, paid to the issuer", what_it_does: "", examples: "voting rights or any income from the underlying asset, such as a dividend" },
+  when_spring_came_and_the_olive_harvest: "Larger than expected, he exercised his options and then rented the presses out at a much higher price than he paid for his 'option'",
+  their_exercise_price: { definition: "Fixed at a rounded-off market price on the day or week that the option was bought, and the expiry date was generally three months after purchase", what_it_does: "", examples: "the purchase price" },
+  the_chicago_board_options_exchange: "Established in 1973, which set up a regime using standardized forms and terms and trade through a guaranteed clearing house",
+  since_the_contracts: "Standardized, accurate pricing models are often available",
+  the_terms_of_an_otc_option: "Unrestricted and may be individually tailored to meet any business need",
+  the_most_common_way_to_trade_options: "Via standardized options contracts listed by various futures and options exchanges",
+  the_trader: "Not obligated to sell the stock, but has the right to do so on or before the expiration date",
+  if_the_stock_price_at_expiration: "Above the strike price, the seller of the put (put writer) makes a profit in the amount of the premium",
+  strategies: "Often used to engineer a particular risk profile to movements in the underlying security",
+  one_wellknown_strategy: "The covered call , in which a trader buys a stock (or holds a previously purchased stock position), and sells a call",
+  another_very_common_strategy: "The protective put , in which a trader buys a stock (or holds a previously-purchased long stock position), and buys a put",
+  the_maximum_profit_of_a_protective_put: "Theoretically unlimited as the strategy involves being long on the underlying stock",
+  the_maximum_loss: "Limited to the purchase price of the underlying stock less the strike price of the put option and the premium paid",
+  a_protective_put: "Also known as a married put",
+  for_example_real_estate_options: "Often used to assemble large parcels of land, and prepayment options are usually included in mortgage loans",
+  the_most_basic_model: "The Black–Scholes model",
+  more_sophisticated_models: "Used to model the volatility smile",
+  the_resulting_solutions: "Readily computable, as are their 'Greeks'",
+  binomial_models: "Widely used by professional option traders",
+  the_equations_used_to_model_the_option: { definition: "Often expressed as partial differential equations (see for example Black–Scholes equation )", what_it_does: "", examples: "explicit finite difference , implicit finite difference and the Crank–Nicolson method" },
+  in_an_option_contract_this_risk: { definition: "That the seller will not sell or buy the underlying asset as agreed", what_it_does: "", examples: "market indexes, exchange-traded funds (ETFs), stocks, and volatility indexes" },
+  its_flagship_product: "Options on the S&P 500 Index (SPX), one of the most actively traded options globally",
+  the_cboe: "Regulated by the U.S",
+  ise_is_regulated_by_the_sec_and: "Owned by Nasdaq, Inc",
+  eurex_exchange: "Owned by Eurex Frankfurt AG",
+  trading: "Conducted electronically as well as through auction bidding by securities companies",
+  the_tse: "Regulated by the Financial Services Agency of Japan",
+
 };
 
 // ============================================================
