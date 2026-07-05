@@ -62304,6 +62304,13 @@ const FLAT_DICT = {
   an_example_of_one_of_these_competitors: { definition: "Quaternary ammonium ions, which bind at the extracellular face [ 84 ] [ 85 ] or central cavity of the channel", what_it_does: "", examples: "multiple sclerosis [ 49 ] and KCNA2-related disorders" },
   some_types_of_potassium_channels: "Activated by muscarinic receptors and these are called muscarinic potassium channels (I KACh )",
 
+  // === INGESTED 2026-07-05 18:31 ===
+  the_toxic_phospholipases_c: "Capable of interacting with eukaryotic cell membranes and hydrolyzing phosphatidylcholine and sphingomyelin, leading to cell lysis",
+  the_residues_in_the_active_site: "Conserved in all PLC isotypes",
+  the_intermediate: "Then hydrolyzed to inositol 1,4,5-trisphosphate (IP 3 )",
+  various_types_of_plc: "Activated differently, contributing to cells' ability to respond to their surroundings",
+  dag: "The substrate for the synthesis of phosphatidic acid , a regulatory molecule",
+
 };
 
 // ============================================================
