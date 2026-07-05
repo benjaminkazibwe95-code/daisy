@@ -61354,6 +61354,37 @@ const FLAT_DICT = {
   proper_disposal_of_used_cooking_oil: "An important waste-management concern",
   the_proper_way_to_dispose_of_oil: "To put it in a sealed non-recyclable container and discard it with regular garbage",
 
+  // === INGESTED 2026-07-05 06:23 ===
+  an_income_tax: "A tax imposed on individuals or entities (taxpayers) in respect of the income or profits earned by them (commonly called taxable income )",
+  income_tax_generally: "Computed as the product of a tax rate times the taxable income",
+  the_tax_imposed_on_companies: "Usually known as corporate tax and is commonly levied at a flat rate",
+  individual_income: "Often taxed at progressive rates where the tax rate applied to each additional unit of income increases (e.g",
+  taxable_income_of_taxpayers_who: { definition: "Resident in the jurisdiction is generally total income less income-producing expenses and other deductions", what_it_does: "", examples: "goods held for sale, is included in income" },
+  nonresidents: "Taxed only on certain types of income from sources within the jurisdictions, with few exceptions",
+  taxpayers_not_timely_paying_tax_owed: { definition: "Generally subject to significant penalties, which may include jail-time for individuals", what_it_does: "", examples: "goods held for sale, is included in income" },
+  the_tax_rate_under_normal_circumstances: "1% and sometimes would climb as high as 3% in situations such as war",
+  these_modest_taxes: "Levied against land, homes and other real estate, slaves, animals, personal items and monetary wealth",
+  the_income_tax: "Reintroduced by Addington in 1803 when hostilities with France recommenced, but it was again abolished in 1816, one year after the Battle of Waterloo",
+  a_committee: "Formed in 1851 under Joseph Hume to investigate the matter, but failed to reach a clear recommendation",
+  the_purpose_of_the_income_tax: { definition: "To make up for revenue that would be lost by tariff reductions", what_it_does: "", examples: "India , may have significant differences from the principles outlined below" },
+  most_references_below: "Examples; see specific articles by jurisdiction ( e.g",
+  estates_and_trusts: "Usually subject to special tax provisions",
+  other_taxable_entities: "Generally treated as partnerships",
+  partners_of_partnerships: "Treated as having income, deductions, and credits equal to their shares of such partnership items",
+  separate_taxes: "Assessed against each taxpayer meeting certain minimum criteria",
+  residence: "Often defined for individuals as presence in the jurisdiction for more than 183 days",
+  income_tax: "Generally collected in one of two ways: through withholding of tax at source and/or through payments directly by taxpayers",
+  the_amount_to_be_withheld: "A fixed percentage where the tax itself is at a fixed rate",
+  payees: "Generally required to provide to the payer or the government the information needed to make the determinations",
+  withholding_for_employees: "Often referred to as 'pay as you earn' ( PAYE ) or 'pay as you go",
+  selfassessment: "The taxpayer must make a computation of tax and submit it to the government",
+  bracket_creep: "Usually defined as the process by which inflation pushes wages and salaries into higher tax brackets , leading to fiscal drag",
+  most_progressive_tax_systems: "Not adjusted for inflation",
+  the_net_effect: "That in real terms taxes rise unless the tax rates or brackets are adjusted to compensate",
+  many_types_of_income: { definition: "Subject to income tax, which is very variable", what_it_does: "", examples: "bonuses paid to employees are taxable" },
+  comparison_of_tax_rates_around_the_world: "A difficult and somewhat subjective enterprise",
+  tax_laws_in_most_countries: "Extremely complex, and tax burden falls differently on different groups in each country and sub-national unit",
+
 };
 
 // ============================================================
