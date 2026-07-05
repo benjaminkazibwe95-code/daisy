@@ -62021,6 +62021,10 @@ const FLAT_DICT = {
   the_other_interferometer_arm: "Bounced off a reference mirror",
   reflected_light_from_the_tissue_sample: { definition: "Combined with reflected light from the reference", what_it_does: "", examples: "in the analysis of planar silicon semiconductor processing" },
 
+  // === INGESTED 2026-07-05 16:49 ===
+  the_journal_of_mathematical_physics: "A peer-reviewed journal published monthly by the American Institute of Physics devoted to the publication of papers in mathematical physics",
+  the_current_editor: "Jan Philip Solovej from University of Copenhagen",
+
 };
 
 // ============================================================
