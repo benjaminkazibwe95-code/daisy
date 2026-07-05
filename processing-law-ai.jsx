@@ -60932,6 +60932,14 @@ const FLAT_DICT = {
   compulsory_education: { definition: "A period of education that is required of all people and is imposed by the government", what_it_does: "", examples: "Emile, or On Education ), said, 'To get a good idea of public education, read Plato's Republic" },
   school_courses: { definition: "Harsh and have been described as a 'brutal training period'", what_it_does: "", examples: "Harvard College was founded as early as 1636" },
 
+  // === INGESTED 2026-07-05 04:55 ===
+  the_mausoleums_of_the_early_ottoman_sultans: { definition: "Located in Bursa, and the city's main landmarks include numerous edifices built throughout the Ottoman period", what_it_does: "", examples: "the building of hospitals, caravanserais (including the Koza Han ), and madrasas" },
+  they_also_asserted_that_even_though_they: { definition: "Not obliged to give any children to the army, the officers took some anyway", what_it_does: "", examples: "textile production, automotive manufacturing, and agriculture-based industries" },
+  bursa: "A major centre for tourism",
+  apart_from_the_baths_that: "Operated by hotels, Uludağ University has a physical therapy centre which also makes use of thermal water",
+  the_first_private_university_in_bursa: "The Bursa Orhangazi University , [ 56 ] which started education in the 2012–2013 academic year",
+  supposedly_the_twenty_domes: { definition: "Built instead of the twenty separate mosques which Sultan Bayezid I had promised for winning the Battle of Nicopolis in 1396", what_it_does: "", examples: "the works of Suleiman the Magnificent 's chief architect, Mimar Sinan" },
+
 };
 
 // ============================================================
