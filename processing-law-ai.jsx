@@ -62539,6 +62539,12 @@ const FLAT_DICT = {
   major_players_in_the_utility_computing_market: "Sun Microsystems , IBM , and HP",
   gridenabled_applications: { definition: "Specific software applications that can utilize grid infrastructure", what_it_does: "", examples: "BOINC , use the CPU scavenging model" },
 
+  // === INGESTED 2026-07-05 19:31 ===
+  iaas_services: { definition: "Typically billed as a utility: cost reflects the amount of resources allocated or consumed", what_it_does: "", examples: "OpenStack , Apache CloudStack , or OpenNebula" },
+  an_alternative_to_hypervisors: "Linux containers , which run in isolated partitions of a Linux kernel that runs directly on the physical hardware",
+  containers: "Isolated, secured and managed using Linux cgroups and namespaces",
+  the_global_iaas_market: "Projected to reach a value of $411.9 billion by 2030, expanding at a compound annual growth rate (CAGR) of 22.6% from 2023 to 2030",
+
 };
 
 // ============================================================
