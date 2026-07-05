@@ -61822,6 +61822,16 @@ const FLAT_DICT = {
   plasma_instabilities: "Also categorised into different modes – see this paragraph in plasma stability",
   functional_instability: { definition: "Recurrent sprains or a feeling of giving way of the injured joint", what_it_does: "provided by a brace provides cutaneous afferent feedback in maintaining postural control and increasing stability", examples: "" },
 
+  // === INGESTED 2026-07-05 15:52 ===
+  the_welding_area: "Usually protected by some type of shielding gas (e.g",
+  the_most_common_classification: { definition: "Constant current power supplies and constant voltage power supplies", what_it_does: "", examples: "gas metal arc welding, flux cored arc welding, and submerged arc welding" },
+  one_of_the_most_common_types_of_arc_welding: "Shielded metal arc welding (SMAW), which is also known as manual metal arc welding (MMAW) or stick welding",
+  an_electric_current: "Used to strike an arc between the base material and a consumable electrode rod or stick",
+  fcaw_wire: "Actually a fine metal tube filled with powdered flux materials",
+  an_externally_supplied_shielding_gas: "Sometimes used, but often the flux itself is relied upon to generate the necessary protection from the atmosphere",
+  saw: "Only possible in the 1F (flat fillet), 2F (horizontal fillet), and 1G (flat groove) positions",
+  this_kind_of_corrosion: { definition: "Often termed weld decay", what_it_does: "", examples: "the 1920 introduction of automatic welding in which electrode wire was continuously fed" },
+
 };
 
 // ============================================================
