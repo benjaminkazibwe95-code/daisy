@@ -62288,6 +62288,12 @@ const FLAT_DICT = {
   she_makes_the_argument_that_intentions: "Understood (coded) at a more complex level of neural activity than that of individual neurons",
   she_argues_that_mirror_neurons_in_humans: "The product of social interaction and not an evolutionary adaptation for action-understanding",
 
+  // === INGESTED 2026-07-05 18:14 ===
+  a_neurotransmitter_receptor: "A class of receptors that specifically binds with neurotransmitters as opposed to other molecules",
+  ionotropic: "That ions can pass through the receptor, whereas metabotropic means that a second messenger inside the cell relays the message (i.e",
+  many_neurotransmitter_receptors: "Categorized as a serpentine receptor or G protein-coupled receptor because they span the cell membrane not once, but seven times",
+  neurotransmitter_receptors: "Known to become unresponsive to the type of neurotransmitter they receive when exposed for extended periods of time",
+
 };
 
 // ============================================================
