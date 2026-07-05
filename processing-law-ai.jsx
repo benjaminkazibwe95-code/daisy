@@ -62259,6 +62259,17 @@ const FLAT_DICT = {
   many_epigenetic_aging_clocks: { definition: "Based on DNA methylation, [ 62 ] [ 63 ] but alternative epigenetic clocks are also starting to emerge, e.g", what_it_does: "", examples: "combination therapies" },
   the_ethical_implications_of_life_extension: { definition: "A subject of discourse among bioethicists", what_it_does: "", examples: "supplements and hormone replacement therapy, is a lucrative global industry" },
 
+  // === INGESTED 2026-07-05 18:10 ===
+  in_switzerland_several_names: "Roman references: the Romands and the Romansh people",
+  though_these_concepts: { definition: "Related, they are not identical", what_it_does: "", examples: "Cicero , was keeping with Roman tradition and serving the Roman state" },
+  the_latins: { definition: "A people with a marked Mediterranean character, related to other neighbouring Italic peoples such as the Falisci", what_it_does: "", examples: "freedmen (freed slaves) and slaves" },
+  this_aspect_of_the_roman_state: { definition: "Seen as important even by some of the emperors", what_it_does: "", examples: "barbarian settlers and invaders" },
+  foreign_sources: "Generally hostile, ascribing traits such as unrest and deceit to the Romans and describing them as 'as proud as they are helpless'",
+  given_that_these_rulers: "Seen as having universal power , the Romans were considered intruders in affairs that exceeded their competence",
+  coins_minted_by_the_vandals: "Inscribed with Felix Karthago ('fortunate Carthage') and Carthagine Perpetua ('Carthage eternal')",
+  whereas_governors_in_the_eastern_provinces: { definition: "Often native to their respective provinces, the military and administrative staff in North Africa was almost entirely constituted by easterners", what_it_does: "", examples: "Guntarith and Stotzas , who sought to restore an independent kingdom" },
+  the_term_walhaz: "The origin of the modern term ' Welsh ', i.e",
+
 };
 
 // ============================================================
