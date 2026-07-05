@@ -61756,6 +61756,15 @@ const FLAT_DICT = {
   a_central_notion_for_this_connection: "That of quasistatic processes , namely idealized, 'infinitely slow' processes",
   the_chemical_potential: "Like a force which pushes an increase in particle number",
 
+  // === INGESTED 2026-07-05 15:09 ===
+  two_elements_of_the_given_set: "Equivalent to each other if and only if they belong to the same equivalence class",
+  the_following_sets: "Equivalence classes of this relation: [ a ] = { a } , [ b ] = [ c ] = { b , c }",
+  a_partition_of_x: "A set P of nonempty subsets of X , such that every element of X is an element of a single element of P",
+  each_element_of_p: "A cell of the partition",
+  even_though_equivalence_relations: "As ubiquitous in mathematics as order relations, the algebraic structure of equivalences is not as well known as that of orders",
+  ker: "Surjective but not injective",
+  equivalence_relations: "A ready source of examples or counterexamples",
+
 };
 
 // ============================================================
