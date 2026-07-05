@@ -62584,6 +62584,17 @@ const FLAT_DICT = {
   dtsc: "Waiting for the upcoming January 22, 2010 deadline for responses to the data call-in",
   the_advantage_of_this_arrangement: "That it could ensure a centralized body of experts that are able to provide oversight across the range of nano-products and sectors",
 
+  // === INGESTED 2026-07-05 19:57 ===
+  programmable_matter: { definition: "A term originally coined in 1991 by Toffoli and Margolus to refer to an ensemble of fine-grained computing elements arranged in space", what_it_does: "", examples: "a liquid crystal display is a form of programmable matter" },
+  a_second_school_of_thought: "That the individual units of the ensemble can compute and the result of their computation is a change in the ensemble's physical properties",
+  quantum_dots: { definition: "In fact often referred to as artificial atoms", what_it_does: "", examples: "MEMS -based units, cells created using synthetic biology , and the utility fog concept" },
+  shapechanging_and_locomotion_of_solid_objects: "Possible with solid-liquid phase change pumping",
+  metamaterials: "Artificial composites that can be controlled to react in ways that do not occur in nature",
+  different_binary_states: "Associated with different stress-strain response of the material",
+  an_active_area_of_research: "In molecules that can change their shape, as well as other properties, in response to external stimuli",
+  cellular_automata: "A useful concept to abstract some of the concepts of discrete units interacting to give a desired overall behavior",
+  synthetic_biology: { definition: "A field that aims to engineer cells with 'novel biological functions.' [ citation needed ] Such cells are usually used to create larger systems (e.g", what_it_does: "", examples: "substrate adhesion, nanoparticle templating, and protein immobilization" },
+
 };
 
 // ============================================================
