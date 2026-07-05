@@ -61988,6 +61988,39 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 16:38 ===
   he_and_his_group: "Active in developing ground- and space-based instruments for astronomy",
 
+  // === INGESTED 2026-07-05 16:45 ===
+  in_fourier_transform_spectroscopy_they: "Used to analyze light containing features of absorption or emission associated with a substance or mixture",
+  the_heterodyne_technique: "Used for (1) shifting an input signal into a new frequency range as well as (2) amplifying a weak input signal (assuming use of an active mixer )",
+  typically_only_one_of_the_new_frequencies: "Desired, and the other signal is filtered out of the output of the mixer",
+  this_if: "Amplified and filtered, before being applied to a detector which extracts the audio signal, which is sent to the loudspeaker",
+  the_fizeau_interferometer: "Shown as it might be set up to test an optical flat",
+  a_precisely_figured_reference_flat: "Placed on top of the flat being tested, separated by narrow spacers",
+  the_reference_flat: "Slightly beveled (only a fraction of a degree of beveling is necessary) to prevent the rear surface of the flat from producing interference fringes",
+  each_of_the_well_separated_light_paths: "Traversed only once, and the fringes can be adjusted so that they are localized in any desired plane",
+  if_the_reflectivity: "High, resulting in a high Q factor (i.e., high finesse), monochromatic light produces a set of narrow bright rings against a dark background",
+  the_layer_thicknesses: "Tightly controlled so that at the desired wavelength, reflected photons from each layer interfered constructively",
+  baselines_thousands_of_kilometers_long: { definition: "Achieved using very long baseline interferometry", what_it_does: "", examples: "spatial resolution of 1 milliarcsecond requires 0.5 μm stability in a 100 m baseline" },
+  the_first_examples_of_matter_interferometers: "Electron interferometers , later followed by neutron interferometers",
+  the_reference_flats: "Resting with their bottom surfaces in contact with the test flats, and they are illuminated by a monochromatic light source",
+  the_surface_in_the_right_photo: "Uneven, resulting in a pattern of curved fringes",
+  to_determine_whether_the_surface_being_tested: "Concave or convex with respect to the reference optical flat, any of several procedures may be adopted",
+  one_can_observe_how_the_fringes: "Displaced when one presses gently on the top flat",
+  when_the_flats: "Ready for sale, they will typically be mounted in a Fizeau interferometer for formal testing and certification",
+  dichroic_filters: "Multiple layer thin-film etalons",
+  light_from_a_monochromatic_point_source: "Expanded by a diverging lens (not shown), then is collimated into a parallel beam",
+  a_convex_spherical_mirror: "Positioned so that its center of curvature coincides with the focus of the lens being tested",
+  the_emergent_beam: { definition: "Recorded by an imaging system for analysis", what_it_does: "", examples: "the Thirty Meter Telescope and the Extremely Large Telescope , will be of segmented design" },
+  traditional: "Of optical testing compare a surface against a spherical reference with the aid of a null corrector",
+  the_unknown_frequency: { definition: "Overlapped with the appropriate spectral segment of the comb and the frequency of the resultant heterodyne beats is measured", what_it_does: "", examples: "by observing the direction that the fringes move when the reference surface is pushed" },
+  the_precision_and_reproducibility_of_psi: { definition: "Far greater than possible in static interferogram analysis, with measurement repeatabilities of a hundredth of a wavelength being routine", what_it_does: "", examples: "point diffraction and lateral shearing interferometers" },
+  the_axial_resolution_of_the_system: "Determined in part by the coherence length of the light source",
+  holographic_interferometry: "A technique which uses holography to monitor small deformations in single wavelength implementations",
+  a_photograph: "Made of the speckle pattern before deformation, and a second photograph is made of the speckle pattern after deformation",
+  only_if_the_test_path: "Precisely 6 times the reference path would fringes be seen",
+  one_interferometer_arm: "Focused onto the tissue sample and scans the sample in an X-Y longitudinal raster pattern",
+  the_other_interferometer_arm: "Bounced off a reference mirror",
+  reflected_light_from_the_tissue_sample: { definition: "Combined with reflected light from the reference", what_it_does: "", examples: "in the analysis of planar silicon semiconductor processing" },
+
 };
 
 // ============================================================
