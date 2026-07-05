@@ -61198,6 +61198,9 @@ const FLAT_DICT = {
   six_regional_confederations: "Associated with FIFA; these are: [ 160 ] National associations (or national federations) oversee football within individual countries",
   the_countries_that_benefited_most: { definition: "The Soviet Bloc countries of Eastern Europe , where top athletes were state-sponsored while retaining their status as amateurs", what_it_does: "", examples: "the UEFA Champions League in Europe and the Copa Libertadores in South America" },
 
+  // === INGESTED 2026-07-05 05:51 ===
+  rheb_gtpase_activity: { definition: "Stimulated (and therefore capacity to activate mTOR diminished) by the upstream TSC complex , which is inhibited by IGF signalling", what_it_does: "", examples: "p70S6K, 4EBP, and ULK1 which are important for regulating protein anabolic / catabolic balance" },
+
 };
 
 // ============================================================
