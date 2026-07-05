@@ -61765,6 +61765,15 @@ const FLAT_DICT = {
   ker: "Surjective but not injective",
   equivalence_relations: "A ready source of examples or counterexamples",
 
+  // === INGESTED 2026-07-05 15:11 ===
+  an_isentropic_process: "An idealized thermodynamic process that is both adiabatic and reversible",
+  the_work_transfers_of_the_system: "Frictionless , and there is no net transfer of heat or matter",
+  such_an_idealized_process: "Useful in engineering as a model of and basis of comparison for real processes",
+  thermodynamic_processes: "Named based on the effect they would have on the system (ex",
+  even_though_in_reality_it: "Not necessarily possible to carry out an isentropic process, some may be approximated as such",
+  the_parameter_that: "How efficiently a device approximates a corresponding isentropic device is called isentropic or adiabatic efficiency",
+  if_the_entropy_density: "The same everywhere, then the flow is said to be homentropic",
+
 };
 
 // ============================================================
