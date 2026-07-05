@@ -60622,6 +60622,15 @@ const FLAT_DICT = {
   a_black_start: "The process of restoring a power station to operation without relying on external power",
   once_the_turbine_generator: "Producing electricity, the auxiliary pumps can be powered on, and the reactor cooling pumps can be run momentarily",
 
+  // === INGESTED 2026-07-05 03:25 ===
+  the_underlying_idea: "Captured in expressions such as ' If you find yourself in a hole, stop digging ' and the warning against 'throwing good money after bad'",
+  the_heightened_situations: { definition: "Explained in three elements", what_it_does: "", examples: "time, money and people invested in the project" },
+  the_effect_of_sunk_costs: "Often seen escalating commitment",
+  more_value_is_placed_on_project_when_they: "Early or late in their process due to the clarity of completion goals at those points",
+  pan_am: "A well known airlines and hotel with hundreds of employees",
+  while_determinants: "Still applicable, oftentimes there are more complex factors when organizational goals and actions misalign",
+  individuals_and_groups_that: "Directly employed due to a project, have financial stake in it may provide enough opposition to prevent changes from being made as well",
+
 };
 
 // ============================================================
