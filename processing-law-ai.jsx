@@ -61601,6 +61601,11 @@ const FLAT_DICT = {
   argdown: "A Markdown -inspired lightweight markup language for complex argumentation",
   the_argdown_syntax: "Accompanied by tools that facilitate coding and transform Argdown documents into argument maps",
 
+  // === INGESTED 2026-07-05 07:16 ===
+  many_economics_models_assume_that_agents: { definition: "On average rational, and can in large quantities be approximated to act according to their preferences in order to maximise utility", what_it_does: "", examples: "man, in the kinds of environments in which such organisms exist" },
+  even_if_such_information: "Available, the time and effort required to analyze it would be prohibitively high for many voters",
+  this_theory_did_not_consider_how_problems: "Initially discovered by decision-makers, which could have an impact on the overall decision",
+
 };
 
 // ============================================================
