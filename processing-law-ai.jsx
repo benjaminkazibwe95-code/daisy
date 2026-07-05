@@ -62622,6 +62622,14 @@ const FLAT_DICT = {
   the_circular_drumlike_geometry: { definition: "More commonly used and can be easily prepared by exfoliating samples onto a patterned substrate", what_it_does: "", examples: "phosphorene, crack propagation was found to happen preferentially along certain directions" },
   the_major_expectation_held_amongst_researchers: { definition: "That given their exceptional properties, 2D materials will replace conventional semiconductors to deliver a new generation of electronics", what_it_does: "", examples: "drug delivery , imaging , tissue engineering , biosensors , and gas sensors among others" },
 
+  // === INGESTED 2026-07-05 20:11 ===
+  a_second_issue: "Consistency in design methods",
+  a_third_challenge: "The practical application of these technologies",
+  new_processes: "Still being developed for the application of these materials on an industrial scale",
+  one_limitation: "The wide band gap, making TiO 2 only sensitive to ultraviolet (UV) light, which just occupies less than 5% of the solar spectrum",
+  a_major_issue_with_current_energy_generation: "The generation of waste heat as a by-product of combustion",
+  a_common_example_of_this: "In an internal combustion engine",
+
 };
 
 // ============================================================
