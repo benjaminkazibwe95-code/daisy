@@ -59906,6 +59906,35 @@ const FLAT_DICT = {
   selfdefense: "Difficult because, despite the Bajuni's developed competence with rifles for hunting, the post-independence authorities confiscated their weapons",
   the_community: "Organized into clans ( Ukoo or Khamasi ) that influence social and cultural practices such as marriage",
 
+  // === INGESTED 2026-07-05 00:30 ===
+  its_connection_to_the_ocean: "In the south, through the Bab-el-Mandeb Strait and the Gulf of Aden",
+  the_extensive_shallow_shelves: "Noted for their marine life and corals",
+  the_sea_itself: "Once referred to as the Erythraean Sea by Europeans",
+  the_basis_of_this_theory: "That some Pre-Indo-European languages used color words to refer to the cardinal directions",
+  yam_suph: { definition: "Traditionally identified as the Red Sea", what_it_does: "", examples: "rocks and currents" },
+  this_effort: "Significant, as it contributed to safer and more efficient navigation routes",
+  this_canal: { definition: "A predecessor of the modern Suez Canal , which was constructed in the 19th century and remains one of the world's most important waterways", what_it_does: "", examples: "inscriptions, evidence the construction of the canal during Darius's reign" },
+  several_canals: "Built in ancient times from the Nile to the Red Sea along or near the line of the present Sweet Water Canal , but none lasted for long",
+  the_suez_canal: { definition: "Opened in November 1869", what_it_does: "", examples: "warships, next to the Bab al-Mandeb during the Gaza war" },
+  one_ship: "Hijacked and taken back to Yemen",
+  the_sea: "Known for its strong winds and unpredictable local currents",
+  the_rain: "Mostly short showers, often with thunderstorms and occasionally with dust storms",
+  winter_mean_sea_level: "0.5 m (1.6 ft) higher than in summer",
+  coral_reefs_in_the_red_sea: "Near Egypt, Eritrea, Jordan, Israel, Saudi Arabia, and Sudan",
+  the_variation_of_temporal_and_spatial_currents: "As low as 0.5 m (1.6 ft) [ clarification needed ] and is governed by the wind",
+  the_rest_of_the_red_sea_and_the_gulf_of_aden: "Subjected to regular and seasonally reversible winds",
+  the_wind_regime: "Characterized by seasonal and regional variations in speed and direction with average speed generally increasing northward",
+  the_hot_solutions: "Emanating from an active subseafloor rift",
+  lake_asal_in_djibouti: "Eligible as an experimental site to study the evolution of the deep hot brines of the Red Sea",
+  two_new_islands: "Formed in 2011 and 2013 in the Zubair Archipelago , a small chain of islands owned by Yemen",
+  modern_development: "Focused on the following fields",
+  the_barqan_field: { definition: "Discovered in 1969, and the Midyan Field in 1992, both within the Midyan Basin on the Saudi Arabian side of the Red Sea", what_it_does: "", examples: "cylinders (e.g., the Blue Hole (Red Sea) at Dahab )" },
+  the_high_marine_biodiversity_of_the_area: { definition: "Recognized by the Egyptian government, which set up the Ras Mohammed National Park in 1983", what_it_does: "", examples: "coral reefs" },
+  environmental_regulation: { definition: "Dispersed among national agencies and the regional Organization for the Conservation of the Environment of the Red Sea and Gulf of Aden (PERSGA)", what_it_does: "", examples: "Ras Mohammed , SS Thistlegorm (shipwreck), Elphinstone Reef , The Brothers , Daedalus Reef , St" },
+  the_popular_tourist_beach_of_sharm_elsheikh: "Closed to all swimming in December 2010 due to several serious shark attacks , including a fatality",
+  the_red_sea_project: { definition: "Building the highest quality accommodation and a wide range of facilities on the coastline in Saudi Arabia", what_it_does: "people to visit the coastline of the Red Sea by the end of 2022 but will be fully finished by 2030", examples: "" },
+  the_blocking_of_israelilinked_ships: { definition: "In response to Israel's war in Gaza", what_it_does: "", examples: "oil, weapons, and narcotics" },
+
 };
 
 // ============================================================
