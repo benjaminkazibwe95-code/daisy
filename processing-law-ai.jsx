@@ -60312,6 +60312,9 @@ const FLAT_DICT = {
   faster_availability_of_data: "A competitive issue for most organizations",
   managers_with_strong_public_service_motivation: { definition: "More likely to engage with performance information because they see it as a means of achieving public goals", what_it_does: "", examples: "graduate satisfaction, employment rates, and student outcomes" },
 
+  // === INGESTED 2026-07-05 02:15 ===
+  much_servicedelivered_content: "Dependent on a session to provide much of the context that the user (client) needs to understand answers to questions",
+
 };
 
 // ============================================================
