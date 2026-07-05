@@ -62056,6 +62056,9 @@ const FLAT_DICT = {
   immune_cells: "Activated in embryonic brain and spinal cord tissues, as well as in amniotic fluid derived cells",
   these_immune_neural_interactions: "Mediated by cytokine signaling and pathways such as NF-κB and JAK–STAT",
 
+  // === INGESTED 2026-07-05 17:10 ===
+  a_host_of_methods_for_these_research_areas: "Available such as those presented in the International Society of Information Fusion",
+
 };
 
 // ============================================================
