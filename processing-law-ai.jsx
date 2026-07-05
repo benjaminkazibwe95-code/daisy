@@ -62575,6 +62575,15 @@ const FLAT_DICT = {
   some_exceptions_to_this_rule: "Provided, for instance when the controller themself can guarantee that the recipient will comply with the data protection rules",
   the_safe_harbor: { definition: "Approved as providing adequate protection for personal data, for the purposes of Article 25(6), by the European Commission on 26 July 2000", what_it_does: "", examples: "by converting data into a non-readable format, encryption prevents unauthorized access" },
 
+  // === INGESTED 2026-07-05 19:52 ===
+  no_labeling: "Required by the FDA so that number could be significantly higher",
+  upstream_engagement_in_this_sense: "Meant to 'create the best possible conditions for sound policy making and public judgments based on careful assessment of objective information'",
+  found_that_factual_information: "Not primarily sought out; instead, individuals sought out opinion pieces and editorials",
+  there_is_significant_debate_about_who: "Responsible for the regulation of nanotechnology",
+  if_no_claims: "Made by a manufacturer, then the FDA may be unaware of nanotechnology being employed",
+  dtsc: "Waiting for the upcoming January 22, 2010 deadline for responses to the data call-in",
+  the_advantage_of_this_arrangement: "That it could ensure a centralized body of experts that are able to provide oversight across the range of nano-products and sectors",
+
 };
 
 // ============================================================
