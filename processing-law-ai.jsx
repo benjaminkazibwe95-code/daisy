@@ -59828,6 +59828,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 00:04 ===
   gap_junction_channels: "Composed of two hemichannels called connexons in vertebrates, one contributed by each cell at the synapse",
 
+  // === INGESTED 2026-07-05 00:06 ===
+  cooperative_synapse_formation: { definition: "The mutual amplification of synapses", what_it_does: "", examples: "in a rat cortex" },
+
 };
 
 // ============================================================
