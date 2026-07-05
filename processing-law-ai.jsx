@@ -62462,6 +62462,14 @@ const FLAT_DICT = {
   a_house_in_hong_kong: { definition: "Allegedly set on fire by an S4 in July 2013, [ 276 ] followed by minor S4 burn incidents in Pakistan [ 277 ] and Russia", what_it_does: "", examples: "26 reports of burns and 55 reports of property damage" },
   the_european_patent: { definition: "Revoked in March 2024", what_it_does: "", examples: "Sony and HTC , in several famous forums and websites in Taiwan to improve its brand image" },
 
+  // === INGESTED 2026-07-05 19:16 ===
+  shortcuts: { definition: "Typically implemented as a small file containing a target URI or GUID to an object , or the name of a target program file that the shortcut represents", what_it_does: "", examples: "the Microsoft Windows Start menu , or in the main menu of a desktop environment" },
+  shortcuts_with_appusermodelids: "Used by some desktop programs and all WinRT Modern/Universal Windows Platform apps for launching",
+  there_is_another_type_of_file_that: "Similar to a .lnk file, but has the extension .cda",
+  when_the_target: "A program, many graphical user interfaces support .desktop and .directory files",
+  aliases: "Also supported in macOS ; they are not supported by Unix APIs and commands, but are supported by higher-level APIs and the Finder",
+  the_names_of_aliases: "No longer italicized, but the arrow badge remains",
+
 };
 
 // ============================================================
