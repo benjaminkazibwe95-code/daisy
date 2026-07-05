@@ -62915,6 +62915,26 @@ const FLAT_DICT = {
   the_remaining_longterm_debt: "Used in the numerator of the long-term-debt-to-equity ratio",
   both_the_formulas_below: "Therefore identical: Debt to equity can also be reformulated in terms of assets or debt: General Electric Co",
 
+  // === INGESTED 2026-07-05 21:11 ===
+  carbon_credits: { definition: "A form of carbon pricing , along with carbon taxes , and Carbon Border Adjustment Mechanisms (CBAM)", what_it_does: "", examples: "vintage, project origin, project type)" },
+  the_third_option: { definition: "Article 6.8, which enables non-credit generating cooperation (and is not relevant to this article)", what_it_does: "", examples: "landfills" },
+  forward_crediting_is_a_process_where_credits: { definition: "Issued for projected avoided emissions or enhanced removals, which can be claimed by buyers even before the reduction activities have occurred", what_it_does: "", examples: "project status, project documents, credits generated, ownership, sale, and retirement" },
+  countries: { definition: "Still determining the role of carbon offsets in the Paris Agreement through international negotiations on the agreement's Article 6", what_it_does: "", examples: "the Kyoto Protocol was that the marginal cost of reducing emissions would differ among countries" },
+  their_warming_effects: { definition: "The same regardless of where they are emitted", what_it_does: "", examples: "the European Union Emissions Trading System (EU-ETS) and the California Cap and Trade Program" },
+  offset_credits_under_this_program: { definition: "Designated as Emission Reduction Units", what_it_does: "", examples: "CDM projects from the Kyoto Protocol" },
+  the_preparation_work_for_this: "Expected to last until the end of 2023",
+  administrative_fees_for_program_management: "Still under discussion",
+  operating_principles: "Similar to those under existing trading mechanisms and carbon offset certification standards",
+  corsia: "Applied to international aviation since January 2019",
+  trading_on_voluntary_carbon_markets: "300 MtCO 2 e in 2021",
+  credits: { definition: "Issued under independent crediting standards", what_it_does: "", examples: "developers, brokers, auditors, and buyers" },
+  the_costs_of_developing_a_project: { definition: "A significant factor", what_it_does: "", examples: "renewable energy or energy efficiency" },
+  projects_that_sequester_carbon: "Also called Nature-Based Solutions",
+  some_types_of_offsets: "Able to be created at very low costs under present standards",
+  a_major_factor_in_future_price_models: "The extent to which programs that support more permanent removals can influence future global climate policy",
+  final_guidelines_for_this_program: "Expected in late 2023",
+  another_example_is_projects_that: { definition: "Compelled by regulations", what_it_does: "", examples: "the Climate Community and Biodiversity Standard require multiple species plantings" },
+
 };
 
 // ============================================================
