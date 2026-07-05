@@ -60786,6 +60786,10 @@ const FLAT_DICT = {
   tax_depreciation: "Computed under the double-declining balance method switching to straight line or the straight-line method, at the option of the taxpayer",
   this_deduction: "Fully phased out for businesses acquiring over $2,000,000 of such property during the year",
 
+  // === INGESTED 2026-07-05 04:08 ===
+  a_divestment: "The opposite of an investment",
+  divestiture: { definition: "An adaptive change and adjustment of a company's ownership and business portfolio made to confront with internal and external changes", what_it_does: "", examples: "Alcoa has established an online showroom of the divisions that are for sale" },
+
 };
 
 // ============================================================
