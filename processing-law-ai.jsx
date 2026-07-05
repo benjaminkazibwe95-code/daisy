@@ -62744,6 +62744,33 @@ const FLAT_DICT = {
   if_the_positive_news_does_not_materialise_they: "Inclined to sell in large numbers, thereby suppressing the price significantly below the previous levels",
   he_concluded_that_these_versions_of_afdes: "Structurally unstable systems mathematically by using an extension of the Peixoto Theorem for two-dimensional manifolds to a four-dimensional manifold",
 
+  // === INGESTED 2026-07-05 20:48 ===
+  it_is_clear_eanna: "Dedicated to Inanna from the earliest Uruk period throughout the history of the city",
+  uruk: "Extremely well penetrated by a canal system that has been described as ' Venice in the desert'",
+  the_original_city_of_uruk: { definition: "Situated southwest of the ancient Euphrates River", what_it_does: "", examples: "Tell Brak by military force" },
+  the_eanna_district: "Historically significant as both writing and monumental public architecture emerged here during Uruk periods VI–IV",
+  all_of_the_temples_and_canals: "Restored again under Nabopolassar",
+  the_structures_of_uruk: "Cited under two different naming conventions: one in German from the initial expedition and the English translation of the same",
+  it_is_clear_that_eanna: "Dedicated to Inanna, symbolized by Venus from the Uruk period",
+  the_maximum_extent: "3 km (1.9 miles) north/south, and 2.5 km (1.6 miles) east/west",
+  the_temples_at_uruk: "Quite remarkable as they were constructed with brick and adorned with colorful mosaics",
+  the_last_dated_cuneiform_tablet_from_uruk: "W22340a, an astronomical almanac, which is dated to 79 or 80 AD",
+  the_carved_marble_female_face: "Probably a depiction of Inanna",
+  the_mask: "Looted from the Iraq Museum during the invasion of Iraq in April 2003",
+  the_stone_temple: "Built of limestone and bitumen on a podium of rammed earth and plastered with lime mortar",
+  the_podium_itself: "Built over a woven reed mat called ĝiparu , which was ritually used as a nuptial bed",
+  the_stone: "Quarried from an outcrop at Umayyad about 60 km east of Uruk",
+  the_limestone_temple: "Probably the first Inanna temple, but it is impossible to know with certainty",
+  the_riemchen_bricks_first_used_in_this_temple: "Used to construct all buildings of Uruk IV period Eanna",
+  building_e: "Initially thought to be a palace, but later proven to be a communal building",
+  the_impressive_buildings_of_this_period: "Built as Uruk reached its zenith and expanded to 600 hectares",
+  all_the_buildings_of_eanna_iva: "Destroyed sometime in Uruk III, for unclear reasons",
+  the_complex_of_monumental_temples: "Replaced with baths around the Great Courtyard and the labyrinthine Rammed-Earth Building",
+  the_fortress_like_architecture_of_this_time: "A reflection of that turmoil",
+  the_sumerian_poem_the_death_of_gilgamesh: "How the River Euphrates parted after Gilgamesh died and he was buried underneath it, before the river was restored to its course",
+  the_sixth_dynasty: "An Amorite dynasty not mentioned on the SKL",
+  rulers_in_orange: "Legendary figures with notably uncertain historicity",
+
 };
 
 // ============================================================
