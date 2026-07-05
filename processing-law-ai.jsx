@@ -59806,6 +59806,25 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-04 23:56 ===
   other_factors_to_consider: "The need for social interaction and how hominids have interacted with their environments over time",
 
+  // === INGESTED 2026-07-05 00:02 ===
+  the_fibrous_glia: "Usually located within white matter, have relatively few organelles , and exhibit long unbranched cellular processes",
+  radial_glia: "Mostly present during development, playing a role in neuron migration",
+  on_the_basis_of_several_studies_it: { definition: "Now believed that this model also applies to macroglial cell specification", what_it_does: "", examples: "the secretion or absorption of neural transmitters and maintenance of the blood–brain barrier" },
+  because_this_influx: { definition: "Directly caused by an increase in blood flow to the brain, calcium waves are said to be a kind of hemodynamic response function", what_it_does: "", examples: "regulating the brain's extracellular environment and maintaining overall homeostasis" },
+  astrocytomas: "Divided into two categories: low grade (I and II) and high grade (III and IV)",
+  low_grade_tumors: "More common in children, and high grade tumors are more common in adults",
+  malignant_astrocytomas: "More prevalent among men, contributing to worse survival",
+  they_grow_relatively_slowly_so: { definition: "Usually considered benign, but they infiltrate the surrounding healthy tissue and can become malignant", what_it_does: "", examples: "astrocytes and oligodendrocytes" },
+  glioblastomas: { definition: "Generally considered to be the most invasive type of glial tumor, as they grow rapidly and spread to nearby tissue", what_it_does: "", examples: "autism spectrum disorders and schizophrenia" },
+  that_message: "Then relayed to the cerebral cortex , where we translate those EPSPs into 'pain'",
+  one_factor_at_the_forefront_of_recent_research: { definition: "In the pain-potentiating synapse located in the dorsal horn of the spinal cord and the role of astrocytes in encapsulating these synapses", what_it_does: "", examples: "glutamate , from the presynaptic afferent nerve terminals in the spinal cord dorsal horn" },
+  as_noxious_pain: "Sustained, spinal sensitization creates transcriptional changes in the neurons of the dorsal horn that lead to altered function for extended periods",
+  activated_astrocytes: { definition: "Also a source of matrix metalloproteinase 2 ( MMP2 ), which induces pro-IL-1β cleavage and sustains astrocyte activation", what_it_does: "", examples: "intracerebral hemorrhage [ 73 ] and traumatic brain injury" },
+  this_remarkable_cure_of_diabetes_mellitus: "Mediated by astrocytes",
+  gp_astrocytes: "Also present in the dentate gyrus of the hippocampus in both rodent and human brains",
+  the_reasons_for_these_degenerative_changes: "Currently being hotly debated",
+  the_astrocytes: "Able to activate the stem cells to transform into working neurons by dampening the release of ephrin-A2 and ephrin-A3",
+
 };
 
 // ============================================================
