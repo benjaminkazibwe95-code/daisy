@@ -60813,6 +60813,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 04:18 ===
   among_its_most_significant_innovations: "The following: Migration research",
 
+  // === INGESTED 2026-07-05 04:21 ===
+  his_main_academic_theory: "Called New Structural Economics",
+
 };
 
 // ============================================================
