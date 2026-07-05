@@ -60315,6 +60315,41 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 02:15 ===
   much_servicedelivered_content: "Dependent on a session to provide much of the context that the user (client) needs to understand answers to questions",
 
+  // === INGESTED 2026-07-05 02:17 ===
+  load_balancing: "The subject of research in the field of parallel computers",
+  knowing_the_exact_execution_time_of_each_task: "An extremely rare situation",
+  a_load_balancing_algorithm: { definition: "'static' when it does not take into account the state of the system for the distribution of tasks", what_it_does: "", examples: "the load level (and sometimes even overload) of certain processors" },
+  the_key_design_choice: "The performance function",
+  static_load_balancing_techniques: "Commonly centralized around a router , or master , which distributes the loads and optimizes the performance function",
+  the_advantage_of_static_algorithms: "That they are easy to set up and can efficient in the case of fairly regular tasks (such as processing HTTP requests from a website)",
+  while_these_algorithms: "Much more complicated to design, they can improve performance, in particular, when the execution time varies greatly from one task to another",
+  when_tasks: "Uniquely assigned to a processor according to their state at a given moment, it is a unique assignment",
+  parallel_computing_infrastructures: "Often composed of units of different computing power , which should be taken into account for the load distribution",
+  the_literature: "This as master-worker architecture",
+  the_load_balancing_algorithm: { definition: "Then executed on each of them and the responsibility for assigning tasks (as well as re-assigning and splitting as appropriate) is shared", what_it_does: "", examples: "'master' nodes for each sub-cluster, which are themselves subject to a global 'master'" },
+  one_parameter_of_a_load_balancing_algorithm: "Therefore its ability to adapt to scalable hardware architecture",
+  when_the_algorithm: "Capable of adapting to a varying number of computing units, but the number of computing units must be fixed before execution, it is called moldable",
+  even_if_the_execution_time: "Not known in advance at all, static load distribution is always possible",
+  randomized_static_load_balancing: "Simply a matter of randomly assigning tasks to the different servers",
+  even_if_the_number_of_tasks: "Unknown, it is still possible to avoid communication with a pseudo-random assignment generation known to all processors",
+  the_problem_with_this_algorithm: "That it has difficulty adapting to a large number of processors because of the high amount of necessary communications",
+  if_the_latter_is_able_to_subdivide_the_task_it: "Working on, it does so by sending part of its work to the node making the request",
+  the_efficiency_of_such_an_algorithm: "Close to the prefix sum when the job cutting and communication time is not too high compared to the work to be done",
+  roundrobin_dns: { definition: "An alternate method of load balancing that does not require a dedicated software or hardware node", what_it_does: "", examples: "However, the zone file for www.example" },
+  if_the_line_to_one_server: "Congested, the unreliability of DNS ensures less HTTP traffic reaches that server",
+  another_approach_to_load_balancing: "To deliver a list of server IPs to the client, and then to have the client randomly select the IP from the list on each connection",
+  if_this_information: "Stored locally on one backend server, then subsequent requests going to different backend servers would not be able to find it",
+  one_basic_solution_to_the_session_data_issue: "To send all requests in a user session consistently to the same backend server",
+  the_same_problem: { definition: "Usually relevant to central database servers; even if web servers are 'stateless' and not 'sticky', the central database is (see below)", what_it_does: "", examples: "when a web browser has disabled the storage of cookies" },
+  another_solution: "To keep the per-session data in a database",
+  when_the_client: "A web browser, one approach is to store the per-session data in the browser itself",
+  one_way_to_achieve_this: "To use a browser cookie , suitably time-stamped and encrypted",
+  storing_session_data_on_the_client: "Generally the preferred solution: then the load balancer is free to pick any backend server to handle a request",
+  the_fundamental_feature_of_a_load_balancer: "To be able to distribute incoming requests over a number of backend servers in the cluster according to a scheduling algorithm",
+  most_of_the_following_features: "Vendor specific: Load balancing can be useful in applications with redundant communications links",
+  the_catalyst_for_trill: "An event at Beth Israel Deaconess Medical Center which began on 13 November 2002",
+  another_way_of_using_load_balancing: "In network monitoring activities",
+
 };
 
 // ============================================================
