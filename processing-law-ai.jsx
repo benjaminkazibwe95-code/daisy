@@ -59939,6 +59939,10 @@ const FLAT_DICT = {
   mijikenda: "A Bantu dialect cluster spoken along the coast of East Africa, mostly in Kenya , where there are 2",
   the_name_mijikenda: "'the nine settlements' or 'the nine communities' and refers to the multiple language communities that make up the group",
 
+  // === INGESTED 2026-07-05 00:36 ===
+  the_bantu_peoples: "An ethnolinguistic grouping of approximately 400 distinct Indigenous African ethnic groups who speak Bantu languages",
+  abantu: "The Ndebele, Swazi, Xhosa and Zulu word for 'people'",
+
 };
 
 // ============================================================
