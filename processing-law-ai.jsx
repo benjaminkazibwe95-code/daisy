@@ -61742,6 +61742,10 @@ const FLAT_DICT = {
   a_stream: { definition: "From this perspective a data flow that is independent of devices, while a file is a concrete device", what_it_does: "", examples: "a hard drive or solid-state drive" },
   misra_c: "A proprietary set of guidelines to avoid such questionable code, developed for embedded systems",
 
+  // === INGESTED 2026-07-05 14:46 ===
+  the_detection_for_duplicates: "Based on some inbuilt (or alternatively, user-defined) rule for comparing elements",
+  a_data_structure: "Said to be linear if its elements form a sequence",
+
 };
 
 // ============================================================
