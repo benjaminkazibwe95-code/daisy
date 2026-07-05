@@ -62181,6 +62181,12 @@ const FLAT_DICT = {
   the_envelop_protein_s: "Accordingly not present, likely the ancestral state by sequence analysis",
   in_the_case_of_hbv_the_host_receptor: "Human sodium taurocholate receptor ( NTCP ), a mediator of bile acid uptake, and the virus anti-receptor is the abundant HB-AgS envelope protein",
 
+  // === INGESTED 2026-07-05 17:42 ===
+  what_does_and_does_not_belong_to_each_order: "Determined by a taxonomist , as is whether a particular order should be recognized at all",
+  some_taxa: "Accepted almost universally, while others are recognized only rarely",
+  such_names: "Known as descriptive family names",
+  virus_orders: "Indicated by the suffix - virales",
+
 };
 
 // ============================================================
