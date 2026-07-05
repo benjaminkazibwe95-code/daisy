@@ -61542,6 +61542,13 @@ const FLAT_DICT = {
   the_ipab_was_never_formed_and: "Formally repealed by the Balanced Budget Act of 2018",
   manufacturers_who_supply_drugs_to_medicaid: "Required to offer a 15 percent rebate on the average manufacturer's price",
 
+  // === INGESTED 2026-07-05 06:44 ===
+  the_founding_principles: "That services should be comprehensive, universal and free at the point of delivery",
+  the_intention: { definition: "To include about 600,000 clinical staff, and to make significant savings", what_it_does: "", examples: "around 23,000 identified at an early stage, potentially saving thousands of lives" },
+  the_nhs: "Doing well at protecting people from heavy financial costs when ill",
+  waiting_times: "About the same, and the management of longterm illness was better than in other comparable countries",
+  in_a_handwritten_note_the_queen_said_the_award: "Being made to all NHS staff past and present for their 'courage, compassion and dedication' throughout the pandemic",
+
 };
 
 // ============================================================
