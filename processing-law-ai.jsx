@@ -60488,6 +60488,23 @@ const FLAT_DICT = {
   research_antibodies: { definition: "Most commonly used to identify and locate intracellular and extracellular proteins", what_it_does: "should be appropriately described and validated", examples: "pH, solvent, state of tissue etc" },
   common_advantages_over_antibodies: "Better solubility, tissue penetration, stability towards heat and enzymes , and comparatively low production costs",
 
+  // === INGESTED 2026-07-05 02:45 ===
+  gene_expression_affected_by_this_type_of_snp: "Referred to as an eSNP (expression SNP) and may be upstream or downstream from the gene",
+  the_highest_frequencies: "Reached by a few tens of variants present at >70% (and a few thousands at >50%) in Africa, the Americas, and Oceania",
+  with_these_protocols_there: { definition: "A possibility for combining the advantages of SNPs with micro satellite markers", what_it_does: "", examples: "linkage disequilibrium and zygosity information" },
+  snps: { definition: "Also critical for personalized medicine", what_it_does: "", examples: "biomedical research, forensics, pharmacogenetics, and disease causation, as outlined below" },
+  since_gwas: { definition: "A genome-wide assessment, a large sample site is required to obtain sufficient statistical power to detect all possible associations", what_it_does: "", examples: "dominant, recessive, or additive effects" },
+  candidate_gene_association_study: "Commonly used in genetic study before the invention of high throughput genotyping or sequencing technologies",
+  so_this: "A hypothesis driven approach",
+  since_only_a_limited_number_of_snps: "Tested, a relatively small sample size is sufficient to detect the association",
+  candidate_gene_association_approach: { definition: "Also commonly used to confirm findings from GWAS in independent samples", what_it_does: "", examples: "ethnicity , hair color , and eye color with a good probability of a match" },
+  some_cons_to_using_snps_versus_strs: { definition: "That SNPs yield less information than STRs, and therefore more SNPs are needed for analysis before a profile of a suspect is able to be created", what_it_does: "", examples: "SNPs associated with differential responses to treatment" },
+  genomewide_pharmacogenetic_study: "Called pharmacogenomics",
+  pharmacogenetics_and_pharmacogenomics: "Important in the development of precision medicine, especially for life-threatening diseases such as cancers",
+  these_alignments: "Converted to chromosomal coordinates that is shown in Table 1",
+  the_first_section: "Usually a chromosome or mRNA identifier, such as NC_000023.10 (DNA) or NM_004006.3 (mRNA)",
+  an_important_group_of_snps: "Those that corresponds to missense mutations causing amino acid change on protein level",
+
 };
 
 // ============================================================
