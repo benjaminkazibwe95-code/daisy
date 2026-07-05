@@ -61337,6 +61337,15 @@ const FLAT_DICT = {
   the_chemical_mechanism: "The same as in the browning of food, but it develops slowly over time due to the acidic action on the bog body",
   it_is_typically_seen_on_iron_age_bodies_and: "The result of the interaction of anaerobic, acidic, and cold (typically 4 °C (39 °F) ) sphagnum acid on the polysaccharides",
 
+  // === INGESTED 2026-07-05 06:19 ===
+  evidence_of_its_former_importance: "Indicated by the ruins of the various magnificent 19th-century factories located in valleys on the St",
+  the_arrowroot_plant: "Very hardy and not very demanding in its requirements",
+  planting_and_harvesting: "Inter-related in that when the rhizomes are harvested the shoot is replanted at the same time",
+  the_milky_liquid_thus_obtained: "Passed through a coarse cloth or hair sieve and the pure starch, which is insoluble, is allowed to settle at the bottom",
+  the_wet_starch: "Dried in the sun or in a drying house",
+  microscopically_the_arrow_root_starch: { definition: "Oval in shape and with hilum at the proximal end", what_it_does: "", examples: "Arnott's milk arrowroot biscuits" },
+  in_the_victorian_era_it: { definition: "Used, boiled with a little flavouring added, as an easily digestible food for children and people with dietary restrictions", what_it_does: "", examples: "East Asian sweet and sour sauce" },
+
 };
 
 // ============================================================
