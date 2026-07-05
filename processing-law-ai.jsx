@@ -62204,6 +62204,35 @@ const FLAT_DICT = {
   specific_modifications_on_fiber_proteins: "Used to target Adenovirus to certain cell types; [ 48 ] a major effort is made to limit hepatotoxicity and prevent multiple organ failure",
   one_such_modification: { definition: "The gutless vector that removes almost all the viral genome", what_it_does: "", examples: "replication incompetent types, can deliver DNA coding for specific antigens" },
 
+  // === INGESTED 2026-07-05 17:53 ===
+  phycodnaviridae: "A family of large (100–560 kb) double-stranded DNA viruses that infect marine or freshwater eukaryotic algae",
+  if_all_the_trimeric_capsomers: "Identical in structure, the virion capsid contains 5040 copies of the major capsid protein in total with a triangulation number of 169",
+  at_the_fivefold_vertices_there: "12 pentamer-capsomers consist of different proteins",
+  although_members_of_the_family_phycodnaviridae: "Highly diverse, they share very conserved genes involved with virion morphology or structure",
+  akashiwo: "A member of the class Raphidophyceae , a bloom forming species and is widely distributed in temperate and neritic waters",
+  akashiwo_have_been_isolated_and: "Not to be confused with HaV, such as the H",
+  the_latent_period_or_lysogenic_cycle: "Estimated to be 30–33 h with an average burst size (number of viruses produced after lysis) of 770 per cell",
+  virus_particles: { definition: "Assembled in the cytoplasm, usually occupying a space near the inner face of the nucleus", what_it_does: "", examples: "an ATP-dependent DNA ligase , [ 55 ] a type II DNA topoisomerase , and RNase H" },
+  a_high_correlation: "Found between glycosphingolipid (GSL) production and caspase activity during the lytic stage in infected cells",
+  one_of_the_most_studied_phaeoviruses: "Ectocarpus siliculosus virus , most commonly known as EsV-1",
+  vegetative_cells: { definition: "Immune to infection, as they are protected by a rigid cell wall", what_it_does: "", examples: "an increase in temperature" },
+  the_esv_genome: "Transmitted in a Mendelian manner, where half of the progeny contain viral DNA",
+  often_algae_from_infected_spores: { definition: "Indistinguishable from algae derived from healthy spores, but are partially or fully incapable of reproduction", what_it_does: "", examples: "the algae lives within the cells of the host, providing nutrients via photosynthesis" },
+  zoochlorellae: { definition: "Resistant to infection in their symbiotic state", what_it_does: "", examples: "through grazing by copepods, infection by chloroviruses is permitted" },
+  the_second_phase_of_proteins: "Translated in the cytoplasm and the assembly of virus capsids begins about 2–3 hours post infection",
+  mature_virions: "Formed with the addition of newly replicated viral DNA from the host nucleus, likely facilitated by a virus encoded DNA packaging ATPase",
+  a_viroplasm: { definition: "A localized area in the cytoplasm, or around the nucleus of the cell which serves as a 'viral replication factory'", what_it_does: "", examples: "virus genetic material, host proteins and ribosomes necessary for replication" },
+  the_viral_dna: "Then replicated inside the nucleus by the host cell's machinery",
+  algal_samples: "Obtained in the middle or final stages of a red tide in Hiroshima Bay , Japan",
+  akashiwo_blooms: "Detrimental to fish populations in temperate and subarctic waters, and continue to pose serious threats for aquaculture",
+  the_advantages_of_using_hav: "That it specifically infects H",
+  coccolithophores_are_marine_haptophytes_which: "Surrounded by microscopic plates made of calcium carbonate",
+  huxleyi: "Recognized as the most prominent and ecologically important of the coccolithophores",
+  the_termination_stage_of_the_bloom: "Indicated by a color change in the water",
+  tauri: "About 0.8 micrometers in diameter and is within the picosize fraction (0.2–2 micrometers)",
+  pusilla_population_in_an_inshore_environment: "Lysed per day, with an average of 4.4%",
+  pusilla: "Responsible for nutrient and energy recycling in aquatic food webs, which is yet to be quantified",
+
 };
 
 // ============================================================
