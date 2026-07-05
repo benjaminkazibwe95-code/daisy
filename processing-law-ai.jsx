@@ -61746,6 +61746,16 @@ const FLAT_DICT = {
   the_detection_for_duplicates: "Based on some inbuilt (or alternatively, user-defined) rule for comparing elements",
   a_data_structure: "Said to be linear if its elements form a sequence",
 
+  // === INGESTED 2026-07-05 15:03 ===
+  the_product_of_two_quantities_that: "Conjugate has units of energy or sometimes power",
+  the_thermodynamic_force: { definition: "Always an intensive variable and the displacement is always an extensive variable , yielding an extensive energy", what_it_does: "", examples: "volume and entropy" },
+  conjugate_pairs_with_respect_to_entropy: "Often used, in which the product of the conjugate pairs yields an entropy",
+  such_conjugate_pairs: { definition: "Particularly useful in the analysis of irreversible processes, as exemplified in the derivation of the Onsager reciprocal relations", what_it_does: "", examples: "consider the p V {\displaystyle pV} conjugate pair" },
+  the_generalized_force_component_of_this_pair: "The chemical potential",
+  in_cases_where_there: "A mixture of chemicals and phases, this is a useful concept",
+  a_central_notion_for_this_connection: "That of quasistatic processes , namely idealized, 'infinitely slow' processes",
+  the_chemical_potential: "Like a force which pushes an increase in particle number",
+
 };
 
 // ============================================================
