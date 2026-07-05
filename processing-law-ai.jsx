@@ -60940,6 +60940,9 @@ const FLAT_DICT = {
   the_first_private_university_in_bursa: "The Bursa Orhangazi University , [ 56 ] which started education in the 2012–2013 academic year",
   supposedly_the_twenty_domes: { definition: "Built instead of the twenty separate mosques which Sultan Bayezid I had promised for winning the Battle of Nicopolis in 1396", what_it_does: "", examples: "the works of Suleiman the Magnificent 's chief architect, Mimar Sinan" },
 
+  // === INGESTED 2026-07-05 04:57 ===
+  the_earliest_period_once_considered_historical: "The legendary era of the sage-emperors Yao , Shun , and Yu",
+
 };
 
 // ============================================================
