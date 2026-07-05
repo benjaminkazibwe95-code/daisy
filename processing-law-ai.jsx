@@ -62333,6 +62333,16 @@ const FLAT_DICT = {
   perception_of_sound: { definition: "Associated with the left posterior superior temporal gyrus (STG)", what_it_does: "", examples: "pitch and rhythm" },
   neurons_in_these_areas: { definition: "Responsible for sound recognition, and extraction of meaning from sentences", what_it_does: "", examples: "the cochlear nucleus, superior olivary complex, inferior colliculus, and medial geniculate body" },
 
+  // === INGESTED 2026-07-05 18:35 ===
+  schaffer_collaterals: "The axons of pyramidal cells that connect two neurons (CA3 and CA1) and transfer information from CA3 to CA1",
+  plastic_changes_occurring_in_the_hippocampus: "Involved in directing the process by which memories get stored",
+  the_schaffer_collateral: "Involved in activity-dependent plasticity and the information processes that always are processed through the hippocampus all the time",
+  ltp_in_the_hippocampus: "An important model for neural plasticity that contributes to learning and memory",
+  once_the_memories: "Stored, they remain stored for a long time",
+  when_the_stimulus_strength: "Reduced below the action potential threshold, apamin , a neurotoxin , was added to assess the contribution of SK2 activity to EPSPs",
+  when_the_induction_of_chemical_ltp: { definition: "Applied, immunoparticles for SK2 were not found within the PSD of asymmetrical synapses", what_it_does: "", examples: "glutamate" },
+  rate_of_endocytosis: "Dependent on rate at which vesicles are recycled into the recycling pool",
+
 };
 
 // ============================================================
