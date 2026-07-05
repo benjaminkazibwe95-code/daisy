@@ -60596,6 +60596,17 @@ const FLAT_DICT = {
   commission_advances: "First introduced in Canada but quickly spread to the United States",
   many_but_not_all_in_such_organizations: "Knowledgeable about the use of factoring by small firms and clearly distinguish between its use by small rapidly growing firms and turnarounds",
 
+  // === INGESTED 2026-07-05 03:21 ===
+  if_a_hypothesis: "Repeatedly independently demonstrated by experiment to be true, it becomes a scientific theory",
+  a_working_hypothesis: "A provisionally-accepted hypothesis used for the purpose of pursuing further progress in research",
+  hypothesis_p: { definition: "The assumption in a (possibly counterfactual ) ' what if ' question", what_it_does: "", examples: "'supposition'" },
+  working_hypotheses: "Often used as a conceptual framework in qualitative research",
+  when_a_set_of_hypotheses: "Grouped together, they become a type of conceptual framework",
+  when_a_conceptual_framework: "Complex and incorporates causality or explanation, it is generally referred to as a theory",
+  these_might_be_viewed_as_strings_which: "Not part of the network but link certain points of the latter with specific places in the plane of observation",
+  if_that_likelihood: "Sufficiently small (e.g., less than 1%), the existence of a relation may be assumed",
+  if_these_criteria: "Determined later, when the data to be tested are already known, the test is invalid",
+
 };
 
 // ============================================================
