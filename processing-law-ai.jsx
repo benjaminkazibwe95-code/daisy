@@ -60505,6 +60505,13 @@ const FLAT_DICT = {
   the_first_section: "Usually a chromosome or mRNA identifier, such as NC_000023.10 (DNA) or NM_004006.3 (mRNA)",
   an_important_group_of_snps: "Those that corresponds to missense mutations causing amino acid change on protein level",
 
+  // === INGESTED 2026-07-05 02:47 ===
+  metabolic_pathways: { definition: "Often considered to flow in one direction", what_it_does: "", examples: "carbohydrates, fats, and proteins" },
+  the_end_products: { definition: "Often carbon dioxide, water, and ammonia", what_it_does: "", examples: "polypeptides, nucleic acids, proteins, polysaccharides, and lipids" },
+  the_isolated_reaction_of_anabolism: "Unfavorable in a cell due to a positive Gibbs free energy (+Δ G )",
+  an_anabolic_pathway: "A biosynthetic pathway, meaning that it combines smaller molecules to form larger and more complex ones",
+  many_metabolic_pathways: { definition: "Of commercial interest", what_it_does: "required 56 genetic edits, including expression of 34 heterologous genes from plants in yeast cells", examples: "expression of 34 heterologous genes from plants in yeast cells" },
+
 };
 
 // ============================================================
