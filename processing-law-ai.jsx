@@ -61164,6 +61164,12 @@ const FLAT_DICT = {
   the_aztec_pushup: "One of the most difficult plyometric push-ups",
   the_western_fence_lizard: "A particular species that engage in this behavior",
 
+  // === INGESTED 2026-07-05 05:40 ===
+  maclaren: "Born in 1820 at Alloa , Clackmannanshire in Scotland, the son of Jean née Stewart (born 1769) and Archibald MacLaren (born 1771)",
+  during_this_period_it: { definition: "Illegal for a man to marry his deceased wife’s sister", what_it_does: "", examples: "a central mast or pole 60 feet tall in the atrium for climbing" },
+  the_british_army: "Now trained on his principles, and in Gymnasia invented by him",
+  his_last_effort: "Worthy to be placed on a level with any of his former achievements",
+
 };
 
 // ============================================================
