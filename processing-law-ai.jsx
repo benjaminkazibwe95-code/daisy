@@ -60527,6 +60527,23 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 02:55 ===
   nih: { definition: "A component of the U.S", what_it_does: "", examples: "cell biology , genetics , chemistry , pharmacology , structural biology , and computational biology" },
 
+  // === INGESTED 2026-07-05 02:57 ===
+  the_more_whey_that: "Drained, the less moisture retained in the cheese",
+  although_the_common_perception_of_cheese_today: "Made from cow's milk, goat's milk was actually the preferred base of ancient cheesemakers, because goats are smaller animals than cows",
+  this_meant_that_goats_required_less_food_and: "Easier to transport and herd",
+  the_milk: { definition: "Traditionally from a cow , goat , sheep , or buffalo , although, in theory, cheese could be made from the milk of any mammal", what_it_does: "", examples: "carbon dioxide , alcohol , aldehydes and ketones are heterofermentative" },
+  fermentation_using_homofermentative_bacteria: "Important in the production of cheeses such as Cheddar, where a clean, acid flavour is required",
+  starter_cultures: "Chosen to give a cheese its specific characteristics",
+  as_the_curd: "Formed, milk fat is trapped in a casein matrix",
+  once_the_cheese_curd: "Judged to be ready, the cheese whey must be released",
+  to_prevent_such_decomposition_it: "Necessary to remove most of the water (whey) from the cheese milk, and hence cheese curd, to make a partial dehydration of the curd",
+  syneresis_occurs_and_cheese_whey: "Expressed from the particles",
+  the_cheddar_curds_and_whey: "Often transferred from the cheese vat to a cooling table which contains screens that allow the whey to drain, but which trap the curd",
+  the_curd: "Then milled into ribbon shaped pieces and salt is mixed into it to arrest acid development",
+  the_salted_green_cheese_curd: "Put into cheese moulds lined with cheesecloths and pressed overnight to allow the curd particles to bind together",
+  the_cheese_curds: { definition: "Then removed from the hoops to be brined by immersion in a saturated salt solution", what_it_does: "", examples: "Penicillium candida" },
+  this_is_because_the_fungi_used: { definition: "Biochemically very active when compared with starter bacteria", what_it_does: "", examples: "Saint-Nectaire , may also be influenced by yeasts which contribute flavour and coat texture" },
+
 };
 
 // ============================================================
