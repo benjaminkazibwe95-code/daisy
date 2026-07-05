@@ -60561,6 +60561,14 @@ const FLAT_DICT = {
   the_first_and_the_one_linked_above: "The period of time following the filing of the company's S-1 but before SEC staff declare the registration statement effective",
   when_the_quiet_period: "Over, generally the underwriters will initiate research coverage on the firm",
 
+  // === INGESTED 2026-07-05 03:08 ===
+  the_mvp: "Analogous to experimentation in the scientific method applied in the context of validating business hypotheses",
+  steve_blank_typically: { definition: "Minimum viable product as minimum feature set", what_it_does: "", examples: "the real options model" },
+  testing_an_mvp_typically: { definition: "Releasing the product to a limited group of users to gather feedback on functionality, usability, and value", what_it_does: "", examples: "A/B testing" },
+  the_business_model_canvas: "Used to map in the major components and activities for a company starting out",
+  concepts_from_minimum_viable_products: "Applied in other aspects of startups and organizations",
+  a_notable_limitation_of_the_mvp: "Rooted in its approach that seeks out to test its ideas to the market",
+
 };
 
 // ============================================================
