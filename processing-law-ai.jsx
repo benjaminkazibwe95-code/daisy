@@ -60988,6 +60988,22 @@ const FLAT_DICT = {
   skoolies: { definition: "Retired school buses converted into recreational vehicles (the term also applies to their owners and enthusiasts)", what_it_does: "", examples: "only the removal of school bus lettering, conservative designs, or the bus equivalent of an art car" },
   both_versions_of_further: "Painted with a variety of psychedelic colors and designs",
 
+  // === INGESTED 2026-07-05 05:04 ===
+  the_cardinal_secretary_of_state: "Its chief administrator",
+  papal_elections: "Carried out by members of the College of Cardinals",
+  the_holy_see: "Thus viewed as the central government of the Catholic Church and Vatican City",
+  the_sovereignty_of_the_holy_see: "Retained despite multiple sacks of Rome during the Early Middle Ages",
+  parolin: "Named in his role by Pope Francis on 31 August 2013",
+  the_secretariat_of_state: "The only body of the Curia that is situated within Vatican City",
+  the_prefecture_of_the_papal_household: "Responsible for the organization of the papal household, audiences, and ceremonies, apart from the strictly liturgical part",
+  this_reform_insisted_that_the_curia: "Not meant to be a centralized bureaucracy, but a service for the Pope and diocesan bishops that is in communication with local bishops' conferences",
+  likewise_more_lay_people: { definition: "To be involved in the workings of the dicasteries and in giving them input", what_it_does: "", examples: "the prefects of congregations, cease immediately to hold office" },
+  the_diplomatic_activities_of_the_holy_see: "Directed by the Secretariat of State (headed by the Cardinal Secretary of State ), through the Section for Relations with States",
+  although_the_holy_see: { definition: "Closely associated with Vatican City, the independent territory over which the Holy See is sovereign , the two entities are separate and distinct", what_it_does: "", examples: "the Pontifical Palace at Castel Gandolfo" },
+  the_same_authority: "Extended under international law over the Apostolic Nunciature of the Holy See in a foreign country",
+  the_pontifical_swiss_guard: "Founded by Pope Julius II in January 1506 as the personal bodyguards of the Pope and continues to fulfill that function",
+  the_reversed_arrangement_of_the_keys: "Chosen for the arms of the newly founded Vatican City State in 1929",
+
 };
 
 // ============================================================
