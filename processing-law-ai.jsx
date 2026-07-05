@@ -61017,6 +61017,22 @@ const FLAT_DICT = {
   population_growth_rate: "Among highest in the United Arab Emirates (315%) and Qatar (271%)",
   the_fear_is_that_high_population_numbers: "Putting further strain on natural resources, food supplies, fuel supplies, employment, housing, etc",
 
+  // === INGESTED 2026-07-05 05:14 ===
+  it_is_produced_naturally_in_plants_and: "The main constituent of white sugar",
+  sugar_beet_factories: "Located in temperate climates where the beet is grown, and process the beets directly into refined sugar",
+  the_sugarrefining_process: "Washing the raw sugar crystals before dissolving them into a sugar syrup which is filtered and then passed over carbon to remove any residual colour",
+  the_word_sucrose: "Coined in 1857, by the English chemist William Miller [ 6 ] from the French sucre ('sugar') and the generic chemical suffix for sugars -ose",
+  the_abbreviated_term_suc: "Often used for sucrose in scientific literature",
+  the_name_saccharose: { definition: "Coined in 1860 by the French chemist Marcellin Berthelot", what_it_does: "", examples: "mineral salts, and sucrose also begins to decompose at a lower temperature than its melting point" },
+  if_the_enzyme_sucrase: { definition: "Added, however, the reaction will proceed rapidly", what_it_does: "", examples: "cream of tartar or lemon juice, both weak acids" },
+  the_energy_for_the_reaction: "Gained by the cleavage of uridine diphosphate (UDP)",
+  sucrose: "A disaccharide made up of 50% glucose and 50% fructose and has a glycemic index of 65",
+  commercial_samples_of_sugar: "Assayed using this parameter",
+  the_plant_material: "Separated to isolate the sucrose-rich portions",
+  blanco_directo: { definition: "Purer than mill white sugar, but less pure than white refined sugar", what_it_does: "completely removes the molasses from cane juice or beet juice to give the disaccharide white sugar, sucrose", examples: "calcium, potassium, iron, and magnesium) present in small quantities in molasses" },
+  refined_sugar: "A luxury before the 18th century",
+  the_glucose_component: { definition: "Transported into the blood where it serves immediate metabolic demands, or is converted and reserved in the liver as glycogen", what_it_does: "", examples: "one tablespoon of sucrose is considered acceptable by the CDC for managing such an episode" },
+
 };
 
 // ============================================================
