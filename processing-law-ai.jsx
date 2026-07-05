@@ -60885,6 +60885,24 @@ const FLAT_DICT = {
   attending_school: "Not legally required, and if the student could not spend afternoons and evenings working on homework, then the student could quit school",
   the_main_distinction_for_uk_homework: "The social gap, with middle-class teenagers getting a disproportionate amount of homework compared to Asia and Europe",
 
+  // === INGESTED 2026-07-05 04:46 ===
+  grammar_schools_of_these_types: "Also established in British territories overseas, where they have evolved in different ways",
+  although_the_term_scolae_grammaticales: "Not widely used until the 14th century, the earliest such schools appeared from the sixth century, e.g",
+  other_subjects_required_for_religious_work: "Occasionally added, including music and verse (for liturgy), astronomy and mathematics (for the church calendar) and law (for administration)",
+  pupils: "Usually educated in grammar schools up to the age of 14, after which they would look to universities and the church for further study",
+  a_few_grammar_schools: "Also established in the name of Queen Mary and then of Queen Elizabeth I",
+  the_teaching_of_these_languages: "Hampered by a shortage of non-Latin type and of teachers fluent in the languages",
+  the_usual_pattern: "To create an endowment to pay the wages of a master to instruct local boys in Latin and sometimes Greek without charge",
+  most_of_the_day: { definition: "Spent in the rote learning of Latin", what_it_does: "", examples: "scriveners" },
+  grammar_schools: "Established only in Auckland and originally came under the authority of the Auckland Grammar Schools' Board",
+  most_maintained_grammar_schools: { definition: "Amalgamated with a number of other local schools, to form neighbourhood comprehensive schools , though a few were closed", what_it_does: "proceeded quickly in Wales, with the closure of such schools as Cowbridge Grammar School", examples: "" },
+  further_radical_change: "Opposed by both Conservative and Labour governments until September 2016",
+  takapuna_grammar_school: "Established in 1927 and was the first co-educational grammar school to be established in New Zealand",
+  initially_these_schools: "Run exactly like their counterparts in England, and taught by the English",
+  singlesex_classes: "Set up for daughters of the British ruling class in 1844, and later became Raffles Girls' School , officially founded in 1879",
+  these_bilingual_schools: "Influenced by the US educational system, and termed 'high schools' rather than 'grammar schools'",
+  within_these_schools_there: { definition: "Academically top classes, the very competitive Scholars' class or 'A' class", what_it_does: "", examples: "'independent' or 'autonomous'" },
+
 };
 
 // ============================================================
