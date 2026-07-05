@@ -60637,6 +60637,15 @@ const FLAT_DICT = {
   the_higher_costs: { definition: "A result of the resources needed to evaluate investments and determine whether they should be bought or sold", what_it_does: "", examples: "at the end of 2020, $14.8 trillion of U.S" },
   mutual_fund_assets: { definition: "Actively managed, while only $4.8 trillion were passively managed", what_it_does: "", examples: "at the end of 2020, only $0.2 trillion of the $5" },
 
+  // === INGESTED 2026-07-05 03:29 ===
+  the_goal_of_derivatives_pricing: "To determine the fair price of a given security in terms of more liquid securities whose price is determined by the law of supply and demand",
+  examples_of_securities_being_priced: "Plain vanilla and exotic options , convertible bonds , etc",
+  merton: "Awarded the 1997 Nobel Memorial Prize in Economic Sciences",
+  securities: { definition: "Priced individually, and thus the problems in the Q world are low-dimensional in nature", what_it_does: "", examples: "( 1 ), a similar relationship is used to define the price of new derivatives" },
+  the_claims_of_the_technical_analysts: { definition: "Disputed by many academics", what_it_does: "", examples: "the Institute for New Economic Thinking are now attempting to develop new theories and methods" },
+  large_changes_up_or_down: "More likely than what one would calculate using a Gaussian distribution with an estimated standard deviation",
+  but_the_problem: { definition: "That it does not solve the problem as it makes parametrization much harder and risk control less reliable", what_it_does: "", examples: "the self-fulfilling panic that motivates bank runs" },
+
 };
 
 // ============================================================
