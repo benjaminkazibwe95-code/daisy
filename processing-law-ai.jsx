@@ -60010,6 +60010,31 @@ const FLAT_DICT = {
   the_slave_girls: "Concubines, who bore them children",
   the_male_offspring: { definition: "Considered Muslims, but the female offspring inherited their slavery and their non-Muslim heritage", what_it_does: "", examples: "the Swahili language" },
 
+  // === INGESTED 2026-07-05 00:58 ===
+  the_term_sunni: "Those who observe the sunnah , the practices of Muhammad",
+  sunni_islam: { definition: "Sometimes referred to as 'Orthodox Islam'", what_it_does: "", examples: "John Burton, believe that there is no such thing as 'Orthodox Islam'" },
+  i_swear_by_the_one_whose_hand: "The soul of Muhammad, my nation will split into seventy-three sects, one of which will be in Paradise and seventy-two in Hell",
+  both_sunnism_and_shiism: "The end products of several centuries of competition between ideologies",
+  after_he: "Murdered, his followers immediately elected Hasan ibn Ali his elder son from Fātima to succeed him",
+  such_interpretations: "Popular among many commentators",
+  support_for_this_view: "Also found in the Qur'an , according to Sunnis",
+  sunnis_also_believe_that_the_companions: "True believers since it was the companions who were given the task of compiling the Qur'an",
+  both_religious_and_political_leadership: { definition: "In principle open to all Muslims", what_it_does: "", examples: "in the final document of the Grozny Conference" },
+  sunnis_in_the_general_sense: "All Muslims who recognize the caliphate of the three caliphs ( Abū Bakr , ʿUmar ibn al-Khaṭṭāb and ʿUthmān ibn ʿAffān )",
+  sunnis_in_the_special_sense: "Only the 'people of the hadith' ( ahl al-ḥadīṯ )",
+  about_the_maturidiyya_he_only_says_that_they: { definition: "Closer to the Salafiyya than the Ashʿariyya because they excel more in Fiqh than in Kalām", what_it_does: "", examples: "how to pray – is commonly known as Islamic jurisprudence" },
+  while_conflict_between_the_schools: "Often violent in the past, [ 126 ] the four Sunni schools recognize each other's validity and they have interacted in legal debate over the centuries",
+  shah_abdur_rahim: { definition: "Father of Shah Waliullah Dehlawi", what_it_does: "", examples: "veneration of saints among other things associated with Sufism" },
+  the_angel_michael: { definition: "Assigned over rain and plants", what_it_does: "", examples: "the splitting of the moon" },
+  the_most_obvious_miracle: "The Quran's inimitability",
+  the_scales_have_two_scales_and_one_tongue_and: "As big as several layers of heaven and earth",
+  alashari_states_that_god: "Seen on the day of resurrection, whereby only the believers see him, the unbelievers not because they are kept away from God",
+  the_pen_she_wrote_with: "The first thing God created",
+  blessed_are_whose_who: "Saved by God's judgment ( qaḍāʾ Allāh ), condemned are those who are condemned by the judgment of God",
+  he_notes_that_the_exaggerated_lover: "The Rafidites and the exaggerated hater is the Kharijit",
+  sunnis_are_only_those_who: "Salaf in terms of belief",
+  and_the_takfiri_organisations_like_isil: "Excluded from Sunni Islam",
+
 };
 
 // ============================================================
