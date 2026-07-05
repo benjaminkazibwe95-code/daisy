@@ -60544,6 +60544,9 @@ const FLAT_DICT = {
   the_cheese_curds: { definition: "Then removed from the hoops to be brined by immersion in a saturated salt solution", what_it_does: "", examples: "Penicillium candida" },
   this_is_because_the_fungi_used: { definition: "Biochemically very active when compared with starter bacteria", what_it_does: "", examples: "Saint-Nectaire , may also be influenced by yeasts which contribute flavour and coat texture" },
 
+  // === INGESTED 2026-07-05 03:00 ===
+  the_century: { definition: "Marked by significant research, literature, and international cooperation in the field", what_it_does: "", examples: "bans on harmful chemicals like the insecticide DDT" },
+
 };
 
 // ============================================================
