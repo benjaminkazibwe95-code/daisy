@@ -61850,6 +61850,17 @@ const FLAT_DICT = {
   elimination_reactions: "Usually favoured at elevated temperatures [ 15 ] because of increased entropy",
   other_factors_favoring_elimination: "The strength of the base",
 
+  // === INGESTED 2026-07-05 15:58 ===
+  the_resulting_reaction: "A cyclization reaction",
+  many_but_not_all_cycloadditions: "Concerted and thus pericyclic",
+  an_older_but_still_common_notation: "Based on the size of linear arrangements of atoms in the reactants",
+  orbital_symmetry: "Then such that the reaction can proceed in a suprafacial-suprafacial manner",
+  the_dielsalder_reaction: "Perhaps the most important and commonly taught cycloaddition reaction",
+  reactions_involving_heteroatoms: "Known, including the aza-Diels–Alder reaction and oxo-Diels–Alder reaction",
+  the_huisgen_cycloaddition_reaction: "A (2+3)cycloaddition",
+  the_nitroneolefin_cycloaddition: "A [3+2]-cycloaddition",
+  cheletropic_reactions: "A subclass of cycloadditions",
+
 };
 
 // ============================================================
