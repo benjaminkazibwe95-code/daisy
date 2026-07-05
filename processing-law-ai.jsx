@@ -62170,6 +62170,17 @@ const FLAT_DICT = {
   while_the_concentration_of_airborne_pathogens: { definition: "Greater within 2m, they can travel farther and concentrate in a room", what_it_does: "", examples: "the bodily secretions of an infected individual, or biological wastes" },
   airborne_transmission: { definition: "Complex, and hard to demonstrate unequivocally [ 20 ] but the Wells-Riley model can be used to make simple estimates of infection probability", what_it_does: "", examples: "chicken pox, can be obtained through different routes, but mainly by aerosols" },
 
+  // === INGESTED 2026-07-05 17:40 ===
+  hbv: "First identified in the lab as the 'Australia agent' by Blumberg and colleagues in the blood of an Aboriginal transfusion patient",
+  in_the_virion_these_strands: "Arranged such that the two ends of the long strand meet but are not covalently bonded together",
+  the_shorter_strand_overlaps_this_divide_and: "Connected to the longer strand on either side of the split through a direct repeat (DR) segment that pairs the two strands together",
+  the_x_protein: "Thought to be non-structural",
+  its_function_and_significance: "Poorly understood but it is suspected to be associated with host gene expression modulation",
+  when_a_transcript: "Made from the beginning of the pre-S1 region, all three genes are included in the transcript and the L protein is produced",
+  the_pgrna: "Inserted into an assembled viral capsid containing the viral polymerase",
+  the_envelop_protein_s: "Accordingly not present, likely the ancestral state by sequence analysis",
+  in_the_case_of_hbv_the_host_receptor: "Human sodium taurocholate receptor ( NTCP ), a mediator of bile acid uptake, and the virus anti-receptor is the abundant HB-AgS envelope protein",
+
 };
 
 // ============================================================
