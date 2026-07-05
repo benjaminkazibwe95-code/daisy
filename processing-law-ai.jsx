@@ -60282,6 +60282,9 @@ const FLAT_DICT = {
   attributebased_encryption: "A form of public-key encryption in which the user's secret key and the ciphertext depend on attributes (e.g",
   some_of_the_strengths_of_abe: { definition: "That it bypasses the need for explicit key sharing (as in traditional PKI) and identity-based encryption (IBE)", what_it_does: "", examples: "voting systems" },
 
+  // === INGESTED 2026-07-05 02:06 ===
+  the_last_horse_to_do_so: { definition: "The filly Rachel Alexandra in 2009", what_it_does: "", examples: "Secretariat 's win in 1973" },
+
 };
 
 // ============================================================
