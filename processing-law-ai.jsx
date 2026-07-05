@@ -61083,6 +61083,13 @@ const FLAT_DICT = {
   minimum_peristalsis: { definition: "Found in the rectum part of the large intestine as a result of the thinnest muscularis layer", what_it_does: "", examples: "caterpillars and millipedes , also move by peristalsis" },
   a_peristaltic_pump: "A positive-displacement pump in which a motor pinches advancing portions of a flexible tube to propel a fluid within the tube",
 
+  // === INGESTED 2026-07-05 05:25 ===
+  in_processed_meats_these_flavors: { definition: "Collectively known as warmed-over flavor", what_it_does: "", examples: "lubricating oils , fuels , and mechanical cutting fluids" },
+  microbial_rancidity: { definition: "A water-dependent process in which microorganisms, such as bacteria or molds , use their enzymes such as lipases to break down fat", what_it_does: "", examples: "vitamin E , can reduce this process by destroying or inhibiting microorganisms" },
+  oxidative_stability: "A measure of oil or fat resistance to oxidation",
+  the_time_for_this_to_happen: "Called the 'induction time', and it is repeatable under identical conditions (temperature, air flow, etc.)",
+  the_rancimat_method: { definition: "Carried out using an air current at temperatures between 50 and 220 °C", what_it_does: "", examples: "AOCS Cd 12b-92 and ISO 6886" },
+
 };
 
 // ============================================================
