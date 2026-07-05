@@ -60607,6 +60607,21 @@ const FLAT_DICT = {
   if_that_likelihood: "Sufficiently small (e.g., less than 1%), the existence of a relation may be assumed",
   if_these_criteria: "Determined later, when the data to be tested are already known, the test is invalid",
 
+  // === INGESTED 2026-07-05 03:23 ===
+  that_idea: { definition: "Believed to have been popularized by American writer Horatio Alger in the 19th century", what_it_does: "", examples: "the Rust compiler was bootstrapped in OCaml" },
+  a_tiny_assembler_program: { definition: "Hand-coded for a new computer (for example the IBM 650 ) which converted a few instructions into binary or decimal code: A1", what_it_does: "", examples: "conditional assembly, macros, optimisations, etc.) established" },
+  the_common_pattern_for_this: "To use a small executable bootstrapper file ( e.g., setup.exe ) which updates the installer and starts the real installation after the update",
+  bootstrapping: "A form of positive feedback in analog circuit design",
+  seed_ai: "A hypothesized type of artificial intelligence capable of recursive self-improvement",
+  no_such_ai: "Known to exist, but it remains an active field of research",
+  bootstrapping_in_business: "Starting a business without external help or working capital",
+  maximising_the_bootstrap_current: "A major goal of advanced tokamak designs",
+  bootstrapping_in_inertial_confinement_fusion: "The alpha particles produced in the fusion reaction providing further heating to the plasma",
+  an_electric_power_grid: "Almost never brought down intentionally",
+  generators_and_power_stations: "Started and shut down as necessary",
+  a_black_start: "The process of restoring a power station to operation without relying on external power",
+  once_the_turbine_generator: "Producing electricity, the auxiliary pumps can be powered on, and the reactor cooling pumps can be run momentarily",
+
 };
 
 // ============================================================
