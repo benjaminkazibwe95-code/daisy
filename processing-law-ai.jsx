@@ -60131,6 +60131,14 @@ const FLAT_DICT = {
   development_of_http: "Initiated in 1989 and summarized in a simple document describing the behavior of a client and a server using the first HTTP version, named 0.9",
   spdy: { definition: "Integrated into Google's Chromium and then into other major web browsers", what_it_does: "", examples: "the work of W3C HTTP-NG Working Group" },
 
+  // === INGESTED 2026-07-05 01:30 ===
+  it_occurs_when_there: "An unauthorized action against computer infrastructure that compromises the confidentiality, integrity, or availability of its content",
+  detection_of_cyberattacks: { definition: "Often absent or delayed, especially when the malware attempts to spy on the system while remaining undiscovered", what_it_does: "", examples: "significant financial losses and identity theft" },
+  depending_whether_the_expected_threat: { definition: "Passive espionage, data manipulation, or active hijacking, different mitigation methods may be needed", what_it_does: "", examples: "buyers being unable to guarantee that the zero-day vulnerability was not sold to another party" },
+  different_botnets: { definition: "Equipped for different tasks such as DDOS attacks or password cracking", what_it_does: "", examples: "customers or employees, and 10 percent by states or state-affiliated actors" },
+  once_suspicious_activity: "Suspected, investigators look for indicators of attack and indicators of compromise",
+  sophisticated_attacks_using_valuable_exploits: { definition: "More less likely to be detected or announced – as the perpetrator wants to protect the usefulness of the exploit", what_it_does: "", examples: "shutting down servers) can violate the company's contractual obligations" },
+
 };
 
 // ============================================================
