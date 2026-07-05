@@ -61563,6 +61563,10 @@ const FLAT_DICT = {
   timesheet_software: "Software used to maintain timesheets",
   it_was_popularized_when_computers: "First introduced to the office environment, with the goal of automating heavy paperwork for big organizations",
 
+  // === INGESTED 2026-07-05 07:01 ===
+  when_something: { definition: "Deemed effective , it means it has an intended or expected outcome, or produces a deep, vivid impression", what_it_does: "", examples: "to countries whose laws are 'well written' but not effectively enforced" },
+  the_word_effective: "Sometimes used in a quantitative way, 'being very effective or not very effective'",
+
 };
 
 // ============================================================
