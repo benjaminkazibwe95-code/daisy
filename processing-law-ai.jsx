@@ -60512,6 +60512,18 @@ const FLAT_DICT = {
   an_anabolic_pathway: "A biosynthetic pathway, meaning that it combines smaller molecules to form larger and more complex ones",
   many_metabolic_pathways: { definition: "Of commercial interest", what_it_does: "required 56 genetic edits, including expression of 34 heterologous genes from plants in yeast cells", examples: "expression of 34 heterologous genes from plants in yeast cells" },
 
+  // === INGESTED 2026-07-05 02:53 ===
+  slaughterhouses_that_produce_meat_that: "Not intended for human consumption are sometimes referred to as knacker's yards or knackeries",
+  this_is_where_animals_are_slaughtered_that: { definition: "Not fit for human consumption or that can no longer work on a farm, such as retired work horses", what_it_does: "", examples: "wet markets" },
+  such_openair_slaughterhouses: "Called shambles , and there are streets named ' The Shambles ' in some English and Irish towns (e.g",
+  five_areas: "Set aside on the outskirts of the city and the feudal privileges of the guilds were curtailed",
+  a_cut_and_cover_railway_tunnel: "Constructed beneath the market to create a triangular junction with the railway between Blackfriars and King's Cross",
+  these_slaughterhouses: "Regulated by law to ensure good standards of hygiene, the prevention of the spread of disease and the minimization of needless animal cruelty",
+  slaughterhouses: "Influenced by the work of Temple Grandin",
+  preparation_of_individual_cuts: "Done at a butchery or other meat preparation facility",
+  in_many_countries_the_slaughter_of_animals: { definition: "Regulated by custom and tradition rather than by law", what_it_does: "", examples: "the Arab world , the Indian sub-continent , etc" },
+  in_countries_where_meat: "Exported for a substantial profit the freezing works were built near docks, or near transport infrastructure",
+
 };
 
 // ============================================================
