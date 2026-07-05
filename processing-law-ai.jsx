@@ -60043,6 +60043,9 @@ const FLAT_DICT = {
   average_temperatures_in_mwanza: "Roughly 23.5 °C (74.3 °F) throughout the year",
   mwanza: { definition: "Served by the Mwanza Airport , which is designated as a regional airport", what_it_does: "", examples: "from Nairobi (via Kilimanjaro), [ 30 ] and Air Tanzania also flies to the city" },
 
+  // === INGESTED 2026-07-05 01:02 ===
+  a_second_link: { definition: "At Kidatu , where the TAZARA line meets the Kidatu branch", what_it_does: "", examples: "Burundi , Rwanda, and the Democratic Republic of Congo" },
+
 };
 
 // ============================================================
