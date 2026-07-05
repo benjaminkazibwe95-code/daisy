@@ -62555,6 +62555,10 @@ const FLAT_DICT = {
   afdx_and_ttethernet: "Also based on IEEE 802.3 Ethernet, though not entirely compatible with it",
   that_they_are_implemented_by_the_network: "That these calculations remain valid even when other users of the network behave in unexpected ways, i.e",
 
+  // === INGESTED 2026-07-05 19:35 ===
+  dropbox: "An example of the dew computing paradigm, as it provides access to the files and folders in the cloud in addition to keeping copies on local devices",
+  the_clouddew_architecture: { definition: "Proposed by Yingwei Wang [ 5 ] as a possible solution to the offline data accessibility problem", what_it_does: "", examples: "fog computing , edge computing , and others" },
+
 };
 
 // ============================================================
