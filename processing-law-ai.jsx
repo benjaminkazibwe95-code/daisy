@@ -60757,6 +60757,35 @@ const FLAT_DICT = {
   a_perpetuity: { definition: "Payments of a set amount of money that occur on a routine basis and continue forever", what_it_does: "", examples: "more easily differentiated)" },
   in_case_the_discount_rate: { definition: "Constant, r ( v ) ≡ r , {\displaystyle r(v)\equiv r,} this simplifies to where ( u − t ) {\displaystyle (u-t)} is 'time remaining until cash flow'", what_it_does: "", examples: "the Black–Scholes formula with varying interest rates" },
 
+  // === INGESTED 2026-07-05 04:06 ===
+  one_such_cost: "The cost of assets used but not immediately consumed in the activity",
+  depreciation: "Then computed for all assets in the pool as a single calculation",
+  the_asset: "Depreciated until the book value equals scrap value",
+  if_an_asset: { definition: "Expected to produce a benefit in future periods, some of these costs must be deferred rather than treated as a current expense", what_it_does: "", examples: "all costs related to acquiring and bringing the asset into use" },
+  these_writeoffs: "Referred to as impairments",
+  depreciation_expense: "Usually charged against the relevant asset directly",
+  straightline_depreciation: "The simplest and most often used method",
+  if_the_sales_price: "Ever less than the book value, the resulting capital loss is tax-deductible",
+  if_the_sale_price: "Ever more than the original book value, then the gain above the original book value is recognized as a capital gain",
+  the_doubledecliningbalance_method: "Also a better representation of how vehicles depreciate and can more accurately match cost with benefit from asset use",
+  annuity_depreciation_methods: "Not based on time, but on a level of Annuity",
+  when_the_asset: "Acquired, its life is estimated in terms of this level of activity",
+  assume_the_vehicle_above: "Estimated to go 50,000 miles in its lifetime",
+  the_permile_depreciation_rate: "Calculated as: ($17,000 cost - $2,000 salvage) / 50,000 miles = $0.30 per mile",
+  depreciation_stops_when_book_value: "Equal to the scrap value of the asset",
+  the_group_depreciation_method: "Used for depreciating multiple-asset accounts using a similar depreciation method",
+  the_composite_method: { definition: "Applied to a collection of assets that are not similar and have different service lives", what_it_does: "", examples: "computers and printers are not similar, but both are part of the office equipment" },
+  depreciation_on_all_assets: "Determined by using the straight-line-depreciation method",
+  when_an_asset: "Sold, debit cash for the amount received and credit the asset account for its original cost",
+  such_deductions: "Allowed for individuals and companies",
+  where_the_assets: { definition: "Consumed currently, the cost may be deducted currently as an expense or treated as part of cost of goods sold", what_it_does: "", examples: "through depreciation" },
+  a_common_system: "To allow a fixed percentage of the cost of depreciable assets to be deducted each year",
+  deductions: "Permitted to individuals and businesses based on assets placed in service during or before the assessment year",
+  fixed_percentage_rates: "Specified by the type of asset",
+  the_fixed_percentage: { definition: "Multiplied by the tax basis of assets in service to determine the capital allowance deduction", what_it_does: "", examples: "office furniture, computers, automobiles) which override the business use lives" },
+  tax_depreciation: "Computed under the double-declining balance method switching to straight line or the straight-line method, at the option of the taxpayer",
+  this_deduction: "Fully phased out for businesses acquiring over $2,000,000 of such property during the year",
+
 };
 
 // ============================================================
