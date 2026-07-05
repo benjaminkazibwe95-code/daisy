@@ -60092,6 +60092,10 @@ const FLAT_DICT = {
   the_term_implies_that_there: "No significant delays",
   near_realtime_also: "Delayed real-time transmission of voice and video",
 
+  // === INGESTED 2026-07-05 01:19 ===
+  remote_uploading: { definition: "Used by some online file hosting services", what_it_does: "", examples: "Dropbox , directly to a website without first going to the user's device" },
+  bittorrent: "An example of this, as is the InterPlanetary File System (IPFS)",
+
 };
 
 // ============================================================
