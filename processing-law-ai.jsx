@@ -62047,6 +62047,15 @@ const FLAT_DICT = {
   many_of_those_affected_seem_to_know_when_they: "About to have another episode",
   hippocrates_mentions_that_this: "Due to their shame around the disease, rather than fear of the divine as was the common opinion",
 
+  // === INGESTED 2026-07-05 17:06 ===
+  retinoic_acid: "Required ventrally along with Shh to induce Pax6 and Olig2 during differentiation of motor neurons",
+  these_transcription_factors: "Grouped into two protein classes based on how Shh affects them",
+  class_i: "Inhibited by Shh, whereas Class II is activated by Shh",
+  bmp: "Initially secreted from the overlying ectoderm",
+  a_secondary_signaling_center: "Then established in the roof plate, the dorsal most structure of the neural tube",
+  immune_cells: "Activated in embryonic brain and spinal cord tissues, as well as in amniotic fluid derived cells",
+  these_immune_neural_interactions: "Mediated by cytokine signaling and pathways such as NF-κB and JAK–STAT",
+
 };
 
 // ============================================================
