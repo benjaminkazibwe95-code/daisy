@@ -62113,6 +62113,10 @@ const FLAT_DICT = {
   standing_on_a_wobble_board_or_balance_board: "Often used to retrain or increase proprioceptive abilities, particularly as physical therapy for ankle or knee injuries",
   slacklining: { definition: "Another method to increase proprioception", what_it_does: "has been called tropism", examples: "the exercise ball , which works on balancing the abdominal and back muscles" },
 
+  // === INGESTED 2026-07-05 17:27 ===
+  the_neural_groove: "A shallow median groove of the neural plate between the neural folds of an embryo",
+  the_walls_of_the_vesicles: "Developed into the nervous tissue and neuroglia of the brain, and their cavities are modified to form their ventricles",
+
 };
 
 // ============================================================
