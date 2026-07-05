@@ -60631,6 +60631,12 @@ const FLAT_DICT = {
   while_determinants: "Still applicable, oftentimes there are more complex factors when organizational goals and actions misalign",
   individuals_and_groups_that: "Directly employed due to a project, have financial stake in it may provide enough opposition to prevent changes from being made as well",
 
+  // === INGESTED 2026-07-05 03:27 ===
+  active_management: "More flexible than passive management",
+  many_active_investors: { definition: "Seeking a higher return", what_it_does: "", examples: "advancing social or environmental causes" },
+  the_higher_costs: { definition: "A result of the resources needed to evaluate investments and determine whether they should be bought or sold", what_it_does: "", examples: "at the end of 2020, $14.8 trillion of U.S" },
+  mutual_fund_assets: { definition: "Actively managed, while only $4.8 trillion were passively managed", what_it_does: "", examples: "at the end of 2020, only $0.2 trillion of the $5" },
+
 };
 
 // ============================================================
