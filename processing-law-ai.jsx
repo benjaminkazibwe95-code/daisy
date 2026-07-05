@@ -60035,6 +60035,14 @@ const FLAT_DICT = {
   sunnis_are_only_those_who: "Salaf in terms of belief",
   and_the_takfiri_organisations_like_isil: "Excluded from Sunni Islam",
 
+  // === INGESTED 2026-07-05 01:00 ===
+  mwanza_city: "Also the capital city of Mwanza Region , and is administratively divided into two municipal districts within that Region - Ilemela and Nyamagana",
+  this_mall: { definition: "The first of its size in Mwanza and one of the biggest malls in the country", what_it_does: "", examples: "the UN Habitat Lake Victoria Water and Sanitation (LVWATSAN-Mwanza) project" },
+  day_trips_to_serengeti_national_park: "Organised by several tour operators in Mwanza",
+  temperatures: "Relatively consistent throughout the course of the year, tempered by the city's altitude",
+  average_temperatures_in_mwanza: "Roughly 23.5 °C (74.3 °F) throughout the year",
+  mwanza: { definition: "Served by the Mwanza Airport , which is designated as a regional airport", what_it_does: "", examples: "from Nairobi (via Kilimanjaro), [ 30 ] and Air Tanzania also flies to the city" },
+
 };
 
 // ============================================================
