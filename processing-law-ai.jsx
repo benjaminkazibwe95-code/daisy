@@ -62545,6 +62545,16 @@ const FLAT_DICT = {
   containers: "Isolated, secured and managed using Linux cgroups and namespaces",
   the_global_iaas_market: "Projected to reach a value of $411.9 billion by 2030, expanding at a compound annual growth rate (CAGR) of 22.6% from 2023 to 2030",
 
+  // === INGESTED 2026-07-05 19:33 ===
+  once_the_message: "Delivered to the destination host, an acknowledgment was delivered to the sending host",
+  this_lesson: "Later embraced by the designers of Ethernet",
+  a_reliable_service: { definition: "One that notifies the user if delivery fails, while an unreliable one does not notify the user if delivery fails", what_it_does: "", examples: "Internet Protocol (IP) provides an unreliable service" },
+  at_least_one_copy_of_the_message: { definition: "Guaranteed to be delivered to the recipient", what_it_does: "", examples: "this one typically require that messages are retransmitted or forwarded among the recipients" },
+  an_extremely_common_example: "The layering of Transmission Control Protocol on the Internet Protocol , a combination known as TCP/IP",
+  strong_reliability_properties: "Offered by group communication systems (GCSs) such as IS-IS , Appia framework , JGroups or QuickSilver Scalable Multicast",
+  afdx_and_ttethernet: "Also based on IEEE 802.3 Ethernet, though not entirely compatible with it",
+  that_they_are_implemented_by_the_network: "That these calculations remain valid even when other users of the network behave in unexpected ways, i.e",
+
 };
 
 // ============================================================
