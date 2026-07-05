@@ -60350,6 +60350,16 @@ const FLAT_DICT = {
   the_catalyst_for_trill: "An event at Beth Israel Deaconess Medical Center which began on 13 November 2002",
   another_way_of_using_load_balancing: "In network monitoring activities",
 
+  // === INGESTED 2026-07-05 02:19 ===
+  open_technology: { definition: "Stated as a fundamental key for such an aim", what_it_does: "", examples: "surgical instrumentation, diagnosis, and drug delivery" },
+  the_equations_that_express_the_interactions: "As follows where V is the volume of the magnetized object",
+  if_the_volume: "Doubled, the force will also double, assuming the magnetization (M) and the gradient of the magnetic field (∇B) remain constant",
+  when_a_rotating_magnetic_field: "Applied, the swimmer's head experiences a magnetic torque, causing it to rotate",
+  the_plate: "Then transferred to the 3D printer, which fills the etched regions with the desired nanoparticle",
+  the_focal_point_of_the_laser_beam: "Guided through the resin by movable mirrors and leaves behind a hardened line of solid polymer, just a few hundred nanometers wide",
+  these_rna_strands: "Attracted to cancer cells",
+  nanites: "Also an integral part of Stargate SG1 and Stargate Atlantis , where grey goo scenarios are portrayed",
+
 };
 
 // ============================================================
