@@ -62270,6 +62270,24 @@ const FLAT_DICT = {
   whereas_governors_in_the_eastern_provinces: { definition: "Often native to their respective provinces, the military and administrative staff in North Africa was almost entirely constituted by easterners", what_it_does: "", examples: "Guntarith and Stotzas , who sought to restore an independent kingdom" },
   the_term_walhaz: "The origin of the modern term ' Welsh ', i.e",
 
+  // === INGESTED 2026-07-05 18:12 ===
+  electrode_location: "Based solely on clinical criteria; the researchers, with the patients' consent, used the same electrodes to 'piggyback' their research",
+  the_mirror_neurons_found: "Located in the supplementary motor area and medial temporal cortex (other brain regions were not sampled)",
+  the_action_itself: "Identified and facilitated by the mirror neuron system",
+  the_more_frequently_a_synaptic_connection: "Activated, the stronger it becomes",
+  the_hand_actions: "Selected in 'trails' each introduced twice",
+  one_of_the_times: "With a matching phase and the other time was with a misleading word phase",
+  the_action_words: "Depicted in two to three words with each beginning with the word 'to'",
+  the_black_screens_purpose: "For an adequate amount of time in between responses",
+  automatic_imitation_rarely: "Overt execution of matching responses",
+  eeg_recordings_from_motor_areas: "Suppressed when someone watches another person move, a signal that may relate to mirror neuron system",
+  all_these_cortical_areas: "Thinner and the degree of thinning was correlated with autism symptom severity, a correlation nearly restricted to these brain regions",
+  a_more_recent_review_argued_there: "Not enough neurological evidence to support this 'broken-mirror theory' of autism",
+  they_concluded_that_there: "A significant asymmetry between the two processes that indicated that mirror neurons do not exist in humans",
+  showed_that_if_goal_directed_actions: "Used as stimuli, both IPL and premotor regions show the repetition suppression between observation and execution that is predicted by mirror neurons",
+  she_makes_the_argument_that_intentions: "Understood (coded) at a more complex level of neural activity than that of individual neurons",
+  she_argues_that_mirror_neurons_in_humans: "The product of social interaction and not an evolutionary adaptation for action-understanding",
+
 };
 
 // ============================================================
