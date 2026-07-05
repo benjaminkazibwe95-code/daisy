@@ -61683,6 +61683,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 07:38 ===
   it_is_a_languagerelevant_erp_component_and: { definition: "Thought to be elicited by hearing or reading grammatical errors and other syntactic anomalies", what_it_does: "", examples: "problems in agreement , such as 'the child * throw the toy'" },
 
+  // === INGESTED 2026-07-05 07:42 ===
+  a_lesion: "Any damage or abnormal change in the tissue of an organism , usually caused by injury or diseases",
+  the_term_lesion: "Derived from the Latin laesio , meaning 'injury'",
+  coronary_lesions: "Then further classified according to which side of the heart is affected and the diameter of the artery in which they form",
+  a_benign_lesion_that: { definition: "Evolving into a malignant lesion is called 'premalignant'", what_it_does: "", examples: "the Lodwick classification, which characterizes classes of bone lesions" },
+  humans_with_brain_lesions: "Often subjects of research with the goal of establishing the function of the area where their lesion occurred",
+  an_example_of_such_a_study: "The lesioning of rat hippocampi to establish the role of the hippocampus in object recognition and object recency",
+  lesions_of_the_teeth: "Usually called dental caries , or 'cavities'",
+
 };
 
 // ============================================================
