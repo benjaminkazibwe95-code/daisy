@@ -60442,6 +60442,29 @@ const FLAT_DICT = {
   visible_and_infrared_femtosecond_lasers: "Also applied for lithography",
   in_that_case_photochemical_reactions: { definition: "Initiated by multiphoton absorption", what_it_does: "", examples: "photomask production" },
 
+  // === INGESTED 2026-07-05 02:38 ===
+  semiconductor_materials: "Useful because their behavior can be easily manipulated by the deliberate addition of impurities, known as doping",
+  a_semiconductor_diode: "A device typically made from a single p–n junction",
+  although_the_mosfet: "Named in part for its 'metal' gate, in modern devices polysilicon is typically used instead",
+  selenium_sulfide: "Being studied in the manufacture of photovoltaic solar cells",
+  the_most_common_use_for_organic_semiconductors: "Organic light-emitting diodes",
+  power_semiconductor_devices: "Discrete devices or integrated circuits intended for high current or high voltage applications",
+  the_part_numbers_of_semiconductor_devices: { definition: "Often manufacturer specific", what_it_does: "", examples: "microprocessors , microcontrollers , and memories (such as RAM and flash memory )" },
+  individual_dies: "Separated from a finished wafer in a process called die singulation , also called wafer dicing",
+  this_internal_atmosphere: "Known as a mini-environment and helps improve yield, which is the number of working devices on a wafer",
+  this_mini_environment: "Within an EFEM (equipment front end module) [ 15 ] which allows a machine to receive FOUPs, and introduces wafers from the FOUPs into the machine",
+  at_the_time_their_operation: "Completely mysterious",
+  another_early_type_of_semiconductor_device: "The metal rectifier in which the semiconductor is copper oxide or selenium",
+  after_some_study_he_found_that_the_behavior: "Controlled by the light in the room – more light caused more conductance in the crystal",
+  the_key_to_the_development_of_the_transistor: "The further understanding of the process of the electron mobility in a semiconductor",
+  it_was_realized_that_if_there: "Some way to control the flow of the electrons from the emitter to the collector of this newly discovered diode, an amplifier could be built",
+  as_long_as_the_emitter_and_collector: "Very close together, this should allow enough electrons or holes between them to allow conduction to start",
+  a_piece_of_gold_foil: "Glued to the edge of a plastic wedge, and then the foil was sliced with a razor at the tip of the triangle",
+  the_rationale_for_the_name: "Described in the following extract from the company's Technical Memoranda (May 28, 1948) calling for votes: Transistor",
+  shockley: "Incensed, and decided to demonstrate who was the real brains of the operation",
+  making_germanium_of_the_required_purity: "Proving to be a serious problem and limited the yield of transistors that actually worked from a given batch of material",
+  teal: { definition: "The first to develop a working silicon transistor at the nascent Texas Instruments , giving it a technological edge", what_it_does: "", examples: "smartphones" },
+
 };
 
 // ============================================================
