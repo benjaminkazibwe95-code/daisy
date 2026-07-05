@@ -61287,6 +61287,14 @@ const FLAT_DICT = {
   it_is_thought_that_international_spread: "Through animal movements, like Holstein Friesian cattle",
   the_illness: "Often misdiagnosed, so expensive and invasive diagnostic procedures may be performed",
 
+  // === INGESTED 2026-07-05 06:08 ===
+  many_molybdates: "Sources of molybdenum",
+  twenty_chemical_elements: "Known to be required to support human biochemical processes by serving structural and functional roles, and there is evidence for a few more",
+  total_fractions_in_this_paragraph: { definition: "Amounts based on summing percentages from the article on chemical composition of the human body", what_it_does: "", examples: "whether chromium is essential in humans is debated" },
+  the_list_of_minerals_required_for_plants: { definition: "Similar to that for animals", what_it_does: "", examples: "legumes host molybdenum-containing nitrogenase , but animals do not" },
+  fertilizers: { definition: "Often tailored to address mineral deficiencies in particular soils", what_it_does: "", examples: "molybdenum deficiency , manganese deficiency , zinc deficiency , and so on" },
+  the_reason_is_that_the_ul: "Specific to consuming more than 350 mg of magnesium all at once, in the form of a dietary supplement, as this may cause diarrhea",
+
 };
 
 // ============================================================
