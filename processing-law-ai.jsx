@@ -60065,6 +60065,13 @@ const FLAT_DICT = {
   indirect_rule_was_by_no: "A new idea at the time, since it had been in use in ruling empires throughout history",
   while_every_other_aspect_of_life: "Left to local pre-conquest indigenous aristocracies who may have sided with the British during or after their conquest",
 
+  // === INGESTED 2026-07-05 01:13 ===
+  electronic_literature_or_digital_literature: { definition: "A genre of literature where digital capabilities such as interactivity , multimodality or algorithmic text generation are used aesthetically", what_it_does: "", examples: "computers , tablets , and mobile phones" },
+  hypertext_fictions: { definition: "Stories where the reader moves from page to page by selecting links", what_it_does: "", examples: "animated text, images and interactivity" },
+  buildings_and_streets: "Shown as 3D shapes consisting of letters and words, allowing the reader to 'read' the city as they pedal through it",
+  literature_using_hypertext: { definition: "Frequently referred to as hypertext fiction", what_it_does: "", examples: "India [ 64 ] and Europe" },
+  the_only_multimedia_work_mentioned: "Postcards From Writing by Sally Prior",
+
 };
 
 // ============================================================
