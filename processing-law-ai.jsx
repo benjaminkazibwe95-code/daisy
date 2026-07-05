@@ -62691,6 +62691,16 @@ const FLAT_DICT = {
   these_markers: { definition: "Used as signs or indicators of cognitive decline", what_it_does: "", examples: "archaeology where reliable dietary information are required" },
   the_term_biomarker: "Also used to describe biological involvement in the generation of petroleum",
 
+  // === INGESTED 2026-07-05 20:26 ===
+  plants_created_using_mutagenesis: "Sometimes called mutagenic plants or mutagenic seeds",
+  radiation_breeding: { definition: "Discovered in the 1920s when Lewis Stadler of the University of Missouri used X-rays on maize and barley", what_it_does: "", examples: "microwaves or high-energy photons and high-energy electrons can be applied" },
+  one_such_replication: "A magnetic field -free space (MF), which produces an area with a weaker magnetic field than that of Earth",
+  notable_facilities_using_this_technology: "TIARA of the Japan Atomic Energy Agency , RIKEN Accelerator Research Facility, and various other Japanese institutions",
+  the_broader_mutation_spectrum: "Revealed through the largely varied amount of flower phenotypes produced by ion beams",
+  the_mutated_traits_in_the_parent_plants: "Able to be inherited by their offspring plants",
+  this_discovery_is_in_contrast_to_what: "Previously believed about gamma radiation: that it could only elicit mutations in plants and not pollen",
+  nitroso_compounds: { definition: "The other alkylating agents widely used, but they are light-sensitive and more precautions need to be taken because of their higher volatility", what_it_does: "", examples: "in developing TILLING populations" },
+
 };
 
 // ============================================================
