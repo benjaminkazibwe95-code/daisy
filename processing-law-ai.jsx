@@ -60569,6 +60569,10 @@ const FLAT_DICT = {
   concepts_from_minimum_viable_products: "Applied in other aspects of startups and organizations",
   a_notable_limitation_of_the_mvp: "Rooted in its approach that seeks out to test its ideas to the market",
 
+  // === INGESTED 2026-07-05 03:12 ===
+  the_share_options: "Allocated first, and then the VC is allocated its shares",
+  the_vc: "Allocated their shares first",
+
 };
 
 // ============================================================
