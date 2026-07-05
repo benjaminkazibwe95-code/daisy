@@ -62935,6 +62935,21 @@ const FLAT_DICT = {
   final_guidelines_for_this_program: "Expected in late 2023",
   another_example_is_projects_that: { definition: "Compelled by regulations", what_it_does: "", examples: "the Climate Community and Biodiversity Standard require multiple species plantings" },
 
+  // === INGESTED 2026-07-05 21:16 ===
+  market_sentiment: "Usually considered as a contrarian indicator: what most people expect is a good thing to bet against",
+  market_sentiment_is_used_because_it: { definition: "Believed to be a good predictor of market moves, especially when it is more extreme", what_it_does: "", examples: "the number of advancing versus declining stocks and new highs versus new lows comparisons" },
+  extreme_oneday_returns: "Also reported to draw investors' attention (Barber & Odean (2008) [ 12 ] )",
+  this_index: "Sometimes used as an alternative to VIX index",
+  retail_investor_trades_data: { definition: "Also reported to be able to represent investor attention (Kumar & Lee (2006) [ 22 ] )", what_it_does: "", examples: "a high trading volume can draw an investor attention" },
+  the_fourth_road: "An important source of information about investor attention is the Internet search behavior of households",
+  most_studies: "Using Google Trends (GT) service in order to extract search volume data and investigate investor attention",
+  google_trends_data: "Also reported to be a good predictor for daily mutual fund flows",
+  the_loss_effect: "Also valid after international cricket, rugby, and basketball games",
+  this_positive_effect: "Documented in the winning country",
+  the_influence_of_temperature_on_stock_returns: "Discussed in Cao & Wei (2005)",
+  even_geomagnetic_activity: "Reported to have an influence (negatively correlated) on stock returns (C",
+  since_most_retail_currency_traders: "Unsuccessful, measures of Forex market sentiment are typically used as contrarian indicators",
+
 };
 
 // ============================================================
