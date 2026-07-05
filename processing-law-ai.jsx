@@ -61264,6 +61264,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 05:59 ===
   pha_has_a_number_of_physiological_effects_and: { definition: "Used in medical research", what_it_does: "", examples: "humans, through the consumption of raw or improperly prepared legumes, e.g" },
 
+  // === INGESTED 2026-07-05 06:02 ===
+  among_many_other_muscle_proteins_present: "Two regulatory proteins , troponin and tropomyosin",
+  the_same_etymology: "Found in Greek , in which μῦς, mȳs , means both 'mouse' and 'muscle'",
+  skeletal_and_cardiac_muscle: "Types of striated muscle tissue",
+  the_transversely_striated_type: "The most similar to the skeletal muscle in vertebrates",
+  postural_control: "Generally maintained as an unconscious reflex, but the responsible muscles can also react to conscious control",
+  the_body_mass_of_an_average_adult_man: "Made up of 42% of skeletal muscle, and an average adult woman is made up of 36%",
+  cardiac_muscle_tissue: "Striated like skeletal muscle, containing sarcomeres in highly regular arrangements of bundles",
+  while_skeletal_muscles: "Arranged in regular, parallel bundles, cardiac muscle connects at branching, irregular angles known as intercalated discs",
+  smooth_muscle_tissue: "Non-striated and involuntary",
+  skeletal_muscle: "A highly oxygen-consuming tissue, and oxidative DNA damage that is induced by reactive oxygen species tends to accumulate with age",
+  a_multinucleate_mass_of_cytoplasm_that: { definition: "Not separated into cells)", what_it_does: "", examples: "in the tunica media layer of the large ( aorta ) and small arteries , arterioles and veins" },
+  all_muscles: "Derived from paraxial mesoderm",
+  the_paraxial_mesoderm: "Divided along the embryo 's length into somites , corresponding to the segmentation of the body (most obviously seen in the vertebral column )",
+  cardiac_and_smooth_muscle_contractions: { definition: "Stimulated by internal pacemaker cells which regularly contract, and propagate contractions to other muscle cells they are in contact with", what_it_does: "", examples: "blood and lymph vessels , and bile ducts ; in sphincters such as in the uterus, and the eye" },
+
 };
 
 // ============================================================
