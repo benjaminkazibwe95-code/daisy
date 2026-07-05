@@ -60419,6 +60419,29 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 02:32 ===
   nanoinformatics: { definition: "The application of informatics to nanotechnology", what_it_does: "", examples: "size , shape , surface properties , crystallinity , and dispersion state" },
 
+  // === INGESTED 2026-07-05 02:36 ===
+  a_photomask_that_contains_the_desired_pattern: "Then placed over the photoresist",
+  wafer_track_systems: "Also known as wafer coater/developer systems, which perform the same functions",
+  the_photoresistcoated_wafer: { definition: "Then prebaked to drive off excess photoresist solvent, typically at 90 to 100 °C for 30 to 60 seconds on a hotplate", what_it_does: "", examples: "45 nm and below" },
+  the_two_machines: "Usually installed side by side, and are 'linked' together",
+  after_a_photoresist: "No longer needed, it must be removed from the substrate",
+  the_resolution_in_proximity_lithography: "Approximately the square root of the product of the wavelength and the gap distance",
+  the_difference_between_steppers_and_scanners: "That, during exposure, a scanner moves the photomask and the wafer simultaneously, while a stepper only moves the wafer",
+  an_alternative_to_photolithography: "Nanoimprint lithography",
+  where_the_photoresist_on_the_mask: { definition: "Exposed, the chrome can be etched away, leaving a clear path for the illumination light in the stepper/scanner system to travel through", what_it_does: "", examples: "the angle of incident light on a reticle and the incident light intensity distribution" },
+  chemical_mechanical_polishing: "Often used to flatten topography before high-resolution lithographic steps",
+  minimum_pitch: "Given by blur sigma/0.14",
+  depth_of_focus: { definition: "Inversely proportional to the square of the numerical aperture (NA) in projection lithography systems", what_it_does: "", examples: "two-beam imaging for fixed line pitch" },
+  this_challenge: "Overcome in 1982 when excimer laser lithography was proposed and demonstrated at IBM by Kanti Jain",
+  the_liquid_used: "Typically ultra-pure, deionised water, which provides for a refractive index above that of the usual air gap between the lens and the wafer surface",
+  highindex_immersion_lithography: "The newest extension of 193 nm lithography to be considered",
+  mercury_arc_lamps: "Designed to maintain a steady DC current of 50 to 150 Volts, however excimer lasers have a higher resolution",
+  excimer_lasers: "Gas-based light systems that are usually filled with inert and halide gases (Kr, Ar, Xe, F and Cl) that are charged by an electric field",
+  krf_lasers: "Able to function at a frequency of 4 kHz",
+  the_euv_light: { definition: "Not emitted by the laser, but rather by a tin or xenon plasma which is excited by an excimer or CO 2 laser", what_it_does: "", examples: "TSMC and Samsung" },
+  visible_and_infrared_femtosecond_lasers: "Also applied for lithography",
+  in_that_case_photochemical_reactions: { definition: "Initiated by multiphoton absorption", what_it_does: "", examples: "photomask production" },
+
 };
 
 // ============================================================
