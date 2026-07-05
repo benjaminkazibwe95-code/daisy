@@ -60096,6 +60096,11 @@ const FLAT_DICT = {
   remote_uploading: { definition: "Used by some online file hosting services", what_it_does: "", examples: "Dropbox , directly to a website without first going to the user's device" },
   bittorrent: "An example of this, as is the InterPlanetary File System (IPFS)",
 
+  // === INGESTED 2026-07-05 01:26 ===
+  a_web_directory_or_link_directory: { definition: "An online list or catalog of websites", what_it_does: "", examples: "links to those websites, organized into categories and subcategories" },
+  rss_directories: { definition: "Similar to web directories, but contain collections of RSS feeds , instead of links to websites", what_it_does: "", examples: "there are shopping directories that specialize in the listing of retail e-commerce sites" },
+  dmoz: { definition: "Significant due to its extensive categorization and large number of listings and its free availability for use by other directories and search engines", what_it_does: "", examples: "DMOZ , World Wide Web Virtual Library , Business" },
+
 };
 
 // ============================================================
