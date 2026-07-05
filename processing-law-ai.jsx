@@ -59848,6 +59848,25 @@ const FLAT_DICT = {
   since_these_place_fields: { definition: "Distributed throughout the environment, one interpretation is that groups of place cells form maps in the hippocampus", what_it_does: "", examples: "depression , Parkinson's disease , epilepsy , and neuropathic pain" },
   the_result_of_this_abnormal_processing: { definition: "The accumulation of fragments of this protein, called amyloid β (Aβ)", what_it_does: "", examples: "the ventral tegmental area (VTA) and nucleus accumbens (NAc)" },
 
+  // === INGESTED 2026-07-05 00:15 ===
+  much_of_the_first_edition: "Compiled by Smellie from Scottish sources",
+  just_as_important: { definition: "Changes to the way it was compiled and edited", what_it_does: "", examples: "the chemist Joseph Black and the natural philosopher John Robison" },
+  although_some_contributors: "Again recruited through friendships of the chief editors, notably Macvey Napier , others were attracted by the Britannica ' s reputation",
+  a_general_index_of_all_articles: "Included for the first time in the 7th edition, a practice maintained until 1974",
+  the_encyclopaedia: { definition: "Widely praised for bringing back the print format", what_it_does: "", examples: "it uses colour (not color ), centre (not center ), and encyclopaedia (not encyclopedia )" },
+  articles_with_identical_names: { definition: "Ordered first by persons, then by places, then by things", what_it_does: "", examples: "Chinese [ 64 ] created by Encyclopedia of China Publishing House [ 65 ] and Vietnamese" },
+  a_given_edition_of_the_book_of_the_year: { definition: "Named in terms of the year of its publication, though the volume actually covers the events and statistics of the previous year", what_it_does: "", examples: "Shakespeare: The Essential Guide to the Life and Works of the Bard (2006)" },
+  britannica_online: "A website with more than 120,000 articles and is updated regularly",
+  nonsubscribers: "Served pop-ups and advertising",
+  announced_that_it: { definition: "Working with mobile phone search company AskMeNow to launch a mobile encyclopaedia", what_it_does: "", examples: "Nobel laureate economist Milton Friedman , astronomer Carl Sagan , and surgeon Michael DeBakey" },
+  an_exceptionally_prolific_contributor: { definition: "Christine Sutton of the University of Oxford , who contributed 24 articles on particle physics", what_it_does: "", examples: "Isaac Asimov , [ 96 ] some have been criticized for lack of expertise" },
+  the_grievance: { definition: "That [this work] lacks authority", what_it_does: "", examples: "some of the Outline's chief architects – Rene Dubos (d" },
+  cauz: "The senior executive and reports directly to the Britannica ' s Board of Directors",
+  encarta: { definition: "The top-selling multimedia encyclopaedia, based on total US retail sales from January 2000 to February 2006", what_it_does: "", examples: "general misunderstandings of vital concepts: four from each site" },
+  my_job: "To create more awareness of our very different approaches to publishing in the public mind",
+  only_two_people: { definition: "Known to have read two independent editions: the author C", what_it_does: "", examples: "inconsistent sorting of Japanese biographies" },
+  men_who: "Acquainted with the innumerable difficulties attending the execution of a work of such an extensive nature will make proper allowances",
+
 };
 
 // ============================================================
