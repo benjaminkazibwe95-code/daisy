@@ -60741,6 +60741,10 @@ const FLAT_DICT = {
   once_the_formal_foreclosure_processes: "Underway, these properties can be purchased at a public sale, usually called a foreclosure auction or sheriff's sale",
   brrr_is_a_longterm_investment_strategy_that: "Renting out a property and letting it appreciate in value before selling it",
 
+  // === INGESTED 2026-07-05 04:01 ===
+  earnings: "The net benefits of a corporation 's operation",
+  many_alternative_terms_for_earnings: "Commonly used, such as income and profit",
+
 };
 
 // ============================================================
