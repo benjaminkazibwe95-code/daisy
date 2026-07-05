@@ -62405,6 +62405,11 @@ const FLAT_DICT = {
   a_sort_of_manifesto_of_mselah_ideology: { definition: "Given by the song Mselah Jela by Bongo flava singer Juma Nature , who defines a mselah, amongst other things, as an 'honest person of sincere heart'", what_it_does: "", examples: "have written songs that are intended to teach prevention of malaria and HIV" },
   some_bongo_groups: "Very popular within their ethnic group ; one example is the Maasai X Plastaz who developed their own subgenre known as 'Maasai hip hop'",
 
+  // === INGESTED 2026-07-05 19:01 ===
+  engadget: { definition: "The largest blog in Weblogs, Inc", what_it_does: "", examples: "Autoblog and Joystiq , which formerly included Hackaday" },
+  the_podcast: { definition: "Currently hosted by deputy editor Cherlynn Low and senior reporter Devindra Hardawar, with new episodes released on Fridays", what_it_does: "", examples: "two features by then-staffer Chris Ip and one by contributor Megan Giller" },
+  shatner_claimed_colucci_and_the_team: "Bullying him when giving a text interview to Mashable",
+
 };
 
 // ============================================================
