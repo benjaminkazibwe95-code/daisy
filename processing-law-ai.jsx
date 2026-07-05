@@ -60820,6 +60820,11 @@ const FLAT_DICT = {
   developmentalism: "Often accused by the left (though not only by the left) of having an ideology of neocolonialism at its root",
   this_creates_what: "Called the developmentalist configuration",
 
+  // === INGESTED 2026-07-05 04:31 ===
+  households: "Assumed to maximize utility subject to budget constraints while firms maximize profits",
+  crucial_importance: "Usually given to the production of new technologies and human capital",
+  economies_that_cease_to_transform_themselves: "Destined to fall off the path of economic growth",
+
 };
 
 // ============================================================
