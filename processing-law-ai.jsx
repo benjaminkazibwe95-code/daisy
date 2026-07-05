@@ -61170,6 +61170,12 @@ const FLAT_DICT = {
   the_british_army: "Now trained on his principles, and in Gymnasia invented by him",
   his_last_effort: "Worthy to be placed on a level with any of his former achievements",
 
+  // === INGESTED 2026-07-05 05:42 ===
+  the_programmes: "Defined by commission civil servants who are aided by various official advisory group and lobby groups",
+  legal_entities_from_any_country: "Eligible to submit project proposals to these calls",
+  participation_from_outside_the_european_union: { definition: "Explicitly encouraged", what_it_does: "", examples: "the European Processor Initiative , or the Exscalate4Cov project, were beneficiaries of Horizon 2020" },
+  a_central_point_of_negotiation: "The funding of projects beyond the Green Line",
+
 };
 
 // ============================================================
