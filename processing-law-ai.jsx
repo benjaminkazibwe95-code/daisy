@@ -61985,6 +61985,9 @@ const FLAT_DICT = {
   both_hot_and_cold_drinks: { definition: "Sold in these self-service machines throughout the world", what_it_does: "", examples: "alcohol or gum arabic , extracts , citric acid or phosphoric acid , food coloring , and a sweetener" },
   a_lawsuit_against_the_ban: { definition: "Upheld by a state judge, who voiced concerns that the ban was 'fraught with arbitrary and capricious consequences'", what_it_does: "", examples: "notably Coca-Cola, but it was poorly enforced" },
 
+  // === INGESTED 2026-07-05 16:38 ===
+  he_and_his_group: "Active in developing ground- and space-based instruments for astronomy",
+
 };
 
 // ============================================================
