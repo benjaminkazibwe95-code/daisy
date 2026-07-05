@@ -60805,6 +60805,11 @@ const FLAT_DICT = {
   less_frequently_the_term: { definition: "Applied to parties who purchase real estate , currency , commodity derivatives , personal property , or other assets", what_it_does: "", examples: "dividends or interest" },
   a_retail_investor: "An individual investor possessing shares of a given security",
 
+  // === INGESTED 2026-07-05 04:16 ===
+  his_first_academic_post: "In Manchester where he stayed from 1938 until 1944",
+  the_first_memorial_lecture: "Given by the renowned development economist Paul Collier of the University of Oxford in May 2009 in Bonn",
+  the_second_lecture: "Held in October 2010 in Brighton with Jomo Kwame Sundaram , Assistant Secretary General of the United Nations Economic Commission for Africa (UNECA)",
+
 };
 
 // ============================================================
