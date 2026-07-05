@@ -60790,6 +60790,14 @@ const FLAT_DICT = {
   a_divestment: "The opposite of an investment",
   divestiture: { definition: "An adaptive change and adjustment of a company's ownership and business portfolio made to confront with internal and external changes", what_it_does: "", examples: "Alcoa has established an online showroom of the divisions that are for sale" },
 
+  // === INGESTED 2026-07-05 04:10 ===
+  where_the_latter: "Dividends then the dividend discount model can be applied, modifying the formula above",
+  all_steps: "Explained in detail below",
+  cash_flows_after_the_forecast_period: "Represented by a single number; see § Determine the continuing value below",
+  a_fundamental_element_of_the_valuation: { definition: "To determine the appropriate required rate of return , as based on the risk level associated with the company and its market", what_it_does: "", examples: "the expenses due to mine closure ) – and a continuing value is therefore not part of the valuation" },
+  to_the_extent_that_the_price: "Lower than the DCF number, so she will be inclined to invest; see margin of safety (financial) , undervalued stock , and value investing",
+  a_related_approach: "To ' reverse engineer ' the stock price; i.e",
+
 };
 
 // ============================================================
