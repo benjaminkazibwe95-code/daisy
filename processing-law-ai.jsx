@@ -60187,6 +60187,18 @@ const FLAT_DICT = {
   rf_cmos: "Developed by Asad Abidi while working at UCLA in the late 1980s",
   this_changed_the_way_in_which_rf_circuits: { definition: "Designed, leading to the replacement of discrete bipolar transistors with CMOS integrated circuits in radio transceivers", what_it_does: "", examples: "3G and 4G ), terrestrial broadcast , and automotive radar applications, among other uses" },
 
+  // === INGESTED 2026-07-05 01:47 ===
+  a_cursor: "A name given to the transparent slide engraved with a hairline used to mark a point on a slide rule",
+  in_situations_where_a_block: { definition: "Used, the block was usually created by inverting the pixels of the character using the Boolean math exclusive or function", what_it_does: "", examples: "the Control key" },
+  the_use_of_a_pointer: "Employed when the input method, or pointing device, is a device that can move fluidly across a screen and select or highlight objects on the screen",
+  this_kind_of_pointer: "Used to manipulate elements of graphical user interfaces such as menus, buttons , scrollbars or any other widget",
+  the_pointer_hotspot: { definition: "The active pixel of the pointer, used to target a click or drag", what_it_does: "", examples: "The I-beam pointer (also called the I-cursor) is a cursor shaped like a serifed capital letter I" },
+  the_purpose_of_this_cursor: "To indicate that the text beneath the cursor can be highlighted and sometimes inserted or changed",
+  pointer_trails: "A feature of GUI operating systems to enhance the visibility of the pointer",
+  the_option: "Likely included to improve cursor visibility on low-cost DSTN panels included in laptops of the era",
+  when_pointer_trails: { definition: "Active and the mouse or stylus is moved, the system waits a moment before removing the pointer image from the old location on the screen", what_it_does: "", examples: "LCD screens in bright sunlight" },
+  animated_pointers: { definition: "Not without their problems", what_it_does: "", examples: "rotation, can be extended to a 3D modeling environment" },
+
 };
 
 // ============================================================
