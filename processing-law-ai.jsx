@@ -61554,6 +61554,10 @@ const FLAT_DICT = {
   each_interval: "Known as a pomodoro , from the Italian word for tomato, after the tomato-shaped kitchen timer that Cirillo used while he was a university student",
   as_pomodori: "Completed, they are recorded, adding to a sense of accomplishment and providing raw data for subsequent self-observation and improvement",
 
+  // === INGESTED 2026-07-05 06:49 ===
+  the_contentiousness_around_adhd: "Simply rooted in ignorance",
+  he_also_believes_coffee: { definition: "More toxic than Adderall", what_it_does: "", examples: "Adderall and Concerta" },
+
 };
 
 // ============================================================
