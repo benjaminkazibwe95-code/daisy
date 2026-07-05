@@ -62836,6 +62836,10 @@ const FLAT_DICT = {
   the_existence_of_such_risk: "That creditors should take a two-stage decision process when deciding to lend to a firm based in a foreign country",
   offsetting_counterparty_risk: "Not always possible, e.g",
 
+  // === INGESTED 2026-07-05 20:59 ===
+  pierre_vernimmen: "The architect of numerous business mergers ( Louis Vuitton and Moët Hennessy for example), financing rounds ( M6 , Virgin Megastores ",
+  each_chapter_of_the_book: "Followed by a summary, questions and exercises updated with their corrections as well as a bibliography",
+
 };
 
 // ============================================================
