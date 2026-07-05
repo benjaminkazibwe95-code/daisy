@@ -62368,6 +62368,23 @@ const FLAT_DICT = {
   additional_members: "Nominated by the President, and five seats are chosen by the Zanzibar House of Representatives",
   further_seats: "Reserved for female members who are selected by their parties",
 
+  // === INGESTED 2026-07-05 18:46 ===
+  leiden: "Formed on an artificial hill (today called the Burcht van Leiden ) at the confluence of the rivers Oude and Nieuwe Rijn (Old and New Rhine)",
+  university_buildings: "Scattered throughout the city and the many students from all over the world give the city a bustling, vivid and international atmosphere",
+  leiden_university: "One of Europe's top universities, with thirteen Nobel Prize winners",
+  the_painter_rembrandt: "Born and educated in Leiden",
+  the_burgrave_filips_of_wassenaar: "Stripped of his offices and rights and lived out his last years in captivity",
+  the_end_of_the_siege: "Still celebrated in Leiden on October 3 each year",
+  the_baize_manufacture: { definition: "Given up at the beginning of the 19th century, although industry remained central to Leiden economy", what_it_does: "", examples: "the canning and metal industries" },
+  the_van_der_werf_park: "Named after the mayor Pieter Adriaansz",
+  a_hundred_buildings_in_the_centre: "Decorated with large murals of poetry, part of a wall poem project active from 1992, and still ongoing",
+  the_mound_probably: "A refuge against high water before a small wooden fortress was built on top of it in the 11th century",
+  other_fine_examples_of_his_work_in_leiden: "In the Stedelijk Museum De Lakenhal (the municipal museum of fine arts), and the Bibliotheca Thysiana",
+  the_pulpit: "Modelled after the one in the Nieuwe Kerk at Haarlem (designed by Jacob van Campen )",
+  the_heilige_lodewijkkerk: "First catholic church in Leiden that was built after the Reformation",
+  the_city_centre_contains_many_buildings_that: "In use by the University of Leiden",
+  the_academy_building: "Housed in a former 16th-century convent",
+
 };
 
 // ============================================================
