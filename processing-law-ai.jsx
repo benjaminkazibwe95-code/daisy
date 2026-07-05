@@ -61069,6 +61069,12 @@ const FLAT_DICT = {
   a_supertaster_is_a_person_whose_sense_of_taste: "Significantly more sensitive than most",
   the_cause_of_this_heightened_response: { definition: "Likely, at least in part, due to an increased number of fungiform papillae", what_it_does: "", examples: "aspartame (artificial sweetener)" },
 
+  // === INGESTED 2026-07-05 05:21 ===
+  the_seeds_of_animaldispersed_fruits: { definition: "Often adapted to survive digestion by frugivores", what_it_does: "", examples: "seeds can become more permeable to water after passage through an animal's gut" },
+  frugivores: { definition: "Common in the temperate zone , but mostly found in the tropics", what_it_does: "", examples: "juniper, in months when alternative foods are scarce" },
+  one_of_their_preferred_foods: { definition: "The fruit of the durian tree, which tastes somewhat like sweet custard", what_it_does: "", examples: "the tambaqui" },
+  since_frugivore_seed_dispersal: "So important in the tropics, many researchers have studied the loss of frugivores and related it to changed plant population dynamics",
+
 };
 
 // ============================================================
