@@ -61139,6 +61139,9 @@ const FLAT_DICT = {
   the_association: "Established in 1911 and was based in Milwaukee, Wisconsin, and there were 35 members",
   one_of_the_members: { definition: "From Canada, and one from Australia; the rest were from the US", what_it_does: "", examples: "would have been impossible for our founding Members to imagine" },
 
+  // === INGESTED 2026-07-05 05:34 ===
+  exercise_hypertension: "An excessive rise in blood pressure during exercise",
+
 };
 
 // ============================================================
