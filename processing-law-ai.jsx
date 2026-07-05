@@ -60153,6 +60153,11 @@ const FLAT_DICT = {
   james_maguire: "Editor in chief for a few years until 2024",
   chris_bernard: "Currently the managing editor for the site and all of its staff and freelance writers and editors",
 
+  // === INGESTED 2026-07-05 01:38 ===
+  a_digital_detox: { definition: "A deliberate break from digital devices to mitigate screen overuse and promote offline activities", what_it_does: "", examples: "smartphones , computers, and social media platforms" },
+  a_moderate_digital_detox: "Limiting device and social media usage",
+  a_complete_detox: { definition: "An absolute break from digital devices for a set period", what_it_does: "", examples: "reducing eye strain , dry eyes , and blurry vision" },
+
 };
 
 // ============================================================
