@@ -62354,6 +62354,16 @@ const FLAT_DICT = {
   the_war_strategy: "To harry the British army of 40,000, which was at times commanded by the former Second Boer War commander Jan Smuts",
   his_schutztruppe: "Celebrated as the only colonial German force during World War I that was not defeated in open combat, but it often retreated when it was outnumbered",
 
+  // === INGESTED 2026-07-05 18:42 ===
+  christie_argued_that_the_word: "South East Asian in origin",
+  beyond_sofala: "The obscure realm of Waq-Waq , also in Mozambique",
+  standard_swahili: "The Zanzibari dialect and thus includes far more Arabic loanwords than the other, older Swahili dialects",
+  during_the_anti_apartheid_struggle_it: "Proposed that South Africa should assume the name Azania , to reflect ancient Zanj",
+  ibn_battuta_also: "How the sultan would go into the interior and raid the people taking slaves and other forms of wealth",
+  kilwa: "An important and wealthy city for the trade of gold and ivory",
+  the_roofs: "Built with mangrove pole",
+  their_chief_qualities: "Devotion and piety: they follow the Shafi'i sect",
+
 };
 
 // ============================================================
