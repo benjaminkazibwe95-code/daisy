@@ -61135,6 +61135,10 @@ const FLAT_DICT = {
   their_herds_of_sheep_and_pigs: "So many, they could provide skins and salt meat not only for Rome, but also for most of Italy",
   smoked_meat: { definition: "Called carbouclée in Romance tongues [ 47 ] and bacon if it was pork", what_it_does: "", examples: "canned salt meat (for example corned beef )" },
 
+  // === INGESTED 2026-07-05 05:32 ===
+  the_association: "Established in 1911 and was based in Milwaukee, Wisconsin, and there were 35 members",
+  one_of_the_members: { definition: "From Canada, and one from Australia; the rest were from the US", what_it_does: "", examples: "would have been impossible for our founding Members to imagine" },
+
 };
 
 // ============================================================
