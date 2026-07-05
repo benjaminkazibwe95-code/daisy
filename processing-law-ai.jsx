@@ -60372,6 +60372,38 @@ const FLAT_DICT = {
   while_covalent_bonds: { definition: "Key to the process, the system is directed by non-covalent forces to form the lowest energy structures", what_it_does: "", examples: "photoelectrochemical systems, catalytic systems, protein design and self-replication" },
   macrocycles: "A traditional component in supramolecular chemistry",
 
+  // === INGESTED 2026-07-05 02:23 ===
+  the_history_of_refined_metals: "Thought to begin with the use of copper about 11,000 years ago",
+  most_metals: "Shiny and lustrous , at least when polished, or fractured",
+  the_most_common_lightweight_metals: "Aluminium [ 10 ] [ 11 ] and magnesium [ 12 ] [ 13 ] alloys",
+  a_small_electric_field: { definition: "Insufficient to excite electrons across this gap, making these materials poor electrical conductors", what_it_does: "", examples: "boron has an electrical conductivity 1.5 × 10 −6 S/cm" },
+  liquid_forms: "Also metallic conductors of electricity, for instance mercury",
+  various_models: { definition: "Applicable, the simplest being the nearly free electron model", what_it_does: "", examples: "density functional theory are typically used" },
+  often_at_least_one_of_these: "A metallic element; the term 'alloy' is sometimes used more generally as in silicon–germanium alloys",
+  most_pure_metals: "Either too soft, brittle, or chemically reactive for practical use",
+  other_significant_metallic_alloys: { definition: "Those of aluminium , titanium , copper , and magnesium", what_it_does: "", examples: "in aerospace and some automotive applications" },
+  ferrous_metals: "Often magnetic , but not exclusively",
+  while_nearly_all_elemental_metals: "Malleable or ductile, a few—beryllium, chromium, manganese, gallium, and bismuth—are brittle",
+  several_compounds_such_as_titanium_nitride: "Also described as refractory metals",
+  a_white_metal: "Any of a range of white-colored alloys with relatively low melting points used mainly for decorative purposes",
+  a_heavy_metal: { definition: "Any relatively dense metal, either single element or multielement", what_it_does: "", examples: "iron (7.9) and copper (8.9) and their alloys" },
+  the_term_base_metal_refers_to_a_metal_that: "Easily oxidized or corroded , such as reacting easily with dilute hydrochloric acid (HCl) to form a metal chloride and hydrogen",
+  copper_is_considered_a_base_metal_as_it: "Oxidized relatively easily, although it does not react with HCl",
+  noble_metals: { definition: "Less reactive, resistant to corrosion or oxidation , [ 50 ] unlike most base metals", what_it_does: "", examples: "gold, platinum, silver, rhodium , iridium, and palladium" },
+  their_uses: { definition: "Widespread, for instance titanium nitride finds use in orthopedic devices [ 54 ] and as a wear resistant coating", what_it_does: "", examples: "in the polymers indicated in the Figure" },
+  the_conduction_of_the_aromatic_regions: "Similar to that of graphite, so is highly directional",
+  many_of_the_known_examples_of_halfmetals: "Oxides , sulfides , or Heusler alloys",
+  the_rprocess: { definition: "So fast it can skip this zone of instability and go on to create heavier elements such as thorium and uranium", what_it_does: "", examples: "sodium, magnesium, and aluminium" },
+  metallic_elements: "Often extracted from the Earth by mining ores that are rich sources of the requisite elements, such as bauxite",
+  lithophile_elements: "Mainly the s-block elements, the more reactive of the d-block elements, and the f-block elements",
+  chalcophile_elements: { definition: "Mainly the less reactive d-block elements, and the period 4–6 p-block metals", what_it_does: "", examples: "the ozone layer that limits the transmission of ultraviolet radiation)" },
+  ores: "Located by prospecting techniques, followed by the exploration and examination of deposits",
+  mineral_sources: "Generally divided into surface mines , which are mined by excavation using heavy equipment, and subsurface mines",
+  when_a_metallic_ore: { definition: "An ionic compound, the ore must usually be smelted —heated with a reducing agent—to extract the pure metal", what_it_does: "", examples: "iron, are smelted using carbon as a reducing agent" },
+  demand_for_metals: { definition: "Closely linked to economic growth given their use in infrastructure, construction, manufacturing, and consumer goods", what_it_does: "", examples: "China and India, and technological advances, are fueling ever more demand" },
+  the_result_is_that_mining_activities: "Expanding, and more and more of the world's metal stocks are above ground in use, rather than below ground as unused reserves",
+  small_metal_sculptures: "Common and an extensive range of tumbaga (and gold) ornaments comprised the usual regalia of persons of high status",
+
 };
 
 // ============================================================
