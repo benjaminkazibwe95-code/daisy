@@ -60878,6 +60878,13 @@ const FLAT_DICT = {
   the_polarization: "Merely a reflection of the party that the voter belongs to, and whichever direction it moves in",
   a_number_of_techniques: { definition: "Employed by the researchers and social scientist to trace the relationship between internet usage", what_it_does: "", examples: "China and South Korea , have become more polarized due to the diversification of political media" },
 
+  // === INGESTED 2026-07-05 04:44 ===
+  their_students: "More likely to have negative perceptions about homework and were less likely to ascribe the development of such skills to homework",
+  the_intention_of_homework: "To further test students' knowledge at home",
+  students_that_reported_stress_from_homework: "More likely to be deprived of sleep",
+  attending_school: "Not legally required, and if the student could not spend afternoons and evenings working on homework, then the student could quit school",
+  the_main_distinction_for_uk_homework: "The social gap, with middle-class teenagers getting a disproportionate amount of homework compared to Asia and Europe",
+
 };
 
 // ============================================================
