@@ -60913,6 +60913,21 @@ const FLAT_DICT = {
   the_current_site: "Donated by Lady Milner following the death of Alfred Milner, 1st Viscount Milner in 1925",
   the_buildings_on_site: "Opened by Rudyard Kipling in 1929, in his capacity as a close friend of Alfred Milner",
 
+  // === INGESTED 2026-07-05 04:51 ===
+  a_comprehensive_school: { definition: "A secondary school for pupils aged 11–16 or 11–18 that does not select its intake on the basis of academic achievement or aptitude", what_it_does: "", examples: "the City Technology Colleges and specialist schools programmes have expanded the comprehensive model" },
+  city_technology_colleges: "Independent schools in urban areas that are free to go to",
+  english_secondary_schools: "Mostly comprehensive (i.e",
+  the_aim_of_maths_schools: "To prepare the most mathematically able pupils to succeed in mathematics-related disciplines at university and pursue mathematically intensive careers",
+  the_first_comprehensives: "Set up after the Second World War",
+  in_wales_the_first_comprehensive_school: "Holyhead County School in Anglesey in 1949",
+  another_early_example: "The 1956 Tividale Comprehensive School in Tipton",
+  the_policy_decision: "Implemented by Circular 10/65 , a request to local education authorities to plan for conversion from the prevailing tripartite system",
+  government_policy: "Currently promoting 'specialisation' whereby parents choose a secondary school appropriate for their child's interests and skills",
+  all_maintained_schools_in_england: "Required to follow the National Curriculum , which is made up of twelve subjects",
+  individual_teacher_assessments: { definition: "Used for foundation subjects, such as art and design, geography, history, design and technology, and computing", what_it_does: "", examples: "the National Vocational Qualifications and Business and Technology Education Council" },
+  statefunded_nursery_education: "Available from the age of 3, and may be full-time or part-time, though this is not compulsory",
+  the_next: "Secondary school which runs for three or four years, from Year 7 or 8 to Year 10",
+
 };
 
 // ============================================================
