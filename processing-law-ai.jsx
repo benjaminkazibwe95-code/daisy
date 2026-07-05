@@ -62909,6 +62909,12 @@ const FLAT_DICT = {
   the_firstever_sovereign_bond: "Issued in 1693 by the newly formed Bank of England",
   this_bond: "Used to fund conflict with France",
 
+  // === INGESTED 2026-07-05 21:09 ===
+  another_popular_iteration_of_the_ratio: "The long-term-debt-to-equity ratio which uses only long-term debt in the numerator instead of total debt or total liabilities",
+  this_second_classification_of_shortterm_debt: "Carved out of long-term debt and is reclassified as a current liability called current portion of long-term debt (or a similar name)",
+  the_remaining_longterm_debt: "Used in the numerator of the long-term-debt-to-equity ratio",
+  both_the_formulas_below: "Therefore identical: Debt to equity can also be reformulated in terms of assets or debt: General Electric Co",
+
 };
 
 // ============================================================
