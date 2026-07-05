@@ -61893,6 +61893,12 @@ const FLAT_DICT = {
   succinic_and_fumaric_acids: "Essential for metabolism",
   a_large_inventory_of_derivatives: { definition: "Known including many mono- and diesters, amides, etc", what_it_does: "", examples: "PET, Terylene, Dacron and Lavsan" },
 
+  // === INGESTED 2026-07-05 16:15 ===
+  the_salts_and_esters_of_dichloroacetic_acid: "Called dichloroacetates",
+  the_chemistry_of_dichloroacetic_acid: "Typical for halogenated organic acids",
+  one_fraudster: "Sentenced to 33 months in prison for selling a white powder containing starch, but no DCA, to people with cancer",
+  all_five_patients: "Receiving other treatments during the study",
+
 };
 
 // ============================================================
