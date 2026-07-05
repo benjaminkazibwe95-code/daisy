@@ -61888,6 +61888,11 @@ const FLAT_DICT = {
   the_atomic_orbital_model: "Nevertheless an approximation to the full quantum theory, which only recognizes many electron states",
   the_predictions_of_line_spectra: "Qualitatively useful but are not quantitatively accurate for atoms and ions other than those containing only one electron",
 
+  // === INGESTED 2026-07-05 16:13 ===
+  aspartic_acid_and_glutamic_acid: "Two amino acids found in all life",
+  succinic_and_fumaric_acids: "Essential for metabolism",
+  a_large_inventory_of_derivatives: { definition: "Known including many mono- and diesters, amides, etc", what_it_does: "", examples: "PET, Terylene, Dacron and Lavsan" },
+
 };
 
 // ============================================================
