@@ -60665,6 +60665,13 @@ const FLAT_DICT = {
   as_long_as_actual_and_standard_conditions: { definition: "Similar, few problems arise", what_it_does: "", examples: "a policy decision to increase inventory can harm a manufacturing manager's performance evaluation" },
   some_shortterm_macroeconomic_fluctuations: { definition: "Attributed to the inventory cycle", what_it_does: "", examples: "used with Parmesan cheese in Italy" },
 
+  // === INGESTED 2026-07-05 03:34 ===
+  modigliani: "Awarded the 1985 Nobel Prize in Economics for this and other contributions",
+  miller: "A professor at the University of Chicago when he was awarded the 1990 Nobel Prize in Economics, along with Harry Markowitz and William F",
+  consider_two_firms_which: "Identical except for their financial structures",
+  another_word_for_levered: "Geared , which has the same meaning",
+  where_this_means_that_there: "Advantages for firms to be levered, since corporations can deduct interest payments",
+
 };
 
 // ============================================================
