@@ -62389,6 +62389,10 @@ const FLAT_DICT = {
   its_fundamental_political_assumptions: "Restricted to one form of democracy, namely electoral politics, and display hostility towards popular politics",
   the_assumption_in_this_approach: { definition: "That other forms of organisation and opposition are of limited importance or a separate matter from the consolidation of their version of democracy", what_it_does: "", examples: "gerrymandering of electoral districts) designed to put them at a disadvantage" },
 
+  // === INGESTED 2026-07-05 18:55 ===
+  a_rerun: "Held in 2016, however, but the opposition had boycotted the election, giving the ruling party a landslide victory",
+  the_total_number_of_voters_registered: "448,482, a decrease of 55,300 from the 2015 elections",
+
 };
 
 // ============================================================
