@@ -62187,6 +62187,23 @@ const FLAT_DICT = {
   such_names: "Known as descriptive family names",
   virus_orders: "Indicated by the suffix - virales",
 
+  // === INGESTED 2026-07-05 17:44 ===
+  adenoviruses: "Also known to cause respiratory infections in horses , cattle , pigs , sheep , and goats",
+  the_penton_bases: "Associated with protruding fibers that aid in attachment to the host cell via the receptor on its surface",
+  viral_dna: "Subsequently released, which can enter the nucleus via the nuclear pore",
+  the_adenovirus_life_cycle: "Separated by the DNA replication process into two phases: an early and a late phase",
+  a_terminal_protein_that: "Covalently bound to the 5' end of the adenovirus genome acts as a primer for replication",
+  the_late_phase_of_the_adenovirus_lifecycle: "Focused on producing sufficient quantities of structural protein to pack all the genetic material produced by DNA replication",
+  such_mr: "Demonstrated for adenovirus 12 after virions were irradiated with UV light and allowed to undergo multiple infection of host cells",
+  sqadv: "Most closely related to the adenovirus of guinea pigs (GpAdV)",
+  adenovirus_in_reptiles: "Poorly understood, but research is currently in progress",
+  us_military_personnel: "The recipients of this vaccine because they may be at a higher risk of infection",
+  that_vaccine: "No longer manufactured",
+  tests: "Only necessary in very serious cases",
+  even_if_adenovirus: { definition: "Found to be present, it may not be the cause of any symptoms", what_it_does: "", examples: "towels and faucet handles" },
+  specific_modifications_on_fiber_proteins: "Used to target Adenovirus to certain cell types; [ 48 ] a major effort is made to limit hepatotoxicity and prevent multiple organ failure",
+  one_such_modification: { definition: "The gutless vector that removes almost all the viral genome", what_it_does: "", examples: "replication incompetent types, can deliver DNA coding for specific antigens" },
+
 };
 
 // ============================================================
