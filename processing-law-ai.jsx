@@ -59949,6 +59949,33 @@ const FLAT_DICT = {
   drier_months: "January - February, and a longer drier season between June and October",
   the_places_of_worship_in_the_city: "Predominantly Muslim mosques",
 
+  // === INGESTED 2026-07-05 00:45 ===
+  the_batswana_ethnic_group: "Descended mainly from Bantu-speaking peoples who migrated into southern Africa , including modern Botswana, in several waves before AD 600",
+  these_protokalanga: "Closely connected to states in Zimbabwe as well as to the Mapungubwe state",
+  these_various_peoples: { definition: "Connected to trade routes that ran via the Limpopo River to the Indian Ocean", what_it_does: "", examples: "beads made their way to Botswana, most likely in exchange for ivory, gold and rhinoceros horn" },
+  although_the_bangwaketse: { definition: "Able to defeat the invading Bakololo in 1826, over time all the major chiefdoms in Botswana were attacked, weakened and impoverished", what_it_does: "", examples: "hilltops and caves" },
+  christian_missionaries: "Able to take advantage of this",
+  a_europeanafrican_advisory_council: "Formed in 1951, and the 1961 constitution established a consultative legislative council",
+  an_independence_conference: "Held in London in February 1966",
+  surface_water: { definition: "Scarce in Botswana, and less than 5% of the agriculture in the country is sustainable by rainfall", what_it_does: "", examples: "land, in Botswana" },
+  the_barataphathi_faction: "Led by Peter Mmusi , Daniel Kwelagobe and Ponatshego Kedikilwe , while the A Team faction was led by Mompati Merafhe and Jacob Nkate",
+  chobe: "Readded on 31 March 2014",
+  the_legal_system: "Sufficient to conduct secure commercial dealings, although a growing backlog of cases prevents timely trials",
+  botswana_railways: "The national railway company, operating primarily in the Southern African regional railway system",
+  the_indian_minority: { definition: "Made up of both recent migrants and descendants of Indian migrants who arrived from Mozambique , Kenya , Tanzania , Mauritius and South Africa", what_it_does: "", examples: "traditional hunting and gathering activities" },
+  the_people_as_a_whole: "Batswana, one person is a Motswana, and the language they speak is Setswana",
+  economic_development_spending: "Cut by 10% in 2002–2003 as a result of recurring budget deficits and rising expenditures on healthcare services",
+  the_national_anthem: "' Fatshe leno la rona ', which was written and composed by Kgalemang Tumediso Motsete; it was adopted upon independence in 1966",
+  bogobe: "Made by putting sorghum, maize or millet flour into boiling water, stirring it into a soft paste, and cooking it slowly",
+  a_dish_called_ting_is_made_when_milk_and_sugar: "Added to fermented sorghum or maize",
+  ting_without_the_milk_and_sugar: "Sometimes eaten with meat or vegetables for lunch or dinner",
+  another_way_of_making_bogobe: "To add sour milk and a cooking melon (lerotse)",
+  madila: "A traditional fermented milk product similar to yogurt or sour cream",
+  other_popular_sports: "Softball, cricket , tennis, rugby , badminton, handball , golf and track and field",
+  high_jumper_kabelo_kgosiemang: "A three-time African champion",
+  isaac_makwala: "A sprinter who specialises in the 400 metres who was the gold medalist at the Commonwealth Games in 2018",
+  baboloki_thebe: "A silver medalist in the 200 metres at the 2014 Summer Youth Olympics and reached the semi-finals at the 2014 World Junior Championships in Athletics",
+
 };
 
 // ============================================================
