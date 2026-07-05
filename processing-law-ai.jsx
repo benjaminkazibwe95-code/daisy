@@ -60578,6 +60578,24 @@ const FLAT_DICT = {
   first_attempts: "Based on Shockley's ideas about using an external electrical field on a semiconductor to affect its conductivity",
   he_also_claimed_that_black_people: { definition: "Genetically and intellectually inferior to white people", what_it_does: "", examples: "laundry lists) provides abundant documentation on his life for researchers" },
 
+  // === INGESTED 2026-07-05 03:17 ===
+  accounts_receivable_financing: "A term more accurately used to describe a form of asset based lending against accounts receivable",
+  the_commercial_finance_association: "The leading trade association of the asset-based lending and factoring industries",
+  the_cash_balance_a_business_holds: "Essentially a demand for transactions money",
+  a_second_key_service: "The operation of the accounts receivable function",
+  although_today_even_they: { definition: "Outsourcing such back-office functions", what_it_does: "can be broken up into two parts: the initial account setup and ongoing funding", examples: "documents of incorporation, financials, and banks statements" },
+  invoices: "Still approved on an individual basis, but most invoices can be funded in a business day or two, as long as they meet the factor's criteria",
+  a_factor: "Therefore more concerned with the credit-worthiness of the company's customers",
+  another_area_of_concern: "When the cost of invoice factoring is calculated",
+  construction_the_discount_rate: "The fee a factoring company charges to provide the factoring service",
+  since_a_formal_factoring_transaction: "The outright purchase of the invoice, the discount rate is typically stated as a percentage of the face value of the invoices",
+  the_advance_rate: "The percentage of an invoice that is paid out by the factoring company upfront",
+  once_the_invoice: "Paid, the factor gives the difference between the face value, advance amount and fees back to the business in the form of a factoring rebate",
+  this_reserve_account: { definition: "Typically 10–15% of the seller's credit line, but not all factoring companies hold reserve accounts", what_it_does: "", examples: "sovereign debt" },
+  these_also_drove_and: { definition: "Driven by modifications of the common law framework in England and the United States", what_it_does: "", examples: "Quickbooks, allowing businesses to immediately receive funding without an application" },
+  commission_advances: "First introduced in Canada but quickly spread to the United States",
+  many_but_not_all_in_such_organizations: "Knowledgeable about the use of factoring by small firms and clearly distinguish between its use by small rapidly growing firms and turnarounds",
+
 };
 
 // ============================================================
