@@ -59825,6 +59825,9 @@ const FLAT_DICT = {
   the_reasons_for_these_degenerative_changes: "Currently being hotly debated",
   the_astrocytes: "Able to activate the stem cells to transform into working neurons by dampening the release of ephrin-A2 and ephrin-A3",
 
+  // === INGESTED 2026-07-05 00:04 ===
+  gap_junction_channels: "Composed of two hemichannels called connexons in vertebrates, one contributed by each cell at the synapse",
+
 };
 
 // ============================================================
