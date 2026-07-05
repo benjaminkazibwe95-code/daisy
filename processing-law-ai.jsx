@@ -60292,6 +60292,15 @@ const FLAT_DICT = {
   as_the_redundant_raas_units: "Independent of each other, instruction-level gadget programming is likely to generate different sequences in different devices",
   the_major_challenge_in_designing_raas: { definition: "To deal with the diversity of the networks, applications, and the environments or end users", what_it_does: "", examples: "large-scale vertical farming and precision crop management" },
 
+  // === INGESTED 2026-07-05 02:10 ===
+  virtual_machines: "Based on computer architectures and provide the functionality of a physical computer",
+  the_desire_to_run_multiple_operating_systems: { definition: "The initial motive for virtual machines, so as to allow time-sharing among several single-tasking operating systems", what_it_does: "", examples: "adding input/output devices not allowed by the standard system" },
+  it_is_created_when_that_process: "Started and deleted when it is closed",
+  process_vms: { definition: "Implemented using an interpreter ; performance comparable to compiled programming languages can be achieved by the use of just-in-time compilation", what_it_does: "", examples: "the Parrot virtual machine and the" },
+  a_snapshot: "A state of a virtual machine, and generally its storage devices, at an exact point in time",
+  once_such_a_translation_layer: "Present, however, it is possible to intercept the operations and send them to different files, depending on various criteria",
+  every_time_a_snapshot: { definition: "Taken, a new file is created, and used as an overlay for its predecessors", what_it_does: "", examples: "the contents of its random-access memory (RAM), BIOS settings, or its configuration settings" },
+
 };
 
 // ============================================================
