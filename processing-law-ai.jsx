@@ -61939,6 +61939,18 @@ const FLAT_DICT = {
   the_metalation_of_carboranes: "Illustrated by the reactions of closo - C 2 B 3 H 5 with iron carbonyl sources",
   most_famous: "The dicarbollide , complexes with the formula M 2+ [C 2 B 9 H 11 ] 2− , where M stands for metal",
 
+  // === INGESTED 2026-07-05 16:28 ===
+  less_convincing_earlier_references: "Found in the Plichto of Rosetti (1540) and in Agricola (1558)",
+  in_aqueous_solutions_dissociation: "Complete, with the formation of chloride ions and hydrated hydrogen ions ( hydronium ions )",
+  bulk_industrialgrade: "Therefore 30% to 35%, optimized to balance transport efficiency and product loss through evaporation",
+  the_open_world_market_size: { definition: "Estimated at 5 Mt/year", what_it_does: "", examples: "refining metal" },
+  the_most_common_regeneration_process: "The pyrohydrolysis process, applying the following formula: [ 25 ] By recuperation of the spent acid, a closed acid loop is established",
+  the_conversions: "Often depicted in simplified equations: These processes are used to produce metal chlorides for analysis or further production",
+  cation_exchange: "Widely used to remove ions such as Na + and Ca 2+ from aqueous solutions, producing demineralized water",
+  ion_exchangers_and_demineralized_water: "Used in all chemical industries, drinking water production, and many food industries",
+  oil_well_acidizing: "A common process in the North Sea oil production industry",
+  airborne_acid: "An irritant to the eyes, and may require the use of protective goggles or a facemask",
+
 };
 
 // ============================================================
