@@ -62889,6 +62889,26 @@ const FLAT_DICT = {
   such_transactions: "Privately negotiated between companies and accredited investors",
   mergers_and_acquisitions_and_capital_markets: { definition: "Also often covered by The Wall Street Journal and Bloomberg", what_it_does: "", examples: "many overseas banks, hedge funds, and pensions" },
 
+  // === INGESTED 2026-07-05 21:07 ===
+  bonds_and_bank_loans_form_what: "Known as the credit market",
+  the_global_credit_market_in_aggregate: "About three times the size of the global equity market",
+  bond_trading_prices_and_volumes: "Reported on the Financial Industry Regulatory Authority 's (FINRA) Trade Reporting And Compliance Engine , or TRACE",
+  an_important_part_of_the_bond_market: "The government bond market, because of its size and liquidity",
+  government_bonds: { definition: "Often used to compare other bonds to measure credit risk", what_it_does: "", examples: "the United States and Germany is thought to indicate a risk-free rate of default" },
+  the_primary_way_to_default: "To not pay in full or not pay on time",
+  the_considerable_growth: "That in March 2012 it was much larger than the global equity market which had a market capitalisation of around $53 trillion",
+  bond_market_size: "(in billions): The total federal government debts recognized by SIFMA are significantly less than the total bills, notes and bonds issued by the U.S",
+  fluctuating_interest_rates: "Part of a country's monetary policy and bond market volatility is a response to expected monetary policy and economic changes",
+  a_tight_consensus: "Generally reflected in bond prices and there is little price movement in the market after the release of 'in-line' data",
+  typical_sizes_offered: { definition: "Increments of $10,000", what_it_does: "", examples: "semi-annual pay" },
+  bond_interest: "Taxed as ordinary income, in contrast to qualified dividend income which receives favorable taxation rates, unlike ordinary dividends",
+  however_many_government_and_municipal_bonds: "Exempt from one or more types of taxation",
+  the_most_common_american_benchmarks: { definition: "The Barclays Capital Aggregate Bond Index , Citigroup BIG and Merrill Lynch Domestic Master", what_it_does: "", examples: "Riccardi of Lucca in Tuscany" },
+  the_loans_of_the_time: "However not yet securitized in the form of bonds",
+  securities_of_this_late_medieval_period: "Priced with techniques very similar to those used in modern-day Quantitative finance",
+  the_firstever_sovereign_bond: "Issued in 1693 by the newly formed Bank of England",
+  this_bond: "Used to fund conflict with France",
+
 };
 
 // ============================================================
