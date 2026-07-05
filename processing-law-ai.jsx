@@ -62448,6 +62448,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 19:10 ===
   this_platform: "Initially branded as Centrino Atom but such practice was discontinued in Q3 2008",
 
+  // === INGESTED 2026-07-05 19:12 ===
+  infinix_mobile: "Available in Asia and approximately 30 countries in the Middle East and Africa",
+
 };
 
 // ============================================================
