@@ -62726,6 +62726,9 @@ const FLAT_DICT = {
   the_contributions_of_each_of_these_genes: "Typically small and add up to a final phenotype with a large amount of variation",
   a_well_studied_example_of_this: "The number of sensory bristles on a fly",
 
+  // === INGESTED 2026-07-05 20:44 ===
+  small_caps: "Thus generally categorized as riskier or more aggressive investments than large caps, which are seen as less risky, more conservative investments",
+
 };
 
 // ============================================================
