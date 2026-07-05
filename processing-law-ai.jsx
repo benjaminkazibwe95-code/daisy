@@ -62682,6 +62682,15 @@ const FLAT_DICT = {
   medwatch: "The main reporting center, operated by the Food and Drug Administration",
   adverse_reaction_reporting: { definition: "Mandatory for the industry and voluntary for consumers and health professionals", what_it_does: "", examples: "infection , hemorrhage , inflammation , scarring , loss of function, or changes in local blood flow" },
 
+  // === INGESTED 2026-07-05 20:24 ===
+  the_four_main_classes: "Molecular, physiologic, histologic and radiographic biomarkers",
+  predictive_biomarkers: "Used to help optimize ideal treatments, and often indicate the likelihood of benefiting from a specific therapy",
+  this_can_lead_to_diagnosis_that: "Significantly more specific to individual patients",
+  a_biomarker_can_be_a_traceable_substance_that: { definition: "Introduced into an organism as a means to examine organ function or other aspects of health", what_it_does: "", examples: "the presence of an antibody may indicate an infection" },
+  biomarkers_for_precision_oncology: { definition: "Typically utilized in the molecular diagnostics of chronic myeloid leukemia , colon , breast , and lung cancer, and in melanoma", what_it_does: "", examples: "accelerometer data and heartrate [ 11 ] [ 12 ] but also speech" },
+  these_markers: { definition: "Used as signs or indicators of cognitive decline", what_it_does: "", examples: "archaeology where reliable dietary information are required" },
+  the_term_biomarker: "Also used to describe biological involvement in the generation of petroleum",
+
 };
 
 // ============================================================
