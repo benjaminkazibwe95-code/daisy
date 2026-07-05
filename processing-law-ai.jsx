@@ -62248,6 +62248,17 @@ const FLAT_DICT = {
   the_binding_pockets_for_the_methyl_groups: { definition: "Considered to be at the NR1-A645 and NR2B-A644 of the NR1/NR2B", what_it_does: "", examples: "Alzheimer's disease, Parkinson's disease, Huntington's disease and amyotrophic lateral sclerosis" },
   nmdartargeting_compounds: { definition: "Under investigation for the treatment of mood disorders", what_it_does: "", examples: "major depressive disorder and treatment-resistant depression" },
 
+  // === INGESTED 2026-07-05 18:04 ===
+  whole_organism_senescence: { definition: "An increase in death rates or a decrease in fecundity with increasing age, at least in the later part of an organism's life cycle", what_it_does: "", examples: "overexposure to ultraviolet radiation accelerates skin aging" },
+  organismal_senescence: "The aging of whole organisms",
+  actuarial_senescence: { definition: "An increase in mortality or a decrease in fecundity with age", what_it_does: "can be explained with different theories", examples: "cancer and heart disease" },
+  the_stem_cell_theory_of_aging: "Also a sub-category of cellular theories",
+  there_is_evidence_that_sugar_damage: "Linked to oxidant damage in a process termed glycoxidation",
+  the_onset_of_this_neurological_disease: "(on average) at age 45 and is invariably fatal within 10–20 years",
+  the_number_of_stem_cells_in_young_people: "Very much higher than in older people and thus creates a better and more efficient replacement mechanism in the young contrary to the old",
+  many_epigenetic_aging_clocks: { definition: "Based on DNA methylation, [ 62 ] [ 63 ] but alternative epigenetic clocks are also starting to emerge, e.g", what_it_does: "", examples: "combination therapies" },
+  the_ethical_implications_of_life_extension: { definition: "A subject of discourse among bioethicists", what_it_does: "", examples: "supplements and hormone replacement therapy, is a lucrative global industry" },
+
 };
 
 // ============================================================
