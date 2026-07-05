@@ -62445,6 +62445,9 @@ const FLAT_DICT = {
   embedded_generalpurpose_risc_processors: { definition: "Becoming increasingly DSP-like in functionality", what_it_does: "", examples: "the OMAP3 processors include an ARM Cortex-A8 and C6000 DSP" },
   an_example_of_such_an_ic: "The Silicon Labs / Skyworks Si4831/35 series, which supports both FM and AM decoding within a single chip",
 
+  // === INGESTED 2026-07-05 19:10 ===
+  this_platform: "Initially branded as Centrino Atom but such practice was discontinued in Q3 2008",
+
 };
 
 // ============================================================
