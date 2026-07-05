@@ -59836,6 +59836,18 @@ const FLAT_DICT = {
   there_is_evidence_that_these_synapses: "Bi-directional, in that either dendrite can signal at that synapse",
   in_a_simulated_disease_state_where_axons: "Destroyed, some neurons formed dendrodendritic synapses to compensate",
 
+  // === INGESTED 2026-07-05 00:13 ===
+  when_such_a_train_of_stimuli: { definition: "Applied, subsequent single-pulse stimuli elicited stronger, prolonged EPSPs in the postsynaptic cell population", what_it_does: "", examples: "the cerebral cortex , [ 18 ] cerebellum , [ 19 ] amygdala , [ 20 ] and many others" },
+  one_such_factor: { definition: "The age of the organism when LTP is observed", what_it_does: "", examples: "input specificity, associativity, cooperativity, and persistence" },
+  while_the_above_model_of_eltp: { definition: "Entirely postsynaptic mechanisms for induction, maintenance, and expression, an additional component of expression may occur presynaptically", what_it_does: "", examples: "CaMKII and PKC, can converge on ERK" },
+  the_products_of_gene_expression: "Shipped globally throughout the cell, but are only captured by synapses that express the synaptic tag",
+  while_weak_stimuli: "Unable to induce protein synthesis in the cell body, they may prompt the synthesis of a synaptic tag",
+  cooperativity_is_observed_when_two_synapses: "Activated by weak stimuli incapable of inducing LTP when stimulated individually",
+  a_mediator_of_ltp: { definition: "A molecule, such as the NMDA receptor or calcium, whose presence and activity is necessary for generating LTP under nearly all conditions", what_it_does: "", examples: "norepinephrine may alter the protein synthesis-dependent late phase of LTP" },
+  rats_in_the_control_group: "Able to locate the platform and escape from the pool, while the performance of APV-treated rats was significantly impaired",
+  since_these_place_fields: { definition: "Distributed throughout the environment, one interpretation is that groups of place cells form maps in the hippocampus", what_it_does: "", examples: "depression , Parkinson's disease , epilepsy , and neuropathic pain" },
+  the_result_of_this_abnormal_processing: { definition: "The accumulation of fragments of this protein, called amyloid β (Aβ)", what_it_does: "", examples: "the ventral tegmental area (VTA) and nucleus accumbens (NAc)" },
+
 };
 
 // ============================================================
