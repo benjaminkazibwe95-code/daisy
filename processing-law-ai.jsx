@@ -59900,6 +59900,12 @@ const FLAT_DICT = {
   in_languages_for_which_the_segment: "Present but not phonemic, it is often an allophone of either an alveolar stop ( [ t ] , [ d ] , or both) or a rhotic consonant",
   a_voiced_alveolar_tapped_fricative: "Reported from some languages, which is a very brief voiced alveolar non-sibilant fricative",
 
+  // === INGESTED 2026-07-05 00:28 ===
+  her_visiting: { definition: "Done late in the afternoon when the housework is finished and the children are playing", what_it_does: "", examples: "metalwork" },
+  the_orma: { definition: "Known as mwingi kama ntanga wa ifi (as many as grains of earth)", what_it_does: "", examples: "Kidhingichini thrive" },
+  selfdefense: "Difficult because, despite the Bajuni's developed competence with rifles for hunting, the post-independence authorities confiscated their weapons",
+  the_community: "Organized into clans ( Ukoo or Khamasi ) that influence social and cultural practices such as marriage",
+
 };
 
 // ============================================================
