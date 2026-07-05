@@ -61122,6 +61122,19 @@ const FLAT_DICT = {
   dna_and_rna: "Broken down into mononucleotides by the nucleases deoxyribonuclease (DNase), and ribonuclease (RNase) from the pancreas",
   some_nutrients: "Complex molecules (for example vitamin B 12 ) which would be destroyed if they were broken down into their functional groups",
 
+  // === INGESTED 2026-07-05 05:29 ===
+  dehydration: { definition: "The earliest form of food curing", what_it_does: "", examples: "ambient humidity , temperature, and the presence of pathogens" },
+  saltcuring_processes: "Developed in antiquity [ 9 ] in order to ensure food safety without relying on then unknown anti-bacterial agents",
+  these_proteins_coagulate_when_the_sausage: { definition: "Heated, helping to hold the sausage together", what_it_does: "", examples: "honey , corn syrup solids, and maple syrup" },
+  nitrite_salts: "Most often used to accelerate curing and impart a pink colour",
+  plasma_nitrite: { definition: "Reduced in persons with endothelial dysfunction", what_it_does: "", examples: "nitrosamines, N -nitrosamides and nitrosyl-heme" },
+  if_the_smoke: { definition: "Hot enough to slow-cook the meat, this will also keep it tender", what_it_does: "", examples: "apple , cherry , and plum , and even corncobs" },
+  if_the_meat: "Cold smoked, it should be dried quickly to limit bacterial growth during the critical period where the meat is not yet dry",
+  the_smoking_of_food_directly_with_wood_smoke: "Known to contaminate the food with carcinogenic polycyclic aromatic hydrocarbons",
+  the_belgae: "Celebrated above all for the care which they gave to the fattening of their pigs",
+  their_herds_of_sheep_and_pigs: "So many, they could provide skins and salt meat not only for Rome, but also for most of Italy",
+  smoked_meat: { definition: "Called carbouclée in Romance tongues [ 47 ] and bacon if it was pork", what_it_does: "", examples: "canned salt meat (for example corned beef )" },
+
 };
 
 // ============================================================
