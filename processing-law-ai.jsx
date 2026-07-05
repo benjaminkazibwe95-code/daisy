@@ -60691,6 +60691,11 @@ const FLAT_DICT = {
   fulfillment_service_providers: "Also included as economic operators, making them responsible for product safety compliance in certain cases",
   generally: "Compliance with laws and regulations",
 
+  // === INGESTED 2026-07-05 03:49 ===
+  hbg: { definition: "Formed when Hachette Livre purchased the Time Warner Book Group from Time Warner on March 31, 2006", what_it_does: "", examples: "both physical and downloadable-only titles)" },
+  questar: "Popular's new imprint for science fiction",
+  to_more_than_twice_what_they: "Selling for in the UK",
+
 };
 
 // ============================================================
