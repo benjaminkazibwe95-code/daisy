@@ -60547,6 +60547,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 03:00 ===
   the_century: { definition: "Marked by significant research, literature, and international cooperation in the field", what_it_does: "", examples: "bans on harmful chemicals like the insecticide DDT" },
 
+  // === INGESTED 2026-07-05 03:02 ===
+  details_of_the_proposed_offering: { definition: "Disclosed to potential purchasers in the form of a lengthy document known as a prospectus", what_it_does: "", examples: "the Dutch auction have also been explored and applied for several IPOs" },
+  a_large_ipo: "Usually underwritten by a ' syndicate ' of investment banks, the largest of which take the position of 'lead underwriter'",
+  this_fee: "Called an underwriting spread",
+  a_member_of_the_syndicate: { definition: "Entitled to the underwriting fee and the concession", what_it_does: "", examples: "an issuer based in the E.U" },
+  the_red_herring_prospectus: "So named because of a bold red warning statement printed on its front cover",
+  the_effect_of_underpricing_an_ipo: "To generate additional interest in the stock and a rapid rise in share price when it first becomes publicly traded (known as an 'IPO pop')",
+  one_extreme_example: "Theglobe.com IPO which helped fuel the IPO 'mania' of the late 1990s internet era",
+  the_danger_of_overpricing: "Also an important consideration",
+  if_a_stock: "Offered to the public at a higher price than the market will pay, the underwriters may have trouble meeting their commitments to sell shares",
+  perhaps_the_bestknown_example_of_this: { definition: "The Facebook IPO in 2012", what_it_does: "", examples: "Morningstar , Interactive Brokers Group , Overstock" },
+  the_first_and_the_one_linked_above: "The period of time following the filing of the company's S-1 but before SEC staff declare the registration statement effective",
+  when_the_quiet_period: "Over, generally the underwriters will initiate research coverage on the firm",
+
 };
 
 // ============================================================
