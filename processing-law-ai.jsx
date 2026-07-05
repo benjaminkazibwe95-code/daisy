@@ -62771,6 +62771,35 @@ const FLAT_DICT = {
   the_sixth_dynasty: "An Amorite dynasty not mentioned on the SKL",
   rulers_in_orange: "Legendary figures with notably uncertain historicity",
 
+  // === INGESTED 2026-07-05 20:52 ===
+  methane_is_a_shortlived_greenhouse_gas_that: "Produced by decaying organic matter and livestock, as well as fossil fuel extraction",
+  this_is_because_there: "No single pathway to limit global warming to 1.5 or 2 °C",
+  the_largest_single_source: "Coal-fired power stations with 20% of greenhouse gas emissions",
+  the_scientific_community: "Checking their fulfilment",
+  these_four_polities: { definition: "Responsible for 6% of global greenhouse gas emissions", what_it_does: "", examples: "wind and solar, electrical power systems must be flexible" },
+  the_actual_amount_of_energy_consumed: "Significantly lower at 116,000 TWh",
+  improvements_in_energy_efficiency: "Generally achieved by adopting a more efficient technology or production process",
+  excessive_consumption: "More to blame for climate change than population increase",
+  a_high_mitigation_potential: { definition: "Found for reducing deforestation in tropical regions", what_it_does: "", examples: "not all grasslands are suitable for conversion into forests" },
+  helping_native_species_sprout_naturally: { definition: "Cheaper than planting new trees and they are more likely to survive", what_it_does: "", examples: "in Mali and Niger have led to significant changes" },
+  such_land: "Usually unable to grow any other kind of food",
+  carbon_formed_above_ground: { definition: "Released as CO 2 immediately when wood is burned", what_it_does: "", examples: "the world's forests" },
+  another_threat: "Cutting down trees for lumber, as the trees help hold and fix the peatland",
+  this_occurs_through_what: { definition: "Referred to as the whale pump , where whales' liquid feces stay at the surface of the ocean", what_it_does: "aims to accelerate natural weathering by spreading finely ground silicate rock, such as basalt , onto surfaces", examples: "basalt , onto surfaces" },
+  these_systemic_risks: { definition: "Absent from biochar deployment", what_it_does: "uses biomass grown for bioenergy", examples: "electricity, heat, biofuels, etc" },
+  but_many_scientists: { definition: "Sceptical due to the risk of loss of biodiversity", what_it_does: "", examples: "cars) require a lot of energy to move and take up much urban space" },
+  their_purchase_price: "Higher than diesel buses",
+  their_radiative_forcing: "Estimated at 1.3–1.4 that of CO 2 alone, excluding induced cirrus cloud",
+  batterypowered_aircraft: "Likely to enter the market after 2035",
+  the_potential_benefits_from_these_investments: "Estimated at $4.3 trillion by 2030, offering a substantial economic return of 16-to-1",
+  some_estimates: { definition: "As high as 8.7 million excess deaths during 2018", what_it_does: "", examples: "heart attack , stroke and chronic obstructive pulmonary disease" },
+  the_mitigation: { definition: "Achieved through the conservation and expansion of carbon sinks and reduced energy use of buildings", what_it_does: "", examples: "through reduced heat stress and flooding risk" },
+  others_are_the_way_costs: "Modelled, and assumptions about future government policy",
+  these_financial_requirements: "Predicted to exceed $4 trillion per year by 2030",
+  the_actual_effects_on_welfare_and_wellbeing: "Comparatively larger",
+  a_specific_proposal: { definition: "'equal per capita entitlements'", what_it_does: "", examples: "significant fossil fuel subsidies are present in many countries" },
+  other_barriers: "Cultural values, governance, accountability and institutional capacity",
+
 };
 
 // ============================================================
