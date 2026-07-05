@@ -61013,6 +61013,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 05:10 ===
   baked_goods: "Cooked by baking , a method of cooking food that uses prolonged dry heat",
 
+  // === INGESTED 2026-07-05 05:12 ===
+  population_growth_rate: "Among highest in the United Arab Emirates (315%) and Qatar (271%)",
+  the_fear_is_that_high_population_numbers: "Putting further strain on natural resources, food supplies, fuel supplies, employment, housing, etc",
+
 };
 
 // ============================================================
