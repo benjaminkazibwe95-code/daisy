@@ -60199,6 +60199,26 @@ const FLAT_DICT = {
   when_pointer_trails: { definition: "Active and the mouse or stylus is moved, the system waits a moment before removing the pointer image from the old location on the screen", what_it_does: "", examples: "LCD screens in bright sunlight" },
   animated_pointers: { definition: "Not without their problems", what_it_does: "", examples: "rotation, can be extended to a 3D modeling environment" },
 
+  // === INGESTED 2026-07-05 01:49 ===
+  autofocus_methods: { definition: "Distinguished as active , passive or hybrid types", what_it_does: "", examples: "focusing magnifiers" },
+  the_data_collected_from_af_sensors: "Used to control an electromechanical system that adjusts the focus of the optical system",
+  a_variation_of_autofocus: "An electronic rangefinder , in which focus data are provided to the operator, but adjustment of the optical system is still performed manually",
+  the_speed_of_the_af_system: { definition: "Highly dependent on the widest aperture offered by the lens at the current focal length", what_it_does: "", examples: "f / 1.4 or f / 1" },
+  the_first_massproduced_autofocus_camera: "The Konica C35 AF , a simple point and shoot model released in 1977",
+  pentax: "The first to introduce focusing distance measurement for SLR cameras with the FA and FA* series lenses from 1991",
+  an_exception_to_the_twostep_approach: { definition: "The mechanical autofocus provided in some enlargers, which adjust the lens directly", what_it_does: "", examples: "ultrasonic sound or infrared light waves, toward the subject" },
+  contrastdetection_autofocus: "Achieved by measuring contrast (vision) within a sensor field through the lens",
+  contrastdetect_autofocus: "A common method in digital cameras that lack shutters and reflex mirrors",
+  another_disadvantage: "That if the camera uses flash focus assist and is set to an operation mode that overrides the flash, it may also disable the focus assist",
+  similar_stroboscopic_flashing: "Sometimes used to reduce the red-eye effect , but this is only intended to constrict the subject's eye pupils before the shot",
+  a_rare_example_of_an_early_hybrid_system: "The combination of an active IR or ultrasonic auto-focus system with a passive phase-detection system",
+  a_very_common_example_of_combined_usage: "The phase-detection auto-focus system used in single-lens reflex cameras since the 1985s",
+  if_the_measurement_basis: "Large, measurements are very accurate, but can only work with lenses with a large geometrical aperture (e.g",
+  since_the_effective_measurement_basis: { definition: "An optical property of the actual implementation, it cannot be changed easily", what_it_does: "", examples: "in stopped-down measuring or video mode" },
+  accuracy_of_active_autofocus_systems: { definition: "Often considerably less than that of passive systems", what_it_does: "", examples: "macro photography )" },
+  trap_focus: "Also possible on some Pentax (e.g",
+  ai_servo: "An autofocus mode found on Canon SLR cameras, and in other brands such as Nikon , Sony , and Pentax , under the name 'continuous focus' (AF-C)",
+
 };
 
 // ============================================================
