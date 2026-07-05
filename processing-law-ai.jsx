@@ -61815,6 +61815,13 @@ const FLAT_DICT = {
   haloalkanes_are_a_class_of_molecule_that: { definition: "Defined by a carbon– halogen bond", what_it_does: "", examples: "in the case of amides" },
   when_the_parent_hydrocarbon: "Unsaturated, the suffix ('-yl', '-ylidene', or '-ylidyne') replaces '-ane' (e.g",
 
+  // === INGESTED 2026-07-05 15:47 ===
+  the_general_field_of_study: "Called structural stability",
+  atmospheric_instability: "A major component of all weather systems on Earth",
+  a_system_itself: "Said to be unstable if at least one of its state variables is unstable",
+  plasma_instabilities: "Also categorised into different modes – see this paragraph in plasma stability",
+  functional_instability: { definition: "Recurrent sprains or a feeling of giving way of the injured joint", what_it_does: "provided by a brace provides cutaneous afferent feedback in maintaining postural control and increasing stability", examples: "" },
+
 };
 
 // ============================================================
