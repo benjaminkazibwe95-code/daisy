@@ -61229,6 +61229,9 @@ const FLAT_DICT = {
   folk_dances_originated_in_the_villages_and: { definition: "Performed, for the most part, by the villagers for the villagers", what_it_does: "", examples: "hill tribes, Chams or farmers" },
   dance_music: "Composed in particular styles for social dances",
 
+  // === INGESTED 2026-07-05 05:55 ===
+  amp: { definition: "Also a component in the synthesis of RNA", what_it_does: "", examples: "adenosine monophosphate, are formed" },
+
 };
 
 // ============================================================
