@@ -59943,6 +59943,12 @@ const FLAT_DICT = {
   the_bantu_peoples: "An ethnolinguistic grouping of approximately 400 distinct Indigenous African ethnic groups who speak Bantu languages",
   abantu: "The Ndebele, Swazi, Xhosa and Zulu word for 'people'",
 
+  // === INGESTED 2026-07-05 00:41 ===
+  this_climate: "Classified as a tropical monsoon climate ( Köppen climate classification Am )",
+  the_monthly_average_temperatures: "Usually between 25.1 and 28.8 °C (77.2 and 83.8 °F)",
+  drier_months: "January - February, and a longer drier season between June and October",
+  the_places_of_worship_in_the_city: "Predominantly Muslim mosques",
+
 };
 
 // ============================================================
