@@ -60676,6 +60676,15 @@ const FLAT_DICT = {
   the_basel_iii_requirements: { definition: "Published by the Basel Committee on Banking Supervision in 2010, [ 1 ] and began to be implemented in major countries in 2012", what_it_does: "", examples: "goodwill and other intangible assets" },
   leverage_ratio: "Calculated by dividing Tier 1 capital by the bank's leverage exposure",
 
+  // === INGESTED 2026-07-05 03:44 ===
+  the_minority_groups: "Generally found in the western and border regions of China",
+  the_primary_branches_of_chinese: { definition: "Mandarin, Wu , Yue (Cantonese), Min , Gan , Hakka , and Xiang ; the latter six are mainly spoken in Southern China", what_it_does: "", examples: "Christianity and Islam , [ 279 ] [ 280 ] as well as various new religious movements" },
+  as_early_pagodas: "Often made from brick or stone, many of China's oldest surviving buildings are pagodas",
+  although_chinese_cuisine: { definition: "Highly diverse and regional, pork, chicken, fish, and duck tend to be the most common meats", what_it_does: "", examples: "tofu and soy sauce" },
+  fujian_cuisine: { definition: "Sometimes listed in lieu of Yang", what_it_does: "", examples: "monks, criminals, and foreigners deviated from the norm" },
+  the_poetry_of_the_tang_era: { definition: "Particularly prized by later dynasties", what_it_does: "", examples: "the Four Classic Novels of the Ming and Qing periods" },
+  foreign_chineselanguage_news_outlets: { definition: "Blocked, while English-language outlets are occasionally available but often censored", what_it_does: "", examples: "martial arts and dragon boat racing have been practiced in China for over a millennium" },
+
 };
 
 // ============================================================
