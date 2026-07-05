@@ -61075,6 +61075,14 @@ const FLAT_DICT = {
   one_of_their_preferred_foods: { definition: "The fruit of the durian tree, which tastes somewhat like sweet custard", what_it_does: "", examples: "the tambaqui" },
   since_frugivore_seed_dispersal: "So important in the tropics, many researchers have studied the loss of frugivores and related it to changed plant population dynamics",
 
+  // === INGESTED 2026-07-05 05:23 ===
+  catastalsis: "An obsolete term for the peristaltic wave",
+  after_food: "Chewed into a bolus, it is swallowed and moved through the esophagus",
+  the_muscularis_layer_of_the_stomach: "Thickest and maximum peristalsis occurs here",
+  its_primary_purpose: "To mix the chyme in the intestine rather than to move it forward in the intestine",
+  minimum_peristalsis: { definition: "Found in the rectum part of the large intestine as a result of the thinnest muscularis layer", what_it_does: "", examples: "caterpillars and millipedes , also move by peristalsis" },
+  a_peristaltic_pump: "A positive-displacement pump in which a motor pinches advancing portions of a flexible tube to propel a fluid within the tube",
+
 };
 
 // ============================================================
