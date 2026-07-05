@@ -61004,6 +61004,12 @@ const FLAT_DICT = {
   the_pontifical_swiss_guard: "Founded by Pope Julius II in January 1506 as the personal bodyguards of the Pope and continues to fulfill that function",
   the_reversed_arrangement_of_the_keys: "Chosen for the arms of the newly founded Vatican City State in 1929",
 
+  // === INGESTED 2026-07-05 05:08 ===
+  food_energy: { definition: "Chemical energy that animals derive from food to sustain their metabolism and muscular activity", what_it_does: "", examples: "organic acids , polyols , and ethanol (drinking alcohol) may contribute to the energy input" },
+  carbohydrates_that: { definition: "Not easily absorbed, such as fibre, or lactose in lactose-intolerant individuals , contribute less food energy", what_it_does: "", examples: "sugar alcohols ) and organic acids contribute 10 kJ/g (2.4 kcal/g) and 13 kJ/g (3" },
+  the_latter_two_losses: { definition: "Dependent on the type of exercise and the type of muscle fibers being used (fast-twitch or slow-twitch)", what_it_does: "", examples: "walking) to 'burn off' 17,000 kJ (4,000 kcal) [ 17 ] more than a body would otherwise consume" },
+  the_minimum_food_energy_intake: { definition: "Also higher in cold environments", what_it_does: "", examples: "in 'calories per serving' or 'kcal per 100 g', or 'kJ per package'" },
+
 };
 
 // ============================================================
