@@ -62565,6 +62565,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 19:46 ===
   considerations_such_as_how_tenant_data: "Partitioned, how per-tenant schema extensions are stored, and how shared resources are isolated must be taken into account",
 
+  // === INGESTED 2026-07-05 19:48 ===
+  laws_surrounding_information_privacy: "Important for protecting information globally",
+  this_includes_laws_that_ensure_data: "Collected with consent and is used with transparency",
+  collectively: "Still working on creating a comprehensive program that can protect data within the many sectors of jobs and companies operating out of the U.S",
+  data_persistence: "Data existing for an extended period of time online that can also be without consent",
+  location_data: { definition: "Among the most sensitive data currently being collected", what_it_does: "", examples: "they might be concerned that it might affect their insurance coverage or employment" },
+  the_australian_law: "The Privacy Act 1988 Australia as well as state-based health records legislation",
+  some_exceptions_to_this_rule: "Provided, for instance when the controller themself can guarantee that the recipient will comply with the data protection rules",
+  the_safe_harbor: { definition: "Approved as providing adequate protection for personal data, for the purposes of Article 25(6), by the European Commission on 26 July 2000", what_it_does: "", examples: "by converting data into a non-readable format, encryption prevents unauthorized access" },
+
 };
 
 // ============================================================
