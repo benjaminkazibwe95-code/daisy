@@ -60722,6 +60722,25 @@ const FLAT_DICT = {
   when_a_transaction: "Fully ramped, its initial portfolio of credits has been selected by the asset manager",
   other_times_it: { definition: "Used for a particular type of that security—one backed by consumer loans", what_it_does: "", examples: "credit card receivables, auto loans, manufactured-housing contracts and home-equity loans" },
 
+  // === INGESTED 2026-07-05 03:57 ===
+  real_estate_investing: "Purchasing, owning, managing, renting, or selling real estate to generate profit or long-term wealth",
+  the_primary_goal_of_real_estate_investing: "To increase value or generate a profit through strategic decision-making and market analysis",
+  financing: { definition: "Fundamental to real estate investing, as investors rely on a combination of debt and equity to fund transactions", what_it_does: "", examples: "market conditions, property management , financial structuring, and risk assessment" },
+  once_a_deal: { definition: "Found, the underwriting and due diligence phase involves analyzing financials, market trends, legal risks, and site inspections", what_it_does: "", examples: "leasing , renovations , or repositioning, are implemented to optimize value" },
+  individual_properties: "Unique to themselves and not directly interchangeable, which makes evaluating investments less certain",
+  information_asymmetry: "Commonplace in real estate markets, where one party may have more accurate information regarding the actual value of the property",
+  rent: "One of the main sources of revenue in commercial real estate investment",
+  equity_buildup: "The increase in the investor's equity ratio as the portion of debt service payments devoted to principal accrue over time",
+  capital_appreciation: "The increase in the market value of the asset over time, realized as a cash flow when the property is sold",
+  real_estate_assets: { definition: "Typically expensive, and investors will generally not pay the entire amount of the purchase price of a property in cash", what_it_does: "", examples: "a mortgage loan collateralized by the property itself" },
+  hard_money_loans: "Typically at a much lower loan-to-value ratio than conventional mortgages",
+  fundrise: "The first company to crowdfund a real estate investment in the United States",
+  it_has_the_lowest_risk_since_it: "Collateralized by the property and has first priority in repayment or a first lien",
+  at_the_top_of_the_stack: "Common equity , which carries the highest risk but also the greatest potential returns, typically yielding 15% or more in opportunistic deals",
+  common_equity_holders: "Paid last, after all debt and preferred equity obligations are met, meaning their returns depend entirely on the success of the project",
+  once_the_formal_foreclosure_processes: "Underway, these properties can be purchased at a public sale, usually called a foreclosure auction or sheriff's sale",
+  brrr_is_a_longterm_investment_strategy_that: "Renting out a property and letting it appreciate in value before selling it",
+
 };
 
 // ============================================================
