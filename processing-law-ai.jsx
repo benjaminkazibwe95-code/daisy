@@ -61346,6 +61346,14 @@ const FLAT_DICT = {
   microscopically_the_arrow_root_starch: { definition: "Oval in shape and with hilum at the proximal end", what_it_does: "", examples: "Arnott's milk arrowroot biscuits" },
   in_the_victorian_era_it: { definition: "Used, boiled with a little flavouring added, as an easily digestible food for children and people with dietary restrictions", what_it_does: "", examples: "East Asian sweet and sour sauce" },
 
+  // === INGESTED 2026-07-05 06:21 ===
+  cooking_oil: { definition: "Typically a liquid at room temperature, although some oils that contain saturated fat, such as coconut oil , palm oil and palm kernel oil , are solid", what_it_does: "", examples: "herbs , chilies or garlic" },
+  cooking_spray: { definition: "An aerosol of cooking oil", what_it_does: "", examples: "coconut , palm oil and palm kernel oil" },
+  the_toxic_risk: { definition: "Linked to oxidation of fatty acids and fatty acids with higher levels of unsaturation are oxidized more rapidly during heating in air", what_it_does: "", examples: "soybean oil , keep about six months" },
+  expeller_pressing: "A chemical-free process that collects oils from a source using a mechanical press with minimal heat",
+  proper_disposal_of_used_cooking_oil: "An important waste-management concern",
+  the_proper_way_to_dispose_of_oil: "To put it in a sealed non-recyclable container and discard it with regular garbage",
+
 };
 
 // ============================================================
