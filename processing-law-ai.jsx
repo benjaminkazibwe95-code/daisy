@@ -61951,6 +61951,24 @@ const FLAT_DICT = {
   oil_well_acidizing: "A common process in the North Sea oil production industry",
   airborne_acid: "An irritant to the eyes, and may require the use of protective goggles or a facemask",
 
+  // === INGESTED 2026-07-05 16:30 ===
+  the_concept_of_chemical_equilibrium: "Developed in 1803, after Berthollet found that some chemical reactions are reversible",
+  conversely_the_equilibrium_position: "Said to be 'far to the left' if hardly any product is formed from the reactants",
+  if_a_dynamic_equilibrium: "Disturbed by changing the conditions, the position of equilibrium moves to partially reverse the change",
+  when_the_reactants: "Dissolved in a medium of high ionic strength the quotient of activity coefficients may be taken to be constant",
+  these_constants: "Easier to measure and encountered in high-school chemistry courses",
+  the_constant_volume_case: "Important in geochemistry and atmospheric chemistry where pressure variations are significant",
+  the_chemical_potential_of_a_reagent_a: { definition: "A function of the activity , {A} of that reagent", what_it_does: "", examples: "Davies equation [ 11 ] Specific ion interaction theory or Pitzer equations [ 12 ] may be used" },
+  the_concentration_quotient: "A simple multiple of the equilibrium constant",
+  the_barrier_can_be_overcome_when_a_catalyst: "Also present in the mixture as in the contact process , but the catalyst does not affect the equilibrium concentrations",
+  note_that_these_constants: "Dissociation constants because the products on the right hand side of the equilibrium expression are dissociation products",
+  when_the_only_equilibrium: { definition: "That of the formation of a 1:1 adduct as the composition of a mixture, there are many ways that the composition of a mixture can be calculated", what_it_does: "", examples: "see ICE table for a traditional method of calculating the pH of a solution of a weak acid" },
+  note_that_it: "Customary to omit the ionic charges when writing and using these equations",
+  when_the_equilibrium_constants: "Known and the total concentrations are specified there are two equations in two unknown 'free concentrations' [A] and [H]",
+  each_concentration: "Shown as a percentage of the total aluminium",
+  if_ions: "Involved, an additional row is added to the a ij matrix specifying the respective charge on each molecule which will sum to zero",
+  the_most_common_method_of_solving_it: "Using the method of Lagrange multipliers [ 24 ] [ 20 ] (although other methods may be used)",
+
 };
 
 // ============================================================
