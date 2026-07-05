@@ -62415,6 +62415,27 @@ const FLAT_DICT = {
   in_some_fields_both: "Used, with preliminary reports, working papers, or preprints followed by a formal article",
   articles: "Usually prepared at the end of a project, or at the end of components of a particularly large one",
 
+  // === INGESTED 2026-07-05 19:05 ===
+  typically_a_full_backup_of_all_files: { definition: "Made once or at infrequent intervals, serving as the reference point for an incremental repository", what_it_does: "", examples: "every 15 minutes, one hour, or 24 hours" },
+  a_common_implementation: "An appended '.bak' extension to the file name",
+  after_the_full_backup: "Performed, the system periodically synchronizes the full backup with the live copy, while storing the data necessary to reconstruct older versions",
+  regardless_of_the_repository_model_that: "Used, the data has to be copied onto an archive file data storage medium",
+  the_medium_used: "Also referred to as the type of backup destination",
+  magnetic_tape: "For a long time the most commonly used medium for bulk data storage, backup, archiving, and interchange",
+  hard_disks: { definition: "Usually easy to use, widely available, and can be accessed quickly", what_it_does: "", examples: "by user error and by malware such as ransomware" },
+  because_speed_and_availability: "Limited by a user's online connection, [ 24 ] users with large amounts of data may need to use seed loading and bulk restore",
+  these_media_management_methods: "Not mutually exclusive and are frequently combined to meet the user's needs",
+  using_online_disks_for_staging_data_before_it: "Sent to a near-line tape library is a common example",
+  nearline_storage: "Typically less accessible and less expensive than online storage, but still useful for backup data storage",
+  a_mechanical_device: "Usually used to move media units from storage into a drive where the data can be read or written",
+  a_backup_site_or_disaster_recovery_center: "Used to store data that can enable computer systems and networks to be restored and properly configured in the event of a disaster",
+  most_data_on_modern_computer_systems: "Stored in discrete units, known as files",
+  these_files: "Organized into filesystems",
+  one_way_to_back_up_live_data: "To temporarily quiesce them (e.g., close all files), take a 'snapshot', and then resume live operations",
+  snapshotting_a_file_while_it: "Being changed results in a corrupted file that is unusable",
+  sometimes_backups: "Copied to a staging disk before being copied to tape",
+  it_can_be_useful_if_there: "A problem matching the speed of the final destination device with the source device, as is frequently faced in network-based backup systems",
+
 };
 
 // ============================================================
