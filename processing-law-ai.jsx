@@ -60830,6 +60830,21 @@ const FLAT_DICT = {
   this_funding: { definition: "Expected to continue under the new Department for Business and Trade", what_it_does: "", examples: "John Maynard Keynes , Isaiah Berlin , C" },
   funds_available_to_the_academy: { definition: "Invested in the following main areas: research career development; a portfolio of research grant opportunities, and international engagement", what_it_does: "", examples: "Africa, Latin America and South and South East Asia" },
 
+  // === INGESTED 2026-07-05 04:36 ===
+  the_balanced_growth_theory: "An economic theory pioneered by the economist Ragnar Nurkse (1907–1959)",
+  nurkse: "Of the opinion that Say's law of markets operates in underdeveloped countries",
+  nurkse_and_paul_rosensteinrodan: "The pioneers of balanced growth theory and much of how it is understood today dates back to their work",
+  young_to_assert_that_inducement_to_invest: "Limited by the size of the market",
+  a_low_purchasing_power: "That domestic demand for commodities is low",
+  in_this_sense_the_small_domestic_market: "An obstacle to development generally.' [ 3 ] According to Nurkse, expanding the size of the market is crucial to increasing the inducement to invest",
+  this_may_occur_if_a_large_part_of_the_country: "Uninhabitable, or if the country suffers from low productivity levels and thus has a low National Income",
+  the_logic_was_that_once_customs_duties: "Removed, transport costs will fall",
+  the_positive_outcome_of_this: "That farmers earn more income and have a higher purchasing power (real income)",
+  the_point_nurkse_was_trying_to_make: "That USA was rich in resource endowment as well as labour force",
+  this_situation_of_outward_led_growth: { definition: "Therefore unique and not replicable by underdeveloped countries", what_it_does: "", examples: "the foreign investors may carelessly misuse the resources of the underdeveloped country" },
+  another_reason_exports_cannot_be_promoted: { definition: "Because in all likelihood, an underdeveloped country may only be skilled enough to promote the export of primary goods, say agricultural goods", what_it_does: "", examples: "skilled labour and technology" },
+  the_various_economic_agents: { definition: "Temporarily unemployed and once the inducement to invest starts operating, the slump will be overcome", what_it_does: "inequality in the country", examples: "it will naturally lead to a rise in the demand for petrol" },
+
 };
 
 // ============================================================
