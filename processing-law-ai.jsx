@@ -60158,6 +60158,10 @@ const FLAT_DICT = {
   a_moderate_digital_detox: "Limiting device and social media usage",
   a_complete_detox: { definition: "An absolute break from digital devices for a set period", what_it_does: "", examples: "reducing eye strain , dry eyes , and blurry vision" },
 
+  // === INGESTED 2026-07-05 01:43 ===
+  the_oneplus_one: "Introduced on 23 April 2014 as OnePlus' first smartphone",
+  both_lines: { definition: "Equipped with an Android -based operating system known as OxygenOS or ColorOS", what_it_does: "", examples: "the OnePlus Pad, OnePlus Pad Go, OnePlus Pad 2, and OnePlus Pad 3" },
+
 };
 
 // ============================================================
