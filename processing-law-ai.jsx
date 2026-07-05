@@ -60903,6 +60903,16 @@ const FLAT_DICT = {
   these_bilingual_schools: "Influenced by the US educational system, and termed 'high schools' rather than 'grammar schools'",
   within_these_schools_there: { definition: "Academically top classes, the very competitive Scholars' class or 'A' class", what_it_does: "", examples: "'independent' or 'autonomous'" },
 
+  // === INGESTED 2026-07-05 04:48 ===
+  although_no_specific_school_nor_city: "Named, the text most likely refers to Augustine's school in Canterbury due to the city's significance as the kingdom's capital",
+  once_the_matter: { definition: "Seen in this light, the controversy disappears", what_it_does: "", examples: "Latin, Greek, music, astronomy and arithmetic" },
+  the_purples: "Headed by the Captain of School and a Vice-Captain",
+  a_head_scholar_and_two_vicehead_scholars: { definition: "Also invited to become Purples", what_it_does: "", examples: "Eton and Sevenoaks" },
+  whilst_there: "Boarding facilities available, the majority are day pupils",
+  jks: "Now located at Milner Court in Sturry , having been originally based in the crypt of Canterbury Cathedral",
+  the_current_site: "Donated by Lady Milner following the death of Alfred Milner, 1st Viscount Milner in 1925",
+  the_buildings_on_site: "Opened by Rudyard Kipling in 1929, in his capacity as a close friend of Alfred Milner",
+
 };
 
 // ============================================================
