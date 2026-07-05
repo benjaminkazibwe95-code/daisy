@@ -60696,6 +60696,15 @@ const FLAT_DICT = {
   questar: "Popular's new imprint for science fiction",
   to_more_than_twice_what_they: "Selling for in the UK",
 
+  // === INGESTED 2026-07-05 03:53 ===
+  sales_revenue: "Income received from selling goods or services over a period of time",
+  tax_revenue: "Income that a government receives from taxpayers",
+  fundraising_revenue: { definition: "Income received by a charity from donors etc", what_it_does: "", examples: "'repair service revenue', 'rent revenue earned', “interest revenue”, or 'sales'" },
+  this_revenue_can_be_found_through: "Of sponsorships , donations or outsourcing the association's digital media outlets",
+  business_revenue: { definition: "Money income from activities that are ordinary for a particular corporation, company, partnership, or sole-proprietorship", what_it_does: "", examples: "manufacturing or grocery , most revenue is from the sale of goods" },
+  most_businesses_also_have_revenue_that: { definition: "Incidental to the business's primary activities, such as interest earned on deposits in a demand account", what_it_does: "", examples: "IFRS 9.5.7" },
+  net_income: "The result of this equation, but revenue typically enjoys equal attention during a standard earnings call",
+
 };
 
 // ============================================================
