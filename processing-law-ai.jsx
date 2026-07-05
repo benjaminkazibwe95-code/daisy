@@ -61558,6 +61558,11 @@ const FLAT_DICT = {
   the_contentiousness_around_adhd: "Simply rooted in ignorance",
   he_also_believes_coffee: { definition: "More toxic than Adderall", what_it_does: "", examples: "Adderall and Concerta" },
 
+  // === INGESTED 2026-07-05 06:51 ===
+  timetracking_software: "Computer programs that allows users to record time spent on tasks or projects",
+  timesheet_software: "Software used to maintain timesheets",
+  it_was_popularized_when_computers: "First introduced to the office environment, with the goal of automating heavy paperwork for big organizations",
+
 };
 
 // ============================================================
