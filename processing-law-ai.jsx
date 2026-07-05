@@ -62039,6 +62039,14 @@ const FLAT_DICT = {
   the_hard_state: "Believed to originate in a corona surrounding the inner part of the more opaque accretion disk",
   when_a_new_corona: "Generated, Cygnus X-1 transitions back to the hard state",
 
+  // === INGESTED 2026-07-05 17:04 ===
+  on_the_sacred_disease: "A work of the Hippocratic Corpus , written about 400 B.C",
+  the_treatise: "Thought to contain one of the first recorded observations of epilepsy in humans",
+  the_brain_of_a_human: "Similar to other animals in that it is double and divided by a thin membrane through the middle",
+  once_the_disease: "Stuck within the head, the patient loses his speech and chokes, causing foam to fall from his or her mouth",
+  many_of_those_affected_seem_to_know_when_they: "About to have another episode",
+  hippocrates_mentions_that_this: "Due to their shame around the disease, rather than fear of the divine as was the common opinion",
+
 };
 
 // ============================================================
