@@ -61033,6 +61033,10 @@ const FLAT_DICT = {
   refined_sugar: "A luxury before the 18th century",
   the_glucose_component: { definition: "Transported into the blood where it serves immediate metabolic demands, or is converted and reserved in the liver as glycogen", what_it_does: "", examples: "one tablespoon of sucrose is considered acceptable by the CDC for managing such an episode" },
 
+  // === INGESTED 2026-07-05 05:16 ===
+  global_forest_watch: "Most frequently used by nongovernmental organizations (NGOs), academic researchers, government employees, and the private sector",
+  such_rates: { definition: "Affected by three forest growth components, which are difficult to measure: ingrowth, upgrowth and mortality", what_it_does: "", examples: "wetlands, forests, trees, crops and urban areas" },
+
 };
 
 // ============================================================
