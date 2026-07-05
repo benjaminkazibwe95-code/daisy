@@ -62599,6 +62599,12 @@ const FLAT_DICT = {
   modern_medical_devices_and_prostheses: { definition: "Often made of more than one material so it might not always be sufficient to talk about the biocompatibility of a specific material", what_it_does: "", examples: "implants or drug delivery devices" },
   this_is_a_drawback_since_many_medical_devices: "Made of more than one material",
 
+  // === INGESTED 2026-07-05 20:03 ===
+  nanomechanics: { definition: "A branch of nanoscience studying fundamental mechanical (elastic, thermal and kinetic) properties of physical systems at the nanometer scale", what_it_does: "", examples: "elastic, thermal and kinetic material properties" },
+  aspects_of_configuration_entropy: "Also of great interest in the context self-organization and cooperative behavior of open nanosystems",
+  numerical_methods_of_solution_of_these_models: "Called molecular dynamics (MD), and sometimes molecular mechanics (especially, in relation to statically equilibrated (still) models)",
+  development_of_these_complex_methods: { definition: "A separate subject of applied mechanics research", what_it_does: "", examples: "nanoelectronics , advanced energy systems, and nanobiotechnology" },
+
 };
 
 // ============================================================
