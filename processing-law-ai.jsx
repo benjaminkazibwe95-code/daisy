@@ -62138,6 +62138,9 @@ const FLAT_DICT = {
   winged_aphids: { definition: "Weak fliers, lose their wings after a few days and only fly by day", what_it_does: "", examples: "carbamates , organophosphates , and pyrethroids" },
   chinese_galls: "Also an important source of tannins",
 
+  // === INGESTED 2026-07-05 17:34 ===
+  the_closest_known_relative: { definition: "The BANAL-52 bat coronavirus", what_it_does: "", examples: "livestock and companion animals, and avian species" },
+
 };
 
 // ============================================================
