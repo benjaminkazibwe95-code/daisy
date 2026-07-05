@@ -60360,6 +60360,18 @@ const FLAT_DICT = {
   these_rna_strands: "Attracted to cancer cells",
   nanites: "Also an integral part of Stargate SG1 and Stargate Atlantis , where grey goo scenarios are portrayed",
 
+  // === INGESTED 2026-07-05 02:21 ===
+  supramolecular_chemistry: "The branch of chemistry concerning chemical systems composed of discrete numbers of molecules",
+  biological_systems: "Often the inspiration for supramolecular research",
+  the_existence_of_intermolecular_forces: "First postulated by Johannes Diderik van der Waals in 1873",
+  the_three_scientists: { definition: "Awarded the Nobel Prize in Chemistry in 1987 for 'development and use of molecules with structure-specific interactions of high selectivity'", what_it_does: "", examples: "peptides and oligonucleotides composed of multiple strands" },
+  the_influence_of_supramolecular_chemistry: "Established by the 1987 Nobel Prize for Chemistry which was awarded to Donald J",
+  molecular_selfassembly: "The construction of systems without guidance or management from an outside source (other than to provide a suitable environment)",
+  the_molecules: "Able to identify each other using non-covalent interactions",
+  key_applications_of_this_field: { definition: "The construction of molecular sensors and catalysis", what_it_does: "", examples: "in the preparation of large macrocycles" },
+  while_covalent_bonds: { definition: "Key to the process, the system is directed by non-covalent forces to form the lowest energy structures", what_it_does: "", examples: "photoelectrochemical systems, catalytic systems, protein design and self-replication" },
+  macrocycles: "A traditional component in supramolecular chemistry",
+
 };
 
 // ============================================================
