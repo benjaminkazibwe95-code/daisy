@@ -62029,6 +62029,16 @@ const FLAT_DICT = {
   because_black_hole_formation: "Not a stationary event, proving that the GSL holds is difficult",
   proving_it: "Generally valid would require quantum-statistical mechanics , because the GSL is both a quantum and statistical law",
 
+  // === INGESTED 2026-07-05 17:00 ===
+  the_compact_object: { definition: "Now estimated to have a mass about 21", what_it_does: "", examples: "Cyg XR-1 (later Cyg X-1) in the constellation Cygnus" },
+  the_celestial_coordinates_of_this_source: "Estimated as right ascension 19 h 53 m and declination 34.6°",
+  this_interval: { definition: "Consistent with turbulence in a disk of accreted matter surrounding a black hole—the accretion disk", what_it_does: "", examples: "HDE 226868/Cygnus X-1 may lead to further insights into the mechanics of active galaxies" },
+  the_orbital_eccentricity: "Thought to be only 0.018 ± 0.002 , meaning a nearly circular orbit",
+  the_boundary_of_this_region: { definition: "Called the event horizon and has an effective radius called the Schwarzschild radius , which is about 44 km for Cygnus X-1", what_it_does: "", examples: "matter and photons ) that passes through this boundary is unable to escape" },
+  this_disk: { definition: "Intensely heated by friction between ionized gas in faster-moving inner orbits and that in slower outer ones", what_it_does: "", examples: "the X-ray binary V 0332+53 was thought to be a possible black hole until pulsations were found" },
+  the_hard_state: "Believed to originate in a corona surrounding the inner part of the more opaque accretion disk",
+  when_a_new_corona: "Generated, Cygnus X-1 transitions back to the hard state",
+
 };
 
 // ============================================================
