@@ -60002,6 +60002,14 @@ const FLAT_DICT = {
   a_new_amtrak_station: "Built in 2011 in a former tobacco warehouse",
   national_bus_service: "Provided by Greyhound and Megabus at the Durham Station Transportation Center since its opening in 2009",
 
+  // === INGESTED 2026-07-05 00:53 ===
+  claims_of_persian_shirazi_ancestry: { definition: "Used to distance locals from Arab newcomers", what_it_does: "", examples: "fishing and sailing, and developed a healthy regional trade network by the 8th century C.E" },
+  their_traditional_bantu_lineage_names: "Gradually abandoned and substituted with Arabic family names (e.g",
+  trade_links_with_the_persian_gulf: { definition: "Especially prominent from the 10th to 14th centuries, which prompted the development of local mythologies of Persian or Shirazi origin", what_it_does: "", examples: "Oman and Yemen identified themselves as a Shirazi" },
+  shingazidja: { definition: "Spoken on Ngazidja, and has around 312,000 total speakers", what_it_does: "", examples: "that of the fourteenth century explorer Ibn Battuta" },
+  the_slave_girls: "Concubines, who bore them children",
+  the_male_offspring: { definition: "Considered Muslims, but the female offspring inherited their slavery and their non-Muslim heritage", what_it_does: "", examples: "the Swahili language" },
+
 };
 
 // ============================================================
