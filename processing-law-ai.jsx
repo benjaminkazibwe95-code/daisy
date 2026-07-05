@@ -62729,6 +62729,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 20:44 ===
   small_caps: "Thus generally categorized as riskier or more aggressive investments than large caps, which are seen as less risky, more conservative investments",
 
+  // === INGESTED 2026-07-05 20:46 ===
+  behavioural_finance: "The study of the influence of psychology on the behaviour of investors or financial analysts",
+  the_central_issue_in_behavioural_finance: "Explaining why market participants make irrational systematic errors contrary to assumption of rational market participants",
+  the_accepted_theories_of_finance: "Referred to as traditional finance",
+  the_foundation_of_traditional_finance: "Associated with the modern portfolio theory (MPT) and the efficient-market hypothesis (EMH)",
+  modern_portfolio_theory: "Based on a stock or portfolio's expected return, standard deviation, and its correlation with the other assets held within the portfolio",
+  an_efficient_portfolio: "A group of assets that has the maximum expected return given the amount of risk",
+  the_foundation_of_behavioural_finance: { definition: "An area based on an interdisciplinary approach including scholars from the social sciences and business schools", what_it_does: "", examples: "management, marketing, finance, technology and accounting" },
+  any_deviation_from_this_true_price: { definition: "Quickly exploited by informed traders who attempt to optimise their returns and it restores the true equilibrium price", what_it_does: "", examples: "underreaction, overreaction, etc.) that occur among professional investors as well as novices" },
+  random_world_events: { definition: "Always making changes in valuations that are difficult to extract from any deterministic forces that may be present", what_it_does: "", examples: "Poterba and Summers demonstrate a tiny trend effect in stock prices" },
+  funds_exhibiting_a_large_deviation_from_nav: "Likely to behave in the opposite direction of the subsequent day",
+  even_more_interesting: { definition: "The statistical observation that a large deviation in the opposite direction preceded such large deviations", what_it_does: "", examples: "suppose many traders are anticipating positive news and buy the stock" },
+  if_the_positive_news_does_not_materialise_they: "Inclined to sell in large numbers, thereby suppressing the price significantly below the previous levels",
+  he_concluded_that_these_versions_of_afdes: "Structurally unstable systems mathematically by using an extension of the Peixoto Theorem for two-dimensional manifolds to a four-dimensional manifold",
+
 };
 
 // ============================================================
