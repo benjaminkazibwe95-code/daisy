@@ -61648,6 +61648,9 @@ const FLAT_DICT = {
   the_effort_heuristic: "Almost identical to fluency",
   one_may_conclude_that_a_glass_vase: "More valuable than a drawing, merely because it may take longer for the vase",
 
+  // === INGESTED 2026-07-05 07:27 ===
+  an_action_plan: "A detailed plan outlining actions needed to reach one or more goals",
+
 };
 
 // ============================================================
