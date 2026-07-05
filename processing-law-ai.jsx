@@ -61619,6 +61619,35 @@ const FLAT_DICT = {
   people_who_score_high_on_neuroticism: { definition: "Likely to score low on self-report EI measures", what_it_does: "", examples: "or excluding important controls variables can fundamentally change results" },
   the_overlap: { definition: "So large they concluded that 'The findings suggest that the general factor of personality is very similar, perhaps even synonymous, to trait EI", what_it_does: "", examples: "anxious attachment and avoidant attachment" },
 
+  // === INGESTED 2026-07-05 07:25 ===
+  while_some_argue_that_pure_laziness: { definition: "Behind the heuristics process, this could just be a simplified explanation for why people don't act the way we expected them to", what_it_does: "", examples: "the less-is-more effect" },
+  the_deviation: { definition: "Then explained by a heuristic", what_it_does: "", examples: "a $3000 price limit" },
+  if_the_second_elisa: { definition: "Negative, then the procedure stops and the client is informed of having 'no HIV", what_it_does: "", examples: "the costs of the tests" },
+  fastandfrugal_trees: "Descriptive or prescriptive models of decision making under uncertainty",
+  heuristics_that_underlie_judgment: { definition: "Called 'judgment heuristics'", what_it_does: "", examples: "people overestimate their likelihood of dying in a dramatic event such as a tornado or terrorism" },
+  this_heuristic: "One of the reasons why people are more easily swayed by a single, vivid story than by a large body of statistical evidence",
+  when_people_are_asked_whether_there: { definition: "More English words with K in the first position or with K in the third position, they use the same process", what_it_does: "", examples: "kangaroo , kitchen , or kept" },
+  when_the_men_in_the_list: "More famous, a great majority of subjects incorrectly thought there were more of them, and vice versa for women",
+  their_interpretation: { definition: "Biased towards the emotion they had been primed with: the more priming, the greater the effect", what_it_does: "", examples: "when deciding whether or not a person is a criminal" },
+  another_group_had_to_rate_how_likely_it: "That Tom specialised in each area",
+  if_these_ratings_of_likelihood: "Governed by probability, then they should resemble the base rates , i.e",
+  the_explanation_in_terms_of_the_heuristic: "That people consider only how representative the figure of 60% is of the previously given average of 50%",
+  subjects_in_one_study: { definition: "Asked whether 'Paul' or 'Susan' was more likely to be assertive, given no other information than their first names", what_it_does: "", examples: "HHHTTT as less likely than a less patterned sequence such as HTHTTH" },
+  they_had_to_say_whether_a_given_quantity: "Larger or smaller than that number",
+  an_alternative_theory: "That people form their estimates on evidence which is selectively brought to mind by the anchor",
+  a_reliable_finding: "That people anchor their upper and lower bounds too close to their best estimate",
+  one_muchreplicated_finding: "That when people are 98% certain that a number is in a particular range, they are wrong about thirty to forty percent of the time",
+  a_common_finding_from_studies_of_these_tasks: { definition: "That people anchor on the small component probabilities and so underestimate the total", what_it_does: "", examples: "an accumulator bet in horse racing" },
+  different_agents: "Shown different listing prices, and these affected their valuations",
+  although_the_facts_of_the_case: "The same each time, jurors given the higher range decided on an award that was about three times higher",
+  this_happened_even_though_the_subjects: { definition: "Explicitly warned not to treat the requests as evidence", what_it_does: "", examples: "fear, pleasure or surprise" },
+  kahneman_suggests_that_the_attribute_of_fear: "Being substituted for a calculation of the total risks of travel",
+  it_is_repeatedly_found_that_attractive_faces: "More likely to be mistakenly labeled as familiar",
+  the_heuristic_attribute_in_this_case: { definition: "A 'warm glow'; a positive feeling towards someone that might either be due to their being familiar or being attractive", what_it_does: "", examples: "disgust , rather than by reasoned principles" },
+  a_heuristic: "When we make a quick short judgement into our decision making",
+  the_effort_heuristic: "Almost identical to fluency",
+  one_may_conclude_that_a_glass_vase: "More valuable than a drawing, merely because it may take longer for the vase",
+
 };
 
 // ============================================================
