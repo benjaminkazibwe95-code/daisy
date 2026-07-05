@@ -60162,6 +60162,31 @@ const FLAT_DICT = {
   the_oneplus_one: "Introduced on 23 April 2014 as OnePlus' first smartphone",
   both_lines: { definition: "Equipped with an Android -based operating system known as OxygenOS or ColorOS", what_it_does: "", examples: "the OnePlus Pad, OnePlus Pad Go, OnePlus Pad 2, and OnePlus Pad 3" },
 
+  // === INGESTED 2026-07-05 01:45 ===
+  the_cmos_process: "Presented by Fairchild Semiconductor 's Frank Wanlass and Chih-Tang Sah at the International Solid-State Circuits Conference in 1963",
+  two_important_characteristics_of_cmos_devices: "High noise immunity and low static power consumption",
+  the_principle_of_complementary_symmetry: { definition: "First introduced by George Sziklai in 1953 who then discussed several complementary bipolar circuits", what_it_does: "", examples: "complementary memory circuits" },
+  frank_wanlass: "Familiar with work done by Weimer at RCA",
+  vdd: "Some positive voltage connected to a power supply and Vss is ground",
+  the_nmos_transistor: "In a low resistance state, connecting Vss to Q",
+  the_power_supply_pins_for_cmos: "Called V DD and V SS , or V CC and ground (GND) depending on the manufacturer",
+  v_dd_and_v_ss: "Carryovers from conventional MOS circuits and stand for the drain and source supplies",
+  v_cc_and_ground: "Carryovers from TTL logic and that nomenclature has been retained with the introduction of the 54C/74C line of CMOS",
+  an_important_characteristic_of_a_cmos_circuit: "The duality that exists between its PMOS transistors and NMOS transistors",
+  a_cmos_circuit: { definition: "Created to allow a path always to exist from the output to either the power source or ground", what_it_does: "", examples: "those involving AND and OR gates require manipulating the paths between gates to represent the logic" },
+  shown_on_the_right: "A circuit diagram of a NAND gate in CMOS logic",
+  the_physical_layout_perspective: "A 'bird's eye view' of a stack of layers",
+  the_n_device: "Manufactured on a p-type substrate while the P device is manufactured in an n-type well (n-well)",
+  static_cmos_gates: "Very power efficient because they dissipate nearly zero power when idle",
+  small_reverse_leakage_currents: "Formed due to formation of reverse bias between diffusion regions and wells (for e.g., p-type diffusion vs",
+  in_modern_process_diode_leakage: "Very small compared to sub threshold and tunnelling currents, so these may be neglected during power calculations",
+  leakage_power: "A significant portion of the total power consumed by such designs",
+  parasitic_transistors_that: "Inherent in the CMOS structure may be turned on by input signals outside the normal operating range, e.g",
+  clamp_diodes: { definition: "Included in CMOS circuits to deal with these signals", what_it_does: "", examples: "there are CMOS operational amplifier ICs available in the market" },
+  cmos_technology: "Also widely used for RF circuits all the way to microwave frequencies, in mixed-signal (analog+digital) applications",
+  rf_cmos: "Developed by Asad Abidi while working at UCLA in the late 1980s",
+  this_changed_the_way_in_which_rf_circuits: { definition: "Designed, leading to the replacement of discrete bipolar transistors with CMOS integrated circuits in radio transceivers", what_it_does: "", examples: "3G and 4G ), terrestrial broadcast , and automotive radar applications, among other uses" },
+
 };
 
 // ============================================================
