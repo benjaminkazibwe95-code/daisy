@@ -62451,6 +62451,17 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 19:12 ===
   infinix_mobile: "Available in Asia and approximately 30 countries in the Middle East and Africa",
 
+  // === INGESTED 2026-07-05 19:14 ===
+  his_objective: "To build Samsung design capabilities as a competitive asset and transform the company into a global brand-design leader",
+  one_such_sponsorship: { definition: "For the 1998 Winter Olympics held in Nagano , Japan", what_it_does: "", examples: "LG Display and HannStar" },
+  the_settop_boxes_business: "Merged with the Visual Display Business division",
+  samsung_print: { definition: "Established in 2009 as a separate entity to focus on B2B sales and released a broad range of multifunctional devices , printers, and more", what_it_does: "", examples: "Full HD 1080p resolution, 120 Hz refresh rate, [ 106 ] and 5000:1 contrast ratio" },
+  the_if_material_awards: { definition: "Given by the International Forum Design GmbH of Hannover, a design award for design materials and process technologies", what_it_does: "", examples: "TVs, dishwashers, and refrigerators" },
+  the_new_centers: { definition: "Expected to finish being made in the U.S", what_it_does: "", examples: "Samsung, a total of €648 million for operating as a cartel" },
+  sufficient_evidence: { definition: "Found and presented to Samsung and two other manufacturers during a class action lawsuit hearing", what_it_does: "", examples: "the 'home button, rounded corners and tapered edges' (US$593087) and 'On-Screen Icons' (US$604305)" },
+  a_house_in_hong_kong: { definition: "Allegedly set on fire by an S4 in July 2013, [ 276 ] followed by minor S4 burn incidents in Pakistan [ 277 ] and Russia", what_it_does: "", examples: "26 reports of burns and 55 reports of property damage" },
+  the_european_patent: { definition: "Revoked in March 2024", what_it_does: "", examples: "Sony and HTC , in several famous forums and websites in Taiwan to improve its brand image" },
+
 };
 
 // ============================================================
