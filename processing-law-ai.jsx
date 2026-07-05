@@ -60139,6 +60139,13 @@ const FLAT_DICT = {
   once_suspicious_activity: "Suspected, investigators look for indicators of attack and indicators of compromise",
   sophisticated_attacks_using_valuable_exploits: { definition: "More less likely to be detected or announced – as the perpetrator wants to protect the usefulness of the exploit", what_it_does: "", examples: "shutting down servers) can violate the company's contractual obligations" },
 
+  // === INGESTED 2026-07-05 01:32 ===
+  plain_text: { definition: "Used for much e-mail", what_it_does: "", examples: "keying an asterisk preceding letters actually intended to be upper-case" },
+  however_their_filenames: "Often marked with .txt at the end by Windows users and other operating systems often assume unidentifiable files to be text",
+  the_particular_content: { definition: "Irrelevant to whether a file is plain text", what_it_does: "", examples: "an SVG file can express drawings or even bitmapped graphics, but is still plain text" },
+  the_purpose_of_using_plain_text_today: { definition: "Primarily independence from programs that require their very own special encoding or formatting or file format", what_it_does: "", examples: "Lynx and the Line Mode Browser produce only plain text for display) and other e-text readers" },
+  plain_text_files: "Almost universal in programming; a source code file containing instructions in a programming language is almost always a plain text file",
+
 };
 
 // ============================================================
