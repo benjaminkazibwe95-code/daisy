@@ -60646,6 +60646,25 @@ const FLAT_DICT = {
   large_changes_up_or_down: "More likely than what one would calculate using a Gaussian distribution with an estimated standard deviation",
   but_the_problem: { definition: "That it does not solve the problem as it makes parametrization much harder and risk control less reliable", what_it_does: "", examples: "the self-fulfilling panic that motivates bank runs" },
 
+  // === INGESTED 2026-07-05 03:32 ===
+  it_may_also_include_finished_cans_that: { definition: "Not yet packaged into cartons or pallets", what_it_does: "", examples: "encountered in civilian infrastructure construction or oil and gas" },
+  the_primary_optimal_outcome: "To have the same number of days' (or hours', etc",
+  holding_excess_inventory: "Sub-optimal because the money spent to obtain and the cost of holding it could have been utilized better elsewhere, i.e",
+  the_motorists_do_not_know_whether_they: "Buying gasoline off the top or bottom of the tank, nor need they care",
+  inventory_proportionality: "Used to balance the inventories of the different grades of motor fuel, each stored in dedicated tanks, in proportion to the sales of each grade",
+  excess_inventory: "Not seen or valued by the consumer, so it is simply cash 'sunk into the ground'",
+  this_application_for_motor_fuel: "First developed and implemented by Petrolsoft Corporation in 1990 for Chevron Products Company",
+  a_variety_of_attempts_to_achieve_this: "Unsuccessful due to the huge overhead of the information processing of the time",
+  manufacturing_management: "More interested in inventory turnover ratio or average days to sell inventory since it tells them something about relative inventory levels",
+  while_these_accounting_measures_of_inventory: "Very useful because of their simplicity, they are also fraught with the danger of their own assumptions",
+  the_methodology_applied: "Based on historical cost of goods sold",
+  inventory_management_also: "Risk which varies depending upon a firm's position in the distribution channel",
+  some_typical_measures_of_inventory_exposure: { definition: "Width of commitment, [ definition needed ] time or duration, [ definition needed ] and depth", what_it_does: "", examples: "organizations in the U.S" },
+  so_often_they: "The litmus test by which public confidence in the institution is either won or lost",
+  lifo_accounting: "Permitted in the United States subject to section 472 of the Internal Revenue Code",
+  as_long_as_actual_and_standard_conditions: { definition: "Similar, few problems arise", what_it_does: "", examples: "a policy decision to increase inventory can harm a manufacturing manager's performance evaluation" },
+  some_shortterm_macroeconomic_fluctuations: { definition: "Attributed to the inventory cycle", what_it_does: "", examples: "used with Parmesan cheese in Italy" },
+
 };
 
 // ============================================================
