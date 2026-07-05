@@ -62706,6 +62706,12 @@ const FLAT_DICT = {
   a_downside_is_that_not_all_targets: "Amenable to modification with small-molecule drugs; bacteria and cancers are often resistant to their effects",
   secondary_metabolites: { definition: "A rich source of biologically active compounds and hence are often used as research tools and leads for drug discovery", what_it_does: "", examples: "wrenchnolol (a wrench shaped molecule)" },
 
+  // === INGESTED 2026-07-05 20:39 ===
+  the_downside_to_this_approach: "That the tomato does not complete its natural growing process, and the final flavor suffers as a result",
+  the_kanamycinresistance_gene: "Used during the tomato's creation phase to help scientists identify plants with the genes successfully added",
+  kanamycin_is_toxic_to_chloroplasts_and: "Deadly for some plants",
+  flavr_savr_tomatoes: { definition: "Still labeled as genetically altered, though it was not a requirement", what_it_does: "", examples: "the Flavr Savr" },
+
 };
 
 // ============================================================
