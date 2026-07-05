@@ -60146,6 +60146,13 @@ const FLAT_DICT = {
   the_purpose_of_using_plain_text_today: { definition: "Primarily independence from programs that require their very own special encoding or formatting or file format", what_it_does: "", examples: "Lynx and the Line Mode Browser produce only plain text for display) and other e-text readers" },
   plain_text_files: "Almost universal in programming; a source code file containing instructions in a programming language is almost always a plain text file",
 
+  // === INGESTED 2026-07-05 01:36 ===
+  successor_eweek: "Even more oriented towards 'Lab-based product evaluation,' [ 5 ] and covers a wide range tech topics",
+  pcweek: "Licensed in other countries, notably Australia, where it was first published by Australian Consolidated Press",
+  one_story_from_pcweek_that_is_well_known: "Their coverage of 'the famous 1994 flaw in the numerical processor in Intel's Pentium chip'",
+  james_maguire: "Editor in chief for a few years until 2024",
+  chris_bernard: "Currently the managing editor for the site and all of its staff and freelance writers and editors",
+
 };
 
 // ============================================================
