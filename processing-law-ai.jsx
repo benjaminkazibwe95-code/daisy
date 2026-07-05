@@ -61606,6 +61606,9 @@ const FLAT_DICT = {
   even_if_such_information: "Available, the time and effort required to analyze it would be prohibitively high for many voters",
   this_theory_did_not_consider_how_problems: "Initially discovered by decision-makers, which could have an impact on the overall decision",
 
+  // === INGESTED 2026-07-05 07:18 ===
+  baumeister: "Married to Dianne Tice, a social psychologist with whom he has collaborated",
+
 };
 
 // ============================================================
