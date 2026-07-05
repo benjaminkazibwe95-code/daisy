@@ -62470,6 +62470,19 @@ const FLAT_DICT = {
   aliases: "Also supported in macOS ; they are not supported by Unix APIs and commands, but are supported by higher-level APIs and the Finder",
   the_names_of_aliases: "No longer italicized, but the arrow badge remains",
 
+  // === INGESTED 2026-07-05 19:18 ===
+  longdistance_calls: "Once 'special' and costly",
+  completion_of_longdistance_calls: "Time-consuming and costly as each call was handled by multiple operators in multiple cities",
+  this_smart_network: "Further refined to provide toll-free number portability in the 1990s",
+  once_operator_toll_dialing: "Implemented, the operator would have received a numerical routing from the rate & route operator , such as 'Mark: Other Place",
+  longdistance_calling_from_landlines: "Opened to competition in the early 1990s and the use of long-distance revenue to subsidise local service was phased out a few years later",
+  the_use_of_prepaid_telephone_calling_cards: "A possible workaround",
+  a_longdistance_call: "Therefore known not as a 'toll call' but as a trunk call",
+  a_trunk_call: "Prefixed with '0' for national calls and '00' (used to be '010') for international calls, following the European standard",
+  an_intrastate_call: { definition: "Regulated under state law", what_it_does: "", examples: "AT&T, MCI and Sprint )" },
+  various_feature_groups: { definition: "Used where equal access is available to allow callers to select a long-distance carrier for each call", what_it_does: "", examples: "10-288 sent a call via AT&T, 10-333 via Sprint, and 10-550 via CenturyLink" },
+  callers: "Usually offered a variety of rate 'plans' depending on usage, although which plan is cheapest for a given amount of usage is often not obvious",
+
 };
 
 // ============================================================
