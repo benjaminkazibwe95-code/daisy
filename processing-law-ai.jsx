@@ -60845,6 +60845,31 @@ const FLAT_DICT = {
   another_reason_exports_cannot_be_promoted: { definition: "Because in all likelihood, an underdeveloped country may only be skilled enough to promote the export of primary goods, say agricultural goods", what_it_does: "", examples: "skilled labour and technology" },
   the_various_economic_agents: { definition: "Temporarily unemployed and once the inducement to invest starts operating, the slump will be overcome", what_it_does: "inequality in the country", examples: "it will naturally lead to a rise in the demand for petrol" },
 
+  // === INGESTED 2026-07-05 04:38 ===
+  brown_university: "A private Ivy League research university in the College Hill neighborhood of Providence, Rhode Island , United States",
+  the_three_petitioners: { definition: "Ezra Stiles , pastor of Newport's Second Congregational Church and future president of Yale University ; William Ellery Jr", what_it_does: "", examples: "the mother-church of all American Baptists : the First Baptist Church in America" },
+  a_revised_charter_written_by_stiles_and_ellery: "Adopted by the Rhode Island General Assembly on March 3, 1764, in East Greenwich",
+  governor_stephen_hopkins: { definition: "Chosen chancellor, former and future governor Samuel Ward vice chancellor, John Tillinghast treasurer, and Thomas Eyres secretary", what_it_does: "", examples: "the college president—'and the rest indifferently of any or all Denominations" },
+  the_brown_family: "Involved in various business ventures in Rhode Island, and accrued wealth both directly and indirectly from the transatlantic slave trade",
+  varnum: { definition: "Noted as the founder and commander of the 1st Rhode Island Regiment , widely regarded as the first Black battalion in U.S", what_it_does: "", examples: "the original authors of the Magaziner-Maxwell Report" },
+  central_in_the_coat_of_arms: "A white escutcheon divided into four sectors by a red cross",
+  above_the_shield: "A crest consisting of the upper half of a sun in splendor among the clouds atop a red and white torse",
+  this_section_of_campus: { definition: "Primarily Georgian and Richardsonian Romanesque in its architectural character", what_it_does: "", examples: "Wriston, Keeney, and Gregorian quadrangles" },
+  north_of_the_central_campus: "Performing and visual arts facilities, life sciences labs, and the Pembroke Campus, which houses both dormitories and academic buildings",
+  the_larger_main_gate: "Flanked by two smaller side gates",
+  the_john_hay_library: "The second oldest library on campus",
+  the_construction_of_the_building: { definition: "Funded in large part by Hay's friend, Andrew Carnegie , who contributed half of the $300,000 cost of construction", what_it_does: "", examples: "sculptures by Maya Lin and Tom Friedman" },
+  the_pembroke_campus: "Bordered by Meeting, Brown, Bowen, and Thayer Streets and sits three blocks north of Brown's central campus",
+  the_nonfiction_writing_program: "Offered in the English department",
+  screenwriting_and_cinema_narrativity_courses: "Offered in the departments of literary arts and modern culture and media",
+  carney_institute_for_brain_science: "Brown's cross-departmental neuroscience research institute",
+  the_carney_institute: "Founded by John Donoghue in 2009 as the Brown Institute for Brain Science and renamed in 2018 in recognition of a $100 million gift",
+  degrees_from_the_new_program_in_medicine: "Awarded to a graduating class of 58 students in 1975",
+  the_pronouncing_society: "Mentioned in the diary of Solomon Drowne , class of 1773, who was voted its president in 1771",
+  although_most_centers: "Identity-focused, some provide academic support as well",
+  their_principal_demand: "To increase Black student enrollment to 11% of the student populace, in an attempt to match that of the proportion in the US",
+  some_students: { definition: "Still unsatisfied with partial divestment and began a fast in Manning Chapel and the university disenrolled them", what_it_does: "", examples: "ultimate frisbee" },
+
 };
 
 // ============================================================
