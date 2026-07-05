@@ -62436,6 +62436,15 @@ const FLAT_DICT = {
   sometimes_backups: "Copied to a staging disk before being copied to tape",
   it_can_be_useful_if_there: "A problem matching the speed of the final destination device with the source device, as is frequently faced in network-based backup systems",
 
+  // === INGESTED 2026-07-05 19:07 ===
+  both_processors: { definition: "Inspired by the research in public switched telephone network (PSTN) telecommunications", what_it_does: "", examples: "the AT&T DSP16A or the Motorola 56000" },
+  the_main_improvement_in_the_third_generation: "The appearance of application-specific units and instructions in the data path, or sometimes as coprocessors",
+  the_fourth_generation: "Best characterized by the changes in the instruction set and the instruction encoding/decoding",
+  simd_extensions: "Added, and VLIW and the superscalar architecture appeared",
+  the_devices: { definition: "Easily programmable in C and aim at bridging the gap between conventional micro-controllers and FPGAs CEVA, Inc", what_it_does: "", examples: "motor control and in power supplies" },
+  embedded_generalpurpose_risc_processors: { definition: "Becoming increasingly DSP-like in functionality", what_it_does: "", examples: "the OMAP3 processors include an ARM Cortex-A8 and C6000 DSP" },
+  an_example_of_such_an_ic: "The Silicon Labs / Skyworks Si4831/35 series, which supports both FM and AM decoding within a single chip",
+
 };
 
 // ============================================================
