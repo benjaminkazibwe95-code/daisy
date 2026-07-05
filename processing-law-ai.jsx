@@ -61295,6 +61295,28 @@ const FLAT_DICT = {
   fertilizers: { definition: "Often tailored to address mineral deficiencies in particular soils", what_it_does: "", examples: "molybdenum deficiency , manganese deficiency , zinc deficiency , and so on" },
   the_reason_is_that_the_ul: "Specific to consuming more than 350 mg of magnesium all at once, in the form of a dietary supplement, as this may cause diarrhea",
 
+  // === INGESTED 2026-07-05 06:12 ===
+  an_important_feature_of_this_step: "That loose particles form layers at the crystal's surface and lodge themselves into open inconsistencies such as pores, cracks, etc",
+  such_critical_size: "Dictated by many different factors ( temperature , supersaturation , etc.)",
+  the_crystal_growth: "The subsequent size increase of the nuclei that succeed in achieving the critical cluster size",
+  crystal_growth: "A dynamic process occurring in equilibrium where solute molecules or atoms precipitate out of solution, and dissolve back into solution",
+  supersaturation: { definition: "One of the driving forces of crystallization, as the solubility of a species is an equilibrium process quantified by K sp", what_it_does: "", examples: "dissolution rate, shape (angles between facets and facet growth rates), melting point, etc" },
+  the_hot_mixture: "Then filtered to remove any insoluble impurities",
+  the_filtrate: "Allowed to slowly cool",
+  crystals_that_form: "Then filtered and washed with a solvent in which they are not soluble, but is miscible with the mother liquor",
+  such_liquids_that_crystallize_on_cooling: "The exception rather than the rule",
+  the_nature_of_the_crystallization_process: "Governed by both thermodynamic and kinetic factors, which can make it highly variable and difficult to control",
+  nucleation: "The initiation of a phase change in a small region, such as the formation of a solid crystal from a liquid solution",
+  total_nucleation: "The sum effect of two categories of nucleation – primary and secondary",
+  this_higher_purity: "Due to less retention of mother liquor which contains impurities, and a smaller loss of yield when the crystals are washed to remove the mother liquor",
+  here_cooling: "A relative term: austenite crystals in a steel form well above 1000 °C",
+  an_example_of_this_crystallization_process: "The production of Glauber's salt , a crystalline form of sodium sulfate",
+  these_simple_machines: "Used in batch processes, as in processing of pharmaceuticals and are prone to scaling",
+  the_swensonwalker_crystallizer: "A model, specifically conceived by Swenson Co",
+  the_refrigerating_fluid: "Sometimes also circulated in a jacket around the trough",
+  the_most_common_type: "The forced circulation (FC) model (see evaporator )",
+  a_quasiperfect_control_of_all_parameters: "Achieved as DTF crystallizers offer superior control over crystal size and characteristics",
+
 };
 
 // ============================================================
