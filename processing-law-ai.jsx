@@ -61010,6 +61010,9 @@ const FLAT_DICT = {
   the_latter_two_losses: { definition: "Dependent on the type of exercise and the type of muscle fibers being used (fast-twitch or slow-twitch)", what_it_does: "", examples: "walking) to 'burn off' 17,000 kJ (4,000 kcal) [ 17 ] more than a body would otherwise consume" },
   the_minimum_food_energy_intake: { definition: "Also higher in cold environments", what_it_does: "", examples: "in 'calories per serving' or 'kcal per 100 g', or 'kJ per package'" },
 
+  // === INGESTED 2026-07-05 05:10 ===
+  baked_goods: "Cooked by baking , a method of cooking food that uses prolonged dry heat",
+
 };
 
 // ============================================================
