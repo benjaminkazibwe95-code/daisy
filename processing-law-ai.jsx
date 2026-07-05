@@ -61408,6 +61408,10 @@ const FLAT_DICT = {
   the_certification: "Managed by the Certified Financial Planner Board of Standards, Inc",
   phds_in_business_or_economics: "Also exempted from the educational requirements",
 
+  // === INGESTED 2026-07-05 06:29 ===
+  the_clason_map_company: "The first to publish a road atlas of the United States and Canada , but did not survive the Great Depression",
+  he_had_two_children_who: "Also authors Clyde B",
+
 };
 
 // ============================================================
