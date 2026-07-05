@@ -61589,6 +61589,18 @@ const FLAT_DICT = {
   the_diachronic_dimension_of_identity: "How a person’s identity persists and is the same and how they understand an object in relation to their identity",
   a_picture_of_running_shoes: "Created to either make the ad look good or bad and participants were asked to choose between four different brands",
 
+  // === INGESTED 2026-07-05 07:14 ===
+  an_argument_map_or_argument_diagram: "A visual representation of the structure of an argument",
+  argument_maps: "Often designed to support deliberation of issues, ideas and arguments in wicked problems",
+  an_argument_with_this_structure: "Sometimes called a complex argument",
+  he_also_introduced_terminology_that: "Still current describing convergent , divergent and serial arguments",
+  the_toulmin_diagram: "Widely used in educational critical teaching",
+  toulmin_introduced_something_that: { definition: "Missing from Beardsley's approach", what_it_does: "", examples: "enables identifying which arguments were considered as most impactful for these particular users" },
+  informal_logic_textbooks: { definition: "Replete with philosophical examples, but it is unclear whether the approach in such textbooks transfers to non-philosophy students", what_it_does: "", examples: "a vee diagram" },
+  though_aif: { definition: "Still something of a moving target, it is settling down", what_it_does: "", examples: "their justificatory arguments, in the legal domain" },
+  argdown: "A Markdown -inspired lightweight markup language for complex argumentation",
+  the_argdown_syntax: "Accompanied by tools that facilitate coding and transform Argdown documents into argument maps",
+
 };
 
 // ============================================================
