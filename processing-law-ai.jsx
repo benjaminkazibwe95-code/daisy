@@ -60059,6 +60059,12 @@ const FLAT_DICT = {
   music_festivals: "Usually in the form of contests, and each band typically had its own fan base, much in the venue of sporting teams",
   some_musicians_and_composers: "Specifically renowned as 'mtindo makers'",
 
+  // === INGESTED 2026-07-05 01:08 ===
+  indirect_rule: "A system of governance used by imperial powers to control parts of their empires",
+  these_dependencies: "Often called ' protectorates ' or 'trucial states'",
+  indirect_rule_was_by_no: "A new idea at the time, since it had been in use in ruling empires throughout history",
+  while_every_other_aspect_of_life: "Left to local pre-conquest indigenous aristocracies who may have sided with the British during or after their conquest",
+
 };
 
 // ============================================================
