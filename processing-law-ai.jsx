@@ -61656,6 +61656,9 @@ const FLAT_DICT = {
   postmortems: "Often considered a key component of, and ongoing precursor to, effective risk management",
   the_greater_the_granularity_with_which_time: "Tracked, the more detailed an analysis can be performed during the project post-mortem",
 
+  // === INGESTED 2026-07-05 07:31 ===
+  free_press: { definition: "An American independent book publisher that later became an imprint of Simon & Schuster", what_it_does: "", examples: "path-breaking sociology books of the 1950s, 1960s and 1970s" },
+
 };
 
 // ============================================================
