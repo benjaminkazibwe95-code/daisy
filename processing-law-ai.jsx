@@ -59976,6 +59976,32 @@ const FLAT_DICT = {
   isaac_makwala: "A sprinter who specialises in the 400 metres who was the gold medalist at the Commonwealth Games in 2018",
   baboloki_thebe: "A silver medalist in the 200 metres at the 2014 Summer Youth Olympics and reached the semi-finals at the 2014 World Junior Championships in Athletics",
 
+  // === INGESTED 2026-07-05 00:51 ===
+  durham: "Part of the Raleigh–Durham–Fayetteville designated market area, the 24th-largest broadcast television market in the United States",
+  the_establishment_of_durham_county: "Ratified by the General Assembly 12 years later, in 1881",
+  duke_and_its_duke_university_health_system: "The largest employers in the city",
+  north_carolina_central_university: "A public historically black university located in southeastern Durham",
+  on_the_duke_university_campus: "The neo-Gothic Duke Chapel , the Nasher Museum of Art and the Wallace Wade Stadium",
+  lawson_claimed_that_ajusher: "Situated 14 miles (23 km) from Occaneechi Town",
+  post_office: "Established there on April 26, 1853, now recognized as the city's official birthday",
+  numerous_orders: "Mailed to John Ruffin Green's tobacco company requesting more of the Durham tobacco",
+  blackwell_mistakenly_believed: { definition: "Manufactured in Durham , England", what_it_does: "", examples: "George Washington Watts , John Sprunt Hill , and Julian S" },
+  the_early_electrification_of_durham: "Also a large incentive",
+  multiple_sitins: { definition: "Held, and Martin Luther King Jr", what_it_does: "", examples: "Morehead Hill , West End, and West Durham" },
+  these_centers: { definition: "Connected by the Durham Freeway ( NC 147 )", what_it_does: "", examples: "Measurement Incorporated and Capitol Broadcasting Company" },
+  skanska: "Responsible for managing this project",
+  the_climate_of_durham: "Humid subtropical ( Cfa according to the Köppen classification system), with hot and humid summers, cool winters, and warm to mild spring and autumn",
+  roots_label_sugar_hill_records: "Founded in Durham, by Barry Lyle Poss, [ 98 ] before it moved to Nashville in 1998",
+  lady_records: "Founded and operated in Durham until its demise in 2004",
+  the_durham_art_walk: "An annual arts festival held in May in downtown Durham with artists showing their work in the streets of Durham",
+  council_members: "Chosen in staggered elections to serve four year terms, while mayoral elections are held every two years",
+  the_new_durham_county_justice_center: "Completed in early 2013",
+  durham_technical_community_college: "A two-year public institution that grants associate degrees",
+  the_major_daily_newspaper_in_durham: "The Herald-Sun , which began publication in 1893",
+  air_travel: "Provided by Raleigh–Durham International Airport, 12 miles southeast of Durham, which enplanes about 4.5 million passengers per year",
+  a_new_amtrak_station: "Built in 2011 in a former tobacco warehouse",
+  national_bus_service: "Provided by Greyhound and Megabus at the Durham Station Transportation Center since its opening in 2009",
+
 };
 
 // ============================================================
