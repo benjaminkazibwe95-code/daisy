@@ -62393,6 +62393,9 @@ const FLAT_DICT = {
   a_rerun: "Held in 2016, however, but the opposition had boycotted the election, giving the ruling party a landslide victory",
   the_total_number_of_voters_registered: "448,482, a decrease of 55,300 from the 2015 elections",
 
+  // === INGESTED 2026-07-05 18:57 ===
+  kapiri_mposhi: "A Zambian town and the seat of the Kapiri Mposhi District in Central Province",
+
 };
 
 // ============================================================
