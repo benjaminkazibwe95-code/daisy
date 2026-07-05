@@ -62165,6 +62165,11 @@ const FLAT_DICT = {
   small_pieces_of_dna_called_cloning_vectors: { definition: "Often used and the most common ones are laboratory modified plasmids (small circular molecules of DNA produced by bacteria)", what_it_does: "", examples: "cloning, creating mutations RNA silencing are used in viral genetics" },
   it_is_artificial_in_that_it: "Not based on evolutionary phylogenetics but it is based on shared or distinguishing properties of viruses",
 
+  // === INGESTED 2026-07-05 17:38 ===
+  airborne_transmission_or_aerosol_transmission: "Transmission of an infectious disease through small particles suspended in the air",
+  while_the_concentration_of_airborne_pathogens: { definition: "Greater within 2m, they can travel farther and concentrate in a room", what_it_does: "", examples: "the bodily secretions of an infected individual, or biological wastes" },
+  airborne_transmission: { definition: "Complex, and hard to demonstrate unequivocally [ 20 ] but the Wells-Riley model can be used to make simple estimates of infection probability", what_it_does: "", examples: "chicken pox, can be obtained through different routes, but mainly by aerosols" },
+
 };
 
 // ============================================================
