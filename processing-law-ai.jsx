@@ -59889,6 +59889,11 @@ const FLAT_DICT = {
   the_latter_observation: "Consistent with earlier findings by Fanger et al",
   binding: "Essentially irreversible, whereas the affinities of antibodies secreted by B cells increase as the immune response progresses",
 
+  // === INGESTED 2026-07-05 00:21 ===
+  the_neurons_in_the_lso: "Especially important in discerning these interaural level differences",
+  the_second_ultrastructural_change: "The principal neurons of the MNTBs, whose cell bodies and nuclei increase in surface area due to enlargement",
+  calcium_influx_for_the_immature_calyx_of_held: { definition: "Mediated by N- , P / Q- , and R-type calcium channels ; however upon maturation only P/Q-type calcium channels become dominant", what_it_does: "", examples: "parvalbumin and calretinin" },
+
 };
 
 // ============================================================
