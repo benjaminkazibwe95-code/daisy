@@ -62067,6 +62067,36 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 17:19 ===
   a_dish_called_maghaz: { definition: "A popular cuisine in Pakistan, Bangladesh, parts of India, and diaspora countries", what_it_does: "", examples: "according to Nutrition Data, 85g (3 oz) of cooked beef brain contains 727 mg of DHA" },
 
+  // === INGESTED 2026-07-05 17:21 ===
+  a_fair_proportion_of_teleosts: "Sequential hermaphrodites , starting life as females and transitioning to males at some stage, with a few species reversing this process",
+  a_small_percentage_of_teleosts: "Viviparous and some provide parental care with typically the male fish guarding a nest and fanning the eggs to keep them well-oxygenated",
+  teleosts: "Economically important to humans, as is shown by their depiction in art over the centuries",
+  distinguishing_features_of_the_teleosts: "Mobile premaxilla , elongated neural arches at the end of the caudal fin and unpaired basibranchial toothplates",
+  the_lower_jaw_and_maxilla: "Then pulled back to close the mouth, and the fish is able to grasp the prey",
+  the_median_basibranchial: "Covered by a toothplate",
+  the_fourth_arch: "Composed of pairs of ceratobranchials and epibranchials, and sometimes additionally, some pharyngobranchials and a basibranchial",
+  the_base_of_the_lower_pharyngeal_jaws: "Formed by the fifth ceratobranchials while the second, third and fourth pharyngobranchials create the base of the upper",
+  the_neural_arches: "Elongated to form uroneurals which provide support for this upper lobe",
+  while_teleost_bones: "Well calcified , they are constructed from a scaffolding of struts, rather than the dense cancellous bones of holostean fish",
+  fossil_evidence_shows_that_there: "A major increase in size and abundance of teleosts immediately after the mass extinction event at the Cretaceous-Paleogene boundary ca",
+  the_majority_of_euteleosts: "In the clade Neoteleostei",
+  a_derived_trait_of_neoteleosts: { definition: "A muscle that controls the pharyngeal jaws, giving them a role in grinding food", what_it_does: "", examples: "lionfish have aposematic coloration to warn that they are toxic or have venomous spines" },
+  the_upper_side: { definition: "Usually speckled and mottled for camouflage, while the underside is pale", what_it_does: "", examples: "electric eels , can produce powerful electric currents, strong enough to stun prey" },
+  these_currents: { definition: "Produced by modified muscle or nerve cells", what_it_does: "", examples: "the Loricariidae , are able to respire through air held in their digestive tracts" },
+  metabolic_heat_generated_in_the_muscles_or_gut: "Quickly dissipated through the gills, with blood being diverted away from the gills during exposure to cold",
+  this_absence: "Often the case in fast-swimming fishes such as the tuna and mackerel",
+  stridulation_sounds: "Predominantly from 1000–4000 Hz , though sounds modified by the swim bladder have frequencies lower than 1000 Hz",
+  semelparity: "Also known to occur in some eels and smelts",
+  these_males: "Smaller than satellite males",
+  water_column_spawners: "More likely than substrate spawners to spawn in groups",
+  the_cuckoo_catfish: "Known for laying eggs on the substrate as mouthbrooding cichclids collect theirs and the young catfish will eat the cichlid larvae",
+  parental_care: "Much more common among freshwater fish",
+  some_larvae: "Even considered different species from the adults",
+  fish_meal: { definition: "Used as a food supplement for farmed fish and for livestock", what_it_does: "", examples: "sardine and herring, and used as food supplements and to treat vitamin deficiencies" },
+  sea_wolves: "Used in the leather industry",
+  isinglass: { definition: "Made from thread fish and drum fish", what_it_does: "", examples: "spermatogonia ) and cells that can make female gametes (such as oogonia )" },
+  medaka_and_zebrafish: "Used as research models for studies in genetics and developmental biology",
+
 };
 
 // ============================================================
