@@ -62516,6 +62516,17 @@ const FLAT_DICT = {
   extension_layers: "Used to modify the JPEG 8-bit base layer and restore the high-resolution image",
   existing_software: "Forward compatible and can read the JPEG XT binary stream, though it would only decode the base 8-bit layer",
 
+  // === INGESTED 2026-07-05 19:27 ===
+  hosttonetwork_vpns: { definition: "Commonly used by organizations to allow off-site users secure access to an office network over the Internet", what_it_does: "", examples: "an office network and a datacenter" },
+  a_hosttonetwork_configuration: { definition: "Analogous to joining one or more computers to a network to which they cannot be directly connected", what_it_does: "", examples: "an intranet" },
+  each_computer: "In charge of activating its own tunnel towards the network it wants to join",
+  the_joined_network: "Only aware of a single remote host for each tunnel",
+  tunneling: { definition: "Only done between gateway devices located at each network location", what_it_does: "", examples: "NetBIOS used in Windows networking ) may not be fully supported as on a local area network" },
+  major_applications_of_mpls: { definition: "Telecommunications traffic engineering and MPLS VPN", what_it_does: "", examples: "both servers and clients) through pseudowires" },
+  a_virtual_private_network: "Based on a tunneling protocol , and may be combined with other network or application protocols to provide additional security and capabilities",
+  openvpn: "A free and open-source VPN protocol based on the TLS protocol",
+  wireguard: "A protocol designed to be more lightweight than OpenVPN",
+
 };
 
 // ============================================================
