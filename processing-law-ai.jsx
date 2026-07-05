@@ -62562,6 +62562,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 19:42 ===
   browserbased_computing: "The use of the web browsers to perform computing tasks",
 
+  // === INGESTED 2026-07-05 19:46 ===
+  considerations_such_as_how_tenant_data: "Partitioned, how per-tenant schema extensions are stored, and how shared resources are isolated must be taken into account",
+
 };
 
 // ============================================================
