@@ -61090,6 +61090,38 @@ const FLAT_DICT = {
   the_time_for_this_to_happen: "Called the 'induction time', and it is repeatable under identical conditions (temperature, air flow, etc.)",
   the_rancimat_method: { definition: "Carried out using an air current at temperatures between 50 and 220 °C", what_it_does: "", examples: "AOCS Cd 12b-92 and ISO 6886" },
 
+  // === INGESTED 2026-07-05 05:27 ===
+  digestion_is_a_form_of_catabolism_that: "Often divided into two processes based on how food is broken down: mechanical and chemical digestion",
+  the_term_mechanical_digestion: "The physical breakdown of large pieces of food into smaller pieces which can subsequently be accessed by digestive enzymes",
+  at_the_same_time_protein_digestion: "Occurring, mechanical mixing occurs by peristalsis, which is waves of muscular contractions that move along the stomach wall",
+  when_the_chyme: "Fully digested, it is passed through the liver before being absorbed into the blood",
+  water_and_minerals: "Reabsorbed back into the blood in the colon (large intestine) where the pH is slightly acidic (about 5.6 ~ 6.9)",
+  one_such_mechanism: "First discovered in Y",
+  the_vacuole: "Formed by the fusion of the cell membrane around the particle",
+  a_phagosome: { definition: "A cellular compartment in which pathogenic microorganisms can be killed and digested", what_it_does: "", examples: "beaks, tongues , radulae , teeth, crops, gizzards, and others" },
+  birds_have_bony_beaks_that: { definition: "Specialised according to the bird's ecological niche", what_it_does: "", examples: "macaws primarily eat seeds, nuts, and fruit, using their beaks to open even the toughest seed" },
+  the_mouth_of_the_squid: "Equipped with a sharp horny beak mainly made of cross-linked proteins",
+  the_beak: "Very robust, but does not contain any minerals, unlike the teeth and jaws of many other organisms, including marine species",
+  the_underside_of_the_tongue: "Covered with a smooth mucous membrane",
+  carnivores_have_canine_teeth_which: "Used to kill and tear meat",
+  in_some_birds_it: "An expanded, muscular pouch near the gullet or throat",
+  the_cud: "Then regurgitated, chewed slowly to completely mix it with saliva and to break down the particle size",
+  the_abomasum: { definition: "The fourth and final stomach compartment in ruminants", what_it_does: "", examples: "those in humans or pigs), and digesta is processed here in much the same way" },
+  digesta: "Finally moved into the small intestine, where the digestion and absorption of nutrients occurs",
+  microbes_produced_in_the_reticulorumen: { definition: "Also digested in the small intestine", what_it_does: "", examples: "rabbits and rodents , produce cecotropes to re-digest food, especially in the case of roughage" },
+  soft_cecotropes_of_partially_digested_food: { definition: "Excreted and generally consumed immediately", what_it_does: "normal droppings, which are not eaten", examples: "" },
+  when_the_churning: "Complete, the glands in the walls of the gizzard add enzymes to the thick paste, which helps chemically breakdown the organic matter",
+  ingestion_usually: "Some type of mechanical and chemical processing",
+  differences_in_that_overhead_cost: "Important influences on lifestyle, behavior, and even physical structures",
+  taste_and_smell_stimuli: "Sent to the hypothalamus and medulla oblongata",
+  after_this_it: "Routed through the vagus nerve and release of acetylcholine",
+  acid_release: "Also triggered by acetylcholine and histamine",
+  the_digestive_enzymes_however: "Mostly secreted as their inactive precursors, the zymogens",
+  however_fats: "Mainly digested in the small intestine",
+  lactase: "An enzyme that breaks down the disaccharide lactose to its component parts, glucose and galactose",
+  dna_and_rna: "Broken down into mononucleotides by the nucleases deoxyribonuclease (DNase), and ribonuclease (RNase) from the pancreas",
+  some_nutrients: "Complex molecules (for example vitamin B 12 ) which would be destroyed if they were broken down into their functional groups",
+
 };
 
 // ============================================================
