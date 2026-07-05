@@ -61680,6 +61680,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 07:36 ===
   associationism: "Often concerned with middle-level to higher-level mental processes such as learning",
 
+  // === INGESTED 2026-07-05 07:38 ===
+  it_is_a_languagerelevant_erp_component_and: { definition: "Thought to be elicited by hearing or reading grammatical errors and other syntactic anomalies", what_it_does: "", examples: "problems in agreement , such as 'the child * throw the toy'" },
+
 };
 
 // ============================================================
