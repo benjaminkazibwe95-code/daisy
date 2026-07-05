@@ -60079,6 +60079,19 @@ const FLAT_DICT = {
   an_associated_file: "The mime.types file, which associates filename extensions with a MIME type",
   if_the_mime_type: { definition: "Properly set, this is unnecessary, but MIME types may be incorrectly set, or set to a generic type such as application/octet-stream , and mime", what_it_does: "", examples: "the HTML type can be associated with the extensions .htm and .html by the following line: The mime" },
 
+  // === INGESTED 2026-07-05 01:17 ===
+  realtime_responses: "Often understood to be in the order of milliseconds, and sometimes microseconds",
+  early_personal_computers: { definition: "Sometimes used for real-time computing", what_it_does: "", examples: "Real-time Java" },
+  this_application_area: "One where real-time control offers genuine advantages in terms of process performance and safety",
+  hard_realtime_systems_are_used_when_it: "Imperative that an event be reacted to within a strict deadline",
+  firm_realtime_systems: { definition: "More nebulously defined, and some classifications do not include them, distinguishing only hard and soft real-time systems", what_it_does: "", examples: "overhead , is no greater than the sampling period, which is the reciprocal of the sampling rate" },
+  a_common_life_analogy: "Standing in a line or queue waiting for the checkout in a grocery store",
+  if_the_length_of_the_line: "Bounded, customers are being served as rapidly, on average, as they are joining the queue, then that process is real-time",
+  realtime_signal_processing: "Necessary, but not sufficient in and of itself, for live signal processing such as what is required in live event support",
+  realtime_computing: { definition: "Sometimes misunderstood to be high-performance computing , but this is not an accurate classification", what_it_does: "", examples: "many chess-playing programs , can fall into either category" },
+  the_term_implies_that_there: "No significant delays",
+  near_realtime_also: "Delayed real-time transmission of voice and video",
+
 };
 
 // ============================================================
