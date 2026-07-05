@@ -61861,6 +61861,33 @@ const FLAT_DICT = {
   the_nitroneolefin_cycloaddition: "A [3+2]-cycloaddition",
   cheletropic_reactions: "A subclass of cycloadditions",
 
+  // === INGESTED 2026-07-05 16:04 ===
+  the_atomic_orbital_concept: "Therefore a key concept for visualizing the excitation process associated with a given transition",
+  the_coordinate_systems_chosen_for_orbitals: "Usually spherical coordinates ( r , θ , φ ) in atoms and Cartesian ( x , y , z ) in polyatomic molecules",
+  the_advantage_of_spherical_coordinates_here: "That an orbital wave function is a product of three factors each dependent on a single coordinate: ψ ( r , θ , φ ) = R ( r ) Θ( θ ) Φ( φ )",
+  gaussians: "Typically used in molecules with three or more atoms",
+  the_term_orbital: "Introduced by Robert S",
+  the_significance_of_the_bohr_model: "That it related the lines in emission and absorption spectra to the energy differences between the orbits that electrons could take around an atom",
+  the_simplest_atomic_orbitals_are_those_that: "Calculated for systems with a single electron, such as the hydrogen atom",
+  orbitals_of_multielectron_atoms: "Qualitatively similar to those of hydrogen, and in the simplest models, they are taken to have the same form",
+  electron_states: "Best represented by time-depending 'mixtures' ( linear combinations ) of multiple orbitals",
+  within_a_shell_where_n: "Some integer n 0 , ℓ ranges across all (integer) values satisfying the relation 0 ≤ ℓ ≤ n 0 − 1 {\displaystyle 0\leq \ell \leq n_{0}-1}",
+  subshells: "Usually identified by their n {\displaystyle n} - and ℓ {\displaystyle \ell } -values",
+  its_projection_along_a_specified_axis: "Given by the spin magnetic quantum number , m s , which can be + ⁠ 1 / 2 ⁠ or − ⁠ 1 / 2 ⁠",
+  some_real_orbitals: "Given specific names beyond the simple ψ n , ℓ , m {\displaystyle \psi _{n,\ell ,m}} designation",
+  as_an_example_of_how_the_full_orbital_names: "Generated for real orbitals, one may calculate ψ n , 1 , ± 1 real {\displaystyle \psi _{n,1,\pm 1}^{\text{real}}}",
+  for_each_m_there: "Two standing wave solutions ⟨ m ⟩ + ⟨− m ⟩ and ⟨ m ⟩ − ⟨− m ⟩",
+  there_are_only_radial_modes_and_the_shape: "Spherically symmetric",
+  the_type_of_nodal_surface: "Controlled by quantum numbers",
+  the_s_orbitals_for_all_n_numbers: "The only orbitals with an anti-node (a region of high wave function density) at the center of the nucleus",
+  the_three_p_orbitals_in_each_shell: "Oriented at right angles to each other, as determined by their respective linear combination of values of m ℓ",
+  the_overall_result: "A lobe pointing along each direction of the primary axes",
+  three_of_these_planes: "The xy-, xz-, and yz-planes—the lobes are between the pairs of primary axes—and the fourth has the center along the x and y axes themselves",
+  the_number_in_the_cell: "The subshell's position in the sequence",
+  if_the_electron_receives_energy_that: "Less than or greater than this value, it cannot jump from state 1 to state 2",
+  the_atomic_orbital_model: "Nevertheless an approximation to the full quantum theory, which only recognizes many electron states",
+  the_predictions_of_line_spectra: "Qualitatively useful but are not quantitatively accurate for atoms and ions other than those containing only one electron",
+
 };
 
 // ============================================================
