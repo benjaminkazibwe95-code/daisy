@@ -62483,6 +62483,9 @@ const FLAT_DICT = {
   various_feature_groups: { definition: "Used where equal access is available to allow callers to select a long-distance carrier for each call", what_it_does: "", examples: "10-288 sent a call via AT&T, 10-333 via Sprint, and 10-550 via CenturyLink" },
   callers: "Usually offered a variety of rate 'plans' depending on usage, although which plan is cheapest for a given amount of usage is often not obvious",
 
+  // === INGESTED 2026-07-05 19:23 ===
+  a_classaction_lawsuit: "Filed in March 2017, alleging that LG continued to market and distribute phones with the defect even after LG publicized it",
+
 };
 
 // ============================================================
