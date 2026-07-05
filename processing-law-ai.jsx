@@ -60101,6 +60101,36 @@ const FLAT_DICT = {
   rss_directories: { definition: "Similar to web directories, but contain collections of RSS feeds , instead of links to websites", what_it_does: "", examples: "there are shopping directories that specialize in the listing of retail e-commerce sites" },
   dmoz: { definition: "Significant due to its extensive categorization and large number of listings and its free availability for use by other directories and search engines", what_it_does: "", examples: "DMOZ , World Wide Web Virtual Library , Business" },
 
+  // === INGESTED 2026-07-05 01:28 ===
+  a_web_browser: "An example of a user agent (UA)",
+  a_web_resource: "Located by a uniform resource locator (URL), using the Uniform Resource Identifier (URI) schemes http and https",
+  uris: "Encoded as hyperlinks in HTML documents, so as to form interlinked hypertext documents",
+  a_version: "Identified as HTTP/# where # is the version number",
+  only_the_ip_layer: "Used (which UDP, like TCP, builds on)",
+  the_body_of_this_response_message: "Typically the requested resource, although an error message or other information may also be returned",
+  closing_a_connection: "Usually advertised by one or more HTTP headers in the last request or response",
+  another_positive_side_effect: "That, in general, the connection becomes faster with time due to TCP's slow-start -mechanism",
+  pipelining: "Also removed because of the announced adoption of HTTP/2",
+  a_header_field_line: "Formatted as a name-value pair with a colon separator",
+  whitespace: { definition: "Not allowed around the name, but leading and trailing whitespace is ignored for the value part", what_it_does: "", examples: "the following are header fields for Host and Accept-Language" },
+  a_request: "Sent by a client to a server",
+  a_request_line_containing_only_the_path_name: "Accepted by servers to maintain compatibility with HTTP clients before the HTTP/1.0 specification in RFC 1945",
+  if_a_method: "Unknown to an intermediate, it will be treated as an unsafe and non-idempotent method",
+  a_generalpurpose_web_server: { definition: "Required to implement at least GET and HEAD, and all other methods are considered optional by the specification", what_it_does: "", examples: "appending request information to a log file or charging an advertising account" },
+  the_beta: "Suspended only weeks after its first release, following widespread criticism",
+  if_this_endpoint: { definition: "Configured correctly, any requests which ask to change a user's email address to the same email address which is already recorded—e.g", what_it_does: "", examples: "sending multiple emails" },
+  in_some_cases_this: "The desired effect, but in other cases it may occur accidentally",
+  note_that_whether_or_not_a_method: "Idempotent is not enforced by the protocol or web server",
+  a_request_method: "Cacheable if responses to requests with that method may be stored for future reuse",
+  a_response: "Sent to the client by the server",
+  the_status_code: "A three-digit, decimal, integer value that represents the disposition of the server's attempt to satisfy the client's request",
+  the_classes: "As follows: The standard reason phrases are only recommendations",
+  a_web_server: "Allowed to use a localized equivalent",
+  when_header_contentlength: "Missing from a response with a body, then this should be considered an error in HTTP/1.0 but it may not be an error in HTTP/1",
+  tim_bernerslee_and_his_team_at_cern: "Credited with inventing HTTP, along with HTML and the associated technology for a web server and a client user interface called web browser",
+  development_of_http: "Initiated in 1989 and summarized in a simple document describing the behavior of a client and a server using the first HTTP version, named 0.9",
+  spdy: { definition: "Integrated into Google's Chromium and then into other major web browsers", what_it_does: "", examples: "the work of W3C HTTP-NG Working Group" },
+
 };
 
 // ============================================================
