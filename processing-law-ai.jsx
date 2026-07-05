@@ -61333,6 +61333,10 @@ const FLAT_DICT = {
   when_red_light: "Present, PHYB is converted to its active form and moves from the cytoplasm to the nucleus where it upregulates the degradation of PIF1",
   when_aba_levels: "Higher than GA then that leads to dormant seeds and when GA levels are higher, seeds germinate",
 
+  // === INGESTED 2026-07-05 06:16 ===
+  the_chemical_mechanism: "The same as in the browning of food, but it develops slowly over time due to the acidic action on the bog body",
+  it_is_typically_seen_on_iron_age_bodies_and: "The result of the interaction of anaerobic, acidic, and cold (typically 4 °C (39 °F) ) sphagnum acid on the polysaccharides",
+
 };
 
 // ============================================================
