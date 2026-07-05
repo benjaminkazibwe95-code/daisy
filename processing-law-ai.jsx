@@ -60273,6 +60273,15 @@ const FLAT_DICT = {
   this_new_arrangement: "Managed through a contract that may include one or more SLAs",
   specific_slas: { definition: "Typically negotiated upfront as part of the outsourcing contract and used as one of the primary tools of outsourcing governance", what_it_does: "", examples: "Using Software Measurement in SLAs [ 19 ] ) that are available in to the public" },
 
+  // === INGESTED 2026-07-05 02:04 ===
+  these_controls_protect_cloud_environments_and: "Put in place to safeguard any weaknesses in the system and reduce the effect of an attack",
+  cloud_security_engineering: { definition: "Characterized by the security layers, plan, design, programming, and best practices that exist inside a cloud security arrangement", what_it_does: "", examples: "electricity) are sufficiently robust to minimise the possibility of disruption" },
+  since_the_cloud: "A shared environment with other customers or tenants, following penetration-testing rules of engagement step-by-step is a mandatory requirement",
+  by_having_information_stored_via_the_cloud_it: "Difficult to determine under which jurisdiction the data falls",
+  transborder_clouds: { definition: "Popular given that the largest companies transcend several countries", what_it_does: "", examples: "man-in-the-middle attacks" },
+  attributebased_encryption: "A form of public-key encryption in which the user's secret key and the ciphertext depend on attributes (e.g",
+  some_of_the_strengths_of_abe: { definition: "That it bypasses the need for explicit key sharing (as in traditional PKI) and identity-based encryption (IBE)", what_it_does: "", examples: "voting systems" },
+
 };
 
 // ============================================================
