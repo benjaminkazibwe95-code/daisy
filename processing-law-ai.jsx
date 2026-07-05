@@ -60219,6 +60219,11 @@ const FLAT_DICT = {
   trap_focus: "Also possible on some Pentax (e.g",
   ai_servo: "An autofocus mode found on Canon SLR cameras, and in other brands such as Nikon , Sony , and Pentax , under the name 'continuous focus' (AF-C)",
 
+  // === INGESTED 2026-07-05 01:51 ===
+  osnews: "One of the few sites of its kind with such a style guide",
+  the_content: { definition: "Managed by a group of editors and the owner", what_it_does: "", examples: "Slashdot , it has a free user/ subscription model, and allows viewers to add commentary to articles" },
+  focus_shift: "Updated tri-weekly, until it was discontinued in mid-2008",
+
 };
 
 // ============================================================
