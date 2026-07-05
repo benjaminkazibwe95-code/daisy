@@ -60870,6 +60870,14 @@ const FLAT_DICT = {
   their_principal_demand: "To increase Black student enrollment to 11% of the student populace, in an attempt to match that of the proportion in the US",
   some_students: { definition: "Still unsatisfied with partial divestment and began a fast in Manning Chapel and the university disenrolled them", what_it_does: "", examples: "ultimate frisbee" },
 
+  // === INGESTED 2026-07-05 04:40 ===
+  ideological_polarization: { definition: "The extent to which the electorate has divergent beliefs on ideological issues (e.g", what_it_does: "", examples: "parties), called issue alignment" },
+  party_leaders: "Expected to be productive fund-raisers, in order to support the party's campaigns",
+  these_scholars_argue_a_single_donor_who: "Polarized and contributes large sums to a campaign does not seem to usually drive a politician toward political extremes",
+  party_loyalism: "A strong element of voters' thinking",
+  the_polarization: "Merely a reflection of the party that the voter belongs to, and whichever direction it moves in",
+  a_number_of_techniques: { definition: "Employed by the researchers and social scientist to trace the relationship between internet usage", what_it_does: "", examples: "China and South Korea , have become more polarized due to the diversification of political media" },
+
 };
 
 // ============================================================
