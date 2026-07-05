@@ -61142,6 +61142,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 05:34 ===
   exercise_hypertension: "An excessive rise in blood pressure during exercise",
 
+  // === INGESTED 2026-07-05 05:38 ===
+  the_american_english_term_pushup: "First used between 1905 and 1910, [ 2 ] while the British press-up was first recorded in 1920",
+  the_anterior_portion_of_the_deltoid_muscle: "One of the major shoulder-joint horizontal adductors, moving the upper arms toward the chest during the upward phase of a push-up",
+  the_erector_spinae: { definition: "The main stabilizer muscle in the back", what_it_does: "the speed of elbow-joint flexion during the downward phase of the exercise", examples: "the spinal, longissimus, and iliocostalis" },
+  the_closer_together_the_hands: "Placed during a push-up, the harder the triceps work",
+  when_both_hands: "Unbalanced or on uneven surfaces, this exercise works the body core",
+  the_load: "Usually positioned on the upper back",
+  this_very_effective_exercise: "Not commonly performed because of the difficulty of loading the human body in that position",
+  an_alternate_way_to_add_weight_to_the_pushup: "By placing the hands on high handles bars and then elevating the feet on a high surface to get into a suspended push-up position",
+  the_entire_body_weight: "Lifted in this variation",
+  tandem_pushups: "A variation of traditional push-ups, performed by two people working together",
+  each_person: "Facing a different direction but with one of the athletes lying faced downwards on top of the other",
+  this_way_the_athlete: "Forced to do a full and complete repetition",
+  the_backhanded_pushup: "A form of push-ups performed using the back of the hands, rather than the palms",
+  one_should_be_sure_that_the_object: "Securely stationary before attempting to push up from it",
+  the_second_phase: "The body being pushed into the up position",
+  the_third_phase: "Returning to the starting position",
+  this_special_diamond_pushup: "Done by the United States Marine Corps",
+  two_platforms: "Placed beside the trainee, one on either side",
+  the_aztec_pushup: "One of the most difficult plyometric push-ups",
+  the_western_fence_lizard: "A particular species that engage in this behavior",
+
 };
 
 // ============================================================
