@@ -60465,6 +60465,29 @@ const FLAT_DICT = {
   making_germanium_of_the_required_purity: "Proving to be a serious problem and limited the yield of transistors that actually worked from a given batch of material",
   teal: { definition: "The first to develop a working silicon transistor at the nascent Texas Instruments , giving it a technological edge", what_it_does: "", examples: "smartphones" },
 
+  // === INGESTED 2026-07-05 02:43 ===
+  the_term_antibody_generally: "The free (secreted) form, while the term immunoglobulin can refer to either forms",
+  human_igg_and_iga_antibodies: "Also divided into discrete subclasses (IgG1, IgG2, IgG3, and IgG4; IgA1 and IgA2)",
+  the_class: { definition: "The functions triggered by the antibody (also known as effector functions), in addition to some other structural features", what_it_does: "", examples: "mouse IgG1 is closer to human IgG2 than to human IgG1 in terms of its function" },
+  these_domains: "Usually represented in simplified schematics as rectangles",
+  in_humans_there: "Five antibody classes known as IgA, IgD, IgE, IgG, and IgM, which are further subdivided into subclasses such as IgA1, IgA2",
+  the_distinctive_features_of_each_class: { definition: "Determined by the part of the heavy chain within the hinge and Fc region", what_it_does: "", examples: "sharks) produce heavy-chain-only antibodies (i.e" },
+  relatively_weak_binding_also_means_it: { definition: "Possible for an antibody to cross-react with different antigens of different relative affinities", what_it_does: "", examples: "respiratory)" },
+  the_fc_receptors: { definition: "Isotype-specific, which gives greater flexibility to the immune system, invoking only the appropriate immune mechanisms for distinct pathogens", what_it_does: "", examples: "in the case of shingles )" },
+  differences_between_the_variable_domains: "Located on three loops known as hypervariable regions (HV-1, HV-2 and HV-3) or complementarity-determining regions (CDR1, CDR2 and CDR3)",
+  cdrs: "Supported within the variable domains by conserved framework regions",
+  this_combination: "Called V(D)J recombination and discussed below",
+  these_segments: "Called variable (V), diversity (D) and joining (J) segments",
+  class_switching: "Triggered by cytokines; the isotype generated depends on which cytokines are present in the B cell environment",
+  the_dna_strand: { definition: "Broken by the activity of a series of enzymes at two selected S-regions", what_it_does: "results in an immunoglobulin gene that encodes an antibody of a different isotype", examples: "" },
+  the_linker: "Rich in glycine, which gives it more flexibility, and serine/threonine, which gives it specificity",
+  pharmaceuticals: "Able to produce highly functional bispecific, and even multispecific, antibodies",
+  the_degree_to_which_they_can_function: { definition: "Impressive given that such a change of shape from the natural form should lead to decreased functionality", what_it_does: "", examples: "serology depend on these methods" },
+  the_fused_cells: "Called hybridomas , and will continually grow and secrete antibody in culture",
+  single_hybridoma_cells: "Isolated by dilution cloning to generate cell clones that all produce the same antibody; these antibodies are called monoclonal antibodies",
+  research_antibodies: { definition: "Most commonly used to identify and locate intracellular and extracellular proteins", what_it_does: "should be appropriately described and validated", examples: "pH, solvent, state of tissue etc" },
+  common_advantages_over_antibodies: "Better solubility, tissue penetration, stability towards heat and enzymes , and comparatively low production costs",
+
 };
 
 // ============================================================
