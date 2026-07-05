@@ -62141,6 +62141,30 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 17:34 ===
   the_closest_known_relative: { definition: "The BANAL-52 bat coronavirus", what_it_does: "", examples: "livestock and companion animals, and avian species" },
 
+  // === INGESTED 2026-07-05 17:36 ===
+  virology: "A broad subject covering biology, health, animal welfare, agriculture and ecology",
+  he_realized_the_source: "Neither a bacterial nor a fungal infection , but something completely different",
+  one_main_motivation_for_the_study_of_viruses: "Because they cause many infectious diseases of plants and animals",
+  thousands_of_different_viruses: "Now known about and virologists often specialize in either the viruses that infect plants, or bacteria and other microorganisms , or animals",
+  viruses_that_infect_humans: "Now studied by medical virologists",
+  louis_pasteur: "Unable to find a causative agent for rabies and speculated about a pathogen too small to be detected by microscopes",
+  beijerinck_maintained_that_viruses: { definition: "Liquid in nature, a theory later discredited by Wendell Stanley , who proved they were particulate", what_it_does: "", examples: "typhoid and cholera , but their promise was forgotten with the development of penicillin" },
+  their_method: "Not widely adopted until the 1950s when poliovirus was grown on a large scale for vaccine production",
+  the_atoms_of_metal: "Opaque to electrons and the viruses are seen as suspended in a dark background of metal atoms",
+  these_cytopathic_effects: { definition: "Often characteristic of the type of virus", what_it_does: "", examples: "mumps virus cause red blood cells from chickens to firmly attach to the infected cells" },
+  it_is_an_infectivity_assay_that: "Virus species specific because antibodies are used",
+  the_antibodies_are_tagged_with_a_dye_that: { definition: "Luminescencent and when using an optical microscope with a modified light source, infected cells glow in the dark", what_it_does: "", examples: "plants and animals" },
+  the_number_of_viruses: "Then expressed as plaque forming units",
+  the_ffa: "Particularly useful for quantifying classes of viruses that do not lyse the cell membranes, as these viruses would not be amenable to the plaque assay",
+  assay_completion_time: "Also dependent on the size of area that the user is counting",
+  results_of_the_ffa: "Expressed as focus forming units per milliliter, or FFU/mL",
+  centrifuges: "Often used to purify viruses",
+  caesium_chloride: { definition: "Often used for these solutions as it is relatively inert but easily self-forms a gradient when centrifuged at high speed in an ultracentrifuge", what_it_does: "", examples: "their nucleic acids or proteins" },
+  the_separated_molecules: "Revealed using stains such as coomasie blue , for proteins, or ethidium bromide for nucleic acids",
+  in_some_instances_the_viral_components: "Rendered radioactive before electrophoresis and are revealed using photographic film in a process known as autoradiography",
+  small_pieces_of_dna_called_cloning_vectors: { definition: "Often used and the most common ones are laboratory modified plasmids (small circular molecules of DNA produced by bacteria)", what_it_does: "", examples: "cloning, creating mutations RNA silencing are used in viral genetics" },
+  it_is_artificial_in_that_it: "Not based on evolutionary phylogenetics but it is based on shared or distinguishing properties of viruses",
+
 };
 
 // ============================================================
