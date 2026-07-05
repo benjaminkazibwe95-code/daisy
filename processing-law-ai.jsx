@@ -60705,6 +60705,23 @@ const FLAT_DICT = {
   most_businesses_also_have_revenue_that: { definition: "Incidental to the business's primary activities, such as interest earned on deposits in a demand account", what_it_does: "", examples: "IFRS 9.5.7" },
   net_income: "The result of this equation, but revenue typically enjoys equal attention during a standard earnings call",
 
+  // === INGESTED 2026-07-05 03:55 ===
+  the_more_challenging_task: "Finding buyers for the riskier pieces at the bottom of the pile",
+  the_way_mortgage_securities: "Structured, if you cannot find buyers for the lower-rated slices, the rest of the pool cannot be sold",
+  the_minority_of_the_tranches_that: "Mezzanine were often bought up by other CDOs, concentrating the lower rated tranches still further",
+  refinancing_to_lower_mortgage_payment: { definition: "No longer available since it depended on rising home prices", what_it_does: "", examples: "AIG , Ambac , MBIA" },
+  mortgages: "Needed for collateral and by approximately 2003, the supply of mortgages originated at traditional lending standards had been exhausted",
+  synthetic_cdos: "Criticized in particular, because of the difficulties to judge (and price) the risk inherent in that kind of securities correctly",
+  a_cdo: "A type of asset-backed security",
+  ultimately_the_challenge: { definition: "In accurately quantifying the risk and return characteristics of these constructs", what_it_does: "", examples: "PFIC and CFC reporting)" },
+  the_pfic_and_cfc_reporting: { definition: "Very complex and requires a specialized accountant to perform these calculations and manage the tax reporting obligations", what_it_does: "", examples: "corporate bonds) of a similar rating" },
+  the_underwriter_of_a_cdo: "Typically an investment bank , and acts as the structurer and arranger",
+  the_priority_in_placement: "Finding investors for the risky equity tranche and junior debt tranches (A, BBB, etc.) of the CDO",
+  the_underwriter: "Paid a fee when the CDO is issued",
+  an_experienced_manager: { definition: "Critical in both the construction and maintenance of the CDO's portfolio", what_it_does: "is called warehousing", examples: "" },
+  when_a_transaction: "Fully ramped, its initial portfolio of credits has been selected by the asset manager",
+  other_times_it: { definition: "Used for a particular type of that security—one backed by consumer loans", what_it_does: "", examples: "credit card receivables, auto loans, manufactured-housing contracts and home-equity loans" },
+
 };
 
 // ============================================================
