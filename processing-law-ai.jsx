@@ -60745,6 +60745,18 @@ const FLAT_DICT = {
   earnings: "The net benefits of a corporation 's operation",
   many_alternative_terms_for_earnings: "Commonly used, such as income and profit",
 
+  // === INGESTED 2026-07-05 04:04 ===
+  the_time_value_of_money: { definition: "The observation that it is better to receive money sooner than later", what_it_does: "", examples: "one may know that: the interest is 0" },
+  the_formulas: "Programmed into most financial calculators and several spreadsheet functions (such as PV, FV, RATE, NPER, and PMT)",
+  an_important_note_is_that_the_interest_rate_i: "The interest rate for the relevant period",
+  the_choice_of_the_appropriate_rate: "Critical to the exercise, and the use of an incorrect discount rate will make the results meaningless",
+  the_following_formulas: "For an ordinary annuity",
+  the_present_value_formula: { definition: "The core formula for the time value of money; each of the other formulas is derived from this formula", what_it_does: "", examples: "the annuity formula is the sum of a series of present value calculations" },
+  this_is_a_calculation_that: "Rarely provided for on financial calculators",
+  if_pv: "Too small, the payment becomes negative, meaning the pension must be reduced by that amount in order to add the Cost Of Living Adjustment",
+  a_perpetuity: { definition: "Payments of a set amount of money that occur on a routine basis and continue forever", what_it_does: "", examples: "more easily differentiated)" },
+  in_case_the_discount_rate: { definition: "Constant, r ( v ) ≡ r , {\displaystyle r(v)\equiv r,} this simplifies to where ( u − t ) {\displaystyle (u-t)} is 'time remaining until cash flow'", what_it_does: "", examples: "the Black–Scholes formula with varying interest rates" },
+
 };
 
 // ============================================================
