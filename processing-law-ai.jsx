@@ -61807,6 +61807,14 @@ const FLAT_DICT = {
   this_suggestion: { definition: "Made before the discovery of isotopes in 1912", what_it_does: "", examples: "watt and newton, 'dalton' is not capitalized in English, but its symbol, 'Da', is capitalized" },
   if_m: "The mass of silver lost from the anode and A r the atomic weight of silver, then the Faraday constant is given by: F = A r M u I t m",
 
+  // === INGESTED 2026-07-05 15:45 ===
+  the_atoms_in_a_functional_group: "Linked to each other and to the rest of the molecule by covalent bonds",
+  complexation_and_solvation: "Also caused by specific interactions of functional groups",
+  in_traditional_names_various_qualifiers: "Used to label isomers , for example, isopropanol (IUPAC name: propan-2-ol) is an isomer of n-propanol (propan-1-ol)",
+  hydrocarbons_are_a_class_of_molecule_that: "Defined by functional groups called hydrocarbyls that contain only carbon and hydrogen, but vary in the number and order of double bonds",
+  haloalkanes_are_a_class_of_molecule_that: { definition: "Defined by a carbon– halogen bond", what_it_does: "", examples: "in the case of amides" },
+  when_the_parent_hydrocarbon: "Unsaturated, the suffix ('-yl', '-ylidene', or '-ylidyne') replaces '-ane' (e.g",
+
 };
 
 // ============================================================
