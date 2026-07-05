@@ -62851,6 +62851,36 @@ const FLAT_DICT = {
   investors_in_canadian_preferred_shares: "Generally those who wish to hold fixed-income investments in a taxable portfolio",
   perpetual_cumulative_preferred_shares: "Upper Tier 2 capital",
 
+  // === INGESTED 2026-07-05 21:03 ===
+  a_giant_called_druon_antigoon: "Said to have lived near the Scheldt river and extracted a toll from passing boatmen",
+  the_surviving_structure: "Built between 1200 and 1225 as a gateway to a larger castle of the Dukes of Brabant which was demolished in the 19th century",
+  london_bankers: "Too small to operate on that scale, and Antwerp had a highly efficient stock exchange that itself attracted rich bankers from around Europe",
+  many_foreign_merchants: "Resident in the city",
+  at_that_time_the_city: "Also divided into the districts mentioned above",
+  on_the_place_of_the_spanish_walls: "Now an avenue called de Leien in Dutch or den Boulevard in the local dialect",
+  tourist_sights_such_as_the_cathedral: { definition: "Located here, but also more mundane places", what_it_does: "", examples: "the house of the Hanseatic League on the northern quays, in 1891" },
+  the_zoo: "Located right next to Antwerp Central Station on the Koningin Astridplein",
+  steen_castle_on_the_scheldtquai: "The gate wing of the demolished castle of the Dukes of Brabant",
+  the_fortifications: "Developed in different phases: This is the population of the city of Antwerp only, not of the larger current municipality of the same name",
+  most_armenian_belgians: "Adherents of the Armenian Apostolic Church , while a smaller number are adherents of the Armenian Catholic Church and Armenian Evangelical Church",
+  antwerp_central_station: "An architectural monument in itself, and is mentioned in W G Sebald 's novel Austerlitz",
+  the_banks_of_the_scheldt: "Linked by three road tunnels (in order of construction): the Waasland Tunnel (1934), the Kennedy Tunnel (1967) and the Liefkenshoek Tunnel (1991)",
+  this_compromise: "Called the Toekomstverbond ('Agreement for the future')",
+  tomorrowland: "Probably the most famous festival to arise from Antwerp",
+  though_the_festival: "Effectively located 15 km (10 mi) south of the city in Boom, its founders in the past organised a festival ('Antwerp is burning') within city limits",
+  sfinks_festival: "A global pop festival that takes place annually in Boechout , a village southeast of Antwerp",
+  other_popular_festivals_are_fire: "Gold, Ampere Open Air and Vaag Outdoor focusing more on hip-hop music, house and techno",
+  the_belgians: "Well-known for their beer, and visitors can savor a wide range of local brews while enjoying the nightlife",
+  the_neighbourhood_of_het_zuid: "Also a popular nightlife destination, with many bars, restaurants, and cafés",
+  het_eilandje: "A neighbourhood in Antwerp, with many cafés and restaurants situated around the MAS Museum",
+  among_these_clubs: "Some of the most famous and notorious in Belgium",
+  the_antwerp_label: "Founded by Bertony Da Silva in 2009",
+  the_bollekesfeest: "A showcase for such local products as Bolleke, an amber beer from the De Koninck Brewery",
+  one_of_the_most_known_products_of_the_city: "Its biscuits, the Antwerpse Handjes , literally 'Antwerp Hands'",
+  the_local_products: { definition: "Represented by a non-profit organization, Streekproducten Provincie Antwerpen vzw", what_it_does: "cultural and social activities as well as religious services", examples: "" },
+  another_annual_event: "The Antwerp 10 miles and the Antwerp marathon",
+  another_club_in_the_city: "K Beerschot VA , founded in 1899 by former Royal Antwerp players",
+
 };
 
 // ============================================================
