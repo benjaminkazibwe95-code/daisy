@@ -62840,6 +62840,17 @@ const FLAT_DICT = {
   pierre_vernimmen: "The architect of numerous business mergers ( Louis Vuitton and Moët Hennessy for example), financing rounds ( M6 , Virgin Megastores ",
   each_chapter_of_the_book: "Followed by a summary, questions and exercises updated with their corrections as well as a bibliography",
 
+  // === INGESTED 2026-07-05 21:01 ===
+  terms_of_the_preferred_stock: "Described in the issuing company's articles of association or articles of incorporation",
+  when_a_dividend: "Not paid in time, it has 'passed'; all passed dividends on a cumulative stock make up a dividend in arrears",
+  a_stock_without_this_feature: "Known as a noncumulative, or straight , [ 6 ] preferred stock; any dividends passed are lost if not declared",
+  preferred_shares: { definition: "Often used by private corporations to achieve Canadian tax objectives", what_it_does: "", examples: "a discretionary trust )" },
+  the_preferred_shares: "Typically converted to common shares with the completion of an initial public offering or acquisition",
+  straight_preferreds: "Issued in perpetuity (although some are subject to call by the issuer, under certain conditions) and pay a stipulated dividend rate to the holder",
+  one_advantage_of_the_preferred_to_its_issuer: "That the preferred receives better equity credit at rating agencies than straight debt (since it is usually perpetual)",
+  investors_in_canadian_preferred_shares: "Generally those who wish to hold fixed-income investments in a taxable portfolio",
+  perpetual_cumulative_preferred_shares: "Upper Tier 2 capital",
+
 };
 
 // ============================================================
