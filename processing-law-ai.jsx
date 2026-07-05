@@ -60961,6 +60961,33 @@ const FLAT_DICT = {
   the_number_following_ccc: "The paragraph number, of which there are 2865",
   the_numbers_cited_in_the_compendium_of_the_ccc: "Question numbers, of which there are 598",
 
+  // === INGESTED 2026-07-05 05:01 ===
+  a_school_bus: "Larger and heavier than a normal size passenger bus and could distribute the force of the crash evenly",
+  the_rear_entry_door_of_the_kid_hacks: { definition: "Re-purposed as an emergency exit", what_it_does: "", examples: "interior and exterior dimensions and the forward-facing seating configuration)" },
+  while_many_changes: { definition: "Related to protecting passengers, others were intended to minimize the chances of traffic collisions", what_it_does: "", examples: "school buses) had a consistent training level" },
+  the_bus_model: { definition: "Discontinued in the same year after its introduction, and TAM-USA was closed down in 1994", what_it_does: "", examples: "CNG, propane, gasoline, and electric-power buses" },
+  type_a_and_type_b_school_buses: "Known as short buses, and they are used to transport students in special education separately from other students",
+  type_c_buses: "The most common design, while Type D buses are the largest vehicles",
+  the_equivalent_requirement_in_canada: "Almost identical; the only difference is that red cannot be used as a retroreflective color",
+  the_number_of_emergency_exits_in_a_school_bus: "Dependent on its seating capacity and also varies by individual state/provincial requirements",
+  the_most_currently_installed: { definition: "Eight on school buses in Kentucky", what_it_does: "", examples: "seat belts ; whether seat belts should be a requirement has been a topic of controversy" },
+  using_the_metalbacked_seats_then_in_use_as_a: { definition: "Of comparison, several new seat designs were researched in crash testing", what_it_does: "", examples: "seatbelts) to be next in terms of importance of passenger safety" },
+  school_bus_drivers_in_the_united_states: "Required to hold a commercial driver's license (CDL)",
+  fullsize_school_buses: "Generally considered Class B vehicles; most van-based school buses are considered Class C vehicles",
+  several_configurations_of_entry_doors: "Used on school buses, including center-hinged (jack-knife) and outward-opening",
+  activation: "Typically through a mechanical switch attached to the door control",
+  whenever_the_pressure: { definition: "Relieved by extending the stop paddle, the electric current was activated to the relay", what_it_does: "", examples: "Illinois) [ 67 ] require strobe lights as part of their local specifications" },
+  one_stop_signal_arm: { definition: "Required; a second may also be installed", what_it_does: "", examples: "Regina and Prince Albert" },
+  compressed_natural_gas: "First introduced for school buses in the early 1990s (with Blue Bird building its first CNG bus in 1991 and Thomas building its first in 1993)",
+  a_key_factor_in_their_market_failure: "Their high price (nearly twice the price of a standard diesel school bus) and hybrid system complexity",
+  a_wide_variety_of_buses: "Owned by churches, depending on needs and affordability",
+  when_a_school_bus: "Sold for usage outside of student transport, NHTSA regulations require that its identification as a school bus be removed",
+  while_a_majority: "Scrapped for parts and recycling (a requirement in some states), better-running examples are put up for sale as surplus vehicles",
+  secondhand_school_buses: "Sold to such entities as churches, resorts or summer camps ; others are exported to Central America, South America, or elsewhere",
+  other_examples_of_retired_school_buses: "Preserved and restored by collectors and bus enthusiasts ; collectors and museums have an interest in older and rarer models",
+  skoolies: { definition: "Retired school buses converted into recreational vehicles (the term also applies to their owners and enthusiasts)", what_it_does: "", examples: "only the removal of school bus lettering, conservative designs, or the bus equivalent of an art car" },
+  both_versions_of_further: "Painted with a variety of psychedelic colors and designs",
+
 };
 
 // ============================================================
