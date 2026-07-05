@@ -60404,6 +60404,10 @@ const FLAT_DICT = {
   the_result_is_that_mining_activities: "Expanding, and more and more of the world's metal stocks are above ground in use, rather than below ground as unused reserves",
   small_metal_sculptures: "Common and an extensive range of tumbaga (and gold) ornaments comprised the usual regalia of persons of high status",
 
+  // === INGESTED 2026-07-05 02:25 ===
+  the_nanometre: "Formerly known as the ' millimicrometre ' – or, more commonly, the ' millimicron ' for short – since it is ⁠ 1 / 1000 ⁠ of a micrometre",
+  nanotechnologies: { definition: "Based on physical processes which occur on a scale of nanometres (see nanoscopic scale )", what_it_does: "", examples: "is about 0.06 nm, and that of a ribosome is about 20 nm" },
+
 };
 
 // ============================================================
