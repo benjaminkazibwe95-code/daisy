@@ -62658,6 +62658,22 @@ const FLAT_DICT = {
   the_consent_of_the_institution_who: "Providing the data to be used is of prominent concern as well",
   a_common_challenge_for_both_schools: "The translation between the molecular and the organismal level",
 
+  // === INGESTED 2026-07-05 20:20 ===
+  pasteur_demonstrated_that_this_theory: { definition: "Incorrect, and that yeast was responsible for fermentation to produce alcohol from sugar", what_it_does: "", examples: "beer, wine and milk" },
+  the_pulp: "Examined with a microscope, and if corpuscles were observed, the eggs were destroyed",
+  the_primary_cause: "Currently thought to be viruses",
+  the_number_of_flasks_in_which_organisms_grew: "Lower at higher altitudes, showing that air at high altitudes contained less dust and fewer organisms",
+  nothing_grew_in_the_broths_unless_the_flasks: "Tilted, making the liquid touch the contaminated walls of the neck",
+  the_work_with_chicken_cholera: "Initiated in 1877, and by the next year, Roux was able to maintain a stable culture using broths",
+  he_attributed_that_the_bacteria: "Weakened by contact with oxygen",
+  the_official_result: { definition: "Observed and analyzed on 2 June in the presence of over 200 spectators, with Pasteur himself in attendance", what_it_does: "", examples: "four children from the United States, went to Pasteur's laboratory to be inoculated" },
+  the_first_of_the_pasteur_institutes: "Also built on the basis of this achievement",
+  yet_the_papers: "Restricted for historical studies until the death of Vallery-Radot in 1971",
+  the_documents: "Given a catalogue number only in 1985",
+  the_promotional_experiment: "A success and helped Pasteur sell his products, getting the benefits and glory",
+  a_statue_of_pasteur: "Erected at San Rafael High School in San Rafael, California",
+  the_official_statute: "Registered in 1887, stating that the institute's purposes were 'the treatment of rabies according to the method developed by M",
+
 };
 
 // ============================================================
