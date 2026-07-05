@@ -60685,6 +60685,12 @@ const FLAT_DICT = {
   the_poetry_of_the_tang_era: { definition: "Particularly prized by later dynasties", what_it_does: "", examples: "the Four Classic Novels of the Ming and Qing periods" },
   foreign_chineselanguage_news_outlets: { definition: "Blocked, while English-language outlets are occasionally available but often censored", what_it_does: "", examples: "martial arts and dragon boat racing have been practiced in China for over a millennium" },
 
+  // === INGESTED 2026-07-05 03:46 ===
+  compliance_software: { definition: "Increasingly being implemented to help companies manage their compliance data more efficiently", what_it_does: "", examples: "the American Society of Mechanical Engineers (ASME) also develop standards and regulation codes" },
+  these_similarities_and_differences: { definition: "Often a product 'of reactions to the changing objectives and requirements in different countries, industries, and policy contexts'", what_it_does: "", examples: "money laundering and terrorist financing" },
+  fulfillment_service_providers: "Also included as economic operators, making them responsible for product safety compliance in certain cases",
+  generally: "Compliance with laws and regulations",
+
 };
 
 // ============================================================
