@@ -61176,6 +61176,28 @@ const FLAT_DICT = {
   participation_from_outside_the_european_union: { definition: "Explicitly encouraged", what_it_does: "", examples: "the European Processor Initiative , or the Exscalate4Cov project, were beneficiaries of Horizon 2020" },
   a_central_point_of_negotiation: "The funding of projects beyond the Green Line",
 
+  // === INGESTED 2026-07-05 05:46 ===
+  the_game_is_played_with_a_football_that: "68–70 cm (27–28 in) in circumference",
+  the_cambridge_rules: "Written at Trinity College, Cambridge , at a meeting attended by representatives from Eton , Harrow , Rugby , Winchester , and Shrewsbury schools",
+  it_has_been_suggested_that_this: "Motivated by a perceived threat to the 'masculinity' of the game",
+  players_in_these_positions: { definition: "Referred to as outfield players, to distinguish them from the goalkeeper", what_it_does: "", examples: "there are central defenders and left and right midfielders" },
+  the_laws_of_the_game: "Published by FIFA, but are maintained by the IFAB",
+  goalkeepers: { definition: "The only players allowed to play the ball with their hands or arms, provided they do so within the penalty area in front of their own goal", what_it_does: "", examples: "jewellery or watches" },
+  the_goalkeeper_must_wear_clothing_that: "Easily distinguishable from that worn by the other players and the match officials",
+  in_many_highlevel_games_there: "Also a fourth official who assists the referee and may replace another official should the need arise",
+  in_the_past_the_ball: "Made up of leather panels sewn together, with a latex bladder for pressurisation, but modern balls at all levels of the game are now synthetic",
+  a_rectangular_goal: "Positioned on each goal line, midway between the two touchlines",
+  the_duration_of_stoppage_time: "At the sole discretion of the referee",
+  in_matches_where_a_fourth_official: "Appointed, towards the end of the half, the referee signals how many minutes of stoppage time they intend to add",
+  in_knockout_competitions_where_a_winner: "Required, various methods may be employed to break such a deadlock; some competitions may invoke replays",
+  other_fouls: "Punishable by an indirect free kick",
+  a_player_given_a_yellow_card: { definition: "Said to have been 'booked', the referee writing the player's name in their official notebook", what_it_does: "", examples: "managers and support staff" },
+  even_if_an_offence: { definition: "Not penalised due to advantage being played, the offender may still be sanctioned for misconduct at the next stoppage of play", what_it_does: "", examples: "whether a goal was awarded or not) were incorrect" },
+  teams_that_forfeit_a_game_or: { definition: "Forfeited against are awarded a technical loss or win", what_it_does: "", examples: "futsal and beach soccer ) [ c ] is FIFA" },
+  the_fifa_headquarters: "Located in Zürich , Switzerland",
+  six_regional_confederations: "Associated with FIFA; these are: [ 160 ] National associations (or national federations) oversee football within individual countries",
+  the_countries_that_benefited_most: { definition: "The Soviet Bloc countries of Eastern Europe , where top athletes were state-sponsored while retaining their status as amateurs", what_it_does: "", examples: "the UEFA Champions League in Europe and the Copa Libertadores in South America" },
+
 };
 
 // ============================================================
