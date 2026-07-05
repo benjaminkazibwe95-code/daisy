@@ -61201,6 +61201,34 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 05:51 ===
   rheb_gtpase_activity: { definition: "Stimulated (and therefore capacity to activate mTOR diminished) by the upstream TSC complex , which is inhibited by IGF signalling", what_it_does: "", examples: "p70S6K, 4EBP, and ULK1 which are important for regulating protein anabolic / catabolic balance" },
 
+  // === INGESTED 2026-07-05 05:53 ===
+  its_capital_and_most_populous_city: "Phnom Penh , followed by Siem Reap and Battambang",
+  the_official_and_most_widely_spoken_language: "Khmer , and the most widely practiced religion is Buddhism",
+  the_kingdom_of_cambodia: "The official English name of the country",
+  the_english_cambodia: "An anglicisation of the French Cambodge , which in turn is the French transliteration of the Khmer កម្ពុជា ( Kâmpŭchéa , pronounced [ kampuciə ] )",
+  an_event_in_prehistory: "The penetration of the first rice farmers from the north, which began in the third millennium BC",
+  their_function_and_age: { definition: "Still debated, and some of them possibly date from the second millennium BC", what_it_does: "", examples: "the Siamese conquest of Longvek in 1594" },
+  judges_and_lawyers: "Executed after being deemed 'class enemies' and only 6–12 legal professionals actually survived and remained in the country",
+  its_credentials: "Recognised by the United Nations",
+  extending_outward_from_this_central_region: "Transitional plains, thinly forested and rising to elevations of about 200 m (650 ft) above sea level",
+  much_of_this_biodiversity: "Contained around the Tonle Sap Lake and the surrounding biosphere",
+  the_deforestation: "The local population, Cambodian businesses and authorities as well as transnational corporations from all over the world",
+  cambodia: "A member of La Francophonie",
+  municipalities_and_districts: "The second-level administrative divisions of Cambodia",
+  the_districts_and_municipalities_in_turn: "Further divided into communes ( khum ) and quarters ( sangkat )",
+  demonstrators: { definition: "Injured and killed in Phnom Penh where a reported 20,000 protesters gathered, with some clashing with riot police", what_it_does: "", examples: "the U.S., Australia, Canada, China, the EU, Japan, and Russia" },
+  ranariddh: { definition: "Ousted and fled to Paris while other opponents of Hun Sen were arrested, tortured, and some summarily executed", what_it_does: "", examples: "extrajudicial killings and torture, with impunity'" },
+  the_quantity_of_souvenirs_produced: "Insufficient to face the increasing number of tourists",
+  most_products_sold_to_tourists_on_the_markets: "Imported from China, Thailand, and Vietnam",
+  trains: { definition: "Again running to and from the Cambodian capital and destinations in the south", what_it_does: "", examples: "3,700 km (2,300 mi) navigable all year by craft drawing 0.6 m (2" },
+  cyclos: "Unique to Cambodia in that the cyclist sits behind the passenger seat",
+  english_is_taught_in_universities_and_there: "A press in that language, while street signs are bilingual in Khmer and English",
+  two_of_which: { definition: "Practised by the Cham people ; the third is practiced by the descendants of Malays , who have lived in the country for generations", what_it_does: "", examples: "orphans and one in 290 people being an amputee" },
+  the_toasted_baguette_pieces: "Dipped in the curry and eaten",
+  cambodian_red_curry: { definition: "Eaten with rice and rice vermicelli noodles", what_it_does: "", examples: "beef balls , shrimp , pork liver or lettuce" },
+  folk_dances_originated_in_the_villages_and: { definition: "Performed, for the most part, by the villagers for the villagers", what_it_does: "", examples: "hill tribes, Chams or farmers" },
+  dance_music: "Composed in particular styles for social dances",
+
 };
 
 // ============================================================
