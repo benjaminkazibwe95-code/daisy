@@ -61802,6 +61802,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 15:35 ===
   his_research_interest: "Primarily in the area of organic electronics",
 
+  // === INGESTED 2026-07-05 15:43 ===
+  while_the_actual_masses: "Unknown, the relative masses could be deduced from that law",
+  this_suggestion: { definition: "Made before the discovery of isotopes in 1912", what_it_does: "", examples: "watt and newton, 'dalton' is not capitalized in English, but its symbol, 'Da', is capitalized" },
+  if_m: "The mass of silver lost from the anode and A r the atomic weight of silver, then the Faraday constant is given by: F = A r M u I t m",
+
 };
 
 // ============================================================
