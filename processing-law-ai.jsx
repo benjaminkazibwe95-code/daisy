@@ -61261,6 +61261,9 @@ const FLAT_DICT = {
   sleep_onset: "Determined not by a set bedtime, but by whether there were things to do",
   these_choices: "Shaped by a variety of factors, such as climate, protection from predators, housing type, technology, personal preference, and the incidence of pests",
 
+  // === INGESTED 2026-07-05 05:59 ===
+  pha_has_a_number_of_physiological_effects_and: { definition: "Used in medical research", what_it_does: "", examples: "humans, through the consumption of raw or improperly prepared legumes, e.g" },
+
 };
 
 // ============================================================
