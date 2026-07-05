@@ -62630,6 +62630,11 @@ const FLAT_DICT = {
   a_major_issue_with_current_energy_generation: "The generation of waste heat as a by-product of combustion",
   a_common_example_of_this: "In an internal combustion engine",
 
+  // === INGESTED 2026-07-05 20:14 ===
+  versions_of_the_talk: { definition: "Reprinted in a few popular magazines, but it went largely unnoticed until the 1980s", what_it_does: "", examples: "Millipede" },
+  newman: "Looking for an arbitrary random pattern to demonstrate their technology",
+  caltech: "No stranger to the idea of nanotechnology, the ability to manipulate matter at the atomic and molecular level",
+
 };
 
 // ============================================================
