@@ -60408,6 +60408,14 @@ const FLAT_DICT = {
   the_nanometre: "Formerly known as the ' millimicrometre ' – or, more commonly, the ' millimicron ' for short – since it is ⁠ 1 / 1000 ⁠ of a micrometre",
   nanotechnologies: { definition: "Based on physical processes which occur on a scale of nanometres (see nanoscopic scale )", what_it_does: "", examples: "is about 0.06 nm, and that of a ribosome is about 20 nm" },
 
+  // === INGESTED 2026-07-05 02:28 ===
+  dippen_nanolithography: { definition: "The most widely used of these techniques", what_it_does: "", examples: "polydimethylsiloxane" },
+  elastomers: "Used to make a stamp, mold, or mask (akin to photomask ) which in turn is used to generate micro patterns and microstructures",
+  the_consequent_patterning_on_the_same_surfaces: "Difficult due to misalignment problems",
+  the_methods: "Commonly used for chemical patterning",
+  nanoimprint_lithography: "Capable of producing patterns at sub-10 nm levels",
+  magnetic_mask_which: "Analog to photomask define the spatial distribution and shape of the applied magnetic field",
+
 };
 
 // ============================================================
