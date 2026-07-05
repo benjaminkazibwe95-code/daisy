@@ -61774,6 +61774,9 @@ const FLAT_DICT = {
   the_parameter_that: "How efficiently a device approximates a corresponding isentropic device is called isentropic or adiabatic efficiency",
   if_the_entropy_density: "The same everywhere, then the flow is said to be homentropic",
 
+  // === INGESTED 2026-07-05 15:14 ===
+  the_relationship_between_pressure_and_volume: { definition: "First noted by Richard Towneley and Henry Power in the 17th century", what_it_does: "", examples: "he published works on the growth of plants without air" },
+
 };
 
 // ============================================================
