@@ -62294,6 +62294,16 @@ const FLAT_DICT = {
   many_neurotransmitter_receptors: "Categorized as a serpentine receptor or G protein-coupled receptor because they span the cell membrane not once, but seven times",
   neurotransmitter_receptors: "Known to become unresponsive to the type of neurotransmitter they receive when exposed for extended periods of time",
 
+  // === INGESTED 2026-07-05 18:21 ===
+  however_potassium_channels_found_in_bacteria: "Amongst the most studied of ion channels, in terms of their molecular structure",
+  the_selectivity_filter: "Formed by a five residue sequence, TVGYG, termed the signature sequence, within each of the four subunits",
+  this_signature_sequence: "Within a loop between the pore helix and TM2/6, historically termed the P-loop",
+  the_carbonyl_oxygens: "Strongly electro-negative and cation-attractive",
+  since_the_xray_structures: "Averages over many molecules, it is, however, not possible to deduce the actual occupancies directly from such a structure",
+  repulsion_by_preceding_multiple_potassium_ions: "Thought to aid the throughput of the ions",
+  an_example_of_one_of_these_competitors: { definition: "Quaternary ammonium ions, which bind at the extracellular face [ 84 ] [ 85 ] or central cavity of the channel", what_it_does: "", examples: "multiple sclerosis [ 49 ] and KCNA2-related disorders" },
+  some_types_of_potassium_channels: "Activated by muscarinic receptors and these are called muscarinic potassium channels (I KACh )",
+
 };
 
 // ============================================================
