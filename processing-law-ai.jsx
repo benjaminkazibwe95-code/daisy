@@ -61651,6 +61651,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 07:27 ===
   an_action_plan: "A detailed plan outlining actions needed to reach one or more goals",
 
+  // === INGESTED 2026-07-05 07:29 ===
+  a_project_postmortem: "A process used to identify the causes of a project failure (or significant business-impairing downtime), and how to prevent them in the future",
+  postmortems: "Often considered a key component of, and ongoing precursor to, effective risk management",
+  the_greater_the_granularity_with_which_time: "Tracked, the more detailed an analysis can be performed during the project post-mortem",
+
 };
 
 // ============================================================
