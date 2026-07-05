@@ -62364,6 +62364,10 @@ const FLAT_DICT = {
   the_roofs: "Built with mangrove pole",
   their_chief_qualities: "Devotion and piety: they follow the Shafi'i sect",
 
+  // === INGESTED 2026-07-05 18:44 ===
+  additional_members: "Nominated by the President, and five seats are chosen by the Zanzibar House of Representatives",
+  further_seats: "Reserved for female members who are selected by their parties",
+
 };
 
 // ============================================================
