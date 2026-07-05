@@ -61677,6 +61677,9 @@ const FLAT_DICT = {
   failureoblivious_computing: { definition: "A technique that enables computer programs to continue executing despite errors", what_it_does: "", examples: "null pointer dereference and divide by zero" },
   space_redundancy: "Further classified into hardware, software and information redundancy, depending on the type of redundant resources added to the system",
 
+  // === INGESTED 2026-07-05 07:36 ===
+  associationism: "Often concerned with middle-level to higher-level mental processes such as learning",
+
 };
 
 // ============================================================
