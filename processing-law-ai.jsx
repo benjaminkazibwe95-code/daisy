@@ -61385,6 +61385,25 @@ const FLAT_DICT = {
   comparison_of_tax_rates_around_the_world: "A difficult and somewhat subjective enterprise",
   tax_laws_in_most_countries: "Extremely complex, and tax burden falls differently on different groups in each country and sub-national unit",
 
+  // === INGESTED 2026-07-05 06:25 ===
+  this_pretax_option: "What makes traditional 401(k) plans attractive to employees, and many employers offer this option to their full-time workers",
+  after_that_study: "Completed, Congress reauthorized such plans, provided they satisfied certain special requirements",
+  effective_tax_rates: "Used to incorporate the impact of contributions and draws on the saver's qualification for benefits from other income-tested programs",
+  the_withdrawal_tax: "Conceptually an allocation of principal between owners, not a 'tax', and there is no benefit 'from deferral'",
+  when_distributions: "Made, the taxable portion of the distribution will be calculated as the ratio of the after-tax contributions to the total 401(k) basis",
+  the_remainder_of_the_distribution: "Tax-free and not included in gross income for the year",
+  roth_contributions: { definition: "Irrevocable and cannot be converted to pre-tax contributions at a later date", what_it_does: "", examples: "both catch-up contributions if applicable)" },
+  amounts_withdrawn: "Subject to ordinary income taxes to the participant",
+  money_that: "Withdrawn prior to the age of 59 + 1 ⁄ 2 typically incurs a 10% penalty tax unless a further exception applies",
+  a_person_who: "Required to make a required minimum distribution, but does not do so, is subject to a penalty of 50% of the amount that should have been distributed",
+  plans_which: "Set up under section 401(k) can also have employer contributions that cannot exceed other regulatory limits",
+  this_provision: "Enforced via 'non-discrimination testing'",
+  the_threshold: "$130,000 for 2020, and is $160,000 for 2025",
+  a_failed_acp_test: "Likewise addressed through return of excess, or a QNEC or qualified match (QMAC)",
+  if_the_plans: "Too top-heavy, the company must remedy this by allocating funds to the other employees' (known as non-key employees) benefit plans",
+  robs: "An arrangement in which prospective business owners use their 401(k) retirement funds to pay for new business start-up costs",
+  earners: { definition: "Generally advised to shift from higher-risk, higher-return assets to lower-risk assets as they near retirement age", what_it_does: "", examples: "commodities), or choosing socially responsible investing" },
+
 };
 
 // ============================================================
