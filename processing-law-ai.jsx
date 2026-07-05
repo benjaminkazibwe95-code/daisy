@@ -62410,6 +62410,11 @@ const FLAT_DICT = {
   the_podcast: { definition: "Currently hosted by deputy editor Cherlynn Low and senior reporter Devindra Hardawar, with new episodes released on Fridays", what_it_does: "", examples: "two features by then-staffer Chris Ip and one by contributor Megan Giller" },
   shatner_claimed_colucci_and_the_team: "Bullying him when giving a text interview to Mashable",
 
+  // === INGESTED 2026-07-05 19:03 ===
+  the_process_of_academic_publishing: { definition: "Disseminating research findings to a wider audience", what_it_does: "", examples: "computer software , are also classified as primary literature" },
+  in_some_fields_both: "Used, with preliminary reports, working papers, or preprints followed by a formal article",
+  articles: "Usually prepared at the end of a project, or at the end of components of a particularly large one",
+
 };
 
 // ============================================================
