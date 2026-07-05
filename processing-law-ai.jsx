@@ -60816,6 +60816,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 04:21 ===
   his_main_academic_theory: "Called New Structural Economics",
 
+  // === INGESTED 2026-07-05 04:23 ===
+  developmentalism: "Often accused by the left (though not only by the left) of having an ideology of neocolonialism at its root",
+  this_creates_what: "Called the developmentalist configuration",
+
 };
 
 // ============================================================
