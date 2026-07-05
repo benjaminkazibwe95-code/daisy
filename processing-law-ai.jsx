@@ -59935,6 +59935,10 @@ const FLAT_DICT = {
   the_red_sea_project: { definition: "Building the highest quality accommodation and a wide range of facilities on the coastline in Saudi Arabia", what_it_does: "people to visit the coastline of the Red Sea by the end of 2022 but will be fully finished by 2030", examples: "" },
   the_blocking_of_israelilinked_ships: { definition: "In response to Israel's war in Gaza", what_it_does: "", examples: "oil, weapons, and narcotics" },
 
+  // === INGESTED 2026-07-05 00:34 ===
+  mijikenda: "A Bantu dialect cluster spoken along the coast of East Africa, mostly in Kenya , where there are 2",
+  the_name_mijikenda: "'the nine settlements' or 'the nine communities' and refers to the multiple language communities that make up the group",
+
 };
 
 // ============================================================
