@@ -59831,6 +59831,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 00:06 ===
   cooperative_synapse_formation: { definition: "The mutual amplification of synapses", what_it_does: "", examples: "in a rat cortex" },
 
+  // === INGESTED 2026-07-05 00:11 ===
+  dendrodendritic_synapses: "Activated in a similar fashion to axodendritic synapses in respects to using a chemical synapse",
+  there_is_evidence_that_these_synapses: "Bi-directional, in that either dendrite can signal at that synapse",
+  in_a_simulated_disease_state_where_axons: "Destroyed, some neurons formed dendrodendritic synapses to compensate",
+
 };
 
 // ============================================================
