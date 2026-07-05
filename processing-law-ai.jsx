@@ -60046,6 +60046,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 01:02 ===
   a_second_link: { definition: "At Kidatu , where the TAZARA line meets the Kidatu branch", what_it_does: "", examples: "Burundi , Rwanda, and the Democratic Republic of Congo" },
 
+  // === INGESTED 2026-07-05 01:04 ===
+  the_wall_in_which_a_mihrab_appears: "Thus the ' qibla wall'",
+  when_the_mosque: "Renovated in 1987, the old prayer niche facing Jerusalem was removed, and the one facing Mecca was kept",
+  the_calligraphy_decoration_on_the_mihrabs: "Usually from the Qur'an and are devotions to God so that God's word reaches the people",
+  the_entrance: "Covered in mosaics 'which links to the Byzantium tradition, produced by the craftsmen sent by Emperor Nicephorus II",
+
 };
 
 // ============================================================
