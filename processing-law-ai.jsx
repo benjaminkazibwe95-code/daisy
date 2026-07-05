@@ -60072,6 +60072,13 @@ const FLAT_DICT = {
   literature_using_hypertext: { definition: "Frequently referred to as hypertext fiction", what_it_does: "", examples: "India [ 64 ] and Europe" },
   the_only_multimedia_work_mentioned: "Postcards From Writing by Sally Prior",
 
+  // === INGESTED 2026-07-05 01:15 ===
+  parameter_values: { definition: "Usually case-sensitive, but may be interpreted in a case-insensitive fashion depending on the intended use", what_it_does: "", examples: "a tree prefix, producer, product or suffix, according to the different rules in registration trees" },
+  these_registration_trees: "First defined in November 1996 (obsoleted RFC 2048 - currently RFC 6838)",
+  the_mailcap_format: "Defined by RFC 1524 'A User Agent Configuration Mechanism for Multimedia Mail Format Information' but is not defined as an Internet standard",
+  an_associated_file: "The mime.types file, which associates filename extensions with a MIME type",
+  if_the_mime_type: { definition: "Properly set, this is unnecessary, but MIME types may be incorrectly set, or set to a generic type such as application/octet-stream , and mime", what_it_does: "", examples: "the HTML type can be associated with the extensions .htm and .html by the following line: The mime" },
+
 };
 
 // ============================================================
