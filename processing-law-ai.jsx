@@ -59867,6 +59867,28 @@ const FLAT_DICT = {
   only_two_people: { definition: "Known to have read two independent editions: the author C", what_it_does: "", examples: "inconsistent sorting of Japanese biographies" },
   men_who: "Acquainted with the innumerable difficulties attending the execution of a work of such an extensive nature will make proper allowances",
 
+  // === INGESTED 2026-07-05 00:17 ===
+  signal_transduction: "The process by which a chemical or physical signal is transmitted through a cell as a series of molecular events",
+  proteins_responsible_for_detecting_stimuli: "Generally termed receptors , although in some cases the term sensor is used",
+  these_molecular_events: "The basic mechanisms controlling cell growth , proliferation, metabolism and many other processes",
+  ligands: "Termed first messengers , while receptors are the signal transducers , which then activate primary effectors",
+  such_effectors_are_typically_proteins_and: { definition: "Often linked to second messengers , which can activate secondary effectors , and so on", what_it_does: "", examples: "signaling rewiring mechanisms underlying responses to acquired drug resistance" },
+  most_ligands: { definition: "Soluble molecules from the extracellular medium which bind to cell surface receptors", what_it_does: "", examples: "fibronectin and hyaluronan can also bind to such receptors ( integrins and CD44 , respectively)" },
+  epinephrine: { definition: "A neurotransmitter when secreted by the central nervous system and a hormone when secreted by the adrenal medulla", what_it_does: "", examples: "HER2 are capable of ligand-independent activation when overexpressed or mutated" },
+  such_response: "Triggered when high temperatures cause the dissociation of inactive HSF1 from complexes with heat shock proteins Hsp40 / Hsp70 and Hsp90",
+  extracellular_receptors: { definition: "Integral transmembrane proteins and make up most receptors", what_it_does: "", examples: "tyrosine kinase and phosphatases" },
+  enzymes_and_adaptor_proteins: { definition: "Both responsive to various second messenger molecules", what_it_does: "", examples: "the kinase protein AKT" },
+  five_adaptor_molecules: "Known to be involved in signaling, which are Myd88 , TIRAP , TRIF , TRAM , and SARM1",
+  thousands_of_genes: "Activated by TLR signaling, implying that this method constitutes an important gateway for gene modulation",
+  an_example_of_this_mechanism: "Found in the receiving cell of a neural synapse",
+  the_typical_ligands_for_nuclear_receptors: "Non-polar hormones like the steroid hormones testosterone and progesterone and derivatives of vitamins A and D",
+  dna_sequences_that_match_the_receptor: "Usually hexameric repeats of any kind; the sequences are similar but their orientation and distance differentiate them",
+  steroid_receptors: "A subclass of nuclear receptors located primarily within the cytosol",
+  retinoic_acid_receptors: "Another subset of nuclear receptors",
+  these_receptors_are_located_in_the_nucleus_and: "Not accompanied by HSPs",
+  the_latter_observation: "Consistent with earlier findings by Fanger et al",
+  binding: "Essentially irreversible, whereas the affinities of antibodies secreted by B cells increase as the immune response progresses",
+
 };
 
 // ============================================================
