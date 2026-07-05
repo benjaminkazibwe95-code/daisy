@@ -60267,6 +60267,12 @@ const FLAT_DICT = {
   one_important_permission: "Append-only , which is distinct from simple 'read', 'write', and 'read-write' permissions in that all existing data is immutable",
   since_data: "Encrypted using the secret key, identical files encrypted with different keys will be different",
 
+  // === INGESTED 2026-07-05 02:02 ===
+  the_underlying_benefit_of_cloud_computing: "Shared resources, which are supported by the underlying nature of a shared infrastructure environment",
+  as_applications: "Moved from dedicated hardware into the cloud , they need to achieve the same even more demanding levels of service than classical installations",
+  this_new_arrangement: "Managed through a contract that may include one or more SLAs",
+  specific_slas: { definition: "Typically negotiated upfront as part of the outsourcing contract and used as one of the primary tools of outsourcing governance", what_it_does: "", examples: "Using Software Measurement in SLAs [ 19 ] ) that are available in to the public" },
+
 };
 
 // ============================================================
