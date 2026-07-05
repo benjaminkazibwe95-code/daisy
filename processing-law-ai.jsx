@@ -62831,6 +62831,11 @@ const FLAT_DICT = {
   trading: "Conducted electronically as well as through auction bidding by securities companies",
   the_tse: "Regulated by the Financial Services Agency of Japan",
 
+  // === INGESTED 2026-07-05 20:56 ===
+  credit_risk_mainly_arises_when_borrowers: { definition: "Unable or unwilling to pay", what_it_does: "", examples: "credit cards and overdrafts, the risk is controlled through the setting of credit limits" },
+  the_existence_of_such_risk: "That creditors should take a two-stage decision process when deciding to lend to a firm based in a foreign country",
+  offsetting_counterparty_risk: "Not always possible, e.g",
+
 };
 
 // ============================================================
