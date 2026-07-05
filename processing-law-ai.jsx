@@ -60943,6 +60943,24 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 04:57 ===
   the_earliest_period_once_considered_historical: "The legendary era of the sage-emperors Yao , Shun , and Yu",
 
+  // === INGESTED 2026-07-05 04:59 ===
+  catholic_communities: "Present worldwide through missions , immigration , and conversions",
+  catholic_doctrine: "Rooted in the Nicene Creed and holds that the church is the ' one, holy, catholic and apostolic Church ' founded by Jesus Christ",
+  apostolic_teaching: { definition: "Understood to be transmitted through Scripture and sacred tradition , interpreted by the magisterium , the church's teaching authority", what_it_does: "", examples: "the Immaculate Conception , perpetual virginity , and Assumption , including devotional practices" },
+  ultimately_leading_the_entire_catholic_church: "The bishop of Rome , known as the pope ( Latin : papa , lit",
+  the_office_of_the_pope: "Known as the papacy",
+  his_ecclesiastical_jurisdiction: { definition: "Called the Holy See, or the Apostolic See (meaning the see of the apostle Peter)", what_it_does: "", examples: "leaders within the Roman Curia, bishops serving in major cities and distinguished theologians" },
+  the_actual_subject_material_of_the_canons: { definition: "Not just doctrinal or moral in nature, but all-encompassing of the human condition", what_it_does: "", examples: "the guardianship of minors" },
+  the_largest_and_most_well_known: "The Latin Church, the only Western-tradition church, with more than 1 billion members worldwide",
+  these_churches: { definition: "Communities of Catholic Christians whose forms of worship reflect distinct historical and cultural influences rather than differences in doctrine", what_it_does: "", examples: "5,430 bishops, 406,996 priests (diocesan and religious) and 51,433 deacons (permanent)" },
+  several_liturgical_marian_feasts: { definition: "Celebrated throughout the Church Year and she is honoured with many titles such as Queen of Heaven", what_it_does: "", examples: "the Hail Mary , the Rosary , the Salve Regina and the Memorare are common Catholic practices" },
+  the_number_and_nature_of_the_sacraments: { definition: "Defined by several ecumenical councils , most recently the Council of Trent", what_it_does: "", examples: "the visible form) remaining: a change called transubstantiation" },
+  in_the_latin_church_the_priesthood: "Generally restricted to celibate men, and the episcopate is always restricted to celibate men",
+  remarriage_following_a_divorce: "Not permitted unless the prior marriage was declared invalid",
+  the_roman_rite: "The most common rite of worship used by the Catholic Church, with the Ordinary Form of the Roman Rite form of the Mass",
+  the_number_following_ccc: "The paragraph number, of which there are 2865",
+  the_numbers_cited_in_the_compendium_of_the_ccc: "Question numbers, of which there are 598",
+
 };
 
 // ============================================================
