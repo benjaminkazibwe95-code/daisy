@@ -60928,6 +60928,10 @@ const FLAT_DICT = {
   statefunded_nursery_education: "Available from the age of 3, and may be full-time or part-time, though this is not compulsory",
   the_next: "Secondary school which runs for three or four years, from Year 7 or 8 to Year 10",
 
+  // === INGESTED 2026-07-05 04:53 ===
+  compulsory_education: { definition: "A period of education that is required of all people and is imposed by the government", what_it_does: "", examples: "Emile, or On Education ), said, 'To get a good idea of public education, read Plato's Republic" },
+  school_courses: { definition: "Harsh and have been described as a 'brutal training period'", what_it_does: "", examples: "Harvard College was founded as early as 1636" },
+
 };
 
 // ============================================================
