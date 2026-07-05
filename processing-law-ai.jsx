@@ -61574,6 +61574,10 @@ const FLAT_DICT = {
   while_the_o_s: { definition: "Usually in lower-case to indicate that they do not stand for anything, the all-capitals MOSCOW is also used", what_it_does: "", examples: "Scrum , rapid application development (RAD), and DSDM" },
   the_categories: { definition: "Typically understood as: [ 3 ] Sometimes W is used to mean wish (or would ), i.e", what_it_does: "", examples: "should a team have too many potential epics (i.e" },
 
+  // === INGESTED 2026-07-05 07:08 ===
+  alan_lakein: "An American author on personal time management , including How to Get Control of Your Time and Your Life which has sold over 3 million copies",
+  lakein: "Credited for several quotes, including 'Time = Life, Therefore, waste your time and waste your life, or master your time and master your life",
+
 };
 
 // ============================================================
