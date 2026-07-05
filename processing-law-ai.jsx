@@ -62701,6 +62701,11 @@ const FLAT_DICT = {
   this_discovery_is_in_contrast_to_what: "Previously believed about gamma radiation: that it could only elicit mutations in plants and not pollen",
   nitroso_compounds: { definition: "The other alkylating agents widely used, but they are light-sensitive and more precautions need to be taken because of their higher volatility", what_it_does: "", examples: "in developing TILLING populations" },
 
+  // === INGESTED 2026-07-05 20:37 ===
+  small_molecules: "More likely to be absorbed, although some of them are only absorbed after oral administration if given as prodrugs",
+  a_downside_is_that_not_all_targets: "Amenable to modification with small-molecule drugs; bacteria and cancers are often resistant to their effects",
+  secondary_metabolites: { definition: "A rich source of biologically active compounds and hence are often used as research tools and leads for drug discovery", what_it_does: "", examples: "wrenchnolol (a wrench shaped molecule)" },
+
 };
 
 // ============================================================
