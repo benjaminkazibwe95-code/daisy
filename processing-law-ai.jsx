@@ -61567,6 +61567,13 @@ const FLAT_DICT = {
   when_something: { definition: "Deemed effective , it means it has an intended or expected outcome, or produces a deep, vivid impression", what_it_does: "", examples: "to countries whose laws are 'well written' but not effectively enforced" },
   the_word_effective: "Sometimes used in a quantitative way, 'being very effective or not very effective'",
 
+  // === INGESTED 2026-07-05 07:03 ===
+  the_moscow_method: "A prioritization technique",
+  the_term_moscow_itself: "An acronym derived from the first letter of each of four prioritization categories: M - Must have , S - Should have , C - Could have , W - Won't have",
+  the_interstitial_o_s: "Added to make the word pronounceable",
+  while_the_o_s: { definition: "Usually in lower-case to indicate that they do not stand for anything, the all-capitals MOSCOW is also used", what_it_does: "", examples: "Scrum , rapid application development (RAD), and DSDM" },
+  the_categories: { definition: "Typically understood as: [ 3 ] Sometimes W is used to mean wish (or would ), i.e", what_it_does: "", examples: "should a team have too many potential epics (i.e" },
+
 };
 
 // ============================================================
