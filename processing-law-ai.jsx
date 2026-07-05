@@ -62712,6 +62712,20 @@ const FLAT_DICT = {
   kanamycin_is_toxic_to_chloroplasts_and: "Deadly for some plants",
   flavr_savr_tomatoes: { definition: "Still labeled as genetically altered, though it was not a requirement", what_it_does: "", examples: "the Flavr Savr" },
 
+  // === INGESTED 2026-07-05 20:41 ===
+  the_genotype_of_an_organism: "Its complete set of genetic material",
+  if_both_alleles: "The same, the genotype is referred to as homozygous",
+  if_the_alleles: { definition: "Different, the genotype is referred to as heterozygous", what_it_does: "", examples: "the petal color in a pea plant is exclusively determined by genotype" },
+  the_term_genotype: "Coined by the Danish botanist Wilhelm Johannsen in 1903",
+  penetrance: { definition: "The proportion of individuals showing a specified genotype in their phenotype under a given set of environmental conditions", what_it_does: "", examples: "plant height, petal color, or seed shape" },
+  he_concluded_that_some_traits: "Dominant , such as tall height, and others were recessive, like short height",
+  though_mendel: "Not aware at the time, each phenotype he studied was controlled by a single gene with two alleles",
+  when_the_tall_allele: "Present, the plant would be tall, even if the plant was heterozygous",
+  an_uppercase_letter: "Typically used to represent the dominant allele, and a lowercase letter is used to represent the recessive allele",
+  a_polygenic_trait_is_one_whose_phenotype: "Dependent on the additive effects of multiple genes",
+  the_contributions_of_each_of_these_genes: "Typically small and add up to a final phenotype with a large amount of variation",
+  a_well_studied_example_of_this: "The number of sensory bristles on a fly",
+
 };
 
 // ============================================================
