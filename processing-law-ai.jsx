@@ -61609,6 +61609,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 07:18 ===
   baumeister: "Married to Dianne Tice, a social psychologist with whom he has collaborated",
 
+  // === INGESTED 2026-07-05 07:21 ===
+  central_to_the_fourbranch_model: "The idea that EI requires attunement to social norms",
+  emotional_competencies: "Learned capabilities that must be developed to achieve performance",
+  goleman_posits_that_individuals: "Born with a general emotional intelligence that determines their potential for learning emotional competencies",
+  trait_ei: { definition: "Investigated within a personality framework", what_it_does: "", examples: "the EQ-i, the Swinburne University Emotional Intelligence Test (SUEIT), and the Schutte EI model" },
+  bullying: { definition: "Typically repetitive and enacted by those who are in a position of power over the victim", what_it_does: "", examples: "live fire and rappelling exercises" },
+  found_that_emotional_intelligence: "Associated with better mental and physical health",
+  people_who_score_high_on_neuroticism: { definition: "Likely to score low on self-report EI measures", what_it_does: "", examples: "or excluding important controls variables can fundamentally change results" },
+  the_overlap: { definition: "So large they concluded that 'The findings suggest that the general factor of personality is very similar, perhaps even synonymous, to trait EI", what_it_does: "", examples: "anxious attachment and avoidant attachment" },
+
 };
 
 // ============================================================
