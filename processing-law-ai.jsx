@@ -62233,6 +62233,21 @@ const FLAT_DICT = {
   pusilla_population_in_an_inshore_environment: "Lysed per day, with an average of 4.4%",
   pusilla: "Responsible for nutrient and energy recycling in aquatic food webs, which is yet to be quantified",
 
+  // === INGESTED 2026-07-05 17:55 ===
+  activity_of_the_nmda_receptor: { definition: "Blocked by many psychoactive drugs such as phencyclidine (PCP), alcohol ( ethanol ) and dextromethorphan (DXM)", what_it_does: "", examples: "epilepsy , Parkinson's , Alzheimer's , Huntington's and other CNS disorders" },
+  the_nmda_receptor: "A glutamate and ion channel protein receptor that is activated when glycine and glutamate bind to it",
+  the_channels: { definition: "Also highly permeable to Ca 2+", what_it_does: "", examples: "the glutamate binding site and the control of the Mg 2+ block are formed by the GluN2B subunit" },
+  the_high_affinity_sites_for_glycine_antagonist: "Also exclusively displayed by the GluN1/GluN2B receptor",
+  channel_activation_of_nmda_receptors: "A result of the binding of two co agonists, glycine and glutamate",
+  excitotoxicity: "Implied to be involved in some neurodegenerative disorders such as Alzheimer's disease, Parkinson's disease and Huntington's disease",
+  at_physiological_ph_its_amine_group: { definition: "Positively charged and its receptor antagonism is voltage-dependent", what_it_does: "", examples: "growth cones , [ 39 ] and contains the binding-site for the selective inhibitor ifenprodil" },
+  although_both_subunits: { definition: "Found in synaptic and extrasynaptic NMDARs there is some evidence to suggest that the GluN2B subunit occurs more frequently in extrasynaptic receptors", what_it_does: "", examples: "strokes and epilepsy" },
+  when_certain_nmda_receptor_antagonists: { definition: "Given to rodents in large doses, they can cause a form of brain damage called Olney's lesions", what_it_does: "", examples: "dilatation of blood vessels and consequent hypotension could result" },
+  noncompetitive_antagonism: "A type of block that an increased concentration of glutamate cannot overcome, and is dependent upon prior activation of the receptor by the agonist, i",
+  it_is_a_derivative_of_amantadine_which: "First an anti-influenza agent but was later discovered by coincidence to have efficacy in Parkinson's disease",
+  the_binding_pockets_for_the_methyl_groups: { definition: "Considered to be at the NR1-A645 and NR2B-A644 of the NR1/NR2B", what_it_does: "", examples: "Alzheimer's disease, Parkinson's disease, Huntington's disease and amyotrophic lateral sclerosis" },
+  nmdartargeting_compounds: { definition: "Under investigation for the treatment of mood disorders", what_it_does: "", examples: "major depressive disorder and treatment-resistant depression" },
+
 };
 
 // ============================================================
