@@ -62605,6 +62605,23 @@ const FLAT_DICT = {
   numerical_methods_of_solution_of_these_models: "Called molecular dynamics (MD), and sometimes molecular mechanics (especially, in relation to statically equilibrated (still) models)",
   development_of_these_complex_methods: { definition: "A separate subject of applied mechanics research", what_it_does: "", examples: "nanoelectronics , advanced energy systems, and nanobiotechnology" },
 
+  // === INGESTED 2026-07-05 20:05 ===
+  singlelayer_materials_that: "Compounds of two or more elements have -ane or -ide suffixes",
+  it_is_predicted_that_there: "Hundreds of stable single-layer materials",
+  the_existence_of_graphyne: { definition: "Conjectured before 1960", what_it_does: "", examples: "NO x and CO x and it is able to trap and dissociate them at low temperature" },
+  antimonene: "First isolated in 2016 by micromechanical exfoliation [ 46 ] and it was found to be very stable under ambient conditions",
+  goldene: "Expected to be used primarily for its optical properties, with applications such as sensing or as a catalyst",
+  germanane: "Produced in a two-step route starting with calcium germanide",
+  the_monolayer_hbn: "An electrical insulator with wide band gap ~5.9-6.4eV",
+  hitp: "An organic chemical (2,3,6,7,10,11-hexaamino triphenylene )",
+  room_temperature_electrical_conductivity: { definition: "~40 S cm −1 , comparable to that of bulk graphite and among the highest for any conducting metal-organic frameworks (MOFs)", what_it_does: "", examples: "bilayer graphene is a material consisting of two layers of graphene" },
+  one_of_the_first_reports_of_bilayer_graphene: "In the seminal 2004 Science paper by Geim and colleagues, in which they described devices 'which contained just one, two, or three atomic layers'",
+  twistronics: "The study of how the angle (the twist) between layers of two-dimensional materials can change their electrical properties",
+  these_experiments: "Run using dedicated nanoindentation equipment or an Atomic Force Microscope (AFM)",
+  the_strip_geometry: "Difficult to prepare but allows for easier analysis due to linear resulting stress fields",
+  the_circular_drumlike_geometry: { definition: "More commonly used and can be easily prepared by exfoliating samples onto a patterned substrate", what_it_does: "", examples: "phosphorene, crack propagation was found to happen preferentially along certain directions" },
+  the_major_expectation_held_amongst_researchers: { definition: "That given their exceptional properties, 2D materials will replace conventional semiconductors to deliver a new generation of electronics", what_it_does: "", examples: "drug delivery , imaging , tissue engineering , biosensors , and gas sensors among others" },
+
 };
 
 // ============================================================
