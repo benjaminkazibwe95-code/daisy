@@ -62486,6 +62486,36 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 19:23 ===
   a_classaction_lawsuit: "Filed in March 2017, alleging that LG continued to market and distribute phones with the defect even after LG publicized it",
 
+  // === INGESTED 2026-07-05 19:25 ===
+  the_mime_media_type_for_jpeg: "'image/jpeg', except in older Internet Explorer versions, which provide a MIME type of 'image/pjpeg' when uploading JPEG images",
+  the_original_jpeg_group: "Organized in 1986, [ 22 ] issuing the first JPEG standard in 1992, which was approved in September 1992 as ITU-T Recommendation T",
+  jpeg_standards: "Formally named as Information technology – Digital compression and coding of continuous-tone still images",
+  a_third_lawsuit: "Filed on 5 December 2007, in South Florida against ADT Security Services , AutoNation , Florida Crystals Corp., HearUSA , MovieTickets",
+  a_fifth_lawsuit: "Filed against Global Patent Holdings in Nevada",
+  that_lawsuit: "Filed by Zappos.com , Inc",
+  the_quantized_coefficients: "Then sequenced and losslessly packed into the output bitstream",
+  the_compression_method: "Usually lossy , meaning that some original image information is lost and cannot be restored, possibly affecting image quality",
+  rotations_where_the_image: "Not a multiple of 8 or 16, which value depends upon the chroma subsampling, are not lossless",
+  within_these_segments_of_the_file_that: "Left for future use in the JIF standard and are not read by it, these standards add specific metadata",
+  image_files_that_employ_jpeg_compression: "Commonly called 'JPEG files', and are stored in variants of the JIF image format",
+  restart_markers_provide: "For recovery after bitstream error, such as transmission over an unreliable network or file corruption",
+  this_particular_option: "A lossy data compression method",
+  this_rounding_operation: "The only lossy operation in the whole process (other than chroma subsampling) if the DCT computation is performed with sufficiently high precision",
+  entropy_coding: "A special form of lossless data compression",
+  the_difference_between_the_two: "Encoded rather than the actual value",
+  this_encoding_mode: { definition: "Called baseline sequential encoding", what_it_does: "continues until 'EOB' – denoted by (0, 0) – is reached", examples: "if the image is divided into N 8×8 blocks B 0 , B 1 , B 2 ," },
+  stronger_compression: "Applied to areas of the image that show fewer artifacts",
+  this_way_it: "Possible to manually reduce JPEG file size with less loss of quality",
+  these_requirements: "Specified in ITU.T Recommendation T.83 | ISO/IEC 10918-2",
+  a_particular_limitation_of_jpeg_in_this_regard: "Its non-overlapped 8×8 block transform structure",
+  the_files_produced_by_such_programs: "Not compatible with the JPEG standard and require special software to decode",
+  jps: "A stereoscopic JPEG image used for creating 3D effects from 2D images",
+  this_library: "Used in countless applications",
+  its_functionality: "Largely limited to that, and largely shares the same limitations of the original JPEG in other aspects",
+  extensions: "Backward compatible with the base JPEG/JFIF file format and 8-bit lossy compressed image",
+  extension_layers: "Used to modify the JPEG 8-bit base layer and restore the high-resolution image",
+  existing_software: "Forward compatible and can read the JPEG XT binary stream, though it would only decode the base 8-bit layer",
+
 };
 
 // ============================================================
