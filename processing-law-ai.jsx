@@ -61578,6 +61578,17 @@ const FLAT_DICT = {
   alan_lakein: "An American author on personal time management , including How to Get Control of Your Time and Your Life which has sold over 3 million copies",
   lakein: "Credited for several quotes, including 'Time = Life, Therefore, waste your time and waste your life, or master your time and master your life",
 
+  // === INGESTED 2026-07-05 07:10 ===
+  a_choice: { definition: "The range of different things from which a being can choose", what_it_does: "", examples: "the number of hours spent doing homework" },
+  the_canonical_example: "A hiring decision made about two candidates being hired for a programming job",
+  the_explanation_for_this_is_that_ky_programs: "An attribute that is difficult to evaluate and thus people cannot base their judgment on this attribute in separate evaluation",
+  as_increasing_options: "Available, three problems emerge",
+  a_maximizer: "One who always seeks the very best option from a choice set, and may anguish after the choice is made as to whether it was indeed the best",
+  satisfiers_may_set_high_standards_but: "Content with a good choice, and place less priority on making the best choice",
+  the_synchronic_dimension_of_identity: "More about the various parts of an identity and how these shifting aspects can change behavior",
+  the_diachronic_dimension_of_identity: "How a person’s identity persists and is the same and how they understand an object in relation to their identity",
+  a_picture_of_running_shoes: "Created to either make the ad look good or bad and participants were asked to choose between four different brands",
+
 };
 
 // ============================================================
