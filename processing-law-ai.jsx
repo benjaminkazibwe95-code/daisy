@@ -61232,6 +61232,35 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 05:55 ===
   amp: { definition: "Also a component in the synthesis of RNA", what_it_does: "", examples: "adenosine monophosphate, are formed" },
 
+  // === INGESTED 2026-07-05 05:57 ===
+  the_diverse_purposes_and_mechanisms_of_sleep: { definition: "The subject of substantial ongoing research", what_it_does: "", examples: "the removal of amyloid , may be a core purpose of sleep" },
+  simultaneous_collection_of_these_measurements: { definition: "Called polysomnography , and can be performed in a specialized sleep laboratory", what_it_does: "", examples: "being asleep, being awake, or falling asleep" },
+  alpha_waves_are_seen_when_a_person: "In a resting state, but is still fully conscious",
+  their_eyes_may_be_closed_and_all_of_their_body: "Resting and relatively still, where the body is starting to slow down",
+  beta_waves_take_over_alpha_waves_when_a_person: "At attention, as they might be completing a task or concentrating on something",
+  gamma_waves_are_seen_when_a_person: "Highly focused on a task or using all their concentration",
+  delta_waves: "Seen in stages 3 and 4 of sleep when a person is in their deepest of sleep",
+  nonrem_and_rem_sleep: "So different that physiologists identify them as distinct behavioral states",
+  this_driver_of_sleep: "Referred to as Process S",
+  the_balance_between_sleeping_and_waking: "Regulated by a process called homeostasis",
+  induced_or_perceived_lack_of_sleep: { definition: "Called sleep deprivation", what_it_does: "", examples: "the hours when other people are awake, the hours when work is required, the time on clocks, etc" },
+  bimodal_sleep_in_humans: { definition: "More common before the Industrial Revolution", what_it_does: "", examples: "the familiarly so-called ' early bird ' and ' night owl ', are called chronotypes" },
+  chronotype: "Also liable to change over the course of a person's lifetime",
+  sevenyearolds: "Better disposed to wake up early in the morning than are fifteen-year-olds",
+  napping: "Often associated with childhood, but around one-third of American adults partake in it daily",
+  the_optimal_nap_duration: "Around 10–20 minutes, as researchers have proven that it takes at least 30 minutes to enter slow-wave sleep, the deepest period of sleep",
+  this_period_of_drowsiness: "Called sleep inertia",
+  objective_sleep_quality: { definition: "How difficult it is for a person to fall asleep and remain in a sleeping state, and how many times they wake up during a single night", what_it_does: "", examples: "depression , alcoholism , and bipolar disorder" },
+  this_shows_that_sleep_is_vital_even_when_there: "No need for other functions of sleep, such as memory consolidation or dreaming",
+  a_lucid_dream: "A type of dream in which the dreamer becomes aware that they are dreaming while dreaming",
+  while_poor_sleep: "Common among those with cardiovascular disease, some research indicates that poor sleep can be a contributing cause",
+  short_sleep_duration_of_less_than_seven_hours: "Correlated with coronary heart disease and increased risk of death from coronary heart disease",
+  sleep_duration_greater_than_nine_hours: { definition: "Also correlated with coronary heart disease, as well as stroke and cardiovascular events", what_it_does: "", examples: "daytime napping, sleep timing, the variability of sleep timing, and low sleep efficiency" },
+  short_sleep_and_poor_sleep: "Observed more frequently in ethnic minorities than in whites in the US",
+  another_way_to_greatly_improve_sleep_hygiene: "By creating a peaceful and relaxing sleep environment",
+  sleep_onset: "Determined not by a set bedtime, but by whether there were things to do",
+  these_choices: "Shaped by a variety of factors, such as climate, protection from predators, housing type, technology, personal preference, and the incidence of pests",
+
 };
 
 // ============================================================
