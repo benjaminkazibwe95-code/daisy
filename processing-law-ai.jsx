@@ -61902,6 +61902,33 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 16:17 ===
   lowry_who: "The minister of the Wesleyan Church in Aldershot from 1892 to 1919",
 
+  // === INGESTED 2026-07-05 16:19 ===
+  a_solvent: "Usually a liquid but can also be a solid, a gas, or a supercritical fluid",
+  major_uses_of_solvents: { definition: "In paints, paint removers, inks , and dry cleaning", what_it_does: "", examples: "in chemical syntheses and purification processes" },
+  some_petrochemical_solvents: "Highly toxic and emit volatile organic compounds",
+  biobased_solvents: { definition: "Usually more expensive, but ideally less toxic and biodegradable", what_it_does: "", examples: "terpenes , vegetable oils and animal fats )" },
+  heat_transfer_is_involved_and_entropy: "Increased making the solution more thermodynamically stable than the solute and solvent separately",
+  a_solution: "A homogeneous mixture consisting of a solute dissolved into a solvent",
+  the_solute_is_the_substance_that: "Being dissolved, while the solvent is the dissolving medium",
+  a_special_case: "Elemental mercury , whose solutions are known as amalgams ; also, other metal solutions exist which are liquid at room temperature",
+  the_strong_polarity_of_water: "Indicated by its high dielectric constant of 88 (at 0 °C)",
+  because_solvents: "Used by chemists to carry out chemical reactions or observe chemical and biological phenomena, more specific measures of polarity are required",
+  most_of_these_measures: "Sensitive to chemical structure",
+  e_t: { definition: "The transition energy between the ground state and the lowest excited state in kcal/mol, and (30) identifies the dye", what_it_does: "", examples: "Reichardt's dye , nitroaniline and diethylnitroaniline" },
+  these_polar_solvents: "Capable of forming hydrogen bonds with water to dissolve in water whereas non-polar solvents are not capable of strong hydrogen bonds",
+  the_solvents: { definition: "Grouped into nonpolar , polar aprotic , and polar protic solvents, with each group ordered by increasing polarity", what_it_does: "", examples: "that there is a good HSP match between a solvent and a polymer" },
+  because_numerical_values: { definition: "Used, comparisons can be made rationally by comparing numbers", what_it_does: "", examples: "acetonitrile is much more polar than acetone but exhibits slightly less hydrogen bonding" },
+  the_values_for_mixtures: "Taken as the weighted averages of the values for the neat solvents",
+  important_exceptions: "Most of the halogenated solvents like dichloromethane or chloroform will sink to the bottom of a container, leaving water as the top layer",
+  most_organic_solvents: "Flammable or highly flammable, depending on their volatility",
+  solvent_vapors: "Heavier than air; they will sink to the bottom and can travel large distances nearly undiluted",
+  thf: "Normally more likely to form such peroxides than diethyl ether",
+  one_of_the_most_susceptible_solvents: "Diisopropyl ether , but all ethers are considered to be potential peroxide sources",
+  the_process_of_peroxide_formation: "Greatly accelerated by exposure to even low levels of light, but can proceed slowly even in dark conditions",
+  unless_a_desiccant: "Used which can destroy the peroxides, they will concentrate during distillation , due to their higher boiling point",
+  the_peroxide: { definition: "Able to oxidize the Fe 2+ ion to an Fe 3+ ion, which then forms a deep-red coordination complex with the thiocyanate", what_it_does: "", examples: "neurotoxicity or cancer" },
+  some_organic_solvents: "Known or suspected to be cataractogenic",
+
 };
 
 // ============================================================
