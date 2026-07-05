@@ -61512,6 +61512,36 @@ const FLAT_DICT = {
   budget_reconciliation: "An optional procedure used in some years to facilitate the passage of legislation amending tax or spending law",
   if_paygo_requirements: "Not met, automatic spending cuts (known as sequestration) may be triggered to offset the increase in the deficit",
 
+  // === INGESTED 2026-07-05 06:42 ===
+  medicare: "Divided into four parts: A, B, C, and D",
+  part_d: { definition: "For self-administered prescription drugs", what_it_does: "", examples: "skilled nursing facilities—under Medicare Part A" },
+  medicare_spending: "Projected to increase from near 4% of GDP in 2022 to almost 6% in 2046",
+  individuals_diagnosed_with_als: { definition: "Automatically enrolled in Medicare Parts A and B the month their disability benefits begin", what_it_does: "", examples: "is approved will be paid under Part B" },
+  hospice_benefits: { definition: "Also provided under Part A of Medicare for terminally ill persons with less than six months to live, as determined by the patient's physician", what_it_does: "", examples: "grief counseling" },
+  this_hold_harmless_provision: "Significant in years when SS does not increase but that is not the case for 2020",
+  anyone_with_part_a_or_b: { definition: "Eligible for Part D, which covers mostly self-administered drugs", what_it_does: "", examples: "Medicaid) pay premiums and some or all of the costs associated with Medicare" },
+  the_benefit: "The same no matter how much or how little the beneficiary paid as long as the minimum number of quarters is reached",
+  plan_f: { definition: "No longer offered as of 2020, but anyone who has a Plan F may keep it", what_it_does: "", examples: "hospital and nursing home care, Medicare uses prospective payment systems" },
+  the_actual_allotment_of_funds: "Based on a list of diagnosis-related groups (DRG)",
+  the_mei: "Designed to measure changes in costs of physician's time and operating expenses, adjusted for changes in physician productivity",
+  this_was_done_because_physician_fees: "Rising faster than projected",
+  each_service: "Priced within the Resource-Based Relative Value Scale (RBRVS) with three Relative Value Units (RVUs) values largely determining the price",
+  the_three_rvus_for_a_procedure: "Each geographically weighted and the weighted RVU value is multiplied by a global Conversion Factor (CF), yielding a price in dollars",
+  a_minority_of_doctors: "'private contractors' from a Medicare perspective, which means they opt out of Medicare and refuse to accept Medicare payments altogether",
+  these_doctors: "Required to inform patients that they will be liable for the full cost of their services out-of-pocket, often in advance of treatment",
+  pharmaceutical_company_discounts_and_rebates: "Included in the calculation of ASP, and tend to reduce it",
+  payments: { definition: "Made on a quarterly basis, rather than claim-by-claim, and are handled by each area's Medicare carrier", what_it_does: "", examples: "the employment situation noted above), but may be penalized under other circumstances" },
+  these_benefits: "Financed in significant part through universal taxes",
+  total_medicare_spending: "Projected to increase from $523 billion in 2010 to around $900 billion by 2020",
+  the_major_issue_with_these_indicators: "Comparing future projections against current law vs",
+  the_trust_fund: { definition: "Considered insolvent when available revenue plus any existing balances will not cover 100 percent of annual projected costs", what_it_does: "", examples: "current law effectively provides no raises for doctors after 2025; that is unlikely to happen" },
+  entitlement: "Most commonly based on a record of contributions to the Medicare fund",
+  accreditation: "Voluntary and an organization may choose to be evaluated by their State Survey Agency or by CMS directly",
+  several_provisions_of_the_law: { definition: "Designed to reduce the cost of Medicare", what_it_does: "", examples: "percentage cuts, penalties for readmissions)" },
+  but_whether_that: "Because the cost of the former decreased or the cost of the latter increased is not known",
+  the_ipab_was_never_formed_and: "Formally repealed by the Balanced Budget Act of 2018",
+  manufacturers_who_supply_drugs_to_medicaid: "Required to offer a 15 percent rebate on the average manufacturer's price",
+
 };
 
 // ============================================================
