@@ -60672,6 +60672,10 @@ const FLAT_DICT = {
   another_word_for_levered: "Geared , which has the same meaning",
   where_this_means_that_there: "Advantages for firms to be levered, since corporations can deduct interest payments",
 
+  // === INGESTED 2026-07-05 03:42 ===
+  the_basel_iii_requirements: { definition: "Published by the Basel Committee on Banking Supervision in 2010, [ 1 ] and began to be implemented in major countries in 2012", what_it_does: "", examples: "goodwill and other intangible assets" },
+  leverage_ratio: "Calculated by dividing Tier 1 capital by the bank's leverage exposure",
+
 };
 
 // ============================================================
