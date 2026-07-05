@@ -60301,6 +60301,17 @@ const FLAT_DICT = {
   once_such_a_translation_layer: "Present, however, it is possible to intercept the operations and send them to different files, depending on various criteria",
   every_time_a_snapshot: { definition: "Taken, a new file is created, and used as an overlay for its predecessors", what_it_does: "", examples: "the contents of its random-access memory (RAM), BIOS settings, or its configuration settings" },
 
+  // === INGESTED 2026-07-05 02:13 ===
+  performance_indicators: "Applied across sectors including business, government, healthcare, and technical systems",
+  kpis: { definition: "Used not only for business organizations but also for technical aspects such as machine performance", what_it_does: "", examples: "machine sensor signals)" },
+  indicators: { definition: "Also commonly distinguished by their time orientation and function", what_it_does: "", examples: "unit output, error rates), while qualitative indicators capture subjective, often perceptual data (e" },
+  selecting_the_right_mix_of_categories: "A strategic exercise",
+  the_first_step_in_performance_measurement: "Determining what to measure",
+  selecting_the_appropriate_point_of_measurement: "Not simply a technical choice but also a strategic one",
+  an_indicator: { definition: "A measurable variable used to show whether progress is being made towards a goal, rather than the goal itself", what_it_does: "", examples: "revenue growth, or non-financial, such as customer satisfaction rates" },
+  faster_availability_of_data: "A competitive issue for most organizations",
+  managers_with_strong_public_service_motivation: { definition: "More likely to engage with performance information because they see it as a means of achieving public goals", what_it_does: "", examples: "graduate satisfaction, employment rates, and student outcomes" },
+
 };
 
 // ============================================================
