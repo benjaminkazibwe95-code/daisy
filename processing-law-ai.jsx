@@ -62064,6 +62064,9 @@ const FLAT_DICT = {
   rafael_yuste: "Honored at a reception held at the Spanish Ambassador's, Ramón Gil-Casares, home",
   a_short_documentary_by_redes: "Available on YouTube",
 
+  // === INGESTED 2026-07-05 17:19 ===
+  a_dish_called_maghaz: { definition: "A popular cuisine in Pakistan, Bangladesh, parts of India, and diaspora countries", what_it_does: "", examples: "according to Nutrition Data, 85g (3 oz) of cooked beef brain contains 727 mg of DHA" },
+
 };
 
 // ============================================================
