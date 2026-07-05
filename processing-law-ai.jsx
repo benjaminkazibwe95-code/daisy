@@ -62635,6 +62635,14 @@ const FLAT_DICT = {
   newman: "Looking for an arbitrary random pattern to demonstrate their technology",
   caltech: "No stranger to the idea of nanotechnology, the ability to manipulate matter at the atomic and molecular level",
 
+  // === INGESTED 2026-07-05 20:16 ===
+  a_tennis_ball: "A small, hollow ball used in games of tennis and real tennis",
+  tennis_balls: "Covered in a fibrous felt , which modifies their aerodynamic properties, and each has a white curvilinear oval covering it",
+  most_balls_produced: "A fluorescent color known as 'optic yellow', first introduced in 1972 following research demonstrating they were more visible on television",
+  what_color_to_call_the_ball: "Mildly controversial; one poll showed that a little less than half of people consider this color yellow, while a slight majority consider it green",
+  when_a_tennis_ball: "Unpackaged, its frequent use allows for air to escape from the ball",
+  balls_from_the_wimbledon_championships: "Now recycled to provide field homes for the nationally threatened Eurasian harvest mouse",
+
 };
 
 // ============================================================
