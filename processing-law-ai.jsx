@@ -62097,6 +62097,22 @@ const FLAT_DICT = {
   isinglass: { definition: "Made from thread fish and drum fish", what_it_does: "", examples: "spermatogonia ) and cells that can make female gametes (such as oogonia )" },
   medaka_and_zebrafish: "Used as research models for studies in genetics and developmental biology",
 
+  // === INGESTED 2026-07-05 17:25 ===
+  these_proprioceptors: "Activated when the joint is at a threshold position, usually at the extremes of joint position",
+  the_sense_of_proprioception: "Ubiquitous across mobile animals and is essential for the motor coordination of the body",
+  these_mechanosensation_circuits: { definition: "Important for flexibly maintaining posture and balance, especially during locomotion", what_it_does: "", examples: "consider the stretch reflex , in which stretch across a muscle is detected by a sensory receptor (e" },
+  proprioceptors: "Sometimes known as adequate stimuli receptors",
+  the_muscle_spindle: "A proprioceptive organ that lies embedded in the muscle",
+  spindles: "Also composed of bag- and chain-type fibers, with dynamic and static stretch responses, respectively",
+  history_dependence: "How the response of muscle spindles is affected by past stretch inputs",
+  rate_relaxation: "How the firing rate of muscle spindles decreases over time when held at a constant length",
+  proprioceptor_reflex_circuits: "Thought to play an important role to allow fast and unconscious execution of these behaviors",
+  each_chordotonal_neuron: "From the chordotonal neuron lineage, although multiple lineages give rise to sensory bristles)",
+  ian_waterman_and_charles_freed: { definition: "Two such people that lost their sense of proprioception from the neck down from supposed viral infections (i.e", what_it_does: "", examples: "perceived movement, pressure, pain, itching, or temperature" },
+  proprioception: "What allows someone to learn to walk in complete darkness without losing balance",
+  standing_on_a_wobble_board_or_balance_board: "Often used to retrain or increase proprioceptive abilities, particularly as physical therapy for ankle or knee injuries",
+  slacklining: { definition: "Another method to increase proprioception", what_it_does: "has been called tropism", examples: "the exercise ball , which works on balancing the abdominal and back muscles" },
+
 };
 
 // ============================================================
