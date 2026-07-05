@@ -61832,6 +61832,17 @@ const FLAT_DICT = {
   saw: "Only possible in the 1F (flat fillet), 2F (horizontal fillet), and 1G (flat groove) positions",
   this_kind_of_corrosion: { definition: "Often termed weld decay", what_it_does: "", examples: "the 1920 introduction of automatic welding in which electrode wire was continuously fed" },
 
+  // === INGESTED 2026-07-05 15:54 ===
+  uhv_conditions: { definition: "Integral to scientific research", what_it_does: "", examples: "the Large Hadron Collider are kept at UHV" },
+  measurement_of_high_vacuum: "Done using a nonabsolute gauge that measures a pressure-related property of the vacuum",
+  while_some_gas_release: "Inevitable, if the leak rate is too high, it can slow down or even prevent the system from reaching low pressure",
+  outgassing: "A problem for UHV systems",
+  materials_which: { definition: "Not generally considered absorbent can outgas, including most plastics and some metals", what_it_does: "", examples: "palladium (which is a high-capacity hydrogen sponge) create special outgassing problems" },
+  in_some_cases_the_workpiece_itself: "Baked out or otherwise pre-cleaned under this medium-high vacuum",
+  the_gateway_to_the_uhv_chamber: "Then opened, the workpiece transferred to the UHV by robotic means or by other contrivance if necessary, and the UHV valve re-closed",
+  while_the_initial_workpiece: "Being processed under UHV, a subsequent sample can be introduced into the airlock volume, pre-cleaned, and so-on and so-forth, saving much time",
+  allmetal_seals: { definition: "Required for UHV chambers", what_it_does: "rotary motion, linear motion, or a combination of both", examples: "knobs, handwheels, motors, stepping motors , piezoelectric motors , and pneumatics" },
+
 };
 
 // ============================================================
