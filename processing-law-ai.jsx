@@ -62311,6 +62311,28 @@ const FLAT_DICT = {
   various_types_of_plc: "Activated differently, contributing to cells' ability to respond to their surroundings",
   dag: "The substrate for the synthesis of phosphatidic acid , a regulatory molecule",
 
+  // === INGESTED 2026-07-05 18:33 ===
+  the_auditory_system: "The sensory system for the sense of hearing",
+  at_the_cochlear_base_the_bm: "At its narrowest and most stiff (high-frequencies), while at the cochlear apex it is at its widest and least stiff (low-frequencies)",
+  lntb: "Glycine-immune, used for fast signalling",
+  dpo: "High-frequency and tonotopical",
+  dlpo: { definition: "Low-frequency and tonotopical", what_it_does: "", examples: "whether a sound originated from in front or behind)" },
+  righthandside_ac: "More sensitive to tonality, left-hand-side AC is more sensitive to minute sequential differences in sound",
+  the_entorhinal_cortex: "The part of the 'hippocampus system' that aids and stores visual and auditory memories",
+  the_ear_canal_amplifies_sounds_that: "Between 3 and 12 kHz",
+  higher_pressure: "Necessary at the oval window than at the tympanic membrane because the inner ear beyond the oval window contains liquid rather than air",
+  the_organ_of_corti: "Located in this duct on the basilar membrane, and transforms mechanical waves to electric signals in neurons",
+  the_other_two_sections: "Known as the scala tympani and the scala vestibuli",
+  the_frequency: "An approximately exponential function of the length of the cochlea within the Organ of Corti",
+  hair_cells: "Columnar cells, each with a 'hair bundle' of 100–200 specialized stereocilia at the top, for which they are named",
+  inner_hair_cells: "The mechanoreceptors for hearing: they transduce the vibration of sound into electrical activity in nerve fibers , which is transmitted to the brain",
+  these_graded_potentials: "Not bound by the 'all or none' properties of an action potential",
+  the_current_model_is_that_cilia: "Attached to one another by ' tip links ', structures which link the tips of one cilium to another",
+  the_vcn: "Further divided by the nerve root into the posteroventral cochlear nucleus (PVCN) and the anteroventral cochlear nucleus (AVCN)",
+  the_primary_auditory_cortex: "Surrounded by secondary auditory cortex, and interconnects with it",
+  perception_of_sound: { definition: "Associated with the left posterior superior temporal gyrus (STG)", what_it_does: "", examples: "pitch and rhythm" },
+  neurons_in_these_areas: { definition: "Responsible for sound recognition, and extraction of meaning from sentences", what_it_does: "", examples: "the cochlear nucleus, superior olivary complex, inferior colliculus, and medial geniculate body" },
+
 };
 
 // ============================================================
