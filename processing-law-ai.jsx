@@ -61280,6 +61280,13 @@ const FLAT_DICT = {
   the_paraxial_mesoderm: "Divided along the embryo 's length into somites , corresponding to the segmentation of the body (most obviously seen in the vertebral column )",
   cardiac_and_smooth_muscle_contractions: { definition: "Stimulated by internal pacemaker cells which regularly contract, and propagate contractions to other muscle cells they are in contact with", what_it_does: "", examples: "blood and lymph vessels , and bile ducts ; in sphincters such as in the uterus, and the eye" },
 
+  // === INGESTED 2026-07-05 06:06 ===
+  transmission: "Via the fecal–oral route , and most illness has been through distribution of contaminated raw leaf green vegetables, undercooked meat and raw milk",
+  usually_little_or_no_fever: { definition: "Present, and the illness resolves in 5 to 10 days", what_it_does: "", examples: "undercooked ground beef, leafy vegetables, and raw milk" },
+  sorbitol_nonfermenting_colonies: { definition: "Tested for the somatic O157 antigen before being confirmed as E", what_it_does: "", examples: "Queensland" },
+  it_is_thought_that_international_spread: "Through animal movements, like Holstein Friesian cattle",
+  the_illness: "Often misdiagnosed, so expensive and invasive diagnostic procedures may be performed",
+
 };
 
 // ============================================================
