@@ -62343,6 +62343,17 @@ const FLAT_DICT = {
   when_the_induction_of_chemical_ltp: { definition: "Applied, immunoparticles for SK2 were not found within the PSD of asymmetrical synapses", what_it_does: "", examples: "glutamate" },
   rate_of_endocytosis: "Dependent on rate at which vesicles are recycled into the recycling pool",
 
+  // === INGESTED 2026-07-05 18:38 ===
+  the_colony: "Organised when the German military was asked in the late 1880s to put down a revolt against the activities of the German East Africa Company",
+  ultimately_the_territory: "Divided amongst Britain, Belgium and Portugal, and was reorganised as a mandate of the League of Nations",
+  oscar_baumann: { definition: "Sent to explore Masailand and Urundi", what_it_does: "", examples: "the notorious Wissmann Truppe, armed with modern weaponry" },
+  carl_peters: "Infamous for his brutality, which had earned him the nickname 'Mkono-wa-damu', or 'Man with the blood-stained hands'",
+  peters: { definition: "Also known for keeping a 'harem' of local women, who would be completely at the mercy of Peters", what_it_does: "", examples: "42 medical officers), 126 non-commissioned officers, and 2,472 Askari (native enlisted men)" },
+  harbor_facilities: "Built or improved with electrical cranes, with rail access and warehouses",
+  wharves: "Remodeled at Tanga, Bagamoyo, and Lindi",
+  the_war_strategy: "To harry the British army of 40,000, which was at times commanded by the former Second Boer War commander Jan Smuts",
+  his_schutztruppe: "Celebrated as the only colonial German force during World War I that was not defeated in open combat, but it often retreated when it was outnumbered",
+
 };
 
 // ============================================================
