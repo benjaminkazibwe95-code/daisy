@@ -62396,6 +62396,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 18:57 ===
   kapiri_mposhi: "A Zambian town and the seat of the Kapiri Mposhi District in Central Province",
 
+  // === INGESTED 2026-07-05 18:59 ===
+  bongo_flava: { definition: "A nickname for Tanzanian music", what_it_does: "", examples: "taarab and dansi" },
+  the_term_bongo: "Being used as a clever way to say both, namely, survival in Dar es Salaam required both brain and intelligence",
+  rap_bonanza_series_that: "Promoted by Abdulhakim 'DJ Kim' Magomelo under his promotion company 'Kim & The Boyz'",
+  his_version: "So popular that broke ranks by receiving mild airplay in the conservative National Radio Tanzania, thus making the first rap song on Tanzanian radio",
+  one_of_the_first_such_festival: { definition: "Fiesta organized by Clouds Media Group, where Bongo Flava artists usually go on a music tour in different Tanzanian regions", what_it_does: "", examples: "Kenya [ 20 ] and Uganda" },
+  a_sort_of_manifesto_of_mselah_ideology: { definition: "Given by the song Mselah Jela by Bongo flava singer Juma Nature , who defines a mselah, amongst other things, as an 'honest person of sincere heart'", what_it_does: "", examples: "have written songs that are intended to teach prevention of malaria and HIV" },
+  some_bongo_groups: "Very popular within their ethnic group ; one example is the Maasai X Plastaz who developed their own subgenre known as 'Maasai hip hop'",
+
 };
 
 // ============================================================
