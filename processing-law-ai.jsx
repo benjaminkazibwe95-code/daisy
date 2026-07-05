@@ -62385,6 +62385,10 @@ const FLAT_DICT = {
   the_city_centre_contains_many_buildings_that: "In use by the University of Leiden",
   the_academy_building: "Housed in a former 16th-century convent",
 
+  // === INGESTED 2026-07-05 18:48 ===
+  its_fundamental_political_assumptions: "Restricted to one form of democracy, namely electoral politics, and display hostility towards popular politics",
+  the_assumption_in_this_approach: { definition: "That other forms of organisation and opposition are of limited importance or a separate matter from the consolidation of their version of democracy", what_it_does: "", examples: "gerrymandering of electoral districts) designed to put them at a disadvantage" },
+
 };
 
 // ============================================================
