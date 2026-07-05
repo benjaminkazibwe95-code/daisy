@@ -61450,6 +61450,36 @@ const FLAT_DICT = {
   pension_term_assurance: "Effectively normal term life assurance with tax relief on the premiums",
   all_premiums: "Paid at a net basic rate tax of 22%, and higher-rate taxpayers can gain an extra 18% tax relief via their tax return",
 
+  // === INGESTED 2026-07-05 06:34 ===
+  its_cornerstone: "Laid on August 10, 1907, and construction was completed in January 1909",
+  it_is_generally_believed_this_move: "To avoid the mostly conservative citizens of Springfield and add this policy 'under the radar' of the critics of the change",
+  the_colors_and_mascots: { definition: "Reflected on the school seal", what_it_does: "", examples: "the Bachelor of Science in Veterinary Technology" },
+  the_meyer_library: "Renovated and expanded in 2002, and included the addition of the Jane A",
+  in_front_of_meyer_library: "The five-level, multi-jet John Q",
+  glass_hall: "Named in honor of MSU alumnus and former Wal-Mart CEO David Glass",
+  all_programs_in_the_college_of_business: "Accredited by the Association to Advance Collegiate Schools of Business (AACSB)",
+  meyer_carillon: "Located in the center of the Missouri State University campus, at the southwest corner of the Duane G",
+  jane_meyer: "A former organ student of the MSU Department of Music",
+  hammons_hall_for_the_performing_arts: "A 2,220-seat center located in the northwest corner of the campus",
+  the_playing_surface: "Replaced and moved closer to the west grand stand",
+  immediately_north_of_plaster_sports_complex: "McDonald Arena, built by WPA labor in 1940",
+  kentwood_hall: "Originally built as the luxury Kentwood Arms Hotel (1926), whose guests included President Harry S",
+  within_select_houses: "Floors designated as 'Living-learning Communities' (or LLCs)",
+  these_have_a_particular_theme_that: "Either academically based or interest based",
+  all_residential_areas: "Smoke and tobacco free",
+  a_variety_of_meeting_rooms: { definition: "Also located in the PSU and over 15,000 meetings are even hosted there each year", what_it_does: "", examples: "the establishment of the Faculty Senate, during his presidency" },
+  a_bronze_bear_statue: "Dedicated to the university in 1999 and stands at the student union's front entrance",
+  also_located_in_front_of_the_psu: { definition: "The North Mall, which is the location of the 'Bear Paw", what_it_does: "", examples: "classes with licensed instructors in Pilates , Yoga , Belly Dance , and Zumba" },
+  foster_and_family_recreation_center: "Opened to the public",
+  student_organizations: "Grouped into eight categories according to their main purpose",
+  the_national_organization_for_chi_alpha: { definition: "Headquartered in Springfield , MO", what_it_does: "", examples: "an issue pertaining to student housing released once per semester" },
+  included_in_its_online_content: "Multiple podcasts and various broadcast projects",
+  its_stateoftheart_studios: { definition: "Located in Strong Hall", what_it_does: "", examples: "the 2002 National Edward R" },
+  the_broadcast_and_studio_facilities: "Located in Strong Hall",
+  msu_teams: "Nicknamed the Bears , and team colors are maroon and white",
+  the_missouri_state_university_bears: "Members of Conference USA",
+  ice_bears_home_games: "Played at Mediacom Ice Park",
+
 };
 
 // ============================================================
