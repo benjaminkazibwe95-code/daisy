@@ -60573,6 +60573,11 @@ const FLAT_DICT = {
   the_share_options: "Allocated first, and then the VC is allocated its shares",
   the_vc: "Allocated their shares first",
 
+  // === INGESTED 2026-07-05 03:14 ===
+  their_assignment: "To seek a solid-state alternative to fragile glass vacuum tube amplifiers",
+  first_attempts: "Based on Shockley's ideas about using an external electrical field on a semiconductor to affect its conductivity",
+  he_also_claimed_that_black_people: { definition: "Genetically and intellectually inferior to white people", what_it_does: "", examples: "laundry lists) provides abundant documentation on his life for researchers" },
+
 };
 
 // ============================================================
