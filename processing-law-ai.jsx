@@ -62059,6 +62059,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 17:10 ===
   a_host_of_methods_for_these_research_areas: "Available such as those presented in the International Society of Information Fusion",
 
+  // === INGESTED 2026-07-05 17:12 ===
+  a_book_he_had_written_on_these_topics: "Lost during the Spanish Civil War",
+  rafael_yuste: "Honored at a reception held at the Spanish Ambassador's, Ramón Gil-Casares, home",
+  a_short_documentary_by_redes: "Available on YouTube",
+
 };
 
 // ============================================================
