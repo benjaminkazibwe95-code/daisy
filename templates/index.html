@@ -2894,7 +2894,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     chatArea.appendChild(div);
-    div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
     return div;
   }
 
@@ -3020,7 +3020,7 @@ document.addEventListener('DOMContentLoaded', function() {
     div.appendChild(label);
     div.appendChild(body);
     chatArea.appendChild(div);
-    div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
     await typeIntoBody(body, text, div);
     div.appendChild(buildActionToolbar(() => body.innerText, opts.question, text));
@@ -3141,7 +3141,7 @@ document.addEventListener('DOMContentLoaded', function() {
     div.className = 'thinking-panel';
     div.innerHTML = '<span class="t-dot"></span><span class="thinking-step">Reading your message…</span>';
     chatArea.appendChild(div);
-    div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
     const stepEl = div.querySelector('.thinking-step');
     let cancelled = false;
@@ -3236,6 +3236,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // from our own mainEl.scrollTo(...) calls — so these are a clean,
   // unambiguous signal that the person actually wants to look away,
   // with no risk of our own auto-scroll re-triggering itself.
+  mainEl.addEventListener('touchstart', () => { stickToBottom = false; }, { passive: true });
   mainEl.addEventListener('wheel', () => { stickToBottom = false; }, { passive: true });
   mainEl.addEventListener('touchmove', () => { stickToBottom = false; }, { passive: true });
 
@@ -3293,15 +3294,29 @@ document.addEventListener('DOMContentLoaded', function() {
   // any native voice-to-text keyboard, instead of opening a separate
   // screen. Its own SpeechRecognition instance, deliberately separate
   // from the Live Room's below, so the two never fight over state. ──
+  //
+  // dictationBaseText = everything finalized in EARLIER sessions (plus
+  // whatever was already in the box before starting). dictationSessionFinal
+  // = the CURRENT session's finalized text, rebuilt FRESH from scratch
+  // on every single onresult event (never appended to with += inside
+  // the loop). That second part is what actually fixes the double-
+  // writing bug: continuous mode on Android restarts recognition often,
+  // and resultIndex doesn't reliably behave the way the spec describes
+  // across that restart — appending on every event was re-adding
+  // results that were already counted. Rebuilding fresh each time and
+  // only folding into the base text once, in onend, makes duplication
+  // impossible regardless of how many times a result gets redelivered.
   let isDictating = false;
   let dictationRecognition = null;
-  let dictationFinalText = '';
+  let dictationBaseText = '';
+  let dictationSessionFinal = '';
 
   function startInlineDictation() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) { alert("Voice input isn't supported in this browser — try Chrome."); return; }
 
-    dictationFinalText = inp.value ? inp.value.replace(/\s+$/, '') + ' ' : '';
+    dictationBaseText = inp.value ? inp.value.replace(/\s+$/, '') + ' ' : '';
+    dictationSessionFinal = '';
     isDictating = true;
     setActionMode('recording');
     dictationHint.textContent = 'Listening — tap the square to stop';
@@ -3313,12 +3328,13 @@ document.addEventListener('DOMContentLoaded', function() {
     dictationRecognition.continuous = true;
 
     dictationRecognition.onresult = (e) => {
-      let interim = '';
-      for (let i = e.resultIndex; i < e.results.length; i++) {
-        if (e.results[i].isFinal) dictationFinalText += e.results[i][0].transcript + ' ';
+      let finalized = '', interim = '';
+      for (let i = 0; i < e.results.length; i++) {
+        if (e.results[i].isFinal) finalized += e.results[i][0].transcript + ' ';
         else interim += e.results[i][0].transcript;
       }
-      inp.value = dictationFinalText + interim;
+      dictationSessionFinal = finalized;
+      inp.value = dictationBaseText + dictationSessionFinal + interim;
       inp.style.height = 'auto';
       inp.style.height = inp.scrollHeight + 'px';
       inp.scrollTop = inp.scrollHeight;
@@ -3335,6 +3351,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     dictationRecognition.onend = () => {
       if (isDictating) {
+        dictationBaseText = dictationBaseText + dictationSessionFinal;
+        dictationSessionFinal = '';
         try { dictationRecognition.start(); }
         catch (e) { /* already running — harmless */ }
       }
