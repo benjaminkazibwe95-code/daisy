@@ -61843,6 +61843,13 @@ const FLAT_DICT = {
   while_the_initial_workpiece: "Being processed under UHV, a subsequent sample can be introduced into the airlock volume, pre-cleaned, and so-on and so-forth, saving much time",
   allmetal_seals: { definition: "Required for UHV chambers", what_it_does: "rotary motion, linear motion, or a combination of both", examples: "knobs, handwheels, motors, stepping motors , piezoelectric motors , and pneumatics" },
 
+  // === INGESTED 2026-07-05 15:56 ===
+  nucleophile_strength: { definition: "Also affected by charge and electronegativity : nucleophilicity increases with increasing negative charge and decreasing electronegativity", what_it_does: "", examples: "tosylate ( − OTs ), triflate ( − OTf ), and mesylate ( − OMs )" },
+  the_finkelstein_reaction: "One S N 2 reaction in which the leaving group can also act as a nucleophile",
+  as_the_negative_charge: "More-or-less stabilized on both halides, the reaction occurs at equilibrium",
+  elimination_reactions: "Usually favoured at elevated temperatures [ 15 ] because of increased entropy",
+  other_factors_favoring_elimination: "The strength of the base",
+
 };
 
 // ============================================================
