@@ -62881,6 +62881,14 @@ const FLAT_DICT = {
   another_annual_event: "The Antwerp 10 miles and the Antwerp marathon",
   another_club_in_the_city: "K Beerschot VA , founded in 1899 by former Royal Antwerp players",
 
+  // === INGESTED 2026-07-05 21:05 ===
+  investment_banking: "An advisory-based financial service primarily for corporations, governments, and institutional investors",
+  some_trades: "Initiated by complex algorithms for hedging purposes",
+  firms: "Responsible for compliance with local and foreign government regulations and internal regulations",
+  one_growth_area: "Private investment in public equity (PIPEs, otherwise known as Regulation D or Regulation S)",
+  such_transactions: "Privately negotiated between companies and accredited investors",
+  mergers_and_acquisitions_and_capital_markets: { definition: "Also often covered by The Wall Street Journal and Bloomberg", what_it_does: "", examples: "many overseas banks, hedge funds, and pensions" },
+
 };
 
 // ============================================================
