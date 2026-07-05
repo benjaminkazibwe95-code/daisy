@@ -59894,6 +59894,12 @@ const FLAT_DICT = {
   the_second_ultrastructural_change: "The principal neurons of the MNTBs, whose cell bodies and nuclei increase in surface area due to enlargement",
   calcium_influx_for_the_immature_calyx_of_held: { definition: "Mediated by N- , P / Q- , and R-type calcium channels ; however upon maturation only P/Q-type calcium channels become dominant", what_it_does: "", examples: "parvalbumin and calretinin" },
 
+  // === INGESTED 2026-07-05 00:26 ===
+  a_voiced_alveolar_tap_or_flap: "A type of consonantal sound, used in some spoken languages",
+  the_terms_tap_and_flap: "Often used interchangeably",
+  in_languages_for_which_the_segment: "Present but not phonemic, it is often an allophone of either an alveolar stop ( [ t ] , [ d ] , or both) or a rhotic consonant",
+  a_voiced_alveolar_tapped_fricative: "Reported from some languages, which is a very brief voiced alveolar non-sibilant fricative",
+
 };
 
 // ============================================================
