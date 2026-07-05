@@ -60810,6 +60810,9 @@ const FLAT_DICT = {
   the_first_memorial_lecture: "Given by the renowned development economist Paul Collier of the University of Oxford in May 2009 in Bonn",
   the_second_lecture: "Held in October 2010 in Brighton with Jomo Kwame Sundaram , Assistant Secretary General of the United Nations Economic Commission for Africa (UNECA)",
 
+  // === INGESTED 2026-07-05 04:18 ===
+  among_its_most_significant_innovations: "The following: Migration research",
+
 };
 
 // ============================================================
