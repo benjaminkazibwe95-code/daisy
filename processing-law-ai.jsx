@@ -61969,6 +61969,22 @@ const FLAT_DICT = {
   if_ions: "Involved, an additional row is added to the a ij matrix specifying the respective charge on each molecule which will sum to zero",
   the_most_common_method_of_solving_it: "Using the method of Lagrange multipliers [ 24 ] [ 20 ] (although other methods may be used)",
 
+  // === INGESTED 2026-07-05 16:36 ===
+  soft_drinks: { definition: "Called 'soft' in contrast with 'hard' alcoholic drinks and non-alcoholic drinks", what_it_does: "", examples: "pop , cool drink , fizzy drink , cola , soda , or soda pop" },
+  the_compagnie_des_limonadiers_of_paris: "Granted a monopoly for the sale of lemonade soft drinks in 1676, making it the first marketed soft drink",
+  the_process_usually: "Injecting carbon dioxide under high pressure",
+  when_the_pressure: "Removed, the carbon dioxide is released from the solution as small bubbles, which causes the solution to become effervescent, or fizzy",
+  carbonated_beverages: "Prepared by mixing flavored syrup with carbonated water",
+  one_of_those_inventors: "Named Johann Jacob Schweppe, who sold bottled soda water and whose business is still around today",
+  this_drink: "Commonly served in pharmacies",
+  as_the_quinine_powder: "So bitter people began mixing the powder with soda and sugar, and a basic tonic water was created",
+  carbonated_drink_bottles: "Under great pressure from the gas, so inventors tried to find the best way to prevent the carbon dioxide or bubbles from escaping",
+  his_coddneck_bottle: "Designed to enclose a marble and a rubber washer in the neck",
+  the_bottles: "Filled upside down, and pressure of the gas in the bottle forced the marble against the washer, sealing in the carbonation",
+  the_bottle: { definition: "Pinched into a special shape to provide a chamber into which the marble was pushed to open the bottle", what_it_does: "", examples: "strawberry soda, raspberry soda, cherryade and cream soda" },
+  both_hot_and_cold_drinks: { definition: "Sold in these self-service machines throughout the world", what_it_does: "", examples: "alcohol or gum arabic , extracts , citric acid or phosphoric acid , food coloring , and a sweetener" },
+  a_lawsuit_against_the_ban: { definition: "Upheld by a state judge, who voiced concerns that the ban was 'fraught with arbitrary and capricious consequences'", what_it_does: "", examples: "notably Coca-Cola, but it was poorly enforced" },
+
 };
 
 // ============================================================
