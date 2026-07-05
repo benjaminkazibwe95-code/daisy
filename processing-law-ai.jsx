@@ -60416,6 +60416,9 @@ const FLAT_DICT = {
   nanoimprint_lithography: "Capable of producing patterns at sub-10 nm levels",
   magnetic_mask_which: "Analog to photomask define the spatial distribution and shape of the applied magnetic field",
 
+  // === INGESTED 2026-07-05 02:32 ===
+  nanoinformatics: { definition: "The application of informatics to nanotechnology", what_it_does: "", examples: "size , shape , surface properties , crystallinity , and dispersion state" },
+
 };
 
 // ============================================================
