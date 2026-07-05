@@ -62643,6 +62643,21 @@ const FLAT_DICT = {
   when_a_tennis_ball: "Unpackaged, its frequent use allows for air to escape from the ball",
   balls_from_the_wimbledon_championships: "Now recycled to provide field homes for the nationally threatened Eurasian harvest mouse",
 
+  // === INGESTED 2026-07-05 20:18 ===
+  the_concepts_of_personalised_health_care: { definition: "Receiving increasing acceptance with the Veterans Administration committing to personalised, proactive patient driven care for all veterans", what_it_does: "", examples: "five-year survival rate), and the treatment finely adapted to the patient's response" },
+  the_unique_disease_principle: { definition: "First described in neoplastic diseases as the unique tumor principle", what_it_does: "", examples: "proteome, microbiome), but in routine practice not all available inputs are used" },
+  the_ability_to_practice_precision_medicine: { definition: "Also dependent on the knowledge bases available to assist clinicians in taking action based on test results", what_it_does: "", examples: "environment, lifestyle, and heredity—that play a role in a patient's health, disease, or condition" },
+  genotyping: { definition: "The process of obtaining an individual's DNA sequence by using biological assays", what_it_does: "", examples: "major bleeding and to allow sooner and better therapeutic efficacy" },
+  even_if_mutations: "Found within a genome, having the details of their DNA can reduce the impact or delay the onset of certain diseases",
+  its_most_common_applications: { definition: "Attaching radionuclides (either gamma or positron emitters) to molecules for SPECT or PET imaging, or electron emitters for radiotherapy", what_it_does: "", examples: "radio-labelled anti- CD20 antibodies (e.g" },
+  personalized_oncogenomics: "The application of personalized medicine to cancer genomics",
+  highthroughput_sequencing_methods: "Used to characterize genes associated with cancer to better understand disease pathology and improve drug development",
+  oncogenomics: { definition: "One of the most promising branches of genomics , particularly because of its implications in drug therapy", what_it_does: "", examples: "with cancer" },
+  one_of_the_largest_issues: "The fear and potential consequences for patients who are predisposed after genetic testing or found to be non-responsive towards certain treatments",
+  one_of_the_leading_issues: "The consent of the patients to have their information used in genetic testing algorithms primarily AI algorithms",
+  the_consent_of_the_institution_who: "Providing the data to be used is of prominent concern as well",
+  a_common_challenge_for_both_schools: "The translation between the molecular and the organismal level",
+
 };
 
 // ============================================================
