@@ -60524,6 +60524,9 @@ const FLAT_DICT = {
   in_many_countries_the_slaughter_of_animals: { definition: "Regulated by custom and tradition rather than by law", what_it_does: "", examples: "the Arab world , the Indian sub-continent , etc" },
   in_countries_where_meat: "Exported for a substantial profit the freezing works were built near docks, or near transport infrastructure",
 
+  // === INGESTED 2026-07-05 02:55 ===
+  nih: { definition: "A component of the U.S", what_it_does: "", examples: "cell biology , genetics , chemistry , pharmacology , structural biology , and computational biology" },
+
 };
 
 // ============================================================
