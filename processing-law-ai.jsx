@@ -60825,6 +60825,11 @@ const FLAT_DICT = {
   crucial_importance: "Usually given to the production of new technologies and human capital",
   economies_that_cease_to_transform_themselves: "Destined to fall off the path of economic growth",
 
+  // === INGESTED 2026-07-05 04:33 ===
+  the_british_academy: "Primarily funded with annual government grants",
+  this_funding: { definition: "Expected to continue under the new Department for Business and Trade", what_it_does: "", examples: "John Maynard Keynes , Isaiah Berlin , C" },
+  funds_available_to_the_academy: { definition: "Invested in the following main areas: research career development; a portfolio of research grant opportunities, and international engagement", what_it_does: "", examples: "Africa, Latin America and South and South East Asia" },
+
 };
 
 // ============================================================
