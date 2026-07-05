@@ -62527,6 +62527,18 @@ const FLAT_DICT = {
   openvpn: "A free and open-source VPN protocol based on the TLS protocol",
   wireguard: "A protocol designed to be more lightweight than OpenVPN",
 
+  // === INGESTED 2026-07-05 19:29 ===
+  grid_computing: { definition: "The use of widely distributed computer resources to reach a common goal", what_it_does: "", examples: "cluster computing in that grid computers have each node set to perform a different task/application" },
+  grids: "Often constructed with general-purpose grid middleware software libraries",
+  the_primary_performance_disadvantage: "That the various processors and local storage areas do not have high-speed connections",
+  one_feature_of_distributed_grids: "That they can be formed from computing resources belonging to one or multiple individuals or organizations (known as multiple administrative domains )",
+  one_disadvantage_of_this_feature: { definition: "That the computers which are actually performing the calculations might not be entirely trustworthy", what_it_does: "", examples: "placing applications in virtual machines" },
+  boinc: "A common one for various academic projects seeking public volunteers; more are listed at the end of the article",
+  grid_middleware: "A specific software product, which enables the sharing of heterogeneous resources, and Virtual Organizations",
+  major_grid_middlewares: "Globus Toolkit, gLite , and UNICORE",
+  major_players_in_the_utility_computing_market: "Sun Microsystems , IBM , and HP",
+  gridenabled_applications: { definition: "Specific software applications that can utilize grid infrastructure", what_it_does: "", examples: "BOINC , use the CPU scavenging model" },
+
 };
 
 // ============================================================
