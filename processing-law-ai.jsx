@@ -61659,6 +61659,24 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-05 07:31 ===
   free_press: { definition: "An American independent book publisher that later became an imprint of Simon & Schuster", what_it_does: "", examples: "path-breaking sociology books of the 1950s, 1960s and 1970s" },
 
+  // === INGESTED 2026-07-05 07:33 ===
+  fault_tolerance_specifically: { definition: "A system's capability to handle faults without any degradation or downtime", what_it_does: "", examples: "structures that retain their integrity despite damage from fatigue , corrosion or impact" },
+  the_first_known_faulttolerant_computer: "SAPO , built in 1951 in Czechoslovakia by Antonín Svoboda",
+  several_other_machines: "Developed along this line, mostly for military use",
+  such_a_system_implemented_with_a_single_backup: "Known as single point tolerant and represents the vast majority of fault-tolerant systems",
+  it_is_helpful_if_the_time_between_failures: "As long as possible, but this is not specifically required in a fault-tolerant system",
+  software_brittleness: "The opposite of robustness",
+  resilient_buildings_and_infrastructure: "Likewise expected to prevent complete failure in situations like earthquakes, floods, or collisions",
+  a_single_fault_condition: "A situation where one means for protection against a hazard is defective",
+  while_the_primary_occupant_restraint_system: "Not normally thought of, it is gravity",
+  accidents_causing_occupant_ejection: { definition: "Quite common before seat belts , so the second test is passed", what_it_does: "", examples: "airbags , are more expensive and so pass that test by a smaller margin" },
+  the_figure_of_merit_is_called_availability_and: { definition: "Expressed as a percentage", what_it_does: "", examples: "a five nines system would statistically provide 99.999% availability" },
+  faulttolerant_systems: "Typically based on the concept of redundancy",
+  the_same_inputs: "Provided to each replication , and the same outputs are expected",
+  the_outputs_of_the_replications: { definition: "Compared using a voting circuit", what_it_does: "", examples: "the reset state" },
+  failureoblivious_computing: { definition: "A technique that enables computer programs to continue executing despite errors", what_it_does: "", examples: "null pointer dereference and divide by zero" },
+  space_redundancy: "Further classified into hardware, software and information redundancy, depending on the type of redundant resources added to the system",
+
 };
 
 // ============================================================
