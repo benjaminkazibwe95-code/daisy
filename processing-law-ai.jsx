@@ -61404,6 +61404,10 @@ const FLAT_DICT = {
   robs: "An arrangement in which prospective business owners use their 401(k) retirement funds to pay for new business start-up costs",
   earners: { definition: "Generally advised to shift from higher-risk, higher-return assets to lower-risk assets as they near retirement age", what_it_does: "", examples: "commodities), or choosing socially responsible investing" },
 
+  // === INGESTED 2026-07-05 06:27 ===
+  the_certification: "Managed by the Certified Financial Planner Board of Standards, Inc",
+  phds_in_business_or_economics: "Also exempted from the educational requirements",
+
 };
 
 // ============================================================
