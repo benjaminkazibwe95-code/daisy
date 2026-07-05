@@ -60798,6 +60798,13 @@ const FLAT_DICT = {
   to_the_extent_that_the_price: "Lower than the DCF number, so she will be inclined to invest; see margin of safety (financial) , undervalued stock , and value investing",
   a_related_approach: "To ' reverse engineer ' the stock price; i.e",
 
+  // === INGESTED 2026-07-05 04:14 ===
+  action_in_financial_markets_by_central_banks: "Usually regarded as intervention rather than participation",
+  when_the_principal_and_interest: "Added up, it will reflect the amount paid for the user (borrower) of the funds",
+  an_investor: "Any party that makes an investment",
+  less_frequently_the_term: { definition: "Applied to parties who purchase real estate , currency , commodity derivatives , personal property , or other assets", what_it_does: "", examples: "dividends or interest" },
+  a_retail_investor: "An individual investor possessing shares of a given security",
+
 };
 
 // ============================================================
