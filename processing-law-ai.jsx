@@ -62117,6 +62117,27 @@ const FLAT_DICT = {
   the_neural_groove: "A shallow median groove of the neural plate between the neural folds of an embryo",
   the_walls_of_the_vesicles: "Developed into the nervous tissue and neuroglia of the brain, and their cavities are modified to form their ventricles",
 
+  // === INGESTED 2026-07-05 17:29 ===
+  the_life_cycle_of_some_species: "An alternation between two species of host plants, for example between an annual crop and a woody plant",
+  the_name_aphid: "From Carl Linnaeus 's modern Latin, most likely from misreading the Middle Greek κόρῐς, koris, 'bug' as αφῐς, aphis",
+  the_earliest_aphids: "Probably polyphagous , with monophagy developing later",
+  this_assumption: "Well supported by the evidence, and several phylogenetic relationships have been suggested on the basis of endosymbiont studies",
+  the_majority_of_aphids: "Wingless, but winged forms are produced at certain times of year in many species",
+  the_stylus: { definition: "Inserted and saliva secreted, the sap is sampled, the xylem may be tasted and finally, the phloem is tested", what_it_does: "", examples: "scale insects and cicadas" },
+  once_a_phloem_vessel: { definition: "Punctured, the sap, which is under pressure, is forced into the aphid's food canal", what_it_does: "", examples: "in the tropics or a greenhouse , aphids may go on reproducing asexually for many years" },
+  when_a_host_plant: "Starting to senesce",
+  when_aphids: "Attacked by these predators, alarm pheromones, in particular beta-farnesene , are released from the cornicles",
+  flightless_female_and_male_sexual_forms: "Produced and lay eggs",
+  the_aphids: { definition: "Forced upwards and start to produce winged forms, first females and later males, which fly off to the primary host, buckthorn", what_it_does: "", examples: "Niphanda fusca butterflies lay eggs on plants where ants tend herds of aphids" },
+  aphidicola_genome: "Greatly reduced, compared to its putative ancestor",
+  infected_aphids: { definition: "Covered with a woolly mass that progressively grows thicker until the aphid is obscured", what_it_does: "", examples: "late spring freezes" },
+  a_number_of_galling_aphid_species: "Known to produce specialised 'soldier' forms, sterile nymphs with defensive features which defend the gall from invasion",
+  the_soldier_morphs: "Mostly first and second instars with the third instar being involved in Eriosoma moriokense and only in Smythurodes betae are adult soldiers known",
+  the_hind_legs_of_soldiers: "Clawed, heavily sclerotized and the stylets are robust making it possible to rupture and crush small predators",
+  the_honeydew_secreted_by_the_aphids: "Coated in a powdery wax to form ' liquid marbles ' [ 126 ] that the soldiers roll out of the gall through small orifices",
+  winged_aphids: { definition: "Weak fliers, lose their wings after a few days and only fly by day", what_it_does: "", examples: "carbamates , organophosphates , and pyrethroids" },
+  chinese_galls: "Also an important source of tannins",
+
 };
 
 // ============================================================
