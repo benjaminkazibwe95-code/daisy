@@ -61692,6 +61692,22 @@ const FLAT_DICT = {
   an_example_of_such_a_study: "The lesioning of rat hippocampi to establish the role of the hippocampus in object recognition and object recency",
   lesions_of_the_teeth: "Usually called dental caries , or 'cavities'",
 
+  // === INGESTED 2026-07-05 07:46 ===
+  the_new_generation_of_candidate_solutions: "Then used in the next iteration of the algorithm",
+  individual_solutions: "Selected through a fitness-based process, where fitter solutions (as measured by a fitness function ) are typically more likely to be selected",
+  the_fitness_function: "Always problem-dependent",
+  not_every_such_representation: "Valid, as the size of objects may exceed the capacity of the knapsack",
+  the_fitness_of_the_solution: "The sum of values of all objects in the knapsack if the representation is valid, or 0 otherwise",
+  computational_fluid_dynamics: "Used to determine the air resistance of a vehicle whose shape is encoded as the phenotype), or even interactive genetic algorithms are used",
+  new_parents: "Selected for each new child, and the process continues until a new population of solutions of appropriate size is generated",
+  opinion: "Divided over the importance of crossover versus mutation",
+  a_recombination_rate_that: "Too high may lead to premature convergence of the genetic algorithm",
+  a_mutation_rate_that: { definition: "Too high may lead to loss of good solutions, unless elitist selection is employed", what_it_does: "", examples: "have been proposed in an attempt to provide an environment in which the hypothesis would hold" },
+  the_floating_point_representation: "Natural to evolution strategies and evolutionary programming",
+  crossover_and_mutation: "Performed so as to respect data element boundaries",
+  when_bitstring_representations_of_integers: { definition: "Used, Gray coding is often employed", what_it_does: "", examples: "a fuzzy system) which has an inherently different description" },
+  many_early_papers: "Reprinted by Fogel (1998)",
+
 };
 
 // ============================================================
