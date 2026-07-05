@@ -62595,6 +62595,10 @@ const FLAT_DICT = {
   cellular_automata: "A useful concept to abstract some of the concepts of discrete units interacting to give a desired overall behavior",
   synthetic_biology: { definition: "A field that aims to engineer cells with 'novel biological functions.' [ citation needed ] Such cells are usually used to create larger systems (e.g", what_it_does: "", examples: "substrate adhesion, nanoparticle templating, and protein immobilization" },
 
+  // === INGESTED 2026-07-05 19:59 ===
+  modern_medical_devices_and_prostheses: { definition: "Often made of more than one material so it might not always be sufficient to talk about the biocompatibility of a specific material", what_it_does: "", examples: "implants or drug delivery devices" },
+  this_is_a_drawback_since_many_medical_devices: "Made of more than one material",
+
 };
 
 // ============================================================
