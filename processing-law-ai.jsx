@@ -62559,6 +62559,9 @@ const FLAT_DICT = {
   dropbox: "An example of the dew computing paradigm, as it provides access to the files and folders in the cloud in addition to keeping copies on local devices",
   the_clouddew_architecture: { definition: "Proposed by Yingwei Wang [ 5 ] as a possible solution to the offline data accessibility problem", what_it_does: "", examples: "fog computing , edge computing , and others" },
 
+  // === INGESTED 2026-07-05 19:42 ===
+  browserbased_computing: "The use of the web browsers to perform computing tasks",
+
 };
 
 // ============================================================
