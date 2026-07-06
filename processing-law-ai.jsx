@@ -65275,6 +65275,12 @@ const FLAT_DICT = {
   krypton_flashtubes: "Often chosen for pumping Nd:YAG lasers , even though their wall-plug efficiency is typically only ~ 40%",
   luminaire_efficiency: "The total lumen-output from the fixture per the lamp output",
 
+  // === INGESTED 2026-07-06 15:21 ===
+  twostroke_engines: { definition: "Very sensitive to this concept and can use expansion chambers that return the escaping air-fuel mixture back to the cylinder", what_it_does: "", examples: "supercharging or turbocharging" },
+  the_limit_for_naturally_aspirated_engines: "About 130%; [ 6 ] these engines are typically of a DOHC layout with four valves per cylinder",
+  volumetric_efficiency_in_a_hydraulic_pump: "The percentage of actual fluid flow out of the pump compared to the flow out of the pump without leakage",
+  when_a_single_number: { definition: "Given for volumetric efficiency, it will typically be at the rated pressure and speed", what_it_does: "", examples: "maximizing the energy stored in a battery powering a cellphone" },
+
 };
 
 // ============================================================
