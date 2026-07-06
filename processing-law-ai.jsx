@@ -63822,6 +63822,19 @@ const FLAT_DICT = {
   though_the_attempt_to_capture_her_attention: "Unsuccessful, his music interest became a key part of his becoming a part of Susan Thompson 's life, and led to their marriage",
   a_majority_of_shares: "Donated to the Gates Foundation with the rest received by four other charitable foundations run by their children",
 
+  // === INGESTED 2026-07-06 09:02 ===
+  the_efficientmarket_hypothesis: "An assumption that asset prices reflect all available information, meaning that it is theoretically impossible to systematically 'beat the market'",
+  buying_mutual_funds_with_high_returns: "Called a 'return-chasing behavior",
+  stock_market_returns: { definition: "Almost unpredictable in the short term", what_it_does: "", examples: "50- and 200-day moving averages (which are particularly popular)" },
+  moving_average_strategies: "Simple to understand, and often claim to give good returns, but the results may be confused by hindsight and data mining",
+  mutual_fund_flows: "Published by organizations like Investment Company Institute , Lipper , Morningstar , and TrimTabs",
+  these_mutual_fund_flows: "Near the start of a significant bear (downtrending) market and bull (uptrending) market respectively",
+  balanced_funds: "A bit better at four years, or five times",
+  some_trading_is_necessary_since_not_only: "The investor return less than the best asset class, it is typically worse than the worst asset class, which would be better",
+  emh_assumes_that_investors: "Highly intelligent and perfectly rational",
+  whether_market_timing: { definition: "Ever a viable investment strategy is controversial", what_it_does: "", examples: "an apparent bubble" },
+  thus_if_market_timing: "Not a viable investment strategy, the proponents say, then neither is any of the trading on the various stock exchanges",
+
 };
 
 // ============================================================
