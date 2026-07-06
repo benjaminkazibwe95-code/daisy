@@ -66335,6 +66335,11 @@ const FLAT_DICT = {
   the_perforations_in_the_terminal_cell: "Large enough for small molecules to pass, but larger proteins are retained within the animal",
   protonephridia: "Generally found in basal organisms such as flatworms",
 
+  // === INGESTED 2026-07-06 20:08 ===
+  worms: { definition: "Many different distantly related bilateral animals that typically have a long cylindrical tube-like body, no limbs , and usually no eyes", what_it_does: "", examples: "grubs and maggots" },
+  deworming: "A method to kill off the worms that have infected a human or animal by giving anthelmintic drugs",
+  wyrm: "The Old English term for carnivorous reptiles ('serpents') and mythical dragons",
+
 };
 
 // ============================================================
