@@ -65712,6 +65712,16 @@ const FLAT_DICT = {
   this_root: "The source of similar words for 'ten' in many other Germanic languages",
   the_widespread_use_of_decimal_systems: "Believed to be because humans have ten fingers and ten toes , which people may have used to count by",
 
+  // === INGESTED 2026-07-06 17:02 ===
+  each_letter: "Itself represented several times, typically in braille , morse code , semaphore , and sign language as well as in its printed form",
+  the_winner: "To be the contestant with the highest number of points, regardless of whether they correctly identified all of the words",
+  additional_workbooks: "Available for purchase by mail order",
+  completed_workbooks: "To be submitted by post, to be received before April 1, 1988",
+  the_ultimate_alphabet: "The first book in Wilks' 'Ultimate' trilogy",
+  the_other_books: "The Ultimate Noah's Ark ( ISBN 0-7181-3596-2 ) and The Ultimate Spot-The-Difference Book ( ISBN 0-670-87856-1 )",
+  this_last_title: "Published in North America as Metamorphosis ( ISBN 0-670-87666-6 )",
+  the_ultimate_alphabet_game: "Released in June 2010 for the iPad , by Toytek, a UK-based independent games developer",
+
 };
 
 // ============================================================
