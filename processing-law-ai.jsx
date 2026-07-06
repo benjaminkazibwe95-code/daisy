@@ -63109,6 +63109,11 @@ const FLAT_DICT = {
   the_boron_reagent: "Converted to boric acid",
   again_the_mode_of_action: "Syn and secondary reaction products are aldehydes from terminal alkynes and ketones from internal alkynes",
 
+  // === INGESTED 2026-07-06 05:03 ===
+  the_same_temperature_interval: "Later used for the Kelvin scale",
+  colour_temperature: "Based upon the principle that a black body radiator emits light with a frequency distribution characteristic of its temperature",
+  the_simple_guide: { definition: "That higher colour temperature produces an image with enhanced white and blue hues", what_it_does: "", examples: "'it is 283 kelvins outside', as for 'it is 50 degrees Fahrenheit' and '10 degrees Celsius')" },
+
 };
 
 // ============================================================
