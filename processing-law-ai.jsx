@@ -63172,6 +63172,14 @@ const FLAT_DICT = {
   even_more_complicating: "The presence of inter-system crossing and other non-radiative processes in a molecule",
   a_limiting_factor_of_this_technique_is_that_it: { definition: "Limited to studying energy states that result in fluorescent decay", what_it_does: "", examples: "the fluorescence decay of residues in biological systems" },
 
+  // === INGESTED 2026-07-06 05:20 ===
+  another_synthesis_route: "To begin by reacting HBr and KHCO 3 in an aqueous solution, then sublimate away water at 200 K",
+  an_explanation_using_transition_state_theory: "That pure H 2 CO 3 is in fact rather metastable",
+  all_three_co_bonds: "Nearly equidistant at 1.34 Å , intermediate between typical C-O and C=O distances (respectively 1.43 and 1.23 Å)",
+  the_unusual_co_bond_lengths: "Attributed to delocalized π bonding in the molecule's center and extraordinarily strong hydrogen bonds",
+  the_equilibrium_constant_for_this_reaction: { definition: "Defined by Henry's law", what_it_does: "", examples: "Ganymede , Callisto , and Titan , where water and carbon dioxide are present" },
+  this_rise_in_dissolved_acid: "Also expected to acidify those waters, generating a decrease in pH",
+
 };
 
 // ============================================================
