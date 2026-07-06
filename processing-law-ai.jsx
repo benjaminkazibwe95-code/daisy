@@ -63655,6 +63655,12 @@ const FLAT_DICT = {
   if_infringement_action: "To be taken, the design needs to become certified which involves a substantive examination",
   some_of_the_jurisdictions_below: "Unions or collaborative office for design registration like the African Intellectual Property Organization , the European Union and the Benelux",
 
+  // === INGESTED 2026-07-06 07:47 ===
+  this_form_of_science: { definition: "The use of substantial data sets that necessitate grid computing , a method of leveraging multiple computers to process large data sets efficiently", what_it_does: "", examples: "the access grid" },
+  additional_funding_for_uk_escience_activities: { definition: "Provided from European Union funding, from university funding council SRIF funding for hardware, and from Jisc for networking and other infrastructure", what_it_does: "", examples: "There are also various centres of excellence and research centres" },
+  dutch_escience_research: "Coordinated by the Netherlands eScience Center in Amsterdam, an initiative founded by NWO and SURF",
+  the_scientific_method_later: "Divided into two major branches, deductive and empirical approaches",
+
 };
 
 // ============================================================
