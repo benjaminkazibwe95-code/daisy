@@ -63878,6 +63878,29 @@ const FLAT_DICT = {
   the_other_leg: "Typically a fixed-income cash flow such as a benchmark interest rate",
   while_principal_payments: "Not exchanged in an interest rate swap, assuming that these are received and paid at the end of the swap does not change its value",
 
+  // === INGESTED 2026-07-06 09:19 ===
+  art_as_we_have_generally_understood_it: { definition: "A European invention barely two hundred years old", what_it_does: "", examples: "Blake 's portrayal of Newton as a divine geometer, [ 47 ] or David 's propagandistic paintings" },
+  works_of_art: "Not merely representations of the way things are, but actually produce a community's shared understanding",
+  each_time_a_new_artwork: "Added to any culture, the meaning of what it is to exist is inherently changed",
+  greco_buddhist_art: { definition: "One of the most vivid examples of this interaction", what_it_does: "", examples: "media , genre, styles , and form" },
+  its_restrictive_interpretation: { definition: "'socially unhealthy, philosophically unreal, and politically unwise'", what_it_does: "", examples: "the ideas, emotions, and reactions prompted by a work" },
+  this_does_not_imply_that_the_purpose_of_art: "'vague', but that it has had many unique, different reasons for being created",
+  some_of_these_functions_of_art: { definition: "Provided in the following outline", what_it_does: "", examples: "art for the purpose of entertainment may also seek to sell a product, i.e" },
+  artistic_inspiration: { definition: "One of the main drivers of art, and may be considered to stem from instinct, impressions, and feelings", what_it_does: "", examples: "the artist's mood , surroundings, and mental state" },
+  some_art: { definition: "Meant to be practical, with its analysis studious, meant to stimulate discourse", what_it_does: "", examples: "pottery, which persists in the ground, and perishable media such as textiles and wood" },
+  cylinder_seals: "Both artistic and practical, and very widely used by what can be loosely called the middle class in the Ancient Near East",
+  printed_books: { definition: "Initially very expensive, but fell steadily in price until by the 19th century even the poorest could afford some with printed illustrations", what_it_does: "", examples: "the Old Royal Library were made from it to the British Museum , established in 1753" },
+  the_idea_was_that_if_the_artwork: "A performance that would leave nothing behind, or was an idea, it could not be bought and sold",
+  many_of_these_performances_create_works_that: "Only understood by the elite who have been educated as to why an idea or video or piece of apparent garbage may be considered art",
+  iconoclasm_is_the_destruction_of_art_that: "Disliked for a variety of reasons, including religious ones",
+  aniconism: "A general dislike of either all figurative images, or often just religious ones, and has been a thread in many major religions",
+  the_last_judgment_by_michelangelo: "Controversial for various reasons, including breaches of decorum through nudity and the Apollo -like pose of Christ",
+  this_concern: { definition: "Largely absent in other traditions of art", what_it_does: "", examples: "Michael Fried , T" },
+  though_perception: "Always colored by experience, and is necessarily subjective, it is commonly understood that what is not somehow aesthetically satisfying cannot be art",
+  an_essential_legal_issue: "Art forgeries , plagiarism , replicas and works that are strongly based on other works of art",
+  copyright_protection: "Granted to artists for their original works, providing them with exclusive rights to reproduce, distribute, and display their creations",
+  internationally_there: "Also extensive efforts to protect the works of art created",
+
 };
 
 // ============================================================
