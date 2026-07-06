@@ -64599,6 +64599,15 @@ const FLAT_DICT = {
   if_the_kick: "Missed, the touchdown did not count",
   that_team: { definition: "Coached by Charlie Baillie who took over in 1972 and served as head coach until 2000", what_it_does: "", examples: "two winless seasons in 2007 and 2008" },
 
+  // === INGESTED 2026-07-06 12:19 ===
+  games_begin_when_the_ball: "Served through a hole at the side of the table, or simply placed by hand at the feet of a figure in the centre of the table",
+  a_coin_toss: "Usually used to determine which player or team serves first",
+  if_an_ungrasped_rod: "Spun by the force of a ball hitting a player figure on the rod, the spin will be considered legitimate",
+  table_football: { definition: "Also played in official competitions organized by a number of national organizations, with highly evolved rules and regulations", what_it_does: "", examples: "the annual World Championships and the World Cup" },
+  the_world_cup: "Originally intended to coincide with the FIFA World Cup , but since January 2009 it has run annually",
+  the_table_football_robot_foosbot: "Claimed to have been beaten by a human several times, but has been tested against expert players",
+  the_element_of_surprise_and_special_techniques: "Employed to catch the opponent off guard",
+
 };
 
 // ============================================================
