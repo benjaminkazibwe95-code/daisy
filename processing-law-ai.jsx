@@ -65088,6 +65088,10 @@ const FLAT_DICT = {
   many_websites: "JavaScript-heavy, so transpilers have been created to convert code written in other languages, which can aid the development process",
   webassembly: "A newer language with a bytecode format designed to complement JavaScript, especially the performance-critical portions of web page scripts",
 
+  // === INGESTED 2026-07-06 14:34 ===
+  this_will_succeed_unless_a: "Logically false; in this case, the expression will always result in b",
+  to_avoid_evaluating_the_expression_that: "Not selected, the If keyword was added (in Visual Basic .Net 9.0) as a true ternary conditional operator",
+
 };
 
 // ============================================================
