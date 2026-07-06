@@ -66583,6 +66583,16 @@ const FLAT_DICT = {
   mr_kikukawa_resigned_in_the_following_year_and: "Arrested by Tokyo police for alleged criminal offenses during and before his term as president and CEO",
   preceding_executive_yasuo_takeuchi: "Assigned the new CEO",
 
+  // === INGESTED 2026-07-06 21:17 ===
+  the_dtmf_frequencies: "Standardized in ITU-T Recommendation Q.23",
+  pulse_dialing: "Possible only on direct metallic lines and was limited in physical distance by the amount of electrical distortions present",
+  various_mf_signaling_protocols: "Devised by the Bell System and CCITT",
+  as_the_signals: "Audible tones, they can be transmitted through line repeaters and amplifiers, and over radio and microwave links",
+  dtmf: "Originally decoded by tuned electrical filter banks",
+  other_trade_names_such_as_digitone: { definition: "Used by the Northern Electric Company in Canada", what_it_does: "", examples: "the 1 key produces a superimposition of a 697 Hz low tone and a 1209 Hz high tone" },
+  the_tones: { definition: "Decoded by the switching center to determine the keys pressed by the user", what_it_does: "", examples: "*67 in the United States and Canada to suppress caller ID" },
+  such_callprogress_tones: { definition: "Often also composed of multiple frequencies and are standardized in each country", what_it_does: "", examples: "Bell 400-style modems" },
+
 };
 
 // ============================================================
