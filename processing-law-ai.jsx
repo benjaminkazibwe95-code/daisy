@@ -64874,6 +64874,14 @@ const FLAT_DICT = {
   constantine: { definition: "Also a composer with several major works to his credit", what_it_does: "", examples: "Bashert , The Dome , Web Games , The Rosen Singularity , Chipset , Gasline , and Flight Track" },
   his_work_on_humancomputer_interaction: "Influential for techniques like essential use cases and usage-centered design , which are widely used for building interactive software systems",
 
+  // === INGESTED 2026-07-06 13:44 ===
+  jrd_sessions: "Analogous to Joint Application Design Sessions",
+  a_popular_form_of_prototype: "A mockup , which helps future users and other stakeholders get an idea of what the system will look like",
+  wireframes: "Made in a variety of graphic design documents, and often remove all color from the design (i.e",
+  use_cases: { definition: "Deceptively simple tools for describing the behavior of software or systems", what_it_does: "", examples: "priority software system bugs to fix and enhancements to make" },
+  requirements: "Categorized in several ways",
+  the_customers: { definition: "Those that perform the eight primary functions of systems engineering, with special emphasis on the operator as the key customer", what_it_does: "", examples: "a requirement for long-range or high speed may result in a design requirement for low weight" },
+
 };
 
 // ============================================================
