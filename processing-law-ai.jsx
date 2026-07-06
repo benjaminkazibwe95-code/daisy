@@ -63199,6 +63199,18 @@ const FLAT_DICT = {
   the_nuclear_particles: { definition: "Bound together by the strong nuclear force", what_it_does: "", examples: "beta decay" },
   as_euclidean_space: "Contractible , its de Rham cohomology vanishes, so every closed form is also an exact form , and can be expressed as the gradient of a scalar field",
 
+  // === INGESTED 2026-07-06 05:35 ===
+  heterogeneous: "That the components of the mixture are of different phase",
+  if_the_solvent: "Water, hydration occurs when the charged solute ions become surrounded by water molecules",
+  an_example_of_a_gaseous_solution: "Air (oxygen and other gases dissolved in nitrogen)",
+  the_case_of_condensable_vapors: "Different: once the saturation vapor pressure at a given temperature is reached, vapor excess condenses into the liquid state",
+  an_example_of_a_dissolved_gas: "Oxygen in water, which allows fish to breathe under water",
+  an_examples_of_a_dissolved_liquid: "Ethanol in water, as found in alcoholic beverages",
+  an_example_of_a_dissolved_solid: "Sugar water, which contains dissolved sucrose",
+  if_interactions: { definition: "Unfavorable, then the free energy decreases with increasing solute concentration", what_it_does: "", examples: "temperature , pressure , and contamination" },
+  the_solubility_of_liquids_in_liquids: { definition: "Generally less temperature-sensitive than that of solids or gases", what_it_does: "", examples: "melting point and boiling point change when other compounds are added" },
+  such_solutions: "Called electrolytes",
+
 };
 
 // ============================================================
