@@ -64886,6 +64886,10 @@ const FLAT_DICT = {
   many_operating_systems: "Installed with application and utility software",
   core_utility_software: "Considered by some to be system software if it cannot be uninstalled without affecting the functioning of other software",
 
+  // === INGESTED 2026-07-06 13:49 ===
+  the_halfduplex_and_duplex_configurations: "Called the IBM System/360 model 67–2",
+  virtual_memory_support: { definition: "Added to MTS in October 1967", what_it_does: "", examples: "source code modifications), they built and supported a generation of time-sharing centers" },
+
 };
 
 // ============================================================
