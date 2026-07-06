@@ -64520,6 +64520,10 @@ const FLAT_DICT = {
   suppose_that_b: "The anti-Bayes procedure, which calculates what the Bayesian algorithm A based on Occam's razor will predict – and then predicts the exact opposite",
   in_that_form_the_rule: "Often credited to Tim Berners-Lee since it appeared in his design guidelines for the original Hypertext Transfer Protocol",
 
+  // === INGESTED 2026-07-06 11:58 ===
+  personality_and_individual_differences: "A peer-reviewed academic journal published 16 times per year by Elsevier",
+  the_founding_editor: "Hans Jürgen Eysenck",
+
 };
 
 // ============================================================
