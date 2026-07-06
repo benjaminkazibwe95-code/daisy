@@ -64653,6 +64653,22 @@ const FLAT_DICT = {
   the_goal_for_the_married_men: "The pulpit of the church; if a goal was scored then the church bell would rung by the victors",
   the_goal_of_the_bachelors: "The hopper of any of the grinding mills in the district, the nearest being over a mile (1500 m) away",
 
+  // === INGESTED 2026-07-06 12:28 ===
+  winchester_college: "An English public school (a fee-charging boarding school) for pupils aged 13–18 in Winchester , Hampshire",
+  a_war_cloister: "Built as a memorial in 1924",
+  former_pupils: "Known as Old Wykehamists",
+  winchester: "To act as a feeder school to New College , also founded by Wykeham",
+  demand_for_places_for_commoners: "High, and though at first restricted, numbers gradually rose",
+  a_statute_to_this_effect: "Drawn up in 1545, which was only halted by his death",
+  the_scholars: "Known as 'Collegemen', and the schoolmaster in charge of them is called the Master in College",
+  a_member_of_a_house: "Described by the informal name of the house with '-ite' suffixed, as 'a Furleyite', 'a Toyeite', 'a Cookite' and so on",
+  the_current_version: "Painted by William Cave the Younger in 1809",
+  the_college_arms: "Shown in the background of the painting",
+  the_word_notion: { definition: "Also used to describe traditions unique to the school", what_it_does: "", examples: "its motto, its graces, and a prayer" },
+  a_grace: "Read before and after every lunch and formal meal in College Hall",
+  two_separate_graces: "Traditionally sung during Election, the scholarship process",
+  the_origin_of_the_song: { definition: "Unknown; it was described as 'an old tradition' in the 1773 History and Antiquities of Winchester", what_it_does: "", examples: "'See the year, the meadow, smiling' and 'Now the swallow seeks her dwelling'" },
+
 };
 
 // ============================================================
