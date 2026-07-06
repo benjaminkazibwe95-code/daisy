@@ -65776,6 +65776,9 @@ const FLAT_DICT = {
   among_the_potential_buyers: "Leonard Riggio, who owned at the time approximately 19% of Barnes & Noble stock",
   the_first_device: { definition: "Announced in the United States on October 20, 2009, and was released November 30, 2009, for $259", what_it_does: "", examples: "Apple's iBooks for iOS devices" },
 
+  // === INGESTED 2026-07-06 17:15 ===
+  mehmet_nuri_ersoy: "Appointed Minister of Culture and Tourism",
+
 };
 
 // ============================================================
