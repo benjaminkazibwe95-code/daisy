@@ -63256,6 +63256,16 @@ const FLAT_DICT = {
   bernoulli_that: { definition: "Later published in the Berliner Astronomisches Jahrbuch", what_it_does: "", examples: "the hand-written notes about the Sombrero Galaxy" },
   this_dust_lane: "Actually a symmetrical ring that encloses the bulge of the galaxy",
 
+  // === INGESTED 2026-07-06 06:11 ===
+  the_emergence_of_true_nervous_tissue: { definition: "Once thought to have followed the divergence of last common ancestor of Porifera (sponges) and Cnidaria and Ctenophora", what_it_does: "", examples: "light, gravity, and water movement, all of which increase the fitness of the organism" },
+  developmental_neurogenesis_of_nerve_nets: "Conserved between phyla and has been mainly studied in cnidaria, especially in the model organism Hydra",
+  the_ectoderm_and_the_endoderm: "Separated by an extra-cellular matrix layer called the mesoglea",
+  the_mechanism_by_which_this_occurs: "Similar to that concerning the anterior to posterior patterning of the central nervous systems in bilaterians",
+  the_movement_of_individual_neurons: "Coupled to the movement of epithelial cells",
+  the_highest_concentration_of_neurons: "In the basal disk and the lowest (if neurons are even present) is in the tentacles",
+  there_are_two_categories_of_nerve_cells_that: "Found in the nerve nets of Hydra : ganglion and sensory",
+  a_nerve_net: "Considered to be a separate structure in the cnidarians and is associated with signal molecules; it is primarily considered a neurochemical pathway",
+
 };
 
 // ============================================================
