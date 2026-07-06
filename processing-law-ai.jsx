@@ -66046,6 +66046,10 @@ const FLAT_DICT = {
   another_possible_issue: { definition: "That, although the Alcubierre metric is consistent with Einstein's equations, general relativity does not incorporate quantum mechanics", what_it_does: "", examples: "a visit to Proxima Centauri within a few days" },
   the_interior_of_the_bubble: { definition: "An inertial reference frame and inhabitants experience no proper acceleration", what_it_does: "", examples: "time dilation would not apply as they would with conventional motion at near-light speeds" },
 
+  // === INGESTED 2026-07-06 18:16 ===
+  physicist_edward_teller: "The keynote speaker , and warned of the United States' poor performance in the atomic arms race",
+  among_the_awardees: "Katalin Karikó , [ 37 ] a biochemist whose research with Drew Weissman underpins the mRNA COVID-19 vaccines",
+
 };
 
 // ============================================================
