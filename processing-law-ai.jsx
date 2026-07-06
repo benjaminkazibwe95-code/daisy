@@ -64501,6 +64501,25 @@ const FLAT_DICT = {
   the_goal_of_a_ranked_voting_system: "For voters to be able to vote sincerely and trust the system to protect their intent",
   all_three_systems: "Susceptible to tactical voting , but the types of tactics used and the frequency of strategic incentive differ in each method",
 
+  // === INGESTED 2026-07-06 11:55 ===
+  the_term_razor: { definition: "Distinguishing between two hypotheses either by 'shaving away' unnecessary assumptions or cutting apart two similar conclusions", what_it_does: "", examples: "are both true and sufficient to explain their appearances" },
+  if_the_latter_interpretation: "Accepted, the validity of Occam's razor as a tool could possibly be accepted if the simpler hypotheses led to correct conclusions more often than not",
+  even_if_some_increases_in_complexity: "Sometimes necessary, there still remains a justified general bias toward the simpler of two competing explanations",
+  ad_hoc_hypotheses: { definition: "Justifications that prevent theories from being falsified", what_it_does: "", examples: "notable attempts made by Harold Jeffreys and E" },
+  science_prefers_the_simplest_explanation_that: "Consistent with the data available at a given time, but the simplest explanation may be ruled out as new data become available",
+  several_background_assumptions: "Required for parsimony to connect with plausibility in a particular research problem",
+  it_is_a_mistake_to_think_that_there: "A single global principle that spans diverse subject matter",
+  the_general_principle_of_science: { definition: "That theories (or models) of natural law must be consistent with repeatable experimental observations", what_it_does: "", examples: "Newtonian , Hamiltonian and Lagrangian classical mechanics are equivalent" },
+  dawkins_argues_the_way_evolution_works: "That the genes propagated in most copies end up determining the development of that particular species, i.e",
+  the_behavior: "Disadvantageous to them individually but beneficial to the group as a whole; thus, it was seen by some to support the group selection theory",
+  cladograms: "Branching, diagrams used to represent hypotheses of relative degree of relationship, based on synapomorphies",
+  because_this_information: "Not empirically accessible, the criticism of statistical inconsistency against parsimony holds no force",
+  dualists_state_that_there: { definition: "Two kinds of substances in the universe: physical (including the body) and spiritual, which is non-physical", what_it_does: "", examples: "consciousness, and that there is nothing nonphysical" },
+  eliminativism: "The thesis that the ontology of folk psychology including such entities as 'pain', 'joy', 'desire', 'fear', etc",
+  many_artificial_intelligence_researchers: { definition: "Now employing such techniques, for instance through work on Occam Learning or more generally on the Free energy principle", what_it_does: "", examples: "the prior might favor hypotheses with smaller Kolmogorov complexity )" },
+  suppose_that_b: "The anti-Bayes procedure, which calculates what the Bayesian algorithm A based on Occam's razor will predict – and then predicts the exact opposite",
+  in_that_form_the_rule: "Often credited to Tim Berners-Lee since it appeared in his design guidelines for the original Hypertext Transfer Protocol",
+
 };
 
 // ============================================================
