@@ -63726,6 +63726,10 @@ const FLAT_DICT = {
   fordism: "A 'manufacturing system designed to produce standardized, low-cost goods and afford its workers decent enough wages to buy them",
   his_assembly_line: "Revolutionary though not original as it had previously been used at slaughterhouses",
 
+  // === INGESTED 2026-07-06 08:32 ===
+  didi: { definition: "Founded in Beijing in June 2012 by Cheng Wei as a taxi-hailing service under the name Didi Dache ( 嘀嘀打车 )", what_it_does: "", examples: "Yidao Yongche ( 易到用车 ) and Uber (of which Baidu was an investor)" },
+  this_equity_share_fundraising_round: { definition: "One of the world's largest by any private company, surpassing the previous record set by DiDi", what_it_does: "", examples: "Artificial Intelligence" },
+
 };
 
 // ============================================================
