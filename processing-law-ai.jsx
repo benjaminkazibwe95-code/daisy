@@ -65683,6 +65683,13 @@ const FLAT_DICT = {
   this_cutoff_energy: "Derived from a semi-classical calculation, often called the three-step model",
   the_gouy_phase: { definition: "Due to wavefront phase jump close to the focus, and varies along it", what_it_does: "", examples: "plane wave propagation, free focusing, hollow core waveguide, etc.)" },
 
+  // === INGESTED 2026-07-06 16:56 ===
+  the_opsins_in_the_cone_cells: "OPN1SW , OPN1MW , and OPN1LW",
+  the_cones_form_incomplete_disks_that: "Part of the plasma membrane , so that the N-terminus head extends outside of the cell",
+  retinylidene: "The divalent group formed by removing the oxygen atom from retinal, and so opsins have been called retinylidene proteins",
+  opsins: { definition: "Prototypical G protein-coupled receptors (GPCRs)", what_it_does: "", examples: "Drosophila , use (3 S )-3-hydroxyretinal" },
+  the_visual_cycle: "A circular enzymatic pathway , which is the front-end of phototransduction",
+
 };
 
 // ============================================================
