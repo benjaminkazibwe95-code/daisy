@@ -67156,6 +67156,9 @@ const FLAT_DICT = {
   eddies: { definition: "Generated through baroclinic instability, which act to flatten density surfaces through the slantwise exchange of fluid", what_it_does: "", examples: "the Atlantic Meridional Overturning Circulation (AMOC), [ 14 ] [ 15 ] which affects global climate" },
   one_popular_method: "To run a model, or a submodel, and compare it to a small set of selected metrics, such as temperature",
 
+  // === INGESTED 2026-07-06 23:44 ===
+  the_first_of_these_forms: { definition: "Expressible using ordinary quantifiers, but the latter two cannot be expressed in ordinary first-order logic", what_it_does: "", examples: "many concepts in category theory are defined to be unique up to isomorphism" },
+
 };
 
 // ============================================================
