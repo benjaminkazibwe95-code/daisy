@@ -63101,6 +63101,14 @@ const FLAT_DICT = {
   here_electrons: "Excited as described above, and the spontaneously emit photon to decay to lower energy states",
   this_method_of_qualitative_analysis: "Called a flame test",
 
+  // === INGESTED 2026-07-06 04:55 ===
+  the_general_form_of_the_reaction: "As follows: Tetrahydrofuran (THF) is the archetypal solvent used for hydroboration",
+  this_hydroboration: "Repeated two additional times, successively reacting each B–H bond so that three alkenes add to each BH 3",
+  the_hydroboration_step: "A concerted process, as no carbocation is produced, meaning that no rearrangement occurs",
+  the_resulting_trialkylborane: { definition: "Treated with hydrogen peroxide in the second step", what_it_does: "replaces the B-C bonds with HO-C bonds", examples: "" },
+  the_boron_reagent: "Converted to boric acid",
+  again_the_mode_of_action: "Syn and secondary reaction products are aldehydes from terminal alkynes and ketones from internal alkynes",
+
 };
 
 // ============================================================
