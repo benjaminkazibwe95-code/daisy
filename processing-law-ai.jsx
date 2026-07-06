@@ -64198,6 +64198,19 @@ const FLAT_DICT = {
   many_ion_channels: "Regulated by anionic lipids",
   phospholipase_d: "A regulator of several critical cellular processes, including vesicle transport , endocytosis , exocytosis , cell migration , and mitosis",
 
+  // === INGESTED 2026-07-06 10:45 ===
+  cortisol: { definition: "Used to treat conditions resulting from overactivity of the B-cell-mediated antibody response", what_it_does: "", examples: "inflammatory and rheumatoid diseases, as well as allergies" },
+  acth: "A hormone that stimulates the adrenal gland to produce cortisol and other steroid hormones",
+  such_adrenal_suppression: { definition: "A way for a virus to evade immune detection and elimination", what_it_does: "", examples: "metabolism, blood pressure, inflammation, and immune response" },
+  corticosterone: "Comparable to cortisol in this case",
+  this_ultradian_rhythm: { definition: "Characterised by hourly pulses of cortisol secretion", what_it_does: "", examples: "alterations in prenatal and postnatal growth patterns" },
+  the_release_of_cortisol: { definition: "Controlled by the hypothalamus of a brain", what_it_does: "", examples: "age and sex" },
+  cortisol_in_hair: { definition: "A reliable indicator of chronic cortisol exposure", what_it_does: "", examples: "The primary control of cortisol is the pituitary gland peptide, adrenocorticotropic hormone (ACTH)" },
+  the_increase_in_cortisol_in_diarrheic_calves: { definition: "Minimal over healthy calves, however, and falls over time", what_it_does: "", examples: "those caused by endotoxic bacteria" },
+  the_suppressor_immune_cells: "Not affected by GRMF, [ 97 ] so the immune cells' effective setpoint may be even higher than the setpoint for physiological processes",
+  cortex: "'the outer layer'—a reference to the adrenal cortex, the part of the adrenal gland where cortisol is produced",
+  the_metabolism_of_cortisol_to_cortisone: "Oxidation of the hydroxyl group at the 11-beta position",
+
 };
 
 // ============================================================
