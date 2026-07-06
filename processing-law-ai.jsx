@@ -66716,6 +66716,10 @@ const FLAT_DICT = {
   techcrunch: "Founded in June 2005 by Archimedes Ventures, led by partners Michael Arrington and Keith Teare",
   monetary_awards: { definition: "Presented at the TechCrunch Disrupt conferences", what_it_does: "", examples: "Paul Carr and Sarah Lacy , moved to another technology investment media company" },
 
+  // === INGESTED 2026-07-06 21:42 ===
+  oxygenos: "Developed for their overseas market",
+  oneplus_also_says_that_they: "Revising the data analysis mechanism, and will no longer collect certain data",
+
 };
 
 // ============================================================
