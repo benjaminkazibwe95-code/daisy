@@ -67150,6 +67150,12 @@ const FLAT_DICT = {
   implicit_functions: { definition: "A more general way to represent functions, since if: then we can always define: but the converse is not always possible, i.e", what_it_does: "", examples: "the computation of the real and the imaginary part may be difficult" },
   the_real_part: "The velocity potential and the imaginary part is the stream function",
 
+  // === INGESTED 2026-07-06 23:42 ===
+  associated_with_these_parametrizations: "Various parameters used in the simplified processes",
+  radiative_parametrizations: { definition: "Important to both atmospheric and oceanic modeling alike", what_it_does: "", examples: "geostrophy and upwelling can result in isopycnals becoming tilted relative to isobars" },
+  eddies: { definition: "Generated through baroclinic instability, which act to flatten density surfaces through the slantwise exchange of fluid", what_it_does: "", examples: "the Atlantic Meridional Overturning Circulation (AMOC), [ 14 ] [ 15 ] which affects global climate" },
+  one_popular_method: "To run a model, or a submodel, and compare it to a small set of selected metrics, such as temperature",
+
 };
 
 // ============================================================
