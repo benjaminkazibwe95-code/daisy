@@ -65998,6 +65998,10 @@ const FLAT_DICT = {
   randall: "Both her correspondence and Epstein's appearance at the conference as resulting from Epstein's public financing of scientific efforts",
   these_derive_from_a_deep_understanding_of_what: { definition: "Relevant to physics and astronomy, and especially from a mastery of wholly new mathematical techniques", what_it_does: "", examples: "the Stephen W" },
 
+  // === INGESTED 2026-07-06 17:59 ===
+  this_intermediatescale: "Defined by the quantum volume , which is based on a moderate number of qubits and gate fidelity",
+  the_nisq_era: { definition: "The current state of quantum computer technology, [ 3 ] [ 4 ] [ 5 ] and the term was coined by John Preskill in 2018", what_it_does: "", examples: "physics, materials science, data science, cryptography, biology, and finance" },
+
 };
 
 // ============================================================
