@@ -66175,6 +66175,14 @@ const FLAT_DICT = {
   if_no_cause: "Found, the diagnosis is Bell's Palsy",
   facial_palsy: "Considered severe if the person is unable to close the affected eye completely or the face is asymmetric even at rest",
 
+  // === INGESTED 2026-07-06 19:03 ===
+  the_internal_capsule: "Situated in the inferomedial part of each cerebral hemisphere of the brain",
+  below_the_basal_ganglia_the_tract: "Called cerebral crus (a part of the cerebral peduncle ) and below the pons it is referred to as the corticospinal tract",
+  the_genu: "The bend, or flexure in the V of the internal capsule",
+  the_sublenticular_part: "Beneath the lentiform nucleus, and contains fibers connecting with the temporal lobe",
+  the_inferior_half_of_the_anterior_limb: "Supplied via the recurrent artery of Heubner , which is a branch of the anterior cerebral artery",
+  the_inferior_half_of_the_posterior_limb: "Supplied by the anterior choroidal artery , which is a branch of the internal carotid artery",
+
 };
 
 // ============================================================
