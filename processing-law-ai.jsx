@@ -64158,6 +64158,21 @@ const FLAT_DICT = {
   a_food_resistant_to_this_process: { definition: "Undigested, as insoluble and soluble fibers are", what_it_does: "", examples: "blood glucose and lipid levels, the colonic environment, and intestinal immune functions" },
   the_fda_has_concluded_that_there: "Limited scientific evidence for this claim",
 
+  // === INGESTED 2026-07-06 10:30 ===
+  certain_fractions_of_animal_blood: { definition: "Used in human medicine", what_it_does: "", examples: "Swedish blodplättar , Finnish veriohukainen , and Estonian veripannkoogid" },
+  blood_curd: "A dish typically found in Asia that consists of cooled and hardened animal blood",
+  blood_tofu: { definition: "Found in curry mee as well as the Sichuan dish, mao xue wang ( 毛血旺 )", what_it_does: "", examples: "hangover soup" },
+  raw_blood: "Not commonly consumed by itself, but may be used as an addition to drinks or other dishes",
+  yaguarlocro: "A potato soup made with sprinklings of goat's blood",
+  when_prepared_alone_it: "Called இரத்த பொரியல் ( irattha poriyal )",
+  sorpotel: { definition: "Primarily made by Catholics of Goa , Mangalore and Bombay East Indians of Mumbai", what_it_does: "", examples: "pig's blood, cellophane noodles, kimchi , scallions, etc" },
+  the_sausage: "Also used in lentils or prepared in stir fry dishes",
+  these_versions: "Sometimes known as 'crispy dinuguan' elsewhere",
+  this_type_of_raw_blood_dish: "Called ' tiết canh ', literally translated as 'blood soup'",
+  veripalttu: "Another dish available in some parts of the country",
+  the_soldiers: { definition: "Ordered to attack him when 'The black soup is still left' was said, hence the phrase", what_it_does: "", examples: "intestines" },
+  kaszanka: "The Polish incarnation of blood sausage",
+
 };
 
 // ============================================================
