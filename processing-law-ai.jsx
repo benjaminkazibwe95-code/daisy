@@ -63180,6 +63180,25 @@ const FLAT_DICT = {
   the_equilibrium_constant_for_this_reaction: { definition: "Defined by Henry's law", what_it_does: "", examples: "Ganymede , Callisto , and Titan , where water and carbon dioxide are present" },
   this_rise_in_dissolved_acid: "Also expected to acidify those waters, generating a decrease in pH",
 
+  // === INGESTED 2026-07-06 05:22 ===
+  the_potential_energy: "Related to, and can be obtained from, this potential function",
+  forces_derivable_from_a_potential: "Also called conservative forces",
+  the_work_done_by_a_conservative_force: "W = − Δ U , {\displaystyle W=-\Delta U,} where Δ U {\displaystyle \Delta U} is the change in the potential energy associated with the force",
+  common_notations_for_potential_energy: "PE , U , V , and E p",
+  consider_a_ball_whose_mass: "M dropped from height h",
+  the_acceleration_g_of_free_fall: "Approximately constant, so the weight force of the ball mg is constant",
+  if_the_work_for_an_applied_force: "Independent of the path, then the work done by the force is evaluated from the start to the end of the trajectory of the point of application",
+  because_the_work_done: "Independent of the path taken, then this expression is true for any trajectory, C , from A to B",
+  if_the_stretch: { definition: "Released, the energy is transformed into kinetic energy", what_it_does: "", examples: "in the case of inverse-square law forces" },
+  gravitational_energy: "The potential energy associated with gravitational force , as work is required to elevate objects against Earth's gravity",
+  the_potential_energy_due_to_elevated_positions: "Called gravitational potential energy, and is evidenced by water in an elevated reservoir or kept behind a dam",
+  as_the_book: { definition: "Raised from the floor to the table, some external force works against the gravitational force", what_it_does: "", examples: "we assume that the acceleration due to gravity is a constant g = 9.8 m/s 2 ( standard gravity )" },
+  the_electrostatic_potential_energy: "The energy of an electrically charged particle (at rest) in an electric field",
+  the_magnetic_potential_energy_of_the_needle: "Highest when its field is in the same direction as the Earth's magnetic field",
+  if_the_opposite_poles: "Held apart, the potential energy will be higher the further they are apart and lower the closer they are",
+  the_nuclear_particles: { definition: "Bound together by the strong nuclear force", what_it_does: "", examples: "beta decay" },
+  as_euclidean_space: "Contractible , its de Rham cohomology vanishes, so every closed form is also an exact form , and can be expressed as the gradient of a scalar field",
+
 };
 
 // ============================================================
