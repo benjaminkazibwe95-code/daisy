@@ -63772,6 +63772,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 08:40 ===
   it_is_the_amount_of_money_that: "Needed to secure survival in a worst-case scenario",
 
+  // === INGESTED 2026-07-06 08:43 ===
+  real_estate_development: "Planning and coordinating of housebuilding , real estate construction or renovation projects",
+  luxury_real_estate: "Sometimes used as a way to store value, especially by wealthy foreigners, without any particular attempt to rent it out",
+  green_development: "A concept that has grown since the 1970s with the environmental movement and the World Commission on Environment and Development",
+  examples_of_green_development: "Green infrastructure , LEED , conservation development , and sustainability developments",
+
 };
 
 // ============================================================
