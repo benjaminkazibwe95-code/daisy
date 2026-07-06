@@ -64882,6 +64882,10 @@ const FLAT_DICT = {
   requirements: "Categorized in several ways",
   the_customers: { definition: "Those that perform the eight primary functions of systems engineering, with special emphasis on the operator as the key customer", what_it_does: "", examples: "a requirement for long-range or high speed may result in a design requirement for low weight" },
 
+  // === INGESTED 2026-07-06 13:47 ===
+  many_operating_systems: "Installed with application and utility software",
+  core_utility_software: "Considered by some to be system software if it cannot be uninstalled without affecting the functioning of other software",
+
 };
 
 // ============================================================
