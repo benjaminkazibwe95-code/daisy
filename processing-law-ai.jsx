@@ -67081,6 +67081,9 @@ const FLAT_DICT = {
   boxcryptor: "A provider of end-to-end zero-knowledge encryption for cloud storage services",
   the_company_said_the_reductions: "Necessary in order to focus the company team structure and focus on top level priorities",
 
+  // === INGESTED 2026-07-06 23:13 ===
+  bret_victor: { definition: "An American interface designer , computer scientist , and electrical engineer known for his talks on the future of technology", what_it_does: "", examples: "the Apple Watch" },
+
 };
 
 // ============================================================
