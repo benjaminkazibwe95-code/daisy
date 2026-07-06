@@ -64985,6 +64985,14 @@ const FLAT_DICT = {
   when_nonnumeric_characters: { definition: "Used in these machines, they were encoded as two decimal digits", what_it_does: "", examples: "IBM 702 , IBM 705 , the IBM 1400 series, [ 2 ] IBM 7010 , and the IBM 7080" },
   support_for_bcd: "Common in early microprocessors , which were often used in roles like electronic calculators and cash registers where the math was all decimal",
 
+  // === INGESTED 2026-07-06 14:12 ===
+  the_greaterthan_sign: "A mathematical symbol that denotes an inequality between two values",
+  the_proper_unicode_character: "U+232A 〉 RIGHT-POINTING ANGLE BRACKET",
+  the_unicode_code_point: { definition: "U+003E > GREATER-THAN SIGN , inherited from ASCII", what_it_does: "", examples: "Java [ 5 ] and C++ ) use the comparison operator > to mean 'greater than'" },
+  the_double_greaterthan_sign: { definition: "Also used for an approximation of the closing guillemet , »", what_it_does: "", examples: "the semicolon in C" },
+  in_sinclair_basic_it: { definition: "Encoded as a single-byte code point token", what_it_does: "", examples: "F# ) to create an arrow" },
+  greaterthan_sign: "Used in the ' spaceship operator ', <=>",
+
 };
 
 // ============================================================
