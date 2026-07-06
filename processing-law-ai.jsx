@@ -66261,6 +66261,15 @@ const FLAT_DICT = {
   i_am_not_making_an_argument_that_blocking_ads: "A form of stealing, or is immoral, or unethical ",
   the_block_and_article: "Controversial, generating articles on other websites about them, and the broader issue of advertising ethics",
 
+  // === INGESTED 2026-07-06 19:38 ===
+  the_web_technologies_that_use_uris: { definition: "Not limited to web browsers", what_it_does: "", examples: "refines the http scheme" },
+  in_practice_a_single_algorithm: "Used for both so keeping them distinct is not helping anyone",
+  a_uri_has_a_scheme_that: "A specification for assigning identifiers within that scheme",
+  the_uri_generic_syntax: "A superset of the syntax of all URI schemes",
+  a_uri_reference: { definition: "Either a URI or a relative reference when it does not begin with a scheme component followed by a colon ( : )", what_it_does: "", examples: "./foo:bar )" },
+  this_implies_that_the_base_uri_exists_and: { definition: "An absolute URI (a URI with no fragment component)", what_it_does: "", examples: "to add a 'checkout' command to a URL, it is written as http://editing.com/resource/file" },
+  the_namespace_name: { definition: "A character string which must adhere to the generic URI syntax", what_it_does: "", examples: "a namespace name beginning with http: may have no connotation to the use of the HTTP" },
+
 };
 
 // ============================================================
