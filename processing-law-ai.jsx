@@ -63645,6 +63645,16 @@ const FLAT_DICT = {
   pangu_and_taig_teams_both_said_they: "Working on exploiting iOS 8.4.1, and Pangu demonstrated these chances at the WWDC 2015",
   the_legal_status_of_jailbreaking: { definition: "Affected by laws regarding circumvention of digital locks, such as laws protecting digital rights management (DRM) mechanisms", what_it_does: "", examples: "exceptions for jailbreaking" },
 
+  // === INGESTED 2026-07-06 07:43 ===
+  an_industrial_design_right: "An intellectual property right that protects the visual design of objects that are purely utilitarian",
+  registering_for_an_industrial_design_right: "Related to granting a patent",
+  an_industrial_design: { definition: "Registrable if it is new", what_it_does: "", examples: "consumer products, vehicles, sports equipment, packaging, etc" },
+  protection_for_a_registered_eu_design: "For up to 25 years, subject to the payment of renewal fees every five years",
+  the_topography_of_semiconductor_circuits: "Also covered by integrated circuit layout design protection , a form of protection which lasts 10 years",
+  the_protection_period_in_japan: "20 years from the day of registration",
+  if_infringement_action: "To be taken, the design needs to become certified which involves a substantive examination",
+  some_of_the_jurisdictions_below: "Unions or collaborative office for design registration like the African Intellectual Property Organization , the European Union and the Benelux",
+
 };
 
 // ============================================================
