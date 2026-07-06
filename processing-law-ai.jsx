@@ -66709,6 +66709,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 21:34 ===
   the_principal_entrance: "At 25 Southampton Buildings, where a purpose-built headquarters was constructed in 1899–1902 (architect: Sir John Taylor )",
 
+  // === INGESTED 2026-07-06 21:38 ===
+  bidirectional_information_transfer: "Called information exchange",
+
 };
 
 // ============================================================
