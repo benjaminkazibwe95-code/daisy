@@ -67127,6 +67127,17 @@ const FLAT_DICT = {
   techstars: "Founded in Boulder, Colorado , by David Cohen , Brad Feld , David Brown, and Jared Polis in 2006",
   the_decision_to_close_it: "Made as the accelerator shifts its focus to cities with more VC activity",
 
+  // === INGESTED 2026-07-06 23:35 ===
+  another_common_coordinate_system_for_the_plane: "The polar coordinate system",
+  the_pole: "Represented by (0, θ ) for any value of θ",
+  the_two_systems_in_a_case_like_this: "Said to be dualistic",
+  the_relationship_between_different_systems: "Described by coordinate transformations , which give formulas for the coordinates in one system in terms of the coordinates in another system",
+  if_a_coordinate_curve: "A straight line , it is called a coordinate line",
+  a_polar_coordinate_system: { definition: "A curvilinear system where coordinate curves are lines or circles", what_it_does: "", examples: "the coordinate curves of parabolic coordinates are parabolas" },
+  a_coordinate_map: "Essentially a coordinate system for a subset of a given space with the property that each point has exactly one set of coordinates",
+  a_space_equipped_with_such_an_atlas: "Called a manifold and additional structure can be defined on a manifold if the structure is consistent where the coordinate maps overlap",
+  the_earth_as_a_whole: "One of the most common geometric spaces requiring the precise measurement of location, and thus coordinate systems",
+
 };
 
 // ============================================================
