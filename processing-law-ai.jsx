@@ -63814,6 +63814,14 @@ const FLAT_DICT = {
   durable_goods: { definition: "Typically replaced due to obsolescence rather than breakdown", what_it_does: "", examples: "years of existence, hours of use and operational cycles" },
   the_condition_of_the_economy: "One of the biggest factors as well as the philosophy of money",
 
+  // === INGESTED 2026-07-06 09:00 ===
+  the_average_age_of_his_students: "More than twice his own",
+  his_starting_salary: "$12,000 a year ( equivalent to $143,866 in 2025 )",
+  i_still_believe_the_odds: { definition: "Good that oil sells far higher in the future than the current $40–$50 price", what_it_does: "", examples: "Virginia, U.S.' Roanoke Times and The Tulsa World in Oklahoma, U.S" },
+  buffett: "Not compensated for this advertisement",
+  though_the_attempt_to_capture_her_attention: "Unsuccessful, his music interest became a key part of his becoming a part of Susan Thompson 's life, and led to their marriage",
+  a_majority_of_shares: "Donated to the Gates Foundation with the rest received by four other charitable foundations run by their children",
+
 };
 
 // ============================================================
