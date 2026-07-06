@@ -63933,6 +63933,9 @@ const FLAT_DICT = {
   the_primary_family_unit: { definition: "The extended family , but there's a rising trend towards nuclear families due to socio-economic factors", what_it_does: "", examples: "Urdu , Sindhi , Punjabi , Pashto , Baluchi , Persian , English , and more" },
   although_bollywood_films: "Banned from public cinemas from 1965 to 2008, they remained influential in Pakistani popular culture",
 
+  // === INGESTED 2026-07-06 09:36 ===
+  collier: "A specialist in the political, economic and developmental predicaments of low-income countries",
+
 };
 
 // ============================================================
