@@ -65193,6 +65193,10 @@ const FLAT_DICT = {
   the_compiler_backend: { definition: "Then invoked as a subcomponent to apply optimizations and translate the resulting IR into object code", what_it_does: "", examples: "GCC and Cranelift" },
   editions: { definition: "Released to allow making limited breaking changes , such as promoting await to a keyword to support async/await features", what_it_does: "", examples: "autocomplete , and compilation error display, while editing code" },
 
+  // === INGESTED 2026-07-06 14:57 ===
+  student_robert_blumofe: "Executive Vice President",
+  leiserson_mentions_this: "Elected the 'Best 1990 Professional and Scholarly Book in Computer Science and Data Processing' by the Association of American Publishers",
+
 };
 
 // ============================================================
