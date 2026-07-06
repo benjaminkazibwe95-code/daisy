@@ -66955,6 +66955,30 @@ const FLAT_DICT = {
   the_brothers: "Educated at the adjacent grammar school before attending the Royal Academy of Dramatic Art and the University of Cambridge respectively",
   both_brothers: "Made Distinguished Honorary Fellows of the university at the degree ceremony in the afternoon of 13 July 2006",
 
+  // === INGESTED 2026-07-06 22:28 ===
+  the_population_of_the_town: "Completely changed in 1948–49 during the First Arab–Israeli War",
+  the_place: "Thus connected to two of the three wife–sister narratives in the Book of Genesis",
+  he_set_aside_seven_lambs_to_swear_that_it: "He that had dug the well and no one else",
+  beersheba: "Linked to Hilvan by the Abraham Path",
+  the_sons_of_the_prophet_samuel: "Judges in Beersheba ( I Samuel 8:2)",
+  the_streets: { definition: "Laid out in a grid, with separate areas for administrative, commercial, military, and residential use", what_it_does: "", examples: "a bath house and dwellings, were found in later excavations" },
+  some_of_the_churches: "Still in use until the Umayyad period but it remains uncertain whether they continued beyond the early eight century",
+  most_of_the_residents_at_the_time: "Arabs from Hebron and the Gaza area, although Jews also began settling in the city",
+  the_train_line: "Captured by Allied forces in 1917, towards the end of the war",
+  the_battle_of_beersheba: "Part of a wider British offensive in aimed at breaking the Turkish defensive line from Gaza to Beersheba",
+  the_egyptian_soldiers: "Interned in POW camps",
+  some_men_lived_in_the_local_mosque_and: "Put to work cleaning, however, when it was discovered that they were supplying information to the Egyptian army, they were also deported",
+  until_then_everyone: "Killed – women and children and everyone",
+  then_an_order: "Given to the people to go to Hebron",
+  one_such_project: { definition: "The Beersheba River Walk, a 900-acre (3.6-square-kilometre) riverfront park stretching along 8 kilometers of the riverside and containing a 15-acre (6", what_it_does: "", examples: "skyscrapers" },
+  the_kovshim_and_katef_streams: "Other important wadis that pass through the city",
+  haze_and_fog: "Common in winter, as a result of high humidity",
+  a_major_israel_aerospace_industries_complex: { definition: "Located in the main industrial zone, north of Highway 60", what_it_does: "", examples: "Teva Pharmaceutical Industries , are located in and around the city" },
+  the_mayor_of_beersheba: "Ruvik Danilovich , [ 127 ] who was deputy mayor under Yaakov Turner",
+  intercity_buses_to_and_from_beersheba: "Operated by Egged , Dan BaDarom and Metropoline",
+  an_extension: { definition: "Planned to Eilat [ 146 ] and Arad", what_it_does: "", examples: "Menashe Kadishman 's The Horse Circle and Jeremy Langford 's The Drip Circle)" },
+  the_chess_club: { definition: "Founded in 1973 by Eliyahu Levant, who served as its director for the next 40 years", what_it_does: "", examples: "the recent Senior National League 2004–2005 championship)" },
+
 };
 
 // ============================================================
