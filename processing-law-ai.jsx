@@ -65142,6 +65142,15 @@ const FLAT_DICT = {
   the_main_song_of_the_university: "Known as the 'Black and White and Gold'",
   strickland: "The third woman to have ever been awarded the prize in physics",
 
+  // === INGESTED 2026-07-06 14:47 ===
+  an_optimal_cacheoblivious_algorithm: "A cache-oblivious algorithm that uses the cache optimally (in an asymptotic sense, ignoring constant factors)",
+  cacheoblivious_algorithms: "Contrasted with explicit loop tiling , which explicitly breaks a problem into blocks that are optimally sized for a given cache",
+  optimal_cacheoblivious_algorithms: { definition: "Known for matrix multiplication , matrix transposition , sorting , and several other problems", what_it_does: "", examples: "Cooley–Tukey FFT , are optimally cache-oblivious under certain choices of parameters" },
+  the_goal_of_cacheoblivious_algorithms: "To reduce the amount of such tuning that is required",
+  the_result_is_that_when_the_matrices: "Large, we get a cache miss on every step of the column-wise traversal",
+  the_total_number_of_cache_misses: "Θ ( m n ) {\displaystyle \Theta (mn)}",
+  the_hash_tables: "Described as easy to implement, while the Bender set 'required a greater amount of effort to implement correctly'",
+
 };
 
 // ============================================================
