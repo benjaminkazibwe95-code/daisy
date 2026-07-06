@@ -67088,6 +67088,9 @@ const FLAT_DICT = {
   the_see_videos: { definition: "Viewed by the millions and inspired Ng to develop and iterate new versions of online tech", what_it_does: "", examples: "Frank Chen, Jiquan Ngiam, Chuan-Yu Foo, and Yifan Mai" },
   the_three_courses: "10 weeks long, and over 40,000 'Statements of Accomplishment' were awarded",
 
+  // === INGESTED 2026-07-06 23:18 ===
+  shaw: "Then elected as the company's chairman and chief executive officer",
+
 };
 
 // ============================================================
