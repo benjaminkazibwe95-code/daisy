@@ -66283,6 +66283,18 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 19:42 ===
   it_lies_within_the_periventricular_zone_and: { definition: "Not to be confused with the periventricular nucleus , which occupies a more medial position, beneath the third ventricle", what_it_does: "", examples: "parvocellular preautonomic cells that project to the brainstem and spinal cord" },
 
+  // === INGESTED 2026-07-06 19:44 ===
+  the_itd: "A major cue for determining the azimuth of sounds, i.e., localising them on the azimuthal plane – their degree to the left or the right",
+  the_ild: "A second major cue in determining the azimuth of high-frequency sounds",
+  the_soc: "The first major site of convergence of auditory information from the left and right ears",
+  the_medial_superior_olive: "Thought to help locate the azimuth of a sound, that is, the angle to the left or right where the sound source is located",
+  only_horizontal_data: "Present, but it does come from two different ear sources, which aids in the localizing of sound on the azimuth axis",
+  the_majority_of_these_axons: "Considered to be 'round shaped' or type R",
+  these_r_axons: "Mostly glutamatergic and contain round synaptic vesicles and form asymmetric synaptic junctions",
+  the_mntb: "Driven by excitatory input from globular bushy cells in the contralateral cochlear nucleus",
+  projections_from_both_cochlear_nuclei: "Primarily high frequency, and these frequencies are subsequently represented by the majority of LSO neurons (>2/3 over 2–3 kHz in cat)",
+  ipsilateral_projections: "Primarily inhibitory (glycinergic), and the contralateral projections are excitatory",
+
 };
 
 // ============================================================
