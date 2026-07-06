@@ -66463,6 +66463,9 @@ const FLAT_DICT = {
   this_pain: "Usually non-localized",
   the_loss_of_sympathetic_neurons: { definition: "Also associated with the reduction of insulin secretion and impaired glucose tolerance, further exacerbating the disorder", what_it_does: "", examples: "anxiety disorders and post-traumatic stress disorder (PTSD)" },
 
+  // === INGESTED 2026-07-06 20:38 ===
+  a_hiccup: "A spasmodic contraction of the diaphragm, which pulls air against the closed folds of the larynx",
+
 };
 
 // ============================================================
