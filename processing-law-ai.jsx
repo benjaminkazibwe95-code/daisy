@@ -66712,6 +66712,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 21:38 ===
   bidirectional_information_transfer: "Called information exchange",
 
+  // === INGESTED 2026-07-06 21:40 ===
+  techcrunch: "Founded in June 2005 by Archimedes Ventures, led by partners Michael Arrington and Keith Teare",
+  monetary_awards: { definition: "Presented at the TechCrunch Disrupt conferences", what_it_does: "", examples: "Paul Carr and Sarah Lacy , moved to another technology investment media company" },
+
 };
 
 // ============================================================
