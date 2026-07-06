@@ -66129,6 +66129,13 @@ const FLAT_DICT = {
   objects_south_of_the_celestial_equator: { definition: "Catalogued somewhat less thoroughly, but many were included based on observation by John Herschel or James Dunlop", what_it_does: "", examples: "corrections published by Dreyer himself), and introduced some new errors" },
   the_brightest_star_in_this_catalogue: "NGC 771 with magnitude of 4.0",
 
+  // === INGESTED 2026-07-06 18:48 ===
+  an_elliptical_galaxy: "A type of galaxy with an approximately ellipsoidal shape and a smooth, nearly featureless image",
+  most_elliptical_galaxies: "Composed of older, low-mass stars , with a sparse interstellar medium , and they tend to be surrounded by large numbers of globular clusters",
+  star_formation_activity_in_elliptical_galaxies: "Typically minimal; they may, however, undergo brief periods of star formation when merging with other galaxies",
+  the_largest_galaxies: "Supergiant ellipticals, or type-cD galaxies",
+  the_formation_of_elliptical_galaxies: { definition: "An active area of ongoing research", what_it_does: "", examples: "clusters tend to be older, redder, and more metal rich" },
+
 };
 
 // ============================================================
