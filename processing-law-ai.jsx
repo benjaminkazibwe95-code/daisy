@@ -65883,6 +65883,37 @@ const FLAT_DICT = {
   one_potential_solution_proposed_by_edwards: { definition: "To use a movable anchor (a sea anchor) to allow the tether to 'dodge' any space debris large enough to track", what_it_does: "", examples: "meteoroids, micrometeorites and orbiting man-made debris pose another design constraint on the cable" },
   the_original_concept_envisioned_by_tsiolkovsky: "A compression structure, a concept similar to an aerial mast",
 
+  // === INGESTED 2026-07-06 17:37 ===
+  additional_military_uses: { definition: "Reconnaissance, early warning , signals intelligence and, potentially, weapon delivery", what_it_does: "", examples: "solar panels or radioisotope thermoelectric generators (RTGs)" },
+  most_communication_satellites: "Radio relay stations in orbit and carry dozens of transponders, each with a bandwidth of tens of megahertz",
+  satellites: "Spacecraft launched from the surface into space by launch systems",
+  an_orbiter_is_a_spacecraft_that: "Designed to perform an orbital insertion , entering orbit around an astronomical body from another, [ 1 ] and as such becoming an artificial satellite",
+  crewed_spacecrafts_which: "In orbit or remain in orbit, like Space stations , are artificial satellites as well",
+  early_satellites: "Built to unique designs",
+  the_first_standardized_satellite_bus_design: "The HS-333 geosynchronous (GEO) communication satellite launched in 1972",
+  hypergolic: "Able to combust spontaneously when in contact with each other or to a catalyst",
+  ion_thrusters_on_satellites_usually: "Hall-effect thrusters , which generate thrust by accelerating positive ions through a negatively-charged grid",
+  ion_propulsion: "More efficient propellant-wise than chemical propulsion but its thrust is very small (around 0.5 N or 0.1 lb f ), and thus requires a longer burn time",
+  the_thrusters_usually_use_xenon_because_it: "Inert , can be easily ionized , has a high atomic mass and storable as a high-pressure liquid",
+  most_earth_observation_satellites: "Placed in low Earth orbit for a high data resolution, though some are placed in a geostationary orbit for an uninterrupted coverage",
+  some_satellites: "Placed in a Sun-synchronous orbit to have consistent lighting and obtain a total view of the Earth",
+  communications_satellites: "Used for television , telephone , radio , internet , and military applications",
+  the_purpose_of_communications_satellites: "To relay the signal around the curve of the Earth allowing communication between widely separated geographical points",
+  navigational_satellites: "Satellites that use radio time signals transmitted to enable mobile receivers on the ground to determine their exact location",
+  astronomical_satellites: "Satellites used for observation of distant planets, galaxies, and other outer space objects",
+  biosatellites: "Satellites designed to carry living organisms, generally for scientific experimentation",
+  the_main_issues: "Resource use and the release of pollutants into the atmosphere which can happen at different stages of a satellite's lifetime",
+  resource_use: "Difficult to monitor and quantify for satellites and launch vehicles due to their commercially sensitive nature",
+  several_pollutants: "Released in the upper atmospheric layers during the orbital lifetime of LEO satellites",
+  orbital_decay: "Caused by atmospheric drag and to keep the satellite in the correct orbit the platform occasionally needs repositioning",
+  in_most_cases_hydrazine: "The chemical propellant used which then releases ammonia , hydrogen and nitrogen as gas into the upper atmosphere",
+  physical_collection_or_removal: "Not economical or even currently possible",
+  moving_satellites_out_to_a_graveyard_orbit: "Also unsustainable because they remain there for hundreds of years",
+  when_satellites_deorbit_much_of_it: { definition: "Destroyed during re-entry into the atmosphere due to the heat", what_it_does: "", examples: "the IAU , report that orbital pollution is increasing significantly" },
+  such_jamming: "Limited to the geographical area within the transmitter's range",
+  gps_satellites: "Potential targets for jamming, [ 77 ] [ 78 ] but satellite phone and television signals have also been subjected to jamming",
+  excluded: { definition: "Crewed satellites i.e", what_it_does: "", examples: "missions to beyond Earth orbit" },
+
 };
 
 // ============================================================
