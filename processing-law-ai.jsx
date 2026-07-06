@@ -63009,6 +63009,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 04:12 ===
   instead_its_value: { definition: "Replaced with the value of b", what_it_does: "", examples: "Some languages provide operators that are ad hoc polymorphic – inherently overloaded" },
 
+  // === INGESTED 2026-07-06 04:27 ===
+  in_computer_science_it: "Typically contrasted to sequential access which requires data to be retrieved in the order it was stored",
+  the_coordinates_at_which_it: "Located, such as its row and column (or its track and record number on a magnetic drum )",
+
 };
 
 // ============================================================
