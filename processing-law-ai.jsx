@@ -67084,6 +67084,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:13 ===
   bret_victor: { definition: "An American interface designer , computer scientist , and electrical engineer known for his talks on the future of technology", what_it_does: "", examples: "the Apple Watch" },
 
+  // === INGESTED 2026-07-06 23:15 ===
+  the_see_videos: { definition: "Viewed by the millions and inspired Ng to develop and iterate new versions of online tech", what_it_does: "", examples: "Frank Chen, Jiquan Ngiam, Chuan-Yu Foo, and Yifan Mai" },
+  the_three_courses: "10 weeks long, and over 40,000 'Statements of Accomplishment' were awarded",
+
 };
 
 // ============================================================
