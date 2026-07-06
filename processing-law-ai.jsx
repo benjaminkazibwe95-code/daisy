@@ -65486,6 +65486,9 @@ const FLAT_DICT = {
   other_metal_fluorides: "Produced using HF, including uranium tetrafluoride",
   the_potassium_bifluoride: "Needed because anhydrous HF does not conduct electricity",
 
+  // === INGESTED 2026-07-06 16:15 ===
+  these_memoirs: "Published electronically by the Oesper Collections in 2024 and can be found here: https://hdl.handle.net/2374",
+
 };
 
 // ============================================================
