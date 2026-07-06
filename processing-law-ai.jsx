@@ -63901,6 +63901,11 @@ const FLAT_DICT = {
   copyright_protection: "Granted to artists for their original works, providing them with exclusive rights to reproduce, distribute, and display their creations",
   internationally_there: "Also extensive efforts to protect the works of art created",
 
+  // === INGESTED 2026-07-06 09:21 ===
+  his_fatherinlaw: "The Nobel Laureate James Meade",
+  dasgupta: "Knighted in the 2002 Birthday Honours for services to economics",
+  the_same_year_he: "Awarded the Champions of the Earth award for Science and Innovation by the UNEP",
+
 };
 
 // ============================================================
