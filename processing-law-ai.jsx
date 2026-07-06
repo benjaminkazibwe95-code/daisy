@@ -63943,6 +63943,18 @@ const FLAT_DICT = {
   the_consumers: "Businesses, which try to buy (demand) the type of labor they need at the lowest price",
   prices_and_quantities: { definition: "Allowed to adjust according to economic conditions in order to reach equilibrium and allocate resources", what_it_does: "", examples: "imposing a minimum wage (price floor) or erecting price controls (price ceiling)" },
 
+  // === INGESTED 2026-07-06 09:40 ===
+  the_zollverein: { definition: "Not part of the German Confederation (1815–1866)", what_it_does: "", examples: "Sweden–Norway" },
+  the_domestic_markets_in_central_europe: "Not large enough to sustain consumption of their own production",
+  these_problems: "Exacerbated by European wide economic woes following the Napoleonic Wars",
+  prussia: "Expected to play some role in these spheres of influence, but the ambiguities of the Austrian and Prussian relationship were unresolved",
+  the_prussian_toll: "Therefore very simple and efficient",
+  manufactured_goods: "Heavily taxed, especially textiles, and the most important taxes were for food, necessities and luxury goods",
+  the_impasse: { definition: "Overcome through external forces", what_it_does: "", examples: "itself, Baden , Bavaria , and the two Hessian states ( Hesse-Darmstadt and Hesse-Kassel )" },
+  the_tax_union_or_steuerverein: "Formed in 1834 as a customs union first of the Duchy of Brunswick and the Kingdom of Hanover, then with the Grand Duchy of Oldenburg in 1836",
+  the_original_customs_union: "Not ended in 1866 with outbreak of the Austro-Prussian War , but a substantial reorganization emerged in 1867",
+  the_new_zollverein: "Stronger, in that no individual state had a veto",
+
 };
 
 // ============================================================
