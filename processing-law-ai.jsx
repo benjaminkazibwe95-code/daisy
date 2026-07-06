@@ -65489,6 +65489,33 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 16:15 ===
   these_memoirs: "Published electronically by the Oesper Collections in 2024 and can be found here: https://hdl.handle.net/2374",
 
+  // === INGESTED 2026-07-06 16:17 ===
+  thus_its_si_units: { definition: "Newton-seconds per metre squared, or pascal-seconds", what_it_does: "", examples: "a pressure difference between the two ends of the tube) is needed to sustain the flow" },
+  this_is_because_a_force: { definition: "Required to overcome the friction between the layers of the fluid which are in relative motion", what_it_does: "", examples: "its temperature, pressure, and rate of deformation" },
+  viscosity: { definition: "The material property which relates the viscous stresses in a material to the rate of change of a deformation (the strain rate)", what_it_does: "", examples: "a planar Couette flow" },
+  an_external_force: "Therefore required in order to keep the top plate moving at constant speed",
+  if_the_velocity_gradients: { definition: "Small, then to a first approximation the viscous stresses depend only on the first derivatives of the velocity", what_it_does: "", examples: "temperature and density) defining local equilibrium" },
+  its_form: { definition: "Motivated by experiments which show that for a wide range of fluids, μ {\displaystyle \mu } is independent of strain rate", what_it_does: "", examples: "Trouton 's ratio is the ratio of extensional viscosity to shear viscosity" },
+  while_in_the_latter_the_stress: { definition: "Proportional to the amount of shear deformation, in a fluid it is proportional to the rate of deformation over time", what_it_does: "", examples: "water) will briefly react like elastic solids when subjected to sudden stress" },
+  the_extensional_viscosity: "A linear combination of the shear and bulk viscosities that describes the reaction of a solid elastic material to elongation",
+  close_temperature_control_of_the_fluid: "Essential to obtain accurate measurements, particularly in materials like lubricants, whose viscosity can double with a change of only 5 °C",
+  the_viscosity: "Reported in Krebs units (KU), which are unique to Stormer viscometers",
+  this_dissipated_energy: "Then measured and converted into a viscosity reading",
+  apparent_viscosity: "A calculation derived from tests performed on drilling fluid used in oil or gas well development",
+  the_cgs_unit: "The poise (P, or g·cm −1 ·s −1 = 0.1 Pa·s), [ 29 ] named after Jean Léonard Marie Poiseuille",
+  the_centipoise: "Convenient because the viscosity of water at 20 °C is about 1 cP, and one centipoise is equal to the SI millipascal second (mPa·s)",
+  the_si_unit_of_kinematic_viscosity: "Metre squared per second (m 2 /s), whereas the CGS unit for kinematic viscosity is the stokes (St, or cm 2 ·s −1 = 0",
+  the_pound_and_poundforce: "Equivalent; the two systems differ only in how force and mass are defined",
+  fluidity: { definition: "Seldom used in engineering practice", what_it_does: "", examples: "SSU ( Saybolt seconds universal ) or SUV ( Saybolt universal viscosity ) are sometimes used" },
+  momentum_transport_in_gases: "Mediated by discrete molecular collisions, and in liquids by attractive forces that bind molecules close together",
+  the_simplest_exact_expressions: "The Green–Kubo relations for the linear shear viscosity or the transient time correlation function expressions derived by Evans and Morriss in 1988",
+  an_example_of_such_a_treatment: { definition: "Chapman–Enskog theory , which derives expressions for the viscosity of a dilute gas from the Boltzmann equation", what_it_does: "", examples: "those incorporating intermolecular attractions" },
+  a_classic_example_of_this_approach: "Irving–Kirkwood theory",
+  an_example_of_such_a_procedure: "The Sutherland approach for the single-component gas, discussed above",
+  estimated_values_of_these_constants: "Shown below for sodium chloride and potassium iodide at temperature 25 °C (mol = mole , L = liter )",
+  if_such_an_expression: "Fit to high-fidelity data over a large range of temperatures and pressures, then it is called a 'reference correlation' for that fluid",
+  the_values_listed: "Representative estimates only, as they do not account for measurement uncertainties, variability in material definitions, or non-Newtonian behavior",
+
 };
 
 // ============================================================
