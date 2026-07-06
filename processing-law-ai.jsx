@@ -67028,6 +67028,12 @@ const FLAT_DICT = {
   the_western_extension_of_mount_herzl: "The Mount of Remembrance, where the main Holocaust museum of Israel is located",
   the_jerusalem_post_and_the_times_of_israel: { definition: "Also headquartered in Jerusalem", what_it_does: "", examples: "1,500 from fifty countries outside Israel" },
 
+  // === INGESTED 2026-07-06 22:54 ===
+  the_core_priority: { definition: "To be able to develop alternative sources of revenue for the government, such as taxes, fees, and income from the sovereign wealth fund", what_it_does: "", examples: "Kuwait Vision 2035 , Egypt Vision 2030 and UAE Vision 2021" },
+  the_national_transformation_program: { definition: "Designed and launched in 2016 across 24 government bodies", what_it_does: "", examples: "those inside sports stadiums" },
+  one_of_the_difficulties: "That the private sector has lower salaries and expats are easier to hire and fire",
+  it_was_claimed_the_neighbourhoods: "'rife with diseases, crime, drugs and theft'",
+
 };
 
 // ============================================================
