@@ -66094,6 +66094,33 @@ const FLAT_DICT = {
   the_wormhole_network: "Built by unknown precursors, and hidden messages exist in transcendental numbers like pi",
   their_video_recordings: "Erased, likely by wormhole magnetic fields",
 
+  // === INGESTED 2026-07-06 18:31 ===
+  the_bbc: { definition: "A patron of the Radio Academy , a registered UK charity that promotes excellence in broadcasting", what_it_does: "", examples: "the BBC News , BBC Parliament and BBC News International" },
+  stanton_jefferies: "Its first director of music",
+  set_sales: "Disappointing as amateurs made their own receivers and listeners bought rival unlicensed sets",
+  wireless_manufacturers: "Anxious to exit the loss-making consortium, and Reith was keen that the BBC be seen as a public service rather than a commercial enterprise",
+  the_recommendations_of_the_crawford_committee: "Published in March the following year and were still under consideration by the GPO when the 1926 United Kingdom general strike broke out in May",
+  impartial_news: { definition: "Not necessarily an end in itself", what_it_does: "", examples: "the motto 'Nation shall speak peace unto Nation'" },
+  the_archive_was_sold_to_brian_deutsch_and: "Now owned by Getty Images",
+  bbc_enterprises: "Reorganised and relaunched in 1995, as BBC Worldwide Ltd",
+  bbc_knowledge: { definition: "Replaced by BBC Four and became the BBC's arts and documentaries channel", what_it_does: "", examples: "the then Director General, Greg Dyke" },
+  lineker: "Suspended from his position on Match of the Day before being re-instated after receiving overwhelming support from his colleagues",
+  the_scandal: { definition: "Made worse due to the connections between BBC's chairman, Richard Sharp, and the Conservative Party", what_it_does: "", examples: "replacing the television licence with either advertising or a subscription model" },
+  ofcom: "Responsible for the regulation of the BBC",
+  the_cost_of_a_television_licence: "Set by the government and enforced by the criminal law",
+  funds: "Then allocated by the Department for Culture, Media and Sport (DCMS) and the Treasury and approved by Parliament via legislation",
+  additional_revenues: "Paid by the Department for Work and Pensions to compensate for subsidised licences for eligible over-75-year-olds",
+  the_licence_fee: "Classified as a tax, [ 137 ] and its evasion is a criminal offence",
+  on_the_front_of_the_building: "Statues of Prospero and Ariel , characters from William Shakespeare 's play The Tempest , sculpted by Eric Gill",
+  cardiff: { definition: "Home to BBC Cymru Wales , which specialises in drama production", what_it_does: "", examples: "Doctor Who and Casualty" },
+  bbc_one_and_bbc_two: "The flagship television channels",
+  digital_television: "Now entrenched in the UK, with analogue transmission completely phased out as of December 2012 [ update ]",
+  bbc_two: "The first channel to be transmitted on 625 lines, in 1964",
+  the_final_station: "The BBC Asian Network , providing music, talk and news to this section of the community",
+  bbc_services_in_the_dependencies: "Financed from television licence fees which are set at the same level as those payable in the UK, although collected locally",
+  the_previous_alltime_high_at_bbc_online: "Caused by the announcement of the Michael Jackson verdict, which used 7.2 Gbit/s",
+  the_channel_itself: { definition: "The oldest surviving entity of its kind, and has 50 foreign news bureaus and correspondents in nearly all countries in the world", what_it_does: "", examples: "Luther and Peaky Blinders ) and historical drama productions being the most popular" },
+
 };
 
 // ============================================================
