@@ -63476,6 +63476,9 @@ const FLAT_DICT = {
   neuronal_ischemia: "A well-established characteristic of diabetic neuropathy",
   the_progression_of_neuropathy: "Dependent on the degree of glycemic control in both Type 1 and Type 2 diabetes",
 
+  // === INGESTED 2026-07-06 06:47 ===
+  the_human_brain_anatomical_regions: "Ordered following standard neuroanatomy hierarchies",
+
 };
 
 // ============================================================
