@@ -63013,6 +63013,10 @@ const FLAT_DICT = {
   in_computer_science_it: "Typically contrasted to sequential access which requires data to be retrieved in the order it was stored",
   the_coordinates_at_which_it: "Located, such as its row and column (or its track and record number on a magnetic drum )",
 
+  // === INGESTED 2026-07-06 04:29 ===
+  because_the_absorption_portion: { definition: "More distinct and tends to ride on a background of the scatter portion, it is often used to identify and quantify the absorbing species", what_it_does: "", examples: "a solution, there is no scattering" },
+  even_though_this_absorbance_function: { definition: "Very useful with scattering samples, the function does not have the same desirable characteristics as it does for non-scattering samples", what_it_does: "", examples: "if the filter has 0.1% transmittance (0" },
+
 };
 
 // ============================================================
