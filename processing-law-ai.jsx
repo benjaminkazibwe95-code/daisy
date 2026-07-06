@@ -67071,6 +67071,9 @@ const FLAT_DICT = {
   the_endowment: "Managed through a trust, and Nesta uses the interest from the trust to meet its charitable objects and to fund and support its projects",
   ravi_gurumurthy: "The organisation's chief executive",
 
+  // === INGESTED 2026-07-06 23:07 ===
+  an_accredited_or_sophisticated_investor: { definition: "An investor with a special status under financial regulation laws", what_it_does: "", examples: "venture capital , hedge funds , and angel investments" },
+
 };
 
 // ============================================================
