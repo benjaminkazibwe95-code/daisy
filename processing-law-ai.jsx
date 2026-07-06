@@ -63364,6 +63364,20 @@ const FLAT_DICT = {
   because_affordances: "Action possibilities, perception is directly connected to the production of actions and movements",
   how_one_might_pass_through_a_doorway: "Specified by the visual information received from the environment, as well as the information perceived about one's own body",
 
+  // === INGESTED 2026-07-06 06:28 ===
+  one_of_the_practical_goals_of_ai: "To implement aspects of human intelligence in computers",
+  one_way_to_view_the_issue_is_whether_it: "Possible to accurately simulate a human brain on a computer without accurately simulating the neurons that make it up",
+  learning_and_development: "The processes by which we acquire knowledge and information over time",
+  vision_and_hearing: "Two dominant senses that allow us to perceive the environment",
+  one_tool_for_studying_visual_perception: "By looking at how people process optical illusions",
+  action: "Taken to refer to the output of a system",
+  many_different_methodologies: "Used to study cognitive science",
+  this_type_of_research: { definition: "Closely tied to that in cognitive psychology and psychophysics", what_it_does: "", examples: "behavioral traces, behavioral observations, and behavioral choice" },
+  behavioral_choices: "Decisions a person makes among two or more options (e.g., voting behavior, choosing a punishment for another participant)",
+  brain_imaging: "Often used in cognitive neuroscience",
+  epistemics: "A term coined in 1969 by the University of Edinburgh with the foundation of its School of Epistemics",
+  goldman_maintains_that_his_epistemics: "Continuous with traditional epistemology, and that the new term is only meant to avoid opposition",
+
 };
 
 // ============================================================
