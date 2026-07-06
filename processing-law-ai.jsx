@@ -63597,6 +63597,40 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 07:30 ===
   the_augmented_reality_functionality: { definition: "Usually not the center of the game experience", what_it_does: "", examples: "Microsoft 's Minecraft Earth and Niantic's Catan: World Explorers" },
 
+  // === INGESTED 2026-07-06 07:34 ===
+  this_organic_layer: { definition: "Situated between two electrodes ; typically, at least one of these electrodes is transparent", what_it_does: "", examples: "smartphones and handheld game consoles" },
+  a_major_area_of_research: "The development of white OLED devices for use in solid-state lighting applications",
+  oleds: "Fundamentally different from LEDs , which are based on a p–n diode crystalline solid structure",
+  doping_of_oleds: "Used to increase radiative efficiency by direct modification of the quantum-mechanical optical recombination rate",
+  the_proposed_mechanism: "Field-accelerated electron excitation of molecular fluorescence",
+  these_contacts: "The basis of charge injection in all modern OLED devices",
+  the_light_generated: "Readily visible in normal lighting conditions though the polymer used had 2 limitations; low conductivity and the difficulty of injecting electrons",
+  the_organic_molecules: "Electrically conductive as a result of delocalization of pi electrons caused by conjugation over part or all of the molecule",
+  anodes: "Picked based upon the quality of their optical transparency, electrical conductivity, and chemical stability",
+  metals_such_as_barium_and_calcium: "Often used for the cathode as they have low work functions which promote injection of electrons into the LUMO of the organic layer",
+  as_current_through_the_device: "Composed of only one type of charge carrier, either electrons or holes, recombination does not occur and no light is emitted",
+  a_common_way_to_balance_charge: "Optimizing the thickness of the charge transporting layers but is hard to control",
+  efficient_oleds_using_small_molecules: { definition: "First developed by Ching W", what_it_does: "", examples: "Alq 3 , used in the organic light-emitting device reported by Tang et al" },
+  a_number_of_materials: { definition: "Used for their charge transport properties, for example triphenylamine and derivatives are commonly used as materials for hole transport layers", what_it_does: "", examples: "perylene , rubrene and quinacridone derivatives are often used" },
+  the_doped_oled_devices: "Also prone to crystallization, which reduces the luminescence and efficiency of the devices",
+  polymer_oleds: "Quite efficient and require a relatively small amount of power for the amount of light produced",
+  vacuum_deposition: "Not a suitable method for forming thin films of polymers",
+  if_the_polymeric_oled_films: "Made by vacuum vapor deposition, the chain elements will be cut off and the original photophysical properties will be compromised",
+  no_vacuum: "Required, and the emissive materials can also be applied on the substrate by a technique derived from commercial inkjet printing",
+  an_alternative_method_to_vacuum_deposition: { definition: "To deposit a Langmuir-Blodgett film", what_it_does: "", examples: "platinum [ 77 ] have also been used" },
+  an_alternative_configuration: "To switch the mode of emission",
+  since_both_electrodes: "Reflective in TEOLED, light reflections can happen within the diode, and they cause more complex interferences than those in BEOLEDs",
+  this_optical_effect: "Called the 'micro-cavity effect",
+  disadvantages_of_this_method: "Low color purity and contrast",
+  woled: "The use of a white OLED light source with color filters",
+  tandem_oleds: "Similar but have two layers of the same color stacked together",
+  the_substrate_and_mask_assembly: "Placed at the top of the deposition chamber",
+  high_pixel_densities: { definition: "Necessary for virtual reality headsets", what_it_does: "", examples: "100% NTSC , and consume little power at the same time" },
+  this_trapped_light: "Wave-guided along the interior of the device until it reaches an edge where it is dissipated by either absorption or emission",
+  thin_polymer_adhesive_layers: "Applied to enhance resistance to particles and surface defects",
+  microscale_ics: "Transfer-printed onto the adhesive surface and then baked to fully cure adhesive layers",
+  an_additional_photosensitive_polymer_layer: "Applied to the substrate to account for the topography caused by the printed ICs, reintroducing a flat surface",
+
 };
 
 // ============================================================
