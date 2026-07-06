@@ -63594,6 +63594,9 @@ const FLAT_DICT = {
   a_web_atm: "An online interface for ATM card banking that uses a smart card reader",
   all_the_usual_atm_functions: "Available, except for withdrawing cash",
 
+  // === INGESTED 2026-07-06 07:30 ===
+  the_augmented_reality_functionality: { definition: "Usually not the center of the game experience", what_it_does: "", examples: "Microsoft 's Minecraft Earth and Niantic's Catan: World Explorers" },
+
 };
 
 // ============================================================
