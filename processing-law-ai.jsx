@@ -64922,6 +64922,14 @@ const FLAT_DICT = {
   programming_with_segments: { definition: "Complicated; requiring special keywords or memory models in assembly and high level languages", what_it_does: "", examples: "RGBE also use 32 bits per pixel" },
   an_example_of_such_a_format: "The Enhanced Metafile Format",
 
+  // === INGESTED 2026-07-06 13:55 ===
+  cooperative_multitasking: "Still used today on RISC OS systems",
+  a_similar_model: { definition: "Used in Windows 9x and the Windows NT family , where native 32-bit applications are multitasked preemptively", what_it_does: "", examples: "open files" },
+  essential_to_any_multitasking_system: { definition: "To safely and effectively share access to system resources", what_it_does: "", examples: "a memory management unit (MMU)" },
+  such_features: "Often used by database management software such as PostgreSQL",
+  use_of_a_swap_file_or_swap_partition: "A way for the operating system to provide more memory than is physically available by keeping portions of the primary memory in secondary storage",
+  while_multitasking_and_memory_swapping: "Two completely unrelated techniques, they are very often used together, as swapping memory allows more tasks to be loaded at the same time",
+
 };
 
 // ============================================================
