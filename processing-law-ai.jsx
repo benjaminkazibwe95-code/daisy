@@ -63965,6 +63965,10 @@ const FLAT_DICT = {
   the_physiocrats_thought_there: "A ' natural order ' that allowed human beings to live together",
   laissezfaire: "Popularized by physiocrat Vincent de Gournay who is said to have adopted the term from François Quesnay 's writings on China",
 
+  // === INGESTED 2026-07-06 09:45 ===
+  the_main_assumption_of_the_model: "That the migration decision is based on expected income differentials between rural and urban areas rather than just wage differentials",
+  the_model_assumes_that_unemployment: "Non-existent in the rural agricultural sector",
+
 };
 
 // ============================================================
