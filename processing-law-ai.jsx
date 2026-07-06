@@ -66629,6 +66629,14 @@ const FLAT_DICT = {
   the_cowboys: "Financially the most valuable sports franchise in the world, worth approximately $4 billion",
   the_allen_americans: "A professional ice hockey team headquartered at the Credit Union of Texas Event Center in Allen, Texas , which currently plays in the ECHL",
 
+  // === INGESTED 2026-07-06 21:23 ===
+  a_counterfeit: "A fake or unauthorized replica of a genuine product, such as money, documents, designer items, or other valuable goods",
+  forgery: "The process of making facsimiles or adapting documents with the intention to deceive",
+  uttering: "A term in United States law for the forgery of non-official documents, such as a trucking company's time and weight logs",
+  security_printing: { definition: "A printing industry specialty, focused on creating legal documents which are difficult to forge", what_it_does: "", examples: "movies, music, or software" },
+  social_and_cultural_forces: "Driving this unique fashion scene",
+  anticounterfeiting_technologies: { definition: "Added to products or their packaging to allow consumers or inspectors to check whether a product is authentic", what_it_does: "", examples: "ISO 12931 [ 44 ] and ISO 22381" },
+
 };
 
 // ============================================================
