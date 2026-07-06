@@ -64571,6 +64571,23 @@ const FLAT_DICT = {
   the_peace_pact: "Officially denounced during the Third Fascist Congress on 7–10 November 1921",
   enforcement_of_contracts: { definition: "Difficult and the large bureaucracy delayed resolutions of labour disputes", what_it_does: "", examples: "Turin , Naples , and Milan , were freed by anti-fascist uprisings" },
 
+  // === INGESTED 2026-07-06 12:10 ===
+  old_scone: "The historic capital of the Kingdom of Scotland",
+  in_the_middle_ages_it: "An important royal centre, used as a royal residence and as the coronation site of the kingdom's monarchs",
+  direct_evidence_however: "Lacking and so Scone's story is thought to begin in the wake of the Roman exit from Scottish history",
+  as_the_stone: "Kept at Scone, it acquired the name, the Stone of Scone",
+  the_culdees: { definition: "Eventually merged with the Augustinian canons who arrived from Nostell Priory in Yorkshire as part of the 1114 're-establishment'", what_it_does: "", examples: "the abbey at Dunkeld" },
+  at_the_same_time_ships: { definition: "Developing deeper hulls", what_it_does: "", examples: "the use of the Moot Hill (the coronation mound)" },
+  binchy: "As 'an archaic fertility rite of a type associated with primitive kingship the world over'",
+  it_suffered_a_fire_in_the_twelfth_century_and: { definition: "Subject to extensive attacks during the First War of Scottish Independence including the theft of Scotland's most revered relic, the Stone of Scone", what_it_does: "", examples: "the famous Ba' of Scone , a medieval game similar to football ; Ba' being short for 'ball'" },
+  the_abbey: "Severely damaged during this attack despite Knox's apparent efforts to calm the mob",
+  within_the_parish_bessie_wright: { definition: "A healer and an accused witch", what_it_does: "", examples: "King Charles II , when he was crowned there in 1651" },
+  it_is_said_that_there: "Over 1000 years of significant Scottish history at Scone",
+  the_murrays_of_scone: "Jacobite , and along with their Atholl cousins were strong supporters of the exiled Stuart Monarchs of Great Britain and Ireland",
+  the_old_pretender: "Not the last Jacobite to visit Scone; his son, the famed Bonnie Prince Charlie , stayed the night at Palace of Scone during the 1745 rebellion",
+  a_church_and_school: "Built in 1844 despite being refused local building materials",
+  the_new_village: "Built in 1805 as a planned village (compare Evanton , built in 1807 by its landowner for similar motives), and originally called New Scone",
+
 };
 
 // ============================================================
