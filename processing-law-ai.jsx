@@ -65772,6 +65772,10 @@ const FLAT_DICT = {
   memorial_day: "Celebrated on June 6, and its purpose is to honor the men and women who died in South Korea's independence movement",
   korean_cuisine: "Largely based on rice , noodles , tofu , vegetables, fish and meats",
 
+  // === INGESTED 2026-07-06 17:13 ===
+  among_the_potential_buyers: "Leonard Riggio, who owned at the time approximately 19% of Barnes & Noble stock",
+  the_first_device: { definition: "Announced in the United States on October 20, 2009, and was released November 30, 2009, for $259", what_it_does: "", examples: "Apple's iBooks for iOS devices" },
+
 };
 
 // ============================================================
