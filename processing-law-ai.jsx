@@ -66830,6 +66830,27 @@ const FLAT_DICT = {
   the_fingerprint_sensor: "Placed lower than in the OnePlus 8 series",
   the_main_upgrade: { definition: "In the optics and color processing, which were co-developed with Hasselblad , specifically in the ultra-wide camera", what_it_does: "", examples: "the Samsung Galaxy S21 Ultra and Asus Zenfone 8" },
 
+  // === INGESTED 2026-07-06 22:06 ===
+  a_digital_watermark: "Called perceptible if its presence in the marked signal is noticeable (e.g",
+  unlike_metadata_that: "Added to the carrier signal, a digital watermark does not change the size of the carrier signal",
+  since_a_digital_copy_of_data: "The same as the original, digital watermarking is a passive protection tool",
+  a_watermark: "Embedded into a digital signal at each point of distribution",
+  if_a_copy_of_the_work: "Found later, then the watermark may be retrieved from the copy and the source of the distribution is known",
+  watermarks: "Identification marks produced during the paper-making process",
+  they_were_used_as_a: "To identify the paper maker or the trade guild that manufactured the paper",
+  the_marks: "Often created by a wire sewn onto the paper mold",
+  the_term_digital_watermark: "Coined by Andrew Tirkel and Charles Osborne in December 1992",
+  the_signal_where_the_watermark: "To be embedded is called the host signal",
+  a_watermarking_system: "Usually divided into three distinct steps: embedding, attack, and detection",
+  then_the_watermarked_digital_signal: "Transmitted or stored, usually transmitted to another person",
+  typical_image_degradations: "JPEG compression, rotation, cropping, additive noise, and quantization",
+  fragile_watermarks: "Commonly used for tamper detection (integrity proof)",
+  modifications_to_an_original_work_that_clearly: "Noticeable, commonly are not referred to as watermarks, but as generalized barcodes [ clarification needed ]",
+  semifragile_watermarks_commonly: "Used to detect malignant transformations",
+  spreadspectrum_watermarks: "Known to be modestly robust, but also to have a low information capacity due to host interference",
+  a_digital_watermarking_method: "Said to be of quantization type if the marked signal is obtained by quantization",
+  often_used_by_a_watermark_designer: { definition: "The evaluation of single properties to show, for example, an improvement", what_it_does: "", examples: "the Epson PhotoPC 3000Z and the Kodak DC-290" },
+
 };
 
 // ============================================================
