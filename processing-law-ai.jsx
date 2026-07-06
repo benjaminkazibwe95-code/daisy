@@ -65058,6 +65058,36 @@ const FLAT_DICT = {
   when_sizeof: "Applied to the name of an array, the result is the number of bytes required to store the entire array",
   this_form_of_array_declaration: { definition: "Allowed as the last element in structures only, and differs from normal arrays in that no length is specified to the compiler", what_it_does: "", examples: "any padding, but without any storage allowed for the array" },
 
+  // === INGESTED 2026-07-06 14:30 ===
+  these_engines: { definition: "Also utilized in some servers and a variety of apps", what_it_does: "", examples: "networking , storage , or graphics facilities" },
+  although_java_and_javascript: "Similar in name and syntax , the two languages are distinct and differ greatly in design",
+  each_of_these_implementations: { definition: "Noticeably different from their counterparts in Netscape Navigator", what_it_does: "continued for a few years, with the release of ECMAScript 2 in June 1998 and ECMAScript 3 in December 1999", examples: "" },
+  many_new_libraries: "Created, including jQuery , Prototype , Dojo Toolkit , and MooTools",
+  javascript_engines: { definition: "Now embedded in a variety of other software systems, both for server-side website deployments and non-browser applications", what_it_does: "", examples: "the V8 engine is a core component of the Node.js runtime system" },
+  when_the_call_stack: { definition: "Empty upon function completion, JavaScript proceeds to the next message in the queue", what_it_does: "", examples: "that JavaScript can process a mouse click while waiting for a database query to return information" },
+  the_following_features: { definition: "Common to all conforming ECMAScript implementations unless explicitly specified otherwise", what_it_does: "", examples: "keywords is 50–60 and varies depending on the implementation" },
+  one_partial_exception: "Scoping : originally JavaScript only had function scoping with var ; block scoping was added in ECMAScript 2015 with the keywords let and const",
+  one_syntactic_difference_from_c: "Automatic semicolon insertion , which allow semicolons (which terminate statements) to be omitted",
+  often_also_mentioned: "{} + [] resulting in 0 (number)",
+  a_type: { definition: "Associated with a value rather than an expression", what_it_does: "", examples: "a variable initially bound to a number may be reassigned to a string" },
+  prototypal_inheritance_in_javascript: "Described by Douglas Crockford as: You make prototype objects, and then ",
+  constructors: "Declared by specifying a method named constructor , and all classes are automatically subclasses of the base class Object, similarly to Java",
+  though_the_underlying_object_mechanism: { definition: "Still based on prototypes, the newer syntax is similar to other object oriented languages", what_it_does: "", examples: "properties from the Object prototype)" },
+  when_a_function: "Called as a method of an object, the function's local this keyword is bound to that object for that invocation",
+  javascript_functions: { definition: "First-class ; a function is considered to be an object", what_it_does: "", examples: ".call() and .bind()" },
+  once_the_method: "Found it gets called within this object's context",
+  thus_inheritance_in_javascript: "Covered by a delegation automatism that is bound to the prototype property of constructor functions",
+  arrow_functions: "First introduced in 6th Edition – ECMAScript 2015",
+  most_javascriptrelated_security_bugs: { definition: "Breaches of either the same origin policy or the sandbox", what_it_does: "", examples: "advertisements)" },
+  a_common_javascriptrelated_security_problem: { definition: "Cross-site scripting (XSS), a violation of the same-origin policy", what_it_does: "", examples: "an online banking website, to include a malicious script in the webpage presented to a victim" },
+  this_code_is_not_by_any: { definition: "Limited to another JavaScript application", what_it_does: "", examples: "Firefox, [ 98 ] Internet Explorer, [ 99 ] and Safari" },
+  web_browsers: "Capable of running JavaScript outside the sandbox, with the privileges necessary to, for example, create or delete files",
+  such_privileges: "Not intended to be granted to code from the Web",
+  a_common_misconception_is_that_javascript: "Directly related to Java",
+  the_differences_between_the_two_languages: "More prominent than their similarities",
+  many_websites: "JavaScript-heavy, so transpilers have been created to convert code written in other languages, which can aid the development process",
+  webassembly: "A newer language with a bytecode format designed to complement JavaScript, especially the performance-critical portions of web page scripts",
+
 };
 
 // ============================================================
