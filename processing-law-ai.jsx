@@ -63049,6 +63049,23 @@ const FLAT_DICT = {
   a_twostep_cvd_process: { definition: "Shown to grow graphene directly on TiO 2 crystals or exfoliated TiO 2 nanosheets without using any metal catalyst", what_it_does: "", examples: "ruthenium , [ 293 ] iridium , [ 294 ] nickel [ 295 ] and copper" },
   the_laser_induction_process: "Compatible with roll-to-roll manufacturing processes",
 
+  // === INGESTED 2026-07-06 04:38 ===
+  a_chemical_formula: "Not a chemical name since it does not contain any words",
+  the_simplest_types_of_chemical_formulae: "Called empirical formulae , which use letters and numbers indicating the numerical proportions of atoms of each type",
+  this_is_possible_if_the_relevant_bonding: "Easy to show in one dimension",
+  these_types_of_formulae: "Variously known as molecular formulae and condensed formulae",
+  these_polyatomic_ions_are_groups_of_atoms_that: "Covalently bound together and have an overall ionic charge, such as the sulfate [ SO 4 ] 2− ion",
+  each_polyatomic_ion_in_a_compound: "Written individually in order to illustrate the separate groupings",
+  chemical_formulae_as_described_here: { definition: "Distinct from the far more complex chemical systematic names that are used in various systems of chemical nomenclature", what_it_does: "", examples: "one systematic name for glucose is (2 R ,3 S ,4 R ,5 R )-2,3,4,5,6-pentahydroxyhexanal" },
+  empirical_formulae: "The standard for ionic compounds , such as CaCl 2 , and for macromolecules, such as SiO 2",
+  an_example_of_the_difference: "The empirical formula for glucose, which is CH 2 O ( ratio 1:2:1), while its molecular formula is C 6 H 12 O 6 ( number of atoms 6:12:6)",
+  the_two_diagrams_show_two_molecules_which: "Structural isomers of each other, since they both have the same molecular formula C 4 H 10 , but they have different structural formulas as shown",
+  molecules_with_multiple_functional_groups_that: { definition: "The same may be expressed by enclosing the repeated group in round brackets", what_it_does: "", examples: "isobutane may be written (CH 3 ) 3 CH" },
+  if_the_number_of_repeating_units: { definition: "Unknown or variable, the letter n may be used to indicate this formula: CH 3 (CH 2 ) n CH 3", what_it_does: "", examples: "Na + , or Cu 2+" },
+  a_lefthand_subscript: { definition: "Sometimes used redundantly to indicate the atomic number", what_it_does: "", examples: "8 O 2 for dioxygen, and 16 8 O 2 for the most abundant isotopic species of dioxygen" },
+  a_nonfullerene_example: { definition: "[ As@Ni 12 As 20 ] 3− , an ion in which one arsenic (As) atom is trapped in a cage formed by the other 32 atoms", what_it_does: "", examples: "La to form, for example, La@C 60 or La@C 82" },
+  the_hill_system: "First published by Edwin A",
+
 };
 
 // ============================================================
