@@ -63809,6 +63809,11 @@ const FLAT_DICT = {
   the_iron_age: "Not part of prehistory for all civilizations who had introduced written records during the Bronze Age",
   although_iron_ore: "Common, the metalworking techniques necessary to use iron are different from those needed for the metal used earlier, more heat is required",
 
+  // === INGESTED 2026-07-06 08:57 ===
+  they_may_be_defined_either_as_goods_that: { definition: "Immediately consumed in one use or ones that have a lifespan of less than three years", what_it_does: "", examples: "food , cosmetics , cleaning products , medication , clothing , packaging and fuel" },
+  durable_goods: { definition: "Typically replaced due to obsolescence rather than breakdown", what_it_does: "", examples: "years of existence, hours of use and operational cycles" },
+  the_condition_of_the_economy: "One of the biggest factors as well as the philosophy of money",
+
 };
 
 // ============================================================
