@@ -66348,6 +66348,9 @@ const FLAT_DICT = {
   this_created_confusion_because_protozoa: "And still is used in its old sense, [ 12 ] alongside its use in the newer senses",
   one_of_his_major_contributions_to_biology: { definition: "His proposal of a new kingdom of life: the Chromista , even though it is not widely accepted to be monophyletic (see above)", what_it_does: "", examples: "the Chromalveolata (1981), Opisthokonta (1987), Rhizaria (2002), and Excavata (2002)" },
 
+  // === INGESTED 2026-07-06 20:12 ===
+  members_of_this_phylum: "Known as orthonectids",
+
 };
 
 // ============================================================
