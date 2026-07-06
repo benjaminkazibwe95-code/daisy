@@ -67066,6 +67066,11 @@ const FLAT_DICT = {
   some_financing_vehicles: "Structured to augment this process by redefining the conversion factor as the stock price declines, thus leading to a ' death spiral '",
   options_and_warrants: "Converted at pre-defined rates",
 
+  // === INGESTED 2026-07-06 23:05 ===
+  nesta: "Set up in 1998 by an independent endowment established by an Act of Parliament , the National Lottery Act 1998",
+  the_endowment: "Managed through a trust, and Nesta uses the interest from the trust to meet its charitable objects and to fund and support its projects",
+  ravi_gurumurthy: "The organisation's chief executive",
+
 };
 
 // ============================================================
