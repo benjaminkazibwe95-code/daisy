@@ -64469,6 +64469,38 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 11:51 ===
   decisionmaking_software_packages: "Available for implementing decision analysis",
 
+  // === INGESTED 2026-07-06 11:53 ===
+  a_majoritypreferred_candidate: "A candidate who would win a majority of votes in any head-to-head election against any opponent",
+  the_possibility_of_such_a_cycle: "Known as Condorcet's paradox",
+  condorcet_voting_methods: { definition: "Named for the 18th-century French mathematician , the Marquis de Condorcet , who popularized the concept", what_it_does: "", examples: "Jefferson's Manual and Robert's Rules of Order prescribing their use" },
+  if_one_candidate: "Preferred over all others, they are the Condorcet Winner and winner of the election",
+  if_a_ranked_ballot: { definition: "Used, the voter gives a '1' to their first preference, a '2' to their second preference, and so on", what_it_does: "", examples: "as is used in Score voting , with a higher rating indicating a greater preference" },
+  the_count: "Conducted by pitting every candidate against every other candidate in a series of hypothetical one-on-one contests",
+  the_winner_of_each_pairing: "The candidate preferred by a majority of voters",
+  the_candidate_preferred_by_each_voter: "Taken to be the one in the pair that the voter ranks (or rates) higher on their ballot paper",
+  if_alice_is_preferred_by_more_voters_then_she: "The winner of that pairing",
+  pairwise_counts: "Often displayed in a pairwise comparison matrix , [ 21 ] or outranking matrix , [ 22 ] such as those below",
+  the_sum_of_all_ballots_in_an_election: "Called the sum matrix",
+  their_preferences: "(D, A, C, B) and (A, C, B, D)",
+  suppose_tennessee: "Holding an election on the location of its capital",
+  in_each_pairing_the_winner: "The candidate preferred by a majority of voters",
+  this_means_that_nashville: "The Condorcet winner",
+  when_this_occurs_the_situation: "Known as a 'Condorcet cycle', 'majority rule cycle', 'circular ambiguity', 'circular tie', 'Condorcet paradox', or simply a 'cycle'",
+  a_mechanism_for_resolving_an_ambiguity: "Known as ambiguity resolution, cycle resolution method, or Condorcet completion method",
+  the_idealized_notion_of_a_political_spectrum: { definition: "Often used to describe political candidates and policies", what_it_does: "", examples: "the drawing of lots" },
+  some_cycle_resolution_methods: "Smith-efficient, meaning that they pass the Smith criterion",
+  sets_used_for_this_purpose: "Defined so that they will always contain only the Condorcet winner if there is one, and will always, in any case, contain at least one candidate",
+  such_sets_include_the_one_possible_method: "To apply instant-runoff voting in various ways, such as to the candidates of the Smith set",
+  each_such_sequence: "Associated with a Kemeny score that is equal to the sum of the pairwise counts that apply to the specified sequence",
+  the_sequence_with_the_highest_score: "Identified as the overall ranking, from most popular to least popular",
+  the_order_of_finish: "'A, B, C' and A is the winner",
+  an_equivalent_definition: "To find the order of finish that minimizes the size of the largest reversed majority",
+  the_choice_between_margins_and_winning_votes: "The subject of scholarly debate",
+  when_margins: "Used, the difference between the number of two candidates' votes may be small, but the number of votes may be very large—or not",
+  here_is_an_example_that: "Designed to support IRV at the expense of Condorcet: B is preferred by a 501–499 majority to A, and by a 502–498 majority to C",
+  the_goal_of_a_ranked_voting_system: "For voters to be able to vote sincerely and trust the system to protect their intent",
+  all_three_systems: "Susceptible to tactical voting , but the types of tactics used and the frequency of strategic incentive differ in each method",
+
 };
 
 // ============================================================
