@@ -65358,6 +65358,16 @@ const FLAT_DICT = {
   the_list_type: "An additive monad, with nil as the monadic zero and append as monadic sum",
   the_identity_element_of_the_monoid: "The empty list, nil",
 
+  // === INGESTED 2026-07-06 15:51 ===
+  drum_memory: { definition: "A magnetic data storage device invented by Gustav Tauschek in 1932 in Austria", what_it_does: "", examples: "various IBM drum storage drives , and the UNIVAC Flying head and FASTRAND series of drums" },
+  not_all_drum_units: "Designed with each track having its own head",
+  several_modes_of_block_addressing: "Possible, depending on the device",
+  some_devices: "Divided into logical cylinders, and addressing by track was actually logical cylinder and track",
+  the_outer_surface_of_the_drum: "Lined with electrical contacts leading to capacitors contained within",
+  magnetic_drums: "Developed for the U.S",
+  an_era_drum: "The internal memory for the ATLAS-I computer delivered to the U.S",
+  magnetic_drum_memory_units: "Used in the Minuteman ICBM launch control centers from the beginning in the early 1960s until the REACT upgrades in the mid-1990s",
+
 };
 
 // ============================================================
