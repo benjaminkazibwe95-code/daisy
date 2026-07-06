@@ -64215,6 +64215,16 @@ const FLAT_DICT = {
   david_sackett: { definition: "The organisation's first chair", what_it_does: "", examples: "sessions of the World Health Assembly , and make statements on WHO resolutions" },
   cochrane: "Patients and the public via community curation , to produce systematic reviews and other outputs",
 
+  // === INGESTED 2026-07-06 10:49 ===
+  nolan: "The article as remarkably prescient",
+  access_networks: "Also multi-modal and need to be understood from the perspective of those who choose between modes of walking , cycling, public transport, and cars",
+  public_transport_trips: "Generally coupled with walkable access to the transit stop",
+  walking_has_the_advantage_that_it: "A much more predictable trip time than public transport or cars, where we have to allow for delays caused by poor service, congestion, and parking",
+  walkability: "Also examined based on the surrounding built environment",
+  cars: { definition: "Also becoming more affordable, leading to the rise of the automobile during the Post–World War II economic expansion", what_it_does: "", examples: "cardiovascular disease , diabetes , hypertension , obesity , depression , and osteoporosis" },
+  the_added_activity: { definition: "Predominantly composed of moderate-to-vigorous physical activity, which is linked to an array of associated health benefits", what_it_does: "", examples: "flooding, improving the quality of both air and water, carbon sequestration, etc" },
+  the_calculation_of_transit_time_maps: "Computationally intensive , and considerable work is being done on more efficient algorithms for quickly producing such maps",
+
 };
 
 // ============================================================
