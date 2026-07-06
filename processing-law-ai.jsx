@@ -64415,6 +64415,9 @@ const FLAT_DICT = {
   selfemployed_people: "Usually classified as a sole proprietor (or sole trader), independent contractor , or as a member of a partnership",
   local_jobs_initiatives: "Common in a construction context",
 
+  // === INGESTED 2026-07-06 11:28 ===
+  task_management: "Used by small to Fortune 100-sized companies",
+
 };
 
 // ============================================================
