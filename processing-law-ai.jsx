@@ -65197,6 +65197,29 @@ const FLAT_DICT = {
   student_robert_blumofe: "Executive Vice President",
   leiserson_mentions_this: "Elected the 'Best 1990 Professional and Scholarly Book in Computer Science and Data Processing' by the Association of American Publishers",
 
+  // === INGESTED 2026-07-06 15:00 ===
+  the_prisoners_who_built_clemson: "Almost all black, and over 500 of their names are recorded",
+  tillman_hall: "Rebuilt in 1894 and is still standing today",
+  the_first_graduating_class_of_clemson: { definition: "In 1896, and they had degrees in mechanical-electrical engineering and agriculture", what_it_does: "", examples: "foundry work, agriculture studies, and mechanics" },
+  the_department_of_arts_and_sciences: "Formed in 1926 with the addition of modern language programs",
+  programs_at_clemson: { definition: "Reorganized into six schools of agriculture, chemistry, engineering, general science, textiles, and vocational studies", what_it_does: "", examples: "Spencer Bracy, Edward Bracy, and John L" },
+  and_ann_powers_college_of_business: "Accredited by the Association to Advance Collegiate Schools of Business",
+  the_college_of_business: { definition: "The first to be named in the history of Clemson University", what_it_does: "", examples: "physics and chemistry" },
+  since_the_first_degrees: "Granted in 1896, Clemson engineers and scientists have made significant contributions to South Carolina, the nation, and the world",
+  many_of_the_graduate_programs: "Highly ranked nationally, and the school offers several unique interdisciplinary programs",
+  the_department_of_automotive_engineering: "Ranked tenth in the world in 2015",
+  facility: { definition: "Home to graduate programs in digital arts and engineering disciplines", what_it_does: "", examples: "a grant with a total value of $357,224,294" },
+  this_grant: "The largest in the school's history",
+  in_that_there: "No Greek houses on campus, although there are residence halls designated for fraternities and sororities",
+  the_tiger: "Printed biweekly, on Thursdays, and maintains a staff of over 30 senior members and contributing staff",
+  the_paw: "Now used on all athletic teams and collegiate documents",
+  the_tiger_paw: "Also painted on surfaces throughout campus and on highways leading to the campus",
+  the_floats: "Then revealed on the Saturday of the football game and judged by a select panel",
+  tigerama: "One of the nation's largest student-run pep rallies, averaging about 40,000 people",
+  a_pep_rally: "Held in the university's amphitheater",
+  both_departments: "Staffed 24 hours a day, seven days a week",
+  the_police_department: "Located at 124 Ravenel Center Place, Seneca",
+
 };
 
 // ============================================================
