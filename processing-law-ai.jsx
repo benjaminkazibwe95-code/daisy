@@ -64946,6 +64946,18 @@ const FLAT_DICT = {
   inverted_page_tables: { definition: "Used for example on the PowerPC , the UltraSPARC and the IA-64 architecture", what_it_does: "", examples: "we can create smaller 1024-entry 4 KB pages that cover 4 MB of virtual memory" },
   multilevel_page_tables: "Also referred to as 'hierarchical page tables'",
 
+  // === INGESTED 2026-07-06 13:59 ===
+  among_those_uses: { definition: "Their TI-99/4 and TI-99/4A home computers, which ultimately sold about 2.8 million units", what_it_does: "", examples: "the Intel 8086 and newer 16/32-bit designs such as the Motorola 68000" },
+  when_a_subroutine: "Entered, only the single workspace register needs to be changed instead of requiring registers to be saved individually",
+  the_instruction_set: "Fairly orthogonal , meaning that, with few exceptions, instructions can use all methods of accessing operands (addressing modes)",
+  flow_control: "Facilitated through a group of one unconditional and 12 conditional jump instructions",
+  jump_targets: "Relative to the PC with an offset of − 128 to +127 word addresses",
+  an_example_of_its_utility: "Shown in the code below where an interrupt is being serviced in a very encapsulated manner that would otherwise require many more instructions",
+  xop: { definition: "Given a number in the range 0–15 as well as a source address", what_it_does: "", examples: "SVC, which invokes XOP 15" },
+  another_use_of_xop: { definition: "To implement instructions in software which might be handled by dedicated hardware in future versions of the 990 minicomputer series", what_it_does: "", examples: "C R10,@2*R9(R13), where R9 points to the address of the stack limit" },
+  memory_accesses: "Always 16 bits wide, with the CPU automatically performing read-before-write operations for instructions with byte-wide accesses",
+  the_rest_of_the_memory: { definition: "16 KB of 8-bit DRAM that was accessible only indirectly through the video display controller, which crippled the performance of these machines", what_it_does: "", examples: "CPU, memory, and I/O, which, when plugged into a card frame, could form a 16-bit minicomputer" },
+
 };
 
 // ============================================================
