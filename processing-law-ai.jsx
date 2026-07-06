@@ -66984,6 +66984,9 @@ const FLAT_DICT = {
   ness_ziona: "Also served by 5 bus lines operated by Egged (company)",
   the_mean_monthly_wage_for_a_salaried_worker: "NIS 7,597, a 9.2% increase over 2000",
 
+  // === INGESTED 2026-07-06 22:34 ===
+  another_major_branch_of_life_sciences: "Understanding the mind — neuroscience",
+
 };
 
 // ============================================================
