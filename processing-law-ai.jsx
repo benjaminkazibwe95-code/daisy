@@ -64524,6 +64524,9 @@ const FLAT_DICT = {
   personality_and_individual_differences: "A peer-reviewed academic journal published 16 times per year by Elsevier",
   the_founding_editor: "Hans Jürgen Eysenck",
 
+  // === INGESTED 2026-07-06 12:00 ===
+  bdm: { definition: "Designed for use in making deliberative decisions—those made based on canvassing and weighing up the arguments", what_it_does: "", examples: "stress, anxiety, time pressure, lost thinking and inefficiency" },
+
 };
 
 // ============================================================
