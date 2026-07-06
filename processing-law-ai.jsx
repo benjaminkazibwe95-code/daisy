@@ -66211,6 +66211,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 19:12 ===
   the_mcas: "Not considered a part of the Circle of Willis",
 
+  // === INGESTED 2026-07-06 19:18 ===
+  an_important_aspect_of_persistent_identifiers: { definition: "That 'persistence is purely a matter of service'", what_it_does: "", examples: "the Internet Archive perma.cc , archive" },
+
 };
 
 // ============================================================
