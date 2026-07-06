@@ -66826,6 +66826,10 @@ const FLAT_DICT = {
   much_of_the_eastern_part_of_guangdong: "Populated by the Hakka people except for the Chaozhou and Hailufeng area",
   zhanjiang_in_southern_guangdong: "Dominated by Leizhounese , a variety of Min ; Cantonese and Hakka are also spoken there",
 
+  // === INGESTED 2026-07-06 22:04 ===
+  the_fingerprint_sensor: "Placed lower than in the OnePlus 8 series",
+  the_main_upgrade: { definition: "In the optics and color processing, which were co-developed with Hasselblad , specifically in the ultra-wide camera", what_it_does: "", examples: "the Samsung Galaxy S21 Ultra and Asus Zenfone 8" },
+
 };
 
 // ============================================================
