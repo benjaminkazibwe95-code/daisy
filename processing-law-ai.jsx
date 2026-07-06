@@ -63911,6 +63911,9 @@ const FLAT_DICT = {
   jeffrey_david_sachs: "Born in November 5, 1954 in Detroit , Michigan",
   that_officials_such_as_anthony_fauci: "Not being honest about the origins of COVID",
 
+  // === INGESTED 2026-07-06 09:27 ===
+  phd_programs: "Offered under the aegis of the Harvard Graduate School of Arts and Sciences",
+
 };
 
 // ============================================================
