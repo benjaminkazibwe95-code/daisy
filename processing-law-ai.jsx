@@ -64418,6 +64418,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 11:28 ===
   task_management: "Used by small to Fortune 100-sized companies",
 
+  // === INGESTED 2026-07-06 11:34 ===
+  scientific_management: "Sometimes known as Taylorism after its pioneer, Frederick Winslow Taylor",
+  taylor_emphasized_that_he: "Advocating 'high wages' and 'low labor cost' as 'the foundation of the best management'",
+  while_workers: { definition: "Carrying out the job with quality and workmanship, managers are responsible for planning, supervision, and proper training of the workers", what_it_does: "", examples: "accounting and Engineering" },
+  he_discovered_many_concepts_that: "Not widely accepted at the time",
+  taylor_observed_that_some_workers: "More talented than others, and that even smart ones were often unmotivated",
+  he_observed_that_most_workers_who: { definition: "Forced to perform repetitive tasks tend to work at the slowest rate that goes unpunished", what_it_does: "", examples: "from Samuel Gompers , founder and president of the American Federation of Labor (AFL)" },
+  at_a_succeeding_session_of_congress_a_measure: "Passed which prohibited the further use of the stop-watch and the payment of a premium or bonus to workmen in government establishments",
+  hoxie: "To devote a year to his investigation, and [ ",
+  sorensen_thus: "Dismissive of Taylor and lumped him into the category of useless experts",
+  sorensen: { definition: "One of the consultants who brought American know-how to the USSR during this era", what_it_does: "", examples: "what constituted the job, which men were timed, and under which conditions" },
+  any_of_these_factors: "Subject to change, and therefore can produce inconsistencies",
+  newer_methods: { definition: "All based on systematic analysis rather than relying on tradition and rule of thumb", what_it_does: "", examples: "the management of schools, universities and government" },
+  one_approach_to_efficiency_in_information_work: "Called digital Taylorism , which uses software to monitor the performance of employees who work on computers",
+
 };
 
 // ============================================================
