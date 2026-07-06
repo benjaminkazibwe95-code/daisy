@@ -64258,6 +64258,13 @@ const FLAT_DICT = {
   a_drop_in_selfesteem: { definition: "Observed during chemotherapy-induced alopecia, which persisted even after hair regrowth", what_it_does: "", examples: "the relationship between erectile dysfunction, masculinity, and self-esteem" },
   humor: "Used as a coping mechanism to draw attention away from sensitive topics and minimize the emotional burden of the disease",
 
+  // === INGESTED 2026-07-06 10:55 ===
+  unilateral_training: { definition: "The performance of physical exercises using one limb instead of two", what_it_does: "", examples: "unilateral squats use one leg, and bilateral squats use two legs" },
+  unilateral_exercise: "Commonly involved in comprehensive training regimes and especially those of professional sports people and athletes",
+  quick_changes_of_direction_during_sport: { definition: "Also frequently performed in a unilateral manner", what_it_does: "", examples: "a one-legged squat activates the gluteus medius more than a rear foot elevated split squat" },
+  this_generally_means_that_performance: { definition: "Impeded and the risk of injury is increased", what_it_does: "", examples: "sitting at a computer using a mouse, or from training in an imbalanced way, or for other reasons" },
+  the_most_common_solution: { definition: "To incorporate both bilateral and unilateral exercises in a training regime in order to gain the advantages of both types of exercise", what_it_does: "", examples: "a person is standing and they lift up their left arm while not moving their right" },
+
 };
 
 // ============================================================
