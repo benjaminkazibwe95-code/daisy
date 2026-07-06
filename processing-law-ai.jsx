@@ -64399,6 +64399,22 @@ const FLAT_DICT = {
   if_a_client: { definition: "Deaf they can work with the help of an interpreter to bridge the gap", what_it_does: "", examples: "time-management or goal setting" },
   this_can_include_collections_that: "Valuable financially and/or emotionally and can be a factor in divorces",
 
+  // === INGESTED 2026-07-06 11:26 ===
+  a_lot_of_workers_that_fulfill_gigs: "Often hired as independent contractors",
+  the_default_status_of_a_worker: { definition: "An employee unless specific guidelines are met, which can be determined by the ABC test", what_it_does: "", examples: "with workers employed in remote or isolated regions, the benefits may include meals" },
+  employers: "Generally required to report to the government, and follow labour law and immigration law to prevent illegal or unreported employment",
+  a_wage_laborer_is_a_person_whose_primary: { definition: "Of income is from the selling of his or her labor in this way", what_it_does: "", examples: "that of the OECD countries , it is currently the dominant form of work arrangement" },
+  both_contracts: "Entitled to minimum wages, fixed working hours and social security contributions",
+  the_employee: "Expected to be answering the phone and come to work when needed, e.g",
+  when_someone: "Ill and absent from work",
+  this_type_of_contract: { definition: "Common in the public sector", what_it_does: "", examples: "in the United States, young people are injured at work at twice the rate of their older counterparts" },
+  this_study_showed_that_other_sectors: { definition: "Just as important in reducing unemployment , such as manufacturing", what_it_does: "", examples: "personality conflicts, both of which can and should be managed away" },
+  they_recommended_that_complementary_policies: "Necessary to ensure economic growth's positive impact on LDC employment",
+  one_of_the_alternatives_to_work: "Engaging in post-secondary education at a college , university or professional school",
+  workers_who: { definition: "Not paid wages, such as volunteers who perform tasks for charities, hospitals or not-for-profit organizations, are generally not considered employed", what_it_does: "", examples: "slaves , do not receive pay for their services and are not considered employed" },
+  selfemployed_people: "Usually classified as a sole proprietor (or sole trader), independent contractor , or as a member of a partnership",
+  local_jobs_initiatives: "Common in a construction context",
+
 };
 
 // ============================================================
