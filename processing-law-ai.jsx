@@ -65253,6 +65253,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 15:06 ===
   recycling_is_standard_for_most_materials_and: "Found in every country and economy",
 
+  // === INGESTED 2026-07-06 15:12 ===
+  allocative_efficiency: "The main tool of welfare analysis to measure the impact of markets and public policy upon society and subgroups being made better or worse off",
+  allocation_efficiency: "Used to determine the efficiency of resource allocation in the capital market",
+  this_is_because_the_optimal_distribution: "Achieved when the marginal utility of good equals the marginal cost",
+  the_price_that_consumer_is_willing_to_pay: "Same as the marginal utility of the consumer",
+  it_means_the_marginal_utility_of_the_consumer: "Higher than the marginal cost",
+  the_optimal_level_of_the_output: "70, where the marginal cost equals to marginal utility",
+  the_wholesale_prices_they_get: "Much lower than those of their competitors",
+
 };
 
 // ============================================================
