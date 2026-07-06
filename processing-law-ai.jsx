@@ -64861,6 +64861,10 @@ const FLAT_DICT = {
   the_first_of_these_databases: "The Pick operating system",
   attributes_modify_how_code: "Compiled or behaves by attaching metadata to a symbol",
 
+  // === INGESTED 2026-07-06 13:38 ===
+  omt: "Developed as an approach to software development",
+  it_details_how_processes: "Performed independently",
+
 };
 
 // ============================================================
