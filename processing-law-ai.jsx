@@ -63561,6 +63561,13 @@ const FLAT_DICT = {
   if_the_safety_key: "Pulled out, such as in the event of a fall, the treadmill stops immediately",
   typically_brakes_on_a_ride: "Designed to be disengaged when power is applied; disconnecting power will cause all brakes to engage",
 
+  // === INGESTED 2026-07-06 07:26 ===
+  the_software_front: { definition: "Covered by Android 13 with NothingOS 2.0 skin on top", what_it_does: "", examples: "a periscope telephoto lens" },
+  the_earbuds: { definition: "Launched on 22 March 2023, with reviews mixed", what_it_does: "dual Bluetooth connection, as well as Google Fast Pair and Microsoft Swift Pair", examples: "Sony 's XM lineup and Apple 's AirPods Max" },
+  the_beer: "Initially announced on 1 April 2023, and was made available in the UK in October 2023",
+  the_drink: "Brewed by Freetime Beer Co., which was based in Wales",
+  the_brewery: "Closed down after 9 years",
+
 };
 
 // ============================================================
