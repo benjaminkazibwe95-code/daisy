@@ -63066,6 +63066,19 @@ const FLAT_DICT = {
   a_nonfullerene_example: { definition: "[ As@Ni 12 As 20 ] 3− , an ion in which one arsenic (As) atom is trapped in a cage formed by the other 32 atoms", what_it_does: "", examples: "La to form, for example, La@C 60 or La@C 82" },
   the_hill_system: "First published by Edwin A",
 
+  // === INGESTED 2026-07-06 04:40 ===
+  the_kinetic_theory_of_gases: "A simple classical model of the thermodynamic behavior of gases",
+  because_the_orientation: "Random, the average particle speed, v {\textstyle v} , in every direction is identical v x 2 = v y 2 = v z 2",
+  a_monatomic_gas: "Axially symmetric about each spatial axis, so that D = 3 comprising translational motion along each axis",
+  a_diatomic_gas: "Axially symmetric about only one axis, so that D = 5, comprising translational motion along three axes and rotational motion along two axes",
+  quantum_statistical_mechanics: { definition: "Needed to accurately compute these contributions", what_it_does: "", examples: "the gaseous diffusion method for isotope separation" },
+  the_upper_plate: "Moving at a constant velocity to the right due to a force F",
+  the_lower_plate: "Stationary, and an equal and opposite force must therefore be acting on it to keep it at rest",
+  the_nonequilibrium_flow: "Superimposed on a Maxwell-Boltzmann equilibrium distribution of molecular motions",
+  the_transfer_of_momentum_between_molecules: "Explicitly accounted for in Revised Enskog theory , which relaxes the requirement of a gas being dilute",
+  the_nonequilibrium_energy_flow: "Superimposed on a Maxwell-Boltzmann equilibrium distribution of molecular motions",
+  the_nonequilibrium_molecular_flow: "Superimposed on a Maxwell–Boltzmann equilibrium distribution of molecular motions",
+
 };
 
 // ============================================================
