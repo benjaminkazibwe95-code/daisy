@@ -66219,6 +66219,24 @@ const FLAT_DICT = {
   the_search_engine: { definition: "Refined and improved, and it began to attract users from all over the world", what_it_does: "", examples: "abstracts, if available" },
   bibliographic_data: "Provided in several formats, and the results may be sorted by multiple fields, such as by author or year of publication",
 
+  // === INGESTED 2026-07-06 19:23 ===
+  a_digital_identity: "Data stored on computer systems relating to an individual, organization, application, or device",
+  when_such_personal_information: "Accessible in the public domain, it can be used by others to piece together a person's offline identity",
+  data_used_for_digital_identity: "Generally encrypted using a one-way hash , thereby avoiding privacy concerns",
+  the_attributes_of_a_digital_identity: { definition: "Acquired and contain information about a user, such as medical history, purchasing behavior, bank balance, age, and so on", what_it_does: "", examples: "favorite brand of shoes, and preferred currency" },
+  traits_are_features_of_the_user_that: { definition: "Inherent, such as eye color, nationality, and place of birth", what_it_does: "", examples: "proving identity in a bar or PayPal authentication for payment at a website)" },
+  an_example_of_reliance_authentication: "PayPal's verification method",
+  the_actual_charges: { definition: "Authorized after leaving the hotel and returning the car, which may be too late for the balloon trip", what_it_does: "", examples: "device and environmental variables" },
+  openid_and_lightweight_identity: "Two web authentication protocols that use standard HTTP URIs (often called URLs)",
+  a_uniform_resource_name: { definition: "A persistent, location-independent identifier assigned within the defined namespace", what_it_does: "", examples: "the internet" },
+  riskbased_authentication: { definition: "An application of digital identity whereby multiple entity relationship from the device (e.g., operating system), environment (e.g", what_it_does: "", examples: "ship-to address)" },
+  changes_to_the_ldap_standard: { definition: "Managed by working groups in the IETF , and changes in X.500 are managed by the ISO", what_it_does: "", examples: "race, gender, and class continue to shape how users are perceived and treated online" },
+  digital_activity: "But not limited to messages, photos, posts, comments, reactions, stories, archived history, etc",
+  gdpr: "One attempt to address this concern using the regulation",
+  this_regulation_tactic: "Introduced by the European Union (EU) in 2018 for addressing concerns about the privacy and personal data of EU citizens",
+  one_common_mitigation: "Data anonymization , such as hashing user identifiers with a cryptographic hash function",
+  another_popular_technique: { definition: "Adding statistical noise to a data set to reduce identifiability, such as in differential privacy", what_it_does: "", examples: "money transfers, need a stricter level of validation of digital identity" },
+
 };
 
 // ============================================================
