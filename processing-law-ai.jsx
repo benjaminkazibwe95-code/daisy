@@ -65368,6 +65368,15 @@ const FLAT_DICT = {
   an_era_drum: "The internal memory for the ATLAS-I computer delivered to the U.S",
   magnetic_drum_memory_units: "Used in the Minuteman ICBM launch control centers from the beginning in the early 1960s until the REACT upgrades in the mid-1990s",
 
+  // === INGESTED 2026-07-06 15:53 ===
+  splay_trees_and_treaps: { definition: "Self-balancing but not height-balanced, as their height is not guaranteed to be logarithmic in the number of items", what_it_does: "", examples: "associative arrays , priority queues and sets" },
+  if_the_data_items: { definition: "Known ahead of time, the height can be kept small, in the average sense, by adding values in a random order, resulting in a random binary search tree", what_it_does: "", examples: "online algorithms ) where this randomization is not viable" },
+  although_a_certain_overhead: "Involved, it is not bigger than the always necessary lookup cost and may be justified by ensuring fast execution of all operations",
+  for_some_implementations_these: "Per-operation time bounds, while for others they are amortized bounds over a sequence of operations",
+  these_times: { definition: "Asymptotically optimal among all data structures that manipulate the key only through comparisons", what_it_does: "", examples: "priority queues" },
+  one_advantage_of_selfbalancing_bsts: "That they allow fast (indeed, asymptotically optimal) enumeration of the items in key order , which hash tables do not provide",
+  one_disadvantage: { definition: "That their lookup algorithms get more complicated when there may be multiple items with the same key", what_it_does: "", examples: "the line segment intersection problem and the point location problem efficiently" },
+
 };
 
 // ============================================================
