@@ -63304,6 +63304,17 @@ const FLAT_DICT = {
   the_name_tardigradum: "'slow walker' and was given by Lazzaro Spallanzani in 1776",
   all_four_of_these: { definition: "Now the nominal species for higher tardigrade taxa", what_it_does: "", examples: "the relationship of tardigrade body segments to those of other Panarthropoda" },
 
+  // === INGESTED 2026-07-06 06:20 ===
+  these_lhb_projections: "Activated both by aversive stimuli and by the absence of an expected reward, and excitation of the LHb can induce aversion",
+  the_wanting_component: { definition: "Thought to be controlled by dopaminergic pathways , whereas the liking component is thought to be controlled by opiate-GABA-endocannabinoids systems", what_it_does: "", examples: "norepinephrine, corticotropin-releasing factor, and dynorphin" },
+  model_free_learning: "The simple caching and updating of values",
+  although_classical_conditioning: "Not limited to the reward system, the enhancement of instrumental performance by stimuli (i.e",
+  alone_nmda_mediated_activation_of_erk: "Self-limited, as NMDA activation also inhibits PKA mediated inhibition of ERK deactivating phosphatases",
+  these_neuroimaging_abnormalities: "Complemented by little post mortem research, but what little research has been done suggests reduced excitatory synapses in the mPFC",
+  two_paradigms: "Commonly used to simulate depression, chronic social defeat (CSDS), and chronic mild stress (CMS), although many exist",
+  pavlov: "Rewarding the dogs so that the dogs associated food, the reward, with the bell, the stimulus",
+  this_sensitization_in_the_brain: "Similar to the effect of dopamine because wanting and liking reactions occur",
+
 };
 
 // ============================================================
