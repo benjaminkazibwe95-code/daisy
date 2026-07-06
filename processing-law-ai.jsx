@@ -66136,6 +66136,20 @@ const FLAT_DICT = {
   the_largest_galaxies: "Supergiant ellipticals, or type-cD galaxies",
   the_formation_of_elliptical_galaxies: { definition: "An active area of ongoing research", what_it_does: "", examples: "clusters tend to be older, redder, and more metal rich" },
 
+  // === INGESTED 2026-07-06 18:50 ===
+  luminosity: "An absolute measure of radiated electromagnetic energy per unit time, and is synonymous with the radiant power emitted by a light-emitting object",
+  apparent_magnitude: "A logarithmic measure of apparent brightness",
+  a_bolometer: "The instrument used to measure radiant energy over a wide band by absorption and measurement of heating",
+  in_practice_bolometric_magnitudes: { definition: "Measured by taking measurements at certain wavelengths and constructing a model of the total spectrum that is most likely to match those measurements", what_it_does: "", examples: "with a hot Wolf-Rayet star observed only in the infrared" },
+  some_such_as_the_ubv_or_johnson_system: "Defined against photometric standard stars, while others such as the AB system are defined in terms of a spectral flux density",
+  because_luminosity: "Proportional to temperature to the fourth power, the large variation in stellar temperatures produces an even vaster variation in stellar luminosity",
+  the_most_luminous_stars: "Always young stars, no more than a few million years for the most extreme",
+  the_vast_majority_of_stars: "Found along the main sequence with blue Class O stars found at the top left of the chart while red Class M stars fall to the bottom right",
+  certain_stars_like_deneb_and_betelgeuse: "Found above and to the right of the main sequence, more luminous or cooler than their equivalents on the main sequence",
+  blue_and_white_supergiants: "High luminosity stars somewhat cooler than the most luminous main sequence stars",
+  the_luminosity_of_a_radio_source: { definition: "Measured in W Hz −1 , to avoid having to specify a bandwidth over which it is measured", what_it_does: "", examples: "consider a 10 W transmitter at a distance of 1 million metres, radiating over a bandwidth of 1 MHz" },
+  the_absolute_magnitude: "The apparent magnitude at a distance of 10 pc (3",
+
 };
 
 // ============================================================
