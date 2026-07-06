@@ -64336,6 +64336,17 @@ const FLAT_DICT = {
   four_issues: "Published per semester, two of which are also printed",
   the_semiannual_publication: { definition: "Mailed to over 80,000 alumni", what_it_does: "", examples: "Billy Baird , Elmer Collett , Maury Duncan , Carl Kammerer , Douglas Parrish, and Floyd Peters" },
 
+  // === INGESTED 2026-07-06 11:10 ===
+  a_progressive_tax: "A tax in which the tax rate increases as the taxable amount increases",
+  the_dahsala_system: "A land-revenue system (system of taxation) which helped to organise the collecting system based on land fertility",
+  although_this_measure: "Initially intended to be temporary, it soon became a fixture of the British taxation system",
+  once_the_governmentdefined_minimum_criteria: { definition: "Met, the recipient becomes the payer", what_it_does: "", examples: "some tax laws may ignore inflation completely" },
+  hayek_believed_that_fiscal_problems: "Partly rooted in the moral philosophy practiced by society",
+  he_believed_the_system: "Established on ludicrous premises and failed to attain its redistributive goals",
+  estonia: { definition: "One of the first countries in Europe to adopt such a tax system", what_it_does: "", examples: "the economy" },
+  whatever_revenue_is_generated_by_taxes: { definition: "To be spent on basic maintenance (i.e., road repairs)", what_it_does: "", examples: "himself, he said, 'I'll probably be the lowest paying taxpayer in the office" },
+  the_study_results: { definition: "From studies conducted in the United Kingdom, the United States, and Germany", what_it_does: "", examples: "voting rights and legal protections" },
+
 };
 
 // ============================================================
