@@ -64319,6 +64319,23 @@ const FLAT_DICT = {
   deandre_kane: { definition: "Named the Big 12 Tournament's most valuable player", what_it_does: "", examples: "a victory over No" },
   johnsonlynch: "The fastest Iowa State coach to clinch 100 victories",
 
+  // === INGESTED 2026-07-06 11:08 ===
+  sf_state: "Classified among 'R2: Doctoral Universities – High research activity",
+  when_the_california_state_normal_school: "Moved to San José in 1871, Girls' High became the only publicly supported teacher-training institution",
+  woo: { definition: "The first Chinese-American to head a major American university", what_it_does: "", examples: "one by the recently hired director" },
+  oneunit_courses: "Created and taught by students",
+  one_suit: "Dismissed and the other was settled",
+  all_buildings: "Modern , with some specifically brutalist",
+  the_first_threeunit_college_course: "Taught there in 1961",
+  workshops: "Not for credit and processed by the University Corporation",
+  the_csu: { definition: "Governed by a 25-member Board of Trustees who oversee the system's chancellor", what_it_does: "", examples: "the university's seven colleges" },
+  each_college: "Led by a dean and consists of departments, led by department chairs, and schools, led by directors",
+  eldercollege_students: "Expected to attend regularly and participate, but are not expected to take exams or write papers",
+  ollis: "Education organizations for older adults that are operated independently",
+  these_neighborhoods: "Further divided into housing communities",
+  four_issues: "Published per semester, two of which are also printed",
+  the_semiannual_publication: { definition: "Mailed to over 80,000 alumni", what_it_does: "", examples: "Billy Baird , Elmer Collett , Maury Duncan , Carl Kammerer , Douglas Parrish, and Floyd Peters" },
+
 };
 
 // ============================================================
