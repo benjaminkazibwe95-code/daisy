@@ -64764,6 +64764,36 @@ const FLAT_DICT = {
   alcohol_use: "A major contributing factor for head injuries , motor vehicle injuries (27%), interpersonal violence (18%), suicides (18%), and epilepsy (13%)",
   they_also_generally_believe_alcohol: "Necessary at any social event, as it helps conversations start",
 
+  // === INGESTED 2026-07-06 13:06 ===
+  the_manhattan_project: "A research and development program undertaken during World War II to produce the first nuclear weapons",
+  enriched_uranium: "Produced at the Clinton Engineer Works in Tennessee",
+  plutonium: "Produced in the world's first industrial-scale nuclear reactors at the Hanford Engineer Works in Washington",
+  the_first_nuclear_device_ever_detonated: "An implosion-type bomb during the Trinity test , conducted at White Sands Proving Ground in New Mexico on 16 July 1945",
+  he_discovered_that_the_american_project: "Smaller than the British, and not as advanced",
+  lawrence: "Sufficiently impressed to commence his own research into uranium",
+  the_section_itself: "Renamed to Section S-1",
+  the_top_ratings: "AA-1 through AA-4 in descending order, although there was a special AAA rating reserved for emergencies",
+  they_tentatively_confirmed_that_a_fission_bomb: "Theoretically possible",
+  the_fusion_idea: "Put aside to concentrate on producing fission bombs",
+  the_obvious_choice: { definition: "One of the three laboratory heads, Urey, Lawrence, or Arthur Compton, but they could not be spared", what_it_does: "", examples: "his wife, Kitty ; his girlfriend, Jean Tatlock ; and his brother, Frank" },
+  marshals: "Posting notices to vacate on farmhouse doors, and construction contractors were moving in",
+  one_of_his_first_tasks: "To move the district headquarters to Oak Ridge, although the name of the district did not change",
+  grafton: "Appointed Chicago area engineer",
+  three_short_tons: "Supplied by Westinghouse Lamp Plant , produced in a rush with makeshift process",
+  a_large_square_balloon: "Constructed by Goodyear Tire to encase the reactor",
+  heavy_water_from_trail: "Used for Chicago Pile 3 , the first reactor using heavy water and natural uranium, which went critical on 15 May 1944",
+  a_new_community: "Built at Deep River, Ontario , to provide residences and facilities for the team members",
+  a_branch_of_the_metallurgical_laboratory: "Established at Iowa State College in Ames, Iowa , under Frank Spedding to investigate alternatives",
+  the_four_alpha_ii_racetracks: "Completed between July and October 1944",
+  research_into_the_process: "Carried out at Columbia University by a group that included Harold Urey, Karl P",
+  a_separate_corporate_entity_called_kellex: "Created for the project",
+  the_biggest_problem: "The design of the barrier, which had to be strong, porous and resistant to corrosion",
+  a_sixstage_pilot_plant: "Built at Columbia to test the process, but the prototype proved to be too brittle",
+  a_rival_barrier: "Developed from powdered nickel by Kellex, the Bell Telephone Laboratories and the Bakelite Corporation",
+  inside_each_column: "Three concentric tubes",
+  natural_uranium: "Bombarded by neutrons and transmuted into uranium-239 , which rapidly decays, first into neptunium-239 and then into plutonium-239",
+  a_week_later_the_load: "Increased to 36 short tons (33 t) , raising its power generation to 500 kW, and by the end of the month the first 500 mg of plutonium was created",
+
 };
 
 // ============================================================
