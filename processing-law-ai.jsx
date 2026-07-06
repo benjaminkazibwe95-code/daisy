@@ -63523,6 +63523,20 @@ const FLAT_DICT = {
   determining_this_relationship: "Presently one of the major focuses of LTD research",
   new_evidence_demonstrates_there: "Similarities between the apoptotic pathway and LTD which involves the phosphorylation /activation of GSK3β",
 
+  // === INGESTED 2026-07-06 07:07 ===
+  epithelium_or_epithelial_tissue: "A thin, continuous, protective layer of cells with little extracellular matrix",
+  epithelial_tissue: "One of the four basic types of animal tissue , along with connective tissue , muscle tissue and nervous tissue",
+  this_sort_of_tissue: "Called pseudostratified",
+  all_glands: "Made up of epithelial cells",
+  simple_epithelium: "A single layer of cells with every cell in direct contact with the basement membrane that separates it from the underlying connective tissue",
+  this_kind_of_epithelium: "Therefore described as pseudostratified columnar epithelium",
+  all_epithelia: "Usually separated from underlying tissues by an extracellular fibrous basement membrane",
+  the_lining_of_the_blood_and_lymphatic_vessels: "Of a specialised form of epithelium called endothelium",
+  the_outermost_layer_of_human_skin: "Composed of dead stratified squamous , keratinized epithelial cells",
+  the_outer_surface_of_the_cornea: "Covered with fast-growing, easily regenerated epithelial cells",
+  the_reticular_lamina_beneath_the_basal_lamina: "Made up of collagen proteins secreted by connective tissue",
+  epithelium_is_so_called_because_the_name: "Originally used to describe the translucent covering of small 'nipples' of tissue on the lip",
+
 };
 
 // ============================================================
