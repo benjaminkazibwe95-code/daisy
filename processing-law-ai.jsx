@@ -63718,6 +63718,10 @@ const FLAT_DICT = {
   angel_investors: "Often retired entrepreneurs or executives who may be interested in angel investing for reasons that go beyond pure monetary return",
   angel_groups: { definition: "Generally local organizations made up of 10 to 150 accredited investors interested in early-stage investing", what_it_does: "", examples: "the illusion of control and overconfidence" },
 
+  // === INGESTED 2026-07-06 08:21 ===
+  the_regulation: "Found under Title 17 of the Code of Federal Regulations , part 230, Sections 501 through 508",
+  general_offering_and_solicitations: "Permitted under Rule 504 as long as they are restricted to accredited investors",
+
 };
 
 // ============================================================
