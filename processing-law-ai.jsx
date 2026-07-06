@@ -65812,6 +65812,9 @@ const FLAT_DICT = {
   the_malta_philharmonic_orchestra: { definition: "Recognised as Malta's foremost musical institution and is notable for being called to participate in important state events", what_it_does: "", examples: "Karl Schembri and Immanuel Mifsud , widened the tracks further, especially in prose and poetry" },
   potatoes: { definition: "A staple of the Maltese diet as well", what_it_does: "", examples: "Girgentina and Ġellewża" },
 
+  // === INGESTED 2026-07-06 17:19 ===
+  if_the_specimen_in_question: "Not an exact match but comes close to a known source, cf",
+
 };
 
 // ============================================================
