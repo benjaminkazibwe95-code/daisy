@@ -66851,6 +66851,10 @@ const FLAT_DICT = {
   a_digital_watermarking_method: "Said to be of quantization type if the marked signal is obtained by quantization",
   often_used_by_a_watermark_designer: { definition: "The evaluation of single properties to show, for example, an improvement", what_it_does: "", examples: "the Epson PhotoPC 3000Z and the Kodak DC-290" },
 
+  // === INGESTED 2026-07-06 22:09 ===
+  part_of_the_vision_of_linked_data: "For the Internet to become a global database",
+  ontologies: "Formal descriptions of data structures",
+
 };
 
 // ============================================================
