@@ -63422,6 +63422,27 @@ const FLAT_DICT = {
   they_form_a_small_sensitive_point_which: "Unique from neighboring fibers",
   each_mechanoreceptor: "Tuned to a different sensitivity, and will fire its action potential only when there is enough energy",
 
+  // === INGESTED 2026-07-06 06:35 ===
+  scallops: "Harvested using scallop dredges or bottom trawls",
+  many_species_of_scallops: "Highly prized as a food source, and some are farmed as aquaculture",
+  the_shells_of_most_scallops: "Streamlined to facilitate ease of movement during swimming at some point in their lifecycles, while also providing protection from predators",
+  the_ctenolium: "The defining feature of the modern family Pectinidae and is a characteristic that has evolved within the lineage",
+  this_nerve_ring: "So well developed that, in some species, it may be legitimately considered an additional ganglion",
+  the_cerebral_ganglia: "The next-largest set of ganglia and lie distinct from each other a significant distance dorsal to the visceral ganglia",
+  all_scallops: "Thought to start out with a byssus , which attaches them to some form of substrate such as eelgrass when they are very young",
+  socalled_singing_scallops: "Rumored to make an audible, soft popping sound as they flap their shells underwater (though whether or not this happens is open to some debate)",
+  byssal_threads: { definition: "Strong, silky fibers extending from the muscular foot, used to attach to a firm support, such as a rock", what_it_does: "", examples: "changes in oxidative stress parameters, can inhibit the growth and development of scallops" },
+  byssus: { definition: "Eventually lost with adulthood, transitioning almost all scallop species into free swimmers", what_it_does: "", examples: "Propeamussiidae , the glass scallops)" },
+  the_family_pectinidae: "The most diversified of the pectinoideans in present-day oceans",
+  the_direct_ancestors_of_pectinidae: "Scallop-like bivalves of the family Entoliidae",
+  the_commercial_catch: "Down to 22 tonnes in 2015, and the fishery was closed again",
+  another_possible_factor: { definition: "The reduction of sharks from overfishing", what_it_does: "takes about two days", examples: "Atrina pectinata (帶子)" },
+  dried_scallop: { definition: "Known in Cantonese Chinese cuisine as conpoy (乾瑤柱, 乾貝, 干貝)", what_it_does: "", examples: "scalloped potatoes , which contains no seafood at all" },
+  in_german_they: "Jakobsmuscheln – literally 'James's shellfish'",
+  curiously_the_linnaean_name_pecten_jacobeus: { definition: "Given to the Mediterranean scallop, while the scallop endemic to Galicia is called Pecten maximus due to its bigger size", what_it_does: "", examples: "in the mosaics on the floor of the chancel" },
+  james_holds_that_the_route: "Seen as a fertility pilgrimage, undertaken when a young couple desired to bear offspring",
+  the_scallop_shell: "Believed to have originally been carried by pagans as a symbol of fertility",
+
 };
 
 // ============================================================
