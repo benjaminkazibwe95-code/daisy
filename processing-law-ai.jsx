@@ -63790,6 +63790,12 @@ const FLAT_DICT = {
   when_the_counterpart_of_this_debt_arrangement: "A bank , the debtor is more often referred to as a borrower",
   default_may_occur_if_the_debtor: { definition: "Either unwilling or unable to pay its debt", what_it_does: "", examples: "bonds , mortgages , loans , and promissory notes" },
 
+  // === INGESTED 2026-07-06 08:51 ===
+  operational_risk: { definition: "The risk of losses caused by flawed or failed processes, policies, systems or events that disrupt business operations", what_it_does: "", examples: "fraud, and physical events are among the factors that can trigger operational risk" },
+  the_primary_goal_of_the_military: { definition: "To fight and win wars in quick and decisive fashion, and with minimal losses", what_it_does: "", examples: "Basel III for banks and Solvency II for insurers" },
+  these_types_of_risk: { definition: "Generally classified under the term 'operational risk'", what_it_does: "", examples: "strategic risk – the risk of a loss arising from a poor strategic business decision" },
+  other_risk_terms: "Seen as potential consequences of operational risk events",
+
 };
 
 // ============================================================
