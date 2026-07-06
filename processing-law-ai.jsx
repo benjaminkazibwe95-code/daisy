@@ -64669,6 +64669,9 @@ const FLAT_DICT = {
   two_separate_graces: "Traditionally sung during Election, the scholarship process",
   the_origin_of_the_song: { definition: "Unknown; it was described as 'an old tradition' in the 1773 History and Antiquities of Winchester", what_it_does: "", examples: "'See the year, the meadow, smiling' and 'Now the swallow seeks her dwelling'" },
 
+  // === INGESTED 2026-07-06 12:38 ===
+  the_memory_interactions: { definition: "Differentiable end-to-end, making it possible to optimize them using gradient descent", what_it_does: "", examples: "copying, sorting, and associative recall from examples alone" },
+
 };
 
 // ============================================================
