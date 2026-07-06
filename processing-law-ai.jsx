@@ -66356,6 +66356,11 @@ const FLAT_DICT = {
   this_syncytia: { definition: "Called plasmodium , in the sense of a multinucleate protoplast without a cell wall which exhibits amoeboid movement", what_it_does: "", examples: "some binucleated cells and metastasizing tumor cells)" },
   these_extra_nuclei: "Called nucleomorphs",
 
+  // === INGESTED 2026-07-06 20:16 ===
+  shelled_molluscs: "Placed in the Testacea, together with barnacles and tube worms",
+  while_the_vermes: "No longer a taxonomic group, anatomists continue to use the description 'vermiform' of animals or organs that are worm -shaped",
+  the_word_root: "Latin , vermes ( worms ) and formes ( shaped )",
+
 };
 
 // ============================================================
