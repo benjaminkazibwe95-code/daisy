@@ -65914,6 +65914,13 @@ const FLAT_DICT = {
   gps_satellites: "Potential targets for jamming, [ 77 ] [ 78 ] but satellite phone and television signals have also been subjected to jamming",
   excluded: { definition: "Crewed satellites i.e", what_it_does: "", examples: "missions to beyond Earth orbit" },
 
+  // === INGESTED 2026-07-06 17:41 ===
+  surface_gravity: "Measured in units of acceleration, which, in the SI system, are meters per second squared",
+  the_surface_gravity_of_a_white_dwarf: "Very high, and that of a neutron star is even higher",
+  one_consequence_of_such_immense_gravity: "That neutron stars have an escape velocity of around 100,000 km/s , about one-third of the speed of light",
+  the_fact_that_many_large_celestial_objects: "Approximately spheres makes it easier to calculate their surface gravity",
+  one_reason_for_this_is_that_they: "Often rotating, which means that they are affected by the combined effects of gravitational force and centrifugal force",
+
 };
 
 // ============================================================
