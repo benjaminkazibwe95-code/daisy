@@ -67034,6 +67034,24 @@ const FLAT_DICT = {
   one_of_the_difficulties: "That the private sector has lower salaries and expats are easier to hire and fire",
   it_was_claimed_the_neighbourhoods: "'rife with diseases, crime, drugs and theft'",
 
+  // === INGESTED 2026-07-06 22:56 ===
+  an_inter_vivos_trust: "A trust created during the settlor's life",
+  the_trustee: "The legal owner of the assets held in trust on behalf of the trust and its beneficiaries",
+  the_beneficiaries: "Equitable owners of the trust property",
+  the_trust: "Governed by the terms under which it was created",
+  while_the_trustee: "Given legal title to the trust property, in accepting title the trustee owes a number of fiduciary duties to the beneficiaries",
+  the_primary_duties_owed: { definition: "Those of loyalty , prudence and impartiality", what_it_does: "", examples: "openness , transparency , recordkeeping , accounting , and disclosure" },
+  such_a_failure: "A civil breach of trust and can leave a neglectful or dishonest trustee with severe liabilities",
+  the_uses_of_trusts: "Many and varied, for both personal and commercial reasons, and trusts may provide benefits in estate planning , asset protection , and taxes",
+  an_implied_trust: "One created by a court of equity because of acts or situations of the parties",
+  implied_trusts: "Divided into two categories: resulting and constructive",
+  a_resulting_trust: "Implied by the law to work out the presumed intentions of the parties, but it does not take into consideration their expressed intent",
+  common_ways_in_which_a_trust: "Created include: In some jurisdictions, certain types of assets may not be the subject of a trust without a written document",
+  the_cyprus_international_trust: "Based on common law principles however the law introduces certain conditions and requirements to for the trust to qualify under the same law",
+  a_major_use_of_trusts: "To allow for the existence of unincorporated associations",
+  these_often: "Associations or groups of people that come together for a particular (usually non-commercial purpose)",
+  under_south_african_law_living_trusts: "Considered tax payers",
+
 };
 
 // ============================================================
