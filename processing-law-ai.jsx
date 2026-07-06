@@ -63006,6 +63006,9 @@ const FLAT_DICT = {
   some_segments: "Implicitly treated as code segments , dedicated for instructions , stack segments , or normal data segments",
   although_the_usages: "Different, the segments do not have different memory protections reflecting this",
 
+  // === INGESTED 2026-07-06 04:12 ===
+  instead_its_value: { definition: "Replaced with the value of b", what_it_does: "", examples: "Some languages provide operators that are ad hoc polymorphic – inherently overloaded" },
+
 };
 
 // ============================================================
