@@ -67167,6 +67167,31 @@ const FLAT_DICT = {
   a_classical_such_solution: "Euclid 's parametrization of right triangles such that the lengths of their sides a , b and their hypotenuse c are coprime integers",
   a_system_of_m_linear_equations_in_n_unknowns: "Underdetermined if it has more than one solution",
 
+  // === INGESTED 2026-07-06 23:50 ===
+  dimensional_homogeneity_of_neighborhoods: "Guaranteed for the class of closed regular sets , defined as sets equal to the closure of their interior",
+  this_means_all_representations: "Different ways of organizing the same geometric and topological data in the form of a data structure",
+  all_representation_schemes: "Organized in terms of a finite number of operations on a set of primitives",
+  each_object_family: "Called a generic primitive , and individual objects within a family are called primitive instances",
+  the_other_main_drawback_of_this_scheme: "The difficulty of writing algorithms for computing properties of represented solids",
+  usually_a_specific_scanning_order: "Imposed and the corresponding ordered set of coordinates is called a spatial array",
+  spatial_arrays: { definition: "Unambiguous and unique solid representations but are too verbose for use as 'master' or definitional representations", what_it_does: "", examples: "constructive solid geometry" },
+  spatial_occupancy_enumeration_schemes: { definition: "A particular case of cell decompositions where all the cells are cubical and lie in a regular grid", what_it_does: "", examples: "its connectedness (number of pieces) and genus (number of holes)" },
+  csg_and_boundary_representations: "Currently the most important representation schemes for solids",
+  terminal_nodes: "Primitive leaves that represent closed regular sets",
+  csg_representations: { definition: "Particularly useful for capturing design intent in the form of features corresponding to material addition or removal ( bosses , holes , pockets etc.)", what_it_does: "", examples: "tracing the motions of a brush moved on a canvas" },
+  the_simplest_form_of_a_predicate: { definition: "The condition on the sign of a real valued function resulting in the familiar representation of sets by equalities and inequalities", what_it_does: "", examples: "the marching cubes algorithm" },
+  features: "Generally expected to form a basis for linking CAD with downstream manufacturing applications, and also for organizing databases for design data reuse",
+  parametric_feature_based_modeling: "Frequently combined with constructive binary solid geometry (CSG) to fully describe systems of complex objects in engineering",
+  the_modeling_of_solids: "Only the minimum requirement of a CAD system's capabilities",
+  engineering_solid_models: "Built mostly with sketcher-based features; 2-D sketches that are swept along a path to become 3-D",
+  design_work_on_components: "Usually done within the context of the whole product using assembly modeling methods",
+  the_surfaces: "Usually defined with datum curves in space and a variety of complex commands",
+  surfacing: "More difficult, but better applicable to some manufacturing techniques, like injection molding",
+  a_hub: "Assembled to the end of the shaft",
+  parametric_modeling: "Very powerful, but requires more skill in model creation",
+  dimensions_on_engineering_drawings: "Created , instead of shown",
+  skillfully_created_parametric_models: { definition: "Easier to maintain and modify", what_it_does: "", examples: "its center of gravity, volume, and mass, can be quickly calculated" },
+
 };
 
 // ============================================================
