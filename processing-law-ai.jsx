@@ -66036,6 +66036,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 18:05 ===
   quantum: "An arXiv overlay journal , meaning the journal's content is hosted on the arXiv",
 
+  // === INGESTED 2026-07-06 18:09 ===
+  the_perspective: "Analogous to the apparent flatness of the Earth, on a human scale, when seen from its surface",
+  the_observable_universe: "Actually only a very small part of the actual universe",
+  he_ignored_magnetic_monopoles_because_they: "Based on assumptions of GUT, which was outside the scope of the speech",
+
 };
 
 // ============================================================
