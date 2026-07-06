@@ -65250,6 +65250,9 @@ const FLAT_DICT = {
   the_commission: "Divided into departments known as Directorates-General (DGs) that can be likened to departments or ministries",
   the_single_largest_dg: "The Directorate-General for Translation , with a 2309-strong staff, while the largest group by nationality is Belgian (18",
 
+  // === INGESTED 2026-07-06 15:06 ===
+  recycling_is_standard_for_most_materials_and: "Found in every country and economy",
+
 };
 
 // ============================================================
