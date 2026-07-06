@@ -63286,6 +63286,14 @@ const FLAT_DICT = {
   the_first_form_of_human_social_organization: "Thought to have resembled hunter-gatherer band societies",
   these_culturally_defined_relationships: { definition: "Referred to as kinship", what_it_does: "", examples: "previously strong political alliances, if doing so is seen as providing personal advantages" },
 
+  // === INGESTED 2026-07-06 06:15 ===
+  the_human_primary_motor_cortex: "Located on the anterior wall of the central sulcus",
+  ventrally_the_primary_motor_cortex: "Bordered by the insular cortex in the lateral sulcus",
+  the_location_of_the_primary_motor_cortex: { definition: "Most obvious on histological examination due to the presence of the distinctive Betz cells", what_it_does: "", examples: "by type of neurotransmitter released (GABA, glutamate etc.)" },
+  the_arm_and_hand_motor_area: { definition: "The largest, and occupies the part of precentral gyrus between the leg and face area", what_it_does: "", examples: "the elbow and shoulder" },
+  this_mistake: "Old, dating back at least to Campbell in 1905",
+  even_when_the_betz_cells: { definition: "Damaged, the cortex can still communicate to subcortical motor structures and control movement", what_it_does: "", examples: "one region appears to emphasize the rhythmic control of whisking" },
+
 };
 
 // ============================================================
