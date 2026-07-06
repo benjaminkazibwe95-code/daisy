@@ -63245,6 +63245,12 @@ const FLAT_DICT = {
   if_the_speed_at_periapsis: { definition: "V , then the eccentricity of the trajectory is given by: This is valid for elliptical, parabolic, and hyperbolic trajectories", what_it_does: "", examples: "Jupiter) relative to its centre (that is, not relative to its moving surface)" },
   moons: "Indented below their planet",
 
+  // === INGESTED 2026-07-06 05:52 ===
+  their_children: "Kares Anne and Bret Carter, an architect",
+  thorne: "Set up on a blind date with Lynda Obst , later a film producer , by physicist Carl Sagan",
+  a_significant_aspect_of_his_research: "Developing the mathematics necessary to analyze these objects",
+  this_recorded_detection: "The first direct observation of the fleeting chirp of a gravitational wave and confirmed a prediction of the general theory of relativity",
+
 };
 
 // ============================================================
