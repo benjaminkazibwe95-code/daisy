@@ -66166,6 +66166,15 @@ const FLAT_DICT = {
   calibration_of_the_method: "Made empirically from Cepheids or theoretically from stellar population models",
   the_sbf_pattern: { definition: "Evident as the transform of the point spread function in the Fourier domain", what_it_does: "", examples: "globular clusters and background galaxies must be excluded" },
 
+  // === INGESTED 2026-07-06 18:59 ===
+  facial_nerve_paralysis: "A common problem that involves the paralysis of any structures innervated by the facial nerve",
+  the_pathway_of_the_facial_nerve: { definition: "Long and relatively convoluted, so there are a number of causes that may result in facial nerve paralysis", what_it_does: "", examples: "loss of taste , hyperacusis and decreased secretion of saliva and tears" },
+  otitis_media: "An infection in the middle ear, which can spread to the facial nerve and inflame it, causing compression of the nerve in its canal",
+  in_the_case_of_inflammation_the_nerve: "Exposed to edema and subsequent high pressure, resulting in a peripheric type palsy",
+  common_culprits: { definition: "Facial neuromas , congenital cholesteatomas , hemangiomas , acoustic neuromas , parotid gland neoplasms , or metastases of other tumours", what_it_does: "", examples: "the facial nerve" },
+  if_no_cause: "Found, the diagnosis is Bell's Palsy",
+  facial_palsy: "Considered severe if the person is unable to close the affected eye completely or the face is asymmetric even at rest",
+
 };
 
 // ============================================================
