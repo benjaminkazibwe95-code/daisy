@@ -65722,6 +65722,17 @@ const FLAT_DICT = {
   this_last_title: "Published in North America as Metamorphosis ( ISBN 0-670-87666-6 )",
   the_ultimate_alphabet_game: "Released in June 2010 for the iPad , by Toytek, a UK-based independent games developer",
 
+  // === INGESTED 2026-07-06 17:04 ===
+  journal_articles: { definition: "Written by experts for experts, while magazine articles are usually intended for the general public or a demographic", what_it_does: "", examples: "within libraries, near railway or bus stations" },
+  this_latter_model: { definition: "Widely used before the rise of the World Wide Web and is still employed by some titles", what_it_does: "", examples: "Computer Weekly and Computing , and in finance, Waters Magazine" },
+  jean_loret: "One of France's first journalists",
+  takvimi_vekayi: "Published a few months later, intended as a translation of the Moniteur into Ottoman Turkish",
+  one_of_the_earliest_satirical_magazines: "Diyojen which was launched in 1870",
+  publishing: "A very expensive industry in colonial times",
+  many_magazines: "Launched, most failing within a few editions, but publishers kept trying",
+  the_first_periodicals_to_branch_out_from_news: { definition: "Harper's and The Atlantic , which focused on fostering the arts", what_it_does: "", examples: "child labor" },
+  this_ideal_young_woman: { definition: "Chic, financially independent, and an eager consumer of the latest fashions", what_it_does: "", examples: "automobiles and telephones" },
+
 };
 
 // ============================================================
