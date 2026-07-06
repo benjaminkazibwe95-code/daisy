@@ -66076,6 +66076,16 @@ const FLAT_DICT = {
   the_news_site: "Defunct but still can be accessed with prior movie features, profiles and interviews with recording artists and from MTV's television programs",
   a_related_mtv_app: { definition: "Available on mobile platforms and connected TV devices", what_it_does: "", examples: "(for the British MTV ) Dating Naked UK , Teen Mom , and Geordie Shore" },
 
+  // === INGESTED 2026-07-06 18:25 ===
+  the_claremont_colleges: "Designed to incorporate the Oxford Model of higher education",
+  cgu: "Founded upon the principle that graduate education is separate and distinct from undergraduate education",
+  enrollment: "Limited and classes are small",
+  cisat: "Founded in 1983 by Paul Gray as an independent entity",
+  albrecht_auditorium: "The largest class on CGU's campuses, often used for recital events and for TEDx talks",
+  the_academic_computing_building_the_acb: "A three-story, 27,000-square-foot (2,500 m 2 ) facility completed in 1985, which was renovated in 2009 to include the third floor",
+  claremont_graduate_university: "Home to the Kingsley and Kate Tufts Poetry Awards",
+  each_award: "Presented annually to an American poet for a collection of poetry written in the English language",
+
 };
 
 // ============================================================
