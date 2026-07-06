@@ -67138,6 +67138,18 @@ const FLAT_DICT = {
   a_space_equipped_with_such_an_atlas: "Called a manifold and additional structure can be defined on a manifold if the structure is consistent where the coordinate maps overlap",
   the_earth_as_a_whole: "One of the most common geometric spaces requiring the precise measurement of location, and thus coordinate systems",
 
+  // === INGESTED 2026-07-06 23:39 ===
+  the_domain_of_a_function_of_n_variables: "The subset of ⁠ R n {\displaystyle \mathbb {R} ^{n}} ⁠ for which the function is defined",
+  one_may_similarly_define_which: "A function only if the set of the points ( x 1 , …, x n ) in the domain of f such that f ( x 1 , …, x n ) ≠ 0 contains an open subset of R n",
+  these_are_the_functions_where_the_c_i: "Real numbers that are not all zero",
+  a_function_is_continuous_if_it: "Continuous at every point of its domain",
+  a_symmetric_function_is_a_function_f_that: "Unchanged when two variables x i and x j are interchanged: where i and j are each one of 1, 2, …, n",
+  a_first_derivative: "Positive if the function increases along the direction of the relevant axis, negative if it decreases, and zero if there is no increase or decrease",
+  while_bounded_hypervolume: "A useful insight, the more important idea of definite integrals is that they represent total quantities within space",
+  the_more_formal_notions_of_hypervolume: "The subject of measure theory",
+  implicit_functions: { definition: "A more general way to represent functions, since if: then we can always define: but the converse is not always possible, i.e", what_it_does: "", examples: "the computation of the real and the imaginary part may be difficult" },
+  the_real_part: "The velocity potential and the imaginary part is the stream function",
+
 };
 
 // ============================================================
