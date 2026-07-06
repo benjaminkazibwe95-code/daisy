@@ -63017,6 +63017,38 @@ const FLAT_DICT = {
   because_the_absorption_portion: { definition: "More distinct and tends to ride on a background of the scatter portion, it is often used to identify and quantify the absorbing species", what_it_does: "", examples: "a solution, there is no scattering" },
   even_though_this_absorbance_function: { definition: "Very useful with scattering samples, the function does not have the same desirable characteristics as it does for non-scattering samples", what_it_does: "", examples: "if the filter has 0.1% transmittance (0" },
 
+  // === INGESTED 2026-07-06 04:31 ===
+  the_emergent_massless_dirac_equation: "Separately pointed out in 1984 by Gordon Walter Semenoff , [ 30 ] and by David P",
+  patent: "Filed in the same year by Bor Z",
+  this_type_of_bonding: "Also seen in polycyclic aromatic hydrocarbons",
+  charge_transport: "Ballistic over long distances; the material exhibits large quantum oscillations and large nonlinear diamagnetism",
+  the_length_of_these_bonds: "About 0.142 nanometers",
+  the_dirac_points: "Six locations in momentum space on the edge of the Brillouin zone , divided into two non-equivalent sets of three points",
+  these_confined_structures: "Referred to as graphene nanoribbons",
+  two_of_the_six_dirac_points: { definition: "Independent, while the rest are equivalent by symmetry", what_it_does: "", examples: "high-κ dielectrics , superconductors , and ferromagnets" },
+  the_two_versions_behave_alike_and: "Indistinguishable via optical spectroscopy",
+  another_view_of_this: "To associate the total kinetic energy with the current",
+  because_the_total_momentum: "Proportional to the current I {\displaystyle I} , E ∼ I 2 {\displaystyle E\sim I^{2}} must hold",
+  the_casimir_effect: "An interaction between disjoint neutral bodies provoked by the fluctuations of the electromagnetic vacuum",
+  graphene_sheets: "Suspended over SiO 2 cavities where an AFM tip was used to apply stress to the sheet to test its mechanical properties",
+  its_spring_constant: { definition: "In the range 1–5 N/m and the stiffness was 0.5 TPa , which differs from that of bulk graphite", what_it_does: "", examples: "NEMS as pressure sensors and resonators" },
+  local_deformation_and_elastic_strain: { definition: "Negligibly affected by this long-range divergence in relative displacement", what_it_does: "", examples: "grain-boundaries (GB) and vacancies , present in the system and the average grain-size" },
+  they_found_that_the_elastic_stiffness: "Identical and strength is only slightly lower than those in pristine graphene",
+  polycrystalline_graphene: "Generated from these nucleation sites and was subsequently annealed at 3000K, and then quenched",
+  the_hexagon_grains: "Oriented in various lattice directions and the GBs consisted of only heptagon, pentagon, and hexagonal carbon rings",
+  the_motivation_behind_such_a_model: "That similar systems had been experimentally observed in graphene flakes grown on the surface of liquid copper",
+  while_they_also_noted_that_crack: "Typically initiated at the triple junctions, they found that as the grain size decreases, the yield strength of graphene increases",
+  thermal_transport_in_graphene: { definition: "A burgeoning area of research, particularly for its potential applications in thermal management", what_it_does: "", examples: "350 °C (620 K) )" },
+  one_way_to_synthesize_bilayer_graphene: "Via chemical vapor deposition , which can produce large bilayer regions that almost exclusively conform to a Bernal stack geometry",
+  the_properties_of_gqds: "Different from bulk graphene due to the quantum confinement effects which only become apparent when the size is smaller than 100 nm",
+  a_particularly_popular_technique: { definition: "The improved Hummers' method", what_it_does: "", examples: "energy storage, filtration, thermal management, and biomedical devices and implants" },
+  pure_graphene_and_golddecorated_graphene: "Each successfully integrated with the substrate",
+  when_voltage: "Applied to such a coil, current flows around the spiral, producing a magnetic field",
+  restacking: "An issue with this technique unless solvents with appropriate surface energy are used (e.g",
+  the_graphene_sheets: "Adsorbed to the high-energy interface between the materials and are kept from restacking",
+  a_twostep_cvd_process: { definition: "Shown to grow graphene directly on TiO 2 crystals or exfoliated TiO 2 nanosheets without using any metal catalyst", what_it_does: "", examples: "ruthenium , [ 293 ] iridium , [ 294 ] nickel [ 295 ] and copper" },
+  the_laser_induction_process: "Compatible with roll-to-roll manufacturing processes",
+
 };
 
 // ============================================================
