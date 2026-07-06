@@ -66877,6 +66877,21 @@ const FLAT_DICT = {
   modern_typefaces_provide_a: { definition: "To address some of the practical issues in depicting unified Han characters with various regional graphical representations", what_it_does: "", examples: "sanitization code or access control relies on case-insensitive comparison" },
   indic_scripts_such_as_tamil_and_devanagari: { definition: "Each allocated only 128 code points, matching the ISCII standard", what_it_does: "", examples: "a 'name' given to a code point cannot and will not change" },
 
+  // === INGESTED 2026-07-06 22:17 ===
+  technically_the_string_resolution_on_purl: "Like SEF URL resolution",
+  the_remainder_of_this_article: "About the OCLC's PURL system, proposed and implemented by OCLC (the Online Computer Library Center)",
+  the_purl_concept: "Used in the w3id.org , that may replace the old PURL-services and PURL-technologies",
+  the_oldest_purl_http_resolver: "Operated by OCLC from 1995 to September 2016 and was reached as purl.oclc.org as well as purl.org , purl.net , and purl.com",
+  a_persistent_url: { definition: "An address on the World Wide Web that causes a redirection to another Web resource", what_it_does: "", examples: "the preservation, of digital data for future use" },
+  the_domain: "A hierarchical information space that separates PURLs and allows for PURLs to have different maintainers",
+  both_permalink_and_purl: "Used as permanent/persistent URL and redirect to the location of the requested web resource",
+  their_differences: "About domain name and time scale : The most common types of PURLs are named to coincide with the HTTP response code that they return",
+  most_purls: "So-called simple PURLs , which provide a redirection to the desired resource",
+  this_subtlety: "Useful when the HTTP URI requested is used as an identifier for a physical or conceptual object that cannot be represented as an information resource",
+  purls_of_type_clone: { definition: "Used solely during PURL administration as a convenient method of copying an existing PURL record into a new PURL", what_it_does: "", examples: "consider a PURL with a URL of http://purl.org/some/path/ with a target URL of http://example" },
+  one_purl: "Sufficient to serve as a top-level node for a hierarchy on a single target server",
+  if_a_fragment_identifier: { definition: "Already present in a target URL, any fragment in the original URL should be abandoned", what_it_does: "", examples: "browsers have 'generally' [ 12 ] failed to follow Bos' guidance" },
+
 };
 
 // ============================================================
