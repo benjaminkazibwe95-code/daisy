@@ -66979,6 +66979,11 @@ const FLAT_DICT = {
   an_extension: { definition: "Planned to Eilat [ 146 ] and Arad", what_it_does: "", examples: "Menashe Kadishman 's The Horse Circle and Jeremy Langford 's The Drip Circle)" },
   the_chess_club: { definition: "Founded in 1973 by Eliyahu Levant, who served as its director for the next 40 years", what_it_does: "", examples: "the recent Senior National League 2004–2005 championship)" },
 
+  // === INGESTED 2026-07-06 22:32 ===
+  this_flag: "Taken by Halperin to the First Zionist Congress seven years later, where it became the model for the official flag adopted by the nascent movement",
+  ness_ziona: "Also served by 5 bus lines operated by Egged (company)",
+  the_mean_monthly_wage_for_a_salaried_worker: "NIS 7,597, a 9.2% increase over 2000",
+
 };
 
 // ============================================================
