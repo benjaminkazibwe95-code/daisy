@@ -64963,6 +64963,12 @@ const FLAT_DICT = {
   the_state_of_an_object: "Often hidden in an attempt to isolate it from other objects and reduce coupling",
   this_new_number: "Then stored as the current channel",
 
+  // === INGESTED 2026-07-06 14:04 ===
+  the_closest_unicode_equivalent: "U+29E7 ⧧ THERMODYNAMIC , but that is not found in many fonts, so U+2021 ‡ DOUBLE DAGGER is often used instead",
+  the_groupmark: { definition: "Proposed for Unicode standardization in 2015, [ 9 ] and was assigned to value U+2BD2 ⯒ GROUP MARK", what_it_does: "", examples: "the IBM 1401" },
+  the_bcdica_code_page: "Assigned as Code page 353 , also known as CP353",
+  the_bcdicb_code_page: "Assigned as Code page 354 , also known as CP354",
+
 };
 
 // ============================================================
