@@ -66254,6 +66254,13 @@ const FLAT_DICT = {
   levine: "An Internet author and consultant specializing in email infrastructure, spam filtering, and software patents",
   his_roommate_at_yale: "Economist Paul Krugman",
 
+  // === INGESTED 2026-07-06 19:33 ===
+  ars_technica: { definition: "Added to the company's Wired Digital group, which included Wired and Reddit", what_it_does: "", examples: "Ars Technica" },
+  the_operations_of_ars_technica: "Funded primarily by advertising, and it has offered a paid subscription service since 2001",
+  relayed_news: "Still published on the website, ranging from one or two sentences to a few paragraphs",
+  i_am_not_making_an_argument_that_blocking_ads: "A form of stealing, or is immoral, or unethical ",
+  the_block_and_article: "Controversial, generating articles on other websites about them, and the broader issue of advertising ethics",
+
 };
 
 // ============================================================
