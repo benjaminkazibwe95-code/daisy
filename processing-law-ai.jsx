@@ -65733,6 +65733,13 @@ const FLAT_DICT = {
   the_first_periodicals_to_branch_out_from_news: { definition: "Harper's and The Atlantic , which focused on fostering the arts", what_it_does: "", examples: "child labor" },
   this_ideal_young_woman: { definition: "Chic, financially independent, and an eager consumer of the latest fashions", what_it_does: "", examples: "automobiles and telephones" },
 
+  // === INGESTED 2026-07-06 17:06 ===
+  national_library_services_in_kenya: "Offered by Kenya National Library Service",
+  all_these_materials: "Then published in the Kenya National Bibliography (KNB)",
+  the_libraries: "Exclusively for Europeans and Asians",
+  the_third_public_library: "The Desai Memorial Library which was built in 1942",
+  rural_and_urban_poor_communities: "Better able to tackle their problems and introduce social change if they have access to relevant information that meets their needs and interests",
+
 };
 
 // ============================================================
