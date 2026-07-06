@@ -66456,6 +66456,13 @@ const FLAT_DICT = {
   a_large_number_of_people: "Exposed to sound levels on a daily basis that are likely to lead to significant hearing loss",
   one_of_the_most_common_causes: { definition: "Noise-induced hearing loss", what_it_does: "", examples: "by snagging on a sweater), is fairly common" },
 
+  // === INGESTED 2026-07-06 20:34 ===
+  the_cell_that_sends_its_fiber: "Called a preganglionic cell, while the cell whose fiber leaves the ganglion is called a postganglionic cell",
+  general_visceral_afferent_sensations: "Mostly unconscious visceral motor reflex sensations from hollow organs and glands that are transmitted to the CNS",
+  while_the_unconscious_reflex_arcs_normally: "Undetectable, in certain instances they may send pain sensations to the CNS masked as referred pain",
+  this_pain: "Usually non-localized",
+  the_loss_of_sympathetic_neurons: { definition: "Also associated with the reduction of insulin secretion and impaired glucose tolerance, further exacerbating the disorder", what_it_does: "", examples: "anxiety disorders and post-traumatic stress disorder (PTSD)" },
+
 };
 
 // ============================================================
