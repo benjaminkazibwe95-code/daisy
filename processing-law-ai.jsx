@@ -63687,6 +63687,11 @@ const FLAT_DICT = {
   their_focus: "To build an environment where developers could build richer experiences for their users",
   this_feature_of_the_speech_recognition: { definition: "Available in English, among other languages", what_it_does: "", examples: "'mhm' and 'gotcha', along with more human-like intonation and response latency" },
 
+  // === INGESTED 2026-07-06 08:06 ===
+  soa: "Also intended to be independent of vendors, products and technologies",
+  this_metadata: "Both the functional characteristics of the service and quality-of-service characteristics",
+  as_each_interface: "Fully documented with its own full set of regression test documentation, it becomes simple to identify problems in test services",
+
 };
 
 // ============================================================
