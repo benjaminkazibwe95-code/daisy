@@ -65121,6 +65121,9 @@ const FLAT_DICT = {
   if_the_next_bit_of_q: "0, then the successor of q is contained in the p 1 subtree, and if the next bit of q is 1, then the predecessor of q is contained in the p 0 subtree",
   this_chain_size: "Small enough that a fusion tree can handle searches and updates within it in constant time per operation",
 
+  // === INGESTED 2026-07-06 14:40 ===
+  a_more_efficient_solution: { definition: "Preallocating a number of memory blocks with the same size called the memory pool", what_it_does: "", examples: "the Transaction Processing Facility" },
+
 };
 
 // ============================================================
