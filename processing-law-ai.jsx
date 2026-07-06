@@ -63537,6 +63537,12 @@ const FLAT_DICT = {
   the_reticular_lamina_beneath_the_basal_lamina: "Made up of collagen proteins secreted by connective tissue",
   epithelium_is_so_called_because_the_name: "Originally used to describe the translucent covering of small 'nipples' of tissue on the lip",
 
+  // === INGESTED 2026-07-06 07:19 ===
+  an_axoaxonic_synapse: { definition: "A type of synapse , formed by one neuron projecting its axon terminals onto another neuron's axon", what_it_does: "", examples: "axo-dendritic synapses and axo-somatic synapses" },
+  axoaxonic_contacts: "Shown to consistently increase throughout the development period, starting from the age of 3 hours to the age of 27 days in kittens",
+  axoaxonic_synapses: "Formed from the small axons of interneurons onto the axon terminals of large axons, which are upstream to the main dendritic stem",
+  these_synapses: "Formed through projection of GABAergic interneurons on sensory neurons , which is upstream to the motor neurons",
+
 };
 
 // ============================================================
