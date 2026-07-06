@@ -64917,6 +64917,11 @@ const FLAT_DICT = {
   the_purpose_of_a_breakout_board: "To 'break out' the leads of a component on separate terminals so that manual connections to them can be made easily",
   breakout_boards: { definition: "Especially used for surface-mount components or any components with fine lead pitch", what_it_does: "", examples: "smartphones, wearables, and medical equipment" },
 
+  // === INGESTED 2026-07-06 13:53 ===
+  these_early_processors: "Still 32-bit , having 32-bit registers and instructions to manipulate 32-bit quantities",
+  programming_with_segments: { definition: "Complicated; requiring special keywords or memory models in assembly and high level languages", what_it_does: "", examples: "RGBE also use 32 bits per pixel" },
+  an_example_of_such_a_format: "The Enhanced Metafile Format",
+
 };
 
 // ============================================================
