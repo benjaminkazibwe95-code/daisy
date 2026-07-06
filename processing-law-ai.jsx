@@ -63763,6 +63763,12 @@ const FLAT_DICT = {
   financial_markets_was_disappearing_and_there: "An increasing interest in foreign stocks",
   large_corporate_players: "Beginning to find their way into the financial service community, offering competition to established banks",
 
+  // === INGESTED 2026-07-06 08:38 ===
+  structured_products: { definition: "Not homogeneous — there are numerous varieties of derivatives and underlying assets — but they can be classified under the aside categories", what_it_does: "", examples: "increased income in exchange for limits on the convertibility of the stock , or principal protection" },
+  these_extra_features: "All strategies investors could perform themselves using options and other derivatives, except that they were prepackaged as one product",
+  nowadays_the_product_range: "Very wide, and reverse convertible securities represent the other end of the product spectrum ( yield enhancement products)",
+  once_the_product: { definition: "Designed, it is manufactured through the process of financial engineering", what_it_does: "", examples: "credit cards" },
+
 };
 
 // ============================================================
