@@ -65377,6 +65377,23 @@ const FLAT_DICT = {
   one_advantage_of_selfbalancing_bsts: "That they allow fast (indeed, asymptotically optimal) enumeration of the items in key order , which hash tables do not provide",
   one_disadvantage: { definition: "That their lookup algorithms get more complicated when there may be multiple items with the same key", what_it_does: "", examples: "the line segment intersection problem and the point location problem efficiently" },
 
+  // === INGESTED 2026-07-06 15:55 ===
+  a_cache: "Made up of a pool of entries",
+  once_the_requested_data: "Retrieved, it is typically copied into the cache, ready for the next access",
+  the_timing_for_this: "Governed by the write policy",
+  the_data_in_these_locations: { definition: "Written back to the backing store only when they are evicted from the cache, a process referred to as a lazy write", what_it_does: "", examples: "disk storage and DRAM" },
+  caching: { definition: "Important to leverage 32-bit (and wider) transfers for texture data that was often as little as 4 bits per pixel", what_it_does: "", examples: "instruction caches for shaders , exhibiting functionality commonly found in CPU caches" },
+  this_specialized_cache: "Called a translation lookaside buffer (TLB)",
+  the_local_ttu_value: "Calculated by using a locally defined function",
+  once_the_local_ttu_value: "Calculated the replacement of content is performed on a subset of the total content stored in cache node",
+  lfru: "Suitable for network cache applications, such as ICN, CDNs and distributed networks in general",
+  if_content: "Highly popular, it is pushed into the privileged partition",
+  the_page_cache_in_main_memory: { definition: "Managed by the operating system kernel", what_it_does: "", examples: "web pages and images" },
+  cdns: { definition: "Introduced in the late 1990s as a way to speed up the delivery of static content, such as HTML pages, images and videos", what_it_does: "", examples: "Amazon S3" },
+  android_runtime_and_common_language_runtime: "Examples that utilize storage-based JIT caches",
+  caching_almost_always: "Some form of buffering, while strict buffering does not necessarily involve caching",
+  a_buffer_is_a_temporary_memory_location_that: "Traditionally used because CPU instructions cannot directly address data stored in peripheral devices",
+
 };
 
 // ============================================================
