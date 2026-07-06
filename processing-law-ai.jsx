@@ -65048,6 +65048,16 @@ const FLAT_DICT = {
   one_common_use: "To provide custom error messages in failed assertions",
   this_idiom_suggests_that_the_assignments: "Part of the return, rather than auxiliary assignments in a block that terminates with the actual return",
 
+  // === INGESTED 2026-07-06 14:27 ===
+  the_number_of_bits_of_type_char: "Specified by the preprocessor macro CHAR_BIT , defined in the standard include file <limits.h>",
+  the_result_of_sizeof: "An unsigned integer that is usually typed as size_t",
+  the_size_of_the_block_allocated: "Equal to the number of bytes for a single object of type int multiplied by 10, providing space for ten integers",
+  the_operand: "Written following the keyword sizeof and may be the symbol of a storage space, e.g., a variable, an expression , or a type name",
+  parentheses_for_the_operand: "Optional, except when specifying a type name",
+  the_result_of_the_operator: { definition: "The size of the operand in bytes, or the size of the memory storage requirement", what_it_does: "", examples: "<stddef.h> , define size_t to denote the unsigned integral type of the result of a sizeof expression" },
+  when_sizeof: "Applied to the name of an array, the result is the number of bytes required to store the entire array",
+  this_form_of_array_declaration: { definition: "Allowed as the last element in structures only, and differs from normal arrays in that no length is specified to the compiler", what_it_does: "", examples: "any padding, but without any storage allowed for the array" },
+
 };
 
 // ============================================================
