@@ -64978,6 +64978,13 @@ const FLAT_DICT = {
   if_those_code_segments: "The bodies of loops, the difference in execution time may be very noticeable on the human timescale",
   the_same_alu_that: "Used to execute arithmetic and logic instructions is also used to calculate effective addresses",
 
+  // === INGESTED 2026-07-06 14:08 ===
+  a_decimal_computer: "A computer that represents and operates on numbers and addresses in decimal format – instead of binary as is common in most modern computers",
+  decimal_computers: "Common from the early machines through the 1960s and into the 1970s",
+  early_computers_that: { definition: "Exclusively decimal include the ENIAC , IBM NORC , IBM 650 , IBM 1620 , IBM 7070 , UNIVAC Solid State 80", what_it_does: "", examples: "binary-coded decimal (BCD), bi-quinary and two-out-of-five code" },
+  when_nonnumeric_characters: { definition: "Used in these machines, they were encoded as two decimal digits", what_it_does: "", examples: "IBM 702 , IBM 705 , the IBM 1400 series, [ 2 ] IBM 7010 , and the IBM 7080" },
+  support_for_bcd: "Common in early microprocessors , which were often used in roles like electronic calculators and cash registers where the math was all decimal",
+
 };
 
 // ============================================================
