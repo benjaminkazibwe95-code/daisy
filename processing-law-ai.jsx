@@ -65516,6 +65516,25 @@ const FLAT_DICT = {
   if_such_an_expression: "Fit to high-fidelity data over a large range of temperatures and pressures, then it is called a 'reference correlation' for that fluid",
   the_values_listed: "Representative estimates only, as they do not account for measurement uncertainties, variability in material definitions, or non-Newtonian behavior",
 
+  // === INGESTED 2026-07-06 16:21 ===
+  olefins: "Usually not present at more than 5% by volume",
+  premium_kerosene: "Usually sold in 5- or 20-litre containers from hardware, camping and garden stores, and is often dyed purple",
+  standard_kerosene: "Usually dispensed in bulk by a tanker and is undyed",
+  flash_point_and_freezing_point_properties: "Of particular concern for operation and safety; the standards also define additives for control of static electricity and other purposes",
+  kerosene: "Sometimes recommended as a folk remedy for killing head lice , but health agencies warn against this as it can cause burns and serious illness",
+  the_flash_point_of_kerosene: "Between 37 °C (99 °F) and 65 °C (149 °F) , and its autoignition temperature is 220 °C (428 °F)",
+  the_distillation_process: "Repeated until most of the volatile hydrocarbon fractions had been removed and the final product was perfectly clear and safe to burn",
+  the_petroleumbased_illuminating_oil: "Widely sold as Kerosene, and the trade name soon lost its proprietary status, and became the lower-case generic product 'kerosene'",
+  these_types_of_lamps: "Still in use today in areas of the world without electricity, because they give a much better light than a simple wick-type lamp does",
+  portable_kerosene_stoves: "Reliable and durable in everyday use, and perform especially well under adverse conditions",
+  the_necessary_equipment: "Sold under the trademark 'Econom'",
+  the_car: "Designed to run on two fuels",
+  one_reason_to_manufacture_kerosenefueled_cars: "That, in Finland, kerosene was less heavily taxed than gasoline",
+  one_highly_refined_form_of_the_fuel: "Known as RP-1 , and is often burned with liquid oxygen as rocket fuel",
+  aliphatic_kerosene: "A type of kerosene which has a low aromatic hydrocarbon content",
+  aromatic_kerosene: "A grade of kerosene with a large concentration of aromatic hydrocarbons, an example of this would be Exxon 's Solvesso 150",
+  when_a_hydrated_crystal: { definition: "Left in air, dehydration may occur slowly", what_it_does: "", examples: "fire breathing , fire juggling or poi , and fire dancing" },
+
 };
 
 // ============================================================
