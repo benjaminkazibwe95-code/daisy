@@ -64122,6 +64122,26 @@ const FLAT_DICT = {
   the_surface_nitride: "Very strongly bound to the surface",
   although_hydrogenation: { definition: "Endothermic, this energy can easily be applied by the reaction temperature (about 700 K)", what_it_does: "consumes 3–5% of the world's natural gas production (around 1–2% of the world's energy supply)", examples: "" },
 
+  // === INGESTED 2026-07-06 10:25 ===
+  poaceae: { definition: "The most well-known family within the informal group known as grass", what_it_does: "", examples: "maize , wheat , rice , oats , barley , and millet for people and as feed for meat-producing animals" },
+  grasses_have_stems_that: { definition: "Hollow except at the nodes and narrow alternate leaves borne in two ranks", what_it_does: "", examples: "savannah and prairie where grasses are dominant are estimated to constitute 40" },
+  though_they: "Commonly called 'grasses', groups such as the seagrasses , rushes and sedges fall outside this family",
+  the_rushes_and_sedges: { definition: "Related to the Poaceae, being members of the order Poales , but the seagrasses are members of the order Alismatales", what_it_does: "", examples: "sword grass , are sharp enough to cut human skin" },
+  the_fruit_of_grasses: "A caryopsis , in which the seed coat is fused to the fruit wall",
+  king_argued_that_this: "The result of more slowly acting surface wash caused by carpets of grass which in turn would have resulted in relatively more soil creep",
+  the_grass_family: "One of the most widely distributed and abundant groups of plants on Earth",
+  grasses: { definition: "Also eaten by omnivorous or even occasionally by primarily carnivorous animals", what_it_does: "", examples: "food production, industry, and lawns" },
+  bamboo_shoots: "Used in numerous Asian dishes and broths, and are available in supermarkets in various sliced forms, in both fresh, fermented and canned versions",
+  lemongrass: "A grass used as a culinary herb for its citrus-like flavor and scent",
+  many_species_of_grass: { definition: "Grown as pasture for foraging or as fodder for prescribed livestock feeds, particularly in the case of cattle , horses , and sheep", what_it_does: "", examples: "cob , for insulation, in the manufacture of paper and board such as oriented structural straw board" },
+  grass_surfaces: "Also sometimes used for horse racing and tennis",
+  in_the_days_leading_up_to_the_match_it: "Repeatedly mowed and rolled to produce a very hard, flat surface for the ball to bounce off",
+  grass_on_the_fairway: "Mown short and even, allowing the player to strike the ball cleanly",
+  playing_from_the_rough: "A disadvantage because the long grass may affect the flight of the ball",
+  grass_on_the_putting_green: "The shortest and most even, ideally allowing the ball to roll smoothly over the surface",
+  a_number_of_grasses: "Invasive species that damage natural ecosystems, including forms of Phragmites australis which are native to Eurasia but has spread around the world",
+  the_primary_ingredient_of_beer: { definition: "Usually barley or wheat, each of which has been used for this purpose for over 4,000 years", what_it_does: "", examples: "A folk myth about grass is that it refuses to grow where any violent death has occurred" },
+
 };
 
 // ============================================================
