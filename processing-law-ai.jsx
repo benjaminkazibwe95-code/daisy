@@ -66050,6 +66050,10 @@ const FLAT_DICT = {
   physicist_edward_teller: "The keynote speaker , and warned of the United States' poor performance in the atomic arms race",
   among_the_awardees: "Katalin Karikó , [ 37 ] a biochemist whose research with Drew Weissman underpins the mRNA COVID-19 vaccines",
 
+  // === INGESTED 2026-07-06 18:18 ===
+  implosion: "A key part of the gravitational collapse of large stars , which can lead to the creation of supernovas , neutron stars and black holes",
+  if_the_outer_glass_envelope: "Damaged, a dangerous implosion may occur",
+
 };
 
 // ============================================================
