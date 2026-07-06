@@ -66987,6 +66987,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 22:34 ===
   another_major_branch_of_life_sciences: "Understanding the mind — neuroscience",
 
+  // === INGESTED 2026-07-06 22:37 ===
+  the_ibm_haifa_research_lab: { definition: "Located in a custom-built complex adjacent to the Haifa University campus, with branches in Haifa and Tel Aviv", what_it_does: "", examples: "the Technion (Israel Institute of Technology) and supervising post-graduate theses" },
+  the_stg_lab_in_israel: "Involved in three major activities: storage technology , de-duplication software, and chip design",
+
 };
 
 // ============================================================
