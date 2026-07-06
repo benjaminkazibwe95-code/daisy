@@ -65220,6 +65220,22 @@ const FLAT_DICT = {
   both_departments: "Staffed 24 hours a day, seven days a week",
   the_police_department: "Located at 124 Ravenel Center Place, Seneca",
 
+  // === INGESTED 2026-07-06 15:02 ===
+  in_the_west_the_common_point_of_view: "That coins were first used in ancient Lydia in the 8th century BCE, whereas some date the origins to ancient China",
+  jiaozi_did_not_replace_metallic_currency_and: "Used alongside the copper coins",
+  the_succeeding_yuan_dynasty: "The first government to use paper currency as the predominant circulating medium",
+  while_capital_adequacy: "Important, it is defined and regulated by the Bank for International Settlements , and central banks in practice generally do not apply stricter rules",
+  though_unless_they: "Selling or taking out new loans their cash flow is unaffected; asset owners feel less wealthy (the wealth effect ) and reduce spending",
+  firms_experiencing_high_borrowing_costs: { definition: "Also less willing or able to borrow or spend money on investment in new or expanding business", what_it_does: "", examples: "a central bank might set a target rate for overnight lending of 4" },
+  the_rate_that: "Used to purchase local currency may be market-based or arbitrarily set by the bank",
+  this_tool: { definition: "Generally used in countries with non-convertible currencies or partially convertible currencies", what_it_does: "", examples: "selling bonds or foreign exchange interventions" },
+  a_nominal_anchor_is_a_variable_that: "Thought to bear a stable relationship to the price level or the rate of inflation over some period of time",
+  the_adoption_of_a_nominal_anchor: { definition: "Intended to stabilize inflation expectations, which may, in turn, help stabilize actual inflation", what_it_does: "", examples: "the Consumer Price Index , within a desired range" },
+  this_interest_rate_target: "Usually reviewed on a monthly or quarterly basis by a policy committee",
+  the_quantity_theory: "A long-run model, which links price levels to money supply and demand",
+  the_different_types_of_policy: "Also called monetary regimes , in parallel to exchange-rate regimes",
+  the_primary_difficulty: "That few developing countries have deep markets in government debt",
+
 };
 
 // ============================================================
