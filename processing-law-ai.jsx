@@ -66544,6 +66544,13 @@ const FLAT_DICT = {
   for_ptype_semiconductors_the_fermi_level: "Below the intrinsic semiconductor and lies closer to the valence band than the conduction band",
   extrinsic_semiconductors: "Components of many common electrical devices",
 
+  // === INGESTED 2026-07-06 20:59 ===
+  a_fullframe_dslr: { definition: "A digital single-lens reflex camera (DSLR) with a 35 mm image sensor format ( 36 mm × 24 mm )", what_it_does: "", examples: "medium format and large format" },
+  if_the_lens_mounts: "Compatible, many lenses, including manual-focus models, designed for 35 mm cameras can be mounted on DSLR cameras",
+  the_edges: "Cropped off, which is equivalent to zooming in on the center section of the imaging area",
+  if_the_same_lens: { definition: "Used on both full-frame and cropped formats, and the subject distance is adjusted to have the same field of view (i.e", what_it_does: "", examples: "a 200 mm lens on a camera with a crop factor of 1" },
+  pixel_density: "Lower on full frame sensors",
+
 };
 
 // ============================================================
