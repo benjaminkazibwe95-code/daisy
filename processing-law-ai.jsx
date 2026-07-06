@@ -65586,6 +65586,9 @@ const FLAT_DICT = {
   oxidane: { definition: "Only intended to be used as the name of the mononuclear parent hydride used for naming derivatives of water by substituent nomenclature", what_it_does: "", examples: "the name hydroxyl is recommended over oxidanyl for the –OH group" },
   oxygen_dihydride: "Another way of referring to water, but modern usage often restricts the term ' hydride ' to ionic compounds (which water is not)",
 
+  // === INGESTED 2026-07-06 16:34 ===
+  a_photomultiplier: "A device that converts incident photons into an electrical signal",
+
 };
 
 // ============================================================
