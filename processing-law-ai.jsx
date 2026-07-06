@@ -67091,6 +67091,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:18 ===
   shaw: "Then elected as the company's chairman and chief executive officer",
 
+  // === INGESTED 2026-07-06 23:20 ===
+  productmarket_fit: "The degree to which a product satisfies a strong market demand",
+  achieving_productmarket_fit_implies_these: "Set without requiring additional changes or pivots",
+  sean_ellis: "Noted for popularizing this heuristic after examining many startups",
+
 };
 
 // ============================================================
