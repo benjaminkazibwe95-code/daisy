@@ -64044,6 +64044,11 @@ const FLAT_DICT = {
   these_gurukuls_are_operating_online_and: { definition: "Now imparting knowledge about different Hindu scriptures using the internet", what_it_does: "", examples: "carrying out of mundane daily household chores" },
   the_gurukula_system_of_education: "Available outside of India as well",
 
+  // === INGESTED 2026-07-06 10:04 ===
+  judgements: { definition: "Often influenced by cognitive biases , heuristics , prior experience, social context, abilities (e.g", what_it_does: "", examples: "the availability heuristic and anchoring , which often lead to predictable cognitive biases" },
+  philosophers_debate_whether_such_judgements: { definition: "Objective (grounded in reason) or subjective (relational), which has been the influence of theories such as deontology and virtue ethics", what_it_does: "", examples: "'stealing is wrong regardless of rules') from conventional judgements (rules, context-dependent; e.g" },
+  the_kinds_of_definitions_that_are_judgements: "Those that are the intersection of two or more ideas rather than those indicated only by usual examples — that is, constitutive definitions",
+
 };
 
 // ============================================================
