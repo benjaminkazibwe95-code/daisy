@@ -63769,6 +63769,9 @@ const FLAT_DICT = {
   nowadays_the_product_range: "Very wide, and reverse convertible securities represent the other end of the product spectrum ( yield enhancement products)",
   once_the_product: { definition: "Designed, it is manufactured through the process of financial engineering", what_it_does: "", examples: "credit cards" },
 
+  // === INGESTED 2026-07-06 08:40 ===
+  it_is_the_amount_of_money_that: "Needed to secure survival in a worst-case scenario",
+
 };
 
 // ============================================================
