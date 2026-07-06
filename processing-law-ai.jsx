@@ -65124,6 +65124,24 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 14:40 ===
   a_more_efficient_solution: { definition: "Preallocating a number of memory blocks with the same size called the memory pool", what_it_does: "", examples: "the Transaction Processing Facility" },
 
+  // === INGESTED 2026-07-06 14:42 ===
+  this_was_something_the_associated_faculties: "Not prepared to accept",
+  the_coat_of_arms: "Officially registered with the Lord Lyon King of Arms in 1987 and with the Canadian Heraldic Authority in 2001",
+  the_oldest_building_which: "Erected for the university is the Douglas Wright Engineering Building, which was erected in 1958",
+  south_campus: "The academic core of the university, while North Campus holds the Research and Technology Park",
+  northwest_campus: { definition: "The least developed area of the main campus, made up primarily of farm fields and an environmental reserve, which divides it from North Campus", what_it_does: "", examples: "the university's start-up incubator program in Kitchener" },
+  lewis: "The first University Librarian",
+  the_first_residence_built: { definition: "Village 1, completed in 1966", what_it_does: "", examples: "71.1 per cent of first-year students" },
+  the_closest_offcampus_facilities: "Adjacent to the campus, with the university acquiring land and five buildings from BlackBerry Ltd in December 2013",
+  the_pharmacy_building: "Designed by Siamak Hariri , and was completed in December 2008",
+  the_focus_for_the_stratford_campus: { definition: "On education in digital arts and media", what_it_does: "", examples: "alumni, faculty, and student body" },
+  conrad_grebel_university_college: "A Mennonite university college that was chartered in 1961 and is religiously affiliated with the Mennonite Church Eastern Canada",
+  among_the_wusa_student_groups: "The Glow Centre for Sexual and Gender Diversity , Canada's oldest, continually running university-based 2SLGBTQ+ group",
+  the_rest_of_the_fields: "Used by the university's recreational sports programs",
+  the_current_unicorn_startups_from_waterloo: "Wish , Instacart , Kik Messenger , Pivotal Software , and Storm8",
+  the_main_song_of_the_university: "Known as the 'Black and White and Gold'",
+  strickland: "The third woman to have ever been awarded the prize in physics",
+
 };
 
 // ============================================================
