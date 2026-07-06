@@ -66706,6 +66706,9 @@ const FLAT_DICT = {
   the_model_of_shared_atm_operations: "Then applied to the POS",
   cash_withdrawal_on_the_pos: "Launched in early 2008",
 
+  // === INGESTED 2026-07-06 21:34 ===
+  the_principal_entrance: "At 25 Southampton Buildings, where a purpose-built headquarters was constructed in 1899–1902 (architect: Sir John Taylor )",
+
 };
 
 // ============================================================
