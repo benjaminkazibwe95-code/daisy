@@ -63568,6 +63568,32 @@ const FLAT_DICT = {
   the_drink: "Brewed by Freetime Beer Co., which was based in Wales",
   the_brewery: "Closed down after 9 years",
 
+  // === INGESTED 2026-07-06 07:28 ===
+  if_the_currency_being_withdrawn_from_the_atm: { definition: "Different from that in which the bank account is denominated, the money will be converted at the financial institution's exchange rate", what_it_does: "", examples: "Carbon-14 and low-coercivity magnetism in order to make fraud more difficult" },
+  the_essence_of_this_system: "That it enabled the verification of the customer with the debited account without human intervention",
+  this_patent: { definition: "Filed on 5 March 1968 in the US (US 3543904) and granted on 1 December 1970", what_it_does: "", examples: "given its link with Barclays , Bank of Scotland deployed a DACS in 1968 under the 'Scotcash' brand" },
+  the_first_atms: "Designed to dispense a fixed amount of cash when a user inserted a specially coded card",
+  chemical_executives: "Initially hesitant about the electronic banking transition given the high cost of the early machines",
+  these_patents: { definition: "All credited to Kenneth S", what_it_does: "replaced manual entry and avoided possible keystroke errors", examples: "signature verification and test questions with a secure PIN system" },
+  cashpoint: "Still a registered trademark of Lloyds Bank plc in the UK [ 57 ] but is often used as a generic trademark to refer to ATMs of all UK banks",
+  atms: "Also found on cruise ships and on some US Navy ships, where sailors can draw out their pay",
+  onpremises_atms: { definition: "Often located inside the bank's lobby, which may be accessible 24 hours a day", what_it_does: "", examples: "ITM (the Intelligent Teller Machine) from Aptra Relate from NCR" },
+  offpremises_machines: "Deployed by financial institutions where there is a simple need for cash, so they are generally cheaper single-function devices",
+  banco_do_brasil: "Also migrating ATMs to Linux",
+  indianbased_vortex_engineering: { definition: "Manufacturing ATMs that operate only with Linux", what_it_does: "", examples: "IFX have yet to find wide acceptance by transaction processors" },
+  while_the_perceived_benefit_of_xfs: "Similar to Java's ' write once, run anywhere ' mantra, often different ATM hardware vendors have different interpretations of the XFS standard",
+  this_gas_or_explosive_is_ignited_and_the_vault: "Opened or distorted by the force of the resulting explosion and the criminals can break in",
+  a_common_method: "To simply rob the staff filling the machine with money",
+  sensitive_data_in_atm_transactions: { definition: "Usually encrypted with DES , but transaction processors now usually require the use of Triple DES", what_it_does: "", examples: "finger and palm vein patterns, [ 98 ] iris , and facial recognition technologies" },
+  alarm_sensors: "Placed inside ATMs and their servicing areas to alert their operators when doors have been opened by unauthorized personnel",
+  the_first_known_instance_of_a_fake_atm: "Installed at a shopping mall in Manchester, Connecticut , in 1993",
+  a_later_variant_of_this_approach: { definition: "To trap the card inside of the ATM's card reader with a device often referred to as a Lebanese loop", what_it_does: "", examples: "Europe, where EMV chip and PIN cards have increased in circulation" },
+  card_data: "Then cloned into a duplicate card and the criminal attempts a standard cash withdrawal",
+  stone: "Sentenced to five years and six months in prison",
+  all_audible_information: { definition: "Delivered privately through a standard headphone jack on the face of the machine", what_it_does: "", examples: "a vault), but it only dispenses items related to postage" },
+  a_web_atm: "An online interface for ATM card banking that uses a smart card reader",
+  all_the_usual_atm_functions: "Available, except for withdrawing cash",
+
 };
 
 // ============================================================
