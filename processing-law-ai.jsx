@@ -65779,6 +65779,39 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 17:15 ===
   mehmet_nuri_ersoy: "Appointed Minister of Culture and Tourism",
 
+  // === INGESTED 2026-07-06 17:17 ===
+  the_two_official_languages: "Maltese and English; Maltese is recognised as the national language",
+  malta: "An Apostolic See ; the Acts of the Apostles ( Acts 28 ) tells of how St",
+  these_included_indigenous_red_deer_that: "Now extinct, fish and marine mammals, as well as abundant edible marine gastropods",
+  the_siculoarabic_language: "Adopted on the island from Sicily; it eventually evolved into the Maltese language",
+  the_city_of_mdina: { definition: "Given the title of Città Notabile", what_it_does: "", examples: "Città Rohan (modern Ħaż-Żebbuġ )" },
+  gozo_remained_independent_until_cassar: "Removed by the British in 1801",
+  a_turkish_military_cemetery: "Commissioned by Sultan Abdul Aziz and built between 1873 and 1874 for the fallen Ottoman soldiers of the Great Siege of Malta",
+  a_defence_agreement: { definition: "Signed soon after independence, and after being re-negotiated in 1972, expired on 31 March 1979 ( Freedom Day )", what_it_does: "", examples: "the capital Valletta , were inscribed on the UNESCO World Heritage List" },
+  a_referendum_on_joining_the_european_union: "Held on 8 March 2003, with 53.65% in favour",
+  the_highest_point_in_malta: "Ta' Dmejrek , at 253 m (830 ft) , near Dingli",
+  the_average_yearly_temperature: "Around 23 °C (73 °F) during the day and 15.5 °C (59.9 °F) at night",
+  in_march_and_december_average_temperatures: "Around 17 °C (63 °F) during the day and 11 °C (52 °F) at night",
+  sometimes_malta: "Listed in rankings concerning cities [ 137 ] or metropolitan areas",
+  the_overall_area_occupied_by_trees: { definition: "Estimated to be 32 square kilometres (12 sq mi) , which constitutes approximately 1.44% of the total land area of the archipelago", what_it_does: "", examples: "drought resistance" },
+  the_unicameral_parliament: "Made up of the president of Malta and the House of Representatives ( Maltese : Kamra tad-Deputati )",
+  myriam_spiteri_debono: "Elected on 27 March 2024 President of the Republic by members of parliament in an indirect election",
+  a_mayor_and_a_deputy_mayor: "Elected by and from the councillors",
+  councillors: { definition: "Elected every four years through the single transferable vote", what_it_does: "", examples: "the collection of government rents and funds, and answer government-related public inquiries" },
+  it_and_poland: "The only European Union members with near-total bans on the procedure",
+  the_owners_of_air_malta: "The Government of Malta (98 percent) and private investors (2 percent)",
+  km_malta_airlines: "Based at Malta International Airport and operates services to 18 destinations in Europe",
+  the_second_official_language: { definition: "English and hence laws are enacted both in Maltese and English", what_it_does: "", examples: "Mediaset and RAI , reach Malta and remain popular" },
+  the_patron_saints_of_malta: "Saint Paul , Saint Publius , and Saint Agatha",
+  various_catholic_religious_orders: "Present in Malta, including the Jesuits , Franciscans , Dominicans , Carmelites and Little Sisters of the Poor",
+  most_contemporary_maltese_jews: { definition: "Sephardi, however, an Ashkenazi prayer book is used", what_it_does: "", examples: "those near Ħal Far and Ħal Safi" },
+  the_first_hospital_recorded_in_the_country: { definition: "Already functioning by 1372", what_it_does: "", examples: "Alpha Medical (Advanced Care), the Emergency Fire & Rescue Unit (E.F.R.U" },
+  the_atmosphere_of_religious_devotion: "Preceded by several days of celebration and revelry: band marches, fireworks , and late-night parties",
+  the_largest_festa: "Possibly that of the Assumption of Mary , which is celebrated in 8 parishes on 15 August and in 2 other parishes the following Sunday",
+  the_rococo_movement: { definition: "Greatly enhanced by the relocation to Malta of Antoine de Favray , who assumed the position of court painter to Grand Master Pinto in 1744", what_it_does: "", examples: "Edward and Robert Caruana Dingli" },
+  the_malta_philharmonic_orchestra: { definition: "Recognised as Malta's foremost musical institution and is notable for being called to participate in important state events", what_it_does: "", examples: "Karl Schembri and Immanuel Mifsud , widened the tracks further, especially in prose and poetry" },
+  potatoes: { definition: "A staple of the Maltese diet as well", what_it_does: "", examples: "Girgentina and Ġellewża" },
+
 };
 
 // ============================================================
