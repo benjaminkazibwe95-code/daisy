@@ -64672,6 +64672,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 12:38 ===
   the_memory_interactions: { definition: "Differentiable end-to-end, making it possible to optimize them using gradient descent", what_it_does: "", examples: "copying, sorting, and associative recall from examples alone" },
 
+  // === INGESTED 2026-07-06 12:40 ===
+  normally_our_phenomenal_experience: "Dependent upon our sensory modalities and our bodily progress around an environment",
+  horgan: { definition: "A leading proponent of the view that intentionality is grounded in phenomenal consciousness , often called the phenomenal intentionality theory (PIT)", what_it_does: "", examples: "formulating a theory of the supererogatory" },
+
 };
 
 // ============================================================
