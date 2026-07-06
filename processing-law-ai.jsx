@@ -65044,6 +65044,10 @@ const FLAT_DICT = {
   if_the_shortterm_effect: "Then extrapolated to the long term, such extrapolation is inappropriate",
   one_common_use_of_these_terms: "Budget policy in the United States, [ 1 ] although it also occurs in many other statistical disputes",
 
+  // === INGESTED 2026-07-06 14:25 ===
+  one_common_use: "To provide custom error messages in failed assertions",
+  this_idiom_suggests_that_the_assignments: "Part of the return, rather than auxiliary assignments in a block that terminates with the actual return",
+
 };
 
 // ============================================================
