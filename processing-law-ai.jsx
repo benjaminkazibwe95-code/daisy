@@ -63468,6 +63468,14 @@ const FLAT_DICT = {
   the_perception_of_objects: "Also problematic since it cannot appear without Intentionality",
   subjects_who: { definition: "Told to expect words about animals read it as 'seal', but others who were expecting boat-related words read it as 'sail'", what_it_does: "", examples: "with perceptual constancy examples" },
 
+  // === INGESTED 2026-07-06 06:45 ===
+  these_patients_cannot_feel_when_they: "Stepping on a foreign body, like a splinter, or when they are developing a callus from an ill-fitting shoe",
+  this_symptom: "Usually accompanied by a loss of respiratory sinus arrhythmia – the usual change in heart rate seen with normal breathing",
+  the_onset_of_a_diabetic_third_nerve_palsy: { definition: "Usually abrupt, beginning with frontal or pain around the eye and then double vision", what_it_does: "", examples: "carpal tunnel syndrome" },
+  the_following_processes: "Thought to be involved in the development of diabetic neuropathy: Vascular and neural diseases are closely related",
+  neuronal_ischemia: "A well-established characteristic of diabetic neuropathy",
+  the_progression_of_neuropathy: "Dependent on the degree of glycemic control in both Type 1 and Type 2 diabetes",
+
 };
 
 // ============================================================
