@@ -66379,6 +66379,32 @@ const FLAT_DICT = {
   the_other_endosymbiont: { definition: "The first described Margulisbacteria , that lives inside cells used for algal digestion", what_it_does: "", examples: "induction of social behaviors, morphogenesis, and reproductive strategies" },
   the_interior_of_the_sphere: "Filled with contractile fibrous cells and a gelatinous extracellular matrix",
 
+  // === INGESTED 2026-07-06 20:23 ===
+  the_study_of_cephalopods: "A branch of malacology known as teuthology",
+  two_important_extinct_taxa: { definition: "The Ammonoidea (ammonites) and Belemnoidea (belemnites)", what_it_does: "", examples: "iridophores and leucophores that reflect light from the environment" },
+  the_authors_claim_this: "The first evidence that cephalopod dermal tissues may possess the required combination of molecules to respond to light",
+  coloration: "Used in concert with locomotion and texture to send signals to other organisms",
+  the_octopus_thaumoctopus_mimicus: "Known to mimic a number of different venomous organisms it cohabitates with to deter predators",
+  one_hypothesis: "That the ability to change color may have evolved for social, sexual, and signaling functions",
+  color_change: "Widespread in ectotherms including anoles, frogs, mollusks, many fish, insects, and spiders",
+  morphological_change: "The result of a change in the density of pigment containing cells and tends to change over longer periods of time",
+  if_respiration: "Used concurrently with jet propulsion, large losses in speed or oxygen generation can be expected",
+  the_negative_buoyancy: "That some squids, especially those whose habitat depths are rather shallow, have to actively regulate their vertical positions",
+  the_octopuses: "Able to flatten their bodies and put their arms back to appear the same as the flounders as well as move with the same speed and movements",
+  octopuses: "Generally not seen as active swimmers; they are often found scavenging the sea floor instead of swimming long distances through the water",
+  the_stiffness_means_that_there: "No necessary muscle flexing to keep the mantle the same size",
+  collagen_fibers: "Located throughout the other muscle fibers in the mantle",
+  these_collagen_fibers_act_as_elastics_and: { definition: "Sometimes named 'collagen springs'", what_it_does: "", examples: "bipedal walking, crawling, and non-jetting swimming" },
+  nutrients_and_waste_materials: "Exchanged between the gut and the digestive gland through a pair of connections linking the gland to the junction of the stomach and caecum",
+  filtered_nitrogenous_waste: "Produced in the pericardial cavity of the branchial hearts , each of which is connected to a nephridium by a narrow canal",
+  the_incorporation_of_ammonia: { definition: "Important for shell formation in terrestrial molluscs and other non-molluscan lineages", what_it_does: "", examples: "they have a rapid growth rate and short life spans" },
+  internal_fertilization: "Seen only in octopuses",
+  these_eggs: { definition: "Swelled with perivitelline fluid (PVF), a hypertonic fluid that prevents premature hatching", what_it_does: "", examples: "sand, a matrix of corals, or seaweed" },
+  these_shells_at_first: "Conical but later developed into curved nautiloid shapes seen in modern nautilus species",
+  many_of_the_groupings: "In the nervous tissue, suggesting the course they adapted their intelligence",
+  the_internal_phylogeny_of_the_cephalopods: "Difficult to constrain; many molecular techniques have been adopted, but the results produced are conflicting",
+  the_three_subclasses: "Traditional, corresponding to the three orders of cephalopods recognized by Bather",
+
 };
 
 // ============================================================
