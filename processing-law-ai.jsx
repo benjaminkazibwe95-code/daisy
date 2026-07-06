@@ -64211,6 +64211,10 @@ const FLAT_DICT = {
   cortex: "'the outer layer'—a reference to the adrenal cortex, the part of the adrenal gland where cortisol is produced",
   the_metabolism_of_cortisol_to_cortisone: "Oxidation of the hydroxyl group at the 11-beta position",
 
+  // === INGESTED 2026-07-06 10:47 ===
+  david_sackett: { definition: "The organisation's first chair", what_it_does: "", examples: "sessions of the World Health Assembly , and make statements on WHO resolutions" },
+  cochrane: "Patients and the public via community curation , to produce systematic reviews and other outputs",
+
 };
 
 // ============================================================
