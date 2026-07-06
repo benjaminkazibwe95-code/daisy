@@ -63835,6 +63835,15 @@ const FLAT_DICT = {
   whether_market_timing: { definition: "Ever a viable investment strategy is controversial", what_it_does: "", examples: "an apparent bubble" },
   thus_if_market_timing: "Not a viable investment strategy, the proponents say, then neither is any of the trading on the various stock exchanges",
 
+  // === INGESTED 2026-07-06 09:04 ===
+  a_company_with_many_shareholders: "Not necessarily a publicly traded company",
+  the_profit_on_stock: "Gained in form of dividends or capital gains to the holders",
+  the_initial_shareholders_of_the_company: { definition: "Able to share risk by selling shares to the public", what_it_does: "", examples: "the founder of Facebook , Mark Zuckerberg , owned 29" },
+  various_other_annual_and_quarterly_reports: "Also required by law",
+  the_requirement_for_audited_books: "Not imposed by the exchange known as OTC Pink",
+  when_the_compensation: "Primarily shares then the deal is often considered a merger",
+  firms_that: { definition: "Sold in this manner are called spin-offs", what_it_does: "", examples: "prevailing market conditions, liquidity, investor sentiment, differing valuation methods, and more" },
+
 };
 
 // ============================================================
