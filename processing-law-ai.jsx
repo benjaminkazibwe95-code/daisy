@@ -65608,6 +65608,15 @@ const FLAT_DICT = {
   a_picosecond: { definition: "To one second, as one second is to approximately 31,688.76 years", what_it_does: "", examples: "the streak camera or intensified CCD (ICCD) cameras are able to picture the motion of light" },
   because_the_next_si_unit: "1000 times larger, measurements of 10 −11 and 10 −10 second are typically expressed as tens or hundreds of picoseconds",
 
+  // === INGESTED 2026-07-06 16:41 ===
+  an_optical_modulator_is_a_device_which: "Used to modulate a beam of light",
+  this_sort_of_modulation: "Called direct modulation , as opposed to the external modulation performed by a light modulator",
+  with_laser_diodes_where_narrow_linewidth: "Required, direct modulation is avoided due to a high bandwidth 'chirping' effect when applying and removing the current to the laser",
+  optical_modulators: "Used with superconductors which work properly only at low temperatures, generally just above absolute zero",
+  the_refractive_modulators: "Named by the respective effect: i.e",
+  separate_case_of_modulators: "Spatial light modulators (SLMs)",
+  the_role_of_slm: "Modification two dimensional distribution of amplitude and/or phase of an optical wave",
+
 };
 
 // ============================================================
