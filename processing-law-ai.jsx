@@ -66033,6 +66033,9 @@ const FLAT_DICT = {
   those_ten: { definition: "Also precisely the only institutions in the entire history of the NAS to have had 100 or more members overall", what_it_does: "", examples: "the medical school (where it applies)" },
   the_national_academy_of_sciences_building: "Located at 2101 Constitution Avenue , in northwest Washington, D.C",
 
+  // === INGESTED 2026-07-06 18:05 ===
+  quantum: "An arXiv overlay journal , meaning the journal's content is hosted on the arXiv",
+
 };
 
 // ============================================================
