@@ -66308,6 +66308,14 @@ const FLAT_DICT = {
   the_solitary_tract: "Made up of primary sensory fibers and descending fibers of the vagus , glossopharyngeal , and facial nerves",
   the_efferent_fibers: "Distributed to the solitary tract nucleus",
 
+  // === INGESTED 2026-07-06 19:53 ===
+  whilst_the_vmgn: "Specific to auditory information processing, the DMGN and MMGN also receive information from non-auditory pathways",
+  the_monaural_cells: "Primarily responsive to sound in the contralateral hemifield",
+  binaural_cells: "Typically similar to the EE or EI type found in the IC",
+  many_types_of_responses: "Present in the DMGB that appear to vary by sub-nuclei",
+  other_cells: "Multi modal, often responding to somatosensory as well as auditory stimuli",
+  it_is_not_clear_whether_there_truly: "One, none, or many tonotopic organizations maps present in the MMGN",
+
 };
 
 // ============================================================
