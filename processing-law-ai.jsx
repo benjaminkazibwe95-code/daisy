@@ -65617,6 +65617,16 @@ const FLAT_DICT = {
   separate_case_of_modulators: "Spatial light modulators (SLMs)",
   the_role_of_slm: "Modification two dimensional distribution of amplitude and/or phase of an optical wave",
 
+  // === INGESTED 2026-07-06 16:43 ===
+  the_correlation_between_nuclei: "Achieved by incrementally varying the evolution time (t 1 ) to capture indirect interactions",
+  the_resulting_signal: "Recorded continuously during a detection period ( t 2 ) after the second RF pulse",
+  the_key_feature_of_a_cosy_spectrum: { definition: "The presence of cross-peaks as shown in Figure 1, indicating coupling between pairs of nuclei", what_it_does: "", examples: "13 C and 1 H" },
+  another_related_cosy_technique: "Double quantum filtered (DQF) COSY",
+  tocsy: "Sometimes called 'homonuclear Hartmann–Hahn spectroscopy' (HOHAHA)",
+  often_the_two_nuclei: { definition: "Protons and another nucleus (called a 'heteronucleus')", what_it_does: "", examples: "HSQC, HMQC, and HMBC are actually much more common today" },
+  the_hsqc_experiment: "A series of steps to generate a two-dimensional NMR spectrum",
+  the_magnetization_then_evolves_and_then: "Transferred back to the I nucleus for observation",
+
 };
 
 // ============================================================
