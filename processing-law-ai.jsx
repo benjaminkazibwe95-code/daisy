@@ -66002,6 +66002,30 @@ const FLAT_DICT = {
   this_intermediatescale: "Defined by the quantum volume , which is based on a moderate number of qubits and gate fidelity",
   the_nisq_era: { definition: "The current state of quantum computer technology, [ 3 ] [ 4 ] [ 5 ] and the term was coined by John Preskill in 2018", what_it_does: "", examples: "physics, materials science, data science, cryptography, biology, and finance" },
 
+  // === INGESTED 2026-07-06 18:01 ===
+  the_most_notorious: "The magnetic monopole, a kind of stable, heavy 'charge' of magnetic field",
+  each_of_the_motivations_for_inflation: "Issues related to the initial conditions for the expansion of the universe",
+  the_inflation_hypothesis: "That in this very early time space expands exponentially by many orders of magnitude",
+  in_the_approximation_that_the_expansion: "Exactly exponential, the horizon is static and remains a fixed physical distance away",
+  one_interpretation_of_the_nohair_theorem: "That the Universe (observable and unobservable) expands by an enormous factor during inflation",
+  reheating: "The process of converting this energy density into a thermal bath of Standard Model particles, necessary to initiate the Hot Big Bang",
+  the_energy_density_of_this_state: "Dominated by radiation gas, so prior to the end of reheating, the massive inflaton particles must have completely decayed",
+  as_the_very_early_universe_cooled_it: "Trapped in a metastable state (it was supercooled), which it could only decay out of through the process of bubble nucleation via quantum tunneling",
+  guth_recognized_that_this_model: "Problematic because the model did not reheat properly: when the bubbles nucleated, they did not generate radiation",
+  in_any_one_causal_patch_it: { definition: "Likely that only one bubble would nucleate", what_it_does: "", examples: "vortices in liquid helium" },
+  topological_defects_in_cosmology: "Consequences degenerate vacuum states of the universe, called the vacuum manifold , after a symmetry-breaking phase transition",
+  magnetic_monopoles: "One example of a stable topological defect predicted by grand unified theories of the early universe",
+  the_simplest_inflation_models_predict_that_n_s: "Between 0.92 and 0.98",
+  some_have_claimed_that_this: "A signature of non-Gaussianity and thus contradicts the simplest models of inflation",
+  others_believe_that_there: "No resolution to the paradox and that the multiverse is a critical flaw in the inflationary paradigm",
+  don_page: "An outspoken critic of inflation because of this anomaly",
+  it_appears_that_special_conditions: "Necessary since inflation occurs in tunneling between two vacua in the string landscape",
+  the_process_of_tunneling_between_two_vacua: "A form of old inflation, but new inflation must then occur by some other mechanism",
+  if_the_energy_density: "Larger than can be held by the quantized spacetime, it is thought to bounce back",
+  the_flatness_and_horizon_problems: "Naturally solved in the Einstein–Cartan –Sciama–Kibble theory of gravity, without needing an exotic form of matter or free parameters",
+  the_ekpyrotic_and_cyclic_models: "Also considered adjuncts to inflation",
+  each_string: "A one-dimensional object, and the largest number of dimensions in which two strings will generically intersect (and, presumably, annihilate) is three",
+
 };
 
 // ============================================================
