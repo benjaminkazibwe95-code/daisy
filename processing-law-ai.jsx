@@ -67192,6 +67192,9 @@ const FLAT_DICT = {
   dimensions_on_engineering_drawings: "Created , instead of shown",
   skillfully_created_parametric_models: { definition: "Easier to maintain and modify", what_it_does: "", examples: "its center of gravity, volume, and mass, can be quickly calculated" },
 
+  // === INGESTED 2026-07-06 23:55 ===
+  when_degrees_of_freedom: "Used instead of dimension , this usually means that the manifold or variety that models the system is only implicitly defined",
+
 };
 
 // ============================================================
