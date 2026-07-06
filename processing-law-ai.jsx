@@ -63479,6 +63479,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 06:47 ===
   the_human_brain_anatomical_regions: "Ordered following standard neuroanatomy hierarchies",
 
+  // === INGESTED 2026-07-06 06:50 ===
+  the_mesozoa: "Minuscule, worm -like parasites of marine invertebrates",
+  their_ciliated_larvae: "Similar to the miracidium of trematodes , and their internal multiplication is similar to what happens in the sporocysts of trematodes",
+  other_groups_sometimes_included_in_the_mesozoa: "The Placozoa and the Monoblastozoa",
+  molecular_evidence_suggests_that_this_phylum: { definition: "Derived from the Lophotrochozoa", what_it_does: "", examples: "tissue spaces, gonads, genitorespiratory bursae" },
+  the_syncytia: "Dioecious (either male or female), but young syncytia can fuse to produce both male and female",
+  the_males: "Ciliated and smaller than the females",
+
 };
 
 // ============================================================
