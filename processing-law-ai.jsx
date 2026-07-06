@@ -64641,6 +64641,18 @@ const FLAT_DICT = {
   it_seems_likely_that_he: { definition: "The 'John Daye, yeoman' who killed fellow dramatist Henry Porter in Southwark 1599", what_it_does: "", examples: "Henry Chettle, who had written with Porter" },
   this_play: { definition: "A dramatic romance of a type that hearkened back to the early decades of the public stage in London", what_it_does: "", examples: "John Marston , who like Day wrote for the children's companies" },
 
+  // === INGESTED 2026-07-06 12:25 ===
+  duns: "A town in the Scottish Borders , Scotland",
+  the_scots_troops: "Heavily defeated at the Battle of Halidon Hill",
+  the_disarrayed_english_force: "Routed by the townsmen",
+  the_memorial: "Gifted by the twin town of Żagań in Poland and was unveiled in 2016",
+  local_news_and_television_programmes: "Provided by BBC Scotland and ITV Border",
+  television_signals: "Received from the Selkirk transmitter and a local relay transmitter situated in Eyemouth",
+  local_radio_stations: "BBC Radio Scotland on 94.1 FM, BBC Radio Newcastle can also be heard on 96.0, and Greatest Hits Radio Scottish Borders and North Northumberland on 103",
+  the_border_telegraph_and_southern_reporter: "The town's local newspapers",
+  the_goal_for_the_married_men: "The pulpit of the church; if a goal was scored then the church bell would rung by the victors",
+  the_goal_of_the_bachelors: "The hopper of any of the grinding mills in the district, the nearest being over a mile (1500 m) away",
+
 };
 
 // ============================================================
