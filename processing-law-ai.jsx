@@ -66329,6 +66329,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 20:03 ===
   the_pprf: "Situated in the pons just [ 3 ] ventralmedial to the abducens nucleus",
 
+  // === INGESTED 2026-07-06 20:06 ===
+  this_waste: "Passed out of the organism at the nephridiopore",
+  the_saccate_metanephridia: { definition: "Excretory glands which function similarly to the metanephridia", what_it_does: "", examples: "proteins and carbohydrates ) before the fluid even enters the funnel" },
+  the_perforations_in_the_terminal_cell: "Large enough for small molecules to pass, but larger proteins are retained within the animal",
+  protonephridia: "Generally found in basal organisms such as flatworms",
+
 };
 
 // ============================================================
