@@ -63999,6 +63999,37 @@ const FLAT_DICT = {
   the_support_of_the_public: "Necessary for a successful political career in Rome",
   the_study_of_philosophy: "Distinctly Greek, but was undertaken by many Roman students",
 
+  // === INGESTED 2026-07-06 09:53 ===
+  a_student: { definition: "A person enrolled in a school or other educational institution , or more generally, a person who takes a special interest in a subject", what_it_does: "", examples: "college or university ); those in primary or elementary schools are 'pupils'" },
+  those_in_primary_school: "Often referred to as pupils",
+  colleges: "More for teaching students how to become teachers, while polytechnics teach students about engineering , industrialization and economics",
+  international_schools: "Subject to overseas curriculums, such as the British, American, Canadian or Australian Boards",
+  primary_education: { definition: "Compulsory in Bangladesh for children aged six to ten years through a short five year primary cycle defined as basic education, (grades 1- 5)", what_it_does: "", examples: "bachelor's degree" },
+  once_the_transition: "Complete, elementary or grade school comprises grades 1 to 6",
+  the_department_of_education: "Learners in grade 7 and above as students",
+  high_school_study: "Divided into two part: junior and senior high school",
+  years_one_to_eight: "Primary School, where children commonly attend local schools in the area for that specific year group",
+  first_level_of_education: "'esikoulu' (literally 'preschool'), which used to be optional, but has been compulsory since the beginning of year 2015",
+  peruskoulu: "Divided to 'alakoulu' (years 1 through 6) and 'yläkoulu' (years 7 through 9)",
+  secondyear_students: "Sometimes called 'carrés' (squares)",
+  the_general_term_for_a_person_going_to_school: "Schüler or Schülerin",
+  students_attending_this_school: "Called Gymnasiasten , while those attending other schools are called Hauptschüler or Realschüler",
+  students_who_graduate_with_the_abitur: "Called Abiturienten",
+  sophister: "Another term for a sophomore , though the term is rarely used in other institutions and is largely limited to Trinity College Dublin",
+  the_week_at_the_start_of_a_new_year: "Called ' Freshers' Week ' or 'Welcome Week', with a programme of special events to welcome new students",
+  second_years: { definition: "Called 'semi-bejants', third years are known as 'tertians', and fourth years, or others in their final year of study, are called 'magistrands'", what_it_does: "", examples: "'shells' (non-derogatory) or 'grubs' (derogatory)" },
+  the_overall_school_curricula: "Overseen by the provincial and territorial governments, therefore the way educational stages are grouped and named can differ",
+  primary_and_secondary_education: "Generally divided into annual grades from 1 to 12, although grade 1 may be preceded by one or two years of kindergarten (which may be optional)",
+  the_oac: { definition: "Informally known as 'grade 13' (which it had replaced)", what_it_does: "", examples: "grade 10, grade 11 and grade 12" },
+  kindergarten: "Optional in most states, but few students skip this level",
+  prek_programs: "More about kindergarten readiness",
+  they_are_called_super_seniors_if_they: "Doing more than the traditional four years",
+  a_freshman: "A first-year student in college , university or high school",
+  it_can_mean_that_a_student: "Taking their senior year for a second time",
+  the_term_middler: "Used to describe a third-year student of a school (generally college ) that offers five years of study",
+  a_graduate_student: { definition: "A student who continues their education after graduation", what_it_does: "", examples: "the theft of traffic cones and other public property, [ 59 ] or hoaxes" },
+  a_junior_senator_is_therefore_not_one_who: "In a third term of office, but merely one who has not been in the Senate as long as the other senator from their state",
+
 };
 
 // ============================================================
