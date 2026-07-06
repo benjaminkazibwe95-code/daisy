@@ -63661,6 +63661,16 @@ const FLAT_DICT = {
   dutch_escience_research: "Coordinated by the Netherlands eScience Center in Amsterdam, an initiative founded by NWO and SURF",
   the_scientific_method_later: "Divided into two major branches, deductive and empirical approaches",
 
+  // === INGESTED 2026-07-06 07:49 ===
+  skydrive: { definition: "Updated to 'Wave 4' release on June 7, 2010, and added the ability to work with Office Web Apps (now known as Office Online ), with versioning", what_it_does: "", examples: "Windows Live Photos and Windows Live Office , into one single interface" },
+  as_soon_as_the_content_of_the_file: { definition: "Required, the file is downloaded in the background", what_it_does: "", examples: "Microsoft Office, LibreOffice , Apache OpenOffice and Corel's WordPerfect" },
+  the_onedrive_app: { definition: "Also updated to include a local file manager", what_it_does: "", examples: "the older FAT32 and exFAT , as well as the newer ReFS were not supported" },
+  microsoft_further_commented_that_this: { definition: "Always the requirement; it had merely fixed a bug in which the warning was not displayed", what_it_does: "", examples: "the OneNote application crashing and loss of notebook data under certain conditions" },
+  personal_vault: { definition: "Not available in macOS app", what_it_does: "", examples: "Data stored on OneDrive is subject to monitoring through technologies like PhotoDNA" },
+  closing_an_account_without_prenotice: { definition: "In most cases illegal in many jurisdictions, like in Germany", what_it_does: "", examples: "partial human nudity (including art or drawings), or any online surveys" },
+  while_onedrive: "A personal storage service on the web, OneDrive for Business is a managed cloud storage for business users that replaces SharePoint Workspace",
+  the_physical_medium_on_which_the_information: "Stored can be either hosted on-premises or purchased as service subscription from Microsoft",
+
 };
 
 // ============================================================
