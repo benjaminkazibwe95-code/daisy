@@ -64637,6 +64637,10 @@ const FLAT_DICT = {
   the_size_of_lead_required: "21, 17, or 13 depending on whether the stoppage is in the first, second, or third quarter respectively",
   if_neither_team: "Leading by that much and they are not scheduled to play again in the season, the game is declared a tie",
 
+  // === INGESTED 2026-07-06 12:23 ===
+  it_seems_likely_that_he: { definition: "The 'John Daye, yeoman' who killed fellow dramatist Henry Porter in Southwark 1599", what_it_does: "", examples: "Henry Chettle, who had written with Porter" },
+  this_play: { definition: "A dramatic romance of a type that hearkened back to the early decades of the public stage in London", what_it_does: "", examples: "John Marston , who like Day wrote for the children's companies" },
+
 };
 
 // ============================================================
