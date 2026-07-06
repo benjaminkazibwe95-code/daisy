@@ -65301,6 +65301,24 @@ const FLAT_DICT = {
   efficiency_factors: "Used in performance rating and remuneration calculation exercises",
   the_efficiency_factor: "An extremely simple to use and readily comprehensible index, the prerequisite being exact time management for maintaining the allowed times",
 
+  // === INGESTED 2026-07-06 15:27 ===
+  a_textbook: "A book containing a comprehensive compilation of content in a branch of study serving to explain the subject",
+  schoolbooks: { definition: "Textbooks and other books used in schools", what_it_does: "", examples: "Ancient Greeks wrote educational texts" },
+  early_textbooks: "Used by tutors and teachers (e.g",
+  online_and_digital_materials: "Making it increasingly easy for students to access materials other than the traditional print textbook",
+  an_example_of_an_ebook: "Principles of Biology from Nature Publishing",
+  books_that_are_not_being_reused_at_the_school: "Often purchased by an off-campus wholesaler for 0–30% of the new cost, for distribution to other bookstores",
+  stock_has_stated_that_new_editions: "Often not about significant improvements to the content",
+  once_a_textbook: "Purchased from a retailer for the first time, there are several ways a student can sell his/her textbooks back at the end of the semester or later",
+  because_online_book_buyers: "Buying books for resale, the prices they offer may be lower than students can get on online marketplaces",
+  writing_and_highlighting: { definition: "Sometimes allowed in rented items, although excessive markup which makes the item unrentable is discouraged", what_it_does: "", examples: "access codes, CDs, or loose-leafs" },
+  school_districts_may_select_a_title_as: "Or customize the open textbook to meet local instructional standards",
+  the_store_and_publisher_amounts: "Slightly higher for Canada",
+  teachers: "Usually not required to use textbooks, however, and many prefer to use other materials instead",
+  commonly_used_american_history_textbooks: { definition: "Customized for students in California and Texas", what_it_does: "", examples: "Howard Zinn ( A People's History of the United States ), Gilbert T" },
+  the_content_of_history_textbooks: { definition: "Often determined by the political forces of state adoption boards and ideological pressure groups", what_it_does: "", examples: "textbook rental services and library reserve copies of texts, are available in some instances" },
+  textbook_prices: "Considerably higher in law school",
+
 };
 
 // ============================================================
