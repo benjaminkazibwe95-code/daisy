@@ -64701,6 +64701,22 @@ const FLAT_DICT = {
   the_left_frontal_lobe: { definition: "Dominant for language", what_it_does: "", examples: "the basal ganglia in happiness, the subcallosal cingulate cortex in sadness, and amygdala in fear" },
   electrophysiology: "Used to measure, record and monitor the electrical activity of the cortex",
 
+  // === INGESTED 2026-07-06 12:45 ===
+  the_logistic_distribution: "A location–scale family , which corresponds to parameters of the logistic function",
+  note_that_the_reciprocal_logistic_function: "Solution to a simple first-order linear ordinary differential equation",
+  the_logistic_equation: "A special case of the Bernoulli differential equation and has the following solution: f ( x ) = e x e x + C",
+  the_differential_equation_derived_above: "A special case of a general differential equation that only models the sigmoid function for x > 0 {\displaystyle x>0}",
+  the_two_alternatives: "Coded as 1 and 0, corresponding to the limiting values as x → ± ∞ {\displaystyle x\to \pm \infty }",
+  often_one_of_the_options: "Used as a reference ('pivot'), and its value fixed as 0 , so the other logits are interpreted as odds versus this reference",
+  this_antagonistic_effect: "Called the bottleneck , and is modeled by the value of the parameter K {\displaystyle K}",
+  logistic_functions: "Often used in artificial neural networks to introduce nonlinearity in the model or to clamp signals to within a specified interval",
+  another_application_of_the_logistic_function: "In the Rasch model , used in item response theory",
+  another_application_of_logistic_curve: "In medicine, where the logistic differential equation can be used to model the growth of tumors",
+  if_the_average_therapyinduced_death_rate: "Greater than the baseline proliferation rate, then there is the eradication of the disease",
+  logistic_analysis: "Used in papers by several researchers at the International Institute of Applied Systems Analysis ( IIASA )",
+  long_economic_cycles: "Investigated by Robert Ayres (1989)",
+  a_method_to_mitigate_this_uncertainty: "Using the carrying capacity from a surrogate logistic growth process as a reference point",
+
 };
 
 // ============================================================
