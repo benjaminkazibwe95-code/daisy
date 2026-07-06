@@ -64142,6 +64142,22 @@ const FLAT_DICT = {
   a_number_of_grasses: "Invasive species that damage natural ecosystems, including forms of Phragmites australis which are native to Eurasia but has spread around the world",
   the_primary_ingredient_of_beer: { definition: "Usually barley or wheat, each of which has been used for this purpose for over 4,000 years", what_it_does: "", examples: "A folk myth about grass is that it refuses to grow where any violent death has occurred" },
 
+  // === INGESTED 2026-07-06 10:28 ===
+  soluble_fiber: { definition: "Generally viscous and delays gastric emptying which in humans can result in an extended feeling of fullness", what_it_does: "", examples: "beta-glucans from oats or barley has been established to lower blood levels of LDL cholesterol" },
+  inulin: "Typically extracted by manufacturers from enriched plant sources such as chicory roots or Jerusalem artichokes for use in prepared foods",
+  many_molecules_that: "Considered to be 'dietary fiber' are so because humans lack the necessary enzymes to split the glycosidic bond and they reach the large intestine",
+  most_bulking_fibers_are_not_fermented_or: "Minimally fermented throughout the intestinal tract",
+  their_use_in_food_formulations: { definition: "Often limited to low levels, due to their viscosity and thickening effects", what_it_does: "", examples: "methylcellulose and psyllium )" },
+  isolated_or_purified_fermentable_fibers: "More rapidly fermented in the fore-gut and may result in undesirable gastrointestinal symptoms ( bloating , indigestion and flatulence)",
+  human_pancreatic_enzyme_activity: "Reduced when incubated with most fiber sources",
+  the_effects_of_dietary_fiber_in_the_colon: "On Enlargement of the cecum is a common finding when some dietary fibers are fed and this is now believed to be normal physiological adjustment",
+  all_of_the_shortchain_fatty_acids: "Readily absorbed by the colonic mucosa, but only acetic acid reaches the systemic circulation in appreciable amounts",
+  the_fibers_that: { definition: "Most effective in influencing sterol metabolism (e.g", what_it_does: "", examples: "a 4-year-old should consume 9 g/day)" },
+  such_components: "Likely to have physiological effects",
+  both_insoluble_and_soluble_sources: "In those plant components",
+  a_food_resistant_to_this_process: { definition: "Undigested, as insoluble and soluble fibers are", what_it_does: "", examples: "blood glucose and lipid levels, the colonic environment, and intestinal immune functions" },
+  the_fda_has_concluded_that_there: "Limited scientific evidence for this claim",
+
 };
 
 // ============================================================
