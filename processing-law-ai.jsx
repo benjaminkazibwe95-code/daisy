@@ -63722,6 +63722,10 @@ const FLAT_DICT = {
   the_regulation: "Found under Title 17 of the Code of Federal Regulations , part 230, Sections 501 through 508",
   general_offering_and_solicitations: "Permitted under Rule 504 as long as they are restricted to accredited investors",
 
+  // === INGESTED 2026-07-06 08:25 ===
+  fordism: "A 'manufacturing system designed to produce standardized, low-cost goods and afford its workers decent enough wages to buy them",
+  his_assembly_line: "Revolutionary though not original as it had previously been used at slaughterhouses",
+
 };
 
 // ============================================================
