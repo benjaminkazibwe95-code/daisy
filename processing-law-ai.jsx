@@ -66664,6 +66664,19 @@ const FLAT_DICT = {
   the_team_demonstrated_that_it: "Possible to modify this data to trick the terminal into believing that no PIN is required because the cardholder was verified using their device (e.g",
   many_smaller_businesses: { definition: "Initially reluctant to upgrade their equipment, as it required a completely new PoS system—a significant investment", what_it_does: "", examples: "American Express, Bank of America, Citibank, Wells Fargo , [ 84 ] JPMorgan Chase, U.S" },
 
+  // === INGESTED 2026-07-06 21:27 ===
+  windows_ce: { definition: "A modular/componentized operating system that serves as the foundation of several classes of devices", what_it_does: "", examples: "Excel Mobile (formerly Pocket Excel) are not part of this kit" },
+  a_contextual_menu: "Also available by the user pressing the ALT key and tapping on the screen",
+  the_start_menu: "A cascading menu, identical to those found on Windows 95 and Windows NT 4.0",
+  color_screens: "Also supported and manufacturers raced to release the first color H/PC",
+  the_first_to_market: "Hewlett Packard with the HP 620LX",
+  a_mobile_device: "Not necessary to develop a CE program",
+  windows_ce_apps: "Designed and coded in the Lazarus integrated development environment (IDE) and compiled with an appropriate cross compiler",
+  windows_mobile: "Best described as a subset of platforms based on a Windows CE underpinning",
+  the_rules_for_manufacturing_a_pocket_pc_device: "Stricter than those for producing a custom Windows CE-based platform",
+  the_defining_characteristics_of_the_pocket_pc: "The touchscreen as the primary human interface device and its extremely portable size",
+  pocket_pc: { definition: "Based on Windows CE, but it's a different offering.' And licensees of Pocket PC are forbidden to modify the WinCE part", what_it_does: "", examples: "email, and multimedia abilities for consumers" },
+
 };
 
 // ============================================================
