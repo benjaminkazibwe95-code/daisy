@@ -65180,6 +65180,19 @@ const FLAT_DICT = {
   another_theory: "That Robin Hood died at Kirkby, Pontefract",
   robin_hood_hill: "Near Outwood, West Yorkshire , not far from Lofthouse",
 
+  // === INGESTED 2026-07-06 14:55 ===
+  variables_in_rust: "Defined through the let keyword",
+  the_code_within_the_curly_braces: "Applied to each element returned by the iterator",
+  the_default_integer_type: "I32 , and the default floating point type is f64",
+  if_the_type_of_a_literal_number: { definition: "Not explicitly provided, it is either inferred from the context or the default type is used", what_it_does: "", examples: "when building for 32-bit targets , both types will take up 32 bits of space" },
+  the_struct_keyword: { definition: "Used to denote a record type that groups multiple related values", what_it_does: "", examples: "core data structures such as Vec , Option , and HashMap , as well as smart pointer types" },
+  both_option_and_result: "Used throughout the standard library and are a fundamental part of Rust's explicit approach to handling errors and missing data",
+  memory_and_other_resources: { definition: "Instead managed through the 'resource acquisition is initialization' convention, [ 107 ] with optional reference counting", what_it_does: "", examples: "in the implementation of data structures" },
+  procedural_macros: { definition: "Rust functions that run and modify the compiler's input token stream, before any other components are compiled", what_it_does: "", examples: "bindgen and cxx can generate Rust bindings for C/C++" },
+  component_installation: "Typically managed by rustup , a Rust toolchain installer developed by the Rust project",
+  the_compiler_backend: { definition: "Then invoked as a subcomponent to apply optimizations and translate the resulting IR into object code", what_it_does: "", examples: "GCC and Cranelift" },
+  editions: { definition: "Released to allow making limited breaking changes , such as promoting await to a keyword to support async/await features", what_it_does: "", examples: "autocomplete , and compilation error display, while editing code" },
+
 };
 
 // ============================================================
