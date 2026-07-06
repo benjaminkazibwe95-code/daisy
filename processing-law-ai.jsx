@@ -63443,6 +63443,31 @@ const FLAT_DICT = {
   james_holds_that_the_route: "Seen as a fertility pilgrimage, undertaken when a young couple desired to bear offspring",
   the_scallop_shell: "Believed to have originally been carried by pagans as a symbol of fertility",
 
+  // === INGESTED 2026-07-06 06:39 ===
+  human_and_other_animal_brains: "Structured in a modular way , with different areas processing different kinds of sensory information",
+  these_different_modules: { definition: "Interconnected and influence each other", what_it_does: "", examples: "warmth, sound, and taste) are called sensory modalities or stimulus modalities" },
+  a_retinal_ganglion_cell: "A bridging neuron that connects visual retinal input to the visual processing centers within the central nervous system",
+  a_perceptual_visual_event_measured_in_humans: "The presentation to individuals of an anomalous word",
+  frequencies_capable_of_being_heard_by_humans: "Called audio or audible frequencies , the range of which is typically considered to be between 20 Hz and 20,000 Hz",
+  the_initial_auditory_signal: "Compared with visual information—primarily lip movement—to extract acoustic cues and phonetic information",
+  it_is_possible_other_sensory_modalities: { definition: "Integrated at this stage as well", what_it_does: "", examples: "word recognition" },
+  speech_perception: { definition: "Not necessarily uni-directional", what_it_does: "", examples: "perceiving the identity of an individual) and facial expressions (such as emotional cues" },
+  such_information: { definition: "Actually coded differently than other sensory information", what_it_does: "", examples: "feeling like a machine or like an outside source is controlling them" },
+  experimenters: { definition: "Able to arrange for subjects to perceive certain 'forced stops' as if they were their own choice", what_it_does: "", examples: "in cases of deja vu" },
+  firing_rates_in_the_perirhinal_cortex: { definition: "Connected with the sense of familiarity in humans and other mammals", what_it_does: "", examples: "gravity ; position of body parts (proprioception sense [ 1 ] )" },
+  the_confusing_ambiguity_of_perception: { definition: "Exploited in human technologies such as camouflage and biological mimicry", what_it_does: "", examples: "testing how much darker a computer screen can get before the viewer actually notices)" },
+  a_sensory_system: "A part of the nervous system responsible for processing sensory information",
+  it_has_been_suggested_that_the_immune_system: "An overlooked sensory modality",
+  the_receptive_field: "The specific part of the world to which a receptor organ and receptor cells respond",
+  maintaining_desired_physiological_states: "Critical for an organism's well-being and survival",
+  if_one_object: { definition: "Extreme on some dimension, then neighboring objects are perceived as further away from that extreme", what_it_does: "", examples: "how heavy an object feels" },
+  the_perceptual_ecology_approach: "Introduced by professor James J",
+  glasersfeld: { definition: "It as extremely unlikely that what is desired or feared by an organism will never suffer change as time goes on", what_it_does: "", examples: "Jerry Fodor , write that the purpose of perception is knowledge" },
+  building_and_maintaining_sense_organs: "Metabolically expensive",
+  more_than_half_the_brain: { definition: "Devoted to processing sensory information, and the brain itself consumes roughly one-fourth of one's metabolic resources", what_it_does: "", examples: "pressure, heat, cold, tickle, and pain" },
+  the_perception_of_objects: "Also problematic since it cannot appear without Intentionality",
+  subjects_who: { definition: "Told to expect words about animals read it as 'seal', but others who were expecting boat-related words read it as 'sail'", what_it_does: "", examples: "with perceptual constancy examples" },
+
 };
 
 // ============================================================
