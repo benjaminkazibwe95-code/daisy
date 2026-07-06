@@ -64030,6 +64030,9 @@ const FLAT_DICT = {
   a_graduate_student: { definition: "A student who continues their education after graduation", what_it_does: "", examples: "the theft of traffic cones and other public property, [ 59 ] or hoaxes" },
   a_junior_senator_is_therefore_not_one_who: "In a third term of office, but merely one who has not been in the Senate as long as the other senator from their state",
 
+  // === INGESTED 2026-07-06 09:55 ===
+  schoolnet_namibia: "A non-profit provider of Internet service, hardware and training to Namibia 's schools",
+
 };
 
 // ============================================================
