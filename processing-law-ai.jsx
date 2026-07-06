@@ -65265,6 +65265,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 15:17 ===
   a_point_x_in_x_is_called_these_concepts: "Motivated by considering each point in A as representing the location of an agent, and the points x and y are potential locations for a facility",
 
+  // === INGESTED 2026-07-06 15:19 ===
+  energy_converter: { definition: "An example of an energy transformation", what_it_does: "", examples: "a light bulb falls into the categories energy converter" },
+  the_electrical_energy_input_of_this_cell: { definition: "1.20 times greater than the theoretical minimum so the energy efficiency is 0.83 compared to the ideal cell", what_it_does: "", examples: "lighting and lasers , the energy conversion efficiency is often referred to as wall-plug efficiency" },
+  the_wallplug_efficiency: "The measure of output radiative-energy, in watts ( joules per second), per total input electrical energy in watts",
+  the_luminous_efficiency_of_a_light_source: "Thus the percentage of luminous efficacy per theoretical maximum efficacy at a specific wavelength",
+  because_the_lamp: "Monochromatic, the luminous efficiency nearly matches the wall-plug efficiency of < 40%",
+  the_luminous_efficacy: "Therefore typically around 50 lm/w",
+  krypton_flashtubes: "Often chosen for pumping Nd:YAG lasers , even though their wall-plug efficiency is typically only ~ 40%",
+  luminaire_efficiency: "The total lumen-output from the fixture per the lamp output",
+
 };
 
 // ============================================================
