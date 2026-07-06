@@ -65479,6 +65479,13 @@ const FLAT_DICT = {
   the_discrete_logarithm: "The integer n solving the equation b n = x , {\displaystyle b^{n}=x,} where x is an element of the group",
   logarithmic_functions: "The only continuous isomorphisms between these groups",
 
+  // === INGESTED 2026-07-06 16:12 ===
+  an_important_application_of_this_reaction: "The production of tetrafluoroethylene (TFE), precursor to Teflon",
+  chloroform: "Fluorinated by HF to produce chlorodifluoromethane (R-22): [ 17 ] Pyrolysis of chlorodifluoromethane at 550–750 °C yields TFE",
+  several_kilograms_of_hf: "Consumed per ton of aluminium produced",
+  other_metal_fluorides: "Produced using HF, including uranium tetrafluoride",
+  the_potassium_bifluoride: "Needed because anhydrous HF does not conduct electricity",
+
 };
 
 // ============================================================
