@@ -64433,6 +64433,23 @@ const FLAT_DICT = {
   newer_methods: { definition: "All based on systematic analysis rather than relying on tradition and rule of thumb", what_it_does: "", examples: "the management of schools, universities and government" },
   one_approach_to_efficiency_in_information_work: "Called digital Taylorism , which uses software to monitor the performance of employees who work on computers",
 
+  // === INGESTED 2026-07-06 11:40 ===
+  prospective_memory_is_a_form_of_memory_that: "Remembering to perform a planned action or recall a planned intention at some future point in time",
+  retrospective_memory: { definition: "The memory of what we know, containing informational content; prospective memory focuses on when to act, rather than focusing on informational content", what_it_does: "", examples: "driving past the local library cues the remembrance of the need to return an overdue book" },
+  timebased_prospective_memory: { definition: "Remembering to perform an action at a particular point in time", what_it_does: "", examples: "seeing that it is 10:00 PM acts as a cue to watch a favorite television show" },
+  meacham: "The first to introduce this distinction, along with the term prospective memory",
+  when_participants: { definition: "Asked their thoughts at the moment of interruption, only 2% reported that they were thinking of the original intention", what_it_does: "", examples: "task appropriate processing ), or the intended action is simple" },
+  keeping_track_of_information_over_time: "Important for prospective memory, remembering intentions to perform in the future",
+  the_same_impairment_in_prospective_memory: "Also seen in patients with lesions to the hippocampus",
+  it_is_suspected_that_the_parahippocampal_gyrus: "Additionally involved in monitoring the novelty of presented stimuli",
+  its_role_in_memory_function: { definition: "Relaying information between the hippocampus and cortical areas", what_it_does: "", examples: "the Cognitive Failures Questionnaire created by Broadbent et al" },
+  many_questions: "Used to test all possible combinations of the different memory types assessed by the PRMQ",
+  technological_assessments: "Created in order to more appropriately evaluate prospective memory by combining real life intentions with experimental control",
+  whether_the_cues: "Positive or negative, strong emotional attachment makes the cue more self-relevant and easier to remember",
+  aviation_controllers: "Often occupied with multiple tasks at the same time, and hazardous effects can occur when prospective memory fails",
+  having_better_memory_makes_it: "Easier for these women to remind themselves to take their contraceptives at the required time of the day",
+  electronic_calendars: "Of great use in time-based prospective memory tasks and recently they have been shown to also cue event-based tasks",
+
 };
 
 // ============================================================
