@@ -64890,6 +64890,33 @@ const FLAT_DICT = {
   the_halfduplex_and_duplex_configurations: "Called the IBM System/360 model 67–2",
   virtual_memory_support: { definition: "Added to MTS in October 1967", what_it_does: "", examples: "source code modifications), they built and supported a generation of time-sharing centers" },
 
+  // === INGESTED 2026-07-06 13:51 ===
+  printed_circuit_boards: "Introduced to reduce the size, weight, and cost of parts of the circuitry",
+  electronic_design_automation_software: "Available to do much of the work of layout",
+  massproducing_circuits_with_pcbs: { definition: "Cheaper and faster than with other wiring methods, as components are mounted and wired in one operation", what_it_does: "", examples: "TV and hi-fi sets) into at least the late 1960s" },
+  the_component_leads: "Then inserted through the holes and soldered to the copper PCB traces",
+  this_method_of_assembly: "Called through-hole construction",
+  hdi_pcbs: { definition: "Often made using build-up film such as ajinomoto build-up film, which is also used in the production of flip chip packages", what_it_does: "", examples: "solid conductive areas for electromagnetic shielding or other purposes" },
+  the_etching: "Usually done using photoresist which is coated onto the PCB, then exposed to light projected in the pattern of the artwork",
+  another_substrate_material: "Cotton paper impregnated with phenolic resin , often tan or brown",
+  it_has_copper_on_both_sides_that: "Referred to as external layers; multi layer boards sandwich additional internal layers of copper and insulation",
+  surface_mounting: { definition: "Used for transistors , diodes , IC chips , resistors , and capacitors", what_it_does: "", examples: "electrolytic capacitors and connectors" },
+  available_standard_laminate_thickness: "Listed in ANSI/IPC-D-275",
+  some_of_these_dielectrics: "Polytetrafluoroethylene (Teflon), FR-4, FR-1, CEM-1 or CEM-3",
+  thermal_expansion: "An important consideration especially with ball grid array (BGA) and naked die technologies, and glass fiber offers the best dimensional stability",
+  the_board_stock_with_unetched_copper_on_it: "Called 'copper-clad laminate'",
+  the_circuitboard_substrates: "Usually dielectric composite materials",
+  woven_reinforcements: "Cheaper, but the high dielectric constant of glass may not be favorable for many higher-frequency applications",
+  choosing_unnecessarily_lowloss_material: "A common engineering error in high-frequency digital design; it increases the cost of the boards without a corresponding benefit",
+  moisture_absorption_occurs_when_the_material: "Exposed to high humidity or water",
+  relative_dielectric_constant_of_water: "About 73, compared to about 4 for common circuit board materials",
+  one_ounce_per_square_foot: "34 μm (0.0013 in) thickness",
+  heavy_copper: "A layer exceeding three ounces of copper per ft 2 , or approximately 105 μm (0.0041 in) thick",
+  heavy_copper_layers: "Used for high current or to help dissipate heat",
+  printed_circuit_board_manufacturing: "Manufacturing bare printed circuit boards and then populating them with electronic components",
+  the_purpose_of_a_breakout_board: "To 'break out' the leads of a component on separate terminals so that manual connections to them can be made easily",
+  breakout_boards: { definition: "Especially used for surface-mount components or any components with fine lead pitch", what_it_does: "", examples: "smartphones, wearables, and medical equipment" },
+
 };
 
 // ============================================================
