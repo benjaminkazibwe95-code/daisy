@@ -65441,6 +65441,16 @@ const FLAT_DICT = {
   the_minimalist_approach: { definition: "To use itself (Schönhage does this)", what_it_does: "", examples: "we might have the machine/model 'trigger an event' of our choosing)" },
   the_following_definition: { definition: "Per Kleene but modified to reflect the familiar 'IF-THEN-ELSE' construction", what_it_does: "", examples: "we do not require r < 83,617,563,821,029,283,746 nor r < 2^1,000,001, etc" },
 
+  // === INGESTED 2026-07-06 16:04 ===
+  the_multiples_of_a_given_prime: "Generated as a sequence of numbers starting from that prime, with constant difference between them that is equal to that prime",
+  the_key_property_of_the_sieve: "That only additions are needed, no multiplications or divisions are used",
+  this_means_that_the_algorithm: "Allowed to terminate in step 4 when p 2 is greater than n",
+  the_time_complexity_of_this_algorithm: "O ( n log log n ) , [ 9 ] provided the array update is an O (1) operation, as is usually the case",
+  a_solution_to_these_problems: "Offered by segmented sieves, where only portions of the range are sieved at a time",
+  it_is_not_the_sieve_of_eratosthenes_but: "Often confused with it, even though the sieve of Eratosthenes directly generates the composites instead of testing for them",
+  the_bit_complexity_of_the_algorithm: "O ( n (log n ) (log log n ) ) bit operations with a memory requirement of O ( n )",
+  the_same_sieve: { definition: "Rediscovered and observed to take linear time by Gries & Misra (1978)", what_it_does: "", examples: "for the multiples of 3 it is 3 × 3 = 9 , 3 × 5 = 15 , 3 × 7 = 21 , 3 × 9 = 27 , ..., 3 × 15 = 45 , " },
+
 };
 
 // ============================================================
