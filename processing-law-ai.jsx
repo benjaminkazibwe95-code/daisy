@@ -64450,6 +64450,11 @@ const FLAT_DICT = {
   having_better_memory_makes_it: "Easier for these women to remind themselves to take their contraceptives at the required time of the day",
   electronic_calendars: "Of great use in time-based prospective memory tasks and recently they have been shown to also cue event-based tasks",
 
+  // === INGESTED 2026-07-06 11:42 ===
+  a_juice_reward: "Then administered after each response",
+  the_amount_of_juice_reward: { definition: "Then varied to modulate choice", what_it_does: "", examples: "a saccade or pressing a button" },
+  a_is_positive_if_the_correct_response: "Represented by the upper threshold, and negative if the lower",
+
 };
 
 // ============================================================
