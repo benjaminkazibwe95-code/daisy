@@ -66802,6 +66802,30 @@ const FLAT_DICT = {
   phocus: { definition: "Available as a free download from the Hasselblad homepage", what_it_does: "", examples: "its 24.3 MP APS-C sensor, processing engine and user interface" },
   victor: "Available online as PDF , but registration is required",
 
+  // === INGESTED 2026-07-06 22:02 ===
+  the_vast_majority_of_the_historical_province: "Administered by the People's Republic of China (PRC)",
+  pratas_island_in_the_south_china_sea: "Part of Cijin District , Kaohsiung , Taiwan (ROC); the island was part of Guangdong before the Chinese Civil War",
+  guangdong: "Notable for being the birthplace of many Xiangqi (Chinese chess) grandmasters including Lü Qin , Yang Guanli, Cai Furu and Xu Yinchuan",
+  the_neolithic_in_northern_inland_guangdong: "Represented by the Shixia culture ( 石峽文化 ), which occurred from 4600 to 4200 BP (c",
+  the_guangdong_part_of_lingnan_circuit: { definition: "Renamed Guangnan East Circuit ( 廣南東路 ) in 971 during the Song dynasty (960–1279)", what_it_does: "", examples: "' dim sum '" },
+  the_whampoa_military_academy: "Built near Guangzhou to train military commanders",
+  hainan_island: "Originally part of Guangdong, but it was separated into its own province in 1988",
+  the_leizhou_peninsula: "On the southwestern end of the province",
+  the_pearl_river_delta: "The convergent point of three upstream rivers: the East River , North River , and West River",
+  the_river_delta: "Filled with hundreds of small islands",
+  the_province: "Geographically separated from the north by a few mountain ranges collectively called the Nan Mountains (Nan Ling)",
+  the_highest_peak_in_the_province: "Shikengkong with an elevation of 6,240 feet (1,900 meters) above sea level",
+  hainan: "Offshore across from the Leizhou Peninsula",
+  frost: "Rare on the coast but may happen a few days each winter",
+  if_guangdong: "An independent nation, it would rank among the twelfth largest countries of the world by population",
+  provincial_law_enforcement_in_guangdong: "Provided by the Guangdong Provincial Public Security Department",
+  guangdong_and_the_greater_guangzhou_area: "Served by several Radio Guangdong stations, Guangdong Television , Southern Television Guangdong , Shenzhen Television , and Guangzhou Television",
+  cantonese_opera: "A form of Chinese opera popular in Cantonese speaking areas",
+  related_yue_dialects: "Spoken in most of the western half of the province",
+  teochew_opera: { definition: "Also well-known and has a unique form", what_it_does: "", examples: "Huizhou , Meizhou , Shenzhen , Heyuan , Shaoguan and other areas" },
+  much_of_the_eastern_part_of_guangdong: "Populated by the Hakka people except for the Chaozhou and Hailufeng area",
+  zhanjiang_in_southern_guangdong: "Dominated by Leizhounese , a variety of Min ; Cantonese and Hakka are also spoken there",
+
 };
 
 // ============================================================
