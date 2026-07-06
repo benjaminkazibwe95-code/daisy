@@ -64265,6 +64265,14 @@ const FLAT_DICT = {
   this_generally_means_that_performance: { definition: "Impeded and the risk of injury is increased", what_it_does: "", examples: "sitting at a computer using a mouse, or from training in an imbalanced way, or for other reasons" },
   the_most_common_solution: { definition: "To incorporate both bilateral and unilateral exercises in a training regime in order to gain the advantages of both types of exercise", what_it_does: "", examples: "a person is standing and they lift up their left arm while not moving their right" },
 
+  // === INGESTED 2026-07-06 10:58 ===
+  unsecured_loans: "Primarily based on the borrower's creditworthiness, with lenders evaluating credit history, income, and financial stability to determine eligibility",
+  unsecured_loans_in_the_uk: "A form of credit that doesn't require collateral, such as property or other assets, to back the loan",
+  interest_rates_for_personal_loans_in_malaysia: { definition: "Influenced by either one of these factors: loan amount, loan tenure and income of the applicant", what_it_does: "", examples: "credit card debt and personal loans, can carry high interest rates due to the lack of collateral" },
+  because_unsecured_debts: "Not backed by collateral, [ 8 ] lenders typically assess creditworthiness using credit reporting information, including repayment history and defaults",
+  once_enforcement: "Available, options may include attachment orders (deductions from wages or benefits) or warrants to seize property",
+  if_no_legal_action_is_taken_and_the_debt: "Not acknowledged or repaid within that period, it generally becomes unenforceable in court",
+
 };
 
 // ============================================================
