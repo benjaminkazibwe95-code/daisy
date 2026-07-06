@@ -63084,6 +63084,23 @@ const FLAT_DICT = {
   theories_of_chemical_structure: { definition: "First developed by August Kekulé , Archibald Scott Couper , and Aleksandr Butlerov , among others, from about 1858", what_it_does: "", examples: "electron microscopy are also applicable in some cases" },
   chemfig_and_tikz: "Package add-ons for LaTeX for chemical structures",
 
+  // === INGESTED 2026-07-06 04:52 ===
+  the_photon_energy_of_the_emitted_photons: "Equal to the energy difference between the two states",
+  the_frequency_of_light_emitted: "A function of the energy of the transition",
+  the_quantum_mechanics_problem: "Treated using time-dependent perturbation theory and leads to the general result known as Fermi's golden rule",
+  when_the_electrons_in_the_atom: "Excited, for example by being heated, the additional energy pushes the electrons to higher energy orbitals",
+  the_frequencies_of_light_that_an_atom_can_emit: "Dependent on states the electrons can be in",
+  if_only_a_single_atom_of_hydrogen: "Present, then only a single wavelength would be observed at a given instant",
+  several_of_the_possible_emissions: "Observed because the sample contains many hydrogen atoms that are in different initial energy states and reach different final energy states",
+  a_spectroscope_or_a_spectrometer: "An instrument which is used for separating the components of light, which have different wavelengths",
+  this_line_spectrum: "Called an atomic spectrum when it originates from an atom in elemental form",
+  not_all_emitted_lights: "Perceptible to the naked eye, as the spectrum also includes ultraviolet rays and infrared radiation",
+  an_emission_spectrum: "Formed when an excited gas is viewed directly through a spectroscope",
+  the_simplest_method: "To heat the sample to a high temperature, after which the excitations are produced by collisions between the sample atoms",
+  emission_spectroscopy: { definition: "Often referred to as optical emission spectroscopy because of the light nature of what is being emitted", what_it_does: "", examples: "an independent observation of the Balmer lines of hydrogen" },
+  here_electrons: "Excited as described above, and the spontaneously emit photon to decay to lower energy states",
+  this_method_of_qualitative_analysis: "Called a flame test",
+
 };
 
 // ============================================================
