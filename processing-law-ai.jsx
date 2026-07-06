@@ -63543,6 +63543,13 @@ const FLAT_DICT = {
   axoaxonic_synapses: "Formed from the small axons of interneurons onto the axon terminals of large axons, which are upstream to the main dendritic stem",
   these_synapses: "Formed through projection of GABAergic interneurons on sensory neurons , which is upstream to the motor neurons",
 
+  // === INGESTED 2026-07-06 07:21 ===
+  an_image_sensor_or_imager: { definition: "A sensor used for imaging", what_it_does: "", examples: "thermal imaging devices, radar , sonar , and others" },
+  the_two_main_types_of_electronic_image_sensors: "The charge-coupled device (CCD) and the active-pixel sensor ( CMOS sensor)",
+  each_cell_of_a_ccd_image_sensor: "An analog device, a pinned photodiode",
+  exposure_time_of_image_sensors: { definition: "Generally controlled by either a conventional mechanical shutter , as in film cameras, or by an electronic shutter", what_it_does: "", examples: "the charge-coupled device (CCD) and later the active-pixel sensor ( CMOS sensor)" },
+  the_noise_of_photodiode_arrays: "Also a limitation to performance, as the photodiode readout bus capacitance resulted in increased noise level",
+
 };
 
 // ============================================================
