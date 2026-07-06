@@ -62950,6 +62950,11 @@ const FLAT_DICT = {
   even_geomagnetic_activity: "Reported to have an influence (negatively correlated) on stock returns (C",
   since_most_retail_currency_traders: "Unsuccessful, measures of Forex market sentiment are typically used as contrarian indicators",
 
+  // === INGESTED 2026-07-06 03:53 ===
+  its_verity: "In fact an event, a process: the process namely of its verifying itself, its veri-FICATION",
+  its_validity: "The process of its valid-ATION",
+  false_ideas: "Those that we cannot",
+
 };
 
 // ============================================================
