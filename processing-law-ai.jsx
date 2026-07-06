@@ -67056,6 +67056,16 @@ const FLAT_DICT = {
   the_new_bill: { definition: "Based on S.1970 but incorporated elements from S.1791, [ 17 ] upping the investment caps", what_it_does: "", examples: "certain requirements that originated with the Sarbanes–Oxley Act , from two years to five years" },
   statebystate_registration: { definition: "One of the chief reasons the Government Accountability Office found for the remarkably low interest in Regulation A offerings pre-JOBS Act", what_it_does: "", examples: "the AARP , the Consumer Federation of America , the Council of Institutional Investors , and others" },
 
+  // === INGESTED 2026-07-06 23:02 ===
+  control_dilution: "The reduction in ownership percentage or loss of a controlling share of an investment's stock",
+  the_measurement_of_percent_dilution: { definition: "Calculated at a specific point in time", what_it_does: "", examples: "options, warrants, or convertible debt—were assumed to convert" },
+  when_this_shortfall: "Triggered by the exercise of employee stock options, it is a measure of wage expense",
+  when_new_shares: "Issued at full value, the excess of the market value over the book value is a kind of internalized capital gain for the investor",
+  preferred_share_conversions: "Usually done on a dollar-for-dollar basis",
+  since_most_shareholders: "Invested in the belief the stock price will increase, this is not a problem",
+  some_financing_vehicles: "Structured to augment this process by redefining the conversion factor as the stock price declines, thus leading to a ' death spiral '",
+  options_and_warrants: "Converted at pre-defined rates",
+
 };
 
 // ============================================================
