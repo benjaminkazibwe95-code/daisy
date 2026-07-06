@@ -67052,6 +67052,10 @@ const FLAT_DICT = {
   these_often: "Associations or groups of people that come together for a particular (usually non-commercial purpose)",
   under_south_african_law_living_trusts: "Considered tax payers",
 
+  // === INGESTED 2026-07-06 22:58 ===
+  the_new_bill: { definition: "Based on S.1970 but incorporated elements from S.1791, [ 17 ] upping the investment caps", what_it_does: "", examples: "certain requirements that originated with the Sarbanes–Oxley Act , from two years to five years" },
+  statebystate_registration: { definition: "One of the chief reasons the Government Accountability Office found for the remarkably low interest in Regulation A offerings pre-JOBS Act", what_it_does: "", examples: "the AARP , the Consumer Federation of America , the Council of Institutional Investors , and others" },
+
 };
 
 // ============================================================
