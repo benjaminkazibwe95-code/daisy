@@ -64371,6 +64371,28 @@ const FLAT_DICT = {
   y_magazine: { definition: "The university's alumni publication, distributed quarterly to more than 200,000 addresses", what_it_does: "", examples: "former Dean of the U.S" },
   among_the_alumni: "Several Latter-day Saint General Authorities , including three Church Presidents ( Ezra Taft Benson ('26), [ 215 ] Thomas S",
 
+  // === INGESTED 2026-07-06 11:19 ===
+  bonds_and_stocks: "Both securities , but the major difference between the two is that (capital) stockholders have an equity stake in a company (i.e",
+  very_often_the_bond: "Negotiable, that is, the ownership of the instrument can be transferred in the secondary market",
+  the_most_common_process_for_issuing_bonds: "Through underwriting",
+  when_a_bond_issue: "Underwritten, one or more securities firms or banks, forming a syndicate , buy the entire issue of bonds from the issuer and resell them to investors",
+  the_bookrunner: { definition: "Listed first among all underwriters participating in the issuance in the tombstone ads commonly used to announce bonds to the public", what_it_does: "", examples: "the coupon, are fixed in advance and the price is determined by the market" },
+  the_issuer: "Obligated to repay the nominal amount on the maturity date",
+  the_length_of_time_until_the_maturity_date: "Often referred to as the term or tenor or maturity of a bond",
+  it_usually: "One of the following: The quality of the issue refers to the probability that the bondholders will receive the amounts promised at the due dates",
+  highyield_bonds_are_bonds_that: "Rated below investment grade by the credit rating agencies",
+  as_these_bonds: "Riskier than investment grade bonds, investors expect to earn a higher yield",
+  the_net_proceeds_that_the_issuer_receives: "Thus the issue price, less issuance fees",
+  some_foreign_issuer_bonds: "Called by their nicknames, such as the 'samurai bond'",
+  these_bond_issues: "Generally governed by the law of the market of issuance, e.g., a samurai bond, issued by an investor based in Europe, will be governed by Japanese law",
+  not_all_of_the_following_bonds: "Restricted for purchase by investors in the market of issuance",
+  the_market_price_of_a_bond: "The present value of all expected future interest and principal payments of the bond, here discounted at the bond's yield to maturity (i.e",
+  the_yield_and_price_of_a_bond: { definition: "Inversely related so that when market interest rates rise, bond prices fall and vice versa", what_it_does: "", examples: "the accrued interest since the last coupon date" },
+  most_government_bonds: { definition: "Denominated in units of $1000 in the United States , or in units of £100 in the United Kingdom", what_it_does: "", examples: "current market interest rates, the length of the term and the creditworthiness of the issuer" },
+  this_total: "Then the value of the bond",
+  the_dealer: "Then subject to risks of price fluctuation",
+  efforts_to_control_this_risk: "Called immunization or hedging",
+
 };
 
 // ============================================================
