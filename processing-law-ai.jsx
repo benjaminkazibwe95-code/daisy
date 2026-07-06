@@ -65962,6 +65962,28 @@ const FLAT_DICT = {
   the_frist_campus_center_and_the_campus_club: "Additional facilities for the entire campus community that hold various activities and events",
   the_following_faiths: "Represented on campus: Baha'i , Buddhism, Christianity, Hinduism, Judaism, Islam, Sikhism , and Unitarian Universalism",
 
+  // === INGESTED 2026-07-06 17:52 ===
+  the_vocational_and_preparatory_schools: "Disbanded and spun off in 1910, and the college assumed its present name in 1920",
+  firstyear_students: { definition: "Required to live on campus, and 95% of undergraduates remain in the on-campus housing system at Caltech", what_it_does: "", examples: "advances in space research , sustainability science , quantum physics , and seismology" },
+  the_lawsuit_asserted_that_students: "Misled by the use of Caltech branding",
+  rosenbaum: "Announced to be the ninth president of Caltech on October 24, 2013, and his term began on July 1, 2014",
+  faculty: "Responsible for establishing admission requirements, academic standards, and curricula",
+  the_faculty_board: "The faculty's representative body and consists of 18 elected faculty representatives as well as other senior administration officials",
+  fulltime_professors: "Expected to teach classes, conduct research, advise students, and perform administrative work such as serving on committees",
+  the_moratorium: "Extended twice, starting July 2021, but was subsequently cancelled starting with the Class of 2029",
+  the_most_popular_options: { definition: "Chemical Engineering, Computer Science, Electrical Engineering, Mechanical Engineering and Physics", what_it_does: "", examples: "the Pasadena Art Center College of Design and Occidental College" },
+  up_to_three_rotations_in_the_first_year: "Allowed in some options",
+  all_new_graduate_students: { definition: "Guaranteed housing in their first year, with a variety of living experiences available to suit different needs", what_it_does: "", examples: "NASA's Jet Propulsion Laboratory), and private industries" },
+  undergraduates_at_caltech: "Also encouraged to participate in research",
+  on_the_bench_as_honorary_coach_for_the_evening: "Robert Grubbs , 2005 Nobel laureate in Chemistry",
+  this_yearly_event: "A crowd of observers, who try to spot the elusive spark",
+  the_title_of_the_event: "An oblique reference to the famous Millikan oil-drop experiment which measured e , the elemental unit of electrical charge",
+  another_longstanding_tradition: "The playing of Wagner's ' Ride of the Valkyries ' at 7:00 each morning during finals week with the largest, loudest speakers available",
+  newspapers_and_tshirts: { definition: "Distributed, and door labels and fliers in the infinite corridor were put up in accordance with the 'curriculum change", what_it_does: "", examples: "the fire policy and alcohol policy" },
+  arvind_virmani: { definition: "A former Chief Economic Adviser to the Government of India", what_it_does: "", examples: "Six Easy Pieces for the general audience" },
+  david_politzer: "A current professor at Caltech, as is astrophysicist and author Kip Thorne and eminent mathematician Barry Simon",
+  a_repeating_pattern_of_swirling_vortices: { definition: "Named after him, the von Kármán vortex street", what_it_does: "", examples: "Quora , Contour Energy Systems, Impinj , Fulcrum Microsystems, Nanosys, Inc., Photon etc" },
+
 };
 
 // ============================================================
