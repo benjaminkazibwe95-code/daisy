@@ -65921,6 +65921,9 @@ const FLAT_DICT = {
   the_fact_that_many_large_celestial_objects: "Approximately spheres makes it easier to calculate their surface gravity",
   one_reason_for_this_is_that_they: "Often rotating, which means that they are affected by the combined effects of gravitational force and centrifugal force",
 
+  // === INGESTED 2026-07-06 17:43 ===
+  in_general_relativity_gravitational_energy: "Extremely complex, and there is no single agreed upon definition of the concept",
+
 };
 
 // ============================================================
