@@ -63695,6 +63695,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 08:08 ===
   an_early_concept_of_design_science: { definition: "Introduced in 1957 by R", what_it_does: "", examples: "architecture, engineering, urban planning, computer science, and management studies" },
 
+  // === INGESTED 2026-07-06 08:13 ===
+  each_found_niches_which: "Not dominated by U.S",
+  many_of_the_important_ideas_here: { definition: "Developed by graduates of Mamram , the Israeli computer corps, established by the IDF in the 1960s", what_it_does: "", examples: "Kiryat Gat , and the Western Galilee" },
+  the_following_global_region_rankings: "A ranking of the Tel Aviv area, based on a 2024 study by Dutch research firm, Dealroom",
+
 };
 
 // ============================================================
