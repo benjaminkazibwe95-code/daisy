@@ -66061,6 +66061,21 @@ const FLAT_DICT = {
   a_building_to_house_the_new_high_school: { definition: "Completed in 1919, on the corner of Church and Federal Avenues in Logan", what_it_does: "", examples: "a new turf football field, softball diamond, and sand volleyball courts" },
   student_body_officers_any_student_that: "A current sophomore or junior with a 3.0 GPA and no failing grades, is eligible to run for a Student Body Office",
 
+  // === INGESTED 2026-07-06 18:22 ===
+  the_statuettes_that: { definition: "Handed out at the Video Music Awards are of the MTV moon-man, the channel's original image from its first broadcast in 1981", what_it_does: "", examples: "Motel California , Summer Share , Isle of MTV , SoCal Summer , Summer in the Keys , and Shore Thing" },
+  several_live_music_performances: { definition: "Featured alongside interviews with artists and bands that were influential throughout the year", what_it_does: "", examples: "1988's ID 'Adam And Eve', where the 'M' is an apple and the snake is the 'TV'" },
+  the_new_logo: "First used on MTV Films logo with the 2010 film Jackass 3D",
+  pon: "Able to get the campaign greenlit after removing the 'crying' and 'tears' elements from the concept",
+  from_then_on_pon: { definition: "The primary creative force", what_it_does: "", examples: "the punk band the Dead Kennedys , whose song 'M.T.V" },
+  its_most_noticeable_difference: { definition: "That black artists that MTV initially ignored received airplay", what_it_does: "", examples: "Las Vegas' KRLR-TV (now KSNV ), which debuted in the summer of 1984 and was branded as 'Vusic 21'" },
+  the_first_video_played_on_that_channel: { definition: "'Video Killed the Radio Star', following in the footsteps of MTV", what_it_does: "", examples: "' This Love ' and ' I Miss You ', were edited for sexual content" },
+  we_understand_that_this_show: { definition: "Not intended for every audience and depicts just one aspect of youth culture", what_it_does: "", examples: "a program where viewers could ask questions of Senator John Kerry" },
+  mtv_jams: "Later rebranded as BET Jams in 2015 and BET removed all of the music videos along 106 & Park",
+  the_first_channel: "MTV Desi , launched in July 2005, dedicated towards Indian Americans",
+  the_purpose_of_the_online_channel: "To air commercial-free music videos as television channels began focusing on shows unrelated to music videos or music-related programming",
+  the_news_site: "Defunct but still can be accessed with prior movie features, profiles and interviews with recording artists and from MTV's television programs",
+  a_related_mtv_app: { definition: "Available on mobile platforms and connected TV devices", what_it_does: "", examples: "(for the British MTV ) Dating Naked UK , Teen Mom , and Geordie Shore" },
+
 };
 
 // ============================================================
