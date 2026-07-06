@@ -65319,6 +65319,16 @@ const FLAT_DICT = {
   the_content_of_history_textbooks: { definition: "Often determined by the political forces of state adoption boards and ideological pressure groups", what_it_does: "", examples: "textbook rental services and library reserve copies of texts, are available in some instances" },
   textbook_prices: "Considerably higher in law school",
 
+  // === INGESTED 2026-07-06 15:30 ===
+  james_dewey_watson: { definition: "Born in Chicago on April 6, 1928, [ 1 ] the only son of Jean ( née Mitchell ) and James D", what_it_does: "", examples: "Horace Mann Elementary School and South Shore High School" },
+  november_night: "To be told by a woman to refrain from venturing an opinion about a subject for which you were not trained.' Robert P",
+  these_classic_molecular_biology_papers: "Identified as: Watson J",
+  his_third: { definition: "Recombinant DNA , which described the ways in which genetic engineering had brought new information about how organisms function", what_it_does: "", examples: "diabetes, dementia, heart disease and cancer" },
+  watson_thought_the_root_of_that_inflammation: "Different: 'a lack of biological oxidants, not an excess', and discussed this in detail",
+  one_critical_response_was_that_the_idea: { definition: "Neither new nor worthy of merit, and that The Lancet published Watson's paper only because of his name", what_it_does: "", examples: "Mario Capecchi , [ 82 ] Bob Horvitz , Peter B" },
+  watson: "Quoted as calling Venter 'Hitler'",
+  watson_discussed_his_view_that_africans: "Less intelligent than Westerners",
+
 };
 
 // ============================================================
