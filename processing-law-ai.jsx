@@ -65341,6 +65341,16 @@ const FLAT_DICT = {
   atkins: "Also the author of a number of popular science books, including Atkins' Molecules , Galileo's Finger: The Ten Great Ideas of Science and On Being",
   and_i_think_that_it: "Rather foolish that people do think that there is one",
 
+  // === INGESTED 2026-07-06 15:47 ===
+  temporal_locality: { definition: "The reuse of specific data and/or resources within a relatively small time duration", what_it_does: "", examples: "traversing the elements in a one-dimensional array" },
+  locality: { definition: "A type of predictable behavior that occurs in computer systems", what_it_does: "", examples: "the caching , prefetching for memory and advanced branch predictors of a processor core" },
+  equidistant_locality: "Usually supported by a processor's diverse nontrivial increment instructions",
+  these_reasons: "Either goals to achieve or circumstances to accept, depending on the aspect",
+  this_means_that_spatial_locality: { definition: "Again important: if one element is referenced, a few neighboring elements will also be brought into cache", what_it_does: "", examples: "C ) allow the programmer to suggest that certain variables be kept in registers" },
+  data_locality: "A typical memory reference feature of regular programs (though many irregular memory access patterns exist)",
+  the_temporal_locality_of_the_above_solution: "Provided because a block can be used several times before moving on, so that it is moved in and out of memory less often",
+  spatial_locality: "Improved because elements with consecutive memory addresses tend to be pulled up the memory hierarchy together",
+
 };
 
 // ============================================================
