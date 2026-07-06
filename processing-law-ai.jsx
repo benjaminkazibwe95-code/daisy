@@ -65924,6 +65924,22 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 17:43 ===
   in_general_relativity_gravitational_energy: "Extremely complex, and there is no single agreed upon definition of the concept",
 
+  // === INGESTED 2026-07-06 17:45 ===
+  the_remarkable_aspect_of_this_observation: "That the height to which a moving body ascends on a frictionless surface does not depend on the shape of the surface",
+  it_was_later_shown_that_both_quantities: { definition: "Conserved simultaneously given the proper conditions, such as in an elastic collision", what_it_does: "", examples: "the D'Alembert's principle , Lagrangian , and Hamiltonian formulations of mechanics" },
+  the_deformation_of_the_clay: "Found to be directly proportional to the height from which the balls were dropped, equal to the initial potential energy",
+  academics_such_as_john_playfair: "Quick to point out that kinetic energy is clearly not conserved",
+  the_mechanical_equivalence_principle: { definition: "First stated in its modern form by the German surgeon Julius Robert von Mayer in 1842", what_it_does: "", examples: "kinetic energy, potential energy, and electromagnetic radiant energy" },
+  temperature_and_entropy: "Variables of the state of a system",
+  the_conservation_of_energy: "A common feature in many physical theories",
+  from_a_mathematical_point_of_view_it: "Understood as a consequence of Noether's theorem , developed by Emmy Noether in 1915 and first published in 1918",
+  conservation_of_energy_for_finite_systems: "Valid in physical theories such as special relativity and quantum theory (including QED ) in the flat space-time",
+  some_scholars_claim_that_energy: "No longer meaningfully conserved in any identifiable form",
+  energymomentum: "Typically expressed with the aid of a stress–energy–momentum pseudotensor",
+  if_the_hamiltonian: "A time-independent operator, emergence probability of the measurement result does not change in time over the evolution of the system",
+  thus_the_expectation_value_of_energy: "Also time independent",
+  thus_energy: "Conserved by the normal unitary evolution of a quantum system",
+
 };
 
 // ============================================================
