@@ -66996,6 +66996,12 @@ const FLAT_DICT = {
   guy_bernstein: { definition: "Appointed CEO of Magic Software Enterprises in April 2010", what_it_does: "", examples: "new product names and a new logo and tagline" },
   unipaas: "Renamed 'Magic xpa Application Platform' and iBOLT was renamed 'Magic xpi Integration Platform'",
 
+  // === INGESTED 2026-07-06 22:43 ===
+  those_factors: "Mandatory military service and immigration",
+  a_nation_of_immigrants: { definition: "A nation of entrepreneurs", what_it_does: "", examples: "Israeli venture investors, historians, U.S" },
+  saul_singer: "A columnist and former editorial page editor for The Jerusalem Post",
+  this_percentage: "As high as ~13% during some years of the first decades after 1950, according to The Times of Israel",
+
 };
 
 // ============================================================
