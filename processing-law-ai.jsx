@@ -64273,6 +64273,9 @@ const FLAT_DICT = {
   once_enforcement: "Available, options may include attachment orders (deductions from wages or benefits) or warrants to seize property",
   if_no_legal_action_is_taken_and_the_debt: "Not acknowledged or repaid within that period, it generally becomes unenforceable in court",
 
+  // === INGESTED 2026-07-06 11:00 ===
+  coverage: "Typically issued supplemental to standard coverage",
+
 };
 
 // ============================================================
