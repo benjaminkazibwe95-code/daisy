@@ -65040,6 +65040,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 14:21 ===
   common_notations: "Prefix notation (e.g",
 
+  // === INGESTED 2026-07-06 14:23 ===
+  if_the_shortterm_effect: "Then extrapolated to the long term, such extrapolation is inappropriate",
+  one_common_use_of_these_terms: "Budget policy in the United States, [ 1 ] although it also occurs in many other statistical disputes",
+
 };
 
 // ============================================================
