@@ -64588,6 +64588,9 @@ const FLAT_DICT = {
   a_church_and_school: "Built in 1844 despite being refused local building materials",
   the_new_village: "Built in 1805 as a planned village (compare Evanton , built in 1807 by its landowner for similar motives), and originally called New Scone",
 
+  // === INGESTED 2026-07-06 12:13 ===
+  the_mark_in_rugby: "Similar to the fair catch in American football",
+
 };
 
 // ============================================================
