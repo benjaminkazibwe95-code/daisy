@@ -66855,6 +66855,28 @@ const FLAT_DICT = {
   part_of_the_vision_of_linked_data: "For the Internet to become a global database",
   ontologies: "Formal descriptions of data structures",
 
+  // === INGESTED 2026-07-06 22:11 ===
+  the_unicode_consortium: { definition: "Incorporated in California on 3 January 1991, [ 8 ] and the first volume of The Unicode Standard was published that October", what_it_does: "", examples: "Adobe , Apple , Google , IBM , Meta (previously as Facebook), Microsoft , Netflix , and SAP" },
+  the_unicode_codespace: "Divided into 17 planes , numbered 0 to 16",
+  all_code_points_in_the_bmp: "Accessed as a single code unit in UTF-16 encoding and can be encoded in one, two or three bytes in UTF-8",
+  the_size_of_a_block: "Always a multiple of 16, and is often a multiple of 128, but is otherwise arbitrary",
+  each_code_point: "Assigned a classification, listed as the code point's General Category property",
+  a_small_set_of_code_points: "Guaranteed never to be assigned to characters, although third-parties may make independent use of them at their discretion",
+  the_set_of_noncharacters: "Stable, and no new noncharacters will ever be defined",
+  format_characters: "Characters that do not have a visible appearance but may have an effect on the appearance or behavior of neighboring characters",
+  reserved_code_points: "Those code points that are valid and available for use, but have not yet been assigned",
+  the_cjk_radicals_supplement_block: "Assigned to the range U+2E80 – U+2EFF , and the Kangxi radicals are assigned to U+2F00 – U+2FDF",
+  several_subsets_of_unicode: { definition: "Standardized: Microsoft Windows since Windows NT 4", what_it_does: "", examples: "UTF-8, in an attempt to distinguish UTF-8 from local 8-bit code pages" },
+  the_encoding: "Used as part of IDNA , which is a system enabling the use of Internationalized Domain Names in all scripts that are supported by Unicode",
+  although_a_great_deal_of_text: "Still stored in legacy encodings, Unicode is used almost exclusively for building new information processing systems",
+  the_best_known_such_system: "Windows NT (and its descendants, 2000 , XP , Vista , 7 , 8 , 10 , and 11 ), which uses UTF-16 as the sole internal character encoding",
+  the_details_of_the_two_different_mechanisms: { definition: "Specified in the MIME standards and generally are hidden from users of email software", what_it_does: "", examples: "mobile phones, [ citation needed ] still cannot correctly handle Unicode data" },
+  a_font: "'Unicode compliant' if the glyphs in the font can be accessed using code points defined in The Unicode Standard",
+  free_and_retail_fonts_based_on_unicode: "Widely available, since TrueType and OpenType support Unicode (and Web Open Font Format (WOFF and WOFF2 ) is based on those)",
+  the_irg: "Composed of experts from each region that has historically used Chinese characters",
+  modern_typefaces_provide_a: { definition: "To address some of the practical issues in depicting unified Han characters with various regional graphical representations", what_it_does: "", examples: "sanitization code or access control relies on case-insensitive comparison" },
+  indic_scripts_such_as_tamil_and_devanagari: { definition: "Each allocated only 128 code points, matching the ISCII standard", what_it_does: "", examples: "a 'name' given to a code point cannot and will not change" },
+
 };
 
 // ============================================================
