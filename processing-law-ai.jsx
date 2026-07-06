@@ -66208,6 +66208,9 @@ const FLAT_DICT = {
   retrolateral: "The surface of a leg that is closest to the posterior end of an arachnid's body",
   all_the_eyes: "On the carapace of the prosoma , and their sizes, shapes and locations are characteristic of various spider families and other taxa",
 
+  // === INGESTED 2026-07-06 19:12 ===
+  the_mcas: "Not considered a part of the Circle of Willis",
+
 };
 
 // ============================================================
