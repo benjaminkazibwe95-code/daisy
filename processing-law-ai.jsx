@@ -63678,6 +63678,9 @@ const FLAT_DICT = {
   because_control_of_these_functions: { definition: "Based on the cloud provider’s infrastructure and services, public cloud users must integrate with the cloud infrastructure management", what_it_does: "", examples: "electrical power" },
   cmps_manage_cloud_services_and_resources_that: "Distributed across multiple cloud platforms",
 
+  // === INGESTED 2026-07-06 08:02 ===
+  links_between_core_networks: { definition: "Different—for example, Border Gateway Protocol (BGP) routers are often used for peering exchanges", what_it_does: "", examples: "GPON , with the edge device connecting to Ethernet for backhaul (telecommunications)" },
+
 };
 
 // ============================================================
