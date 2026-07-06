@@ -65296,6 +65296,11 @@ const FLAT_DICT = {
   one_practical_argument_in_favor_of_reduction: "That economic inequality undermines social cohesion and increases social unrest , thereby weakening society",
   there_is_evidence_that_this: "True (see inequity aversion ), and it is intuitive, at least for small face-to-face groups",
 
+  // === INGESTED 2026-07-06 15:25 ===
+  efficiency_factor: "A ratio of some measure of performance to an expected value",
+  efficiency_factors: "Used in performance rating and remuneration calculation exercises",
+  the_efficiency_factor: "An extremely simple to use and readily comprehensible index, the prerequisite being exact time management for maintaining the allowed times",
+
 };
 
 // ============================================================
