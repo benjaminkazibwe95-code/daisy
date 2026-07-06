@@ -66026,6 +66026,13 @@ const FLAT_DICT = {
   the_ekpyrotic_and_cyclic_models: "Also considered adjuncts to inflation",
   each_string: "A one-dimensional object, and the largest number of dimensions in which two strings will generically intersect (and, presumably, annihilate) is three",
 
+  // === INGESTED 2026-07-06 18:03 ===
+  election_to_the_national_academy: "One of the highest honors in the scientific field in the United States",
+  the_national_academies_press: "The publisher for the National Academies and makes more than 5,000 publications freely available on its website",
+  senator_henry_wilson_of_massachusetts: { definition: "To name Agassiz to the Board of Regents of the Smithsonian Institution", what_it_does: "", examples: "in it the name of fifty incorporators'" },
+  those_ten: { definition: "Also precisely the only institutions in the entire history of the NAS to have had 100 or more members overall", what_it_does: "", examples: "the medical school (where it applies)" },
+  the_national_academy_of_sciences_building: "Located at 2101 Constitution Avenue , in northwest Washington, D.C",
+
 };
 
 // ============================================================
