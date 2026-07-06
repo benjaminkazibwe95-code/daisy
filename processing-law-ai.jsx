@@ -63785,6 +63785,11 @@ const FLAT_DICT = {
   the_length_of_the_curve: "Therefore a parametrization-invariant quantity",
   in_such_cases_parametrization: "A mathematical tool employed to extract a result whose value does not depend on, or make reference to, the details of the parametrization",
 
+  // === INGESTED 2026-07-06 08:47 ===
+  a_debtor_or_debitor: "A legal entity (legal person) that owes a debt to another entity",
+  when_the_counterpart_of_this_debt_arrangement: "A bank , the debtor is more often referred to as a borrower",
+  default_may_occur_if_the_debtor: { definition: "Either unwilling or unable to pay its debt", what_it_does: "", examples: "bonds , mortgages , loans , and promissory notes" },
+
 };
 
 // ============================================================
