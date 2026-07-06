@@ -67074,6 +67074,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:07 ===
   an_accredited_or_sophisticated_investor: { definition: "An investor with a special status under financial regulation laws", what_it_does: "", examples: "venture capital , hedge funds , and angel investments" },
 
+  // === INGESTED 2026-07-06 23:11 ===
+  dropbox_basic_users: "Given two gigabytes of free storage space",
+  both_mailbox_and_carousel: "Shut down in December 2015, with key features from both apps implemented into the regular Dropbox service",
+  ferdowsi: "'so impressed' that they formed a partnership",
+  boxcryptor: "A provider of end-to-end zero-knowledge encryption for cloud storage services",
+  the_company_said_the_reductions: "Necessary in order to focus the company team structure and focus on top level priorities",
+
 };
 
 // ============================================================
