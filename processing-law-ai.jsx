@@ -64830,6 +64830,14 @@ const FLAT_DICT = {
   leary_took_the_position_that_lsd: "A beneficial tool in exploring consciousness",
   lettvin_took_the_position_that_lsd: "A dangerous molecule that should not be used",
 
+  // === INGESTED 2026-07-06 13:21 ===
+  the_database_schema: "The structure of a database described in a formal language supported typically by a relational database management system (RDBMS)",
+  the_formal_definition_of_a_database_schema: "A set of formulas (sentences) called integrity constraints imposed on a database",
+  all_constraints: "Expressible in the same language",
+  this_describes_how_realworld_entities: "Modeled in the database",
+  although_a_schema: "Defined in text database language, the term is often used to refer to a graphical depiction of the database structure",
+  the_data_of_each_object: "Physically contained in one or more of the tablespace's datafiles",
+
 };
 
 // ============================================================
