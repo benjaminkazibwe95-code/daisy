@@ -63211,6 +63211,28 @@ const FLAT_DICT = {
   the_solubility_of_liquids_in_liquids: { definition: "Generally less temperature-sensitive than that of solids or gases", what_it_does: "", examples: "melting point and boiling point change when other compounds are added" },
   such_solutions: "Called electrolytes",
 
+  // === INGESTED 2026-07-06 05:43 ===
+  if_the_composition_of_a_mixture_at_equilibrium: "Changed by addition of some reagent, a new equilibrium position will be reached, given enough time",
+  such_reaction_quotients: "Often referred to, in the biochemical literature, as equilibrium constants",
+  a_particular_use_of_a_stepwise_constant: { definition: "In the determination of stability constant values outside the normal range for a given method", what_it_does: "", examples: "EDTA complexes of many metals are outside the range for the potentiometric method" },
+  the_stability_constants_for_those_complexes: "Determined by competition with a weaker ligand",
+  in_organic_chemistry_and_biochemistry_it: "Customary to use p K a values for acid dissociation equilibria",
+  for_any_given_acid_or_base_the_two_constants: "Related by p K a + p K b = p K w , so p K a can always be used in calculations",
+  when_considering_equilibria_such_as_it: { definition: "Customary to use association constants for both ML and HL", what_it_does: "", examples: "the molecule L -DOPA has two non-equivalent hydroxyl groups which may be deprotonated" },
+  the_concentration_of_the_species_lh: { definition: "Equal to the sum of the concentrations of the two micro-species with the same chemical formula , labelled L 1 H and L 2 H", what_it_does: "", examples: "infrared spectroscopy , where each micro-species gives a different signal" },
+  ph_is_measured_by: "Of a glass electrode , a mixed equilibrium constant, also known as a Brønsted constant, may result",
+  it_all_depends_on_whether_the_electrode: "Calibrated by reference to solutions of known activity or known concentration",
+  if_the_electrode: "Calibrated in terms of known hydrogen ion concentrations it would be better to write p[H] rather than pH, but this suggestion is not generally adopted",
+  hydrolysis_constants: { definition: "Usually reported in the β * form and therefore often have values much less than 1", what_it_does: "", examples: "if log K = 4 and log K W = −14, log β * = 4 + (−14) = −10 so that β * = 10 −10" },
+  in_biochemistry_equilibrium_constants: "Often measured at a pH fixed by means of a buffer solution",
+  an_equilibrium_constant: "Expressed in terms of the dimensionless quantity",
+  when_the_concentration_values: "Measured on the mole fraction scale all concentrations and activity coefficients are dimensionless quantities",
+  the_second_approach: "Consistent with the standard exposition of Debye–Hückel theory , where γ ( A B ) {\displaystyle \gamma (AB)} , etc",
+  water_concentration: { definition: "Omitted from expressions defining equilibrium constants, except when solutions are very concentrated", what_it_does: "", examples: "with a silver ion-selective electrode each log K value was determined with a precision of ca" },
+  where_c_p: "The heat capacity at constant pressure",
+  the_above_change_in_composition: "In accordance with Le Chatelier's principle and does not involve any change of the equilibrium constant with the total system pressure",
+  the_deuterated_acid: "Studied in heavy water , since if it were dissolved in ordinary water the deuterium would rapidly exchange with hydrogen in the solvent",
+
 };
 
 // ============================================================
