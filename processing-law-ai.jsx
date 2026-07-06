@@ -65337,6 +65337,10 @@ const FLAT_DICT = {
   an_imprint_of_a_publisher: { definition: "A trade name under which it publishes a work", what_it_does: "", examples: "Activision Blizzard , ZeniMax , Electronic Arts from 2008 to 2018, Warner Bros" },
   taketwo: "Seen as 'a game holding company with autonomous game publishing and development subsidiaries'",
 
+  // === INGESTED 2026-07-06 15:42 ===
+  atkins: "Also the author of a number of popular science books, including Atkins' Molecules , Galileo's Finger: The Ten Great Ideas of Science and On Being",
+  and_i_think_that_it: "Rather foolish that people do think that there is one",
+
 };
 
 // ============================================================
