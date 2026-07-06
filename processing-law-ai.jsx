@@ -66372,6 +66372,13 @@ const FLAT_DICT = {
   the_blastula_of_the_tunicates: "A little flattened in the vegetal pole making a change of shape from a columnar to a wedge shape",
   once_the_endoderm_cells: "Invaginated, the cells will keep moving beneath the ectoderm",
 
+  // === INGESTED 2026-07-06 20:21 ===
+  a_single_putative_fossil_species: "Known, the Middle Triassic Maculicorpus microbialis",
+  the_specific_epithet_adhaerens: "Latin meaning 'adherent', reflecting its propensity to stick to the glass slides and pipettes used in its examination",
+  noll_argued_that_the_animal: "A flatworm ( Turbellaria )",
+  the_other_endosymbiont: { definition: "The first described Margulisbacteria , that lives inside cells used for algal digestion", what_it_does: "", examples: "induction of social behaviors, morphogenesis, and reproductive strategies" },
+  the_interior_of_the_sphere: "Filled with contractile fibrous cells and a gelatinous extracellular matrix",
+
 };
 
 // ============================================================
