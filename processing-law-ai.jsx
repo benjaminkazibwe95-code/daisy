@@ -65236,6 +65236,20 @@ const FLAT_DICT = {
   the_different_types_of_policy: "Also called monetary regimes , in parallel to exchange-rate regimes",
   the_primary_difficulty: "That few developing countries have deep markets in government debt",
 
+  // === INGESTED 2026-07-06 15:04 ===
+  the_sitting_cabinet: "The second von der Leyen Commission , which took office in December 2024, following the 2024 European Parliament elections",
+  the_high_authority: "The supranational administrative executive of the new European Coal and Steel Community (ECSC)",
+  these_frauds: "Revealed by internal auditor Paul van Buitenen , with French Commissioner Édith Cresson being the main target of the allegations",
+  the_exact_number_of_commissioners: { definition: "To be decided by a unanimous vote of the European Council , and membership would rotate equally between member states", what_it_does: "", examples: "prosperity, security, and democracy" },
+  raffaele_fitto: { definition: "Appointed despite criticism from European socialists over his hard-right affiliations", what_it_does: "", examples: "those governments which appointed them" },
+  this_monopoly: { definition: "Designed to ensure coordinated and coherent drafting of EU law", what_it_does: "", examples: "on tackling climate change and restricting genetically modified organisms" },
+  their_right_to_propose_criminal_law: "Challenged in the European Court of Justice but upheld",
+  in_this_role_it: { definition: "Known informally as the 'Guardian of the Treaties'", what_it_does: "", examples: "the World Trade Organization" },
+  even_though_each_member: "Nominated on the basis of the suggestions made by the national governments, one per state, they do not represent their state in the commission",
+  once_the_college: { definition: "Approved by parliament, it is formally appointed following a QMV vote by the European Council", what_it_does: "", examples: "France, the UK and Germany sought to sideline its role" },
+  the_commission: "Divided into departments known as Directorates-General (DGs) that can be likened to departments or ministries",
+  the_single_largest_dg: "The Directorate-General for Translation , with a 2309-strong staff, while the largest group by nationality is Belgian (18",
+
 };
 
 // ============================================================
