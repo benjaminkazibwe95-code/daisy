@@ -66326,6 +66326,9 @@ const FLAT_DICT = {
   the_symptoms_of_infection: "Diarrhea , constipation , and abdominal pain",
   the_actions_of_aprepitant: "Said to be entirely central, thus requiring passage of the drug into the central nervous system",
 
+  // === INGESTED 2026-07-06 20:03 ===
+  the_pprf: "Situated in the pons just [ 3 ] ventralmedial to the abducens nucleus",
+
 };
 
 // ============================================================
