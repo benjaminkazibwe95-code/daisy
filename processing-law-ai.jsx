@@ -66186,6 +66186,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 19:05 ===
   these_neurons: "The largest in the central nervous system , sometimes reaching 100 μm in diameter",
 
+  // === INGESTED 2026-07-06 19:08 ===
+  layer_iv: "Attenuated or indistinct, while layer V contains large pyramidal neurons including Betz cells in M1",
+  early_corticospinal_projections: { definition: "Exuberant; activity‑dependent pruning and myelination refine conduction velocity and terminal specificity through childhood and adolescence", what_it_does: "", examples: "TMS, tDCS) can transiently modulate learning rates and retention" },
+
 };
 
 // ============================================================
