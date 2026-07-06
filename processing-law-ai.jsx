@@ -65547,6 +65547,17 @@ const FLAT_DICT = {
   this_type_of_bond: "Much stronger than a 'normal' hydrogen bond",
   the_effective_bond_order: { definition: "0.5, so its strength is comparable to a covalent bond", what_it_does: "", examples: "hydrofluoric acid and formic acid at high pressure" },
 
+  // === INGESTED 2026-07-06 16:28 ===
+  the_rest_of_the_fluorite: "Converted into hydrogen fluoride en route to various organic fluorides, or into cryolite , which plays a key role in aluminium refining",
+  organofluorine_compounds: { definition: "Widely used as refrigerants , electrical insulation, and PTFE (Teflon)", what_it_does: "", examples: "atorvastatin and fluoxetine contain C−F bonds" },
+  the_outer_electrons: { definition: "Ineffective at nuclear shielding , and experience a high effective nuclear charge of 9 − 2 = 7; this affects the atom's physical properties", what_it_does: "", examples: "carbon tetrachloride , normally incombustible, may explode" },
+  two_metastable_isomers_of_fluorine: { definition: "Known, 18m F , with a half-life of 162(7) nanoseconds, and 26m F , with a half-life of 2.2(1) milliseconds", what_it_does: "", examples: "topaz contain fluorine" },
+  research_in_this_area: "Usually driven by commercial applications; [ 157 ] the compounds involved are diverse and reflect the complexity inherent in organic chemistry",
+  another_major_use: "In PFTE-coated fiberglass cloth for stadium roofs",
+  the_major_consumer_application: "For non-stick cookware",
+  applications_in_paints: { definition: "Burdened by compounding costs; this use was valued at only $100 million in 2006", what_it_does: "", examples: "two-thirds of Americans" },
+  exposure_limits: { definition: "Determined by urine testing of the body's ability to clear fluoride ions", what_it_does: "", examples: "one death from ingesting insecticide" },
+
 };
 
 // ============================================================
