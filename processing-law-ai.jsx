@@ -65858,6 +65858,13 @@ const FLAT_DICT = {
   imagine_now_that_there: { definition: "An additional Euclidean dimension w , which has no physical reality (it is not part of spacetime)", what_it_does: "", examples: "Mercury 's, dwell longer at small radii than would be expected in Newtonian gravity" },
   components_which: "Obtainable by other symmetries of the Riemann tensor are not displayed",
 
+  // === INGESTED 2026-07-06 17:32 ===
+  the_term_leo_region: "Used for the area of space below an altitude of 2,000 km (1,200 mi) (about one-third of Earth's radius)",
+  the_only_human_spaceflights_to_go_beyond_leo: "The lunar missions of the Apollo program from 1968 to 1972 and the Artemis II lunar flyby in 2026",
+  the_leo_region: "Defined by some sources as a region in space that LEO orbits occupy",
+  the_pull_of_gravity_in_leo: "Only slightly less than on the Earth's surface",
+  satellites_and_space_stations_in_leo: { definition: "More accessible for crew and servicing", what_it_does: "", examples: "the Iridium phone system" },
+
 };
 
 // ============================================================
