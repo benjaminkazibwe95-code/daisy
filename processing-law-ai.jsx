@@ -63955,6 +63955,16 @@ const FLAT_DICT = {
   the_original_customs_union: "Not ended in 1866 with outbreak of the Austro-Prussian War , but a substantial reorganization emerged in 1867",
   the_new_zollverein: "Stronger, in that no individual state had a veto",
 
+  // === INGESTED 2026-07-06 09:42 ===
+  societies_at_the_time: "Also overwhelmingly agrarian",
+  profit_in_capitalist_production: "Really only the 'rent' obtained by the owner of the land on which the agricultural production took place",
+  in_germany_the_trend: "Especially strong in Cameralism while in France it was an important theme in physiocracy",
+  an_expense_for_the_buyer: "Revenue for the producer)",
+  the_single_tax: "A proposal for the use of the annual rental value of land ( land value taxation ) as the principal or sole source of public revenue",
+  the_new_physiocratic_league: "A modern Georgist political movement that seeks to revive elements of physiocracy",
+  the_physiocrats_thought_there: "A ' natural order ' that allowed human beings to live together",
+  laissezfaire: "Popularized by physiocrat Vincent de Gournay who is said to have adopted the term from François Quesnay 's writings on China",
+
 };
 
 // ============================================================
