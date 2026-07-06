@@ -66566,6 +66566,12 @@ const FLAT_DICT = {
   one_way_to_use_hard_reset: { definition: "Replace M rst with a p-type transistor and invert the polarity of the RST signal", what_it_does: "", examples: "flushed reset, pseudo-flash reset, and hard-to-soft reset combine soft and hard reset" },
   the_tradeoff: "A complicated reset scheme, as well as either a much larger pixel or extra column-level circuitry",
 
+  // === INGESTED 2026-07-06 21:10 ===
+  a_video_camera: "An optical instrument that captures videos , as opposed to a movie camera , which records images on film",
+  video_cameras: "Used primarily in two modes",
+  the_basis_for_solidstate_image_sensors: { definition: "Metal–oxide–semiconductor (MOS) technology, [ 1 ] which originates from the invention of the MOSFET (MOS field-effect transistor) at Bell Labs in 1959", what_it_does: "", examples: "the CCD and later the CMOS active-pixel sensor" },
+  some_like_panavision_pv_and_arri_pl: "Designed for movie cameras while others like Canon EF and Sony E come from still photography",
+
 };
 
 // ============================================================
