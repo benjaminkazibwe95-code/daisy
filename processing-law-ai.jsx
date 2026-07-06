@@ -66991,6 +66991,11 @@ const FLAT_DICT = {
   the_ibm_haifa_research_lab: { definition: "Located in a custom-built complex adjacent to the Haifa University campus, with branches in Haifa and Tel Aviv", what_it_does: "", examples: "the Technion (Israel Institute of Technology) and supervising post-graduate theses" },
   the_stg_lab_in_israel: "Involved in three major activities: storage technology , de-duplication software, and chip design",
 
+  // === INGESTED 2026-07-06 22:41 ===
+  the_magic_platform: "Originally designed and developed by Jonathan (Yoni) Hashkes, along with Miko Hasson who was responsible for programme management",
+  guy_bernstein: { definition: "Appointed CEO of Magic Software Enterprises in April 2010", what_it_does: "", examples: "new product names and a new logo and tagline" },
+  unipaas: "Renamed 'Magic xpa Application Platform' and iBOLT was renamed 'Magic xpi Integration Platform'",
+
 };
 
 // ============================================================
