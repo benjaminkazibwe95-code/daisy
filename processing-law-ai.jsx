@@ -64595,6 +64595,10 @@ const FLAT_DICT = {
   smyth: "Born in Wallsend , Northumberland, England, the son of Edward Smyth, a mining engineer, and his wife Ann ( née Brough)",
   three_members_of_parliament: "Appointed to inquire into the matter, and after a series of sittings held in February, March and April 1876, Smyth resigned from the service",
 
+  // === INGESTED 2026-07-06 12:17 ===
+  if_the_kick: "Missed, the touchdown did not count",
+  that_team: { definition: "Coached by Charlie Baillie who took over in 1972 and served as head coach until 2000", what_it_does: "", examples: "two winless seasons in 2007 and 2008" },
+
 };
 
 // ============================================================
