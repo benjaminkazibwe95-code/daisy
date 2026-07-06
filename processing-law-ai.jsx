@@ -64838,6 +64838,21 @@ const FLAT_DICT = {
   although_a_schema: "Defined in text database language, the term is often used to refer to a graphical depiction of the database structure",
   the_data_of_each_object: "Physically contained in one or more of the tablespace's datafiles",
 
+  // === INGESTED 2026-07-06 13:25 ===
+  bim: { definition: "Supported by various tools, processes, technologies and contracts", what_it_does: "", examples: "the acronym 'BIM') did not become popularly used until some 10 years later" },
+  ifc: "Recognised by the ISO and has been an international standard, ISO 16739, since 2013",
+  these_different_views: "Automatically consistent, being based on a single definition of each object instance",
+  a_cde: "Used to share data across a project or asset lifecycle, supporting collaboration across a whole project team",
+  bim_additionally: { definition: "Able to aid in collision detection, identifying the exact location of discrepancies", what_it_does: "architects and engineers to integrate and analyze environmental issues in their design over the life cycle of the asset", examples: "via IFC or COBie) can thus yield benefits to the facility owner or operator" },
+  the_ministry_of_construction_announced_bim: "The key application technology of informatisation in 'Ten new technologies of construction industry' (by 2010)",
+  buildingsmart_hong_kong: { definition: "Inaugurated in Hong Kong SAR in late April 2012", what_it_does: "", examples: "the Civil and Environmental Engineering Department at Amirkabir University of Technology" },
+  the_bca_academy: { definition: "Training students in BIM", what_it_does: "", examples: "ISO19650 series as determined by the Article 10 (Technical Specification) of the Agreement" },
+  the_first_industrylevel_bim_conference: { definition: "Held in April 2008, after which, BIM has been spread very rapidly", what_it_does: "", examples: "2014/24/EU on Public Procurement" },
+  national_bim_development: { definition: "Centred around the local organisation, buildingSMART Norway which represents 25% of the Norwegian construction industry", what_it_does: "", examples: "a free-to-use set of UK standards and tools that defined 'level 2 BIM'" },
+  designers: { definition: "Required to use the international standards of interoperability for BIM (IFC)", what_it_does: "", examples: "Virtual Building Environment (VBE) also considered" },
+  smaller_firms: "Less advanced with respect to process and policy adherence",
+  its_initial_task: { definition: "To promote the SA BIM Protocol", what_it_does: "", examples: "manufacture" },
+
 };
 
 // ============================================================
