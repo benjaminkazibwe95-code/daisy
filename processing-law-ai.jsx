@@ -63671,6 +63671,13 @@ const FLAT_DICT = {
   while_onedrive: "A personal storage service on the web, OneDrive for Business is a managed cloud storage for business users that replaces SharePoint Workspace",
   the_physical_medium_on_which_the_information: "Stored can be either hosted on-premises or purchased as service subscription from Microsoft",
 
+  // === INGESTED 2026-07-06 07:58 ===
+  cloud_management: "The administration and oversight of cloud computing products and services",
+  public_clouds: "Managed by cloud service providers, which operate the underlying infrastructure such as servers, storage, networking, and data center facilities",
+  rapid_adoption_of_cloud_services: { definition: "Introducing a new set of management challenges for those technical professionals responsible for managing IT systems and services", what_it_does: "", examples: "Cloud Brokerage, DevOps Automation, Governance, and Day-2 Life Cycle Operations" },
+  because_control_of_these_functions: { definition: "Based on the cloud provider’s infrastructure and services, public cloud users must integrate with the cloud infrastructure management", what_it_does: "", examples: "electrical power" },
+  cmps_manage_cloud_services_and_resources_that: "Distributed across multiple cloud platforms",
+
 };
 
 // ============================================================
