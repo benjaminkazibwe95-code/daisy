@@ -63294,6 +63294,16 @@ const FLAT_DICT = {
   this_mistake: "Old, dating back at least to Campbell in 1905",
   even_when_the_betz_cells: { definition: "Damaged, the cortex can still communicate to subcortical motor structures and control movement", what_it_does: "", examples: "one region appears to emphasize the rhythmic control of whisking" },
 
+  // === INGESTED 2026-07-06 06:17 ===
+  the_earliest_known_fossil: "From the Cambrian , some 500 million years ago",
+  tardigrades: { definition: "Usually about 0.5 mm (0.02 in) long when fully grown", what_it_does: "", examples: "items of clothing, statues, soft toys and crochet patterns" },
+  the_body_cavity: "A haemocoel , an open circulatory system, filled with a colourless fluid",
+  the_body_covering_is_a_cuticle_that: "Replaced when the animal moults ; it contains hardened ( sclerotised ) proteins and chitin but is not calcified",
+  also_in_the_head: { definition: "Two eyespots in the brain, and several sensory cirri and pairs of hollow antenna-like clavae which may be chemoreceptors", what_it_does: "to stop the legs sliding during walking, and are used for gripping", examples: "" },
+  annulatus: { definition: "For the male to place the sperm under the female's cuticle; when she moults, she lays eggs into the cast cuticle, where they are fertilised", what_it_does: "", examples: "on lichens , liverworts , and mosses , and directly in soil and leaf litter" },
+  the_name_tardigradum: "'slow walker' and was given by Lazzaro Spallanzani in 1776",
+  all_four_of_these: { definition: "Now the nominal species for higher tardigrade taxa", what_it_does: "", examples: "the relationship of tardigrade body segments to those of other Panarthropoda" },
+
 };
 
 // ============================================================
