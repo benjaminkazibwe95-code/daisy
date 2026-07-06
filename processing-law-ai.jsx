@@ -65740,6 +65740,38 @@ const FLAT_DICT = {
   the_third_public_library: "The Desai Memorial Library which was built in 1942",
   rural_and_urban_poor_communities: "Better able to tackle their problems and introduce social change if they have access to relevant information that meets their needs and interests",
 
+  // === INGESTED 2026-07-06 17:11 ===
+  the_korean_peninsula: "Inhabited as early as the Lower Paleolithic period",
+  its_first_kingdom: "Noted in Chinese records in the early seventh century BC",
+  the_name_korea: "An exonym derived from the historical Korean kingdom name Goryeo ( Korean : 고려 ; Hanja : 高麗 ; MR : Koryŏ )",
+  goryeo: "The shortened name officially adopted by Goguryeo in the 5th century [ 11 ] [ 12 ] [ 13 ] and the name of its 10th-century successor state Goryeo",
+  the_new_official_name: "Derived from the ancient kingdom of Gojoseon",
+  gija_joseon: { definition: "Purportedly founded in the 12th century BC, but its existence and role have been controversial in the modern era", what_it_does: "", examples: "the Liao River area or the Amur River area" },
+  late_silla: { definition: "A wealthy country, [ 56 ] and its metropolitan capital of Gyeongju [ 57 ] grew to become the fourth largest city in the world", what_it_does: "", examples: "Hwangnyongsa , Seokguram , and the Emille Bell" },
+  what_followed: "A period of forced assimilation in which the Korean language, culture, and history were suppressed",
+  among_the_resistance_groups: "Provisional Government of the Republic of Korea",
+  no_peace_treaty: "Ever signed, resulting in the two countries remaining technically at war",
+  this_mountainous_peninsula: { definition: "Flanked by the Yellow Sea to the west and the Sea of Japan to the east", what_it_does: "", examples: "all its islands, lies between latitudes 33° and 39°N , and longitudes 124° and 130°E" },
+  its_total_area: { definition: "100,472.4 square kilometers (38,792.61 sq mi)", what_it_does: "", examples: "the Boseong Tea Fields, Suncheon Bay Ecological Park , and Jirisan" },
+  the_easternmost_islands_of_south_korea: "Ulleungdo and the Liancourt Rocks (Dokdo/Takeshima), while Marado and Socotra Rock are the southernmost islands of South Korea",
+  winter_temperatures: "Higher along the southern coast and considerably lower in the mountainous interior",
+  local_governments: "Semi-autonomous and contain executive and legislative bodies of their own",
+  forces: { definition: "Sent to defend against an invasion from North Korea of the South and subsequently fought as the largest contributor of UN troops", what_it_does: "", examples: "the Khitan people and the Manchurians, before the Qing dynasty, and received tributes from them" },
+  many_of_these_forces: "Concentrated near the Korean Demilitarized Zone",
+  all_south_korean_males: "Constitutionally required to serve in the military, typically for 18 months",
+  the_right_to_conscientious_objection: "Not recognized in South Korea until recently",
+  a_fully_functioning_un_command: { definition: "At the top of the chain of command of all forces in South Korea, including the U.S", what_it_does: "", examples: "Seoul , Busan , and Daegu have urban rapid transit systems" },
+  there_are_also_many_airports_that: { definition: "Built as part of the infrastructure boom but are barely used", what_it_does: "", examples: "almost 19 million international passengers in 2016" },
+  eligibility_for_the_national_pension_scheme: { definition: "Not dependent on income but on age and residence, with those aged 18 to 59 covered", what_it_does: "", examples: "the division of Korea and the Korean War that occurred right after its independence" },
+  the_two_failed_kslvi_launch_vehicles: { definition: "Based on the Universal Rocket Module , the first stage of the Russian Angara rocket , combined with a solid-fueled second stage built by South Korea", what_it_does: "", examples: "production of hepatitis vaccines and antibiotics" },
+  the_four_largest_diaspora_populations: "In China (2.3 million), the United States (1.8 million), Japan (850,000), and Canada (250,000)",
+  korean: { definition: "The official language of South Korea and is classified by most linguists as a language isolate", what_it_does: "", examples: "print media and legal documentation" },
+  freedom_of_religion: "Guaranteed by the constitution, and there is no state religion",
+  the_school_year: { definition: "Divided into two semesters: the first begins in March and ends in mid-July, and the second begins in late August and ends in mid-February", what_it_does: "", examples: "Joseon's baekja and buncheong , and Goryeo 's celadon are well known throughout the world" },
+  establishing_harmony_between_man_and_nature: "Also a favorite of this time",
+  memorial_day: "Celebrated on June 6, and its purpose is to honor the men and women who died in South Korea's independence movement",
+  korean_cuisine: "Largely based on rice , noodles , tofu , vegetables, fish and meats",
+
 };
 
 // ============================================================
