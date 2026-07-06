@@ -64800,6 +64800,26 @@ const FLAT_DICT = {
   smb_secretary: "Brandilyn Stigler (Southern Methodist University), and treasurer is Claus Kadelka (Iowa State University)",
   the_society_holds_annual_meetings_that: "Important locations for dissemination of research",
 
+  // === INGESTED 2026-07-06 13:10 ===
+  history_taking: { definition: "Of importance in trying to determine the most likely cause", what_it_does: "", examples: "glycogen ), platelet production, and clearance of bilirubin" },
+  portal_hypertension: "Responsible for the most severe complications of cirrhosis",
+  its_surface: { definition: "Irregular, the consistency is firm, and if associated with steatosis , the color is yellow", what_it_does: "", examples: "bilirubin , albumin , and INR" },
+  the_childpugh_score: "A validated predictor of mortality after a major surgery",
+  drinking_two_or_more_cups_of_coffee_a_day: "Associated with improvements in the liver enzymes ALT , AST , and GGT",
+  a_healthy_diet: "Encouraged, as cirrhosis may be an energy-consuming process",
+  treatment_for_hepatitisrelated_cirrhosis: { definition: "Medications used to treat the different types of hepatitis, such as interferon for viral hepatitis and corticosteroids for autoimmune hepatitis", what_it_does: "", examples: "penicillamine" },
+  when_the_cause: "An iron overload , iron is removed using a chelation agent such as deferoxamine or by bloodletting",
+  the_drug_semaglutide: { definition: "Shown to provide greater NASH resolution versus placebo", what_it_does: "", examples: "entecavir and tenofovir where cirrhosis is due to hepatitis B prevents progression of cirrhosis" },
+  if_a_medication_that_harms_the_liver: "Still recommended by a doctor, the dosage can be adjusted to aim for minimal stress on the liver",
+  life_expectancy_without_a_liver_transplant: "Low, at most three years",
+  the_goal_of_palliative_care: "To improve quality of life for both the patient and the patient's family, and it is appropriate at any stage and for any type of cirrhosis",
+  clotting_function: "Estimated by lab values, mainly platelet count , prothrombin time (PT) , and international normalized ratio (INR)",
+  aldosterone_antagonists: "Preferred for people who can take oral medications and do not need an urgent volume reduction",
+  human_serum_albumin_solution: { definition: "Usually given to prevent complications from the rapid volume reduction", what_it_does: "", examples: "propranolol or nadolol , are commonly used to lower blood pressure over the portal system" },
+  tips: "Generally regarded only as a bridge to liver transplantation [ 145 ] or as a palliative measure",
+  if_esophageal_varices: { definition: "Found, prophylactic local therapy may be applied, such as sclerotherapy or banding, and beta blockers may be used", what_it_does: "", examples: "benzodiazepines, diuretics, or narcotics can also precipitate encephalopathic events" },
+  kupfer_cells: "Resident macrophages in the liver, which help to destroy pathogens",
+
 };
 
 // ============================================================
