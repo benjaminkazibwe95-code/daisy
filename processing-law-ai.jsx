@@ -63923,6 +63923,16 @@ const FLAT_DICT = {
   an_ersatz_austrian: "Apparently more loyal than the genuine article",
   an_appendix: "Added to Volume III in 1908, so completing publication of the set",
 
+  // === INGESTED 2026-07-06 09:34 ===
+  islamabad: "The nation's capital, while Karachi is its largest city and financial centre",
+  the_pakistani_economy: { definition: "Ranked amongst the world's emerging and growth-leading economies, [ 14 ] with a large and rapidly growing middle class", what_it_does: "", examples: "Mohenjo-daro and Harappa" },
+  sindh_and_punjab: { definition: "Located on the north-western corner of the Indian Plate, while Balochistan and much of Khyber Pakhtunkhwa lie along its north-western margin", what_it_does: "", examples: "Azad Kashmir, lie along the northern edge of the Indian Plate and are prone to powerful earthquakes" },
+  although_pakistan: { definition: "Granted major non-NATO ally status by the U.S", what_it_does: "", examples: "Jammu and Kashmir and Ladakh , while Pakistan controls roughly 38" },
+  the_inaugural_meeting: { definition: "Attended by the heads of the ISI , IB , and FIA", what_it_does: "", examples: "withdrawal of government advertisements—for publishing content critical of government policies" },
+  girls_married_through_this_practice: { definition: "Often treated as compensation for a dispute, which places them in a vulnerable social position within the family they marry into", what_it_does: "", examples: "Mohenjo-daro and Harappa , [ 443 ] and numerous mountain peaks over 7,000 metres (23,000 feet)" },
+  the_primary_family_unit: { definition: "The extended family , but there's a rising trend towards nuclear families due to socio-economic factors", what_it_does: "", examples: "Urdu , Sindhi , Punjabi , Pashto , Baluchi , Persian , English , and more" },
+  although_bollywood_films: "Banned from public cinemas from 1965 to 2008, they remained influential in Pakistani popular culture",
+
 };
 
 // ============================================================
