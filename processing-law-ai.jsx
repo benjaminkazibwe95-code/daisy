@@ -66782,6 +66782,26 @@ const FLAT_DICT = {
   code_reflecting_this_change: { definition: "Also posted to the AOSP source repository", what_it_does: "", examples: "Gmail, Google Maps and the Google Play Store" },
   contrary_to_reports_that_she: "Tasked with a project to create an icon, [ 571 ] Blok confirmed in an interview that she independently developed it and made it open source",
 
+  // === INGESTED 2026-07-06 22:00 ===
+  victor_hasselblad_ab: "A Swedish manufacturer of medium format cameras , photographic equipment and image scanners based in Gothenburg , Sweden",
+  an_internal_design_competition: "Held for elements of the camera; one of the winners was Sixten Sason , the designer of the original Saab bodywork",
+  fuji: "Allowed under the agreement to sell the H1 under their name in Japan only",
+  modifications: "Made to permit ease of use in cramped conditions while wearing spacesuits, such as the replacement of the reflex mirror with an eye-level finder",
+  modifications_by_nasa_technicians: { definition: "Further refined and incorporated into new models by Hasselblad", what_it_does: "", examples: "development of a 70 mm magazine was accelerated to meet the space program" },
+  only_prototypes: "Made of the Ektar 6.3/55 mm and the 5.6/254 mm lenses",
+  most_lenses: "Made by Zeiss in Germany but the very early 1600F lenses were made by Kodak",
+  the_swc: "Replaced by the SWC/M, the 903 SWC, and finally by the 905 SWC",
+  the_entire_production_run: "Limited to only 500 units, all numbered",
+  the_v_system_of_cameras: "Modular with interchangeable lenses and backs",
+  the_interchangeable_film_backs: "Originally designed to accommodate medium format film (220 & 120) and supported various aspect ratios, e.g",
+  the_xpan_cameras: "Re-branded versions of the Fuji TX-1 and TX-2",
+  the_intent_in_releasing_the_xpan: "To provide medium format image quality on 35mm film",
+  the_shutter_in_the_lenses: { definition: "Still manufactured by Hasselblad as well as the body", what_it_does: "", examples: "As with the V-series, most H1- and H2-series components were compatible with one another" },
+  the_x_system: "A line of relatively compact mirrorless interchangeable-lens cameras built around a 43.8×32.9 mm (1.72×1",
+  the_body_color: "Changed from silver on the original X1D to a gunmetal color on the X1D II, and the grip material was changed as well",
+  phocus: { definition: "Available as a free download from the Hasselblad homepage", what_it_does: "", examples: "its 24.3 MP APS-C sensor, processing engine and user interface" },
+  victor: "Available online as PDF , but registration is required",
+
 };
 
 // ============================================================
