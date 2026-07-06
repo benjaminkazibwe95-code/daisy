@@ -66530,6 +66530,20 @@ const FLAT_DICT = {
   the_lifeexpectancy_of_a_mechanical_shutter: { definition: "Often expressed as a number of shutter cycles", what_it_does: "", examples: "shutter speed, aperture, and shutter count" },
   shutters: "Also used simply to regulate pulses of light, with no film being used, as in a signal lamp",
 
+  // === INGESTED 2026-07-06 20:55 ===
+  in_an_extrinsic_semiconductor_it: "These foreign dopant atoms in the crystal lattice that mainly provide the charge carriers which carry electric current through the crystal",
+  the_doping_agents_used: "Of two types, resulting in two types of extrinsic semiconductor",
+  an_electron_donor_dopant: { definition: "An atom which, when incorporated in the crystal, releases a mobile conduction electron into the crystal lattice", what_it_does: "", examples: "diodes , transistors , integrated circuits , semiconductor lasers , LEDs , and photovoltaic cells" },
+  semiconductor_doping: "The process that changes an intrinsic semiconductor to an extrinsic semiconductor",
+  impurity_atoms: "Classified as either donor or acceptor atoms based on the effect they have on the intrinsic semiconductor",
+  semiconductors_and_dopant_atoms: "Defined by the column of the periodic table in which they fall",
+  ntype_semiconductors: "Created by doping an intrinsic semiconductor with an electron donor element during manufacture",
+  a_common_dopant_for_ntype_silicon: "Phosphorus or arsenic",
+  ptype_semiconductors: "Created by doping an intrinsic semiconductor with an electron acceptor element during manufacture",
+  the_term_ptype: "The positive charge of a hole",
+  for_ptype_semiconductors_the_fermi_level: "Below the intrinsic semiconductor and lies closer to the valence band than the conduction band",
+  extrinsic_semiconductors: "Components of many common electrical devices",
+
 };
 
 // ============================================================
