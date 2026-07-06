@@ -64794,6 +64794,12 @@ const FLAT_DICT = {
   natural_uranium: "Bombarded by neutrons and transmuted into uranium-239 , which rapidly decays, first into neptunium-239 and then into plutonium-239",
   a_week_later_the_load: "Increased to 36 short tons (33 t) , raising its power generation to 500 kW, and by the end of the month the first 500 mg of plutonium was created",
 
+  // === INGESTED 2026-07-06 13:08 ===
+  the_society_for_mathematical_biology: "Governed by its Officers and Board of Directors, elected by the membership",
+  current_smb_president: "Reinhard Laubenbacher (University of Florida), and Past-President serving as vice president is Jane Heffernan (York University)",
+  smb_secretary: "Brandilyn Stigler (Southern Methodist University), and treasurer is Claus Kadelka (Iowa State University)",
+  the_society_holds_annual_meetings_that: "Important locations for dissemination of research",
+
 };
 
 // ============================================================
