@@ -64676,6 +64676,31 @@ const FLAT_DICT = {
   normally_our_phenomenal_experience: "Dependent upon our sensory modalities and our bodily progress around an environment",
   horgan: { definition: "A leading proponent of the view that intentionality is grounded in phenomenal consciousness , often called the phenomenal intentionality theory (PIT)", what_it_does: "", examples: "formulating a theory of the supererogatory" },
 
+  // === INGESTED 2026-07-06 12:43 ===
+  each_hemisphere: "Divided into four main lobes – the frontal lobe , parietal lobe , temporal lobe , and occipital lobe",
+  the_hemispheres: "Connected by commissural nerve tracts , the largest being the corpus callosum",
+  the_cerebrum: "Connected by the brainstem to the spinal cord",
+  within_the_cerebrum: "The ventricular system , consisting of four interconnected ventricles in which cerebrospinal fluid is produced and circulated",
+  brain_structures_that: "Not on the midplane exist in pairs; for example, there are two hippocampi and two amygdalae",
+  the_whole_circuitry: "Driven by the process of neurotransmission",
+  the_study_of_the_anatomy_of_the_brain: "Neuroanatomy , while the study of its function is neuroscience",
+  numerous_techniques: { definition: "Used to study the brain", what_it_does: "", examples: "the 1942 Donovan's Brain" },
+  behind_the_brainstem: "The cerebellum ( Latin : little brain )",
+  the_membranes: "The tough dura mater ; the middle arachnoid mater and the more delicate inner pia mater",
+  between_the_arachnoid_mater_and_the_pia_mater: "The subarachnoid space and subarachnoid cisterns , which contain the cerebrospinal fluid",
+  the_largest_part_of_the_cerebral_cortex: "The neocortex , which has six neuronal layers",
+  the_rest_of_the_cortex: "Of allocortex , which has three or four layers",
+  the_remaining_parts_of_the_cortex: "Called the association areas",
+  below_the_corpus_callosum: "The septum pellucidum , a membrane that separates the lateral ventricles",
+  beneath_the_lateral_ventricles: "The thalamus and to the front and below is the hypothalamus",
+  betz_cells: { definition: "The largest cells (by size of cell body) in the nervous system", what_it_does: "", examples: "tanycytes ), radial glial cells , microglia , and a subtype of oligodendrocyte progenitor cells" },
+  these_movements: "Supported and regulated by two other areas, lying anterior to the primary motor cortex: the premotor area and the supplementary motor area",
+  some_taste_information: "Also passed from the pharynx into this area via the vagus nerve",
+  blood_pressure_and_heart_rate: "Influenced by the vasomotor centre of the medulla, which causes arteries and veins to be somewhat constricted at rest",
+  the_circadian_rhythm: "Controlled by two main cell groups in the hypothalamus",
+  the_left_frontal_lobe: { definition: "Dominant for language", what_it_does: "", examples: "the basal ganglia in happiness, the subcallosal cingulate cortex in sadness, and amygdala in fear" },
+  electrophysiology: "Used to measure, record and monitor the electrical activity of the cortex",
+
 };
 
 // ============================================================
