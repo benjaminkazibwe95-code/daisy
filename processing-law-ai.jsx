@@ -64225,6 +64225,27 @@ const FLAT_DICT = {
   the_added_activity: { definition: "Predominantly composed of moderate-to-vigorous physical activity, which is linked to an array of associated health benefits", what_it_does: "", examples: "flooding, improving the quality of both air and water, carbon sequestration, etc" },
   the_calculation_of_transit_time_maps: "Computationally intensive , and considerable work is being done on more efficient algorithms for quickly producing such maps",
 
+  // === INGESTED 2026-07-06 10:51 ===
+  eccentric_training: "Of huge benefit to those that wish to avert injuries by improving the muscle's abilities to absorb more energy before deteriorating",
+  an_eccentric_contraction: "The motion of an active muscle while it is lengthening under load",
+  when_myofilaments_of_the_muscle_fiber: "Stretched in such eccentric contractions there can be reduced numbers of detachments of cross bridge myosin and actin links",
+  the_energy_that: "Absorbed by the muscle can be converted into elastic recoil energy , and can be recovered and reused by the body",
+  this_creates_more_efficiency_because_the_body: "Able to use the energy for the next movement, decreasing the initial impact or shock of the movement",
+  this_justifies_why_this_type_of_training: "More beneficial and less of a risk to subjects rehabilitating or with a limited exercise capacity",
+  other_articles_have_found_that_muscle_damage: "Not required to reach hypertrophy",
+  eccentric_muscle_contractions: "Considered to be negative work as the muscle is working with resistance",
+  negative_work: "The mechanical energy absorbed by the work conducted on a muscle when the force on the muscle is greater than the force produced",
+  the_amount_of_oxygen_consumption: "Measured during the motion of pedaling forward as positive work and pedaling with resistance as negative work",
+  an_eccentric_cycling_exercise_workout: "Created for these patients and the results found there to be no side effects, minimal muscle soreness that had no effect on power, and high compliance",
+  eccentric_contractions: "A frequent cause of muscle injury when engaging in unaccustomed exercise",
+  while_typically_these_disorders: "Directly related to eccentric muscle movements, the ability of a muscle to strengthen and prevent injury through eccentric training is great",
+  while_eccentric_stress: "Related to the injury, high-force eccentric exercises are needed to maximize recovery",
+  this_is_the_reason_patellar_tendonitis: "Often called 'jumper's knee'",
+  the_acl: "One of the four main stabilizing ligaments of the knee",
+  bone_mass: "Affected by muscle forces and their loads on the bone structure",
+  the_strength_and_density_of_the_bone: { definition: "Directly influenced by local strain", what_it_does: "", examples: "hiking and mountaineering" },
+  because_the_internal_resistance_of_the_device: "Low, the same force was being applied by both individuals, yet the task was much easier for the individual braking",
+
 };
 
 // ============================================================
