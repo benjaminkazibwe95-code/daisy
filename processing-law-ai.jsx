@@ -64455,6 +64455,9 @@ const FLAT_DICT = {
   the_amount_of_juice_reward: { definition: "Then varied to modulate choice", what_it_does: "", examples: "a saccade or pressing a button" },
   a_is_positive_if_the_correct_response: "Represented by the upper threshold, and negative if the lower",
 
+  // === INGESTED 2026-07-06 11:45 ===
+  obedience: "Encouraged by reminding the individual of what a perceived authority states and by showing them that their opinion goes against this authority",
+
 };
 
 // ============================================================
