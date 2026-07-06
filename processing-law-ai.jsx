@@ -63251,6 +63251,11 @@ const FLAT_DICT = {
   a_significant_aspect_of_his_research: "Developing the mathematics necessary to analyze these objects",
   this_recorded_detection: "The first direct observation of the fleeting chirp of a gravitational wave and confirmed a prediction of the general theory of relativity",
 
+  // === INGESTED 2026-07-06 05:58 ===
+  the_sombrero_galaxy: "Discovered on May 11, 1781 by Pierre Méchain , who described the object in a May 1783 letter to J",
+  bernoulli_that: { definition: "Later published in the Berliner Astronomisches Jahrbuch", what_it_does: "", examples: "the hand-written notes about the Sombrero Galaxy" },
+  this_dust_lane: "Actually a symmetrical ring that encloses the bulge of the galaxy",
+
 };
 
 // ============================================================
