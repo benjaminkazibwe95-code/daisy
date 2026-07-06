@@ -63134,6 +63134,12 @@ const FLAT_DICT = {
   this_suggests_that_aromaticity: { definition: "Not a strict requirement for favorable interaction with an aromatic ring", what_it_does: "", examples: "stacked nucleobases may be overestimated" },
   the_latter_compound_provides_a: "Of conserving the number of p-electrons while, however, removing the effects of delocalization",
 
+  // === INGESTED 2026-07-06 05:16 ===
+  collision_theory: { definition: "Initially developed for the gas reaction system with no dilution", what_it_does: "", examples: "gas reactions in a carrying inert gas , and almost all reactions in solutions" },
+  the_activation_energy: "Often predicted using the transition state theory",
+  once_a_theory: "Formulated, its validity must be tested, that is, compare its predictions with the results of the experiments",
+  collision_in_diluted_gas_or_liquid_solution: "Regulated by diffusion instead of direct collisions, which can be calculated from Fick's laws of diffusion",
+
 };
 
 // ============================================================
