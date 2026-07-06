@@ -65333,6 +65333,10 @@ const FLAT_DICT = {
   macmillan: "Founded in London in 1843 by Daniel and Alexander MacMillan , two brothers from the Isle of Arran , Scotland",
   i_feel_it: "Entirely right and appropriate that these senior seats should be taken by women",
 
+  // === INGESTED 2026-07-06 15:40 ===
+  an_imprint_of_a_publisher: { definition: "A trade name under which it publishes a work", what_it_does: "", examples: "Activision Blizzard , ZeniMax , Electronic Arts from 2008 to 2018, Warner Bros" },
+  taketwo: "Seen as 'a game holding company with autonomous game publishing and development subsidiaries'",
+
 };
 
 // ============================================================
