@@ -64173,6 +64173,18 @@ const FLAT_DICT = {
   the_soldiers: { definition: "Ordered to attack him when 'The black soup is still left' was said, hence the phrase", what_it_does: "", examples: "intestines" },
   kaszanka: "The Polish incarnation of blood sausage",
 
+  // === INGESTED 2026-07-06 10:32 ===
+  a_nutrient: { definition: "A substance used by an organism to survive, grow and reproduce", what_it_does: "", examples: "hair , scales , feathers , or exoskeletons" },
+  essential_nutrients_for_animals: "The energy sources, some of the amino acids that are combined to create proteins , a subset of fatty acids , vitamins and certain minerals",
+  the_requirement_for_vitamin_d: "Conditional, as people who get sufficient exposure to ultraviolet light, either from the sun or an artificial source, synthesize vitamin D in the skin",
+  the_need_for_nitrogen: "Addressed by requirements set for protein, which is composed of nitrogen-containing amino acids",
+  there_are_other_minerals_which: "Essential for some plants and animals, but may or may not be essential for humans, such as boron and silicon",
+  choline: "Not initially classified as essential because the human body can produce choline in small amounts through phosphatidylcholine metabolism",
+  dietary_fiber: "Not absorbed in the human digestive tract",
+  alcoholic_beverages: "Considered empty calorie foods because, while providing energy, they contribute no essential nutrients",
+  rdas: "Set higher than EARs to cover people with higher-than-average needs",
+  pri_population_reference_intake: { definition: "The European Union equivalent of RDA; it is higher for adults than for children and maybe even higher for pregnant or lactating women", what_it_does: "", examples: "acids , carbohydrates, lipids, proteins" },
+
 };
 
 // ============================================================
