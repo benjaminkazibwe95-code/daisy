@@ -64276,6 +64276,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 11:00 ===
   coverage: "Typically issued supplemental to standard coverage",
 
+  // === INGESTED 2026-07-06 11:02 ===
+  the_term_fixed_deposit: "Most commonly used in India and the United States",
+  a_fixed_deposit: { definition: "That the money cannot be withdrawn before maturity unlike a recurring deposit or a demand deposit", what_it_does: "", examples: "loans against FD certificates at competitive interest rates" },
+  fixed_deposits: "High-interest-yielding term deposits and are offered by banks",
+  this_receipt: "Known as the Fixed Deposit Receipt (FDR), which has to be surrendered to the bank at the time of renewal or encashment",
+  fixed_deposits_in_india: { definition: "Offered in several formats depending on the depositor’s needs", what_it_does: "", examples: "liquidity, tax treatment, and interest payout preferences" },
+  this_is_called_tax_deducted_at_source_and: "Presently fixed at 10% of the interest",
+  if_any_tax_on_fixed_deposit_interest: "Due after TDS, the holder is expected to declare it in Income Tax returns and pay it by himself",
+
 };
 
 // ============================================================
