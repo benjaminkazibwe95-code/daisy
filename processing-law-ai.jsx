@@ -66637,6 +66637,33 @@ const FLAT_DICT = {
   social_and_cultural_forces: "Driving this unique fashion scene",
   anticounterfeiting_technologies: { definition: "Added to products or their packaging to allow consumers or inspectors to check whether a product is authentic", what_it_does: "", examples: "ISO 12931 [ 44 ] and ISO 22381" },
 
+  // === INGESTED 2026-07-06 21:25 ===
+  emv: "Designed to allow cards and terminals to be backwardly compatible with these standards",
+  one_of_the_original_goals_of_emv: "To provide for multiple applications on a card: for a credit and debit card application or an e-purse",
+  when_payment_cards: { definition: "First introduced, merchants used mechanical rather than magnetic portable card imprinters that required carbon paper to make an imprint", what_it_does: "", examples: "Taiwan, Hong Kong, Thailand, South Korea, Singapore, and Indonesia)" },
+  the_intent_of_application_selection: "To let cards contain completely different applications—for example GSM and EMV",
+  the_way_application_selection: "Prescribed in EMV is a frequent source of interoperability problems between cards and terminals",
+  the_aid: "Printed on all EMV cardholder receipts",
+  emv_does_not_specify_which_files_data: "Stored in, so all the files must be read",
+  data_in_these_files: "Stored in BER TLV format",
+  three_data_elements_read_in_the_previous_step: "Checked: Application version number, Application usage control (this shows whether the card is only for domestic use, etc",
+  all_offline_methods: "Vulnerable to man-in-the-middle attacks",
+  if_transactions: "Always carried out on-line (e.g., ATMs) or always off-line, this step can be skipped",
+  if_the_result_of_any_of_these_tests: "Positive, the terminal sets the appropriate bit in the terminal verification results (TVR)",
+  the_tac: "Logically OR'd with the IAC, to give the transaction acquirer a level of control over the transaction outcome",
+  the_iac: "Set by the card issuer; some card issuers may decide that expired cards should be rejected, by setting the appropriate bit in the Denial IAC",
+  because_the_floor_limit: { definition: "Set to zero, the transaction should always go online and all other values in TAC-Online or IAC-Online are irrelevant", what_it_does: "", examples: "transaction amount, but many other data objects too)" },
+  the_arqc: "Sent in the authorisation message",
+  the_arqc_created_by_the_card_application: "A digital signature of the transaction details, which the card issuer can check in real time",
+  issuer_scripts: "Meaningless to the terminal and can be encrypted between the card and the issuer to provide additional security",
+  the_emv_standard: { definition: "Defined and managed by the privately owned corporation EMVCo LLC", what_it_does: "", examples: "LINK in the UK, or Interac in Canada" },
+  after_the_fraud_was_discovered_it: "Found that tampered-with terminals could be identified as the additional circuitry increased their weight by about 100 grams",
+  tens_of_millions_of_pounds: "Believed to have been stolen",
+  a_stolen_card: "Connected to an electronic circuit and to a fake card which is inserted into the terminal (' man-in-the-middle attack ')",
+  the_transactions: { definition: "Registered as normal, and were not picked up by banks' security systems", what_it_does: "", examples: "PIN verification) to be used for the transaction" },
+  the_team_demonstrated_that_it: "Possible to modify this data to trick the terminal into believing that no PIN is required because the cardholder was verified using their device (e.g",
+  many_smaller_businesses: { definition: "Initially reluctant to upgrade their equipment, as it required a completely new PoS system—a significant investment", what_it_does: "", examples: "American Express, Bank of America, Citibank, Wells Fargo , [ 84 ] JPMorgan Chase, U.S" },
+
 };
 
 // ============================================================
