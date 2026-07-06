@@ -66270,6 +66270,16 @@ const FLAT_DICT = {
   this_implies_that_the_base_uri_exists_and: { definition: "An absolute URI (a URI with no fragment component)", what_it_does: "", examples: "to add a 'checkout' command to a URL, it is written as http://editing.com/resource/file" },
   the_namespace_name: { definition: "A character string which must adhere to the generic URI syntax", what_it_does: "", examples: "a namespace name beginning with http: may have no connotation to the use of the HTTP" },
 
+  // === INGESTED 2026-07-06 19:40 ===
+  the_production_of_lh: "Regulated by gonadotropin-releasing hormone (GnRH) from the hypothalamus",
+  each_monomeric_unit: "A glycoprotein molecule; one alpha and one beta subunit make the full, functional protein",
+  the_biologic_halflife_of_lh: "20 minutes, shorter than that of FSH (3–4 hours) and hCG (24 hours)",
+  when_bloodstream_testosterone_levels: "Low, the pituitary gland is stimulated to release LH",
+  since_lh: "Secreted as pulses, it is necessary to follow its concentration over a sufficient period of time to get proper information about its blood level",
+  physiologic_high_lh_levels: { definition: "Seen during the LH surge (v.s.) and typically last 48 hours", what_it_does: "", examples: "the Clearblue fertility monitor" },
+  persistently_high_lh_levels: "Indicative of situations where the normal restricting feedback from the gonad is absent, leading to a pituitary production of both LH and FSH",
+  recombinant_luteinizing_hormone: "Available as lutropin alfa (Luveris)",
+
 };
 
 // ============================================================
