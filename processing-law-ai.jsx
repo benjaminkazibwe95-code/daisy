@@ -63266,6 +63266,26 @@ const FLAT_DICT = {
   there_are_two_categories_of_nerve_cells_that: "Found in the nerve nets of Hydra : ganglion and sensory",
   a_nerve_net: "Considered to be a separate structure in the cnidarians and is associated with signal molecules; it is primarily considered a neurochemical pathway",
 
+  // === INGESTED 2026-07-06 06:13 ===
+  the_human_mind: "Capable of introspection ( meta-cognition ), private thought , imagination , volition and forming views on existence",
+  childbirth: "Dangerous, with a high risk of complications and death",
+  all_modern_humans: { definition: "Classified into the species Homo sapiens , coined by Carl Linnaeus in his 1735 work Systema Naturae", what_it_does: "", examples: "by going into a persistent vegetative state ) and what the beginning of human personhood is" },
+  erectus_also: { definition: "The first to evolve a characteristically human body plan", what_it_does: "", examples: "Hawaii , Easter Island , Madagascar , and New Zealand in the years 300 to 1280 CE" },
+  the_most_significant_of_these_adaptations: "Hairlessness , [ 45 ] obligate bipedalism, increased brain size and decreased sexual dimorphism ( neoteny )",
+  the_relationship_between_all_these_changes: { definition: "The subject of ongoing debate", what_it_does: "", examples: "wheels, plows and sails" },
+  most_aspects_of_human_physiology: "Closely homologous to corresponding aspects of animal physiology",
+  while_one_in_five_europeans: "60 years of age or older, only one in twenty Africans is 60 years of age or older",
+  the_typical_height_of_an_adult_human: { definition: "Between 1.4 and 1.9 m (4 ft 7 in and 6 ft 3 in) , although this varies significantly depending on sex, ethnic origin , and family bloodlines", what_it_does: "", examples: "diet , exercise, and sleep patterns" },
+  some_of_this_ancestry: "Thought to originate from admixture with an unknown archaic hominin that diverged before the split of Neanderthals and modern humans",
+  males_on_average: { definition: "15% heavier and 15 cm (6 in) taller than females", what_it_does: "", examples: "thought , reasoning , and abstraction" },
+  the_average_sleep_requirement: "Between seven and nine hours per day for an adult and nine to ten hours per day for a child; elderly people usually sleep for six to seven hours",
+  having_less_sleep_than_this: { definition: "Common among humans, even though sleep deprivation can have negative health effects", what_it_does: "", examples: "reduced memory, fatigue, aggression, and bodily discomfort" },
+  the_events_in_dreams: "Generally outside the control of the dreamer, with the exception of lucid dreaming , where the dreamer is self-aware",
+  historically_it: "Associated with introspection , private thought , imagination and volition",
+  the_definition_of_happiness: { definition: "A common philosophical topic", what_it_does: "", examples: "the human sexual response cycle" },
+  the_first_form_of_human_social_organization: "Thought to have resembled hunter-gatherer band societies",
+  these_culturally_defined_relationships: { definition: "Referred to as kinship", what_it_does: "", examples: "previously strong political alliances, if doing so is seen as providing personal advantages" },
+
 };
 
 // ============================================================
