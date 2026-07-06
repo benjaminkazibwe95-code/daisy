@@ -65708,6 +65708,10 @@ const FLAT_DICT = {
   a_complementary_technique: "Absorption spectroscopy",
   absorption_spectroscopy: "Performed across the electromagnetic spectrum",
 
+  // === INGESTED 2026-07-06 17:00 ===
+  this_root: "The source of similar words for 'ten' in many other Germanic languages",
+  the_widespread_use_of_decimal_systems: "Believed to be because humans have ten fingers and ten toes , which people may have used to count by",
+
 };
 
 // ============================================================
