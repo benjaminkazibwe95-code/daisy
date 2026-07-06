@@ -64865,6 +64865,11 @@ const FLAT_DICT = {
   omt: "Developed as an approach to software development",
   it_details_how_processes: "Performed independently",
 
+  // === INGESTED 2026-07-06 13:40 ===
+  abstract_objects: "Most commonly used in philosophy , particularly metaphysics, and semantics",
+  the_term_abstract_object: "Said to have been coined by Willard Van Orman Quine",
+  one_problem_with_this_view_is_that_it: { definition: "Not clear exactly what it is to have causal power", what_it_does: "", examples: "states of the international legal system" },
+
 };
 
 // ============================================================
