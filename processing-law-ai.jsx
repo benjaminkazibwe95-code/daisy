@@ -66695,6 +66695,17 @@ const FLAT_DICT = {
   even_more_desirable: "Brand new unused gift cards even ones still attached to the retail backers",
   most_gift_cards: { definition: "Plastic, some variances include clear plastic, shaped cards, and paperboard cards", what_it_does: "", examples: "gift cards that resemble credit cards ( i.e" },
 
+  // === INGESTED 2026-07-06 21:32 ===
+  bancnet: "Allied with global payment brand JCB International , allowing JCB cardholders to make cash advances at BancNet member ATMs nationwide",
+  the_bancnet_pointofsale_system: "A local PIN-based electronic funds transfer (EFTPOS) payments solution operated by BancNet on behalf of the member banks and China UnionPay (CUP)",
+  acceptance_of_cup_cards: "Limited to SM Prime Holdings, Inc",
+  if_the_requested_amount: "Successfully debited from the customer's account, receipts will be printed for both the customer and retailer",
+  a_memorandum_of_agreement: "Signed in 2007 with Nationlink , admitting the latter as the first network alliance member of BancNet",
+  the_first_merchant_accreditation_contract: "Signed on May 6, 1994 [ 3 ] with Rustan's Corp",
+  but_the_service: "First made available later that year at the Robinsons Galleria Supermarket",
+  the_model_of_shared_atm_operations: "Then applied to the POS",
+  cash_withdrawal_on_the_pos: "Launched in early 2008",
+
 };
 
 // ============================================================
