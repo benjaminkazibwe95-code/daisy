@@ -65627,6 +65627,15 @@ const FLAT_DICT = {
   the_hsqc_experiment: "A series of steps to generate a two-dimensional NMR spectrum",
   the_magnetization_then_evolves_and_then: "Transferred back to the I nucleus for observation",
 
+  // === INGESTED 2026-07-06 16:45 ===
+  typical_input_signals_for_cfds: "Pulses from plastic scintillation counters , such as those used for lifetime measurement in electron–positron annihilation experiments",
+  the_incoming_signal: "Split into three components",
+  a_threshold_value: "Connected to the inverting input of the other comparator",
+  the_output_of_both_comparators: "Fed through an AND gate",
+  therefore_the_word_discriminator: "Used for something different (namely for an FM- demodulator )",
+  often_the_logic_levels: "Shifted from −15 V < low < 0 < high < 15 V delivered by the comparator to 0 V < low < 1.5 V < high < 3.3 V needed by CMOS logic",
+  if_an_analogtodigital_converter: "Used, this is called a multi channel analyzer (MCA)",
+
 };
 
 // ============================================================
