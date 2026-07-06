@@ -66041,6 +66041,11 @@ const FLAT_DICT = {
   the_observable_universe: "Actually only a very small part of the actual universe",
   he_ignored_magnetic_monopoles_because_they: "Based on assumptions of GUT, which was outside the scope of the speech",
 
+  // === INGESTED 2026-07-06 18:12 ===
+  since_those_solutions: "Metric tensors , the Alcubierre drive is also referred to as Alcubierre metric",
+  another_possible_issue: { definition: "That, although the Alcubierre metric is consistent with Einstein's equations, general relativity does not incorporate quantum mechanics", what_it_does: "", examples: "a visit to Proxima Centauri within a few days" },
+  the_interior_of_the_bubble: { definition: "An inertial reference frame and inhabitants experience no proper acceleration", what_it_does: "", examples: "time dilation would not apply as they would with conventional motion at near-light speeds" },
+
 };
 
 // ============================================================
