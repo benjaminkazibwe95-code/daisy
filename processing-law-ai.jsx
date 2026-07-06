@@ -65151,6 +65151,35 @@ const FLAT_DICT = {
   the_total_number_of_cache_misses: "Θ ( m n ) {\displaystyle \Theta (mn)}",
   the_hash_tables: "Described as easy to implement, while the Bender set 'required a greater amount of effort to implement correctly'",
 
+  // === INGESTED 2026-07-06 14:53 ===
+  robin_hood: "Known to have appeared in a number of other lost and extant Elizabethan plays",
+  the_sheriff: "Often depicted as assisting Prince John in usurping the rightful but absent King Richard , to whom Robin Hood remains loyal",
+  the_earliest_known_ballads_featuring_him: "From the 15th century",
+  the_setting_of_the_early_ballads: { definition: "Usually attributed by scholars to either the 13th or 14th century, although it is recognised they are not necessarily historically consistent", what_it_does: "", examples: "free retainers of an aristocrat and small landholders, it always referred to commoners" },
+  the_essence_of_it_in_the_present_context: { definition: "'neither a knight nor a peasant or 'husbonde' but something in between'", what_it_does: "", examples: "millers) were among those regarded as 'yeomen' in the 14th century" },
+  the_first_record_of_a_robin_hood_game: "In 1426 in Exeter , but the reference does not indicate how old or widespread this custom was at the time",
+  the_robin_hood_games: "Known to have flourished in the later 15th and 16th centuries",
+  the_first_printed_version: "A Gest of Robyn Hode ( c",
+  other_early_texts: "Dramatic pieces, the earliest being the fragmentary Robyn Hod and the Shryff off Notyngham [ 27 ] ( c",
+  the_character_of_robin_in_these_first_texts: { definition: "Rougher edged than in his later incarnations", what_it_does: "", examples: "oppressive taxes" },
+  among_these_ballads: "' Robin Hood and Little John ,' telling the famous story of the quarterstaff fight between the two outlaws",
+  from_this_period_there: "A number of ballads in which Robin is severely 'drubbed' by a succession of tradesmen including a tanner , a tinker , and a ranger",
+  yet_even_in_these_ballads_robin: "More than a mere simpleton: on the contrary, he often acts with great shrewdness",
+  even_when_robin: "Defeated, he usually tricks his foe into letting him sound his horn, summoning the Merry Men to his aid",
+  the_only_significant_omission: { definition: "Robin Hood and the Monk which would eventually be printed in 1806", what_it_does: "", examples: "the Robin Hood plays of Anthony Munday and the Sloane Manuscript" },
+  another_very_popular_version_for_children: "Howard Pyle 's The Merry Adventures of Robin Hood , which influenced accounts of Robin Hood through the 20th century",
+  these_developments: "Part of the 20th-century Robin Hood myth",
+  nine_of_these_ballads: "Significantly longer and more elaborate than the versions of the same ballads found in the broadsides and garlands",
+  robin: "Ill and staying at the priory where the prioress was supposedly caring for him",
+  robert_hod_of_york: "The only early Robin Hood known to have been an outlaw",
+  the_last_of_these: { definition: "Suggested to be the inspiration for Robin Hood's second name as opposed to the more common theory of a head covering", what_it_does: "", examples: "Kinmont Willie , which were based on historical events" },
+  the_saylis: "Recorded as having contributed towards the aid that was granted to Edward III in 1346–47 for the knighting of the Black Prince",
+  an_acre_of_landholding: "Listed within a glebe terrier of 1688 relating to Kirk Smeaton , which later came to be called 'Sailes Close'",
+  gest_states_that_the_prioress: "A relative of Robin's",
+  though_local_folklore_suggests_that_robin: "Buried in the grounds of Kirklees Priory, this theory has now largely been abandoned by historians",
+  another_theory: "That Robin Hood died at Kirkby, Pontefract",
+  robin_hood_hill: "Near Outwood, West Yorkshire , not far from Lofthouse",
+
 };
 
 // ============================================================
