@@ -64993,6 +64993,13 @@ const FLAT_DICT = {
   in_sinclair_basic_it: { definition: "Encoded as a single-byte code point token", what_it_does: "", examples: "F# ) to create an arrow" },
   greaterthan_sign: "Used in the ' spaceship operator ', <=>",
 
+  // === INGESTED 2026-07-06 14:14 ===
+  identifying_related_data_as_a_single_group: "Central to the construction of understandable computer programs",
+  one_component: "The field's datatype declaration",
+  once_a_record: "Defined, variables of the record can be allocated",
+  once_the_memory_of_the_record: "Allocated, a field can be accessed like a variable by using the dot notation",
+  file_fields: "The main storage structure in the Indexed Sequential Access Method (ISAM)",
+
 };
 
 // ============================================================
