@@ -67103,6 +67103,9 @@ const FLAT_DICT = {
   taggar: "Also the first non-founder Partner at the startup accelerator , Y Combinator , having first joined in 2010",
   since_taggar_and_his_cofounders: { definition: "'non-technical,' Y Combinator accepted them with the condition that one of them learned programming; Taggar was the one who eventually learned", what_it_does: "", examples: "an 'interviewing checklist' which Y Combinator still uses" },
 
+  // === INGESTED 2026-07-06 23:26 ===
+  the_final_straw: "When Conway looked into SVA's structure and found that Lee had paid himself more than SVA $250,000 annual salary cap via a fee waiver",
+
 };
 
 // ============================================================
