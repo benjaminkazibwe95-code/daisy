@@ -63506,6 +63506,23 @@ const FLAT_DICT = {
   marine_crustaceans: "As ubiquitous in the oceans as insects are on land",
   some_branchiurans: { definition: "Able to withstand rapid changes of salinity and will also switch hosts from marine to non-marine species", what_it_does: "", examples: "barnacles , remipedes , [ 34 ] and Cephalocarida" },
 
+  // === INGESTED 2026-07-06 06:58 ===
+  if_synapses: { definition: "Only reinforced by positive feedback , they would eventually come to the point of complete inactivity or too much activity", what_it_does: "", examples: "LTD and LTP" },
+  homosynaptic_ltd: "Also associative in that it correlates the activation of the postsynaptic neuron with the firing of the presynaptic neuron",
+  the_weakening_of_a_synapse: "Independent of the activity of the presynaptic or postsynaptic neurons as a result of the firing of a distinct modulatory interneuron",
+  nmdareceptor_dependent_ltd: "Induced by moderate rises in postsynaptic calcium levels",
+  while_other_mechanisms_of_longterm_depression: "Being investigated, calcium's role in LTD is a defined and well understood mechanism by scientists",
+  the_mapk_cascade: "Important in information processing within neurons and other various types of cells",
+  induced_cpkc_phosphorylates_ampa_receptors_and: "Eventually removed from the postsynaptic membrane via endocytosis",
+  the_timescale_is_for_this_process: { definition: "Approximately 40 minutes", what_it_does: "", examples: "releasing ATP to increase the adenosine levels in synapses to prevent LTD and produce LTP" },
+  the_reason_as_to_how_the_astrocytic_sensing: "Still to be discovered",
+  cerebellar_ltd: "Thought to lead to motor learning, and hippocampal LTD is thought to contribute to the decay of memory",
+  it_was_found_that_if_the_rats: "Exposed to novelty, the electrical stimulation required to depress synaptic transmission was of lower frequency than without novelty",
+  although_ltd_in_the_dorsal_striatum: { definition: "Found when exposed to high frequency stimulation, a simulation of alcohol tolerance and withdrawal resulted in LTP in the same region", what_it_does: "", examples: "Alzheimer's disease (AD) is ongoing" },
+  excess_glutamate: "A proposed contributor to the progressive neuronal loss involved in AD",
+  determining_this_relationship: "Presently one of the major focuses of LTD research",
+  new_evidence_demonstrates_there: "Similarities between the apoptotic pathway and LTD which involves the phosphorylation /activation of GSK3β",
+
 };
 
 // ============================================================
