@@ -62989,6 +62989,17 @@ const FLAT_DICT = {
   such_an_interface: { definition: "Said to be the object model of the represented service or system", what_it_does: "", examples: "the Java object model , the COM object model , or the object model of OMT" },
   such_object_models: "Usually defined using concepts such as class , message , inheritance , polymorphism , and encapsulation",
 
+  // === INGESTED 2026-07-06 04:08 ===
+  a_binary_tree: "Defined to be an AVL tree if holds for every node X in the tree",
+  if_the_tree: "Not empty, then we go down the root, and recursively go down the tree searching for the location to insert the new node",
+  this_traversal: "Guided by the comparison function",
+  if_the_above_procedure: "Applied to nodes along this path, starting from the leaf, then every node in the tree will again have a balance factor of −1, 0, or 1",
+  the_cost_of_this_function: "The difference of the heights between the two input trees",
+  the_cost_of_split: "O(log n ) , order of the height of the tree",
+  the_algorithm_for_intersection_or_difference: "Similar, but requires the Join2 helper routine that is the same as Join but without the middle key",
+  note_that_both_children: "In AVL shape by induction hypothesis",
+  the_result_of_the_left_rotation: "Shown in the lower half of the figure",
+
 };
 
 // ============================================================
