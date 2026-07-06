@@ -64591,6 +64591,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 12:13 ===
   the_mark_in_rugby: "Similar to the fair catch in American football",
 
+  // === INGESTED 2026-07-06 12:15 ===
+  smyth: "Born in Wallsend , Northumberland, England, the son of Edward Smyth, a mining engineer, and his wife Ann ( née Brough)",
+  three_members_of_parliament: "Appointed to inquire into the matter, and after a series of sittings held in February, March and April 1876, Smyth resigned from the service",
+
 };
 
 // ============================================================
