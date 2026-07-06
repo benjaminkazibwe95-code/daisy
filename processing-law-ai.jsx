@@ -64062,6 +64062,9 @@ const FLAT_DICT = {
   one_study_modeled_scenariobased_training_as_a: "To reduce occupational stress by providing simulated experience prior to performing a task",
   such_visits: { definition: "Found to be a scalable and sustainable public health intervention", what_it_does: "", examples: "job design ), they can also contribute to alleviating job stress" },
 
+  // === INGESTED 2026-07-06 10:08 ===
+  a_night_school: "An adult learning school that holds classes in the evening or at night to accommodate people who work during the day",
+
 };
 
 // ============================================================
