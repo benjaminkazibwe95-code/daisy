@@ -66405,6 +66405,30 @@ const FLAT_DICT = {
   the_internal_phylogeny_of_the_cephalopods: "Difficult to constrain; many molecular techniques have been adopted, but the results produced are conflicting",
   the_three_subclasses: "Traditional, corresponding to the three orders of cephalopods recognized by Bather",
 
+  // === INGESTED 2026-07-06 20:27 ===
+  the_superior_colliculus: "Positioned above the inferior colliculus, and marks the rostral midbrain",
+  the_pons: "Connected to the cerebellum by the cerebellar peduncles",
+  its_upper_part: "Continuous with the pons",
+  another_important_medullary_structure: "The area postrema whose functions include the control of vomiting",
+  moving_laterally_on_each_side: "The gracile fasciculus , and lateral to that is the cuneate fasciculus",
+  the_anterolateral_sulcus: "Lateral to the pyramids",
+  emerging_from_the_anterolateral_sulci: "The CN XII ( hypoglossal nerve ) rootlets",
+  the_olives: "Swellings in the medulla containing underlying inferior nucleary nuclei [ 13 ] (containing various nuclei and afferent fibers)",
+  the_medulla: "Above the decussation and the spinal cord below",
+  the_most_medial_part_of_the_medulla: "The posterior median sulcus",
+  underlying_these: "Their respective nuclei",
+  lateral_to_the_cuneate_fasciculus: "The lateral funiculus",
+  superior_to_the_obex: "The floor of the fourth ventricle",
+  underlying_each_of_these: "Motor nuclei for the respective cranial nerves",
+  superior_to_these_trigones: "Fibers running laterally in both directions",
+  lateral_to_the_sulcus_limitans: "The area of the vestibular system , which is involved in special sensation",
+  middle_cerebellar_peduncle: "Located inferior and lateral to the superior cerebellar peduncle, connecting pons to the cerebellum",
+  the_main_supply_of_blood_to_the_brainstem: { definition: "Provided by the basilar arteries and the vertebral arteries", what_it_does: "", examples: "where the arteries fuse or are reinforced" },
+  the_mesencephalon: { definition: "The second of the three primary vesicles, and does not further differentiate into a secondary brain vesicle", what_it_does: "", examples: "locked-in syndrome" },
+  duret_haemorrhages: "Areas of bleeding in the midbrain and upper pons due to a downward traumatic displacement of the brainstem",
+  these_determining_factors_are_that_the_patient: "Irreversibly unconscious and incapable of breathing unaided",
+  there_are_brainstem_reflexes_that: "Checked for by two senior doctors so that imaging technology is unnecessary",
+
 };
 
 // ============================================================
