@@ -63862,6 +63862,22 @@ const FLAT_DICT = {
   the_level_of_exchange_rate: { definition: "An important factor in maintaining exchange rate stability, both before and after currency convertibility", what_it_does: "", examples: "scams , ransomware ( extortion ), money laundering and terrorism" },
   one_of_the_best_examples_of_a_local_currency: "The original LETS currency, founded on Vancouver Island in the early 1980s",
 
+  // === INGESTED 2026-07-06 09:17 ===
+  most_swaps_are_traded_overthecounter_and: { definition: "Drafted specifically for the counterparties", what_it_does: "", examples: "the Chicago Mercantile Exchange , [ 10 ] were among the first to register as SDRs" },
+  swaps: "Different from futures and many options in that they are generally agreed to bilaterally between parties, rather than provided by an exchange",
+  some_swaps: "Executed through electronic platforms, while others are entered into through voice brokers or other means",
+  other_swaps: "Outstanding on a bilateral basis",
+  the_most_common_type_of_swap: "An interest rate swap",
+  the_payments: "Calculated over the notional amount",
+  the_first_rate_is_called_variable_because_it: "Reset at the beginning of each interest calculation period to the then current reference rate , such as LIBOR",
+  a_basis_swap: "Exchanging floating interest rates based on different money markets",
+  an_inflationlinked_swap: "Exchanging a fixed rate on a principal for an inflation index expressed in monetary terms",
+  the_primary_objective: "To hedge against inflation and interest-rate risk",
+  the_primary_objective_of_a_cds: { definition: "To transfer one party's credit exposure to another party", what_it_does: "", examples: "a company )" },
+  those_instruments: { definition: "Traded over-the-counter (OTC) and there are only a few specialized investors worldwide", what_it_does: "", examples: "the performance of a stock asset, a basket of stocks or a stock index" },
+  the_other_leg: "Typically a fixed-income cash flow such as a benchmark interest rate",
+  while_principal_payments: "Not exchanged in an interest rate swap, assuming that these are received and paid at the end of the swap does not change its value",
+
 };
 
 // ============================================================
