@@ -63550,6 +63550,17 @@ const FLAT_DICT = {
   exposure_time_of_image_sensors: { definition: "Generally controlled by either a conventional mechanical shutter , as in film cameras, or by an electronic shutter", what_it_does: "", examples: "the charge-coupled device (CCD) and later the active-pixel sensor ( CMOS sensor)" },
   the_noise_of_photodiode_arrays: "Also a limitation to performance, as the photodiode readout bus capacitance resulted in increased noise level",
 
+  // === INGESTED 2026-07-06 07:24 ===
+  kill_switches: "Also used on land vehicles as an anti-theft system and as an emergency power off",
+  the_switch_in_these_cases: "Held by the user, and turns off the machine if they let go",
+  this_provides_a_rapid: "To disconnect the energy source of the device to protect workers",
+  the_iso_machinery_safety_standard_types: { definition: "Defined in ISO 12100, [ 16 ] and this nomenclature is used by other standards development organizations, like ANSI in the US, and CSA in Canada", what_it_does: "", examples: "a pull-cord switch" },
+  a_kill_switch: "Also used for gasoline pumps or any other device that pumps large amounts of explosive or flammable chemicals",
+  when_the_button: "Pulled back out, it resumes normal service, thus the reason for the use of the phrase 'Run/Stop'",
+  the_key_switch: "Used to return the escalator to service after it has been stopped",
+  if_the_safety_key: "Pulled out, such as in the event of a fall, the treadmill stops immediately",
+  typically_brakes_on_a_ride: "Designed to be disengaged when power is applied; disconnecting power will cause all brakes to engage",
+
 };
 
 // ============================================================
