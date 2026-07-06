@@ -65329,6 +65329,10 @@ const FLAT_DICT = {
   watson: "Quoted as calling Venter 'Hitler'",
   watson_discussed_his_view_that_africans: "Less intelligent than Westerners",
 
+  // === INGESTED 2026-07-06 15:36 ===
+  macmillan: "Founded in London in 1843 by Daniel and Alexander MacMillan , two brothers from the Isle of Arran , Scotland",
+  i_feel_it: "Entirely right and appropriate that these senior seats should be taken by women",
+
 };
 
 // ============================================================
