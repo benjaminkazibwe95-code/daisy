@@ -64393,6 +64393,12 @@ const FLAT_DICT = {
   the_dealer: "Then subject to risks of price fluctuation",
   efforts_to_control_this_risk: "Called immunization or hedging",
 
+  // === INGESTED 2026-07-06 11:21 ===
+  decluttering: "Removing unnecessary items, sorting and arranging, or putting things back in place",
+  danshari: "Constructed by the words dan (refuse), sha (dispose) and ri (separate)",
+  if_a_client: { definition: "Deaf they can work with the help of an interpreter to bridge the gap", what_it_does: "", examples: "time-management or goal setting" },
+  this_can_include_collections_that: "Valuable financially and/or emotionally and can be a factor in divorces",
+
 };
 
 // ============================================================
