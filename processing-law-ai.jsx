@@ -65690,6 +65690,24 @@ const FLAT_DICT = {
   opsins: { definition: "Prototypical G protein-coupled receptors (GPCRs)", what_it_does: "", examples: "Drosophila , use (3 S )-3-hydroxyretinal" },
   the_visual_cycle: "A circular enzymatic pathway , which is the front-end of phototransduction",
 
+  // === INGESTED 2026-07-06 16:58 ===
+  photoelectrochemical_processes: "Processes in photoelectrochemistry ; they usually involve transforming light into other forms of energy",
+  electron_excitation: "The movement of an electron to a higher energy state",
+  photoisomerizable_molecules: { definition: "Already put to practical use, for instance, in pigments for rewritable CDs , DVDs , and 3D optical data storage solutions", what_it_does: "", examples: "molecular switches, [ 3 ] molecular motors, [ 4 ] and molecular electronics" },
+  two_major_classes: "Trans-cis (or 'E-'Z) conversion, and open-closed ring transition",
+  still_another_class: "The di-π-methane rearrangement",
+  photoionization: { definition: "The physical process in which an incident photon ejects one or more electrons from an atom , ion or molecule", what_it_does: "", examples: "to ionize hydrogen , photons need an energy greater than 13" },
+  the_probability_of_photoionization: { definition: "Related to the photoionization cross-section , which depends on the energy of the photon and the target being considered", what_it_does: "", examples: "barrier suppression ionization [ 7 ] and rescattering ionization [ 8 ] are observed" },
+  in_essence_it_says_that_every_photon_that: "Absorbed will cause a (primary) chemical or physical reaction",
+  the_photochemical_equivalence_law: "Also restated as follows: for every mole of a substance that reacts, an equivalent mole of quanta of light are absorbed",
+  photosensitization: "A process of transferring the energy of absorbed light",
+  in_particular_this_process: "Commonly employed where reactions require light sources of certain wavelengths that are not readily available",
+  when_mercury_vapor: { definition: "Mixed with ethylene , and the compound is irradiated with a mercury lamp, this results in the photodecomposition of ethylene to acetylene", what_it_does: "", examples: "xenon ; zinc ; benzophenone ; and a large number of organic dyes, are also used as sensitizers" },
+  a_sensitizer_in_chemiluminescence: "A chemical compound, capable of light emission after it has received energy from a molecule, which became excited previously in the chemical reaction",
+  this_energy_state: "Unstable, therefore it will return to the ground state by lowering its energy",
+  a_complementary_technique: "Absorption spectroscopy",
+  absorption_spectroscopy: "Performed across the electromagnetic spectrum",
+
 };
 
 // ============================================================
