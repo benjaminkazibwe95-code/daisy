@@ -64530,6 +64530,40 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 12:04 ===
   bundesliga_which: "The second division/level",
 
+  // === INGESTED 2026-07-06 12:06 ===
+  the_stick_with_which_the_game: "Played is crook'd at the end'",
+  when_the_international_federation: "Founded in 1955, it came about after a compromise between Russian and English rules, in which more of the English rules prevailed",
+  since_association_football: "Already popular in England, the codified bandy rules took after much of the football rules",
+  players_sticks: "Curved like large field hockey sticks and the bandy ball is roughly the size of a tennis ball with a cork core and hard plastic coating",
+  bandy_balls_were_originally_usually_red_but: "Now either orange or more commonly cerise",
+  an_early_maker_of_bandy_sticks: "The firm of Gray's, Cambridge",
+  the_spartakiad: "An international multisport event arranged by workers' sports clubs in the 1920s and 1930s and sponsored by the Soviet Union",
+  an_old_name_for_bandy: "Hockey on the ice ; in the first rule books from England at the turn of the century 1900, the sport is literally called 'bandy or hockey on the ice'",
+  if_the_context_makes_it_clear_that_bandy: "The subject, it as well can be called just 'hockey'",
+  in_estonian_and_lithuanian_bandy: "Also called 'ice ball' ( jääpall ; ledo riedulys [ 26 ] )",
+  in_mandarin_chinese_it: "'bandy ball' ( 班迪球 )",
+  in_scottish_gaelic_the_name: "'ice shinty' ( camanachd-deighe )",
+  stenove_ramberg: "The last Swedish male player in both national teams (1978 in bandy, 1979 – 1984 in football)",
+  at_the_same_time_as_modern_ice_hockey_rules: "Formalized in British North America (present-day Canada), bandy rules were decided upon in Europe",
+  both_bandy_and_ice_hockey: "Played in Europe during the 20th century, especially in Sweden, Finland, and Norway",
+  women_have_been_playing_bandy_since_the_sport: "Originally developed",
+  in_sweden_there: "More indoor arenas than in all other countries combined",
+  bandy: "Generally a free-flowing game, with play stopping only when the ball has left the field of play, or when play is stopped by the referee",
+  a_primary_rule: "That players (other than the goalkeepers) may not intentionally touch the ball with their heads, hands or arms during play",
+  the_layout_of_the_players_on_the_pitch: "Called the team's formation , and defining the team's formation and tactics is usually the prerogative of the team's manager(s)",
+  formation_in_bandy: "Often comparable to the formation in association football",
+  shouldering: { definition: "Allowed in checking situations and body contact therefore does occur, but body checking and fighting are illegal", what_it_does: "", examples: "juniors, veterans or women are permitted" },
+  sometimes_one_player: "Also taking up the role of a libero",
+  the_bandy_games: "More similar to association football in this regard",
+  this_added_time: "Commonly referred to as stoppage time or injury-time , and must be reported to the match secretary and the two captains",
+  if_the_score: { definition: "Still tied after extra time, the game will be decided on penalties", what_it_does: "", examples: "by hitting with the stick against the opponent's stick or skates" },
+  a_match_penalty: "Indicated through the use of a red card",
+  the_core_of_the_ball_is_made_of_cork_and: "Surrounded by rubber or rubber-like plastic",
+  sticks_are_crooked_and: "Available in five angles, where 1 has the smallest bend and 5 has the most",
+  centered_at_each_shortline: "A 3.5 m (11 ft) wide and 2.1 m (6 ft 11 in) high goal cage and in front of the cage is a half-circular penalty area with a 17 m (56 ft) radius",
+  a_centreline: { definition: "Drawn through the centre spot parallel with the shortlines", what_it_does: "", examples: "the bandy chinguard" },
+  all_players: "Required to wear helmets",
+
 };
 
 // ============================================================
