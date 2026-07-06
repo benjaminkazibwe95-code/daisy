@@ -65673,6 +65673,16 @@ const FLAT_DICT = {
   this_amplified_current: { definition: "The measured parameter that corresponds to the THz field strength", what_it_does: "", examples: "low temperature and high pressure" },
   low_temperature_thztds: { definition: "Routinely performed at cryogenic temperatures ranging from liquid nitrogen temperature (~77 K) down to liquid helium regimes (<10 K)", what_it_does: "", examples: "studies of superconductors and correlated electron systems" },
 
+  // === INGESTED 2026-07-06 16:53 ===
+  perturbative_harmonic_generation: "A process whereby laser light of frequency ω and photon energy ħω can be used to generate new frequencies of light",
+  the_newly_generated_frequencies: "Integer multiples nω of the original light's frequency",
+  harmonic_generation_in_dielectric_solids: "Well understood and extensively used in modern laser physics (see second-harmonic generation )",
+  the_first_high_harmonic_generation: "Observed in 1977 in interaction of intense CO 2 laser pulses with plasma generated from solid targets",
+  often_harmonics: "Only produced in a very small temporal window when the phase matching condition is met",
+  the_cutoff_energy: "Given by: [ 14 ] where U p is the ponderomotive energy from the laser field and I p is the ionization potential",
+  this_cutoff_energy: "Derived from a semi-classical calculation, often called the three-step model",
+  the_gouy_phase: { definition: "Due to wavefront phase jump close to the focus, and varies along it", what_it_does: "", examples: "plane wave propagation, free focusing, hollow core waveguide, etc.)" },
+
 };
 
 // ============================================================
