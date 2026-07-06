@@ -65433,6 +65433,14 @@ const FLAT_DICT = {
   the_last_part: "A check digit , and can take values from 0–9 and X (10)",
   the_ean_barcodes_numbers_for_books: "Derived from the ISBN by prefixing 978, for Bookland , and calculating a new check digit",
 
+  // === INGESTED 2026-07-06 16:00 ===
+  the_ramachine: { definition: "Very similar to the counter machine but with the added capability of 'indirect addressing' of its registers", what_it_does: "", examples: "possibly itself!)" },
+  once_we_make_this_change_the_model: "No longer a counter machine, but rather a random-access machine",
+  inc: { definition: "Specified, the finite-state machine's instruction will have to specify where the address of the register of interest will come from", what_it_does: "", examples: "'Increment indirectly the contents of the register pointed to by register r2 '" },
+  here_we: "Adding the 'i/d' parameter: The typical accumulator-based model will have all its two-variable arithmetic and constant operations (e.g",
+  the_minimalist_approach: { definition: "To use itself (Schönhage does this)", what_it_does: "", examples: "we might have the machine/model 'trigger an event' of our choosing)" },
+  the_following_definition: { definition: "Per Kleene but modified to reflect the familiar 'IF-THEN-ELSE' construction", what_it_does: "", examples: "we do not require r < 83,617,563,821,029,283,746 nor r < 2^1,000,001, etc" },
+
 };
 
 // ============================================================
