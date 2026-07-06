@@ -64723,6 +64723,11 @@ const FLAT_DICT = {
   adaline: "A single-layer neural network with multiple nodes, where each node accepts multiple inputs and generates one output",
   as_the_sign_function: "Non-differentiable, backpropagation cannot be used to train MADALINE networks",
 
+  // === INGESTED 2026-07-06 13:02 ===
+  greater_boston: "The metropolitan region of New England encompassing the municipality of Boston , the capital of the U.S",
+  the_region_and_the_state_of_massachusetts: "Global leaders in biotechnology , health care , [ 2 ] engineering , higher education , finance , and maritime trade",
+  plymouth: { definition: "The site of the first colony in New England, founded in 1620 by the Pilgrims , passengers of the Mayflower", what_it_does: "", examples: "the Adams and Kennedy families" },
+
 };
 
 // ============================================================
