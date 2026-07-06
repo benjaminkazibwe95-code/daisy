@@ -66183,6 +66183,9 @@ const FLAT_DICT = {
   the_inferior_half_of_the_anterior_limb: "Supplied via the recurrent artery of Heubner , which is a branch of the anterior cerebral artery",
   the_inferior_half_of_the_posterior_limb: "Supplied by the anterior choroidal artery , which is a branch of the internal carotid artery",
 
+  // === INGESTED 2026-07-06 19:05 ===
+  these_neurons: "The largest in the central nervous system , sometimes reaching 100 μm in diameter",
+
 };
 
 // ============================================================
