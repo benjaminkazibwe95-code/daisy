@@ -65451,6 +65451,34 @@ const FLAT_DICT = {
   the_bit_complexity_of_the_algorithm: "O ( n (log n ) (log log n ) ) bit operations with a memory requirement of O ( n )",
   the_same_sieve: { definition: "Rediscovered and observed to take linear time by Gries & Misra (1978)", what_it_does: "", examples: "for the multiples of 3 it is 3 × 3 = 9 , 3 × 5 = 15 , 3 × 7 = 21 , 3 × 9 = 27 , ..., 3 × 15 = 45 , " },
 
+  // === INGESTED 2026-07-06 16:06 ===
+  when_the_base: "Unambiguous from the context or irrelevant it is often omitted, and the logarithm is written log x",
+  logarithms: { definition: "Related to musical tones and intervals", what_it_does: "", examples: "if the note A has a frequency of 440 Hz then the note B-flat has a frequency of 466 Hz" },
+  the_inverse_of_addition: "Subtraction , and the inverse of multiplication is division",
+  an_equivalent_and_more_succinct_definition: "That the function log b is the inverse function to the function x ↦ b x {\displaystyle x\mapsto b^{x}}",
+  the_logarithm_of_the_p_th_power_of_a_number: "P times the logarithm of the number itself; the logarithm of a p -th root is the logarithm of the number divided by p",
+  the_next_integer_above_it: "4, which is the number of digits of 5986",
+  the_common_logarithm_of_a_number: "The index of that power of ten which equals the number",
+  soon_the_new_function: "Appreciated by Christiaan Huygens , and James Gregory",
+  the_notation_log_y: { definition: "Adopted by Gottfried Wilhelm Leibniz in 1675, [ 26 ] and the next year he connected it to the integral ∫ d y y", what_it_does: "", examples: "prosthaphaeresis , which relies on trigonometric identities" },
+  another_critical_application: "The slide rule, a pair of logarithmically divided scales used for calculation",
+  when_b: "Positive and unequal to 1, we show below that f is invertible when considered as a function from the reals to the positive reals",
+  the_logarithm: { definition: "An example of a transcendental function", what_it_does: "", examples: "log 10 (1000) = 3" },
+  the_algorithm_stops_when_k: "Large enough to give the desired accuracy",
+  some_of_these_occurrences: "Related to the notion of scale invariance",
+  logarithmic_scales: { definition: "Useful for quantifying the relative change of a value as opposed to its absolute difference", what_it_does: "", examples: "the Tsiolkovsky rocket equation , the Fenske equation , or the Nernst equation" },
+  the_loglikelihood: { definition: "Easier to maximize, especially for the multiplied likelihoods for independent random variables", what_it_does: "", examples: "heights of buildings" },
+  analysis_of_algorithms: "A branch of computer science that studies the performance of algorithms (computer programs solving a certain problem)",
+  a_constant_factor: { definition: "Usually disregarded in the analysis of algorithms under the standard uniform cost model", what_it_does: "", examples: "any natural number N can be represented in binary form in no more than log 2 N + 1 bits" },
+  another_logarithmbased_notion_of_dimension: "Obtained by counting the number of boxes needed to cover the fractal in question",
+  the_interval_between_a_and_bflat: "A semitone , as is the one between B-flat and B (frequency 493 Hz)",
+  a_complex_number: "Commonly represented as z = x + iy , where x and y are real numbers and i is an imaginary unit , the square of which is −1",
+  the_absolute_value_r_of_z: "Given by r = x 2 + y 2",
+  the_resulting_complex_number: "Always z , as illustrated at the right for k = 1",
+  such_a_locus: { definition: "Called a branch cut", what_it_does: "", examples: "the logarithm of a matrix is the (multi-valued) inverse function of the matrix exponential" },
+  the_discrete_logarithm: "The integer n solving the equation b n = x , {\displaystyle b^{n}=x,} where x is an element of the group",
+  logarithmic_functions: "The only continuous isomorphisms between these groups",
+
 };
 
 // ============================================================
