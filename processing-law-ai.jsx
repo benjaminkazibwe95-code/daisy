@@ -66551,6 +66551,21 @@ const FLAT_DICT = {
   if_the_same_lens: { definition: "Used on both full-frame and cropped formats, and the subject distance is adjusted to have the same field of view (i.e", what_it_does: "", examples: "a 200 mm lens on a camera with a crop factor of 1" },
   pixel_density: "Lower on full frame sensors",
 
+  // === INGESTED 2026-07-06 21:02 ===
+  the_term_active_pixel_sensor: "Also used to refer to the individual pixel sensor itself, as opposed to an array of such individuals, the image sensor",
+  the_exact_date_of_origin_of_these_devices: { definition: "Classified, but they were in use by the mid-1980s", what_it_does: "", examples: "high noise , slow readout, and lack of scalability" },
+  the_qis_idea: "In its infancy and may never become reality due to the non necessary complexity that is needed to capture an image",
+  hvcmos: "Typically implemented by ~10 μm deep n-doped depletion zone (n-well) of a transistor on a p-type wafer substrate",
+  cmostype_aps_sensors: "Typically suited to applications in which packaging, power management, and on-chip processing are important",
+  cmos_type_sensors: { definition: "Widely used, from high-end digital photography down to mobile-phone cameras", what_it_does: "", examples: "a transfer gate , reset gate, selection gate and source-follower readout transistor" },
+  when_the_reset_transistor: "Turned on, the photodiode is effectively connected to the power supply, V RST , clearing all integrated charge",
+  since_the_reset_transistor: { definition: "N-type , the pixel operates in soft reset", what_it_does: "", examples: "5T and 6T pixels also exist" },
+  the_row_select_lines_of_each_pixel_in_a_row: "Tied together as well",
+  since_only_one_row: "Selected at a given time, no competition for the output line occurs",
+  further_amplifier_circuitry: "Typically on a column basis",
+  one_way_to_use_hard_reset: { definition: "Replace M rst with a p-type transistor and invert the polarity of the RST signal", what_it_does: "", examples: "flushed reset, pseudo-flash reset, and hard-to-soft reset combine soft and hard reset" },
+  the_tradeoff: "A complicated reset scheme, as well as either a much larger pixel or extra column-level circuitry",
+
 };
 
 // ============================================================
