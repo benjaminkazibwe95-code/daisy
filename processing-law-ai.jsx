@@ -63700,6 +63700,20 @@ const FLAT_DICT = {
   many_of_the_important_ideas_here: { definition: "Developed by graduates of Mamram , the Israeli computer corps, established by the IDF in the 1960s", what_it_does: "", examples: "Kiryat Gat , and the Western Galilee" },
   the_following_global_region_rankings: "A ranking of the Tel Aviv area, based on a 2024 study by Dutch research firm, Dealroom",
 
+  // === INGESTED 2026-07-06 08:15 ===
+  because_equity_crowdfunding: "Investment into a commercial enterprise, it is often subject to securities and financial regulation",
+  the_term_equity_crowdfunding: { definition: "Often used to describe crowd investing into both debt and equity based instruments when they are offered on an equity crowdfunding platform", what_it_does: "", examples: "the Securities and Exchange Commission in the U.S" },
+  online_platforms_operating_under_regulation_cf: "Expected to provide investment access via equity crowdfunding as early as mid-May 2016 (pending SEC approval)",
+  creators_on_crowdfunding_platforms: "Often inexperienced and lack the ability to complete funded projects by agreed deadlines",
+  crowdfunding_as_a_discrete_activity: "Not prohibited in Australia when raising funds with donations",
+  one_campaign_in_austria: "Introduced by Hanfgarten",
+  a_public_register: "Maintained on the CySEC government website listing all firms that possess the CSP sub-license",
+  the_first_equity_crowdfunding_system: "Launched in August 2015 by Fundwise",
+  an_equity_crowdfunding_portal: "Launched in Finland in May 2012 by Invesdor",
+  the_largest_crowdfunding_project: "Launched by the company Brainpool in December 2011",
+  crowdinvesting: "Responsible for 48% of the total money raised via crowdfunding in Switzerland in 2013",
+  states_have_recently_enacted_or: "Considering their own crowdfunding exemption laws, to facilitate intrastate investment offerings that are already exempt from federal (SEC) regulation",
+
 };
 
 // ============================================================
