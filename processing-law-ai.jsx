@@ -66762,6 +66762,26 @@ const FLAT_DICT = {
   the_smartphone: "Powered by a 1.4 GHz quad-core Snapdragon processor with 2 GB of RAM and 16 GB of internal storage",
   the_adware: "Also using excess telephone resources such as data, memory storage, and battery life",
 
+  // === INGESTED 2026-07-06 21:58 ===
+  while_aosp: { definition: "Free, the 'Android' name and logo are trademarks of Google, who restrict the use of Android branding on 'uncertified' products", what_it_does: "", examples: "Android TV for televisions, Wear OS for wearables , and Android Automotive for in-car systems" },
+  the_company_name: { definition: "Changed to Android as Rubin already owned the domain name android.com", what_it_does: "", examples: "Rubin, Miner, Sears, and White, joined Google as part of the acquisition" },
+  the_platform: { definition: "Also focused on supporting developers with tools like ARCore and Unity to build applications for upcoming XR devices", what_it_does: "", examples: "a weather forecast , the user's email inbox, or a news ticker directly on the home screen" },
+  portable_storage: { definition: "Treated as an external storage device", what_it_does: "", examples: "those for pictures, music, and video), and app-specific directories they have created themselves" },
+  some_hardware_components: "Not required, but became standard in certain classes of devices, such as smartphones, and additional requirements apply if they are present",
+  some_other_hardware: { definition: "Initially required, but those requirements have been relaxed or eliminated altogether", what_it_does: "", examples: "microphones were required, while over time the phone function became optional" },
+  all_releases: { definition: "Under the Apache License", what_it_does: "resets the system to factory state , erasing all user data", examples: "Verizon Wireless and Sprint Corporation , already shortening their approval times" },
+  the_device_codename: { definition: "Available to running applications under android.os.Build.DEVICE", what_it_does: "", examples: "the ability to compromise the operating systems of most smartphones (including Android)" },
+  the_security_issue: "Only with Android 8 ( Android Oreo ) and Android 9 ( Android Pie )",
+  an_optin_system: "Used instead, in which users are prompted to grant or deny individual permissions to an app when they are needed for the first time",
+  if_then_later_on_parts_of_the_app: { definition: "Activated that turn out to be malicious, the antivirus will have no way to know since it is inside the app and out of the antivirus' jurisdiction'", what_it_does: "", examples: "call and text logs" },
+  those_data: { definition: "Marked with a Unique Identifier of an Android device, and do not comply with GDPR", what_it_does: "", examples: "LineageOS , Sailfish OS , Ubuntu Touch , and PostmarketOS" },
+  the_source_code_for_android: { definition: "Open-source : it is developed in private by Google, with the source code released publicly when a new version of Android is released", what_it_does: "", examples: "network and telephony stacks ) under the non-copyleft Apache License version 2.0" },
+  three_billion_android_smartphones: { definition: "Estimated to be sold by the end of 2014 (including previous years)", what_it_does: "", examples: "tablets) usage is at 90.46% (Android only, accounts for 75.81% of all use there)" },
+  of_all_operating_systems_android: "First at 37%, followed by Windows at 28%, then iOS/iPadOS at 18%",
+  android_is_more_used_than_ios: "Virtually all countries, with few exceptions such as iOS has a 58% share in the US",
+  code_reflecting_this_change: { definition: "Also posted to the AOSP source repository", what_it_does: "", examples: "Gmail, Google Maps and the Google Play Store" },
+  contrary_to_reports_that_she: "Tasked with a project to create an icon, [ 571 ] Blok confirmed in an interview that she independently developed it and made it open source",
+
 };
 
 // ============================================================
