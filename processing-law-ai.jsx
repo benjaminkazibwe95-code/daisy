@@ -66121,6 +66121,9 @@ const FLAT_DICT = {
   the_previous_alltime_high_at_bbc_online: "Caused by the announcement of the Michael Jackson verdict, which used 7.2 Gbit/s",
   the_channel_itself: { definition: "The oldest surviving entity of its kind, and has 50 foreign news bureaus and correspondents in nearly all countries in the world", what_it_does: "", examples: "Luther and Peaky Blinders ) and historical drama productions being the most popular" },
 
+  // === INGESTED 2026-07-06 18:40 ===
+  the_only_decorative_feature: "A small ribbon or band around the crown",
+
 };
 
 // ============================================================
