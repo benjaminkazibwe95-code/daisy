@@ -66429,6 +66429,33 @@ const FLAT_DICT = {
   these_determining_factors_are_that_the_patient: "Irreversibly unconscious and incapable of breathing unaided",
   there_are_brainstem_reflexes_that: "Checked for by two senior doctors so that imaging technology is unnecessary",
 
+  // === INGESTED 2026-07-06 20:29 ===
+  the_ear_canal: { definition: "Cleaned via earwax , which naturally migrates to the auricle", what_it_does: "", examples: "infection and traumatic damage" },
+  the_first_part_of_the_canal: "Surrounded by cartilage , while the second part near the eardrum is surrounded by bone",
+  this_bony_part: "Known as the auditory bulla and is formed by the tympanic part of the temporal bone",
+  the_ossicles: "The malleus (hammer), incus (anvil), and the stapes (stirrup)",
+  the_cochlea: "A spiral shell-shaped organ responsible for the sense of hearing",
+  the_endolymph: "Situated in two vestibules, the utricle and saccule, and eventually transmits to the cochlea, a spiral-shaped structure",
+  the_posterior_auricular_artery: "A direct branch of the external carotid artery, and the anterior auricular arteries are branches from the superficial temporal artery",
+  this_vibration: "Transmitted along the incus and stapes to the oval window",
+  the_hollow_channels_of_the_inner_ear: "Filled with liquid, and contain a sensory epithelium that is studded with hair cells",
+  the_hair_cells: "Mechanoreceptors that release a chemical neurotransmitter when stimulated",
+  these_three_canals: "Orthogonal (at right angles) to each other",
+  at_the_end_of_each_canal: { definition: "A slight enlargement, known as the ampulla , which contains numerous cells with filaments in a central area called the cupula", what_it_does: "", examples: "Pax , Msx and Otx homeobox genes" },
+  shh: "Secreted by the notochord",
+  the_first_three_hillocks: "Derived from the lower part of the first pharyngeal arch and form the tragus, crus of the helix, and helix, respectively",
+  the_final_three_hillocks: "Derived from the upper part of the second pharyngeal arch and form the antihelix, antitragus, and earlobe",
+  when_hearing_loss: { definition: "A result of injury or damage to the outer ear or to the ossicles of the middle ear, it is known as conductive hearing loss", what_it_does: "", examples: "by otitis media" },
+  tympanoplasty: "The general name of the operation to repair the middle ear's eardrum and ossicles",
+  grafts_from_muscle_fascia: "Ordinarily used to rebuild an intact eardrum",
+  sometimes_artificial_ear_bones: "Placed to substitute for damaged ones, or in ossiculoplasty a disrupted ossicular chain is rebuilt in order to conduct sound effectively",
+  the_initial_medical_intervention: "Aimed at assessing the baby's hearing and the condition of the ear canal, as well as the middle and inner ear",
+  temporal_bone_and_ear_canal_anomalies: "Also related to this structure of the ear and are known to be associated with sensorineural hearing loss and conductive hearing loss",
+  one_common_type_of_vertigo: { definition: "Benign paroxysmal positional vertigo , when an otolith is displaced from the ventricles to the semicircular canal", what_it_does: "", examples: "squamous-cell carcinoma and basal-cell carcinomas" },
+  another_common_cause_of_injury: { definition: "Due to an infection such as otitis media", what_it_does: "", examples: "chronic ear infections" },
+  a_large_number_of_people: "Exposed to sound levels on a daily basis that are likely to lead to significant hearing loss",
+  one_of_the_most_common_causes: { definition: "Noise-induced hearing loss", what_it_does: "", examples: "by snagging on a sweater), is fairly common" },
+
 };
 
 // ============================================================
