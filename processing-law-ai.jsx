@@ -66304,6 +66304,10 @@ const FLAT_DICT = {
   this_indicates_that_the_inferior_colliculus: "Metabolically more active than many other parts of the brain",
   the_predicted_just_noticeable_difference: "Comparable to that achieved by humans in behavioral tests",
 
+  // === INGESTED 2026-07-06 19:51 ===
+  the_solitary_tract: "Made up of primary sensory fibers and descending fibers of the vagus , glossopharyngeal , and facial nerves",
+  the_efferent_fibers: "Distributed to the solitary tract nucleus",
+
 };
 
 // ============================================================
