@@ -64820,6 +64820,11 @@ const FLAT_DICT = {
   if_esophageal_varices: { definition: "Found, prophylactic local therapy may be applied, such as sclerotherapy or banding, and beta blockers may be used", what_it_does: "", examples: "benzodiazepines, diuretics, or narcotics can also precipitate encephalopathic events" },
   kupfer_cells: "Resident macrophages in the liver, which help to destroy pathogens",
 
+  // === INGESTED 2026-07-06 13:17 ===
+  a_peripheral_afferent: { definition: "A neuron with no incoming synapses", what_it_does: "", examples: "real analysis and portions of set theory" },
+  the_definition_above: "Spatial summation (which they pictured as having multiple synapses placed close together, so that the effect of their firing sums up)",
+  the_next_three: "Mathematical developments of Householder’s model",
+
 };
 
 // ============================================================
