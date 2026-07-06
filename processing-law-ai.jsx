@@ -66190,6 +66190,24 @@ const FLAT_DICT = {
   layer_iv: "Attenuated or indistinct, while layer V contains large pyramidal neurons including Betz cells in M1",
   early_corticospinal_projections: { definition: "Exuberant; activity‑dependent pruning and myelination refine conduction velocity and terminal specificity through childhood and adolescence", what_it_does: "", examples: "TMS, tDCS) can transiently modulate learning rates and retention" },
 
+  // === INGESTED 2026-07-06 19:10 ===
+  standard_anatomical_terms_of_location: "Used to describe unambiguously the anatomy of humans and other animals",
+  this_position_provides_a_definition_of_what: { definition: "At the front ('anterior'), behind ('posterior') and so on", what_it_does: "", examples: "proximal or distal in relation to a body part that is nearest to, or furthest from its middle" },
+  neuroanatomy_examples: { definition: "The superior colliculus , and the inferior colliculus", what_it_does: "", examples: "for many fish the gill openings are posterior to the eyes and anterior to the tail" },
+  temporal_has_a_similar_meaning_to_lateral_but: "Restricted to the head",
+  the_main_mass: { definition: "Taken as the center, the chest , or the heart", what_it_does: "", examples: "fins , tentacles , and limbs" },
+  thus_the_elbow: { definition: "Distal to a wound on the upper arm, but proximal to a wound on the lower arm", what_it_does: "", examples: "in horses , the eyes are caudal to the nose and rostral to the back of the head" },
+  because_the_sacrum_and_coccyx: "Fused, they are not often used to provide the location",
+  anatomical_lines: "Theoretical lines, using either horizontal transverse planes, or vertical sagittal planes, used to describe anatomical location",
+  special_terms: { definition: "Used to describe the mouth and teeth", what_it_does: "", examples: "teeth also can be rotated, and in such contexts terms like 'anterior' or 'lateral' become ambiguous" },
+  the_palmar_fascia: { definition: "Palmar to the tendons of muscles which flex the fingers, and the dorsal venous arch is so named because it is on the dorsal side of the foot", what_it_does: "", examples: "the distal radioulnar joint" },
+  the_long_or_longitudinal_axis: "Defined by points at the opposite ends of the organism",
+  usually_such_organisms: { definition: "Planktonic (free-swimming) protists , and are nearly always viewed on microscope slides , where they appear essentially two-dimensional", what_it_does: "", examples: "the end with the flagellum in Euglena ), is normally designated as the anterior end" },
+  two_such_terms: "Useful in describing views of the legs and pedipalps of spiders, and other arachnids",
+  prolateral_refers_to_the_surface_of_a_leg_that: "Closest to the anterior end of an arachnid's body",
+  retrolateral: "The surface of a leg that is closest to the posterior end of an arachnid's body",
+  all_the_eyes: "On the carapace of the prosoma , and their sizes, shapes and locations are characteristic of various spider families and other taxa",
+
 };
 
 // ============================================================
