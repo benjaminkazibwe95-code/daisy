@@ -63796,6 +63796,19 @@ const FLAT_DICT = {
   these_types_of_risk: { definition: "Generally classified under the term 'operational risk'", what_it_does: "", examples: "strategic risk – the risk of a loss arising from a poor strategic business decision" },
   other_risk_terms: "Seen as potential consequences of operational risk events",
 
+  // === INGESTED 2026-07-06 08:53 ===
+  the_period_when_a_culture: { definition: "Written about by others but has not developed its own writing system is often known as the protohistory of the culture", what_it_does: "", examples: "' Neanderthal ' or ' Iron Age ', are modern labels with definitions sometimes subject to debate" },
+  the_beginning_of_prehistory: { definition: "Normally taken to be marked by human-like beings appearing on Earth", what_it_does: "", examples: "African prehistory begins c" },
+  the_subdivisions_described_below: "Used for Eurasia, and not consistently across the whole area",
+  the_paleolithic: { definition: "The earliest period of the Stone Age", what_it_does: "", examples: "chiefdoms, [ 31 ] and social stratification" },
+  remains_from_this_period: "Few and far between, often limited to middens",
+  the_mesolithic: { definition: "Characterized in most areas by small composite flint tools: microliths and microburins", what_it_does: "", examples: "canoes and bows have been found at some sites" },
+  it_is_a_phase_of_the_bronze_age_before_it: "Discovered that adding tin to copper formed the harder bronze",
+  the_copper_age: "Seen as a transition period between the Stone Age and Bronze Age",
+  tin_ores: "Rare, as reflected in the fact there were no tin bronzes in Western Asia before 3000 BCE",
+  the_iron_age: "Not part of prehistory for all civilizations who had introduced written records during the Bronze Age",
+  although_iron_ore: "Common, the metalworking techniques necessary to use iron are different from those needed for the metal used earlier, more heat is required",
+
 };
 
 // ============================================================
