@@ -66250,6 +66250,10 @@ const FLAT_DICT = {
   the_command_names: { definition: "A ( skeuomorphic ) interface metaphor based on the physical procedure used in manuscript print editing to create a page layout , like with paper", what_it_does: "", examples: "the 1984 word processor Cut & Paste" },
   some_application_programs_provide_a: "Of viewing, or sometimes even editing, the data on the clipboard",
 
+  // === INGESTED 2026-07-06 19:31 ===
+  levine: "An Internet author and consultant specializing in email infrastructure, spam filtering, and software patents",
+  his_roommate_at_yale: "Economist Paul Krugman",
+
 };
 
 // ============================================================
