@@ -66086,6 +66086,9 @@ const FLAT_DICT = {
   claremont_graduate_university: "Home to the Kingsley and Kate Tufts Poetry Awards",
   each_award: "Presented annually to an American poet for a collection of poetry written in the English language",
 
+  // === INGESTED 2026-07-06 18:27 ===
+  the_most_favored_way_to_provide_this: "An e ± pair cascade in a strong electric and radiation field",
+
 };
 
 // ============================================================
