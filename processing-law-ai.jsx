@@ -65822,6 +65822,27 @@ const FLAT_DICT = {
   zvaigzne_abc: "In the leading position with 300 titles",
   other_notable_publishers: "Jumava, Avots and Kontinents",
 
+  // === INGESTED 2026-07-06 17:26 ===
+  vertical_asymptotes: "Vertical lines (perpendicular to the x -axis) near which the function grows without bound",
+  an_oblique_asymptote_has_a_slope_that: "Non-zero but finite, such that the graph of the function approaches it as x tends to + ∞ or − ∞",
+  so_if_they: "To be extended far enough they would seem to merge, at least as far as the eye could discern",
+  the_coordinates_of_the_points_on_the_curve: { definition: "Of the form ( x , 1 x ) {\displaystyle \left(x,{\frac {1}{x}}\right)} where x is a number other than 0", what_it_does: "", examples: "the graph contains the points (1, 1), (2, 0.5), (5, 0.2), (10, 0.1), " },
+  horizontal_asymptotes: "Horizontal lines that the graph of the function approaches as x → ± ∞",
+  as_the_name_indicates_they: "Parallel to the x -axis",
+  oblique_asymptotes: "Diagonal lines such that the difference between the curve and the line approaches 0 as x tends to +∞ or − ∞",
+  a_common_example_of_a_vertical_asymptote: "The case of a rational function at a point x such that the denominator is zero and the numerator is non-zero",
+  when_a_linear_asymptote: "Not parallel to the x - or y -axis, it is called an oblique asymptote or slant asymptote",
+  the_value_for_m_is_computed_first_and: "Given by where a is either − ∞ {\displaystyle -\infty } or + ∞ {\displaystyle +\infty } depending on the case being studied",
+  if_this_limit_fails_to_exist_then_there: "No oblique asymptote in that direction, even should the limit defining m exist",
+  the_asymptote: { definition: "The polynomial term after dividing the numerator and denominator", what_it_does: "", examples: "consider the function shown to the right" },
+  an_important_case_is_when_the_curve: "The graph of a real function (a function of one real variable and returning real values)",
+  in_the_first_case_its_equation: "X = c , for some real number c",
+  unlike_asymptotes_for_curves_that: "Graphs of functions, a general curve may have more than two non-vertical asymptotes, and may cross its vertical asymptotes more than once",
+  the_curve_b: "A curvilinear asymptote of A if the shortest distance from the point A ( t ) to a point on B tends to zero as t → b",
+  sometimes_b: { definition: "Simply referred to as an asymptote of A , when there is no risk of confusion with linear asymptotes", what_it_does: "", examples: "one may identify the asymptotes to the unit hyperbola in this manner" },
+  asymptotes: "Often considered only for real curves, [ 15 ] although they also make sense when defined in this way for curves over an arbitrary field",
+  such_a_branch: "Called a parabolic branch , even when it does not have any parabola that is a curvilinear asymptote",
+
 };
 
 // ============================================================
