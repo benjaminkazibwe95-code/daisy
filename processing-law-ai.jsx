@@ -64037,6 +64037,13 @@ const FLAT_DICT = {
   the_creation_of_the_agency: "Announced by Scottish Government Education and Lifelong Learning Cabinet Minister Michael Russell on 14 October 2010",
   education_scotland: "Tasked with inspecting Scotland's primary, secondary and, sometimes in partnership with the Care Inspectorate , nursery schools",
 
+  // === INGESTED 2026-07-06 10:00 ===
+  its_etymology: { definition: "Straightforward, formed by a tatpuruṣa (determinative) compound of two distinct elements: guru (गुरु) and kula (कुल)", what_it_does: "", examples: "that of guru Drona at Gurgaon" },
+  gurukulas: "Supported by public donations",
+  dharampal: "Instrumental in changing the understanding of pre-colonial Indian education system",
+  these_gurukuls_are_operating_online_and: { definition: "Now imparting knowledge about different Hindu scriptures using the internet", what_it_does: "", examples: "carrying out of mundane daily household chores" },
+  the_gurukula_system_of_education: "Available outside of India as well",
+
 };
 
 // ============================================================
