@@ -64458,6 +64458,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 11:45 ===
   obedience: "Encouraged by reminding the individual of what a perceived authority states and by showing them that their opinion goes against this authority",
 
+  // === INGESTED 2026-07-06 11:49 ===
+  brian_kelly: "The chief content officer from April 2007 to August 2019 and Kim Castro was the chief content officer until 2023",
+  the_only_woman_to_make_the_top_ten_list: { definition: "First Lady Rosalynn Carter in 1980", what_it_does: "", examples: "education, business, finance, journalism, and other areas" },
+  news_areas: "Ranked in the Honor Roll",
+  scores: "Based on the critics selected by U.S",
+  money_and_family_award_winners: "Announced in February and March of each year, respectively",
+  iowa: "Ranked first, and Louisiana ranked worst",
+
 };
 
 // ============================================================
