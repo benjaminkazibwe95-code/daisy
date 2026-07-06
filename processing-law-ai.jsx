@@ -64608,6 +64608,35 @@ const FLAT_DICT = {
   the_table_football_robot_foosbot: "Claimed to have been beaten by a human several times, but has been tested against expert players",
   the_element_of_surprise_and_special_techniques: "Employed to catch the opponent off guard",
 
+  // === INGESTED 2026-07-06 12:21 ===
+  canadian_football: "Also played on a wider and longer field, with deeper end zones",
+  the_canadian_football_hall_of_fame: "In Hamilton, Ontario",
+  the_first_documented_football_match: "A practice game played on November 9, 1861, at University College, University of Toronto (approximately 400 yards or 370 metres west of Queen's Park)",
+  montreal_football_club: "Formed on April 8, 1872",
+  toronto_argonaut_football_club: "Formed on October 4, 1873, and the Ottawa Football Club (later the Ottawa Rough Riders) on September 20, 1876",
+  the_canadian_field_width_was_one_rule_that: "Not based on American rules, as the Canadian game was played in wider fields and stadiums than its American counterpart",
+  when_the_cfl: { definition: "Formed, the name they chose was Canadian football, whilst the amateur game was still overseen by the Canadian Rugby Union", what_it_does: "", examples: "the Holland Hurricanes representing Holland College in the Atlantic Football League" },
+  amateur_football: "Governed by Football Canada",
+  the_canadian_major_football_league: "The governing body for the semi-professional game",
+  the_canadian_football_field: "150 yards (137 m) long and 65 yards (59 m) wide, within which the goal areas are 20 yards (18 m) deep, and the goal lines are 110 yards (101 m) apart",
+  weighted_pylons: { definition: "Placed on the inside corner of the intersections of the goal lines and end lines", what_it_does: "", examples: "the end zones, the total area of the field is 87,750 square feet (8,152 m 2 )" },
+  at_each_goal_line: "A set of 40-foot-high (12 m) goalposts , which consist of two uprights joined by an 18 + 1 ⁄ 2 -foot-long (5",
+  the_sides_of_the_field: "Marked by white sidelines , the goal line is marked in white or yellow, and white lines are drawn laterally across the field every 5 yards (4",
+  these_lateral_lines: "Called 'yard lines' and often marked with the distance in yards from and an arrow pointed toward the nearest goal line",
+  the_captain_of_the_team_winning_the_coin_toss: "Given the option of having first choice, or of deferring first choice to the other captain",
+  the_remaining_choice: "Given to the opposing captain",
+  on_the_field_at_the_beginning_of_a_play: "Two teams of 12 (and not 11 as in American football)",
+  the_team_in_possession_of_the_ball: "The offence and the team defending is referred to as the defence",
+  infractions_of_the_rules: { definition: "Punished with penalties , typically a loss of yardage of 5, 10 or 15 yards against the penalized team", what_it_does: "", examples: "for a pass interference infraction), or from where the ball ended after the play" },
+  one_notable_exception_to_this_rule: "If the kicking team on a 3rd down punt play is penalized before the kick occurs: the receiving team may not decline the penalty and take over on downs",
+  after_the_kick: "Made, change of possession occurs and subsequent penalties are assessed against either the spot where the ball is caught, or the runback",
+  players_on_the_kicking_team_who: "Not onside may not approach within five yards of the ball until it has been touched by the receiving team, or by an onside teammate",
+  timing_rules_change_when_there: "Three minutes remaining in a half",
+  a_quarter_cannot_end_while_a_penalty: "Pending: after the penalty yardage is applied, the quarter is extended one scrimmage",
+  officials: "Responsible for enforcing game rules and monitoring the clock",
+  the_size_of_lead_required: "21, 17, or 13 depending on whether the stoppage is in the first, second, or third quarter respectively",
+  if_neither_team: "Leading by that much and they are not scheduled to play again in the season, the game is declared a tie",
+
 };
 
 // ============================================================
