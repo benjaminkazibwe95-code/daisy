@@ -66351,6 +66351,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 20:12 ===
   members_of_this_phylum: "Known as orthonectids",
 
+  // === INGESTED 2026-07-06 20:14 ===
+  osteoclasts_are_multinuclear_cells_that: "Found commonly in the human body that aid in the maintenance and repair of the bones by secreting acid that dissolves bone matter",
+  this_syncytia: { definition: "Called plasmodium , in the sense of a multinucleate protoplast without a cell wall which exhibits amoeboid movement", what_it_does: "", examples: "some binucleated cells and metastasizing tumor cells)" },
+  these_extra_nuclei: "Called nucleomorphs",
+
 };
 
 // ============================================================
