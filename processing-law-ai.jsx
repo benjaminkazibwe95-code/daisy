@@ -63114,6 +63114,15 @@ const FLAT_DICT = {
   colour_temperature: "Based upon the principle that a black body radiator emits light with a frequency distribution characteristic of its temperature",
   the_simple_guide: { definition: "That higher colour temperature produces an image with enhanced white and blue hues", what_it_does: "", examples: "'it is 283 kelvins outside', as for 'it is 50 degrees Fahrenheit' and '10 degrees Celsius')" },
 
+  // === INGESTED 2026-07-06 05:07 ===
+  homogeneous_catalysis: "An established technology that continues to evolve",
+  an_illustrative_major_application: "The production of acetic acid",
+  many_nonorganometallic_complexes: "Also widely used in catalysis, e.g",
+  alkenes: "Epoxidized and dihydroxylated by metal complexes, as illustrated by the Halcon process and the Sharpless dihydroxylation",
+  enzymes_are_homogeneous_catalysts_that: "Essential for life but are also harnessed for industrial processes",
+  esters_and_amides: "Slow to hydrolyze in neutral water, but the rates are sharply affected by metalloenzymes , which can be viewed as large coordination complexes",
+  acrylamide: "Prepared by the enzyme-catalyzed hydrolysis of acrylonitrile",
+
 };
 
 // ============================================================
