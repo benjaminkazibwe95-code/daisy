@@ -65108,6 +65108,19 @@ const FLAT_DICT = {
   a_file: "Not stored in a linear manner; rather, it is held in the best way for quickest retrieval",
   the_disk_drive_interface: "The mechanism/protocol of communication between the rest of the system and the disk drive itself",
 
+  // === INGESTED 2026-07-06 14:38 ===
+  fusion_trees: "Invented in 1990 by Michael Fredman and Dan Willard",
+  another_dynamic_version_using_exponential_tree: "Proposed in 2007 [ 4 ] which yields worst-case runtimes of O (log w n + log log n ) per operation",
+  sketching: "The method by which each w -bit key at a node containing k keys is compressed into only k − 1 bits",
+  an_important_property_of_the_sketch_function: "That it preserves the order of the keys",
+  some_preprocessing: "Needed to determine the correct multiplication constant",
+  since_m_t: "Chosen to be minimal, ( b t + m t ) ≤ ( b t -1 + m t -1 ) + r 3",
+  the_approximate_sketch: "Thus computed as follows: The purpose of the compression achieved by sketching is to allow all of the keys to be stored in one w -bit word",
+  if_t: "Also a bit string, st denotes the concatenation of t to s",
+  what_is_true: "That, among all of the keys, either x i -1 or x i has the longest common prefix with q",
+  if_the_next_bit_of_q: "0, then the successor of q is contained in the p 1 subtree, and if the next bit of q is 1, then the predecessor of q is contained in the p 0 subtree",
+  this_chain_size: "Small enough that a fusion tree can handle searches and updates within it in constant time per operation",
+
 };
 
 // ============================================================
