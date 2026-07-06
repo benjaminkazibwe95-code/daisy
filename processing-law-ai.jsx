@@ -63692,6 +63692,9 @@ const FLAT_DICT = {
   this_metadata: "Both the functional characteristics of the service and quality-of-service characteristics",
   as_each_interface: "Fully documented with its own full set of regression test documentation, it becomes simple to identify problems in test services",
 
+  // === INGESTED 2026-07-06 08:08 ===
+  an_early_concept_of_design_science: { definition: "Introduced in 1957 by R", what_it_does: "", examples: "architecture, engineering, urban planning, computer science, and management studies" },
+
 };
 
 // ============================================================
