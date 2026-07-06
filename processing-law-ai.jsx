@@ -64033,6 +64033,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 09:55 ===
   schoolnet_namibia: "A non-profit provider of Internet service, hardware and training to Namibia 's schools",
 
+  // === INGESTED 2026-07-06 09:58 ===
+  the_creation_of_the_agency: "Announced by Scottish Government Education and Lifelong Learning Cabinet Minister Michael Russell on 14 October 2010",
+  education_scotland: "Tasked with inspecting Scotland's primary, secondary and, sometimes in partnership with the Care Inspectorate , nursery schools",
+
 };
 
 // ============================================================
