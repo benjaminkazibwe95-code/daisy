@@ -65984,6 +65984,20 @@ const FLAT_DICT = {
   david_politzer: "A current professor at Caltech, as is astrophysicist and author Kip Thorne and eminent mathematician Barry Simon",
   a_repeating_pattern_of_swirling_vortices: { definition: "Named after him, the von Kármán vortex street", what_it_does: "", examples: "Quora , Contour Energy Systems, Impinj , Fulcrum Microsystems, Nanosys, Inc., Photon etc" },
 
+  // === INGESTED 2026-07-06 17:56 ===
+  hawking: { definition: "Regularly interviewed for print and television", what_it_does: "", examples: "' the Black Hole War ' with Leonard Susskind and Gerard 't Hooft" },
+  because_he: "A scientific researcher, I felt that scientific research was the natural thing to do when one grew up",
+  the_only_difference_was_that_i: "Not attracted to medicine or biology because they seemed too inexact and descriptive",
+  a_firstclass_degree: "A condition of acceptance for his planned graduate study in cosmology at the University of Cambridge",
+  their_joint_essay: "The runner-up in the 1968 Gravity Research Foundation competition",
+  this_bet: "The first of several he made with Thorne and others",
+  the_earliest_surviving_example_of_these_chairs: { definition: "Made by BEC Mobility and sold by Christie's in November 2018 for £296,750", what_it_does: "", examples: "adapted student housing at the university" },
+  the_cost_of_the_care: "Funded by an American foundation",
+  one_of_those_employed: "Elaine Mason, who was to become Hawking's second wife",
+  the_email_implies_it: "Written in response to a 'new version' of the claim regarding Hawking",
+  randall: "Both her correspondence and Epstein's appearance at the conference as resulting from Epstein's public financing of scientific efforts",
+  these_derive_from_a_deep_understanding_of_what: { definition: "Relevant to physics and astronomy, and especially from a mastery of wholly new mathematical techniques", what_it_does: "", examples: "the Stephen W" },
+
 };
 
 // ============================================================
