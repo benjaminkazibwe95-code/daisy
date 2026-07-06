@@ -66316,6 +66316,16 @@ const FLAT_DICT = {
   other_cells: "Multi modal, often responding to somatosensory as well as auditory stimuli",
   it_is_not_clear_whether_there_truly: "One, none, or many tonotopic organizations maps present in the MMGN",
 
+  // === INGESTED 2026-07-06 20:01 ===
+  it_is_found_in_the_brain_and_spinal_cord_and: "Associated with inflammatory processes and pain",
+  amino_acid_residues_that: "Responsible for the binding of SP and its antagonists are present in the extracellular loops and transmembrane regions of NK-1",
+  because_these_regions: "Related to complexed signal transduction pathways mediated by cytokines , it has been proposed that cytokines and neurotropic factors can induce NK-1",
+  substance_pinduced_vasodilation: "Dependent on nitric oxide release",
+  it_is_proposed_that_this_release: { definition: "Involved in neurogenic inflammation , which is a local inflammatory response to certain types of infection or injury", what_it_does: "", examples: "choline , histamine , dopamine , serotonin , and endogenous opioids" },
+  the_sensory_function_of_substance_p: "Thought to be related to the transmission of pain information into the central nervous system",
+  the_symptoms_of_infection: "Diarrhea , constipation , and abdominal pain",
+  the_actions_of_aprepitant: "Said to be entirely central, thus requiring passage of the drug into the central nervous system",
+
 };
 
 // ============================================================
