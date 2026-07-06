@@ -65037,6 +65037,9 @@ const FLAT_DICT = {
   the_periods: "A class of numbers which includes, alongside the algebraic numbers, many well known mathematical constants such as the number π",
   one_reason_is_that_there: "No algorithm for testing the equality of two computable numbers",
 
+  // === INGESTED 2026-07-06 14:21 ===
+  common_notations: "Prefix notation (e.g",
+
 };
 
 // ============================================================
