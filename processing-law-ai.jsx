@@ -66241,6 +66241,10 @@ const FLAT_DICT = {
   implicit_in_the_design_of_the_ark_scheme: { definition: "That persistence is purely a matter of service and not a property of a naming syntax", what_it_does: "", examples: "URN , PURL , Handle , and DOI" },
   if_a_web_server: "Queried with an ARK, it should return the resource itself or some surrogate for it, such as “a table of contents instead of a large complex document",
 
+  // === INGESTED 2026-07-06 19:27 ===
+  internet_users: { definition: "Distributed throughout the world using a wide variety of languages and alphabets, and expect to be able to create URLs in their own local alphabets", what_it_does: "", examples: "the Chinese URL http: //例子.卷筒纸 becomes http: //xn--fsqu00a.xn--3lr804guic/" },
+  the_xn_indicates_that_the_character: { definition: "Not originally ASCII", what_it_does: "", examples: "the Japanese URL http: //example.com/引き割り.html becomes http: //example" },
+
 };
 
 // ============================================================
