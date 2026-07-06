@@ -64065,6 +64065,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 10:08 ===
   a_night_school: "An adult learning school that holds classes in the evening or at night to accommodate people who work during the day",
 
+  // === INGESTED 2026-07-06 10:10 ===
+  scholasticism: "A medieval European philosophical movement or methodology that was the predominant education in Europe from about 1100 to 1700",
+  the_rise_of_scholasticism: "Closely associated with these schools that flourished in Italy , France , Portugal , Spain and England",
+  scholastic_thought: "Also known for rigorous conceptual analysis and the careful drawing of distinctions",
+  the_foundations_of_christian_scholasticism: { definition: "Laid by Boethius through his logical and theological essays", what_it_does: "", examples: "the first complete translation of Euclid 's Elements into Latin" },
+  the_two_main_orders_founded_in_this_period: "The Franciscans and the Dominicans",
+  the_franciscans: "Founded by Francis of Assisi in 1209",
+  aquinas_showed_how_it: { definition: "Possible to incorporate much of the philosophy of Aristotle without falling into the 'errors' of the Commentator, Averroes", what_it_does: "", examples: "institutional criticism and materialism but retained scholasticism's method" },
+  disputationes: "Arranged to resolve controversial quaestiones",
+
 };
 
 // ============================================================
