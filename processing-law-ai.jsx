@@ -63936,6 +63936,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 09:36 ===
   collier: "A specialist in the political, economic and developmental predicaments of low-income countries",
 
+  // === INGESTED 2026-07-06 09:38 ===
+  most_of_the_existing_capitalist_economies: "Mixed economies that combine elements of free markets with state intervention and in some cases economic planning",
+  these_models_of_socialism: "Not to be confused with other forms of market socialism (e.g",
+  buyers_have_a_maximum_price_they: "Willing to pay for an item, and sellers have a minimum price at which they are willing to offer their product",
+  the_consumers: "Businesses, which try to buy (demand) the type of labor they need at the lowest price",
+  prices_and_quantities: { definition: "Allowed to adjust according to economic conditions in order to reach equilibrium and allocate resources", what_it_does: "", examples: "imposing a minimum wage (price floor) or erecting price controls (price ceiling)" },
+
 };
 
 // ============================================================
