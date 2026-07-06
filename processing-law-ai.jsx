@@ -63123,6 +63123,17 @@ const FLAT_DICT = {
   esters_and_amides: "Slow to hydrolyze in neutral water, but the rates are sharply affected by metalloenzymes , which can be viewed as large coordination complexes",
   acrylamide: "Prepared by the enzyme-catalyzed hydrolysis of acrylonitrile",
 
+  // === INGESTED 2026-07-06 05:14 ===
+  aromatic_compounds_or_arenes: "Organic compounds 'with a chemistry typified by benzene ' and 'cyclically conjugated",
+  aromatic_compounds: "Now defined as cyclic compounds satisfying Hückel's rule",
+  key_industrial_aromatic_hydrocarbons: { definition: "Benzene, toluene , xylene called BTX", what_it_does: "", examples: "the so-called aromatic amino acids" },
+  electron_flow_leading_to_rearomatization: "Key in ensuring the stability of such products",
+  although_benzylic_arenes: { definition: "Common, non-benzylic compounds are also exceedingly important", what_it_does: "", examples: "in meat cooked at high temperatures such as grilling or barbecuing, and in smoked fish" },
+  the_quadrupole_moment: "Reversed for hexafluorobenzene due to the electronegativity of fluorine",
+  the_benzene_rings: "Furthest apart in this configuration, so the favorable quadrupole/quadrupole interactions evidently compensate for diminished dispersion forces",
+  this_suggests_that_aromaticity: { definition: "Not a strict requirement for favorable interaction with an aromatic ring", what_it_does: "", examples: "stacked nucleobases may be overestimated" },
+  the_latter_compound_provides_a: "Of conserving the number of p-electrons while, however, removing the effects of delocalization",
+
 };
 
 // ============================================================
