@@ -66214,6 +66214,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 19:18 ===
   an_important_aspect_of_persistent_identifiers: { definition: "That 'persistence is purely a matter of service'", what_it_does: "", examples: "the Internet Archive perma.cc , archive" },
 
+  // === INGESTED 2026-07-06 19:20 ===
+  the_initial_iteration_of_base: "Released as a prototype in 2004 and made accessible to the general public for testing",
+  the_search_engine: { definition: "Refined and improved, and it began to attract users from all over the world", what_it_does: "", examples: "abstracts, if available" },
+  bibliographic_data: "Provided in several formats, and the results may be sorted by multiple fields, such as by author or year of publication",
+
 };
 
 // ============================================================
