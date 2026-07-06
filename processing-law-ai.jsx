@@ -64347,6 +64347,10 @@ const FLAT_DICT = {
   whatever_revenue_is_generated_by_taxes: { definition: "To be spent on basic maintenance (i.e., road repairs)", what_it_does: "", examples: "himself, he said, 'I'll probably be the lowest paying taxpayer in the office" },
   the_study_results: { definition: "From studies conducted in the United Kingdom, the United States, and Germany", what_it_does: "", examples: "voting rights and legal protections" },
 
+  // === INGESTED 2026-07-06 11:13 ===
+  an_ideal_investment_vehicle_for_bogle: "A low-cost index fund representing the entire US market, held over a lifetime with dividends reinvested",
+  bogle_believed_this: "An important analysis to be taken into account as short-term, risky investments have been flooding the financial markets",
+
 };
 
 // ============================================================
