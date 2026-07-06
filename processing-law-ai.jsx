@@ -63681,6 +63681,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 08:02 ===
   links_between_core_networks: { definition: "Different—for example, Border Gateway Protocol (BGP) routers are often used for peering exchanges", what_it_does: "", examples: "GPON , with the edge device connecting to Ethernet for backhaul (telecommunications)" },
 
+  // === INGESTED 2026-07-06 08:04 ===
+  google_assistant: "Available in more than 90 countries and over 30 languages, [ 8 ] and is used by more than 500 million users monthly",
+  the_chatbot: { definition: "Released on February 8, 2024, in the United States", what_it_does: "", examples: "the Google Nest, being mostly replaced by Gemini" },
+  their_focus: "To build an environment where developers could build richer experiences for their users",
+  this_feature_of_the_speech_recognition: { definition: "Available in English, among other languages", what_it_does: "", examples: "'mhm' and 'gotcha', along with more human-like intonation and response latency" },
+
 };
 
 // ============================================================
