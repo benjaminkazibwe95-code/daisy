@@ -64930,6 +64930,22 @@ const FLAT_DICT = {
   use_of_a_swap_file_or_swap_partition: "A way for the operating system to provide more memory than is physically available by keeping portions of the primary memory in secondary storage",
   while_multitasking_and_memory_swapping: "Two completely unrelated techniques, they are very often used together, as swapping memory allows more tasks to be loaded at the same time",
 
+  // === INGESTED 2026-07-06 13:57 ===
+  a_page_table: "A data structure used by a virtual memory system in a computer to store mappings between virtual addresses and physical addresses",
+  the_page_table: "An array of page table entries",
+  if_a_match: { definition: "Found, which is known as a TLB hit , the physical address is returned and memory access can continue", what_it_does: "", examples: "removal of the paged-out page from it, and the instruction restarted" },
+  which_page_to_page_out: "The subject of page replacement algorithms",
+  the_present_bit_can_indicate_what_pages: "Currently present in physical memory or are on disk, and can indicate how to treat these different pages, i.e",
+  a_page_on_disk_that: "Paged in to physical memory, then read from, and subsequently paged out again does not need to be written back to disk, since the page has not changed",
+  when_a_dirty_bit: "Used, at all times some pages will exist in both physical memory and the backing store",
+  at_its_core: "A fixed-size table with the number of rows equal to the number of frames in memory",
+  this_hash_table: "Known as a hash anchor table",
+  the_hashing_function: "Not generally optimized for coverage - raw speed is more desirable",
+  a_major_problem_with_this_design: "Poor cache locality caused by the hash function",
+  a_perprocess_identifier: "Used to disambiguate the pages of different processes from each other",
+  inverted_page_tables: { definition: "Used for example on the PowerPC , the UltraSPARC and the IA-64 architecture", what_it_does: "", examples: "we can create smaller 1024-entry 4 KB pages that cover 4 MB of virtual memory" },
+  multilevel_page_tables: "Also referred to as 'hierarchical page tables'",
+
 };
 
 // ============================================================
