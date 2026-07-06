@@ -67002,6 +67002,32 @@ const FLAT_DICT = {
   saul_singer: "A columnist and former editorial page editor for The Jerusalem Post",
   this_percentage: "As high as ~13% during some years of the first decades after 1950, according to The Times of Israel",
 
+  // === INGESTED 2026-07-06 22:47 ===
+  neither_claim: { definition: "Widely recognised internationally", what_it_does: "", examples: "the Old City, was occupied and annexed by Jordan" },
+  all_branches_of_the_israeli_government: "Located in Jerusalem, including the Knesset (Israel's parliament), the residences of the prime minister and president , and the Supreme Court",
+  salem_as_an_early_name_for_jerusalem: "Also indicated by the liturgical poetry in Psalms , which equates Salem with Zion , used as a synonym for Jerusalem",
+  in_the_modern_period_jerusalem: { definition: "Divided between Israel and Jordan after the 1948 Arab–Israeli War", what_it_does: "", examples: "the entire Old City, as part of the occupied Palestinian territories" },
+  member_states: "Called upon to withdraw their diplomatic representation from Jerusalem",
+  some_government_buildings: { definition: "Located in Kiryat Menachem Begin", what_it_does: "", examples: "making Jerusalem an open city" },
+  the_longestserving_jerusalem_mayor: "Teddy Kollek , who spent 28 years—six consecutive terms—in office",
+  the_elevation_of_the_old_city: "Approximately 760 m (2,490 ft)",
+  along_the_southern_side_of_old_jerusalem: "The Valley of Hinnom, a steep ravine associated in biblical eschatology with the concept of Gehenna or Hell",
+  january: "The coldest month of the year, with an average temperature of 9.1 °C (48",
+  the_average_annual_precipitation: "Around 537 mm (21 in) , with rain occurring almost entirely between October and May",
+  the_highest_recorded_temperature_in_jerusalem: "44.4 °C (111.9 °F) on 28 and 30 August 1881, and the lowest temperature recorded was −6.7 °C (19.9 °F) on 25 January 1907",
+  industrial_pollution_inside_the_city: { definition: "Sparse, but emissions from factories on the Israeli Mediterranean coast can travel eastward and settle over the city", what_it_does: "", examples: "the Jerusalem District" },
+  the_temple_mount: "The holiest spot in Judaism and the third holiest site in Islam",
+  jerusalem: "Declared the Capital of Arab Culture in 2009",
+  local_palestinian_engineers: { definition: "Employed in the complex by multinational companies, some of which includes AT&T , Natural Intelligence, Nvidia , Unity , and Synamedia", what_it_does: "", examples: "skyscrapers, built in certain, designated areas of downtown Jerusalem" },
+  the_complex: "Expected to attract many businesses from Tel Aviv, and become the city's main business hub",
+  the_route: "From Pisgat Ze'ev in the north via the Old City and city centre to Mount Herzl in the south",
+  today_jerusalem: "Served by Ben Gurion Airport , some 50 km (30 mi) northwest of the Jerusalem, on the route to Tel Aviv",
+  the_academy_of_the_hebrew_language: "Located in the Hebrew university in Givat Ram and the Israel Academy of Sciences and Humanities located near the Presidents House",
+  a_world_bible_centre: "Planned to be built adjacent to Mount Zion at a site called the 'Bible Hill'",
+  a_planned_world_kabbalah_centre: "To be located on the nearby promenade , overlooking the Old City",
+  the_western_extension_of_mount_herzl: "The Mount of Remembrance, where the main Holocaust museum of Israel is located",
+  the_jerusalem_post_and_the_times_of_israel: { definition: "Also headquartered in Jerusalem", what_it_does: "", examples: "1,500 from fifty countries outside Israel" },
+
 };
 
 // ============================================================
