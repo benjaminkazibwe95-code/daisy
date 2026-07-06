@@ -67099,6 +67099,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:22 ===
   tan: { definition: "Born in 1981 [ 5 ] to a Chinese Singaporean father and a Burmese Chinese mother in Winnipeg , Canada", what_it_does: "", examples: "Instacart and Coinbase" },
 
+  // === INGESTED 2026-07-06 23:24 ===
+  taggar: "Also the first non-founder Partner at the startup accelerator , Y Combinator , having first joined in 2010",
+  since_taggar_and_his_cofounders: { definition: "'non-technical,' Y Combinator accepted them with the condition that one of them learned programming; Taggar was the one who eventually learned", what_it_does: "", examples: "an 'interviewing checklist' which Y Combinator still uses" },
+
 };
 
 // ============================================================
