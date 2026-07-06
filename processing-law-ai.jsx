@@ -66054,6 +66054,13 @@ const FLAT_DICT = {
   implosion: "A key part of the gravitational collapse of large stars , which can lead to the creation of supernovas , neutron stars and black holes",
   if_the_outer_glass_envelope: "Damaged, a dangerous implosion may occur",
 
+  // === INGESTED 2026-07-06 18:20 ===
+  logan_high_school: "A four-year public high school in the western United States , located in Logan, Utah",
+  logan_high: "Currently in the Utah High School Activities Association (UHSAA) Class 4A Region XI and its mascot is a Grizzly",
+  high_school: "Previously conducted at Brigham Young College in Logan",
+  a_building_to_house_the_new_high_school: { definition: "Completed in 1919, on the corner of Church and Federal Avenues in Logan", what_it_does: "", examples: "a new turf football field, softball diamond, and sand volleyball courts" },
+  student_body_officers_any_student_that: "A current sophomore or junior with a 3.0 GPA and no failing grades, is eligible to run for a Student Body Office",
+
 };
 
 // ============================================================
