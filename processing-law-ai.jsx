@@ -66495,6 +66495,9 @@ const FLAT_DICT = {
   the_very_low_quality_of_evidence: "We have very limited confidence in the effect estimate reported",
   common_sites_of_entrapment: "Spaces of anatomic narrowing such as osteofibrous tunnels (e.g",
 
+  // === INGESTED 2026-07-06 20:47 ===
+  the_pudendal_plexus: "A term used for a compound structure consisting of sacral spinal nerves",
+
 };
 
 // ============================================================
