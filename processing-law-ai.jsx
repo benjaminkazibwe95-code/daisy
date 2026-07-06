@@ -65647,6 +65647,32 @@ const FLAT_DICT = {
   the_linewidth_of_the_resonated_wave: "Very narrow (as low as several kHz )",
   narrowlinewidth_opos: "Widely used in spectroscopy",
 
+  // === INGESTED 2026-07-06 16:51 ===
+  the_generation_and_detection_scheme: "Sensitive to the sample's effect on both the amplitude and the phase of the terahertz radiation",
+  that_optical_pulse: "First split to provide a probe pulse whose path length is adjusted using an optical delay line",
+  the_probe_pulse_strobes_the_detector_that: "Sensitive to the electric field of the resulting terahertz signal at the time of the optical probe pulse sent to it",
+  silvercoated_mirrors: "Optimum for use as steering mirrors for infrared pulses around 800 nm",
+  their_reflectivity: "Higher than gold and much higher than aluminum at that wavelength",
+  a_beamsplitter: "Used to divide a single ultrashort optical pulse into two separate beams",
+  an_optical_delayline: "Implemented using a movable stage to vary the path length of one of the two beam paths",
+  a_purge_box: "Typically used so that absorption of THz radiation by gaseous water molecules is minimized",
+  a_dry_air_source: "Often used for this purpose, however, a nitrogen gas source may also be used",
+  offaxis_parabolic_mirrors: { definition: "Commonly used to collimate and focus THz radiation", what_it_does: "", examples: "metal-coated mirrors as well as lenses made from materials that are transparent at THz wavelengths" },
+  samples_for_spectroscopy: "Commonly placed at a focus where the terahertz beam is most concentrated",
+  many_materials: { definition: "Transparent at terahertz wavelengths, and this radiation is safe for biological tissue being non-ionizing (as opposed to X-rays )", what_it_does: "", examples: "thickness, density, defect location) on difficult-to-probe materials like foam" },
+  most_carriers: "Generated near the surface of the material (typically within 1 micrometre) because pulses are absorbed exponentially with respect to depth",
+  this_is_known_as_the_photodember_effect_and: { definition: "Particularly strong in high-mobility semiconductors such as indium arsenide", what_it_does: "", examples: "InP ) substrate" },
+  this_is_not_the_only_means_of_generation_but: "Currently ( as of 2008 [ update ] ) the most common",
+  because_of_the_high_laser_intensities_that: "Necessary, this technique is mostly used with amplified Ti:sapphire lasers",
+  typical_crystal_materials: "Zinc telluride , gallium phosphide , and gallium selenide",
+  the_electrical_field_of_terahertz_pulses: "Measured in a detector simultaneously illuminated with an ultrashort laser pulse",
+  two_common_detection_schemes: "Used in THz-TDS: photoconductive sampling and electro-optical sampling",
+  because_the_measurement_technique: { definition: "Coherent, it naturally rejects incoherent radiation", what_it_does: "", examples: "averaging time)" },
+  thztds_measurements: "Typically not single-shot measurements",
+  photoconductive_detection: "Similar to photoconductive generation",
+  this_amplified_current: { definition: "The measured parameter that corresponds to the THz field strength", what_it_does: "", examples: "low temperature and high pressure" },
+  low_temperature_thztds: { definition: "Routinely performed at cryogenic temperatures ranging from liquid nitrogen temperature (~77 K) down to liquid helium regimes (<10 K)", what_it_does: "", examples: "studies of superconductors and correlated electron systems" },
+
 };
 
 // ============================================================
