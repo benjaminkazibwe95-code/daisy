@@ -66340,6 +66340,14 @@ const FLAT_DICT = {
   deworming: "A method to kill off the worms that have infected a human or animal by giving anthelmintic drugs",
   wyrm: "The Old English term for carnivorous reptiles ('serpents') and mythical dragons",
 
+  // === INGESTED 2026-07-06 20:10 ===
+  cavaliersmith: "Courageous in his adherence to the earlier traditionalist style characterized by Charles Darwin , that of relying on narratives",
+  his_suggestions: "Translated into taxonomic concepts and classifications with which he associated new names, or in some cases, reused old names",
+  this_interpretation_that_chromists: "Monophyletic also required that the heterotrophic ( protozoan ) members of all three groups had arisen from ancestors with plastids",
+  the_alternative_hypothesis: { definition: "That the three chromophytic lineages were not closely related (to the exclusion of other lineages) (i.e", what_it_does: "", examples: "Protozoa) for innovative taxonomic concepts" },
+  this_created_confusion_because_protozoa: "And still is used in its old sense, [ 12 ] alongside its use in the newer senses",
+  one_of_his_major_contributions_to_biology: { definition: "His proposal of a new kingdom of life: the Chromista , even though it is not widely accepted to be monophyletic (see above)", what_it_does: "", examples: "the Chromalveolata (1981), Opisthokonta (1987), Rhizaria (2002), and Excavata (2002)" },
+
 };
 
 // ============================================================
