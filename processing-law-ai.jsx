@@ -63714,6 +63714,10 @@ const FLAT_DICT = {
   crowdinvesting: "Responsible for 48% of the total money raised via crowdfunding in Switzerland in 2013",
   states_have_recently_enacted_or: "Considering their own crowdfunding exemption laws, to facilitate intrastate investment offerings that are already exempt from federal (SEC) regulation",
 
+  // === INGESTED 2026-07-06 08:17 ===
+  angel_investors: "Often retired entrepreneurs or executives who may be interested in angel investing for reasons that go beyond pure monetary return",
+  angel_groups: { definition: "Generally local organizations made up of 10 to 150 accredited investors interested in early-stage investing", what_it_does: "", examples: "the illusion of control and overconfidence" },
+
 };
 
 // ============================================================
