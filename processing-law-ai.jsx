@@ -64527,6 +64527,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 12:00 ===
   bdm: { definition: "Designed for use in making deliberative decisions—those made based on canvassing and weighing up the arguments", what_it_does: "", examples: "stress, anxiety, time pressure, lost thinking and inefficiency" },
 
+  // === INGESTED 2026-07-06 12:04 ===
+  bundesliga_which: "The second division/level",
+
 };
 
 // ============================================================
