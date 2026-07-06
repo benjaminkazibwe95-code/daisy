@@ -66478,6 +66478,23 @@ const FLAT_DICT = {
   incidence: "Highest for individuals younger than 40 and peaks in the age group from 20 to 29 years; a second peak is observed for women over 50",
   erythema_nodosum: "Far more common in men than in women and in Caucasians than in other races",
 
+  // === INGESTED 2026-07-06 20:44 ===
+  the_affected_nerves: "Found in an EMG (electromyography) / NCS (nerve conduction study) test and the classification is applied upon exam completion",
+  diabetic_neuropathy: { definition: "The most common cause of this pattern", what_it_does: "", examples: "texture or temperature, and impaired balance when standing or walking" },
+  diabetes_and_impaired_glucose_tolerance: { definition: "The most common causes", what_it_does: "", examples: "alcohol and certain prescribed drugs)" },
+  mononeuritis_multiplex: { definition: "Sometimes associated with a deep, aching pain that worsens at night and frequently in the lower back, hip, or leg", what_it_does: "", examples: "the bladder muscles, the cardiovascular system , the digestive tract , and the genital organs" },
+  most_commonly_autonomic_neuropathy: { definition: "Seen in persons with long-standing diabetes mellitus type 1 and 2", what_it_does: "", examples: "sensory neuropathy" },
+  reviews_of_these_systematic_reviews: { definition: "Also necessary to assess their failings", what_it_does: "", examples: "explicitly states that amitriptyline and gabapentin can be used for treating the pain of sciatica" },
+  all_reviews: { definition: "Done between 2014 and 2015", what_it_does: "", examples: "neuropathic pain) in children and adolescents and the authors found the evidence inconclusive" },
+  the_authors_also_found_that_the_evidence: "Possibly biased and that some patients experienced adverse events",
+  they_discuss_how_there: "A probable overestimate of the effect due to the inherent problems with the data and conclude that the evidence does not support its usage",
+  no_trials: { definition: "Considered greater than level III evidence; none lasted longer than 4 weeks and had poor reporting quality", what_it_does: "", examples: "neuropathic pain) in children and adolescents found the evidence inconclusive" },
+  conflicts_of_interest: "Declared by the authors in this review",
+  overall_the_evidence: "Of low or very low quality and the authors state that it 'does not provide a reliable indication of the likely effect'",
+  capsaicin: "The factor that causes heat in chili peppers",
+  the_very_low_quality_of_evidence: "We have very limited confidence in the effect estimate reported",
+  common_sites_of_entrapment: "Spaces of anatomic narrowing such as osteofibrous tunnels (e.g",
+
 };
 
 // ============================================================
