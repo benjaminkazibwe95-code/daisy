@@ -63233,6 +63233,18 @@ const FLAT_DICT = {
   the_above_change_in_composition: "In accordance with Le Chatelier's principle and does not involve any change of the equilibrium constant with the total system pressure",
   the_deuterated_acid: "Studied in heavy water , since if it were dissolved in ordinary water the deuterium would rapidly exchange with hydrogen in the solvent",
 
+  // === INGESTED 2026-07-06 05:46 ===
+  in_contrast_if_it: { definition: "On a hyperbolic trajectory its speed will always be higher than the escape speed at its current distance", what_it_does: "", examples: "with the definitional value for standard gravity of 9.80665 m/s 2 (32" },
+  a_related_quantity: "The specific orbital energy which is essentially the sum of the kinetic and potential energy divided by the mass",
+  imagine_that_a_spaceship_of_mass_m: "Initially at a distance r from the center of mass of the planet, whose mass is M , and its initial speed is equal to its escape velocity, v e",
+  this_escape_velocity: "Relative to a non-rotating frame of reference, not relative to the moving surface of the planet or moon, as explained below",
+  the_escape_velocity_at_a_given_height: "2 {\displaystyle {\sqrt {2}}} times the speed in a circular orbit at the same height, (compare this with the velocity equation in circular orbit )",
+  escape_velocity_usually: "The escape velocity of zero mass test particles",
+  escape_orbits: { definition: "Known as C 3 = 0 orbits", what_it_does: "", examples: "at a place where escape speed is 11.2 km/s, the addition of 0" },
+  this_means_the_timing_of_the_acceleration: "Critical if the intention is to escape in a particular direction",
+  if_the_speed_at_periapsis: { definition: "V , then the eccentricity of the trajectory is given by: This is valid for elliptical, parabolic, and hyperbolic trajectories", what_it_does: "", examples: "Jupiter) relative to its centre (that is, not relative to its moving surface)" },
+  moons: "Indented below their planet",
+
 };
 
 // ============================================================
