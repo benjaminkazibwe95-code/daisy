@@ -63778,6 +63778,13 @@ const FLAT_DICT = {
   green_development: "A concept that has grown since the 1970s with the environmental movement and the World Commission on Environment and Development",
   examples_of_green_development: "Green infrastructure , LEED , conservation development , and sustainability developments",
 
+  // === INGESTED 2026-07-06 08:45 ===
+  the_inverse_process: "Called implicitization",
+  the_number_of_parameters: "The number of degrees of freedom of the system",
+  parametrizations: "Not generally unique",
+  the_length_of_the_curve: "Therefore a parametrization-invariant quantity",
+  in_such_cases_parametrization: "A mathematical tool employed to extract a result whose value does not depend on, or make reference to, the details of the parametrization",
+
 };
 
 // ============================================================
