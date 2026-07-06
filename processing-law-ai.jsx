@@ -66298,6 +66298,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 19:46 ===
   the_posterior_nucleus_of_the_hypothalamus: "One of the many nuclei that make up the hypothalamic region of the brain",
 
+  // === INGESTED 2026-07-06 19:49 ===
+  the_inferior_colliculi_of_the_midbrain: "Located just below the visual processing centers known as the superior colliculi",
+  the_mgb: "Composed of ventral, dorsal, and medial divisions, which are relatively similar in humans and other mammals",
+  this_indicates_that_the_inferior_colliculus: "Metabolically more active than many other parts of the brain",
+  the_predicted_just_noticeable_difference: "Comparable to that achieved by humans in behavioral tests",
+
 };
 
 // ============================================================
