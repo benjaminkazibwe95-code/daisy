@@ -65262,6 +65262,9 @@ const FLAT_DICT = {
   the_optimal_level_of_the_output: "70, where the marginal cost equals to marginal utility",
   the_wholesale_prices_they_get: "Much lower than those of their competitors",
 
+  // === INGESTED 2026-07-06 15:17 ===
+  a_point_x_in_x_is_called_these_concepts: "Motivated by considering each point in A as representing the location of an agent, and the points x and y are potential locations for a facility",
+
 };
 
 // ============================================================
