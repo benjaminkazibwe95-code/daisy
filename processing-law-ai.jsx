@@ -66572,6 +66572,17 @@ const FLAT_DICT = {
   the_basis_for_solidstate_image_sensors: { definition: "Metal–oxide–semiconductor (MOS) technology, [ 1 ] which originates from the invention of the MOSFET (MOS field-effect transistor) at Bell Labs in 1959", what_it_does: "", examples: "the CCD and later the CMOS active-pixel sensor" },
   some_like_panavision_pv_and_arri_pl: "Designed for movie cameras while others like Canon EF and Sony E come from still photography",
 
+  // === INGESTED 2026-07-06 21:12 ===
+  olympus: "Also the largest manufacturer of Four Thirds lenses, under the Zuiko Digital brand",
+  the_first_olympusbranded_mft_camera: "The Olympus PEN E-P1",
+  the_first_model_in_this_family: "The E-M5 , released in 2012",
+  the_latest_olympus_camera: "The Olympus OM-D E-M10 Mark IV as of 20 August 2020",
+  this_storage_solution: "Less popular than more common formats, and recent cameras can use SD and CompactFlash cards",
+  the_most_recent_development: { definition: "Olympus's focus on the Micro Four Thirds system", what_it_does: "", examples: "the CB-USB8, instead of following standards" },
+  the_first_flexible_endoscope_in_the_world: { definition: "Co-developed and manufactured by Olympus in Tokyo", what_it_does: "", examples: "outpatient hospital facilities, ambulatory surgery centers, or a doctor's office" },
+  mr_kikukawa_resigned_in_the_following_year_and: "Arrested by Tokyo police for alleged criminal offenses during and before his term as president and CEO",
+  preceding_executive_yasuo_takeuchi: "Assigned the new CEO",
+
 };
 
 // ============================================================
