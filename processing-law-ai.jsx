@@ -67123,6 +67123,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:31 ===
   geoff_ralston: "The former President of Y Combinator",
 
+  // === INGESTED 2026-07-06 23:33 ===
+  techstars: "Founded in Boulder, Colorado , by David Cohen , Brad Feld , David Brown, and Jared Polis in 2006",
+  the_decision_to_close_it: "Made as the accelerator shifts its focus to cities with more VC activity",
+
 };
 
 // ============================================================
