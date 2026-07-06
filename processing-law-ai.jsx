@@ -66677,6 +66677,24 @@ const FLAT_DICT = {
   the_defining_characteristics_of_the_pocket_pc: "The touchscreen as the primary human interface device and its extremely portable size",
   pocket_pc: { definition: "Based on Windows CE, but it's a different offering.' And licensees of Pocket PC are forbidden to modify the WinCE part", what_it_does: "", examples: "email, and multimedia abilities for consumers" },
 
+  // === INGESTED 2026-07-06 21:30 ===
+  gift_cards: "Divided into open loop or network cards and closed loop cards",
+  a_feature_of_these_cards_is_that_they: { definition: "Generally anonymous and are disposed of when the stored value on a card is exhausted", what_it_does: "", examples: "as to validity period and businesses that accept a particular card" },
+  nabanco: "The developer of the first third-party platform for the processing of gift cards using existing payment infrastructure",
+  neiman_marcus_and_blockbuster: "Later followed by the Mobil gas card, which initially offered prepaid phone value provided by MCI",
+  kmart: "Next with the introduction of the Kmart Cash Card, which in the early generations provided prepaid phone time with AT&T",
+  the_kmart_cash_card: "The first replacement for cash returns when a shopper did not have a receipt for a gift",
+  the_card: "Identified by a specific number or code, not usually with an individual name, and thus could be used by anybody",
+  many_cards_have_no_value_until_they: "Sold, at which time the cashier enters the amount which the customer wishes to put on the card",
+  this_amount_is_rarely_stored_on_the_card_but: "Instead noted in the merchant's database , which is cross linked to the card ID",
+  the_magnetic_strip: "Also often placed differently than on credit cards, so they cannot be read or written with standard equipment",
+  inactivity_fees_and_card_expirations: "Both limited by the new law",
+  a_third_form: "The hybrid closed loop card whose issuer has bundled a number of closed loop cards; an example is free gift cards for a specific shopping mall",
+  mobile_gift_cards: "Delivered to mobile phones via email or SMS , and phone apps allow users to carry only their cell phone",
+  as_the_merchant: { definition: "Not involved in the loop, it is considered a cash transfer rather than a traditional gift card", what_it_does: "", examples: "for, holidays, special occasions, sports teams, cartoons, and more" },
+  even_more_desirable: "Brand new unused gift cards even ones still attached to the retail backers",
+  most_gift_cards: { definition: "Plastic, some variances include clear plastic, shaped cards, and paperboard cards", what_it_does: "", examples: "gift cards that resemble credit cards ( i.e" },
+
 };
 
 // ============================================================
