@@ -65951,6 +65951,17 @@ const FLAT_DICT = {
   the_most_familiar_conservative_forces: "Gravity , the electric force (in a time-independent magnetic field, see Faraday's law ), and spring force",
   examples_of_nonconservative_forces: "Friction and non-elastic material stress",
 
+  // === INGESTED 2026-07-06 17:50 ===
+  princeton_university: "A private Ivy League research university in Princeton, New Jersey , United States",
+  the_final_report: "Issued in January 1969, supporting the idea",
+  the_campuses: { definition: "Situated about one hour from both New York City and Philadelphia on the train", what_it_does: "", examples: "Frank Gehry (Lewis Library), [ 176 ] I" },
+  her_contributions: "Most recently recognized with the naming of a courtyard for her",
+  joint_degrees: { definition: "Available for several disciplines, as are dual M.D./Ph.D", what_it_does: "", examples: "seven million bound volumes, making it one of the largest university libraries in the United States" },
+  many_of_the_groups: "Represented by the Performing Arts Council",
+  the_oldest_a_cappella_ensemble: "The Nassoons , which were formed in 1941",
+  the_frist_campus_center_and_the_campus_club: "Additional facilities for the entire campus community that hold various activities and events",
+  the_following_faiths: "Represented on campus: Baha'i , Buddhism, Christianity, Hinduism, Judaism, Islam, Sikhism , and Unitarian Universalism",
+
 };
 
 // ============================================================
