@@ -66466,6 +66466,18 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 20:38 ===
   a_hiccup: "A spasmodic contraction of the diaphragm, which pulls air against the closed folds of the larynx",
 
+  // === INGESTED 2026-07-06 20:42 ===
+  sarcoidosis_of_the_lung: { definition: "Primarily an interstitial lung disease in which the inflammatory process involves the alveoli, small bronchi, and small blood vessels", what_it_does: "", examples: "the larynx , pharynx , and sinuses ) may be affected, which occurs in between 5 and 10% of cases" },
+  the_distribution_of_affected_areas: "Patchy with localised enlargement of heart muscles",
+  when_the_distribution: "Diffuse, there would be dilatation of both ventricles of the heart, causing heart failure and arrhythmia",
+  central_nervous_system_involvement: "Present in 10–25% of sarcoidosis cases",
+  the_gland: { definition: "Usually not tender, but firm and smooth", what_it_does: "", examples: "Candida or purified protein derivative" },
+  the_exact_mechanism_of_this_relation: { definition: "Not known, but some evidence supports the hypothesis that it is a consequence of Th1 lymphokine prevalence", what_it_does: "", examples: "tuberculin is suppressed" },
+  the_use_of_corticosteroids_in_mild_disease: { definition: "Controversial because, in many cases, the disease remits spontaneously", what_it_does: "", examples: "infliximab , etanercept , golimumab , and adalimumab )" },
+  key_aspects: { definition: "Avoiding exercise intolerance and muscle weakness", what_it_does: "", examples: "joint pain, muscle pain, and fatigue" },
+  incidence: "Highest for individuals younger than 40 and peaks in the age group from 20 to 29 years; a second peak is observed for women over 50",
+  erythema_nodosum: "Far more common in men than in women and in Caucasians than in other races",
+
 };
 
 // ============================================================
