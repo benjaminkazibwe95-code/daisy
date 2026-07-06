@@ -66237,6 +66237,10 @@ const FLAT_DICT = {
   one_common_mitigation: "Data anonymization , such as hashing user identifiers with a cryptographic hash function",
   another_popular_technique: { definition: "Adding statistical noise to a data set to reduce identifiability, such as in differential privacy", what_it_does: "", examples: "money transfers, need a stricter level of validation of digital identity" },
 
+  // === INGESTED 2026-07-06 19:25 ===
+  implicit_in_the_design_of_the_ark_scheme: { definition: "That persistence is purely a matter of service and not a property of a naming syntax", what_it_does: "", examples: "URN , PURL , Handle , and DOI" },
+  if_a_web_server: "Queried with an ARK, it should return the resource itself or some surrogate for it, such as “a table of contents instead of a large complex document",
+
 };
 
 // ============================================================
