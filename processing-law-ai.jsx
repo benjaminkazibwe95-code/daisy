@@ -66280,6 +66280,9 @@ const FLAT_DICT = {
   persistently_high_lh_levels: "Indicative of situations where the normal restricting feedback from the gonad is absent, leading to a pituitary production of both LH and FSH",
   recombinant_luteinizing_hormone: "Available as lutropin alfa (Luveris)",
 
+  // === INGESTED 2026-07-06 19:42 ===
+  it_lies_within_the_periventricular_zone_and: { definition: "Not to be confused with the periventricular nucleus , which occupies a more medial position, beneath the third ventricle", what_it_does: "", examples: "parvocellular preautonomic cells that project to the brainstem and spinal cord" },
+
 };
 
 // ============================================================
