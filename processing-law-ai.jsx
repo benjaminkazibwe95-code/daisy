@@ -65865,6 +65865,24 @@ const FLAT_DICT = {
   the_pull_of_gravity_in_leo: "Only slightly less than on the Earth's surface",
   satellites_and_space_stations_in_leo: { definition: "More accessible for crew and servicing", what_it_does: "", examples: "the Iridium phone system" },
 
+  // === INGESTED 2026-07-06 17:35 ===
+  this_last_conclusion: "Based on a potential process for manufacturing macro-scale single crystal graphene [ 42 ] with higher specific strength than carbon nanotubes",
+  the_cable_thickness: "Tapered based on tension; it has its maximum at a geostationary orbit and the minimum on the ground",
+  the_centrifugal_force_and_the_gravity: "Balanced at geosynchronous equatorial orbit (GEO)",
+  the_greatest_tension_on_a_space_elevator_cable: "At the point of geostationary orbit, 35,786 km (22,236 mi) above the Earth's equator",
+  a_cable_which: "Thicker in cross section area at that height than at the surface could better hold up its own weight over a longer length",
+  specific_strength: "Of fundamental importance in the description of cable materials",
+  the_counterweight: { definition: "Held down by the cable while the cable is held up and taut by the counterweight", what_it_does: "", examples: "large oceangoing vessels or other mobile platforms" },
+  oceanic_anchor_points: { definition: "Also typically in international waters , simplifying and reducing the cost of negotiating territory use for the base station", what_it_does: "", examples: "on top of mountains" },
+  on_elevator_designs_whose_cables: "Planar ribbons, most propose to use pairs of rollers to hold the cable with friction",
+  its_disadvantage: "The need to produce greater amounts of cable material as opposed to using just anything available that has mass",
+  current_materials: "Already sufficiently strong to construct such an elevator",
+  phobos: "Tide-locked : one side always faces its primary, Mars",
+  the_surface_of_mars: "Rotating at 0.25 km/s at the equator and the bottom of the space elevator would be rotating around Mars at 0.77 km/s, so only 0",
+  when_the_lower_end_of_the_cable: "Long enough to reach the surface of the Earth (at the equator), it would be anchored",
+  one_potential_solution_proposed_by_edwards: { definition: "To use a movable anchor (a sea anchor) to allow the tether to 'dodge' any space debris large enough to track", what_it_does: "", examples: "meteoroids, micrometeorites and orbiting man-made debris pose another design constraint on the cable" },
+  the_original_concept_envisioned_by_tsiolkovsky: "A compression structure, a concept similar to an aerial mast",
+
 };
 
 // ============================================================
