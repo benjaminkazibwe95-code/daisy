@@ -64075,6 +64075,20 @@ const FLAT_DICT = {
   aquinas_showed_how_it: { definition: "Possible to incorporate much of the philosophy of Aristotle without falling into the 'errors' of the Commentator, Averroes", what_it_does: "", examples: "institutional criticism and materialism but retained scholasticism's method" },
   disputationes: "Arranged to resolve controversial quaestiones",
 
+  // === INGESTED 2026-07-06 10:15 ===
+  nectar: { definition: "Secreted from epidermal cells of the nectaries, which have a dense cytoplasm , by means of trichomes or modified stomata", what_it_does: "", examples: "ants , that protect the plant from predators" },
+  the_function_of_these_structures: { definition: "To attract potential pollinators , which may include insects, including bees and moths , and vertebrates such as hummingbirds and bats", what_it_does: "", examples: "the types of floral nectaries previously listed" },
+  these_spurs: { definition: "Projections of various lengths formed from different tissues, such as the petals or sepals", what_it_does: "for pollinators to land on the elongated tissue and more easily reach the nectaries and obtain the nectar reward", examples: "its length or position in the flower, may determine the type of pollinator that visits the flower" },
+  in_species_that: "Wind pollinated, nectaries are often absent because there is no pollinator",
+  sepal_and_petal_nectaries: { definition: "Often more common in species that are pollinated by short-tongued insects that cannot reach so far into the flower", what_it_does: "", examples: "flower age, [ 17 ] plant location, [ 18 ] and habitat management" },
+  they_secrete_matter_that: "Particularly rich in carbohydrates, proteins and lipids",
+  acacia: "One example of a plant whose nectaries attract ants, which protect the plant from other insect herbivores",
+  their_defensive_functions: "First recognized by the Italian botanist Federico Delpino in his important monograph Funzione mirmecofila nel regno vegetale (1886)",
+  the_genera_with_the_most_recorded_occurrences: "Passiflora (322 species, Passifloraceae), Inga (294 species, Fabaceae), and Acacia (204 species, Fabaceae)",
+  the_strongest_such_aroma: { definition: "Benzylacetone , but the plant also adds bitter nicotine , which is less aromatic, so may not be detected by the bird until after taking a drink", what_it_does: "", examples: "aesculin are present in some nectars such as that of the California buckeye" },
+  elaiophores: "Similar to nectaries but are oil secreting",
+  osmophores: "Modified structural structures that produce volatile scents",
+
 };
 
 // ============================================================
