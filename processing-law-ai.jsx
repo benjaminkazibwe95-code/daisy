@@ -67195,6 +67195,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:55 ===
   when_degrees_of_freedom: "Used instead of dimension , this usually means that the manifold or variety that models the system is only implicitly defined",
 
+  // === INGESTED 2026-07-06 23:59 ===
+  a_national_or_sovereign_default: "The failure or refusal of a government to repay its national debt",
+  the_biggest_private_default_in_history: "Lehman Brothers , with over $600 billion when it filed for bankruptcy in 2008 (equivalent to over $ 860 billion in 2024 )",
+  the_biggest_sovereign_default: "Greece, with $138 billion in March 2012 (equivalent to $ 197 billion in 2024 )",
+  affirmative_covenants: "Clauses in debt contracts that require firms to maintain certain levels of capital or financial ratios",
+  negative_covenants: "Clauses in debt contracts that limit or prohibit corporate actions (e.g",
+  violations_of_negative_covenants: "Rare compared to violations of affirmative covenants",
+  even_if_the_debt: "Not secured by collateral, debt holders may still sue for bankruptcy, to ensure that the corporation's assets are used to repay the debt",
+
 };
 
 // ============================================================
