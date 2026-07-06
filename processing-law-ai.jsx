@@ -64717,6 +64717,12 @@ const FLAT_DICT = {
   long_economic_cycles: "Investigated by Robert Ayres (1989)",
   a_method_to_mitigate_this_uncertainty: "Using the carrying capacity from a surrogate logistic growth process as a reference point",
 
+  // === INGESTED 2026-07-06 12:47 ===
+  the_weights_and_biases: "Implemented by rheostats (as seen in the 'knobby ADALINE'), and later, memistors",
+  a_m_ultilayer_network_of_adaline_units: "Known as a MADALINE",
+  adaline: "A single-layer neural network with multiple nodes, where each node accepts multiple inputs and generates one output",
+  as_the_sign_function: "Non-differentiable, backpropagation cannot be used to train MADALINE networks",
+
 };
 
 // ============================================================
