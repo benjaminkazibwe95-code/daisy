@@ -65281,6 +65281,21 @@ const FLAT_DICT = {
   volumetric_efficiency_in_a_hydraulic_pump: "The percentage of actual fluid flow out of the pump compared to the flow out of the pump without leakage",
   when_a_single_number: { definition: "Given for volumetric efficiency, it will typically be at the rated pressure and speed", what_it_does: "", examples: "maximizing the energy stored in a battery powering a cellphone" },
 
+  // === INGESTED 2026-07-06 15:23 ===
+  another_type_of_measurement: "The Inequality-adjusted Human Development Index , a composite index that accounts for inequality",
+  the_exceptions_to_this_during_the_modern_era: { definition: "The declines in economic inequality during the two World Wars and amid the creation of modern welfare states after World War II", what_it_does: "", examples: "income levels" },
+  another_cause_is_the_rate_at_which_income: "Taxed , coupled with the progressivity of the tax system",
+  the_justification_for_this: { definition: "That a lack of education leads directly to lower incomes, and thus lower aggregate saving and investment", what_it_does: "", examples: "landowners still held more political power than industrialists" },
+  another_driver_hickel_mentions: "The debt system, which advanced the need for structural adjustment in the first place",
+  another_reason_for_this: "Occupational segregation , which means women are typically concentrated in lower-paid positions and sectors, such as social services and education",
+  the_global_south: { definition: "Considered particularly vulnerable to this phenomenon, though the exact socioeconomic manifestations vary across regions", what_it_does: "", examples: "the US, the UK, France, Spain, Australia, etc" },
+  thinking_you_are_better_than_you: "At making decisions), over-placement (i.e",
+  thinking_you: "Better than the average person at making decisions), and extremeness aversion (i.e",
+  the_oecd_asserts_that_public_spending: { definition: "Vital in reducing the ever-expanding wealth gap", what_it_does: "exerts a downward pressure on wages", examples: "" },
+  equality_under_the_law: { definition: "In their opinion not designed to correct the inexorable facts of the universe and to make natural inequality disappear", what_it_does: "", examples: "the poorest members" },
+  one_practical_argument_in_favor_of_reduction: "That economic inequality undermines social cohesion and increases social unrest , thereby weakening society",
+  there_is_evidence_that_this: "True (see inequity aversion ), and it is intuitive, at least for small face-to-face groups",
+
 };
 
 // ============================================================
