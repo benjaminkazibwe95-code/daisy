@@ -63969,6 +63969,25 @@ const FLAT_DICT = {
   the_main_assumption_of_the_model: "That the migration decision is based on expected income differentials between rural and urban areas rather than just wage differentials",
   the_model_assumes_that_unemployment: "Non-existent in the rural agricultural sector",
 
+  // === INGESTED 2026-07-06 09:47 ===
+  in_ancient_rome_a_collegium: { definition: "A 'body, guild, corporation united in colleagueship; of magistrates, praetors, tribunes, priests, augurs; a political club or trade guild'", what_it_does: "", examples: "France , Belgium and Switzerland 'college' may refer exclusively to secondary schools" },
+  an_example_in_australia: "The Royal Australian College of General Practitioners",
+  the_royal_military_college_of_canada: "A military college which trains officers for the Canadian Armed Forces",
+  the_word_and_its_derivatives: "The standard terms used to describe the institutions and experiences associated with American post-secondary undergraduate education",
+  that_emphasize_a_liberal_arts_curriculum: "Known as liberal arts colleges",
+  what_often_distinguishes_a_university: { definition: "Having, in addition, one or more graduate schools engaged in both teaching graduate classes and in research", what_it_does: "", examples: "through a 2016 taskforce at Princeton on residential colleges" },
+  the_modern_system_of_education: "Heavily influenced by the British starting in 1835",
+  at_present_it_is_a_theological_seminary_which: "Popularly known as Orthodox Theological Seminary or Old Seminary",
+  autonomous_colleges: "Colleges that need to be affiliated with a certain university",
+  the_final_degree_or_diploma: "Issued by the affiliated university",
+  such_schools: { definition: "Usually run by the Roman Catholic church or missionaries in Macau", what_it_does: "", examples: "Chan Sui Ki Perpetual Help College , Yuet Wah College , and Sacred Heart Canossian College" },
+  institutions_offering_diplomas: "Called ' polytechnics ', while other institutions are often referred to as 'institutes' and so forth",
+  these_degrees_and_diplomas: "Often certified by foreign universities/international awarding bodies and are aligned to the National Framework of Qualifications at Levels 6, 7 and 8",
+  in_the_netherlands_there: "3 main educational routes after high school",
+  the_phd_title: "A research degree awarded upon completion and defense of a doctoral thesis",
+  a_model_for_these_colleges: "The Royal College of Arts and Humanities, founded in Coimbra by King John III of Portugal in 1542",
+  coleg: { definition: "Welsh for college), which although part of the same group are treated as separate institutions rather than colleges within the university", what_it_does: "", examples: "Tasmania, college refers to a type of school for Year 10, 11 and 12 students, e.g" },
+
 };
 
 // ============================================================
