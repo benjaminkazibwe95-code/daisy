@@ -67159,6 +67159,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:44 ===
   the_first_of_these_forms: { definition: "Expressible using ordinary quantifiers, but the latter two cannot be expressed in ordinary first-order logic", what_it_does: "", examples: "many concepts in category theory are defined to be unique up to isomorphism" },
 
+  // === INGESTED 2026-07-06 23:48 ===
+  parametric_equations: { definition: "Commonly used in kinematics , where the trajectory of an object is represented by equations depending on time as the parameter", what_it_does: "", examples: "geometric variables) or can be selected arbitrarily for convenience" },
+  parameterizations: "Non-unique; more than one set of parametric equations can specify the same curve",
+  consider_the_unit_circle_which: "Described by the ordinary (Cartesian) equation x 2 + y 2 = 1",
+  with_the_parametric_version_it: "Easier to obtain points on a plot",
+  a_classical_such_solution: "Euclid 's parametrization of right triangles such that the lengths of their sides a , b and their hypotenuse c are coprime integers",
+  a_system_of_m_linear_equations_in_n_unknowns: "Underdetermined if it has more than one solution",
+
 };
 
 // ============================================================
