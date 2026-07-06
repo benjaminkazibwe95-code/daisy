@@ -64958,6 +64958,11 @@ const FLAT_DICT = {
   memory_accesses: "Always 16 bits wide, with the CPU automatically performing read-before-write operations for instructions with byte-wide accesses",
   the_rest_of_the_memory: { definition: "16 KB of 8-bit DRAM that was accessible only indirectly through the video display controller, which crippled the performance of these machines", what_it_does: "", examples: "CPU, memory, and I/O, which, when plugged into a card frame, could form a 16-bit minicomputer" },
 
+  // === INGESTED 2026-07-06 14:02 ===
+  examples_of_such_systems: { definition: "Digital logic circuits and components, automata and formal language , computer programs , and computers", what_it_does: "", examples: "flip-flops" },
+  the_state_of_an_object: "Often hidden in an attempt to isolate it from other objects and reduce coupling",
+  this_new_number: "Then stored as the current channel",
+
 };
 
 // ============================================================
