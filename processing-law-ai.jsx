@@ -65535,6 +65535,18 @@ const FLAT_DICT = {
   aromatic_kerosene: "A grade of kerosene with a large concentration of aromatic hydrocarbons, an example of this would be Exxon 's Solvesso 150",
   when_a_hydrated_crystal: { definition: "Left in air, dehydration may occur slowly", what_it_does: "", examples: "fire breathing , fire juggling or poi , and fire dancing" },
 
+  // === INGESTED 2026-07-06 16:25 ===
+  this_nomenclature: "Recommended by the IUPAC",
+  this_can_repeat_such_that_every_water_molecule: "H-bonded with up to four other molecules, as shown in the figure (two through its two lone pairs, and two through its two hydrogen atoms)",
+  the_density_of_ice: "Less than the density of water at the same temperature; thus, the solid phase of water floats on the liquid, unlike most other substances",
+  when_the_spacing: "Less, between positions i and i + 3 , then a 3 10 helix is formed",
+  when_two_strands: { definition: "Joined by hydrogen bonds involving alternating residues on each participating strand, a beta sheet is formed", what_it_does: "", examples: "serine , threonine , and cysteine within the hydrophobic membrane environments" },
+  the_chain_axes: "Aligned along the fibre axis, making the fibres extremely stiff and strong",
+  some_polymers: "More sensitive than others",
+  thus_nylons: "More sensitive than aramids , and nylon 6 more sensitive than nylon-11",
+  this_type_of_bond: "Much stronger than a 'normal' hydrogen bond",
+  the_effective_bond_order: { definition: "0.5, so its strength is comparable to a covalent bond", what_it_does: "", examples: "hydrofluoric acid and formic acid at high pressure" },
+
 };
 
 // ============================================================
