@@ -64049,6 +64049,19 @@ const FLAT_DICT = {
   philosophers_debate_whether_such_judgements: { definition: "Objective (grounded in reason) or subjective (relational), which has been the influence of theories such as deontology and virtue ethics", what_it_does: "", examples: "'stealing is wrong regardless of rules') from conventional judgements (rules, context-dependent; e.g" },
   the_kinds_of_definitions_that_are_judgements: "Those that are the intersection of two or more ideas rather than those indicated only by usual examples — that is, constitutive definitions",
 
+  // === INGESTED 2026-07-06 10:06 ===
+  occupational_stress: { definition: "Chronic psychological stress related to one's job", what_it_does: "", examples: "psychological symptoms, physical health problems)" },
+  another_facet_of_the_model: { definition: "That overcommitment to the job can fuel imbalance", what_it_does: "", examples: "skill variety, task identity, task significance, autonomy, and feedback" },
+  these_job_factors: { definition: "Thought to psychological states such as a sense of meaningfulness and knowledge acquisition", what_it_does: "", examples: "extent of worker motivation, satisfaction, and absenteeism" },
+  high_levels_of_stress: { definition: "Associated with substantial increases in health service utilization", what_it_does: "", examples: "workers who report experiencing stress at work also show excessive health care utilization" },
+  those_in_the_health_sector: { definition: "Exposed to the highest levels of work intensity", what_it_does: "", examples: "the noise level, lighting, and temperature are all components of one's working environment" },
+  workload_as_a_work_demand: { definition: "A major component of the demand-control model of stress", what_it_does: "", examples: "workload) exceed the individual's resources to deal with them" },
+  a_problem_in_research_on_occupational_stress: "How to 'unconfound' the relationship between stressful working conditions, such as low levels of autonomy, and salary",
+  workplace_bullying: "The chronic mistreatment of a worker by one or more other workers or managers",
+  health_protection_components: { definition: "Ordinarily unit- or organization-wide, for example, reducing exposures to aerosols", what_it_does: "", examples: "smoking cessation programs" },
+  one_study_modeled_scenariobased_training_as_a: "To reduce occupational stress by providing simulated experience prior to performing a task",
+  such_visits: { definition: "Found to be a scalable and sustainable public health intervention", what_it_does: "", examples: "job design ), they can also contribute to alleviating job stress" },
+
 };
 
 // ============================================================
