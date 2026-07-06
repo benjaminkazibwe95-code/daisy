@@ -63315,6 +63315,19 @@ const FLAT_DICT = {
   pavlov: "Rewarding the dogs so that the dogs associated food, the reward, with the bell, the stimulus",
   this_sensitization_in_the_brain: "Similar to the effect of dopamine because wanting and liking reactions occur",
 
+  // === INGESTED 2026-07-06 06:22 ===
+  instead_the_eye: "Lubricated by the nictitating membrane , a third concealed eyelid that sweeps horizontally across the eye like a windscreen wiper",
+  the_eye_of_a_bird: "Larger compared to the size of the animal than for any other group of animals, although much of it is concealed in its skull",
+  the_cost_of_this_adaptation: "That they have myopia in the lower part of their visual field",
+  the_anterior_segment: "Filled with a watery fluid called the aqueous humour, and the posterior segment contains the vitreous humour, a clear jelly-like substance",
+  at_the_centre_of_the_iris: "The pupil, the variable circular area through which the light passes into the eye",
+  the_density_of_the_photoreceptors: "Critical in determining the maximum attainable visual acuity",
+  the_optic_nerve: "A bundle of nerve fibres which carry messages from the eye to the relevant parts of the brain",
+  these_ossicles: "On the border between the sclera and the cornea, and they tightly overlap one another to form a ring",
+  this_form_of_spatial_distributions: "Only observed as a result of some optimization process, which in this case can be described in terms of birds' evolutionary history",
+  maintaining_a_steady_image: { definition: "Especially relevant for birds of prey", what_it_does: "", examples: "rocks, whilst foraging" },
+  although_the_cornea: "Flat and adapted to swimming underwater, the lens is very strong and can compensate for the reduced corneal focusing when out of water",
+
 };
 
 // ============================================================
