@@ -65558,6 +65558,34 @@ const FLAT_DICT = {
   applications_in_paints: { definition: "Burdened by compounding costs; this use was valued at only $100 million in 2006", what_it_does: "", examples: "two-thirds of Americans" },
   exposure_limits: { definition: "Determined by urine testing of the body's ability to clear fluoride ions", what_it_does: "", examples: "one death from ingesting insecticide" },
 
+  // === INGESTED 2026-07-06 16:30 ===
+  this_unique_property_of_water: "Due to hydrogen bonding",
+  the_solid_phase_of_water: "Known as ice and commonly takes the structure of hard, amalgamated crystals , such as ice cubes , or loosely accumulated granular crystals, like snow",
+  the_gaseous_phase_of_water: "Known as water vapor (or steam )",
+  visible_steam_and_clouds: "Formed from minute droplets of water suspended in the air",
+  this_pressure: { definition: "Reached at a depth of about 2200 meters: much less than the mean depth of the ocean (3800 meters)", what_it_does: "", examples: "ice II , ice III , high-density amorphous ice (HDA), and very-high-density amorphous ice (VHDA)" },
+  water_and_most_oils: { definition: "Immiscible, usually forming layers according to increasing density from the top", what_it_does: "accounts for the fog burning off in the morning", examples: "with hydrocarbons" },
+  because_the_amount_of_water_vapor_in_the_air: { definition: "Small, relative humidity, the ratio of the partial pressure due to the water vapor to the saturated partial vapor pressure, is much more useful", what_it_does: "", examples: "by rising suddenly in an updraft" },
+  as_the_pressure: "Increased, the compressibility decreases, being 3.9 × 10 −10 Pa −1 at 0 °C and 100 megapascals (1,000 bar)",
+  the_low_compressibility_of_water: "That even in the deep oceans at 4 kilometres (2.5 mi) depth, where pressures are 40 MPa, there is only a 1.8% decrease in volume",
+  pure_water_containing_no_exogenous_ions: { definition: "An excellent electrical insulator , but not even 'deionized' water is completely free of ions", what_it_does: "", examples: "in semiconductor manufacturing plants" },
+  one_effect_usually_ascribed_to_the_lone_pairs: "That the H–O–H gas-phase bend angle is 104.48°, [ 57 ] which is smaller than the typical tetrahedral angle of 109.47°",
+  the_lone_pairs: { definition: "Closer to the oxygen atom than the electrons sigma bonded to the hydrogens, so they require more space", what_it_does: "", examples: "its solvent properties" },
+  an_example_of_an_ionic_solute: "Table salt ; the sodium chloride, NaCl, separates into Na + cations and Cl − anions , each being surrounded by water molecules",
+  the_quantum_tunneling_dynamics_in_water: "Reported as early as 1992",
+  at_that_time_it_was_known_that_there: "Motions which destroy and regenerate the weak hydrogen bond by internal rotations of the substituent water monomers",
+  the_valence_bond_theory_explanation: "That the oxygen atom's lone pairs are physically larger and therefore take up more space than the oxygen atom's bonds to the hydrogen atoms",
+  in_liquid_water_there: "Some self-ionization giving hydronium ions and hydroxide ions",
+  the_most_notable_of_these: "Methane clathrate , 4 CH 4 ·23H 2 O , naturally found in large quantities on the ocean floor",
+  vienna_standard_mean_ocean_water: "The current international standard for water isotopes",
+  naturally_occurring_water: { definition: "Almost completely composed of the neutron-less hydrogen isotope protium", what_it_does: "", examples: "freezing and boiling, and other kinetic effects" },
+  this_is_because_the_nucleus_of_deuterium: "Twice as heavy as protium, and this causes noticeable differences in bonding energies",
+  notable_examples_of_hydrolysis: { definition: "The saponification of fats and the digestion of proteins and polysaccharides", what_it_does: "", examples: "hydrides , alkali metals , and some alkaline earth metals" },
+  henry_cavendish_showed_that_water: "Composed of oxygen and hydrogen in 1781",
+  the_triple_point_of_water: "A more commonly used standard point today",
+  oxidane: { definition: "Only intended to be used as the name of the mononuclear parent hydride used for naming derivatives of water by substituent nomenclature", what_it_does: "", examples: "the name hydroxyl is recommended over oxidanyl for the –OH group" },
+  oxygen_dihydride: "Another way of referring to water, but modern usage often restricts the term ' hydride ' to ionic compounds (which water is not)",
+
 };
 
 // ============================================================
