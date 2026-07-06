@@ -64870,6 +64870,10 @@ const FLAT_DICT = {
   the_term_abstract_object: "Said to have been coined by Willard Van Orman Quine",
   one_problem_with_this_view_is_that_it: { definition: "Not clear exactly what it is to have causal power", what_it_does: "", examples: "states of the international legal system" },
 
+  // === INGESTED 2026-07-06 13:42 ===
+  constantine: { definition: "Also a composer with several major works to his credit", what_it_does: "", examples: "Bashert , The Dome , Web Games , The Rosen Singularity , Chipset , Gasline , and Flight Track" },
+  his_work_on_humancomputer_interaction: "Influential for techniques like essential use cases and usage-centered design , which are widely used for building interactive software systems",
+
 };
 
 // ============================================================
