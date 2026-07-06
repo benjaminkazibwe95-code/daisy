@@ -66361,6 +66361,17 @@ const FLAT_DICT = {
   while_the_vermes: "No longer a taxonomic group, anatomists continue to use the description 'vermiform' of animals or organs that are worm -shaped",
   the_word_root: "Latin , vermes ( worms ) and formes ( shaped )",
 
+  // === INGESTED 2026-07-06 20:19 ===
+  invagination: { definition: "The process of a surface folding in on itself to form a cavity, pouch or tube", what_it_does: "", examples: "in optic cup morphogenesis and formation of the midbrain-hindbrain boundary in zebrafish" },
+  apical_constriction: "Powered by the activity of the proteins actin and myosin interacting in a complex network known as the actin-myosin cytoskeleton",
+  myosin_activity: { definition: "Regulated by the phosphorylation of one of its subunits , myosin regulatory light chain", what_it_does: "", examples: "invagination" },
+  the_formation_of_this_structure: "One of the first major cell movements in Drosophila gastrulation",
+  neurulation: { definition: "The formation of a medial hinge point at the middle of the neural plate, which is where tissue bending is initiated", what_it_does: "may be regulated by how the cell divisions take place", examples: "in Xenopus frog embryos, this cell shape change appears to be due to apical constriction" },
+  contractions_of_actinmyosin_cables: { definition: "Also important for the invagination of the neural plate", what_it_does: "", examples: "a role for extraembryonic extracellular matrix" },
+  the_inner_wall: "Now called the archenteron ; the primitive gut",
+  the_blastula_of_the_tunicates: "A little flattened in the vegetal pole making a change of shape from a columnar to a wedge shape",
+  once_the_endoderm_cells: "Invaginated, the cells will keep moving beneath the ectoderm",
+
 };
 
 // ============================================================
