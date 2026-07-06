@@ -64466,6 +64466,9 @@ const FLAT_DICT = {
   money_and_family_award_winners: "Announced in February and March of each year, respectively",
   iowa: "Ranked first, and Louisiana ranked worst",
 
+  // === INGESTED 2026-07-06 11:51 ===
+  decisionmaking_software_packages: "Available for implementing decision analysis",
+
 };
 
 // ============================================================
