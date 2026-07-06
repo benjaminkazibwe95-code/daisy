@@ -66756,6 +66756,12 @@ const FLAT_DICT = {
   the_spice_trade_initially: "Developed by Indian and Arab merchants, but it also brought Europeans to the region",
   an_economic_effect_of_this_imperialism: "The shift in the production of commodities",
 
+  // === INGESTED 2026-07-06 21:53 ===
+  micromax_informatics: "An Indian multinational manufacturer of consumer electronics and home appliances , headquartered in Gurgaon",
+  micromax: "Incorporated as Micromax Informatics Ltd",
+  the_smartphone: "Powered by a 1.4 GHz quad-core Snapdragon processor with 2 GB of RAM and 16 GB of internal storage",
+  the_adware: "Also using excess telephone resources such as data, memory storage, and battery life",
+
 };
 
 // ============================================================
