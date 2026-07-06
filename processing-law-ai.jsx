@@ -63140,6 +63140,38 @@ const FLAT_DICT = {
   once_a_theory: "Formulated, its validity must be tested, that is, compare its predictions with the results of the experiments",
   collision_in_diluted_gas_or_liquid_solution: "Regulated by diffusion instead of direct collisions, which can be calculated from Fick's laws of diffusion",
 
+  // === INGESTED 2026-07-06 05:18 ===
+  dynamics_on_the_femtosecond_time_scale: "In general too fast to be measured electronically",
+  most_measurements: "Done by employing a sequence of ultrashort light pulses to initiate a process and record its dynamics",
+  tisapphire_lasers: "Tunable lasers that emit red and near-infrared light (700 nm- 1100 nm)",
+  a_dye_laser: "A four-level laser that uses an organic dye as the gain medium",
+  a_ring_laser_design: { definition: "Most often used in a dye laser system", what_it_does: "", examples: "a diffraction grating or prism, are usually incorporated in the cavity" },
+  a_fiber_laser: "Usually generated first from a laser diode",
+  a_second_method: "Via laser-induced plasma",
+  when_very_highintensity_laser_light: "Incident on a target, it strips electrons off the target creating a negatively charged plasma cloud",
+  pulse_shaping: "To modify the pulses from the source in a well-defined manner, including manipulation on pulse's amplitude, phase, and duration",
+  a_fiber_compressor: "Generally used in this case",
+  depending_on_which_property_of_light: "Controlled, modulators are called intensity modulators, phase modulators, polarization modulators, spatial light modulators",
+  high_harmonic_generation_in_atoms: "Well understood in terms of the three-step model (ionization, propagation, and recombination)",
+  most_time_the_liquid_samples: "Stirred during measurement making relatively long-time kinetics difficult to measure due to flow and diffusion",
+  the_pulsed_laser_in_this_setup: "Used both as a primary excitation source, and a clock signal for the ultrafast measurements",
+  the_data_of_uta_measurements_usually: "Reconstructed absorption spectra sequenced over the delay time between the pump and probe",
+  the_excitation_wavelength: { definition: "Blinded by the pump laser and cut out", what_it_does: "", examples: "ground-state absorption, excited-state absorption, and stimulated emission" },
+  a_first_laser_pulse: { definition: "Used to excite a material, a second laser pulse ionizes the system", what_it_does: "", examples: "energy mapping, time of flight measurements etc" },
+  some_commonly_used_techniques: "Electron Diffraction imaging, [ 11 ] Kerr Gated Microscopy, [ 12 ] imaging with ultrafast electron pulses [ 13 ] and terahertz imaging",
+  ultrafast_processes: { definition: "Found throughout biology", what_it_does: "", examples: "skin cancer" },
+  photodissociation: { definition: "A chemical reaction in which a chemical compound is broken down by photons", what_it_does: "", examples: "visible light, ultraviolet light, x-rays and gamma rays" },
+  one_way_to_overcome_this_problem: "Through the use of Van der Waals complexes of weakly bound molecular cluster",
+  femtosecond_techniques: "Not limited to the observation of the chemical reactions, but can even exploited to influence the course of the reaction",
+  the_experimental_setup: "Adjusted to detect 1 photon per 100 excitation pulses",
+  the_fluorescence_decay_curve: "Obtained by plotting the measured time on the x-axis and the number of photons detected on the y-axis",
+  the_light_emitted_by_the_sample_molecule: "Passed through a monochromator to select a specific wavelength",
+  the_light_then: "Detected and amplified by a photomultiplier tube (PMT)",
+  to_make_sure_that_the_decay: "Not biased to early arriving photons, the photon count rate is kept low (usually less than 1% of excitation rate)",
+  the_central_concept_of_this_technique: { definition: "That only a single photon is needed to discharge the capacitor", what_it_does: "", examples: "Ludox ( colloidal silica ) and titanium dioxide are used to collect the curve" },
+  even_more_complicating: "The presence of inter-system crossing and other non-radiative processes in a molecule",
+  a_limiting_factor_of_this_technique_is_that_it: { definition: "Limited to studying energy states that result in fluorescent decay", what_it_does: "", examples: "the fluorescence decay of residues in biological systems" },
+
 };
 
 // ============================================================
