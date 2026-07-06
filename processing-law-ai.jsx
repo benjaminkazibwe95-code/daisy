@@ -63844,6 +63844,24 @@ const FLAT_DICT = {
   when_the_compensation: "Primarily shares then the deal is often considered a merger",
   firms_that: { definition: "Sold in this manner are called spin-offs", what_it_does: "", examples: "prevailing market conditions, liquidity, investor sentiment, differing valuation methods, and more" },
 
+  // === INGESTED 2026-07-06 09:06 ===
+  it_is_not_known_what: "Used as a currency for these exchanges, but it is thought that oxhide-shaped ingots of copper, produced in Cyprus , may have functioned as a currency",
+  the_manilla_rings_of_west_africa: "One of the currencies used from the 15th century onwards to sell slaves",
+  african_currency: "Still notable for its variety, and in many places, various forms of barter still apply",
+  gold_coins_were_the_most_valuable_and: "Used for large purchases, payment of the military, and backing of state activities",
+  units_of_account: "Often defined as the value of a particular type of gold coin",
+  their_introduction: "A gradual process that lasted from the late Tang dynasty (618–907) into the Song dynasty (960–1279)",
+  it_began_as_a: "For merchants to exchange heavy coinage for receipts of deposit issued as promissory notes by wholesalers ' shops",
+  a_banknote_or_a_bill: "A type of currency and it is commonly used as legal tender in many jurisdictions",
+  these_codes: "Based on two initial letters allocated to a specific country and a final letter denoting a specific monetary unit of account",
+  an_exchange_rate: "A price at which two currencies can be exchanged against each other",
+  these_fluctuations: "Driven by supply and demand , interest rates , trade balances and economic strength",
+  a_monetary_authority: "Created and supported by its sponsoring government, so monetary independence can be reduced by the legislative or executive authority that creates it",
+  currency_convertibility: "Closely linked to economic development and finance",
+  since_currency_convertibility: "The cross-border flow of goods and capital, it will have an impact on the macro economy",
+  the_level_of_exchange_rate: { definition: "An important factor in maintaining exchange rate stability, both before and after currency convertibility", what_it_does: "", examples: "scams , ransomware ( extortion ), money laundering and terrorism" },
+  one_of_the_best_examples_of_a_local_currency: "The original LETS currency, founded on Vancouver Island in the early 1980s",
+
 };
 
 // ============================================================
