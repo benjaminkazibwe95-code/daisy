@@ -65604,6 +65604,10 @@ const FLAT_DICT = {
   the_bound: "Derived by finding the 'smoothest' possible density, which turns out to be 3 4 ( 1 − x 2 ) {\displaystyle {\frac {3}{4}}(1-x^{2})}",
   a_common_case: "To choose equiprobable bins , where the number of samples in each bin is expected to be approximately equal",
 
+  // === INGESTED 2026-07-06 16:38 ===
+  a_picosecond: { definition: "To one second, as one second is to approximately 31,688.76 years", what_it_does: "", examples: "the streak camera or intensified CCD (ICCD) cameras are able to picture the motion of light" },
+  because_the_next_si_unit: "1000 times larger, measurements of 10 −11 and 10 −10 second are typically expressed as tens or hundreds of picoseconds",
+
 };
 
 // ============================================================
