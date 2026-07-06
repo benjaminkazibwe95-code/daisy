@@ -64825,6 +64825,11 @@ const FLAT_DICT = {
   the_definition_above: "Spatial summation (which they pictured as having multiple synapses placed close together, so that the effect of their firing sums up)",
   the_next_three: "Mathematical developments of Householder’s model",
 
+  // === INGESTED 2026-07-06 13:19 ===
+  lettvin: "A firm advocate of individual rights and heterogeneous society",
+  leary_took_the_position_that_lsd: "A beneficial tool in exploring consciousness",
+  lettvin_took_the_position_that_lsd: "A dangerous molecule that should not be used",
+
 };
 
 // ============================================================
