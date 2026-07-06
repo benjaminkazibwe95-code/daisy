@@ -65815,6 +65815,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 17:19 ===
   if_the_specimen_in_question: "Not an exact match but comes close to a known source, cf",
 
+  // === INGESTED 2026-07-06 17:24 ===
+  the_isbn_group_identifier: "Assigned by The International ISBN Agency to Latvia in 1992 and the agency has been operating since 1993",
+  the_assignment_of_isbn_ranges: "Not practiced anymore",
+  the_average_printrun_of_one_title: "Just above 2 thousand copies",
+  zvaigzne_abc: "In the leading position with 300 titles",
+  other_notable_publishers: "Jumava, Avots and Kontinents",
+
 };
 
 // ============================================================
