@@ -66929,6 +66929,32 @@ const FLAT_DICT = {
   programmatic_access_to_metadata: { definition: "Possible using APIs such as JDBC , or SchemaCrawler", what_it_does: "", examples: "the title, creator, file format, size, access conditions, and how files or sections are organized" },
   metadata_and_documentation: "Therefore related but distinct concepts in information management",
 
+  // === INGESTED 2026-07-06 22:26 ===
+  rattray: { definition: "To teach Latin and English", what_it_does: "", examples: "Miss Measham to teach botany, Miss Sarson to teach geography, and Miss Chapuzet to teach French" },
+  two_types_of_students: "Expected, around 100–150 teachers in training, and undergraduates hoping to sit the external degrees of London University",
+  a_students_union: "Formed in 1923–24 with a Miss Bonsor as its first president",
+  the_percy_gee_student_union_building: "Opened by Queen Elizabeth II on 9 May 1958",
+  there_was_anger_at_his_claim_that_redundancies: { definition: "Needed to 'continue to deliver excellence'", what_it_does: "", examples: "encouraging people to not apply for jobs at Leicester or collaborate on new research projects" },
+  the_fielding_johnson_building: "Designed by William Parsons in a late Georgian provincial style as the Leicestershire and Rutland County Asylum",
+  the_engineering_building: "The first major building by British architects James Stirling and James Gowan",
+  opposite_the_fielding_johnson_building: "The Astley Clarke Building, home to the School of Criminology and Sociology, and the Danielle Brown Sports Centre",
+  percy_gee: "One of the first treasurers of the University College",
+  the_david_wilson_library: "Opened by Queen Elizabeth II on 4 December 2008, following an extensive refurbishment with a budget of £32 million",
+  further_along_university_road: "The George Davies Centre building (built 2016), home to Leicester's Medical School",
+  the_adrian_building: "Built in 1967 and designed by Courtald Technical Services which became W.F Johnson & Partners",
+  the_charles_wilson_building: "Designed by Denys Lasdun and completed in 1967",
+  on_lancaster_road_there: "The Attenborough Arts Centre , the university's arts centre",
+  accommodation_on_campus: "At Freemen's Common and Nixon Court",
+  each_course: "Accredited by the relevant professional institutions",
+  dirac: { definition: "The integrated supercomputing facility for theoretical modelling and HPC-based research in particle physics, astronomy and cosmology", what_it_does: "", examples: "14 successive scores of 22 points or above stretching back to 1998, six of which were maximum scores" },
+  leicester: "Ranked joint first in the 2005, 2006, and 2007 National Student Survey for overall student satisfaction among mainstream universities in England",
+  the_techniques_used_in_genetic_fingerprinting: { definition: "Invented and developed at Leicester in 1984 by Sir Alec Jeffreys", what_it_does: "", examples: "The Historical Directories of England and Wales [ 71 ] and the East Midlands Oral History Archive" },
+  leicester_student_magazine: "Founded in 1957, and has previously been known as The Ripple, The Wave & Galaxy Press",
+  the_university_of_leicester: "Commonly associated with the Attenborough family",
+  their_father_frederick_attenborough: "Principal of the University College from 1932 until 1951",
+  the_brothers: "Educated at the adjacent grammar school before attending the Royal Academy of Dramatic Art and the University of Cambridge respectively",
+  both_brothers: "Made Distinguished Honorary Fellows of the university at the degree ceremony in the afternoon of 13 July 2006",
+
 };
 
 // ============================================================
