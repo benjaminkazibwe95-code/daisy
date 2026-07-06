@@ -64969,6 +64969,15 @@ const FLAT_DICT = {
   the_bcdica_code_page: "Assigned as Code page 353 , also known as CP353",
   the_bcdicb_code_page: "Assigned as Code page 354 , also known as CP354",
 
+  // === INGESTED 2026-07-06 14:06 ===
+  prices_quoted: "For quantities of 100",
+  the_main_difference_is_that_there: "Only eight data lines instead of the 8086's 16 lines",
+  the_second_change: "The pin that signals whether a memory access or input/output access is being made has had its sense reversed",
+  the_reason_for_the_reversal: "That it makes the 8088 compatible with the 8085",
+  when_the_queue: "Empty, instructions take as long to complete as they take to fetch",
+  if_those_code_segments: "The bodies of loops, the difference in execution time may be very noticeable on the human timescale",
+  the_same_alu_that: "Used to execute arithmetic and logic instructions is also used to calculate effective addresses",
+
 };
 
 // ============================================================
