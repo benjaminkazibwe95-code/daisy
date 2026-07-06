@@ -63498,6 +63498,14 @@ const FLAT_DICT = {
   the_most_prominent_examples_of_this_control: { definition: "Urination and defecation", what_it_does: "", examples: "carpal tunnel syndrome and tarsal tunnel syndrome" },
   peripheral_neuropathy: "Not just limited to the somatosensory nerves, but the autonomic nervous system too ( autonomic neuropathy )",
 
+  // === INGESTED 2026-07-06 06:56 ===
+  most_crustaceans: "Free-living aquatic animals , but some are terrestrial (e.g",
+  krill_and_copepods: "Not as widely fished, but may be the animals with the greatest biomass on the planet, and form a vital part of the food chain",
+  the_scientific_study_of_crustaceans: "Known as carcinology (alternatively, malacostracology , crustaceology or crustalogy ), and a scientist who works in carcinology is a carcinologist",
+  the_body_of_a_crustacean: { definition: "Composed of segments, which are grouped into three regions: the cephalon or head, [ 8 ] the pereon or thorax , [ 9 ] and the pleon or abdomen", what_it_does: "", examples: "the Christmas Island red crab ) mate seasonally and return to the sea to release the eggs" },
+  marine_crustaceans: "As ubiquitous in the oceans as insects are on land",
+  some_branchiurans: { definition: "Able to withstand rapid changes of salinity and will also switch hosts from marine to non-marine species", what_it_does: "", examples: "barnacles , remipedes , [ 34 ] and Cephalocarida" },
+
 };
 
 // ============================================================
