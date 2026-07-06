@@ -66295,6 +66295,9 @@ const FLAT_DICT = {
   projections_from_both_cochlear_nuclei: "Primarily high frequency, and these frequencies are subsequently represented by the majority of LSO neurons (>2/3 over 2–3 kHz in cat)",
   ipsilateral_projections: "Primarily inhibitory (glycinergic), and the contralateral projections are excitatory",
 
+  // === INGESTED 2026-07-06 19:46 ===
+  the_posterior_nucleus_of_the_hypothalamus: "One of the many nuclei that make up the hypothalamic region of the brain",
+
 };
 
 // ============================================================
