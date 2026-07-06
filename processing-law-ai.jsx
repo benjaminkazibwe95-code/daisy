@@ -63988,6 +63988,17 @@ const FLAT_DICT = {
   a_model_for_these_colleges: "The Royal College of Arts and Humanities, founded in Coimbra by King John III of Portugal in 1542",
   coleg: { definition: "Welsh for college), which although part of the same group are treated as separate institutions rather than colleges within the university", what_it_does: "", examples: "Tasmania, college refers to a type of school for Year 10, 11 and 12 students, e.g" },
 
+  // === INGESTED 2026-07-06 09:49 ===
+  the_roman_education_system: "Based on the Greek system – and many of the private tutors in the Roman system were enslaved Greeks or freedmen",
+  formal_schools: { definition: "Established, which serviced paying students; very little that could be described as free public education existed", what_it_does: "", examples: "Alexandria later on" },
+  the_military_arts: "All that Rome could afford to spend time studying",
+  the_concern_of_rome: "That of survival, whether through defense or dominion",
+  music_to_the_greeks: "Fundamental to their educational system and tied directly to the Greek paideia",
+  roman_education: { definition: "Carried on almost exclusively in the household under the direction of the pater familias", what_it_does: "", examples: "Homer and Hesiod , were frequently used as classroom examples due to the lack of Roman literature" },
+  the_first_of_these_fields: "The deliberative branch of study",
+  the_support_of_the_public: "Necessary for a successful political career in Rome",
+  the_study_of_philosophy: "Distinctly Greek, but was undertaken by many Roman students",
+
 };
 
 // ============================================================
