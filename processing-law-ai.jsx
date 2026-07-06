@@ -66498,6 +66498,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 20:47 ===
   the_pudendal_plexus: "A term used for a compound structure consisting of sacral spinal nerves",
 
+  // === INGESTED 2026-07-06 20:51 ===
+  electronic_noise: "A common component of noise in signal processing",
+  the_noise: "A summation of unwanted or disturbing energy from natural and sometimes man-made sources",
+  while_noise: { definition: "Generally unwanted, it can serve a useful purpose in some applications, such as random number generation or dither", what_it_does: "", examples: "conductance fluctuations, including 1/f noise" },
+  thermal_noise: { definition: "Approximately white , meaning that its power spectral density is nearly equal throughout the frequency spectrum", what_it_does: "", examples: "electrons) traverse a gap" },
+  where_i: "The DC current, q is the charge of an electron, and Δ B is the bandwidth in hertz",
+  a_noise_signal: "Typically considered as a linear addition to a useful information signal",
+  noise_in_telecommunication_systems: "A product of both internal and external sources to the system",
+
 };
 
 // ============================================================
