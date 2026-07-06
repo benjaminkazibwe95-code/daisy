@@ -63914,6 +63914,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 09:27 ===
   phd_programs: "Offered under the aegis of the Harvard Graduate School of Arts and Sciences",
 
+  // === INGESTED 2026-07-06 09:29 ===
+  blume_and: { definition: "Published in eight volumes", what_it_does: "", examples: "1,300 subject entries (with 4,000 cross-references), and 655 biographies" },
+  but_the_best_of_them: "Written by professionals for professionals",
+  economics: "No longer a fit conversation piece for ladies and gentlemen",
+  the_articles_on_financial_economics: "'written by the best people— Stephen Ross , Robert Merton , and others—and they show it'; however, they were too difficult for the average investor",
+  marx: "An important and influential thinker, and Marxism has been a doctrine with intellectual and practical influence",
+  an_ersatz_austrian: "Apparently more loyal than the genuine article",
+  an_appendix: "Added to Volume III in 1908, so completing publication of the set",
+
 };
 
 // ============================================================
