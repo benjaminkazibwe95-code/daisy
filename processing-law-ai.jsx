@@ -65636,6 +65636,17 @@ const FLAT_DICT = {
   often_the_logic_levels: "Shifted from −15 V < low < 0 < high < 15 V delivered by the comparator to 0 V < low < 1.5 V < high < 3.3 V needed by CMOS logic",
   if_an_analogtodigital_converter: "Used, this is called a multi channel analyzer (MCA)",
 
+  // === INGESTED 2026-07-06 16:49 ===
+  the_first_optical_parametric_oscillator: "Demonstrated by Joseph A",
+  optical_parametric_oscillators: "Used as coherent light sources for various scientific purposes, and to generate squeezed light for quantum mechanics research",
+  a_soviet_report: "Also published in 1965",
+  if_the_idler_wave: "Given from the outside along with the pump beam, then the process is called difference frequency generation (DFG)",
+  common_pump_sources: "Neodymium lasers at 1064 nm or 532 nm",
+  an_important_feature_of_the_opo: "The coherence and the spectral width of the generated radiation",
+  when_the_pump_power: "Significantly above threshold, the two output waves are, to a very good approximation, coherent states (laser-like waves)",
+  the_linewidth_of_the_resonated_wave: "Very narrow (as low as several kHz )",
+  narrowlinewidth_opos: "Widely used in spectroscopy",
+
 };
 
 // ============================================================
