@@ -66124,6 +66124,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 18:40 ===
   the_only_decorative_feature: "A small ribbon or band around the crown",
 
+  // === INGESTED 2026-07-06 18:46 ===
+  thousands_of_these_objects: "Best known by their NGC or IC numbers, which remain in widespread use",
+  objects_south_of_the_celestial_equator: { definition: "Catalogued somewhat less thoroughly, but many were included based on observation by John Herschel or James Dunlop", what_it_does: "", examples: "corrections published by Dreyer himself), and introduced some new errors" },
+  the_brightest_star_in_this_catalogue: "NGC 771 with magnitude of 4.0",
+
 };
 
 // ============================================================
