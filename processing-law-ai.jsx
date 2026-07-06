@@ -66245,6 +66245,11 @@ const FLAT_DICT = {
   internet_users: { definition: "Distributed throughout the world using a wide variety of languages and alphabets, and expect to be able to create URLs in their own local alphabets", what_it_does: "", examples: "the Chinese URL http: //例子.卷筒纸 becomes http: //xn--fsqu00a.xn--3lr804guic/" },
   the_xn_indicates_that_the_character: { definition: "Not originally ASCII", what_it_does: "", examples: "the Japanese URL http: //example.com/引き割り.html becomes http: //example" },
 
+  // === INGESTED 2026-07-06 19:29 ===
+  clipboard_data: "Later inserted wherever a paste command is issued",
+  the_command_names: { definition: "A ( skeuomorphic ) interface metaphor based on the physical procedure used in manuscript print editing to create a page layout , like with paper", what_it_does: "", examples: "the 1984 word processor Cut & Paste" },
+  some_application_programs_provide_a: "Of viewing, or sometimes even editing, the data on the clipboard",
+
 };
 
 // ============================================================
