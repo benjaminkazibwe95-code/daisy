@@ -64564,6 +64564,13 @@ const FLAT_DICT = {
   a_centreline: { definition: "Drawn through the centre spot parallel with the shortlines", what_it_does: "", examples: "the bandy chinguard" },
   all_players: "Required to wear helmets",
 
+  // === INGESTED 2026-07-06 12:08 ===
+  the_roman_tradition: { definition: "Here a powerful force", what_it_does: "", examples: "Dino Grandi and Italo Balbo , reportedly opposed the Racial Laws" },
+  the_terror: { definition: "So mild in comparison with the Soviet or Nazi varieties, that it almost fails to qualify as terroristic at all", what_it_does: "", examples: "expanding a factory, merging a business, or to fire or lay off an employee" },
+  all_wages: { definition: "Set by the government, and a minimum wage was imposed in Italy", what_it_does: "", examples: "Giovanni Giolitti allowed the fascists taking the law in hand" },
+  the_peace_pact: "Officially denounced during the Third Fascist Congress on 7–10 November 1921",
+  enforcement_of_contracts: { definition: "Difficult and the large bureaucracy delayed resolutions of labour disputes", what_it_does: "", examples: "Turin , Naples , and Milan , were freed by anti-fascist uprisings" },
+
 };
 
 // ============================================================
