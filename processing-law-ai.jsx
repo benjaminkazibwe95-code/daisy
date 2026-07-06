@@ -66150,6 +66150,14 @@ const FLAT_DICT = {
   the_luminosity_of_a_radio_source: { definition: "Measured in W Hz −1 , to avoid having to specify a bandwidth over which it is measured", what_it_does: "", examples: "consider a 10 W transmitter at a distance of 1 million metres, radiating over a bandwidth of 1 MHz" },
   the_absolute_magnitude: "The apparent magnitude at a distance of 10 pc (3",
 
+  // === INGESTED 2026-07-06 18:52 ===
+  galaxy_morphological_classification: "A system used by astronomers to divide galaxies into groups based on their visual appearance, shape, structure, and distribution of light",
+  the_hubble_sequence: { definition: "A morphological classification scheme for galaxies invented by Edwin Hubble in 1926", what_it_does: "", examples: "irregular galaxies , which have no obvious regular structure (either disk-like or ellipsoidal)" },
+  lenticular_galaxies: { definition: "Placed between the ellipticals and the spirals, at the point where the two prongs meet the “handle”", what_it_does: "", examples: "a weakly barred spiral galaxy with loosely wound arms and a ring is denoted SAB(r)c" },
+  lenticulars: "Similarly subdivided into early (S − ), intermediate (S 0 ) and late (S + ) types",
+  the_yerkes_scheme: { definition: "Created by American astronomer William Wilson Morgan", what_it_does: "", examples: "the Andromeda Galaxy is classified as kS5" },
+  the_formal_definition_of_concentration: "C = 5 log ⁡ [ r ( 0.8 ) r ( 0.2 ) ] {\displaystyle C=5\log[{\frac {r(0.8)}{r(0.2)}}]} , where r ( 0.8 ) {\displaystyle r(0.8)} and r ( 0",
+
 };
 
 // ============================================================
