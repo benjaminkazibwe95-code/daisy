@@ -63378,6 +63378,14 @@ const FLAT_DICT = {
   epistemics: "A term coined in 1969 by the University of Edinburgh with the foundation of its School of Epistemics",
   goldman_maintains_that_his_epistemics: "Continuous with traditional epistemology, and that the new term is only meant to avoid opposition",
 
+  // === INGESTED 2026-07-06 06:30 ===
+  the_agent_is_provided_with_a: "Of associating previous feelings with current situations",
+  semantic_information: "Derived from accumulated episodic memory",
+  the_relationship_between_emotion_and_memory: "Complex, but generally, emotion tends to increase the likelihood that an event will be remembered later and that it will be remembered vividly",
+  flashbulb_memory: { definition: "Usually perceived as highly accurate and consistent over time and are presented with great confidence, even if sometimes they are inaccurate", what_it_does: "", examples: "research using brain imaging techniques" },
+  the_loss_of_these_first_events: "Called childhood or infantile amnesia",
+  one_of_the_largest_proposals_for_this_ideology: { definition: "That of Diffusion Tensor Imaging", what_it_does: "", examples: "scenery, rooms, time, smell, or even your current feeling" },
+
 };
 
 // ============================================================
