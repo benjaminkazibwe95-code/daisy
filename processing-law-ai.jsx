@@ -63631,6 +63631,20 @@ const FLAT_DICT = {
   microscale_ics: "Transfer-printed onto the adhesive surface and then baked to fully cure adhesive layers",
   an_additional_photosensitive_polymer_layer: "Applied to the substrate to account for the topography caused by the printed ICs, reintroducing a flat surface",
 
+  // === INGESTED 2026-07-06 07:41 ===
+  different_devices_and_versions: { definition: "Exploited with modern tools like Dopamine or palera1n", what_it_does: "", examples: "user interface customization and tweaks" },
+  software_programs_that: "Available through APT or Installer.app (legacy) are not required to adhere to App Store guidelines",
+  while_using_older_versions_of_ios: "Considered safe in most circumstances, the device may be vulnerable to publicly known security flaws",
+  where_android_rooting_and_jailbreaking: "Similar is that both are used to grant the owner of the device superuser system-level privileges, which may be transferred to one or more apps",
+  when_a_jailbroken_device: "Booting, it loads Apple's own boot software initially",
+  the_device_is_then_exploited_and_the_kernel: "Patched every time it is turned on",
+  an_untethered_jailbreak: "A jailbreak that does not require any assistance when it boots up",
+  many_early_jailbreaks: "Offered initially as tethered jailbreaks",
+  the_reason_a_computer_is_mandatory_for_booting: "Often related to the exploit targeting the device's iBoot process",
+  when_the_device: { definition: "Powered off, this temporary patch is lost", what_it_does: "", examples: "making a phone call, texting, or using App Store applications" },
+  pangu_and_taig_teams_both_said_they: "Working on exploiting iOS 8.4.1, and Pangu demonstrated these chances at the WWDC 2015",
+  the_legal_status_of_jailbreaking: { definition: "Affected by laws regarding circumvention of digital locks, such as laws protecting digital rights management (DRM) mechanisms", what_it_does: "", examples: "exceptions for jailbreaking" },
+
 };
 
 // ============================================================
