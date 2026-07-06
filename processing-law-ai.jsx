@@ -64185,6 +64185,19 @@ const FLAT_DICT = {
   rdas: "Set higher than EARs to cover people with higher-than-average needs",
   pri_population_reference_intake: { definition: "The European Union equivalent of RDA; it is higher for adults than for children and maybe even higher for pregnant or lactating women", what_it_does: "", examples: "acids , carbohydrates, lipids, proteins" },
 
+  // === INGESTED 2026-07-06 10:34 ===
+  plant_isoforms_of_pld: { definition: "First purified from cabbage and castor bean ; PLDα was ultimately cloned and characterized from a variety of plants, including rice, corn, and tomato", what_it_does: "", examples: "inflammation , diabetes , phagocytosis , neuronal and cardiac signaling, and oncogenesis" },
+  pa_is_extremely_short_lived_and: "Rapidly hydrolysed by the enzyme phosphatidate phosphatase to form diacylglycerol (DAG)",
+  although_pa_and_dag: "Interconvertible, they do not act in the same pathways",
+  studies_have_suggested_that_dag_signalling: "Mediated by polyunsaturated DAG while PLD derived PA is monounsaturated or saturated",
+  the_enzyme: "Sequestered inactive in lipid micro-domains rich in sphingomyelin but depleted of its PC substrate",
+  pld: { definition: "Thus primarily activated by localization within the plasma membrane rather than conformational change", what_it_does: "", examples: "Arf , Rho , Rac , and protein kinase C" },
+  binding_to_this_domain: "Also thought to facilitate the re-internalization of the protein by increasing its affinity to endocytotic lipid rafts",
+  these_small_monomeric_gtpases: { definition: "Members of the Rho and ARF families of the Ras superfamily", what_it_does: "", examples: "Rac1 , Cdc42 , and RhoA , allosterically activate mammalian PLD1 , directly increasing its activity" },
+  using_fly_genetics_the_petoh: "Shown to mediates alcohol's hyperactive response in fruit flies",
+  many_ion_channels: "Regulated by anionic lipids",
+  phospholipase_d: "A regulator of several critical cellular processes, including vesicle transport , endocytosis , exocytosis , cell migration , and mitosis",
+
 };
 
 // ============================================================
