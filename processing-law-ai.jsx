@@ -65351,6 +65351,13 @@ const FLAT_DICT = {
   the_temporal_locality_of_the_above_solution: "Provided because a block can be used several times before moving on, so that it is moved in and out of memory less often",
   spatial_locality: "Improved because elements with consecutive memory addresses tend to be pulled up the memory hierarchy together",
 
+  // === INGESTED 2026-07-06 15:49 ===
+  an_instance_of_a_list: "A computer representation of the mathematical concept of a tuple or finite sequence",
+  the_term_list: { definition: "Also used for several concrete data structures that can be used to implement abstract lists, especially linked lists and arrays", what_it_does: "", examples: "in Lisp programming, the term list may refer specifically to a linked list rather than an array" },
+  first_and_rest: "Then obtained by pattern matching on the cons constructor and separately handling the nil case",
+  the_list_type: "An additive monad, with nil as the monadic zero and append as monadic sum",
+  the_identity_element_of_the_monoid: "The empty list, nil",
+
 };
 
 // ============================================================
