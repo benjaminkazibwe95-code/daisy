@@ -65843,6 +65843,21 @@ const FLAT_DICT = {
   asymptotes: "Often considered only for real curves, [ 15 ] although they also make sense when defined in this way for curves over an arbitrary field",
   such_a_branch: "Called a parabolic branch , even when it does not have any parabola that is a curvilinear asymptote",
 
+  // === INGESTED 2026-07-06 17:30 ===
+  a_schwarzschild_black_hole: "Described by the Schwarzschild metric, and cannot be distinguished from any other Schwarzschild black hole except by its mass",
+  any_nonrotating_and_noncharged_mass_that: "Smaller than its Schwarzschild radius forms a black hole",
+  the_schwarzschild_metric: { definition: "A solution of Einstein's field equations in empty space, meaning that it is valid only outside the gravitating body", what_it_does: "", examples: "the interior Schwarzschild metric" },
+  schwarzschild_died_shortly_after_his_paper: "Published, as a result of a disease (thought to be pemphigus ) he developed while serving in the German army during World War I",
+  in_this_paper_he_also_introduced_what: "Now known as the Schwarzschild radial coordinate ( r in the equations above), as an auxiliary variable",
+  a_similar_result: { definition: "Later rediscovered by George Szekeres , [ 16 ] and independently Martin Kruskal", what_it_does: "", examples: "Einstein believing that the singularity at the Schwarzschild radius was physical" },
+  since_the_schwarzschild_metric: { definition: "Expected to be valid only for those radii larger than the radius R of the gravitating body, there is no problem as long as R > r s", what_it_does: "", examples: "the radius of the Sun is approximately 700 000 km , while its Schwarzschild radius is only 3 km" },
+  to_see_that_this: "A true singularity one must look at quantities that are independent of the choice of coordinates",
+  one_such_important_quantity: "The Kretschmann invariant , which is given by R α β γ δ R α β γ δ = 12 r s 2 r 6 = 48 G 2 M 2 c 4 r 6",
+  for_a_long_time_it: "Thought that such a solution was non-physical",
+  this_implies_that_the_schwarzschild_black_hole: "A form of gravitational soliton",
+  imagine_now_that_there: { definition: "An additional Euclidean dimension w , which has no physical reality (it is not part of spacetime)", what_it_does: "", examples: "Mercury 's, dwell longer at small radii than would be expected in Newtonian gravity" },
+  components_which: "Obtainable by other symmetries of the Riemann tensor are not displayed",
+
 };
 
 // ============================================================
