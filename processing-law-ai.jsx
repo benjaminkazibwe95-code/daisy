@@ -65589,6 +65589,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 16:34 ===
   a_photomultiplier: "A device that converts incident photons into an electrical signal",
 
+  // === INGESTED 2026-07-06 16:36 ===
+  a_histogram: "A visual representation of the distribution of quantitative data",
+  the_bins: "Usually specified as consecutive, non-overlapping intervals of a variable",
+  if_the_length_of_the_intervals_on_the_x_axis: "All 1, then a histogram is identical to a relative frequency plot",
+  histograms: "Nevertheless preferred in applications, when their statistical properties need to be modeled",
+  census_bureau_found_that_there: "124 million people who work outside of their homes",
+  the_area_of_each_block: "The fraction of the total that each category represents, and the total area of all the bars is equal to 1 (the fraction meaning 'all')",
+  the_curve_displayed: "A simple density estimate",
+  the_intervals: { definition: "Placed together in order to show that the data represented by the histogram, while exclusive, is also contiguous", what_it_does: "", examples: "in a histogram it is possible to have two connecting intervals of 10.5–20.5 and 20.5–33" },
+  empty_intervals: "Represented as empty and not skipped",
+  an_alternative_to_kernel_density_estimation: "The average shifted histogram, [ 11 ] which is fast to compute and gives a smooth curve estimate of the density without using kernels",
+  grouping_data: "At least as old as Graunt 's work in the 17th century, but no systematic guidelines were given [ 12 ] until Sturges 's work in 1926",
+  the_bound: "Derived by finding the 'smoothest' possible density, which turns out to be 3 4 ( 1 − x 2 ) {\displaystyle {\frac {3}{4}}(1-x^{2})}",
+  a_common_case: "To choose equiprobable bins , where the number of samples in each bin is expected to be approximately equal",
+
 };
 
 // ============================================================
