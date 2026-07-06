@@ -64351,6 +64351,26 @@ const FLAT_DICT = {
   an_ideal_investment_vehicle_for_bogle: "A low-cost index fund representing the entire US market, held over a lifetime with dividends reinvested",
   bogle_believed_this: "An important analysis to be taken into account as short-term, risky investments have been flooding the financial markets",
 
+  // === INGESTED 2026-07-06 11:17 ===
+  its_undergraduate_and_graduate_programs: "Organized into 11 colleges and schools at its main Provo campus, with some colleges and divisions defining their own admission standards",
+  harris: "Appointed as BYU's president and was the first in this role to have a doctoral degree",
+  wilkinson: { definition: "Responsible for the building of over eighty structures on the campus, many of which still stand", what_it_does: "", examples: "the expansion of the Harold B" },
+  single_students_who: "Freshmen have four options for on-campus housing: Heritage Halls, Helaman Halls, Riviera Apartments, and the Foreign Language Student Residence (FLSR)",
+  helaman_halls: "Also served by a central cafeteria called the Cannon Center",
+  it_has_become_a_byu_tradition_and: "Also frequented by visitors to the university and members of the community",
+  colleges_showed_byu: "The 6th most-preferred choice in the Intermountain West , between Princeton and Brown",
+  university_honors: "The highest distinction BYU awards its graduates",
+  devotional_speakers: "Typically drawn from the BYU faculty and administration or LDS Church leadership, including church presidents George Albert Smith, Spencer W",
+  several_of_its_language_programs: "The largest of their type in the nation, such as the Russian program",
+  the_young_ambassadors: { definition: "A song and dance performing group with a 50-year history at BYU", what_it_does: "", examples: "India, have been among their audiences" },
+  the_symphonic_band: { definition: "Also an ensemble dedicated to developing the musician, but with a less strenuous focus on performance", what_it_does: "", examples: "2011 Naismith College Player of the Year Jimmer Fredette and 1981 John R" },
+  early_forms_of_the_ces_honor_code: "Found as far back as the days of the Brigham Young Academy and early school President Karl G",
+  the_honor_code: "Not formally created until about 1940, and was initially used mainly for cases of cheating and academic dishonesty",
+  a_signed_commitment_to_live_the_honor_code: { definition: "Part of the application process, and must be adhered by all students, faculty, and staff", what_it_does: "", examples: "dating, holding hands, and kissing as of August 2023" },
+  byu_tv: "Also available via cable throughout some areas of the United States",
+  y_magazine: { definition: "The university's alumni publication, distributed quarterly to more than 200,000 addresses", what_it_does: "", examples: "former Dean of the U.S" },
+  among_the_alumni: "Several Latter-day Saint General Authorities , including three Church Presidents ( Ezra Taft Benson ('26), [ 215 ] Thomas S",
+
 };
 
 // ============================================================
