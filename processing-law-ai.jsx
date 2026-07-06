@@ -66507,6 +66507,29 @@ const FLAT_DICT = {
   a_noise_signal: "Typically considered as a linear addition to a useful information signal",
   noise_in_telecommunication_systems: "A product of both internal and external sources to the system",
 
+  // === INGESTED 2026-07-06 20:53 ===
+  a_shutter_of_variable_speed: "Used to control exposure time of the film",
+  the_shutter: "Constructed so that it automatically closes after a certain required time interval",
+  the_reciprocal_of_exposure_time_in_seconds: { definition: "Often used for engraving shutter settings", what_it_does: "", examples: "a marking of '250' denotes 1/250'" },
+  special_flashbulbs: "Designed which had a prolonged burn, illuminating the scene for the whole time taken by a focal plane shutter slit to move across the film",
+  a_focalplane_shutter: "Positioned just in front of the film, in the focal plane , and moves an aperture across the film until the full frame has been exposed",
+  focalplane_shutters: "Usually implemented as a pair of light-tight cloth, metal, or plastic curtains",
+  if_two_leaves: "Used they have curved edges to create a roughly circular aperture",
+  they_typically_have_only_one_shutter_speed_and: "Commonly found in basic cameras, including disposable cameras",
+  they_worked_vertically_and: "Usually powered by a rubber band, a spring or just gravity",
+  later_they: "Fitted to run horizontally in hand cameras where they were spring powered with spring tension or pneumatic regulation",
+  when_the_shutter_release_lever: "Actuated, the spring causes the disk to quickly rotate once so that the hole passes the camera aperture and allows light through for a brief moment",
+  flash_synchronization: "Easily achieved with a pair of contacts that close when the shutter is fully open",
+  later_the_japanese_copal_shutter: "Widely adopted in quality equipment",
+  the_company_compur_monitor: "Still in business as of 2012 [ update ] , but made only gas detection systems",
+  if_the_fullframe: { definition: "Transferred at one time, it is a global shutter", what_it_does: "", examples: "skew or wobble" },
+  this_results_in_an_electronic_shutter_which: "As fast as a mechanical focal-plane shutter",
+  dynamic_range_and_noise_performance: "Not compromised, because these sensors do not utilize a global shutter",
+  shutter_lag: { definition: "The time between the shutter release being pressed and the exposure starting", what_it_does: "", examples: "the 2010 Pentax X90 is a relatively short 1/50 s, [ 15 ] or 21 milliseconds (ms)" },
+  a_shutter_cycle: "The process of the shutter opening, closing, and resetting to where it is ready to open again",
+  the_lifeexpectancy_of_a_mechanical_shutter: { definition: "Often expressed as a number of shutter cycles", what_it_does: "", examples: "shutter speed, aperture, and shutter count" },
+  shutters: "Also used simply to regulate pulses of light, with no film being used, as in a signal lamp",
+
 };
 
 // ============================================================
