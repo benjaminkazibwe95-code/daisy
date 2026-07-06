@@ -64246,6 +64246,18 @@ const FLAT_DICT = {
   the_strength_and_density_of_the_bone: { definition: "Directly influenced by local strain", what_it_does: "", examples: "hiking and mountaineering" },
   because_the_internal_resistance_of_the_device: "Low, the same force was being applied by both individuals, yet the task was much easier for the individual braking",
 
+  // === INGESTED 2026-07-06 10:53 ===
+  selfesteem: { definition: "Confidence in one's own worth, abilities, or morals", what_it_does: "", examples: "triumph, despair , pride , and shame" },
+  hume_posits_that_it: "Important to value and think well of oneself because it serves a motivational function that enables people to explore their full potential",
+  vasconcellos_and_jack_canfield: { definition: "Members of its advisory board in 2003, and members of its masters' coalition included Anthony Robbins , Bernie Siegel , and Gloria Steinem", what_it_does: "", examples: "the name letter task (or initial preference task ) [ 41 ] [ 42 ] and the Implicit Association Task" },
+  social_experiences: { definition: "Another important contributor to self-esteem", what_it_does: "", examples: "grade inflation in education or the presence of social media" },
+  threatened_egotism: { definition: "A phenomenon in which narcissists respond to criticism with hostility and aggression, as it threatens their sense of self-worth", what_it_does: "", examples: "pity, insulting themselves, and they may become paralyzed by their sadness" },
+  contingent_selfesteem: "Derived from external sources, such as what others say, one's success or failure, one's competence, [ 85 ] or relationship-contingent self-esteem",
+  persons_lacking_a_noncontingent_selfesteem: { definition: "'predisposed to an incessant pursuit of self-value'", what_it_does: "", examples: "has been repeatedly identified as a risk factor for bullying victimization" },
+  stronger_anatomical_pathways: { definition: "Correlated with higher long-term self-esteem, while stronger functional connectivity is correlated with higher short-term self-esteem", what_it_does: "", examples: "to what Erik Erikson speaks of as 'a post-narcissistic love of the ego'" },
+  a_drop_in_selfesteem: { definition: "Observed during chemotherapy-induced alopecia, which persisted even after hair regrowth", what_it_does: "", examples: "the relationship between erectile dysfunction, masculinity, and self-esteem" },
+  humor: "Used as a coping mechanism to draw attention away from sensitive topics and minimize the emotional burden of the disease",
+
 };
 
 // ============================================================
