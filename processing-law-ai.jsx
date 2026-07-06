@@ -67106,6 +67106,20 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-06 23:26 ===
   the_final_straw: "When Conway looked into SVA's structure and found that Lee had paid himself more than SVA $250,000 annual salary cap via a fee waiver",
 
+  // === INGESTED 2026-07-06 23:29 ===
+  curse_was_dissolved_and_its_assets: "Moved under Twitch Interactive",
+  but_the_vast_majority_of_gaming_content: { definition: "Still consumed on-demand, where YouTube is the clear leader with over 100 billion hours watched last year'", what_it_does: "", examples: "Extra Life 2013" },
+  these_streamers: "Ninja, Shroud, Ranboo, Ludwig , Casimiro , Ironmouse , Gaules and Ibai",
+  live_broadcasts: "Not subject to these filters",
+  concerned_streamers: "Notified that they should remove all VODs and clips if not certain they did not contain copyrighted material",
+  there_were_also_complaints_based_that_strikes: { definition: "Being issued on viewer-created clips, even where the streamer-created content was deleted", what_it_does: "", examples: "Dramatical Murder ), HuniePop , Rinse and Repeat , Second Life , and Yandere Simulator" },
+  initially_these_new_streams: "Playing with the viewers or were jokes, such as showing animal videos or League of Legends matches",
+  the_titles_of_such_streams: { definition: "Usually presented to imply they were showing other content while waiting in queue for Artifact matches as to appear legitimate", what_it_does: "", examples: "temporarily blocking one's channel for a short time rather than a full ban" },
+  most_of_these_users: { definition: "Typically from automated bots , which made it difficult for channel moderators to deal with the amount of messages", what_it_does: "", examples: "Twitch, to determine their part in platforming or promoting hateful content" },
+  the_restriction: { definition: "Lifted in October 2024", what_it_does: "", examples: "Mizkif and Pokimane speaking out against the negative effects of gambling streams" },
+  the_creator_updates_section: "A dedicated space for streamers to learn about important product updates and feature changes",
+  the_second_twitchcon: "Held in San Diego at the San Diego Convention Center from September 30 to October 2, 2016",
+
 };
 
 // ============================================================
