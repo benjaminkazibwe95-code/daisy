@@ -67096,6 +67096,9 @@ const FLAT_DICT = {
   achieving_productmarket_fit_implies_these: "Set without requiring additional changes or pivots",
   sean_ellis: "Noted for popularizing this heuristic after examining many startups",
 
+  // === INGESTED 2026-07-06 23:22 ===
+  tan: { definition: "Born in 1981 [ 5 ] to a Chinese Singaporean father and a Burmese Chinese mother in Winnipeg , Canada", what_it_does: "", examples: "Instacart and Coinbase" },
+
 };
 
 // ============================================================
