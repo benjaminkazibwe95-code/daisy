@@ -63487,6 +63487,17 @@ const FLAT_DICT = {
   the_syncytia: "Dioecious (either male or female), but young syncytia can fuse to produce both male and female",
   the_males: "Ciliated and smaller than the females",
 
+  // === INGESTED 2026-07-06 06:52 ===
+  the_second_cranial_nerve: "Not a true peripheral nerve but a tract of the diencephalon",
+  the_somatic_nervous_system: { definition: "Under voluntary control, and transmits signals from the brain to end organs such as muscles", what_it_does: "", examples: "taste and touch (including fine touch and gross touch) to the spinal cord and brain" },
+  one_unique_cranial_nerve: "The vagus nerve , which receives sensory information from organs in the thorax and abdomen",
+  these_nerve_roots: "Named according to the spinal vertebrata which they are adjacent to",
+  the_phrenic_nerve: "A nerve essential for our survival which arises from nerve roots C3, C4 and C5",
+  if_the_spinal_cord: "Transected above C3, then spontaneous breathing is not possible",
+  for_descriptive_purposes_this_plexus: { definition: "Usually divided into three parts: The autonomic nervous system (ANS) controls involuntary responses to regulate physiological functions", what_it_does: "", examples: "the heart, bladder, and other cardiac, exocrine, and endocrine related organs, by ganglionic neurons" },
+  the_most_prominent_examples_of_this_control: { definition: "Urination and defecation", what_it_does: "", examples: "carpal tunnel syndrome and tarsal tunnel syndrome" },
+  peripheral_neuropathy: "Not just limited to the somatosensory nerves, but the autonomic nervous system too ( autonomic neuropathy )",
+
 };
 
 // ============================================================
