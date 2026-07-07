@@ -67529,6 +67529,13 @@ const FLAT_DICT = {
   participants_in_the_experiment: { definition: "Shown a residential property", what_it_does: "", examples: "overconfidence , temporal discounting , and bias blind spot" },
   cognitive_flexibility: "Linked to helping overcome pre-existing biases",
 
+  // === INGESTED 2026-07-07 01:26 ===
+  although_some_social_enterprises: "Nonprofits, impact investing typically involves for-profit, social- or environmental-mission-driven businesses",
+  the_amount_investors: "Willing to sacrifice may be higher in funds that focus on environmental impacts , and lower in other categories",
+  among_the_bestknown_mechanism: "Private equity or venture capital",
+  large_corporations: "Also emerging as powerful mechanisms for impact investing",
+  mris: { definition: "Designed to have both a positive social impact and contribute to the endowment's long-term financial stability and growth", what_it_does: "", examples: "popular low-carbon and sustainability indexes" },
+
 };
 
 // ============================================================
