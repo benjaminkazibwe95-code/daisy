@@ -68738,6 +68738,25 @@ const FLAT_DICT = {
   as_marriages: "Not traditionally permitted during the Lenten period, as decreed by the Council of Trent , weddings on Shrove Tuesday were popular",
   the_night: "Also known as 'Skellig Night' in Counties Cork and Kerry , during the celebrations, those who were unmarried were taunted with jeers and singing",
 
+  // === INGESTED 2026-07-07 19:02 ===
+  his_younger_brother_kublai_khan: "Proclaimed the new Great Khan and in 1271 founded the Yuan dynasty",
+  song_society: "Vibrant, and cities had lively entertainment quarters",
+  the_spread_of_literature_and_knowledge: { definition: "Enhanced by the rapid expansion of woodblock printing and the 11th-century invention of movable type printing", what_it_does: "", examples: "Quanzhou , Guangzhou , and Xiamen , that were sustaining China's commerce" },
+  a_century_after_the_navy: { definition: "Founded it had grown in size to 52,000 fighting marines", what_it_does: "", examples: "the capital Lin'an" },
+  the_deposed_emperor_gong: { definition: "Demoted, being given the title 'Duke of Ying', but he was eventually exiled to Tibet where he took up a monastic life", what_it_does: "", examples: "the renowned artist Zhao Mengfu , who served the Yuan court as an advisor" },
+  such_a_term: "Derogatory by virtue of its connection with animals deemed inferior to humans",
+  selecting_men_for_office_through_proven_merit: { definition: "An ancient idea in China", what_it_does: "", examples: "artisans, artists, educational tutors, and entertainers" },
+  the_imperial_army: { definition: "Divided among three marshals, each independently responsible to the Emperor", what_it_does: "", examples: "advances in landscape and portrait painting" },
+  enormous_encyclopedic_volumes: "Compiled, such as works of historiography and dozens of treatises on technical subjects",
+  this_art_project: { definition: "A diplomatic gesture to the Jin dynasty while he negotiated for the release of his mother from Jurchen captivity in the north", what_it_does: "", examples: "Lin Tinggui 's Luohan Laundering" },
+  acceptable_apparel_for_scholarofficials: "Rigidly defined by the social ranking system",
+  champa_rice: "Drought-resistant and able to grow fast enough to offer two harvests a year instead of one",
+  the_iron_trade_within_china: "Advanced by the construction of new canals, facilitating the flow of iron products from production centres to the large market in the capital city",
+  the_planispheres: { definition: "Engraved in stone several decades later", what_it_does: "", examples: "slanting struts built into pagoda towers for diagonal wind bracing" },
+  some_of_the_most_famous: "The Iron Pagoda built in 1049 during the Northern Song and the Liuhe Pagoda built in 1165 during the Southern Song, though there were others",
+  the_tallest: { definition: "The Liaodi Pagoda built in 1055 in Hebei , towering 84 m (276 ft) in total height", what_it_does: "", examples: "the Song imperial tombs located in Gongxian, Henan" },
+  the_inscriptions_on_stone_and_bronze: "Made at the time the events took place and can be trusted without reservation, and thus discrepancies may be discovered.' [ 239 ] Historian R.C",
+
 };
 
 // ============================================================
