@@ -68147,6 +68147,19 @@ const FLAT_DICT = {
   bulk_silage: "Commonly fed to dairy cattle , while baled silage tends to be used for beef cattle , sheep , and horses",
   the_advantages_of_silage_as_animal_feed: { definition: "Several: Silage may be used for anaerobic digestion", what_it_does: "", examples: "fish guts (entrails), fish heads, and trimmings are used as ingredients in feed pellets" },
 
+  // === INGESTED 2026-07-07 03:43 ===
+  the_cretaceous: "A period with a relatively warm climate , resulting in high eustatic sea levels that created numerous shallow inland seas",
+  these_oceans_and_seas: "Populated with now- extinct marine reptiles , ammonites and rudists ; while on land, dinosaurs continued to dominate",
+  chalk: "Not easily consolidated and the Chalk Group still consists of loose sediments in many places",
+  among_the_fossils_it_contains: { definition: "Sea urchins , belemnites , ammonites and sea reptiles such as Mosasaurus", what_it_does: "", examples: "the Weald ) and China (the Yixian Formation )" },
+  in_the_area_that: "Now India, massive lava beds called the Deccan Traps erupted in the very late Cretaceous and early Paleocene",
+  glaciation: "Restricted to high- latitude mountains, though seasonal snow may have existed farther from the poles",
+  warmadapted_plant_fossils: { definition: "Known from localities as far north as Alaska and Greenland , while dinosaur fossils have been found within 15 degrees of the Cretaceous south pole", what_it_does: "", examples: "groups such as Corystospermaceae and Caytoniales" },
+  the_exact_origins_of_angiosperms: "Uncertain, although molecular evidence suggests that they are not closely related to any living group of gymnosperms",
+  the_apex_predators: { definition: "Archosaurian reptiles , especially dinosaurs , which were at their most diverse stage", what_it_does: "", examples: "the ancestors of modern-day birds also diversified" },
+  the_hesperornithiformes: { definition: "Flightless, marine diving birds that swam like grebes", what_it_does: "", examples: "at the Turonian-Coniacian boundary" },
+  ostracods: "Abundant in Cretaceous marine settings; ostracod species characterised by high male sexual investment had the highest rates of extinction and turnover",
+
 };
 
 // ============================================================
