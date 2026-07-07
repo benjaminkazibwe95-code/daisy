@@ -68762,6 +68762,28 @@ const FLAT_DICT = {
   when_a_passive_data_dictionary: "Updated, it is done so manually and independently from any changes to a DBMS (database) structure",
   it_is_part_of_the_data_dictionary_that: "Created when the Oracle Database is created",
 
+  // === INGESTED 2026-07-07 19:09 ===
+  adoption_of_uuids: "Widespread, with many computing platforms providing support for generating them and for parsing their textual representation",
+  the_uuids_currently_in_use: "The DCE/IETF design, with provision for backwards compatibility with 'legacy' Apollo NCS UUIDs and Microsoft GUIDs",
+  salz: "A member of the DCE team at the Open Software Foundation",
+  mealling: "A prominent IETF member, holding a seat on the Internet Engineering Steering Group, and was heavily involved in IETF work on URNs",
+  the_meaning_of_the_bits: "Determined by the variant , of which three are defined",
+  the_variant_field: { definition: "In a variable number of the most-significant bits of the ninth byte", what_it_does: "", examples: "the libuuid library, treats the timestamp as unsigned, putting the rollover time in A.D" },
+  the_tradeoff_is_that_the_timestamp: "Low-res in comparison to the timestamps in version 1, ticking only once once every 429",
+  then_six_or_seven_bits: "Replaced by fixed values, the four-bit version (e.g",
+  this_privacy_hole: { definition: "Used when locating the creator of the Melissa virus", what_it_does: "", examples: "it may be possible to determine user growth or sales volume over time from the UUIDs" },
+  the_osf_dce_uuid_variant: { definition: "Described in RFC 9562 [ 9 ]", what_it_does: "", examples: "versions not containing numeric fields, such as 3,4, and 5" },
+  most_used: "The 8-4-4-4-12 format, a string of 32 hexadecimal digits with four hyphens, xxxxxxxx-xxxx-vxxx-wxxx-xxxxxxxxxxxx",
+  the_windows_registry_format: "The same but wraps the UUID in {} braces",
+  since_uuids: "128-bit numbers, other formats are possible, and occasionally seen, such as decimal digits or binary",
+  the_oid_for_the_previous_example: "2.25.113059749145936325402354257176981405696",
+  the_unsigned_decimal_form_of_the_uuid: "Prefixed with 2.25 , which represents the {joint-iso-itu-t(2) uuid(25)} 'arc' within the OID namespace",
+  a_collision_occurs_when_the_same_uuid: { definition: "Generated more than once and is assigned to different referents", what_it_does: "", examples: "manufacturing problems, skewed clocks, or software bugs" },
+  the_probability_of_this: { definition: "Normally so small that it can be ignored, and can be computed precisely based on analysis of the birthday problem", what_it_does: "", examples: "ext4 and Btrfs ) use a UUID to uniquely identify each filesystem to the operating system" },
+  unique_partition_ids: "Assigned locally by the operating system",
+  partition_type_ids: "Well-known numbers, usually assigned by operating-system or hardware vendors",
+  uefi_and_acpi: "Examples that use GUID",
+
 };
 
 // ============================================================
