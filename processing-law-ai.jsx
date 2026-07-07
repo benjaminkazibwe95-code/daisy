@@ -67502,6 +67502,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 01:12 ===
   venture_capital_in_israel: { definition: "The financial capital provided to early-stage, high-potential, high risk, growth startup companies based in Israel", what_it_does: "", examples: "Wiz, K-health, Verbit, Deel and Honey Book, a 200% increase compared to the previous year" },
 
+  // === INGESTED 2026-07-07 01:15 ===
+  wilson: "A member of the comedic acting brotherhood colloquially known as the Frat Pack",
+
 };
 
 // ============================================================
