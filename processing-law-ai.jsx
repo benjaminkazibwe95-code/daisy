@@ -68280,6 +68280,21 @@ const FLAT_DICT = {
   a_heteronuclear_molecule: { definition: "A molecule composed of atoms of more than one chemical element", what_it_does: "", examples: "the carbonate ion ( CO 2− 3 ) is heteronuclear because it has atoms of carbon (C) and oxygen (O)" },
   the_lightest_heteronuclear_ion: { definition: "The helium hydride ion (HeH + )", what_it_does: "", examples: "the dihydrogen cation , or atomic ions that only contain one atom such as the hydrogen anion (H − )" },
 
+  // === INGESTED 2026-07-07 16:09 ===
+  they_form_many_useful_alloys_and: "Often employed as catalysts in elemental form or in compounds such as coordination complexes and oxides",
+  all_of_the_elements_that: { definition: "Ferromagnetic near room temperature are transition metals ( iron , cobalt and nickel ) or inner transition metals ( gadolinium )", what_it_does: "", examples: "n = 3 in the 4th row of the periodic table) from a stable group of 8 to one of 18, or from 18 to 32" },
+  late_transition_metals: "On the right side of the d-block, from group 8 to 11 (or 12, if they are counted as transition metals)",
+  hence_they: "Often treated separately as inner transition elements",
+  the_d_subshell: "The next-to-last subshell and is denoted as ( n − 1)d subshell",
+  the_s_subshell_in_the_valence_shell: { definition: "Represented as the n s subshell, e.g", what_it_does: "", examples: "both Coulomb repulsion and exchange energy" },
+  a_characteristic_of_transition_metals: { definition: "That they exhibit two or more oxidation states , usually differing by one", what_it_does: "", examples: "[V(CO) 6 ] − , and +5, such as VO 3− 4" },
+  ionic_compounds: "Mostly formed with oxidation states +2 and +3",
+  transition_metal_compounds: "Paramagnetic when they have one or more unpaired d electrons",
+  ferromagnetism_occurs_when_individual_atoms: "Paramagnetic and the spin vectors are aligned parallel to each other in a crystalline material",
+  metallic_iron_and_the_alloy_alnico: "Examples of ferromagnetic materials involving transition metals",
+  antiferromagnetism: "Another example of a magnetic property arising from a particular alignment of individual spins in the solid state",
+  the_transition_metals_and_their_compounds: "Known for their homogeneous and heterogeneous catalytic activity",
+
 };
 
 // ============================================================
