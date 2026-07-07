@@ -68645,6 +68645,38 @@ const FLAT_DICT = {
   the_current_sir_daniel_wilson_hall: "Built in 1954, and the original Whitney Hall was built in 1931",
   those_titled_president: "Marked with an asterisk (*)",
 
+  // === INGESTED 2026-07-07 18:45 ===
+  lacrosse: "Played on all six continents, but as of August 2019 when Ghana joined, there are only 63 countries playing the sport",
+  lacrosse_sixes: "Played by both men and women on a smaller field and is the most common version at multi-sport events",
+  intercrosse: "A mixed-gender non-contact sport that uses an all-plastic stick and a softer ball",
+  early_lacrosse: "Characterized by deep spiritual involvement, befitting the spirit of combat in which it was undertaken",
+  a_team_that_violates_this_rule: "Offsides and either loses possession of the ball if they have it or incurs a technical foul if they do not",
+  the_exception_is_when_the_ball: "Shot towards the goal",
+  missed_shots_that_go_out_of_bounds: "Awarded to the team that has the player who is the closest to the ball when and where the ball goes out",
+  time_serving_penalties: "Either releasable or non-releasable",
+  the_team_that_has_taken_the_penalty: { definition: "Said to be playing man down , while the other team is man up", what_it_does: "", examples: "cross-checking, illegal body checking, or slashing, concern actions that endanger player safety" },
+  crosschecking: "When a player strikes another player with the shaft of the stick between his hands",
+  a_slash: "When a player strikes another player with the end of the stick anywhere besides the gloves",
+  the_enclosed_playing_area: "Called a box, in contrast to the open playing field of the traditional game",
+  since_cross_checking: "Legal in box lacrosse, players wear rib pads and the shoulder and elbow pads are bigger and stronger than what field lacrosse players wear",
+  most_fouls: "Minor penalties and last for two minutes, major penalties for serious offenses last five minutes",
+  the_two_players_stand_up_and_the_ball: "Placed between their stick heads while their sticks are horizontal at waist-height",
+  the_goal_circle: "Also positioned slightly closer to the end line in women's lacrosse compared to men's",
+  an_intercrosse_stick: "Different from a normal lacrosse stick, the head is made completely of plastic instead of leather or nylon pockets in traditional lacrosse sticks",
+  goals_for_adults: "The same size as box lacrosse , 4 ft or 1.2 m in height and width",
+  collegiate_lacrosse_in_the_united_states: "Played at the NCAA , NAIA and club levels",
+  the_champion: "Awarded the National Lacrosse League Cup in early June",
+  athletes_unlimited_lacrosse: "A women's lacrosse league that operated from 2021–2024",
+  the_champion_of_the_league: "The player that scores the most points",
+  mll_rules: "Based on NCAA men's rules with several exceptions, such as a 16-yard 2-point line and a 60-second shot clock",
+  overall_league_average_attendance: "Around 4,000 per game, although the leagues Denver Outlaws had averaged around 10,000 per game since their founding in 2006",
+  the_teams: "The Baltimore Ride , Boston Storm , Long Island Sound and Philadelphia Force",
+  the_scoop: "The top of the stick that affects picking up ground ball as well as passing and shooting",
+  the_sidewall: "The side of the head that affects the depth of the head and the stiffness",
+  the_pocket: { definition: "The leather or nylon mesh attached to the sidewall and scoop", what_it_does: "", examples: "wood, plastic, carbon fiber, or fiberglass" },
+  crosschecking_in_the_back: "Allowed by the rules",
+  eyegear: "A metal cage covering the eyes attached with a strap around the back of the head",
+
 };
 
 // ============================================================
