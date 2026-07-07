@@ -67449,6 +67449,27 @@ const FLAT_DICT = {
   the_organic_approach: "Based on the microeconomic concept of 'market failure,' which rests on the identification of barriers to entry",
   it_posits_that_innovation: { definition: "Part of a long, costly process with uncertain returns, which tends to discourage private investment", what_it_does: "", examples: "9 in biotech, 4 in drones and 3 in advanced hardware" },
 
+  // === INGESTED 2026-07-07 01:02 ===
+  the_term_internal: "The fact that the calculation excludes external factors, such as the risk-free rate , inflation , the cost of capital , or financial risk",
+  the_irr: "An indicator of the profitability , efficiency, quality, or yield of an investment",
+  if_the_estimated_irr: "Less than the cost of capital, the proposed project should not be undertaken",
+  irr: { definition: "Also used for private equity , from the limited partners' perspective, as a measure of the general partner's performance as investment manager", what_it_does: "", examples: "the limited partners' draw-downs of committed capital" },
+  the_internal_rate_of_return: { definition: "A solution to the equation NPV = 0 (assuming no arbitrage conditions exist)", what_it_does: "", examples: "the end of one interval of an annuity ); the value obtained is zero if and only if the NPV is zero" },
+  in_the_case_that_the_cash_flows: "Random variables , such as in the case of a life annuity , the expected values are put into the above formula",
+  one_possible_investment_objective: "To maximize the total NPV of projects",
+  when_the_objective: "To maximize total value, IRR should not be used to compare projects of different duration",
+  maximizing_total_value: { definition: "Not the only conceivable possible investment objective", what_it_does: "", examples: "be to maximize long-term return" },
+  investors_max_value_and_max_return: "Presented with two possible projects to invest in, called Big-Is-Best and Small-Is-Beautiful",
+  max_return: "Content to invest only 10,000 US dollars for now",
+  max_value: "Also happy, because she has filled her capital budget straight away, and decides she can take the rest of the year off investing",
+  examples_of_this_type_of_project: "Strip mines and nuclear power plants, where there is usually a large cash outflow at the end of the project",
+  something_large_pe_firms_have_in_common: "That their early investments did well",
+  the_mathematics_of_irr: "That their IRRs will stay at this level forever, as long as the firms avoid major disasters",
+  as_irr: { definition: "Often misleading and can never be aggregated or compared to stock-market returns, such information is basically useless for gauging performance", what_it_does: "", examples: "when a customer makes a deposit before a specific machine is built" },
+  although_the_npvfunction_itself: "Not necessarily monotonically decreasing on its whole domain, it is at the IRR",
+  sources_stating_that_there: "Such a hidden assumption have been cited below",
+  no_matter_whether_the_cash: { definition: "Taken out early or reinvested at the same rate and taken out late - the rate is the same", what_it_does: "", examples: "an individual investor's brokerage account" },
+
 };
 
 // ============================================================
