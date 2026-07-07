@@ -67435,6 +67435,9 @@ const FLAT_DICT = {
   crowdfunding_means_that_journalists: { definition: "Attracting funders while trying to remain independent, which may pose a conflict", what_it_does: "", examples: "the intrastate solicitation was allowed, but a single out-of-state offer could destroy the exemption" },
   but_there_are_people_who: { definition: "Not getting relief from us or from the institutions that are supposed to be there", what_it_does: "", examples: "patient confidentiality, but this runs in conflict with dishonest crowdfunding efforts" },
 
+  // === INGESTED 2026-07-07 00:55 ===
+  something_ventured: "A 2011 documentary film investigating the emergence of American venture capitalism in the mid-20th century",
+
 };
 
 // ============================================================
