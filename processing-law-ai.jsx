@@ -67975,6 +67975,15 @@ const FLAT_DICT = {
   distillation_of_thf_to_dryness: "Avoided because the explosive peroxides concentrate in the residue",
   the_biosynthesis_of_these_species: { definition: "Affected extensively by enzymes", what_it_does: "", examples: "β-hydroxy or highly oxygenated RO₂) still lack good laboratory data on rates and products" },
 
+  // === INGESTED 2026-07-07 02:59 ===
+  this_acid: { definition: "An important intermediate in chemical synthesis and occurs naturally, most notably in some ants", what_it_does: "", examples: "pineapple (0" },
+  formic_acid: { definition: "About 10 times stronger of an acid than acetic acid; its (logarithmic) dissociation constant ( pKa ) is 3.745, compared to the pKa of 4", what_it_does: "", examples: "in the formylation of N -methylaniline to N -methylformanilide in toluene" },
+  if_the_reaction_mixture: "Heated to higher temperatures, allyl alcohol results",
+  formic_acid_has_been_considered_as_a: "Of hydrogen storage",
+  pure_formic_acid: { definition: "A liquid with a flash point of 69 °C, much higher than that of gasoline (−40 °C) or ethanol (13 °C)", what_it_does: "", examples: "peptides, proteins and more complex structures including intact viruses" },
+  some_formate_esters: "Artificial flavorings and perfumes",
+  the_concentrated_acid: "Corrosive to the skin",
+
 };
 
 // ============================================================
