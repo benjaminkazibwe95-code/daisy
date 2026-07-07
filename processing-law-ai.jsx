@@ -67893,6 +67893,12 @@ const FLAT_DICT = {
   most_transportation_fuels: "Liquids, because vehicles usually require high energy density",
   the_fuels_that_are_easiest_to_burn_cleanly: "Typically liquids and gases",
 
+  // === INGESTED 2026-07-07 02:44 ===
+  bht: { definition: "Not a listed carcinogen, but some data have shown that it does cause cancer in animals", what_it_does: "", examples: "21 CFR § 137.350(a)(4) allows BHT up to 0" },
+  its_metabolites: "Electrophilic, which means they bind well to cellular proteins and DNA (Lanigan and Yamarik, 2002)",
+  while_bht: "Not considered a carcinogen by IARC, its mechanisms are related to carcinogenesis",
+  subacute_exposure_at_lower_doses: "Linked to liver toxicity in rats (Moon et al., 1987)",
+
 };
 
 // ============================================================
