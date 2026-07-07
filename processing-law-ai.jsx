@@ -67821,6 +67821,23 @@ const FLAT_DICT = {
   the_gayatri_mantra_is_recited_while_oil_lamps: "Lit, in front of a fire altar lit with sandalwood",
   a_lamp: "Kept in every room except the bathroom and restroom",
 
+  // === INGESTED 2026-07-07 02:31 ===
+  later_the_name: "Also seen as a metaphor for 'linking' or 'yoking to' the divine",
+  the_first_meaning: { definition: "Yoga 'as a general term to be translated as 'disciplined meditation' that focuses on any of the many levels of ordinary awareness", what_it_does: "", examples: "tantric practice" },
+  heinrich_zimmer: { definition: "An exponent of the synthesis model, [ 77 ] arguing for non-Vedic eastern states of India", what_it_does: "", examples: "Geoffrey Samuel , Andrea R" },
+  and_such_evidence_as: "Available in the Vedas themselves is scanty and indirect",
+  nevertheless_the_indirect_evidence: { definition: "Strong enough not to allow any doubt about the existence of spiritually highly advanced wanderers", what_it_does: "", examples: "blood vessels and an internal sound) are also described in this upanishad" },
+  the_buddha_used_a_posture_in_which_pressure: "Put on the perineum with the heel, similar to modern postures used to evoke Kundalini",
+  since_jain_sources: "Later than Buddhist ones, however, it is difficult to distinguish between the early Jain school and elements derived from other schools",
+  samkhya_and_yoga: { definition: "Conflated , and some verses describe them as identical", what_it_does: "", examples: "the Vyasa Bhashya (c" },
+  the_nondual_state: "Characterized by the absence of individuality; it can be described as eternal peace, pure love, Self-realization, or liberation",
+  they_both_hold_that_the_free_conscience: { definition: "Transcendent, liberated and self-aware", what_it_does: "", examples: "meditative exercises) with devotion" },
+  elements_of_tantric_rituals: "Adopted by, and influenced, state functions in medieval Buddhist and Hindu kingdoms in East and Southeast Asia",
+  these_tantra_texts: { definition: "The main source of Buddhist knowledge imported into Tibet, [ 214 ] and were later translated into Chinese and other Asian languages", what_it_does: "", examples: "Kriya Yoga , Upa yoga, Yoga yana, mahā yoga , Anu yoga and atiyoga" },
+  its_ultimate_goal: { definition: "Bodhi (awakening) or nirvana (cessation), traditionally seen as the permanent end of suffering ( dukkha ) and rebirth", what_it_does: "", examples: "bhāvanā ('development') [ ai ] and jhāna/dhyāna" },
+  a_unique_feature_of_classical_buddhism: { definition: "Its understanding of all phenomena ( dhammas ) as being empty of a self", what_it_does: "", examples: "deity yoga , guru yoga , the six yogas of Naropa , Kalacakra , Mahamudra and Dzogchen" },
+  onequarter: { definition: "In the capital, Tehran , where groups could be seen practising in parks; conservatives were opposed", what_it_does: "", examples: "reiki and yoga as commercial ventures which could lead to extremism" },
+
 };
 
 // ============================================================
