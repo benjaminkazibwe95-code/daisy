@@ -68677,6 +68677,19 @@ const FLAT_DICT = {
   crosschecking_in_the_back: "Allowed by the rules",
   eyegear: "A metal cage covering the eyes attached with a strap around the back of the head",
 
+  // === INGESTED 2026-07-07 18:49 ===
+  if_no_player: "Able to legally catch the ball it is an incomplete pass and the ball becomes dead the moment it touches the ground",
+  the_moment_that_a_forward_pass_begins: "Important to the game",
+  if_the_passer_drops_the_ball_while_his_arm: "Moving forward it is a forward pass, regardless of where the ball lands or is first touched",
+  a_quarterback_who_runs_out_of_this_pocket: "Said to be scrambling",
+  if_a_forward_pass: "Caught near a sideline or endline it is a complete pass (or an interception) only if a receiver catches the ball 'in bounds'",
+  common_to_all_gridiron_codes: "The notion of control: a receiver must demonstrate control of the ball in order to be ruled in 'possession' of it, while still in bounds",
+  the_carolinians: "In a punting situation and a Georgia rush seemed destined to block the ball",
+  cochems: "To forward passing what the Wright brothers are to aviation and Thomas Edison is to the electric light",
+  apparently_it: "The intention of football coaches to try repeatedly these frequent long and risky passes",
+  hackett: "An official in games involving both teams",
+  forward_passes: "First permitted in Canadian football in 1929, [ 63 ] but the tactic remained a minor part of the game for several years",
+
 };
 
 // ============================================================
