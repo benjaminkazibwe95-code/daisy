@@ -68632,6 +68632,19 @@ const FLAT_DICT = {
   kemari: "Played on a flat ground, about 6–7 meters squared",
   this_type_of_clothing: "Called kariginu ( ja:狩衣 ) and it was fashionable at that time",
 
+  // === INGESTED 2026-07-07 18:43 ===
+  university_college: "Severely damaged by a fire that gutted the entire eastern wing and the college library on 14 February 1890",
+  only_about_one_third_of_the_exterior: "Stone, with the rest being a very pale yellow brick produced at a brickyard on Yonge Street",
+  the_arches: "Semicircular, and consist of small columns that provide the structural support to hold up vaults on the side of walkways",
+  the_focal_point_of_the_structure: "At the south façade, where the stone tower at the centre of the composition contains the main entrance of the college",
+  the_chemistry_laboratory: "Relocated at the southwest range, in the present Croft Chapter House, because it was more logical than in the first study which was in the north",
+  the_sculptor: "A Russian, named Ivan Reznikoff",
+  it_is_said_that_he: "Buried in the northeast corner of the quadrangle",
+  the_griffin_is_a_magical_creature_that: { definition: "A mix of a lion and an eagle", what_it_does: "", examples: "passing their exams with great marks" },
+  the_lit: { definition: "Also responsible for the student-run Diabolos' coffee bar, and the annual Fireball formal, commemorating the 1890 fire which destroyed the college", what_it_does: "some support for Orientation Week, a week dedicated to help first-year students transition into university", examples: "" },
+  the_current_sir_daniel_wilson_hall: "Built in 1954, and the original Whitney Hall was built in 1931",
+  those_titled_president: "Marked with an asterisk (*)",
+
 };
 
 // ============================================================
