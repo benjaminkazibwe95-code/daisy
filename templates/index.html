@@ -1673,12 +1673,6 @@
       </button>
       <input type="file" id="image-input" accept="image/*" style="display:none;" />
       <textarea id="question-input" rows="1" placeholder="Talk to Daisy..."></textarea>
-      <button id="live-pulse-btn" title="Live voice conversation">
-        <span class="pulse-ring"></span>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 10v4M8 6v12M12 4v16M16 6v12M20 10v4"/>
-        </svg>
-      </button>
       <!-- Single button — mic (idle) → recording (tap to stop) → send (text present) -->
       <button id="action-btn" title="Voice input">
         <span id="action-live-icon">
@@ -1697,6 +1691,12 @@
             <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/>
           </svg>
         </span>
+      </button>
+      <button id="live-pulse-btn" title="Live voice conversation">
+        <span class="pulse-ring"></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 10v4M8 6v12M12 4v16M16 6v12M20 10v4"/>
+        </svg>
       </button>
     </div>
     <div id="dictation-hint" style="display:none;">Listening — tap the square to stop</div>
@@ -2989,18 +2989,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
   async function typeProse(body, text) {
     if (!text.trim()) return;
-    const textNode = document.createTextNode('');
-    const cursor = document.createElement('span');
-    cursor.className = 'typing-cursor';
-    body.appendChild(textNode);
-    body.appendChild(cursor);
     const CHUNK = 2, DELAY_MS = 20; // ~100 chars/sec — readable, not instant, not sluggish
+    // Re-rendering full markdown on EVERY tick is what froze slower
+    // phones before (O(n) work repeated O(n) times). Re-rendering every
+    // few ticks instead cuts that cost by ~6x while still letting bold/
+    // headers/lists resolve progressively as the message grows, instead
+    // of everything staying plain text until one jarring snap at the
+    // very end — which is also what caused the "have to scroll back up"
+    // complaint, since that final snap could shift the layout in one
+    // big jump instead of many small ones.
+    const RENDER_EVERY_N_TICKS = 6;
+    let tick = 0;
     for (let i = 0; i <= text.length; i += CHUNK) {
-      textNode.textContent = text.slice(0, i);
+      tick++;
+      const isLastTick = i >= text.length;
+      if (tick % RENDER_EVERY_N_TICKS === 0 || isLastTick) {
+        body.innerHTML = renderMarkdown(text.slice(0, i));
+        if (!isLastTick) {
+          const cursor = document.createElement('span');
+          cursor.className = 'typing-cursor';
+          body.appendChild(cursor);
+        }
+      }
       maybeAutoScroll();
       await sleep(DELAY_MS);
     }
-    cursor.remove();
   }
 
   async function typeIntoBody(body, fullText, div) {
