@@ -67204,6 +67204,12 @@ const FLAT_DICT = {
   violations_of_negative_covenants: "Rare compared to violations of affirmative covenants",
   even_if_the_debt: "Not secured by collateral, debt holders may still sue for bankruptcy, to ensure that the corporation's assets are used to repay the debt",
 
+  // === INGESTED 2026-07-07 00:01 ===
+  longterm_consumer_debt: "Often considered fiscally suboptimal",
+  consumer_debt: "Also associated with predatory lending , although there is much debate as to what exactly constitutes predatory lending",
+  personal_debt: "On the rise, particularly in the United States and the United Kingdom",
+  a_variant: "The consumer leverage ratio , which is the ratio of debt to personal income",
+
 };
 
 // ============================================================
