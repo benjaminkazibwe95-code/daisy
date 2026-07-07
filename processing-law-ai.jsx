@@ -68054,6 +68054,18 @@ const FLAT_DICT = {
   the_concentration_of_hydrogen_ions_and_ph: { definition: "Inversely proportional; in an aqueous solution, an increased concentration of hydrogen ions yields a low pH, and subsequently, an acidic product", what_it_does: "", examples: "the balance of its pH" },
   the_solubility_pump: "A physico-chemical process that transfers CO 2 at the air-sea interface",
 
+  // === INGESTED 2026-07-07 03:21 ===
+  a_lime: "The fruit of several species of citrus , most of which are hybrids within the genus Citrus (family Rutaceae )",
+  limes: "Valued for the acidity of their juice and the aroma of their zest",
+  limes_are_a_rich_source_of_vitamin_c_and: "Used to accent the flavours of foods and beverages",
+  most_commercial_varieties: "Harvested green, when their flavour and acidity are strongest",
+  lime_trees: "Small, evergreen shrubs or low trees with glossy leaves and fragrant white flowers",
+  makrut_lime: { definition: "Among the earliest citrus fruits introduced outside its native range", what_it_does: "", examples: "limes, to prevent scurvy , giving rise to the nickname ' limey '" },
+  lime_juice: "Used in limeade , cocktails (e.g., margarita , gimlet , daiquiri ), ceviche , and guacamole",
+  desert_lime: "Used in Australian marmalade",
+  lime_extracts_and_essential_oils: "Used in perfume , cleaning products , and aromatherapy",
+  raw_limes: { definition: "88% water, 10% carbohydrates , contain less than 1% fat and protein , and provide 35% of the Daily Value of vitamin C per 100 g serving", what_it_does: "", examples: "polyphenols and terpenes" },
+
 };
 
 // ============================================================
