@@ -68618,6 +68618,12 @@ const FLAT_DICT = {
   the_connotation: "Often pejorative , implying that the slowing of the game diminished the enjoyment by other players",
   in_chess_this_slowing_of_play: "Referred to as Kotov syndrome and, in timed chess matches, can result in time trouble",
 
+  // === INGESTED 2026-07-07 18:32 ===
+  the_most_common_alternative: "Given by the utilitarian rule (or other welfarist rules), which identify the spirit of liberal democracy with the equal consideration of interests",
+  a_common_alternative_to_the_majority_rule: "The plurality-rule family of voting rules, which includes ranked choice voting (RCV) , two-round plurality , and first-preference plurality",
+  plurality_rule: { definition: "Often contrasted with the two other major families of voting rules, the evaluative rules and the majority (or Condorcet) rules", what_it_does: "", examples: "the 60% filibuster rule to close debate in the US Senate" },
+  another_possible_way_to_prevent_tyranny: "To elevate certain rights as inalienable",
+
 };
 
 // ============================================================
