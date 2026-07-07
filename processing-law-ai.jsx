@@ -68710,6 +68710,25 @@ const FLAT_DICT = {
   the_villages_name: "'homestead/village with an obligation'",
   norfolk_county_council: "Responsible for roads, some schools, and social services",
 
+  // === INGESTED 2026-07-07 18:58 ===
+  fifa: { definition: "An association football simulation video game franchise", what_it_does: "", examples: "the PlayStation 4 and Xbox One" },
+  john_motson: "The first commentator for the FIFA series, and has worked alongside Ally McCoist , Andy Gray , Des Lynam , Mark Lawrenson and Chris Waddle",
+  martin_tyler: "The default commentator for the FIFA series from 2006 to 2020, alongside Andy Gray between 2006 and 2010 and Alan Smith from 2011 to 2020",
+  guy_mowbray_and_sue_smith: { definition: "Introduced as a new commentary duo in EA Sports FC 24 , alternating with Derek Rae and Stewart Robson", what_it_does: "", examples: "improvements each game features over its predecessor" },
+  another_new_feature: "The ability to manually change the referee 's strictness, allowing some fouls to go un-noticed or without punishment",
+  a_card_reward_system_licensed_from_panini: "Also introduced where, after winning a particular competition, a star player card is unlocked",
+  club_championship_mode: "Introduced with the feature of playing against 17 of Europe's top clubs in their own stadia and the fans singing their unique chants and songs",
+  one_of_the_most_anticipated_new_features: { definition: "EA Sport's 'Freestyle Control' which allows the user to flick the ball on and lay it off to teammates", what_it_does: "", examples: "Thierry Henry and Ronaldinho, as well as realistic player responses" },
+  an_xbox_version: "Added to the Windows and PlayStation 2, whereas the original PlayStation version was dropped",
+  ea_trax: { definition: "The exclusive music menu system that has been used ever since in all FIFA titles", what_it_does: "", examples: "to move a second player into the box in anticipation of a pass" },
+  the_online_mode: "Touted as the main feature",
+  another_key_feature: { definition: "'Football Fusion', which allows owners of both FIFA 2004 and Total Club Manager 2004 to play games from TCM in FIFA 2004", what_it_does: "", examples: "artificial crowd noise and commentary" },
+  the_english_commentary: { definition: "Provided for the fourth time by Martin Tyler and Andy Gray", what_it_does: "", examples: "career mode, 11 vs 11, street mode and Be a Pro, but excluding any online mode" },
+  juventus: "Not in FIFA 20 as they signed a partnership deal with PES 2020 ; they were called Piemonte Calcio in FIFA 20",
+  two_games: "Released, in 2005 and 2007 when EA weren't due to release an international title, before Konami bought the licence in 2008",
+  some_of_these_games: "Developed by EA themselves, though some have been developed by third parties such as Krisalis Software and Bright Future GmbH",
+  fifa_mobile: { definition: "The first mobile game of FIFA to use the new attack mode, live events, leagues, player plans, and program packs", what_it_does: "", examples: "shooting, passing, dribbling and goalkeeping" },
+
 };
 
 // ============================================================
