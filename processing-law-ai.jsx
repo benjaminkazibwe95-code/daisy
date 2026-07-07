@@ -67476,6 +67476,15 @@ const FLAT_DICT = {
   a_key_precedent: { definition: "Set in the 1997 case of Northwest Hydraulic Consultants Limited v", what_it_does: "", examples: "hypotheses, tests, and results—to substantiate and strengthen an SR&ED claim" },
   no_teba: "Reported from Clean Economy incentive audits during these years",
 
+  // === INGESTED 2026-07-07 01:06 ===
+  the_new_yorker: { definition: "Published 47 times annually, with five of these issues covering two-week spans", what_it_does: "", examples: "Judge , where he had worked, or the old Life" },
+  the_current_editor_of_the_new_yorker: { definition: "David Remnick , who succeeded Brown in July 1998", what_it_does: "", examples: "a racy column about nightlife in Manhattan" },
+  cartoons: "Often rejected or sent back to artists with requested amendments, while others were accepted and captions were written for them",
+  captions: "Submitted by readers, and three are chosen as finalists",
+  his_top_hat: { definition: "Of a newer style, without the curved brim", what_it_does: "", examples: "the poster for the 1984 film Moscow on the Hudson ; that movie poster led to a lawsuit, Steinberg v" },
+  the_silhouetted_twin_towers: { definition: "Printed in a fifth, black ink, on a field of black made up of the standard four color printing inks", what_it_does: "", examples: "'Fuhgeddabouditstan', 'Botoxia')" },
+  what_we_set_out_to_do: { definition: "To throw all these images together, which are all over the top and to shine a kind of harsh light on them, to satirize them", what_it_does: "", examples: "'two million three hundred thousand dollars' instead of '$2.3 million', even for very large figures" },
+
 };
 
 // ============================================================
