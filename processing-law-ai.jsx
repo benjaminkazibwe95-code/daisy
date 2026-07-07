@@ -67217,6 +67217,14 @@ const FLAT_DICT = {
   some_debtor_prisoners: "Even less fortunate, being sent to prisons with a mixture of vicious criminals and petty criminals, and many more were confined to a single cell",
   debtors_who_had_the: "To pay their debt, but did not do so, could still be incarcerated for up to six weeks, as could those who defaulted on debts to the court",
 
+  // === INGESTED 2026-07-07 00:14 ===
+  a_banknote: "Frequently referred to as a promissory note, as it is made by a bank and payable to bearer on demand",
+  mortgage_notes_or_real_estate_notes: "Other forms of promissory note",
+  a_promissory_note: "Very similar to a loan",
+  flying_cash_or_feiqian: "A promissory note used during the Tang dynasty (618 – 907)",
+  flying_cash: "Regularly used by Chinese tea merchants, and could be exchanged for hard currency at provincial capitals",
+  one_prominent_example: "The Fannie Mae model standard form contract Multistate Fixed-Rate Note 3200, which is publicly available",
+
 };
 
 // ============================================================
