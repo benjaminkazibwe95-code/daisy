@@ -67402,6 +67402,14 @@ const FLAT_DICT = {
   although_the_heads_of_independent_agencies: { definition: "Often appointed by the government, they can usually be removed only for cause", what_it_does: "", examples: "a commission, board or council" },
   most_federal_agencies: "Created by Congress through ' organic statutes ,' which define the scope of their authority",
 
+  // === INGESTED 2026-07-07 00:42 ===
+  shareholders_of_corporations: "Legally separate from the corporation itself",
+  the_corporation: "Not required to record the beneficial ownership of a shareholding, only the owner as recorded on the register",
+  a_beneficial_shareholder: "The person or legal entity that has the economic benefit of ownership of the shares",
+  if_a_capital_call: "Made and the beneficial owner omits to provide additional funding, the nominee shareholder is liable to fund the capital call using their own funds",
+  this_type_of_shareholding: "Generally the most common",
+  while_the_value_of_shares: { definition: "Mainly driven by the cash-flow rights that they carry (' cash is king '), voting rights can also be valuable", what_it_does: "", examples: "employees , suppliers , customers , the community , etc" },
+
 };
 
 // ============================================================
