@@ -68097,6 +68097,11 @@ const FLAT_DICT = {
   malt_vinegar_sprinkled_onto_crumpled_newspaper: { definition: "A traditional, and still-popular, method of cleaning grease-smeared windows and mirrors in the United Kingdom", what_it_does: "", examples: "food stains and bloodstains" },
   twenty_percent_acetic_acid: { definition: "Commonly sold for this purpose", what_it_does: "", examples: "the government of Canada limits acetic to between 4.1% and 12" },
 
+  // === INGESTED 2026-07-07 03:27 ===
+  the_smell_of_freshly_cut_grass: "An odour caused by green leaf volatiles (GLVs) released when it is damaged",
+  when_grass: "Cut or damaged, lipoxygenase enzymes begin a breakdown of membranes in the plant's cells, producing linoleic and linolenic acids",
+  hexanal_and_related_compounds: "Used by the food industry in recreating fruit and vegetable flavours",
+
 };
 
 // ============================================================
