@@ -67721,6 +67721,10 @@ const FLAT_DICT = {
   a_little_three_champion: "Informally recognized by most teams based on the head-to-head records of the three schools, but three-way competitions are held in some of the sports",
   the_sport_of_ultimate: "Started and named at Amherst College in the mid-1960s by Jared Kass",
 
+  // === INGESTED 2026-07-07 02:13 ===
+  demolition: "Averted and the building subsequently renovated",
+  the_racp: "Affiliated with 51 independent Speciality Societies",
+
 };
 
 // ============================================================
