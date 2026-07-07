@@ -67899,6 +67899,22 @@ const FLAT_DICT = {
   while_bht: "Not considered a carcinogen by IARC, its mechanisms are related to carcinogenesis",
   subacute_exposure_at_lower_doses: "Linked to liver toxicity in rats (Moon et al., 1987)",
 
+  // === INGESTED 2026-07-07 02:46 ===
+  pasteurization_of_milk: { definition: "Suggested by Franz von Soxhlet in 1886", what_it_does: "", examples: "aseptic packaging ), it can even be stored non-refrigerated for up to 9 months" },
+  the_temperature: "Raised to 70 °C (158 °F) for 30 minutes",
+  pasteurization: "A mild heat treatment of liquid foods (both packaged and unpackaged) where products are typically heated to below 100 °C (212 °F)",
+  the_heat_treatment_and_cooling_process: "Designed to inhibit a phase change in the product",
+  the_shelflife: "Thereby extended by several weeks",
+  not_all_spoilage_organisms: { definition: "Destroyed under pasteurization parameters, so subsequent refrigeration is necessary", what_it_does: "", examples: "that used for milk ( 71.5 °C (160" },
+  when_plastic_or_metal_packaging: "Used, the risk of thermal shock is low, so steam or hot water is used",
+  plate_heat_exchangers: "Often used for low- viscosity products such as animal milk, nut milk, and juices",
+  a_plate_heat_exchanger: "Composed of many thin vertical stainless steel plates that separate the liquid from the heating or cooling medium",
+  shell_and_tube_heat_exchangers: "Often used for the pasteurization of foods that are non-Newtonian fluids , such as dairy products, ketchup , and baby foods",
+  a_tube_heat_exchanger: "Made up of concentric stainless-steel tubes",
+  if_pasteurization_temperature_or_time: "Not achieved, a flow diversion valve is used to divert the under-processed product back to the raw product tank",
+  in_places_where_it: { definition: "Allowed, milk is initially pasteurized when it is collected from the farm so it does not spoil before processing", what_it_does: "", examples: "chlorophylls , anthocyanins, and carotenoids in plants and animal tissues" },
+  before_pasteurization_milk: "Homogenized to emulsify its fat and water-soluble components, which results in the pasteurized milk having a whiter appearance compared to raw milk",
+
 };
 
 // ============================================================
