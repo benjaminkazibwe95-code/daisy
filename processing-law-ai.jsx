@@ -68795,6 +68795,9 @@ const FLAT_DICT = {
   a_server_providing_recursive_queries: "Known as a recursive name server",
   caching_name_servers: "Often also recursive name servers—they perform every step necessary to answer any DNS query they receive",
 
+  // === INGESTED 2026-07-07 22:30 ===
+  open_source: { definition: "Digital resources whose source code or source files are publicly available, enabling use, study, modification, and redistribution", what_it_does: "", examples: "source code, blueprints, and documentation) freely available to the public" },
+
 };
 
 // ============================================================
