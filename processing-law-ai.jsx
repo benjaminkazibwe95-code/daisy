@@ -67499,6 +67499,9 @@ const FLAT_DICT = {
   students_kept_regular_business_hours_and: { definition: "Monitored by punching in and out on a time clock", what_it_does: "", examples: "the 2019 College World Series" },
   a_more_complete_listing: "Available at Category:Babson College alumni",
 
+  // === INGESTED 2026-07-07 01:12 ===
+  venture_capital_in_israel: { definition: "The financial capital provided to early-stage, high-potential, high risk, growth startup companies based in Israel", what_it_does: "", examples: "Wiz, K-health, Verbit, Deel and Honey Book, a 200% increase compared to the previous year" },
+
 };
 
 // ============================================================
