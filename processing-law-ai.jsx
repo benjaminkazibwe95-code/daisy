@@ -67864,6 +67864,35 @@ const FLAT_DICT = {
   the_general_scenario: "Undulating land with scattered hills",
   the_remnants_of_old_temples_and_deities: "Found in the subdivision also, as in other parts of the district",
 
+  // === INGESTED 2026-07-07 02:42 ===
+  fuels: "Also used in the cells of organisms in a process known as cellular respiration , where organic molecules are oxidized to release usable energy",
+  hydrocarbons_and_related_organic_molecules: { definition: "By far the most common source of fuel used by humans, but other substances, including radioactive metals, are also utilized", what_it_does: "", examples: "flywheels , springs, compressed air, or water in a reservoir)" },
+  the_first_known_use_of_fuel: "The combustion of firewood by Homo erectus nearly two million years ago",
+  charcoal_briquettes: { definition: "Now commonly used as a fuel for barbecue cooking", what_it_does: "", examples: "those of Muhammad ibn Zakarīya Rāzi" },
+  chemical_fuels: "Substances that release energy by reacting with substances around them, most notably by the process of combustion",
+  both_peat_and_coal: "Still used in electricity generation today",
+  the_use_of_other_solid_fuels_as_wood: "Decreasing as heating technology and the availability of good quality fuel improves",
+  liquid_fuels: "Combustible or energy-generating molecules that can be harnessed to create mechanical energy , usually producing kinetic energy",
+  most_liquid_fuels_in_widespread_use: { definition: "Derived from the fossilized remains of dead plants and animals by exposure to heat and pressure inside the Earth's crust", what_it_does: "", examples: "orimulsion , have been developed as a way to make heavy oil fractions usable as liquid fuels" },
+  some_common_properties_of_liquid_fuels: "That they are easy to transport and can be handled easily",
+  fuels_like_kerosene: "Rationed in some countries, for example in government-subsidized shops in India for home use",
+  conventional_diesel: "Similar to gasoline in that it is a mixture of aliphatic hydrocarbons extracted from petroleum",
+  lp_gas: "A mixture of propane and butane , both of which are easily compressible gases under standard atmospheric conditions",
+  propane: "The third most commonly used motor fuel globally",
+  fuel_gas_is_any_one_of_a_number_of_fuels_that: "Gaseous under ordinary conditions",
+  many_fuel_gases: "Composed of hydrocarbons (such as methane or propane ), hydrogen , carbon monoxide , or mixtures thereof",
+  fuel_gas: "Contrasted with liquid fuels and from solid fuels, though some fuel gases are liquefied for storage or transport",
+  evidence_shows_controlled_fire: { definition: "Used up to 1.5 million years ago at Swartkrans , South Africa", what_it_does: "", examples: "tar sands" },
+  these_latter_sources: "Properly known as mineral fuels",
+  nuclear_fuel_is_any_material_that: "Consumed to derive nuclear energy",
+  when_some_of_these_fuels: "Struck by neutrons, they are in turn capable of emitting neutrons when they break apart",
+  the_most_common_fissile_nuclear_fuels: { definition: "Uranium-235 ( 235 U) and plutonium-239 ( 239 Pu)", what_it_does: "", examples: "tritium ( 3 H) can be used as fuel for nuclear fusion" },
+  fuels_that_produce_energy_by_this_method: "Currently not utilized by humans, but they are the main source of fuel for stars",
+  fusion_fuels: "Light elements such as hydrogen whose nucleii will combine easily",
+  in_most_stars_the_fuel: "Provided by hydrogen, which can combine to form helium through the proton-proton chain reaction or by the CNO cycle",
+  most_transportation_fuels: "Liquids, because vehicles usually require high energy density",
+  the_fuels_that_are_easiest_to_burn_cleanly: "Typically liquids and gases",
+
 };
 
 // ============================================================
