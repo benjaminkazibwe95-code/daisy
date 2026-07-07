@@ -68304,6 +68304,10 @@ const FLAT_DICT = {
   sodium_methoxide: "Produced on an industrial scale and is available from a number of chemical companies",
   potassium_methoxide_in_alcoholic_solution: "Commonly used as a catalyst for transesterification in the production of biodiesel",
 
+  // === INGESTED 2026-07-07 16:16 ===
+  the_reaction_of_hbr_with_substituted_alkenes: "Prototypical in the study of free-radical additions",
+  the_radical_intermediate: "Stabilized by hyperconjugation",
+
 };
 
 // ============================================================
