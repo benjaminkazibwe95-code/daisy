@@ -68403,6 +68403,30 @@ const FLAT_DICT = {
   thus_the_molecule: { definition: "Named either pentan-2-one or pentan-3-one , depending on the position of the oxygen atom", what_it_does: "", examples: "a carbonyl" },
   the_second_carbon_atom: { definition: "Called the β-carbon ( beta -carbon), the third is the γ-carbon ( gamma -carbon), and the naming system continues in alphabetical order", what_it_does: "", examples: "alkylated in the presence of primary haloalkane" },
 
+  // === INGESTED 2026-07-07 16:58 ===
+  the_first_collisions: { definition: "Achieved in 2010 at an energy of 3.5 tera- electronvolts (TeV) per beam, about four times the previous world record", what_it_does: "", examples: "in lead –lead collisions and proton –lead collisions" },
+  many_of_these_byproducts: "Produced only by high-energy collisions, and they decay after very short periods of time",
+  thus_many_of_them: "Hard or nearly impossible to study in other ways",
+  the_variation_in_depth: { definition: "Deliberate, to reduce the amount of tunnel that lies under the Jura Mountains to avoid having to excavate a vertical access shaft there", what_it_does: "", examples: "compressors, ventilation equipment, control electronics and refrigeration plants" },
+  magnets_of_higher_multipole_orders: "Used to correct smaller imperfections in the field geometry",
+  the_design_luminosity_of_the_lhc: "10 34 cm −2 s −1 , [ 40 ] which was first reached in June 2016",
+  the_first_system: "The linear particle accelerator Linac4 generating 160 MeV negative hydrogen ions (H − ions), which feeds the Proton Synchrotron Booster (PSB)",
+  these_protons: "Then accelerated to 2 GeV and injected into the Proton Synchrotron (PS), where they are accelerated to 26 GeV",
+  while_lighter_ions: "Considered as well, the baseline scheme deals with lead ions [ 44 ] (see A Large Ion Collider Experiment )",
+  the_lead_ions: "First accelerated by the linear accelerator LINAC 3 , and the Low Energy Ion Ring (LEIR) is used as an ion storage and cooler unit",
+  the_aim_of_the_heavyion_programme: "To investigate quark–gluon plasma , which existed in the early universe",
+  these_energies: "Carried by very little matter: under nominal operating conditions (2,808 bunches per beam, 1.15×10 11 protons per bunch), the beam pipes contain 1",
+  the_particles: "Fired in a clockwise direction into the accelerator and successfully steered around it at 10:28 local time",
+  the_first_of_the_main_lhc_magnets: "Reported to have been successfully trained by 9 December 2014, while training the other magnet sectors was finished in March 2015",
+  the_design_value: "First reached 29 June, [ 41 ] and further improvements increased the collision rate to 40% above the design value",
+  the_total_number_of_collisions: { definition: "Higher than in 2016 as well", what_it_does: "", examples: "four weeks of lead–lead collisions" },
+  the_lhc_and_the_whole_cern_accelerator_complex: "Maintained and upgraded",
+  the_goal_of_the_upgrades: { definition: "To implement the High Luminosity Large Hadron Collider (HL-LHC) project that will increase the luminosity by a factor of 10", what_it_does: "", examples: "its supersymmetric extensions" },
+  the_results_as_initially_drafted: "Stated to be short of proof but at a relatively high 3.5 sigma level of significance",
+  both_of_them_are_baryons_that: "Composed of one bottom, one down, and one strange quark",
+  the_properties_of_the_higgs_boson: "Studied in more detail and the precision of many other results was improved",
+  some_very_big_questions: "Being raised, even some things that Einstein proposed, that have just been accepted for decades are starting to be challenged",
+
 };
 
 // ============================================================
