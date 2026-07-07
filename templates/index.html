@@ -1119,8 +1119,28 @@
 
     #drawer-scroll {
       flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+    #drawer-projects-section {
+      flex-shrink: 0;
+    }
+    #drawer-recents-section {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    #recents-list {
+      flex: 1;
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
+    }
+    #drawer-pinned-section {
+      flex-shrink: 0;
+      border-top: 1px solid var(--border);
+      padding-top: 4px;
     }
 
     .drawer-section {
@@ -1710,7 +1730,7 @@
   </button>
 
   <div id="drawer-scroll">
-    <div class="drawer-section">
+    <div class="drawer-section" id="drawer-projects-section">
       <div class="drawer-section-head">
         <span class="drawer-section-label">Projects</span>
         <div class="drawer-section-actions">
@@ -1721,20 +1741,20 @@
       <div id="projects-list"></div>
     </div>
 
-    <div class="drawer-section">
+    <div class="drawer-section" id="drawer-recents-section">
       <div class="drawer-section-head">
         <span class="drawer-section-label">Recents</span>
       </div>
       <div id="recents-list"></div>
     </div>
+  </div>
 
-    <div class="drawer-section">
-      <div class="drawer-section-head">
-        <span class="drawer-section-label">Daisy</span>
-      </div>
-      <button class="drawer-item" id="drawer-stats-btn"><span class="d-icon">📊</span><span class="item-text">Knowledge Stats</span></button>
-      <button class="drawer-item" id="drawer-settings-btn"><span class="d-icon">⚙️</span><span class="item-text">Settings</span></button>
+  <div class="drawer-section" id="drawer-pinned-section">
+    <div class="drawer-section-head">
+      <span class="drawer-section-label">Daisy</span>
     </div>
+    <button class="drawer-item" id="drawer-stats-btn"><span class="d-icon">📊</span><span class="item-text">Knowledge Stats</span></button>
+    <button class="drawer-item" id="drawer-settings-btn"><span class="d-icon">⚙️</span><span class="item-text">Settings</span></button>
   </div>
 
   <div class="drawer-footer">
@@ -1823,6 +1843,10 @@
       <button class="settings-row settings-row-btn danger" id="clear-data-btn">
         <span class="s-icon">🗑️</span>
         <div class="s-row-text"><div class="s-row-title">Clear chat history</div><div class="s-row-sub">Removes Recents from this device only</div></div>
+      </button>
+      <button class="settings-row settings-row-btn danger" id="clear-memory-btn">
+        <span class="s-icon">🧠</span>
+        <div class="s-row-text"><div class="s-row-title">Clear what Daisy remembers</div><div class="s-row-sub">Forgets personal facts she's picked up on this device</div></div>
       </button>
     </div>
 
@@ -2197,6 +2221,11 @@ document.addEventListener('DOMContentLoaded', function() {
     saveRecentsList([]);
     alert('Chat history cleared on this device.');
   };
+  document.getElementById('clear-memory-btn').onclick = () => {
+    if (!confirm("Clear everything Daisy remembers about you on this device? This cannot be undone.")) return;
+    localStorage.removeItem(MEMORY_KEY);
+    alert('Memory cleared on this device.');
+  };
 
   // Report a bug — captured locally for now (no bug-tracker wired up yet)
   document.getElementById('settings-report-btn').onclick = () => {
@@ -2220,6 +2249,22 @@ document.addEventListener('DOMContentLoaded', function() {
   const INSTRUCTIONS_KEY = 'daisy_instructions';
   function getInstructions() {
     return localStorage.getItem(INSTRUCTIONS_KEY) || '';
+  }
+
+  // ── MEMORY — personal facts Daisy picks up across conversations on
+  // this device (name, ongoing projects, preferences). Separate from
+  // the shared correction cache: this is private to this one device,
+  // never shared with anyone else. ──
+  const MEMORY_KEY = 'daisy_memory_v1';
+  function getMemory() {
+    try { return JSON.parse(localStorage.getItem(MEMORY_KEY) || '[]'); } catch(e) { return []; }
+  }
+  function saveMemoryFact(fact) {
+    if (!fact || !fact.trim()) return;
+    const mem = getMemory();
+    if (mem.includes(fact.trim())) return; // don't pile up exact duplicates
+    mem.push(fact.trim());
+    localStorage.setItem(MEMORY_KEY, JSON.stringify(mem.slice(-40))); // cap so it can't grow forever
   }
 
   const personaPage      = document.getElementById('persona-page');
@@ -3037,10 +3082,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const res = await fetch('/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, instructions: getInstructions() })
+        body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory() })
       });
       const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
+      if (data.memory_fact) saveMemoryFact(data.memory_fact);
       body.style.opacity = '1';
       await typeIntoBody(body, answer, msgDiv);
     } catch(e) {
@@ -3205,11 +3251,13 @@ document.addEventListener('DOMContentLoaded', function() {
         body: JSON.stringify({
           question: text,
           instructions: getInstructions(),
+          memory: getMemory(),
           image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
         })
       });
       const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
+      if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
       await addMsgTyped(answer, { question: text });
       recordMessage('daisy', answer);
@@ -3295,46 +3343,48 @@ document.addEventListener('DOMContentLoaded', function() {
   // screen. Its own SpeechRecognition instance, deliberately separate
   // from the Live Room's below, so the two never fight over state. ──
   //
-  // dictationBaseText = everything finalized in EARLIER sessions (plus
-  // whatever was already in the box before starting). dictationSessionFinal
-  // = the CURRENT session's finalized text, rebuilt FRESH from scratch
-  // on every single onresult event (never appended to with += inside
-  // the loop). That second part is what actually fixes the double-
-  // writing bug: continuous mode on Android restarts recognition often,
-  // and resultIndex doesn't reliably behave the way the spec describes
-  // across that restart — appending on every event was re-adding
-  // results that were already counted. Rebuilding fresh each time and
-  // only folding into the base text once, in onend, makes duplication
-  // impossible regardless of how many times a result gets redelivered.
+  // The previous version trusted `continuous: true` to keep one
+  // long-running session whose `e.results` grows in a stable, spec-
+  // compliant way — and that assumption was wrong on a real device,
+  // which is why it kept doubling. This version makes NO assumption
+  // about cross-event array behavior at all: each recognition instance
+  // handles exactly ONE utterance (continuous: false), commits it once
+  // when it finishes, and a brand new instance starts for the next
+  // utterance. There's no session-spanning array to misread, so there's
+  // nothing left to duplicate.
   let isDictating = false;
   let dictationRecognition = null;
   let dictationBaseText = '';
-  let dictationSessionFinal = '';
 
   function startInlineDictation() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) { alert("Voice input isn't supported in this browser — try Chrome."); return; }
-
     dictationBaseText = inp.value ? inp.value.replace(/\s+$/, '') + ' ' : '';
-    dictationSessionFinal = '';
     isDictating = true;
     setActionMode('recording');
     dictationHint.textContent = 'Listening — tap the square to stop';
     dictationHint.style.display = 'block';
+    runDictationCycle();
+  }
 
+  function runDictationCycle() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let committedThisCycle = false;
     dictationRecognition = new SR();
     dictationRecognition.lang = 'en-US';
     dictationRecognition.interimResults = true;
-    dictationRecognition.continuous = true;
+    dictationRecognition.continuous = false; // one utterance, then it ends naturally — no cross-event ambiguity possible
 
     dictationRecognition.onresult = (e) => {
-      let finalized = '', interim = '';
-      for (let i = 0; i < e.results.length; i++) {
-        if (e.results[i].isFinal) finalized += e.results[i][0].transcript + ' ';
-        else interim += e.results[i][0].transcript;
+      const last = e.results[e.results.length - 1];
+      const text = last[0].transcript;
+      if (last.isFinal) {
+        committedThisCycle = true;
+        dictationBaseText = dictationBaseText + text + ' ';
+        inp.value = dictationBaseText;
+      } else {
+        inp.value = dictationBaseText + text;
       }
-      dictationSessionFinal = finalized;
-      inp.value = dictationBaseText + dictationSessionFinal + interim;
       inp.style.height = 'auto';
       inp.style.height = inp.scrollHeight + 'px';
       inp.scrollTop = inp.scrollHeight;
@@ -3351,10 +3401,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     dictationRecognition.onend = () => {
       if (isDictating) {
-        dictationBaseText = dictationBaseText + dictationSessionFinal;
-        dictationSessionFinal = '';
-        try { dictationRecognition.start(); }
-        catch (e) { /* already running — harmless */ }
+        // Each utterance naturally ends recognition (continuous:false) —
+        // that's expected, not an error. Start the next cycle right away
+        // so it feels continuous even though it's really back-to-back
+        // single-utterance sessions under the hood.
+        setTimeout(() => { if (isDictating) runDictationCycle(); }, 30);
       }
     };
 
@@ -3526,10 +3577,11 @@ document.addEventListener('DOMContentLoaded', function() {
           const res  = await fetch('/ask', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ question, instructions: getInstructions() })
+            body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory() })
           });
           const data = await res.json();
           const answer = data.answer || "Still learning that one.";
+          if (data.memory_fact) saveMemoryFact(data.memory_fact);
           await settleThinkingPanel(panel, data);
           await addMsgTyped(answer, { question });
           recordMessage('daisy', answer);
