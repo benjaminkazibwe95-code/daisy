@@ -68047,6 +68047,13 @@ const FLAT_DICT = {
   the_space_inside_each_segment: { definition: "A locule filled with juice vesicles", what_it_does: "", examples: "polyphenols , terpenes , and tannins" },
   lemon_juice_and_rind: { definition: "Used in a wide variety of foods and drinks, the juice for its sour taste, from its content of 5–6% citric acid", what_it_does: "", examples: "Limoncello" },
 
+  // === INGESTED 2026-07-07 03:17 ===
+  a_hydrogen_ion: "An ion created when a hydrogen atom loses or gains an electron",
+  a_hydrogen_atom: "Made up of a nucleus with charge +1, and a single electron",
+  hydrogen_anions: "Formed when additional electrons are acquired: Hydrogen ions drive ATP synthase in photosynthesis",
+  the_concentration_of_hydrogen_ions_and_ph: { definition: "Inversely proportional; in an aqueous solution, an increased concentration of hydrogen ions yields a low pH, and subsequently, an acidic product", what_it_does: "", examples: "the balance of its pH" },
+  the_solubility_pump: "A physico-chemical process that transfers CO 2 at the air-sea interface",
+
 };
 
 // ============================================================
