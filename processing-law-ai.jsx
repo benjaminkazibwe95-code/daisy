@@ -68705,6 +68705,11 @@ const FLAT_DICT = {
   the_runback: "The most rare of the conversion rules, and is most often implemented in one-on-one games",
   street_football: { definition: "Usually played as a pick-up game and has very little organization, but an organized 'sandlot' football has been around since the early 20th century", what_it_does: "", examples: "child versions of NFL stars" },
 
+  // === INGESTED 2026-07-07 18:54 ===
+  shouldham: "A parish of the Kings Lynn and West Norfolk district council , which is responsible for the most local services",
+  the_villages_name: "'homestead/village with an obligation'",
+  norfolk_county_council: "Responsible for roads, some schools, and social services",
+
 };
 
 // ============================================================
