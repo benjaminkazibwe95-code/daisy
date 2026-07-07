@@ -67420,6 +67420,21 @@ const FLAT_DICT = {
   these_market_makers: { definition: "Required to maintain two-sided markets during exchange hours and are obligated to buy and sell at their displayed bids and offers", what_it_does: "", examples: "the ability to naked short a stock, i.e., selling it without borrowing it" },
   unofficial_market_makers: "Free to operate on order driven markets or, indeed, on the LSE",
 
+  // === INGESTED 2026-07-07 00:53 ===
+  the_subscription_business_model: "Not exactly crowdfunding, since the actual flow of money only begins with the arrival of the product",
+  a_clearer_case_of_modern_crowdfunding: "Auguste Comte 's scheme to issue notes for the public support of his further work as a philosopher",
+  tour_however_this: "Not crowdfunding in its true sense as it wasn't asked for by the band and only reluctantly taken",
+  the_funding_for_these_projects: { definition: "Distributed unevenly, with a few projects accounting for the majority of overall funding", what_it_does: "", examples: "in 2013, Google invested $125 million in Lending Club" },
+  once_a_fundraiser: { definition: "Created, individuals can share the details anywhere to attract donors and gather funds for their cause", what_it_does: "", examples: "businessmen, waiters, children, and politicians" },
+  its_director: "The politician and writer Ahmed Lutfi al-Sayyid while the chairman of its board of directors was King Fouad the first",
+  once_an_idea: { definition: "Posted, it can be copied", what_it_does: "", examples: "experiment.com , and The Open Source Science Project" },
+  if_nonscientists: "Allowed to make funding decisions, it would be more likely that 'panda bear science' is funded, i.e",
+  this_is_because_readers: "Expressing interest in their work, which can be 'personally motivating' or 'gratifying' for reporters",
+  while_funders: "Not normally involved in editorial control, Spot.us allowed for donors or 'community members' to become involved with the co-creation of a story",
+  many_contributors: "Not returning donors and often, projects were funded by family and friends",
+  crowdfunding_means_that_journalists: { definition: "Attracting funders while trying to remain independent, which may pose a conflict", what_it_does: "", examples: "the intrastate solicitation was allowed, but a single out-of-state offer could destroy the exemption" },
+  but_there_are_people_who: { definition: "Not getting relief from us or from the institutions that are supposed to be there", what_it_does: "", examples: "patient confidentiality, but this runs in conflict with dishonest crowdfunding efforts" },
+
 };
 
 // ============================================================
