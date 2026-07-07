@@ -67858,6 +67858,12 @@ const FLAT_DICT = {
   the_resultant_compound_word: "In the dual or plural number and takes the gender of the final member in the compound construction",
   the_resultant_bears_a_collective_sense_and: { definition: "Always singular and neutral", what_it_does: "", examples: "'possessing much rice' or 'much-riced'" },
 
+  // === INGESTED 2026-07-07 02:40 ===
+  ananda_nagar: "Not identified as a separate inhabited settlement in the 2011 census",
+  maharshi_kapila: "Born at Pat Jhalda, 23 km (14 mi) south-west of Ananda Nagar, 3,500 years ago",
+  the_general_scenario: "Undulating land with scattered hills",
+  the_remnants_of_old_temples_and_deities: "Found in the subdivision also, as in other parts of the district",
+
 };
 
 // ============================================================
