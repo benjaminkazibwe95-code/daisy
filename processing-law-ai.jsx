@@ -68576,6 +68576,18 @@ const FLAT_DICT = {
   eisenhower_graduated_from_this_school_when_it: "Known as the Army Industrial College",
   his_centenary: { definition: "Honored on the Eisenhower commemorative dollar issued in 1990", what_it_does: "", examples: "Eisenhower received many honorary degrees from universities and colleges around the world" },
 
+  // === INGESTED 2026-07-07 18:13 ===
+  the_first_group: "Shown a list and asked to recall as many names as possible",
+  the_second_group: "Shown a list and asked to determine if there were more female or more male names",
+  thus_the_familiarity_heuristic: "Defined as 'judging events as more frequent or important because they are more familiar in memory",
+  the_hindsight_bias: "The inclination to see events that have already occurred as being more predictable than they were before they took place",
+  familiar_situations: "Processed in a system involving the frontal and temporal lobes whereas unfamiliar situations are processed in the frontal and parietal lobes",
+  the_result_of_this_study_was_that_the_subjects: "More familiar when the face was attractive regardless of prior exposure to the picture (or person) itself",
+  lay_people_tend_to_make_health_decisions_that: "Based on familiarity and availability as opposed to factual knowledge about diseases",
+  this_means_that_they: "More likely to take actions and pursue treatment options that have worked in the past, whether they are effective in the current situation or not",
+  medical_professionals: "Much more likely to use scientific facts to prescribe treatments",
+  this_result_indicates_that_it: "Unlikely that a familiarity heuristic was applied during the experiment",
+
 };
 
 // ============================================================
