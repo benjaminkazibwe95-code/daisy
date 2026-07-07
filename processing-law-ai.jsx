@@ -68443,6 +68443,30 @@ const FLAT_DICT = {
   the_small_deviations: "Due to the much weaker gravitational attractions between the planets, and in the case of Mercury , due to general relativity",
   for_the_ellipse_there: { definition: "Also an apocentre for which the distance to the focus takes the maximal value p 1 − e", what_it_does: "", examples: "the programming language FORTRAN can be used" },
 
+  // === INGESTED 2026-07-07 17:11 ===
+  its_mean_distance_from_earth: "About 1.496 × 10 8 kilometres or about 8 light-minutes",
+  the_distance_between_the_sun_and_the_earth: { definition: "Used to define a unit of length called the astronomical unit (au), now defined to be 149.597 8707 × 10 6 kilometres", what_it_does: "", examples: "oxygen , carbon , neon , and iron" },
+  the_term_sol_with_a_lowercase_s: "Used by planetary astronomers for the duration of a solar day on another planet such as Mars",
+  atmospheric_distortion: "The measurement must be done on satellites; the value is very small meaning very precise technique is needed",
+  this_differential_rotation: { definition: "Caused by convective motion due to heat transport and the Coriolis force due to the Sun's rotation", what_it_does: "", examples: "supernovae" },
+  these_meteorites: "Thought to retain the composition of the protostellar Sun and are thus not affected by the settling of heavy elements",
+  the_zone_is_so_named_because_thermal_radiation: "The primary means of energy transfer: photons scatter from dense gas so often that they take a million years to cross this zone",
+  the_change_in_opacity: "Due to the decreasing amount of H − ions , which absorb visible light easily",
+  the_photosphere: { definition: "Not fully ionised—the extent of ionisation is about 3%, leaving most of the hydrogen in atomic form", what_it_does: "", examples: "carbon monoxide and water" },
+  the_flash: { definition: "Caused by light from the Sun just below the horizon being bent (usually through a temperature inversion ) towards the observer", what_it_does: "", examples: "binoculars may result in permanent damage to the retina without an appropriate filter" },
+  its_polar_field: "1–2 gauss (0.0001–0.0002 T ) , whereas the field is typically 3,000 gauss (0.3 T) in features on the Sun called sunspots and 10–100 gauss (0.001–0",
+  those_that_do_appear: "At high solar latitudes",
+  solar_activity: { definition: "Thought to have played a large role in the formation and evolution of the Solar System", what_it_does: "", examples: "those surrounding Earth" },
+  the_length_of_the_ellipse: { definition: "Around 1760 parsecs and its width around 1170 parsecs", what_it_does: "", examples: "that in and between the galactic spiral arms" },
+  he_reasoned_that_it: "A giant flaming ball of metal even larger than the land of the Peloponnesus and that the Moon reflected the light of the Sun",
+  galileo_posited_that_sunspots: { definition: "On the surface of the Sun rather than small objects passing between Earth and the Sun", what_it_does: "", examples: "those using Calcium-H (396.9 nm), Calcium-K (393.37 nm) and Hydrogen-alpha (656.46 nm) filtering" },
+  lord_kelvin_suggested_that_the_sun: "A gradually cooling liquid body that is radiating an internal store of heat",
+  the_theoretical_concept_of_fusion: "Developed in the 1930s by the astrophysicists Subrahmanyan Chandrasekhar and Hans Bethe",
+  this_spacecraft: "Designed to observe gamma rays, X-rays and ultraviolet radiation from solar flares during a time of high solar activity and solar luminosity",
+  the_ulysses_probe: { definition: "Launched in 1990 to study the Sun's polar regions", what_it_does: "", examples: "the ancient Egyptians , the Inca of South America and the Aztecs of what is now Mexico" },
+  the_symbol_of_light: "A pagan device adopted by Christians, perhaps the most important that did not come from Jewish traditions",
+  christian_churches: "Built so that the congregation faced toward the sunrise",
+
 };
 
 // ============================================================
