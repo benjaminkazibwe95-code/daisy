@@ -67410,6 +67410,12 @@ const FLAT_DICT = {
   this_type_of_shareholding: "Generally the most common",
   while_the_value_of_shares: { definition: "Mainly driven by the cash-flow rights that they carry (' cash is king '), voting rights can also be valuable", what_it_does: "", examples: "employees , suppliers , customers , the community , etc" },
 
+  // === INGESTED 2026-07-07 00:44 ===
+  appointments: "Made by ministers following the Code of Practice of the Commissioner for Public Appointments",
+  the_home_office: "Responsible for their costs and has to note all expenses",
+  ndpb_differ_from_executive_agencies_as_they: "Not created to carry out ministerial orders or policy, instead they are more or less self-determining and enjoy greater independence",
+  ndpbs: { definition: "Sometimes referred to as quangos", what_it_does: "", examples: "a considerable number within the NHS), and also other boards operating in the public sector (e.g" },
+
 };
 
 // ============================================================
