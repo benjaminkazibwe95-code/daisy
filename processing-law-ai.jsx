@@ -67657,6 +67657,24 @@ const FLAT_DICT = {
   the_courses_offered_by_these_colleges: "Diplomas, advance diplomas and certificate courses",
   that_term: { definition: "Still used at some institutions", what_it_does: "", examples: "Community College Review and others" },
 
+  // === INGESTED 2026-07-07 02:00 ===
+  the_university_of_toronto: "Known for having a high enrolment of international students compared to other Canadian universities",
+  initial_funding_for_the_climate_institute: "Provided through university resources, with plans to seek additional support from public and private partners",
+  george_campus: "Its oldest and largest location, situated in downtown Toronto",
+  several_toronto_subway_stations: "Nearby, including Spadina , St",
+  although_its_foremost_function: { definition: "Hosting the annual convocation ceremonies, the building is a venue for academic and social events throughout the year", what_it_does: "", examples: "Remembrance Day and convocation" },
+  victoria_college: "On the eastern side of Queen's Park, centred on a Romanesque main building made of contrasting red sandstone and grey limestone",
+  the_mississauga_campus: "Established in 1967 as Erindale College, one of the university's two colleges located outside of Toronto at the time",
+  the_faculty_of_applied_science_and_engineering: { definition: "The other major first-entry undergraduate faculty on the St", what_it_does: "", examples: "the Dictionary of Canadian Biography since 1959 and the Collected Works of Erasmus since 1969" },
+  the_malcove_collection: { definition: "Primarily represented by Early Christian and Byzantine sculptures, bronzeware, furniture, icons and liturgical items", what_it_does: "", examples: "the identification of pancreatic and retinal stem cells" },
+  among_the_research_conducted_at_the_laboratory: "The development of gel electrophoresis",
+  george_campus_that: "Initiated and financed by alumnus-benefactor Vincent Massey and named for his grandfather Hart",
+  the_confluence_of_assorted_functions: { definition: "The result of an effort to create a holistic educational experience, a goal summarized in the Founders' Prayer", what_it_does: "", examples: "a graduate of the class of 1976 is denoted as '7T6'" },
+  the_sunday_concert: "The oldest musical series at Hart House; since 1922, the series has performed more than 600 free classical music concerts in the Great Hall",
+  the_medium: "The newspaper of the Mississauga campus as a successor to The Erindalian and CFRE is the campus's radio station",
+  juxtaposition_global_health_magazine: "Another peer-reviewed student publication at the university",
+  health_professions: { definition: "13.0 per cent, education 5.1 per cent, and fine arts was 2.4 per cent", what_it_does: "", examples: "the inaugural championships for all three trophies" },
+
 };
 
 // ============================================================
