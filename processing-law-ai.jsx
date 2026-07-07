@@ -67536,6 +67536,10 @@ const FLAT_DICT = {
   large_corporations: "Also emerging as powerful mechanisms for impact investing",
   mris: { definition: "Designed to have both a positive social impact and contribute to the endowment's long-term financial stability and growth", what_it_does: "", examples: "popular low-carbon and sustainability indexes" },
 
+  // === INGESTED 2026-07-07 01:28 ===
+  a_variance_swap: { definition: "An over-the-counter financial derivative that allows one to speculate on or hedge risks associated with the magnitude of movement, i.e", what_it_does: "", examples: "suppose that there are n + 1 {\displaystyle n+1} observed prices S t 0 , S t 1 ," },
+  the_advantage_of_variance_swaps: "That they provide pure exposure to the volatility of the underlying price, as opposed to call and put options which may carry directional risk (delta)",
+
 };
 
 // ============================================================
