@@ -68512,6 +68512,9 @@ const FLAT_DICT = {
   kqedfm: { definition: "The most-listened-to National Public Radio affiliate in the country", what_it_does: "", examples: "the East Bay Times and San Mateo Daily Journal" },
   francis_yacht_club_and_golden_gate_yacht_club: "Located, [ 321 ] [ 322 ] while the South Beach Yacht Club is located next to Oracle Park",
 
+  // === INGESTED 2026-07-07 17:33 ===
+  seedinvest: "An equity crowdfunding platform that connects startups with investors online",
+
 };
 
 // ============================================================
