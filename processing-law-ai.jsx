@@ -67725,6 +67725,19 @@ const FLAT_DICT = {
   demolition: "Averted and the building subsequently renovated",
   the_racp: "Affiliated with 51 independent Speciality Societies",
 
+  // === INGESTED 2026-07-07 02:16 ===
+  the_lannon_hall_building: "Newly rebuilt with construction from 2018 to 2020",
+  located_in_the_centre: "The library overlooking the corridor and a secondary floor view towards the elementary gym",
+  the_school_cafeteria_and_dining_hall: "Also located on the first floor run by Canuel Caters and connect to the founder's atrium opening out with views of the courtyard",
+  the_facilities: "Blessed by The Most Rev",
+  the_alumni_gym: "Used as a multipurpose space for major sporting events, school-wide masses, and special events",
+  overlooking_the_gym: "The Alumni Room, a multipurpose space",
+  the_gym: "Connected to the wrestling room and the Christian Brother's Gym rededicated by Dave Hardy in 2017",
+  the_vancouver_college_theatre: "A full-sized theatre used for the school's annual theatre production, as well as assemblies and talks",
+  the_science_wing_and_laboratory: "Located on the south side of the building",
+  the_fitness_centre: "Attached directly to the new South Gym, serving as an athletic complex for its students and staff",
+  the_new_south_gym: "Named the Dave Hardy Gym after David G",
+
 };
 
 // ============================================================
