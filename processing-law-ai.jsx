@@ -68470,6 +68470,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 17:15 ===
   quark_stars_that_contain_strange_matter: { definition: "Called strange stars", what_it_does: "", examples: "complex scalar fields and U(1) gauge fields, coupled to gravity" },
 
+  // === INGESTED 2026-07-07 17:18 ===
+  astrophysical_jets: "Associated with many types of high-energy astronomical sources , such as black holes , neutron stars and pulsars",
+  their_causes: { definition: "Not yet fully understood, but they are believed to arise from dynamic interactions within accretion disks", what_it_does: "", examples: "quasars and radio galaxies or within galaxy clusters" },
+  relativistic_jets: { definition: "Beams of ionised matter accelerated close to the speed of light", what_it_does: "", examples: "relativistic beaming that changes the apparent beam brightness" },
+
 };
 
 // ============================================================
