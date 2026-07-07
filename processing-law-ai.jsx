@@ -68601,6 +68601,18 @@ const FLAT_DICT = {
   the_seci_model: "Four stages where explicit and tacit knowledge interact with each other in a spiral manner",
   the_most_common_forms_of_explicit_knowledge: "Manuals, documents, procedures, and how-to videos",
 
+  // === INGESTED 2026-07-07 18:26 ===
+  varying_levels_of_dopamine: "Believed to influence the optimization of this filter system by providing expectations about the outcomes of an event",
+  other_studies_have_examined_whether_the_ern: "Elicited by varying the cost of an error and the evaluation of a response",
+  no_ern: "Elicited for any losses as opposed to an ERN for no wins, even though both outcomes are the same",
+  this_evaluation: { definition: "Emotional in nature and highlights the amount of distress associated with a certain error", what_it_does: "", examples: "social exclusion" },
+  targets: "Flanked by either a congruent or an incongruent set of letters",
+  because_the_acc: "Intricately involved with error detection and affective responses, it may very well be that this area forms the basis of self-confidence",
+  early_correct_antisaccade_performance: "Associated with rostral activation",
+  whenever_the_dorsal_area: "Active, fewer errors were committed providing more evidence that the ACC is involved with effortful performance",
+  the_acc_area_in_the_brain: "Associated with many functions that are correlated with conscious experience",
+  greater_acc_activation_levels: "Present in more emotionally aware female participants when shown short 'emotional' video clips",
+
 };
 
 // ============================================================
