@@ -67351,6 +67351,14 @@ const FLAT_DICT = {
   registration: { definition: "The main prerequisite to the corporation's assumption of limited liability", what_it_does: "", examples: "meeting procedures and officer positions" },
   corporate_names: { definition: "Supposed to be unique to the jurisdiction in which the corporation is registered", what_it_does: "", examples: "a corporation can own property, and can sue or be sued for as long as it exists" },
 
+  // === INGESTED 2026-07-07 00:36 ===
+  the_assets_of_the_acquired_company: { definition: "Often used as collateral for the financing, along with any equity contributed by the acquiror", what_it_does: "", examples: "real estate portfolios with rental income secured by long-term rental agreements" },
+  senior_debt: "Secured with the target company's assets and has lower interest rates",
+  similar_to_an_mbo: { definition: "An MBI (Management Buy In) in which an external management team acquires the shares", what_it_does: "", examples: "limited partnership stakes and direct investments in corporate securities" },
+  the_gist_of_all_the_denunciations: "That top-heavy reversed pyramids of debt were being created and that they would soon crash, destroying assets and jobs",
+  insolvency_law_if_it: "Determined to be the cause of the acquired firm's failure",
+  the_operations_of_the_company: "Not affected by the financial restructuring",
+
 };
 
 // ============================================================
