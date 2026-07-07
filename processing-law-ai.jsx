@@ -68173,6 +68173,20 @@ const FLAT_DICT = {
   the_palea: "The uppermost of the two chaff-like bracts that enclose the grass floret (the other being the lemma )",
   the_perianth_interpretation_of_the_palea: "Supported by the expression of MADS-box genes in this organ during development, as is the case in sepals of eudicot plants",
 
+  // === INGESTED 2026-07-07 03:49 ===
+  the_majority_of_monocots: "Animal pollinated (zoophilous), [ 1 ] of which most are pollinator generalists",
+  the_cotyledon: "The embryonic leaf within a seed; monocots have one whereas dicots have two",
+  clonal_propagation: "The production or division of vegetative structures which develop into new individuals that are genetically identical to their progenitor",
+  orchids: "Known to have weak barriers to hybridization",
+  when_the_alleles_at_these_loci: "Equivalent between a pollen grain and a stigma on which it lands then the pollen grain will be rejected",
+  selfpollination: { definition: "Known to be favored in some orchids, rices, and Caulokaempferia coenobialis ( Zingiberaceae )", what_it_does: "", examples: "Cyperaceae , Juncaceae , Sparganiaceae , Typhaceae , and most notably Poaceae" },
+  most_zoophilous_monocots: { definition: "Pollinator generalists with the most notable exception being the Orchids", what_it_does: "", examples: "pollinator abundance and competition" },
+  flower_structure: "More uniformly distributed within the monocots",
+  nonseptal_nectaries: "Most often epithelial and positioned on the perigonal nectaries of tepals when occurring in monocots",
+  these_are_monocots_that: "Adapted to use water as a vector and constitute most of the aquatic plants",
+  this_is_possible_because_the_trigger_to_flower: "Genetically determined and because multiple forests can develop from the clones of one individual",
+  the_cause_of_the_trigger: "Still unknown and unpredictable",
+
 };
 
 // ============================================================
