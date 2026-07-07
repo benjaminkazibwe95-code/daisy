@@ -67624,6 +67624,11 @@ const FLAT_DICT = {
   what_differs: "That, as above, separate curves are constructed for payments and for discounting",
   maturities_corresponding_to_input_instruments: { definition: "Referred to as 'pillar points'; often, these are solved directly, while other spot rates are interpolated", what_it_does: "", examples: "other 'market reference rates' (MRRs) such as SOFR and TONAR" },
 
+  // === INGESTED 2026-07-07 01:52 ===
+  postgraduate_certificates: "Taken after the bachelor's degree and are sometimes more vocationally oriented than master's degrees",
+  each_credit: { definition: "Equivalent to a nominal ten hours of study, and as such the CertHE is 1,200 hours of study", what_it_does: "", examples: "completion of advanced courses and a cumulative GPA of 3" },
+  university_certificates: "Also becoming more common ways for people to engage in areas of interest while working full-time",
+
 };
 
 // ============================================================
