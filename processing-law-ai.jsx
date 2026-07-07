@@ -67738,6 +67738,20 @@ const FLAT_DICT = {
   the_fitness_centre: "Attached directly to the new South Gym, serving as an athletic complex for its students and staff",
   the_new_south_gym: "Named the Dave Hardy Gym after David G",
 
+  // === INGESTED 2026-07-07 02:18 ===
+  saraswati: "A strict vegetarian who recounted that he felt 'sickened at the very sight of meat' after witnessing a Brahmin cut and prepare a rump steak",
+  he_said_all_the_creatures: "The eternal Praja or citizens of the Supreme Lord",
+  he_says_acharya_kapila_of_sankhya_darshan: { definition: "Not an atheist, but it is the scholars who misinterpreted his sutras", what_it_does: "", examples: "Aitareya Brahmana , Shatapatha Brahmana , Sāma Brahmana, Gopatha Brahmana , etc" },
+  the_eighteen_puranas_and_upapuranas: { definition: "Filled with contradictions, idol worship, incarnations, and personification of God, temples, rituals, and practices that are against the Vedas", what_it_does: "", examples: "Pancharatra" },
+  he_said_that_these_texts: "Not valid as they teach different customs, rituals, and practices which are against the Vedas",
+  his_next_step: { definition: "To reform Hinduism with a new dedication to God", what_it_does: "", examples: "Christianity and Islam , as well as of other Indian faiths like Jainism , Buddhism and Sikhism" },
+  whatever_is_not_free_from_partiality_and: "Unjust, partaking of untruth and the like, and opposed to the teachings of God as embodied in the Vedas—that I hold as Adharma",
+  his_debates: "Attended by large crowds",
+  they_threw_him_into_the_water_but_he: "Claimed to have saved himself because his Pranayama practice allowed him to stay under water until the attackers left",
+  while_swami: "In Shahpura, he received invitation to come to Jodhpur but Nahar Singhji had warned him against going to Jodhpur",
+  the_maharaja: { definition: "Eager to become Dayananda's disciple and to learn his teachings", what_it_does: "", examples: "Dayanand College at Ajmer" },
+  dayananda_saraswati: { definition: "Most notable for influencing the freedom movement of India", what_it_does: "", examples: "Advaita Vedanta , Islam and Christianity )" },
+
 };
 
 // ============================================================
