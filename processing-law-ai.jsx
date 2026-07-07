@@ -68160,6 +68160,15 @@ const FLAT_DICT = {
   the_hesperornithiformes: { definition: "Flightless, marine diving birds that swam like grebes", what_it_does: "", examples: "at the Turonian-Coniacian boundary" },
   ostracods: "Abundant in Cretaceous marine settings; ostracod species characterised by high male sexual investment had the highest rates of extinction and turnover",
 
+  // === INGESTED 2026-07-07 03:45 ===
+  bracts: { definition: "Usually different from foliage leaves in size, color, shape or texture", what_it_does: "", examples: "the petals or sepals" },
+  a_plant_having_bracts: "Referred to as bracteate [ 1 ] or bracteolate , while one that lacks them is referred to as ebracteate [ 2 ] or ebracteolate",
+  some_bracts: "Brightly coloured which aid in the attraction of pollinators, either together with the perianth or instead of it",
+  these_bracts_form_the_chaff_that: { definition: "Usually removed from cereal grain during threshing and winnowing", what_it_does: "", examples: "those of Marcgravia evenia" },
+  a_small_bract: "Called a bracteole or bractlet",
+  technically_this: "Any bract that arises on a pedicel instead of subtending it",
+  each_individual_segment_of_the_epicalyx: { definition: "Called an episepal because they resemble the sepals in them", what_it_does: "", examples: "palms , arums , irises , [ 10 ] crocuses [ 11 ] and dayflowers ( Commelina )" },
+
 };
 
 // ============================================================
