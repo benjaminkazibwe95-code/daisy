@@ -68493,6 +68493,25 @@ const FLAT_DICT = {
   valuations_here: { definition: "Often necessary both for financial reporting and intellectual property transactions", what_it_does: "", examples: "only hard assets ), i.e" },
   mining_valuations: "Sometimes required for IPOs , fairness opinions , litigation, mergers and acquisitions, and shareholder-related matters",
 
+  // === INGESTED 2026-07-07 17:30 ===
+  the_san_francisco_bay_area: { definition: "A region of California surrounding and including San Francisco Bay , and anchored by the cities of Oakland , San Francisco , and San Jose", what_it_does: "", examples: "filtering the pollutants and sediments from rivers and supporting a number of endangered species" },
+  because_the_bay_area: "Crossed by six major earthquake faults , the region is particularly exposed to hazards presented by large earthquakes",
+  the_bay_area: "Host to teams in each of the five largest North American men's professional sports leagues and is a cultural center for music, theater, and the arts",
+  ohlone_villages: { definition: "Spread across the Peninsula, East Bay, South Bay, as well as further south into the Monterey Bay area", what_it_does: "", examples: "the first large influx of Chinese immigrants to the U.S" },
+  cityregion: { definition: "As definitionally challenged [as the Bay Area]", what_it_does: "", examples: "neighboring San Benito , Santa Cruz , San Joaquin , Merced , and Stanislaus counties" },
+  the_western_counties_of_marin_and_sonoma: "Encased by the Pacific Ocean on the west and the bay on the east and are characterized by their mountainous and woody terrain",
+  this_weather_pattern: { definition: "Also the source for delays at San Francisco International Airport", what_it_does: "", examples: "filtering pollutants and sediments from the rivers" },
+  western_burrowing_owls: "Originally listed as a species of special concern by the California Department of Fish and Game in 1979",
+  the_oldest_rocks_are_metamorphic_rocks_that: "Associated with granite in the Salinian Block west of the San Andreas Fault",
+  the_largest_bodies_of_water_in_the_bay_area: { definition: "The San Francisco , San Pablo , and Suisun estuaries", what_it_does: "", examples: "the loss of wetlands and the introduction of contaminants and invasive species" },
+  the_racial_makeup: { definition: "35.8% White (non-Hispanic), 27.7% Asian , 24.4% Hispanic or Latino (of any race), 5.6% non-Hispanic Black or African American , 0", what_it_does: "", examples: "recent immigrants and American-born citizens of Eastern European descent" },
+  metropolitan_regions_and: { definition: "The fastest-aging of any metropolitan area in the U.S", what_it_does: "", examples: "the Sureños and Norteños in San Francisco's Mission District" },
+  san_francisco: { definition: "Home to the region's tourism , financial industry , and is host to numerous conventions", what_it_does: "", examples: "Google , Facebook , Apple Inc" },
+  suburban_poverty: { definition: "Most prevalent among Hispanics and Blacks, and affects native-born people more significantly than foreign-born", what_it_does: "", examples: "the San Francisco Bay Trail" },
+  these_rail_systems: { definition: "Supplemented by numerous bus agencies and transbay ferries such as Golden Gate Ferry and the San Francisco Bay Ferry", what_it_does: "", examples: "municipal utility districts and transit districts" },
+  kqedfm: { definition: "The most-listened-to National Public Radio affiliate in the country", what_it_does: "", examples: "the East Bay Times and San Mateo Daily Journal" },
+  francis_yacht_club_and_golden_gate_yacht_club: "Located, [ 321 ] [ 322 ] while the South Beach Yacht Club is located next to Oracle Park",
+
 };
 
 // ============================================================
