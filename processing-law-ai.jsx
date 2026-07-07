@@ -67629,6 +67629,16 @@ const FLAT_DICT = {
   each_credit: { definition: "Equivalent to a nominal ten hours of study, and as such the CertHE is 1,200 hours of study", what_it_does: "", examples: "completion of advanced courses and a cumulative GPA of 3" },
   university_certificates: "Also becoming more common ways for people to engage in areas of interest while working full-time",
 
+  // === INGESTED 2026-07-07 01:54 ===
+  the_college_building: "Formally declared open by Governor of Ceylon, West Ridgeway, and was blessed by Msgr",
+  the_bonjean_hall: "The third building to be completed, by Rev",
+  emil_nicholas: "The third rector appointed in 1912",
+  legoc_omi: "Appointed the fourth rector",
+  the_next_large_expansion: "The south wing, a two-storey building to house classrooms",
+  peter_pillai_omi: "The fifth Rector, from 1940 to 1961, the first Sri Lankan, a great scholar widely respected in Asia",
+  at_that_time_it: "The only Catholic school in a group of elite, mainly secular or Protestant Christian, private boys' schools which often played against one another",
+  the_annual_matchup: "Known locally as the ' Battle of the Saints ' or 'Joe–Pete'",
+
 };
 
 // ============================================================
