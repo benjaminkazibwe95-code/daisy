@@ -68270,6 +68270,12 @@ const FLAT_DICT = {
   in_this_helium_atoms: { definition: "Excited, and then combine to yield the dihelium ion", what_it_does: "", examples: "24 MgHe 2 and 40 CaHe 2" },
   the_larger_cavities: "More likely to hold more atoms",
 
+  // === INGESTED 2026-07-07 15:56 ===
+  when_pauling: "At work, Oppenheimer came to their home and blurted out an invitation to Ava Helen to join him on a tryst in Mexico",
+  but_protein_structures: { definition: "Far less amenable to this technique than the crystalline minerals of his former work", what_it_does: "", examples: "a proposal of neutral phosphate groups, an idea that conflicted with the acidity of DNA" },
+  pauling_and_his_wife_ava: "Then issued a 'limited passport' to attend the conference",
+  he_decided_it: { definition: "Safest to stay there, and meanwhile he was reported missing", what_it_does: "", examples: "digitized versions of Pauling's forty-six research notebooks" },
+
 };
 
 // ============================================================
