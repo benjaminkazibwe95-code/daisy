@@ -68234,6 +68234,19 @@ const FLAT_DICT = {
   the_final_patina: { definition: "A particularly durable layer that is highly resistant to atmospheric corrosion, thereby protecting the underlying metal against further weathering", what_it_does: "", examples: "sulfur-containing acid rain" },
   copper_doorknobs: "Used by hospitals to minimize the transfer of disease, and Legionnaires' disease is suppressed by copper tubing in plumbing systems",
 
+  // === INGESTED 2026-07-07 04:02 ===
+  the_sulfate_or_sulphate_ion: "A polyatomic anion with the empirical formula SO 2− 4",
+  sulfates_are_salts_of_sulfuric_acid_and_many: "Prepared from that acid",
+  the_symmetry_of_the_isolated_anion: "The same as that of methane",
+  the_sulfur_atom: { definition: "In the +6 oxidation state while the four oxygen atoms are each in the −2 state", what_it_does: "", examples: "dimethyl sulfate , are covalent compounds and esters of sulfuric acid" },
+  his_reasoning_was_that_the_charge_on_sulfur: "Thus reduced, in accordance with his principle of electroneutrality",
+  the_double_bonding: "Taken by Pauling to account for the shortness of the S−O bond",
+  consequently_the_product_sulfates: "Hydrated , corresponding to zinc sulfate ZnSO 4 · 7H 2 O , copper(II) sulfate CuSO 4 · 5H 2 O , and cadmium sulfate CdSO 4 · H 2 O",
+  radium_sulfate: "The most insoluble sulfate known",
+  sulfates: { definition: "Widely used industrially", what_it_does: "", examples: "for benches in Mycenae" },
+  sulphates: "Historically used as dyes and pigments",
+  plasterimpregnated_bandages_for_plaster_casts: "Introduced in the mid-19th century and were initially prepared fresh in hospitals",
+
 };
 
 // ============================================================
