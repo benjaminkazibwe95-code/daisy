@@ -67804,6 +67804,23 @@ const FLAT_DICT = {
   the_kolkata_metro: "The country's first underground railway",
   bagdogra_airport_near_siliguri: "A customs airport that offers international service to Bhutan and Thailand, besides regular domestic service",
 
+  // === INGESTED 2026-07-07 02:29 ===
+  arya_samaj: "The first Hindu organisation to introduce proselytisation in Hinduism",
+  the_vedic_school_system: "Also to relieve Indians from the pattern of a British education",
+  the_early_leaders_of_the_samaj: "Pandit Lekh Ram (1858 – 1897) and Swami Shraddhanand (Mahatma Munshi Ram Vij) (1856 – 1926)",
+  the_group_that_refrained_from_eating_meat: { definition: "Called the ' Mahatma ' faction and the other group, the 'Cultured Party'", what_it_does: "", examples: "Jat Pat Todak Mandal ) campaigned against caste discrimination" },
+  some_samajis_in_government_service: "Dismissed for belonging to the Samaj",
+  dev: "Killed in a street fight in 1948",
+  keshav_rao_koratkar: "The president of the organisation until 1932",
+  the_samaj: "Associated with the Dayanand Anglo Vedic (DAV) schools which number over eight hundred",
+  they_believe_the_vedas: { definition: "An infallible authority, and they respect the Upanishads and other Vedic philosophy", what_it_does: "", examples: "the Puranas" },
+  the_havan: "Usually performed as per the Havan Pustika , a simplified guide to Havan, having mantras for general or special occasions",
+  the_priest: "Generally a Vedic scholar from the local Arya Samaj Mandir or Gurukul",
+  the_host: "Known as the ' Yajamana '",
+  a_special_havan: "Done for the same reason",
+  the_gayatri_mantra_is_recited_while_oil_lamps: "Lit, in front of a fire altar lit with sandalwood",
+  a_lamp: "Kept in every room except the bathroom and restroom",
+
 };
 
 // ============================================================
