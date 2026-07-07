@@ -68295,6 +68295,15 @@ const FLAT_DICT = {
   antiferromagnetism: "Another example of a magnetic property arising from a particular alignment of individual spins in the solid state",
   the_transition_metals_and_their_compounds: "Known for their homogeneous and heterogeneous catalytic activity",
 
+  // === INGESTED 2026-07-07 16:11 ===
+  alkoxides: { definition: "Strong bases [ citation needed ] and, when R is not bulky , good nucleophiles and good ligands", what_it_does: "", examples: "water, occur widely as intermediates in various reactions, including the Williamson ether synthesis" },
+  the_nucleophilic_center_for_simple_alkoxides: "Located on the oxygen, whereas the nucleophilic site on enolates is delocalized onto both carbon and oxygen sites",
+  ynolates: "Also unsaturated alkoxides derived from acetylenic alcohols",
+  phenoxides: "Close relatives of the alkoxides, in which the alkyl group is replaced by a phenyl group",
+  phenol: { definition: "More acidic than a typical alcohol; thus, phenoxides are correspondingly less basic and less nucleophilic than alkoxides", what_it_does: "", examples: "is commonly used for this purpose, a reaction that is used in the production of biodiesel" },
+  sodium_methoxide: "Produced on an industrial scale and is available from a number of chemical companies",
+  potassium_methoxide_in_alcoholic_solution: "Commonly used as a catalyst for transesterification in the production of biodiesel",
+
 };
 
 // ============================================================
