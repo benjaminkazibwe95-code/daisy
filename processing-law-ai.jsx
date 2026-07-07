@@ -68124,6 +68124,9 @@ const FLAT_DICT = {
   moths_also: { definition: "Eaten by some species of lizards , amphibians , cats , dogs , rodents , and some bears", what_it_does: "", examples: "species that bees do not visit" },
   another_saturniid_used_as_food: "The cavorting emperor ( Usta terpsichore )",
 
+  // === INGESTED 2026-07-07 03:36 ===
+  ecological_communities_dominated_by_sedges: { definition: "Known as sedgelands or as sedge meadows", what_it_does: "", examples: "phosphorus from poor soil" },
+
 };
 
 // ============================================================
