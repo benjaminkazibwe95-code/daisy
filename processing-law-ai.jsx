@@ -68613,6 +68613,11 @@ const FLAT_DICT = {
   the_acc_area_in_the_brain: "Associated with many functions that are correlated with conscious experience",
   greater_acc_activation_levels: "Present in more emotionally aware female participants when shown short 'emotional' video clips",
 
+  // === INGESTED 2026-07-07 18:28 ===
+  on_the_opposite_end_of_the_time_spectrum: "The phrase extinct by instinct , [ citation needed ] which is making a fatal decision based on hasty judgment or a gut reaction",
+  the_connotation: "Often pejorative , implying that the slowing of the game diminished the enjoyment by other players",
+  in_chess_this_slowing_of_play: "Referred to as Kotov syndrome and, in timed chess matches, can result in time trouble",
+
 };
 
 // ============================================================
