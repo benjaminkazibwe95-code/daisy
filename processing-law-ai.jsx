@@ -67838,6 +67838,9 @@ const FLAT_DICT = {
   a_unique_feature_of_classical_buddhism: { definition: "Its understanding of all phenomena ( dhammas ) as being empty of a self", what_it_does: "", examples: "deity yoga , guru yoga , the six yogas of Naropa , Kalacakra , Mahamudra and Dzogchen" },
   onequarter: { definition: "In the capital, Tehran , where groups could be seen practising in parks; conservatives were opposed", what_it_does: "", examples: "reiki and yoga as commercial ventures which could lead to extremism" },
 
+  // === INGESTED 2026-07-07 02:33 ===
+  the_repayment: "Not exclusively monetary and may be a special task the teacher wants the student to accomplish",
+
 };
 
 // ============================================================
