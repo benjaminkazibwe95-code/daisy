@@ -68127,6 +68127,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 03:36 ===
   ecological_communities_dominated_by_sedges: { definition: "Known as sedgelands or as sedge meadows", what_it_does: "", examples: "phosphorus from poor soil" },
 
+  // === INGESTED 2026-07-07 03:38 ===
+  a_reedbed_or_reed_bed: "A natural habitat found in floodplains , waterlogged depressions and estuaries",
+  reedbeds: { definition: "Part of a succession from young reeds colonising open water or wet ground through a gradation of increasingly dry ground", what_it_does: "", examples: "shrubs and trees to colonise" },
+  although_common_reeds: "Characteristic of reedbeds, not all vegetation dominated by this species is characteristic of reedbeds",
+  many_animals: "Adapted to living in and around reedbeds",
+  water_trickling_through_the_reedbed: "Cleaned by microorganisms living on the root system and in the litter",
+  treatment_ponds: "Used for the water treatment of a single house or a small neighbourhood",
+
 };
 
 // ============================================================
