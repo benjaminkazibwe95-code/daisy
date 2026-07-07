@@ -67604,6 +67604,10 @@ const FLAT_DICT = {
   this_deal: "Brokered by Salomon Brothers with a notional amount of US$210 million and a term of over ten years",
   the_aim_of_central_bank_liquidity_swaps: "'to provide liquidity in U.S",
 
+  // === INGESTED 2026-07-07 01:41 ===
+  a_basis_swap_is_an_interest_rate_swap_which: "The exchange of two floating rate financial instruments",
+  the_existence_of_the_basis: "A violation of the covered interest rate parity (CIP) condition",
+
 };
 
 // ============================================================
