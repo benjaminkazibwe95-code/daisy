@@ -67569,6 +67569,26 @@ const FLAT_DICT = {
   unless_certain_conditions: "Met, the IRS deems a 'short against the box' position to be a 'constructive sale' of the long position, which is a taxable event",
   regulation_sho: "The SEC's first update to short selling restrictions since the uptick rule in 1938",
 
+  // === INGESTED 2026-07-07 01:34 ===
+  in_practice_the_term_usually: { definition: "Curves built from a single issuer or market segment so that credit quality and other features are as similar as possible, for example the U.S", what_it_does: "", examples: "government bond curves, overnight indexed swap curves and interest rate swap curves" },
+  these_families: { definition: "Produced by central banks and data providers from prices of instruments in each market and are kept comparable within a family by construction", what_it_does: "", examples: "the difference between the 10-year Treasury yield and the 3-month Treasury bill rate" },
+  recessions_and: "Used in simple recession-probability models",
+  a_common_choice: { definition: "The 10-year minus 3-month Treasury rates (the New York Fed's convention)", what_it_does: "", examples: "10-year minus 2-year, are also used in practice" },
+  a_risk_premium: "Needed by the market, since at longer durations there is more uncertainty and a greater chance of events that impact the investment",
+  banks_and_other_issuers: "Quoted on swap curves, which reflect interbank funding and derivatives pricing and are typically above government curves of the same currency",
+  corporate_yield_curves: "Often quoted in terms of a 'credit spread' over the relevant swap curve",
+  during_this_period_the_yield_curve: "Typically inverted, reflecting the fact that deflation made current cash flows less valuable than future cash flows (i.e",
+  a_positively_sloped_yield_curve: "Often a harbinger of inflationary growth",
+  when_the_yield_curve: "Flat, the capital gain is predicted to be much less, and there is little variability in the bond's total returns over time",
+  two_of_the_theories: "Extreme positions, while the third attempts to find a middle ground between the former two",
+  the_liquidity_premium_theory: { definition: "An offshoot of the pure expectations theory", what_it_does: "", examples: "the greater price uncertainty" },
+  the_market_expectations_hypothesis: "Combined with the liquidity premium theory: where r p n {\displaystyle rp_{n}} is the risk premium associated with an n {\displaystyle {n}} year bond",
+  another_modern_approach: "The LIBOR market model , introduced by Brace, Gatarek and Musiela in 1997 and advanced by others later",
+  yield_curves: "Built from either prices available in the bond market or the money market",
+  the_example_given_in_the_table_at_the_right: "Known as a LIBOR curve because it is constructed using either LIBOR rates or swap rates",
+  values_for_other_t: "Typically determined using some sort of interpolation scheme",
+  because_a_bond: "Always anchored by its final maturity, the price at some point must change direction and fall to par value at redemption",
+
 };
 
 // ============================================================
