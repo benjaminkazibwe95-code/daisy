@@ -67263,6 +67263,12 @@ const FLAT_DICT = {
   the_national_theatre_of_greece: "Opened in 1900 as Royal Theatre",
   herodotus_and_thucydides: "Two of the most influential historians in this period",
 
+  // === INGESTED 2026-07-07 00:18 ===
+  student_debt: "The debt incurred by an individual to pay for education-related expenses",
+  this_debt: "Most commonly assumed to pay for tertiary education , such as university",
+  the_amount_loaned_or_the_loan_agreement: "Often referred to as a student loan",
+  only_mortgage_debt: "Greater than student loan debt in the United States",
+
 };
 
 // ============================================================
