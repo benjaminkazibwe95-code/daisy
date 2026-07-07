@@ -67915,6 +67915,29 @@ const FLAT_DICT = {
   in_places_where_it: { definition: "Allowed, milk is initially pasteurized when it is collected from the farm so it does not spoil before processing", what_it_does: "", examples: "chlorophylls , anthocyanins, and carotenoids in plants and animal tissues" },
   before_pasteurization_milk: "Homogenized to emulsify its fat and water-soluble components, which results in the pasteurized milk having a whiter appearance compared to raw milk",
 
+  // === INGESTED 2026-07-07 02:48 ===
+  milk_and_water: { definition: "Often boiled to kill any harmful microbes that may be present in them", what_it_does: "", examples: "salting or fermentation" },
+  most_foods_can_be_preserved_in_soil_that: { definition: "Very dry and salty (thus a desiccant) such as sand, or soil that is frozen", what_it_does: "", examples: "by burial in the ground, such as in a storage clamp (not to be confused with a root cellar )" },
+  sometimes_meat: "Buried under conditions that cause preservation",
+  if_buried_where_the_earth: "Very cold, the earth acts like a refrigerator, or, in areas of permafrost , a freezer",
+  food_preserved_by_canning_or_bottling: "At immediate risk of spoilage once the can or bottle has been opened",
+  most_such_failures: "Rapidly detected as decomposition within the can cause gas production and the can will swell or burst",
+  its_toxin: { definition: "Denatured by cooking, however", what_it_does: "", examples: "lard or tallow ), and then storing it immersed in the fat" },
+  these_preparations: { definition: "Popular in Europe before refrigerators became ubiquitous", what_it_does: "", examples: "the phenols syringol , guaiacol and catechol" },
+  when_water: "Used to make beer, the boiling during the brewing process may kill bacteria that could make people sick",
+  heating_to_temperatures_which: "Sufficient to kill microorganisms inside the food is a method used with perpetual stews",
+  another_form_of_preservation: "Setting the cooked food in a container and covering it with a layer of fat",
+  jellying: "One of the steps in producing traditional pâtés",
+  another_type_of_jellying: { definition: "Fruit preserves , which are preparations of cooked fruits, vegetables and sugar, often stored in glass jam jars and Mason jars", what_it_does: "", examples: "those made from tomatoes or squash" },
+  jugging: "A popular method of preserving meat up until the middle of the 20th century",
+  the_animal_to_be_jugged: "Usually cut into pieces, placed into a tightly sealed jug with brine or gravy , and stewed",
+  pickling: { definition: "A method of preserving food in an edible, antimicrobial liquid", what_it_does: "leaves the microbial cells dehydrated, thus killing them", examples: "piccalilli" },
+  techniques_of_food_preservation: "Developed in research laboratories for commercial applications",
+  vacuumpacking: { definition: "Commonly used for storing nuts to reduce loss of flavor from oxidization", what_it_does: "", examples: "cheese, of its flavor" },
+  pef_for_food_processing: "A developing technology still being researched",
+  potato_applications: "Already operational in the US and Canada",
+  modifying_atmosphere: { definition: "A way to preserve food by operating on the atmosphere around it", what_it_does: "", examples: "helium or nitrogen" },
+
 };
 
 // ============================================================
