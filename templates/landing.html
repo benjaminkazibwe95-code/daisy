@@ -7,6 +7,7 @@
 <meta name="description" content="Daisy is the first Ugandan AI — an assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
 
 <link rel="icon" href="/static/icons/favicon-32.png" sizes="32x32">
+<link rel="manifest" href="/manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -353,6 +354,33 @@
 </footer>
 
 <script>
+  // ── PWA: capture the install prompt on the landing page itself, so
+  // clicking Download here triggers the native install dialog directly
+  // instead of navigating to / first and installing from there. ──
+  let daisyDeferredInstallPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    daisyDeferredInstallPrompt = e;
+  });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {});
+  }
+
+  document.querySelectorAll('#download-btn, a[href="#download"]').forEach((btn) => {
+    btn.addEventListener('click', async (e) => {
+      if (daisyDeferredInstallPrompt) {
+        e.preventDefault();
+        daisyDeferredInstallPrompt.prompt();
+        const { outcome } = await daisyDeferredInstallPrompt.userChoice;
+        daisyDeferredInstallPrompt = null;
+        if (outcome !== 'accepted') window.location.href = '/';
+      }
+      // If the prompt isn't available yet (Chrome hasn't fired it, or this
+      // is Safari/iOS which has no install prompt at all), fall through to
+      // the normal link behavior — scrolling to #download or opening /.
+    });
+  });
+
   document.getElementById('year').textContent = new Date().getFullYear();
   fetch('/daisy/status').then(r => r.json()).then(d => {
     if (d && typeof d.words === 'number') document.getElementById('stat-words').textContent = d.words.toLocaleString();
