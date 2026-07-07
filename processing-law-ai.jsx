@@ -67841,6 +67841,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 02:33 ===
   the_repayment: "Not exclusively monetary and may be a special task the teacher wants the student to accomplish",
 
+  // === INGESTED 2026-07-07 02:35 ===
+  the_one_teacher_schooling_initiative: "Conceptualised by Bhaurao Deoras, the younger brother of the 3rd Sarsanghchalak of Rashtriya Swayamsevak Sangh (RSS), Madhukar Dattatraya Deoras",
+  the_ekal_vidyalaya_foundation_of_india: { definition: "Officially registered in 2000 and the EVF-USA was registered soon after", what_it_does: "", examples: "2,100 schools in the North Eastern states" },
+  evf: "Targeting to reach 2,00,00 village schools by 2030",
+  local_people: "Also involved in higher organization levels like a 'cluster' (unit of 30 schools), subarea (unit of 90 schools), and area (unit of 270 schools)",
+  the_local_youth_who: { definition: "Trained to operate the schools are social workers and teachers, teaching sanitation and health care, literacy, and self-sufficiency", what_it_does: "", examples: "Janahitha in Andhra Pradesh and Bharatiya Janseva Sansthan in Gujarat" },
+  the_report_said_the_fts: "'misusing these funds, and using the grants for creating disharmony amongst religious groups and creating a political cadre'",
+  menon_said_the_reason: { definition: "Names of Hindu Gods beginning with these letters are not common", what_it_does: "", examples: "Christians" },
+  ours: "A completely indigenous effort'",
+
 };
 
 // ============================================================
