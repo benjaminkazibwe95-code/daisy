@@ -67611,6 +67611,15 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 01:45 ===
   these_swaps: { definition: "Popular with hedge funds because they get the benefit of a large exposure with a minimal cash outlay", what_it_does: "", examples: "hedge funds, are natural receivers in Total Return Swaps" },
 
+  // === INGESTED 2026-07-07 01:47 ===
+  changes_of_interest_rates: "Often stated in basis points",
+  basis_points: "Used as a convenient unit of measurement in contexts where percentage differences of less than 1% are discussed",
+  the_most_common_example: { definition: "Interest rates , where differences in interest rates of less than 1% per year are usually meaningful to talk about", what_it_does: "", examples: "a difference of 0.10 percentage points is equivalent to a change of 10 basis points (e.g., a 4" },
+  since_the_basis: "Usually small, these are quoted multiplied up by 10,000, and hence a 'full point' movement in the 'basis' is a basis point",
+  expense_ratios_of_investment_funds: "Often quoted in basis points",
+  the_same_unit: "Also (rarely) called a permyriad , literally meaning 'for (every) myriad (ten thousand)'",
+  a_permyriad: "Written with U+2031 ‱ PER TEN THOUSAND SIGN ( & pertenk; ) [ 7 ] [ 8 ] which looks like a percent sign % with three zeroes to the right of the slash",
+
 };
 
 // ============================================================
