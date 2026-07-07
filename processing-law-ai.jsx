@@ -67710,6 +67710,17 @@ const FLAT_DICT = {
   a_collegiate_institute: "An institution that provides either secondary or post-secondary education , dependent on where the term is used",
   the_parallel_school_system: { definition: "Not extended to the separate school systems in Ontario", what_it_does: "", examples: "Greek and Latin, for university -bound students" },
 
+  // === INGESTED 2026-07-07 02:11 ===
+  when_amherst_college: "Established, he was elected its first president on May 8, 1821",
+  williams_alumni: "Fond of an apocryphal story ascribing the removal of books from the Williams College library to Amherst College",
+  one_of_the_hallmarks_of_the_new_college: "Its Charity Fund, an early form of financial aid that paid the tuition of poorer students",
+  a_charter: "Not granted until February 21, 1825, [ 17 ] as reflected on the Amherst seal",
+  amherst_college: { definition: "Accredited by the New England Commission of Higher Education", what_it_does: "", examples: "Asian Languages and Civilizations" },
+  the_five_colleges: "Geographically close to one another and are linked by buses that run between the campuses",
+  the_five_college_dance_department: { definition: "One of the largest in the nation", what_it_does: "", examples: "Amherst) currently under investigation" },
+  a_little_three_champion: "Informally recognized by most teams based on the head-to-head records of the three schools, but three-way competitions are held in some of the sports",
+  the_sport_of_ultimate: "Started and named at Amherst College in the mid-1960s by Jared Kass",
+
 };
 
 // ============================================================
