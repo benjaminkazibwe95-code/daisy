@@ -67954,6 +67954,9 @@ const FLAT_DICT = {
   even_though_the_wastes: "Biodegradable, the scale of the pollution overwhelms many environments",
   some_biodegradable_lubricants: "Based on: [ 13 ] The development of biolubricants is topical",
 
+  // === INGESTED 2026-07-07 02:53 ===
+  ethoxyquin: "Also used in some spices to prevent color loss due to oxidation of the natural carotenoid pigments",
+
 };
 
 // ============================================================
