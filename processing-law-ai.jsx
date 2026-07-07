@@ -68427,6 +68427,15 @@ const FLAT_DICT = {
   the_properties_of_the_higgs_boson: "Studied in more detail and the precision of many other results was improved",
   some_very_big_questions: "Being raised, even some things that Einstein proposed, that have just been accepted for decades are starting to be challenged",
 
+  // === INGESTED 2026-07-07 17:05 ===
+  an_element_of_the_boundary_of_s: "Called a boundary point of S",
+  the_term_boundary_operation: { definition: "Finding or taking the boundary of a set", what_it_does: "", examples: "Metric Spaces by E" },
+  a_connected_component_of_the_boundary_of_s: "Called a boundary component of S",
+  the_boundary_of_a_set: "Empty if and only if the set is both closed and open (that is, a clopen set )",
+  isolated_points: { definition: "Always boundary points", what_it_does: "", examples: "if S {\displaystyle S} is either closed or open" },
+  since_the_boundary_of_a_set: "Closed, ∂ ∂ S = ∂ ∂ ∂ S {\displaystyle \partial \partial S=\partial \partial \partial S} for any set S",
+  the_explanation_for_the_apparent_incongruity: "That the topological boundary (the subject of this article) is a slightly different concept from the boundary of a manifold or of a simplicial complex",
+
 };
 
 // ============================================================
