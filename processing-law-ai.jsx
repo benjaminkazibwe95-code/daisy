@@ -68247,6 +68247,17 @@ const FLAT_DICT = {
   sulphates: "Historically used as dyes and pigments",
   plasterimpregnated_bandages_for_plaster_casts: "Introduced in the mid-19th century and were initially prepared fresh in hospitals",
 
+  // === INGESTED 2026-07-07 15:44 ===
+  the_interactions_between_neighbouring_atoms: "Described by spring-like interactions (representing chemical bonds ) and Van der Waals forces",
+  the_lennardjones_potential: "Commonly used to describe the latter",
+  the_electrostatic_interactions: "Computed based on Coulomb's law",
+  the_atomic_velocities: "Related to the temperature of the system, a macroscopic quantity",
+  methods_which_minimize_the_potential_energy: "Termed energy minimization methods (e.g",
+  lower_energy_states_are_more_stable_and: "Commonly investigated because of their role in chemical and biological processes",
+  the_force_on_an_atom: "Defined as the negative gradient of the potential energy function",
+  simulations_of_systems_in_vacuum: "Referred to as gas-phase simulations, while those that include the presence of solvent molecules are referred to as explicit solvent simulations",
+  most_force_fields: "Distance-dependent, making the most convenient expression for these Cartesian coordinates",
+
 };
 
 // ============================================================
