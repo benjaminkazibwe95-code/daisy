@@ -68757,6 +68757,11 @@ const FLAT_DICT = {
   the_tallest: { definition: "The Liaodi Pagoda built in 1055 in Hebei , towering 84 m (276 ft) in total height", what_it_does: "", examples: "the Song imperial tombs located in Gongxian, Henan" },
   the_inscriptions_on_stone_and_bronze: "Made at the time the events took place and can be trusted without reservation, and thus discrepancies may be discovered.' [ 239 ] Historian R.C",
 
+  // === INGESTED 2026-07-07 19:06 ===
+  a_catalogue: "Closely coupled with the DBMS software",
+  when_a_passive_data_dictionary: "Updated, it is done so manually and independently from any changes to a DBMS (database) structure",
+  it_is_part_of_the_data_dictionary_that: "Created when the Oracle Database is created",
+
 };
 
 // ============================================================
