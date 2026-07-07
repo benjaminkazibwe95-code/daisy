@@ -68624,6 +68624,10 @@ const FLAT_DICT = {
   plurality_rule: { definition: "Often contrasted with the two other major families of voting rules, the evaluative rules and the majority (or Condorcet) rules", what_it_does: "", examples: "the 60% filibuster rule to close debate in the US Senate" },
   another_possible_way_to_prevent_tyranny: "To elevate certain rights as inalienable",
 
+  // === INGESTED 2026-07-07 18:38 ===
+  strachey: "A passenger aboard the flagship Sea Venture with the leaders of the expedition when the ship was blown off course by a hurricane",
+  after_the_dissolution_of_the_company_it: "Published in 1625 by Samuel Purchas as 'A true reportory of the wracke, and redemption of Sir THOMAS GATES Knight'",
+
 };
 
 // ============================================================
