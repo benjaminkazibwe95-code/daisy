@@ -67639,6 +67639,13 @@ const FLAT_DICT = {
   at_that_time_it: "The only Catholic school in a group of elite, mainly secular or Protestant Christian, private boys' schools which often played against one another",
   the_annual_matchup: "Known locally as the ' Battle of the Saints ' or 'Joe–Pete'",
 
+  // === INGESTED 2026-07-07 01:56 ===
+  most_universities: "Charities and HEFCE (rather than the Charity Commission for England and Wales ) was their principal regulator",
+  leadership_for_these_key_strategic_areas: "Shared between the Chief Executive and directors",
+  the_chief_executive_of_hefce: "Professor Madeleine Atkins (since 1 January 2014), previously Vice-Chancellor of the University of Coventry",
+  hefce: "The legal 'principal regulator' for the many UK universities and colleges who are classed as exempt charities",
+  hefce_monitored_whether_these_bodies: { definition: "Carrying out the duty effectively, and reports findings back to providers and the Government on a regular basis", what_it_does: "", examples: "HEFCE) and institutional subscriptions" },
+
 };
 
 // ============================================================
