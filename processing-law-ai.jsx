@@ -68386,6 +68386,15 @@ const FLAT_DICT = {
   foremost: "Na 3 AlF 6 , cryolite , and AlF 3 , aluminium trifluoride",
   in_a_similar_manner_it: "Used to etch glass by treatment with silicon dioxide to form gaseous or water-soluble silicon fluorides",
 
+  // === INGESTED 2026-07-07 16:54 ===
+  glycine: "A required co-agonist along with glutamate for NMDA receptors",
+  the_predominant_pathway_in_animals_and_plants: "The reverse of the glycine synthase pathway mentioned above",
+  serine: "Then converted to pyruvate by serine dehydratase",
+  glyoxylate: "Then oxidized by hepatic lactate dehydrogenase to oxalate in an NAD + -dependent reaction",
+  when_glycine_receptors: "Activated, chloride enters the neuron via ionotropic receptors, causing an inhibitory postsynaptic potential (IPSP)",
+  strychnine: "A strong antagonist at ionotropic glycine receptors, whereas bicuculline is a weak one",
+  if_purity_greater_than_the_usp_standard: { definition: "Needed, for example for intravenous injections, a more expensive pharmaceutical grade glycine can be used", what_it_does: "", examples: "as an agent in metal complexing and finishing" },
+
 };
 
 // ============================================================
