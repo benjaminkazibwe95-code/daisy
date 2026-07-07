@@ -68169,6 +68169,10 @@ const FLAT_DICT = {
   technically_this: "Any bract that arises on a pedicel instead of subtending it",
   each_individual_segment_of_the_epicalyx: { definition: "Called an episepal because they resemble the sepals in them", what_it_does: "", examples: "palms , arums , irises , [ 10 ] crocuses [ 11 ] and dayflowers ( Commelina )" },
 
+  // === INGESTED 2026-07-07 03:47 ===
+  the_palea: "The uppermost of the two chaff-like bracts that enclose the grass floret (the other being the lemma )",
+  the_perianth_interpretation_of_the_palea: "Supported by the expression of MADS-box genes in this organ during development, as is the case in sepals of eudicot plants",
+
 };
 
 // ============================================================
