@@ -68109,6 +68109,21 @@ const FLAT_DICT = {
   further_he_claimed_that_slope_decline: "A special case of slope development seen only in very weak rocks that could not maintain a scarp",
   for_more_steep_slopes_it: "Not possible to infer sediment fluxes",
 
+  // === INGESTED 2026-07-07 03:34 ===
+  most_species_of_moth: { definition: "Nocturnal , although there are also crepuscular and diurnal species", what_it_does: "", examples: "Eupithecia orichloris are carnivorous insectivores" },
+  when_metamorphosis: "Complete, the pupal skin splits, the adult insect climbs out and slowly expands its wings to dry and harden, before flying off",
+  moths: "Commonly thought to eat clothes and fabrics, however it is only their larvae, caterpillars, which may consume natural fibres",
+  moth_antennae: "Usually feathery with no ball on the end",
+  the_divisions: { definition: "Named by this principle: 'club-antennae' (Rhopalocera) or 'varied-antennae' (Heterocera)", what_it_does: "", examples: "the Cinnabar moth" },
+  the_outer_shell_of_the_pupa: "Sclerotised, and usually shiny and smooth",
+  usually_emergence: "Specific to a certain time of the day, in night flying moths late afternoon, in day flying early morning",
+  moth_wings: { definition: "Made of small overlapping scales", what_it_does: "", examples: "plant sap or water, and in many species is used to feed on flower nectar" },
+  both_types_of_lepidoptera: "Thought to have co-evolved with flowering plants , mainly because most modern species, both as adults and larvae, feed on flowering plants",
+  one_of_the_earliest_known_species_that: "Thought to be an ancestor of moths is Archaeolepis mane",
+  its_fossil_fragments_show_scaled_wings_that: "Similar to caddisflies in their veining",
+  moths_also: { definition: "Eaten by some species of lizards , amphibians , cats , dogs , rodents , and some bears", what_it_does: "", examples: "species that bees do not visit" },
+  another_saturniid_used_as_food: "The cavorting emperor ( Usta terpsichore )",
+
 };
 
 // ============================================================
