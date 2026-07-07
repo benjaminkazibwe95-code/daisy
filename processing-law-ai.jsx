@@ -67706,6 +67706,10 @@ const FLAT_DICT = {
   the_vicechancellor: "Supported by the Deputy Vice-Chancellor, three Pro Vice-Chancellors, and the Provost for Student Experience, Colleges and the Library",
   programmes_offered_in_leipzig: { definition: "Equivalent to their counterparts in Lancaster, and students receive their degree from Lancaster University upon graduation", what_it_does: "", examples: "13th for the percentage of world-leading research" },
 
+  // === INGESTED 2026-07-07 02:07 ===
+  a_collegiate_institute: "An institution that provides either secondary or post-secondary education , dependent on where the term is used",
+  the_parallel_school_system: { definition: "Not extended to the separate school systems in Ontario", what_it_does: "", examples: "Greek and Latin, for university -bound students" },
+
 };
 
 // ============================================================
