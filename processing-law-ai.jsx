@@ -68213,6 +68213,27 @@ const FLAT_DICT = {
   many_compounds: { definition: "Also known by their more common, simpler names, many of which predate the systematic name", what_it_does: "", examples: "the long-known sugar glucose is now systematically named 6-(hydroxymethyl)oxane-2,3,4,5-tetrol" },
   this_information_is_compiled_as_a_database_and: "Popularly known as the Chemical substances index",
 
+  // === INGESTED 2026-07-07 04:00 ===
+  copper_compounds: "Used as bacteriostatic agents , fungicides , and wood preservatives",
+  several_sites_in_the_state_of_arizona: { definition: "Considered prime candidates for this method", what_it_does: "", examples: "cobalt and nickel" },
+  common_ores: "The sulfides chalcopyrite (CuFeS 2 ), bornite (Cu 5 FeS 4 ) and, to a lesser extent, covellite (CuS) and chalcocite (Cu 2 S)",
+  concentration_of_the_ore: "Required, which begins with comminution followed by froth flotation",
+  the_beneficiation_process_for_oxides: "Extraction with sulfuric acid solutions followed by electrolysis",
+  a_variety_of_methods: "Used including leaching with sulfuric acid, ammonia, ferric chloride",
+  highpurity_scrap_copper: { definition: "Melted in a furnace and then reduced and cast into billets and ingots", what_it_does: "", examples: "potentially toxic dust and heavy metal contamination near sites where it is refined" },
+  brass: "An alloy of copper and zinc",
+  bronze_usually: "Copper– tin alloys, but can refer to any alloy of copper such as aluminium bronze",
+  numerous_copper_sulfides: { definition: "Known, [ 77 ] being mainly of interest as ores", what_it_does: "", examples: "copper salts are used to test for reducing sugars" },
+  the_copper_atoms: { definition: "Alternatively reduced and oxidized during the electron transfer to oxygen", what_it_does: "", examples: "the horseshoe crab ( Limulus polyphemus )" },
+  structurally_related_to_hemocyanin: { definition: "The laccases and tyrosinases", what_it_does: "", examples: "the 'blue copper proteins', do not interact directly with substrates; hence they are not enzymes" },
+  ceruloplasmin_also_carries_the_copper_that: "Excreted in milk, and is particularly well-absorbed as a copper source",
+  no_retention_of_copper: "Expected to occur at the 5 mg/day level",
+  the_studies_suggest_the_issue: "An age-related breakdown of internal regulation mechanism rather than an exposure toxicity",
+  copper_plating_and_copper_sheathing: "Widely used to protect the under-water hulls of ships, a technique pioneered by the British Admiralty in the 18th century",
+  roughly_half_of_all_copper_mined: { definition: "Used for electrical wire and cable conductors", what_it_does: "", examples: "the Airbus A380 uses aluminum wire in place of copper wire for electrical power transmission" },
+  the_final_patina: { definition: "A particularly durable layer that is highly resistant to atmospheric corrosion, thereby protecting the underlying metal against further weathering", what_it_does: "", examples: "sulfur-containing acid rain" },
+  copper_doorknobs: "Used by hospitals to minimize the transfer of disease, and Legionnaires' disease is suppressed by copper tubing in plumbing systems",
+
 };
 
 // ============================================================
