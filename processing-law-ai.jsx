@@ -68354,6 +68354,30 @@ const FLAT_DICT = {
   this_flame: "Attained when welders, as they slowly open the oxygen valve on the torch body, first see only two flame zones",
   the_two_parts_of_this_flame: "The light blue inner cone and the darker blue to colorless outer cone",
 
+  // === INGESTED 2026-07-07 16:43 ===
+  a_cell_wall: "A structural layer that surrounds some cell types , found immediately outside the cell membrane",
+  cell_walls: { definition: "Found in most prokaryotes , with the exception of mollicute bacteria", what_it_does: "", examples: "lignin , suberin or cutin are anchored to or embedded in plant cell walls" },
+  the_mode_of_formation_of_the_cell_wall: "Controversial in the 19th century",
+  the_apparent_rigidity_of_primary_plant_tissues: "Enabled by cell walls, but is not due to the walls' stiffness",
+  the_flexibility_of_the_cell_walls: "Seen when plants wilt, so that the stems and leaves begin to droop, or in seaweeds that bend in water currents",
+  such_a_basket: "Very rigid and resistant to mechanical damage",
+  this_inflation: { definition: "A result of the passive uptake of water", what_it_does: "", examples: "the Csl (cellulose synthase-like) family of proteins and additional Ces proteins" },
+  proteins_embedded_in_cell_walls: "Variable, contained in tandem repeats subject to homologous recombination",
+  the_primary_cell_wall_of_most_plant_cells: "Freely permeable to small molecules including small proteins , with size exclusion estimated to be 30–60 kDa",
+  each_class_of_glycoprotein: "Defined by a characteristic, highly repetitive protein sequence",
+  both_cutin_and_suberin: "Polyesters that function as permeability barriers to the movement of water",
+  the_middle_lamella: "Laid down first, formed from the cell plate during cytokinesis , and the primary cell wall is then deposited inside the middle lamella",
+  cell_to_cell_communication: "Possible through pits in the secondary cell wall that allow plasmodesmata to connect cells through the secondary cell walls",
+  the_fungal_cell_wall: { definition: "A matrix of three main components: [ 14 ] Like plants, algae have cell walls", what_it_does: "", examples: "cellulose (a glucan )) or a variety of glycoproteins ( Volvocales ) or both" },
+  the_dictyostelids: "Another group formerly classified among the fungi",
+  the_cell_wall: "Essential to the survival of many bacteria, although L-form bacteria can be produced in the laboratory that lack a cell wall",
+  one_type_of_archaeal_cell_wall: "That composed of pseudopeptidoglycan (also called pseudomurein )",
+  this_type_of_wall: "Found in some methanogens , such as Methanobacterium and Methanothermus",
+  this_type_of_cell_wall: "Composed entirely of a thick layer of polysaccharides , which may be sulfated in the case of Halococcus",
+  the_result_is_an_unstable_structure_that: "Stabilized by the presence of large quantities of positive sodium ions that neutralize the charge",
+  slayers: "Common in bacteria, where they serve as either the sole cell-wall component or an outer layer in conjunction with polysaccharides",
+  most_archaea: "Gram-negative, though at least one Gram-positive member is known",
+
 };
 
 // ============================================================
