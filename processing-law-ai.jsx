@@ -67675,6 +67675,13 @@ const FLAT_DICT = {
   juxtaposition_global_health_magazine: "Another peer-reviewed student publication at the university",
   health_professions: { definition: "13.0 per cent, education 5.1 per cent, and fine arts was 2.4 per cent", what_it_does: "", examples: "the inaugural championships for all three trophies" },
 
+  // === INGESTED 2026-07-07 02:03 ===
+  the_university_of_roehampton: "The first university in the UK to offer e-sports scholarships",
+  its_first_rector: "Kevin Keohane , the former professor of science education at Chelsea College of Science and Technology",
+  roehampton: "Ranked highly in London in these subject areas",
+  the_centre: "Named after Mary Seacole, a British-Jamaican nurse known for her role in supporting British soldiers during the Crimean War",
+  growhampton: "A sustainability project focused on food education and urban agriculture",
+
 };
 
 // ============================================================
