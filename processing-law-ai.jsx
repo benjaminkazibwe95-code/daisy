@@ -67540,6 +67540,10 @@ const FLAT_DICT = {
   a_variance_swap: { definition: "An over-the-counter financial derivative that allows one to speculate on or hedge risks associated with the magnitude of movement, i.e", what_it_does: "", examples: "suppose that there are n + 1 {\displaystyle n+1} observed prices S t 0 , S t 1 ," },
   the_advantage_of_variance_swaps: "That they provide pure exposure to the volatility of the underlying price, as opposed to call and put options which may carry directional risk (delta)",
 
+  // === INGESTED 2026-07-07 01:30 ===
+  fuel_price_risk_management_services: "Predominantly provided by specialist teams within fuel management companies, oil companies, financial institutions, utilities and trading companies",
+  as_less_fuel: "Consumed, a smaller cost component is susceptible to fluctuations in fuel prices",
+
 };
 
 // ============================================================
