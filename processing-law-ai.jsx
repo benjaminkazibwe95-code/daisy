@@ -67965,6 +67965,16 @@ const FLAT_DICT = {
   the_first_internal_sign: { definition: "Usually a greenish discoloration on the undersurface of the liver", what_it_does: "", examples: "the crevices formed by the eyelids and nostrils" },
   the_most_common_reasons_to_preserve_the_body: { definition: "For viewing purposes at a funeral, for above-ground interment or distant transportation of the deceased, and for medical or religious practices", what_it_does: "", examples: "humidity, sun exposure, rain or snow, altitude level and more" },
 
+  // === INGESTED 2026-07-07 02:57 ===
+  hydroperoxides_or_peroxols: "Compounds of the form ROOH, where R stands for any group, typically organic , which contain the hydroperoxy functional group ( −OOH )",
+  hydroperoxide_also: "The hydroperoxide anion ( − OOH ) and its salts , and the neutral hydroperoxyl radical (•OOH) consist of an unbound hydroperoxy group",
+  when_r: "Organic, the compounds are called organic hydroperoxides",
+  the_range: { definition: "Indicated by 11.5 for CH 3 OOH to 13.1 for Ph 3 COOH", what_it_does: "", examples: "sodium ethoxide" },
+  autoxidation: { definition: "A radical reaction that begins with the abstraction of an H atom from a relatively weak C-H bond", what_it_does: "", examples: "diethyl ether , diisopropyl ether , tetrahydrofuran , and 1,4-dioxane" },
+  an_illustrative_product: "Diethyl ether peroxide",
+  distillation_of_thf_to_dryness: "Avoided because the explosive peroxides concentrate in the residue",
+  the_biosynthesis_of_these_species: { definition: "Affected extensively by enzymes", what_it_does: "", examples: "β-hydroxy or highly oxygenated RO₂) still lack good laboratory data on rates and products" },
+
 };
 
 // ============================================================
