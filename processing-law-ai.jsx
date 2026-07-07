@@ -68258,6 +68258,18 @@ const FLAT_DICT = {
   simulations_of_systems_in_vacuum: "Referred to as gas-phase simulations, while those that include the presence of solvent molecules are referred to as explicit solvent simulations",
   most_force_fields: "Distance-dependent, making the most convenient expression for these Cartesian coordinates",
 
+  // === INGESTED 2026-07-07 15:48 ===
+  a_helium_dimer: "A molecule composed of two helium atoms",
+  one_type_of_helium_dimer: "A van der Waals molecule with formula He 2 consisting of two helium atoms",
+  the_bond_that_holds_this_dimer_together: "So weak that it will break if the molecule rotates, or vibrates too much",
+  another_type_of_helium_dimer: "Two excited helium atoms bonded to each other",
+  the_binding_energy: "Only about 1.3 mK, 10 −7 eV [ 6 ] [ 7 ] [ 8 ] or 1.1×10 −5 kcal/mol",
+  other_strong_band_heads: "At 6400 (red), 4649, 4626, 4546, 4157.8, 3777, 3677, 3665, 3356.5, and 3348.5 Å",
+  when_pressure: "Increased to 24 atmospheres the bubble radius shrinks to 10.8 Å",
+  a_second_use_of_dihelium_ion: "In ambient ionization techniques using low temperature plasma",
+  in_this_helium_atoms: { definition: "Excited, and then combine to yield the dihelium ion", what_it_does: "", examples: "24 MgHe 2 and 40 CaHe 2" },
+  the_larger_cavities: "More likely to hold more atoms",
+
 };
 
 // ============================================================
