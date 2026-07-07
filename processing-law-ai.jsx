@@ -67438,6 +67438,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 00:55 ===
   something_ventured: "A 2011 documentary film investigating the emergence of American venture capitalism in the mid-20th century",
 
+  // === INGESTED 2026-07-07 00:57 ===
+  electronic_news: { definition: "A publication that covered the electronics industry , from semiconductor equipment and materials to military/aerospace electronics to supercomputers", what_it_does: "", examples: "semiconductors, computers, software, communications, space and television electronics" },
+  it_continued_online_until_it: "Later merged into EDN",
+
 };
 
 // ============================================================
