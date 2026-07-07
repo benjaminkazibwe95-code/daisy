@@ -67620,6 +67620,10 @@ const FLAT_DICT = {
   the_same_unit: "Also (rarely) called a permyriad , literally meaning 'for (every) myriad (ten thousand)'",
   a_permyriad: "Written with U+2031 ‱ PER TEN THOUSAND SIGN ( & pertenk; ) [ 7 ] [ 8 ] which looks like a percent sign % with three zeroes to the right of the slash",
 
+  // === INGESTED 2026-07-07 01:49 ===
+  what_differs: "That, as above, separate curves are constructed for payments and for discounting",
+  maturities_corresponding_to_input_instruments: { definition: "Referred to as 'pillar points'; often, these are solved directly, while other spot rates are interpolated", what_it_does: "", examples: "other 'market reference rates' (MRRs) such as SOFR and TONAR" },
+
 };
 
 // ============================================================
