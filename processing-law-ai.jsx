@@ -68066,6 +68066,37 @@ const FLAT_DICT = {
   lime_extracts_and_essential_oils: "Used in perfume , cleaning products , and aromatherapy",
   raw_limes: { definition: "88% water, 10% carbohydrates , contain less than 1% fat and protein , and provide 35% of the Daily Value of vitamin C per 100 g serving", what_it_does: "", examples: "polyphenols and terpenes" },
 
+  // === INGESTED 2026-07-07 03:23 ===
+  various_types: { definition: "Used as condiments or garnishes , including balsamic vinegar and malt vinegar", what_it_does: "", examples: "functioning as a household cleaner" },
+  its_uses: "Then spread to neighboring lands, evident as traces of it also have been found in Egyptian urns",
+  most_vinegarmaking_then: { definition: "Concentrated in what is now Shanxi province near the city of Taiyuan , which remains a famous vinegar-making region today", what_it_does: "also facilitated the rise of vinegar made from pure alcohol called spirit vinegar or distilled white vinegar", examples: "rapid industrialization and scientific analysis" },
+  the_source_materials_for_making_vinegar: "Varied – different fruits, grains, alcoholic beverages , and other fermentable materials are used",
+  apple_cider_vinegar: "Made from cider or apple must , and has a brownish-gold color",
+  a_byproduct_of_commercial_kiwifruit_growing: "A large amount of waste in the form of misshapen or otherwise-rejected fruit (which may constitute up to 30% of the crop) and kiwifruit pomace",
+  one_of_the_uses_for_pomace: "The production of kiwifruit vinegar, produced commercially in New Zealand since at least the early 1990s, and in China in 2008",
+  vinegar_made_from_dates: "A traditional product of the Middle East , and used in Eastern Arabia",
+  two_of_the_most_widely_produced: "Nipa palm vinegar ( sukang nipa or sukang sasa ) and kaong palm vinegar ( sukang kaong or sukang irok )",
+  balsamic_vinegar: "Made from a grape product",
+  a_high_acidity_level: "Somewhat hidden by the sweetness of the other ingredients, making it mellow",
+  cane_vinegars_from_ilocos: "Made in two different ways",
+  lowquality_basi: "Then allowed to undergo acetic acid fermentation that converts alcohol into acetic acid",
+  cane_vinegar: "Also produced in other countries, like France and the United States",
+  the_cane_juice: "Converted to vinegar having a blackish color (from ferrous oxide and acetate)",
+  the_sirka: "Used to preserve pickles and for flavoring curries",
+  then_an_ale: "Brewed from the maltose and allowed to turn into vinegar, which is then aged",
+  the_recipe: "Not fixed, so some Chinese black vinegars may contain added sugar , spices, or caramel color",
+  rice_vinegar: "Most popular in the cuisines of East and Southeast Asia",
+  red_rice_vinegar_traditionally: "Colored with red yeast rice",
+  some_varieties_of_rice_vinegar: "Sweetened or otherwise seasoned with spices or other added flavorings",
+  the_first_fermentation: "Sugar to alcohol, and the second is alcohol to acetic acid",
+  wine_vinegar: "Made from red or white wine, and is the most commonly used vinegar in Southern and Central Europe , Cyprus , and Israel",
+  betterquality_wine_vinegars: { definition: "Matured in wood for up to two years, and exhibit a complex, mellow flavor", what_it_does: "", examples: "champagne, sherry, or pinot gris" },
+  rape_vinegar: { definition: "The historic name for wine vinegar made from the pomace of the grapes (the rape )", what_it_does: "", examples: "a note of wood, ideal for vinaigrettes and flavoring various foods" },
+  the_fermentate: "Diluted to produce a colorless solution of 5 to 8% acetic acid in water, with a pH of about 2.6",
+  the_ancient_greek_drink_oxymel: { definition: "Made from vinegar and honey, and sekanjabin is a traditional Persian drink similar to oxymel", what_it_does: "", examples: "soft drinks" },
+  malt_vinegar_sprinkled_onto_crumpled_newspaper: { definition: "A traditional, and still-popular, method of cleaning grease-smeared windows and mirrors in the United Kingdom", what_it_does: "", examples: "food stains and bloodstains" },
+  twenty_percent_acetic_acid: { definition: "Commonly sold for this purpose", what_it_does: "", examples: "the government of Canada limits acetic to between 4.1% and 12" },
+
 };
 
 // ============================================================
