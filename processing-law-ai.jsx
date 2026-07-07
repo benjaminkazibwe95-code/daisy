@@ -68276,6 +68276,10 @@ const FLAT_DICT = {
   pauling_and_his_wife_ava: "Then issued a 'limited passport' to attend the conference",
   he_decided_it: { definition: "Safest to stay there, and meanwhile he was reported missing", what_it_does: "", examples: "digitized versions of Pauling's forty-six research notebooks" },
 
+  // === INGESTED 2026-07-07 15:59 ===
+  a_heteronuclear_molecule: { definition: "A molecule composed of atoms of more than one chemical element", what_it_does: "", examples: "the carbonate ion ( CO 2− 3 ) is heteronuclear because it has atoms of carbon (C) and oxygen (O)" },
+  the_lightest_heteronuclear_ion: { definition: "The helium hydride ion (HeH + )", what_it_does: "", examples: "the dihydrogen cation , or atomic ions that only contain one atom such as the hydrogen anion (H − )" },
+
 };
 
 // ============================================================
