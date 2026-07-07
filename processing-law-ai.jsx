@@ -68436,6 +68436,13 @@ const FLAT_DICT = {
   since_the_boundary_of_a_set: "Closed, ∂ ∂ S = ∂ ∂ ∂ S {\displaystyle \partial \partial S=\partial \partial \partial S} for any set S",
   the_explanation_for_the_apparent_incongruity: "That the topological boundary (the subject of this article) is a slightly different concept from the boundary of a manifold or of a simplicial complex",
 
+  // === INGESTED 2026-07-07 17:09 ===
+  variations_in_the_motions_of_the_planets: "Explained by smaller circular paths overlaid on the larger path (see epicycle )",
+  this_form_of_the_equation: "Particularly useful when dealing with parabolic trajectories, for which the semi-major axis is infinite",
+  the_orbits_of_all_planets: "To high accuracy Kepler orbits around the Sun",
+  the_small_deviations: "Due to the much weaker gravitational attractions between the planets, and in the case of Mercury , due to general relativity",
+  for_the_ellipse_there: { definition: "Also an apocentre for which the distance to the focus takes the maximal value p 1 − e", what_it_does: "", examples: "the programming language FORTRAN can be used" },
+
 };
 
 // ============================================================
