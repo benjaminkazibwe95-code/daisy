@@ -67505,6 +67505,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 01:15 ===
   wilson: "A member of the comedic acting brotherhood colloquially known as the Frat Pack",
 
+  // === INGESTED 2026-07-07 01:17 ===
+  llcs: "Known for the flexibility that they provide to business owners",
+  an_llc: "A type of unincorporated association , distinct from a corporation",
+  internal_operations_of_an_llc: "Governed by its operating agreement",
+  an_owner_of_an_llc: "Called a member rather than a shareholder",
+  federal_income_tax_law: { definition: "Governed by the Kintner regulations, which were named after the prevailing taxpayer [ 11 ] in the 1954 legal precedent of that name", what_it_does: "", examples: "the case of Sturm v" },
+  this_is_because_the_company_and_the_owner: { definition: "Legally separate entities that are not responsible for each other's obligations", what_it_does: "", examples: "limited liability for their investors" },
+  a_series_llc: "A special form of a limited liability company that allows a single LLC to segregate its assets into separate series",
+  an_anonymous_limited_liability_company: "An LLC for which ownership information is not made publicly available by the state",
+
 };
 
 // ============================================================
