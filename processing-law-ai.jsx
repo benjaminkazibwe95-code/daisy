@@ -68308,6 +68308,9 @@ const FLAT_DICT = {
   the_reaction_of_hbr_with_substituted_alkenes: "Prototypical in the study of free-radical additions",
   the_radical_intermediate: "Stabilized by hyperconjugation",
 
+  // === INGESTED 2026-07-07 16:20 ===
+  in_some_cases_the_reaction_type: "Also called a retropinacol rearrangement (see pinacol rearrangement )",
+
 };
 
 // ============================================================
