@@ -67851,6 +67851,13 @@ const FLAT_DICT = {
   menon_said_the_reason: { definition: "Names of Hindu Gods beginning with these letters are not common", what_it_does: "", examples: "Christians" },
   ours: "A completely indigenous effort'",
 
+  // === INGESTED 2026-07-07 02:37 ===
+  where_this_is_not_the_case_or_the_meaning: "Not clear, a further resolution is provided",
+  a_further_distinction: "Also made based on whether the attributive is in the nominative or an oblique [ h ] case",
+  when_the_second_member: "An adjective, the qualification is adverbial",
+  the_resultant_compound_word: "In the dual or plural number and takes the gender of the final member in the compound construction",
+  the_resultant_bears_a_collective_sense_and: { definition: "Always singular and neutral", what_it_does: "", examples: "'possessing much rice' or 'much-riced'" },
+
 };
 
 // ============================================================
