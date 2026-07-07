@@ -67752,6 +67752,14 @@ const FLAT_DICT = {
   the_maharaja: { definition: "Eager to become Dayananda's disciple and to learn his teachings", what_it_does: "", examples: "Dayanand College at Ajmer" },
   dayananda_saraswati: { definition: "Most notable for influencing the freedom movement of India", what_it_does: "", examples: "Advaita Vedanta , Islam and Christianity )" },
 
+  // === INGESTED 2026-07-07 02:22 ===
+  thunderstorms: "Not uncommon during the monsoon",
+  gurgaon: "The first city in India to implement such a program, followed by New Delhi, and later Noida",
+  haryanvi_and_punjabi: "Other popular languages spoken in the city",
+  amity_united_fc: "A tenant of Tau Devi Lal Stadium",
+  gurgaon_district_has_nine_golf_courses_and: "Described as the 'heart of India's golfing country'",
+  maruti_suzuki_private_limited: { definition: "The first company that set up a manufacturing unit in the city in the 1970s, making cars", what_it_does: "", examples: "Gurugram University , Sushant University , NorthCap University , GD Goenka University , K.R" },
+
 };
 
 // ============================================================
