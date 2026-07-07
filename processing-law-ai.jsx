@@ -68010,6 +68010,15 @@ const FLAT_DICT = {
   most_oxidations: "Conducted with air or oxygen , especially in industry",
   some_commercially_important_oxidations: "Listed: Many reagents have been invented for organic oxidations",
 
+  // === INGESTED 2026-07-07 03:06 ===
+  its_young_leaves: "Used in Indian and Filipino cuisine",
+  the_leaflets: "Bright green, elliptic-ovular, pinnately veined, and less than 15 centimetres (6 inches) in length",
+  the_genome_size: { definition: "Approximately 809.5 Mb, assembled across 12 pseudochromosomes", what_it_does: "", examples: "magnesium and potassium at 22% and 21% DV, respectively (table)" },
+  the_pale_yellow_sapwood: "Sharply demarcated from the heartwood",
+  heartwood: "Said to be durable to very durable in decay resistance, and is also resistant to insects",
+  its_sapwood_is_not_durable_and: "Prone to attack by insects and fungi as well as spalting",
+  the_heartwood: "Able to take a high natural polish",
+
 };
 
 // ============================================================
