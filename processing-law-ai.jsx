@@ -67544,6 +67544,31 @@ const FLAT_DICT = {
   fuel_price_risk_management_services: "Predominantly provided by specialist teams within fuel management companies, oil companies, financial institutions, utilities and trading companies",
   as_less_fuel: "Consumed, a smaller cost component is susceptible to fluctuations in fuel prices",
 
+  // === INGESTED 2026-07-07 01:32 ===
+  short_selling: "Sometimes referred to as a 'negative income investment strategy' because there is no potential for dividend income or interest income",
+  when_the_seller_decides_that_the_time: "Right (or when the lender recalls the securities), the seller buys the same number of equivalent securities and returns them to the lender",
+  the_act_of_buying_back_the_securities_that: "Sold short is called covering the short , covering the position or simply covering",
+  because_the_price_of_a_share: "Theoretically unlimited, the potential losses of a short-seller are also theoretically unlimited",
+  in_most_market_conditions_there: "A ready supply of securities to be borrowed, held by pension funds, mutual funds and other investors",
+  brokers_have_a_variety_of: "To borrow stocks to facilitate locates and make good on delivery of the shorted security",
+  these_institutional_loans: "Usually arranged by the custodian who holds the securities for the institution",
+  the_cash_collateral: "Then invested by the lender, who often rebates part of the interest to the borrower",
+  the_interest_that_is_kept_by_the_lender: "The compensation to the lender for the stock loan",
+  speculators: "Cautioned to remember that for every share that has been shorted (owned by a new owner), a 'shadow owner' exists (i.e",
+  when_a_security: { definition: "Sold, the seller is contractually obliged to deliver it to the buyer", what_it_does: "", examples: "the US, the UK, Hong Kong, and Spain" },
+  borrow_cost: { definition: "The fee paid to a securities lender for borrowing the stock or other security", what_it_does: "", examples: "three days in the US" },
+  more_stringent_rules: "Put in place in September 2008, ostensibly to prevent the practice from exacerbating market declines",
+  the_short_seller: "Therefore said to be short the dividend",
+  short_futures_transactions: "Often used by producers of a commodity to fix the future price of goods they have not yet produced",
+  shorting_a_futures_contract: { definition: "Sometimes also used by those holding the underlying asset (i.e", what_it_does: "", examples: "shares of stock) at a fixed price which the strategy is known as long put" },
+  selling_short_on_the_currency_markets: "Different from selling short on the stock markets",
+  currencies: "Traded in pairs, each currency being priced in terms of another",
+  since_covering_their_positions: "Buying shares, the short squeeze causes an ever further rise in the stock's price, which in turn may trigger additional covering",
+  short_interest: "Defined as the total number of shares that have been legally sold short, but not covered",
+  the_purpose_of_this_technique: { definition: "To lock in paper profits on the long position without having to sell that position (and possibly incur taxes if said position has appreciated)", what_it_does: "", examples: "one can ensure a profit in this way, while delaying sale until the subsequent tax year" },
+  unless_certain_conditions: "Met, the IRS deems a 'short against the box' position to be a 'constructive sale' of the long position, which is a taxable event",
+  regulation_sho: "The SEC's first update to short selling restrictions since the uptick rule in 1938",
+
 };
 
 // ============================================================
