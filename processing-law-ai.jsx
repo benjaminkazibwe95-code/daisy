@@ -68395,6 +68395,14 @@ const FLAT_DICT = {
   strychnine: "A strong antagonist at ionotropic glycine receptors, whereas bicuculline is a weak one",
   if_purity_greater_than_the_usp_standard: { definition: "Needed, for example for intravenous injections, a more expensive pharmaceutical grade glycine can be used", what_it_does: "", examples: "as an agent in metal complexing and finishing" },
 
+  // === INGESTED 2026-07-07 16:56 ===
+  now_the_position_of_the_oxygen_atom: "On carbon atom number two, three or four",
+  the_locant: "Incorporated into the name of the molecule to remove ambiguity",
+  if_the_oxygen: "Bonded to the middle carbon, the locant is 3",
+  so_the_locant: "Either 2 or 3 in this molecule",
+  thus_the_molecule: { definition: "Named either pentan-2-one or pentan-3-one , depending on the position of the oxygen atom", what_it_does: "", examples: "a carbonyl" },
+  the_second_carbon_atom: { definition: "Called the β-carbon ( beta -carbon), the third is the γ-carbon ( gamma -carbon), and the naming system continues in alphabetical order", what_it_does: "", examples: "alkylated in the presence of primary haloalkane" },
+
 };
 
 // ============================================================
