@@ -67339,6 +67339,18 @@ const FLAT_DICT = {
   many_companies: { definition: "Being bought for their patents, licenses, market share, name brand, research staff, methods, customer base, or culture", what_it_does: "", examples: "Brexit and the potential reform from a U.S" },
   the_turnover_in_target_companies: "Double the turnover experienced in non-merged firms for the ten years after the merger",
 
+  // === INGESTED 2026-07-07 00:33 ===
+  corporations_not_allowed_to_issue_stock: "Referred to as non-stock corporations ; i.e",
+  corporations_chartered_in_regions_where_they: { definition: "Distinguished by whether they are allowed to be for-profit are referred to as for-profit and not-for-profit corporations, respectively", what_it_does: "", examples: "the City of London Corporation" },
+  early_guilds_and_livery_companies: "Also often involved in the regulation of competition between traders",
+  investors_in_the_voc: "Issued paper certificates as proof of share ownership, and were able to trade their shares on the original Amsterdam Stock Exchange",
+  insurance_companies: "Excluded from the act, though it was standard practice for insurance contracts to exclude action against individual members",
+  limited_liability_for_insurance_companies: { definition: "Allowed by the Companies Act 1862", what_it_does: "", examples: "the time of the decision in Salomon v A Salomon & Co Ltd" },
+  another_major_post_world_war_i_shift: "Toward the development of conglomerates , in which large corporations purchased smaller corporations to expand their industrial base",
+  what_these_requirements: { definition: "Depends on the kind of corporation involved", what_it_does: "", examples: "in Germany ), workers elect a fixed fraction of the corporation's board" },
+  registration: { definition: "The main prerequisite to the corporation's assumption of limited liability", what_it_does: "", examples: "meeting procedures and officer positions" },
+  corporate_names: { definition: "Supposed to be unique to the jurisdiction in which the corporation is registered", what_it_does: "", examples: "a corporation can own property, and can sue or be sued for as long as it exists" },
+
 };
 
 // ============================================================
