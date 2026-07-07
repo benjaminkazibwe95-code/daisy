@@ -67272,6 +67272,26 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 00:20 ===
   interest_expense: "Different from operating expense and CAPEX , for it relates to the capital structure of a company, and it is usually tax-deductible",
 
+  // === INGESTED 2026-07-07 00:23 ===
+  cashflow_insolvency: "A lack of liquidity to pay debts as they fall due",
+  once_a_loss: "Accepted by all parties, negotiation is often able to resolve the situation without bankruptcy",
+  a_company_that: "Balance-sheet insolvent may still have enough cash to pay its next bill on time",
+  balance_sheet_insolvency: { definition: "Having negative net assets —where liabilities exceed assets", what_it_does: "", examples: "keep and restructure, sale as a going concern, or wind-down and exit" },
+  the_recourse_for_the_creditor: "To request to be repaid at least some of what is owed",
+  secured_creditors_with_registered_charges: "Able to appoint Receivers and Receivers & Managers depending on their charge",
+  an_alternative_regime: { definition: "Available to larger companies (or affiliated groups) under the Companies' Creditors Arrangement Act , where total debts exceed CA$ 5 million", what_it_does: "", examples: "by implementing an 'insolvency plan' ( Insolvenzplan )" },
+  while_regular_insolvency_proceedings: "Led by a court-appointed insolvency administrator, 'debtor-in-possession' proceedings are common since the legislative changes in 2012",
+  those_who_claim_inability: "Temporary exempt from debt payment",
+  trading_insolvently: "Often regarded as normal business practice in South Africa, as long as the business is able to fulfill its debt obligations when they fall due",
+  turkish_insolvency_law: "Regulated by Enforcement and Bankruptcy Law (Code No: 2004, Original Name: İcra ve İflas Kanunu)",
+  the_main_concept_of_the_insolvency_law: "Very similar to Swiss and German insolvency laws",
+  enforcement_methods: "Realizing pledged property, seizure of assets and bankruptcy",
+  insolvency: "Defined both in terms of cash flow and in terms of balance sheet in the UK Insolvency Act 1986 , Section 123, which reads in part: 123",
+  a_company_which: "Insolvent may be put into liquidation (sometimes referred to as winding-up)",
+  the_rationale_behind_the_device: "That the swift sale of the business may be necessary or of benefit to enable a best price to be achieved",
+  if_the_sale: "Delayed, creditors would ultimately lose out because the price obtainable for the assets would be reduced",
+  in_individual_cases_the_bankruptcy_estate: { definition: "Dealt by an official receiver, appointed by the court", what_it_does: "", examples: "see Chapter 11, Title 11, United States Code" },
+
 };
 
 // ============================================================
