@@ -68200,6 +68200,19 @@ const FLAT_DICT = {
   the_medal: "Presented at Starmus VII in Bratislava, Slovakia, and was accepted on his behalf by Starmus co-founder Brian May",
   the_materpiscis_fossil: "Believed to be the earliest organism capable of internal fertilisation",
 
+  // === INGESTED 2026-07-07 03:54 ===
+  nonstoichiometric_compounds: "Another special case from inorganic chemistry , which violate the requirement for constant composition",
+  feldspars: { definition: "A common example: anorthoclase is an alkali aluminum silicate, where the alkali metal is interchangeably either sodium or potassium", what_it_does: "", examples: "basic copper carbonate" },
+  the_majority_of_elements: "Classified as metals",
+  a_chemical_compound: "A chemical substance that is composed of a particular set of atoms or ions",
+  all_compounds: "Substances, but not all substances are compounds",
+  compounds_in_which_components_share_electrons: "Known as covalent compounds",
+  coordination_complexes: "Distinct substances with distinct properties different from a simple mixture",
+  bulk_chemicals: "Usually much less complex",
+  an_alternative_system: "Used by the Chemical Abstracts Service (CAS)",
+  many_compounds: { definition: "Also known by their more common, simpler names, many of which predate the systematic name", what_it_does: "", examples: "the long-known sugar glucose is now systematically named 6-(hydroxymethyl)oxane-2,3,4,5-tetrol" },
+  this_information_is_compiled_as_a_database_and: "Popularly known as the Chemical substances index",
+
 };
 
 // ============================================================
