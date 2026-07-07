@@ -68729,6 +68729,15 @@ const FLAT_DICT = {
   some_of_these_games: "Developed by EA themselves, though some have been developed by third parties such as Krisalis Software and Bright Future GmbH",
   fifa_mobile: { definition: "The first mobile game of FIFA to use the new attack mode, live events, leagues, player plans, and program packs", what_it_does: "", examples: "shooting, passing, dribbling and goalkeeping" },
 
+  // === INGESTED 2026-07-07 19:00 ===
+  similar_foods: "Fasnachts and pączki",
+  thus_shrove_tuesday: { definition: "Named after the custom of Christians to be 'shriven' before the start of Lent", what_it_does: "", examples: "Pennsylvania Dutch Country , it is known as Fastnacht Day" },
+  malasadas: "Cooked in order to use up all the lard and sugar in the house, in preparation for Lenten restrictions",
+  fastelavn: { definition: "The name for Carnival in Denmark, held either on the Sunday or Monday before Ash Wednesday", what_it_does: "", examples: "marking a Lenten calendar , fasting, abstaining from luxuries, and reading a daily devotional" },
+  if_the_household: "Not forthcoming, they could expect levels of mischief, including the pelting of their house, knock and run, or gate stealing",
+  as_marriages: "Not traditionally permitted during the Lenten period, as decreed by the Council of Trent , weddings on Shrove Tuesday were popular",
+  the_night: "Also known as 'Skellig Night' in Counties Cork and Kerry , during the celebrations, those who were unmarried were taunted with jeers and singing",
+
 };
 
 // ============================================================
