@@ -67394,6 +67394,14 @@ const FLAT_DICT = {
   the_ultimate_owner: { definition: "Called the beneficial owner", what_it_does: "", examples: "brokerage firms clear the shares electronically through the National Securities Clearing Corp" },
   dealing_in_securities: "Regulated by both federal authorities (SEC) and state securities departments",
 
+  // === INGESTED 2026-07-07 00:40 ===
+  administrative_law_in_france: { definition: "Autorité administrative indépendante (AAI) or Independent Administrative Authorities", what_it_does: "", examples: "the FSB , FSO , and the GRU use Spetsnaz or other masked operators for any missions" },
+  the_government_agencies_in_sweden: "State controlled organizations who act independently to carry out the policies of the Government of Sweden",
+  the_ministries: "Relatively small and merely policy-making organizations, allowed to control agencies by policy decisions but not by direct orders",
+  each_state_government: "Similar to the national government, with all but one having a bicameral legislature",
+  although_the_heads_of_independent_agencies: { definition: "Often appointed by the government, they can usually be removed only for cause", what_it_does: "", examples: "a commission, board or council" },
+  most_federal_agencies: "Created by Congress through ' organic statutes ,' which define the scope of their authority",
+
 };
 
 // ============================================================
