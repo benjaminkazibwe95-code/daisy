@@ -68135,6 +68135,18 @@ const FLAT_DICT = {
   water_trickling_through_the_reedbed: "Cleaned by microorganisms living on the root system and in the litter",
   treatment_ponds: "Used for the water treatment of a single house or a small neighbourhood",
 
+  // === INGESTED 2026-07-07 03:40 ===
+  silage: { definition: "Usually made from grass crops including maize , rye , sorghum , or other cereals , using the entire green plant (not just the grain)", what_it_does: "", examples: "potatoes and various weeds , notably spurrey such as Spergula arvensis" },
+  ideally_the_crop: "Mowed when in full flower , and deposited in the silo on the day of its cutting",
+  when_the_silo: "Filled or the stack built, a layer of straw or some other dry porous substance may be spread over the surface",
+  the_grass_or_other_forage: "Cut and partly dried until it contains 30–40% moisture (much drier than bulk silage, but too damp to be stored as dry hay)",
+  haylage_sometimes: "High-dry-matter silage of around 40–60%, typically made from hay",
+  horse_haylage: "Usually 60–70% dry matter, made in small bales or larger bales",
+  how_closely_the_fodder: "Packed determines the nature of the resulting silage by regulating the chemical reactions that occur in the stack",
+  when_a_silo: { definition: "Filled, fine dust particles in the air can become explosive because of their large aggregate surface area", what_it_does: "produces 'silo gas' during the early stages of the fermentation process", examples: "" },
+  bulk_silage: "Commonly fed to dairy cattle , while baled silage tends to be used for beef cattle , sheep , and horses",
+  the_advantages_of_silage_as_animal_feed: { definition: "Several: Silage may be used for anaerobic digestion", what_it_does: "", examples: "fish guts (entrails), fish heads, and trimmings are used as ingredients in feed pellets" },
+
 };
 
 // ============================================================
