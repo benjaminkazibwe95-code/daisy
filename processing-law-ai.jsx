@@ -67682,6 +67682,30 @@ const FLAT_DICT = {
   the_centre: "Named after Mary Seacole, a British-Jamaican nurse known for her role in supporting British soldiers during the Crimean War",
   growhampton: "A sustainability project focused on food education and urban agriculture",
 
+  // === INGESTED 2026-07-07 02:05 ===
+  lancaster: "A residential collegiate university ; the colleges are weakly autonomous",
+  the_eight_undergraduate_colleges: { definition: "Named after places in the historic county of Lancashire, and each has its own campus residence blocks, common rooms, administrative staff and bars", what_it_does: "", examples: "the Prime Minister, Harold Wilson" },
+  each_year_presentations: "Made to up to five graduates of taught masters' courses and up to six to the highest-performing undergraduates",
+  many_new_students: "Housed in the nearby town of Morecambe",
+  the_grand_theatre: "Leased as a main lecture room and 112 and 114 in the St Leonard's Gate area became teaching and recreational rooms",
+  car_parking: "Arranged in cul-de-sacs running off the peripheral road",
+  the_campus_buildings: "Arranged around a central walkway known as 'The Spine'",
+  the_main_architect: "Gabriel Epstein of Shepheard and Epstein",
+  the_cars: "On the outside, on both sides",
+  when_you_came_into_the_spaces_things: "Square, they were rectangular courtyards and they were all slightly different",
+  on_the_west_side_of_the_square: "University House as well as various banks and shops",
+  to_the_southeast_of_the_square: "The tallest building on campus: the fourteen-storey Bowland Tower, which contains accommodation and disguises the boiler room chimney",
+  a_distinctive_feature_of_the_library: "The large tree that grows in the centre of the ground floor study area",
+  among_other_british_artists_whose_work: { definition: "Represented are Norman Adams , Patrick Caulfield , Elisabeth Frink , Kenneth Martin and Winifred Nicholson", what_it_does: "", examples: "Dürer , Miró , Ernst and Vasarely" },
+  lancaster_international_concert_series: "The main provider of classical music in north Lancashire and Cumbria",
+  concerts: "Held within the Great Hall",
+  all_members_of_the_university: "Members of a college, [ 39 ] although in recent years academic staff have had decreasing involvement",
+  the_majority_of_council_members: { definition: "'lay members'; neither staff nor students of the university", what_it_does: "", examples: "the curriculum and maintenance of standards" },
+  the_current_visitor_of_the_university: "Her successor, King Charles III",
+  student_complaints_and_appeals: "Heard by the visitor until the Higher Education Act 2004 came into force",
+  the_vicechancellor: "Supported by the Deputy Vice-Chancellor, three Pro Vice-Chancellors, and the Provost for Student Experience, Colleges and the Library",
+  programmes_offered_in_leipzig: { definition: "Equivalent to their counterparts in Lancaster, and students receive their degree from Lancaster University upon graduation", what_it_does: "", examples: "13th for the percentage of world-leading research" },
+
 };
 
 // ============================================================
