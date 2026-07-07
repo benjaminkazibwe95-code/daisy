@@ -68037,6 +68037,16 @@ const FLAT_DICT = {
   the_name_of_the_fruit: "Rooted in the bitterness of its taste, (Filipino: Ampait ) which means bitter",
   charantia_and_pavel: "The long-fruited varieties, whereas M",
 
+  // === INGESTED 2026-07-07 03:12 ===
+  a_true_lemon: "A hybrid of the citron and the bitter orange",
+  the_yellow_fruit_of_the_lemon_tree: "Used throughout the world, primarily for its juice",
+  the_pulp_and_rind: "Used in cooking and baking",
+  the_juice_of_the_lemon: { definition: "About 5–6% citric acid , giving it a sour taste", what_it_does: "", examples: "lemonade and lemon meringue pie" },
+  botanically_this: "A hesperidium , a modified berry with a tough, leathery rind",
+  the_rind: "Divided into an outer colored layer or zest , which is aromatic with essential oils , and an inner layer of white spongy pith",
+  the_space_inside_each_segment: { definition: "A locule filled with juice vesicles", what_it_does: "", examples: "polyphenols , terpenes , and tannins" },
+  lemon_juice_and_rind: { definition: "Used in a wide variety of foods and drinks, the juice for its sour taste, from its content of 5–6% citric acid", what_it_does: "", examples: "Limoncello" },
+
 };
 
 // ============================================================
