@@ -68515,6 +68515,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 17:33 ===
   seedinvest: "An equity crowdfunding platform that connects startups with investors online",
 
+  // === INGESTED 2026-07-07 17:37 ===
+  an_alternate_version_of_the_phone: { definition: "Also available with MIUI, the MI 5X", what_it_does: "", examples: "the Mi 10/10 Pro with 5G functionality" },
+  the_phones: "Powered by the Snapdragon 8 Gen 1 chipset",
+
 };
 
 // ============================================================
