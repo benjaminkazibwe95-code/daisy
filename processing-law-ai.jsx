@@ -68475,6 +68475,9 @@ const FLAT_DICT = {
   their_causes: { definition: "Not yet fully understood, but they are believed to arise from dynamic interactions within accretion disks", what_it_does: "", examples: "quasars and radio galaxies or within galaxy clusters" },
   relativistic_jets: { definition: "Beams of ionised matter accelerated close to the speed of light", what_it_does: "", examples: "relativistic beaming that changes the apparent beam brightness" },
 
+  // === INGESTED 2026-07-07 17:22 ===
+  the_book_also_gives_a_survey_of_what: { definition: "Then ongoing research on gravitational collapse and black holes", what_it_does: "", examples: "classical mechanics, quantum mechanics, statistical mechanics, and electromagnetism" },
+
 };
 
 // ============================================================
