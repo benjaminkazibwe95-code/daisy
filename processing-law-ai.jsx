@@ -67210,6 +67210,13 @@ const FLAT_DICT = {
   personal_debt: "On the rise, particularly in the United States and the United Kingdom",
   a_variant: "The consumer leverage ratio , which is the ratio of debt to personal income",
 
+  // === INGESTED 2026-07-07 00:09 ===
+  some_debt_prisoners: "Released to become serfs or indentured servants ( debt bondage ) until they paid off their debt in labor",
+  imprisonment_for_debt: "Also practised in Islam",
+  for_certain_sanctions_there: "Designated prisons, hence some towers being called debtors' prison ( Schuldturm )",
+  some_debtor_prisoners: "Even less fortunate, being sent to prisons with a mixture of vicious criminals and petty criminals, and many more were confined to a single cell",
+  debtors_who_had_the: "To pay their debt, but did not do so, could still be incarcerated for up to six weeks, as could those who defaulted on debts to the court",
+
 };
 
 // ============================================================
