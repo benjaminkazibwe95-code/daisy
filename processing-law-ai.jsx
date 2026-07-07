@@ -67760,6 +67760,15 @@ const FLAT_DICT = {
   gurgaon_district_has_nine_golf_courses_and: "Described as the 'heart of India's golfing country'",
   maruti_suzuki_private_limited: { definition: "The first company that set up a manufacturing unit in the city in the 1970s, making cars", what_it_does: "", examples: "Gurugram University , Sushant University , NorthCap University , GD Goenka University , K.R" },
 
+  // === INGESTED 2026-07-07 02:24 ===
+  drona: "Also notably silent during Draupadi 's disrobing as he was afraid of antagonizing the Kauravas",
+  his_friends: "Drinking milk and he wanted to drink it too",
+  the_kuru_princes: "Amazed by the trick and looked for the archer when they saw Ekalavya, who introduced himself as a pupil of Drona's",
+  the_trigartas: "Distracting Arjuna and Krishna into another part of the battlefield, allowing the main Kaurava army to surge through the Pandava ranks",
+  their_combat: "Described as fierce and despite being able to hold off Drona for several hours, Satyaki eventually tires and has to be rescued by the Upapandavas",
+  sensing_his_end: { definition: "Near, he used the Brahmastra against the common Pandava soldiers", what_it_does: "", examples: "Virata in arrow-play and Drupada in a sword fight" },
+  divine_weapons: "Used against ordinary soldiers, war continued throughout the night, warriors no longer engaged each other one-on-one, etc",
+
 };
 
 // ============================================================
