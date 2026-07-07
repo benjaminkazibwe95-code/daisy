@@ -68784,6 +68784,17 @@ const FLAT_DICT = {
   partition_type_ids: "Well-known numbers, usually assigned by operating-system or hardware vendors",
   uefi_and_acpi: "Examples that use GUID",
 
+  // === INGESTED 2026-07-07 19:13 ===
+  a_name_server: "A computer application that implements a network service for providing responses to queries against a directory service",
+  an_example_of_a_name_server: "The server component of the Domain Name System (DNS), the core namespaces of the Internet",
+  name_servers: "Usually either authoritative or recursive , as described below",
+  a_primary_server_for_a_zone: "The server that stores the definitive versions of all records in that zone",
+  the_contents_of_a_zone: "Either manually configured by an administrator, or managed using Dynamic DNS",
+  if_the_server_for_a_zone: "Not also authoritative for its parent zone, the server for the parent zone must be configured with a delegation for the zone",
+  name_servers_providing_answers_for_which_they: "Not authoritative (for example, name servers for parent zones or recursive resolvers) do not set the AA bit",
+  a_server_providing_recursive_queries: "Known as a recursive name server",
+  caching_name_servers: "Often also recursive name servers—they perform every step necessary to answer any DNS query they receive",
+
 };
 
 // ============================================================
