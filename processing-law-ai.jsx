@@ -67269,6 +67269,9 @@ const FLAT_DICT = {
   the_amount_loaned_or_the_loan_agreement: "Often referred to as a student loan",
   only_mortgage_debt: "Greater than student loan debt in the United States",
 
+  // === INGESTED 2026-07-07 00:20 ===
+  interest_expense: "Different from operating expense and CAPEX , for it relates to the capital structure of a company, and it is usually tax-deductible",
+
 };
 
 // ============================================================
