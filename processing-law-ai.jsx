@@ -67984,6 +67984,25 @@ const FLAT_DICT = {
   some_formate_esters: "Artificial flavorings and perfumes",
   the_concentrated_acid: "Corrosive to the skin",
 
+  // === INGESTED 2026-07-07 03:01 ===
+  the_nutritional_content_of_vitamin_e: { definition: "Defined by equivalency to 100% RRR-configuration α-tocopherol activity", what_it_does: "", examples: "ascorbate , retinol or ubiquinol" },
+  tocotrienols_extracted_from_plants: { definition: "Always dextrorotatory stereoisomers, signified as d-tocotrienols", what_it_does: "", examples: "decreased risk of age-associated cognitive impairment, heart disease and cancer" },
+  the_thusgenerated_tocopheryl_radical: "Recycled to tocopherol by a redox reaction with a hydrogen donor, such as vitamin C",
+  the_side_chain: "Attached (saturated for tocopherols , polyunsaturated for tocotrienols )",
+  the_pathway_for_both: { definition: "The same, so that gamma- is created and from that alpha-, or delta- is created and from that the beta- compounds", what_it_does: "", examples: "drought or elevated temperature increase α-tocopherol and γ-tocopherol content of the nuts" },
+  the_synthesis_of_the_specific_tail: "Dependent on which molecule it originates from",
+  the_reaction_mixture_obtained: "Filtered and extracted with aqueous caustic soda",
+  toluene: "Removed by evaporation and the residue (all rac-alpha-tocopherol) is purified by vacuum distillation",
+  hemorrhagic_effects_in_rats: "Selected as the critical endpoint to calculate the upper limit via starting with the lowest-observed-adverse-effect-level",
+  ais_and_uls: "Defined the same as in the United States",
+  it_identified_that_no_adverse_effects: { definition: "Observed in a human trial as 540 mg/day, used an uncertainty factor of 2 to derive an upper limit of half of that, then rounded to 300 mg/day", what_it_does: "", examples: "ready-to-eat cereals, infant formulas, and liquid nutrition products" },
+  gammatocopherol_and_tocotrienol_supplements: "Also available from dietary supplement companies",
+  bile: "Necessary for chylomicron formation, so disease conditions such as cystic fibrosis result in biliary insufficiency and vitamin E malabsorption",
+  tocotrienols: "Also a poor fit because the double bonds in the phytic tail create a rigid configuration that is a mismatch with the α-TTP pocket",
+  rats_fed_on_a_scheduled_diet_of_vitamin_e: "Sacrificed daily, and their tissues were fed to sterile rats raised on the vitamin E-free diet",
+  it_was_also_established_that_vitamin_e: "Transferred intrauterinely from mother to pup, because sacrificed newborn pups can restore fertility",
+  evidence_for_vascular_health: { definition: "Characterized as unconvincing", what_it_does: "", examples: "nonfatal stroke or myocardial infarction, or cardiovascular mortality" },
+
 };
 
 // ============================================================
