@@ -68597,6 +68597,10 @@ const FLAT_DICT = {
   emotionfocused_coping: "Releasing negative emotions by ways like distracting or disclaiming",
   adaptive_performance: { definition: "A mixture of different coping strategies", what_it_does: "", examples: "active coping and problem-focused coping" },
 
+  // === INGESTED 2026-07-07 18:19 ===
+  the_seci_model: "Four stages where explicit and tacit knowledge interact with each other in a spiral manner",
+  the_most_common_forms_of_explicit_knowledge: "Manuals, documents, procedures, and how-to videos",
+
 };
 
 // ============================================================
