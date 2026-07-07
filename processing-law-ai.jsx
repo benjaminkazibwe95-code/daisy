@@ -67589,6 +67589,21 @@ const FLAT_DICT = {
   values_for_other_t: "Typically determined using some sort of interpolation scheme",
   because_a_bond: "Always anchored by its final maturity, the price at some point must change direction and fall to par value at redemption",
 
+  // === INGESTED 2026-07-07 01:39 ===
+  in_particular_it: "A linear IRD, and one of the most liquid benchmark products spanning multiple currencies simultaneously",
+  the_floating_indexes: "Commonly the 3-month tenor EURIBOR , and compounded overnight rates",
+  the_pricing_element_of_a_xcs_is_what: "Known as the basis spread , which is the agreed amount chosen to be added (or reduced in the case of a negative spread) to one leg of the swap",
+  xcss: "Over-the-counter (OTC) derivatives",
+  additionally_it: "Not a requirement for swaps to have two floating legs",
+  this_is_clearly_contrary_to_what: "Observed in the market",
+  cashflows_in_the_funding_currency: "Discounted on this curve",
+  cashflows_in_any_other_currency: "First swapped into the funding currency via a cross currency swap and then discounted",
+  in_market_terminology_this: "Often referred to as delta and basis risks",
+  thus_capital_risks: "Another concern for users",
+  the_collateral_of_mexican_oil: "Valued at US$23 per barrel",
+  this_deal: "Brokered by Salomon Brothers with a notional amount of US$210 million and a term of over ten years",
+  the_aim_of_central_bank_liquidity_swaps: "'to provide liquidity in U.S",
+
 };
 
 // ============================================================
