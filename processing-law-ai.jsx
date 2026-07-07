@@ -67957,6 +67957,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 02:53 ===
   ethoxyquin: "Also used in some spices to prevent color loss due to oxidation of the natural carotenoid pigments",
 
+  // === INGESTED 2026-07-07 02:55 ===
+  putrefaction: { definition: "The fifth stage of death , following pallor mortis , livor mortis , algor mortis , and rigor mortis", what_it_does: "references the breaking down of a body of an animal post-mortem", examples: "" },
+  body_farms: "Facilities that study the way various factors affect the putrefaction process",
+  protein_hydrolysis: "Accelerated as the anaerobic bacteria of the digestive tract consume, digest, and excrete the cellular proteins of the body",
+  the_exact_rate_of_putrefaction: "Dependent upon many factors such as weather, exposure and location",
+  the_first_internal_sign: { definition: "Usually a greenish discoloration on the undersurface of the liver", what_it_does: "", examples: "the crevices formed by the eyelids and nostrils" },
+  the_most_common_reasons_to_preserve_the_body: { definition: "For viewing purposes at a funeral, for above-ground interment or distant transportation of the deceased, and for medical or religious practices", what_it_does: "", examples: "humidity, sun exposure, rain or snow, altitude level and more" },
+
 };
 
 // ============================================================
