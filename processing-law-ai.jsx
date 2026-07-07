@@ -67515,6 +67515,14 @@ const FLAT_DICT = {
   a_series_llc: "A special form of a limited liability company that allows a single LLC to segregate its assets into separate series",
   an_anonymous_limited_liability_company: "An LLC for which ownership information is not made publicly available by the state",
 
+  // === INGESTED 2026-07-07 01:21 ===
+  the_offer_of_the_shares: "Going to last for a month",
+  and_z_holdings: { definition: "Going to be a new subsidiary under Naver Corporation and SoftBank Group, their respective owners", what_it_does: "", examples: "Getaround , Oyo, Rappi , Katerra and Zume" },
+  after_the_programme: { definition: "Unveiled, Softbank share price rose almost 19%", what_it_does: "", examples: "Amazon , Apple and Facebook" },
+  the_aim_of_the_venture: "To provide precision medical services in Japan by utilising AI",
+  the_funding: { definition: "Expected to accelerate the startup's growth and development, further enhancing its AI capabilities and market reach", what_it_does: "", examples: "the Vision Fund , capital projects or chipmaker Arm Holdings" },
+  sbi_group: { definition: "A financial services company based in Japan", what_it_does: "", examples: "Line Corporation and Yahoo Japan Corporation" },
+
 };
 
 // ============================================================
