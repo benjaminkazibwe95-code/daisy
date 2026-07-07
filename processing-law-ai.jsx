@@ -68588,6 +68588,15 @@ const FLAT_DICT = {
   medical_professionals: "Much more likely to use scientific facts to prescribe treatments",
   this_result_indicates_that_it: "Unlikely that a familiarity heuristic was applied during the experiment",
 
+  // === INGESTED 2026-07-07 18:17 ===
+  adaptive_performance_in_the_work_environment: { definition: "Adjusting to and understanding change in the workplace", what_it_does: "", examples: "excellent work performance , work attitude, and ability to handle stress" },
+  another_similar_tool: { definition: "The I-ADAPT measure (I-ADAPT-M) developed by Ployhart and Bliese, [ 3 ] based on their I-ADAPT theory", what_it_does: "", examples: "cognitive abilities , [ 4 ] Big Five personality traits , [ 5 ] [ 6 ] and goal orientation" },
+  cognitive_abilities: { definition: "Particularly important when dealing with complex dynamic tasks", what_it_does: "", examples: "learning goal orientation) is only relevant when predicting subjective (e.g" },
+  one_general_idea: "To divide coping as active coping and avoidant coping",
+  avoidant_coping: "To reduce stress by ignoring it, like involving in problematic drinking",
+  emotionfocused_coping: "Releasing negative emotions by ways like distracting or disclaiming",
+  adaptive_performance: { definition: "A mixture of different coping strategies", what_it_does: "", examples: "active coping and problem-focused coping" },
+
 };
 
 // ============================================================
