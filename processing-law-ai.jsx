@@ -67523,6 +67523,12 @@ const FLAT_DICT = {
   the_funding: { definition: "Expected to accelerate the startup's growth and development, further enhancing its AI capabilities and market reach", what_it_does: "", examples: "the Vision Fund , capital projects or chipmaker Arm Holdings" },
   sbi_group: { definition: "A financial services company based in Japan", what_it_does: "", examples: "Line Corporation and Yahoo Japan Corporation" },
 
+  // === INGESTED 2026-07-07 01:23 ===
+  a_cognitive_bias: { definition: "A systematic pattern of deviation from norm or rationality in judgment", what_it_does: "", examples: "clinical judgment, entrepreneurship , finance , and management" },
+  some_also_believe_that_it: "The government's responsibility to regulate these misleading ads",
+  participants_in_the_experiment: { definition: "Shown a residential property", what_it_does: "", examples: "overconfidence , temporal discounting , and bias blind spot" },
+  cognitive_flexibility: "Linked to helping overcome pre-existing biases",
+
 };
 
 // ============================================================
