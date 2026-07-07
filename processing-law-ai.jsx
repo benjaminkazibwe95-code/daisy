@@ -67416,6 +67416,10 @@ const FLAT_DICT = {
   ndpb_differ_from_executive_agencies_as_they: "Not created to carry out ministerial orders or policy, instead they are more or less self-determining and enjoy greater independence",
   ndpbs: { definition: "Sometimes referred to as quangos", what_it_does: "", examples: "a considerable number within the NHS), and also other boards operating in the public sector (e.g" },
 
+  // === INGESTED 2026-07-07 00:46 ===
+  these_market_makers: { definition: "Required to maintain two-sided markets during exchange hours and are obligated to buy and sell at their displayed bids and offers", what_it_does: "", examples: "the ability to naked short a stock, i.e., selling it without borrowing it" },
+  unofficial_market_makers: "Free to operate on order driven markets or, indeed, on the LSE",
+
 };
 
 // ============================================================
