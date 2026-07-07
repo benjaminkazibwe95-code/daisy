@@ -68019,6 +68019,24 @@ const FLAT_DICT = {
   its_sapwood_is_not_durable_and: "Prone to attack by insects and fungi as well as spalting",
   the_heartwood: "Able to take a high natural polish",
 
+  // === INGESTED 2026-07-07 03:08 ===
+  the_chinese_variety: "Best harvested light green possibly with a slight yellow tinge or just before",
+  when_the_fruit: "Fully ripe, it turns orange and soft and splits into segments that curl back to expose seeds covered in bright red pulp",
+  the_common_chinese_variety: "20–30 cm (7.9–11.8 in) long, oblong with blunt ends, pale green in color, and has a slightly undulating warty surface",
+  the_common_indian_bitter_melon: "Narrower in shape, pointed at both ends, and covered with jagged, triangular 'teeth' and ridges",
+  these_miniature_fruits: "Popular in Bangladesh, India, Pakistan, Nepal, and other countries in South Asia",
+  the_subcontinental_variety: "Most popular in Bangladesh and India",
+  charantia: "One of the main hosts of Bactrocera tau , a fly known to prefer Cucurbitaceae",
+  the_raw_fruit: { definition: "Bitter and can be soaked in cold water and drained to remove some of those strong flavours", what_it_does: "", examples: "sabzi, or stuffed with spices and then cooked in oil" },
+  bitter_melon: "Known as karate ( Konkani : कारांतें ) in Goa where it is used widely in Goan cuisine",
+  such_a_dish: { definition: "Available at street stalls and deli counters throughout the country", what_it_does: "", examples: "karawila curry and karawila sambol ) which are served mainly with rice in a main meal" },
+  sometimes_large_grated_coconut_pieces: "Added, which is more common in rural areas",
+  karawila_juice: { definition: "Also sometimes served there", what_it_does: "", examples: "gado-gado , and also stir-fried, cooked in coconut milk, or steamed" },
+  in_christian_areas_in_eastern_indonesia_it: "Cooked with pork and chili, the sweetness of the pork balancing against the bitterness of the vegetable",
+  bitter_melons_stuffed_with_ground_pork: "Commonly served as a summer soup in the south",
+  the_name_of_the_fruit: "Rooted in the bitterness of its taste, (Filipino: Ampait ) which means bitter",
+  charantia_and_pavel: "The long-fruited varieties, whereas M",
+
 };
 
 // ============================================================
