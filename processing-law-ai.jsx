@@ -67485,6 +67485,15 @@ const FLAT_DICT = {
   the_silhouetted_twin_towers: { definition: "Printed in a fifth, black ink, on a field of black made up of the standard four color printing inks", what_it_does: "", examples: "'Fuhgeddabouditstan', 'Botoxia')" },
   what_we_set_out_to_do: { definition: "To throw all these images together, which are all over the top and to shine a kind of harsh light on them, to satirize them", what_it_does: "", examples: "'two million three hundred thousand dollars' instead of '$2.3 million', even for very large figures" },
 
+  // === INGESTED 2026-07-07 01:08 ===
+  the_aim_of_the_bridge_alfa: "To increase the innovativeness of the Polish economy by strengthening the synergy between entrepreneurs and scientists",
+  that_is_why_it: "Intended for large asset managers over €100M",
+  revenues_obtained_from_the_sale_of_shares: "Exempt from corporate income tax , with the condition that they held 10 percent of shares in the company for two years",
+  the_amount_of_entry_for_natural_persons: "Regulated in the act, at the level of €40,000",
+  other_new_funds: "Capitalized by the European Investment Fund , including Market One Capital, Inovo and Innovation Nest",
+  the_result_of_ncf_support: { definition: "As much as half of the previous rounds over PLN 1M", what_it_does: "", examples: "UiPath and Payhawk" },
+  cooperation_with_companies: { definition: "Based on a 3-8 year investment horizon", what_it_does: "", examples: "consumer internet, electromobility, energy, fintech, martech, adtech, medtech, IoT and hardware" },
+
 };
 
 // ============================================================
