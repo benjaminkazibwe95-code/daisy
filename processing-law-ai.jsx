@@ -68003,6 +68003,13 @@ const FLAT_DICT = {
   it_was_also_established_that_vitamin_e: "Transferred intrauterinely from mother to pup, because sacrificed newborn pups can restore fertility",
   evidence_for_vascular_health: { definition: "Characterized as unconvincing", what_it_does: "", examples: "nonfatal stroke or myocardial infarction, or cardiovascular mortality" },
 
+  // === INGESTED 2026-07-07 03:04 ===
+  in_organic_chemistry_oxidations_and_reductions: "Different from ordinary redox reactions, because many reactions carry the name but do not actually involve electron transfer",
+  the_oxidation_numbers: "Only an approximation: [ 1 ] When methane is oxidized to carbon dioxide its oxidation number changes from −4 to +4",
+  in_oxidations_electrons: "Removed and the electron density of a molecule is reduced",
+  most_oxidations: "Conducted with air or oxygen , especially in industry",
+  some_commercially_important_oxidations: "Listed: Many reagents have been invented for organic oxidations",
+
 };
 
 // ============================================================
