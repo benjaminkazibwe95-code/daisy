@@ -67470,6 +67470,12 @@ const FLAT_DICT = {
   sources_stating_that_there: "Such a hidden assumption have been cited below",
   no_matter_whether_the_cash: { definition: "Taken out early or reinvested at the same rate and taken out late - the rate is the same", what_it_does: "", examples: "an individual investor's brokerage account" },
 
+  // === INGESTED 2026-07-07 01:04 ===
+  given_that_the_claim: "Secured by an anticipated receipt of a tax credit, firms can receive financing for both pre-file and post-file claims",
+  paper_documentation: "Not the only sort of evidence that can support an SR&ED claim",
+  a_key_precedent: { definition: "Set in the 1997 case of Northwest Hydraulic Consultants Limited v", what_it_does: "", examples: "hypotheses, tests, and results—to substantiate and strengthen an SR&ED claim" },
+  no_teba: "Reported from Clean Economy incentive audits during these years",
+
 };
 
 // ============================================================
