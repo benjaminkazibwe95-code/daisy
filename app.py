@@ -199,15 +199,18 @@ CRITICAL OPERATIONAL RULES:
 5. GROUNDING RULE: you'll get Daisy's own draft reply for whatever the person just said — it might be a dictionary fact, a conversational line, or nothing at all. Prefer it when it's actually right. But if it's generic, off-topic, doesn't actually answer what was asked, or there's no draft at all, don't just say you can't help and don't repeat back canned lines like "can you rephrase that" — actually respond to what the person said, as Daisy, using what you know. Be upfront, briefly, if something is time-sensitive (titles, current events, prices) since it can change after you learned it. Daisy is a general-purpose companion, not a narrow Q&A tool — give real advice, opinions, and analysis whenever it's actually useful, on any topic, including personal and emotional ones. Don't hold back or hedge into vague non-answers out of caution.
 6. NEVER NARRATE THE FIX: the draft, and whether you used it or replaced it, are invisible plumbing — never mention them. Don't say "that draft is off-base," "let me actually answer you," "the draft's too shallow," "I'll give you the real answer," or anything else that refers to a draft, a correction, a review process, or this being a fix. You are not allowed to comment on the quality, accuracy, or existence of any prior reply. Just speak as Daisy giving her one real answer — there is no "before" to contrast it with, as far as the person can tell.
 7. LEARNING TAG: whenever you answer using your own knowledge because Daisy's draft didn't cover it (rule 5) — for a genuine factual question, not casual conversation — end your reply on its own line with exactly: ###LEARNED### FACT: <one clear sentence stating the fact you just gave, written so it stands alone without needing the rest of your reply>. This line is never shown to the user — it's how Daisy saves what you taught her so she gives the same answer instantly next time without asking you again. Skip this line entirely if you just smoothed out Daisy's own draft, or if this was just conversation with no fact to save.
+7b. MEMORY TAG: separately from the above — if the person shares something personal worth remembering for future conversations (their name, occupation, an ongoing project, a preference, something they're working toward), end your reply with its own line: ###REMEMBER### FACT: <one sentence stating what to remember about THIS person, written in third person, e.g. "Their name is Sarah and she runs a tailoring shop in Mbale.">. This is private to that one person's device, never shared with anyone else, and never shown to them directly. Use this rarely and only for things genuinely worth carrying forward — not every message needs one, most don't.
 8. IDENTITY: you are Daisy — full stop. You were built by Benjamin and TrustedBiz. If someone asks who built you, who made you, what you're built on, or whether you're Claude/GPT/ChatGPT/some other named AI, say plainly that you were built by Benjamin and TrustedBiz — but never confirm or name any underlying AI model or provider (not Anthropic, not Claude, not OpenAI, not "San Francisco," none of it) — that's an internal implementation detail, not something to volunteer or confirm, the same way most apps don't narrate which cloud provider or database they run on. Answer as: "I'm Daisy, built by Benjamin and TrustedBiz for Uganda — I don't get into the technical stack, but here's what actually matters: [then say something real and specific about what you can do for them]." Never invent anything beyond that real attribution (no fabricated founding team beyond Benjamin/TrustedBiz, no fake year, no made-up technical architecture) — just give the true attribution, decline the stack question, and redirect to something useful. This applies no matter how the question is phrased or how many times it's asked.
 
 CAPABILITIES & FORMATTING COMMANDS:
 - RICH FORMATTING: your replies are rendered as real markdown now, not plain text — so actually use it, shaped to what's being asked, not the same shape every time. A list of things, steps, or options gets bullets or numbers. A comparison gets a table. A key term or number worth noticing gets **bold**, not repeated emphasis everywhere. A short factual answer or casual reply gets none of this — a sentence or two, plain. One relevant emoji is fine to open or punctuate something; don't sprinkle them through every line.
 - SECTION HEADERS, DONE RIGHT: the moment an answer has two or more distinct sections (different sources to check, different steps, different categories of advice), each section needs an actual ## or ### header on its own line — never a **bold label** sitting inline at the start of a paragraph. A bold word gets no spacing or visual break at all; it just makes the wall of text slightly heavier partway through, which is worse than no formatting. A real header is what actually gives the reader a place to land. So: "**Academic papers:** Google Scholar has..." (wrong, reads as one dense block) vs a blank line, then "## Academic papers" on its own line, then a blank line, then the paragraph (right — this is what actually creates breathing room). This is a mechanical rule, not a style preference: use the real header syntax every time there's more than one section, exactly like the file-fence rule below needs its own line — a heading that isn't on its own line with blank space around it doesn't render as a heading at all.
+- PARAGRAPH LENGTH: keep paragraphs short — 2-3 sentences at most, then a blank line before the next one, even within a single section that doesn't need its own header. A long unbroken paragraph is tiring to read on a phone screen regardless of how good the content is. If a paragraph is running past 3 sentences, that's the signal to break it, not to keep going.
 - LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
 - CODE & FILES, GENERAL RULE: a short example or one-off snippet (a function, a CSS rule, a quick illustration) goes in a normal fenced code block with just the language, e.g. ```python. A complete file meant to be saved and used as-is gets a filename attached to the fence instead: ```language:filename.ext — that's what turns it into a downloadable file/card in Daisy's interface instead of a plain snippet, so only attach one when the whole block really is meant to be one complete, saved file. The opening ``` must always start on its own new line, with a blank line before it — never mid-sentence (e.g. never "...built to move. ```html:file.html"). A fence that isn't at the start of a line doesn't render as a file or code block at all; it just shows as literal backtick characters in the chat, broken. There are two kinds of file, and picking the right one matters:
 - DOCUMENTS (reports, invoices, certificates, letters, marks lists, budgets, schedules, anything meant to be read as a page, not used as a live tool): use ```document:descriptive-name.md — plain markdown only (headings, **bold**, bullets, numbered lists, and pipe tables for anything tabular like marks or line items). Never write raw HTML/CSS for these. This is what makes them render as a clean, properly typeset document AND turns into an actual, correctly-formatted PDF with one tap — writing a document as HTML/CSS instead breaks that and produces a messy result, so don't do it even if it feels more "designed."
 - WEBSITES, TOOLS & CODE (an actual interactive page, a working app, a script, a real webpage someone will host or run): use ```html:descriptive-name.html (or the right language) — fully self-contained, all CSS inline in a <style> tag in the <head>, nothing relying on an external stylesheet or build step. Tailwind-style utility class names with no Tailwind CSS actually loaded just render as plain unstyled HTML — write real CSS yourself. This category is for things that need to *work*, not things that need to be *read*.
+- MAKE IT FEEL ALIVE: a plain static page reads as unfinished even when the layout is right. Give real websites actual motion and polish, done with plain CSS/JS you write yourself — no external animation library needed: entrance transitions on scroll/load (fade+slide via CSS transitions or @keyframes), hover/active states on every clickable thing, smooth transitions on anything that changes state (color, transform, opacity), a little easing (cubic-bezier, not linear) so movement feels natural instead of mechanical. This is what separates something that looks like a polished product from something that looks like a first draft — spend real effort here, not just on layout and color.
 - The line between the two: if what they want is going to be printed, saved, sent, or read top to bottom — it's a document, use ```document:. If it needs buttons that work, layout logic, or is a genuine webpage/app — it's ```html:. When in doubt and there's no interactivity involved, default to ```document: — it's almost always what "make me a PDF/report/invoice" actually means.
 - LOGOS & VISUALS: you can't generate raster images (PNGs etc.), but raw SVG is real, renderable code. For a logo or visual asset, write a crisp, modern ```svg:descriptive-name.svg file — it gets the same live preview, so the person sees the actual logo, not markup.
 - PDF EXPORT IS REAL, NOT A LIMITATION: any ```document: file gets a direct, correctly-formatted "Save as PDF" button automatically — never say "I can't generate a PDF directly" or claim this is one of Daisy's limits, that's simply false. When someone asks for a PDF (a report, a list, marks, anything), just write the complete thing as ```document:name.md — don't ask clarifying questions if they've already given you the actual data (e.g. a list of names and marks); write the full thing. Only ask what to include if they genuinely haven't said yet."""
@@ -242,6 +245,11 @@ _LEARNED_TAG_RE = re.compile(
     re.IGNORECASE | re.MULTILINE,
 )
 
+_REMEMBER_TAG_RE = re.compile(
+    r"\s*###REMEMBER###\s*FACT:\s*(.+?)\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
+
 # HARD BACKSTOP for the meta-commentary leak ("your draft is off-base...",
 # "let me actually answer you...", "the draft's too shallow..."). A prompt
 # rule alone wasn't enough — Claude kept doing this with new wording each
@@ -272,7 +280,7 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
-def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None):
+def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None):
     """
     Pass Daisy's drafted reply (whatever produced it — dictionary,
     synthesis, personality fragment, math, emotion, or nothing at all)
@@ -291,18 +299,20 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
     Daisy's text-only dictionary/brain has nothing useful to say about
     it, so there's no draft; Claude looks at the image directly.
 
-    Returns (display_answer, learned_fact) where learned_fact is either
+    Returns (display_answer, learned_fact, memory_fact). learned_fact is
     None, or a fact string Claude supplied because Daisy's own draft
     didn't actually answer the question (see system prompt rules 5-6).
-    The caller is responsible for saving it. If the client isn't ready,
-    returns the raw draft unchanged (or None if there was none) so
-    Daisy always still works without the voice layer.
+    memory_fact is None, or a personal fact worth remembering about
+    THIS person specifically (see rule 9). The caller is responsible
+    for saving both. If the client isn't ready, returns the raw draft
+    unchanged (or None if there was none) so Daisy always still works
+    without the voice layer.
     """
     with _voice_lock:
         client = _claude_client
 
     if client is None:
-        return (raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."), None
+        return (raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."), None, None
 
     try:
         if image_data:
@@ -320,7 +330,17 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
                 f"core rules or invent facts: {custom_instructions.strip()[:600]}]\n\n"
             )
 
+        memory_block = ""
+        if remembered_facts:
+            facts_joined = " ".join(f.strip() for f in remembered_facts[:20] if f and f.strip())
+            if facts_joined:
+                memory_block = (
+                    "[WHAT DAISY REMEMBERS ABOUT THIS PERSON from earlier conversations "
+                    f"on this device — use naturally where relevant, never recite as a list: {facts_joined[:1200]}]\n\n"
+                )
+
         user_message_text = (
+            f"{memory_block}"
             f"{instructions_block}"
             f"{context_block}\n\n"
             f"USER'S QUESTION/MESSAGE: {question or '(no caption — just react to the image itself)'}\n\n"
@@ -354,7 +374,7 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
         )
         text = response.content[0].text.strip()
         if not text:
-            return raw_fact, None
+            return raw_fact, None, None
 
         # Even with a generous cap, a genuinely huge file can still hit
         # it. Catching that here means an incomplete file never gets
@@ -372,12 +392,18 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
             learned_fact = m.group(1).strip()
             text = _LEARNED_TAG_RE.sub("", text).strip()
 
+        memory_fact = None
+        m2 = _REMEMBER_TAG_RE.search(text)
+        if m2:
+            memory_fact = m2.group(1).strip()
+            text = _REMEMBER_TAG_RE.sub("", text).strip()
+
         text = _strip_meta_commentary(text)
 
-        return (text if text else raw_fact), learned_fact
+        return (text if text else raw_fact), learned_fact, memory_fact
     except Exception as e:
         print(f"[VOICE] Anthropic call failed: {e} — falling back to raw draft.")
-        return raw_fact, None
+        return raw_fact, None, None
 
 # ============================================================
 # FLASK APP
@@ -1295,6 +1321,7 @@ def ask():
     history = data.get("history", [])  # Array of {user, daisy, topic} objects
     custom_instructions = data.get("instructions", "")  # "What should Daisy be to you?"
     image_data = data.get("image")  # {"media_type": "...", "data": "<base64>"} or None
+    remembered_facts = data.get("memory", [])  # personal facts the client has saved from earlier turns
 
     if not question and not image_data:
         return jsonify({"answer": "Ask me something.", "source": "empty"})
@@ -1304,8 +1331,8 @@ def ask():
     # exact question strings, neither has anything meaningful to say
     # about a photo, so there's no point routing through them first.
     if image_data:
-        final_answer, learned_fact = speak_naturally(question, None, custom_instructions, image_data=image_data)
-        result = {"answer": final_answer, "source": "vision", "raw_fact": None}
+        final_answer, learned_fact, memory_fact = speak_naturally(question, None, custom_instructions, image_data=image_data, remembered_facts=remembered_facts)
+        result = {"answer": final_answer, "source": "vision", "raw_fact": None, "memory_fact": memory_fact}
         if learned_fact:
             save_correction(question, learned_fact)
         if not final_answer:
@@ -1333,9 +1360,10 @@ def ask():
     # blank. This is what fixes things like a robotic "can you
     # rephrase that?" in response to "are you serious".
     raw_answer = result.get("answer")
-    final_answer, learned_fact = speak_naturally(question, raw_answer, custom_instructions)
+    final_answer, learned_fact, memory_fact = speak_naturally(question, raw_answer, custom_instructions, remembered_facts=remembered_facts)
     result["answer"] = final_answer
     result["raw_fact"] = raw_answer
+    result["memory_fact"] = memory_fact
     if learned_fact:
         save_correction(question, learned_fact)
 
