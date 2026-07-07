@@ -68311,6 +68311,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 16:20 ===
   in_some_cases_the_reaction_type: "Also called a retropinacol rearrangement (see pinacol rearrangement )",
 
+  // === INGESTED 2026-07-07 16:22 ===
+  the_compounds: { definition: "Called non-stoichiometric compounds , or Berthollides, after Berthollet", what_it_does: "", examples: "for example ferrous oxide" },
+
 };
 
 // ============================================================
