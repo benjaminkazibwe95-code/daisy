@@ -68102,6 +68102,13 @@ const FLAT_DICT = {
   when_grass: "Cut or damaged, lipoxygenase enzymes begin a breakdown of membranes in the plant's cells, producing linoleic and linolenic acids",
   hexanal_and_related_compounds: "Used by the food industry in recreating fruit and vegetable flavours",
 
+  // === INGESTED 2026-07-07 03:32 ===
+  hillslope_evolution: "The changes in the erosion rates , erosion styles and form of slopes of hills and mountains over time",
+  the_modern_understanding: "That the evolution of slopes is much more complex than the classical models of decline, replacement and retreat imply",
+  slope_replacement: "An evolution of slopes that is associated with decreasing rates of over-all erosion ( denudation )",
+  further_he_claimed_that_slope_decline: "A special case of slope development seen only in very weak rocks that could not maintain a scarp",
+  for_more_steep_slopes_it: "Not possible to infer sediment fluxes",
+
 };
 
 // ============================================================
