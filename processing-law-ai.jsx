@@ -68628,6 +68628,10 @@ const FLAT_DICT = {
   strachey: "A passenger aboard the flagship Sea Venture with the leaders of the expedition when the ship was blown off course by a hurricane",
   after_the_dissolution_of_the_company_it: "Published in 1625 by Samuel Purchas as 'A true reportory of the wracke, and redemption of Sir THOMAS GATES Knight'",
 
+  // === INGESTED 2026-07-07 18:41 ===
+  kemari: "Played on a flat ground, about 6–7 meters squared",
+  this_type_of_clothing: "Called kariginu ( ja:狩衣 ) and it was fashionable at that time",
+
 };
 
 // ============================================================
