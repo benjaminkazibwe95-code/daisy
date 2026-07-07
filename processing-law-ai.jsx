@@ -67646,6 +67646,17 @@ const FLAT_DICT = {
   hefce: "The legal 'principal regulator' for the many UK universities and colleges who are classed as exempt charities",
   hefce_monitored_whether_these_bodies: { definition: "Carrying out the duty effectively, and reports findings back to providers and the Government on a regular basis", what_it_does: "", examples: "HEFCE) and institutional subscriptions" },
 
+  // === INGESTED 2026-07-07 01:58 ===
+  a_community_college: "A type of undergraduate higher education institution, generally leading to an associate degree , certificate, or diploma",
+  the_term_usually: "A higher educational institution that provides workforce education and college transfer academic programs",
+  they_usually: "Scheduled to run two, three or four days of the week, depending on the level of the course undertaken",
+  such_tafes: "Located in metropolitan, regional and rural locations of Australia",
+  a_formative_trend: "The merging of the then separate vocational training and adult education (night school) institutions",
+  canadian_colleges: "Either publicly funded or private post-secondary institutions (run for profit)",
+  the_term_associate_degree: "Used in Western Canada to refer to a two-year college arts or science degree, similar to how the term is used in the United States",
+  the_courses_offered_by_these_colleges: "Diplomas, advance diplomas and certificate courses",
+  that_term: { definition: "Still used at some institutions", what_it_does: "", examples: "Community College Review and others" },
+
 };
 
 // ============================================================
