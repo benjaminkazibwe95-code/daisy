@@ -68378,6 +68378,14 @@ const FLAT_DICT = {
   slayers: "Common in bacteria, where they serve as either the sole cell-wall component or an outer layer in conjunction with polysaccharides",
   most_archaea: "Gram-negative, though at least one Gram-positive member is known",
 
+  // === INGESTED 2026-07-07 16:45 ===
+  solutions_of_hf: "Colorless, acidic and highly corrosive",
+  a_common_concentration: "49% (48–52%) but there are also stronger solutions (e.g",
+  the_principal_use_of_hydrofluoric_acid: "In organofluorine chemistry",
+  many_organofluorine_compounds: "Prepared using HF as the fluorine source, including Teflon , fluoropolymers , fluorocarbons , and refrigerants such as freon",
+  foremost: "Na 3 AlF 6 , cryolite , and AlF 3 , aluminium trifluoride",
+  in_a_similar_manner_it: "Used to etch glass by treatment with silicon dioxide to form gaseous or water-soluble silicon fluorides",
+
 };
 
 // ============================================================
