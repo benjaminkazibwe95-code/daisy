@@ -68467,6 +68467,9 @@ const FLAT_DICT = {
   the_symbol_of_light: "A pagan device adopted by Christians, perhaps the most important that did not come from Jewish traditions",
   christian_churches: "Built so that the congregation faced toward the sunrise",
 
+  // === INGESTED 2026-07-07 17:15 ===
+  quark_stars_that_contain_strange_matter: { definition: "Called strange stars", what_it_does: "", examples: "complex scalar fields and U(1) gauge fields, coupled to gravity" },
+
 };
 
 // ============================================================
