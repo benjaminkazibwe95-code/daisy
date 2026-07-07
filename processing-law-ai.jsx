@@ -68544,6 +68544,38 @@ const FLAT_DICT = {
   copies_of_this_prototype: "Fashioned and issued to many nations to represent the national standard of the kilogram and are periodically compared to the Paris prototype",
   now_the_kilogram: { definition: "Redefined in such a way that the Planck constant h is prescribed a value of exactly 6", what_it_does: "", examples: "the Senegal bichir is regarded as the prototypes of its genus, Polypterus" },
 
+  // === INGESTED 2026-07-07 18:00 ===
+  other_favorite_subjects_early_in_his_education: "Arithmetic and spelling",
+  chores: "Regularly assigned and rotated among all the children, and misbehavior was met with unequivocal discipline, usually from David",
+  though_eisenhower: "Among the winners of the entrance-exam competition, he was beyond the age limit for the Naval Academy",
+  saturday_night_bridge_games_at_the_white_house: "A feature of his presidency",
+  eisenhower: "Also the first outgoing president to come under the protection of the Former Presidents Act",
+  this_time_his_wishes: "Thwarted when the armistice was signed a week before his departure date",
+  his_new_expertise_in_tank_warfare: "Strengthened by a close collaboration with George S",
+  darlan: "Assassinated on December 24 by Fernand Bonnier de La Chapelle , a French antifascist monarchist",
+  my_decision_to_attack_at_this_time_and_place: { definition: "Based on the best information available", what_it_does: "", examples: "Winston Churchill , Field Marshal Bernard Montgomery and General Charles de Gaulle" },
+  many_believed_he: "Forgoing his only opportunity to be president as Republican Thomas E",
+  he_informed_them_that_his_main_purpose: "'to promote the basic concepts of education in a democracy'",
+  his_campaign: "Noted for the simple slogan ' I Like Ike '",
+  the_campaign_strategy: "Dubbed 'K 1 C 2 ' and was intended to focus on attacking the Truman administration on three failures: the Korean War, Communism , and corruption",
+  his_voters: "Less likely to bring up his leadership record",
+  his_inaugural_address: { definition: "Exclusively devoted to foreign policy and included this same philosophy as well as a commitment to foreign trade and the United Nations", what_it_does: "", examples: "'progressive moderate' to describe his approach" },
+  his_campaigning: "Curtailed by health considerations",
+  whether_china: "Informed of the potential for nuclear force is unknown",
+  lawton_collins: "Made ambassador to 'Free Vietnam', effectively elevating the country to sovereign status",
+  although_diem: "Publicly praised, in private Secretary of State John Foster Dulles conceded that Diem had been selected because there were no better alternatives",
+  even_before_he: { definition: "Inaugurated, Eisenhower accepted a request from the British government to restore the Shah of Iran ( Mohammad Reza Pahlavi ) to power", what_it_does: "", examples: "photographs of Soviet military bases" },
+  although_both_acts: "Much weaker than subsequent civil rights legislation, they constituted the first significant civil rights acts since 1875",
+  stewart_and_harlan: "Conservative Republicans, while Brennan was a Democrat who became a leading voice for liberalism",
+  truman: "Unable to attend due to a vacation",
+  buried_alongside_eisenhower: "His son Doud, who died at age 3 in 1921, and wife Mamie, who died in 1979",
+  he_looked_to_moderation_and_cooperation_as_a: "Of governance, which he dubbed 'The Middle Way'",
+  officers_who: "Passed over for promotion twice are then usually honorably but quickly discharged to make way for younger and more able officers",
+  the_medals: "Struck from September 1958 through October 1960",
+  a_total_of_twenty_designs: "Cataloged with a total mintage of 9,858",
+  eisenhower_graduated_from_this_school_when_it: "Known as the Army Industrial College",
+  his_centenary: { definition: "Honored on the Eisenhower commemorative dollar issued in 1990", what_it_does: "", examples: "Eisenhower received many honorary degrees from universities and colleges around the world" },
+
 };
 
 // ============================================================
