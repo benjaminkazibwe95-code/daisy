@@ -67608,6 +67608,9 @@ const FLAT_DICT = {
   a_basis_swap_is_an_interest_rate_swap_which: "The exchange of two floating rate financial instruments",
   the_existence_of_the_basis: "A violation of the covered interest rate parity (CIP) condition",
 
+  // === INGESTED 2026-07-07 01:45 ===
+  these_swaps: { definition: "Popular with hedge funds because they get the benefit of a large exposure with a minimal cash outlay", what_it_does: "", examples: "hedge funds, are natural receivers in Total Return Swaps" },
+
 };
 
 // ============================================================
