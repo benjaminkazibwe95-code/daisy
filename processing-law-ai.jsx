@@ -68690,6 +68690,21 @@ const FLAT_DICT = {
   hackett: "An official in games involving both teams",
   forward_passes: "First permitted in Canadian football in 1929, [ 63 ] but the tactic remained a minor part of the game for several years",
 
+  // === INGESTED 2026-07-07 18:51 ===
+  rules_vary_greatly_across_neighborhoods_and: "Customarily set before each game",
+  penalties_are_rare_and: { definition: "Usually only enforced in the most egregious cases, such as serious injuries or blatant pass interference", what_it_does: "", examples: "in the A7FL" },
+  the_use_of_a_center: "Optional, depending on the rules set forth, and other ways to start the play (e.g",
+  when_a_center: "Used, that player is an eligible receiver",
+  play_continues_until_there: "A turnover (usually an interception ), a turnover on downs (e.g",
+  touchdowns: { definition: "Worth one, six, or seven points depending on the rules set out before the game", what_it_does: "", examples: "the size of the field, more downs are used or teams are given a certain number of downs to score" },
+  field_goals_and_extra_point_kicks: "Nonexistent, as streets and backyards have no goal posts",
+  twopoint_conversions_usually: "Not applied, but if they are, there are several conversion systems, including single-point, pass-run, yardage, and runback",
+  the_singlepoint: "The simplest, in which any successful conversion is worth one point following a touchdown valued at six (or sometimes seven) points",
+  passrun: "Used in some youth leagues and awards two points for a pass and one point for a run",
+  another_conversion_system: "The yardage system, similar to that used in the XFL playoffs, the Lingerie Football League , and the Stars Football League",
+  the_runback: "The most rare of the conversion rules, and is most often implemented in one-on-one games",
+  street_football: { definition: "Usually played as a pick-up game and has very little organization, but an organized 'sandlot' football has been around since the early 20th century", what_it_does: "", examples: "child versions of NFL stars" },
+
 };
 
 // ============================================================
