@@ -68187,6 +68187,19 @@ const FLAT_DICT = {
   this_is_possible_because_the_trigger_to_flower: "Genetically determined and because multiple forests can develop from the clones of one individual",
   the_cause_of_the_trigger: "Still unknown and unpredictable",
 
+  // === INGESTED 2026-07-07 03:51 ===
+  attenborough: "Asked to join it, but declined, not wishing to move from London where he and his young family were settled",
+  while_the_negotiations: { definition: "Proceeding, Attenborough worked on a number of other television projects", what_it_does: "", examples: "mermaids and unicorns" },
+  as_he: "Neither a birdwatcher nor a bird expert, he decided he was better qualified to make The Life of Birds (1998) on the theme of behaviour",
+  when_life_in_cold_blood: "Broadcast in 2008, he had the satisfaction of completing the set, brought together in a DVD encyclopaedia called Life on Land",
+  their_first_collaboration: "Flying Monsters 3D , a film about pterosaurs which debuted on Christmas Day in 2010",
+  arkive: { definition: "An initiative of Wildscreen , of which Attenborough is a patron", what_it_does: "", examples: "the Emmanuel Schools Foundation" },
+  what_is_a_theory_is_whether_natural_selection: "The mechanism and the only mechanism",
+  the_bbc_per_minute_in_almost_every_category: "As cheap as you can find anywhere in the world and produces the best quality",
+  the_licence_fee_is_the_basis_on_which_the_bbc: { definition: "Based and if you destroy it, broadcasting", what_it_does: "", examples: "a birthday card from King Charles III" },
+  the_medal: "Presented at Starmus VII in Bratislava, Slovakia, and was accepted on his behalf by Starmus co-founder Brian May",
+  the_materpiscis_fossil: "Believed to be the earliest organism capable of internal fertilisation",
+
 };
 
 // ============================================================
