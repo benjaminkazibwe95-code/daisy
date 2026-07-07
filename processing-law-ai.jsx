@@ -67494,6 +67494,11 @@ const FLAT_DICT = {
   the_result_of_ncf_support: { definition: "As much as half of the previous rounds over PLN 1M", what_it_does: "", examples: "UiPath and Payhawk" },
   cooperation_with_companies: { definition: "Based on a 3-8 year investment horizon", what_it_does: "", examples: "consumer internet, electromobility, energy, fintech, martech, adtech, medtech, IoT and hardware" },
 
+  // === INGESTED 2026-07-07 01:10 ===
+  babson_college: "A private business school in Wellesley, Massachusetts , United States specializing in entrepreneurship education",
+  students_kept_regular_business_hours_and: { definition: "Monitored by punching in and out on a time clock", what_it_does: "", examples: "the 2019 College World Series" },
+  a_more_complete_listing: "Available at Category:Babson College alumni",
+
 };
 
 // ============================================================
