@@ -67938,6 +67938,22 @@ const FLAT_DICT = {
   potato_applications: "Already operational in the US and Canada",
   modifying_atmosphere: { definition: "A way to preserve food by operating on the atmosphere around it", what_it_does: "", examples: "helium or nitrogen" },
 
+  // === INGESTED 2026-07-07 02:51 ===
+  building_stones: "Slid on oil-impregnated lumber during the construction of the Egyptian pyramids",
+  although_air_and_other_gasbased_lubricants: "Known (e.g., in fluid bearings ), liquid lubricants dominate the market, followed by solid lubricants",
+  most_lubricants: "Composed of a majority of ' Base oil ', often a viscous liquid hydrocarbon, plus a variety of additives",
+  two_main_types_of_base_oils: { definition: "Mineral oil and synthetic oils The term ' mineral oil ' is used to refer to lubricating base oils derived from crude oil", what_it_does: "", examples: "cooking utensils to provide a non-stick surface" },
+  the_use_of_some_such_materials: "Sometimes restricted by their poor resistance to oxidation (e.g",
+  greases: "Typically composed of about 80% lubricating oil, around 5% to 10% thickener, and approximately 10% to 15% additives",
+  antitack_or_antistick_coatings: "Designed to reduce the adhesive condition (stickiness) of a given material",
+  lubricants: "Typically used to separate moving parts in a system",
+  typically_the_lubricanttosurface_friction: "Much less than surface-to-surface friction in a system without any lubrication",
+  the_primary_drawback: { definition: "That high flows typically require larger sumps and bigger cooling units", what_it_does: "", examples: "gear boxes the filter may be supplemented by a magnet to attract any iron fines that get created" },
+  lubricants_known_as_hydraulic_fluid: "Used as the working fluid in hydrostatic power transmission",
+  many_lubricants: "Formulated with additives that form chemical bonds with surfaces or that exclude moisture, to prevent corrosion and rust",
+  even_though_the_wastes: "Biodegradable, the scale of the pollution overwhelms many environments",
+  some_biodegradable_lubricants: "Based on: [ 13 ] The development of biolubricants is topical",
+
 };
 
 // ============================================================
