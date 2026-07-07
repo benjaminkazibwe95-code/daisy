@@ -67442,6 +67442,13 @@ const FLAT_DICT = {
   electronic_news: { definition: "A publication that covered the electronics industry , from semiconductor equipment and materials to military/aerospace electronics to supercomputers", what_it_does: "", examples: "semiconductors, computers, software, communications, space and television electronics" },
   it_continued_online_until_it: "Later merged into EDN",
 
+  // === INGESTED 2026-07-07 00:59 ===
+  their_primary_risk: { definition: "Technical risk, while market risk is often significantly lower due to the clear potential value of the solution to society", what_it_does: "", examples: "semiconductor manufacturing ), cyber threat intelligence , fusion power and quantum computing" },
+  the_material_approach: "Based on the concept of the 'technological frontier,' defined as the limit, at a given point in time, of scientific and technological knowledge",
+  deep_tech_companies: "Thus those that mobilize technologies located on this frontier at a given moment",
+  the_organic_approach: "Based on the microeconomic concept of 'market failure,' which rests on the identification of barriers to entry",
+  it_posits_that_innovation: { definition: "Part of a long, costly process with uncertain returns, which tends to discourage private investment", what_it_does: "", examples: "9 in biotech, 4 in drones and 3 in advanced hardware" },
+
 };
 
 // ============================================================
