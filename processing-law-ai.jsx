@@ -68519,6 +68519,20 @@ const FLAT_DICT = {
   an_alternate_version_of_the_phone: { definition: "Also available with MIUI, the MI 5X", what_it_does: "", examples: "the Mi 10/10 Pro with 5G functionality" },
   the_phones: "Powered by the Snapdragon 8 Gen 1 chipset",
 
+  // === INGESTED 2026-07-07 17:39 ===
+  futures_and_some_aspects_of_derivatives: { definition: "Regulated by the Commodity Futures Trading Commission (CFTC)", what_it_does: "", examples: "FINRA, a self-regulatory organization , is regulated by the SEC" },
+  public_company_regulation: "Largely a disclosure-driven regime, but it has grown in recent years to the point that it has begun to dictate certain issues of corporate governance",
+  criminal_liability: "Determined by the United States attorney general , and intentional violation of the 1933 Act can result in five years in prison and a $10,000 fine",
+  injunctions_and_ancillary_relief: { definition: "Achieved through federal district courts, and these courts are often notified by the SEC", what_it_does: "", examples: "risk factors" },
+  not_every_law_adopted_by_congress: "Codified because some are not appropriate for codification: for example, appropriations statutes are not codified",
+  horizontal_commonality: "When investors combine funds and share profits proportionally",
+  vertical_commonality: "The investors and the promoter of the investments, and it evaluates the similarity of how each person is affected",
+  although_these_transactions: "Exempt from SEC registration, issuers still must provide investors with substantial information that allows them to make an informed decision",
+  if_the_issuer_of_the_security: "A public company that reports to the SEC, then the purchaser must hold the security for a minimum of six months",
+  another_requirement: "That there must be current public information readily available about the company that issued the securities before the sale can happen",
+  affiliated_resellers_of_restricted_securities: "Required to file Form 144 with the SEC",
+  often_noaction_letters: "Acquired before performing a transaction or security exemption",
+
 };
 
 // ============================================================
