@@ -68314,6 +68314,11 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 16:22 ===
   the_compounds: { definition: "Called non-stoichiometric compounds , or Berthollides, after Berthollet", what_it_does: "", examples: "for example ferrous oxide" },
 
+  // === INGESTED 2026-07-07 16:28 ===
+  millions_of_kilograms: "Produced annually, mainly for electroplating",
+  two_oxygen_atoms: { definition: "Not shared, giving an overall stoichiometry of 1:3", what_it_does: "", examples: "H 2 CrO 4 and H 2 Cr 2 O 7" },
+  chromic_acid_solution: { definition: "Also used in applying types of anodic coating to aluminium , which are primarily used in aerospace applications", what_it_does: "", examples: "alcohols on contact" },
+
 };
 
 // ============================================================
