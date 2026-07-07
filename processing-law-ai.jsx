@@ -68478,6 +68478,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 17:22 ===
   the_book_also_gives_a_survey_of_what: { definition: "Then ongoing research on gravitational collapse and black holes", what_it_does: "", examples: "classical mechanics, quantum mechanics, statistical mechanics, and electromagnetism" },
 
+  // === INGESTED 2026-07-07 17:26 ===
+  valuation: { definition: "The analytical process of determining the economic value of an asset, business, security, or liability", what_it_does: "", examples: "within large financial firms including investment banks and stockbrokers)" },
+  some_balance_sheet_items: { definition: "Much easier to value than others", what_it_does: "", examples: "mergers and acquisitions , sale of securities , and taxable events" },
+  when_a_firm: "Required to show some of its assets at fair value, some call this process ' mark-to-market '",
+  this_concept_of_discounting_future_money: "Commonly known as the time value of money",
+  the_size_of_the_discount: "Based on an opportunity cost of capital and it is expressed as a percentage or discount rate",
+  classic_economic_theory_maintains_that_people: { definition: "Rational and averse to risk", what_it_does: "", examples: "the price-to-earnings or price-to-book ratios—one or more of which used to value the firm" },
+  the_valuation_premise_normally_used: "That of an orderly liquidation of the assets, although some valuation scenarios (e.g",
+  an_appropriate_capitalization_rate: "Applied to the excess return, resulting in the value of those intangible assets",
+  that_value: "Added to the value of the tangible assets and any non-operating assets, and the total is the value estimate for the business as a whole",
+  the_professional_investors_who_fund_startups: "Experts, but hardly infallible, see Dot-com bubble",
+  one_common_approach: "Using comparative valuations, although this method can be less accurate given the uniqueness of each startup",
+  valuations_here: { definition: "Often necessary both for financial reporting and intellectual property transactions", what_it_does: "", examples: "only hard assets ), i.e" },
+  mining_valuations: "Sometimes required for IPOs , fairness opinions , litigation, mergers and acquisitions, and shareholder-related matters",
+
 };
 
 // ============================================================
