@@ -69550,6 +69550,13 @@ const FLAT_DICT = {
   the_main_group: "Selected according to a priority list established by IUPAC",
   the_remaining_groups: "Treated as prefixes and are attached to the name of the main carbon chain",
 
+  // === INGESTED 2026-07-08 12:37 ===
+  coden: "Initially created as a memory aid for the publications in Bishop's reference collection",
+  bishop_worked_at_what: "Then the Chronic Disease Research Institute at the University at Buffalo , State University of New York",
+  the_sixth_and_last_character_of_the_coden: "An alphanumeric check character calculated from the preceding letters",
+  the_coden: { definition: "Automatically assigned to all publications referred on CAS", what_it_does: "", examples: "serial and non-serial scientific and technical publications" },
+  cassi_online: "The replacement for CASSI as a printed serial issue ( ISSN 0738-6222 ), or as the Collective Index ( ISSN 0001-0634 )",
+
 };
 
 // ============================================================
