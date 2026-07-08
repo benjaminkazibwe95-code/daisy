@@ -69086,6 +69086,27 @@ const FLAT_DICT = {
   traditionally_there: { definition: "The following rules: Electronic publication with some restrictions is permitted for publication of scientific names of fungi since 1 January 2013", what_it_does: "", examples: "monographs and their components and serials and their components" },
   in_some_cases_unpublished_works: "Widely cited, or circulated via informal means",
 
+  // === INGESTED 2026-07-08 10:05 ===
+  the_common_motivation_for_their_creation: "To enable the management of media assets through the assignment of a unique id to a set of metadata representing salient characteristics of each asset",
+  eidr: "Built on a collection of records (which are further sub-divided into fields) that are stored in a central registry",
+  these_records: { definition: "Referenced externally by DOIs, which are assigned when a record is created, and each identifier is immutable thereafter", what_it_does: "", examples: "watermarks" },
+  content_records: "Objects categorized by their types and relationships",
+  the_preferred_one: "Aliasing, whereby an EIDR ID is transparently redirected to another content record",
+  aliasing: "Commonly employed to deal with an asset being registered twice",
+  the_other_mechanism: "The use of tombstone records",
+  this_is_employed_when_the_content_record: "Corrupted, or an otherwise invalid asset was accidentally registered",
+  having_a_rich_set_of_alternate_ids_for_content: "One of the primary goals of EIDR",
+  if_an_alternate_id: "Resolvable algorithmically, for example by placing it appropriately in a template URL, EIDR makes that link available",
+  alternate_ids: "Partitioned into non-proprietary and proprietary",
+  note_that_the_subject_object: "The child and the target is the parent (e.g",
+  a_few_of_the_more_significant_ones: "Listed here: EIDR identifiers have found their way into an increasing number of commercial applications",
+  the_fastest_growing_category: "Non-US companies, which now accounts for about 20% of membership",
+  registering_new_assets: "A complex process that requires some preparation, particularly in the case of bulk submission",
+  one_of_the_most_important_steps: "Ensuring that a new asset does not already exist in the registry: this is covered in the next section",
+  the_eidrspecific_aspects_of_the_lower_layers: { definition: "Described in more detail below", what_it_does: "", examples: "books, recordings, research data, and other digital content" },
+  doi: "In turn implemented on top of the Handle System, a distributed, highly scalable, name resolution service",
+  the_range_of_allowable_naming_authorities: "More general than is employed by DOI (or EIDR)",
+
 };
 
 // ============================================================
