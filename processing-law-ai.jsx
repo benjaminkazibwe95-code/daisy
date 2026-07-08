@@ -69079,6 +69079,13 @@ const FLAT_DICT = {
   the_pink_wafer: "A wafer-based confectionery originally made by Edinburgh's Crawford's Biscuits in the United Kingdom",
   piroulines_and_barquillos: "Wafers rolled into a tube, and sometimes filled with cream",
 
+  // === INGESTED 2026-07-08 10:03 ===
+  to_publish: { definition: "To make content available to the general public", what_it_does: "", examples: "paper ( newspapers , magazines , catalogs , etc.)" },
+  publication: "A technical term in legal contexts and especially important in copyright legislation",
+  an_author_of_a_work_generally: { definition: "The initial owner of the copyright on the work", what_it_does: "", examples: "sculptures) 'published' if they have been made permanently accessible by the general public (i.e" },
+  traditionally_there: { definition: "The following rules: Electronic publication with some restrictions is permitted for publication of scientific names of fungi since 1 January 2013", what_it_does: "", examples: "monographs and their components and serials and their components" },
+  in_some_cases_unpublished_works: "Widely cited, or circulated via informal means",
+
 };
 
 // ============================================================
