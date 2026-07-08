@@ -69430,6 +69430,12 @@ const FLAT_DICT = {
   other_patents: "Licensed by Audio MPEG, Inc",
   the_royalties: "Previously priced higher but were lowered at several points, most recently on January 1, 2018",
 
+  // === INGESTED 2026-07-08 11:39 ===
+  the_dona_system: "Under consideration at the ITU [ 9 ] and has been adopted by several countries",
+  mnx: "Established with support from the United States Department of Defense (DoD), specifically, the Defense Advanced Research Projects Agency (DARPA)",
+  the_mnx_at_cnri: "Founded and is managed by Dr",
+  david_binger_and_neil_schemenaur: "The principal developers of DurusWorks",
+
 };
 
 // ============================================================
