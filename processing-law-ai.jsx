@@ -68824,6 +68824,11 @@ const FLAT_DICT = {
   diffraction_of_electrons_and_neutrons: { definition: "One of the powerful arguments in favor of quantum mechanics", what_it_does: "", examples: "a sodium atom traveling at about 300 m/s would have a de Broglie wavelength of about 50 picometres" },
   bragg_diffraction: "A consequence of interference between waves reflecting from many different crystal planes",
 
+  // === INGESTED 2026-07-08 01:51 ===
+  love_and_strife: "Attractive and repulsive forces, respectively, which are plainly observable in human behavior, but also pervade the universe",
+  the_whole_body: "Full of pores and hence respiration takes place over the whole frame",
+  in_the_organs_of_sense_these_pores: { definition: "Specially adapted to receive the effluences which are continually rising from bodies around us; thus perception occurs", what_it_does: "", examples: "many lines formerly attributed to 'On Purifications'" },
+
 };
 
 // ============================================================
