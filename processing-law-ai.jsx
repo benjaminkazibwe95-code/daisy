@@ -68873,6 +68873,19 @@ const FLAT_DICT = {
   vinyl_acetate: "Used instead of acetylene for some vinylations, which are more accurately described as transvinylations",
   its_bonding_to_the_metal: { definition: "Somewhat similar to that of ethylene complexes", what_it_does: "", examples: "traces of phosphine and arsine , which gives it a distinct garlic -like smell" },
 
+  // === INGESTED 2026-07-08 09:05 ===
+  silicon_valley: "A region in Northern California that is known as a global center for high technology and innovation",
+  other_major_silicon_valley_cities: "San Jose , Santa Clara , Redwood City and Cupertino",
+  the_popularization_of_the_name: "Often credited to Don Hoefler , the first journalist to use the term in a news story",
+  the_urbanized_area: { definition: "Built upon an alluvial plain [ 16 ] within a longitudinal valley formed by roughly parallel earthquake faults", what_it_does: "", examples: "Massachusetts Route 128 curving around Boston" },
+  the_immediate_area: "Soon filled with aerospace firms, such as Lockheed , which was the area's largest employer from the 1950s into 1980s",
+  the_first_tenant: "Varian Associates , founded by Stanford alumni in the 1930s to build military-radar components",
+  industrial_space: { definition: "Plentiful and housing was still inexpensive", what_it_does: "", examples: "via investments from Fairchild 's eight co-founders" },
+  the_paypal_mafia: { definition: "Sometimes credited with inspiring the re-emergence of consumer-focused Internet companies after the dot-com bust of 2001", what_it_does: "", examples: "ultra-high net worth individuals ) was nearly $1" },
+  kleiner_perkins: "Filed in San Francisco County Superior Court by executive Ellen Pao for gender discrimination against her employer, Kleiner Perkins",
+  the_second_highest_position_holders: { definition: "Asian men, with 16.3% of executive positions and 17.9% of managers", what_it_does: "", examples: "being called the diversity hire" },
+  produced_from_this_location: "The nationally distributed TV Show 'Tech Now' as well as the CNBC Silicon Valley bureau",
+
 };
 
 // ============================================================
