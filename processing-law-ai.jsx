@@ -69581,6 +69581,19 @@ const FLAT_DICT = {
   one_of_the_deliverables_of_the_indecs_project: "A specification for a directory of parties",
   interparty: { definition: "Not proposed as a replacement for existing schemes, but as a means of effecting their interoperation", what_it_does: "", examples: "in the work on the proposed ISO ISNI ( International Standard Name Identifier )" },
 
+  // === INGESTED 2026-07-08 12:45 ===
+  automated_information_retrieval_systems: { definition: "Introduced in the 1950s: one even featured in the 1957 romantic comedy Desk Set", what_it_does: "", examples: "the Cranfield collection (several thousand documents)" },
+  an_ir_system: "A software system that provides access to books, journals, and other documents, as well as storing and managing those documents",
+  web_search_engines: "The most visible IR applications",
+  queries: "Formal statements of information needs, for example search strings in web search engines",
+  an_object_is_an_entity_that: "Represented by information in a content collection or database",
+  user_queries: "Matched against the database information",
+  this_ranking_of_results: { definition: "A key difference of information retrieval searching compared to database searching", what_it_does: "", examples: "text documents, images, [ 3 ] audio, [ 4 ] mind maps [ 5 ] or videos" },
+  often_the_documents_themselves: "Not kept or stored directly in the IR system, but are instead represented in the system by document surrogates or metadata",
+  the_top_ranking_objects: { definition: "Then shown to the user", what_it_does: "", examples: "bioinformation, stock prices, etc" },
+  whereby_letters_and_figures: "Coded as a pattern of magnetic spots on a long steel tape",
+  by_this: "The text of a document, preceded by its subject code symbol, can be recorded ",
+
 };
 
 // ============================================================
