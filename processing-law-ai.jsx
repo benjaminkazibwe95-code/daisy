@@ -68916,6 +68916,19 @@ const FLAT_DICT = {
   after_the_rhesus_macaque_genome: "Sequenced, three genes could be compared",
   if_two_genes: { definition: "The same, they were presumed to be the original gene", what_it_does: "", examples: "urban environments" },
 
+  // === INGESTED 2026-07-08 09:22 ===
+  the_best_known_sd_model: "Probably the 1972 The Limits to Growth",
+  the_business_cycle: { definition: "Judged to be an insufficient explanation for the employment instability", what_it_does: "", examples: "the business cycle" },
+  these_hand_simulations: "The start of the field of system dynamics",
+  the_urban_dynamics_model_presented_in_the_book: { definition: "The first major non-corporate application of system dynamics", what_it_does: "", examples: "ecosystem, political system or mechanical system) may be represented as a causal loop diagram" },
+  the_second_feedback_loop_on_the_left: "Negative reinforcement (or 'balancing' and hence labeled B)",
+  a_stock: "The term for any entity that accumulates or depletes over time",
+  a_flow: "The rate of change in a stock",
+  the_real_power_of_system_dynamics: "Utilised through simulation",
+  the_increase_in_adopters: "Very slow initially, then exponential growth for a period, followed ultimately by saturation",
+  dividing_the_value: "The simplest with the Euler method , but other methods could be employed instead, such as Runge–Kutta methods",
+  the_second_is_that_double_slashes: "Used to indicate places where there is a significant delay between causes (i.e., variables at the tails of arrows) and effects (i.e",
+
 };
 
 // ============================================================
