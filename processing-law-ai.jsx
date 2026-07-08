@@ -69153,6 +69153,18 @@ const FLAT_DICT = {
   a_related_issue: "The difference of best focus among features of different pitches",
   the_resolution_for_most_critical_layers: "Still determined by multiple patterning",
 
+  // === INGESTED 2026-07-08 10:33 ===
+  the_pad_and_wafer: "Pressed together by a dynamic polishing head and held in place by a plastic retaining ring",
+  the_dynamic_polishing_head: "Rotated with different axes of rotation (i.e., not concentric )",
+  typical_depthoffield_requirements: { definition: "Down to Angstrom levels for the latest 22 nm technology", what_it_does: "", examples: "the ones seen on the right, consist of rotating an extremely flat plate which is covered by a pad" },
+  the_wafer_that_is_being_polished: "Mounted upside-down in a carrier/spindle on a backing film",
+  both_the_plate_and_the_carrier: "Then rotated and the carrier is kept oscillating; this can be better seen in the top view of Figure 2",
+  in_most_cases_the_pads: "Very much proprietary, and are usually referred to by their trademark names rather than their chemical or other properties",
+  chemical_mechanical_polishing_or_planarization: "A process of smoothing surfaces with the combination of chemical and mechanical forces",
+  if_the_oxide_thickness: { definition: "Too thin or too non-uniform, then the wafer must be reworked, an even less attractive process and one that is likely to fail", what_it_does: "comes in a sequence pattern as follows", examples: "the combination of resist etching-back (REB) and chemical mechanical polishing (CMP)" },
+  oxide: "Deposited on the wafer in the shape of trenches",
+  a_second_layer: { definition: "Added to the wafer to create a planar surface", what_it_does: "", examples: "water or oxygen are unable to diffuse through the mask, the nitride prevents the oxidation" },
+
 };
 
 // ============================================================
