@@ -69527,6 +69527,11 @@ const FLAT_DICT = {
   systematic_names: "Usually part of a nomenclature",
   a_semisystematic_name_or_semitrivial_name: { definition: "A name that has at least one systematic part and at least one trivial part, [ 1 ] [ 2 ] such as a chemical vernacular name", what_it_does: "", examples: "many common chemicals are still referred to by their common or trivial names, even by chemists" },
 
+  // === INGESTED 2026-07-08 12:20 ===
+  the_authors_of_reviews: "Volunteers, usually chosen by the editors because of some expertise in the area of the article",
+  originally_the_reviews: "Written in several languages, but later an 'English only' policy was introduced",
+  current_mathematical_publications: "A subject index in print format that published the newest and upcoming mathematical literature, chosen and indexed by Mathematical Reviews editors",
+
 };
 
 // ============================================================
