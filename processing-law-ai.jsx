@@ -69140,6 +69140,9 @@ const FLAT_DICT = {
   another_example_of_the_use_for_rdl: "For spreading the contact points around the die so that solder balls can be applied, and the thermal stress of mounting can be spread",
   the_rdl: "Often made out of a polyamide , benzocyclobutene (BCB) or polybenzoxazole (PBO) with copper plated on its surface",
 
+  // === INGESTED 2026-07-08 10:28 ===
+  a_gate_dielectric: { definition: "A dielectric used between the gate and substrate of a field-effect transistor (such as a MOSFET )", what_it_does: "", examples: "The capacitance and thickness constraints are almost directly opposed to each other" },
+
 };
 
 // ============================================================
