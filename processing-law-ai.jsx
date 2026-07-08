@@ -69509,6 +69509,14 @@ const FLAT_DICT = {
   classical_dynamics: "Then said to be mixed and the system phase space is typically composed of islands of regular orbits surrounded by a large sea of chaotic orbits",
   in_particular_the_two_symmetric_tori: "Coupled 'via a succession of classically forbidden transitions across nonlinear resonances' surrounding the two islands",
 
+  // === INGESTED 2026-07-08 12:05 ===
+  as_typical_computer_hardware: "Binary in nature and that hex is power of 2 , the hex representation is often used in computing as a dense representation of binary information",
+  special_notation: { definition: "Often used to indicate that a number is hex", what_it_does: "", examples: "the decimal value 491 would be expressed in hex as 1EB 16" },
+  the_number_after_the_p: "Decimal and represents the binary exponent",
+  yet_another_naming_system: "Elaborated by Babb (2015), based on a joke in Silicon Valley",
+  although_most_humans: "Familiar with the base 10 system, it is much easier to map binary to hex than to decimal because each hex digit maps to a whole number of bits (4 10 )",
+  as_with_all_bases_there: "A simple algorithm for converting a representation of a number to hex by doing integer division and remainder operations in the source base",
+
 };
 
 // ============================================================
