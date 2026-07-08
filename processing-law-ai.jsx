@@ -68947,6 +68947,18 @@ const FLAT_DICT = {
   one_of_these_considerations: "In how political values influence the publication and application of psychological research",
   the_peer_review_process: "Another aspect of psychological research that has been criticized",
 
+  // === INGESTED 2026-07-08 09:28 ===
+  much_of_everyday_functioning: { definition: "Automatic , in other words it is driven by the current features of the environment we are in, that are processed without any conscious awareness", what_it_does: "", examples: "westerners tend to form affective processing while easterners tend to form analytical processing" },
+  the_two_most_often_compared: "The Eastern philosophy which stems from the Confucian thought and the Western philosophy which is grounded in the Aristotelian thought",
+  the_societies_that: "Usually described as individualistic have the independent social orientation",
+  typically_interdependent_societies: { definition: "Found among Eastern nations, and independent societies are found among Western nations", what_it_does: "", examples: "the working class in the U.S" },
+  hr_agents_in_lowcontext_cultures: { definition: "More likely to hire direct, assertive, and somewhat aggressive candidates, whereas the reverse pattern is observed in high-context cultures", what_it_does: "", examples: "peace and harmony)" },
+  day_after_day_members_of_a_cultural_group: "Primed with a set of beliefs, attitudes, and behavioral patterns, which contributes to the building-up and storing of the cultural knowledge",
+  thus_cultural_knowledge: "Very accessible, even under high cognitive work load",
+  personal_knowledge: "A recording of a single experience and doesn't undergo so many repetitions",
+  cultural_knowledge: "Recruited when individuals need to provide reasons for their decision",
+  although_the_choice: { definition: "Wide, the same range of choices is increasingly available all over the world", what_it_does: "", examples: "student of China, Korea and Japan, seems like to be more individualism" },
+
 };
 
 // ============================================================
