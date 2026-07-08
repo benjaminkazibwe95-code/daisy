@@ -68982,6 +68982,26 @@ const FLAT_DICT = {
   in_a_global_industrial_landscape_that: { definition: "Changing fast, firms must continually revise their design and range of products", what_it_does: "", examples: "a computer manufacturer, might spend 7% or a pharmaceutical companies such as Merck & Co" },
   bank_ratios: { definition: "One of the best measures, because they are continuously maintained, public and reflect risk", what_it_does: "", examples: "the profitability of the invention" },
 
+  // === INGESTED 2026-07-08 09:41 ===
+  the_deposited_crystalline_film: { definition: "Called an epitaxial film or epitaxial layer", what_it_does: "", examples: "the Miller index of the film aligning with the index of the Substrate" },
+  homoepitaxy: "A kind of epitaxy performed with only one material, in which a crystalline film is grown on a substrate or film of the same material",
+  homotopotaxy: "A process similar to homoepitaxy except that the thin-film growth is not limited to two-dimensional growth",
+  here_the_substrate: "The thin-film material",
+  heteroepitaxy: "Commonly used to create so-called bandgap systems thanks to the additional energy caused by de deformation",
+  if_a_film: "Grown at a high temperature, it can experience large strains upon cooling to room temperature",
+  silicongermanium_epitaxial_layers: "Heavily used in CMOS microelectronics and silicon photonics",
+  pendeoepitaxy: "A process in which the heteroepitaxial film is growing vertically and laterally simultaneously",
+  graintograin_epitaxy: { definition: "Epitaxial growth between the grains of a multicrystalline epitaxial and seed layer", what_it_does: "", examples: "gallium arsenide" },
+  heteroepitaxial_growth: "Classified into three primary growth modes-- Volmer–Weber (VW), Frank–van der Merwe (FM) and Stranski–Krastanov (SK)",
+  the_sk_mode: "A combination of VW and FM modes",
+  the_semiconductor: "Dissolved in the melt of another material",
+  the_most_used_substrate: "Indium phosphide (InP)",
+  centrifugal_liquidphase_epitaxy: { definition: "Used commercially to make thin layers of silicon , germanium , and gallium arsenide", what_it_does: "", examples: "arsine , phosphine , or diborane" },
+  both_these_minerals: "Triclinic , with space group 1 , and with similar unit cell parameters, a = 8.16 Å, b = 12.87 Å, c = 7.11 Å, α = 93.45°, β = 116.4°, γ = 90",
+  the_magnetite_structure: "Based on close-packed oxygen anions stacked in an ABC-ABC sequence",
+  in_this_packing_the_closepacked_layers: "Parallel to (111) (a plane that symmetrically 'cuts off' a corner of a cube)",
+  the_hematite_structure: "Based on close-packed oxygen anions stacked in an AB-AB sequence, which results in a crystal with hexagonal symmetry",
+
 };
 
 // ============================================================
