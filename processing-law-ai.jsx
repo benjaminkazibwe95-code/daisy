@@ -69398,6 +69398,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 11:26 ===
   the_iso_standard: { definition: "Developed by TC 46/SC 9 and published in March 2009 as ISO 21047:2009", what_it_does: "", examples: "one or more ISTC numbers as an attribute of a bibliographic record (e.g" },
 
+  // === INGESTED 2026-07-08 11:31 ===
+  cen: "The officially recognized standardization representative for sectors other than electrotechnical (CENELEC) and telecommunications (ETSI)",
+  an_example_of_harmonized_standards: "Those for materials and products used in construction and listed under the Construction Products Directive",
+  the_ce_mark: "A declaration by the manufacturer that a product complies with all relevant EU directives",
+  the_vienna_agreement: "Signed by CEN and the International Organization for Standardization (ISO) in 1991 but came in force in the mid-2000s",
+
 };
 
 // ============================================================
