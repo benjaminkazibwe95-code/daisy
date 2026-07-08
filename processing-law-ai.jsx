@@ -69071,6 +69071,14 @@ const FLAT_DICT = {
   the_actual_chemical_process_for_diamond_growth: "Still under study and is complicated by the very wide variety of diamond growth processes used",
   improving_this_process: { definition: "Key to enabling several important applications", what_it_does: "", examples: "optics and transistors) allows the diamond to be used as a heat sink" },
 
+  // === INGESTED 2026-07-08 09:58 ===
+  a_wafer: { definition: "A crisp, often sweet, very thin, flat, light biscuit , [ 1 ] often used to decorate ice cream , and also used as a garnish on some sweet dishes", what_it_does: "", examples: "Kit Kat and Toffee Crisp , are wafers with chocolate in and around them" },
+  a_communion_wafer: "A type of unleavened bread consumed as part of the Christian ritual of communion",
+  a_similar_biscuit: "Cooked in Hungary called the Molnárkalács",
+  christmas_wafers: "Symbolic bread to share among guests to emphasize the close relationship by eating bread together",
+  the_pink_wafer: "A wafer-based confectionery originally made by Edinburgh's Crawford's Biscuits in the United Kingdom",
+  piroulines_and_barquillos: "Wafers rolled into a tube, and sometimes filled with cream",
+
 };
 
 // ============================================================
