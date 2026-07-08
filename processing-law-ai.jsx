@@ -69486,6 +69486,29 @@ const FLAT_DICT = {
   areas_which_are_not_to_be_oxidized: "Covered with a film of silicon nitride , which blocks diffusion of oxygen and water vapor due to its oxidation at a much slower rate",
   this_redistribution: "Governed by the segregation coefficient, which determines how strongly the oxide absorbs or rejects the dopant, and the diffusivity",
 
+  // === INGESTED 2026-07-08 11:59 ===
+  tunnelling: "Readily detectable with potential barriers in thin-film junctions of thickness about 3 nm or smaller for electrons",
+  the_quantum_wave_function: { definition: "The states of a particle or other physical system and wave equations such as the Schrödinger equation describe their evolution", what_it_does: "", examples: "electrons tunnelling through atomically narrow barriers" },
+  all_three_researchers: "Familiar with the works on field emission, [ 9 ] and Gamow was aware of Mandelstam and Leontovich's findings",
+  binnig_and_rohrer: "Awarded the Nobel Prize in Physics in 1986 for their discovery",
+  cold_emission_of_electrons: "Relevant to semiconductors and superconductor physics",
+  diodes: "Electrical semiconductor devices that allow electric current flow in one direction more than the other",
+  when_a_small_forward_bias: "Applied, the current due to tunnelling is significant",
+  as_the_voltage_bias: "Increased, the two energy bands no longer line up and the diode acts typically",
+  this_peculiar_property: "Used in some applications, such as high speed devices where the characteristic tunnelling probability changes as rapidly as the bias voltage",
+  when_this_energy_level: "Higher than that of the electrons, no tunnelling occurs and the diode is in reverse bias",
+  the_timevarying_voltages_that: "Applied to these rods can be recorded and used to image the surface of the conductor",
+  the_temperature_in_stellar_cores: "Generally insufficient to allow atomic nuclei to overcome the Coulomb barrier and achieve thermonuclear fusion",
+  though_this_probability: "Still low, the extremely large number of nuclei in the core of a star is sufficient to sustain a steady fusion reaction",
+  the_deuterium: "Placed in an ion trap and cooled",
+  the_trap: { definition: "Then filled with hydrogen", what_it_does: "", examples: "the synthesis of molecular hydrogen , water ( ice ) and the prebiotic important formaldehyde" },
+  electron_tunnelling: "A key factor in many biochemical redox reactions ( photosynthesis , cellular respiration ) as well as enzymatic catalysis",
+  proton_tunnelling: "A key factor in spontaneous DNA mutation",
+  it_is_believed_that_the_double_well_potential: { definition: "Asymmetric, with one well deeper than the other such that the proton normally rests in the deeper well", what_it_does: "", examples: "Herbert Winful , [ 40 ] disputed these claims" },
+  winful_also_argued_that_the_experiments_that: "Purported to show non-local propagation have been misinterpreted",
+  classical_dynamics: "Then said to be mixed and the system phase space is typically composed of islands of regular orbits surrounded by a large sea of chaotic orbits",
+  in_particular_the_two_symmetric_tori: "Coupled 'via a succession of classically forbidden transitions across nonlinear resonances' surrounding the two islands",
+
 };
 
 // ============================================================
