@@ -69711,6 +69711,13 @@ const FLAT_DICT = {
   individual_articles: { definition: "Subject-indexed in databases such as Google Scholar", what_it_does: "", examples: "data dredging and hypothesizing after the results are known" },
   the_pdf_version_of_an_article: { definition: "Usually seen as the version of record , but the matter is subject to some debate", what_it_does: "", examples: "video material, or the data sets on which research has been based" },
 
+  // === INGESTED 2026-07-08 23:49 ===
+  a_series_a: "The name typically given to a company's first significant round of venture capital financing",
+  series_a_rounds: "Traditionally a critical stage in the funding of new companies",
+  a_company_that_needs_money_for_operations_but: "Not yet ready for venture capital will typically seek angel capital",
+  larger_amounts: { definition: "Usually unwarranted given the cost of business in fields such as software, data services, telecommunications, and so on", what_it_does: "", examples: "pharmaceuticals , semiconductors , and real estate development" },
+  series_a_preferred_stock: "Often convertible into common stock in certain cases such as an initial public offering (IPO) or the sale of the company",
+
 };
 
 // ============================================================
