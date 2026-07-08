@@ -69628,6 +69628,21 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 19:44 ===
   open_source_or_opensource_model: { definition: "The production of digital content whose source code or source files are publicly available, enabling use, study, modification, and redistribution", what_it_does: "", examples: "source code, blueprints, and documentation) freely available to the public" },
 
+  // === INGESTED 2026-07-08 22:58 ===
+  the_workforce: "Reduced, some assets are sold off, etc",
+  taxation_of_such_gains: "At the capital gains tax rates , which in the United States are lower than ordinary income tax rates",
+  pipe_investments: "Typically made in the form of a convertible or preferred security that is unregistered for a certain period of time",
+  a_registered_direct: "Similar to a PIPE, but is instead sold as a registered security",
+  this_form_of_financing: "Often used by private-equity investors to reduce the amount of equity capital required to finance a leveraged buyout or major expansion",
+  being_able_to_secure_financing: "Critical to any business, whether it is a startup seeking venture capital or a mid-sized firm that needs more cash to grow",
+  the_seeds_of_the_us_privateequity_industry: "Planted in 1946 with the founding of two venture capital firms: American Research and Development Corporation (ARDC) and J.H",
+  posner: "Often credited with coining the term ' leveraged buyout ' or 'LBO'",
+  privateequity_specialization: "Usually in specific industry sector asset management while hedge fund specialization is in industry sector risk capital management",
+  privateequity_fundraising: "The action of private-equity firms seeking capital from investors for their funds",
+  after_this_point_it: "Not normally possible for new investors to invest in the fund, unless they were to purchase an interest in the fund on the secondary market",
+  public_pensions: "A major source of capital for private-equity funds",
+  privateequity_funds: "Open solely to 'qualified' (read: high-net-worth) individual investors and to institutions such as endowments",
+
 };
 
 // ============================================================
