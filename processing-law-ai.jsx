@@ -69653,6 +69653,9 @@ const FLAT_DICT = {
   variations_of_entrepreneurship_education: "Offered at all levels of schooling from primary or secondary schools through graduate university programs",
   the_kids: "Taught about business and economics at a very young age",
 
+  // === INGESTED 2026-07-08 23:15 ===
+  moore_in_the_lab_which_led_to_what: "Known as Moore’s Law",
+
 };
 
 // ============================================================
