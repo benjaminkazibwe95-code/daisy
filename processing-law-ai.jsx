@@ -68929,6 +68929,24 @@ const FLAT_DICT = {
   dividing_the_value: "The simplest with the Euler method , but other methods could be employed instead, such as Runge–Kutta methods",
   the_second_is_that_double_slashes: "Used to indicate places where there is a significant delay between causes (i.e., variables at the tails of arrows) and effects (i.e",
 
+  // === INGESTED 2026-07-08 09:26 ===
+  psychological_research: "Research that psychologists conduct for systematic study and for analysis of the experiences and behaviors of individuals or groups",
+  wilhelm_wundt: "Credited as one of the founders of psychology",
+  some_of_its_methods: "Used within other areas of research, especially in the social and behavioural sciences",
+  confounding_variables: { definition: "External variables that are not taken into account when conducting an experiment", what_it_does: "", examples: "participant observations , non-participant observations and naturalistic observations" },
+  the_seekers_believed_they: "In touch with aliens, and that the aliens had told them the world was about to end",
+  the_other_method_of_observational_research: "Non-participant observation",
+  in_particular_naturalistic_methods: "Methods that simply study behaviours that occur naturally in natural environments—with no manipulation by the observer",
+  both_types_of_observational_methods: "Designed to be as reliable as possible",
+  the_reliability_of_conducted_studies: "Important in any field of science",
+  one_part_of_the_field: "Concerned with the objective measurement of skills and knowledge, abilities, attitudes, personality traits, and educational achievement",
+  archival_research: "The study of existing data",
+  the_existing_data: { definition: "Collected to answer research questions", what_it_does: "", examples: "social science and education" },
+  this_observational_research_technique: "Studying the same group of individuals over an extended period of time",
+  the_brain_and_computer: { definition: "Viewed as general-purpose symbol-manipulation systems, capable of supporting software processes, but no analogy is drawn at a hardware level", what_it_does: "", examples: "the evidence people leave behind as they traverse their physical environment is unobtrusive" },
+  one_of_these_considerations: "In how political values influence the publication and application of psychological research",
+  the_peer_review_process: "Another aspect of psychological research that has been criticized",
+
 };
 
 // ============================================================
