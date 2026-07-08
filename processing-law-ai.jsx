@@ -68851,6 +68851,9 @@ const FLAT_DICT = {
   the_aos: "Adjusted ( normalized ) so that AO 2 = 1, and q i ≈ ( c i AO i ) 2 ≈ c 2 i",
   in_the_case_of_ions_it: "Common to speak about delocalized charge (charge delocalization)",
 
+  // === INGESTED 2026-07-08 08:35 ===
+  a_van_der_waals_molecule: "A weakly bound complex of atoms or molecules held together by intermolecular attractions such as van der Waals forces or by hydrogen bonds",
+
 };
 
 // ============================================================
