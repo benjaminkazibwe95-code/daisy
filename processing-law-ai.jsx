@@ -69395,6 +69395,9 @@ const FLAT_DICT = {
   each_entry: "Assigned a four-letter alphabetic code, where the first two letters are the deleted alpha-2 code",
   indeterminately_reserved_code_elements: "Reserved for use in a particular way, usually due to their presence in other coding systems",
 
+  // === INGESTED 2026-07-08 11:26 ===
+  the_iso_standard: { definition: "Developed by TC 46/SC 9 and published in March 2009 as ISO 21047:2009", what_it_does: "", examples: "one or more ISTC numbers as an attribute of a bibliographic record (e.g" },
+
 };
 
 // ============================================================
