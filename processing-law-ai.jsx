@@ -69241,6 +69241,16 @@ const FLAT_DICT = {
   aligners: "A major part of IC manufacture from the 1960s into the late 1970s, when they began to be replaced by the stepper",
   the_disadvantage_to_the_stepper: "That each chip on the wafer has to be individually imaged, and thus the process of exposing the wafer as a whole is much slower",
 
+  // === INGESTED 2026-07-08 10:50 ===
+  plasma_etching: "Currently used to process semiconducting materials for their use in the fabrication of electronics",
+  those_species: "Interacting with each other constantly",
+  one_way_to_form_a_plasma: { definition: "By using RF excitation by a power source of 13.56 MHz, a frequency allocated for this application in the ISM bands", what_it_does: "", examples: "magnetic materials), the volatility can only be obtained when the wafer temperature is increased" },
+  adsorption_happens_when_a_substance: "Able to gather and reach the surface in a condensed layer, ranging in thickness (usually a thin, oxidized layer",
+  a_silicon_wafer: "Placed in the plasma etcher, and the air is evacuated from the process chamber using a system of vacuum pumps",
+  then_a_process_gas: "Introduced at low pressure, and is excited into a plasma through dielectric breakdown",
+  for_the_formation_of_integrated_circuits_it: "Necessary to structure various layers",
+  the_dry_etch: "Then performed so that structured etching is achieved",
+
 };
 
 // ============================================================
