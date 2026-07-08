@@ -69336,6 +69336,12 @@ const FLAT_DICT = {
   criticism_of_journalism: "Varied and sometimes vehement",
   one_of_the_challenges: "That a number of online news websites are free to access",
 
+  // === INGESTED 2026-07-08 11:09 ===
+  a_pamphlet: "An unbound book (that is, without a hard cover or binding )",
+  the_earliest_appearance_of_the_word: "In The Philobiblon (1344; ch",
+  pamphlets: "Very important in marketing because they are cheap to produce and can be distributed easily to customers",
+  a_pamphleteer: "A historical term for someone who produces or distributes pamphlets, especially for a political cause",
+
 };
 
 // ============================================================
