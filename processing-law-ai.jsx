@@ -69423,6 +69423,13 @@ const FLAT_DICT = {
   they_finally_recognized_that_there: "A legitimate reason for reissuing the novel, even though it cost them money",
   a_sequel: "Released in 2017, titled Blade Runner 2049 , with Ryan Gosling alongside Ford in the starring roles",
 
+  // === INGESTED 2026-07-08 11:37 ===
+  program_stream: "Designed for random access storage mediums such as hard disk drives , optical discs and flash memory",
+  mod_and_tod: "Recording formats for use in consumer digital file-based camcorders",
+  xdcam: { definition: "A professional file-based video recording format", what_it_does: "", examples: "the maximum bitrate of 19.39 Mbit/s for broadcast television and 38" },
+  other_patents: "Licensed by Audio MPEG, Inc",
+  the_royalties: "Previously priced higher but were lowered at several points, most recently on January 1, 2018",
+
 };
 
 // ============================================================
