@@ -68959,6 +68959,17 @@ const FLAT_DICT = {
   cultural_knowledge: "Recruited when individuals need to provide reasons for their decision",
   although_the_choice: { definition: "Wide, the same range of choices is increasingly available all over the world", what_it_does: "", examples: "student of China, Korea and Japan, seems like to be more individualism" },
 
+  // === INGESTED 2026-07-08 09:30 ===
+  hogan: "Born in Los Angeles, California, on September 4, 1937",
+  hogan_was_awarded_a_rhodes_scholarship_but: "Unable to accept it due to his marriage and military enlistment",
+  popularity_and_status: "The result of repeated interactions",
+  this_means_that_measures_of_identity: "Weak predictors of career outcomes, whereas measures of reputation are strong predictors of career outcomes",
+  the_bright_side: "How people behave when they are on stage, and the dark side refers to how people behave when facing stress, pressure, or boredom",
+  darkside_behaviors: "Extreme versions of bright-side behaviors, as when self-assertion gives way to bullying or charm becomes duplicity",
+  because_warfare: "A human universal, Hogan defines leadership as the ability to build and maintain a team that can outperform its competition—and therefore survive",
+  job_performance: "Ultimately a function of the perceptions of others",
+  fixing_those_choices: "What coaching and psychotherapy are all about",
+
 };
 
 // ============================================================
