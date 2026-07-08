@@ -69656,6 +69656,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 23:15 ===
   moore_in_the_lab_which_led_to_what: "Known as Moore’s Law",
 
+  // === INGESTED 2026-07-08 23:17 ===
+  a_liquidity_event: "Not to be confused with the liquidation of a company, in which the company's business is discontinued",
+
 };
 
 // ============================================================
