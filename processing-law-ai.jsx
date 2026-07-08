@@ -69143,6 +69143,16 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 10:28 ===
   a_gate_dielectric: { definition: "A dielectric used between the gate and substrate of a field-effect transistor (such as a MOSFET )", what_it_does: "", examples: "The capacitance and thickness constraints are almost directly opposed to each other" },
 
+  // === INGESTED 2026-07-08 10:30 ===
+  both_chips: "Manufactured by TSMC",
+  asml_holding_nv: "Their main supplier of EUV lithography machines",
+  pitch_splitting: "Splitting features that are too close together onto different masks, which are exposed successively, followed by litho-etch processing",
+  spacer_patterning: "Depositing a layer onto pre-patterned features, then etching back to form spacers on the sidewalls of those features, referred to as core features",
+  the_core_cd_and_core_pitch: "Defined by conventional lithography, while the spacer CDs are independent of lithography",
+  one_particular_nuisance: "The two-bar effect, where a pair of identical bar-shaped features do not focus identically",
+  a_related_issue: "The difference of best focus among features of different pitches",
+  the_resolution_for_most_critical_layers: "Still determined by multiple patterning",
+
 };
 
 // ============================================================
