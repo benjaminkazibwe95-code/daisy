@@ -68829,6 +68829,15 @@ const FLAT_DICT = {
   the_whole_body: "Full of pores and hence respiration takes place over the whole frame",
   in_the_organs_of_sense_these_pores: { definition: "Specially adapted to receive the effluences which are continually rising from bodies around us; thus perception occurs", what_it_does: "", examples: "many lines formerly attributed to 'On Purifications'" },
 
+  // === INGESTED 2026-07-08 08:22 ===
+  in_a_function_which: "The system's potential energy, the system's equilibria can be determined using calculus",
+  to_determine_whether_or_not_the_system: "Stable or unstable, the second derivative test is applied",
+  generally_an_equilibrium: "Only referred to as stable if it is stable in all directions",
+  a_paperweight_on_a_desk: "An example of static equilibrium",
+  another_example_of_mechanical_equilibrium: "A person pressing a spring to a defined point",
+  in_this_state_the_system: "In mechanical equilibrium",
+  when_the_compressive_force: "Removed the spring returns to its original state",
+
 };
 
 // ============================================================
