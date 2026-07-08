@@ -69404,6 +69404,25 @@ const FLAT_DICT = {
   the_ce_mark: "A declaration by the manufacturer that a product complies with all relevant EU directives",
   the_vienna_agreement: "Signed by CEN and the International Organization for Standardization (ISO) in 1991 but came in force in the mid-2000s",
 
+  // === INGESTED 2026-07-08 11:33 ===
+  blade_runner: "A 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples",
+  tyrell_explains_that_she: "An experiment who has been given false memories to provide an 'emotional cushion', and that she has no knowledge of her true nature",
+  as_leon: "About to kill Deckard, Rachael saves him by using Deckard's gun to kill Leon",
+  deckard_tries_to_jump_onto_another_roof_but: "Left hanging from the edge",
+  director_martin_scorsese: "Interested in filming the novel, but never optioned it",
+  paull: { definition: "Cast as Deckard's fellow bounty hunter Holden based on his performances in the tests", what_it_does: "", examples: "adding a voice-over , a happy ending, and the removal of a Holden hospital scene" },
+  but_now_i: "Stuck re-creating that narration",
+  and_i: "Obliged to do the voiceovers for people that did not represent the director's interests",
+  when_we_worked_together_it: "My first film up and I was the new kid on the block",
+  the_bellows: "Designed for the latter function and give the machine the menacing air of a sinister insect",
+  the_voightkampff_machine: { definition: "A fictional interrogation tool originating from the novel, in which it is spelled 'Voigt-Kampff'", what_it_does: "", examples: "future Governor Gavin Newsom , would be classified as replicants" },
+  the_cameras: "Frequently motion controlled using computers",
+  that_date: { definition: "Chosen by producer Alan Ladd Jr", what_it_does: "", examples: "The Thing , Star Trek II: The Wrath of Khan , Conan the Barbarian and E.T" },
+  by_the_end_of_the_shoot_ford: "'ready to kill Ridley', said one colleague",
+  a_second_edition_of_future_noir: "Published in 2007, and additional materials not in either print edition have been published online",
+  they_finally_recognized_that_there: "A legitimate reason for reissuing the novel, even though it cost them money",
+  a_sequel: "Released in 2017, titled Blade Runner 2049 , with Ryan Gosling alongside Ford in the starring roles",
+
 };
 
 // ============================================================
