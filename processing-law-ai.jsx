@@ -69625,6 +69625,9 @@ const FLAT_DICT = {
   this_means_that_if_a_function: "Defined in lowercase, it can be called in uppercase, but if a variable is defined in lowercase, it cannot be referred to in uppercase",
   nim: { definition: "Case-insensitive and ignores underscores, as long as the first characters match", what_it_does: "", examples: "the Google Search engine is basically case-insensitive, with no option for case-sensitive search" },
 
+  // === INGESTED 2026-07-08 19:44 ===
+  open_source_or_opensource_model: { definition: "The production of digital content whose source code or source files are publicly available, enabling use, study, modification, and redistribution", what_it_does: "", examples: "source code, blueprints, and documentation) freely available to the public" },
+
 };
 
 // ============================================================
