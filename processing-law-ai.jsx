@@ -68798,6 +68798,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-07 22:30 ===
   open_source: { definition: "Digital resources whose source code or source files are publicly available, enabling use, study, modification, and redistribution", what_it_does: "", examples: "source code, blueprints, and documentation) freely available to the public" },
 
+  // === INGESTED 2026-07-08 01:43 ===
+  the_derived_quantity_relative_molecular_mass: "The unitless ratio of the mass of a molecule to the atomic mass constant (which is equal to one dalton)",
+  the_molar_mass: "Usually the more appropriate quantity when dealing with macroscopic (weigh-able) quantities of a substance",
+  when_the_molecular_weight: { definition: "Given with the unit Da, it is frequently as a weighted average (by abundance) similar to the molar mass but with different units", what_it_does: "", examples: "water has a molar mass of 18" },
+  atomic_and_molecular_masses: "Usually reported in daltons , which is defined in terms of the mass of the isotope 12 C (carbon-12)",
+  the_intensity_of_the_massspectrometry_peaks: "Proportional to the isotopic abundances in the molecular species",
+  the_only_external_measurement_required: "Refractive index increment , which describes the change in refractive index with concentration",
+
 };
 
 // ============================================================
