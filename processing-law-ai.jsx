@@ -69436,6 +69436,19 @@ const FLAT_DICT = {
   the_mnx_at_cnri: "Founded and is managed by Dr",
   david_binger_and_neil_schemenaur: "The principal developers of DurusWorks",
 
+  // === INGESTED 2026-07-08 11:41 ===
+  if_the_voltage: "Sufficiently high, complete electrical breakdown of the air will culminate in an electrical spark or an electric arc that bridges the entire gap",
+  since_the_voltage_drop: { definition: "Now across a shorter length, this creates a higher electric field in the remaining material, which causes more material to break down", what_it_does: "", examples: "in a gas discharge lamp tube" },
+  lightning_and_sparks_due_to_static_electricity: "Natural examples of the electrical breakdown of air",
+  dielectric_breakdown: { definition: "Also important in the design of integrated circuits and other solid state electronic devices", what_it_does: "", examples: "from static electricity may destroy these layers, rendering a device useless" },
+  the_partial_discharge: { definition: "A local ionization and heating of the area, degrading the insulators and metals nearest to the defect", what_it_does: "", examples: "Helium at 4.2 K or Nitrogen at 77 K – bubbles can induce breakdown" },
+  the_vacuum_itself: "Expected to undergo electrical breakdown at or near the Schwinger limit",
+  highvoltage_apparatus: "Designed with rounded curves and grading rings to avoid concentrated fields that precipitate breakdown",
+  corona: { definition: "Sometimes seen as a bluish glow around high voltage wires and heard as a sizzling sound along high voltage power lines", what_it_does: "", examples: "church spires, treetops, or ship masts during thunderstorms" },
+  the_main_advantage_of_ozone: "That any residual overdose decomposes to gaseous oxygen well before the water reaches the consumer",
+  although_corona_discharge: "Usually undesirable, until recently it was essential in the operation of photocopiers ( xerography ) and laser printers",
+  sparkgap_transmitters: "Used in early radio telegraph systems",
+
 };
 
 // ============================================================
