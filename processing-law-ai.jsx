@@ -69618,6 +69618,9 @@ const FLAT_DICT = {
   professors: "Finally able to compare the opinions of different authors rather than being forced to look at only one or two specific authors",
   textbooks_themselves: { definition: "Also being printed in different levels of difficulty, rather than just one introductory text being made available", what_it_does: "", examples: "the Xerox iGen3, the Kodak Nexpress, the HP Indigo Digital Press series, and the InfoPrint 5000" },
 
+  // === INGESTED 2026-07-08 13:05 ===
+  data_providers: { definition: "Required to provide XML metadata in Dublin Core format, and may also provide it in other XML formats", what_it_does: "", examples: "arXiv and the CERN Document Server" },
+
 };
 
 // ============================================================
