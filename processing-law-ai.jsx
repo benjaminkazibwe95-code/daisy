@@ -69449,6 +69449,12 @@ const FLAT_DICT = {
   although_corona_discharge: "Usually undesirable, until recently it was essential in the operation of photocopiers ( xerography ) and laser printers",
   sparkgap_transmitters: "Used in early radio telegraph systems",
 
+  // === INGESTED 2026-07-08 11:44 ===
+  transconductance: "Very often denoted as a conductance, g m , with a subscript, m , for mutual",
+  the_input_impedance: "The current gain ( β ) divided by the transconductance",
+  these_amplifiers: "Commonly seen installed in a cascode configuration, which improves the frequency response",
+  the_transresistance_amplifier: "Often referred to as a transimpedance amplifier , especially by semiconductor manufacturers",
+
 };
 
 // ============================================================
