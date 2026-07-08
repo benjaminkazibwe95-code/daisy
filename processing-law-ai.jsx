@@ -69131,6 +69131,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 10:22 ===
   orcid: { definition: "Freely usable and interoperable with other ID systems", what_it_does: "", examples: "the ORCID ID for Josiah S" },
 
+  // === INGESTED 2026-07-08 10:24 ===
+  selfarchiving: "The act of (the author's) depositing a free copy of an electronic document online in order to provide open access to it",
+  the_concept_of_green_open_access: { definition: "Coined in 2004 to describe a 'mode of publishing in non open access journal but also self archiving it in an open access archive'", what_it_does: "", examples: "the internal non-peer-reviewed version, or the peer-reviewed version published in a journal" },
+
 };
 
 // ============================================================
