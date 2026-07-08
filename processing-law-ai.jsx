@@ -69522,6 +69522,11 @@ const FLAT_DICT = {
   a_novel_approach: "The granting of rights across the national borders of states adhering to the directive",
   most_permanent_residents_of_chinese_descent: { definition: "Chinese citizens according to Chinese nationality law", what_it_does: "", examples: "Cyprus and Malta also offer golden passports to individuals if they invest a certain sum" },
 
+  // === INGESTED 2026-07-08 12:16 ===
+  a_systematic_name: "A name given in a systematic way to one unique group, organism, object or chemical substance , out of a specific population or collection",
+  systematic_names: "Usually part of a nomenclature",
+  a_semisystematic_name_or_semitrivial_name: { definition: "A name that has at least one systematic part and at least one trivial part, [ 1 ] [ 2 ] such as a chemical vernacular name", what_it_does: "", examples: "many common chemicals are still referred to by their common or trivial names, even by chemists" },
+
 };
 
 // ============================================================
