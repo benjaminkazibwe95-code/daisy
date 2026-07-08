@@ -69478,6 +69478,14 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 11:52 ===
   sometimes_these_materials: { definition: "Called 'high-k' (pronounced 'high kay'), instead of 'high-κ' (high kappa)", what_it_does: "", examples: "resistance against dopant diffusion through the gate dielectric" },
 
+  // === INGESTED 2026-07-08 11:56 ===
+  the_rate_of_oxide_growth: "Often predicted by the Deal–Grove model",
+  thermal_oxidation_of_silicon: "Usually performed at a temperature between 800 and 1200 °C , resulting in a so-called high temperature oxide layer (HTO)",
+  wet_oxidation: "Preferred to dry oxidation for growing thick oxides, because of the higher growth rate",
+  thick_oxides: "Usually grown with a long wet oxidation bracketed by short dry ones (a dry-wet-dry cycle)",
+  areas_which_are_not_to_be_oxidized: "Covered with a film of silicon nitride , which blocks diffusion of oxygen and water vapor due to its oxidation at a much slower rate",
+  this_redistribution: "Governed by the segregation coefficient, which determines how strongly the oxide absorbs or rejects the dopant, and the diffusivity",
+
 };
 
 // ============================================================
