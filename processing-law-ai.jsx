@@ -69379,6 +69379,13 @@ const FLAT_DICT = {
   a_brochure: { definition: "A promotional document used to introduce an organization, product, service, or event to prospective audiences", what_it_does: "", examples: "pamphlet or leaflet), brochures may also be distributed in digital formats" },
   brochures_distributed_in_electronic_formats: { definition: "Commonly called e-brochures", what_it_does: "", examples: "gloss, satin/matte, or an aqueous coating) may be specified to adjust sheen and durability" },
 
+  // === INGESTED 2026-07-08 11:18 ===
+  other_uris_are_not_locators_and: "Not necessarily resolvable within the bounds of the systems where they are found",
+  but_whether_a_uri: "Resolvable depends on many operational and practical details, irrespective of whether it is called a 'name' or a 'locator'",
+  a_typical_urn_namespace: "Urn:isbn , for International Standard Book Numbers",
+  an_exception_to_the_registration_requirement: "Formerly made for 'experimental namespaces', [ 8 ] since rescinded by RFC 8141",
+  these_are_namespaces_where_internet_users: "Expected to benefit from their publication, [ 1 ] and are subject to several restrictions",
+
 };
 
 // ============================================================
