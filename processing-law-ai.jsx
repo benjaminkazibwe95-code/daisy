@@ -69251,6 +69251,10 @@ const FLAT_DICT = {
   for_the_formation_of_integrated_circuits_it: "Necessary to structure various layers",
   the_dry_etch: "Then performed so that structured etching is achieved",
 
+  // === INGESTED 2026-07-08 10:52 ===
+  a_tract: "A literary work and, in current usage, often religious in nature",
+  tracts: "Used for political purposes throughout the 20th century",
+
 };
 
 // ============================================================
