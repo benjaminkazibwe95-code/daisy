@@ -69117,6 +69117,17 @@ const FLAT_DICT = {
   permanent_links_to_specific_versions: "Recommended for citing articles from sources such as Wikipedia and Wikinews , to ensure that the content remains unchanged for review",
   blog_entries: { definition: "Usually laid out as follows: Permalinks are usually denoted by text link (i.e", what_it_does: "", examples: "an asterisk , a dash, a pilcrow (¶), a section sign (§), or a unique icon" },
 
+  // === INGESTED 2026-07-08 10:17 ===
+  the_modern_concept_of_intellectual_property: "Developed in England in the 17th and 18th centuries",
+  the_thinking: { definition: "That creators will not have sufficient incentive to invent unless they are legally entitled to capture the full social value of their inventions'", what_it_does: "", examples: "the America Invents Act , stress international harmonization" },
+  the_value_of_intellectual_property: "Considered similarly high in other developed nations, such as those in the European Union",
+  lockeans_argue_that_intellectual_property: "Justified based on deservedness and hard work",
+  the_belief_is_that_the_human_mind_itself: "The source of wealth and survival and that all property at its base is intellectual property",
+  examples_of_such_doctrines: "The fair use and fair dealing doctrine",
+  the_statutory_penalties: { definition: "Different for the two offenses", what_it_does: "", examples: "Birgitte Andersen [ 97 ] and Thomas Faunce" },
+  when_authority: "Granted to the few over resources on which the many depend, the few gain power over the goals of the many",
+  intellectual_property_legislation: { definition: "Its focus on individual and joint works; thus, copyright protection can only be obtained in 'original' works of authorship", what_it_does: "", examples: "Article 6 and 7 the Copyright Directive" },
+
 };
 
 // ============================================================
