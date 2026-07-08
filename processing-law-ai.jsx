@@ -69594,6 +69594,11 @@ const FLAT_DICT = {
   whereby_letters_and_figures: "Coded as a pattern of magnetic spots on a long steel tape",
   by_this: "The text of a document, preceded by its subject code symbol, can be recorded ",
 
+  // === INGESTED 2026-07-08 12:50 ===
+  the_cost_is_to_those_who: { definition: "Willing to pay for a product and either can't, or experience greater difficulty in doing so", what_it_does: "", examples: "in the form of lost time) also mean that the distribution process is wasteful" },
+  such_a_condition: "Sometimes referred to by economists as 'an insufficiency in the labour force",
+  it_was_thought_that_bringing_african_labor: "The only means of malaria resistance available at the time",
+
 };
 
 // ============================================================
