@@ -69536,6 +69536,13 @@ const FLAT_DICT = {
   a_part_number: { definition: "An identifier, but it is not a unique identifier—for that, a serial number would be needed, to identify each instance of the part design", what_it_does: "", examples: "sequential serial numbers leak information (i.e" },
   identifiers: "Used extensively in virtually all information processing systems",
 
+  // === INGESTED 2026-07-08 12:28 ===
+  lex: "A URN namespace , a type of Uniform Resource Name (URN), that allows accurate identification of laws and other legal norms",
+  the_urn: "Also nominated as a 'public (unique) ID'",
+  a_common_use_of_lex_urns: "To express 'transparent identifiers', which can be built up by simple rules or inferences from basic metadata",
+  an_opaque_data_type: "A data type whose concrete data structure is not defined in an interface",
+  urn_schemes_where_each_urn: "Also a transparent identifier can be used in distributed (non-central) URN-resolution systems",
+
 };
 
 // ============================================================
