@@ -69455,6 +69455,23 @@ const FLAT_DICT = {
   these_amplifiers: "Commonly seen installed in a cascode configuration, which improves the frequency response",
   the_transresistance_amplifier: "Often referred to as a transimpedance amplifier , especially by semiconductor manufacturers",
 
+  // === INGESTED 2026-07-08 11:46 ===
+  fast_surface_states: "Found to be associated with the bulk and a semiconductor/oxide interface",
+  slow_surface_states: "Found to be associated with the oxide layer because of adsorption of atoms, molecules and ions by the oxide from the ambient",
+  the_technique_they_developed: { definition: "Known as oxide diffusion masking, which would later be used in the fabrication of MOSFET devices", what_it_does: "", examples: "Jean Hoerni" },
+  source_and_drain_terminal_conductors: "Connected to the semiconductor through ohmic contacts",
+  the_conductivity_of_the_channel: "A function of the potential applied across the gate and source terminals",
+  the_width: "The extension of the transistor, in the direction perpendicular to the cross section in the diagram (i.e., into/out of the screen)",
+  typically_the_width: "Much larger than the length of the gate",
+  the_body_simply: "The bulk of the semiconductor in which the gate, source and drain lie",
+  usually_the_body_terminal: { definition: "Connected to the highest or lowest voltage within the circuit, depending on the type of the FET", what_it_does: "", examples: "transmission gates and cascode circuits" },
+  if_draintosource_voltage: "Increased further, the pinch-off point of the channel begins to move away from the drain towards the source",
+  the_inbetween_region: "Sometimes considered to be part of the ohmic or linear region, even where drain current is not approximately linear with drain voltage",
+  the_electrons_which_comprise_the_channel: "Free to move out of the channel through the depletion region if attracted to the drain by drain-to-source voltage",
+  the_depletion_region: "Free of carriers and has a resistance similar to silicon",
+  most_fets: "Made by using conventional bulk semiconductor processing techniques , using a single crystal semiconductor wafer as the active region, or channel",
+  fieldeffect_transistors: { definition: "Also distinguished by the method of insulation between channel and gate", what_it_does: "", examples: "tuners and low-noise amplifiers for VHF and satellite receivers" },
+
 };
 
 // ============================================================
