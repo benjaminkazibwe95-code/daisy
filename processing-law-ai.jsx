@@ -69046,6 +69046,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 09:48 ===
   the_rate_of_diffusion: "The speed with which the new idea spreads from one consumer to the next",
 
+  // === INGESTED 2026-07-08 09:50 ===
+  gate_oxide: "Formed by thermal oxidation of the silicon of the channel to form a thin (5 - 200 nm) insulating layer of silicon dioxide",
+  the_insulating_silicon_dioxide_layer: "Formed through a process of self-limiting oxidation, which is described by the Deal–Grove model",
+  a_conductive_gate_material: { definition: "Subsequently deposited over the gate oxide to form the transistor", what_it_does: "", examples: "tungsten , a silicide ( TiSi , MoSi 2 , TaSi or WSi 2 ) or a sandwich of these layers" },
+  this_gate_electrode: "Often called 'gate metal' or 'gate conductor'",
+  the_electrical_properties_of_the_gate_oxide: "Critical to the formation of the conductive channel region below the gate",
+
 };
 
 // ============================================================
