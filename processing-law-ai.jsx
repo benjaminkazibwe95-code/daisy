@@ -69517,6 +69517,11 @@ const FLAT_DICT = {
   although_most_humans: "Familiar with the base 10 system, it is much easier to map binary to hex than to decimal because each hex digit maps to a whole number of bits (4 10 )",
   as_with_all_bases_there: "A simple algorithm for converting a representation of a number to hex by doing integer division and remainder operations in the source base",
 
+  // === INGESTED 2026-07-08 12:13 ===
+  permanent_residency_itself: "Distinct from right of abode , which waives immigration control for such persons",
+  a_novel_approach: "The granting of rights across the national borders of states adhering to the directive",
+  most_permanent_residents_of_chinese_descent: { definition: "Chinese citizens according to Chinese nationality law", what_it_does: "", examples: "Cyprus and Malta also offer golden passports to individuals if they invest a certain sum" },
+
 };
 
 // ============================================================
