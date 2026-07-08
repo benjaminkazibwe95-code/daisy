@@ -68899,6 +68899,23 @@ const FLAT_DICT = {
   the_fourth: "The catastrophic outcome at the very end of the sequence",
   not_all_of_these_components: "Typically made explicit ",
 
+  // === INGESTED 2026-07-08 09:20 ===
+  the_rhesus_macaque: "Also used in the well-known experiments on maternal deprivation carried out in the 1950s by controversial comparative psychologist Harry Harlow",
+  the_rhesus: "Listed as Least Concern in the IUCN Red List",
+  several_chinese_subspecies_of_rhesus_macaques: "Described between 1867 and 1917",
+  this_overlap_region: "Characterized by the presence of mixed-species troops, with pure troops of both species sometimes occurring even in close proximity to one another",
+  this_colony_either_escaped_or: "Intentionally released, roaming the woods of the area for a decade",
+  another_puerto_rico_research_colony: "Released into the Desecheo National Wildlife Refuge in 1966",
+  females_prefer_to_mate_with_males_that: "Not familiar to them",
+  outsider_males_who: "Not members of the female's own troop are preferred over higher-ranking males",
+  if_a_male_rhesus_macaque: "The only option for parental care, they will tend to an unrelated infant as a female would",
+  the_baby: "Later found dead in a well",
+  though_monkeys: "Known to attack people, enter homes and damage property, this reported behaviour was unusual",
+  another_strategy_that_farmers_can_employ: "To plant alternative, buffer crops which are unattractive to monkeys in high-conflict zones, such as along the edges of macaque habitats",
+  an_important_aspect: { definition: "Enforcing no feed regulations that only allow provisioning by trained staff at scheduled times", what_it_does: "", examples: "noise regulation, greatly benefits conflict reduction" },
+  after_the_rhesus_macaque_genome: "Sequenced, three genes could be compared",
+  if_two_genes: { definition: "The same, they were presumed to be the original gene", what_it_does: "", examples: "urban environments" },
+
 };
 
 // ============================================================
