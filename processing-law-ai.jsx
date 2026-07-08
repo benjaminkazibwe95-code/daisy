@@ -69208,6 +69208,35 @@ const FLAT_DICT = {
   pvc_based_dicing_tapes: "Difficult to recycle, and well as have the potential to release the harmful adhesive compounds into the atmosphere",
   this_safety_concern_for_the_environment: "Met with the transition to halogen -free and recyclable dicing tape, which allows for a safer environmental footprint",
 
+  // === INGESTED 2026-07-08 10:41 ===
+  the_border_of_asia_with_europe: "A historical and cultural construct , as there is no clear physical and geographical separation between them",
+  he_reports_that_greeks_assumed_that_asia: { definition: "Named after the wife of Prometheus , but that Lydians say it was named after Asies , son of Cotys, who passed the name on to a tribe at Sardis", what_it_does: "", examples: "Anaximander and Hecataeus" },
+  over_the_next_century_various_proposals: "Made until the Ural River prevailed in the mid-19th century",
+  the_boundary_between_asia_and_africa: "The Suez Canal , the Gulf of Suez , the Red Sea , and the Bab-el-Mandeb",
+  the_border_between_asia_and_oceania: "Usually placed somewhere in the Indonesian Archipelago , specifically in Eastern Indonesia",
+  the_aleutian_islands: "Sometimes associated with Oceania, owing to their status as remote Pacific islands, and their proximity to the Pacific Plate",
+  the_coastal_periphery: { definition: "Home to some of the world's earliest known civilisations, each of them developing around fertile river valleys", what_it_does: "", examples: "mathematics and the wheel" },
+  the_center_and_the_peripheries: "Mostly kept separated by mountains and deserts",
+  while_the_urban_city_dwellers: "More advanced technologically and socially, in many cases they could do little in a military aspect to defend against the mounted hordes of the steppe",
+  the_gobi_desert: "In Mongolia and the Arabian Desert stretches across much of the Middle East",
+  the_yangtze_in_china: "The longest river in the continent",
+  the_himalayas_between_nepal_and_china: "The tallest mountain range in the world",
+  the_following_subdivision_into_regions: "Used, among others, by the United Nations Statistics Division (UNSD)",
+  siberia: "One of the coldest places in the Northern Hemisphere , and can act as a source of arctic air masses for North America",
+  the_melting_of_the_arctic: { definition: "Also paving the way for new shipping routes from Northeast Asia to Europe and North America", what_it_does: "", examples: "sea trade, is growing rapidly" },
+  its_present_life_expectancy: { definition: "25 years longer than in the 1970s", what_it_does: "", examples: "Judaism , Christianity , Islam , Druze faith , [ 138 ] and Baháʼí Faith originated in West Asia" },
+  vibrant_indigenous_minorities_in_west_asia: "Adhering to the Eastern Catholic Churches and Eastern Orthodoxy",
+  iran: { definition: "The largest Shia country", what_it_does: "", examples: "Plato and Aristotle" },
+  lotus_temple: { definition: "A big Baháʼí temple in India", what_it_does: "", examples: "Burma, Singapore and Malaysia also adhere to Hinduism" },
+  jainism: "Found mainly in India and in overseas Indian communities such as the United States and Malaysia",
+  the_culture_of_asia: "A diverse blend of customs and traditions that have been practiced by the various ethnic groups of the continent for centuries",
+  the_continent: { definition: "Divided into six geographic sub-regions: Central Asia , East Asia , North Asia , South Asia , Southeast Asia , and West Asia", what_it_does: "", examples: "common religions, languages, and ethnicities" },
+  ebadi: "The first Iranian and the first Muslim woman to receive the prize",
+  another_nobel_peace_prize_winner: "Aung San Suu Kyi from Burma for her peaceful and non-violent struggle under a military dictatorship in Burma",
+  she_is_a_buddhist_and: "Awarded the Nobel Peace Prize in 1991",
+  chinese_dissident_liu_xiaobo: "Awarded the Nobel Peace Prize for 'his long and non-violent struggle for fundamental human rights in China' on 8 October 2010",
+  raman: "The first Asian to get a Nobel prize in Sciences",
+
 };
 
 // ============================================================
