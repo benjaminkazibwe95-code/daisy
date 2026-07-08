@@ -69107,6 +69107,16 @@ const FLAT_DICT = {
   doi: "In turn implemented on top of the Handle System, a distributed, highly scalable, name resolution service",
   the_range_of_allowable_naming_authorities: "More general than is employed by DOI (or EIDR)",
 
+  // === INGESTED 2026-07-08 10:13 ===
+  a_permalink_or_permanent_link_is_a_url_that: "Intended to remain unchanged for many years into the future, yielding a hyperlink that is less susceptible to link rot",
+  a_permalink: "A type of persistent identifier and the word permalink is sometimes used as a synonym of persistent identifier",
+  such_links: { definition: "Not maintained by an outside authority, and their persistence is dependent on the durability of the content management system itself", what_it_does: "", examples: "Wikipedia's internal Common Gateway Interface-based URLs are made more readable by simplifying them" },
+  an_entry_in_a_blog_with_many_entries: "Accessible from the site's front page for only a short time",
+  prominently_posting_permalinks: "A method employed by bloggers to encourage visitors to store a more long-lived URL (the permalink) for reference",
+  if_an_item: { definition: "Deleted altogether, its permalink can frequently not be reused", what_it_does: "", examples: "most wikis , a permalink is commonly understood as a link to a specific version" },
+  permanent_links_to_specific_versions: "Recommended for citing articles from sources such as Wikipedia and Wikinews , to ensure that the content remains unchanged for review",
+  blog_entries: { definition: "Usually laid out as follows: Permalinks are usually denoted by text link (i.e", what_it_does: "", examples: "an asterisk , a dash, a pilcrow (¶), a section sign (§), or a unique icon" },
+
 };
 
 // ============================================================
