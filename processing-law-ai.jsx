@@ -68886,6 +68886,12 @@ const FLAT_DICT = {
   the_second_highest_position_holders: { definition: "Asian men, with 16.3% of executive positions and 17.9% of managers", what_it_does: "", examples: "being called the diversity hire" },
   produced_from_this_location: "The nationally distributed TV Show 'Tech Now' as well as the CNBC Silicon Valley bureau",
 
+  // === INGESTED 2026-07-08 09:11 ===
+  the_reason_for_the_fine: "Not his bad driving, but rather the fact that he relied on a coin to do his thinking instead of deciding for himself",
+  decisions_with_conflicting_preferences: "Especially difficult even in situations where there is only one decision-maker and no uncertainty",
+  still_a_third_approach: "To look at flipism as the endpoint of a continuum bounded on the other side by perfectly rational decision-making",
+  flipism_is_a_film_trope_that: "Used to argue for 'the supremacy of free will in a chaotic world'",
+
 };
 
 // ============================================================
