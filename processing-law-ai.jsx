@@ -69475,6 +69475,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 11:48 ===
   talk_pages: "Where people discuss how to make content on Wikipedia the best that it can be",
 
+  // === INGESTED 2026-07-08 11:52 ===
+  sometimes_these_materials: { definition: "Called 'high-k' (pronounced 'high kay'), instead of 'high-κ' (high kappa)", what_it_does: "", examples: "resistance against dopant diffusion through the gate dielectric" },
+
 };
 
 // ============================================================
