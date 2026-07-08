@@ -69604,6 +69604,20 @@ const FLAT_DICT = {
   the_sici_code: "Composed of three segments, intended to be both human-readable and easy for machines to parse automatically",
   the_following_example_sici: "Explained below: [ 11 ] To use as an info URI, the SICI is percent-encoded and prefixed",
 
+  // === INGESTED 2026-07-08 12:56 ===
+  these_prints: "Produced in very large numbers from about 1425 onward",
+  typecasting: "Used, adapted from the method of casting coins",
+  the_character: "Cut in beech wood, which was then pressed into a soft clay to form a mould, and bronze poured into the mould, and finally the type was polished",
+  rotary_drum_printing: "Later significantly improved by William Bullock",
+  letterpress_printing: "A technique of relief printing",
+  offset_printing: "A widely used modern printing process",
+  the_printing_cylinders: "Usually made from copper plated steel, which is subsequently chromed, and may be produced by diamond engraving; etching, or laser ablation",
+  gravure_printing: { definition: "Used for long, high-quality print runs such as magazines, mail-order catalogues, packaging and printing onto fabric and wallpaper", what_it_does: "", examples: "kitchen worktops" },
+  flexography: "A type of relief printing",
+  the_relief_plates: "Typically made from photopolymers",
+  professors: "Finally able to compare the opinions of different authors rather than being forced to look at only one or two specific authors",
+  textbooks_themselves: { definition: "Also being printed in different levels of difficulty, rather than just one introductory text being made available", what_it_does: "", examples: "the Xerox iGen3, the Kodak Nexpress, the HP Indigo Digital Press series, and the InfoPrint 5000" },
+
 };
 
 // ============================================================
