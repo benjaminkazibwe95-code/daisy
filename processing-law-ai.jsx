@@ -69128,6 +69128,9 @@ const FLAT_DICT = {
   when_authority: "Granted to the few over resources on which the many depend, the few gain power over the goals of the many",
   intellectual_property_legislation: { definition: "Its focus on individual and joint works; thus, copyright protection can only be obtained in 'original' works of authorship", what_it_does: "", examples: "Article 6 and 7 the Copyright Directive" },
 
+  // === INGESTED 2026-07-08 10:22 ===
+  orcid: { definition: "Freely usable and interoperable with other ID systems", what_it_does: "", examples: "the ORCID ID for Josiah S" },
+
 };
 
 // ============================================================
