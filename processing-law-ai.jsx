@@ -69255,6 +69255,24 @@ const FLAT_DICT = {
   a_tract: "A literary work and, in current usage, often religious in nature",
   tracts: "Used for political purposes throughout the 20th century",
 
+  // === INGESTED 2026-07-08 10:54 ===
+  copyright: "Sometimes called a 'negative right', as it serves to prohibit certain people (e.g",
+  popular_new_works: "Immediately re- set and re-published by competitors, so printers needed a constant stream of new material",
+  fees_paid_to_authors_for_new_works: "High and significantly supplemented the incomes of many academics",
+  shortly_after_the_constitution: { definition: "Passed, Congress enacted the Copyright Act of 1790 , modeling it after the Statute of Anne", what_it_does: "", examples: "literary and artistic production, to be preferentially exploited and thus incentivized" },
+  the_most_significant_point: { definition: "That patent and copyright laws support the expansion of the range of creative human activities that can be commodified", what_it_does: "", examples: "sound recordings , films , photographs , software , and architecture" },
+  lessig: "The Copyright Clause as the 'Progress Clause' to emphasize the social dimension of intellectual property rights",
+  the_regulations_of_the_berne_convention: { definition: "Incorporated into the World Trade Organization 's TRIPS agreement (1995), thus giving the Berne Convention effectively near-global application", what_it_does: "", examples: "the Berne Convention and Universal Copyright Convention" },
+  copy_protection: { definition: "Used for both digital and pre-Internet electronic media", what_it_does: "", examples: "the Berne Convention or WIPO Copyright Treaty" },
+  in_this_way_it: "Similar to the unregistered design right in English law and European law",
+  in_the_united_states_this: "Known as the first-sale doctrine , and was established by the courts to clarify the legality of reselling books in second-hand bookstores",
+  the_firstsale_doctrine: "Known as exhaustion of rights in other countries and is a principle which also applies, though somewhat differently, to patent and trademark rights",
+  fair_dealing_uses: { definition: "Research and study; review and critique; news reportage and the giving of professional advice (i.e", what_it_does: "", examples: "the temporary reproduction of a work in machine readable form for a computer" },
+  free_in_this_context: { definition: "Not as much of a reference to price as it is to freedom", what_it_does: "", examples: "copyleft and permissive" },
+  common_examples_of_free_licenses: "The GNU General Public License , BSD licenses and some Creative Commons licenses",
+  six_general_types_of_cc_licenses: "Available (although some of them are not properly free per the above definitions and per Creative Commons' own advice)",
+  in_europe_consumers: { definition: "Acting up against the rising costs of music, film and books, and as a result Pirate Parties have been created", what_it_does: "", examples: "the United States and the United Kingdom, have rejected the doctrine of a common law copyright" },
+
 };
 
 // ============================================================
