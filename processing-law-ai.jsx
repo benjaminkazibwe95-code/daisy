@@ -69691,6 +69691,10 @@ const FLAT_DICT = {
   expired_drafts: "Replaced with a 'tombstone' version and remain available for reference",
   the_first_revision: "Represented as 01 , and incremented for all following revisions",
 
+  // === INGESTED 2026-07-08 23:27 ===
+  the_publications_office_of_the_european_union: "Managed by its director-general and senior management on the basis of the strategic guidelines set by the management committee",
+  the_overall_aim: { definition: "To facilitate transparency, economic activity, and the dissemination of knowledge", what_it_does: "", examples: "artificial intelligence, and access to knowledge in general" },
+
 };
 
 // ============================================================
