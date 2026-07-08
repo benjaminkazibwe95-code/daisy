@@ -69687,6 +69687,10 @@ const FLAT_DICT = {
   public_holidays: "Determined by the Jewish holidays , and except for Yom HaAtzma'ut (Independence Day) there are no annual civil holidays",
   the_official_day_of_rest: { definition: "Saturday, the Jewish Sabbath", what_it_does: "", examples: "Mohammad Bakri 's 2002 film Jenin, Jenin and The Syrian Bride" },
 
+  // === INGESTED 2026-07-08 23:25 ===
+  expired_drafts: "Replaced with a 'tombstone' version and remain available for reference",
+  the_first_revision: "Represented as 01 , and incremented for all following revisions",
+
 };
 
 // ============================================================
