@@ -69202,6 +69202,12 @@ const FLAT_DICT = {
   examples_of_idms: "Intel , Samsung , Texas Instruments , Infineon and STMicroelectronics",
   the_term_osats: "'outsourced semiconductor assembly and test providers'",
 
+  // === INGESTED 2026-07-08 10:39 ===
+  thermal_release_tapes: "Another important category for dicing tapes and are used in very specialized applications",
+  these_tapes: { definition: "Particularly valuable in the case of ceramic substances, circuit boards , and situations where UV exposure could damage the sensitive components", what_it_does: "", examples: "Allows for maintaining yield in sensitive device manufacturing" },
+  pvc_based_dicing_tapes: "Difficult to recycle, and well as have the potential to release the harmful adhesive compounds into the atmosphere",
+  this_safety_concern_for_the_environment: "Met with the transition to halogen -free and recyclable dicing tape, which allows for a safer environmental footprint",
+
 };
 
 // ============================================================
