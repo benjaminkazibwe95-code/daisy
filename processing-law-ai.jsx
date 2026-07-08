@@ -69718,6 +69718,10 @@ const FLAT_DICT = {
   larger_amounts: { definition: "Usually unwarranted given the cost of business in fields such as software, data services, telecommunications, and so on", what_it_does: "", examples: "pharmaceuticals , semiconductors , and real estate development" },
   series_a_preferred_stock: "Often convertible into common stock in certain cases such as an initial public offering (IPO) or the sale of the company",
 
+  // === INGESTED 2026-07-08 23:57 ===
+  it_had_said_that_the_work: { definition: "Done 'pro bono' but The Washington Post reported that BCG submitted invoices of over $1 million per month", what_it_does: "", examples: "a 'Trump Riviera' and an 'Elon Musk Smart Manufacturing Zone'" },
+  the_relocation_component: "Widely condemned; United Nations officials likened it to ethnic cleansing, and several European governments criticized the concept",
+
 };
 
 // ============================================================
