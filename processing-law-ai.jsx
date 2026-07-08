@@ -69135,6 +69135,11 @@ const FLAT_DICT = {
   selfarchiving: "The act of (the author's) depositing a free copy of an electronic document online in order to provide open access to it",
   the_concept_of_green_open_access: { definition: "Coined in 2004 to describe a 'mode of publishing in non open access journal but also self archiving it in an open access archive'", what_it_does: "", examples: "the internal non-peer-reviewed version, or the peer-reviewed version published in a journal" },
 
+  // === INGESTED 2026-07-08 10:26 ===
+  a_redistribution_layer: "An extra layer of wiring on the chip that enables bond out from different locations on the chip, making chip-to-chip bonding simpler",
+  another_example_of_the_use_for_rdl: "For spreading the contact points around the die so that solder balls can be applied, and the thermal stress of mounting can be spread",
+  the_rdl: "Often made out of a polyamide , benzocyclobutene (BCB) or polybenzoxazole (PBO) with copper plated on its surface",
+
 };
 
 // ============================================================
