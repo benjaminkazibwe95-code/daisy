@@ -69002,6 +69002,34 @@ const FLAT_DICT = {
   in_this_packing_the_closepacked_layers: "Parallel to (111) (a plane that symmetrically 'cuts off' a corner of a cube)",
   the_hematite_structure: "Based on close-packed oxygen anions stacked in an AB-AB sequence, which results in a crystal with hexagonal symmetry",
 
+  // === INGESTED 2026-07-08 09:43 ===
+  many_semiconductor_devices: { definition: "Designed in sections called cells, and each cell represents a small part of the device, such as a memory cell to store data", what_it_does: "", examples: "the ' 90 nm process '" },
+  manasevit: { definition: "The first to document epitaxial growth of silicon on sapphire while working at the Autonetics division of North American Aviation (now Boeing )", what_it_does: "", examples: "Asia , Europe , and the Middle East" },
+  tweezers: { definition: "Replaced by vacuum wands as they generate fewer particles [ 43 ] which can contaminate the wafers", what_it_does: "", examples: "analog ICs, RF chips, power ICs, BCDMOS and MEMS devices" },
+  qualcomm_and_broadcom: { definition: "Among the biggest fabless semiconductor companies, outsourcing their production to companies like TSMC", what_it_does: "", examples: "electromigration, have become more evident since the 16nm node" },
+  equipment_for_carrying_out_these_processes: { definition: "Made by a handful of companies", what_it_does: "", examples: "Wright etch may be carried out" },
+  when_feature_widths: "Far greater than about 10 micrometres , semiconductor purity was not as big of an issue as it is today in device manufacturing",
+  these_ingots: "Then sliced into wafers about 0.75 mm thick and polished to obtain a very regular and flat surface",
+  during_the_production_process_wafers: { definition: "Often grouped into lots, which are represented by a FOUP, SMIF or a wafer cassette, which are wafer carriers", what_it_does: "", examples: "in the local oxidation of silicon ( LOCOS ) to fabricate metal oxide field effect transistors" },
+  a_recipe_in_semiconductor_manufacturing: "A list of conditions under which a wafer will be processed by a particular machine in a processing step during manufacturing",
+  feol_processing: "The formation of the transistors directly in the silicon",
+  the_raw_wafer: "Engineered by the growth of an ultrapure, virtually defect-free silicon layer through epitaxy",
+  once_the_epitaxial_silicon: { definition: "Deposited, the crystal lattice becomes stretched somewhat, resulting in improved electronic mobility", what_it_does: "", examples: "deposition and etching" },
+  two_approaches: "Used in production: gate-first and gate-last",
+  plasma_ale: "Initially adopted for etching contacts in transistors, and since the 7nm node it is also used to create transistor structures by etching them",
+  beol_processing: { definition: "Creating metal interconnecting wires that are isolated by dielectric layers", what_it_does: "", examples: "silicon oxycarbide), typically providing dielectric constants around 2.7 (compared to 3" },
+  dielectric_material: "Then deposited over the exposed wires",
+  the_aluminum: "Sometimes alloyed with copper for preventing recrystallization",
+  process_variation: "One among many reasons for low yield",
+  so_if_a_feature: { definition: "100 nm across, a particle only needs to be 20 nm across to cause a killer defect", what_it_does: "", examples: "aluminum, magnesium, calcium, chlorine, sulfur, carbon, and fluorine" },
+  several_models: "Used to estimate yield",
+  after_the_dies: "Tested for functionality and binned, they are packaged",
+  plastic_or_ceramic_packaging: "Mounting the die, connecting the die/bond pads to the pins on the package, and sealing the die",
+  tiny_bondwires: "Used to connect the pads to the pins",
+  traditionally_the_bond_pads: "Located on the edges of the die, however, Flip-chip packaging can be used to place bond pads across the entire surface of the die",
+  the_packaged_chips: "Retested to ensure that they were not damaged during packaging and that the die-to-pin interconnect operation was performed correctly",
+  a_foundry: "A company or fab performing manufacturing processes such as photolithography and etching that are part of the front end of semiconductor manufacturing",
+
 };
 
 // ============================================================
