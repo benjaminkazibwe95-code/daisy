@@ -69599,6 +69599,11 @@ const FLAT_DICT = {
   such_a_condition: "Sometimes referred to by economists as 'an insufficiency in the labour force",
   it_was_thought_that_bringing_african_labor: "The only means of malaria resistance available at the time",
 
+  // === INGESTED 2026-07-08 12:54 ===
+  sici: "Selected over simpler alternatives because of its ability to encompass the many varieties of journal metadata found in JSTOR's archive",
+  the_sici_code: "Composed of three segments, intended to be both human-readable and easy for machines to parse automatically",
+  the_following_example_sici: "Explained below: [ 11 ] To use as an info URI, the SICI is percent-encoded and prefixed",
+
 };
 
 // ============================================================
