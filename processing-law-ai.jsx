@@ -69698,6 +69698,19 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 23:38 ===
   the_specification_for_the_info_scheme: "Provided by the Informational RFC 4452",
 
+  // === INGESTED 2026-07-08 23:44 ===
+  an_academic_journal_or_scholarly_journal: { definition: "A periodical publication in which scholarship relating to a particular academic discipline is published", what_it_does: "", examples: "original research , review articles , and perspectives" },
+  articles_in_academic_journals: "Written by active researchers such as students, scientists, and professors",
+  their_intended_audience: { definition: "Others in the field, meaning their content is highly technical", what_it_does: "", examples: "the Royal Society (1660) and the French Academy of Sciences (1666)" },
+  though_these_reports: "Generally confidential, some journals and publishers also practice public peer review",
+  even_accepted_articles: "Often subjected to further (sometimes considerable) editing by journal editorial staff before they appear in print",
+  some_journals: { definition: "Published in series, each covering a complete subject field year, or covering specific fields through several years", what_it_does: "", examples: "the SCImago Journal Rank , CiteScore , Eigenfactor , and Altmetrics" },
+  some_reviews: "Enumerative , listing all significant articles in a given subject; others are selective, including only what they think worthwhile",
+  the_production_of_the_journals: { definition: "Almost always done by publisher-paid staff", what_it_does: "", examples: "the Journal of High Energy Physics" },
+  publishers_claimed_this: { definition: "Necessary in order to protect authors' rights, and to coordinate permissions for reprints or other use", what_it_does: "", examples: "the Public Library of Science family of journals, is another recent response to copyright concerns" },
+  individual_articles: { definition: "Subject-indexed in databases such as Google Scholar", what_it_does: "", examples: "data dredging and hypothesizing after the results are known" },
+  the_pdf_version_of_an_article: { definition: "Usually seen as the version of record , but the matter is subject to some debate", what_it_does: "", examples: "video material, or the data sets on which research has been based" },
+
 };
 
 // ============================================================
