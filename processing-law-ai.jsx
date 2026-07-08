@@ -68838,6 +68838,19 @@ const FLAT_DICT = {
   in_this_state_the_system: "In mechanical equilibrium",
   when_the_compressive_force: "Removed the spring returns to its original state",
 
+  // === INGESTED 2026-07-08 08:24 ===
+  the_resonance_hybrid: "The accurate structure for a molecule or ion; it is an average of the theoretical (or hypothetical) contributing structures",
+  isomers: { definition: "Molecules with the same chemical formula but are distinct chemical species with different arrangements of atomic nuclei in space", what_it_does: "", examples: "A ↽ − − ⇀ B {\displaystyle {\ce {A <=> B}}} ; see below for details on usage)" },
+  the_double_headed_arrow: "Introduced by the German chemist Fritz Arndt who preferred the German phrase zwischenstufe or intermediate stage",
+  the_most_stable_contributing_structures: "Called major contributors",
+  the_ozone_molecule: "Represented by two contributing structures",
+  the_diborane_molecule: "Described by contributing structures, each with electron-deficiency on different atoms",
+  the_excited_states_of_conjugated_dienes: { definition: "Stabilized more by conjugation than their ground states, causing them to become organic dyes", what_it_does: "", examples: "using X-ray diffraction" },
+  the_contributing_structures_in_the_vb_model: "Particularly useful in predicting the effect of substituents on π systems such as benzene",
+  the_reason_for_squaring_the_coefficient: "That if an electron is described by an AO, then the square of the AO gives the electron density",
+  the_aos: "Adjusted ( normalized ) so that AO 2 = 1, and q i ≈ ( c i AO i ) 2 ≈ c 2 i",
+  in_the_case_of_ions_it: "Common to speak about delocalized charge (charge delocalization)",
+
 };
 
 // ============================================================
