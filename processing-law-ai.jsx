@@ -69572,6 +69572,9 @@ const FLAT_DICT = {
   this_standardization: { definition: "Achieved by a process called authority control", what_it_does: "", examples: "names, subjects, and titles – to be used as headings in bibliographic records" },
   the_plays_of_william_shakespeare: "Another frequently cited example of the role played by a uniform title in the library catalog",
 
+  // === INGESTED 2026-07-08 12:41 ===
+  the_format_and_location_of_the_page_numbers: "A matter of style for the publisher",
+
 };
 
 // ============================================================
