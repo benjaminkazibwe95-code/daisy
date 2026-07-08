@@ -68806,6 +68806,24 @@ const FLAT_DICT = {
   the_intensity_of_the_massspectrometry_peaks: "Proportional to the isotopic abundances in the molecular species",
   the_only_external_measurement_required: "Refractive index increment , which describes the change in refractive index with concentration",
 
+  // === INGESTED 2026-07-08 01:47 ===
+  diffraction_patterns: "Pronounced when a wave from a coherent source (such as a laser) encounters a slit/aperture as shown in the first image",
+  these_point_sources: "Driven by the incoming plane wave and they interfere beyond the barrier",
+  the_fresnel_part: "The superposition (linear sum) of these secondary waves and their consequent interference",
+  the_effects_of_diffraction: { definition: "Often seen in everyday life", what_it_does: "", examples: "the Sun or the Moon" },
+  if_the_incident_light: "A single wavelength and coherent , these sources all have the same phase",
+  light_in_the_space_downstream_of_the_slit: { definition: "Made up of contributions from each of these point sources", what_it_does: "", examples: "a screen with a circular hole is complementary to a circular disk the same size as the hole" },
+  knifeedge_diffraction: "An outgrowth of the ' half-plane problem', originally solved by Arnold Sommerfeld using a plane wave spectrum formulation",
+  a_generalization_of_the_halfplane_problem: "The 'wedge problem', solvable as a boundary value problem in cylindrical coordinates",
+  the_solution_in_cylindrical_coordinates: "Then extended to the optical regime by Joseph B",
+  the_light_diffracted_by_a_grating: "Found by summing the light diffracted from each of the elements, and is essentially a convolution of diffraction and interference patterns",
+  a_more_mathematical_approach: "Treating the problem as a summation over spherical waves derived from the relevant wave equation; see for instance Born and Wolf for details",
+  in_the_cases_discussed_above_it: "Implicitly assumed that the wave encounters some single barrier or obstruction and is then diffraction by it",
+  the_case_when_only_single_diffraction_occurs: "Called kinematical diffraction , the more general case is called dynamical diffraction",
+  dynamical_diffraction: "Quite well developed for x-rays, [ 20 ] [ 21 ] and also for electrons",
+  diffraction_of_electrons_and_neutrons: { definition: "One of the powerful arguments in favor of quantum mechanics", what_it_does: "", examples: "a sodium atom traveling at about 300 m/s would have a de Broglie wavelength of about 50 picometres" },
+  bragg_diffraction: "A consequence of interference between waves reflecting from many different crystal planes",
+
 };
 
 // ============================================================
