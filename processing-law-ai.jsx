@@ -69292,6 +69292,20 @@ const FLAT_DICT = {
   the_other_intent_of_the_extension: { definition: "To protect authors' rights 'for life plus 50 years — the most common term internationally and the one [ Mark ] Twain fought for in his lifetime'", what_it_does: "", examples: "the Copyright Act of 1909, and extend to all relevant common law and state copyright laws" },
   any_material_object_in_which_its_embodiment: { definition: "'sufficiently permanent or stable to permit it to be perceived, reproduced, or otherwise communicated for a period of more than transitory duration", what_it_does: "", examples: "'translations, adaptations and other derivative works" },
 
+  // === INGESTED 2026-07-08 11:03 ===
+  the_news_industry: { definition: "Meant to serve the public interest, hold people and businesses to account, and promote freedom of information and expression", what_it_does: "", examples: "negative versus positive articles can affect the reader's perspective" },
+  these_publications: "Specific to a particular field and often push the boundaries established in these fields",
+  the_book_market: "Huge, with around 1.5 billion people speaking English",
+  directories: "Available as searchable lists, on a map, as a sector-specific portal , as a review site (expert or consumer), or as a comparison site",
+  oxford_university_press: { definition: "The largest in the world and specializes in research, education, and English language teaching internationally", what_it_does: "", examples: "holds more than 170 million items with 3 million new additions each year" },
+  these_products_include_but: "Not limited to spin-off books, graphic novels, soundtrack albums, computer games, models and toys, social media posts, and promotional publications",
+  examples_of_tiein_publishing_based_on_books: "The Harry Potter and James Bond franchises",
+  the_publishing_landscape: "Continually evolving",
+  these_multimedia_works: "Cross-marketed aggressively, and sales frequently outperform the average stand-alone published work, making them a focus of corporate interest",
+  the_contract_varies_according_to_what: "Negotiated between author and company, but will always include the surrender of some rights to the publisher",
+  an_increasing_number_of_authors: { definition: "Using niche marketing online to sell more books by engaging with their readers online", what_it_does: "", examples: "refusal to reprint the title" },
+  a_book_that: { definition: "Privished may be referred to as 'killed'", what_it_does: "", examples: "not printing more books than the publisher believes will sell in a reasonable length of time)" },
+
 };
 
 // ============================================================
