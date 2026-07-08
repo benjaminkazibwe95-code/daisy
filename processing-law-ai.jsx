@@ -69659,6 +69659,34 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 23:17 ===
   a_liquidity_event: "Not to be confused with the liquidation of a company, in which the company's business is discontinued",
 
+  // === INGESTED 2026-07-08 23:19 ===
+  peace_treaties: { definition: "Signed with Egypt in 1979 (the Sinai being returned in 1982) and Jordan in 1994", what_it_does: "", examples: "the United States , deny that Israel's actions constitute genocide" },
+  while_it_is_unclear_if_there: "A United Kingdom of Israel , [ 75 ] [ 76 ] historians and archaeologists agree that the northern Kingdom of Israel existed by ca",
+  a_series_of_laws: "Passed that discriminated against Jews and Judaism, and Jews were persecuted by both the church and the authorities",
+  those_who_went_to_palestine: "Driven primarily by ideas of self-determination and Jewish identity, rather than as a response to pogroms or economic insecurity",
+  both_the_first_and_second_waves_of_migrants: { definition: "Mainly Orthodox Jews", what_it_does: "", examples: "modern Israel) was named Mandatory Palestine" },
+  most_of_the_ships: { definition: "Intercepted by the Royal Navy and the refugees placed in detention camps in Atlit and Cyprus", what_it_does: "", examples: "East Jerusalem , and Egypt occupied the Gaza Strip" },
+  the_memorandum: { definition: "Criticised by major international human rights organisations for its 'encouragement' of human rights abuses", what_it_does: "", examples: "the entirety of the Gaza Strip and over 90% of the West Bank with Jerusalem as a shared capital" },
+  the_golan_heights_and_all_of_jordan: "Part of the Arabian Plate, while the Galilee, West Bank, Coastal Plain, and Negev along with the Sinai Peninsula are on the African Plate",
+  the_entire_jordan_valley_segment: "Thought to have ruptured repeatedly, for instance during the last two major earthquakes along this structure in 749 and 1033",
+  membership_of_the_knesset: "Based on proportional representation of political parties , [ 340 ] [ 341 ] with a 3",
+  districts: { definition: "Divided into 15 sub-districts known as nafot ( Hebrew: נפות ; sing", what_it_does: "", examples: "East Jerusalem), the Gaza Strip and the Golan Heights" },
+  the_gaza_strip: { definition: "Occupied by Israel after 1967", what_it_does: "", examples: "numerous international humanitarian organisations and UN bodies, consider Gaza to remain occupied" },
+  the_opinion: "Silent as to whether the discrimination amounts to apartheid; individual judges were split on the question",
+  most_women: "Exempt from reserve duty",
+  the_arrow_missile: "One of the world's few operational anti-ballistic missile systems",
+  above_them: "District courts , serving as both appellate courts and courts of first instance ; they are situated in five of Israel's six districts",
+  the_third_and_highest_tier: "The Supreme Court , located in Jerusalem; it serves a dual role as the highest court of appeals and the High Court of Justice",
+  court_cases: "Decided by professional judges",
+  the_election_of_judges: { definition: "Carried out by a selection committee chaired by the justice minister (currently Yariv Levin )", what_it_does: "", examples: "the Golan Heights, East Jerusalem and Israeli settlements in the West Bank" },
+  the_sorek_desalination_plant: "The largest seawater reverse osmosis desalination facility in the world",
+  exact_figures: { definition: "Unknown, as many of them are living in the country illegally, [ 594 ] but estimates run from 166,000 to 203,000", what_it_does: "", examples: "Ashkenazi Jews, constitute approximately 44% of Jewish Israelis" },
+  several_village_sign_languages: { definition: "Used in Israel, most notably the Al-Sayyid Bedouin Sign Language and the Kafr Qasem Sign Language", what_it_does: "", examples: "Buddhists and Hindus , maintain a presence in Israel, albeit in small numbers" },
+  a_number_of_other_religious_landmarks: "Located in the West Bank , including Joseph's Tomb , the birthplace of Jesus , Rachel's Tomb , and the Cave of the Patriarchs",
+  the_public_secular: "The largest school group and is attended by the majority of Jewish and non-Arab pupils",
+  public_holidays: "Determined by the Jewish holidays , and except for Yom HaAtzma'ut (Independence Day) there are no annual civil holidays",
+  the_official_day_of_rest: { definition: "Saturday, the Jewish Sabbath", what_it_does: "", examples: "Mohammad Bakri 's 2002 film Jenin, Jenin and The Syrian Bride" },
+
 };
 
 // ============================================================
