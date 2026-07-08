@@ -69306,6 +69306,36 @@ const FLAT_DICT = {
   an_increasing_number_of_authors: { definition: "Using niche marketing online to sell more books by engaging with their readers online", what_it_does: "", examples: "refusal to reprint the title" },
   a_book_that: { definition: "Privished may be referred to as 'killed'", what_it_does: "", examples: "not printing more books than the publisher believes will sell in a reasonable length of time)" },
 
+  // === INGESTED 2026-07-08 11:07 ===
+  a_newspaper: { definition: "A periodical publication containing written information about current events and is often typed in black ink with a white or gray background", what_it_does: "", examples: "politics , business , sports , art , science , and religions" },
+  most_newspapers: "Businesses, and they pay their expenses with a mixture of subscription revenue, newsstand sales , and advertising revenue",
+  news_magazines: { definition: "Also weekly, but they have a magazine format", what_it_does: "", examples: "Craigslist and eBay has led to significantly less classified ad sales for newspapers" },
+  some_newspapers: "Published two times a week and are known as semi-weekly publications",
+  the_editorial_independence_of_a_newspaper: "Thus always subject to the interests of someone, whether owners, advertisers or a government",
+  the_oldest_newspaper_still_published: "The Ordinari Post Tijdender , which was established in Stockholm in 1645",
+  merkuriusz_polski_ordynaryjny: "Published in Kraków , Poland in 1661",
+  the_first_newspaper_in_peru: "El Peruano , established in October 1825 and still published today, but with several name changes",
+  many_editors: "Not only journalists but also writers, philosophers and politicians",
+  literary_works_of_all_genres: "Serialized and published in the press as well",
+  the_first_newspapers_in_the_ottoman_empire: { definition: "Owned by foreigners living there who wanted to make propaganda about the Western world", what_it_does: "", examples: "less educated and lower-income people" },
+  a_daily_newspaper: { definition: "Printed every day, sometimes with the exception of Sundays and occasionally Saturdays (and some major holidays)", what_it_does: "", examples: "on arts, films, entertainment) and advertising inserts, and cost more" },
+  in_some_cases_a_sunday_edition: { definition: "An expanded version of a newspaper from the same publisher; in other cases, particularly in Britain, it may be a separate enterprise, e.g", what_it_does: "", examples: "The New York Times Magazine and The Sunday Times Magazine )" },
+  in_some_countries_daily_newspapers: "Not published on Christmas Day , but weekly newspapers would change their day e.g",
+  sunday_newspapers: "Published on Saturday 24 December, Christmas Eve when Christmas Day falls on Sunday",
+  the_meridian_star: "An example of such a publication",
+  some_publications: { definition: "Published, for example, fortnightly (or biweekly in American parlance)", what_it_does: "", examples: "a city, or part of a large city" },
+  these_divisions: "Called news bureaus or 'desks', and each is supervised by a designated editor",
+  reporters: { definition: "Journalists who primarily report facts that they have gathered, and those who write longer, less news-oriented articles may be called feature writers", what_it_does: "", examples: "sports, religion, or science" },
+  columnists: { definition: "Journalists who write regular articles recounting their personal opinions and experiences", what_it_does: "", examples: "local businesses, but also help clients design and plan their advertising campaigns" },
+  editioning_occurs_in_the_main_sections_as_news: "Updated throughout the night",
+  the_previous_edition: { definition: "Always copied to maintain a Newspaper of Record and to fall back on if a quick correction is needed for the press", what_it_does: "", examples: "the leader in the Giro d'Italia wears a pink jersey" },
+  the_classified_category: "Shifting to sites including Craigslist , employment websites, and auto sites",
+  national_advertisers: "Shifting to many types of digital content including websites, rich media platforms, and mobile",
+  advertorials: { definition: "Most commonly recognized as an opposite-editorial which third parties pay a fee to have included in the paper", what_it_does: "", examples: "a new design for golf equipment, a new form of laser surgery, or weight-loss drugs" },
+  the_tone: "Usually closer to that of a press release than of an objective news story",
+  criticism_of_journalism: "Varied and sometimes vehement",
+  one_of_the_challenges: "That a number of online news websites are free to access",
+
 };
 
 // ============================================================
