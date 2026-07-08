@@ -68978,6 +68978,10 @@ const FLAT_DICT = {
   yet_there: { definition: "No established standard framework to evaluate and govern the CEO performance", what_it_does: "", examples: "the relative pay was 20-to-1 in 1965 in the US, but had risen to 376-to-1 by 2000" },
   some_of_the_most_prominent_controversies: "A result of the MeToo Movement including Harvey Weinstein and the Weinstein Company, Steve Wynn and Wynn Resorts Ltd., and Leslie Moonves & CBS",
 
+  // === INGESTED 2026-07-08 09:39 ===
+  in_a_global_industrial_landscape_that: { definition: "Changing fast, firms must continually revise their design and range of products", what_it_does: "", examples: "a computer manufacturer, might spend 7% or a pharmaceutical companies such as Merck & Co" },
+  bank_ratios: { definition: "One of the best measures, because they are continuously maintained, public and reflect risk", what_it_does: "", examples: "the profitability of the invention" },
+
 };
 
 // ============================================================
