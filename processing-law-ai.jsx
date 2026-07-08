@@ -69543,6 +69543,13 @@ const FLAT_DICT = {
   an_opaque_data_type: "A data type whose concrete data structure is not defined in an interface",
   urn_schemes_where_each_urn: "Also a transparent identifier can be used in distributed (non-central) URN-resolution systems",
 
+  // === INGESTED 2026-07-08 12:30 ===
+  iupac_nomenclature: "Accompanied by typographic conventions",
+  this_work_however_covered_only_what: "Now called inorganic compounds",
+  pac_journal_issues: "Freely available the year following publication",
+  the_main_group: "Selected according to a priority list established by IUPAC",
+  the_remaining_groups: "Treated as prefixes and are attached to the name of the main carbon chain",
+
 };
 
 // ============================================================
