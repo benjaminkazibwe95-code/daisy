@@ -69643,6 +69643,12 @@ const FLAT_DICT = {
   public_pensions: "A major source of capital for private-equity funds",
   privateequity_funds: "Open solely to 'qualified' (read: high-net-worth) individual investors and to institutions such as endowments",
 
+  // === INGESTED 2026-07-08 23:04 ===
+  if_people: "Perfectly calibrated, their 90% confidence intervals would include the correct answer 90% of the time",
+  overplacement: { definition: "The most prominent manifestation of the overconfidence effect which is a belief that erroneously rates someone as better than others", what_it_does: "", examples: "owning one's own home) and bad outcomes that happened to be rare (such as being struck by lightning)" },
+  as_the_subjects: "Given more information about the case study, their confidence increased from 33% to 53%",
+  genuine_expert_intuition: "Acquired by learning from frequent, rapid, high-quality feedback about the quality of previous judgments",
+
 };
 
 // ============================================================
