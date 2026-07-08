@@ -69198,6 +69198,10 @@ const FLAT_DICT = {
   atmospheric_emissions_of_lead: "At their peak during the Industrial Revolution, and the leaded gasoline period in the second half of the twentieth century",
   particulate_control_devices: { definition: "Installed in coal-fired power plants to capture lead emissions", what_it_does: "", examples: "that used for tubing and the insulation of electrical cords), and Chinese brass" },
 
+  // === INGESTED 2026-07-08 10:37 ===
+  examples_of_idms: "Intel , Samsung , Texas Instruments , Infineon and STMicroelectronics",
+  the_term_osats: "'outsourced semiconductor assembly and test providers'",
+
 };
 
 // ============================================================
