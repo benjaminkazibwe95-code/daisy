@@ -69695,6 +69695,9 @@ const FLAT_DICT = {
   the_publications_office_of_the_european_union: "Managed by its director-general and senior management on the basis of the strategic guidelines set by the management committee",
   the_overall_aim: { definition: "To facilitate transparency, economic activity, and the dissemination of knowledge", what_it_does: "", examples: "artificial intelligence, and access to knowledge in general" },
 
+  // === INGESTED 2026-07-08 23:38 ===
+  the_specification_for_the_info_scheme: "Provided by the Informational RFC 4452",
+
 };
 
 // ============================================================
