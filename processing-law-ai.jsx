@@ -69532,6 +69532,10 @@ const FLAT_DICT = {
   originally_the_reviews: "Written in several languages, but later an 'English only' policy was introduced",
   current_mathematical_publications: "A subject index in print format that published the newest and upcoming mathematical literature, chosen and indexed by Mathematical Reviews editors",
 
+  // === INGESTED 2026-07-08 12:24 ===
+  a_part_number: { definition: "An identifier, but it is not a unique identifier—for that, a serial number would be needed, to identify each instance of the part design", what_it_does: "", examples: "sequential serial numbers leak information (i.e" },
+  identifiers: "Used extensively in virtually all information processing systems",
+
 };
 
 // ============================================================
