@@ -69389,6 +69389,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 11:20 ===
   its_name_in_english: "Ex (pronounced / ˈ ɛ k s / ⓘ ), plural exes",
 
+  // === INGESTED 2026-07-08 11:22 ===
+  in_some_cases_they: { definition: "Not perfectly implemented", what_it_does: "", examples: "the United Kingdom , whose alpha-2 code is GB , uses .uk instead of" },
+  some_other_region_grouping_subtags: "Derived from other standards",
+  each_entry: "Assigned a four-letter alphabetic code, where the first two letters are the deleted alpha-2 code",
+  indeterminately_reserved_code_elements: "Reserved for use in a particular way, usually due to their presence in other coding systems",
+
 };
 
 // ============================================================
