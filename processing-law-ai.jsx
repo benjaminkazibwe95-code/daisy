@@ -69472,6 +69472,9 @@ const FLAT_DICT = {
   most_fets: "Made by using conventional bulk semiconductor processing techniques , using a single crystal semiconductor wafer as the active region, or channel",
   fieldeffect_transistors: { definition: "Also distinguished by the method of insulation between channel and gate", what_it_does: "", examples: "tuners and low-noise amplifiers for VHF and satellite receivers" },
 
+  // === INGESTED 2026-07-08 11:48 ===
+  talk_pages: "Where people discuss how to make content on Wikipedia the best that it can be",
+
 };
 
 // ============================================================
