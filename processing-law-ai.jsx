@@ -68892,6 +68892,13 @@ const FLAT_DICT = {
   still_a_third_approach: "To look at flipism as the endpoint of a continuum bounded on the other side by perfectly rational decision-making",
   flipism_is_a_film_trope_that: "Used to argue for 'the supremacy of free will in a chaotic world'",
 
+  // === INGESTED 2026-07-08 09:15 ===
+  this_is_quantified_in_terms_of_what: "Known as the warrant (in this case, a demonstration of the process that leads to the significant effect)",
+  this_type_of_argument: { definition: "Sometimes used as a form of fearmongering in which the probable consequences of a given action are exaggerated in an attempt to scare the audience", what_it_does: "", examples: "the camel's nose in the tent , parade of horribles , boiling frog , and snowball effect" },
+  sidgwick_says_this: { definition: "'popularly known as the objection to a thin end of a wedge' but might be classified now as a decisional slippery slope", what_it_does: "", examples: "Volokh 2003 ) in the future be re-evaluated as acceptable" },
+  the_fourth: "The catastrophic outcome at the very end of the sequence",
+  not_all_of_these_components: "Typically made explicit ",
+
 };
 
 // ============================================================
