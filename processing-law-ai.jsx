@@ -69273,6 +69273,17 @@ const FLAT_DICT = {
   six_general_types_of_cc_licenses: "Available (although some of them are not properly free per the above definitions and per Creative Commons' own advice)",
   in_europe_consumers: { definition: "Acting up against the rising costs of music, film and books, and as a result Pirate Parties have been created", what_it_does: "", examples: "the United States and the United Kingdom, have rejected the doctrine of a common law copyright" },
 
+  // === INGESTED 2026-07-08 10:56 ===
+  the_copyright_holder: "Usually the work's creator, or a publisher or other business to whom copyright has been assigned",
+  copyright_infringement_disputes: "Usually resolved through direct negotiation, a notice and take down process, or litigation in civil court",
+  if_the_work: { definition: "Produced under corporate authorship it may last 120 years after creation or 95 years after publication, whichever is sooner", what_it_does: "", examples: "Canada [ 46 ] and European Union (EU) member states like Poland" },
+  in_us_law_this: { definition: "Characterized as ' safe harbor ' provisions", what_it_does: "", examples: "contributory liability and vicarious liability" },
+  only_certain_types_of_works_and_kinds_of_uses: { definition: "Protected; [ 63 ] only unauthorized uses of protected works can be said to be infringing", what_it_does: "", examples: "but not limited to minimal quotations used in journalism and education" },
+  access_to_the_study: "Requested and obtained by Member of the European Parliament Felix Reda",
+  the_us_government: "Also reported to suffer from music piracy, losing $422 million in tax revenue",
+  one_argument_against_the_research: "That many music consumers only download music illegally",
+  the_report_said_piracy: { definition: "'causing considerable harm to EU businesses' and high economic losses have occurred in Argentina, China, Ecuador and India", what_it_does: "", examples: "Napster is tenuous, based on correlation rather than causation" },
+
 };
 
 // ============================================================
