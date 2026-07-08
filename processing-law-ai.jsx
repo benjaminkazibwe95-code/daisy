@@ -69386,6 +69386,9 @@ const FLAT_DICT = {
   an_exception_to_the_registration_requirement: "Formerly made for 'experimental namespaces', [ 8 ] since rescinded by RFC 8141",
   these_are_namespaces_where_internet_users: "Expected to benefit from their publication, [ 1 ] and are subject to several restrictions",
 
+  // === INGESTED 2026-07-08 11:20 ===
+  its_name_in_english: "Ex (pronounced / ˈ ɛ k s / ⓘ ), plural exes",
+
 };
 
 // ============================================================
