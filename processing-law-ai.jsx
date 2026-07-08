@@ -68854,6 +68854,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 08:35 ===
   a_van_der_waals_molecule: "A weakly bound complex of atoms or molecules held together by intermolecular attractions such as van der Waals forces or by hydrogen bonds",
 
+  // === INGESTED 2026-07-08 08:39 ===
+  many_different_thinfilm_layers: { definition: "Deposited to complete the full sequence of process steps necessary to manufacture a chip", what_it_does: "", examples: "transistors moved from planar to 3D structures , like FinFETs in the past decade" },
+  layers: "Formed during reaction cycles by alternately pulsing precursors and reactants and purging with inert gas in between each pulse",
+  asm_america: "Founded in Phoenix, Arizona , in 1976",
+  shares_of_asm: "Traded on the Euronext stock exchange since 1996",
+
 };
 
 // ============================================================
