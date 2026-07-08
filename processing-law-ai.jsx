@@ -69575,6 +69575,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 12:41 ===
   the_format_and_location_of_the_page_numbers: "A matter of style for the publisher",
 
+  // === INGESTED 2026-07-08 12:43 ===
+  a_final_report_and_related_documents: "Published; the indecs Metadata Framework document [ 2 ] is a concise summary",
+  central_to_the_analysis: "The assumption that it is possible to produce a generic mechanism to handle complex metadata for all different types of content",
+  one_of_the_deliverables_of_the_indecs_project: "A specification for a directory of parties",
+  interparty: { definition: "Not proposed as a replacement for existing schemes, but as a means of effecting their interoperation", what_it_does: "", examples: "in the work on the proposed ISO ISNI ( International Standard Name Identifier )" },
+
 };
 
 // ============================================================
