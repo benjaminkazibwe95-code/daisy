@@ -69557,6 +69557,21 @@ const FLAT_DICT = {
   the_coden: { definition: "Automatically assigned to all publications referred on CAS", what_it_does: "", examples: "serial and non-serial scientific and technical publications" },
   cassi_online: "The replacement for CASSI as a printed serial issue ( ISSN 0738-6222 ), or as the Collective Index ( ISSN 0001-0634 )",
 
+  // === INGESTED 2026-07-08 12:39 ===
+  a_catalog_for_a_group_of_libraries: { definition: "Also called a union catalog", what_it_does: "", examples: "books, computer files, graphics, realia , cartographic materials, etc" },
+  the_earliest_library_catalogs: "Lists, handwritten or inscribed on clay tablets and later scrolls of parchment or paper",
+  the_card_catalog: "A familiar sight to library users for generations",
+  other_influential_pioneers_in_this_area: "Shiyali Ramamrita Ranganathan and Seymour Lubetzky",
+  a_catalog_card: "An individual entry in a library catalog containing bibliographic information, including the author's name, title, and location",
+  each_book: "Assigned a call number which identified the subject and location, with a decimal point dividing different sections of the call number",
+  catalog_cards: "2 by 5 inches (5 cm × 13 cm) ; the Harvard College size",
+  the_old_cabinets: "Resold, as many people enjoy owning them for storage of personal effects in the home",
+  subject_catalogs: "The rule of the day, and author catalogs were unknown at that time",
+  the_tradition_of_open_stacks_of_printed_books: { definition: "Paradigmatic to modern American library users, but ancient libraries featured stacks of clay or prepaper scrolls that resisted browsing", what_it_does: "", examples: "but most scholarly libraries had recognizable categories (like philosophy, saints, mathematics)" },
+  an_equivalent_scheme_in_the_united_kingdom: "Operated by the British National Bibliography from 1956 [ 23 ] and was subscribed to by many public and other libraries",
+  this_standardization: { definition: "Achieved by a process called authority control", what_it_does: "", examples: "names, subjects, and titles – to be used as headings in bibliographic records" },
+  the_plays_of_william_shakespeare: "Another frequently cited example of the role played by a uniform title in the library catalog",
+
 };
 
 // ============================================================
