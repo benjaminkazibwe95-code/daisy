@@ -68970,6 +68970,14 @@ const FLAT_DICT = {
   job_performance: "Ultimately a function of the perceptions of others",
   fixing_those_choices: "What coaching and psychotherapy are all about",
 
+  // === INGESTED 2026-07-08 09:35 ===
+  ceos: "Also frequently assigned the role of the main manager of the organization and the highest-ranking officer in the C-suite",
+  the_ceo: { definition: "Responsible for implementing the goals, targets, and strategic objectives as determined by the board of directors", what_it_does: "", examples: "those in operations, marketing, business development , finance, human resources , etc" },
+  the_ceo_of_a_political_party: { definition: "Often entrusted with fundraising, particularly for election campaigns", what_it_does: "", examples: "the Wikimedia Foundation" },
+  the_term_managing_director: "Often used in lieu of chief executive officer",
+  yet_there: { definition: "No established standard framework to evaluate and govern the CEO performance", what_it_does: "", examples: "the relative pay was 20-to-1 in 1965 in the US, but had risen to 376-to-1 by 2000" },
+  some_of_the_most_prominent_controversies: "A result of the MeToo Movement including Harvey Weinstein and the Weinstein Company, Steve Wynn and Wynn Resorts Ltd., and Leslie Moonves & CBS",
+
 };
 
 // ============================================================
