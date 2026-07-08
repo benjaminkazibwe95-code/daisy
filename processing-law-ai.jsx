@@ -69649,6 +69649,10 @@ const FLAT_DICT = {
   as_the_subjects: "Given more information about the case study, their confidence increased from 33% to 53%",
   genuine_expert_intuition: "Acquired by learning from frequent, rapid, high-quality feedback about the quality of previous judgments",
 
+  // === INGESTED 2026-07-08 23:10 ===
+  variations_of_entrepreneurship_education: "Offered at all levels of schooling from primary or secondary schools through graduate university programs",
+  the_kids: "Taught about business and economics at a very young age",
+
 };
 
 // ============================================================
