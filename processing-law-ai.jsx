@@ -68860,6 +68860,19 @@ const FLAT_DICT = {
   asm_america: "Founded in Phoenix, Arizona , in 1976",
   shares_of_asm: "Traded on the Euronext stock exchange since 1996",
 
+  // === INGESTED 2026-07-08 08:43 ===
+  it_is_unstable_in_its_pure_form_and_thus: { definition: "Usually handled as a solution", what_it_does: "", examples: "divinyl sulfide and phosphine" },
+  he_also_found_that_acetylene: "Formed by sparking electricity through mixed cyanogen and hydrogen gases",
+  these_solvents: "Used in pressurized gas cylinders",
+  oxygen_with_acetylene: "The hottest burning common gas mixture",
+  oxyacetylene_welding: "A popular welding process in previous decades",
+  oxyacetylene_cutting: { definition: "Used in many metal fabrication shops", what_it_does: "", examples: "by a flashback ), acetylene decomposes explosively into hydrogen and carbon" },
+  copper_acetylide: { definition: "Used as the catalyst", what_it_does: "", examples: "acrylic fibers , glasses , paints , resins , and polymers" },
+  although_such_materials: "Not useful, these discoveries led to the developments of organic semiconductors , as recognized by the Nobel Prize in Chemistry in 2000 to Alan J",
+  natural_acetylene: "Believed to form from catalytic decomposition of long-chain hydrocarbons at temperatures of 1,700 K (1,430 °C; 2,600 °F) and above",
+  vinyl_acetate: "Used instead of acetylene for some vinylations, which are more accurately described as transvinylations",
+  its_bonding_to_the_metal: { definition: "Somewhat similar to that of ethylene complexes", what_it_does: "", examples: "traces of phosphine and arsine , which gives it a distinct garlic -like smell" },
+
 };
 
 // ============================================================
