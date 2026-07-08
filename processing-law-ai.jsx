@@ -69375,6 +69375,10 @@ const FLAT_DICT = {
   this_means_that_when_the_book: "Lying flat with the front cover upwards, the title is oriented left-to-right on the spine",
   when_the_books: "Stacked up or stored in a shelf, what is on the spine is the only visible information about the book",
 
+  // === INGESTED 2026-07-08 11:13 ===
+  a_brochure: { definition: "A promotional document used to introduce an organization, product, service, or event to prospective audiences", what_it_does: "", examples: "pamphlet or leaflet), brochures may also be distributed in digital formats" },
+  brochures_distributed_in_electronic_formats: { definition: "Commonly called e-brochures", what_it_does: "", examples: "gloss, satin/matte, or an aqueous coating) may be specified to adjust sheen and durability" },
+
 };
 
 // ============================================================
