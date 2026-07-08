@@ -69288,6 +69288,10 @@ const FLAT_DICT = {
   csl: "Further developed in collaboration with Zotero developer Simon Kornblith",
   the_releases_of_csl: "0.8 (March 21, 2009), 0.8.1 (February 1, 2010), 1.0 (March 22, 2010), 1.0.1 (September 3, 2012), and 1.0.2 (October 22, 2021)",
 
+  // === INGESTED 2026-07-08 11:01 ===
+  the_other_intent_of_the_extension: { definition: "To protect authors' rights 'for life plus 50 years — the most common term internationally and the one [ Mark ] Twain fought for in his lifetime'", what_it_does: "", examples: "the Copyright Act of 1909, and extend to all relevant common law and state copyright laws" },
+  any_material_object_in_which_its_embodiment: { definition: "'sufficiently permanent or stable to permit it to be perceived, reproduced, or otherwise communicated for a period of more than transitory duration", what_it_does: "", examples: "'translations, adaptations and other derivative works" },
+
 };
 
 // ============================================================
