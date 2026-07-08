@@ -69621,6 +69621,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-08 13:05 ===
   data_providers: { definition: "Required to provide XML metadata in Dublin Core format, and may also provide it in other XML formats", what_it_does: "", examples: "arXiv and the CERN Document Server" },
 
+  // === INGESTED 2026-07-08 13:07 ===
+  this_means_that_if_a_function: "Defined in lowercase, it can be called in uppercase, but if a variable is defined in lowercase, it cannot be referred to in uppercase",
+  nim: { definition: "Case-insensitive and ignores underscores, as long as the first characters match", what_it_does: "", examples: "the Google Search engine is basically case-insensitive, with no option for case-sensitive search" },
+
 };
 
 // ============================================================
