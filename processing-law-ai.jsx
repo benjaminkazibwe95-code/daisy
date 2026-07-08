@@ -69237,6 +69237,10 @@ const FLAT_DICT = {
   chinese_dissident_liu_xiaobo: "Awarded the Nobel Peace Prize for 'his long and non-violent struggle for fundamental human rights in China' on 8 October 2010",
   raman: "The first Asian to get a Nobel prize in Sciences",
 
+  // === INGESTED 2026-07-08 10:48 ===
+  aligners: "A major part of IC manufacture from the 1960s into the late 1970s, when they began to be replaced by the stepper",
+  the_disadvantage_to_the_stepper: "That each chip on the wafer has to be individually imaged, and thus the process of exposing the wafer as a whole is much slower",
+
 };
 
 // ============================================================
