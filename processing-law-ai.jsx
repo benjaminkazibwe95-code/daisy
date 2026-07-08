@@ -69053,6 +69053,24 @@ const FLAT_DICT = {
   this_gate_electrode: "Often called 'gate metal' or 'gate conductor'",
   the_electrical_properties_of_the_gate_oxide: "Critical to the formation of the conductive channel region below the gate",
 
+  // === INGESTED 2026-07-08 09:56 ===
+  the_term_chemical_vapour_deposition: "Coined in 1960 by John M",
+  cvd: "Extremely useful in the process of atomic layer deposition at depositing extremely thin layers of material",
+  these_processes_generally_differ_in_the: "By which chemical reactions are initiated",
+  most_modern_cvd: "Either LPCVD or UHVCVD",
+  gallium_arsenide: "Used in some integrated circuits (ICs) and photovoltaic devices",
+  amorphous_polysilicon: { definition: "Used in photovoltaic devices", what_it_does: "requires a phosphorus concentration of at least 6%, but concentrations above 8% can corrode aluminium", examples: "lubricity, hydrophobicity and weather-resistance to name a few" },
+  silicon_nitride: { definition: "Often used as an insulator and chemical barrier in manufacturing ICs", what_it_does: "", examples: "Cu( hfac ) 2" },
+  the_most_popular_carbon_source_that: "Used to produce graphene is methane gas",
+  one_of_the_less_popular_choices: "Petroleum asphalt, notable for being inexpensive but more difficult to work with",
+  if_the_flow_ratio_of_methane_and_hydrogen: "Not appropriate, it will cause undesirable results",
+  the_use_of_catalyst: { definition: "Viable in changing the physical process of graphene production", what_it_does: "", examples: "iron nanoparticles, nickel foam, and gallium vapor" },
+  hydrogen_gas_and_inert_gases_such_as_argon: "Flowed into the system",
+  standard_quartz_tubing_and_chambers: { definition: "Used in CVD of graphene", what_it_does: "", examples: "friction and magnetism" },
+  pole_figure_measurements: "Useful and can be used to investigate textures and preferential orientations in deposited films",
+  the_actual_chemical_process_for_diamond_growth: "Still under study and is complicated by the very wide variety of diamond growth processes used",
+  improving_this_process: { definition: "Key to enabling several important applications", what_it_does: "", examples: "optics and transistors) allows the diamond to be used as a heat sink" },
+
 };
 
 // ============================================================
