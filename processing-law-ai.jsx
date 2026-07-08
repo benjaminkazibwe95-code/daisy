@@ -69043,6 +69043,9 @@ const FLAT_DICT = {
   information_services: "A term somewhat loosely applied to a variety of IT-related services offered by commercial companies, [ 59 ] [ 60 ] [ 61 ] as well as data brokers",
   the_field_of_information_ethics: "Established by mathematician Norbert Wiener in the 1940s",
 
+  // === INGESTED 2026-07-08 09:48 ===
+  the_rate_of_diffusion: "The speed with which the new idea spreads from one consumer to the next",
+
 };
 
 // ============================================================
