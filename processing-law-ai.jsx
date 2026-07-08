@@ -69284,6 +69284,10 @@ const FLAT_DICT = {
   one_argument_against_the_research: "That many music consumers only download music illegally",
   the_report_said_piracy: { definition: "'causing considerable harm to EU businesses' and high economic losses have occurred in Argentina, China, Ecuador and India", what_it_does: "", examples: "Napster is tenuous, based on correlation rather than causation" },
 
+  // === INGESTED 2026-07-08 10:58 ===
+  csl: "Further developed in collaboration with Zotero developer Simon Kornblith",
+  the_releases_of_csl: "0.8 (March 21, 2009), 0.8.1 (February 1, 2010), 1.0 (March 22, 2010), 1.0.1 (September 3, 2012), and 1.0.2 (October 22, 2021)",
+
 };
 
 // ============================================================
