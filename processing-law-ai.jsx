@@ -69904,6 +69904,16 @@ const FLAT_DICT = {
   the_chairman_of_the_board: "Lars Engqvist , deputy Prime Minister of the previous Social Democratic government",
   nils_erik_baehrentz: "The controller between 1958 and 1968",
 
+  // === INGESTED 2026-07-09 00:59 ===
+  semantic_interoperability: "A requirement to enable machine computable logic , inferencing, knowledge discovery, and data federation between information systems",
+  the_meaning_of_the_data: "Transmitted with the data itself, in one self-describing ' information package ' that is independent of any information system",
+  syntactic_interoperability: "The packaging and transmission mechanisms for data",
+  no_semantic_communication: "Possible if the syntax is garbled or unable to represent the data",
+  where_accurate_translation_of_syntaxes: { definition: "Possible, systems using different syntaxes may also interoperate accurately", what_it_does: "", examples: "used in an ontology can encode the meanings (semantics) of concepts in a form that does not change" },
+  ambiguity_and_synonymy: "Among the factors that make computer understanding of language very difficult",
+  but_to_see_which_policy_fields: "Capable of profiting from semantic interoperability, see ' Interoperability ' in general",
+  such_policy_fields: "EGovernment , health, security and many more",
+
 };
 
 // ============================================================
