@@ -69931,6 +69931,10 @@ const FLAT_DICT = {
   an_open_standard: "Publicly available, and developed, approved and maintained via a collaborative and consensus driven process",
   we_see_that_the_fundamental_conflict: { definition: "Between vendors who seek to capture markets and raise costs, and the market at large, which seeks freedom and lower costs", what_it_does: "", examples: "the W3C , modified their processes to essentially only permit royalty-free licensing" },
 
+  // === INGESTED 2026-07-09 01:10 ===
+  dspace: "Constructed with Java web applications , many programs, and an associated metadata store",
+  the_asset_store: "Maintained on a file system or similar storage system",
+
 };
 
 // ============================================================
