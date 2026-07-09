@@ -69863,6 +69863,22 @@ const FLAT_DICT = {
   a_fourth_racecourse: "Located at Pukekohe , straddling the boundary between Auckland and the neighbouring Waikato region",
   greyhound_racing: { definition: "Held at Manukau Stadium", what_it_does: "", examples: "the semi-finals and the final) of the 1987 Rugby World Cup and 2011 Rugby World Cup" },
 
+  // === INGESTED 2026-07-09 00:53 ===
+  mohammed: { definition: "Appointed minister of defence and secretary general of the royal court", what_it_does: "", examples: "'the opening of cinemas and mass layoffs of Wahhabi imams'" },
+  those_regarded_as_political_dissidents: "Systematically repressed through methods including imprisonment, torture, and executions, including for online criticism",
+  the_haramain_express: { definition: "450 km line travelling up to 300 km/h that can transport around 60 million passengers annually", what_it_does: "", examples: "the FIFA Club World Cup in 2034 and the Asian Games in 2029" },
+  the_wahhabis: "Committed to fixed social and gender relationships",
+  the_three_princes: "Charged with treason",
+  the_saudi_government_claimed_the_princes: "Trying to overthrow Mohammed bin Salman",
+  western_diplomats_say_that_mohammed: "Strongly influenced by Emirati politician Sheikh Mohammed bin Zayed Al Nahyan (who later became ruler of Abu Dhabi)",
+  the_uae: { definition: "Pushing for the idea of helping Russia stabilise Syria and enabling the Assad regime in the country", what_it_does: "", examples: "Ukraine and earlier U.S.-Russia negotiations," },
+  mohammed_believed_that_hariri: "In the pocket of Iran-backed Hezbollah , which is a major political force in Lebanon",
+  hariri_eventually: { definition: "Released, went back to Lebanon and annulled his resignation", what_it_does: "", examples: "members of the Gulf Cooperation Council" },
+  the_interpol_notice_against_aljabri: "Removed, citing that he was a political opponent of Mohammed",
+  the_squad: "Identified and returned by Canadian authorities",
+  saudi_officials_said_they: "'working to search for him'",
+  the_person_who_made_the_call: "Identified as Maher Abdulaziz Mutreb, a security officer who is frequently seen travelling with the prince",
+
 };
 
 // ============================================================
