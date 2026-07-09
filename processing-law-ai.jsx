@@ -69793,6 +69793,9 @@ const FLAT_DICT = {
   business_environment: "Subject to constant changes, hence, businesses evolve over time",
   the_life_cyclecompetitive_strength_matrix: "Introduced to overcome these deficiences and better identify 'developing winners' or potential 'losers'",
 
+  // === INGESTED 2026-07-09 00:36 ===
+  ninetysix_volumes: { definition: "Published in the series in five years", what_it_does: "", examples: "Iain Banks" },
+
 };
 
 // ============================================================
