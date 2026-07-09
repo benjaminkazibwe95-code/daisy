@@ -69773,6 +69773,13 @@ const FLAT_DICT = {
   roy_fielding: { definition: "Involved in the creation of these standards (specifically HTTP 1.0 and 1", what_it_does: "", examples: "the need for a low entry barrier to enable global adoption" },
   the_rest_architectural_style: { definition: "Designed for network-based applications, specifically client-server applications", what_it_does: "", examples: "performance, scalability, simplicity, modifiability, visibility, portability, and reliability" },
 
+  // === INGESTED 2026-07-09 00:31 ===
+  download_vod_services: "Practical in homes equipped with cable modems or DSL connections",
+  of_these_the_primary_players_in_the_us: "The telephone companies using DEC, Microsoft, Oracle, IBM, Hewlett-Packard, USA Video, nCube, SGI, and other servers",
+  the_dec_server_system: { definition: "The most-used in these trials", what_it_does: "", examples: "US-based VEOH and UK-based Craze's Online Movies Box movie rental service" },
+  in_demand: "A cable VOD service that also offers pay-per-view",
+  vod: { definition: "Also common in expensive hotels", what_it_does: "", examples: "Spotify [ 37 ] use peer-to-peer distribution to better scale their platforms" },
+
 };
 
 // ============================================================
