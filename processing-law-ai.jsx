@@ -69780,6 +69780,19 @@ const FLAT_DICT = {
   in_demand: "A cable VOD service that also offers pay-per-view",
   vod: { definition: "Also common in expensive hotels", what_it_does: "", examples: "Spotify [ 37 ] use peer-to-peer distribution to better scale their platforms" },
 
+  // === INGESTED 2026-07-09 00:33 ===
+  the_matrix: "Initially created in a collaborative effort by Boston Consulting Group (BCG) employees",
+  the_natural_cycle_for_most_business_units: "That they start as question marks , then turn into stars",
+  the_portfolio_composition: "A function of the balance between cash flows",
+  both_kinds: "Needed simultaneously",
+  the_exact_measure: "The brand's share relative to its largest competitor",
+  if_this_technique: "Used in practice, this scale is logarithmic, not linear",
+  it_shows_where_the_brand: "Positioned against its main competitors, and indicates where it might be likely to go in the future",
+  the_cutoff_point: "Usually chosen as 10 per cent per annum",
+  the_reality_is_that_it: "Only the 'cash cows' that are really important—all the other elements are supporting actors",
+  business_environment: "Subject to constant changes, hence, businesses evolve over time",
+  the_life_cyclecompetitive_strength_matrix: "Introduced to overcome these deficiences and better identify 'developing winners' or potential 'losers'",
+
 };
 
 // ============================================================
