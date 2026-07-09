@@ -70027,6 +70027,9 @@ const FLAT_DICT = {
   exfat: "Supported in macOS starting with version 10.6.5 (Snow Leopard)",
   exfat_is_the_only_file_system_that: "Fully supported on both macOS and Windows that can hold files larger than 4 GB",
 
+  // === INGESTED 2026-07-09 08:54 ===
+  niso: "Designated by ANSI to represent U.S",
+
 };
 
 // ============================================================
