@@ -69740,6 +69740,12 @@ const FLAT_DICT = {
   the_show_ran_for_four_series_and: "Released every other Saturday",
   the_show: "Driven entirely by user-generated questions",
 
+  // === INGESTED 2026-07-09 00:14 ===
+  a_typical_example_of_its_use: "For delivering advertisements to TV stations and tapeless archiving of broadcast TV programs",
+  mxf_has_full_timecode_and_metadata_support_and: "Intended as a platform-agnostic stable standard for future professional video and audio applications",
+  mxf: "Fairly effective at the interchange of D10 (IMX) material, mainly because of the success of the Sony eVTR and Sony's eVTR RDD to SMPTE",
+  some_of_the_incompatibilities: { definition: "Addressed and ratified in the 2009 version of the standard", what_it_does: "", examples: "a trailing space" },
+
 };
 
 // ============================================================
