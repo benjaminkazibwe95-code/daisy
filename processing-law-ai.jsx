@@ -69728,6 +69728,18 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-09 00:06 ===
   attribution: { definition: "The process of identifying who conducted a cyber attack: the individual actors, organized groups, or nation-state sponsors behind an intrusion", what_it_does: "", examples: "finance, energy, and transport" },
 
+  // === INGESTED 2026-07-09 00:08 ===
+  the_microsoft_store_and_xbox_app: { definition: "Now used to cross over the Xbox ecosystem into PC gaming, in addition to handhelds and mobile phones as part of the Play Anywhere initiative", what_it_does: "", examples: "that for Xbox Music, cannot be transferred with this method" },
+  downloadable_content: { definition: "Available, though limited in size due to the narrowband connection and the size limitations of a memory card", what_it_does: "", examples: "voice communication" },
+  the_epic_title: "One of the flagship titles for the service, which was slated for a debut on November 15, 2002, marking the anniversary of the Xbox launch",
+  the_first_wave_of_beta_testers: { definition: "Given Re-Volt (which was never released officially) and NFL Fever 2003 to beta test", what_it_does: "", examples: "those through the Xbox Game Pass subscription)" },
+  a_gamertag: "A unique identifier, and can include numbers, letters, and spaces",
+  some_sites: { definition: "Solely devoted to these achievement guides, and some blogs provide gaming guides in addition to their other content", what_it_does: "", examples: "a new player joining million-player leagues can be ranked correctly in fewer than 20 games" },
+  the_microsoft_store: "The current digital marketplace for the Xbox ecosystem starting in 2017 for the Xbox One",
+  microsoft_also_stated_that_they: { definition: "Looking to bring this functionality to the Nintendo Switch , [ 77 ] anticipating this to be a post-launch feature for the Switch port of Cuphead", what_it_does: "", examples: "Xbox , Xbox 360 , Microsoft Windows ( Vista and 7 ), Windows Phone , and Zune" },
+  the_show_ran_for_four_series_and: "Released every other Saturday",
+  the_show: "Driven entirely by user-generated questions",
+
 };
 
 // ============================================================
