@@ -69982,6 +69982,12 @@ const FLAT_DICT = {
   all_of_these_exchanges: "Owned by three publicly traded multinational companies, Intercontinental Exchange , Nasdaq, Inc",
   exchange_traded_forward_contracts: { definition: "Called futures contracts", what_it_does: "", examples: "interest rates and shares, as well as options contracts" },
 
+  // === INGESTED 2026-07-09 08:13 ===
+  mcgregor: "A student of Abraham Maslow",
+  when_the_mcgregor_institute: "Given a grant by the Detroit Department of Public Works, McGregor returned to Wayne State to finish his degree in 1932",
+  having_an_attitude_that_workers: "Content, motivated, and long for responsibility is manager that subscribes to Theory Y",
+  instead_mcgregor: "Interpreted as advocating Theory Y as a new and superior ethic – a set of moral values that ought to replace the values managers usually accept",
+
 };
 
 // ============================================================
