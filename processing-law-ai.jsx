@@ -69800,6 +69800,12 @@ const FLAT_DICT = {
   abegglen: "Born in Michigan in 1926",
   when_the_war_ended_he: "Assigned to Strategic Bombing Survey (USSBS) as a researcher and returned to Japan",
 
+  // === INGESTED 2026-07-09 00:42 ===
+  mellon_financial_corporation: { definition: "An American investment firm which was once one of the world's largest money management firms", what_it_does: "", examples: "the Dreyfus family of mutual funds , business banking , and shareholder and investor services" },
+  mellon: "Opened in January 1870 by Thomas Mellon and his sons Andrew Mellon and Richard B",
+  mellon_bank: "An important force in the mass production revolution in the United States, especially in the Midwest",
+  mellon_is_a_large_provider_of_what: "Known as controlled disbursement accounts",
+
 };
 
 // ============================================================
