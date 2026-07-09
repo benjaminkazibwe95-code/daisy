@@ -69882,6 +69882,28 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-09 00:55 ===
   prweek: { definition: "A trade magazine and news website for the public relations and wider communications industry", what_it_does: "", examples: "the annual ranking of Top 150 PR consultancies" },
 
+  // === INGESTED 2026-07-09 00:57 ===
+  the_swedish_public_broadcasting_system: "Largely modelled after the system used in the United Kingdom , and Sveriges Television shares many traits with its British counterpart, the BBC",
+  svt: "The most watched network in Sweden with a share of 38",
+  svt_and_sveriges_radio: "Originally a joint company, but since 1979 they and Sveriges Utbildningsradio are sibling companies sharing some joint services",
+  the_first_transmissions: "Made on 29 October 1954 from the Royal Institute of Technology in Stockholm",
+  more_regional_news_programmes: "Launched in 1972 and the entire country was covered by regional news programmes by 1987 when ABC from Stockholm began",
+  aktuellt: "Replaced by TV-nytt , which was responsible for the main 19.30 bulletin on TV1 as well as news updates on both channels",
+  rapport: "Moved to the 19.30 slot on TV2 while Aktuellt was revived, to broadcast at 18.00 and 21.00 on TV1",
+  the_first_colour_broadcast: "Made in 1966, with regular colour broadcasts being introduced in 1970",
+  the_abbreviation_svt: "Chosen over the arguably more logical 'STV' as that abbreviation was already occupied by Scottish Television in the EBU",
+  broadcasting_in_nicam_stereo: "Made permanent in 1988",
+  the_main_national_news_bulletins: "Rapport , broadcast at 18.00 and 19.30, and Aktuellt which reports in greater depth at 21.00",
+  regional_content: "Entirely solely restricted to news which is broadcast on SVT1 and SVT2",
+  the_regional_news_programmes: "Broadcast on SVT1 at 18.33–18.45 on Mondays to Fridays (18.10–18.15 on Sundays), with a follow-up bulletin at 19.55–20.00",
+  these_same_practices: "Also done for segments of local programmes that contain foreign language dialogue",
+  it_was_generally_unused_and: "(as of 2006) last used for live coverage during the 2004 Summer Olympic Games",
+  cable_networks: { definition: "Required to broadcast four SVT channels for free in either digital or analogue form", what_it_does: "", examples: "movies, sports, or English language programming" },
+  the_executive_management_of_svt: "Handled by a CEO, appointed by the board",
+  the_ceo_of_svt: "Currently Hanna Stjärne who took over the role from Eva Hamilton in 2015",
+  the_chairman_of_the_board: "Lars Engqvist , deputy Prime Minister of the previous Social Democratic government",
+  nils_erik_baehrentz: "The controller between 1958 and 1968",
+
 };
 
 // ============================================================
