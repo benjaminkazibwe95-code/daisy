@@ -69722,6 +69722,9 @@ const FLAT_DICT = {
   it_had_said_that_the_work: { definition: "Done 'pro bono' but The Washington Post reported that BCG submitted invoices of over $1 million per month", what_it_does: "", examples: "a 'Trump Riviera' and an 'Elon Musk Smart Manufacturing Zone'" },
   the_relocation_component: "Widely condemned; United Nations officials likened it to ethnic cleansing, and several European governments criticized the concept",
 
+  // === INGESTED 2026-07-09 00:01 ===
+  hayes: { definition: "Chairman and CEO of the combined company, [ 8 ] which was renamed from Raytheon Technologies Corporation to RTX in July 2023", what_it_does: "", examples: "the CK722 , priced for and marketed to hobbyists" },
+
 };
 
 // ============================================================
