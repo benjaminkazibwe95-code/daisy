@@ -69914,6 +69914,13 @@ const FLAT_DICT = {
   but_to_see_which_policy_fields: "Capable of profiting from semantic interoperability, see ' Interoperability ' in general",
   such_policy_fields: "EGovernment , health, security and many more",
 
+  // === INGESTED 2026-07-09 01:02 ===
+  the_most_famous_implementation_of_hypertext: "The World Wide Web , written in the final months of 1990 and released on the Internet in 1991",
+  the_first_hypermedia_application: { definition: "Generally considered to be the Aspen Movie Map , implemented in 1978", what_it_does: "", examples: "search and query in large hypertexts, composite structures, versioning, and collaborative work" },
+  as_new_web_browsers: "Released, traffic on the World Wide Web quickly exploded from only 500 known web servers in 1993 to over 10,000 in 1994",
+  hypertext_fiction: "One of earliest genres of electronic literature , or literary works that are designed to be read in digital media",
+  the_story: "Written as a reflection diary of the interconnected memories of childhood, adolescence, and adulthood",
+
 };
 
 // ============================================================
