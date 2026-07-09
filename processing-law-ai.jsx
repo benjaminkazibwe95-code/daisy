@@ -69946,6 +69946,11 @@ const FLAT_DICT = {
   posters_advertising_the_programme: "Displayed throughout the area",
   the_report_that_he_did_so: "A hurriedly put together 'CIA cover story creating 'facts'' in a clumsy attempt to protect Aziz and his real mission",
 
+  // === INGESTED 2026-07-09 07:54 ===
+  airbnb: "Founded in 2008 by Brian Chesky , Nathan Blecharczyk , and Joe Gebbia",
+  the_rights: "Sold to MTV , which aired the program on its network",
+  shares: { definition: "Sold for $0.21 each (split adjusted)", what_it_does: "", examples: "murder, [ 183 ] sexual assault , [ 184 ] drowning, [ 185 ] and extortion by hosts" },
+
 };
 
 // ============================================================
