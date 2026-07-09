@@ -69725,6 +69725,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-09 00:01 ===
   hayes: { definition: "Chairman and CEO of the combined company, [ 8 ] which was renamed from Raytheon Technologies Corporation to RTX in July 2023", what_it_does: "", examples: "the CK722 , priced for and marketed to hobbyists" },
 
+  // === INGESTED 2026-07-09 00:06 ===
+  attribution: { definition: "The process of identifying who conducted a cyber attack: the individual actors, organized groups, or nation-state sponsors behind an intrusion", what_it_does: "", examples: "finance, energy, and transport" },
+
 };
 
 // ============================================================
