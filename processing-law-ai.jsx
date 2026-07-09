@@ -69968,6 +69968,20 @@ const FLAT_DICT = {
   platform_cooperatives: { definition: "A business model that differs from platform capitalism , prioritizing fairness and sharing over profit motive", what_it_does: "", examples: "Amazon Mechanical Turk and Crowdflower" },
   wherever_investorowners_of_software_platforms: { definition: "Satisfying the needs of rural asset owners and users, the sharing economy will be welcomed", what_it_does: "", examples: "those that operate via digital platforms" },
 
+  // === INGESTED 2026-07-09 08:09 ===
+  trade_on_an_exchange: "Restricted to brokers who are members of the exchange",
+  a_stock_exchange: "Often the most important component of a stock market",
+  supply_and_demand_in_stock_markets: "Driven by various factors that, as in all free markets , affect the price of stocks (see stock valuation )",
+  the_beginnings_of_lending: "In Italy in the late Middle Ages",
+  the_venetians: "The leaders in the field and the first to start trading securities from other governments, yet did not embark on private trade with India",
+  stock_trading: "More limited and subdued in subsequent decades",
+  the_present_site_near_horniman_circle: "Acquired by the exchange in 1928, and a building was constructed and occupied in 1930",
+  the_street_on_which_the_site: { definition: "Located came to be called Dalal Street in Hindi (meaning 'Broker Street') due to the location of the exchange", what_it_does: "", examples: "the Alternext , CAC Small , SDAX , TecDAX )" },
+  alternative_investment_funds: "An alternative to traditional investment options (stocks, bonds, and cash)",
+  tax_law_changes_that: { definition: "Enacted in 1987 in the United States changed the tax deductibility of investments in R&D limited partnerships", what_it_does: "", examples: "Pets.com (2000), Enron (2001), One" },
+  all_of_these_exchanges: "Owned by three publicly traded multinational companies, Intercontinental Exchange , Nasdaq, Inc",
+  exchange_traded_forward_contracts: { definition: "Called futures contracts", what_it_does: "", examples: "interest rates and shares, as well as options contracts" },
+
 };
 
 // ============================================================
