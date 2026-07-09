@@ -69951,6 +69951,17 @@ const FLAT_DICT = {
   the_rights: "Sold to MTV , which aired the program on its network",
   shares: { definition: "Sold for $0.21 each (split adjusted)", what_it_does: "", examples: "murder, [ 183 ] sexual assault , [ 184 ] drowning, [ 185 ] and extortion by hosts" },
 
+  // === INGESTED 2026-07-09 07:58 ===
+  local_businesses: { definition: "Members, and they elect a board of directors or executive council to set policy for the chamber", what_it_does: "", examples: "the French Chambre de métiers et de l’artisanat [ fr ] (CMA), the chamber of trades and artisans" },
+  the_first_chamber_of_commerce: { definition: "The Marseille Chamber of Commerce , founded in 1599 in Marseille , France, as the 'Chambre de Commerce'", what_it_does: "", examples: "Eurochambres , the International Chamber of Commerce (ICC), and Worldchambers)" },
+  community_chambers_of_commerce: "Smaller and most [ quantify ] have a limit on numbers of members",
+  the_charleston_chamber_of_commerce: "One of the oldest, dating back to colonial 1773",
+  the_main_tasks_of_the_chambers: "Foreign trade promotion, vocational training, regional economic development, and general services to their members",
+  the_chambers: "Given responsibilities of public administration in various fields by the state which they exercise in order management",
+  enterprises: { definition: "Members by law according to the chamber act ( IHK-Gesetz ) of 1956", what_it_does: "", examples: "architects, dentists, engineers, lawyers, notaries, physicians, and pharmacists" },
+  though_governments: "Not required to consult chambers on proposed laws, the chambers are often contacted given their local influence and membership numbers",
+  a_multilateral_chamber: "Formed of companies and sometimes individuals from different countries with a common business interest towards or in a specific country",
+
 };
 
 // ============================================================
