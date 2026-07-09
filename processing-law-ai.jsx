@@ -70033,6 +70033,13 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-09 08:58 ===
   the_rate_of_link_rot: { definition: "A subject of study and research due to its significance to the internet 's ability to preserve information", what_it_does: "", examples: "authorship, subject matter, file extension, software mechanism, or access status" },
 
+  // === INGESTED 2026-07-09 09:02 ===
+  his_trust_model: "Based on social and psychological factors",
+  the_next_classification: "Based considering the peculiar characteristics of these models and the environment where they evolve",
+  direct_experience: "The most relevant and reliable information source for a Trust/reputation model",
+  witness_information: { definition: "Usually the most abundant but its use is complex for trust and reputation modelling", what_it_does: "", examples: "a uniform, a definite behavior, etc" },
+  the_results_show_that_such_biased_trust_models: { definition: "Able to predict human trust significantly better than unbiased trust models", what_it_does: "", examples: "there should be a merging of cognitive approaches with game theoretical ones" },
+
 };
 
 // ============================================================
