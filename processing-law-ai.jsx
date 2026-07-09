@@ -69746,6 +69746,18 @@ const FLAT_DICT = {
   mxf: "Fairly effective at the interchange of D10 (IMX) material, mainly because of the success of the Sony eVTR and Sony's eVTR RDD to SMPTE",
   some_of_the_incompatibilities: { definition: "Addressed and ratified in the 2009 version of the standard", what_it_does: "", examples: "a trailing space" },
 
+  // === INGESTED 2026-07-09 00:16 ===
+  such_discs: { definition: "A form of DVD-ROM because data can only be read and not written or erased", what_it_does: "", examples: "the phrase 'to watch a DVD' describes watching a movie on DVD" },
+  its_drawback: { definition: "A loss from 5 to 4.7 Gigabytes of capacity", what_it_does: "", examples: "the PlayStation 2 , Xbox , and Xbox 360 use DVDs as their source medium for games and other software" },
+  contemporary_games_for_windows: "Also distributed on DVD",
+  early_dvds: "Mastered using DLT tape, [ 40 ] but using DVD-R DL or +R DL eventually became common",
+  each_disc: { definition: "0.6 mm thick, and they are glued together to form a DVD disc", what_it_does: "", examples: "Ecma-267 for DVD-ROMs" },
+  three_formats: "Developed: DVD-R / RW , DVD+R / RW (plus), and DVD-RAM",
+  dvd_players: "A particular type of devices that do not require a computer to work, and can read DVD-Video and DVD-Audio discs",
+  the_difference_between_poe_and_pof: "That a POE is generated on a first failed read attempt whereas a POF indicates an uncorrectable error after repeated attempts to read the data",
+  dvdvideo: "A standard for distributing video/audio content on DVD media",
+  a_lower_temperature_and_rh: { definition: "Recommended for extended-term storage", what_it_does: "", examples: "five DVD-R, five DVD+R, two DVD-RW and three DVD+RW types" },
+
 };
 
 // ============================================================
