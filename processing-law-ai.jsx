@@ -69837,6 +69837,32 @@ const FLAT_DICT = {
   the_resulting_film: "Unacceptable to the organization because they felt it presented their work in an unfavorable light",
   these_salary_proposals: { definition: "Characterized as 'inherently racist' by staff, citing stark disparities between pay for roles in the Global North and Global South", what_it_does: "", examples: "Save the Children called for investigation" },
 
+  // === INGESTED 2026-07-09 00:51 ===
+  the_surrounding_hills: "Covered in rainforest and the landscape is dotted with 53 volcanic centres that make up the Auckland Volcanic Field",
+  auckland: "A major cruise ship stopover point, with the ships usually tying up at Princes Wharf",
+  the_earldom_of_auckland: "Named after West Auckland , a village in County Durham , Northern England",
+  outlying_defensive_towns: "Then constructed to the south, stretching in a line from the port village of Onehunga in the west to Howick in the east",
+  the_majority_of_settlers_in_the_early_period: "Assisted by receiving cheap passage to New Zealand",
+  the_water_temperature: { definition: "Warmest in February when it averages 21 °C (70 °F) , while in August, the water temperature is at its coolest, averaging 14 °C (57 °F)", what_it_does: "", examples: "maars (explosion craters), tuff rings , scoria cones, and lava flows" },
+  the_percentage_of_people_born_overseas: "44.9%, compared with 28.8% nationally",
+  people_who_answered_that_they_had_no_religion: "42.7%, and 6.0% of people did not answer the census question",
+  the_legality_of_this_city: "Challenged and it was later dissolved in March 1855 before finally being repealed by an act in April 1856",
+  an_auckland_harbour_board: "Also established and repealed during the same period",
+  the_capital: "Moved to the more centrally located Wellington in 1865",
+  these_exports: "Collectively worth almost a million pounds",
+  the_demolition_of_the_older_houses: { definition: "Being combated through increased heritage protection for older parts of the city", what_it_does: "", examples: "the Royal New Zealand Yacht Squadron and Westhaven Marina , the largest of the Southern Hemisphere" },
+  many_auckland_beaches: "Patrolled by surf lifesaving clubs, such as Piha Surf Life Saving Club the home of Piha Rescue",
+  all_surf_lifesaving_clubs: "Part of the Surf Life Saving Northern Region",
+  a_number_of_shopping_centres: "Located in the middle- and outer-suburbs, with Westfield Newmarket , Sylvia Park , Botany Town Centre and Westfield Albany being the largest",
+  the_auckland_philharmonia: "The city and region's resident full-time symphony orchestra, performing its own series of concerts and accompanying opera and ballet",
+  smaller_parks_close_to_the_city_centre: { definition: "Albert Park , Myers Park , Western Park and Victoria Park", what_it_does: "", examples: "Maungawhau / Mount Eden , North Head and Maungakiekie / One Tree Hill" },
+  other_parks_around_the_city: "In Western Springs Reserve , which has a large park bordering the MOTAT museum and the Auckland Zoo",
+  the_auckland_botanic_gardens: "Further south, in Manurewa",
+  freight_usually_arrives_at_or: "Distributed from the port via road, though the port facilities also have rail access",
+  auckland_cbd: "Connected to the coastal suburbs, to the North Shore and to outlying islands by ferry",
+  a_fourth_racecourse: "Located at Pukekohe , straddling the boundary between Auckland and the neighbouring Waikato region",
+  greyhound_racing: { definition: "Held at Manukau Stadium", what_it_does: "", examples: "the semi-finals and the final) of the 1987 Rugby World Cup and 2011 Rugby World Cup" },
+
 };
 
 // ============================================================
