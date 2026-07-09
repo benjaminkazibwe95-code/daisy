@@ -69962,6 +69962,12 @@ const FLAT_DICT = {
   though_governments: "Not required to consult chambers on proposed laws, the chambers are often contacted given their local influence and membership numbers",
   a_multilateral_chamber: "Formed of companies and sometimes individuals from different countries with a common business interest towards or in a specific country",
 
+  // === INGESTED 2026-07-09 08:01 ===
+  platform_cooperativism: "An intellectual framework and movement which advocates for the global development of platform cooperatives",
+  economically_and_institutionally_it: "More distant from the radically distributed, non-market mechanisms of commons-based peer production promoted by Yochai Benkler",
+  platform_cooperatives: { definition: "A business model that differs from platform capitalism , prioritizing fairness and sharing over profit motive", what_it_does: "", examples: "Amazon Mechanical Turk and Crowdflower" },
+  wherever_investorowners_of_software_platforms: { definition: "Satisfying the needs of rural asset owners and users, the sharing economy will be welcomed", what_it_does: "", examples: "those that operate via digital platforms" },
+
 };
 
 // ============================================================
