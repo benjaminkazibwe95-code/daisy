@@ -69768,6 +69768,11 @@ const FLAT_DICT = {
   the_mitigation_for_this_problem: "Proper input validation",
   before_input_validation: { definition: "Performed, the input is usually normalized by eliminating encoding (e.g", what_it_does: "", examples: "transclusion" },
 
+  // === INGESTED 2026-07-09 00:27 ===
+  an_important_consequence: "That the only identifier that needs to be known is the identifier of the first resource requested, and all other identifiers will be discovered",
+  roy_fielding: { definition: "Involved in the creation of these standards (specifically HTTP 1.0 and 1", what_it_does: "", examples: "the need for a low entry barrier to enable global adoption" },
+  the_rest_architectural_style: { definition: "Designed for network-based applications, specifically client-server applications", what_it_does: "", examples: "performance, scalability, simplicity, modifiability, visibility, portability, and reliability" },
+
 };
 
 // ============================================================
