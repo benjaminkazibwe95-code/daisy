@@ -69758,6 +69758,16 @@ const FLAT_DICT = {
   dvdvideo: "A standard for distributing video/audio content on DVD media",
   a_lower_temperature_and_rh: { definition: "Recommended for extended-term storage", what_it_does: "", examples: "five DVD-R, five DVD+R, two DVD-RW and three DVD+RW types" },
 
+  // === INGESTED 2026-07-09 00:23 ===
+  to_test_whether_two_objects: "Equivalent, it then suffices to test equality on their canonical forms",
+  canonical_forms: "Generally used to make operating with equivalence classes more effective",
+  operations_on_classes: { definition: "Carried out by combining these representatives, and then reducing the result to its least non-negative residue", what_it_does: "", examples: "allowing for reordering of terms (if there is no natural ordering on terms)" },
+  mathematical_usage: { definition: "Attested in a 1738 letter from Logan", what_it_does: "", examples: "the equation of a line may be written as a linear equation in point-slope and slope-intercept form" },
+  a_common_question_is_whether_it: "Possible to bring some generic expression to a single, common form, the normal form",
+  a_canonical_form: "A labeled graph Canon( G ) that is isomorphic to G , such that every graph that is isomorphic to G has the same canonical form as G",
+  the_mitigation_for_this_problem: "Proper input validation",
+  before_input_validation: { definition: "Performed, the input is usually normalized by eliminating encoding (e.g", what_it_does: "", examples: "transclusion" },
+
 };
 
 // ============================================================
