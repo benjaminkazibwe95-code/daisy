@@ -69806,6 +69806,25 @@ const FLAT_DICT = {
   mellon_bank: "An important force in the mass production revolution in the United States, especially in the Midwest",
   mellon_is_a_large_provider_of_what: "Known as controlled disbursement accounts",
 
+  // === INGESTED 2026-07-09 00:44 ===
+  when_the_roman_empire: { definition: "Strengthening its position throughout Europe, a few Germanic tribes clung on in marshy territory off the eastern banks of the Rhine", what_it_does: "", examples: "the Collegiate Church of St Lambertus [ de ]" },
+  the_immediate_postwar_decades: "Marked by reconstruction",
+  much_of_the_old_town_and_city_centre: { definition: "Rebuilt, though partly in modernist forms rather than historical replicas", what_it_does: "", examples: "steel, machinery, chemicals, and banking" },
+  the_lowest_point: "At the far northern end in Wittlaer borough where the Schwarzbach enters the Rhine, with an average elevation of 28 metres (92 ft)",
+  the_average_annual_temperature: "11.0 °C (52 °F) with an average yearly precipitation of 751 mm (30 in)",
+  the_dominant_wind_direction: "From the west with velocities in the range of 3–4 m/s (7–9 mph) , with gusts of 3.5–4.8 m/s (7.8–10.7 mph)",
+  the_wind: "Calm (defined as being under 2 m/s or 4.5 mph) about 35% of the time, more frequently at night and in the winter",
+  each_borough: "Further subdivided into quarters ( Stadtteile )",
+  the_most_recent_city_council_election: { definition: "Held on 14 September 2025, and the results were as follows: Düsseldorf is among the leading economic centres of Germany", what_it_does: "", examples: "Mitsubishi , Huawei , NTT , Ericsson , Oppo , Epson , Vivo and Xiaomi" },
+  a_tram_network: "Developed toward the end of the 19th century, initially using cars pulled by horses along the tracks, and from 1896 switched to electric operation",
+  heinrichheineallee_station: "The central transfer point between all light rail lines",
+  buses: { definition: "Also an essential component of night service on Friday/Saturday nights, Saturday/Sunday nights, and nights before public holidays", what_it_does: "", examples: "the Rhine Cycle Route" },
+  the_earliest_theatrical_events: "Dated to the year 1585",
+  the_capitol_theater: "The largest theatre in the state capital and hosts changing productions of musicals and live entertainment",
+  caramelized_onions: "Usually served with this meal",
+  the_first_brewery_to_use_the_name_alt: "Schumacher, which opened in 1838",
+  in_addition_the_junior_team: "The most successful youth department in Germany with fifteen Junior Bowl victories",
+
 };
 
 // ============================================================
