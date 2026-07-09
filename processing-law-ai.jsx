@@ -69939,6 +69939,13 @@ const FLAT_DICT = {
   hugh_mcgregor_ross: { definition: "One of its principal architects", what_it_does: "", examples: "had a location in group 0x20, plane 0x20, row 0x20, cell 0x41" },
   and_even_though_it: { definition: "A separate standard, the term Unicode is used just as often, informally, when discussing the UCS", what_it_does: "", examples: "ISO/IEC 10646:2014" },
 
+  // === INGESTED 2026-07-09 01:19 ===
+  his_colleagues: "Suspicious of Afridi's absences, which he explained as 'business' to attend to in Abbottabad",
+  afridi: "Later accused of treason and sentenced to 33 years in prison because of his ties to an extremist",
+  aziz: "Released, but the retired official said that U.S",
+  posters_advertising_the_programme: "Displayed throughout the area",
+  the_report_that_he_did_so: "A hurriedly put together 'CIA cover story creating 'facts'' in a clumsy attempt to protect Aziz and his real mission",
+
 };
 
 // ============================================================
