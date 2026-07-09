@@ -69879,6 +69879,9 @@ const FLAT_DICT = {
   saudi_officials_said_they: "'working to search for him'",
   the_person_who_made_the_call: "Identified as Maher Abdulaziz Mutreb, a security officer who is frequently seen travelling with the prince",
 
+  // === INGESTED 2026-07-09 00:55 ===
+  prweek: { definition: "A trade magazine and news website for the public relations and wider communications industry", what_it_does: "", examples: "the annual ranking of Top 150 PR consultancies" },
+
 };
 
 // ============================================================
