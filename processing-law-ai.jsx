@@ -69825,6 +69825,12 @@ const FLAT_DICT = {
   the_first_brewery_to_use_the_name_alt: "Schumacher, which opened in 1838",
   in_addition_the_junior_team: "The most successful youth department in Germany with fifteen Junior Bowl victories",
 
+  // === INGESTED 2026-07-09 00:46 ===
+  gale: "A global provider of research and digital learning resources",
+  thomson_learning: "Bought by a private equity consortium consisting of Apax Partners and OMERS Capital Partners for $7",
+  sommers: "President of Gale from October 22, 2007, [ 9 ] until he retired in 2010",
+  five_star_publishing: "Gale's fiction imprint, with hundreds of books in print in the Western, Romance, Mystery, and Science Fiction & Fantasy genres",
+
 };
 
 // ============================================================
