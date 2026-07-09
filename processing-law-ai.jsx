@@ -69831,6 +69831,12 @@ const FLAT_DICT = {
   sommers: "President of Gale from October 22, 2007, [ 9 ] until he retired in 2010",
   five_star_publishing: "Gale's fiction imprint, with hundreds of books in print in the Western, Romance, Mystery, and Science Fiction & Fantasy genres",
 
+  // === INGESTED 2026-07-09 00:49 ===
+  although_russia: { definition: "Largely closed off to international relief and aid, Save the Children persuaded Soviet authorities to let them have a ground presence", what_it_does: "", examples: "Nazi concentration camps survivors" },
+  all_members_of_the_association: "Bound by the International to Save the Children Alliance Bylaws which include The Child Protection Protocol and Code of Conduct",
+  the_resulting_film: "Unacceptable to the organization because they felt it presented their work in an unfavorable light",
+  these_salary_proposals: { definition: "Characterized as 'inherently racist' by staff, citing stark disparities between pay for roles in the Global North and Global South", what_it_does: "", examples: "Save the Children called for investigation" },
+
 };
 
 // ============================================================
