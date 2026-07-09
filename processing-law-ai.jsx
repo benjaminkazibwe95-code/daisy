@@ -69796,6 +69796,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-09 00:36 ===
   ninetysix_volumes: { definition: "Published in the series in five years", what_it_does: "", examples: "Iain Banks" },
 
+  // === INGESTED 2026-07-09 00:40 ===
+  abegglen: "Born in Michigan in 1926",
+  when_the_war_ended_he: "Assigned to Strategic Bombing Survey (USSBS) as a researcher and returned to Japan",
+
 };
 
 // ============================================================
