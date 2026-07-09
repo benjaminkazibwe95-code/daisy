@@ -69935,6 +69935,10 @@ const FLAT_DICT = {
   dspace: "Constructed with Java web applications , many programs, and an associated metadata store",
   the_asset_store: "Maintained on a file system or similar storage system",
 
+  // === INGESTED 2026-07-09 01:12 ===
+  hugh_mcgregor_ross: { definition: "One of its principal architects", what_it_does: "", examples: "had a location in group 0x20, plane 0x20, row 0x20, cell 0x41" },
+  and_even_though_it: { definition: "A separate standard, the term Unicode is used just as often, informally, when discussing the UCS", what_it_does: "", examples: "ISO/IEC 10646:2014" },
+
 };
 
 // ============================================================
