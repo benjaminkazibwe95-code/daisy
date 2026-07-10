@@ -1052,9 +1052,6 @@
     /* ── DRAWER / SIDEBAR MENU (ChatGPT/Claude-style) ── */
     #offline-banner {
       display: none;
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 130;
       background: #8a5a10;
       color: #fff;
       font-family: 'Inter', sans-serif;
@@ -1063,6 +1060,7 @@
       text-align: center;
       padding: 8px 16px;
       padding-top: max(8px, env(safe-area-inset-top));
+      flex-shrink: 0;
     }
     #offline-banner.show { display: block; }
 
@@ -1614,6 +1612,8 @@
 
 <div id="app">
 
+  <div id="offline-banner">You're offline — you can view past chats, but new messages need a connection</div>
+
   <!-- TOP BAR -->
   <div id="topbar">
     <button class="icon-btn" id="menu-btn" aria-label="Menu">
@@ -1731,7 +1731,6 @@
 </div>
 
 <!-- DRAWER -->
-<div id="offline-banner">You're offline — you can view past chats, but new messages need a connection</div>
 <div id="drawer-overlay"></div>
 <div id="drawer">
   <div id="drawer-header">
@@ -2065,11 +2064,21 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// ── OFFLINE BANNER — tells you upfront, not just after a failed send ──
+// ── OFFLINE BANNER — tells you upfront, not just after a failed send.
+// Auto-hides after a few seconds so it never sits there blocking the
+// menu/account buttons — a failed send still shows its own clear
+// message regardless, so nothing important is silently lost by hiding this. ──
+let _offlineBannerHideTimer = null;
 function updateOfflineBanner() {
   const banner = document.getElementById('offline-banner');
   if (!banner) return;
-  banner.classList.toggle('show', !navigator.onLine);
+  clearTimeout(_offlineBannerHideTimer);
+  if (!navigator.onLine) {
+    banner.classList.add('show');
+    _offlineBannerHideTimer = setTimeout(() => banner.classList.remove('show'), 4000);
+  } else {
+    banner.classList.remove('show');
+  }
 }
 window.addEventListener('online', updateOfflineBanner);
 window.addEventListener('offline', updateOfflineBanner);

@@ -3,22 +3,32 @@
 // herself. Chat/API traffic always goes to the network; only the
 // app shell (the page itself + icons) is cached for fast/offline opens.
 
-const CACHE_NAME = 'daisy-shell-v1';
+const CACHE_NAME = 'daisy-shell-v2';
 const SHELL_URLS = [
   '/',
-  '/static/manifest.json',
-  '/static/icons/icon-192.png',
-  '/static/icons/icon-512.png'
+  '/manifest.json',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png'
 ];
 
 // Paths that must NEVER be served from cache — always live.
-const NEVER_CACHE = ['/ask', '/api/', '/daisy/', '/reload'];
+const NEVER_CACHE = ['/ask', '/api/', '/daisy/', '/reload', '/export/'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(SHELL_URLS))
-      .then(() => self.skipWaiting())
+    caches.open(CACHE_NAME).then((cache) =>
+      // Cache each file independently — if one 404s (e.g. a path that
+      // changes later), it only skips that file instead of aborting
+      // the whole install like cache.addAll() would. That silent
+      // all-or-nothing failure is exactly what broke offline opens
+      // before: one stale URL in the list meant NOTHING got cached,
+      // not even the page itself.
+      Promise.all(
+        SHELL_URLS.map((url) =>
+          cache.add(url).catch((err) => console.warn('[SW] could not cache', url, err))
+        )
+      )
+    ).then(() => self.skipWaiting())
   );
 });
 
@@ -40,9 +50,27 @@ self.addEventListener('fetch', (event) => {
     return; // let it go straight to the network, untouched
   }
 
-  // App shell: network-first so updates land immediately, falling
-  // back to the cached copy if the network is down — this is what
-  // makes the installed app open cleanly even on a bad connection.
+  // Navigations (opening/reloading the app itself) get their own path:
+  // always fall back to the cached app shell on any failure, no matter
+  // what exact URL/query-string was requested (e.g. the PWA's
+  // start_url "/?source=pwa" won't exactly match a cached "/" — this
+  // fallback is what makes that still work instead of showing the
+  // browser's own generic offline page).
+  if (req.mode === 'navigate') {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put('/', copy));
+          return res;
+        })
+        .catch(() => caches.match('/', { ignoreSearch: true }))
+    );
+    return;
+  }
+
+  // Everything else in the shell: network-first so updates land
+  // immediately, falling back to the cached copy if the network is down.
   event.respondWith(
     fetch(req)
       .then((res) => {
@@ -50,6 +78,6 @@ self.addEventListener('fetch', (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
         return res;
       })
-      .catch(() => caches.match(req).then((cached) => cached || caches.match('/')))
+      .catch(() => caches.match(req, { ignoreSearch: true }).then((cached) => cached || caches.match('/')))
   );
 });
