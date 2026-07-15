@@ -70047,6 +70047,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-15 02:09 ===
   conflict_over_land_and_resources: "Increasing due to the ongoing desertification in northern Nigeria, population growth and the generally tense economic situation",
 
+  // === INGESTED 2026-07-15 13:18 ===
+  an_other_area_of_computational_mathematics: "Computer algebra , which consists mainly of the manipulation of mathematical formulas on a computer",
+
 };
 
 // ============================================================
