@@ -70044,6 +70044,9 @@ const FLAT_DICT = {
   it_is_the_largest_economy_in_africa_and: { definition: "Widely recognised as the continent's most industrialised, technologically advanced and diversified country", what_it_does: "", examples: "the V&A Waterfront , Table Mountain, Cape Point , and the nearby Cape Winelands" },
   the_sector: { definition: "Dominated by the state-owned utility Eskom , Africa's largest power company , which generates approximately 90% of the country's electricity", what_it_does: "", examples: "the proposed Richards Bay Gas Power Plant" },
 
+  // === INGESTED 2026-07-15 02:09 ===
+  conflict_over_land_and_resources: "Increasing due to the ongoing desertification in northern Nigeria, population growth and the generally tense economic situation",
+
 };
 
 // ============================================================
