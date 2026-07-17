@@ -78,10 +78,18 @@ def load_corrections():
             repo_dir = os.path.dirname(os.path.abspath(CORRECTIONS_FILE)) or "."
             auth_url = github_repo_url.replace("https://", f"https://{github_token}@") \
                 if "https://" in github_repo_url else github_repo_url
+            # GIT_TERMINAL_PROMPT=0 + a hard timeout: this runs at STARTUP,
+            # before app.run(). Without both of these, a bad token/URL, a
+            # merge that wants an interactive editor, or a stalled network
+            # call makes git wait forever for input that will never come —
+            # the process never crashes, it just never reaches app.run(),
+            # so Render never sees an open port and the deploy times out
+            # with no error in the logs. This is exactly what was happening.
+            pull_env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
             subprocess.run(["git", "pull", auth_url, "main", "--no-rebase"],
-                            cwd=repo_dir, capture_output=True, text=True)
+                            cwd=repo_dir, env=pull_env, capture_output=True, text=True, timeout=20)
         except Exception as e:
-            print(f"[CORRECTIONS] Pre-load pull failed (will still try the local file): {e}")
+            print(f"[CORRECTIONS] Pre-load pull failed/timed out (will still try the local file): {e}")
 
     try:
         with open(CORRECTIONS_FILE, "r", encoding="utf-8") as f:
@@ -134,10 +142,11 @@ def _maybe_push_corrections():
             "GIT_AUTHOR_EMAIL": "daisy@trustedbiz.co.ug",
             "GIT_COMMITTER_NAME": "Daisy",
             "GIT_COMMITTER_EMAIL": "daisy@trustedbiz.co.ug",
+            "GIT_TERMINAL_PROMPT": "0",  # never block waiting on a credential prompt
         }
 
         def run(cmd):
-            return subprocess.run(cmd, cwd=repo_dir, env=env, capture_output=True, text=True)
+            return subprocess.run(cmd, cwd=repo_dir, env=env, capture_output=True, text=True, timeout=20)
 
         run(["git", "add", CORRECTIONS_FILE])
         diff = run(["git", "diff", "--cached", "--quiet"])
@@ -157,7 +166,7 @@ def _maybe_push_corrections():
             if push.returncode != 0:
                 print(f"[CORRECTIONS] Push still failed after pull: {push.stderr}")
     except Exception as e:
-        print(f"[CORRECTIONS] Push failed: {e}")
+        print(f"[CORRECTIONS] Push failed/timed out: {e}")
 
 
 def save_correction(question, fact):
