@@ -306,13 +306,23 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
-def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True):
+def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True, history=None):
     """
     Pass Daisy's drafted reply (whatever produced it — dictionary,
     synthesis, personality fragment, math, emotion, or nothing at all)
     through Claude, using DAISY_SYSTEM_PROMPT as the persona/rules.
     Claude checks the draft against the actual question and rewrites
     it if it doesn't fit, instead of just polishing wording.
+
+    history, if given, is the recent back-and-forth of THIS conversation
+    — a list of {"user": "...", "daisy": "...", "topic": "..."} exchanges,
+    oldest first, NOT including the current question. Same shape the JS
+    law-engine already expects (see daisyProcess/ask_daisy) — one history
+    payload from the client now feeds both consumers. This is what lets
+    Claude actually follow the conversation turn to turn ("the second
+    one", "why though", "go on") instead of answering each message as if
+    it were the first thing anyone ever said to Daisy. Capped and
+    trimmed below to bound both token cost and API validity.
 
     custom_instructions is optional free text the user wrote in the
     "What should Daisy be to you?" settings screen — things like tone,
@@ -401,6 +411,41 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
         else:
             content = user_message_text
 
+        # CONVERSATION HISTORY — turn the client's recent turns into
+        # real prior messages in the API call, not just a single
+        # squashed draft. Capped to the last few exchanges: enough for
+        # Claude to follow "the second one" / "why though" / "go on"
+        # style follow-ups, without letting token cost (and therefore
+        # API spend) grow unbounded as one conversation gets long.
+        MAX_HISTORY_TURNS = 8  # last 8 exchanges = up to 16 messages, oldest dropped first
+        messages = []
+        if history:
+            trimmed = [h for h in history if isinstance(h, dict)][-MAX_HISTORY_TURNS:]
+            for exch in trimmed:
+                u = str(exch.get("user") or "").strip()[:4000]
+                d = str(exch.get("daisy") or "").strip()[:4000]
+                if u:
+                    messages.append({"role": "user", "content": u})
+                if d:
+                    messages.append({"role": "assistant", "content": d})
+            # The Anthropic API rejects two consecutive same-role
+            # messages (and requires starting on "user") — collapse or
+            # drop rather than let one malformed/partial exchange from
+            # the client break the whole call.
+            collapsed = []
+            for m in messages:
+                if collapsed and collapsed[-1]["role"] == m["role"]:
+                    collapsed[-1]["content"] += "\n\n" + m["content"]
+                else:
+                    collapsed.append(m)
+            messages = collapsed
+            if messages and messages[0]["role"] != "user":
+                messages.pop(0)
+            while messages and messages[-1]["role"] == "user":
+                messages.pop()
+
+        messages.append({"role": "user", "content": content})
+
         tools = []
         if allow_search and SEARCH_ENABLED:
             # Anthropic's own hosted web search tool — executed on
@@ -413,7 +458,7 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
             model=VOICE_MODEL,
             max_tokens=4096,
             system=DAISY_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": content}],
+            messages=messages,
         )
         if tools:
             create_kwargs["tools"] = tools
@@ -1380,7 +1425,7 @@ def ask():
     data = request.get_json(silent=True) or {}
     question = data.get("question", "").strip()
     learned = data.get("learned", {})
-    history = data.get("history", [])  # Array of {user, daisy, topic} objects
+    history = data.get("history", [])  # Recent turns of THIS conversation, oldest first: [{"role": "user"|"daisy", "text": "..."}], NOT including the current question
     custom_instructions = data.get("instructions", "")  # "What should Daisy be to you?"
     image_data = data.get("image")  # {"media_type": "...", "data": "<base64>"} or None
     remembered_facts = data.get("memory", [])  # personal facts the client has saved from earlier turns
@@ -1399,7 +1444,7 @@ def ask():
     if image_data:
         final_answer, learned_fact, memory_fact, used_search = speak_naturally(
             question, None, custom_instructions, image_data=image_data,
-            remembered_facts=remembered_facts, allow_search=allow_search,
+            remembered_facts=remembered_facts, allow_search=allow_search, history=history,
         )
         result = {"answer": final_answer, "source": "vision", "raw_fact": None, "memory_fact": memory_fact, "used_web_search": used_search}
         if learned_fact:
