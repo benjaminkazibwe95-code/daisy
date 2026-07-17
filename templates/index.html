@@ -3330,7 +3330,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const res = await fetch('/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory() })
+        body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory(), history: buildHistoryForServer(true) })
       });
       const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
@@ -3501,6 +3501,7 @@ document.addEventListener('DOMContentLoaded', function() {
           question: text,
           instructions: getInstructions(),
           memory: getMemory(),
+          history: buildHistoryForServer(true),
           web_search_enabled: isWebSearchAllowed(),
           image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
         })
@@ -3837,7 +3838,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const res  = await fetch('/ask', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory() })
+            body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory(), history: buildHistoryForServer(true) })
           });
           const data = await res.json();
           const answer = data.answer || "Still learning that one.";
@@ -3941,6 +3942,30 @@ document.addEventListener('DOMContentLoaded', function() {
       currentChat.title = text.length > 48 ? text.slice(0, 48) + '…' : text;
     }
     persistCurrentChat();
+  }
+
+  // ── CONVERSATION HISTORY FOR /ask ──
+  // currentChat.messages is a flat, in-order list of {role:'user'|'daisy',
+  // text}. The server (and the Daisy law-engine underneath it) wants the
+  // recent back-and-forth as exchange pairs instead: [{user, daisy}, ...],
+  // oldest first — this is what actually lets Daisy follow the
+  // conversation turn to turn instead of treating every message as the
+  // first thing anyone ever said to her. Always call this with
+  // excludeLast=true right after recordMessage('user', ...) for the
+  // current question, since the server gets that as `question` already.
+  function buildHistoryForServer(excludeLast) {
+    const msgs = excludeLast ? currentChat.messages.slice(0, -1) : currentChat.messages;
+    const exchanges = [];
+    let pendingUser = null;
+    for (const m of msgs) {
+      if (m.role === 'user') {
+        pendingUser = m.text;
+      } else if (m.role === 'daisy' && pendingUser !== null) {
+        exchanges.push({ user: pendingUser, daisy: m.text });
+        pendingUser = null;
+      }
+    }
+    return exchanges.slice(-8); // last 8 exchanges — matches the server's own cap
   }
 
   function persistCurrentChat() {
