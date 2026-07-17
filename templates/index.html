@@ -31,6 +31,8 @@
   <!-- Syntax-highlighted code (real colors, not plain monospace text) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <!-- Diagrams (flowcharts, sequence diagrams, experiment setups, etc.) that Daisy draws inline via ```mermaid fences -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -551,6 +553,43 @@
       line-height: 1.5;
       background: none;
       white-space: pre;
+    }
+
+    /* ── DIAGRAMS (mermaid) — Daisy drawing a process, an experiment
+       setup, or a structure inline, instead of only describing it ── */
+    .diagram-card {
+      margin: 10px 0;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--card);
+    }
+    .diagram-card-head {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--border);
+      color: var(--daisy);
+    }
+    .diagram-card-head svg { width: 15px; height: 15px; }
+    .diagram-card-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .mermaid-render {
+      padding: 18px 14px;
+      overflow-x: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .mermaid-render svg { max-width: 100%; height: auto; }
+    .diagram-loading, .diagram-error {
+      font-size: 13px;
+      color: var(--muted);
+      padding: 10px 4px;
     }
     .md-body blockquote {
       border-left: 3px solid var(--daisy);
@@ -1606,6 +1645,73 @@
     }
     #stats-refresh-btn:hover { border-color: var(--daisy); color: var(--daisy); }
 
+    /* ══════════════════════════════════════════════════════════
+       DESKTOP / LARGER SCREENS
+       Everything above is tuned for a phone screen edge-to-edge —
+       that's correct and shouldn't change. Past phone width though,
+       the exact same layout was just stretching #app's 480px column
+       into the middle of an enormous, empty black viewport: no
+       intentional use of the extra space, tiny type relative to a
+       big display, and a sidebar drawer that slid in from the true
+       edge of the browser window instead of the app itself. This
+       section gives Daisy a real desktop presence — a wider reading
+       column, a slightly "windowed" card with breathing room around
+       it, and type/spacing nudged up — without touching anything
+       the phone layout depends on.
+       ══════════════════════════════════════════════════════════ */
+    @media (min-width: 700px) {
+      html, body { overflow: auto; }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+        background:
+          radial-gradient(ellipse 1000px 640px at 50% -8%, rgba(126,184,247,0.09), transparent 60%),
+          var(--black);
+        padding: 40px 20px;
+      }
+      #app {
+        height: min(100dvh - 80px, 920px);
+        height: min(calc(100dvh - 80px), 920px);
+        max-width: 640px;
+        width: 100%;
+        border: 1px solid var(--border);
+        border-radius: 26px;
+        box-shadow: 0 40px 90px -24px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.03) inset;
+      }
+      #drawer, #drawer-overlay { position: absolute; }
+      #drawer { border-radius: 26px 0 0 26px; }
+
+      #topbar { padding: 18px 28px 12px; }
+      #main { padding: 0 34px; }
+      #greeting-wrap { padding: 56px 0 40px; }
+      #greeting { font-size: 38px; }
+      .daisy-orb { width: 58px; height: 58px; }
+
+      .msg { font-size: 16.5px; max-width: 82%; }
+      .md-body, .md-body p { font-size: 16.5px; }
+
+      #quick-starts { padding: 26px 24px; border-radius: 24px; }
+      .quick-item { font-size: 15px; padding: 13px 2px; }
+      .quick-item:hover { cursor: pointer; }
+      .quick-icon { width: 34px; height: 34px; font-size: 16px; }
+
+      #input-area { padding: 14px 24px 26px; }
+      #input-row { padding: 11px 11px 11px 12px; }
+      #question-input { font-size: 15px; }
+
+      #disclaimer { padding-bottom: 4px; }
+    }
+
+    /* Comfortably large desktop — a bit more room still, capped well
+       short of feeling like an unbounded webpage; a chat column much
+       past ~760px gets harder to read line-to-line, not easier. */
+    @media (min-width: 1100px) {
+      #app { max-width: 760px; height: min(calc(100dvh - 96px), 980px); }
+      #greeting { font-size: 42px; }
+    }
+
   </style>
 </head>
 <body>
@@ -1655,14 +1761,14 @@
     <!-- QUICK STARTS -->
     <div id="quick-starts">
       <p>Ask Daisy</p>
-      <button class="quick-item" onclick="quickAsk('Research anything for me')">
-        <span class="quick-icon">🔍</span> Research Anything
+      <button class="quick-item" onclick="quickAsk('Help me with my homework')">
+        <span class="quick-icon">🧠</span> Homework
       </button>
-      <button class="quick-item" onclick="quickAsk('Help me build something')">
-        <span class="quick-icon">🛠️</span> Build Anything
+      <button class="quick-item" onclick="quickAsk('Help me start a business')">
+        <span class="quick-icon">🚀</span> Start a Business
       </button>
-      <button class="quick-item" onclick="quickAsk('Explain a science topic')">
-        <span class="quick-icon">🔬</span> Science Research
+      <button class="quick-item" onclick="quickImageAsk()">
+        <span class="quick-icon">📸</span> Analyze Images
       </button>
     </div>
 
@@ -1845,6 +1951,21 @@
         </div>
         <label class="settings-toggle">
           <input type="checkbox" id="tts-default-toggle" />
+          <span></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="settings-section-label">Web search</div>
+    <div class="settings-group">
+      <div class="settings-row">
+        <span class="s-icon">🌐</span>
+        <div class="s-row-text">
+          <div class="s-row-title">Search the internet</div>
+          <div class="s-row-sub">Daisy checks live when a question needs today's info — news, prices, scores, anything time-sensitive</div>
+        </div>
+        <label class="settings-toggle">
+          <input type="checkbox" id="web-search-toggle" checked />
           <span></span>
         </label>
       </div>
@@ -2237,6 +2358,20 @@ document.addEventListener('DOMContentLoaded', function() {
     setTtsOn(ttsDefaultToggle.checked);
   };
 
+  // Web search — a standing permission ("can Daisy search at all?"), not a
+  // per-message action. Daisy still decides, message by message, whether a
+  // given question actually needs it (see the LIVE WEB SEARCH rule
+  // server-side). Defaults to on, same as most modern AI assistants.
+  const WEB_SEARCH_KEY = 'daisy_web_search_enabled';
+  const webSearchToggle = document.getElementById('web-search-toggle');
+  webSearchToggle.checked = localStorage.getItem(WEB_SEARCH_KEY) !== '0';
+  webSearchToggle.onchange = () => {
+    localStorage.setItem(WEB_SEARCH_KEY, webSearchToggle.checked ? '1' : '0');
+  };
+  function isWebSearchAllowed() {
+    return localStorage.getItem(WEB_SEARCH_KEY) !== '0';
+  }
+
   // Data controls
   document.getElementById('export-data-btn').onclick = () => {
     const payload = {
@@ -2459,6 +2594,7 @@ document.addEventListener('DOMContentLoaded', function() {
     print:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="4" y="9" width="16" height="8" rx="1"/><path d="M6 17v4h12v-4"/></svg>',
     expand:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 00-2 2v4M15 3h4a2 2 0 012 2v4M9 21H5a2 2 0 01-2-2v-4M15 21h4a2 2 0 002-2v-4"/></svg>',
     close:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>',
+    diagram:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="8.5" y="16" width="7" height="5" rx="1.5"/><path d="M6.5 8v3a2 2 0 002 2h7a2 2 0 002-2V8M12 13v3"/></svg>',
   };
 
   function escHtml(s) {
@@ -2539,6 +2675,22 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       const isFile = !!filename && /\.[a-zA-Z0-9]+$/.test(filename);
       const codeHtml = escHtml(code);
+
+      // DIAGRAM: a plain ```mermaid fence (never has a filename) —
+      // this is Daisy drawing something (a process, an experiment
+      // setup, a structure) instead of only describing it in words.
+      // The raw source is stashed in _codeBlockText like every other
+      // fence; renderDiagramsIn() below turns it into an actual SVG
+      // once the node is in the DOM.
+      if (!isFile && lang === 'mermaid') {
+        return `<div class="diagram-card">
+          <div class="diagram-card-head">
+            <span class="diagram-card-icon">${ICONS.diagram}</span>
+            <span class="diagram-card-label">Diagram</span>
+          </div>
+          <div class="mermaid-render" data-code-id="${id}"><div class="diagram-loading">Drawing diagram…</div></div>
+        </div>`;
+      }
 
       // DOCUMENT: a clean, typeset document (report, invoice, letter,
       // marks list, anything meant to be read/printed/sent) — rendered
@@ -2637,6 +2789,52 @@ document.addEventListener('DOMContentLoaded', function() {
     marked.use({ renderer });
   }
   setupMarkedRenderer();
+
+  // ── DIAGRAMS (mermaid) ──
+  // Themed to match Daisy's own accent colors instead of mermaid's
+  // generic defaults, so a diagram feels like part of the app, not a
+  // pasted-in library widget. startOnLoad is off because diagrams
+  // arrive dynamically (typed in bit by bit, or inserted after a
+  // fetch) — renderDiagramsIn() below drives rendering explicitly.
+  if (typeof mermaid !== 'undefined') {
+    try {
+      mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: 'strict',
+        theme: 'base',
+        themeVariables: {
+          darkMode: true,
+          background: '#3a3a3a',
+          primaryColor: '#3a3a3a',
+          primaryBorderColor: '#7eb8f7',
+          primaryTextColor: '#f0f0f0',
+          lineColor: '#7eb8f7',
+          secondaryColor: '#333333',
+          tertiaryColor: '#333333',
+          fontFamily: 'Inter, sans-serif',
+        },
+      });
+    } catch (e) { /* mermaid CDN missing/blocked — diagrams just show as a loading state, everything else still works */ }
+  }
+
+  let _mermaidSeq = 0;
+  async function renderDiagramsIn(el) {
+    if (typeof mermaid === 'undefined') return;
+    const nodes = el.querySelectorAll('.mermaid-render:not([data-loaded])');
+    for (const node of nodes) {
+      const id = node.dataset.codeId;
+      const code = _codeBlockText[id];
+      if (code === undefined) continue;
+      node.dataset.loaded = '1';
+      try {
+        const renderId = 'mmd-' + (_mermaidSeq++);
+        const { svg } = await mermaid.render(renderId, code.trim());
+        node.innerHTML = svg;
+      } catch (e) {
+        node.innerHTML = `<div class="diagram-error">Couldn't draw this diagram.</div>`;
+      }
+    }
+  }
 
   // One delegated listener handles every code-block/file-card button,
   // since they're created (and recreated, during the typing animation)
@@ -2814,6 +3012,7 @@ document.addEventListener('DOMContentLoaded', function() {
     renderMathIn(el);
     highlightCodeIn(el);
     renderFilePreviewsIn(el);
+    renderDiagramsIn(el);
   }
 
   function flashAction(btn) {
@@ -3212,6 +3411,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function sourceToFinalStep(data) {
     const file = detectFileInAnswer(data.answer);
     if (file) return { label: `Built \`${file}\``, tag: 'file' };
+    if (data.used_web_search) return { label: "Searched the web", tag: 'web' };
     const src = data.source;
     const hasDraft = !!(data.raw_fact && String(data.raw_fact).trim());
     const map = {
@@ -3301,6 +3501,7 @@ document.addEventListener('DOMContentLoaded', function() {
           question: text,
           instructions: getInstructions(),
           memory: getMemory(),
+          web_search_enabled: isWebSearchAllowed(),
           image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
         })
       });
@@ -3323,6 +3524,16 @@ document.addEventListener('DOMContentLoaded', function() {
     activateChat();
     inp.value = text;
     sendMessage(text);
+  }
+
+  function quickImageAsk() {
+    // "Analyze Images" can't be answered with text alone — it needs a
+    // real photo. Instead of faking a question, open the same attach
+    // flow the paperclip button uses, and leave a caption ready so the
+    // person only has to pick the picture.
+    inp.value = "What can you tell me about this?";
+    inp.focus();
+    imageInput.click();
   }
 
   // ── SCROLL TO BOTTOM ──
