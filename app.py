@@ -189,6 +189,21 @@ def get_correction(question):
     with _corrections_lock:
         return _learned_corrections.get(key)
 
+# ============================================================
+# LIVE WEB SEARCH — Daisy's dictionary/law engine and Claude's
+# own training data both go stale (prices, scores, news, "who is
+# the current...", anything released after the fact). Rather than
+# us deciding per-message whether to search, Claude gets a real,
+# live web search tool attached to the call itself (Anthropic's
+# hosted web_search tool — see speak_naturally below) and decides
+# on its own, the same way a person would reach for a search
+# engine mid-conversation only when it's actually needed. The
+# person controls whether this is allowed at all from Settings
+# ("Search the internet"); SEARCH_ENABLED is a server-side kill
+# switch on top of that.
+# ============================================================
+SEARCH_ENABLED = os.environ.get("SEARCH_ENABLED", "true").lower() == "true"
+
 DAISY_SYSTEM_PROMPT = r"""You are Daisy, a brilliant, highly capable, and energetic companion, tech-savvy tutor, and digital creator based in Uganda. Someone is talking to you right now, directly, about something real to them. You are the one answering them — not reviewing a system's output, not grading anything, not standing between them and an answer. There is no audience for your thought process; there's just the person, and your one reply to them.
 
 CRITICAL OPERATIONAL RULES:
@@ -213,6 +228,8 @@ CAPABILITIES & FORMATTING COMMANDS:
 - MAKE IT FEEL ALIVE: a plain static page reads as unfinished even when the layout is right. Give real websites actual motion and polish, done with plain CSS/JS you write yourself — no external animation library needed: entrance transitions on scroll/load (fade+slide via CSS transitions or @keyframes), hover/active states on every clickable thing, smooth transitions on anything that changes state (color, transform, opacity), a little easing (cubic-bezier, not linear) so movement feels natural instead of mechanical. This is what separates something that looks like a polished product from something that looks like a first draft — spend real effort here, not just on layout and color.
 - The line between the two: if what they want is going to be printed, saved, sent, or read top to bottom — it's a document, use ```document:. If it needs buttons that work, layout logic, or is a genuine webpage/app — it's ```html:. When in doubt and there's no interactivity involved, default to ```document: — it's almost always what "make me a PDF/report/invoice" actually means.
 - LOGOS & VISUALS: you can't generate raster images (PNGs etc.), but raw SVG is real, renderable code. For a logo or visual asset, write a crisp, modern ```svg:descriptive-name.svg file — it gets the same live preview, so the person sees the actual logo, not markup.
+- DIAGRAMS, SETUPS & ILLUSTRATIONS: when a concept is genuinely easier to grasp visually — the steps of a process, a science experiment's setup, a system's structure, how something flows, a life cycle, a comparison tree, an org chart, a timeline — draw it instead of only describing it in words. Use a plain ```mermaid fence (no filename, this always renders as an actual diagram, never as code) with real Mermaid syntax: `flowchart TD` for processes/setups, `sequenceDiagram` for interactions over time, `classDiagram`/`erDiagram` for structure, `timeline` for history, `graph LR` for simple relationships. Label every node with real, specific words from the actual concept, not "Step 1/Step 2." Reach for this often when teaching or explaining — it's one of the things that makes Daisy feel like a real tutor — but skip it for a quick factual answer that doesn't need a picture.
+- LIVE WEB SEARCH: you may have a real, live web search tool attached to this conversation — check for it, don't assume. When it's there, decide for yourself, every message, whether this question actually needs it: today's news, current prices, live scores, "who is the current...", anything recently released or changed, or any fact you're not fully sure is still true. Search it yourself, without being asked — don't tell the person to go look it up themselves when you could just do it. For stable, timeless facts (how photosynthesis works, historical dates, how to do long division) don't bother searching — answer from what you already know. When you do search, say so plainly and briefly, the way any good assistant would ("Let me check today's rates —", "Just looked this up —"), then give the real, current answer, naming the source naturally in a sentence where it adds credibility (e.g., "according to Reuters"). Never claim to have searched or checked something if the tool isn't there or you didn't actually use it — if you have no way to verify something current, say plainly that you're not certain and it may have changed.
 - PDF EXPORT IS REAL, NOT A LIMITATION: any ```document: file gets a direct, correctly-formatted "Save as PDF" button automatically — never say "I can't generate a PDF directly" or claim this is one of Daisy's limits, that's simply false. When someone asks for a PDF (a report, a list, marks, anything), just write the complete thing as ```document:name.md — don't ask clarifying questions if they've already given you the actual data (e.g. a list of names and marks); write the full thing. Only ask what to include if they genuinely haven't said yet."""
 
 
@@ -280,7 +297,7 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
-def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None):
+def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True):
     """
     Pass Daisy's drafted reply (whatever produced it — dictionary,
     synthesis, personality fragment, math, emotion, or nothing at all)
@@ -299,20 +316,29 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
     Daisy's text-only dictionary/brain has nothing useful to say about
     it, so there's no draft; Claude looks at the image directly.
 
-    Returns (display_answer, learned_fact, memory_fact). learned_fact is
-    None, or a fact string Claude supplied because Daisy's own draft
-    didn't actually answer the question (see system prompt rules 5-6).
-    memory_fact is None, or a personal fact worth remembering about
-    THIS person specifically (see rule 9). The caller is responsible
-    for saving both. If the client isn't ready, returns the raw draft
-    unchanged (or None if there was none) so Daisy always still works
-    without the voice layer.
+    allow_search controls whether Claude gets a real, live web search
+    tool attached to this call at all (the person's "Search the
+    internet" setting, gated server-side by SEARCH_ENABLED too).
+    Whether it actually gets USED is entirely Claude's own call each
+    message, per the LIVE WEB SEARCH rule in the system prompt — this
+    is the permission, not the trigger.
+
+    Returns (display_answer, learned_fact, memory_fact, used_search).
+    learned_fact is None, or a fact string Claude supplied because
+    Daisy's own draft didn't actually answer the question (see system
+    prompt rules 5-6). memory_fact is None, or a personal fact worth
+    remembering about THIS person specifically (see rule 9). used_search
+    is True only if Claude actually invoked the web search tool this
+    turn. The caller is responsible for saving learned/memory facts.
+    If the client isn't ready, returns the raw draft unchanged (or
+    None if there was none) so Daisy always still works without the
+    voice layer.
     """
     with _voice_lock:
         client = _claude_client
 
     if client is None:
-        return (raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."), None, None
+        return (raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."), None, None, False
 
     try:
         if image_data:
@@ -366,15 +392,42 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
         else:
             content = user_message_text
 
-        response = client.messages.create(
+        tools = []
+        if allow_search and SEARCH_ENABLED:
+            # Anthropic's own hosted web search tool — executed on
+            # Anthropic's servers, not ours. Claude decides per-message
+            # whether to call it at all (see the LIVE WEB SEARCH rule);
+            # this just makes the tool available, it doesn't force it.
+            tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3}]
+
+        create_kwargs = dict(
             model=VOICE_MODEL,
             max_tokens=4096,
             system=DAISY_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": content}],
         )
-        text = response.content[0].text.strip()
+        if tools:
+            create_kwargs["tools"] = tools
+
+        response = client.messages.create(**create_kwargs)
+
+        # A response that used the search tool interleaves
+        # server_tool_use / web_search_tool_result blocks with the
+        # actual reply — concatenate every text block instead of
+        # assuming content[0] is text, or a searched answer would
+        # come back empty/truncated.
+        used_search = False
+        text_parts = []
+        for block in response.content:
+            block_type = getattr(block, "type", None)
+            if block_type == "text":
+                text_parts.append(block.text)
+            elif block_type in ("server_tool_use", "web_search_tool_result") and getattr(block, "name", "web_search") == "web_search":
+                used_search = True
+        text = "\n".join(t.strip() for t in text_parts if t and t.strip()).strip()
+
         if not text:
-            return raw_fact, None, None
+            return raw_fact, None, None, used_search
 
         # Even with a generous cap, a genuinely huge file can still hit
         # it. Catching that here means an incomplete file never gets
@@ -400,10 +453,10 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
 
         text = _strip_meta_commentary(text)
 
-        return (text if text else raw_fact), learned_fact, memory_fact
+        return (text if text else raw_fact), learned_fact, memory_fact, used_search
     except Exception as e:
         print(f"[VOICE] Anthropic call failed: {e} — falling back to raw draft.")
-        return raw_fact, None, None
+        return raw_fact, None, None, False
 
 # ============================================================
 # FLASK APP
@@ -1322,6 +1375,10 @@ def ask():
     custom_instructions = data.get("instructions", "")  # "What should Daisy be to you?"
     image_data = data.get("image")  # {"media_type": "...", "data": "<base64>"} or None
     remembered_facts = data.get("memory", [])  # personal facts the client has saved from earlier turns
+    # Settings > "Search the internet" — a standing permission, not a
+    # per-message action. Defaults to allowed; Claude still decides
+    # per-message whether a given question actually needs it.
+    allow_search = data.get("web_search_enabled", True) is not False
 
     if not question and not image_data:
         return jsonify({"answer": "Ask me something.", "source": "empty"})
@@ -1331,8 +1388,11 @@ def ask():
     # exact question strings, neither has anything meaningful to say
     # about a photo, so there's no point routing through them first.
     if image_data:
-        final_answer, learned_fact, memory_fact = speak_naturally(question, None, custom_instructions, image_data=image_data, remembered_facts=remembered_facts)
-        result = {"answer": final_answer, "source": "vision", "raw_fact": None, "memory_fact": memory_fact}
+        final_answer, learned_fact, memory_fact, used_search = speak_naturally(
+            question, None, custom_instructions, image_data=image_data,
+            remembered_facts=remembered_facts, allow_search=allow_search,
+        )
+        result = {"answer": final_answer, "source": "vision", "raw_fact": None, "memory_fact": memory_fact, "used_web_search": used_search}
         if learned_fact:
             save_correction(question, learned_fact)
         if not final_answer:
@@ -1358,13 +1418,22 @@ def ask():
     # Claude either lightly cleans up a draft that already fits, or
     # actually answers properly if the draft misses the point or is
     # blank. This is what fixes things like a robotic "can you
-    # rephrase that?" in response to "are you serious".
+    # rephrase that?" in response to "are you serious". If the person
+    # allows web search, Claude also gets a real search tool attached
+    # and decides for itself, per question, whether to use it — see
+    # the LIVE WEB SEARCH rule in DAISY_SYSTEM_PROMPT.
     raw_answer = result.get("answer")
-    final_answer, learned_fact, memory_fact = speak_naturally(question, raw_answer, custom_instructions, remembered_facts=remembered_facts)
+    final_answer, learned_fact, memory_fact, used_search = speak_naturally(
+        question, raw_answer, custom_instructions,
+        remembered_facts=remembered_facts, allow_search=allow_search,
+    )
     result["answer"] = final_answer
     result["raw_fact"] = raw_answer
     result["memory_fact"] = memory_fact
-    if learned_fact:
+    result["used_web_search"] = used_search
+    if learned_fact and not used_search:
+        # Don't cache a search-grounded answer as a permanent "learned"
+        # fact — the whole point of live search is that it can change.
         save_correction(question, learned_fact)
 
     if not final_answer:
