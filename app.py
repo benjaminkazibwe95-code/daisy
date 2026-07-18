@@ -358,6 +358,105 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
+# HARD BACKSTOP for long, unbroken paragraphs. The system prompt asks for
+# a paragraph break every 2-3 sentences, and — same story as the meta-
+# commentary leak above — that instruction alone wasn't holding up
+# reliably across every answer, especially longer factual explanations.
+# Rather than keep tweaking the wording and hoping, this enforces it
+# directly: any prose paragraph over the limit gets mechanically broken
+# into shorter ones, guaranteed, regardless of what Claude actually wrote.
+#
+# Deliberately conservative about WHERE it touches text — it only
+# reflows plain prose paragraphs, walking the text line by line and
+# leaving fenced code/file/diagram/chart blocks, headers, list items,
+# blockquotes, and table rows completely untouched, so it can never
+# mangle a ```document:, ```mermaid, or ```chart block, a bullet list,
+# or a markdown table.
+_MAX_SENTENCES_PER_PARAGRAPH = 3
+
+# Sentence-boundary detector: finds ., !, or ? (optionally followed by a
+# closing quote/paren — "...new."" is a sentence end even though the
+# quote mark sits between the period and the space) followed by
+# whitespace and what looks like the start of a new sentence. Matches
+# are found, then individually checked against a short abbreviation
+# list before being treated as a real boundary — done as an explicit
+# check in Python rather than a regex lookbehind because "ends with
+# e.g." or "i.e." can't be expressed as a *fixed-width* lookbehind,
+# which is all Python's re module supports. Not perfect NLP — doesn't
+# need to be — just needs to avoid the obvious failure cases.
+_ABBREV_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(a) for a in (
+        "mr.", "mrs.", "ms.", "dr.", "prof.", "st.", "jr.", "sr.",
+        "vs.", "etc.", "approx.", "no.", "fig.", "vol.", "e.g.", "i.e.", "cf.",
+    )) + r")$",
+    re.IGNORECASE,
+)
+_BOUNDARY_RE = re.compile(
+    r"([.!?][\"'\u2019\u201d)]?)\s+(?=[A-Z0-9\"'\u2018\u201c(])"
+)
+
+def _split_sentences(block):
+    pieces = []
+    last_end = 0
+    for m in _BOUNDARY_RE.finditer(block):
+        check = block[:m.end(1)].rstrip("\"'\u2019\u201d)").lower()
+        if _ABBREV_RE.search(check) or re.search(r"\b[a-z]\.$", check):
+            continue  # "Dr. Smith", "e.g. this", "J. Smith" — not a real boundary
+        pieces.append(block[last_end:m.end(1)])
+        last_end = m.end()  # skip past the whitespace too — next sentence starts here
+    pieces.append(block[last_end:])
+    return [p.strip() for p in pieces if p.strip()]
+
+def _reflow_long_paragraphs(text, max_sentences=_MAX_SENTENCES_PER_PARAGRAPH):
+    if not text:
+        return text
+
+    out_lines = []
+    buffer = []
+    in_fence = False
+
+    def flush():
+        if not buffer:
+            return
+        block = " ".join(l.strip() for l in buffer).strip()
+        buffer.clear()
+        if not block:
+            return
+        sentences = _split_sentences(block)
+        if len(sentences) <= max_sentences:
+            out_lines.append(block)
+            return
+        chunks = [
+            " ".join(sentences[i:i + max_sentences]).strip()
+            for i in range(0, len(sentences), max_sentences)
+        ]
+        out_lines.append("\n\n".join(chunks))
+
+    for line in text.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            flush()
+            in_fence = not in_fence
+            out_lines.append(line)
+            continue
+        if in_fence:
+            out_lines.append(line)
+            continue
+        is_structural = (
+            not stripped
+            or stripped.startswith(("#", ">", "-", "*", "+", "|", "$$"))
+            or bool(re.match(r"^\d+[.)]\s", stripped))
+        )
+        if is_structural:
+            flush()
+            out_lines.append(line)
+            continue
+        buffer.append(line)
+
+    flush()
+    return "\n".join(out_lines)
+
+
 def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True, history=None):
     """
     Same job as before — pass Daisy's drafted reply through Claude and
@@ -543,6 +642,7 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
             text = _REMEMBER_TAG_RE.sub("", text).strip()
 
         text = _strip_meta_commentary(text)
+        text = _reflow_long_paragraphs(text)
 
         yield {
             "event": "final",
