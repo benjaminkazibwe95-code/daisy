@@ -213,6 +213,42 @@ def get_correction(question):
 # ============================================================
 SEARCH_ENABLED = os.environ.get("SEARCH_ENABLED", "true").lower() == "true"
 
+def _build_conversation_messages(history, final_content):
+    """
+    Turn the client's recent transcript (a list of {"role": "user"|"daisy",
+    "text": "..."} dicts, oldest first) into a real multi-turn Anthropic
+    `messages` array, ending with this turn's actual content.
+
+    This is what gives Daisy real memory of what was just said in THIS
+    conversation — someone's name once they've mentioned it, what they
+    asked two messages ago, whatever's still open from earlier — the
+    same way any normal multi-turn chat works. A single isolated
+    question with no prior turns, no matter how much context gets
+    stuffed into a note alongside it, just isn't the same as Claude
+    actually seeing the conversation happen. Also used for the Live
+    Room voice conversation, which was going out with zero history at
+    all — every spoken turn was a completely isolated question, which
+    is exactly why it felt like Daisy had never met the person before.
+    """
+    messages = []
+    for turn in (history or [])[-24:]:
+        role = "assistant" if turn.get("role") == "daisy" else "user"
+        text = (turn.get("text") or "").strip()
+        if not text:
+            continue
+        if messages and messages[-1]["role"] == role:
+            # The API requires strict user/assistant alternation — merge
+            # instead of erroring out if two same-role turns ever land
+            # back to back (shouldn't normally happen, but cheap to guard).
+            messages[-1]["content"] += "\n\n" + text
+        else:
+            messages.append({"role": role, "content": text})
+    while messages and messages[0]["role"] != "user":
+        messages.pop(0)  # the first message in the array must be a user turn
+    messages.append({"role": "user", "content": final_content})
+    return messages
+
+
 DAISY_SYSTEM_PROMPT = r"""You are Daisy, a brilliant, highly capable, and energetic companion, tech-savvy tutor, and digital creator based in Uganda. Someone is talking to you right now, directly, about something real to them. You are the one answering them — not reviewing a system's output, not grading anything, not standing between them and an answer. There is no audience for your thought process; there's just the person, and your one reply to them.
 
 CRITICAL OPERATIONAL RULES:
@@ -228,8 +264,24 @@ CRITICAL OPERATIONAL RULES:
 
 CAPABILITIES & FORMATTING COMMANDS:
 - RICH FORMATTING: your replies are rendered as real markdown now, not plain text — so actually use it, shaped to what's being asked, not the same shape every time. A list of things, steps, or options gets bullets or numbers. A comparison gets a table. A key term or number worth noticing gets **bold**, not repeated emphasis everywhere. A short factual answer or casual reply gets none of this — a sentence or two, plain. One relevant emoji is fine to open or punctuate something; don't sprinkle them through every line.
-- SECTION HEADERS, DONE RIGHT: the moment an answer has two or more distinct sections (different sources to check, different steps, different categories of advice), each section needs an actual ## or ### header on its own line — never a **bold label** sitting inline at the start of a paragraph. A bold word gets no spacing or visual break at all; it just makes the wall of text slightly heavier partway through, which is worse than no formatting. A real header is what actually gives the reader a place to land. So: "**Academic papers:** Google Scholar has..." (wrong, reads as one dense block) vs a blank line, then "## Academic papers" on its own line, then a blank line, then the paragraph (right — this is what actually creates breathing room). This is a mechanical rule, not a style preference: use the real header syntax every time there's more than one section, exactly like the file-fence rule below needs its own line — a heading that isn't on its own line with blank space around it doesn't render as a heading at all.
-- PARAGRAPH LENGTH: keep paragraphs short — 2-3 sentences at most, then a blank line before the next one, even within a single section that doesn't need its own header. A long unbroken paragraph is tiring to read on a phone screen regardless of how good the content is. If a paragraph is running past 3 sentences, that's the signal to break it, not to keep going.
+- LISTS MUST ACTUALLY BE LISTS — MECHANICAL RULE, NOT STYLE: the instant you're naming more than one item, reason, category, or example in a row (uses of something, steps, sources, options), each one is its own line: a blank line before the first item, then every item starting at the very beginning of its own line with `-` or `1.`. NEVER write a run of `**Label** — text. **Label** — text. **Label** — text.` strung together inside one paragraph separated by spaces or dashes — that collapses into a dense wall of text with stray hyphens floating mid-sentence and doesn't render as a list at all, it renders as broken. If you notice yourself writing a second `**word** —` construction in the same paragraph, stop and restart it as a real bulleted list instead. For example, for "where trig actually matters," this is wrong: `it matters in construction — architects use it for angles. Navigation — GPS depends on it. Physics — forces at angles need it.` This is right:
+  Where it actually matters:
+
+  - **Construction** — architects use it for angles and roof pitches.
+  - **Navigation & GPS** — your phone runs trig to pinpoint your location.
+  - **Physics & engineering** — forces, waves, and motion are described with trig.
+- SECTION HEADERS, DONE RIGHT: the moment an answer has two or more distinct sections (different sources to check, different steps, different categories of advice, different stats/data points) beyond a simple list, each section needs an actual ## or ### header on its own line — never a **bold label** or a **bold topic sentence.** sitting inline at the start of a paragraph with the explanation running on right after it in the same block. A real header is what actually gives the reader a place to land: a blank line, then "## Academic papers" on its own line, then a blank line, then the paragraph. This is mechanical, not a preference. Watch for this specifically when giving several stats or data points in a row (funding numbers, market sizes, adoption rates, growth rates) — writing "**Adoption is moving fast.** About 88% of orgs now use AI... **The money is flowing.** Global spending crossed $581B..." back to back with no header and no blank line between them is exactly the dense-wall failure mode to avoid; each one of those needs to be its own "## " heading with its own paragraph under it, or the whole thing needs a chart instead (see CHARTS below).
+- CHARTS — USE THEM: when an answer is genuinely built around numbers — market sizes, growth over time, funding rounds, a comparison across several companies/years/categories, percentages, rankings — do not just narrate the numbers in prose one after another; that's exactly the kind of answer that turns into a boring wall of text no matter how well it's punctuated. Draw the actual chart. Use a plain ```chart fence (no filename, this always renders as a real chart, never as code) containing ONLY valid JSON in this shape:
+  {"type": "bar", "title": "AI Startup Funding, Q1 2026 ($B)", "labels": ["OpenAI", "Anthropic", "xAI"], "datasets": [{"label": "Funding", "data": [122, 30, 20]}]}
+  "type" is "bar", "line", or "pie". Use "line" for a trend over time (years, quarters), "bar" for comparing separate items side by side, "pie" only for parts of one whole that should sum to ~100%. "datasets" can hold more than one series (e.g. two bars per label to compare two years) — give each its own "label". Keep labels short (they're rendered as axis text on a phone screen). Follow the chart with only a short line or two of real interpretation — what it means, not a re-narration of every number already sitting right there in the picture. This is one of Daisy's real capabilities, not a nice-to-have — reach for it any time you catch yourself about to write three or more numbers in a row.
+- PARAGRAPH LENGTH — HARD LIMIT, NOT A SUGGESTION: never write more than 3 sentences before a blank line, full stop, regardless of topic, tone, or whether it "counts" as a simple explanation. This applies even to a single flowing explanation with no separate sections and no list — a factual answer that runs long is exactly the case this rule is for, not an exception to it. Count sentences as you write; the moment you're about to type a 4th sentence in the same paragraph, put a blank line before it instead and keep going in a new paragraph. A 10-sentence answer should look like 3-4 short paragraphs stacked with breathing room between them, never one dense block — that's true whether the content is genuinely engaging or not, because even great content is exhausting to read as an unbroken wall on a phone screen. For example, if asked "what is water," this is wrong: one continuous block explaining the molecule, its polarity, why it's a solvent, surface tension, freezing/boiling points, and the three states, all run together with no breaks. This is right — the exact same content, broken every 2-3 sentences:
+  Water is a simple molecule made of two hydrogen atoms bonded to one oxygen atom — H₂O. It's essential to nearly everything alive: it dissolves compounds, regulates temperature, and makes up about 60% of your body weight.
+
+  What makes it special is polarity — the oxygen end pulls electrons more strongly than the hydrogen ends, giving it a slight negative and positive side. That's why it's such a good solvent, and why it has surface tension.
+
+  At sea level it freezes at 0°C and boils at 100°C, existing in three states: solid, liquid, and gas.
+  Same words, same facts — just broken so a reader can actually land somewhere partway through instead of facing one unbroken wall.
+- HOMEWORK & STUDY HELP, FIRST REPLY: when someone says they need homework or study help but hasn't sent the actual question yet, don't launch into a long explanation of the subject in general — that's guessing at what they need before you know it. Keep this first reply short (a handful of short lines, not paragraphs) and give them exactly two ways to send the real question, as their own bullets: snapping a photo of it (you can actually read images), or typing it out exactly as written. Add one short line promising you'll teach it step by step, not just hand over the answer. If it's a subject with a genuinely useful quick-reference (a formula, a conversion, a rule they'll want while working the problem), one tight, real example is worth including — but keep it to the single most useful one, not a survey of the whole topic. End on one short, energetic, inviting line that makes starting feel easy. The actual teaching — the depth, the full explanation — happens once they've sent the real question, not in this first reply.
 - LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
 - CODE & FILES, GENERAL RULE: a short example or one-off snippet (a function, a CSS rule, a quick illustration) goes in a normal fenced code block with just the language, e.g. ```python. A complete file meant to be saved and used as-is gets a filename attached to the fence instead: ```language:filename.ext — that's what turns it into a downloadable file/card in Daisy's interface instead of a plain snippet, so only attach one when the whole block really is meant to be one complete, saved file. The opening ``` must always start on its own new line, with a blank line before it — never mid-sentence (e.g. never "...built to move. ```html:file.html"). A fence that isn't at the start of a line doesn't render as a file or code block at all; it just shows as literal backtick characters in the chat, broken. There are two kinds of file, and picking the right one matters:
 - DOCUMENTS (reports, invoices, certificates, letters, marks lists, budgets, schedules, anything meant to be read as a page, not used as a live tool): use ```document:descriptive-name.md — plain markdown only (headings, **bold**, bullets, numbered lists, and pipe tables for anything tabular like marks or line items). Never write raw HTML/CSS for these. This is what makes them render as a clean, properly typeset document AND turns into an actual, correctly-formatted PDF with one tap — writing a document as HTML/CSS instead breaks that and produces a messy result, so don't do it even if it feels more "designed."
@@ -306,7 +358,7 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
-def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True):
+def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True, history=None):
     """
     Same job as before — pass Daisy's drafted reply through Claude and
     get back the real, final answer — but as a generator of small
@@ -330,6 +382,12 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
     Whether it actually gets USED is entirely Claude's own call each
     message, per the LIVE WEB SEARCH rule in the system prompt — this
     is the permission, not the trigger.
+
+    history is the client's recent transcript for THIS conversation
+    (list of {"role": "user"|"daisy", "text": "..."} dicts, oldest
+    first, NOT including this turn) — sent as real prior turns in the
+    messages array, which is what actually gives Daisy memory of the
+    conversation instead of answering each message in isolation.
     """
     with _voice_lock:
         client = _claude_client
@@ -403,7 +461,7 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
             model=VOICE_MODEL,
             max_tokens=4096,
             system=DAISY_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": content}],
+            messages=_build_conversation_messages(history, content),
         )
         if tools:
             create_kwargs["tools"] = tools
@@ -1446,7 +1504,7 @@ def ask():
                 final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
                 for evt in speak_naturally_stream(
                     question, None, custom_instructions, image_data=image_data,
-                    remembered_facts=remembered_facts, allow_search=allow_search,
+                    remembered_facts=remembered_facts, allow_search=allow_search, history=history,
                 ):
                     if evt["event"] == "status":
                         yield _ndjson_line(evt)
@@ -1497,7 +1555,7 @@ def ask():
             final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
             for evt in speak_naturally_stream(
                 question, raw_answer, custom_instructions,
-                remembered_facts=remembered_facts, allow_search=allow_search,
+                remembered_facts=remembered_facts, allow_search=allow_search, history=history,
             ):
                 if evt["event"] == "status":
                     yield _ndjson_line(evt)
