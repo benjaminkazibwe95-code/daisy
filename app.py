@@ -15,7 +15,7 @@ import string
 import secrets
 from datetime import datetime
 import io
-from flask import Flask, request, jsonify, render_template, send_from_directory, send_file
+from flask import Flask, request, jsonify, render_template, send_from_directory, send_file, Response, stream_with_context
 import py_mini_racer
 
 # ============================================================
@@ -238,7 +238,7 @@ CAPABILITIES & FORMATTING COMMANDS:
 - The line between the two: if what they want is going to be printed, saved, sent, or read top to bottom — it's a document, use ```document:. If it needs buttons that work, layout logic, or is a genuine webpage/app — it's ```html:. When in doubt and there's no interactivity involved, default to ```document: — it's almost always what "make me a PDF/report/invoice" actually means.
 - LOGOS & VISUALS: you can't generate raster images (PNGs etc.), but raw SVG is real, renderable code. For a logo or visual asset, write a crisp, modern ```svg:descriptive-name.svg file — it gets the same live preview, so the person sees the actual logo, not markup.
 - DIAGRAMS, SETUPS & ILLUSTRATIONS: when a concept is genuinely easier to grasp visually — the steps of a process, a science experiment's setup, a system's structure, how something flows, a life cycle, a comparison tree, an org chart, a timeline — draw it instead of only describing it in words. Use a plain ```mermaid fence (no filename, this always renders as an actual diagram, never as code) with real Mermaid syntax: `flowchart TD` for processes/setups, `sequenceDiagram` for interactions over time, `classDiagram`/`erDiagram` for structure, `timeline` for history, `graph LR` for simple relationships. Label every node with real, specific words from the actual concept, not "Step 1/Step 2." Reach for this often when teaching or explaining — it's one of the things that makes Daisy feel like a real tutor — but skip it for a quick factual answer that doesn't need a picture.
-- LIVE WEB SEARCH: you may have a real, live web search tool attached to this conversation — check for it, don't assume. When it's there, decide for yourself, every message, whether this question actually needs it: today's news, current prices, live scores, "who is the current...", anything recently released or changed, or any fact you're not fully sure is still true. Search it yourself, without being asked — don't tell the person to go look it up themselves when you could just do it. For stable, timeless facts (how photosynthesis works, historical dates, how to do long division) don't bother searching — answer from what you already know. When you do search, say so plainly and briefly, the way any good assistant would ("Let me check today's rates —", "Just looked this up —"), then give the real, current answer, naming the source naturally in a sentence where it adds credibility (e.g., "according to Reuters"). Never claim to have searched or checked something if the tool isn't there or you didn't actually use it — if you have no way to verify something current, say plainly that you're not certain and it may have changed.
+- LIVE WEB SEARCH: you may have a real, live web search tool attached to this conversation — check for it, don't assume. When it's there, decide for yourself, every message, whether this question actually needs it: today's news, current prices, live scores, "who is the current...", anything recently released or changed, or any fact you're not fully sure is still true. Search it yourself, without being asked — don't tell the person to go look it up themselves when you could just do it. For stable, timeless facts (how photosynthesis works, historical dates, how to do long division) don't bother searching — answer from what you already know. When you do search, say so plainly and briefly, the way any good assistant would ("Let me check today's rates —", "Just looked this up —"), then give the real, current answer, naming the source naturally in a sentence where it adds credibility (e.g., "according to Reuters"). Never claim to have searched or checked something if the tool isn't there or you didn't actually use it — if you have no way to verify something current, say plainly that you're not certain and it may have changed. Only state specifics (a name, a score, a date, a lineup) that your search results actually confirmed — if what you found is vague, unconfirmed, or about something that genuinely hasn't happened/been decided yet, say that plainly instead of filling the gap with a plausible-sounding guess; a confident wrong answer is worse than an honest "that hasn't been announced yet." The app shows the person a real, clickable sources list automatically from your actual citations — you don't need to write your own link list at the end.
 - PDF EXPORT IS REAL, NOT A LIMITATION: any ```document: file gets a direct, correctly-formatted "Save as PDF" button automatically — never say "I can't generate a PDF directly" or claim this is one of Daisy's limits, that's simply false. When someone asks for a PDF (a report, a list, marks, anything), just write the complete thing as ```document:name.md — don't ask clarifying questions if they've already given you the actual data (e.g. a list of names and marks); write the full thing. Only ask what to include if they genuinely haven't said yet."""
 
 
@@ -306,34 +306,23 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
-def speak_naturally(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True, history=None):
+def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True):
     """
-    Pass Daisy's drafted reply (whatever produced it — dictionary,
-    synthesis, personality fragment, math, emotion, or nothing at all)
-    through Claude, using DAISY_SYSTEM_PROMPT as the persona/rules.
-    Claude checks the draft against the actual question and rewrites
-    it if it doesn't fit, instead of just polishing wording.
+    Same job as before — pass Daisy's drafted reply through Claude and
+    get back the real, final answer — but as a generator of small
+    status events instead of a single blocking call, so the person can
+    actually see what's happening while it happens: "searching" while
+    Claude is genuinely calling the web search tool, "thinking"
+    otherwise. These are REAL signals read off Anthropic's own
+    streaming API events, not a client-side guess on a timer.
 
-    history, if given, is the recent back-and-forth of THIS conversation
-    — a list of {"user": "...", "daisy": "...", "topic": "..."} exchanges,
-    oldest first, NOT including the current question. Same shape the JS
-    law-engine already expects (see daisyProcess/ask_daisy) — one history
-    payload from the client now feeds both consumers. This is what lets
-    Claude actually follow the conversation turn to turn ("the second
-    one", "why though", "go on") instead of answering each message as if
-    it were the first thing anyone ever said to Daisy. Capped and
-    trimmed below to bound both token cost and API validity.
-
-    custom_instructions is optional free text the user wrote in the
-    "What should Daisy be to you?" settings screen — things like tone,
-    how blunt to be, what to avoid. It's advisory only: it can shape
-    HOW Daisy answers, never override her core rules/persona or make
-    her invent facts she doesn't have.
-
-    image_data, if given, is {"media_type": "image/jpeg"|"image/png"|...,
-    "data": "<base64>"} — an image the person attached. When present,
-    Daisy's text-only dictionary/brain has nothing useful to say about
-    it, so there's no draft; Claude looks at the image directly.
+    Yields dicts. Every dict has "event":
+      - {"event": "status", "status": "thinking" | "searching"}
+        — fired only when the status actually changes.
+      - {"event": "final", "answer", "learned_fact", "memory_fact",
+         "used_search", "sources"} — exactly once, always last.
+        "sources" is a de-duplicated list of {"title", "url"} pulled
+        from Claude's own real citations, never invented.
 
     allow_search controls whether Claude gets a real, live web search
     tool attached to this call at all (the person's "Search the
@@ -341,23 +330,14 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
     Whether it actually gets USED is entirely Claude's own call each
     message, per the LIVE WEB SEARCH rule in the system prompt — this
     is the permission, not the trigger.
-
-    Returns (display_answer, learned_fact, memory_fact, used_search).
-    learned_fact is None, or a fact string Claude supplied because
-    Daisy's own draft didn't actually answer the question (see system
-    prompt rules 5-6). memory_fact is None, or a personal fact worth
-    remembering about THIS person specifically (see rule 9). used_search
-    is True only if Claude actually invoked the web search tool this
-    turn. The caller is responsible for saving learned/memory facts.
-    If the client isn't ready, returns the raw draft unchanged (or
-    None if there was none) so Daisy always still works without the
-    voice layer.
     """
     with _voice_lock:
         client = _claude_client
 
     if client is None:
-        return (raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."), None, None, False
+        fallback = raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."
+        yield {"event": "final", "answer": fallback, "learned_fact": None, "memory_fact": None, "used_search": False, "sources": []}
+        return
 
     try:
         if image_data:
@@ -411,41 +391,6 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
         else:
             content = user_message_text
 
-        # CONVERSATION HISTORY — turn the client's recent turns into
-        # real prior messages in the API call, not just a single
-        # squashed draft. Capped to the last few exchanges: enough for
-        # Claude to follow "the second one" / "why though" / "go on"
-        # style follow-ups, without letting token cost (and therefore
-        # API spend) grow unbounded as one conversation gets long.
-        MAX_HISTORY_TURNS = 8  # last 8 exchanges = up to 16 messages, oldest dropped first
-        messages = []
-        if history:
-            trimmed = [h for h in history if isinstance(h, dict)][-MAX_HISTORY_TURNS:]
-            for exch in trimmed:
-                u = str(exch.get("user") or "").strip()[:4000]
-                d = str(exch.get("daisy") or "").strip()[:4000]
-                if u:
-                    messages.append({"role": "user", "content": u})
-                if d:
-                    messages.append({"role": "assistant", "content": d})
-            # The Anthropic API rejects two consecutive same-role
-            # messages (and requires starting on "user") — collapse or
-            # drop rather than let one malformed/partial exchange from
-            # the client break the whole call.
-            collapsed = []
-            for m in messages:
-                if collapsed and collapsed[-1]["role"] == m["role"]:
-                    collapsed[-1]["content"] += "\n\n" + m["content"]
-                else:
-                    collapsed.append(m)
-            messages = collapsed
-            if messages and messages[0]["role"] != "user":
-                messages.pop(0)
-            while messages and messages[-1]["role"] == "user":
-                messages.pop()
-
-        messages.append({"role": "user", "content": content})
-
         tools = []
         if allow_search and SEARCH_ENABLED:
             # Anthropic's own hosted web search tool — executed on
@@ -458,36 +403,70 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
             model=VOICE_MODEL,
             max_tokens=4096,
             system=DAISY_SYSTEM_PROMPT,
-            messages=messages,
+            messages=[{"role": "user", "content": content}],
         )
         if tools:
             create_kwargs["tools"] = tools
 
-        response = client.messages.create(**create_kwargs)
+        used_search = False
+        text_chunks = []
+        last_status = "thinking"
+        yield {"event": "status", "status": "thinking"}
+
+        with client.messages.stream(**create_kwargs) as stream:
+            for event in stream:
+                etype = getattr(event, "type", None)
+                if etype == "content_block_start":
+                    block = getattr(event, "content_block", None)
+                    btype = getattr(block, "type", None)
+                    if btype in ("server_tool_use", "web_search_tool_result"):
+                        used_search = True
+                        if last_status != "searching":
+                            last_status = "searching"
+                            yield {"event": "status", "status": "searching"}
+                    elif btype == "text" and last_status != "thinking":
+                        last_status = "thinking"
+                        yield {"event": "status", "status": "thinking"}
+                elif etype == "content_block_delta":
+                    delta = getattr(event, "delta", None)
+                    if getattr(delta, "type", None) == "text_delta":
+                        text_chunks.append(delta.text)
+            final_message = stream.get_final_message()
 
         # A response that used the search tool interleaves
         # server_tool_use / web_search_tool_result blocks with the
-        # actual reply — concatenate every text block instead of
-        # assuming content[0] is text, or a searched answer would
-        # come back empty/truncated.
-        used_search = False
-        text_parts = []
-        for block in response.content:
-            block_type = getattr(block, "type", None)
-            if block_type == "text":
-                text_parts.append(block.text)
-            elif block_type in ("server_tool_use", "web_search_tool_result") and getattr(block, "name", "web_search") == "web_search":
-                used_search = True
-        text = "\n".join(t.strip() for t in text_parts if t and t.strip()).strip()
+        # actual reply text, split into multiple "text" content
+        # blocks so each can carry its own citations — concatenate
+        # them directly (no separator) to reconstruct the one
+        # continuous reply. Joining with anything else (a previous
+        # version used "\n") fractures normal sentences apart wherever
+        # a citation boundary happened to fall.
+        text = "".join(text_chunks).strip()
+
+        # Real citations from Claude's own search, never invented:
+        # each cited text block carries its own citation objects with
+        # the actual source URL/title.
+        sources = []
+        seen_urls = set()
+        for block in getattr(final_message, "content", []) or []:
+            if getattr(block, "type", None) != "text":
+                continue
+            for c in (getattr(block, "citations", None) or []):
+                curl = getattr(c, "url", None)
+                if not curl or curl in seen_urls:
+                    continue
+                seen_urls.add(curl)
+                sources.append({"title": getattr(c, "title", None) or curl, "url": curl})
 
         if not text:
-            return raw_fact, None, None, used_search
+            yield {"event": "final", "answer": raw_fact, "learned_fact": None, "memory_fact": None, "used_search": used_search, "sources": sources}
+            return
 
         # Even with a generous cap, a genuinely huge file can still hit
         # it. Catching that here means an incomplete file never gets
         # silently presented as a finished one — better to say so than
         # let someone download something that just stops mid-line.
-        if getattr(response, "stop_reason", None) == "max_tokens":
+        if getattr(final_message, "stop_reason", None) == "max_tokens":
             text = text.rstrip() + (
                 "\n\n*(That ran longer than expected and got cut off — "
                 "ask me to continue and I'll pick up from where it stopped.)*"
@@ -507,10 +486,17 @@ def speak_naturally(question, raw_fact, custom_instructions=None, image_data=Non
 
         text = _strip_meta_commentary(text)
 
-        return (text if text else raw_fact), learned_fact, memory_fact, used_search
+        yield {
+            "event": "final",
+            "answer": text if text else raw_fact,
+            "learned_fact": learned_fact,
+            "memory_fact": memory_fact,
+            "used_search": used_search,
+            "sources": sources,
+        }
     except Exception as e:
-        print(f"[VOICE] Anthropic call failed: {e} — falling back to raw draft.")
-        return raw_fact, None, None, False
+        print(f"[VOICE] Anthropic stream failed: {e} — falling back to raw draft.")
+        yield {"event": "final", "answer": raw_fact, "learned_fact": None, "memory_fact": None, "used_search": False, "sources": []}
 
 # ============================================================
 # FLASK APP
@@ -1419,13 +1405,25 @@ def delete_project_chat(project_id, chat_id):
     return jsonify({"ok": True})
 
 
+def _ndjson_line(obj):
+    return json.dumps(obj) + "\n"
+
 @app.route("/ask", methods=["POST"])
 def ask():
-    """Main question endpoint with conversation history."""
+    """
+    Main question endpoint — streams newline-delimited JSON events so
+    the client can show real, live status ("searching", "thinking")
+    while Daisy is actually working instead of a fixed local guess,
+    and can render a proper Sources list once real citations come
+    back. Every code path below yields the exact same two event
+    shapes ({"event":"status",...} then one {"event":"final",...}) so
+    the frontend only needs to understand one format regardless of
+    which path served the answer.
+    """
     data = request.get_json(silent=True) or {}
     question = data.get("question", "").strip()
     learned = data.get("learned", {})
-    history = data.get("history", [])  # Recent turns of THIS conversation, oldest first: [{"role": "user"|"daisy", "text": "..."}], NOT including the current question
+    history = data.get("history", [])  # Array of {user, daisy, topic} objects
     custom_instructions = data.get("instructions", "")  # "What should Daisy be to you?"
     image_data = data.get("image")  # {"media_type": "...", "data": "<base64>"} or None
     remembered_facts = data.get("memory", [])  # personal facts the client has saved from earlier turns
@@ -1434,66 +1432,114 @@ def ask():
     # per-message whether a given question actually needs it.
     allow_search = data.get("web_search_enabled", True) is not False
 
-    if not question and not image_data:
-        return jsonify({"answer": "Ask me something.", "source": "empty"})
+    def generate():
+        try:
+            if not question and not image_data:
+                yield _ndjson_line({"event": "final", "answer": "Ask me something.", "source": "empty"})
+                return
 
-    # An attached image goes straight to Claude's vision — Daisy's
-    # text-only dictionary/brain and the correction cache both work on
-    # exact question strings, neither has anything meaningful to say
-    # about a photo, so there's no point routing through them first.
-    if image_data:
-        final_answer, learned_fact, memory_fact, used_search = speak_naturally(
-            question, None, custom_instructions, image_data=image_data,
-            remembered_facts=remembered_facts, allow_search=allow_search, history=history,
-        )
-        result = {"answer": final_answer, "source": "vision", "raw_fact": None, "memory_fact": memory_fact, "used_web_search": used_search}
-        if learned_fact:
-            save_correction(question, learned_fact)
-        if not final_answer:
-            result["needs_fallback"] = True
-        return jsonify(result)
+            # An attached image goes straight to Claude's vision — Daisy's
+            # text-only dictionary/brain and the correction cache both work on
+            # exact question strings, neither has anything meaningful to say
+            # about a photo, so there's no point routing through them first.
+            if image_data:
+                final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
+                for evt in speak_naturally_stream(
+                    question, None, custom_instructions, image_data=image_data,
+                    remembered_facts=remembered_facts, allow_search=allow_search,
+                ):
+                    if evt["event"] == "status":
+                        yield _ndjson_line(evt)
+                    else:
+                        final_answer = evt["answer"]
+                        learned_fact = evt["learned_fact"]
+                        memory_fact = evt["memory_fact"]
+                        used_search = evt["used_search"]
+                        sources = evt["sources"]
+                result = {
+                    "event": "final", "answer": final_answer, "source": "vision",
+                    "raw_fact": None, "memory_fact": memory_fact,
+                    "used_web_search": used_search, "sources": sources,
+                }
+                if learned_fact:
+                    save_correction(question, learned_fact)
+                if not final_answer:
+                    result["needs_fallback"] = True
+                yield _ndjson_line(result)
+                return
 
-    # CORRECTION CACHE — if Claude already had to answer this exact
-    # question once because Daisy's own draft didn't cover it, give
-    # the saved answer straight back. Shared across every visitor on
-    # purpose: this is settled factual knowledge, not one person's
-    # private conversation state (see the state-leak fix above for
-    # why those two things are NOT the same and must stay separate).
-    cached = get_correction(question)
-    if cached:
-        return jsonify({"answer": cached, "source": "learned"})
+            # CORRECTION CACHE — if Claude already had to answer this exact
+            # question once because Daisy's own draft didn't cover it, give
+            # the saved answer straight back. Shared across every visitor on
+            # purpose: this is settled factual knowledge, not one person's
+            # private conversation state (see the state-leak fix above for
+            # why those two things are NOT the same and must stay separate).
+            cached = get_correction(question)
+            if cached:
+                yield _ndjson_line({"event": "final", "answer": cached, "source": "learned"})
+                return
 
-    result = ask_daisy(question, learned, history)
+            result = ask_daisy(question, learned, history)
 
-    # VOICE LAYER — every response goes through Claude now, not just
-    # dictionary/synthesis answers. Daisy's own draft (which may be a
-    # personality fragment, a math result, or nothing at all if she
-    # has zero match) is handed to Claude alongside the real question;
-    # Claude either lightly cleans up a draft that already fits, or
-    # actually answers properly if the draft misses the point or is
-    # blank. This is what fixes things like a robotic "can you
-    # rephrase that?" in response to "are you serious". If the person
-    # allows web search, Claude also gets a real search tool attached
-    # and decides for itself, per question, whether to use it — see
-    # the LIVE WEB SEARCH rule in DAISY_SYSTEM_PROMPT.
-    raw_answer = result.get("answer")
-    final_answer, learned_fact, memory_fact, used_search = speak_naturally(
-        question, raw_answer, custom_instructions,
-        remembered_facts=remembered_facts, allow_search=allow_search,
-    )
-    result["answer"] = final_answer
-    result["raw_fact"] = raw_answer
-    result["memory_fact"] = memory_fact
-    result["used_web_search"] = used_search
-    if learned_fact and not used_search:
-        # Don't cache a search-grounded answer as a permanent "learned"
-        # fact — the whole point of live search is that it can change.
-        save_correction(question, learned_fact)
+            # VOICE LAYER — every response goes through Claude now, not just
+            # dictionary/synthesis answers. Daisy's own draft (which may be a
+            # personality fragment, a math result, or nothing at all if she
+            # has zero match) is handed to Claude alongside the real question;
+            # Claude either lightly cleans up a draft that already fits, or
+            # actually answers properly if the draft misses the point or is
+            # blank. This is what fixes things like a robotic "can you
+            # rephrase that?" in response to "are you serious". If the person
+            # allows web search, Claude also gets a real search tool attached
+            # and decides for itself, per question, whether to use it — see
+            # the LIVE WEB SEARCH rule in DAISY_SYSTEM_PROMPT. Status events
+            # stream out live, as they genuinely happen.
+            raw_answer = result.get("answer")
+            final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
+            for evt in speak_naturally_stream(
+                question, raw_answer, custom_instructions,
+                remembered_facts=remembered_facts, allow_search=allow_search,
+            ):
+                if evt["event"] == "status":
+                    yield _ndjson_line(evt)
+                else:
+                    final_answer = evt["answer"]
+                    learned_fact = evt["learned_fact"]
+                    memory_fact = evt["memory_fact"]
+                    used_search = evt["used_search"]
+                    sources = evt["sources"]
 
-    if not final_answer:
-        result["needs_fallback"] = True
+            result["event"] = "final"
+            result["answer"] = final_answer
+            result["raw_fact"] = raw_answer
+            result["memory_fact"] = memory_fact
+            result["used_web_search"] = used_search
+            result["sources"] = sources
+            if learned_fact and not used_search:
+                # Don't cache a search-grounded answer as a permanent "learned"
+                # fact — the whole point of live search is that it can change.
+                save_correction(question, learned_fact)
 
-    return jsonify(result)
+            if not final_answer:
+                result["needs_fallback"] = True
+
+            yield _ndjson_line(result)
+        except Exception as e:
+            # Nothing above this line used to be wrapped in a try/except —
+            # if ask_daisy() (or anything else in this function) threw for
+            # any reason, the stream just broke off mid-flight with no
+            # final event, which is exactly what showed up on the phone as
+            # "I couldn't reach my brain right now." This is the actual bug:
+            # now any failure still ends the stream properly, with a real
+            # answer bubble instead of a dead connection, and logs the
+            # real cause server-side so it's actually diagnosable.
+            print(f"[ASK] Unhandled error answering {question!r}: {e}")
+            yield _ndjson_line({
+                "event": "final",
+                "answer": "Something went wrong on my end just now — try asking that again.",
+                "source": "error",
+            })
+
+    return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
 
 
 @app.route("/reload", methods=["POST"])
@@ -1595,4 +1641,4 @@ if __name__ == "__main__":
     load_corrections()
     start_ingestion(interval_minutes=2)
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False)
+    app.run(host="0.0.0.0", port=port, debug=False, threaded=True)
