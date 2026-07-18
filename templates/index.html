@@ -53,13 +53,13 @@
     /* ── LIGHT MODE — follows phone system preference ── */
     @media (prefers-color-scheme: light) {
       :root {
-        --black:   #f5f5f0;   /* warm off-white — gentler than pure white */
-        --surface: #ebebeb;
-        --card:    #e0e0da;
-        --border:  #d0d0ca;
-        --text:    #1c1c1e;
-        --muted:   #6e6e73;
-        --daisy:   #2a7dd4;   /* deeper blue reads well on light */
+        --black:   #ffffff;   /* true white background, like most light-mode chat apps */
+        --surface: #f7f7f5;
+        --card:    #f0f0ee;   /* clearly distinct from the white background, not just a shade lighter */
+        --border:  #dcdcd8;   /* actually visible, not almost the same tone as the fill it's outlining */
+        --text:    #17171a;   /* near-black — strong contrast, not a soft gray */
+        --muted:   #67676c;
+        --daisy:   #1f6fd6;   /* deeper blue, holds proper contrast against white */
         --daisy2:  #7c3aed;
         --live:    #dc2626;
       }
@@ -80,13 +80,13 @@
       --live:    #f87171;
     }
     html[data-theme="light"] {
-      --black:   #f5f5f0;
-      --surface: #ebebeb;
-      --card:    #e0e0da;
-      --border:  #d0d0ca;
-      --text:    #1c1c1e;
-      --muted:   #6e6e73;
-      --daisy:   #2a7dd4;
+      --black:   #ffffff;
+      --surface: #f7f7f5;
+      --card:    #f0f0ee;
+      --border:  #dcdcd8;
+      --text:    #17171a;
+      --muted:   #67676c;
+      --daisy:   #1f6fd6;
       --daisy2:  #7c3aed;
       --live:    #dc2626;
     }
@@ -641,6 +641,48 @@
     .msg-action-btn.active.down { color: #f87171; }
     .msg-action-btn.copied { color: var(--daisy); }
 
+    /* ── SOURCES — real, clickable links from Claude's own live web
+       search citations, shown after a message that actually used them ── */
+    .sources-block {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border);
+    }
+    .sources-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 7px;
+    }
+    .sources-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+    .source-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 11px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      font-size: 12.5px;
+      text-decoration: none;
+      max-width: 220px;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .source-chip:hover { border-color: var(--daisy); color: var(--daisy); }
+    .source-chip svg { width: 12px; height: 12px; flex-shrink: 0; opacity: 0.8; }
+    .source-chip span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     /* ── TAP MENU (on a user's own sent message) ── */
     .msg.user { cursor: pointer; position: relative; }
     .msg-menu-overlay {
@@ -876,7 +918,40 @@
     #question-input::placeholder { color: var(--muted); }
     #question-input::-webkit-scrollbar { display: none; }
 
-    #live-pulse-btn, #action-btn {
+    /* Mic dictation button — writes speech straight into the text box */
+    #mic-dictate-btn {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      background: var(--card);
+      color: var(--muted);
+      transition: background 0.15s, color 0.15s, transform 0.1s;
+    }
+    #mic-dictate-btn:hover { background: var(--border); color: var(--text); }
+    #mic-dictate-btn:active { transform: scale(0.95); }
+    #mic-dictate-btn svg { width: 16px; height: 16px; }
+    #mic-dictate-btn.recording-mode {
+      background: #e34b4b;
+      color: #fff;
+      animation: recPulse 1.3s ease-in-out infinite;
+    }
+    @keyframes recPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(227,75,75,0.45); }
+      50% { box-shadow: 0 0 0 7px rgba(227,75,75,0.12); }
+    }
+    #dictation-hint {
+      text-align: center;
+      font-size: 11.5px;
+      color: var(--muted);
+      padding: 6px 0 0;
+    }
+
+    /* Single input-row action button: live voice (pulse ring, idle) →
+       send (solid daisy blue) the instant there's text or an image. */
+    #action-btn {
       width: 38px; height: 38px;
       border-radius: 50%;
       border: none;
@@ -884,16 +959,18 @@
       display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
       position: relative;
-      transition: background 0.15s, transform 0.1s;
-    }
-    #live-pulse-btn {
+      overflow: visible;
       background: var(--card);
       color: var(--daisy);
-      overflow: visible;
+      transition: background 0.15s, color 0.15s, transform 0.1s;
     }
-    #live-pulse-btn svg { width: 16px; height: 16px; }
-    #live-pulse-btn:hover { background: var(--border); }
-    #live-pulse-btn:active { transform: scale(0.95); }
+    #action-btn:hover { background: var(--border); }
+    #action-btn:active { transform: scale(0.95); }
+    #action-btn svg { width: 16px; height: 16px; }
+    #action-btn.send-mode {
+      background: var(--daisy);
+      color: #000;
+    }
     .pulse-ring {
       position: absolute;
       inset: -3px;
@@ -908,35 +985,6 @@
       100% { opacity: 0; transform: scale(1.28); }
     }
     @media (prefers-reduced-motion: reduce) { .pulse-ring { animation: none; display: none; } }
-
-    /* Action btn — mic by default (dark), recording (red, pulsing), send when typing (daisy blue) */
-    #action-btn {
-      background: var(--card);
-      color: var(--muted);
-    }
-    #action-btn.send-mode {
-      background: var(--daisy);
-      color: #000;
-    }
-    #action-btn.recording-mode {
-      background: #e34b4b;
-      color: #fff;
-      animation: recPulse 1.3s ease-in-out infinite;
-    }
-    @keyframes recPulse {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(227,75,75,0.45); }
-      50% { box-shadow: 0 0 0 7px rgba(227,75,75,0.12); }
-    }
-    #action-btn:hover { transform: scale(1.05); }
-    #action-btn:active { transform: scale(0.95); }
-    #action-btn svg { width: 16px; height: 16px; }
-
-    #dictation-hint {
-      text-align: center;
-      font-size: 11.5px;
-      color: var(--muted);
-      padding: 6px 0 0;
-    }
 
     /* ── LIVE ROOM — Full screen Gemini style ── */
     #live-room {
@@ -1761,13 +1809,13 @@
     <!-- QUICK STARTS -->
     <div id="quick-starts">
       <p>Ask Daisy</p>
-      <button class="quick-item" onclick="quickAsk('Help me with my homework')">
+      <button class="quick-item" data-quick="Help me with my homework">
         <span class="quick-icon">🧠</span> Homework
       </button>
-      <button class="quick-item" onclick="quickAsk('Help me start a business')">
+      <button class="quick-item" data-quick="Help me start a business">
         <span class="quick-icon">🚀</span> Start a Business
       </button>
-      <button class="quick-item" onclick="quickImageAsk()">
+      <button class="quick-item" id="quick-image-btn">
         <span class="quick-icon">📸</span> Analyze Images
       </button>
     </div>
@@ -1795,9 +1843,9 @@
       </button>
       <input type="file" id="image-input" accept="image/*" style="display:none;" />
       <textarea id="question-input" rows="1" placeholder="Talk to Daisy..."></textarea>
-      <!-- Single button — mic (idle) → recording (tap to stop) → send (text present) -->
-      <button id="action-btn" title="Voice input">
-        <span id="action-live-icon">
+      <!-- Mic — dictates straight into the text box; tap again (or the square) to stop -->
+      <button id="mic-dictate-btn" title="Voice input">
+        <span id="mic-dictate-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
             <rect x="9" y="2" width="6" height="12" rx="3"/>
             <path d="M5 10a7 7 0 0 0 14 0"/>
@@ -1805,20 +1853,23 @@
             <line x1="8"  y1="22" x2="16" y2="22"/>
           </svg>
         </span>
-        <span id="action-recording-icon" style="display:none;">
+        <span id="mic-dictate-stop-icon" style="display:none;">
           <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+        </span>
+      </button>
+      <!-- Live voice (idle) → send (text/image present) -->
+      <button id="action-btn" title="Live voice conversation">
+        <span class="pulse-ring"></span>
+        <span id="action-live-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 10v4M8 6v12M12 4v16M16 6v12M20 10v4"/>
+          </svg>
         </span>
         <span id="action-send-icon" style="display:none;">
           <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/>
           </svg>
         </span>
-      </button>
-      <button id="live-pulse-btn" title="Live voice conversation">
-        <span class="pulse-ring"></span>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 10v4M8 6v12M12 4v16M16 6v12M20 10v4"/>
-        </svg>
       </button>
     </div>
     <div id="dictation-hint" style="display:none;">Listening — tap the square to stop</div>
@@ -2595,6 +2646,7 @@ document.addEventListener('DOMContentLoaded', function() {
     expand:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 00-2 2v4M15 3h4a2 2 0 012 2v4M9 21H5a2 2 0 01-2-2v-4M15 21h4a2 2 0 002-2v-4"/></svg>',
     close:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>',
     diagram:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="8.5" y="16" width="7" height="5" rx="1.5"/><path d="M6.5 8v3a2 2 0 002 2h7a2 2 0 002-2V8M12 13v3"/></svg>',
+    link:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7a5 5 0 010-10h2M15 7h2a5 5 0 010 10h-2M8 12h8"/></svg>',
   };
 
   function escHtml(s) {
@@ -3220,7 +3272,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // with ONE authoritative renderMarkdown+finalizeRenderedContent pass
   // on the complete text, so correctness never depends on the staged
   // reveal getting every detail right.
-  const FILE_FENCE_RE = /```([a-zA-Z0-9_-]+):([^\n`]+\.[a-zA-Z0-9]+)[ \t]*\n([\s\S]*?)```/g;
+  const FENCE_RE = /```(?:([a-zA-Z0-9_-]+):([^\n`]+\.[a-zA-Z0-9]+)|(mermaid))[ \t]*\n([\s\S]*?)```/g;
 
   async function typeProse(body, text) {
     if (!text.trim()) return;
@@ -3252,21 +3304,25 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   async function typeIntoBody(body, fullText, div) {
-    FILE_FENCE_RE.lastIndex = 0;
+    FENCE_RE.lastIndex = 0;
     const segments = [];
     let lastIndex = 0, m;
-    while ((m = FILE_FENCE_RE.exec(fullText)) !== null) {
+    while ((m = FENCE_RE.exec(fullText)) !== null) {
       if (m.index > lastIndex) segments.push({ type: 'prose', text: fullText.slice(lastIndex, m.index) });
-      segments.push({ type: 'file', filename: m[2].trim(), code: m[3] });
-      lastIndex = FILE_FENCE_RE.lastIndex;
+      if (m[3] === 'mermaid') {
+        segments.push({ type: 'diagram', code: m[4] });
+      } else {
+        segments.push({ type: 'file', filename: m[2].trim(), code: m[4] });
+      }
+      lastIndex = FENCE_RE.lastIndex;
     }
     if (lastIndex < fullText.length) segments.push({ type: 'prose', text: fullText.slice(lastIndex) });
 
-    const hasFileFence = segments.some(s => s.type === 'file');
+    const hasSpecialFence = segments.some(s => s.type === 'file' || s.type === 'diagram');
 
     // A plain code fence with no filename (```python, a short snippet,
     // not a whole file) — nothing to stage, just render once it's done.
-    if (!hasFileFence) {
+    if (!hasSpecialFence) {
       if (fullText.includes('```')) {
         body.innerHTML = renderMarkdown(fullText);
         finalizeRenderedContent(body);
@@ -3283,6 +3339,15 @@ document.addEventListener('DOMContentLoaded', function() {
     for (const seg of segments) {
       if (seg.type === 'prose') {
         await typeProse(body, seg.text);
+      } else if (seg.type === 'diagram') {
+        const building = document.createElement('div');
+        building.className = 'building-card';
+        building.innerHTML = `<span class="building-spinner"></span><span>Sketching a diagram…</span>`;
+        body.appendChild(building);
+        maybeAutoScroll();
+        const pause = Math.min(1200, 500 + seg.code.length * 0.5); // a bit more work for a bigger diagram, capped so it never drags
+        await sleep(pause);
+        building.remove();
       } else {
         const building = document.createElement('div');
         building.className = 'building-card';
@@ -3301,6 +3366,32 @@ document.addEventListener('DOMContentLoaded', function() {
     maybeAutoScroll();
   }
 
+  function renderSourcesBlock(sources) {
+    const wrap = document.createElement('div');
+    wrap.className = 'sources-block';
+    const label = document.createElement('div');
+    label.className = 'sources-label';
+    label.textContent = sources.length === 1 ? 'Source' : 'Sources';
+    wrap.appendChild(label);
+    const list = document.createElement('div');
+    list.className = 'sources-list';
+    sources.forEach(s => {
+      if (!s || !s.url) return;
+      let host = s.url;
+      try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (e) {}
+      const a = document.createElement('a');
+      a.className = 'source-chip';
+      a.href = s.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.title = s.title || s.url;
+      a.innerHTML = `${ICONS.link}<span>${escHtml(host)}</span>`;
+      list.appendChild(a);
+    });
+    wrap.appendChild(list);
+    return wrap;
+  }
+
   async function addMsgTyped(text, opts) {
     opts = opts || {};
     const div = document.createElement('div');
@@ -3316,6 +3407,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
     await typeIntoBody(body, text, div);
+    if (opts.sources && opts.sources.length) {
+      div.appendChild(renderSourcesBlock(opts.sources));
+      maybeAutoScroll();
+    }
     div.appendChild(buildActionToolbar(() => body.innerText, opts.question, text));
     return div;
   }
@@ -3327,16 +3422,20 @@ document.addEventListener('DOMContentLoaded', function() {
     body.style.opacity = '0.55';
     body.innerHTML = 'Thinking again…';
     try {
-      const res = await fetch('/ask', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory(), history: buildHistoryForServer(true) })
+      const data = await streamAsk({
+        question, instructions: getInstructions(), memory: getMemory(), web_search_enabled: isWebSearchAllowed()
+      }, (status) => {
+        body.textContent = status === 'searching' ? 'Searching the web…' : 'Thinking again…';
       });
-      const data = await res.json();
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       body.style.opacity = '1';
       await typeIntoBody(body, answer, msgDiv);
+      const oldSources = msgDiv.querySelector('.sources-block');
+      if (oldSources) oldSources.remove();
+      if (data.sources && data.sources.length) {
+        msgDiv.insertBefore(renderSourcesBlock(data.sources), msgDiv.querySelector('.msg-actions'));
+      }
     } catch(e) {
       body.innerHTML = original;
       body.style.opacity = '1';
@@ -3438,23 +3537,37 @@ document.addEventListener('DOMContentLoaded', function() {
     chatArea.appendChild(div);
     if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
-    const stepEl = div.querySelector('.thinking-step');
-    let cancelled = false;
-    const t = setTimeout(async () => {
-      if (cancelled) return;
-      stepEl.style.opacity = '0';
-      await sleep(220);
-      if (cancelled) return;
-      stepEl.textContent = "Checking Daisy's dictionary…";
-      stepEl.style.opacity = '1';
-    }, 550);
-
-    div._cancel = () => { cancelled = true; clearTimeout(t); };
-    div._stepEl = stepEl;
+    div._stepEl = div.querySelector('.thinking-step');
+    // Nothing local to cancel anymore — status now comes from real
+    // backend events (see applyLiveStatus) instead of a guessed
+    // timer, but settleThinkingPanel() still calls panel._cancel(),
+    // so this stays as a harmless no-op for that call site.
+    div._cancel = () => {};
     return div;
   }
 
+  const LIVE_STATUS_LABELS = {
+    thinking:  'Thinking…',
+    searching: 'Searching the web…',
+  };
+
+  // Called live, as real "searching"/"thinking" events arrive from the
+  // backend while Claude is actually working — not a local guess on a
+  // timer. Only swaps the label when it actually changed.
+  async function applyLiveStatus(panel, status) {
+    const label = LIVE_STATUS_LABELS[status];
+    if (!label || !panel || !panel._stepEl || panel._settled) return;
+    const stepEl = panel._stepEl;
+    if (stepEl.textContent === label) return;
+    stepEl.style.opacity = '0';
+    await sleep(140);
+    if (panel._settled) return;
+    stepEl.textContent = label;
+    stepEl.style.opacity = '1';
+  }
+
   async function settleThinkingPanel(panel, data) {
+    panel._settled = true;
     panel._cancel();
     const final = sourceToFinalStep(data);
 
@@ -3480,6 +3593,44 @@ document.addEventListener('DOMContentLoaded', function() {
     panel.remove();
   }
 
+  // Reads the NDJSON stream from /ask. Calls onStatus(status) the
+  // instant each real status event arrives (while Claude is actually
+  // searching/thinking, not on a guessed timer), and resolves with
+  // the single "final" event once the stream ends.
+  async function streamAsk(payload, onStatus) {
+    const res = await fetch('/ask', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok || !res.body) throw new Error('Request failed');
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+    let finalData = null;
+
+    const handleLine = (line) => {
+      if (!line.trim()) return;
+      let evt;
+      try { evt = JSON.parse(line); } catch (e) { return; }
+      if (evt.event === 'status') { if (onStatus) onStatus(evt.status); }
+      else if (evt.event === 'final') { finalData = evt; }
+    };
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+      for (const line of lines) handleLine(line);
+    }
+    if (buffer) handleLine(buffer);
+
+    if (!finalData) throw new Error('No response received');
+    return finalData;
+  }
+
   async function sendMessage(overrideText) {
     const text = overrideText || inp.value.trim();
     const attachedImage = pendingImage;
@@ -3494,27 +3645,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const panel = addThinkingPanel();
 
     try {
-      const res  = await fetch('/ask', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          question: text,
-          instructions: getInstructions(),
-          memory: getMemory(),
-          history: buildHistoryForServer(true),
-          web_search_enabled: isWebSearchAllowed(),
-          image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
-        })
-      });
-      const data = await res.json();
+      const data = await streamAsk({
+        question: text,
+        instructions: getInstructions(),
+        memory: getMemory(),
+        web_search_enabled: isWebSearchAllowed(),
+        image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
+      }, (status) => applyLiveStatus(panel, status));
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
-      await addMsgTyped(answer, { question: text });
+      await addMsgTyped(answer, { question: text, sources: data.sources });
       recordMessage('daisy', answer);
       if (ttsOn) speak(answer);
       if (isExplicitPdfRequest(text) && !containsFileCard(answer)) downloadAsPdf(null, text, answer);
     } catch(e) {
+      panel._settled = true;
       panel._cancel();
       panel.remove();
       addMsg("I couldn't reach my brain right now. Try again.", 'daisy');
@@ -3536,6 +3682,17 @@ document.addEventListener('DOMContentLoaded', function() {
     inp.focus();
     imageInput.click();
   }
+
+  // Wired up here, not via inline onclick="" in the HTML — everything
+  // in this file lives inside this DOMContentLoaded closure, so an
+  // inline onclick (which runs in global scope) can never actually
+  // reach quickAsk/quickImageAsk. That mismatch is why tapping these
+  // buttons did nothing before.
+  document.querySelectorAll('#quick-starts .quick-item[data-quick]').forEach(btn => {
+    btn.addEventListener('click', () => quickAsk(btn.dataset.quick));
+  });
+  const quickImageBtn = document.getElementById('quick-image-btn');
+  if (quickImageBtn) quickImageBtn.addEventListener('click', quickImageAsk);
 
   // ── SCROLL TO BOTTOM ──
   const scrollBtn = document.getElementById('scroll-bottom-btn');
@@ -3559,70 +3716,78 @@ document.addEventListener('DOMContentLoaded', function() {
     mainEl.scrollTo({ top: mainEl.scrollHeight, behavior: 'smooth' });
   });
 
-  // ── ACTION BUTTON (mic ↔ recording ↔ send) ────────────
+  // ── ACTION BUTTON (live voice ↔ send) ──────────────────
+  // Pulse icon by default (tap opens the full Live Room voice
+  // conversation), morphs to a send button the instant there's text
+  // or an attached image to send. The separate mic button next to it
+  // (below) still does inline dictation straight into the text box.
   const actionBtn       = document.getElementById('action-btn');
   const actionLiveIcon  = document.getElementById('action-live-icon');
-  const actionRecordingIcon = document.getElementById('action-recording-icon');
   const actionSendIcon  = document.getElementById('action-send-icon');
-  const dictationHint   = document.getElementById('dictation-hint');
-  let actionMode = 'live'; // 'live' | 'recording' | 'send'
+  let actionMode = 'live'; // 'live' | 'send'
 
   function setActionMode(mode) {
     actionMode = mode;
-    actionBtn.classList.remove('send-mode', 'recording-mode');
-    actionLiveIcon.style.display = 'none';
-    actionRecordingIcon.style.display = 'none';
-    actionSendIcon.style.display = 'none';
-    if (mode === 'send') {
-      actionBtn.classList.add('send-mode');
-      actionBtn.title = 'Send';
-      actionSendIcon.style.display = 'flex';
-    } else if (mode === 'recording') {
-      actionBtn.classList.add('recording-mode');
-      actionBtn.title = 'Stop';
-      actionRecordingIcon.style.display = 'flex';
-    } else {
-      actionBtn.title = 'Voice input';
-      actionLiveIcon.style.display = 'flex';
-    }
+    actionBtn.classList.toggle('send-mode', mode === 'send');
+    actionLiveIcon.style.display = mode === 'send' ? 'none' : 'flex';
+    actionSendIcon.style.display = mode === 'send' ? 'flex' : 'none';
+    actionBtn.title = mode === 'send' ? 'Send' : 'Live voice conversation';
   }
 
   function refreshActionMode() {
-    if (isDictating) return; // recording state is authoritative while active
     setActionMode((inp.value.trim() || pendingImage) ? 'send' : 'live');
   }
   inp.addEventListener('input', refreshActionMode);
 
   actionBtn.onclick = () => {
-    if (actionMode === 'send') { sendMessage(); return; }
-    if (actionMode === 'recording') { stopInlineDictation(); return; }
-    startInlineDictation();
+    if (actionMode === 'send') {
+      if (isDictating) stopInlineDictation(); // don't leave the mic listening after the message is already sent
+      sendMessage();
+      return;
+    }
+    openLive().catch(() => {
+      liveRoom.classList.add('active');
+      transcript.textContent = "Something went wrong opening voice mode — tap Try again.";
+      liveRetryBtn.style.display = 'inline-flex';
+    });
   };
 
-  // ── INLINE DICTATION — mic writes straight into the text box, like
-  // any native voice-to-text keyboard, instead of opening a separate
+  // ── MIC DICTATION — mic writes straight into the text box, like any
+  // native voice-to-text keyboard, instead of opening a separate
   // screen. Its own SpeechRecognition instance, deliberately separate
   // from the Live Room's below, so the two never fight over state. ──
   //
-  // The previous version trusted `continuous: true` to keep one
-  // long-running session whose `e.results` grows in a stable, spec-
-  // compliant way — and that assumption was wrong on a real device,
-  // which is why it kept doubling. This version makes NO assumption
-  // about cross-event array behavior at all: each recognition instance
-  // handles exactly ONE utterance (continuous: false), commits it once
-  // when it finishes, and a brand new instance starts for the next
-  // utterance. There's no session-spanning array to misread, so there's
-  // nothing left to duplicate.
+  // Each recognition instance handles exactly ONE utterance
+  // (continuous: false), commits it once when it finishes, and a
+  // brand new instance starts for the next utterance — continuous:true
+  // sessions were seen to double up results on real devices, so this
+  // makes no assumption about cross-event array behavior at all.
+  const micDictateBtn      = document.getElementById('mic-dictate-btn');
+  const micDictateIcon     = document.getElementById('mic-dictate-icon');
+  const micDictateStopIcon = document.getElementById('mic-dictate-stop-icon');
+  const dictationHint      = document.getElementById('dictation-hint');
   let isDictating = false;
   let dictationRecognition = null;
   let dictationBaseText = '';
+
+  function setMicDictateUI(recording) {
+    micDictateBtn.classList.toggle('recording-mode', recording);
+    micDictateBtn.title = recording ? 'Stop' : 'Voice input';
+    micDictateIcon.style.display = recording ? 'none' : 'flex';
+    micDictateStopIcon.style.display = recording ? 'flex' : 'none';
+  }
+
+  micDictateBtn.onclick = () => {
+    if (isDictating) { stopInlineDictation(); return; }
+    startInlineDictation();
+  };
 
   function startInlineDictation() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) { alert("Voice input isn't supported in this browser — try Chrome."); return; }
     dictationBaseText = inp.value ? inp.value.replace(/\s+$/, '') + ' ' : '';
     isDictating = true;
-    setActionMode('recording');
+    setMicDictateUI(true);
     dictationHint.textContent = 'Listening — tap the square to stop';
     dictationHint.style.display = 'block';
     runDictationCycle();
@@ -3630,7 +3795,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function runDictationCycle() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-    let committedThisCycle = false;
     dictationRecognition = new SR();
     dictationRecognition.lang = 'en-US';
     dictationRecognition.interimResults = true;
@@ -3640,7 +3804,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const last = e.results[e.results.length - 1];
       const text = last[0].transcript;
       if (last.isFinal) {
-        committedThisCycle = true;
         dictationBaseText = dictationBaseText + text + ' ';
         inp.value = dictationBaseText;
       } else {
@@ -3649,6 +3812,7 @@ document.addEventListener('DOMContentLoaded', function() {
       inp.style.height = 'auto';
       inp.style.height = inp.scrollHeight + 'px';
       inp.scrollTop = inp.scrollHeight;
+      inp.dispatchEvent(new Event('input')); // keeps the send/live icon and auto-resize in sync while dictating
     };
 
     dictationRecognition.onerror = (e) => {
@@ -3674,38 +3838,28 @@ document.addEventListener('DOMContentLoaded', function() {
       dictationRecognition.start();
     } catch (e) {
       isDictating = false;
+      setMicDictateUI(false);
       dictationHint.style.display = 'none';
-      refreshActionMode();
       alert("Couldn't start voice input — check microphone permission for this site.");
     }
   }
 
   function stopInlineDictation() {
     isDictating = false;
+    setMicDictateUI(false);
     dictationHint.style.display = 'none';
     if (dictationRecognition) {
       try { dictationRecognition.onend = null; dictationRecognition.stop(); } catch (e) {}
       dictationRecognition = null;
     }
-    refreshActionMode();
     inp.focus();
   }
 
   // ── TTS — controlled from Settings only now; the input-bar slot
-  // that used to toggle it here is now the live-pulse button below. ──
+  // that used to toggle it here is now the action button above. ──
   let ttsOn = false;
   function setTtsOn(on) { ttsOn = on; }
   setTtsOn(localStorage.getItem('daisy_tts_default') === '1');
-
-  // ── LIVE PULSE BUTTON — opens the full voice-conversation screen ──
-  const livePulseBtn = document.getElementById('live-pulse-btn');
-  livePulseBtn.onclick = () => {
-    openLive().catch(() => {
-      liveRoom.classList.add('active');
-      transcript.textContent = "Something went wrong opening voice mode — tap Try again.";
-      liveRetryBtn.style.display = 'inline-flex';
-    });
-  };
 
   function speak(text) {
     if (!window.speechSynthesis) return;
@@ -3835,21 +3989,19 @@ document.addEventListener('DOMContentLoaded', function() {
         recordMessage('user', question);
         const panel = addThinkingPanel();
         try {
-          const res  = await fetch('/ask', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ question, instructions: getInstructions(), memory: getMemory(), history: buildHistoryForServer(true) })
-          });
-          const data = await res.json();
+          const data = await streamAsk({
+            question, instructions: getInstructions(), memory: getMemory(), web_search_enabled: isWebSearchAllowed()
+          }, (status) => applyLiveStatus(panel, status));
           const answer = data.answer || "Still learning that one.";
           if (data.memory_fact) saveMemoryFact(data.memory_fact);
           await settleThinkingPanel(panel, data);
-          await addMsgTyped(answer, { question });
+          await addMsgTyped(answer, { question, sources: data.sources });
           recordMessage('daisy', answer);
           transcript.textContent = answer;
           speak(answer);
           if (isExplicitPdfRequest(question) && !containsFileCard(answer)) downloadAsPdf(null, question, answer);
         } catch(e) {
+          panel._settled = true;
           panel._cancel();
           panel.remove();
           transcript.textContent = "Couldn't reach Daisy.";
@@ -3942,30 +4094,6 @@ document.addEventListener('DOMContentLoaded', function() {
       currentChat.title = text.length > 48 ? text.slice(0, 48) + '…' : text;
     }
     persistCurrentChat();
-  }
-
-  // ── CONVERSATION HISTORY FOR /ask ──
-  // currentChat.messages is a flat, in-order list of {role:'user'|'daisy',
-  // text}. The server (and the Daisy law-engine underneath it) wants the
-  // recent back-and-forth as exchange pairs instead: [{user, daisy}, ...],
-  // oldest first — this is what actually lets Daisy follow the
-  // conversation turn to turn instead of treating every message as the
-  // first thing anyone ever said to her. Always call this with
-  // excludeLast=true right after recordMessage('user', ...) for the
-  // current question, since the server gets that as `question` already.
-  function buildHistoryForServer(excludeLast) {
-    const msgs = excludeLast ? currentChat.messages.slice(0, -1) : currentChat.messages;
-    const exchanges = [];
-    let pendingUser = null;
-    for (const m of msgs) {
-      if (m.role === 'user') {
-        pendingUser = m.text;
-      } else if (m.role === 'daisy' && pendingUser !== null) {
-        exchanges.push({ user: pendingUser, daisy: m.text });
-        pendingUser = null;
-      }
-    }
-    return exchanges.slice(-8); // last 8 exchanges — matches the server's own cap
   }
 
   function persistCurrentChat() {
