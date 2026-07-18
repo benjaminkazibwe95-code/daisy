@@ -33,6 +33,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <!-- Diagrams (flowcharts, sequence diagrams, experiment setups, etc.) that Daisy draws inline via ```mermaid fences -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
+  <!-- Charts (bar/line/pie) that Daisy draws inline via ```chart fences, for data-heavy answers instead of walls of numbers -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -219,6 +221,7 @@
       color: var(--text);
       border-bottom-left-radius: 4px;
       padding-left: 0;
+      max-width: 100%;
     }
     .msg-image {
       display: block;
@@ -590,6 +593,19 @@
       font-size: 13px;
       color: var(--muted);
       padding: 10px 4px;
+    }
+    .chart-render { padding: 14px; }
+    .chart-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .chart-canvas-wrap {
+      position: relative;
+      height: 240px;
+      width: 100%;
     }
     .md-body blockquote {
       border-left: 3px solid var(--daisy);
@@ -1352,7 +1368,13 @@
       flex-direction: column;
       max-width: 480px;
       margin: 0 auto;
-      transform: translateX(100%);
+      /* 100vw, not 100%: centered via margin:auto in a viewport that
+         can be much wider than the panel on desktop. Translating by
+         100% of the panel's OWN width only clears a phone-width
+         viewport — on a wide screen it lands the "hidden" panel fully
+         back inside the visible page. 100vw always clears the actual
+         screen regardless of width. */
+      transform: translateX(100vw);
       transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
     }
     #settings-page.open { transform: translateX(0); }
@@ -1550,7 +1572,7 @@
       flex-direction: column;
       max-width: 480px;
       margin: 0 auto;
-      transform: translateX(100%);
+      transform: translateX(100vw); /* see #settings-page above for why 100vw, not 100% */
       transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
     }
     #persona-page.open, #stats-page.open { transform: translateX(0); }
@@ -2646,6 +2668,7 @@ document.addEventListener('DOMContentLoaded', function() {
     expand:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 00-2 2v4M15 3h4a2 2 0 012 2v4M9 21H5a2 2 0 01-2-2v-4M15 21h4a2 2 0 002-2v-4"/></svg>',
     close:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>',
     diagram:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="8.5" y="16" width="7" height="5" rx="1.5"/><path d="M6.5 8v3a2 2 0 002 2h7a2 2 0 002-2V8M12 13v3"/></svg>',
+    chart:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="13" width="3" height="5"/><rect x="12.5" y="9" width="3" height="9"/><rect x="18" y="6" width="3" height="12"/></svg>',
     link:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7a5 5 0 010-10h2M15 7h2a5 5 0 010 10h-2M8 12h8"/></svg>',
   };
 
@@ -2741,6 +2764,21 @@ document.addEventListener('DOMContentLoaded', function() {
             <span class="diagram-card-label">Diagram</span>
           </div>
           <div class="mermaid-render" data-code-id="${id}"><div class="diagram-loading">Drawing diagram…</div></div>
+        </div>`;
+      }
+
+      // CHART: a plain ```chart fence (never has a filename) containing
+      // JSON — this is Daisy visualizing actual numbers (funding,
+      // market size, growth, comparisons) instead of narrating a wall
+      // of stats in prose. renderChartsIn() below parses the JSON and
+      // draws it with Chart.js once the node is in the DOM.
+      if (!isFile && lang === 'chart') {
+        return `<div class="diagram-card">
+          <div class="diagram-card-head">
+            <span class="diagram-card-icon">${ICONS.chart}</span>
+            <span class="diagram-card-label">Chart</span>
+          </div>
+          <div class="chart-render" data-code-id="${id}"><div class="diagram-loading">Charting the numbers…</div></div>
         </div>`;
       }
 
@@ -2884,6 +2922,77 @@ document.addEventListener('DOMContentLoaded', function() {
         node.innerHTML = svg;
       } catch (e) {
         node.innerHTML = `<div class="diagram-error">Couldn't draw this diagram.</div>`;
+      }
+    }
+  }
+
+  let _chartSeq = 0;
+  const CHART_PALETTE = ['#7eb8f7', '#a78bfa', '#34d399', '#f5a623', '#f87171', '#22d3ee'];
+  function renderChartsIn(el) {
+    if (typeof Chart === 'undefined') return;
+    const nodes = el.querySelectorAll('.chart-render:not([data-loaded])');
+    for (const node of nodes) {
+      const id = node.dataset.codeId;
+      const raw = _codeBlockText[id];
+      if (raw === undefined) continue;
+      node.dataset.loaded = '1';
+      try {
+        const spec = JSON.parse(raw.trim());
+        const type = ['bar', 'line', 'pie'].includes(spec.type) ? spec.type : 'bar';
+        const labels = Array.isArray(spec.labels) ? spec.labels : [];
+        const datasets = Array.isArray(spec.datasets) && spec.datasets.length
+          ? spec.datasets
+          : [{ label: '', data: [] }];
+
+        const styledColor = getComputedStyle(document.documentElement);
+        const textColor = styledColor.getPropertyValue('--text').trim() || '#f0f0f0';
+        const borderColor = styledColor.getPropertyValue('--border').trim() || '#484848';
+
+        const canvas = document.createElement('canvas');
+        canvas.id = 'chart-' + (_chartSeq++);
+        node.innerHTML = '';
+        if (spec.title) {
+          const title = document.createElement('div');
+          title.className = 'chart-title';
+          title.textContent = spec.title;
+          node.appendChild(title);
+        }
+        const wrap = document.createElement('div');
+        wrap.className = 'chart-canvas-wrap';
+        wrap.appendChild(canvas);
+        node.appendChild(wrap);
+
+        new Chart(canvas.getContext('2d'), {
+          type,
+          data: {
+            labels,
+            datasets: datasets.map((ds, i) => ({
+              label: ds.label || '',
+              data: Array.isArray(ds.data) ? ds.data : [],
+              backgroundColor: type === 'pie'
+                ? labels.map((_, j) => CHART_PALETTE[j % CHART_PALETTE.length])
+                : CHART_PALETTE[i % CHART_PALETTE.length] + (type === 'line' ? '33' : 'cc'),
+              borderColor: CHART_PALETTE[i % CHART_PALETTE.length],
+              borderWidth: type === 'line' ? 2.5 : 1,
+              borderRadius: type === 'bar' ? 6 : 0,
+              tension: 0.35,
+              fill: type === 'line',
+            })),
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: datasets.length > 1 || type === 'pie', labels: { color: textColor, font: { size: 12 } } },
+            },
+            scales: type === 'pie' ? {} : {
+              x: { ticks: { color: textColor, font: { size: 11 } }, grid: { color: borderColor } },
+              y: { ticks: { color: textColor, font: { size: 11 } }, grid: { color: borderColor }, beginAtZero: true },
+            },
+          },
+        });
+      } catch (e) {
+        node.innerHTML = `<div class="diagram-error">Couldn't draw this chart.</div>`;
       }
     }
   }
@@ -3065,6 +3174,7 @@ document.addEventListener('DOMContentLoaded', function() {
     highlightCodeIn(el);
     renderFilePreviewsIn(el);
     renderDiagramsIn(el);
+    renderChartsIn(el);
   }
 
   function flashAction(btn) {
@@ -3272,7 +3382,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // with ONE authoritative renderMarkdown+finalizeRenderedContent pass
   // on the complete text, so correctness never depends on the staged
   // reveal getting every detail right.
-  const FENCE_RE = /```(?:([a-zA-Z0-9_-]+):([^\n`]+\.[a-zA-Z0-9]+)|(mermaid))[ \t]*\n([\s\S]*?)```/g;
+  const FENCE_RE = /```(?:([a-zA-Z0-9_-]+):([^\n`]+\.[a-zA-Z0-9]+)|(mermaid|chart))[ \t]*\n([\s\S]*?)```/g;
 
   async function typeProse(body, text) {
     if (!text.trim()) return;
@@ -3311,6 +3421,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (m.index > lastIndex) segments.push({ type: 'prose', text: fullText.slice(lastIndex, m.index) });
       if (m[3] === 'mermaid') {
         segments.push({ type: 'diagram', code: m[4] });
+      } else if (m[3] === 'chart') {
+        segments.push({ type: 'chart', code: m[4] });
       } else {
         segments.push({ type: 'file', filename: m[2].trim(), code: m[4] });
       }
@@ -3318,7 +3430,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (lastIndex < fullText.length) segments.push({ type: 'prose', text: fullText.slice(lastIndex) });
 
-    const hasSpecialFence = segments.some(s => s.type === 'file' || s.type === 'diagram');
+    const hasSpecialFence = segments.some(s => s.type === 'file' || s.type === 'diagram' || s.type === 'chart');
 
     // A plain code fence with no filename (```python, a short snippet,
     // not a whole file) — nothing to stage, just render once it's done.
@@ -3346,6 +3458,15 @@ document.addEventListener('DOMContentLoaded', function() {
         body.appendChild(building);
         maybeAutoScroll();
         const pause = Math.min(1200, 500 + seg.code.length * 0.5); // a bit more work for a bigger diagram, capped so it never drags
+        await sleep(pause);
+        building.remove();
+      } else if (seg.type === 'chart') {
+        const building = document.createElement('div');
+        building.className = 'building-card';
+        building.innerHTML = `<span class="building-spinner"></span><span>Charting the numbers…</span>`;
+        body.appendChild(building);
+        maybeAutoScroll();
+        const pause = Math.min(1000, 450 + seg.code.length * 0.4);
         await sleep(pause);
         building.remove();
       } else {
@@ -3421,9 +3542,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const original = body.innerHTML;
     body.style.opacity = '0.55';
     body.innerHTML = 'Thinking again…';
+    // Everything except the answer being replaced — that answer is about
+    // to change, so it shouldn't be "prior context" for its own redo.
+    const priorHistory = currentChat.messages.slice(0, -1).slice(-24);
     try {
       const data = await streamAsk({
-        question, instructions: getInstructions(), memory: getMemory(), web_search_enabled: isWebSearchAllowed()
+        question, instructions: getInstructions(), memory: getMemory(), history: priorHistory, web_search_enabled: isWebSearchAllowed()
       }, (status) => {
         body.textContent = status === 'searching' ? 'Searching the web…' : 'Thinking again…';
       });
@@ -3639,6 +3763,10 @@ document.addEventListener('DOMContentLoaded', function() {
     inp.style.height = 'auto';
     activateChat();
     stickToBottom = true;
+    // Snapshot BEFORE recording this turn — this is genuinely everything
+    // said earlier in the conversation, with no overlap with `question`
+    // below (which is this exact turn, sent separately).
+    const priorHistory = currentChat.messages.slice(-24);
     addMsg(text, 'user', attachedImage ? { imageDataUrl: attachedImage.dataUrl } : {});
     recordMessage('user', attachedImage ? (text || '[image]') : text);
     clearPendingImage();
@@ -3649,6 +3777,7 @@ document.addEventListener('DOMContentLoaded', function() {
         question: text,
         instructions: getInstructions(),
         memory: getMemory(),
+        history: priorHistory,
         web_search_enabled: isWebSearchAllowed(),
         image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
       }, (status) => applyLiveStatus(panel, status));
@@ -3985,12 +4114,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         activateChat();
         stickToBottom = true;
+        const priorHistory = currentChat.messages.slice(-24); // same fix as text chat — real memory of this conversation, spoken or typed
         addMsg(question, 'user');
         recordMessage('user', question);
         const panel = addThinkingPanel();
         try {
           const data = await streamAsk({
-            question, instructions: getInstructions(), memory: getMemory(), web_search_enabled: isWebSearchAllowed()
+            question, instructions: getInstructions(), memory: getMemory(), history: priorHistory, web_search_enabled: isWebSearchAllowed()
           }, (status) => applyLiveStatus(panel, status));
           const answer = data.answer || "Still learning that one.";
           if (data.memory_fact) saveMemoryFact(data.memory_fact);
