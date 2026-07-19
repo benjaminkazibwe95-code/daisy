@@ -64,6 +64,45 @@
   .btn-sm { padding: 10px 18px; font-size: 13px; }
   .btn[disabled] { opacity: 0.45; cursor: not-allowed; pointer-events: none; }
 
+  /* ── INSTALL MODAL — shown whenever the browser's native install
+     prompt isn't available (iOS Safari never has one at all; Chrome
+     sometimes hasn't fired it yet), so "Download" always does
+     something real and explained instead of silently opening the
+     web app in a normal tab. ── */
+  .install-overlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 200;
+    background: rgba(6,6,10,0.72);
+    backdrop-filter: blur(6px);
+    align-items: center; justify-content: center;
+    padding: 20px;
+  }
+  .install-overlay.open { display: flex; }
+  .install-card {
+    background: var(--card);
+    border: 1px solid var(--border2);
+    border-radius: var(--radius);
+    max-width: 380px; width: 100%;
+    padding: 26px 24px 22px;
+    box-shadow: 0 30px 80px -20px rgba(0,0,0,0.6);
+  }
+  .install-card h3 { font-size: 22px; margin-bottom: 6px; }
+  .install-card p.install-sub { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+  .install-steps { list-style: none; padding: 0; margin: 0 0 20px; display: flex; flex-direction: column; gap: 12px; }
+  .install-steps li { display: flex; gap: 12px; align-items: flex-start; font-size: 14.5px; line-height: 1.45; }
+  .install-step-num {
+    flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+    background: linear-gradient(100deg, var(--blue), var(--violet));
+    color: #0a0a10; font-weight: 700; font-size: 12.5px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .install-card .btn { width: 100%; justify-content: center; margin-top: 4px; }
+  .install-close {
+    background: none; border: none; color: var(--muted); font-size: 13px;
+    width: 100%; text-align: center; padding: 12px 0 0; cursor: pointer;
+  }
+  .install-close:hover { color: var(--text); }
+
   /* ── HERO ── */
   header.hero { padding: 76px 0 44px; position: relative; }
   .hero-grid { display: grid; grid-template-columns: 1.08fr 0.92fr; gap: 56px; align-items: center; }
@@ -353,6 +392,16 @@
   </div>
 </footer>
 
+<div class="install-overlay" id="install-overlay">
+  <div class="install-card">
+    <h3>Install Daisy</h3>
+    <p class="install-sub" id="install-sub">A few taps and she's on your home screen, like any app.</p>
+    <ol class="install-steps" id="install-steps"><!-- filled in by JS, per platform --></ol>
+    <a class="btn btn-primary" href="/" id="install-continue">Continue to Daisy</a>
+    <button class="install-close" id="install-close">Not now</button>
+  </div>
+</div>
+
 <script>
   // ── PWA: capture the install prompt on the landing page itself, so
   // clicking Download here triggers the native install dialog directly
@@ -366,19 +415,96 @@
     navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {});
   }
 
-  document.querySelectorAll('#download-btn, a[href="#download"]').forEach((btn) => {
-    btn.addEventListener('click', async (e) => {
-      if (daisyDeferredInstallPrompt) {
-        e.preventDefault();
-        daisyDeferredInstallPrompt.prompt();
-        const { outcome } = await daisyDeferredInstallPrompt.userChoice;
-        daisyDeferredInstallPrompt = null;
-        if (outcome !== 'accepted') window.location.href = '/';
-      }
-      // If the prompt isn't available yet (Chrome hasn't fired it, or this
-      // is Safari/iOS which has no install prompt at all), fall through to
-      // the normal link behavior — scrolling to #download or opening /.
+  // ── Platform detection, for the install-steps fallback below. ──
+  const ua = navigator.userAgent;
+  const isIOS = /iPad|iPhone|iPod/.test(ua) || (ua.includes('Macintosh') && navigator.maxTouchPoints > 1);
+  const isAndroid = /Android/.test(ua);
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+
+  const installOverlay  = document.getElementById('install-overlay');
+  const installSteps    = document.getElementById('install-steps');
+  const installSub      = document.getElementById('install-sub');
+  const installContinue = document.getElementById('install-continue');
+  const installClose    = document.getElementById('install-close');
+
+  function stepsHTML(steps) {
+    return steps.map((s, i) => `<li><span class="install-step-num">${i + 1}</span><span>${s}</span></li>`).join('');
+  }
+
+  function showInstallInstructions() {
+    if (isIOS) {
+      installSub.textContent = "iPhones install apps straight from Safari — no app store needed.";
+      installSteps.innerHTML = stepsHTML([
+        'Tap the <strong>Share</strong> icon (the square with an arrow) at the bottom of Safari.',
+        "Scroll down and tap <strong>Add to Home Screen</strong>.",
+        'Tap <strong>Add</strong> — Daisy\'s icon appears on your home screen like any app.'
+      ]);
+    } else if (isAndroid) {
+      installSub.textContent = "A couple of taps and she's installed, no app store needed.";
+      installSteps.innerHTML = stepsHTML([
+        'Tap the <strong>⋮</strong> menu in the top-right of Chrome.',
+        'Tap <strong>Install app</strong> (or <strong>Add to Home screen</strong>).',
+        'Confirm — Daisy installs like any app on your phone.'
+      ]);
+    } else {
+      installSub.textContent = "Install her straight from your browser — no app store needed.";
+      installSteps.innerHTML = stepsHTML([
+        'Look for the install icon (⊕) at the right edge of your address bar — or open your browser\'s menu.',
+        'Choose <strong>Install Daisy</strong> (or <strong>Add to Home screen</strong>).',
+        "She'll open in her own window from now on, just like any installed app."
+      ]);
+    }
+    installOverlay.classList.add('open');
+  }
+
+  installClose.onclick = () => installOverlay.classList.remove('open');
+  installOverlay.addEventListener('click', (e) => { if (e.target === installOverlay) installOverlay.classList.remove('open'); });
+
+  async function handleDownloadClick(e) {
+    e.preventDefault();
+
+    // Already running as the installed app — nothing to install, just open it.
+    if (isStandalone) { window.location.href = '/'; return; }
+
+    // The native prompt is ready right now — use it, full stop.
+    if (daisyDeferredInstallPrompt) {
+      const promptEvent = daisyDeferredInstallPrompt;
+      daisyDeferredInstallPrompt = null;
+      promptEvent.prompt();
+      await promptEvent.userChoice;
+      return;
+    }
+
+    // iOS Safari never fires beforeinstallprompt at all — go straight
+    // to instructions instead of waiting for an event that's never coming.
+    if (isIOS) { showInstallInstructions(); return; }
+
+    // Chrome sometimes hasn't fired the event yet by the time someone
+    // clicks (this is common on a first visit) — give it a brief real
+    // chance to arrive before falling back to manual steps. This is
+    // the actual fix: previously, this exact case silently fell through
+    // to a plain link and just opened the app in a normal tab, which is
+    // what looked like "download redirects instead of downloading."
+    const gotPromptInTime = await new Promise((resolve) => {
+      const timer = setTimeout(() => resolve(false), 1200);
+      window.addEventListener('beforeinstallprompt', () => {
+        clearTimeout(timer);
+        resolve(true);
+      }, { once: true });
     });
+
+    if (gotPromptInTime && daisyDeferredInstallPrompt) {
+      const promptEvent = daisyDeferredInstallPrompt;
+      daisyDeferredInstallPrompt = null;
+      promptEvent.prompt();
+      await promptEvent.userChoice;
+    } else {
+      showInstallInstructions();
+    }
+  }
+
+  document.querySelectorAll('#download-btn, a[href="#download"]').forEach((btn) => {
+    btn.addEventListener('click', handleDownloadClick);
   });
 
   document.getElementById('year').textContent = new Date().getFullYear();
