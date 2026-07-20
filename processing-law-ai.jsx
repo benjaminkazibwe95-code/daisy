@@ -70050,6 +70050,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-15 13:18 ===
   an_other_area_of_computational_mathematics: "Computer algebra , which consists mainly of the manipulation of mathematical formulas on a computer",
 
+  // === INGESTED 2026-07-20 11:05 ===
+  this_can_help_to_establish_what_information: { definition: "Needed in the database, and what can be left out", what_it_does: "", examples: "it can help when deciding whether the database needs to hold historic data as well as current data" },
+
 };
 
 // ============================================================
