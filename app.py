@@ -201,17 +201,56 @@ def get_correction(question):
 # ============================================================
 # LIVE WEB SEARCH — Daisy's dictionary/law engine and Claude's
 # own training data both go stale (prices, scores, news, "who is
-# the current...", anything released after the fact). Rather than
-# us deciding per-message whether to search, Claude gets a real,
-# live web search tool attached to the call itself (Anthropic's
-# hosted web_search tool — see speak_naturally below) and decides
-# on its own, the same way a person would reach for a search
-# engine mid-conversation only when it's actually needed. The
-# person controls whether this is allowed at all from Settings
-# ("Search the internet"); SEARCH_ENABLED is a server-side kill
-# switch on top of that.
-# ============================================================
+# the current...", anything released after the fact), so search
+# is a real, valuable capability. But every actual search costs
+# real money on top of the normal reply, and leaving "should I
+# search" entirely up to Claude's own per-message judgment meant
+# it was reaching for the tool far more than it needed to —
+# that's the "burning tokens" problem. This adds a hard,
+# deterministic gate BEFORE the search tool is even offered:
+# unless the question itself actually looks time-sensitive, Claude
+# never even sees the option to search, so there's nothing for it
+# to be tempted to overuse. Claude's own judgment (see the LIVE WEB
+# SEARCH rule in the system prompt) is still the second layer,
+# deciding whether to actually use the tool on the narrower set of
+# questions that make it past this filter — but the filter is what
+# actually caps the cost, not the instruction alone.
+#
+# Deliberately errs toward under-triggering, not over-triggering:
+# missing a genuinely time-sensitive question means Claude answers
+# from its own knowledge and can say so honestly (see the system
+# prompt rule on that) — a small, recoverable quality gap. Searching
+# on a question that never needed it is pure wasted cost with no
+# corresponding benefit, every single time it happens.
 SEARCH_ENABLED = os.environ.get("SEARCH_ENABLED", "true").lower() == "true"
+
+_TIME_SENSITIVE_RE = re.compile(
+    r"\b("
+    r"today|tonight|this\s+(week|month|year|morning|afternoon|evening)|"
+    r"right\s+now|currently|at\s+the\s+moment|nowadays|"
+    r"latest|newest|most\s+recent|recently|up[- ]to[- ]date|"
+    r"breaking\s+news|live\s+score|final\s+score|who\s+won|match\s+result|"
+    r"stock\s+price|share\s+price|exchange\s+rate|forex|currency\s+rate|"
+    r"weather\s+(today|now|tomorrow|forecast|this\s+week)|"
+    r"current\s+(price|cost|rate|ceo|president|pm|prime\s+minister|governor|"
+    r"score|weather|exchange\s+rate|version|status)|"
+    r"news\s+(today|now|about|on)|"
+    r"still\s+(the|president|ceo|alive|running|valid|true|in\s+charge)|"
+    r"as\s+of\s+(today|now|202\d)|"
+    r"search\s+(the\s+)?(web|internet|online|for)|"
+    r"look\s+(it\s+|this\s+)?up(\s+online)?|"
+    r"google\s+(it|this|that)|"
+    r"check\s+online|"
+    r"what(?:'s|\s+is)\s+(happening|going\s+on)|"
+    r"\b202[4-9]\b.{0,15}(election|world\s+cup|olympics|budget|release)"
+    r")\b",
+    re.IGNORECASE,
+)
+
+def _looks_time_sensitive(question):
+    """A hard, cheap, deterministic check — no API call, no cost —
+    that runs before the search tool is ever offered to Claude."""
+    return bool(question) and bool(_TIME_SENSITIVE_RE.search(question))
 
 def _build_conversation_messages(history, final_content):
     """
@@ -359,6 +398,47 @@ def _strip_meta_commentary(text):
     return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
 
 
+# HARD BACKSTOP for headers that land mid-line instead of on their own
+# line. Markdown only treats "#"/"##" as a real heading when it's the
+# very first thing on its own line — Claude was sometimes tacking a
+# heading onto the tail end of the previous sentence instead of
+# starting a fresh line for it (e.g. "...thrown into prison. ## Joseph
+# in Prison"), which renders as literal, visible "##" text, not a
+# heading. Same lesson as the paragraph-length backstop above: telling
+# it to put headers on their own line wasn't holding up reliably, so
+# this guarantees it by force-breaking any mid-line #/## marker onto
+# its own properly-spaced line. Fence-aware, so it can never touch a
+# code block that happens to contain a "#" for its own reasons.
+_INLINE_HEADER_RE = re.compile(r"[ \t]+(#{1,6}[ \t]+\S[^\n]*)")
+
+def _fix_inline_headers(text):
+    if not text or "#" not in text:
+        return text
+    out_lines = []
+    in_fence = False
+    for line in text.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            out_lines.append(line)
+            continue
+        if in_fence or stripped.startswith("#"):
+            out_lines.append(line)
+            continue
+        m = _INLINE_HEADER_RE.search(line)
+        if m and m.start() > 0:
+            before = line[:m.start()].rstrip()
+            header = m.group(1).strip()
+            if before:
+                out_lines.append(before)
+            out_lines.append("")
+            out_lines.append(header)
+            out_lines.append("")
+        else:
+            out_lines.append(line)
+    return "\n".join(out_lines)
+
+
 # HARD BACKSTOP for long, unbroken paragraphs. The system prompt asks for
 # a paragraph break every 2-3 sentences, and — same story as the meta-
 # commentary leak above — that instruction alone wasn't holding up
@@ -455,7 +535,7 @@ def _reflow_long_paragraphs(text, max_sentences=_MAX_SENTENCES_PER_PARAGRAPH):
         buffer.append(line)
 
     flush()
-    return "\n".join(out_lines)
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(out_lines))
 
 
 def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True, history=None):
@@ -550,12 +630,15 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
             content = user_message_text
 
         tools = []
-        if allow_search and SEARCH_ENABLED:
+        if allow_search and SEARCH_ENABLED and _looks_time_sensitive(question):
             # Anthropic's own hosted web search tool — executed on
-            # Anthropic's servers, not ours. Claude decides per-message
-            # whether to call it at all (see the LIVE WEB SEARCH rule);
-            # this just makes the tool available, it doesn't force it.
-            tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3}]
+            # Anthropic's servers, not ours. Only offered at all when
+            # _looks_time_sensitive() already thinks this question
+            # needs it (see that function for why); Claude still makes
+            # the final call on whether to actually use it, per the
+            # LIVE WEB SEARCH rule, but it's no longer sitting there
+            # as a standing temptation on every single message.
+            tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 2}]
 
         create_kwargs = dict(
             model=VOICE_MODEL,
@@ -643,6 +726,7 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
             text = _REMEMBER_TAG_RE.sub("", text).strip()
 
         text = _strip_meta_commentary(text)
+        text = _fix_inline_headers(text)
         text = _reflow_long_paragraphs(text)
 
         yield {
