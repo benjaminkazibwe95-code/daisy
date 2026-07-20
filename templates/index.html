@@ -1718,43 +1718,76 @@
     /* ══════════════════════════════════════════════════════════
        DESKTOP / LARGER SCREENS
        Everything above is tuned for a phone screen edge-to-edge —
-       that's correct and shouldn't change. Past phone width though,
-       the exact same layout was just stretching #app's 480px column
-       into the middle of an enormous, empty black viewport: no
-       intentional use of the extra space, tiny type relative to a
-       big display, and a sidebar drawer that slid in from the true
-       edge of the browser window instead of the app itself. This
-       section gives Daisy a real desktop presence — a wider reading
-       column, a slightly "windowed" card with breathing room around
-       it, and type/spacing nudged up — without touching anything
-       the phone layout depends on.
+       that's correct and shouldn't change. The first pass at this
+       breakpoint just scaled the phone layout up into a small card
+       floating in the middle of the page — that isn't what a real
+       desktop AI app looks like. Every major one (ChatGPT, Claude,
+       Gemini) uses the same shape: a full-height, full-width shell
+       with a PERSISTENT sidebar taking real layout space on the
+       left, and a main content column next to it — not an overlay
+       drawer, not a small centered box. This section rebuilds the
+       breakpoint around that actual shape: the sidebar becomes part
+       of the layout instead of a hidden drawer, #app fills the rest
+       of the screen edge to edge, and only the READING content
+       inside it (messages, input) is capped to a comfortable width
+       and centered — the same way ChatGPT keeps its shell full-width
+       but its conversation column narrower.
        ══════════════════════════════════════════════════════════ */
-    @media (min-width: 700px) {
-      html, body { overflow: auto; }
+    @media (min-width: 900px) {
+      html, body { overflow: hidden; }
       body {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100%;
-        background:
-          radial-gradient(ellipse 1000px 640px at 50% -8%, rgba(126,184,247,0.09), transparent 60%),
-          var(--black);
-        padding: 40px 20px;
+        flex-direction: row;
+        align-items: stretch;
+        height: 100vh;
+        height: 100dvh;
+        background: var(--black);
       }
-      #app {
-        height: min(100dvh - 80px, 920px);
-        height: min(calc(100dvh - 80px), 920px);
-        max-width: 640px;
-        width: 100%;
-        border: 1px solid var(--border);
-        border-radius: 26px;
-        box-shadow: 0 40px 90px -24px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.03) inset;
-      }
-      #drawer, #drawer-overlay { position: absolute; }
-      #drawer { border-radius: 26px 0 0 26px; }
 
-      #topbar { padding: 18px 28px 12px; }
-      #main { padding: 0 34px; }
+      /* The sidebar is a DOM sibling of #app (not a child), added
+         after it in the markup for the mobile overlay behavior —
+         `order` puts it first visually without needing to move any
+         HTML, and flexbox's own layout replaces the old fixed-overlay
+         positioning entirely. */
+      #drawer {
+        position: static;
+        order: -1;
+        flex: 0 0 272px;
+        width: 272px;
+        max-width: none;
+        height: 100%;
+        left: auto;
+        transform: none;
+        border-right: 1px solid var(--border);
+        border-radius: 0;
+      }
+      #drawer-overlay { display: none !important; } /* dimming is a modal concept — a permanent sidebar isn't a modal */
+      #menu-btn, #drawer-close { display: none; } /* nothing to toggle or close — the sidebar is always there */
+
+      #app {
+        flex: 1 1 auto;
+        min-width: 0;
+        height: 100%;
+        max-width: none;
+        width: auto;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      /* The app shell is full-bleed now; only the actual reading
+         content gets capped and centered, same as ChatGPT/Claude do
+         inside their own full-width shell. */
+      #topbar, #main, #input-area {
+        max-width: 760px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #topbar { padding: 18px 8px 12px; }
+      #main { padding: 0 8px; }
       #greeting-wrap { padding: 56px 0 40px; }
       #greeting { font-size: 38px; }
       .daisy-orb { width: 58px; height: 58px; }
@@ -1767,18 +1800,18 @@
       .quick-item:hover { cursor: pointer; }
       .quick-icon { width: 34px; height: 34px; font-size: 16px; }
 
-      #input-area { padding: 14px 24px 26px; }
+      #input-area { padding: 14px 8px 26px; }
       #input-row { padding: 11px 11px 11px 12px; }
       #question-input { font-size: 15px; }
 
       #disclaimer { padding-bottom: 4px; }
     }
 
-    /* Comfortably large desktop — a bit more room still, capped well
-       short of feeling like an unbounded webpage; a chat column much
-       past ~760px gets harder to read line-to-line, not easier. */
-    @media (min-width: 1100px) {
-      #app { max-width: 760px; height: min(calc(100dvh - 96px), 980px); }
+    /* Comfortably large desktop — a bit more reading width still,
+       capped well short of feeling unbounded; a chat column much
+       past ~880px gets harder to read line-to-line, not easier. */
+    @media (min-width: 1300px) {
+      #topbar, #main, #input-area { max-width: 880px; }
       #greeting { font-size: 42px; }
     }
 
