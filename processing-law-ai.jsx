@@ -70053,6 +70053,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-20 11:05 ===
   this_can_help_to_establish_what_information: { definition: "Needed in the database, and what can be left out", what_it_does: "", examples: "it can help when deciding whether the database needs to hold historic data as well as current data" },
 
+  // === INGESTED 2026-07-22 12:37 ===
+  five_out_of_seven_african_tech_unicorns: "Based in Nigeria [ 21 ] , and just under a third of all African tech start-ups originate from Nigeria",
+
 };
 
 // ============================================================
