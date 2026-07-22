@@ -70056,6 +70056,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-22 12:37 ===
   five_out_of_seven_african_tech_unicorns: "Based in Nigeria [ 21 ] , and just under a third of all African tech start-ups originate from Nigeria",
 
+  // === INGESTED 2026-07-22 16:23 ===
+  the_impacts: "Not distributed equally accros the planet but are concenrated in some places",
+  data_centers: { definition: "Often built in places already suffering from water deficit increasing it", what_it_does: "", examples: "transition to renewable energy reduce carbon footprint, but increase impact on land and water" },
+
 };
 
 // ============================================================
