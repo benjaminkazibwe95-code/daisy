@@ -70060,6 +70060,9 @@ const FLAT_DICT = {
   the_impacts: "Not distributed equally accros the planet but are concenrated in some places",
   data_centers: { definition: "Often built in places already suffering from water deficit increasing it", what_it_does: "", examples: "transition to renewable energy reduce carbon footprint, but increase impact on land and water" },
 
+  // === INGESTED 2026-07-23 05:18 ===
+  the_negative_impacts: "Not distributed equally across the planet but are concentrated in some places",
+
 };
 
 // ============================================================
