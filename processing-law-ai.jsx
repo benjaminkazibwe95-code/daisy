@@ -70066,6 +70066,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-24 10:25 ===
   these_abilities: { definition: "Typically granted through open licenses or, more rarely, by dedication to the public domain", what_it_does: "", examples: "proprietary software, is of open-source origin" },
 
+  // === INGESTED 2026-07-24 12:53 ===
+  many_of_these_expenses: "Not covered by private or individual insurance policies or by federal or national insurance programs",
+
 };
 
 // ============================================================
