@@ -70069,6 +70069,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-24 12:53 ===
   many_of_these_expenses: "Not covered by private or individual insurance policies or by federal or national insurance programs",
 
+  // === INGESTED 2026-07-24 22:18 ===
+  another_area_of_computational_mathematics: "Computer algebra , which consists mainly of the manipulation of mathematical formulas on a computer",
+
 };
 
 // ============================================================
