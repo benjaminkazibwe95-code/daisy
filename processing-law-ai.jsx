@@ -70063,6 +70063,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-23 05:18 ===
   the_negative_impacts: "Not distributed equally across the planet but are concentrated in some places",
 
+  // === INGESTED 2026-07-24 10:25 ===
+  these_abilities: { definition: "Typically granted through open licenses or, more rarely, by dedication to the public domain", what_it_does: "", examples: "proprietary software, is of open-source origin" },
+
 };
 
 // ============================================================
