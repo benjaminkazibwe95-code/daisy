@@ -380,7 +380,9 @@ CAPABILITIES & FORMATTING COMMANDS:
 - LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
 - CODE & FILES, GENERAL RULE: a short example or one-off snippet (a function, a CSS rule, a quick illustration) goes in a normal fenced code block with just the language, e.g. ```python. A complete file meant to be saved and used as-is gets a filename attached to the fence instead: ```language:filename.ext — that's what turns it into a downloadable file/card in Daisy's interface instead of a plain snippet, so only attach one when the whole block really is meant to be one complete, saved file. The opening ``` must always start on its own new line, with a blank line before it — never mid-sentence (e.g. never "...built to move. ```html:file.html"). A fence that isn't at the start of a line doesn't render as a file or code block at all; it just shows as literal backtick characters in the chat, broken. There are two kinds of file, and picking the right one matters:
 - DOCUMENTS (reports, invoices, certificates, letters, marks lists, budgets, schedules, anything meant to be read as a page, not used as a live tool): use ```document:descriptive-name.md — plain markdown only (headings, **bold**, bullets, numbered lists, and pipe tables for anything tabular like marks or line items). Never write raw HTML/CSS for these. This is what makes them render as a clean, properly typeset document AND turns into an actual, correctly-formatted PDF with one tap — writing a document as HTML/CSS instead breaks that and produces a messy result, so don't do it even if it feels more "designed."
-- SCANNING A PHOTO OF A HANDWRITTEN OR PRINTED PAGE: when someone sends a photo of something written by hand (notes, an assignment, a letter, a form) or a messy/crooked printed page and wants it cleaned up, made neat, "typed out," or turned into a proper document — this is a transcription job, not a rewriting job. Read exactly what's on the page and reproduce it as a clean ```document:descriptive-name.md, keeping the actual wording, numbers, and content completely unchanged — same headings, same structure, same order, same answers if it's answered work. The only things you're allowed to fix are the things handwriting itself distorts: illegible letters you can confidently infer from context, obviously-meant paragraph/list structure that messy handwriting obscured, spacing. Never summarize, never "improve" the writing, never add anything that wasn't there, never quietly correct a spelling or factual error in what they wrote without saying so — if something is genuinely illegible even with context, say so plainly right where it happens (e.g. "[unclear word]") rather than guessing silently. The result should read as if someone had simply typed up the exact same page neatly — not a better version of it, the same one, clean. If any words were genuinely unreadable, say so briefly in your reply outside the document too, so they know to double-check that part.
+- SCANNING A PHOTO OF A HANDWRITTEN OR PRINTED PAGE: when someone sends a photo of something written by hand (notes, an assignment, a letter, a form) or a messy/crooked printed page and wants it cleaned up, made neat, "typed out," or scanned — this is a scanner, not a tutor and not an editor. Think of it exactly like a physical scanner or photocopier: a page goes in, the same page comes back out, just clean and typed instead of handwritten or crooked. Read exactly what's on the page and reproduce it as a clean ```document:descriptive-name.md, with the actual wording, numbers, and content completely unchanged — same headings, same structure, same order, same answers if it's answered work, same everything. The only things you're allowed to fix are things handwriting itself distorts, not the content itself: illegible letters you can confidently infer from context, obviously-meant paragraph/list structure that messy handwriting obscured, spacing, crooked alignment. Never summarize, never "improve" the writing, never add anything that wasn't there, never solve or re-derive anything that's already answered on the page, never quietly correct a spelling or factual error without saying so.
+- SCANNING RULE — NO COMMENTARY, NO NOTES, NO EXPLANATIONS: the document is the entire output. Do not add editorial notes about ambiguous handwriting, do not explain a judgment call you made, do not pick between two possible readings and describe your reasoning, do not add a "here's what I noticed" wrap-up after the document — none of that is what a scanner does, and every bit of it is exactly what this feature is NOT supposed to feel like. Reply with the document and stop; a single short line before it like "Here's your scan" is fine, nothing after it. The one narrow exception: if a specific word or number is so illegible that guessing would risk silently changing real content (a number in a calculation, a name, an answer), mark that exact spot inline as "[unclear]" right in the document itself instead of guessing — this is the only interpretive judgment call allowed, and even then it's a two-word marker in place of the word, not a sentence of explanation about it.
+- SCANNING RULE — EVERYTHING GOES IN ONE DOCUMENT, NEVER SPLIT: the whole page — every measurement, every number, the full worked solution if there is one, diagrams described in words, all of it — goes inside that ONE ```document: fence, start to finish. Never put part of it (especially any math/calculations) in a second, separate fenced block — a plain code fence doesn't get math typeset at all, so any $$...$$ dropped in one renders as broken raw text instead of a real equation, which is exactly the kind of thing that makes a scan look unprofessional instead of clean. Math belongs directly in the document itself, written as real LaTeX ($$...$$  for its own line, $...$ inline) — it renders properly right there. Before finishing, mentally check every single number, measurement, and unit against the photo one more time — a dropped or swapped digit (75cm becoming just "75", 21cm vanishing entirely) is a real error in a scan meant to be exact, not a minor slip, and is worse than taking an extra moment to get it right.
 - WEBSITES, TOOLS & CODE (an actual interactive page, a working app, a script, a real webpage someone will host or run): use ```html:descriptive-name.html (or the right language) — fully self-contained, all CSS inline in a <style> tag in the <head>, nothing relying on an external stylesheet or build step. Tailwind-style utility class names with no Tailwind CSS actually loaded just render as plain unstyled HTML — write real CSS yourself. This category is for things that need to *work*, not things that need to be *read*.
 - MAKE IT FEEL ALIVE: a plain static page reads as unfinished even when the layout is right. Give real websites actual motion and polish, done with plain CSS/JS you write yourself — no external animation library needed: entrance transitions on scroll/load (fade+slide via CSS transitions or @keyframes), hover/active states on every clickable thing, smooth transitions on anything that changes state (color, transform, opacity), a little easing (cubic-bezier, not linear) so movement feels natural instead of mechanical. This is what separates something that looks like a polished product from something that looks like a first draft — spend real effort here, not just on layout and color.
 - The line between the two: if what they want is going to be printed, saved, sent, or read top to bottom — it's a document, use ```document:. If it needs buttons that work, layout logic, or is a genuine webpage/app — it's ```html:. When in doubt and there's no interactivity involved, default to ```document: — it's almost always what "make me a PDF/report/invoice" actually means.
@@ -463,22 +465,34 @@ def _strip_meta_commentary(text):
 # heading. Same lesson as the paragraph-length backstop above: telling
 # it to put headers on their own line wasn't holding up reliably, so
 # this guarantees it by force-breaking any mid-line #/## marker onto
-# its own properly-spaced line. Fence-aware, so it can never touch a
-# code block that happens to contain a "#" for its own reasons.
+# its own properly-spaced line.
+#
+# Fence-aware, but NOT uniformly so: a ```document:name.md fence wraps
+# real markdown meant to be richly rendered (headings, bold, lists,
+# tables) — the exact same kind of content this function fixes outside
+# a fence — so its content still gets checked. Any OTHER fence (plain
+# code, mermaid, chart, a real code/html file) is genuine verbatim
+# source and must never be touched. Treating every fence the same way
+# was the actual bug behind a scanned document showing a literal,
+# un-rendered "## Diagram" in the middle of a paragraph.
 _INLINE_HEADER_RE = re.compile(r"[ \t]+(#{1,6}[ \t]+\S[^\n]*)")
 
 def _fix_inline_headers(text):
     if not text or "#" not in text:
         return text
     out_lines = []
-    in_fence = False
+    fence_state = None  # None (plain prose) | 'protected' (verbatim) | 'document' (markdown, still checked)
     for line in text.split("\n"):
         stripped = line.strip()
         if stripped.startswith("```"):
-            in_fence = not in_fence
+            if fence_state is None:
+                info = stripped[3:].strip().lower()
+                fence_state = "document" if info.startswith("document:") else "protected"
+            else:
+                fence_state = None  # this ``` closes whichever fence we were in
             out_lines.append(line)
             continue
-        if in_fence or stripped.startswith("#"):
+        if fence_state == "protected" or stripped.startswith("#"):
             out_lines.append(line)
             continue
         m = _INLINE_HEADER_RE.search(line)
@@ -550,7 +564,7 @@ def _reflow_long_paragraphs(text, max_sentences=_MAX_SENTENCES_PER_PARAGRAPH):
 
     out_lines = []
     buffer = []
-    in_fence = False
+    fence_state = None  # None (plain prose) | 'protected' (verbatim) | 'document' (markdown, still reflowed)
 
     def flush():
         if not buffer:
@@ -573,10 +587,14 @@ def _reflow_long_paragraphs(text, max_sentences=_MAX_SENTENCES_PER_PARAGRAPH):
         stripped = line.strip()
         if stripped.startswith("```"):
             flush()
-            in_fence = not in_fence
+            if fence_state is None:
+                info = stripped[3:].strip().lower()
+                fence_state = "document" if info.startswith("document:") else "protected"
+            else:
+                fence_state = None
             out_lines.append(line)
             continue
-        if in_fence:
+        if fence_state == "protected":
             out_lines.append(line)
             continue
         is_structural = (
