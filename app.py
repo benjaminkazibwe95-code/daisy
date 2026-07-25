@@ -1590,6 +1590,14 @@ def export_pdf():
     return send_file(buf, mimetype="application/pdf", as_attachment=True, download_name=f"{safe_name}.pdf")
 
 
+@app.route("/google2c13209b099aea62.html")
+def google_site_verification():
+    """Google Search Console ownership verification file. Must be served
+    at exactly this root URL — that's the whole check, nothing dynamic
+    needed here, just hand back the file Google gave us."""
+    return send_from_directory(app.root_path + "/templates", "google2c13209b099aea62.html")
+
+
 @app.route("/robots.txt")
 def robots_txt():
     """Tells search engine crawlers what they're allowed to visit.
