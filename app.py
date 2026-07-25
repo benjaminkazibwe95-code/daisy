@@ -1590,6 +1590,41 @@ def export_pdf():
     return send_file(buf, mimetype="application/pdf", as_attachment=True, download_name=f"{safe_name}.pdf")
 
 
+@app.route("/robots.txt")
+def robots_txt():
+    """Tells search engine crawlers what they're allowed to visit.
+    We let them see the marketing page but keep them out of the
+    chat app itself and all API/internal routes — those aren't
+    meant to show up in search results."""
+    lines = [
+        "User-agent: *",
+        "Allow: /welcome",
+        "Disallow: /ask",
+        "Disallow: /api/",
+        "Disallow: /reload",
+        "Disallow: /daisy/",
+        "Disallow: /export/",
+        "Sitemap: https://daisy-qg1c.onrender.com/sitemap.xml",
+    ]
+    return Response("\n".join(lines), mimetype="text/plain")
+
+
+@app.route("/sitemap.xml")
+def sitemap_xml():
+    """A simple map of the pages worth indexing. Right now that's just
+    the marketing page — add more <url> blocks here as more public
+    pages get built."""
+    xml = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://daisy-qg1c.onrender.com/welcome</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>"""
+    return Response(xml, mimetype="application/xml")
+
+
 @app.route("/manifest.json")
 def serve_manifest():
     """manifest.json also lives in templates/, same reasoning as /icons/ above."""
