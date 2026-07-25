@@ -680,8 +680,8 @@
     .source-chip {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 6px 11px;
+      gap: 7px;
+      padding: 6px 12px 6px 8px;
       border-radius: 999px;
       border: 1px solid var(--border);
       background: var(--card);
@@ -689,11 +689,27 @@
       font-size: 12.5px;
       text-decoration: none;
       max-width: 220px;
-      transition: border-color 0.15s, color 0.15s;
+      transition: border-color 0.15s, color 0.15s, box-shadow 0.15s, transform 0.1s;
     }
-    .source-chip:hover { border-color: var(--daisy); color: var(--daisy); }
-    .source-chip svg { width: 12px; height: 12px; flex-shrink: 0; opacity: 0.8; }
-    .source-chip span {
+    .source-chip:hover {
+      border-color: var(--daisy);
+      color: var(--daisy);
+      box-shadow: 0 4px 14px -4px rgba(0,0,0,0.25);
+      transform: translateY(-1px);
+    }
+    .source-chip:active { transform: translateY(0); }
+    .source-chip-icon {
+      width: 16px; height: 16px;
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .source-chip-icon svg { width: 12px; height: 12px; opacity: 0.8; }
+    .source-chip-icon img { width: 16px; height: 16px; border-radius: 4px; display: block; }
+    .source-chip span:not(.source-chip-icon) {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -794,6 +810,22 @@
       background: var(--daisy);
       flex-shrink: 0;
       animation: pulse 1.2s ease-in-out infinite;
+    }
+    .t-icon-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 14px; height: 14px;
+      flex-shrink: 0;
+      transition: opacity 0.18s ease;
+    }
+    .t-icon-wrap svg { width: 100%; height: 100%; color: var(--daisy); }
+    .t-icon-wrap.spin svg { animation: tSpin 1.6s linear infinite; }
+    .t-icon-wrap.pulse-icon svg { animation: tIconPulse 1.2s ease-in-out infinite; }
+    @keyframes tSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes tIconPulse {
+      0%, 100% { opacity: 0.55; transform: scale(0.9); }
+      50%      { opacity: 1;    transform: scale(1.08); }
     }
     .thinking-step {
       transition: opacity 0.22s ease;
@@ -2340,6 +2372,52 @@ document.addEventListener('DOMContentLoaded', function() {
 
   applyUser();
 
+  // ── BACK BUTTON / HISTORY HANDLING FOR OVERLAYS ─────────
+  // Settings, Personalize, Knowledge Stats, the drawer, Live Room, and
+  // the file preview/code modals are all just CSS-toggled panels, not
+  // real browser navigation — so a phone's hardware/gesture back button
+  // has nothing of ours to "undo" and just exits the whole app, even
+  // when the person only meant to back out of Settings to the chat.
+  // This makes each overlay push a real history entry when it opens,
+  // and treats an actual back-button press (a native `popstate` event)
+  // as "close whatever's open" instead of leaving the app.
+  //
+  // OVERLAY_CLOSERS is filled in further down, one entry per overlay,
+  // right next to that overlay's own close function — using an object
+  // that's populated over time (rather than requiring every close
+  // function to already exist right here) sidesteps needing every
+  // overlay's setup code to live in one place or in a particular order.
+  let currentOverlay = null;
+  const OVERLAY_CLOSERS = {};
+
+  function openOverlay(name, openFn) {
+    const replacing = currentOverlay !== null; // e.g. Settings -> Personalize: swap which overlay a back-press closes, don't add another layer of history on top
+    openFn();
+    currentOverlay = name;
+    if (replacing) history.replaceState({ daisyOverlay: name }, '', location.href);
+    else history.pushState({ daisyOverlay: name }, '', location.href);
+  }
+
+  // The single entry point for on-screen close buttons/backdrop taps
+  // that fully exit back to the chat. Always routes through
+  // history.back() instead of closing directly, so the browser's real
+  // history and our own currentOverlay tracking never drift apart —
+  // popstate below is the ONLY place that ever calls the real closer,
+  // whether the person tapped X or used the hardware back button.
+  function closeOverlay() {
+    if (currentOverlay !== null) history.back();
+  }
+
+  window.addEventListener('popstate', () => {
+    if (currentOverlay !== null) {
+      const closer = OVERLAY_CLOSERS[currentOverlay];
+      currentOverlay = null;
+      if (closer) closer();
+    }
+    // Nothing of ours was open — there's nothing to intercept, so the
+    // back press just does whatever it would normally do.
+  });
+
   // ── SETTINGS PAGE ──────────────────────────────────────
   const settingsPage = document.getElementById('settings-page');
   function openSettings() {
@@ -2348,15 +2426,16 @@ document.addEventListener('DOMContentLoaded', function() {
   function closeSettings() {
     settingsPage.classList.remove('open');
   }
-  userBtn.onclick = openSettings;
-  document.getElementById('settings-back').onclick = closeSettings;
+  OVERLAY_CLOSERS.settings = closeSettings;
+  userBtn.onclick = () => openOverlay('settings', openSettings);
+  document.getElementById('settings-back').onclick = closeOverlay;
   document.getElementById('drawer-settings-btn').onclick = () => {
     closeDrawer();
-    openSettings();
+    openOverlay('settings', openSettings);
   };
   document.getElementById('drawer-stats-btn').onclick = () => {
     closeDrawer();
-    openStatsPage();
+    openOverlay('stats', openStatsPage);
   };
 
   // ── INSTALL DAISY (PWA "add to home screen") ──
@@ -2519,7 +2598,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.getElementById('settings-stats-btn').onclick = () => {
     closeSettings();
-    openStatsPage();
+    openOverlay('stats', openStatsPage);
   };
 
   // ── PERSONALIZE DAISY ("what should Daisy be to you?") ──
@@ -2556,15 +2635,16 @@ document.addEventListener('DOMContentLoaded', function() {
     personaPage.classList.add('open');
   }
   function closePersonaPage() { personaPage.classList.remove('open'); }
+  OVERLAY_CLOSERS.persona = closePersonaPage;
   function updatePersonaCharcount() {
     personaCharcount.textContent = `${personaTextarea.value.length} / 600`;
   }
 
   document.getElementById('settings-persona-btn').onclick = () => {
     closeSettings();
-    openPersonaPage();
+    openOverlay('persona', openPersonaPage);
   };
-  document.getElementById('persona-back').onclick = closePersonaPage;
+  document.getElementById('persona-back').onclick = closeOverlay;
   personaTextarea.addEventListener('input', updatePersonaCharcount);
   personaTextarea.maxLength = 600;
 
@@ -2588,7 +2668,8 @@ document.addEventListener('DOMContentLoaded', function() {
     refreshStats();
   }
   function closeStatsPage() { statsPage.classList.remove('open'); }
-  document.getElementById('stats-back').onclick = closeStatsPage;
+  OVERLAY_CLOSERS.stats = closeStatsPage;
+  document.getElementById('stats-back').onclick = closeOverlay;
   document.getElementById('stats-refresh-btn').onclick = refreshStats;
 
   async function refreshStats() {
@@ -2703,6 +2784,8 @@ document.addEventListener('DOMContentLoaded', function() {
     diagram:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="8.5" y="16" width="7" height="5" rx="1.5"/><path d="M6.5 8v3a2 2 0 002 2h7a2 2 0 002-2V8M12 13v3"/></svg>',
     chart:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="13" width="3" height="5"/><rect x="12.5" y="9" width="3" height="9"/><rect x="18" y="6" width="3" height="12"/></svg>',
     link:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7a5 5 0 010-10h2M15 7h2a5 5 0 010 10h-2M8 12h8"/></svg>',
+    globe:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="3" y1="12" x2="21" y2="12"/><path d="M12 3c2.5 2.6 4 5.8 4 9s-1.5 6.4-4 9c-2.5-2.6-4-5.8-4-9s1.5-6.4 4-9z"/></svg>',
+    pencil:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg>',
   };
 
   function escHtml(s) {
@@ -3083,15 +3166,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (codeIsActive) {
         // Code tab is active — open a fullscreen CODE view, not the preview.
-        openCodeModal(code, ext, filename);
+        openOverlay('code', () => openCodeModal(code, ext, filename));
       } else {
         const frame = card ? card.querySelector('.file-card-preview') : null;
         if (frame && frame.srcdoc) {
-          openPreviewModal(frame.srcdoc);
+          openOverlay('preview', () => openPreviewModal(frame.srcdoc));
         } else {
           // Inline preview hasn't populated yet — derive it directly
           // instead of opening the modal blank.
-          openPreviewModal(wrapForPreview(code, ext));
+          openOverlay('preview', () => openPreviewModal(wrapForPreview(code, ext)));
         }
       }
     }
@@ -3110,7 +3193,8 @@ document.addEventListener('DOMContentLoaded', function() {
     previewModal.style.display = 'none';
     previewModalFrame.srcdoc = ''; // stop anything still running inside (audio, timers, etc.) once closed
   }
-  previewModalClose.addEventListener('click', closePreviewModal);
+  OVERLAY_CLOSERS.preview = closePreviewModal;
+  previewModalClose.addEventListener('click', closeOverlay);
 
   // ── FULLSCREEN CODE MODAL (separate from preview modal) ──
   function openCodeModal(code, ext, filename) {
@@ -3124,9 +3208,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="code-modal-head" id="code-modal-filename"></div>
         <pre class="code-modal-pre"><code id="code-modal-body"></code></pre>`;
       document.body.appendChild(modal);
-      modal.querySelector('#code-modal-close').addEventListener('click', () => {
-        modal.style.display = 'none';
-      });
+      modal.querySelector('#code-modal-close').addEventListener('click', closeOverlay);
     }
     modal.querySelector('#code-modal-filename').textContent = filename || '';
     const bodyEl = modal.querySelector('#code-modal-body');
@@ -3135,6 +3217,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.hljs) { try { hljs.highlightElement(bodyEl); } catch (err) {} }
     modal.style.display = 'flex';
   }
+  OVERLAY_CLOSERS.code = () => {
+    const modal = document.getElementById('code-modal');
+    if (modal) modal.style.display = 'none';
+  };
 
 
   // Converts $$...$$ (standalone formulas) and \(...\) (inline math)
@@ -3525,7 +3611,7 @@ document.addEventListener('DOMContentLoaded', function() {
     wrap.className = 'sources-block';
     const label = document.createElement('div');
     label.className = 'sources-label';
-    label.textContent = sources.length === 1 ? 'Source' : 'Sources';
+    label.textContent = sources.length === 1 ? 'Source' : `Sources · ${sources.length}`;
     wrap.appendChild(label);
     const list = document.createElement('div');
     list.className = 'sources-list';
@@ -3539,7 +3625,24 @@ document.addEventListener('DOMContentLoaded', function() {
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
       a.title = s.title || s.url;
-      a.innerHTML = `${ICONS.link}<span>${escHtml(host)}</span>`;
+      // Real per-site favicon, not a generic icon for every source —
+      // falls back to the plain link glyph if the favicon 404s or the
+      // service is unreachable, so a source is never left looking broken.
+      const iconSpan = document.createElement('span');
+      iconSpan.className = 'source-chip-icon';
+      iconSpan.innerHTML = ICONS.link;
+      if (host && host !== s.url) {
+        const img = document.createElement('img');
+        img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=32`;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.onerror = () => { iconSpan.innerHTML = ICONS.link; };
+        img.onload = () => { iconSpan.innerHTML = ''; iconSpan.appendChild(img); };
+      }
+      a.appendChild(iconSpan);
+      const textSpan = document.createElement('span');
+      textSpan.textContent = host;
+      a.appendChild(textSpan);
       list.appendChild(a);
     });
     wrap.appendChild(list);
@@ -3690,11 +3793,12 @@ document.addEventListener('DOMContentLoaded', function() {
   function addThinkingPanel() {
     const div = document.createElement('div');
     div.className = 'thinking-panel';
-    div.innerHTML = '<span class="t-dot"></span><span class="thinking-step">Reading your message…</span>';
+    div.innerHTML = '<span class="t-icon-wrap"><span class="t-dot"></span></span><span class="thinking-step">Reading your message…</span>';
     chatArea.appendChild(div);
     if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
     div._stepEl = div.querySelector('.thinking-step');
+    div._iconWrap = div.querySelector('.t-icon-wrap');
     // Nothing local to cancel anymore — status now comes from real
     // backend events (see applyLiveStatus) instead of a guessed
     // timer, but settleThinkingPanel() still calls panel._cancel(),
@@ -3706,20 +3810,47 @@ document.addEventListener('DOMContentLoaded', function() {
   const LIVE_STATUS_LABELS = {
     thinking:  'Thinking…',
     searching: 'Searching the web…',
+    building:  'Building it…',
+    drawing:   'Sketching a diagram…',
+    charting:  'Charting the numbers…',
   };
 
-  // Called live, as real "searching"/"thinking" events arrive from the
-  // backend while Claude is actually working — not a local guess on a
-  // timer. Only swaps the label when it actually changed.
+  // A real, distinct icon per status — not just changing text — so it's
+  // visually obvious at a glance whether Daisy is quietly thinking or
+  // actually out there searching/building something. thinking has no
+  // entry here on purpose: it falls back to the plain pulsing dot.
+  const STATUS_ICONS = {
+    searching: { svg: ICONS.globe,   anim: 'spin' },
+    building:  { svg: ICONS.pencil,  anim: 'pulse-icon' },
+    drawing:   { svg: ICONS.diagram, anim: 'pulse-icon' },
+    charting:  { svg: ICONS.chart,   anim: 'pulse-icon' },
+  };
+
+  // Called live, as real status events arrive from the backend while
+  // Claude is actually working — not a local guess on a timer. Only
+  // swaps the label/icon when it actually changed.
   async function applyLiveStatus(panel, status) {
     const label = LIVE_STATUS_LABELS[status];
     if (!label || !panel || !panel._stepEl || panel._settled) return;
     const stepEl = panel._stepEl;
+    const iconWrap = panel._iconWrap;
     if (stepEl.textContent === label) return;
     stepEl.style.opacity = '0';
+    if (iconWrap) iconWrap.style.opacity = '0';
     await sleep(140);
     if (panel._settled) return;
     stepEl.textContent = label;
+    if (iconWrap) {
+      const icon = STATUS_ICONS[status];
+      if (icon) {
+        iconWrap.innerHTML = icon.svg;
+        iconWrap.className = 't-icon-wrap ' + icon.anim;
+      } else {
+        iconWrap.innerHTML = '<span class="t-dot"></span>';
+        iconWrap.className = 't-icon-wrap';
+      }
+      iconWrap.style.opacity = '1';
+    }
     stepEl.style.opacity = '1';
   }
 
@@ -3907,10 +4038,11 @@ document.addEventListener('DOMContentLoaded', function() {
       sendMessage();
       return;
     }
-    openLive().catch(() => {
-      liveRoom.classList.add('active');
-      transcript.textContent = "Something went wrong opening voice mode — tap Try again.";
-      liveRetryBtn.style.display = 'inline-flex';
+    openOverlay('live', () => {
+      openLive().catch(() => {
+        transcript.textContent = "Something went wrong opening voice mode — tap Try again.";
+        liveRetryBtn.style.display = 'inline-flex';
+      });
     });
   };
 
@@ -4049,7 +4181,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let mediaStream = null, audioCtx = null, analyser = null, waveRAF = null;
   let recognition = null, micMuted = false;
 
-  endLive.onclick = endLiveSession;
+  endLive.onclick = closeOverlay;
 
   async function openLive() {
     liveRoom.classList.add('active'); // always visible immediately, before anything async can fail
@@ -4072,6 +4204,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Restore idle animation
     waveBars.forEach(b => { b.classList.add('idle'); b.style.height = ''; });
   }
+  OVERLAY_CLOSERS.live = endLiveSession;
 
   async function startMic() {
     try {
@@ -4218,15 +4351,18 @@ document.addEventListener('DOMContentLoaded', function() {
   const drawerOverlay = document.getElementById('drawer-overlay');
   document.getElementById('menu-btn').onclick = () => {
     renderSidebarLists();
-    drawer.classList.add('open');
-    drawerOverlay.classList.add('active');
+    openOverlay('drawer', () => {
+      drawer.classList.add('open');
+      drawerOverlay.classList.add('active');
+    });
   };
-  document.getElementById('drawer-close').onclick = closeDrawer;
-  drawerOverlay.onclick = closeDrawer;
+  document.getElementById('drawer-close').onclick = closeOverlay;
+  drawerOverlay.onclick = closeOverlay;
   function closeDrawer() {
     drawer.classList.remove('open');
     drawerOverlay.classList.remove('active');
   }
+  OVERLAY_CLOSERS.drawer = closeDrawer;
 
   // ── CHATS: current session, Recents (per-device), Projects (shared) ──
   const RECENTS_KEY  = 'daisy_recents_v1';
@@ -4287,7 +4423,7 @@ document.addEventListener('DOMContentLoaded', function() {
     greetWrap.style.paddingTop = '';
     greetWrap.querySelector('#greeting').style.fontSize = '';
     chatActive = false;
-    closeDrawer();
+    closeOverlay();
   }
 
   function openChat(chat, projectId) {
@@ -4295,7 +4431,7 @@ document.addEventListener('DOMContentLoaded', function() {
     chatArea.innerHTML = '';
     activateChat();
     (chat.messages || []).forEach(m => addMsg(m.text, m.role === 'user' ? 'user' : 'daisy'));
-    closeDrawer();
+    closeOverlay();
   }
 
   document.getElementById('new-chat-btn').onclick = startNewChat;
