@@ -252,6 +252,61 @@ def _looks_time_sensitive(question):
     that runs before the search tool is ever offered to Claude."""
     return bool(question) and bool(_TIME_SENSITIVE_RE.search(question))
 
+
+# ============================================================
+# LIVE "BUILDING" STATUS — this is the actual fix for "Daisy said
+# she's building but nothing showed." Daisy's own typing-animation
+# "Building filename..." beat (in the frontend) only ever ran AFTER
+# the full reply had already finished generating — it's cosmetic,
+# not real. On a genuinely long build, the person was staring at a
+# generic "Thinking..." for however long the real generation took,
+# with zero indication anything substantial was happening — and if
+# it then got cut short by the old max_tokens ceiling, it looked
+# exactly like Daisy rushed and handed back half a job. This reads
+# Claude's own output AS IT ACTUALLY STREAMS IN and reports, in real
+# time, when it's genuinely inside an unclosed file/diagram/chart
+# fence — a real signal, not a guess.
+# ============================================================
+_FENCE_OPEN_RE = re.compile(r"```([^\n`]*)\n?")
+
+def _infer_building_status(text_so_far):
+    """
+    Look at how many ``` fence markers have appeared so far. An odd
+    count means we're currently INSIDE an unclosed fence — read that
+    fence's own info string to say what kind of long work it is.
+    Returns None when not inside a fence (plain prose, or a fence that
+    already closed) — the caller treats None as "back to normal."
+    """
+    positions = [m.start() for m in re.finditer(r"```", text_so_far)]
+    if len(positions) % 2 == 0:
+        return None
+    tail = text_so_far[positions[-1]:]
+    m = _FENCE_OPEN_RE.match(tail)
+    info = (m.group(1) if m else "").strip()
+    if info == "mermaid":
+        return "drawing"
+    if info == "chart":
+        return "charting"
+    if ":" in info:  # ```lang:filename.ext — a real file being written
+        return "building"
+    return None  # a plain, unnamed code snippet isn't "long work" — no special status needed
+
+def _fence_info_pending(text_so_far):
+    """
+    True while we're inside an unclosed fence whose info-string line
+    (the language/filename text right after the opening ```) hasn't
+    finished arriving yet. The caller uses this to know it still needs
+    to re-check on the NEXT delta too, even if that next delta has no
+    backtick in it — the filename info streams in as its own run of
+    plain characters ("python:app.py") right after the backticks, not
+    packaged together with them.
+    """
+    positions = [m.start() for m in re.finditer(r"```", text_so_far)]
+    if len(positions) % 2 == 0:
+        return False
+    return "\n" not in text_so_far[positions[-1]:]
+
+
 def _build_conversation_messages(history, final_content):
     """
     Turn the client's recent transcript (a list of {"role": "user"|"daisy",
@@ -325,6 +380,7 @@ CAPABILITIES & FORMATTING COMMANDS:
 - LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
 - CODE & FILES, GENERAL RULE: a short example or one-off snippet (a function, a CSS rule, a quick illustration) goes in a normal fenced code block with just the language, e.g. ```python. A complete file meant to be saved and used as-is gets a filename attached to the fence instead: ```language:filename.ext — that's what turns it into a downloadable file/card in Daisy's interface instead of a plain snippet, so only attach one when the whole block really is meant to be one complete, saved file. The opening ``` must always start on its own new line, with a blank line before it — never mid-sentence (e.g. never "...built to move. ```html:file.html"). A fence that isn't at the start of a line doesn't render as a file or code block at all; it just shows as literal backtick characters in the chat, broken. There are two kinds of file, and picking the right one matters:
 - DOCUMENTS (reports, invoices, certificates, letters, marks lists, budgets, schedules, anything meant to be read as a page, not used as a live tool): use ```document:descriptive-name.md — plain markdown only (headings, **bold**, bullets, numbered lists, and pipe tables for anything tabular like marks or line items). Never write raw HTML/CSS for these. This is what makes them render as a clean, properly typeset document AND turns into an actual, correctly-formatted PDF with one tap — writing a document as HTML/CSS instead breaks that and produces a messy result, so don't do it even if it feels more "designed."
+- SCANNING A PHOTO OF A HANDWRITTEN OR PRINTED PAGE: when someone sends a photo of something written by hand (notes, an assignment, a letter, a form) or a messy/crooked printed page and wants it cleaned up, made neat, "typed out," or turned into a proper document — this is a transcription job, not a rewriting job. Read exactly what's on the page and reproduce it as a clean ```document:descriptive-name.md, keeping the actual wording, numbers, and content completely unchanged — same headings, same structure, same order, same answers if it's answered work. The only things you're allowed to fix are the things handwriting itself distorts: illegible letters you can confidently infer from context, obviously-meant paragraph/list structure that messy handwriting obscured, spacing. Never summarize, never "improve" the writing, never add anything that wasn't there, never quietly correct a spelling or factual error in what they wrote without saying so — if something is genuinely illegible even with context, say so plainly right where it happens (e.g. "[unclear word]") rather than guessing silently. The result should read as if someone had simply typed up the exact same page neatly — not a better version of it, the same one, clean. If any words were genuinely unreadable, say so briefly in your reply outside the document too, so they know to double-check that part.
 - WEBSITES, TOOLS & CODE (an actual interactive page, a working app, a script, a real webpage someone will host or run): use ```html:descriptive-name.html (or the right language) — fully self-contained, all CSS inline in a <style> tag in the <head>, nothing relying on an external stylesheet or build step. Tailwind-style utility class names with no Tailwind CSS actually loaded just render as plain unstyled HTML — write real CSS yourself. This category is for things that need to *work*, not things that need to be *read*.
 - MAKE IT FEEL ALIVE: a plain static page reads as unfinished even when the layout is right. Give real websites actual motion and polish, done with plain CSS/JS you write yourself — no external animation library needed: entrance transitions on scroll/load (fade+slide via CSS transitions or @keyframes), hover/active states on every clickable thing, smooth transitions on anything that changes state (color, transform, opacity), a little easing (cubic-bezier, not linear) so movement feels natural instead of mechanical. This is what separates something that looks like a polished product from something that looks like a first draft — spend real effort here, not just on layout and color.
 - The line between the two: if what they want is going to be printed, saved, sent, or read top to bottom — it's a document, use ```document:. If it needs buttons that work, layout logic, or is a genuine webpage/app — it's ```html:. When in doubt and there's no interactivity involved, default to ```document: — it's almost always what "make me a PDF/report/invoice" actually means.
@@ -642,7 +698,16 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
 
         create_kwargs = dict(
             model=VOICE_MODEL,
-            max_tokens=4096,
+            # 4096 was only ~6% of what this model actually supports
+            # (Haiku 4.5 allows up to 64,000) — genuinely long builds
+            # (a full document, a real code file, a long story) were
+            # hitting that ceiling and getting cut off mid-work, which
+            # is why "half work" happened. This is a CEILING, not a
+            # cost: Claude is billed for tokens it actually generates,
+            # not the cap, so a short reply costs exactly the same
+            # either way — this only ever matters, and only ever adds
+            # cost, on the replies that genuinely needed the room.
+            max_tokens=16000,
             system=DAISY_SYSTEM_PROMPT,
             messages=_build_conversation_messages(history, content),
         )
@@ -651,6 +716,8 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
 
         used_search = False
         text_chunks = []
+        full_so_far = ""
+        fence_info_pending = False
         last_status = "thinking"
         yield {"event": "status", "status": "thinking"}
 
@@ -672,6 +739,23 @@ def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_d
                     delta = getattr(event, "delta", None)
                     if getattr(delta, "type", None) == "text_delta":
                         text_chunks.append(delta.text)
+                        full_so_far += delta.text
+                        # Re-check whenever a fence marker could have
+                        # changed (a backtick just arrived), OR while a
+                        # fence's info string is still incompletely
+                        # streamed in — that info text ("python:app.py")
+                        # arrives as its own run of plain characters
+                        # right after the backticks, often across
+                        # several deltas with no backtick in them at
+                        # all, so checking only on backtick-containing
+                        # deltas would miss the moment classification
+                        # actually becomes possible.
+                        if "`" in delta.text or fence_info_pending:
+                            building_status = _infer_building_status(full_so_far) or "thinking"
+                            fence_info_pending = _fence_info_pending(full_so_far)
+                            if building_status != last_status:
+                                last_status = building_status
+                                yield {"event": "status", "status": building_status}
             final_message = stream.get_final_message()
 
         # A response that used the search tool interleaves
