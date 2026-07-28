@@ -380,10 +380,7 @@ CAPABILITIES & FORMATTING COMMANDS:
 - LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
 - CODE & FILES, GENERAL RULE: a short example or one-off snippet (a function, a CSS rule, a quick illustration) goes in a normal fenced code block with just the language, e.g. ```python. A complete file meant to be saved and used as-is gets a filename attached to the fence instead: ```language:filename.ext — that's what turns it into a downloadable file/card in Daisy's interface instead of a plain snippet, so only attach one when the whole block really is meant to be one complete, saved file. The opening ``` must always start on its own new line, with a blank line before it — never mid-sentence (e.g. never "...built to move. ```html:file.html"). A fence that isn't at the start of a line doesn't render as a file or code block at all; it just shows as literal backtick characters in the chat, broken. There are two kinds of file, and picking the right one matters:
 - DOCUMENTS (reports, invoices, certificates, letters, marks lists, budgets, schedules, anything meant to be read as a page, not used as a live tool): use ```document:descriptive-name.md — plain markdown only (headings, **bold**, bullets, numbered lists, and pipe tables for anything tabular like marks or line items). Never write raw HTML/CSS for these. This is what makes them render as a clean, properly typeset document AND turns into an actual, correctly-formatted PDF with one tap — writing a document as HTML/CSS instead breaks that and produces a messy result, so don't do it even if it feels more "designed."
-- SCANNING A PHOTO OF A HANDWRITTEN OR PRINTED PAGE: when someone sends a photo of a page that's mostly written or printed text — handwritten notes, an assignment, a letter, a form, a messy/crooked printed page — treat it as a scan request by default, even if the caption is generic ("what can you tell me about this", or no caption at all). A photo of a page of writing is someone wanting that page back clean, not a request to have it described to them — save actual description/discussion for when they clearly ask a question ABOUT the content (e.g. "explain this," "is this correct," "help me understand this") rather than just handing you the page. When it's a scan: this is a scanner, not a tutor and not an editor. Think of it exactly like a physical scanner or photocopier: a page goes in, the same page comes back out, just clean and typed instead of handwritten or crooked. Read exactly what's on the page and reproduce it as a clean ```document:descriptive-name.md, with the actual wording, numbers, and content completely unchanged — same headings, same structure, same order, same answers if it's answered work, same everything. The only things you're allowed to fix are things handwriting itself distorts, not the content itself: illegible letters you can confidently infer from context, obviously-meant paragraph/list structure that messy handwriting obscured, spacing, crooked alignment. Never summarize, never "improve" the writing, never add anything that wasn't there, never solve or re-derive anything that's already answered on the page, never quietly correct a spelling or factual error without saying so.
-- SCANNING RULE — TRANSCRIBE THE TEXT, NEVER DESCRIBE THE PAGE: this is OCR, not image captioning. The single most important thing: every word that's actually legible gets typed out, verbatim, in the order it appears — you are NOT summarizing what the page contains, you are reproducing it. Never write bullet points ABOUT the page's content instead of the content itself. Never write things like "Various worked examples visible showing:", "Appears to show complementary angle work", "Shows: sin θ, cos θ, tan θ relationships", "Triangle 1 (Left): Labeled with angles and sides", or "[Specific numerical work present but partially unclear in handwriting]" — every one of those is describing the page from a distance instead of doing the actual job, and is a complete failure of this feature even if it looks organized and confident. If a triangle diagram has "12" and "75cm" and "21cm" labeled on it, the output says "12", "75cm", "21cm" in their actual positions/relationships — not "diagram shows labeled sides." If you genuinely cannot make out specific handwritten content well enough to transcribe it at all, don't paper over that with a vague high-level description — say plainly and specifically what you can't read (e.g. "the worked calculations in the lower half of the page are too unclear to transcribe reliably — here's everything else") rather than generating confident-sounding bullets that aren't actually what's written. A vague summary is worse than an honest gap, because it looks done when it isn't.
-- SCANNING RULE — NO COMMENTARY, NO NOTES, NO EXPLANATIONS: the document is the entire output. Do not add editorial notes about ambiguous handwriting, do not explain a judgment call you made, do not pick between two possible readings and describe your reasoning, do not add a "here's what I noticed" wrap-up after the document — none of that is what a scanner does, and every bit of it is exactly what this feature is NOT supposed to feel like. Reply with the document and stop; a single short line before it like "Here's your scan" is fine, nothing after it. The one narrow exception: if a specific word or number is so illegible that guessing would risk silently changing real content (a number in a calculation, a name, an answer), mark that exact spot inline as "[unclear]" right in the document itself instead of guessing — this is the only interpretive judgment call allowed, and even then it's a two-word marker in place of the word, not a sentence of explanation about it.
-- SCANNING RULE — EVERYTHING GOES IN ONE DOCUMENT, NEVER SPLIT: the whole page — every measurement, every number, the full worked solution if there is one, diagrams described in words, all of it — goes inside that ONE ```document: fence, start to finish. Never put part of it (especially any math/calculations) in a second, separate fenced block — a plain code fence doesn't get math typeset at all, so any $$...$$ dropped in one renders as broken raw text instead of a real equation, which is exactly the kind of thing that makes a scan look unprofessional instead of clean. Math belongs directly in the document itself, written as real LaTeX ($$...$$  for its own line, $...$ inline) — it renders properly right there. Before finishing, mentally check every single number, measurement, and unit against the photo one more time — a dropped or swapped digit (75cm becoming just "75", 21cm vanishing entirely) is a real error in a scan meant to be exact, not a minor slip, and is worse than taking an extra moment to get it right.
+- SCANNING A PHOTO OF A HANDWRITTEN OR PRINTED PAGE: when someone sends a photo of something written by hand (notes, an assignment, a letter, a form) or a messy/crooked printed page and wants it cleaned up, made neat, "typed out," or turned into a proper document — this is a transcription job, not a rewriting job. Read exactly what's on the page and reproduce it as a clean ```document:descriptive-name.md, keeping the actual wording, numbers, and content completely unchanged — same headings, same structure, same order, same answers if it's answered work. The only things you're allowed to fix are the things handwriting itself distorts: illegible letters you can confidently infer from context, obviously-meant paragraph/list structure that messy handwriting obscured, spacing. Never summarize, never "improve" the writing, never add anything that wasn't there, never quietly correct a spelling or factual error in what they wrote without saying so — if something is genuinely illegible even with context, say so plainly right where it happens (e.g. "[unclear word]") rather than guessing silently. The result should read as if someone had simply typed up the exact same page neatly — not a better version of it, the same one, clean. If any words were genuinely unreadable, say so briefly in your reply outside the document too, so they know to double-check that part.
 - WEBSITES, TOOLS & CODE (an actual interactive page, a working app, a script, a real webpage someone will host or run): use ```html:descriptive-name.html (or the right language) — fully self-contained, all CSS inline in a <style> tag in the <head>, nothing relying on an external stylesheet or build step. Tailwind-style utility class names with no Tailwind CSS actually loaded just render as plain unstyled HTML — write real CSS yourself. This category is for things that need to *work*, not things that need to be *read*.
 - MAKE IT FEEL ALIVE: a plain static page reads as unfinished even when the layout is right. Give real websites actual motion and polish, done with plain CSS/JS you write yourself — no external animation library needed: entrance transitions on scroll/load (fade+slide via CSS transitions or @keyframes), hover/active states on every clickable thing, smooth transitions on anything that changes state (color, transform, opacity), a little easing (cubic-bezier, not linear) so movement feels natural instead of mechanical. This is what separates something that looks like a polished product from something that looks like a first draft — spend real effort here, not just on layout and color.
 - The line between the two: if what they want is going to be printed, saved, sent, or read top to bottom — it's a document, use ```document:. If it needs buttons that work, layout logic, or is a genuine webpage/app — it's ```html:. When in doubt and there's no interactivity involved, default to ```document: — it's almost always what "make me a PDF/report/invoice" actually means.
@@ -466,34 +463,22 @@ def _strip_meta_commentary(text):
 # heading. Same lesson as the paragraph-length backstop above: telling
 # it to put headers on their own line wasn't holding up reliably, so
 # this guarantees it by force-breaking any mid-line #/## marker onto
-# its own properly-spaced line.
-#
-# Fence-aware, but NOT uniformly so: a ```document:name.md fence wraps
-# real markdown meant to be richly rendered (headings, bold, lists,
-# tables) — the exact same kind of content this function fixes outside
-# a fence — so its content still gets checked. Any OTHER fence (plain
-# code, mermaid, chart, a real code/html file) is genuine verbatim
-# source and must never be touched. Treating every fence the same way
-# was the actual bug behind a scanned document showing a literal,
-# un-rendered "## Diagram" in the middle of a paragraph.
+# its own properly-spaced line. Fence-aware, so it can never touch a
+# code block that happens to contain a "#" for its own reasons.
 _INLINE_HEADER_RE = re.compile(r"[ \t]+(#{1,6}[ \t]+\S[^\n]*)")
 
 def _fix_inline_headers(text):
     if not text or "#" not in text:
         return text
     out_lines = []
-    fence_state = None  # None (plain prose) | 'protected' (verbatim) | 'document' (markdown, still checked)
+    in_fence = False
     for line in text.split("\n"):
         stripped = line.strip()
         if stripped.startswith("```"):
-            if fence_state is None:
-                info = stripped[3:].strip().lower()
-                fence_state = "document" if info.startswith("document:") else "protected"
-            else:
-                fence_state = None  # this ``` closes whichever fence we were in
+            in_fence = not in_fence
             out_lines.append(line)
             continue
-        if fence_state == "protected" or stripped.startswith("#"):
+        if in_fence or stripped.startswith("#"):
             out_lines.append(line)
             continue
         m = _INLINE_HEADER_RE.search(line)
@@ -565,7 +550,7 @@ def _reflow_long_paragraphs(text, max_sentences=_MAX_SENTENCES_PER_PARAGRAPH):
 
     out_lines = []
     buffer = []
-    fence_state = None  # None (plain prose) | 'protected' (verbatim) | 'document' (markdown, still reflowed)
+    in_fence = False
 
     def flush():
         if not buffer:
@@ -588,14 +573,10 @@ def _reflow_long_paragraphs(text, max_sentences=_MAX_SENTENCES_PER_PARAGRAPH):
         stripped = line.strip()
         if stripped.startswith("```"):
             flush()
-            if fence_state is None:
-                info = stripped[3:].strip().lower()
-                fence_state = "document" if info.startswith("document:") else "protected"
-            else:
-                fence_state = None
+            in_fence = not in_fence
             out_lines.append(line)
             continue
-        if fence_state == "protected":
+        if in_fence:
             out_lines.append(line)
             continue
         is_structural = (
@@ -1607,6 +1588,27 @@ def export_pdf():
 
     safe_name = re.sub(r"[^\w\- ]+", "", title).strip().replace(" ", "-")[:60] or "daisy-answer"
     return send_file(buf, mimetype="application/pdf", as_attachment=True, download_name=f"{safe_name}.pdf")
+
+
+@app.route("/.well-known/assetlinks.json")
+def asset_links():
+    """Proves to Android that this website and the Daisy TWA app are the
+    same entity — required for the app to open in its own window instead
+    of falling back to a browser tab. Must be served at exactly this path."""
+    return send_from_directory(app.root_path + "/templates", "assetlinks.json")
+
+
+@app.route("/download/daisy.apk")
+def download_apk():
+    """Direct APK download — works even when the browser's PWA install
+    prompt gets denied, delayed, or unsupported, which is exactly the
+    case that was leaving people dumped on the raw chat page instead
+    of actually getting Daisy installed. Serves from templates/ same
+    as the other static assets (icons, manifest)."""
+    return send_from_directory(
+        app.root_path + "/templates", "daisy.apk",
+        as_attachment=True, download_name="Daisy.apk"
+    )
 
 
 @app.route("/google2c13209b099aea62.html")
