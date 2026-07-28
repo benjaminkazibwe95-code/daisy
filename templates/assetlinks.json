@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.trustedbiz.daisy",
+        "sha256_cert_fingerprints": ["46:D0:B5:16:58:3A:38:8E:40:7A:11:47:DA:F9:ED:A5:2C:13:83:96:7F:D5:76:45:DB:FD:4C:6A:9B:F3:19:04"]
+      }
+    }]
