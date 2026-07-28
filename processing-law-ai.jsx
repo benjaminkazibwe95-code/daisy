@@ -70075,6 +70075,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-25 20:45 ===
   sharia_law: "Enforced by the local religious police, the Hisbah",
 
+  // === INGESTED 2026-07-28 17:20 ===
+  the_presentday_territory_of_nigeria: { definition: "Home to a vast array of city-states", what_it_does: "", examples: "Mai Idris Alooma , much of Hausaland was brought into tributary status under Borno" },
+
 };
 
 // ============================================================
