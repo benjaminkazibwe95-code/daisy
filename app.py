@@ -1606,7 +1606,7 @@ def download_apk():
     of actually getting Daisy installed. Serves from templates/ same
     as the other static assets (icons, manifest)."""
     return send_from_directory(
-        app.root_path + "/templates", "daisy.apk",
+        app.root_path + "/templates", "Daisy.apk",
         as_attachment=True, download_name="Daisy.apk"
     )
 
