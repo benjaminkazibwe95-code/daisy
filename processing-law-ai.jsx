@@ -70081,6 +70081,10 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-28 17:52 ===
   their_source_files: "Freely available and the licenses used meet the demands of the Open Source Initiative (OSI) in terms of freedom",
 
+  // === INGESTED 2026-07-29 13:20 ===
+  open_music_is_music_that: "Shareable and may provide source files — such as lyrics, MIDI files, samples, track-by-track audio files, or Audacity",
+  one_of_the_most_open_licences: "'Creative Commons Attribution' License",
+
 };
 
 // ============================================================
