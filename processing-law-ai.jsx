@@ -70089,6 +70089,9 @@ const FLAT_DICT = {
   geometric_concepts: "Widely applied in morphometrics, developmental biology, biomechanics, medical imaging, and the analysis of complex biological systems",
   such_approaches: { definition: "Widely used to study craniofacial growth, skeletal morphology, and prenatal development", what_it_does: "", examples: "craniosynostosis" },
 
+  // === INGESTED 2026-07-29 21:30 ===
+  food_is_any_substance_that: { definition: "Consumed by an organism for nutritional support", what_it_does: "", examples: "carbohydrates , fats , proteins , vitamins , or minerals" },
+
 };
 
 // ============================================================
