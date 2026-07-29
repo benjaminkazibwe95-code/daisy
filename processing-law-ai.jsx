@@ -70085,6 +70085,10 @@ const FLAT_DICT = {
   open_music_is_music_that: "Shareable and may provide source files — such as lyrics, MIDI files, samples, track-by-track audio files, or Audacity",
   one_of_the_most_open_licences: "'Creative Commons Attribution' License",
 
+  // === INGESTED 2026-07-29 17:35 ===
+  geometric_concepts: "Widely applied in morphometrics, developmental biology, biomechanics, medical imaging, and the analysis of complex biological systems",
+  such_approaches: { definition: "Widely used to study craniofacial growth, skeletal morphology, and prenatal development", what_it_does: "", examples: "craniosynostosis" },
+
 };
 
 // ============================================================
