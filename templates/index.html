@@ -906,19 +906,19 @@
     }
 
     #attach-btn {
-      width: 38px; height: 38px;
+      width: 40px; height: 40px;
       border-radius: 50%;
       border: none;
       cursor: pointer;
       display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
       background: var(--card);
-      color: var(--muted);
+      color: var(--text);
       transition: background 0.15s, color 0.15s, transform 0.1s;
     }
     #attach-btn:hover { background: var(--border); color: var(--text); }
     #attach-btn:active { transform: scale(0.95); }
-    #attach-btn svg { width: 17px; height: 17px; }
+    #attach-btn svg { width: 19px; height: 19px; stroke-width: 2.6; }
 
     #image-preview-row { display: none; padding: 0 6px 8px; }
     #image-preview-chip {
@@ -968,19 +968,19 @@
 
     /* Mic dictation button — writes speech straight into the text box */
     #mic-dictate-btn {
-      width: 38px; height: 38px;
+      width: 40px; height: 40px;
       border-radius: 50%;
       border: none;
       cursor: pointer;
       display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
       background: var(--card);
-      color: var(--muted);
+      color: var(--text);
       transition: background 0.15s, color 0.15s, transform 0.1s;
     }
     #mic-dictate-btn:hover { background: var(--border); color: var(--text); }
     #mic-dictate-btn:active { transform: scale(0.95); }
-    #mic-dictate-btn svg { width: 16px; height: 16px; }
+    #mic-dictate-btn svg { width: 18px; height: 18px; stroke-width: 2.6; }
     #mic-dictate-btn.recording-mode {
       background: #e34b4b;
       color: #fff;
@@ -1000,7 +1000,7 @@
     /* Single input-row action button: live voice (pulse ring, idle) →
        send (solid daisy blue) the instant there's text or an image. */
     #action-btn {
-      width: 38px; height: 38px;
+      width: 40px; height: 40px;
       border-radius: 50%;
       border: none;
       cursor: pointer;
@@ -1008,13 +1008,13 @@
       flex-shrink: 0;
       position: relative;
       overflow: visible;
-      background: var(--card);
+      background: color-mix(in srgb, var(--daisy) 16%, var(--card));
       color: var(--daisy);
       transition: background 0.15s, color 0.15s, transform 0.1s;
     }
-    #action-btn:hover { background: var(--border); }
+    #action-btn:hover { background: color-mix(in srgb, var(--daisy) 26%, var(--card)); }
     #action-btn:active { transform: scale(0.95); }
-    #action-btn svg { width: 16px; height: 16px; }
+    #action-btn svg { width: 18px; height: 18px; stroke-width: 2.6; }
     #action-btn.send-mode {
       background: var(--daisy);
       color: #000;
@@ -1929,7 +1929,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
       </button>
       <input type="file" id="image-input" accept="image/*" style="display:none;" />
-      <textarea id="question-input" rows="1" placeholder="Talk to Daisy..."></textarea>
+      <textarea id="question-input" rows="1" placeholder="Talk to Daisy..." autofocus></textarea>
       <!-- Mic — dictates straight into the text box; tap again (or the square) to stop -->
       <button id="mic-dictate-btn" title="Voice input">
         <span id="mic-dictate-icon">
@@ -2345,6 +2345,13 @@ document.addEventListener('DOMContentLoaded', updateOfflineBanner);
 
 document.addEventListener('DOMContentLoaded', function() {
   try {
+  // Bring the keyboard up the moment Daisy opens, instead of making
+  // people tap the input box first.
+  const daisyInputBox = document.getElementById('question-input');
+  if (daisyInputBox) {
+    setTimeout(() => daisyInputBox.focus(), 150);
+  }
+
   const greetingEl = document.getElementById('greeting');
   const userBtn    = document.getElementById('user-btn');
 
