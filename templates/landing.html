@@ -6,6 +6,19 @@
 <title>Daisy — The First Ugandan AI</title>
 <meta name="description" content="Daisy is the first Ugandan AI | an assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
 
+<link rel="canonical" href="https://daisy-qg1c.onrender.com/welcome" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Daisy — The First Ugandan AI" />
+<meta property="og:description" content="An AI assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
+<meta property="og:url" content="https://daisy-qg1c.onrender.com/welcome" />
+<meta property="og:image" content="https://daisy-qg1c.onrender.com/icons/og-image.png" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Daisy — The First Ugandan AI" />
+<meta name="twitter:description" content="An AI assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
+<meta name="twitter:image" content="https://daisy-qg1c.onrender.com/icons/og-image.png" />
+
 <link rel="icon" href="/static/icons/favicon-32.png" sizes="32x32">
 <link rel="manifest" href="/manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -389,6 +402,10 @@
       © <span id="year"></span> Daisy. Made in Uganda 🇺🇬
     </div>
     <span>Free to start, everywhere your phone goes.</span>
+    <div style="display:flex; gap:16px;">
+      <a href="/privacy" style="color:var(--muted); text-decoration:none;">Privacy</a>
+      <a href="/terms" style="color:var(--muted); text-decoration:none;">Terms</a>
+    </div>
   </div>
 </footer>
 
@@ -471,7 +488,8 @@
       const promptEvent = daisyDeferredInstallPrompt;
       daisyDeferredInstallPrompt = null;
       promptEvent.prompt();
-      await promptEvent.userChoice;
+      const choice = await promptEvent.userChoice;
+      if (choice.outcome === 'accepted') showPostInstallMessage();
       return;
     }
 
@@ -497,10 +515,20 @@
       const promptEvent = daisyDeferredInstallPrompt;
       daisyDeferredInstallPrompt = null;
       promptEvent.prompt();
-      await promptEvent.userChoice;
+      const choice = await promptEvent.userChoice;
+      if (choice.outcome === 'accepted') showPostInstallMessage();
     } else {
       showInstallInstructions();
     }
+  }
+
+  function showPostInstallMessage() {
+    installSub.textContent = "Daisy's installed!";
+    installSteps.innerHTML = stepsHTML([
+      "Close this browser tab now.",
+      "Open <strong>Daisy</strong> from your home screen or app drawer instead — that's the real app, not this tab."
+    ]);
+    installOverlay.classList.add('open');
   }
 
   document.querySelectorAll('#download-btn, a[href="#download"]').forEach((btn) => {
