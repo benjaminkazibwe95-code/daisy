@@ -70092,6 +70092,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-29 21:30 ===
   food_is_any_substance_that: { definition: "Consumed by an organism for nutritional support", what_it_does: "", examples: "carbohydrates , fats , proteins , vitamins , or minerals" },
 
+  // === INGESTED 2026-07-30 17:53 ===
+  contemporary_neuropsychology: "Undergoing a rapid transformation thanks to advances in neuroimaging , natural language processing, artificial intelligence [ 91 ] and virtual reality",
+
 };
 
 // ============================================================
