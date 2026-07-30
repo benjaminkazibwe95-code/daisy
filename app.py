@@ -1570,6 +1570,21 @@ def welcome():
     return render_template("landing.html")
 
 
+@app.route("/privacy")
+def privacy_policy():
+    """Public privacy policy page. Linked from the Play Store listing
+    and the Play Console data safety form, so it needs to live at a
+    stable, permanent URL outside the app itself."""
+    return render_template("privacy.html")
+
+
+@app.route("/terms")
+def terms_of_use():
+    """Public terms of use page. Linked from the Play Store listing
+    alongside the privacy policy."""
+    return render_template("terms.html")
+
+
 @app.route("/export/pdf", methods=["POST"])
 def export_pdf():
     """Turn a Daisy answer (or anything the client sends) into a PDF
