@@ -1837,6 +1837,15 @@ def ask():
     # per-message action. Defaults to allowed; Claude still decides
     # per-message whether a given question actually needs it.
     allow_search = data.get("web_search_enabled", True) is not False
+    # Settings > Model — "beni" (Daisy's own raw dictionary/law answer,
+    # no Claude call at all — instant, works even if ANTHROPIC_API_KEY
+    # is unset) or "beni2" (the default: Daisy's draft is handed to
+    # Claude to be rephrased/completed — natural wording, web search,
+    # photo analysis). Unrecognized/missing values fall back to beni2
+    # so older clients that don't send this field keep today's behavior.
+    model = (data.get("model") or "beni2").strip().lower()
+    if model not in ("beni", "beni2"):
+        model = "beni2"
 
     def generate():
         try:
@@ -1848,6 +1857,14 @@ def ask():
             # text-only dictionary/brain and the correction cache both work on
             # exact question strings, neither has anything meaningful to say
             # about a photo, so there's no point routing through them first.
+            if image_data and model == "beni":
+                yield _ndjson_line({
+                    "event": "final",
+                    "answer": "Beni can't look at photos — that needs Beni 2. Switch models in Settings and send it again.",
+                    "source": "model_limitation",
+                })
+                return
+
             if image_data:
                 final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
                 for evt in speak_naturally_stream(
@@ -1880,26 +1897,42 @@ def ask():
             # purpose: this is settled factual knowledge, not one person's
             # private conversation state (see the state-leak fix above for
             # why those two things are NOT the same and must stay separate).
-            cached = get_correction(question)
+            cached = get_correction(question) if model == "beni2" else None
             if cached:
                 yield _ndjson_line({"event": "final", "answer": cached, "source": "learned"})
                 return
 
             result = ask_daisy(question, learned, history)
-
-            # VOICE LAYER — every response goes through Claude now, not just
-            # dictionary/synthesis answers. Daisy's own draft (which may be a
-            # personality fragment, a math result, or nothing at all if she
-            # has zero match) is handed to Claude alongside the real question;
-            # Claude either lightly cleans up a draft that already fits, or
-            # actually answers properly if the draft misses the point or is
-            # blank. This is what fixes things like a robotic "can you
-            # rephrase that?" in response to "are you serious". If the person
-            # allows web search, Claude also gets a real search tool attached
-            # and decides for itself, per question, whether to use it — see
-            # the LIVE WEB SEARCH rule in DAISY_SYSTEM_PROMPT. Status events
-            # stream out live, as they genuinely happen.
             raw_answer = result.get("answer")
+
+            if model == "beni":
+                # BENI — Daisy's own dictionary/law answer, straight back to
+                # the person with no Claude call in between. No rephrasing,
+                # no web search, no memory extraction — just instant, raw
+                # output from Daisy's own brain.
+                result["event"] = "final"
+                result["answer"] = raw_answer or "I don't have anything on that yet. Try Beni 2 for a fuller answer, or ask me something else."
+                result["raw_fact"] = raw_answer
+                result["memory_fact"] = None
+                result["used_web_search"] = False
+                result["sources"] = []
+                if not raw_answer:
+                    result["needs_fallback"] = True
+                yield _ndjson_line(result)
+                return
+
+            # BENI 2 — every response goes through Claude. Daisy's own draft
+            # (which may be a personality fragment, a math result, or
+            # nothing at all if she has zero match) is handed to Claude
+            # alongside the real question; Claude either lightly cleans up a
+            # draft that already fits, or actually answers properly if the
+            # draft misses the point or is blank. This is what fixes things
+            # like a robotic "can you rephrase that?" in response to "are
+            # you serious". If the person allows web search, Claude also
+            # gets a real search tool attached and decides for itself, per
+            # question, whether to use it — see the LIVE WEB SEARCH rule in
+            # DAISY_SYSTEM_PROMPT. Status events stream out live, as they
+            # genuinely happen.
             final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
             for evt in speak_naturally_stream(
                 question, raw_answer, custom_instructions,
