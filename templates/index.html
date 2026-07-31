@@ -2079,6 +2079,23 @@
       </div>
     </div>
 
+    <div class="settings-section-label">Model</div>
+    <div class="settings-group">
+      <button class="settings-row settings-row-btn" id="model-row">
+        <span class="s-icon">🧠</span>
+        <div class="s-row-text"><div class="s-row-title">Response model</div><div class="s-row-sub" id="model-value">Beni 2</div></div>
+        <span class="s-chevron">▾</span>
+      </button>
+      <div id="model-options" class="settings-options" style="display:none;">
+        <button class="settings-option" data-model-choice="beni">
+          <strong>Beni</strong> — instant answers straight from Daisy's own brain
+        </button>
+        <button class="settings-option" data-model-choice="beni2">
+          <strong>Beni 2</strong> — natural, conversational answers, with web search &amp; photo analysis
+        </button>
+      </div>
+    </div>
+
     <div class="settings-section-label">Voice</div>
     <div class="settings-group">
       <div class="settings-row">
@@ -2511,10 +2528,42 @@ document.addEventListener('DOMContentLoaded', function() {
 
   themeRow.onclick = () => {
     accentOptions.style.display = 'none';
+    modelOptions.style.display = 'none';
     themeOptions.style.display = themeOptions.style.display === 'none' ? 'block' : 'none';
   };
   themeOptions.querySelectorAll('.settings-option').forEach(btn => {
     btn.onclick = () => { applyTheme(btn.dataset.themeChoice); themeOptions.style.display = 'none'; };
+  });
+
+  // Model (Beni / Beni 2) — which brain answers each message. Persisted
+  // per device, same as theme/accent, and read fresh by sendMessage() on
+  // every send so switching takes effect immediately, mid-conversation.
+  const MODEL_KEY = 'daisy_model';
+  const modelLabels = { beni: 'Beni', beni2: 'Beni 2' };
+  const modelRow     = document.getElementById('model-row');
+  const modelOptions = document.getElementById('model-options');
+  const modelValueEl = document.getElementById('model-value');
+
+  function getSelectedModel() {
+    const stored = localStorage.getItem(MODEL_KEY);
+    return stored === 'beni' ? 'beni' : 'beni2';
+  }
+  function applyModel(choice) {
+    choice = choice === 'beni' ? 'beni' : 'beni2';
+    localStorage.setItem(MODEL_KEY, choice);
+    modelValueEl.textContent = modelLabels[choice];
+    modelOptions.querySelectorAll('.settings-option').forEach(o =>
+      o.classList.toggle('selected', o.dataset.modelChoice === choice));
+  }
+  applyModel(getSelectedModel());
+
+  modelRow.onclick = () => {
+    themeOptions.style.display = 'none';
+    accentOptions.style.display = 'none';
+    modelOptions.style.display = modelOptions.style.display === 'none' ? 'block' : 'none';
+  };
+  modelOptions.querySelectorAll('.settings-option').forEach(btn => {
+    btn.onclick = () => { applyModel(btn.dataset.modelChoice); modelOptions.style.display = 'none'; };
   });
 
   // Accent color
@@ -2535,6 +2584,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   accentRow.onclick = () => {
     themeOptions.style.display = 'none';
+    modelOptions.style.display = 'none';
     accentOptions.style.display = accentOptions.style.display === 'none' ? 'flex' : 'none';
   };
   accentOptions.querySelectorAll('.swatch').forEach(btn => {
@@ -3950,6 +4000,7 @@ document.addEventListener('DOMContentLoaded', function() {
         memory: getMemory(),
         history: priorHistory,
         web_search_enabled: isWebSearchAllowed(),
+        model: getSelectedModel(),
         image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
       }, (status) => applyLiveStatus(panel, status));
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
