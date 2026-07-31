@@ -1957,6 +1957,9 @@
             <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/>
           </svg>
         </span>
+        <span id="action-stop-icon" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="3"/></svg>
+        </span>
       </button>
     </div>
     <div id="dictation-hint" style="display:none;">Listening — tap the square to stop</div>
@@ -3942,11 +3945,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // instant each real status event arrives (while Claude is actually
   // searching/thinking, not on a guessed timer), and resolves with
   // the single "final" event once the stream ends.
-  async function streamAsk(payload, onStatus) {
+  async function streamAsk(payload, onStatus, signal) {
     const res = await fetch('/ask', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
+      body: JSON.stringify(payload),
+      signal
     });
     if (!res.ok || !res.body) throw new Error('Request failed');
     const reader = res.body.getReader();
@@ -3992,6 +3996,10 @@ document.addEventListener('DOMContentLoaded', function() {
     recordMessage('user', attachedImage ? (text || '[image]') : text);
     clearPendingImage();
     const panel = addThinkingPanel();
+    isGenerating = true;
+    setActionMode('stop');
+    const abortController = new AbortController();
+    currentAbortController = abortController;
 
     try {
       const data = await streamAsk({
@@ -4002,7 +4010,7 @@ document.addEventListener('DOMContentLoaded', function() {
         web_search_enabled: isWebSearchAllowed(),
         model: getSelectedModel(),
         image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
-      }, (status) => applyLiveStatus(panel, status));
+      }, (status) => applyLiveStatus(panel, status), abortController.signal);
       const answer = data.answer || "I'm still learning about that. Ask me something else.";
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
@@ -4014,7 +4022,15 @@ document.addEventListener('DOMContentLoaded', function() {
       panel._settled = true;
       panel._cancel();
       panel.remove();
-      addMsg("I couldn't reach my brain right now. Try again.", 'daisy');
+      if (e.name !== 'AbortError') {
+        addMsg("I couldn't reach my brain right now. Try again.", 'daisy');
+      }
+      // AbortError = the person tapped Stop on purpose — no error bubble,
+      // just quietly stop where we are, same as ChatGPT/Claude's stop button.
+    } finally {
+      isGenerating = false;
+      currentAbortController = null;
+      refreshActionMode();
     }
   }
 
@@ -4075,22 +4091,31 @@ document.addEventListener('DOMContentLoaded', function() {
   const actionBtn       = document.getElementById('action-btn');
   const actionLiveIcon  = document.getElementById('action-live-icon');
   const actionSendIcon  = document.getElementById('action-send-icon');
-  let actionMode = 'live'; // 'live' | 'send'
+  const actionStopIcon  = document.getElementById('action-stop-icon');
+  let actionMode = 'live'; // 'live' | 'send' | 'stop'
+  let isGenerating = false;      // true while a request to /ask is in flight
+  let currentAbortController = null;
 
   function setActionMode(mode) {
     actionMode = mode;
-    actionBtn.classList.toggle('send-mode', mode === 'send');
-    actionLiveIcon.style.display = mode === 'send' ? 'none' : 'flex';
+    actionBtn.classList.toggle('send-mode', mode !== 'live');
+    actionLiveIcon.style.display = mode === 'live' ? 'flex' : 'none';
     actionSendIcon.style.display = mode === 'send' ? 'flex' : 'none';
-    actionBtn.title = mode === 'send' ? 'Send' : 'Live voice conversation';
+    actionStopIcon.style.display = mode === 'stop' ? 'flex' : 'none';
+    actionBtn.title = mode === 'stop' ? 'Stop' : (mode === 'send' ? 'Send' : 'Live voice conversation');
   }
 
   function refreshActionMode() {
+    if (isGenerating) return; // don't let typing flip the button away from Stop mid-response
     setActionMode((inp.value.trim() || pendingImage) ? 'send' : 'live');
   }
   inp.addEventListener('input', refreshActionMode);
 
   actionBtn.onclick = () => {
+    if (actionMode === 'stop') {
+      if (currentAbortController) currentAbortController.abort();
+      return;
+    }
     if (actionMode === 'send') {
       if (isDictating) stopInlineDictation(); // don't leave the mic listening after the message is already sent
       sendMessage();
