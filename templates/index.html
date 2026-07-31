@@ -4134,11 +4134,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // screen. Its own SpeechRecognition instance, deliberately separate
   // from the Live Room's below, so the two never fight over state. ──
   //
-  // Each recognition instance handles exactly ONE utterance
-  // (continuous: false), commits it once when it finishes, and a
-  // brand new instance starts for the next utterance — continuous:true
-  // sessions were seen to double up results on real devices, so this
-  // makes no assumption about cross-event array behavior at all.
+  // continuous:true, and each onresult only walks the NEW results since
+  // e.resultIndex (not the whole results array) — that's what actually
+  // avoids double-ups, not switching continuous off. Recognition is only
+  // ever restarted from onend, when the browser itself has genuinely
+  // stopped listening (silence timeout, network hiccup) — never on a
+  // fixed per-utterance cycle, so there's no artificial gap where words
+  // spoken mid-restart get lost.
   const micDictateBtn      = document.getElementById('mic-dictate-btn');
   const micDictateIcon     = document.getElementById('mic-dictate-icon');
   const micDictateStopIcon = document.getElementById('mic-dictate-stop-icon');
@@ -4146,6 +4148,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let isDictating = false;
   let dictationRecognition = null;
   let dictationBaseText = '';
+  let dictationFinalText = '';
 
   function setMicDictateUI(recording) {
     micDictateBtn.classList.toggle('recording-mode', recording);
@@ -4163,6 +4166,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) { alert("Voice input isn't supported in this browser — try Chrome."); return; }
     dictationBaseText = inp.value ? inp.value.replace(/\s+$/, '') + ' ' : '';
+    dictationFinalText = '';
     isDictating = true;
     setMicDictateUI(true);
     dictationHint.textContent = 'Listening — tap the square to stop';
@@ -4175,17 +4179,16 @@ document.addEventListener('DOMContentLoaded', function() {
     dictationRecognition = new SR();
     dictationRecognition.lang = 'en-US';
     dictationRecognition.interimResults = true;
-    dictationRecognition.continuous = false; // one utterance, then it ends naturally — no cross-event ambiguity possible
+    dictationRecognition.continuous = true; // keep listening through natural pauses instead of chopping speech into utterance-sized chunks
 
     dictationRecognition.onresult = (e) => {
-      const last = e.results[e.results.length - 1];
-      const text = last[0].transcript;
-      if (last.isFinal) {
-        dictationBaseText = dictationBaseText + text + ' ';
-        inp.value = dictationBaseText;
-      } else {
-        inp.value = dictationBaseText + text;
+      let interim = '';
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const chunk = e.results[i][0].transcript;
+        if (e.results[i].isFinal) dictationFinalText += chunk + ' ';
+        else interim += chunk;
       }
+      inp.value = dictationBaseText + dictationFinalText + interim;
       inp.style.height = 'auto';
       inp.style.height = inp.scrollHeight + 'px';
       inp.scrollTop = inp.scrollHeight;
@@ -4203,10 +4206,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     dictationRecognition.onend = () => {
       if (isDictating) {
-        // Each utterance naturally ends recognition (continuous:false) —
-        // that's expected, not an error. Start the next cycle right away
-        // so it feels continuous even though it's really back-to-back
-        // single-utterance sessions under the hood.
+        // The browser itself stopped recognition (silence timeout, network
+        // hiccup) — restart right away so it feels unbroken. This is not a
+        // per-utterance cycle, just recovery from a real stop.
         setTimeout(() => { if (isDictating) runDictationCycle(); }, 30);
       }
     };
@@ -4369,7 +4371,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const panel = addThinkingPanel();
         try {
           const data = await streamAsk({
-            question, instructions: getInstructions(), memory: getMemory(), history: priorHistory, web_search_enabled: isWebSearchAllowed()
+            question, instructions: getInstructions(), memory: getMemory(), history: priorHistory, web_search_enabled: isWebSearchAllowed(), model: getSelectedModel()
           }, (status) => applyLiveStatus(panel, status));
           const answer = data.answer || "Still learning that one.";
           if (data.memory_fact) saveMemoryFact(data.memory_fact);
