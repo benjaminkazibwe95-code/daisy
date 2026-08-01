@@ -70095,6 +70095,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-07-30 17:53 ===
   contemporary_neuropsychology: "Undergoing a rapid transformation thanks to advances in neuroimaging , natural language processing, artificial intelligence [ 91 ] and virtual reality",
 
+  // === INGESTED 2026-08-01 15:39 ===
+  by_the_eleventh_and_twelfth_centuries_it: { definition: "A densely populated city enclosed by concentric walls, with extensive potsherd pavements and specialised craft production", what_it_does: "", examples: "Bono Manso participated in gold and kola trade with the Middle Niger" },
+
 };
 
 // ============================================================
