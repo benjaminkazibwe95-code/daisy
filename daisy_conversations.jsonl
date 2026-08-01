@@ -309,3 +309,7 @@
 {"timestamp": "2026-08-01T11:56:40.171191", "user": "I want 260000 can it work", "daisy": "Work is activity for survival or income.", "source": "dictionary", "topics": []}
 {"timestamp": "2026-08-01T11:57:42.073734", "user": "I have to show him that I sold this kgs at 13k and this at 14k giving 260000", "daisy": null, "source": "unknown", "topics": []}
 {"timestamp": "2026-08-01T11:58:18.971525", "user": "I want 26000 not 270000", "daisy": null, "source": "unknown", "topics": []}
+{"timestamp": "2026-08-01T11:59:17.265728", "user": "Not that the 10k is for 2 legs each at 5000 I sold", "daisy": "Step 1: Total = 5000\nStep 2: \u00f7 2 people\nAnswer: 2500 each", "source": "scenario", "topics": []}
+{"timestamp": "2026-08-01T11:59:58.174528", "user": "\ud83d\ude21Total I have is 26000", "daisy": null, "source": "unknown", "topics": []}
+{"timestamp": "2026-08-01T12:00:05.666705", "user": "\ud83d\ude21Total I have is 260000", "daisy": null, "source": "unknown", "topics": []}
+{"timestamp": "2026-08-01T12:48:43.870365", "user": "ok make me a caption and hashtags for a video about that", "daisy": "Caption \u2014 text written under a post or image \u2014 and video \u2014 a recording of moving visual images \u2014 are connected.", "source": "synthesis", "topics": []}
