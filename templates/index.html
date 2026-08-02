@@ -3515,7 +3515,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     chatArea.appendChild(div);
-    if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    if (stickToBottom) div.scrollIntoView({ behavior: 'auto', block: 'end' });
     return div;
   }
 
@@ -3721,7 +3721,7 @@ document.addEventListener('DOMContentLoaded', function() {
     div.appendChild(label);
     div.appendChild(body);
     chatArea.appendChild(div);
-    if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    if (stickToBottom) div.scrollIntoView({ behavior: 'auto', block: 'end' });
 
     await typeIntoBody(body, text, div);
     if (opts.sources && opts.sources.length) {
@@ -3855,7 +3855,7 @@ document.addEventListener('DOMContentLoaded', function() {
     div.className = 'thinking-panel';
     div.innerHTML = '<span class="t-icon-wrap"><span class="t-dot"></span></span><span class="thinking-step">Reading your message…</span>';
     chatArea.appendChild(div);
-    if (stickToBottom) div.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    if (stickToBottom) div.scrollIntoView({ behavior: 'auto', block: 'end' });
 
     div._stepEl = div.querySelector('.thinking-step');
     div._iconWrap = div.querySelector('.t-icon-wrap');
@@ -4069,14 +4069,49 @@ document.addEventListener('DOMContentLoaded', function() {
   // from our own mainEl.scrollTo(...) calls — so these are a clean,
   // unambiguous signal that the person actually wants to look away,
   // with no risk of our own auto-scroll re-triggering itself.
-  mainEl.addEventListener('touchstart', () => { stickToBottom = false; }, { passive: true });
-  mainEl.addEventListener('wheel', () => { stickToBottom = false; }, { passive: true });
+  // Tracks whether a finger is physically down on the scroll area right
+  // now. This is the piece the old fix was missing: a 150ms-quiet scroll
+  // timer treats a finger that's PAUSED mid-drag (still touching, just
+  // not moving for a beat — completely normal while someone reads as
+  // they scroll) the same as a finger that's been LIFTED. If they'd
+  // paused near the bottom, that timer would re-enable auto-scroll while
+  // they were still holding the screen, and the next typing tick would
+  // yank the view down out from under their finger — that fight/shake.
+  // Re-latching now only happens on an actual release (touchend/
+  // touchcancel), never mid-touch.
+  let isTouching = false;
+  mainEl.addEventListener('touchstart', () => {
+    isTouching = true;
+    stickToBottom = false;
+    // Re-assigning scrollTop to itself interrupts any smooth-scroll
+    // animation already in flight (e.g. one kicked off the instant a
+    // new message/thinking-panel appeared, just before this touch
+    // landed). Without this, that animation keeps playing on its own
+    // for a few hundred ms, fighting the user's own drag the whole
+    // time — which is what "having to force it" felt like.
+    mainEl.scrollTop = mainEl.scrollTop;
+  }, { passive: true });
   mainEl.addEventListener('touchmove', () => { stickToBottom = false; }, { passive: true });
+  const relatchIfNearBottom = () => {
+    const fromBottom = mainEl.scrollHeight - mainEl.scrollTop - mainEl.clientHeight;
+    if (fromBottom < 60) stickToBottom = true;
+  };
+  mainEl.addEventListener('touchend', () => { isTouching = false; relatchIfNearBottom(); }, { passive: true });
+  mainEl.addEventListener('touchcancel', () => { isTouching = false; relatchIfNearBottom(); }, { passive: true });
+  mainEl.addEventListener('wheel', () => { stickToBottom = false; }, { passive: true });
 
+  // Wheel/trackpad has no "release" event to hook, so it still relies on
+  // a quiet-scroll timer — but only when there's no finger down, since a
+  // held-but-paused touch must never trigger this path.
+  let scrollSettleTimer = null;
   mainEl.addEventListener('scroll', () => {
     const fromBottom = mainEl.scrollHeight - mainEl.scrollTop - mainEl.clientHeight;
-    if (fromBottom < 60) stickToBottom = true; // they scrolled back to the bottom themselves
     scrollBtn.classList.toggle('show', chatActive && fromBottom > 200);
+    if (isTouching) return;
+    clearTimeout(scrollSettleTimer);
+    scrollSettleTimer = setTimeout(() => {
+      if (!isTouching) relatchIfNearBottom();
+    }, 150);
   });
   scrollBtn.addEventListener('click', () => {
     stickToBottom = true;
