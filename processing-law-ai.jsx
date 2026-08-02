@@ -70098,6 +70098,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-08-01 15:39 ===
   by_the_eleventh_and_twelfth_centuries_it: { definition: "A densely populated city enclosed by concentric walls, with extensive potsherd pavements and specialised craft production", what_it_does: "", examples: "Bono Manso participated in gold and kola trade with the Middle Niger" },
 
+  // === INGESTED 2026-08-02 19:39 ===
+  the_earliest_doctoral_programs_in_finance: { definition: "Established in the 1960s and 1970s", what_it_does: "", examples: "loans or credit, when they lack sufficient funds to run their operations" },
+
 };
 
 // ============================================================
