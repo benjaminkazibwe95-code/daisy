@@ -70101,6 +70101,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-08-02 19:39 ===
   the_earliest_doctoral_programs_in_finance: { definition: "Established in the 1960s and 1970s", what_it_does: "", examples: "loans or credit, when they lack sufficient funds to run their operations" },
 
+  // === INGESTED 2026-08-07 02:19 ===
+  demyelination: "A process characterized by the gradual loss of the myelin sheath enveloping nerve fibers",
+
 };
 
 // ============================================================
