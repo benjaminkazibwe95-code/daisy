@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Daisy Console</title>
+<meta name="description" content="Manage your Daisy API keys, watch usage, and test requests from the Daisy developer console." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:      #0a0a10;
+    --surface: #14141e;
+    --card:    #191926;
+    --card2:   #1e1e2c;
+    --border:  rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.14);
+    --text:    #f4f4f8;
+    --muted:   #94919f;
+    --blue:    #7eb8f7;
+    --violet:  #a78bfa;
+    --green:   #34d399;
+    --red:     #f87171;
+    --radius:  16px;
+    --sidebar-w: 250px;
+    --sidebar-w-collapsed: 58px;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.5; -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+  }
+  a { color: inherit; }
+  button { font-family: inherit; }
+  input, select, textarea, button { min-width: 0; max-width: 100%; }
+  body, .pg-bubble, .model-desc, .kv, .key-value, .card-sub, .page-sub, .stub-card div { overflow-wrap: break-word; word-break: break-word; }
+  h1, h2, h3 { font-family: 'Instrument Serif', serif; font-weight: 400; margin: 0; }
+  code, .mono { font-family: 'IBM Plex Mono', monospace; }
+  ::selection { background: rgba(126,184,247,0.28); }
+
+  .app { display: flex; height: 100vh; overflow: hidden; max-width: 100vw; }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    width: var(--sidebar-w); flex-shrink: 0; background: var(--surface);
+    border-right: 1px solid var(--border); display: flex; flex-direction: column;
+    transition: width 0.18s ease; overflow: hidden; white-space: nowrap;
+  }
+  .sidebar.collapsed { width: var(--sidebar-w-collapsed); }
+  .sb-head { display: flex; align-items: center; justify-content: space-between; padding: 18px 16px 14px; }
+  .sb-brand { display: flex; align-items: center; gap: 9px; font-family: 'Instrument Serif', serif; font-size: 19px; }
+  .sb-brand-mark { width: 24px; height: 24px; border-radius: 8px; background: linear-gradient(135deg, var(--blue), var(--violet)); flex-shrink: 0; position: relative; }
+  .sb-brand-mark svg { position: absolute; inset: 0; margin: auto; width: 13px; height: 13px; }
+  .sidebar.collapsed .sb-brand-label { display: none; }
+  .sb-toggle { width: 28px; height: 28px; border-radius: 8px; border: 1px solid var(--border2); background: transparent; color: var(--muted); display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0; }
+  .sb-toggle:hover { color: var(--text); border-color: var(--blue); }
+  .sb-toggle svg { width: 14px; height: 14px; }
+  .sidebar.collapsed .sb-head { justify-content: center; padding: 18px 0 14px; }
+  .sidebar.collapsed .sb-toggle { display: none; }
+
+  .sb-org { margin: 0 12px 12px; }
+  .sb-org-btn { width: 100%; display: flex; align-items: center; gap: 9px; background: var(--card); border: 1px solid var(--border2); border-radius: 10px; padding: 9px 11px; color: var(--text); font-size: 13.5px; font-weight: 600; cursor: pointer; }
+  .sb-org-btn svg.chev { margin-left: auto; width: 13px; height: 13px; stroke: var(--muted); flex-shrink: 0; }
+  .sb-org-icon { width: 16px; height: 16px; stroke: var(--violet); flex-shrink: 0; }
+  .sidebar.collapsed .sb-org { display: none; }
+
+  .sb-search { margin: 0 12px 14px; position: relative; }
+  .sb-search input { width: 100%; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 9px 11px 9px 34px; font-size: 13px; color: var(--text); }
+  .sb-search input::placeholder { color: var(--muted); }
+  .sb-search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; stroke: var(--muted); }
+  .sb-search kbd { position: absolute; right: 9px; top: 50%; transform: translateY(-50%); font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--muted); background: var(--card2); border: 1px solid var(--border2); border-radius: 5px; padding: 2px 5px; }
+  .sidebar.collapsed .sb-search { display: none; }
+
+  .sb-nav { flex: 1; overflow-y: auto; padding: 0 8px; }
+  .sb-item { display: flex; align-items: center; gap: 12px; width: 100%; background: transparent; border: none; border-radius: 9px; padding: 10px 10px; color: var(--muted); font-size: 13.5px; font-weight: 500; cursor: pointer; text-align: left; margin-bottom: 1px; }
+  .sb-item svg { width: 17px; height: 17px; flex-shrink: 0; stroke: currentColor; }
+  .sb-item:hover { color: var(--text); background: rgba(255,255,255,0.03); }
+  .sb-item.active { color: var(--text); background: var(--card2); font-weight: 600; }
+  .sb-item .chev { margin-left: auto; width: 13px; height: 13px; transition: transform 0.15s; }
+  .sb-item.expanded .chev { transform: rotate(90deg); }
+  .sidebar.collapsed .sb-item span.label, .sidebar.collapsed .sb-item .chev { display: none; }
+  .sidebar.collapsed .sb-item { justify-content: center; }
+  .sb-sub { padding-left: 39px; display: none; }
+  .sb-sub.open { display: block; }
+  .sb-sub button { display: block; width: 100%; text-align: left; background: none; border: none; color: var(--muted); font-size: 13px; padding: 8px 10px; border-radius: 8px; cursor: pointer; }
+  .sb-sub button:hover { color: var(--text); }
+  .sb-sub button.active { color: var(--blue); font-weight: 600; }
+  .sidebar.collapsed .sb-sub { display: none; }
+
+  .sb-foot { padding: 10px 12px 16px; border-top: 1px solid var(--border); display: flex; align-items: center; gap: 10px; }
+  .sb-avatar { width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--violet)); color: #0a0a10; font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .sb-foot-text { min-width: 0; }
+  .sb-foot-name { font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
+  .sb-foot-sub { font-size: 11.5px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; }
+  .sidebar.collapsed .sb-foot-text { display: none; }
+  .sidebar.collapsed .sb-foot { justify-content: center; }
+
+  /* ── MAIN ── */
+  .main { flex: 1; min-width: 0; display: flex; flex-direction: column; overflow: hidden; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; padding: 16px 26px; border-bottom: 1px solid var(--border); flex-shrink: 0; gap: 14px; flex-wrap: wrap; }
+  .topbar-title { font-family: 'Instrument Serif', serif; font-size: 21px; }
+  .topbar-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .icon-btn { width: 36px; height: 36px; border-radius: 10px; background: var(--card2); border: 1px solid var(--border2); color: var(--muted); display: flex; align-items: center; justify-content: center; cursor: pointer; }
+  .icon-btn:hover { color: var(--text); border-color: var(--blue); }
+  .icon-btn svg { width: 16px; height: 16px; }
+  .btn { display: inline-flex; align-items: center; gap: 7px; padding: 9px 16px; border-radius: 9px; font-weight: 600; font-size: 13px; text-decoration: none; border: 1px solid transparent; cursor: pointer; white-space: nowrap; }
+  .btn svg { width: 14px; height: 14px; }
+  .btn-primary { background: #f4f4f8; color: #0a0a10; }
+  .btn-primary:hover { background: #fff; }
+  .btn-ghost { background: var(--card2); border-color: var(--border2); color: var(--text); }
+  .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
+  .btn-accent { background: linear-gradient(100deg, var(--blue), var(--violet)); color: #0a0a10; }
+
+  .content { flex: 1; overflow-y: auto; overflow-x: hidden; padding: 26px; }
+  .view { display: none; }
+  .view.active { display: block; }
+  .page-sub { color: var(--muted); font-size: 13.5px; margin: 6px 0 24px; max-width: 62ch; }
+
+  /* ── DASHBOARD CARDS ── */
+  .grid-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; }
+  .card-label { display: flex; align-items: center; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+  .card-num { font-size: 30px; font-weight: 800; }
+  .card-sub { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+  .card-link { color: var(--red); text-decoration: none; font-size: 12.5px; font-weight: 600; }
+  .card-link:hover { text-decoration: underline; }
+  .pill { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 700; background: var(--card2); border: 1px solid var(--border2); color: var(--muted); padding: 3px 8px; border-radius: 999px; }
+  .pill.up { color: var(--green); background: rgba(52,211,153,0.12); border-color: rgba(52,211,153,0.3); }
+  .ring { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--border2); position: relative; }
+  .bars { display: flex; align-items: flex-end; gap: 3px; height: 34px; }
+  .bars i { display: block; width: 6px; border-radius: 2px 2px 0 0; background: var(--border2); }
+  .bars i.hi { background: var(--green); }
+  .card-btn-row { display: flex; gap: 8px; margin-top: 14px; }
+
+  .section-title { font-size: 15px; font-weight: 700; margin: 0 0 14px; }
+  .section-title-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .section-title-row a { font-size: 12.5px; color: var(--blue); text-decoration: none; }
+  .section-title-row a:hover { text-decoration: underline; }
+
+  .model-list { display: flex; flex-direction: column; gap: 10px; }
+  .model-row { display: flex; align-items: center; gap: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 15px 18px; flex-wrap: wrap; min-width: 0; }
+  .model-row > * { min-width: 0; }
+  .model-name { font-weight: 700; font-size: 14px; min-width: 140px; }
+  .model-desc { color: var(--muted); font-size: 12.5px; flex: 1; min-width: 180px; }
+  .model-tag { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border2); color: var(--muted); }
+  .model-tag.live { color: var(--green); border-color: rgba(52,211,153,0.35); background: rgba(52,211,153,0.1); }
+  .model-tag.beta { color: var(--violet); border-color: rgba(167,139,250,0.35); background: rgba(167,139,250,0.1); }
+
+  /* ── API KEYS PAGE ── */
+  .key-table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .key-table-head, .key-row2 { display: grid; grid-template-columns: 1.1fr 1.6fr 1fr 1fr 1.3fr; gap: 10px; padding: 13px 20px; align-items: center; min-width: 0; }
+  .key-table-head > *, .key-row2 > * { min-width: 0; }
+  .key-table-head { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+  .key-row2 { border-bottom: 1px solid var(--border); font-size: 13px; }
+  .key-row2:last-child { border-bottom: none; }
+  .key-row2 .kv { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--muted); }
+  .key-row2 .kn { font-weight: 600; }
+  .key-row2 .ka { display: flex; gap: 6px; flex-wrap: wrap; }
+  @media (max-width: 760px) { .key-table-head { display: none; } .key-row2 { grid-template-columns: 1fr; gap: 4px; } }
+  .key-action { font-size: 11.5px; font-weight: 600; color: var(--muted); background: rgba(255,255,255,0.03); border: 1px solid var(--border2); border-radius: 7px; padding: 6px 10px; cursor: pointer; }
+  .key-action:hover { color: var(--blue); border-color: var(--blue); }
+  .key-action.danger:hover { color: var(--red); border-color: var(--red); }
+  .empty-state { padding: 40px 20px; text-align: center; color: var(--muted); font-size: 13.5px; }
+
+  /* ── PLAYGROUND ── */
+  .pg-wrap { display: grid; grid-template-columns: 1fr 320px; gap: 20px; align-items: start; min-width: 0; }
+  .pg-wrap > * { min-width: 0; }
+  @media (max-width: 880px) { .pg-wrap { grid-template-columns: 1fr; } }
+  .pg-chat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); display: flex; flex-direction: column; height: 460px; }
+  .pg-log { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  .pg-bubble { max-width: 80%; padding: 10px 14px; border-radius: 13px; font-size: 13.5px; line-height: 1.5; }
+  .pg-bubble.user { align-self: flex-end; background: var(--card2); border: 1px solid var(--border); }
+  .pg-bubble.daisy { align-self: flex-start; background: linear-gradient(135deg, rgba(126,184,247,0.13), rgba(167,139,250,0.13)); border: 1px solid rgba(126,184,247,0.25); }
+  .pg-input-row { display: flex; gap: 8px; padding: 14px; border-top: 1px solid var(--border); }
+  .pg-input-row input { flex: 1; background: var(--card); border: 1px solid var(--border2); border-radius: 9px; padding: 10px 13px; color: var(--text); font-size: 13.5px; }
+  .pg-side { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; }
+  .pg-side h3 { font-size: 14.5px; margin-bottom: 8px; }
+  .pg-side p { color: var(--muted); font-size: 12.5px; line-height: 1.55; margin: 0 0 12px; }
+  .pg-field-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 14px 0 6px; }
+  .pg-select { width: 100%; background: var(--card); border: 1px solid var(--border2); border-radius: 9px; padding: 9px 11px; color: var(--text); font-size: 13px; }
+
+  /* ── CODE / DOCS ── */
+  .code-tabs { display: flex; gap: 4px; margin-bottom: 10px; }
+  .code-tab { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: var(--muted); background: transparent; border: 1px solid var(--border); border-radius: 8px; padding: 7px 13px; cursor: pointer; }
+  .code-tab.active { color: var(--blue); border-color: rgba(126,184,247,0.4); background: rgba(126,184,247,0.08); }
+  .code-block { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px; margin: 0; overflow-x: auto; }
+  .code-block code { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; line-height: 1.65; color: #c9c6d4; white-space: pre; }
+  .docs-block { max-width: 720px; }
+  .docs-block h3 { font-size: 17px; margin: 26px 0 10px; }
+  .docs-block p { color: var(--muted); font-size: 13.5px; line-height: 1.6; }
+
+  /* ── ANALYTICS / GENERIC STUB ── */
+  .stub-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px 26px; text-align: center; color: var(--muted); font-size: 13.5px; max-width: 520px; }
+  .stub-card svg { width: 30px; height: 30px; stroke: var(--muted); margin-bottom: 12px; }
+
+  /* ── SETTINGS ── */
+  .settings-block { max-width: 520px; display: flex; flex-direction: column; gap: 18px; }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field label { font-size: 12.5px; font-weight: 600; color: var(--muted); }
+  .field input { background: var(--card); border: 1px solid var(--border2); border-radius: 9px; padding: 10px 13px; color: var(--text); font-size: 13.5px; }
+  .toggle-row { display: flex; align-items: center; justify-content: space-between; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .toggle-row div h4 { font-size: 13.5px; margin: 0 0 3px; font-weight: 600; }
+  .toggle-row div p { font-size: 12px; color: var(--muted); margin: 0; }
+  .switch { width: 38px; height: 22px; border-radius: 999px; background: var(--card2); border: 1px solid var(--border2); position: relative; cursor: pointer; flex-shrink: 0; }
+  .switch.on { background: linear-gradient(100deg, var(--blue), var(--violet)); }
+  .switch i { position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: left 0.15s; }
+  .switch.on i { left: 18px; }
+
+  /* ── INTEGRATIONS ── */
+  .integration-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; margin-bottom: 18px; }
+  .integration-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+  .integration-head h3 { font-size: 17px; }
+  .integration-desc { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
+  .status-pill { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 700; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border2); color: var(--muted); }
+  .status-pill.on { color: var(--green); border-color: rgba(52,211,153,0.35); background: rgba(52,211,153,0.1); }
+  .swatch-row { display: flex; gap: 8px; margin-top: 4px; }
+  .swatch { width: 30px; height: 30px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; }
+  .swatch.selected { border-color: var(--text); }
+  .seg-row { display: flex; gap: 8px; margin-top: 4px; }
+  .seg-btn { flex: 1; background: var(--card); border: 1px solid var(--border2); border-radius: 9px; padding: 9px; font-size: 12.5px; color: var(--muted); cursor: pointer; text-align: center; }
+  .seg-btn.selected { color: var(--blue); border-color: rgba(126,184,247,0.4); background: rgba(126,184,247,0.08); }
+  .check-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 4px; }
+  .check-pill { display: flex; align-items: center; gap: 7px; background: var(--card); border: 1px solid var(--border2); border-radius: 999px; padding: 7px 13px; font-size: 12.5px; color: var(--muted); cursor: pointer; user-select: none; }
+  .check-pill input { margin: 0; }
+  .check-pill.selected { color: var(--blue); border-color: rgba(126,184,247,0.4); background: rgba(126,184,247,0.08); }
+
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 999px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+
+  @media (max-width: 720px) {
+    .sidebar:not(.collapsed) {
+      position: fixed; inset: 0 auto 0 0; z-index: 40; height: 100vh;
+      box-shadow: 20px 0 50px rgba(0,0,0,0.5);
+    }
+    .topbar { padding: 14px 16px; }
+    .topbar-title { font-size: 18px; }
+    .content { padding: 16px; }
+    .btn { padding: 8px 12px; font-size: 12.5px; }
+  }
+  @media (max-width: 420px) {
+    .btn span.btn-full-label { display: none; }
+    .topbar-actions .btn { padding: 8px 10px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ── SIDEBAR ── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sb-head">
+      <div class="sb-brand">
+        <span class="sb-brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h3l2-5 3 11 3-14 2 8h3"/></svg></span>
+        <span class="sb-brand-label">Daisy Console</span>
+      </div>
+      <button class="sb-toggle" id="sb-toggle" aria-label="Collapse sidebar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg>
+      </button>
+    </div>
+
+    <div class="sb-org">
+      <button class="sb-org-btn">
+        <svg class="sb-org-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 16-9 5-9-5V8l9-5 9 5Z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>
+        Daisy Workspace
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+    </div>
+
+    <div class="sb-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="sb-search-input" placeholder="Search Console...">
+      <kbd>⌘K</kbd>
+    </div>
+
+    <nav class="sb-nav" id="sb-nav">
+      <button class="sb-item" data-route="dashboard">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg>
+        <span class="label">Dashboard</span>
+      </button>
+      <button class="sb-item" data-route="keys">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.5 12.5 8-8M16 7l2 2M18.5 4.5l2 2"/></svg>
+        <span class="label">API keys</span>
+      </button>
+      <button class="sb-item" data-route="playground">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m14.5 3-5 5M9.5 3l5 5M4 21l6.5-6.5M4 21l3-8 12-9 2 2-9 12-8 3Z"/></svg>
+        <span class="label">Playground</span>
+      </button>
+      <button class="sb-item" data-route="integrations">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7A5 5 0 0 1 7 7h2M15 7h2a5 5 0 1 1 0 10h-2M8 12h8"/></svg>
+        <span class="label">Integrations</span>
+      </button>
+      <button class="sb-item" data-route="knowledge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4a3 3 0 0 0-3 3v.2A3 3 0 0 0 7 10v1a3 3 0 0 0-2 2.8v1.4A3 3 0 0 0 7 18v.2a3 3 0 0 0 6 0V4.6A3 3 0 0 0 12 4Z"/><path d="M12 4a3 3 0 0 1 3 3v.2a3 3 0 0 1 2 2.8v1a3 3 0 0 1 2 2.8v1.4a3 3 0 0 1-2 2.8v.2a3 3 0 0 1-6 0"/></svg>
+        <span class="label">Knowledge</span>
+      </button>
+
+      <button class="sb-item" id="analytics-toggle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg>
+        <span class="label">Analytics</span>
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+      </button>
+      <div class="sb-sub" id="analytics-sub">
+        <button data-route="usage">Conversations</button>
+        <button data-route="caching">Caching</button>
+        <button data-route="rate-limits">Rate limits</button>
+        <button data-route="cost">Cost</button>
+        <button data-route="logs">Activity log</button>
+      </div>
+
+      <button class="sb-item" data-route="docs">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+        <span class="label">Docs</span>
+      </button>
+      <button class="sb-item" data-route="settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.6-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.6V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.6 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.6 1Z"/></svg>
+        <span class="label">Settings</span>
+      </button>
+    </nav>
+
+    <div class="sb-foot">
+      <div class="sb-avatar">B</div>
+      <div class="sb-foot-text">
+        <div class="sb-foot-name">Benyi</div>
+        <div class="sb-foot-sub">Daisy Workspace</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ── MAIN ── -->
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-title" id="page-title">Dashboard</div>
+      <div class="topbar-actions">
+        <a class="icon-btn" data-route="docs" title="Documentation">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+        </a>
+        <a class="btn btn-ghost" data-route="keys">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.5 12.5 8-8M16 7l2 2M18.5 4.5l2 2"/></svg>
+          <span class="btn-full-label">Get API key</span>
+        </a>
+        <a class="btn btn-primary" data-route="playground">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m14.5 3-5 5M9.5 3l5 5M4 21l6.5-6.5M4 21l3-8 12-9 2 2-9 12-8 3Z"/></svg>
+          <span class="btn-full-label">Playground</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="content" id="content">
+
+      <!-- DASHBOARD -->
+      <section class="view" data-view="dashboard">
+        <div class="grid-cards">
+          <div class="card">
+            <div class="card-label">Account balance <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4M12 8h.01"/></svg></div>
+            <div class="card-num">UGX 0</div>
+            <a class="card-link" href="#" onclick="return false;">Turn on automatic reload</a>
+            <div class="card-btn-row"><button class="btn btn-ghost" style="padding:7px 13px;font-size:12.5px;">Add funds</button></div>
+          </div>
+          <div class="card">
+            <div class="card-label">Spend this month <span class="pill">0% used</span></div>
+            <div class="card-num">UGX 0</div>
+            <div class="card-sub">of UGX 50,000 limit · resets Sep 1</div>
+          </div>
+          <div class="card">
+            <div class="card-label">Prompt caching</div>
+            <div class="card-num" style="color:var(--muted);">···</div>
+            <div class="card-sub">No cached requests yet</div>
+          </div>
+          <div class="card">
+            <div class="card-label">Request volume <span class="pill">last 7 days</span></div>
+            <div class="card-num">0</div>
+            <div class="card-sub">Generate a key and send your first request to see it here</div>
+          </div>
+        </div>
+
+        <div class="section-title-row">
+          <h2 class="section-title">Models</h2>
+          <a href="#" data-route="playground">Try in playground</a>
+        </div>
+        <div class="model-list">
+          <div class="model-row">
+            <span class="model-name">Beni 2</span>
+            <span class="model-desc">Default. Daisy's draft, rephrased naturally, with web search when a question needs it.</span>
+            <span class="model-tag live">Live</span>
+          </div>
+          <div class="model-row">
+            <span class="model-name">Beni</span>
+            <span class="model-desc">Daisy's own raw dictionary and rule engine, straight back with no rephrasing. Instant.</span>
+            <span class="model-tag live">Live</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- API KEYS -->
+      <section class="view" data-view="keys">
+        <p class="page-sub">Keys authenticate requests to the Daisy API. Keep them out of client side code and version control.</p>
+        <div class="card-btn-row" style="margin-bottom:16px;">
+          <button class="btn btn-primary" id="generate-key-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+            Generate new key
+          </button>
+        </div>
+        <div class="key-table-wrap">
+          <div class="key-table-head">
+            <span>Name</span><span>Key</span><span>Created</span><span>Last used</span><span>Actions</span>
+          </div>
+          <div id="key-list"></div>
+        </div>
+      </section>
+
+      <!-- PLAYGROUND -->
+      <section class="view" data-view="playground">
+        <p class="page-sub">Try Daisy right here, live against the real backend.</p>
+        <div class="pg-wrap">
+          <div class="pg-chat">
+            <div class="pg-log" id="pg-log">
+              <div class="pg-bubble daisy">Ask me anything. I'll answer the way I would in the app.</div>
+            </div>
+            <div class="pg-input-row">
+              <input type="text" id="pg-input" placeholder="Type a message and press enter">
+              <button class="btn btn-primary" id="pg-send">Send</button>
+            </div>
+          </div>
+          <div class="pg-side">
+            <h3>Request settings</h3>
+            <p>These map directly to the parameters your own requests would send.</p>
+            <div class="pg-field-label">Model</div>
+            <select class="pg-select" id="pg-model">
+              <option value="beni2">Beni 2 (natural language, default)</option>
+              <option value="beni">Beni (raw, instant)</option>
+            </select>
+            <div class="toggle-row" style="margin-top:14px;">
+              <div><h4>Allow web search</h4><p>Beni 2 only. Lets Daisy look things up when a question needs it.</p></div>
+              <div class="switch on" id="pg-search-toggle"><i></i></div>
+            </div>
+            <div class="pg-field-label">Instructions</div>
+            <input type="text" class="pg-select" id="pg-instructions" placeholder="e.g. Answer directly, no small talk">
+          </div>
+        </div>
+      </section>
+
+      <!-- INTEGRATIONS -->
+      <section class="view" data-view="integrations">
+        <p class="page-sub">Drop Daisy into a site or workflow without touching the raw API. Everything here is ready to configure now, it starts working the moment the backend is live.</p>
+
+        <div class="integration-card">
+          <div class="integration-head"><h3>Embed widget</h3><span class="status-pill" id="embed-status">Not placed</span></div>
+          <p class="integration-desc">A chat bubble you paste into any site as one script tag.</p>
+
+          <div class="pg-field-label">Accent color</div>
+          <div class="swatch-row" id="embed-colors">
+            <span class="swatch selected" data-color="#7eb8f7" style="background:#7eb8f7;"></span>
+            <span class="swatch" data-color="#a78bfa" style="background:#a78bfa;"></span>
+            <span class="swatch" data-color="#34d399" style="background:#34d399;"></span>
+            <span class="swatch" data-color="#f4f4f8" style="background:#f4f4f8;"></span>
+          </div>
+
+          <div class="pg-field-label">Position</div>
+          <div class="seg-row" id="embed-position">
+            <button class="seg-btn selected" data-pos="bottom-right">Bottom right</button>
+            <button class="seg-btn" data-pos="bottom-left">Bottom left</button>
+          </div>
+
+          <div class="field" style="margin-top:14px;">
+            <label>Greeting message</label>
+            <input type="text" id="embed-greeting" value="Hi, I'm Daisy. Ask me anything.">
+          </div>
+
+          <div class="pg-field-label" style="margin-top:16px;">Your snippet</div>
+          <pre class="code-block"><code id="embed-code"></code></pre>
+          <div class="card-btn-row">
+            <button class="btn btn-primary" id="embed-copy" style="padding:8px 15px;font-size:12.5px;">Copy snippet</button>
+          </div>
+        </div>
+
+        <div class="integration-card">
+          <div class="integration-head"><h3>WhatsApp</h3><span class="status-pill" id="wa-status">Not connected</span></div>
+          <p class="integration-desc">Connect a WhatsApp Business number so people can message Daisy directly.</p>
+          <div class="field">
+            <label>WhatsApp Business number</label>
+            <input type="text" id="wa-number" placeholder="+256 700 000000">
+          </div>
+          <div class="toggle-row" style="margin-top:12px;">
+            <div><h4>Enable WhatsApp replies</h4><p>Daisy answers messages sent to this number once it's saved.</p></div>
+            <div class="switch" id="wa-toggle"><i></i></div>
+          </div>
+          <div class="card-btn-row"><button class="btn btn-primary" id="wa-save" style="padding:8px 15px;font-size:12.5px;">Save number</button></div>
+        </div>
+
+        <div class="integration-card">
+          <div class="integration-head"><h3>Webhooks</h3></div>
+          <p class="integration-desc">Get notified the moment a conversation matches an event you set.</p>
+          <div class="key-table-wrap" style="margin-bottom:14px;">
+            <div class="key-table-head" style="grid-template-columns: 1.6fr 1.6fr 0.8fr;">
+              <span>Endpoint URL</span><span>Events</span><span>Actions</span>
+            </div>
+            <div id="webhook-list"></div>
+          </div>
+          <div class="field" style="margin-bottom:10px;">
+            <label>Endpoint URL</label>
+            <input type="text" id="webhook-url" placeholder="https://yourapp.com/hooks/daisy">
+          </div>
+          <div class="pg-field-label">Trigger on</div>
+          <div class="check-row" id="webhook-events">
+            <label class="check-pill"><input type="checkbox" value="new_conversation">New conversation</label>
+            <label class="check-pill"><input type="checkbox" value="correction_added">Correction added</label>
+            <label class="check-pill"><input type="checkbox" value="low_confidence">Low confidence answer</label>
+          </div>
+          <div class="card-btn-row"><button class="btn btn-primary" id="webhook-add" style="padding:8px 15px;font-size:12.5px;">Add webhook</button></div>
+        </div>
+      </section>
+
+      <!-- KNOWLEDGE (Daisy specific, no Claude equivalent) -->
+      <section class="view" data-view="knowledge">
+        <p class="page-sub">Daisy teaches herself continuously from a growing topic queue. This is what she has learned and where she is still catching up.</p>
+        <div class="grid-cards">
+          <div class="card">
+            <div class="card-label">Topics learned</div>
+            <div class="card-num" id="know-visited">···</div>
+            <div class="card-sub">pulled live from Daisy's status endpoint</div>
+          </div>
+          <div class="card">
+            <div class="card-label">Self teaching cycles</div>
+            <div class="card-num" id="know-cycles">···</div>
+            <div class="card-sub">completed since the server last restarted</div>
+          </div>
+          <div class="card">
+            <div class="card-label">Last learned at</div>
+            <div class="card-num" id="know-last" style="font-size:19px;">···</div>
+            <div class="card-sub">reloads live, no downtime, every 2 minutes</div>
+          </div>
+        </div>
+
+        <div class="section-title-row">
+          <h2 class="section-title">Corrections</h2>
+        </div>
+        <p class="page-sub" style="margin-top:-14px;">When Daisy gets something wrong, teach her the right answer here. Corrections are matched against the exact question next time it's asked.</p>
+
+        <div class="key-table-wrap" style="margin-bottom:16px;">
+          <div class="key-table-head" style="grid-template-columns: 1.3fr 1.3fr 0.8fr;">
+            <span>Question</span><span>Correct answer</span><span>Actions</span>
+          </div>
+          <div id="corrections-list"></div>
+        </div>
+
+        <div class="model-row" style="align-items:flex-end; gap:10px;">
+          <div class="field" style="flex:1; min-width:160px;">
+            <label>Question Daisy got wrong</label>
+            <input type="text" id="corr-question" placeholder="e.g. What is Daisy's launch date?">
+          </div>
+          <div class="field" style="flex:1; min-width:160px;">
+            <label>Correct answer</label>
+            <input type="text" id="corr-answer" placeholder="The answer she should give instead">
+          </div>
+          <button class="btn btn-primary" id="corr-add-btn">Add correction</button>
+        </div>
+      </section>
+
+      <!-- ANALYTICS STUBS -->
+      <section class="view" data-view="usage">
+        <div class="stub-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg><div>No usage yet. This fills in once requests start hitting your key.</div></div>
+      </section>
+      <section class="view" data-view="caching">
+        <div class="stub-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg><div>No cached prompts yet. Repeat requests will start showing token savings here.</div></div>
+      </section>
+      <section class="view" data-view="rate-limits">
+        <div class="stub-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><div>Standard tier. 60 requests a minute per key once the API is live.</div></div>
+      </section>
+      <section class="view" data-view="cost">
+        <div class="stub-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><div>Nothing spent yet. A daily breakdown appears here after your first billed request.</div></div>
+      </section>
+      <section class="view" data-view="logs">
+        <div class="stub-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg><div>Request logs will list here, most recent first, once your key is active.</div></div>
+      </section>
+
+      <!-- DOCS -->
+      <section class="view" data-view="docs">
+        <p class="page-sub">Everything you need to send Daisy her first request.</p>
+        <div class="docs-block">
+          <h3>Quick start</h3>
+          <div class="code-tabs">
+            <button class="code-tab active" data-lang="curl">curl</button>
+            <button class="code-tab" data-lang="python">Python</button>
+            <button class="code-tab" data-lang="node">Node</button>
+          </div>
+          <pre class="code-block"><code id="docs-code-content"></code></pre>
+          <h3>Authentication</h3>
+          <p>Every request needs an Authorization header carrying a key from the API keys page, formatted as a bearer token.</p>
+          <h3>Rate limits</h3>
+          <p>Standard tier keys allow 60 requests a minute. Contact Daisy support if you need a higher limit.</p>
+        </div>
+      </section>
+
+      <!-- SETTINGS -->
+      <section class="view" data-view="settings">
+        <div class="settings-block">
+          <div class="field">
+            <label>Workspace name</label>
+            <input type="text" value="Daisy Workspace">
+          </div>
+          <div class="field">
+            <label>Contact email</label>
+            <input type="text" placeholder="you@example.com">
+          </div>
+          <div class="toggle-row">
+            <div><h4>Email me on spend alerts</h4><p>Get notified when monthly spend crosses 80 percent of your limit.</p></div>
+            <div class="switch on" id="toggle-alerts"><i></i></div>
+          </div>
+          <div class="toggle-row">
+            <div><h4>Automatic reload</h4><p>Top up your balance automatically when it runs low.</p></div>
+            <div class="switch" id="toggle-reload"><i></i></div>
+          </div>
+          <div><button class="btn btn-ghost">Save changes</button></div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── Sidebar collapse ──
+  const sidebar = document.getElementById('sidebar');
+  const sbToggle = document.getElementById('sb-toggle');
+  sbToggle.addEventListener('click', () => sidebar.classList.toggle('collapsed'));
+
+  // ── Analytics submenu ──
+  const analyticsToggle = document.getElementById('analytics-toggle');
+  const analyticsSub = document.getElementById('analytics-sub');
+  analyticsToggle.addEventListener('click', () => {
+    analyticsSub.classList.toggle('open');
+    analyticsToggle.classList.toggle('expanded');
+  });
+
+  // ── Sidebar search filter ──
+  document.getElementById('sb-search-input').addEventListener('input', (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    document.querySelectorAll('#sb-nav > .sb-item[data-route], #sb-nav .sb-sub button').forEach((el) => {
+      const label = el.textContent.trim().toLowerCase();
+      el.style.display = (!q || label.includes(q)) ? '' : 'none';
+    });
+  });
+
+  // ── Routing (hash based, no page reload) ──
+  const pageTitles = {
+    dashboard: 'Dashboard', keys: 'API keys', playground: 'Playground', integrations: 'Integrations',
+    knowledge: 'Knowledge', usage: 'Conversations', caching: 'Caching', 'rate-limits': 'Rate limits',
+    cost: 'Cost', logs: 'Activity log', docs: 'Documentation', settings: 'Settings'
+  };
+  const analyticsRoutes = ['usage', 'caching', 'rate-limits', 'cost', 'logs'];
+
+  function navigate(route) {
+    if (!pageTitles[route]) route = 'dashboard';
+    document.querySelectorAll('.view').forEach((v) => v.classList.toggle('active', v.dataset.view === route));
+    document.querySelectorAll('.sb-item[data-route], .sb-sub button[data-route]').forEach((el) => {
+      el.classList.toggle('active', el.dataset.route === route);
+    });
+    document.getElementById('page-title').textContent = pageTitles[route];
+    if (analyticsRoutes.includes(route)) {
+      analyticsSub.classList.add('open');
+      analyticsToggle.classList.add('expanded');
+    }
+    window.location.hash = route;
+    if (window.innerWidth <= 720) sidebar.classList.add('collapsed');
+  }
+
+  document.querySelectorAll('[data-route]').forEach((el) => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      navigate(el.dataset.route);
+    });
+  });
+
+  window.addEventListener('hashchange', () => navigate(window.location.hash.slice(1)));
+  navigate(window.location.hash.slice(1) || 'dashboard');
+  if (window.innerWidth <= 720) sidebar.classList.add('collapsed');
+
+  // ── API key management (real backend, /api/keys) ──
+  (function () {
+    const keyListEl = document.getElementById('key-list');
+    const generateBtn = document.getElementById('generate-key-btn');
+    let revealedIds = new Set();
+
+    function mask(key) { return key.slice(0, 12) + '••••••••••••••••' + key.slice(-4); }
+    function formatDate(iso) {
+      if (!iso) return 'Never';
+      const d = new Date(iso);
+      return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function render(keys) {
+      if (!keys || keys.length === 0) {
+        keyListEl.innerHTML = '<div class="empty-state">No keys yet. Generate one above to get started.</div>';
+        return;
+      }
+      keyListEl.innerHTML = keys.map((k) => `
+        <div class="key-row2">
+          <span class="kn">${k.name}</span>
+          <span class="kv">${revealedIds.has(k.id) ? k.key_value : mask(k.key_value)}</span>
+          <span>${formatDate(k.created_at)}</span>
+          <span>${formatDate(k.last_used)}</span>
+          <span class="ka">
+            <button class="key-action" data-action="reveal" data-id="${k.id}">${revealedIds.has(k.id) ? 'Hide' : 'Reveal'}</button>
+            <button class="key-action" data-action="copy" data-id="${k.id}" data-key="${k.key_value}">Copy</button>
+            <button class="key-action danger" data-action="revoke" data-id="${k.id}">Revoke</button>
+          </span>
+        </div>
+      `).join('');
+    }
+
+    function load() {
+      fetch('/api/keys').then((r) => r.json()).then(render).catch(() => {
+        keyListEl.innerHTML = '<div class="empty-state">Could not reach Daisy right now.</div>';
+      });
+    }
+
+    generateBtn.addEventListener('click', () => {
+      fetch('/api/keys', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' })
+        .then((r) => r.json())
+        .then((k) => { revealedIds.add(k.id); load(); });
+    });
+
+    keyListEl.addEventListener('click', (e) => {
+      const btn = e.target.closest('.key-action');
+      if (!btn) return;
+      const id = btn.dataset.id;
+      const action = btn.dataset.action;
+      if (action === 'reveal') {
+        revealedIds.has(id) ? revealedIds.delete(id) : revealedIds.add(id);
+        load();
+      } else if (action === 'copy') {
+        navigator.clipboard.writeText(btn.dataset.key).catch(() => {});
+        const original = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(() => { btn.textContent = original; }, 1200);
+      } else if (action === 'revoke') {
+        fetch('/api/keys/' + id, { method: 'DELETE' }).then(load);
+      }
+    });
+
+    load();
+  })();
+
+  // ── Docs code sample tabs ──
+  (function () {
+    const tabs = document.querySelectorAll('.code-tab');
+    const out = document.getElementById('docs-code-content');
+    const samples = {
+      curl: `curl https://daisy-qg1c.onrender.com/api/ask \\
+  -H "Authorization: Bearer YOUR_API_KEY" \\
+  -H "Content-Type: application/json" \\
+  -d '{"question": "Translate hello to Luganda"}'`,
+      python: `import requests
+
+response = requests.post(
+    "https://daisy-qg1c.onrender.com/api/ask",
+    headers={"Authorization": "Bearer YOUR_API_KEY"},
+    json={"question": "Translate hello to Luganda"},
+)
+print(response.json())`,
+      node: `const response = await fetch("https://daisy-qg1c.onrender.com/api/ask", {
+  method: "POST",
+  headers: {
+    Authorization: "Bearer YOUR_API_KEY",
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({ question: "Translate hello to Luganda" })
+});
+const data = await response.json();`
+    };
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        tabs.forEach((t) => t.classList.remove('active'));
+        tab.classList.add('active');
+        out.textContent = samples[tab.dataset.lang];
+      });
+    });
+    out.textContent = samples.curl;
+  })();
+
+  // ── Playground: real streaming chat against /ask ──
+  (function () {
+    const log = document.getElementById('pg-log');
+    const input = document.getElementById('pg-input');
+    const send = document.getElementById('pg-send');
+    const modelSelect = document.getElementById('pg-model');
+    const searchToggle = document.getElementById('pg-search-toggle');
+    const instructionsInput = document.getElementById('pg-instructions');
+    const turnHistory = [];
+
+    searchToggle.addEventListener('click', () => searchToggle.classList.toggle('on'));
+
+    function addBubble(text, who) {
+      const b = document.createElement('div');
+      b.className = 'pg-bubble ' + who;
+      b.textContent = text;
+      log.appendChild(b);
+      log.scrollTop = log.scrollHeight;
+      return b;
+    }
+
+    async function handleSend() {
+      const text = input.value.trim();
+      if (!text) return;
+      addBubble(text, 'user');
+      input.value = '';
+      const thinking = addBubble('Thinking…', 'daisy');
+
+      try {
+        const res = await fetch('/ask', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            question: text,
+            model: modelSelect.value,
+            web_search_enabled: searchToggle.classList.contains('on'),
+            instructions: instructionsInput.value.trim(),
+            history: turnHistory
+          })
+        });
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+        let finalAnswer = null;
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          let lines = buffer.split('\n');
+          buffer = lines.pop();
+          for (const line of lines) {
+            if (!line.trim()) continue;
+            const evt = JSON.parse(line);
+            if (evt.event === 'status' && evt.status) {
+              const labels = { thinking: 'Thinking…', searching: 'Searching the web…' };
+              thinking.textContent = labels[evt.status] || (evt.status + '…');
+            } else if (evt.event === 'final') {
+              finalAnswer = evt.answer || "I couldn't answer that just now.";
+            }
+          }
+        }
+        thinking.textContent = finalAnswer || "I couldn't answer that just now.";
+        turnHistory.push({ user: text, daisy: thinking.textContent });
+      } catch (err) {
+        thinking.textContent = "Couldn't reach Daisy just now. Check that the backend is running.";
+      }
+    }
+
+    send.addEventListener('click', handleSend);
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleSend(); });
+  })();
+
+  // ── Settings toggles ──
+  document.querySelectorAll('.switch').forEach((sw) => {
+    sw.addEventListener('click', () => sw.classList.toggle('on'));
+  });
+
+  // ── Knowledge: live stats + real corrections API ──
+  (function () {
+    const visitedEl = document.getElementById('know-visited');
+    const cyclesEl = document.getElementById('know-cycles');
+    const lastEl = document.getElementById('know-last');
+    fetch('/daisy/status').then((r) => r.json()).then((d) => {
+      visitedEl.textContent = typeof d.words === 'number' ? d.words.toLocaleString() : 'unavailable';
+      cyclesEl.textContent = typeof d.ingest_cycles === 'number' ? d.ingest_cycles.toLocaleString() : 'unavailable';
+      lastEl.textContent = d.last_ingest || 'not yet';
+    }).catch(() => {
+      visitedEl.textContent = 'unavailable';
+      cyclesEl.textContent = 'unavailable';
+      lastEl.textContent = 'unavailable';
+    });
+
+    const list = document.getElementById('corrections-list');
+    const qInput = document.getElementById('corr-question');
+    const aInput = document.getElementById('corr-answer');
+    const addBtn = document.getElementById('corr-add-btn');
+
+    function render(items) {
+      if (!items || items.length === 0) {
+        list.innerHTML = '<div class="empty-state">No corrections yet. Add one below to start teaching Daisy.</div>';
+        return;
+      }
+      list.innerHTML = items.map((it) => `
+        <div class="key-row2" style="grid-template-columns: 1.3fr 1.3fr 0.8fr;">
+          <span>${it.question}</span>
+          <span>${it.answer}</span>
+          <span class="ka"><button class="key-action danger" data-question="${encodeURIComponent(it.question)}">Remove</button></span>
+        </div>
+      `).join('');
+    }
+    function load() {
+      fetch('/api/corrections').then((r) => r.json()).then(render).catch(() => {
+        list.innerHTML = '<div class="empty-state">Could not reach Daisy right now.</div>';
+      });
+    }
+    addBtn.addEventListener('click', () => {
+      const question = qInput.value.trim();
+      const answer = aInput.value.trim();
+      if (!question || !answer) return;
+      fetch('/api/corrections', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, answer })
+      }).then(() => { qInput.value = ''; aInput.value = ''; load(); });
+    });
+    list.addEventListener('click', (e) => {
+      const btn = e.target.closest('.key-action');
+      if (!btn) return;
+      fetch('/api/corrections', {
+        method: 'DELETE', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: decodeURIComponent(btn.dataset.question) })
+      }).then(load);
+    });
+    load();
+  })();
+
+
+  // ── Integrations: embed widget generator ──
+  (function () {
+    const colorsEl = document.getElementById('embed-colors');
+    const posEl = document.getElementById('embed-position');
+    const greetingEl = document.getElementById('embed-greeting');
+    const codeEl = document.getElementById('embed-code');
+    const copyBtn = document.getElementById('embed-copy');
+    const statusEl = document.getElementById('embed-status');
+    if (!colorsEl) return;
+
+    function currentSettings() {
+      const color = colorsEl.querySelector('.swatch.selected').dataset.color;
+      const position = posEl.querySelector('.seg-btn.selected').dataset.pos;
+      const greeting = greetingEl.value.trim() || "Hi, I'm Daisy. Ask me anything.";
+      return { color, position, greeting };
+    }
+    function renderCode(save) {
+      const s = currentSettings();
+      codeEl.textContent = `<script src="https://daisy-qg1c.onrender.com/widget.js"
+  data-color="${s.color}"
+  data-position="${s.position}"
+  data-greeting="${s.greeting}"><\/script>`;
+      statusEl.textContent = 'Configured';
+      statusEl.classList.add('on');
+      if (save) {
+        fetch('/api/integrations/embed', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(s)
+        }).catch(() => {});
+      }
+    }
+
+    colorsEl.querySelectorAll('.swatch').forEach((sw) => {
+      sw.addEventListener('click', () => {
+        colorsEl.querySelectorAll('.swatch').forEach((s) => s.classList.remove('selected'));
+        sw.classList.add('selected');
+        renderCode(true);
+      });
+    });
+    posEl.querySelectorAll('.seg-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        posEl.querySelectorAll('.seg-btn').forEach((b) => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        renderCode(true);
+      });
+    });
+    greetingEl.addEventListener('change', () => renderCode(true));
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(codeEl.textContent).catch(() => {});
+      const original = copyBtn.textContent;
+      copyBtn.textContent = 'Copied';
+      setTimeout(() => { copyBtn.textContent = original; }, 1200);
+    });
+
+    fetch('/api/integrations/embed').then((r) => r.json()).then((saved) => {
+      if (saved.color) colorsEl.querySelectorAll('.swatch').forEach((s) => s.classList.toggle('selected', s.dataset.color === saved.color));
+      if (saved.position) posEl.querySelectorAll('.seg-btn').forEach((b) => b.classList.toggle('selected', b.dataset.pos === saved.position));
+      if (saved.greeting) greetingEl.value = saved.greeting;
+      renderCode(false);
+    }).catch(() => renderCode(false));
+  })();
+
+  // ── Integrations: WhatsApp connector ──
+  (function () {
+    const numberEl = document.getElementById('wa-number');
+    const toggleEl = document.getElementById('wa-toggle');
+    const saveBtn = document.getElementById('wa-save');
+    const statusEl = document.getElementById('wa-status');
+    if (!numberEl) return;
+
+    function refreshStatus() {
+      const connected = !!numberEl.value.trim() && toggleEl.classList.contains('on');
+      statusEl.textContent = connected ? 'Connected' : 'Not connected';
+      statusEl.classList.toggle('on', connected);
+    }
+
+    toggleEl.addEventListener('click', () => {
+      toggleEl.classList.toggle('on');
+      refreshStatus();
+    });
+    saveBtn.addEventListener('click', () => {
+      const payload = { number: numberEl.value.trim(), enabled: toggleEl.classList.contains('on') };
+      fetch('/api/integrations/whatsapp', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(() => {
+        refreshStatus();
+        const original = saveBtn.textContent;
+        saveBtn.textContent = 'Saved';
+        setTimeout(() => { saveBtn.textContent = original; }, 1200);
+      });
+    });
+
+    fetch('/api/integrations/whatsapp').then((r) => r.json()).then((saved) => {
+      if (saved.number) numberEl.value = saved.number;
+      if (saved.enabled) toggleEl.classList.add('on');
+      refreshStatus();
+    }).catch(refreshStatus);
+  })();
+
+  // ── Integrations: webhook manager ──
+  (function () {
+    const listEl = document.getElementById('webhook-list');
+    const urlEl = document.getElementById('webhook-url');
+    const eventsEl = document.getElementById('webhook-events');
+    const addBtn = document.getElementById('webhook-add');
+    if (!listEl) return;
+    const eventLabels = { new_conversation: 'New conversation', correction_added: 'Correction added', low_confidence: 'Low confidence answer' };
+
+    function render(items) {
+      if (!items || items.length === 0) {
+        listEl.innerHTML = '<div class="empty-state">No webhooks yet. Add one below.</div>';
+        return;
+      }
+      listEl.innerHTML = items.map((it) => `
+        <div class="key-row2" style="grid-template-columns: 1.6fr 1.6fr 0.8fr;">
+          <span class="kv">${it.url}</span>
+          <span>${it.events.map((e) => eventLabels[e] || e).join(', ')}</span>
+          <span class="ka"><button class="key-action danger" data-id="${it.id}">Remove</button></span>
+        </div>
+      `).join('');
+    }
+    function load() {
+      fetch('/api/webhooks').then((r) => r.json()).then(render).catch(() => {
+        listEl.innerHTML = '<div class="empty-state">Could not reach Daisy right now.</div>';
+      });
+    }
+
+    eventsEl.querySelectorAll('.check-pill').forEach((pill) => {
+      const box = pill.querySelector('input');
+      pill.addEventListener('click', (e) => {
+        if (e.target !== box) box.checked = !box.checked;
+        pill.classList.toggle('selected', box.checked);
+      });
+    });
+
+    addBtn.addEventListener('click', () => {
+      const url = urlEl.value.trim();
+      const events = Array.from(eventsEl.querySelectorAll('input:checked')).map((b) => b.value);
+      if (!url || events.length === 0) return;
+      fetch('/api/webhooks', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url, events })
+      }).then(() => {
+        urlEl.value = '';
+        eventsEl.querySelectorAll('.check-pill').forEach((p) => { p.classList.remove('selected'); p.querySelector('input').checked = false; });
+        load();
+      });
+    });
+    listEl.addEventListener('click', (e) => {
+      const btn = e.target.closest('.key-action');
+      if (!btn) return;
+      fetch('/api/webhooks/' + btn.dataset.id, { method: 'DELETE' }).then(load);
+    });
+    load();
+  })();
+</script>
+
+</body>
+</html>
