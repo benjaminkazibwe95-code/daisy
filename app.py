@@ -1416,6 +1416,274 @@ init_projects_db()
 
 
 # ============================================================
+# DEVELOPER CONSOLE — backs the /console dashboard: API keys,
+# webhooks, and integration settings (embed widget, WhatsApp).
+# Same lightweight sqlite pattern as the projects DB above, same
+# caveat too: Render wipes local disk on redeploy, so this survives
+# within one deploy but not across deploys until it gets the same
+# GitHub-push persistence treatment as daisy_corrections.json.
+# Corrections themselves reuse the existing save_correction() /
+# _learned_corrections store above — no separate table needed.
+# ============================================================
+CONSOLE_DB_PATH = os.environ.get("DAISY_CONSOLE_DB", os.path.join(os.path.dirname(__file__), "daisy_console.db"))
+_console_db_lock = threading.Lock()
+
+def _console_db():
+    conn = sqlite3.connect(CONSOLE_DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def init_console_db():
+    with _console_db_lock:
+        conn = _console_db()
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS api_keys (
+                id          TEXT PRIMARY KEY,
+                name        TEXT NOT NULL,
+                key_value   TEXT NOT NULL,
+                created_at  TEXT NOT NULL,
+                last_used   TEXT
+            )
+        """)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS webhooks (
+                id          TEXT PRIMARY KEY,
+                url         TEXT NOT NULL,
+                events      TEXT NOT NULL,
+                created_at  TEXT NOT NULL
+            )
+        """)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS embed_settings (
+                id        INTEGER PRIMARY KEY CHECK (id = 1),
+                color     TEXT NOT NULL DEFAULT '#7eb8f7',
+                position  TEXT NOT NULL DEFAULT 'bottom-right',
+                greeting  TEXT NOT NULL DEFAULT "Hi, I'm Daisy. Ask me anything."
+            )
+        """)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS whatsapp_settings (
+                id       INTEGER PRIMARY KEY CHECK (id = 1),
+                number   TEXT NOT NULL DEFAULT '',
+                enabled  INTEGER NOT NULL DEFAULT 0
+            )
+        """)
+        conn.commit()
+        conn.close()
+
+init_console_db()
+
+
+def require_api_key(fn):
+    """Gate a route behind a real console-issued API key, checked
+    against the api_keys table. Deliberately NOT applied to /ask —
+    that stays the app's own open internal chat endpoint exactly as
+    it already works today. This only protects the new /api/ask
+    route meant for outside developers using a generated key."""
+    from functools import wraps
+    @wraps(fn)
+    def wrapper(*args, **kwargs):
+        auth = request.headers.get("Authorization", "")
+        token = auth[7:] if auth.startswith("Bearer ") else ""
+        if not token:
+            return jsonify({"error": "Missing API key. Send it as 'Authorization: Bearer <key>'."}), 401
+        conn = _console_db()
+        row = conn.execute("SELECT id FROM api_keys WHERE key_value = ?", (token,)).fetchone()
+        conn.close()
+        if not row:
+            return jsonify({"error": "Invalid or revoked API key"}), 401
+        with _console_db_lock:
+            conn = _console_db()
+            conn.execute("UPDATE api_keys SET last_used = ? WHERE key_value = ?",
+                         (datetime.utcnow().isoformat(), token))
+            conn.commit()
+            conn.close()
+        return fn(*args, **kwargs)
+    return wrapper
+
+
+@app.route("/console")
+def console_page():
+    """Daisy's developer console — dashboard, API keys, playground,
+    integrations, and knowledge/corrections management."""
+    return render_template("console.html")
+
+
+@app.route("/api/keys", methods=["GET"])
+def list_keys():
+    conn = _console_db()
+    rows = conn.execute(
+        "SELECT id, name, key_value, created_at, last_used FROM api_keys ORDER BY created_at DESC"
+    ).fetchall()
+    conn.close()
+    return jsonify([dict(r) for r in rows])
+
+
+@app.route("/api/keys", methods=["POST"])
+def create_key():
+    data = request.get_json(silent=True) or {}
+    conn_count = _console_db()
+    existing = conn_count.execute("SELECT COUNT(*) AS n FROM api_keys").fetchone()["n"]
+    conn_count.close()
+    name = (data.get("name") or f"Key {existing + 1}").strip()[:60]
+    key_id = uuid.uuid4().hex[:12]
+    key_value = "sk_daisy_" + secrets.token_hex(24)
+    created_at = datetime.utcnow().isoformat()
+    with _console_db_lock:
+        conn = _console_db()
+        conn.execute(
+            "INSERT INTO api_keys (id, name, key_value, created_at, last_used) VALUES (?,?,?,?,?)",
+            (key_id, name, key_value, created_at, None)
+        )
+        conn.commit()
+        conn.close()
+    return jsonify({"id": key_id, "name": name, "key_value": key_value, "created_at": created_at, "last_used": None})
+
+
+@app.route("/api/keys/<key_id>", methods=["DELETE"])
+def revoke_key(key_id):
+    with _console_db_lock:
+        conn = _console_db()
+        conn.execute("DELETE FROM api_keys WHERE id = ?", (key_id,))
+        conn.commit()
+        conn.close()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/corrections", methods=["GET"])
+def list_corrections():
+    with _corrections_lock:
+        items = [{"question": k, "answer": v} for k, v in _learned_corrections.items()]
+    return jsonify(items)
+
+
+@app.route("/api/corrections", methods=["POST"])
+def add_correction_api():
+    """Teach Daisy a correction from the console's Knowledge page —
+    same store /ask already reads from via get_correction()."""
+    data = request.get_json(silent=True) or {}
+    question = (data.get("question") or "").strip()
+    answer = (data.get("answer") or "").strip()
+    if not question or not answer:
+        return jsonify({"error": "Both question and answer are required"}), 400
+    save_correction(question, answer)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/corrections", methods=["DELETE"])
+def delete_correction_api():
+    data = request.get_json(silent=True) or {}
+    question = (data.get("question") or "").strip()
+    key = _normalize_question(question)
+    if not key:
+        return jsonify({"error": "Missing question"}), 400
+    with _corrections_lock:
+        _learned_corrections.pop(key, None)
+        snapshot = dict(_learned_corrections)
+    try:
+        with open(CORRECTIONS_FILE, "w", encoding="utf-8") as f:
+            json.dump(snapshot, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[CORRECTIONS] Failed to persist delete: {e}")
+    _maybe_push_corrections()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/webhooks", methods=["GET"])
+def list_webhooks():
+    conn = _console_db()
+    rows = conn.execute("SELECT id, url, events, created_at FROM webhooks ORDER BY created_at DESC").fetchall()
+    conn.close()
+    return jsonify([
+        {"id": r["id"], "url": r["url"], "events": json.loads(r["events"]), "created_at": r["created_at"]}
+        for r in rows
+    ])
+
+
+@app.route("/api/webhooks", methods=["POST"])
+def add_webhook():
+    data = request.get_json(silent=True) or {}
+    url = (data.get("url") or "").strip()
+    events = data.get("events") or []
+    if not url or not events:
+        return jsonify({"error": "A URL and at least one event are required"}), 400
+    webhook_id = uuid.uuid4().hex[:12]
+    created_at = datetime.utcnow().isoformat()
+    with _console_db_lock:
+        conn = _console_db()
+        conn.execute(
+            "INSERT INTO webhooks (id, url, events, created_at) VALUES (?,?,?,?)",
+            (webhook_id, url, json.dumps(events), created_at)
+        )
+        conn.commit()
+        conn.close()
+    return jsonify({"id": webhook_id, "url": url, "events": events, "created_at": created_at})
+
+
+@app.route("/api/webhooks/<webhook_id>", methods=["DELETE"])
+def delete_webhook(webhook_id):
+    with _console_db_lock:
+        conn = _console_db()
+        conn.execute("DELETE FROM webhooks WHERE id = ?", (webhook_id,))
+        conn.commit()
+        conn.close()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/integrations/embed", methods=["GET"])
+def get_embed_settings():
+    conn = _console_db()
+    row = conn.execute("SELECT color, position, greeting FROM embed_settings WHERE id = 1").fetchone()
+    conn.close()
+    if not row:
+        return jsonify({"color": "#7eb8f7", "position": "bottom-right", "greeting": "Hi, I'm Daisy. Ask me anything."})
+    return jsonify(dict(row))
+
+
+@app.route("/api/integrations/embed", methods=["POST"])
+def save_embed_settings():
+    data = request.get_json(silent=True) or {}
+    color = (data.get("color") or "#7eb8f7").strip()[:20]
+    position = (data.get("position") or "bottom-right").strip()[:20]
+    greeting = (data.get("greeting") or "Hi, I'm Daisy. Ask me anything.").strip()[:200]
+    with _console_db_lock:
+        conn = _console_db()
+        conn.execute("""
+            INSERT INTO embed_settings (id, color, position, greeting) VALUES (1, ?, ?, ?)
+            ON CONFLICT(id) DO UPDATE SET color=excluded.color, position=excluded.position, greeting=excluded.greeting
+        """, (color, position, greeting))
+        conn.commit()
+        conn.close()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/integrations/whatsapp", methods=["GET"])
+def get_whatsapp_settings():
+    conn = _console_db()
+    row = conn.execute("SELECT number, enabled FROM whatsapp_settings WHERE id = 1").fetchone()
+    conn.close()
+    if not row:
+        return jsonify({"number": "", "enabled": False})
+    return jsonify({"number": row["number"], "enabled": bool(row["enabled"])})
+
+
+@app.route("/api/integrations/whatsapp", methods=["POST"])
+def save_whatsapp_settings():
+    data = request.get_json(silent=True) or {}
+    number = (data.get("number") or "").strip()[:32]
+    enabled = bool(data.get("enabled"))
+    with _console_db_lock:
+        conn = _console_db()
+        conn.execute("""
+            INSERT INTO whatsapp_settings (id, number, enabled) VALUES (1, ?, ?)
+            ON CONFLICT(id) DO UPDATE SET number=excluded.number, enabled=excluded.enabled
+        """, (number, int(enabled)))
+        conn.commit()
+        conn.close()
+    return jsonify({"ok": True})
+
+
+# ============================================================
 # PDF EXPORT — turns one of Daisy's answers into a downloadable,
 # nicely formatted PDF. Handles the lightweight markdown Daisy's
 # answers already use (headings, **bold**, *italic*, `code`, bullet
@@ -1981,6 +2249,17 @@ def ask():
             })
 
     return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
+
+
+@app.route("/api/ask", methods=["POST"])
+@require_api_key
+def api_ask():
+    """The real developer-facing endpoint: identical to /ask, but requires
+    a Bearer key generated from the console instead of running open the
+    way the app's own internal chat does. Deliberately just calls ask()
+    directly rather than duplicating its streaming logic — same request
+    context, same behavior, one source of truth for the actual answering."""
+    return ask()
 
 
 @app.route("/reload", methods=["POST"])
