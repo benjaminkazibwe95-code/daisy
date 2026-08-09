@@ -881,7 +881,9 @@
       display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
       font-size: 15px;
+      color: var(--daisy);
     }
+    .quick-icon svg { width: 16px; height: 16px; }
 
     /* ── INPUT BAR ── */
     #input-area {
@@ -1326,6 +1328,7 @@
       line-height: 1;
     }
     .drawer-mini-btn:hover { background: var(--card); color: var(--daisy); }
+    .drawer-mini-btn svg { width: 14px; height: 14px; }
 
     .drawer-item {
       display: flex;
@@ -1344,7 +1347,8 @@
       transition: background 0.15s;
     }
     .drawer-item:hover { background: var(--card); }
-    .drawer-item .d-icon { font-size: 15px; width: 20px; text-align: center; flex-shrink: 0; }
+    .drawer-item .d-icon { font-size: 15px; width: 20px; text-align: center; flex-shrink: 0; color: var(--daisy); display: inline-flex; align-items: center; justify-content: center; }
+    .drawer-item .d-icon svg { width: 16px; height: 16px; }
     .drawer-item .item-text {
       overflow: hidden;
       text-overflow: ellipsis;
@@ -1366,6 +1370,7 @@
       flex-shrink: 0;
     }
     .project-share-btn:hover { background: var(--card); color: var(--daisy); }
+    .project-share-btn svg { width: 15px; height: 15px; }
     .project-sublist { padding-left: 6px; margin-bottom: 4px; }
 
     .drawer-empty {
@@ -1485,7 +1490,8 @@
     .settings-row.disabled { cursor: default; opacity: 0.55; }
     .settings-row-btn:hover { background: var(--card); }
     .settings-row.danger .s-row-title { color: var(--live); }
-    .s-icon { font-size: 17px; width: 20px; text-align: center; flex-shrink: 0; }
+    .s-icon { font-size: 17px; width: 20px; text-align: center; flex-shrink: 0; color: var(--daisy); display: inline-flex; align-items: center; justify-content: center; }
+    .s-icon svg { width: 17px; height: 17px; }
     .s-row-text { flex: 1; min-width: 0; }
     .s-row-title { font-size: 14px; color: var(--text); }
     .s-row-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
@@ -1897,13 +1903,13 @@
     <div id="quick-starts">
       <p>Ask Daisy</p>
       <button class="quick-item" data-quick="Help me with my homework">
-        <span class="quick-icon">🧠</span> Homework
+        <span class="quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A3.5 3.5 0 0 0 6 5.5V6A3 3 0 0 0 3 9v1a3 3 0 0 0 1 2.24V13A3.5 3.5 0 0 0 7.5 16.5 2.5 2.5 0 0 0 10 19"/><path d="M14.5 2A3.5 3.5 0 0 1 18 5.5V6a3 3 0 0 1 3 3v1a3 3 0 0 1-1 2.24V13a3.5 3.5 0 0 1-3.5 3.5A2.5 2.5 0 0 1 14 19"/><line x1="12" y1="3" x2="12" y2="19"/></svg></span> Homework
       </button>
       <button class="quick-item" data-quick="Help me start a business">
-        <span class="quick-icon">🚀</span> Start a Business
+        <span class="quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 19 2c0 2.52-.6 6.6-4 9a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></span> Start a Business
       </button>
       <button class="quick-item" id="quick-image-btn">
-        <span class="quick-icon">📸</span> Analyze Images
+        <span class="quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span> Analyze Images
       </button>
     </div>
 
@@ -1997,7 +2003,7 @@
       <div class="drawer-section-head">
         <span class="drawer-section-label">Projects</span>
         <div class="drawer-section-actions">
-          <button class="drawer-mini-btn" id="join-project-btn" title="Join a shared project">🔗</button>
+          <button class="drawer-mini-btn" id="join-project-btn" title="Join a shared project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button>
           <button class="drawer-mini-btn" id="new-project-btn" title="New project">+</button>
         </div>
       </div>
@@ -2016,8 +2022,8 @@
     <div class="drawer-section-head">
       <span class="drawer-section-label">Daisy</span>
     </div>
-    <button class="drawer-item" id="drawer-stats-btn"><span class="d-icon">📊</span><span class="item-text">Knowledge Stats</span></button>
-    <button class="drawer-item" id="drawer-settings-btn"><span class="d-icon">⚙️</span><span class="item-text">Settings</span></button>
+    <button class="drawer-item" id="drawer-stats-btn"><span class="d-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span><span class="item-text">Knowledge Stats</span></button>
+    <button class="drawer-item" id="drawer-settings-btn"><span class="d-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span><span class="item-text">Settings</span></button>
   </div>
 
   <div class="drawer-footer">
@@ -2059,7 +2065,7 @@
     <div class="settings-section-label">Appearance</div>
     <div class="settings-group">
       <button class="settings-row settings-row-btn" id="theme-row">
-        <span class="s-icon">☀️</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Theme</div><div class="s-row-sub" id="theme-value">System</div></div>
         <span class="s-chevron">▾</span>
       </button>
@@ -2069,7 +2075,7 @@
         <button class="settings-option" data-theme-choice="dark">Dark</button>
       </div>
       <button class="settings-row settings-row-btn" id="accent-row">
-        <span class="s-icon">🎨</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Accent color</div><div class="s-row-sub" id="accent-value">Default</div></div>
         <span class="s-chevron">▾</span>
       </button>
@@ -2085,7 +2091,7 @@
     <div class="settings-section-label">Model</div>
     <div class="settings-group">
       <button class="settings-row settings-row-btn" id="model-row">
-        <span class="s-icon">🧠</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A3.5 3.5 0 0 0 6 5.5V6A3 3 0 0 0 3 9v1a3 3 0 0 0 1 2.24V13A3.5 3.5 0 0 0 7.5 16.5 2.5 2.5 0 0 0 10 19"/><path d="M14.5 2A3.5 3.5 0 0 1 18 5.5V6a3 3 0 0 1 3 3v1a3 3 0 0 1-1 2.24V13a3.5 3.5 0 0 1-3.5 3.5A2.5 2.5 0 0 1 14 19"/><line x1="12" y1="3" x2="12" y2="19"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Response model</div><div class="s-row-sub" id="model-value">Beni 2</div></div>
         <span class="s-chevron">▾</span>
       </button>
@@ -2102,7 +2108,7 @@
     <div class="settings-section-label">Voice</div>
     <div class="settings-group">
       <div class="settings-row">
-        <span class="s-icon">🔊</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></span>
         <div class="s-row-text">
           <div class="s-row-title">Read answers aloud(speak)</div>
           <div class="s-row-sub">Daisy speaks every reply automatically</div>
@@ -2117,7 +2123,7 @@
     <div class="settings-section-label">Web search</div>
     <div class="settings-group">
       <div class="settings-row">
-        <span class="s-icon">🌐</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
         <div class="s-row-text">
           <div class="s-row-title">Search the internet</div>
           <div class="s-row-sub">Daisy checks live when a question needs today's info, news, prices, scores, anything time-sensitive</div>
@@ -2132,15 +2138,15 @@
     <div class="settings-section-label">Data controls</div>
     <div class="settings-group">
       <button class="settings-row settings-row-btn" id="export-data-btn">
-        <span class="s-icon">⬇️</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Export my data</div><div class="s-row-sub">Download your profile, recents & projects list</div></div>
       </button>
       <button class="settings-row settings-row-btn danger" id="clear-data-btn">
-        <span class="s-icon">🗑️</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Clear chat history</div><div class="s-row-sub">Removes Recents from this device only</div></div>
       </button>
       <button class="settings-row settings-row-btn danger" id="clear-memory-btn">
-        <span class="s-icon">🧠</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A3.5 3.5 0 0 0 6 5.5V6A3 3 0 0 0 3 9v1a3 3 0 0 0 1 2.24V13A3.5 3.5 0 0 0 7.5 16.5 2.5 2.5 0 0 0 10 19"/><path d="M14.5 2A3.5 3.5 0 0 1 18 5.5V6a3 3 0 0 1 3 3v1a3 3 0 0 1-1 2.24V13a3.5 3.5 0 0 1-3.5 3.5A2.5 2.5 0 0 1 14 19"/><line x1="12" y1="3" x2="12" y2="19"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Clear what Daisy remembers</div><div class="s-row-sub">Forgets personal facts she's picked up on this device</div></div>
       </button>
     </div>
@@ -2148,7 +2154,7 @@
     <div class="settings-section-label">Security</div>
     <div class="settings-group">
       <div class="settings-row disabled">
-        <span class="s-icon">🔒</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Sign-in & account security</div><div class="s-row-sub">Coming once Daisy accounts launch</div></div>
       </div>
     </div>
@@ -2156,25 +2162,25 @@
     <div class="settings-section-label">Daisy</div>
     <div class="settings-group">
       <button class="settings-row settings-row-btn" id="settings-install-btn">
-        <span class="s-icon">⬇️</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Install Daisy</div><div class="s-row-sub" id="settings-install-sub">Add Daisy to your home screen, like an app</div></div>
       </button>
       <button class="settings-row settings-row-btn" id="settings-persona-btn">
-        <span class="s-icon">🌼</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.3" fill="currentColor" stroke="none"/><circle cx="12" cy="4.5" r="2.3"/><circle cx="12" cy="19.5" r="2.3"/><circle cx="4.5" cy="12" r="2.3"/><circle cx="19.5" cy="12" r="2.3"/><circle cx="7.4" cy="7.4" r="2.3"/><circle cx="16.6" cy="16.6" r="2.3"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Personalize Daisy</div><div class="s-row-sub">Tell Daisy who to be for you</div></div>
         <span class="s-chevron">›</span>
       </button>
       <button class="settings-row settings-row-btn" id="settings-stats-btn">
-        <span class="s-icon">📊</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Knowledge stats</div></div>
         <span class="s-chevron">›</span>
       </button>
       <button class="settings-row settings-row-btn" id="settings-report-btn">
-        <span class="s-icon">🐞</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="6" width="8" height="14" rx="4"/><path d="M12 6V2M9 4l1.5 2M15 4l-1.5 2M2 12h6M16 12h6M3 8l4 2M21 8l-4 2M3 18l4-2M21 18l-4-2"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Report a bug</div></div>
       </button>
       <div class="settings-row">
-        <span class="s-icon">ℹ️</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">About</div><div class="s-row-sub">Powered by TrustedBiz · benjamin.k</div></div>
       </div>
     </div>
@@ -2233,7 +2239,7 @@
     <div class="settings-section-label">Last ingestion</div>
     <div class="settings-group">
       <div class="settings-row">
-        <span class="s-icon">🕐</span>
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
         <div class="s-row-text"><div class="s-row-title" id="stats-last-ingest">—</div></div>
       </div>
     </div>
@@ -4343,7 +4349,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function showMicError(e) {
     let msg = "Couldn't access your microphone.";
     if (e && (e.name === 'NotAllowedError' || e.name === 'PermissionDeniedError')) {
-      msg = "Microphone access is blocked. Tap the 🔒 or ⓘ icon next to the address bar, allow Microphone, then try again.";
+      msg = "Microphone access is blocked. Tap the padlock or info icon next to the address bar, allow Microphone, then try again.";
     } else if (e && e.name === 'NotFoundError') {
       msg = "No microphone found on this device.";
     } else if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
@@ -4570,7 +4576,7 @@ document.addEventListener('DOMContentLoaded', function() {
       activeProjects.unshift(proj);
       saveProjectsList();
       renderSidebarLists();
-      alert(`"${proj.name}" created.\nShare code: ${proj.share_code}\n\nAnyone who enters this code (Projects → 🔗) can join and work in it from any device.`);
+      alert(`"${proj.name}" created.\nShare code: ${proj.share_code}\n\nAnyone who enters this code (Projects → the link icon) can join and work in it from any device.`);
     } catch(e) {
       alert("Couldn't create the project — check your connection.");
     }
@@ -4602,7 +4608,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const projList = document.getElementById('projects-list');
     projList.innerHTML = '';
     if (!activeProjects.length) {
-      projList.innerHTML = '<div class="drawer-empty">No projects yet — tap + to start one, or 🔗 to join one someone shared with you.</div>';
+      projList.innerHTML = '<div class="drawer-empty">No projects yet — tap + to start one, or the link icon to join one someone shared with you.</div>';
     } else {
       activeProjects.forEach(proj => {
         const row = document.createElement('div');
@@ -4610,12 +4616,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const openBtn = document.createElement('button');
         openBtn.className = 'drawer-item';
-        openBtn.innerHTML = `<span class="d-icon">📁</span><span class="item-text">${escapeHtml(proj.name)}</span>`;
+        openBtn.innerHTML = `<span class="d-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span><span class="item-text">${escapeHtml(proj.name)}</span>`;
 
         const shareBtn = document.createElement('button');
         shareBtn.className = 'project-share-btn';
         shareBtn.title = `Share code: ${proj.share_code}`;
-        shareBtn.textContent = '🔗';
+        shareBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
         shareBtn.onclick = (e) => {
           e.stopPropagation();
           const msg = `Share code for "${proj.name}": ${proj.share_code}`;
@@ -4658,7 +4664,7 @@ document.addEventListener('DOMContentLoaded', function() {
             (data.chats || []).forEach(c => {
               const cBtn = document.createElement('button');
               cBtn.className = 'drawer-item sub-item';
-              cBtn.innerHTML = `<span class="d-icon">💬</span><span class="item-text">${escapeHtml(c.title || 'Untitled')}</span>`;
+              cBtn.innerHTML = `<span class="d-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span><span class="item-text">${escapeHtml(c.title || 'Untitled')}</span>`;
               cBtn.onclick = async () => {
                 try {
                   const r2 = await fetch(`/api/projects/${proj.id}/chats/${c.id}`);
@@ -4689,7 +4695,7 @@ document.addEventListener('DOMContentLoaded', function() {
       recents.slice(0, 20).forEach(c => {
         const btn = document.createElement('button');
         btn.className = 'drawer-item';
-        btn.innerHTML = `<span class="d-icon">💬</span><span class="item-text">${escapeHtml(c.title || 'New chat')}</span>`;
+        btn.innerHTML = `<span class="d-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span><span class="item-text">${escapeHtml(c.title || 'New chat')}</span>`;
         btn.onclick = () => openChat(c, null);
         recList.appendChild(btn);
       });
@@ -4702,7 +4708,7 @@ document.addEventListener('DOMContentLoaded', function() {
   } catch(err) {
     // If anything crashes on load, show a visible error so we can debug
     console.error('Daisy init error:', err);
-    document.body.innerHTML = '<div style="color:#f0f0f0;background:#2b2b2b;height:100vh;display:flex;align-items:center;justify-content:center;font-family:sans-serif;padding:24px;text-align:center;flex-direction:column;gap:12px"><div style="font-size:24px">⚠️</div><div>Daisy failed to load</div><div style="font-size:12px;color:#888">' + err.message + '</div></div>';
+    document.body.innerHTML = '<div style="color:#f0f0f0;background:#2b2b2b;height:100vh;display:flex;align-items:center;justify-content:center;font-family:sans-serif;padding:24px;text-align:center;flex-direction:column;gap:12px"><div style="width:28px;height:28px;color:#f87171;margin:0 auto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><div>Daisy failed to load</div><div style="font-size:12px;color:#888">' + err.message + '</div></div>';
   }
 }); // end DOMContentLoaded
 </script>
