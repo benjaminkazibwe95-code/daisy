@@ -70104,6 +70104,12 @@ const FLAT_DICT = {
   // === INGESTED 2026-08-07 02:19 ===
   demyelination: "A process characterized by the gradual loss of the myelin sheath enveloping nerve fibers",
 
+  // === INGESTED 2026-08-09 00:39 ===
+  examples_of_the: "Of transport include automobile, airplane, ship, truck, and train",
+  governments_regulate_the_way_the_vehicles: { definition: "Operated, and the procedures set for this purpose, including financing, legalities, and policies", what_it_does: "", examples: "privately owned cars and government-owned urban transport in cities" },
+  an_aerostat: "A class of lighter-than-air aircraft that gains its lift by containing a volume of gas that has a lower density than the surrounding atmosphere",
+  spaceflight: "Transport outside Earth's atmosphere by means of a spacecraft",
+
 };
 
 // ============================================================
