@@ -70110,6 +70110,9 @@ const FLAT_DICT = {
   an_aerostat: "A class of lighter-than-air aircraft that gains its lift by containing a volume of gas that has a lower density than the surrounding atmosphere",
   spaceflight: "Transport outside Earth's atmosphere by means of a spacecraft",
 
+  // === INGESTED 2026-08-09 18:47 ===
+  datares: { definition: "Often built in places already suffering from water deficit", what_it_does: "", examples: "AI deployment has already led to an increase in water scarcity in Mexico and Uruguay" },
+
 };
 
 // ============================================================
