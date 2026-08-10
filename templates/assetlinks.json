@@ -1,8 +1,10 @@
 [{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.trustedbiz.daisy",
-        "sha256_cert_fingerprints": ["46:D0:B5:16:58:3A:38:8E:40:7A:11:47:DA:F9:ED:A5:2C:13:83:96:7F:D5:76:45:DB:FD:4C:6A:9B:F3:19:04"]
-      }
-    }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ug.co.daisy.app",
+    "sha256_cert_fingerprints": [
+      "6E:4E:C9:D0:2E:52:FD:36:1A:10:4B:6D:64:B5:19:67:30:24:D9:4F:C8:83:ED:CF:EF:F3:C9:DC:E8:60:C8:70"
+    ]
+  }
+}]
