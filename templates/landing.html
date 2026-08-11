@@ -636,6 +636,28 @@
 
     function mask(key) { return key.slice(0, 12) + '••••••••••••••••' + key.slice(-4); }
 
+    // This widget is a public marketing preview — anyone visiting the
+    // landing page can try it with no account. It's explicitly local-only
+    // (the copy above says so: "Keys generated here live only in this
+    // browser"), so it never touches the real /api/keys endpoint, which
+    // now requires a signed-in account for the actual console. Kept
+    // entirely in localStorage on purpose — this can't break again just
+    // because the real console's auth changes.
+    const PREVIEW_KEYS_STORAGE = 'daisy_preview_keys';
+
+    function loadPreviewKeys() {
+      try { return JSON.parse(localStorage.getItem(PREVIEW_KEYS_STORAGE) || '[]'); }
+      catch (e) { return []; }
+    }
+    function savePreviewKeys(keys) {
+      localStorage.setItem(PREVIEW_KEYS_STORAGE, JSON.stringify(keys));
+    }
+    function makePreviewKey() {
+      const rand = Array.from(crypto.getRandomValues(new Uint8Array(24)))
+        .map((b) => b.toString(16).padStart(2, '0')).join('');
+      return 'dsy_preview_' + rand;
+    }
+
     const samples = {
       curl: (key) => `curl https://daisy-qg1c.onrender.com/api/ask \\
   -H "Authorization: Bearer ${key || 'YOUR_API_KEY'}" \\
@@ -692,15 +714,20 @@ const data = await response.json();`
     }
 
     function load() {
-      fetch('/api/keys').then((r) => r.json()).then(renderKeys).catch(() => {
-        keyListEl.innerHTML = '<div class="empty-state">Could not reach Daisy right now.</div>';
-      });
+      renderKeys(loadPreviewKeys());
     }
 
     generateBtn.addEventListener('click', () => {
-      fetch('/api/keys', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' })
-        .then((r) => r.json())
-        .then((k) => { revealedIds.add(k.id); load(); });
+      const keys = loadPreviewKeys();
+      const k = {
+        id: 'k_' + Date.now().toString(36),
+        name: 'Preview key ' + (keys.length + 1),
+        key_value: makePreviewKey(),
+      };
+      keys.push(k);
+      savePreviewKeys(keys);
+      revealedIds.add(k.id);
+      load();
     });
 
     keyListEl.addEventListener('click', (e) => {
@@ -717,7 +744,8 @@ const data = await response.json();`
         btn.textContent = 'Copied';
         setTimeout(() => { btn.textContent = original; }, 1200);
       } else if (action === 'revoke') {
-        fetch('/api/keys/' + id, { method: 'DELETE' }).then(load);
+        savePreviewKeys(loadPreviewKeys().filter((k) => k.id !== id));
+        load();
       }
     });
 
