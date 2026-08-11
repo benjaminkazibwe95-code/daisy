@@ -858,6 +858,12 @@ USERS_DB_PATH = os.environ.get(
     "DAISY_USERS_DB", os.path.join(os.path.dirname(__file__), "daisy_users.db")
 )
 GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", "")
+# Frozen for now, per your call — flip DAISY_REQUIRE_ACCOUNT=true in
+# Render's env vars once daisy.com is live, no code change needed.
+# Off: guests can use the app with no account, same as today.
+# On: opening "/" requires being signed in (console already always
+# has, regardless of this flag).
+REQUIRE_ACCOUNT = os.environ.get("DAISY_REQUIRE_ACCOUNT", "false").strip().lower() == "true"
 _users_db_lock = threading.Lock()
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
@@ -2110,7 +2116,10 @@ def build_pdf(title, content):
 
 @app.route("/")
 def index():
-    """Serve Daisy's face."""
+    """Serve Daisy's face. Guests are welcome unless DAISY_REQUIRE_ACCOUNT
+    is turned on (frozen off for now — see the note by REQUIRE_ACCOUNT)."""
+    if REQUIRE_ACCOUNT and not current_user():
+        return redirect("/login?next=/")
     return render_template("index.html")
 
 
