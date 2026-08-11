@@ -26,6 +26,24 @@
     --sidebar-w: 250px;
     --sidebar-w-collapsed: 58px;
   }
+  /* ── follows the phone's system light/dark setting, same colors
+       the app itself uses ── */
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg:      #ffffff;
+      --surface: #f7f7f5;
+      --card:    #f0f0ee;
+      --card2:   #e9e9e6;
+      --border:  #dcdcd8;
+      --border2: #c9c9c4;
+      --text:    #17171a;
+      --muted:   #67676c;
+      --blue:    #1f6fd6;
+      --violet:  #7c3aed;
+      --green:   #16a34a;
+      --red:     #dc2626;
+    }
+  }
   * { box-sizing: border-box; }
   html, body { height: 100%; }
   body {
@@ -113,7 +131,7 @@
   .btn-primary:hover { background: #fff; }
   .btn-ghost { background: var(--card2); border-color: var(--border2); color: var(--text); }
   .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
-  .btn-accent { background: linear-gradient(100deg, var(--blue), var(--violet)); color: #0a0a10; }
+  .btn-accent { background: var(--blue); color: #0a0a10; }
 
   .content { flex: 1; overflow-y: auto; overflow-x: hidden; padding: 26px; }
   .view { display: none; }
@@ -174,7 +192,7 @@
   .pg-log { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
   .pg-bubble { max-width: 80%; padding: 10px 14px; border-radius: 13px; font-size: 13.5px; line-height: 1.5; }
   .pg-bubble.user { align-self: flex-end; background: var(--card2); border: 1px solid var(--border); }
-  .pg-bubble.daisy { align-self: flex-start; background: linear-gradient(135deg, rgba(126,184,247,0.13), rgba(167,139,250,0.13)); border: 1px solid rgba(126,184,247,0.25); }
+  .pg-bubble.daisy { align-self: flex-start; background: rgba(126,184,247,0.11); border: 1px solid rgba(126,184,247,0.25); }
   .pg-input-row { display: flex; gap: 8px; padding: 14px; border-top: 1px solid var(--border); }
   .pg-input-row input { flex: 1; background: var(--card); border: 1px solid var(--border2); border-radius: 9px; padding: 10px 13px; color: var(--text); font-size: 13.5px; }
   .pg-side { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; }
@@ -206,7 +224,7 @@
   .toggle-row div h4 { font-size: 13.5px; margin: 0 0 3px; font-weight: 600; }
   .toggle-row div p { font-size: 12px; color: var(--muted); margin: 0; }
   .switch { width: 38px; height: 22px; border-radius: 999px; background: var(--card2); border: 1px solid var(--border2); position: relative; cursor: pointer; flex-shrink: 0; }
-  .switch.on { background: linear-gradient(100deg, var(--blue), var(--violet)); }
+  .switch.on { background: var(--blue); }
   .switch i { position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: left 0.15s; }
   .switch.on i { left: 18px; }
 
@@ -481,17 +499,33 @@
         </div>
 
         <div class="integration-card">
-          <div class="integration-head"><h3>WhatsApp</h3><span class="status-pill" id="wa-status">Not connected</span></div>
-          <p class="integration-desc">Connect a WhatsApp Business number so people can message Daisy directly.</p>
-          <div class="field">
-            <label>WhatsApp Business number</label>
-            <input type="text" id="wa-number" placeholder="+256 700 000000">
+          <div class="integration-head"><h3>WhatsApp</h3><span class="status-pill" id="wa-status">Checking…</span></div>
+          <p class="integration-desc">People message your WhatsApp Business number and Daisy answers, same brain as the app.</p>
+
+          <div class="pg-field-label">Webhook URL</div>
+          <pre class="code-block" style="margin-bottom:10px;"><code id="wa-webhook-url">…</code></pre>
+          <div class="card-btn-row" style="margin-bottom:16px;">
+            <button class="btn btn-ghost" id="wa-copy-url" style="padding:8px 15px;font-size:12.5px;">Copy webhook URL</button>
           </div>
-          <div class="toggle-row" style="margin-top:12px;">
-            <div><h4>Enable WhatsApp replies</h4><p>Daisy answers messages sent to this number once it's saved.</p></div>
-            <div class="switch" id="wa-toggle"><i></i></div>
+
+          <p class="integration-desc" style="margin-bottom:8px;">Paste that into your WhatsApp app's webhook settings in Meta's Business dashboard, then set these on the server as environment variables (never typed in here — they're real credentials from Meta, not something a form should hold):</p>
+          <div class="key-table-wrap">
+            <div class="key-table-head" style="grid-template-columns: 1.4fr 2fr 0.7fr;">
+              <span>Variable</span><span>What it's for</span><span>Status</span>
+            </div>
+            <div class="key-row2" style="grid-template-columns: 1.4fr 2fr 0.7fr;">
+              <span class="kv">WHATSAPP_ACCESS_TOKEN</span><span>Permanent System User token</span><span id="wa-check-token">—</span>
+            </div>
+            <div class="key-row2" style="grid-template-columns: 1.4fr 2fr 0.7fr;">
+              <span class="kv">WHATSAPP_PHONE_NUMBER_ID</span><span>Your WABA phone number's ID</span><span id="wa-check-phone">—</span>
+            </div>
+            <div class="key-row2" style="grid-template-columns: 1.4fr 2fr 0.7fr;">
+              <span class="kv">WHATSAPP_VERIFY_TOKEN</span><span>A string you invent, entered in Meta's webhook setup</span><span id="wa-check-verify">—</span>
+            </div>
+            <div class="key-row2" style="grid-template-columns: 1.4fr 2fr 0.7fr;">
+              <span class="kv">WHATSAPP_APP_SECRET</span><span>Checks each incoming message is really from Meta</span><span id="wa-check-secret">—</span>
+            </div>
           </div>
-          <div class="card-btn-row"><button class="btn btn-primary" id="wa-save" style="padding:8px 15px;font-size:12.5px;">Save number</button></div>
         </div>
 
         <div class="integration-card">
@@ -983,42 +1017,40 @@ const data = await response.json();`
     }).catch(() => renderCode(false));
   })();
 
-  // ── Integrations: WhatsApp connector ──
+  // ── Integrations: WhatsApp status ──
   (function () {
-    const numberEl = document.getElementById('wa-number');
-    const toggleEl = document.getElementById('wa-toggle');
-    const saveBtn = document.getElementById('wa-save');
     const statusEl = document.getElementById('wa-status');
-    if (!numberEl) return;
+    const urlEl = document.getElementById('wa-webhook-url');
+    const copyBtn = document.getElementById('wa-copy-url');
+    const tokenEl = document.getElementById('wa-check-token');
+    const phoneEl = document.getElementById('wa-check-phone');
+    const verifyEl = document.getElementById('wa-check-verify');
+    const secretEl = document.getElementById('wa-check-secret');
+    if (!statusEl) return;
 
-    function refreshStatus() {
-      const connected = !!numberEl.value.trim() && toggleEl.classList.contains('on');
-      statusEl.textContent = connected ? 'Connected' : 'Not connected';
-      statusEl.classList.toggle('on', connected);
+    function pill(el, ok) {
+      el.textContent = ok ? 'Set' : 'Missing';
+      el.style.color = ok ? 'var(--green)' : 'var(--muted)';
     }
 
-    toggleEl.addEventListener('click', () => {
-      toggleEl.classList.toggle('on');
-      refreshStatus();
-    });
-    saveBtn.addEventListener('click', () => {
-      const payload = { number: numberEl.value.trim(), enabled: toggleEl.classList.contains('on') };
-      fetch('/api/integrations/whatsapp', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      }).then(() => {
-        refreshStatus();
-        const original = saveBtn.textContent;
-        saveBtn.textContent = 'Saved';
-        setTimeout(() => { saveBtn.textContent = original; }, 1200);
-      });
+    fetch('/api/integrations/whatsapp').then((r) => r.json()).then((data) => {
+      urlEl.textContent = data.webhook_url || '';
+      statusEl.textContent = data.configured ? 'Connected' : 'Not connected';
+      statusEl.classList.toggle('on', !!data.configured);
+      pill(tokenEl, data.configured);
+      pill(phoneEl, data.configured);
+      pill(verifyEl, data.verify_token_set);
+      pill(secretEl, data.signature_check_set);
+    }).catch(() => {
+      statusEl.textContent = 'Could not check';
     });
 
-    fetch('/api/integrations/whatsapp').then((r) => r.json()).then((saved) => {
-      if (saved.number) numberEl.value = saved.number;
-      if (saved.enabled) toggleEl.classList.add('on');
-      refreshStatus();
-    }).catch(refreshStatus);
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(urlEl.textContent).catch(() => {});
+      const original = copyBtn.textContent;
+      copyBtn.textContent = 'Copied';
+      setTimeout(() => { copyBtn.textContent = original; }, 1200);
+    });
   })();
 
   // ── Integrations: webhook manager ──

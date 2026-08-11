@@ -4,7 +4,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Sign in · Daisy</title>
-<meta name="theme-color" content="#0a0a10" />
+<meta name="theme-color" content="#0a0a10" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
 <link rel="icon" href="/icons/favicon-32.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
@@ -22,6 +23,23 @@
     --violet:  #a78bfa;
     --red:     #f87171;
     --radius:  16px;
+  }
+  /* ── follows the phone's system light/dark setting, same colors
+       the app itself uses, so this page never looks like a
+       different product from the one it signs you into ── */
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:      #ffffff;
+      --surface: #f7f7f5;
+      --card:    #f0f0ee;
+      --border:  #dcdcd8;
+      --border2: #c9c9c4;
+      --text:    #17171a;
+      --muted:   #67676c;
+      --blue:    #1f6fd6;
+      --violet:  #7c3aed;
+      --red:     #dc2626;
+    }
   }
   *{ box-sizing:border-box; }
   html,body{
@@ -90,8 +108,7 @@
   }
   h1 em{
     font-style:italic;
-    background:linear-gradient(100deg, var(--blue), var(--violet));
-    -webkit-background-clip:text; background-clip:text; color:transparent;
+    color:var(--blue);
   }
   .sub{
     text-align:center; color:var(--muted); font-size:14.5px;
@@ -144,7 +161,7 @@
 
   .submit-btn{
     width:100%; padding:12.5px 16px; border-radius:11px; border:none;
-    background:linear-gradient(100deg, var(--blue), var(--violet));
+    background:var(--blue);
     color:#0a0a10; font-weight:600; font-size:14.5px; font-family:'Inter',sans-serif;
     cursor:pointer; margin-top:4px;
     transition:opacity .12s ease, transform .12s ease;

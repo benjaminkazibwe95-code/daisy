@@ -39,6 +39,23 @@
     --violet:  #a78bfa;
     --radius:  18px;
   }
+  /* ── follows the phone's system light/dark setting, same colors
+       the app itself uses, so the marketing site never looks like
+       a different product from the app it's selling ── */
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg:      #ffffff;
+      --surface: #f7f7f5;
+      --card:    #f0f0ee;
+      --card2:   #e9e9e6;
+      --border:  #dcdcd8;
+      --border2: #c9c9c4;
+      --text:    #17171a;
+      --muted:   #67676c;
+      --blue:    #1f6fd6;
+      --violet:  #7c3aed;
+    }
+  }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; overflow-x: hidden; max-width: 100%; }
   body {
@@ -53,11 +70,11 @@
   .glow { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
   .eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); }
   h1, h2, h3 { font-family: 'Instrument Serif', serif; font-weight: 400; margin: 0; }
-  em { font-style: italic; background: linear-gradient(100deg, var(--blue), var(--violet)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  em { font-style: italic; color: var(--blue); }
   code { font-family: 'IBM Plex Mono', monospace; }
 
   /* ── NAV ── */
-  nav { position: sticky; top: 0; z-index: 50; background: rgba(10,10,16,0.78); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+  nav { position: sticky; top: 0; z-index: 50; background: var(--surface); border-bottom: 1px solid var(--border); }
   nav .wrap { display: flex; align-items: center; justify-content: space-between; padding-top: 15px; padding-bottom: 15px; }
   .brand { display: flex; align-items: center; gap: 10px; font-family: 'Instrument Serif', serif; font-size: 21px; }
   .brand-mark { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, var(--blue), var(--violet)); flex-shrink: 0; position: relative; }
@@ -70,7 +87,7 @@
 
   .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 10px; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; text-decoration: none; border: 1px solid transparent; cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, color 0.15s ease, background 0.15s ease; }
   .btn:hover { transform: translateY(-1px); }
-  .btn-primary { background: linear-gradient(100deg, var(--blue), var(--violet)); color: #0a0a10; box-shadow: 0 8px 24px -8px rgba(126,184,247,0.5); }
+  .btn-primary { background: var(--blue); color: #0a0a10; box-shadow: 0 4px 14px -6px rgba(126,184,247,0.35); }
   .btn-primary:hover { box-shadow: 0 10px 30px -6px rgba(167,139,250,0.6); }
   .btn-ghost { background: rgba(255,255,255,0.03); border-color: var(--border2); color: var(--text); }
   .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
@@ -105,7 +122,7 @@
   .install-steps li { display: flex; gap: 12px; align-items: flex-start; font-size: 14.5px; line-height: 1.45; }
   .install-step-num {
     flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
-    background: linear-gradient(100deg, var(--blue), var(--violet));
+    background: var(--blue);
     color: #0a0a10; font-weight: 700; font-size: 12.5px;
     display: flex; align-items: center; justify-content: center;
   }
@@ -126,15 +143,15 @@
 
   /* ── DEVICE (live animated demo, not a static image) ── */
   .device-wrap { position: relative; display: flex; justify-content: center; }
-  .device { position: relative; width: 272px; border-radius: 38px; padding: 12px; background: linear-gradient(160deg, #232333, #0d0d14); border: 1px solid var(--border2); box-shadow: 0 40px 90px -20px rgba(0,0,0,0.7); }
-  .device-screen { background: #101018; border-radius: 27px; min-height: 480px; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
+  .device { position: relative; width: 272px; border-radius: 38px; padding: 12px; background: linear-gradient(160deg, var(--card2), var(--surface)); border: 1px solid var(--border2); box-shadow: 0 40px 90px -20px rgba(0,0,0,0.6); }
+  .device-screen { background: var(--surface); border-radius: 27px; min-height: 480px; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
   .device-topbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px 10px; border-bottom: 1px solid var(--border); }
   .device-topbar .dtitle { font-family: 'Instrument Serif', serif; font-size: 15px; }
   .device-topbar .davatar { width: 20px; height: 20px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--violet)); }
   .device-body { flex: 1; padding: 16px 14px; display: flex; flex-direction: column; gap: 10px; justify-content: flex-end; }
   .bubble { max-width: 86%; padding: 10px 13px; border-radius: 15px; font-size: 12.5px; line-height: 1.4; opacity: 0; transform: translateY(6px); animation: bubbleIn 0.3s ease forwards; }
-  .bubble.user { align-self: flex-end; background: #1e1e2c; border: 1px solid var(--border); color: var(--text); border-bottom-right-radius: 4px; }
-  .bubble.daisy { align-self: flex-start; background: linear-gradient(135deg, rgba(126,184,247,0.14), rgba(167,139,250,0.14)); border: 1px solid rgba(126,184,247,0.26); color: var(--text); border-bottom-left-radius: 4px; }
+  .bubble.user { align-self: flex-end; background: var(--card2); border: 1px solid var(--border2); color: var(--text); border-bottom-right-radius: 4px; }
+  .bubble.daisy { align-self: flex-start; background: rgba(126,184,247,0.16); border: 1px solid rgba(126,184,247,0.36); color: var(--text); border-bottom-left-radius: 4px; }
   @keyframes bubbleIn { to { opacity: 1; transform: translateY(0); } }
   .cursor { display: inline-block; width: 2px; height: 12px; background: var(--blue); vertical-align: middle; margin-left: 2px; animation: blink 0.9s step-end infinite; }
   @keyframes blink { 50% { opacity: 0; } }
@@ -149,7 +166,7 @@
   .stat-strip { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 26px 0; position: relative; }
   .stat-strip .wrap { display: flex; flex-wrap: wrap; gap: 46px; justify-content: center; }
   .stat { text-align: center; }
-  .stat-num { font-family: 'IBM Plex Mono', monospace; font-size: 26px; font-weight: 600; background: linear-gradient(100deg, var(--blue), var(--violet)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .stat-num { font-family: 'IBM Plex Mono', monospace; font-size: 26px; font-weight: 600; color: var(--blue); }
   .stat-label { font-size: 12px; color: var(--muted); margin-top: 3px; }
 
   /* ── SECTIONS ── */
@@ -159,7 +176,7 @@
   .section-head p { color: var(--muted); margin-top: 12px; font-size: 15px; }
 
   .feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
-  .feature-card { background: linear-gradient(165deg, var(--card2), var(--surface)); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; transition: border-color 0.2s, transform 0.2s; }
+  .feature-card { background: var(--card2); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; transition: border-color 0.2s, transform 0.2s; }
   .feature-card:hover { border-color: var(--border2); transform: translateY(-2px); }
   .feature-card .f-icon { width: 40px; height: 40px; border-radius: 11px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: rgba(126,184,247,0.1); border: 1px solid rgba(126,184,247,0.22); }
   .feature-card .f-icon svg { width: 19px; height: 19px; stroke: var(--blue); }
@@ -208,8 +225,8 @@
   /* ── PRICING ── */
   .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   .price-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px; display: flex; flex-direction: column; position: relative; }
-  .price-card.pro { border: 1px solid transparent; background: linear-gradient(var(--surface), var(--surface)) padding-box, linear-gradient(135deg, var(--blue), var(--violet)) border-box; }
-  .price-badge { position: absolute; top: -12px; right: 28px; background: linear-gradient(100deg, var(--blue), var(--violet)); color: #0a0a10; font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 700; padding: 5px 11px; border-radius: 999px; letter-spacing: 0.05em; }
+  .price-card.pro { border: 1px solid var(--blue); }
+  .price-badge { position: absolute; top: -12px; right: 28px; background: var(--blue); color: #0a0a10; font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 700; padding: 5px 11px; border-radius: 999px; letter-spacing: 0.05em; }
   .price-card .plan-name { font-family: 'Instrument Serif', serif; font-size: 25px; }
   .price-card .plan-price { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--muted); margin: 11px 0 22px; }
   .price-card .plan-price b { font-size: 29px; color: var(--text); font-family: 'Inter', sans-serif; font-weight: 800; }
