@@ -875,22 +875,29 @@ def _users_db():
 
 
 def init_users_db():
-    with _users_db_lock:
-        conn = _users_db()
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS users (
-                id            TEXT PRIMARY KEY,
-                email         TEXT UNIQUE NOT NULL,
-                name          TEXT NOT NULL,
-                password_hash TEXT,
-                provider      TEXT NOT NULL DEFAULT 'password',
-                is_admin      INTEGER NOT NULL DEFAULT 0,
-                created_at    TEXT NOT NULL,
-                last_login_at TEXT
-            )
-        """)
-        conn.commit()
-        conn.close()
+    try:
+        with _users_db_lock:
+            conn = _users_db()
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS users (
+                    id            TEXT PRIMARY KEY,
+                    email         TEXT UNIQUE NOT NULL,
+                    name          TEXT NOT NULL,
+                    password_hash TEXT,
+                    provider      TEXT NOT NULL DEFAULT 'password',
+                    is_admin      INTEGER NOT NULL DEFAULT 0,
+                    created_at    TEXT NOT NULL,
+                    last_login_at TEXT
+                )
+            """)
+            conn.commit()
+            conn.close()
+        print(f"[AUTH] users db ready at {USERS_DB_PATH}")
+    except Exception as e:
+        # Don't let a bad disk/permissions setup take the whole server
+        # down at boot — surfaces loudly in logs instead, and every
+        # accounts route degrades to "not signed in" rather than 500s.
+        print(f"[AUTH] COULD NOT SET UP users db at {USERS_DB_PATH}: {e}")
 
 
 def _user_row_to_public(row):
@@ -956,11 +963,19 @@ def _log_user_in(row):
 
 
 def current_user():
-    """Public dict for the signed-in user, or None."""
+    """Public dict for the signed-in user, or None. Deliberately never
+    lets a database hiccup take down the page it's guarding — if the
+    lookup fails for any reason, that's treated the same as "not
+    signed in" (safe: worst case someone gets sent to /login) rather
+    than a 500 that breaks the whole request."""
     uid = flask_session.get("user_id")
     if not uid:
         return None
-    row = _find_user_by_id(uid)
+    try:
+        row = _find_user_by_id(uid)
+    except Exception as e:
+        print(f"[AUTH] current_user() lookup failed for uid={uid}: {e}")
+        return None
     if not row:
         flask_session.clear()
         return None
@@ -1010,11 +1025,15 @@ def auth_signup():
         return jsonify({"error": "Enter a valid email address."}), 400
     if len(password) < 8:
         return jsonify({"error": "Password must be at least 8 characters."}), 400
-    if _find_user_by_email(email):
-        return jsonify({"error": "An account already exists for that email. Sign in instead."}), 409
-    row = _create_user(email, name, password=password, provider="password")
-    _log_user_in(row)
-    return jsonify({"user": _user_row_to_public(row)})
+    try:
+        if _find_user_by_email(email):
+            return jsonify({"error": "An account already exists for that email. Sign in instead."}), 409
+        row = _create_user(email, name, password=password, provider="password")
+        _log_user_in(row)
+        return jsonify({"user": _user_row_to_public(row)})
+    except Exception as e:
+        print(f"[AUTH] signup failed for {email!r}: {e}")
+        return jsonify({"error": "Couldn't create that account right now. Try again."}), 500
 
 
 @app.route("/auth/login", methods=["POST"])
@@ -1022,13 +1041,17 @@ def auth_login():
     body = request.get_json(silent=True) or {}
     email = (body.get("email") or "").strip()
     password = body.get("password") or ""
-    row = _find_user_by_email(email)
-    if not row or row["provider"] != "password" or not row["password_hash"]:
-        return jsonify({"error": "That email and password don't match."}), 401
-    if not check_password_hash(row["password_hash"], password):
-        return jsonify({"error": "That email and password don't match."}), 401
-    _log_user_in(row)
-    return jsonify({"user": _user_row_to_public(row)})
+    try:
+        row = _find_user_by_email(email)
+        if not row or row["provider"] != "password" or not row["password_hash"]:
+            return jsonify({"error": "That email and password don't match."}), 401
+        if not check_password_hash(row["password_hash"], password):
+            return jsonify({"error": "That email and password don't match."}), 401
+        _log_user_in(row)
+        return jsonify({"user": _user_row_to_public(row)})
+    except Exception as e:
+        print(f"[AUTH] login failed for {email!r}: {e}")
+        return jsonify({"error": "Couldn't sign you in right now. Try again."}), 500
 
 
 @app.route("/auth/google", methods=["POST"])
@@ -1041,11 +1064,15 @@ def auth_google():
         email, name = _verify_google_credential(credential)
     except ValueError as e:
         return jsonify({"error": str(e)}), 401
-    row = _find_user_by_email(email)
-    if not row:
-        row = _create_user(email, name, password=None, provider="google")
-    _log_user_in(row)
-    return jsonify({"user": _user_row_to_public(row)})
+    try:
+        row = _find_user_by_email(email)
+        if not row:
+            row = _create_user(email, name, password=None, provider="google")
+        _log_user_in(row)
+        return jsonify({"user": _user_row_to_public(row)})
+    except Exception as e:
+        print(f"[AUTH] google sign-in failed for {email!r}: {e}")
+        return jsonify({"error": "Couldn't sign you in right now. Try again."}), 500
 
 
 @app.route("/auth/logout", methods=["POST"])
