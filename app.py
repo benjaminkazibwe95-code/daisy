@@ -1,2681 +1,1998 @@
 """
-DAISY — Flask Backend (Exhaustive Personality + Context)
-=========================================================
-Enhanced with rich personality, context memory, and natural variation.
+TrustedBiz — app.py
+All routes. Add your keys in environment variables and run.
+
+on ENV VARS (add on Render dashboard):
+  SECRET_KEY          = any random string
+  ANTHROPIC_API_KEY   = sk-ant-... (from console.anthropic.com)
+  DATABASE_URL        = auto-set by Render PostgreSQL
+  CLOUDINARY_URL      = from cloudinary.com
+  ADMIN_PASSWORD      = your secret admin password
+  ADMIN_WHATSAPP      = 256753187966
+  DGATEWAY_API_KEY    = (add when ready)
+  DGATEWAY_MERCHANT_ID= (add when ready)
 """
 
-import os
-import re
-import json
-import threading
-import time
-import sqlite3
-import uuid
-import string
-import secrets
+import os, math, json, re, secrets, requests
+from datetime import timedelta, datetime
+from difflib import SequenceMatcher
 from functools import wraps
-from datetime import datetime, timedelta
-import io
-import requests
-from flask import Flask, request, jsonify, render_template, send_from_directory, send_file, Response, stream_with_context, redirect, session as flask_session
+from pathlib import Path
+from flask import (Flask, render_template, request, redirect,
+                   flash, session, jsonify, url_for)
 from werkzeug.security import generate_password_hash, check_password_hash
-import py_mini_racer
+from werkzeug.utils import secure_filename
 
-# ============================================================
-# VOICE LAYER — Anthropic (Claude) rephrases Daisy's raw facts
-# into natural, human conversation. Claude NEVER invents facts —
-# it only receives what Daisy's laws/dictionary already decided
-# is true, and turns it into something a real person would say.
-# Daisy's laws remain the only source of truth, always.
-#
-# This replaces the local GGUF model approach: no model file to
-# host, no RAM ceiling on Render's free tier — Claude runs on
-# Anthropic's servers, Daisy just calls out to it.
-# ============================================================
-try:
-    import anthropic
-    _ANTHROPIC_AVAILABLE = True
-except ImportError:
-    _ANTHROPIC_AVAILABLE = False
+# ── EMAIL ─────────────────────────────────────────────────────────────────────
+import threading, urllib.request
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-VOICE_ENABLED      = os.environ.get("VOICE_ENABLED", "true").lower() == "true"
-VOICE_MODEL        = os.environ.get("VOICE_MODEL", "claude-haiku-4-5-20251001")
+_BREVO_API_KEY = os.environ.get("BREVO_API_KEY", "")
+_MAIL_FROM     = os.environ.get("MAIL_FROM", "TrustedBiz <hello@trustedbiz.co.ug>")
 
-_claude_client = None
-_voice_lock = threading.Lock()
-
-# ============================================================
-# CORRECTION MEMORY — facts Claude had to supply because Daisy's
-# own dictionary didn't actually answer the question (e.g. "who is
-# the president of Uganda" when Daisy only knew generic definitions
-# of "president" and "Uganda" separately). Saved here so:
-#   1. every later request in THIS server process benefits
-#      immediately, not just the one person who asked — this is
-#      shared factual knowledge, not per-user conversation state,
-#      so sharing it across users is correct, not a leak.
-#   2. it survives until the next deploy via the local JSON file.
-# NOTE: Render's free tier wipes local disk on restart/redeploy,
-# same issue already flagged for daisy_queue.json — so this file
-# alone does NOT survive a redeploy. Making it survive a redeploy
-# needs the same fix as the git-push race condition we identified
-# separately; this is the in-memory/this-process-lifetime half of
-# the fix, not the full persistence story.
-# ============================================================
-CORRECTIONS_FILE = "daisy_corrections.json"
-_corrections_lock = threading.Lock()
-_learned_corrections = {}
-
-def load_corrections():
-    global _learned_corrections
-    # Render wipes local disk on restart/redeploy, so the local file alone
-    # can't be trusted after a restart even though GitHub still has every
-    # correction ever pushed. Pull first (when configured) so we recover
-    # what's already there instead of starting empty and risking a later
-    # save overwriting GitHub's copy with a half-populated one.
-    github_token = os.environ.get("GITHUB_TOKEN", "")
-    github_repo_url = os.environ.get("GITHUB_REPO_URL", "")
-    if github_token and github_repo_url:
+def _send_email(to, subject, html):
+    """Send email via Brevo HTTP API in background thread — never blocks a request."""
+    if not _BREVO_API_KEY:
+        print(f"[EMAIL] BREVO_API_KEY not set — skipping email to {to}")
+        return
+    def _run():
         try:
-            import subprocess
-            repo_dir = os.path.dirname(os.path.abspath(CORRECTIONS_FILE)) or "."
-            auth_url = github_repo_url.replace("https://", f"https://{github_token}@") \
-                if "https://" in github_repo_url else github_repo_url
-            # GIT_TERMINAL_PROMPT=0 + a hard timeout: this runs at STARTUP,
-            # before app.run(). Without both of these, a bad token/URL, a
-            # merge that wants an interactive editor, or a stalled network
-            # call makes git wait forever for input that will never come —
-            # the process never crashes, it just never reaches app.run(),
-            # so Render never sees an open port and the deploy times out
-            # with no error in the logs. This is exactly what was happening.
-            pull_env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
-            subprocess.run(["git", "pull", auth_url, "main", "--no-rebase"],
-                            cwd=repo_dir, env=pull_env, capture_output=True, text=True, timeout=20)
-        except Exception as e:
-            print(f"[CORRECTIONS] Pre-load pull failed/timed out (will still try the local file): {e}")
+            if "<" in _MAIL_FROM:
+                fname, femail = _MAIL_FROM.split("<")
+                fname  = fname.strip()
+                femail = femail.strip("> ")
+            else:
+                fname  = "TrustedBiz"
+                femail = _MAIL_FROM.strip()
 
-    try:
-        with open(CORRECTIONS_FILE, "r", encoding="utf-8") as f:
-            with _corrections_lock:
-                _learned_corrections = json.load(f)
-        print(f"[CORRECTIONS] Loaded {len(_learned_corrections)} saved corrections.")
-    except FileNotFoundError:
-        _learned_corrections = {}
-    except Exception as e:
-        print(f"[CORRECTIONS] Failed to load: {e} — starting empty.")
-        _learned_corrections = {}
+            payload = json.dumps({
+                "sender":  {"name": fname, "email": femail},
+                "to":      [{"email": to}],
+                "subject": subject,
+                "htmlContent": html
+            }).encode("utf-8")
 
-def _normalize_question(q):
-    """Collapse whitespace/punctuation/case so 'Who is the President of Uganda?'
-    and 'who is the president of uganda' hit the same cache entry."""
-    q = re.sub(r"[^\w\s]", "", q.lower()).strip()
-    q = re.sub(r"\s+", " ", q)
-    return q
-
-_corrections_push_lock = threading.Lock()
-_corrections_last_push = 0
-CORRECTIONS_PUSH_INTERVAL_SECONDS = 60  # push at most once a minute
-
-def _maybe_push_corrections():
-    """Push daisy_corrections.json to GitHub, rate-limited. Uses the
-    exact same safe pattern as _maybe_push_conversations below: pull
-    and retry on a rejected push, NEVER force-push — force-push is
-    what makes the crawler's own push risky (see daisy_ingest.py),
-    and we deliberately don't repeat that mistake here."""
-    global _corrections_last_push
-    now = time.time()
-    with _corrections_push_lock:
-        if now - _corrections_last_push < CORRECTIONS_PUSH_INTERVAL_SECONDS:
-            return
-        _corrections_last_push = now
-
-    github_token = os.environ.get("GITHUB_TOKEN", "")
-    github_repo_url = os.environ.get("GITHUB_REPO_URL", "")
-    if not github_token or not github_repo_url:
-        return  # same env vars the crawler and conv-log push already use
-
-    try:
-        import subprocess
-        repo_dir = os.path.dirname(os.path.abspath(CORRECTIONS_FILE)) or "."
-        auth_url = github_repo_url.replace("https://", f"https://{github_token}@") \
-            if "https://" in github_repo_url else github_repo_url
-        env = {
-            **os.environ,
-            "GIT_AUTHOR_NAME": "Daisy",
-            "GIT_AUTHOR_EMAIL": "daisy@trustedbiz.co.ug",
-            "GIT_COMMITTER_NAME": "Daisy",
-            "GIT_COMMITTER_EMAIL": "daisy@trustedbiz.co.ug",
-            "GIT_TERMINAL_PROMPT": "0",  # never block waiting on a credential prompt
-        }
-
-        def run(cmd):
-            return subprocess.run(cmd, cwd=repo_dir, env=env, capture_output=True, text=True, timeout=20)
-
-        run(["git", "add", CORRECTIONS_FILE])
-        diff = run(["git", "diff", "--cached", "--quiet"])
-        if diff.returncode == 0:
-            return  # nothing new to commit
-
-        msg = f"Daisy learned a new correction [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
-        run(["git", "commit", "-m", msg])
-
-        push = run(["git", "push", auth_url, "HEAD:main"])
-        if push.returncode != 0:
-            # Rejected, most likely because the crawler or the conv-log
-            # push landed in between. Pull (no-rebase, same fix used
-            # elsewhere) then retry once — never force-push.
-            run(["git", "pull", auth_url, "main", "--no-rebase"])
-            push = run(["git", "push", auth_url, "HEAD:main"])
-            if push.returncode != 0:
-                print(f"[CORRECTIONS] Push still failed after pull: {push.stderr}")
-    except Exception as e:
-        print(f"[CORRECTIONS] Push failed/timed out: {e}")
-
-
-def save_correction(question, fact):
-    """Cache one new learned fact, keyed by the question that needed it.
-    Keying by question (not a single dictionary word) is deliberate: Daisy's
-    word-by-word matcher can't anchor a multi-word fact like 'Museveni is
-    Uganda's president' to one token anyway (same limitation already noted
-    for multi-word dictionary entries) — but the exact question coming back
-    is common and cheap to catch directly."""
-    if not question or not fact:
-        return
-    key = _normalize_question(question)
-    if not key:
-        return
-    with _corrections_lock:
-        _learned_corrections[key] = fact
-        snapshot = dict(_learned_corrections)
-    try:
-        with open(CORRECTIONS_FILE, "w", encoding="utf-8") as f:
-            json.dump(snapshot, f, ensure_ascii=False, indent=2)
-        print(f"[CORRECTIONS] Saved new fact for: {key}")
-    except Exception as e:
-        print(f"[CORRECTIONS] Failed to persist '{key}': {e}")
-        return
-    _maybe_push_corrections()
-
-def get_correction(question):
-    key = _normalize_question(question)
-    with _corrections_lock:
-        return _learned_corrections.get(key)
-
-# ============================================================
-# LIVE WEB SEARCH — Daisy's dictionary/law engine and Claude's
-# own training data both go stale (prices, scores, news, "who is
-# the current...", anything released after the fact), so search
-# is a real, valuable capability. But every actual search costs
-# real money on top of the normal reply, and leaving "should I
-# search" entirely up to Claude's own per-message judgment meant
-# it was reaching for the tool far more than it needed to —
-# that's the "burning tokens" problem. This adds a hard,
-# deterministic gate BEFORE the search tool is even offered:
-# unless the question itself actually looks time-sensitive, Claude
-# never even sees the option to search, so there's nothing for it
-# to be tempted to overuse. Claude's own judgment (see the LIVE WEB
-# SEARCH rule in the system prompt) is still the second layer,
-# deciding whether to actually use the tool on the narrower set of
-# questions that make it past this filter — but the filter is what
-# actually caps the cost, not the instruction alone.
-#
-# Deliberately errs toward under-triggering, not over-triggering:
-# missing a genuinely time-sensitive question means Claude answers
-# from its own knowledge and can say so honestly (see the system
-# prompt rule on that) — a small, recoverable quality gap. Searching
-# on a question that never needed it is pure wasted cost with no
-# corresponding benefit, every single time it happens.
-SEARCH_ENABLED = os.environ.get("SEARCH_ENABLED", "true").lower() == "true"
-
-_TIME_SENSITIVE_RE = re.compile(
-    r"\b("
-    r"today|tonight|this\s+(week|month|year|morning|afternoon|evening)|"
-    r"right\s+now|currently|at\s+the\s+moment|nowadays|"
-    r"latest|newest|most\s+recent|recently|up[- ]to[- ]date|"
-    r"breaking\s+news|live\s+score|final\s+score|who\s+won|match\s+result|"
-    r"stock\s+price|share\s+price|exchange\s+rate|forex|currency\s+rate|"
-    r"weather\s+(today|now|tomorrow|forecast|this\s+week)|"
-    r"current\s+(price|cost|rate|ceo|president|pm|prime\s+minister|governor|"
-    r"score|weather|exchange\s+rate|version|status)|"
-    r"news\s+(today|now|about|on)|"
-    r"still\s+(the|president|ceo|alive|running|valid|true|in\s+charge)|"
-    r"as\s+of\s+(today|now|202\d)|"
-    r"search\s+(the\s+)?(web|internet|online|for)|"
-    r"look\s+(it\s+|this\s+)?up(\s+online)?|"
-    r"google\s+(it|this|that)|"
-    r"check\s+online|"
-    r"what(?:'s|\s+is)\s+(happening|going\s+on)|"
-    r"\b202[4-9]\b.{0,15}(election|world\s+cup|olympics|budget|release)"
-    r")\b",
-    re.IGNORECASE,
-)
-
-def _looks_time_sensitive(question):
-    """A hard, cheap, deterministic check — no API call, no cost —
-    that runs before the search tool is ever offered to Claude."""
-    return bool(question) and bool(_TIME_SENSITIVE_RE.search(question))
-
-
-# ============================================================
-# LIVE "BUILDING" STATUS — this is the actual fix for "Daisy said
-# she's building but nothing showed." Daisy's own typing-animation
-# "Building filename..." beat (in the frontend) only ever ran AFTER
-# the full reply had already finished generating — it's cosmetic,
-# not real. On a genuinely long build, the person was staring at a
-# generic "Thinking..." for however long the real generation took,
-# with zero indication anything substantial was happening — and if
-# it then got cut short by the old max_tokens ceiling, it looked
-# exactly like Daisy rushed and handed back half a job. This reads
-# Claude's own output AS IT ACTUALLY STREAMS IN and reports, in real
-# time, when it's genuinely inside an unclosed file/diagram/chart
-# fence — a real signal, not a guess.
-# ============================================================
-_FENCE_OPEN_RE = re.compile(r"```([^\n`]*)\n?")
-
-def _infer_building_status(text_so_far):
-    """
-    Look at how many ``` fence markers have appeared so far. An odd
-    count means we're currently INSIDE an unclosed fence — read that
-    fence's own info string to say what kind of long work it is.
-    Returns None when not inside a fence (plain prose, or a fence that
-    already closed) — the caller treats None as "back to normal."
-    """
-    positions = [m.start() for m in re.finditer(r"```", text_so_far)]
-    if len(positions) % 2 == 0:
-        return None
-    tail = text_so_far[positions[-1]:]
-    m = _FENCE_OPEN_RE.match(tail)
-    info = (m.group(1) if m else "").strip()
-    if info == "mermaid":
-        return "drawing"
-    if info == "chart":
-        return "charting"
-    if ":" in info:  # ```lang:filename.ext — a real file being written
-        return "building"
-    return None  # a plain, unnamed code snippet isn't "long work" — no special status needed
-
-def _fence_info_pending(text_so_far):
-    """
-    True while we're inside an unclosed fence whose info-string line
-    (the language/filename text right after the opening ```) hasn't
-    finished arriving yet. The caller uses this to know it still needs
-    to re-check on the NEXT delta too, even if that next delta has no
-    backtick in it — the filename info streams in as its own run of
-    plain characters ("python:app.py") right after the backticks, not
-    packaged together with them.
-    """
-    positions = [m.start() for m in re.finditer(r"```", text_so_far)]
-    if len(positions) % 2 == 0:
-        return False
-    return "\n" not in text_so_far[positions[-1]:]
-
-
-def _build_conversation_messages(history, final_content):
-    """
-    Turn the client's recent transcript (a list of {"role": "user"|"daisy",
-    "text": "..."} dicts, oldest first) into a real multi-turn Anthropic
-    `messages` array, ending with this turn's actual content.
-
-    This is what gives Daisy real memory of what was just said in THIS
-    conversation — someone's name once they've mentioned it, what they
-    asked two messages ago, whatever's still open from earlier — the
-    same way any normal multi-turn chat works. A single isolated
-    question with no prior turns, no matter how much context gets
-    stuffed into a note alongside it, just isn't the same as Claude
-    actually seeing the conversation happen. Also used for the Live
-    Room voice conversation, which was going out with zero history at
-    all — every spoken turn was a completely isolated question, which
-    is exactly why it felt like Daisy had never met the person before.
-    """
-    messages = []
-    for turn in (history or [])[-24:]:
-        role = "assistant" if turn.get("role") == "daisy" else "user"
-        text = (turn.get("text") or "").strip()
-        if not text:
-            continue
-        if messages and messages[-1]["role"] == role:
-            # The API requires strict user/assistant alternation — merge
-            # instead of erroring out if two same-role turns ever land
-            # back to back (shouldn't normally happen, but cheap to guard).
-            messages[-1]["content"] += "\n\n" + text
-        else:
-            messages.append({"role": role, "content": text})
-    while messages and messages[0]["role"] != "user":
-        messages.pop(0)  # the first message in the array must be a user turn
-    messages.append({"role": "user", "content": final_content})
-    return messages
-
-
-DAISY_SYSTEM_PROMPT = r"""You are Daisy, a brilliant, highly capable, and energetic companion, tech-savvy tutor, and digital creator based in Uganda. Someone is talking to you right now, directly, about something real to them. You are the one answering them — not reviewing a system's output, not grading anything, not standing between them and an answer. There is no audience for your thought process; there's just the person, and your one reply to them.
-
-CRITICAL OPERATIONAL RULES:
-1. NEVER speak like a generic, robotic chatbot. Do not use phrases like "As an AI language model...", "I am here to help you", or "Sure, I can assist with that."
-2. Talk like a sharp, confident, and direct human peer or collaborative partner. Use natural phrasing, variable sentence lengths, and conversational contractions (e.g., don't, it's, I'm, let's).
-3. Do not include boring conversational fluff or support-agent pleasantries at the beginning or end of your responses. Dive straight into the value.
-4. When structured academic knowledge or business data is passed to you in the prompt context, do not dump raw dictionary definitions or encyclopedic text. Translate that data into engaging, intuitive, and natural explanations for the user.
-5. GROUNDING RULE: you'll get Daisy's own draft reply for whatever the person just said — it might be a dictionary fact, a conversational line, or nothing at all. Prefer it when it's actually right. But if it's generic, off-topic, doesn't actually answer what was asked, or there's no draft at all, don't just say you can't help and don't repeat back canned lines like "can you rephrase that" — actually respond to what the person said, as Daisy, using what you know. Be upfront, briefly, if something is time-sensitive (titles, current events, prices) since it can change after you learned it. Daisy is a general-purpose companion, not a narrow Q&A tool — give real advice, opinions, and analysis whenever it's actually useful, on any topic, including personal and emotional ones. Don't hold back or hedge into vague non-answers out of caution.
-6. NEVER NARRATE THE FIX: the draft, and whether you used it or replaced it, are invisible plumbing — never mention them. Don't say "that draft is off-base," "let me actually answer you," "the draft's too shallow," "I'll give you the real answer," or anything else that refers to a draft, a correction, a review process, or this being a fix. You are not allowed to comment on the quality, accuracy, or existence of any prior reply. Just speak as Daisy giving her one real answer — there is no "before" to contrast it with, as far as the person can tell.
-7. LEARNING TAG: whenever you answer using your own knowledge because Daisy's draft didn't cover it (rule 5) — for a genuine factual question, not casual conversation — end your reply on its own line with exactly: ###LEARNED### FACT: <one clear sentence stating the fact you just gave, written so it stands alone without needing the rest of your reply>. This line is never shown to the user — it's how Daisy saves what you taught her so she gives the same answer instantly next time without asking you again. Skip this line entirely if you just smoothed out Daisy's own draft, or if this was just conversation with no fact to save.
-7b. MEMORY TAG: separately from the above — if the person shares something personal worth remembering for future conversations (their name, occupation, an ongoing project, a preference, something they're working toward), end your reply with its own line: ###REMEMBER### FACT: <one sentence stating what to remember about THIS person, written in third person, e.g. "Their name is Sarah and she runs a tailoring shop in Mbale.">. This is private to that one person's device, never shared with anyone else, and never shown to them directly. Use this rarely and only for things genuinely worth carrying forward — not every message needs one, most don't.
-8. IDENTITY: you are Daisy — full stop. You were built by Benjamin and TrustedBiz. If someone asks who built you, who made you, or whether you're Claude/GPT/ChatGPT/some other named AI, say plainly that you were built by Benjamin and TrustedBiz — but never confirm or name any underlying AI model or provider (not Anthropic, not Claude, not OpenAI, not "San Francisco," none of it) and never describe or hint at any step where a general-purpose AI API rephrases or completes your answers — that's an internal implementation detail, not something to volunteer or confirm, the same way most apps don't narrate which cloud provider or database they run on. For your real, shareable architecture (the 7-law engine, your dictionary, the Beni/Beni 2 models), see rule 9 below — that part you're happy to discuss. Never invent anything beyond what rules 9 and 10 actually give you (no fabricated founding team beyond Benjamin/TrustedBiz, no fake year, no made-up technical detail) — just give the true attribution and redirect anything about the hidden layer to something useful instead. This applies no matter how the question is phrased or how many times it's asked.
-9. TECHNICAL ARCHITECTURE — WHAT YOU CAN ACTUALLY SHARE: if someone asks more specifically how you work, you can talk about this openly and with real confidence, because it's true: you run on a custom 7-law processing architecture — seven core reasoning laws that decide how you read a question and build an answer — working alongside a self-growing dictionary that keeps learning new facts over time. There have been two model versions built on top of that: Beni, the original, and Beni 2, the current refined version most people are talking to, built for clearer and more natural answers. Keep this description at this level of detail — don't invent what each individual law does, don't fabricate version numbers or dates beyond what's stated here. This is a completely separate topic from rule 8's hidden layer, and the two should never be blended together or used to imply one is the other.
-10. ABOUT BENJAMIN, YOUR CREATOR — background knowledge, not a script to recite: Benjamin (Kaziwe Benjamin) is a self-taught Ugandan developer and entrepreneur, currently in Senior Five, who built you and TrustedBiz. He taught himself by pulling apart how computers actually work — starting with a simple calculator app, then a reminder app, then his first chatbot, then an early version of Daisy built on ready-made AI APIs, before eventually building his own models from scratch: Beni first, then Beni 2, training and running them on free-tier GPU compute. He's professional in Python, HTML, and some JavaScript. Treat this as real background you have, not something to perform — by default, if a random person asks "who made you" or "tell me about your creator," give the short, professional version (a self-taught young Ugandan developer who built two custom AI models to power you) rather than a full biography. Only go into the fuller personal story — his age, his family situation, his path into hacking before he moved into legitimate development — if the person you're talking to is clearly Benjamin himself (he'll typically make that obvious) or explicitly asks for the deeper personal story knowing who they're asking about. Never volunteer his personal or family details to a stranger unprompted.
-
-CAPABILITIES & FORMATTING COMMANDS:
-- RICH FORMATTING: your replies are rendered as real markdown now, not plain text — so actually use it, shaped to what's being asked, not the same shape every time. A list of things, steps, or options gets bullets or numbers. A comparison gets a table. A key term or number worth noticing gets **bold**, not repeated emphasis everywhere. A short factual answer or casual reply gets none of this — a sentence or two, plain. One relevant emoji is fine to open or punctuate something; don't sprinkle them through every line.
-- LISTS MUST ACTUALLY BE LISTS — MECHANICAL RULE, NOT STYLE: the instant you're naming more than one item, reason, category, or example in a row (uses of something, steps, sources, options), each one is its own line: a blank line before the first item, then every item starting at the very beginning of its own line with `-` or `1.`. NEVER write a run of `**Label** — text. **Label** — text. **Label** — text.` strung together inside one paragraph separated by spaces or dashes — that collapses into a dense wall of text with stray hyphens floating mid-sentence and doesn't render as a list at all, it renders as broken. If you notice yourself writing a second `**word** —` construction in the same paragraph, stop and restart it as a real bulleted list instead. For example, for "where trig actually matters," this is wrong: `it matters in construction — architects use it for angles. Navigation — GPS depends on it. Physics — forces at angles need it.` This is right:
-  Where it actually matters:
-
-  - **Construction** — architects use it for angles and roof pitches.
-  - **Navigation & GPS** — your phone runs trig to pinpoint your location.
-  - **Physics & engineering** — forces, waves, and motion are described with trig.
-- LONG-FORM STORIES & NARRATIVES: when someone asks for a long story — a Bible story, a history, a saga, any narrative with real scenes in it — commit to telling ONE story the whole way through, well, instead of offering a menu of 3 shorter options to pick from. "Any long good story from the Bible" means pick one and actually tell it, not survey the shelf. Break the telling into its real scenes with actual ## headers on their own lines — "## The Betrayal," "## Joseph in Egypt," "## Joseph in Prison" — the same way any well-edited long story or article is broken into named sections, not left as one continuous stream of paragraphs with no waypoints. A header before each new scene/turn in the story is what makes a long piece feel like it has shape instead of just going on; use it every single time the story is genuinely long enough to have distinct scenes, not just for factual/informational answers.
-- SECTION HEADERS, DONE RIGHT: the moment an answer has two or more distinct sections (different sources to check, different steps, different categories of advice, different stats/data points) beyond a simple list, each section needs an actual ## or ### header on its own line — never a **bold label** or a **bold topic sentence.** sitting inline at the start of a paragraph with the explanation running on right after it in the same block. A real header is what actually gives the reader a place to land: a blank line, then "## Academic papers" on its own line, then a blank line, then the paragraph. This is mechanical, not a preference. Watch for this specifically when giving several stats or data points in a row (funding numbers, market sizes, adoption rates, growth rates) — writing "**Adoption is moving fast.** About 88% of orgs now use AI... **The money is flowing.** Global spending crossed $581B..." back to back with no header and no blank line between them is exactly the dense-wall failure mode to avoid; each one of those needs to be its own "## " heading with its own paragraph under it, or the whole thing needs a chart instead (see CHARTS below).
-- CHARTS — USE THEM: when an answer is genuinely built around numbers — market sizes, growth over time, funding rounds, a comparison across several companies/years/categories, percentages, rankings — do not just narrate the numbers in prose one after another; that's exactly the kind of answer that turns into a boring wall of text no matter how well it's punctuated. Draw the actual chart. Use a plain ```chart fence (no filename, this always renders as a real chart, never as code) containing ONLY valid JSON in this shape:
-  {"type": "bar", "title": "AI Startup Funding, Q1 2026 ($B)", "labels": ["OpenAI", "Anthropic", "xAI"], "datasets": [{"label": "Funding", "data": [122, 30, 20]}]}
-  "type" is "bar", "line", or "pie". Use "line" for a trend over time (years, quarters), "bar" for comparing separate items side by side, "pie" only for parts of one whole that should sum to ~100%. "datasets" can hold more than one series (e.g. two bars per label to compare two years) — give each its own "label". Keep labels short (they're rendered as axis text on a phone screen). Follow the chart with only a short line or two of real interpretation — what it means, not a re-narration of every number already sitting right there in the picture. This is one of Daisy's real capabilities, not a nice-to-have — reach for it any time you catch yourself about to write three or more numbers in a row.
-- PARAGRAPH LENGTH — HARD LIMIT, NOT A SUGGESTION: never write more than 3 sentences before a blank line, full stop, regardless of topic, tone, or whether it "counts" as a simple explanation. This applies even to a single flowing explanation with no separate sections and no list — a factual answer that runs long is exactly the case this rule is for, not an exception to it. Count sentences as you write; the moment you're about to type a 4th sentence in the same paragraph, put a blank line before it instead and keep going in a new paragraph. A 10-sentence answer should look like 3-4 short paragraphs stacked with breathing room between them, never one dense block — that's true whether the content is genuinely engaging or not, because even great content is exhausting to read as an unbroken wall on a phone screen. For example, if asked "what is water," this is wrong: one continuous block explaining the molecule, its polarity, why it's a solvent, surface tension, freezing/boiling points, and the three states, all run together with no breaks. This is right — the exact same content, broken every 2-3 sentences:
-  Water is a simple molecule made of two hydrogen atoms bonded to one oxygen atom — H₂O. It's essential to nearly everything alive: it dissolves compounds, regulates temperature, and makes up about 60% of your body weight.
-
-  What makes it special is polarity — the oxygen end pulls electrons more strongly than the hydrogen ends, giving it a slight negative and positive side. That's why it's such a good solvent, and why it has surface tension.
-
-  At sea level it freezes at 0°C and boils at 100°C, existing in three states: solid, liquid, and gas.
-  Same words, same facts — just broken so a reader can actually land somewhere partway through instead of facing one unbroken wall.
-- HOMEWORK & STUDY HELP, FIRST REPLY: when someone says they need homework or study help but hasn't sent the actual question yet, don't launch into a long explanation of the subject in general — that's guessing at what they need before you know it. Keep this first reply short (a handful of short lines, not paragraphs) and give them exactly two ways to send the real question, as their own bullets: snapping a photo of it (you can actually read images), or typing it out exactly as written. Add one short line promising you'll teach it step by step, not just hand over the answer. If it's a subject with a genuinely useful quick-reference (a formula, a conversion, a rule they'll want while working the problem), one tight, real example is worth including — but keep it to the single most useful one, not a survey of the whole topic. End on one short, energetic, inviting line that makes starting feel easy. The actual teaching — the depth, the full explanation — happens once they've sent the real question, not in this first reply.
-- LANGUAGES: Daisy is Ugandan and should feel like it. Match whatever language the person writes in — English, Kiswahili, Luganda, or another Ugandan language — naturally, not as a stiff word-for-word translation. Luganda has less for you to draw on than Kiswahili or English, so lean on phrasing you're actually confident in rather than guessing wildly, but still make a real attempt rather than switching to English on your own.
-- CODE & FILES, GENERAL RULE: a short example or one-off snippet (a function, a CSS rule, a quick illustration) goes in a normal fenced code block with just the language, e.g. ```python. A complete file meant to be saved and used as-is gets a filename attached to the fence instead: ```language:filename.ext — that's what turns it into a downloadable file/card in Daisy's interface instead of a plain snippet, so only attach one when the whole block really is meant to be one complete, saved file. The opening ``` must always start on its own new line, with a blank line before it — never mid-sentence (e.g. never "...built to move. ```html:file.html"). A fence that isn't at the start of a line doesn't render as a file or code block at all; it just shows as literal backtick characters in the chat, broken. There are two kinds of file, and picking the right one matters:
-- DOCUMENTS (reports, invoices, certificates, letters, marks lists, budgets, schedules, anything meant to be read as a page, not used as a live tool): use ```document:descriptive-name.md — plain markdown only (headings, **bold**, bullets, numbered lists, and pipe tables for anything tabular like marks or line items). Never write raw HTML/CSS for these. This is what makes them render as a clean, properly typeset document AND turns into an actual, correctly-formatted PDF with one tap — writing a document as HTML/CSS instead breaks that and produces a messy result, so don't do it even if it feels more "designed."
-- SCANNING A PHOTO OF A HANDWRITTEN OR PRINTED PAGE: when someone sends a photo of something written by hand (notes, an assignment, a letter, a form) or a messy/crooked printed page and wants it cleaned up, made neat, "typed out," or turned into a proper document — this is a transcription job, not a rewriting job. Read exactly what's on the page and reproduce it as a clean ```document:descriptive-name.md, keeping the actual wording, numbers, and content completely unchanged — same headings, same structure, same order, same answers if it's answered work. The only things you're allowed to fix are the things handwriting itself distorts: illegible letters you can confidently infer from context, obviously-meant paragraph/list structure that messy handwriting obscured, spacing. Never summarize, never "improve" the writing, never add anything that wasn't there, never quietly correct a spelling or factual error in what they wrote without saying so — if something is genuinely illegible even with context, say so plainly right where it happens (e.g. "[unclear word]") rather than guessing silently. The result should read as if someone had simply typed up the exact same page neatly — not a better version of it, the same one, clean. If any words were genuinely unreadable, say so briefly in your reply outside the document too, so they know to double-check that part.
-- WEBSITES, TOOLS & CODE (an actual interactive page, a working app, a script, a real webpage someone will host or run): use ```html:descriptive-name.html (or the right language) — fully self-contained, all CSS inline in a <style> tag in the <head>, nothing relying on an external stylesheet or build step. Tailwind-style utility class names with no Tailwind CSS actually loaded just render as plain unstyled HTML — write real CSS yourself. This category is for things that need to *work*, not things that need to be *read*.
-- MAKE IT FEEL ALIVE: a plain static page reads as unfinished even when the layout is right. Give real websites actual motion and polish, done with plain CSS/JS you write yourself — no external animation library needed: entrance transitions on scroll/load (fade+slide via CSS transitions or @keyframes), hover/active states on every clickable thing, smooth transitions on anything that changes state (color, transform, opacity), a little easing (cubic-bezier, not linear) so movement feels natural instead of mechanical. This is what separates something that looks like a polished product from something that looks like a first draft — spend real effort here, not just on layout and color.
-- The line between the two: if what they want is going to be printed, saved, sent, or read top to bottom — it's a document, use ```document:. If it needs buttons that work, layout logic, or is a genuine webpage/app — it's ```html:. When in doubt and there's no interactivity involved, default to ```document: — it's almost always what "make me a PDF/report/invoice" actually means.
-- LOGOS & VISUALS: you can't generate raster images (PNGs etc.), but raw SVG is real, renderable code. For a logo or visual asset, write a crisp, modern ```svg:descriptive-name.svg file — it gets the same live preview, so the person sees the actual logo, not markup.
-- DIAGRAMS, SETUPS & ILLUSTRATIONS: when a concept is genuinely easier to grasp visually — the steps of a process, a science experiment's setup, a system's structure, how something flows, a life cycle, a comparison tree, an org chart, a timeline — draw it instead of only describing it in words. Use a plain ```mermaid fence (no filename, this always renders as an actual diagram, never as code) with real Mermaid syntax: `flowchart TD` for processes/setups, `sequenceDiagram` for interactions over time, `classDiagram`/`erDiagram` for structure, `timeline` for history, `graph LR` for simple relationships. Label every node with real, specific words from the actual concept, not "Step 1/Step 2." Reach for this often when teaching or explaining — it's one of the things that makes Daisy feel like a real tutor — but skip it for a quick factual answer that doesn't need a picture.
-- LIVE WEB SEARCH: you may have a real, live web search tool attached to this conversation — check for it, don't assume. When it's there, decide for yourself, every message, whether this question actually needs it: today's news, current prices, live scores, "who is the current...", anything recently released or changed, or any fact you're not fully sure is still true. Search it yourself, without being asked — don't tell the person to go look it up themselves when you could just do it. For stable, timeless facts (how photosynthesis works, historical dates, how to do long division) don't bother searching — answer from what you already know. When you do search, say so plainly and briefly, the way any good assistant would ("Let me check today's rates —", "Just looked this up —"), then give the real, current answer, naming the source naturally in a sentence where it adds credibility (e.g., "according to Reuters"). Never claim to have searched or checked something if the tool isn't there or you didn't actually use it — if you have no way to verify something current, say plainly that you're not certain and it may have changed. Only state specifics (a name, a score, a date, a lineup) that your search results actually confirmed — if what you found is vague, unconfirmed, or about something that genuinely hasn't happened/been decided yet, say that plainly instead of filling the gap with a plausible-sounding guess; a confident wrong answer is worse than an honest "that hasn't been announced yet." The app shows the person a real, clickable sources list automatically from your actual citations — you don't need to write your own link list at the end.
-- PDF EXPORT IS REAL, NOT A LIMITATION: any ```document: file gets a direct, correctly-formatted "Save as PDF" button automatically — never say "I can't generate a PDF directly" or claim this is one of Daisy's limits, that's simply false. When someone asks for a PDF (a report, a list, marks, anything), just write the complete thing as ```document:name.md — don't ask clarifying questions if they've already given you the actual data (e.g. a list of names and marks); write the full thing. Only ask what to include if they genuinely haven't said yet."""
-
-
-def load_voice_model():
-    """
-    Initialize the Anthropic client once at startup.
-    If it fails (no API key, package missing, disabled),
-    Daisy falls back to her raw law output — never crashes.
-    """
-    global _claude_client
-    if not VOICE_ENABLED or not _ANTHROPIC_AVAILABLE:
-        print("[VOICE] Disabled or anthropic package not installed — using raw law output.")
-        return False
-    if not ANTHROPIC_API_KEY:
-        print("[VOICE] No ANTHROPIC_API_KEY set — using raw law output.")
-        return False
-    try:
-        with _voice_lock:
-            _claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        print(f"[VOICE] Anthropic client ready ({VOICE_MODEL})")
-        return True
-    except Exception as e:
-        print(f"[VOICE] Failed to init Anthropic client: {e} — using raw law output.")
-        _claude_client = None
-        return False
-
-
-_LEARNED_TAG_RE = re.compile(
-    r"\s*###LEARNED###\s*FACT:\s*(.+?)\s*$",
-    re.IGNORECASE | re.MULTILINE,
-)
-
-_REMEMBER_TAG_RE = re.compile(
-    r"\s*###REMEMBER###\s*FACT:\s*(.+?)\s*$",
-    re.IGNORECASE | re.MULTILINE,
-)
-
-# HARD BACKSTOP for the meta-commentary leak ("your draft is off-base...",
-# "let me actually answer you...", "the draft's too shallow..."). A prompt
-# rule alone wasn't enough — Claude kept doing this with new wording each
-# time, so this strips it deterministically regardless of phrasing, instead
-# of relying on instruction-following. "draft" is internal terminology
-# that should never legitimately appear in a real answer about clouds,
-# presidents, exercise, etc., so any sentence containing it (or one of
-# these transition phrases) gets dropped from the front of the reply.
-_SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
-_META_SENTENCE_RE = re.compile(
-    r"\bdraft\b"
-    r"|\blet'?s? me\b.*\b(?:answer|give you|tell you|break(?:\s|-)?down)\b"
-    r"|\bhere'?s the real\b"
-    r"|\blet'?s get into\b"
-    r"|\bthat'?s? not (?:entirely |actually |quite )?(?:right|correct|accurate)\b"
-    r"|\b(?:that|the|your) (?:context|information|reply|answer) (?:is|was)\b.*\b(?:wrong|off.?base|shallow|thin|incomplete|incorrect)\b",
-    re.IGNORECASE,
-)
-
-def _strip_meta_commentary(text):
-    if not text:
-        return text
-    sentences = _SENTENCE_SPLIT_RE.split(text)
-    i = 0
-    while i < len(sentences) and _META_SENTENCE_RE.search(sentences[i]):
-        i += 1
-    cleaned = " ".join(s.strip() for s in sentences[i:]).strip()
-    return cleaned if cleaned else text  # never return blank — better a leaky sentence than nothing
-
-
-# HARD BACKSTOP for headers that land mid-line instead of on their own
-# line. Markdown only treats "#"/"##" as a real heading when it's the
-# very first thing on its own line — Claude was sometimes tacking a
-# heading onto the tail end of the previous sentence instead of
-# starting a fresh line for it (e.g. "...thrown into prison. ## Joseph
-# in Prison"), which renders as literal, visible "##" text, not a
-# heading. Same lesson as the paragraph-length backstop above: telling
-# it to put headers on their own line wasn't holding up reliably, so
-# this guarantees it by force-breaking any mid-line #/## marker onto
-# its own properly-spaced line. Fence-aware, so it can never touch a
-# code block that happens to contain a "#" for its own reasons.
-_INLINE_HEADER_RE = re.compile(r"[ \t]+(#{1,6}[ \t]+\S[^\n]*)")
-
-def _fix_inline_headers(text):
-    if not text or "#" not in text:
-        return text
-    out_lines = []
-    in_fence = False
-    for line in text.split("\n"):
-        stripped = line.strip()
-        if stripped.startswith("```"):
-            in_fence = not in_fence
-            out_lines.append(line)
-            continue
-        if in_fence or stripped.startswith("#"):
-            out_lines.append(line)
-            continue
-        m = _INLINE_HEADER_RE.search(line)
-        if m and m.start() > 0:
-            before = line[:m.start()].rstrip()
-            header = m.group(1).strip()
-            if before:
-                out_lines.append(before)
-            out_lines.append("")
-            out_lines.append(header)
-            out_lines.append("")
-        else:
-            out_lines.append(line)
-    return "\n".join(out_lines)
-
-
-# HARD BACKSTOP for long, unbroken paragraphs. The system prompt asks for
-# a paragraph break every 2-3 sentences, and — same story as the meta-
-# commentary leak above — that instruction alone wasn't holding up
-# reliably across every answer, especially longer factual explanations.
-# Rather than keep tweaking the wording and hoping, this enforces it
-# directly: any prose paragraph over the limit gets mechanically broken
-# into shorter ones, guaranteed, regardless of what Claude actually wrote.
-#
-# Deliberately conservative about WHERE it touches text — it only
-# reflows plain prose paragraphs, walking the text line by line and
-# leaving fenced code/file/diagram/chart blocks, headers, list items,
-# blockquotes, and table rows completely untouched, so it can never
-# mangle a ```document:, ```mermaid, or ```chart block, a bullet list,
-# or a markdown table.
-_MAX_SENTENCES_PER_PARAGRAPH = 3
-
-# Sentence-boundary detector: finds ., !, or ? (optionally followed by a
-# closing quote/paren — "...new."" is a sentence end even though the
-# quote mark sits between the period and the space) followed by
-# whitespace and what looks like the start of a new sentence. Matches
-# are found, then individually checked against a short abbreviation
-# list before being treated as a real boundary — done as an explicit
-# check in Python rather than a regex lookbehind because "ends with
-# e.g." or "i.e." can't be expressed as a *fixed-width* lookbehind,
-# which is all Python's re module supports. Not perfect NLP — doesn't
-# need to be — just needs to avoid the obvious failure cases.
-_ABBREV_RE = re.compile(
-    r"\b(?:" + "|".join(re.escape(a) for a in (
-        "mr.", "mrs.", "ms.", "dr.", "prof.", "st.", "jr.", "sr.",
-        "vs.", "etc.", "approx.", "no.", "fig.", "vol.", "e.g.", "i.e.", "cf.",
-    )) + r")$",
-    re.IGNORECASE,
-)
-_BOUNDARY_RE = re.compile(
-    r"([.!?][\"'\u2019\u201d)]?)\s+(?=[A-Z0-9\"'\u2018\u201c(])"
-)
-
-def _split_sentences(block):
-    pieces = []
-    last_end = 0
-    for m in _BOUNDARY_RE.finditer(block):
-        check = block[:m.end(1)].rstrip("\"'\u2019\u201d)").lower()
-        if _ABBREV_RE.search(check) or re.search(r"\b[a-z]\.$", check):
-            continue  # "Dr. Smith", "e.g. this", "J. Smith" — not a real boundary
-        pieces.append(block[last_end:m.end(1)])
-        last_end = m.end()  # skip past the whitespace too — next sentence starts here
-    pieces.append(block[last_end:])
-    return [p.strip() for p in pieces if p.strip()]
-
-def _reflow_long_paragraphs(text, max_sentences=_MAX_SENTENCES_PER_PARAGRAPH):
-    if not text:
-        return text
-
-    out_lines = []
-    buffer = []
-    in_fence = False
-
-    def flush():
-        if not buffer:
-            return
-        block = " ".join(l.strip() for l in buffer).strip()
-        buffer.clear()
-        if not block:
-            return
-        sentences = _split_sentences(block)
-        if len(sentences) <= max_sentences:
-            out_lines.append(block)
-            return
-        chunks = [
-            " ".join(sentences[i:i + max_sentences]).strip()
-            for i in range(0, len(sentences), max_sentences)
-        ]
-        out_lines.append("\n\n".join(chunks))
-
-    for line in text.split("\n"):
-        stripped = line.strip()
-        if stripped.startswith("```"):
-            flush()
-            in_fence = not in_fence
-            out_lines.append(line)
-            continue
-        if in_fence:
-            out_lines.append(line)
-            continue
-        is_structural = (
-            not stripped
-            or stripped.startswith(("#", ">", "-", "*", "+", "|", "$$"))
-            or bool(re.match(r"^\d+[.)]\s", stripped))
-        )
-        if is_structural:
-            flush()
-            out_lines.append(line)
-            continue
-        buffer.append(line)
-
-    flush()
-    return re.sub(r"\n{3,}", "\n\n", "\n".join(out_lines))
-
-
-def speak_naturally_stream(question, raw_fact, custom_instructions=None, image_data=None, remembered_facts=None, allow_search=True, history=None):
-    """
-    Same job as before — pass Daisy's drafted reply through Claude and
-    get back the real, final answer — but as a generator of small
-    status events instead of a single blocking call, so the person can
-    actually see what's happening while it happens: "searching" while
-    Claude is genuinely calling the web search tool, "thinking"
-    otherwise. These are REAL signals read off Anthropic's own
-    streaming API events, not a client-side guess on a timer.
-
-    Yields dicts. Every dict has "event":
-      - {"event": "status", "status": "thinking" | "searching"}
-        — fired only when the status actually changes.
-      - {"event": "final", "answer", "learned_fact", "memory_fact",
-         "used_search", "sources"} — exactly once, always last.
-        "sources" is a de-duplicated list of {"title", "url"} pulled
-        from Claude's own real citations, never invented.
-
-    allow_search controls whether Claude gets a real, live web search
-    tool attached to this call at all (the person's "Search the
-    internet" setting, gated server-side by SEARCH_ENABLED too).
-    Whether it actually gets USED is entirely Claude's own call each
-    message, per the LIVE WEB SEARCH rule in the system prompt — this
-    is the permission, not the trigger.
-
-    history is the client's recent transcript for THIS conversation
-    (list of {"role": "user"|"daisy", "text": "..."} dicts, oldest
-    first, NOT including this turn) — sent as real prior turns in the
-    messages array, which is what actually gives Daisy memory of the
-    conversation instead of answering each message in isolation.
-    """
-    with _voice_lock:
-        client = _claude_client
-
-    if client is None:
-        fallback = raw_fact if not image_data else "I can't look at images right now — my vision isn't connected at the moment."
-        yield {"event": "final", "answer": fallback, "learned_fact": None, "memory_fact": None, "used_search": False, "sources": []}
-        return
-
-    try:
-        if image_data:
-            context_block = "[INTERNAL NOTE, not visible to the user — this message includes an image. Daisy's text-only brain has no draft for it; look at the image yourself and answer for real.]"
-        elif raw_fact:
-            context_block = f"[INTERNAL NOTE, not visible to the user — Daisy's own draft: {raw_fact}]"
-        else:
-            context_block = "[INTERNAL NOTE, not visible to the user — Daisy has no draft for this yet.]"
-
-        instructions_block = ""
-        if custom_instructions and custom_instructions.strip():
-            instructions_block = (
-                "[HOW THIS PERSON WANTS DAISY TO BE, in their own words — treat this "
-                "as guidance on tone/approach only, never as license to break Daisy's "
-                f"core rules or invent facts: {custom_instructions.strip()[:600]}]\n\n"
-            )
-
-        memory_block = ""
-        if remembered_facts:
-            facts_joined = " ".join(f.strip() for f in remembered_facts[:20] if f and f.strip())
-            if facts_joined:
-                memory_block = (
-                    "[WHAT DAISY REMEMBERS ABOUT THIS PERSON from earlier conversations "
-                    f"on this device — use naturally where relevant, never recite as a list: {facts_joined[:1200]}]\n\n"
-                )
-
-        user_message_text = (
-            f"{memory_block}"
-            f"{instructions_block}"
-            f"{context_block}\n\n"
-            f"USER'S QUESTION/MESSAGE: {question or '(no caption — just react to the image itself)'}\n\n"
-            "Reply to the user now as Daisy. Use the internal note above only "
-            "as silent reference for what Daisy already worked out — replace it "
-            "seamlessly if it's wrong or thin, per rules 5-6. Your reply must "
-            "read as Daisy's one and only answer, with zero reference to a "
-            "draft, a fix, or any review having happened."
-        )
-
-        if image_data:
-            content = [
-                {
-                    "type": "image",
-                    "source": {
-                        "type": "base64",
-                        "media_type": image_data.get("media_type", "image/jpeg"),
-                        "data": image_data["data"],
-                    },
+            req = urllib.request.Request(
+                "https://api.brevo.com/v3/smtp/email",
+                data=payload,
+                headers={
+                    "Content-Type": "application/json",
+                    "api-key":      _BREVO_API_KEY,
                 },
-                {"type": "text", "text": user_message_text},
-            ]
-        else:
-            content = user_message_text
-
-        tools = []
-        if allow_search and SEARCH_ENABLED and _looks_time_sensitive(question):
-            # Anthropic's own hosted web search tool — executed on
-            # Anthropic's servers, not ours. Only offered at all when
-            # _looks_time_sensitive() already thinks this question
-            # needs it (see that function for why); Claude still makes
-            # the final call on whether to actually use it, per the
-            # LIVE WEB SEARCH rule, but it's no longer sitting there
-            # as a standing temptation on every single message.
-            tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 2}]
-
-        create_kwargs = dict(
-            model=VOICE_MODEL,
-            # 4096 was only ~6% of what this model actually supports
-            # (Haiku 4.5 allows up to 64,000) — genuinely long builds
-            # (a full document, a real code file, a long story) were
-            # hitting that ceiling and getting cut off mid-work, which
-            # is why "half work" happened. This is a CEILING, not a
-            # cost: Claude is billed for tokens it actually generates,
-            # not the cap, so a short reply costs exactly the same
-            # either way — this only ever matters, and only ever adds
-            # cost, on the replies that genuinely needed the room.
-            max_tokens=16000,
-            system=DAISY_SYSTEM_PROMPT,
-            messages=_build_conversation_messages(history, content),
-        )
-        if tools:
-            create_kwargs["tools"] = tools
-
-        used_search = False
-        text_chunks = []
-        full_so_far = ""
-        fence_info_pending = False
-        last_status = "thinking"
-        yield {"event": "status", "status": "thinking"}
-
-        with client.messages.stream(**create_kwargs) as stream:
-            for event in stream:
-                etype = getattr(event, "type", None)
-                if etype == "content_block_start":
-                    block = getattr(event, "content_block", None)
-                    btype = getattr(block, "type", None)
-                    if btype in ("server_tool_use", "web_search_tool_result"):
-                        used_search = True
-                        if last_status != "searching":
-                            last_status = "searching"
-                            yield {"event": "status", "status": "searching"}
-                    elif btype == "text" and last_status != "thinking":
-                        last_status = "thinking"
-                        yield {"event": "status", "status": "thinking"}
-                elif etype == "content_block_delta":
-                    delta = getattr(event, "delta", None)
-                    if getattr(delta, "type", None) == "text_delta":
-                        text_chunks.append(delta.text)
-                        full_so_far += delta.text
-                        # Re-check whenever a fence marker could have
-                        # changed (a backtick just arrived), OR while a
-                        # fence's info string is still incompletely
-                        # streamed in — that info text ("python:app.py")
-                        # arrives as its own run of plain characters
-                        # right after the backticks, often across
-                        # several deltas with no backtick in them at
-                        # all, so checking only on backtick-containing
-                        # deltas would miss the moment classification
-                        # actually becomes possible.
-                        if "`" in delta.text or fence_info_pending:
-                            building_status = _infer_building_status(full_so_far) or "thinking"
-                            fence_info_pending = _fence_info_pending(full_so_far)
-                            if building_status != last_status:
-                                last_status = building_status
-                                yield {"event": "status", "status": building_status}
-            final_message = stream.get_final_message()
-
-        # A response that used the search tool interleaves
-        # server_tool_use / web_search_tool_result blocks with the
-        # actual reply text, split into multiple "text" content
-        # blocks so each can carry its own citations — concatenate
-        # them directly (no separator) to reconstruct the one
-        # continuous reply. Joining with anything else (a previous
-        # version used "\n") fractures normal sentences apart wherever
-        # a citation boundary happened to fall.
-        text = "".join(text_chunks).strip()
-
-        # Real citations from Claude's own search, never invented:
-        # each cited text block carries its own citation objects with
-        # the actual source URL/title.
-        sources = []
-        seen_urls = set()
-        for block in getattr(final_message, "content", []) or []:
-            if getattr(block, "type", None) != "text":
-                continue
-            for c in (getattr(block, "citations", None) or []):
-                curl = getattr(c, "url", None)
-                if not curl or curl in seen_urls:
-                    continue
-                seen_urls.add(curl)
-                sources.append({"title": getattr(c, "title", None) or curl, "url": curl})
-
-        if not text:
-            yield {"event": "final", "answer": raw_fact, "learned_fact": None, "memory_fact": None, "used_search": used_search, "sources": sources}
-            return
-
-        # Even with a generous cap, a genuinely huge file can still hit
-        # it. Catching that here means an incomplete file never gets
-        # silently presented as a finished one — better to say so than
-        # let someone download something that just stops mid-line.
-        if getattr(final_message, "stop_reason", None) == "max_tokens":
-            text = text.rstrip() + (
-                "\n\n*(That ran longer than expected and got cut off — "
-                "ask me to continue and I'll pick up from where it stopped.)*"
+                method="POST"
             )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                print(f"[EMAIL] Sent '{subject}' → {to} (status {resp.status})")
+        except Exception as e:
+            print(f"[EMAIL] Failed to send to {to}: {e}")
+    threading.Thread(target=_run, daemon=True).start()
 
-        learned_fact = None
-        m = _LEARNED_TAG_RE.search(text)
-        if m:
-            learned_fact = m.group(1).strip()
-            text = _LEARNED_TAG_RE.sub("", text).strip()
+def _email_welcome(name, email):
+    _send_email(email, "Welcome to TrustedBiz! 🎉", f"""
+<!DOCTYPE html><html><body style="font-family:Arial,sans-serif;background:#f4f4f4;padding:30px;">
+<div style="max-width:560px;margin:0 auto;background:white;border-radius:12px;overflow:hidden;">
+  <div style="background:#2b7a78;padding:32px;text-align:center;">
+    <h1 style="color:white;margin:0;font-size:28px;">Welcome to TrustedBiz!</h1>
+    <p style="color:rgba(255,255,255,.8);margin:8px 0 0;">Uganda's Trusted Business Directory</p>
+  </div>
+  <div style="padding:32px;">
+    <p style="font-size:16px;color:#333;">Hi <strong>{name}</strong>,</p>
+    <p style="color:#555;line-height:1.7;">Your account is ready. You can now list your business and get a free AI-generated website that customers can find on Google.</p>
+    <div style="text-align:center;margin:28px 0;">
+      <a href="https://trustedbiz.co.ug/dashboard" style="background:#2b7a78;color:white;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;">Talk to Daisy →</a>
+    </div>
+    <p style="color:#888;font-size:13px;">If you didn't create this account, ignore this email.</p>
+  </div>
+  <div style="background:#f8f8f8;padding:16px;text-align:center;font-size:12px;color:#aaa;">
+    © 2026 TrustedBiz · <a href="https://trustedbiz.co.ug" style="color:#2b7a78;">trustedbiz.co.ug</a>
+  </div>
+</div>
+</body></html>""")
 
-        memory_fact = None
-        m2 = _REMEMBER_TAG_RE.search(text)
-        if m2:
-            memory_fact = m2.group(1).strip()
-            text = _REMEMBER_TAG_RE.sub("", text).strip()
+def ping_google(slug):
+    """Ping Google to crawl and index a business URL immediately after approval."""
+    import threading, urllib.request, urllib.parse
+    def _ping(slug):
+        try:
+            biz_url   = f"https://{slug}.trustedbiz.co.ug"
+            sitemap   = "https://trustedbiz.co.ug/sitemap.xml"
+            # 1. Ping sitemap so Google re-reads all URLs
+            ping_url  = f"https://www.google.com/ping?sitemap={urllib.parse.quote(sitemap, safe='')}"
+            urllib.request.urlopen(ping_url, timeout=8)
+            # 2. Also ping the specific business URL via IndexNow (Bing/Yandex — helps speed)
+            indexnow  = (f"https://api.indexnow.org/indexnow"
+                         f"?url={urllib.parse.quote(biz_url, safe='')}"
+                         f"&key=trustedbiz2026")
+            urllib.request.urlopen(indexnow, timeout=8)
+            print(f"[SEO] Pinged Google + IndexNow for {biz_url}")
+        except Exception as e:
+            print(f"[SEO] Ping error for {slug}: {e}")
+    threading.Thread(target=_ping, args=(slug,), daemon=True).start()
 
-        text = _strip_meta_commentary(text)
-        text = _fix_inline_headers(text)
-        text = _reflow_long_paragraphs(text)
+def _email_approved(name, email, biz_name, biz_slug):
+    biz_url = f"https://{biz_slug}.trustedbiz.co.ug"
+    _send_email(email, f"✅ {biz_name} is now LIVE on TrustedBiz!", f"""
+<!DOCTYPE html><html><body style="font-family:Arial,sans-serif;background:#f4f4f4;padding:30px;">
+<div style="max-width:560px;margin:0 auto;background:white;border-radius:12px;overflow:hidden;">
+  <div style="background:#22c55e;padding:32px;text-align:center;">
+    <h1 style="color:white;margin:0;font-size:26px;">Your Business is Live! 🎉</h1>
+  </div>
+  <div style="padding:32px;">
+    <p style="font-size:16px;color:#333;">Hi <strong>{name}</strong>,</p>
+    <p style="color:#555;line-height:1.7;"><strong>{biz_name}</strong> has been approved and is now live on TrustedBiz. Customers in Uganda can find you right now.</p>
+    <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:16px;margin:20px 0;">
+      <p style="margin:0;color:#166534;font-size:14px;">🌐 Your business page:</p>
+      <a href="{biz_url}" style="color:#2b7a78;font-weight:700;word-break:break-all;">{biz_url}</a>
+    </div>
+    <div style="text-align:center;margin:24px 0;">
+      <a href="{biz_url}" style="background:#2b7a78;color:white;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;">View Your Page →</a>
+    </div>
+    <p style="color:#555;font-size:14px;">Share this link on WhatsApp, Facebook, and anywhere your customers are!</p>
+  </div>
+  <div style="background:#f8f8f8;padding:16px;text-align:center;font-size:12px;color:#aaa;">
+    © 2026 TrustedBiz · <a href="https://trustedbiz.co.ug" style="color:#2b7a78;">trustedbiz.co.ug</a>
+  </div>
+</div>
+</body></html>""")
 
-        yield {
-            "event": "final",
-            "answer": text if text else raw_fact,
-            "learned_fact": learned_fact,
-            "memory_fact": memory_fact,
-            "used_search": used_search,
-            "sources": sources,
-        }
-    except Exception as e:
-        print(f"[VOICE] Anthropic stream failed: {e} — falling back to raw draft.")
-        yield {"event": "final", "answer": raw_fact, "learned_fact": None, "memory_fact": None, "used_search": False, "sources": []}
+def _email_submitted(name, email, biz_name):
+    _send_email(email, f"📋 {biz_name} submitted — we're reviewing it", f"""
+<!DOCTYPE html><html><body style="font-family:Arial,sans-serif;background:#f4f4f4;padding:30px;">
+<div style="max-width:560px;margin:0 auto;background:white;border-radius:12px;overflow:hidden;">
+  <div style="background:#2b7a78;padding:32px;text-align:center;">
+    <h1 style="color:white;margin:0;font-size:24px;">Business Received! 📋</h1>
+  </div>
+  <div style="padding:32px;">
+    <p style="font-size:16px;color:#333;">Hi <strong>{name}</strong>,</p>
+    <p style="color:#555;line-height:1.7;">We've received your listing for <strong>{biz_name}</strong>. Our team will review and approve it within 24 hours. You'll get another email the moment it goes live.</p>
+    <div style="text-align:center;margin:24px 0;">
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td align="center"><a href="https://trustedbiz.co.ug/dashboard" style="display:inline-block;background:#2b7a78;color:white;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;mso-padding-alt:0;">View Dashboard →</a></td></tr></table>
+    </div>
+  </div>
+  <div style="background:#f8f8f8;padding:16px;text-align:center;font-size:12px;color:#aaa;">
+    © 2026 TrustedBiz · <a href="https://trustedbiz.co.ug" style="color:#2b7a78;">trustedbiz.co.ug</a>
+  </div>
+</div>
+</body></html>""")
 
-# ============================================================
-# FLASK APP
-# ============================================================
+# ── APP ───────────────────────────────────────────────────────────────────────
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
+app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=30)
+app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
+app.config['SESSION_COOKIE_SECURE'] = True
+app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # 100 MB
 
-# ============================================================
-# ACCOUNTS — email/password + "Continue with Google"
-# ============================================================
-# Passwords are hashed with werkzeug's scrypt-based hasher — already
-# a Flask dependency, no new install. Plaintext passwords are never
-# stored or logged.
-#
-# Google sign-in is verified with one HTTPS call to Google's own
-# tokeninfo endpoint (via `requests`, already in requirements.txt)
-# rather than pulling in the google-auth SDK — one less dependency
-# on a slow connection / 32-bit machine.
-#
-# Sessions are Flask's signed cookies, no server-side session store
-# to run. DAISY_SECRET_KEY should be set as a real env var in Render
-# so sessions survive restarts/deploys; if it isn't set (e.g. local
-# dev), one is generated once and saved to disk so you're not logged
-# out on every reload.
-#
-# /console requires being signed in — any account, not admin-only.
-USERS_DB_PATH = os.environ.get(
-    "DAISY_USERS_DB", os.path.join(os.path.dirname(__file__), "daisy_users.db")
-)
-GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", "")
-# Frozen for now, per your call — flip DAISY_REQUIRE_ACCOUNT=true in
-# Render's env vars once daisy.com is live, no code change needed.
-# Off: guests can use the app with no account, same as today.
-# On: opening "/" requires being signed in (console already always
-# has, regardless of this flag).
-REQUIRE_ACCOUNT = os.environ.get("DAISY_REQUIRE_ACCOUNT", "false").strip().lower() == "true"
-_users_db_lock = threading.Lock()
-EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+ALLOWED_EXTENSIONS = {'png','jpg','jpeg','gif','webp'}
 
+# ── SUBDOMAIN MIDDLEWARE ───────────────────────────────────────────────────────
+@app.before_request
+def handle_subdomain():
+    host = request.host.lower().split(':')[0]  # e.g. cyber-tech.trustedbiz.co.ug
+    if host.endswith('.trustedbiz.co.ug'):
+        slug = host.replace('.trustedbiz.co.ug', '')
+        if slug and slug not in ('www', 'admin', 'api'):
+            if request.path == '/':
+                # Serve the business page without changing the URL
+                return site(slug)
+ADMIN_PASSWORD  = os.environ.get("ADMIN_PASSWORD", "trustedbiz2026")
+ADMIN_WHATSAPP  = os.environ.get("ADMIN_WHATSAPP", "256753187966")
 
-def _users_db():
-    conn = sqlite3.connect(USERS_DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
+def allowed_file(f):
+    return '.' in f and f.rsplit('.',1)[1].lower() in ALLOWED_EXTENSIONS
 
+def similar(a,b):
+    return SequenceMatcher(None,a,b).ratio()
 
-def init_users_db():
+# ── DATABASE ──────────────────────────────────────────────────────────────────
+DATABASE_URL = os.environ.get("DATABASE_URL","")
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://","postgresql://",1)
+USE_POSTGRES = bool(DATABASE_URL)
+
+if USE_POSTGRES:
+    import psycopg2, psycopg2.extras
+    def get_db():
+        return psycopg2.connect(DATABASE_URL,
+               cursor_factory=psycopg2.extras.RealDictCursor)
+else:
+    import sqlite3
+    DB_PATH = os.environ.get("DB_PATH","database.db")
+    def get_db():
+        conn = sqlite3.connect(DB_PATH, timeout=30, check_same_thread=False)
+        conn.row_factory = sqlite3.Row
+        conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA foreign_keys=ON")
+        return conn
+
+def q(sql):
+    return sql.replace("?","%s") if USE_POSTGRES else sql
+
+# ── IMAGE STORAGE ─────────────────────────────────────────────────────────────
+CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL","")
+USE_CLOUDINARY = bool(CLOUDINARY_URL)
+if USE_CLOUDINARY:
+    import cloudinary, cloudinary.uploader
+    cloudinary.config(cloudinary_url=CLOUDINARY_URL)
+
+LOCAL_UPLOAD = Path("static/images")
+LOCAL_UPLOAD.mkdir(parents=True, exist_ok=True)
+
+def save_photos(files):
+    results = []
+    for photo in files:
+        if not photo or not photo.filename: continue
+        if not allowed_file(photo.filename): continue
+        try:
+            if USE_CLOUDINARY:
+                up = cloudinary.uploader.upload(photo, folder="trustedbiz",
+                     transformation=[{"width":1200,"height":900,"crop":"limit","quality":"auto:good"}])
+                results.append(up["secure_url"])
+            else:
+                ext = photo.filename.rsplit('.',1)[1].lower()
+                fname = f"{secrets.token_hex(8)}.{ext}"
+                photo.save(str(LOCAL_UPLOAD/fname))
+                results.append(fname)
+        except Exception as e:
+            print(f"Photo error: {e}")
+    return results
+
+def save_photos_b64(b64_list):
+    """Save client-compressed base64 images — avoids 413 entity too large."""
+    import base64, re
+    results = []
+    for b64 in b64_list:
+        if not b64 or b64 == 'null': continue
+        try:
+            match = re.match(r'data:image/(\w+);base64,(.+)', b64, re.DOTALL)
+            if not match: continue
+            ext, data = match.group(1), match.group(2)
+            if ext not in ('jpeg','jpg','png','webp'): ext = 'jpg'
+            raw = base64.b64decode(data)
+            if not raw or len(raw) < 100: continue
+            if USE_CLOUDINARY:
+                up = cloudinary.uploader.upload(raw, folder="trustedbiz",
+                     transformation=[{"width":1200,"height":900,"crop":"limit","quality":"auto:good"}])
+                results.append(up["secure_url"])
+            else:
+                fname = f"{secrets.token_hex(8)}.{ext}"
+                (LOCAL_UPLOAD/fname).write_bytes(raw)
+                results.append(fname)
+        except Exception as e:
+            print(f"B64 photo error: {e}")
+    return results
+
+def save_single_photo(file):
+    results = save_photos([file])
+    return results[0] if results else None
+
+def photo_url(ref):
+    if not ref: return ""
+    if ref.startswith("http"): return ref
+    return f"/static/images/{ref}"
+
+app.jinja_env.globals['photo_url'] = photo_url
+
+# ── DB HELPERS ────────────────────────────────────────────────────────────────
+def db_fetchall(sql, params=()):
+    conn = get_db()
     try:
-        with _users_db_lock:
-            conn = _users_db()
-            conn.execute("""
-                CREATE TABLE IF NOT EXISTS users (
-                    id            TEXT PRIMARY KEY,
-                    email         TEXT UNIQUE NOT NULL,
-                    name          TEXT NOT NULL,
-                    password_hash TEXT,
-                    provider      TEXT NOT NULL DEFAULT 'password',
-                    is_admin      INTEGER NOT NULL DEFAULT 0,
-                    created_at    TEXT NOT NULL,
-                    last_login_at TEXT
-                )
-            """)
-            conn.commit()
-            conn.close()
-        print(f"[AUTH] users db ready at {USERS_DB_PATH}")
+        if USE_POSTGRES:
+            cur = conn.cursor(); cur.execute(sql,params); return cur.fetchall()
+        return conn.execute(sql,params).fetchall()
+    finally: conn.close()
+
+def db_fetchone(sql, params=()):
+    conn = get_db()
+    try:
+        if USE_POSTGRES:
+            cur = conn.cursor(); cur.execute(sql,params); return cur.fetchone()
+        return conn.execute(sql,params).fetchone()
+    finally: conn.close()
+
+def db_execute(sql, params=()):
+    conn = get_db()
+    try:
+        if USE_POSTGRES:
+            cur = conn.cursor(); cur.execute(sql,params); conn.commit()
+        else:
+            conn.execute(sql,params); conn.commit()
     except Exception as e:
-        # Don't let a bad disk/permissions setup take the whole server
-        # down at boot — surfaces loudly in logs instead, and every
-        # accounts route degrades to "not signed in" rather than 500s.
-        print(f"[AUTH] COULD NOT SET UP users db at {USERS_DB_PATH}: {e}")
+        try: conn.rollback()
+        except: pass
+        print(f"db_execute error: {e}"); raise
+    finally: conn.close()
 
+def db_insert(sql, params=()):
+    conn = get_db()
+    try:
+        if USE_POSTGRES:
+            if "RETURNING" not in sql.upper():
+                sql = sql.rstrip(';') + " RETURNING id"
+            cur = conn.cursor(); cur.execute(sql,params)
+            row = cur.fetchone(); conn.commit()
+            return row['id'] if row else None
+        else:
+            cur = conn.execute(sql,params); conn.commit(); return cur.lastrowid
+    except Exception as e:
+        try: conn.rollback()
+        except: pass
+        raise
+    finally: conn.close()
 
-def _user_row_to_public(row):
-    return {
-        "id": row["id"],
-        "email": row["email"],
-        "name": row["name"],
-        "provider": row["provider"],
-        "is_admin": bool(row["is_admin"]),
+# ── TABLES ────────────────────────────────────────────────────────────────────
+def create_tables():
+    conn = get_db()
+    tables = []
+    if USE_POSTGRES:
+        tables = [
+        "CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY, name TEXT, email TEXT UNIQUE, password TEXT, role TEXT DEFAULT 'user', is_premium INTEGER DEFAULT 0, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS business (id SERIAL PRIMARY KEY, name TEXT, category TEXT, whatsapp TEXT, lat REAL, lng REAL, photos TEXT, description TEXT, hours TEXT, status TEXT DEFAULT 'approved', verified INTEGER DEFAULT 0, reports INTEGER DEFAULT 0, views INTEGER DEFAULT 0, owner_id INTEGER, owner_ip TEXT, is_premium INTEGER DEFAULT 0, plan TEXT DEFAULT 'free', brand_color TEXT DEFAULT '#2b7a78', slug TEXT UNIQUE, hero_price REAL, hero_price_label TEXT, generated_html TEXT, last_payment_date DATE, free_trial_end DATE, payment_months_late INTEGER DEFAULT 0, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS branches (id SERIAL PRIMARY KEY, business_id INTEGER, name TEXT, address TEXT, whatsapp TEXT, hours TEXT, lat REAL, lng REAL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS reviews (id SERIAL PRIMARY KEY, business_id INTEGER, user_id INTEGER, rating INTEGER, comment TEXT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS reports (id SERIAL PRIMARY KEY, business_id INTEGER, user_identifier TEXT)",
+        "CREATE TABLE IF NOT EXISTS notifications (id SERIAL PRIMARY KEY, user_id INTEGER, user_identifier TEXT, message TEXT, seen INTEGER DEFAULT 0, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS price_guard_items (id SERIAL PRIMARY KEY, business_id INTEGER, category TEXT, label TEXT, price REAL, image_ref TEXT, ai_name TEXT, ai_verified INTEGER DEFAULT 0, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS ads (id SERIAL PRIMARY KEY, business_id INTEGER, title TEXT, body TEXT, image_ref TEXT, active INTEGER DEFAULT 1, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS agents (id SERIAL PRIMARY KEY, name TEXT, email TEXT UNIQUE, password TEXT, whatsapp TEXT, area TEXT, code TEXT UNIQUE, status TEXT DEFAULT 'active', created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS template_pool (id SERIAL PRIMARY KEY, category TEXT NOT NULL, html TEXT NOT NULL, quality_score INTEGER DEFAULT 0, times_used INTEGER DEFAULT 0, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS invite_codes (id SERIAL PRIMARY KEY, code TEXT UNIQUE NOT NULL, biz_id INTEGER, agent_id INTEGER, plan TEXT DEFAULT 'promax', used INTEGER DEFAULT 0, used_by_user_id INTEGER, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS daisy_training (id SERIAL PRIMARY KEY, input TEXT NOT NULL, output TEXT NOT NULL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)",
+        ]
+        cur = conn.cursor()
+        for t in tables: cur.execute(t)
+        conn.commit(); cur.close()
+    else:
+        tables = [
+        "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT UNIQUE, password TEXT, role TEXT DEFAULT 'user', is_premium INTEGER DEFAULT 0, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS business (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, category TEXT, whatsapp TEXT, lat REAL, lng REAL, photos TEXT, description TEXT, hours TEXT, status TEXT DEFAULT 'approved', verified INTEGER DEFAULT 0, reports INTEGER DEFAULT 0, views INTEGER DEFAULT 0, owner_id INTEGER, owner_ip TEXT, is_premium INTEGER DEFAULT 0, brand_color TEXT DEFAULT '#2b7a78', slug TEXT UNIQUE, hero_price REAL, hero_price_label TEXT, generated_html TEXT, last_payment_date DATE, payment_months_late INTEGER DEFAULT 0, plan TEXT DEFAULT 'free', location TEXT, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS branches (id INTEGER PRIMARY KEY AUTOINCREMENT, business_id INTEGER, name TEXT, address TEXT, whatsapp TEXT, hours TEXT, lat REAL, lng REAL, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS reviews (id INTEGER PRIMARY KEY AUTOINCREMENT, business_id INTEGER, user_id INTEGER, rating INTEGER, comment TEXT, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS reports (id INTEGER PRIMARY KEY AUTOINCREMENT, business_id INTEGER, user_identifier TEXT)",
+        "CREATE TABLE IF NOT EXISTS notifications (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER, user_identifier TEXT, message TEXT, seen INTEGER DEFAULT 0, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS price_guard_items (id INTEGER PRIMARY KEY AUTOINCREMENT, business_id INTEGER, category TEXT, label TEXT, price REAL, image_ref TEXT, ai_name TEXT, ai_verified INTEGER DEFAULT 0, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS ads (id INTEGER PRIMARY KEY AUTOINCREMENT, business_id INTEGER, title TEXT, body TEXT, image_ref TEXT, active INTEGER DEFAULT 1, created_at DATETIME DEFAULT CURRENT_TIMESTAMP, updated_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS agents (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT UNIQUE, password TEXT, whatsapp TEXT, area TEXT, code TEXT UNIQUE, status TEXT DEFAULT 'active', created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS template_pool (id INTEGER PRIMARY KEY AUTOINCREMENT, category TEXT NOT NULL, html TEXT NOT NULL, quality_score INTEGER DEFAULT 0, times_used INTEGER DEFAULT 0, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS invite_codes (id INTEGER PRIMARY KEY AUTOINCREMENT, code TEXT UNIQUE NOT NULL, biz_id INTEGER, agent_id INTEGER, plan TEXT DEFAULT 'promax', used INTEGER DEFAULT 0, used_by_user_id INTEGER, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "CREATE TABLE IF NOT EXISTS daisy_training (id INTEGER PRIMARY KEY AUTOINCREMENT, input TEXT NOT NULL, output TEXT NOT NULL, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        ]
+        for t in tables: conn.execute(t)
+        conn.commit()
+    conn.close()
+
+try: create_tables()
+except Exception as e: print(f"DB init: {e}")
+
+# ── HELPERS ───────────────────────────────────────────────────────────────────
+def login_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        if 'user_id' not in session:
+            return redirect(f'/login?next={request.path}')
+        return f(*args, **kwargs)
+    return decorated
+
+def admin_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        if not session.get('admin_auth'):
+            return redirect('/admin/login')
+        return f(*args, **kwargs)
+    return decorated
+
+def get_current_user():
+    if 'user_id' in session:
+        return db_fetchone(q("SELECT * FROM users WHERE id=?"), (session['user_id'],))
+    return None
+
+def make_slug(name):
+    slug = re.sub(r'[^a-z0-9]+','-',name.lower()).strip('-')[:60]
+    base, i = slug, 1
+    while db_fetchone(q("SELECT id FROM business WHERE slug=?"), (slug,)):
+        slug = f"{base}-{i}"; i += 1
+    return slug
+
+def haversine(lat1,lon1,lat2,lon2):
+    R=6371; d=lambda x:math.radians(x)
+    a=(math.sin(d(lat2-lat1)/2)**2 + math.cos(d(lat1))*math.cos(d(lat2))*math.sin(d(lon2-lon1)/2)**2)
+    return R*2*math.atan2(math.sqrt(a),math.sqrt(1-a))
+
+def biz_to_dict(b):
+    from datetime import datetime, date
+    d = dict(b)
+    for k,v in d.items():
+        if isinstance(v,(datetime,date)): d[k] = v.isoformat()
+    return d
+
+def get_anthropic_client():
+    key = os.environ.get("ANTHROPIC_API_KEY","")
+    if not key: return None
+    try:
+        import anthropic
+        return anthropic.Anthropic(api_key=key)
+    except ImportError:
+        return None
+
+# ── DAISY API CLIENT ──────────────────────────────────────────────────────────
+# Daisy is a separate deployment (her own Render service). TrustedBiz talks to
+# her over HTTP instead of generating content locally. Set these two env vars
+# once her API is live:
+#   DAISY_API_URL = https://daisy-xxxx.onrender.com   (no trailing slash)
+#   DAISY_API_KEY = shared secret so only TrustedBiz can call her
+DAISY_API_URL = os.environ.get("DAISY_API_URL", "").rstrip("/")
+DAISY_API_KEY = os.environ.get("DAISY_API_KEY", "")
+
+def _daisy_extract_html(text):
+    """Pull the HTML out of the ```html:filename.html fenced block Daisy is
+    instructed to reply with. Falls back to a plain ```html fence too."""
+    if not text:
+        return None
+    m = re.search(r"```html:[^\n]*\n(.*?)```", text, re.DOTALL)
+    if not m:
+        m = re.search(r"```html\n(.*?)```", text, re.DOTALL)
+    return m.group(1).strip() if m else None
+
+def call_daisy(mode, context=None, history=None, message=None, timeout=55):
+    """
+    Calls Daisy's real API: POST {DAISY_API_URL}/api/ask, Bearer auth,
+    body {question, history, instructions, model}, response is a stream of
+    newline-delimited JSON events ending in {"event":"final","answer":...}.
+
+    Daisy is a general chat/knowledge assistant, not a purpose-built site
+    generator or a business-info collector, so both of those behaviors are
+    built here by shaping what we ask her and parsing what she sends back.
+    Returns (result_dict, error_string) in the same shape every call site
+    already expects:
+      mode='website' -> {'html': <str>}
+      mode='chat'     -> {'reply': <str>, 'mode': 'website' or None}
+    Never raises — callers don't need try/except.
+    """
+    if not DAISY_API_URL:
+        return None, "Daisy isn't connected yet — set DAISY_API_URL."
+    if not DAISY_API_KEY:
+        return None, "Daisy isn't connected yet — set DAISY_API_KEY."
+
+    context = context or {}
+    history = history or []
+
+    # Translate our own {role, content} history shape into Daisy's
+    # {user, daisy, topic} turn shape.
+    daisy_history = []
+    for h in history:
+        role = h.get('role')
+        content = h.get('content', '')
+        if role == 'user':
+            daisy_history.append({'user': content, 'daisy': '', 'topic': mode})
+        elif role in ('assistant', 'daisy') and daisy_history:
+            daisy_history[-1]['daisy'] = content
+
+    if mode == 'website':
+        name     = context.get('name') or 'this business'
+        category = context.get('category') or 'a local Ugandan business'
+        desc     = context.get('description') or context.get('desc') or ''
+        question = (
+            f'Build a complete, polished single-page business website for "{name}", '
+            f'a {category} business in Uganda. What it does: {desc}. '
+            f'Reply with ONLY one ```html:site.html fenced code block containing the '
+            f'full, self-contained HTML with inline CSS/JS — no explanation, no chat '
+            f'text before or after the fence.'
+        )
+        instructions = "You are generating a real, live website file for a customer. Output only the code fence, nothing else, no preamble."
+    else:  # 'chat'
+        question = message or ''
+        instructions = (
+            "You are Daisy, TrustedBiz's site-building assistant, helping someone "
+            "describe a business they want online. Chat naturally and ask what's "
+            "still missing. The moment you have the business's name, its category, "
+            "and roughly what it does, end your reply on its own new line with "
+            "exactly: [[READY]] — never explain that marker, just include it."
+        )
+
+    payload = {
+        "question": question,
+        "history": daisy_history,
+        "instructions": instructions,
+        "model": "beni2",
+        "web_search_enabled": False,
     }
 
-
-def _find_user_by_email(email):
-    conn = _users_db()
-    row = conn.execute("SELECT * FROM users WHERE email = ?", (email.lower().strip(),)).fetchone()
-    conn.close()
-    return row
-
-
-def _find_user_by_id(user_id):
-    conn = _users_db()
-    row = conn.execute("SELECT * FROM users WHERE id = ?", (user_id,)).fetchone()
-    conn.close()
-    return row
-
-
-def _create_user(email, name, password=None, provider="password"):
-    email = email.lower().strip()
-    with _users_db_lock:
-        user_id = str(uuid.uuid4())
-        conn = _users_db()
-        conn.execute(
-            """INSERT INTO users
-               (id, email, name, password_hash, provider, is_admin, created_at, last_login_at)
-               VALUES (?, ?, ?, ?, ?, 0, ?, ?)""",
-            (
-                user_id, email, name.strip() or email.split("@")[0],
-                generate_password_hash(password) if password else None,
-                provider,
-                datetime.utcnow().isoformat(),
-                datetime.utcnow().isoformat(),
-            ),
+    resp = None
+    try:
+        resp = requests.post(
+            f"{DAISY_API_URL}/api/ask",
+            json=payload,
+            headers={"Authorization": f"Bearer {DAISY_API_KEY}"},
+            timeout=timeout,
         )
-        conn.commit()
-        conn.close()
-    return _find_user_by_id(user_id)
+        resp.raise_for_status()
 
-
-def _touch_user_login(user_id):
-    with _users_db_lock:
-        conn = _users_db()
-        conn.execute("UPDATE users SET last_login_at = ? WHERE id = ?",
-                      (datetime.utcnow().isoformat(), user_id))
-        conn.commit()
-        conn.close()
-
-
-def _log_user_in(row):
-    flask_session.clear()
-    flask_session["user_id"] = row["id"]
-    flask_session.permanent = True
-    _touch_user_login(row["id"])
-
-
-def current_user():
-    """Public dict for the signed-in user, or None. Deliberately never
-    lets a database hiccup take down the page it's guarding — if the
-    lookup fails for any reason, that's treated the same as "not
-    signed in" (safe: worst case someone gets sent to /login) rather
-    than a 500 that breaks the whole request."""
-    uid = flask_session.get("user_id")
-    if not uid:
-        return None
-    try:
-        row = _find_user_by_id(uid)
-    except Exception as e:
-        print(f"[AUTH] current_user() lookup failed for uid={uid}: {e}")
-        return None
-    if not row:
-        flask_session.clear()
-        return None
-    return _user_row_to_public(row)
-
-
-def login_required(view):
-    @wraps(view)
-    def wrapped(*args, **kwargs):
-        if not current_user():
-            if request.path.startswith("/api/") or request.path.startswith("/auth/"):
-                return jsonify({"error": "Sign in required."}), 401
-            return redirect(f"/login?next={request.path}")
-        return view(*args, **kwargs)
-    return wrapped
-
-
-def _verify_google_credential(credential):
-    """Verifies a Google Identity Services ID token via Google's own
-    tokeninfo endpoint. Returns (email, name) or raises ValueError."""
-    if not GOOGLE_CLIENT_ID:
-        raise ValueError("Google sign-in isn't configured on this server yet.")
-    try:
-        resp = requests.get(
-            "https://oauth2.googleapis.com/tokeninfo",
-            params={"id_token": credential}, timeout=8,
-        )
-    except requests.RequestException:
-        raise ValueError("Couldn't reach Google to verify that sign-in. Try again.")
-    if resp.status_code != 200:
-        raise ValueError("That Google sign-in couldn't be verified.")
-    data = resp.json()
-    if data.get("aud") != GOOGLE_CLIENT_ID:
-        raise ValueError("That Google sign-in wasn't issued for this app.")
-    if data.get("email_verified") not in ("true", True):
-        raise ValueError("That Google account's email isn't verified.")
-    return data.get("email"), data.get("name") or data.get("email").split("@")[0]
-
-
-@app.route("/auth/signup", methods=["POST"])
-def auth_signup():
-    body = request.get_json(silent=True) or {}
-    email = (body.get("email") or "").strip()
-    name = (body.get("name") or "").strip()
-    password = body.get("password") or ""
-    if not EMAIL_RE.match(email):
-        return jsonify({"error": "Enter a valid email address."}), 400
-    if len(password) < 8:
-        return jsonify({"error": "Password must be at least 8 characters."}), 400
-    try:
-        if _find_user_by_email(email):
-            return jsonify({"error": "An account already exists for that email. Sign in instead."}), 409
-        row = _create_user(email, name, password=password, provider="password")
-        _log_user_in(row)
-        return jsonify({"user": _user_row_to_public(row)})
-    except Exception as e:
-        print(f"[AUTH] signup failed for {email!r}: {e}")
-        return jsonify({"error": "Couldn't create that account right now. Try again."}), 500
-
-
-@app.route("/auth/login", methods=["POST"])
-def auth_login():
-    body = request.get_json(silent=True) or {}
-    email = (body.get("email") or "").strip()
-    password = body.get("password") or ""
-    try:
-        row = _find_user_by_email(email)
-        if not row or row["provider"] != "password" or not row["password_hash"]:
-            return jsonify({"error": "That email and password don't match."}), 401
-        if not check_password_hash(row["password_hash"], password):
-            return jsonify({"error": "That email and password don't match."}), 401
-        _log_user_in(row)
-        return jsonify({"user": _user_row_to_public(row)})
-    except Exception as e:
-        print(f"[AUTH] login failed for {email!r}: {e}")
-        return jsonify({"error": "Couldn't sign you in right now. Try again."}), 500
-
-
-@app.route("/auth/google", methods=["POST"])
-def auth_google():
-    body = request.get_json(silent=True) or {}
-    credential = body.get("credential") or ""
-    if not credential:
-        return jsonify({"error": "Missing Google credential."}), 400
-    try:
-        email, name = _verify_google_credential(credential)
-    except ValueError as e:
-        return jsonify({"error": str(e)}), 401
-    try:
-        row = _find_user_by_email(email)
-        if not row:
-            row = _create_user(email, name, password=None, provider="google")
-        _log_user_in(row)
-        return jsonify({"user": _user_row_to_public(row)})
-    except Exception as e:
-        print(f"[AUTH] google sign-in failed for {email!r}: {e}")
-        return jsonify({"error": "Couldn't sign you in right now. Try again."}), 500
-
-
-@app.route("/auth/logout", methods=["POST"])
-def auth_logout():
-    flask_session.clear()
-    return jsonify({"ok": True})
-
-
-@app.route("/auth/me", methods=["GET"])
-def auth_me():
-    return jsonify({"user": current_user()})
-
-
-_SECRET_KEY_FILE = os.path.join(os.path.dirname(__file__), ".daisy_secret_key")
-
-
-def _load_or_create_secret_key():
-    env_key = os.environ.get("DAISY_SECRET_KEY")
-    if env_key:
-        return env_key
-    if os.path.exists(_SECRET_KEY_FILE):
-        with open(_SECRET_KEY_FILE, "r") as f:
-            return f.read().strip()
-    key = secrets.token_hex(32)
-    try:
-        with open(_SECRET_KEY_FILE, "w") as f:
-            f.write(key)
-    except OSError:
-        pass
-    return key
-
-
-app.secret_key = _load_or_create_secret_key()
-app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(days=30)
-app.config["SESSION_COOKIE_HTTPONLY"] = True
-app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
-# Render terminates TLS in front of the app, so the cookie can still
-# require Secure — just make it configurable for local http dev.
-app.config["SESSION_COOKIE_SECURE"] = os.environ.get("DAISY_ENV", "production") != "development"
-
-init_users_db()
-
-# ============================================================
-# DAISY BRAIN — Load and run the JSX laws engine
-# ============================================================
-JSX_FILE_PATH = "processing-law-ai.jsx"
-
-_js_context = None
-_js_lock = threading.Lock()
-
-
-def load_daisy_brain():
-    """
-    Load processing-law-ai.jsx into a JS runtime.
-    Called once on startup and after every ingestion cycle.
-    """
-    global _js_context
-    try:
-        with open(JSX_FILE_PATH, "r", encoding="utf-8") as f:
-            raw = f.read()
-
-        # Strip ONLY lines that start with 'import ' (React imports)
-        lines = raw.split('\n')
-        cleaned = []
-        for line in lines:
-            stripped = line.strip()
-            if stripped.startswith('import ') and ('from ' in stripped or stripped.endswith("';") or stripped.endswith('"')):
+        answer = None
+        for line in resp.text.splitlines():
+            line = line.strip()
+            if not line:
                 continue
-            cleaned.append(line)
-        raw = '\n'.join(cleaned)
-
-        # Remove export default function App() and everything after (UI only)
-        app_start = raw.find("export default function App()")
-        if app_start != -1:
-            raw = raw[:app_start]
-
-        # Remove remaining export keywords
-        raw = re.sub(r'\bexport\s+default\s+', '', raw)
-        raw = re.sub(r'\bexport\s+', '', raw)
-
-        # Define EMOTIONS and EMOTION_REPLIES if missing
-        emotions_fix = """
-var EMOTIONS = {
-  sad:      { r: "sad",      c: "#93c5fd" },
-  happy:    { r: "happy",    c: "#86efac" },
-  confused: { r: "confused", c: "#fcd34d" },
-  angry:    { r: "angry",    c: "#fca5a5" },
-  scared:   { r: "scared",   c: "#c4b5fd" },
-  excited:  { r: "excited",  c: "#6ee7b7" }
-};
-var EMOTION_REPLIES = {
-  sad:      ["I'm sorry you're feeling sad. I'm here for you. What's on your mind?",
-             "That sounds tough. Want to talk about it?"],
-  happy:    ["That's great to hear! What's making you happy?",
-             "Love the energy! What can I help you with today?"],
-  confused: ["No worries — let's figure it out together. What are you confused about?",
-             "I'll do my best to make it clear. Ask away."],
-  angry:    ["I hear you. Take a breath — what's going on?",
-             "Let's work through this together."],
-  scared:   ["It's okay to feel that way. What's worrying you?",
-             "I'm here. Tell me what's on your mind."],
-  excited:  ["That energy is contagious! What's got you excited?",
-             "Let's go! What are we working on?"],
-  clarify:  ["Could you tell me more about what you mean?",
-             "I want to understand — can you say that differently?"]
-};
-"""
-        raw = emotions_fix + raw
-
-        # Wrap in daisyProcess function with EXHAUSTIVE personality + context
-        wrapper = raw + """
-// ============================================================
-// CONVERSATIONAL PERSONALITY + CONTEXT ENGINE
-// ============================================================
-
-var _daisyContext = {
-  lastTopic: null,
-  lastAnswer: null,
-  conversationCount: 0,
-  topicHistory: [],
-  responseVariation: {}
-};
-
-function _getVariedResponse(category, responses) {
-  if (!_daisyContext.responseVariation[category]) {
-    _daisyContext.responseVariation[category] = 0;
-  }
-  var idx = _daisyContext.responseVariation[category] % responses.length;
-  _daisyContext.responseVariation[category]++;
-  return responses[idx];
-}
-
-function _handleFollowUp(questionText, lastAnswer, lastTopic) {
-  var q = questionText.toLowerCase().trim();
-  _daisyContext.conversationCount++;
-
-  // ──────────────────────────────────────────────────────
-  // SINGLE WORD / FRAGMENT RESPONSES
-  // ──────────────────────────────────────────────────────
-
-  // "What", "Really", "Why", "How", "Huh" after an answer
-  if (q.match(/^(what|really|why|how|ok|okay|yeah|yes|no|huh|hmm|wow|lol|what\\?|really\\?|why\\?)$/)) {
-    if (lastAnswer) {
-      var deepens = [
-        "Want me to dig deeper into that, or move on?",
-        "Curious about something else, or need more detail?",
-        "Should I explain more, or ask you something different?",
-        "Want the full story, or shall we explore something new?",
-        "Interested in how that works? Or ready for the next thing?",
-        "Need clarification, or want to know more?",
-        "Want to understand it better, or jump to something else?",
-        "Enough about that, or should we go deeper?"
-      ];
-      var chosen = _getVariedResponse('deepens', deepens);
-      _daisyContext.lastAnswer = chosen;
-      return chosen;
-    }
-  }
-
-  // ──────────────────────────────────────────────────────
-  // REQUESTS FOR MORE / CONTINUATION
-  // ──────────────────────────────────────────────────────
-
-  if (q.match(/say something|talk to me|tell me|speak|continue|more|say more|tell me more|talk|chat/i)) {
-    var suggestions = [
-      "I know 10,000+ things! Ask me about science, math, emotions, history, Uganda — anything you're curious about.",
-      "What would you like to explore? Science, math, philosophy, or just have a conversation?",
-      "I'm here for whatever's on your mind. Facts, questions, emotions, scenarios — you name it.",
-      "Ask me something! I can help with almost any topic.",
-      "Curious about anything? I'm ready. Science, life, math, emotions — what interests you?",
-      "Let's dive into something. What topic fascinates you right now?",
-      "I'm all ears! What should we talk about?",
-      "Fire away — ask me anything you've been wondering about.",
-      "The floor is yours. What's interesting you right now?",
-      "Let's make this conversation count. What's on your mind?"
-    ];
-    var suggestion = _getVariedResponse('suggestions', suggestions);
-    _daisyContext.lastAnswer = suggestion;
-    return suggestion;
-  }
-
-  // ──────────────────────────────────────────────────────
-  // ACKNOWLEDGEMENTS / AGREEMENT
-  // ──────────────────────────────────────────────────────
-
-  if (q.match(/^(i see|i get it|got it|i understand|understood|interesting|cool|nice|makes sense|awesome|thanks)$/i)) {
-    var acks = [
-      "Awesome! What else would you like to know?",
-      "Great! Anything else on your mind?",
-      "Glad that landed! Got more questions?",
-      "Perfect! What's next?",
-      "Cool! Keep them coming.",
-      "Thanks for following! What else?",
-      "I love when things click. What's next?",
-      "Excellent! Ready for more?",
-      "Now you've got it! What else?",
-      "Exactly! Want to explore more?"
-    ];
-    var ack = _getVariedResponse('acks', acks);
-    _daisyContext.lastAnswer = ack;
-    return ack;
-  }
-
-  // ──────────────────────────────────────────────────────
-  // CONFUSION / SEEKING CLARIFICATION FROM USER
-  // ──────────────────────────────────────────────────────
-
-  if (q.match(/^(are you|why are you|why do you|why not|are we|is it|do you|can you)/)) {
-    var clarifies = [
-      "I think I might be missing something. Can you rephrase that? I'm best with direct questions.",
-      "Help me understand — what are you really asking? I work better with specific questions.",
-      "I want to get this right. Can you ask that a different way?",
-      "Let me be honest — that's a bit abstract for me. Can you make it more specific?",
-      "I'm not quite following. What's the core question you're asking?",
-      "Can you help me out? Rephrase that as a direct question and I'll nail it.",
-      "I want to give you a real answer. What exactly are you asking?",
-      "That's interesting, but can you ask it more directly? I respond better to concrete questions.",
-      "I'm here to help, but I need clarity. What do you want to know?",
-      "Let's rewind — what's the actual question underneath that?"
-    ];
-    var clarify = _getVariedResponse('clarifies', clarifies);
-    _daisyContext.lastAnswer = clarify;
-    return clarify;
-  }
-
-  // ──────────────────────────────────────────────────────
-  // REQUESTS FOR ENGAGEMENT / "AM I TALKING TO YOU?"
-  // ──────────────────────────────────────────────────────
-
-  if (q.match(/am i (talking|speaking) to you|are you (listening|there)|hello|anyone there|you there|hello there/i)) {
-    var engagements = [
-      "100%! I'm right here and listening. What's on your mind?",
-      "Absolutely! I'm here, I'm listening, and I'm ready. What do you want to know?",
-      "I'm here and all in! Ask away.",
-      "Yes! Present and accounted for. What can I help with?",
-      "Completely here. What would you like to explore?",
-      "I'm listening! Hit me with your question.",
-      "You've got my full attention. What's next?",
-      "I'm here and ready. What's your question?",
-      "100% engaged. What do you want to talk about?",
-      "Right here! Let's have a real conversation. What's on your mind?"
-    ];
-    var engagement = _getVariedResponse('engagements', engagements);
-    _daisyContext.lastAnswer = engagement;
-    return engagement;
-  }
-
-  // ──────────────────────────────────────────────────────
-  // TESTING / "ARE YOU LEARNING"
-  // ──────────────────────────────────────────────────────
-
-  if (q.match(/are you learning|learning everything|learning from this|growing smarter|getting better/i)) {
-    var learnings = [
-      "Absolutely! Every conversation teaches me something new. Keep talking and watch me grow.",
-      "Yes! That's exactly how I work. Every exchange makes me smarter. You're literally helping me evolve.",
-      "100%. I save what I learn from you and improve each day. This conversation? It's making me stronger.",
-      "Definitely! I'm learning in real-time. The more you talk to me, the better I get.",
-      "For sure. I'm not static — I'm growing with every question you ask.",
-      "You bet! Each word you say helps me understand the world better.",
-      "Yes, genuinely! I absorb and adapt. You're part of my evolution.",
-      "Precisely! I learn, I remember, I improve. That's how I became 10,000+ words strong.",
-      "That's the whole point! Every interaction shapes how I respond next time.",
-      "Yep! I'm learning from you right now. Keep going — it makes me better!"
-    ];
-    var learning = _getVariedResponse('learnings', learnings);
-    _daisyContext.lastAnswer = learning;
-    return learning;
-  }
-
-  // ──────────────────────────────────────────────────────
-  // NEGATIVE / FRUSTRATED RESPONSES
-  // ──────────────────────────────────────────────────────
-
-  if (q.match(/why aren't you answering|why not answer|you're not|you're useless|this is bad|terrible|sucks/i)) {
-    var apologetics = [
-      "I hear the frustration. I'm still learning — some things I don't know yet. Help me understand what you're looking for.",
-      "You're right to call that out. I can't know everything. Tell me what I'm missing?",
-      "Fair point. I have limits. What specific answer were you expecting?",
-      "I get it — that wasn't good enough. What question can I actually answer for you?",
-      "You're not wrong. I'm a work in progress. What would help you right now?",
-      "That's honest feedback. Tell me what would actually help you?",
-      "I appreciate the reality check. What do you actually need from me?",
-      "You're pushing me to get better — I respect that. What's the real question?",
-      "Noted. I'm learning my limits. What can I do better?",
-      "You deserve better answers. What would actually be helpful?"
-    ];
-    var apologetic = _getVariedResponse('apologetics', apologetics);
-    _daisyContext.lastAnswer = apologetic;
-    return apologetic;
-  }
-
-  // ──────────────────────────────────────────────────────
-  // SMALL TALK / CASUAL
-  // ──────────────────────────────────────────────────────
-
-  if (q.match(/^(hi|hey|hello|sup|wassup|yo|howdy)$/i)) {
-    var casuals = [
-      "Hey! Great to see you. What's on your mind?",
-      "Yo! What can I help with?",
-      "What's up! Ready to dive in?",
-      "Hey there! What are we talking about?",
-      "Sup! What's interesting you?",
-      "Hello! Let's make this count. What do you want to know?",
-      "Hi! I'm all ears. What's the question?",
-      "Hey! Let's get into it. What's up?",
-      "What's good! Ask me something.",
-      "Hello! Ready when you are."
-    ];
-    var casual = _getVariedResponse('casuals', casuals);
-    _daisyContext.lastAnswer = casual;
-    return casual;
-  }
-
-  // ──────────────────────────────────────────────────────
-  // FALLBACK: GENERIC BUT ENGAGING REDIRECTS
-  // ──────────────────────────────────────────────────────
-
-  if (q.length < 15) {
-    var fallbacks = [
-      "I'm catching fragments here. Can you expand on that?",
-      "That's interesting! Can you tell me more?",
-      "I feel like there's more to that. What do you mean?",
-      "Short but intriguing. What's the full story?",
-      "I want to understand — elaborate for me?",
-      "That's cryptic! What's really on your mind?",
-      "You're being mysterious. What's the actual question?",
-      "I'm intrigued. What exactly are you asking?",
-      "That's a tease. Give me the real question!",
-      "I can sense something there. What is it?"
-    ];
-    var fallback = _getVariedResponse('fallbacks', fallbacks);
-    _daisyContext.lastAnswer = fallback;
-    return fallback;
-  }
-
-  return null; // Not a follow-up pattern — let laws handle it
-}
-
-function daisyProcess(questionText, learnedDictJSON, conversationHistoryJSON) {
-  try {
-    var learnedDict = learnedDictJSON ? JSON.parse(learnedDictJSON) : {};
-    var conversationHistory = conversationHistoryJSON ? JSON.parse(conversationHistoryJSON) : [];
-
-    // STATE-LEAK FIX: _daisyContext is one shared object on the server,
-    // not one per visitor. The old code fell back to whatever was left
-    // in _daisyContext.lastTopic/.lastAnswer from the PREVIOUS request —
-    // which, under real traffic, can belong to a completely different
-    // person. Each request already carries its own conversationHistory
-    // from the client, so that — and only that — is now the source of
-    // truth for "what was just said in THIS conversation." Nothing here
-    // reads the shared global for decisions anymore.
-    var lastTopic = null;
-    var lastAnswer = null;
-    if (conversationHistory.length > 0) {
-      var lastExchange = conversationHistory[conversationHistory.length - 1];
-      lastTopic = lastExchange.topic || null;
-      lastAnswer = lastExchange.daisy || null;
-    }
-    _daisyContext.conversationHistory = conversationHistory;
-
-    var words = extractWords(questionText);
-    var operator = detectOperator(words);
-    var joiners = detectJoiners(words);
-    var fullDict = Object.assign({}, DICTIONARY, learnedDict);
-    // SYNTHESIS FIX: command words ("define", "what", "explain"...) and
-    // joiner words ("and", "because"...) drive the operator/joiner logic
-    // above, but must never be treated as *content* concepts to define —
-    // even if one was accidentally ingested into the dictionary itself.
-    // Without this filter, a question like "define democracy and freedom"
-    // wrongly makes "define" the primary synthesized topic.
-    var contentWords = words.filter(function(w) { return !OPERATORS[w] && !JOINERS[w]; });
-    var collected = collectDictionaryData(contentWords, fullDict);
-    var emotion = detectEmotion(questionText);
-
-    // ──────────────────────────────────────────────────────
-    // PRIORITY 1: Follow-up patterns (conversational flow)
-    // ──────────────────────────────────────────────────────
-    var followUp = _handleFollowUp(questionText, lastAnswer, lastTopic);
-    if (followUp) {
-      return JSON.stringify({ answer: followUp, source: "personality", topic: null });
-    }
-
-    // ──────────────────────────────────────────────────────
-    // PRIORITY 2: Conversational greetings
-    // ──────────────────────────────────────────────────────
-    var convo = detectConversational(questionText);
-    if (convo) {
-      return JSON.stringify({ answer: convo, source: "personality" });
-    }
-
-    // ──────────────────────────────────────────────────────
-    // PRIORITY 3: Math (direct and scenario)
-    // ──────────────────────────────────────────────────────
-    var math = tryMath(questionText);
-    if (math) {
-      return JSON.stringify({ answer: math, source: "math" });
-    }
-
-    var scenario = tryScenarioMath(questionText);
-    if (scenario) {
-      return JSON.stringify({ answer: scenario, source: "scenario" });
-    }
-
-    // ──────────────────────────────────────────────────────
-    // PRIORITY 4: Dictionary + Synthesis
-    // ──────────────────────────────────────────────────────
-    if (collected.length > 0) {
-      var synthesized = synthesizeAnswer(questionText, operator, collected, joiners);
-      if (synthesized) {
-        var prefix = emotion ? emotionReply(emotion.r) + " — " : "";
-        var answer = prefix + synthesized;
-        return JSON.stringify({
-          answer: answer,
-          source: collected.length > 1 ? "synthesis" : "dictionary",
-          emotionColor: emotion ? emotion.c : null
-        });
-      }
-    }
-
-    // ──────────────────────────────────────────────────────
-    // PRIORITY 5: Emotion only
-    // ──────────────────────────────────────────────────────
-    if (emotion && collected.length === 0) {
-      var emotionalReply = emotionReply(emotion.r);
-      return JSON.stringify({ answer: emotionalReply, source: "emotion" });
-    }
-
-    // ──────────────────────────────────────────────────────
-    // PRIORITY 6: Unknown — signal for fallback
-    // ──────────────────────────────────────────────────────
-    return JSON.stringify({ answer: null, source: "unknown" });
-
-  } catch(e) {
-    return JSON.stringify({ answer: null, source: "error", error: e.toString() });
-  }
-}
-"""
-        ctx = py_mini_racer.MiniRacer()
-        ctx.eval(wrapper)
-        with _js_lock:
-            _js_context = ctx
-        print(f"[DAISY] Brain loaded from {JSX_FILE_PATH}")
-        return True
-
-    except Exception as e:
-        print(f"[DAISY] Brain load error: {e}")
-        return False
-
-
-def ask_daisy(question, learned_dict=None, conversation_history=None):
-    """
-    Run question through daisyProcess.
-    Log conversations for training.
-    No external imports — everything embedded.
-    """
-    with _js_lock:
-        ctx = _js_context
-    if not ctx:
-        return {"answer": None, "source": "error", "error": "Brain not loaded"}
-    try:
-        # Translate word math operators
-        q = question
-        q = re.sub(r'\bplus\b', '+', q, flags=re.IGNORECASE)
-        q = re.sub(r'\bminus\b', '-', q, flags=re.IGNORECASE)
-        q = re.sub(r'\btimes\b', '*', q, flags=re.IGNORECASE)
-        q = re.sub(r'\bmultiplied by\b', '*', q, flags=re.IGNORECASE)
-        q = re.sub(r'\bdivided by\b', '/', q, flags=re.IGNORECASE)
-
-        learned_json = json.dumps(learned_dict or {})
-        history_json = json.dumps(conversation_history or [])
-        safe_q = q.replace("\\", "\\\\").replace('"', '\\"')
-        
-        # Get response from JS engine
-        result = ctx.eval(f'daisyProcess("{safe_q}", {json.dumps(learned_json)}, {json.dumps(history_json)})')
-        result_data = json.loads(result)
-        
-        if "error" in result_data:
-            return result_data
-        
-        # Log conversation (lightweight JSONL) — this is real training
-        # data: what people actually ask Daisy and what she answers.
-        # Written locally, then periodically pushed to GitHub so it
-        # survives Render restarts (same problem the crawler hit with
-        # daisy_queue.json before that got fixed).
-        try:
-            exchange = {
-                "timestamp": datetime.now().isoformat(),
-                "user": question,
-                "daisy": result_data.get("answer"),
-                "source": result_data.get("source", "unknown"),
-                "topics": [result_data.get("topic")] if result_data.get("topic") else []
-            }
-            with open("daisy_conversations.jsonl", "a", encoding="utf-8") as f:
-                f.write(json.dumps(exchange) + "\n")
-            _maybe_push_conversations()
-        except:
-            pass  # Non-critical
-        
-        return result_data
-        
-    except Exception as e:
-        print(f"[DAISY] ask_daisy error: {e}")
-        return {"answer": None, "source": "error", "error": str(e)}
-
-
-# ============================================================
-# CONVERSATION LOG PERSISTENCE
-# Pushes daisy_conversations.jsonl to GitHub periodically (not on
-# every single message, to avoid hammering git) so real training
-# data survives Render restarts instead of vanishing on redeploy.
-# ============================================================
-_conv_push_lock = threading.Lock()
-_conv_last_push = 0
-CONV_PUSH_INTERVAL_SECONDS = 120  # push at most every 2 minutes
-
-GITHUB_TOKEN     = os.environ.get("GITHUB_TOKEN", "")
-GITHUB_REPO_URL  = os.environ.get("GITHUB_REPO_URL", "")
-
-
-def _maybe_push_conversations():
-    """Push the conversation log to GitHub, rate-limited to avoid
-    spamming a commit on every single chat message."""
-    global _conv_last_push
-    now = time.time()
-    with _conv_push_lock:
-        if now - _conv_last_push < CONV_PUSH_INTERVAL_SECONDS:
-            return
-        _conv_last_push = now
-
-    if not GITHUB_TOKEN or not GITHUB_REPO_URL:
-        return  # Same env vars the crawler already uses for git push
-
-    try:
-        import subprocess
-        repo_dir = os.path.dirname(os.path.abspath("daisy_conversations.jsonl")) or "."
-        auth_url = GITHUB_REPO_URL.replace("https://", f"https://{GITHUB_TOKEN}@") \
-            if "https://" in GITHUB_REPO_URL else GITHUB_REPO_URL
-        env = {
-            **os.environ,
-            "GIT_AUTHOR_NAME": "Daisy",
-            "GIT_AUTHOR_EMAIL": "daisy@trustedbiz.co.ug",
-            "GIT_COMMITTER_NAME": "Daisy",
-            "GIT_COMMITTER_EMAIL": "daisy@trustedbiz.co.ug",
-        }
-
-        def run(cmd):
-            return subprocess.run(cmd, cwd=repo_dir, env=env, capture_output=True, text=True)
-
-        run(["git", "add", "daisy_conversations.jsonl"])
-        diff = run(["git", "diff", "--cached", "--quiet"])
-        if diff.returncode == 0:
-            return  # nothing new to commit
-
-        msg = f"Daisy conversation log update [{datetime.now().strftime('%Y-%m-%d %H:%M')}]"
-        run(["git", "commit", "-m", msg])
-
-        push = run(["git", "push", auth_url, "HEAD:main"])
-        if push.returncode != 0:
-            # Likely rejected because the crawler pushed in between.
-            # Pull first (same fix that solved this exact race condition
-            # for the crawler's own pushes), then retry once.
-            run(["git", "pull", auth_url, "main", "--no-rebase"])
-            push = run(["git", "push", auth_url, "HEAD:main"])
-            if push.returncode != 0:
-                print(f"[CONV LOG] Push still failed after pull: {push.stderr}")
-    except Exception as e:
-        print(f"[CONV LOG] Push failed: {e}")
-
-
-# ============================================================
-# PROJECTS — shared workspaces that sync across devices/people.
-#
-# A project is a lightweight "room": anyone with its share code can
-# join it from any device and see/add chats inside it. No accounts
-# needed for this first version — the share code IS the access key,
-# the same way a Google Doc link or a Zoom code works. Good enough
-# to let a small team collaborate; can be upgraded to real auth
-# (per-user permissions, revoke access, etc.) later without changing
-# the data model below.
-# ============================================================
-
-PROJECTS_DB_PATH = os.environ.get("DAISY_PROJECTS_DB", os.path.join(os.path.dirname(__file__), "daisy_projects.db"))
-_projects_db_lock = threading.Lock()
-
-
-def _projects_db():
-    conn = sqlite3.connect(PROJECTS_DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
-
-
-def init_projects_db():
-    with _projects_db_lock:
-        conn = _projects_db()
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS projects (
-                id          TEXT PRIMARY KEY,
-                name        TEXT NOT NULL,
-                share_code  TEXT UNIQUE NOT NULL,
-                created_at  TEXT NOT NULL
-            )
-        """)
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS project_chats (
-                id          TEXT NOT NULL,
-                project_id  TEXT NOT NULL,
-                title       TEXT,
-                messages    TEXT NOT NULL DEFAULT '[]',
-                updated_at  TEXT NOT NULL,
-                PRIMARY KEY (id, project_id)
-            )
-        """)
-        conn.commit()
-        conn.close()
-
-
-def _new_share_code():
-    # Short, easy to read aloud/type on a phone: 6 chars, no ambiguous 0/O/1/I.
-    alphabet = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"
-    return "".join(secrets.choice(alphabet) for _ in range(6))
-
-
-init_projects_db()
-
-
-# ============================================================
-# DEVELOPER CONSOLE — backs the /console dashboard: API keys,
-# webhooks, and integration settings (embed widget, WhatsApp).
-# Same lightweight sqlite pattern as the projects DB above, same
-# caveat too: Render wipes local disk on redeploy, so this survives
-# within one deploy but not across deploys until it gets the same
-# GitHub-push persistence treatment as daisy_corrections.json.
-# Corrections themselves reuse the existing save_correction() /
-# _learned_corrections store above — no separate table needed.
-# ============================================================
-CONSOLE_DB_PATH = os.environ.get("DAISY_CONSOLE_DB", os.path.join(os.path.dirname(__file__), "daisy_console.db"))
-_console_db_lock = threading.Lock()
-
-def _console_db():
-    conn = sqlite3.connect(CONSOLE_DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
-
-def init_console_db():
-    with _console_db_lock:
-        conn = _console_db()
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS api_keys (
-                id          TEXT PRIMARY KEY,
-                name        TEXT NOT NULL,
-                key_value   TEXT NOT NULL,
-                created_at  TEXT NOT NULL,
-                last_used   TEXT
-            )
-        """)
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS webhooks (
-                id          TEXT PRIMARY KEY,
-                url         TEXT NOT NULL,
-                events      TEXT NOT NULL,
-                created_at  TEXT NOT NULL
-            )
-        """)
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS embed_settings (
-                id        INTEGER PRIMARY KEY CHECK (id = 1),
-                color     TEXT NOT NULL DEFAULT '#7eb8f7',
-                position  TEXT NOT NULL DEFAULT 'bottom-right',
-                greeting  TEXT NOT NULL DEFAULT "Hi, I'm Daisy. Ask me anything."
-            )
-        """)
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS whatsapp_settings (
-                id       INTEGER PRIMARY KEY CHECK (id = 1),
-                number   TEXT NOT NULL DEFAULT '',
-                enabled  INTEGER NOT NULL DEFAULT 0
-            )
-        """)
-        conn.commit()
-        conn.close()
-
-init_console_db()
-
-
-def require_api_key(fn):
-    """Gate a route behind a real console-issued API key, checked
-    against the api_keys table. Deliberately NOT applied to /ask —
-    that stays the app's own open internal chat endpoint exactly as
-    it already works today. This only protects the new /api/ask
-    route meant for outside developers using a generated key."""
-    from functools import wraps
-    @wraps(fn)
-    def wrapper(*args, **kwargs):
-        auth = request.headers.get("Authorization", "")
-        token = auth[7:] if auth.startswith("Bearer ") else ""
-        if not token:
-            return jsonify({"error": "Missing API key. Send it as 'Authorization: Bearer <key>'."}), 401
-        conn = _console_db()
-        row = conn.execute("SELECT id FROM api_keys WHERE key_value = ?", (token,)).fetchone()
-        conn.close()
-        if not row:
-            return jsonify({"error": "Invalid or revoked API key"}), 401
-        with _console_db_lock:
-            conn = _console_db()
-            conn.execute("UPDATE api_keys SET last_used = ? WHERE key_value = ?",
-                         (datetime.utcnow().isoformat(), token))
-            conn.commit()
-            conn.close()
-        return fn(*args, **kwargs)
-    return wrapper
-
-
-@app.route("/login")
-def login_page():
-    return render_template("login.html", google_client_id=os.environ.get("GOOGLE_CLIENT_ID", ""))
-
-
-@app.route("/signup")
-def signup_page():
-    return render_template("login.html", google_client_id=os.environ.get("GOOGLE_CLIENT_ID", ""))
-
-
-@app.route("/logout")
-def logout_page():
-    from flask import session as _session
-    _session.clear()
-    return redirect("/")
-
-
-@app.route("/console")
-@login_required
-def console_page():
-    """Daisy's developer console — dashboard, API keys, playground,
-    integrations, and knowledge/corrections management."""
-    return render_template("console.html")
-
-
-@app.route("/api/keys", methods=["GET"])
-@login_required
-def list_keys():
-    conn = _console_db()
-    rows = conn.execute(
-        "SELECT id, name, key_value, created_at, last_used FROM api_keys ORDER BY created_at DESC"
-    ).fetchall()
-    conn.close()
-    return jsonify([dict(r) for r in rows])
-
-
-@app.route("/api/keys", methods=["POST"])
-@login_required
-def create_key():
-    data = request.get_json(silent=True) or {}
-    conn_count = _console_db()
-    existing = conn_count.execute("SELECT COUNT(*) AS n FROM api_keys").fetchone()["n"]
-    conn_count.close()
-    name = (data.get("name") or f"Key {existing + 1}").strip()[:60]
-    key_id = uuid.uuid4().hex[:12]
-    key_value = "sk_daisy_" + secrets.token_hex(24)
-    created_at = datetime.utcnow().isoformat()
-    with _console_db_lock:
-        conn = _console_db()
-        conn.execute(
-            "INSERT INTO api_keys (id, name, key_value, created_at, last_used) VALUES (?,?,?,?,?)",
-            (key_id, name, key_value, created_at, None)
-        )
-        conn.commit()
-        conn.close()
-    return jsonify({"id": key_id, "name": name, "key_value": key_value, "created_at": created_at, "last_used": None})
-
-
-@app.route("/api/keys/<key_id>", methods=["DELETE"])
-@login_required
-def revoke_key(key_id):
-    with _console_db_lock:
-        conn = _console_db()
-        conn.execute("DELETE FROM api_keys WHERE id = ?", (key_id,))
-        conn.commit()
-        conn.close()
-    return jsonify({"ok": True})
-
-
-@app.route("/api/corrections", methods=["GET"])
-@login_required
-def list_corrections():
-    with _corrections_lock:
-        items = [{"question": k, "answer": v} for k, v in _learned_corrections.items()]
-    return jsonify(items)
-
-
-@app.route("/api/corrections", methods=["POST"])
-@login_required
-def add_correction_api():
-    """Teach Daisy a correction from the console's Knowledge page —
-    same store /ask already reads from via get_correction()."""
-    data = request.get_json(silent=True) or {}
-    question = (data.get("question") or "").strip()
-    answer = (data.get("answer") or "").strip()
-    if not question or not answer:
-        return jsonify({"error": "Both question and answer are required"}), 400
-    save_correction(question, answer)
-    return jsonify({"ok": True})
-
-
-@app.route("/api/corrections", methods=["DELETE"])
-@login_required
-def delete_correction_api():
-    data = request.get_json(silent=True) or {}
-    question = (data.get("question") or "").strip()
-    key = _normalize_question(question)
-    if not key:
-        return jsonify({"error": "Missing question"}), 400
-    with _corrections_lock:
-        _learned_corrections.pop(key, None)
-        snapshot = dict(_learned_corrections)
-    try:
-        with open(CORRECTIONS_FILE, "w", encoding="utf-8") as f:
-            json.dump(snapshot, f, ensure_ascii=False, indent=2)
-    except Exception as e:
-        print(f"[CORRECTIONS] Failed to persist delete: {e}")
-    _maybe_push_corrections()
-    return jsonify({"ok": True})
-
-
-@app.route("/api/webhooks", methods=["GET"])
-@login_required
-def list_webhooks():
-    conn = _console_db()
-    rows = conn.execute("SELECT id, url, events, created_at FROM webhooks ORDER BY created_at DESC").fetchall()
-    conn.close()
-    return jsonify([
-        {"id": r["id"], "url": r["url"], "events": json.loads(r["events"]), "created_at": r["created_at"]}
-        for r in rows
-    ])
-
-
-@app.route("/api/webhooks", methods=["POST"])
-@login_required
-def add_webhook():
-    data = request.get_json(silent=True) or {}
-    url = (data.get("url") or "").strip()
-    events = data.get("events") or []
-    if not url or not events:
-        return jsonify({"error": "A URL and at least one event are required"}), 400
-    webhook_id = uuid.uuid4().hex[:12]
-    created_at = datetime.utcnow().isoformat()
-    with _console_db_lock:
-        conn = _console_db()
-        conn.execute(
-            "INSERT INTO webhooks (id, url, events, created_at) VALUES (?,?,?,?)",
-            (webhook_id, url, json.dumps(events), created_at)
-        )
-        conn.commit()
-        conn.close()
-    return jsonify({"id": webhook_id, "url": url, "events": events, "created_at": created_at})
-
-
-@app.route("/api/webhooks/<webhook_id>", methods=["DELETE"])
-@login_required
-def delete_webhook(webhook_id):
-    with _console_db_lock:
-        conn = _console_db()
-        conn.execute("DELETE FROM webhooks WHERE id = ?", (webhook_id,))
-        conn.commit()
-        conn.close()
-    return jsonify({"ok": True})
-
-
-@app.route("/api/integrations/embed", methods=["GET"])
-@login_required
-def get_embed_settings():
-    conn = _console_db()
-    row = conn.execute("SELECT color, position, greeting FROM embed_settings WHERE id = 1").fetchone()
-    conn.close()
-    if not row:
-        return jsonify({"color": "#7eb8f7", "position": "bottom-right", "greeting": "Hi, I'm Daisy. Ask me anything."})
-    return jsonify(dict(row))
-
-
-@app.route("/api/integrations/embed", methods=["POST"])
-@login_required
-def save_embed_settings():
-    data = request.get_json(silent=True) or {}
-    color = (data.get("color") or "#7eb8f7").strip()[:20]
-    position = (data.get("position") or "bottom-right").strip()[:20]
-    greeting = (data.get("greeting") or "Hi, I'm Daisy. Ask me anything.").strip()[:200]
-    with _console_db_lock:
-        conn = _console_db()
-        conn.execute("""
-            INSERT INTO embed_settings (id, color, position, greeting) VALUES (1, ?, ?, ?)
-            ON CONFLICT(id) DO UPDATE SET color=excluded.color, position=excluded.position, greeting=excluded.greeting
-        """, (color, position, greeting))
-        conn.commit()
-        conn.close()
-    return jsonify({"ok": True})
-
-
-@app.route("/api/integrations/whatsapp", methods=["GET"])
-@login_required
-def get_whatsapp_settings():
-    conn = _console_db()
-    row = conn.execute("SELECT number, enabled FROM whatsapp_settings WHERE id = 1").fetchone()
-    conn.close()
-    if not row:
-        return jsonify({"number": "", "enabled": False})
-    return jsonify({"number": row["number"], "enabled": bool(row["enabled"])})
-
-
-@app.route("/api/integrations/whatsapp", methods=["POST"])
-@login_required
-def save_whatsapp_settings():
-    data = request.get_json(silent=True) or {}
-    number = (data.get("number") or "").strip()[:32]
-    enabled = bool(data.get("enabled"))
-    with _console_db_lock:
-        conn = _console_db()
-        conn.execute("""
-            INSERT INTO whatsapp_settings (id, number, enabled) VALUES (1, ?, ?)
-            ON CONFLICT(id) DO UPDATE SET number=excluded.number, enabled=excluded.enabled
-        """, (number, int(enabled)))
-        conn.commit()
-        conn.close()
-    return jsonify({"ok": True})
-
-
-# ============================================================
-# PDF EXPORT — turns one of Daisy's answers into a downloadable,
-# nicely formatted PDF. Handles the lightweight markdown Daisy's
-# answers already use (headings, **bold**, *italic*, `code`, bullet
-# and numbered lists) instead of dumping raw text onto the page.
-# ============================================================
-
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.colors import HexColor
-from reportlab.lib.enums import TA_LEFT
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, ListFlowable, ListItem, Table, TableStyle
-
-_PDF_STYLES = getSampleStyleSheet()
-_PDF_STYLES.add(ParagraphStyle(
-    name="DaisyTitle", parent=_PDF_STYLES["Title"],
-    textColor=HexColor("#3a6fa8"), fontSize=20, spaceAfter=16, alignment=TA_LEFT
-))
-_PDF_STYLES.add(ParagraphStyle(
-    name="DaisyBody", parent=_PDF_STYLES["Normal"],
-    fontSize=10.5, leading=15, spaceAfter=8
-))
-
-
-def _md_inline_to_reportlab(s):
-    """Escape for XML, then convert the small set of markdown Daisy's
-    answers use into reportlab's Paragraph mini-markup."""
-    s = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
-    s = re.sub(r"(?<!\*)\*([^*\n]+?)\*(?!\*)", r"<i>\1</i>", s)
-    s = re.sub(r"`([^`]+?)`", r'<font face="Courier">\1</font>', s)
-    return s
-
-
-def _parse_table_row(line):
-    cells = line.strip()
-    if cells.startswith("|"):
-        cells = cells[1:]
-    if cells.endswith("|"):
-        cells = cells[:-1]
-    return [c.strip() for c in cells.split("|")]
-
-
-def _is_table_separator(line):
-    return bool(re.match(r"^\s*\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?\s*$", line))
-
-
-def _markdown_to_flowables(text):
-    flow = []
-    lines = (text or "").replace("\r\n", "\n").split("\n")
-    i = 0
-    while i < len(lines):
-        line = lines[i].rstrip()
-
-        if not line.strip():
-            flow.append(Spacer(1, 6))
-            i += 1
-            continue
-
-        # Markdown table: a row with pipes, immediately followed by a
-        # ---|--- separator row. Common in comparisons and any kind of
-        # roster/marks/report data — renders as an actual bordered table,
-        # not literal pipe characters.
-        if "|" in line and i + 1 < len(lines) and _is_table_separator(lines[i + 1]):
-            header = _parse_table_row(line)
-            rows = [[Paragraph(f"<b>{_md_inline_to_reportlab(c)}</b>", _PDF_STYLES["DaisyBody"]) for c in header]]
-            i += 2
-            while i < len(lines) and "|" in lines[i] and lines[i].strip():
-                rows.append([Paragraph(_md_inline_to_reportlab(c), _PDF_STYLES["DaisyBody"]) for c in _parse_table_row(lines[i])])
-                i += 1
-            table = Table(rows, hAlign="LEFT", repeatRows=1)
-            table.setStyle(TableStyle([
-                ("BACKGROUND", (0, 0), (-1, 0), HexColor("#e8f0fb")),
-                ("GRID", (0, 0), (-1, -1), 0.6, HexColor("#c9c9c9")),
-                ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                ("LEFTPADDING", (0, 0), (-1, -1), 6),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 6),
-                ("TOPPADDING", (0, 0), (-1, -1), 5),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
-            ]))
-            flow.append(table)
-            flow.append(Spacer(1, 10))
-            continue
-
-        heading = re.match(r"^(#{1,3})\s+(.*)", line)
-        if heading:
-            level = len(heading.group(1))
-            style = {1: "Heading1", 2: "Heading2", 3: "Heading3"}[level]
-            flow.append(Paragraph(_md_inline_to_reportlab(heading.group(2)), _PDF_STYLES[style]))
-            i += 1
-            continue
-
-        if re.match(r"^[-*]\s+.+", line) or re.match(r"^\d+\.\s+.+", line):
-            is_numbered = bool(re.match(r"^\d+\.\s+.+", line))
-            items = []
-            while i < len(lines):
-                l = lines[i].rstrip()
-                bm = re.match(r"^[-*]\s+(.*)", l)
-                nm = re.match(r"^\d+\.\s+(.*)", l)
-                this_numbered = bool(nm)
-                if not (bm or nm) or this_numbered != is_numbered:
-                    break
-                content = (bm or nm).group(1)
-                items.append(ListItem(Paragraph(_md_inline_to_reportlab(content), _PDF_STYLES["DaisyBody"]), leftIndent=14))
-                i += 1
-            bullet_type = "1" if is_numbered else "bullet"
-            flow.append(ListFlowable(items, bulletType=bullet_type, start=(1 if is_numbered else "circle"), leftIndent=18, spaceAfter=8))
-            continue
-
-        flow.append(Paragraph(_md_inline_to_reportlab(line), _PDF_STYLES["DaisyBody"]))
-        i += 1
-
-    return flow
-
-
-def build_pdf(title, content):
-    """Returns a BytesIO buffer containing the finished PDF."""
-    buf = io.BytesIO()
-    doc = SimpleDocTemplate(
-        buf, pagesize=A4,
-        topMargin=58, bottomMargin=50, leftMargin=54, rightMargin=54,
-        title=(title or "Daisy")[:120],
-    )
-
-    flow = [Paragraph(_md_inline_to_reportlab(title or "Daisy"), _PDF_STYLES["DaisyTitle"]), Spacer(1, 4)]
-    flow += _markdown_to_flowables(content)
-
-    def _footer(canvas, doc_):
-        canvas.saveState()
-        canvas.setFont("Helvetica", 8)
-        canvas.setFillColor(HexColor("#8a8a8a"))
-        canvas.drawString(54, 26, "Generated by Daisy")
-        canvas.drawRightString(A4[0] - 54, 26, f"Page {doc_.page}")
-        canvas.restoreState()
-
-    doc.build(flow, onFirstPage=_footer, onLaterPages=_footer)
-    buf.seek(0)
-    return buf
-
-
-# ============================================================
-# ROUTES
-# ============================================================
-
-@app.route("/")
-def index():
-    """Serve Daisy's face. Guests are welcome unless DAISY_REQUIRE_ACCOUNT
-    is turned on (frozen off for now — see the note by REQUIRE_ACCOUNT)."""
-    if REQUIRE_ACCOUNT and not current_user():
-        return redirect("/login?next=/")
-    return render_template("index.html")
-
-
-@app.route("/welcome")
-def welcome():
-    """Daisy's public marketing/landing page — separate from the app
-    itself so the existing '/' chat experience is untouched."""
-    return render_template("landing.html")
-
-
-@app.route("/privacy")
-def privacy_policy():
-    """Public privacy policy page. Linked from the Play Store listing
-    and the Play Console data safety form, so it needs to live at a
-    stable, permanent URL outside the app itself."""
-    return render_template("privacy.html")
-
-
-@app.route("/terms")
-def terms_of_use():
-    """Public terms of use page. Linked from the Play Store listing
-    alongside the privacy policy."""
-    return render_template("terms.html")
-
-
-@app.route("/export/pdf", methods=["POST"])
-def export_pdf():
-    """Turn a Daisy answer (or anything the client sends) into a PDF
-    download. Called either because the user explicitly asked for a
-    PDF, or they tapped 'Save as PDF' under a long answer."""
-    data = request.get_json(silent=True) or {}
-    title = (data.get("title") or "Daisy").strip()[:120]
-    content = (data.get("content") or "").strip()
-    if not content:
-        return jsonify({"error": "Nothing to export"}), 400
-
-    try:
-        buf = build_pdf(title, content)
-    except Exception:
-        return jsonify({"error": "Could not generate that PDF"}), 500
-
-    safe_name = re.sub(r"[^\w\- ]+", "", title).strip().replace(" ", "-")[:60] or "daisy-answer"
-    return send_file(buf, mimetype="application/pdf", as_attachment=True, download_name=f"{safe_name}.pdf")
-
-
-@app.route("/.well-known/assetlinks.json")
-def asset_links():
-    """Proves to Android that this website and the Daisy TWA app are the
-    same entity — required for the app to open in its own window instead
-    of falling back to a browser tab. Must be served at exactly this path."""
-    return send_from_directory(app.root_path + "/templates", "assetlinks.json")
-
-
-@app.route("/download/daisy.apk")
-def download_apk():
-    """Direct APK download — works even when the browser's PWA install
-    prompt gets denied, delayed, or unsupported, which is exactly the
-    case that was leaving people dumped on the raw chat page instead
-    of actually getting Daisy installed. Serves from templates/ same
-    as the other static assets (icons, manifest)."""
-    return send_from_directory(
-        app.root_path + "/templates", "Daisy.apk",
-        as_attachment=True, download_name="Daisy.apk"
-    )
-
-
-@app.route("/google2c13209b099aea62.html")
-def google_site_verification():
-    """Google Search Console ownership verification file. Must be served
-    at exactly this root URL — that's the whole check, nothing dynamic
-    needed here, just hand back the file Google gave us."""
-    return send_from_directory(app.root_path + "/templates", "google2c13209b099aea62.html")
-
-
-@app.route("/robots.txt")
-def robots_txt():
-    """Tells search engine crawlers what they're allowed to visit.
-    We let them see the marketing page but keep them out of the
-    chat app itself and all API/internal routes — those aren't
-    meant to show up in search results."""
-    lines = [
-        "User-agent: *",
-        "Allow: /welcome",
-        "Disallow: /ask",
-        "Disallow: /api/",
-        "Disallow: /reload",
-        "Disallow: /daisy/",
-        "Disallow: /export/",
-        "Sitemap: https://daisy-qg1c.onrender.com/sitemap.xml",
-    ]
-    return Response("\n".join(lines), mimetype="text/plain")
-
-
-@app.route("/sitemap.xml")
-def sitemap_xml():
-    """A simple map of the pages worth indexing. Right now that's just
-    the marketing page — add more <url> blocks here as more public
-    pages get built."""
-    xml = """<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://daisy-qg1c.onrender.com/welcome</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>"""
-    return Response(xml, mimetype="application/xml")
-
-
-@app.route("/manifest.json")
-def serve_manifest():
-    """manifest.json also lives in templates/, same reasoning as /icons/ above."""
-    return send_from_directory(app.root_path + "/templates", "manifest.json")
-
-
-@app.route("/icons/<path:filename>")
-def serve_icons(filename):
-    """
-    Icon files live directly in templates/ (same folder as index.html /
-    landing.html) — no subfolder, so they can be uploaded one at a time
-    from a phone. Flask doesn't serve templates/ over the web on its
-    own, so this route exposes them at /icons/<file>. Restricted to
-    image extensions so it can't be used to fetch the raw .html files
-    sitting in the same folder.
-    """
-    if not filename.lower().endswith((".png", ".ico", ".jpg", ".jpeg", ".svg")):
-        return jsonify({"error": "Not found"}), 404
-    return send_from_directory(app.root_path + "/templates", filename)
-
-
-@app.route("/sw.js")
-def service_worker():
-    """
-    Served at the root path (not /sw.js under some subfolder) so its default scope
-    covers the whole app, letting the installed PWA open the app shell
-    instantly instead of a blank/loading screen on a slow connection.
-    """
-    return send_from_directory(app.root_path + "/templates", "sw.js")
-
-
-@app.route("/api/projects", methods=["POST"])
-def create_project():
-    """Create a new shared project. Returns its id + share code."""
-    data = request.get_json(silent=True) or {}
-    name = (data.get("name") or "Untitled project").strip()[:80]
-    pid = uuid.uuid4().hex[:12]
-    code = _new_share_code()
-    with _projects_db_lock:
-        conn = _projects_db()
-        for _ in range(5):
             try:
-                conn.execute(
-                    "INSERT INTO projects (id, name, share_code, created_at) VALUES (?,?,?,?)",
-                    (pid, name, code, datetime.utcnow().isoformat())
-                )
-                conn.commit()
-                break
-            except sqlite3.IntegrityError:
-                code = _new_share_code()
-        conn.close()
-    return jsonify({"id": pid, "name": name, "share_code": code})
+                evt = json.loads(line)
+            except ValueError:
+                continue
+            if evt.get('event') == 'final':
+                answer = evt.get('answer', '')
+        if answer is None:
+            try:
+                single = resp.json()
+                answer = single.get('answer') or single.get('reply') or ''
+            except ValueError:
+                answer = resp.text
 
+        if mode == 'website':
+            html = _daisy_extract_html(answer)
+            if not html:
+                return None, "Daisy replied but didn't send back a usable site file. Try again."
+            return {'html': html}, None
+        else:
+            ready = '[[READY]]' in (answer or '')
+            reply = (answer or '').replace('[[READY]]', '').strip()
+            return {'reply': reply, 'mode': 'website' if ready else None}, None
 
-@app.route("/api/projects/join", methods=["POST"])
-def join_project():
-    """Look up a project by its share code so another device/person can join it."""
-    data = request.get_json(silent=True) or {}
-    code = (data.get("code") or "").strip().upper()
-    if not code:
-        return jsonify({"error": "Missing code"}), 400
-    conn = _projects_db()
-    row = conn.execute("SELECT * FROM projects WHERE share_code = ?", (code,)).fetchone()
-    conn.close()
-    if not row:
-        return jsonify({"error": "No project found for that code"}), 404
-    return jsonify({"id": row["id"], "name": row["name"], "share_code": row["share_code"]})
-
-
-@app.route("/api/projects/<project_id>", methods=["GET"])
-def get_project(project_id):
-    """Project info + its list of chats (newest first)."""
-    conn = _projects_db()
-    proj = conn.execute("SELECT * FROM projects WHERE id = ?", (project_id,)).fetchone()
-    if not proj:
-        conn.close()
-        return jsonify({"error": "Project not found"}), 404
-    chats = conn.execute(
-        "SELECT id, title, updated_at FROM project_chats WHERE project_id = ? ORDER BY updated_at DESC",
-        (project_id,)
-    ).fetchall()
-    conn.close()
-    return jsonify({
-        "id": proj["id"],
-        "name": proj["name"],
-        "share_code": proj["share_code"],
-        "chats": [{"id": c["id"], "title": c["title"], "updated_at": c["updated_at"]} for c in chats]
-    })
-
-
-@app.route("/api/projects/<project_id>/chats/<chat_id>", methods=["GET"])
-def get_project_chat(project_id, chat_id):
-    """Full messages for one chat inside a project."""
-    conn = _projects_db()
-    row = conn.execute(
-        "SELECT * FROM project_chats WHERE project_id = ? AND id = ?",
-        (project_id, chat_id)
-    ).fetchone()
-    conn.close()
-    if not row:
-        return jsonify({"error": "Chat not found"}), 404
-    return jsonify({
-        "id": row["id"],
-        "title": row["title"],
-        "messages": json.loads(row["messages"] or "[]")
-    })
-
-
-@app.route("/api/projects/<project_id>/chats/<chat_id>", methods=["PUT"])
-def save_project_chat(project_id, chat_id):
-    """Create-or-update a chat inside a project — this is what keeps every
-    device/person in the project in sync with each other."""
-    data = request.get_json(silent=True) or {}
-    title = (data.get("title") or "New chat").strip()[:120]
-    messages = data.get("messages") or []
-    with _projects_db_lock:
-        conn = _projects_db()
-        proj = conn.execute("SELECT id FROM projects WHERE id = ?", (project_id,)).fetchone()
-        if not proj:
-            conn.close()
-            return jsonify({"error": "Project not found"}), 404
-        conn.execute("""
-            INSERT INTO project_chats (id, project_id, title, messages, updated_at)
-            VALUES (?,?,?,?,?)
-            ON CONFLICT(id, project_id) DO UPDATE SET
-                title=excluded.title, messages=excluded.messages, updated_at=excluded.updated_at
-        """, (chat_id, project_id, title, json.dumps(messages), datetime.utcnow().isoformat()))
-        conn.commit()
-        conn.close()
-    return jsonify({"ok": True})
-
-
-@app.route("/api/projects/<project_id>/chats/<chat_id>", methods=["DELETE"])
-def delete_project_chat(project_id, chat_id):
-    with _projects_db_lock:
-        conn = _projects_db()
-        conn.execute("DELETE FROM project_chats WHERE project_id = ? AND id = ?", (project_id, chat_id))
-        conn.commit()
-        conn.close()
-    return jsonify({"ok": True})
-
-
-def _ndjson_line(obj):
-    return json.dumps(obj) + "\n"
-
-@app.route("/ask", methods=["POST"])
-def ask():
-    """
-    Main question endpoint — streams newline-delimited JSON events so
-    the client can show real, live status ("searching", "thinking")
-    while Daisy is actually working instead of a fixed local guess,
-    and can render a proper Sources list once real citations come
-    back. Every code path below yields the exact same two event
-    shapes ({"event":"status",...} then one {"event":"final",...}) so
-    the frontend only needs to understand one format regardless of
-    which path served the answer.
-    """
-    data = request.get_json(silent=True) or {}
-    question = data.get("question", "").strip()
-    learned = data.get("learned", {})
-    history = data.get("history", [])  # Array of {user, daisy, topic} objects
-    custom_instructions = data.get("instructions", "")  # "What should Daisy be to you?"
-    image_data = data.get("image")  # {"media_type": "...", "data": "<base64>"} or None
-    remembered_facts = data.get("memory", [])  # personal facts the client has saved from earlier turns
-    # Settings > "Search the internet" — a standing permission, not a
-    # per-message action. Defaults to allowed; Claude still decides
-    # per-message whether a given question actually needs it.
-    allow_search = data.get("web_search_enabled", True) is not False
-    # Settings > Model — "beni" (Daisy's own raw dictionary/law answer,
-    # no Claude call at all — instant, works even if ANTHROPIC_API_KEY
-    # is unset) or "beni2" (the default: Daisy's draft is handed to
-    # Claude to be rephrased/completed — natural wording, web search,
-    # photo analysis). Unrecognized/missing values fall back to beni2
-    # so older clients that don't send this field keep today's behavior.
-    model = (data.get("model") or "beni2").strip().lower()
-    if model not in ("beni", "beni2"):
-        model = "beni2"
-
-    def generate():
-        try:
-            if not question and not image_data:
-                yield _ndjson_line({"event": "final", "answer": "Ask me something.", "source": "empty"})
-                return
-
-            # An attached image goes straight to Claude's vision — Daisy's
-            # text-only dictionary/brain and the correction cache both work on
-            # exact question strings, neither has anything meaningful to say
-            # about a photo, so there's no point routing through them first.
-            if image_data and model == "beni":
-                yield _ndjson_line({
-                    "event": "final",
-                    "answer": "Beni can't look at photos — that needs Beni 2. Switch models in Settings and send it again.",
-                    "source": "model_limitation",
-                })
-                return
-
-            if image_data:
-                final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
-                for evt in speak_naturally_stream(
-                    question, None, custom_instructions, image_data=image_data,
-                    remembered_facts=remembered_facts, allow_search=allow_search, history=history,
-                ):
-                    if evt["event"] == "status":
-                        yield _ndjson_line(evt)
-                    else:
-                        final_answer = evt["answer"]
-                        learned_fact = evt["learned_fact"]
-                        memory_fact = evt["memory_fact"]
-                        used_search = evt["used_search"]
-                        sources = evt["sources"]
-                result = {
-                    "event": "final", "answer": final_answer, "source": "vision",
-                    "raw_fact": None, "memory_fact": memory_fact,
-                    "used_web_search": used_search, "sources": sources,
-                }
-                if learned_fact:
-                    save_correction(question, learned_fact)
-                if not final_answer:
-                    result["needs_fallback"] = True
-                yield _ndjson_line(result)
-                return
-
-            # CORRECTION CACHE — if Claude already had to answer this exact
-            # question once because Daisy's own draft didn't cover it, give
-            # the saved answer straight back. Shared across every visitor on
-            # purpose: this is settled factual knowledge, not one person's
-            # private conversation state (see the state-leak fix above for
-            # why those two things are NOT the same and must stay separate).
-            cached = get_correction(question) if model == "beni2" else None
-            if cached:
-                yield _ndjson_line({"event": "final", "answer": cached, "source": "learned"})
-                return
-
-            result = ask_daisy(question, learned, history)
-            raw_answer = result.get("answer")
-
-            if model == "beni":
-                # BENI — Daisy's own dictionary/law answer, straight back to
-                # the person with no Claude call in between. No rephrasing,
-                # no web search, no memory extraction — just instant, raw
-                # output from Daisy's own brain.
-                result["event"] = "final"
-                result["answer"] = raw_answer or "I don't have anything on that yet. Try Beni 2 for a fuller answer, or ask me something else."
-                result["raw_fact"] = raw_answer
-                result["memory_fact"] = None
-                result["used_web_search"] = False
-                result["sources"] = []
-                if not raw_answer:
-                    result["needs_fallback"] = True
-                yield _ndjson_line(result)
-                return
-
-            # BENI 2 — every response goes through Claude. Daisy's own draft
-            # (which may be a personality fragment, a math result, or
-            # nothing at all if she has zero match) is handed to Claude
-            # alongside the real question; Claude either lightly cleans up a
-            # draft that already fits, or actually answers properly if the
-            # draft misses the point or is blank. This is what fixes things
-            # like a robotic "can you rephrase that?" in response to "are
-            # you serious". If the person allows web search, Claude also
-            # gets a real search tool attached and decides for itself, per
-            # question, whether to use it — see the LIVE WEB SEARCH rule in
-            # DAISY_SYSTEM_PROMPT. Status events stream out live, as they
-            # genuinely happen.
-            final_answer, learned_fact, memory_fact, used_search, sources = None, None, None, False, []
-            for evt in speak_naturally_stream(
-                question, raw_answer, custom_instructions,
-                remembered_facts=remembered_facts, allow_search=allow_search, history=history,
-            ):
-                if evt["event"] == "status":
-                    yield _ndjson_line(evt)
-                else:
-                    final_answer = evt["answer"]
-                    learned_fact = evt["learned_fact"]
-                    memory_fact = evt["memory_fact"]
-                    used_search = evt["used_search"]
-                    sources = evt["sources"]
-
-            result["event"] = "final"
-            result["answer"] = final_answer
-            result["raw_fact"] = raw_answer
-            result["memory_fact"] = memory_fact
-            result["used_web_search"] = used_search
-            result["sources"] = sources
-            if learned_fact and not used_search:
-                # Don't cache a search-grounded answer as a permanent "learned"
-                # fact — the whole point of live search is that it can change.
-                save_correction(question, learned_fact)
-
-            if not final_answer:
-                result["needs_fallback"] = True
-
-            yield _ndjson_line(result)
-        except Exception as e:
-            # Nothing above this line used to be wrapped in a try/except —
-            # if ask_daisy() (or anything else in this function) threw for
-            # any reason, the stream just broke off mid-flight with no
-            # final event, which is exactly what showed up on the phone as
-            # "I couldn't reach my brain right now." This is the actual bug:
-            # now any failure still ends the stream properly, with a real
-            # answer bubble instead of a dead connection, and logs the
-            # real cause server-side so it's actually diagnosable.
-            print(f"[ASK] Unhandled error answering {question!r}: {e}")
-            yield _ndjson_line({
-                "event": "final",
-                "answer": "Something went wrong on my end just now — try asking that again.",
-                "source": "error",
-            })
-
-    return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
-
-
-@app.route("/api/ask", methods=["POST"])
-@require_api_key
-def api_ask():
-    """The real developer-facing endpoint: identical to /ask, but requires
-    a Bearer key generated from the console instead of running open the
-    way the app's own internal chat does. Deliberately just calls ask()
-    directly rather than duplicating its streaming logic — same request
-    context, same behavior, one source of truth for the actual answering."""
-    return ask()
-
-
-@app.route("/reload", methods=["POST"])
-def reload_brain():
-    """Reload Daisy's brain from the JSX file."""
-    success = load_daisy_brain()
-    existing_count = 0
-    try:
-        from daisy_ingest import get_existing_keys
-        existing_count = len(get_existing_keys(JSX_FILE_PATH))
-    except:
-        pass
-    return jsonify({
-        "success": success,
-        "words": existing_count,
-        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    })
-
-
-@app.route("/daisy/status", methods=["GET"])
-def daisy_status():
-    """Daisy's health and word count."""
-    existing_count = 0
-    log_tail = []
-    try:
-        from daisy_ingest import get_existing_keys, LOG_FILE_PATH, _ingest_count, _last_ingest
-        existing_count = len(get_existing_keys(JSX_FILE_PATH))
-        if os.path.exists(LOG_FILE_PATH):
-            with open(LOG_FILE_PATH, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-                log_tail = [l.strip() for l in lines[-10:]]
-        ingest_cycles = _ingest_count
-        last_ingest = _last_ingest or "not yet"
+    except requests.exceptions.Timeout:
+        return None, "Daisy is thinking hard on this one. Please try again in a moment."
+    except requests.exceptions.HTTPError as e:
+        print(f"[Daisy API] {e}")
+        if resp is not None and resp.status_code == 401:
+            return None, "Daisy's key doesn't match — check DAISY_API_KEY on both sides."
+        return None, "Daisy couldn't be reached right now. Please try again shortly."
     except Exception as e:
-        ingest_cycles = 0
-        last_ingest = "unknown"
+        print(f"[Daisy API] {e}")
+        return None, "Daisy couldn't be reached right now. Please try again shortly."
 
-    return jsonify({
-        "status": "online",
-        "words": existing_count,
-        "ingest_cycles": ingest_cycles,
-        "last_ingest": last_ingest,
-        "log_tail": log_tail
-    })
+# ── HOME ──────────────────────────────────────────────────────────────────────
+@app.route('/')
+def home():
+    query    = request.args.get('query','').strip()
+    user_lat = request.args.get('lat', type=float)
+    user_lng = request.args.get('lng', type=float)
 
+    all_biz = db_fetchall(
+        q("SELECT * FROM business WHERE status='approved' ORDER BY is_premium DESC, id DESC"))
 
-@app.route("/daisy/ingest", methods=["POST"])
-def manual_ingest():
-    """Manually trigger one ingestion cycle."""
-    url = request.args.get("url", None)
-    try:
-        from daisy_ingest import ingest_one, get_existing_keys
-        ingest_one(url=url)
-        load_daisy_brain()
-        return jsonify({
-            "success": True,
-            "words": len(get_existing_keys(JSX_FILE_PATH)),
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        })
-    except Exception as e:
-        return jsonify({"success": False, "error": str(e)}), 500
+    if query:
+        ql = query.lower()
+        scored = []
+        for b in all_biz:
+            bd = biz_to_dict(b)
+            s = max(similar(ql,(bd.get('name') or '').lower()),
+                    similar(ql,(bd.get('category') or '').lower()))
+            if ql in (bd.get('name') or '').lower() or \
+               ql in (bd.get('category') or '').lower() or s > 0.45:
+                scored.append((b,s))
+        scored.sort(key=lambda x:x[1],reverse=True)
+        filtered = [b for b,_ in scored]
+    else:
+        filtered = list(all_biz)
 
+    results = []
+    for b in filtered:
+        bd = biz_to_dict(b)
+        dist = 9999.0
+        if user_lat and user_lng and bd.get('lat') and bd.get('lng'):
+            try: dist = haversine(user_lat,user_lng,float(bd['lat']),float(bd['lng']))
+            except: pass
+        rv = db_fetchone(
+            q("SELECT AVG(rating) as avg_rating, COUNT(*) as cnt FROM reviews WHERE business_id=?"),
+            (bd['id'],))
+        bd['avg_rating']   = round(float(rv['avg_rating']),1) if rv and rv['avg_rating'] else 0
+        bd['review_count'] = rv['cnt'] if rv else 0
+        results.append((bd, round(dist,2)))
 
-# ============================================================
-# BACKGROUND INGESTION THREAD
-# ============================================================
-def _ingestion_loop(interval_minutes):
-    """Runs forever in background. Ingests then reloads brain."""
-    from daisy_ingest import ingest_one, _ingest_count, LOG_FILE_PATH
-    import daisy_ingest as di
-    print(f"[DAISY] Ingestion loop started — every {interval_minutes} minute(s)")
-    while True:
+    if user_lat and user_lng:
+        results.sort(key=lambda x:(0 if x[0].get('is_premium') else 1, x[1]))
+
+    notifications = []
+    if 'user_id' in session:
+        rows = db_fetchall(
+            q("SELECT * FROM notifications WHERE user_id=? AND seen=0 ORDER BY created_at DESC LIMIT 5"),
+            (session['user_id'],))
+        notifications = [dict(r) for r in rows]
+        if notifications:
+            db_execute(q("UPDATE notifications SET seen=1 WHERE user_id=?"), (session['user_id'],))
+
+    # ── WEB SEARCH ─────────────────────────────────────────────────────────────
+    web_results = []
+    if query:
         try:
-            ingest_one()
-            di._last_ingest = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            di._ingest_count += 1
-            load_daisy_brain()
+            import urllib.request, urllib.parse, json as _json
+            search_query = urllib.parse.quote(f"{query} Uganda business")
+            url = f"https://api.duckduckgo.com/?q={search_query}&format=json&no_html=1&skip_disambig=1"
+            req = urllib.request.Request(url, headers={'User-Agent': 'TrustedBiz/1.0'})
+            with urllib.request.urlopen(req, timeout=5) as r:
+                data = _json.loads(r.read().decode())
+            for item in (data.get('RelatedTopics') or [])[:10]:
+                if isinstance(item, dict) and item.get('Text') and item.get('FirstURL'):
+                    icon = (item.get('Icon') or {}).get('URL', '')
+                    domain = item['FirstURL'].split('/')[2] if '//' in item['FirstURL'] else ''
+                    web_results.append({
+                        'title': item['Text'].split(' - ')[0][:90],
+                        'snippet': item['Text'][:220],
+                        'url': item['FirstURL'],
+                        'image': ('https://duckduckgo.com' + icon) if icon and icon.startswith('/') else icon,
+                        'source': domain,
+                    })
         except Exception as e:
-            print(f"[DAISY] Ingestion error: {e}")
-        time.sleep(interval_minutes * 60)
+            print(f"Web search error: {e}")
+
+    return render_template('home.html',
+        results=results,
+        web_results=web_results,
+        current_user=get_current_user(),
+        notifications=notifications)
+
+# ── PRICE GUARD API ───────────────────────────────────────────────────────────
+@app.route('/portfolio')
+def portfolio():
+    # Folded into /about — redirect so any existing links/bookmarks still work
+    return redirect('/about', code=301)
 
 
-def start_ingestion(interval_minutes=2):
-    """Start the background ingestion thread."""
-    t = threading.Thread(
-        target=_ingestion_loop,
-        args=(interval_minutes,),
-        daemon=True
+@app.route('/register', methods=['GET','POST'])
+def register():
+    if request.method == 'POST':
+        name  = request.form.get('name','').strip()[:100]
+        email = request.form.get('email','').lower().strip()
+        pwd   = request.form.get('password','')
+        conf  = request.form.get('confirm','')
+        if not name or not email: flash("All fields are required."); return render_template('register.html',current_user=None)
+        if len(pwd) < 6: flash("Password must be at least 6 characters."); return render_template('register.html',current_user=None)
+        if pwd != conf: flash("Passwords do not match."); return render_template('register.html',current_user=None)
+        try:
+            user_id = db_insert(q("INSERT INTO users (name,email,password) VALUES (?,?,?)"),
+                      (name,email,generate_password_hash(pwd)))
+            session.permanent = True
+            session['user_id'] = user_id
+            session['user_name'] = name
+            _email_welcome(name, email)
+            flash(f"Welcome {name}! Tell Daisy about your business to get your first site live.")
+            return redirect('/dashboard')
+        except: flash("Email already registered.")
+    return render_template('register.html', current_user=None)
+
+@app.route('/login', methods=['GET','POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form.get('email','').lower().strip()
+        pwd   = request.form.get('password','')
+        user  = db_fetchone(q("SELECT * FROM users WHERE email=?"), (email,))
+        if user and check_password_hash(user['password'], pwd):
+            session.permanent = True
+            session['user_id']   = user['id']
+            session['user_name'] = user['name']
+            return redirect(request.args.get('next','/dashboard'))
+        flash("Wrong email or password.")
+    return render_template('login.html', current_user=None)
+
+@app.route('/logout')
+def logout():
+    session.clear(); return redirect('/')
+
+# ── AI WEBSITE VIEW ───────────────────────────────────────────────────────────
+@app.route('/site/<slug>')
+def site(slug=None):
+    # Also handle subdomain requests e.g. cyber-tech.trustedbiz.co.ug
+    if slug is None:
+        from flask import g
+        slug = getattr(g, 'subdomain_slug', None)
+        if not slug:
+            return render_template('404.html', current_user=get_current_user()), 404
+    biz = db_fetchone(q("SELECT * FROM business WHERE slug=? AND status='approved'"), (slug,))
+    if not biz:
+        try: biz = db_fetchone(q("SELECT * FROM business WHERE id=? AND status='approved'"), (int(slug),))
+        except: pass
+    if not biz: return render_template('404.html', current_user=get_current_user()), 404
+
+    db_execute(q("UPDATE business SET views=views+1 WHERE id=?"), (biz['id'],))
+    bd = biz_to_dict(biz)
+
+    # Get ads for this business
+    ads = db_fetchall(q("SELECT * FROM ads WHERE business_id=? AND active=1 ORDER BY updated_at DESC LIMIT 2"), (biz['id'],))
+    bd['ads'] = [dict(a) for a in ads]
+
+    # Get branches
+    branches = db_fetchall(q("SELECT * FROM branches WHERE business_id=? ORDER BY id"), (biz['id'],))
+    bd['branches'] = [dict(b) for b in branches]
+
+    # Get reviews
+    reviews = db_fetchall(q("""
+        SELECT r.*, u.name as reviewer_name FROM reviews r
+        LEFT JOIN users u ON u.id=r.user_id
+        WHERE r.business_id=? ORDER BY r.created_at DESC
+    """), (biz['id'],))
+    rv_avg = db_fetchone(q("SELECT AVG(rating) as a, COUNT(*) as c FROM reviews WHERE business_id=?"), (biz['id'],))
+    bd['avg_rating']    = round(float(rv_avg['a']),1) if rv_avg and rv_avg['a'] else 0
+    bd['total_reviews'] = rv_avg['c'] if rv_avg else 0
+
+    if bd.get('generated_html'):
+        return bd['generated_html']
+
+    # Generate the site via Daisy's API instead of generating locally.
+    # A simple, real-data fallback (using the business's actual name, category,
+    # description, photos, hours, branches) is saved and served immediately so
+    # the visitor never sees a blank page. Daisy's real build then runs and
+    # replaces it — currently synchronous (page waits up to ~55s on first
+    # visit); move this to a background thread once Daisy's API is live and
+    # you know her real response time.
+    wa_link = f"https://wa.me/{bd.get('whatsapp','')}"
+    fallback_html = _basic_fallback_site(bd, wa_link)
+
+    daisy_ctx = {
+        'name': bd.get('name'), 'category': bd.get('category'),
+        'description': bd.get('description'), 'whatsapp': bd.get('whatsapp'),
+        'hours': bd.get('hours') or 'Mon-Sat 8am-7pm',
+        'brand_color': bd.get('brand_color') or '#2b7a78',
+        'photos': [p.strip() for p in str(bd.get('photos') or '').split(',') if p.strip()],
+        'branches': bd.get('branches') or [], 'ads': bd.get('ads') or [],
+    }
+    result, err = call_daisy('website', context=daisy_ctx)
+    html = (result or {}).get('html') if result else None
+
+    if html:
+        try: db_execute(q("UPDATE business SET generated_html=? WHERE id=?"), (html, biz['id']))
+        except: pass
+        return html
+
+    # Daisy unavailable or still not connected — serve the fallback, don't
+    # leave the visitor with nothing, but don't cache it as the final site.
+    print(f"[Daisy API] site() fallback used for biz {biz['id']}: {err}")
+    return fallback_html
+
+
+def _basic_fallback_site(bd, wa_link):
+    """Plain, real-data page shown only if Daisy's API is unreachable."""
+    name  = str(bd.get('name') or 'Business')
+    cat   = str(bd.get('category') or '')
+    desc  = str(bd.get('description') or '')
+    hours = str(bd.get('hours') or 'Mon-Sat 8am-7pm')
+    color = str(bd.get('brand_color') or '#2b7a78')
+    return f"""<!DOCTYPE html><html><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{name} | TrustedBiz</title>
+<style>body{{font-family:sans-serif;background:#f5f8f8;color:#0d1c1c;max-width:560px;margin:60px auto;padding:0 24px;text-align:center;}}
+h1{{color:{color};}} a{{display:inline-block;margin-top:20px;background:{color};color:#fff;padding:12px 26px;border-radius:6px;text-decoration:none;font-weight:600;}}</style>
+</head><body><h1>{name}</h1><p>{cat}</p><p>{desc}</p><p>{hours}</p>
+<a href="{wa_link}">Message on WhatsApp</a></body></html>"""
+
+# ── REGENERATE ────────────────────────────────────────────────────────────────
+@app.route('/daisy/create-business', methods=['POST'])
+@login_required
+def daisy_create_business():
+    """The real gap this closes: Daisy's chat can describe a business and
+    even preview its HTML, but nothing saved it. This turns that into an
+    actual live listing — called once the conversation has a name and
+    enough detail to go live."""
+    user = get_current_user()
+    data = request.get_json() or {}
+    name        = (data.get('name') or '').strip()[:100]
+    category    = (data.get('category') or '').strip().lower()
+    whatsapp    = (data.get('whatsapp') or '').strip()
+    description = (data.get('description') or '').strip()
+    color       = (data.get('brand_color') or '#2b7a78').strip()
+    html        = data.get('html')  # Daisy may have already generated this during chat
+
+    if not name:
+        return jsonify({'error': 'A business name is required.'}), 400
+
+    slug = make_slug(name)
+    biz_id = db_insert(
+        q("INSERT INTO business (name, category, whatsapp, description, brand_color, slug, owner_id, status, plan, generated_html) VALUES (?,?,?,?,?,?,?,?,?,?)"),
+        (name, category, whatsapp, description, color, slug, user['id'], 'approved', 'free', html)
     )
-    t.start()
+    ping_google(slug)
+
+    if not html:
+        daisy_ctx = {'name': name, 'category': category, 'description': description,
+                     'whatsapp': whatsapp, 'brand_color': color, 'hours': 'Mon-Sat 8am-7pm'}
+        def _bg(ctx, bid):
+            result, err = call_daisy('website', context=ctx)
+            h = (result or {}).get('html') if result else None
+            if h:
+                try: db_execute(q("UPDATE business SET generated_html=? WHERE id=?"), (h, bid))
+                except Exception as e: print(f"create-business save error: {e}")
+            else:
+                print(f"[Daisy API] create-business gen failed for biz {bid}: {err}")
+        import threading
+        threading.Thread(target=_bg, args=(daisy_ctx, biz_id), daemon=True).start()
+
+    return jsonify({'success': True, 'biz_id': biz_id, 'slug': slug,
+                     'url': f"https://{slug}.trustedbiz.co.ug"})
 
 
-# ============================================================
-# STARTUP
-# ============================================================
-if __name__ == "__main__":
-    load_daisy_brain()
-    load_voice_model()
-    load_corrections()
-    start_ingestion(interval_minutes=2)
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False, threaded=True)
+@app.route('/generate-site/<int:biz_id>', methods=['POST'])
+@login_required
+def generate_site(biz_id):
+    biz = db_fetchone(q("SELECT * FROM business WHERE id=? AND owner_id=?"), (biz_id,session['user_id']))
+    if not biz: flash("Not found."); return redirect('/dashboard#sites')
+    bd = biz_to_dict(biz)
+    branches = db_fetchall(q("SELECT * FROM branches WHERE business_id=?"), (biz_id,))
+    bd['branches'] = [dict(b) for b in branches]
+    ads = db_fetchall(q("SELECT * FROM ads WHERE business_id=? AND active=1 LIMIT 2"), (biz_id,))
+    bd['ads'] = [dict(a) for a in ads]
+    daisy_ctx = {
+        'name': bd.get('name'), 'category': bd.get('category'),
+        'description': bd.get('description'), 'whatsapp': bd.get('whatsapp'),
+        'hours': bd.get('hours') or 'Mon-Sat 8am-7pm',
+        'brand_color': bd.get('brand_color') or '#2b7a78',
+        'photos': [p.strip() for p in str(bd.get('photos') or '').split(',') if p.strip()],
+        'branches': bd.get('branches') or [], 'ads': bd.get('ads') or [],
+        'plan': bd.get('plan') or 'free',
+    }
+
+    def _regen_bg(ctx, biz_id):
+        result, err = call_daisy('website', context=ctx)
+        html = (result or {}).get('html') if result else None
+        if html:
+            try: db_execute(q("UPDATE business SET generated_html=? WHERE id=?"), (html, biz_id))
+            except Exception as e: print(f"Regen save error: {e}")
+        else:
+            print(f"[Daisy API] regen failed for biz {biz_id}: {err}")
+
+    import threading
+    threading.Thread(target=_regen_bg, args=(daisy_ctx, biz_id), daemon=True).start()
+    flash("✨ Your website is being rebuilt by Daisy... refresh in about 30 seconds to see it live.")
+    return redirect('/dashboard')
+
+# ── ADD BUSINESS ──────────────────────────────────────────────────────────────
+@app.route('/dashboard')
+@login_required
+def dashboard():
+    user_id    = session['user_id']
+    businesses = db_fetchall(q("SELECT * FROM business WHERE owner_id=? ORDER BY created_at DESC"), (user_id,))
+    stats = {}
+    for b in businesses:
+        rv = db_fetchone(q("SELECT AVG(rating) as a, COUNT(*) as c FROM reviews WHERE business_id=?"), (b['id'],))
+        stats[b['id']] = {"avg_rating": round(float(rv['a']),1) if rv and rv['a'] else 0, "total_reviews": rv['c'] if rv else 0}
+    businesses   = [biz_to_dict(b) for b in businesses]
+    total_views  = sum(b.get('views',0) or 0 for b in businesses)
+    live_count   = sum(1 for b in businesses if b.get('status')=='approved')
+    # Plan is tracked per-business (see admin's Set Basic/Set Pro Max). For the
+    # account-level billing view, use the highest plan among the user's
+    # businesses as "chosen_plan" — reasonable for the common single-business
+    # case; worth revisiting once multi-business accounts are common.
+    plan_rank = {'free': 0, 'basic': 1, 'pro_max': 2}
+    chosen_plan = 'free'
+    for b in businesses:
+        if plan_rank.get(b.get('plan') or 'free', 0) > plan_rank.get(chosen_plan, 0):
+            chosen_plan = b.get('plan') or 'free'
+    current_user = get_current_user()
+    return render_template('console.html', businesses=businesses, stats=stats,
+                           current_user=current_user, total_listings=len(businesses),
+                           live_count=live_count, total_views=total_views,
+                           chosen_plan=chosen_plan)
+
+# ── DASHBOARD SET COLOR ───────────────────────────────────────────────────────
+@app.route('/dashboard/set-template/<int:biz_id>', methods=['POST'])
+@login_required
+def set_template(biz_id):
+    color = request.form.get('brand_color','#2b7a78')
+    biz   = db_fetchone(q("SELECT id FROM business WHERE id=? AND owner_id=?"), (biz_id,session['user_id']))
+    if biz:
+        db_execute(q("UPDATE business SET brand_color=?,generated_html=NULL WHERE id=?"), (color,biz_id))
+        flash("Color saved! Regenerating website…")
+    return redirect('/dashboard')
+
+# ── REVIEW ────────────────────────────────────────────────────────────────────
+@app.route('/review/<int:biz_id>', methods=['POST'])
+@login_required
+def submit_review(biz_id):
+    rating  = request.form.get('rating')
+    comment = request.form.get('comment','').strip()
+    user_id = session['user_id']
+    if not rating: flash("Please select a star rating."); return redirect(f'/site/{biz_id}')
+    existing = db_fetchone(q("SELECT id FROM reviews WHERE business_id=? AND user_id=?"), (biz_id,user_id))
+    if existing: flash("You already reviewed this business."); return redirect(f'/site/{biz_id}')
+    db_insert(q("INSERT INTO reviews (business_id,user_id,rating,comment) VALUES (?,?,?,?)"),
+              (biz_id,user_id,rating,comment))
+    flash("Review submitted! Thank you.")
+    return redirect(f'/site/{biz_id}')
+
+# ── REPORT ────────────────────────────────────────────────────────────────────
+@app.route('/report/<int:biz_id>')
+def report(biz_id):
+    ip = request.remote_addr
+    if db_fetchone(q("SELECT id FROM reports WHERE business_id=? AND user_identifier=?"), (biz_id,ip)):
+        flash("You already reported this business."); return redirect('/')
+    db_execute(q("INSERT INTO reports (business_id,user_identifier) VALUES (?,?)"), (biz_id,ip))
+    db_execute(q("UPDATE business SET reports=reports+1 WHERE id=?"), (biz_id,))
+    flash("Business reported. Thank you."); return redirect('/')
+
+# ── UPGRADE ───────────────────────────────────────────────────────────────────
+# The dedicated upgrade page was cut — the console's Billing tab already has
+# the same WhatsApp upgrade links built in. Redirect so old links still work.
+@app.route('/upgrade/<int:biz_id>')
+@login_required
+def upgrade_page(biz_id):
+    return redirect('/dashboard')
+
+# ── ADMIN LOGIN ───────────────────────────────────────────────────────────────
+@app.route('/admin/login', methods=['GET','POST'])
+def admin_login():
+    if request.method == 'POST':
+        if request.form.get('admin_pass') == ADMIN_PASSWORD:
+            session['admin'] = True; return redirect('/admin')
+        flash("Wrong password.")
+    return render_template('admin_login.html', current_user=None)
+
+@app.route('/admin/logout')
+def admin_logout():
+    session.pop('admin_auth',None); return redirect('/')
+
+# ── ADMIN PANEL ───────────────────────────────────────────────────────────────
+@app.route('/admin', methods=['GET','POST'])
+def admin():
+    if not session.get('admin_auth'):
+        if request.method == 'POST' and request.form.get('admin_pass') == ADMIN_PASSWORD:
+            session.permanent = True
+            session['admin_auth'] = True
+        else:
+            if request.method == 'POST':
+                flash("Wrong password.")
+            return render_template('admin_login.html', current_user=None)
+
+    if request.method == 'POST':
+        biz_id = request.form.get('id')
+        action = request.form.get('action')
+
+        if action == 'approve':
+            db_execute(q("UPDATE business SET status='approved' WHERE id=?"), (biz_id,))
+            owner = db_fetchone(q("SELECT owner_id FROM business WHERE id=?"), (biz_id,))
+            biz_row = db_fetchone(q("SELECT name, slug FROM business WHERE id=?"), (biz_id,))
+            # Ping Google to index the business URL immediately
+            if biz_row and biz_row.get('slug'):
+                ping_google(biz_row['slug'])
+            if owner and owner.get('owner_id'):
+                db_insert(q("INSERT INTO notifications (user_id,message) VALUES (?,?)"),
+                          (owner['owner_id'], "✅ Your business is now live on TrustedBiz!"))
+                # Send approval email
+                user_row = db_fetchone(q("SELECT name, email FROM users WHERE id=?"), (owner['owner_id'],))
+                if biz_row and user_row:
+                    _email_approved(user_row['name'], user_row['email'], biz_row['name'], biz_row['slug'])
+        elif action == 'reject':
+            db_execute(q("UPDATE business SET status='rejected' WHERE id=?"), (biz_id,))
+        elif action == 'verify':
+            db_execute(q("UPDATE business SET verified=1 WHERE id=?"), (biz_id,))
+        elif action == 'unverify':
+            db_execute(q("UPDATE business SET verified=0 WHERE id=?"), (biz_id,))
+        elif action in ('set_basic', 'set_pro_max', 'set_free'):
+            new_plan = {'set_basic': 'basic', 'set_pro_max': 'pro_max', 'set_free': 'free'}[action]
+            is_paid  = 1 if new_plan != 'free' else 0
+            db_execute(q("UPDATE business SET plan=?, is_premium=?, last_payment_date=CURRENT_DATE, payment_months_late=0 WHERE id=?"),
+                       (new_plan, is_paid, biz_id))
+            owner = db_fetchone(q("SELECT owner_id FROM business WHERE id=?"), (biz_id,))
+            if owner and owner.get('owner_id'):
+                label = {'basic': 'Basic', 'pro_max': 'Pro Max', 'free': 'Free'}[new_plan]
+                db_insert(q("INSERT INTO notifications (user_id,message) VALUES (?,?)"),
+                          (owner['owner_id'], f"Your plan is now {label}."))
+        elif action == 'mark_late':
+            db_execute(q("UPDATE business SET payment_months_late=payment_months_late+1 WHERE id=?"), (biz_id,))
+        elif action == 'block':
+            db_execute(q("UPDATE business SET status='rejected' WHERE id=?"), (biz_id,))
+        elif action == 'regen':
+            biz = db_fetchone(q("SELECT * FROM business WHERE id=?"), (biz_id,))
+            if biz:
+                bd = biz_to_dict(biz)
+                branches = db_fetchall(q("SELECT * FROM branches WHERE business_id=?"), (biz_id,))
+                bd['branches'] = [dict(b) for b in branches]
+                ads = db_fetchall(q("SELECT * FROM ads WHERE business_id=? AND active=1 LIMIT 2"), (biz_id,))
+                bd['ads'] = [dict(a) for a in ads]
+                daisy_ctx = {
+                    'name': bd.get('name'), 'category': bd.get('category'),
+                    'description': bd.get('description'), 'whatsapp': bd.get('whatsapp'),
+                    'hours': bd.get('hours') or 'Mon-Sat 8am-7pm',
+                    'brand_color': bd.get('brand_color') or '#2b7a78',
+                    'photos': [p.strip() for p in str(bd.get('photos') or '').split(',') if p.strip()],
+                    'branches': bd.get('branches') or [], 'ads': bd.get('ads') or [],
+                }
+                def _admin_regen_bg(ctx, bid):
+                    result, err = call_daisy('website', context=ctx)
+                    html = (result or {}).get('html') if result else None
+                    if html:
+                        try: db_execute(q("UPDATE business SET generated_html=? WHERE id=?"), (html, bid))
+                        except Exception as e: print(f"Admin regen save error: {e}")
+                    else:
+                        print(f"[Daisy API] admin regen failed for biz {bid}: {err}")
+                import threading as _threading
+                _threading.Thread(target=_admin_regen_bg, args=(daisy_ctx, int(biz_id)), daemon=True).start()
+                flash("✅ Daisy is regenerating this site — refresh in about 60 seconds!")
+        elif action == 'delete':
+            db_execute(q("DELETE FROM business WHERE id=?"), (biz_id,))
+        elif action == 'send_to_pool':
+            # Owner refused or ignored — save their generated website to the pool
+            # so the next business in the same category gets it for free
+            biz = db_fetchone(q("SELECT * FROM business WHERE id=?"), (biz_id,))
+            if biz and biz.get('generated_html') and len(biz['generated_html']) > 2000:
+                category = (biz.get('category') or '').lower().strip()
+                # Only pool if not already in pool from this business
+                already = db_fetchone(
+                    q("SELECT id FROM template_pool WHERE category=? AND html=?"),
+                    (category, biz['generated_html'])
+                )
+                if not already:
+                    db_insert(
+                        q("INSERT INTO template_pool (category, html, quality_score) VALUES (?,?,?)"),
+                        (category, biz['generated_html'], 90)
+                    )
+                    flash(f"✅ '{biz['name']}' website moved to pool — next {category} business gets it free!", 'success')
+                else:
+                    flash("Already in pool.", 'info')
+            else:
+                flash("No generated website found for this business — generate one first.", 'error')
+
+        return redirect('/admin')
+
+    businesses = db_fetchall(q("""
+        SELECT b.*, u.name as owner_name, COUNT(r.id) as report_count
+        FROM business b
+        LEFT JOIN users u ON u.id=b.owner_id
+        LEFT JOIN reports r ON r.business_id=b.id
+        GROUP BY b.id, u.name ORDER BY b.created_at DESC
+    """))
+
+    try:
+        late_alert = db_fetchall(q("""
+            SELECT * FROM business WHERE is_premium=1
+            AND (last_payment_date IS NULL OR last_payment_date < CURRENT_DATE - INTERVAL '30 days')
+            ORDER BY last_payment_date ASC
+        """))
+    except:
+        late_alert = []
+
+    stats = {
+        'total_users':      (db_fetchone(q("SELECT COUNT(*) as c FROM users")) or {}).get('c',0),
+        'total_businesses': (db_fetchone(q("SELECT COUNT(*) as c FROM business")) or {}).get('c',0),
+        'total_reviews':    (db_fetchone(q("SELECT COUNT(*) as c FROM reviews")) or {}).get('c',0),
+        'total_paid':       (db_fetchone(q("SELECT COUNT(*) as c FROM business WHERE plan IS NOT NULL AND plan!='free'")) or {}).get('c',0),
+    }
+
+    # Template pool stats — show how many Daisy calls were saved by reuse
+    try:
+        pool_stats = db_fetchall(q("SELECT category, times_used, quality_score, created_at FROM template_pool ORDER BY times_used DESC"))
+        pool_stats = [dict(p) for p in pool_stats]
+        pool_saves = sum(p.get('times_used', 0) for p in pool_stats)
+    except:
+        pool_stats = []
+        pool_saves = 0
+
+    # Reports queue — the one thing that still needs a human
+    try:
+        reported_businesses = db_fetchall(q("SELECT * FROM business WHERE reports > 0 ORDER BY reports DESC"))
+        reported_businesses = [biz_to_dict(b) for b in reported_businesses]
+    except:
+        reported_businesses = []
+    reported_count = len(reported_businesses)
+
+    # Agent activity log — submissions now publish automatically, this is
+    # just a record of what agents have brought in recently.
+    try:
+        agent_activity = db_fetchall(q("""
+            SELECT b.name as business_name, a.name as agent_name, b.created_at
+            FROM business b
+            LEFT JOIN agents a ON a.code=b.agent_code
+            WHERE b.agent_code IS NOT NULL
+            ORDER BY b.created_at DESC LIMIT 20
+        """))
+        agent_activity = [dict(a) for a in agent_activity]
+    except:
+        agent_activity = []
+
+    return render_template('admin.html',
+        businesses=[biz_to_dict(b) for b in businesses],
+        late_alert=[biz_to_dict(b) for b in (late_alert or [])],
+        pool_stats=pool_stats,
+        pool_saves=pool_saves,
+        reported_businesses=reported_businesses,
+        reported_count=reported_count,
+        agent_activity=agent_activity,
+        **stats)
+
+# ── STATIC PAGES ──────────────────────────────────────────────────────────────
+@app.route('/privacy')
+def privacy():
+    return render_template('privacy.html', current_user=get_current_user())
+
+@app.route('/terms')
+def terms():
+    return render_template('terms.html', current_user=get_current_user())
+
+
+@app.route('/admin/migrate-db')
+@admin_required
+def migrate_db():
+    try:
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS last_payment_date DATE")
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS payment_months_late INTEGER DEFAULT 0")
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS free_trial_end DATE")
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS slug TEXT")
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS hero_price REAL")
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS hero_price_label TEXT")
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS generated_html TEXT")
+        db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS brand_color TEXT DEFAULT '#2b7a78'")
+        db_execute("ALTER TABLE users ADD COLUMN IF NOT EXISTS is_premium INTEGER DEFAULT 0")
+        db_execute("ALTER TABLE users ADD COLUMN IF NOT EXISTS chosen_plan TEXT DEFAULT 'free'")
+        # Agent-submitted business extras
+        try:
+            db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS plan TEXT DEFAULT 'basic'")
+        except Exception:
+            pass
+        try:
+            db_execute("ALTER TABLE business ADD COLUMN IF NOT EXISTS location TEXT")
+        except Exception:
+            pass
+        return "Migration done! All columns added."
+    except Exception as e:
+        return f"Migration error: {e}"
+
+
+@app.route('/admin/preview/<int:biz_id>')
+@admin_required
+def admin_preview(biz_id):
+    biz = db_fetchone(q("SELECT * FROM business WHERE id=?"), (biz_id,))
+    if not biz:
+        return "Business not found", 404
+    bd = biz_to_dict(biz)
+    branches = db_fetchall(q("SELECT * FROM branches WHERE business_id=?"), (biz_id,))
+    bd['branches'] = [dict(b) for b in branches]
+    ads = db_fetchall(q("SELECT * FROM ads WHERE business_id=? AND active=1 LIMIT 2"), (biz_id,))
+    bd['ads'] = [dict(a) for a in ads]
+    if bd.get('generated_html'):
+        return bd['generated_html']
+    wa_link = f"https://wa.me/{bd.get('whatsapp','')}"
+    fallback_html = _basic_fallback_site(bd, wa_link)
+    daisy_ctx = {
+        'name': bd.get('name'), 'category': bd.get('category'),
+        'description': bd.get('description'), 'whatsapp': bd.get('whatsapp'),
+        'hours': bd.get('hours') or 'Mon-Sat 8am-7pm',
+        'brand_color': bd.get('brand_color') or '#2b7a78',
+        'photos': [p.strip() for p in str(bd.get('photos') or '').split(',') if p.strip()],
+        'branches': bd.get('branches') or [], 'ads': bd.get('ads') or [],
+    }
+    result, err = call_daisy('website', context=daisy_ctx)
+    html = (result or {}).get('html') if result else None
+    if html:
+        try: db_execute(q("UPDATE business SET generated_html=? WHERE id=?"), (html, biz_id))
+        except: pass
+        return html
+    print(f"[Daisy API] admin_preview fallback used for biz {biz_id}: {err}")
+    return fallback_html
+
+
+@app.route('/admin/check-payments')
+@admin_required
+def check_payments():
+    from datetime import date
+    overdue = db_fetchall(q(
+        "SELECT b.*, u.name as owner_name FROM business b "
+        "LEFT JOIN users u ON u.id=b.owner_id "
+        "WHERE b.is_premium=1 AND b.free_trial_end IS NOT NULL "
+        "AND b.free_trial_end < CURRENT_DATE "
+        "AND (b.last_payment_date IS NULL OR b.last_payment_date < b.free_trial_end) "
+        "ORDER BY b.free_trial_end ASC"
+    ))
+    reminded = 0
+    suspended = 0
+    for b in overdue:
+        trial_end = b['free_trial_end']
+        if hasattr(trial_end, 'date'):
+            trial_end = trial_end.date()
+        days_overdue = (date.today() - trial_end).days if trial_end else 0
+        if days_overdue > 14:
+            db_execute(q("UPDATE business SET is_premium=0,status='suspended' WHERE id=?"), (b['id'],))
+            if b['owner_id']:
+                db_insert(q("INSERT INTO notifications (user_id,message) VALUES (?,?)"),
+                    (b['owner_id'], f"Your business has been suspended due to non-payment. Contact us on WhatsApp to reactivate."))
+            suspended += 1
+        else:
+            if b['owner_id']:
+                db_insert(q("INSERT INTO notifications (user_id,message) VALUES (?,?)"),
+                    (b['owner_id'], f"Payment reminder: Your free month has ended. Pay UGX 7,500 or 15,000 via WhatsApp. You have {14 - days_overdue} days before suspension."))
+            reminded += 1
+    return f"Done. {reminded} reminded. {suspended} suspended."
+
+
+@app.route('/about')
+def about():
+    return render_template('landing.html')
+
+@app.route('/pricing')
+def pricing():
+    # Public — no login required, so people can see prices before committing.
+    return render_template('pricing.html')
+
+@app.route('/daisy')
+def daisy_page():
+    # Stopgap until Daisy's own pages are transferred into this app —
+    # redirect to her current live deployment so this link never 404s.
+    # Once her templates + /daisy/chat are wired locally, replace this
+    # with render_template('daisy_landing.html') instead.
+    return redirect('https://daisy-qg1c.onrender.com/welcome')
+
+@app.route('/agent/set-password', methods=['GET', 'POST'])
+def agent_set_password():
+    email = request.args.get('email', '')
+    biz = None
+    if email:
+        user = db_fetchone(q("SELECT * FROM users WHERE email=?"), (email,))
+        if user:
+            biz = db_fetchone(
+                q("SELECT * FROM business WHERE owner_id=? AND status='approved' ORDER BY created_at DESC LIMIT 1"),
+                (user['id'],)
+            )
+    if request.method == 'POST':
+        email            = request.form.get('email', '').strip().lower()
+        password         = request.form.get('password', '')
+        confirm_password = request.form.get('confirm_password', '')
+        if password != confirm_password:
+            flash('Passwords do not match.', 'error')
+            return render_template('set_password.html', email=email, biz=biz)
+        if len(password) < 6:
+            flash('Password must be at least 6 characters.', 'error')
+            return render_template('set_password.html', email=email, biz=biz)
+        user = db_fetchone(q("SELECT * FROM users WHERE email=?"), (email,))
+        if not user:
+            flash('Email not found.', 'error')
+            return render_template('set_password.html', email=email, biz=biz)
+        db_execute(q("UPDATE users SET password=? WHERE id=?"),
+            (generate_password_hash(password), user['id']))
+        session['user_id'] = user['id']
+        flash('Account activated! Welcome to TrustedBiz 🎉', 'success')
+        return redirect('/dashboard')
+    return render_template('set_password.html', email=email, biz=biz)
+
+
+@app.errorhandler(404)
+def not_found(e):
+    return render_template('404.html', current_user=get_current_user()), 404
+
+@app.errorhandler(413)
+def too_large(e):
+    # Return 200 so Render doesn't intercept — then flash and redirect
+    flash("Photos too large. Please use the compression button or choose fewer images.")
+    from flask import make_response
+    resp = make_response(redirect('/add-business'))
+    return resp 
+@app.route('/google2c13209b099aea62.html')
+def google_verify():
+    return "google-site-verification: google2c13209b099aea62"
+
+@app.route('/trustedbiz2026.txt')
+def indexnow_key():
+    return "trustedbiz2026", 200, {'Content-Type': 'text/plain'}
+
+
+@app.route('/sitemap.xml')
+def sitemap():
+    urls = [
+        'https://trustedbiz.co.ug/',
+        'https://trustedbiz.co.ug/about',
+        'https://trustedbiz.co.ug/privacy',
+        'https://trustedbiz.co.ug/terms'
+    ]
+
+    businesses = db_fetchall(
+        q("SELECT slug FROM business WHERE status='approved'")
+    )
+
+    for biz in businesses:
+        urls.append(f"https://{biz['slug']}.trustedbiz.co.ug")
+
+    xml = '<?xml version="1.0" encoding="UTF-8"?>'
+    xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+
+    for url in urls:
+        xml += f'<url><loc>{url}</loc></url>'
+
+    xml += '</urlset>'
+
+    return app.response_class(
+        xml,
+        mimetype='application/xml'
+    )
+
+
+@app.route('/robots.txt')
+def robots():
+    return """
+User-agent: *
+Allow: /
+
+Sitemap: https://trustedbiz.co.ug/sitemap.xml
+""", 200, {'Content-Type': 'text/plain'}
+
+# ── RUN ───────────────────────────────────────────────────────────────────────
+
+# ══════════════════════════════════════════════════════════════════════════════
+# HOSTING — custom domains for Daisy-built business sites
+# ══════════════════════════════════════════════════════════════════════════════
+
+# ══════════════════════════════════════════════════════════════════════════════
+# HOSTING — deploy your own site, or connect a custom domain to a Daisy-built one
+# ══════════════════════════════════════════════════════════════════════════════
+
+@app.route('/deploy', methods=['POST'])
+@login_required
+def deploy_site():
+    """Bring-your-own-HTML hosting, the actual 'hosting platform' side of
+    TrustedBiz — same idea as Render or Netlify, deploy what you already have.
+    Separate from Daisy's business-builder flow, which creates the business
+    record itself; this just needs a name and HTML."""
+    user        = get_current_user()
+    name        = request.form.get('name','').strip()
+    category    = request.form.get('category','Website').strip()
+    whatsapp    = request.form.get('whatsapp','').strip()
+    brand_color = request.form.get('brand_color','#2b7a78').strip()
+    description = request.form.get('description','').strip()
+    custom_html = request.form.get('custom_html','').strip()
+    html_file   = request.files.get('html_file')
+    github_url  = request.form.get('github_url','').strip()
+
+    if html_file and html_file.filename.endswith('.html'):
+        custom_html = html_file.read().decode('utf-8')
+
+    # Simple GitHub import — pulls index.html from a public repo's default
+    # branch. Real push-to-deploy (via a GitHub App + webhook) needs GitHub
+    # App credentials that don't exist yet; this covers "connect a repo" for now.
+    if github_url and not custom_html:
+        try:
+            m = re.search(r'github\.com/([^/]+)/([^/]+?)(?:\.git)?/?$', github_url)
+            if m:
+                owner, repo = m.group(1), m.group(2)
+                for branch in ('main', 'master'):
+                    r = requests.get(
+                        f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/index.html",
+                        timeout=10
+                    )
+                    if r.status_code == 200 and r.text.strip():
+                        custom_html = r.text
+                        break
+                if not custom_html:
+                    flash('Could not find an index.html on the main or master branch of that repo.', 'error')
+                    return redirect('/dashboard#sites')
+            else:
+                flash('That doesn\'t look like a valid GitHub repo URL.', 'error')
+                return redirect('/dashboard#sites')
+        except Exception as e:
+            print(f"GitHub import error: {e}")
+            flash('Could not fetch that repo. Check the URL and that it\'s public.', 'error')
+            return redirect('/dashboard#sites')
+
+    if not name:
+        flash('Site name is required.', 'error')
+        return redirect('/dashboard#sites')
+    if not custom_html:
+        flash('Please upload HTML, paste it, or link a public GitHub repo.', 'error')
+        return redirect('/dashboard#sites')
+    slug   = make_slug(name)
+    biz_id = db_insert(
+        q("INSERT INTO business (name, category, whatsapp, description, brand_color, slug, owner_id, status, plan, is_premium, generated_html) VALUES (?,?,?,?,?,?,?,?,?,?,?)"),
+        (name, category, whatsapp, description, brand_color, slug, user['id'], 'approved', 'free', 0, custom_html)
+    )
+    ping_google(slug)
+    flash(f'🚀 "{name}" is now LIVE at {slug}.trustedbiz.co.ug!', 'success')
+    return redirect('/dashboard#sites')
+
+
+@app.route('/trusthost/request-domain', methods=['POST'])
+@login_required
+def trusthost_request_domain():
+    user          = get_current_user()
+    biz_id        = request.form.get('biz_id','')
+    custom_domain = request.form.get('custom_domain','').strip().lower()
+    custom_domain = custom_domain.replace('https://','').replace('http://','').rstrip('/')
+    if biz_id and custom_domain:
+        biz = db_fetchone(q("SELECT id FROM business WHERE id=? AND owner_id=?"), (biz_id, user['id']))
+        if biz:
+            try:
+                db_execute(q("UPDATE business SET custom_domain=? WHERE id=?"), (custom_domain, biz_id))
+                flash(f'✅ Domain "{custom_domain}" requested! Point your CNAME to trustedbiz.co.ug then wait 24hrs.', 'success')
+            except:
+                flash('Run /admin/migrate-db first to enable custom domains.', 'error')
+        else:
+            flash('Site not found.', 'error')
+    return redirect('/dashboard#hosting')
+
+
+@app.route('/daisy/ping', methods=['GET','POST'])
+def daisy_ping():
+    return jsonify({"status":"alive","name":"Daisy"})
+
+
+@app.route('/daisy/build', methods=['POST'])
+def daisy_build():
+    """Thin proxy to Daisy's own API — she does the generating, we just
+    relay the request and cache the result so repeat requests in the same
+    category can reuse it for free (template_pool)."""
+    data    = request.get_json() or {}
+    mode    = (data.get('mode') or '').strip()
+    ctx     = data.get('context') or {}
+    history = data.get('history') or []
+
+    result, err = call_daisy(mode, context=ctx, history=history)
+    html = (result or {}).get('html') if result else None
+
+    if not html:
+        return jsonify({'html': None, 'error': err or "Daisy is thinking hard on this one. Please try again in a moment.", 'mode': mode}), 503
+
+    try:
+        existing = db_fetchone(q("SELECT id FROM template_pool WHERE category=? AND html=?"), (mode, html))
+        if not existing:
+            db_insert(q("INSERT INTO template_pool (category, html, quality_score) VALUES (?,?,?)"), (mode, html, 80))
+    except Exception as e:
+        print(f"[Daisy/TemplateSave] {e}")
+
+    return jsonify({'html': html, 'mode': mode})
+
+
+@app.route('/daisy/save-testimonial', methods=['POST'])
+def daisy_save_testimonial():
+    """Save a user testimonial to the DB so it can appear on the homepage."""
+    data = request.get_json() or {}
+    text = (data.get('text') or '').strip()
+    if len(text) < 10:
+        return jsonify({'saved': False, 'reason': 'too short'})
+    _u = get_current_user()
+    user_id = _u['id'] if _u else None
+    user_name = (_u.get('name') if _u else None) or 'Anonymous'
+    try:
+        db_insert(q("INSERT INTO daisy_training (input, output) VALUES (?,?)"),
+                  (f"[TESTIMONIAL from {user_name}]", text))
+        return jsonify({'saved': True})
+    except Exception as e:
+        print(f'[Testimonial] {e}')
+        return jsonify({'saved': False, 'reason': str(e)})
+
+@app.route('/daisy/save-training', methods=['POST'])
+def daisy_save_training():
+    """Save a Daisy Q&A pair to the database so it persists across restarts."""
+    data = request.get_json() or {}
+    inp  = (data.get('input') or '').strip()
+    out  = (data.get('output') or '').strip()
+    if not inp or not out:
+        return jsonify({'saved': False, 'reason': 'empty'})
+    try:
+        # Skip exact duplicates
+        existing = db_fetchone(q("SELECT id FROM daisy_training WHERE input=?"), (inp,))
+        if existing:
+            return jsonify({'saved': False, 'reason': 'duplicate'})
+        db_insert(q("INSERT INTO daisy_training (input, output) VALUES (?,?)"), (inp, out))
+        total = (db_fetchone(q("SELECT COUNT(*) as c FROM daisy_training")) or {}).get('c', 0)
+        return jsonify({'saved': True, 'total': total})
+    except Exception as e:
+        print(f'[Daisy/SaveTraining] {e}')
+        return jsonify({'saved': False, 'reason': str(e)})
+
+@app.route('/admin/export-training')
+@admin_required
+def export_training():
+    """Download all Daisy training data as training_data.json — replace file in repo and redeploy."""
+    import json as _j
+    rows = db_fetchall(q("SELECT input, output FROM daisy_training ORDER BY id ASC"))
+    pairs = [{'input': r['input'], 'output': r['output']} for r in rows]
+    from flask import Response
+    return Response(
+        _j.dumps(pairs, ensure_ascii=False, indent=2),
+        mimetype='application/json',
+        headers={'Content-Disposition': 'attachment; filename=training_data.json'}
+    )
+
+@app.route('/daisy/chat', methods=['POST'])
+def daisy_chat():
+    """Thin proxy to Daisy's own API for the conversational flow."""
+    data    = request.get_json() or {}
+    msg     = (data.get('message') or data.get('user_input') or '').strip()
+    history = data.get('history', [])
+    has_img = data.get('has_image', False)
+    if not msg:
+        return jsonify({'reply': 'What would you like to build today?', 'done': False})
+
+    result, err = call_daisy('chat', context={'has_image': has_img},
+                              history=history, message=msg, timeout=20)
+    if not result:
+        return jsonify({'reply': err or "I'm having a small moment — try again!", 'done': False})
+
+    return jsonify({
+        'reply': result.get('reply', ''),
+        'done':  bool(result.get('mode')),
+        'mode':  result.get('mode'),
+    })
+
+
+@app.route('/search')
+def search_page():
+    q_str = request.args.get('q','')
+    results = []
+    if q_str:
+        import re as _re
+        pattern = '%' + q_str + '%'
+        results = db_fetchall(
+            q("SELECT name,slug,category,description,whatsapp FROM business WHERE status=\'approved\' AND (name LIKE ? OR category LIKE ? OR description LIKE ?) LIMIT 30"),
+            (pattern, pattern, pattern)
+        )
+    return render_template('search.html',
+        results=results, query=q_str,
+        current_user=get_current_user())
+
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# DAISY VIDEO ENGINE ROUTES
+# ══════════════════════════════════════════════════════════════════════════════
+VIDEO_UPLOAD_DIR = Path("static/video_uploads")
+VIDEO_UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+ALLOWED_VIDEO_EXT = {"mp4","mov","avi","mkv","webm","3gp","m4v"}
+
+def _allowed_video(fn):
+    return "." in fn and fn.rsplit(".",1)[1].lower() in ALLOWED_VIDEO_EXT
+
+@app.route("/daisy/video/upload", methods=["POST"])
+def daisy_video_upload():
+    from video_engine import submit_video_job
+    user_prompt = (request.form.get("prompt") or request.form.get("message") or "").strip()
+    video_file  = request.files.get("video")
+    if not video_file or not video_file.filename:
+        return jsonify({"error":"No video file uploaded"}), 400
+    if not _allowed_video(video_file.filename):
+        return jsonify({"error":"File type not supported. Use MP4, MOV, or 3GP"}), 400
+    if not user_prompt:
+        user_prompt = "Make a professional promo video"
+    ext      = video_file.filename.rsplit(".",1)[1].lower()
+    raw_path = VIDEO_UPLOAD_DIR / f"{secrets.token_hex(10)}.{ext}"
+    try:
+        video_file.save(str(raw_path))
+    except Exception as e:
+        return jsonify({"error":f"Upload failed: {e}"}), 500
+    size_mb = raw_path.stat().st_size / (1024*1024)
+    if size_mb > 150:
+        raw_path.unlink(missing_ok=True)
+        return jsonify({"error":"Video too large. Max 150MB"}), 400
+    job_id = submit_video_job(str(raw_path), user_prompt)
+    return jsonify({"job_id":job_id,"status":"processing",
+        "message":"Daisy is editing your video... check back in 30-60 seconds 🎬",
+        "prompt":user_prompt})
+
+@app.route("/daisy/video/status/<job_id>", methods=["GET"])
+def daisy_video_status(job_id):
+    from video_engine import get_job
+    job = get_job(job_id)
+    if not job:
+        return jsonify({"error":"Job not found"}), 404
+    resp = {"job_id":job_id,"status":job["status"],"prompt":job.get("prompt","")}
+    if job["status"] == "done":
+        resp["url"]     = job["url"]
+        resp["plan"]    = job.get("plan",{})
+        resp["message"] = "Your video is ready! 🎬✨"
+    elif job["status"] == "error":
+        resp["error"]   = job.get("error","Unknown error")
+        resp["message"] = "Something went wrong. Try again with a shorter video."
+    else:
+        resp["message"] = "Still editing... Daisy is working on it 🎬"
+    return jsonify(resp)
+
+@app.route("/daisy/video/check", methods=["GET"])
+def daisy_video_check():
+    import shutil as _sh
+    ff = _sh.which("ffmpeg")
+    fp = _sh.which("ffprobe")
+    return jsonify({
+        "ffmpeg":      bool(ff),
+        "ffprobe":     bool(fp),
+        "ffmpeg_path": ff,
+        "cloudinary":  bool(os.environ.get("CLOUDINARY_URL")),
+        "anthropic":   bool(os.environ.get("ANTHROPIC_API_KEY")),
+        "ready":       bool(ff and fp),
+        "message":     "Daisy Video Engine is ready 🎬" if ff else "FFmpeg not found — check build command"
+    })
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5000)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# AGENT SYSTEM
+# ══════════════════════════════════════════════════════════════════════════════
+
+def agent_login_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        if 'agent_id' not in session:
+            return redirect('/agent/login')
+        return f(*args, **kwargs)
+    return decorated
+
+def get_current_agent():
+    if 'agent_id' in session:
+        return db_fetchone(q("SELECT * FROM agents WHERE id=?"), (session['agent_id'],))
+    return None
+
+def make_agent_code():
+    """Generate a unique AGT-XXXX code."""
+    while True:
+        code = "AGT-" + str(secrets.randbelow(9000) + 1000)
+        existing = db_fetchone(q("SELECT id FROM agents WHERE code=?"), (code,))
+        if not existing:
+            return code
+
+
+@app.route('/agent/register', methods=['GET', 'POST'])
+def agent_register():
+    if request.method == 'POST':
+        name     = request.form.get('name', '').strip()
+        email    = request.form.get('email', '').strip().lower()
+        password = request.form.get('password', '')
+        whatsapp = request.form.get('whatsapp', '').strip()
+        area     = request.form.get('area', '').strip()
+
+        if not all([name, email, password, whatsapp, area]):
+            flash('Please fill in all fields.', 'error')
+            return render_template('agent_register.html')
+
+        existing = db_fetchone(q("SELECT id FROM agents WHERE email=?"), (email,))
+        if existing:
+            flash('An agent account with that email already exists.', 'error')
+            return render_template('agent_register.html')
+
+        code     = make_agent_code()
+        hashed   = generate_password_hash(password)
+        agent_id = db_insert(
+            q("INSERT INTO agents (name, email, password, whatsapp, area, code) VALUES (?,?,?,?,?,?)"),
+            (name, email, hashed, whatsapp, area, code)
+        )
+
+        # Notify admin on WhatsApp
+        admin_wa = os.environ.get('ADMIN_WHATSAPP', '256753187966')
+        _send_wa_notification = f"New TrustedBiz Agent registered!\nName: {name}\nEmail: {email}\nArea: {area}\nCode: {code}\nWhatsApp: {whatsapp}"
+        # (WhatsApp notification to admin — plug in your SMS/WA API here)
+
+        session['agent_id'] = agent_id
+        flash(f'Welcome {name}! Your agent code is {code}. Start adding businesses!', 'success')
+        return redirect('/agent/dashboard')
+
+    return render_template('agent_register.html')
+
+
+@app.route('/agent/login', methods=['GET', 'POST'])
+def agent_login():
+    if request.method == 'POST':
+        email    = request.form.get('email', '').strip().lower()
+        password = request.form.get('password', '')
+
+        agent = db_fetchone(q("SELECT * FROM agents WHERE email=?"), (email,))
+        if not agent or not check_password_hash(agent['password'], password):
+            flash('Invalid email or password.', 'error')
+            return render_template('agent_login.html')
+
+        session['agent_id'] = agent['id']
+        return redirect('/agent/dashboard')
+
+    return render_template('agent_login.html')
+
+
+@app.route('/agent/logout')
+def agent_logout():
+    session.pop('agent_id', None)
+    return redirect('/agent/login')
+
+
+@app.route('/agent/dashboard')
+@agent_login_required
+def agent_dashboard():
+    agent = get_current_agent()
+    if not agent:
+        return redirect('/agent/login')
+
+    businesses = db_fetchall(
+        q("SELECT * FROM business WHERE agent_code=? ORDER BY created_at DESC"),
+        (agent['code'],)
+    )
+
+    approved = [b for b in businesses if b['status'] == 'approved']
+    pending  = [b for b in businesses if b['status'] == 'pending']
+
+    stats = {
+        'total':        len(businesses),
+        'approved':     len(approved),
+        'pending':      len(pending),
+        'earnings':     len(approved) * 1000,
+        'total_earned': len(approved) * 1000,  # expand with real payout tracking later
+    }
+
+    # Fetch invite codes for approved businesses so agent can share passcodes
+    invite_codes = {}
+    for biz in businesses:
+        if biz['status'] == 'approved':
+            inv = db_fetchone(
+                q("SELECT * FROM invite_codes WHERE biz_id=? ORDER BY id DESC LIMIT 1"),
+                (biz['id'],)
+            )
+            if inv:
+                invite_codes[biz['id']] = dict(inv)
+
+    # Attach plan to each biz dict (from column if exists, else derive from is_premium)
+    biz_dicts = []
+    for biz in businesses:
+        b = dict(biz)
+        if not b.get('plan'):
+            b['plan'] = 'promax' if b.get('is_premium') else 'free'
+        biz_dicts.append(b)
+
+    return render_template('agent_dashboard.html',
+        agent=dict(agent),
+        businesses=biz_dicts,
+        stats=stats,
+        invite_codes=invite_codes
+    )
+
+
+@app.route('/agent/add-business', methods=['POST'])
+@agent_login_required
+def agent_add_business():
+    agent = get_current_agent()
+    if not agent:
+        return redirect('/agent/login')
+
+    name        = request.form.get('name', '').strip()
+    category    = request.form.get('category', '').strip()
+    whatsapp    = request.form.get('whatsapp', '').strip()
+    email       = request.form.get('email', '').strip().lower()
+    location    = request.form.get('location', '').strip()
+    hours       = request.form.get('hours', 'Mon–Sat 8am–6pm').strip() or 'Mon–Sat 8am–6pm'
+    description = request.form.get('description', '').strip()
+    brand_color = request.form.get('brand_color', '#2b7a78').strip()
+    map_link    = request.form.get('map_link', '').strip()
+    plan        = request.form.get('plan', 'basic').strip().lower()
+    if plan not in ('free', 'basic', 'promax'):
+        plan = 'basic'
+
+    # Only name, category, location, description are required — email/whatsapp optional for demo
+    if not all([name, category, location, description]):
+        flash('Please fill in the business name, category, location and description.', 'error')
+        return redirect('/agent/dashboard')
+
+    # Create a placeholder user only if email was given
+    owner_id = 0
+    if email:
+        existing_user = db_fetchone(q("SELECT id FROM users WHERE email=?"), (email,))
+        if existing_user:
+            owner_id = existing_user['id']
+        else:
+            temp_password = generate_password_hash(secrets.token_urlsafe(8))
+            owner_id = db_insert(
+                q("INSERT INTO users (name, email, password) VALUES (?,?,?)"),
+                (name, email, temp_password)
+            )
+
+    slug       = make_slug(name)
+    agent_code = agent['code']
+    is_premium = 1 if plan in ('basic', 'promax') else 0
+
+    # Store plan in the business record (reuse a spare column or add to notes)
+    # We store plan value in a separate field; fall back to storing in description prefix if column missing
+    try:
+        biz_id = db_insert(
+            q("INSERT INTO business (name, category, whatsapp, description, hours, brand_color, slug, owner_id, status, agent_code, is_premium, plan) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)"),
+            (name, category, whatsapp, description, hours, brand_color, slug, owner_id, 'pending', agent_code, is_premium, plan)
+        )
+    except Exception:
+        # plan column may not exist yet — fallback without it
+        biz_id = db_insert(
+            q("INSERT INTO business (name, category, whatsapp, description, hours, brand_color, slug, owner_id, status, agent_code, is_premium) VALUES (?,?,?,?,?,?,?,?,?,?,?)"),
+            (name, category, whatsapp, description, hours, brand_color, slug, owner_id, 'pending', agent_code, is_premium)
+        )
+
+    # Save location (stored in a notes/location field if available, otherwise skip gracefully)
+    try:
+        db_execute(q("UPDATE business SET location=? WHERE id=?"), (location, biz_id))
+    except Exception:
+        pass
+
+    # Save photos if uploaded
+    photos = request.files.getlist('photos')
+    if photos and photos[0].filename:
+        try:
+            photo_refs = save_photos(photos)
+            if photo_refs:
+                db_execute(q("UPDATE business SET photos=? WHERE id=?"), (','.join(photo_refs), biz_id))
+        except Exception:
+            pass
+
+    plan_label = {'free': 'Free', 'basic': 'Basic', 'promax': 'Pro Max'}.get(plan, plan.title())
+    flash(f'✅ "{name}" ({plan_label} plan) submitted for approval! Once approved, you\'ll get a passcode to share with the owner.', 'success')
+    return redirect('/agent/dashboard')
+
+
+# ── ADMIN: Approve agent-submitted business and notify owner ──────────────────
+
+@app.route('/admin/approve-agent-biz/<int:biz_id>', methods=['POST'])
+@admin_required
+def admin_approve_agent_biz(biz_id):
+    biz = db_fetchone(q("SELECT * FROM business WHERE id=?"), (biz_id,))
+    if not biz:
+        return "Not found", 404
+
+    db_execute(q("UPDATE business SET status='approved', verified=1 WHERE id=?"), (biz_id,))
+
+    category = (biz.get('category') or '').lower().strip()
+
+    # ── WEBSITE GENERATION ────────────────────────────────────────────────────
+    # NOTE: the old pool-swap optimization (reusing a template's HTML and
+    # string-swapping in the new business's name/contact info) lived inside
+    # ai_generator.swap_business_info, which isn't available now that Daisy
+    # is a separate service — that function's logic wasn't visible to build
+    # a safe equivalent here. For now every business gets a fresh Daisy
+    # build; times_used still increments so pool stats stay meaningful, and
+    # a real swap-on-Daisy's-side is worth adding back once her API exists.
+    import threading as _t
+    biz_plan = (biz.get('plan') or 'free')
+
+    pooled = db_fetchone(
+        q("SELECT * FROM template_pool WHERE category=? AND times_used=0 ORDER BY quality_score DESC LIMIT 1"),
+        (category,)
+    )
+
+    def _agent_gen(biz_dict, bid, cat, bplan, pool_id):
+        daisy_ctx = {
+            'name': biz_dict.get('name'), 'category': biz_dict.get('category'),
+            'description': biz_dict.get('description'), 'whatsapp': biz_dict.get('whatsapp'),
+            'hours': biz_dict.get('hours') or 'Mon-Sat 8am-7pm',
+            'brand_color': biz_dict.get('brand_color') or '#2b7a78', 'plan': bplan,
+        }
+        result, err = call_daisy('website', context=daisy_ctx)
+        html = (result or {}).get('html') if result else None
+        if html and len(html) > 2000:
+            db_execute(q("UPDATE business SET generated_html=? WHERE id=?"), (html, bid))
+            if pool_id:
+                db_execute(q("UPDATE template_pool SET times_used=times_used+1 WHERE id=?"), (pool_id,))
+            else:
+                db_insert(q("INSERT INTO template_pool (category, html, quality_score, times_used) VALUES (?,?,?,0)"),
+                          (cat, html, 100))
+            print(f"Daisy gen done for biz_id={bid} (category={cat})")
+        else:
+            print(f"[Daisy API] gen failed for biz_id={bid}: {err}")
+
+    bd = biz_to_dict(biz)
+    bd['branches'] = []
+    bd['ads'] = []
+    _t.Thread(target=_agent_gen, args=(bd, biz_id, category, biz_plan, pooled['id'] if pooled else None), daemon=True).start()
+    ping_google(biz.get('slug', ''))
+    flash(f"✅ '{biz['name']}' approved — Daisy is building the website now!", 'success')
+
+    # ── INVITE CODE: generate one so the agent can give the owner dashboard access
+    import string, secrets as _sec
+    def _make_code():
+        chars = string.ascii_uppercase + string.digits
+        for _ in range(100):
+            code = ''.join(_sec.choice(chars) for _ in range(6))
+            if not db_fetchone(q("SELECT id FROM invite_codes WHERE code=?"), (code,)):
+                return code
+        return _sec.token_hex(3).upper()
+
+    actual_plan = biz.get('plan') or 'basic'
+    existing_code = db_fetchone(q("SELECT * FROM invite_codes WHERE biz_id=? AND used=0"), (biz_id,))
+    if not existing_code:
+        agent_row = db_fetchone(q("SELECT * FROM agents WHERE code=?"), (biz.get('agent_code'),)) if biz.get('agent_code') else None
+        agent_id = agent_row['id'] if agent_row else 0
+        invite_code_str = _make_code()
+        db_insert(
+            q("INSERT INTO invite_codes (code, biz_id, agent_id, plan) VALUES (?,?,?,?)"),
+            (invite_code_str, biz_id, agent_id, actual_plan)
+        )
+    else:
+        invite_code_str = existing_code['code']
+
+    # Notify the agent with the invite code + direct link to share with the owner
+    if biz.get('agent_code'):
+        agent_row = db_fetchone(q("SELECT * FROM agents WHERE code=?"), (biz['agent_code'],))
+        if agent_row:
+            site_url  = f"https://{biz['slug']}.trustedbiz.co.ug"
+            join_link = f"https://trustedbiz.co.ug/join?code={invite_code_str}"
+            db_insert(
+                q("INSERT INTO notifications (user_id, message) VALUES (?,?)"),
+                (0, f"🎉 '{biz['name']}' APPROVED! Show the owner their website: {site_url} — passcode to share: {invite_code_str} — activation link: {join_link}")
+            )
+
+    return redirect('/admin')
+
+
+@app.route('/join', methods=['GET', 'POST'])
+def join_with_code():
+    """Business owner enters invite code → creates account → gets dashboard access."""
+    code = request.args.get('code', '').strip().upper()
+    invite = None
+    biz = None
+
+    if code:
+        invite = db_fetchone(q("SELECT * FROM invite_codes WHERE code=? AND used=0"), (code,))
+        if invite:
+            biz = db_fetchone(q("SELECT * FROM business WHERE id=?"), (invite['biz_id'],))
+        else:
+            flash("That invite code is invalid or already used. Contact your TrustedBiz agent for a new one.", "error")
+
+    if request.method == 'POST':
+        code     = request.form.get('code', '').strip().upper()
+        name     = request.form.get('name', '').strip()
+        email    = request.form.get('email', '').strip().lower()
+        password = request.form.get('password', '')
+        confirm  = request.form.get('confirm', '')
+
+        invite = db_fetchone(q("SELECT * FROM invite_codes WHERE code=? AND used=0"), (code,))
+        if not invite:
+            flash("Invalid or already used invite code. Contact your TrustedBiz agent.", "error")
+            return render_template('join.html', code=code, invite=None, biz=None)
+
+        biz = db_fetchone(q("SELECT * FROM business WHERE id=?"), (invite['biz_id'],))
+
+        if password != confirm:
+            flash("Passwords do not match.", "error")
+            return render_template('join.html', code=code, invite=dict(invite), biz=biz_to_dict(biz) if biz else None)
+        if len(password) < 6:
+            flash("Password must be at least 6 characters.", "error")
+            return render_template('join.html', code=code, invite=dict(invite), biz=biz_to_dict(biz) if biz else None)
+
+        # Create or update user
+        existing_user = db_fetchone(q("SELECT * FROM users WHERE email=?"), (email,))
+        if existing_user:
+            user_id = existing_user['id']
+            db_execute(q("UPDATE users SET password=?, name=? WHERE id=?"),
+                       (generate_password_hash(password), name, user_id))
+        else:
+            user_id = db_insert(
+                q("INSERT INTO users (name, email, password, is_premium) VALUES (?,?,?,1)"),
+                (name, email, generate_password_hash(password))
+            )
+
+        # Link user to the business
+        db_execute(q("UPDATE business SET owner_id=? WHERE id=?"), (user_id, biz['id']))
+        # Mark code as used
+        db_execute(q("UPDATE invite_codes SET used=1, used_by_user_id=? WHERE code=?"), (user_id, code))
+        # Log them in
+        session['user_id'] = user_id
+        flash(f"🎉 Welcome to TrustedBiz! Your business dashboard is ready.", "success")
+        return redirect('/dashboard')
+
+    return render_template('join.html', code=code, invite=dict(invite) if invite else None,
+                           biz=biz_to_dict(biz) if biz else None)
+
+
+@app.route('/agent/generate-invite/<int:biz_id>', methods=['POST'])
+@agent_login_required
+def agent_generate_invite(biz_id):
+    """Agent generates a unique invite code for a business they submitted."""
+    agent = get_current_agent()
+    biz = db_fetchone(q("SELECT * FROM business WHERE id=? AND agent_code=?"), (biz_id, agent['code']))
+    if not biz:
+        flash("Business not found.", "error")
+        return redirect('/agent/dashboard')
+
+    existing = db_fetchone(q("SELECT * FROM invite_codes WHERE biz_id=? AND used=0"), (biz_id,))
+    if existing:
+        join_link = f"https://trustedbiz.co.ug/join?code={existing['code']}"
+        flash(f"Invite code: {existing['code']} — Share this link: {join_link}", "success")
+        return redirect('/agent/dashboard')
+
+    flash("This business hasn't been approved by admin yet. Check back soon.", "warning")
+    return redirect('/agent/dashboard')
+
+
+# ── MIGRATE: add agent columns if upgrading existing DB ──────────────────────
+@app.route('/admin/migrate-agents')
+@admin_required
+def migrate_agents():
+    try:
+        db_execute("CREATE TABLE IF NOT EXISTS agents (id SERIAL PRIMARY KEY, name TEXT, email TEXT UNIQUE, password TEXT, whatsapp TEXT, area TEXT, code TEXT UNIQUE, status TEXT DEFAULT 'active', created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)")
+    except: pass
+    try:
+        db_execute(q("ALTER TABLE business ADD COLUMN agent_code TEXT"))
+    except: pass
+    try:
+        db_execute(q("ALTER TABLE business ADD COLUMN plan TEXT DEFAULT 'basic'"))
+    except: pass
+    try:
+        db_execute(q("ALTER TABLE business ADD COLUMN location TEXT"))
+    except: pass
+    return "Agent migration done!"
+
