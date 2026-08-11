@@ -70113,6 +70113,9 @@ const FLAT_DICT = {
   // === INGESTED 2026-08-09 18:47 ===
   datares: { definition: "Often built in places already suffering from water deficit", what_it_does: "", examples: "AI deployment has already led to an increase in water scarcity in Mexico and Uruguay" },
 
+  // === INGESTED 2026-08-11 18:10 ===
+  the_uganda_police_force: "The national police force",
+
 };
 
 // ============================================================
