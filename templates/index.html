@@ -479,6 +479,84 @@
       white-space: pre;
     }
 
+    /* ── PUBLISH TO TRUSTEDBIZ MODAL ── */
+    .publish-modal-overlay {
+      position: fixed; inset: 0;
+      z-index: 210;
+      background: rgba(0,0,0,0.55);
+      display: none;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .publish-modal {
+      width: 100%;
+      max-width: 480px;
+      max-height: 88vh;
+      overflow-y: auto;
+      background: var(--card);
+      border-radius: 20px 20px 0 0;
+      padding: 20px 18px calc(20px + env(safe-area-inset-bottom, 0px));
+      box-shadow: 0 -8px 30px rgba(0,0,0,0.4);
+    }
+    .publish-modal-title { font-size: 16px; font-weight: 600; color: var(--text); font-family: 'Inter', sans-serif; }
+    .publish-modal-sub { font-size: 12.5px; color: var(--muted); margin: 4px 0 18px; line-height: 1.5; }
+    .publish-field { margin-bottom: 14px; }
+    .publish-label { display: block; font-size: 12.5px; color: var(--muted); margin-bottom: 6px; font-family: 'Inter', sans-serif; }
+    .publish-input {
+      width: 100%; box-sizing: border-box;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 11px 13px;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      outline: none;
+    }
+    .publish-input:focus { border-color: var(--daisy); }
+    .publish-color-input {
+      width: 100%; height: 42px; padding: 3px;
+      border: 1px solid var(--border); border-radius: 10px;
+      background: var(--surface); cursor: pointer;
+    }
+    .publish-row { display: flex; gap: 10px; }
+    .publish-row .publish-field:first-child { flex: 1; }
+    .publish-row .publish-field:last-child { flex: 0 0 68px; }
+    .publish-error { font-size: 12.5px; color: #f87171; margin: -4px 0 14px; line-height: 1.4; }
+    .publish-actions { display: flex; gap: 10px; margin-top: 6px; }
+    .publish-cancel-btn {
+      flex: 0 0 auto; padding: 12px 16px;
+      border-radius: 10px; border: 1px solid var(--border);
+      background: none; color: var(--text);
+      font-size: 14px; font-family: 'Inter', sans-serif; cursor: pointer;
+    }
+    .publish-submit-btn {
+      flex: 1; padding: 12px 16px;
+      border-radius: 10px; border: 1px solid var(--daisy);
+      background: var(--daisy); color: #15110a;
+      font-size: 14px; font-weight: 600; font-family: 'Inter', sans-serif;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      cursor: pointer;
+    }
+    .publish-submit-btn:disabled { opacity: 0.6; cursor: default; }
+    .publish-submit-btn svg { width: 14px; height: 14px; }
+    .publish-success { text-align: center; padding: 6px 0 4px; }
+    .publish-success-icon {
+      width: 52px; height: 52px; border-radius: 50%;
+      background: var(--daisy); color: #15110a;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 14px;
+    }
+    .publish-success-icon svg { width: 24px; height: 24px; }
+    .publish-success-title { font-size: 15px; font-weight: 600; color: var(--text); font-family: 'Inter', sans-serif; }
+    .publish-success-url {
+      font-family: 'SF Mono', Consolas, monospace; font-size: 13.5px;
+      color: var(--daisy); word-break: break-all; margin: 8px 0 18px;
+    }
+    .publish-success-actions { display: flex; gap: 10px; }
+    .publish-success-actions .publish-submit-btn { text-decoration: none; }
+    .publish-success-note { font-size: 11.5px; color: var(--muted); margin-top: 16px; line-height: 1.5; }
+
 
     .file-card-actions {
       display: flex; gap: 8px;
@@ -2958,6 +3036,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const pdfBtn = !renderable
           ? `<button class="file-card-btn" data-action="save-pdf" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.file}<span>PDF</span></button>`
           : '';
+        // Only a real webpage (html/htm) can go live on TrustedBiz —
+        // an .svg is renderable too but isn't a site, so it doesn't
+        // get this button.
+        const publishBtn = (ext === 'html' || ext === 'htm')
+          ? `<button class="file-card-btn primary" data-action="publish" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.globe}<span>Publish to TrustedBiz</span></button>`
+          : '';
 
         return `<div class="file-card">
           <div class="file-card-head">
@@ -2972,7 +3056,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <button class="file-card-btn" data-action="copy" data-code-id="${id}">${ICONS.copy}<span>Copy</span></button>
             ${printBtn}
             ${pdfBtn}
-            <button class="file-card-btn primary" data-action="download" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.download}<span>Download</span></button>
+            ${publishBtn}
+            <button class="file-card-btn" data-action="download" data-code-id="${id}" data-filename="${escAttr(filename)}">${ICONS.download}<span>Download</span></button>
           </div>
           ${previewBlock}
           ${codeBlock}
@@ -3152,6 +3237,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if (frame && frame.contentWindow) {
         try { frame.contentWindow.focus(); frame.contentWindow.print(); } catch (err) {}
       }
+    } else if (btn.dataset.action === 'publish') {
+      const filename = btn.dataset.filename || 'site.html';
+      openOverlay('publish', () => openPublishModal(code, filename));
     } else if (btn.dataset.action === 'expand') {
       const card = btn.closest('.file-card');
       const codeTab = card ? card.querySelector('.file-card-tab[data-action="show-code"]') : null;
@@ -3216,6 +3304,149 @@ document.addEventListener('DOMContentLoaded', function() {
     const modal = document.getElementById('code-modal');
     if (modal) modal.style.display = 'none';
   };
+
+  // ── PUBLISH TO TRUSTEDBIZ ──
+  // Turns a generated site.html file-card into a live, hosted business
+  // site. Collects the handful of fields TrustedBiz's /api/daisy/publish
+  // needs, posts to Daisy's own /publish/trustedbiz (which holds the
+  // shared secret server-side), and shows the live URL back in place.
+  let _publishHtml = '';
+
+  function ensurePublishModal() {
+    let overlay = document.getElementById('publish-modal-overlay');
+    if (overlay) return overlay;
+    overlay = document.createElement('div');
+    overlay.id = 'publish-modal-overlay';
+    overlay.className = 'publish-modal-overlay';
+    overlay.innerHTML = `
+      <div class="publish-modal">
+        <div class="publish-modal-title">Publish to TrustedBiz</div>
+        <div class="publish-modal-sub">Goes live instantly and for free at yourbusiness.trustedbiz.co.ug — no setup, no hosting to pick.</div>
+        <div id="publish-form">
+          <div class="publish-field">
+            <label class="publish-label">Business name *</label>
+            <input class="publish-input" id="publish-name" type="text" placeholder="e.g. Sunset Grill" maxlength="100" />
+          </div>
+          <div class="publish-row">
+            <div class="publish-field">
+              <label class="publish-label">Category</label>
+              <input class="publish-input" id="publish-category" type="text" placeholder="e.g. restaurant" maxlength="60" />
+            </div>
+            <div class="publish-field">
+              <label class="publish-label">Color</label>
+              <input class="publish-color-input" id="publish-color" type="color" value="#2b7a78" />
+            </div>
+          </div>
+          <div class="publish-field">
+            <label class="publish-label">WhatsApp number</label>
+            <input class="publish-input" id="publish-whatsapp" type="tel" placeholder="e.g. 0700123456" maxlength="20" />
+          </div>
+          <div class="publish-field">
+            <label class="publish-label">Your email <span style="opacity:0.7">(so you can manage this listing later)</span></label>
+            <input class="publish-input" id="publish-email" type="email" placeholder="you@email.com" maxlength="150" />
+          </div>
+          <div class="publish-error" id="publish-error" style="display:none;"></div>
+          <div class="publish-actions">
+            <button class="publish-cancel-btn" id="publish-cancel" type="button">Cancel</button>
+            <button class="publish-submit-btn" id="publish-submit" type="button">${ICONS.globe}<span>Publish</span></button>
+          </div>
+        </div>
+        <div id="publish-success" style="display:none;"></div>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeOverlay(); });
+    overlay.querySelector('#publish-cancel').addEventListener('click', closeOverlay);
+    overlay.querySelector('#publish-submit').addEventListener('click', doPublish);
+    return overlay;
+  }
+
+  function openPublishModal(html, filename) {
+    const overlay = ensurePublishModal();
+    _publishHtml = html;
+    overlay.querySelector('#publish-form').style.display = '';
+    overlay.querySelector('#publish-success').style.display = 'none';
+    overlay.querySelector('#publish-success').innerHTML = '';
+    const errorEl = overlay.querySelector('#publish-error');
+    errorEl.style.display = 'none';
+    errorEl.textContent = '';
+    overlay.querySelector('#publish-name').value = '';
+    overlay.querySelector('#publish-category').value = '';
+    overlay.querySelector('#publish-whatsapp').value = '';
+    overlay.querySelector('#publish-email').value = '';
+    overlay.querySelector('#publish-color').value = '#2b7a78';
+    const submitBtn = overlay.querySelector('#publish-submit');
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = `${ICONS.globe}<span>Publish</span>`;
+    overlay.style.display = 'flex';
+    setTimeout(() => overlay.querySelector('#publish-name').focus(), 50);
+  }
+  function closePublishModal() {
+    const overlay = document.getElementById('publish-modal-overlay');
+    if (overlay) overlay.style.display = 'none';
+  }
+  OVERLAY_CLOSERS.publish = closePublishModal;
+
+  async function doPublish() {
+    const overlay = document.getElementById('publish-modal-overlay');
+    const name = overlay.querySelector('#publish-name').value.trim();
+    const errorEl = overlay.querySelector('#publish-error');
+    errorEl.style.display = 'none';
+    if (!name) {
+      errorEl.textContent = 'A business name is required.';
+      errorEl.style.display = '';
+      return;
+    }
+    const submitBtn = overlay.querySelector('#publish-submit');
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<span>Publishing…</span>';
+    try {
+      const resp = await fetch('/publish/trustedbiz', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          category: overlay.querySelector('#publish-category').value.trim(),
+          whatsapp: overlay.querySelector('#publish-whatsapp').value.trim(),
+          owner_email: overlay.querySelector('#publish-email').value.trim(),
+          owner_name: name,
+          brand_color: overlay.querySelector('#publish-color').value,
+          html: _publishHtml,
+        }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || !data.success) {
+        throw new Error(data.error || 'Could not publish right now. Try again.');
+      }
+      overlay.querySelector('#publish-form').style.display = 'none';
+      const successEl = overlay.querySelector('#publish-success');
+      successEl.style.display = '';
+      successEl.innerHTML = `
+        <div class="publish-success">
+          <div class="publish-success-icon">${ICONS.globe}</div>
+          <div class="publish-success-title">You're live!</div>
+          <div class="publish-success-url">${escHtml(data.url || '')}</div>
+          <div class="publish-success-actions">
+            <button class="publish-cancel-btn" id="publish-copy-link" type="button">${ICONS.copy}<span>Copy link</span></button>
+            <a class="publish-submit-btn" href="${escAttr(data.url || '#')}" target="_blank" rel="noopener">${ICONS.globe}<span>View site</span></a>
+          </div>
+          ${data.join_link ? `<div class="publish-success-note">Claim this listing to manage it later — a login link was sent to your email.</div>` : ''}
+        </div>`;
+      successEl.querySelector('#publish-copy-link').addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(data.url || '');
+          const b = successEl.querySelector('#publish-copy-link');
+          const orig = b.innerHTML;
+          b.innerHTML = `${ICONS.copy}<span>Copied</span>`;
+          setTimeout(() => { b.innerHTML = orig; }, 1500);
+        } catch (err) {}
+      });
+    } catch (err) {
+      errorEl.textContent = err.message || 'Could not publish right now. Try again.';
+      errorEl.style.display = '';
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = `${ICONS.globe}<span>Publish</span>`;
+    }
+  }
 
 
   // Converts $$...$$ (standalone formulas) and \(...\) (inline math)
