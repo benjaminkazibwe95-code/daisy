@@ -3675,7 +3675,7 @@ document.addEventListener('DOMContentLoaded', function() {
     body.innerHTML = 'Thinking again…';
     // Everything except the answer being replaced — that answer is about
     // to change, so it shouldn't be "prior context" for its own redo.
-    const priorHistory = currentChat.messages.slice(0, -1).slice(-24);
+    const priorHistory = toHistory(currentChat.messages.slice(0, -1).slice(-24));
     try {
       const data = await streamAsk({
         question, instructions: getInstructions(), memory: getMemory(), history: priorHistory, web_search_enabled: isWebSearchAllowed()
@@ -3926,7 +3926,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Snapshot BEFORE recording this turn — this is genuinely everything
     // said earlier in the conversation, with no overlap with `question`
     // below (which is this exact turn, sent separately).
-    const priorHistory = currentChat.messages.slice(-24);
+    const priorHistory = toHistory(currentChat.messages.slice(-24));
     addMsg(text, 'user', attachedImage ? { imageDataUrl: attachedImage.dataUrl } : {});
     recordMessage('user', attachedImage ? (text || '[image]') : text);
     clearPendingImage();
@@ -4335,7 +4335,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         activateChat();
         stickToBottom = true;
-        const priorHistory = currentChat.messages.slice(-24); // same fix as text chat — real memory of this conversation, spoken or typed
+        const priorHistory = toHistory(currentChat.messages.slice(-24)); // same fix as text chat — real memory of this conversation, spoken or typed
         addMsg(question, 'user');
         recordMessage('user', question);
         const panel = addThinkingPanel();
@@ -4440,6 +4440,17 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   function saveRecentsList(list) { localStorage.setItem(RECENTS_KEY, JSON.stringify(list)); }
   function saveProjectsList() { localStorage.setItem(PROJECTS_KEY, JSON.stringify(activeProjects)); }
+
+  // Chat messages are stored locally as {role, text}. The backend's /ask
+  // endpoint expects history entries as {role, content} (matching the
+  // Anthropic API shape) — sending "text" instead of "content" means the
+  // server sees an empty content field and the request gets rejected.
+  // Always convert through here before sending history to /ask.
+  function toHistory(msgs) {
+    return (msgs || [])
+      .filter(m => m && typeof m.text === 'string' && m.text.trim())
+      .map(m => ({ role: m.role, content: m.text }));
+  }
 
   function recordMessage(role, text) {
     if (!currentChat.id) currentChat.id = genChatId();
