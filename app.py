@@ -19,7 +19,7 @@ from functools import wraps
 from pathlib import Path
 
 import requests
-from flask import Flask, request, session, jsonify, render_template, redirect, Response, stream_with_context
+from flask import Flask, request, session, jsonify, render_template, redirect, Response, stream_with_context, send_from_directory
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # ── APP ───────────────────────────────────────────────────────────────────
@@ -140,6 +140,48 @@ def home():
 @app.route("/console")
 def console():
     return render_template("console.html")
+
+@app.route("/welcome")
+def welcome():
+    return render_template("landing.html")
+
+@app.route("/privacy")
+def privacy():
+    return render_template("privacy.html")
+
+@app.route("/terms")
+def terms():
+    return render_template("terms.html")
+
+# ── STATIC / PWA / SEO FILES ─────────────────────────────────────────────
+# These all physically live in templates/ in this project (there's no
+# separate static/ folder), and the pages above reference them at a couple
+# of different paths (/icons/..., /static/icons/..., /manifest.json,
+# /sw.js, the Google verification file, Android's assetlinks.json) — none
+# of that was wired up when app.py got rewritten, so every one of these
+# was a silent 404 until now.
+TEMPLATES_DIR = str(Path(__file__).parent / "templates")
+
+@app.route("/manifest.json")
+def manifest():
+    return send_from_directory(TEMPLATES_DIR, "manifest.json", mimetype="application/manifest+json")
+
+@app.route("/sw.js")
+def service_worker():
+    return send_from_directory(TEMPLATES_DIR, "sw.js", mimetype="application/javascript")
+
+@app.route("/icons/<path:filename>")
+@app.route("/static/icons/<path:filename>")
+def icons(filename):
+    return send_from_directory(TEMPLATES_DIR, filename)
+
+@app.route("/google2c13209b099aea62.html")
+def google_verification():
+    return send_from_directory(TEMPLATES_DIR, "google2c13209b099aea62.html")
+
+@app.route("/.well-known/assetlinks.json")
+def assetlinks():
+    return send_from_directory(TEMPLATES_DIR, "assetlinks.json", mimetype="application/json")
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
