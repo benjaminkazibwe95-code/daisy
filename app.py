@@ -304,10 +304,41 @@ def ask():
     if memory:
         system += "\n\nThings you remember about this person: " + "; ".join(memory[-20:])
 
+    def _has_content(c):
+        if isinstance(c, str):
+            return bool(c.strip())
+        if isinstance(c, list):
+            return any(
+                (blk.get("type") == "text" and blk.get("text", "").strip())
+                or (blk.get("type") == "image")
+                for blk in c if isinstance(blk, dict)
+            )
+        return bool(c)
+
     messages = []
     for h in history[-24:]:
+        content = h.get("content", "")
+        if not _has_content(content):
+            continue  # skip blank/broken turns (e.g. a past errored message) — Anthropic rejects empty content
         role = "assistant" if h.get("role") in ("assistant", "daisy") else "user"
-        messages.append({"role": role, "content": h.get("content", "")})
+        messages.append({"role": role, "content": content})
+
+    # Anthropic requires alternating user/assistant turns — collapse any
+    # accidental repeats left over after filtering blanks above.
+    merged = []
+    for m in messages:
+        if merged and merged[-1]["role"] == m["role"]:
+            prev = merged[-1]["content"]
+            cur = m["content"]
+            if isinstance(prev, str) and isinstance(cur, str):
+                merged[-1]["content"] = prev + "\n\n" + cur
+            else:
+                prev_list = prev if isinstance(prev, list) else [{"type": "text", "text": prev}]
+                cur_list = cur if isinstance(cur, list) else [{"type": "text", "text": cur}]
+                merged[-1]["content"] = prev_list + cur_list
+        else:
+            merged.append(m)
+    messages = merged
 
     user_content = []
     if image and image.get("data"):
@@ -315,7 +346,7 @@ def ask():
             "type": "image",
             "source": {"type": "base64", "media_type": image.get("media_type", "image/jpeg"), "data": image["data"]},
         })
-    user_content.append({"type": "text", "text": question})
+    user_content.append({"type": "text", "text": question or "(no message)"})
     messages.append({"role": "user", "content": user_content})
 
     try:
