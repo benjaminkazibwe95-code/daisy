@@ -2937,7 +2937,23 @@ document.addEventListener('DOMContentLoaded', function() {
         filename = lang.slice(idx + 1).trim();
         lang = lang.slice(0, idx).trim();
       }
-      const isFile = !!filename && /\.[a-zA-Z0-9]+$/.test(filename);
+      let isFile = !!filename && /\.[a-zA-Z0-9]+$/.test(filename);
+
+      // SAFETY NET: the system prompt asks for ```html:site.html, but if
+      // the model ever hands back a plain ```html fence (no filename) that
+      // is clearly a real, complete page — not a 5-line snippet — treat it
+      // as a file anyway. Otherwise a single missed colon silently drops
+      // the Publish-to-TrustedBiz button with no visible error, which is
+      // worse than being slightly too eager here.
+      if (!isFile && !filename) {
+        const trimmed = code.trim().toLowerCase();
+        const looksLikeFullPage = (trimmed.startsWith('<!doctype') || trimmed.startsWith('<html'))
+          && code.length > 300;
+        if ((lang === 'html' || lang === 'htm' || (!lang && looksLikeFullPage)) && looksLikeFullPage) {
+          filename = 'site.html';
+          isFile = true;
+        }
+      }
       const codeHtml = escHtml(code);
 
       // DIAGRAM: a plain ```mermaid fence (never has a filename) —
