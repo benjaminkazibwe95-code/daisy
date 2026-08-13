@@ -579,6 +579,22 @@ def publish_trustedbiz():
     if not html or len(html) < 200:
         return jsonify({"error": "No finished site to publish."}), 400
 
+    # If the owner_email matches an existing Daisy account, forward that
+    # account's password hash (never the plaintext) so TrustedBiz can set
+    # it as the login for a brand-new TrustedBiz account with the same
+    # email. Since both apps hash with werkzeug's generate_password_hash,
+    # the same hash verifies correctly on either side — so the person can
+    # sign in to TrustedBiz with the exact email/password they already
+    # use on Daisy, no separate claim step needed. TrustedBiz only uses
+    # this for accounts it's creating for the first time; it never
+    # touches the password of a TrustedBiz account that already exists.
+    owner_email = (data.get("owner_email") or "").strip().lower()
+    owner_password_hash = ""
+    if owner_email:
+        urow = db_fetchone("SELECT password FROM users WHERE email=?", (owner_email,))
+        if urow:
+            owner_password_hash = urow["password"] or ""
+
     try:
         resp = requests.post(
             f"{TRUSTEDBIZ_API_URL}/api/daisy/publish",
@@ -590,6 +606,7 @@ def publish_trustedbiz():
                 "brand_color": data.get("brand_color", ""),
                 "owner_email": data.get("owner_email", ""),
                 "owner_name": data.get("owner_name", ""),
+                "owner_password_hash": owner_password_hash,
                 "html": html,
             },
             headers={"Authorization": f"Bearer {DAISY_API_KEY}"},
