@@ -289,28 +289,33 @@ def write_to_jsx(jsx_path, new_pairs):
             return 0
 
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+        def js(v):
+            # json.dumps escapes quotes, backslashes and newlines -> always a valid JS string,
+            # so one odd Wikipedia sentence can never break the whole dictionary file
+            return json.dumps(" ".join(str(v).split()), ensure_ascii=False)
         new_lines = f"\n  // === INGESTED {timestamp} ===\n"
         for key, data in new_pairs.items():
+            if not re.fullmatch(r"[a-z][a-z0-9_]+", key):
+                continue
             if isinstance(data, dict):
-                definition = data.get("definition", "").replace('"', "'")
-                does       = data.get("what_it_does", "").replace('"', "'")
-                examples   = data.get("examples", "").replace('"', "'")
+                definition = data.get("definition", "")
+                does       = data.get("what_it_does", "")
+                examples   = data.get("examples", "")
                 if does or examples:
-                    # Rich entry — object with all 3 fields so the
-                    # synthesis engine's does()/examples() helpers work
                     new_lines += (
-                        f'  {key}: {{ definition: "{definition}", '
-                        f'what_it_does: "{does}", examples: "{examples}" }},\n'
+                        f'  {key}: {{ definition: {js(definition)}, '
+                        f'what_it_does: {js(does)}, examples: {js(examples)} }},\n'
                     )
                 else:
-                    new_lines += f'  {key}: "{definition}",\n'
+                    new_lines += f'  {key}: {js(definition)},\n'
             else:
-                safe_def = str(data).replace('"', "'")
-                new_lines += f'  {key}: "{safe_def}",\n'
+                new_lines += f'  {key}: {js(data)},\n'
 
         new_content = content[:closing_pos] + new_lines + content[closing_pos:]
-        with open(jsx_path, "w", encoding="utf-8") as f:
+        tmp_path = jsx_path + ".tmp"
+        with open(tmp_path, "w", encoding="utf-8") as f:
             f.write(new_content)
+        os.replace(tmp_path, jsx_path)
         log(f"WROTE {len(new_pairs)} new entries into {jsx_path}")
         return len(new_pairs)
     except Exception as e:

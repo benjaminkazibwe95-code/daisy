@@ -23,12 +23,77 @@ from flask import Flask, request, session, jsonify, render_template, redirect, R
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # ── APP ───────────────────────────────────────────────────────────────────
+os.chdir(os.path.dirname(os.path.abspath(__file__)))   # crawler/engine use relative file paths
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
 
 ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
 DAISY_API_KEY       = os.environ.get("DAISY_API_KEY", "")
 TRUSTEDBIZ_API_URL = os.environ.get("TRUSTEDBIZ_API_URL", "").rstrip("/")
+
+# ── LOCAL BRAIN (no monthly API bill) ─────────────────────────────────────
+# Any OpenAI-compatible server works: Ollama, llama.cpp (llama-server),
+# LM Studio, vLLM. Default is Ollama on the same machine.
+#   LLM_BASE_URL     = http://localhost:11434/v1
+#   LLM_MODEL        = qwen2.5:7b            (text chat)
+#   LLM_VISION_MODEL = llava:7b              (optional — used when an image is attached)
+#   LLM_API_KEY      = anything              (only if your server requires one)
+# If ANTHROPIC_API_KEY is set and LLM_BASE_URL is NOT, Daisy still uses Anthropic.
+LLM_BASE_URL     = os.environ.get("LLM_BASE_URL", "").rstrip("/")
+LLM_MODEL        = os.environ.get("LLM_MODEL", "qwen2.5:7b")
+LLM_VISION_MODEL = os.environ.get("LLM_VISION_MODEL", "")
+LLM_API_KEY      = os.environ.get("LLM_API_KEY", "ollama")
+# Optional fallback brain, tried if the main one errors or hits a rate limit (429):
+#   LLM_FALLBACK_BASE_URL / LLM_FALLBACK_MODEL / LLM_FALLBACK_API_KEY
+LLM_FALLBACK_BASE_URL = os.environ.get("LLM_FALLBACK_BASE_URL", "").rstrip("/")
+LLM_FALLBACK_MODEL    = os.environ.get("LLM_FALLBACK_MODEL", "")
+LLM_FALLBACK_API_KEY  = os.environ.get("LLM_FALLBACK_API_KEY", "ollama")
+USE_LOCAL_LLM    = bool(LLM_BASE_URL) or not ANTHROPIC_API_KEY
+if USE_LOCAL_LLM and not LLM_BASE_URL:
+    LLM_BASE_URL = "http://localhost:11434/v1"
+
+def local_llm_up():
+    try:
+        return requests.get(f"{LLM_BASE_URL}/models", timeout=2,
+                            headers={"Authorization": f"Bearer {LLM_API_KEY}"}).ok
+    except Exception:
+        return False
+
+def free_web_search(query, n=5):
+    """Free web search (DuckDuckGo HTML) — stands in for Anthropic's paid web_search tool."""
+    try:
+        from bs4 import BeautifulSoup
+        r = requests.post("https://html.duckduckgo.com/html/", data={"q": query},
+                          headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        soup = BeautifulSoup(r.text, "html.parser")
+        out = []
+        for res in soup.select(".result")[:n]:
+            a = res.select_one(".result__a")
+            sn = res.select_one(".result__snippet")
+            if a:
+                out.append(f"- {a.get_text(strip=True)}: {sn.get_text(strip=True) if sn else ''} ({a.get('href','')})")
+        return "\n".join(out)
+    except Exception:
+        return ""
+
+def to_openai_messages(system, messages):
+    """Convert Anthropic-style messages (text/image blocks) to OpenAI chat format."""
+    out = [{"role": "system", "content": system}]
+    for m in messages:
+        c = m["content"]
+        if isinstance(c, str):
+            out.append({"role": m["role"], "content": c})
+            continue
+        parts = []
+        for blk in c:
+            if blk.get("type") == "text":
+                parts.append({"type": "text", "text": blk.get("text", "")})
+            elif blk.get("type") == "image":
+                s = blk["source"]
+                parts.append({"type": "image_url",
+                              "image_url": {"url": f"data:{s['media_type']};base64,{s['data']}"}})
+        out.append({"role": m["role"], "content": parts})
+    return out
 
 # ── DB (SQLite by default, zero setup — swap in Postgres via DATABASE_URL
 #    later the same way TrustedBiz's app.py does, if this needs to scale) ──
@@ -222,17 +287,65 @@ def auth_logout():
     session.pop("user_id", None)
     return jsonify({"success": True})
 
+# ── OWN BRAIN: dictionary engine fallback + crawler ──────────────────────
+import daisy_ingest
+
+def dictionary_fallback(question, why=""):
+    """Last resort so nobody is ever left without a reply."""
+    text = None
+    try:
+        import daisy_local
+        text = daisy_local.answer(question)
+    except Exception as e:
+        print(f"[DAISY] local engine unavailable: {e}")
+    if not text:
+        text = ("My main brain is resting right now, and I couldn't find that in my own "
+                "dictionary yet. Please try again in a little while — I learn new things every day.")
+    bump_stats(len(text.split()), f"/ask answered by local dictionary ({why[:80]})")
+    return text
+
+_dict_count = {"mtime": 0, "n": 0}
+def dictionary_size():
+    try:
+        m = os.path.getmtime(daisy_ingest.JSX_FILE_PATH)
+        if m != _dict_count["mtime"]:
+            _dict_count.update(mtime=m, n=len(daisy_ingest.get_existing_keys(daisy_ingest.JSX_FILE_PATH)))
+        return _dict_count["n"]
+    except Exception:
+        return _dict_count["n"]
+
+def start_crawler():
+    """Start the Wikipedia crawler once per machine (lock file stops duplicates with multiple workers)."""
+    if os.environ.get("DAISY_CRAWLER", "1") != "1":
+        return
+    try:
+        import fcntl
+        global _crawler_lock
+        _crawler_lock = open("daisy_crawler.lock", "w")
+        fcntl.flock(_crawler_lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except ImportError:
+        pass                      # no fcntl (Windows) — just run
+    except OSError:
+        return                    # another worker already runs the crawler
+    daisy_ingest.init_daisy(app, interval_minutes=int(os.environ.get("CRAWL_MINUTES", "5")))
+
 # ── DAISY STATUS (console + settings "stats" panel) ─────────────────────
 @app.route("/daisy/status")
 def daisy_status():
-    row = db_fetchone("SELECT * FROM stats WHERE id=1")
-    online = bool(ANTHROPIC_API_KEY)
+    online = True   # Daisy can always answer: main brain -> fallback brain -> own dictionary
+    log_tail = []
+    try:
+        with open(daisy_ingest.LOG_FILE_PATH, "r", encoding="utf-8") as f:
+            log_tail = [l.strip() for l in f.readlines()[-15:]][::-1]
+    except Exception:
+        pass
     return jsonify({
         "status": "online" if online else "offline",
-        "words": row["words"] if row else 0,
-        "ingest_cycles": row["ingest_cycles"] if row else 0,
-        "last_ingest": row["last_ingest"] if row else None,
-        "log_tail": json.loads(row["log_tail"] or "[]") if row else [],
+        "words": dictionary_size(),                       # real dictionary entries
+        "ingest_cycles": len(daisy_ingest._visited),      # real pages crawled so far
+        "last_ingest": daisy_ingest._last_ingest,
+        "queue_size": len(daisy_ingest._queue),
+        "log_tail": log_tail,
     })
 
 # ── THE CORE: /ask ────────────────────────────────────────────────────────
@@ -326,9 +439,9 @@ def sse_line(obj):
 
 @app.route("/ask", methods=["POST"])
 def ask():
-    if not ANTHROPIC_API_KEY:
+    if not USE_LOCAL_LLM and not ANTHROPIC_API_KEY:
         def _err():
-            yield sse_line({"event": "final", "answer": "Daisy isn't configured yet — ANTHROPIC_API_KEY is missing on the server."})
+            yield sse_line({"event": "final", "answer": "Daisy isn't configured yet — set LLM_BASE_URL (local model) or ANTHROPIC_API_KEY."})
         return Response(_err(), mimetype="application/x-ndjson")
 
     data = request.get_json(silent=True) or {}
@@ -391,14 +504,15 @@ def ask():
     user_content.append({"type": "text", "text": question or "(no message)"})
     messages.append({"role": "user", "content": user_content})
 
-    try:
-        import anthropic
-    except ImportError:
-        def _err():
-            yield sse_line({"event": "final", "answer": "The `anthropic` package isn't installed on the server (pip install anthropic)."})
-        return Response(_err(), mimetype="application/x-ndjson")
-
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    client = None
+    if not USE_LOCAL_LLM:
+        try:
+            import anthropic
+        except ImportError:
+            def _err():
+                yield sse_line({"event": "final", "answer": "The `anthropic` package isn't installed on the server (pip install anthropic)."})
+            return Response(_err(), mimetype="application/x-ndjson")
+        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     def generate():
         yield sse_line({"event": "status", "status": "thinking"})
@@ -407,6 +521,43 @@ def ask():
             yield sse_line({"event": "status", "status": "building"})
         elif web_search_on:
             yield sse_line({"event": "status", "status": "searching"})
+
+        if USE_LOCAL_LLM:
+            local_system = system
+            used_ws = False
+            if web_search_on and not will_build:
+                results = free_web_search(question)
+                if results:
+                    used_ws = True
+                    local_system += "\n\nLive web results (use them, mention sources when helpful):\n" + results
+            local_model = LLM_VISION_MODEL if (image and image.get("data") and LLM_VISION_MODEL) else LLM_MODEL
+            backends = [(LLM_BASE_URL, LLM_API_KEY, local_model)]
+            if LLM_FALLBACK_BASE_URL and LLM_FALLBACK_MODEL:
+                backends.append((LLM_FALLBACK_BASE_URL, LLM_FALLBACK_API_KEY, LLM_FALLBACK_MODEL))
+            answer_text, last_err = "", None
+            for base, key, mdl in backends:
+                try:
+                    r = requests.post(
+                        f"{base}/chat/completions",
+                        headers={"Authorization": f"Bearer {key}"},
+                        json={"model": mdl, "messages": to_openai_messages(local_system, messages),
+                              "max_tokens": 4096, "stream": False},
+                        timeout=120,
+                    )
+                    r.raise_for_status()
+                    answer_text = r.json()["choices"][0]["message"]["content"] or ""
+                    local_model = mdl
+                    break
+                except Exception as e:
+                    last_err = e  # rate limit / outage — try the next backend
+            if not answer_text:
+                fb = "Building websites needs my main brain, which is resting right now. Please try again in a little while." if will_build else dictionary_fallback(question, str(last_err))
+                yield sse_line({"event": "final", "answer": fb, "sources": [], "used_web_search": False, "memory_fact": None})
+                return
+            bump_stats(len(answer_text.split()), f"/ask answered locally ({len(answer_text)} chars, model={local_model})")
+            yield sse_line({"event": "final", "answer": answer_text, "sources": [],
+                            "used_web_search": used_ws, "memory_fact": None})
+            return
 
         tools = [{"type": "web_search_20250305", "name": "web_search"}] if (web_search_on and not will_build) else None
 
@@ -428,7 +579,8 @@ def ask():
             if not answer_text:
                 answer_text = "".join(b.text for b in final.content if getattr(b, "type", "") == "text")
         except Exception as e:
-            yield sse_line({"event": "final", "answer": f"I couldn't reach my brain just now ({e}). Try again in a moment."})
+            fb = "Building websites needs my main brain, which is resting right now. Please try again in a little while." if will_build else dictionary_fallback(question, str(e))
+            yield sse_line({"event": "final", "answer": fb, "sources": [], "used_web_search": False, "memory_fact": None})
             return
 
         bump_stats(len(answer_text.split()), f"/ask answered ({len(answer_text)} chars, model={model_choice})")
@@ -619,6 +771,8 @@ def publish_trustedbiz():
         print(f"[publish/trustedbiz] error: {e}")
         return jsonify({"error": "Could not reach TrustedBiz right now."}), 502
 
+
+start_crawler()
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False)
