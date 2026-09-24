@@ -439,6 +439,18 @@ def sse_line(obj):
 
 @app.route("/ask", methods=["POST"])
 def ask():
+    """Safety net: whatever goes wrong inside, the person always gets a proper reply."""
+    try:
+        return _ask_impl()
+    except Exception as e:
+        print(f"[DAISY] /ask crashed, answering from local engine: {e}")
+        q = ((request.get_json(silent=True) or {}).get("question") or "").strip()
+        text = dictionary_fallback(q, "server error")
+        def _one():
+            yield sse_line({"event": "final", "answer": text, "sources": [], "used_web_search": False, "memory_fact": None})
+        return Response(_one(), mimetype="application/x-ndjson")
+
+def _ask_impl():
     if not USE_LOCAL_LLM and not ANTHROPIC_API_KEY:
         def _err():
             yield sse_line({"event": "final", "answer": "Daisy isn't configured yet — set LLM_BASE_URL (local model) or ANTHROPIC_API_KEY."})
@@ -514,7 +526,7 @@ def ask():
             return Response(_err(), mimetype="application/x-ndjson")
         client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
-    def generate():
+    def _generate():
         yield sse_line({"event": "status", "status": "thinking"})
         will_build = looks_like_site_request(question)
         if will_build:
@@ -591,6 +603,14 @@ def ask():
             "used_web_search": used_web_search,
             "memory_fact": None,
         })
+
+    def generate():
+        try:
+            yield from _generate()
+        except Exception as e:
+            print(f"[DAISY] stream failed, answering from local engine: {e}")
+            text = dictionary_fallback(question, "stream error")
+            yield sse_line({"event": "final", "answer": text, "sources": [], "used_web_search": False, "memory_fact": None})
 
     return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
 
