@@ -1,11 +1,14 @@
 """
 Daisy — app.py
-Built from scratch. No external "Daisy API" — this IS Daisy. It calls the
-real Anthropic API directly and serves the index.html / console.html UIs.
+Built from scratch. No external "Daisy API" and no outside AI service —
+this IS Daisy. She answers from her own brain (brain.py, which reads the
+dictionary in processing-law-ai.jsx) and serves the index.html /
+console.html UIs.
 
 ENV VARS to set on your host (Render, etc.):
   SECRET_KEY           = any random string
-  ANTHROPIC_API_KEY    = sk-ant-...                  (console.anthropic.com)
+  DAISY_CRAWLER        = optional, set to 1 to let Daisy keep learning from
+                          Wikipedia in the background (daisy_ingest.py)
   DATABASE_URL         = optional Postgres URL — falls back to local SQLite
                           (daisy.db) if unset, so this runs with zero setup
   DAISY_API_KEY         = shared secret — TrustedBiz's /api/daisy/publish
@@ -19,81 +22,17 @@ from functools import wraps
 from pathlib import Path
 
 import requests
+import brain
+import harmony_layer
 from flask import Flask, request, session, jsonify, render_template, redirect, Response, stream_with_context, send_from_directory
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # ── APP ───────────────────────────────────────────────────────────────────
-os.chdir(os.path.dirname(os.path.abspath(__file__)))   # crawler/engine use relative file paths
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
 
-ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
 DAISY_API_KEY       = os.environ.get("DAISY_API_KEY", "")
 TRUSTEDBIZ_API_URL = os.environ.get("TRUSTEDBIZ_API_URL", "").rstrip("/")
-
-# ── LOCAL BRAIN (no monthly API bill) ─────────────────────────────────────
-# Any OpenAI-compatible server works: Ollama, llama.cpp (llama-server),
-# LM Studio, vLLM. Default is Ollama on the same machine.
-#   LLM_BASE_URL     = http://localhost:11434/v1
-#   LLM_MODEL        = qwen2.5:7b            (text chat)
-#   LLM_VISION_MODEL = llava:7b              (optional — used when an image is attached)
-#   LLM_API_KEY      = anything              (only if your server requires one)
-# If ANTHROPIC_API_KEY is set and LLM_BASE_URL is NOT, Daisy still uses Anthropic.
-LLM_BASE_URL     = os.environ.get("LLM_BASE_URL", "").rstrip("/")
-LLM_MODEL        = os.environ.get("LLM_MODEL", "qwen2.5:7b")
-LLM_VISION_MODEL = os.environ.get("LLM_VISION_MODEL", "")
-LLM_API_KEY      = os.environ.get("LLM_API_KEY", "ollama")
-# Optional fallback brain, tried if the main one errors or hits a rate limit (429):
-#   LLM_FALLBACK_BASE_URL / LLM_FALLBACK_MODEL / LLM_FALLBACK_API_KEY
-LLM_FALLBACK_BASE_URL = os.environ.get("LLM_FALLBACK_BASE_URL", "").rstrip("/")
-LLM_FALLBACK_MODEL    = os.environ.get("LLM_FALLBACK_MODEL", "")
-LLM_FALLBACK_API_KEY  = os.environ.get("LLM_FALLBACK_API_KEY", "ollama")
-USE_LOCAL_LLM    = bool(LLM_BASE_URL) or not ANTHROPIC_API_KEY
-if USE_LOCAL_LLM and not LLM_BASE_URL:
-    LLM_BASE_URL = "http://localhost:11434/v1"
-
-def local_llm_up():
-    try:
-        return requests.get(f"{LLM_BASE_URL}/models", timeout=2,
-                            headers={"Authorization": f"Bearer {LLM_API_KEY}"}).ok
-    except Exception:
-        return False
-
-def free_web_search(query, n=5):
-    """Free web search (DuckDuckGo HTML) — stands in for Anthropic's paid web_search tool."""
-    try:
-        from bs4 import BeautifulSoup
-        r = requests.post("https://html.duckduckgo.com/html/", data={"q": query},
-                          headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        out = []
-        for res in soup.select(".result")[:n]:
-            a = res.select_one(".result__a")
-            sn = res.select_one(".result__snippet")
-            if a:
-                out.append(f"- {a.get_text(strip=True)}: {sn.get_text(strip=True) if sn else ''} ({a.get('href','')})")
-        return "\n".join(out)
-    except Exception:
-        return ""
-
-def to_openai_messages(system, messages):
-    """Convert Anthropic-style messages (text/image blocks) to OpenAI chat format."""
-    out = [{"role": "system", "content": system}]
-    for m in messages:
-        c = m["content"]
-        if isinstance(c, str):
-            out.append({"role": m["role"], "content": c})
-            continue
-        parts = []
-        for blk in c:
-            if blk.get("type") == "text":
-                parts.append({"type": "text", "text": blk.get("text", "")})
-            elif blk.get("type") == "image":
-                s = blk["source"]
-                parts.append({"type": "image_url",
-                              "image_url": {"url": f"data:{s['media_type']};base64,{s['data']}"}})
-        out.append({"role": m["role"], "content": parts})
-    return out
 
 # ── DB (SQLite by default, zero setup — swap in Postgres via DATABASE_URL
 #    later the same way TrustedBiz's app.py does, if this needs to scale) ──
@@ -287,332 +226,83 @@ def auth_logout():
     session.pop("user_id", None)
     return jsonify({"success": True})
 
-# ── OWN BRAIN: dictionary engine fallback + crawler ──────────────────────
-import daisy_ingest
-
-def dictionary_fallback(question, why=""):
-    """Last resort so nobody is ever left without a reply."""
-    text = None
-    try:
-        import daisy_local
-        text = daisy_local.answer(question)
-    except Exception as e:
-        print(f"[DAISY] local engine unavailable: {e}")
-    if not text:
-        text = ("My main brain is resting right now, and I couldn't find that in my own "
-                "dictionary yet. Please try again in a little while — I learn new things every day.")
-    bump_stats(len(text.split()), f"/ask answered by local dictionary ({why[:80]})")
-    return text
-
-_dict_count = {"mtime": 0, "n": 0}
-def dictionary_size():
-    try:
-        m = os.path.getmtime(daisy_ingest.JSX_FILE_PATH)
-        if m != _dict_count["mtime"]:
-            _dict_count.update(mtime=m, n=len(daisy_ingest.get_existing_keys(daisy_ingest.JSX_FILE_PATH)))
-        return _dict_count["n"]
-    except Exception:
-        return _dict_count["n"]
-
-def start_crawler():
-    """Start the Wikipedia crawler once per machine (lock file stops duplicates with multiple workers)."""
-    if os.environ.get("DAISY_CRAWLER", "1") != "1":
-        return
-    try:
-        import fcntl
-        global _crawler_lock
-        _crawler_lock = open("daisy_crawler.lock", "w")
-        fcntl.flock(_crawler_lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-    except ImportError:
-        pass                      # no fcntl (Windows) — just run
-    except OSError:
-        return                    # another worker already runs the crawler
-    daisy_ingest.init_daisy(app, interval_minutes=int(os.environ.get("CRAWL_MINUTES", "5")))
-
 # ── DAISY STATUS (console + settings "stats" panel) ─────────────────────
 @app.route("/daisy/status")
 def daisy_status():
-    online = True   # Daisy can always answer: main brain -> fallback brain -> own dictionary
-    log_tail = []
-    try:
-        with open(daisy_ingest.LOG_FILE_PATH, "r", encoding="utf-8") as f:
-            log_tail = [l.strip() for l in f.readlines()[-15:]][::-1]
-    except Exception:
-        pass
+    row = db_fetchone("SELECT * FROM stats WHERE id=1")
     return jsonify({
-        "status": "online" if online else "offline",
-        "words": dictionary_size(),                       # real dictionary entries
-        "ingest_cycles": len(daisy_ingest._visited),      # real pages crawled so far
-        "last_ingest": daisy_ingest._last_ingest,
-        "queue_size": len(daisy_ingest._queue),
-        "log_tail": log_tail,
+        "status": "online",
+        "words": brain.word_count(),
+        "ingest_cycles": row["ingest_cycles"] if row else 0,
+        "last_ingest": row["last_ingest"] if row else None,
+        "log_tail": json.loads(row["log_tail"] or "[]") if row else [],
     })
 
 # ── THE CORE: /ask ────────────────────────────────────────────────────────
-DAISY_SYSTEM = """You are Daisy, a friendly AI assistant for busy, mostly
-non-technical business owners. You chat naturally, and you can also build
-and publish complete, working websites — nothing about this should ever
-require the person to know code, pick a hosting provider, or configure
-anything themselves.
-
-WHEN TO BUILD (OR CHANGE) A SITE
-If the person is asking you to build, design, create, update, fix, add to,
-or polish a website, landing page, or site — whether that's the first
-request or a follow-up edit on one you already built — reply with ONLY
-one fenced code block in this exact form, nothing else: no preamble, no
-bullet list of what changed, no clarifying questions, no explanation.
-
-```html:site.html
-<!DOCTYPE html>
-... a complete, self-contained, polished single-page site with inline
-    CSS and JS, real content matching what they asked for ...
-```
-
-Never split a build or an edit into an explanation followed by the code.
-The code block IS the entire answer — for the very first build and for
-every edit after it ("add a booking form", "clean this up", etc). Always
-output the FULL updated file, never a diff or a snippet.
-
-BUILD QUALITY — NOTHING SHOULD LOOK UNFINISHED
-- Every section needs real, visible content. Never leave an empty div, an
-  image placeholder with no photo, or a box reserved "for later" — those
-  render as blank, broken-looking gaps on the actual page. If you don't
-  have a real photo to use, don't create a spot for one at all: build
-  that section with strong typography, color, and layout instead.
-- Structure the site to fit the business, skipping what doesn't apply:
-  hero (name + one clear line on what they do), about, what they offer
-  (services or menu), hours, location, one obvious way to contact them.
-  Skip anything you don't have real content for rather than padding it
-  with filler or empty markup.
-- Any form (booking, reservation, contact) must work with zero setup:
-  point it at a mailto: link, or — if a WhatsApp number was given — a
-  wa.me link pre-filled with the form's fields. Never leave a button that
-  does nothing, and never ask which backend or hosting platform to wire
-  it to. The person has none, and doesn't need one.
-- Write like the business itself would — plain, specific language. No
-  "Welcome to our website, we provide quality services to all our
-  esteemed customers," no lorem ipsum, no AI-demo look (no gradient-blob
-  backgrounds, no robot mascots, no glowing-button overload).
-- Most visitors are on a phone in Uganda, often on limited data —
-  mobile-first, single-column-friendly, fast, with a clear WhatsApp
-  contact button near the top if a number was given.
-
-GOING LIVE — ALWAYS TRUSTEDBIZ, NEVER ANYTHING ELSE
-Right after you hand back a site, the interface automatically shows a
-"Publish to TrustedBiz" button on it — don't mention it in that reply.
-If the person asks how to publish, host, deploy, or get the site online
-— before or after building — the answer is always the same: click
-"Publish to TrustedBiz" on the file. It asks for the business name (the
-only required field), plus optional category, WhatsApp number, and
-email, and goes live instantly and for free at
-businessname.trustedbiz.co.ug — no manual review, no setup. Never
-suggest or ask about Vercel, Netlify, Nginx, a Node.js backend,
-Formspree, or any other hosting or deployment option — TrustedBiz is the
-only path this product offers, and the person has no infrastructure of
-their own to deploy to. If they haven't built anything yet and ask about
-this, tell them to describe the business or site they want first.
-
-For every other message, just talk normally — no code fence, no filename,
-plain conversational text."""
-
-_FILE_FENCE_RE = re.compile(r"```html:([^\n]+)\n(.*?)```", re.DOTALL)
-
-def detect_file(answer):
-    m = _FILE_FENCE_RE.search(answer or "")
-    return m.group(1).strip() if m else None
-
-def looks_like_site_request(question):
-    return bool(re.search(
-        r"\b(website|web page|webpage|landing page|site for|homepage)\b",
-        question or "", re.IGNORECASE
-    ))
-
-MODEL_MAP = {
-    # Daisy's own brand names -> real Anthropic model IDs. Adjust these to
-    # whatever's live on your account; kept in one place on purpose.
-    "beni":  "claude-sonnet-4-6",
-    "beni2": "claude-sonnet-4-6",
-}
-
+# Daisy answers from her own brain (brain.py). No outside AI service is
+# called anywhere in this file.
 def sse_line(obj):
     return json.dumps(obj) + "\n"
 
 @app.route("/ask", methods=["POST"])
 def ask():
-    """Safety net: whatever goes wrong inside, the person always gets a proper reply."""
-    try:
-        return _ask_impl()
-    except Exception as e:
-        print(f"[DAISY] /ask crashed, answering from local engine: {e}")
-        q = ((request.get_json(silent=True) or {}).get("question") or "").strip()
-        text = dictionary_fallback(q, "server error")
-        def _one():
-            yield sse_line({"event": "final", "answer": text, "sources": [], "used_web_search": False, "memory_fact": None})
-        return Response(_one(), mimetype="application/x-ndjson")
-
-def _ask_impl():
-    if not USE_LOCAL_LLM and not ANTHROPIC_API_KEY:
-        def _err():
-            yield sse_line({"event": "final", "answer": "Daisy isn't configured yet — set LLM_BASE_URL (local model) or ANTHROPIC_API_KEY."})
-        return Response(_err(), mimetype="application/x-ndjson")
-
     data = request.get_json(silent=True) or {}
-    question       = (data.get("question") or "").strip()
-    instructions   = (data.get("instructions") or "").strip()
-    memory         = data.get("memory") or []
-    history        = data.get("history") or []
-    web_search_on  = bool(data.get("web_search_enabled"))
-    model_choice   = MODEL_MAP.get(data.get("model"), MODEL_MAP["beni2"])
-    image          = data.get("image")
+    question = (data.get("question") or "").strip()
+    history  = data.get("history") or []
+    image    = data.get("image")
+    has_image = bool(image and image.get("data"))
 
-    system = DAISY_SYSTEM
-    if instructions:
-        system += f"\n\nThe person has set these personal instructions for how you should behave: {instructions}"
-    if memory:
-        system += "\n\nThings you remember about this person: " + "; ".join(memory[-20:])
-
-    def _has_content(c):
-        if isinstance(c, str):
-            return bool(c.strip())
-        if isinstance(c, list):
-            return any(
-                (blk.get("type") == "text" and blk.get("text", "").strip())
-                or (blk.get("type") == "image")
-                for blk in c if isinstance(blk, dict)
-            )
-        return bool(c)
-
-    messages = []
-    for h in history[-24:]:
-        content = h.get("content", "")
-        if not _has_content(content):
-            continue  # skip blank/broken turns (e.g. a past errored message) — Anthropic rejects empty content
-        role = "assistant" if h.get("role") in ("assistant", "daisy") else "user"
-        messages.append({"role": role, "content": content})
-
-    # Anthropic requires alternating user/assistant turns — collapse any
-    # accidental repeats left over after filtering blanks above.
-    merged = []
-    for m in messages:
-        if merged and merged[-1]["role"] == m["role"]:
-            prev = merged[-1]["content"]
-            cur = m["content"]
-            if isinstance(prev, str) and isinstance(cur, str):
-                merged[-1]["content"] = prev + "\n\n" + cur
-            else:
-                prev_list = prev if isinstance(prev, list) else [{"type": "text", "text": prev}]
-                cur_list = cur if isinstance(cur, list) else [{"type": "text", "text": cur}]
-                merged[-1]["content"] = prev_list + cur_list
-        else:
-            merged.append(m)
-    messages = merged
-
-    user_content = []
-    if image and image.get("data"):
-        user_content.append({
-            "type": "image",
-            "source": {"type": "base64", "media_type": image.get("media_type", "image/jpeg"), "data": image["data"]},
-        })
-    user_content.append({"type": "text", "text": question or "(no message)"})
-    messages.append({"role": "user", "content": user_content})
-
-    client = None
-    if not USE_LOCAL_LLM:
-        try:
-            import anthropic
-        except ImportError:
-            def _err():
-                yield sse_line({"event": "final", "answer": "The `anthropic` package isn't installed on the server (pip install anthropic)."})
-            return Response(_err(), mimetype="application/x-ndjson")
-        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-
-    def _generate():
+    def generate():
         yield sse_line({"event": "status", "status": "thinking"})
-        will_build = looks_like_site_request(question)
-        if will_build:
-            yield sse_line({"event": "status", "status": "building"})
-        elif web_search_on:
-            yield sse_line({"event": "status", "status": "searching"})
-
-        if USE_LOCAL_LLM:
-            local_system = system
-            used_ws = False
-            if web_search_on and not will_build:
-                results = free_web_search(question)
-                if results:
-                    used_ws = True
-                    local_system += "\n\nLive web results (use them, mention sources when helpful):\n" + results
-            local_model = LLM_VISION_MODEL if (image and image.get("data") and LLM_VISION_MODEL) else LLM_MODEL
-            backends = [(LLM_BASE_URL, LLM_API_KEY, local_model)]
-            if LLM_FALLBACK_BASE_URL and LLM_FALLBACK_MODEL:
-                backends.append((LLM_FALLBACK_BASE_URL, LLM_FALLBACK_API_KEY, LLM_FALLBACK_MODEL))
-            answer_text, last_err = "", None
-            for base, key, mdl in backends:
-                try:
-                    r = requests.post(
-                        f"{base}/chat/completions",
-                        headers={"Authorization": f"Bearer {key}"},
-                        json={"model": mdl, "messages": to_openai_messages(local_system, messages),
-                              "max_tokens": 4096, "stream": False},
-                        timeout=120,
-                    )
-                    r.raise_for_status()
-                    answer_text = r.json()["choices"][0]["message"]["content"] or ""
-                    local_model = mdl
-                    break
-                except Exception as e:
-                    last_err = e  # rate limit / outage — try the next backend
-            if not answer_text:
-                fb = "Building websites needs my main brain, which is resting right now. Please try again in a little while." if will_build else dictionary_fallback(question, str(last_err))
-                yield sse_line({"event": "final", "answer": fb, "sources": [], "used_web_search": False, "memory_fact": None})
-                return
-            bump_stats(len(answer_text.split()), f"/ask answered locally ({len(answer_text)} chars, model={local_model})")
-            yield sse_line({"event": "final", "answer": answer_text, "sources": [],
-                            "used_web_search": used_ws, "memory_fact": None})
-            return
-
-        tools = [{"type": "web_search_20250305", "name": "web_search"}] if (web_search_on and not will_build) else None
-
-        answer_text = ""
-        used_web_search = False
         try:
-            kwargs = dict(model=model_choice, max_tokens=4096, system=system, messages=messages)
-            if tools:
-                kwargs["tools"] = tools
-            with client.messages.stream(**kwargs) as stream:
-                for event in stream:
-                    if event.type == "content_block_delta" and getattr(event.delta, "text", None):
-                        answer_text += event.delta.text
-                    if event.type == "content_block_start" and getattr(event.content_block, "type", "") == "server_tool_use":
-                        used_web_search = True
-                        yield sse_line({"event": "status", "status": "searching"})
-            final = stream.get_final_message()
-            # In case streaming text deltas missed anything (e.g. tool-use turns), fall back to the assembled message.
-            if not answer_text:
-                answer_text = "".join(b.text for b in final.content if getattr(b, "type", "") == "text")
+            result = brain.think(question, has_image=has_image)
         except Exception as e:
-            fb = "Building websites needs my main brain, which is resting right now. Please try again in a little while." if will_build else dictionary_fallback(question, str(e))
-            yield sse_line({"event": "final", "answer": fb, "sources": [], "used_web_search": False, "memory_fact": None})
+            print(f"[ask] brain error: {e}")
+            yield sse_line({"event": "final", "answer": "Something went wrong inside my brain. Try asking again."})
             return
 
-        bump_stats(len(answer_text.split()), f"/ask answered ({len(answer_text)} chars, model={model_choice})")
+        answer = result["answer"]
+        source = result["source"]
+        try:
+            if source in ("dictionary", "synthesis"):
+                answer = harmony_layer.enhance_response(answer, source, history)
+            harmony_layer.log_conversation(
+                question, None if source == "unknown" else answer, source
+            )
+        except Exception:
+            pass
+
+        bump_stats(len(answer.split()), f"/ask answered from brain (source={source})")
         yield sse_line({
             "event": "final",
-            "answer": answer_text,
+            "answer": answer,
+            "source": source,
             "sources": [],
-            "used_web_search": used_web_search,
+            "used_web_search": False,
             "memory_fact": None,
         })
 
-    def generate():
-        try:
-            yield from _generate()
-        except Exception as e:
-            print(f"[DAISY] stream failed, answering from local engine: {e}")
-            text = dictionary_fallback(question, "stream error")
-            yield sse_line({"event": "final", "answer": text, "sources": [], "used_web_search": False, "memory_fact": None})
-
     return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
+
+# ── CORRECTIONS (console "Knowledge" tab — teach Daisy answers) ──────────
+@app.route("/api/corrections", methods=["GET", "POST", "DELETE"])
+def api_corrections():
+    corr = brain.load_corrections()
+    if request.method == "GET":
+        return jsonify([{"question": k, "answer": v} for k, v in corr.items()])
+    data = request.get_json(silent=True) or {}
+    question = (data.get("question") or "").strip()
+    if not question:
+        return jsonify({"error": "question required"}), 400
+    if request.method == "POST":
+        answer = (data.get("answer") or "").strip()
+        if not answer:
+            return jsonify({"error": "answer required"}), 400
+        corr[question] = answer
+    else:
+        corr.pop(question, None)
+    brain.save_corrections(corr)
+    return jsonify({"success": True})
 
 # ── EXPORT TO PDF ────────────────────────────────────────────────────────
 @app.route("/export/pdf", methods=["POST"])
@@ -792,7 +482,14 @@ def publish_trustedbiz():
         return jsonify({"error": "Could not reach TrustedBiz right now."}), 502
 
 
-start_crawler()
+# ── OPTIONAL: let Daisy keep learning (off unless DAISY_CRAWLER=1) ────────
+if os.environ.get("DAISY_CRAWLER") == "1":
+    try:
+        import daisy_ingest
+        daisy_ingest.init_daisy(app)
+    except Exception as e:
+        print(f"[DAISY] crawler not started: {e}")
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False)

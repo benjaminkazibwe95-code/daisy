@@ -3,5 +3,5 @@ requests
 beautifulsoup4
 schedule
 py-mini-racer
-anthropic
 reportlab
+fpdf2
