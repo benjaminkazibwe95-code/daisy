@@ -170,20 +170,6 @@
       text-align: center;
     }
 
-    .daisy-orb {
-      width: 52px; height: 52px;
-      margin-bottom: 22px;
-      position: relative;
-    }
-    .daisy-orb svg {
-      width: 100%; height: 100%;
-      animation: spin-slow 12s linear infinite;
-    }
-    @keyframes spin-slow {
-      from { transform: rotate(0deg); }
-      to   { transform: rotate(360deg); }
-    }
-
     #greeting {
       font-family: 'Instrument Serif', serif;
       font-size: 32px;
@@ -919,49 +905,38 @@
       letter-spacing: 0.02em;
     }
 
-    /* ── QUICK STARTS ── */
-    #quick-starts {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      padding: 22px 20px;
-      margin-bottom: 24px;
+    /* ── DAISY BOTS: the helix is always there (home and chat); page words pale out as they reach it ── */
+    #bots-canvas {
+      position: absolute; left: 0; width: 100%;
+      pointer-events: none; z-index: 5; display: none;
     }
-    #quick-starts p {
-      font-size: 12px;
-      color: var(--muted);
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      margin-bottom: 14px;
+    body.bots-on #bots-canvas { display: block; }
+    #bots-band { display: none; flex-shrink: 0; }
+    body.bots-on #bots-band { display: block; height: var(--bots-spacer, 190px); }
+    body.bots-on #main {
+      -webkit-mask-image: linear-gradient(to bottom, transparent 0, transparent var(--bots-cy, 90px), #000 var(--bots-fade, 200px));
+              mask-image: linear-gradient(to bottom, transparent 0, transparent var(--bots-cy, 90px), #000 var(--bots-fade, 200px));
     }
-    .quick-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 11px 0;
-      border: none;
-      background: none;
-      color: var(--text);
-      font-family: 'Inter', sans-serif;
-      font-size: 14px;
-      cursor: pointer;
-      width: 100%;
-      text-align: left;
-      border-radius: 10px;
-      transition: color 0.15s;
+    body.bots-on #greeting-wrap { padding: 4px 0 18px; }
+    body.bots-formed #main { opacity: 0.1; }
+    #main { transition: opacity 0.6s ease; }
+
+    /* ── HOME DEMO MESSAGE (replaces the old quick-start box) ── */
+    #demo-flow { padding: 0 2px 24px; }
+    #chat-area.active ~ #demo-flow { display: none; }
+    .demo-lead { font-size: 15px; line-height: 1.6; color: var(--muted); margin: 0 0 14px; text-align: center; }
+    .demo-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 18px; padding: 15px 17px; margin: 0 0 12px;
     }
-    .quick-item:hover { color: var(--daisy); }
-    .quick-item + .quick-item { border-top: 1px solid var(--border); }
-    .quick-icon {
-      width: 32px; height: 32px;
-      border-radius: 10px;
-      background: var(--surface);
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-      font-size: 15px;
-      color: var(--daisy);
+    .demo-card h3 {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 15px; font-weight: 600; color: var(--text); margin: 0 0 5px;
     }
-    .quick-icon svg { width: 16px; height: 16px; }
+    .demo-card h3 svg { width: 18px; height: 18px; color: var(--daisy); flex-shrink: 0; }
+    .demo-card p { font-size: 14px; line-height: 1.6; color: var(--muted); margin: 0; }
+    .demo-end { font-size: 13px; line-height: 1.6; color: var(--muted); text-align: center; margin: 18px 0 0; }
+    .demo-end b { color: var(--daisy); font-weight: 500; }
 
     /* ── INPUT BAR ── */
     #input-area {
@@ -1843,15 +1818,10 @@
       #main { padding: 0 8px; }
       #greeting-wrap { padding: 56px 0 40px; }
       #greeting { font-size: 38px; }
-      .daisy-orb { width: 58px; height: 58px; }
 
       .msg { font-size: 16.5px; max-width: 82%; }
       .md-body, .md-body p { font-size: 16.5px; }
 
-      #quick-starts { padding: 26px 24px; border-radius: 24px; }
-      .quick-item { font-size: 15px; padding: 13px 2px; }
-      .quick-item:hover { cursor: pointer; }
-      .quick-icon { width: 34px; height: 34px; font-size: 16px; }
 
       #input-area { padding: 14px 8px 26px; }
       #input-row { padding: 11px 11px 11px 12px; }
@@ -1891,41 +1861,41 @@
   <!-- SCROLL AREA -->
   <div id="main">
 
+    <div id="bots-band" aria-hidden="true"></div>
+
     <!-- GREETING -->
     <div id="greeting-wrap">
-      <div class="daisy-orb">
-        <svg viewBox="0 0 52 52" fill="none">
-          <circle cx="26" cy="26" r="5" fill="#7eb8f7"/>
-          <g stroke="#7eb8f7" stroke-width="1.5" stroke-linecap="round" opacity="0.7">
-            <line x1="26" y1="4"  x2="26" y2="12"/>
-            <line x1="26" y1="40" x2="26" y2="48"/>
-            <line x1="4"  y1="26" x2="12" y2="26"/>
-            <line x1="40" y1="26" x2="48" y2="26"/>
-            <line x1="10.1" y1="10.1" x2="15.8" y2="15.8"/>
-            <line x1="36.2" y1="36.2" x2="41.9" y2="41.9"/>
-            <line x1="41.9" y1="10.1" x2="36.2" y2="15.8"/>
-            <line x1="15.8" y1="36.2" x2="10.1" y2="41.9"/>
-          </g>
-        </svg>
-      </div>
       <div id="greeting">Good evening</div>
     </div>
 
     <!-- CHAT AREA -->
     <div id="chat-area"></div>
 
-    <!-- QUICK STARTS -->
-    <div id="quick-starts">
-      <p>Ask Daisy</p>
-      <button class="quick-item" data-quick="Help me with my homework">
-        <span class="quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A3.5 3.5 0 0 0 6 5.5V6A3 3 0 0 0 3 9v1a3 3 0 0 0 1 2.24V13A3.5 3.5 0 0 0 7.5 16.5 2.5 2.5 0 0 0 10 19"/><path d="M14.5 2A3.5 3.5 0 0 1 18 5.5V6a3 3 0 0 1 3 3v1a3 3 0 0 1-1 2.24V13a3.5 3.5 0 0 1-3.5 3.5A2.5 2.5 0 0 1 14 19"/><line x1="12" y1="3" x2="12" y2="19"/></svg></span> Homework
-      </button>
-      <button class="quick-item" data-quick="Help me start a business">
-        <span class="quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 19 2c0 2.52-.6 6.6-4 9a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></span> Start a Business
-      </button>
-      <button class="quick-item" id="quick-image-btn">
-        <span class="quick-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span> Analyze Images
-      </button>
+    <!-- HOME DEMO: what Daisy can do, written as the flowing message (the old Quick Start box is gone) -->
+    <div id="demo-flow">
+      <p class="demo-lead">Hi, I'm Daisy. Type below and I'll help. Here is everything I can do for you.</p>
+
+      <div class="demo-card">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A3.5 3.5 0 0 0 6 5.5V6A3 3 0 0 0 3 9v1a3 3 0 0 0 1 2.24V13A3.5 3.5 0 0 0 7.5 16.5 2.5 2.5 0 0 0 10 19"/><path d="M14.5 2A3.5 3.5 0 0 1 18 5.5V6a3 3 0 0 1 3 3v1a3 3 0 0 1-1 2.24V13a3.5 3.5 0 0 1-3.5 3.5A2.5 2.5 0 0 1 14 19"/><line x1="12" y1="3" x2="12" y2="19"/></svg>Homework</h3>
+        <p>Type any school question, or add a photo of it. I explain it step by step so you really understand, not just copy.</p>
+      </div>
+
+      <div class="demo-card">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 19 2c0 2.52-.6 6.6-4 9a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>Start a Business</h3>
+        <p>Tell me what you sell and where. I help you plan it, and I build your website so customers can find you.</p>
+      </div>
+
+      <div class="demo-card">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>Analyze Images</h3>
+        <p>Tap the <b>+</b> button, pick a picture, and ask me about it. A page from your book, a plant, a receipt, anything.</p>
+      </div>
+
+      <div class="demo-card">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><line x1="12" y1="19" x2="12" y2="22"/></svg>Talk instead of typing</h3>
+        <p>Tap the microphone to speak your question, or the wave button for a live voice conversation.</p>
+      </div>
+
+      <p class="demo-end">The bots at the top are me, waiting. When I explain something, they <b>move to show you</b>.</p>
     </div>
 
     <div id="disclaimer">Daisy can make mistakes, maybe not but always verify important information.</div>
@@ -2826,7 +2796,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // ── CHAT ─────────────────────────────────────────────
   const chatArea   = document.getElementById('chat-area');
-  const quickStarts = document.getElementById('quick-starts');
   const greetWrap  = document.getElementById('greeting-wrap');
   let chatActive   = false;
 
@@ -2834,7 +2803,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!chatActive) {
       chatActive = true;
       chatArea.classList.add('active');
-      quickStarts.style.display = 'none';
       greetWrap.style.paddingTop = '20px';
       greetWrap.querySelector('#greeting').style.fontSize = '20px';
     }
@@ -4216,32 +4184,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  function quickAsk(text) {
-    activateChat();
-    inp.value = text;
-    sendMessage(text);
-  }
-
-  function quickImageAsk() {
-    // "Analyze Images" can't be answered with text alone — it needs a
-    // real photo. Instead of faking a question, open the same attach
-    // flow the paperclip button uses, and leave a caption ready so the
-    // person only has to pick the picture.
-    inp.value = "What can you tell me about this?";
-    inp.focus();
-    imageInput.click();
-  }
-
-  // Wired up here, not via inline onclick="" in the HTML — everything
-  // in this file lives inside this DOMContentLoaded closure, so an
-  // inline onclick (which runs in global scope) can never actually
-  // reach quickAsk/quickImageAsk. That mismatch is why tapping these
-  // buttons did nothing before.
-  document.querySelectorAll('#quick-starts .quick-item[data-quick]').forEach(btn => {
-    btn.addEventListener('click', () => quickAsk(btn.dataset.quick));
-  });
-  const quickImageBtn = document.getElementById('quick-image-btn');
-  if (quickImageBtn) quickImageBtn.addEventListener('click', quickImageAsk);
 
   // ── SCROLL TO BOTTOM ──
   const scrollBtn = document.getElementById('scroll-bottom-btn');
@@ -4732,7 +4674,6 @@ document.addEventListener('DOMContentLoaded', function() {
     currentChat = { id: null, title: null, projectId: null, messages: [] };
     chatArea.innerHTML = '';
     chatArea.classList.remove('active');
-    quickStarts.style.display = '';
     greetWrap.style.paddingTop = '';
     greetWrap.querySelector('#greeting').style.fontSize = '';
     chatActive = false;
@@ -4898,6 +4839,448 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.innerHTML = '<div style="color:#f0f0f0;background:#2b2b2b;height:100vh;display:flex;align-items:center;justify-content:center;font-family:sans-serif;padding:24px;text-align:center;flex-direction:column;gap:12px"><div style="width:28px;height:28px;color:#f87171;margin:0 auto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><div>Daisy failed to load</div><div style="font-size:12px;color:#888">' + err.message + '</div></div>';
   }
 }); // end DOMContentLoaded
+</script>
+
+<script>
+/* Daisy bots: your Daisy 2.5 DD swarm, resting as a flowing helix. Always there: full size on the
+   home screen, a slimmer band once a chat starts. window.DaisyBots.form('heart' | 'any word') / .home()
+   lets the engine ask the bots to illustrate something. */
+(function () {
+  'use strict';
+  var app = document.getElementById('app'), main = document.getElementById('main'), chat = document.getElementById('chat-area');
+  if (!app || !main || !chat) return;
+  var cv = document.createElement('canvas'); cv.id = 'bots-canvas';
+  cv.setAttribute('role', 'img'); cv.setAttribute('aria-label', 'A flowing helix of tiny diamond-shaped bots');
+  app.appendChild(cv);
+  var ctx = cv.getContext('2d');
+  var reduce = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var TAU = 6.2832;
+  var W = 0, H = 0, DPR = 1, sc = 1;
+  var bandCY = 100, bandH = 150, L = 0, margin = 40, KK = 0, ready = false;
+  var home = true;   /* true = home screen (no chat yet); the helix itself is always on */
+
+  function measure() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    var top = main.offsetTop;
+    W = main.clientWidth; H = main.clientHeight;
+    if (W < 50 || H < 50) return false;
+    cv.style.top = top + 'px'; cv.style.left = main.offsetLeft + 'px'; cv.style.width = W + 'px'; cv.style.height = H + 'px';
+    cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+    sc = Math.max(0.6, Math.min(1.5, Math.min(W, H) / 700));
+    bandH = home ? Math.max(110, Math.min(190, H * 0.24)) : Math.max(80, Math.min(104, H * 0.14));
+    bandCY = 8 + bandH / 2;
+    L = W + margin * 2;
+    KK = TAU * Math.max(2, Math.round(L / (250 * sc))) / L;
+    var fade = bandCY + bandH / 2 + 60, r = document.documentElement.style;
+    r.setProperty('--bots-cy', bandCY + 'px'); r.setProperty('--bots-fade', fade + 'px'); r.setProperty('--bots-spacer', (fade - 24) + 'px');
+    return true;
+  }
+  measure();
+
+  var N = W * H < 450000 ? 1800 : 3000;
+  if ((navigator.hardwareConcurrency || 8) <= 4) N = Math.round(N * 0.8);
+
+  /* ---------- theme (brand): bots keep Daisy's blue/violet gems in both modes ---------- */
+  function isLight() {
+    var t = document.documentElement.getAttribute('data-theme');
+    if (t) return t === 'light';
+    return !!(window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches);
+  }
+
+  /* ---------- gem sprites (your originals, drawn at 2x so they stay sharp when small) ---------- */
+  var PAL = [
+    ['#ffffff', '#bfe3ff', 25], ['#9cefff', '#37a6ff', 25], ['#6f98ff', '#2a3fc4', 20],
+    ['#c2a8ff', '#6a3fe0', 12], ['#ffd3f0', '#ff6fc4', 4], ['#f1f4ff', '#98a4c8', 14]
+  ];
+  /* same hues, deeper, so they hold on a white background */
+  var PALL = [
+    ['#8fc2ff', '#1f6fd6', 25], ['#5fb4ff', '#1558b0', 25], ['#6f98ff', '#2a3fc4', 20],
+    ['#b69cff', '#7c3aed', 12], ['#ff9ad5', '#d63fa0', 4], ['#9fb0d8', '#5a6b9a', 14]
+  ];
+  function rgb(h) { return [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)]; }
+  function mix(a, b, t) {
+    return 'rgb(' + Math.round(a[0] + (b[0] - a[0]) * t) + ',' + Math.round(a[1] + (b[1] - a[1]) * t) + ',' + Math.round(a[2] + (b[2] - a[2]) * t) + ')';
+  }
+  function gem(c1, c2) {
+    var s = document.createElement('canvas'); s.width = 96; s.height = 60;
+    var g = s.getContext('2d'), a = rgb(c1), b = rgb(c2);
+    var Lp = [4, 30], T = [48, 4], R = [92, 30], B = [48, 56], C = [48, 30];
+    function tri(p, q, col) {
+      g.beginPath(); g.moveTo(p[0], p[1]); g.lineTo(q[0], q[1]); g.lineTo(C[0], C[1]); g.closePath();
+      g.fillStyle = col; g.fill();
+    }
+    tri(Lp, T, mix(a, b, 0.1)); tri(T, R, mix(a, b, 0)); tri(R, B, mix(a, b, 0.95)); tri(B, Lp, mix(a, b, 0.6));
+    g.beginPath(); g.moveTo(Lp[0], Lp[1]); g.lineTo(T[0], T[1]); g.lineTo(R[0], R[1]); g.lineTo(B[0], B[1]); g.closePath();
+    g.strokeStyle = 'rgba(255,255,255,0.75)'; g.lineWidth = 2.4; g.stroke();
+    return s;
+  }
+  var SPRD = PAL.map(function (p) { return gem(p[0], p[1]); });
+  var SPRL = PALL.map(function (p) { return gem(p[0], p[1]); });
+  function mkFlare(inner, mid, outer, star) {
+    var s = document.createElement('canvas'); s.width = s.height = 64;
+    var g = s.getContext('2d');
+    var r = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+    r.addColorStop(0, inner); r.addColorStop(0.18, mid); r.addColorStop(1, outer);
+    g.fillStyle = r; g.fillRect(0, 0, 64, 64);
+    g.fillStyle = star;
+    g.beginPath(); g.moveTo(32, 0); g.lineTo(35, 29); g.lineTo(64, 32); g.lineTo(35, 35); g.lineTo(32, 64); g.lineTo(29, 35); g.lineTo(0, 32); g.lineTo(29, 29); g.closePath(); g.fill();
+    return s;
+  }
+  var flareD = mkFlare('rgba(255,255,255,0.95)', 'rgba(190,225,255,0.45)', 'rgba(150,200,255,0)', 'rgba(255,255,255,0.85)');
+  var flareL = mkFlare('rgba(31,111,214,0.55)', 'rgba(31,111,214,0.22)', 'rgba(31,111,214,0)', 'rgba(31,111,214,0.55)');
+
+  /* ---------- shape masks (yours, unchanged) ---------- */
+  var FONTSTACK = 'Inter,"Arial Black","Helvetica Neue",Arial,sans-serif';
+  function lines2(t) {
+    t = t.trim();
+    var w = t.split(/\s+/);
+    if (t.length <= 9 || w.length < 2) return [t];
+    var best = 1, bd = 1e9;
+    for (var i = 1; i < w.length; i++) {
+      var d = Math.abs(w.slice(0, i).join(' ').length - w.slice(i).join(' ').length);
+      if (d < bd) { bd = d; best = i; }
+    }
+    return [w.slice(0, best).join(' '), w.slice(best).join(' ')];
+  }
+  function makeMask(key, text) {
+    var mw = 360, mh = 360, lines = null, fs = 200, lh = 0;
+    if (key === 'car') { mw = 520; mh = 260; }
+    if (key === 'word') {
+      lines = lines2(text || 'DAISY');
+      var tm = document.createElement('canvas').getContext('2d');
+      tm.font = '800 200px ' + FONTSTACK;
+      var mx = 0;
+      lines.forEach(function (l) { mx = Math.max(mx, tm.measureText(l).width); });
+      if (mx + 60 > 3200) fs = Math.floor(200 * 3200 / (mx + 60));
+      mx = mx * fs / 200;
+      lh = fs * 1.12;
+      mw = Math.ceil(mx + 60); mh = Math.ceil(lh * lines.length + 40);
+    }
+    var c = document.createElement('canvas'); c.width = mw; c.height = mh;
+    var g = c.getContext('2d', { willReadFrequently: true });
+    g.fillStyle = '#fff'; g.strokeStyle = '#fff';
+    var i;
+    if (key === 'word') {
+      g.font = '800 ' + fs + 'px ' + FONTSTACK; g.textAlign = 'center'; g.textBaseline = 'middle';
+      lines.forEach(function (l, n) { g.fillText(l, mw / 2, 20 + lh * (n + 0.5)); });
+    } else if (key === 'face') {
+      g.beginPath(); g.ellipse(180, 184, 126, 150, 0, 0, TAU); g.fill();
+      g.beginPath(); g.ellipse(52, 190, 15, 32, 0, 0, TAU); g.fill();
+      g.beginPath(); g.ellipse(308, 190, 15, 32, 0, 0, TAU); g.fill();
+      g.globalCompositeOperation = 'destination-out';
+      g.beginPath(); g.ellipse(132, 160, 19, 27, 0, 0, TAU); g.fill();
+      g.beginPath(); g.ellipse(228, 160, 19, 27, 0, 0, TAU); g.fill();
+      g.lineCap = 'round'; g.lineJoin = 'round'; g.lineWidth = 12;
+      g.beginPath(); g.moveTo(100, 112); g.quadraticCurveTo(130, 92, 160, 108); g.stroke();
+      g.beginPath(); g.moveTo(200, 108); g.quadraticCurveTo(230, 92, 260, 112); g.stroke();
+      g.lineWidth = 8;
+      g.beginPath(); g.moveTo(180, 172); g.lineTo(166, 222); g.lineTo(190, 224); g.stroke();
+      g.lineWidth = 14;
+      g.beginPath(); g.arc(180, 226, 62, 0.18 * Math.PI, 0.82 * Math.PI); g.stroke();
+    } else if (key === 'car') {
+      g.beginPath();
+      g.moveTo(24, 190); g.lineTo(24, 150); g.quadraticCurveTo(24, 130, 50, 126); g.lineTo(130, 118); g.lineTo(176, 64);
+      g.quadraticCurveTo(250, 50, 336, 66); g.lineTo(426, 120); g.lineTo(480, 130); g.quadraticCurveTo(502, 136, 502, 160);
+      g.lineTo(502, 190); g.closePath(); g.fill();
+      g.globalCompositeOperation = 'destination-out';
+      g.beginPath(); g.arc(120, 190, 52, 0, TAU); g.fill();
+      g.beginPath(); g.arc(404, 190, 52, 0, TAU); g.fill();
+      g.beginPath(); g.moveTo(184, 76); g.lineTo(240, 72); g.lineTo(240, 116); g.lineTo(146, 118); g.closePath(); g.fill();
+      g.beginPath(); g.moveTo(256, 72); g.lineTo(332, 74); g.lineTo(398, 116); g.lineTo(256, 116); g.closePath(); g.fill();
+      g.globalCompositeOperation = 'source-over';
+      g.beginPath(); g.arc(120, 190, 42, 0, TAU); g.fill();
+      g.beginPath(); g.arc(404, 190, 42, 0, TAU); g.fill();
+      g.globalCompositeOperation = 'destination-out';
+      g.beginPath(); g.arc(120, 190, 15, 0, TAU); g.fill();
+      g.beginPath(); g.arc(404, 190, 15, 0, TAU); g.fill();
+    } else if (key === 'heart') {
+      g.beginPath();
+      for (var a = 0; a <= TAU; a += 0.03) {
+        var hx = 180 + 9.6 * 16 * Math.pow(Math.sin(a), 3);
+        var hy = 176 - 9.6 * (13 * Math.cos(a) - 5 * Math.cos(2 * a) - 2 * Math.cos(3 * a) - Math.cos(4 * a));
+        if (a === 0) g.moveTo(hx, hy); else g.lineTo(hx, hy);
+      }
+      g.closePath(); g.fill();
+    } else if (key === 'star') {
+      g.beginPath();
+      for (i = 0; i < 10; i++) {
+        var r = i % 2 ? 72 : 168, an = -Math.PI / 2 + i * Math.PI / 5;
+        var sx = 180 + r * Math.cos(an), sy = 192 + r * Math.sin(an);
+        if (i) g.lineTo(sx, sy); else g.moveTo(sx, sy);
+      }
+      g.closePath(); g.fill();
+    } else {
+      for (i = 0; i < 14; i++) {
+        g.save(); g.translate(180, 180); g.rotate(i * TAU / 14);
+        g.beginPath(); g.ellipse(0, -102, 25, 72, 0, 0, TAU); g.fill(); g.restore();
+      }
+      g.globalCompositeOperation = 'destination-out';
+      g.beginPath(); g.arc(180, 180, 50, 0, TAU); g.fill();
+      g.globalCompositeOperation = 'source-over';
+      g.beginPath(); g.arc(180, 180, 34, 0, TAU); g.fill();
+    }
+    g.globalCompositeOperation = 'source-over';
+    return { g: g, mw: mw, mh: mh };
+  }
+
+  function sample(mask) {
+    var mw = mask.mw, mh = mask.mh, d = mask.g.getImageData(0, 0, mw, mh).data, cnt = 0, i;
+    for (i = 3; i < d.length; i += 16) if (d[i] > 128) cnt++;
+    var step = Math.sqrt(Math.max(cnt * 4, 100) / N), pts = [];
+    for (var y = step / 2; y < mh; y += step) {
+      for (var x = step / 2; x < mw; x += step) {
+        var px = x + (Math.random() - 0.5) * step * 0.55, py = y + (Math.random() - 0.5) * step * 0.55;
+        var ix = px | 0, iy = py | 0;
+        if (ix < 0 || iy < 0 || ix >= mw || iy >= mh) continue;
+        if (d[(iy * mw + ix) * 4 + 3] > 128) pts.push(px, py);
+      }
+    }
+    var n = pts.length / 2;
+    if (n === 0) { pts.push(mw / 2, mh / 2); n = 1; }
+    if (n > N) {
+      for (i = 0; i < N; i++) {
+        var j = i + ((Math.random() * (n - i)) | 0), t0 = pts[2 * i], t1 = pts[2 * i + 1];
+        pts[2 * i] = pts[2 * j]; pts[2 * i + 1] = pts[2 * j + 1]; pts[2 * j] = t0; pts[2 * j + 1] = t1;
+      }
+      pts.length = N * 2;
+    } else {
+      while (pts.length / 2 < N) {
+        var q = ((Math.random() * n) | 0) * 2;
+        pts.push(pts[q] + (Math.random() - 0.5) * step * 0.5, pts[q + 1] + (Math.random() - 0.5) * step * 0.5);
+      }
+    }
+    return { pts: pts, mw: mw, mh: mh, step: step };
+  }
+
+  /* ---------- particles (your arrays) ---------- */
+  var X = new Float32Array(N), Y = new Float32Array(N), VX = new Float32Array(N), VY = new Float32Array(N);
+  var TX = new Float32Array(N), TY = new Float32Array(N), DL = new Float32Array(N);
+  var PH = new Float32Array(N), WW = new Float32Array(N), RT = new Float32Array(N), SP = new Float32Array(N);
+  var SG = new Float32Array(N), FZ = new Float32Array(N), CL = new Uint8Array(N);
+  var HZ = new Float32Array(N), JX = new Float32Array(N), JY = new Float32Array(N);
+  var fl = new Float32Array(N * 4);
+  (function init() {
+    for (var i = 0; i < N; i++) {
+      X[i] = Math.random() * W; Y[i] = Math.random() * H;
+      PH[i] = Math.random() * TAU; WW[i] = 0.8 + Math.random() * 1.6; RT[i] = Math.random() * TAU;
+      SP[i] = (Math.random() - 0.5) * 1.6; SG[i] = Math.random() < 0.82 ? 1 : -1; FZ[i] = 0.78 + Math.random() * 0.5;
+      JX[i] = (Math.random() - 0.5) * 4; JY[i] = (Math.random() - 0.5) * 4;
+      var r = Math.random() * 100, acc = 0, c = 0;
+      for (; c < PAL.length - 1; c++) { acc += PAL[c][2]; if (r < acc) break; }
+      CL[i] = c;
+    }
+  })();
+
+  /* ---------- the helix: where the bots rest while dormant ---------- */
+  var S = Math.round(N * 0.36), PER = 5;
+  function helixTarget(i, t) {
+    var xr, phase, u = 1, tw = t * 0.9, v = 44 * sc;
+    if (i < 2 * S) {
+      xr = ((i % S) / S) * L; phase = KK * xr + tw + (i < S ? 0 : Math.PI);
+    } else {
+      var spacing = 34 * sc, nR = Math.max(1, Math.floor(L / spacing));
+      var q = i - 2 * S, ridx = Math.floor(q / PER) % nR;
+      xr = ridx * spacing + spacing / 2; phase = KK * xr + tw; u = ((q % PER + 0.5) / PER) * 2 - 1;
+    }
+    var amp = bandH * 0.34, s = Math.sin(phase), z = Math.cos(phase);
+    TX[i] = ((xr + v * t) % L + L) % L - margin + JX[i];
+    if (i < 2 * S) { TY[i] = bandCY + amp * s + JY[i]; HZ[i] = z; }
+    else { TY[i] = bandCY + amp * s * u + JY[i]; HZ[i] = z * u * 0.6; }
+  }
+
+  var mode = 'helix', cache = {}, curKey = '', curText = '', changeT = -99, szCur = 5, szTgt = 5, holdUntil = 0;
+  function helixSize() { return Math.max(3.6, 5 * sc); }
+  szCur = szTgt = helixSize();
+
+  function formShape(key, text) {
+    var ck = key === 'word' ? 'word:' + text : key;
+    var s = cache[ck];
+    if (!s) { s = sample(makeMask(key, text)); cache[ck] = s; }
+    var top = bandCY + bandH / 2 + 8, bot = H - 10;
+    var aw = W - 40, ah = bot - top;
+    var k = Math.min(aw / s.mw, ah / s.mh) * 0.96, cx = W / 2, cy = (top + bot) / 2;
+    var tx = new Float32Array(N), ty = new Float32Array(N), ti = new Array(N), pi = new Array(N), i;
+    for (i = 0; i < N; i++) {
+      tx[i] = cx + (s.pts[2 * i] - s.mw / 2) * k; ty[i] = cy + (s.pts[2 * i + 1] - s.mh / 2) * k;
+      ti[i] = i; pi[i] = i;
+    }
+    ti.sort(function (a, b) { return tx[a] - tx[b]; });
+    pi.sort(function (a, b) { return X[a] - X[b]; });
+    var maxD = 1, d;
+    for (i = 0; i < N; i++) {
+      var p = pi[i], t = ti[i];
+      TX[p] = tx[t]; TY[p] = ty[t];
+      d = Math.sqrt((TX[p] - cx) * (TX[p] - cx) + (TY[p] - cy) * (TY[p] - cy));
+      DL[p] = d; if (d > maxD) maxD = d;
+    }
+    for (i = 0; i < N; i++) DL[i] = reduce ? 0 : DL[i] / maxD * 0.6 + Math.random() * 0.12;
+    szTgt = Math.max(4.5, Math.min(15, s.step * k * 1.45));
+    mode = 'shape'; curKey = key; curText = text || '';
+    holdUntil = performance.now() + (key === 'word' ? 9000 : 7000);
+    changeT = reduce ? -99 : performance.now() / 1000;
+    document.body.classList.add('bots-formed');
+    cv.setAttribute('aria-label', 'Bots forming ' + (key === 'word' ? 'the word ' + curText : 'a ' + key));
+  }
+  function goHelix() {
+    mode = 'helix';
+    for (var i = 0; i < N; i++) DL[i] = reduce ? 0 : Math.random() * 0.45;
+    szTgt = helixSize();
+    changeT = reduce ? -99 : performance.now() / 1000;
+    document.body.classList.remove('bots-formed');
+    cv.setAttribute('aria-label', 'A flowing helix of tiny diamond-shaped bots');
+  }
+  var SHAPES = { daisy: 'daisy', flower: 'daisy', face: 'face', car: 'car', heart: 'heart', star: 'star' };
+  window.DaisyBots = {
+    form: function (what) {
+      var v = String(what || '').trim(), k = v.toLowerCase();
+      if (SHAPES[k]) formShape(SHAPES[k], ''); else formShape('word', v || 'DAISY');
+      return true;
+    },
+    home: function () { goHelix(); }
+  };
+
+  /* ---------- the words drift up on their own when you're not touching the page ---------- */
+  var lastUser = 0, acc = 0, endAt = 0;
+  ['wheel', 'touchstart', 'touchmove', 'pointerdown', 'keydown', 'input'].forEach(function (ev) {
+    window.addEventListener(ev, function () { lastUser = performance.now(); endAt = 0; }, { passive: true, capture: true });
+  });
+
+  /* ---------- pointer (yours): push the bots, tap to scatter. Only over the bots' band, so scrolling isn't hijacked ---------- */
+  var ptr = { x: -999, y: -999, on: false }, burst = { x: 0, y: 0, t: -9 };
+  function local(e) { var r = cv.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; }
+  function inBand(p) { return p.x >= 0 && p.x <= W && p.y >= 0 && (mode === 'shape' ? p.y <= H : p.y < bandCY + bandH / 2 + 20); }
+  window.addEventListener('pointerdown', function (e) {
+    var p = local(e); if (!inBand(p)) return;
+    ptr.on = true; ptr.x = p.x; ptr.y = p.y; burst.x = p.x; burst.y = p.y; burst.t = performance.now() / 1000;
+    if (mode === 'shape') holdUntil = performance.now() + 7000;
+  });
+  window.addEventListener('pointermove', function (e) {
+    var p = local(e); ptr.x = p.x; ptr.y = p.y;
+    if (e.pointerType === 'mouse') ptr.on = inBand(p);
+  });
+  function off() { ptr.on = false; }
+  window.addEventListener('pointerup', off); window.addEventListener('pointercancel', off);
+  document.addEventListener('pointerleave', off);
+
+  /* ---------- loop (your physics) ---------- */
+  var last = performance.now() / 1000;
+  function frame(now) {
+    var t = now / 1000, dt = Math.min(0.033, Math.max(0.001, t - last)); last = t;
+    if (!ready) { ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, cv.width, cv.height); setTimeout(function () { requestAnimationFrame(frame); }, 250); return; }
+    var ta = reduce ? 0 : t, light = isLight();
+    var SPR = light ? SPRL : SPRD, flare = light ? flareL : flareD;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+    ctx.clearRect(0, 0, W, H);
+    ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
+    if (!reduce && mode === 'shape' && now > holdUntil) goHelix();
+    if (!reduce && home && mode === 'helix' && now - lastUser > 2500 && !document.hidden && main.scrollHeight > main.clientHeight + 4) {
+      var atEnd = main.scrollTop + main.clientHeight >= main.scrollHeight - 2;
+      if (atEnd) {
+        if (!endAt) endAt = now;
+        else if (now - endAt > 3500) { main.scrollTo({ top: 0, behavior: 'smooth' }); endAt = 0; lastUser = now - 1200; }
+      } else {
+        acc += 22 * dt;
+        if (acc >= 1) { var st = Math.floor(acc); main.scrollTop += st; acc -= st; }
+      }
+    }
+    szCur += (szTgt - szCur) * Math.min(1, dt * 2.5);
+    var damp = Math.exp(-4.4 * dt), K = 26, R0 = 110 * sc, Rb = 300 * sc, bt = t - burst.t, fc = 0;
+    var helixOn = mode === 'helix';
+    for (var pass = 0; pass < 2; pass++) {
+      for (var i = 0; i < N; i++) {
+        if (pass === 0) {
+          /* physics + draw order: back of the helix first, front last */
+        }
+        var x = X[i], y = Y[i], vx = VX[i], vy = VY[i], ph = PH[i], w = WW[i];
+        if (pass === 0) {
+          var tt = t - changeT - DL[i], ax, ay;
+          if (helixOn) {
+            var ox = TX[i]; helixTarget(i, ta);
+            if (tt >= 0 && Math.abs(TX[i] - ox) > W * 0.5) { x = X[i] = TX[i]; y = Y[i] = TY[i]; vx = vy = 0; }
+          }
+          var dx = TX[i] + Math.cos(ta * w + ph) * 1.6 * sc - x, dy = TY[i] + Math.sin(ta * w * 1.3 + ph * 1.7) * 1.6 * sc - y;
+          if (tt < 0) {
+            ax = -vx * 1.5 + Math.cos(ta * 0.9 + ph) * 26 * sc;
+            ay = -vy * 1.5 + Math.sin(ta * 1.1 + ph * 1.3) * 26 * sc;
+          } else {
+            ax = dx * K; ay = dy * K;
+            if (!reduce && tt < 1.8) {
+              var dist = Math.sqrt(dx * dx + dy * dy) + 1;
+              var f = Math.min(dist / (220 * sc), 1) * (1 - tt / 1.8) * 760 * sc * SG[i];
+              ax -= dy / dist * f; ay += dx / dist * f;
+            }
+          }
+          if (ptr.on) {
+            var qx = x - ptr.x, qy = y - ptr.y, d2 = qx * qx + qy * qy;
+            if (d2 < R0 * R0) {
+              var dd = Math.sqrt(d2) + 0.01, fr = 1 - dd / R0, s = fr * fr * 5200 * sc;
+              ax += qx / dd * s; ay += qy / dd * s;
+            }
+          }
+          if (bt < 0.55) {
+            var bx = x - burst.x, by = y - burst.y, bd = Math.sqrt(bx * bx + by * by) + 0.01;
+            if (bd < Rb) {
+              var bf = (1 - bd / Rb) * (1 - bt / 0.55) * 7000 * sc;
+              ax += bx / bd * bf; ay += by / bd * bf;
+            }
+          }
+          vx = (vx + ax * dt) * damp; vy = (vy + ay * dt) * damp;
+          x += vx * dt; y += vy * dt;
+          X[i] = x; Y[i] = y; VX[i] = vx; VY[i] = vy;
+        }
+        /* draw: pass 0 = back strand (z<0) while helix, pass 1 = front / formed shape */
+        var front = !helixOn || HZ[i] >= 0;
+        if ((pass === 0) === front) continue;
+        var sp = Math.sqrt(vx * vx + vy * vy), m = Math.min(1, sp / (150 * sc));
+        var rest = RT[i] + ta * SP[i], dA = Math.atan2(vy, vx) - rest;
+        dA -= TAU * Math.round(dA / TAU);
+        var ang = rest + dA * m;
+        var s3 = Math.cos(ta * w * 0.6 + ph * 2.3), f3 = 0.5 + 0.5 * Math.abs(s3);
+        var stretch = 1 + Math.min(sp / (420 * sc), 1.2) * m;
+        var sw = Math.sin(x * 0.016 + y * 0.009 - ta * 2.4 + ph * 0.3);
+        var gl = sw > 0 ? Math.pow(sw, 16) : 0;
+        var fa = s3 > 0 ? Math.pow(s3, 24) * 0.9 : 0;
+        if (fa > gl) gl = fa;
+        var depth = helixOn ? 0.78 + 0.3 * HZ[i] : 1;
+        var size = szCur * FZ[i] * depth, wd = size * (f3 + (1 - f3) * m) * stretch, ht = size * 0.64;
+        var cs = Math.cos(ang), sn = Math.sin(ang);
+        ctx.setTransform(cs * DPR, sn * DPR, -sn * DPR, cs * DPR, x * DPR, y * DPR);
+        ctx.globalAlpha = Math.min(1, (helixOn && !front ? 0.5 : 0.7) + 0.28 * m + 0.45 * gl);
+        ctx.drawImage(SPR[CL[i]], -wd / 2, -ht / 2, wd, ht);
+        if (gl > 0.45) { fl[fc * 4] = x; fl[fc * 4 + 1] = y; fl[fc * 4 + 2] = gl; fl[fc * 4 + 3] = size; fc++; }
+      }
+    }
+    ctx.globalCompositeOperation = light ? 'source-over' : 'lighter';
+    for (var j = 0; j < fc; j++) {
+      var fs = fl[j * 4 + 3] * fl[j * 4 + 2] * 3.4;
+      ctx.setTransform(DPR, 0, 0, DPR, fl[j * 4] * DPR, fl[j * 4 + 1] * DPR);
+      ctx.globalAlpha = Math.min(1, fl[j * 4 + 2] * (light ? 0.6 : 0.9));
+      ctx.drawImage(flare, -fs / 2, -fs / 2, fs, fs);
+    }
+    ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1;
+    requestAnimationFrame(frame);
+  }
+
+  var rt = 0;
+  function remeasure() {
+    clearTimeout(rt);
+    rt = setTimeout(function () { if (measure()) { ready = true; if (mode === 'shape') formShape(curKey, curText); } }, 120);
+  }
+  if (window.ResizeObserver) new ResizeObserver(remeasure).observe(main); else window.addEventListener('resize', remeasure);
+
+  function syncHome() {
+    home = !chat.classList.contains('active');
+    document.body.classList.add('bots-on');
+    remeasure();   /* full band on home, slimmer band in chat; the bots flow to the new size */
+  }
+  new MutationObserver(syncHome).observe(chat, { attributes: true, attributeFilter: ['class'] });
+  syncHome();
+
+  for (var i0 = 0; i0 < N; i0++) { helixTarget(i0, 0); X[i0] = TX[i0]; Y[i0] = TY[i0]; }
+  ready = measure();
+  requestAnimationFrame(frame);
+})();
 </script>
 </body>
 </html>
