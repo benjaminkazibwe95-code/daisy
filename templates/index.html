@@ -1089,155 +1089,59 @@
     }
     @media (prefers-reduced-motion: reduce) { .pulse-ring { animation: none; display: none; } }
 
-    /* ── LIVE ROOM — Full screen Gemini style ── */
-    #live-room {
-      display: none;
-      position: fixed;
-      inset: 0;
-      z-index: 100;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-    }
-    #live-room.active { display: flex; }
-
-    #live-bg {
-      position: absolute;
-      inset: 0;
-      z-index: -1;
-      background: radial-gradient(ellipse 100% 70% at 50% 100%, #1a3a6e 0%, #0d1f40 40%, #080808 75%);
-    }
-
-    /* Top bar */
-    #live-topbar {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 52px 24px 0;
-    }
-    #live-label {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 15px;
-      font-weight: 500;
-      color: #fff;
-      letter-spacing: 0.03em;
-    }
-    #live-captions-btn {
-      background: rgba(255,255,255,0.1);
-      border: none;
-      border-radius: 10px;
-      padding: 8px 10px;
-      color: #fff;
-      cursor: pointer;
-      display: flex; align-items: center; justify-content: center;
-    }
-
-    /* Center */
-    #live-center {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 32px;
-      flex: 1;
-      justify-content: center;
-      padding: 0 24px;
-    }
-
-    /* Wave bars — taller, more bars, Gemini feel */
-    #wave-wrap {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 5px;
-      height: 80px;
-    }
-    .wave-bar {
-      width: 4px;
-      border-radius: 4px;
-      background: #7eb8f7;
-      height: 8px;
-    }
-    .wave-bar:nth-child(even) { background: #a78bfa; }
-    .wave-bar.idle { animation: wave-idle 1.8s ease-in-out infinite; }
-    .wave-bar:nth-child(1)  { animation-delay: 0.00s; }
-    .wave-bar:nth-child(2)  { animation-delay: 0.10s; }
-    .wave-bar:nth-child(3)  { animation-delay: 0.20s; }
-    .wave-bar:nth-child(4)  { animation-delay: 0.30s; }
-    .wave-bar:nth-child(5)  { animation-delay: 0.05s; }
-    .wave-bar:nth-child(6)  { animation-delay: 0.15s; }
-    .wave-bar:nth-child(7)  { animation-delay: 0.25s; }
-    .wave-bar:nth-child(8)  { animation-delay: 0.35s; }
-    .wave-bar:nth-child(9)  { animation-delay: 0.00s; }
-    .wave-bar:nth-child(10) { animation-delay: 0.12s; }
-    .wave-bar:nth-child(11) { animation-delay: 0.22s; }
-    .wave-bar:nth-child(12) { animation-delay: 0.32s; }
-    .wave-bar:nth-child(13) { animation-delay: 0.08s; }
-    .wave-bar:nth-child(14) { animation-delay: 0.18s; }
-    .wave-bar:nth-child(15) { animation-delay: 0.28s; }
-    .wave-bar:nth-child(16) { animation-delay: 0.38s; }
-
-    @keyframes wave-idle {
-      0%, 100% { height: 6px;  opacity: 0.3; }
-      50%       { height: 32px; opacity: 1; }
-    }
-
-    #live-transcript {
-      font-family: 'Instrument Serif', serif;
-      font-size: 22px;
-      color: rgba(255,255,255,0.9);
-      text-align: center;
-      line-height: 1.5;
-      font-style: italic;
-      max-width: 320px;
-    }
-    #live-retry-btn {
-      margin-top: 18px;
-      padding: 10px 20px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.25);
-      background: rgba(255,255,255,0.08);
-      color: #fff;
-      font-family: 'Inter', sans-serif;
-      font-size: 13.5px;
-      font-weight: 600;
-      cursor: pointer;
-      align-items: center;
-      gap: 8px;
-    }
-    #live-retry-btn:hover { background: rgba(255,255,255,0.16); }
-
-    /* Bottom controls */
-    #live-controls {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 16px;
-      padding: 0 24px 52px;
-      width: 100%;
-    }
-
-    .live-ctrl {
-      width: 56px; height: 56px;
-      border-radius: 50%;
-      border: none;
-      cursor: pointer;
-      display: flex; align-items: center; justify-content: center;
-      color: #fff;
-      background: rgba(255,255,255,0.12);
-      backdrop-filter: blur(10px);
+    /* ── LIVE ROOM — the face, the bots, and nothing else ── */
+    #live-room { display: none; position: fixed; inset: 0; z-index: 100; background: #05060b; overflow: hidden; }
+    #live-room.active { display: block; }
+    #live-face { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; touch-action: manipulation; }
+    #live-menu {
+      position: absolute; z-index: 3; left: 16px; top: calc(env(safe-area-inset-top, 0px) + 14px);
+      width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      color: #fff; display: flex; align-items: center; justify-content: center; cursor: pointer;
       transition: transform 0.15s, background 0.15s;
     }
-    .live-ctrl:hover { transform: scale(1.08); background: rgba(255,255,255,0.2); }
-    .live-ctrl:active { transform: scale(0.92); }
-    #mic-btn.muted { background: rgba(248,113,113,0.3); }
-    #end-live {
-      background: #ef4444;
-      width: 64px; height: 64px;
+    #live-menu:active { transform: scale(0.92); background: rgba(255,255,255,0.16); }
+    #live-menu svg { width: 20px; height: 20px; }
+    #live-note {
+      display: none; position: absolute; z-index: 3; left: 50%; transform: translateX(-50%);
+      bottom: calc(env(safe-area-inset-bottom, 0px) + 92px); max-width: 86vw; text-align: center;
+      background: rgba(20,22,34,0.94); color: #fff; border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 14px; padding: 10px 14px; font-size: 13px; line-height: 1.4;
     }
-    #end-live:hover { background: #dc2626; }
+    #live-bar {
+      position: absolute; z-index: 3; left: 0; right: 0; bottom: 0;
+      display: flex; align-items: center; gap: 10px;
+      padding: 0 14px calc(env(safe-area-inset-bottom, 0px) + 18px);
+    }
+    #live-pill {
+      flex: 1; min-width: 0; height: 52px; display: flex; align-items: center; gap: 6px; padding: 0 8px;
+      border-radius: 26px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: border-color 0.2s;
+    }
+    #live-pill:focus-within { border-color: var(--daisy); }
+    #live-plus {
+      width: 36px; height: 36px; flex-shrink: 0; border-radius: 50%; border: none; cursor: pointer;
+      background: transparent; color: #fff; display: flex; align-items: center; justify-content: center;
+    }
+    #live-plus svg { width: 20px; height: 20px; }
+    #live-input {
+      flex: 1; min-width: 0; background: none; border: none; outline: none; color: #fff;
+      font-family: 'Inter', sans-serif; font-size: 15px;
+    }
+    #live-input::placeholder { color: rgba(255,255,255,0.5); }
+    .live-ctrl {
+      width: 52px; height: 52px; flex-shrink: 0; border-radius: 50%; border: none; cursor: pointer; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      transition: transform 0.15s, background 0.15s;
+    }
+    .live-ctrl:active { transform: scale(0.92); }
+    .live-ctrl svg { width: 22px; height: 22px; }
+    #mic-btn .mic-slash { display: none; }
+    #mic-btn.muted { background: rgba(248,113,113,0.28); }
+    #mic-btn.muted .mic-slash { display: block; }
+    #end-live { background: linear-gradient(135deg, var(--daisy), var(--daisy2)); border: none; }
 
     /* ── DRAWER / SIDEBAR MENU (ChatGPT/Claude-style) ── */
     #offline-banner {
@@ -2214,82 +2118,28 @@
     <button id="stats-refresh-btn">Refresh</button>
   </div>
 </div>
-<!-- LIVE ROOM — Full screen Gemini style -->
+<!-- LIVE ROOM: Daisy's face + the bots. No captions, no extra buttons. -->
 <div id="live-room">
-  <!-- Full screen gradient bg — dark top, blue glow bottom -->
-  <div id="live-bg"></div>
-
-  <!-- Top bar -->
-  <div id="live-topbar">
-    <div id="live-label">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <line x1="2" y1="10" x2="2" y2="14"/><line x1="6" y1="6" x2="6" y2="18"/>
-        <line x1="10" y1="3" x2="10" y2="21"/><line x1="14" y1="6" x2="14" y2="18"/>
-        <line x1="18" y1="10" x2="18" y2="14"/><line x1="22" y1="8" x2="22" y2="16"/>
-      </svg>
-      Live
+  <canvas id="live-face"></canvas>
+  <button id="live-menu" aria-label="Chats and menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="8" x2="21" y2="8"/><line x1="3" y1="16" x2="15" y2="16"/></svg>
+  </button>
+  <div id="live-note"></div>
+  <div id="live-bar">
+    <div id="live-pill">
+      <button id="live-plus" aria-label="Add an image">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      </button>
+      <input id="live-input" type="text" placeholder="Ask Daisy" autocomplete="off" enterkeyhint="send">
     </div>
-    <button id="live-captions-btn" title="Captions">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="2" y="6" width="20" height="14" rx="2"/>
-        <line x1="6" y1="12" x2="12" y2="12"/>
-        <line x1="6" y1="16" x2="18" y2="16"/>
-        <line x1="14" y1="12" x2="18" y2="12"/>
+    <button class="live-ctrl" id="mic-btn" aria-label="Mute mic">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><line x1="12" y1="19" x2="12" y2="22"/>
+        <line class="mic-slash" x1="4" y1="4" x2="20" y2="20"/>
       </svg>
     </button>
-  </div>
-
-  <!-- Center wave + transcript -->
-  <div id="live-center">
-    <div id="wave-wrap">
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-      <div class="wave-bar idle"></div>
-    </div>
-    <div id="live-transcript">Listening...</div>
-    <button id="live-retry-btn" style="display:none;">Try again</button>
-  </div>
-
-  <!-- Bottom controls -->
-  <div id="live-controls">
-    <button class="live-ctrl" id="cam-btn" title="Camera">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="2" y="7" width="15" height="13" rx="2"/>
-        <path d="M17 9l5-2v10l-5-2V9z"/>
-      </svg>
-    </button>
-    <button class="live-ctrl" id="share-btn" title="Share screen">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="2" y="4" width="20" height="14" rx="2"/>
-        <path d="M8 20h8M12 18v2"/>
-        <path d="M9 10l3-3 3 3M12 7v6"/>
-      </svg>
-    </button>
-    <button class="live-ctrl" id="mic-btn" title="Mute mic">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="9" y="2" width="6" height="12" rx="3"/>
-        <path d="M5 10a7 7 0 0 0 14 0"/>
-        <line x1="12" y1="19" x2="12" y2="22"/>
-        <line x1="8"  y1="22" x2="16" y2="22"/>
-      </svg>
-    </button>
-    <button class="live-ctrl" id="end-live" title="End">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M18 6L6 18M6 6l12 12"/>
-      </svg>
+    <button class="live-ctrl" id="end-live" aria-label="End">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
     </button>
   </div>
 </div>
@@ -4282,8 +4132,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     openOverlay('live', () => {
       openLive().catch(() => {
-        transcript.textContent = "Something went wrong opening voice mode — tap Try again.";
-        liveRetryBtn.style.display = 'inline-flex';
+        showLiveNote("Something went wrong opening Daisy live. Please try again.", 5000);
       });
     });
   };
@@ -4408,187 +4257,187 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // ── LIVE ROOM ─────────────────────────────────────────
-  const liveRoom   = document.getElementById('live-room');
-  const endLive    = document.getElementById('end-live');
-  const micBtn     = document.getElementById('mic-btn');
-  const transcript = document.getElementById('live-transcript');
-  const liveRetryBtn = document.getElementById('live-retry-btn');
-  const waveBars   = document.querySelectorAll('.wave-bar');
+  // The face (window.DaisyFace) and the bots (window.DaisyBots) are the whole room.
+  // Voice in → /ask → Daisy answers out loud, her face following the words.
+  const liveRoom  = document.getElementById('live-room');
+  const endLive   = document.getElementById('end-live');
+  const micBtn    = document.getElementById('mic-btn');
+  const liveInput = document.getElementById('live-input');
+  const liveNote  = document.getElementById('live-note');
+  const liveFace  = document.getElementById('live-face');
+  let recognition = null, micMuted = false, liveBusy = false, liveSpeaking = false, liveAbort = null, liveSpeakDone = null, noteTimer = null;
 
-  liveRetryBtn.onclick = async () => {
-    liveRetryBtn.style.display = 'none';
-    transcript.textContent = 'Listening...';
-    await startMic();
-    startSpeechRecognition();
-  };
-
-  let mediaStream = null, audioCtx = null, analyser = null, waveRAF = null;
-  let recognition = null, micMuted = false;
+  function showLiveNote(msg, ms) {
+    liveNote.textContent = msg; liveNote.style.display = 'block';
+    clearTimeout(noteTimer); noteTimer = setTimeout(() => { liveNote.style.display = 'none'; }, ms || 4500);
+  }
+  const liveActive = () => liveRoom.classList.contains('active');
 
   endLive.onclick = closeOverlay;
+  document.getElementById('live-plus').onclick = () => imageInput.click();
+  document.getElementById('live-menu').onclick = () => {
+    endLiveSession();
+    renderSidebarLists();
+    openOverlay('drawer', () => { drawer.classList.add('open'); drawerOverlay.classList.add('active'); });
+  };
 
   async function openLive() {
-    liveRoom.classList.add('active'); // always visible immediately, before anything async can fail
-    transcript.textContent = 'Listening...';
-    liveRetryBtn.style.display = 'none';
-    try {
-      await startMic();
-      startSpeechRecognition();
-    } catch (e) {
-      transcript.textContent = "Something went wrong opening voice mode — tap Try again.";
-      liveRetryBtn.style.display = 'inline-flex';
-    }
+    liveRoom.classList.add('active'); // visible immediately, before anything async can fail
+    window.DaisyBots && DaisyBots.live(true);
+    window.DaisyFace && DaisyFace.start();
+    if (!micMuted) startSpeechRecognition();
   }
 
   function endLiveSession() {
     liveRoom.classList.remove('active');
-    stopMic();
+    if (liveAbort) liveAbort.abort();
+    if (window.DaisyFace) DaisyFace.stop();
+    if (window.DaisyBots) DaisyBots.live(false);
     stopSpeechRecognition();
-    transcript.textContent = 'Listening...';
-    // Restore idle animation
-    waveBars.forEach(b => { b.classList.add('idle'); b.style.height = ''; });
+    liveBusy = false; liveSpeaking = false; liveSpeakDone = null;
+    liveInput.value = '';
   }
   OVERLAY_CLOSERS.live = endLiveSession;
 
-  async function startMic() {
-    try {
-      mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      analyser = audioCtx.createAnalyser();
-      analyser.fftSize = 64;
-      audioCtx.createMediaStreamSource(mediaStream).connect(analyser);
-      animateWave();
-      liveRetryBtn.style.display = 'none';
-    } catch(e) {
-      showMicError(e);
-    }
-  }
-
   function showMicError(e) {
-    let msg = "Couldn't access your microphone.";
-    if (e && (e.name === 'NotAllowedError' || e.name === 'PermissionDeniedError')) {
-      msg = "Microphone access is blocked. Tap the padlock or info icon next to the address bar, allow Microphone, then try again.";
-    } else if (e && e.name === 'NotFoundError') {
-      msg = "No microphone found on this device.";
+    let msg = "Couldn't reach your microphone. You can type below instead.";
+    if (e && (e.name === 'NotAllowedError' || e.name === 'PermissionDeniedError' || e.error === 'not-allowed')) {
+      msg = "Microphone is blocked. Allow it in your browser settings, then tap the mic. You can type below meanwhile.";
     } else if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
-      msg = "Voice needs a secure (https) connection to work.";
+      msg = "Voice needs a secure (https) connection. You can type below instead.";
     }
-    transcript.textContent = msg;
-    liveRetryBtn.style.display = 'inline-flex';
-  }
-
-  function stopMic() {
-    if (mediaStream) { mediaStream.getTracks().forEach(t => t.stop()); mediaStream = null; }
-    if (audioCtx)    { audioCtx.close(); audioCtx = null; }
-    if (waveRAF)     { cancelAnimationFrame(waveRAF); waveRAF = null; }
-  }
-
-  function animateWave() {
-    if (!analyser) return;
-    const data = new Uint8Array(analyser.frequencyBinCount);
-    function frame() {
-      analyser.getByteFrequencyData(data);
-      waveBars.forEach((bar, i) => {
-        const val = data[i % data.length] || 0;
-        const h = 6 + (val / 255) * 68;
-        bar.style.height = h + 'px';
-        bar.classList.remove('idle');
-      });
-      waveRAF = requestAnimationFrame(frame);
-    }
-    frame();
+    showLiveNote(msg, 6000);
   }
 
   function startSpeechRecognition() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!SR) {
-      transcript.textContent = 'Voice isn\'t supported in this browser — try Chrome.';
-      liveRetryBtn.style.display = 'none';
-      return;
-    }
-    recognition = new SR();
-    recognition.continuous = true;
-    recognition.interimResults = true;
-    recognition.lang = 'en-US';
-
-    recognition.onresult = async (e) => {
+    if (!SR) { showLiveNote("Voice isn't supported in this browser. Type below, or try Chrome.", 6000); return; }
+    if (recognition) return;
+    const rec = recognition = new SR();
+    rec.continuous = true; rec.interimResults = true; rec.lang = 'en-US';
+    rec.onresult = (e) => {
+      if (liveSpeaking || liveBusy) return; // never listen to Daisy's own voice
       let interim = '', final = '';
       for (let i = e.resultIndex; i < e.results.length; i++) {
-        if (e.results[i].isFinal) final += e.results[i][0].transcript;
-        else interim += e.results[i][0].transcript;
+        if (e.results[i].isFinal) final += e.results[i][0].transcript; else interim += e.results[i][0].transcript;
       }
-      transcript.textContent = final || interim || '...';
-
-      if (final.trim()) {
-        const question = final.trim();
-
-        activateChat();
-        stickToBottom = true;
-        const priorHistory = toHistory(currentChat.messages.slice(-24)); // same fix as text chat — real memory of this conversation, spoken or typed
-        addMsg(question, 'user');
-        recordMessage('user', question);
-        const panel = addThinkingPanel();
-        try {
-          const data = await streamAsk({
-            question, instructions: getInstructions(), memory: getMemory(), history: priorHistory, web_search_enabled: isWebSearchAllowed(), model: getSelectedModel()
-          }, (status) => applyLiveStatus(panel, status));
-          const answer = data.answer || "Still learning that one.";
-          if (data.memory_fact) saveMemoryFact(data.memory_fact);
-          await settleThinkingPanel(panel, data);
-          await addMsgTyped(answer, { question, sources: data.sources });
-          recordMessage('daisy', answer);
-          transcript.textContent = answer;
-          speak(answer);
-          if (isExplicitPdfRequest(question) && !containsFileCard(answer)) downloadAsPdf(null, question, answer);
-        } catch(e) {
-          panel._settled = true;
-          panel._cancel();
-          panel.remove();
-          transcript.textContent = "Couldn't reach Daisy.";
-        }
-      }
+      const heard = (final || interim).trim();
+      if (heard && window.DaisyFace) { DaisyFace.state('listening'); DaisyFace.hear(heard); } // she reacts to how you sound, while you talk
+      if (final.trim()) liveAsk(final.trim());
     };
-
-    recognition.onerror = (e) => {
-      // no-speech / aborted just mean a pause or an intentional stop —
-      // not real problems, don't alarm the user over them.
-      if (e && (e.error === 'no-speech' || e.error === 'aborted')) {
-        transcript.textContent = 'Listening...';
-        return;
-      }
-      if (e && e.error === 'not-allowed') {
-        showMicError({ name: 'NotAllowedError' });
-        return;
-      }
-      transcript.textContent = "Voice hit a snag — tap Try again.";
-      liveRetryBtn.style.display = 'inline-flex';
+    rec.onerror = (e) => {
+      if (e && (e.error === 'no-speech' || e.error === 'aborted')) return;
+      if (e && e.error === 'not-allowed') { showMicError(e); return; }
+      showLiveNote("Voice hit a snag. Tap the mic to try again.", 4000);
     };
-    recognition.onend = () => {
-      if (liveRoom.classList.contains('active')) {
-        try { recognition.start(); }
-        catch (e) { /* already running — harmless, ignore */ }
-      }
+    rec.onend = () => {
+      if (recognition === rec) recognition = null;
+      if (liveActive() && !micMuted && !liveSpeaking && !liveBusy) startSpeechRecognition();
     };
-    try {
-      recognition.start();
-    } catch (e) {
-      transcript.textContent = "Voice hit a snag — tap Try again.";
-      liveRetryBtn.style.display = 'inline-flex';
-    }
+    try { rec.start(); } catch (e) { recognition = null; showLiveNote("Voice hit a snag. Tap the mic to try again.", 4000); }
   }
-
   function stopSpeechRecognition() {
-    if (recognition) { recognition.stop(); recognition = null; }
+    if (recognition) { const r = recognition; recognition = null; try { r.stop(); } catch (e) {} }
   }
 
   micBtn.onclick = () => {
     micMuted = !micMuted;
     micBtn.classList.toggle('muted', micMuted);
-    micBtn.style.opacity = micMuted ? '0.5' : '1';
-    if (mediaStream) mediaStream.getTracks().forEach(t => { t.enabled = !micMuted; });
-    if (micMuted && recognition) recognition.stop();
-    else if (!micMuted && liveRoom.classList.contains('active')) startSpeechRecognition();
+    if (micMuted) stopSpeechRecognition();
+    else if (!liveSpeaking && !liveBusy) startSpeechRecognition();
   };
+
+  // Typing works too: the pill is the same conversation as the voice.
+  liveInput.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    const v = liveInput.value.trim();
+    if (!v && !pendingImage) return;
+    liveInput.value = ''; liveInput.blur();
+    liveAsk(v);
+  });
+  // Tap Daisy to interrupt her.
+  liveFace.addEventListener('click', () => {
+    if (liveSpeaking && window.DaisyFace) { DaisyFace.stopSay(); if (liveSpeakDone) liveSpeakDone(); }
+  });
+
+  // Simulations: Daisy asks the bots to illustrate something. The face runs to the top-left corner to make room.
+  // Triggers: [[bots:heart]] in her answer, or "show me / simulate / draw ... a heart/star/car/flower/face", or "spell hello".
+  function detectSim(question, answer) {
+    const m = answer.match(/\[\[\s*(?:bots|simulate|show)\s*:\s*([^\]]{1,24}?)\s*\]\]/i);
+    if (m) return m[1].trim();
+    const q = question.toLowerCase();
+    if (/\b(simulate|simulation|show me|draw|make me|form|build|animate|illustrate)\b/.test(q)) {
+      const s = q.match(/\b(daisy|flower|face|car|heart|star)\b/);
+      if (s) return s[1];
+    }
+    const w = q.match(/\bspell(?: out)? (?:the word )?["“']?([a-z0-9]{2,12})["”']?/);
+    return w ? w[1] : null;
+  }
+  function cleanForSpeech(t) {
+    return t.replace(/\[\[[^\]]*\]\]/g, ' ').replace(/```[\s\S]*?```/g, ' ').replace(/`([^`]*)`/g, '$1')
+      .replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/https?:\/\/\S+/g, '').replace(/^#{1,6}\s*/gm, '')
+      .replace(/^\s*[-*•]\s+/gm, '').replace(/[*_~>|]/g, '').replace(/\n{2,}/g, '. ').replace(/\n/g, ' ')
+      .replace(/\s{2,}/g, ' ').trim();
+  }
+  function liveSpeakAnswer(question, answer) {
+    return new Promise((resolve) => {
+      const sim = detectSim(question, answer);
+      const text = cleanForSpeech(answer).slice(0, 1400);
+      liveSpeaking = true; stopSpeechRecognition();
+      if (sim && window.DaisyBots) DaisyBots.form(sim, Math.max(7000, text.split(/\s+/).length * 420 + 3000));
+      const done = () => {
+        if (!liveSpeaking) return;
+        liveSpeaking = false; liveSpeakDone = null;
+        if (sim && window.DaisyBots) setTimeout(() => DaisyBots.home(), 1800);
+        if (window.DaisyFace) DaisyFace.state('idle');
+        if (liveActive() && !micMuted) startSpeechRecognition();
+        resolve();
+      };
+      liveSpeakDone = done;
+      if (!text || !window.DaisyFace) { done(); return; }
+      DaisyFace.say(text, { onend: done });
+    });
+  }
+
+  async function liveAsk(question) {
+    if (liveBusy || (!question && !pendingImage)) return;
+    liveBusy = true; stopSpeechRecognition();
+    if (window.DaisyFace) DaisyFace.state('thinking');
+    const attachedImage = pendingImage;
+    activateChat();
+    stickToBottom = true;
+    const priorHistory = toHistory(currentChat.messages.slice(-24)); // same memory as typed chat
+    addMsg(question, 'user', attachedImage ? { imageDataUrl: attachedImage.dataUrl } : {});
+    recordMessage('user', attachedImage ? (question || '[image]') : question);
+    clearPendingImage();
+    const panel = addThinkingPanel();
+    liveAbort = new AbortController();
+    try {
+      const data = await streamAsk({
+        question, instructions: getInstructions(), memory: getMemory(), history: priorHistory,
+        web_search_enabled: isWebSearchAllowed(), model: getSelectedModel(),
+        image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
+      }, (status) => applyLiveStatus(panel, status), liveAbort.signal);
+      const answer = data.answer || "Still learning that one.";
+      if (data.memory_fact) saveMemoryFact(data.memory_fact);
+      await settleThinkingPanel(panel, data);
+      addMsgTyped(answer, { question, sources: data.sources }).catch(() => {}); // chat history still gets it; Daisy doesn't wait for the typing animation
+      recordMessage('daisy', answer);
+      if (isExplicitPdfRequest(question) && !containsFileCard(answer)) downloadAsPdf(null, question, answer);
+      if (liveActive()) await liveSpeakAnswer(question, answer);
+    } catch (e) {
+      panel._settled = true; panel._cancel(); panel.remove();
+      if (e.name !== 'AbortError' && liveActive()) {
+        liveSpeaking = true;
+        const done = () => { liveSpeaking = false; liveSpeakDone = null; if (window.DaisyFace) DaisyFace.state('idle'); };
+        liveSpeakDone = done;
+        if (window.DaisyFace) DaisyFace.say("[sad] Sorry, I could not reach my brain just now. [calm] Please try again.", { onend: done }); else done();
+      }
+    } finally {
+      liveAbort = null; liveBusy = false;
+      if (liveActive() && !liveSpeaking && !micMuted) startSpeechRecognition();
+    }
+  }
 
   // ── DRAWER ────────────────────────────────────────────
   const drawer        = document.getElementById('drawer');
@@ -4858,9 +4707,22 @@ document.addEventListener('DOMContentLoaded', function() {
   var W = 0, H = 0, DPR = 1, sc = 1;
   var bandCY = 100, bandH = 150, L = 0, margin = 40, KK = 0, ready = false;
   var home = true;   /* true = home screen (no chat yet); the helix itself is always on */
+  var live = false;  /* true while the Live Room is open: full-screen canvas, helix lower down, shapes in the free space */
 
   function measure() {
     DPR = Math.min(window.devicePixelRatio || 1, 2);
+    if (live) {
+      W = window.innerWidth; H = window.innerHeight;
+      if (W < 50 || H < 50) return false;
+      cv.style.position = 'fixed'; cv.style.top = '0px'; cv.style.left = '0px'; cv.style.width = W + 'px'; cv.style.height = H + 'px';
+      cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+      sc = Math.max(0.6, Math.min(1.5, Math.min(W, H) / 700));
+      bandH = Math.max(90, Math.min(130, H * 0.15)); bandCY = H * 0.77;
+      L = W + margin * 2;
+      KK = TAU * Math.max(2, Math.round(L / (250 * sc))) / L;
+      return true;
+    }
+    cv.style.position = '';
     var top = main.offsetTop;
     W = main.clientWidth; H = main.clientHeight;
     if (W < 50 || H < 50) return false;
@@ -5092,11 +4954,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function helixSize() { return Math.max(3.6, 5 * sc); }
   szCur = szTgt = helixSize();
 
-  function formShape(key, text) {
+  function formShape(key, text, hold) {
     var ck = key === 'word' ? 'word:' + text : key;
     var s = cache[ck];
     if (!s) { s = sample(makeMask(key, text)); cache[ck] = s; }
-    var top = bandCY + bandH / 2 + 8, bot = H - 10;
+    var top = live ? 112 : bandCY + bandH / 2 + 8, bot = live ? H - 130 : H - 10;
     var aw = W - 40, ah = bot - top;
     var k = Math.min(aw / s.mw, ah / s.mh) * 0.96, cx = W / 2, cy = (top + bot) / 2;
     var tx = new Float32Array(N), ty = new Float32Array(N), ti = new Array(N), pi = new Array(N), i;
@@ -5116,9 +4978,10 @@ document.addEventListener('DOMContentLoaded', function() {
     for (i = 0; i < N; i++) DL[i] = reduce ? 0 : DL[i] / maxD * 0.6 + Math.random() * 0.12;
     szTgt = Math.max(4.5, Math.min(15, s.step * k * 1.45));
     mode = 'shape'; curKey = key; curText = text || '';
-    holdUntil = performance.now() + (key === 'word' ? 9000 : 7000);
+    holdUntil = performance.now() + (hold || (key === 'word' ? 9000 : 7000));
     changeT = reduce ? -99 : performance.now() / 1000;
     document.body.classList.add('bots-formed');
+    if (window.DaisyBots && window.DaisyBots.onmode) window.DaisyBots.onmode('shape');
     cv.setAttribute('aria-label', 'Bots forming ' + (key === 'word' ? 'the word ' + curText : 'a ' + key));
   }
   function goHelix() {
@@ -5127,16 +4990,25 @@ document.addEventListener('DOMContentLoaded', function() {
     szTgt = helixSize();
     changeT = reduce ? -99 : performance.now() / 1000;
     document.body.classList.remove('bots-formed');
+    if (window.DaisyBots && window.DaisyBots.onmode) window.DaisyBots.onmode('helix');
     cv.setAttribute('aria-label', 'A flowing helix of tiny diamond-shaped bots');
   }
   var SHAPES = { daisy: 'daisy', flower: 'daisy', face: 'face', car: 'car', heart: 'heart', star: 'star' };
   window.DaisyBots = {
-    form: function (what) {
+    form: function (what, hold) {
       var v = String(what || '').trim(), k = v.toLowerCase();
-      if (SHAPES[k]) formShape(SHAPES[k], ''); else formShape('word', v || 'DAISY');
+      if (SHAPES[k]) formShape(SHAPES[k], '', hold); else formShape('word', v || 'DAISY', hold);
       return true;
     },
-    home: function () { goHelix(); }
+    home: function () { goHelix(); },
+    live: function (on) {
+      live = !!on;
+      var lr = document.getElementById('live-room');
+      if (live && lr) { lr.insertBefore(cv, document.getElementById('live-bar')); cv.style.zIndex = '2'; }
+      else { app.appendChild(cv); cv.style.zIndex = ''; }
+      if (mode === 'shape') goHelix();
+      if (measure()) ready = true;
+    }
   };
 
   /* ---------- the words drift up on their own when you're not touching the page ---------- */
@@ -5167,14 +5039,14 @@ document.addEventListener('DOMContentLoaded', function() {
   function frame(now) {
     var t = now / 1000, dt = Math.min(0.033, Math.max(0.001, t - last)); last = t;
     if (!ready) { ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, cv.width, cv.height); setTimeout(function () { requestAnimationFrame(frame); }, 250); return; }
-    var ta = reduce ? 0 : t, light = isLight();
+    var ta = reduce ? 0 : t, light = !live && isLight();
     var SPR = light ? SPRL : SPRD, flare = light ? flareL : flareD;
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
     ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
     ctx.clearRect(0, 0, W, H);
     ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
     if (!reduce && mode === 'shape' && now > holdUntil) goHelix();
-    if (!reduce && home && mode === 'helix' && now - lastUser > 2500 && !document.hidden && main.scrollHeight > main.clientHeight + 4) {
+    if (!reduce && !live && home && mode === 'helix' && now - lastUser > 2500 && !document.hidden && main.scrollHeight > main.clientHeight + 4) {
       var atEnd = main.scrollTop + main.clientHeight >= main.scrollHeight - 2;
       if (atEnd) {
         if (!endAt) endAt = now;
@@ -5280,6 +5152,392 @@ document.addEventListener('DOMContentLoaded', function() {
   for (var i0 = 0; i0 < N; i0++) { helixTarget(i0, 0); X[i0] = TX[i0]; Y[i0] = TY[i0]; }
   ready = measure();
   requestAnimationFrame(frame);
+})();
+</script>
+<script>
+/* Daisy face: the live-room face. Particle bots shaped into eyes, brows and mouth; expressions follow the
+   words Daisy speaks. window.DaisyFace: start/stop/say/stopSay/corner/hear/state/emote. */
+(()=>{
+const $=id=>document.getElementById(id);
+const cv=$('live-face'),ctx=cv.getContext('2d');
+let W,H,DPR,S,cx,cy;
+const clamp=(x,a,b)=>x<a?a:(x>b?b:x);
+const sm=(a,b,x)=>{const t=clamp((x-a)/(b-a),0,1);return t*t*(3-2*t)};
+const rnd=Math.random;
+
+/* ---------- expressions: every number is a face control ---------- */
+const base={ew:.2,eh:.27,tc:0,bl:0,tl:0,by:.55,bt:0,ba:.06,mw:.3,sm:.3,op:0,bu:0,sk:0,as:0,gx:0,gy:0,fx:0,c:[110,170,255]};
+const X=(o)=>Object.assign({},base,o);
+const E={
+ neutral:X({}),
+ happy:X({eh:.24,bl:.8,by:.68,ba:.1,mw:.4,sm:1,op:.45,bu:.7,fx:1,c:[110,255,200]}),
+ sad:X({eh:.26,tc:.12,tl:-.6,by:.5,bt:.1,ba:.02,mw:.24,sm:-.9,gy:-.4,fx:2,c:[120,130,255]}),
+ angry:X({eh:.24,tc:.1,tl:.95,by:.4,bt:-.11,ba:0,mw:.4,sm:-.7,op:.12,fx:4,c:[255,70,60]}),
+ surprised:X({ew:.22,eh:.36,by:.88,ba:.14,mw:.14,sm:0,op:.95,c:[255,230,120]}),
+ love:X({eh:.25,bl:.55,by:.66,mw:.36,sm:.95,op:.2,bu:1,fx:1,c:[255,110,180]}),
+ thinking:X({eh:.25,tc:.1,by:.62,as:1,mw:.2,sm:.1,sk:.8,gx:.7,gy:.6,fx:3,c:[175,135,255]}),
+ sleepy:X({eh:.26,tc:.5,tl:-.15,by:.5,ba:.02,mw:.2,sm:.05,op:.08,fx:5,c:[100,140,220]}),
+ calm:X({eh:.26,bl:.25,tl:-.2,by:.6,bt:.06,mw:.3,sm:.6,bu:.3,c:[130,220,200]}),
+ worried:X({eh:.27,tl:-.4,tc:.05,by:.64,bt:.13,ba:.05,mw:.24,sm:-.3,sk:.3,gy:-.2,c:[150,170,255]}),
+ scared:X({ew:.22,eh:.34,by:.86,bt:.12,ba:.1,mw:.2,sm:-.4,op:.45,c:[190,200,255]}),
+ excited:X({eh:.3,bl:.3,by:.8,ba:.12,mw:.45,sm:1,op:.7,bu:.8,fx:1,c:[255,190,90]}),
+ laughing:X({eh:.2,bl:1,by:.7,ba:.1,mw:.46,sm:1,op:.9,bu:.9,fx:1,c:[255,230,100]}),
+ grateful:X({eh:.25,bl:.6,tl:-.1,by:.64,bt:.04,mw:.34,sm:.9,op:.1,bu:.8,fx:1,c:[255,170,120]}),
+ proud:X({eh:.26,tc:.25,bl:.4,by:.6,as:.4,mw:.34,sm:.8,bu:.3,c:[255,215,100]}),
+ shy:X({eh:.25,tc:.12,bl:.3,gx:-.6,gy:-.5,by:.56,bt:.04,mw:.22,sm:.5,bu:1,c:[255,150,170]}),
+ disgusted:X({eh:.24,tc:.3,tl:.5,by:.42,bt:-.06,as:.6,mw:.3,sm:-.9,sk:-.5,c:[150,220,120]}),
+ bored:X({eh:.25,tc:.35,tl:-.05,gy:-.2,by:.5,ba:.02,mw:.22,sm:-.1,op:.05,c:[140,150,180]}),
+ confused:X({eh:.27,by:.62,bt:.1,ba:.15,as:1,mw:.24,sm:-.15,sk:.6,op:.1,gx:.3,fx:3,c:[180,160,240]}),
+ playful:X({eh:.25,tc:.2,bl:.5,by:.62,as:.8,mw:.38,sm:.9,sk:.8,op:.1,bu:.4,c:[255,130,200]}),
+ determined:X({eh:.25,tc:.05,tl:.6,by:.46,bt:-.05,mw:.34,sm:.1,c:[255,150,60]})
+};
+const PK=['ew','eh','tc','bl','tl','by','bt','ba','mw','sm','op','bu','sk','as'];
+const P={blink:0,emph:0,gx:0,gy:0,lip:0,lipT:0,wide:1,wideT:1,roll:0,I:1},V={};
+const ROLL={thinking:.1,sad:-.06,love:.07,happy:.02,surprised:-.03,confused:.1,worried:-.04,playful:.06,proud:-.03,shy:.08};
+PK.forEach(k=>{P[k]=E.neutral[k];V[k]=0});
+const POLITE=X({mw:.3,sm:.55,op:0,bu:0,sk:.1}),MKEYS=['mw','sm','op','sk','bu'];
+const col=[110,170,255];
+let emo='neutral',emoM=null,emoUntil=0,fxType=0,fxm=0;
+
+/* ---------- bots ---------- */
+const bots=[];
+const G={eye:0,shine:1,brow:2,line:3,fill:4,cheek:5,frame:6,fx:7};
+function add(o){o.px=(rnd()-.5)*5;o.py=(rnd()-.5)*5;o.vx=o.vy=0;o.ph=rnd()*6.283;o.sz=.8+rnd()*.4;bots.push(o)}
+const GA=2.39996;
+for(const s of[-1,1]){
+  for(let i=0;i<300;i++){const r=Math.sqrt((i+.5)/300),a=i*GA;add({k:'eye',g:0,s,u:r*Math.cos(a),v:r*Math.sin(a),r})}
+  for(let i=0;i<4;i++)add({k:'shine',g:1,s,i})
+  for(let i=0;i<44;i++)add({k:'brow',g:2,s,u:-1+2*(i>>1)/21,row:i&1})
+  for(let i=0;i<30;i++){const r=Math.sqrt((i+.5)/30),a=i*GA;add({k:'cheek',g:5,s,u:r*Math.cos(a),v:r*Math.sin(a)})}
+}
+for(let i=0;i<64;i++)add({k:'up',g:3,u:-1+2*i/63});
+for(let i=0;i<64;i++)add({k:'lo',g:3,u:-1+2*i/63});
+for(let i=0;i<130;i++){const r=Math.sqrt((i+.5)/130),a=i*GA;add({k:'fill',g:4,u:r*Math.cos(a),v:r*Math.sin(a)})}
+for(let i=0;i<30;i++)add({k:'teeth',g:1,u:-.8+1.6*i/29});
+for(let i=0;i<220;i++)add({k:'frame',g:6,i,n:220});
+for(let i=0;i<36;i++)add({k:'fx',g:7,i,seed:rnd()});
+const N=bots.length;
+const sxA=new Float32Array(N),syA=new Float32Array(N),srA=new Float32Array(N),mA=new Float32Array(N);
+const buckets=Array.from({length:8*6},()=>[]);
+let PS=2.6,style=0,t=0,last=performance.now(),ptr=null,nextBlink=2,blinkT=-1,gazeT=0,gtx=0,gty=0;
+
+let S0=100,cx0=0,cy0=0,S1=40,cx1=0,cy1=0,cornerT=0,cornerV=0,cornerOn=false,running=false,ptrT=0,onSpeechEnd=null,onSpeechStart=null;
+function layout(){
+  if(W<H*.9){S0=Math.min(W*.30,H*.18);cx0=W/2;cy0=H*.40}
+  else{S0=Math.min(H*.30,W*.2);cx0=W/2;cy0=H*.45}
+  const mb=$('live-menu').getBoundingClientRect();
+  S1=Math.max(24,Math.min(W*.075,40));cx1=mb.right+12+S1*1.05;cy1=Math.max(mb.top+mb.height/2,S1*1.05+10);
+  pose();
+}
+function pose(){const k=cornerT;S=S0+(S1-S0)*k;cx=cx0+(cx1-cx0)*k;cy=cy0+(cy1-cy0)*k-Math.sin(Math.PI*clamp(k,0,1))*S0*.16}
+function resize(){
+  DPR=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;
+  cv.width=Math.round(W*DPR);cv.height=Math.round(H*DPR);ctx.setTransform(DPR,0,0,DPR,0,0);
+  layout();ctx.fillStyle='#05060b';ctx.fillRect(0,0,W,H);
+}
+addEventListener('resize',()=>{if(running)resize()});
+
+/* ---------- where each bot wants to be ---------- */
+let tx,ty,tm;
+function target(b){
+  const ox=P.gx*.04+(emo==='angry'?Math.sin(t*45)*.004:0),oy=P.gy*.025+P.emph*.025+(Math.sin(t*1.6)*.008);
+  const op=speaking?Math.max(P.op*.35,P.lip):Math.max(P.op,P.lip);
+  switch(b.k){
+    case 'eye':{
+      const ex=b.s*.45+P.gx*.06,ey=.12+P.gy*.05,u=b.u;
+      const inner=-b.s*u,eh2=P.eh*(1+.12*P.emph-.06*P.lip),top=eh2*(1-2*P.tc)-P.tl*eh2*inner,bot=-eh2*(1-2*P.bl*(1-u*u));
+      tx=ex+u*P.ew;ty=ey+(top+bot)/2+b.v*(top-bot)/2*(1-.95*P.blink)+P.bl*P.eh*.5*(1-u*u);
+      tm=.55+.45*b.r;break}
+    case 'shine':{
+      const ex=b.s*.45+P.gx*.1,ey=.12+P.gy*.07,top=P.eh*(1-2*P.tc);
+      tx=ex-P.ew*.35+b.i*.014;ty=ey+top*.45-b.i*.012;tm=(1.5-b.i*.15)*(1-P.blink)*(1-sm(.3,.6,P.bl));break}
+    case 'brow':{
+      const u=b.u,inner=-b.s*u;
+      tx=b.s*.46+u*.22;
+      ty=P.by+P.bt*inner+P.ba*(1-u*u)+(b.s<0?P.as*.1:-P.as*.06)+(b.row-.5)*.024+P.emph*.03;
+      tm=.95;break}
+    case 'cheek':tx=b.s*.72+b.u*.12;ty=-.14+b.v*.06;tm=P.bu*.8;break;
+    case 'up':case 'lo':case 'fill':case 'teeth':{
+      const w=P.mw*P.wide,u=b.u,my=-.45-op*.045;
+      const c=P.sm*.2*(u*u-.5)+P.sk*u*.05;
+      const yu=my+c+op*.03*(1-u*u),yl=yu-op*(speaking?.42:.3)*Math.pow(Math.max(0,1-u*u),.6)-.01*(1-u*u);
+      if(b.k==='up'){tx=u*w;ty=yu;tm=1+(Math.abs(u)>.9?.4:0)}
+      else if(b.k==='teeth'){tx=u*w*.8;ty=yu-.03-op*.02;tm=clamp((op-.18)*4,0,1)*.85}
+      else if(b.k==='lo'){tx=u*w;ty=yl;tm=.9}
+      else{const uu=b.u*.93;tx=uu*w;ty=yl+(b.v*.5+.5)*(yu-yl)*(1+0*uu);ty=yl+((b.v+1)/2)*(yu-yl);tm=clamp(op*5,0,1)*.5}
+      break}
+    case 'frame':{
+      const a=b.i/b.n*6.2832,c=Math.cos(a),s=Math.sin(a);
+      tx=1.05*Math.sign(c)*Math.sqrt(Math.abs(c));ty=.95*Math.sign(s)*Math.sqrt(Math.abs(s));
+      tm=.28+.22*Math.sin(a*5-t*2);return}
+    case 'fx':{
+      const f=(t*(fxType===4?.7:.35)+b.seed)%1,sd=b.seed*13%1,s=(b.i&1)?1:-1;
+      tm=0;
+      if(fxType===1){tx=s*(.55+sd*.5);ty=-.2+f*1.3;tm=Math.sin(Math.PI*f)*1.2}
+      else if(fxType===2){tx=s*(.5+sd*.04);ty=-.02-f*.9;tm=sm(0,.1,f)*(1-sm(.7,1,f))*(b.i<12?1.1:0)}
+      else if(fxType===3){const k=b.i%3;tx=.78+k*.13;ty=.92;tm=(b.i<18?1:0)*(.5+.5*Math.sin(t*4-k*1.2))*1.2;tx+=(sd-.5)*.03;ty+=(f-.5)*.03}
+      else if(fxType===4){tx=s*(.6+sd*.3);ty=.75+f*.5;tm=(b.i<24?1:0)*Math.sin(Math.PI*f)*1.1}
+      else if(fxType===5){tx=.75+f*.2+(b.i%3)*.05;ty=.45+f*.7;tm=(b.i<12?1:0)*Math.sin(Math.PI*f)}
+      tm*=fxm;tx=(tx||0);return}
+  }
+}
+const VOW={a:[.95,1.05],o:[.8,.7],e:[.55,1.15],i:[.4,1.2],u:[.55,.65],y:[.35,1],m:[0,.95],b:[0,.95],p:[0,.95]};
+
+/* ---------- speech with per-sentence emotion ---------- */
+const AUTO=[[/\b(love|heart|adore)\b/,'love'],[/\b(sorry|sad|cry|unfortunately|miss|lost|alone)\b/,'sad'],[/\b(angry|mad|hate|furious)\b/,'angry'],[/\b(wow|whoa|amazing|incredible|surprise)\b/,'surprised'],[/\b(hmm|think|maybe|perhaps|wonder)\b/,'thinking'],[/\b(sleep|tired|night|yawn)\b/,'sleepy'],[/\b(hello|hi|hey|great|thanks|thank|happy|welcome|awesome|glad|yes)\b/,'happy']];
+AUTO.push([/\b(joy|joyful|excited|fun|wonderful|fantastic|brilliant|congratulations|celebrate|proud|laugh|smile|won|beautiful|perfect|nice|cool|yay|excellent|delighted|cheerful|lovely|enjoy)\b/,'happy'],[/\b(died|death|grief|pain|hurt|broken|lonely|tears|funeral|heartbroken|disappointed|failed|fail|unhappy|terrible|worst|regret|gone|goodbye|depressed|hopeless)\b/,'sad'],[/\b(rage|annoyed|stupid|idiot|damn|unacceptable|liar|betrayed|enough)\b/,'angry'],[/\b(shocked|unbelievable|suddenly|omg|impossible|seriously|gasp|unexpected)\b/,'surprised'],[/\b(darling|dear|sweetheart|kiss|adorable|cherish)\b/,'love'],[/\b(confused|curious|puzzled|unsure|probably|guess|consider|idea)\b/,'thinking'],[/\b(relax|calm|quiet|rest|bed|dream|sleepy|exhausted)\b/,'sleepy']);
+const MOOD={};('glad:happy:.9 joy:happy:1 joyful:happy:1 cheerful:happy:.9 delighted:happy:1 wonderful:happy:1 awesome:happy:.9 fantastic:happy:1 excellent:happy:.8 lovely:happy:.8 nice:happy:.6 fun:happy:.8 enjoy:happy:.8 smile:happy:.8 hello:happy:.7 hi:happy:.6 hey:happy:.6 welcome:happy:.8 amazing:excited:1 yay:excited:1 excited:excited:1 thrilled:excited:1 celebrate:excited:.9 party:excited:.7 birthday:excited:.8 laugh:laughing:1 laughing:laughing:1 haha:laughing:1 lol:laughing:1 funny:laughing:.8 congratulations:proud:1 proud:proud:1 won:proud:.8 win:proud:.8 success:proud:.8 thanks:grateful:.9 thank:grateful:.9 grateful:grateful:1 appreciate:grateful:.9 blessed:grateful:.9 love:love:1 adore:love:1 darling:love:.9 dear:love:.7 sweetheart:love:1 hug:love:.8 kiss:love:.9 sad:sad:1 unhappy:sad:1 sorry:sad:.8 cry:sad:1 crying:sad:1 tears:sad:1 lonely:sad:1 alone:sad:.7 miss:sad:.8 lost:sad:.9 hurt:sad:.9 pain:sad:.9 broken:sad:1 grief:sad:1 died:sad:1 death:sad:1 funeral:sad:1 goodbye:sad:.7 disappointed:sad:.9 failed:sad:.8 regret:sad:.9 depressed:sad:1 hopeless:sad:1 terrible:sad:.8 worst:sad:.8 angry:angry:1 mad:angry:1 furious:angry:1 hate:angry:1 rage:angry:1 annoyed:angry:.8 stupid:angry:.8 idiot:angry:.9 damn:angry:.8 unfair:angry:.8 liar:angry:.9 betrayed:angry:.9 wow:surprised:1 whoa:surprised:1 omg:surprised:1 shocked:surprised:1 unbelievable:surprised:.9 suddenly:surprised:.7 seriously:surprised:.7 gasp:surprised:1 unexpected:surprised:.8 surprise:surprised:1 incredible:surprised:.9 worried:worried:1 worry:worried:.9 nervous:worried:.9 anxious:worried:1 stressed:worried:.9 problem:worried:.6 trouble:worried:.8 afraid:scared:1 scared:scared:1 fear:scared:1 terrified:scared:1 danger:scared:.9 emergency:scared:.9 sleepy:sleepy:1 tired:sleepy:.9 exhausted:sleepy:1 sleep:sleepy:.9 yawn:sleepy:1 bed:sleepy:.7 night:sleepy:.5 dream:sleepy:.6 rest:sleepy:.6 relax:calm:.8 calm:calm:1 peace:calm:.9 quiet:calm:.6 gentle:calm:.7 hmm:thinking:1 think:thinking:.8 maybe:thinking:.7 perhaps:thinking:.7 wonder:thinking:.8 idea:thinking:.6 curious:thinking:.8 confused:confused:1 puzzled:confused:1 unsure:confused:.9 strange:confused:.7 weird:confused:.7 bored:bored:1 boring:bored:.9 disgusting:disgusted:1 gross:disgusted:1 yuck:disgusted:1 shy:shy:1 embarrassed:shy:1 blush:shy:1 joke:playful:.8 tease:playful:.9 naughty:playful:1 determined:determined:1 promise:determined:.8 fight:determined:.7').split(' ').forEach(t=>{const p=t.split(':');MOOD[p[0]]=[p[1],+p[2]]});
+const PHR=[[/good morning|good afternoon|good evening|nice to meet you|how are you/,'happy'],[/good night|goodnight|sweet dreams/,'sleepy'],[/thank you|thanks a lot|i appreciate/,'grateful'],[/you'?re welcome|my pleasure/,'happy'],[/i'?m sorry|i am sorry|my bad|forgive me/,'sad'],[/well done|good job|congratulations|happy birthday|let'?s go|come on/,'excited'],[/i love you|miss you/,'love'],[/i don'?t know|not sure|no idea/,'confused'],[/oh no|uh oh|help me|are you okay|what'?s wrong/,'worried'],[/no way|oh my god|oh my gosh|are you kidding/,'surprised'],[/see you|take care|calm down/,'calm'],[/shut up|go away|leave me alone/,'angry'],[/so tired|i'?m tired/,'sleepy'],[/i'?m bored/,'bored'],[/i promise/,'determined'],[/i give up|i can'?t/,'sad']];
+function moodOf(sent){
+  const s=sent.map(o=>o.w).join(' ').toLowerCase().replace(/[^a-z' ]/g,'');
+  for(const[re,n]of PHR)if(re.test(s))return n;
+  const sc={};let best=null,bv=0;
+  for(const o of sent){const m=MOOD[o.w.toLowerCase().replace(/[^a-z']/g,'')];if(m){sc[m[0]]=(sc[m[0]]||0)+m[1];if(sc[m[0]]>bv){bv=sc[m[0]];best=m[0]}}}
+  return bv>=.6?best:null;
+}
+const MASKRE=/\b(i'?m fine|i am fine|it'?s (fine|okay|ok|alright)|no problem|don'?t worry|never mind|whatever|i'?m (ok|okay|alright)|all good|doesn'?t matter|it'?s nothing)\b/;
+function parse(text){
+  const out=[];let cur=null,sent=[],prevE=null;
+  const flush=()=>{if(!sent.length)return;
+    const s=sent.map(o=>o.w).join(' ').toLowerCase();let e=null;
+    e=moodOf(sent);if(!e)for(const[re,n]of AUTO)if(re.test(s)){e=n;break}
+    const l=sent[sent.length-1].w;let m=null;if(MASKRE.test(s)){const sc=/\b(sad|hurt|tired|lonely|miss|cry|lost|pain)\b/.test(s);if(sc||prevE==='sad'||prevE==='angry'){e=prevE==='angry'?'angry':'sad';m='polite'}}
+    if(e==='happy'&&/\b(not|never|no|don't|can't|won't|isn't|wasn't|didn't)\b/.test(s))e='sad';if(!e&&/!$/.test(l))e=(prevE&&prevE!=='thinking')?prevE:'happy';if(!e&&/\?$/.test(l))e='thinking';if(!e&&prevE){e=prevE;prevE=null}else prevE=e;
+    sent.forEach(o=>{o.e=o.tag||e||'neutral';o.m=m});out.push(...sent);sent=[]};
+  for(const part of text.split(/(\[[a-z]+\])/i)){
+    const m=part.match(/^\[([a-z]+)\]$/i);
+    if(m){flush();const n=m[1].toLowerCase();if(E[n])cur=n;continue}
+    for(const w of part.split(/\s+/).filter(Boolean)){if(/^(but|however|although|yet|except)$/i.test(w))flush();sent.push({w,tag:cur});if(/[.!?,;:]$/.test(w))flush()}
+  }
+  flush();return out;
+}
+let speaking=false,words=[],starts=[],wi=-1,wordStart=0,speakStart=0,boundarySeen=false,runTimer=null;
+const capEl={children:[],appendChild(){}},stateEl={};
+function setEmo(n,hold){emo=n;emoM=null;emoUntil=hold?performance.now()+hold:0}
+let sched=[],cum=[],ratio=1,curVis=[],nextVis=[],curAmp=1,curWM=1,nextAmp=1,nextWM=1;
+const VZ={A:[.95,1.05],O:[.8,.7],U:[.55,.62],E:[.55,1.15],I:[.4,1.25],M:[0,.95],F:[.1,1.05],T:[.28,1],S:[.2,1.12],W:[.5,.6],R:[.3,.85],K:[.35,1]};
+const PRON={hello:'KETO',hi:'KAI',hey:'KEI',i:'AI',am:'AM',daisy:'TESI',wow:'WAU',look:'TUK',at:'AT',that:'TAT',this:'TIS',the:'TE',a:'E',an:'AT',and:'ATT',of:'AF',to:'TU',in:'IT',is:'IS',it:'IT',you:'IU',your:'IOR',me:'MI',my:'MAI',we:'WI',be:'MI',are:'AR',was:'WAS',have:'KAF',has:'KAS',had:'KAT',do:'TU',did:'TIT',not:'TAT',no:'TO',yes:'IES',ok:'OKE',okay:'OKE',so:'SO',but:'MAT',if:'IF',or:'OR',for:'FOR',with:'WIT',what:'WAT',who:'KU',why:'WAI',how:'KAU',when:'WET',where:'WER',there:'TER',here:'KIR',now:'TAU',then:'TET',just:'SAS',very:'FERI',really:'RITI',real:'RIT',face:'FES',love:'TAF',like:'TAK',happy:'KAMI',sad:'SAT',angry:'AKRI',sorry:'SARI',thanks:'TAKS',thank:'TAK',please:'MTIS',good:'KUT',great:'KRET',fine:'FAIT',again:'AKET',never:'TEFR',always:'ATWES',think:'TIK',know:'TO',want:'WAT',need:'TIT',build:'MIT',next:'KEST',work:'WRK',working:'WRKIK',waiting:'WETIK',keep:'KIM',ignore:'IKTOR',get:'KET',got:'KAT',make:'MEK',see:'SI',say:'SE',tell:'TET',show:'SO',help:'KETM',miss:'MIS',lost:'TAST',cry:'KRAI',hurt:'KRT',smile:'SMAT',dream:'TRIM',night:'TAT',tired:'TAIRT',time:'TAIM',today:'TUTE',tomorrow:'TUMARO',morning:'MORTIK',hmm:'M',what:'WAT',shall:'SAT',will:'WIT',can:'KAT',could:'KUT',would:'WUT',should:'SUT',about:'EMAU',because:'MIKAS',out:'AUT',up:'AM',down:'TAUT',all:'AT',some:'SAM',more:'MOR',one:'WAT',two:'TU',three:'TRI',together:'TUKETE',friend:'FRET',family:'FAMTI',name:'TEM',world:'WRT',evening:'IFTIK',afternoon:'AFTRTUT',tonight:'TUTAT',yesterday:'IESTRTE',week:'WIK',day:'TE',year:'IIR',hour:'AUR',minute:'MITIT',water:'WATR',food:'FUT',eat:'IT',drink:'TRIK',coffee:'KAFI',tea:'TI',home:'KOM',house:'KAUS',school:'SKUT',money:'MATI',phone:'FOT',car:'KAR',door:'TOR',book:'MUK',computer:'KAMMIUTR',mother:'MATR',mom:'MAM',father:'FATR',dad:'TAT',brother:'MRATR',sister:'SISTR',baby:'MEMI',man:'MAT',woman:'WUMAT',boy:'MOI',girl:'KRT',people:'MIMT',teacher:'TITR',student:'STUTAT',boss:'MAS',customer:'KASTAMR',go:'KO',come:'KAM',give:'KIF',take:'TEK',find:'FAIT',try:'TRAI',start:'STAT',stop:'STAM',play:'MTE',read:'RIT',write:'RAIT',learn:'TRT',call:'KAT',ask:'AST',answer:'ATSR',listen:'TISAT',talk:'TAK',speak:'SMIK',walk:'WAK',run:'RAT',sit:'SIT',stand:'STATT',sleep:'STIM',wake:'WEK',open:'OMAT',close:'KTOS',buy:'MAI',sell:'SET',pay:'ME',use:'IUS',feel:'FIT',hear:'KIR',wait:'WET',hold:'KOTT',bring:'MRIK',leave:'TIF',stay:'STE',move:'MUF',change:'SEET',believe:'MITIF',remember:'RIMEMMR',forget:'FRKET',understand:'ATTRSTATT',mean:'MIT',hope:'KOM',wish:'WIS',kiss:'KIS',live:'TIF',big:'MIK',little:'TITT',old:'OTT',new:'TIU',young:'IAK',long:'TAK',short:'SORT',hot:'KAT',cold:'KOTT',fast:'FAST',slow:'STO',easy:'IISI',hard:'KART',beautiful:'MIUTIFUT',nice:'TAIS',bad:'MAT',best:'MEST',better:'METR',wrong:'RAK',right:'RAIT',true:'TRU',free:'FRI',ready:'RETI',sure:'SUR',safe:'SEF',proud:'MRAUT',scared:'SKERT',worried:'WRIT',excited:'EKSAITT',bored:'MORT',alone:'ATTO',sick:'SIK',hungry:'KAKRI',afraid:'AFRET',careful:'KERFUT',special:'SMESUT',important:'IMMORTATT',different:'TIFRATT',same:'SEM',other:'ATR',every:'EFRI',many:'MEKI',much:'MAS',most:'MOST',enough:'IFAF',too:'TU',also:'ATSO',still:'STIT',maybe:'MEMI',sometimes:'SAMTAIMS',soon:'SUT',later:'TETR',before:'MIFOR',after:'AFTR'};
+const FUNC=new Set('the a an of to in on at is it its and or but if as so be am are was were do did has have had that this with for from by my your i you we he she they me us them'.split(' '));
+const SEM={huge:[1.35,1.1],big:[1.25,1.05],giant:[1.35,1.1],amazing:[1.3,1.1],wow:[1.35,.85],whoa:[1.35,.8],loud:[1.3,1],shout:[1.4,1],great:[1.15,1.05],yes:[1.15,1.1],never:[1.1,.9],tiny:[.6,.9],small:[.7,.95],little:[.7,.95],quiet:[.6,.9],whisper:[.5,.85],soft:[.65,.9],secret:[.6,.9],gentle:[.7,.9],sleep:[.6,.9],tired:[.65,.95],hate:[1,1.15],angry:[1.1,1.1],stop:[1.1,1],no:[1.15,.85],love:[.85,.85],dear:[.8,.85],please:[.8,.9],sorry:[.7,.95],sad:[.7,.95],lonely:[.65,.9],miss:[.75,.95],happy:[1.1,1.15],smile:[1,1.3],laugh:[1.3,1.2],joy:[1.1,1.1],excited:[1.2,1.1],surprise:[1.3,.85],hmm:[.5,.9]};
+const AROUSAL={happy:1.08,angry:1.15,surprised:1.25,sad:.78,sleepy:.6,love:.9,thinking:.85,neutral:1,excited:1.2,laughing:1.2,scared:1.1,calm:.85,worried:.85,bored:.65,shy:.75,proud:1,determined:1.05,playful:1.05,confused:.9,disgusted:1,grateful:.95};
+function meaning(k){
+  const o=words[k];if(!o)return[1,1];
+  const wl=o.w.toLowerCase().replace(/[^a-z']/g,'');
+  let a=FUNC.has(wl)?.65:1,wm=1;const s=SEM[wl];if(s){a*=s[0];wm=s[1]}
+  if(!FUNC.has(wl)&&(!words[k+1]||/[.!?,;:]$/.test(o.w)))a*=1.15;
+  if(/!$/.test(o.w)||/^[A-Z]{3,}/.test(o.w))a*=1.2;else if(/\?$/.test(o.w))a*=1.08;
+  a*=AROUSAL[o.e]||1;
+  return[clamp(a,.35,1.6),wm];
+}
+function wpos(ms,vs,total){
+  const n=vs.length;let W=0;const ws=vs.map(v=>{const w=v[0]>=.4?1.8:(v[0]===0?.7:1);W+=w;return w});
+  const tt=ms/Math.max(45,total/Math.max(1,W));let acc=0;
+  for(let i=0;i<n;i++){if(tt<acc+ws[i])return i+(tt-acc)/ws[i];acc+=ws[i]}
+  return n+(tt-acc);
+}
+function visemes(w){
+  const pd=PRON[w.toLowerCase().replace(/[^a-z']/g,'')];
+  if(pd)return [...pd].map(c=>VZ[c]||[.16,1]);
+  const s=w.toLowerCase().replace(/[^a-z]/g,''),o=[];
+  for(let i=0;i<s.length;i++){
+    const d=s.substr(i,2),c=s[i];
+    if(d==='th'){o.push([.22,1]);i++}
+    else if(d==='sh'||d==='ch'){o.push([.3,.7]);i++}
+    else if(d==='oo'||d==='ou'){o.push([.55,.65]);i++}
+    else if(d==='ee'||d==='ea'){o.push([.42,1.25]);i++}
+    else if('aeiouy'.includes(c))o.push(VOW[c]);
+    else if('mbp'.includes(c))o.push([0,.95]);
+    else if('fv'.includes(c))o.push([.1,1.05]);
+    else if(c==='w')o.push([.5,.6]);
+    else if('lntd'.includes(c))o.push([.28,1]);
+    else o.push([.16,1]);
+  }
+  return o;
+}
+function advance(k){
+  if(k<=wi||k>=words.length)return;
+  if(wi>=0&&sched[wi]){ratio+=(clamp((performance.now()-wordStart)/sched[wi],.5,2)-ratio)*.3}
+  wi=k;wordStart=performance.now();
+  const w=words[k].w,wl=w.toLowerCase().replace(/[^a-z]/g,'');
+  curVis=visemes(w);nextVis=words[k+1]?visemes(words[k+1].w):[];[curAmp,curWM]=meaning(k);[nextAmp,nextWM]=meaning(k+1);
+  if(/[.,!?;]$/.test(w)&&blinkT<0)blinkT=0;
+  if(k===0||/[.!?]$/.test(words[k-1].w)){gtx=(rnd()-.5)*.9;gty=.15+rnd()*.3;gazeT=1.6}else if(/[!?]$/.test(w)){gtx=0;gty=0;gazeT=1}
+  P.emph=/[!?]$/.test(w)||/^[A-Z]{3,}/.test(w)?1.4:.8;
+  P.I=/!$/.test(w)?1.3:/\?$/.test(w)?.9:1.05;
+  if(/^(very|so|really|extremely|totally|absolutely|incredibly|super)$/.test(wl))P.I=1.4;else if(/^(slightly|somewhat|kinda|bit|little)$/.test(wl))P.I=.7;
+  let e=words[k].e;
+  if(!words[k].m){const mo=MOOD[wl];if(mo&&mo[1]>=.7)e=mo[0];else for(const[re,n]of AUTO)if(re.test(wl)){e=n;break}}
+  setEmo(e);emoM=words[k].m||null;
+  
+}
+function finish(){if(!speaking)return;speaking=false;P.lipT=0;emoUntil=performance.now()+1500;const f=onSpeechEnd;onSpeechEnd=null;if(f)setTimeout(f,0);}
+function stopAll(){speechTok++;clearTimeout(runTimer);try{speechSynthesis.cancel()}catch(e){}speaking=false;P.lipT=0;emo='neutral';}
+function pickVoice(){
+  try{const vs=speechSynthesis.getVoices();if(!vs.length)return null;
+    for(const re of[/google uk english male/i,/daniel/i,/david/i,/alex/i,/george/i,/mark/i,/james/i,/male/i]){const v=vs.find(v=>re.test(v.name)&&/^en/i.test(v.lang));if(v)return v}
+    return vs.find(v=>/^en/i.test(v.lang))||null}catch(e){return null}
+}
+let speechTok=0;
+const PROS={happy:[1.12,1.03],sad:[.88,.88],angry:[.95,1.08],surprised:[1.2,1.08],love:[1.06,.93],thinking:[.97,.92],sleepy:[.85,.8],neutral:[1,.97],excited:[1.18,1.1],laughing:[1.15,1.08],calm:[.96,.9],worried:[.97,.95],scared:[1.12,1.12],grateful:[1.04,.95],proud:[1.02,.95],shy:[1.05,.88],bored:[.9,.85],disgusted:[.92,.95],confused:[1.02,.93],playful:[1.1,1.02],determined:[.94,1]};
+function speakSentences(){
+  try{
+    if(!('speechSynthesis' in window))return false;
+    const tok=++speechTok,groups=[];let cu=[];
+    words.forEach((o,i)=>{cu.push(i);if(/[.!?]$/.test(o.w)){groups.push(cu);cu=[]}});
+    if(cu.length)groups.push(cu);
+    const v=pickVoice();
+    groups.forEach((g,gi)=>{
+      const txt=g.map(i=>words[i].w).join(' '),pr=PROS[words[g[0]].e]||PROS.neutral,u=new SpeechSynthesisUtterance(txt);
+      u.pitch=pr[0];u.rate=pr[1];if(v)u.voice=v;
+      const off=[];let p=0;g.forEach(i=>{p=txt.indexOf(words[i].w,p);off.push(p);p+=words[i].w.length});
+      u.onstart=()=>{if(tok!==speechTok)return;speakStart=performance.now()-cum[g[0]];advance(g[0])};
+      u.onboundary=e=>{if(tok!==speechTok)return;if(e.name&&e.name!=='word')return;boundarySeen=true;let k=0;for(let j=0;j<off.length;j++)if(off[j]<=e.charIndex)k=j;advance(g[k])};
+      if(gi===groups.length-1){const fin=()=>{if(tok===speechTok)finish()};u.onend=fin;u.onerror=fin}
+      speechSynthesis.speak(u);
+    });
+    return true;
+  }catch(e){return false}
+}
+function speak(text,cb){
+  stopAll();onSpeechEnd=cb&&cb.onend||null;onSpeechStart=cb&&cb.onstart||null;words=parse(text);if(!words.length){const f=onSpeechEnd;onSpeechEnd=null;if(f)setTimeout(f,0);return}
+  const spoken=words.map(o=>o.w).join(' ');
+  sched=words.map(o=>{const l=o.w.replace(/[^a-z]/gi,'').length;return 90+l*62+(/[,;:]$/.test(o.w)?220:/[.!?]$/.test(o.w)?400:0)});
+  cum=[];let ac=0;sched.forEach(d=>{cum.push(ac);ac+=d});ratio=1;curVis=[];
+  starts=[];let pos=0;for(const o of words){pos=spoken.indexOf(o.w,pos);starts.push(pos);pos+=o.w.length}
+  
+  runTimer=setTimeout(()=>{
+    speaking=true;if(onSpeechStart)onSpeechStart();boundarySeen=false;wi=-1;speakStart=performance.now();wordStart=speakStart;
+    if(speakSentences()===false&&'speechSynthesis' in window){
+      const u=new SpeechSynthesisUtterance(spoken);u.rate=.97;u.pitch=1;
+      const v=pickVoice();if(v)u.voice=v;
+      u.onboundary=e=>{if(e.name&&e.name!=='word')return;boundarySeen=true;let k=0;for(let i=0;i<starts.length;i++)if(starts[i]<=e.charIndex)k=i;advance(k)};
+      u.onend=finish;u.onerror=finish;try{speechSynthesis.speak(u)}catch(e){}
+    }
+  },200);
+}
+
+/* ---------- update ---------- */
+function update(dt,now){
+  cornerV+=(((cornerOn?1:0)-cornerT)*60-cornerV*9.5)*dt;cornerT+=cornerV*dt;
+  const T=E[emo];
+  const TM=emoM==='polite'?POLITE:(emoM&&E[emoM])||T;for(const k of PK){const S2=MKEYS.includes(k)?TM:T;const tv=base[k]+(S2[k]-base[k])*P.I;V[k]+=((tv-P[k])*70-V[k]*10.5)*dt;P[k]+=V[k]*dt}
+  for(let i=0;i<3;i++)col[i]+=(T.c[i]-col[i])*Math.min(1,dt*6);
+  gazeT-=dt;if(gazeT<=0){gtx=(rnd()-.5)*.9;gty=(rnd()-.5)*.5;gazeT=1.2+rnd()*2.2}
+  let tgx=gtx,tgy=gty;
+  if(ptr&&now-ptrT<2500){tgx=clamp((ptr[0]-cx)/(W/2),-1,1);tgy=clamp((cy-ptr[1])/(H/2),-1,1)}
+  if(cornerT>.5){tgx=.8;tgy=-.25}tgx=clamp(tgx+T.gx*.8,-1,1);tgy=clamp(tgy+T.gy*.6,-1,1);
+  P.gx+=(tgx-P.gx)*Math.min(1,dt*9);P.gy+=(tgy-P.gy)*Math.min(1,dt*9);
+  nextBlink-=dt;
+  if(nextBlink<=0&&blinkT<0){blinkT=0;nextBlink=1.8+rnd()*3.4}
+  if(blinkT>=0){blinkT+=dt;const ph=blinkT/.15;if(ph>=1){blinkT=-1;P.blink=0}else P.blink=Math.sin(ph*Math.PI)}
+  if(speaking){
+    const el=(now-speakStart)/1000;
+    if(!boundarySeen){let k=0;const ms=el*1000;while(k<words.length-1&&ms>=cum[k+1])k++;advance(k)}
+    if(el>words.length*.9+5)finish();
+    if(wi>=0){
+      const n=curVis.length,wd=(sched[wi]||400)*ratio,slot=wd*.9;
+      const pos=wpos(now-wordStart+50,curVis,slot),pun=/[.!?]$/.test(words[wi].w),nv=nextVis[0];
+      if(n===0||pos>=n+.3){P.lipT=pun?0:(nv?Math.max(.08,nv[0]*.6*nextAmp):.07);P.wideT=pun||!nv?1:1+(nv[1]-1)*nextWM}
+      else{
+        const i0=clamp(Math.floor(pos),0,n-1),i1=Math.min(n-1,i0+1),f=sm(0,1,pos-i0),a=curVis[i0],b=i0+1<n?curVis[i0+1]:((!pun&&nv)||a);
+        const lastv=i0+1>=n&&!pun&&nv,am=lastv?curAmp+(nextAmp-curAmp)*f:curAmp,wm=lastv?curWM+(nextWM-curWM)*f:curWM;
+        P.lipT=Math.max(.05,Math.min(1.25,(a[0]+(b[0]-a[0])*f)*am*(1+.1*P.emph)*(.93+.07*Math.sin(t*11+wi))));
+        P.wideT=1+(a[1]+(b[1]-a[1])*f-1)*wm;
+      }
+    }
+  }else{P.lipT=0;P.wideT=1;if(emo!=='neutral'&&emoUntil&&now>emoUntil)emo='neutral';if(emo==='neutral')emoM=null}
+  P.lip+=(P.lipT-P.lip)*Math.min(1,dt*16);P.wide+=(P.wideT-P.wide)*Math.min(1,dt*10);
+  P.emph=Math.max(0,P.emph-dt*3);
+  P.I+=(1-P.I)*Math.min(1,dt*1.2);
+  const rt=(ROLL[emo]||0)+(speaking?Math.sin(t*2.1)*.025:0)+P.gx*.05+Math.sin(t*16)*.06*Math.min(1,Math.abs(cornerV));P.roll+=(rt-P.roll)*Math.min(1,dt*5);
+  const want=E[emo].fx;
+  if(want!==fxType){fxm=Math.max(0,fxm-dt*4);if(fxm<.05)fxType=want}else fxm=Math.min(1,fxm+dt*2);
+  stateEl.textContent=(speaking?'talking · ':'')+emo;
+}
+
+/* ---------- frame ---------- */
+function frame(now){if(!running)return;try{frame2(now)}catch(e){stateEl.textContent='err: '+e.message}requestAnimationFrame(frame)}
+function frame2(now){
+  const dtRaw=(now-last)/1000;last=now;const dt=Math.min(.05,dtRaw);t+=dt;
+  update(dt,now);pose();
+  ctx.globalCompositeOperation='source-over';
+  ctx.fillStyle='rgba(5,6,11,.4)';ctx.fillRect(0,0,W,H);
+  const cr=Math.round(col[0]),cg=Math.round(col[1]),cb=Math.round(col[2]);
+  ctx.globalCompositeOperation='lighter';
+  const rg=ctx.createRadialGradient(cx,cy,S*.2,cx,cy,S*2.4);
+  rg.addColorStop(0,`rgba(${cr},${cg},${cb},.10)`);rg.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=rg;ctx.fillRect(0,0,W,H);
+
+  const squash=1+.045*Math.max(P.op,P.lip)-.03*P.emph,k=24,c=2*Math.sqrt(k)*.55;
+  const rc=Math.cos(P.roll),rs=Math.sin(P.roll),hx=P.gx*.07+(emo==='angry'||emo==='scared'?Math.sin(t*45)*.004:0)+(speaking?Math.sin(t*2.3)*.012:0),hy=P.gy*.04+P.emph*.035+Math.sin(t*1.6)*.008+(speaking?(P.lip-.3)*.02:0);
+  for(const a of buckets)a.length=0;
+  for(let i=0;i<N;i++){
+    const b=bots[i];tm=1;target(b);
+    if(b.k!=='frame'&&b.k!=='fx'){const x0=tx,y0=ty;tx=x0*rc-y0*rs+hx;ty=x0*rs+y0*rc+hy}
+    const jx=(b.k==='fx'?0:0);
+    const dx=tx+jx-b.px,dy=ty-b.py;
+    b.vx+=(dx*k-b.vx*c)*dt;b.vy+=(dy*k-b.vy*c)*dt;
+    b.px+=b.vx*dt;b.py+=b.vy*dt;
+    const m=tm*(.94+.06*Math.sin(t*6+b.ph));
+    sxA[i]=cx+(b.px*(b.k==='fx'?1:1))*S;syA[i]=cy-b.py*S*squash;
+    srA[i]=Math.max(.6,PS*(S/160)*b.sz*(b.g===1?1.4:1));
+    mA[i]=m;
+    const L=Math.round(clamp(m,0,1.5)/1.5*5)+1;
+    if(m>.08)buckets[b.g*6+L-1].push(i);
+  }
+  for(let g=0;g<8;g++)for(let L=0;L<6;L++){
+    const a=buckets[g*6+L];if(!a.length)continue;
+    let r=cr,gg=cg,bb=cb;
+    if(g===0){r=r*.8+50;gg=gg*.8+50;bb=bb*.8+50}
+    else if(g===1){r=gg=bb=255}
+    else if(g===3){r=r*.5+127;gg=gg*.5+127;bb=bb*.5+127}
+    else if(g===4){r*=.6;gg*=.4;bb*=.5}
+    else if(g===5){r=255;gg=110;bb=160}
+    else if(g===6){r*=.8;gg*=.8;bb*=.9}
+    const al=.2+.8*((L+1)/6);
+    if(style===2&&(g===0||g===3)){
+      ctx.fillStyle=`rgba(${r|0},${gg|0},${bb|0},${al*.14})`;ctx.beginPath();
+      for(const i of a){const R=srA[i]*2.6;ctx.moveTo(sxA[i]+R,syA[i]);ctx.arc(sxA[i],syA[i],R,0,6.2832)}
+      ctx.fill();
+    }
+    ctx.fillStyle=`rgba(${r|0},${gg|0},${bb|0},${al})`;ctx.beginPath();
+    for(const i of a){
+      const x=sxA[i],y=syA[i],R=srA[i];
+      if(style===0){ctx.moveTo(x,y-R*1.5);ctx.lineTo(x+R,y);ctx.lineTo(x,y+R*1.5);ctx.lineTo(x-R,y);ctx.closePath()}
+      else{ctx.moveTo(x+R*.85,y);ctx.arc(x,y,R*.85,0,6.2832)}
+    }
+    ctx.fill();
+  }
+}
+
+/* ---------- live-room API ---------- */
+const AL={excited:'happy',proud:'happy',playful:'happy',laughing:'happy',grateful:'love',shy:'love',scared:'worried',lonely:'sad',bored:'sleepy',determined:'neutral',calm:'neutral',disgusted:'angry',thinking:'confused'};
+const LISTEN={excited:'excited',happy:'happy',sad:'calm',angry:'worried',worried:'calm',scared:'calm',sleepy:'sleepy',love:'love',surprised:'surprised',confused:'thinking',proud:'proud',laughing:'happy',grateful:'happy',neutral:'neutral'};
+function mirror(text){const m=moodOf(text.split(/\s+/).filter(Boolean).map(w=>({w})));return m?(LISTEN[m]||LISTEN[AL[m]]||'neutral'):null}
+addEventListener('pointermove',e=>{ptr=[e.clientX,e.clientY];ptrT=performance.now()},{passive:true});
+function start(){
+  if(running)return;running=true;cornerOn=false;cornerT=0;cornerV=0;
+  for(const b of bots){b.px=(rnd()-.5)*5;b.py=(rnd()-.5)*5;b.vx=b.vy=0}
+  emo='neutral';emoM=null;last=performance.now();resize();requestAnimationFrame(frame);
+}
+function stop(){running=false;stopAll()}
+window.DaisyFace={
+  start,stop,
+  say(text,cb){speak(text,cb)},
+  stopSay(){stopAll()},
+  corner(on){cornerOn=!!on},
+  hear(text){const e=mirror(text);if(e&&!speaking)setEmo(e,2500)},
+  state(s){
+    if(s==='thinking')setEmo('thinking',90000);
+    else if(s==='listening'){if(!speaking)setEmo('calm',2500)}
+    else if(!speaking){emo='neutral';emoM=null;emoUntil=0}
+  },
+  emote(n,ms){if(E[n])setEmo(n,ms||3000)},
+  get speaking(){return speaking},
+  get emotions(){return Object.keys(E)}
+};
+if(window.DaisyBots)window.DaisyBots.onmode=m=>window.DaisyFace.corner(m==='shape');
+
 })();
 </script>
 </body>
