@@ -1114,9 +1114,10 @@
       padding: 0 14px calc(env(safe-area-inset-bottom, 0px) + 18px);
     }
     #live-pill {
-      flex: 1; min-width: 0; height: 52px; display: flex; align-items: center; gap: 6px; padding: 0 8px;
+      flex: 1 1 0; min-width: 0; height: 52px; display: flex; align-items: center; gap: 6px; padding: 0 8px; overflow: hidden;
       border-radius: 26px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);
-      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: border-color 0.2s;
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      transition: flex-grow .3s cubic-bezier(.4,0,.2,1), padding .3s, margin .3s, opacity .2s, border-color .2s;
     }
     #live-pill:focus-within { border-color: var(--daisy); }
     #live-plus {
@@ -1129,18 +1130,40 @@
       font-family: 'Inter', sans-serif; font-size: 15px;
     }
     #live-input::placeholder { color: rgba(255,255,255,0.5); }
-    .live-ctrl {
-      width: 52px; height: 52px; flex-shrink: 0; border-radius: 50%; border: none; cursor: pointer; color: #fff;
-      display: flex; align-items: center; justify-content: center;
-      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.1);
-      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
-      transition: transform 0.15s, background 0.15s;
+    /* send: appears at the end of the stretched bar */
+    #live-send {
+      flex: 0 0 0; width: 0; height: 36px; opacity: 0; transform: scale(.5); overflow: hidden; border: none; padding: 0;
+      border-radius: 50%; cursor: pointer; color: #fff; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--daisy), var(--daisy2));
+      transition: flex-basis .3s cubic-bezier(.4,0,.2,1), width .3s cubic-bezier(.4,0,.2,1), opacity .2s .08s, transform .25s .05s;
     }
-    .live-ctrl:active { transform: scale(0.92); }
-    .live-ctrl svg { width: 22px; height: 22px; }
+    #live-send svg { width: 18px; height: 18px; flex-shrink: 0; }
+    .live-ctrl {
+      height: 52px; flex: 0 0 52px; min-width: 0; border-radius: 26px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer; color: #fff;
+      display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 0;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      transition: flex .3s cubic-bezier(.4,0,.2,1), margin .3s cubic-bezier(.4,0,.2,1), opacity .2s, background .15s, border-width .3s, padding .3s;
+    }
+    .live-ctrl:active { background: rgba(255,255,255,0.18); }
+    .live-ctrl svg { width: 22px; height: 22px; flex-shrink: 0; }
     #mic-btn .mic-slash { display: none; }
     #mic-btn.muted { background: rgba(248,113,113,0.28); }
     #mic-btn.muted .mic-slash { display: block; }
+    .mic-wave { display: none; align-items: center; justify-content: center; gap: 3px; height: 26px; flex: 1; }
+    .mic-wave i { display: block; width: 3px; height: 5px; border-radius: 3px; background: linear-gradient(var(--daisy), var(--daisy2)); animation: micw 1.2s ease-in-out infinite; }
+    .mic-wave i:nth-child(2n) { animation-delay: .15s; } .mic-wave i:nth-child(3n) { animation-delay: .3s; } .mic-wave i:nth-child(5n) { animation-delay: .45s; }
+    .mic-wave.hearing i { animation-duration: .42s; }
+    .mic-wave.talking i { animation: none; height: 4px; opacity: .45; }
+    @keyframes micw { 0%,100% { height: 5px; } 50% { height: 22px; } }
+    #end-live { background: linear-gradient(135deg, var(--daisy), var(--daisy2)); border: none; border-radius: 50%; }
+    /* TYPING: the bar stretches right over the speaker's slot, send appears at its end, X stays put */
+    #live-bar.typing #mic-btn { flex: 0 0 0; margin-left: -10px; opacity: 0; border-width: 0; pointer-events: none; }
+    #live-bar.typing #live-send { flex-basis: 36px; width: 36px; opacity: 1; transform: none; margin-left: 2px; }
+    /* VOICE: the speaker opens leftwards over the bar, X stays put */
+    #live-bar.voice #live-pill { flex-grow: 0; padding: 0; margin-right: -10px; opacity: 0; border-width: 0; pointer-events: none; }
+    #live-bar.voice #mic-btn { flex: 1 1 52px; justify-content: flex-start; padding: 0 14px; gap: 10px; }
+    #live-bar.voice .mic-wave { display: flex; }
     #end-live { background: linear-gradient(135deg, var(--daisy), var(--daisy2)); border: none; }
 
     /* ── DRAWER / SIDEBAR MENU (ChatGPT/Claude-style) ── */
@@ -2131,14 +2154,18 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
       </button>
       <input id="live-input" type="text" placeholder="Ask Daisy" autocomplete="off" enterkeyhint="send">
+      <button id="live-send" aria-label="Send">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+      </button>
     </div>
-    <button class="live-ctrl" id="mic-btn" aria-label="Mute mic">
+    <button class="live-ctrl" id="mic-btn" aria-label="Speaker">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><line x1="12" y1="19" x2="12" y2="22"/>
         <line class="mic-slash" x1="4" y1="4" x2="20" y2="20"/>
       </svg>
+      <span class="mic-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
     </button>
-    <button class="live-ctrl" id="end-live" aria-label="End">
+    <button class="live-ctrl" id="end-live" aria-label="End" style="flex:0 0 52px;width:52px">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
     </button>
   </div>
@@ -4265,7 +4292,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const liveInput = document.getElementById('live-input');
   const liveNote  = document.getElementById('live-note');
   const liveFace  = document.getElementById('live-face');
-  let recognition = null, micMuted = false, liveBusy = false, liveSpeaking = false, liveAbort = null, liveSpeakDone = null, noteTimer = null;
+  let recognition = null, micMuted = false, liveBusy = false, liveSpeaking = false, liveAbort = null, liveSpeakDone = null, noteTimer = null, liveSync = null, waveTimer = null;
+  const liveBar = document.getElementById('live-bar'), liveSend = document.getElementById('live-send'), micWave = micBtn.querySelector('.mic-wave');
 
   function showLiveNote(msg, ms) {
     liveNote.textContent = msg; liveNote.style.display = 'block';
@@ -4295,7 +4323,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.DaisyBots) DaisyBots.live(false);
     stopSpeechRecognition();
     liveBusy = false; liveSpeaking = false; liveSpeakDone = null;
-    liveInput.value = '';
+    liveInput.value = ''; setBarMode('idle'); micMuted = false; micBtn.classList.remove('muted');
+    if (liveSync) { liveSync.finish(); liveSync = null; } // the chat message is always left complete
   }
   OVERLAY_CLOSERS.live = endLiveSession;
 
@@ -4322,6 +4351,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (e.results[i].isFinal) final += e.results[i][0].transcript; else interim += e.results[i][0].transcript;
       }
       const heard = (final || interim).trim();
+      if (heard) { micWave.classList.add('hearing'); clearTimeout(waveTimer); waveTimer = setTimeout(() => micWave.classList.remove('hearing'), 900); }
       if (heard && window.DaisyFace) { DaisyFace.state('listening'); DaisyFace.hear(heard); } // she reacts to how you sound, while you talk
       if (final.trim()) liveAsk(final.trim());
     };
@@ -4340,21 +4370,76 @@ document.addEventListener('DOMContentLoaded', function() {
     if (recognition) { const r = recognition; recognition = null; try { r.stop(); } catch (e) {} }
   }
 
+  // ── THE BAR ── three shapes: normal, typing (bar stretches right over the speaker, send appears), voice (speaker opens left over the bar).
+  function setBarMode(mode) { liveBar.classList.toggle('typing', mode === 'typing'); liveBar.classList.toggle('voice', mode === 'voice'); }
   micBtn.onclick = () => {
-    micMuted = !micMuted;
-    micBtn.classList.toggle('muted', micMuted);
-    if (micMuted) stopSpeechRecognition();
-    else if (!liveSpeaking && !liveBusy) startSpeechRecognition();
+    if (liveBar.classList.contains('voice')) {   // tap the open speaker: it folds back and mutes
+      setBarMode('idle'); micMuted = true; micBtn.classList.add('muted'); stopSpeechRecognition();
+    } else {                                     // tap the speaker: it opens and listens
+      micMuted = false; micBtn.classList.remove('muted'); setBarMode('voice');
+      if (!liveSpeaking && !liveBusy) startSpeechRecognition();
+    }
   };
-
-  // Typing works too: the pill is the same conversation as the voice.
-  liveInput.addEventListener('keydown', (e) => {
-    if (e.key !== 'Enter') return;
+  document.getElementById('live-pill').addEventListener('click', (e) => { if (!e.target.closest('#live-plus, #live-send')) liveInput.focus(); });
+  liveInput.addEventListener('focus', () => { setBarMode('typing'); stopSpeechRecognition(); });
+  liveInput.addEventListener('blur', () => setTimeout(() => {
+    if (document.activeElement === liveInput || liveInput.value.trim() || pendingImage) return; // keep the stretched bar while there is something to send
+    setBarMode('idle');
+    if (liveActive() && !micMuted && !liveSpeaking && !liveBusy) startSpeechRecognition();
+  }, 120));
+  function sendTyped() {
     const v = liveInput.value.trim();
     if (!v && !pendingImage) return;
-    liveInput.value = ''; liveInput.blur();
+    if (liveBusy) return;
+    liveInput.value = ''; liveInput.blur(); setBarMode('idle');
+    if (liveSpeaking && window.DaisyFace) { DaisyFace.stopSay(); if (liveSpeakDone) liveSpeakDone(); }
     liveAsk(v);
-  });
+  }
+  liveSend.addEventListener('pointerdown', (e) => e.preventDefault()); // keep focus so the bar doesn't fold before the tap lands
+  liveSend.addEventListener('click', sendTyped);
+  liveInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') sendTyped(); });
+  if (window.visualViewport) { // keep the bar above the phone keyboard
+    const lift = () => { const kb = Math.max(0, window.innerHeight - visualViewport.height - visualViewport.offsetTop); liveBar.style.bottom = kb + 'px'; };
+    visualViewport.addEventListener('resize', lift); visualViewport.addEventListener('scroll', lift);
+  }
+
+  // The chat message follows Daisy word by word: it appears exactly as each word is spoken (same pace, same pauses),
+  // and is rendered fully (markdown, sources, copy bar) the moment she finishes.
+  function beginSyncedMessage(text, opts) {
+    if (/```/.test(text)) { addMsgTyped(text, opts).catch(() => {}); return { reveal() {}, finish() {} }; } // code/files/charts use the normal builder
+    const div = document.createElement('div'); div.className = 'msg daisy';
+    const label = document.createElement('div'); label.className = 'daisy-label'; label.textContent = 'Daisy';
+    const body = document.createElement('div'); body.className = 'md-body';
+    div.appendChild(label); div.appendChild(body); chatArea.appendChild(div);
+    const toks = text.split(/(\s+)/), wordPos = [];
+    toks.forEach((t, i) => { if (t.trim()) wordPos.push(i); });
+    const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const spoken = cleanForSpeech(text).slice(0, 1400).split(/\s+/).filter(Boolean), map = [];
+    let p = 0;
+    for (const sw of spoken) {            // line each spoken word up with its place in the written message
+      let hit = -1;
+      for (let q = p; q < Math.min(wordPos.length, p + 8); q++) { if (norm(toks[wordPos[q]]) === norm(sw)) { hit = q; break; } }
+      p = hit >= 0 ? hit + 1 : Math.min(wordPos.length, p + 1);
+      map.push(p);
+    }
+    let done = false;
+    return {
+      reveal(k) {
+        if (done || !map.length) return;
+        const n = map[Math.min(k, map.length - 1)] || 0;
+        body.textContent = toks.slice(0, n ? wordPos[n - 1] + 1 : 0).join('');
+        if (stickToBottom) div.scrollIntoView({ behavior: 'auto', block: 'end' });
+      },
+      finish() {
+        if (done) return; done = true;
+        body.innerHTML = renderMarkdown(text); finalizeRenderedContent(body);
+        if (opts.sources && opts.sources.length) div.appendChild(renderSourcesBlock(opts.sources));
+        div.appendChild(buildActionToolbar(() => body.innerText, opts.question, text));
+        maybeAutoScroll();
+      }
+    };
+  }
+
   // Tap Daisy to interrupt her.
   liveFace.addEventListener('click', () => {
     if (liveSpeaking && window.DaisyFace) { DaisyFace.stopSay(); if (liveSpeakDone) liveSpeakDone(); }
@@ -4379,15 +4464,15 @@ document.addEventListener('DOMContentLoaded', function() {
       .replace(/^\s*[-*•]\s+/gm, '').replace(/[*_~>|]/g, '').replace(/\n{2,}/g, '. ').replace(/\n/g, ' ')
       .replace(/\s{2,}/g, ' ').trim();
   }
-  function liveSpeakAnswer(question, answer) {
+  function liveSpeakAnswer(question, answer, sync) {
     return new Promise((resolve) => {
       const sim = detectSim(question, answer);
       const text = cleanForSpeech(answer).slice(0, 1400);
-      liveSpeaking = true; stopSpeechRecognition();
+      liveSpeaking = true; stopSpeechRecognition(); micWave.classList.add('talking');
       if (sim && window.DaisyBots) DaisyBots.form(sim, Math.max(7000, text.split(/\s+/).length * 420 + 3000));
       const done = () => {
         if (!liveSpeaking) return;
-        liveSpeaking = false; liveSpeakDone = null;
+        liveSpeaking = false; liveSpeakDone = null; micWave.classList.remove('talking');
         if (sim && window.DaisyBots) setTimeout(() => DaisyBots.home(), 1800);
         if (window.DaisyFace) DaisyFace.state('idle');
         if (liveActive() && !micMuted) startSpeechRecognition();
@@ -4395,7 +4480,7 @@ document.addEventListener('DOMContentLoaded', function() {
       };
       liveSpeakDone = done;
       if (!text || !window.DaisyFace) { done(); return; }
-      DaisyFace.say(text, { onend: done });
+      DaisyFace.say(text, { onend: done, onword: (k) => { if (sync) sync.reveal(k); } });
     });
   }
 
@@ -4421,10 +4506,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const answer = data.answer || "Still learning that one.";
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
-      addMsgTyped(answer, { question, sources: data.sources }).catch(() => {}); // chat history still gets it; Daisy doesn't wait for the typing animation
+      liveSync = beginSyncedMessage(answer, { question, sources: data.sources }); // the message will follow her voice, word by word
       recordMessage('daisy', answer);
       if (isExplicitPdfRequest(question) && !containsFileCard(answer)) downloadAsPdf(null, question, answer);
-      if (liveActive()) await liveSpeakAnswer(question, answer);
+      if (liveActive()) await liveSpeakAnswer(question, answer, liveSync);
+      if (liveSync) { liveSync.finish(); liveSync = null; }
     } catch (e) {
       panel._settled = true; panel._cancel(); panel.remove();
       if (e.name !== 'AbortError' && liveActive()) {
@@ -4434,6 +4520,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (window.DaisyFace) DaisyFace.say("[sad] Sorry, I could not reach my brain just now. [calm] Please try again.", { onend: done }); else done();
       }
     } finally {
+      if (liveSync) { liveSync.finish(); liveSync = null; }
       liveAbort = null; liveBusy = false;
       if (liveActive() && !liveSpeaking && !micMuted) startSpeechRecognition();
     }
@@ -5197,7 +5284,7 @@ const ROLL={thinking:.1,sad:-.06,love:.07,happy:.02,surprised:-.03,confused:.1,w
 PK.forEach(k=>{P[k]=E.neutral[k];V[k]=0});
 const POLITE=X({mw:.3,sm:.55,op:0,bu:0,sk:.1}),MKEYS=['mw','sm','op','sk','bu'];
 const col=[110,170,255];
-let emo='neutral',emoM=null,emoUntil=0,fxType=0,fxm=0;
+let emo='neutral',emoM=null,emoUntil=0,fxType=0,fxm=0,FW={},fAcc={},learned=1,onSpeechWord=null;
 
 /* ---------- bots ---------- */
 const bots=[];
@@ -5290,20 +5377,34 @@ const MOOD={};('glad:happy:.9 joy:happy:1 joyful:happy:1 cheerful:happy:.9 delig
 const PHR=[[/good morning|good afternoon|good evening|nice to meet you|how are you/,'happy'],[/good night|goodnight|sweet dreams/,'sleepy'],[/thank you|thanks a lot|i appreciate/,'grateful'],[/you'?re welcome|my pleasure/,'happy'],[/i'?m sorry|i am sorry|my bad|forgive me/,'sad'],[/well done|good job|congratulations|happy birthday|let'?s go|come on/,'excited'],[/i love you|miss you/,'love'],[/i don'?t know|not sure|no idea/,'confused'],[/oh no|uh oh|help me|are you okay|what'?s wrong/,'worried'],[/no way|oh my god|oh my gosh|are you kidding/,'surprised'],[/see you|take care|calm down/,'calm'],[/shut up|go away|leave me alone/,'angry'],[/so tired|i'?m tired/,'sleepy'],[/i'?m bored/,'bored'],[/i promise/,'determined'],[/i give up|i can'?t/,'sad']];
 function moodOf(sent){
   const s=sent.map(o=>o.w).join(' ').toLowerCase().replace(/[^a-z' ]/g,'');
-  for(const[re,n]of PHR)if(re.test(s))return n;
-  const sc={};let best=null,bv=0;
-  for(const o of sent){const m=MOOD[o.w.toLowerCase().replace(/[^a-z']/g,'')];if(m){sc[m[0]]=(sc[m[0]]||0)+m[1];if(sc[m[0]]>bv){bv=sc[m[0]];best=m[0]}}}
-  return bv>=.6?best:null;
+  for(const[re,n]of PHR)if(re.test(s))return[n,.9];
+  const sc={};let boost=1,best=null,bv=0;
+  for(const o of sent){
+    const wl=o.w.toLowerCase().replace(/[^a-z']/g,'');
+    if(/^(very|so|really|extremely|totally|absolutely|incredibly|super|truly)$/.test(wl)){boost=1.45;continue}
+    if(/^(slightly|somewhat|kinda|bit|little|barely)$/.test(wl)){boost=.55;continue}
+    const m=MOOD[wl];
+    if(m){sc[m[0]]=(sc[m[0]]||0)+m[1]*boost;boost=1;if(sc[m[0]]>bv){bv=sc[m[0]];best=m[0]}}
+  }
+  return bv>=.5?[best,clamp(1-Math.exp(-1.15*bv),0,1)*1.12]:null;   // how much she feels it: one mild word is a hint, several strong words are the full face
 }
 const MASKRE=/\b(i'?m fine|i am fine|it'?s (fine|okay|ok|alright)|no problem|don'?t worry|never mind|whatever|i'?m (ok|okay|alright)|all good|doesn'?t matter|it'?s nothing)\b/;
 function parse(text){
-  const out=[];let cur=null,sent=[],prevE=null;
+  const out=[];let cur=null,sent=[],prevE=null,prevI=0;
   const flush=()=>{if(!sent.length)return;
-    const s=sent.map(o=>o.w).join(' ').toLowerCase();let e=null;
-    e=moodOf(sent);if(!e)for(const[re,n]of AUTO)if(re.test(s)){e=n;break}
-    const l=sent[sent.length-1].w;let m=null;if(MASKRE.test(s)){const sc=/\b(sad|hurt|tired|lonely|miss|cry|lost|pain)\b/.test(s);if(sc||prevE==='sad'||prevE==='angry'){e=prevE==='angry'?'angry':'sad';m='polite'}}
-    if(e==='happy'&&/\b(not|never|no|don't|can't|won't|isn't|wasn't|didn't)\b/.test(s))e='sad';if(!e&&/!$/.test(l))e=(prevE&&prevE!=='thinking')?prevE:'happy';if(!e&&/\?$/.test(l))e='thinking';if(!e&&prevE){e=prevE;prevE=null}else prevE=e;
-    sent.forEach(o=>{o.e=o.tag||e||'neutral';o.m=m});out.push(...sent);sent=[]};
+    const s=sent.map(o=>o.w).join(' ').toLowerCase();let e=null,ci=0;
+    const mo=moodOf(sent);if(mo){e=mo[0];ci=mo[1]}
+    if(!e)for(const[re,n]of AUTO)if(re.test(s)){e=n;ci=.6;break}
+    const l=sent[sent.length-1].w;let m=null;
+    if(MASKRE.test(s)){const sc=/\b(sad|hurt|tired|lonely|miss|cry|lost|pain)\b/.test(s);if(sc||prevE==='sad'||prevE==='angry'){e=prevE==='angry'?'angry':'sad';m='polite';ci=Math.max(ci,.7)}}
+    if(e==='happy'&&/\b(not|never|no|don't|can't|won't|isn't|wasn't|didn't)\b/.test(s)){e='sad';ci=Math.max(ci,.6)}
+    if(!e&&/!$/.test(l)){e=(prevE&&prevE!=='thinking')?prevE:'happy';ci=.5}
+    if(!e&&/\?$/.test(l)){e='thinking';ci=.5}
+    if(!e&&prevE){e=prevE;ci=prevI*.6;prevE=null}else{prevE=e;prevI=ci}
+    if(/!$/.test(l))ci*=1.2;else if(/\?$/.test(l))ci*=.9;
+    if(sent.some(o=>/^[A-Z]{3,}[.,!?]*$/.test(o.w)))ci*=1.15;
+    ci=clamp(ci,0,1.25);
+    sent.forEach(o=>{o.e=o.tag||e||'neutral';o.m=m;o.w0=o.tag?.85:(e?ci:0)});out.push(...sent);sent=[]};
   for(const part of text.split(/(\[[a-z]+\])/i)){
     const m=part.match(/^\[([a-z]+)\]$/i);
     if(m){flush();const n=m[1].toLowerCase();if(E[n])cur=n;continue}
@@ -5313,7 +5414,7 @@ function parse(text){
 }
 let speaking=false,words=[],starts=[],wi=-1,wordStart=0,speakStart=0,boundarySeen=false,runTimer=null;
 const capEl={children:[],appendChild(){}},stateEl={};
-function setEmo(n,hold){emo=n;emoM=null;emoUntil=hold?performance.now()+hold:0}
+function setEmo(n,hold){emo=n;emoM=null;FW=n==='neutral'?{}:{[n]:1};fAcc={};emoUntil=hold?performance.now()+hold:0}
 let sched=[],cum=[],ratio=1,curVis=[],nextVis=[],curAmp=1,curWM=1,nextAmp=1,nextWM=1;
 const VZ={A:[.95,1.05],O:[.8,.7],U:[.55,.62],E:[.55,1.15],I:[.4,1.25],M:[0,.95],F:[.1,1.05],T:[.28,1],S:[.2,1.12],W:[.5,.6],R:[.3,.85],K:[.35,1]};
 const PRON={hello:'KETO',hi:'KAI',hey:'KEI',i:'AI',am:'AM',daisy:'TESI',wow:'WAU',look:'TUK',at:'AT',that:'TAT',this:'TIS',the:'TE',a:'E',an:'AT',and:'ATT',of:'AF',to:'TU',in:'IT',is:'IS',it:'IT',you:'IU',your:'IOR',me:'MI',my:'MAI',we:'WI',be:'MI',are:'AR',was:'WAS',have:'KAF',has:'KAS',had:'KAT',do:'TU',did:'TIT',not:'TAT',no:'TO',yes:'IES',ok:'OKE',okay:'OKE',so:'SO',but:'MAT',if:'IF',or:'OR',for:'FOR',with:'WIT',what:'WAT',who:'KU',why:'WAI',how:'KAU',when:'WET',where:'WER',there:'TER',here:'KIR',now:'TAU',then:'TET',just:'SAS',very:'FERI',really:'RITI',real:'RIT',face:'FES',love:'TAF',like:'TAK',happy:'KAMI',sad:'SAT',angry:'AKRI',sorry:'SARI',thanks:'TAKS',thank:'TAK',please:'MTIS',good:'KUT',great:'KRET',fine:'FAIT',again:'AKET',never:'TEFR',always:'ATWES',think:'TIK',know:'TO',want:'WAT',need:'TIT',build:'MIT',next:'KEST',work:'WRK',working:'WRKIK',waiting:'WETIK',keep:'KIM',ignore:'IKTOR',get:'KET',got:'KAT',make:'MEK',see:'SI',say:'SE',tell:'TET',show:'SO',help:'KETM',miss:'MIS',lost:'TAST',cry:'KRAI',hurt:'KRT',smile:'SMAT',dream:'TRIM',night:'TAT',tired:'TAIRT',time:'TAIM',today:'TUTE',tomorrow:'TUMARO',morning:'MORTIK',hmm:'M',what:'WAT',shall:'SAT',will:'WIT',can:'KAT',could:'KUT',would:'WUT',should:'SUT',about:'EMAU',because:'MIKAS',out:'AUT',up:'AM',down:'TAUT',all:'AT',some:'SAM',more:'MOR',one:'WAT',two:'TU',three:'TRI',together:'TUKETE',friend:'FRET',family:'FAMTI',name:'TEM',world:'WRT',evening:'IFTIK',afternoon:'AFTRTUT',tonight:'TUTAT',yesterday:'IESTRTE',week:'WIK',day:'TE',year:'IIR',hour:'AUR',minute:'MITIT',water:'WATR',food:'FUT',eat:'IT',drink:'TRIK',coffee:'KAFI',tea:'TI',home:'KOM',house:'KAUS',school:'SKUT',money:'MATI',phone:'FOT',car:'KAR',door:'TOR',book:'MUK',computer:'KAMMIUTR',mother:'MATR',mom:'MAM',father:'FATR',dad:'TAT',brother:'MRATR',sister:'SISTR',baby:'MEMI',man:'MAT',woman:'WUMAT',boy:'MOI',girl:'KRT',people:'MIMT',teacher:'TITR',student:'STUTAT',boss:'MAS',customer:'KASTAMR',go:'KO',come:'KAM',give:'KIF',take:'TEK',find:'FAIT',try:'TRAI',start:'STAT',stop:'STAM',play:'MTE',read:'RIT',write:'RAIT',learn:'TRT',call:'KAT',ask:'AST',answer:'ATSR',listen:'TISAT',talk:'TAK',speak:'SMIK',walk:'WAK',run:'RAT',sit:'SIT',stand:'STATT',sleep:'STIM',wake:'WEK',open:'OMAT',close:'KTOS',buy:'MAI',sell:'SET',pay:'ME',use:'IUS',feel:'FIT',hear:'KIR',wait:'WET',hold:'KOTT',bring:'MRIK',leave:'TIF',stay:'STE',move:'MUF',change:'SEET',believe:'MITIF',remember:'RIMEMMR',forget:'FRKET',understand:'ATTRSTATT',mean:'MIT',hope:'KOM',wish:'WIS',kiss:'KIS',live:'TIF',big:'MIK',little:'TITT',old:'OTT',new:'TIU',young:'IAK',long:'TAK',short:'SORT',hot:'KAT',cold:'KOTT',fast:'FAST',slow:'STO',easy:'IISI',hard:'KART',beautiful:'MIUTIFUT',nice:'TAIS',bad:'MAT',best:'MEST',better:'METR',wrong:'RAK',right:'RAIT',true:'TRU',free:'FRI',ready:'RETI',sure:'SUR',safe:'SEF',proud:'MRAUT',scared:'SKERT',worried:'WRIT',excited:'EKSAITT',bored:'MORT',alone:'ATTO',sick:'SIK',hungry:'KAKRI',afraid:'AFRET',careful:'KERFUT',special:'SMESUT',important:'IMMORTATT',different:'TIFRATT',same:'SEM',other:'ATR',every:'EFRI',many:'MEKI',much:'MAS',most:'MOST',enough:'IFAF',too:'TU',also:'ATSO',still:'STIT',maybe:'MEMI',sometimes:'SAMTAIMS',soon:'SUT',later:'TETR',before:'MIFOR',after:'AFTR'};
@@ -5326,7 +5427,7 @@ function meaning(k){
   let a=FUNC.has(wl)?.65:1,wm=1;const s=SEM[wl];if(s){a*=s[0];wm=s[1]}
   if(!FUNC.has(wl)&&(!words[k+1]||/[.!?,;:]$/.test(o.w)))a*=1.15;
   if(/!$/.test(o.w)||/^[A-Z]{3,}/.test(o.w))a*=1.2;else if(/\?$/.test(o.w))a*=1.08;
-  a*=AROUSAL[o.e]||1;
+  a*=1+((AROUSAL[o.e]||1)-1)*Math.min(1.2,(o.w0||0)+.15);
   return[clamp(a,.35,1.6),wm];
 }
 function wpos(ms,vs,total){
@@ -5335,24 +5436,60 @@ function wpos(ms,vs,total){
   for(let i=0;i<n;i++){if(tt<acc+ws[i])return i+(tt-acc)/ws[i];acc+=ws[i]}
   return n+(tt-acc);
 }
+const GV={a:'A',e:'E',i:'I',o:'O',u:'A',b:'M',p:'M',m:'M',f:'F',v:'F',w:'W',r:'R',s:'S',z:'S',j:'S',k:'K',q:'K',h:'K',l:'T',n:'T',t:'T',d:'T',g:'K',c:'K'};
+const DG={th:'T',sh:'S',ch:'S',ph:'F',wh:'W',ck:'K',ng:'K',gh:'',kn:'T',wr:'R',qu:'KW',ee:'I',ea:'I',oo:'U',ou:'AU',ow:'AU',oi:'OI',oy:'OI',ai:'E',ay:'E',au:'A',aw:'A',ie:'I',ue:'U',ew:'U',ar:'AR',or:'OR',er:'R',ir:'R',ur:'R'};
+/* letters -> mouth shapes for ANY word: endings, magic-e, digraphs, soft c/g, silent letters */
+function g2v(s){
+  s=s.replace(/'/g,'').replace(/([bcdfghjklmnpqrstvwxz])\1+/g,'$1');
+  let suf='';
+  for(const[re,v]of[[/tion$|sion$|cian$/,'SAT'],[/ture$/,'SR'],[/ing$/,'IK'],[/ed$/,'T'],[/ly$/,'TI'],[/ful$/,'FUT'],[/ment$/,'METT'],[/able$|ible$/,'EMUT'],[/es$/,'S']]){
+    const m=re.exec(s);if(m&&s.length>m[0].length+1){suf=v;s=s.slice(0,m.index);break}
+  }
+  const L=s.length;let o='';
+  for(let i=0;i<L;i++){
+    const c=s[i],n=s[i+1]||'',n2=s[i+2]||'';
+    if(c+n+n2==='igh'){o+='AI';i+=2;continue}
+    if(c+n+n2==='tch'){o+='S';i+=2;continue}
+    if(DG[c+n]!==undefined){o+=DG[c+n];i++;continue}
+    if('aeiou'.includes(c)&&n&&!'aeiouy'.includes(n)&&n2==='e'&&i+2===L-1){o+={a:'E',e:'I',i:'AI',o:'OU',u:'U'}[c]+(GV[n]||'');i+=2;continue}
+    if(c==='e'&&i===L-1&&L>2)continue;
+    if(c==='y'){o+=(i===L-1&&i>0?'AI':'I');continue}
+    if(c==='c'){o+='eiy'.includes(n)?'S':'K';continue}
+    if(c==='g'&&n==='e'&&i+1===L-1){o+='S';continue}
+    if(c==='x'){o+='KS';continue}
+    o+=GV[c]||'';
+  }
+  return (o+suf)||'T';
+}
+const DIG=['zero','one','two','three','four','five','six','seven','eight','nine'];
 function visemes(w){
-  const pd=PRON[w.toLowerCase().replace(/[^a-z']/g,'')];
-  if(pd)return [...pd].map(c=>VZ[c]||[.16,1]);
-  const s=w.toLowerCase().replace(/[^a-z]/g,''),o=[];
-  for(let i=0;i<s.length;i++){
-    const d=s.substr(i,2),c=s[i];
-    if(d==='th'){o.push([.22,1]);i++}
-    else if(d==='sh'||d==='ch'){o.push([.3,.7]);i++}
-    else if(d==='oo'||d==='ou'){o.push([.55,.65]);i++}
-    else if(d==='ee'||d==='ea'){o.push([.42,1.25]);i++}
-    else if('aeiouy'.includes(c))o.push(VOW[c]);
-    else if('mbp'.includes(c))o.push([0,.95]);
-    else if('fv'.includes(c))o.push([.1,1.05]);
-    else if(c==='w')o.push([.5,.6]);
-    else if('lntd'.includes(c))o.push([.28,1]);
-    else o.push([.16,1]);
+  const t=w.toLowerCase().replace(/&/g,' and ').replace(/%/g,' percent ').replace(/\d/g,d=>' '+DIG[+d]+' ');
+  const o=[];
+  for(const p of t.replace(/[^a-z' ]/g,'').split(/\s+/).filter(Boolean)){
+    const pd=PRON[p.replace(/'/g,'')]||PRON[p];
+    for(const c of (pd||g2v(p)))o.push(VZ[c]||[.16,1]);
   }
   return o;
+}
+/* A feeling is a weight, not a switch: the sentence sets how much she feels, every feeling word pushes it up,
+   it fades unless the next words keep it alive, and feelings can mix (glad but worried). */
+function feel(k,wl){
+  const o=words[k],mo=MOOD[wl];
+  for(const n in fAcc){fAcc[n]*=.8;if(fAcc[n]<.02)delete fAcc[n]}
+  if(mo&&!o.m)fAcc[mo[0]]=(fAcc[mo[0]]||0)+mo[1]*.6*P.I;
+  const W={};for(const n in fAcc)W[n]=fAcc[n];
+  if(o.e&&o.e!=='neutral'&&o.w0)W[o.e]=Math.max(W[o.e]||0,o.w0*.68);
+  let sum=0;for(const n in W)sum+=W[n];
+  if(sum>1.25)for(const n in W)W[n]*=1.25/sum;
+  FW=W;let dom='neutral',dv=.05;for(const n in W)if(W[n]>dv){dv=W[n];dom=n}
+  emo=dom;emoM=o.m||null;emoUntil=0;
+}
+function blendT(){
+  const names=Object.keys(FW).filter(n=>FW[n]>.02&&E[n]),T={};let dom='neutral',dv=0;
+  for(const n of names)if(FW[n]>dv){dv=FW[n];dom=n}
+  for(const k of PK.concat(['gx','gy'])){let v=base[k];for(const n of names)v+=FW[n]*(E[n][k]-base[k]);T[k]=v}
+  T.c=[0,1,2].map(i=>base.c[i]+names.reduce((a,n)=>a+FW[n]*(E[n].c[i]-base.c[i]),0));
+  T.fx=dv>.35?E[dom].fx:0;return T;
 }
 function advance(k){
   if(k<=wi||k>=words.length)return;
@@ -5365,13 +5502,11 @@ function advance(k){
   P.emph=/[!?]$/.test(w)||/^[A-Z]{3,}/.test(w)?1.4:.8;
   P.I=/!$/.test(w)?1.3:/\?$/.test(w)?.9:1.05;
   if(/^(very|so|really|extremely|totally|absolutely|incredibly|super)$/.test(wl))P.I=1.4;else if(/^(slightly|somewhat|kinda|bit|little)$/.test(wl))P.I=.7;
-  let e=words[k].e;
-  if(!words[k].m){const mo=MOOD[wl];if(mo&&mo[1]>=.7)e=mo[0];else for(const[re,n]of AUTO)if(re.test(wl)){e=n;break}}
-  setEmo(e);emoM=words[k].m||null;
+  feel(k,wl);if(onSpeechWord)onSpeechWord(k,words.length);
   
 }
 function finish(){if(!speaking)return;speaking=false;P.lipT=0;emoUntil=performance.now()+1500;const f=onSpeechEnd;onSpeechEnd=null;if(f)setTimeout(f,0);}
-function stopAll(){speechTok++;clearTimeout(runTimer);try{speechSynthesis.cancel()}catch(e){}speaking=false;P.lipT=0;emo='neutral';}
+function stopAll(){speechTok++;clearTimeout(runTimer);try{speechSynthesis.cancel()}catch(e){}speaking=false;P.lipT=0;emo='neutral';FW={};fAcc={};}
 function pickVoice(){
   try{const vs=speechSynthesis.getVoices();if(!vs.length)return null;
     for(const re of[/google uk english male/i,/daniel/i,/david/i,/alex/i,/george/i,/mark/i,/james/i,/male/i]){const v=vs.find(v=>re.test(v.name)&&/^en/i.test(v.lang));if(v)return v}
@@ -5387,22 +5522,26 @@ function speakSentences(){
     if(cu.length)groups.push(cu);
     const v=pickVoice();
     groups.forEach((g,gi)=>{
-      const txt=g.map(i=>words[i].w).join(' '),pr=PROS[words[g[0]].e]||PROS.neutral,u=new SpeechSynthesisUtterance(txt);
-      u.pitch=pr[0];u.rate=pr[1];if(v)u.voice=v;
+      const txt=g.map(i=>words[i].w).join(' '),u=new SpeechSynthesisUtterance(txt);
+      const ws={};g.forEach(i=>{const o=words[i];if(o.e&&o.e!=='neutral')ws[o.e]=(ws[o.e]||0)+(o.w0||0)/g.length});
+      let pit=1,rat=.97;for(const n in ws){const p=PROS[n]||PROS.neutral;pit+=ws[n]*(p[0]-1);rat+=ws[n]*(p[1]-.97)}
+      u.pitch=pit;u.rate=rat;if(v)u.voice=v;g.forEach(i=>{sched[i]=sched[i]*.97/rat});
       const off=[];let p=0;g.forEach(i=>{p=txt.indexOf(words[i].w,p);off.push(p);p+=words[i].w.length});
-      u.onstart=()=>{if(tok!==speechTok)return;speakStart=performance.now()-cum[g[0]];advance(g[0])};
+      let startT=0;const learn=()=>{if(tok!==speechTok||!startT)return;const act=performance.now()-startT,est=g.reduce((a,i)=>a+sched[i],0);if(est>0)learned=clamp(learned*.6+(act/est)*.4,.5,2)};
+      u.onstart=()=>{if(tok!==speechTok)return;startT=performance.now();speakStart=startT-cum[g[0]]*learned;advance(g[0])};
       u.onboundary=e=>{if(tok!==speechTok)return;if(e.name&&e.name!=='word')return;boundarySeen=true;let k=0;for(let j=0;j<off.length;j++)if(off[j]<=e.charIndex)k=j;advance(g[k])};
-      if(gi===groups.length-1){const fin=()=>{if(tok===speechTok)finish()};u.onend=fin;u.onerror=fin}
+      if(gi===groups.length-1){const fin=()=>{learn();if(tok===speechTok)finish()};u.onend=fin;u.onerror=fin}else{u.onend=learn}
       speechSynthesis.speak(u);
     });
+    cum=[];let ac=0;sched.forEach(d=>{cum.push(ac);ac+=d});
     return true;
   }catch(e){return false}
 }
 function speak(text,cb){
-  stopAll();onSpeechEnd=cb&&cb.onend||null;onSpeechStart=cb&&cb.onstart||null;words=parse(text);if(!words.length){const f=onSpeechEnd;onSpeechEnd=null;if(f)setTimeout(f,0);return}
+  stopAll();onSpeechEnd=cb&&cb.onend||null;onSpeechStart=cb&&cb.onstart||null;onSpeechWord=cb&&cb.onword||null;words=parse(text);if(!words.length){const f=onSpeechEnd;onSpeechEnd=null;if(f)setTimeout(f,0);return}
   const spoken=words.map(o=>o.w).join(' ');
   sched=words.map(o=>{const l=o.w.replace(/[^a-z]/gi,'').length;return 90+l*62+(/[,;:]$/.test(o.w)?220:/[.!?]$/.test(o.w)?400:0)});
-  cum=[];let ac=0;sched.forEach(d=>{cum.push(ac);ac+=d});ratio=1;curVis=[];
+  cum=[];let ac=0;sched.forEach(d=>{cum.push(ac);ac+=d});ratio=1;learned=1;curVis=[];
   starts=[];let pos=0;for(const o of words){pos=spoken.indexOf(o.w,pos);starts.push(pos);pos+=o.w.length}
   
   runTimer=setTimeout(()=>{
@@ -5419,7 +5558,7 @@ function speak(text,cb){
 /* ---------- update ---------- */
 function update(dt,now){
   cornerV+=(((cornerOn?1:0)-cornerT)*60-cornerV*9.5)*dt;cornerT+=cornerV*dt;
-  const T=E[emo];
+  const T=blendT();
   const TM=emoM==='polite'?POLITE:(emoM&&E[emoM])||T;for(const k of PK){const S2=MKEYS.includes(k)?TM:T;const tv=base[k]+(S2[k]-base[k])*P.I;V[k]+=((tv-P[k])*70-V[k]*10.5)*dt;P[k]+=V[k]*dt}
   for(let i=0;i<3;i++)col[i]+=(T.c[i]-col[i])*Math.min(1,dt*6);
   gazeT-=dt;if(gazeT<=0){gtx=(rnd()-.5)*.9;gty=(rnd()-.5)*.5;gazeT=1.2+rnd()*2.2}
@@ -5432,10 +5571,10 @@ function update(dt,now){
   if(blinkT>=0){blinkT+=dt;const ph=blinkT/.15;if(ph>=1){blinkT=-1;P.blink=0}else P.blink=Math.sin(ph*Math.PI)}
   if(speaking){
     const el=(now-speakStart)/1000;
-    if(!boundarySeen){let k=0;const ms=el*1000;while(k<words.length-1&&ms>=cum[k+1])k++;advance(k)}
+    if(!boundarySeen){let k=0;const ms=el*1000/learned;while(k<words.length-1&&ms>=cum[k+1])k++;advance(k)}
     if(el>words.length*.9+5)finish();
     if(wi>=0){
-      const n=curVis.length,wd=(sched[wi]||400)*ratio,slot=wd*.9;
+      const n=curVis.length,wd=(sched[wi]||400)*(boundarySeen?ratio:learned),slot=wd*.9;
       const pos=wpos(now-wordStart+50,curVis,slot),pun=/[.!?]$/.test(words[wi].w),nv=nextVis[0];
       if(n===0||pos>=n+.3){P.lipT=pun?0:(nv?Math.max(.08,nv[0]*.6*nextAmp):.07);P.wideT=pun||!nv?1:1+(nv[1]-1)*nextWM}
       else{
@@ -5445,12 +5584,12 @@ function update(dt,now){
         P.wideT=1+(a[1]+(b[1]-a[1])*f-1)*wm;
       }
     }
-  }else{P.lipT=0;P.wideT=1;if(emo!=='neutral'&&emoUntil&&now>emoUntil)emo='neutral';if(emo==='neutral')emoM=null}
+  }else{P.lipT=0;P.wideT=1;if(emo!=='neutral'&&emoUntil&&now>emoUntil){emo='neutral';FW={};fAcc={}}if(emo==='neutral')emoM=null}
   P.lip+=(P.lipT-P.lip)*Math.min(1,dt*16);P.wide+=(P.wideT-P.wide)*Math.min(1,dt*10);
   P.emph=Math.max(0,P.emph-dt*3);
   P.I+=(1-P.I)*Math.min(1,dt*1.2);
   const rt=(ROLL[emo]||0)+(speaking?Math.sin(t*2.1)*.025:0)+P.gx*.05+Math.sin(t*16)*.06*Math.min(1,Math.abs(cornerV));P.roll+=(rt-P.roll)*Math.min(1,dt*5);
-  const want=E[emo].fx;
+  const want=T.fx;
   if(want!==fxType){fxm=Math.max(0,fxm-dt*4);if(fxm<.05)fxType=want}else fxm=Math.min(1,fxm+dt*2);
   stateEl.textContent=(speaking?'talking · ':'')+emo;
 }
@@ -5513,12 +5652,12 @@ function frame2(now){
 /* ---------- live-room API ---------- */
 const AL={excited:'happy',proud:'happy',playful:'happy',laughing:'happy',grateful:'love',shy:'love',scared:'worried',lonely:'sad',bored:'sleepy',determined:'neutral',calm:'neutral',disgusted:'angry',thinking:'confused'};
 const LISTEN={excited:'excited',happy:'happy',sad:'calm',angry:'worried',worried:'calm',scared:'calm',sleepy:'sleepy',love:'love',surprised:'surprised',confused:'thinking',proud:'proud',laughing:'happy',grateful:'happy',neutral:'neutral'};
-function mirror(text){const m=moodOf(text.split(/\s+/).filter(Boolean).map(w=>({w})));return m?(LISTEN[m]||LISTEN[AL[m]]||'neutral'):null}
+function mirror(text){const mo=moodOf(text.split(/\s+/).filter(Boolean).map(w=>({w}))),m=mo&&mo[0];return m?[LISTEN[m]||LISTEN[AL[m]]||'neutral',mo[1]]:null}
 addEventListener('pointermove',e=>{ptr=[e.clientX,e.clientY];ptrT=performance.now()},{passive:true});
 function start(){
   if(running)return;running=true;cornerOn=false;cornerT=0;cornerV=0;
   for(const b of bots){b.px=(rnd()-.5)*5;b.py=(rnd()-.5)*5;b.vx=b.vy=0}
-  emo='neutral';emoM=null;last=performance.now();resize();requestAnimationFrame(frame);
+  emo='neutral';emoM=null;FW={};fAcc={};last=performance.now();resize();requestAnimationFrame(frame);
 }
 function stop(){running=false;stopAll()}
 window.DaisyFace={
@@ -5526,11 +5665,11 @@ window.DaisyFace={
   say(text,cb){speak(text,cb)},
   stopSay(){stopAll()},
   corner(on){cornerOn=!!on},
-  hear(text){const e=mirror(text);if(e&&!speaking)setEmo(e,2500)},
+  hear(text){if(speaking)return;const r=mirror(text);if(r){setEmo(r[0],2500);FW={[r[0]]:Math.min(1,r[1]+.1)}}},
   state(s){
     if(s==='thinking')setEmo('thinking',90000);
     else if(s==='listening'){if(!speaking)setEmo('calm',2500)}
-    else if(!speaking){emo='neutral';emoM=null;emoUntil=0}
+    else if(!speaking){emo='neutral';emoM=null;emoUntil=0;FW={};fAcc={}}
   },
   emote(n,ms){if(E[n])setEmo(n,ms||3000)},
   get speaking(){return speaking},
