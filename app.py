@@ -291,19 +291,27 @@ def ask():
 import asyncio
 from functools import lru_cache
 
-DEFAULT_VOICE = os.environ.get("DAISY_VOICE", "en-GB-SoniaNeural")
-ALLOWED_VOICES = {
-    "en-GB-SoniaNeural", "en-GB-LibbyNeural", "en-US-AvaNeural", "en-US-AriaNeural",
-    "en-KE-AsiliaNeural", "en-TZ-ImaniNeural", "sw-KE-ZuriNeural", "sw-TZ-RehemaNeural",
-    "en-GB-RyanNeural", "en-KE-ChilembaNeural",
-}
+DEFAULT_VOICE = os.environ.get("DAISY_VOICE", "en-US-AriaNeural")
+VOICES = [
+    "en-US-AriaNeural", "en-US-JennyNeural", "en-US-AvaNeural", "en-US-EmmaNeural",
+    "en-US-MichelleNeural", "en-US-AnaNeural", "en-GB-MaisieNeural", "en-GB-SoniaNeural",
+    "en-GB-LibbyNeural", "en-AU-NatashaNeural", "en-KE-AsiliaNeural", "en-TZ-ImaniNeural",
+    "en-NG-EzinneNeural", "en-ZA-LeahNeural", "sw-KE-ZuriNeural", "sw-TZ-RehemaNeural",
+]
+
+def _num(v, lo, hi, default):
+    try:
+        return max(lo, min(hi, int(float(v))))
+    except Exception:
+        return default
 
 @lru_cache(maxsize=300)
-def _tts_bytes(text, voice):
+def _tts_bytes(text, voice, rate, pitch):
     import edge_tts
     async def run():
         buf = bytearray()
-        async for chunk in edge_tts.Communicate(text, voice).stream():
+        comm = edge_tts.Communicate(text, voice, rate=f"{rate:+d}%", pitch=f"{pitch:+d}Hz")
+        async for chunk in comm.stream():
             if chunk["type"] == "audio":
                 buf.extend(chunk["data"])
         return bytes(buf)
@@ -314,18 +322,54 @@ def tts():
     data = request.get_json(silent=True) or {}
     text = (data.get("text") or "").strip()[:600]
     voice = data.get("voice") or DEFAULT_VOICE
-    if voice not in ALLOWED_VOICES:
+    if voice not in VOICES:
         voice = DEFAULT_VOICE
+    rate = _num(data.get("rate", 12), -30, 50, 12)
+    pitch = _num(data.get("pitch", 6), -20, 30, 6)
     if not text:
         return ("", 400)
-    try:
-        audio = _tts_bytes(text, voice)
-    except Exception as e:
-        print(f"[tts] failed: {e}")
-        return ("", 502)
+    audio = b""
+    for v in ([voice] if voice == DEFAULT_VOICE else [voice, DEFAULT_VOICE]):
+        try:
+            audio = _tts_bytes(text, v, rate, pitch)
+            if audio:
+                break
+        except Exception as e:
+            print(f"[tts] {v} failed: {e}")
     if not audio:
         return ("", 502)
     return Response(audio, mimetype="audio/mpeg", headers={"Cache-Control": "private, max-age=3600"})
+
+VOICE_TEST_HTML = """<!doctype html><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Daisy voice lab</title>
+<body style="font-family:system-ui;max-width:520px;margin:0 auto;padding:18px;background:#1e1e1e;color:#eee">
+<h2>Daisy voice lab</h2>
+<p>Pick a voice, slide speed and pitch, tap Play. When she sounds right, tap Save.</p>
+<label>Voice</label><select id=v style="width:100%;padding:10px;margin:6px 0 14px">__OPTS__</select>
+<label>Speed: <b id=rv></b>%</label><input id=r type=range min=-10 max=40 value=12 style="width:100%">
+<label>Pitch: <b id=pv></b> Hz</label><input id=p type=range min=-5 max=25 value=6 style="width:100%">
+<textarea id=t rows=3 style="width:100%;margin:12px 0;padding:10px">Hi! I'm Daisy! Ooh, that's such a good question. Let's figure it out together!</textarea>
+<button id=play style="padding:12px 20px;font-size:16px">Play</button>
+<button id=save style="padding:12px 20px;font-size:16px">Save as Daisy's voice</button>
+<p id=m></p>
+<script>
+const $=i=>document.getElementById(i),A=new Audio();
+const L=k=>localStorage.getItem(k);
+if(L('daisy_voice'))$('v').value=L('daisy_voice');
+if(L('daisy_rate')!==null)$('r').value=L('daisy_rate');
+if(L('daisy_pitch')!==null)$('p').value=L('daisy_pitch');
+function show(){$('rv').textContent=$('r').value;$('pv').textContent=$('p').value}
+$('r').oninput=$('p').oninput=show;show();
+$('play').onclick=async()=>{$('m').textContent='Loading...';
+ try{const x=await fetch('/tts',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:$('t').value,voice:$('v').value,rate:+$('r').value,pitch:+$('p').value})});
+ if(!x.ok)throw 0;A.src=URL.createObjectURL(await x.blob());await A.play();$('m').textContent='';}catch(e){$('m').textContent='Could not load that voice. Try another.'}};
+$('save').onclick=()=>{localStorage.setItem('daisy_voice',$('v').value);localStorage.setItem('daisy_rate',$('r').value);localStorage.setItem('daisy_pitch',$('p').value);$('m').textContent='Saved! Open Daisy and talk to her.'};
+</script>"""
+
+@app.route("/voice-test")
+def voice_test():
+    opts = "".join(f'<option value="{v}">{v}</option>' for v in VOICES)
+    return Response(VOICE_TEST_HTML.replace("__OPTS__", opts), mimetype="text/html")
 
 # ── CORRECTIONS (console "Knowledge" tab — teach Daisy answers) ──────────
 @app.route("/api/corrections", methods=["GET", "POST", "DELETE"])
