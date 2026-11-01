@@ -2011,6 +2011,51 @@
           <span></span>
         </label>
       </div>
+
+      <button class="settings-row settings-row-btn" id="voice-row">
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
+        <div class="s-row-text"><div class="s-row-title">Daisy's voice</div><div class="s-row-sub" id="voice-value">Aria (bright &amp; cheerful)</div></div>
+        <span class="s-chevron">▾</span>
+      </button>
+      <div id="voice-options" class="settings-options" style="display:none;">
+        <button class="settings-option" data-voice-choice="en-US-AriaNeural"><strong>Aria</strong>  bright &amp; cheerful</button>
+        <button class="settings-option" data-voice-choice="en-US-JennyNeural"><strong>Jenny</strong>  friendly</button>
+        <button class="settings-option" data-voice-choice="en-US-EmmaNeural"><strong>Emma</strong>  young woman</button>
+        <button class="settings-option" data-voice-choice="en-US-AnaNeural"><strong>Ana</strong>  young girl, playful</button>
+        <button class="settings-option" data-voice-choice="en-GB-MaisieNeural"><strong>Maisie</strong>  young girl, British</button>
+        <button class="settings-option" data-voice-choice="en-KE-AsiliaNeural"><strong>Asilia</strong>  East African English</button>
+        <button class="settings-option" data-voice-choice="sw-KE-ZuriNeural"><strong>Zuri</strong>  Swahili</button>
+        <button class="settings-option" data-voice-choice="phone"><strong>Phone voice</strong>  the original, plainer one</button>
+      </div>
+      <button class="settings-row settings-row-btn" id="energy-row">
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
+        <div class="s-row-text"><div class="s-row-title">Energy</div><div class="s-row-sub" id="energy-value">Lively</div></div>
+        <span class="s-chevron">▾</span>
+      </button>
+      <div id="energy-options" class="settings-options" style="display:none;">
+        <button class="settings-option" data-energy-choice="calm"><strong>Calm</strong>  relaxed and gentle</button>
+        <button class="settings-option" data-energy-choice="lively"><strong>Lively</strong>  upbeat (default)</button>
+        <button class="settings-option" data-energy-choice="excited"><strong>Excited</strong>  fast and bubbly</button>
+      </div>
+      <div class="settings-row">
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
+        <div class="s-row-text">
+          <div class="s-row-title">Human expressions</div>
+          <div class="s-row-sub">Adds natural reactions like "ooh", "ha", "hmm" and smoother wording</div>
+        </div>
+        <label class="settings-toggle">
+          <input type="checkbox" id="expressive-toggle" checked />
+          <span></span>
+        </label>
+      </div>
+      <button class="settings-row settings-row-btn" id="voice-preview-btn">
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
+        <div class="s-row-text"><div class="s-row-title">Hear Daisy</div><div class="s-row-sub">Plays a short sample with your settings</div></div>
+      </button>
+      <a class="settings-row settings-row-btn" href="/voice-test" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
+        <div class="s-row-text"><div class="s-row-title">Voice lab</div><div class="s-row-sub">Fine-tune speed and pitch</div></div>
+      </a>
     </div>
 
     <div class="settings-section-label">Web search</div>
@@ -2462,6 +2507,45 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem(TTS_KEY, ttsDefaultToggle.checked ? '1' : '0');
     setTtsOn(ttsDefaultToggle.checked);
   };
+
+
+  // Daisy's voice, energy and human expressions (Settings → Voice)
+  const VOICE_LABELS = {
+    'en-US-AriaNeural': 'Aria (bright & cheerful)', 'en-US-JennyNeural': 'Jenny (friendly)',
+    'en-US-EmmaNeural': 'Emma (young woman)', 'en-US-AnaNeural': 'Ana (young girl, playful)',
+    'en-GB-MaisieNeural': 'Maisie (young girl, British)', 'en-KE-AsiliaNeural': 'Asilia (East African English)',
+    'sw-KE-ZuriNeural': 'Zuri (Swahili)', 'phone': 'Phone voice'
+  };
+  const ENERGY = { calm: [0, 0], lively: [12, 6], excited: [22, 10] };
+  const voiceRow = document.getElementById('voice-row'), voiceOptions = document.getElementById('voice-options'), voiceValueEl = document.getElementById('voice-value');
+  const energyRow = document.getElementById('energy-row'), energyOptions = document.getElementById('energy-options'), energyValueEl = document.getElementById('energy-value');
+  function showVoice() {
+    const v = localStorage.getItem('daisy_voice') || 'en-US-AriaNeural';
+    voiceValueEl.textContent = VOICE_LABELS[v] || v;
+    voiceOptions.querySelectorAll('.settings-option').forEach(o => o.classList.toggle('selected', o.dataset.voiceChoice === v));
+  }
+  function showEnergy() {
+    const r = localStorage.getItem('daisy_rate'), pt = localStorage.getItem('daisy_pitch');
+    let name = 'Custom (from Voice lab)';
+    if (r === null && pt === null) name = 'Lively';
+    else for (const k in ENERGY) if (+r === ENERGY[k][0] && +pt === ENERGY[k][1]) name = k[0].toUpperCase() + k.slice(1);
+    energyValueEl.textContent = name;
+    energyOptions.querySelectorAll('.settings-option').forEach(o => o.classList.toggle('selected', name.toLowerCase() === o.dataset.energyChoice));
+  }
+  showVoice(); showEnergy();
+  const closeVoiceLists = () => { voiceOptions.style.display = 'none'; energyOptions.style.display = 'none'; };
+  voiceRow.onclick = () => { const open = voiceOptions.style.display === 'none'; closeVoiceLists(); themeOptions.style.display = 'none'; accentOptions.style.display = 'none'; modelOptions.style.display = 'none'; voiceOptions.style.display = open ? 'block' : 'none'; };
+  energyRow.onclick = () => { const open = energyOptions.style.display === 'none'; closeVoiceLists(); themeOptions.style.display = 'none'; accentOptions.style.display = 'none'; modelOptions.style.display = 'none'; energyOptions.style.display = open ? 'block' : 'none'; };
+  voiceOptions.querySelectorAll('.settings-option').forEach(btn => {
+    btn.onclick = () => { localStorage.setItem('daisy_voice', btn.dataset.voiceChoice); showVoice(); voiceOptions.style.display = 'none'; };
+  });
+  energyOptions.querySelectorAll('.settings-option').forEach(btn => {
+    btn.onclick = () => { const e = ENERGY[btn.dataset.energyChoice]; localStorage.setItem('daisy_rate', e[0]); localStorage.setItem('daisy_pitch', e[1]); showEnergy(); energyOptions.style.display = 'none'; };
+  });
+  const expressiveToggle = document.getElementById('expressive-toggle');
+  expressiveToggle.checked = localStorage.getItem('daisy_expressive') !== '0';
+  expressiveToggle.onchange = () => localStorage.setItem('daisy_expressive', expressiveToggle.checked ? '1' : '0');
+  document.getElementById('voice-preview-btn').onclick = () => speak("Hi! I'm Daisy. Ooh, I'm so happy to talk with you today! Ask me anything, and let's figure it out together.");
 
   // Web search — a standing permission ("can Daisy search at all?"), not a
   // per-message action. Daisy still decides, message by message, whether a
@@ -4275,12 +4359,100 @@ document.addEventListener('DOMContentLoaded', function() {
   function setTtsOn(on) { ttsOn = on; }
   setTtsOn(localStorage.getItem('daisy_tts_default') === '1');
 
+  // ── HUMAN EXPRESSION: contractions + the odd "ooh", "ha", "hmm" so she sounds alive.
+  // Deterministic (seeded by the text) so the spoken words and the on-screen
+  // reveal always line up. Turn off in Settings → Voice → Human expressions. ──
+  const IJ_RE = /^(ooh|oh|aww|ha|haha|hmm|wow|yay|ah|mmm|whoa|okay|alright|so|well)$/;
+  function humanizeForSpeech(t) {
+    try {
+      if (localStorage.getItem('daisy_expressive') === '0' || localStorage.getItem('daisy_voice') === 'phone') return t;
+    } catch (e) {}
+    if (!t || t.split(/\s+/).length < 2) return t;
+    let s = t.replace(/\s*[—–]\s*/g, ', ');
+    const CONTR = {'do not':"don't",'does not':"doesn't",'did not':"didn't",'is not':"isn't",'are not':"aren't",'was not':"wasn't",'cannot':"can't",'will not':"won't",'would not':"wouldn't",'should not':"shouldn't",'i am':"I'm",'you are':"you're",'we are':"we're",'they are':"they're",'it is':"it's",'that is':"that's",'there is':"there's",'let us':"let's",'i will':"I'll",'you will':"you'll",'what is':"what's"};
+    s = s.replace(new RegExp('\\b(' + Object.keys(CONTR).join('|') + ')(?=\\s+[A-Za-z])', 'gi'), (m) => {
+      const r = CONTR[m.toLowerCase()];
+      return (m[0] === m[0].toUpperCase() && r[0] === r[0].toLowerCase()) ? r[0].toUpperCase() + r.slice(1) : r;
+    });
+    let seed = 0; for (let i = 0; i < Math.min(s.length, 200); i++) seed = (seed * 31 + s.charCodeAt(i)) | 0;
+    const rnd = () => { seed = (seed + 0x6D2B79F5) | 0; let x = Math.imul(seed ^ (seed >>> 15), 1 | seed); x = (x + Math.imul(x ^ (x >>> 7), 61 | x)) ^ x; return ((x ^ (x >>> 14)) >>> 0) / 4294967296; };
+    const pick = (a) => a[Math.floor(rnd() * a.length)];
+    const START = /^(ooh|oh|aww|ha|haha|hmm|wow|yay|ah|mmm|whoa|okay|alright|hey|hi|hello|well|so|sorry|thanks|thank|yes|yeah|no|sure|great|good|nice|congrat\w*|welcome|please|of)\b/i;
+    const joy = /\b(great|awesome|amazing|love|wonderful|fantastic|congrat\w*|excellent|nice|cool|perfect|brilliant|fun|exciting|excited|good (?:question|idea|job))\b/i;
+    const wow = /\b(did you know|interesting|surprising|incredible|fun fact|discover\w*|secret|imagine|actually)\b/i;
+    const funny = /\b(funny|joke|lol|haha|silly|laugh\w*)\b/i;
+    const soft = /\b(sorry|sad|unfortunately|difficult|loss|hurt|tough|passed away)\b/i;
+    const think = /\b(because|let's|let me|first|step|here's how|to start|remember)\b/i;
+    const sents = s.match(/[^.!?]+[.!?]*\s*/g) || [s];
+    let used = 0, last = -9;
+    const out = sents.map((x, i) => {
+      const body = x.trim();
+      if (!body || START.test(body) || /^[\d#*>\-]/.test(body) || body.split(/\s+/).length < 3 || body.length > 240 || used >= 3) return x;
+      let pre = '';
+      if (i === 0) {
+        if (rnd() < 0.8) {
+          if (funny.test(body)) pre = pick(['Haha! ', 'Ha! ']);
+          else if (soft.test(body)) pre = pick(['Aww, ', 'Oh, ']);
+          else if (joy.test(body)) pre = pick(['Ooh, ', 'Yay! ', 'Ooh! ']);
+          else if (wow.test(body)) pre = pick(['Ooh! ', 'Wow! ', 'Oh! ']);
+          else if (think.test(body)) pre = pick(['Okay, so ', 'Alright, ', 'Hmm, ']);
+        }
+      } else if (i - last >= 3 && rnd() < 0.2) {
+        if (funny.test(body)) pre = 'Ha! ';
+        else if (soft.test(body)) pre = 'Aww, ';
+        else if (joy.test(body)) pre = pick(['Ooh, ', 'Yay! ']);
+        else if (wow.test(body)) pre = pick(['Ooh! ', 'Wow! ']);
+      }
+      if (pre) { used++; last = i; return pre + x; }
+      return x;
+    });
+    return out.join('').trim();
+  }
+
+  // ── CHAT READ-ALOUD: same neural voice as the live room; falls back to the phone voice. ──
+  let readAudio = null, readTok = 0, readUnlocked = false;
+  function unlockRead() {
+    if (readUnlocked) return; readUnlocked = true;
+    try {
+      readAudio = readAudio || new Audio();
+      readAudio.src = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=';
+      const p = readAudio.play(); if (p && p.catch) p.catch(() => { readUnlocked = false; });
+    } catch (e) { readUnlocked = false; }
+  }
+  ['pointerdown', 'touchstart', 'keydown'].forEach(ev => addEventListener(ev, unlockRead, { passive: true }));
+  function chunkForSpeech(t) {
+    const ss = t.match(/[^.!?]+[.!?]*\s*/g) || [t], out = []; let cur = '';
+    ss.forEach(x => { if (cur && (cur + x).length > 220) { out.push(cur.trim()); cur = x; } else cur += x; });
+    if (cur.trim()) out.push(cur.trim());
+    return out.slice(0, 8);
+  }
   function speak(text) {
-    if (!window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
-    const utt = new SpeechSynthesisUtterance(text);
-    utt.rate = 1.0; utt.pitch = 1.05;
-    window.speechSynthesis.speak(utt);
+    readTok++; const my = readTok;
+    try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {}
+    try { if (readAudio) { readAudio.onended = readAudio.onerror = null; readAudio.pause(); } } catch (e) {}
+    const phone = () => {
+      if (!window.speechSynthesis || my !== readTok) return;
+      const utt = new SpeechSynthesisUtterance(text);
+      utt.rate = 1.0; utt.pitch = 1.05;
+      window.speechSynthesis.speak(utt);
+    };
+    let v = ''; try { v = localStorage.getItem('daisy_voice') || ''; } catch (e) {}
+    if (v === 'phone' || !window.DaisyTTS) return phone();
+    const parts = chunkForSpeech(humanizeForSpeech(cleanForSpeech(text)));
+    if (!parts.length) return;
+    readAudio = readAudio || new Audio();
+    const play = (i) => {
+      if (my !== readTok || i >= parts.length) return;
+      if (i + 1 < parts.length) window.DaisyTTS.fetch(parts[i + 1], 0, 0).catch(() => {});
+      window.DaisyTTS.fetch(parts[i], 0, 0).then(url => {
+        if (my !== readTok) return;
+        readAudio.onended = () => play(i + 1);
+        readAudio.onerror = () => { if (i === 0) phone(); else play(i + 1); };
+        readAudio.src = url;
+        const pr = readAudio.play(); if (pr && pr.catch) pr.catch(() => { if (i === 0) phone(); });
+      }).catch(() => { if (i === 0) phone(); else play(i + 1); });
+    };
+    play(0);
   }
 
   // ── LIVE ROOM ─────────────────────────────────────────
@@ -4414,12 +4586,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const toks = text.split(/(\s+)/), wordPos = [];
     toks.forEach((t, i) => { if (t.trim()) wordPos.push(i); });
     const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const spoken = cleanForSpeech(text).slice(0, 1400).split(/\s+/).filter(Boolean), map = [];
+    const spoken = humanizeForSpeech(cleanForSpeech(text)).slice(0, 1400).split(/\s+/).filter(Boolean), map = [];
     let p = 0;
     for (const sw of spoken) {            // line each spoken word up with its place in the written message
       let hit = -1;
       for (let q = p; q < Math.min(wordPos.length, p + 8); q++) { if (norm(toks[wordPos[q]]) === norm(sw)) { hit = q; break; } }
-      p = hit >= 0 ? hit + 1 : Math.min(wordPos.length, p + 1);
+      p = hit >= 0 ? hit + 1 : (IJ_RE.test(norm(sw)) ? p : Math.min(wordPos.length, p + 1));
       map.push(p);
     }
     let done = false;
@@ -4467,7 +4639,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function liveSpeakAnswer(question, answer, sync) {
     return new Promise((resolve) => {
       const sim = detectSim(question, answer);
-      const text = cleanForSpeech(answer).slice(0, 1400);
+      const text = humanizeForSpeech(cleanForSpeech(answer)).slice(0, 1400);
       liveSpeaking = true; stopSpeechRecognition(); micWave.classList.add('talking');
       if (sim && window.DaisyBots) DaisyBots.form(sim, Math.max(7000, text.split(/\s+/).length * 420 + 3000));
       const done = () => {
@@ -5557,14 +5729,36 @@ function fetchTTS(txt,r,pt){
   if(ttsCache.size>40)ttsCache.delete(ttsCache.keys().next().value);
   return p;
 }
+window.DaisyTTS={fetch:fetchTTS};
 function speakNeural(){
   try{
     if(neuralBroken||window.DAISY_NEURAL_VOICE===false)return false;
-    const tok=++speechTok,groups=[];let cu=[];
-    words.forEach((o,i)=>{cu.push(i);if(/[.!?]$/.test(o.w)){groups.push(cu);cu=[]}});
-    if(cu.length)groups.push(cu);
+    try{if(localStorage.getItem('daisy_voice')==='phone')return false}catch(e){}
+    const tok=++speechTok,sents=[];let cu=[];
+    words.forEach((o,i)=>{cu.push(i);if(/[.!?]$/.test(o.w)){sents.push(cu);cu=[]}});
+    if(cu.length)sents.push(cu);
+    const IJ=/^(ooh|oh|aww|ha|haha|hmm|wow|yay|ah|mmm|whoa|okay|alright|hey)$/i;
+    const ijw=i=>IJ.test(words[i].w.replace(/[^a-z]/gi,''));
+    const chars=g=>g.reduce((a,i)=>a+words[i].w.length+1,0);
+    const groups=[];let acc=[],ns=0,single=2;
+    sents.forEach((sg,si)=>{
+      if(single>0){
+        single--;
+        if(si===0&&sg.length>1&&ijw(sg[0])&&/[!,.]$/.test(words[sg[0]].w)){groups.push([sg[0]]);groups.push(sg.slice(1))}else groups.push(sg);
+        return;
+      }
+      acc=acc.concat(sg);ns++;
+      if(chars(acc)>=200||ns>=3){groups.push(acc);acc=[];ns=0}
+    });
+    if(acc.length)groups.push(acc);
     const txts=groups.map(g=>g.map(i=>words[i].w).join(' '));
-    const energy=groups.map((g,gi)=>{const ws={};g.forEach(i=>{const o=words[i];if(o.e&&o.e!=='neutral')ws[o.e]=(ws[o.e]||0)+(o.w0||0)/g.length});let pit=1,rat=.97;for(const n in ws){const q=PROS[n]||PROS.neutral;pit+=ws[n]*(q[0]-1);rat+=ws[n]*(q[1]-.97)}const t=txts[gi]||'';return{r:(rat-.97)*100+(/!$/.test(t)?6:0),p:(pit-1)*60+(/!$/.test(t)?4:/\?$/.test(t)?3:0)}});
+    const energy=groups.map((g,gi)=>{
+      const ws={};g.forEach(i=>{const o=words[i];if(o.e&&o.e!=='neutral')ws[o.e]=(ws[o.e]||0)+(o.w0||0)/g.length});
+      let pit=1,rat=.97;for(const n in ws){const q=PROS[n]||PROS.neutral;pit+=ws[n]*(q[0]-1);rat+=ws[n]*(q[1]-.97)}
+      const t=txts[gi]||'';let r=(rat-.97)*100+(/!$/.test(t)?6:0),pp=(pit-1)*60+(/!$/.test(t)?4:/\?$/.test(t)?3:0);
+      if(g.length===1&&ijw(g[0])){const w=words[g[0]].w.replace(/[^a-z]/gi,'').toLowerCase();if(/^(ooh|wow|yay|ha|haha|whoa|oh)$/.test(w)){r+=4;pp+=5}else if(/^(hmm|aww|ah|mmm)$/.test(w)){r-=6;pp-=2}}
+      return{r:r,p:pp};
+    });
     cum=[];let ac=0;sched.forEach(d=>{cum.push(ac);ac+=d});
     boundarySeen=false;awaitAudio=true;
     let played=0;
