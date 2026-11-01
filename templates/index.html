@@ -2014,7 +2014,7 @@
 
       <button class="settings-row settings-row-btn" id="voice-row">
         <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
-        <div class="s-row-text"><div class="s-row-title">Daisy's voice</div><div class="s-row-sub" id="voice-value">Aria (bright &amp; cheerful)</div></div>
+        <div class="s-row-text"><div class="s-row-title">Daisy's voice</div><div class="s-row-sub" id="voice-value">Emma (young woman)</div></div>
         <span class="s-chevron">▾</span>
       </button>
       <div id="voice-options" class="settings-options" style="display:none;">
@@ -2037,25 +2037,10 @@
         <button class="settings-option" data-energy-choice="lively"><strong>Lively</strong>  upbeat (default)</button>
         <button class="settings-option" data-energy-choice="excited"><strong>Excited</strong>  fast and bubbly</button>
       </div>
-      <div class="settings-row">
-        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
-        <div class="s-row-text">
-          <div class="s-row-title">Human expressions</div>
-          <div class="s-row-sub">Adds natural reactions like "ooh", "ha", "hmm" and smoother wording</div>
-        </div>
-        <label class="settings-toggle">
-          <input type="checkbox" id="expressive-toggle" checked />
-          <span></span>
-        </label>
-      </div>
       <button class="settings-row settings-row-btn" id="voice-preview-btn">
         <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
         <div class="s-row-text"><div class="s-row-title">Hear Daisy</div><div class="s-row-sub">Plays a short sample with your settings</div></div>
       </button>
-      <a class="settings-row settings-row-btn" href="/voice-test" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></span>
-        <div class="s-row-text"><div class="s-row-title">Voice lab</div><div class="s-row-sub">Fine-tune speed and pitch</div></div>
-      </a>
     </div>
 
     <div class="settings-section-label">Web search</div>
@@ -2520,7 +2505,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const voiceRow = document.getElementById('voice-row'), voiceOptions = document.getElementById('voice-options'), voiceValueEl = document.getElementById('voice-value');
   const energyRow = document.getElementById('energy-row'), energyOptions = document.getElementById('energy-options'), energyValueEl = document.getElementById('energy-value');
   function showVoice() {
-    const v = localStorage.getItem('daisy_voice') || 'en-US-AriaNeural';
+    const v = localStorage.getItem('daisy_voice') || 'en-US-EmmaNeural';
     voiceValueEl.textContent = VOICE_LABELS[v] || v;
     voiceOptions.querySelectorAll('.settings-option').forEach(o => o.classList.toggle('selected', o.dataset.voiceChoice === v));
   }
@@ -2542,9 +2527,6 @@ document.addEventListener('DOMContentLoaded', function() {
   energyOptions.querySelectorAll('.settings-option').forEach(btn => {
     btn.onclick = () => { const e = ENERGY[btn.dataset.energyChoice]; localStorage.setItem('daisy_rate', e[0]); localStorage.setItem('daisy_pitch', e[1]); showEnergy(); energyOptions.style.display = 'none'; };
   });
-  const expressiveToggle = document.getElementById('expressive-toggle');
-  expressiveToggle.checked = localStorage.getItem('daisy_expressive') !== '0';
-  expressiveToggle.onchange = () => localStorage.setItem('daisy_expressive', expressiveToggle.checked ? '1' : '0');
   document.getElementById('voice-preview-btn').onclick = () => speak("Hi! I'm Daisy. Ooh, I'm so happy to talk with you today! Ask me anything, and let's figure it out together.");
 
   // Web search — a standing permission ("can Daisy search at all?"), not a
