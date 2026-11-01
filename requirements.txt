@@ -5,3 +5,4 @@ schedule
 py-mini-racer
 reportlab
 fpdf2
+edge-tts

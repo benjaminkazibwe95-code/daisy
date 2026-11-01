@@ -284,6 +284,49 @@ def ask():
 
     return Response(stream_with_context(generate()), mimetype="application/x-ndjson")
 
+
+# ── NEURAL VOICE (free, no API key) ───────────────────────────────────────
+# Uses the open-source `edge-tts` package. Daisy's browser falls back to the
+# phone's own voice automatically if this route ever fails.
+import asyncio
+from functools import lru_cache
+
+DEFAULT_VOICE = os.environ.get("DAISY_VOICE", "en-GB-SoniaNeural")
+ALLOWED_VOICES = {
+    "en-GB-SoniaNeural", "en-GB-LibbyNeural", "en-US-AvaNeural", "en-US-AriaNeural",
+    "en-KE-AsiliaNeural", "en-TZ-ImaniNeural", "sw-KE-ZuriNeural", "sw-TZ-RehemaNeural",
+    "en-GB-RyanNeural", "en-KE-ChilembaNeural",
+}
+
+@lru_cache(maxsize=300)
+def _tts_bytes(text, voice):
+    import edge_tts
+    async def run():
+        buf = bytearray()
+        async for chunk in edge_tts.Communicate(text, voice).stream():
+            if chunk["type"] == "audio":
+                buf.extend(chunk["data"])
+        return bytes(buf)
+    return asyncio.run(run())
+
+@app.route("/tts", methods=["POST"])
+def tts():
+    data = request.get_json(silent=True) or {}
+    text = (data.get("text") or "").strip()[:600]
+    voice = data.get("voice") or DEFAULT_VOICE
+    if voice not in ALLOWED_VOICES:
+        voice = DEFAULT_VOICE
+    if not text:
+        return ("", 400)
+    try:
+        audio = _tts_bytes(text, voice)
+    except Exception as e:
+        print(f"[tts] failed: {e}")
+        return ("", 502)
+    if not audio:
+        return ("", 502)
+    return Response(audio, mimetype="audio/mpeg", headers={"Cache-Control": "private, max-age=3600"})
+
 # ── CORRECTIONS (console "Knowledge" tab — teach Daisy answers) ──────────
 @app.route("/api/corrections", methods=["GET", "POST", "DELETE"])
 def api_corrections():
