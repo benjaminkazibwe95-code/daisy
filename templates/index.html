@@ -5506,7 +5506,7 @@ function advance(k){
   
 }
 function finish(){if(!speaking)return;speaking=false;P.lipT=0;emoUntil=performance.now()+1500;const f=onSpeechEnd;onSpeechEnd=null;if(f)setTimeout(f,0);}
-function stopAll(){speechTok++;clearTimeout(runTimer);try{speechSynthesis.cancel()}catch(e){}speaking=false;P.lipT=0;emo='neutral';FW={};fAcc={};}
+function stopAll(){speechTok++;clearTimeout(runTimer);awaitAudio=false;try{VA.onplaying=VA.onended=VA.onerror=null;VA.pause()}catch(e){}try{speechSynthesis.cancel()}catch(e){}speaking=false;P.lipT=0;emo='neutral';FW={};fAcc={};}
 function pickVoice(){
   try{const vs=speechSynthesis.getVoices();if(!vs.length)return null;
     for(const re of[/google uk english male/i,/daniel/i,/david/i,/alex/i,/george/i,/mark/i,/james/i,/male/i]){const v=vs.find(v=>re.test(v.name)&&/^en/i.test(v.lang));if(v)return v}
@@ -5537,6 +5537,62 @@ function speakSentences(){
     return true;
   }catch(e){return false}
 }
+/* ---------- neural voice: server /tts (free), falls back to the phone voice ---------- */
+let awaitAudio=false,neuralBroken=false;
+const VA=new Audio();VA.preload='auto';let vaUnlocked=false;
+function unlockVA(){if(vaUnlocked)return;vaUnlocked=true;try{VA.src='data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=';const p=VA.play();if(p&&p.catch)p.catch(()=>{vaUnlocked=false})}catch(e){vaUnlocked=false}}
+['pointerdown','touchstart','keydown'].forEach(ev=>addEventListener(ev,unlockVA,{passive:true}));
+const ttsCache=new Map();
+function fetchTTS(txt){
+  let voice='';try{voice=localStorage.getItem('daisy_voice')||''}catch(e){}
+  voice=voice||window.DAISY_VOICE||'';
+  const key=voice+'|'+txt;
+  if(ttsCache.has(key))return ttsCache.get(key);
+  const p=fetch('/tts',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:txt,voice:voice})})
+    .then(r=>{if(!r.ok)throw new Error('tts '+r.status);return r.blob()}).then(b=>URL.createObjectURL(b));
+  p.catch(()=>ttsCache.delete(key));
+  ttsCache.set(key,p);
+  if(ttsCache.size>40)ttsCache.delete(ttsCache.keys().next().value);
+  return p;
+}
+function speakNeural(){
+  try{
+    if(neuralBroken||window.DAISY_NEURAL_VOICE===false)return false;
+    const tok=++speechTok,groups=[];let cu=[];
+    words.forEach((o,i)=>{cu.push(i);if(/[.!?]$/.test(o.w)){groups.push(cu);cu=[]}});
+    if(cu.length)groups.push(cu);
+    const txts=groups.map(g=>g.map(i=>words[i].w).join(' '));
+    cum=[];let ac=0;sched.forEach(d=>{cum.push(ac);ac+=d});
+    boundarySeen=false;awaitAudio=true;
+    let played=0;
+    const fallback=()=>{if(tok!==speechTok)return;awaitAudio=false;if(speakSentences()===false)finish()};
+    const failed=gi=>{if(tok!==speechTok)return;if(gi===0&&played===0){neuralBroken=true;fallback()}else playGroup(gi+1)};
+    const playGroup=gi=>{
+      if(tok!==speechTok)return;
+      if(gi>=groups.length){finish();return}
+      if(gi+1<groups.length)fetchTTS(txts[gi+1]).catch(()=>{});
+      fetchTTS(txts[gi]).then(url=>{
+        if(tok!==speechTok)return;
+        const g=groups[gi],est=g.reduce((a,i)=>a+sched[i],0);
+        let started=false;
+        VA.onplaying=()=>{
+          if(started||tok!==speechTok)return;started=true;
+          const dur=(isFinite(VA.duration)&&VA.duration>0)?VA.duration*1000:est;
+          learned=clamp(dur/est,.4,2.5);
+          speakStart=performance.now()-cum[g[0]]*learned;
+          awaitAudio=false;advance(g[0]);
+        };
+        VA.onended=()=>{played++;playGroup(gi+1)};
+        VA.onerror=()=>failed(gi);
+        VA.src=url;
+        const pr=VA.play();
+        if(pr&&pr.catch)pr.catch(()=>failed(gi));
+      }).catch(()=>failed(gi));
+    };
+    playGroup(0);
+    return true;
+  }catch(e){awaitAudio=false;return false}
+}
 function speak(text,cb){
   stopAll();onSpeechEnd=cb&&cb.onend||null;onSpeechStart=cb&&cb.onstart||null;onSpeechWord=cb&&cb.onword||null;words=parse(text);if(!words.length){const f=onSpeechEnd;onSpeechEnd=null;if(f)setTimeout(f,0);return}
   const spoken=words.map(o=>o.w).join(' ');
@@ -5546,6 +5602,7 @@ function speak(text,cb){
   
   runTimer=setTimeout(()=>{
     speaking=true;if(onSpeechStart)onSpeechStart();boundarySeen=false;wi=-1;speakStart=performance.now();wordStart=speakStart;
+    if(speakNeural())return;
     if(speakSentences()===false&&'speechSynthesis' in window){
       const u=new SpeechSynthesisUtterance(spoken);u.rate=.97;u.pitch=1;
       const v=pickVoice();if(v)u.voice=v;
@@ -5569,7 +5626,7 @@ function update(dt,now){
   nextBlink-=dt;
   if(nextBlink<=0&&blinkT<0){blinkT=0;nextBlink=1.8+rnd()*3.4}
   if(blinkT>=0){blinkT+=dt;const ph=blinkT/.15;if(ph>=1){blinkT=-1;P.blink=0}else P.blink=Math.sin(ph*Math.PI)}
-  if(speaking){
+  if(speaking&&!awaitAudio){
     const el=(now-speakStart)/1000;
     if(!boundarySeen){let k=0;const ms=el*1000/learned;while(k<words.length-1&&ms>=cum[k+1])k++;advance(k)}
     if(el>words.length*.9+5)finish();
