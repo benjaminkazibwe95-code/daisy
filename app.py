@@ -291,7 +291,7 @@ def ask():
 import asyncio
 from functools import lru_cache
 
-DEFAULT_VOICE = os.environ.get("DAISY_VOICE", "en-US-AriaNeural")
+DEFAULT_VOICE = os.environ.get("DAISY_VOICE", "en-US-EmmaNeural")
 VOICES = [
     "en-US-AriaNeural", "en-US-JennyNeural", "en-US-AvaNeural", "en-US-EmmaNeural",
     "en-US-MichelleNeural", "en-US-AnaNeural", "en-GB-MaisieNeural", "en-GB-SoniaNeural",
