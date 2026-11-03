@@ -3,21 +3,19 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Daisy · The First Ugandan AI</title>
-<meta name="description" content="Daisy is the first Ugandan AI. An assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
-
+<title>Daisy · AI assistant built in Uganda</title>
+<meta name="description" content="Daisy is an AI assistant built in Uganda by TrustedBiz. Homework help, business planning, photo questions and voice replies. Free to start." />
 <link rel="canonical" href="https://daisy-qg1c.onrender.com/welcome" />
 
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Daisy The First Ugandan AI" />
-<meta property="og:description" content="An AI assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
+<meta property="og:title" content="Daisy · AI assistant built in Uganda" />
+<meta property="og:description" content="Homework help, business planning, photo questions and voice replies. Free to start." />
 <meta property="og:url" content="https://daisy-qg1c.onrender.com/welcome" />
-<meta property="og:image" content="https://daisy-qg1c.onrender.com/icons/og-image.png" />
-
+<meta property="og:image" content="https://daisy-qg1c.onrender.com/static/icons/og-image.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Daisy The First Ugandan AI" />
-<meta name="twitter:description" content="An AI assistant that talks back, remembers how you like to be spoken to, and keeps learning. Free to start." />
-<meta name="twitter:image" content="https://daisy-qg1c.onrender.com/icons/og-image.png" />
+<meta name="twitter:title" content="Daisy · AI assistant built in Uganda" />
+<meta name="twitter:description" content="Homework help, business planning, photo questions and voice replies. Free to start." />
+<meta name="twitter:image" content="https://daisy-qg1c.onrender.com/static/icons/og-image.png" />
 
 <link rel="icon" href="/static/icons/favicon-32.png" sizes="32x32">
 <link rel="manifest" href="/manifest.json">
@@ -27,278 +25,237 @@
 
 <style>
   :root {
-    --bg:      #0a0a10;
-    --surface: #14141e;
-    --card:    #191926;
-    --card2:   #1e1e2c;
-    --border:  rgba(255,255,255,0.08);
-    --border2: rgba(255,255,255,0.14);
-    --text:    #f4f4f8;
-    --muted:   #94919f;
-    --blue:    #7eb8f7;
-    --violet:  #a78bfa;
-    --radius:  18px;
+    --bg:#0a0a10; --surface:#14141e; --card:#191926; --card2:#1e1e2c;
+    --border:rgba(255,255,255,0.08); --border2:rgba(255,255,255,0.14);
+    --text:#f4f4f8; --muted:#a09dab; --blue:#7eb8f7; --violet:#a78bfa;
+    --on-accent:#0a0a10; --radius:18px;
   }
-  /* ── follows the phone's system light/dark setting, same colors
-       the app itself uses, so the marketing site never looks like
-       a different product from the app it's selling ── */
   @media (prefers-color-scheme: light) {
     :root {
-      --bg:      #ffffff;
-      --surface: #f7f7f5;
-      --card:    #f0f0ee;
-      --card2:   #e9e9e6;
-      --border:  #dcdcd8;
-      --border2: #c9c9c4;
-      --text:    #17171a;
-      --muted:   #67676c;
-      --blue:    #1f6fd6;
-      --violet:  #7c3aed;
+      --bg:#ffffff; --surface:#f7f7f5; --card:#f0f0ee; --card2:#ebebe8;
+      --border:#dcdcd8; --border2:#c9c9c4; --text:#17171a; --muted:#5f5f66;
+      --blue:#1f6fd6; --violet:#7c3aed; --on-accent:#ffffff;
     }
   }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; overflow-x: hidden; max-width: 100%; }
-  body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font-family: 'Inter', -apple-system, sans-serif;
-    line-height: 1.5; -webkit-font-smoothing: antialiased;
-    position: relative; overflow-x: hidden; max-width: 100%;
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; overflow-x:hidden; scroll-padding-top:70px; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:'Inter',-apple-system,sans-serif; line-height:1.55; -webkit-font-smoothing:antialiased; overflow-x:hidden; position:relative; }
+  a { color:inherit; }
+  .wrap { max-width:1120px; margin:0 auto; padding:0 24px; position:relative; z-index:2; }
+  .glow { position:absolute; border-radius:50%; filter:blur(90px); pointer-events:none; z-index:0; }
+  .eyebrow { font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--blue); }
+  h1,h2,h3 { font-family:'Instrument Serif',serif; font-weight:400; margin:0; }
+  em { font-style:italic; color:var(--blue); }
+
+  /* NAV */
+  nav { position:sticky; top:0; z-index:50; background:var(--surface); border-bottom:1px solid var(--border); }
+  nav .wrap { display:flex; align-items:center; justify-content:space-between; padding-top:14px; padding-bottom:14px; }
+  .brand { display:flex; align-items:center; gap:10px; font-family:'Instrument Serif',serif; font-size:21px; text-decoration:none; }
+  .brand-mark { width:30px; height:30px; border-radius:9px; background:linear-gradient(135deg,var(--blue),var(--violet)); position:relative; flex-shrink:0; }
+  .brand-mark svg { position:absolute; inset:0; margin:auto; width:17px; height:17px; }
+  .nav-right { display:flex; align-items:center; gap:26px; }
+  .nav-links { display:flex; gap:26px; }
+  .nav-links a { font-size:14px; font-weight:500; color:var(--muted); text-decoration:none; }
+  .nav-links a:hover { color:var(--text); }
+  .menu-btn { display:none; background:none; border:1px solid var(--border2); color:var(--text); border-radius:9px; width:40px; height:40px; cursor:pointer; align-items:center; justify-content:center; }
+  .menu-btn svg { width:20px; height:20px; }
+
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:13px 22px; border-radius:10px; font-family:'Inter',sans-serif; font-weight:600; font-size:14px; text-decoration:none; border:1px solid transparent; cursor:pointer; transition:transform .15s, box-shadow .15s, border-color .15s, color .15s; min-height:44px; }
+  .btn:hover { transform:translateY(-1px); }
+  .btn-primary { background:var(--blue); color:var(--on-accent); box-shadow:0 4px 14px -6px rgba(126,184,247,.4); }
+  .btn-primary:hover { box-shadow:0 10px 30px -6px rgba(167,139,250,.55); }
+  .btn-ghost { background:rgba(127,127,127,.06); border-color:var(--border2); color:var(--text); }
+  .btn-ghost:hover { border-color:var(--blue); color:var(--blue); }
+  .btn-sm { padding:10px 18px; font-size:13px; min-height:40px; }
+
+  /* INSTALL MODAL */
+  .install-overlay { display:none; position:fixed; inset:0; z-index:200; background:rgba(6,6,10,.72); backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:20px; }
+  .install-overlay.open { display:flex; }
+  .install-card { background:var(--card); border:1px solid var(--border2); border-radius:var(--radius); max-width:380px; width:100%; padding:26px 24px 22px; box-shadow:0 30px 80px -20px rgba(0,0,0,.6); }
+  .install-card h3 { font-size:22px; margin-bottom:6px; }
+  .install-sub { color:var(--muted); font-size:14px; margin:0 0 18px; }
+  .install-steps { list-style:none; padding:0; margin:0 0 20px; display:flex; flex-direction:column; gap:12px; }
+  .install-steps li { display:flex; gap:12px; align-items:flex-start; font-size:14.5px; line-height:1.45; }
+  .install-step-num { flex-shrink:0; width:24px; height:24px; border-radius:50%; background:var(--blue); color:var(--on-accent); font-weight:700; font-size:12.5px; display:flex; align-items:center; justify-content:center; }
+  .install-card .btn { width:100%; }
+  .install-close { background:none; border:none; color:var(--muted); font-size:13px; width:100%; padding:12px 0 0; cursor:pointer; }
+
+  /* HERO */
+  header.hero { padding:76px 0 48px; position:relative; }
+  .hero-grid { display:grid; grid-template-columns:1.08fr .92fr; gap:56px; align-items:center; }
+  h1.headline { font-size:clamp(38px,5.2vw,58px); line-height:1.06; letter-spacing:-.015em; margin:18px 0 20px; }
+  .sub { font-size:17px; color:var(--muted); max-width:46ch; margin-bottom:28px; }
+  .hero-ctas { display:flex; flex-wrap:wrap; gap:12px; }
+  .hero-note { font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted); margin-top:15px; }
+
+  .device-wrap { position:relative; display:flex; justify-content:center; }
+  .device { width:272px; border-radius:38px; padding:12px; background:linear-gradient(160deg,var(--card2),var(--surface)); border:1px solid var(--border2); box-shadow:0 40px 90px -20px rgba(0,0,0,.5); }
+  .device-screen { background:var(--surface); border-radius:27px; min-height:480px; display:flex; flex-direction:column; overflow:hidden; }
+  .device-topbar { display:flex; align-items:center; justify-content:space-between; padding:12px 14px 10px; border-bottom:1px solid var(--border); }
+  .dtitle { font-family:'Instrument Serif',serif; font-size:15px; }
+  .davatar { width:20px; height:20px; border-radius:50%; background:linear-gradient(135deg,var(--blue),var(--violet)); }
+  .device-body { flex:1; padding:16px 14px; display:flex; flex-direction:column; gap:10px; justify-content:flex-end; }
+  .bubble { max-width:88%; padding:10px 13px; border-radius:15px; font-size:12.5px; line-height:1.4; opacity:0; transform:translateY(6px); animation:bubbleIn .3s ease forwards; }
+  .bubble.user { align-self:flex-end; background:var(--card2); border:1px solid var(--border2); border-bottom-right-radius:4px; }
+  .bubble.daisy { align-self:flex-start; background:rgba(126,184,247,.16); border:1px solid rgba(126,184,247,.36); border-bottom-left-radius:4px; }
+  @keyframes bubbleIn { to { opacity:1; transform:none; } }
+  .cursor { display:inline-block; width:2px; height:12px; background:var(--blue); vertical-align:middle; margin-left:2px; animation:blink .9s step-end infinite; }
+  @keyframes blink { 50% { opacity:0; } }
+  .device-inputbar { margin:10px 14px 14px; padding:10px 12px; border-radius:12px; background:var(--card); border:1px solid var(--border); font-size:11.5px; color:var(--muted); }
+
+  /* STATS */
+  .stat-strip { border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:26px 0; }
+  .stat-strip .wrap { display:flex; flex-wrap:wrap; gap:46px; justify-content:center; }
+  .stat { text-align:center; }
+  .stat-num { font-family:'IBM Plex Mono',monospace; font-size:24px; font-weight:600; color:var(--blue); }
+  .stat-label { font-size:12px; color:var(--muted); margin-top:3px; }
+
+  /* SECTIONS */
+  section { padding:84px 0; position:relative; }
+  .section-head { max-width:60ch; margin-bottom:44px; }
+  .section-head h2 { font-size:clamp(28px,3.6vw,38px); margin-top:12px; letter-spacing:-.01em; }
+  .section-head p { color:var(--muted); margin-top:12px; font-size:15px; }
+  .alt { background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+
+  .feature-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .feature-card { background:var(--card2); border:1px solid var(--border); border-radius:var(--radius); padding:26px; transition:border-color .2s, transform .2s; }
+  .feature-card:hover { border-color:var(--border2); transform:translateY(-2px); }
+  .f-icon { width:40px; height:40px; border-radius:11px; display:flex; align-items:center; justify-content:center; margin-bottom:16px; background:rgba(126,184,247,.1); border:1px solid rgba(126,184,247,.22); }
+  .f-icon svg { width:19px; height:19px; stroke:var(--blue); }
+  .feature-card h3 { font-size:20px; margin-bottom:7px; }
+  .feature-card p { color:var(--muted); font-size:14px; margin:0; }
+
+  /* USE CASES */
+  .cases { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .case { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:26px; }
+  .case .tag { font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--violet); letter-spacing:.08em; text-transform:uppercase; }
+  .case h3 { font-size:22px; margin:8px 0 8px; }
+  .case p { color:var(--muted); font-size:14px; margin:0 0 14px; }
+  .case .ask { font-size:13px; background:var(--card2); border:1px solid var(--border); border-radius:12px; padding:11px 13px; color:var(--text); }
+
+  /* STEPS */
+  .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  .step-num { font-family:'IBM Plex Mono',monospace; font-size:13px; font-weight:600; color:var(--blue); border:1px solid var(--border2); width:30px; height:30px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:14px; }
+  .step h3 { font-size:19px; margin-bottom:7px; }
+  .step p { color:var(--muted); font-size:14px; margin:0; }
+
+  /* PRICING */
+  .pricing-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .price-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:30px; display:flex; flex-direction:column; position:relative; }
+  .alt .price-card { background:var(--bg); }
+  .price-card.max { border-color:var(--blue); }
+  .price-badge { position:absolute; top:-12px; right:28px; background:var(--blue); color:var(--on-accent); font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:700; padding:5px 11px; border-radius:999px; letter-spacing:.05em; }
+  .plan-name { font-family:'Instrument Serif',serif; font-size:26px; }
+  .plan-model { font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--muted); margin-top:2px; }
+  .plan-price { font-family:'IBM Plex Mono',monospace; font-size:14px; color:var(--muted); margin:12px 0 22px; }
+  .plan-price b { font-size:29px; color:var(--text); font-family:'Inter',sans-serif; font-weight:800; }
+  .plan-list { list-style:none; padding:0; margin:0 0 26px; display:flex; flex-direction:column; gap:12px; flex:1; }
+  .plan-list li { display:flex; gap:10px; font-size:14px; align-items:flex-start; }
+  .plan-list svg { width:15px; height:15px; stroke:var(--blue); flex-shrink:0; margin-top:3px; }
+
+  /* DEVELOPERS */
+  .dev-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:34px; display:grid; grid-template-columns:1.1fr .9fr; gap:30px; align-items:center; }
+  .alt .dev-card { background:var(--bg); }
+  .dev-card h3 { font-size:26px; margin-bottom:10px; }
+  .dev-card p { color:var(--muted); font-size:14.5px; margin:0 0 18px; }
+  .dev-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; font-size:14px; }
+  .dev-list li { display:flex; gap:10px; }
+  .dev-list svg { width:15px; height:15px; stroke:var(--blue); flex-shrink:0; margin-top:3px; }
+  .status-pill { display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; background:rgba(167,139,250,.14); border:1px solid rgba(167,139,250,.34); color:var(--violet); padding:4px 10px; border-radius:999px; margin-bottom:14px; }
+
+  /* ABOUT */
+  .about-grid { display:grid; grid-template-columns:1.2fr .8fr; gap:40px; align-items:start; }
+  .about-grid p { color:var(--muted); font-size:15.5px; margin:0 0 14px; }
+  .about-card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:24px; }
+  .about-card dl { margin:0; display:grid; gap:14px; }
+  .about-card dt { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  .about-card dd { margin:3px 0 0; font-size:14.5px; }
+  .about-card a { text-decoration:none; color:var(--blue); }
+
+  /* FAQ */
+  .faq { max-width:760px; display:flex; flex-direction:column; gap:10px; }
+  details { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:0 20px; }
+  details[open] { border-color:var(--border2); }
+  summary { cursor:pointer; padding:17px 0; font-weight:600; font-size:15px; list-style:none; display:flex; justify-content:space-between; gap:12px; }
+  summary::-webkit-details-marker { display:none; }
+  summary::after { content:'+'; color:var(--blue); font-size:20px; line-height:1; }
+  details[open] summary::after { content:'–'; }
+  details p { color:var(--muted); font-size:14.5px; margin:0 0 18px; }
+
+  .final-cta { text-align:center; padding:96px 0 100px; }
+  .final-cta h2 { font-size:clamp(30px,4.2vw,44px); max-width:20ch; margin:0 auto 16px; }
+  .final-cta p { color:var(--muted); margin-bottom:28px; }
+
+  footer { border-top:1px solid var(--border); padding:40px 0 30px; }
+  .foot-grid { display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:30px; margin-bottom:30px; }
+  .foot-grid h4 { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:0 0 12px; font-weight:600; }
+  .foot-grid a { display:block; font-size:14px; color:var(--text); text-decoration:none; margin-bottom:8px; }
+  .foot-grid a:hover { color:var(--blue); }
+  .foot-about { font-size:13.5px; color:var(--muted); max-width:32ch; margin-top:12px; }
+  .foot-bottom { border-top:1px solid var(--border); padding-top:20px; font-size:13px; color:var(--muted); display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; }
+
+  @media (max-width:860px) {
+    .nav-links { position:absolute; top:100%; left:0; right:0; background:var(--surface); border-bottom:1px solid var(--border); flex-direction:column; gap:0; padding:8px 24px 14px; display:none; }
+    .nav-links.open { display:flex; }
+    .nav-links a { padding:13px 0; font-size:15px; border-bottom:1px solid var(--border); }
+    .nav-links a:last-child { border-bottom:none; }
+    .menu-btn { display:inline-flex; }
+    .nav-right { gap:12px; }
+    .hero-grid, .about-grid, .dev-card { grid-template-columns:1fr; }
+    .feature-grid, .cases, .steps, .pricing-grid { grid-template-columns:1fr; }
+    .foot-grid { grid-template-columns:1fr 1fr; }
+    header.hero { padding-top:44px; }
+    section { padding:56px 0; }
+    .device-wrap { margin-top:10px; }
   }
-  a { color: inherit; }
-  img { max-width: 100%; display: block; }
-  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 2; }
-  .glow { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
-  .eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); }
-  h1, h2, h3 { font-family: 'Instrument Serif', serif; font-weight: 400; margin: 0; }
-  em { font-style: italic; color: var(--blue); }
-  code { font-family: 'IBM Plex Mono', monospace; }
-
-  /* ── NAV ── */
-  nav { position: sticky; top: 0; z-index: 50; background: var(--surface); border-bottom: 1px solid var(--border); }
-  nav .wrap { display: flex; align-items: center; justify-content: space-between; padding-top: 15px; padding-bottom: 15px; }
-  .brand { display: flex; align-items: center; gap: 10px; font-family: 'Instrument Serif', serif; font-size: 21px; }
-  .brand-mark { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, var(--blue), var(--violet)); flex-shrink: 0; position: relative; }
-  .brand-mark svg { position: absolute; inset: 0; margin: auto; width: 17px; height: 17px; }
-  .nav-links { display: flex; align-items: center; gap: 30px; }
-  .nav-links a { font-size: 14px; font-weight: 500; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 6px; }
-  .nav-links a:hover { color: var(--text); }
-  .nav-badge { font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 700; letter-spacing: 0.04em; background: var(--card2); border: 1px solid var(--border2); color: var(--muted); padding: 2px 6px; border-radius: 5px; }
-  .nav-right { display: flex; align-items: center; gap: 22px; }
-
-  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 10px; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; text-decoration: none; border: 1px solid transparent; cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, color 0.15s ease, background 0.15s ease; }
-  .btn:hover { transform: translateY(-1px); }
-  .btn-primary { background: var(--blue); color: #0a0a10; box-shadow: 0 4px 14px -6px rgba(126,184,247,0.35); }
-  .btn-primary:hover { box-shadow: 0 10px 30px -6px rgba(167,139,250,0.6); }
-  .btn-ghost { background: rgba(255,255,255,0.03); border-color: var(--border2); color: var(--text); }
-  .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
-  .btn-sm { padding: 10px 18px; font-size: 13px; }
-  .btn[disabled] { opacity: 0.45; cursor: not-allowed; pointer-events: none; }
-
-  /* ── INSTALL MODAL — shown whenever the browser's native install
-     prompt isn't available (iOS Safari never has one at all; Chrome
-     sometimes hasn't fired it yet), so "Download" always does
-     something real and explained instead of silently opening the
-     web app in a normal tab. ── */
-  .install-overlay {
-    display: none;
-    position: fixed; inset: 0; z-index: 200;
-    background: rgba(6,6,10,0.72);
-    backdrop-filter: blur(6px);
-    align-items: center; justify-content: center;
-    padding: 20px;
-  }
-  .install-overlay.open { display: flex; }
-  .install-card {
-    background: var(--card);
-    border: 1px solid var(--border2);
-    border-radius: var(--radius);
-    max-width: 380px; width: 100%;
-    padding: 26px 24px 22px;
-    box-shadow: 0 30px 80px -20px rgba(0,0,0,0.6);
-  }
-  .install-card h3 { font-size: 22px; margin-bottom: 6px; }
-  .install-card p.install-sub { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
-  .install-steps { list-style: none; padding: 0; margin: 0 0 20px; display: flex; flex-direction: column; gap: 12px; }
-  .install-steps li { display: flex; gap: 12px; align-items: flex-start; font-size: 14.5px; line-height: 1.45; }
-  .install-step-num {
-    flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
-    background: var(--blue);
-    color: #0a0a10; font-weight: 700; font-size: 12.5px;
-    display: flex; align-items: center; justify-content: center;
-  }
-  .install-card .btn { width: 100%; justify-content: center; margin-top: 4px; }
-  .install-close {
-    background: none; border: none; color: var(--muted); font-size: 13px;
-    width: 100%; text-align: center; padding: 12px 0 0; cursor: pointer;
-  }
-  .install-close:hover { color: var(--text); }
-
-  /* ── HERO ── */
-  header.hero { padding: 76px 0 44px; position: relative; }
-  .hero-grid { display: grid; grid-template-columns: 1.08fr 0.92fr; gap: 56px; align-items: center; }
-  h1.headline { font-size: clamp(38px, 5.2vw, 58px); line-height: 1.06; letter-spacing: -0.015em; margin: 18px 0 20px; }
-  .sub { font-size: 16.5px; color: var(--muted); max-width: 44ch; margin-bottom: 28px; }
-  .hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-  .hero-note { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--muted); margin-top: 15px; }
-
-  /* ── DEVICE (live animated demo, not a static image) ── */
-  .device-wrap { position: relative; display: flex; justify-content: center; }
-  .device { position: relative; width: 272px; border-radius: 38px; padding: 12px; background: linear-gradient(160deg, var(--card2), var(--surface)); border: 1px solid var(--border2); box-shadow: 0 40px 90px -20px rgba(0,0,0,0.6); }
-  .device-screen { background: var(--surface); border-radius: 27px; min-height: 480px; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
-  .device-topbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px 10px; border-bottom: 1px solid var(--border); }
-  .device-topbar .dtitle { font-family: 'Instrument Serif', serif; font-size: 15px; }
-  .device-topbar .davatar { width: 20px; height: 20px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--violet)); }
-  .device-body { flex: 1; padding: 16px 14px; display: flex; flex-direction: column; gap: 10px; justify-content: flex-end; }
-  .bubble { max-width: 86%; padding: 10px 13px; border-radius: 15px; font-size: 12.5px; line-height: 1.4; opacity: 0; transform: translateY(6px); animation: bubbleIn 0.3s ease forwards; }
-  .bubble.user { align-self: flex-end; background: var(--card2); border: 1px solid var(--border2); color: var(--text); border-bottom-right-radius: 4px; }
-  .bubble.daisy { align-self: flex-start; background: rgba(126,184,247,0.16); border: 1px solid rgba(126,184,247,0.36); color: var(--text); border-bottom-left-radius: 4px; }
-  @keyframes bubbleIn { to { opacity: 1; transform: translateY(0); } }
-  .cursor { display: inline-block; width: 2px; height: 12px; background: var(--blue); vertical-align: middle; margin-left: 2px; animation: blink 0.9s step-end infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
-  .device-inputbar { margin: 10px 14px 14px; padding: 10px 12px; border-radius: 12px; background: var(--card); border: 1px solid var(--border); font-size: 11.5px; color: var(--muted); }
-
-  .float-badge { position: absolute; display: flex; align-items: center; gap: 8px; background: rgba(20,20,30,0.92); border: 1px solid var(--border2); backdrop-filter: blur(8px); padding: 9px 13px; border-radius: 13px; font-size: 12px; font-weight: 600; box-shadow: 0 14px 30px -10px rgba(0,0,0,0.6); }
-  .float-badge.b1 { top: 6%; left: -6px; }
-  .float-badge.b2 { bottom: 10%; right: -14px; }
-  .dot { width: 7px; height: 7px; border-radius: 50%; background: #34d399; box-shadow: 0 0 0 4px rgba(52,211,153,0.18); flex-shrink: 0; }
-
-  /* ── STAT STRIP ── */
-  .stat-strip { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 26px 0; position: relative; }
-  .stat-strip .wrap { display: flex; flex-wrap: wrap; gap: 46px; justify-content: center; }
-  .stat { text-align: center; }
-  .stat-num { font-family: 'IBM Plex Mono', monospace; font-size: 26px; font-weight: 600; color: var(--blue); }
-  .stat-label { font-size: 12px; color: var(--muted); margin-top: 3px; }
-
-  /* ── SECTIONS ── */
-  section { padding: 84px 0; position: relative; }
-  .section-head { max-width: 58ch; margin-bottom: 44px; }
-  .section-head h2 { font-size: clamp(28px, 3.6vw, 38px); margin-top: 12px; letter-spacing: -0.01em; }
-  .section-head p { color: var(--muted); margin-top: 12px; font-size: 15px; }
-
-  .feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
-  .feature-card { background: var(--card2); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; transition: border-color 0.2s, transform 0.2s; }
-  .feature-card:hover { border-color: var(--border2); transform: translateY(-2px); }
-  .feature-card .f-icon { width: 40px; height: 40px; border-radius: 11px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: rgba(126,184,247,0.1); border: 1px solid rgba(126,184,247,0.22); }
-  .feature-card .f-icon svg { width: 19px; height: 19px; stroke: var(--blue); }
-  .feature-card h3 { font-size: 19px; margin-bottom: 7px; color: var(--text); }
-  .feature-card p { color: var(--muted); font-size: 13.5px; margin: 0; line-height: 1.5; }
-
-  /* ── API / DEVELOPER CONSOLE ── */
-  .console-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-  .console-top { display: flex; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--border); background: var(--card); }
-  .console-top .ct-label { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
-  .construction-badge { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 700; letter-spacing: 0.05em; background: rgba(167,139,250,0.14); border: 1px solid rgba(167,139,250,0.34); color: var(--violet); padding: 4px 10px; border-radius: 999px; }
-  .console-body { padding: 26px 22px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 26px; }
-  .console-field-label { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--muted); margin-bottom: 8px; }
-  .console-key { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px dashed var(--border2); border-radius: 10px; padding: 12px 14px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--muted); }
-  .console-btn-row { display: flex; gap: 10px; margin-top: 14px; }
-  .console-notes { display: flex; flex-direction: column; gap: 10px; }
-  .console-note { font-size: 13.5px; color: var(--muted); display: flex; gap: 9px; }
-  .console-note svg { width: 15px; height: 15px; stroke: var(--blue); flex-shrink: 0; margin-top: 2px; }
-  .preview-badge { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; background: rgba(167,139,250,0.14); border: 1px solid rgba(167,139,250,0.34); color: var(--violet); padding: 4px 10px; border-radius: 999px; }
-  .console-col { display: flex; flex-direction: column; min-width: 0; }
-  .console-hint { font-size: 12.5px; color: var(--muted); margin: 14px 0 0; line-height: 1.5; }
-  .key-list { display: flex; flex-direction: column; gap: 8px; }
-  .empty-state { font-size: 13px; color: var(--muted); background: var(--card); border: 1px dashed var(--border2); border-radius: 10px; padding: 16px; text-align: center; }
-  .key-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 11px 14px; flex-wrap: wrap; }
-  .key-row-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-  .key-name { font-size: 13px; font-weight: 600; color: var(--text); }
-  .key-value { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--muted); word-break: break-all; }
-  .key-row-actions { display: flex; gap: 6px; flex-shrink: 0; }
-  .key-action { font-family: 'Inter', sans-serif; font-size: 11.5px; font-weight: 600; color: var(--muted); background: rgba(255,255,255,0.03); border: 1px solid var(--border2); border-radius: 7px; padding: 6px 10px; cursor: pointer; transition: color 0.15s, border-color 0.15s; }
-  .key-action:hover { color: var(--blue); border-color: var(--blue); }
-  .key-action.danger:hover { color: #f87171; border-color: #f87171; }
-  .code-tabs { display: flex; gap: 4px; margin-bottom: 10px; }
-  .code-tab { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: var(--muted); background: transparent; border: 1px solid var(--border); border-radius: 8px; padding: 7px 13px; cursor: pointer; transition: color 0.15s, border-color 0.15s, background 0.15s; }
-  .code-tab:hover { color: var(--text); }
-  .code-tab.active { color: var(--blue); border-color: rgba(126,184,247,0.4); background: rgba(126,184,247,0.08); }
-  .code-block { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin: 0; overflow-x: auto; flex: 1; }
-  .code-block code { font-family: 'IBM Plex Mono', monospace; font-size: 12px; line-height: 1.6; color: #c9c6d4; white-space: pre; }
-  @media (max-width: 720px) { .console-body { grid-template-columns: 1fr; } }
-
-  /* ── HOW IT WORKS ── */
-  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-  .step-num { font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; color: var(--blue); border: 1px solid var(--border2); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
-  .step h3 { font-size: 18px; margin-bottom: 7px; color: var(--text); }
-  .step p { color: var(--muted); font-size: 13.5px; margin: 0; }
-
-  /* ── PRICING ── */
-  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-  .price-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px; display: flex; flex-direction: column; position: relative; }
-  .price-card.pro { border: 1px solid var(--blue); }
-  .price-badge { position: absolute; top: -12px; right: 28px; background: var(--blue); color: #0a0a10; font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 700; padding: 5px 11px; border-radius: 999px; letter-spacing: 0.05em; }
-  .price-card .plan-name { font-family: 'Instrument Serif', serif; font-size: 25px; }
-  .price-card .plan-price { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--muted); margin: 11px 0 22px; }
-  .price-card .plan-price b { font-size: 29px; color: var(--text); font-family: 'Inter', sans-serif; font-weight: 800; }
-  .plan-list { list-style: none; padding: 0; margin: 0 0 26px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
-  .plan-list li { display: flex; gap: 10px; font-size: 13.5px; color: var(--text); align-items: flex-start; }
-  .plan-list li svg { width: 15px; height: 15px; stroke: var(--blue); flex-shrink: 0; margin-top: 2px; }
-
-  .final-cta { text-align: center; padding: 96px 0 100px; }
-  .final-cta h2 { font-size: clamp(30px, 4.2vw, 44px); max-width: 20ch; margin: 0 auto 16px; }
-  .final-cta p { color: var(--muted); margin-bottom: 28px; }
-
-  footer { border-top: 1px solid var(--border); padding: 30px 0; position: relative; }
-  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; font-size: 13px; color: var(--muted); }
-  .footer-brand { display: flex; align-items: center; gap: 8px; }
-
-  @media (max-width: 860px) {
-    .nav-links { display: none; }
-    .hero-grid { grid-template-columns: 1fr; }
-    .device-wrap { margin-top: 18px; }
-    .feature-grid, .pricing-grid, .steps { grid-template-columns: 1fr; }
-    header.hero { padding-top: 44px; }
-    section { padding: 56px 0; }
-    .float-badge.b1, .float-badge.b2 { display: none; }
-  }
-  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
 </style>
 </head>
 <body>
 
-<div class="glow" style="width:600px;height:600px;top:-200px;left:-160px;background:radial-gradient(circle, rgba(126,184,247,0.20), transparent 70%);"></div>
-<div class="glow" style="width:520px;height:520px;top:120px;right:-200px;background:radial-gradient(circle, rgba(167,139,250,0.18), transparent 70%);"></div>
+<div class="glow" style="width:600px;height:600px;top:-200px;left:-160px;background:radial-gradient(circle,rgba(126,184,247,.18),transparent 70%);"></div>
+<div class="glow" style="width:520px;height:520px;top:120px;right:-200px;background:radial-gradient(circle,rgba(167,139,250,.16),transparent 70%);"></div>
 
 <nav>
   <div class="wrap">
-    <div class="brand">
+    <a class="brand" href="#top">
       <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h3l2-5 3 11 3-14 2 8h3"/></svg></span>
       Daisy
-    </div>
+    </a>
     <div class="nav-right">
-      <div class="nav-links">
+      <div class="nav-links" id="nav-links">
         <a href="#features">Features</a>
+        <a href="#use">What to ask</a>
         <a href="#pricing">Pricing</a>
-        <a href="#api">API <span class="nav-badge">PREVIEW</span></a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
       </div>
       <a class="btn btn-primary btn-sm" href="#download">Download</a>
+      <button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
     </div>
   </div>
 </nav>
 
-<header class="hero">
+<header class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">Daisy · Made in Uganda</span>
-      <h1 class="headline">An AI that gets<br><em>where you're asking from.</em></h1>
-      <p class="sub">Daisy answers in plain language, remembers how you like to be spoken to, and keeps learning. Free to start, right from your phone.</p>
+      <span class="eyebrow">Built in Uganda · by TrustedBiz</span>
+      <h1 class="headline">An AI assistant that gets <em>where you're asking from.</em></h1>
+      <p class="sub">Homework step by step, a plan for your business, answers about any photo, and replies you can listen to. Free to start, right from your phone.</p>
       <div class="hero-ctas">
         <a class="btn btn-primary" href="#download">Download Daisy for free</a>
         <a class="btn btn-ghost" href="#features">See what she can do</a>
       </div>
-      <div class="hero-note">No app store needed for now · installs straight from this site</div>
+      <div class="hero-note">No app store needed · installs straight from this site</div>
     </div>
 
     <div class="device-wrap">
-      <div class="float-badge b1"><span class="dot"></span>Daisy is online</div>
-      <div class="float-badge b2">Reads answers aloud</div>
       <div class="device">
         <div class="device-screen">
-          <div class="device-topbar">
-            <span class="dtitle">Daisy</span>
-            <span class="davatar"></span>
-          </div>
-          <div class="device-body" id="demo-screen"></div>
+          <div class="device-topbar"><span class="dtitle">Daisy</span><span class="davatar"></span></div>
+          <div class="device-body" id="demo-screen" aria-label="Example conversation with Daisy"></div>
           <div class="device-inputbar">Talk to Daisy...</div>
         </div>
       </div>
@@ -308,8 +265,8 @@
 
 <div class="stat-strip">
   <div class="wrap">
-    <div class="stat"><div class="stat-num" id="stat-words">···</div><div class="stat-label">words Daisy knows</div></div>
-    <div class="stat"><div class="stat-num">24/7</div><div class="stat-label">always awake</div></div>
+    <div class="stat"><div class="stat-num">Text · Voice · Photo</div><div class="stat-label">ask the way that suits you</div></div>
+    <div class="stat"><div class="stat-num">7</div><div class="stat-label">voices, incl. East African English &amp; Swahili</div></div>
     <div class="stat"><div class="stat-num">UGX 0</div><div class="stat-label">to get started</div></div>
   </div>
 </div>
@@ -318,85 +275,69 @@
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">What she does</span>
-      <h2>Built to be used, not just installed.</h2>
+      <h2>Everyday help, in one app.</h2>
+      <p>Everything below is in the app today.</p>
     </div>
     <div class="feature-grid">
       <div class="feature-card">
-        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 5V4L8 9H4Z"/><path d="M17 8a5 5 0 0 1 0 8"/><path d="M19.5 5.5a9 9 0 0 1 0 13"/></svg></div>
-        <h3>Talks back</h3>
-        <p>Daisy reads her answers aloud, so you can listen while you work, walk, or ride.</p>
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div>
+        <h3>Homework, explained</h3>
+        <p>Type a school question or snap a photo of it. Daisy walks through it step by step so you learn it, not just copy it.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1-5h16l1 5"/><path d="M4 9v11h16V9"/><path d="M9 20v-6h6v6"/></svg></div>
+        <h3>Start a business</h3>
+        <p>Tell her what you sell and where. She helps you plan it and can build a website so customers can find you.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></svg></div>
+        <h3>Ask about any picture</h3>
+        <p>A page from your book, a plant, a receipt. Add a photo and ask.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 5V4L8 9H4Z"/><path d="M17 8a5 5 0 0 1 0 8"/></svg></div>
+        <h3>Talk instead of typing</h3>
+        <p>Speak your question, or start a live voice conversation. Daisy can read every answer aloud.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div>
+        <h3>Checks the web</h3>
+        <p>For news, prices and scores, Daisy can search the internet. You can switch it off in Settings.</p>
       </div>
       <div class="feature-card">
         <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M4 12h6M4 18h12"/><circle cx="18" cy="6" r="2"/><circle cx="14" cy="18" r="2"/></svg></div>
-        <h3>Remembers how you like it</h3>
-        <p>Set your tone once, direct, patient, formal and every answer after carries it.</p>
-      </div>
-      <div class="feature-card">
-        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 0 1 4-4h3a4 4 0 1 1 0 8h-1"/><path d="M15 12a4 4 0 0 1-4 4H8a4 4 0 1 1 0-8h1"/></svg></div>
-        <h3>Built for working together</h3>
-        <p>One code, one shared project and your whole team on the same conversation.</p>
-      </div>
-      <div class="feature-card">
-        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
-        <h3>Keeps learning</h3>
-        <p>She teaches herself a new topic every couple of minutes and reloads live, no downtime, no restart.</p>
-      </div>
-      <div class="feature-card">
-        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 12l4-4"/><path d="M12 2v3"/></svg></div>
-        <h3>Reasons before she answers</h3>
-        <p>A rule based reasoning engine scores its own confidence before replying, so answers are checked, not guessed.</p>
-      </div>
-      <div class="feature-card">
-        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7 16 12l7 5V7Z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div>
-        <h3>Full live room</h3>
-        <p>Camera, screen share, mic, live captions, and a running transcript for real conversations, not just text back and forth.</p>
-      </div>
-      <div class="feature-card">
-        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0 2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2 2V8Z"/><path d="M14 2v6h6"/></svg></div>
-        <h3>Export any answer</h3>
-        <p>Turn any conversation into a clean PDF in one tap, ready to save, print, or send on.</p>
+        <h3>Talks the way you like</h3>
+        <p>Choose direct, patient, warm or short, and Daisy carries it into every answer.</p>
       </div>
       <div class="feature-card">
         <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M9 18h6"/></svg></div>
-        <h3>Installs like a real app</h3>
-        <p>Full offline capable PWA. Works straight from your phone with no app store and no separate download.</p>
+        <h3>Installs like an app</h3>
+        <p>Add it to your home screen from this page. No app store, and past chats stay readable offline.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 0 1 4-4h3a4 4 0 1 1 0 8h-1"/><path d="M15 12a4 4 0 0 1-4 4H8a4 4 0 1 1 0-8h1"/></svg></div>
+        <h3>Shared projects</h3>
+        <p>Keep a project in one place and work on it together with others.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></div>
+        <h3>Your data, your control</h3>
+        <p>Export your data, clear chat history, or make Daisy forget what she picked up, all from Settings.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="api">
+<section id="use" class="alt">
   <div class="wrap">
     <div class="section-head">
-      <span class="eyebrow">For developers</span>
-      <h2>Build Daisy into your own product.</h2>
-      <p>Generate a key and start wiring Daisy's answers into your own app, bot, or workflow.</p>
+      <span class="eyebrow">What to ask</span>
+      <h2>Real questions, real answers.</h2>
     </div>
-    <div class="console-card">
-      <div class="console-top">
-        <span class="ct-label">Daisy API Console</span>
-        <span class="preview-badge">Preview</span>
-      </div>
-      <div class="console-body">
-        <div class="console-col">
-          <div class="console-field-label">API KEYS</div>
-          <div class="key-list" id="key-list"></div>
-          <div class="console-btn-row">
-            <button class="btn btn-primary btn-sm" id="generate-key-btn">Generate new key</button>
-            <a class="btn btn-ghost btn-sm" href="/console">Open full console</a>
-          </div>
-          <p class="console-hint">Keys generated here live only in this browser as a preview of the console. Real, working keys go live the moment the API ships.</p>
-        </div>
-        <div class="console-col">
-          <div class="console-field-label">QUICK START</div>
-          <div class="code-tabs">
-            <button class="code-tab active" data-lang="curl">curl</button>
-            <button class="code-tab" data-lang="python">Python</button>
-            <button class="code-tab" data-lang="node">Node</button>
-          </div>
-          <pre class="code-block"><code id="code-content"></code></pre>
-        </div>
-      </div>
+    <div class="cases">
+      <div class="case"><span class="tag">Students</span><h3>Learn it, don't copy it</h3><p>Get the reasoning behind the answer, one step at a time.</p><div class="ask">"Explain how to solve 2x + 5 = 17, step by step."</div></div>
+      <div class="case"><span class="tag">Small business</span><h3>Plan before you spend</h3><p>Costs, pricing, customers and a simple site for your shop.</p><div class="ask">"I sell fresh juice in Entebbe. Help me plan a budget."</div></div>
+      <div class="case"><span class="tag">Everyday</span><h3>Language and life</h3><p>Translations, explanations and quick answers in plain words.</p><div class="ask">"How do I say 'thank you very much' in Luganda?"</div></div>
     </div>
   </div>
 </section>
@@ -405,68 +346,133 @@
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Getting started</span>
-      <h2>Three steps. No forms, no card.</h2>
+      <h2>Three steps. No card needed.</h2>
     </div>
     <div class="steps">
-      <div class="step"><div class="step-num">1</div><h3>Install her</h3><p>Tap Download and she installs straight from this page, like any app.</p></div>
-      <div class="step"><div class="step-num">2</div><h3>Tell her who to be</h3><p>Direct, patient, formal. This is set once in Settings.</p></div>
-      <div class="step"><div class="step-num">3</div><h3>Ask anything</h3><p>Type or talk. Daisy answers in plain language.</p></div>
+      <div class="step"><div class="step-num">1</div><h3>Install her</h3><p>Tap Download and she installs straight from this page.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>Tell her who to be</h3><p>Direct, patient, warm or short. Set it once in Settings.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>Ask anything</h3><p>Type, talk or send a photo. Daisy answers in plain language.</p></div>
     </div>
   </div>
 </section>
 
-<section id="pricing">
+<section id="pricing" class="alt">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Pricing</span>
-      <h2>Free to start. No card required.</h2>
+      <h2>Free to start.</h2>
+      <p>Two versions: Daisy, and the more capable Daisy Max.</p>
     </div>
     <div class="pricing-grid">
       <div class="price-card">
-        <div class="plan-name">Daisy Free</div>
-        <div class="plan-price"><b>UGX 0</b> / forever</div>
+        <div class="plan-name">Daisy</div>
+        <div class="plan-model">Powered by Beni</div>
+        <div class="plan-price"><b>UGX 0</b> / free</div>
         <ul class="plan-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Unlimited everyday questions</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Voice replies</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Personalize how Daisy talks to you</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>1 shared project</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Everyday questions and instant answers</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Personalize how Daisy talks to you</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Installs on your phone</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>1 shared project</li>
         </ul>
         <a class="btn btn-ghost" href="#download">Start free</a>
       </div>
-      <div class="price-card pro">
-        <span class="price-badge">FOR TEAMS</span>
-        <div class="plan-name">Daisy Pro</div>
+      <div class="price-card max">
+        <span class="price-badge">ADVANCED</span>
+        <div class="plan-name">Daisy Max</div>
+        <div class="plan-model">Powered by Beni 2</div>
         <div class="plan-price">Pricing coming soon</div>
         <ul class="plan-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Everything in Free</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Priority responses, skip the queue</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Unlimited shared projects</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Early API access</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Everything in Daisy</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Natural, conversational answers</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Voice, web search and photo analysis</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Unlimited shared projects and early API access</li>
         </ul>
-        <a class="btn btn-primary" href="mailto:hello@example.com?subject=Daisy%20Pro%20waitlist">Join the waitlist</a>
+        <a class="btn btn-primary" href="mailto:hello@trustedbiz.co.ug?subject=Daisy%20Max%20waitlist">Join the waitlist</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="final-cta" id="download">
+<section id="api">
+  <div class="wrap">
+    <div class="dev-card">
+      <div>
+        <span class="status-pill">Coming soon</span>
+        <h3>Build Daisy into your own product.</h3>
+        <p>We're preparing an API so developers can bring Daisy into their apps, bots and workflows. Tell us what you'd build and we'll invite you early.</p>
+        <a class="btn btn-ghost" href="mailto:hello@trustedbiz.co.ug?subject=Daisy%20API%20access">Request API access</a>
+      </div>
+      <ul class="dev-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Simple REST endpoints</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Keys and usage in one console</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Early access for waitlist members</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="alt">
+  <div class="wrap about-grid">
+    <div>
+      <span class="eyebrow">About</span>
+      <h2 style="font-size:clamp(28px,3.6vw,38px);margin:12px 0 18px;">Made in Entebbe, for everyday life.</h2>
+      <p>Daisy is built and operated by TrustedBiz, a Ugandan software company that builds websites and digital tools for local businesses.</p>
+      <p>We made Daisy because help should feel local: answers in plain words, voices that sound familiar, and a tool that works on the phone you already have.</p>
+      <p>Daisy can make mistakes, so always check important information, especially for health, legal and money decisions.</p>
+    </div>
+    <div class="about-card">
+      <dl>
+        <div><dt>Company</dt><dd>TrustedBiz</dd></div>
+        <div><dt>Location</dt><dd>Entebbe, Uganda</dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:hello@trustedbiz.co.ug">hello@trustedbiz.co.ug</a></dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:+256753187966">+256 753 187 966</a></dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Good questions.</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Is Daisy really free?</summary><p>Yes. Daisy is free to start, with no card required. Daisy Max will have its own pricing, which we'll announce before charging anything.</p></details>
+      <details><summary>Do I need an app store?</summary><p>No. Tap Download on this page and Daisy installs on your home screen like any app. On iPhone, use Safari's Share menu and choose Add to Home Screen.</p></details>
+      <details><summary>Can Daisy be wrong?</summary><p>Yes. Like any AI, she can make mistakes. Check important information before relying on it.</p></details>
+      <details><summary>What happens to my chats?</summary><p>Your messages are used to run Daisy and, as our Privacy Policy explains, to improve our models. We don't sell personal information. You can clear history, export your data or ask us to delete your account at any time.</p></details>
+      <details><summary>Does Daisy need internet?</summary><p>Yes, for new messages. Past chats stay readable offline.</p></details>
+      <details><summary>Who is behind Daisy?</summary><p>TrustedBiz, a software company based in Entebbe, Uganda. You can reach us at hello@trustedbiz.co.ug.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta alt" id="download">
   <div class="wrap">
     <h2>Meet Daisy today.</h2>
-    <p>Free, fast to install, and she gets a little better every day.</p>
+    <p>Free, fast to install, and made in Uganda.</p>
     <a class="btn btn-primary" href="/" id="download-btn">Download Daisy for free</a>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <div class="footer-brand">
-      <span class="brand-mark" style="width:22px;height:22px;border-radius:7px;"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="width:12px;height:12px;"><path d="M2 12h3l2-5 3 11 3-14 2 8h3"/></svg></span>
-      © <span id="year"></span> Daisy. Made in Uganda
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top" style="margin:0;">
+          <span class="brand-mark" style="width:26px;height:26px;border-radius:8px;"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M2 12h3l2-5 3 11 3-14 2 8h3"/></svg></span>
+          Daisy
+        </a>
+        <p class="foot-about">An AI assistant built in Uganda by TrustedBiz.</p>
+      </div>
+      <div><h4>Product</h4><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#api">API</a></div>
+      <div><h4>Company</h4><a href="#about">About</a><a href="#faq">FAQ</a><a href="https://trustedbiz.co.ug">TrustedBiz</a></div>
+      <div><h4>Legal &amp; contact</h4><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="mailto:hello@trustedbiz.co.ug">hello@trustedbiz.co.ug</a></div>
     </div>
-    <span>Free to start, everywhere your phone goes.</span>
-    <div style="display:flex; gap:16px;">
-      <a href="/privacy" style="color:var(--muted); text-decoration:none;">Privacy</a>
-      <a href="/terms" style="color:var(--muted); text-decoration:none;">Terms</a>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> TrustedBiz. Daisy is made in Uganda.</span>
+      <span>Entebbe, Uganda</span>
     </div>
   </div>
 </footer>
@@ -474,309 +480,122 @@
 <div class="install-overlay" id="install-overlay">
   <div class="install-card">
     <h3>Install Daisy</h3>
-    <p class="install-sub" id="install-sub">A few taps and she's on your home screen, Ready to fire.</p>
-    <ol class="install-steps" id="install-steps"><!-- filled in by JS, per platform --></ol>
+    <p class="install-sub" id="install-sub">A few taps and she's on your home screen.</p>
+    <ol class="install-steps" id="install-steps"></ol>
     <a class="btn btn-primary" href="/" id="install-continue">Continue to Daisy</a>
     <button class="install-close" id="install-close">Not now</button>
   </div>
 </div>
 
 <script>
-  // ── PWA: capture the install prompt on the landing page itself, so
-  // clicking Download here triggers the native install dialog directly
-  // instead of navigating to / first and installing from there. ──
-  let daisyDeferredInstallPrompt = null;
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    daisyDeferredInstallPrompt = e;
+  // ── Mobile menu ──
+  const menuBtn = document.getElementById('menu-btn');
+  const navLinks = document.getElementById('nav-links');
+  menuBtn.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open);
   });
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {});
-  }
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false');
+  }));
 
-  // ── Platform detection, for the install-steps fallback below. ──
+  // ── PWA install ──
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferredPrompt = e; });
+  if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {}); }
+
   const ua = navigator.userAgent;
   const isIOS = /iPad|iPhone|iPod/.test(ua) || (ua.includes('Macintosh') && navigator.maxTouchPoints > 1);
   const isAndroid = /Android/.test(ua);
   const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 
-  const installOverlay  = document.getElementById('install-overlay');
-  const installSteps    = document.getElementById('install-steps');
-  const installSub      = document.getElementById('install-sub');
-  const installContinue = document.getElementById('install-continue');
-  const installClose    = document.getElementById('install-close');
+  const overlay = document.getElementById('install-overlay');
+  const stepsEl = document.getElementById('install-steps');
+  const subEl = document.getElementById('install-sub');
+  const stepsHTML = (steps) => steps.map((s, i) => `<li><span class="install-step-num">${i + 1}</span><span>${s}</span></li>`).join('');
 
-  function stepsHTML(steps) {
-    return steps.map((s, i) => `<li><span class="install-step-num">${i + 1}</span><span>${s}</span></li>`).join('');
-  }
-
-  function showInstallInstructions() {
+  function showInstructions() {
     if (isIOS) {
-      installSub.textContent = "iPhones install apps straight from Safari, no app store needed.";
-      installSteps.innerHTML = stepsHTML([
+      subEl.textContent = 'iPhones install apps straight from Safari, no app store needed.';
+      stepsEl.innerHTML = stepsHTML([
         'Tap the <strong>Share</strong> icon (the square with an arrow) at the bottom of Safari.',
-        "Scroll down and tap <strong>Add to Home Screen</strong>.",
-        'Tap <strong>Add</strong>, and Daisy\'s icon appears on your home screen like any app.'
+        'Scroll down and tap <strong>Add to Home Screen</strong>.',
+        'Tap <strong>Add</strong>. Daisy appears on your home screen.'
       ]);
     } else if (isAndroid) {
-      installSub.textContent = "A couple of taps and she's installed, no app store needed.";
-      installSteps.innerHTML = stepsHTML([
-        'Tap the <strong>⋮</strong> menu in the top-right of Chrome.',
+      subEl.textContent = 'A couple of taps and she is installed, no app store needed.';
+      stepsEl.innerHTML = stepsHTML([
+        'Tap the <strong>⋮</strong> menu at the top right of Chrome.',
         'Tap <strong>Install app</strong> (or <strong>Add to Home screen</strong>).',
-        'Confirm, and Daisy installs like any app on your phone.'
+        'Confirm, and Daisy installs on your phone.'
       ]);
     } else {
-      installSub.textContent = "Install her straight from your browser, no app store needed.";
-      installSteps.innerHTML = stepsHTML([
-        'Look for the install icon (⊕) at the right edge of your address bar, or open your browser\'s menu.',
+      subEl.textContent = 'Install her straight from your browser.';
+      stepsEl.innerHTML = stepsHTML([
+        'Look for the install icon (⊕) at the right of your address bar, or open the browser menu.',
         'Choose <strong>Install Daisy</strong> (or <strong>Add to Home screen</strong>).',
-        "She'll open in her own window from now on, just like any installed app."
+        'She opens in her own window from then on.'
       ]);
     }
-    installOverlay.classList.add('open');
+    overlay.classList.add('open');
   }
-
-  installClose.onclick = () => installOverlay.classList.remove('open');
-  installOverlay.addEventListener('click', (e) => { if (e.target === installOverlay) installOverlay.classList.remove('open'); });
-
-  async function handleDownloadClick(e) {
-    e.preventDefault();
-
-    // Already running as the installed app — nothing to install, just open it.
-    if (isStandalone) { window.location.href = '/'; return; }
-
-    // The native prompt is ready right now — use it, full stop.
-    if (daisyDeferredInstallPrompt) {
-      const promptEvent = daisyDeferredInstallPrompt;
-      daisyDeferredInstallPrompt = null;
-      promptEvent.prompt();
-      const choice = await promptEvent.userChoice;
-      if (choice.outcome === 'accepted') showPostInstallMessage();
-      return;
-    }
-
-    // iOS Safari never fires beforeinstallprompt at all — go straight
-    // to instructions instead of waiting for an event that's never coming.
-    if (isIOS) { showInstallInstructions(); return; }
-
-    // Chrome sometimes hasn't fired the event yet by the time someone
-    // clicks (this is common on a first visit) — give it a brief real
-    // chance to arrive before falling back to manual steps. This is
-    // the actual fix: previously, this exact case silently fell through
-    // to a plain link and just opened the app in a normal tab, which is
-    // what looked like "download redirects instead of downloading."
-    const gotPromptInTime = await new Promise((resolve) => {
-      const timer = setTimeout(() => resolve(false), 1200);
-      window.addEventListener('beforeinstallprompt', () => {
-        clearTimeout(timer);
-        resolve(true);
-      }, { once: true });
-    });
-
-    if (gotPromptInTime && daisyDeferredInstallPrompt) {
-      const promptEvent = daisyDeferredInstallPrompt;
-      daisyDeferredInstallPrompt = null;
-      promptEvent.prompt();
-      const choice = await promptEvent.userChoice;
-      if (choice.outcome === 'accepted') showPostInstallMessage();
-    } else {
-      showInstallInstructions();
-    }
-  }
-
-  function showPostInstallMessage() {
-    installSub.textContent = "Daisy's installed!";
-    installSteps.innerHTML = stepsHTML([
-      "Close this browser tab now.",
-      "Open <strong>Daisy</strong> from your home screen or app drawer instead. That's the real app, not this tab."
+  function showPostInstall() {
+    subEl.textContent = "Daisy's installed!";
+    stepsEl.innerHTML = stepsHTML([
+      'Close this browser tab.',
+      'Open <strong>Daisy</strong> from your home screen or app drawer.'
     ]);
-    installOverlay.classList.add('open');
+    overlay.classList.add('open');
   }
-
-  document.querySelectorAll('#download-btn, a[href="#download"]').forEach((btn) => {
-    btn.addEventListener('click', handleDownloadClick);
-  });
+  async function runPrompt() {
+    const p = deferredPrompt; deferredPrompt = null;
+    p.prompt();
+    const choice = await p.userChoice;
+    if (choice.outcome === 'accepted') showPostInstall();
+  }
+  async function handleDownload(e) {
+    e.preventDefault();
+    if (isStandalone) { window.location.href = '/'; return; }
+    if (deferredPrompt) { runPrompt(); return; }
+    if (isIOS) { showInstructions(); return; }
+    const got = await new Promise((resolve) => {
+      const t = setTimeout(() => resolve(false), 1200);
+      window.addEventListener('beforeinstallprompt', () => { clearTimeout(t); resolve(true); }, { once: true });
+    });
+    if (got && deferredPrompt) runPrompt(); else showInstructions();
+  }
+  document.getElementById('install-close').onclick = () => overlay.classList.remove('open');
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.remove('open'); });
+  document.querySelectorAll('#download-btn, a[href="#download"]').forEach((b) => b.addEventListener('click', handleDownload));
 
   document.getElementById('year').textContent = new Date().getFullYear();
-  fetch('/daisy/status').then(r => r.json()).then(d => {
-    if (d && typeof d.words === 'number') document.getElementById('stat-words').textContent = d.words.toLocaleString();
-  }).catch(() => { document.getElementById('stat-words').textContent = 'growing'; });
 
+  // ── Hero demo ──
   const demo = [
-    { q: "Translate 'thank you very much' to Luganda", a: "Webale nnyo | the warm, everyday way to say it." },
-    { q: "Help me plan a simple budget for my shop", a: "Sure | let's start with your fixed costs: rent, stock, staff." },
-    { q: "Explain photosynthesis simply", a: "Plants turn sunlight into food, using water and air." }
+    { q: "Translate 'thank you very much' to Luganda", a: "Webale nnyo. It's the warm, everyday way to say it." },
+    { q: "Help me plan a simple budget for my shop", a: "Sure. Let's start with your fixed costs: rent, stock and staff." },
+    { q: "Explain photosynthesis simply", a: "Plants turn sunlight, water and air into their own food." }
   ];
   const screen = document.getElementById('demo-screen');
   let round = 0;
-
   function typeBubble(el, text, speed, done) {
     let i = 0;
-    const cursor = document.createElement('span');
-    cursor.className = 'cursor';
-    el.appendChild(document.createTextNode(''));
-    el.appendChild(cursor);
+    const cursor = document.createElement('span'); cursor.className = 'cursor'; el.appendChild(cursor);
     const timer = setInterval(() => {
-      el.insertBefore(document.createTextNode(text[i]), cursor);
-      i++;
+      el.insertBefore(document.createTextNode(text[i]), cursor); i++;
       if (i >= text.length) { clearInterval(timer); cursor.remove(); if (done) done(); }
     }, speed);
   }
   function runDemo() {
     screen.innerHTML = '';
-    const pair = demo[round % demo.length];
-    round++;
-    const userBubble = document.createElement('div');
-    userBubble.className = 'bubble user';
-    screen.appendChild(userBubble);
-    typeBubble(userBubble, pair.q, 22, () => {
-      setTimeout(() => {
-        const daisyBubble = document.createElement('div');
-        daisyBubble.className = 'bubble daisy';
-        screen.appendChild(daisyBubble);
-        typeBubble(daisyBubble, pair.a, 18, () => setTimeout(runDemo, 2400));
-      }, 450);
-    });
+    const pair = demo[round++ % demo.length];
+    const u = document.createElement('div'); u.className = 'bubble user'; screen.appendChild(u);
+    typeBubble(u, pair.q, 22, () => setTimeout(() => {
+      const d = document.createElement('div'); d.className = 'bubble daisy'; screen.appendChild(d);
+      typeBubble(d, pair.a, 18, () => setTimeout(runDemo, 2400));
+    }, 450));
   }
   runDemo();
-
-  // ── API console: real key generation via /api/keys, same backend
-  // the full console at /console uses. Both pages share one source
-  // of truth now that they're served by the same Flask app. ──
-  (function () {
-    const keyListEl    = document.getElementById('key-list');
-    const generateBtn  = document.getElementById('generate-key-btn');
-    const codeContent  = document.getElementById('code-content');
-    const codeTabs     = document.querySelectorAll('.code-tab');
-    let revealedIds = new Set();
-    let currentKeys = [];
-
-    function mask(key) { return key.slice(0, 12) + '••••••••••••••••' + key.slice(-4); }
-
-    // This widget is a public marketing preview — anyone visiting the
-    // landing page can try it with no account. It's explicitly local-only
-    // (the copy above says so: "Keys generated here live only in this
-    // browser"), so it never touches the real /api/keys endpoint, which
-    // now requires a signed-in account for the actual console. Kept
-    // entirely in localStorage on purpose — this can't break again just
-    // because the real console's auth changes.
-    const PREVIEW_KEYS_STORAGE = 'daisy_preview_keys';
-
-    function loadPreviewKeys() {
-      try { return JSON.parse(localStorage.getItem(PREVIEW_KEYS_STORAGE) || '[]'); }
-      catch (e) { return []; }
-    }
-    function savePreviewKeys(keys) {
-      localStorage.setItem(PREVIEW_KEYS_STORAGE, JSON.stringify(keys));
-    }
-    function makePreviewKey() {
-      const rand = Array.from(crypto.getRandomValues(new Uint8Array(24)))
-        .map((b) => b.toString(16).padStart(2, '0')).join('');
-      return 'dsy_preview_' + rand;
-    }
-
-    const samples = {
-      curl: (key) => `curl https://daisy-qg1c.onrender.com/api/ask \\
-  -H "Authorization: Bearer ${key || 'YOUR_API_KEY'}" \\
-  -H "Content-Type: application/json" \\
-  -d '{"question": "Translate hello to Luganda"}'`,
-      python: (key) => `import requests
-
-response = requests.post(
-    "https://daisy-qg1c.onrender.com/api/ask",
-    headers={"Authorization": f"Bearer ${key || 'YOUR_API_KEY'}"},
-    json={"question": "Translate hello to Luganda"},
-)
-print(response.json())`,
-      node: (key) => `const response = await fetch("https://daisy-qg1c.onrender.com/api/ask", {
-  method: "POST",
-  headers: {
-    Authorization: "Bearer ${key || 'YOUR_API_KEY'}",
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify({ question: "Translate hello to Luganda" })
-});
-const data = await response.json();`
-    };
-
-    function activeLang() {
-      const active = document.querySelector('.code-tab.active');
-      return active ? active.dataset.lang : 'curl';
-    }
-    function updateCodeSample() {
-      const firstKey = currentKeys.length ? currentKeys[0].key_value : null;
-      codeContent.textContent = samples[activeLang()](firstKey);
-    }
-
-    function renderKeys(keys) {
-      currentKeys = keys || [];
-      if (currentKeys.length === 0) {
-        keyListEl.innerHTML = '<div class="empty-state">No keys yet. Generate one to see it here.</div>';
-      } else {
-        keyListEl.innerHTML = currentKeys.map((k) => `
-          <div class="key-row">
-            <div class="key-row-main">
-              <span class="key-name">${k.name}</span>
-              <span class="key-value">${revealedIds.has(k.id) ? k.key_value : mask(k.key_value)}</span>
-            </div>
-            <div class="key-row-actions">
-              <button class="key-action" data-action="reveal" data-id="${k.id}">${revealedIds.has(k.id) ? 'Hide' : 'Reveal'}</button>
-              <button class="key-action" data-action="copy" data-id="${k.id}" data-key="${k.key_value}">Copy</button>
-              <button class="key-action danger" data-action="revoke" data-id="${k.id}">Revoke</button>
-            </div>
-          </div>
-        `).join('');
-      }
-      updateCodeSample();
-    }
-
-    function load() {
-      renderKeys(loadPreviewKeys());
-    }
-
-    generateBtn.addEventListener('click', () => {
-      const keys = loadPreviewKeys();
-      const k = {
-        id: 'k_' + Date.now().toString(36),
-        name: 'Preview key ' + (keys.length + 1),
-        key_value: makePreviewKey(),
-      };
-      keys.push(k);
-      savePreviewKeys(keys);
-      revealedIds.add(k.id);
-      load();
-    });
-
-    keyListEl.addEventListener('click', (e) => {
-      const btn = e.target.closest('.key-action');
-      if (!btn) return;
-      const id = btn.dataset.id;
-      const action = btn.dataset.action;
-      if (action === 'reveal') {
-        revealedIds.has(id) ? revealedIds.delete(id) : revealedIds.add(id);
-        load();
-      } else if (action === 'copy') {
-        navigator.clipboard.writeText(btn.dataset.key).catch(() => {});
-        const original = btn.textContent;
-        btn.textContent = 'Copied';
-        setTimeout(() => { btn.textContent = original; }, 1200);
-      } else if (action === 'revoke') {
-        savePreviewKeys(loadPreviewKeys().filter((k) => k.id !== id));
-        load();
-      }
-    });
-
-    codeTabs.forEach((tab) => {
-      tab.addEventListener('click', () => {
-        codeTabs.forEach((t) => t.classList.remove('active'));
-        tab.classList.add('active');
-        updateCodeSample();
-      });
-    });
-
-    load();
-  })();
 </script>
-
 </body>
 </html>
