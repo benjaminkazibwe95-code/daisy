@@ -310,11 +310,18 @@ def _tts_bytes(text, voice, rate, pitch):
     import edge_tts
     async def run():
         buf = bytearray()
-        comm = edge_tts.Communicate(text, voice, rate=f"{rate:+d}%", pitch=f"{pitch:+d}Hz")
+        marks = []   # [start_ms, length_ms] for every spoken word: the face uses this to keep the mouth on the words
+        kw = dict(rate=f"{rate:+d}%", pitch=f"{pitch:+d}Hz")
+        try:
+            comm = edge_tts.Communicate(text, voice, boundary="WordBoundary", **kw)
+        except TypeError:   # older edge-tts versions send word boundaries by default
+            comm = edge_tts.Communicate(text, voice, **kw)
         async for chunk in comm.stream():
             if chunk["type"] == "audio":
                 buf.extend(chunk["data"])
-        return bytes(buf)
+            elif chunk["type"] == "WordBoundary":
+                marks.append([int(chunk["offset"] / 10000), int(chunk["duration"] / 10000)])
+        return bytes(buf), marks
     return asyncio.run(run())
 
 @app.route("/tts", methods=["POST"])
@@ -328,17 +335,21 @@ def tts():
     pitch = _num(data.get("pitch", 6), -20, 30, 6)
     if not text:
         return ("", 400)
-    audio = b""
+    audio, marks = b"", []
     for v in ([voice] if voice == DEFAULT_VOICE else [voice, DEFAULT_VOICE]):
         try:
-            audio = _tts_bytes(text, v, rate, pitch)
+            audio, marks = _tts_bytes(text, v, rate, pitch)
             if audio:
                 break
         except Exception as e:
             print(f"[tts] {v} failed: {e}")
     if not audio:
         return ("", 502)
-    return Response(audio, mimetype="audio/mpeg", headers={"Cache-Control": "private, max-age=3600"})
+    hdr = {"Cache-Control": "private, max-age=3600"}
+    mj = json.dumps(marks, separators=(",", ":"))
+    if marks and len(mj) < 7000:
+        hdr["X-Word-Marks"] = mj
+    return Response(audio, mimetype="audio/mpeg", headers=hdr)
 
 VOICE_TEST_HTML = """<!doctype html><meta name=viewport content="width=device-width,initial-scale=1">
 <title>Daisy voice lab</title>
