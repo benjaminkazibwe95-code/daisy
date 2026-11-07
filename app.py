@@ -24,7 +24,7 @@ from pathlib import Path
 import requests
 import brain
 import harmony_layer
-from flask import Flask, request, session, jsonify, render_template, redirect, Response, stream_with_context, send_from_directory
+from flask import Flask, request, session, jsonify, render_template, redirect, Response, stream_with_context, send_from_directory, make_response
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # ── APP ───────────────────────────────────────────────────────────────────
@@ -139,7 +139,23 @@ def login_required(f):
 # ── PAGES ─────────────────────────────────────────────────────────────────
 @app.route("/")
 def home():
-    return render_template("index.html")
+    resp = make_response(render_template("index.html"))
+    resp.headers["Cache-Control"] = "no-store"   # the page itself is never cached by the browser or a proxy
+    return resp
+
+
+@app.route("/version")
+def version():
+    """Open /version on your site to see exactly which build and which index.html the server is using."""
+    p = Path(TEMPLATES_DIR) / "index.html"
+    txt = p.read_text(encoding="utf-8", errors="ignore")
+    return jsonify({
+        "build": "fast-v8",
+        "serving": str(p),
+        "modified": datetime.fromtimestamp(p.stat().st_mtime).isoformat(),
+        "bots_removed": "Floating bots removed" in txt,
+        "word_sync": "X-Word-Marks" in txt,
+    })
 
 @app.route("/console")
 def console():
