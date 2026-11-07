@@ -3,7 +3,7 @@
 // herself. Chat/API traffic always goes to the network; only the
 // app shell (the page itself + icons) is cached for fast/offline opens.
 
-const CACHE_NAME = 'daisy-shell-v7';
+const CACHE_NAME = 'daisy-shell-v8';
 const SHELL_URLS = [
   '/',
   '/manifest.json',
