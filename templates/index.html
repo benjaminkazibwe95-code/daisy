@@ -5071,8 +5071,9 @@ let PS=2.6,style=0,t=0,last=performance.now(),ptr=null,nextBlink=2,blinkT=-1,gaz
 /* Speed governor: Daisy watches her own frame rate and lightens the drawing on slower phones.
    Tier 0 = full look (unchanged). 1 = no big glow. 2 = lower resolution. 3 = lowest resolution + every other frame. */
 let perfTier=0,emaDt=16.7,slowFor=0,frameN=0,accDt=0;
-try{const sv=+localStorage.getItem('daisy_perf');if(sv>=0&&sv<=3&&localStorage.getItem('daisy_perf')!==null)perfTier=sv}catch(e){}
-if(!perfTier&&((navigator.deviceMemory&&navigator.deviceMemory<=2)||(navigator.hardwareConcurrency&&navigator.hardwareConcurrency<=4)))perfTier=1;
+let goodFor=0,govFrom=0;const blocked=[false,false,false,false];
+const savePerf=()=>{try{localStorage.setItem('daisy_perf',perfTier)}catch(e){}};
+try{const sv=localStorage.getItem('daisy_perf');if(sv!==null&&+sv>=0&&+sv<=3)perfTier=+sv}catch(e){}
 const TIER_DPR=[2,1.5,1,.75];
 
 let S0=100,cx0=0,cy0=0,S1=40,cx1=0,cy1=0,cornerT=0,cornerV=0,cornerOn=false,running=false,ptrT=0,onSpeechEnd=null,onSpeechStart=null;
@@ -5459,9 +5460,17 @@ function update(dt,now){
 function frame(now){if(!running)return;try{frame2(now)}catch(e){stateEl.textContent='err: '+e.message}requestAnimationFrame(frame)}
 function frame2(now){
   const dtRaw=(now-last)/1000;last=now;
-  const ms=Math.min(dtRaw,.5)*1000;emaDt+=(ms-emaDt)*.08;
-  if(perfTier<3&&emaDt>(perfTier===0?27:perfTier===1?36:45)){slowFor+=dtRaw;if(slowFor>1.6){perfTier++;slowFor=0;emaDt=16.7;try{localStorage.setItem('daisy_perf',perfTier)}catch(e){}resize()}}
-  else slowFor=Math.max(0,slowFor-dtRaw*.5);
+  const ms=Math.min(dtRaw,.5)*1000;
+  if(now>govFrom){   /* ignore the first 2.5 s after opening: start-up work is not the phone's real speed */
+    emaDt+=(ms-emaDt)*.08;
+    const thr=perfTier===0?27:perfTier===1?36:45;
+    if(perfTier<3&&emaDt>thr){goodFor=0;slowFor+=dtRaw;if(slowFor>1.6){blocked[perfTier]=true;perfTier++;slowFor=0;emaDt=16.7;savePerf();resize()}}
+    else{
+      slowFor=Math.max(0,slowFor-dtRaw*.5);
+      /* a phone that has been fast for a while gets its quality back (once per level, so it can never flip back and forth) */
+      if(perfTier>0&&emaDt<thr*.55&&!blocked[perfTier-1]){goodFor+=dtRaw;if(goodFor>25){perfTier--;goodFor=0;emaDt=16.7;savePerf();resize()}}else goodFor=0;
+    }
+  }
   /* real-time movement: the face never runs in slow motion when frames drop (small steps keep the springs stable) */
   let rem=Math.min(dtRaw,.25),dt=0;
   while(rem>1e-4){const s=Math.min(rem,1/30);rem-=s;dt+=s;t+=s;update(s,now)}
@@ -5526,7 +5535,7 @@ addEventListener('pointermove',e=>{ptr=[e.clientX,e.clientY];ptrT=performance.no
 function start(){
   if(running)return;running=true;cornerOn=false;cornerT=0;cornerV=0;
   for(const b of bots){b.px=(rnd()-.5)*5;b.py=(rnd()-.5)*5;b.vx=b.vy=0}
-  emo='neutral';emoM=null;FW={};fAcc={};last=performance.now();resize();requestAnimationFrame(frame);
+  emo='neutral';emoM=null;FW={};fAcc={};last=performance.now();govFrom=last+2500;slowFor=0;goodFor=0;emaDt=16.7;resize();requestAnimationFrame(frame);
 }
 function stop(){running=false;stopAll()}
 window.DaisyFace={
