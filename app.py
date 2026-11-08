@@ -203,35 +203,58 @@ def google_verification():
 def assetlinks():
     return send_from_directory(TEMPLATES_DIR, "assetlinks.json", mimetype="application/json")
 
+def _auth_input():
+    """Reads email/password/name from JSON (the Android app) or a normal form (the website)."""
+    if request.is_json:
+        d = request.get_json(silent=True) or {}
+        return True, d
+    return False, request.form
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
-        email = (request.form.get("email") or "").strip().lower()
-        password = request.form.get("password") or ""
+        is_json, d = _auth_input()
+        email = (d.get("email") or "").strip().lower()
+        password = d.get("password") or ""
         row = db_fetchone("SELECT * FROM users WHERE email=?", (email,))
         if row and check_password_hash(row["password"], password):
             session["user_id"] = row["id"]
+            session.permanent = True
+            if is_json:
+                return jsonify({"success": True, "user": {"name": row["name"], "email": row["email"]}})
             return redirect(request.args.get("next") or "/")
+        if is_json:
+            return jsonify({"error": "Wrong email or password."}), 401
         return render_template("login.html", error="Wrong email or password.")
     return render_template("login.html", error=None)
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
-        name = (request.form.get("name") or "").strip()[:100]
-        email = (request.form.get("email") or "").strip().lower()
-        password = request.form.get("password") or ""
-        if not email or len(password) < 6:
-            return render_template("register.html", error="Email and a 6+ char password are required.")
-        if db_fetchone("SELECT id FROM users WHERE email=?", (email,)):
-            return render_template("register.html", error="That email is already registered.")
+        is_json, d = _auth_input()
+        name = (d.get("name") or "").strip()[:100]
+        email = (d.get("email") or "").strip().lower()
+        password = d.get("password") or ""
+        err = None
+        if not email or "@" not in email or len(password) < 6:
+            err = "Email and a 6+ character password are required."
+        elif db_fetchone("SELECT id FROM users WHERE email=?", (email,)):
+            err = "That email is already registered. Try logging in."
+        if err:
+            if is_json:
+                return jsonify({"error": err}), 400
+            return render_template("login.html", error=err)
         uid = db_insert(
             "INSERT INTO users (name, email, password) VALUES (?,?,?)",
             (name, email, generate_password_hash(password))
         )
         session["user_id"] = uid
+        session.permanent = True
+        if is_json:
+            return jsonify({"success": True, "user": {"name": name, "email": email}})
         return redirect(request.args.get("next") or "/")
-    return render_template("register.html", error=None)
+    # The website has no separate register.html page, so send people to the login page.
+    return render_template("login.html", error=None)
 
 @app.route("/auth/me")
 def auth_me():
