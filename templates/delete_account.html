@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delete your Daisy account — TrustedBiz</title>
+<meta name="description" content="Delete your Daisy account and data." />
+<link rel="canonical" href="https://daisy-qg1c.onrender.com/delete-account" />
+<link rel="icon" href="/static/icons/favicon-32.png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:     #ffffff;
+    --text:   #17171c;
+    --muted:  #6b6b76;
+    --border: #e7e7ec;
+    --blue:   #3d6fd8;
+    --violet: #7c5cd6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+  }
+  header .inner {
+    max-width: 760px; margin: 0 auto; padding: 22px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .wordmark { font-family: 'Instrument Serif', serif; font-size: 21px; color: var(--text); text-decoration: none; }
+  header a.back { color: var(--muted); font-size: 14px; text-decoration: none; }
+  header a.back:hover { color: var(--text); }
+
+  main { max-width: 760px; margin: 0 auto; padding: 64px 24px 100px; }
+  .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--blue); margin-bottom: 14px; }
+  h1 { font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 44px; margin: 0 0 10px; }
+  .effective { color: var(--muted); font-size: 14px; margin-bottom: 48px; }
+  h2 { font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 25px; margin: 44px 0 14px; }
+  p { font-size: 16px; color: #33333c; margin: 0 0 16px; }
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { font-size: 16px; color: #33333c; margin-bottom: 9px; }
+  strong { color: var(--text); }
+  .contact-card {
+    background: #fafafc; border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px 22px; margin-top: 6px;
+  }
+  .contact-card p { margin: 0; font-size: 15px; }
+  .contact-card p + p { margin-top: 5px; }
+  footer {
+    border-top: 1px solid var(--border); padding: 28px 0; color: var(--muted); font-size: 13px;
+  }
+  footer .inner {
+    max-width: 760px; margin: 0 auto; padding: 0 24px;
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px;
+  }
+  footer a { color: var(--muted); text-decoration: none; margin-left: 16px; }
+  footer a:hover { color: var(--text); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <a class="wordmark" href="/welcome">Daisy</a>
+    <a class="back" href="/welcome">Back to Daisy</a>
+  </div>
+</header>
+
+<main>
+  <div class="eyebrow">Your data</div>
+  <h1>Delete your Daisy account</h1>
+  <p>This page is for the <strong>Daisy</strong> app by <strong>TrustedBiz</strong>. You can delete your account and the data saved with it without opening the app.</p>
+
+  <h2>What is deleted</h2>
+  <p>Your account (name, email, password), the projects you created, and the chats saved on our server. Chats that are only on your phone are removed when you clear chats in the app or uninstall it. We may keep limited records where the law requires it or to prevent abuse, and answer reports in a form that no longer identifies you.</p>
+
+  <h2>Delete now</h2>
+  <p>Enter the email and password of your Daisy account. This cannot be undone.</p>
+  <form id="f" style="display:grid;gap:12px;max-width:420px;margin:18px 0">
+    <input id="e" type="email" placeholder="Email" autocomplete="email" required style="padding:13px 14px;border:1px solid var(--border);border-radius:12px;font:inherit">
+    <input id="p" type="password" placeholder="Password" autocomplete="current-password" required style="padding:13px 14px;border:1px solid var(--border);border-radius:12px;font:inherit">
+    <button id="b" type="submit" style="padding:13px 14px;border:0;border-radius:12px;background:#c0392b;color:#fff;font:inherit;font-weight:600;cursor:pointer">Delete my account</button>
+    <div id="m" role="status" style="min-height:22px"></div>
+  </form>
+
+  <h2>Or ask us by email</h2>
+  <p>Email <strong>hello@trustedbiz.co.ug</strong> from the address you signed up with, with the subject "Delete my Daisy account". We will confirm and delete your data.</p>
+  <p>Read the <a href="/privacy#delete">privacy policy</a> for details.</p>
+</main>
+<script>
+document.getElementById('f').addEventListener('submit', async function(ev){
+  ev.preventDefault();
+  var m=document.getElementById('m'), b=document.getElementById('b');
+  b.disabled=true; m.textContent='Deleting...';
+  try{
+    var r=await fetch('/api/account/delete',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:document.getElementById('e').value,password:document.getElementById('p').value})});
+    var j=await r.json().catch(function(){return {}});
+    if(r.ok&&j.success){m.style.color='#1e8e5a';m.textContent='Your account and data have been deleted.';document.getElementById('f').reset();}
+    else{m.style.color='#c0392b';m.textContent=j.error||'Could not delete the account.';b.disabled=false;}
+  }catch(e){m.style.color='#c0392b';m.textContent='Could not reach the server. Try again.';b.disabled=false;}
+});
+</script>
+</body>
+</html>
