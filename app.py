@@ -24,8 +24,12 @@ from pathlib import Path
 import requests
 import brain
 import harmony_layer
-import petal_api
-import petal_sync
+try:                                   # Petal is optional: if her files are missing, Daisy still runs
+    import petal_api
+    import petal_sync
+except Exception as _petal_err:
+    petal_api = petal_sync = None
+    print(f"[petal] disabled: {_petal_err}")
 from flask import Flask, request, session, jsonify, render_template, redirect, Response, stream_with_context, send_from_directory, make_response
 from werkzeug.security import generate_password_hash, check_password_hash
 
@@ -34,8 +38,9 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
 
 # ── PETAL: Daisy's own model (page, window, API). Weights are pulled from GitHub. ──
-app.register_blueprint(petal_api.petal_bp)
-petal_sync.start()
+if petal_api:
+    app.register_blueprint(petal_api.petal_bp)
+    petal_sync.start()
 
 DAISY_API_KEY       = os.environ.get("DAISY_API_KEY", "")
 TRUSTEDBIZ_API_URL = os.environ.get("TRUSTEDBIZ_API_URL", "").rstrip("/")
@@ -302,6 +307,10 @@ def ask():
         yield sse_line({"event": "status", "status": "thinking"})
 
         # Petal: Daisy's own small language model. Raw answers; these chats are never logged.
+        if model == "petal" and petal_api is None:
+            yield sse_line({"event": "final", "answer": "Petal isn't installed on this server yet.",
+                            "source": "petal", "sources": [], "used_web_search": False, "memory_fact": None})
+            return
         if model == "petal":
             if not petal_api.allowed(petal_api.client_ip()):
                 yield sse_line({"event": "final", "answer": "You're sending messages quickly. Give Petal a moment.",
