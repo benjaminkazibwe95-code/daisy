@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Petal · Daisy's own language model</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black:#2b2b2b; --surface:#333333; --card:#3a3a3a; --border:#484848;
+    --text:#f0f0f0; --muted:#9a9a9a; --daisy:#7eb8f7; --daisy2:#a78bfa; --ok:#4ade80; --on-daisy:#0f1722; --radius:14px;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --black:#ffffff; --surface:#f7f7f5; --card:#f0f0ee; --border:#dcdcd8; --text:#17171a; --muted:#67676c; --daisy:#1f6fd6; --daisy2:#7c3aed; --ok:#16a34a; --on-daisy:#ffffff; }
+  }
+  html[data-theme="dark"]  { --black:#2b2b2b; --surface:#333333; --card:#3a3a3a; --border:#484848; --text:#f0f0f0; --muted:#9a9a9a; --daisy:#7eb8f7; --daisy2:#a78bfa; --ok:#4ade80; --on-daisy:#0f1722; }
+  html[data-theme="light"] { --black:#ffffff; --surface:#f7f7f5; --card:#f0f0ee; --border:#dcdcd8; --text:#17171a; --muted:#67676c; --daisy:#1f6fd6; --daisy2:#7c3aed; --ok:#16a34a; --on-daisy:#ffffff; }
+
+  html, body { height:100%; }
+  body { background:var(--black); color:var(--text); font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:780px; margin:0 auto; padding:28px 20px 56px; }
+  body.embed .wrap { padding:14px 14px 28px; }
+
+  header { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:18px; }
+  .brand { display:flex; align-items:center; gap:12px; }
+  .mark { width:38px; height:38px; border-radius:11px; background:linear-gradient(135deg,var(--daisy),var(--daisy2)); display:grid; place-items:center; color:var(--on-daisy); font-weight:700; font-size:18px; flex:none; }
+  h1 { font-size:22px; font-weight:650; letter-spacing:-.01em; line-height:1.15; }
+  .tagline { color:var(--muted); font-size:13px; margin-top:2px; }
+  body.embed .tagline { display:none; }
+  .back { color:var(--muted); font-size:13px; text-decoration:none; border:1px solid var(--border); border-radius:999px; padding:5px 12px; white-space:nowrap; }
+  .back:hover { color:var(--text); }
+  body.embed .back { display:none; }
+  body.embed .brand { display:none; }
+  body.embed header { justify-content:flex-end; margin-bottom:8px; }
+  body.embed header > div:last-child { flex-direction:row; align-items:center; }
+
+  .live { display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--muted); }
+  .dot { width:8px; height:8px; border-radius:50%; background:var(--muted); }
+  .dot.on { background:var(--ok); box-shadow:0 0 0 3px color-mix(in srgb, var(--ok) 25%, transparent); }
+
+  .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:14px; }
+  .metric { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:11px 13px; }
+  .metric .k { font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+  .metric .v { font-size:20px; font-weight:650; margin-top:2px; font-variant-numeric:tabular-nums; }
+  @media (max-width:560px) { .metrics { grid-template-columns:repeat(2,1fr); } }
+  body.embed .metrics { grid-template-columns:repeat(4,1fr); gap:6px; }
+  body.embed .metric { padding:8px 9px; }
+  body.embed .metric .k { font-size:10px; letter-spacing:.04em; }
+  body.embed .metric .v { font-size:16px; }
+
+  .progress { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:14px 16px; margin-bottom:14px; }
+  .progress .t { font-weight:600; margin-bottom:3px; }
+  .progress .s { color:var(--muted); font-size:13px; margin-bottom:10px; }
+  .bar { height:8px; background:var(--card); border-radius:999px; overflow:hidden; }
+  .bar i { display:block; height:100%; background:linear-gradient(90deg,var(--daisy),var(--daisy2)); width:0; transition:width .6s; }
+
+  .note { font-size:13px; color:var(--muted); background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--daisy); border-radius:10px; padding:10px 13px; margin-bottom:14px; }
+  body.embed .note { display:none; }
+
+  .tabs { display:flex; gap:4px; border-bottom:1px solid var(--border); margin-bottom:16px; }
+  .tab { background:none; border:none; color:var(--muted); font:inherit; font-weight:600; padding:9px 14px; cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-1px; }
+  .tab[aria-selected="true"] { color:var(--text); border-bottom-color:var(--daisy); }
+  .tab:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline:2px solid var(--daisy); outline-offset:2px; }
+  .panel[hidden] { display:none; }
+
+  #log { display:flex; flex-direction:column; gap:10px; margin-bottom:12px; min-height:90px; }
+  .empty { color:var(--muted); font-size:14px; padding:18px 4px; }
+  .msg { max-width:90%; padding:10px 14px; border-radius:14px; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .msg.me { align-self:flex-end; background:var(--daisy); color:var(--on-daisy); border-bottom-right-radius:4px; }
+  .msg.petal { background:var(--surface); border:1px solid var(--border); border-bottom-left-radius:4px; font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:13.5px; }
+  .msg.err { color:var(--muted); font-style:italic; }
+  form { display:flex; gap:8px; position:sticky; bottom:0; padding:8px 0; background:var(--black); }
+  input[type=text] { flex:1; min-width:0; padding:12px 14px; border-radius:12px; border:1px solid var(--border); background:var(--surface); color:var(--text); font:inherit; }
+  .send { padding:0 18px; border:none; border-radius:12px; background:var(--daisy); color:var(--on-daisy); font:inherit; font-weight:600; cursor:pointer; }
+  .send:disabled { opacity:.5; cursor:default; }
+  .hint { font-size:12px; color:var(--muted); margin-top:4px; }
+
+  h2 { font-size:16px; font-weight:650; margin:22px 0 4px; }
+  h2:first-child { margin-top:2px; }
+  .sub { color:var(--muted); font-size:13px; margin-bottom:12px; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:14px 16px; margin-bottom:12px; }
+  .spark { width:100%; height:64px; display:block; }
+  .cmp { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:8px; }
+  @media (max-width:560px) { .cmp { grid-template-columns:1fr; } }
+  .cmp .col .lab { font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; }
+  .raw { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:8px 10px; font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:12.5px; white-space:pre-wrap; overflow-wrap:anywhere; min-height:40px; }
+  .q { font-weight:600; font-size:14px; }
+  .pq { margin-bottom:16px; }
+  .pq:last-child { margin-bottom:0; }
+  details.entry { background:var(--surface); border:1px solid var(--border); border-radius:12px; margin-bottom:8px; }
+  details.entry summary { cursor:pointer; padding:11px 14px; display:flex; justify-content:space-between; gap:10px; list-style:none; }
+  details.entry summary::-webkit-details-marker { display:none; }
+  details.entry summary b { font-weight:650; }
+  details.entry summary span { color:var(--muted); font-size:12.5px; font-variant-numeric:tabular-nums; }
+  details.entry .body { padding:0 14px 12px; }
+  details.entry .qa { margin-top:10px; }
+  details.entry .qa .q { font-size:12.5px; color:var(--muted); font-weight:500; margin-bottom:3px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="mark" aria-hidden="true">P</div>
+      <div>
+        <h1>Petal</h1>
+        <div class="tagline">Daisy's own language model. Built from scratch, learning in public.</div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+      <a class="back" href="/">&larr; Daisy</a>
+      <span class="live"><span class="dot" id="dot"></span><span id="liveTxt">Connecting</span></span>
+    </div>
+  </header>
+
+  <div id="metrics" class="metrics" hidden>
+    <div class="metric"><div class="k">Age</div><div class="v" id="mAge">-</div></div>
+    <div class="metric"><div class="k">Steps</div><div class="v" id="mStep">-</div></div>
+    <div class="metric" title="How wrong she is on text she is tested on. Lower is better."><div class="k">Loss</div><div class="v" id="mLoss">-</div></div>
+    <div class="metric"><div class="k">Size</div><div class="v" id="mSize">-</div></div>
+  </div>
+
+  <div id="progress" class="progress" hidden>
+    <div class="t">Petal hasn't been born yet</div>
+    <div class="s" id="progressTxt">She is reading and collecting text before her first lesson.</div>
+    <div class="bar"><i id="progressBar"></i></div>
+  </div>
+
+  <div class="note">
+    Petal is a very small language model trained on a few hundred megabytes of text. She is not an assistant like Daisy or ChatGPT.
+    What you read here is exactly what she produced, with nothing filtered or corrected, so it is often wrong or makes no sense.
+    That is what makes watching her improve interesting. She has no memory between messages.
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tTalk" aria-selected="true" aria-controls="pTalk">Talk to Petal</button>
+    <button class="tab" role="tab" id="tGrow" aria-selected="false" aria-controls="pGrow">Her growth</button>
+  </div>
+
+  <section class="panel" id="pTalk" role="tabpanel" aria-labelledby="tTalk">
+    <div id="log" aria-live="polite"><div class="empty" id="emptyHint">Ask her anything. Try "What is water?" or "Who are you?".</div></div>
+    <form id="f"><input id="q" type="text" maxlength="300" placeholder="Say something to Petal" aria-label="Message to Petal" autocomplete="off"><button class="send" id="go" type="submit">Send</button></form>
+  </section>
+
+  <section class="panel" id="pGrow" role="tabpanel" aria-labelledby="tGrow" hidden>
+    <h2>Loss over time</h2>
+    <div class="sub">Each point is one lesson. A falling line means she is getting better at predicting text.</div>
+    <div class="card"><svg id="spark" class="spark" viewBox="0 0 300 64" preserveAspectRatio="none" role="img" aria-label="Loss over time"></svg><div class="hint" id="sparkHint"></div></div>
+
+    <h2>Then and now</h2>
+    <div class="sub">Her very first answers next to her latest, to the same questions.</div>
+    <div class="card" id="cmp"><div class="hint">Nothing yet. Her first diary entry appears after her first lesson.</div></div>
+
+    <h2>Growth log</h2>
+    <div class="sub">Every lesson, newest first.</div>
+    <div id="diary"><div class="hint">Nothing yet.</div></div>
+  </section>
+</div>
+
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  const embed = new URLSearchParams(location.search).get('embed') === '1';
+  if (embed) document.body.classList.add('embed');
+  try { const t = localStorage.getItem('daisy_theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+
+  // ---- tabs
+  function tab(which) {
+    const talk = which === 'talk';
+    $('tTalk').setAttribute('aria-selected', talk); $('tGrow').setAttribute('aria-selected', !talk);
+    $('pTalk').hidden = !talk; $('pGrow').hidden = talk;
+  }
+  $('tTalk').onclick = () => tab('talk'); $('tGrow').onclick = () => tab('grow');
+
+  // ---- chat
+  const log = $('log');
+  function add(text, cls) {
+    const h = $('emptyHint'); if (h) h.remove();
+    const d = document.createElement('div'); d.className = 'msg ' + cls; d.textContent = text;
+    log.appendChild(d); d.scrollIntoView({ block: 'nearest' }); return d;
+  }
+  $('f').onsubmit = async e => {
+    e.preventDefault();
+    const q = $('q').value.trim(); if (!q) return;
+    $('q').value = ''; add(q, 'me');
+    const wait = add('...', 'petal'); $('go').disabled = true;
+    try {
+      const r = await fetch('/petal/ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: q }) });
+      const j = await r.json();
+      if (j.error) { wait.className = 'msg petal err'; wait.textContent = j.error; }
+      else if (j.answer === null) { wait.className = 'msg petal err'; wait.textContent = "I haven't been born yet. I'm still collecting text. Come back soon."; }
+      else wait.textContent = j.answer;
+    } catch (err) { wait.className = 'msg petal err'; wait.textContent = 'Petal could not be reached right now.'; }
+    $('go').disabled = false; $('q').focus();
+  };
+
+  // ---- status
+  const fmt = n => (n == null ? '-' : Number(n).toLocaleString());
+  async function loadStatus() {
+    try {
+      const s = await (await fetch('/petal/status')).json();
+      $('metrics').hidden = !s.model_ready; $('progress').hidden = s.model_ready;
+      $('dot').className = 'dot' + (s.model_ready ? ' on' : '');
+      $('liveTxt').textContent = s.model_ready ? 'Learning' : 'Collecting text';
+      if (s.model_ready) {
+        $('mAge').textContent = 'Day ' + s.day;
+        $('mStep').textContent = fmt(s.step);
+        $('mLoss').textContent = s.loss == null ? '-' : Number(s.loss).toFixed(2);
+        $('mSize').textContent = s.params_m ? s.params_m.toFixed(1) + 'M' : s.size;
+      } else {
+        const pct = Math.min(100, (s.corpus_mb / s.goal_mb) * 100);
+        $('progressBar').style.width = pct + '%';
+        $('progressTxt').textContent = 'Collecting text: ' + Number(s.corpus_mb).toFixed(1) + ' of ' + s.goal_mb + ' MB before her first lesson.';
+      }
+    } catch (e) { $('liveTxt').textContent = 'Offline'; }
+  }
+
+  // ---- growth
+  function el(tag, cls, text) { const x = document.createElement(tag); if (cls) x.className = cls; if (text != null) x.textContent = text; return x; }
+  function drawSpark(entries) {
+    const svg = $('spark'); svg.replaceChildren();
+    const pts = entries.filter(e => e.loss != null);
+    if (pts.length < 2) { $('sparkHint').textContent = pts.length ? 'More lessons are needed to draw a line.' : 'No lessons yet.'; return; }
+    const vals = pts.map(e => Number(e.loss)), mn = Math.min(...vals), mx = Math.max(...vals), span = (mx - mn) || 1;
+    const d = vals.map((v, i) => (i / (vals.length - 1) * 296 + 2).toFixed(1) + ',' + (60 - ((v - mn) / span) * 54 + 2).toFixed(1)).join(' ');
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+    line.setAttribute('points', d); line.setAttribute('fill', 'none'); line.setAttribute('stroke', 'var(--daisy)');
+    line.setAttribute('stroke-width', '2'); line.setAttribute('vector-effect', 'non-scaling-stroke'); svg.appendChild(line);
+    $('sparkHint').textContent = 'From ' + vals[0].toFixed(2) + ' to ' + vals[vals.length - 1].toFixed(2) + ' over ' + vals.length + ' lessons.';
+  }
+  function drawCompare(entries) {
+    const box = $('cmp'); if (!entries.length) return; box.replaceChildren();
+    const first = entries[0], last = entries[entries.length - 1];
+    Object.keys(first.answers).forEach(q => {
+      const w = el('div', 'pq'); w.appendChild(el('div', 'q', q));
+      const g = el('div', 'cmp');
+      [[first, 'Day ' + first.day + ' (first)'], [last, 'Day ' + last.day + ' (latest)']].forEach(([en, lab]) => {
+        const c = el('div', 'col'); c.appendChild(el('div', 'lab', lab)); c.appendChild(el('div', 'raw', en.answers[q] || '(nothing)')); g.appendChild(c);
+      });
+      w.appendChild(g); box.appendChild(w);
+    });
+  }
+  function drawLog(entries) {
+    const box = $('diary'); if (!entries.length) return; box.replaceChildren();
+    entries.slice().reverse().forEach((en, i) => {
+      const d = el('details', 'entry'); if (i === 0) d.open = true;
+      const s = el('summary'); s.appendChild(el('b', null, 'Day ' + en.day));
+      s.appendChild(el('span', null, new Date(en.time * 1000).toLocaleDateString() + ' · step ' + fmt(en.step) + (en.loss != null ? ' · loss ' + Number(en.loss).toFixed(2) : '')));
+      d.appendChild(s);
+      const b = el('div', 'body');
+      Object.entries(en.answers).forEach(([q, a]) => { const qa = el('div', 'qa'); qa.appendChild(el('div', 'q', q)); qa.appendChild(el('div', 'raw', a || '(nothing)')); b.appendChild(qa); });
+      d.appendChild(b); box.appendChild(d);
+    });
+  }
+  async function loadDiary() {
+    try {
+      const j = await (await fetch('/petal/diary')).json();
+      drawSpark(j.entries); drawCompare(j.entries); drawLog(j.entries);
+    } catch (e) {}
+  }
+
+  loadStatus(); loadDiary();
+  setInterval(loadStatus, 30000); setInterval(loadDiary, 120000);
+})();
+</script>
+</body>
+</html>

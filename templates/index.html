@@ -2022,6 +2022,9 @@
         <button class="settings-option" data-model-choice="beni2">
           <strong>Beni 2</strong>  natural, conversational answers, with web search &amp; photo analysis
         </button>
+        <button class="settings-option" data-model-choice="petal">
+          <strong>Petal</strong>  Daisy's own small language model, learning in public. Raw answers, in her own window <span id="petal-live" style="color:var(--muted)"></span>
+        </button>
       </div>
     </div>
 
@@ -2459,17 +2462,18 @@ document.addEventListener('DOMContentLoaded', function() {
   // per device, same as theme/accent, and read fresh by sendMessage() on
   // every send so switching takes effect immediately, mid-conversation.
   const MODEL_KEY = 'daisy_model';
-  const modelLabels = { beni: 'Beni', beni2: 'Beni 2' };
+  const modelLabels = { beni: 'Beni', beni2: 'Beni 2', petal: 'Petal' };
   const modelRow     = document.getElementById('model-row');
   const modelOptions = document.getElementById('model-options');
   const modelValueEl = document.getElementById('model-value');
 
   function getSelectedModel() {
     const stored = localStorage.getItem(MODEL_KEY);
-    return stored === 'beni' ? 'beni' : 'beni2';
+    return (stored === 'beni' || stored === 'petal') ? stored : 'beni2';
   }
   function applyModel(choice) {
-    choice = choice === 'beni' ? 'beni' : 'beni2';
+    choice = (choice === 'beni' || choice === 'petal') ? choice : 'beni2';
+    if (window.PetalWindow) PetalWindow.refreshLauncher(choice);
     localStorage.setItem(MODEL_KEY, choice);
     modelValueEl.textContent = modelLabels[choice];
     modelOptions.querySelectorAll('.settings-option').forEach(o =>
@@ -2483,8 +2487,12 @@ document.addEventListener('DOMContentLoaded', function() {
     modelOptions.style.display = modelOptions.style.display === 'none' ? 'block' : 'none';
   };
   modelOptions.querySelectorAll('.settings-option').forEach(btn => {
-    btn.onclick = () => { applyModel(btn.dataset.modelChoice); modelOptions.style.display = 'none'; };
+    btn.onclick = () => {
+      applyModel(btn.dataset.modelChoice); modelOptions.style.display = 'none';
+      if (btn.dataset.modelChoice === 'petal' && window.PetalWindow) PetalWindow.open();
+    };
   });
+  if (window.PetalWindow) PetalWindow.loadStatus();
 
   // Accent color
   const ACCENT_KEY = 'daisy_accent';
@@ -6965,6 +6973,108 @@ if(window.DaisyBots)window.DaisyBots.onmode=m=>window.DaisyFace.corner(m==='shap
   function send(){var v=$('st-input').value.trim();if(!v)return;$('st-input').value='';DaisyStudio.say(v,'chat');}
   $('st-send').onclick=send;$('st-input').addEventListener('keydown',function(e){if(e.key==='Enter')send();});
   DaisyStudio.onclose=function(){if(window.DaisyFace)DaisyFace.corner(false);$('st-menu').hidden=true;};
+})();
+</script>
+
+<!-- ═══ PETAL: Daisy's own model — small window ═══ -->
+<style>
+  :root { --on-daisy:#0f1722; }
+  @media (prefers-color-scheme: light) { :root { --on-daisy:#ffffff; } }
+  html[data-theme="dark"] { --on-daisy:#0f1722; }
+  html[data-theme="light"] { --on-daisy:#ffffff; }
+  #petal-win { position:fixed; right:20px; bottom:20px; width:400px; height:min(620px, calc(100vh - 40px)); z-index:9000;
+    display:flex; flex-direction:column; background:var(--black); color:var(--text); border:1px solid var(--border); border-radius:16px;
+    box-shadow:0 18px 50px rgba(0,0,0,.35); overflow:hidden; transform:translateY(16px) scale(.98); opacity:0; pointer-events:none;
+    transition:transform .22s ease, opacity .22s ease; }
+  #petal-win.open { transform:none; opacity:1; pointer-events:auto; }
+  #petal-win .pw-head { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 12px; border-bottom:1px solid var(--border); background:var(--surface); }
+  #petal-win .pw-title { display:flex; align-items:center; gap:10px; min-width:0; }
+  #petal-win .pw-mark { width:28px; height:28px; border-radius:8px; background:linear-gradient(135deg,var(--daisy),var(--daisy2)); color:var(--on-daisy); display:grid; place-items:center; font-weight:700; font-size:14px; flex:none; }
+  #petal-win .pw-title b { display:block; font-size:14px; line-height:1.15; }
+  #petal-win .pw-title small { display:block; font-size:11.5px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  #petal-win .pw-actions { display:flex; gap:4px; flex:none; }
+  #petal-win .pw-actions a, #petal-win .pw-actions button { width:30px; height:30px; display:grid; place-items:center; border:none; background:none; color:var(--muted); border-radius:8px; cursor:pointer; text-decoration:none; font-size:15px; }
+  #petal-win .pw-actions a:hover, #petal-win .pw-actions button:hover { background:var(--card); color:var(--text); }
+  #petal-win iframe { flex:1; width:100%; border:0; background:var(--black); }
+  #petal-launch { position:fixed; right:20px; bottom:20px; z-index:8999; display:none; align-items:center; gap:8px; padding:9px 14px 9px 10px;
+    border:1px solid var(--border); border-radius:999px; background:var(--surface); color:var(--text); font:600 13px system-ui,sans-serif; cursor:pointer; box-shadow:0 6px 20px rgba(0,0,0,.25); }
+  #petal-launch.show { display:inline-flex; }
+  #petal-launch .pw-mark { width:22px; height:22px; border-radius:7px; background:linear-gradient(135deg,var(--daisy),var(--daisy2)); color:var(--on-daisy); display:grid; place-items:center; font-size:12px; }
+  @media (max-width:600px) {
+    #petal-win { right:0; left:0; bottom:0; width:auto; height:86vh; border-radius:16px 16px 0 0; }
+    #petal-launch { right:14px; bottom:84px; }
+  }
+</style>
+<div id="petal-win" role="dialog" aria-label="Petal, Daisy's own language model" aria-hidden="true">
+  <div class="pw-head">
+    <div class="pw-title"><span class="pw-mark" aria-hidden="true">P</span><div><b>Petal</b><small id="pw-sub">Daisy's own model</small></div></div>
+    <div class="pw-actions">
+      <a href="/petal" target="_blank" rel="noopener" title="Open Petal's full page" aria-label="Open Petal's full page">&#8599;</a>
+      <button id="pw-close" type="button" title="Close" aria-label="Close Petal">&#10005;</button>
+    </div>
+  </div>
+  <iframe id="pw-frame" title="Petal" data-src="/petal?embed=1"></iframe>
+</div>
+<button id="petal-launch" type="button" aria-label="Open Petal"><span class="pw-mark" aria-hidden="true">P</span><span id="pl-text">Petal</span></button>
+<script>
+window.PetalWindow = (function () {
+  const win = document.getElementById('petal-win'), frame = document.getElementById('pw-frame');
+  const launch = document.getElementById('petal-launch'), sub = document.getElementById('pw-sub'), lt = document.getElementById('pl-text');
+  let status = null, usingPetal = false;
+
+  // Pick readable text for whatever accent colour is active (the accent is the same pale blue in both themes)
+  function onAccent() {
+    const c = getComputedStyle(document.documentElement).getPropertyValue('--daisy').trim();
+    const m = /^#?([0-9a-f]{6})$/i.exec(c); if (!m) return null;
+    const n = parseInt(m[1], 16), L = (0.299 * ((n >> 16) & 255) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255;
+    return L > 0.6 ? '#0f1722' : '#ffffff';
+  }
+  function applyOnAccent() { const oc = onAccent(); if (oc) document.documentElement.style.setProperty('--on-daisy', oc); return oc; }
+  function syncTheme() {
+    try {
+      const oc = applyOnAccent();
+      const d = frame.contentDocument && frame.contentDocument.documentElement; if (!d) return;
+      if (oc) d.style.setProperty('--on-daisy', oc);
+      const t = document.documentElement.getAttribute('data-theme');
+      if (t) d.setAttribute('data-theme', t); else d.removeAttribute('data-theme');
+      const cs = getComputedStyle(document.documentElement);
+      ['--daisy', '--daisy2'].forEach(v => d.style.setProperty(v, cs.getPropertyValue(v)));
+    } catch (e) {}
+  }
+  frame.addEventListener('load', syncTheme);
+
+  function label() {
+    const line = !status ? '' : (status.model_ready ? 'Day ' + status.day + ' · ' + Number(status.step).toLocaleString() + ' steps' : 'Not born yet');
+    sub.textContent = line || "Daisy's own model";
+    lt.textContent = status && status.model_ready ? 'Petal · Day ' + status.day : 'Petal';
+    const live = document.getElementById('petal-live');
+    if (live && status) live.textContent = status.model_ready ? '· Day ' + status.day : '· not born yet';
+  }
+  async function loadStatus() {
+    try { status = await (await fetch('/petal/status')).json(); label(); } catch (e) {}
+  }
+  function open() {
+    applyOnAccent();
+    if (!frame.getAttribute('src')) frame.setAttribute('src', frame.dataset.src); else syncTheme();
+    win.classList.add('open'); win.setAttribute('aria-hidden', 'false'); launch.classList.remove('show');
+    loadStatus();
+  }
+  function close() {
+    win.classList.remove('open'); win.setAttribute('aria-hidden', 'true');
+    if (usingPetal) launch.classList.add('show');
+  }
+  function refreshLauncher(model) {
+    usingPetal = model === 'petal';
+    if (usingPetal && !win.classList.contains('open')) { launch.classList.add('show'); loadStatus(); }
+    else launch.classList.remove('show');
+  }
+  document.getElementById('pw-close').onclick = close;
+  launch.onclick = open;
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && win.classList.contains('open')) close(); });
+  applyOnAccent();
+  try { refreshLauncher(localStorage.getItem('daisy_model')); } catch (e) {}
+  loadStatus();
+  return { open, close, loadStatus, refreshLauncher };
 })();
 </script>
 </body>
