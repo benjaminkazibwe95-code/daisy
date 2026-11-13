@@ -1,0 +1,57 @@
+name: Petal learns
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      train_minutes:
+        description: "Minutes of training in this run"
+        default: "270"
+
+concurrency:
+  group: petal
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  learn:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: petal-requirements.txt
+
+      - name: Install
+        run: |
+          pip install -r petal-requirements.txt
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Restore Petal's memory
+        run: |
+          git clone --depth 1 --branch petal-data \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" petal_data \
+            || mkdir petal_data
+          rm -rf petal_data/.git
+
+      - name: Petal learns
+        env:
+          PETAL_DATA_DIR: petal_data
+        run: python petal_cycle.py --harvest-minutes 15 --train-minutes ${{ github.event.inputs.train_minutes || '270' }}
+
+      - name: Publish to the petal-data branch
+        run: |
+          cd petal_data
+          git init -q -b petal-data
+          git config user.name "petal-bot"
+          git config user.email "petal-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Petal $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" petal-data
