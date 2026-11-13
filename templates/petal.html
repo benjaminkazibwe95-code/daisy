@@ -69,6 +69,7 @@
   .msg.me { align-self:flex-end; background:var(--daisy); color:var(--on-daisy); border-bottom-right-radius:4px; }
   .msg.petal { background:var(--surface); border:1px solid var(--border); border-bottom-left-radius:4px; font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:13.5px; }
   .msg.err { color:var(--muted); font-style:italic; }
+  .msg.petal.safe { font-family:inherit; font-size:15px; }
   form { display:flex; gap:8px; position:sticky; bottom:0; padding:8px 0; background:var(--black); }
   input[type=text] { flex:1; min-width:0; padding:12px 14px; border-radius:12px; border:1px solid var(--border); background:var(--surface); color:var(--text); font:inherit; }
   .send { padding:0 18px; border:none; border-radius:12px; background:var(--daisy); color:var(--on-daisy); font:inherit; font-weight:600; cursor:pointer; }
@@ -184,14 +185,15 @@
     const q = $('q').value.trim(); if (!q) return;
     $('q').value = ''; add(q, 'me');
     const wait = add('...', 'petal'); $('go').disabled = true;
+    const slow = setTimeout(() => { if (wait.textContent === '...') wait.textContent = 'Thinking... she is slow on a small server.'; }, 8000);
     try {
       const r = await fetch('/petal/ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: q }) });
       const j = await r.json();
       if (j.error) { wait.className = 'msg petal err'; wait.textContent = j.error; }
       else if (j.answer === null) { wait.className = 'msg petal err'; wait.textContent = "I haven't been born yet. I'm still collecting text. Come back soon."; }
-      else wait.textContent = j.answer;
+      else { if (j.safety) wait.className = "msg petal safe"; wait.textContent = j.answer; }
     } catch (err) { wait.className = 'msg petal err'; wait.textContent = 'Petal could not be reached right now.'; }
-    $('go').disabled = false; $('q').focus();
+    clearTimeout(slow); $('go').disabled = false; $('q').focus();
   };
 
   // ---- status
@@ -230,6 +232,7 @@
   }
   function drawCompare(entries) {
     const box = $('cmp'); if (!entries.length) return; box.replaceChildren();
+    if (entries.length < 2) { box.appendChild(el('div', 'hint', 'This is her first lesson. After her next lesson, her first and latest answers will appear side by side here.')); return; }
     const first = entries[0], last = entries[entries.length - 1];
     Object.keys(first.answers).forEach(q => {
       const w = el('div', 'pq'); w.appendChild(el('div', 'q', q));
