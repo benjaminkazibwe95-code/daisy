@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+# Petal's local working copies (the real ones live on the petal-data branch)
+petal_live/
+petal_data/

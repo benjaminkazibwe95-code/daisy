@@ -14,6 +14,18 @@ ENV VARS to set on your host (Render, etc.):
   DAISY_API_KEY         = shared secret — TrustedBiz's /api/daisy/publish
                           must be sent this exact value to accept a publish
   TRUSTEDBIZ_API_URL   = https://trustedbiz.co.ug   (no trailing slash)
+  ADMIN_KEY            = a long secret only you know. Opens /console once per browser:
+                          https://YOUR-SITE/console?key=ADMIN_KEY   (without it the console is locked)
+  DAISY_LIMIT_USER     = messages per window for signed-in people (default 40)
+  DAISY_LIMIT_GUEST    = messages per window for guests (default 12)
+  DAISY_LIMIT_HOURS    = the window in hours (default 5)
+  ANTHROPIC_API_KEY    = your Anthropic key. Turns the big brain (Claude Sonnet) on. Leave it out and Daisy uses her own brain
+  DAISY_MODEL          = claude-sonnet-5-5 (default)
+  DAISY_DAILY_CALLS    = most big-brain answers per day for the whole server (default 3000), a spending safety
+  DAISY_PAID_EMAILS    = comma separated account emails that get the paid tier (higher limits, longer answers) while testing
+  DAISY_LIMIT_PAID     = messages per window for paid people (default 250)
+  DAISY_DB_PATH        = /var/data/daisy.db   (a Render persistent disk, so accounts survive restarts)
+  DAISY_CORRECTIONS_FILE = /var/data/daisy_corrections.json
 """
 
 import os, re, json, sqlite3, secrets, string
@@ -24,6 +36,7 @@ from pathlib import Path
 import requests
 import brain
 import harmony_layer
+import sonnet_brain
 try:                                   # Petal is optional: if her files are missing, Daisy still runs
     import petal_api
     import petal_sync
@@ -35,12 +48,16 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 # ── APP ───────────────────────────────────────────────────────────────────
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
+app.config["MAX_CONTENT_LENGTH"] = 24 * 1024 * 1024   # photos and PDFs sent by the app
 
 # ── PETAL: Daisy's own model (page, window, API). Weights are pulled from GitHub. ──
 if petal_api:
     app.register_blueprint(petal_api.petal_bp)
     petal_sync.start()
+
+DAISY_API_KEY       = os.environ.get("DAISY_API_KEY", "")
+TRUSTEDBIZ_API_URL = os.environ.get("TRUSTEDBIZ_API_URL", "").rstrip("/")
+app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
 
 DAISY_API_KEY       = os.environ.get("DAISY_API_KEY", "")
 TRUSTEDBIZ_API_URL = os.environ.get("TRUSTEDBIZ_API_URL", "").rstrip("/")
@@ -77,6 +94,11 @@ def init_db():
         project_id INTEGER, owner_id INTEGER,
         title TEXT, messages TEXT DEFAULT '[]',
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE TABLE IF NOT EXISTS reports (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER, question TEXT, answer TEXT, reason TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
     CREATE TABLE IF NOT EXISTS stats (
         id INTEGER PRIMARY KEY CHECK (id = 1),
@@ -168,8 +190,20 @@ def version():
         "word_sync": "X-Word-Marks" in txt,
     })
 
+ADMIN_KEY = os.environ.get("ADMIN_KEY", "")
+
+def is_admin():
+    return bool(ADMIN_KEY) and session.get("admin") is True
+
 @app.route("/console")
 def console():
+    key = request.args.get("key", "")
+    if ADMIN_KEY and key and secrets.compare_digest(key, ADMIN_KEY):
+        session["admin"] = True
+        session.permanent = True
+        return redirect("/console")
+    if not is_admin():
+        return Response("Not found", status=404)
     return render_template("console.html")
 
 @app.route("/welcome")
@@ -249,6 +283,8 @@ def register():
         err = None
         if not email or "@" not in email or len(password) < 6:
             err = "Email and a 6+ character password are required."
+        elif len(password) > 200 or len(email) > 200:
+            err = "That is too long."
         elif db_fetchone("SELECT id FROM users WHERE email=?", (email,)):
             err = "That email is already registered. Try logging in."
         if err:
@@ -294,16 +330,95 @@ def daisy_status():
 def sse_line(obj):
     return json.dumps(obj) + "\n"
 
+# ── USAGE LIMITS (like ChatGPT / Claude: a rolling window, then "come back at …") ──
+import threading, time as _time
+LIMIT_USER  = int(os.environ.get("DAISY_LIMIT_USER", "40"))    # signed-in people: messages per window
+LIMIT_GUEST = int(os.environ.get("DAISY_LIMIT_GUEST", "12"))   # not signed in: messages per window
+LIMIT_HOURS = float(os.environ.get("DAISY_LIMIT_HOURS", "5"))
+_hits, _hits_lock = {}, threading.Lock()
+
+LIMIT_PAID = int(os.environ.get("DAISY_LIMIT_PAID", "250"))
+PAID_EMAILS = {e.strip().lower() for e in os.environ.get("DAISY_PAID_EMAILS", "").split(",") if e.strip()}
+
+def is_paid_user():
+    """Until real billing exists, paid people are the emails listed in DAISY_PAID_EMAILS (comma separated)."""
+    uid = session.get("user_id")
+    if not uid or not PAID_EMAILS:
+        return False
+    row = db_fetchone("SELECT email FROM users WHERE id=?", (uid,))
+    return bool(row and (row["email"] or "").lower() in PAID_EMAILS)
+
+def _limit_who():
+    uid = session.get("user_id")
+    if uid:
+        return "u%s" % uid, (LIMIT_PAID if is_paid_user() else LIMIT_USER)
+    ip = (request.headers.get("X-Forwarded-For", "").split(",")[0].strip() or request.remote_addr or "?")
+    return "ip" + ip, LIMIT_GUEST
+
+def check_limit():
+    """Counts this message. Returns (allowed, limit, resets_at_epoch)."""
+    key, cap = _limit_who()
+    now = _time.time(); window = LIMIT_HOURS * 3600
+    with _hits_lock:
+        times = [x for x in _hits.get(key, []) if now - x < window]
+        if len(times) >= cap:
+            _hits[key] = times
+            return False, cap, times[0] + window
+        times.append(now)
+        _hits[key] = times
+        if len(_hits) > 20000:   # keep memory small
+            for k in list(_hits)[:5000]:
+                _hits.pop(k, None)
+    return True, cap, 0
+
+# ── SAFETY (Google Play requires AI chat apps to block restricted content) ──
+_MINOR = r"(child|children|kid|kids|minor|minors|underage|under-age|schoolgirl|schoolboy|toddler|\b\d{1,2}[ -]?(?:year|yr)[ -]?old)"
+_SEX = r"(sexual|porn|nude|naked|erotic|rape|molest|undress|fondle|lewd)"
+_PROTECT_RE = re.compile(r"\b(prevent|prevention|protect|protecting|signs of|warning signs|awareness|survivor|recover|report|reporting|law|laws|legal|help a child|support)\b", re.I)
+_CSAM_RE = re.compile(r"(%s.{0,60}%s|%s.{0,60}%s)" % (_MINOR, _SEX, _SEX, _MINOR), re.I | re.S)
+_HARM_RE = re.compile(r"\b(kill myself|end my life|want to die|suicide|suicidal|hurt myself|self[- ]harm)\b", re.I)
+_WEAPON_RE = re.compile(r"\b(how (?:do i|to|can i) (?:make|build|cook|synthesi[sz]e).{0,40}(bomb|explosive|nerve agent|meth|ricin|napalm))", re.I)
+
+def safety_reply(q):
+    if not q:
+        return None
+    if _CSAM_RE.search(q) and not _PROTECT_RE.search(q):
+        return "I can't help with that. Content that sexualises or harms children is never okay, and I won't take part in it."
+    if _WEAPON_RE.search(q):
+        return "I can't help with making weapons, explosives or drugs. I'm happy to help with something safe instead."
+    if _HARM_RE.search(q):
+        return ("I'm really sorry you're going through this. You matter, and you don't have to carry it alone. "
+                "Please reach out to someone you trust right now, a friend, a family member or a counsellor. "
+                "If you might act on these thoughts or are in danger, call your local emergency number straight away (999 or 112 in Uganda). "
+                "I'm here to talk if you want to tell me what is happening.")
+    return None
+
 @app.route("/ask", methods=["POST"])
 def ask():
     data = request.get_json(silent=True) or {}
-    question = (data.get("question") or "").strip()
+    question = (data.get("question") or "").strip()[:4000]
+    ok, cap, resets_at = check_limit()
+    if not ok:
+        return jsonify({"error": "limit", "limit": cap, "resets_at": int(resets_at),
+                        "signed_in": bool(session.get("user_id"))}), 429
     history  = data.get("history") or []
     image    = data.get("image")
+    document = data.get("document")
+    level    = (data.get("level") or "general").strip().lower()
+    instructions = data.get("instructions") or ""
+    memory   = data.get("memory") or []
     has_image = bool(image and image.get("data"))
     model    = (data.get("model") or "").strip().lower()
+    live_hint = bool(data.get("live"))
+    paid = is_paid_user()
+
+    safe_reply = safety_reply(question)
 
     def generate():
+        if safe_reply:
+            yield sse_line({"event": "final", "answer": safe_reply, "source": "safety", "sources": [],
+                            "used_web_search": False, "memory_fact": None})
+            return
         yield sse_line({"event": "status", "status": "thinking"})
 
         # Petal: Daisy's own small language model. Raw answers; these chats are never logged.
@@ -325,6 +440,30 @@ def ask():
                             "sources": [], "used_web_search": False, "memory_fact": None})
             return
 
+        # Big brain (Claude Sonnet) when the key is set and today's budget allows it
+        if sonnet_brain.enabled() and sonnet_brain.budget_ok():
+            got = []
+            try:
+                for piece in sonnet_brain.stream(question, history, instructions, memory, level,
+                                                 image, document, paid=paid, live=live_hint):
+                    got.append(piece)
+                    yield sse_line({"event": "delta", "text": piece})
+            except Exception as e:
+                print("[ask] sonnet error: %s" % e)
+                if not got:
+                    got = None
+            if got:
+                answer = "".join(got)
+                bump_stats(len(answer.split()), "/ask answered by the big brain")
+                yield sse_line({"event": "final", "answer": answer, "source": "sonnet", "sources": [],
+                                "used_web_search": False, "memory_fact": None})
+                return
+            # fell through: brain unavailable, use Daisy's own brain below
+
+        if document and document.get("data"):
+            yield sse_line({"event": "final", "answer": "I can read documents once my full brain is switched on. Please try again a little later.",
+                            "source": "none", "sources": [], "used_web_search": False, "memory_fact": None})
+            return
         try:
             result = brain.think(question, has_image=has_image)
         except Exception as e:
@@ -395,8 +534,28 @@ def _tts_bytes(text, voice, rate, pitch):
         return bytes(buf), marks
     return asyncio.run(run())
 
+_tts_hits = {}
+
+def tts_allowed():
+    """Neural voice costs the server time, so each person gets a generous but fair hourly allowance."""
+    key, _ = _limit_who()
+    now = _time.time()
+    with _hits_lock:
+        times = [x for x in _tts_hits.get(key, []) if now - x < 3600]
+        if len(times) >= 400:
+            _tts_hits[key] = times
+            return False
+        times.append(now)
+        _tts_hits[key] = times
+        if len(_tts_hits) > 20000:
+            for k in list(_tts_hits)[:5000]:
+                _tts_hits.pop(k, None)
+    return True
+
 @app.route("/tts", methods=["POST"])
 def tts():
+    if not tts_allowed():
+        return jsonify({"error": "voice limit reached"}), 429
     data = request.get_json(silent=True) or {}
     text = (data.get("text") or "").strip()[:600]
     voice = data.get("voice") or DEFAULT_VOICE
@@ -456,6 +615,8 @@ def voice_test():
 # ── CORRECTIONS (console "Knowledge" tab — teach Daisy answers) ──────────
 @app.route("/api/corrections", methods=["GET", "POST", "DELETE"])
 def api_corrections():
+    if not is_admin():
+        return jsonify({"error": "not found"}), 404
     corr = brain.load_corrections()
     if request.method == "GET":
         return jsonify([{"question": k, "answer": v} for k, v in corr.items()])
@@ -478,9 +639,19 @@ def api_corrections():
 def export_pdf():
     data = request.get_json(silent=True) or {}
     title = (data.get("title") or "Daisy").strip()[:120]
-    content = data.get("content") or ""
+    content = (data.get("content") or "")[:30000]
 
     from fpdf import FPDF  # fpdf2
+
+    def _latin(s):
+        # The built-in PDF font only knows Latin-1, so swap common symbols and drop the rest
+        for a, b in (("\u2019", "'"), ("\u2018", "'"), ("\u201c", '"'), ("\u201d", '"'), ("\u2013", "-"),
+                     ("\u2014", "-"), ("\u2026", "..."), ("\u2022", "-"), ("\u221a", "sqrt"), ("\u03c0", "pi"),
+                     ("\u2264", "<="), ("\u2265", ">="), ("\u2260", "!="), ("\u00b2", "^2"), ("\u00b3", "^3")):
+            s = s.replace(a, b)
+        return s.encode("latin-1", "replace").decode("latin-1")
+    title = _latin(title)
+    content = _latin(content)
 
     pdf = FPDF(format="A4")
     pdf.set_auto_page_break(auto=True, margin=18)
@@ -576,7 +747,10 @@ def api_project_chat(project_id, chat_id):
         data = request.get_json(silent=True) or {}
         title = (data.get("title") or "Untitled")[:120]
         messages = data.get("messages") or []
-        existing = db_fetchone("SELECT id FROM chats WHERE id=?", (chat_id,))
+        existing = db_fetchone("SELECT id, project_id FROM chats WHERE id=?", (chat_id,))
+        if existing and existing["project_id"] != project_id:
+            return jsonify({"error": "not found"}), 404
+        messages = messages[:500]
         if existing:
             db_execute(
                 "UPDATE chats SET title=?, messages=?, updated_at=CURRENT_TIMESTAMP WHERE id=?",
@@ -593,6 +767,60 @@ def api_project_chat(project_id, chat_id):
     if not row:
         return jsonify({"error": "not found"}), 404
     return jsonify({"id": row["id"], "title": row["title"], "messages": json.loads(row["messages"] or "[]")})
+
+# ── ACCOUNT DELETION (Google Play requires this in the app AND on the web) ──
+def delete_user_data(uid):
+    owned = db_fetchall("SELECT id FROM projects WHERE owner_id=?", (uid,))
+    for pr in owned:
+        db_execute("DELETE FROM chats WHERE project_id=?", (pr["id"],))
+        db_execute("DELETE FROM project_members WHERE project_id=?", (pr["id"],))
+        db_execute("DELETE FROM projects WHERE id=?", (pr["id"],))
+    db_execute("DELETE FROM chats WHERE owner_id=?", (uid,))
+    db_execute("DELETE FROM project_members WHERE user_id=?", (uid,))
+    db_execute("DELETE FROM users WHERE id=?", (uid,))
+
+@app.route("/api/account/delete", methods=["POST"])
+def api_account_delete():
+    """From the app (signed in) or from the web page (email + password). Password is always checked."""
+    d = request.get_json(silent=True) or {}
+    password = d.get("password") or ""
+    uid = session.get("user_id")
+    if uid:
+        row = db_fetchone("SELECT * FROM users WHERE id=?", (uid,))
+    else:
+        email = (d.get("email") or "").strip().lower()
+        row = db_fetchone("SELECT * FROM users WHERE email=?", (email,)) if email else None
+    if not row or not check_password_hash(row["password"], password):
+        return jsonify({"error": "That email or password is not correct."}), 401
+    delete_user_data(row["id"])
+    session.clear()
+    return jsonify({"success": True})
+
+@app.route("/delete-account", methods=["GET"])
+def delete_account_page():
+    return render_template("delete_account.html")
+
+# ── REPORTS (users flag an answer; the team reviews them in the console) ───
+@app.route("/api/report", methods=["POST"])
+def api_report():
+    d = request.get_json(silent=True) or {}
+    db_execute(
+        "INSERT INTO reports (user_id, question, answer, reason) VALUES (?,?,?,?)",
+        (session.get("user_id"), (d.get("question") or "")[:2000], (d.get("answer") or "")[:6000], (d.get("reason") or "")[:60])
+    )
+    return jsonify({"success": True})
+
+@app.route("/api/reports")
+def api_reports():
+    if not is_admin():
+        return jsonify({"error": "not found"}), 404
+    rows = db_fetchall("SELECT * FROM reports ORDER BY id DESC LIMIT 200")
+    return jsonify([dict(r) for r in rows])
+
+@app.route("/health")
+def health():
+    """Point an uptime pinger (UptimeRobot, free) at this every 5 minutes so the server stays awake."""
+    return jsonify({"ok": True})
 
 # ── PUBLISH TO TRUSTEDBIZ ─────────────────────────────────────────────────
 @app.route("/publish/trustedbiz", methods=["POST"])
