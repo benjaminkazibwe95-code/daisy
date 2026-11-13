@@ -34,6 +34,10 @@ from functools import wraps
 from pathlib import Path
 
 import requests
+import os as _os
+for _v in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS"):
+    _os.environ.setdefault(_v, "1")   # numpy on a small shared server runs faster with one thread
+
 import brain
 import harmony_layer
 import sonnet_brain
@@ -392,6 +396,10 @@ def safety_reply(q):
                 "If you might act on these thoughts or are in danger, call your local emergency number straight away (999 or 112 in Uganda). "
                 "I'm here to talk if you want to tell me what is happening.")
     return None
+
+if petal_api:
+    petal_api.safety_check = safety_reply   # Petal's own page and window get the same safety filter
+
 
 @app.route("/ask", methods=["POST"])
 def ask():

@@ -27,6 +27,8 @@ MAX_NEW_TOKENS = 100
 NOT_BORN = ("I haven't been born yet. I'm still collecting text and starting to learn. "
             "Come back soon and watch me grow.")
 
+safety_check = None          # app.py plugs Daisy's safety filter in here
+
 _hits = defaultdict(deque)
 _hits_lock = threading.Lock()
 _gen_slots = threading.BoundedSemaphore(2)   # at most 2 generations at once
@@ -84,8 +86,10 @@ def raw_answer(message):
     if model is None:
         return None
     ids = tok.encode(f"<|user|>{message.strip()[:MAX_INPUT]}<|petal|>")[-(model.block_size - 1):]
+    t0 = time.time()
     with _gen_slots:
         out = model.generate(ids, max_new=MAX_NEW_TOKENS, temperature=0.8, top_k=40, stop_id=tok.eos)
+    print(f"[petal] answered with {len(out)} tokens in {time.time() - t0:.1f}s")
     text = tok.decode(out).split("<|endoftext|>")[0].split("<|user|>")[0].replace("<|petal|>", "").strip()
     return text or "(Petal said nothing)"
 
@@ -136,6 +140,13 @@ def petal_ask():
     msg = ((request.get_json(silent=True) or {}).get("message") or "").strip()[:MAX_INPUT]
     if not msg:
         return jsonify({"error": "Say something to Petal."}), 400
+    if safety_check:                       # same protection as the main chat
+        try:
+            safe = safety_check(msg)
+        except Exception:
+            safe = None
+        if safe:
+            return jsonify({"answer": safe, "born": True, "safety": True})
     try:
         text = raw_answer(msg)
     except Exception as e:

@@ -9,7 +9,13 @@ produces the same numbers as the PyTorch model.
 
 import json
 import math
+import os
 from pathlib import Path
+
+# On small shared servers, numpy's many BLAS threads fight over a fraction of a CPU
+# and run far slower than one thread. Must be set before numpy is imported.
+for _v in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS"):
+    os.environ.setdefault(_v, "1")
 
 import numpy as np
 
@@ -88,18 +94,51 @@ class PetalModel:
         x = _layernorm(x, w["ln_f.weight"], w["ln_f.bias"])
         return x @ w["tok.weight"].T          # tied output head
 
+    def _step(self, tok_id, pos, cache):
+        """Run ONE token through the model using cached keys/values. Returns logits (vocab,)."""
+        w = self.w
+        C = w["tok.weight"].shape[1]
+        H = self.n_head
+        hd = C // H
+        x = w["tok.weight"][tok_id] + w["pos.weight"][pos]
+        for i in range(self.n_layer):
+            p = f"blocks.{i}."
+            h = _layernorm(x, w[p + "ln1.weight"], w[p + "ln1.bias"])
+            q, k, v = np.split(h @ w[p + "qkv.weight"].T + w[p + "qkv.bias"], 3)
+            q, k, v = (a.reshape(H, 1, hd) for a in (q, k, v))
+            cache["k"][i] = k if cache["k"][i] is None else np.concatenate([cache["k"][i], k], axis=1)
+            cache["v"][i] = v if cache["v"][i] is None else np.concatenate([cache["v"][i], v], axis=1)
+            att = (q @ cache["k"][i].transpose(0, 2, 1)) / math.sqrt(hd)       # (H, 1, t)
+            y = (_softmax(att) @ cache["v"][i]).reshape(C)
+            x = x + (y @ w[p + "proj.weight"].T + w[p + "proj.bias"])
+            h = _layernorm(x, w[p + "ln2.weight"], w[p + "ln2.bias"])
+            x = x + (_gelu(h @ w[p + "fc.weight"].T + w[p + "fc.bias"]) @ w[p + "out.weight"].T + w[p + "out.bias"])
+        return _layernorm(x, w["ln_f.weight"], w["ln_f.bias"]) @ w["tok.weight"].T
+
+    def _sample(self, lg, temperature, top_k, rng):
+        lg = lg / max(temperature, 1e-5)
+        if top_k and top_k < lg.shape[0]:
+            cut = np.partition(lg, -top_k)[-top_k]
+            lg = np.where(lg < cut, -np.inf, lg)
+        return int(rng.choice(lg.shape[0], p=_softmax(lg)))
+
     def generate(self, ids, max_new=120, temperature=0.8, top_k=40, stop_id=None, rng=None):
+        """Same text as before, but each new token costs one small step instead of a full re-read."""
         rng = rng or np.random.default_rng()
-        ids = list(ids)
+        ids = list(ids)[-(self.block_size - 1):]
+        cache = {"k": [None] * self.n_layer, "v": [None] * self.n_layer}
+        lg = None
+        for pos, t in enumerate(ids):                       # read the prompt once
+            lg = self._step(t, pos, cache)
         out = []
         for _ in range(max_new):
-            lg = self.logits(ids)[-1] / max(temperature, 1e-5)
-            if top_k and top_k < lg.shape[0]:
-                cut = np.partition(lg, -top_k)[-top_k]
-                lg = np.where(lg < cut, -np.inf, lg)
-            nxt = int(rng.choice(lg.shape[0], p=_softmax(lg)))
-            ids.append(nxt)
+            nxt = self._sample(lg, temperature, top_k, rng)
             out.append(nxt)
             if stop_id is not None and nxt == stop_id:
                 break
+            ids.append(nxt)
+            if len(ids) < self.block_size:
+                lg = self._step(nxt, len(ids) - 1, cache)   # fast path
+            else:                                           # context full: slide the window (rare)
+                lg = self.logits(ids)[-1]
         return out
