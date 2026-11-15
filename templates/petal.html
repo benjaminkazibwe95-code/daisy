@@ -64,6 +64,8 @@
   .panel[hidden] { display:none; }
 
   #log { display:flex; flex-direction:column; gap:10px; margin-bottom:12px; min-height:90px; }
+  footer { margin-top:28px; font-size:12px; color:var(--muted); }
+  body.embed footer { display:none; }
   .empty { color:var(--muted); font-size:14px; padding:18px 4px; }
   .msg { max-width:90%; padding:10px 14px; border-radius:14px; white-space:pre-wrap; overflow-wrap:anywhere; }
   .msg.me { align-self:flex-end; background:var(--daisy); color:var(--on-daisy); border-bottom-right-radius:4px; }
@@ -117,7 +119,7 @@
   <div id="metrics" class="metrics" hidden>
     <div class="metric"><div class="k">Age</div><div class="v" id="mAge">-</div></div>
     <div class="metric"><div class="k">Steps</div><div class="v" id="mStep">-</div></div>
-    <div class="metric" title="How wrong she is on text she is tested on. Lower is better."><div class="k">Loss</div><div class="v" id="mLoss">-</div></div>
+    <div class="metric" title="How wrong she is on text she is never trained on. Lower is better."><div class="k">Loss</div><div class="v" id="mLoss">-</div></div>
     <div class="metric"><div class="k">Size</div><div class="v" id="mSize">-</div></div>
   </div>
 
@@ -145,7 +147,7 @@
 
   <section class="panel" id="pGrow" role="tabpanel" aria-labelledby="tGrow" hidden>
     <h2>Loss over time</h2>
-    <div class="sub">Each point is one lesson. A falling line means she is getting better at predicting text.</div>
+    <div class="sub">Each point is one lesson, measured on text she never trains on. A falling line means she is getting better at predicting text.</div>
     <div class="card"><svg id="spark" class="spark" viewBox="0 0 300 64" preserveAspectRatio="none" role="img" aria-label="Loss over time"></svg><div class="hint" id="sparkHint"></div></div>
 
     <h2>Then and now</h2>
@@ -156,6 +158,7 @@
     <div class="sub">Every lesson, newest first.</div>
     <div id="diary"><div class="hint">Nothing yet.</div></div>
   </section>
+  <footer>She learns by reading Wikipedia, Simple English Wikipedia and Wikibooks (text under CC BY-SA) and public-domain books from Project Gutenberg.</footer>
 </div>
 
 <script>
@@ -198,6 +201,8 @@
 
   // ---- status
   const fmt = n => (n == null ? '-' : Number(n).toLocaleString());
+  // The held-out (validation) loss is steadier and honest: it is measured on text she never trains on.
+  const lossOf = o => (o.val_loss != null ? o.val_loss : o.loss);
   async function loadStatus() {
     try {
       const s = await (await fetch('/petal/status')).json();
@@ -207,7 +212,7 @@
       if (s.model_ready) {
         $('mAge').textContent = 'Day ' + s.day;
         $('mStep').textContent = fmt(s.step);
-        $('mLoss').textContent = s.loss == null ? '-' : Number(s.loss).toFixed(2);
+        $('mLoss').textContent = lossOf(s) == null ? '-' : Number(lossOf(s)).toFixed(2);
         $('mSize').textContent = s.params_m ? s.params_m.toFixed(1) + 'M' : s.size;
       } else {
         const pct = Math.min(100, (s.corpus_mb / s.goal_mb) * 100);
@@ -221,9 +226,9 @@
   function el(tag, cls, text) { const x = document.createElement(tag); if (cls) x.className = cls; if (text != null) x.textContent = text; return x; }
   function drawSpark(entries) {
     const svg = $('spark'); svg.replaceChildren();
-    const pts = entries.filter(e => e.loss != null);
+    const pts = entries.filter(e => lossOf(e) != null);
     if (pts.length < 2) { $('sparkHint').textContent = pts.length ? 'More lessons are needed to draw a line.' : 'No lessons yet.'; return; }
-    const vals = pts.map(e => Number(e.loss)), mn = Math.min(...vals), mx = Math.max(...vals), span = (mx - mn) || 1;
+    const vals = pts.map(e => Number(lossOf(e))), mn = Math.min(...vals), mx = Math.max(...vals), span = (mx - mn) || 1;
     const d = vals.map((v, i) => (i / (vals.length - 1) * 296 + 2).toFixed(1) + ',' + (60 - ((v - mn) / span) * 54 + 2).toFixed(1)).join(' ');
     const line = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
     line.setAttribute('points', d); line.setAttribute('fill', 'none'); line.setAttribute('stroke', 'var(--daisy)');
@@ -248,7 +253,7 @@
     entries.slice().reverse().forEach((en, i) => {
       const d = el('details', 'entry'); if (i === 0) d.open = true;
       const s = el('summary'); s.appendChild(el('b', null, 'Day ' + en.day));
-      s.appendChild(el('span', null, new Date(en.time * 1000).toLocaleDateString() + ' · step ' + fmt(en.step) + (en.loss != null ? ' · loss ' + Number(en.loss).toFixed(2) : '')));
+      s.appendChild(el('span', null, new Date(en.time * 1000).toLocaleDateString() + ' · step ' + fmt(en.step) + (lossOf(en) != null ? ' · loss ' + Number(lossOf(en)).toFixed(2) : '')));
       d.appendChild(s);
       const b = el('div', 'body');
       Object.entries(en.answers).forEach(([q, a]) => { const qa = el('div', 'qa'); qa.appendChild(el('div', 'q', q)); qa.appendChild(el('div', 'raw', a || '(nothing)')); b.appendChild(qa); });
