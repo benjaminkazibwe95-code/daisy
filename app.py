@@ -23,6 +23,8 @@ ENV VARS to set on your host (Render, etc.):
   DAISY_MODEL          = claude-sonnet-5-5 (default)
   DAISY_DAILY_CALLS    = most big-brain answers per day for the whole server (default 3000), a spending safety
   DAISY_PAID_EMAILS    = comma separated account emails that get the paid tier (higher limits, longer answers) while testing
+  DAISY_LOOK_FREE      = camera looks per day for free people (default 6)
+  DAISY_LOOK_PAID      = camera looks per day on the paid tier (default 200)
   DAISY_LIMIT_PAID     = messages per window for paid people (default 250)
   DAISY_DB_PATH        = /var/data/daisy.db   (a Render persistent disk, so accounts survive restarts)
   DAISY_CORRECTIONS_FILE = /var/data/daisy_corrections.json
@@ -375,6 +377,28 @@ def check_limit():
                 _hits.pop(k, None)
     return True, cap, 0
 
+# ── LOOK (camera) limits: a small free taste, a big allowance on the paid tier ──
+LOOK_FREE = int(os.environ.get("DAISY_LOOK_FREE", "6"))
+LOOK_PAID = int(os.environ.get("DAISY_LOOK_PAID", "200"))
+_look_hits = {}
+
+def check_look():
+    """Counts one camera look. Returns (allowed, cap, resets_at_epoch)."""
+    key, _ = _limit_who()
+    cap = LOOK_PAID if is_paid_user() else LOOK_FREE
+    now = _time.time(); window = LIMIT_HOURS * 3600 * 4.8   # about a day
+    with _hits_lock:
+        times = [x for x in _look_hits.get(key, []) if now - x < window]
+        if len(times) >= cap:
+            _look_hits[key] = times
+            return False, cap, times[0] + window
+        times.append(now)
+        _look_hits[key] = times
+        if len(_look_hits) > 20000:
+            for k in list(_look_hits)[:5000]:
+                _look_hits.pop(k, None)
+    return True, cap, 0
+
 # ── SAFETY (Google Play requires AI chat apps to block restricted content) ──
 _MINOR = r"(child|children|kid|kids|minor|minors|underage|under-age|schoolgirl|schoolboy|toddler|\b\d{1,2}[ -]?(?:year|yr)[ -]?old)"
 _SEX = r"(sexual|porn|nude|naked|erotic|rape|molest|undress|fondle|lewd)"
@@ -418,6 +442,12 @@ def ask():
     has_image = bool(image and image.get("data"))
     model    = (data.get("model") or "").strip().lower()
     live_hint = bool(data.get("live"))
+    look = bool(data.get("look")) and bool(data.get("image"))
+    if look:
+        lok, lcap, lreset = check_look()
+        if not lok:
+            return jsonify({"error": "look_limit", "limit": lcap, "resets_at": int(lreset),
+                            "signed_in": bool(session.get("user_id"))}), 429
     paid = is_paid_user()
 
     safe_reply = safety_reply(question)
@@ -453,7 +483,7 @@ def ask():
             got = []
             try:
                 for piece in sonnet_brain.stream(question, history, instructions, memory, level,
-                                                 image, document, paid=paid, live=live_hint):
+                                                 image, document, paid=paid, live=live_hint, look=look):
                     got.append(piece)
                     yield sse_line({"event": "delta", "text": piece})
             except Exception as e:

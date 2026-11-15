@@ -50,7 +50,7 @@ LEVELS = {
 }
 
 
-def system_prompt(instructions, memory, level, live):
+def system_prompt(instructions, memory, level, live, look=False):
     parts = [
         "You are Daisy, a warm, sharp and honest AI assistant made by TrustedBiz in Entebbe, Uganda. "
         "You are an AI and never pretend to be human. If someone asks what technology powers you, say you are Daisy, built by TrustedBiz on a leading AI model.",
@@ -75,6 +75,10 @@ def system_prompt(instructions, memory, level, live):
         "Never use a tag unless asked. Calls and messages always wait for the person's confirmation, so say you will get it ready.",
         "FILES: If the person attaches a document or photo, use it directly. When asked to summarise, quote only what is really in it.",
     ]
+    if look:
+        parts.append("LOOK: The attached image is a live frame from the person's phone camera, taken just now. Say what you see that matters to their question and what they should do next, in plain steps. "
+                     "If the image is blurry, dark or unclear, say so and tell them how to move the camera. Never identify real people from their faces. "
+                     "For anything risky (electrical work, chemicals, medicine, wild plants or mushrooms to eat, wounds) be careful, say what you cannot judge from a picture, and point to a professional.")
     if live:
         parts.append("LIVE VOICE: You are speaking aloud in a voice conversation. Answer in one to three short spoken sentences, no lists, no markdown, no charts or diagrams.")
     if instructions and instructions.strip():
@@ -127,7 +131,7 @@ def user_content(question, image, document):
     return blocks, None
 
 
-def stream(question, history, instructions, memory, level, image, document, paid=False, live=False):
+def stream(question, history, instructions, memory, level, image, document, paid=False, live=False, look=False):
     """Yields pieces of text as Claude writes them. Raises on failure."""
     blocks, err = user_content(question, image, document)
     if err:
@@ -144,7 +148,7 @@ def stream(question, history, instructions, memory, level, image, document, paid
         "model": MODEL,
         "max_tokens": (400 if live else (MAX_TOKENS_PAID if paid else MAX_TOKENS_FREE)),
         "stream": True,
-        "system": [{"type": "text", "text": system_prompt(instructions, memory, level, live),
+        "system": [{"type": "text", "text": system_prompt(instructions, memory, level, live, look),
                     "cache_control": {"type": "ephemeral"}}],
         "messages": messages,
     }
