@@ -15,7 +15,12 @@ Usage:
   python daisy_harvest.py export                # corrections + conversations -> pairs
   python daisy_harvest.py stats                 # how much data do we have?
 
-Wikipedia text is CC BY-SA: keep petal_sources.jsonl and credit Wikipedia.
+What she reads (picked by weight each time, so no single source crowds out the rest):
+  Wikipedia                    articles               CC BY-SA
+  Simple English Wikipedia     plainer sentences      CC BY-SA
+  Wikibooks                    textbooks, how-tos     CC BY-SA
+  Project Gutenberg books      people talking         public domain
+CC BY-SA text needs credit: keep petal_sources.jsonl and credit the sources on the website.
 """
 
 import argparse
@@ -60,6 +65,44 @@ SEEDS = [
     "Medicine", "Geography", "History", "Economics", "Computer_science",
     "Africa", "Uganda", "Nigeria", "Language", "Literature", "Philosophy",
 ]
+WIKIBOOKS_SEEDS = [
+    "Wikibooks:Featured_books", "Chemistry", "Algebra", "Biology", "Physics_Study_Guide",
+    "Cookbook:Table_of_Contents", "Chess", "Statistics", "Geography", "World_History",
+]
+
+# Public-domain books from Project Gutenberg (people talking, stories, plain English).
+# A wrong id just gives a 404 and is skipped.
+GUTENBERG_BOOKS = [
+    11, 12, 16, 35, 36, 43, 46, 55, 74, 76, 84, 98, 120, 158, 161, 174, 205, 215, 244, 345,
+    514, 521, 768, 844, 1260, 1342, 1400, 1661, 2097, 2591, 2701, 1184, 1232, 3207, 2814, 730, 829, 1952, 2554, 4300,
+]
+BOOK_MAX_BYTES = int(float(os.environ.get("PETAL_BOOK_MAX_KB", "300")) * 1000)   # per book, keeps one novel from filling the corpus
+BOOK_CHUNK_MIN, BOOK_CHUNK_MAX = 400, 1200      # consecutive paragraphs are joined so dialogue stays together
+
+# How often each source is chosen (when it has something waiting in the queue)
+SOURCE_WEIGHTS = {"wiki": 45, "simple": 25, "wikibooks": 10, "books": 20}
+LICENSES = {"wiki": "CC BY-SA", "simple": "CC BY-SA", "wikibooks": "CC BY-SA", "books": "Public domain (Project Gutenberg)"}
+
+
+def gutenberg_url(book_id):
+    return f"https://www.gutenberg.org/cache/epub/{book_id}/pg{book_id}.txt"
+
+
+def source_group(url):
+    if "gutenberg.org" in url:
+        return "books"
+    if "simple.wikipedia.org" in url:
+        return "simple"
+    if "wikibooks.org" in url:
+        return "wikibooks"
+    return "wiki"
+
+
+def all_seeds():
+    return ([f"https://en.wikipedia.org/wiki/{s}" for s in SEEDS]
+            + [f"https://simple.wikipedia.org/wiki/{s}" for s in SEEDS]
+            + [f"https://en.wikibooks.org/wiki/{s}" for s in WIKIBOOKS_SEEDS]
+            + [gutenberg_url(b) for b in GUTENBERG_BOOKS])
 
 
 # ---------------------------------------------------------------- helpers
@@ -131,16 +174,55 @@ def parse_page(html, base="https://en.wikipedia.org"):
     return title, paras, links
 
 
+def parse_book(text):
+    """Project Gutenberg plain text -> chunks of consecutive paragraphs (dialogue stays together)."""
+    m = re.search(r"\*\*\* ?START OF (?:THE|THIS) PROJECT GUTENBERG EBOOK.*?\*\*\*", text, re.I | re.S)
+    if m:
+        text = text[m.end():]
+    e = re.search(r"\*\*\* ?END OF (?:THE|THIS) PROJECT GUTENBERG EBOOK", text, re.I)
+    if e:
+        text = text[:e.start()]
+    text = text.replace("\r\n", "\n")
+    text = text[int(len(text) * 0.04):]                    # skip contents pages / prefaces at the front
+
+    paras = []
+    for raw in re.split(r"\n\s*\n", text):
+        t = clean_paragraph(raw.replace("_", ""))
+        if len(t) < 40 or t.isupper():                     # headings, page numbers
+            continue
+        if sum(c.isalpha() for c in t) / len(t) < 0.7:
+            continue
+        if not t.rstrip().endswith((".", "!", "?", '"', ")", "\u201d", "\u2019")):
+            continue
+        paras.append(t)
+
+    chunks, cur, total = [], "", 0
+    for t in paras:
+        if cur and len(cur) + 1 + len(t) > BOOK_CHUNK_MAX:
+            chunks.append(cur)
+            total += len(cur)
+            cur = ""
+            if total >= BOOK_MAX_BYTES:
+                break
+        cur = (cur + " " + t).strip()
+        if len(cur) >= BOOK_CHUNK_MIN:
+            chunks.append(cur)
+            total += len(cur)
+            cur = ""
+            if total >= BOOK_MAX_BYTES:
+                break
+    return [c for c in chunks if len(c) >= 80]
+
+
 # ---------------------------------------------------------------- templates
 def make_pairs(title, paras):
     """Cheap, honest question/answer pairs from a page. Templates, not magic."""
     if not title or not paras:
         return []
     first = paras[0]
-    pairs = [
-        {"instruction": f"What is {title}?", "response": first},
-        {"instruction": f"Explain {title}.", "response": " ".join(paras[:2])},
-    ]
+    # (No "Explain X" pair that glues paragraphs together: it only repeats text the corpus
+    # already holds, and it let held-out test text leak into training.)
+    pairs = [{"instruction": f"What is {title}?", "response": first}]
     if len(paras) >= 3:
         pairs.append({"instruction": f"Tell me more about {title}.", "response": paras[2]})
     return pairs
@@ -150,8 +232,10 @@ def make_pairs(title, paras):
 def _fetch(url):
     import requests
 
-    r = requests.get(url, headers=HEADERS, timeout=15)
+    r = requests.get(url, headers=HEADERS, timeout=30 if "gutenberg.org" in url else 15)
     r.raise_for_status()
+    if "gutenberg.org" in url:
+        r.encoding = "utf-8"
     return r.text
 
 
@@ -165,10 +249,41 @@ def _init_queue():
     return queue
 
 
+def _ensure_seeds(queue, visited):
+    """Adds the starting pages of every source that are not read and not waiting yet.
+    Runs every time, so an existing Petal automatically starts reading the new sources."""
+    waiting = set(queue)
+    added = 0
+    for url in reversed(all_seeds()):
+        if url not in visited and url not in waiting:
+            queue.insert(0, url)
+            added += 1
+    return added
+
+
+def _pick(queue):
+    """Takes the next URL, choosing a source by weight (falls back to the front of the queue)."""
+    groups = list(SOURCE_WEIGHTS)
+    g = random.choices(groups, weights=[SOURCE_WEIGHTS[x] for x in groups])[0]
+    for i, u in enumerate(queue):
+        if source_group(u) == g:
+            return queue.pop(i)
+    return queue.pop(0)
+
+
 def harvest_page(url, seen_hashes):
-    """Fetch one page. Returns (paragraphs_written, links)."""
-    title, paras, links = parse_page(_fetch(url))
-    if len(paras) < MIN_PAGE_PARAGRAPHS:
+    """Fetch one page or book. Returns (paragraphs_written, links)."""
+    group = source_group(url)
+    if group == "books":
+        title = f"Gutenberg #{url.rsplit('/', 1)[-1].replace('pg', '').replace('.txt', '')}"
+        paras, links = parse_book(_fetch(url)), []
+        min_paras = 1
+    else:
+        from urllib.parse import urlparse
+        u = urlparse(url)
+        title, paras, links = parse_page(_fetch(url), base=f"{u.scheme}://{u.netloc}")
+        min_paras = MIN_PAGE_PARAGRAPHS
+    if len(paras) < min_paras:
         return 0, links
 
     fresh = []
@@ -183,11 +298,12 @@ def harvest_page(url, seen_hashes):
     with open(CORPUS_FILE, "a", encoding="utf-8") as f:
         for p in fresh:
             f.write(p + "\n")
-    with open(PAIRS_FILE, "a", encoding="utf-8") as f:
-        for pair in make_pairs(title, fresh):
-            f.write(json.dumps(pair, ensure_ascii=False) + "\n")
+    if group in ("wiki", "simple"):                       # question/answer templates only make sense for articles
+        with open(PAIRS_FILE, "a", encoding="utf-8") as f:
+            for pair in make_pairs(title, fresh):
+                f.write(json.dumps(pair, ensure_ascii=False) + "\n")
     with open(SOURCES_FILE, "a", encoding="utf-8") as f:
-        f.write(json.dumps({"url": url, "title": title, "license": "CC BY-SA"}) + "\n")
+        f.write(json.dumps({"url": url, "title": title, "license": LICENSES[group]}) + "\n")
     return len(fresh), links
 
 
@@ -203,6 +319,9 @@ def _rebuild_hashes():
 def crawl(pages, max_seconds=None):
     queue = _init_queue()
     visited = set(_load_json(VISITED_FILE, []))
+    added = _ensure_seeds(queue, visited)
+    if added:
+        print(f"Added {added} starting pages from new sources (Simple Wikipedia, Wikibooks, books).")
     seen_hashes = _rebuild_hashes()
     done = total = fails = 0
     started = time.time()
@@ -214,7 +333,7 @@ def crawl(pages, max_seconds=None):
         if CORPUS_FILE.exists() and CORPUS_FILE.stat().st_size >= MAX_CORPUS_BYTES:
             print(f"Corpus reached its cap ({MAX_CORPUS_BYTES/1e6:.0f} MB). Nothing more to harvest.")
             break
-        url = queue.pop(0)
+        url = _pick(queue)
         if url in visited:
             continue
         visited.add(url)
@@ -227,6 +346,8 @@ def crawl(pages, max_seconds=None):
                 if len(queue) < MAX_QUEUE:
                     queue.append(url)
             print(f"[skip] {url}: {str(e)[:120]}")
+            if code and 400 <= code < 500:          # a missing page is not a network problem
+                continue
             fails += 1
             if fails >= 5:
                 print("Too many failures in a row (offline?). Stopping this round.")

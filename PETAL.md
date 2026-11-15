@@ -63,3 +63,15 @@ GitHub Actions (every 6 h)            Your Daisy website
 | `PETAL_SYNC_MINUTES` | website | how often to check, default 20 |
 | `PETAL_MAX_CORPUS_MB` | training | corpus cap, default 60 |
 | `PETAL_USE_CONVERSATIONS` | training | `1` to include real chats (not advised) |
+
+## What she reads
+
+Each round she picks her next page by weight: Wikipedia (45%), Simple English
+Wikipedia (25%), Wikibooks (10%) and public-domain Project Gutenberg books
+(20%, about 300 KB per book so no single novel dominates). Books are kept in
+multi-paragraph chunks so conversations stay together. The first three are
+CC BY-SA (credited on her page); Gutenberg books are public domain.
+
+Her **loss** is measured on text she never trains on: every paragraph is
+assigned once, by fingerprint, to training (95%) or testing (5%). Numbers from
+before this change used a different test set, so the line shifts once.

@@ -13,6 +13,7 @@ Training format the model learns (chat pairs):
 Plain paragraphs are separated by <|endoftext|>.
 """
 
+import hashlib
 import heapq
 import json
 import os
@@ -171,29 +172,45 @@ def cmd_tokenize():
     tok = PetalTokenizer.load()
     docs = []
     if CORPUS_FILE.exists():
-        docs += [line.strip() + "<|endoftext|>" for line in CORPUS_FILE.read_text(encoding="utf-8").splitlines() if line.strip()]
+        docs += [(line.strip() + "<|endoftext|>", line.strip()[:60])
+                 for line in CORPUS_FILE.read_text(encoding="utf-8").splitlines() if line.strip()]
     for f in PAIR_FILES:
         if not f.exists():
             continue
         reps = OWN_PAIRS_UPSAMPLE if "own" in f.name else 1
         for line in f.read_text(encoding="utf-8").splitlines():
             try:
-                docs += [_pair_text(json.loads(line))] * reps
+                pair = json.loads(line)
+                if "own" not in f.name and pair["instruction"].startswith("Explain "):
+                    continue          # old glued-paragraph pairs: redundant with the corpus and they leak test text
+                # keyed by the start of the answer, so a Q/A pair and the paragraph it came from
+                # always fall on the same side of the train/test split
+                docs += [(_pair_text(pair), pair["response"].strip()[:60])] * reps
             except Exception:
                 pass
     if not docs:
         sys.exit("Nothing to tokenize. Harvest data first.")
 
+    # Fixed held-out split: a paragraph's fingerprint decides, once and for all, whether it is
+    # ever trained on (95%) or only used to test her (5%). Test text can never leak into
+    # training, and the loss stays comparable from one run to the next.
+    def is_val(key):
+        return int(hashlib.md5(key.encode("utf-8")).hexdigest(), 16) % 20 == 0
+
+    train_docs = [d for d, k in docs if not is_val(k)]
+    val_docs = [d for d, k in docs if is_val(k)]
+    if not val_docs:                       # tiny corpus: keep one document for testing
+        val_docs, train_docs = train_docs[-1:], train_docs[:-1]
     random.seed(1337)
-    random.shuffle(docs)
-    ids = []
-    for d in docs:
-        ids.extend(tok.encode(d))
-    arr = np.array(ids, dtype=np.uint16)
-    cut = int(len(arr) * 0.95)
-    arr[:cut].tofile(TRAIN_BIN)
-    arr[cut:].tofile(VAL_BIN)
-    print(f"{len(arr):,} tokens  (train {cut:,} / val {len(arr)-cut:,})")
+    random.shuffle(train_docs)
+    train_ids, val_ids = [], []
+    for d in train_docs:
+        train_ids.extend(tok.encode(d))
+    for d in val_docs:
+        val_ids.extend(tok.encode(d))
+    np.array(train_ids, dtype=np.uint16).tofile(TRAIN_BIN)
+    np.array(val_ids, dtype=np.uint16).tofile(VAL_BIN)
+    print(f"{len(train_ids) + len(val_ids):,} tokens  (train {len(train_ids):,} / held-out test {len(val_ids):,})")
 
 
 def cmd_test(text):
