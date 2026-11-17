@@ -84,6 +84,16 @@ def main():
 
     say("downloading the latest code")
     git("clone", "--depth", "1", URL, str(code))
+
+    # Fail fast: make sure the token can WRITE before spending any GPU time.
+    say("checking that the token can save to your repo")
+    test = git("push", URL, "HEAD:refs/heads/petal-preflight", cwd=code, check=False, capture=True)
+    if test.returncode != 0:
+        sys.exit("GitHub refused a test write, so the token cannot save Petal. Fix the token: in GitHub > "
+                 "Settings > Developer settings > Fine-grained tokens, edit it, select the repo, and set "
+                 "Contents to 'Read and write'. Nothing was trained, so no GPU time was used.")
+    git("push", URL, "--delete", "petal-preflight", cwd=code, check=False, capture=True)
+
     start_sha = remote_sha("petal-data")
     if start_sha:
         say("restoring Petal's memory")
