@@ -7,3 +7,4 @@ reportlab
 fpdf2
 edge-tts
 numpy
+psycopg2-binary

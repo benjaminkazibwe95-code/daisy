@@ -26,6 +26,7 @@ ENV VARS to set on your host (Render, etc.):
   DAISY_LOOK_FREE      = camera looks per day for free people (default 6)
   DAISY_LOOK_PAID      = camera looks per day on the paid tier (default 200)
   DAISY_LIMIT_PAID     = messages per window for paid people (default 250)
+  DATABASE_URL         = your free Neon Postgres link. This is what keeps accounts permanently.
   DAISY_DB_PATH        = /var/data/daisy.db   (a Render persistent disk, so accounts survive restarts)
   DAISY_CORRECTIONS_FILE = /var/data/daisy_corrections.json
 """
@@ -72,7 +73,48 @@ TRUSTEDBIZ_API_URL = os.environ.get("TRUSTEDBIZ_API_URL", "").rstrip("/")
 #    later the same way TrustedBiz's app.py does, if this needs to scale) ──
 DB_PATH = os.environ.get("DAISY_DB_PATH", str(Path(__file__).parent / "daisy.db"))
 
+# DATABASE_URL (a free Neon / Supabase Postgres) keeps accounts forever, even when Render restarts
+# or redeploys the server. Without it Daisy falls back to the SQLite file above, which Render's
+# free plan wipes.
+DATABASE_URL = (os.environ.get("DATABASE_URL") or "").strip()
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = "postgresql://" + DATABASE_URL[len("postgres://"):]
+USE_PG = DATABASE_URL.startswith("postgresql://")
+if USE_PG:
+    import psycopg2
+    import psycopg2.extras
+
+def _pg_sql(sql):
+    """Turns the SQLite-style statements used below into Postgres ones."""
+    s = sql.strip().rstrip(";")
+    ignore = False
+    if s.upper().startswith("INSERT OR IGNORE INTO"):
+        s = "INSERT INTO" + s[len("INSERT OR IGNORE INTO"):]
+        ignore = True
+    s = s.replace("?", "%s")
+    if ignore:
+        s += " ON CONFLICT DO NOTHING"
+    return s
+
+class _PgConn:
+    """Same tiny surface as the sqlite3 connection the helpers below use."""
+    def __init__(self):
+        self.raw = psycopg2.connect(DATABASE_URL, connect_timeout=10)
+    def execute(self, sql, params=()):
+        cur = self.raw.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        cur.execute(_pg_sql(sql), tuple(params))
+        return cur
+    def commit(self):
+        self.raw.commit()
+    def close(self):
+        try:
+            self.raw.close()
+        except Exception:
+            pass
+
 def get_db():
+    if USE_PG:
+        return _PgConn()
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
@@ -80,7 +122,7 @@ def get_db():
 
 def init_db():
     conn = get_db()
-    conn.executescript("""
+    script = """
     CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT, email TEXT UNIQUE, password TEXT,
@@ -111,7 +153,13 @@ def init_db():
         words INTEGER DEFAULT 0, ingest_cycles INTEGER DEFAULT 0,
         last_ingest TEXT, log_tail TEXT DEFAULT '[]'
     );
-    """)
+    """
+    if USE_PG:
+        for stmt in script.replace("INTEGER PRIMARY KEY AUTOINCREMENT", "SERIAL PRIMARY KEY").split(";"):
+            if stmt.strip():
+                conn.execute(stmt)
+    else:
+        conn.executescript(script)
     conn.execute("INSERT OR IGNORE INTO stats (id, words, ingest_cycles, log_tail) VALUES (1,0,0,'[]')")
     conn.commit()
     conn.close()
@@ -141,9 +189,14 @@ def db_fetchall(sql, params=()):
 
 def db_insert(sql, params=()):
     conn = get_db()
-    cur = conn.execute(sql, params)
-    conn.commit()
-    rid = cur.lastrowid
+    if USE_PG:
+        cur = conn.execute(sql.strip().rstrip(";") + " RETURNING id", params)
+        rid = cur.fetchone()["id"]
+        conn.commit()
+    else:
+        cur = conn.execute(sql, params)
+        conn.commit()
+        rid = cur.lastrowid
     conn.close()
     return rid
 
@@ -858,7 +911,7 @@ def api_reports():
 @app.route("/health")
 def health():
     """Point an uptime pinger (UptimeRobot, free) at this every 5 minutes so the server stays awake."""
-    return jsonify({"ok": True})
+    return jsonify({"ok": True, "database": "postgres (permanent)" if USE_PG else "sqlite (wiped on free Render)"})
 
 # ── PUBLISH TO TRUSTEDBIZ ─────────────────────────────────────────────────
 @app.route("/publish/trustedbiz", methods=["POST"])
