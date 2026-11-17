@@ -84,9 +84,9 @@ def _write_status(**kw):
     STATUS.write_text(json.dumps(s), encoding="utf-8")
 
 
-def train_subprocess(size, minutes):
+def train_subprocess(size, minutes, batch=32):
     cmd = [sys.executable, "-u", str(BASE / "petal_train.py"), "train", "--size", size,
-           "--steps", "1000000000", "--minutes", str(minutes)]
+           "--steps", "1000000000", "--minutes", str(minutes), "--batch", str(batch)]
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
                          encoding="utf-8", errors="replace", env=os.environ.copy())
     loss = val = params = None
@@ -131,6 +131,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--harvest-minutes", type=float, default=15)
     ap.add_argument("--train-minutes", type=float, default=300)
+    ap.add_argument("--batch", type=int, default=32, help="examples per step; a GPU can take much more (128 or 256)")
     ap.add_argument("--size", default="tiny", choices=["tiny"],
                     help="tiny only: bigger checkpoints exceed GitHub's 100 MB file limit")
     a = ap.parse_args()
@@ -157,8 +158,8 @@ def main():
             T.cmd_train(4000)
         log("tokenizing")
         T.cmd_tokenize()
-        log(f"training for {a.train_minutes:.0f} minutes")
-        loss, val, params = train_subprocess(a.size, a.train_minutes)
+        log(f"training for {a.train_minutes:.0f} minutes (batch {a.batch})")
+        loss, val, params = train_subprocess(a.size, a.train_minutes, a.batch)
 
         import petal_export
         step = petal_export.export()
