@@ -744,25 +744,45 @@ def export_pdf():
     title = _latin(title)
     content = _latin(content)
 
+    def _clean(t):
+        t = re.sub(r"\*\*(.+?)\*\*", r"\1", t)
+        t = re.sub(r"`+", "", t)
+        t = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r"\1 (\2)", t)
+        t = re.sub(r"(\S{60})(?=\S)", r"\1 ", t)   # break very long unbroken strings so they can wrap
+        return t
+
     pdf = FPDF(format="A4")
     pdf.set_auto_page_break(auto=True, margin=18)
     pdf.add_page()
-    pdf.set_font("Helvetica", "B", 16)
-    pdf.multi_cell(0, 10, title)
+
+    def put(h, text, style="", size=11):
+        pdf.set_font("Helvetica", style, size)
+        pdf.set_x(pdf.l_margin)
+        pdf.multi_cell(0, h, text, new_x="LMARGIN", new_y="NEXT")
+
+    put(10, _clean(title), "B", 16)
     pdf.ln(2)
-    pdf.set_font("Helvetica", size=11)
     for raw_line in content.split("\n"):
         line = raw_line.rstrip()
-        if line.startswith("### "):
-            pdf.set_font("Helvetica", "B", 12); pdf.multi_cell(0, 8, line[4:]); pdf.set_font("Helvetica", size=11)
-        elif line.startswith("## "):
-            pdf.set_font("Helvetica", "B", 13); pdf.multi_cell(0, 9, line[3:]); pdf.set_font("Helvetica", size=11)
-        elif line.startswith("# "):
-            pdf.set_font("Helvetica", "B", 15); pdf.multi_cell(0, 10, line[2:]); pdf.set_font("Helvetica", size=11)
-        elif not line:
-            pdf.ln(3)
-        else:
-            pdf.multi_cell(0, 7, line)
+        try:
+            if line.startswith("### "):
+                put(8, _clean(line[4:]), "B", 12)
+            elif line.startswith("## "):
+                put(9, _clean(line[3:]), "B", 13)
+            elif line.startswith("# "):
+                put(10, _clean(line[2:]), "B", 15)
+            elif not line:
+                pdf.ln(3)
+            elif re.fullmatch(r"\|?[\s:\-|]+\|?", line):
+                continue                                   # table divider row
+            elif line.startswith("|"):
+                put(7, "  ".join(c.strip() for c in line.strip("|").split("|")))
+            elif re.match(r"^\s*[-*] ", line):
+                put(7, "- " + _clean(re.sub(r"^\s*[-*] ", "", line)))
+            else:
+                put(7, _clean(line))
+        except Exception as e:
+            print("[pdf] line skipped:", e)
 
     out = bytes(pdf.output())
     safe = re.sub(r"[^\w\- ]+", "", title).strip().replace(" ", "-") or "daisy-answer"

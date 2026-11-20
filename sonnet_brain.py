@@ -9,6 +9,7 @@ Environment variables
   ANTHROPIC_API_KEY   your key (Render > Environment). Never put it in the app or in GitHub.
   DAISY_MODEL         default: claude-sonnet-5-5
   DAISY_MAX_TOKENS    default: 1200 (free) -- paid people get DAISY_MAX_TOKENS_PAID (default 2400)
+  DAISY_MAX_CONTINUES default: 2 -- extra rounds so an answer is never cut half way
   DAISY_DAILY_CALLS   default: 3000 -- most brain calls the whole server makes per day (spend safety)
 """
 import os, io, re, json, time, base64, zipfile, threading
@@ -16,6 +17,7 @@ import requests
 
 API_URL = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("DAISY_MODEL", "claude-sonnet-5-5")
+MAX_CONTINUES = int(os.environ.get("DAISY_MAX_CONTINUES", "2"))
 MAX_TOKENS_FREE = int(os.environ.get("DAISY_MAX_TOKENS", "1200"))
 MAX_TOKENS_PAID = int(os.environ.get("DAISY_MAX_TOKENS_PAID", "2400"))
 DAILY_CALLS = int(os.environ.get("DAISY_DAILY_CALLS", "3000"))
@@ -144,35 +146,48 @@ def stream(question, history, instructions, memory, level, image, document, paid
             messages.append({"role": "user", "content": u[:3000]})
             messages.append({"role": "assistant", "content": d[:4000]})
     messages.append({"role": "user", "content": blocks})
-    body = {
-        "model": MODEL,
-        "max_tokens": (400 if live else (MAX_TOKENS_PAID if paid else MAX_TOKENS_FREE)),
-        "stream": True,
-        "system": [{"type": "text", "text": system_prompt(instructions, memory, level, live, look),
-                    "cache_control": {"type": "ephemeral"}}],
-        "messages": messages,
-    }
     headers = {
         "x-api-key": os.environ.get("ANTHROPIC_API_KEY", ""),
         "anthropic-version": "2023-06-01",
         "content-type": "application/json",
     }
-    with requests.post(API_URL, headers=headers, data=json.dumps(body), stream=True, timeout=(10, 90)) as r:
-        if r.status_code != 200:
-            raise RuntimeError("anthropic %s: %s" % (r.status_code, r.text[:300]))
-        for line in r.iter_lines(decode_unicode=True):
-            if not line or not line.startswith("data:"):
-                continue
-            try:
-                ev = json.loads(line[5:].strip())
-            except Exception:
-                continue
-            t = ev.get("type")
-            if t == "content_block_delta":
-                d = ev.get("delta") or {}
-                if d.get("type") == "text_delta" and d.get("text"):
-                    yield d["text"]
-            elif t == "error":
-                raise RuntimeError("anthropic stream error: %s" % (ev.get("error") or ev))
-            elif t == "message_stop":
-                break
+    system = [{"type": "text", "text": system_prompt(instructions, memory, level, live, look),
+               "cache_control": {"type": "ephemeral"}}]
+    max_tokens = 400 if live else (MAX_TOKENS_PAID if paid else MAX_TOKENS_FREE)
+    # An answer must never stop half way: when Claude runs out of room (stop_reason max_tokens)
+    # we ask it to carry on from exactly where it stopped, a few times at most.
+    rounds = 1 if live else 1 + MAX_CONTINUES
+    written = ""
+    for rnd in range(rounds):
+        msgs = list(messages)
+        if rnd > 0:
+            msgs.append({"role": "assistant", "content": written.rstrip()})
+            msgs.append({"role": "user", "content": "Continue exactly where you stopped. Do not repeat anything and do not add an introduction. Finish the answer."})
+        body = {"model": MODEL, "max_tokens": max_tokens, "stream": True, "system": system, "messages": msgs}
+        stop = None
+        with requests.post(API_URL, headers=headers, data=json.dumps(body), stream=True, timeout=(10, 90)) as r:
+            if r.status_code != 200:
+                if rnd > 0:
+                    return                                   # keep what we already sent
+                raise RuntimeError("anthropic %s: %s" % (r.status_code, r.text[:300]))
+            for line in r.iter_lines(decode_unicode=True):
+                if not line or not line.startswith("data:"):
+                    continue
+                try:
+                    ev = json.loads(line[5:].strip())
+                except Exception:
+                    continue
+                t = ev.get("type")
+                if t == "content_block_delta":
+                    d = ev.get("delta") or {}
+                    if d.get("type") == "text_delta" and d.get("text"):
+                        written += d["text"]
+                        yield d["text"]
+                elif t == "message_delta":
+                    stop = (ev.get("delta") or {}).get("stop_reason") or stop
+                elif t == "error":
+                    raise RuntimeError("anthropic stream error: %s" % (ev.get("error") or ev))
+                elif t == "message_stop":
+                    break
+        if stop != "max_tokens" or not written.strip():
+            return
