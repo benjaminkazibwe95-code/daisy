@@ -76,6 +76,7 @@ def system_prompt(instructions, memory, level, live, look=False):
         "[[do:navigate|Place]], [[do:timer|Seconds|Label]], [[do:alarm|HH:MM in 24h|Label]], [[do:scan]] (opens the document scanner), [[do:images_to_pdf]] (turns chosen photos into a PDF). "
         "Never use a tag unless asked. Calls and messages always wait for the person's confirmation, so say you will get it ready.",
         "FILES: If the person attaches a document or photo, use it directly. When asked to summarise, quote only what is really in it.",
+        "NOTE: BE  FRIENDLY AND ALWAYS FOLLOW THE STYLE SOMEONE ASKS IN OR CHAT.",
     ]
     if look:
         parts.append("LOOK: The attached image is a live frame from the person's phone camera, taken just now. Say what you see that matters to their question and what they should do next, in plain steps. "
