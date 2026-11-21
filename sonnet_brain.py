@@ -103,6 +103,45 @@ def _docx_text(raw):
         return ""
 
 
+CODE_EXT = {".py", ".js", ".ts", ".tsx", ".jsx", ".kt", ".kts", ".java", ".c", ".h", ".cpp", ".hpp", ".cs", ".go", ".rs", ".php",
+            ".rb", ".swift", ".dart", ".html", ".css", ".scss", ".json", ".xml", ".yml", ".yaml", ".toml", ".ini", ".gradle",
+            ".sql", ".sh", ".bat", ".md", ".txt", ".csv", ".env.example", ".properties", ".vue", ".svelte"}
+SKIP_DIRS = ("node_modules/", ".git/", "build/", "dist/", "__pycache__/", ".gradle/", ".idea/", "venv/", ".venv/")
+
+
+def _zip_text(raw, limit=60000):
+    """Reads a .zip of code or documents: a file list, then the text of the readable files (capped)."""
+    try:
+        z = zipfile.ZipFile(io.BytesIO(raw))
+    except Exception:
+        return ""
+    infos = [i for i in z.infolist() if not i.is_dir() and not any(d in i.filename.lower() for d in SKIP_DIRS)]
+    if sum(i.file_size for i in infos) > 80_000_000 or len(infos) > 3000:
+        return "(This zip is too large to read safely.)"
+    out = ["Files in the zip (%d):" % len(infos)]
+    out += ["  " + i.filename for i in infos[:150]]
+    if len(infos) > 150:
+        out.append("  ... and %d more" % (len(infos) - 150))
+    used = sum(len(x) for x in out)
+    for i in infos:
+        ext = os.path.splitext(i.filename.lower())[1]
+        if ext not in CODE_EXT or i.file_size > 200_000:
+            continue
+        try:
+            t = z.read(i).decode("utf-8", "ignore")
+        except Exception:
+            continue
+        if not t.strip():
+            continue
+        block = "\n\n===== %s =====\n%s" % (i.filename, t)
+        if used + len(block) > limit:
+            out.append("\n(Stopped reading here to stay within my limit. Ask me about a specific file.)")
+            break
+        out.append(block)
+        used += len(block)
+    return "\n".join(out)
+
+
 def user_content(question, image, document):
     """Builds the content blocks for the latest user turn. Returns (blocks, error_message_or_None)."""
     blocks = []
@@ -124,10 +163,12 @@ def user_content(question, image, document):
                 return None, "I couldn't open that file."
             if name.lower().endswith(".docx") or "wordprocessingml" in mt:
                 text = _docx_text(raw)
+            elif name.lower().endswith(".zip") or "zip" in mt:
+                text = _zip_text(raw)
             else:
                 text = raw.decode("utf-8", "ignore")
             if not text.strip():
-                return None, "I couldn't read any text in that file. I can read PDFs, Word (.docx) files, text files and photos."
+                return None, "I couldn't read any text in that file. I can read PDFs, Word (.docx) files, text and code files, zips and photos."
             blocks.append({"type": "text", "text": "Attached file '%s':\n\n%s" % (name, text[:60000])})
     blocks.append({"type": "text", "text": question or "Please look at what I sent."})
     return blocks, None
@@ -191,3 +232,31 @@ def stream(question, history, instructions, memory, level, image, document, paid
                     break
         if stop != "max_tokens" or not written.strip():
             return
+
+
+TITLE_MODEL = os.environ.get("DAISY_TITLE_MODEL", "claude-haiku-5-5")
+
+
+def make_title(question, answer):
+    """A short human title (3-6 words) for a chat. Returns "" on any problem so the app keeps its own fallback."""
+    if not os.environ.get("ANTHROPIC_API_KEY") or not budget_ok():
+        return ""
+    q = (question or "").strip()[:500]
+    a = (answer or "").strip()[:700]
+    if not q and not a:
+        return ""
+    body = {
+        "model": TITLE_MODEL, "max_tokens": 24,
+        "system": "You name chats. Reply with ONLY a title of 3 to 6 words that captures what the chat is about, like 'Ten steps to success' or 'Why your plants are dying'. No quotes, no final full stop, same language as the person.",
+        "messages": [{"role": "user", "content": "Person asked: %s\n\nAnswer started: %s\n\nTitle:" % (q, a)}],
+    }
+    headers = {"x-api-key": os.environ.get("ANTHROPIC_API_KEY", ""), "anthropic-version": "2023-06-01", "content-type": "application/json"}
+    try:
+        r = requests.post(API_URL, headers=headers, data=json.dumps(body), timeout=(5, 15))
+        if r.status_code != 200:
+            return ""
+        t = "".join(b.get("text", "") for b in (r.json().get("content") or []) if b.get("type") == "text")
+    except Exception:
+        return ""
+    t = re.sub(r"[\"'*#`\n]+", " ", t).strip().rstrip(".!")
+    return t[:60] if 2 <= len(t) else ""

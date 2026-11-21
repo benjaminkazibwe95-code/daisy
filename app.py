@@ -672,6 +672,32 @@ def tts():
         hdr["X-Word-Marks"] = mj
     return Response(audio, mimetype="audio/mpeg", headers=hdr)
 
+_title_hits = {}
+
+@app.route("/title", methods=["POST"])
+def chat_title():
+    """Daisy names a chat. Cheap small model, limited per person so it cannot be abused."""
+    key, _ = _limit_who()
+    now = _time.time()
+    with _hits_lock:
+        times = [x for x in _title_hits.get(key, []) if now - x < 3600]
+        if len(times) >= 60:
+            _title_hits[key] = times
+            return jsonify({"title": ""})
+        times.append(now)
+        _title_hits[key] = times
+        if len(_title_hits) > 20000:
+            for k in list(_title_hits)[:5000]:
+                _title_hits.pop(k, None)
+    data = request.get_json(silent=True) or {}
+    try:
+        t = sonnet_brain.make_title(data.get("question"), data.get("answer"))
+    except Exception as e:
+        print("[title]", e)
+        t = ""
+    return jsonify({"title": t})
+
+
 VOICE_TEST_HTML = """<!doctype html><meta name=viewport content="width=device-width,initial-scale=1">
 <title>Daisy voice lab</title>
 <body style="font-family:system-ui;max-width:520px;margin:0 auto;padding:18px;background:#1e1e1e;color:#eee">
