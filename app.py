@@ -62,6 +62,14 @@ if petal_api:
     app.register_blueprint(petal_api.petal_bp)
     petal_sync.start()
 
+# ── MEDIA ENGINE: video / image / map / TikTok cards under answers (media_engine/ + media_bp.py) ──
+try:
+    import media_bp
+    app.register_blueprint(media_bp.bp)
+    media_bp.start()
+except Exception as _media_err:            # never stop Daisy from starting
+    print(f"[media] disabled: {_media_err}")
+
 DAISY_API_KEY       = os.environ.get("DAISY_API_KEY", "")
 TRUSTEDBIZ_API_URL = os.environ.get("TRUSTEDBIZ_API_URL", "").rstrip("/")
 app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
