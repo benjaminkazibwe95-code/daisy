@@ -1793,6 +1793,39 @@
       #greeting { font-size: 42px; }
     }
 
+  
+    /* ── MEDIA CARDS (media engine): video / image / map / TikTok under an answer ── */
+    .dm-media { margin: 10px 0 4px; display: flex; flex-direction: column; gap: 8px; }
+    .dm-card { display: flex; gap: 10px; align-items: center; width: 100%; max-width: 420px; padding: 8px; text-align: left;
+               background: var(--card); border: 1px solid var(--border); border-radius: 14px; color: var(--text); cursor: pointer; font: inherit; }
+    .dm-thumb { position: relative; width: 104px; height: 66px; flex: none; border-radius: 10px; overflow: hidden; background: var(--surface); }
+    .dm-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .dm-thumb .dm-ico { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+    .dm-play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+    .dm-play span { width: 30px; height: 30px; border-radius: 50%; background: rgba(0,0,0,.65); color: #fff; font-size: 12px;
+                    display: flex; align-items: center; justify-content: center; padding-left: 2px; }
+    .dm-info { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+    .dm-title { font-size: 14px; font-weight: 600; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .dm-meta { font-size: 12px; color: var(--muted); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+    .dm-badge { font-size: 11px; padding: 1px 7px; border-radius: 9px; border: 1px solid var(--border); color: var(--muted); }
+    .dm-badge.official { color: var(--daisy); border-color: var(--daisy); }
+    .dm-images { display: flex; gap: 8px; overflow-x: auto; max-width: 420px; }
+    .dm-img { flex: none; width: 150px; padding: 0; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--card); cursor: pointer; color: var(--text); font: inherit; text-align: left; }
+    .dm-img img { width: 100%; height: 100px; object-fit: cover; display: block; }
+    .dm-img div { font-size: 12px; padding: 5px 8px; line-height: 1.3; color: var(--muted); }
+    .dm-link { font-size: 13px; color: var(--muted); }
+    .dm-link a { color: var(--daisy); text-decoration: none; font-weight: 600; }
+    .dm-fb { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+    .dm-fb button { background: none; border: 1px solid var(--border); border-radius: 10px; padding: 2px 9px; cursor: pointer; font-size: 14px; color: var(--text); }
+    #dm-modal { position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,.82); display: none; align-items: center; justify-content: center; padding: 14px; }
+    #dm-modal.open { display: flex; }
+    #dm-modal .dm-box { width: 100%; max-width: 720px; max-height: 100%; display: flex; flex-direction: column; gap: 8px; }
+    #dm-modal .dm-close { align-self: flex-end; background: rgba(255,255,255,.15); color: #fff; border: 0; border-radius: 50%; width: 36px; height: 36px; font-size: 18px; cursor: pointer; }
+    #dm-modal iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 12px; background: #000; }
+    #dm-modal .dm-full { max-width: 100%; max-height: 72vh; object-fit: contain; border-radius: 10px; touch-action: pinch-zoom; align-self: center; }
+    #dm-modal .dm-map { width: 100%; height: 60vh; border-radius: 12px; }
+    #dm-modal .dm-cap { color: #ddd; font-size: 13px; line-height: 1.4; }
+    #dm-modal .dm-cap a { color: #9cc7ff; }
   </style>
 </head>
 <body>
@@ -2085,6 +2118,20 @@
           <input type="checkbox" id="web-search-toggle" checked />
           <span></span>
         </label>
+      </div>
+    </div>
+
+        <div class="settings-section-label">Pictures &amp; videos</div>
+    <div class="settings-group">
+      <button class="settings-row settings-row-btn" id="media-mode-row">
+        <span class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></span>
+        <div class="s-row-text"><div class="s-row-title">Pictures &amp; videos in answers</div><div class="s-row-sub" id="media-mode-value">Thumbnails</div></div>
+        <span class="s-chevron">▾</span>
+      </button>
+      <div id="media-mode-options" class="settings-options" style="display:none;">
+        <button class="settings-option" data-media-mode="text"><strong>Text only</strong>  saves data, no pictures or videos</button>
+        <button class="settings-option" data-media-mode="thumbs"><strong>Thumbnails</strong>  small previews, load more only when tapped (default)</button>
+        <button class="settings-option" data-media-mode="full"><strong>Full</strong>  also pre-loads pictures for faster opening</button>
       </div>
     </div>
 
@@ -4108,6 +4155,149 @@ document.addEventListener('DOMContentLoaded', function() {
     return finalData;
   }
 
+
+  // ── MEDIA CARDS ───────────────────────────────────────────────────────────
+  // After Daisy's answer is on screen, ask the media engine whether a video / picture / map would help.
+  // This never delays or changes the answer; any failure just means no cards.
+  function getMediaMode() {
+    try { const m = localStorage.getItem('daisyMediaMode'); return (m === 'text' || m === 'full') ? m : 'thumbs'; } catch (e) { return 'thumbs'; }
+  }
+  (function setupMediaSetting() {
+    const row = document.getElementById('media-mode-row'), opts = document.getElementById('media-mode-options'), val = document.getElementById('media-mode-value');
+    if (!row || !opts || !val) return;
+    const names = { text: 'Text only', thumbs: 'Thumbnails', full: 'Full' };
+    const paint = () => { val.textContent = names[getMediaMode()]; };
+    paint();
+    row.onclick = () => { opts.style.display = opts.style.display === 'none' ? 'block' : 'none'; };
+    opts.querySelectorAll('[data-media-mode]').forEach(b => b.onclick = () => {
+      try { localStorage.setItem('daisyMediaMode', b.dataset.mediaMode); } catch (e) {}
+      paint(); opts.style.display = 'none';
+    });
+  })();
+
+  function mediaEl(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function mediaTap(id) { try { fetch('/api/media/tap/' + encodeURIComponent(id), { method: 'POST' }); } catch (e) {} }
+  function mediaBadge(card) {
+    if (!card.label) return null;
+    return mediaEl('span', 'dm-badge' + (card.tier === 'official' ? ' official' : ''), card.label);
+  }
+
+  let _leafletReady = null;
+  function loadLeaflet() {
+    if (window.L) return Promise.resolve();
+    if (_leafletReady) return _leafletReady;
+    _leafletReady = new Promise((resolve, reject) => {
+      const css = document.createElement('link'); css.rel = 'stylesheet'; css.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css'; document.head.appendChild(css);
+      const s = document.createElement('script'); s.src = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js'; s.onload = resolve; s.onerror = reject; document.head.appendChild(s);
+    });
+    return _leafletReady;
+  }
+
+  function closeMediaModal() {
+    const m = document.getElementById('dm-modal'); if (!m) return;
+    m.classList.remove('open'); m.innerHTML = '';          // removing the iframe stops the video
+  }
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMediaModal(); });
+
+  function openMediaModal(card) {
+    let m = document.getElementById('dm-modal');
+    if (!m) { m = document.createElement('div'); m.id = 'dm-modal'; document.body.appendChild(m); m.addEventListener('click', (e) => { if (e.target === m) closeMediaModal(); }); }
+    m.innerHTML = '';
+    const box = mediaEl('div', 'dm-box');
+    const x = mediaEl('button', 'dm-close', '✕'); x.setAttribute('aria-label', 'Close'); x.onclick = closeMediaModal; box.appendChild(x);
+    const p = card.popup || {};
+    if (card.kind === 'video' && p.embed_url) {
+      const f = document.createElement('iframe');
+      f.src = p.embed_url + (p.embed_url.includes('?') ? '&' : '?') + 'autoplay=1&rel=0&playsinline=1';   // loads only now, after the tap
+      f.allow = 'autoplay; fullscreen; picture-in-picture; encrypted-media'; f.allowFullscreen = true; f.title = card.title;
+      box.appendChild(f);
+    } else if (card.kind === 'image' && p.image) {
+      const im = document.createElement('img'); im.className = 'dm-full'; im.src = p.image; im.alt = card.title; box.appendChild(im);
+    } else if (card.kind === 'map' && p.lat != null) {
+      const d = mediaEl('div', 'dm-map'); box.appendChild(d);
+      loadLeaflet().then(() => {
+        const map = L.map(d).setView([p.lat, p.lng], p.zoom || 15);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap contributors' }).addTo(map);
+        L.marker([p.lat, p.lng]).addTo(map).bindPopup(p.label || card.title);
+        setTimeout(() => map.invalidateSize(), 50);
+      }).catch(() => { d.textContent = 'Map could not load.'; d.style.color = '#fff'; });
+    }
+    const cap = mediaEl('div', 'dm-cap', card.title + (card.credit ? ' · ' + card.credit : ''));
+    if (card.popup && card.popup.source_url && /^https?:/.test(card.popup.source_url)) {
+      cap.appendChild(document.createTextNode(' · ')); const a = mediaEl('a', null, 'Source'); a.href = card.popup.source_url; a.target = '_blank'; a.rel = 'noopener noreferrer'; cap.appendChild(a);
+    }
+    box.appendChild(cap); m.appendChild(box); m.classList.add('open');
+    mediaTap(card.id);
+  }
+
+  function renderMediaCard(card) {
+    if (card.kind === 'video') {
+      const b = mediaEl('button', 'dm-card'); b.type = 'button';
+      const t = mediaEl('div', 'dm-thumb');
+      if (card.thumb) { const im = document.createElement('img'); im.src = card.thumb; im.alt = ''; im.loading = 'lazy'; t.appendChild(im); }
+      const pl = mediaEl('div', 'dm-play'); pl.appendChild(mediaEl('span', null, '▶')); t.appendChild(pl);
+      const info = mediaEl('div', 'dm-info'); info.appendChild(mediaEl('div', 'dm-title', card.title));
+      const meta = mediaEl('div', 'dm-meta'); const bd = mediaBadge(card); if (bd) meta.appendChild(bd); if (card.credit) meta.appendChild(mediaEl('span', null, card.credit)); info.appendChild(meta);
+      b.appendChild(t); b.appendChild(info); b.onclick = () => openMediaModal(card); return b;
+    }
+    if (card.kind === 'map') {
+      const b = mediaEl('button', 'dm-card'); b.type = 'button';
+      const t = mediaEl('div', 'dm-thumb'); t.appendChild(mediaEl('div', 'dm-ico', '📍'));
+      const info = mediaEl('div', 'dm-info'); info.appendChild(mediaEl('div', 'dm-title', card.title));
+      info.appendChild(mediaEl('div', 'dm-meta', 'Tap to open the map'));
+      b.appendChild(t); b.appendChild(info); b.onclick = () => openMediaModal(card); return b;
+    }
+    return null;
+  }
+
+  function renderMediaBlocks(blocks, mode) {
+    const wrap = mediaEl('div', 'dm-media');
+    const images = mediaEl('div', 'dm-images'); const maps = []; const ids = [];
+    blocks.forEach(b => {
+      if (b.type === 'card' && b.kind === 'image') {
+        const t = mediaEl('button', 'dm-img'); t.type = 'button';
+        if (b.thumb) { const im = document.createElement('img'); im.src = b.thumb; im.alt = b.title; im.loading = 'lazy'; t.appendChild(im); }
+        t.appendChild(mediaEl('div', null, b.title));
+        t.onclick = () => openMediaModal(b); images.appendChild(t); ids.push(b.id);
+        if (mode === 'full' && b.popup && b.popup.image) { const pre = new Image(); pre.src = b.popup.image; }   // Full mode: pre-load
+      } else if (b.type === 'card') {
+        const c = renderMediaCard(b); if (c) { if (b.kind === 'map') maps.push(c); else wrap.appendChild(c); ids.push(b.id); }
+      } else if (b.type === 'link' && b.kind === 'tiktok' && /^https:\/\/(www\.)?tiktok\.com\//.test(b.url || '')) {
+        const row = mediaEl('div', 'dm-link', 'Quick tips: '); const a = mediaEl('a', null, b.title); a.href = b.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        a.onclick = () => mediaTap(b.id); row.appendChild(a); if (b.credit) row.appendChild(document.createTextNode(' (' + b.credit + ')'));
+        wrap.appendChild(row); ids.push(b.id);
+      }
+    });
+    if (images.children.length) wrap.insertBefore(images, wrap.querySelector('.dm-link'));
+    maps.forEach(c => wrap.insertBefore(c, wrap.querySelector('.dm-link')));
+    if (!ids.length) return null;
+    const fb = mediaEl('div', 'dm-fb', 'Helpful?');
+    [['👍', true], ['👎', false]].forEach(([ico, ok]) => {
+      const bt = mediaEl('button', null, ico); bt.type = 'button';
+      bt.onclick = () => { try { fetch('/api/media/feedback', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ item_ids: ids, helpful: ok }) }); } catch (e) {}
+        fb.textContent = 'Thanks'; };
+      fb.appendChild(bt);
+    });
+    wrap.appendChild(fb);
+    return wrap;
+  }
+
+  async function attachMedia(msgDiv, question) {
+    try {
+      const mode = getMediaMode();
+      if (mode === 'text' || !msgDiv || !question) return;
+      const res = await fetch('/api/media/resolve', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                                                     body: JSON.stringify({ question: question.slice(0, 500), data_mode: mode }) });
+      if (!res.ok) return;
+      const data = await res.json();
+      const el = renderMediaBlocks(data.blocks || [], mode);
+      if (!el) return;
+      const toolbar = msgDiv.lastElementChild;
+      if (toolbar && toolbar.classList && !toolbar.classList.contains('md-body')) msgDiv.insertBefore(el, toolbar); else msgDiv.appendChild(el);
+      if (typeof maybeAutoScroll === 'function') maybeAutoScroll();
+    } catch (e) { /* no cards is always acceptable */ }
+  }
+
   async function sendMessage(overrideText) {
     const text = overrideText || inp.value.trim();
     const attachedImage = pendingImage;
@@ -4149,7 +4339,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const answer = stripSim(data.answer) || "I'm still learning about that. Ask me something else.";
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
-      await addMsgTyped(answer, { question: text, sources: data.sources });
+      const _msgDiv = await addMsgTyped(answer, { question: text, sources: data.sources });
+      if (data.source !== 'safety' && !attachedImage) attachMedia(_msgDiv, text);   // media engine: cards appear after the answer
       recordMessage('daisy', answer);
       if (ttsOn) speak(answer);
       if (isExplicitPdfRequest(text) && !containsFileCard(answer)) downloadAsPdf(null, text, answer);
