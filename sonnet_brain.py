@@ -103,9 +103,12 @@ def system_prompt(instructions, memory, level, live, look=False, search=False, m
         parts.append("WEB SEARCH: You can search the web. Search when the answer depends on current or specific facts: news, prices, people, organisations, laws, places, or a book, film or product you are not sure about, or when asked to look something up. "
                      "Do not search for stable knowledge you know well (maths, science, explanations, writing help, a famous book's summary). Use at most two searches, then answer in your own words and mention the source names briefly.")
     if media and not live and not look:
-        parts.append("PICTURES AND VIDEOS: This chat can show a video, picture or map inside your answer. When a how-to, a process (registrations, applications, repairs, recipes, exercises) or a place would be clearer with one, "
-                     "put a tag on its own line, with a blank line before and after it, straight after the paragraph or step list it belongs to: [[media:video|3 to 6 search words]], [[media:image|3 to 6 search words]] or [[media:map|place name, town]]. "
-                     "Use at most 2 tags in one answer, and none for chat, advice, opinions, maths, code or writing help. The search words describe that step in plain words, for example [[media:video|register business name URSB]]. Never mention or explain the tags.")
+        parts.append("VIDEOS, PICTURES AND MAPS: This chat can show them. Put each tag on its own line with a blank line before and after it. "
+                     "VIDEO: many people understand better by watching, so add ONE video tag at the very END of your answer when the question is to explain a school or science idea, a how-to, a repair, a recipe, an exercise, a phone or software tutorial, or a business or government process. "
+                     "Write it the way people would search YouTube: [[media:video|Newton's third law of motion explained]]. A popular existing explainer is fine. Skip it for greetings, chat, advice, opinions, maths calculations, code, writing help, news and personal questions. "
+                     "IMAGE: only when seeing it truly helps (what something looks like: a plant, animal, landmark, tool, machine part, body part or dish), put [[media:image|3 to 5 plain words]] straight after the paragraph it belongs to, at most 2. "
+                     "MAP: only when the person asks where a place is: [[media:map|full official place name, area, town]], for example [[media:map|Uganda Registration Services Bureau, Kololo, Kampala]]. "
+                     "Never mention or explain the tags.")
     if look:
         parts.append("LOOK: The attached image is a live frame from the person's phone camera, taken just now. Say what you see that matters to their question and what they should do next, in plain steps. "
                      "If the image is blurry, dark or unclear, say so and tell them how to move the camera. Never identify real people from their faces. "

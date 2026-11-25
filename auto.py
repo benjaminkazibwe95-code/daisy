@@ -55,7 +55,7 @@ def media_for_marks(marks, mode: str = "thumbs", lang: str = "en"):
     if mode == "text" or not marks:
         return [None] * len(marks)
     try:
-        return _run(asyncio.wait_for(resolver.resolve_marks(marks, mode, lang), 8))
+        return _run(asyncio.wait_for(resolver.resolve_marks(marks, mode, lang), 9))
     except Exception:
         return [None] * len(marks)
 
