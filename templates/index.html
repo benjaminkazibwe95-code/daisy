@@ -1796,6 +1796,9 @@
   
     /* ── MEDIA CARDS (media engine): video / image / map / TikTok under an answer ── */
     .dm-inline { margin: 12px 0 14px; }
+    .dm-fig { margin: 12px 0 14px; max-width: 520px; }
+    .dm-fig img { width: 100%; max-height: 340px; object-fit: cover; border-radius: 14px; display: block; cursor: zoom-in; background: var(--card); }
+    .dm-fig figcaption { font-size: 11px; color: var(--muted); margin-top: 4px; line-height: 1.3; }
     .dm-media { margin: 10px 0 4px; display: flex; flex-direction: column; gap: 8px; }
     .dm-card { display: flex; gap: 10px; align-items: center; width: 100%; max-width: 420px; padding: 8px; text-align: left;
                background: var(--card); border: 1px solid var(--border); border-radius: 14px; color: var(--text); cursor: pointer; font: inherit; }
@@ -4299,13 +4302,28 @@ document.addEventListener('DOMContentLoaded', function() {
     return { text: clean, marks: marks.slice(0, 3) };
   }
   function mediaPlain(s) { return String(s || '').replace(/[*_`#>~|]/g, ' ').replace(/^\s*(?:[-+•]|\d+[.)])\s+/, '').replace(/\s+/g, ' ').trim().toLowerCase(); }
+  // A picture inside the answer, plain like ChatGPT: just the image and a small credit line. Tap to enlarge.
+  function renderInlineImage(card, mode) {
+    const p = card.popup || {};
+    const src = (mode === 'full' ? (p.image || card.thumb) : (card.thumb || p.image));
+    if (!src) return null;
+    const f = mediaEl('figure', 'dm-fig');
+    const im = document.createElement('img'); im.src = src; im.alt = card.title || ''; im.loading = 'lazy';
+    im.onerror = () => { f.style.display = 'none'; };
+    im.onclick = () => openMediaModal(card);
+    f.appendChild(im);
+    if (card.credit) f.appendChild(mediaEl('figcaption', null, card.credit));
+    return f;
+  }
   function placeMediaInline(msgDiv, marks, cards, mode) {
     const body = msgDiv.querySelector('.md-body') || msgDiv;
     let placed = 0;
     marks.forEach((m, i) => {
       const card = cards[i]; if (!card) return;
-      const el = renderMediaBlocks([card], mode); if (!el) return;
+      const el = card.kind === 'image' ? renderInlineImage(card, mode) : renderMediaBlocks([card], mode);
+      if (!el) return;
       el.classList.add('dm-inline');
+      if (card.kind === 'video') { body.appendChild(el); placed++; return; }          // videos always sit at the bottom
       const a = mediaPlain(m.anchor).slice(0, 30);
       let target = null;
       if (a.length >= 8) {
@@ -4322,15 +4340,18 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     return placed;
   }
-  async function attachMediaInline(msgDiv, marks) {
+  // Starts at once, while the answer is still being typed out, so the cards are ready when the typing ends.
+  function fetchMediaCards(marks) {
+    const mode = getMediaMode();
+    if (mode === 'text' || !marks.length) return Promise.resolve([]);
+    return fetch('/api/media/resolve', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ marks: marks.map(m => ({ kind: m.kind, query: m.query })), data_mode: mode }) })
+      .then(r => r.ok ? r.json() : { cards: [] }).then(d => d.cards || []).catch(() => []);
+  }
+  async function attachMediaInline(msgDiv, marks, cardsPromise) {
     try {
-      const mode = getMediaMode();
-      if (mode === 'text' || !msgDiv || !marks.length) return false;
-      const res = await fetch('/api/media/resolve', { method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ marks: marks.map(m => ({ kind: m.kind, query: m.query })), data_mode: mode }) });
-      if (!res.ok) return false;
-      const data = await res.json();
-      const placed = placeMediaInline(msgDiv, marks, data.cards || [], mode);
+      const cards = await cardsPromise;
+      const placed = msgDiv ? placeMediaInline(msgDiv, marks, cards, getMediaMode()) : 0;
       if (placed && typeof maybeAutoScroll === 'function') maybeAutoScroll();
       return placed > 0;
     } catch (e) { return false; }
@@ -4393,12 +4414,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }, (status) => applyLiveStatus(panel, status), abortController.signal);
       const _mm = splitMediaMarks(stripSim(data.answer));
       const answer = _mm.text || "I'm still learning about that. Ask me something else.";
+      const _mediaP = (data.source !== 'safety' && !attachedImage && _mm.marks.length) ? fetchMediaCards(_mm.marks) : null;   // search starts NOW
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
       const _msgDiv = await addMsgTyped(answer, { question: text, sources: data.sources });
       if (data.source !== 'safety' && !attachedImage) {                              // media engine: cards appear after the answer
-        if (_mm.marks.length) attachMediaInline(_msgDiv, _mm.marks).then(ok => { if (!ok) attachMedia(_msgDiv, text); });   // right after the step they belong to
-        else attachMedia(_msgDiv, text);                                            // no tags (Petal, fallback): cards at the bottom as before
+        if (_mediaP) attachMediaInline(_msgDiv, _mm.marks, _mediaP);                // Daisy decided: pictures and maps inside the answer, the video at the bottom
+        else if (data.source !== 'sonnet') attachMedia(_msgDiv, text);              // Daisy (Sonnet) chose none; the old keyword guess is only for Petal / her own brain
       }
       recordMessage('daisy', answer);
       if (ttsOn) speak(answer);
