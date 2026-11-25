@@ -503,6 +503,7 @@ def ask():
     has_image = bool(image and image.get("data"))
     model    = (data.get("model") or "").strip().lower()
     live_hint = bool(data.get("live"))
+    want_media = bool(data.get("media"))     # the web page can show videos/pictures inside answers; the Android app does not (yet)
     look = bool(data.get("look")) and bool(data.get("image"))
     if look:
         lok, lcap, lreset = check_look()
@@ -542,9 +543,12 @@ def ask():
         # Big brain (Claude Sonnet) when the key is set and today's budget allows it
         if sonnet_brain.enabled() and sonnet_brain.budget_ok():
             got = []
+            info = {"searches": 0, "sources": []}
+            can_search = (not live_hint) and (not look) and (not image) and (not (document and document.get("data"))) and search_allowed()
             try:
                 for piece in sonnet_brain.stream(question, history, instructions, memory, level,
-                                                 image, document, paid=paid, live=live_hint, look=look):
+                                                 image, document, paid=paid, live=live_hint, look=look,
+                                                 search=can_search, info=info, media=want_media):
                     got.append(piece)
                     yield sse_line({"event": "delta", "text": piece})
             except Exception as e:
@@ -554,8 +558,9 @@ def ask():
             if got:
                 answer = "".join(got)
                 bump_stats(len(answer.split()), "/ask answered by the big brain")
-                yield sse_line({"event": "final", "answer": answer, "source": "sonnet", "sources": [],
-                                "used_web_search": False, "memory_fact": None})
+                search_used(info.get("searches", 0))
+                yield sse_line({"event": "final", "answer": answer, "source": "sonnet", "sources": info.get("sources", [])[:5],
+                                "used_web_search": bool(info.get("searches")), "memory_fact": None})
                 return
             # fell through: brain unavailable, use Daisy's own brain below
 
@@ -681,6 +686,45 @@ def tts():
     return Response(audio, mimetype="audio/mpeg", headers=hdr)
 
 _title_hits = {}
+_search_hits = {}
+SEARCH_USER = int(os.environ.get("DAISY_SEARCH_PER_DAY", "10"))
+SEARCH_GUEST = int(os.environ.get("DAISY_SEARCH_PER_DAY_GUEST", "4"))
+
+
+def _search_cap_key():
+    key, _ = _limit_who()
+    return key, (SEARCH_USER if key.startswith("u") else SEARCH_GUEST)
+
+
+# Web search is FROZEN until payments exist: every search costs money. Switch on later with DAISY_WEB_SEARCH=1.
+WEB_SEARCH_ON = os.environ.get("DAISY_WEB_SEARCH", "0") == "1"
+
+
+def search_allowed():
+    if not WEB_SEARCH_ON:
+        return False
+    if not sonnet_brain.search_budget_ok():
+        return False
+    key, cap = _search_cap_key()
+    now = _time.time()
+    with _hits_lock:
+        times = [x for x in _search_hits.get(key, []) if now - x < 86400]
+        _search_hits[key] = times
+        return len(times) < cap
+
+
+def search_used(n):
+    if n <= 0:
+        return
+    sonnet_brain.note_searches(n)
+    key, _ = _search_cap_key()
+    now = _time.time()
+    with _hits_lock:
+        _search_hits.setdefault(key, []).extend([now] * n)
+        if len(_search_hits) > 20000:
+            for k in list(_search_hits)[:5000]:
+                _search_hits.pop(k, None)
+
 
 @app.route("/title", methods=["POST"])
 def chat_title():

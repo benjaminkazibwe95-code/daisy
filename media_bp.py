@@ -49,6 +49,8 @@ def resolve():
         return jsonify({"blocks": []})
     d = request.get_json(silent=True) or {}
     mode = d.get("data_mode") if d.get("data_mode") in ("text", "thumbs", "full") else "thumbs"
+    if isinstance(d.get("marks"), list) and d["marks"]:      # tags Daisy wrote inside her answer -> one card per tag, same order
+        return jsonify({"cards": auto.media_for_marks(d["marks"], mode)})
     return jsonify({"blocks": auto.media_for(str(d.get("question", ""))[:500], mode)})
 
 @bp.route("/api/media/feedback", methods=["POST"])

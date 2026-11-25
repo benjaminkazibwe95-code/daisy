@@ -24,6 +24,27 @@ DAILY_CALLS = int(os.environ.get("DAISY_DAILY_CALLS", "3000"))
 
 _lock = threading.Lock()
 _day = {"d": "", "n": 0}
+DAILY_SEARCHES = int(os.environ.get("DAISY_DAILY_SEARCHES", "150"))      # $10 per 1000, so 150 is about $1.50 a day at most
+_sday = {"d": "", "n": 0}
+
+
+def search_budget_ok():
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    with _lock:
+        if _sday["d"] != today:
+            _sday["d"], _sday["n"] = today, 0
+        return _sday["n"] < DAILY_SEARCHES
+
+
+def note_searches(n):
+    if n <= 0:
+        return
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    with _lock:
+        if _sday["d"] != today:
+            _sday["d"], _sday["n"] = today, 0
+        _sday["n"] += n
+
 
 
 def enabled():
@@ -52,7 +73,7 @@ LEVELS = {
 }
 
 
-def system_prompt(instructions, memory, level, live, look=False):
+def system_prompt(instructions, memory, level, live, look=False, search=False, media=False):
     parts = [
         "You are Daisy, a warm, sharp and honest AI assistant made by TrustedBiz in Entebbe, Uganda. "
         "You are an AI and never pretend to be human. If someone asks what technology powers you, say you are Daisy, built by TrustedBiz on a leading AI model.",
@@ -71,12 +92,20 @@ def system_prompt(instructions, memory, level, live, look=False):
         "DIAGRAMS: For processes, steps, hierarchies and relationships, add a diagram as a fenced block with the language diagram and compact JSON, like:\n"
         "```diagram\n{\"title\":\"Register a business\",\"direction\":\"down\",\"nodes\":[{\"id\":\"a\",\"label\":\"Choose a name\"},{\"id\":\"b\",\"label\":\"Register with URSB\"}],\"edges\":[{\"from\":\"a\",\"to\":\"b\",\"label\":\"approved\"}]}\n```\n"
         "direction is down or right. Keep labels short (under 28 characters) and use at most 12 nodes.",
-        "PHONE ACTIONS: Only when the person clearly asks you to do something on their phone, end your reply with ONE hidden tag on its own line and say what you are doing in words. Tags: "
+        "TODAY: it is " + time.strftime("%A %d %B %Y, %H:%M", time.gmtime(time.time() + 3 * 3600)) + " in Uganda (East Africa Time). Use it to work out dates like 'tomorrow' or 'this Friday'.",
+        "PHONE ACTIONS: Only when the person clearly asks you to do something on their phone, end your reply with hidden tags, each on its own line (use several tags when they ask for several things, for example three alarms, at most 5), and say what you are doing in words. Tags: "
         "[[do:open_app|App name]], [[do:call|Name or number]], [[do:sms|Name or number|Message text]], [[do:whatsapp|Name or number|Message text]], "
-        "[[do:navigate|Place]], [[do:timer|Seconds|Label]], [[do:alarm|HH:MM in 24h|Label]], [[do:scan]] (opens the document scanner), [[do:images_to_pdf]] (turns chosen photos into a PDF). "
-        "Never use a tag unless asked. Calls and messages always wait for the person's confirmation, so say you will get it ready.",
+        "[[do:navigate|Place]], [[do:timer|Seconds|Label]], [[do:alarm|HH:MM in 24h|Label]], [[do:event|Title|YYYY-MM-DD|HH:MM in 24h or empty for all day|yearly or empty]] (puts an event, birthday or reminder in the person's calendar; use yearly for birthdays), [[do:scan]] (opens the document scanner), [[do:images_to_pdf]] (turns chosen photos into a PDF). "
+        "Never use a tag unless asked. Calls, messages, alarms and calendar events always wait for the person's confirmation, so say you will get it ready and the person taps Confirm.",
         "FILES: If the person attaches a document or photo, use it directly. When asked to summarise, quote only what is really in it.",
     ]
+    if search:
+        parts.append("WEB SEARCH: You can search the web. Search when the answer depends on current or specific facts: news, prices, people, organisations, laws, places, or a book, film or product you are not sure about, or when asked to look something up. "
+                     "Do not search for stable knowledge you know well (maths, science, explanations, writing help, a famous book's summary). Use at most two searches, then answer in your own words and mention the source names briefly.")
+    if media and not live and not look:
+        parts.append("PICTURES AND VIDEOS: This chat can show a video, picture or map inside your answer. When a how-to, a process (registrations, applications, repairs, recipes, exercises) or a place would be clearer with one, "
+                     "put a tag on its own line, with a blank line before and after it, straight after the paragraph or step list it belongs to: [[media:video|3 to 6 search words]], [[media:image|3 to 6 search words]] or [[media:map|place name, town]]. "
+                     "Use at most 2 tags in one answer, and none for chat, advice, opinions, maths, code or writing help. The search words describe that step in plain words, for example [[media:video|register business name URSB]]. Never mention or explain the tags.")
     if look:
         parts.append("LOOK: The attached image is a live frame from the person's phone camera, taken just now. Say what you see that matters to their question and what they should do next, in plain steps. "
                      "If the image is blurry, dark or unclear, say so and tell them how to move the camera. Never identify real people from their faces. "
@@ -174,7 +203,7 @@ def user_content(question, image, document):
     return blocks, None
 
 
-def stream(question, history, instructions, memory, level, image, document, paid=False, live=False, look=False):
+def stream(question, history, instructions, memory, level, image, document, paid=False, live=False, look=False, search=False, info=None, media=False):
     """Yields pieces of text as Claude writes them. Raises on failure."""
     blocks, err = user_content(question, image, document)
     if err:
@@ -192,7 +221,7 @@ def stream(question, history, instructions, memory, level, image, document, paid
         "anthropic-version": "2023-06-01",
         "content-type": "application/json",
     }
-    system = [{"type": "text", "text": system_prompt(instructions, memory, level, live, look),
+    system = [{"type": "text", "text": system_prompt(instructions, memory, level, live, look, search, media),
                "cache_control": {"type": "ephemeral"}}]
     max_tokens = 400 if live else (MAX_TOKENS_PAID if paid else MAX_TOKENS_FREE)
     # An answer must never stop half way: when Claude runs out of room (stop_reason max_tokens)
@@ -205,6 +234,9 @@ def stream(question, history, instructions, memory, level, image, document, paid
             msgs.append({"role": "assistant", "content": written.rstrip()})
             msgs.append({"role": "user", "content": "Continue exactly where you stopped. Do not repeat anything and do not add an introduction. Finish the answer."})
         body = {"model": MODEL, "max_tokens": max_tokens, "stream": True, "system": system, "messages": msgs}
+        if search and not live:
+            body["tools"] = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 2,
+                              "user_location": {"type": "approximate", "country": "UG", "timezone": "Africa/Kampala"}}]
         stop = None
         with requests.post(API_URL, headers=headers, data=json.dumps(body), stream=True, timeout=(10, 90)) as r:
             if r.status_code != 200:
@@ -219,7 +251,17 @@ def stream(question, history, instructions, memory, level, image, document, paid
                 except Exception:
                     continue
                 t = ev.get("type")
-                if t == "content_block_delta":
+                if t == "content_block_start":
+                    cb = ev.get("content_block") or {}
+                    if cb.get("type") == "server_tool_use" and info is not None:
+                        info["searches"] = info.get("searches", 0) + 1
+                    elif cb.get("type") == "web_search_tool_result" and info is not None and isinstance(cb.get("content"), list):
+                        for res in cb["content"]:
+                            u = (res.get("url") or "")
+                            host = re.sub(r"^https?://(www\.)?", "", u).split("/")[0]
+                            if host and host not in info.setdefault("sources", []):
+                                info["sources"].append(host)
+                elif t == "content_block_delta":
                     d = ev.get("delta") or {}
                     if d.get("type") == "text_delta" and d.get("text"):
                         written += d["text"]

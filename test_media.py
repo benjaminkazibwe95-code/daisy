@@ -84,3 +84,29 @@ assert d["counts"] and "top_misses" in d
 assert c.post(f"/api/media/admin/item/{vid}/disable").get_json()["status"] == "disabled"
 assert not any(x.get("id") == vid for x in auto.media_for(q, "thumbs"))  # kill switch works instantly
 print("all checks passed")
+
+# ---- regression: the wrong cards seen in the screenshots (one shared word must not make a match)
+arb = db.add_item("image", "About ARB - Architects Registration Board", "architects registration board", tier="official", credit="ARB", source_url="https://arb.go.ug/about")
+nita = db.add_item("image", "National Information Technology Authority - Uganda (NITA-U) Official Website", "nita information technology uganda", tier="official", credit="NITA-U", source_url="https://nita.go.ug/")
+pod = db.add_item("video", "Women Who Lead | Susan Nava on Business, Growth & Entrepreneurship in Uganda", "women lead business growth entrepreneurship uganda", tier="official", credit="MoICT", source_url="https://youtube.com/watch?v=bbbbbbbbbbb", meta={"embed_url": "x"})
+for it in (arb, nita, pod):
+    row = db.get_item(it)
+    assert matcher.score("hey register business uganda", row, "en") == 0.0, row["title"]
+assert matcher.score("register business uganda ursb please", db.get_item(vid), "en") >= matcher.THRESHOLD   # the right card still wins
+print("regression checks passed")
+
+# ---- inline tags: one card per tag, in order, nothing leaks in text mode, junk is dropped
+v2 = db.add_item("video", "How to register a business name with URSB", "register business name ursb", tier="official", credit="URSB", source_url="https://youtube.com/watch?v=ccccccccccc", meta={"embed_url": "https://www.youtube-nocookie.com/embed/ccccccccccc"})
+i2 = db.add_item("image", "URSB name reservation page", "ursb name reservation business", tier="official", thumb="thumbs/t.webp", meta={"full": "thumbs/t.webp"}, credit="URSB", source_url="https://ursb.go.ug/r2")
+cards = auto.media_for_marks([{"kind": "video", "query": "register business name ursb"}, {"kind": "image", "query": "ursb name reservation business"},
+                              {"kind": "video", "query": "zzz qqq unknown thing"}, {"kind": "bad", "query": "x"}], "thumbs")
+assert cards[0]["id"] == v2 and cards[0]["label"] == "Official", cards
+assert cards[1]["kind"] == "image" and cards[1]["tier"] == "official", cards
+assert len(cards) == 3                      # the bad kind was dropped, the unmatched one stays as None in place
+assert auto.media_for_marks([{"kind": "video", "query": "register business name ursb"}], "text") == [None]
+assert auto.clean_marks([{"kind": "map", "query": "URSB <script> office, Kampala!"}])[0]["query"] == "URSB script office Kampala"
+c = bp_client = Flask(__name__)
+c.register_blueprint(media_bp.bp)
+r = c.test_client().post("/api/media/resolve", json={"marks": [{"kind": "video", "query": "register business name ursb"}], "data_mode": "thumbs"})
+assert r.get_json()["cards"][0]["kind"] == "video"
+print("inline checks passed")
