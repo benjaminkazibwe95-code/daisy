@@ -4373,16 +4373,46 @@ document.addEventListener('DOMContentLoaded', function() {
   async function attachMedia(msgDiv, question) {
     try {
       const mode = getMediaMode();
-      if (mode === 'text' || !msgDiv || !question) return;
+      if (mode === 'text' || !msgDiv || !question) return [];
       const res = await fetch('/api/media/resolve', { method: 'POST', headers: { 'Content-Type': 'application/json' },
                                                      body: JSON.stringify({ question: question.slice(0, 500), data_mode: mode }) });
-      if (!res.ok) return;
+      if (!res.ok) return [];
       const data = await res.json();
       const el = renderMediaBlocks(data.blocks || [], mode);
-      if (!el) return;
+      if (!el) return [];
       const toolbar = msgDiv.lastElementChild;
       if (toolbar && toolbar.classList && !toolbar.classList.contains('md-body')) msgDiv.insertBefore(el, toolbar); else msgDiv.appendChild(el);
       if (typeof maybeAutoScroll === 'function') maybeAutoScroll();
+      return data.blocks || [];
+    } catch (e) { return []; /* no cards is always acceptable */ }
+  }
+
+  // ── Cards must survive leaving and coming back. The chat is stored as {role, text}; the cards only ever lived on the
+  // screen. So each Daisy message now also carries `media` = {marks, cards} (or {blocks} for the keyword path).
+  function saveMediaWithMessage(s, owner) {
+    const rec = owner.messages[owner.messages.length - 1];
+    if (!rec) return;
+    if (s.marks) { rec.media = { marks: s.marks }; persistCurrentChat(owner); }      // marks first: if she leaves early, the cards are re-fetched later
+    Promise.resolve(s.promise).then(res => {
+      res = res || [];
+      if (s.marks) { if (res.some(Boolean)) rec.media.cards = res; }
+      else if (res.length) rec.media = { blocks: res };
+      persistCurrentChat(owner);
+    }).catch(() => {});
+  }
+  async function restoreMedia(div, media) {
+    try {
+      const mode = getMediaMode();
+      if (!div || !media || mode === 'text') return;
+      if (media.blocks && media.blocks.length) {
+        const el = renderMediaBlocks(media.blocks, mode);
+        if (el) { const tb = div.lastElementChild; if (tb && tb.classList && !tb.classList.contains('md-body')) div.insertBefore(el, tb); else div.appendChild(el); }
+        return;
+      }
+      const marks = media.marks || [];
+      if (!marks.length) return;
+      const cards = (media.cards && media.cards.length) ? media.cards : await fetchMediaCards(marks);   // saved before the cards were ready
+      placeMediaInline(div, marks, cards, mode);
     } catch (e) { /* no cards is always acceptable */ }
   }
 
@@ -4432,11 +4462,14 @@ document.addEventListener('DOMContentLoaded', function() {
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
       const _msgDiv = await addMsgTyped(answer, { question: text, sources: data.sources });
+      let _mediaSave = null;                                                          // what to store with this message so the cards come back
       if (data.source !== 'safety' && !attachedImage) {                              // media engine: cards appear after the answer
-        if (_mediaP) attachMediaInline(_msgDiv, _marks, _mediaP);                // Daisy decided: pictures and maps inside the answer, the video at the bottom
-        else if (data.source !== 'sonnet') attachMedia(_msgDiv, text);              // Daisy (Sonnet) chose none; the old keyword guess is only for Petal / her own brain
+        if (_mediaP) { attachMediaInline(_msgDiv, _marks, _mediaP);                // Daisy decided: pictures and maps inside the answer, the video at the bottom
+                       _mediaSave = { marks: _marks.map(m => ({ kind: m.kind, query: m.query, anchor: m.anchor || '' })), promise: _mediaP }; }
+        else if (data.source !== 'sonnet') _mediaSave = { promise: attachMedia(_msgDiv, text) };   // Daisy (Sonnet) chose none; the old keyword guess is only for Petal / her own brain
       }
       recordMessage('daisy', answer);
+      if (_mediaSave) saveMediaWithMessage(_mediaSave, currentChat);
       if (ttsOn) speak(answer);
       if (isExplicitPdfRequest(text) && !containsFileCard(answer)) downloadAsPdf(null, text, answer);
     } catch(e) {
@@ -5082,21 +5115,22 @@ document.addEventListener('DOMContentLoaded', function() {
     persistCurrentChat();
   }
 
-  function persistCurrentChat() {
-    if (!currentChat.id) return;
-    if (currentChat.projectId) {
+  function persistCurrentChat(chat) {
+    chat = chat || currentChat;
+    if (!chat.id) return;
+    if (chat.projectId) {
       // Shared project chat — synced through the backend so every
       // device/person in the project sees it.
-      fetch(`/api/projects/${currentChat.projectId}/chats/${currentChat.id}`, {
+      fetch(`/api/projects/${chat.projectId}/chats/${chat.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ title: currentChat.title, messages: currentChat.messages })
+        body: JSON.stringify({ title: chat.title, messages: chat.messages })
       }).catch(() => {});
     } else {
       // Personal recent chat — this device only.
       let recents = loadRecents();
-      const idx = recents.findIndex(c => c.id === currentChat.id);
-      const entry = { id: currentChat.id, title: currentChat.title || 'New chat', messages: currentChat.messages, updatedAt: Date.now() };
+      const idx = recents.findIndex(c => c.id === chat.id);
+      const entry = { id: chat.id, title: chat.title || 'New chat', messages: chat.messages, updatedAt: Date.now() };
       if (idx >= 0) recents[idx] = entry; else recents.unshift(entry);
       saveRecentsList(recents.slice(0, 50));
     }
@@ -5116,7 +5150,7 @@ document.addEventListener('DOMContentLoaded', function() {
     currentChat = { id: chat.id, title: chat.title, projectId: projectId || null, messages: chat.messages || [] };
     chatArea.innerHTML = '';
     activateChat();
-    (chat.messages || []).forEach(m => addMsg(m.text, m.role === 'user' ? 'user' : 'daisy'));
+    (chat.messages || []).forEach(m => { const el = addMsg(m.text, m.role === 'user' ? 'user' : 'daisy'); if (m.media && m.role !== 'user') restoreMedia(el, m.media); });
     closeOverlay();
   }
 
