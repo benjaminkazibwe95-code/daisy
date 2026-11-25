@@ -51,6 +51,7 @@ async def _map(query, lang):
                 params["countrycodes"] = os.getenv("DEFAULT_COUNTRY_CODES")   # e.g. "ug"
             r = await c.get("https://nominatim.openstreetmap.org/search", params=params)
             if r.status_code != 200:
+                print(f"[media] map: OpenStreetMap answered {r.status_code} for '{q[:50]}' (check OSM_USER_AGENT)", flush=True)
                 continue
             hits = r.json()
             if hits:
@@ -101,6 +102,7 @@ async def find_pending_or_live(query, kind, lang):
             return await _youtube(query, lang)
         if kind == "map":
             return await _map(query, lang)
-    except Exception:
+    except Exception as e:
+        print(f"[media] live {kind} error: {type(e).__name__}: {str(e)[:160]}", flush=True)
         return None          # fallback (incl. quota exhausted) must never break the answer
     return None

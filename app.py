@@ -557,6 +557,8 @@ def ask():
                     got = None
             if got:
                 answer = "".join(got)
+                if want_media:
+                    print("[media] tags in answer:", re.findall(r"\[\[media:[^\]]*\]\]", answer)[:4] or "none", flush=True)
                 bump_stats(len(answer.split()), "/ask answered by the big brain")
                 search_used(info.get("searches", 0))
                 yield sse_line({"event": "final", "answer": answer, "source": "sonnet", "sources": info.get("sources", [])[:5],

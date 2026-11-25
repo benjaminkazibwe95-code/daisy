@@ -1,5 +1,5 @@
 """Turns Daisy's blocks into final UI blocks: picks media, enforces limits, applies data mode."""
-import asyncio, json, re
+import asyncio, json, re, time
 from collections import Counter
 from . import db, matcher, fallback
 
@@ -42,14 +42,19 @@ TIMEOUT = {"video": 7, "image": 5, "map": 4}       # seconds each; a slow one ne
 
 async def _one(kind, q, lang):
     # pictures inside an answer must look like real photos or diagrams: never a crawled logo / page image
+    t0 = time.time()
     item, _ = matcher.find(q, kind, lang, tiers=(("auto", "curated") if kind == "image" else None))
     if item:
+        print(f"[media] {kind} '{q[:60]}' -> library {time.time()-t0:.1f}s", flush=True)
         return item
     db.log_miss(q, kind)
     try:
-        return await asyncio.wait_for(fallback.find_pending_or_live(q, kind, lang), TIMEOUT.get(kind, 5))
-    except Exception:
+        item = await asyncio.wait_for(fallback.find_pending_or_live(q, kind, lang), TIMEOUT.get(kind, 5))
+    except Exception as e:
+        print(f"[media] {kind} '{q[:60]}' -> TIMED OUT / failed ({type(e).__name__}) {time.time()-t0:.1f}s", flush=True)
         return None
+    print(f"[media] {kind} '{q[:60]}' -> {'live' if item else 'nothing found'} {time.time()-t0:.1f}s", flush=True)
+    return item
 
 async def resolve_marks(marks, data_mode="thumbs", lang="en"):
     """One card (or None) per tag Daisy wrote, in the SAME order. All tags are searched AT THE SAME TIME
