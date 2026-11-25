@@ -4340,6 +4340,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     return placed;
   }
+  // If Daisy wrote no tag, the question itself still decides the obvious cases:
+  //   "where is X" -> a map of X;  "how do I ... / explain ... / what is ..." -> one explainer video at the bottom.
+  function impliedMediaMarks(question) {
+    const q = String(question || '').replace(/\s+/g, ' ').trim();
+    if (q.length < 8 || q.length > 160) return [];
+    let m = q.match(/^(?:please\s+)?(?:show me\s+)?(?:on a map\s+)?where(?:'s| is| are| can i find| exactly is)\s+(.{3,80}?)\s*\??$/i)
+         || q.match(/^(?:directions? to|location of|how (?:do i|can i|to) get to)\s+(.{3,80}?)\s*\??$/i);
+    if (m) return [{ kind: 'map', query: m[1].replace(/^the\s+/i, ''), anchor: '' }];
+    const skip = /\b(code|python|javascript|function|poem|essay|write|translate|calculate|solve)\b|\d+[^\d]+\d+/i;   // sums and calculations (two numbers) get no video
+    if (!skip.test(q) && /^(how (do|can|to|does|should|would) |how to |explain |teach me |show me how |what (is|are|does) |why (is|are|does|do) |tutorial|steps? to )/i.test(q))
+      return [{ kind: 'video', query: q.replace(/\?+$/, '').slice(0, 90), anchor: '' }];
+    return [];
+  }
   // Starts at once, while the answer is still being typed out, so the cards are ready when the typing ends.
   function fetchMediaCards(marks) {
     const mode = getMediaMode();
@@ -4414,12 +4427,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }, (status) => applyLiveStatus(panel, status), abortController.signal);
       const _mm = splitMediaMarks(stripSim(data.answer));
       const answer = _mm.text || "I'm still learning about that. Ask me something else.";
-      const _mediaP = (data.source !== 'safety' && !attachedImage && _mm.marks.length) ? fetchMediaCards(_mm.marks) : null;   // search starts NOW
+      const _marks = (_mm.marks.length || data.source !== 'sonnet') ? _mm.marks : impliedMediaMarks(text);
+      const _mediaP = (data.source !== 'safety' && !attachedImage && _marks.length) ? fetchMediaCards(_marks) : null;   // search starts NOW
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
       await settleThinkingPanel(panel, data);
       const _msgDiv = await addMsgTyped(answer, { question: text, sources: data.sources });
       if (data.source !== 'safety' && !attachedImage) {                              // media engine: cards appear after the answer
-        if (_mediaP) attachMediaInline(_msgDiv, _mm.marks, _mediaP);                // Daisy decided: pictures and maps inside the answer, the video at the bottom
+        if (_mediaP) attachMediaInline(_msgDiv, _marks, _mediaP);                // Daisy decided: pictures and maps inside the answer, the video at the bottom
         else if (data.source !== 'sonnet') attachMedia(_msgDiv, text);              // Daisy (Sonnet) chose none; the old keyword guess is only for Petal / her own brain
       }
       recordMessage('daisy', answer);
