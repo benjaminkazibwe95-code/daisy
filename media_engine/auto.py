@@ -38,6 +38,27 @@ def build_blocks(question: str):
         blocks.append({"type": "media", "kind": "map", "query": q})
     return blocks
 
+def clean_marks(marks, n: int = 3):
+    """Tags written by Daisy: keep only known kinds and a few plain search words."""
+    out = []
+    for m in (marks or [])[:n]:
+        if not isinstance(m, dict) or m.get("kind") not in ("video", "image", "map"):
+            continue
+        q = " ".join(re.findall(r"[\w']+", str(m.get("query", "")))[:8])[:80]
+        if q:
+            out.append({"kind": m["kind"], "query": q})
+    return out
+
+def media_for_marks(marks, mode: str = "thumbs", lang: str = "en"):
+    """List aligned with the cleaned marks: a card or None for each. Never raises, never takes long."""
+    marks = clean_marks(marks)
+    if mode == "text" or not marks:
+        return [None] * len(marks)
+    try:
+        return _run(asyncio.wait_for(resolver.resolve_marks(marks, mode, lang), 9))
+    except Exception:
+        return [None] * len(marks)
+
 def media_for(question: str, mode: str = "thumbs", lang: str = "en"):
     if mode == "text":
         return []
