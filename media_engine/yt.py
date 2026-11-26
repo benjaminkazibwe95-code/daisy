@@ -64,5 +64,5 @@ async def channel_subs(channel_ids):                    # 1 unit per 50
 
 async def search(query, lang="en"):                     # 100 units
     d = await _get("search", {"part": "snippet", "q": query, "type": "video", "maxResults": 10,
-                              "relevanceLanguage": lang, "safeSearch": "strict"}, 100)
+                              "relevanceLanguage": lang, "safeSearch": "strict", "videoEmbeddable": "true"}, 100)
     return [i["id"]["videoId"] for i in d.get("items", [])]

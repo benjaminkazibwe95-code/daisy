@@ -1,8 +1,9 @@
 """Turns Daisy's blocks into final UI blocks: picks media, enforces limits, applies data mode."""
-import asyncio, json, re, time
+import asyncio, json, os, re, time
 from collections import Counter
 from . import db, matcher, fallback
 
+IMAGES_ON = os.getenv("MEDIA_IMAGES", "1") == "1"      # MEDIA_IMAGES=0 on Render switches pictures off everywhere
 LIMITS = {"video": 1, "image": 2, "map": 1}
 LIMITS_INLINE = {"video": 1, "image": 2, "map": 1}      # cards placed inside an answer, one per tag Daisy wrote
 HOWTO = re.compile(r"\b(how|steps?|guide|register|apply|start|open|get)\b", re.I)
@@ -62,7 +63,7 @@ async def resolve_marks(marks, data_mode="thumbs", lang="en"):
     used, plan = Counter(), []
     for m in marks:
         kind, q = m.get("kind"), (m.get("query") or "").strip()
-        ok = data_mode != "text" and kind in LIMITS_INLINE and used[kind] < LIMITS_INLINE[kind] and q
+        ok = data_mode != "text" and kind in LIMITS_INLINE and used[kind] < LIMITS_INLINE[kind] and q and (IMAGES_ON or kind != "image")
         if ok:
             used[kind] += 1
         plan.append((kind, q) if ok else None)
