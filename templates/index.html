@@ -4124,7 +4124,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // instant each real status event arrives (while Claude is actually
   // searching/thinking, not on a guessed timer), and resolves with
   // the single "final" event once the stream ends.
-  async function streamAsk(payload, onStatus, signal) {
+  async function streamAsk(payload, onStatus, signal, onDelta) {
     const res = await fetch('/ask', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -4142,6 +4142,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let evt;
       try { evt = JSON.parse(line); } catch (e) { return; }
       if (evt.event === 'status') { if (onStatus) onStatus(evt.status); }
+      else if (evt.event === 'delta') { if (onDelta && evt.text) { try { onDelta(evt.text); } catch (e) {} } }
       else if (evt.event === 'final') { finalData = evt; }
     };
 
@@ -4981,6 +4982,133 @@ document.addEventListener('DOMContentLoaded', function() {
       .replace(/^\s*[-*•]\s+/gm, '').replace(/[*_~>|]/g, '').replace(/\n{2,}/g, '. ').replace(/\n/g, ' ')
       .replace(/\s{2,}/g, ' ').trim();
   }
+  // ── TIMING READOUT: open the page with ?timing=1 (or localStorage daisy_timing=1) to see real milliseconds ──
+  window.DaisyTiming = (function () {
+    let t0 = 0, marks = {}, box = null;
+    const on = () => { try { return /[?&]timing=1/.test(location.search) || localStorage.getItem('daisy_timing') === '1'; } catch (e) { return false; } };
+    function show() {
+      if (!box) {
+        box = document.createElement('div');
+        box.style.cssText = 'position:fixed;left:8px;bottom:8px;z-index:99999;font:11px/1.35 monospace;background:rgba(0,0,0,.78);color:#9ef;padding:6px 9px;border-radius:8px;pointer-events:none;white-space:pre';
+        document.body.appendChild(box);
+      }
+      const order = ['first-text', 'speech-start', 'voice-ready', 'sound', 'final'];
+      box.textContent = 'ms since you asked\n' + order.filter(k => marks[k] != null).map(k => (k + '            ').slice(0, 13) + marks[k]).join('\n');
+    }
+    function begin() { t0 = performance.now(); marks = {}; if (on()) show(); }
+    function mark(name) {
+      if (!t0 || marks[name] != null) return;
+      marks[name] = Math.round(performance.now() - t0);
+      try { console.info('[timing]', name, marks[name] + ' ms'); } catch (e) {}
+      if (on()) show();
+    }
+    return { begin, mark, marks: () => marks };
+  })();
+
+  // ── SPEAK WHILE SHE WRITES ─────────────────────────────────────────────────────────────────────────────────────
+  // The answer arrives in pieces. The voice starts on the first finished sentence instead of waiting for the whole
+  // answer. Each time it needs more, it takes everything that is ready. The voice for the next sentences is warmed
+  // while the current one plays, so there are no gaps. If nothing could be spoken early (short answers, answers
+  // that arrive in one piece), the original path runs exactly as before.
+  function findSentenceEnd(s) {
+    const re = /([.!?]+["')\]\u201d\u2019]*)(\s+)|(\n{2,})/g;
+    let m;
+    while ((m = re.exec(s))) {
+      if (m[3]) { if (m.index > 0) return m.index + m[0].length; continue; }
+      const tok = (s.slice(0, m.index + m[1].length).match(/(\S+)$/) || ['', ''])[1].replace(/^[("'\[]+/, '');
+      if (/^\d+[.)]?$/.test(tok) || /^[A-Za-z]\.$/.test(tok) || /^(?:[A-Za-z]\.){2,}$/.test(tok) ||
+          /^(?:Dr|Mr|Mrs|Ms|Prof|St|vs|etc|e\.g|i\.e|No|Fig)\.$/i.test(tok)) continue;   // "1." "Dr." "e.g." are not sentence ends
+      return m.index + m[0].length;
+    }
+    return -1;
+  }
+  function tagsBalanced(s) {   // never cut inside a [[tag]] or a ``` code block
+    return ((s.match(/\[\[/g) || []).length === (s.match(/\]\]/g) || []).length) && ((s.match(/```/g) || []).length % 2 === 0);
+  }
+  function createLiveVoice(question) {
+    const MAX = 1400, FIRST_MIN = 30;
+    const canEarly = !!(window.DaisyFace && window.DaisyFace.say) && !detectSim(question, '');
+    let raw = '', cursor = 0, spoken = 0, wordBase = 0, lastK = -1, preparedSent = 0;
+    let started = false, playing = false, finalSeen = false, over = false, legacy = false;
+    let sync = null, sim = null, finalAnswer = '', legacyPromise = null, resolveAll = null;
+    const allDone = new Promise(r => { resolveAll = r; });
+    const clean = (t) => humanizeForSpeech(cleanForSpeech(t)).trim();
+
+    function sentenceEnds() {   // offsets (inside raw.slice(cursor)) where a complete, tag-balanced sentence ends
+      const s = raw.slice(cursor), ends = []; let off = 0, rest = s, e;
+      while ((e = findSentenceEnd(rest)) > 0) { off += e; ends.push(off); rest = rest.slice(e); }
+      while (ends.length && !tagsBalanced(s.slice(0, ends[ends.length - 1]))) ends.pop();
+      return ends;
+    }
+    function nextSpan() {
+      const s = raw.slice(cursor);
+      if (finalSeen) return s;                                   // everything that is left
+      const ends = sentenceEnds(); if (!ends.length) return null;
+      if (!started) {                                            // first piece: just enough to begin (about a sentence)
+        for (let k = 0; k < ends.length; k++) if (clean(s.slice(0, ends[k])).length >= FIRST_MIN) return s.slice(0, ends[k]);
+        return null;
+      }
+      return s.slice(0, ends[ends.length - 1]);                  // later: all complete sentences that are ready
+    }
+    function finish() {
+      if (over) return; over = true;
+      liveSpeaking = false; liveSpeakDone = null; micWave.classList.remove('talking');
+      if (sim && window.DaisyBots) setTimeout(() => DaisyBots.home(), 1800);
+      if (window.DaisyFace) DaisyFace.state('idle');
+      if (liveActive() && !micMuted) startSpeechRecognition();
+      resolveAll();
+    }
+    function interrupt() { raw = raw.slice(0, cursor); finalSeen = true; finish(); }   // tapped, or the room closed
+    function pump() {
+      if (over || playing) return;
+      const span = nextSpan();
+      if (span === null) return;                                  // nothing ready yet: the next piece of text calls pump again
+      if (!span) { if (finalSeen) finish(); return; }
+      cursor += span.length; preparedSent = 0;
+      const text = clean(span).slice(0, Math.max(0, MAX - spoken));
+      if (!text) { if (finalSeen && cursor >= raw.length) finish(); else pump(); return; }
+      spoken += text.length;
+      if (!started) {
+        started = true; liveSpeaking = true; stopSpeechRecognition(); micWave.classList.add('talking'); liveSpeakDone = interrupt;
+        if (window.DaisyTiming) DaisyTiming.mark('speech-start');
+      }
+      playing = true;
+      const base = wordBase; wordBase += text.split(/\s+/).filter(Boolean).length;
+      DaisyFace.say(text, {
+        onword: (k) => { lastK = base + k; if (sync) sync.reveal(lastK); },
+        onend: () => { playing = false; if (spoken >= MAX && finalSeen) finish(); else pump(); }
+      });
+    }
+    function warm() {   // while one piece plays, get the voice for the next two sentences ready
+      if (!window.DaisyFace || !DaisyFace.prepare) return;
+      const ends = sentenceEnds(), n = Math.min(2, ends.length);
+      if (n > preparedSent) { const t = clean(raw.slice(cursor, cursor + ends[n - 1])); if (t) DaisyFace.prepare(t); preparedSent = n; }
+    }
+    return {
+      feed(piece) {
+        if (over || legacy || !canEarly || !liveActive()) return;
+        raw += piece;
+        if (window.DaisyTiming) DaisyTiming.mark('first-text');
+        if (!playing) pump(); else warm();
+      },
+      final(rawAnswer, answer) {
+        finalSeen = true; finalAnswer = answer;
+        if (!started) { legacy = true; return; }                 // nothing spoken early: original path, unchanged
+        if (rawAnswer && rawAnswer.startsWith(raw)) raw = rawAnswer;
+        sim = detectSim(question, rawAnswer || raw);
+        if (sim && window.DaisyBots) DaisyBots.form(sim, Math.max(7000, raw.split(/\s+/).length * 420 + 3000));
+        if (!playing) pump();
+      },
+      attachSync(sy) {
+        sync = sy;
+        if (legacy) legacyPromise = liveActive() ? liveSpeakAnswer(question, finalAnswer, sy) : Promise.resolve();
+        else if (lastK >= 0 && sy) sy.reveal(lastK);             // catch the written message up with what was already said
+      },
+      whenDone() { return legacy ? (legacyPromise || Promise.resolve()) : allDone; },
+      abort() { if (started && !over) { try { DaisyFace.stopSay(); } catch (e) {} interrupt(); } }
+    };
+  }
+
   function liveSpeakAnswer(question, answer, sync) {
     return new Promise((resolve) => {
       const sim = detectSim(question, answer);
@@ -5026,21 +5154,27 @@ document.addEventListener('DOMContentLoaded', function() {
     clearPendingImage();
     const panel = addThinkingPanel();
     liveAbort = new AbortController();
+    const voice = createLiveVoice(question);
     try {
+      if (window.DaisyTiming) DaisyTiming.begin();
       const data = await streamAsk({
         question, instructions: getInstructions(), memory: getMemory(), history: priorHistory,
         web_search_enabled: isWebSearchAllowed(), model: getSelectedModel(),
         image: attachedImage ? { media_type: attachedImage.mediaType, data: attachedImage.base64 } : undefined
-      }, (status) => applyLiveStatus(panel, status), liveAbort.signal);
+      }, (status) => applyLiveStatus(panel, status), liveAbort.signal, (piece) => voice.feed(piece));
+      if (window.DaisyTiming) DaisyTiming.mark('final');
       const answer = stripSim(data.answer) || "Still learning that one.";
       if (data.memory_fact) saveMemoryFact(data.memory_fact);
+      if (liveActive()) voice.final(data.answer, answer); else voice.abort();   // speak what is left right now, don't wait for the panel animation
       await settleThinkingPanel(panel, data);
       liveSync = beginSyncedMessage(answer, { question, sources: data.sources }); // the message will follow her voice, word by word
+      voice.attachSync(liveSync);
       recordMessage('daisy', answer);
       if (isExplicitPdfRequest(question) && !containsFileCard(answer)) downloadAsPdf(null, question, answer);
-      if (liveActive()) await liveSpeakAnswer(question, answer, liveSync);
+      if (liveActive()) await voice.whenDone();
       if (liveSync) { liveSync.finish(); liveSync = null; }
     } catch (e) {
+      voice.abort();
       panel._settled = true; panel._cancel(); panel.remove();
       if (e.name !== 'AbortError' && liveActive()) {
         liveSpeaking = true;
@@ -5637,7 +5771,7 @@ function speakSentences(){
   }catch(e){return false}
 }
 /* ---------- neural voice: server /tts (free), falls back to the phone voice ---------- */
-let awaitAudio=false,neuralBroken=false;
+let awaitAudio=false,neuralDownUntil=0;const neuralOK=()=>Date.now()>=neuralDownUntil;
 const VA=new Audio();VA.preload='auto';let vaUnlocked=false;
 function unlockVA(){if(vaUnlocked)return;vaUnlocked=true;try{VA.src='data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=';const p=VA.play();if(p&&p.catch)p.catch(()=>{vaUnlocked=false})}catch(e){vaUnlocked=false}}
 ['pointerdown','touchstart','keydown'].forEach(ev=>addEventListener(ev,unlockVA,{passive:true}));
@@ -5657,11 +5791,9 @@ function fetchTTS(txt,r,pt){
   return p;
 }
 window.DaisyTTS={fetch:fetchTTS};
-function speakNeural(){
-  try{
-    if(neuralBroken||window.DAISY_NEURAL_VOICE===false)return false;
-    try{if(localStorage.getItem('daisy_voice')==='phone')return false}catch(e){}
-    const tok=++speechTok,sents=[];let cu=[];
+function fetchTTSRetry(txt,r,pt){return fetchTTS(txt,r,pt).catch(()=>new Promise(res=>setTimeout(res,350)).then(()=>fetchTTS(txt,r,pt)))}
+function planNeural(words){
+    const sents=[];let cu=[];
     words.forEach((o,i)=>{cu.push(i);if(/[.!?]$/.test(o.w)){sents.push(cu);cu=[]}});
     if(cu.length)sents.push(cu);
     const IJ=/^(ooh|oh|aww|ha|haha|hmm|wow|yay|ah|mmm|whoa|okay|alright|hey)$/i;
@@ -5686,21 +5818,40 @@ function speakNeural(){
       if(g.length===1&&ijw(g[0])){const w=words[g[0]].w.replace(/[^a-z]/gi,'').toLowerCase();if(/^(ooh|wow|yay|ha|haha|whoa|oh)$/.test(w)){r+=4;pp+=5}else if(/^(hmm|aww|ah|mmm)$/.test(w)){r-=6;pp-=2}}
       return{r:r,p:pp};
     });
+    return{groups,txts,energy};
+}
+/* warm the voice for the first two chunks of a text that is about to be spoken (cache hit when it is) */
+function prepareNeural(text){
+  try{
+    if(!neuralOK()||window.DAISY_NEURAL_VOICE===false)return;
+    try{if(localStorage.getItem('daisy_voice')==='phone')return}catch(e){}
+    const ws=parse(text);if(!ws.length)return;
+    const pl=planNeural(ws);
+    for(let i=0;i<Math.min(2,pl.groups.length);i++)fetchTTS(pl.txts[i],pl.energy[i].r,pl.energy[i].p).catch(()=>{});
+  }catch(e){}
+}
+function speakNeural(){
+  try{
+    if(!neuralOK()||window.DAISY_NEURAL_VOICE===false)return false;
+    try{if(localStorage.getItem('daisy_voice')==='phone')return false}catch(e){}
+    const tok=++speechTok;
+    const {groups,txts,energy}=planNeural(words);
     cum=[];let ac=0;sched.forEach(d=>{cum.push(ac);ac+=d});
     boundarySeen=false;awaitAudio=true;
     let played=0;
     const fallback=()=>{if(tok!==speechTok)return;awaitAudio=false;if(speakSentences()===false)finish()};
-    const failed=gi=>{if(tok!==speechTok)return;if(gi===0&&played===0){neuralBroken=true;fallback()}else playGroup(gi+1)};
+    const failed=gi=>{if(tok!==speechTok)return;if(gi===0&&played===0){neuralDownUntil=Date.now()+45000;fallback()}else playGroup(gi+1)};
     const playGroup=gi=>{
       if(tok!==speechTok)return;
       if(gi>=groups.length){finish();return}
-      if(gi+1<groups.length)fetchTTS(txts[gi+1],energy[gi+1].r,energy[gi+1].p).catch(()=>{});
-      fetchTTS(txts[gi],energy[gi].r,energy[gi].p).then(url=>{
+      for(let q=gi+1;q<=gi+2&&q<groups.length;q++)fetchTTS(txts[q],energy[q].r,energy[q].p).catch(()=>{});
+      fetchTTSRetry(txts[gi],energy[gi].r,energy[gi].p).then(url=>{
         if(tok!==speechTok)return;
+        if(gi===0&&window.DaisyTiming)DaisyTiming.mark('voice-ready');
         const g=groups[gi],est=g.reduce((a,i)=>a+sched[i],0);
         let started=false;
         VA.onplaying=()=>{
-          if(started||tok!==speechTok)return;started=true;
+          if(started||tok!==speechTok)return;started=true;if(window.DaisyTiming)DaisyTiming.mark('sound');
           const dur=(isFinite(VA.duration)&&VA.duration>0)?VA.duration*1000:est;
           const mk=ttsMarks.get(url);let s0=0;learned=clamp(dur/est,.4,2.5);
           if(mk&&mk.length){
@@ -5742,7 +5893,7 @@ function speak(text,cb){
       u.onboundary=e=>{if(e.name&&e.name!=='word')return;boundarySeen=true;let k=0;for(let i=0;i<starts.length;i++)if(starts[i]<=e.charIndex)k=i;advance(k)};
       u.onend=finish;u.onerror=finish;try{speechSynthesis.speak(u)}catch(e){}
     }
-  },200);
+  },neuralOK()?50:200);
 }
 
 /* ---------- update ---------- */
@@ -5871,6 +6022,7 @@ window.DaisyFace={
   start,stop,
   say(text,cb){speak(text,cb)},
   stopSay(){stopAll()},
+  prepare(text){prepareNeural(text)},
   corner(on){cornerOn=!!on},
   hear(text){if(speaking)return;const r=mirror(text);if(r){setEmo(r[0],2500);FW={[r[0]]:Math.min(1,r[1]+.1)}}},
   state(s){
