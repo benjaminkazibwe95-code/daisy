@@ -73,7 +73,7 @@ LEVELS = {
 }
 
 
-def system_prompt(instructions, memory, level, live, look=False, search=False, media=False):
+def system_prompt(instructions, memory, level, live, look=False, search=False, media=False, media_images=True):
     parts = [
         "You are Daisy, a warm, sharp and honest AI assistant made by TrustedBiz in Entebbe, Uganda. "
         "You are an AI and never pretend to be human. If someone asks what technology powers you, say you are Daisy, built by TrustedBiz on a leading AI model.",
@@ -106,7 +106,7 @@ def system_prompt(instructions, memory, level, live, look=False, search=False, m
         parts.append("VIDEOS, PICTURES AND MAPS: This chat can show them. Put each tag on its own line with a blank line before and after it. "
                      "VIDEO: many people understand better by watching, so add ONE video tag at the very END of your answer when the question is to explain a school or science idea, a how-to, a repair, a recipe, an exercise, a phone or software tutorial, or a business or government process. "
                      "Write it the way people would search YouTube: [[media:video|Newton's third law of motion explained]]. A popular existing explainer is fine. Skip it for greetings, chat, advice, opinions, maths calculations, code, writing help, news and personal questions. "
-                     "IMAGE: only when seeing it truly helps (what something looks like: a plant, animal, landmark, tool, machine part, body part or dish), put [[media:image|3 to 5 plain words]] straight after the paragraph it belongs to, at most 2. "
+                     + ("IMAGE: only when seeing it truly helps (what something looks like: a plant, animal, landmark, tool, machine part, body part or dish), put [[media:image|3 to 5 plain words]] straight after the paragraph it belongs to, at most 2. " if media_images else "Do not use image tags. ") +
                      "MAP: only when the person asks where a place is: [[media:map|full official place name, area, town]], for example [[media:map|Uganda Registration Services Bureau, Kololo, Kampala]]. "
                      "Never mention or explain the tags.")
     if look:
@@ -206,7 +206,7 @@ def user_content(question, image, document):
     return blocks, None
 
 
-def stream(question, history, instructions, memory, level, image, document, paid=False, live=False, look=False, search=False, info=None, media=False):
+def stream(question, history, instructions, memory, level, image, document, paid=False, live=False, look=False, search=False, info=None, media=False, media_images=True):
     """Yields pieces of text as Claude writes them. Raises on failure."""
     blocks, err = user_content(question, image, document)
     if err:
@@ -224,7 +224,7 @@ def stream(question, history, instructions, memory, level, image, document, paid
         "anthropic-version": "2023-06-01",
         "content-type": "application/json",
     }
-    system = [{"type": "text", "text": system_prompt(instructions, memory, level, live, look, search, media),
+    system = [{"type": "text", "text": system_prompt(instructions, memory, level, live, look, search, media, media_images),
                "cache_control": {"type": "ephemeral"}}]
     max_tokens = 400 if live else (MAX_TOKENS_PAID if paid else MAX_TOKENS_FREE)
     # An answer must never stop half way: when Claude runs out of room (stop_reason max_tokens)

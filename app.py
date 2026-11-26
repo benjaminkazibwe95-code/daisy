@@ -503,7 +503,8 @@ def ask():
     has_image = bool(image and image.get("data"))
     model    = (data.get("model") or "").strip().lower()
     live_hint = bool(data.get("live"))
-    want_media = bool(data.get("media"))     # the web page can show videos/pictures inside answers; the Android app does not (yet)
+    want_media = bool(data.get("media"))     # the web page and the Android app can show videos and maps inside answers
+    want_images = MEDIA_IMAGES_ON and data.get("images", True) is not False     # the Android app sends images:false
     look = bool(data.get("look")) and bool(data.get("image"))
     if look:
         lok, lcap, lreset = check_look()
@@ -548,7 +549,7 @@ def ask():
             try:
                 for piece in sonnet_brain.stream(question, history, instructions, memory, level,
                                                  image, document, paid=paid, live=live_hint, look=look,
-                                                 search=can_search, info=info, media=want_media):
+                                                 search=can_search, info=info, media=want_media, media_images=want_images):
                     got.append(piece)
                     yield sse_line({"event": "delta", "text": piece})
             except Exception as e:
@@ -696,6 +697,10 @@ SEARCH_GUEST = int(os.environ.get("DAISY_SEARCH_PER_DAY_GUEST", "4"))
 def _search_cap_key():
     key, _ = _limit_who()
     return key, (SEARCH_USER if key.startswith("u") else SEARCH_GUEST)
+
+
+# Pictures inside answers: set MEDIA_IMAGES=0 on Render to switch them off everywhere (videos and maps stay)
+MEDIA_IMAGES_ON = os.environ.get("MEDIA_IMAGES", "1") == "1"
 
 
 # Web search is FROZEN until payments exist: every search costs money. Switch on later with DAISY_WEB_SEARCH=1.
