@@ -505,6 +505,7 @@ def ask():
     live_hint = bool(data.get("live"))
     want_media = bool(data.get("media"))     # the web page and the Android app can show videos and maps inside answers
     want_images = MEDIA_IMAGES_ON and data.get("images", True) is not False     # the Android app sends images:false
+    want_maps = data.get("maps", True) is not False                              # ...and maps:false (it opens the route on the phone instead)
     look = bool(data.get("look")) and bool(data.get("image"))
     if look:
         lok, lcap, lreset = check_look()
@@ -549,7 +550,7 @@ def ask():
             try:
                 for piece in sonnet_brain.stream(question, history, instructions, memory, level,
                                                  image, document, paid=paid, live=live_hint, look=look,
-                                                 search=can_search, info=info, media=want_media, media_images=want_images):
+                                                 search=can_search, info=info, media=want_media, media_images=want_images, media_maps=want_maps):
                     got.append(piece)
                     yield sse_line({"event": "delta", "text": piece})
             except Exception as e:
