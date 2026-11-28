@@ -1,0 +1,1 @@
+{"phase": "learning", "corpus_mb": 39.48, "runs": 34, "updated": 1795869349.5460968, "born": 1794549214.8782408, "model_ready": true, "step": 1386865, "loss": 3.766, "val_loss": 3.638, "params_m": 1.3, "size": "tiny"}
